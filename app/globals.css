@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. Tailwind 4 turns each of these into utilities:
+ * --color-good -> bg-good / text-good, --radius-card -> rounded-card, etc.
+ * lib/theme.test.ts checks the names below, so rename there too.
+ */
+@theme {
+  /* Surfaces and text */
+  --color-paper: #fff8ec;
+  --color-surface: #ffffff;
+  --color-ink: #2b2140;
+  --color-ink-soft: #6b6280;
+  --color-line: #eadfcd;
+
+  /* Brand */
+  --color-brand: #7c4dff;
+  --color-brand-soft: #e9e0ff;
+  --color-on-brand: #ffffff;
+  --color-sun: #ffc93c;
+
+  /* Ratings: green = right, orange = nearly, red = didn't have it.
+     Each has a soft tint and a text colour that passes contrast on the solid. */
+  --color-good: #1f9d55;
+  --color-good-soft: #dcf5e6;
+  --color-on-good: #ffffff;
+  --color-nearly: #b85c00;
+  --color-nearly-soft: #ffe8cc;
+  --color-on-nearly: #ffffff;
+  --color-again: #d6336c;
+  --color-again-soft: #ffe0ea;
+  --color-on-again: #ffffff;
+
+  /* Type */
+  --font-display: var(--font-baloo), ui-rounded, "Arial Rounded MT Bold", system-ui, sans-serif;
+  --font-body: var(--font-nunito), ui-rounded, system-ui, sans-serif;
+
+  --text-prompt: 2rem;
+  --text-prompt--line-height: 1.15;
+  --text-answer: 2.75rem;
+  --text-answer--line-height: 1.1;
+
+  /* Radius */
+  --radius-chip: 0.5rem;
+  --radius-button: 1rem;
+  --radius-card: 1.75rem;
+
+  --shadow-card: 0 6px 0 0 var(--color-line);
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-body);
+  min-height: 100dvh;
+}
