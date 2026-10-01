@@ -110,6 +110,13 @@ On a card's first view the rating answers "did I already know this?". Green maps
 
 A card is memorized when its FSRS stability is 21 days or more. Stability is the interval at which predicted recall falls to 90%, so this means "90% likely to be recalled three weeks from now". A red on a memorized card lowers its stability and drops it back to seen.
 
+Decided in B2 (scheduler in `lib/scheduler/scheduler.ts`):
+
+- **Library settings**: `ts-fsrs` 5 with its defaults (FSRS-6 weights, 90% target recall, short-term learning steps of 1 and 10 minutes) and interval fuzz turned off. Fuzz is random, and replay has to give the same state on every device.
+- **Relearning is never memorized.** A red puts a card into FSRS's relearning phase, and a card in that phase is not memorized whatever its stability. The threshold alone is not enough: when a red lands on the same day as the card's previous rating (extra practice), FSRS lowers stability only mildly, so a card with stability of roughly 80 days or more would stay at 21 or above. The card counts as memorized again once a later rating returns it to review with stability still at 21 days or more.
+- **Replay order**: forward reviews sorted by timestamp, with the event id breaking ties. A review timestamped before the card's previous one (a device with a slow clock) is applied as if it happened at the same moment as the previous one.
+- **Card state** holds times as epoch milliseconds and `phase` as `learning`, `review` or `relearning`. An unseen card has no row.
+
 ### Learn
 
 - Shows unseen cards, most common first, in mixed batches: two queues (glue words and content words), each in rank order, drawing about one glue word for every two content words until the glue queue runs out.
@@ -368,7 +375,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | A1 | Scaffold | none | Vercel link | Done except: Vercel preview loads |
 | A2 | Deck schema and fixture deck | A1 | | Done |
 | B1 | Local store | A2 | | Done |
-| B2 | Scheduler | A2 | | Todo |
+| B2 | Scheduler | A2 | | Done |
 | B3 | Queues | B2 | | Todo |
 | B4 | Progress stats and wheel | B2 | | Todo |
 | C1 | Card frame and front | A2 | | Todo |
@@ -428,6 +435,8 @@ Pure logic with tests. No screens.
 **B2 Scheduler**
 - Build: a wrapper around `ts-fsrs`. The rating mapping, including Easy for a first-view green. A replay function that turns forward reviews into card state, identical regardless of the order events were stored in. Predicates for seen, due and memorized, and predicted recall at a given time.
 - Done when: tests cover the mapping, replay determinism, the 21-day threshold, and a red dropping a memorized card back to seen.
+- Note (B2): import from `@/lib/scheduler`. All functions are pure and take `now` as epoch milliseconds; none reads the clock or the store. `replayReviews(reviews)` returns a `Map<cardId, CardState>` holding seen cards only, and ignores reverse reviews, so it can be fed everything from `store.getReviews()`. `rateCard(prev, cardId, rating, timestamp)` applies one forward rating (`prev` is `undefined` on a first view) and gives the same result as replaying, so a session can update one card and call `store.putCardState` without a full replay. `isSeen`, `isDue(state, now)`, `isMemorized(state)` and `predictedRecall(state, now)` all accept `undefined` for an unseen card; recall is 0 to 1, and 0 for an unseen card.
+- Note (B2): always decide memorized with `isMemorized`, not by comparing `stability` to 21, because of the relearning rule under [Memorized](#memorized). After a red a card is due again in 1 to 10 minutes, so a card failed in Learn shows up as due in Practice straight away.
 
 **B3 Queues**
 - Build: the Learn queue (two rank-ordered queues, one glue word per two content words, batch size, reds returning at the end of the batch) and the Practice queue (due by rank, extra practice by recall then rank, shuffle, in order, struggling, part-of-speech filter). Pure functions over the deck, card state and reviews.

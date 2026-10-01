@@ -23,6 +23,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `components/`: React components.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
+- `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.
 - `public/deck/`: `deck.json` plus its art (`img/`) and audio (`audio/`).
 - `@/` is an import alias for the repo root.
 
