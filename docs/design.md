@@ -224,6 +224,15 @@ The device is the source of truth while studying. Supabase is the backup and the
 | `notes` | Card id, text, updated-at, synced flag. |
 | `reports` | Card id, optional comment, created-at, synced flag. |
 
+Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
+
+- **Database**: one Dexie database named `learn-spanish`, schema version 1. Primary keys: `reviews.id`, `card_state.cardId`, `notes.cardId` (one note per card), `reports.id` (a UUID, added so a report has a key).
+- **Times** are numbers: milliseconds since the Unix epoch.
+- **`synced`** is `0` or `1`, not a boolean, because IndexedDB cannot index booleans.
+- **`rating`** is `good`, `nearly` or `again`, matching the rating colour tokens. **`direction`** is `forward` or `reverse`; **`section`** is `learn` or `practice`.
+- **Device id**: a random UUID created on first use and kept in `localStorage` under `learn-spanish.device-id`.
+- **`card_state`** rows only need a `cardId`; the scheduler owns the other fields.
+
 ### Data in Supabase
 
 Tables `reviews`, `notes` and `card_reports`, each with a `user_id` column and row-level security restricting rows to their owner. Card state is not stored on the server; any device rebuilds it by replaying review events.
@@ -358,7 +367,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 |---|---|---|---|---|
 | A1 | Scaffold | none | Vercel link | Done except: Vercel preview loads |
 | A2 | Deck schema and fixture deck | A1 | | Done |
-| B1 | Local store | A2 | | Todo |
+| B1 | Local store | A2 | | Done |
 | B2 | Scheduler | A2 | | Todo |
 | B3 | Queues | B2 | | Todo |
 | B4 | Progress stats and wheel | B2 | | Todo |
@@ -413,6 +422,8 @@ Pure logic with tests. No screens.
 **B1 Local store**
 - Build: the four IndexedDB stores from [Data on the device](#data-on-the-device-indexeddb) using Dexie, with typed functions to append a review, read reviews, save a note, add a report and list unsynced rows.
 - Done when: tests pass against an in-memory IndexedDB.
+- Note (B1): import from `@/lib/store`. The app uses the shared `localStore()`; tests build their own with `new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId })` from `fake-indexeddb`, which gives each test an empty database. Methods: `appendReview`, `getReviews({ cardId?, direction? })` (oldest first, id breaking ties), `saveNote`, `getNote`, `getNotes`, `addReport`, `getReports`, `listUnsynced`, `markSynced`, and for the scheduler's cache `getCardState`, `getAllCardStates`, `putCardState`, `replaceCardStates`.
+- Note (B1): `markSynced` takes the rows `listUnsynced` returned. A note edited during the upload keeps its unsynced flag. Writing rows downloaded from another device is not here; it belongs to D5.
 
 **B2 Scheduler**
 - Build: a wrapper around `ts-fsrs`. The rating mapping, including Easy for a first-view green. A replay function that turns forward reviews into card state, identical regardless of the order events were stored in. Predicates for seen, due and memorized, and predicted recall at a given time.
