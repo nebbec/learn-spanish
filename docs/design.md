@@ -141,6 +141,15 @@ Options within Practice:
 | Part of speech | Entered by tapping a slice of the wheel. |
 | Reverse | A toggle that combines with any of the above. |
 
+Decided in B3 (queues in `lib/queues/queues.ts`):
+
+- **Learn pattern**: two content words, then one glue word, repeated. Each batch is cut fresh from the unseen cards, so the pattern restarts at every batch, and a default batch of 15 holds 10 content words and 5 glue words. If the content queue runs out first, the remaining glue words follow.
+- **Equal ranks**: two meanings of one word share a rank and keep their deck-file order, in every queue.
+- **A red returns once.** A red on the card's second showing in a Learn batch does not bring it back a third time.
+- **Part of speech combines with every option**, not only the default. With no other option it gives that slice's due cards, the caught-up marker, then that slice's extra practice.
+- **Shuffle, In order and Struggling have no caught-up marker**, and Struggling is in rank order.
+- **Reverse does not change the queue.** It changes how a card is shown and how the rating is stored.
+
 ### Reverse
 
 Spanish is shown first and the character stays hidden until the reveal, since it would give the answer away. Ratings are stored with `direction = reverse` and are excluded from scheduling and from the wheel.
@@ -376,7 +385,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | A2 | Deck schema and fixture deck | A1 | | Done |
 | B1 | Local store | A2 | | Done |
 | B2 | Scheduler | A2 | | Done |
-| B3 | Queues | B2 | | Todo |
+| B3 | Queues | B2 | | Done |
 | B4 | Progress stats and wheel | B2 | | Todo |
 | C1 | Card frame and front | A2 | | Todo |
 | C2 | Reveal panel | A2 | | Todo |
@@ -441,6 +450,8 @@ Pure logic with tests. No screens.
 **B3 Queues**
 - Build: the Learn queue (two rank-ordered queues, one glue word per two content words, batch size, reds returning at the end of the batch) and the Practice queue (due by rank, extra practice by recall then rank, shuffle, in order, struggling, part-of-speech filter). Pure functions over the deck, card state and reviews.
 - Done when: each ordering rule in [Learn](#learn) and [Practice](#practice) has a test.
+- Note (B3): import from `@/lib/queues`. All functions are pure; `states` is the map from `replayReviews` (or one built from `store.getAllCardStates()`), and `now` is epoch milliseconds. Learn: `learnBatch(cards, states, batchSize?)` gives the next batch (`learnQueue` gives every unseen card, which D2 needs for caching ahead), and after each rating the session calls `afterLearnRating(batch, index, rating)`, which returns the batch with a red appended once, or the same array.
+- Note (B3): Practice: `practiceQueue({ cards, states, now, reviews }, { mode, pos, random })` returns `{ cards, caughtUpAt }`. `mode` is `due` (the default), `shuffle`, `in-order` or `struggling`, the values C5 should use as URL parameters. `caughtUpAt` is the number of due cards, so the marker goes before `cards[caughtUpAt]`; it is null in the other modes. `reviews` is only read by `struggling` and can be everything from `store.getReviews()`. The queue is not cut into batches and is a snapshot: it is not re-sorted as ratings come in, so a session builds it once when it starts.
 
 **B4 Progress stats and wheel**
 - Build: per part of speech, the total, seen and memorized counts; slice angles with a minimum width; square-root radii. An SVG wheel component with both fill layers, labels, the centre count and a tap callback per slice.
