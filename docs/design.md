@@ -82,6 +82,14 @@ The deck is a static JSON file. One entry per card:
 | `image` | Path to the character still. Null for glue words. |
 | `audio` | Paths to two clips: the word and the example sentence. |
 
+Decided in A2 (types in `lib/deck/types.ts`, validator in `lib/deck/validate.ts`):
+
+- **File**: `public/deck/deck.json`, shaped `{ "version": 1, "cards": [...] }`. The app fetches it from `/deck/deck.json`; media sits beside it under `/deck/img/` and `/deck/audio/`, and `image` and `audio` hold those URL paths.
+- **`grammar`** by `pos`: noun `{ gender: "m" | "f", article }`; adjective `{ feminine }`, with `es` holding the masculine form; verb `{ present: { yo, tu, el }, irregular }`, bare forms without the pronoun; null for every other part of speech.
+- **`example`** is `{ es, en }` and **`audio`** is `{ word, sentence }`.
+- **`pos`** is one of the nine wheel groups. Two meanings of one word share a `rank`.
+- **Rules the validator enforces beyond field types**: no missing or extra fields; a noun's `es` starts with its article; a glue prompt marks exactly one target in square brackets and a content prompt has none; a content card has an image and a glue card does not; ids are unique; no two cards share the same `en` plus `hint`.
+
 ## Learning engine
 
 Spaced repetition using FSRS (the open-source `ts-fsrs` library), running entirely on the device. The user never sees intervals.
@@ -349,7 +357,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | ID | Ticket | Depends on | Human | Status |
 |---|---|---|---|---|
 | A1 | Scaffold | none | Vercel link | Done except: Vercel preview loads |
-| A2 | Deck schema and fixture deck | A1 | | Todo |
+| A2 | Deck schema and fixture deck | A1 | | Done |
 | B1 | Local store | A2 | | Todo |
 | B2 | Scheduler | A2 | | Todo |
 | B3 | Queues | B2 | | Todo |
@@ -395,6 +403,8 @@ Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 a
 - Build: card types and a runtime validator matching [Card data](#card-data). A fixture deck of 12 hand-written cards covering every variety: a regular noun, a noun with unexpected gender, a regular and an irregular verb, an adjective, an adverb, three glue words (one with no English equivalent), a two-meaning pair, and a card with a Spain footnote. Placeholder image and audio files. A deck loader.
 - Done when: the validator accepts the fixture and rejects malformed cards, under test.
 - Why: every app ticket builds against the fixture, so none of them waits for the content pipeline.
+- Note (A2): import from `@/lib/deck` for types, `validateCard`, `validateDeck`, `parseDeck` and `loadDeck`. Tests and screens under construction import `fixtureDeck` and `fixtureCard(id)` from `@/lib/deck/fixture`. The fixture is the file the app serves, `public/deck/deck.json`, until H1 replaces it.
+- Note (A2): placeholder media is one SVG per content card and two WAV tones per card, written by `node scripts/make-fixture-media.mjs`. Real stills and clips will have other extensions; nothing should assume `.svg` or `.wav`.
 
 ### Track B: engine
 

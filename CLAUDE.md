@@ -22,6 +22,8 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `app/globals.css`: design tokens in the Tailwind `@theme` block (colours, type, radius). Use the token utilities (`bg-good`, `bg-nearly`, `bg-again`, `text-ink`, `rounded-card`, `font-display`), not raw hex values.
 - `components/`: React components.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
+- `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
+- `public/deck/`: `deck.json` plus its art (`img/`) and audio (`audio/`).
 - `@/` is an import alias for the repo root.
 
 ## Rules for every ticket
