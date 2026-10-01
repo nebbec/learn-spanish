@@ -206,6 +206,14 @@ A radial chart with one slice per part of speech.
 
 The part-of-speech groups are provisional until the deck exists: noun, verb, adjective, adverb, pronoun, preposition, conjunction, determiner, other.
 
+Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Wheel.tsx`):
+
+- **Slice order**: clockwise from the top, in the order of the list above. A part of speech with no cards gets no slice.
+- **Minimum width**: 20 degrees. A slice whose share is smaller gets 20 degrees, and the other slices share what is left in proportion to their card counts.
+- **No hole in the middle.** The fill starts at the exact centre, as the square-root rule needs. The headline count is drawn over the fill with a light outline around the digits so it stays readable, and taps pass through it to the slices.
+- **One colour for every slice**: the brand purple for memorized and its soft tint for seen. A colour per part of speech can come with the art style (F1).
+- **Labels** sit outside the rim, so a narrow slice can still carry one.
+
 ## Art
 
 - **Job**: illustrate the meaning. The character makes each card distinct and gives the Spanish word something visual to attach to. It does not encode the Spanish sound; sound-alike memory tricks live in the note.
@@ -386,7 +394,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | B1 | Local store | A2 | | Done |
 | B2 | Scheduler | A2 | | Done |
 | B3 | Queues | B2 | | Done |
-| B4 | Progress stats and wheel | B2 | | Todo |
+| B4 | Progress stats and wheel | B2 | | Done |
 | C1 | Card frame and front | A2 | | Todo |
 | C2 | Reveal panel | A2 | | Todo |
 | C3 | Notes, trick and report | B1, C2 | | Todo |
@@ -456,6 +464,8 @@ Pure logic with tests. No screens.
 **B4 Progress stats and wheel**
 - Build: per part of speech, the total, seen and memorized counts; slice angles with a minimum width; square-root radii. An SVG wheel component with both fill layers, labels, the centre count and a tap callback per slice.
 - Done when: the maths is under test and the component renders correctly for empty, partial and complete states.
+- Note (B4): import the maths from `@/lib/progress` and the component from `@/components/Wheel`. `progressStats(cards, states)` returns `{ total, seen, memorized, byPos }`, where `states` is the same map the queues take; unseen cards remaining is `total - seen`. C6 renders `<Wheel stats={stats} onSliceTap={(pos) => ...} className="w-full" />`; `pos` is the value B3's `practiceQueue` takes. Without `onSliceTap` the slices are not buttons. The wheel is an SVG with a 370 by 260 viewBox (wider than tall, to leave room for labels) and scales to its container.
+- Note (B4): component tests run in jsdom, which B4 added as a dev dependency. Put `// @vitest-environment jsdom` on the first line of a `*.test.tsx` file and render with `react-dom/client` inside `act`, as `components/Wheel.test.tsx` does. Other tests stay in the default Node environment.
 
 ### Track C: screens
 
