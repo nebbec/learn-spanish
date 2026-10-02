@@ -10,3 +10,4 @@ export {
 export { SessionView, type SessionViewProps } from "./SessionView";
 export { BatchEnd, type BatchEndProps } from "./BatchEnd";
 export { LearnSession, type LearnSessionProps } from "./LearnSession";
+export { PracticeSession, type PracticeSessionProps } from "./PracticeSession";

@@ -22,11 +22,11 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `app/globals.css`: design tokens in the Tailwind `@theme` block (colours, type, radius). Use the token utilities (`bg-good`, `bg-nearly`, `bg-again`, `text-ink`, `rounded-card`, `font-display`), not raw hex values.
 - `components/`: React components. Component tests sit next to them as `*.test.tsx` and start with `// @vitest-environment jsdom`.
 - `components/card/`: the batch frame with its segmented bar, the front of a card in both directions, and the reveal with its rating buttons. Presentational: props in, events out. The exception is `CardExtras` (note field, trick, report), which reads and writes the local store.
-- `components/session/`: the `useSession` hook that runs a batch (stores each rating, updates card state, advances), the view that draws it, the batch-end screen, and the Learn session built from them.
+- `components/session/`: the `useSession` hook that runs a batch (stores each rating, updates card state, advances), the view that draws it, the batch-end screen, and the Learn and Practice sessions built from them.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
 - `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.
-- `lib/queues/`: the Learn and Practice queues: which cards a session shows and in what order.
+- `lib/queues/`: the Learn and Practice queues: which cards a session shows and in what order. Also the Practice options as URL parameters (`practiceHref`, `parsePracticeParams`).
 - `lib/progress/`: seen and memorized counts per part of speech, and the wheel's slice angles and fill radii. `components/Wheel.tsx` draws it.
 - `public/deck/`: `deck.json` plus its art (`img/`) and audio (`audio/`).
 - `@/` is an import alias for the repo root.

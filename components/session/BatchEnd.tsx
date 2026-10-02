@@ -10,6 +10,8 @@ export interface BatchEndProps {
   /** Starts another batch. Leave out when there is nothing more to study. */
   onAnother?: () => void;
   anotherLabel?: string;
+  /** Extra controls above the buttons, e.g. Practice's Reverse toggle. */
+  actions?: ReactNode;
   onMenu: () => void;
 }
 
@@ -24,7 +26,7 @@ const SOFT: Record<string, string> = {
  * another batch or the menu. Goes inside `BatchFrame`. The mascot slot is
  * empty until F3; C7 adds the celebration.
  */
-export function BatchEnd({ title, summary, children, onAnother, anotherLabel = "Another batch", onMenu }: BatchEndProps) {
+export function BatchEnd({ title, summary, children, onAnother, anotherLabel = "Another batch", actions, onMenu }: BatchEndProps) {
   return (
     <div data-testid="batch-end" className="flex min-h-0 flex-1 flex-col gap-3">
       <div className="flex min-h-0 flex-1 flex-col items-center justify-center gap-5 overflow-y-auto rounded-card border-2 border-line bg-surface p-6 text-center shadow-card">
@@ -45,6 +47,7 @@ export function BatchEnd({ title, summary, children, onAnother, anotherLabel = "
         </dl>
       </div>
       <div className="flex flex-col gap-2">
+        {actions}
         {onAnother && (
           <button
             type="button"

@@ -150,6 +150,15 @@ Decided in B3 (queues in `lib/queues/queues.ts`):
 - **Shuffle, In order and Struggling have no caught-up marker**, and Struggling is in rank order.
 - **Reverse does not change the queue.** It changes how a card is shown and how the rating is stored.
 
+Decided in C5 (session in `components/session/PracticeSession.tsx`, URL parameters in `lib/queues/params.ts`):
+
+- **URL**: `/practice?mode=shuffle&pos=verb&reverse=1`. `mode` is `shuffle`, `in-order` or `struggling`; `pos` is a part of speech; `reverse=1` turns Reverse on. Each is optional, and a missing or unknown value gives the default (due cards, every part of speech, forward).
+- **Practice runs in batches too.** The queue is built once when the screen opens and cut into batches of the batch size, each ending on the batch-end screen with a count of the cards left.
+- **The caught-up marker is a screen, not a point in a scroll.** Due cards and extra practice never share a batch. The batch-end screen after the last due card is the marker ("You're all caught up!") and its button reads "Extra practice". With nothing due, Practice opens on the marker.
+- **The Reverse toggle sits on the marker and on every batch-end screen**, and takes effect from the next batch. It updates the URL without restarting the sitting. A sitting can also start in Reverse from the link.
+- **In Reverse the due cards stay due**, since the ratings do not reach the schedule; the marker still follows the last of them.
+- **An empty queue** shows "Nothing to practise yet" (or "No struggling cards") and a way back to the menu, not the marker.
+
 ### Reverse
 
 Spanish is shown first and the character stays hidden until the reveal, since it would give the answer away. Ratings are stored with `direction = reverse` and are excluded from scheduling and from the wheel.
@@ -407,7 +416,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C2 | Reveal panel | A2 | | Done |
 | C3 | Notes, trick and report | B1, C2 | | Done |
 | C4 | Learn session | B1, B3, C1, C2 | | Done |
-| C5 | Practice session | C4 | | Todo |
+| C5 | Practice session | C4 | | Done |
 | C6 | Menu | B4, C5 | | Todo |
 | C7 | Motion | C4 | | Todo |
 | D1 | Installable app and service worker | A2 | | Todo |
@@ -508,6 +517,9 @@ Built against the fixture deck.
 **C5 Practice session**
 - Build: the `/practice` route reusing the C4 hook. The caught-up marker and extra practice. Shuffle, in order, struggling and part of speech as URL parameters. The Reverse toggle, storing ratings with `direction = reverse`.
 - Done when: each option produces the expected order, and a Reverse session leaves card state unchanged.
+- Note (C5): `PracticeSession` from `@/components/session` takes `cards`, `states`, `reviews`, `mode?`, `pos?`, `reverse?`, `onReverseChange?`, `onExit`, and for tests `batchSize?`, `store?`, `clock?`, `random?`. `app/practice/PracticeScreen.tsx` is the route: it reads the options with `useSearchParams`, so `app/practice/page.tsx` wraps it in `Suspense` and the page stays static. The session is keyed on `mode` and `pos`, so a link with a different option starts a new sitting.
+- Note (C5): C6 builds its links with `practiceHref({ mode?, pos?, reverse? })` from `@/lib/queues` (`parsePracticeParams` is the other direction); the wheel's slice tap is `router.push(practiceHref({ pos }))`. If the menu has its own Reverse toggle it only needs to put `reverse` in the link. `BatchEnd` gained an optional `actions` slot, drawn above its buttons. Test ids: `caught-up` (the marker, in both places), `practice-empty`, `reverse-toggle`, and `another-batch`, `to-menu` and `summary-remaining` as in Learn. Both marker screens have an empty `mascot-slot` for F3.
+- Note (C5): the done-when check is `components/session/practice.test.tsx` (options parsed from a query string, as the route does) and `lib/queues/params.test.ts`. The production build serves `/practice` with parameters, but nobody has tapped through it in a real browser yet; like Learn, that is worth doing by hand before H1.
 
 **C6 Menu**
 - Build: the wheel with live stats, the Learn button with its remaining count, the Practice button with its due count, the Practice options, slice tap leading to Practice for that part of speech, a settings link, and a slot for the mascot.
