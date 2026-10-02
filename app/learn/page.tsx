@@ -1,5 +1,5 @@
-import { Placeholder } from "@/components/Placeholder";
+import { LearnScreen } from "./LearnScreen";
 
 export default function LearnPage() {
-  return <Placeholder title="Learn" ticket="C4" />;
+  return <LearnScreen />;
 }

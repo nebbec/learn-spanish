@@ -190,6 +190,14 @@ Swipe-down also triggers pull-to-refresh in phone browsers. The card screen disa
 
 A short celebration with the mascot, a summary of the batch, and a choice of another batch or the menu.
 
+Decided in C4 (session in `components/session`):
+
+- **A rating is saved before the card advances.** The review is appended to the store first; if that fails the card stays on screen with a message and can be rated again. A second tap while the first is saving is ignored, so one showing gives one review.
+- **Screens read card state by replaying reviews**, not from the `card_state` store. A session still writes `card_state` after each forward rating, but that store is a cache, and a failed write to it does not stop the session.
+- **Summary**: the number of cards in the batch and a count under each rating button's label. A card that came back after a red counts once, under its first rating.
+- **Another batch** is offered only while unseen cards remain. With none left, Learn shows "Nothing new to learn" and a way back to the menu.
+- **Closing a batch part-way** keeps the ratings already given; the unrated cards stay unseen and lead the next batch.
+
 ### Settings
 
 Sign in, sync status, "download everything for offline", batch size.
@@ -398,7 +406,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C1 | Card frame and front | A2 | | Done |
 | C2 | Reveal panel | A2 | | Done |
 | C3 | Notes, trick and report | B1, C2 | | Done |
-| C4 | Learn session | B1, B3, C1, C2 | | Todo |
+| C4 | Learn session | B1, B3, C1, C2 | | Done |
 | C5 | Practice session | C4 | | Todo |
 | C6 | Menu | B4, C5 | | Todo |
 | C7 | Motion | C4 | | Todo |
@@ -493,6 +501,9 @@ Built against the fixture deck.
 **C4 Learn session**
 - Build: a session hook that takes a queue, drives C1 and C2, and on each rating appends the review, updates card state and advances. The `/learn` route. Reds returning at the end of the batch. The batch-end screen with its summary.
 - Done when: a full Learn batch on the fixture deck moves cards from unseen to seen, and the stored reviews match what was tapped.
+- Note (C4): import from `@/components/session`. `useSession({ cards, section, direction?, states, afterRating?, store?, clock? })` runs one sitting over a queue and returns `{ batch, index, card, revealed, finished, direction, ratings, states, error, reveal, rate }`. `rate(rating)` appends the review, and for a forward rating also calls `rateCard` and `putCardState`, then advances; a reverse rating is stored and leaves card state alone, which is what C5 needs. `afterRating` is how Learn brings a red back (it passes `afterLearnRating`); Practice leaves it out. The queue is read once, so start a new session by remounting with a new `key`. `session.states` is the starting map plus this session's ratings.
+- Note (C4): `<SessionView session onClose? store?>{batch end}</SessionView>` draws the frame and the front or reveal (with `CardExtras`) of the card on screen, and its children once the queue is finished. `<BatchEnd title summary onAnother? anotherLabel? onMenu>{line of text}</BatchEnd>` is the batch-end screen; `summarize(session.ratings)` gives its `summary`. `LearnSession` (`cards`, `states`, `onExit`, `batchSize?`) is Learn itself, and `app/learn/LearnScreen.tsx` is the pattern for a route: load the deck and the reviews in an effect, replay, then render. C5 has to place the caught-up marker itself; `SessionView` has no slot for it.
+- Note (C4): the batch-end screen has an empty `data-testid="mascot-slot"` for F3 and no motion yet (C7). Batch size is `DEFAULT_BATCH_SIZE` until settings can change it. The done-when check is `components/session/session.test.tsx`, run in jsdom against an in-memory IndexedDB. In a real browser the production build serves `/learn` and the deck, but nobody has tapped through a batch there yet; that is worth doing by hand before H1.
 
 **C5 Practice session**
 - Build: the `/practice` route reusing the C4 hook. The caught-up marker and extra practice. Shuffle, in order, struggling and part of speech as URL parameters. The Reverse toggle, storing ratings with `direction = reverse`.
