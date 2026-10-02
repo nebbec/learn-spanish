@@ -48,8 +48,11 @@ async function show(screen: ReactNode) {
   await settle();
 }
 
-const showMenu = () =>
-  show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadCards={loadCards} clock={clock} />);
+/** Waits for the menu's counts to be drawn, however long the store takes to load them. */
+async function showMenu() {
+  await show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadCards={loadCards} clock={clock} />);
+  for (let tries = 0; !q("menu") && tries < 100; tries += 1) await settle();
+}
 
 /** Rates every card that comes up until the batch ends. `ratings` are used in turn, then green. */
 async function studyBatch(ratings: Rating[] = []) {
