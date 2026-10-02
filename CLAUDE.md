@@ -21,6 +21,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `app/`: routes. `/` is the menu; `/learn`, `/practice`, `/settings`.
 - `app/globals.css`: design tokens in the Tailwind `@theme` block (colours, type, radius). Use the token utilities (`bg-good`, `bg-nearly`, `bg-again`, `text-ink`, `rounded-card`, `font-display`), not raw hex values.
 - `components/`: React components. Component tests sit next to them as `*.test.tsx` and start with `// @vitest-environment jsdom`.
+- `components/card/`: the batch frame with its segmented bar, and the front of a card in both directions. Presentational: props in, events out.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
 - `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.
@@ -50,3 +51,13 @@ design.md refers to two other repos. Read only the files a ticket names.
 |---|---|
 | `wedding-admin-app` | `~/.superset/projects/wedding-admin-app` |
 | `crossfit_logger` | `~/Projects/crossfit_logger` |
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

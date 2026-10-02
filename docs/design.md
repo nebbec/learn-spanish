@@ -395,7 +395,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | B2 | Scheduler | A2 | | Done |
 | B3 | Queues | B2 | | Done |
 | B4 | Progress stats and wheel | B2 | | Done |
-| C1 | Card frame and front | A2 | | Todo |
+| C1 | Card frame and front | A2 | | Done |
 | C2 | Reveal panel | A2 | | Todo |
 | C3 | Notes, trick and report | B1, C2 | | Todo |
 | C4 | Learn session | B1, B3, C1, C2 | | Todo |
@@ -474,6 +474,8 @@ Built against the fixture deck.
 **C1 Card frame and front**
 - Build: the Stories batch frame with its segmented bar. Front layouts for content cards and glue cards (with the highlighted target). The character slot. Tap and swipe-down reveal with overscroll disabled. The Reverse front: Spanish first, character hidden. Presentational only: props in, events out.
 - Done when: every fixture card renders correctly in both directions and both gestures fire the reveal event.
+- Note (C1): import from `@/components/card`. `<BatchFrame total index onClose?>` wraps whatever is on screen (front, reveal or batch end) and draws the segmented bar; `total` is the batch length, so it grows by one when a red returns, and `index` equal to `total` fills every segment. It is fixed to the full screen and turns overscroll off on the root element while mounted. `<CardFront card direction? onReveal />` is one button filling the frame: a tap, Enter or Space, or a downward drag of 40 px or more calls `onReveal` once. `direction` is the store's `Direction` and defaults to `forward`. `CharacterSlot` is exported for the reveal and for C7's moves, and `splitGluePrompt(en)` returns the `{ before, target, after }` of a glue phrase.
+- Note (C1): the Reverse front shows only the Spanish (`card.es`), for glue cards too, with no character and no hint, since the hint is English. So the two `el tiempo` cards look identical in Reverse; that is acceptable because Reverse ratings never change the schedule. The gestures are tested with synthetic pointer events in jsdom; the swipe on a real phone is part of H1.
 
 **C2 Reveal panel**
 - Build: everything in [Reveal](#reveal) except the note field and the report button. The grammar strip has three variants (noun, adjective, verb) and the irregular flag. Audio buttons play the card's clips. Rating buttons carry text labels. Presentational only.
