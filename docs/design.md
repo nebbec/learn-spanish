@@ -389,7 +389,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 
 | ID | Ticket | Depends on | Human | Status |
 |---|---|---|---|---|
-| A1 | Scaffold | none | Vercel link | Done except: Vercel preview loads |
+| A1 | Scaffold | none | Vercel link | Done |
 | A2 | Deck schema and fixture deck | A1 | | Done |
 | B1 | Local store | A2 | | Done |
 | B2 | Scheduler | A2 | | Done |
@@ -429,7 +429,7 @@ Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 a
 **A1 Scaffold**
 - Build: Next 16, React 19, Tailwind 4, TypeScript, Vitest and ESLint at the versions `wedding-admin-app` uses. Placeholder routes for the menu, `/learn`, `/practice` and `/settings`. Colour, type and radius tokens in the Tailwind theme, including the three rating colours. A `CLAUDE.md` that points agents at this doc and repeats the rules above.
 - Done when: tests and a production build pass, and a Vercel preview loads.
-- Note (A1): tests, lint, typecheck and the production build pass. Left for Courtney: link the repo to a Vercel project and confirm a preview deployment loads. The branch has not been pushed, so no preview exists yet.
+- Note (A1): tests, lint, typecheck and the production build pass. Courtney linked the repo to a Vercel project and confirmed a preview deployment loads. `vercel.json` sets the framework to Next.js; without it the deployment built but returned 404.
 - Note (A1): tokens live in the `@theme` block of `app/globals.css`. The rating colours are `good` (green), `nearly` (orange) and `again` (red), each with a `-soft` tint and an `on-` text colour. Fonts are Baloo 2 (display) and Nunito (body) through `next/font/google`, which downloads them at build time and serves them from the app, so they work offline.
 
 **A2 Deck schema and fixture deck**
