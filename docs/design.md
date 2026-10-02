@@ -397,7 +397,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | B4 | Progress stats and wheel | B2 | | Done |
 | C1 | Card frame and front | A2 | | Done |
 | C2 | Reveal panel | A2 | | Done |
-| C3 | Notes, trick and report | B1, C2 | | Todo |
+| C3 | Notes, trick and report | B1, C2 | | Done |
 | C4 | Learn session | B1, B3, C1, C2 | | Todo |
 | C5 | Practice session | C4 | | Todo |
 | C6 | Menu | B4, C5 | | Todo |
@@ -486,6 +486,9 @@ Built against the fixture deck.
 **C3 Notes, trick and report**
 - Build: the note field saved to the local store as the user types; "suggest a trick" filling it from the card; "something's off" with an optional comment, saved to the reports store.
 - Done when: a note and a report survive a page reload.
+- Note (C3): import `CardExtras` from `@/components/card` and put it inside the reveal: `<Reveal card onRate><CardExtras card={card} /></Reveal>`. It is the one component in `components/card` that touches the store: it reads and writes `localStore()` itself, so C4 passes nothing but the card. Tests pass their own with the `store` prop. It resets itself when the card changes.
+- Note (C3): the note is written to the store on every keystroke, with no save button; an emptied note is saved as empty text, so the deletion syncs. "Suggest a trick" puts `card.trick` in an empty note, adds it on a new line under an existing one, and does nothing if the note already contains it. "Something's off" opens an optional comment box with Send and Cancel; sending adds one report (a card can be reported more than once) and shows "Thanks, reported." Test ids: `note`, `suggest-trick`, `report-open`, `report-comment`, `report-send`, `report-cancel`, `report-sent`.
+- Note (C3): the reload check is a test that unmounts the component, closes the store, opens a new connection to the same in-memory IndexedDB and mounts again. No route shows the reveal until C4, so it has not been tried in a real browser yet.
 
 **C4 Learn session**
 - Build: a session hook that takes a queue, drives C1 and C2, and on each rating appends the review, updates card state and advances. The `/learn` route. Reds returning at the end of the batch. The batch-end screen with its summary.
