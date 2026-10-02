@@ -4,6 +4,7 @@ import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { CardExtras, Reveal, withTrick } from "@/components/card";
+import { until, watchStore } from "@/components/testing";
 import { fixtureCard } from "@/lib/deck/fixture";
 import { LocalStore } from "@/lib/store";
 
@@ -17,11 +18,15 @@ let store: LocalStore;
 let host: HTMLDivElement;
 let root: Root;
 
-/** A fresh connection to the same in-memory database: what a page gets after a reload. */
-const openStore = () => new LocalStore({ indexedDB: idb, IDBKeyRange, deviceId: "device-a" });
+/** Waits for the store's reads and writes to finish and React to show the result. */
+let settle: () => Promise<void>;
 
-/** Lets the store's reads and writes finish and React show the result. */
-const settle = () => act(() => new Promise<void>((resolve) => setTimeout(resolve, 30)));
+/** A fresh connection to the same in-memory database: what a page gets after a reload. */
+function openStore() {
+  const opened = new LocalStore({ indexedDB: idb, IDBKeyRange, deviceId: "device-a" });
+  settle = watchStore(opened);
+  return opened;
+}
 
 async function mount(card = casa) {
   host = document.createElement("div");
@@ -197,7 +202,6 @@ describe("something's off", () => {
     await click("report-open");
     type("report-comment", "never mind");
     await click("report-cancel");
-    await settle();
     expect(q("report-comment")).toBeNull();
     expect(await store.getReports()).toEqual([]);
   });
@@ -227,8 +231,7 @@ describe("something's off", () => {
     await click("report-open");
     type("report-comment", "odd");
     await click("report-send");
-    await settle();
-    expect(q("report-failed")).not.toBeNull();
+    await until(() => q("report-failed"), "the report to fail");
     expect(q<HTMLTextAreaElement>("report-comment")!.value).toBe("odd");
   });
 });

@@ -5,6 +5,7 @@ import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { MenuScreen } from "@/components/menu";
 import { LearnSession, PracticeSession } from "@/components/session";
+import { until } from "@/components/testing";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { isDue, isMemorized, replayReviews } from "@/lib/scheduler";
 import { LocalStore, type Rating } from "@/lib/store";
@@ -37,21 +38,19 @@ const loadCards = async () => cards;
 const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${testId}"]`);
 const count = (testId: string) => Number(q(testId)!.textContent);
 const href = (testId: string) => q(testId)!.getAttribute("href");
-const settle = () => act(() => new Promise<void>((resolve) => setTimeout(resolve, 20)));
 const click = (testId: string) => act(() => q(testId)!.click());
 
 /** Replaces whatever is on screen, the way moving to another route does. */
-async function show(screen: ReactNode) {
+function show(screen: ReactNode) {
   act(() => root.unmount());
   root = createRoot(host);
   act(() => root.render(screen));
-  await settle();
 }
 
 /** Waits for the menu's counts to be drawn, however long the store takes to load them. */
 async function showMenu() {
-  await show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadCards={loadCards} clock={clock} />);
-  for (let tries = 0; !q("menu") && tries < 100; tries += 1) await settle();
+  show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadCards={loadCards} clock={clock} />);
+  await until(() => q("menu"), "the menu to load");
 }
 
 /** Rates every card that comes up until the batch ends. `ratings` are used in turn, then green. */
@@ -61,7 +60,8 @@ async function studyBatch(ratings: Rating[] = []) {
     if (shown > 50) throw new Error("The batch never ended");
     click("card-front");
     click(`rate-${ratings[shown] ?? "good"}`);
-    await settle();
+    // The rating is stored by the time the session leaves the reveal.
+    await until(() => !q("reveal"), "the rated card to leave the screen");
     shown += 1;
   }
 }
@@ -154,7 +154,7 @@ describe("the menu after a session", () => {
     await showMenu();
     const before = counts();
 
-    await show(<LearnSession cards={cards} states={new Map()} onExit={() => {}} batchSize={5} store={store} clock={clock} />);
+    show(<LearnSession cards={cards} states={new Map()} onExit={() => {}} batchSize={5} store={store} clock={clock} />);
     // Two reds, which come back at the end of the batch, then greens.
     await studyBatch(["again", "again"]);
 
@@ -170,7 +170,7 @@ describe("the menu after a session", () => {
   });
 
   it("updates the due and memorized counts after Practice", async () => {
-    await show(<LearnSession cards={cards} states={new Map()} onExit={() => {}} batchSize={5} store={store} clock={clock} />);
+    show(<LearnSession cards={cards} states={new Map()} onExit={() => {}} batchSize={5} store={store} clock={clock} />);
     await studyBatch();
 
     // A month on, every card learned is due and none is memorized yet.
@@ -180,7 +180,7 @@ describe("the menu after a session", () => {
     expect(before).toMatchObject({ unseen: TOTAL - 5, seen: 5, due: 5, memorized: 0 });
 
     const reviews = await store.getReviews();
-    await show(
+    show(
       <PracticeSession
         cards={cards}
         states={replayReviews(reviews)}
@@ -210,20 +210,19 @@ describe("the menu after a session", () => {
     // A rating stored while the menu stays mounted, as sync from another device will do.
     await store.appendReview({ cardId: cards[0].id, direction: "forward", rating: "good", section: "learn", timestamp: clock() });
     act(() => void window.dispatchEvent(new Event("pageshow")));
-    await settle();
-    expect(count("menu-unseen")).toBe(TOTAL - 1);
+    await until(() => count("menu-unseen") === TOTAL - 1, "the counts to be taken again");
     expect(count("menu-seen")).toBe(1);
   });
 
   it("leaves the counts alone after a Reverse sitting", async () => {
-    await show(<LearnSession cards={cards} states={new Map()} onExit={() => {}} batchSize={5} store={store} clock={clock} />);
+    show(<LearnSession cards={cards} states={new Map()} onExit={() => {}} batchSize={5} store={store} clock={clock} />);
     await studyBatch();
     time += 30 * DAY;
     await showMenu();
     const before = counts();
 
     const reviews = await store.getReviews();
-    await show(
+    show(
       <PracticeSession
         cards={cards}
         states={replayReviews(reviews)}

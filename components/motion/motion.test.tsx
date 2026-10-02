@@ -7,6 +7,7 @@ import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { MOVE_MS } from "@/components/motion";
 import { LearnSession } from "@/components/session";
+import { until } from "@/components/testing";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { LocalStore, type Rating } from "@/lib/store";
 
@@ -21,8 +22,16 @@ const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${t
 const move = (testId = "character") => q(testId)?.dataset.move;
 const front = () => q("card-front")?.dataset.cardId;
 const revealed = () => q("reveal")?.dataset.cardId;
-/** Lets the store's writes finish and React show the result. */
-const settle = (ms = 20) => act(() => new Promise<void>((resolve) => setTimeout(resolve, ms)));
+/** Moves the held clock on. A move ends only when a test does this, however long the store takes. */
+const pass = (ms: number) => act(() => void vi.advanceTimersByTime(ms));
+const frontIs = (cardId: string) => until(() => front() === cardId, `the front of ${cardId}`);
+const batchEnd = () => until(() => q("batch-end"), "the end of the batch");
+/** Waits for a rating to be saved in full: the review, then the card's state. */
+const stored = (count: number) =>
+  until(
+    async () => (await store.getReviews()).length === count && (await store.getAllCardStates()).length === count,
+    "the rating to be stored",
+  );
 const tap = (testId: string) => act(() => q(testId)!.click());
 const moving = () => host.querySelectorAll("[data-move], [data-enter], [data-confetti]").length;
 
@@ -42,13 +51,17 @@ function mountLearn(batchSize = 3) {
   );
 }
 
+/** Rates the card on screen and sees it off: past any move, and once the rating is stored. */
 async function study(rating: Rating) {
   tap("card-front");
   tap(`rate-${rating}`);
-  await settle(MOVE_MS.droop + 50);
+  pass(MOVE_MS.droop);
+  await until(() => !q("reveal"), "the rated card to leave the screen");
 }
 
 beforeEach(() => {
+  // Only the moves use timers, so holding the clock decides exactly when a move ends.
+  vi.useFakeTimers({ toFake: ["setTimeout", "clearTimeout"] });
   store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: "device-a" });
   host = document.createElement("div");
   document.body.append(host);
@@ -83,12 +96,14 @@ describe("with motion allowed", () => {
     tap("rate-good");
     expect(move()).toBe("jump");
 
-    await settle(MOVE_MS.jump / 3);
+    await stored(1);
     expect((await store.getReviews()).map((r) => [r.cardId, r.rating])).toEqual([["ir-go", "good"]]);
     expect(revealed()).toBe("ir-go");
     expect(move()).toBe("jump");
 
-    await settle(MOVE_MS.jump);
+    pass(MOVE_MS.jump - 1);
+    expect(revealed()).toBe("ir-go");
+    pass(1);
     expect(q("reveal")).toBeNull();
     expect(front()).toBe("bueno-good");
     expect(move()).toBe("pop");
@@ -101,7 +116,9 @@ describe("with motion allowed", () => {
     expect(move()).toBe("droop");
     expect(revealed()).toBe("ir-go");
 
-    await settle(MOVE_MS.droop + 50);
+    await stored(1);
+    expect(revealed()).toBe("ir-go");
+    pass(MOVE_MS.droop);
     expect(front()).toBe("bueno-good");
   });
 
@@ -109,9 +126,10 @@ describe("with motion allowed", () => {
     mountLearn();
     tap("card-front");
     tap("rate-good");
-    await settle(MOVE_MS.jump / 3);
+    await stored(1);
     tap("rate-again");
-    await settle(MOVE_MS.droop + 50);
+    pass(MOVE_MS.droop);
+    await stored(1);
 
     expect((await store.getReviews()).map((r) => [r.cardId, r.rating])).toEqual([["ir-go", "good"]]);
     expect(front()).toBe("bueno-good");
@@ -121,16 +139,15 @@ describe("with motion allowed", () => {
     mountLearn();
     tap("card-front");
     tap("rate-nearly");
-    await settle();
-    expect(front()).toBe("bueno-good");
+    // The clock is held, so reaching the next card shows that nothing waited on a move.
+    await frontIs("bueno-good");
 
     await study("good");
     expect(front()).toBe("de-of");
     expect(q("character")).toBeNull();
     tap("card-front");
     tap("rate-good");
-    await settle();
-    expect(q("batch-end")).not.toBeNull();
+    await batchEnd();
   });
 
   it("celebrates at the end of the batch", async () => {
@@ -161,21 +178,18 @@ describe("with reduced motion on", () => {
     // Green: no jump to wait for, so the next card is up as soon as the rating is stored.
     tap("rate-good");
     expect(moving()).toBe(0);
-    await settle();
-    expect(front()).toBe("bueno-good");
+    await frontIs("bueno-good");
     expect(moving()).toBe(0);
 
     // Red: no droop either.
     tap("card-front");
     tap("rate-again");
     expect(moving()).toBe(0);
-    await settle();
-    expect(front()).toBe("bueno-good");
+    await frontIs("bueno-good");
 
     tap("card-front");
     tap("rate-good");
-    await settle();
-    expect(q("batch-end")).not.toBeNull();
+    await batchEnd();
     expect(q("confetti")).toBeNull();
     expect(moving()).toBe(0);
   });

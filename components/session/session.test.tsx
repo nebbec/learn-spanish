@@ -4,6 +4,7 @@ import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { BatchEnd, LearnSession, SessionView, summarize, useSession } from "@/components/session";
+import { until } from "@/components/testing";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { learnQueue, type CardStates } from "@/lib/queues";
 import { isSeen, replayReviews, type CardState } from "@/lib/scheduler";
@@ -38,8 +39,8 @@ let time: number;
 const clock = () => (time += 1000);
 
 const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${testId}"]`);
-/** Lets the store's writes finish and React show the result. */
-const settle = () => act(() => new Promise<void>((resolve) => setTimeout(resolve, 20)));
+/** Waits for the rating to be stored, which is when the session leaves the reveal. */
+const rated = () => until(() => !q("reveal"), "the rated card to leave the screen");
 const shownCard = () => q("reveal")?.dataset.cardId;
 
 function mount(node: React.ReactNode) {
@@ -64,7 +65,7 @@ async function study(rating: Rating) {
   act(() => q("card-front")!.click());
   const cardId = shownCard()!;
   act(() => q(`rate-${rating}`)!.click());
-  await settle();
+  await rated();
   return cardId;
 }
 
@@ -195,7 +196,7 @@ describe("the session screen", () => {
       q("rate-good")!.click();
       q("rate-again")!.click();
     });
-    await settle();
+    await rated();
 
     expect(await storedTaps()).toEqual([{ cardId: "ir-go", rating: "good" }]);
     expect(q("card-front")!.textContent).toContain("good");
@@ -252,10 +253,9 @@ describe("the session screen", () => {
     act(() => q("card-front")!.click());
     store.close();
     act(() => q("rate-good")!.click());
-    await settle();
+    await until(() => q("session-error"), "the save to fail");
 
     expect(shownCard()).toBe("ir-go");
-    expect(q("session-error")).not.toBeNull();
     // Reopened so afterEach can close it.
     store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: "device-a" });
   });

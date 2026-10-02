@@ -4,6 +4,7 @@ import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { PracticeSession } from "@/components/session";
+import { until } from "@/components/testing";
 import { fixtureCard, fixtureDeck } from "@/lib/deck/fixture";
 import { parsePracticeParams, practiceQueue } from "@/lib/queues";
 import { isDue, replayReviews } from "@/lib/scheduler";
@@ -53,7 +54,6 @@ let reverseChanges: boolean[];
 const clock = () => (time += 1000);
 
 const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${testId}"]`);
-const settle = () => act(() => new Promise<void>((resolve) => setTimeout(resolve, 20)));
 const click = (testId: string) => act(() => q(testId)!.click());
 
 /** Stores the history, fills the card_state cache from it, and returns everything stored. */
@@ -93,7 +93,8 @@ async function study(rating: Rating = "good") {
   click("card-front");
   const cardId = q("reveal")!.dataset.cardId!;
   click(`rate-${rating}`);
-  await settle();
+  // The rating is stored by the time the session leaves the reveal.
+  await until(() => !q("reveal"), "the rated card to leave the screen");
   return cardId;
 }
 
