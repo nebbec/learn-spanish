@@ -21,7 +21,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `app/`: routes. `/` is the menu; `/learn`, `/practice`, `/settings`.
 - `app/globals.css`: design tokens in the Tailwind `@theme` block (colours, type, radius). Use the token utilities (`bg-good`, `bg-nearly`, `bg-again`, `text-ink`, `rounded-card`, `font-display`), not raw hex values.
 - `components/`: React components. Component tests sit next to them as `*.test.tsx` and start with `// @vitest-environment jsdom`.
-- `components/card/`: the batch frame with its segmented bar, and the front of a card in both directions. Presentational: props in, events out.
+- `components/card/`: the batch frame with its segmented bar, the front of a card in both directions, and the reveal with its rating buttons. Presentational: props in, events out.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
 - `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.

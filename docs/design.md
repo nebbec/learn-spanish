@@ -396,7 +396,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | B3 | Queues | B2 | | Done |
 | B4 | Progress stats and wheel | B2 | | Done |
 | C1 | Card frame and front | A2 | | Done |
-| C2 | Reveal panel | A2 | | Todo |
+| C2 | Reveal panel | A2 | | Done |
 | C3 | Notes, trick and report | B1, C2 | | Todo |
 | C4 | Learn session | B1, B3, C1, C2 | | Todo |
 | C5 | Practice session | C4 | | Todo |
@@ -480,6 +480,8 @@ Built against the fixture deck.
 **C2 Reveal panel**
 - Build: everything in [Reveal](#reveal) except the note field and the report button. The grammar strip has three variants (noun, adjective, verb) and the irregular flag. Audio buttons play the card's clips. Rating buttons carry text labels. Presentational only.
 - Done when: every fixture card renders correctly and a rating fires an event.
+- Note (C2): import `Reveal` from `@/components/card`. `<Reveal card onRate onPlay?>{children}</Reveal>` goes inside `BatchFrame` in place of `CardFront`. `onRate(rating)` gets the store's `Rating` (`good`, `nearly` or `again`), once per press; the buttons read "Didn't have it", "Nearly" and "Got it", red on the left and green on the right, and stay pinned under the card while the details scroll. `children` are drawn at the bottom of the scrolling details, above the rating buttons: that is where C3's note field and report button go.
+- Note (C2): the reveal takes no `direction`; it looks the same either way, showing the character, the Spanish, the part of speech and the English prompt (a glue phrase keeps its highlighted target). Audio plays only on a button press, through `playClip(src)`, which makes a new `Audio` element and ignores a refused playback; pass `onPlay` to replace it. The noun strip reads "la · feminine", the adjective strip "bueno / buena" and the verb strip "yo voy · tú vas · él va" with an "Irregular" chip. The Reveal's root has `data-testid="reveal"` and the buttons `rate-good`, `rate-nearly`, `rate-again`, `play-word` and `play-sentence`.
 
 **C3 Notes, trick and report**
 - Build: the note field saved to the local store as the user types; "suggest a trick" filling it from the card; "something's off" with an optional comment, saved to the reports store.
