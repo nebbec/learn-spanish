@@ -23,6 +23,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `components/`: React components. Component tests sit next to them as `*.test.tsx` and start with `// @vitest-environment jsdom`.
 - `components/card/`: the batch frame with its segmented bar, the front of a card in both directions, and the reveal with its rating buttons. Presentational: props in, events out. The exception is `CardExtras` (note field, trick, report), which reads and writes the local store.
 - `components/session/`: the `useSession` hook that runs a batch (stores each rating, updates card state, advances), the view that draws it, the batch-end screen, and the Learn and Practice sessions built from them.
+- `components/menu/`: the menu: the wheel with live counts, Learn and Practice with their counts, the Practice options and the Reverse switch. `MenuScreen` loads the progress; `Menu` draws it.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
 - `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.

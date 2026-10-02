@@ -174,6 +174,13 @@ Spanish is shown first and the character stays hidden until the reveal, since it
 - The hero mascot.
 - Sync status and settings.
 
+Decided in C6 (menu in `components/menu`):
+
+- **Counts come from replaying the stored reviews** each time the menu opens, and again whenever the page comes back into view, since cards fall due while it sits in the background. The due count is taken at that moment.
+- **Shuffle, In order and Struggling are links** under the Practice button; Struggling shows how many cards it holds.
+- **Reverse is a switch on the menu.** While it is on, every way into Practice from the menu (the button, the three options and a slice of the wheel) opens in Reverse. It does not affect Learn, and it is off each time the menu opens.
+- **Under the wheel** a line gives the memorized and seen counts in words, since the wheel's centre shows only memorized.
+
 ### Card front
 
 - Segmented bar across the top, one segment per card in the batch.
@@ -417,7 +424,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C3 | Notes, trick and report | B1, C2 | | Done |
 | C4 | Learn session | B1, B3, C1, C2 | | Done |
 | C5 | Practice session | C4 | | Done |
-| C6 | Menu | B4, C5 | | Todo |
+| C6 | Menu | B4, C5 | | Done |
 | C7 | Motion | C4 | | Todo |
 | D1 | Installable app and service worker | A2 | | Todo |
 | D2 | Media caching | D1, B3 | | Todo |
@@ -524,6 +531,9 @@ Built against the fixture deck.
 **C6 Menu**
 - Build: the wheel with live stats, the Learn button with its remaining count, the Practice button with its due count, the Practice options, slice tap leading to Practice for that part of speech, a settings link, and a slot for the mascot.
 - Done when: counts and the wheel update after a session.
+- Note (C6): import from `@/components/menu`. `Menu` (`cards`, `states`, `reviews`, `now`, `onNavigate`) is presentational; `MenuScreen` (`onNavigate`, and for tests `store?`, `loadCards?`, `clock?`) loads the deck and the reviews and draws it; `app/MenuRoute.tsx` gives it the router. `onNavigate(href)` is only used for a slice tap; everything else is a `next/link`. The settings link goes to the `/settings` placeholder, which D2 and D4 fill.
+- Note (C6): the mascot slot is an empty `data-testid="mascot-slot"` in the header for F3. There is no sync status yet; D6 adds it to the menu. `MenuScreen` reloads on `pageshow` and when the page becomes visible, so D6 can make a finished sync show up by the same route (or by remounting). Test ids: `menu`, `menu-learn`, `menu-practice`, `menu-shuffle`, `menu-in-order`, `menu-struggling`, `menu-reverse`, `menu-settings`, and the counts `menu-unseen`, `menu-due`, `menu-seen`, `menu-memorized`, `menu-struggling-count`.
+- Note (C6): the done-when check is `components/menu/menu.test.tsx`: it draws the menu, runs a Learn batch and then a Practice batch against the same in-memory store, and draws the menu again. It replaces `next/link` with a plain link, because the real one sets state outside `act` when there is no router. The production build serves `/`, but nobody has looked at the menu in a real browser yet; like Learn and Practice, that is worth doing by hand before H1.
 
 **C7 Motion**
 - Build: the four shared character moves, card-to-card transitions and the batch-end celebration. All motion respects the reduced-motion setting.
