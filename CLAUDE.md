@@ -25,6 +25,9 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `components/session/`: the `useSession` hook that runs a batch (stores each rating, updates card state, advances), the view that draws it, the batch-end screen, and the Learn and Practice sessions built from them.
 - `components/motion/`: the `useMotion` hook (false with reduced motion on), the lengths of the four character moves, and the batch-end confetti. The keyframes are at the end of `app/globals.css`, inside one reduced-motion guard; add any new animation there.
 - `components/menu/`: the menu: the wheel with live counts, Learn and Practice with their counts, the Practice options and the Reverse switch. `MenuScreen` loads the progress; `Menu` draws it.
+- `components/pwa/`: registers the service worker and draws the install prompt on the menu.
+- `public/sw.js`: the service worker, hand-written. It stores the pages, the deck and the build files so the app opens offline; the rules are in design.md under "Installable app". Only registered in production builds. `lib/pwa/sw.test.ts` runs it.
+- `app/manifest.ts`: the web manifest. Icons are in `public/`, drawn by `node scripts/make-icons.mjs`.
 - `lib/`: logic with no UI. Tests sit next to the code as `*.test.ts`.
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
 - `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.

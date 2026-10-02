@@ -272,6 +272,17 @@ The device is the source of truth while studying. Supabase is the backup and the
 - Art and audio are cached a few batches ahead of the Learn position, plus everything already seen. "Download everything" caches the lot.
 - On iPhone, installing to the home screen is effectively required. Safari deletes a site's script-writable storage (IndexedDB, service worker cache) after seven days of Safari use without a visit to the site; web apps added to the home screen keep their own counter and are not expected to have data deleted ([WebKit, March 2020](https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/)). The app should prompt for installation early.
 
+Decided in D1 (worker in `public/sw.js`, manifest in `app/manifest.ts`, prompt in `components/pwa`):
+
+- **A hand-written service worker, no library.** The page registers it as `/sw.js?v=<build id>`, in production builds only. A new build registers a new address, which installs a new worker with its own cache (`learn-spanish-shell-<build id>`) and deletes the previous build's.
+- **On install the worker stores** the four pages, the deck JSON, the manifest and the icons, then every build file (`/_next/static/...`) those pages' HTML names, and the fonts the stylesheets name. If a page or the deck cannot be fetched the install fails and the next visit tries again.
+- **Pages and the deck come from the network when it answers within 3 seconds**, and from the stored copy otherwise, so a new build or a deck revision shows on the first online visit. The fresh copy replaces the stored one. Build files have a hash in their name and are served from the store without asking.
+- **Everything is stored under its path without the query**, so `/practice?mode=shuffle` opens from the stored `/practice`.
+- **Next's in-app navigation requests are left to the network.** With no connection they fail, Next loads the page in full instead, and the worker serves that.
+- **Art and audio are read from any cache but not stored by this worker**; storing them is D2. On activation the worker deletes only caches whose name starts `learn-spanish-shell-`.
+- **Install prompt**: a card at the top of the menu. On an iPhone or iPad it gives the Share, then Add to Home Screen steps and says why. Elsewhere it shows an Install button once the browser offers one (`beforeinstallprompt`). It is not shown in the installed app, and a dismissal is remembered in `localStorage` under `learn-spanish.install-dismissed`.
+- **Icons** are placeholders drawn by `scripts/make-icons.mjs` (a small wheel on the brand purple) until the mascot exists.
+
 ### Data on the device (IndexedDB)
 
 | Store | Contents |
@@ -326,7 +337,7 @@ Additions:
 
 - `ts-fsrs` for scheduling.
 - An IndexedDB wrapper (Dexie).
-- A service worker. The library is not chosen yet; it needs checking against Next 16's build.
+- A service worker, hand-written in `public/sw.js` with no library (decided in D1). Next 16 builds with Turbopack, which the usual webpack plugins do not run under; Serwist has a Turbopack integration, but the app needs only a short list of pages and files stored, which is about 150 lines without a build step. The rules are under [Installable app](#installable-app).
 
 Reusable from other repos:
 
@@ -367,7 +378,7 @@ Each is settled by the ticket named (see [Tickets](#tickets)).
 - **Art style and mascot identity** (F1): needs visual exploration.
 - **Mascot animation format** (F3).
 - **Speech provider** (G1): decided by the listening test.
-- **Service worker library** (D1): to check against Next 16.
+- **Service worker library** (D1): settled, none. See [Stack](#stack).
 - **Word list source and lemmatizing method** (E1).
 - **Where media lives at 1,000 cards** (S1): static files in the repo are fine for the first slice (about 8 MB). At an estimated 75 MB, decide between the repo and Supabase Storage before producing the rest.
 
@@ -435,7 +446,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C5 | Practice session | C4 | | Done |
 | C6 | Menu | B4, C5 | | Done |
 | C7 | Motion | C4 | | Done |
-| D1 | Installable app and service worker | A2 | | Todo |
+| D1 | Installable app and service worker | A2 | | Done |
 | D2 | Media caching | D1, B3 | | Todo |
 | D3 | Supabase schema | A1 | Project and keys | Todo |
 | D4 | Sign-in | D3 | | Todo |
@@ -555,6 +566,9 @@ Built against the fixture deck.
 **D1 Installable app and service worker**
 - Build: the manifest and icons, following `crossfit_logger`'s `app/manifest.ts`. A service worker approach that works with Next 16, with the choice recorded under [Stack](#stack). Caching of the app shell and deck JSON. An install prompt, including add-to-home-screen instructions on iPhone.
 - Done when: after one online visit to a production build, the app opens and loads the deck in airplane mode.
+- Note (D1): the done-when check was run in headless Chromium against `next start`: one visit to the menu, then the server was stopped and the browser set offline. The menu reloaded with the deck's counts and its fonts, the Learn link opened a card, and `/learn`, `/practice?mode=shuffle`, `/settings` and `/` each opened cold. `lib/pwa/sw.test.ts` runs `public/sw.js` itself against a pretend server and cache and covers the same rules. A real phone in airplane mode, the iPhone home-screen install and the Android install button are part of H1.
+- Note (D1): for D2: put art and audio in a cache whose name does not start `learn-spanish-shell-` (for example `learn-spanish-media`), keyed by path. The worker already answers `/deck/img/` and `/deck/audio/` requests from any cache and falls back to the network, so D2 needs no change to the fetch handler unless Safari's range requests for audio need one. Media outside those two paths would go through the pages-and-deck rule and be stored in the shell cache. The worker is only registered in production builds, so test caching with `npm run build` and `npm start`, not `npm run dev`.
+- Note (D1): `components/pwa` has `RegisterServiceWorker` (in the root layout) and `InstallPrompt` (in `app/MenuRoute.tsx`, above the menu); `lib/pwa` has the device check and `serviceWorkerUrl`. The build id comes from `next.config.ts` as `NEXT_PUBLIC_BUILD_ID`: the commit hash on Vercel, the build time locally. A new route must be added to `PAGES` in `public/sw.js` to open offline before it has been visited.
 
 **D2 Media caching**
 - Build: caching of art and audio for the next few Learn batches and for every seen card. "Download everything" in settings, with progress and total size.
