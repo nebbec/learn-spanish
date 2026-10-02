@@ -214,6 +214,15 @@ Decided in C4 (session in `components/session`):
 - **Another batch** is offered only while unseen cards remain. With none left, Learn shows "Nothing new to learn" and a way back to the menu.
 - **Closing a batch part-way** keeps the ratings already given; the unrated cards stay unseen and lead the next batch.
 
+Decided in C7 (motion in `components/motion`, keyframes in `app/globals.css`):
+
+- **Plain CSS keyframes, no animation library.** A component marks what moves with a `data-move` or `data-enter` attribute and the stylesheet animates it.
+- **Reduced motion is respected twice.** Every animation rule sits inside one `prefers-reduced-motion: no-preference` block, and with reduced motion on the components leave the attributes off and the confetti is not drawn.
+- **The four moves and their triggers**: pop in when a front with a character appears, wiggle when the reveal opens, jump on green, droop on red. Orange has no move, and a glue card has no character to move.
+- **A jump or droop holds the card for its length** (450 and 500 ms). The rating is stored the moment it is tapped; only the change of card waits, and a second tap during the move is ignored. With no move to play, the card changes as soon as the rating is stored.
+- **Card to card**: the next front slides in from the right and the reveal settles into place from above.
+- **Batch-end celebration**: the mascot slot bounces twice and confetti falls once behind the summary. The caught-up marker and the empty screens have none.
+
 ### Settings
 
 Sign in, sync status, "download everything for offline", batch size.
@@ -425,7 +434,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C4 | Learn session | B1, B3, C1, C2 | | Done |
 | C5 | Practice session | C4 | | Done |
 | C6 | Menu | B4, C5 | | Done |
-| C7 | Motion | C4 | | Todo |
+| C7 | Motion | C4 | | Done |
 | D1 | Installable app and service worker | A2 | | Todo |
 | D2 | Media caching | D1, B3 | | Todo |
 | D3 | Supabase schema | A1 | Project and keys | Todo |
@@ -538,6 +547,8 @@ Built against the fixture deck.
 **C7 Motion**
 - Build: the four shared character moves, card-to-card transitions and the batch-end celebration. All motion respects the reduced-motion setting.
 - Done when: each move plays on its trigger, and none play with reduced motion on.
+- Note (C7): import from `@/components/motion`: `useMotion()` is true unless the reader asked for reduced motion (false while rendering on the server and where `matchMedia` is missing, so jsdom tests see no motion unless they stub it), `MOVE_MS` holds the length of each move, and `Confetti` is the batch-end burst. `CharacterSlot` takes `move` (`pop`, `wiggle`, `jump` or `droop`) and `Reveal` takes `move` (default `wiggle`); `SessionView` passes the jump or droop and keeps the rated card on screen until it ends. F3 puts the mascot inside `mascot-slot`: on the batch-end screen that element carries `data-move="celebrate"` and bounces, so the celebration loop can replace the bounce there.
+- Note (C7): the done-when check is `components/motion/motion.test.tsx`: with `matchMedia` stubbed it runs Learn batches with motion allowed and with reduced motion on, and it reads `app/globals.css` to check that nothing animates outside the reduced-motion guard and that the lengths match `MOVE_MS`. jsdom does not run CSS animations, so how the moves look has only been checked by reading the keyframes; watch them on a phone during H1, with the system's reduce-motion setting on and off.
 
 ### Track D: offline and sync
 

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { RATING_BUTTONS } from "@/components/card";
+import { Confetti, useMotion } from "@/components/motion";
 import type { SessionSummary } from "./useSession";
 
 export interface BatchEndProps {
@@ -23,14 +24,21 @@ const SOFT: Record<string, string> = {
 
 /**
  * The screen after the last card of a batch: a summary and the choice of
- * another batch or the menu. Goes inside `BatchFrame`. The mascot slot is
- * empty until F3; C7 adds the celebration.
+ * another batch or the menu. Goes inside `BatchFrame`. The celebration is the
+ * mascot slot bouncing and a fall of confetti; the slot itself is empty until F3.
  */
 export function BatchEnd({ title, summary, children, onAnother, anotherLabel = "Another batch", actions, onMenu }: BatchEndProps) {
+  const motion = useMotion();
   return (
     <div data-testid="batch-end" className="flex min-h-0 flex-1 flex-col gap-3">
-      <div className="flex min-h-0 flex-1 flex-col items-center justify-center gap-5 overflow-y-auto rounded-card border-2 border-line bg-surface p-6 text-center shadow-card">
-        <div data-testid="mascot-slot" aria-hidden="true" className="size-28 shrink-0 rounded-full bg-sun" />
+      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center gap-5 overflow-y-auto rounded-card border-2 border-line bg-surface p-6 text-center shadow-card">
+        <Confetti />
+        <div
+          data-testid="mascot-slot"
+          data-move={motion ? "celebrate" : undefined}
+          aria-hidden="true"
+          className="size-28 shrink-0 rounded-full bg-sun"
+        />
         <div className="flex flex-col gap-1">
           <h1 className="font-display text-prompt font-bold">{title}</h1>
           {children && <p className="text-lg text-ink-soft">{children}</p>}

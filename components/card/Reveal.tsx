@@ -1,6 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
+import { useMotion } from "@/components/motion";
 import type { Card } from "@/lib/deck";
 import type { Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
@@ -25,6 +26,11 @@ export interface RevealProps {
   onRate: (rating: Rating) => void;
   /** Plays a clip, given its path. Defaults to `playClip`. */
   onPlay?: (src: string) => void;
+  /**
+   * The character's move. It wiggles when the reveal opens; the session passes
+   * `jump` after a green and `droop` after a red.
+   */
+  move?: "wiggle" | "jump" | "droop";
   /** Extra content under the card details, above the rating buttons: C3's note field and report button. */
   children?: ReactNode;
 }
@@ -34,11 +40,17 @@ export interface RevealProps {
  * audio, with the three rating buttons pinned to the bottom. It looks the same
  * in both directions, so it takes no `direction`.
  */
-export function Reveal({ card, onRate, onPlay = playClip, children }: RevealProps) {
+export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", children }: RevealProps) {
+  const motion = useMotion();
   return (
-    <div data-testid="reveal" data-card-id={card.id} className="flex min-h-0 flex-1 flex-col gap-3">
+    <div
+      data-testid="reveal"
+      data-card-id={card.id}
+      data-enter={motion ? "reveal" : undefined}
+      className="flex min-h-0 flex-1 flex-col gap-3"
+    >
       <div className="flex min-h-0 flex-1 flex-col items-center gap-3 overflow-y-auto overscroll-contain rounded-card border-2 border-line bg-surface p-5 text-center shadow-card">
-        <CharacterSlot image={card.image} className="max-h-36 min-h-20" />
+        <CharacterSlot image={card.image} className="max-h-36 min-h-20" move={move} />
 
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">

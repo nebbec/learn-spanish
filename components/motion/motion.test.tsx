@@ -1,0 +1,203 @@
+// @vitest-environment jsdom
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { IDBFactory, IDBKeyRange } from "fake-indexeddb";
+import { act } from "react";
+import { createRoot, type Root } from "react-dom/client";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { MOVE_MS } from "@/components/motion";
+import { LearnSession } from "@/components/session";
+import { fixtureDeck } from "@/lib/deck/fixture";
+import { LocalStore, type Rating } from "@/lib/store";
+
+(globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
+
+// Learn order on the fixture: ir-go and bueno-good have characters, de-of is a glue word.
+let store: LocalStore;
+let host: HTMLDivElement;
+let root: Root;
+
+const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${testId}"]`);
+const move = (testId = "character") => q(testId)?.dataset.move;
+const front = () => q("card-front")?.dataset.cardId;
+const revealed = () => q("reveal")?.dataset.cardId;
+/** Lets the store's writes finish and React show the result. */
+const settle = (ms = 20) => act(() => new Promise<void>((resolve) => setTimeout(resolve, ms)));
+const tap = (testId: string) => act(() => q(testId)!.click());
+const moving = () => host.querySelectorAll("[data-move], [data-enter], [data-confetti]").length;
+
+/** Sets the reader's motion setting, as `matchMedia` reports it. jsdom has no `matchMedia` of its own. */
+function setReducedMotion(reduce: boolean) {
+  window.matchMedia = ((query: string) => ({
+    matches: query.includes("prefers-reduced-motion: reduce") ? reduce : false,
+    media: query,
+    addEventListener: () => {},
+    removeEventListener: () => {},
+  })) as unknown as typeof window.matchMedia;
+}
+
+function mountLearn(batchSize = 3) {
+  act(() =>
+    root.render(<LearnSession cards={fixtureDeck.cards} states={new Map()} batchSize={batchSize} store={store} onExit={() => {}} />),
+  );
+}
+
+async function study(rating: Rating) {
+  tap("card-front");
+  tap(`rate-${rating}`);
+  await settle(MOVE_MS.droop + 50);
+}
+
+beforeEach(() => {
+  store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: "device-a" });
+  host = document.createElement("div");
+  document.body.append(host);
+  root = createRoot(host);
+});
+
+afterEach(() => {
+  act(() => root.unmount());
+  host.remove();
+  store.close();
+  Reflect.deleteProperty(window, "matchMedia");
+  vi.useRealTimers();
+});
+
+describe("with motion allowed", () => {
+  beforeEach(() => setReducedMotion(false));
+
+  it("pops the character in on the front and wiggles it on the reveal", () => {
+    mountLearn();
+    expect(front()).toBe("ir-go");
+    expect(move()).toBe("pop");
+    expect(q("card-front")!.dataset.enter).toBe("card");
+
+    tap("card-front");
+    expect(move()).toBe("wiggle");
+    expect(q("reveal")!.dataset.enter).toBe("reveal");
+  });
+
+  it("jumps on green: the rating is stored at once and the next card waits for the jump", async () => {
+    mountLearn();
+    tap("card-front");
+    tap("rate-good");
+    expect(move()).toBe("jump");
+
+    await settle(MOVE_MS.jump / 3);
+    expect((await store.getReviews()).map((r) => [r.cardId, r.rating])).toEqual([["ir-go", "good"]]);
+    expect(revealed()).toBe("ir-go");
+    expect(move()).toBe("jump");
+
+    await settle(MOVE_MS.jump);
+    expect(q("reveal")).toBeNull();
+    expect(front()).toBe("bueno-good");
+    expect(move()).toBe("pop");
+  });
+
+  it("droops on red, then moves on", async () => {
+    mountLearn();
+    tap("card-front");
+    tap("rate-again");
+    expect(move()).toBe("droop");
+    expect(revealed()).toBe("ir-go");
+
+    await settle(MOVE_MS.droop + 50);
+    expect(front()).toBe("bueno-good");
+  });
+
+  it("stores one review when a rating is tapped again during the move", async () => {
+    mountLearn();
+    tap("card-front");
+    tap("rate-good");
+    await settle(MOVE_MS.jump / 3);
+    tap("rate-again");
+    await settle(MOVE_MS.droop + 50);
+
+    expect((await store.getReviews()).map((r) => [r.cardId, r.rating])).toEqual([["ir-go", "good"]]);
+    expect(front()).toBe("bueno-good");
+  });
+
+  it("has no move for orange, or for a glue card, which has no character", async () => {
+    mountLearn();
+    tap("card-front");
+    tap("rate-nearly");
+    await settle();
+    expect(front()).toBe("bueno-good");
+
+    await study("good");
+    expect(front()).toBe("de-of");
+    expect(q("character")).toBeNull();
+    tap("card-front");
+    tap("rate-good");
+    await settle();
+    expect(q("batch-end")).not.toBeNull();
+  });
+
+  it("celebrates at the end of the batch", async () => {
+    mountLearn(2);
+    await study("good");
+    await study("good");
+
+    expect(q("batch-end")).not.toBeNull();
+    expect(move("mascot-slot")).toBe("celebrate");
+    expect(q("confetti")!.querySelectorAll("[data-confetti]").length).toBeGreaterThan(0);
+    expect(q("confetti")!.getAttribute("aria-hidden")).toBe("true");
+  });
+});
+
+describe("with reduced motion on", () => {
+  beforeEach(() => setReducedMotion(true));
+
+  it("plays no move, transition or celebration through a whole batch", async () => {
+    mountLearn(2);
+    expect(front()).toBe("ir-go");
+    expect(q("character")).not.toBeNull();
+    expect(moving()).toBe(0);
+
+    tap("card-front");
+    expect(q("character")).not.toBeNull();
+    expect(moving()).toBe(0);
+
+    // Green: no jump to wait for, so the next card is up as soon as the rating is stored.
+    tap("rate-good");
+    expect(moving()).toBe(0);
+    await settle();
+    expect(front()).toBe("bueno-good");
+    expect(moving()).toBe(0);
+
+    // Red: no droop either.
+    tap("card-front");
+    tap("rate-again");
+    expect(moving()).toBe(0);
+    await settle();
+    expect(front()).toBe("bueno-good");
+
+    tap("card-front");
+    tap("rate-good");
+    await settle();
+    expect(q("batch-end")).not.toBeNull();
+    expect(q("confetti")).toBeNull();
+    expect(moving()).toBe(0);
+  });
+});
+
+describe("the stylesheet", () => {
+  const css = readFileSync(path.join(__dirname, "..", "..", "app", "globals.css"), "utf8");
+  const guard = "@media (prefers-reduced-motion: no-preference) {";
+  const start = css.indexOf(guard);
+  // The block ends at the first closing brace in column one after it.
+  const end = css.indexOf("\n}", start);
+  const block = css.slice(start, end);
+  const outside = css.slice(0, start) + css.slice(end);
+
+  it("animates only when the reader has not asked for reduced motion", () => {
+    expect(start).toBeGreaterThan(-1);
+    expect(block).toMatch(/animation:/);
+    expect(outside).not.toMatch(/animation(-name)?:|transition:/);
+  });
+
+  it.each(Object.entries(MOVE_MS))("runs %s for the time the session waits (%i ms)", (name, ms) => {
+    expect(block).toMatch(new RegExp(`\\[data-move="${name}"\\] > img \\{[^}]*animation: move-${name} ${ms}ms`));
+    expect(css).toContain(`@keyframes move-${name} {`);
+  });
+});

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, type PointerEvent } from "react";
+import { useMotion, type Move } from "@/components/motion";
 import type { Card } from "@/lib/deck";
 import type { Direction } from "@/lib/store";
 import { splitGluePrompt } from "./gluePrompt";
@@ -24,6 +25,7 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
   const start = useRef<{ x: number; y: number } | null>(null);
   // A swipe is followed by a click on the same element; this stops it revealing twice.
   const swiped = useRef(false);
+  const motion = useMotion();
 
   function onPointerDown(e: PointerEvent) {
     start.current = { x: e.clientX, y: e.clientY };
@@ -57,6 +59,7 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
       data-card-id={card.id}
       data-kind={card.kind}
       data-direction={direction}
+      data-enter={motion ? "card" : undefined}
       onPointerDown={onPointerDown}
       onPointerUp={onPointerUp}
       onPointerCancel={() => (start.current = null)}
@@ -79,7 +82,7 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
 function ContentFace({ card }: { card: Card }) {
   return (
     <>
-      <CharacterSlot image={card.image} />
+      <CharacterSlot image={card.image} move="pop" />
       <span className="flex flex-col gap-1">
         <span data-testid="prompt" className="font-display text-prompt font-bold">
           {card.en}
@@ -130,11 +133,26 @@ function Hint({ hint }: { hint: string | null }) {
 /**
  * Where a content card's character goes. A plain `<img>`: deck art is a static
  * file the service worker caches, and the Next image optimiser needs a server.
+ * `move` is the move the character plays; changing it plays the new one. It is
+ * dropped when motion is reduced.
  */
-export function CharacterSlot({ image, className = "" }: { image: string | null; className?: string }) {
+export function CharacterSlot({
+  image,
+  className = "",
+  move,
+}: {
+  image: string | null;
+  className?: string;
+  move?: Move;
+}) {
+  const motion = useMotion();
   if (!image) return null;
   return (
-    <span data-testid="character" className={`flex min-h-0 w-full flex-1 items-center justify-center ${className}`}>
+    <span
+      data-testid="character"
+      data-move={motion ? move : undefined}
+      className={`flex min-h-0 w-full flex-1 items-center justify-center ${className}`}
+    >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={image} alt="" draggable={false} className="max-h-full max-w-full object-contain" />
     </span>
