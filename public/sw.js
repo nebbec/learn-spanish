@@ -13,8 +13,8 @@ const SHELL = SHELL_PREFIX + VERSION;
 const PAGES = ["/", "/learn", "/practice", "/settings"];
 const FILES = ["/deck/deck.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"];
 
-// Art and audio are not stored here. D2 fills a cache of its own, which this
-// worker reads but never writes or deletes.
+// Art and audio are not stored here. The page fills a cache of its own
+// (lib/media), which this worker reads but never writes or deletes.
 const MEDIA_PATHS = ["/deck/img/", "/deck/audio/"];
 const STATIC_PATH = "/_next/static/";
 
@@ -100,9 +100,37 @@ async function networkFirst(event, key) {
   return fresh && fresh.ok ? fresh : cached;
 }
 
-/** Art and audio: whatever D2 has stored, otherwise the network. */
+/**
+ * The part of a stored file a request asks for. Safari asks for audio in byte
+ * ranges and will not play a clip answered with the whole file.
+ */
+async function ranged(request, response) {
+  const range = /^bytes=(\d*)-(\d*)$/.exec((request.headers.get("range") || "").trim());
+  if (!range || (range[1] === "" && range[2] === "")) return response;
+
+  const body = await response.arrayBuffer();
+  const size = body.byteLength;
+  // "bytes=-500" is the last 500 bytes; "bytes=500-" is everything from byte 500.
+  const start = range[1] === "" ? Math.max(0, size - Number(range[2])) : Number(range[1]);
+  const end = range[1] === "" || range[2] === "" ? size - 1 : Math.min(Number(range[2]), size - 1);
+  if (start > end) {
+    return new Response(null, { status: 416, headers: { "Content-Range": `bytes */${size}` } });
+  }
+
+  const headers = new Headers({
+    "Accept-Ranges": "bytes",
+    "Content-Range": `bytes ${start}-${end}/${size}`,
+    "Content-Length": String(end - start + 1),
+  });
+  const type = response.headers.get("Content-Type");
+  if (type) headers.set("Content-Type", type);
+  return new Response(body.slice(start, end + 1), { status: 206, statusText: "Partial Content", headers });
+}
+
+/** Art and audio: whatever the page has stored, otherwise the network. */
 async function storedOrNetwork(request, key) {
-  return (await caches.match(key)) || fetch(request);
+  const cached = await caches.match(key);
+  return cached ? ranged(request, cached) : fetch(request);
 }
 
 self.addEventListener("install", (event) => {

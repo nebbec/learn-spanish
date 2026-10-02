@@ -18,13 +18,15 @@ export interface LearnSessionProps {
   /** Leaves for the menu. */
   onExit: () => void;
   batchSize?: number;
+  /** Called as each batch after the first starts, once the ratings of the one before are stored. */
+  onBatchStart?: () => void;
   /** Defaults to the app's shared store. Tests pass their own. */
   store?: SessionStore & ExtrasStore;
   clock?: () => number;
 }
 
 /** Learn: unseen cards in batches, most common first, until none are left. */
-export function LearnSession({ cards, states, onExit, batchSize, store, clock }: LearnSessionProps) {
+export function LearnSession({ cards, states, onExit, batchSize, onBatchStart, store, clock }: LearnSessionProps) {
   // Each batch is cut fresh from the cards still unseen when it starts.
   const [round, setRound] = useState(() => ({ number: 0, states, batch: learnBatch(cards, states, batchSize) }));
 
@@ -56,9 +58,10 @@ export function LearnSession({ cards, states, onExit, batchSize, store, clock }:
       store={store}
       clock={clock}
       onExit={onExit}
-      onAnother={(next) =>
-        setRound({ number: round.number + 1, states: next, batch: learnBatch(cards, next, batchSize) })
-      }
+      onAnother={(next) => {
+        setRound({ number: round.number + 1, states: next, batch: learnBatch(cards, next, batchSize) });
+        onBatchStart?.();
+      }}
     />
   );
 }

@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { LearnSession } from "@/components/session";
 import { loadDeck, type Card } from "@/lib/deck";
+import { keepMediaStored } from "@/lib/media";
 import type { CardStates } from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
 import { replayReviews } from "@/lib/scheduler";
@@ -33,7 +34,15 @@ export function LearnScreen() {
   }, []);
 
   if (loaded.status === "ready") {
-    return <LearnSession cards={loaded.cards} states={loaded.states} onExit={() => router.push(ROUTES.menu)} />;
+    return (
+      <LearnSession
+        cards={loaded.cards}
+        states={loaded.states}
+        onExit={() => router.push(ROUTES.menu)}
+        // Several batches in one sitting would otherwise outrun the art and audio stored ahead.
+        onBatchStart={() => void keepMediaStored()}
+      />
+    );
   }
 
   return (

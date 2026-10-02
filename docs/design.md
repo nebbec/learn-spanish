@@ -283,6 +283,15 @@ Decided in D1 (worker in `public/sw.js`, manifest in `app/manifest.ts`, prompt i
 - **Install prompt**: a card at the top of the menu. On an iPhone or iPad it gives the Share, then Add to Home Screen steps and says why. Elsewhere it shows an Install button once the browser offers one (`beforeinstallprompt`). It is not shown in the installed app, and a dismissal is remembered in `localStorage` under `learn-spanish.install-dismissed`.
 - **Icons** are placeholders drawn by `scripts/make-icons.mjs` (a small wheel on the brand purple) until the mascot exists.
 
+Decided in D2 (logic in `lib/media`, trigger in `components/pwa/KeepMedia.tsx`, button in `components/settings`):
+
+- **The page stores art and audio, not the worker.** They go in a cache named `learn-spanish-media`, each file under its path. The worker reads that cache and never writes or deletes it, so the files outlive every build.
+- **Kept without asking**: the art and audio of the next 3 Learn batches (45 cards at the default batch size) and of every seen card. This runs when any page opens, when the app comes back into view, when a connection returns, and as each further Learn batch starts. Files already stored are skipped.
+- **A file that cannot be fetched is skipped and counted**, not retried in a loop; the next run tries it again. Only a complete answer (status 200) is stored.
+- **Download everything** is a button in settings. It stores every file the deck names, six at a time, and shows a count of files while it runs ("Downloading: 12 of 33 files"). The size shown is the size of what is stored, measured from the stored files, so the total for the whole deck is known once the download ends, not before. It also asks the browser to keep the storage (`navigator.storage.persist()`), which the browser may refuse.
+- **Byte ranges**: the worker answers a request for part of a stored file (a `Range` header, which Safari sends for audio) with that part and status 206. Without this Safari will not play a stored clip.
+- **Not done**: a file is never refreshed or removed once stored. A deck revision that changes a still or clip must give it a new path, and files a revision drops stay on the device. S3 has to settle this.
+
 ### Data on the device (IndexedDB)
 
 | Store | Contents |
@@ -447,7 +456,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C6 | Menu | B4, C5 | | Done |
 | C7 | Motion | C4 | | Done |
 | D1 | Installable app and service worker | A2 | | Done |
-| D2 | Media caching | D1, B3 | | Todo |
+| D2 | Media caching | D1, B3 | | Done |
 | D3 | Supabase schema | A1 | Project and keys | Todo |
 | D4 | Sign-in | D3 | | Todo |
 | D5 | Sync core | B1, B2 | | Todo |
@@ -573,6 +582,10 @@ Built against the fixture deck.
 **D2 Media caching**
 - Build: caching of art and audio for the next few Learn batches and for every seen card. "Download everything" in settings, with progress and total size.
 - Done when: a batch plays with images and audio in airplane mode, and after "download everything" so does the whole deck.
+- Note (D2): the done-when check was run in headless Chromium against `next start`. After one visit to the menu the server was stopped and the browser set offline: a Learn batch showed every still and played both clips of every card. Then, from an emptied media cache, "Download everything" in settings stored all 33 files (119 KB) and the whole deck played offline again. The fixture's 12 cards fit inside the 3 batches kept ahead, so in the browser "a batch" and "the whole deck" are the same cards; which files are wanted is covered by `lib/media/media.test.ts`, the button by `components/settings/DownloadEverything.test.tsx`, and the byte ranges by `lib/pwa/sw.test.ts`. Safari's audio on a real iPhone in airplane mode is part of H1.
+- Note (D2): import from `@/lib/media`: `cardMedia(card)`, `deckMedia(cards)`, `wantedMedia(cards, states)`, `storeMedia(urls, { caches, fetch, onProgress })`, `mediaStatus(urls, caches)` and `keepMediaStored()`, which reads the deck and the reviews itself and is safe to call often. D6 should call `keepMediaStored()` after a sync brings in reviews from another device, so the cards seen there get their files here. `LearnSession` gained `onBatchStart`.
+- Note (D2): `/settings` is now a real page holding one section, `DownloadEverything` from `@/components/settings` (test ids `media-status`, `media-size`, `download-all`, `download-progress`, `download-bar`, `download-failed`, `download-unavailable`). D4 adds sign-in under it and D6 the sync status; batch size is in no ticket yet. The status line is read when the page opens and after a download, so it can lag while the app catches up in the background.
+- Note (D2): settings cannot say how big the whole deck is before it is downloaded, because nothing records file sizes. If that matters at 1,000 cards (about 75 MB), have the deck build write the total into `deck.json` (S1).
 
 **D3 Supabase schema**
 - Build: migrations for `reviews`, `notes` and `card_reports`, each with `user_id` and owner-only row-level security. An `.env.example`.

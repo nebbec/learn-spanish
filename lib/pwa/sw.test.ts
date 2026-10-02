@@ -232,6 +232,41 @@ describe("service worker", () => {
     expect(await b.text("/deck/img/casa.svg")).toBe("stored art");
   });
 
+  it("answers a request for part of a stored clip with that part", async () => {
+    const b = await installed();
+    const media = await b.caches.open("learn-spanish-media");
+    await media.put("/deck/audio/casa.word.wav", new Response("0123456789", { headers: { "Content-Type": "audio/wav" } }));
+    b.state.online = false;
+    const ask = (range: string) => b.request("/deck/audio/casa.word.wav", { headers: { Range: range } });
+
+    const first = (await ask("bytes=0-1"))!;
+    expect(first.status).toBe(206);
+    expect(first.headers.get("Content-Range")).toBe("bytes 0-1/10");
+    expect(first.headers.get("Content-Length")).toBe("2");
+    expect(first.headers.get("Content-Type")).toBe("audio/wav");
+    expect(await first.text()).toBe("01");
+
+    const rest = (await ask("bytes=4-"))!;
+    expect(rest.headers.get("Content-Range")).toBe("bytes 4-9/10");
+    expect(await rest.text()).toBe("456789");
+
+    const tail = (await ask("bytes=-3"))!;
+    expect(tail.headers.get("Content-Range")).toBe("bytes 7-9/10");
+    expect(await tail.text()).toBe("789");
+
+    // An end past the file is cut to the file; a start past it cannot be answered.
+    expect(await (await ask("bytes=8-99"))!.text()).toBe("89");
+    const beyond = (await ask("bytes=10-20"))!;
+    expect(beyond.status).toBe(416);
+    expect(beyond.headers.get("Content-Range")).toBe("bytes */10");
+
+    // No range, or one this worker does not read: the whole file.
+    const whole = (await b.request("/deck/audio/casa.word.wav"))!;
+    expect(whole.status).toBe(200);
+    expect(await whole.text()).toBe("0123456789");
+    expect((await ask("bytes=0-1, 4-5"))!.status).toBe(200);
+  });
+
   it("removes the previous build's cache on activation and leaves other caches alone", async () => {
     const b = await installed("one");
     const media = await b.caches.open("learn-spanish-media");
