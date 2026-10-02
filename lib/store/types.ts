@@ -75,3 +75,18 @@ export interface ReviewFilter {
   cardId?: string;
   direction?: Direction;
 }
+
+/** A row as the server holds it: the same fields without the device's synced flag. */
+export type RemoteReview = Omit<Review, "synced">;
+export type RemoteNote = Omit<Note, "synced">;
+export type RemoteReport = Omit<Report, "synced">;
+
+/** The two kinds of row a device downloads. Reports only go up. */
+export type SyncTable = "reviews" | "notes";
+
+/** How far this device has read the server's rows of one kind. */
+export interface SyncStateRow {
+  key: SyncTable;
+  /** The server's own marker, passed back unchanged on the next download. */
+  cursor: string;
+}

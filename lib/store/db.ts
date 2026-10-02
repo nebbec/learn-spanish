@@ -3,9 +3,13 @@ import type {
   CardStateRow,
   NewReview,
   Note,
+  RemoteNote,
+  RemoteReview,
   Report,
   Review,
   ReviewFilter,
+  SyncStateRow,
+  SyncTable,
   Unsynced,
 } from "./types";
 
@@ -17,6 +21,7 @@ class LocalDb extends Dexie {
   card_state!: Table<CardStateRow, string>;
   notes!: Table<Note, string>;
   reports!: Table<Report, string>;
+  sync_state!: Table<SyncStateRow, string>;
 
   constructor(name: string, options?: DexieOptions) {
     super(name, options);
@@ -27,6 +32,8 @@ class LocalDb extends Dexie {
       notes: "cardId, synced",
       reports: "id, cardId, synced",
     });
+    // Version 2 (D5) adds the download cursors. The four stores above are unchanged.
+    this.version(2).stores({ sync_state: "key" });
   }
 }
 
@@ -208,6 +215,66 @@ export class LocalStore {
           .modify({ synced: 1 });
       }
     });
+  }
+
+  // Rows from other devices
+
+  /**
+   * Adds downloaded reviews this device does not have yet, as synced rows, and
+   * returns the ones it added. A review already here is left as it is: reviews
+   * merge by union on id. `cursor`, when given, is saved in the same transaction,
+   * so a download cut short never skips or loses a page.
+   */
+  async mergeReviews(rows: readonly RemoteReview[], cursor?: string | null): Promise<Review[]> {
+    const { reviews, sync_state } = this.db;
+    return this.db.transaction("rw", reviews, sync_state, async () => {
+      const unique = [...new Map(rows.map((r) => [r.id, r])).values()];
+      const existing = await reviews.bulkGet(unique.map((r) => r.id));
+      const added = unique
+        .filter((_, i) => existing[i] === undefined)
+        .map((r): Review => ({
+          id: r.id,
+          cardId: r.cardId,
+          direction: r.direction,
+          rating: r.rating,
+          timestamp: r.timestamp,
+          section: r.section,
+          deviceId: r.deviceId,
+          synced: 1,
+        }));
+      await reviews.bulkAdd(added);
+      if (cursor != null) await sync_state.put({ key: "reviews", cursor });
+      return added;
+    });
+  }
+
+  /**
+   * Takes each downloaded note unless this device holds a later edit, and returns
+   * the notes it changed. On equal times the server's copy wins, so every device
+   * ends on the same text. `cursor` is saved in the same transaction.
+   */
+  async mergeNotes(rows: readonly RemoteNote[], cursor?: string | null): Promise<Note[]> {
+    const { notes, sync_state } = this.db;
+    return this.db.transaction("rw", notes, sync_state, async () => {
+      const changed: Note[] = [];
+      for (const row of rows) {
+        const local = await notes.get(row.cardId);
+        if (local && local.updatedAt > row.updatedAt) continue;
+        if (local && local.updatedAt === row.updatedAt && local.text === row.text && local.synced === 1) {
+          continue;
+        }
+        const note: Note = { cardId: row.cardId, text: row.text, updatedAt: row.updatedAt, synced: 1 };
+        await notes.put(note);
+        changed.push(note);
+      }
+      if (cursor != null) await sync_state.put({ key: "notes", cursor });
+      return changed;
+    });
+  }
+
+  /** Where the last download of this kind of row stopped, or null before the first. */
+  async getSyncCursor(table: SyncTable): Promise<string | null> {
+    return (await this.db.sync_state.get(table))?.cursor ?? null;
   }
 
   // Lifecycle

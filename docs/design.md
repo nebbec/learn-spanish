@@ -300,6 +300,7 @@ Decided in D2 (logic in `lib/media`, trigger in `components/pwa/KeepMedia.tsx`, 
 | `card_state` | FSRS state per card. A cache derived by replaying forward `reviews` in time order. |
 | `notes` | Card id, text, updated-at, synced flag. |
 | `reports` | Card id, optional comment, created-at, synced flag. |
+| `sync_state` | Added in D5: how far this device has read the server's reviews and notes. |
 
 Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
@@ -320,6 +321,18 @@ Tables `reviews`, `notes` and `card_reports`, each with a `user_id` column and r
 - Reviews merge by union on event id, then card state is replayed. Two devices can never conflict.
 - Notes: the latest edit wins.
 - The app is fully usable before signing in. Signing in uploads everything recorded so far.
+
+Decided in D5 (core in `lib/sync/sync.ts`, the server's interface in `lib/sync/remote.ts`):
+
+- **One sync is upload, then download, then replay.** Unsynced reviews, notes and reports go up 200 rows per request, and each request's rows are marked synced once the server has taken them. Then reviews and notes come down in pages. If a forward review arrived that the device did not have, every stored review is replayed and the result replaces `card_state`.
+- **Every step can be repeated.** A push of rows the server already has changes nothing, and a downloaded review the device already has is skipped. So a sync that fails part-way loses nothing, and running it again, or twice at once, is safe. A failed sync throws.
+- **The download cursor is the server's, not a timestamp.** A review made offline last week reaches the server after one made online today, so "reviews newer than my newest" would miss it. The server gives each page an opaque marker in the order rows arrived, and the device passes it back. D3 needs a server-assigned column for this on `reviews` and `notes` (a sequence, or an insert time set by the database), and on `notes` it must change when the note is replaced.
+- **The cursor is stored with the rows.** A new store `sync_state` (database schema version 2) holds one cursor for reviews and one for notes, written in the same transaction as the page it belongs to. If the browser deletes the database the cursor goes with it and the next sync downloads everything.
+- **A device downloads its own rows too**, since the server's pages are not filtered by device. They are skipped on arrival and not counted.
+- **Notes**: the server keeps the note with the later `updatedAt`, and on equal times the one it already has. A device takes the server's note unless its own is later. So on a tie the first to upload wins and every device ends on the same text.
+- **Reports only go up.** No device needs another device's reports.
+- **Downloaded reviews keep the device id of the device that made them** and are stored as synced.
+- **Not done**: the synced flags and cursors do not know which account they belong to. Signing out and into a different account on the same device would leave the first account's rows marked as uploaded. D6 has to settle this.
 
 ### Sign-in
 
@@ -459,7 +472,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | D2 | Media caching | D1, B3 | | Done |
 | D3 | Supabase schema | A1 | Project and keys | Todo |
 | D4 | Sign-in | D3 | | Todo |
-| D5 | Sync core | B1, B2 | | Todo |
+| D5 | Sync core | B1, B2 | | Done |
 | D6 | Sync wiring | D4, D5 | Two-device check | Todo |
 | E1 | Word list | A2 | | Todo |
 | E2 | Draft pass | E1 | API key | Todo |
@@ -598,6 +611,10 @@ Built against the fixture deck.
 **D5 Sync core**
 - Build: upload of unsynced reviews, notes and reports; download of rows from other devices; merge by event id followed by replay; latest edit wins for notes. Written against an interface, with a fake remote for tests.
 - Done when: tests show two simulated devices with interleaved offline reviews converging on identical card state.
+
+- Note (D5): import from `@/lib/sync`. `sync(store, remote)` runs one full sync and returns `{ uploaded: { reviews, notes, reports }, downloaded: { reviews, notes }, replayed }`; it throws when the server cannot be reached. `replayed` is true when card state was rebuilt, which is when the menu should reload and D6 should call `keepMediaStored()`. `rebuildCardStates(store)` does the replay on its own. D6 implements `SyncRemote` (`pushReviews`, `pushNotes`, `pushReports`, `pullReviews(since)`, `pullNotes(since)`); the rules each method must keep are in the comments in `lib/sync/remote.ts`. A pull returns `{ rows, cursor, more }`. Rows cross the interface as `RemoteReview`, `RemoteNote` and `RemoteReport` from `@/lib/store`: the local row without `synced`, in camelCase, times in epoch milliseconds, so the Supabase implementation maps column names and time types both ways.
+- Note (D5): `FakeRemote` from `@/lib/sync` is the in-memory server the tests use: share one between two `LocalStore`s to simulate two devices. It has `offline`, `failPushAfter`, a `pageSize` option, a `calls` log, and `reviews`, `notes` and `reports` to inspect. The store gained `mergeReviews(rows, cursor?)`, `mergeNotes(rows, cursor?)` and `getSyncCursor("reviews" | "notes")`.
+- Note (D5): the done-when check is `lib/sync/sync.test.ts`: two stores with separate in-memory databases rate the same cards at alternating times with no connection, including the same card at the same millisecond, then sync through one `FakeRemote`. Both end with the same reviews and the same `card_state`, equal to a replay of all the reviews, whichever device syncs first. Nothing here has run against Supabase.
 
 **D6 Sync wiring**
 - Build: the Supabase implementation of the D5 interface. Triggers on sign-in, on regaining a connection, after each batch and when the app returns to the foreground. Sync status on the menu and in settings.
