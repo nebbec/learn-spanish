@@ -4,7 +4,9 @@
 // the draft prompt or the draft call's reasoning. It translates the Spanish
 // back first, then checks each area. Any check that fails flags the card, and
 // so do the script's own checks (the id rule, and clashes the deck validator
-// finds among all drafted cards).
+// finds among all drafted cards). A hint the prompt does not need is not a
+// failure: the reviewer passes the check and may say so in its note, which
+// never flags a card.
 //
 // Nothing here prints card text or Claude's text: only ranks, words from the
 // list, card ids, check names, counts and error kinds. The reasons go to the
@@ -65,7 +67,7 @@ export const REVIEW_SYSTEM_PROMPT = `You check flashcards for an app that teache
 How a card works
 - The learner sees the English prompt (en) with its hint, recalls the Spanish answer (es), then sees the answer with its grammar, the example sentence, the Spain alternative and the memory trick, and rates their own recall. So every prompt must have exactly one right Spanish answer.
 - kind "content": en is plain English ("to go", "house", "good"); verbs start with "to". kind "glue": a function word (article, preposition, conjunction, pronoun, determiner, a particle such as se or lo); en is a short English phrase with the target in square brackets ("the house [of] Maria"), and when English has no word for it, the hint says what to recall.
-- hint: present only when the bare prompt would have more than one right answer; it rules the others out.
+- hint: there when the bare prompt would have more than one right answer, and then it must rule the others out. A hint the prompt does not strictly need is harmless and is never a reason to fail a check.
 - es: the dictionary form (infinitive, masculine singular, singular noun). A noun starts with its definite article ("la casa", "el agua").
 - grammar: a noun has gender and article; an adjective its feminine singular; a verb its present-tense yo, tú and él forms and irregular, which is true when the verb is irregular in the present or the preterite, stem changes included. Other parts of speech have none.
 - example: one short, natural sentence using the word in this card's meaning (a verb conjugated, not the infinitive), with its English translation.
@@ -76,11 +78,12 @@ How to check
 First translate back, before you judge anything: write what es means in English on its own, as a good learner's dictionary would give it for this part of speech, and translate the Spanish example sentence into English yourself.
 Then judge each area. ok is true when it is right. When it is not, problem is one sentence saying what is wrong, and fix is the corrected text (name the field: "en: ...", "example.es: ..."), or null when you cannot say.
 - meaning: your back-translation of es agrees with the prompt and hint; the meaning is a common one a beginner needs; kind and part of speech fit it.
-- oneAnswer: someone who knows Spanish well would give exactly this es for this prompt and hint, and no other common Spanish word, and none of the word's other cards, would also be right.
+- oneAnswer: someone who knows Spanish well would give exactly this es for this prompt and hint, and no other common Spanish word, and none of the word's other cards, would also be right. A hint that is wrong or misleading, or that leaves more than one right answer, fails this check. A hint that is right but not needed does not: pass the check and say so in note.
 - grammar: the article and gender, the feminine form, the three present-tense forms and the irregular flag are right; es is in dictionary form.
 - usage: the word and the sentence are what Latin American speakers say, in the tú register; spain is right (null when Spain says the same, filled when it noticeably differs).
 - example: the sentence is natural and short, uses es in this card's meaning, conjugates a verb, and its English translation is right and agrees with yours.
 - trick: it is in English and says nothing false about the Spanish word or its meaning. A weak pun is fine.
+Last, note is one sentence for anything worth telling the editor that is not a problem, such as a hint the prompt does not need, or null when there is nothing. A note never fails a check.
 
 Every text field is one line of plain text, with no Markdown.`;
 
@@ -113,10 +116,11 @@ const object = (properties: Record<string, unknown>) => ({
 });
 const check = object({ ok: { type: "boolean" }, problem: nullable(text), fix: nullable(text) });
 
-/** The back-translation comes first, so the reviewer writes it before it judges. */
+/** The back-translation comes first, so the reviewer writes it before it judges; the note comes last. */
 export const REVIEW_SCHEMA: Record<string, unknown> = object({
   back: object({ es: text, example: text }),
   checks: object(Object.fromEntries(CHECKS.map((name) => [name, check]))),
+  note: nullable(text),
 });
 
 export interface Finding {
@@ -128,19 +132,25 @@ export interface Finding {
 export interface ReviewAnswer {
   back: { es: string; example: string };
   findings: Finding[];
+  /** Something worth telling the editor that is not a problem (a hint not needed). Never flags the card. */
+  note: string | null;
 }
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
 const oneLine = (v: unknown) => (typeof v === "string" ? v.replace(/\s+/g, " ").trim() : "");
 
-/** Checks the reviewer's answer. A failed check needs a problem; a passed one keeps none. */
+/** Checks the reviewer's answer. A failed check needs a problem; a passed one keeps none. The note is optional. */
 export function guardReview(output: unknown): { ok: true; answer: ReviewAnswer } | { ok: false; fields: string[] } {
   const fields: string[] = [];
   const o = isRec(output) ? output : {};
   const back = isRec(o.back) ? o.back : {};
   const checks = isRec(o.checks) ? o.checks : {};
-  const answer: ReviewAnswer = { back: { es: oneLine(back.es), example: oneLine(back.example) }, findings: [] };
+  const answer: ReviewAnswer = {
+    back: { es: oneLine(back.es), example: oneLine(back.example) },
+    findings: [],
+    note: oneLine(o.note) || null,
+  };
   if (!answer.back.es) fields.push("back.es");
   if (!answer.back.example) fields.push("back.example");
   for (const name of CHECKS) {
@@ -162,6 +172,8 @@ export interface Review {
   flagged: boolean;
   findings: Finding[];
   back: { es: string; example: string };
+  /** The reviewer's note, which never flags a card. Reviews made before E4 have none. */
+  note?: string | null;
   via: string;
   model: string;
   effort: string;
@@ -361,6 +373,7 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
           flagged: findings.length > 0,
           findings,
           back: guarded.answer.back,
+          note: guarded.answer.note,
           via,
           model,
           effort,

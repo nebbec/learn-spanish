@@ -69,6 +69,7 @@ export function decisionFile(card: Card, review: Review): string {
     "#",
     "# Why it was flagged:",
     ...review.findings.map((f) => `#   - ${findingLine(f)}`),
+    ...(review.note ? [`# Reviewer's note (not a reason to flag): ${review.note}`] : []),
     "#",
     '# To decide, change "pending" on the decision line to:',
     "#   approve   the card goes into the deck as written below, with any corrections you make",
@@ -255,6 +256,7 @@ export function renderFlaggedList(cards: FlaggedCard[]): string {
       "",
       ...review.findings.map((f) => `- ${findingLine(f)}`),
       "",
+      ...(review.note ? [`Reviewer's note (not a reason to flag): ${review.note}`, ""] : []),
       `The reviewer's own translation: answer "${review.back.es}"; example "${review.back.example}".`,
       "",
     );

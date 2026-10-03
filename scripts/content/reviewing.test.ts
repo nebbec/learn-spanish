@@ -41,8 +41,18 @@ describe("review answer guard", () => {
       answer: {
         back: { es: "back-translated word", example: "back-translated sentence" },
         findings: [{ reason: "example", problem: "Problem text for house.", fix: "example.es: Una frase mejor." }],
+        note: "Note text for house.",
       },
     });
+  });
+
+  it("keeps a note without making it a finding, and reads a missing or blank note as none", () => {
+    const answer = answerFor(JSON.stringify(testCards().tener[0])) as Record<string, unknown>;
+    expect(guardReview(answer)).toMatchObject({ ok: true, answer: { findings: [], note: "Note text: the hint is not needed." } });
+    answer.note = " ";
+    expect(guardReview(answer)).toMatchObject({ ok: true, answer: { note: null } });
+    delete answer.note;
+    expect(guardReview(answer)).toMatchObject({ ok: true, answer: { note: null } });
   });
 
   it("names the fields of a failed check with no problem, or a missing back-translation", () => {
@@ -51,6 +61,16 @@ describe("review answer guard", () => {
     answer.checks.example = { ok: false, problem: null, fix: null };
     answer.checks.trick = { ok: "yes" };
     expect(guardReview(answer)).toEqual({ ok: false, fields: ["back.es", "checks.example", "checks.trick"] });
+  });
+});
+
+describe("review prompt", () => {
+  it("asks for a note, not a failed check, when a hint is right but not needed, and still fails a wrong hint", () => {
+    expect(REVIEW_SYSTEM_PROMPT).toContain("A hint the prompt does not strictly need is harmless and is never a reason to fail a check.");
+    expect(REVIEW_SYSTEM_PROMPT).toContain("A hint that is wrong or misleading, or that leaves more than one right answer, fails this check.");
+    expect(REVIEW_SYSTEM_PROMPT).toContain("A hint that is right but not needed does not: pass the check and say so in note.");
+    expect(REVIEW_SYSTEM_PROMPT).not.toMatch(/hint: present only when/);
+    expect((REVIEW_SCHEMA as { required: string[] }).required).toEqual(["back", "checks", "note"]);
   });
 });
 
@@ -81,7 +101,9 @@ describe("review run", () => {
 
     expect(summary).toMatchObject({ cards: 5, passed: 3, flagged: 2, failed: 0, calls: 5, reasons: { example: 1, oneAnswer: 1 } });
     expect(store.get("casa-house")).toMatchObject({ flagged: true, rank: 90, word: "casa", draft: cardHash(testCards().casa[0]) });
-    expect(store.get("bueno-good")).toMatchObject({ flagged: false, findings: [] });
+    expect(store.get("bueno-good")).toMatchObject({ flagged: false, findings: [], note: null });
+    expect(store.get("tener-have")).toMatchObject({ flagged: false, findings: [], note: "Note text: the hint is not needed." });
+    expect(printed).toContain("#13 tener: tener-have passed");
     expect(printed).toContain("#13 tener: tener-have-to flagged (oneAnswer)");
     expect(printed).toContain("#2 de: de-of passed");
 
@@ -90,6 +112,7 @@ describe("review run", () => {
       for (const t of [card.example.es, card.example.en, card.trick]) expect(output).not.toContain(t);
     }
     expect(output).not.toContain("Problem text");
+    expect(output).not.toContain("Note text");
 
     const log = readFileSync(store.logFile, "utf8").trim().split("\n").map((l) => JSON.parse(l));
     expect(log).toHaveLength(5);

@@ -33,6 +33,8 @@ export function testCards(): Record<string, Card[]> {
 
 /** The prompts the fake reviewer finds fault with, and the check that fails. */
 const FAULTS: Record<string, string> = { house: "example", "to have to": "oneAnswer" };
+/** The prompts the fake reviewer writes a note on: a note never flags a card. */
+const NOTES: Record<string, string> = { "to have": "Note text: the hint is not needed.", house: "Note text for house." };
 
 export function answerFor(prompt: string) {
   const card = JSON.parse(prompt.slice(prompt.indexOf("{"))) as Card;
@@ -47,6 +49,7 @@ export function answerFor(prompt: string) {
           : { ok: true, problem: null, fix: null },
       ]),
     ),
+    note: NOTES[card.en] ?? null,
   };
 }
 

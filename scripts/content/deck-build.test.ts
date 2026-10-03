@@ -75,6 +75,9 @@ describe("deck build", () => {
     expect(list).toContain("### casa-house · rank 90 · casa");
     expect(list).toContain("- Example sentence: Problem text for house. Suggested fix: example.es: Una frase mejor.");
     expect(list).toContain("[decisions/tener-have-to.txt](decisions/tener-have-to.txt)");
+    expect(list).toContain("Reviewer's note (not a reason to flag): Note text for house.");
+    expect(list).not.toContain("tener-have ·");
+    expect(readFileSync(decisionPath(store, "casa-house"), "utf8")).toContain("# Reviewer's note (not a reason to flag): Note text for house.");
 
     const build = buildDeck(drafts, store, null);
     expect(build).toMatchObject({ passed: ["de-of", "tener-have", "bueno-good"], waiting: ["tener-have-to", "casa-house"], problems: [] });
