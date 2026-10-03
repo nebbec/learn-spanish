@@ -1,0 +1,17 @@
+{
+  "id": "phrase-how-are-you",
+  "rank": 67,
+  "word": "how-and-where-i-am",
+  "draft": "37381eaab248132f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "How are you? (informal, to one person, tú)",
+    "example": "Hi, Ana! How are you?"
+  },
+  "note": "The hint \"informal\" correctly rules out ¿Cómo está (usted)?, and ¿Qué tal? is a near-synonym that a learner might give, but it is closer to \"How's it going?\", so ¿Cómo estás? is the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:20.167Z"
+}

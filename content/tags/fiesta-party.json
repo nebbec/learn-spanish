@@ -1,0 +1,14 @@
+{
+  "id": "fiesta-party",
+  "unit": "making-plans",
+  "want": "fiesta",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e2718704d04aa37a",
+  "group": "#349 fiesta",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:00.837Z"
+}

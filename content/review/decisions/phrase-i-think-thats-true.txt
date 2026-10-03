@@ -1,0 +1,29 @@
+# phrase-i-think-thats-true · rank 89 · what-people-say
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out pensar but not "Creo que es cierto", which is just as common and natural for "that's true", so two answers would be right. Suggested fix: hint: Use creer, the everyday verb for an opinion, and the noun verdad for "true".
+# Reviewer's note (not a reason to flag): Leaving out eso is natural here, but a learner who answers \"Creo que eso es verdad\" is still essentially right, and the editor may want to accept that.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-i-think-thats-true
+kind:       phrase
+pos:        phrase
+es:         Creo que es verdad.
+en:         I think that's true.
+hint:       Use creer, the everyday verb for an opinion.
+example.es: Ella dice que es feliz. Creo que es verdad.
+example.en: She says she's happy. I think that's true.
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 8133b41fca1d6347

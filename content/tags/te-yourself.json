@@ -1,0 +1,14 @@
+{
+  "id": "te-yourself",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7507a797df99a944",
+  "group": "#21 te",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:39.605Z"
+}

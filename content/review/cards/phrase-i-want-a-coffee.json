@@ -1,0 +1,23 @@
+{
+  "id": "phrase-i-want-a-coffee",
+  "rank": 532,
+  "word": "what-i-want-and-have",
+  "draft": "a31ecfb67d286644",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is three separate utterances, not one short sentence, and thanking before getting the coffee is a little odd.",
+      "fix": "example.es: Buenos días, quiero un café, por favor. / example.en: Good morning, I want a coffee, please."
+    }
+  ],
+  "back": {
+    "es": "I want a coffee, please.",
+    "example": "Good morning. I want a coffee, please. Thanks!"
+  },
+  "note": "When ordering, Latin American speakers also often say \"¿Me da un café, por favor?\" (or \"¿Me regala un café?\" in Colombia), which could be a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:37.627Z"
+}

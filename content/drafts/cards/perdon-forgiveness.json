@@ -1,0 +1,24 @@
+{
+  "id": "perdon-forgiveness",
+  "rank": 520,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el perdón",
+  "en": "forgiveness",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Te pido perdón por lo de ayer.",
+    "en": "I'm asking for your forgiveness for yesterday."
+  },
+  "spain": null,
+  "trick": "EL PERDÓN is a pardon: a king's pardon is the ultimate forgiveness.",
+  "image": "/deck/img/perdon-forgiveness.webp",
+  "audio": {
+    "word": "/deck/audio/perdon-forgiveness.word.mp3",
+    "sentence": "/deck/audio/perdon-forgiveness.sentence.mp3"
+  }
+}

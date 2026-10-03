@@ -1,0 +1,28 @@
+{
+  "id": "hacer-form-tu",
+  "rank": 17,
+  "kind": "form",
+  "pos": "verb",
+  "es": "haces",
+  "en": "you do",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "yo": "hago",
+      "tu": "haces",
+      "el": "hace"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Qué haces hoy?",
+    "en": "What are you doing today?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/hacer-do.webp",
+  "audio": {
+    "word": "/deck/audio/hacer-form-tu.word.mp3",
+    "sentence": "/deck/audio/hacer-form-tu.sentence.mp3"
+  }
+}

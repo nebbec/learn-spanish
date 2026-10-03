@@ -1,0 +1,14 @@
+{
+  "id": "cuanto-how-much",
+  "unit": "asking-questions",
+  "want": "cuánto",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": "Use cuánto to ask how much or how many; cuándo, with a d, asks when.",
+  "draft": "f04368b05cf7845e",
+  "group": "#234 cuánto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:27.857Z"
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 67,
+  "word": "how-and-where-i-am",
+  "unit": "how-and-where-i-am",
+  "order": 10,
+  "source": "chunk",
+  "line": "phrase: ¿cómo estás? = how are you?",
+  "words": [
+    {
+      "word": "cómo",
+      "rank": 67
+    },
+    {
+      "word": "estar",
+      "rank": 8
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:38.169Z",
+  "cards": [
+    "phrase-how-are-you"
+  ]
+}

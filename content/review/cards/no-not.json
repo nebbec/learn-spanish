@@ -2,15 +2,16 @@
   "id": "no-not",
   "rank": 5,
   "word": "no",
-  "draft": "4f58421cee69ba90",
+  "draft": "31fcfd081431f2a7",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "not (negating a verb); no",
-    "example": "I'm not hungry."
+    "es": "not (the adverb that negates a verb, as in No sé = I don't know)",
+    "example": "I don't want coffee, thanks."
   },
+  "note": "This card tests \"no\" meaning \"not\" before a verb (No sé), which is a different meaning from the other card's standalone \"No, thanks\", so the two cards don't overlap.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:40:01.857Z"
+  "reviewedAt": "2026-10-03T20:35:14.337Z"
 }

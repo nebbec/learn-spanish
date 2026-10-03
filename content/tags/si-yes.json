@@ -1,0 +1,14 @@
+{
+  "id": "si-yes",
+  "unit": "me-and-you",
+  "want": "sí",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1e2a18652c7cea07",
+  "group": "#32 sí",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:05.010Z"
+}

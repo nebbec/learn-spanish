@@ -1,0 +1,29 @@
+# phrase-my-name-is-ana · rank 625 · who-i-am
+#
+# Why it was flagged:
+#   - One right answer: With no hint, "Mi nombre es Ana. Encantada." (or "Me llamo Ana. Encantada.") is just as correct for this prompt, but the unit's own sibling cards use hints to rule out exactly those alternatives. Suggested fix: hint: The everyday "I call myself" way, then the two-word phrase anyone can say, man or woman.
+# Reviewer's note (not a reason to flag): This card mostly combines the unit's "My name is..." and "Nice to meet you." cards, and the spain field would be cleaner as just "Me llamo Ana. Encantada." with the explanation moved out of it.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-my-name-is-ana
+kind:       phrase
+pos:        phrase
+es:         Me llamo Ana. Mucho gusto.
+en:         My name is Ana. Nice to meet you.
+hint:
+example.es: —Me llamo Ana. Mucho gusto. —Mucho gusto, Ana.
+example.en: My name is Ana. Nice to meet you. Nice to meet you, Ana.
+spain:      Me llamo Ana. Encantada. (Encantado or encantada is more common than mucho gusto in Spain.)
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: d621b0a29990659f

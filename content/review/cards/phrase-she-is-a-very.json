@@ -1,0 +1,17 @@
+{
+  "id": "phrase-she-is-a-very",
+  "rank": 113,
+  "word": "what-people-are-like",
+  "draft": "6f8194d845e8781a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "She is a very good friend.",
+    "example": "Ana? Yes, she is a very good friend."
+  },
+  "note": "Learners may also correctly say \"Es muy buena amiga\" or \"Ella es una amiga muy buena\", so the app should accept those small variants when grading recall of this phrase.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:50.939Z"
+}

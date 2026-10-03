@@ -1,0 +1,28 @@
+{
+  "id": "haber-form-hay",
+  "rank": 12,
+  "kind": "form",
+  "pos": "verb",
+  "es": "hay",
+  "en": "there is / there are",
+  "hint": "something exists; not estar",
+  "grammar": {
+    "present": {
+      "yo": "he",
+      "tu": "has",
+      "el": "hay"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hay pan en la mesa.",
+    "en": "There's bread on the table."
+  },
+  "spain": null,
+  "trick": "Hay sounds like eye: use your eye to see what there is.",
+  "image": "/deck/img/haber-there-is.webp",
+  "audio": {
+    "word": "/deck/audio/haber-form-hay.word.mp3",
+    "sentence": "/deck/audio/haber-form-hay.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+# siempre-always · rank 129 · siempre
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: llegas, tarde, clase. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids siempre-always
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         siempre-always
+kind:       content
+pos:        adverb
+es:         siempre
+en:         always
+hint:
+example.es: Siempre llegas tarde a clase.
+example.en: You always arrive late to class.
+spain:
+trick:      SIEMPRE sounds like see 'em pray: whenever you visit Grandma, you always see 'em pray.
+
+# The draft this file was made from. Do not change it.
+draft: 32218678a6b12c61

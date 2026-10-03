@@ -1,0 +1,21 @@
+{
+  "id": "phrase-can-you-help-me",
+  "rank": 144,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Me puede ayudar, por favor?",
+  "en": "Can you help me, please?",
+  "hint": "Formal: polite, to a stranger (usted)",
+  "grammar": null,
+  "example": {
+    "es": "Perdón, ¿me puede ayudar, por favor? No entiendo.",
+    "en": "Excuse me, can you help me, please? I don't understand."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-can-you-help-me.word.mp3",
+    "sentence": "/deck/audio/phrase-can-you-help-me.sentence.mp3"
+  }
+}

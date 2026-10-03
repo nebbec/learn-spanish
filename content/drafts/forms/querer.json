@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 28,
+  "word": "querer",
+  "from": "querer-want",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:21.167Z",
+  "cards": [
+    "querer-form-yo",
+    "querer-form-tu",
+    "querer-form-el"
+  ]
+}

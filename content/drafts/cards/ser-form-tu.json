@@ -1,0 +1,28 @@
+{
+  "id": "ser-form-tu",
+  "rank": 4,
+  "kind": "form",
+  "pos": "verb",
+  "es": "eres",
+  "en": "you are",
+  "hint": "identity, informal",
+  "grammar": {
+    "present": {
+      "yo": "soy",
+      "tu": "eres",
+      "el": "es"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hola, ¿tú eres Carlos?",
+    "en": "Hi, are you Carlos?"
+  },
+  "spain": null,
+  "trick": "Eres sounds like heiress: you are an heiress.",
+  "image": "/deck/img/ser-be-identity.webp",
+  "audio": {
+    "word": "/deck/audio/ser-form-tu.word.mp3",
+    "sentence": "/deck/audio/ser-form-tu.sentence.mp3"
+  }
+}

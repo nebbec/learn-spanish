@@ -1,0 +1,27 @@
+# tip-object-pronouns · tip 12 of 14 · introduced by unit 15, People I love
+# The brief from content/tips.json: Words for me, you, him and it go in front of a conjugated verb: te quiero (I love you), lo veo (I see him). They join the end of a dictionary-form verb: ayudarme.
+# Drafted 2026-10-03T19:52:07.485Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-object-pronouns --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Me, te, lo go before the verb
+
+The small words for me, you, him, her and it are me, te, lo and la, and they go right before the verb.
+So I love you is te quiero, which word for word is you I love.
+Lo veo means I see him or I see it, and la veo means I see her.
+When the verb is in its dictionary form, the one ending in -ar, -er or -ir, the small word attaches to the end of it instead.
+So to help me is ayudarme, all one word.
+
+example: Te quiero mucho, mi amor. | I love you so much, my love.
+example: Lo veo mañana. | I'll see him tomorrow.
+example: ¿Puedes llamarme mañana? | Can you call me tomorrow?

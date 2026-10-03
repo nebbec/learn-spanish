@@ -1,0 +1,16 @@
+{
+  "id": "decir-form-el",
+  "unit": "what-people-say",
+  "want": "decir: he / she says (dice)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "dcd7abba0b6be0e9",
+  "group": "forms decir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:55.917Z"
+}

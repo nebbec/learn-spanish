@@ -1,0 +1,14 @@
+{
+  "id": "ya-not-anymore",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6821d86978dc8dc2",
+  "group": "#51 ya",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:49.782Z"
+}

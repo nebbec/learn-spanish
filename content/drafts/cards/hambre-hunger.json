@@ -1,0 +1,24 @@
+{
+  "id": "hambre-hunger",
+  "rank": 711,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el hambre",
+  "en": "hunger",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tengo mucha hambre, ¿vamos a comer?",
+    "en": "I'm really hungry, shall we go eat?"
+  },
+  "spain": null,
+  "trick": "HAMBRE sounds like \"hamburger\": hunger makes you dream of a big hamburger.",
+  "image": "/deck/img/hambre-hunger.webp",
+  "audio": {
+    "word": "/deck/audio/hambre-hunger.word.mp3",
+    "sentence": "/deck/audio/hambre-hunger.sentence.mp3"
+  }
+}

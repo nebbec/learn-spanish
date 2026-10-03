@@ -1,0 +1,21 @@
+{
+  "id": "uno-one-number",
+  "rank": 136,
+  "kind": "content",
+  "pos": "other",
+  "es": "uno",
+  "en": "one",
+  "hint": "the number, counting",
+  "grammar": null,
+  "example": {
+    "es": "Uno, dos, tres, ¡vamos!",
+    "en": "One, two, three, let's go!"
+  },
+  "spain": null,
+  "trick": "UNO sounds like the card game Uno, where you shout when you have one card left.",
+  "image": "/deck/img/uno-one-number.webp",
+  "audio": {
+    "word": "/deck/audio/uno-one-number.word.mp3",
+    "sentence": "/deck/audio/uno-one-number.sentence.mp3"
+  }
+}

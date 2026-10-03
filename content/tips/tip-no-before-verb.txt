@@ -1,0 +1,27 @@
+# tip-no-before-verb · tip 7 of 14 · introduced by unit 8, When I don't understand
+# The brief from content/tips.json: To say not, put no straight before the verb: no entiendo, no sé. Spanish also says no twice in answers: No, no sé.
+# Drafted 2026-10-03T19:51:43.674Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-no-before-verb --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: No goes before the verb
+
+To say not in Spanish, you just put no right before the action word, the verb.
+So sé means I know, and no sé means I don't know.
+Spanish has no extra word like don't, so no entiendo means I don't understand.
+When you answer a question with no, you often say it twice: No, no sé means No, I don't know.
+The first no answers the question, and the second no goes before the verb.
+
+example: No, no sé. | No, I don't know.
+example: No quiero café. | I don't want coffee.
+example: Él no está aquí. | He isn't here.

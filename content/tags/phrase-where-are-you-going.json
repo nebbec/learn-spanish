@@ -1,0 +1,19 @@
+{
+  "id": "phrase-where-are-you-going",
+  "unit": "where-im-going",
+  "want": null,
+  "requires": [
+    "a-to",
+    "donde-where",
+    "ir-form-tu",
+    "hoy-today"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "f78946fea5b8dfb8",
+  "group": "phrases where-im-going",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:44.055Z"
+}

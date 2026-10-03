@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-tired-but-happy",
+  "rank": 736,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Estoy cansado pero feliz.",
+  "en": "I'm tired but happy.",
+  "hint": "Said by a man; a woman says cansada.",
+  "grammar": null,
+  "example": {
+    "es": "¿Cómo estás? —Estoy cansado pero feliz.",
+    "en": "How are you? —I'm tired but happy."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-im-tired-but-happy.word.mp3",
+    "sentence": "/deck/audio/phrase-im-tired-but-happy.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "enfermo-sick",
+  "unit": "how-i-feel",
+  "want": "enfermo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1fe3a8c417efab27",
+  "group": "#614 enfermo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:17.234Z"
+}

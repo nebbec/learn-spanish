@@ -1,0 +1,19 @@
+{
+  "id": "phrase-i-think-thats-true",
+  "unit": "what-people-say",
+  "want": null,
+  "requires": [
+    "creer-think-opinion",
+    "que-that",
+    "ser-form-el",
+    "verdad-truth"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "8133b41fca1d6347",
+  "group": "phrases what-people-say",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:14.464Z"
+}

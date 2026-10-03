@@ -1,0 +1,33 @@
+# entender-understand · rank 141 · entender
+#
+# Why it was flagged:
+#   - One right answer: With no hint, "to understand" also has comprender as a common, correct answer, so a learner who recalls comprender would be marked wrong. Suggested fix: hint: the everyday word, as in "I don't get it" (not comprender)
+# Reviewer's note (not a reason to flag): The e→ie stem change (entiendo, entiendes, entiende) correctly makes the irregular flag true.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         entender-understand
+kind:       content
+pos:        verb
+es:         entender
+en:         to understand
+hint:
+yo:         entiendo
+tu:         entiendes
+el:         entiende
+irregular:  yes
+example.es: Ana, no entiendo nada.
+example.en: Ana, I don't understand anything.
+spain:
+trick:      ENTENDER sounds like "intend her": to understand what she intends, you have to listen to her.
+
+# The draft this file was made from. Do not change it.
+draft: 7dc92bcdd7dcc9c3

@@ -1,0 +1,23 @@
+{
+  "id": "triste-sad",
+  "rank": 781,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "triste",
+  "en": "sad",
+  "hint": null,
+  "grammar": {
+    "feminine": "triste"
+  },
+  "example": {
+    "es": "Mi hermana está triste hoy.",
+    "en": "My sister is sad today."
+  },
+  "spain": null,
+  "trick": "TRISTE sounds like \"tristful\" or \"trysts\" that end badly: a broken-off tryst leaves you sad.",
+  "image": "/deck/img/triste-sad.webp",
+  "audio": {
+    "word": "/deck/audio/triste-sad.word.mp3",
+    "sentence": "/deck/audio/triste-sad.sentence.mp3"
+  }
+}

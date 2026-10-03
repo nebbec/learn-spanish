@@ -1,0 +1,28 @@
+{
+  "id": "estar-form-el",
+  "rank": 8,
+  "kind": "form",
+  "pos": "verb",
+  "es": "está",
+  "en": "he / she is",
+  "hint": "state, place",
+  "grammar": {
+    "present": {
+      "yo": "estoy",
+      "tu": "estás",
+      "el": "está"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hola, Ana. ¿Cómo está él?",
+    "en": "Hi, Ana. How is he?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/estar-be-state.webp",
+  "audio": {
+    "word": "/deck/audio/estar-form-el.word.mp3",
+    "sentence": "/deck/audio/estar-form-el.sentence.mp3"
+  }
+}

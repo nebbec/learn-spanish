@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-hungry",
+  "rank": 711,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Tengo hambre.",
+  "en": "I'm hungry.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Tengo hambre. ¿Hay comida?",
+    "en": "I'm hungry. Is there any food?"
+  },
+  "spain": null,
+  "trick": "Spanish doesn't say \"I am hungry.\" It says \"I have hunger\" (tengo hambre), using tener, not estar.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-im-hungry.word.mp3",
+    "sentence": "/deck/audio/phrase-im-hungry.sentence.mp3"
+  }
+}

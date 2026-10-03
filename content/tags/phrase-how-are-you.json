@@ -1,0 +1,14 @@
+{
+  "id": "phrase-how-are-you",
+  "unit": "how-and-where-i-am",
+  "want": "phrase: ¿cómo estás? = how are you?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "37381eaab248132f",
+  "group": "phrases how-and-where-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:14.429Z"
+}

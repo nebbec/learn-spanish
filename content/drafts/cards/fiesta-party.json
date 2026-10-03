@@ -1,0 +1,24 @@
+{
+  "id": "fiesta-party",
+  "rank": 349,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la fiesta",
+  "en": "party",
+  "hint": "celebration, not political",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Vas a ir a la fiesta de Ana?",
+    "en": "Are you going to Ana's party?"
+  },
+  "spain": null,
+  "trick": "FIESTA sounds like \"feast-a\": every good party has a feast.",
+  "image": "/deck/img/fiesta-party.webp",
+  "audio": {
+    "word": "/deck/audio/fiesta-party.word.mp3",
+    "sentence": "/deck/audio/fiesta-party.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-very-well-thank",
+  "rank": 75,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Estoy muy bien, gracias. ¿Y tú?",
+  "en": "I'm very well, thank you. And you?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "—¿Cómo estás? —Estoy muy bien, gracias. ¿Y tú?",
+    "en": "How are you? I'm very well, thank you. And you?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-im-very-well-thank.word.mp3",
+    "sentence": "/deck/audio/phrase-im-very-well-thank.sentence.mp3"
+  }
+}

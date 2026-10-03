@@ -1,0 +1,14 @@
+{
+  "id": "viejo-old",
+  "unit": "what-people-are-like",
+  "want": "viejo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9767a5a76adf25ca",
+  "group": "#242 viejo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:33.542Z"
+}

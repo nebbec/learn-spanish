@@ -1,0 +1,28 @@
+{
+  "id": "padre-parents",
+  "rank": 128,
+  "word": "padre",
+  "draft": "d76dba512e625aa7",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Without a hint, the informal los papás, which is very common in Latin America for parents, would also be a right answer.",
+      "fix": "hint: not the informal papás"
+    },
+    {
+      "reason": "trick",
+      "problem": "The trick is circular (padres sounds like padres) and calls a mother a father figure, so it gives no sound link to the meaning parents.",
+      "fix": "trick: PADRES starts with PA, like PArents, and your padres are your parents."
+    }
+  ],
+  "back": {
+    "es": "the parents (also: the fathers)",
+    "example": "My parents live in the countryside."
+  },
+  "note": "The plural answer is fine here because padres only means parents in the plural, but the editor should know it departs from the usual singular dictionary form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:41.154Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-dont-know",
+  "rank": 26,
+  "word": "when-i-dont-understand",
+  "draft": "2c9f8cfa3e81486e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I don't know.",
+    "example": "Where is my coffee? —I don't know."
+  },
+  "note": "\"No lo sé.\" is a common, equally correct variant, so learners who give it should count it as right; it is not a different answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:11.487Z"
+}

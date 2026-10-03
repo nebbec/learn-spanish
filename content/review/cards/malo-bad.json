@@ -1,0 +1,17 @@
+{
+  "id": "malo-bad",
+  "rank": 228,
+  "word": "malo",
+  "draft": "1c72b18903afd2e0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "bad (adjective; feminine mala)",
+    "example": "My sister isn't bad, she's very good."
+  },
+  "note": "The hint \"full form\" is useful because it rules out the short form \"mal,\" which is used before masculine nouns and as the adverb.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:32.746Z"
+}

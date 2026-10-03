@@ -1,0 +1,21 @@
+{
+  "id": "phrase-ill-call-you-tomorrow",
+  "rank": 171,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Te llamo mañana.",
+  "en": "I'll call you tomorrow.",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "Ahora no puedo, pero te llamo mañana.",
+    "en": "I can't right now, but I'll call you tomorrow."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-ill-call-you-tomorrow.word.mp3",
+    "sentence": "/deck/audio/phrase-ill-call-you-tomorrow.sentence.mp3"
+  }
+}

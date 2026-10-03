@@ -1,0 +1,28 @@
+{
+  "id": "saber-form-el",
+  "rank": 26,
+  "kind": "form",
+  "pos": "verb",
+  "es": "sabe",
+  "en": "he / she knows",
+  "hint": "facts, information, how to do something",
+  "grammar": {
+    "present": {
+      "yo": "sé",
+      "tu": "sabes",
+      "el": "sabe"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mi madre sabe dónde está el café.",
+    "en": "My mother knows where the coffee is."
+  },
+  "spain": null,
+  "trick": "English savvy comes from Spanish sabe, so someone savvy knows a lot.",
+  "image": "/deck/img/saber-know.webp",
+  "audio": {
+    "word": "/deck/audio/saber-form-el.word.mp3",
+    "sentence": "/deck/audio/saber-form-el.sentence.mp3"
+  }
+}

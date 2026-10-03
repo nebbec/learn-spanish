@@ -2,16 +2,16 @@
   "id": "esto-this",
   "rank": 49,
   "word": "esto",
-  "draft": "e6d60377900137a3",
+  "draft": "169248adc98f9e1c",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "this (neuter demonstrative pronoun, for an unnamed thing, idea or situation)",
-    "example": "What is this? I don't understand anything."
+    "es": "this (neuter demonstrative pronoun, for an unnamed thing or idea)",
+    "example": "What is this? Is it coffee?"
   },
-  "note": "The hint is needed: it rules out este and esta, and \"this\" already rules out eso.",
+  "note": "The hint is needed here, because it rules out este and esta for an unknown thing, and \"this\" (not \"that\") rules out eso.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:21:43.902Z"
+  "reviewedAt": "2026-10-03T20:36:03.459Z"
 }

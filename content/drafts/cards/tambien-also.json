@@ -1,0 +1,21 @@
+{
+  "id": "tambien-also",
+  "rank": 115,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "también",
+  "en": "also",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Mi hermana también es muy buena.",
+    "en": "My sister is also very good."
+  },
+  "spain": null,
+  "trick": "TAMBIÉN sounds like \"Tom be in\": whatever the plan, Tom wants to be in it too.",
+  "image": "/deck/img/tambien-also.webp",
+  "audio": {
+    "word": "/deck/audio/tambien-also.word.mp3",
+    "sentence": "/deck/audio/tambien-also.sentence.mp3"
+  }
+}

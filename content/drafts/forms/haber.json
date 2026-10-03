@@ -1,0 +1,13 @@
+{
+  "kind": "form",
+  "rank": 12,
+  "word": "haber",
+  "from": "haber-there-is",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:32.800Z",
+  "cards": [
+    "haber-form-hay"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dinero-money",
+  "unit": "buying-things",
+  "want": "dinero",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bfb57368d3f2a4bc",
+  "group": "#164 dinero",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:52.182Z"
+}

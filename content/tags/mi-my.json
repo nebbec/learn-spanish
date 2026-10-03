@@ -1,0 +1,14 @@
+{
+  "id": "mi-my",
+  "unit": "what-i-want-and-have",
+  "want": "mi: my",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "287101a044f91db3",
+  "group": "#25 mi",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:47.802Z"
+}

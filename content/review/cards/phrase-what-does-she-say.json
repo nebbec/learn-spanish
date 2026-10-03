@@ -1,0 +1,17 @@
+{
+  "id": "phrase-what-does-she-say",
+  "rank": 72,
+  "word": "what-people-say",
+  "draft": "2302c48013ad4c09",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "What does she say? / What is she saying?",
+    "example": "I don't understand. What is she saying?"
+  },
+  "note": "Speakers often drop ella and just say ¿Qué dice?, which a learner could fairly mark as right, and in the example the more natural English would be \"What is she saying?\" (example.en: \"I don't understand. What is she saying?\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:49.057Z"
+}

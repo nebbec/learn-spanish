@@ -1,0 +1,17 @@
+{
+  "id": "hijo-daughter",
+  "rank": 116,
+  "word": "hijo",
+  "draft": "ec23d1f94e8f301b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "daughter",
+    "example": "My daughter is in Mexico."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:52.563Z"
+}

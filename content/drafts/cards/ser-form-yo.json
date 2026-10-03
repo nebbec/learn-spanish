@@ -1,0 +1,28 @@
+{
+  "id": "ser-form-yo",
+  "rank": 4,
+  "kind": "form",
+  "pos": "verb",
+  "es": "soy",
+  "en": "I am",
+  "hint": "identity, origin",
+  "grammar": {
+    "present": {
+      "yo": "soy",
+      "tu": "eres",
+      "el": "es"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hola, yo soy Ana.",
+    "en": "Hello, I am Ana."
+  },
+  "spain": null,
+  "trick": "Picture yourself proudly announcing I am soy sauce: yo soy.",
+  "image": "/deck/img/ser-be-identity.webp",
+  "audio": {
+    "word": "/deck/audio/ser-form-yo.word.mp3",
+    "sentence": "/deck/audio/ser-form-yo.sentence.mp3"
+  }
+}

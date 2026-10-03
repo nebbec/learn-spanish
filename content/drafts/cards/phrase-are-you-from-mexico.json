@@ -1,0 +1,21 @@
+{
+  "id": "phrase-are-you-from-mexico",
+  "rank": 4,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Eres de México?",
+  "en": "Are you from Mexico?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "¿Eres de México? Sí, soy de Monterrey.",
+    "en": "Are you from Mexico? Yes, I'm from Monterrey."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-are-you-from-mexico.word.mp3",
+    "sentence": "/deck/audio/phrase-are-you-from-mexico.sentence.mp3"
+  }
+}

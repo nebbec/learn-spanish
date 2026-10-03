@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-like-it",
+  "rank": 110,
+  "word": "what-i-like",
+  "draft": "1b8e77682136f595",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I like it.",
+    "example": "Coffee? Yes, I like it a lot."
+  },
+  "note": "The hint \"About one thing\" is needed because it rules out \"Me gustan\"; the example is nearly the same as the unit's \"I like coffee a lot.\" card, and its English would read more naturally as \"Coffee? Yes, I like it a lot.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:55.927Z"
+}

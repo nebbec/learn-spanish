@@ -1,0 +1,17 @@
+{
+  "id": "saber-form-tu",
+  "rank": 26,
+  "word": "saber",
+  "draft": "834cbcd2a1d30bfd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sabes = you know (informal tú, as in knowing facts or how to do something)",
+    "example": "Do you know where Ana is?"
+  },
+  "note": "The hint correctly rules out conoces (people and places) and, through \"informal\", the usted form sabe; the trick also fits well, since \"savvy\" comes from the same word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:44.593Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-dont-like-beer",
+  "rank": 795,
+  "word": "what-i-like",
+  "draft": "c8e5ca9e38fec7ab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I don't like beer.",
+    "example": "I don't like beer, but I like coffee."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:00.272Z"
+}

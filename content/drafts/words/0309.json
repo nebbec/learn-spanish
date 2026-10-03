@@ -1,0 +1,12 @@
+{
+  "rank": 309,
+  "word": "agua",
+  "cards": [
+    "agua-water"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:50.352Z"
+}

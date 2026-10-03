@@ -1,0 +1,17 @@
+{
+  "id": "manana-tomorrow",
+  "rank": 171,
+  "word": "mañana",
+  "draft": "ba3243e24bd898dd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tomorrow (adverb)",
+    "example": "We'll see each other tomorrow at school / See you tomorrow at school."
+  },
+  "note": "The prompt \"tomorrow\" points only to the adverb mañana, so it can't be confused with the separate \"morning\" card, which is the noun la mañana.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:13.610Z"
+}

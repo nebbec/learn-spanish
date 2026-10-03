@@ -1,0 +1,28 @@
+{
+  "id": "ser-form-el",
+  "rank": 4,
+  "kind": "form",
+  "pos": "verb",
+  "es": "es",
+  "en": "he / she is",
+  "hint": "identity, origin",
+  "grammar": {
+    "present": {
+      "yo": "soy",
+      "tu": "eres",
+      "el": "es"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Ella es de México.",
+    "en": "She is from Mexico."
+  },
+  "spain": null,
+  "trick": "Es sounds just like the start of is: he es, she es.",
+  "image": "/deck/img/ser-be-identity.webp",
+  "audio": {
+    "word": "/deck/audio/ser-form-el.word.mp3",
+    "sentence": "/deck/audio/ser-form-el.sentence.mp3"
+  }
+}

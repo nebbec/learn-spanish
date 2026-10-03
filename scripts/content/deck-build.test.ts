@@ -292,6 +292,23 @@ describe("ordering build (L6)", () => {
     expect(idsOf(bigger.deck)).toEqual(["casa-house", "bueno-good", "tener-have", "de-of"]);
     expect(bigger.deck?.version).toBe(2);
     expect(bigger.beyondSize).toEqual(["tener-have-to"]);
+    // Fresh (L9): the deck is the top of the order alone, as if none had been built; dropping ids needs allowDrop.
+    const fresh = buildDeck(drafts, store, untagged, { plan, size: 3, fresh: true });
+    expect(fresh).toMatchObject({ dropped: ["de-of"], deck: null });
+    const replaced = buildDeck(drafts, store, untagged, { plan, size: 3, fresh: true, allowDrop: true });
+    expect(idsOf(replaced.deck)).toEqual(["casa-house", "bueno-good", "tener-have"]);
+    expect(replaced.deck?.version).toBe(2);
+    expect(replaced.beyondSize).toEqual(["de-of", "tener-have-to"]);
+  });
+
+  it("puts the tag's why line on the card, and shows it and the tip in path.md", async () => {
+    const { drafts, store, plan, tag } = await tagged();
+    decide(store, "casa-house", "approve");
+    tag("casa-house", { unit: "home", want: "casa: house", why: "Use casa for a home; edificio for any building." });
+    const build = buildDeck(drafts, store, null, { plan });
+    expect(build.deck?.cards[0]).toMatchObject({ id: "casa-house", why: "Use casa for a home; edificio for any building." });
+    expect(build.deck?.cards.find((c) => c.id === "bueno-good")?.why).toBeNull();
+    expect(build.pathText).toContain("1. `casa-house` · house → la casa\n   - Why: Use casa for a home; edificio for any building.\n");
   });
 
   it("gives the same deck file and path.md on a rebuild with nothing changed", async () => {

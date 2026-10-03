@@ -1,0 +1,27 @@
+# tip-past · tip 14 of 14 · for cards after the starter path
+# The brief from content/tips.json: A first look at the past: fue (it was / he went), tuve, hice, and the -é / -ó endings of regular verbs: hablé, habló. For when fue and the first past forms arrive after the starter path.
+# Drafted 2026-10-03T19:52:21.665Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-past --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Talking about the past
+
+To talk about something that already happened, Spanish changes the end of the verb.
+For -ar verbs like hablar, drop the -ar and add -é for I or -ó for he or she, so hablé means I spoke and habló means he or she spoke.
+Say the accent clearly, because hablo with no accent means I speak, right now.
+Some very common verbs have their own short past forms, so learn them as words: tuve means I had, and hice means I did or I made.
+Fue has two meanings: it was, and he or she went, and the rest of the sentence tells you which one.
+
+example: Hablé con Ana y ella habló conmigo. | I talked to Ana and she talked to me.
+example: Mi padre fue a la fiesta. | My father went to the party.
+example: Hoy tuve mucho trabajo. | I had a lot of work today.

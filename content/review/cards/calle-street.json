@@ -1,0 +1,23 @@
+{
+  "id": "calle-street",
+  "rank": 503,
+  "word": "calle",
+  "draft": "92c115cd078a5b3f",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The respelling \"kai-yay\" teaches the wrong pronunciation: calle is said KAH-yeh, with a plain \"ka\" rather than \"kai\" and a short final e rather than \"ay\".",
+      "fix": "trick: CALLE sounds like \"KAH-yeh\": you yell \"Ka-yeh!\" to a friend across the street."
+    }
+  ],
+  "back": {
+    "es": "the street",
+    "example": "My house is on this street."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:24.977Z"
+}

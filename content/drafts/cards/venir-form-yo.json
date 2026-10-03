@@ -1,0 +1,28 @@
+{
+  "id": "venir-form-yo",
+  "rank": 68,
+  "kind": "form",
+  "pos": "verb",
+  "es": "vengo",
+  "en": "I come",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "vengo",
+      "tu": "vienes",
+      "el": "viene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Vengo mañana con mi hermano.",
+    "en": "I'm coming tomorrow with my brother."
+  },
+  "spain": null,
+  "trick": "Vengo ends in go: I come, then I go.",
+  "image": "/deck/img/venir-come.webp",
+  "audio": {
+    "word": "/deck/audio/venir-form-yo.word.mp3",
+    "sentence": "/deck/audio/venir-form-yo.sentence.mp3"
+  }
+}

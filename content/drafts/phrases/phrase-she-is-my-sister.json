@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 167,
+  "word": "my-people",
+  "unit": "my-people",
+  "order": 16,
+  "source": "payoff",
+  "line": "She is my sister.",
+  "words": [
+    {
+      "word": "ella",
+      "rank": 72
+    },
+    {
+      "word": "ser",
+      "rank": 4
+    },
+    {
+      "word": "mi",
+      "rank": 25
+    },
+    {
+      "word": "hermano",
+      "rank": 167
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:58.129Z",
+  "cards": [
+    "phrase-she-is-my-sister"
+  ]
+}

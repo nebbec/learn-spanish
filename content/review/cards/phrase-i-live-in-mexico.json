@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-live-in-mexico",
+  "rank": 168,
+  "word": "what-i-do",
+  "draft": "58981a9fec3654df",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I live in Mexico and I work here.",
+    "example": "I live in Mexico and I work here, in a hotel."
+  },
+  "note": "Small changes a learner might make, like adding \"yo\" or saying \"aquí trabajo\", are still correct and could be accepted when they rate their recall.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:49.244Z"
+}

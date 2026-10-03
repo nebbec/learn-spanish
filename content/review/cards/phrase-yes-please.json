@@ -1,0 +1,23 @@
+{
+  "id": "phrase-yes-please",
+  "rank": 105,
+  "word": "me-and-you",
+  "draft": "bccfc232a4bd927c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sounds unnatural: the subject pronoun yo adds an emphasis nobody needs here, and insisting fits awkwardly with accepting an offer, so it is a poor model of how the phrase is really used.",
+      "fix": "example.es: Sí, por favor, quiero un café. / example.en: Yes, please, I want a coffee."
+    }
+  ],
+  "back": {
+    "es": "Yes, please.",
+    "example": "Yes, please, I insist."
+  },
+  "note": "Spain also says Sí, por favor, so a null spain field is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:39:05.674Z"
+}

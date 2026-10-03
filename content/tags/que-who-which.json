@@ -1,0 +1,14 @@
+{
+  "id": "que-who-which",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use que for who or which inside a sentence (the man who lives here); quién asks a question.",
+  "draft": "fd75d2f76ba55474",
+  "group": "#3 que",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:03:51.652Z"
+}

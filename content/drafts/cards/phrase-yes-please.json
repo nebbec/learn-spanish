@@ -1,0 +1,21 @@
+{
+  "id": "phrase-yes-please",
+  "rank": 105,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Sí, por favor.",
+  "en": "Yes, please.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Sí, por favor, yo insisto.",
+    "en": "Yes, please, I insist."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-yes-please.word.mp3",
+    "sentence": "/deck/audio/phrase-yes-please.sentence.mp3"
+  }
+}

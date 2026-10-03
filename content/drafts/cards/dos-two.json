@@ -1,0 +1,21 @@
+{
+  "id": "dos-two",
+  "rank": 98,
+  "kind": "content",
+  "pos": "other",
+  "es": "dos",
+  "en": "two",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Tengo dos hermanos y una hermana.",
+    "en": "I have two brothers and one sister."
+  },
+  "spain": null,
+  "trick": "DOS sounds like \"dose\": the doctor says to take two doses a day.",
+  "image": "/deck/img/dos-two.webp",
+  "audio": {
+    "word": "/deck/audio/dos-two.word.mp3",
+    "sentence": "/deck/audio/dos-two.sentence.mp3"
+  }
+}

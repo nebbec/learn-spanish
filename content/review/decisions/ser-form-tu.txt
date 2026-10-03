@@ -1,0 +1,33 @@
+# ser-form-tu · rank 4 · ser
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Tú, mi, amigo. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids ser-form-tu
+# Reviewer's note (not a reason to flag): The hint correctly rules out estás (identity) and usted es (informal), and the tú in the example is optional but natural for emphasis.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         ser-form-tu
+kind:       form
+pos:        verb
+es:         eres
+en:         you are
+hint:       identity, informal
+yo:         soy
+tu:         eres
+el:         es
+irregular:  yes
+example.es: Tú eres mi amigo.
+example.en: You are my friend.
+spain:
+trick:      Eres sounds like heiress: you are an heiress.
+
+# The draft this file was made from. Do not change it.
+draft: 38019ba1681d16f0

@@ -1,0 +1,12 @@
+{
+  "rank": 614,
+  "word": "enfermo",
+  "cards": [
+    "enfermo-sick"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:53:24.895Z"
+}

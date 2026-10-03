@@ -1,0 +1,43 @@
+{
+  "kind": "phrase",
+  "rank": 75,
+  "word": "how-and-where-i-am",
+  "unit": "how-and-where-i-am",
+  "order": 12,
+  "source": "payoff",
+  "line": "I'm very well, thank you. And you?",
+  "words": [
+    {
+      "word": "estar",
+      "rank": 8
+    },
+    {
+      "word": "muy",
+      "rank": 53
+    },
+    {
+      "word": "bien",
+      "rank": 34
+    },
+    {
+      "word": "gracias",
+      "rank": 75
+    },
+    {
+      "word": "y",
+      "rank": 9
+    },
+    {
+      "word": "tú",
+      "rank": 64
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:44.682Z",
+  "cards": [
+    "phrase-im-very-well-thank"
+  ]
+}

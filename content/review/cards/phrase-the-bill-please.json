@@ -1,0 +1,17 @@
+{
+  "id": "phrase-the-bill-please",
+  "rank": 238,
+  "word": "buying-things",
+  "draft": "8e15f442e4510c7f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "The check/bill, please.",
+    "example": "The food is very good. The check, please."
+  },
+  "note": "The hint is useful because it rules out the banknote meaning of \"bill\" (el billete); \"La comida estuvo muy buena\" would fit the end of a meal slightly better, and you could add \"check\" for American learners, but neither is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:29.014Z"
+}

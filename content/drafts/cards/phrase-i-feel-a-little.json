@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-feel-a-little",
+  "rank": 614,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Me siento un poco enfermo.",
+  "en": "I feel a little sick.",
+  "hint": "A woman says enferma.",
+  "grammar": null,
+  "example": {
+    "es": "Hoy no voy al trabajo. Me siento un poco enfermo.",
+    "en": "I'm not going to work today. I feel a little sick."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-feel-a-little.word.mp3",
+    "sentence": "/deck/audio/phrase-i-feel-a-little.sentence.mp3"
+  }
+}

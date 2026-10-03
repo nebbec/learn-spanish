@@ -1,0 +1,28 @@
+{
+  "id": "entender-understand",
+  "rank": 141,
+  "kind": "content",
+  "pos": "verb",
+  "es": "entender",
+  "en": "to understand",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "entiendo",
+      "tu": "entiendes",
+      "el": "entiende"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Ana, no entiendo nada.",
+    "en": "Ana, I don't understand anything."
+  },
+  "spain": null,
+  "trick": "ENTENDER sounds like \"intend her\": to understand what she intends, you have to listen to her.",
+  "image": "/deck/img/entender-understand.webp",
+  "audio": {
+    "word": "/deck/audio/entender-understand.word.mp3",
+    "sentence": "/deck/audio/entender-understand.sentence.mp3"
+  }
+}

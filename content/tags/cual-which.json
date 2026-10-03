@@ -1,0 +1,14 @@
+{
+  "id": "cual-which",
+  "unit": "asking-questions",
+  "want": "cuál",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": "Use cuál to pick one from a set, as in ¿cuál es...?; use qué right before a noun or to ask what something is.",
+  "draft": "014b926eed2af5cb",
+  "group": "#268 cuál",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:43.000Z"
+}

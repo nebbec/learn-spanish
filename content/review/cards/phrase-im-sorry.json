@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-sorry",
+  "rank": 63,
+  "word": "when-i-dont-understand",
+  "draft": "f9fbb787c046ef8b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I'm sorry.",
+    "example": "I'm sorry, I don't understand."
+  },
+  "note": "The hint is useful here because it separates lo siento from perdón and disculpa, which fit the excuse-me sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:09.067Z"
+}

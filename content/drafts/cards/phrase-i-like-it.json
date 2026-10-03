@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-like-it",
+  "rank": 110,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Me gusta.",
+  "en": "I like it.",
+  "hint": "About one thing",
+  "grammar": null,
+  "example": {
+    "es": "¿El café? Sí, me gusta mucho.",
+    "en": "The coffee? Yes, I like it a lot."
+  },
+  "spain": null,
+  "trick": "Gusta sounds like gusto, and you do the things you like with gusto.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-like-it.word.mp3",
+    "sentence": "/deck/audio/phrase-i-like-it.sentence.mp3"
+  }
+}

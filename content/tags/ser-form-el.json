@@ -1,0 +1,16 @@
+{
+  "id": "ser-form-el",
+  "unit": "who-i-am",
+  "want": "ser: he / she is (es)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": "tip-no-pronoun",
+  "why": "Use es for what someone or something is; está for how or where it is right now.",
+  "draft": "b34c71dd713910c7",
+  "group": "forms ser",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:39.050Z"
+}

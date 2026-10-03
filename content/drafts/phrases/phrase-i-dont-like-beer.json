@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 795,
+  "word": "what-i-like",
+  "unit": "what-i-like",
+  "order": 38,
+  "source": "payoff",
+  "line": "I don't like beer.",
+  "words": [
+    {
+      "word": "no",
+      "rank": 5
+    },
+    {
+      "word": "me",
+      "rank": 18
+    },
+    {
+      "word": "gustar",
+      "rank": 110
+    },
+    {
+      "word": "el",
+      "rank": 1
+    },
+    {
+      "word": "cerveza",
+      "rank": 795
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:02.247Z",
+  "cards": [
+    "phrase-i-dont-like-beer"
+  ]
+}

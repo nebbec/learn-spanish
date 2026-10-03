@@ -1,0 +1,17 @@
+{
+  "id": "de-from",
+  "unit": "who-i-am",
+  "want": "de: from",
+  "requires": [
+    "ser-form-yo"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "e4131bff4ddca36f",
+  "group": "#2 de",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:03:45.628Z",
+  "edited": "L9 by hand: requires ser-form-yo, since its example needs soy"
+}

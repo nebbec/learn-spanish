@@ -1,0 +1,14 @@
+{
+  "id": "hacer-make",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9c158f3d6732f1b1",
+  "group": "#17 hacer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:29.737Z"
+}

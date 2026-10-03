@@ -1,0 +1,33 @@
+# ir-form-el · rank 15 · ir
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Ella, al, trabajo. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids ir-form-el
+# Reviewer's note (not a reason to flag): Va is also the usted form, so the learner may want to be told that "you go" in a formal context gives the same answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         ir-form-el
+kind:       form
+pos:        verb
+es:         va
+en:         he / she goes
+hint:
+yo:         voy
+tu:         vas
+el:         va
+irregular:  yes
+example.es: Ella va al trabajo.
+example.en: She goes to work.
+spain:
+trick:      Va sounds like 'vroom': he goes, vroom, va!
+
+# The draft this file was made from. Do not change it.
+draft: 7265da153cebb0ea

@@ -2,15 +2,16 @@
   "id": "que-what",
   "rank": 16,
   "word": "qué",
-  "draft": "1f2d460e01f92b3c",
+  "draft": "05139039b2262f8e",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "what (interrogative pronoun)",
-    "example": "What are you doing here?"
+    "es": "qué = what (interrogative pronoun); example: What does your brother want?",
+    "example": "What does your brother want?"
   },
+  "note": "The trick works because qué sounds roughly like the letter K, but the \"K-shaped question mark\" image doesn't make much sense and could be simplified.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:41:35.513Z"
+  "reviewedAt": "2026-10-03T20:35:33.056Z"
 }

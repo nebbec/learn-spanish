@@ -1,0 +1,16 @@
+{
+  "id": "hacer-form-tu",
+  "unit": "what-i-do",
+  "want": "hacer: you do (haces)",
+  "requires": [
+    "tu-you-informal"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "61b99682b56fe9a8",
+  "group": "forms hacer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:51.168Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "comer-eat",
+  "unit": "what-i-do",
+  "want": "comer",
+  "requires": [],
+  "tip": "tip-regular-endings",
+  "why": null,
+  "draft": "9b841701603a3955",
+  "group": "#218 comer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:19.811Z"
+}

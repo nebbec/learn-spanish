@@ -1,0 +1,16 @@
+{
+  "id": "ir-form-yo",
+  "unit": "where-im-going",
+  "want": "ir: I go (voy)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": "tip-going-to",
+  "why": null,
+  "draft": "a451e78eb3cf50fd",
+  "group": "forms ir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:50.578Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "padre-father",
+  "rank": 128,
+  "word": "padre",
+  "draft": "be4ad8ce7525286a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "father (also priest); here: father",
+    "example": "My father is in Mexico."
+  },
+  "note": "The hint is needed because it rules out papá, and the singular prompt keeps this card separate from the \"parents\" card (los padres).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:59.612Z"
+}

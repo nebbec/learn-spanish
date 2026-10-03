@@ -1,0 +1,17 @@
+{
+  "id": "phrase-good-morning",
+  "rank": 83,
+  "word": "how-and-where-i-am",
+  "draft": "7f29ef24b1d4f8c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Good morning! (literally: good days)",
+    "example": "Good morning! How are you?"
+  },
+  "note": "\"¡Buen día!\" is also common in some places, such as Argentina and Uruguay, but \"¡Buenos días!\" is the neutral standard, so it's the right answer here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:24.653Z"
+}

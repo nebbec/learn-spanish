@@ -1,0 +1,29 @@
+# perdon-sorry · rank 520 · perdón
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out disculpa but not the other common one-word verb apologies perdona, perdone and disculpe, so a learner could reasonably give one of those. Suggested fix: hint: one-word apology, not a verb form like perdona or disculpa, and not lo siento
+# Reviewer's note (not a reason to flag): The interjection "sorry" is clearly separate from the other card's noun "forgiveness" (el perdón), so the two cards don't clash.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         perdon-sorry
+kind:       content
+pos:        other
+es:         perdón
+en:         sorry
+hint:       one-word apology, not lo siento or disculpa
+example.es: ¡Perdón! No te vi.
+example.en: Sorry! I didn't see you.
+spain:
+trick:      PERDÓN sounds like pardon: you say pardon when you bump into someone.
+
+# The draft this file was made from. Do not change it.
+draft: 76437298351f0b6d

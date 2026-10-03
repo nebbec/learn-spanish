@@ -1,0 +1,13 @@
+{
+  "rank": 127,
+  "word": "poco",
+  "cards": [
+    "poco-few",
+    "poco-a-little"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:54.254Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ayudar-help",
+  "rank": 144,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ayudar",
+  "en": "to help",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "ayudo",
+      "tu": "ayudas",
+      "el": "ayuda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Mi hermana me ayuda mucho.",
+    "en": "My sister helps me a lot."
+  },
+  "spain": null,
+  "trick": "AYUDAR sounds like \"I, you, dar\": I give you a hand when you need help.",
+  "image": "/deck/img/ayudar-help.webp",
+  "audio": {
+    "word": "/deck/audio/ayudar-help.word.mp3",
+    "sentence": "/deck/audio/ayudar-help.sentence.mp3"
+  }
+}

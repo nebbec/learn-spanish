@@ -1,0 +1,17 @@
+{
+  "id": "viejo-old",
+  "rank": 242,
+  "word": "viejo",
+  "draft": "9767a5a76adf25ca",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "old (adjective; of people or things, feminine vieja)",
+    "example": "My father is old, but my mother isn't."
+  },
+  "note": "Viejo is the standard answer for a bare \"old\", though antiguo (for things) and mayor (a polite word for older people) are near-synonyms a learner might think of; the yo-yo pun is weak but harmless.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:39.763Z"
+}

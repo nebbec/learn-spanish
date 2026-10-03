@@ -1,0 +1,28 @@
+{
+  "id": "hacer-form-yo",
+  "rank": 17,
+  "kind": "form",
+  "pos": "verb",
+  "es": "hago",
+  "en": "I do",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "hago",
+      "tu": "haces",
+      "el": "hace"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hago la tarea en casa.",
+    "en": "I do my homework at home."
+  },
+  "spain": null,
+  "trick": "Hago sounds like 'ah, go!': I do it, here I go.",
+  "image": "/deck/img/hacer-do.webp",
+  "audio": {
+    "word": "/deck/audio/hacer-form-yo.word.mp3",
+    "sentence": "/deck/audio/hacer-form-yo.sentence.mp3"
+  }
+}

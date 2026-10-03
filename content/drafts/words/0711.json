@@ -1,0 +1,12 @@
+{
+  "rank": 711,
+  "word": "hambre",
+  "cards": [
+    "hambre-hunger"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:53:33.609Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hermano-brother",
+  "rank": 167,
+  "word": "hermano",
+  "draft": "d7ec19adc876acb0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the brother",
+    "example": "My brother is in Mexico."
+  },
+  "note": "Slang \"bro\" (hermano/mano/carnal) is common in subtitles, but the plain meaning \"brother\" is the right core card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:08.687Z"
+}

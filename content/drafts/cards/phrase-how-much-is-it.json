@@ -1,0 +1,21 @@
+{
+  "id": "phrase-how-much-is-it",
+  "rank": 643,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Cuánto cuesta?",
+  "en": "How much is it?",
+  "hint": "Asking the price of one thing, with the verb for \"to cost\"",
+  "grammar": null,
+  "example": {
+    "es": "Perdón, ¿cuánto cuesta el café?",
+    "en": "Excuse me, how much is the coffee?"
+  },
+  "spain": null,
+  "trick": "Cuesta sounds like \"cost,\" so ¿cuánto cuesta? is literally \"how much does it cost?\"",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-how-much-is-it.word.mp3",
+    "sentence": "/deck/audio/phrase-how-much-is-it.sentence.mp3"
+  }
+}

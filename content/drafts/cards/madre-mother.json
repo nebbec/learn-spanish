@@ -1,0 +1,24 @@
+{
+  "id": "madre-mother",
+  "rank": 169,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la madre",
+  "en": "mother",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi madre está en México.",
+    "en": "My mother is in Mexico."
+  },
+  "spain": null,
+  "trick": "MADRE sounds like \"mad dray\": your mother gets mad when you drag mud into the house.",
+  "image": "/deck/img/madre-mother.webp",
+  "audio": {
+    "word": "/deck/audio/madre-mother.word.mp3",
+    "sentence": "/deck/audio/madre-mother.sentence.mp3"
+  }
+}

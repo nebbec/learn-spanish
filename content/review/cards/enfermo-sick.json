@@ -1,0 +1,17 @@
+{
+  "id": "enfermo-sick",
+  "rank": 614,
+  "word": "enfermo",
+  "draft": "1fe3a8c417efab27",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sick, ill (adjective)",
+    "example": "Today I'm not going to work, I'm sick."
+  },
+  "note": "Spain also says enfermo (colloquial \"estar malo\" exists too), so a null spain field is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:41.688Z"
+}

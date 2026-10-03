@@ -1,0 +1,17 @@
+{
+  "id": "ser-form-yo",
+  "rank": 4,
+  "word": "ser",
+  "draft": "bd112d411e20424c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I am (ser: identity, origin, profession)",
+    "example": "Hi, I'm Ana."
+  },
+  "note": "The hint \"identity, origin\" correctly rules out estoy; the example is fine, though \"Hola, soy Ana.\" without the yo would sound slightly more natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:43:31.438Z"
+}

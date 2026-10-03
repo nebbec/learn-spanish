@@ -1,0 +1,16 @@
+{
+  "id": "estar-form-el",
+  "unit": "how-and-where-i-am",
+  "want": "estar: he / she is (está)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": null,
+  "why": "Use está for how or where something is right now; es for what it is.",
+  "draft": "6edd621bda1baae8",
+  "group": "forms estar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:39.105Z"
+}

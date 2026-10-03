@@ -1,0 +1,23 @@
+{
+  "id": "poco-few",
+  "rank": 127,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "poco",
+  "en": "few, not much",
+  "hint": null,
+  "grammar": {
+    "feminine": "poca"
+  },
+  "example": {
+    "es": "Tengo pocos amigos en esta ciudad.",
+    "en": "I have few friends in this city."
+  },
+  "spain": null,
+  "trick": "POCO sounds like a tiny 'poke': there's so little left you can only poke at it.",
+  "image": "/deck/img/poco-few.webp",
+  "audio": {
+    "word": "/deck/audio/poco-few.word.mp3",
+    "sentence": "/deck/audio/poco-few.sentence.mp3"
+  }
+}

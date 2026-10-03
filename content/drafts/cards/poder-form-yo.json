@@ -1,0 +1,28 @@
+{
+  "id": "poder-form-yo",
+  "rank": 19,
+  "kind": "form",
+  "pos": "verb",
+  "es": "puedo",
+  "en": "I can",
+  "hint": "am able to",
+  "grammar": {
+    "present": {
+      "yo": "puedo",
+      "tu": "puedes",
+      "el": "puede"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Lo siento, no te puedo entender.",
+    "en": "Sorry, I can't understand you."
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/poder-can.webp",
+  "audio": {
+    "word": "/deck/audio/poder-form-yo.word.mp3",
+    "sentence": "/deck/audio/poder-form-yo.sentence.mp3"
+  }
+}

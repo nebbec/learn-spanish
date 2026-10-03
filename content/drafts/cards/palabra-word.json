@@ -1,0 +1,24 @@
+{
+  "id": "palabra-word",
+  "rank": 290,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la palabra",
+  "en": "word",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "No entiendo esa palabra.",
+    "en": "I don't understand that word."
+  },
+  "spain": null,
+  "trick": "PALABRA sounds like \"parable\": a parable is a story told entirely in words.",
+  "image": "/deck/img/palabra-word.webp",
+  "audio": {
+    "word": "/deck/audio/palabra-word.word.mp3",
+    "sentence": "/deck/audio/palabra-word.sentence.mp3"
+  }
+}

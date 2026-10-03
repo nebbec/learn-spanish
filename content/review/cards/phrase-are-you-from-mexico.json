@@ -1,0 +1,17 @@
+{
+  "id": "phrase-are-you-from-mexico",
+  "rank": 4,
+  "word": "who-i-am",
+  "draft": "a40d347bc1e74fc2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Are you from Mexico? (informal, tú)",
+    "example": "Are you from Mexico? Yes, I'm from Monterrey."
+  },
+  "note": "The informal hint is needed to rule out the usted form \"¿Es de México?\"; a learner might also say \"¿Tú eres de México?\", which is correct but less natural than the card's answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:14.030Z"
+}

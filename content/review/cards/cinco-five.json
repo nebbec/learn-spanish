@@ -1,0 +1,17 @@
+{
+  "id": "cinco-five",
+  "rank": 335,
+  "word": "cinco",
+  "draft": "140e30c891536230",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "five",
+    "example": "I arrive in five minutes / I'll be there in five minutes."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:49.654Z"
+}

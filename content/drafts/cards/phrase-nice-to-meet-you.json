@@ -1,0 +1,21 @@
+{
+  "id": "phrase-nice-to-meet-you",
+  "rank": 625,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Mucho gusto.",
+  "en": "Nice to meet you.",
+  "hint": "The two-word phrase that anyone can say, man or woman.",
+  "grammar": null,
+  "example": {
+    "es": "Hola, me llamo Ana. Mucho gusto.",
+    "en": "Hi, my name is Ana. Nice to meet you."
+  },
+  "spain": "Spain more often says encantado, or encantada if you are a woman.",
+  "trick": "Gusto means pleasure, like doing something with gusto, so mucho gusto is literally much pleasure.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-nice-to-meet-you.word.mp3",
+    "sentence": "/deck/audio/phrase-nice-to-meet-you.sentence.mp3"
+  }
+}

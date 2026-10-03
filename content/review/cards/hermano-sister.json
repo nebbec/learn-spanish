@@ -1,0 +1,17 @@
+{
+  "id": "hermano-sister",
+  "rank": 167,
+  "word": "hermano",
+  "draft": "17323f187f9d2c4b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the sister",
+    "example": "My sister is in Mexico."
+  },
+  "note": "This card teaches the feminine noun la hermana as a separate item from the headword hermano (\"brother\"), which is a sensible split with no overlap between prompts.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:10.055Z"
+}

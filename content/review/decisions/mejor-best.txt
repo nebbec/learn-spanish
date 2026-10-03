@@ -1,0 +1,30 @@
+# mejor-best · rank 100 · mejor
+#
+# Why it was flagged:
+#   - One right answer: The hint says 'best' is mejor used with el or la, but the card's own example uses it with the possessive mi and no article, so the hint misleads the learner. Suggested fix: hint: used after el, la or a possessive such as mi
+# Reviewer's note (not a reason to flag): Since "best" in English already rules out the separate "better" card, the hint is not strictly needed, but if it stays it should be accurate.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         mejor-best
+kind:       content
+pos:        adjective
+es:         mejor
+en:         best
+hint:       used with el or la
+feminine:   mejor
+example.es: Eres mi mejor amigo.
+example.en: You're my best friend.
+spain:
+trick:      MEJOR sounds like "major": the major league is where the best players go.
+
+# The draft this file was made from. Do not change it.
+draft: 5a77d9cbc49ab4ae

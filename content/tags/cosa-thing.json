@@ -1,0 +1,14 @@
+{
+  "id": "cosa-thing",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1db39b672fb77295",
+  "group": "#77 cosa",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:44.199Z"
+}

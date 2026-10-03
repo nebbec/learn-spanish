@@ -1,0 +1,16 @@
+{
+  "id": "poder-form-el",
+  "unit": "can-you-help-me",
+  "want": "poder: he / she can (puede)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": "tip-tu-usted",
+  "why": null,
+  "draft": "8d21a3bf5f3583e9",
+  "group": "forms poder",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:56.650Z"
+}

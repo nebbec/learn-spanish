@@ -1,0 +1,17 @@
+{
+  "id": "estar-form-yo",
+  "rank": 8,
+  "word": "estar",
+  "draft": "0d23e119d1e41d71",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "estoy = I am (in a state or place, the yo form of estar)",
+    "example": "Hello, I'm in Mexico."
+  },
+  "note": "The hint \"state, place\" is needed here, because it rules out \"soy\" for \"I am\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:43:09.988Z"
+}

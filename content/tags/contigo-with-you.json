@@ -1,0 +1,14 @@
+{
+  "id": "contigo-with-you",
+  "unit": "making-plans",
+  "want": "contigo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8fbdd23d4eb1851f",
+  "group": "#221 contigo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:22.112Z"
+}

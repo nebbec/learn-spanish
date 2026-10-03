@@ -1,0 +1,24 @@
+{
+  "id": "dinero-money",
+  "rank": 164,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el dinero",
+  "en": "money",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "No tengo dinero para el cine.",
+    "en": "I don't have money for the movies."
+  },
+  "spain": null,
+  "trick": "DINERO sounds like \"dinner-o\": you need money to pay for dinner.",
+  "image": "/deck/img/dinero-money.webp",
+  "audio": {
+    "word": "/deck/audio/dinero-money.word.mp3",
+    "sentence": "/deck/audio/dinero-money.sentence.mp3"
+  }
+}

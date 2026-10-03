@@ -1,0 +1,17 @@
+{
+  "id": "ser-form-tu",
+  "rank": 4,
+  "word": "ser",
+  "draft": "66a223df99bb9a57",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "eres = you are (informal singular tú, of ser: identity, characteristics, origin)",
+    "example": "Hi, are you Carlos?"
+  },
+  "note": "The hint \"identity, informal\" rules out estás and usted es; for consistency with the sibling cards, the editor could use \"identity, origin, informal\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:15.075Z"
+}

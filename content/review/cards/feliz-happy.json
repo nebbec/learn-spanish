@@ -1,0 +1,17 @@
+{
+  "id": "feliz-happy",
+  "rank": 269,
+  "word": "feliz",
+  "draft": "626c7605e09d5cf4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "happy",
+    "example": "My sister is very happy here."
+  },
+  "note": "The hint is needed and does its job: \"happy birthday\" (feliz cumpleaños) points to feliz rather than contento or alegre.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:47.354Z"
+}

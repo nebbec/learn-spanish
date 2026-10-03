@@ -1,0 +1,29 @@
+# phrase-youre-welcome · rank 66 · who-i-am
+#
+# Why it was flagged:
+#   - Example sentence: The example sentence has no conjugated verb, and its English drops the opening dash that the Spanish dialogue has. Suggested fix: example.es: —Gracias, Ana. Eres muy amable. —¡De nada!; example.en: —Thanks, Ana. You're very kind. —You're welcome!
+# Reviewer's note (not a reason to flag): Con gusto and No hay de qué are also heard in Latin America, but De nada is clearly the standard beginner answer, so the card needs no hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-youre-welcome
+kind:       phrase
+pos:        phrase
+es:         De nada.
+en:         You're welcome.
+hint:
+example.es: —Gracias, Ana. —¡De nada!
+example.en: Thanks, Ana. —You're welcome!
+spain:
+trick:      De nada literally means "of nothing", like saying "it was nothing".
+
+# The draft this file was made from. Do not change it.
+draft: 1af8336ba6bd5aac

@@ -1,0 +1,27 @@
+# tip-por-para · tip 13 of 14 · for cards after the starter path
+# The brief from content/tips.json: Both can mean for. Para looks ahead to a goal, a person receiving or a deadline (para ti, para comer); por looks back at a cause, an exchange or a route (por favor, gracias por todo, por aquí).
+# Drafted 2026-10-03T19:52:11.251Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-por-para --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Por and para
+
+Por and para can both mean for, but they point in different directions.
+Para looks ahead to a goal or to the person who gets something: para mi madre means for my mother, and para comer means in order to eat.
+Para can also give a deadline, so para mañana means by tomorrow.
+Por looks back at a reason or an exchange: you already know por favor, and gracias por todo means thanks for everything.
+Por can also mean through or around a place, so por aquí means around here.
+
+example: Este café es para mi madre. | This coffee is for my mother.
+example: Gracias por la ayuda. | Thanks for the help.
+example: ¿Hay un baño por aquí? | Is there a bathroom around here?

@@ -1,0 +1,14 @@
+{
+  "id": "ser-be-identity",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": "tip-two-to-be",
+  "why": "Use ser for what someone or something is: name, origin, job, nature; estar for how or where it is right now.",
+  "draft": "ac4fb2fb9dc02cc9",
+  "group": "#4 ser",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:03:51.234Z"
+}

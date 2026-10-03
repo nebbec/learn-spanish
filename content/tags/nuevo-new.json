@@ -1,0 +1,14 @@
+{
+  "id": "nuevo-new",
+  "unit": "what-people-are-like",
+  "want": "nuevo",
+  "requires": [],
+  "tip": "tip-adjective-after",
+  "why": null,
+  "draft": "85ba0df7a50d69ef",
+  "group": "#124 nuevo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:34.195Z"
+}

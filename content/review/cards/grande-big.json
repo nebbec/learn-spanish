@@ -1,0 +1,17 @@
+{
+  "id": "grande-big",
+  "rank": 246,
+  "word": "grande",
+  "draft": "4e94f3dccfea7ba2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "big, large (also great, before a noun as gran)",
+    "example": "Mexico is very big."
+  },
+  "note": "Before a singular noun, grande usually shortens to gran and then means \"great\" (un gran amigo), so it may be worth adding this to a later card or note.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:41.678Z"
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 4,
+  "word": "who-i-am",
+  "unit": "who-i-am",
+  "order": 7,
+  "source": "payoff",
+  "line": "I am from Mexico.",
+  "words": [
+    {
+      "word": "ser",
+      "rank": 4
+    },
+    {
+      "word": "de",
+      "rank": 2
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:31.828Z",
+  "cards": [
+    "phrase-i-am-from-mexico"
+  ]
+}

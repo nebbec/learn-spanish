@@ -1,0 +1,14 @@
+{
+  "id": "triste-sad",
+  "unit": "how-i-feel",
+  "want": "triste",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "db08ec67cadec2b6",
+  "group": "#781 triste",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:27.069Z"
+}

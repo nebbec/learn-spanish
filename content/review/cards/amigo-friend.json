@@ -1,0 +1,17 @@
+{
+  "id": "amigo-friend",
+  "rank": 113,
+  "word": "amigo",
+  "draft": "d8a88563597beeea",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "friend (male, or of unspecified gender)",
+    "example": "My friend wants a coffee."
+  },
+  "note": "El amigo is the right default answer for \"friend\", but the editor may want to mention the feminine la amiga somewhere, since a learner who answers la amiga is not really wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:47.559Z"
+}

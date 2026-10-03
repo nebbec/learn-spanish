@@ -1,0 +1,14 @@
+{
+  "id": "phrase-see-you-later",
+  "unit": "people-i-love",
+  "want": "phrase: hasta luego = see you later",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9f9305462af3595f",
+  "group": "phrases people-i-love",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:04.205Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "madre-mother",
+  "unit": "my-people",
+  "want": "madre",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4916a657db16a51c",
+  "group": "#169 madre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:00.527Z"
+}

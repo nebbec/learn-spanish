@@ -1,0 +1,17 @@
+{
+  "id": "tres-three",
+  "rank": 194,
+  "word": "tres",
+  "draft": "47d7d72b484814f0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "three",
+    "example": "I have three siblings (or three brothers)."
+  },
+  "note": "Hermanos can mean \"brothers\" or \"siblings\", so \"I have three siblings\" is a correct translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:23.597Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "poco-a-little",
+  "unit": "how-i-feel",
+  "want": "un poco: a little",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "262210237a20b8da",
+  "group": "#127 poco",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:37.854Z"
+}

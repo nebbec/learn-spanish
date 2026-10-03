@@ -1,0 +1,14 @@
+{
+  "id": "eso-that",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use eso for an idea or unnamed thing; use ese before a noun (ese libro), and esto for something right here.",
+  "draft": "582cd1a6b0665f35",
+  "group": "#36 eso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:15.135Z"
+}

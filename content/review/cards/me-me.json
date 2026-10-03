@@ -2,15 +2,16 @@
   "id": "me-me",
   "rank": 18,
   "word": "me",
-  "draft": "4829c1091b782846",
+  "draft": "0eaabfa987fd2f50",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "me (object pronoun: me, to me; also the reflexive myself)",
-    "example": "Will you call me tomorrow?"
+    "es": "me (object pronoun, first person singular: me, to me)",
+    "example": "My mother doesn't understand me."
   },
+  "note": "Many Latin American speakers would say \"mi mamá\" rather than \"mi madre\", but both are natural, so this is a matter of taste, not an error.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:41:49.535Z"
+  "reviewedAt": "2026-10-03T20:35:38.262Z"
 }

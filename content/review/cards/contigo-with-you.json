@@ -1,0 +1,17 @@
+{
+  "id": "contigo-with-you",
+  "rank": 221,
+  "word": "contigo",
+  "draft": "8fbdd23d4eb1851f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "with you (informal singular, tú)",
+    "example": "I want to talk with you."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:49.861Z"
+}

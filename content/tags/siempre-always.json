@@ -1,0 +1,14 @@
+{
+  "id": "siempre-always",
+  "unit": "what-i-do",
+  "want": "siempre",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "32218678a6b12c61",
+  "group": "#129 siempre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:40.832Z"
+}

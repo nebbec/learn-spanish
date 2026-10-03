@@ -1,0 +1,23 @@
+{
+  "id": "phrase-youre-welcome",
+  "rank": 66,
+  "word": "who-i-am",
+  "draft": "1af8336ba6bd5aac",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb, and its English drops the opening dash that the Spanish dialogue has.",
+      "fix": "example.es: —Gracias, Ana. Eres muy amable. —¡De nada!; example.en: —Thanks, Ana. You're very kind. —You're welcome!"
+    }
+  ],
+  "back": {
+    "es": "Of nothing / It was nothing, the standard reply to thanks: You're welcome.",
+    "example": "Thanks, Ana. You're welcome!"
+  },
+  "note": "Con gusto and No hay de qué are also heard in Latin America, but De nada is clearly the standard beginner answer, so the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:05.511Z"
+}

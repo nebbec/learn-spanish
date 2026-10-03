@@ -1,0 +1,14 @@
+{
+  "id": "el-the",
+  "unit": "my-people",
+  "want": "el / la: the",
+  "requires": [],
+  "tip": "tip-el-la",
+  "why": null,
+  "draft": "f3739689004e27e0",
+  "group": "#1 el",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:03:45.750Z"
+}

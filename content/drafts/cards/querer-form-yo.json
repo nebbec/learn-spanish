@@ -1,0 +1,28 @@
+{
+  "id": "querer-form-yo",
+  "rank": 28,
+  "kind": "form",
+  "pos": "verb",
+  "es": "quiero",
+  "en": "I want",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "quiero",
+      "tu": "quieres",
+      "el": "quiere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Quiero un chocolate, por favor.",
+    "en": "I want a chocolate, please."
+  },
+  "spain": null,
+  "trick": "Quiero starts like query: you make a query when you want something.",
+  "image": "/deck/img/querer-want.webp",
+  "audio": {
+    "word": "/deck/audio/querer-form-yo.word.mp3",
+    "sentence": "/deck/audio/querer-form-yo.sentence.mp3"
+  }
+}

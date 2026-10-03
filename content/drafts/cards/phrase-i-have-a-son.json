@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-have-a-son",
+  "rank": 116,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Tengo un hijo y una hija.",
+  "en": "I have a son and a daughter.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Tienes hijos? Sí, tengo un hijo y una hija.",
+    "en": "Do you have kids? Yes, I have a son and a daughter."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-have-a-son.word.mp3",
+    "sentence": "/deck/audio/phrase-i-have-a-son.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-here-in-mexico",
+  "rank": 43,
+  "word": "how-and-where-i-am",
+  "draft": "e2e2c923a3f437bc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I'm here in Mexico.",
+    "example": "Hi, Ana. I'm very well, I'm here in Mexico."
+  },
+  "note": "Some learners may answer \"Estoy acá en México,\" which is also common in parts of Latin America, so self-graders might be told to accept acá as a variant of aquí.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:39:18.440Z"
+}

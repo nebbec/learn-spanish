@@ -1,0 +1,21 @@
+{
+  "id": "hoy-today",
+  "rank": 193,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "hoy",
+  "en": "today",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Hoy no tengo clases.",
+    "en": "I don't have classes today."
+  },
+  "spain": null,
+  "trick": "HOY sounds like \"oy\": you shout \"oy, today's the day!\" when you wake up.",
+  "image": "/deck/img/hoy-today.webp",
+  "audio": {
+    "word": "/deck/audio/hoy-today.word.mp3",
+    "sentence": "/deck/audio/hoy-today.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cuando-when-question",
+  "rank": 350,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "cuándo",
+  "en": "[when] are you coming?",
+  "hint": "question word, with accent",
+  "grammar": null,
+  "example": {
+    "es": "¿Cuándo quieres un café?",
+    "en": "When do you want a coffee?"
+  },
+  "spain": null,
+  "trick": "CUÁNDO sounds like \"quand-oh?\": you ask \"oh, when?\" with the accent like a raised eyebrow.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cuando-when-question.word.mp3",
+    "sentence": "/deck/audio/cuando-when-question.sentence.mp3"
+  }
+}

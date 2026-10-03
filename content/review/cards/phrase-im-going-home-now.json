@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-going-home-now",
+  "rank": 87,
+  "word": "where-im-going",
+  "draft": "4ea9ac76151d0cbe",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I'm going home now.",
+    "example": "I'm very tired. I'm going home now."
+  },
+  "note": "The phrase is correct, but Latin American speakers more often say \"Ya me voy a casa.\" or \"Me voy a la casa.\" for leaving now, so the editor may want to make that the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:44.011Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-two-coffees-please",
+  "rank": 532,
+  "word": "buying-things",
+  "draft": "2a29058cddf018be",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Two coffees, please.",
+    "example": "Hello, I want two coffees, please."
+  },
+  "note": "Translating \"quiero\" as \"I'd like\" instead of the literal \"I want\" is fine here because it matches how people order in English.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:27.864Z"
+}

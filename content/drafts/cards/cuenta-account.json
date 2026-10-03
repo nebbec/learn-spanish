@@ -1,0 +1,24 @@
+{
+  "id": "cuenta-account",
+  "rank": 238,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cuenta",
+  "en": "account",
+  "hint": "bank, email",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "No tengo dinero en mi cuenta.",
+    "en": "I don't have money in my account."
+  },
+  "spain": null,
+  "trick": "CUENTA sounds like count-a: the bank counts every dollar in your account.",
+  "image": "/deck/img/cuenta-account.webp",
+  "audio": {
+    "word": "/deck/audio/cuenta-account.word.mp3",
+    "sentence": "/deck/audio/cuenta-account.sentence.mp3"
+  }
+}

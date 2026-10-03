@@ -1,0 +1,14 @@
+{
+  "id": "uno-one-pronoun",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use uno when it stands alone; before a noun it shortens to un (un hermano).",
+  "draft": "238c4c8ea724323b",
+  "group": "#136 uno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:44.811Z"
+}

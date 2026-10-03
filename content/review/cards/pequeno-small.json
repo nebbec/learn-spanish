@@ -1,0 +1,23 @@
+{
+  "id": "pequeno-small",
+  "rank": 205,
+  "word": "pequeño",
+  "draft": "d5d600b30e492163",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "Said of a daughter, pequeña most naturally means young rather than physically small, so the example doesn't clearly show the size meaning the learner is memorizing.",
+      "fix": "example.es: Mi casa es muy pequeña. example.en: My house is very small."
+    }
+  ],
+  "back": {
+    "es": "small, little (adjective)",
+    "example": "My daughter is very little (most naturally: very young)."
+  },
+  "note": "In much of Latin America chico (and chiquito) also commonly means small, but pequeño is the standard answer a fluent speaker would give for \"small\", so no hint is strictly required.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:25.164Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bano-bathroom",
+  "unit": "out-and-about",
+  "want": "baño",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f5e50922a88ab10f",
+  "group": "#576 baño",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:17.170Z"
+}

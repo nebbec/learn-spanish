@@ -1,0 +1,17 @@
+{
+  "id": "cuatro-four",
+  "rank": 363,
+  "word": "cuatro",
+  "draft": "8a0ec26760fefe6c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "four",
+    "example": "I have four siblings (or four brothers)."
+  },
+  "note": "Hermanos can mean either brothers or siblings, so the translation \"siblings\" is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:10.989Z"
+}

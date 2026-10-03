@@ -1,0 +1,17 @@
+{
+  "id": "amor-love",
+  "rank": 236,
+  "word": "amor",
+  "draft": "76f61b7f07a8f214",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "love (noun); also used as a term of endearment, 'my love'",
+    "example": "I miss you a lot, my love."
+  },
+  "note": "The example uses amor as a term of endearment, which is natural and very common in subtitles, though a sentence like \"El amor es complicado.\" would show the plain noun sense more directly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:57.024Z"
+}

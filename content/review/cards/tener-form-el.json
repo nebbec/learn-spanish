@@ -1,0 +1,17 @@
+{
+  "id": "tener-form-el",
+  "rank": 13,
+  "word": "tener",
+  "draft": "5a0c26a05e5538c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "he / she has (owns, possesses); also formal 'you have' (usted)",
+    "example": "Ana has a hotel in Mexico."
+  },
+  "note": "The hint \"own, possess\" is useful because it rules out the auxiliary \"ha\" (he has done) from haber.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:29.413Z"
+}

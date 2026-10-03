@@ -1,0 +1,24 @@
+{
+  "id": "comida-food",
+  "rank": 404,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la comida",
+  "en": "food",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La comida mexicana me encanta.",
+    "en": "I love Mexican food."
+  },
+  "spain": null,
+  "trick": "COMIDA sounds like \"come eat-a\": come and eat the food on the table.",
+  "image": "/deck/img/comida-food.webp",
+  "audio": {
+    "word": "/deck/audio/comida-food.word.mp3",
+    "sentence": "/deck/audio/comida-food.sentence.mp3"
+  }
+}

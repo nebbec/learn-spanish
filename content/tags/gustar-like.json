@@ -1,0 +1,14 @@
+{
+  "id": "gustar-like",
+  "unit": "what-i-like",
+  "want": "gustar",
+  "requires": [],
+  "tip": "tip-gustar",
+  "why": null,
+  "draft": "d312f213e0a4acce",
+  "group": "#110 gustar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:23.396Z"
+}

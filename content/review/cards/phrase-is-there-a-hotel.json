@@ -1,0 +1,17 @@
+{
+  "id": "phrase-is-there-a-hotel",
+  "rank": 623,
+  "word": "out-and-about",
+  "draft": "6c10bbf61920549a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Is there a hotel near here?",
+    "example": "Excuse me, is there a hotel near here?"
+  },
+  "note": "The example's formal \"Disculpe\" is fine because you're speaking to a stranger, and it matches the unit's formal \"Excuse me\" card; \"¿Hay un hotel por aquí cerca?\" is a natural variant a learner might also say.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:38.738Z"
+}

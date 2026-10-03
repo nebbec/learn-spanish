@@ -1,0 +1,14 @@
+{
+  "id": "cuenta-account",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c4ec6f606aab1b11",
+  "group": "#238 cuenta",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:31.012Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mirar-look-at",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use mirar for choosing to look at something; use ver for simply seeing it or watching.",
+  "draft": "9c308926dd96ca57",
+  "group": "#80 mirar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:51.301Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-can-you-repeat-that",
+  "rank": 1006,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Puedes repetir?",
+  "en": "Can you repeat that?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "No entiendo. ¿Puedes repetir, por favor?",
+    "en": "I don't understand. Can you repeat that, please?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-can-you-repeat-that.word.mp3",
+    "sentence": "/deck/audio/phrase-can-you-repeat-that.sentence.mp3"
+  }
+}

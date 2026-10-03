@@ -2,16 +2,16 @@
   "id": "mi-my",
   "rank": 25,
   "word": "mi",
-  "draft": "f647edd4857c5c43",
+  "draft": "287101a044f91db3",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "my (possessive determiner, before a singular noun)",
-    "example": "My sister lives in Bogotá."
+    "es": "my (possessive determiner, singular noun)",
+    "example": "My hotel is here."
   },
-  "note": "The singular noun in the prompt correctly rules out the plural mis, and mío cannot come before a noun, so mi is the only answer.",
+  "note": "Because \"house\" is singular, the prompt rules out the plural \"mis\", so no hint is needed.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:19:38.367Z"
+  "reviewedAt": "2026-10-03T20:35:37.901Z"
 }

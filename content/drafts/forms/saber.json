@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 26,
+  "word": "saber",
+  "from": "saber-know",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:28.249Z",
+  "cards": [
+    "saber-form-yo",
+    "saber-form-tu",
+    "saber-form-el"
+  ]
+}

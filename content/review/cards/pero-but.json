@@ -2,16 +2,16 @@
   "id": "pero-but",
   "rank": 31,
   "word": "pero",
-  "draft": "efa488b8bd2d4b76",
+  "draft": "40b013365c8360a7",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "but (conjunction)",
-    "example": "It's expensive, but it's very good."
+    "es": "but",
+    "example": "I'm fine, but my mother is unwell."
   },
-  "note": "The prompt's first clause is positive, so it correctly rules out sino, which only follows a negative.",
+  "note": "The prompt rules out sino because the first clause is affirmative, so pero is the only common answer and no hint is needed.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:20:06.343Z"
+  "reviewedAt": "2026-10-03T20:35:42.915Z"
 }

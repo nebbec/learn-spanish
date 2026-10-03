@@ -1,0 +1,28 @@
+{
+  "id": "decir-form-yo",
+  "rank": 23,
+  "kind": "form",
+  "pos": "verb",
+  "es": "digo",
+  "en": "I say",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "digo",
+      "tu": "dices",
+      "el": "dice"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Siempre digo que sí.",
+    "en": "I always say yes."
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/decir-say.webp",
+  "audio": {
+    "word": "/deck/audio/decir-form-yo.word.mp3",
+    "sentence": "/deck/audio/decir-form-yo.sentence.mp3"
+  }
+}

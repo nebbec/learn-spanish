@@ -1,0 +1,20 @@
+{
+  "id": "phrase-i-live-in-mexico",
+  "unit": "what-i-do",
+  "want": null,
+  "requires": [
+    "vivir-live",
+    "en-in",
+    "y-and",
+    "trabajar-work",
+    "aqui-here"
+  ],
+  "tip": "tip-regular-endings",
+  "why": null,
+  "draft": "58981a9fec3654df",
+  "group": "phrases what-i-do",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:56.024Z"
+}

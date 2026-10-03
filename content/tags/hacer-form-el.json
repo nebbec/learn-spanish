@@ -1,0 +1,16 @@
+{
+  "id": "hacer-form-el",
+  "unit": "what-i-do",
+  "want": "hacer: he / she does (hace)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "27cd47105e0fe37d",
+  "group": "forms hacer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:51.168Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "quien-who",
+  "rank": 91,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "quién",
+  "en": "[Who] is at the door?",
+  "hint": "question word",
+  "grammar": null,
+  "example": {
+    "es": "¿Quién es tu nuevo amigo?",
+    "en": "Who is your new friend?"
+  },
+  "spain": null,
+  "trick": "QUIÉN sounds like key-EN: someone knocks, and you ask who has the key.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/quien-who.word.mp3",
+    "sentence": "/deck/audio/quien-who.sentence.mp3"
+  }
+}

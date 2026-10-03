@@ -1,0 +1,14 @@
+{
+  "id": "miedo-fear",
+  "unit": "how-i-feel",
+  "want": "miedo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6a1fa8f00b8c43e2",
+  "group": "#315 miedo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:54.129Z"
+}

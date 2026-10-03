@@ -1,0 +1,17 @@
+{
+  "id": "ser-form-el",
+  "rank": 4,
+  "word": "ser",
+  "draft": "b34c71dd713910c7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "he / she / it is (ser: identity, origin, characteristics); also you are (formal, usted)",
+    "example": "She is from Mexico."
+  },
+  "note": "The hint \"identity, origin\" is needed here because it rules out \"está\", and the example matches it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:15.553Z"
+}

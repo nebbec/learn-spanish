@@ -1,0 +1,18 @@
+{
+  "id": "phrase-what-does-she-say",
+  "unit": "what-people-say",
+  "want": null,
+  "requires": [
+    "que-what",
+    "decir-form-el",
+    "ella-she"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "2302c48013ad4c09",
+  "group": "phrases what-people-say",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:14.464Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-do-you-speak-english",
+  "rank": 907,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Hablas inglés?",
+  "en": "Do you speak English?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "Lo siento, ¿hablas inglés? No entiendo.",
+    "en": "I'm sorry, do you speak English? I don't understand."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-do-you-speak-english.word.mp3",
+    "sentence": "/deck/audio/phrase-do-you-speak-english.sentence.mp3"
+  }
+}

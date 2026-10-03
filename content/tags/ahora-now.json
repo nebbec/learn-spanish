@@ -1,0 +1,14 @@
+{
+  "id": "ahora-now",
+  "unit": "where-im-going",
+  "want": "ahora",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e54059c2063d1b45",
+  "group": "#52 ahora",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:51.711Z"
+}

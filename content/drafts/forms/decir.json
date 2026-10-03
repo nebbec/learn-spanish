@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 23,
+  "word": "decir",
+  "from": "decir-say",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:48.379Z",
+  "cards": [
+    "decir-form-yo",
+    "decir-form-tu",
+    "decir-form-el"
+  ]
+}

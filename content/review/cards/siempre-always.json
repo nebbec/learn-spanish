@@ -1,0 +1,23 @@
+{
+  "id": "siempre-always",
+  "rank": 129,
+  "word": "siempre",
+  "draft": "32218678a6b12c61",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "known-words",
+      "problem": "The example uses words not met before this card: llegas, tarde, clase. In the frequency phase it may use at most two words not met yet.",
+      "fix": "npm run draft -- --examples --ids siempre-always"
+    }
+  ],
+  "back": {
+    "es": "always",
+    "example": "You always arrive late to class."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:29.967Z"
+}

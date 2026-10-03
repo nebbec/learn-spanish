@@ -1,0 +1,31 @@
+# cuenta-bill · rank 238 · cuenta
+#
+# Why it was flagged:
+#   - Example sentence: The example sentence has no conjugated verb, which the card format requires. Suggested fix: example.es: Ya pedí la cuenta. example.en: I already asked for the bill.
+# Reviewer's note (not a reason to flag): The hint "at a restaurant" separates this card from the "account" card and rules out la factura, which is used for utility bills and invoices.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         cuenta-bill
+kind:       content
+pos:        noun
+es:         la cuenta
+en:         bill
+hint:       at a restaurant
+gender:     f
+article:    la
+example.es: La cuenta, por favor.
+example.en: The check, please.
+spain:
+trick:      CUENTA sounds like count-a: the waiter counts up everything you ate on the bill.
+
+# The draft this file was made from. Do not change it.
+draft: 892a4ac8c0e35fcb

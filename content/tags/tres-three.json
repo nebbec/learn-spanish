@@ -1,0 +1,14 @@
+{
+  "id": "tres-three",
+  "unit": "buying-things",
+  "want": "tres",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "47d7d72b484814f0",
+  "group": "#194 tres",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:07.032Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vivir-live",
+  "rank": 149,
+  "word": "vivir",
+  "draft": "1f22fa19109cc5d2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to live",
+    "example": "My sister lives in Buenos Aires."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:57.125Z"
+}

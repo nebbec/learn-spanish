@@ -1,0 +1,14 @@
+{
+  "id": "aqui-here",
+  "unit": "how-and-where-i-am",
+  "want": "aquí",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1a3b02c7f91b2a84",
+  "group": "#43 aquí",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:30.917Z"
+}

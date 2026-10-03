@@ -1,0 +1,24 @@
+{
+  "id": "hermano-brother",
+  "rank": 167,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el hermano",
+  "en": "brother",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi hermano está en México.",
+    "en": "My brother is in Mexico."
+  },
+  "spain": null,
+  "trick": "HERMANO sounds like \"her man, oh\": the guy always with her is just her brother.",
+  "image": "/deck/img/hermano-brother.webp",
+  "audio": {
+    "word": "/deck/audio/hermano-brother.word.mp3",
+    "sentence": "/deck/audio/hermano-brother.sentence.mp3"
+  }
+}

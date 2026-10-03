@@ -1,0 +1,12 @@
+{
+  "rank": 470,
+  "word": "lejos",
+  "cards": [
+    "lejos-far"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:53:09.214Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hijo-son",
+  "rank": 116,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el hijo",
+  "en": "son",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi hijo está en México.",
+    "en": "My son is in Mexico."
+  },
+  "spain": null,
+  "trick": "HIJO sounds like \"ee-ho\": a son yells \"ee-ho!\" as he runs to his dad.",
+  "image": "/deck/img/hijo-son.webp",
+  "audio": {
+    "word": "/deck/audio/hijo-son.word.mp3",
+    "sentence": "/deck/audio/hijo-son.sentence.mp3"
+  }
+}

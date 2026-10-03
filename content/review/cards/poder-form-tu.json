@@ -1,0 +1,23 @@
+{
+  "id": "poder-form-tu",
+  "rank": 19,
+  "word": "poder",
+  "draft": "83eb8b1a1955973c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "When you ask someone to switch to English, Spanish speakers normally say \"hablar en inglés\"; \"hablar inglés\" asks whether they know the language, so it sounds odd next to \"por favor\" and teaches a pattern learners will misuse.",
+      "fix": "example.es: ¿Puedes hablar más despacio, por favor? / example.en: Can you speak more slowly, please?"
+    }
+  ],
+  "back": {
+    "es": "you (informal) can / are able to",
+    "example": "Can you speak English, please?"
+  },
+  "note": "The hint \"are able to, informal\" is right: \"informal\" rules out usted's form puede, and \"are able to\" separates this card from sabes.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:39.049Z"
+}

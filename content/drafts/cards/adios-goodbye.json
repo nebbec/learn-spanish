@@ -1,0 +1,21 @@
+{
+  "id": "adios-goodbye",
+  "rank": 274,
+  "kind": "content",
+  "pos": "other",
+  "es": "adiós",
+  "en": "goodbye",
+  "hint": "the standard word, not chao",
+  "grammar": null,
+  "example": {
+    "es": "Gracias, yo no insisto. ¡Adiós, Ana!",
+    "en": "Thanks, I won't insist. Goodbye, Ana!"
+  },
+  "spain": null,
+  "trick": "ADIÓS sounds like \"a dose\": take a dose of courage before saying goodbye.",
+  "image": "/deck/img/adios-goodbye.webp",
+  "audio": {
+    "word": "/deck/audio/adios-goodbye.word.mp3",
+    "sentence": "/deck/audio/adios-goodbye.sentence.mp3"
+  }
+}

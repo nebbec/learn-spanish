@@ -1,0 +1,17 @@
+{
+  "id": "uno-one-pronoun",
+  "rank": 136,
+  "word": "uno",
+  "draft": "238c4c8ea724323b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "one (pronoun, standing for a masculine noun: one of them)",
+    "example": "One of my brothers lives in Mexico."
+  },
+  "note": "The hint usefully rules out the shortened form un, and the masculine hermanos rules out una, so the counting card does not clash with this one.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:45.355Z"
+}

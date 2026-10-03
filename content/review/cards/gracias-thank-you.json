@@ -2,22 +2,22 @@
   "id": "gracias-thank-you",
   "rank": 75,
   "word": "gracias",
-  "draft": "c21b2cf8e8dd66e3",
+  "draft": "d5aa2387200c4f75",
   "flagged": true,
   "findings": [
     {
       "reason": "example",
-      "problem": "The sentence has no conjugated verb, and the rules say the example must conjugate one.",
-      "fix": "example.es: Muchas gracias, me ayudaste mucho. example.en: Thank you very much, you helped me a lot."
+      "problem": "Turning something down and then saying 'I insist' don't fit together, and the explicit 'yo' in 'Yo insisto' sounds stilted.",
+      "fix": "example.es: Gracias por tu ayuda. / example.en: Thanks for your help."
     }
   ],
   "back": {
-    "es": "thank you, thanks",
-    "example": "Thank you very much for your help."
+    "es": "thanks / thank you (interjection)",
+    "example": "No, thank you. I insist."
   },
-  "note": "Gracias also means \"thanks\", so the learner could accept either English prompt, but both still lead to the same single Spanish answer.",
+  "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:24:13.917Z"
+  "reviewedAt": "2026-10-03T20:36:27.422Z"
 }

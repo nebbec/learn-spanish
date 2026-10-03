@@ -2,16 +2,16 @@
   "id": "aqui-here",
   "rank": 43,
   "word": "aquí",
-  "draft": "82c600c669c9bb66",
+  "draft": "1a3b02c7f91b2a84",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "here",
-    "example": "Come here, I want to show you something."
+    "es": "here (adverb of place, near the speaker)",
+    "example": "Hi, Ana. I'm here in Mexico."
   },
-  "note": "The hint is needed because acá is a common Latin American answer, but acá is also standard Spanish, so \"not acá\" alone would be more accurate than \"the standard word\".",
+  "note": "The hint correctly rules out acá, but acá is also standard and very common in Latin America, so wording like \"the more general word, not acá\" would avoid suggesting that acá is nonstandard.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:21:09.810Z"
+  "reviewedAt": "2026-10-03T20:36:02.410Z"
 }

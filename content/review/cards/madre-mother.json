@@ -1,0 +1,17 @@
+{
+  "id": "madre-mother",
+  "rank": 169,
+  "word": "madre",
+  "draft": "4916a657db16a51c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the mother",
+    "example": "My mother is in Mexico."
+  },
+  "note": "In everyday Latin American speech \"mi mamá\" is more common than \"mi madre\" (in Mexico, \"madre\" also shows up in many vulgar expressions), so if mamá gets its own card it should be prompted as \"mom\" to keep the two apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:14.972Z"
+}

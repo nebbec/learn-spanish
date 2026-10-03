@@ -1,0 +1,14 @@
+{
+  "id": "hotel-hotel",
+  "unit": "out-and-about",
+  "want": "hotel",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "40ceabcbb2c4494f",
+  "group": "#623 hotel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:20.186Z"
+}

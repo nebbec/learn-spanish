@@ -1,0 +1,14 @@
+{
+  "id": "porque-because",
+  "unit": "asking-questions",
+  "want": "porque: because",
+  "requires": [],
+  "tip": null,
+  "why": "Porque, one word with no accent, gives an answer (because); por qué, two words with an accent, asks why.",
+  "draft": "ceef48818d840971",
+  "group": "#78 porque",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:45.979Z"
+}

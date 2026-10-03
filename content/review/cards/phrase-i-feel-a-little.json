@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-feel-a-little",
+  "rank": 614,
+  "word": "how-i-feel",
+  "draft": "27d31a53a1fcef81",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I feel a little sick.",
+    "example": "I'm not going to work today. I feel a little sick."
+  },
+  "note": "The gender hint is useful: it makes the masculine enfermo the default answer and gives the feminine enferma as the other option.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:09.349Z"
+}

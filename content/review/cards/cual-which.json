@@ -1,0 +1,17 @@
+{
+  "id": "cual-which",
+  "rank": 268,
+  "word": "cuál",
+  "draft": "014b926eed2af5cb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "which (one), what (when choosing among options); interrogative pronoun",
+    "example": "Which one is your brother?"
+  },
+  "note": "The answer could mention the plural cuáles (which ones), and the hint's \"not qué\" usefully contrasts with \"¿Qué quieres?\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:46.491Z"
+}

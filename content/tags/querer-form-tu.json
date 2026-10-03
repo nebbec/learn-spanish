@@ -1,0 +1,16 @@
+{
+  "id": "querer-form-tu",
+  "unit": "what-i-want-and-have",
+  "want": "querer: you want (quieres)",
+  "requires": [
+    "tu-you-informal"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "e780183417a75c15",
+  "group": "forms querer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:01.677Z"
+}

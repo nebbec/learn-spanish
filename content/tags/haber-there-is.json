@@ -1,0 +1,14 @@
+{
+  "id": "haber-there-is",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use hay to say something exists (hay un hotel); use estar for where a known thing is (el hotel está aquí).",
+  "draft": "a69964e1bf5cb1cc",
+  "group": "#12 haber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:14.648Z"
+}

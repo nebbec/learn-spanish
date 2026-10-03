@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-very-well-thank",
+  "unit": "how-and-where-i-am",
+  "want": null,
+  "requires": [
+    "estar-form-yo",
+    "muy-very",
+    "bien-well",
+    "gracias-thank-you",
+    "y-and",
+    "tu-you-informal"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "029a43968e4d9399",
+  "group": "phrases how-and-where-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:14.429Z"
+}

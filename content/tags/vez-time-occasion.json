@@ -1,0 +1,14 @@
+{
+  "id": "vez-time-occasion",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0a71e6086bf55709",
+  "group": "#59 vez",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:06.772Z"
+}

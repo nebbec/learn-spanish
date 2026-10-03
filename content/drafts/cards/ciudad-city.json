@@ -1,0 +1,24 @@
+{
+  "id": "ciudad-city",
+  "rank": 294,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la ciudad",
+  "en": "city",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Vivo en una ciudad muy grande.",
+    "en": "I live in a very big city."
+  },
+  "spain": null,
+  "trick": "CIUDAD sounds like see-oo-DAD: you see Dad waving from the tall buildings of the city.",
+  "image": "/deck/img/ciudad-city.webp",
+  "audio": {
+    "word": "/deck/audio/ciudad-city.word.mp3",
+    "sentence": "/deck/audio/ciudad-city.sentence.mp3"
+  }
+}

@@ -1,0 +1,32 @@
+# padre-parents · rank 128 · padre
+#
+# Why it was flagged:
+#   - One right answer: Without a hint, the informal los papás, which is very common in Latin America for parents, would also be a right answer. Suggested fix: hint: not the informal papás
+#   - Memory trick: The trick is circular (padres sounds like padres) and calls a mother a father figure, so it gives no sound link to the meaning parents. Suggested fix: trick: PADRES starts with PA, like PArents, and your padres are your parents.
+# Reviewer's note (not a reason to flag): The plural answer is fine here because padres only means parents in the plural, but the editor should know it departs from the usual singular dictionary form.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         padre-parents
+kind:       content
+pos:        noun
+es:         los padres
+en:         parents
+hint:
+gender:     m
+article:    los
+example.es: Mis padres viven en el campo.
+example.en: My parents live in the countryside.
+spain:
+trick:      PADRES sounds like padres plural: more than one father figure at home means both your parents.
+
+# The draft this file was made from. Do not change it.
+draft: d76dba512e625aa7

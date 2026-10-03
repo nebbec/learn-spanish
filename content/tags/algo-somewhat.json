@@ -1,0 +1,14 @@
+{
+  "id": "algo-somewhat",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Algo means somewhat before an adjective (algo cansado); un poco is the everyday a little.",
+  "draft": "c0c2cc1e825f8c8a",
+  "group": "#57 algo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:03.180Z"
+}

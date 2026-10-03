@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-need-help",
+  "rank": 285,
+  "word": "can-you-help-me",
+  "draft": "2ad117d7c7ef0ab4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I need help.",
+    "example": "Excuse me, I need help. Can you help me?"
+  },
+  "note": "The example uses informal ¿Puedes ayudarme?, while the unit's other card teaches the formal usted version, which is fine for tú but worth knowing about when you put the unit together.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:21.918Z"
+}

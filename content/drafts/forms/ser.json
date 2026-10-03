@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 4,
+  "word": "ser",
+  "from": "ser-be-identity",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:14.817Z",
+  "cards": [
+    "ser-form-yo",
+    "ser-form-tu",
+    "ser-form-el"
+  ]
+}

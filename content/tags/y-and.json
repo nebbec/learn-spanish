@@ -1,0 +1,14 @@
+{
+  "id": "y-and",
+  "unit": "who-i-am",
+  "want": "y: and",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3377a63e8d4abf0e",
+  "group": "#9 y",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:02.917Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "amor-love",
+  "rank": 236,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el amor",
+  "en": "love",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Te extraño mucho, mi amor.",
+    "en": "I miss you a lot, my love."
+  },
+  "spain": null,
+  "trick": "AMOR sounds like \"a more\": love always makes you want a little more.",
+  "image": "/deck/img/amor-love.webp",
+  "audio": {
+    "word": "/deck/audio/amor-love.word.mp3",
+    "sentence": "/deck/audio/amor-love.sentence.mp3"
+  }
+}

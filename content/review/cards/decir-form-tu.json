@@ -1,0 +1,17 @@
+{
+  "id": "decir-form-tu",
+  "rank": 23,
+  "word": "decir",
+  "draft": "22fa9c2aa5db5e90",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dices = you (informal, singular) say / you are saying",
+    "example": "¿Qué dices? = What are you saying? / What do you say?"
+  },
+  "note": "The trick's wording \"you says it\" is awkward English, but it is accurate that tú forms end in -s, so it passes; consider \"you say it, with the tú ending -s\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:52:21.250Z"
+}

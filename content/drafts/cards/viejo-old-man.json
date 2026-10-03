@@ -1,0 +1,24 @@
+{
+  "id": "viejo-old-man",
+  "rank": 242,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el viejo",
+  "en": "old man",
+  "hint": "everyday word",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El viejo vive solo en esa casa.",
+    "en": "The old man lives alone in that house."
+  },
+  "spain": null,
+  "trick": "EL VIEJO sounds like \"the very yokel\": the old man in overalls sitting on his porch.",
+  "image": "/deck/img/viejo-old-man.webp",
+  "audio": {
+    "word": "/deck/audio/viejo-old-man.word.mp3",
+    "sentence": "/deck/audio/viejo-old-man.sentence.mp3"
+  }
+}

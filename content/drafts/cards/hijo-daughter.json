@@ -1,0 +1,24 @@
+{
+  "id": "hijo-daughter",
+  "rank": 116,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la hija",
+  "en": "daughter",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi hija está en México.",
+    "en": "My daughter is in Mexico."
+  },
+  "spain": null,
+  "trick": "HIJA sounds like \"ee-ha\": a daughter shouts \"yee-ha!\" riding her pony.",
+  "image": "/deck/img/hijo-daughter.webp",
+  "audio": {
+    "word": "/deck/audio/hijo-daughter.word.mp3",
+    "sentence": "/deck/audio/hijo-daughter.sentence.mp3"
+  }
+}

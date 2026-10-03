@@ -1,0 +1,28 @@
+{
+  "id": "ir-form-el",
+  "rank": 15,
+  "kind": "form",
+  "pos": "verb",
+  "es": "va",
+  "en": "he / she goes",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "voy",
+      "tu": "vas",
+      "el": "va"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Ella va al trabajo.",
+    "en": "She goes to work."
+  },
+  "spain": null,
+  "trick": "Va sounds like 'vroom': he goes, vroom, va!",
+  "image": "/deck/img/ir-go.webp",
+  "audio": {
+    "word": "/deck/audio/ir-form-el.word.mp3",
+    "sentence": "/deck/audio/ir-form-el.sentence.mp3"
+  }
+}

@@ -1,0 +1,29 @@
+# hola-hello · rank 88 · hola
+#
+# Why it was flagged:
+#   - Example sentence: The sentence is grammatical, but 'Yes, I insist' right after a greeting makes no sense on its own, and the stressed 'yo' sounds forced, so it is not a natural model of how hola is used. Suggested fix: example.es: ¡Hola, Ana! ¿Cómo estás? / example.en: Hello, Ana! How are you?
+# Reviewer's note (not a reason to flag): pos 'other' fits an interjection, and no hint is needed because hola is the clear everyday answer for 'hello'.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         hola-hello
+kind:       content
+pos:        other
+es:         hola
+en:         hello
+hint:
+example.es: ¡Hola, Ana! Sí, yo insisto.
+example.en: Hello, Ana! Yes, I insist.
+spain:
+trick:      HOLA sounds like "hello" with an O and an A: you holler hola to say hello.
+
+# The draft this file was made from. Do not change it.
+draft: ee1fb6746d6b1b58

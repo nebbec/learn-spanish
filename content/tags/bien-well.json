@@ -1,0 +1,14 @@
+{
+  "id": "bien-well",
+  "unit": "how-and-where-i-am",
+  "want": "bien",
+  "requires": [],
+  "tip": null,
+  "why": "Use bien for how someone is or how something is done; bueno describes what a person or thing is like.",
+  "draft": "075608f772074a9f",
+  "group": "#34 bien",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:09.972Z"
+}

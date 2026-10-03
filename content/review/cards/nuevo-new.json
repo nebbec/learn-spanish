@@ -1,0 +1,17 @@
+{
+  "id": "nuevo-new",
+  "rank": 124,
+  "word": "nuevo",
+  "draft": "85ba0df7a50d69ef",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "new (adjective; feminine nueva)",
+    "example": "I have a new friend."
+  },
+  "note": "The trick's \"new-EH-vo\" is only a rough guide to the sound, since nuevo is said as two syllables (NWEH-vo), but that is good enough for a memory aid.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:57.978Z"
+}

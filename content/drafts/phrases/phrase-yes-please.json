@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 105,
+  "word": "me-and-you",
+  "unit": "me-and-you",
+  "order": 1,
+  "source": "payoff",
+  "line": "Yes, please.",
+  "words": [
+    {
+      "word": "sí",
+      "rank": 32
+    },
+    {
+      "word": "por",
+      "rank": 14
+    },
+    {
+      "word": "favor",
+      "rank": 105
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:12.161Z",
+  "cards": [
+    "phrase-yes-please"
+  ]
+}

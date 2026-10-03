@@ -114,6 +114,7 @@ export function buildDeck(
   previous: Deck | null,
   {
     allowDrop = false,
+    fresh = false,
     takes = {},
     size = Infinity,
     tips = [],
@@ -122,6 +123,8 @@ export function buildDeck(
     lemmas = null,
   }: {
     allowDrop?: boolean;
+    /** Choose the cards from the top of the order alone, as if no deck had been built (L9). Drops ids, so needs `allowDrop` to write. */
+    fresh?: boolean;
     takes?: Record<string, number>;
     size?: number;
     /** The approved tips, in the order they are met (`tipsForDeck` in tips.ts). */
@@ -227,7 +230,7 @@ export function buildDeck(
     if (tag.unit && tag.want) matched.set(tag.unit, (matched.get(tag.unit) ?? new Set()).add(tag.want));
     if (tag.requires.some((r) => rejected.has(r))) blocked.add(card.id);
     const requires = tag.requires.filter((r) => !rejected.has(r)).map(finalId);
-    candidates.push({ ...card, unit: tag.unit, requires, tip: tag.tip });
+    candidates.push({ ...card, unit: tag.unit, requires, tip: tag.tip, why: tag.why ?? null });
   }
 
   const order = pathOrder(candidates, plan?.units ?? [], { spacing });
@@ -242,7 +245,7 @@ export function buildDeck(
 
   // Growth: a card once in the deck stays; the size chooses which new cards join, from the top of
   // the order. A card waiting for a decision holds its place, so approving it later pushes no card out.
-  const previousIds = new Set((previous?.cards ?? []).map((c) => c.id));
+  const previousIds = new Set(fresh ? [] : (previous?.cards ?? []).map((c) => c.id));
   let room = size - order.cards.filter((c) => previousIds.has(c.id)).length;
   const chosen = order.cards.filter((c) => previousIds.has(c.id) || (room-- > 0));
   const chosenIds = new Set(chosen.map((c) => c.id));

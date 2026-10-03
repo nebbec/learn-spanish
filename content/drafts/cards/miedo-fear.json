@@ -1,0 +1,24 @@
+{
+  "id": "miedo-fear",
+  "rank": 315,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el miedo",
+  "en": "fear",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tengo miedo de la oscuridad.",
+    "en": "I'm afraid of the dark."
+  },
+  "spain": null,
+  "trick": "MIEDO sounds like \"me, eh, doh!\": the scared cry you let out when fear grabs you.",
+  "image": "/deck/img/miedo-fear.webp",
+  "audio": {
+    "word": "/deck/audio/miedo-fear.word.mp3",
+    "sentence": "/deck/audio/miedo-fear.sentence.mp3"
+  }
+}

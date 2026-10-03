@@ -1,0 +1,28 @@
+{
+  "id": "tener-form-tu",
+  "rank": 13,
+  "kind": "form",
+  "pos": "verb",
+  "es": "tienes",
+  "en": "you have",
+  "hint": "own, possess, informal",
+  "grammar": {
+    "present": {
+      "yo": "tengo",
+      "tu": "tienes",
+      "el": "tiene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Tú no tienes nada aquí.",
+    "en": "You don't have anything here."
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/tener-have.webp",
+  "audio": {
+    "word": "/deck/audio/tener-form-tu.word.mp3",
+    "sentence": "/deck/audio/tener-form-tu.sentence.mp3"
+  }
+}

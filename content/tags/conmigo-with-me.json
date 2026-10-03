@@ -1,0 +1,14 @@
+{
+  "id": "conmigo-with-me",
+  "unit": "making-plans",
+  "want": "conmigo",
+  "requires": [],
+  "tip": null,
+  "why": "Use conmigo for \"with me\"; contigo is \"with you\".",
+  "draft": "acc06b8303b52a71",
+  "group": "#199 conmigo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:11.572Z"
+}

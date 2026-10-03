@@ -1,0 +1,17 @@
+{
+  "id": "hijo-son",
+  "rank": 116,
+  "word": "hijo",
+  "draft": "6e7daf205a8bb665",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the son (also a child, of unspecified sex)",
+    "example": "My son is in Mexico."
+  },
+  "note": "The plural \"los hijos\" also means \"children\" (sons and daughters together), which the editor could mention somewhere, but it doesn't affect this singular card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:53.488Z"
+}

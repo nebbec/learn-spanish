@@ -1,0 +1,28 @@
+{
+  "id": "gustar-like",
+  "rank": 110,
+  "kind": "content",
+  "pos": "verb",
+  "es": "gustar",
+  "en": "to like",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "gusto",
+      "tu": "gustas",
+      "el": "gusta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Me gusta mucho la pizza.",
+    "en": "I really like pizza."
+  },
+  "spain": null,
+  "trick": "GUSTAR sounds like gusto: you eat the food you like with gusto.",
+  "image": "/deck/img/gustar-like.webp",
+  "audio": {
+    "word": "/deck/audio/gustar-like.word.mp3",
+    "sentence": "/deck/audio/gustar-like.sentence.mp3"
+  }
+}

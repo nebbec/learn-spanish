@@ -1,0 +1,17 @@
+{
+  "id": "beber-drink",
+  "rank": 293,
+  "word": "beber",
+  "draft": "9640b2be9592a941",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to drink",
+    "example": "I drink a lot of water when it's hot."
+  },
+  "note": "The hint correctly rules out tomar, but in everyday Latin American speech tomar is more common than beber, so a hint like \"the standard verb, not tomar\" might be more accurate than \"the basic verb\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:44.906Z"
+}

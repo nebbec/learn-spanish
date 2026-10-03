@@ -1,0 +1,24 @@
+{
+  "id": "cerca-fence",
+  "rank": 339,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cerca",
+  "en": "fence",
+  "hint": "around a yard or field",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "El perro saltó la cerca.",
+    "en": "The dog jumped the fence."
+  },
+  "spain": "la valla",
+  "trick": "CERCA sounds like circle: a fence circles the yard.",
+  "image": "/deck/img/cerca-fence.webp",
+  "audio": {
+    "word": "/deck/audio/cerca-fence.word.mp3",
+    "sentence": "/deck/audio/cerca-fence.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "estudiar-study",
+  "unit": "what-i-do",
+  "want": "estudiar",
+  "requires": [],
+  "tip": "tip-regular-endings",
+  "why": null,
+  "draft": "f260bc4fcd22c114",
+  "group": "#847 estudiar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:32.493Z"
+}

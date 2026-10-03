@@ -1,0 +1,14 @@
+{
+  "id": "hablar-speak",
+  "unit": "when-i-dont-understand",
+  "want": "hablar",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e0b5acdb243d4879",
+  "group": "#60 hablar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:06.820Z"
+}

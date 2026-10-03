@@ -2,16 +2,16 @@
   "id": "el-he",
   "rank": 61,
   "word": "él",
-  "draft": "ec75ed541ce027b0",
+  "draft": "c12448206f3471a2",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "él = he (subject pronoun, third person masculine singular)",
-    "example": "He doesn't know anything."
+    "es": "he (subject pronoun)",
+    "example": "He does insist, I don't."
   },
-  "note": "Subject pronouns are usually dropped in Spanish (\"Es mi hermano\" is the most natural way to say it), so the editor may want to tell learners that él is mostly used for emphasis or contrast.",
+  "note": "The example is correct, but it only makes sense with some context. A more everyday sentence such as \"Él trabaja conmigo.\" (He works with me.) would show the subject pronoun more clearly.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:22:58.851Z"
+  "reviewedAt": "2026-10-03T20:36:14.215Z"
 }

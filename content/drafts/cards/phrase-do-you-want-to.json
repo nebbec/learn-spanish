@@ -1,0 +1,21 @@
+{
+  "id": "phrase-do-you-want-to",
+  "rank": 199,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Quieres venir conmigo?",
+  "en": "Do you want to come with me?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "¿Quieres venir conmigo a la fiesta esta noche?",
+    "en": "Do you want to come with me to the party tonight?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-do-you-want-to.word.mp3",
+    "sentence": "/deck/audio/phrase-do-you-want-to.sentence.mp3"
+  }
+}

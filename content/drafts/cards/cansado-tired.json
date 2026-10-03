@@ -1,0 +1,23 @@
+{
+  "id": "cansado-tired",
+  "rank": 736,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "cansado",
+  "en": "tired",
+  "hint": null,
+  "grammar": {
+    "feminine": "cansada"
+  },
+  "example": {
+    "es": "Estoy cansado, pero feliz.",
+    "en": "I'm tired, but happy."
+  },
+  "spain": null,
+  "trick": "CANSADO sounds like \"can't sad-o\": you're so tired you can't even manage to feel sad.",
+  "image": "/deck/img/cansado-tired.webp",
+  "audio": {
+    "word": "/deck/audio/cansado-tired.word.mp3",
+    "sentence": "/deck/audio/cansado-tired.sentence.mp3"
+  }
+}

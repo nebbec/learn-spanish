@@ -1,0 +1,17 @@
+{
+  "id": "estar-form-tu",
+  "rank": 8,
+  "word": "estar",
+  "draft": "8da1d5f1454e728d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "estás = you (informal, singular) are, for a state or location; the tú present form of estar",
+    "example": "¿Cómo estás? = How are you?"
+  },
+  "note": "The example is the set phrase \"¿Cómo estás?\", so it may repeat a \"How are you?\" phrase card; something like \"¿Dónde estás?\" would show the place use and avoid the overlap.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:51:26.990Z"
+}

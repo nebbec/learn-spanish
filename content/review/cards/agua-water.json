@@ -1,0 +1,17 @@
+{
+  "id": "agua-water",
+  "rank": 309,
+  "word": "agua",
+  "draft": "8f9e1cf499bab534",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "water (the water)",
+    "example": "Will you give me a glass of water?"
+  },
+  "note": "The feminine gender with the article el is correct, because agua starts with a stressed a; the app could add a reminder that adjectives still take the feminine form, as in el agua fría.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:45.709Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tener-form-tu",
+  "rank": 13,
+  "word": "tener",
+  "draft": "f9c805ffd25e38df",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "you have (informal, tú form of tener)",
+    "example": "You don't have anything here."
+  },
+  "note": "The hint \"own, possess\" usefully rules out the helper verb \"has\" (haber), and \"informal\" rules out usted's \"tiene\", so only \"tienes\" fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:27.519Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "venir-form-tu",
+  "rank": 68,
+  "word": "venir",
+  "draft": "9a0fe88e945ed260",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "you come (informal, tú)",
+    "example": "Are you coming to the party?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:52:43.655Z"
+}

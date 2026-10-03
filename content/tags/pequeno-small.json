@@ -1,0 +1,14 @@
+{
+  "id": "pequeno-small",
+  "unit": "what-people-are-like",
+  "want": "pequeño",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d5d600b30e492163",
+  "group": "#205 pequeño",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:15.580Z"
+}

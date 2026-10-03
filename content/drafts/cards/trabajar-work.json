@@ -1,0 +1,28 @@
+{
+  "id": "trabajar-work",
+  "rank": 168,
+  "kind": "content",
+  "pos": "verb",
+  "es": "trabajar",
+  "en": "to work",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "trabajo",
+      "tu": "trabajas",
+      "el": "trabaja"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Mi mamá trabaja en un hospital.",
+    "en": "My mom works at a hospital."
+  },
+  "spain": null,
+  "trick": "TRABAJAR sounds like \"trouble, ha!\": work is trouble, but you laugh and keep working.",
+  "image": "/deck/img/trabajar-work.webp",
+  "audio": {
+    "word": "/deck/audio/trabajar-work.word.mp3",
+    "sentence": "/deck/audio/trabajar-work.sentence.mp3"
+  }
+}

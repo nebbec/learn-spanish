@@ -1,0 +1,17 @@
+{
+  "id": "comida-meal",
+  "rank": 404,
+  "word": "comida",
+  "draft": "ea16bf0cebc6004b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "meal; food",
+    "example": "The most important meal is breakfast."
+  },
+  "note": "The \"meal\" and \"food\" cards share the same answer, la comida, which is fine because the prompts are different and each has only one right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:17.288Z"
+}

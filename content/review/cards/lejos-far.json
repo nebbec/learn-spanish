@@ -1,0 +1,17 @@
+{
+  "id": "lejos-far",
+  "rank": 470,
+  "word": "lejos",
+  "draft": "6d182020ecaaad11",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "far, far away (adverb)",
+    "example": "My house is very far from here."
+  },
+  "note": "An optional hint \"(adverb)\" would rule out the adjective lejano, which some learners might give for \"far away\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:23.306Z"
+}

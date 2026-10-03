@@ -1,0 +1,14 @@
+{
+  "id": "phrase-youre-welcome",
+  "unit": "who-i-am",
+  "want": "phrase: de nada = you're welcome",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1af8336ba6bd5aac",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:15.167Z"
+}

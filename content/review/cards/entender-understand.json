@@ -1,0 +1,23 @@
+{
+  "id": "entender-understand",
+  "rank": 141,
+  "word": "entender",
+  "draft": "7dc92bcdd7dcc9c3",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, \"to understand\" also has comprender as a common, correct answer, so a learner who recalls comprender would be marked wrong.",
+      "fix": "hint: the everyday word, as in \"I don't get it\" (not comprender)"
+    }
+  ],
+  "back": {
+    "es": "to understand",
+    "example": "Ana, I don't understand anything."
+  },
+  "note": "The e→ie stem change (entiendo, entiendes, entiende) correctly makes the irregular flag true.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:05.647Z"
+}

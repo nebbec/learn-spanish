@@ -1,0 +1,14 @@
+{
+  "id": "creer-think-opinion",
+  "unit": "what-people-say",
+  "want": "creer: think (opinion)",
+  "requires": [],
+  "tip": null,
+  "why": "Use creer to give an opinion (creo que sí); use pensar for the act of thinking or thinking about something.",
+  "draft": "a8559db75360c6c2",
+  "group": "#48 creer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:44.810Z"
+}

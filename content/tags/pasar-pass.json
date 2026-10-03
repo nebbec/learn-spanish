@@ -1,0 +1,14 @@
+{
+  "id": "pasar-pass",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e5b40e40697a7074",
+  "group": "#55 pasar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:57.719Z"
+}

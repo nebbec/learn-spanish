@@ -1,0 +1,14 @@
+{
+  "id": "muy-very",
+  "unit": "how-and-where-i-am",
+  "want": "muy",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "63b0ea115c17537e",
+  "group": "#53 muy",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:53.538Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-dont-understand",
+  "rank": 141,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "No entiendo",
+  "en": "I don't understand.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Lo siento, no entiendo. ¿Hablas inglés?",
+    "en": "I'm sorry, I don't understand. Do you speak English?"
+  },
+  "spain": null,
+  "trick": "Entiendo sounds like the entendre in double entendre, a phrase about two ways to understand something.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-dont-understand.word.mp3",
+    "sentence": "/deck/audio/phrase-i-dont-understand.sentence.mp3"
+  }
+}

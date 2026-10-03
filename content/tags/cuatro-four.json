@@ -1,0 +1,14 @@
+{
+  "id": "cuatro-four",
+  "unit": "buying-things",
+  "want": "cuatro",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8a0ec26760fefe6c",
+  "group": "#363 cuatro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:03.863Z"
+}

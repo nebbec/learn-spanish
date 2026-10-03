@@ -1,0 +1,14 @@
+{
+  "id": "el-he",
+  "unit": "me-and-you",
+  "want": "él",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c12448206f3471a2",
+  "group": "#61 él",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:12.195Z"
+}

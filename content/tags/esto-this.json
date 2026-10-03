@@ -1,0 +1,14 @@
+{
+  "id": "esto-this",
+  "unit": "asking-questions",
+  "want": "esto: this",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "169248adc98f9e1c",
+  "group": "#49 esto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:43.122Z"
+}

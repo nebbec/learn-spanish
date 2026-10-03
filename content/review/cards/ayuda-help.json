@@ -1,0 +1,17 @@
+{
+  "id": "ayuda-help",
+  "rank": 285,
+  "word": "ayuda",
+  "draft": "9350214dcd1d1942",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "help, assistance (noun)",
+    "example": "Thanks for your help."
+  },
+  "note": "Bare \"help\" is clearly the noun here because content verbs start with \"to\", so it is not confused with ayudar, and \"auxilio\" is mostly a cry for help, not the everyday noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:31.669Z"
+}

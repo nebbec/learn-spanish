@@ -1,0 +1,23 @@
+{
+  "id": "phrase-do-you-speak-english",
+  "rank": 907,
+  "word": "when-i-dont-understand",
+  "draft": "797c0e8a4785f3bf",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses 'Lo siento' to get someone's attention before a question, but Spanish speakers say 'Perdón' or 'Disculpa' for that, and the unit's own 'I'm sorry' card says lo siento is not 'excuse me'.",
+      "fix": "example.es: Perdón, no entiendo. ¿Hablas inglés? / example.en: Sorry, I don't understand. Do you speak English?"
+    }
+  ],
+  "back": {
+    "es": "Do you speak English? (informal tú)",
+    "example": "I'm sorry, do you speak English? I don't understand."
+  },
+  "note": "The informal hint is needed because it rules out the usted form '¿Habla inglés?', which is common when talking to strangers.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:39:25.894Z"
+}

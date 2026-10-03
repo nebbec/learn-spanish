@@ -1,0 +1,14 @@
+{
+  "id": "cerveza-beer",
+  "unit": "what-i-like",
+  "want": "cerveza",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "17c8222ff8817979",
+  "group": "#795 cerveza",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:27.035Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-what-are-you-going",
+  "rank": 171,
+  "word": "what-i-do",
+  "draft": "cbeeb09248db5b33",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "What are you (informal) going to do tomorrow?",
+    "example": "What are you going to do tomorrow? I'm going to work."
+  },
+  "note": "The informal hint is needed because it rules out the usted version ¿Qué va a hacer mañana?, and the future-tense ¿Qué harás mañana? is less common in speech, so the ir a + infinitive answer is the natural one to expect.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:50.708Z"
+}

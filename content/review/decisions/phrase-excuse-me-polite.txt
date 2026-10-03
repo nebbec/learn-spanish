@@ -1,0 +1,30 @@
+# phrase-excuse-me-polite · rank 305 · out-and-about
+#
+# Why it was flagged:
+#   - One right answer: For "Excuse me" used to get a stranger's attention, Perdón, Perdone and Con permiso are also right, and the hint does not rule them out. Suggested fix: hint: informal (tú), to get someone's attention; the verb disculpar, not perdón
+#   - Latin American usage: Disculpe is the usted command form, and the app teaches the tú register and uses usted only as a word in its own right, so this card teaches a conjugation the rest of the course avoids. Suggested fix: es: Disculpa.
+# Reviewer's note (not a reason to flag): Disculpe is a natural and polite way to address strangers in Latin America, so if the editor chooses to allow this one usted form, the card would only need a hint that rules out Perdón and Perdone.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-excuse-me-polite
+kind:       phrase
+pos:        phrase
+es:         Disculpe.
+en:         Excuse me.
+hint:       formal, to get a stranger's attention
+example.es: Disculpe, ¿dónde está el baño?
+example.en: Excuse me, where is the bathroom?
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: b2b805ad90df5007

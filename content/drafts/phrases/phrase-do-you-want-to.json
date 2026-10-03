@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 199,
+  "word": "making-plans",
+  "unit": "making-plans",
+  "order": 47,
+  "source": "payoff",
+  "line": "Do you want to come with me?",
+  "words": [
+    {
+      "word": "querer",
+      "rank": 28
+    },
+    {
+      "word": "venir",
+      "rank": 68
+    },
+    {
+      "word": "conmigo",
+      "rank": 199
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:30.308Z",
+  "cards": [
+    "phrase-do-you-want-to"
+  ]
+}

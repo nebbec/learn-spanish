@@ -1,0 +1,16 @@
+{
+  "id": "decir-form-yo",
+  "unit": "what-people-say",
+  "want": "decir: I say (digo)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "a5032e1099f45dd3",
+  "group": "forms decir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:55.917Z"
+}

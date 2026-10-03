@@ -1,0 +1,17 @@
+{
+  "id": "phrase-do-you-have-coffee",
+  "unit": "what-i-want-and-have",
+  "want": null,
+  "requires": [
+    "tener-form-tu",
+    "cafe-coffee"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "a1d5b4a33e83714a",
+  "group": "phrases what-i-want-and-have",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:20.331Z"
+}

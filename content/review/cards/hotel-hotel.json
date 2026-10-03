@@ -1,0 +1,17 @@
+{
+  "id": "hotel-hotel",
+  "rank": 623,
+  "word": "hotel",
+  "draft": "40ceabcbb2c4494f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "hotel (masculine noun)",
+    "example": "The hotel is near the beach."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:43.193Z"
+}

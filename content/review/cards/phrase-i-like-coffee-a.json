@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-like-coffee-a",
+  "rank": 532,
+  "word": "what-i-like",
+  "draft": "8abad7f1e456e3cd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I like coffee a lot.",
+    "example": "I like coffee a lot, but not beer."
+  },
+  "note": "The example uses \"cerveza\", which the unit's card \"I don't like beer.\" also uses, so the two cards reinforce each other well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:55.376Z"
+}

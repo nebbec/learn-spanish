@@ -1,0 +1,14 @@
+{
+  "id": "llamar-call",
+  "unit": "people-i-love",
+  "want": "llamar: call",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0a59a3631edfc96e",
+  "group": "#82 llamar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:56.458Z"
+}

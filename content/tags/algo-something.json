@@ -1,0 +1,14 @@
+{
+  "id": "algo-something",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c5220862a52ba1dd",
+  "group": "#57 algo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:03.180Z"
+}

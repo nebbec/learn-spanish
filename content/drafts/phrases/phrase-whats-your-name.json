@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 82,
+  "word": "who-i-am",
+  "unit": "who-i-am",
+  "order": 4,
+  "source": "chunk",
+  "line": "phrase: ¿cómo te llamas? = what's your name?",
+  "words": [
+    {
+      "word": "cómo",
+      "rank": 67
+    },
+    {
+      "word": "te",
+      "rank": 21
+    },
+    {
+      "word": "llamar",
+      "rank": 82
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:21.055Z",
+  "cards": [
+    "phrase-whats-your-name"
+  ]
+}

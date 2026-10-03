@@ -2,16 +2,16 @@
   "id": "como-how",
   "rank": 67,
   "word": "cómo",
-  "draft": "16f04364028aac68",
+  "draft": "9f2e9edea06e13d6",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "how (interrogative adverb, with accent)",
-    "example": "What is your brother called? (literally: How does your brother call himself?)"
+    "es": "how (interrogative adverb)",
+    "example": "How is your mother?"
   },
-  "note": "The example's English translation is correct but has no word \"how\", because Spanish asks a name with \"cómo\". Learners may like this contrast, but the editor could add a literal gloss (\"How is your brother called?\") to make the link clear.",
+  "note": "The accent matters here, since como without it is a different word (like, as, I eat), so the editor may want the trick or display to stress the written accent.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:23:40.555Z"
+  "reviewedAt": "2026-10-03T20:36:18.098Z"
 }

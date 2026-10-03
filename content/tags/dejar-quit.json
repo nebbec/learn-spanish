@@ -1,0 +1,14 @@
+{
+  "id": "dejar-quit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0d2c30088e2e0afa",
+  "group": "#58 dejar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:01.944Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sentir-be-sorry",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ad043cbf09c5804c",
+  "group": "#63 sentir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:15.882Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cuando-when-question",
+  "rank": 350,
+  "word": "cuándo",
+  "draft": "8bbbc2f997b83d73",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "when? (interrogative adverb, used in direct and indirect questions)",
+    "example": "When do you want a coffee?"
+  },
+  "note": "The hint is useful because it separates the question word from the unaccented conjunction cuando, and the example would sound a little more natural as \"¿Cuándo quieres tomar un café?\" (When do you want to get a coffee?).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:54.624Z"
+}

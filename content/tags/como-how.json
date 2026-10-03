@@ -1,0 +1,14 @@
+{
+  "id": "como-how",
+  "unit": "asking-questions",
+  "want": "cómo: how (question)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9f2e9edea06e13d6",
+  "group": "#67 cómo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:26.177Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "estudiar-study",
+  "rank": 847,
+  "kind": "content",
+  "pos": "verb",
+  "es": "estudiar",
+  "en": "to study",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "estudio",
+      "tu": "estudias",
+      "el": "estudia"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Estudio para el examen de mañana.",
+    "en": "I'm studying for tomorrow's exam."
+  },
+  "spain": null,
+  "trick": "ESTUDIAR looks like STUDY with an E in front and AR on the end: students study hard.",
+  "image": "/deck/img/estudiar-study.webp",
+  "audio": {
+    "word": "/deck/audio/estudiar-study.word.mp3",
+    "sentence": "/deck/audio/estudiar-study.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-what-are-you-going",
+  "rank": 171,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Qué vas a hacer mañana?",
+  "en": "What are you going to do tomorrow?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "¿Qué vas a hacer mañana? Voy a trabajar.",
+    "en": "What are you going to do tomorrow? I'm going to work."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-what-are-you-going.word.mp3",
+    "sentence": "/deck/audio/phrase-what-are-you-going.sentence.mp3"
+  }
+}

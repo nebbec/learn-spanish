@@ -1,0 +1,21 @@
+{
+  "id": "contigo-with-you",
+  "rank": 221,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "contigo",
+  "en": "I want to go [with you]",
+  "hint": "informal tú, one word",
+  "grammar": null,
+  "example": {
+    "es": "Quiero hablar contigo.",
+    "en": "I want to talk with you."
+  },
+  "spain": null,
+  "trick": "CONTIGO sounds like \"con, tea, go\": with you, let's have tea and go.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/contigo-with-you.word.mp3",
+    "sentence": "/deck/audio/contigo-with-you.sentence.mp3"
+  }
+}

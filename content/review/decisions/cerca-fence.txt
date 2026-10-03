@@ -1,0 +1,31 @@
+# cerca-fence · rank 339 · cerca
+#
+# Why it was flagged:
+#   - One right answer: For 'fence' around a yard or field, other common Latin American words are just as right (el cerco, la reja, la valla, el alambrado), and the hint does not rule them out. Suggested fix: hint: around a yard or field; the same word as 'near'
+# Reviewer's note (not a reason to flag): The word's rank 339 comes almost entirely from the adverb 'near', so the noun 'fence' is a much less frequent second meaning, and the editor may want to decide whether it deserves its own card this early.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         cerca-fence
+kind:       content
+pos:        noun
+es:         la cerca
+en:         fence
+hint:       around a yard or field
+gender:     f
+article:    la
+example.es: El perro saltó la cerca.
+example.en: The dog jumped the fence.
+spain:      la valla
+trick:      CERCA sounds like circle: a fence circles the yard.
+
+# The draft this file was made from. Do not change it.
+draft: fb43156b9cc11b17

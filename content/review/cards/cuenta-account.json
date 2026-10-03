@@ -1,0 +1,17 @@
+{
+  "id": "cuenta-account",
+  "rank": 238,
+  "word": "cuenta",
+  "draft": "c4ec6f606aab1b11",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the account (also the bill, the count)",
+    "example": "I don't have money in my account."
+  },
+  "note": "The hint \"bank, email\" is needed to keep this card apart from the word's \"bill\" card, and it does that well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:04.105Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-please",
+  "rank": 105,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "por favor",
+  "en": "Please",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Decide tú, por favor.",
+    "en": "You decide, please."
+  },
+  "spain": null,
+  "trick": "Por favor sounds like \"for a favor\", and that's what you're asking for when you say please.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-please.word.mp3",
+    "sentence": "/deck/audio/phrase-please.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-excuse-me-polite",
+  "rank": 305,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Disculpe.",
+  "en": "Excuse me.",
+  "hint": "formal, to get a stranger's attention",
+  "grammar": null,
+  "example": {
+    "es": "Disculpe, ¿dónde está el baño?",
+    "en": "Excuse me, where is the bathroom?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-excuse-me-polite.word.mp3",
+    "sentence": "/deck/audio/phrase-excuse-me-polite.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "phrase-please",
+  "unit": "me-and-you",
+  "want": "phrase: por favor = please",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1730059e8df09351",
+  "group": "phrases me-and-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:07.599Z"
+}

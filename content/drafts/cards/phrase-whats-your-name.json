@@ -1,0 +1,21 @@
+{
+  "id": "phrase-whats-your-name",
+  "rank": 82,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Cómo te llamas?",
+  "en": "What's your name?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "Hola, ¿cómo te llamas? —Me llamo Ana.",
+    "en": "Hi, what's your name? —My name is Ana."
+  },
+  "spain": null,
+  "trick": "It literally means \"how do you call yourself?\", where cómo is \"how\" and te llamas is \"you call yourself\".",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-whats-your-name.word.mp3",
+    "sentence": "/deck/audio/phrase-whats-your-name.sentence.mp3"
+  }
+}

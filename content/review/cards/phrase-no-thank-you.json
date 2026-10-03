@@ -1,0 +1,23 @@
+{
+  "id": "phrase-no-thank-you",
+  "rank": 75,
+  "word": "me-and-you",
+  "draft": "69d17999e011b6c4",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb.",
+      "fix": "example.es: ¿Quieres chocolate? No, gracias. / example.en: Do you want chocolate? No, thank you."
+    }
+  ],
+  "back": {
+    "es": "No, thank you. / No, thanks.",
+    "example": "Chocolate? No, thank you."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:39:10.363Z"
+}

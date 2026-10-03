@@ -1,0 +1,28 @@
+{
+  "id": "poder-form-tu",
+  "rank": 19,
+  "kind": "form",
+  "pos": "verb",
+  "es": "puedes",
+  "en": "you can",
+  "hint": "are able to, informal",
+  "grammar": {
+    "present": {
+      "yo": "puedo",
+      "tu": "puedes",
+      "el": "puede"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Puedes hablar inglés, por favor?",
+    "en": "Can you speak English, please?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/poder-can.webp",
+  "audio": {
+    "word": "/deck/audio/poder-form-tu.word.mp3",
+    "sentence": "/deck/audio/poder-form-tu.sentence.mp3"
+  }
+}

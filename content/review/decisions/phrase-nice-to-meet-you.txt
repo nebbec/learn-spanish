@@ -1,0 +1,29 @@
+# phrase-nice-to-meet-you · rank 625 · who-i-am
+#
+# Why it was flagged:
+#   - One right answer: The hint asks for a two-word phrase that anyone can say, man or woman, but 'Un placer' also fits that and is common in Latin America for 'Nice to meet you'. Suggested fix: hint: The everyday two-word phrase, literally "much pleasure", that anyone can say, man or woman.
+# Reviewer's note (not a reason to flag): The example sentence almost repeats the unit's phrase card "My name is Ana. Nice to meet you.", so the editor may want a different example, such as "Mucho gusto, Pedro. Yo soy Luis."
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-nice-to-meet-you
+kind:       phrase
+pos:        phrase
+es:         Mucho gusto.
+en:         Nice to meet you.
+hint:       The two-word phrase that anyone can say, man or woman.
+example.es: Hola, me llamo Ana. Mucho gusto.
+example.en: Hi, my name is Ana. Nice to meet you.
+spain:      Spain more often says encantado, or encantada if you are a woman.
+trick:      Gusto means pleasure, like doing something with gusto, so mucho gusto is literally much pleasure.
+
+# The draft this file was made from. Do not change it.
+draft: 7fd1b0c929638a0f

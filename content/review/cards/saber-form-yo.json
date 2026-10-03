@@ -1,0 +1,17 @@
+{
+  "id": "saber-form-yo",
+  "rank": 26,
+  "word": "saber",
+  "draft": "07cddffb88df21ef",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I know (a fact, information, or how to do something); first-person singular present of saber",
+    "example": "I don't know where it is (or where he/she is)."
+  },
+  "note": "The hint is needed here because it rules out conozco, and the accent on sé is what tells it apart from the pronoun se, so it may be worth pointing that out to learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:52:26.169Z"
+}

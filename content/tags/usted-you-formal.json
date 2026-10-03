@@ -1,0 +1,14 @@
+{
+  "id": "usted-you-formal",
+  "unit": "can-you-help-me",
+  "want": "usted",
+  "requires": [],
+  "tip": "tip-tu-usted",
+  "why": "Use usted for strangers and older people; tú for friends, family and people your age.",
+  "draft": "a7f482e49f3b80dc",
+  "group": "#84 usted",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:00.090Z"
+}

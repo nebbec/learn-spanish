@@ -1,0 +1,14 @@
+{
+  "id": "casa-house",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "383e4ffaf3031c16",
+  "group": "#87 casa",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:04.879Z"
+}

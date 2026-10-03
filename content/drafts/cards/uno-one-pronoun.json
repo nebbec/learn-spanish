@@ -1,0 +1,21 @@
+{
+  "id": "uno-one-pronoun",
+  "rank": 136,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "uno",
+  "en": "[one] of my brothers",
+  "hint": "stands alone, no noun after it",
+  "grammar": null,
+  "example": {
+    "es": "Uno de mis hermanos vive en México.",
+    "en": "One of my brothers lives in Mexico."
+  },
+  "spain": null,
+  "trick": "UNO sounds like you know: you know one of them did it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/uno-one-pronoun.word.mp3",
+    "sentence": "/deck/audio/uno-one-pronoun.sentence.mp3"
+  }
+}

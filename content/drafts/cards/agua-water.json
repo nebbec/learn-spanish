@@ -1,0 +1,24 @@
+{
+  "id": "agua-water",
+  "rank": 309,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el agua",
+  "en": "water",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "el"
+  },
+  "example": {
+    "es": "¿Me das un vaso de agua?",
+    "en": "Can you give me a glass of water?"
+  },
+  "spain": null,
+  "trick": "AGUA sounds like \"aqua\", the blue-green color of clear water.",
+  "image": "/deck/img/agua-water.webp",
+  "audio": {
+    "word": "/deck/audio/agua-water.word.mp3",
+    "sentence": "/deck/audio/agua-water.sentence.mp3"
+  }
+}

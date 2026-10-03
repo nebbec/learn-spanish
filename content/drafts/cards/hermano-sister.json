@@ -1,0 +1,24 @@
+{
+  "id": "hermano-sister",
+  "rank": 167,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la hermana",
+  "en": "sister",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi hermana está en México.",
+    "en": "My sister is in Mexico."
+  },
+  "spain": null,
+  "trick": "HERMANA sounds like \"her mama\": your sister acts just like her mama, bossing you around.",
+  "image": "/deck/img/hermano-sister.webp",
+  "audio": {
+    "word": "/deck/audio/hermano-sister.word.mp3",
+    "sentence": "/deck/audio/hermano-sister.sentence.mp3"
+  }
+}

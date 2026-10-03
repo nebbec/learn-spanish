@@ -1,0 +1,28 @@
+{
+  "id": "estar-form-yo",
+  "rank": 8,
+  "kind": "form",
+  "pos": "verb",
+  "es": "estoy",
+  "en": "I am",
+  "hint": "state, place",
+  "grammar": {
+    "present": {
+      "yo": "estoy",
+      "tu": "estás",
+      "el": "está"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hola, estoy en México.",
+    "en": "Hi, I'm in Mexico."
+  },
+  "spain": null,
+  "trick": "Estoy sounds like \"a stay\": where I stay is where I am right now.",
+  "image": "/deck/img/estar-be-state.webp",
+  "audio": {
+    "word": "/deck/audio/estar-form-yo.word.mp3",
+    "sentence": "/deck/audio/estar-form-yo.sentence.mp3"
+  }
+}

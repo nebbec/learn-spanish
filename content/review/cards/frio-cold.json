@@ -1,0 +1,17 @@
+{
+  "id": "frio-cold",
+  "rank": 629,
+  "word": "frío",
+  "draft": "76f7f18540f435a7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "cold (adjective; feminine fría)",
+    "example": "The water is very cold today."
+  },
+  "note": "The example also teaches that agua is feminine even with el (el agua ... fría), which is useful, and the noun reading of \"cold\" (el frío, tengo frío) still gives frío, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:47.216Z"
+}

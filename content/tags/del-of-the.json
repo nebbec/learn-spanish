@@ -1,0 +1,17 @@
+{
+  "id": "del-of-the",
+  "unit": null,
+  "want": null,
+  "requires": [
+    "de-of",
+    "el-the"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "178a1c0297f5f7b1",
+  "group": "#41 del",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:27.972Z"
+}

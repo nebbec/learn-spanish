@@ -1,0 +1,14 @@
+{
+  "id": "hoy-today",
+  "unit": "where-im-going",
+  "want": "hoy",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e3f881d7f2fee75d",
+  "group": "#193 hoy",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:07.021Z"
+}

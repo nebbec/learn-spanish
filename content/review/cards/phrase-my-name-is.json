@@ -1,0 +1,17 @@
+{
+  "id": "phrase-my-name-is",
+  "rank": 82,
+  "word": "who-i-am",
+  "draft": "09016028b700a037",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "My name is (literally: I call myself)",
+    "example": "Hi, my name is Ana."
+  },
+  "note": "The hint is needed, because it rules out \"Mi nombre es\", and the card is still different from the unit's \"My name is Ana. Nice to meet you.\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:03:47.037Z"
+}

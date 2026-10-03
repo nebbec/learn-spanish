@@ -1,0 +1,17 @@
+{
+  "id": "trabajo-work",
+  "rank": 140,
+  "word": "trabajo",
+  "draft": "fdc5566207b91eb5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "work, job (the noun)",
+    "example": "Tomorrow I have to go to work early."
+  },
+  "note": "Pairing \"work, job\" in the prompt rules out el empleo (job only) and the verb trabajar, so no hint is needed, and Spain's colloquial curro sits alongside the standard trabajo rather than replacing it, so spain stays null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:47.816Z"
+}

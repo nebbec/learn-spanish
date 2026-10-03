@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-hungry",
+  "rank": 711,
+  "word": "how-i-feel",
+  "draft": "2725370c06366681",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I'm hungry (literally: I have hunger).",
+    "example": "I'm hungry. Is there food?"
+  },
+  "note": "\"Estoy hambriento\" also exists, but it is far less common and sounds stiff in everyday speech, so \"Tengo hambre\" is clearly the one expected answer, and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:01.565Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cerveza-beer",
+  "rank": 795,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cerveza",
+  "en": "beer",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Quieres una cerveza fría?",
+    "en": "Do you want a cold beer?"
+  },
+  "spain": null,
+  "trick": "CERVEZA sounds like 'serve Vesa': the bartender serves Vesa a cold beer.",
+  "image": "/deck/img/cerveza-beer.webp",
+  "audio": {
+    "word": "/deck/audio/cerveza-beer.word.mp3",
+    "sentence": "/deck/audio/cerveza-beer.sentence.mp3"
+  }
+}

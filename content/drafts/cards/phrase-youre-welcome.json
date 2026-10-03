@@ -1,0 +1,21 @@
+{
+  "id": "phrase-youre-welcome",
+  "rank": 66,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "De nada.",
+  "en": "You're welcome.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "—Gracias, Ana. —¡De nada!",
+    "en": "Thanks, Ana. —You're welcome!"
+  },
+  "spain": null,
+  "trick": "De nada literally means \"of nothing\", like saying \"it was nothing\".",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-youre-welcome.word.mp3",
+    "sentence": "/deck/audio/phrase-youre-welcome.sentence.mp3"
+  }
+}

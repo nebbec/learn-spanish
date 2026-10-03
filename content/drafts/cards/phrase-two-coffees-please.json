@@ -1,0 +1,21 @@
+{
+  "id": "phrase-two-coffees-please",
+  "rank": 532,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Dos cafés, por favor.",
+  "en": "Two coffees, please.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Hola, quiero dos cafés, por favor.",
+    "en": "Hi, I'd like two coffees, please."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-two-coffees-please.word.mp3",
+    "sentence": "/deck/audio/phrase-two-coffees-please.sentence.mp3"
+  }
+}

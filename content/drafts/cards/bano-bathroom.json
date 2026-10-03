@@ -1,0 +1,24 @@
+{
+  "id": "bano-bathroom",
+  "rank": 576,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el baño",
+  "en": "bathroom",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "¿Dónde está el baño?",
+    "en": "Where is the bathroom?"
+  },
+  "spain": null,
+  "trick": "BAÑO sounds like \"ban you\": they ban you from the bathroom while someone else is in there.",
+  "image": "/deck/img/bano-bathroom.webp",
+  "audio": {
+    "word": "/deck/audio/bano-bathroom.word.mp3",
+    "sentence": "/deck/audio/bano-bathroom.sentence.mp3"
+  }
+}

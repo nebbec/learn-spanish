@@ -1,0 +1,14 @@
+{
+  "id": "quien-who",
+  "unit": "asking-questions",
+  "want": "quién",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": null,
+  "draft": "3b207d6cdaf5e2e5",
+  "group": "#91 quién",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:14.087Z"
+}

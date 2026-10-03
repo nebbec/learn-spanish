@@ -1,0 +1,14 @@
+{
+  "id": "estar-be-state",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": "tip-two-to-be",
+  "why": "Use estar for how or where something is right now; ser for what it is.",
+  "draft": "9c0002455b56f258",
+  "group": "#8 estar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:02.626Z"
+}

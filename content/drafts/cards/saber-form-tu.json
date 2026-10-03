@@ -1,0 +1,28 @@
+{
+  "id": "saber-form-tu",
+  "rank": 26,
+  "kind": "form",
+  "pos": "verb",
+  "es": "sabes",
+  "en": "you know",
+  "hint": "facts, information, how to do something; informal",
+  "grammar": {
+    "present": {
+      "yo": "sé",
+      "tu": "sabes",
+      "el": "sabe"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Sabes dónde está Ana?",
+    "en": "Do you know where Ana is?"
+  },
+  "spain": null,
+  "trick": "Sabes sounds like savvy, and a savvy person knows things.",
+  "image": "/deck/img/saber-know.webp",
+  "audio": {
+    "word": "/deck/audio/saber-form-tu.word.mp3",
+    "sentence": "/deck/audio/saber-form-tu.sentence.mp3"
+  }
+}

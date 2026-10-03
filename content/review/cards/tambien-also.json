@@ -1,0 +1,17 @@
+{
+  "id": "tambien-also",
+  "rank": 115,
+  "word": "también",
+  "draft": "4e6b1d9c310af096",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "also, too, as well",
+    "example": "My sister is also very good."
+  },
+  "note": "\"Además\" can sometimes mean \"also\", but it is closer to \"besides\" or \"moreover\", so \"también\" is clearly the expected answer and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:47.419Z"
+}

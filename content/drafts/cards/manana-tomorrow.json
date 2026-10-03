@@ -1,0 +1,21 @@
+{
+  "id": "manana-tomorrow",
+  "rank": 171,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "mañana",
+  "en": "tomorrow",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Nos vemos mañana en la escuela.",
+    "en": "See you tomorrow at school."
+  },
+  "spain": null,
+  "trick": "MAÑANA sounds like \"man, banana\": tomorrow the man will finally eat his banana.",
+  "image": "/deck/img/manana-tomorrow.webp",
+  "audio": {
+    "word": "/deck/audio/manana-tomorrow.word.mp3",
+    "sentence": "/deck/audio/manana-tomorrow.sentence.mp3"
+  }
+}

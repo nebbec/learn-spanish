@@ -1,0 +1,14 @@
+{
+  "id": "vivir-live",
+  "unit": "what-i-do",
+  "want": "vivir",
+  "requires": [],
+  "tip": "tip-regular-endings",
+  "why": null,
+  "draft": "1f22fa19109cc5d2",
+  "group": "#149 vivir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:52.487Z"
+}

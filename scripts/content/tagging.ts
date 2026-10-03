@@ -44,7 +44,12 @@ export interface Tag {
   requires: string[];
   /** A tip id of content/tips.json, or null. */
   tip: string | null;
+  /** The contrast line shown on the intro and the reveal (L9), or null on most cards. */
+  why: string | null;
 }
+
+/** The longest contrast line the tag pass may write: one short sentence. */
+export const WHY_MAX = 140;
 
 /** A tag as content/tags/<id>.json holds it. */
 export interface TagFile extends Tag {
@@ -130,6 +135,7 @@ Answer for every card you are asked about, once each, with these fields:
   - a word card only when it cannot be understood without another card, which is rare.
   Never the card itself, never an id that is not in the list, and never the same id twice. A card in a unit requires only cards of its own unit or an earlier one.
 - tip: the id of the tip this card depends on, or null. The app shows a tip once, just before the first card that names it, so name a tip on the cards that first need its idea. A unit that introduces a tip needs at least its first such card to name it (the ser form cards name the tip about dropping "I" and "you"); a card of the frequency phase names a tip only when it is what the tip is about (por and para name the tip about por and para). At most one tip per card; most cards name none.
+- why: one short sentence in English, under ${WHY_MAX} characters, shown under the card when it is introduced, or null. Write it only where this card is easily confused with a near neighbour the learner meets nearby: ser and estar ("Use estar for how or where something is right now; ser for what it is."), por and para, saber and conocer, pedir and preguntar, tú and usted, and the like. It says when to use this card's word rather than the other. Null on nearly every card.
 
 Answer with the ids, unit ids, wants and tip ids exactly as given.`;
 
@@ -181,12 +187,19 @@ const object = (properties: Rec) => ({ type: "object", additionalProperties: fal
 export const TAG_SCHEMA: Rec = object({
   cards: {
     type: "array",
-    items: object({ id: text, unit: nullable(text), want: nullable(text), requires: { type: "array", items: text }, tip: nullable(text) }),
+    items: object({
+      id: text,
+      unit: nullable(text),
+      want: nullable(text),
+      requires: { type: "array", items: text },
+      tip: nullable(text),
+      why: nullable(text),
+    }),
   },
 });
 
 export interface TagProblem {
-  field: "unit" | "want" | "requires" | "tip";
+  field: "unit" | "want" | "requires" | "tip" | "why";
   /** Names ids only, never card text or a want's text. */
   problem: string;
 }
@@ -209,6 +222,10 @@ export function tagProblems(tag: Tag, ids: ReadonlySet<string>, units: Unit[], t
   }
   if (tag.tip !== null && !tips.some((t) => t.id === tag.tip)) {
     problems.push({ field: "tip", problem: `tip ${tag.tip} is not in content/tips.json` });
+  }
+  const why = tag.why ?? null; // Tags made before L9 have no why.
+  if (why !== null && (!why.trim() || /[\r\n]/.test(why) || why.length > WHY_MAX)) {
+    problems.push({ field: "why", problem: `the why line is not one line of 1 to ${WHY_MAX} characters` });
   }
   return problems;
 }
@@ -238,6 +255,7 @@ export function guardTags(output: unknown, group: TagGroup, ctx: TagContext): Gu
       want: place ? place.want : trimmed(raw.want),
       requires: requires ?? [],
       tip: trimmed(raw.tip),
+      why: trimmed(raw.why),
     };
     for (const p of tagProblems(tag, ids, ctx.units, ctx.tips)) fields.add(p.field);
     return tag;

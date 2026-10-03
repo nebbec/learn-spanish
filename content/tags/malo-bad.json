@@ -1,0 +1,14 @@
+{
+  "id": "malo-bad",
+  "unit": "what-people-are-like",
+  "want": "malo",
+  "requires": [],
+  "tip": null,
+  "why": "Use malo to describe a person or thing (una película mala); mal for how something goes or how you feel.",
+  "draft": "1c72b18903afd2e0",
+  "group": "#228 malo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:24.861Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cerveza-beer",
+  "rank": 795,
+  "word": "cerveza",
+  "draft": "17c8222ff8817979",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the beer (feminine noun)",
+    "example": "Do you want a cold beer?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:56.066Z"
+}

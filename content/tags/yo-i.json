@@ -1,0 +1,14 @@
+{
+  "id": "yo-i",
+  "unit": "me-and-you",
+  "want": "yo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c113411e6fd04500",
+  "group": "#37 yo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:16.772Z"
+}

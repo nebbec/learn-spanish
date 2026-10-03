@@ -1,0 +1,17 @@
+{
+  "id": "bano-bathroom",
+  "rank": 576,
+  "word": "baño",
+  "draft": "f5e50922a88ab10f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the bathroom (also: the bath, a swim)",
+    "example": "Where is the bathroom?"
+  },
+  "note": "Spain also says baño, though it often uses cuarto de baño for the room at home and servicio or aseo for a public restroom, so spain: null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:39.197Z"
+}

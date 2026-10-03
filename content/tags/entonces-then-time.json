@@ -1,0 +1,14 @@
+{
+  "id": "entonces-then-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b8708f8f57f635a0",
+  "group": "#86 entonces",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:04.027Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "phrase-can-you-help-me",
+  "rank": 144,
+  "word": "can-you-help-me",
+  "draft": "70b5ca6c9914583b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "The card uses the usted register (puede), but the app's Spanish must be in the informal tú register, with usted taught only as a word card of its own.",
+      "fix": "es: ¿Me puedes ayudar, por favor? | hint: Informal (tú) | example.es: Perdón, ¿me puedes ayudar, por favor? No entiendo."
+    }
+  ],
+  "back": {
+    "es": "Can you (formal) help me, please?",
+    "example": "Sorry, can you help me, please? I don't understand."
+  },
+  "note": "With the formal hint, ¿Me podría ayudar, por favor? would also be a natural answer; the tú version has the same issue with ¿Me podrías ayudar?, so the editor could think about accepting the conditional form or making the hint rule it out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:24.963Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tu-your",
+  "unit": "what-i-want-and-have",
+  "want": "tu: your",
+  "requires": [],
+  "tip": null,
+  "why": "Without an accent, tu means your (tu casa); with an accent, tú means you (tú eres).",
+  "draft": "89c5492ad19df865",
+  "group": "#38 tu",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:19.612Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-going-home-now",
+  "rank": 87,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Voy a casa ahora.",
+  "en": "I'm going home now.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Estoy muy cansado. Voy a casa ahora.",
+    "en": "I'm really tired. I'm going home now."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-im-going-home-now.word.mp3",
+    "sentence": "/deck/audio/phrase-im-going-home-now.sentence.mp3"
+  }
+}

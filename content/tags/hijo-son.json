@@ -1,0 +1,14 @@
+{
+  "id": "hijo-son",
+  "unit": "my-people",
+  "want": "hijo / hija",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6e7daf205a8bb665",
+  "group": "#116 hijo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:30.827Z"
+}

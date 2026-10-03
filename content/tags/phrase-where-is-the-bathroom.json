@@ -1,0 +1,19 @@
+{
+  "id": "phrase-where-is-the-bathroom",
+  "unit": "out-and-about",
+  "want": null,
+  "requires": [
+    "donde-where",
+    "estar-form-el",
+    "el-the",
+    "bano-bathroom"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "54b55c2684751080",
+  "group": "phrases out-and-about",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:43.159Z"
+}

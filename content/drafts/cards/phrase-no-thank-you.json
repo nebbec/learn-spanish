@@ -1,0 +1,21 @@
+{
+  "id": "phrase-no-thank-you",
+  "rank": 75,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "No, gracias.",
+  "en": "No, thank you.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Chocolate? No, gracias.",
+    "en": "Chocolate? No, thank you."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-no-thank-you.word.mp3",
+    "sentence": "/deck/audio/phrase-no-thank-you.sentence.mp3"
+  }
+}

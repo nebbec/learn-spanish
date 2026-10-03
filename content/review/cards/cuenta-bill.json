@@ -1,0 +1,23 @@
+{
+  "id": "cuenta-bill",
+  "rank": 238,
+  "word": "cuenta",
+  "draft": "892a4ac8c0e35fcb",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb, which the card format requires.",
+      "fix": "example.es: Ya pedí la cuenta. example.en: I already asked for the bill."
+    }
+  ],
+  "back": {
+    "es": "the bill, the check (at a restaurant); also account, count",
+    "example": "The bill, please."
+  },
+  "note": "The hint \"at a restaurant\" separates this card from the \"account\" card and rules out la factura, which is used for utility bills and invoices.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:04.223Z"
+}

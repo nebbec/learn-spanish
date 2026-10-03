@@ -1,0 +1,14 @@
+{
+  "id": "ella-she",
+  "unit": "me-and-you",
+  "want": "ella",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "09caef8c6a2b9d1b",
+  "group": "#72 ella",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:32.404Z"
+}

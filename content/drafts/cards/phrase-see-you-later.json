@@ -1,0 +1,21 @@
+{
+  "id": "phrase-see-you-later",
+  "rank": 188,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¡Hasta luego!",
+  "en": "See you later!",
+  "hint": "Literally \"until later\", not \"nos vemos\"",
+  "grammar": null,
+  "example": {
+    "es": "Gracias, Ana. ¡Hasta luego!",
+    "en": "Thanks, Ana. See you later!"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-see-you-later.word.mp3",
+    "sentence": "/deck/audio/phrase-see-you-later.sentence.mp3"
+  }
+}

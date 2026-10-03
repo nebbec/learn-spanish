@@ -1,0 +1,17 @@
+{
+  "id": "gustar-like",
+  "rank": 110,
+  "word": "gustar",
+  "draft": "d312f213e0a4acce",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to like (literally: to please, to be pleasing to someone)",
+    "example": "Me gusta mucho la pizza. = I like pizza a lot (literally: pizza pleases me a lot)."
+  },
+  "note": "The card is correct, but the editor could add a line saying that gustar works backwards (the thing liked is the subject, so it's \"me gusta\" or \"me gustan\"), because learners will rarely use the strip forms gusto and gustas to mean \"I like\" or \"you like\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:03:58.189Z"
+}

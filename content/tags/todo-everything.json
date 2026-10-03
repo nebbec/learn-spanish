@@ -1,0 +1,14 @@
+{
+  "id": "todo-everything",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "42fac2d9fb9791e8",
+  "group": "#30 todo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:01.267Z"
+}

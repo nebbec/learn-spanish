@@ -1,0 +1,17 @@
+{
+  "id": "phrase-are-you-from-mexico",
+  "unit": "who-i-am",
+  "want": null,
+  "requires": [
+    "ser-form-tu",
+    "de-from"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "a40d347bc1e74fc2",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:15.167Z"
+}

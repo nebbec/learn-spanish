@@ -1,0 +1,27 @@
+# tip-adjective-after · tip 5 of 14 · introduced by unit 6, What people are like
+# The brief from content/tips.json: Adjectives usually follow the noun (una casa grande) and take its gender and number (un amigo nuevo, una amiga nueva).
+# Drafted 2026-10-03T19:51:40.601Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-adjective-after --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Describing words come after and match
+
+In Spanish, a describing word usually comes after the thing it describes, so a big coffee is un café grande.
+It also matches that thing: use the -o ending for an el word and the -a ending for a la word, as in un amigo nuevo and una amiga nueva.
+When there is more than one, add -s to both words, as in dos amigos nuevos.
+Words that end in -e, like grande, are the same for el words and la words.
+So say the thing first, then make the describing word's ending match it.
+
+example: Quiero un café grande. | I want a big coffee.
+example: Mi hermana tiene una amiga nueva. | My sister has a new friend.
+example: Tengo dos hermanos pequeños. | I have two little brothers.

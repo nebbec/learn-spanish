@@ -1,0 +1,14 @@
+{
+  "id": "cafe-coffee",
+  "unit": "what-i-want-and-have",
+  "want": "café",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "89914e9528182b6f",
+  "group": "#532 café",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:14.243Z"
+}

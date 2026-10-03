@@ -1,0 +1,16 @@
+{
+  "id": "venir-form-yo",
+  "unit": "making-plans",
+  "want": "venir: I come (vengo)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "9b568150f66ce3a9",
+  "group": "forms venir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:06.025Z"
+}

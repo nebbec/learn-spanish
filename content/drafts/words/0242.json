@@ -1,0 +1,13 @@
+{
+  "rank": 242,
+  "word": "viejo",
+  "cards": [
+    "viejo-old",
+    "viejo-old-man"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:05.641Z"
+}

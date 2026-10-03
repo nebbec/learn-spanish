@@ -1,0 +1,23 @@
+{
+  "id": "grande-big",
+  "rank": 246,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "grande",
+  "en": "big",
+  "hint": null,
+  "grammar": {
+    "feminine": "grande"
+  },
+  "example": {
+    "es": "México es muy grande.",
+    "en": "Mexico is very big."
+  },
+  "spain": null,
+  "trick": "GRANDE sounds like grand: a grand piano is a really big piano.",
+  "image": "/deck/img/grande-big.webp",
+  "audio": {
+    "word": "/deck/audio/grande-big.word.mp3",
+    "sentence": "/deck/audio/grande-big.sentence.mp3"
+  }
+}

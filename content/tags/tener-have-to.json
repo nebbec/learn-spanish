@@ -1,0 +1,14 @@
+{
+  "id": "tener-have-to",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4faf61c81b458edd",
+  "group": "#13 tener",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:19.404Z"
+}

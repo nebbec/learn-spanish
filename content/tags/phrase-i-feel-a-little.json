@@ -1,0 +1,18 @@
+{
+  "id": "phrase-i-feel-a-little",
+  "unit": "how-i-feel",
+  "want": null,
+  "requires": [
+    "sentir-feel",
+    "poco-a-little",
+    "enfermo-sick"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "27d31a53a1fcef81",
+  "group": "phrases how-i-feel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:01.293Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cinco-five",
+  "rank": 335,
+  "kind": "content",
+  "pos": "other",
+  "es": "cinco",
+  "en": "five",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Llego en cinco minutos.",
+    "en": "I'll be there in five minutes."
+  },
+  "spain": null,
+  "trick": "CINCO sounds like sink-o: you wash five fingers in the sink.",
+  "image": "/deck/img/cinco-five.webp",
+  "audio": {
+    "word": "/deck/audio/cinco-five.word.mp3",
+    "sentence": "/deck/audio/cinco-five.sentence.mp3"
+  }
+}

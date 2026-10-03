@@ -1,0 +1,14 @@
+{
+  "id": "deber-must",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use deber for what you should or ought to do; tener que for what you are obliged to do.",
+  "draft": "ad31fa8a7b0ec604",
+  "group": "#50 deber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:48.355Z"
+}

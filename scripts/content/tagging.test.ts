@@ -17,6 +17,7 @@ import {
   tagProblems,
   tagPrompt,
   TagStore,
+  WHY_MAX,
   type Tag,
   type TagContext,
   type TagFile,
@@ -95,7 +96,7 @@ function world() {
 /** What the fake tagger answers for each card; anything not listed is in no unit and needs nothing. */
 const GOOD: Record<string, Partial<Tag>> = {
   "casa-house": { unit: "home", want: "casa", tip: "tip-el-la" },
-  "tener-form-yo": { unit: "home", want: "tener: I have (tengo)" },
+  "tener-form-yo": { unit: "home", want: "tener: I have (tengo)", why: "Use tengo for what you have." },
   "bueno-good": { unit: "later", want: "bueno" },
   // Claude's unit and want for a phrase card are replaced by the plan's.
   "phrase-my-house": { unit: "later", want: null },
@@ -111,7 +112,7 @@ const askedIds = (prompt: string) =>
     .map((line) => (JSON.parse(line) as DraftCard).id);
 
 const answer = (table: Record<string, Partial<Tag>>) => (request: DraftRequest) => ({
-  cards: askedIds(request.prompt).map((id) => ({ id, unit: null, want: null, requires: [], tip: null, ...table[id] })),
+  cards: askedIds(request.prompt).map((id) => ({ id, unit: null, want: null, requires: [], tip: null, why: null, ...table[id] })),
 });
 
 function fakeTagger(respond: (request: DraftRequest) => unknown = answer(GOOD)) {
@@ -171,10 +172,10 @@ describe("tag groups and the prompt", () => {
     expect(prompts[4]).toContain('The form cards of the verb "tener"');
   });
 
-  it("ask for unit, want, requires and tip per card, and say how to choose each", () => {
+  it("ask for unit, want, requires, tip and why per card, and say how to choose each", () => {
     const item = (TAG_SCHEMA.properties as { cards: { items: { required: string[] } } }).cards.items;
-    expect(item.required).toEqual(["id", "unit", "want", "requires", "tip"]);
-    for (const words of ["survival chunk", "requires nothing", "pronoun", "earliest unit", "at least its first"]) {
+    expect(item.required).toEqual(["id", "unit", "want", "requires", "tip", "why"]);
+    for (const words of ["survival chunk", "requires nothing", "pronoun", "earliest unit", "at least its first", "ser and estar", `under ${WHY_MAX} characters`]) {
       expect(TAG_SYSTEM_PROMPT).toContain(words);
     }
   });
@@ -206,7 +207,8 @@ describe("a tag run with the fake tagger", () => {
     expect(Object.keys(JSON.parse(readFileSync(store.file("casa-house"), "utf8")))).not.toContain("draftedAt");
     expect(store.read("phrase-my-house")).toMatchObject({ unit: "home", want: "phrase: mi casa = my house" });
     expect(store.read("phrase-good-house")).toMatchObject({ unit: "home", want: null, requires: ["bueno-good", "casa-house"] });
-    expect(store.read("de-of")).toMatchObject({ unit: null, want: null, requires: [], tip: null });
+    expect(store.read("de-of")).toMatchObject({ unit: null, want: null, requires: [], tip: null, why: null });
+    expect(store.read("tener-form-yo")).toMatchObject({ why: "Use tengo for what you have." });
 
     const usageLines = readFileSync(store.logFile, "utf8").trim().split("\n").map((l) => JSON.parse(l));
     expect(usageLines.map((l) => l.word ?? `${l.group} ${l.name}`)).toEqual(["de", "tener", "bueno", "casa", "form tener", "phrase home"]);
@@ -260,7 +262,7 @@ describe("a tag run with the fake tagger", () => {
 
 describe("the checks", () => {
   const guard = (ctx: TagContext, g: TagGroup, cards: unknown[]) => guardTags({ cards }, g, ctx);
-  const one = (id: string, tag: Partial<Record<keyof Tag, unknown>>) => ({ id, unit: null, want: null, requires: [], tip: null, ...tag });
+  const one = (id: string, tag: Partial<Record<keyof Tag, unknown>>) => ({ id, unit: null, want: null, requires: [], tip: null, why: null, ...tag });
 
   it("refuse an unknown or missing card, an unknown required id, a card requiring itself or one card twice", () => {
     const { groups, ctx } = world();
@@ -294,6 +296,22 @@ describe("the checks", () => {
     expect(fields({ unit: "later", want: "casa" })).toEqual(["want"]);
     expect(fields({ unit: null, want: "casa" })).toEqual(["want"]);
     expect(fields({ unit: " home ", want: "casa", tip: "" })).toEqual([]);
+  });
+
+  it("take a why line of one short line, a blank one as none, and refuse a long or broken one", () => {
+    const { groups, ctx } = world();
+    const casa = group(groups, "#90 casa");
+    const result = (tag: Partial<Record<keyof Tag, unknown>>) => guard(ctx, casa, [one("casa-house", tag)]);
+    const ok = result({ why: "  Use casa for the building you live in.  " });
+    expect(ok.ok && ok.cards[0].why).toBe("Use casa for the building you live in.");
+    const blank = result({ why: " " });
+    expect(blank.ok && blank.cards[0].why).toBeNull();
+    expect(result({ why: "x".repeat(WHY_MAX + 1) })).toMatchObject({ ok: false, fields: ["why"] });
+    expect(result({ why: "Two\nlines." })).toMatchObject({ ok: false, fields: ["why"] });
+    const ids = new Set(ctx.cards.map((c) => c.id));
+    // A tag stored before L9 has no why: it counts as none.
+    const old = { id: "casa-house", unit: null, want: null, requires: [], tip: null } as unknown as Tag;
+    expect(tagProblems(old, ids, ctx.units, ctx.tips)).toEqual([]);
   });
 
   it("name each problem with a stored tag by id, including a tag for a card no longer drafted, which a run deletes", async () => {

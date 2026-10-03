@@ -1,0 +1,14 @@
+{
+  "id": "trabajar-work",
+  "unit": "what-i-do",
+  "want": "trabajar",
+  "requires": [],
+  "tip": "tip-regular-endings",
+  "why": null,
+  "draft": "ac2fffeab972f8e2",
+  "group": "#168 trabajar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:58.429Z"
+}

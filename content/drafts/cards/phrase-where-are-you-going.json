@@ -1,0 +1,21 @@
+{
+  "id": "phrase-where-are-you-going",
+  "rank": 193,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿A dónde vas hoy?",
+  "en": "Where are you going today?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "¿A dónde vas hoy? —Voy al trabajo.",
+    "en": "Where are you going today? —I'm going to work."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-where-are-you-going.word.mp3",
+    "sentence": "/deck/audio/phrase-where-are-you-going.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "por-by",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f731e781fb615449",
+  "group": "#14 por",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:20.815Z"
+}

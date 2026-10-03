@@ -1,0 +1,16 @@
+{
+  "id": "querer-form-yo",
+  "unit": "what-i-want-and-have",
+  "want": "querer: I want (quiero)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": "tip-verb-endings",
+  "why": null,
+  "draft": "176a8a8f034eb7a0",
+  "group": "forms querer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:01.677Z"
+}

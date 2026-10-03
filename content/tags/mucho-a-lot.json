@@ -1,0 +1,14 @@
+{
+  "id": "mucho-a-lot",
+  "unit": "what-i-like",
+  "want": "mucho: a lot",
+  "requires": [],
+  "tip": null,
+  "why": "Use mucho after a verb for a lot; use muy before an adjective or adverb for very (muy bien).",
+  "draft": "1a34a0ee86a7d8b9",
+  "group": "#71 mucho",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:33.712Z"
+}

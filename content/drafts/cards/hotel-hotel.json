@@ -1,0 +1,24 @@
+{
+  "id": "hotel-hotel",
+  "rank": 623,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el hotel",
+  "en": "hotel",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El hotel está cerca de la playa.",
+    "en": "The hotel is near the beach."
+  },
+  "spain": null,
+  "trick": "HOTEL is spelled just like English, but the H is silent: say oh-TEL, like a happy oh when you see your room.",
+  "image": "/deck/img/hotel-hotel.webp",
+  "audio": {
+    "word": "/deck/audio/hotel-hotel.word.mp3",
+    "sentence": "/deck/audio/hotel-hotel.sentence.mp3"
+  }
+}

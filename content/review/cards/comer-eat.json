@@ -1,0 +1,17 @@
+{
+  "id": "comer-eat",
+  "rank": 218,
+  "word": "comer",
+  "draft": "9b841701603a3955",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "comer = to eat",
+    "example": "Did you already eat something today? / Have you eaten anything today?"
+  },
+  "note": "In Mexico and some other regions comer can also mean to have the main midday meal (lunch), which the editor might mention in a later note but which does not affect this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:41.890Z"
+}

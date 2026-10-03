@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 19,
+  "word": "poder",
+  "from": "poder-can",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:29.978Z",
+  "cards": [
+    "poder-form-yo",
+    "poder-form-tu",
+    "poder-form-el"
+  ]
+}

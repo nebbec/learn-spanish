@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 89,
+  "word": "what-people-say",
+  "unit": "what-people-say",
+  "order": 50,
+  "source": "payoff",
+  "line": "I think that's true.",
+  "words": [
+    {
+      "word": "creer",
+      "rank": 48
+    },
+    {
+      "word": "que",
+      "rank": 3
+    },
+    {
+      "word": "ser",
+      "rank": 4
+    },
+    {
+      "word": "verdad",
+      "rank": 89
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:39.545Z",
+  "cards": [
+    "phrase-i-think-thats-true"
+  ]
+}

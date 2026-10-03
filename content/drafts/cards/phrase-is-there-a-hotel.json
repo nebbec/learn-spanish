@@ -1,0 +1,21 @@
+{
+  "id": "phrase-is-there-a-hotel",
+  "rank": 623,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Hay un hotel cerca de aquí?",
+  "en": "Is there a hotel near here?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Disculpe, ¿hay un hotel cerca de aquí?",
+    "en": "Excuse me, is there a hotel near here?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-is-there-a-hotel.word.mp3",
+    "sentence": "/deck/audio/phrase-is-there-a-hotel.sentence.mp3"
+  }
+}

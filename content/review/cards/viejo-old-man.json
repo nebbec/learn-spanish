@@ -1,0 +1,17 @@
+{
+  "id": "viejo-old-man",
+  "rank": 242,
+  "word": "viejo",
+  "draft": "b5e9f5d48b3a0d06",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the old man (noun; also colloquially 'dad' or 'my old man' in Latin America)",
+    "example": "The old man lives alone in that house."
+  },
+  "note": "The hint \"everyday word\" rules out the more formal \"el anciano\"; the editor could also mention that \"viejo\" can sound blunt about strangers, and that in Latin America \"mi viejo\" often means \"my dad\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:11.640Z"
+}

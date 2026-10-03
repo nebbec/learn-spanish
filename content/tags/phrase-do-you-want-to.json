@@ -1,0 +1,18 @@
+{
+  "id": "phrase-do-you-want-to",
+  "unit": "making-plans",
+  "want": null,
+  "requires": [
+    "querer-form-tu",
+    "venir-come",
+    "conmigo-with-me"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "19fe754b35caeb56",
+  "group": "phrases making-plans",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:09.916Z"
+}

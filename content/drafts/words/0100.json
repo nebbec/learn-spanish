@@ -1,0 +1,13 @@
+{
+  "rank": 100,
+  "word": "mejor",
+  "cards": [
+    "mejor-better",
+    "mejor-best"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:31.792Z"
+}

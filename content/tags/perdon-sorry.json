@@ -1,0 +1,14 @@
+{
+  "id": "perdon-sorry",
+  "unit": "when-i-dont-understand",
+  "want": "perdón",
+  "requires": [],
+  "tip": null,
+  "why": "Use perdón for a quick sorry or to get past someone; lo siento for real regret or sympathy.",
+  "draft": "76437298351f0b6d",
+  "group": "#520 perdón",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:14.130Z"
+}

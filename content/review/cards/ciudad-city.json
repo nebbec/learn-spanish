@@ -1,0 +1,17 @@
+{
+  "id": "ciudad-city",
+  "rank": 294,
+  "word": "ciudad",
+  "draft": "dc367d14d4a4247b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la ciudad = the city (feminine noun)",
+    "example": "I live in a very big city."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:40.392Z"
+}

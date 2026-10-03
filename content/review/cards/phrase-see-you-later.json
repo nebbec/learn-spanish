@@ -1,0 +1,17 @@
+{
+  "id": "phrase-see-you-later",
+  "rank": 188,
+  "word": "people-i-love",
+  "draft": "9f9305462af3595f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "See you later! / Bye for now! (literally: until later)",
+    "example": "Thanks, Ana. See you later!"
+  },
+  "note": "The hint is needed because it rules out \"nos vemos\" and \"nos vemos luego\". \"¡Hasta más tarde!\" also literally means \"until later\", but it is much less common, so the hint still points clearly to \"¡Hasta luego!\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:07.769Z"
+}

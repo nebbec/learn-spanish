@@ -1,0 +1,28 @@
+{
+  "id": "comprar-buy",
+  "rank": 261,
+  "kind": "content",
+  "pos": "verb",
+  "es": "comprar",
+  "en": "to buy",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "compro",
+      "tu": "compras",
+      "el": "compra"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Compré pan para el desayuno.",
+    "en": "I bought bread for breakfast."
+  },
+  "spain": null,
+  "trick": "COMPRAR sounds like \"compare\": you compare prices before you buy.",
+  "image": "/deck/img/comprar-buy.webp",
+  "audio": {
+    "word": "/deck/audio/comprar-buy.word.mp3",
+    "sentence": "/deck/audio/comprar-buy.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comprar-buy",
+  "rank": 261,
+  "word": "comprar",
+  "draft": "18b047854d1726ab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to buy, to purchase",
+    "example": "I bought bread for breakfast."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:20.451Z"
+}

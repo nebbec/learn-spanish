@@ -1,0 +1,18 @@
+{
+  "id": "phrase-who-is-she",
+  "unit": "asking-questions",
+  "want": null,
+  "requires": [
+    "quien-who",
+    "ser-form-el",
+    "ella-she"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "b931f69de6ddc5ae",
+  "group": "phrases asking-questions",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:27.558Z"
+}

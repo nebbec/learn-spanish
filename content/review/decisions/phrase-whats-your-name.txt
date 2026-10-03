@@ -1,0 +1,29 @@
+# phrase-whats-your-name · rank 82 · who-i-am
+#
+# Why it was flagged:
+#   - One right answer: The hint 'informal' still allows '¿Cuál es tu nombre?', a correct and fairly common informal Latin American way to ask someone's name. Suggested fix: hint: informal; the everyday way, literally "how do you call yourself?"
+# Reviewer's note (not a reason to flag): The new hint matches the wording of this unit's "My name is..." card, so the two cards point to the same llamarse pattern.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-whats-your-name
+kind:       phrase
+pos:        phrase
+es:         ¿Cómo te llamas?
+en:         What's your name?
+hint:       informal
+example.es: Hola, ¿cómo te llamas? —Me llamo Ana.
+example.en: Hi, what's your name? —My name is Ana.
+spain:
+trick:      It literally means "how do you call yourself?", where cómo is "how" and te llamas is "you call yourself".
+
+# The draft this file was made from. Do not change it.
+draft: efcdb799ad690e2f

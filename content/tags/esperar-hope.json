@@ -1,0 +1,14 @@
+{
+  "id": "esperar-hope",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d694c69e84362d0b",
+  "group": "#73 esperar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:36.355Z"
+}

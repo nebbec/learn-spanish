@@ -1,0 +1,14 @@
+{
+  "id": "bueno-well-okay",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "799c4f5b722b36d6",
+  "group": "#39 bueno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:23.411Z"
+}

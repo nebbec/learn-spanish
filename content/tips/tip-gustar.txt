@@ -1,0 +1,26 @@
+# tip-gustar · tip 11 of 14 · introduced by unit 13, What I like
+# The brief from content/tips.json: Me gusta el café means the coffee pleases me. The thing liked is the subject, so it is me gusta for one thing and me gustan for several, and te gusta asks if you like it.
+# Drafted 2026-10-03T19:52:02.866Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-gustar --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Gustar works backwards
+
+Spanish says I like backwards: me gusta el café really means the coffee pleases me.
+The thing you like does the pleasing, so the verb matches that thing, not you.
+Say me gusta for one thing and me gustan for two or more things.
+To ask someone if they like something, swap me for te: ¿te gusta el café? means do you like coffee?
+
+example: Me gusta mucho el café. | I really like coffee.
+example: Me gustan los hoteles pequeños. | I like small hotels.
+example: ¿Te gusta la cerveza? | Do you like beer?

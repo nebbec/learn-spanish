@@ -1,0 +1,16 @@
+{
+  "id": "saber-form-yo",
+  "unit": "when-i-dont-understand",
+  "want": "saber: I know (sé)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "07cddffb88df21ef",
+  "group": "forms saber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:01.262Z"
+}

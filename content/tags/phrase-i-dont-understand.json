@@ -1,0 +1,14 @@
+{
+  "id": "phrase-i-dont-understand",
+  "unit": "when-i-dont-understand",
+  "want": "phrase: no entiendo = I don't understand",
+  "requires": [],
+  "tip": "tip-no-before-verb",
+  "why": null,
+  "draft": "d224d1707e5522c9",
+  "group": "phrases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:36.006Z"
+}

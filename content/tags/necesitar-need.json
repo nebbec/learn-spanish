@@ -1,0 +1,14 @@
+{
+  "id": "necesitar-need",
+  "unit": "can-you-help-me",
+  "want": "necesitar",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "debc34e5fd9a0efe",
+  "group": "#79 necesitar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:48.755Z"
+}

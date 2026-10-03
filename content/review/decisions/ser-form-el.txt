@@ -1,0 +1,33 @@
+# ser-form-el · rank 4 · ser
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Ella, mi, hermana. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids ser-form-el
+# Reviewer's note (not a reason to flag): The hint "identity, origin" is needed here because it rules out "está" (estar).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         ser-form-el
+kind:       form
+pos:        verb
+es:         es
+en:         he / she is
+hint:       identity, origin
+yo:         soy
+tu:         eres
+el:         es
+irregular:  yes
+example.es: Ella es mi hermana.
+example.en: She is my sister.
+spain:
+trick:      Es sounds just like the start of is: he es, she es.
+
+# The draft this file was made from. Do not change it.
+draft: a0870f1d905e143a

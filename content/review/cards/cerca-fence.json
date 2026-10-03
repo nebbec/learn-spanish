@@ -1,0 +1,23 @@
+{
+  "id": "cerca-fence",
+  "rank": 339,
+  "word": "cerca",
+  "draft": "fb43156b9cc11b17",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "For 'fence' around a yard or field, other common Latin American words are just as right (el cerco, la reja, la valla, el alambrado), and the hint does not rule them out.",
+      "fix": "hint: around a yard or field; the same word as 'near'"
+    }
+  ],
+  "back": {
+    "es": "la cerca: fence (a barrier around a piece of land), a feminine noun; the same spelling is also the adverb 'near'",
+    "example": "The dog jumped (over) the fence."
+  },
+  "note": "The word's rank 339 comes almost entirely from the adverb 'near', so the noun 'fence' is a much less frequent second meaning, and the editor may want to decide whether it deserves its own card this early.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:01.219Z"
+}

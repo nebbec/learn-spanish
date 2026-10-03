@@ -1,0 +1,27 @@
+# tip-questions · tip 6 of 14 · introduced by unit 7, Asking questions
+# The brief from content/tips.json: Questions open with ¿ and exclamations with ¡. A yes-or-no question can be a statement said with a rising voice: ¿Eres de México? Question words carry an accent: qué, dónde, cómo.
+# Drafted 2026-10-03T19:51:37.089Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-questions --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Questions and ¿ ¡
+
+In Spanish, a question opens with an upside-down ¿ and closes with ?, so you know from the start that it's a question.
+Exclamations work the same way, with ¡ at the start and ! at the end, as in ¡Hola!
+For a yes-or-no question, you can take a normal sentence and raise your voice at the end: eres de México means you are from Mexico, and ¿Eres de México? asks it.
+Question words always carry an accent mark, like qué, dónde and cómo.
+The accent doesn't change the sound much, but it marks the word as a question word, so keep it when you ask.
+
+example: ¿Eres de México? | Are you from Mexico?
+example: ¿Dónde está tu hermana? | Where is your sister?
+example: ¡Muy bien, gracias! | Very well, thanks!

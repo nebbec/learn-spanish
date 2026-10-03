@@ -1,0 +1,24 @@
+{
+  "id": "manana-morning",
+  "rank": 171,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la mañana",
+  "en": "morning",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tomo café todas las mañanas.",
+    "en": "I drink coffee every morning."
+  },
+  "spain": null,
+  "trick": "LA MAÑANA sounds like \"a man and a banana\": every morning a man eats a banana for breakfast.",
+  "image": "/deck/img/manana-morning.webp",
+  "audio": {
+    "word": "/deck/audio/manana-morning.word.mp3",
+    "sentence": "/deck/audio/manana-morning.sentence.mp3"
+  }
+}

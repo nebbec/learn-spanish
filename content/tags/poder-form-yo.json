@@ -1,0 +1,16 @@
+{
+  "id": "poder-form-yo",
+  "unit": "can-you-help-me",
+  "want": "poder: I can (puedo)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "91650a1ab074d1cd",
+  "group": "forms poder",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:56.650Z"
+}

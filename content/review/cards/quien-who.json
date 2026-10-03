@@ -1,0 +1,17 @@
+{
+  "id": "quien-who",
+  "rank": 91,
+  "word": "quién",
+  "draft": "3b207d6cdaf5e2e5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "who (interrogative pronoun, singular)",
+    "example": "Who is your new friend?"
+  },
+  "note": "The singular \"is\" rules out plural quiénes, and the \"question word\" hint correctly calls for the accented quién rather than relative quien.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:36:38.782Z"
+}

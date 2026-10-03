@@ -1,0 +1,21 @@
+{
+  "id": "phrase-how-do-you-say",
+  "rank": 67,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Cómo se dice…?",
+  "en": "How do you say…?",
+  "hint": "Asking about a word, with \"you\" meaning people in general",
+  "grammar": null,
+  "example": {
+    "es": "¿Cómo se dice \"thank you\" en español?",
+    "en": "How do you say \"thank you\" in Spanish?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-how-do-you-say.word.mp3",
+    "sentence": "/deck/audio/phrase-how-do-you-say.sentence.mp3"
+  }
+}

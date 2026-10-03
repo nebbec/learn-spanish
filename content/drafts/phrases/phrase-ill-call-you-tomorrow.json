@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 171,
+  "word": "people-i-love",
+  "unit": "people-i-love",
+  "order": 43,
+  "source": "payoff",
+  "line": "I'll call you tomorrow.",
+  "words": [
+    {
+      "word": "te",
+      "rank": 21
+    },
+    {
+      "word": "llamar",
+      "rank": 82
+    },
+    {
+      "word": "mañana",
+      "rank": 171
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:19.663Z",
+  "cards": [
+    "phrase-ill-call-you-tomorrow"
+  ]
+}

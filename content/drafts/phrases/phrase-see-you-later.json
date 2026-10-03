@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 188,
+  "word": "people-i-love",
+  "unit": "people-i-love",
+  "order": 41,
+  "source": "chunk",
+  "line": "phrase: hasta luego = see you later",
+  "words": [
+    {
+      "word": "hasta",
+      "rank": 130
+    },
+    {
+      "word": "luego",
+      "rank": 188
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:15.030Z",
+  "cards": [
+    "phrase-see-you-later"
+  ]
+}

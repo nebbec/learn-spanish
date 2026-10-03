@@ -1,0 +1,17 @@
+{
+  "id": "poco-a-little",
+  "rank": 127,
+  "word": "poco",
+  "draft": "262210237a20b8da",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "poco (adverb): little, not much; with un in front (un poco), a little, a bit",
+    "example": "I'm a little tired today."
+  },
+  "note": "The hint is needed: it rules out algo (algo cansado) and keeps this card separate from the \"few, not much\" card, though the editor might think about making es \"un poco\" so the learner memorizes the whole phrase.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:26.070Z"
+}

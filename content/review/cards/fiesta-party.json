@@ -1,0 +1,17 @@
+{
+  "id": "fiesta-party",
+  "rank": 349,
+  "word": "fiesta",
+  "draft": "e2718704d04aa37a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "party, celebration (also holiday, festival)",
+    "example": "Are you going to (go to) Ana's party?"
+  },
+  "note": "The hint is needed because it rules out el partido (political party), and regional slang such as rumba, carrete or reventón does not compete with the standard word fiesta.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:06.362Z"
+}

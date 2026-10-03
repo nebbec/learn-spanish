@@ -1,0 +1,14 @@
+{
+  "id": "phrase-how-do-you-say",
+  "unit": "what-people-say",
+  "want": "phrase: ¿cómo se dice…? = how do you say…?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3d5c24e3e94f3ed6",
+  "group": "phrases what-people-say",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:14.464Z"
+}

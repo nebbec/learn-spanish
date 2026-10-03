@@ -1,0 +1,21 @@
+{
+  "id": "phrase-who-is-she",
+  "rank": 91,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Quién es ella?",
+  "en": "Who is she?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Quién es ella? —Es mi hermana.",
+    "en": "Who is she? —She's my sister."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-who-is-she.word.mp3",
+    "sentence": "/deck/audio/phrase-who-is-she.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "decir-form-el",
+  "rank": 23,
+  "word": "decir",
+  "draft": "dcd7abba0b6be0e9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dice = he / she says (also usted says), third-person singular present of decir",
+    "example": "Ella dice que no. = She says no."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:52:20.796Z"
+}

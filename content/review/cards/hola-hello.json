@@ -2,16 +2,22 @@
   "id": "hola-hello",
   "rank": 88,
   "word": "hola",
-  "draft": "0b26bfe46ecbafde",
-  "flagged": false,
-  "findings": [],
+  "draft": "ee1fb6746d6b1b58",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The sentence is grammatical, but 'Yes, I insist' right after a greeting makes no sense on its own, and the stressed 'yo' sounds forced, so it is not a natural model of how hola is used.",
+      "fix": "example.es: ¡Hola, Ana! ¿Cómo estás? / example.en: Hello, Ana! How are you?"
+    }
+  ],
   "back": {
     "es": "hello, hi (greeting)",
-    "example": "Hi! How are you?"
+    "example": "Hi, Ana! Yes, I insist."
   },
-  "note": null,
+  "note": "pos 'other' fits an interjection, and no hint is needed because hola is the clear everyday answer for 'hello'.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:25:09.826Z"
+  "reviewedAt": "2026-10-03T20:36:35.192Z"
 }

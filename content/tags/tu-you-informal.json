@@ -1,0 +1,14 @@
+{
+  "id": "tu-you-informal",
+  "unit": "me-and-you",
+  "want": "tú",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7bc02047c8b8d31d",
+  "group": "#64 tú",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:18.533Z"
+}

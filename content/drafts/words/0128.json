@@ -1,0 +1,13 @@
+{
+  "rank": 128,
+  "word": "padre",
+  "cards": [
+    "padre-father",
+    "padre-parents"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:53.803Z"
+}

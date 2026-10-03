@@ -1,0 +1,27 @@
+# tip-regular-endings · tip 10 of 14 · introduced by unit 12, What I do
+# The brief from content/tips.json: Most verbs follow one of three patterns. Drop -ar, -er or -ir and add -o for I, -as / -es for you, -a / -e for he / she: hablo, hablas, habla; como, comes, come; vivo, vives, vive.
+# Drafted 2026-10-03T19:51:56.211Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-regular-endings --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Regular -ar, -er and -ir verbs
+
+Most Spanish verbs follow one of three patterns, depending on whether they end in -ar, -er or -ir.
+To use one, drop that ending and add a new one that shows who is doing it.
+For I, add -o: hablo means I speak, como means I eat, vivo means I live.
+For you, add -as to -ar verbs and -es to the others: hablas, comes, vives.
+For he or she, add -a to -ar verbs and -e to the others: habla, come, vive.
+
+example: Trabajo en un hotel. | I work in a hotel.
+example: ¿Dónde vives? | Where do you live?
+example: Mi madre come aquí. | My mother eats here.

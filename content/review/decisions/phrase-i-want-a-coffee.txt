@@ -1,0 +1,29 @@
+# phrase-i-want-a-coffee · rank 532 · what-i-want-and-have
+#
+# Why it was flagged:
+#   - Example sentence: The example is three separate utterances, not one short sentence, and thanking before getting the coffee is a little odd. Suggested fix: example.es: Buenos días, quiero un café, por favor. / example.en: Good morning, I want a coffee, please.
+# Reviewer's note (not a reason to flag): When ordering, Latin American speakers also often say "¿Me da un café, por favor?" (or "¿Me regala un café?" in Colombia), which could be a later card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-i-want-a-coffee
+kind:       phrase
+pos:        phrase
+es:         Quiero un café, por favor.
+en:         I want a coffee, please.
+hint:
+example.es: Buenos días. Quiero un café, por favor. ¡Gracias!
+example.en: Good morning. I want a coffee, please. Thanks!
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: a31ecfb67d286644

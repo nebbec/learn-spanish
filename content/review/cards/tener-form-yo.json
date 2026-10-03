@@ -1,0 +1,17 @@
+{
+  "id": "tener-form-yo",
+  "rank": 13,
+  "word": "tener",
+  "draft": "2bf939ea4ce79d15",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I have (yo form of tener, to have / own / possess)",
+    "example": "I have a hotel in Mexico."
+  },
+  "note": "The hint \"own, possess\" is needed because it rules out the auxiliary \"he\" (haber, as in \"I have eaten\"); the example is correct, though an everyday sentence like \"Tengo dos hermanos.\" would be more relatable for a beginner.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:21.013Z"
+}

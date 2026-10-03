@@ -2,16 +2,16 @@
   "id": "necesitar-need",
   "rank": 79,
   "word": "necesitar",
-  "draft": "54df000f9ea19b3a",
+  "draft": "debc34e5fd9a0efe",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "to need",
-    "example": "I need your help, please."
+    "example": "I need a coffee, please."
   },
   "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:24:28.789Z"
+  "reviewedAt": "2026-10-03T20:36:32.091Z"
 }

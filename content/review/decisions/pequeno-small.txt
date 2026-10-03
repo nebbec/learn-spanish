@@ -1,0 +1,30 @@
+# pequeno-small · rank 205 · pequeño
+#
+# Why it was flagged:
+#   - Example sentence: Said of a daughter, pequeña most naturally means young rather than physically small, so the example doesn't clearly show the size meaning the learner is memorizing. Suggested fix: example.es: Mi casa es muy pequeña. example.en: My house is very small.
+# Reviewer's note (not a reason to flag): In much of Latin America chico (and chiquito) also commonly means small, but pequeño is the standard answer a fluent speaker would give for "small", so no hint is strictly required.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         pequeno-small
+kind:       content
+pos:        adjective
+es:         pequeño
+en:         small
+hint:
+feminine:   pequeña
+example.es: Mi hija es muy pequeña.
+example.en: My daughter is very small.
+spain:
+trick:      PEQUEÑO sounds like peck-a-new: a tiny chick can only peck a new, small seed.
+
+# The draft this file was made from. Do not change it.
+draft: d5d600b30e492163

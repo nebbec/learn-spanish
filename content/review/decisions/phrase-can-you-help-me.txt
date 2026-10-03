@@ -1,0 +1,29 @@
+# phrase-can-you-help-me · rank 144 · can-you-help-me
+#
+# Why it was flagged:
+#   - Latin American usage: The card uses the usted register (puede), but the app's Spanish must be in the informal tú register, with usted taught only as a word card of its own. Suggested fix: es: ¿Me puedes ayudar, por favor? | hint: Informal (tú) | example.es: Perdón, ¿me puedes ayudar, por favor? No entiendo.
+# Reviewer's note (not a reason to flag): With the formal hint, ¿Me podría ayudar, por favor? would also be a natural answer; the tú version has the same issue with ¿Me podrías ayudar?, so the editor could think about accepting the conditional form or making the hint rule it out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-can-you-help-me
+kind:       phrase
+pos:        phrase
+es:         ¿Me puede ayudar, por favor?
+en:         Can you help me, please?
+hint:       Formal: polite, to a stranger (usted)
+example.es: Perdón, ¿me puede ayudar, por favor? No entiendo.
+example.en: Excuse me, can you help me, please? I don't understand.
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 70b5ca6c9914583b

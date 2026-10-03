@@ -1,0 +1,23 @@
+{
+  "id": "adios-goodbye",
+  "rank": 274,
+  "word": "adiós",
+  "draft": "ebfa3d384d29849a",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The sentence sounds unnatural: the stressed 'yo' in 'yo no insisto' has no reason to be there, and thanking someone and then saying you won't insist is not a normal way to say goodbye.",
+      "fix": "example.es: Ya me voy a casa. ¡Adiós, Ana! / example.en: I'm going home now. Goodbye, Ana!"
+    }
+  ],
+  "back": {
+    "es": "goodbye, bye (interjection)",
+    "example": "Thanks, I don't insist. Goodbye, Ana!"
+  },
+  "note": "The hint rules out chao, and hasta luego is a phrase, not a single word, so the hint is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:54.026Z"
+}

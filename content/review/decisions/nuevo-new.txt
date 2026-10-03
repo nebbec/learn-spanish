@@ -1,0 +1,30 @@
+# nuevo-new · rank 124 · nuevo
+#
+# Why it was flagged:
+#   - Memory trick: The respelling "new-EH-vo" gives the word three syllables and stresses the middle one, but nuevo has two syllables stressed on the first (NWEH-vo), so learners would memorize the wrong pronunciation. Suggested fix: trick: NUEVO sounds like "NWEH-vo" and even starts with the letters of "new".
+# Reviewer's note (not a reason to flag): Latin Americans often say "celular" for a mobile phone, but "teléfono" is natural and correct here.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         nuevo-new
+kind:       content
+pos:        adjective
+es:         nuevo
+en:         new
+hint:
+feminine:   nueva
+example.es: Tengo un teléfono nuevo.
+example.en: I have a new phone.
+spain:
+trick:      NUEVO sounds like "new-EH-vo": it even starts with "new".
+
+# The draft this file was made from. Do not change it.
+draft: bde910a37f1c4f58

@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 43,
+  "word": "how-and-where-i-am",
+  "unit": "how-and-where-i-am",
+  "order": 13,
+  "source": "payoff",
+  "line": "I'm here in Mexico.",
+  "words": [
+    {
+      "word": "estar",
+      "rank": 8
+    },
+    {
+      "word": "aquí",
+      "rank": 43
+    },
+    {
+      "word": "en",
+      "rank": 10
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:52.272Z",
+  "cards": [
+    "phrase-im-here-in-mexico"
+  ]
+}

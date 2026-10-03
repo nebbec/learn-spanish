@@ -1,0 +1,14 @@
+{
+  "id": "este-this",
+  "unit": "making-plans",
+  "want": "este / esta: this",
+  "requires": [],
+  "tip": null,
+  "why": "Use este right before a masculine noun (este libro); use esto alone for an unnamed thing or idea.",
+  "draft": "d139149ab6f7561a",
+  "group": "#29 este",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:58.902Z"
+}

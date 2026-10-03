@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 625,
+  "word": "who-i-am",
+  "unit": "who-i-am",
+  "order": 9,
+  "source": "payoff",
+  "line": "My name is Ana. Nice to meet you.",
+  "words": [
+    {
+      "word": "me",
+      "rank": 18
+    },
+    {
+      "word": "llamar",
+      "rank": 82
+    },
+    {
+      "word": "mucho",
+      "rank": 71
+    },
+    {
+      "word": "gusto",
+      "rank": 625
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:39.071Z",
+  "cards": [
+    "phrase-my-name-is-ana"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cuenta-bill",
+  "rank": 238,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cuenta",
+  "en": "bill",
+  "hint": "at a restaurant",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La cuenta, por favor.",
+    "en": "The check, please."
+  },
+  "spain": null,
+  "trick": "CUENTA sounds like count-a: the waiter counts up everything you ate on the bill.",
+  "image": "/deck/img/cuenta-bill.webp",
+  "audio": {
+    "word": "/deck/audio/cuenta-bill.word.mp3",
+    "sentence": "/deck/audio/cuenta-bill.sentence.mp3"
+  }
+}

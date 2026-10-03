@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-sorry",
+  "rank": 63,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Lo siento.",
+  "en": "I'm sorry.",
+  "hint": "apology or sympathy, not excuse me",
+  "grammar": null,
+  "example": {
+    "es": "Lo siento, no entiendo.",
+    "en": "I'm sorry, I don't understand."
+  },
+  "spain": null,
+  "trick": "Siento is like sentiment: lo siento literally means I feel it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-im-sorry.word.mp3",
+    "sentence": "/deck/audio/phrase-im-sorry.sentence.mp3"
+  }
+}

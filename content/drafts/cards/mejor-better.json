@@ -1,0 +1,23 @@
+{
+  "id": "mejor-better",
+  "rank": 100,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "mejor",
+  "en": "better",
+  "hint": null,
+  "grammar": {
+    "feminine": "mejor"
+  },
+  "example": {
+    "es": "Este café es mejor que el otro.",
+    "en": "This coffee is better than the other one."
+  },
+  "spain": null,
+  "trick": "MEJOR sounds like \"major\": a major upgrade makes everything better.",
+  "image": "/deck/img/mejor-better.webp",
+  "audio": {
+    "word": "/deck/audio/mejor-better.word.mp3",
+    "sentence": "/deck/audio/mejor-better.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "poder-form-yo",
+  "rank": 19,
+  "word": "poder",
+  "draft": "91650a1ab074d1cd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I can / I am able to (poder, yo form)",
+    "example": "I'm sorry, I can't understand you."
+  },
+  "note": "The hint \"am able to\" usefully rules out \"sé\" in the \"I know how to\" sense of \"I can\"; in the example, \"no te entiendo\" is the more everyday phrasing, but \"no te puedo entender\" is natural and shows the target form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:33.067Z"
+}

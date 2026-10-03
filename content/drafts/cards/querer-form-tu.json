@@ -1,0 +1,28 @@
+{
+  "id": "querer-form-tu",
+  "rank": 28,
+  "kind": "form",
+  "pos": "verb",
+  "es": "quieres",
+  "en": "you want",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "yo": "quiero",
+      "tu": "quieres",
+      "el": "quiere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Ana, ¿quieres un chocolate?",
+    "en": "Ana, do you want a chocolate?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/querer-want.webp",
+  "audio": {
+    "word": "/deck/audio/querer-form-tu.word.mp3",
+    "sentence": "/deck/audio/querer-form-tu.sentence.mp3"
+  }
+}

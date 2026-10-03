@@ -1,0 +1,23 @@
+{
+  "id": "poder-form-el",
+  "rank": 19,
+  "word": "poder",
+  "draft": "8d21a3bf5f3583e9",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "For a learned skill like speaking a language well, Spanish normally uses saber (sabe hablar) or just habla, so puede hablar inglés muy bien teaches the classic can = poder mistake.",
+      "fix": "example.es: Mi hermana puede venir a la fiesta mañana. / example.en: My sister can come to the party tomorrow."
+    }
+  ],
+  "back": {
+    "es": "he / she can (is able to); also usted can",
+    "example": "My sister can speak English very well."
+  },
+  "note": "The form puede also covers usted, which the prompt he / she leaves out on purpose, and that is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:42.829Z"
+}

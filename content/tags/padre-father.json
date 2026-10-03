@@ -1,0 +1,14 @@
+{
+  "id": "padre-father",
+  "unit": "my-people",
+  "want": "padre",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "be4ad8ce7525286a",
+  "group": "#128 padre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:38.670Z"
+}

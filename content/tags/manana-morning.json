@@ -1,0 +1,14 @@
+{
+  "id": "manana-morning",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "With la (la mañana) it means morning; on its own, mañana means tomorrow.",
+  "draft": "c39b06ab3f6e71d6",
+  "group": "#171 mañana",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:03.996Z"
+}

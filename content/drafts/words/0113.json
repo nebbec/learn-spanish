@@ -1,0 +1,12 @@
+{
+  "rank": 113,
+  "word": "amigo",
+  "cards": [
+    "amigo-friend"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:38.441Z"
+}

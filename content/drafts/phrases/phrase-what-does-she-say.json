@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 72,
+  "word": "what-people-say",
+  "unit": "what-people-say",
+  "order": 51,
+  "source": "payoff",
+  "line": "What does she say?",
+  "words": [
+    {
+      "word": "qué",
+      "rank": 16
+    },
+    {
+      "word": "decir",
+      "rank": 23
+    },
+    {
+      "word": "ella",
+      "rank": 72
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:44.468Z",
+  "cards": [
+    "phrase-what-does-she-say"
+  ]
+}

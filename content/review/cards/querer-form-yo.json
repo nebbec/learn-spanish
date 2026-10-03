@@ -1,0 +1,17 @@
+{
+  "id": "querer-form-yo",
+  "rank": 28,
+  "word": "querer",
+  "draft": "176a8a8f034eb7a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I want (querer, first person singular present)",
+    "example": "I want a chocolate, please."
+  },
+  "note": "The trick works well because query and querer both come from Latin quaerere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:49.750Z"
+}

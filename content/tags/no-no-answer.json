@@ -1,0 +1,14 @@
+{
+  "id": "no-no-answer",
+  "unit": "me-and-you",
+  "want": "no: no (the answer)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8433cf99417aaa56",
+  "group": "#5 no",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:03:57.041Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "decir-form-tu",
+  "rank": 23,
+  "kind": "form",
+  "pos": "verb",
+  "es": "dices",
+  "en": "you say",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "yo": "digo",
+      "tu": "dices",
+      "el": "dice"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Qué dices?",
+    "en": "What are you saying?"
+  },
+  "spain": null,
+  "trick": "Dices sounds like DEE-says: you says it, with an s for you.",
+  "image": "/deck/img/decir-say.webp",
+  "audio": {
+    "word": "/deck/audio/decir-form-tu.word.mp3",
+    "sentence": "/deck/audio/decir-form-tu.sentence.mp3"
+  }
+}

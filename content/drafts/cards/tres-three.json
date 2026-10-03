@@ -1,0 +1,21 @@
+{
+  "id": "tres-three",
+  "rank": 194,
+  "kind": "content",
+  "pos": "other",
+  "es": "tres",
+  "en": "three",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Tengo tres hermanos.",
+    "en": "I have three siblings."
+  },
+  "spain": null,
+  "trick": "TRES sounds like \"trace\": you trace a triangle with three sides.",
+  "image": "/deck/img/tres-three.webp",
+  "audio": {
+    "word": "/deck/audio/tres-three.word.mp3",
+    "sentence": "/deck/audio/tres-three.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cafe-coffee",
+  "rank": 532,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el café",
+  "en": "coffee",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Sí, quiero un café, por favor.",
+    "en": "Yes, I want a coffee, please."
+  },
+  "spain": null,
+  "trick": "CAFÉ sounds like the English café, where you go to drink coffee.",
+  "image": "/deck/img/cafe-coffee.webp",
+  "audio": {
+    "word": "/deck/audio/cafe-coffee.word.mp3",
+    "sentence": "/deck/audio/cafe-coffee.sentence.mp3"
+  }
+}

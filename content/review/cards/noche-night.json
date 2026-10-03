@@ -1,0 +1,17 @@
+{
+  "id": "noche-night",
+  "rank": 111,
+  "word": "noche",
+  "draft": "209d6832f7e35415",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "night (also evening)",
+    "example": "Last night I didn't sleep the whole night."
+  },
+  "note": "Putting anoche and toda la noche in the same example sounds a little redundant but is natural; a simpler option would be \"No dormí en toda la noche.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:03:58.138Z"
+}

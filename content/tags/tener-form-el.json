@@ -1,0 +1,16 @@
+{
+  "id": "tener-form-el",
+  "unit": "what-i-want-and-have",
+  "want": "tener: he / she has (tiene)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "5a0c26a05e5538c1",
+  "group": "forms tener",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:46.254Z"
+}

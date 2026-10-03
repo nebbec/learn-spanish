@@ -1,0 +1,14 @@
+{
+  "id": "palabra-word",
+  "unit": "what-people-say",
+  "want": "palabra",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "86e33f2e8d9d275b",
+  "group": "#290 palabra",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:48.170Z"
+}

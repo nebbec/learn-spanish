@@ -1,0 +1,19 @@
+{
+  "id": "phrase-she-is-my-sister",
+  "unit": "my-people",
+  "want": null,
+  "requires": [
+    "ella-she",
+    "ser-form-el",
+    "mi-my",
+    "hermano-sister"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "fb61e043e44fa036",
+  "group": "phrases my-people",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:21.774Z"
+}

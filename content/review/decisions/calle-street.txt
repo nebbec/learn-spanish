@@ -1,0 +1,30 @@
+# calle-street · rank 503 · calle
+#
+# Why it was flagged:
+#   - Memory trick: The respelling "kai-yay" teaches the wrong pronunciation: calle is said KAH-yeh, with a plain "ka" rather than "kai" and a short final e rather than "ay". Suggested fix: trick: CALLE sounds like "KAH-yeh": you yell "Ka-yeh!" to a friend across the street.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         calle-street
+kind:       content
+pos:        noun
+es:         la calle
+en:         street
+hint:
+gender:     f
+article:    la
+example.es: Mi casa está en esta calle.
+example.en: My house is on this street.
+spain:
+trick:      CALLE sounds like "kai-yay": you yell "Hey!" to a friend across the street.
+
+# The draft this file was made from. Do not change it.
+draft: 92c115cd078a5b3f

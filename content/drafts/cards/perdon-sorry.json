@@ -1,0 +1,21 @@
+{
+  "id": "perdon-sorry",
+  "rank": 520,
+  "kind": "content",
+  "pos": "other",
+  "es": "perdón",
+  "en": "sorry",
+  "hint": "one-word apology, not lo siento or disculpa",
+  "grammar": null,
+  "example": {
+    "es": "¡Perdón! No te vi.",
+    "en": "Sorry! I didn't see you."
+  },
+  "spain": null,
+  "trick": "PERDÓN sounds like pardon: you say pardon when you bump into someone.",
+  "image": "/deck/img/perdon-sorry.webp",
+  "audio": {
+    "word": "/deck/audio/perdon-sorry.word.mp3",
+    "sentence": "/deck/audio/perdon-sorry.sentence.mp3"
+  }
+}

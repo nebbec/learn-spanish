@@ -1,0 +1,21 @@
+{
+  "id": "lejos-far",
+  "rank": 470,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "lejos",
+  "en": "far away",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Mi casa está muy lejos de aquí.",
+    "en": "My house is very far from here."
+  },
+  "spain": null,
+  "trick": "LEJOS sounds like \"lay hose\": you lay a hose so long it reaches somewhere far away.",
+  "image": "/deck/img/lejos-far.webp",
+  "audio": {
+    "word": "/deck/audio/lejos-far.word.mp3",
+    "sentence": "/deck/audio/lejos-far.sentence.mp3"
+  }
+}

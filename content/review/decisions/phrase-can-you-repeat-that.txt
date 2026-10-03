@@ -1,0 +1,29 @@
+# phrase-can-you-repeat-that · rank 1006 · when-i-dont-understand
+#
+# Why it was flagged:
+#   - Words outside the top 1,000: The phrase uses repetir, not among the 1,000 most common words.
+# Reviewer's note (not a reason to flag): The hint "informal" correctly rules out usted's "¿Puede repetir?", and learners may say "¿Puedes repetirlo?", which is an equally natural answer worth accepting when they rate their own recall.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-can-you-repeat-that
+kind:       phrase
+pos:        phrase
+es:         ¿Puedes repetir?
+en:         Can you repeat that?
+hint:       informal
+example.es: No entiendo. ¿Puedes repetir, por favor?
+example.en: I don't understand. Can you repeat that, please?
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: b99b4f0a5126fe54

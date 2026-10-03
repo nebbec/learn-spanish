@@ -1,0 +1,14 @@
+{
+  "id": "dos-two",
+  "unit": "buying-things",
+  "want": "dos",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "72ecdd88deac83f8",
+  "group": "#98 dos",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:15.545Z"
+}

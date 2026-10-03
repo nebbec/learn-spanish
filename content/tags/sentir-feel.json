@@ -1,0 +1,14 @@
+{
+  "id": "sentir-feel",
+  "unit": "how-i-feel",
+  "want": "sentir: feel",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fb1e293b971040f6",
+  "group": "#63 sentir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:15.882Z"
+}

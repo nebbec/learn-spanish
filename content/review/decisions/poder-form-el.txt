@@ -1,0 +1,33 @@
+# poder-form-el · rank 19 · poder
+#
+# Why it was flagged:
+#   - Example sentence: For a learned skill like speaking a language well, Spanish normally uses saber (sabe hablar) or just habla, so puede hablar inglés muy bien teaches the classic can = poder mistake. Suggested fix: example.es: Mi hermana puede venir a la fiesta mañana. / example.en: My sister can come to the party tomorrow.
+# Reviewer's note (not a reason to flag): The form puede also covers usted, which the prompt he / she leaves out on purpose, and that is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         poder-form-el
+kind:       form
+pos:        verb
+es:         puede
+en:         he / she can
+hint:       is able to
+yo:         puedo
+tu:         puedes
+el:         puede
+irregular:  yes
+example.es: Mi hermana puede hablar inglés muy bien.
+example.en: My sister can speak English very well.
+spain:
+trick:      Puede sounds like pway-day, close to payday: on payday, he can buy anything.
+
+# The draft this file was made from. Do not change it.
+draft: 8d21a3bf5f3583e9

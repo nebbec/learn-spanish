@@ -1,0 +1,17 @@
+{
+  "id": "mejor-better",
+  "rank": 100,
+  "word": "mejor",
+  "draft": "b15c1e11c7970ff0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "better (comparative of good); as el/la mejor, the best",
+    "example": "This coffee is better than the other one."
+  },
+  "note": "Mejor is also the adverb \"better\" (canta mejor), so the same answer works for both senses and the plural mejores could be mentioned somewhere for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:03:45.814Z"
+}

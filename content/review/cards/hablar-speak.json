@@ -2,16 +2,16 @@
   "id": "hablar-speak",
   "rank": 60,
   "word": "hablar",
-  "draft": "2d1e8a56b4bf7226",
+  "draft": "e0b5acdb243d4879",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "to speak, to talk",
-    "example": "Do you speak English?"
+    "example": "My daughter talks a lot."
   },
-  "note": "Words like conversar or the Mexican platicar can also mean \"to talk\", but hablar is the clear default answer for \"to speak, to talk\", so no hint is needed.",
+  "note": "Conversar or platicar (in Mexico) could also mean \"to talk\", but hablar is the standard answer for \"to speak, to talk\", so the prompt has one clear answer.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:22:56.186Z"
+  "reviewedAt": "2026-10-03T20:36:08.584Z"
 }

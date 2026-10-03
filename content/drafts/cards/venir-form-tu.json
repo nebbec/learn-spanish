@@ -1,0 +1,28 @@
+{
+  "id": "venir-form-tu",
+  "rank": 68,
+  "kind": "form",
+  "pos": "verb",
+  "es": "vienes",
+  "en": "you come",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "yo": "vengo",
+      "tu": "vienes",
+      "el": "viene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Vienes a la fiesta?",
+    "en": "Are you coming to the party?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/venir-come.webp",
+  "audio": {
+    "word": "/deck/audio/venir-form-tu.word.mp3",
+    "sentence": "/deck/audio/venir-form-tu.sentence.mp3"
+  }
+}

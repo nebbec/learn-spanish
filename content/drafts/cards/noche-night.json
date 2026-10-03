@@ -1,0 +1,24 @@
+{
+  "id": "noche-night",
+  "rank": 111,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la noche",
+  "en": "night",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Anoche no dormí en toda la noche.",
+    "en": "Last night I didn't sleep all night."
+  },
+  "spain": null,
+  "trick": "NOCHE sounds like 'no show': at night the sun is a no-show.",
+  "image": "/deck/img/noche-night.webp",
+  "audio": {
+    "word": "/deck/audio/noche-night.word.mp3",
+    "sentence": "/deck/audio/noche-night.sentence.mp3"
+  }
+}

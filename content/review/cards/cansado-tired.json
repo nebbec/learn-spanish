@@ -1,0 +1,17 @@
+{
+  "id": "cansado-tired",
+  "rank": 736,
+  "word": "cansado",
+  "draft": "0dd49221922166d6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tired (adjective; also tiresome when used with ser)",
+    "example": "I'm tired, but happy."
+  },
+  "note": "With ser, cansado means tiresome (es cansado); the learner may meet that sense later, but tired with estar is the core meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:00.887Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-want-a-coffee",
+  "rank": 532,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Quiero un café, por favor.",
+  "en": "I want a coffee, please.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Buenos días. Quiero un café, por favor. ¡Gracias!",
+    "en": "Good morning. I want a coffee, please. Thanks!"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-want-a-coffee.word.mp3",
+    "sentence": "/deck/audio/phrase-i-want-a-coffee.sentence.mp3"
+  }
+}

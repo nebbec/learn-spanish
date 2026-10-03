@@ -1,0 +1,23 @@
+{
+  "id": "alli-there",
+  "rank": 178,
+  "word": "allí",
+  "draft": "7e3e39898d7807ac",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The card teaches allí as far from both of us, but the example pairs it with esa, the demonstrative for things near the listener (it goes with ahí), so the sentence contradicts the hint a learner has just memorized.",
+      "fix": "example.es: Mi abuela vive allí, en aquella casa azul. example.en: My grandma lives there, in that blue house over there."
+    }
+  ],
+  "back": {
+    "es": "there (at that place, away from both speaker and listener)",
+    "example": "My grandmother lives there, in that blue house."
+  },
+  "note": "In much of Latin America, allá is used more than allí in casual speech, but allí is still common and the hint correctly picks it out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:23.885Z"
+}

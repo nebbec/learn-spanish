@@ -1,0 +1,14 @@
+{
+  "id": "cuando-when-question",
+  "unit": "asking-questions",
+  "want": "cuándo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8bbbc2f997b83d73",
+  "group": "#350 cuándo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:04.171Z"
+}

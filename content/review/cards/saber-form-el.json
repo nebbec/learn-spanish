@@ -1,0 +1,17 @@
+{
+  "id": "saber-form-el",
+  "rank": 26,
+  "word": "saber",
+  "draft": "74671281cd9a2c29",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "he / she knows (also formal 'you know', usted sabe)",
+    "example": "My mother knows where the coffee is."
+  },
+  "note": "The hint is needed because it rules out conoce, and in everyday Latin American speech \"Mi mamá\" would sound a little more natural than \"Mi madre\", though \"Mi madre\" is still correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:49.929Z"
+}

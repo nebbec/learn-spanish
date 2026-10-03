@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-am-from-mexico",
+  "rank": 4,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Soy de México.",
+  "en": "I am from Mexico.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Hola, soy Ana y soy de México.",
+    "en": "Hi, I'm Ana and I'm from Mexico."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-am-from-mexico.word.mp3",
+    "sentence": "/deck/audio/phrase-i-am-from-mexico.sentence.mp3"
+  }
+}

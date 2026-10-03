@@ -1,0 +1,29 @@
+# phrase-do-you-speak-english · rank 907 · when-i-dont-understand
+#
+# Why it was flagged:
+#   - Example sentence: The example uses 'Lo siento' to get someone's attention before a question, but Spanish speakers say 'Perdón' or 'Disculpa' for that, and the unit's own 'I'm sorry' card says lo siento is not 'excuse me'. Suggested fix: example.es: Perdón, no entiendo. ¿Hablas inglés? / example.en: Sorry, I don't understand. Do you speak English?
+# Reviewer's note (not a reason to flag): The informal hint is needed because it rules out the usted form '¿Habla inglés?', which is common when talking to strangers.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-do-you-speak-english
+kind:       phrase
+pos:        phrase
+es:         ¿Hablas inglés?
+en:         Do you speak English?
+hint:       informal
+example.es: Lo siento, ¿hablas inglés? No entiendo.
+example.en: I'm sorry, do you speak English? I don't understand.
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 797c0e8a4785f3bf

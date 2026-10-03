@@ -2,15 +2,16 @@
   "id": "en-in",
   "rank": 10,
   "word": "en",
-  "draft": "b07182b1ded3efe6",
+  "draft": "150b96374c045a93",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "in, on, at (preposition); here: in (I live in Mexico = Vivo en México)",
-    "example": "The keys are in the box."
+    "es": "in (also on, at); preposition of location",
+    "example": "Ana is in Mexico, what about you?"
   },
+  "note": "No hint is needed because \"Vivo en México\" allows only en, and this \"in\" card doesn't overlap with the word's \"on\" and \"at\" cards.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:40:32.546Z"
+  "reviewedAt": "2026-10-03T20:35:30.717Z"
 }

@@ -1,0 +1,28 @@
+{
+  "id": "ir-form-tu",
+  "rank": 15,
+  "kind": "form",
+  "pos": "verb",
+  "es": "vas",
+  "en": "you go",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "yo": "voy",
+      "tu": "vas",
+      "el": "va"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Vas a la fiesta?",
+    "en": "Are you going to the party?"
+  },
+  "spain": null,
+  "trick": "Vas sounds like 'bus': you go by bus.",
+  "image": "/deck/img/ir-go.webp",
+  "audio": {
+    "word": "/deck/audio/ir-form-tu.word.mp3",
+    "sentence": "/deck/audio/ir-form-tu.sentence.mp3"
+  }
+}

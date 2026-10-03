@@ -1,0 +1,14 @@
+{
+  "id": "en-at",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use en for where someone or something is; use a for where someone is going.",
+  "draft": "9a54dbcb1a35eafc",
+  "group": "#10 en",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:12.677Z"
+}

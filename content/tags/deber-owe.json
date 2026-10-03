@@ -1,0 +1,14 @@
+{
+  "id": "deber-owe",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e89b9fc3c193a54b",
+  "group": "#50 deber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:48.355Z"
+}

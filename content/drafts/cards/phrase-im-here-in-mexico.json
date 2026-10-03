@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-here-in-mexico",
+  "rank": 43,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Estoy aquí en México.",
+  "en": "I'm here in Mexico.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Hola, Ana. Estoy muy bien, estoy aquí en México.",
+    "en": "Hi, Ana. I'm very well, I'm here in Mexico."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-im-here-in-mexico.word.mp3",
+    "sentence": "/deck/audio/phrase-im-here-in-mexico.sentence.mp3"
+  }
+}

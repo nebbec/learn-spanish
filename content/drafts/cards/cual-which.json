@@ -1,0 +1,21 @@
+{
+  "id": "cual-which",
+  "rank": 268,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "cuál",
+  "en": "[which] one do you want?",
+  "hint": "which one, standing alone (not qué)",
+  "grammar": null,
+  "example": {
+    "es": "¿Cuál es tu hermano?",
+    "en": "Which one is your brother?"
+  },
+  "spain": null,
+  "trick": "CUÁL sounds like quail: three quails in a row, which one do you want?",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cual-which.word.mp3",
+    "sentence": "/deck/audio/cual-which.sentence.mp3"
+  }
+}

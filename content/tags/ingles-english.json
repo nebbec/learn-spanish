@@ -1,0 +1,14 @@
+{
+  "id": "ingles-english",
+  "unit": "when-i-dont-understand",
+  "want": "inglés",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4d82ffeed8601695",
+  "group": "#907 inglés",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:30.137Z"
+}

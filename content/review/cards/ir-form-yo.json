@@ -1,0 +1,17 @@
+{
+  "id": "ir-form-yo",
+  "rank": 15,
+  "word": "ir",
+  "draft": "a451e78eb3cf50fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I go / I'm going (first person singular present of ir)",
+    "example": "I'm going to the store."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:51:45.877Z"
+}

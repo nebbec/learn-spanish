@@ -1,0 +1,13 @@
+{
+  "rank": 116,
+  "word": "hijo",
+  "cards": [
+    "hijo-son",
+    "hijo-daughter"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:44.397Z"
+}

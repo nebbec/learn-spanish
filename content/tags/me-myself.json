@@ -1,0 +1,14 @@
+{
+  "id": "me-myself",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "20c0cf475c4da20b",
+  "group": "#18 me",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:32.832Z"
+}

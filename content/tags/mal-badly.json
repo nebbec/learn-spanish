@@ -1,0 +1,14 @@
+{
+  "id": "mal-badly",
+  "unit": "how-and-where-i-am",
+  "want": "mal",
+  "requires": [],
+  "tip": null,
+  "why": "Use mal for how you are or how something is done (estoy mal); malo describes a noun (un día malo).",
+  "draft": "0f47cd82cd242682",
+  "group": "#204 mal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:17.717Z"
+}

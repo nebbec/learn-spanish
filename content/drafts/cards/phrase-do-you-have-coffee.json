@@ -1,0 +1,21 @@
+{
+  "id": "phrase-do-you-have-coffee",
+  "rank": 532,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Tienes café?",
+  "en": "Do you have coffee?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "Hola, ¿tienes café? Quiero un café, por favor.",
+    "en": "Hi, do you have coffee? I want a coffee, please."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-do-you-have-coffee.word.mp3",
+    "sentence": "/deck/audio/phrase-do-you-have-coffee.sentence.mp3"
+  }
+}

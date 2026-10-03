@@ -1,6 +1,7 @@
 // Drafts cards for a range of ranks of content/word-list.tsv with Claude.
 //
 //   npm run draft -- --from 1 --to 20 [--via cli|api] [--model claude-opus-5-5]
+//   npm run draft -- --ranks 91,102,532 [...]             words picked by rank, out of order
 //                    [--effort medium] [--concurrency 2] [--retries 2] [--redo]
 //   npm run draft -- --forms [--verbs ser,estar] [...]    the core verbs' form cards
 //   npm run draft -- --phrases [--units who-i-am] [...]   content/units.json's chunks and payoffs
@@ -44,6 +45,7 @@ const { values } = parseArgs({
   options: {
     from: { type: "string" },
     to: { type: "string" },
+    ranks: { type: "string" },
     via: { type: "string", default: "cli" },
     model: { type: "string", default: DEFAULT_MODEL },
     effort: { type: "string", default: "medium" },
@@ -70,12 +72,14 @@ const mode = values.forms ? "forms" : values.phrases ? "phrases" : values.exampl
 if ([values.forms, values.phrases, values.examples].filter(Boolean).length > 1) {
   fail("Give one of --forms, --phrases and --examples");
 }
+const list = (value: string | undefined) => value?.split(",").map((v) => v.trim()).filter(Boolean);
+const ranks = list(values.ranks)?.map(Number);
+if (ranks?.some((r) => !Number.isInteger(r) || r < 1)) fail("--ranks is a list of whole numbers: --ranks 91,102,532");
 const from = Number(values.from);
 const to = Number(values.to ?? values.from);
-if (mode === "words" && (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to < from)) {
-  fail("Give a range of ranks (--from 1 --to 20), or --forms, or --phrases, or --examples --ids a,b");
+if (mode === "words" && !ranks && (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to < from)) {
+  fail("Give a range of ranks (--from 1 --to 20) or a list (--ranks 91,102), or --forms, or --phrases, or --examples --ids a,b");
 }
-const list = (value: string | undefined) => value?.split(",").map((v) => v.trim()).filter(Boolean);
 if (values.via !== "cli" && values.via !== "api") fail('--via is "cli" or "api"');
 if (!EFFORTS.includes(values.effort as Effort)) fail(`--effort is one of ${EFFORTS.join(", ")}`);
 const effort = values.effort as Effort;
@@ -126,8 +130,9 @@ if (mode === "examples") {
   summary = await draftPhrases(jobs, wordRanks(wordList), options);
   noun = "Phrases";
 } else {
-  const entries = wordList.filter((e) => e.rank >= from && e.rank <= to);
-  console.log(`Drafting ranks ${from} to ${to} (${entries.length} ${entries.length === 1 ? "word" : "words"}) ${how}`);
+  const entries = wordList.filter((e) => (ranks ? ranks.includes(e.rank) : e.rank >= from && e.rank <= to));
+  const which = ranks ? `${ranks.length} listed ranks` : `ranks ${from} to ${to}`;
+  console.log(`Drafting ${which} (${entries.length} ${entries.length === 1 ? "word" : "words"}) ${how}`);
   summary = await draftWords(entries, options);
 }
 for (const line of formatSummary(summary, via, noun)) console.log(line);

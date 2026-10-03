@@ -1,0 +1,28 @@
+{
+  "id": "poder-form-el",
+  "rank": 19,
+  "kind": "form",
+  "pos": "verb",
+  "es": "puede",
+  "en": "he / she can",
+  "hint": "is able to",
+  "grammar": {
+    "present": {
+      "yo": "puedo",
+      "tu": "puedes",
+      "el": "puede"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mi hermana puede hablar inglés muy bien.",
+    "en": "My sister can speak English very well."
+  },
+  "spain": null,
+  "trick": "Puede sounds like pway-day, close to payday: on payday, he can buy anything.",
+  "image": "/deck/img/poder-can.webp",
+  "audio": {
+    "word": "/deck/audio/poder-form-el.word.mp3",
+    "sentence": "/deck/audio/poder-form-el.sentence.mp3"
+  }
+}

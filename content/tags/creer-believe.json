@@ -1,0 +1,14 @@
+{
+  "id": "creer-believe",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "057c38d92b2f19fc",
+  "group": "#48 creer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:44.810Z"
+}

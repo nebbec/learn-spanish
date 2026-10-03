@@ -1,0 +1,14 @@
+{
+  "id": "grande-big",
+  "unit": "what-people-are-like",
+  "want": "grande",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4e94f3dccfea7ba2",
+  "group": "#246 grande",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:38.415Z"
+}

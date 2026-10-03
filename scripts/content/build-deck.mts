@@ -7,13 +7,16 @@
 // the tips approved in content/tips/<id>.txt and holds back any card naming
 // another tip, or requiring a card not in the deck.
 //
-//   npm run deck [-- --size N] [-- --spacing N] [-- --allow-drop]
+//   npm run deck [-- --size N] [-- --spacing N] [-- --allow-drop] [-- --fresh]
 //
 // Refuses to write a deck the validator rejects, one whose order has a problem
 // (a cycle in requires, a unit card before what it requires), or one that lacks
 // an id the previous build had (--allow-drop permits that, and only before the
-// deck ships). Also rewrites content/review/flagged.md, and content/path.md,
-// the computed order for a person to read.
+// deck ships). --fresh chooses the deck from the top of the order alone, as if
+// no deck had been built, and so implies --allow-drop (L9: the first learning
+// path deck replaced the frequency-order one). Also rewrites
+// content/review/flagged.md, and content/path.md, the computed order for a
+// person to read.
 //
 // Checks every example against the words met before its card (L7, E1's lemma
 // list from content/.cache, downloaded once if missing) and lists by id the
@@ -43,6 +46,7 @@ const DECK_SIZE = 100;
 const { values } = parseArgs({
   options: {
     "allow-drop": { type: "boolean", default: false },
+    fresh: { type: "boolean", default: false },
     size: { type: "string", default: String(DECK_SIZE) },
     spacing: { type: "string", default: String(SIBLING_SPACING) },
     drafts: { type: "string", default: path.join(ROOT, "content", "drafts") },
@@ -68,7 +72,8 @@ const tipList = readTips(ROOT);
 const tips = tipsForDeck(new TipStore(values.tips), tipList);
 const plan = { units: readUnits(ROOT), tipList, tags: new TagStore(values.tags) };
 const build = buildDeck(drafts, reviews, readDeckFile(values.out), {
-  allowDrop: values["allow-drop"],
+  allowDrop: values["allow-drop"] || values.fresh,
+  fresh: values.fresh,
   takes,
   size,
   tips: tips.tips,

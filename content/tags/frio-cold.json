@@ -1,0 +1,14 @@
+{
+  "id": "frio-cold",
+  "unit": "how-i-feel",
+  "want": "frío",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "76f7f18540f435a7",
+  "group": "#629 frío",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:20.315Z"
+}

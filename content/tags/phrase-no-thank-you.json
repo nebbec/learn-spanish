@@ -1,0 +1,17 @@
+{
+  "id": "phrase-no-thank-you",
+  "unit": "me-and-you",
+  "want": null,
+  "requires": [
+    "no-no-answer",
+    "gracias-thank-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "69d17999e011b6c4",
+  "group": "phrases me-and-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:07.599Z"
+}

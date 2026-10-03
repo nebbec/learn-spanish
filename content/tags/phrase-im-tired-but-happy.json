@@ -1,0 +1,19 @@
+{
+  "id": "phrase-im-tired-but-happy",
+  "unit": "what-people-are-like",
+  "want": null,
+  "requires": [
+    "estar-form-yo",
+    "cansado-tired",
+    "pero-but",
+    "feliz-happy"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "261d12d518725cf5",
+  "group": "phrases what-people-are-like",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:27.132Z"
+}

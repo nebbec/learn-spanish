@@ -1,0 +1,17 @@
+{
+  "id": "dinero-money",
+  "rank": 164,
+  "word": "dinero",
+  "draft": "bfb57368d3f2a4bc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "money",
+    "example": "I don't have money for the movies."
+  },
+  "note": "Regional slang words such as plata (South America), lana (Mexico) and pisto (Central America) also mean money, but dinero is the neutral standard word, so the card is right as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:00.068Z"
+}

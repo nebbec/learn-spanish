@@ -1,0 +1,29 @@
+# alli-there · rank 178 · allí
+#
+# Why it was flagged:
+#   - Example sentence: The card teaches allí as far from both of us, but the example pairs it with esa, the demonstrative for things near the listener (it goes with ahí), so the sentence contradicts the hint a learner has just memorized. Suggested fix: example.es: Mi abuela vive allí, en aquella casa azul. example.en: My grandma lives there, in that blue house over there.
+# Reviewer's note (not a reason to flag): In much of Latin America, allá is used more than allí in casual speech, but allí is still common and the hint correctly picks it out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         alli-there
+kind:       content
+pos:        adverb
+es:         allí
+en:         there
+hint:       a specific place far from both of us, not ahí or allá
+example.es: Mi abuela vive allí, en esa casa azul.
+example.en: My grandma lives there, in that blue house.
+spain:
+trick:      ALLÍ sounds like "ally": your ally is waiting over there, far away.
+
+# The draft this file was made from. Do not change it.
+draft: 7e3e39898d7807ac

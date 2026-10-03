@@ -1,0 +1,14 @@
+{
+  "id": "beber-drink",
+  "unit": "what-i-like",
+  "want": "beber",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9640b2be9592a941",
+  "group": "#293 beber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:50.577Z"
+}

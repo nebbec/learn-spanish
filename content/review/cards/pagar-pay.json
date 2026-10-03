@@ -1,0 +1,17 @@
+{
+  "id": "pagar-pay",
+  "rank": 243,
+  "word": "pagar",
+  "draft": "2b17247a267c740f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to pay (for)",
+    "example": "I'm paying for dinner tonight. (literally: I pay the dinner tonight)"
+  },
+  "note": "The preterite pagué only adds a u to keep the hard g sound, which is a spelling change and not an irregularity, so irregular: false is correct; the example also shows that pagar takes a direct object with no \"por\" where English says \"pay for\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:16.436Z"
+}

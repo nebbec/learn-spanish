@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 28,
+  "word": "people-i-love",
+  "unit": "people-i-love",
+  "order": 42,
+  "source": "payoff",
+  "line": "I love you.",
+  "words": [
+    {
+      "word": "te",
+      "rank": 21
+    },
+    {
+      "word": "querer",
+      "rank": 28
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:14.277Z",
+  "cards": [
+    "phrase-i-love-you"
+  ]
+}

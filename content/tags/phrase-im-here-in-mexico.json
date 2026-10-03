@@ -1,0 +1,18 @@
+{
+  "id": "phrase-im-here-in-mexico",
+  "unit": "how-and-where-i-am",
+  "want": null,
+  "requires": [
+    "estar-form-yo",
+    "aqui-here",
+    "en-in"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "e2e2c923a3f437bc",
+  "group": "phrases how-and-where-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:14.429Z"
+}

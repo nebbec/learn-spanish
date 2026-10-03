@@ -2,16 +2,22 @@
   "id": "si-yes",
   "rank": 32,
   "word": "sí",
-  "draft": "9203014d8804e8ff",
-  "flagged": false,
-  "findings": [],
+  "draft": "1e2a18652c7cea07",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb.",
+      "fix": "example.es: ¿Quieres chocolate? ¡Sí, por favor! / example.en: Do you want chocolate? Yes, please!"
+    }
+  ],
   "back": {
     "es": "yes",
-    "example": "Yes, I want to go with you."
+    "example": "Chocolate? Yes, yes!"
   },
-  "note": "The written accent is what tells sí (yes) apart from si (if), so it may be worth pointing out to learners; the less common sí meaning \"oneself\" (para sí) has no card, which is fine at this level.",
+  "note": "The accent matters: sí means yes, but si without the accent means if, so the trick could point that out.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:20:09.640Z"
+  "reviewedAt": "2026-10-03T20:35:44.799Z"
 }

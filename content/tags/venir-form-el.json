@@ -1,0 +1,16 @@
+{
+  "id": "venir-form-el",
+  "unit": "making-plans",
+  "want": "venir: he / she comes (viene)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "c70f93109ff83896",
+  "group": "forms venir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:06.025Z"
+}

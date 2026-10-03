@@ -1,0 +1,27 @@
+# tip-el-la · tip 4 of 14 · introduced by unit 5, My people
+# The brief from content/tips.json: Every noun is masculine (el, un) or feminine (la, una), people and things alike. Learn the article with the word; -o is usually el and -a usually la.
+# Drafted 2026-10-03T19:51:28.530Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-el-la --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Every noun is el or la
+
+In Spanish, every noun (a word for a person or a thing) is either masculine or feminine.
+Masculine words use el for the and un for a, like el hermano and un amigo.
+Feminine words use la for the and una for a, like la hermana and una amiga.
+This is true for things too, so coffee is masculine: el café.
+Words ending in -o are usually el and words ending in -a are usually la, but not always, so learn el or la together with each new word.
+
+example: Tengo un hermano y una hermana. | I have a brother and a sister.
+example: La madre de Ana está aquí. | Ana's mother is here.
+example: Quiero un café, por favor. | I'd like a coffee, please.

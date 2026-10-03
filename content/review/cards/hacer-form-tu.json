@@ -1,0 +1,17 @@
+{
+  "id": "hacer-form-tu",
+  "rank": 17,
+  "word": "hacer",
+  "draft": "61b99682b56fe9a8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "you do / you make (tú, informal)",
+    "example": "What are you doing today?"
+  },
+  "note": "The informal hint is needed because it rules out usted, which takes hace, the form on the \"he / she does\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:52:01.919Z"
+}

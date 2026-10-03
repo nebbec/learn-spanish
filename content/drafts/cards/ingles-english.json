@@ -1,0 +1,23 @@
+{
+  "id": "ingles-english",
+  "rank": 907,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "inglés",
+  "en": "English",
+  "hint": null,
+  "grammar": {
+    "feminine": "inglesa"
+  },
+  "example": {
+    "es": "Mi amiga es inglesa, de Londres.",
+    "en": "My friend is English, from London."
+  },
+  "spain": null,
+  "trick": "INGLÉS sounds like \"English\" said quickly with a Spanish accent: in-GLÉS, in-GLISH.",
+  "image": "/deck/img/ingles-english.webp",
+  "audio": {
+    "word": "/deck/audio/ingles-english.word.mp3",
+    "sentence": "/deck/audio/ingles-english.sentence.mp3"
+  }
+}

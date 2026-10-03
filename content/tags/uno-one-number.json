@@ -1,0 +1,14 @@
+{
+  "id": "uno-one-number",
+  "unit": "buying-things",
+  "want": "uno",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e821d1f725897d7a",
+  "group": "#136 uno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:44.811Z"
+}

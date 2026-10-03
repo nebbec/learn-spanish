@@ -1,0 +1,28 @@
+{
+  "id": "comer-eat",
+  "rank": 218,
+  "kind": "content",
+  "pos": "verb",
+  "es": "comer",
+  "en": "to eat",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "como",
+      "tu": "comes",
+      "el": "come"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Ya comiste algo hoy?",
+    "en": "Have you eaten anything today?"
+  },
+  "spain": null,
+  "trick": "COMER sounds like \"come here\": Mom shouts \"come here\" when it's time to eat.",
+  "image": "/deck/img/comer-eat.webp",
+  "audio": {
+    "word": "/deck/audio/comer-eat.word.mp3",
+    "sentence": "/deck/audio/comer-eat.sentence.mp3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 532,
+  "word": "what-i-like",
+  "unit": "what-i-like",
+  "order": 37,
+  "source": "payoff",
+  "line": "I like coffee a lot.",
+  "words": [
+    {
+      "word": "me",
+      "rank": 18
+    },
+    {
+      "word": "gustar",
+      "rank": 110
+    },
+    {
+      "word": "mucho",
+      "rank": 71
+    },
+    {
+      "word": "el",
+      "rank": 1
+    },
+    {
+      "word": "café",
+      "rank": 532
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:01.294Z",
+  "cards": [
+    "phrase-i-like-coffee-a"
+  ]
+}

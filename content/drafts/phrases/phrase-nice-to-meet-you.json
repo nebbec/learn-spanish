@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 625,
+  "word": "who-i-am",
+  "unit": "who-i-am",
+  "order": 5,
+  "source": "chunk",
+  "line": "phrase: mucho gusto = nice to meet you",
+  "words": [
+    {
+      "word": "mucho",
+      "rank": 71
+    },
+    {
+      "word": "gusto",
+      "rank": 625
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:28.592Z",
+  "cards": [
+    "phrase-nice-to-meet-you"
+  ]
+}

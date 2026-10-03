@@ -1,0 +1,17 @@
+{
+  "id": "phrase-she-is-my-sister",
+  "rank": 167,
+  "word": "my-people",
+  "draft": "fb61e043e44fa036",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "She is my sister.",
+    "example": "She is my sister and he is my brother."
+  },
+  "note": "A learner might drop the subject and answer \"Es mi hermana.\", which is also correct, but \"Ella es mi hermana.\" is the natural way to introduce someone, so the card stands as written.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:43.673Z"
+}

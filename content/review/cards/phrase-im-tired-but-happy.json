@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-tired-but-happy",
+  "rank": 736,
+  "word": "what-people-are-like",
+  "draft": "261d12d518725cf5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I'm tired but happy (said by a man).",
+    "example": "How are you? —I'm tired but happy."
+  },
+  "note": "The hint correctly fixes the masculine form (cansado), and the version with a comma, \"Estoy cansado, pero feliz.\", should also be accepted as correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:48.855Z"
+}

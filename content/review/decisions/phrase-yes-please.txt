@@ -1,0 +1,29 @@
+# phrase-yes-please · rank 105 · me-and-you
+#
+# Why it was flagged:
+#   - Example sentence: The example sounds unnatural: the subject pronoun yo adds an emphasis nobody needs here, and insisting fits awkwardly with accepting an offer, so it is a poor model of how the phrase is really used. Suggested fix: example.es: Sí, por favor, quiero un café. / example.en: Yes, please, I want a coffee.
+# Reviewer's note (not a reason to flag): Spain also says Sí, por favor, so a null spain field is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         phrase-yes-please
+kind:       phrase
+pos:        phrase
+es:         Sí, por favor.
+en:         Yes, please.
+hint:
+example.es: Sí, por favor, yo insisto.
+example.en: Yes, please, I insist.
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: bccfc232a4bd927c

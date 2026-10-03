@@ -1,0 +1,17 @@
+{
+  "id": "cafe-coffee",
+  "rank": 532,
+  "word": "café",
+  "draft": "89914e9528182b6f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "coffee (also a café, coffee shop)",
+    "example": "Yes, I want a coffee, please."
+  },
+  "note": "Café also means a coffee shop, and in Mexico and parts of Central America it means the colour brown, so the editor may want to mention this in a later card or note.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:59.671Z"
+}

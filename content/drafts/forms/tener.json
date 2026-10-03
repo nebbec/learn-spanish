@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 13,
+  "word": "tener",
+  "from": "tener-have",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:22.897Z",
+  "cards": [
+    "tener-form-yo",
+    "tener-form-tu",
+    "tener-form-el"
+  ]
+}

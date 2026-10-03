@@ -1,0 +1,17 @@
+{
+  "id": "querer-form-tu",
+  "rank": 28,
+  "word": "querer",
+  "draft": "e780183417a75c15",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "you want (informal, tú form of querer)",
+    "example": "Ana, do you want a chocolate?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:54.038Z"
+}

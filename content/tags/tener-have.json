@@ -1,0 +1,14 @@
+{
+  "id": "tener-have",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tener for owning or having something; haber is only the helper verb in phrases like 'I have eaten'.",
+  "draft": "dc9364eb7ad6524f",
+  "group": "#13 tener",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:19.404Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "querer-love",
+  "unit": "people-i-love",
+  "want": "querer: love (te quiero)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9157777b83587e55",
+  "group": "#28 querer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:58.160Z"
+}

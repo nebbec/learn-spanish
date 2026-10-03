@@ -1,0 +1,27 @@
+# tip-two-to-be · tip 2 of 14 · introduced by unit 3, How and where I am
+# The brief from content/tips.json: Ser for what someone or something is (name, origin, job, what it's like); estar for how it is right now and where it is.
+# Drafted 2026-10-03T19:51:20.735Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-two-to-be --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Two verbs for "to be"
+
+Spanish has two verbs that both mean to be: ser and estar.
+Use ser (soy, eres, es) for what someone is: their name, where they're from, their job, what they're like.
+Use estar (estoy, estás, está) for how someone is right now and where they are.
+So soy de México tells people where you come from, but estoy bien tells them how you feel today.
+If it's about how you feel or where you are at the moment, reach for estar.
+
+example: Soy Ana y estoy muy bien. | I'm Ana and I'm very well.
+example: Él es de Chile y está aquí. | He's from Chile and he's here.
+example: Ella está en Lima. | She's in Lima.

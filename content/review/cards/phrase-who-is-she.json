@@ -1,0 +1,17 @@
+{
+  "id": "phrase-who-is-she",
+  "rank": 91,
+  "word": "asking-questions",
+  "draft": "b931f69de6ddc5ae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Who is she?",
+    "example": "Who is she? —She's my sister."
+  },
+  "note": "Speakers often drop the pronoun and just say \"¿Quién es?\", but keeping \"ella\" is natural and fits the English prompt, so the card's answer is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:57.335Z"
+}

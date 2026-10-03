@@ -1,0 +1,32 @@
+# hacer-form-el · rank 17 · hacer
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Ella, ejercicio, todos, días. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids hacer-form-el
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         hacer-form-el
+kind:       form
+pos:        verb
+es:         hace
+en:         he / she does
+hint:
+yo:         hago
+tu:         haces
+el:         hace
+irregular:  yes
+example.es: Ella hace ejercicio todos los días.
+example.en: She exercises every day.
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 27cd47105e0fe37d

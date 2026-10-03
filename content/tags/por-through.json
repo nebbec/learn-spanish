@@ -1,0 +1,14 @@
+{
+  "id": "por-through",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": "tip-por-para",
+  "why": "Use por for a route, the way you pass through; para for a destination or goal.",
+  "draft": "40ee2578c23d4cf3",
+  "group": "#14 por",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:20.815Z"
+}

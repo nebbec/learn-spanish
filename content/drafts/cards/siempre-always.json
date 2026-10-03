@@ -1,0 +1,21 @@
+{
+  "id": "siempre-always",
+  "rank": 129,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "siempre",
+  "en": "always",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Siempre llegas tarde a clase.",
+    "en": "You always arrive late to class."
+  },
+  "spain": null,
+  "trick": "SIEMPRE sounds like see 'em pray: whenever you visit Grandma, you always see 'em pray.",
+  "image": "/deck/img/siempre-always.webp",
+  "audio": {
+    "word": "/deck/audio/siempre-always.word.mp3",
+    "sentence": "/deck/audio/siempre-always.sentence.mp3"
+  }
+}

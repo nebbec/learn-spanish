@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-need-help",
+  "rank": 285,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Necesito ayuda.",
+  "en": "I need help.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Perdón, necesito ayuda. ¿Puedes ayudarme?",
+    "en": "Excuse me, I need help. Can you help me?"
+  },
+  "spain": null,
+  "trick": "Necesito sounds like necessity: something you need.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-need-help.word.mp3",
+    "sentence": "/deck/audio/phrase-i-need-help.sentence.mp3"
+  }
+}

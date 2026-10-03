@@ -1,0 +1,17 @@
+{
+  "id": "poco-few",
+  "rank": 127,
+  "word": "poco",
+  "draft": "581f95990e961ccc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "little, not much (plural pocos: few)",
+    "example": "I have few friends in this city."
+  },
+  "note": "The prompt \"few, not much\" sets this adjective apart from the other card's \"a little, a bit\" (un poco), so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:18.722Z"
+}

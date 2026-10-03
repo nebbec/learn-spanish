@@ -1,8 +1,7 @@
 # gracias-thank-you · rank 75 · gracias
 #
 # Why it was flagged:
-#   - Example sentence: The sentence has no conjugated verb, and the rules say the example must conjugate one. Suggested fix: example.es: Muchas gracias, me ayudaste mucho. example.en: Thank you very much, you helped me a lot.
-# Reviewer's note (not a reason to flag): Gracias also means "thanks", so the learner could accept either English prompt, but both still lead to the same single Spanish answer.
+#   - Example sentence: Turning something down and then saying 'I insist' don't fit together, and the explicit 'yo' in 'Yo insisto' sounds stilted. Suggested fix: example.es: Gracias por tu ayuda. / example.en: Thanks for your help.
 #
 # To decide, change "pending" on the decision line to:
 #   approve   the card goes into the deck as written below, with any corrections you make
@@ -12,7 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: approve
+decision: pending
 
 id:         gracias-thank-you
 kind:       content
@@ -20,10 +19,10 @@ pos:        other
 es:         gracias
 en:         thank you
 hint:
-example.es: Muchas gracias, me ayudaste mucho.
-example.en: Thank you very much, you helped me a lot.
+example.es: No, gracias. Yo insisto.
+example.en: No, thank you. I insist.
 spain:
 trick:      GRACIAS sounds like gracious: a gracious person always says thank you.
 
 # The draft this file was made from. Do not change it.
-draft: c21b2cf8e8dd66e3
+draft: d5aa2387200c4f75

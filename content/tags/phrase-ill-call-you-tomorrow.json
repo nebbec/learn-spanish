@@ -1,0 +1,18 @@
+{
+  "id": "phrase-ill-call-you-tomorrow",
+  "unit": "people-i-love",
+  "want": null,
+  "requires": [
+    "te-you",
+    "llamar-call",
+    "manana-tomorrow"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "5f198adc39864c01",
+  "group": "phrases people-i-love",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:04.205Z"
+}

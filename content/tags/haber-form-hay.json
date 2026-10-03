@@ -1,0 +1,14 @@
+{
+  "id": "haber-form-hay",
+  "unit": "out-and-about",
+  "want": "haber: there is (hay)",
+  "requires": [],
+  "tip": null,
+  "why": "Use hay to say something exists (there is a hotel); use está for where a particular thing is (the hotel is here).",
+  "draft": "c2435abe50ae2de0",
+  "group": "forms haber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:45.255Z"
+}

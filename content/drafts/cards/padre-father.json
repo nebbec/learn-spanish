@@ -1,0 +1,24 @@
+{
+  "id": "padre-father",
+  "rank": 128,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el padre",
+  "en": "father",
+  "hint": "not the informal dad",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi padre está en México.",
+    "en": "My father is in Mexico."
+  },
+  "spain": null,
+  "trick": "PADRE sounds like padded chair: father's padded armchair that nobody else may sit in.",
+  "image": "/deck/img/padre-father.webp",
+  "audio": {
+    "word": "/deck/audio/padre-father.word.mp3",
+    "sentence": "/deck/audio/padre-father.sentence.mp3"
+  }
+}

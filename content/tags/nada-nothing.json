@@ -1,0 +1,14 @@
+{
+  "id": "nada-nothing",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1328e04f22ee4158",
+  "group": "#66 nada",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:22.627Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ayuda-help",
+  "rank": 285,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la ayuda",
+  "en": "help",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Gracias por tu ayuda.",
+    "en": "Thanks for your help."
+  },
+  "spain": null,
+  "trick": "AYUDA sounds like \"I owe ya\": when someone gives you help, you say I owe ya.",
+  "image": "/deck/img/ayuda-help.webp",
+  "audio": {
+    "word": "/deck/audio/ayuda-help.word.mp3",
+    "sentence": "/deck/audio/ayuda-help.sentence.mp3"
+  }
+}

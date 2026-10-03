@@ -1,0 +1,17 @@
+{
+  "id": "hambre-hunger",
+  "rank": 711,
+  "word": "hambre",
+  "draft": "e8503e434a49fbc4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "hunger (feminine noun that takes el because of its stressed a-)",
+    "example": "I'm very hungry, shall we go eat?"
+  },
+  "note": "The example's \"mucha hambre\" is a good way to show that the word is feminine even though it takes el, and the editor might keep that point in mind for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:48.411Z"
+}

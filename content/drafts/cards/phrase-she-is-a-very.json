@@ -1,0 +1,21 @@
+{
+  "id": "phrase-she-is-a-very",
+  "rank": 113,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Ella es una muy buena amiga.",
+  "en": "She is a very good friend.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Ana? Sí, ella es una muy buena amiga.",
+    "en": "Ana? Yes, she's a very good friend."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-she-is-a-very.word.mp3",
+    "sentence": "/deck/audio/phrase-she-is-a-very.sentence.mp3"
+  }
+}

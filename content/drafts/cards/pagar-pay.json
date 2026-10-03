@@ -1,0 +1,28 @@
+{
+  "id": "pagar-pay",
+  "rank": 243,
+  "kind": "content",
+  "pos": "verb",
+  "es": "pagar",
+  "en": "to pay",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "pago",
+      "tu": "pagas",
+      "el": "paga"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Yo pago la cena esta noche.",
+    "en": "I'm paying for dinner tonight."
+  },
+  "spain": null,
+  "trick": "PAGAR sounds like \"pay a guard\": you pay the guard to let you in.",
+  "image": "/deck/img/pagar-pay.webp",
+  "audio": {
+    "word": "/deck/audio/pagar-pay.word.mp3",
+    "sentence": "/deck/audio/pagar-pay.sentence.mp3"
+  }
+}

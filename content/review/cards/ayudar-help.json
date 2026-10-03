@@ -1,0 +1,17 @@
+{
+  "id": "ayudar-help",
+  "rank": 144,
+  "word": "ayudar",
+  "draft": "34f2ab1431a791bc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to help, to assist",
+    "example": "My sister helps me a lot."
+  },
+  "note": "The trick works because \"dar\" really is Spanish for \"to give,\" so the hint reinforces another core word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:04.320Z"
+}

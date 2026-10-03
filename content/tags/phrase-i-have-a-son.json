@@ -1,0 +1,20 @@
+{
+  "id": "phrase-i-have-a-son",
+  "unit": "my-people",
+  "want": null,
+  "requires": [
+    "tener-form-yo",
+    "un-a",
+    "hijo-son",
+    "y-and",
+    "hijo-daughter"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "fcfbf913e4777245",
+  "group": "phrases my-people",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:21.774Z"
+}

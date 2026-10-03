@@ -1,0 +1,17 @@
+{
+  "id": "palabra-word",
+  "rank": 290,
+  "word": "palabra",
+  "draft": "86e33f2e8d9d275b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "word (the noun; also 'promise' in phrases like dar su palabra)",
+    "example": "I don't understand that word."
+  },
+  "note": "The trick is better than just a sound-alike: palabra and parable both come from the Latin parabola.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:36.240Z"
+}

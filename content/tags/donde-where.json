@@ -1,0 +1,14 @@
+{
+  "id": "donde-where",
+  "unit": "asking-questions",
+  "want": "dónde",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": null,
+  "draft": "836c2c84138d4047",
+  "group": "#102 dónde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:20.128Z"
+}

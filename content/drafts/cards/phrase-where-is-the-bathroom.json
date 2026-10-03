@@ -1,0 +1,21 @@
+{
+  "id": "phrase-where-is-the-bathroom",
+  "rank": 576,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Dónde está el baño?",
+  "en": "Where is the bathroom?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Disculpe, ¿dónde está el baño?",
+    "en": "Excuse me, where is the bathroom?"
+  },
+  "spain": "Spain also says ¿Dónde están los servicios? or ¿Dónde está el aseo?",
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-where-is-the-bathroom.word.mp3",
+    "sentence": "/deck/audio/phrase-where-is-the-bathroom.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-what-is-this",
+  "rank": 49,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Qué es esto?",
+  "en": "What is this?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Qué es esto? —Es un café.",
+    "en": "What is this? —It's a coffee."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-what-is-this.word.mp3",
+    "sentence": "/deck/audio/phrase-what-is-this.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "lejos-far",
+  "unit": "out-and-about",
+  "want": "lejos",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6d182020ecaaad11",
+  "group": "#470 lejos",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:07.505Z"
+}

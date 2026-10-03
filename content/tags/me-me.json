@@ -1,0 +1,14 @@
+{
+  "id": "me-me",
+  "unit": "can-you-help-me",
+  "want": "me: me (object)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0eaabfa987fd2f50",
+  "group": "#18 me",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:32.832Z"
+}

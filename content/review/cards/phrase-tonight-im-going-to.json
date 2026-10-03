@@ -1,0 +1,17 @@
+{
+  "id": "phrase-tonight-im-going-to",
+  "rank": 349,
+  "word": "making-plans",
+  "draft": "56d55f9052601749",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Tonight I'm going to a party.",
+    "example": "Tonight I'm going to a party. Are you coming with me?"
+  },
+  "note": "Learners may say \"Voy a una fiesta esta noche\" or \"Esta noche voy a ir a una fiesta\", which are also correct, so the self-rating should accept them, and \"hoy en la noche\" is a common Latin American alternative to \"esta noche\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:35.181Z"
+}

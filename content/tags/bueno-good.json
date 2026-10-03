@@ -1,0 +1,14 @@
+{
+  "id": "bueno-good",
+  "unit": "what-people-are-like",
+  "want": "bueno",
+  "requires": [],
+  "tip": "tip-adjective-after",
+  "why": "Use bueno to describe a person or thing (good); use bien for how you are or how something is done (well).",
+  "draft": "407c9120d0883aaa",
+  "group": "#39 bueno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:23.411Z"
+}

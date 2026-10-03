@@ -1,0 +1,14 @@
+{
+  "id": "que-that",
+  "unit": "what-people-say",
+  "want": "que: that (I think that…)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f04f7cb2e660f668",
+  "group": "#3 que",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:03:51.652Z"
+}

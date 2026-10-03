@@ -1,0 +1,28 @@
+{
+  "id": "estar-form-tu",
+  "rank": 8,
+  "kind": "form",
+  "pos": "verb",
+  "es": "estás",
+  "en": "you are",
+  "hint": "state, place, informal",
+  "grammar": {
+    "present": {
+      "yo": "estoy",
+      "tu": "estás",
+      "el": "está"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Cómo estás?",
+    "en": "How are you?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/estar-be-state.webp",
+  "audio": {
+    "word": "/deck/audio/estar-form-tu.word.mp3",
+    "sentence": "/deck/audio/estar-form-tu.sentence.mp3"
+  }
+}

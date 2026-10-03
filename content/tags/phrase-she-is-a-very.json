@@ -1,0 +1,21 @@
+{
+  "id": "phrase-she-is-a-very",
+  "unit": "what-people-are-like",
+  "want": null,
+  "requires": [
+    "ella-she",
+    "ser-form-el",
+    "un-a",
+    "muy-very",
+    "bueno-good",
+    "amigo-friend"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "6f8194d845e8781a",
+  "group": "phrases what-people-are-like",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:27.132Z"
+}

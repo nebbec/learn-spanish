@@ -1,0 +1,14 @@
+{
+  "id": "phrase-my-name-is",
+  "unit": "who-i-am",
+  "want": "phrase: me llamo = my name is",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "09016028b700a037",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:15.167Z"
+}

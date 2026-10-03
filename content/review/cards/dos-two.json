@@ -1,0 +1,17 @@
+{
+  "id": "dos-two",
+  "rank": 98,
+  "word": "dos",
+  "draft": "72ecdd88deac83f8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "two (the number 2)",
+    "example": "I have two brothers and a sister."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:03:40.001Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "venir-come",
+  "unit": "making-plans",
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a3a2a54c1607260b",
+  "group": "#68 venir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:25.828Z",
+  "edited": "L9 by hand: a payoff phrase of this unit requires it"
+}

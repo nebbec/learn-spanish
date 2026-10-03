@@ -1,0 +1,14 @@
+{
+  "id": "trabajo-work",
+  "unit": "where-im-going",
+  "want": "trabajo: work",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fdc5566207b91eb5",
+  "group": "#140 trabajo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:43.759Z"
+}

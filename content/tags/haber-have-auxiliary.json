@@ -1,0 +1,14 @@
+{
+  "id": "haber-have-auxiliary",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use haber only as the helper before a past form (he comido); use tener for owning or having something.",
+  "draft": "dad12beb61dc003c",
+  "group": "#12 haber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:14.648Z"
+}

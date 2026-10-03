@@ -1,0 +1,14 @@
+{
+  "id": "noche-night",
+  "unit": "making-plans",
+  "want": "noche",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "209d6832f7e35415",
+  "group": "#111 noche",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:23.277Z"
+}

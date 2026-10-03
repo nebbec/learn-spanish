@@ -1,0 +1,14 @@
+{
+  "id": "saber-know",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use saber for facts, information and how to do something; conocer for knowing people and places.",
+  "draft": "2b5f10da9494d68a",
+  "group": "#26 saber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:52.236Z"
+}

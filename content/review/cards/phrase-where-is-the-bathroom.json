@@ -1,0 +1,17 @@
+{
+  "id": "phrase-where-is-the-bathroom",
+  "rank": 576,
+  "word": "out-and-about",
+  "draft": "54b55c2684751080",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Where is the bathroom?",
+    "example": "Excuse me, where is the bathroom?"
+  },
+  "note": "The example's formal \"Disculpe\" fits talking to a stranger and matches the unit's \"Excuse me\" card, and \"el baño\" is understood in Spain too, so the spain field is right to say \"also\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:32.903Z"
+}

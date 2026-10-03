@@ -2,16 +2,16 @@
   "id": "bueno-good",
   "rank": 39,
   "word": "bueno",
-  "draft": "b99ec29df51842ec",
+  "draft": "407c9120d0883aaa",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "good (adjective)",
-    "example": "It's a very good movie."
+    "es": "good (adjective; feminine buena, shortened to buen before a masculine singular noun)",
+    "example": "The coffee here is very good."
   },
-  "note": "Consider mentioning elsewhere that bueno shortens to buen before a masculine singular noun (un buen día), though the card is not wrong without it.",
+  "note": "Bueno becomes buen before a masculine singular noun (un buen día), which the editor could mention in grammar, but the dictionary form bueno is correct as it stands.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:20:43.943Z"
+  "reviewedAt": "2026-10-03T20:35:57.275Z"
 }

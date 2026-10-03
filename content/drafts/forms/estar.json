@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 8,
+  "word": "estar",
+  "from": "estar-be-state",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:11.988Z",
+  "cards": [
+    "estar-form-yo",
+    "estar-form-tu",
+    "estar-form-el"
+  ]
+}

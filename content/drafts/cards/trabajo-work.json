@@ -1,0 +1,24 @@
+{
+  "id": "trabajo-work",
+  "rank": 140,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el trabajo",
+  "en": "work, job",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mañana tengo que ir al trabajo temprano.",
+    "en": "Tomorrow I have to go to work early."
+  },
+  "spain": null,
+  "trick": "TRABAJO sounds like \"trouble-ho\": a job is a bit of trouble you head off to every morning.",
+  "image": "/deck/img/trabajo-work.webp",
+  "audio": {
+    "word": "/deck/audio/trabajo-work.word.mp3",
+    "sentence": "/deck/audio/trabajo-work.sentence.mp3"
+  }
+}

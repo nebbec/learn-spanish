@@ -1,0 +1,23 @@
+{
+  "id": "mejor-best",
+  "rank": 100,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "mejor",
+  "en": "best",
+  "hint": "used with el or la",
+  "grammar": {
+    "feminine": "mejor"
+  },
+  "example": {
+    "es": "Eres mi mejor amigo.",
+    "en": "You're my best friend."
+  },
+  "spain": null,
+  "trick": "MEJOR sounds like \"major\": the major league is where the best players go.",
+  "image": "/deck/img/mejor-best.webp",
+  "audio": {
+    "word": "/deck/audio/mejor-best.word.mp3",
+    "sentence": "/deck/audio/mejor-best.sentence.mp3"
+  }
+}

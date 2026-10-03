@@ -1,0 +1,28 @@
+{
+  "id": "ir-form-yo",
+  "rank": 15,
+  "kind": "form",
+  "pos": "verb",
+  "es": "voy",
+  "en": "I go",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "voy",
+      "tu": "vas",
+      "el": "va"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Voy a la tienda.",
+    "en": "I'm going to the store."
+  },
+  "spain": null,
+  "trick": "Voy sounds like 'boy': the boy says 'I go!' as he runs out the door.",
+  "image": "/deck/img/ir-go.webp",
+  "audio": {
+    "word": "/deck/audio/ir-form-yo.word.mp3",
+    "sentence": "/deck/audio/ir-form-yo.sentence.mp3"
+  }
+}

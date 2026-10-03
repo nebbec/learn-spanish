@@ -1,0 +1,29 @@
+# mal-badly · rank 204 · mal
+#
+# Why it was flagged:
+#   - Example sentence: With estar, mal describes a state (usually unwell, ill or in a bad way), not how someone does something, so the sentence doesn't teach the meaning on the card, and the English 'doing very badly' is a loose and ambiguous translation. Suggested fix: example.es: Canto muy mal. / example.en: I sing very badly.
+# Reviewer's note (not a reason to flag): Malamente also means badly, but it is rare and informal, so mal is clearly the expected answer without a hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         mal-badly
+kind:       content
+pos:        adverb
+es:         mal
+en:         badly
+hint:
+example.es: Él está muy mal.
+example.en: He's doing very badly.
+spain:
+trick:      MAL as in malfunction: a machine that malfunctions is working badly.
+
+# The draft this file was made from. Do not change it.
+draft: 0f47cd82cd242682

@@ -1,0 +1,24 @@
+{
+  "id": "padre-parents",
+  "rank": 128,
+  "kind": "content",
+  "pos": "noun",
+  "es": "los padres",
+  "en": "parents",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "los"
+  },
+  "example": {
+    "es": "Mis padres viven en el campo.",
+    "en": "My parents live in the countryside."
+  },
+  "spain": null,
+  "trick": "PADRES sounds like padres plural: more than one father figure at home means both your parents.",
+  "image": "/deck/img/padre-parents.webp",
+  "audio": {
+    "word": "/deck/audio/padre-parents.word.mp3",
+    "sentence": "/deck/audio/padre-parents.sentence.mp3"
+  }
+}

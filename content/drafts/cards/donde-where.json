@@ -1,0 +1,21 @@
+{
+  "id": "donde-where",
+  "rank": 102,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "dónde",
+  "en": "[Where] is the bathroom?",
+  "hint": "question word, with accent",
+  "grammar": null,
+  "example": {
+    "es": "¿Dónde está mi hermano?",
+    "en": "Where is my brother?"
+  },
+  "spain": null,
+  "trick": "DÓNDE sounds like \"Don, they\": where did Don and they go?",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/donde-where.word.mp3",
+    "sentence": "/deck/audio/donde-where.sentence.mp3"
+  }
+}

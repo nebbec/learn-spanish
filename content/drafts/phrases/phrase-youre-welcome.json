@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 66,
+  "word": "who-i-am",
+  "unit": "who-i-am",
+  "order": 6,
+  "source": "chunk",
+  "line": "phrase: de nada = you're welcome",
+  "words": [
+    {
+      "word": "de",
+      "rank": 2
+    },
+    {
+      "word": "nada",
+      "rank": 66
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:26.641Z",
+  "cards": [
+    "phrase-youre-welcome"
+  ]
+}

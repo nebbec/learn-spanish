@@ -1,0 +1,14 @@
+{
+  "id": "pagar-pay",
+  "unit": "buying-things",
+  "want": "pagar",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2b17247a267c740f",
+  "group": "#243 pagar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:33.929Z"
+}

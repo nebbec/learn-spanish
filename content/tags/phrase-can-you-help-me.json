@@ -1,0 +1,19 @@
+{
+  "id": "phrase-can-you-help-me",
+  "unit": "can-you-help-me",
+  "want": null,
+  "requires": [
+    "me-me",
+    "poder-form-el",
+    "ayudar-help",
+    "phrase-please"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "70b5ca6c9914583b",
+  "group": "phrases can-you-help-me",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:35.241Z"
+}

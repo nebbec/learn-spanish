@@ -1,0 +1,26 @@
+# tip-no-pronoun · tip 1 of 14 · introduced by unit 2, Who I am
+# The brief from content/tips.json: The verb's ending already says who: soy means I am, eres you are. Yo and tú are added only for stress or contrast.
+# Drafted 2026-10-03T19:51:17.999Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-no-pronoun --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Spanish drops "I" and "you"
+
+In Spanish, the verb's ending already tells you who is doing it.
+Soy means I am and eres means you are, so you don't need a separate word for I or you.
+To say I'm from Chile, just say soy de Chile.
+Add yo (I) or tú (you) only when you want to stress the person or compare two people, as in English when you say I am, but you are.
+
+example: Soy de México. | I'm from Mexico.
+example: ¿Eres Ana? | Are you Ana?
+example: Yo soy Luis y tú eres Ana. | I'm Luis, and you're Ana.

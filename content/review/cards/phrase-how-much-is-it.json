@@ -1,0 +1,17 @@
+{
+  "id": "phrase-how-much-is-it",
+  "rank": 643,
+  "word": "buying-things",
+  "draft": "942146f768a06c9c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "How much does it cost? / How much is it?",
+    "example": "Excuse me, how much does the coffee cost?"
+  },
+  "note": "The hint is needed: it points to costar, which rules out ¿Cuánto es? and ¿Cuánto vale?, and \"one thing\" rules out the plural ¿Cuánto cuestan?",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:21.705Z"
+}

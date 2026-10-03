@@ -1,0 +1,28 @@
+{
+  "id": "querer-form-el",
+  "rank": 28,
+  "kind": "form",
+  "pos": "verb",
+  "es": "quiere",
+  "en": "he / she wants",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "quiero",
+      "tu": "quieres",
+      "el": "quiere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Ana quiere un chocolate.",
+    "en": "Ana wants a chocolate."
+  },
+  "spain": null,
+  "trick": null,
+  "image": "/deck/img/querer-want.webp",
+  "audio": {
+    "word": "/deck/audio/querer-form-el.word.mp3",
+    "sentence": "/deck/audio/querer-form-el.sentence.mp3"
+  }
+}

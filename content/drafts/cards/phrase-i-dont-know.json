@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-dont-know",
+  "rank": 26,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "No sé.",
+  "en": "I don't know.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Dónde está mi café? —No sé.",
+    "en": "Where's my coffee? —I don't know."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-dont-know.word.mp3",
+    "sentence": "/deck/audio/phrase-i-dont-know.sentence.mp3"
+  }
+}

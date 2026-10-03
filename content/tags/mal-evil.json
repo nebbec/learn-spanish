@@ -1,0 +1,14 @@
+{
+  "id": "mal-evil",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "09b5768990b519fe",
+  "group": "#204 mal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:17.717Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ingles-english",
+  "rank": 907,
+  "word": "inglés",
+  "draft": "4d82ffeed8601695",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "English (adjective: from England, or relating to the English language); feminine inglesa",
+    "example": "My friend (female) is English, from London."
+  },
+  "note": "Since this is the word's only card, the editor could mention in the grammar or example that the same word works as a noun for the language (el inglés, as in ¿Hablas inglés?), which is probably the most common use in subtitles; a learner who answers \"el inglés\" has still recalled the right word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:38:08.045Z"
+}

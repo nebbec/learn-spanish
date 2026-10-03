@@ -1,0 +1,27 @@
+# tip-going-to · tip 9 of 14 · introduced by unit 11, Where I'm going
+# The brief from content/tips.json: Ir a plus a verb in dictionary form talks about plans, like going to in English: voy a comer, ¿vas a venir?
+# Drafted 2026-10-03T19:51:53.605Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-going-to --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Going to: voy a…
+
+To talk about plans, Spanish uses ir a, just like going to in English.
+Take the right form of ir (voy, vas or va), add a, then add a second verb.
+That second verb stays in its basic form, the one ending in -ar, -er or -ir that you'd find in a dictionary, like hablar or entender.
+So voy a hablar means I'm going to speak, and ¿vas a venir? means are you going to come?
+Add hoy or mañana to say when your plan happens.
+
+example: Voy a hablar inglés. | I'm going to speak English.
+example: ¿Vas a estar en casa hoy? | Are you going to be home today?
+example: Mi amiga va a necesitar ayuda mañana. | My friend is going to need help tomorrow.

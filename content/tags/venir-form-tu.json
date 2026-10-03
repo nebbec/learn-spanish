@@ -1,0 +1,16 @@
+{
+  "id": "venir-form-tu",
+  "unit": "making-plans",
+  "want": "venir: you come (vienes)",
+  "requires": [
+    "tu-you-informal"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "9a0fe88e945ed260",
+  "group": "forms venir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:06.025Z"
+}

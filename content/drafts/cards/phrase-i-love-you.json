@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-love-you",
+  "rank": 28,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "Te quiero.",
+  "en": "I love you.",
+  "hint": "Everyday love for family, friends or partner, not the more intense te amo",
+  "grammar": null,
+  "example": {
+    "es": "Te quiero mucho, mi amor.",
+    "en": "I love you so much, my love."
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-i-love-you.word.mp3",
+    "sentence": "/deck/audio/phrase-i-love-you.sentence.mp3"
+  }
+}

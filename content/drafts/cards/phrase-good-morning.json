@@ -1,0 +1,21 @@
+{
+  "id": "phrase-good-morning",
+  "rank": 83,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¡Buenos días!",
+  "en": "Good morning!",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¡Buenos días! ¿Cómo estás?",
+    "en": "Good morning! How are you?"
+  },
+  "spain": null,
+  "trick": "Word for word it means good days, plural, the way you would wish someone a good day.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-good-morning.word.mp3",
+    "sentence": "/deck/audio/phrase-good-morning.sentence.mp3"
+  }
+}

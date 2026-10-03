@@ -1,0 +1,16 @@
+{
+  "id": "ser-form-yo",
+  "unit": "who-i-am",
+  "want": "ser: I am (soy)",
+  "requires": [
+    "yo-i"
+  ],
+  "tip": "tip-no-pronoun",
+  "why": "Use soy for who or what you are and where you're from; estoy for how or where you are right now.",
+  "draft": "bd112d411e20424c",
+  "group": "forms ser",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:09:39.050Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-love-you",
+  "unit": "people-i-love",
+  "want": null,
+  "requires": [
+    "te-you",
+    "querer-love"
+  ],
+  "tip": "tip-object-pronouns",
+  "why": null,
+  "draft": "ff3034f02c5d026b",
+  "group": "phrases people-i-love",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:11:04.205Z"
+}

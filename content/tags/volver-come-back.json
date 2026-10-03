@@ -1,0 +1,14 @@
+{
+  "id": "volver-come-back",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "525a8675f453df44",
+  "group": "#90 volver",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:12.520Z"
+}

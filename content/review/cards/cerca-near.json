@@ -1,0 +1,17 @@
+{
+  "id": "cerca-near",
+  "rank": 339,
+  "word": "cerca",
+  "draft": "b98f09df98cafe08",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "near, close (by) (adverb; cerca de = near to, close to)",
+    "example": "My house is close to here."
+  },
+  "note": "The hint \"adverb\" is useful because it rules out the adjective cercano for \"near\", and the trick fits because cerca comes from Latin circa, \"around\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:06:55.870Z"
+}

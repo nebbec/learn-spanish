@@ -2,16 +2,16 @@
   "id": "yo-i",
   "rank": 37,
   "word": "yo",
-  "draft": "45888c712cda488f",
+  "draft": "c113411e6fd04500",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "I (first-person singular subject pronoun)",
-    "example": "I don't know anything."
+    "example": "No, I insist."
   },
-  "note": "Spanish usually drops yo and says just \"estoy cansado\", so the app could tell learners that yo is mostly used for emphasis or contrast.",
+  "note": "Spanish usually drops yo, so \"I am tired\" is normally just \"estoy cansado\"; the example's emphatic \"yo insisto\" shows a good case for using it, and a short line in the app saying yo is mostly for emphasis or contrast could help learners.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:20:33.776Z"
+  "reviewedAt": "2026-10-03T20:35:51.570Z"
 }

@@ -1,0 +1,14 @@
+{
+  "id": "phrase-good-morning",
+  "unit": "how-and-where-i-am",
+  "want": "phrase: buenos días = good morning",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7f29ef24b1d4f8c1",
+  "group": "phrases how-and-where-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:14.429Z"
+}

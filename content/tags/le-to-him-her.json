@@ -1,0 +1,14 @@
+{
+  "id": "le-to-him-her",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use le for to him or to her (who receives something); lo or la for him, her or it as the direct object.",
+  "draft": "4080e2b33fa63f0b",
+  "group": "#40 le",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:24.854Z"
+}

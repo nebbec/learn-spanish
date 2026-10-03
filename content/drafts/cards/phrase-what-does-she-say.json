@@ -1,0 +1,21 @@
+{
+  "id": "phrase-what-does-she-say",
+  "rank": 72,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Qué dice ella?",
+  "en": "What does she say?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "No entiendo. ¿Qué dice ella?",
+    "en": "I don't understand. What does she say?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-what-does-she-say.word.mp3",
+    "sentence": "/deck/audio/phrase-what-does-she-say.sentence.mp3"
+  }
+}

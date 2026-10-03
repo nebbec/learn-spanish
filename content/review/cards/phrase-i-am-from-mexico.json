@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-am-from-mexico",
+  "rank": 4,
+  "word": "who-i-am",
+  "draft": "98113ef80254332e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I'm from Mexico.",
+    "example": "Hi, I'm Ana and I'm from Mexico."
+  },
+  "note": "\"Yo soy de México.\" is also correct, but the version without \"yo\" is the more natural answer, so learners should be fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:39:10.477Z"
+}

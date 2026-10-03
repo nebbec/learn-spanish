@@ -1,0 +1,33 @@
+# poder-form-tu · rank 19 · poder
+#
+# Why it was flagged:
+#   - Example sentence: When you ask someone to switch to English, Spanish speakers normally say "hablar en inglés"; "hablar inglés" asks whether they know the language, so it sounds odd next to "por favor" and teaches a pattern learners will misuse. Suggested fix: example.es: ¿Puedes hablar más despacio, por favor? / example.en: Can you speak more slowly, please?
+# Reviewer's note (not a reason to flag): The hint "are able to, informal" is right: "informal" rules out usted's form puede, and "are able to" separates this card from sabes.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         poder-form-tu
+kind:       form
+pos:        verb
+es:         puedes
+en:         you can
+hint:       are able to, informal
+yo:         puedo
+tu:         puedes
+el:         puede
+irregular:  yes
+example.es: ¿Puedes hablar inglés, por favor?
+example.en: Can you speak English, please?
+spain:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 83eb8b1a1955973c

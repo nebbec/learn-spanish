@@ -1,0 +1,14 @@
+{
+  "id": "mucho-many",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "66c1c372a664a27c",
+  "group": "#71 mucho",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:33.712Z"
+}

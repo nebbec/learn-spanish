@@ -1,0 +1,17 @@
+{
+  "id": "trabajar-work",
+  "rank": 168,
+  "word": "trabajar",
+  "draft": "ac2fffeab972f8e2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to work (to do a job, labor)",
+    "example": "My mom works in/at a hospital."
+  },
+  "note": "\"To work\" in the sense of a machine working would be funcionar, but the bare prompt clearly means doing a job, so trabajar is the answer and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:07.533Z"
+}

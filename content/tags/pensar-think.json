@@ -1,0 +1,14 @@
+{
+  "id": "pensar-think",
+  "unit": "what-people-say",
+  "want": "pensar",
+  "requires": [],
+  "tip": null,
+  "why": "Use pensar for the act of thinking or thinking about something; for a quick opinion (I think so), creer is more usual.",
+  "draft": "2576b7e132588155",
+  "group": "#74 pensar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:38.350Z"
+}

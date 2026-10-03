@@ -1,0 +1,17 @@
+{
+  "id": "conmigo-with-me",
+  "rank": 199,
+  "word": "conmigo",
+  "draft": "acc06b8303b52a71",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "conmigo = with me",
+    "example": "Do you want to go to the movies with me?"
+  },
+  "note": "The card could teach that \"con mí\" is never correct, since English speakers often make that mistake.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:28.722Z"
+}

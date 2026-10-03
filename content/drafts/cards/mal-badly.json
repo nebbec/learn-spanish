@@ -1,0 +1,21 @@
+{
+  "id": "mal-badly",
+  "rank": 204,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "mal",
+  "en": "badly",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Él está muy mal.",
+    "en": "He's doing very badly."
+  },
+  "spain": null,
+  "trick": "MAL as in malfunction: a machine that malfunctions is working badly.",
+  "image": "/deck/img/mal-badly.webp",
+  "audio": {
+    "word": "/deck/audio/mal-badly.word.mp3",
+    "sentence": "/deck/audio/mal-badly.sentence.mp3"
+  }
+}

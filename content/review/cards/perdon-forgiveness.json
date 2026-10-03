@@ -1,0 +1,17 @@
+{
+  "id": "perdon-forgiveness",
+  "rank": 520,
+  "word": "perdón",
+  "draft": "ae0360bcd7241e41",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "forgiveness, pardon (noun)",
+    "example": "I ask you for forgiveness for what happened yesterday."
+  },
+  "note": "The example's English could say \"for what happened yesterday\" to match \"lo de ayer\" more closely, but the current translation is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:31.391Z"
+}

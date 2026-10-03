@@ -8,8 +8,8 @@
   "hint": "origin",
   "grammar": null,
   "example": {
-    "es": "Soy de Colombia, ¿y tú?",
-    "en": "I'm from Colombia, and you?"
+    "es": "Hola, soy de Colombia.",
+    "en": "Hello, I'm from Colombia."
   },
   "spain": null,
   "trick": "DE sounds like day: you came FROM far away, a whole day's trip.",

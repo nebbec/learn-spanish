@@ -1,0 +1,14 @@
+{
+  "id": "poder-can",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5a10d7b3caece005",
+  "group": "#19 poder",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:04:33.112Z"
+}

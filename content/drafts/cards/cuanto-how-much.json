@@ -1,0 +1,21 @@
+{
+  "id": "cuanto-how-much",
+  "rank": 234,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "cuánto",
+  "en": "[how much] does it cost?",
+  "hint": "also how many: cuántos, cuántas",
+  "grammar": null,
+  "example": {
+    "es": "¿Cuánto café quieres?",
+    "en": "How much coffee do you want?"
+  },
+  "spain": null,
+  "trick": "CUÁNTO sounds like quantity: when you ask how much or how many, you want the quantity.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cuanto-how-much.word.mp3",
+    "sentence": "/deck/audio/cuanto-how-much.sentence.mp3"
+  }
+}

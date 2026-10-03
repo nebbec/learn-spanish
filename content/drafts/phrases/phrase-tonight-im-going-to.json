@@ -1,0 +1,43 @@
+{
+  "kind": "phrase",
+  "rank": 349,
+  "word": "making-plans",
+  "unit": "making-plans",
+  "order": 48,
+  "source": "payoff",
+  "line": "Tonight I'm going to a party.",
+  "words": [
+    {
+      "word": "este",
+      "rank": 29
+    },
+    {
+      "word": "noche",
+      "rank": 111
+    },
+    {
+      "word": "ir",
+      "rank": 15
+    },
+    {
+      "word": "a",
+      "rank": 7
+    },
+    {
+      "word": "un",
+      "rank": 6
+    },
+    {
+      "word": "fiesta",
+      "rank": 349
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:33.364Z",
+  "cards": [
+    "phrase-tonight-im-going-to"
+  ]
+}

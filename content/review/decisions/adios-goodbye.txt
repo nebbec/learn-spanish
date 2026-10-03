@@ -1,0 +1,29 @@
+# adios-goodbye · rank 274 · adiós
+#
+# Why it was flagged:
+#   - Example sentence: The sentence sounds unnatural: the stressed 'yo' in 'yo no insisto' has no reason to be there, and thanking someone and then saying you won't insist is not a normal way to say goodbye. Suggested fix: example.es: Ya me voy a casa. ¡Adiós, Ana! / example.en: I'm going home now. Goodbye, Ana!
+# Reviewer's note (not a reason to flag): The hint rules out chao, and hasta luego is a phrase, not a single word, so the hint is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         adios-goodbye
+kind:       content
+pos:        other
+es:         adiós
+en:         goodbye
+hint:       the standard word, not chao
+example.es: Gracias, yo no insisto. ¡Adiós, Ana!
+example.en: Thanks, I won't insist. Goodbye, Ana!
+spain:
+trick:      ADIÓS sounds like "a dose": take a dose of courage before saying goodbye.
+
+# The draft this file was made from. Do not change it.
+draft: ebfa3d384d29849a

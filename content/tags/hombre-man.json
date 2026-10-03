@@ -1,0 +1,14 @@
+{
+  "id": "hombre-man",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "634e3aa5b3e7543e",
+  "group": "#85 hombre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:59.499Z"
+}

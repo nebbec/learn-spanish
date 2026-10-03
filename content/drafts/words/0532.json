@@ -1,0 +1,12 @@
+{
+  "rank": 532,
+  "word": "café",
+  "cards": [
+    "cafe-coffee"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:53:18.317Z"
+}

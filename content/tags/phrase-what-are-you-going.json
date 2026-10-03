@@ -1,0 +1,19 @@
+{
+  "id": "phrase-what-are-you-going",
+  "unit": "what-i-do",
+  "want": null,
+  "requires": [
+    "que-what",
+    "ir-form-tu",
+    "a-to",
+    "manana-tomorrow"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "cbeeb09248db5b33",
+  "group": "phrases what-i-do",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:56.024Z"
+}

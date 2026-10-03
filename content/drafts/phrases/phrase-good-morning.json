@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 83,
+  "word": "how-and-where-i-am",
+  "unit": "how-and-where-i-am",
+  "order": 11,
+  "source": "chunk",
+  "line": "phrase: buenos días = good morning",
+  "words": [
+    {
+      "word": "bueno",
+      "rank": 39
+    },
+    {
+      "word": "día",
+      "rank": 83
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:50:45.238Z",
+  "cards": [
+    "phrase-good-morning"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "conmigo-with-me",
+  "rank": 199,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "conmigo",
+  "en": "come [with me]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Quieres ir al cine conmigo?",
+    "en": "Do you want to go to the movies with me?"
+  },
+  "spain": null,
+  "trick": "CONMIGO sounds like \"come amigo\": come, friend, stay with me.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/conmigo-with-me.word.mp3",
+    "sentence": "/deck/audio/conmigo-with-me.sentence.mp3"
+  }
+}

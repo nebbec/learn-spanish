@@ -1,0 +1,14 @@
+{
+  "id": "otro-other",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2c8f1d7b6efc5a4d",
+  "group": "#70 otro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:29.332Z"
+}

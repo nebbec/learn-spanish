@@ -1,0 +1,23 @@
+{
+  "id": "mal-badly",
+  "rank": 204,
+  "word": "mal",
+  "draft": "0f47cd82cd242682",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "With estar, mal describes a state (usually unwell, ill or in a bad way), not how someone does something, so the sentence doesn't teach the meaning on the card, and the English 'doing very badly' is a loose and ambiguous translation.",
+      "fix": "example.es: Canto muy mal. / example.en: I sing very badly."
+    }
+  ],
+  "back": {
+    "es": "mal (adverb) = badly, poorly; with estar: unwell, in a bad way",
+    "example": "He is very unwell / He's in a really bad way."
+  },
+  "note": "Malamente also means badly, but it is rare and informal, so mal is clearly the expected answer without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:37:23.920Z"
+}

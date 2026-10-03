@@ -1,0 +1,17 @@
+{
+  "id": "venir-form-el",
+  "rank": 68,
+  "word": "venir",
+  "draft": "c70f93109ff83896",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "viene = he / she comes (also usted comes); the third-person singular present of venir, to come",
+    "example": "My mom comes / is coming today."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T19:52:48.873Z"
+}

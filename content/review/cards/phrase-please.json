@@ -1,0 +1,17 @@
+{
+  "id": "phrase-please",
+  "rank": 105,
+  "word": "me-and-you",
+  "draft": "1730059e8df09351",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "please",
+    "example": "You decide, please."
+  },
+  "note": "\"Por favor\" also appears inside the unit's \"Yes, please.\" card, which is fine and builds on this one; a more everyday example such as \"Un café, por favor.\" could be considered, but the current one is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:39:04.996Z"
+}

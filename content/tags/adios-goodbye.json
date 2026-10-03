@@ -1,0 +1,14 @@
+{
+  "id": "adios-goodbye",
+  "unit": "me-and-you",
+  "want": "adiós",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ebfa3d384d29849a",
+  "group": "#274 adiós",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:45.152Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "phrase-can-you-repeat-that",
+  "rank": 1006,
+  "word": "when-i-dont-understand",
+  "draft": "b99b4f0a5126fe54",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses repetir, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "es": "Can you repeat? (informal, i.e. Can you say that again?)",
+    "example": "I don't understand. Can you repeat, please?"
+  },
+  "note": "The hint \"informal\" correctly rules out usted's \"¿Puede repetir?\", and learners may say \"¿Puedes repetirlo?\", which is an equally natural answer worth accepting when they rate their own recall.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:05:04.903Z"
+}

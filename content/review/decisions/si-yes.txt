@@ -1,0 +1,29 @@
+# si-yes · rank 32 · sí
+#
+# Why it was flagged:
+#   - Example sentence: The example sentence has no conjugated verb. Suggested fix: example.es: ¿Quieres chocolate? ¡Sí, por favor! / example.en: Do you want chocolate? Yes, please!
+# Reviewer's note (not a reason to flag): The accent matters: sí means yes, but si without the accent means if, so the trick could point that out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         si-yes
+kind:       content
+pos:        adverb
+es:         sí
+en:         yes
+hint:
+example.es: ¿Chocolate? ¡Sí, sí!
+example.en: Chocolate? Yes, yes!
+spain:
+trick:      SÍ sounds like see: when you see what someone means, you nod and say yes.
+
+# The draft this file was made from. Do not change it.
+draft: 1e2a18652c7cea07

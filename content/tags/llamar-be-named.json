@@ -1,0 +1,14 @@
+{
+  "id": "llamar-be-named",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "75ba94263951dc84",
+  "group": "#82 llamar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:06:56.458Z"
+}

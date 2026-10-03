@@ -1,0 +1,21 @@
+{
+  "id": "poco-a-little",
+  "rank": 127,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "poco",
+  "en": "a little, a bit",
+  "hint": "after un: un ___",
+  "grammar": null,
+  "example": {
+    "es": "Estoy un poco cansado hoy.",
+    "en": "I'm a little tired today."
+  },
+  "spain": null,
+  "trick": "Un POCO is a little poke: just a little bit, not a big push.",
+  "image": "/deck/img/poco-a-little.webp",
+  "audio": {
+    "word": "/deck/audio/poco-a-little.word.mp3",
+    "sentence": "/deck/audio/poco-a-little.sentence.mp3"
+  }
+}

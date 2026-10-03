@@ -181,7 +181,10 @@ export function pathMarkdown({ order, units, notes, matched }: PathText): string
   const entry = (card: Card, i: number) => {
     const hint = card.hint ? ` (${card.hint})` : "";
     const note = [capped.has(card.id) ? "dropped from its unit by the cap" : null, notes.get(card.id) ?? null].filter(Boolean);
-    return `${i + 1}. \`${card.id}\` · ${card.en}${hint} → ${card.es}${note.length ? ` · *${note.join("; ")}*` : ""}`;
+    const line = `${i + 1}. \`${card.id}\` · ${card.en}${hint} → ${card.es}${note.length ? ` · *${note.join("; ")}*` : ""}`;
+    // The tip and the contrast line (L9) are read here: the review pass never sees them.
+    const extra = [card.tip ? `   - Tip: \`${card.tip}\`` : null, card.why ? `   - Why: ${card.why}` : null].filter(Boolean);
+    return [line, ...extra].join("\n");
   };
   for (const [n, unit] of units.entries()) {
     lines.push("", `## Unit ${n + 1} · ${unit.title} (\`${unit.id}\`)`, "", `Now you can ${unit.goal}`, "");

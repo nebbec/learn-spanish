@@ -1,0 +1,17 @@
+{
+  "id": "triste-sad",
+  "rank": 781,
+  "word": "triste",
+  "draft": "db08ec67cadec2b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sad",
+    "example": "My sister is sad today."
+  },
+  "note": "The trick works: \"tristful\" is a real archaic English word for sad, and triste uses the same form for masculine and feminine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:07:52.868Z"
+}

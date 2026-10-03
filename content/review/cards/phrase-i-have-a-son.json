@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-have-a-son",
+  "rank": 116,
+  "word": "my-people",
+  "draft": "fcfbf913e4777245",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I have a son and a daughter.",
+    "example": "Do you have children? Yes, I have a son and a daughter."
+  },
+  "note": "Writing \"Yo tengo un hijo y una hija\" with the subject pronoun would also be correct, but leaving it out is the more natural default, so the answer stays as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:43.197Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "phrase-im-sorry",
+  "unit": "when-i-dont-understand",
+  "want": "phrase: lo siento = I'm sorry",
+  "requires": [],
+  "tip": null,
+  "why": "Use lo siento for a real apology or sympathy; perdón for a quick sorry or to get past someone.",
+  "draft": "f9fbb787c046ef8b",
+  "group": "phrases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:36.006Z"
+}

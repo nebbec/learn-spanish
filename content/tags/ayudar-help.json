@@ -1,0 +1,14 @@
+{
+  "id": "ayudar-help",
+  "unit": "can-you-help-me",
+  "want": "ayudar",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "34f2ab1431a791bc",
+  "group": "#144 ayudar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:07:49.159Z"
+}

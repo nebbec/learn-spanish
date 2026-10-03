@@ -1,0 +1,28 @@
+{
+  "id": "venir-form-el",
+  "rank": 68,
+  "kind": "form",
+  "pos": "verb",
+  "es": "viene",
+  "en": "he / she comes",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "vengo",
+      "tu": "vienes",
+      "el": "viene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mi mamá viene hoy.",
+    "en": "My mom is coming today."
+  },
+  "spain": null,
+  "trick": "Viene sounds like Vienna: he comes from Vienna.",
+  "image": "/deck/img/venir-come.webp",
+  "audio": {
+    "word": "/deck/audio/venir-form-el.word.mp3",
+    "sentence": "/deck/audio/venir-form-el.sentence.mp3"
+  }
+}

@@ -1,0 +1,27 @@
+# tip-tu-usted · tip 8 of 14 · introduced by unit 9, Can you help me?
+# The brief from content/tips.json: Tú is you for friends, family and people your age; usted is the polite you for strangers and older people. Usted takes the he / she form of the verb: ¿Puede ayudarme?
+# Drafted 2026-10-03T19:51:49.024Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-tu-usted --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Tú and usted
+
+Spanish has two ways to say you.
+Use tú with friends, family and people your age, and usted to be polite with strangers and older people.
+With usted, the verb takes the same form as for he or she, so you say puede, not puedes.
+¿Puedes ayudarme? asks a friend for help, and ¿Puede ayudarme? asks a stranger politely.
+If you're not sure which one to use, usted is the safe choice.
+
+example: Perdón, ¿puede ayudarme? | Excuse me, can you help me?
+example: Ana, ¿puedes ayudarme? | Ana, can you help me?
+example: Buenos días, ¿cómo está usted? | Good morning, how are you?

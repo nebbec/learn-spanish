@@ -1,0 +1,24 @@
+{
+  "id": "amigo-friend",
+  "rank": 113,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el amigo",
+  "en": "friend",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi amigo quiere un café.",
+    "en": "My friend wants a coffee."
+  },
+  "spain": null,
+  "trick": "AMIGO sounds like \"a meego\": a friend who always says \"me go too!\"",
+  "image": "/deck/img/amigo-friend.webp",
+  "audio": {
+    "word": "/deck/audio/amigo-friend.word.mp3",
+    "sentence": "/deck/audio/amigo-friend.sentence.mp3"
+  }
+}

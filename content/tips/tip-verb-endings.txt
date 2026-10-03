@@ -1,0 +1,27 @@
+# tip-verb-endings · tip 3 of 14 · introduced by unit 4, What I want and have
+# The brief from content/tips.json: Each verb has a form for I, you and he / she: quiero, quieres, quiere. The ending tells you who.
+# Drafted 2026-10-03T19:51:26.329Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-verb-endings --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Verbs change with who does them
+
+A Spanish verb changes its ending to show who is doing it.
+Quiero means I want, quieres means you want, and quiere means he or she wants.
+Tener works the same way: tengo is I have, tienes is you have, and tiene is he or she has.
+Most of the time, an ending in -o means I, an ending in -s means you, and an ending in -e means he or she.
+Listen for the ending, because it tells you who, even when nobody says yo, tú or ella.
+
+example: Quiero un café, por favor. | I want a coffee, please.
+example: Tienes mi café. | You have my coffee.
+example: Ella quiere un café y tiene mi café. | She wants a coffee and has my coffee.

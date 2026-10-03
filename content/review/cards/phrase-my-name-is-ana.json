@@ -1,0 +1,23 @@
+{
+  "id": "phrase-my-name-is-ana",
+  "rank": 625,
+  "word": "who-i-am",
+  "draft": "d621b0a29990659f",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, \"Mi nombre es Ana. Encantada.\" (or \"Me llamo Ana. Encantada.\") is just as correct for this prompt, but the unit's own sibling cards use hints to rule out exactly those alternatives.",
+      "fix": "hint: The everyday \"I call myself\" way, then the two-word phrase anyone can say, man or woman."
+    }
+  ],
+  "back": {
+    "es": "I call myself Ana (My name is Ana). Much pleasure (Nice to meet you).",
+    "example": "My name is Ana. Nice to meet you. Nice to meet you, Ana."
+  },
+  "note": "This card mostly combines the unit's \"My name is...\" and \"Nice to meet you.\" cards, and the spain field would be cleaner as just \"Me llamo Ana. Encantada.\" with the explanation moved out of it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T20:04:17.670Z"
+}

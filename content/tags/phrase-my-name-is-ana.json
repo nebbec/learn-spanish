@@ -1,0 +1,17 @@
+{
+  "id": "phrase-my-name-is-ana",
+  "unit": "who-i-am",
+  "want": null,
+  "requires": [
+    "phrase-my-name-is",
+    "phrase-nice-to-meet-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "d621b0a29990659f",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:15.167Z"
+}

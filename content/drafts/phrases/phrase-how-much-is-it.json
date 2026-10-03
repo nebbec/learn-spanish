@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 643,
+  "word": "buying-things",
+  "unit": "buying-things",
+  "order": 44,
+  "source": "chunk",
+  "line": "phrase: ¿cuánto cuesta? = how much is it?",
+  "words": [
+    {
+      "word": "cuánto",
+      "rank": 234
+    },
+    {
+      "word": "costar",
+      "rank": 643
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T19:52:21.458Z",
+  "cards": [
+    "phrase-how-much-is-it"
+  ]
+}

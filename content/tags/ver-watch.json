@@ -1,0 +1,14 @@
+{
+  "id": "ver-watch",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c678df5d1a5be4d2",
+  "group": "#35 ver",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:05:13.778Z"
+}

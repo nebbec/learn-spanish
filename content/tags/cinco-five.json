@@ -1,0 +1,14 @@
+{
+  "id": "cinco-five",
+  "unit": "buying-things",
+  "want": "cinco",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "140e30c891536230",
+  "group": "#335 cinco",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:08:58.434Z"
+}

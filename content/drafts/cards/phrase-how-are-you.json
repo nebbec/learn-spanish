@@ -1,0 +1,21 @@
+{
+  "id": "phrase-how-are-you",
+  "rank": 67,
+  "kind": "phrase",
+  "pos": "phrase",
+  "es": "¿Cómo estás?",
+  "en": "How are you?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "es": "¡Hola, Ana! ¿Cómo estás?",
+    "en": "Hi, Ana! How are you?"
+  },
+  "spain": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/phrase-how-are-you.word.mp3",
+    "sentence": "/deck/audio/phrase-how-are-you.sentence.mp3"
+  }
+}

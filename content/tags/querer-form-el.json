@@ -1,0 +1,16 @@
+{
+  "id": "querer-form-el",
+  "unit": "what-i-want-and-have",
+  "want": "querer: he / she wants (quiere)",
+  "requires": [
+    "el-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "43b89d564e2a178d",
+  "group": "forms querer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-03T20:10:01.677Z"
+}

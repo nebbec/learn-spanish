@@ -1,0 +1,28 @@
+{
+  "id": "beber-drink",
+  "rank": 293,
+  "kind": "content",
+  "pos": "verb",
+  "es": "beber",
+  "en": "to drink",
+  "hint": "the basic verb, not tomar",
+  "grammar": {
+    "present": {
+      "yo": "bebo",
+      "tu": "bebes",
+      "el": "bebe"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Bebo mucha agua cuando hace calor.",
+    "en": "I drink a lot of water when it's hot."
+  },
+  "spain": null,
+  "trick": "BEBER sounds like a baby's bib: babies wear a bib when they drink their milk.",
+  "image": "/deck/img/beber-drink.webp",
+  "audio": {
+    "word": "/deck/audio/beber-drink.word.mp3",
+    "sentence": "/deck/audio/beber-drink.sentence.mp3"
+  }
+}
