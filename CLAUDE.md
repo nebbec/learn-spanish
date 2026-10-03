@@ -38,6 +38,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `lib/queues/`: the Learn and Practice queues: which cards a session shows and in what order. Also the Practice options as URL parameters (`practiceHref`, `parsePracticeParams`).
 - `lib/progress/`: seen and memorized counts per part of speech, and the wheel's slice angles and fill radii. `components/Wheel.tsx` draws it.
 - `public/deck/`: `deck.json` plus its art (`img/`) and audio (`audio/`).
+- `scripts/content/`: the content pipeline, run by hand, not part of the app. `word-list.mjs` writes `content/word-list.tsv`, the ranked candidate words; its sources are downloaded into `content/.cache/` (ignored by git). The rules are in design.md under "Content pipeline".
 - `@/` is an import alias for the repo root.
 
 ## Rules for every ticket

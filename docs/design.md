@@ -359,6 +359,15 @@ A script run at build time, not part of the app.
 5. **Art and audio** generation for the approved cards.
 6. **In-app reports**: "Something's off" writes to `card_reports`, which feeds the next deck revision.
 
+Decided in E1 (script `scripts/content/word-list.mjs`, rules in `scripts/content/lemmatize.mjs`, hand corrections in `scripts/content/overrides.mjs`, output `content/word-list.tsv`):
+
+- **Frequency source**: the 2018 Spanish list from [FrequencyWords](https://github.com/hermitdave/FrequencyWords) by Hermit Dave, the 50,000 most frequent word forms with counts, made from the OpenSubtitles 2018 corpus on OPUS. **Licence: CC BY-SA 4.0** for the lists (the code is MIT). Anything derived from it, `content/word-list.tsv` included, needs attribution and the same licence; that is fine for Courtney's own use and is what step 1 says to re-check before anyone else gets access. The subtitles mix Latin American and Spain Spanish, so Spain-only words (vale, coger, enfadar) rank higher than in a Latin American corpus; the draft and review passes decide what to do with them.
+- **Lemmatizing** works on forms in isolation, with no tagger. The lemma and form pairs from Michal Měchura's [lemmatization-lists](https://github.com/michmech/lemmatization-lists) (**ODbL 1.0**) give each form its possible lemmas, and the `es_MX` Hunspell dictionary from [LibreOffice](https://github.com/LibreOffice/dictionaries) (RLA-ES, **GPL 3, LGPL 3 or MPL 1.1**) says which lemmas are real lower-case words. The rules, in order: an override; a form that is a lemma itself; a regular past participle goes to its verb (he perdido); a feminine or plural goes to its masculine singular (buena to bueno), shared with a verb when one is possible; a noun headword stays itself (casa, not casar); otherwise a form with several lemmas is shared in proportion to what each lemma gets from forms that are not shared (creo goes almost all to creer). An infinitive or imperative with pronouns attached (irme, déjame, dímelo) goes to its verb. A lemma the dictionary does not know (names, English, the lemma list's mistakes) is left out.
+- **Function words are kept as a learner meets them**: el takes la, los and las; un takes una, unos and unas; lo, le, me, te, se, nos, él, ella, ellos, esto and eso are words of their own, and del and al stay as words. Vosotros, os and vos are left out. Past participles used mostly as adjectives or nouns (cansado, comida) are words of their own, and some frequent forms are split by a fixed share (hecho: 70% hacer, 30% hecho); these are judgments, listed in `overrides.mjs`.
+- **The list** is a tab-separated file: comment lines starting `#` with the sources and licences, a header, then `rank`, `word`, `count` and `forms` for 1,200 words. `count` is the summed occurrences in the source; `forms` gives up to eight of the forms counted, most frequent first, so the draft pass can see what a word stands for (fue is shared between ser and ir). A rank is a word's, not a card's: E2 splits words into meanings, and two meanings of a word share its rank.
+- **Rerun** with `node scripts/content/word-list.mjs`, taking `--size N` (default 1,200), `--top N` (prints the first N words) and `--explain N` (prints how each of the N most frequent forms was counted, which is how the overrides were found). The three sources are downloaded once into `content/.cache/`, which git ignores, from URLs pinned to a commit, and checked against a SHA-256. The same sources give the same file.
+- **Not done**: ambiguous forms were reviewed by hand among the 2,500 most frequent forms only, so words near the bottom of the list are rougher. Interjections (oh, eh, ah, ay) and swearing (mierda, joder) are still in the list, for the draft or review pass to keep or reject.
+
 A full native-speaker review of all cards happens before the app is opened to anyone else.
 
 ## Stack
@@ -411,7 +420,7 @@ Each is settled by the ticket named (see [Tickets](#tickets)).
 - **Mascot animation format** (F3).
 - **Speech provider** (G1): decided by the listening test.
 - **Service worker library** (D1): settled, none. See [Stack](#stack).
-- **Word list source and lemmatizing method** (E1).
+- **Word list source and lemmatizing method** (E1): settled, OpenSubtitles through FrequencyWords, lemmatized with lemmatization-lists and a Hunspell dictionary. See [Content pipeline](#content-pipeline).
 - **Where media lives at 1,000 cards** (S1): static files in the repo are fine for the first slice (about 8 MB). At an estimated 75 MB, decide between the repo and Supabase Storage before producing the rest.
 
 ## Deferred
@@ -484,7 +493,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | D4 | Sign-in | D3 | | Todo |
 | D5 | Sync core | B1, B2 | | Done |
 | D6 | Sync wiring | D4, D5 | Two-device check | Todo |
-| E1 | Word list | A2 | | Todo |
+| E1 | Word list | A2 | | Done |
 | E2 | Draft pass | E1 | API key | Todo |
 | E3 | Review pass and deck build | E2 | | Todo |
 | E4 | First 100 cards | E3 | Flagged-card review | Todo |
@@ -640,6 +649,8 @@ Scripts only. Depends on A2 and nothing else in the app.
 **E1 Word list**
 - Build: choose the open subtitle-based frequency source and record its licence in [Content pipeline](#content-pipeline). A script that lemmatizes and ranks it into about 1,200 candidate words, leaving a margin for rejects.
 - Done when: the list file exists and the top 50 look right on a printed spot check.
+- Note (E1): `content/word-list.tsv` holds 1,200 words. The spot check printed the top 50: el, de, que, ser, no, un, a, estar, y, en, lo, haber, tener, por, ir, qué, hacer, me, poder, se, te, con, decir, para, mi, saber, su, querer, este, todo, pero, sí, si, bien, ver, eso, yo, tu, bueno, le, del, como, aquí, más, al, ese, solo, creer, esto, deber. These are the words that head any Spanish frequency list, with the spoken register showing (qué, sí, bien, aquí, bueno, tu and te rank higher than in written lists). Rebuilding from a fresh download gave a byte-identical file. `scripts/content/word-list.test.ts` covers each lemmatizing rule on a small made-up dictionary and checks the committed file's shape (1,200 distinct words, ranks in order, counts never rising).
+- Note (E1): for E2: read the list by skipping lines that start `#` and the header row; words are lower case and in dictionary form, nouns without their article. Draft in rank order. A word may need no card (an interjection, a Spain-only word, swearing) and the margin of 200 is there for that; the `forms` column shows what a word was counted from, which helps with words like fue or hecho whose counts are shared. Spain-only alternatives belong on the `spain` field, not a card of their own. The script prints only counts and words, never card text.
 
 **E2 Draft pass**
 - Build: a script that drafts cards for a range of ranks with Claude, validates each against A2, writes one file per card and can resume after a failure. Start from the prompt and output guard in `wedding-admin-app/lib/translateText.ts`.

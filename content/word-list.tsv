@@ -1,0 +1,1206 @@
+# The most common Spanish words in dictionary form, most common first.
+# Written by scripts/content/word-list.mjs; do not edit by hand.
+# count: occurrences in the OpenSubtitles 2018 Spanish frequency list (FrequencyWords, Hermit Dave, CC BY-SA 4.0),
+# summed over the forms listed. Lemmas from lemmatization-lists (Michal Mechura, ODbL 1.0); words checked
+# against the es_MX Hunspell dictionary (RLA-ES, GPL 3 / LGPL 3 / MPL 1.1). This file is CC BY-SA 4.0.
+rank	word	count	forms
+1	el	21727093	la el los las
+2	de	14459520	de
+3	que	14421005	que
+4	ser	13272154	es ser era soy son eres fue sea
+5	no	12379505	no
+6	un	9703467	un una unos unas
+7	a	9549646	a
+8	estar	7566706	está estoy estás estaba están estar estamos estado
+9	y	7128745	y
+10	en	6817324	en
+11	lo	6041793	lo
+12	haber	5203040	ha hay he has han había haber hemos
+13	tener	4662336	tengo tiene tienes tenemos tener tenía tienen tenido
+14	por	4454673	por
+15	ir	4437654	vamos voy va ir vas fue van iba
+16	qué	4166708	qué
+17	hacer	3938063	hacer hace haciendo hecho hacerlo hizo haces hice
+18	me	3927712	me
+19	poder	3602106	puedo puede puedes podría podemos pueden poder pueda
+20	se	3058120	se
+21	te	3034375	te
+22	con	3028045	con
+23	decir	2984774	decir dijo dice dije dicho digo dijiste dices
+24	para	2832100	para
+25	mi	2789002	mi mis
+26	saber	2647688	sé sabes sabe saber sabía sabemos saben saberlo
+27	su	2567599	su sus
+28	querer	2468543	quiero quieres quiere quería quieren queremos quieras quiera
+29	este	2428736	esta este estas estos éste ésta éstas éstos
+30	todo	2422481	todo todos todas toda
+31	pero	2370373	pero peros
+32	sí	2350514	sí
+33	si	2349172	si sis
+34	bien	2051444	bien bienes
+35	ver	2035572	ver visto veo ven ves vi verte vemos
+36	eso	2029720	eso
+37	yo	1915934	yo
+38	tu	1890423	tu tus
+39	bueno	1743380	bueno buena buen buenas buenos óptimo óptima
+40	le	1726612	le les
+41	del	1647872	del
+42	como	1630651	como
+43	aquí	1625090	aquí
+44	más	1606972	más mas
+45	al	1549489	al
+46	ese	1548394	ese esa esos esas ése ésa ésas ésos
+47	solo	1449150	sólo solo sola solos solas
+48	creer	1315421	creo crees cree creer creí creía creen creerlo
+49	esto	1297847	esto
+50	deber	1173543	debe debería debo debes deberías debemos deberíamos deben
+51	ya	1115265	ya
+52	ahora	1088174	ahora
+53	muy	1086248	muy
+54	dar	1070990	da dar dame dio dado darle dan das
+55	pasar	1065891	pasa pasó pasar pasado pasando pase paso pasará
+56	así	1050332	así
+57	algo	1039192	algo
+58	dejar	966310	dejar deja déjame dejó dejado deje dejé dejes
+59	vez	962983	vez veces
+60	hablar	946065	hablar hablando habla hablas hablo hablado hablamos hable
+61	él	931487	él
+62	cuando	931329	cuando
+63	sentir	906638	siento siente sentir sientes sentido siéntate sentí sentía
+64	tú	906053	tú
+65	nos	866968	nos
+66	nada	863844	nada
+67	cómo	862349	cómo
+68	venir	855495	venir viene venga venido vino ven vine vienen
+69	o	843972	o
+70	otro	837642	otra otro otros otras
+71	mucho	821044	mucho muchas muchos mucha
+72	ella	800671	ella
+73	esperar	792145	espera espero esperar esperando espere esperaba esperen esperamos
+74	pensar	792143	pensé pensar pensando piensa pienso piensas pensaba pensado
+75	gracias	779503	gracias
+76	señor	689640	señor señora señores señoras
+77	cosa	688351	cosas cosa
+78	porque	685059	porque
+79	necesitar	678346	necesito necesita necesitamos necesitas necesitan necesitaba necesitar necesite
+80	mirar	675654	mira mire mirando miren mirar mírame mires mirad
+81	nuestro	662921	nuestro nuestra nuestros nuestras
+82	llamar	652144	llama llamar llamado llamo llamó llamas llaman llamaré
+83	día	638134	día días
+84	usted	618844	usted
+85	hombre	611731	hombre hombres
+86	entonces	609938	entonces
+87	casa	604929	casa casas
+88	hola	601523	hola
+89	verdad	590977	verdad verdades
+90	volver	590110	volver vuelve vuelto vuelva volveré volvió vuelvo volverá
+91	quién	589497	quién quiénes
+92	alguno	585497	alguna algún algunos algunas alguno
+93	tiempo	583571	tiempo tiempos
+94	chico	577694	chica chicos chico chicas
+95	tan	573916	tan
+96	llevar	571907	lleva llevar llevo llevó llevas llevaré llevaba lleve
+97	encontrar	558217	encontrar encontrado encontré encontramos encuentra encontró encontraron encontraste
+98	dos	556427	dos
+99	nunca	549997	nunca
+100	mejor	545955	mejor mejores
+101	parecer	543834	parece parecía parecer pareces parecen pareció parezca parezco
+102	dónde	539643	dónde
+103	año	537457	años año
+104	oh	532776	oh
+105	favor	530966	favor favores
+106	poner	529343	poner puesto pone puso puse pon ponte ponga
+107	tomar	523926	tomar toma tomó tome tomado tomando tomé tomas
+108	salir	518195	salir sal salió sale salga salido saliendo saldrá
+109	mí	515655	mí
+110	gustar	513814	gusta gustaría gustan gustaba gustó guste gustas gustado
+111	noche	500670	noche noches
+112	dios	495630	dios dioses diosa diosas
+113	amigo	491751	amigo amigos amiga amigas
+114	mismo	491071	mismo misma mismos mismas
+115	también	488057	también
+116	hijo	486519	hijo hija hijos hijas
+117	quedar	484611	queda quédate quedarme quedar quedan quedarse quedó quedarte
+118	sobre	479032	sobre sobres
+119	conocer	475785	conozco conoces conoce conocido conocer conocí conocerte conocía
+120	sin	474770	sin
+121	ti	470358	ti
+122	oír	469344	oye oído oír oí oiga oigan oyes oigo
+123	llegar	458677	llegar llegado llegó llega llegue llegamos llegué llego
+124	nuevo	451114	nuevo nueva nuevos nuevas
+125	alguien	447141	alguien
+126	seguir	446945	sigue seguir sigues sigo siga siguen seguimos siguiendo
+127	poco	440650	poco pocos pocas poca
+128	padre	435906	padre padres
+129	siempre	424363	siempre
+130	hasta	423321	hasta
+131	ahí	422871	ahí
+132	primero	405751	primera primero primer primeros primeras
+133	antes	405555	antes
+134	matar	403532	matar mató matado matarme mata maté mataron mataste
+135	ni	401980	ni
+136	uno	393047	uno
+137	escuchar	390050	escucha escuchar escúchame escuché escuche escuchado escuchando escuchen
+138	nosotros	379354	nosotros nosotras
+139	seguro	377742	seguro segura seguros seguras
+140	trabajo	375609	trabajo trabajos
+141	entender	375054	entiendo entiendes entendido entender entiende entendí entienden entenderlo
+142	ellos	370784	ellos ellas
+143	acuerdo	368906	acuerdo acuerdos
+144	ayudar	357138	ayudar ayudarte ayudarme ayúdame ayude ayudarle ayudarnos ayudará
+145	gente	355898	gente gentes
+146	mujer	349163	mujer mujeres
+147	nadie	339772	nadie
+148	buscar	328000	buscando buscar busca busco buscamos buscas buscan buscado
+149	vivir	325810	vivir vive vivo viva viviendo viven vives vivía
+150	niño	324829	niños niño niña niñas
+151	tal	322852	tal tales
+152	perder	321154	perdido perder perdí perdió perdiendo perdida perdiste perdimos
+153	claro	317195	claro clara claras claros
+154	acabar	316806	acaba acabo acabó acabado acabar acabas acabamos acaban
+155	momento	316668	momento momentos
+156	hora	313530	hora horas h
+157	tratar	312982	trata tratando trato tratar tratado trataba trató traté
+158	después	311500	después
+159	problema	310101	problema problemas
+160	desde	303620	desde
+161	mundo	303249	mundo mundos
+162	valer	301611	vale valen valga valer valió vales valdrá valgo
+163	lugar	301320	lugar lugares
+164	dinero	300518	dinero
+165	tipo	299043	tipo tipos
+166	mío	294428	mío mía míos mías
+167	hermano	293396	hermano hermana hermanos hermanas
+168	trabajar	291186	trabajar trabajando trabaja trabajaba trabajas trabajado trabajan trabajamos
+169	madre	289910	madre madres
+170	morir	288535	morir murió muere muriendo murieron muero morirá mueren
+171	mañana	287192	mañana mañanas
+172	persona	278930	personas persona
+173	donde	277524	donde
+174	traer	272382	trae traer traje traído trajo traigo traeré trajiste
+175	quizás	270338	quizá quizás
+176	intentar	270190	intentando intentar intenta intento intentado intentarlo intenté intentó
+177	preguntar	268099	preguntas pregunto preguntar preguntaba pregunté preguntarte preguntarle preguntó
+178	allí	267215	allí
+179	menos	263837	menos
+180	importar	263750	importa importaría importar importaba importan importe importará importó
+181	pedir	261846	pedir pidió pedido pido pedí pide pidiendo pedirle
+182	parte	261661	parte partes
+183	gran	257648	gran
+184	ninguno	256864	ninguna ningún ninguno ningunas ningunos
+185	tanto	256323	tanto tanta tantas tantos
+186	mamá	249217	mamá mamás
+187	nombre	246072	nombre nombres
+188	luego	245811	luego
+189	papá	245646	papá papás
+190	conseguir	244222	conseguir conseguido consigue consiguió conseguí conseguiste consigo conseguimos
+191	entrar	244092	entrar entra entró entrado entrando entré entren entramos
+192	recordar	241582	recuerdas recuerda recuerdo recordar recuerde recuerden recuerdan recordarlo
+193	hoy	240395	hoy
+194	tres	239782	tres
+195	empezar	239309	empezar empieza empezó empezando empezamos empecé empezado empecemos
+196	usar	228241	usar usa usando usado usó usan usarlo usas
+197	mano	227586	manos mano
+198	mierda	224903	mierda mierdas
+199	conmigo	224527	conmigo
+200	terminar	223921	terminado terminar terminó termina termine terminamos terminé termino
+201	suponer	222327	supongo supone suponía supuse suponer supongamos suponiendo supones
+202	último	222207	última último últimos últimas
+203	muerto	221943	muerto muerta muertos muertas
+204	mal	221267	mal males
+205	pequeño	219882	pequeño pequeña pequeños pequeñas
+206	realmente	217847	realmente
+207	cierto	217841	cierto cierta ciertas ciertos
+208	razón	216587	razón razones
+209	serio	215710	serio seria serios serias
+210	ganar	215401	ganar ganas ganado gana ganó gané gano ganamos
+211	aún	215129	aún
+212	idea	215039	idea ideas
+213	segundo	210112	segundo s segunda segundos seg
+214	cada	209674	cada
+215	tarde	208965	tarde tardes
+216	amar	208488	amo ama amas amaba amar amado aman amada
+217	quien	208216	quien quienes
+218	comer	206018	comer come comido comiendo comes comen comió comí
+219	demasiado	205177	demasiado demasiada demasiados demasiadas
+220	olvidar	202404	olvidado olvídalo olvidé olvidar olvides olvida olvide olvidó
+221	contigo	202208	contigo
+222	único	201167	único única únicos únicas
+223	cambiar	200676	cambiar cambiado cambia cambió cambiando cambie cambian cambiará
+224	contar	198922	contar contó contado cuentas cuento cuéntame contando conté
+225	policía	197336	policía policías
+226	minuto	197241	minutos minuto min
+227	semana	194855	semana semanas
+228	malo	193653	malo mala malas malos pésimo pésima pésimos pésimas
+229	cualquiera	193606	cualquier cualquiera cualesquiera
+230	eh	193299	eh
+231	familia	192084	familia familias
+232	junto	191428	juntos junto juntas junta
+233	preocupar	190722	preocupes preocupa preocupe preocuparse preocuparte preocuparme preocupo preocupas
+234	cuánto	186301	cuánto cuántos cuántas cuánta
+235	sacar	185269	sacar saca sacado sacó sacaste sacarlo saqué sacarte
+236	amor	183979	amor amores
+237	entre	181114	entre
+238	cuenta	181041	cuenta cuentas
+239	listo	179281	listo lista listos listas
+240	tío	179252	tío tía tíos tías
+241	forma	177990	forma formas
+242	viejo	177179	viejo vieja viejos viejas
+243	pagar	175785	pagar paga pagado pagan pago pagó pagando pagas
+244	loco	175689	loco loca locos locas
+245	ustedes	174241	ustedes
+246	grande	172243	grande grandes
+247	dormir	169644	dormir durmiendo duerme dormido dormida duermo duermes dormí
+248	caso	167430	caso casos
+249	todavía	166624	todavía
+250	cabeza	166610	cabeza cabezas
+251	lado	165638	lado lados
+252	maldito	163133	maldita maldito malditos malditas
+253	esposo	159750	esposa esposo esposas esposos
+254	significar	159678	significa significado significaba significan significar significaría signifique significó
+255	leer	158670	lee leer leo leído leí leyendo lea leerlo
+256	jugar	158640	jugar jugando juega jugada jugado juegas jugamos juegan
+257	historia	156656	historia historias
+258	ah	156002	ah
+259	fuera	155786	fuera
+260	puerta	154899	puerta puertas
+261	comprar	154818	comprar compré compras compró comprado compraste compraré comprando
+262	cariño	153806	cariño cariños
+263	rápido	153762	rápido rápida rápidos rápidas
+264	mantener	152987	mantener mantiene mantén mantenga mantenerlo mantengan mantenerte mantenerse
+265	genial	150930	genial geniales
+266	manera	150499	manera maneras
+267	mientras	150383	mientras
+268	cuál	149867	cuál cuáles
+269	feliz	147970	feliz felices felice
+270	camino	147472	camino caminos
+271	suceder	146718	sucede sucedió suceder sucediendo sucedido suceda sucederá suceden
+272	supuesto	144685	supuesto supuestos
+273	pues	143870	pues
+274	adiós	143677	adiós
+275	ojo	142361	ojos ojo
+276	bajo	141395	bajo baja bajos bajas
+277	contra	141064	contra contras
+278	durante	139987	durante
+279	escribir	139506	escribir escrito escribió escribe escribí escribiendo escribo escribiste
+280	ocurrir	139461	ocurre ocurrió ocurrido ocurra ocurrir ocurriendo ocurrirá ocurren
+281	caer	139054	caer cayó cae caído caída cayendo caiga caen
+282	medio	138946	medio media medios medias
+283	tocar	138673	tocar toca toques tocado tocando tocó tocas toco
+284	mover	137985	mueve muevas muévete mover muévanse mueva moverse moviendo
+285	ayuda	137984	ayuda ayudas
+286	abrir	137082	abre abrir abran abrió abiertos abiertas abrí abro
+287	regresar	136869	regresar regresa regrese regresó regresaré regresado regresen regresé
+288	enviar	136835	envió enviar enviado envía envié enviaré enviaron enviando
+289	mes	136758	meses mes
+290	palabra	136679	palabra palabras
+291	meter	136242	metido meter metió metas mete metí meterme meterte
+292	jefe	135404	jefe jefa jefes
+293	beber	134208	beber bebe bebida bebiendo bebidas bebido bebo bebes
+294	ciudad	134170	ciudad ciudades
+295	dentro	133954	dentro
+296	casi	133614	casi
+297	hacia	130000	hacia
+298	funcionar	129974	funciona funcionar funcionó funcionando funcione funcionará funcionan funcionado
+299	propio	129623	propia propio propios propias
+300	pronto	128476	pronto pronta
+301	muerte	128427	muerte muertes
+302	corazón	128181	corazón corazones
+303	suerte	127907	suerte suertes
+304	doctor	127379	doctor doctora doctores
+305	disculpar	127366	disculpe disculpen disculpas discúlpeme discúlpame disculparme disculpo discúlpenme
+306	punto	126847	punto puntos
+307	siquiera	126506	siquiera
+308	preparar	126117	preparado preparados preparada preparar preparando prepara prepárate prepárense
+309	agua	125030	agua aguas
+310	justo	125008	justo justa justos justas
+311	clase	124030	clase clases
+312	perro	122629	perro perra perros perras
+313	cara	122582	cara caras
+314	realidad	121615	realidad realidades
+315	miedo	121067	miedo miedos
+316	arma	120710	arma armas
+317	alto	120473	alto alta altos altas
+318	equipo	118959	equipo equipos
+319	suficiente	118336	suficiente suficientes
+320	correr	117980	corre correr corriendo corran corrió corrí corren corra
+321	mostrar	117423	muestra mostrar muestras mostraré mostrarte muéstrame mostró mostrarle
+322	hecho	117303	hecho
+323	juego	117103	juego juegos
+324	coche	117028	coche coches
+325	parar	116594	parar parada parado pare paren parad paró pares
+326	difícil	116139	difícil difíciles
+327	fin	115304	fin fines
+328	disparar	114635	disparar disparó dispara dispararon disparado disparen disparando dispararle
+329	cuerpo	114461	cuerpo cuerpos
+330	detener	113849	detener detenido detenerlo detuvo detiene detenga detenerme deténgase
+331	bastante	113273	bastante bastantes
+332	adelante	113192	adelante
+333	igual	112825	igual iguales
+334	tierra	112755	tierra tierras
+335	cinco	112532	cinco
+336	cuidado	111524	cuidado
+337	puto	111494	puta puto putas putos
+338	sentar	111419	sentado sentarse sentada sentarme sentarte sentados siente sientes
+339	cerca	111091	cerca cercas
+340	número	110995	número números nº
+341	echar	110236	echar echa echado echó echarle eche echaré echas
+342	cerrar	109928	cierra cerrar cerrada cerrado cerrados cerró cierren cerradas
+343	casar	109532	casarse casar casarme casarte casó case casarnos casé
+344	joven	108919	joven jóvenes
+345	robar	108365	robar robado robó robaron robando robaste robé roba
+346	salvar	108326	salvar salvó salvado salvaste salvarte salvarme salva salvé
+347	prometer	107775	prometo prometido prometí prometiste prometió prometida prometes prométeme
+348	pregunta	107507	pregunta preguntas
+349	fiesta	107059	fiesta fiestas
+350	cuándo	106920	cuándo
+351	subir	106918	subir sube suba subiendo subió subido suban súbete
+352	auto	106829	auto autos
+353	encantar	106767	encanta encantaría encantan encantó encantaba encantará encantar encantados
+354	coger	106587	coger coge cogido cogió cogí coja cogeré cógelo
+355	permitir	106566	permite permitir permitido permítame permiten permitiré permíteme permita
+356	guerra	106482	guerra guerras
+357	novio	106222	novia novio novios novias
+358	comenzar	106033	comenzó comenzar comienza comenzado comencé comenzamos comenzaron comenzando
+359	fuerte	105584	fuerte fuertes
+360	incluso	105304	incluso
+361	aunque	104655	aunque
+362	perdonar	104450	perdona perdone perdóname perdóneme perdonar perdono perdonado perdonen
+363	cuatro	103805	cuatro
+364	decidir	103409	decidido decidir decidí decidió decide decidimos decides decida
+365	quitar	103105	quítate quita quitar quitado quitó quitarme quitarle quite
+366	recibir	103045	recibir recibido recibió recibe recibiendo recibimos recibiste recibirá
+367	allá	102642	allá
+368	oportunidad	102344	oportunidad oportunidades
+369	teléfono	102290	teléfono teléfonos
+370	arriba	102254	arriba
+371	convertir	102178	convertido convirtió convierte convertirse convertir convertirme convirtiendo convertirte
+372	desear	102096	desea deseo desearía deseas deseando deseaba desean desee
+373	final	101899	final finales
+374	probar	101865	probar pruebas probado probarlo probando pruebe pruébalo probé
+375	vuelta	101466	vuelta vueltas
+376	muchacho	100902	muchacho muchachos muchacha muchachas
+377	atacar	100589	ataque atacar ataques atacó atacado ataca atacaron atacando
+378	mayor	100457	mayor mayores
+379	bebé	99937	bebé bebés
+380	sangre	99844	sangre
+381	tuyo	99558	tuyo tuya tuyos tuyas
+382	callar	98135	cállate calles callado cállese callar cállense callada callarte
+383	posible	97673	posible posibles
+384	cuanto	97508	cuanto cuantos cuantas cuanta
+385	romper	97386	romper rompió roto rompe rompí rompiste rompiendo rotos
+386	bajar	96715	bajar baja baje bajando bajen bajó bajado bájate
+387	e	96622	e
+388	plan	96470	plan planes
+389	escuela	96018	escuela escuelas
+390	diablo	95984	diablos diablo
+391	odiar	95416	odio odia odias odiaba odian odiar odiaría odie
+392	sonar	94948	suena sonar sonaba sonó suenas suene sonando suenan
+393	luz	94569	luz luces
+394	habitación	94448	habitación habitaciones
+395	orden	94183	orden órdenes
+396	enseñar	93887	enseñó enseñar enseñaré enseñarte enseñado enseñarle enseña enseño
+397	querido	93762	querida querido
+398	extraño	93541	extraño extraña extraños extrañas
+399	libro	93048	libro libros
+400	culpa	92934	culpa culpas
+401	confiar	92584	confiar confía confío confías confiado confíe confiaba confié
+402	demonio	92130	demonios demonio
+403	capitán	91933	capitán capitana capitanes
+404	comida	91879	comida comidas
+405	santo	91755	san santo santa santos santas
+406	cuidar	91739	cuidar cuida cuídate cuidando cuide cuidaré cuidados cuidarte
+407	exactamente	91598	exactamente
+408	cielo	91535	cielo cielos
+409	fácil	91488	fácil fáciles
+410	correcto	91316	correcto correcta correctas correctos
+411	abajo	91298	abajo
+412	levantar	91245	levántate levanta levantar levantado levantarse levantó levantarme levanten
+413	bonito	91240	bonito bonita bonitas bonitos
+414	joder	90699	joder jodido jodida jodan jodas jódete jodidos jodiendo
+415	modo	90574	modo modos
+416	foto	90160	foto fotos
+417	ello	89741	ello
+418	negro	89489	negro negra negros negras
+419	negocio	89449	negocio negocios
+420	atrás	88877	atrás
+421	vender	88481	vender vende vendido vendiendo vendió venden venderlo vendes
+422	próximo	88307	próxima próximo próximos próximas
+423	pie	88288	pie pies
+424	hermoso	87800	hermosa hermoso hermosas hermosos
+425	idiota	87742	idiota idiotas
+426	andar	87609	anda andar andando andas andan andaba ando ande
+427	duro	87275	duro dura duros duras
+428	pasado	87180	pasado pasada
+429	imaginar	86650	imagino imaginar imagina imaginé imaginas imaginaba imaginado imagínate
+430	aprender	86364	aprender aprendido aprendí aprende aprendiendo aprendiste aprendió aprendes
+431	blanco	86177	blanco blanca blancos blancas
+432	perfecto	85502	perfecto perfecta perfectos perfectas
+433	raro	85244	raro rara raras raros
+434	prueba	84999	prueba pruebas
+435	película	84980	película películas
+436	probablemente	84911	probablemente
+437	par	84756	par pares
+438	servir	84589	sirve servir servirá sirven servido sirvo sirvió sirva
+439	diferente	84500	diferente diferentes
+440	millón	84179	millones millón
+441	dólar	84132	dólares dólar
+442	mentir	84008	mintiendo mentir mintió mentiste mentido mentí mientes mientas
+443	secreto	83897	secreto secretos secreta secretas
+444	tampoco	83595	tampoco
+445	mil	83136	mil miles
+446	arreglar	83086	arreglar arreglado arreglarlo arreglaré arregla arregló arreglaremos arreglando
+447	asegurar	83018	aseguro asegurarme asegúrate asegurar asegurarse aseguraré asegurarnos asegurado
+448	sueño	82763	sueño sueños
+449	noticia	82540	noticias noticia
+450	presentar	82499	presento presentar presenta presentó presentado presentarte presentes presentarme
+451	desaparecer	82398	desaparecido desapareció desaparecer desaparece desaparecida desaparecieron desaparezca desaparecidos
+452	sitio	82262	sitio sitios
+453	abuelo	82213	abuela abuelo abuelos abuelas
+454	llamada	81768	llamada llamadas
+455	molestar	81602	molesta molestar moleste molestes molestando molestado molestarte molestaría
+456	largo	81440	largo larga largos largas
+457	vaya	81417	vaya
+458	médico	81075	médico médicos médica médicas
+459	aceptar	80728	aceptar acepta aceptado aceptarlo aceptó acepte aceptas acepté
+460	simplemente	80350	simplemente
+461	asunto	80143	asunto asuntos
+462	unir	80055	unidos unido unirse unir une unidas unirte unirme
+463	oficina	79971	oficina oficinas
+464	humano	79962	humano humanos humana humanas
+465	peor	79895	peor peores
+466	descubrir	79844	descubrir descubierto descubrió descubrí descubre descubrimos descubrieron descubra
+467	tranquilo	79377	tranquilo tranquila tranquilos tranquilas
+468	cortar	79347	cortar corta cortado cortó corten cortes cortando cortaron
+469	cama	79288	cama camas
+470	lejos	79091	lejos
+471	estúpido	78637	estúpido estúpida estúpidos estúpidas
+472	explicar	78546	explicar explica explicarlo explicaré explique explicarte explicarle explico
+473	alegrar	77654	alegro alegra alegres alegrará alégrate alegras alegró alegraría
+474	seis	77064	seis
+475	agente	76911	agente agentes
+476	seguridad	76807	seguridad
+477	especial	76767	especial especiales
+478	aquel	76348	aquel aquella aquellos aquellas aquél aquéllos aquélla
+479	lindo	76237	lindo linda lindos lindas
+480	real	76105	real reales
+481	país	75959	país países
+482	invitar	75896	invitado invitados invitó invitar invita invitada invité invitarte
+483	derecho	75795	derecho derechos derechas
+484	atrapar	75525	atrapado atrapar atrapados atrapada atraparon atraparlo atrapó atrapa
+485	bastar	75348	basta bastará bastaba bastar bastaría bastó bastan bastado
+486	tirar	75264	tirar tirado tiró tirando tire tiré tiras tiraste
+487	además	75259	además
+488	rey	75139	rey reyes
+489	mandar	75130	mando mandar mandó mandado mandé mandaré mande mandaron
+490	tonto	75092	tonto tonta tontos tontas
+491	asesino	74842	asesino asesinos asesina asesinas
+492	paz	74834	paz paces
+493	marido	74778	marido maridos
+494	pueblo	74474	pueblo pueblos
+495	señorita	74451	señorita señoritas
+496	acerca	74051	acerca
+497	cambio	73347	cambio cambios
+498	temer	73226	temo temas temía temer teme temes temen temido
+499	libre	72982	libre libres
+500	bienvenido	72626	bienvenido bienvenida bienvenidos bienvenidas
+501	carta	72589	carta cartas
+502	referir	72430	refiero refieres refiere refería refieren referías referirse refiriendo
+503	calle	72401	calle calles
+504	elegir	72385	elegir elegido elige eligió elegí elegiste elijo eliges
+505	despertar	72005	despierta despertar desperté despierte despertado despertó despertarte despiertes
+506	proteger	71400	proteger protegerte protege protegiendo protegido protegerme protegerla protegerlo
+507	cual	71293	cual cuales
+508	resto	70948	resto restos
+509	escapar	70691	escapar escapó escapado escapa escapando escapé escaparon escaparse
+510	mensaje	70654	mensaje mensajes
+511	hospital	70246	hospital hospitales
+512	fuego	69725	fuego fuegos
+513	apostar	69681	apuesto apuesta apuestas apostar apostaría apostando apostado aposté
+514	divertido	69550	divertido divertida divertidas divertidos
+515	fuerza	69313	fuerza fuerzas
+516	música	69241	música
+517	anoche	68870	anoche
+518	error	68838	error errores
+519	caballero	68570	caballeros caballero
+520	perdón	68064	perdón perdones
+521	viaje	67723	viaje viajes
+522	presidente	67666	presidente presidenta presidentes
+523	cuarto	67508	cuarto cuartos
+524	abogado	67107	abogado abogados abogada
+525	esconder	66713	escondido esconder esconde escondiendo escondidas esconderse escondida escondió
+526	ambos	66548	ambos ambas
+527	golpear	66442	golpeó golpear golpeado golpea golpeando golpearon golpeé golpeaste
+528	diez	66429	diez
+529	faltar	66132	falta faltan faltaba faltar faltó faltas faltado falte
+530	ropa	65963	ropa ropas
+531	verdadero	65810	verdadero verdadera verdaderos verdaderas
+532	café	65790	café cafés
+533	llorar	64996	llorar llorando llores llora lloras lloraba lloré lloró
+534	grupo	64975	grupo grupos
+535	existir	64506	existe existen existir existía existido exista existió existiera
+536	aparecer	64263	aparece apareció aparecer aparecen aparecido aparezca aparecerá aparecieron
+537	daño	63820	daño daños
+538	compañero	63431	compañero compañeros compañera compañeras
+539	afuera	63387	afuera
+540	preferir	63264	prefiero preferiría prefieres prefiere preferido prefieren preferirías preferida
+541	pobre	63261	pobre pobres
+542	partir	63182	partir partido partida partes partidos partió partimos partidas
+543	general	62835	general generales
+544	detrás	62621	detrás
+545	volar	62604	volar volando vuela voló vuelan volado volamos vuele
+546	jurar	62443	juro jurado jurar juré juró jurados juras juraría
+547	agradecer	62337	agradezco agradecido agradecida agradecer agradecerte agradecerle agradecería agradecemos
+548	oficial	62285	oficial oficiales
+549	asesinato	61961	asesinato asesinatos
+550	lograr	61797	lograr logrado logró logramos lograrlo lograste logré logra
+551	relación	61647	relación relaciones
+552	lamentar	61616	lamento lamentamos lamenta lamentar lamentas lamentarás lamentarlo lamentará
+553	suyo	61481	suyo suya suyos suyas
+554	voz	60788	voz voces
+555	responder	60645	responder responde responda respondió respondido respóndeme respondiendo respondes
+556	caminar	60347	caminar caminando camina caminaba caminas camine caminamos caminan
+557	siguiente	60284	siguiente siguientes
+558	futuro	60234	futuro futura futuros futuras
+559	herido	60208	herido herida heridas heridos
+560	cantar	60133	cantar canta cantando cantan cantaba cantas cantó cantamos
+561	maravilloso	59257	maravilloso maravillosa maravillosos maravillosas
+562	control	59218	control controles
+563	respuesta	59202	respuesta respuestas
+564	ayer	59013	ayer
+565	demás	58811	demás
+566	continuar	58700	continuar continúa continúe continuará continúen continúan continuemos continuamos
+567	cita	58624	cita citas
+568	cliente	58622	cliente clientes clienta clientas
+569	sistema	58369	sistema sistemas
+570	campo	58239	campo campos
+571	frente	58186	frente frentes
+572	encargar	58166	encargo encargaré encargado encargarme encárgate encarga encargará encargaremos
+573	asesinar	58123	asesinado asesinada asesinó asesinar asesinados asesinaron asesina asesinaste
+574	conducir	58054	conducir conduce conduciendo conducía conduzco condujo conduces conducido
+575	destruir	57933	destruir destruido destruyó destruye destruida destruyendo destruirlo destruirá
+576	baño	57929	baño baños
+577	sexo	57746	sexo sexos
+578	personal	57496	personal personales
+579	línea	57199	línea líneas
+580	caja	57096	caja cajas
+581	pena	56866	pena penas
+582	soltar	56862	suéltame suelta suéltalo soltar suéltala suelte suélteme suéltenme
+583	dolor	56790	dolor dolores
+584	profesor	56723	profesor profesora profesores profesoras
+585	atención	56658	atención atenciones
+586	despedir	56422	despedida despedido despedirme despedir despidieron despido despidió despedirte
+587	soler	56412	solía suele solíamos solían solías suelen sueles solemos
+588	ofrecer	56156	ofrecer ofrece ofreció ofrezco ofrecido ofrecerle ofreciendo ofrecerte
+589	canción	56121	canción canciones
+590	boca	56113	boca bocas
+591	encima	56110	encima
+592	llave	55951	llave llaves
+593	luchar	55925	luchar luchando luchado luchamos luchó luchan luchas lucho
+594	servicio	55864	servicio servicios
+595	papel	55808	papel papeles
+596	ley	55667	ley leyes
+597	mente	55613	mente mentes
+598	caballo	55434	caballo caballos
+599	cámara	55327	cámara cámaras
+600	sino	55136	sino
+601	pelear	55131	pelear peleando peleas peleamos pelean peleado pelearon peleó
+602	lleno	55018	lleno llena llenos llenas
+603	acercar	54852	acércate acerques acercarse acercó acerque acercando acercarme acercan
+604	contactar	54727	contacto contactar contactado contactó contacta contacte contactaré contacté
+605	aire	54653	aire aires
+606	decisión	54600	decisión decisiones
+607	rojo	54393	rojo roja rojos rojas
+608	merecer	54183	merece mereces merezco merecía merecen merecido merecemos merezca
+609	jamás	54158	jamás
+610	enterar	54157	entera enterado enteré enteró entere enterar enterarse enterarme
+611	abandonar	54101	abandonar abandonado abandonó abandona abandonada abandone abandonaste abandonaron
+612	víctima	53930	víctima víctimas
+613	situación	53890	situación situaciones
+614	enfermo	53861	enfermo enferma enfermos enfermas
+615	recoger	53806	recoger recoge recogiendo recogió recogido recogeré recogerlo recogí
+616	devolver	53620	devolver devolveré devuelve devuélveme devuelva devuelvo devolverle devolverlo
+617	obtener	53264	obtener obtuvo obtiene obtuve obtenido obtienes obtuviste obtengo
+618	actuar	53157	actuar actuando actúa actúas actuó actuado actúan actuaba
+619	averiguar	53070	averiguar averiguarlo averigua averiguado averigüe averiguaremos averiguaré averiguó
+620	bailar	52947	bailar bailando bailamos bailas bailo bailemos bailes bailan
+621	compañía	52564	compañía compañías cía
+622	dirigir	52510	dirige dirigir dirigen dirijo dirigido dirigida dirigía dirigiendo
+623	hotel	52451	hotel hoteles
+624	pelo	52394	pelo pelos
+625	gusto	52297	gusto gustos
+626	edad	52218	edad edades
+627	metro	52147	metros m metro
+628	maestro	52097	maestro maestra maestros maestras
+629	frío	52090	frío fría frías fríos
+630	regalo	51950	regalo regalos
+631	limpiar	51904	limpiar limpia limpiando limpiado limpias limpie limpiarlo limpió
+632	ay	51890	ay
+633	barco	51672	barco barcos
+634	alrededor	51665	alrededor alrededores
+635	normal	51631	normal normales
+636	crecer	51510	crecer crecido creciendo crece crecí creció crecen crezca
+637	tienda	51364	tienda tiendas
+638	montón	51311	montón montones
+639	dulce	51205	dulce dulces
+640	nacer	51112	nació nacido nací nacer naciste nace nacen nazca
+641	comprender	51053	comprendo comprender comprendes comprende comprendido comprendí comprenden comprenderlo
+642	accidente	51028	accidente accidentes
+643	costar	50935	cuesta costado costó costará cueste costar cuestan costaría
+644	capaz	50776	capaz capaces
+645	carrera	50710	carrera carreras
+646	adónde	50674	adónde
+647	alejar	50447	aléjate alejado alejarme aléjense alejarse alejada alejarte aléjese
+648	evitar	50355	evitar evitarlo evita evitando evitado evitó evite evitará
+649	contratar	50292	contrato contratar contrató contratado contraté contrataron contrata contrataste
+650	recuperar	50040	recuperar recuperado recupere recuperarlo recupera recuperó recuperarse recuperando
+651	cargo	49906	cargo cargos
+652	vivo	49890	vivo vivos viva vivas
+653	boda	49863	boda bodas
+654	estrella	49835	estrella estrellas
+655	necesario	49834	necesario necesaria necesarios necesarias
+656	ocupado	49808	ocupado ocupada ocupados
+657	tras	49345	tras
+658	pesar	49328	pesar pesado pesada pesados pesas pese pesadas pesan
+659	placer	49322	placer place placeres plazca
+660	entregar	49215	entregar entregado entregó entregue entrego entregas entregaré entregarme
+661	brazo	49140	brazo brazos
+662	mesa	49070	mesa mesas
+663	dirección	48879	dirección direcciones
+664	público	48860	público pública públicas públicos
+665	mitad	48709	mitad mitades
+666	interesar	48540	interesa intereses interesan interesados interese interesaba interesaría interesó
+667	avión	48530	avión aviones
+668	calmar	48495	cálmate cálmese cálmense calmado calmarte calmar calme calmarse
+669	cena	48459	cena cenas
+670	marchar	48420	marchar marchó marcharse marcho marcharme marchado marcharte márchate
+671	guardar	48399	guardar guardado guardo guarde guardando guardas guardaba guardan
+672	rico	48367	rico ricos rica ricas
+673	salvo	48275	salvo salva salvos salvas
+674	crear	48190	crear creado creó creando crearon creé creada creen
+675	centro	48174	centro centros
+676	casado	48139	casado casada casados
+677	asustar	48113	asusta asustó asustaste asustar asustando asusté asustes asustados
+678	detective	48063	detective detectives
+679	broma	48015	broma bromas
+680	soldado	47793	soldados soldado
+681	don	47667	don doña dones
+682	horrible	47657	horrible horribles
+683	recuerdo	47643	recuerdo recuerdos
+684	paso	47624	paso pasos pasas
+685	considerar	47563	considerado considerar considera considero consideran considere considerada consideras
+686	peligroso	47496	peligroso peligrosa peligrosos peligrosas
+687	programa	47347	programa programas
+688	través	47295	través
+689	cumplir	47292	cumplir cumplido cumple cumplió cumpliendo cumpla cumplí cumplo
+690	gracioso	47146	gracioso graciosa graciosos graciosas
+691	principio	47053	principio principios
+692	ocupar	46923	ocuparé ocupo ocupa ocuparme ocupar ocúpate ocuparse ocupe
+693	bromear	46643	bromeando bromeas bromeo bromeaba bromear bromea bromees bromean
+694	equivocado	46581	equivocado equivocada
+695	animal	46414	animales animal
+696	interesante	46359	interesante interesantes
+697	reconocer	46305	reconozco reconoce reconocer reconoces reconocido reconoció reconocí reconocerlo
+698	sol	46225	sol soles
+699	dama	46186	damas dama
+700	alma	46123	alma almas
+701	retirar	46114	retiro retirado retirarse retirar retirada retiró retira retire
+702	señal	46104	señal señales
+703	nave	46068	nave naves
+704	terrible	45897	terrible terribles
+705	crimen	45869	crimen crímenes
+706	sorprender	45820	sorprende sorprendido sorprendió sorprendida sorprendería sorprender sorprenderte sorprenda
+707	director	45799	director directora directores
+708	reunir	45654	reunir reunirse reunido reúne reunirnos reunirme reunimos reunidos
+709	pierna	45551	piernas pierna
+710	controlar	45479	controlar controla controlado controlarlo controlando controlan controlada contrólate
+711	hambre	45455	hambre
+712	disfrutar	45448	disfrutar disfruta disfrutando disfruten disfruto disfrutado disfruté disfrutas
+713	paciente	45413	paciente pacientes
+714	completamente	45342	completamente
+715	revisar	45278	revisar revisa revisando revisé revisado revisen revise revisamos
+716	culo	45137	culo culos
+717	construir	45118	construir construido construyó construyendo construyeron construida construimos construí
+718	enemigo	45102	enemigo enemigos enemiga enemigas
+719	totalmente	45016	totalmente
+720	mar	44981	mar marte mares marla marlo
+721	amable	44843	amable amables
+722	acordar	44833	acuerdas acuerda acordamos acordado acuérdate acordar acordé acordarme
+723	gritar	44820	gritar gritando grites gritó gritaba gritan gritas grite
+724	preocupado	44805	preocupado preocupada preocupados
+725	carajo	44756	carajo carajos
+726	antiguo	44732	antiguo antigua antiguos antiguas
+727	cometer	44559	cometido cometer cometió cometí cometiendo comete cometiste cometas
+728	apoyar	44531	apoyo apoyar apoya apoyado apoyan apoyando apoyarte apoye
+729	arruinar	44530	arruinar arruinado arruinó arruinaste arruinando arruiné arruines arruina
+730	sufrir	44488	sufrir sufrido sufriendo sufrió sufre sufren sufro sufría
+731	universidad	44484	universidad universidades
+732	investigación	44282	investigación investigaciones
+733	resultar	44248	resulta resultó resultar resulte resultará resultan resultaron resulto
+734	siete	44169	siete
+735	doler	44158	duele doler dolió duelen dolerá dolido dolía dolida
+736	cansado	44151	cansado cansada cansados cansadas
+737	sala	44132	sala salas
+738	huir	44086	huir huyendo huyó huye huido huyeron huida huyes
+739	club	44080	club clubes clubs
+740	trasero	43809	trasero trasera traseros traseras
+741	estado	43802	estado
+742	engañar	43696	engañar engañado engañando engañó engaña engañarme engañaste engañas
+743	reír	43621	reír ríe riendo ríes ríen rías riéndose reía
+744	armar	43524	armas armada armado armados armar armando armadas arman
+745	completo	43426	completo completa completos completas
+746	consejo	43151	consejo consejos
+747	enfrentar	43051	enfrente enfrentar enfrentarse enfrenta enfrentamos enfrentarme enfrentarte enfrentado
+748	lista	43017	lista
+749	cenar	42901	cenar cenamos cenando cenado cenas cenaremos cenemos cené
+750	acción	42744	acción acciones
+751	tren	42717	tren trenes
+752	prisa	42623	prisa prisas
+753	cumpleaños	42596	cumpleaños
+754	suelo	42159	suelo suelos
+755	cárcel	42063	cárcel cárceles
+756	disculpa	41948	disculpa disculpas
+757	gobierno	41939	gobierno gobiernos
+758	equivocar	41918	equivocas equivoqué equivoco equivoca equivocados equivocadas equivocó equivocan
+759	utilizar	41861	utilizar utiliza utilizando utilizado utilizó utilizan utilice utilizamos
+760	navidad	41775	navidad navidades
+761	nota	41743	nota notas
+762	divertir	41674	divertirse divirtiendo diviértete divertirnos divertirme divierte divertirte divertimos
+763	vestir	41669	vestido vestidos vestida vestir vestirme vestirse vistes vestirte
+764	acostar	41647	acostado acostarse acostarme acostarte acosté acostaste acuéstate acostó
+765	embargo	41642	embargo
+766	pegar	41594	pegado pegó pegar pegarle pegarme pegué pégame pegue
+767	manejar	41519	manejar manejarlo maneja manejando manejado manejas manejaba maneje
+768	escena	41516	escena escenas
+769	duda	41507	duda dudas
+770	oler	41431	huele oler hueles huelo huelen olía olerlo oliendo
+771	ejército	41416	ejército ejércitos
+772	maldición	41392	maldición maldiciones
+773	mentira	41268	mentira mentiras
+774	sorpresa	41209	sorpresa sorpresas
+775	regla	41176	reglas regla
+776	besar	41169	besar bésame besarte besado besa besó besarme besando
+777	acá	41151	acá
+778	inteligente	41064	inteligente inteligentes
+779	saltar	41049	saltar salta saltó saltando saltado salte salté saltas
+780	silencio	40993	silencio silencios
+781	triste	40987	triste tristes
+782	edificio	40922	edificio edificios
+783	compartir	40732	compartir compartimos comparte compartido comparten compartirlo compartiendo comparto
+784	ventana	40650	ventana ventanas
+785	piso	40557	piso pisos
+786	fondo	40461	fondo fondos
+787	testigo	40196	testigo testigos
+788	guardia	40040	guardia guardias
+789	espalda	40028	espalda espaldas
+790	cruzar	39988	cruzar cruzado cruzando cruza cruzó cruzada cruzados cruzamos
+791	locura	39869	locura locuras
+792	sentido	39843	sentido
+793	matrimonio	39771	matrimonio matrimonios
+794	peligro	39748	peligro peligros
+795	cerveza	39545	cerveza cervezas
+796	ocho	39524	ocho
+797	planear	39269	planeado planeando planea planear planeas planeo planeamos planeaba
+798	cerebro	39260	cerebro cerebros
+799	informar	39211	informado informar informes informó informa informarle informaré informada
+800	firmar	39168	firmar firmado firmó firmes firmas firmé firmo firmada
+801	precioso	39147	preciosa precioso preciosas preciosos
+802	banco	39145	banco bancos
+803	espacio	39137	espacio espacios
+804	teniente	39097	teniente tenientes
+805	separar	38994	separados separado separar separarnos separamos separadas separa separe
+806	enojar	38986	enojado enojada enojar enojo enojes enojados enoja enojó
+807	permiso	38978	permiso permisos
+808	delante	38898	delante
+809	acompañar	38895	acompaño acompañe acompañarme acompaña acompañar acompañaré acompañado acompañarnos
+810	simple	38860	simple simples
+811	basura	38848	basura basuras
+812	agarrar	38768	agarra agarrar agarró agárrate agarré agarro agarren agarrado
+813	convencer	38761	convencido convencer convenció convencerme convencida convencerlo convencí convencerla
+814	bar	38678	bar bares
+815	libertad	38605	libertad libertades
+816	descansar	38370	descansar descansa descanse descansando descansen descanses descansado descansaré
+817	iglesia	38304	iglesia iglesias
+818	demostrar	38220	demostrar demuestra demostrado demostrarlo demostró demostraré demostrarle demuestre
+819	pista	38184	pista pistas
+820	honor	38158	honor honores
+821	sobrevivir	37965	sobrevivir sobrevivió sobrevivido sobrevive sobrevivirá sobrevivieron sobreviva sobreviven
+822	nervioso	37937	nervioso nerviosa nerviosos nerviosas
+823	caliente	37845	caliente calientes
+824	discutir	37843	discutir discutiendo discutimos discutirlo discutido discutiremos discutas discutamos
+825	agradable	37841	agradable agradables
+826	apagar	37821	apaga apagar apagado apágalo apague apagó apaguen apagarlo
+827	opción	37803	opción opciones
+828	misión	37793	misión misiones
+829	rato	37744	rato ratos
+830	viajar	37555	viajar viajando viaja viajes viajado viajan viajo viajó
+831	opinión	37516	opinión opiniones
+832	oro	37500	oro
+833	golpe	37489	golpe golpes
+834	color	37447	color colores
+835	derecha	37406	derecha derechas
+836	guapo	37405	guapo guapa guapas guapos
+837	quemar	37396	quemado quemar quemó quemando quemada quemados quemaron queman
+838	bomba	37316	bomba bombas
+839	infierno	37255	infierno infiernos
+840	corte	37137	corte cortes
+841	salud	37016	salud
+842	aun	36908	aun
+843	según	36882	según
+844	departamento	36868	departamento departamentos
+845	contento	36842	contento contenta contentos contentas
+846	orgulloso	36825	orgulloso orgullosa orgullosos orgullosas
+847	estudiar	36809	estudiar estudiando estudiado estudia estudié estudió estudiaba estudias
+848	americano	36758	americano americanos americana americanas
+849	cocina	36743	cocina cocinas
+850	visitar	36707	visitar visitas visitarme visitando visitó visitado visitarte visitarnos
+851	arrestar	36559	arrestado arrestar arrestaron arrestada arresten arrestados arrestarlo arrestarme
+852	zona	36441	zona zonas
+853	ante	36426	ante
+854	luna	36371	luna lunas
+855	ángel	36325	ángeles ángel
+856	falso	36277	falso falsa falsas falsos
+857	nene	36264	nena nene nenas nenes
+858	mencionar	36229	mencionar mencionó mencionado mencioné menciona mencionaste menciones mencionarlo
+859	cubrir	36181	cubrir cubre cubriendo cubiertos cubiertas cubro cúbreme cubra
+860	mayoría	36167	mayoría
+861	energía	36163	energía energías
+862	bolsa	36160	bolsa bolsas
+863	árbol	36142	árbol árboles
+864	tema	36119	tema temas
+865	carne	36093	carne carnes
+866	posición	36049	posición posiciones
+867	flor	35995	flores flor
+868	entrada	35957	entrada entradas
+869	juez	35847	juez jueces jueza
+870	obra	35842	obra obras
+871	varios	35842	varios varias
+872	nivel	35825	nivel niveles
+873	veras	35817	veras
+874	enfadar	35814	enfadado enfadada enfades enfadar enfado enfada enfadados enfade
+875	enamorado	35796	enamorado enamorada enamorados
+876	baile	35755	baile bailes
+877	esperanza	35687	esperanza esperanzas
+878	droga	35532	drogas droga
+879	respirar	35514	respirar respira respirando respire respiras respires respiraba respiren
+880	zapato	35513	zapatos zapato
+881	ordenar	35468	ordenó ordenado ordenar ordenes ordeno ordena ordené ordene
+882	azul	35441	azul azules
+883	diferencia	35438	diferencia diferencias
+884	adentro	35406	adentro
+885	resultado	35382	resultado resultados
+886	pelea	35342	pelea peleas
+887	enseguida	35331	enseguida
+888	planeta	35320	planeta planetas
+889	especie	35254	especie especies
+890	base	35231	base bases
+891	tarjeta	35189	tarjeta tarjetas
+892	estudio	35095	estudio estudios
+893	chino	35064	china chino chinos chinas
+894	aguantar	35052	aguanta aguantar aguanto aguante aguantando aguantarlo aguantas aguantará
+895	reina	35031	reina reinas
+896	máquina	35023	máquina máquinas
+897	izquierda	34980	izquierda izquierdas
+898	relajar	34932	relájate relajarte relajarse relájese relajado relajarme relaja relajada
+899	temprano	34855	temprano temprana
+900	prisión	34820	prisión prisiones
+901	causa	34801	causa causas
+902	causar	34734	causar causado causó causando causas cause causan causada
+903	acusar	34672	acusado acusa acusada acusados acusar acusando acusó acusan
+904	excelente	34541	excelente excelentes
+905	finalmente	34516	finalmente
+906	vigilar	34470	vigilando vigila vigilar vigilado vigile vigilen vigilan vigilada
+907	inglés	34468	inglés ingleses inglesa inglesas
+908	prestar	34439	prestado presta prestar prestas prestarme prestó presten prestada
+909	encuentro	34389	encuentro encuentros
+910	motivo	34389	motivo motivos motiva
+911	fantástico	34378	fantástico fantástica fantásticos fantásticas
+912	imagen	34344	imagen imágenes
+913	investigar	34296	investigando investigar investigado investiga investigué investigamos investigue investigarlo
+914	jamar	34292	james jamas
+915	hogar	34281	hogar hogares
+916	posibilidad	34263	posibilidad posibilidades
+917	banda	34261	banda bandas
+918	encantado	34150	encantado encantada
+919	sentimiento	34126	sentimientos sentimiento
+920	arte	34080	arte artes
+921	pertenecer	34021	pertenece pertenecen pertenecía perteneces pertenezco pertenecer perteneció pertenecemos
+922	apenas	33969	apenas
+923	destino	33880	destino destinos
+924	operación	33797	operación operaciones
+925	juicio	33784	juicio juicios
+926	largar	33749	lárgate larga largas lárguense lárguese largó largarnos largarme
+927	admitir	33740	admitir admito admitirlo admite admítelo admitió admitido admites
+928	oscuro	33697	oscuro oscura oscuras oscuros
+929	miembro	33684	miembro miembros
+930	obligar	33612	obligado obligó obliga obligados obligada obligar obligaron obligarme
+931	sargento	33525	sargento sargentos
+932	estación	33476	estación estaciones
+933	mudar	33461	mudó mudarse mudar mudarme mudamos muda mudé mudado
+934	porqué	33393	porqué
+935	movimiento	33356	movimiento movimientos
+936	resolver	33334	resolver resolverlo resolveremos resuelva resolverá resolvió resolviendo resueltos
+937	éxito	33312	éxito éxitos
+938	gato	33261	gato gatos gata gatas
+939	pareja	33117	pareja parejas
+940	experiencia	33104	experiencia experiencias
+941	felicidad	33087	felicidad felicidades
+942	lastimar	33028	lastimado lastimar lastima lastimarte lastimó lastimes lastimé lastime
+943	respeto	32879	respeto respetos
+944	encender	32865	encender enciende encendido encendida encendidas encienda encendió enciendan
+945	precio	32792	precio precios
+946	objetivo	32751	objetivo objetivos objetiva
+947	favorito	32748	favorito favorita favoritos favoritas
+948	principal	32732	principal principales
+949	exacto	32731	exacto exacta exactos exactas
+950	inocente	32705	inocente inocentes
+951	avisar	32697	avisar avísame avisado avisaré avisa avisó avisarle avise
+952	sospechoso	32633	sospechoso sospechosos sospechosa sospechosas
+953	salida	32609	salida salidas
+954	radio	32577	radio radios
+955	ejemplo	32562	ejemplo ejemplos
+956	bala	32510	bala balas
+957	soportar	32500	soportar soporto soportarlo soporta soportas soportado soportaba soportaría
+958	liberar	32462	liberar liberado libera liberó liberen liberada libere liberados
+959	culpable	32442	culpable culpables
+960	depender	32427	depende dependiendo depender dependen dependerá dependía dependiera dependemos
+961	té	32327	té tés
+962	norte	32319	norte
+963	trato	32220	trato tratos
+964	coronel	32219	coronel
+965	informe	32219	informe informes
+966	estupendo	32202	estupendo estupenda estupendos estupendas
+967	indio	32165	india indios indio indias
+968	elección	32031	elección elecciones
+969	excepto	32005	excepto
+970	dudar	31881	dudo dudas dudar dude dudes dudado dudé dudando
+971	pared	31873	pared paredes
+972	atrever	31789	atreves atreve atrevas atrevido atrevo atrevería atreven atrevida
+973	tontería	31718	tonterías tontería
+974	valor	31654	valor valores
+975	hallar	31428	hallar hallamos hallado hallaron hallé halló halla hallaste
+976	calma	31395	calma calmas
+977	pistola	31218	pistola pistolas
+978	henrio	30924	henry
+979	francés	30923	francés franceses francesa francesas
+980	común	30918	común comunes
+981	negar	30849	niega negar negó negado negarlo niegas niegan negarse
+982	río	30764	río ríos
+983	cuestión	30681	cuestión cuestiones
+984	isla	30669	isla islas
+985	sucio	30594	sucio sucia sucios sucias
+986	respecto	30525	respecto
+987	regreso	30519	regreso
+988	sugerir	30497	sugiero sugiere sugiriendo sugerir sugirió sugieres sugieren sugerí
+989	deseo	30397	deseo deseos
+990	héroe	30348	héroe héroes
+991	tardar	30343	tardará tardar tarda tardaré tardado tardes tardó tardaste
+992	imbécil	30333	imbécil imbéciles
+993	alemán	30329	alemanes alemán alemana alemanas
+994	apartamento	30301	apartamento apartamentos
+995	lanzar	30290	lanzar lanzó lanzado lanzando lanzas lanzaron lancé lanzan
+996	debajo	30209	debajo
+997	borracho	30153	borracho borracha borrachos borrachas
+998	colega	30150	colega colegas
+999	familiar	30121	familiar familiares
+1000	brillante	30060	brillante brillantes
+1001	oído	30049	oído
+1002	ridículo	30028	ridículo ridícula ridículos ridículas
+1003	contestar	29957	contestar conteste contestó contéstame contestado contestas contestes contesto
+1004	privado	29849	privado privada
+1005	cargar	29776	cargar cargado cargando cargada cargas carguen cargó cargados
+1006	repetir	29767	repito repetir repite repetirlo repita repitiendo repítelo repetiré
+1007	huevo	29761	huevos huevo
+1008	espíritu	29697	espíritu espíritus
+1009	vuelo	29688	vuelo vuelos
+1010	llenar	29681	llena llenar llenas llenó llenando llenado llene llenan
+1011	gay	29668	gay gays
+1012	unidad	29660	unidad unidades
+1013	adivinar	29658	adivina adivinar adivino adivinen adivinado adivine adivinas adivinarlo
+1014	colgar	29553	colgar colgado colgando colgó cuelgues colgada cuelguen cuelgan
+1015	bosque	29549	bosque bosques
+1016	fallar	29542	falla fallado fallar falló fallé fallas fallaste fallando
+1017	beso	29539	beso besos
+1018	alcanzar	29532	alcanzar alcanza alcanzado alcanzó alcanzo alcanzan alcanzarlo alcanzaré
+1019	copa	29527	copa copas
+1020	kilómetro	29467	kilómetros km kilómetro
+1021	enorme	29438	enorme enormes
+1022	interior	29308	interior interiores
+1023	soñar	29208	soñando soñar soñado soñé sueña soñaba sueñas sueñes
+1024	comandante	29188	comandante comandantes
+1025	primo	29001	primo prima primos primas
+1026	visita	28972	visita visitas
+1027	bello	28869	bella bello bellas bellos
+1028	estudiante	28864	estudiante estudiantes
+1029	batalla	28795	batalla batallas
+1030	sur	28775	sur
+1031	gordo	28766	gordo gorda gordos gordas
+1032	piel	28747	piel pieles
+1033	permanecer	28727	permanecer permanece permanezca permanezcan permanecen permanecerá permaneció permanecido
+1034	doble	28680	doble dobles
+1035	riesgo	28638	riesgo riesgos
+1036	asustado	28621	asustado asustada
+1037	fumar	28554	fumar fumando fuma fumas fumado fumaba fume fuman
+1038	estilo	28502	estilo estilos
+1039	encerrar	28452	encerrado encerrada encerrados encerrar encerró encerraron encierren encerrarme
+1040	asiento	28441	asiento asientos
+1041	conversación	28404	conversación conversaciones
+1042	ladrón	28386	ladrón ladrones ladrona
+1043	trampa	28369	trampa trampas
+1044	absoluto	28324	absoluto absoluta
+1045	trago	28308	trago tragos
+1046	menudo	28249	menudo menuda menudos
+1047	fantasma	28236	fantasma fantasmas
+1048	papa	28166	papa papas
+1049	comprobar	28084	comprobar comprobado comprobarlo comprobando comprobé compruebe compruébalo comprobaré
+1050	camión	28076	camión camiones
+1051	ocultar	28007	ocultar oculta ocultando ocultas ocultado ocultarlo ocultó ocultarse
+1052	marcha	27986	marcha marchas
+1053	ciento	27976	cientos ciento
+1054	piedra	27887	piedra piedras
+1055	monstruo	27885	monstruo monstruos
+1056	registro	27777	registro registros
+1057	periódico	27689	periódico periódicos periódica
+1058	famoso	27644	famoso famosa famosos famosas
+1059	majestad	27624	majestad majestades
+1060	montaña	27616	montaña montañas
+1061	ojalá	27609	ojalá
+1062	verano	27569	verano veranos
+1063	responsable	27554	responsable responsables
+1064	huella	27509	huellas huella
+1065	nueve	27477	nueve
+1066	definitivamente	27474	definitivamente
+1067	diente	27468	dientes diente
+1068	cuello	27442	cuello cuellos
+1069	formar	27330	formar formas forman formado formando formó formen formaron
+1070	observar	27264	observando observa observar observado observen observe observo observan
+1071	enfermedad	27256	enfermedad enfermedades
+1072	vacío	27230	vacío vacía vacías vacíos
+1073	verde	27194	verde verdes
+1074	efecto	27093	efecto efectos
+1075	pantalón	26977	pantalones pantalón
+1076	cerdo	26935	cerdo cerdos cerda
+1077	limpio	26874	limpio limpia limpios limpias
+1078	repente	26871	repente
+1079	falta	26861	falta
+1080	restaurante	26851	restaurante restaurantes
+1081	directo	26848	directo directa directos directas
+1082	vecino	26846	vecinos vecino vecina vecinas
+1083	sexual	26820	sexual sexuales
+1084	botella	26730	botella botellas
+1085	sonido	26574	sonido sonidos
+1086	arriesgar	26562	arriesgado arriesgar arriesgarme arriesgarse arriesgando arriesgarnos arriesga arriesgaré
+1087	defensa	26540	defensa defensas
+1088	acaso	26523	acaso
+1089	perseguir	26512	persiguiendo persigue perseguir persiguen perseguido persiguió perseguía perseguidos
+1090	turno	26360	turno turnos
+1091	lavar	26351	lavar lavado lavando lavarme lavarte lavo lávate lavarse
+1092	rendir	26321	rindo rendirse rindas rendir ríndete rendido rinde rendirme
+1093	dueño	26316	dueño dueños dueña
+1094	criar	26291	criada criado criar cría crió crié criados crías
+1095	ruido	26233	ruido ruidos
+1096	involucrar	26203	involucrado involucrada involucrados involucra involucrarme involucrar involucrarse involucrarte
+1097	quieto	26140	quieto quietos quieta quietas
+1098	laboratorio	26110	laboratorio laboratorios
+1099	silla	26109	silla sillas
+1100	código	26094	código códigos
+1101	rayo	26060	rayos rayo
+1102	nariz	26050	nariz narices
+1103	red	25999	red redes
+1104	emergencia	25995	emergencia emergencias
+1105	justicia	25899	justicia
+1106	archivo	25896	archivos archivo
+1107	condición	25895	condiciones condición
+1108	librar	25877	libras libres librarse librado librarme librar librarte librarnos
+1109	defender	25872	defender defenderse defendiendo defiende defenderme defendido defendió defenderte
+1110	disparo	25865	disparo disparos
+1111	celebrar	25854	celebrar celebrando celebrarlo celebramos celebra celebraremos celebran celebremos
+1112	charlar	25799	charles charlar charlas charlando charlamos charlemos
+1113	obviamente	25797	obviamente
+1114	desayunar	25776	desayuno desayunar desayunado desayunando desayuna desayunamos desayuné desayunaste
+1115	presión	25724	presión presiones
+1116	superar	25699	superar superado superarlo supera superó superé superan supéralo
+1117	militar	25683	militar militares
+1118	calor	25680	calor
+1119	proyecto	25665	proyecto proyectos
+1120	pedazo	25613	pedazo pedazos
+1121	detalle	25559	detalles detalle
+1122	reloj	25546	reloj relojes
+1123	cine	25538	cine cines
+1124	mejorar	25512	mejorar mejorando mejorado mejores mejore mejoras mejorará mejoró
+1125	memoria	25505	memoria memorias
+1126	intención	25467	intención intenciones
+1127	notar	25447	notado noté notar notó note notaste notará notarlo
+1128	absolutamente	25418	absolutamente
+1129	propósito	25305	propósito propósitos
+1130	profundar	25220	profundo profunda profundas
+1131	vacación	25186	vacaciones vacación
+1132	criminal	25166	criminal criminales
+1133	taxi	25147	taxi taxis
+1134	profesional	25043	profesional profesionales
+1135	vestido	24968	vestido
+1136	contrario	24889	contrario contraria contrarios
+1137	local	24858	local locales
+1138	grave	24830	grave graves
+1139	tiro	24823	tiro tiros
+1140	apuntar	24817	apunta apunto apuntando apuntar apunten apuntes apuntas apuntan
+1141	ruso	24814	rusos ruso rusa rusas
+1142	incluir	24811	incluyendo incluye incluido incluir incluida incluyen incluidos incluía
+1143	evidencia	24804	evidencia evidencias
+1144	confianza	24733	confianza
+1145	distinto	24729	distinto distintas distinta distintos
+1146	medir	24703	medida medidas mide medir medía mido miden medido
+1147	cuchillo	24686	cuchillo cuchillos
+1148	fijar	24673	fíjate fijado fija fíjese fijar fijé fijas fíjense
+1149	especialmente	24660	especialmente
+1150	diario	24634	diario diarios diaria diarias
+1151	embarazada	24625	embarazada
+1152	robo	24593	robo robos
+1153	enterrar	24573	enterrado enterrar enterrada enterrados enterró enterrarlo enterraron enterramos
+1154	durar	24532	durar dura durará duró dure duran durado duras
+1155	victoria	24528	victoria victorias
+1156	página	24527	página páginas p
+1157	montar	24515	montar montado montando monto montó montada montes montas
+1158	renunciar	24495	renunciar renuncio renunció renunciado renuncié renuncie renunciaste renunciaré
+1159	líder	24484	líder líderes
+1160	cabo	24461	cabo cabos
+1161	cantidad	24420	cantidad cantidades
+1162	inmediatamente	24410	inmediatamente
+1163	grabar	24373	grabar grabado grabando grabó grabada graba grabamos grabé
+1164	avanzar	24316	avanzar avanzando avanza avanzada avanzado avances avancen avanzados
+1165	necesidad	24285	necesidad necesidades
+1166	drogar	24185	drogas drogado drogada drogados drogó drogarse drogaron drogo
+1167	extrañar	24145	extraña extrañar extrañé extrañaré extrañas extrañaba extrañamos extrañado
+1168	marca	24141	marca marcas
+1169	puro	24137	pura puro puros puras
+1170	mono	24103	mono mona monos monas
+1171	menor	24042	menor menores
+1172	bola	24027	bola bolas
+1173	fingir	23938	fingir fingiendo finge fingió finjas finges fingía fingí
+1174	plato	23937	plato platos
+1175	política	23918	política políticas
+1176	viento	23910	viento vientos
+1177	leche	23885	leche leches
+1178	pieza	23800	pieza piezas
+1179	traje	23782	traje trajes
+1180	judío	23746	judíos judío judía judías
+1181	área	23728	área áreas
+1182	juzgar	23725	juzgado juzgar juzgando juzgados juzgues juzga juzgue juzgo
+1183	inspector	23713	inspector inspectora inspectores
+1184	bastardo	23688	bastardo bastardos bastarda
+1185	enfermero	23618	enfermera enfermeras enfermero enfermeros
+1186	conectar	23585	conectado conectar conectados conecta conectada conectadas conectando conecte
+1187	acostumbrar	23550	acostumbrado acostumbrada acostumbrados acostumbrarme acostumbrarse acostumbra acostumbras acostumbro
+1188	poderoso	23530	poderoso poderosa poderosos poderosas
+1189	colegio	23526	colegio colegios
+1190	fe	23518	fe
+1191	escoger	23466	escoger escogido escoge escogió escogí escogiste escoja escojo
+1192	proponer	23381	propuesta propongo propuso proponer propone propones propuestas propuse
+1193	honesto	23332	honesto honesta honestos honestas
+1194	lucha	23327	lucha luchas
+1195	partido	23304	partido
+1196	gastar	23279	gastar gastado gasta gastando gasté gastó gastamos gastan
+1197	cadáver	23277	cadáver cadáveres
+1198	vista	23231	vista
+1199	entrevistar	23194	entrevista entrevistas entrevistar entrevistado entrevistando entrevistó entrevisté entrevistarme
+1200	solamente	23166	solamente
