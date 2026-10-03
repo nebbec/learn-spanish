@@ -5,6 +5,7 @@ import { describe, expect, it } from "vitest";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { validateDeck } from "@/lib/deck/validate";
 import type { CallResult, DraftRequest, Runner } from "./claude";
+import { tipAudioPath } from "./audio.mjs";
 import { buildDeck, deckText, holdBackForTips } from "./deck-build";
 import { draftedWords, reviewCards } from "./reviewing";
 import { fakeReviewer, options, setup, usage } from "./review-fixture";
@@ -150,9 +151,9 @@ describe("tip files", () => {
       title: "Ser and estar",
       body: "First sentence. Second: with a colon inside. Third and fourth.",
       examples: [
-        { es: "Soy Ana.", en: "I'm Ana.", audio: "/deck/audio/tip-two-to-be.1.mp3" },
-        { es: "¿Eres de México?", en: "Are you from Mexico?", audio: "/deck/audio/tip-two-to-be.2.mp3" },
-        { es: "Estoy aquí.", en: "I'm here.", audio: "/deck/audio/tip-two-to-be.3.mp3" },
+        { es: "Soy Ana.", en: "I'm Ana.", audio: tipAudioPath("tip-two-to-be", 1, "Soy Ana.") },
+        { es: "¿Eres de México?", en: "Are you from Mexico?", audio: tipAudioPath("tip-two-to-be", 2, "¿Eres de México?") },
+        { es: "Estoy aquí.", en: "I'm here.", audio: tipAudioPath("tip-two-to-be", 3, "Estoy aquí.") },
       ],
     });
   });
@@ -264,5 +265,14 @@ describe("tips in the deck build", () => {
     const revised = buildDeck(env.drafts, env.store, first.deck, { tips: tipsForDeck(store, tipList).tips });
     expect(revised).toMatchObject({ changed: true, deck: { version: 2 } });
     expect(revised.deck?.tips[0].title).toBe("Ser and estar");
+
+    // An example said again (`npm run audio -- --redo tip-two-to-be.2`) names a new clip, and only that one.
+    const tips = tipsForDeck(store, tipList).tips;
+    const redone = buildDeck(env.drafts, env.store, revised.deck, { tips, takes: { "tip-two-to-be.2": 2 } });
+    const [before, after] = [revised, redone].map((b) => b.deck!.tips[0].examples.map((e) => e.audio));
+    expect(after[0]).toBe(before[0]);
+    expect(after[1]).not.toBe(before[1]);
+    expect(after[1]).toMatch(/^\/deck\/audio\/tip-two-to-be\.2\.[0-9a-f]{8}\.mp3$/);
+    expect(redone).toMatchObject({ changed: true, deck: { version: 3 } });
   });
 });

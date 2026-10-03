@@ -23,7 +23,7 @@ import path from "node:path";
 import { isDeepStrictEqual } from "node:util";
 import { DECK_FORMAT, type Card, type Deck, type DeckTip, type DeckUnit, type DraftCard } from "@/lib/deck/types";
 import { validateDeck, validateDraftCard } from "@/lib/deck/validate";
-import { audioPaths } from "./audio.mjs";
+import { audioPaths, tipAudioPaths } from "./audio.mjs";
 import { cardFromDecision, readDecision } from "./decisions";
 import { checkExamples, type ExampleCheck, type Lemmas } from "./known-words";
 import type { DraftStore } from "./drafting";
@@ -265,15 +265,17 @@ export function buildDeck(
 
   // Clip paths carry a hash of the clip's text and take (G2), so a corrected sentence names a new clip.
   const ordered = kept.map((card) => ({ ...card, audio: audioPaths(card, takes) }));
+  // Tip example clips are named the same way (L8), with their takes.
+  const shippedTips = tips.map((tip) => tipAudioPaths(tip, takes));
   const units: DeckUnit[] = (plan?.units ?? [])
     .filter((u) => ordered.some((c) => c.unit === u.id))
     .map(({ id, title, goal }) => ({ id, title, goal }));
   // A revised tip or unit is a new deck revision too.
   const changed =
     !previous ||
-    JSON.stringify([previous.units ?? [], previous.tips ?? [], previous.cards]) !== JSON.stringify([units, tips, ordered]);
+    JSON.stringify([previous.units ?? [], previous.tips ?? [], previous.cards]) !== JSON.stringify([units, shippedTips, ordered]);
   const version = !previous ? 1 : changed ? previous.version + 1 : previous.version;
-  const deck: Deck = { format: DECK_FORMAT, version, units, tips, cards: ordered };
+  const deck: Deck = { format: DECK_FORMAT, version, units, tips: shippedTips, cards: ordered };
   build.changed = changed;
 
   const notes = new Map<string, string>();

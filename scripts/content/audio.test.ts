@@ -1,5 +1,7 @@
+import { existsSync, readFileSync } from "node:fs";
+import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { fixtureCard } from "@/lib/deck/fixture";
+import { fixtureCard, fixtureDeck } from "@/lib/deck/fixture";
 import {
   ENCODING,
   audioPaths,
@@ -11,6 +13,9 @@ import {
   orphanClips,
   peakDb,
   pcmToFloat,
+  rawKey,
+  tipAudioPath,
+  tipAudioPaths,
   trimSilence,
 } from "./audio.mjs";
 
@@ -128,6 +133,51 @@ describe("audioPaths", () => {
   });
 });
 
+describe("form, phrase and tip clips (L8)", () => {
+  const tip = fixtureDeck.tips[0];
+
+  it("speaks a form card's own form and a phrase card's whole phrase as the word clip", () => {
+    expect(clipTexts(fixtureCard("ir-form-yo")).word).toBe("voy");
+    const phrase = fixtureCard("phrase-going-home");
+    expect(clipTexts(phrase)).toEqual({ word: phrase.es, sentence: phrase.example.es });
+    expect(audioPaths(phrase).word).toMatch(/^\/deck\/audio\/phrase-going-home\.word\.[0-9a-f]{8}\.mp3$/);
+  });
+
+  it("names a tip example's clip after the tip and the example's number, with a hash of its text and take", () => {
+    const paths = tipAudioPaths(tip).examples.map((e: { audio: string }) => e.audio);
+    expect(paths).toEqual([
+      expect.stringMatching(/^\/deck\/audio\/tip-verb-endings\.1\.[0-9a-f]{8}\.mp3$/),
+      expect.stringMatching(/^\/deck\/audio\/tip-verb-endings\.2\.[0-9a-f]{8}\.mp3$/),
+    ]);
+    expect(tipAudioPath(tip.id, 1, tip.examples[0].es)).toBe(paths[0]);
+    expect(tipAudioPath(tip.id, 1, "Voy al parque.")).not.toBe(paths[0]);
+    const redone = tipAudioPaths(tip, { "tip-verb-endings.2": 2 }).examples.map((e: { audio: string }) => e.audio);
+    expect(redone[0]).toBe(paths[0]);
+    expect(redone[1]).not.toBe(paths[1]);
+    // The text and fields other than audio are kept.
+    expect(tipAudioPaths(tip).examples.map(({ es, en }: { es: string; en: string }) => ({ es, en }))).toEqual(
+      tip.examples.map(({ es, en }) => ({ es, en })),
+    );
+  });
+
+  it("shares the raw answer between clips with the same text, unless a take differs", () => {
+    expect(rawKey("Voy a casa.")).toBe(rawKey("Voy a casa.", 1));
+    expect(rawKey("Voy a casa.", 2)).not.toBe(rawKey("Voy a casa."));
+  });
+
+  it("gives every fixture card and tip example the audio script's clip, and the file is there", () => {
+    const takesFile = path.join(process.cwd(), "content", "audio-takes.json");
+    const takes = existsSync(takesFile) ? JSON.parse(readFileSync(takesFile, "utf8")) : {};
+    for (const card of fixtureDeck.cards) expect(card.audio, card.id).toEqual(audioPaths(card, takes));
+    for (const t of fixtureDeck.tips) expect(t, t.id).toEqual(tipAudioPaths(t, takes));
+    const files = [
+      ...fixtureDeck.cards.flatMap((c) => [c.audio.word, c.audio.sentence]),
+      ...fixtureDeck.tips.flatMap((t) => t.examples.map((e) => e.audio)),
+    ];
+    expect(files.filter((f) => !existsSync(path.join(process.cwd(), "public", f)))).toEqual([]);
+  });
+});
+
 describe("normalizeSpoken", () => {
   it("ignores case, accents and punctuation, as a transcript differs in those", () => {
     expect(normalizeSpoken("¿Dónde está la calle?")).toBe("donde esta la calle");
@@ -187,6 +237,18 @@ describe("clipsToHear", () => {
     ]);
     expect(list[0].heard).toBe("Ich");
     expect(list[2].median).toBe(0.8);
+  });
+
+  it("leaves a phrase card's word clip out of the median and never lists it as long, and lists a flagged tip example", () => {
+    const more = [
+      ...clips,
+      { name: "phrase-going-home.word", clip: "word", phrase: true, url: "/p.mp3", text: "Me voy a casa.", seconds: 3 },
+      { name: "tip-a.1", clip: "example", url: "/t.mp3", text: "Voy a casa.", seconds: 3 },
+    ];
+    const list = clipsToHear(more, { ...heard, "/p.mp3": "Me voy a casa.", "/t.mp3": "Boy a casa." }, { "y-and.word": 2 });
+    expect(list.map((c: { name: string }) => c.name)).toEqual(["ir-go.word", "y-and.word", "mirar-look.word", "tip-a.1"]);
+    expect(list[2].median).toBe(0.8);
+    expect(list[3]).toMatchObject({ flagged: true, long: false });
   });
 
   it("leaves out a clip that was never transcribed", () => {

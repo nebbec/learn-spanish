@@ -10,6 +10,7 @@
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import type { DeckTip } from "@/lib/deck/types";
+import { tipAudioPath } from "./audio.mjs";
 import {
   Guard,
   runDraftTasks,
@@ -34,9 +35,6 @@ export const EXAMPLES = { min: 2, max: 3 };
 
 /** The lines of a tip file that carry a key. Every other line that is not a note is the body. */
 const KEY_LINE = /^(status|title|example)\s*:/i;
-
-/** An example's clip. A placeholder path until L8 makes the clips (with a hash in the name, as for cards). */
-export const tipAudio = (id: string, n: number) => `/deck/audio/${id}.${n}.mp3`;
 
 export interface TipJob {
   id: string;
@@ -213,13 +211,17 @@ export function parseTipFile(text: string): ParsedTip {
   return parsed;
 }
 
-/** The deck's entry for an approved tip: the body lines as one paragraph, each example with its clip's path. */
-export function deckTip(id: string, tip: ParsedTip): DeckTip {
+/**
+ * The deck's entry for an approved tip: the body lines as one paragraph, each
+ * example with its clip's path (`/deck/audio/<tip id>.<n>.<hash>.mp3`, L8). The
+ * deck build sets the paths again with the redone takes of content/audio-takes.json.
+ */
+export function deckTip(id: string, tip: ParsedTip, takes: Record<string, number> = {}): DeckTip {
   return {
     id,
     title: tip.title,
     body: tip.body.join(" "),
-    examples: tip.examples.map((e, i) => ({ es: e.es, en: e.en, audio: tipAudio(id, i + 1) })),
+    examples: tip.examples.map((e, i) => ({ es: e.es, en: e.en, audio: tipAudioPath(id, i + 1, e.es, takes) })),
   };
 }
 

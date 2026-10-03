@@ -1,13 +1,16 @@
 // G2: makes the word and sentence clips for every card in a deck file, with the
-// voice chosen in G1, and points each card's `audio` at them.
+// voice chosen in G1, and points each card's `audio` at them. A phrase card's word
+// clip speaks the whole phrase; each tip example gets a clip too, named
+// <tip id>.<n> (L8), and the tip's examples are pointed at them.
 //
 //   npm run audio                       every card in public/deck/deck.json
 //   npm run audio -- --deck FILE        another deck file
-//   npm run audio -- --limit N          only the first N cards by rank (a trial run)
+//   npm run audio -- --limit N          only the first N cards by rank, and no tips (a trial run)
 //   npm run audio -- --check            also transcribe each clip back, flag mismatches and write
 //                                       content/flagged-clips.html, the page for hearing them
 //                                       (with any word clip over twice the median word's length)
-//   npm run audio -- --redo ID.CLIP,... speak these clips again (e.g. lo-him.word), as a new take
+//   npm run audio -- --redo ID.CLIP,... speak these clips again (e.g. lo-him.word, or tip-past.2 for a
+//                                       tip's second example), as a new take
 //   npm run audio -- --prune            delete clips in public/deck/audio that neither the app's
 //                                       deck, content/deck.json nor the test fixture names
 //
@@ -35,6 +38,7 @@ import {
   orphanClips,
   pcmToFloat,
   rawKey,
+  tipAudioPaths,
 } from "./audio.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -75,7 +79,7 @@ async function api(url, init) {
  * for again, up to three times, and never cached.
  */
 async function speak(job) {
-  const file = path.join(CACHE, "raw", `${rawKey(job.card, job.clip, takes)}.pcm`);
+  const file = path.join(CACHE, "raw", `${rawKey(job.text, takes[job.name] ?? 1)}.pcm`);
   if (existsSync(file)) return { pcm: readFileSync(file), calls: 0 };
   for (let calls = 1; calls <= 3; calls++) {
     const res = await api("https://api.openai.com/v1/audio/speech", {
@@ -117,9 +121,15 @@ let deckText = readFileSync(deckFile, "utf8");
 const deck = JSON.parse(deckText);
 
 const takes = existsSync(TAKES) ? JSON.parse(readFileSync(TAKES, "utf8")) : {};
-const clipNames = new Set(deck.cards.flatMap((card) => CLIPS.map((clip) => `${card.id}.${clip}`)));
+const deckTips = deck.tips ?? [];
+const clipNames = new Set([
+  ...deck.cards.flatMap((card) => CLIPS.map((clip) => `${card.id}.${clip}`)),
+  ...deckTips.flatMap((tip) => tip.examples.map((_, i) => `${tip.id}.${i + 1}`)),
+]);
 const unknown = redo.filter((name) => !clipNames.has(name));
-if (unknown.length) throw new Error(`--redo: no such clip ${unknown.join(", ")}; write it as card-id.word or card-id.sentence`);
+if (unknown.length) {
+  throw new Error(`--redo: no such clip ${unknown.join(", ")}; write it as card-id.word, card-id.sentence or tip-id.N`);
+}
 for (const name of redo) takes[name] = (takes[name] ?? 1) + 1;
 if (redo.length) writeFileSync(TAKES, JSON.stringify(takes, null, 2) + "\n");
 const cards = deck.cards
@@ -128,11 +138,37 @@ const cards = deck.cards
   .slice(0, limit)
   .map(({ card }) => card);
 
-const jobs = cards.flatMap((card) => {
-  const paths = audioPaths(card, takes);
-  const texts = clipTexts(card);
-  return CLIPS.map((clip) => ({ card, clip, text: texts[clip], url: paths[clip], file: path.join(PUBLIC, paths[clip]) }));
-});
+// A trial run (--limit) leaves the tips out.
+const tips = Number.isFinite(limit) ? [] : deckTips;
+
+// One job per clip: `name` is what --redo and content/audio-takes.json call it, and
+// `owner` the card or tip id the listening page shows.
+const jobs = [
+  ...cards.flatMap((card) => {
+    const paths = audioPaths(card, takes);
+    const texts = clipTexts(card);
+    return CLIPS.map((clip) => ({
+      name: `${card.id}.${clip}`,
+      owner: card.id,
+      clip,
+      phrase: card.kind === "phrase",
+      text: texts[clip],
+      url: paths[clip],
+      file: path.join(PUBLIC, paths[clip]),
+    }));
+  }),
+  ...tips.flatMap((tip) =>
+    tipAudioPaths(tip, takes).examples.map((example, i) => ({
+      name: `${tip.id}.${i + 1}`,
+      owner: tip.id,
+      clip: "example",
+      phrase: false,
+      text: example.es,
+      url: example.audio,
+      file: path.join(PUBLIC, example.audio),
+    })),
+  ),
+];
 
 const counts = { made: 0, kept: 0, calls: 0, limited: 0, failed: 0 };
 const failed = [];
@@ -151,44 +187,60 @@ await each(jobs, async (job) => {
     if (out.limited) counts.limited++;
   } catch (err) {
     counts.failed++;
-    failed.push(`${job.card.id}.${job.clip}`);
-    if (counts.failed === 1) console.log(`first failure, ${job.card.id}.${job.clip}: ${err.message}`);
+    failed.push(job.name);
+    if (counts.failed === 1) console.log(`first failure, ${job.name}: ${err.message}`);
   }
 });
 
 // Point each card at its clips by replacing the old path strings, which keeps the
-// deck file's layout. Only cards whose clips both exist are changed.
+// deck file's layout. Only cards whose clips both exist, and tips whose example
+// clips all exist, are changed.
 let repointed = 0;
+const repoint = (from, to) => {
+  if (from === to) return;
+  deckText = deckText.replace(JSON.stringify(from), JSON.stringify(to));
+  repointed++;
+};
 for (const card of cards) {
   const paths = audioPaths(card, takes);
   if (!CLIPS.every((clip) => existsSync(path.join(PUBLIC, paths[clip])))) continue;
   for (const clip of CLIPS) {
-    if (card.audio[clip] === paths[clip]) continue;
-    deckText = deckText.replace(JSON.stringify(card.audio[clip]), JSON.stringify(paths[clip]));
+    repoint(card.audio[clip], paths[clip]);
     card.audio[clip] = paths[clip];
-    repointed++;
   }
+}
+for (const tip of tips) {
+  const examples = tipAudioPaths(tip, takes).examples;
+  if (!examples.every((example) => existsSync(path.join(PUBLIC, example.audio)))) continue;
+  examples.forEach((example, i) => {
+    repoint(tip.examples[i].audio, example.audio);
+    tip.examples[i].audio = example.audio;
+  });
 }
 if (repointed) writeFileSync(deckFile, deckText);
 
 console.log(
-  `cards ${cards.length}, clips: ${counts.made} made (${counts.calls} API calls), ${counts.kept} already there, ` +
+  `cards ${cards.length}, tips ${tips.length}, clips: ${counts.made} made (${counts.calls} API calls), ${counts.kept} already there, ` +
     `${counts.failed} failed, ${counts.limited} short of ${ENCODING.lufs} LUFS by the peak ceiling; ` +
     `${repointed} deck paths updated`,
 );
 if (failed.length) console.log(`failed: ${failed.join(" ")}`);
 
 const sizes = Object.fromEntries(
-  CLIPS.map((clip) => [clip, jobs.filter((j) => j.clip === clip && existsSync(j.file)).map((j) => statSync(j.file).size)]),
+  [...CLIPS, "example"].map((clip) => [clip, jobs.filter((j) => j.clip === clip && existsSync(j.file)).map((j) => statSync(j.file).size)]),
 );
 const kb = (n) => (n / 1024).toFixed(1);
 const avg = (list) => list.reduce((a, b) => a + b, 0) / (list.length || 1);
 const total = [...sizes.word, ...sizes.sentence].reduce((a, b) => a + b, 0);
 console.log(
-  `size: ${kb(total)} KB in ${sizes.word.length + sizes.sentence.length} clips; ` +
+  `size: ${kb(total)} KB in ${sizes.word.length + sizes.sentence.length} card clips; ` +
     `average word ${kb(avg(sizes.word))} KB, sentence ${kb(avg(sizes.sentence))} KB; ` +
     `at that rate 1,000 cards would be ${((1000 * (avg(sizes.word) + avg(sizes.sentence))) / 1024 / 1024).toFixed(1)} MB`,
 );
+if (sizes.example.length) {
+  const tipTotal = sizes.example.reduce((a, b) => a + b, 0);
+  console.log(`tip examples: ${kb(tipTotal)} KB in ${sizes.example.length} clips`);
+}
 
 if (check) {
   // What the transcriber heard is kept per clip path, so a rerun only checks new clips.
@@ -200,21 +252,29 @@ if (check) {
     try {
       heard[job.url] = await transcribe(readFileSync(job.file));
     } catch (err) {
-      console.log(`transcribing ${job.card.id}.${job.clip} failed: ${err.message}`);
+      console.log(`transcribing ${job.name} failed: ${err.message}`);
     }
   });
   writeFileSync(heardFile, JSON.stringify(heard, null, 1));
   const flagged = present.filter((j) => j.url in heard && normalizeSpoken(heard[j.url]) !== normalizeSpoken(j.text));
-  const rows = flagged.map((j) => [`${j.card.id}.${j.clip}`, j.text, heard[j.url]].join("\t"));
+  const rows = flagged.map((j) => [j.name, j.text, heard[j.url]].join("\t"));
   writeFileSync(path.join(CACHE, "flagged.tsv"), ["clip\texpected\theard", ...rows].join("\n") + "\n");
   console.log(`check: ${present.length} clips, ${flagged.length} flagged (content/.cache/audio/flagged.tsv)`);
-  if (flagged.length) console.log(`flagged: ${flagged.map((j) => `${j.card.id}.${j.clip}`).join(" ")}`);
+  if (flagged.length) console.log(`flagged: ${flagged.map((j) => j.name).join(" ")}`);
 
   // The page a person hears them on: the flagged clips and every redone take, played
   // from public/deck/audio by a path relative to the page.
   // A clip's length from its size, as the MP3 is constant bitrate.
   const seconds = (file) => (statSync(file).size * 8) / (ENCODING.kbps * 1000);
-  const clips = present.map((j) => ({ name: `${j.card.id}.${j.clip}`, card: j.card.id, clip: j.clip, url: j.url, text: j.text, seconds: seconds(j.file) }));
+  const clips = present.map((j) => ({
+    name: j.name,
+    card: j.owner,
+    clip: j.clip,
+    phrase: j.phrase,
+    url: j.url,
+    text: j.text,
+    seconds: seconds(j.file),
+  }));
   const toHear = clipsToHear(clips, heard, takes).map(({ url, ...clip }) => ({ ...clip, src: `../public${url}` }));
   const data = { deck: path.relative(ROOT, deckFile), clips: toHear };
   const page = readFileSync(PAGE_TEMPLATE, "utf8").replace("/*DATA*/null", () => JSON.stringify(data).replace(/</g, "\\u003c"));

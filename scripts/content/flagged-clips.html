@@ -97,8 +97,8 @@ for (const clip of DATA.clips) {
   const why = reasons.join(" ");
   const item = el("div", { className: "item" },
     el("div", { className: "meta" },
-      el("span", { className: "tag", textContent: clip.clip === "word" ? "Word" : "Sentence" }),
-      el("span", { textContent: `card ${clip.card}` }),
+      el("span", { className: "tag", textContent: clip.clip === "example" ? "Tip example" : clip.phrase && clip.clip === "word" ? "Phrase" : clip.clip === "word" ? "Word" : "Sentence" }),
+      el("span", { textContent: `${clip.clip === "example" ? "tip" : "card"} ${clip.card}` }),
       ...(clip.take > 1 ? [el("span", { className: "tag", textContent: `said again (take ${clip.take})` })] : [])),
     el("p", { className: "text", lang: "es", textContent: clip.text }),
     el("p", { className: "why", textContent: why }),

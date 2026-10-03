@@ -11,8 +11,8 @@
       "title": "Verbs change with who does them",
       "body": "In English most verbs stay the same: I go, you go. In Spanish the ending changes with the person. Voy means I go, and vas means you go. Because the ending already says who, Spanish usually leaves out yo and tú.",
       "examples": [
-        { "es": "Voy a casa.", "en": "I'm going home.", "audio": "/deck/audio/tip-verb-endings.1.wav" },
-        { "es": "¿Vas a casa?", "en": "Are you going home?", "audio": "/deck/audio/tip-verb-endings.2.wav" }
+        { "es": "Voy a casa.", "en": "I'm going home.", "audio": "/deck/audio/tip-verb-endings.1.a12bcfc8.mp3" },
+        { "es": "¿Vas a casa?", "en": "Are you going home?", "audio": "/deck/audio/tip-verb-endings.2.f84d48e9.mp3" }
       ]
     }
   ],
@@ -30,7 +30,7 @@
       "spain": null,
       "trick": null,
       "image": "/deck/img/ir-go.svg",
-      "audio": { "word": "/deck/audio/ir-form-yo.word.wav", "sentence": "/deck/audio/ir-form-yo.sentence.wav" },
+      "audio": { "word": "/deck/audio/ir-form-yo.word.a0309588.mp3", "sentence": "/deck/audio/ir-form-yo.sentence.61034667.mp3" },
       "unit": "where-i-go",
       "requires": [],
       "tip": "tip-verb-endings",
@@ -49,7 +49,7 @@
       "spain": null,
       "trick": "VAS sounds like \"VAST\": you go across a vast field.",
       "image": "/deck/img/ir-go.svg",
-      "audio": { "word": "/deck/audio/ir-form-tu.word.wav", "sentence": "/deck/audio/ir-form-tu.sentence.wav" },
+      "audio": { "word": "/deck/audio/ir-form-tu.word.397704de.mp3", "sentence": "/deck/audio/ir-form-tu.sentence.192cb6ec.mp3" },
       "unit": "where-i-go",
       "requires": [],
       "tip": "tip-verb-endings",
@@ -87,7 +87,7 @@
       "spain": null,
       "trick": null,
       "image": null,
-      "audio": { "word": "/deck/audio/phrase-going-home.word.wav", "sentence": "/deck/audio/phrase-going-home.sentence.wav" },
+      "audio": { "word": "/deck/audio/phrase-going-home.word.a12bcfc8.mp3", "sentence": "/deck/audio/phrase-going-home.sentence.c15dd96b.mp3" },
       "unit": "where-i-go",
       "requires": ["ir-form-yo", "casa-house"],
       "tip": null,
@@ -144,7 +144,7 @@
       "spain": null,
       "trick": null,
       "image": null,
-      "audio": { "word": "/deck/audio/phrase-thats-great.word.wav", "sentence": "/deck/audio/phrase-thats-great.sentence.wav" },
+      "audio": { "word": "/deck/audio/phrase-thats-great.word.8e431f03.mp3", "sentence": "/deck/audio/phrase-thats-great.sentence.d24d83cd.mp3" },
       "unit": "good-things",
       "requires": ["bueno-good"],
       "tip": null,

@@ -26,7 +26,10 @@ export const ENCODING = {
   fadeMs: 5,
 };
 
-/** The text each clip speaks: the Spanish as the reveal shows it, and the example sentence. */
+/**
+ * The text each clip speaks: the Spanish as the reveal shows it, and the example
+ * sentence. A phrase card's word clip speaks the whole phrase (L8), as its `es` is it.
+ */
 export function clipTexts(card) {
   return { word: card.es, sentence: card.example.es };
 }
@@ -36,33 +39,51 @@ function hash(value) {
 }
 
 /**
- * The take of a clip: 1 unless `takes` (content/audio-takes.json, written by
+ * The take of a clip, by its name (`<card id>.word`, `<card id>.sentence` or
+ * `<tip id>.<n>`): 1 unless `takes` (content/audio-takes.json, written by
  * `--redo`) says a person asked for it to be spoken again.
  */
-function take(takes, card, clip) {
-  return takes[`${card.id}.${clip}`] ?? 1;
+function take(takes, name) {
+  return takes[name] ?? 1;
 }
 
 /** The name of the API's raw answer for a clip in the download cache. */
-export function rawKey(card, clip, takes = {}) {
-  const t = take(takes, card, clip);
-  return hash({ text: clipTexts(card)[clip], ...VOICE, ...(t > 1 && { take: t }) }).slice(0, 16);
+export function rawKey(text, t = 1) {
+  return hash({ text, ...VOICE, ...(t > 1 && { take: t }) }).slice(0, 16);
 }
 
 /**
- * The card's `audio` field. A path carries a hash of what made the clip, so a
- * corrected sentence, a new voice or a redone take gets a new path: the app never
- * refreshes a stored file (design.md, Installable app), so a changed clip must
- * not reuse one.
+ * A clip's path: `/deck/audio/<name>.<hash>.mp3`, the hash taken over what made the
+ * clip, so a corrected text, a new voice, a re-encode or a redone take gets a new
+ * path: the app never refreshes a stored file (design.md, Installable app), so a
+ * changed clip must not reuse one.
  */
+function clipPath(name, text, takes) {
+  const t = take(takes, name);
+  const made = { text, ...VOICE, ...ENCODING, ...(t > 1 && { take: t }) };
+  return `/deck/audio/${name}.${hash(made).slice(0, 8)}.mp3`;
+}
+
+/** The card's `audio` field. */
 export function audioPaths(card, takes = {}) {
   const texts = clipTexts(card);
-  const path = (clip) => {
-    const t = take(takes, card, clip);
-    const made = { text: texts[clip], ...VOICE, ...ENCODING, ...(t > 1 && { take: t }) };
-    return `/deck/audio/${card.id}.${clip}.${hash(made).slice(0, 8)}.mp3`;
+  return {
+    word: clipPath(`${card.id}.word`, texts.word, takes),
+    sentence: clipPath(`${card.id}.sentence`, texts.sentence, takes),
   };
-  return { word: path("word"), sentence: path("sentence") };
+}
+
+/**
+ * A tip example's clip (L8): `/deck/audio/<tip id>.<n>.<hash>.mp3`, `n` counting
+ * the tip's examples from 1, speaking the example's Spanish.
+ */
+export function tipAudioPath(tipId, n, text, takes = {}) {
+  return clipPath(`${tipId}.${n}`, text, takes);
+}
+
+/** The tip with each example's `audio` set to its clip's path. */
+export function tipAudioPaths(tip, takes = {}) {
+  return { ...tip, examples: tip.examples.map((e, i) => ({ ...e, audio: tipAudioPath(tip.id, i + 1, e.es, takes) })) };
 }
 
 /** 16-bit little-endian samples to floats from -1 to 1. */
@@ -230,16 +251,19 @@ export function orphanClips(files, decks) {
  * word clip more than twice as long as the median word clip (`long`), as a pause
  * or an extra sound there passes the transcriber; and every clip said again with
  * `--redo`, since a new take the checks pass has still not been heard. `clips`
- * are `{ name, clip, url, text, seconds }` in deck order, `clip` being "word" or
- * "sentence"; `heard` maps a clip's url to its transcript.
+ * are `{ name, clip, url, text, seconds, phrase? }` in deck order, `clip` being
+ * "word", "sentence" or "example" (a tip example, L8); `heard` maps a clip's url to
+ * its transcript. A phrase card's word clip (`phrase: true`) speaks a whole phrase,
+ * so it is neither counted in the median nor listed as long.
  */
 export function clipsToHear(clips, heard, takes) {
-  const words = clips.filter((c) => c.clip === "word").map((c) => c.seconds).sort((a, b) => a - b);
+  const isWord = (c) => c.clip === "word" && !c.phrase;
+  const words = clips.filter(isWord).map((c) => c.seconds).sort((a, b) => a - b);
   const median = words.length ? words[Math.floor(words.length / 2)] : Infinity;
   return clips.flatMap((clip) => {
     if (!(clip.url in heard)) return [];
     const flagged = normalizeSpoken(heard[clip.url]) !== normalizeSpoken(clip.text);
-    const long = clip.clip === "word" && clip.seconds > 2 * median;
+    const long = isWord(clip) && clip.seconds > 2 * median;
     const take = takes[clip.name] ?? 1;
     return flagged || long || take > 1 ? [{ ...clip, heard: heard[clip.url], flagged, long, median, take }] : [];
   });
