@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, type ReactNode } from "react";
+import { MuteButton } from "@/components/audio";
 
 export interface BatchFrameProps {
   /** Cards in the batch. Grows by one when a red brings a card back. */
@@ -17,7 +18,8 @@ export interface BatchFrameProps {
 /**
  * The Stories-style frame around a batch: a segmented bar with one segment per
  * card, and the card below it. Fills the screen and turns off overscroll, so a
- * swipe down reveals the card instead of pulling the page to refresh.
+ * swipe down reveals the card instead of pulling the page to refresh. The mute
+ * button is always in the top bar.
  */
 export function BatchFrame({ total, index, onClose, title, children }: BatchFrameProps) {
   // Pull-to-refresh is decided by the root element, not by this container.
@@ -35,6 +37,7 @@ export function BatchFrame({ total, index, onClose, title, children }: BatchFram
       <div className="mx-auto flex h-full max-w-md flex-col gap-4 p-4">
         <header className="flex items-center gap-3">
           <SegmentedBar total={total} index={index} />
+          <MuteButton />
           {onClose && (
             <button
               type="button"

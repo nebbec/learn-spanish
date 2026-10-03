@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { DownloadEverything, SignIn } from "@/components/settings";
+import { AutoplaySwitch, DownloadEverything, SignIn } from "@/components/settings";
 import { SyncPanel } from "@/components/sync";
 import { ROUTES } from "@/lib/routes";
 
@@ -10,6 +10,7 @@ export default function SettingsPage() {
         ← Menu
       </Link>
       <h1 className="font-display text-prompt font-bold">Settings</h1>
+      <AutoplaySwitch />
       <DownloadEverything />
       <SignIn />
       <SyncPanel />

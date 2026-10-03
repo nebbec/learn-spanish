@@ -6,6 +6,7 @@ export default defineConfig({
   },
   test: {
     include: ["**/*.test.ts", "**/*.test.tsx"],
+    setupFiles: ["./vitest.setup.ts"],
     // `*.live.test.ts` run against the real Supabase project, only through their npm script.
     exclude: ["node_modules/**", ".next/**", ...(process.env.LIVE_CHECK ? [] : ["**/*.live.test.ts"])],
   },

@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useMotion } from "@/components/motion";
 import type { DeckTip } from "@/lib/deck";
-import { AudioButton, playClip } from "./Reveal";
+import { playClip } from "@/components/audio";
+import { AudioButton } from "./Reveal";
 
 interface TipBodyProps {
   tip: DeckTip;

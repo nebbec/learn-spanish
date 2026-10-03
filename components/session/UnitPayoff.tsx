@@ -1,6 +1,6 @@
 "use client";
 
-import { playClip } from "@/components/card";
+import { playClip } from "@/components/audio";
 import { AudioButton } from "@/components/card/Reveal";
 import type { Card, DeckUnit } from "@/lib/deck";
 

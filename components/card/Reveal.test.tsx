@@ -141,16 +141,16 @@ describe("Reveal, why line", () => {
 });
 
 describe("Reveal, audio", () => {
-  it("each button plays its own clip, and nothing plays on render", () => {
+  it("each button plays its own clip, and only the word plays on render", () => {
     const card = fixtureCard("casa-house");
     const onPlay = vi.fn();
     render(<Reveal card={card} onRate={() => {}} onPlay={onPlay} />);
-    expect(onPlay).not.toHaveBeenCalled();
+    expect(onPlay.mock.calls).toEqual([[card.audio.word]]);
     click("play-word");
     expect(onPlay).toHaveBeenLastCalledWith(card.audio.word);
     click("play-sentence");
     expect(onPlay).toHaveBeenLastCalledWith(card.audio.sentence);
-    expect(onPlay).toHaveBeenCalledTimes(2);
+    expect(onPlay).toHaveBeenCalledTimes(3);
     expect(q("play-word")!.getAttribute("aria-label")).toBe("Play the word");
     expect(q("play-sentence")!.getAttribute("aria-label")).toBe("Play the sentence");
   });
@@ -165,6 +165,7 @@ describe("Reveal, audio", () => {
           played.push(this.src);
           return Promise.reject(new Error("not allowed"));
         }
+        pause() {}
       },
     );
     const card = fixtureCard("ir-go");
@@ -172,7 +173,8 @@ describe("Reveal, audio", () => {
     click("play-word");
     click("play-sentence");
     await Promise.resolve();
-    expect(played).toEqual([card.audio.word, card.audio.sentence]);
+    // The first is the word playing by itself as the reveal opens.
+    expect(played).toEqual([card.audio.word, card.audio.word, card.audio.sentence]);
   });
 });
 

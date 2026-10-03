@@ -1,11 +1,12 @@
 "use client";
 
+import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
 import type { Card, DeckTip } from "@/lib/deck";
 import type { IntroChoice } from "@/lib/queues";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
-import { AudioButton, GrammarStrip, Meaning, playClip, WhyLine } from "./Reveal";
+import { AudioButton, GrammarStrip, Meaning, WhyLine } from "./Reveal";
 import { TipButton } from "./Tip";
 
 export interface IntroProps {
@@ -27,10 +28,11 @@ export interface IntroProps {
  * A new card shown before its first test, in Learn: the character, the Spanish with its
  * audio, the English, the grammar strip and the `why` line. "Got it" sends the card on to
  * its test later in the batch; "I already know this" rates it `known`. Never rated as a
- * test. See "Intro, then test" in docs/design.md.
+ * test. The word clip plays when it opens, unless muted. See "Intro, then test" in docs/design.md.
  */
 export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: IntroProps) {
   const motion = useMotion();
+  useAutoplay(card.audio.word, onPlay);
   return (
     <div
       data-testid="intro"

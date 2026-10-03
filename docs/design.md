@@ -338,7 +338,7 @@ Decided in L10 (steps in `lib/queues/queues.ts`, run by `useSession`; the screen
 - **A batch is a list of steps**, `{ kind: "intro" | "test", card }`, one segment each. `learnBatch` returns an intro for each of the first `batchSize` unseen cards, and no tests: a card's test joins when its intro is passed. Practice passes `testSteps(cards)`, so it has no intros. With every intro passed, a batch runs three intros, their three tests, the next three intros, and so on; a batch of 15 is 30 steps before any red.
 - **"Got it"** stores nothing and puts the card's test `TEST_DELAY` (3) steps later (`afterIntro`), or at the end if fewer steps remain, so a red that returned earlier can come before the last card's test. **"I already know this"** stores the rating `known` at once, forward, section `learn`, and adds no test; the card is seen and belongs to Practice. A red brings a test back once, as before; an intro is not a showing.
 - **`known` is a fourth stored rating**, not a button: `RATINGS` is `good`, `nearly`, `again`, `known`, and `ButtonRating` is the reveal's three. The scheduler maps `known` to Easy and green to Good on every view, first test included (`toFsrsGrade(rating)` no longer takes a first-view flag). Summaries count `known` as green; Struggling ignores it, as any non-red. Old reviews keep their stored value, so a green stored as a first view before L10 now replays as Good; Courtney's reset (L15) makes that moot.
-- **The intro screen** shows "New card", the character (popping in, as on the front), the Spanish with its audio button, the part of speech, the English with its hint, the grammar strip and the `why` line, then "I already know this" (green, soft) and "Got it" (brand). No example: it is a test's answer side. The word clip does not play by itself yet (L14), and the tip's "?" is L11's.
+- **The intro screen** shows "New card", the character (popping in, as on the front), the Spanish with its audio button, the part of speech, the English with its hint, the grammar strip and the `why` line, then "I already know this" (green, soft) and "Got it" (brand). No example: it is a test's answer side. The word clip plays by itself when it opens (L14), and the tip's "?" is L11's.
 - **A later meaning's line**, "You know *esperar* = to wait. It also means:", is worked out as the screen shows (`earlierMeaning`): a seen content or glue card of the same rank, the nearest one before it in the deck, so a meaning seen earlier in the same batch counts. Form and phrase cards borrow a rank and are left out on both sides. A glue card is named by its target (`de = of`).
 - **Supabase** checks `reviews.rating` against the four values (the migration replaces `reviews_rating_check`), and `npm run check:rls` checks that a `known` review is accepted and any other value refused. Until the migration is pushed, the server refuses a `known` review, so it must be pushed before this ships.
 
@@ -385,6 +385,16 @@ Decided in L12 (`lib/queues/units.ts`: `learnCut`, `unitName`, `isUnitComplete`,
 - The word clip plays by itself on the intro and when the reveal opens; the sentence clip is a tap away.
 - **A mute button is always on the card screen**, in the batch frame's top bar. Muting stops any clip playing and stops clips playing by themselves; the audio buttons still play when tapped. One switch, the same as "Play audio by itself" in settings, kept on the device in `localStorage` (`learn-spanish.muted`). On by default (not muted).
 - In the starter path the forward front says "Say it out loud" under the prompt.
+
+Decided in L14 (`components/audio/`, `components/card/BatchFrame.tsx`, `CardFront.tsx`, `components/settings/AutoplaySwitch.tsx`):
+
+- **One player, one clip at a time.** `playClip` (now in `components/audio`) stops the clip playing before it starts the next, and remembers it so that muting can stop it. Tapped buttons and the word playing by itself go through the same `onPlay`.
+- **The word plays once per intro or reveal**: when it mounts, and again only if the card changes (`useAutoplay`). The reveal drawn again for the character's jump or droop does not replay it. Practice's reveal plays it too. Muted is read at that moment, so muting mid-card stops the clip and nothing restarts it.
+- **The mute button** is a speaker icon in the batch frame's top bar, between the segmented bar and the close button, on every step and on the batch end: `aria-label="Mute"` with `aria-pressed`, crossed out and red when muted. **The settings switch** is a "Sound" section at the top of settings, "Play audio by itself", on when not muted. Both read one store (`useMuted`, `useSyncExternalStore`), so they agree on screen and across tabs (the `storage` event).
+- **Storage**: `learn-spanish.muted` holds `"1"` when muted and is removed when not, so a missing key means audio plays by itself. Storage that refuses the write keeps the switch for the page's life.
+- **Mute covers only clips playing by themselves.** The tip screen's and the payoff's clips play only on a tap, so they are not touched.
+- **"Say it out loud"** is a bold `brand` line under the hint of the forward front of any card with a `unit`: content and form cards (`ContentFace`), phrase cards (`PhraseFace`) and glue cards (`GlueFace`). Not on reverse fronts or frequency-phase cards.
+- **Tests**: `vitest.setup.ts` stubs jsdom's `HTMLMediaElement.play` and `pause`, which only log "Not implemented", since every intro and reveal now plays a clip. Tests that check playback pass `onPlay` or stub `Audio`.
 
 ### Reset
 
@@ -854,7 +864,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L11 | Tips in the app | L2, L10 | | Done |
 | L12 | Units in Learn | L2, L10 | | Done |
 | L13 | Form, phrase and contrast layouts | L2 | | Done |
-| L14 | Audio by itself, mute, say it out loud | none | | Todo |
+| L14 | Audio by itself, mute, say it out loud | none | | Done |
 | L15 | Reset on the device | none | | Todo |
 | L16 | Reset sync | L15 | | Todo |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Todo |
@@ -1182,6 +1192,8 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L14 Audio by itself, mute, say it out loud**
 - Build: the word clip plays when an intro or reveal opens; the mute button in `BatchFrame` and the matching settings switch, kept in `localStorage` under `learn-spanish.muted`; muting stops a playing clip; "Say it out loud" under the forward prompt of a card with a `unit`.
 - Done when: under test, a reveal plays its word clip unmuted and not muted, a tapped button plays either way, and the mute state survives a reload.
+- Note (L14): done 2026-10-03. Decisions are under [Hear it, say it](#hear-it-say-it), "Decided in L14". New `components/audio/` (`playClip`, `stopClip`, `isMuted`, `setMuted`, `useMuted`, `useAutoplay`, `MUTED_KEY`, `MuteButton`); `playClip` moved there from Reveal.tsx and is still exported from `@/components/card`. `Intro` and `Reveal` call `useAutoplay(card.audio.word, onPlay)`. Settings has `AutoplaySwitch`. Tests: components/audio/audio.test.tsx (autoplay on reveal and intro, unmuted and muted; tapped buttons either way; mute stops a playing clip; the switch survives a remount and is read from storage; settings switch and mute button agree; "Say it out loud" on unit cards only); Reveal.test.tsx now expects the word on render.
+- Note (L14): for later tickets. L17: on the phone, check that the word plays by itself on the first intro after the menu tap and on each reveal (iOS may refuse a play without a tap; `playClip` swallows that), and that the mute button fits beside the bar and the close button. Test ids: `mute`, `autoplay-switch`, `say-it`.
 
 **L15 Reset on the device**
 - Build: a `resets` store (Dexie schema version bump), a "Start over" button in settings with a confirmation, and one filter used everywhere reviews are read for state (replay, queues, wheel, Struggling, media keeping) that drops reviews at or before the latest reset.

@@ -1,6 +1,7 @@
 "use client";
 
 import { Fragment, type ReactNode } from "react";
+import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
 import type { Card, DeckTip } from "@/lib/deck";
 import { FORM_ID } from "@/lib/deck/validate";
@@ -15,12 +16,6 @@ export const RATING_BUTTONS: { rating: ButtonRating; label: string; className: s
   { rating: "nearly", label: "Nearly", className: "bg-nearly text-on-nearly" },
   { rating: "good", label: "Got it", className: "bg-good text-on-good" },
 ];
-
-/** Plays one deck clip. Playback can be refused (no clip cached while offline); that is not an error worth showing. */
-export function playClip(src: string) {
-  const clip = new Audio(src);
-  void Promise.resolve(clip.play()).catch(() => {});
-}
 
 export interface RevealProps {
   card: Card;
@@ -42,10 +37,12 @@ export interface RevealProps {
 /**
  * The answer side of a card: the Spanish, its grammar, the example sentence and
  * audio, with the three rating buttons pinned to the bottom. It looks the same
- * in both directions, so it takes no `direction`.
+ * in both directions, so it takes no `direction`. The word clip plays when it
+ * opens, unless muted.
  */
 export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", children, tip }: RevealProps) {
   const motion = useMotion();
+  useAutoplay(card.audio.word, onPlay);
   return (
     <div
       data-testid="reveal"

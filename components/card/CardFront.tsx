@@ -91,6 +91,7 @@ function ContentFace({ card }: { card: Card }) {
           {card.en}
         </span>
         <Hint hint={card.hint} />
+        <SayIt card={card} />
       </span>
     </>
   );
@@ -108,6 +109,7 @@ function GlueFace({ card }: { card: Card }) {
         {after}
       </span>
       <Hint hint={card.hint} />
+      <SayIt card={card} />
     </span>
   );
 }
@@ -120,6 +122,7 @@ function PhraseFace({ card }: { card: Card }) {
         {card.en}
       </span>
       <Hint hint={card.hint} />
+      <SayIt card={card} />
     </span>
   );
 }
@@ -132,6 +135,16 @@ function ReverseFace({ card }: { card: Card }) {
         {card.es}
       </span>
       <span className="text-ink-soft">What does it mean?</span>
+    </span>
+  );
+}
+
+/** In the starter path (a card with a unit), the forward front asks for the answer out loud. */
+function SayIt({ card }: { card: Card }) {
+  if (!card.unit) return null;
+  return (
+    <span data-testid="say-it" className="text-base font-bold text-brand">
+      Say it out loud
     </span>
   );
 }
