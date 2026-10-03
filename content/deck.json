@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "cards": [
     {
       "id": "ser-be-identity",
@@ -25,8 +25,8 @@
       "trick": "SER sounds like sir: being called sir is part of who you are, your identity.",
       "image": "/deck/img/ser-be-identity.webp",
       "audio": {
-        "word": "/deck/audio/ser-be-identity.word.mp3",
-        "sentence": "/deck/audio/ser-be-identity.sentence.mp3"
+        "word": "/deck/audio/ser-be-identity.word.ac464949.mp3",
+        "sentence": "/deck/audio/ser-be-identity.sentence.927fb20d.mp3"
       }
     },
     {
@@ -53,8 +53,8 @@
       "trick": "TENER sounds like 'tenant': a tenant has a place to live.",
       "image": "/deck/img/tener-have.webp",
       "audio": {
-        "word": "/deck/audio/tener-have.word.mp3",
-        "sentence": "/deck/audio/tener-have.sentence.mp3"
+        "word": "/deck/audio/tener-have.word.10555d5c.mp3",
+        "sentence": "/deck/audio/tener-have.sentence.b9d08d80.mp3"
       }
     },
     {
@@ -74,8 +74,8 @@
       "trick": "DE sounds like day: a cup OF coffee starts the day.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/de-of.word.mp3",
-        "sentence": "/deck/audio/de-of.sentence.mp3"
+        "word": "/deck/audio/de-of.word.d852311f.mp3",
+        "sentence": "/deck/audio/de-of.sentence.99d92eab.mp3"
       }
     },
     {
@@ -102,8 +102,8 @@
       "trick": "TENER QUE sounds like 'ten okay': you have to do ten push-ups before it's okay.",
       "image": "/deck/img/tener-have-to.webp",
       "audio": {
-        "word": "/deck/audio/tener-have-to.word.mp3",
-        "sentence": "/deck/audio/tener-have-to.sentence.mp3"
+        "word": "/deck/audio/tener-have-to.word.10555d5c.mp3",
+        "sentence": "/deck/audio/tener-have-to.sentence.dc0ddc91.mp3"
       }
     },
     {
@@ -130,8 +130,8 @@
       "trick": "IR sounds like ear: you go wherever your ear hears music.",
       "image": "/deck/img/ir-go.webp",
       "audio": {
-        "word": "/deck/audio/ir-go.word.mp3",
-        "sentence": "/deck/audio/ir-go.sentence.mp3"
+        "word": "/deck/audio/ir-go.word.99cff4b3.mp3",
+        "sentence": "/deck/audio/ir-go.sentence.047ffc82.mp3"
       }
     },
     {
@@ -151,8 +151,8 @@
       "trick": "QUE sounds like \"K\": that letter K joins two thoughts, just like \"that\" links them.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/que-that.word.mp3",
-        "sentence": "/deck/audio/que-that.sentence.mp3"
+        "word": "/deck/audio/que-that.word.5d84a940.mp3",
+        "sentence": "/deck/audio/que-that.sentence.ebb80581.mp3"
       }
     },
     {
@@ -179,8 +179,8 @@
       "trick": "HACER sounds like 'ah, sir': 'Ah, sir, what should I do?' asks the eager helper.",
       "image": "/deck/img/hacer-do.webp",
       "audio": {
-        "word": "/deck/audio/hacer-do.word.mp3",
-        "sentence": "/deck/audio/hacer-do.sentence.mp3"
+        "word": "/deck/audio/hacer-do.word.ee05367f.mp3",
+        "sentence": "/deck/audio/hacer-do.sentence.dfc3f70e.mp3"
       }
     },
     {
@@ -207,8 +207,8 @@
       "trick": "HACER sounds like 'a saucer': you make a saucer out of clay.",
       "image": "/deck/img/hacer-make.webp",
       "audio": {
-        "word": "/deck/audio/hacer-make.word.mp3",
-        "sentence": "/deck/audio/hacer-make.sentence.mp3"
+        "word": "/deck/audio/hacer-make.word.ee05367f.mp3",
+        "sentence": "/deck/audio/hacer-make.sentence.87b417bf.mp3"
       }
     },
     {
@@ -228,8 +228,8 @@
       "trick": "QUE sounds like \"K\": K comes later in the alphabet than A, so it's \"more than\" A.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/que-than.word.mp3",
-        "sentence": "/deck/audio/que-than.sentence.mp3"
+        "word": "/deck/audio/que-than.word.5d84a940.mp3",
+        "sentence": "/deck/audio/que-than.sentence.270407f8.mp3"
       }
     },
     {
@@ -256,8 +256,8 @@
       "trick": "PODER sounds like powder: with a little magic powder, you can do anything.",
       "image": "/deck/img/poder-can.webp",
       "audio": {
-        "word": "/deck/audio/poder-can.word.mp3",
-        "sentence": "/deck/audio/poder-can.sentence.mp3"
+        "word": "/deck/audio/poder-can.word.108e91f9.mp3",
+        "sentence": "/deck/audio/poder-can.sentence.3d78f120.mp3"
       }
     },
     {
@@ -277,8 +277,8 @@
       "trick": "NO sounds just like English no: put it right before the verb to make anything a no, meaning not.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/no-not.word.mp3",
-        "sentence": "/deck/audio/no-not.sentence.mp3"
+        "word": "/deck/audio/no-not.word.31fc1e71.mp3",
+        "sentence": "/deck/audio/no-not.sentence.57fd88ba.mp3"
       }
     },
     {
@@ -298,8 +298,8 @@
       "trick": "A sounds like 'ah!': 'Ah, it's eight o'clock!' you gasp, glancing at the clock.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/a-at-time.word.mp3",
-        "sentence": "/deck/audio/a-at-time.sentence.mp3"
+        "word": "/deck/audio/a-at-time.word.ad0ba37b.mp3",
+        "sentence": "/deck/audio/a-at-time.sentence.229f9f95.mp3"
       }
     },
     {
@@ -319,8 +319,8 @@
       "trick": "Y sounds like \"ee\": you squeal \"eee!\" when you get cake and ice cream.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/y-and.word.mp3",
-        "sentence": "/deck/audio/y-and.sentence.mp3"
+        "word": "/deck/audio/y-and.word.6b3daaa6.mp3",
+        "sentence": "/deck/audio/y-and.sentence.cc9bdfc2.mp3"
       }
     },
     {
@@ -340,8 +340,8 @@
       "trick": "EN sounds like the start of 'inside': whatever is EN something is in it.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/en-in.word.mp3",
-        "sentence": "/deck/audio/en-in.sentence.mp3"
+        "word": "/deck/audio/en-in.word.67171667.mp3",
+        "sentence": "/deck/audio/en-in.sentence.3dc03ad6.mp3"
       }
     },
     {
@@ -361,8 +361,8 @@
       "trick": "EN is like 'on' with a Spanish accent: the cup sits EN the table.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/en-on.word.mp3",
-        "sentence": "/deck/audio/en-on.sentence.mp3"
+        "word": "/deck/audio/en-on.word.67171667.mp3",
+        "sentence": "/deck/audio/en-on.sentence.d674bbd5.mp3"
       }
     },
     {
@@ -382,8 +382,8 @@
       "trick": "EN sounds like the letter N, as in 'Now here': where you are at right now.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/en-at.word.mp3",
-        "sentence": "/deck/audio/en-at.sentence.mp3"
+        "word": "/deck/audio/en-at.word.67171667.mp3",
+        "sentence": "/deck/audio/en-at.sentence.a8429fa4.mp3"
       }
     },
     {
@@ -403,8 +403,8 @@
       "trick": "LO sounds like low: you look low and see him lying on the floor.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/lo-him-it.word.mp3",
-        "sentence": "/deck/audio/lo-him-it.sentence.mp3"
+        "word": "/deck/audio/lo-him-it.word.0f327322.mp3",
+        "sentence": "/deck/audio/lo-him-it.sentence.73f60bd3.mp3"
       }
     },
     {
@@ -424,8 +424,8 @@
       "trick": "POR sounds like pour: you pour out thanks for everything someone did.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/por-for-reason.word.mp3",
-        "sentence": "/deck/audio/por-for-reason.sentence.mp3"
+        "word": "/deck/audio/por-for-reason.word.0c7e46e8.mp3",
+        "sentence": "/deck/audio/por-for-reason.sentence.557ff3f2.mp3"
       }
     },
     {
@@ -445,8 +445,8 @@
       "trick": "POR sounds like pore: sweat goes through your pores.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/por-through.word.mp3",
-        "sentence": "/deck/audio/por-through.sentence.mp3"
+        "word": "/deck/audio/por-through.word.0c7e46e8.mp3",
+        "sentence": "/deck/audio/por-through.sentence.a7972124.mp3"
       }
     },
     {
@@ -466,8 +466,8 @@
       "trick": "POR sounds like poor: a poem written by a poor poet.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/por-by.word.mp3",
-        "sentence": "/deck/audio/por-by.sentence.mp3"
+        "word": "/deck/audio/por-by.word.0c7e46e8.mp3",
+        "sentence": "/deck/audio/por-by.sentence.ae38fc33.mp3"
       }
     },
     {
@@ -487,8 +487,8 @@
       "trick": "QUÉ sounds like \"K?\": a puzzled K-shaped question mark asking what.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/que-what.word.mp3",
-        "sentence": "/deck/audio/que-what.sentence.mp3"
+        "word": "/deck/audio/que-what.word.b588b7d2.mp3",
+        "sentence": "/deck/audio/que-what.sentence.b08066d0.mp3"
       }
     },
     {
@@ -508,8 +508,8 @@
       "trick": "QUÉ sounds like \"Kay!\": Kay gasps at everything, saying how lovely it all is.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/que-how-exclamation.word.mp3",
-        "sentence": "/deck/audio/que-how-exclamation.sentence.mp3"
+        "word": "/deck/audio/que-how-exclamation.word.b588b7d2.mp3",
+        "sentence": "/deck/audio/que-how-exclamation.sentence.1d180ddd.mp3"
       }
     },
     {
@@ -529,8 +529,8 @@
       "trick": "ME is spelled just like English me, so it's an easy one.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/me-me.word.mp3",
-        "sentence": "/deck/audio/me-me.sentence.mp3"
+        "word": "/deck/audio/me-me.word.e2a0eafd.mp3",
+        "sentence": "/deck/audio/me-me.sentence.be107b1f.mp3"
       }
     },
     {
@@ -550,8 +550,8 @@
       "trick": "ME looks like me: when I do something to me, that's myself.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/me-myself.word.mp3",
-        "sentence": "/deck/audio/me-myself.sentence.mp3"
+        "word": "/deck/audio/me-myself.word.e2a0eafd.mp3",
+        "sentence": "/deck/audio/me-myself.sentence.cb72a416.mp3"
       }
     },
     {
@@ -571,8 +571,8 @@
       "trick": "SE sounds like 'say': he looks in the mirror and says his name to himself.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/se-himself-reflexive.word.mp3",
-        "sentence": "/deck/audio/se-himself-reflexive.sentence.mp3"
+        "word": "/deck/audio/se-himself-reflexive.word.379ec9c0.mp3",
+        "sentence": "/deck/audio/se-himself-reflexive.sentence.b8ce3f4d.mp3"
       }
     },
     {
@@ -592,8 +592,8 @@
       "trick": "SE sounds like 'say': how do people say it? ¿Cómo se dice?",
       "image": null,
       "audio": {
-        "word": "/deck/audio/se-one-impersonal.word.mp3",
-        "sentence": "/deck/audio/se-one-impersonal.sentence.mp3"
+        "word": "/deck/audio/se-one-impersonal.word.379ec9c0.mp3",
+        "sentence": "/deck/audio/se-one-impersonal.sentence.d0420eaf.mp3"
       }
     }
   ]

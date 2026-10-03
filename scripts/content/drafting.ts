@@ -175,7 +175,7 @@ class Guard {
   }
 }
 
-/** Media paths follow the id. The extensions are placeholders until the art (F2) and audio (G2) scripts. */
+/** Media paths follow the id. The image extension is a placeholder until F2; the deck build replaces the audio paths with G2's. */
 export function withMedia<T extends { id: string; kind: unknown }>(card: T) {
   return {
     ...card,

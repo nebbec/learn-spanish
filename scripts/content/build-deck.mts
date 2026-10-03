@@ -10,7 +10,7 @@
 //
 // Prints only card ids, field names and counts, never card text.
 
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
@@ -33,7 +33,9 @@ const { values } = parseArgs({
 const drafts = new DraftStore(values.drafts);
 const reviews = new ReviewStore(values.review);
 const flagged = refreshFlagged(drafts, reviews);
-const build = buildDeck(drafts, reviews, readDeckFile(values.out), { allowDrop: values["allow-drop"] });
+const takesFile = path.join(ROOT, "content", "audio-takes.json");
+const takes = existsSync(takesFile) ? JSON.parse(readFileSync(takesFile, "utf8")) : {};
+const build = buildDeck(drafts, reviews, readDeckFile(values.out), { allowDrop: values["allow-drop"], takes });
 const rel = (file: string) => path.relative(process.cwd(), file);
 const ids = (list: string[]) => (list.length ? `: ${list.join(", ")}` : "");
 
@@ -67,5 +69,5 @@ if (build.deckProblems.length) {
     `Deck: ${build.deck.cards.length} cards, version ${build.deck.version}${build.changed ? "" : " (unchanged)"}, passes the validator, written to ${rel(values.out)}`,
   );
   if (build.dropped.length) console.log(`Dropped with --allow-drop: ${build.dropped.join(", ")}`);
-  console.log(`Media files not made yet: ${media.missing} of ${media.total} (art comes in F2, audio in G2)`);
+  console.log(`Media files not made yet: ${media.missing} of ${media.total} (art comes in F2; npm run audio -- --deck ${rel(values.out)} makes the clips)`);
 }

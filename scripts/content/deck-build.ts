@@ -14,6 +14,7 @@ import { isDeepStrictEqual } from "node:util";
 import type { Card, Deck } from "@/lib/deck/types";
 import { validateCard, validateDeck } from "@/lib/deck/validate";
 import { learnQueue } from "@/lib/queues";
+import { audioPaths } from "./audio.mjs";
 import { cardFromDecision, readDecision } from "./decisions";
 import type { DraftStore } from "./drafting";
 import { cardHash, draftedWords, idProblem, readDraftCard, type ReviewStore } from "./reviewing";
@@ -56,7 +57,7 @@ export function buildDeck(
   drafts: DraftStore,
   reviews: ReviewStore,
   previous: Deck | null,
-  { allowDrop = false }: { allowDrop?: boolean } = {},
+  { allowDrop = false, takes = {} }: { allowDrop?: boolean; takes?: Record<string, number> } = {},
 ): DeckBuild {
   const build: DeckBuild = {
     deck: null,
@@ -114,7 +115,8 @@ export function buildDeck(
     }
   }
 
-  const ordered = learnOrder(cards);
+  // Clip paths carry a hash of the clip's text and take (G2), so a corrected sentence names a new clip.
+  const ordered = learnOrder(cards.map((card) => ({ ...card, audio: audioPaths(card, takes) })));
   const changed = !previous || JSON.stringify(previous.cards) !== JSON.stringify(ordered);
   const deck: Deck = { version: !previous ? 1 : changed ? previous.version + 1 : previous.version, cards: ordered };
   build.changed = changed;
@@ -128,7 +130,7 @@ export function buildDeck(
   return build;
 }
 
-/** Media paths in the deck with no file under `publicDir` yet. Art comes in F2, audio in G2. */
+/** Media paths in the deck with no file under `publicDir` yet. Art comes in F2; `npm run audio` makes the clips. */
 export function missingMedia(deck: Deck, publicDir: string): { missing: number; total: number } {
   const paths = deck.cards.flatMap((c) => [c.image, c.audio.word, c.audio.sentence]).filter((p): p is string => !!p);
   const missing = paths.filter((p) => !existsSync(path.join(publicDir, p))).length;

@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import type { Card } from "@/lib/deck/types";
 import { validateDeck } from "@/lib/deck/validate";
+import { audioPaths } from "./audio.mjs";
 import { buildDeck, deckText, learnOrder } from "./deck-build";
 import { cardFromDecision, decisionFile, decisionPath, parseDecision, refreshFlagged } from "./decisions";
 import { withMedia } from "./drafting";
@@ -109,6 +110,21 @@ describe("deck build", () => {
     const second = buildDeck(drafts, store, first);
     expect(second).toMatchObject({ changed: true, approved: ["casa-house"], corrected: [] });
     expect(second.deck?.version).toBe(2);
+  });
+
+  it("names each card's clips as the audio script makes them, with a new path for a corrected sentence or a new take", async () => {
+    const { drafts, store } = await reviewed();
+    refreshFlagged(drafts, store);
+    decide(store, "casa-house", "approve", { "example.es": "Mi casa es grande." });
+    const deck = buildDeck(drafts, store, null).deck!;
+    for (const card of deck.cards) expect(card.audio).toEqual(audioPaths(card));
+    const casa = deck.cards.find((c) => c.id === "casa-house")!;
+    expect(casa.audio.sentence).not.toBe(audioPaths({ ...casa, example: testCards().casa[0].example }).sentence);
+
+    const retaken = buildDeck(drafts, store, deck, { takes: { "de-of.word": 2 } }).deck!;
+    const de = (d: typeof deck) => d.cards.find((c) => c.id === "de-of")!.audio;
+    expect(de(retaken).word).not.toBe(de(deck).word);
+    expect(de(retaken).sentence).toBe(de(deck).sentence);
   });
 
   it("refuses to drop an id the previous build had, unless allowed", async () => {
