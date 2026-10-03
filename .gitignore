@@ -11,3 +11,4 @@ next-env.d.ts
 *.log
 content/.cache/
 content/drafts/.failed/
+content/tips/.failed/

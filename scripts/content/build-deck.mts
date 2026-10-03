@@ -2,7 +2,8 @@
 // flagged cards: every card that passed review, plus every flagged card
 // approved in its decision file (with its corrections), in Learn order, up to
 // the first DECK_SIZE cards in Learn order (a card still waiting for a decision
-// keeps its place).
+// keeps its place). Ships the tips approved in content/tips/<id>.txt and holds
+// back any card naming another tip.
 //
 //   npm run deck [-- --size N] [-- --allow-drop]
 //
@@ -20,6 +21,8 @@ import { buildDeck, deckText, missingMedia, readDeckFile } from "./deck-build";
 import { refreshFlagged } from "./decisions";
 import { DraftStore } from "./drafting";
 import { ReviewStore } from "./reviewing";
+import { TipStore, tipsForDeck } from "./tips";
+import { readTips } from "./units";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
@@ -32,6 +35,7 @@ const { values } = parseArgs({
     size: { type: "string", default: String(DECK_SIZE) },
     drafts: { type: "string", default: path.join(ROOT, "content", "drafts") },
     review: { type: "string", default: path.join(ROOT, "content", "review") },
+    tips: { type: "string", default: path.join(ROOT, "content", "tips") },
     out: { type: "string", default: path.join(ROOT, "content", "deck.json") },
   },
 });
@@ -44,7 +48,8 @@ const reviews = new ReviewStore(values.review);
 const flagged = refreshFlagged(drafts, reviews);
 const takesFile = path.join(ROOT, "content", "audio-takes.json");
 const takes = existsSync(takesFile) ? JSON.parse(readFileSync(takesFile, "utf8")) : {};
-const build = buildDeck(drafts, reviews, readDeckFile(values.out), { allowDrop: values["allow-drop"], takes, size });
+const tips = tipsForDeck(new TipStore(values.tips), readTips(ROOT));
+const build = buildDeck(drafts, reviews, readDeckFile(values.out), { allowDrop: values["allow-drop"], takes, size, tips: tips.tips });
 const rel = (file: string) => path.relative(process.cwd(), file);
 const ids = (list: string[]) => (list.length ? `: ${list.join(", ")}` : "");
 
@@ -61,6 +66,11 @@ if (build.problems.length) {
   console.log(`Decision files to fix (left out of the deck): ${build.problems.length} (${build.problems.join("; ")})`);
 }
 if (build.beyondSize.length) console.log(`Past the first ${size} in Learn order, left for a later batch: ${build.beyondSize.length}`);
+console.log(
+  `Tips: ${tips.tips.length} approved and shipped, ${tips.pending.length} waiting for you to read${ids(tips.pending)}, ${tips.notDrafted.length} not drafted (npm run tips)`,
+);
+if (tips.problems.length) console.log(`Tip files to fix (not shipped): ${tips.problems.length} (${tips.problems.join("; ")})`);
+if (build.heldBack.length) console.log(`Held back until their tip is approved: ${build.heldBack.length}${ids(build.heldBack)}`);
 if (flagged.reset.length) console.log(`Decision files remade for a new draft: ${flagged.reset.join(", ")}`);
 console.log(`Flagged list: ${rel(reviews.flaggedFile)}`);
 

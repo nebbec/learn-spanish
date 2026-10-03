@@ -244,8 +244,9 @@ export const isPathId = (id: string) => FORM_ID.test(id) || PHRASE_ID.test(id);
 /** The kinds of group file the learning path adds beside the word files (L3). */
 export type GroupKind = "form" | "phrase";
 
-export type Guarded =
-  | { ok: true; cards: DraftCard[]; skip: Skip | null }
+/** The guard's verdict on one answer. `T` is what a task drafts: cards, or a tip (L4). */
+export type Guarded<T = DraftCard> =
+  | { ok: true; cards: T[]; skip: Skip | null }
   | { ok: false; kind: "shape" | "invalid"; fields: string[] };
 
 /** The output guard: turns Claude's answer for one word into valid cards, or names the failing fields. */
@@ -384,7 +385,12 @@ export class DraftStore {
 
 /** Writes JSON through a temporary file and a rename, so a killed run never leaves half a file. */
 export function writeJson(file: string, value: unknown) {
-  writeFileSync(`${file}.tmp`, `${JSON.stringify(value, null, 2)}\n`);
+  writeText(file, `${JSON.stringify(value, null, 2)}\n`);
+}
+
+/** Writes a text file through a temporary file and a rename. */
+export function writeText(file: string, text: string) {
+  writeFileSync(`${file}.tmp`, text);
   renameSync(`${file}.tmp`, file);
 }
 
@@ -423,8 +429,14 @@ export interface DraftSummary {
   elapsedMs: number;
 }
 
-/** One call's worth of drafting: a word, a verb's form cards or a phrase card. */
-export interface DraftTask {
+/** Where a run logs each call and keeps refused answers: a `DraftStore`, or the tip files (L4). */
+export interface TaskStore {
+  log(line: Rec): void;
+  saveFailed(name: string, attempt: number, output: unknown): void;
+}
+
+/** One call's worth of drafting: a word, a verb's form cards, a phrase card or a tip. */
+export interface DraftTask<T = DraftCard> {
   /** Printed before the ids or the failure: ranks, words from the list, ids. Never card text. */
   label: string;
   /** Already drafted: skipped unless the run redoes. */
@@ -434,9 +446,9 @@ export interface DraftTask {
   /** The name a refused answer is saved under in `.failed/`. */
   failedName: string;
   request: Pick<DraftRequest, "system" | "prompt" | "schema">;
-  guard: (output: unknown) => Guarded;
+  guard: (output: unknown) => Guarded<T>;
   /** Writes the cards and returns their ids. */
-  save: (cards: DraftCard[], skip: Skip | null, meta: Rec) => string[];
+  save: (cards: T[], skip: Skip | null, meta: Rec) => string[];
 }
 
 export async function draftWords(entries: WordEntry[], options: DraftOptions): Promise<DraftSummary> {
@@ -456,7 +468,10 @@ export async function draftWords(entries: WordEntry[], options: DraftOptions): P
 }
 
 /** Runs draft tasks a few at a time, with retries, the usage log and the stop after failures in a row. */
-export async function runDraftTasks(tasks: DraftTask[], options: DraftOptions): Promise<DraftSummary> {
+export async function runDraftTasks<T>(
+  tasks: DraftTask<T>[],
+  options: Omit<DraftOptions, "store"> & { store: TaskStore },
+): Promise<DraftSummary> {
   const { store, runner, via, model, effort, concurrency = 2, retries = 2, redo = false, stopAfter = 4 } = options;
   const print = options.print ?? ((line: string) => console.log(line));
   const sleep = options.sleep ?? ((ms: number) => new Promise<void>((r) => setTimeout(r, ms)));
@@ -492,7 +507,7 @@ export async function runDraftTasks(tasks: DraftTask[], options: DraftOptions): 
     summary.costUsd += usage.costUsd ?? 0;
   };
 
-  async function draftOne(task: DraftTask) {
+  async function draftOne(task: DraftTask<T>) {
     const { label } = task;
     let lastError = "";
     for (let attempt = 1; attempt <= 1 + retries; attempt++) {
