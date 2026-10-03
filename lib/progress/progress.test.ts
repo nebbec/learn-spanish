@@ -39,11 +39,11 @@ const sum = (numbers: number[]) => numbers.reduce((a, b) => a + b, 0);
 describe("progressStats", () => {
   it("counts the fixture by part of speech, in wheel order, with nothing seen", () => {
     const stats = progressStats(cards, new Map());
-    expect(stats).toMatchObject({ total: 12, seen: 0, memorized: 0 });
+    expect(stats).toMatchObject({ total: 16, seen: 0, memorized: 0 });
     expect(stats.byPos.map((g) => g.pos)).toEqual([...PARTS_OF_SPEECH]);
     expect(Object.fromEntries(stats.byPos.map((g) => [g.pos, g.total]))).toEqual({
       noun: 5,
-      verb: 2,
+      verb: 4,
       adjective: 1,
       adverb: 1,
       pronoun: 2,
@@ -51,6 +51,7 @@ describe("progressStats", () => {
       conjunction: 0,
       determiner: 0,
       other: 0,
+      phrase: 2,
     });
     expect(stats.byPos.every((g) => g.seen === 0 && g.memorized === 0)).toBe(true);
   });
@@ -65,10 +66,10 @@ describe("progressStats", () => {
         state("de-of", 20.9),
       ),
     );
-    expect(stats).toMatchObject({ total: 12, seen: 4, memorized: 2 });
+    expect(stats).toMatchObject({ total: 16, seen: 4, memorized: 2 });
     const byPos = Object.fromEntries(stats.byPos.map((g) => [g.pos, g]));
     expect(byPos.noun).toMatchObject({ total: 5, seen: 2, memorized: 1 });
-    expect(byPos.verb).toMatchObject({ total: 2, seen: 1, memorized: 1 });
+    expect(byPos.verb).toMatchObject({ total: 4, seen: 1, memorized: 1 });
     expect(byPos.preposition).toMatchObject({ total: 1, seen: 1, memorized: 0 });
     expect(byPos.adverb).toMatchObject({ total: 1, seen: 0, memorized: 0 });
   });
@@ -84,7 +85,7 @@ describe("progressStats", () => {
       { id: "b", cardId: "ir-go", direction: "reverse", rating: "good", timestamp: 2 },
       { id: "c", cardId: "not-in-deck", direction: "forward", rating: "good", timestamp: 3 },
     ]);
-    expect(progressStats(cards, states)).toMatchObject({ total: 12, seen: 1, memorized: 0 });
+    expect(progressStats(cards, states)).toMatchObject({ total: 16, seen: 1, memorized: 0 });
   });
 });
 
@@ -170,6 +171,7 @@ describe("wheelSlices", () => {
       "adverb",
       "pronoun",
       "preposition",
+      "phrase",
     ]);
     expect(slices[0].startAngle).toBe(0);
     for (let i = 1; i < slices.length; i++) expect(slices[i].startAngle).toBe(slices[i - 1].endAngle);

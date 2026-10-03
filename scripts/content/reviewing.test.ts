@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import type { Card } from "@/lib/deck/types";
-import { validateCard } from "@/lib/deck/validate";
+import type { DraftCard } from "@/lib/deck/types";
+import { validateDraftCard } from "@/lib/deck/validate";
 import type { Runner } from "./claude";
 import { SYSTEM_PROMPT, withMedia } from "./drafting";
 import { answerFor, fakeReviewer, options, setup, testCards, usage, words } from "./review-fixture";
@@ -122,7 +122,7 @@ describe("review run", () => {
 
   it("flags a card whose id breaks the rule even when the reviewer passes it", async () => {
     const cards = testCards();
-    cards.casa = [withMedia({ ...cards.casa[0], id: "casa-a-big-old-house" }) as Card];
+    cards.casa = [withMedia({ ...cards.casa[0], id: "casa-a-big-old-house" }) as DraftCard];
     const { drafts, store } = setup(cards);
     const { runner } = fakeReviewer(() => answerFor(JSON.stringify(testCards().bueno[0])));
     await reviewCards(draftedWords(drafts, 90, 90), options(drafts, store, runner));
@@ -139,8 +139,8 @@ describe("review run", () => {
     const summary = await reviewCards(draftedWords(drafts), options(drafts, store, again.runner));
     expect(summary).toMatchObject({ alreadyReviewed: 5, calls: 0 });
 
-    const changed = withMedia({ ...testCards().bueno[0], example: { es: "Qué bueno.", en: "How good." } }) as Card;
-    expect(validateCard(changed).ok).toBe(true);
+    const changed = withMedia({ ...testCards().bueno[0], example: { es: "Qué bueno.", en: "How good." } }) as DraftCard;
+    expect(validateDraftCard(changed).ok).toBe(true);
     drafts.saveWord(words.bueno, [changed], null, { via: "cli" });
     const third = fakeReviewer();
     await reviewCards(draftedWords(drafts), options(drafts, store, third.runner));

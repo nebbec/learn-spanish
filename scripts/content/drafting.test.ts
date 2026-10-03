@@ -3,7 +3,7 @@ import { chmodSync, existsSync, mkdtempSync, readdirSync, readFileSync, writeFil
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { validateCard } from "@/lib/deck/validate";
+import { validateDraftCard } from "@/lib/deck/validate";
 import {
   apiRunner,
   cliArgs,
@@ -138,7 +138,7 @@ describe("output guard", () => {
     expect(result.ok).toBe(true);
     if (!result.ok) return;
     const [card] = result.cards;
-    expect(validateCard(card).ok).toBe(true);
+    expect(validateDraftCard(card).ok).toBe(true);
     expect(card).toMatchObject({ rank: 90, grammar: { gender: "f", article: "la" }, image: "/deck/img/casa-house.webp" });
     expect(card.audio.word).toBe("/deck/audio/casa-house.word.mp3");
   });
@@ -213,7 +213,7 @@ describe("draft run", () => {
       via: "cli",
       model: "claude-opus-5-5",
     });
-    for (const card of store.cards()) expect(validateCard(card).ok).toBe(true);
+    for (const card of store.cards()) expect(validateDraftCard(card).ok).toBe(true);
     expect(store.deckProblems()).toEqual([]);
 
     expect(calls[0]).toMatchObject({ system: SYSTEM_PROMPT, schema: DRAFT_SCHEMA, model: "claude-opus-5-5", effort: "medium" });

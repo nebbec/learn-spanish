@@ -11,7 +11,7 @@
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import type { Card } from "@/lib/deck/types";
+import type { DraftCard } from "@/lib/deck/types";
 import { type DraftStore, withMedia } from "./drafting";
 import {
   cardHash,
@@ -27,7 +27,7 @@ export const DECISIONS = ["pending", "approve", "reject"] as const;
 export type Decision = (typeof DECISIONS)[number];
 
 /** The card's fields as lines a person can edit, with the grammar lines its part of speech uses. */
-export function cardLines(card: Card): Array<[string, string]> {
+export function cardLines(card: DraftCard): Array<[string, string]> {
   const lines: Array<[string, string]> = [
     ["id", card.id],
     ["kind", card.kind],
@@ -46,7 +46,7 @@ export function cardLines(card: Card): Array<[string, string]> {
     ["example.es", card.example.es],
     ["example.en", card.example.en],
     ["spain", card.spain ?? ""],
-    ["trick", card.trick],
+    ["trick", card.trick ?? ""],
   );
   return lines;
 }
@@ -62,7 +62,7 @@ function findingLine(f: Finding): string {
 }
 
 /** The text of a new decision file for a flagged card. */
-export function decisionFile(card: Card, review: Review): string {
+export function decisionFile(card: DraftCard, review: Review): string {
   const width = Math.max(...cardLines(card).map(([key]) => key.length));
   return [
     `# ${card.id} · rank ${review.rank} · ${review.word}`,
@@ -130,7 +130,7 @@ function yesNo(value: string): unknown {
  * The card a decision file describes: the draft's fields, replaced by the
  * file's lines. Media paths follow the (possibly corrected) id. Not validated.
  */
-export function cardFromDecision(draft: Card, fields: Map<string, string>): unknown {
+export function cardFromDecision(draft: DraftCard, fields: Map<string, string>): unknown {
   const values = new Map(cardLines(draft));
   for (const [key, value] of fields) values.set(key, value);
   const get = (key: string) => values.get(key) ?? "";
@@ -154,7 +154,7 @@ export function cardFromDecision(draft: Card, fields: Map<string, string>): unkn
     grammar,
     example: { es: get("example.es"), en: get("example.en") },
     spain: get("spain") || null,
-    trick: get("trick"),
+    trick: get("trick") || null,
   });
 }
 
@@ -171,7 +171,7 @@ export function readDecision(store: ReviewStore, id: string): ParsedDecision | n
 export type FlaggedState = Decision | "problem";
 
 export interface FlaggedCard {
-  card: Card;
+  card: DraftCard;
   review: Review;
   state: FlaggedState;
 }
@@ -203,7 +203,7 @@ export function flaggedCards(drafts: DraftStore, store: ReviewStore): { cards: F
 
 const cell = (value: string | null) => (value ? value.replace(/\|/g, "\\|") : "none");
 
-function grammarText(card: Card): string | null {
+function grammarText(card: DraftCard): string | null {
   if (card.pos === "noun") return `${card.grammar.gender === "m" ? "masculine" : "feminine"}, ${card.grammar.article}`;
   if (card.pos === "adjective") return `feminine ${card.grammar.feminine}`;
   if (card.pos === "verb") {

@@ -68,7 +68,7 @@ describe("Download everything", () => {
   it("shows how much of the deck is on the device before anything is downloaded", async () => {
     mount();
     await until(() => q("media-status"), "the status");
-    expect(text("media-status")).toBe("0 of 33 files on this device · 0 B");
+    expect(text("media-status")).toBe("0 of 41 files on this device · 0 B");
     expect(text("download-all")).toBe("Download everything");
   });
 
@@ -77,7 +77,7 @@ describe("Download everything", () => {
     for (const url of cardMedia(fixtureCard("casa-house"))) stored.set(url, new Response("0123456789"));
     mount();
     await until(() => q("media-status"), "the status");
-    expect(text("media-status")).toBe("3 of 33 files on this device · 30 B");
+    expect(text("media-status")).toBe("3 of 41 files on this device · 30 B");
   });
 
   it("downloads the whole deck, showing progress, then the total size", async () => {
@@ -85,14 +85,14 @@ describe("Download everything", () => {
     held = [];
     await clickDownload();
     await until(() => q("download-progress"), "the progress line");
-    expect(text("download-progress")).toBe("Downloading: 0 of 33 files");
+    expect(text("download-progress")).toBe("Downloading: 0 of 41 files");
     expect(q("download-all")).toBeNull();
 
     // Let the first few files through: the count moves and the bar follows it.
     held.splice(0).forEach((release) => release());
-    await until(() => text("download-progress") !== "Downloading: 0 of 33 files", "the count to move");
+    await until(() => text("download-progress") !== "Downloading: 0 of 41 files", "the count to move");
     const bar = q("download-bar") as HTMLProgressElement;
-    expect(bar.max).toBe(33);
+    expect(bar.max).toBe(41);
     expect(bar.value).toBeGreaterThan(0);
 
     const waiting = held;
@@ -100,7 +100,7 @@ describe("Download everything", () => {
     waiting.forEach((release) => release());
     await until(() => q("media-status"), "the download to finish");
 
-    expect(text("media-status")).toBe("All 33 files are on this device · 330 B");
+    expect(text("media-status")).toBe("All 41 files are on this device · 410 B");
     expect(q("download-all")).toBeNull();
     expect(q("download-failed")).toBeNull();
     expect([...stored.keys()].sort()).toEqual([...ALL].sort());
@@ -111,13 +111,13 @@ describe("Download everything", () => {
     online = false;
     await clickDownload();
     await until(() => q("download-failed"), "the failure message");
-    expect(text("download-failed")).toContain("33 files could not be downloaded");
-    expect(text("media-status")).toBe("0 of 33 files on this device · 0 B");
+    expect(text("download-failed")).toContain("41 files could not be downloaded");
+    expect(text("media-status")).toBe("0 of 41 files on this device · 0 B");
     expect(text("download-all")).toBe("Try again");
 
     online = true;
     await clickDownload();
-    await until(() => text("media-status")?.startsWith("All 33 files"), "the second try to finish");
+    await until(() => text("media-status")?.startsWith("All 41 files"), "the second try to finish");
     expect(q("download-failed")).toBeNull();
   });
 

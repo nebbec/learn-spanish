@@ -97,11 +97,20 @@ Changed by the learning path (deck version 2 of the format, L2): `kind` also tak
 
 Decided in A2 (types in `lib/deck/types.ts`, validator in `lib/deck/validate.ts`):
 
-- **File**: `public/deck/deck.json`, shaped `{ "version": 1, "cards": [...] }`. The app fetches it from `/deck/deck.json`; media sits beside it under `/deck/img/` and `/deck/audio/`, and `image` and `audio` hold those URL paths.
+- **File**: `public/deck/deck.json`, shaped `{ "version": 1, "cards": [...] }` (format 1; changed in L2, below). The app fetches it from `/deck/deck.json`; media sits beside it under `/deck/img/` and `/deck/audio/`, and `image` and `audio` hold those URL paths.
 - **`grammar`** by `pos`: noun `{ gender: "m" | "f", article }`; adjective `{ feminine }`, with `es` holding the masculine form; verb `{ present: { yo, tu, el }, irregular }`, bare forms without the pronoun; null for every other part of speech.
 - **`example`** is `{ es, en }` and **`audio`** is `{ word, sentence }`.
 - **`pos`** is one of the nine wheel groups. Two meanings of one word share a `rank`.
 - **Rules the validator enforces beyond field types**: no missing or extra fields; a noun's `es` starts with its article; a glue prompt marks exactly one target in square brackets and a content prompt has none; a content card has an image and a glue card does not; ids are unique; no two cards share the same `en` plus `hint`.
+
+Decided in L2 (deck format 2; types in `lib/deck/types.ts`, validator in `lib/deck/validate.ts`):
+
+- **File**: `{ "format": 2, "version", "units", "tips", "cards" }`. `format` is new and names the file's shape; `version` is still the deck revision. A format 1 file (no `format`, `units`, `tips` or path fields) is refused. `content/deck.json` and `public/deck/deck.json` were moved to format 2 in place, keeping version 5, with every card's `unit` and `tip` and `why` null and `requires` empty; `npm run deck` then rebuilds the same bytes.
+- **Two card shapes.** `DraftCard` is a card as the draft pass writes it, without the four path fields; `Card` is `DraftCard` plus `unit`, `requires`, `tip` and `why`. Draft files stay as they are, so no review loses its fingerprint. `validateDraftCard` and `validateDraftCards` (every drafted card together: ids and prompts unique) check drafts; `validateCard` and `validateDeck` check deck cards. The deck build adds the path fields, empty, after the drafted fields (`deckCard` in `deck-build.ts`), and writes `units` and `tips` empty until L4 and L6 fill them.
+- **Kind rules**: a form card's id is `<verb>-form-<yo|tu|el>` or `haber-form-hay`, its `pos` is `verb`, it has an image, and its `es` is its own person's form in `grammar.present` (not checked for `hay`). A phrase card's id is `phrase-` and one to four words, its `pos` is `phrase`, and it has no image and null grammar. Only a phrase card has `pos` `phrase`, and a content or glue card may not take a form or phrase id. Only form and phrase cards may have a null `trick`. Content, form and phrase prompts have no square brackets.
+- **Deck rules**: a unit is `{ id, title, goal }` with a lower-case slug id; a tip is `{ id, title, body, examples }` with an id starting `tip-` and two or three examples, each `{ es, en, audio }`. Unit ids and tip ids are unique. A card's `unit` and `tip` name an entry of the deck, and every `requires` id is a card earlier in the file, never the card itself and never listed twice. The validator does not check that a unit's cards sit together or in unit order: a card added to a finished unit comes later.
+- **Wheel**: `phrase` is the last part of speech, labelled "Phrases". The draft pass's schema still offers only `content` and `glue` and the nine word parts of speech (`WORD_CARD_KINDS`, `WORD_PARTS_OF_SPEECH`); L3 adds the form and phrase modes.
+- **Until L6**, `learnQueue` still takes only content and glue cards, so Learn, the media kept ahead and the deck build's `learnOrder` leave form and phrase cards out.
 
 ## Learning engine
 
@@ -739,7 +748,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
 | L0 | Learning path spec | none | Interview | Done |
 | L1 | Unit plan | L0 | Approve `units.json` | Done except: Courtney approves `units.json` |
-| L2 | Deck format v2 | L0 | | Todo |
+| L2 | Deck format v2 | L0 | | Done |
 | L3 | Form and phrase cards in the pipeline | L2 | | Todo |
 | L4 | Tips in the pipeline | L1, L2 | | Todo |
 | L5 | Tag pass | L1, L3 | | Todo |
@@ -999,6 +1008,9 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L2 Deck format v2**
 - Build: in `lib/deck`, kinds `form` and `phrase`, pos `phrase`, fields `unit`, `requires`, `tip`, `why`, and the deck's `units` and `tips`. Validator rules: form ids and phrase ids as in [Learning path](#learning-path); a form card has an image and verb grammar; a phrase card has neither; every `requires` id is in the deck and earlier in the file; every `unit` and `tip` names an entry of the deck. Extend the fixture with two form cards, two phrase cards, two units and a tip. Add `phrase` to the wheel's groups.
 - Done when: the validator accepts the extended fixture and rejects each broken rule, under test, and the app still builds against it.
+- Note (L2): done. The validator accepts the 16-card fixture and both real deck files, and `lib/deck/deck.test.ts` rejects each broken rule (form and phrase ids, a form card with no image, not a verb or answering another person's form, a phrase card with an image, grammar or another part of speech, a word card with a phrase part of speech or a form or phrase id, a null trick on a word card, a format 1 deck, an unknown unit or tip, `requires` naming a missing card, a later card, itself or one card twice, duplicate or malformed units and tips, a tip with one or four examples). `npm test` (510), `npm run lint`, `npm run typecheck` and `npm run build` pass. The decisions are under [Card data](#card-data), "Decided in L2".
+- Note (L2): the fixture (`lib/deck/fixture.json`, version 2) is in learning-path order: unit `where-i-go` (`ir-form-yo`, `ir-form-tu`, `casa-house`, `phrase-going-home`), unit `good-things` (`bueno-good`, `ahora-now`, `phrase-thats-great`), then the other nine word cards as before. The two form cards name `tip-verb-endings` (title from `content/tips.json`, body and examples written for the fixture); `ir-form-tu` has the fixture's only `why` and a trick, `ir-form-yo` none; `phrase-going-home` requires `ir-form-yo` and `casa-house`, `phrase-thats-great` requires `bueno-good`. The form cards show `ir-go`'s still. The new cards' clips and the tip's two example clips are `.wav` tones made by `node scripts/make-fixture-media.mjs`, which now also writes tip example tones and no longer redraws a still already there; L8 makes real ones. `orphanClips` (audio `--prune`) now counts a tip example's clip as named.
+- Note (L2): for later tickets. L3: `validateDraftCard` already knows the form and phrase rules; write drafts without the path fields. Until L6 changes `learnQueue`, the deck build drops form and phrase drafts without listing them anywhere (not even as beyond the size), so L3 and L5 can draft and tag them but they reach the deck only with L6. L6: the fixture's file order is the order to expect from the build; tests that read "every card Learn shows" filter to content and glue cards with a comment naming L6 (`session.test.tsx`, `media.test.ts`), to undo then. L13: `CardExtras` hides "Suggest a trick" when `trick` is null; nothing else in the app treats form or phrase cards differently yet.
 
 **L3 Form and phrase cards in the pipeline**
 - Build: draft and review modes for form cards (from a fixed list of verbs in `drafting.ts`, ids made by the script) and phrase cards (from the `payoff` lines of `units.json` and a list of survival chunks), each with its own prompt and schema, written to `content/drafts/cards/` like any card and reviewed by the same review pass with checks for the new kinds.

@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import type { Card } from "@/lib/deck/types";
+import type { DraftCard } from "@/lib/deck/types";
 import { validateDeck } from "@/lib/deck/validate";
 import { audioPaths } from "./audio.mjs";
 import { buildDeck, deckText, learnOrder } from "./deck-build";
@@ -9,7 +9,7 @@ import { withMedia } from "./drafting";
 import { draftedWords, reviewCards, type Review, type ReviewStore } from "./reviewing";
 import { fakeReviewer, options, setup, testCards, words } from "./review-fixture";
 
-const review = (card: Card): Review => ({
+const review = (card: DraftCard): Review => ({
   id: card.id,
   rank: card.rank,
   word: "word",
@@ -176,7 +176,7 @@ describe("deck build", () => {
     const { drafts, store } = await reviewed();
     refreshFlagged(drafts, store);
     decide(store, "casa-house", "approve");
-    const redrafted = withMedia({ ...testCards().casa[0], example: { es: "La casa es azul.", en: "The house is blue." } }) as Card;
+    const redrafted = withMedia({ ...testCards().casa[0], example: { es: "La casa es azul.", en: "The house is blue." } }) as DraftCard;
     drafts.saveWord(words.casa, [redrafted], null, { via: "cli" });
     expect(buildDeck(drafts, store, null).notReviewed).toEqual(["casa-house"]);
 

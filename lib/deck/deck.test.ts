@@ -4,7 +4,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import raw from "./fixture.json";
 import { fixtureCard, fixtureDeck } from "./fixture";
 import { clearDeckCache, fetchDeck, loadDeck } from "./load";
-import { DeckError, parseDeck, validateCard, validateDeck } from "./validate";
+import { DeckError, parseDeck, validateCard, validateDeck, validateDraftCard, validateDraftCards } from "./validate";
 
 type Loose = Record<string, unknown>;
 
@@ -26,15 +26,16 @@ describe("fixture deck", () => {
     expect(result.ok ? [] : result.errors).toEqual([]);
   });
 
-  it("has 12 cards, each accepted on its own", () => {
-    expect(fixtureDeck.cards).toHaveLength(12);
+  it("has 16 cards, each accepted on its own", () => {
+    expect(fixtureDeck.cards).toHaveLength(16);
     for (const c of fixtureDeck.cards) expect(errorsFor(c)).toEqual([]);
   });
 
   it("covers every variety the ticket lists", () => {
     const cards = fixtureDeck.cards;
     const nouns = cards.filter((c) => c.pos === "noun");
-    const verbs = cards.filter((c) => c.pos === "verb");
+    // Verb cards other than form cards, which repeat their verb's grammar.
+    const verbs = cards.flatMap((c) => (c.pos === "verb" && c.kind === "content" ? [c] : []));
 
     // A regular noun, and one whose gender is not what its ending suggests.
     expect(fixtureCard("casa-house")).toMatchObject({ es: "la casa", grammar: { gender: "f" } });
@@ -55,11 +56,37 @@ describe("fixture deck", () => {
     expect(cards.filter((c) => c.spain !== null).map((c) => c.spain)).toEqual(["el coche"]);
   });
 
+  it("covers the learning path: two form cards, two phrase cards, two units and a tip", () => {
+    const cards = fixtureDeck.cards;
+    const forms = cards.filter((c) => c.kind === "form");
+    const phrases = cards.filter((c) => c.kind === "phrase");
+    expect(forms.map((c) => c.id)).toEqual(["ir-form-yo", "ir-form-tu"]);
+    expect(phrases.map((c) => c.id)).toEqual(["phrase-going-home", "phrase-thats-great"]);
+    // A form card reuses its verb's still and grammar strip.
+    for (const form of forms) {
+      expect(form).toMatchObject({ pos: "verb", image: fixtureCard("ir-go").image, grammar: fixtureCard("ir-go").grammar });
+    }
+    expect(phrases.every((c) => c.pos === "phrase" && c.image === null && c.grammar === null)).toBe(true);
+    expect(fixtureDeck.units.map((u) => u.id)).toEqual(["where-i-go", "good-things"]);
+    expect(fixtureDeck.tips.map((t) => t.id)).toEqual(["tip-verb-endings"]);
+    // Each path field is used at least once.
+    expect(cards.filter((c) => c.unit !== null).length).toBeGreaterThan(0);
+    expect(cards.filter((c) => c.requires.length > 0).map((c) => c.id)).toEqual(["phrase-going-home", "phrase-thats-great"]);
+    expect(cards.filter((c) => c.tip !== null).map((c) => c.id)).toEqual(["ir-form-yo", "ir-form-tu"]);
+    expect(cards.filter((c) => c.why !== null).map((c) => c.id)).toEqual(["ir-form-tu"]);
+    // Form and phrase cards may have no trick.
+    expect(cards.filter((c) => c.trick === null).length).toBeGreaterThan(0);
+  });
+
   it("has a placeholder file for every image and audio path", () => {
-    const paths = fixtureDeck.cards.flatMap((c) => [c.image, c.audio.word, c.audio.sentence]);
+    const paths = [
+      ...fixtureDeck.cards.flatMap((c) => [c.image, c.audio.word, c.audio.sentence]),
+      ...fixtureDeck.tips.flatMap((t) => t.examples.map((e) => e.audio)),
+    ];
     const missing = paths.filter((p) => p !== null && !existsSync(join(process.cwd(), "public", p)));
     expect(missing).toEqual([]);
-    expect(paths.filter((p) => p !== null)).toHaveLength(9 + 24);
+    // Stills for 9 content and 2 form cards, two clips for each of 16 cards, one per tip example.
+    expect(paths.filter((p) => p !== null)).toHaveLength(11 + 32 + 2);
   });
 });
 
@@ -70,6 +97,7 @@ describe("validateCard rejects", () => {
 
   it.each([
     "id", "rank", "kind", "pos", "es", "en", "hint", "grammar", "example", "spain", "trick", "image", "audio",
+    "unit", "requires", "tip", "why",
   ])("a card missing %s", (field) => {
     // Without an id the card is reported as "card ?".
     const name = field === "id" ? "?" : "casa-house";
@@ -96,6 +124,11 @@ describe("validateCard rejects", () => {
     ["an example with no English", "example", { es: "Mi casa es pequeña." }],
     ["audio as a single path", "audio", "/deck/audio/casa.wav"],
     ["audio with no sentence clip", "audio", { word: "/deck/audio/casa.wav" }],
+    ["an empty unit (should be null)", "unit", ""],
+    ["requires that is not a list", "requires", "ir-go"],
+    ["requires holding something other than ids", "requires", [3]],
+    ["a tip given as a number", "tip", 1],
+    ["an empty contrast line (should be null)", "why", ""],
   ])("%s", (_name, field, value) => {
     const errors = errorsFor(card("casa-house", (c) => (c[field] = value)));
     expect(errors.length).toBeGreaterThan(0);
@@ -170,7 +203,8 @@ describe("validateCard rejects", () => {
 });
 
 describe("validateDeck rejects", () => {
-  const deckWith = (cards: unknown, version: unknown = 1) => validateDeck({ version, cards });
+  const deckWith = (cards: unknown, version: unknown = 1) =>
+    validateDeck({ format: 2, version, units: raw.units, tips: raw.tips, cards });
   const errorsOf = (result: ReturnType<typeof validateDeck>) => (result.ok ? [] : result.errors);
 
   it("a deck that is not an object, or has no card list or version", () => {
@@ -179,6 +213,12 @@ describe("validateDeck rejects", () => {
     expect(deckWith("none").ok).toBe(false);
     expect(deckWith([], 0).ok).toBe(false);
     expect(validateDeck({ cards: [] }).ok).toBe(false);
+  });
+
+  it("a deck in format 1, with no units or tips", () => {
+    const errors = errorsOf(validateDeck({ version: 1, cards: [] }));
+    expect(errors).toEqual(["deck.format: missing", "deck.units: missing", "deck.tips: missing"]);
+    expect(errorsOf(validateDeck({ ...raw, format: 1 }))).toEqual(["deck.format: must be 2"]);
   });
 
   it("a malformed card, naming it", () => {
@@ -205,9 +245,203 @@ describe("validateDeck rejects", () => {
   });
 });
 
+describe("form and phrase cards", () => {
+  it("accept the id rule's forms, haber's hay included", () => {
+    const hay = card("ir-form-yo", (c) =>
+      Object.assign(c, {
+        id: "haber-form-hay",
+        es: "hay",
+        en: "there is",
+        grammar: { present: { yo: "he", tu: "has", el: "ha" }, irregular: true },
+      }),
+    );
+    expect(errorsFor(hay)).toEqual([]);
+    expect(errorsFor(card("ir-form-tu", (c) => Object.assign(c, { id: "ir-form-el", es: "va" })))).toEqual([]);
+    expect(errorsFor(card("phrase-going-home", (c) => (c.id = "phrase-im-going-home-now")))).toEqual([]);
+  });
+
+  it.each([
+    ["a person that is not yo, tu or el", "ir-form-we"],
+    ["no -form-", "ir-yo"],
+    ["hay on a verb other than haber", "ir-form-hay"],
+    ["the infinitive's id", "ir-go"],
+  ])("reject a form id with %s", (_name, id) => {
+    expect(errorsFor(card("ir-form-yo", (c) => (c.id = id)))).toEqual([
+      'card ' + id + '.id: a form card\'s id must be "<verb>-form-<yo|tu|el>" or "haber-form-hay"',
+    ]);
+  });
+
+  it.each([
+    ["no English words", "phrase"],
+    ["five English words", "phrase-i-am-going-home-now"],
+    ["no phrase- prefix", "going-home"],
+  ])("reject a phrase id with %s", (_name, id) => {
+    expect(errorsFor(card("phrase-going-home", (c) => (c.id = id)))).toEqual([
+      `card ${id}.id: a phrase card's id must be "phrase-" and one to four English words`,
+    ]);
+  });
+
+  it("reject a content or glue card with a form or phrase id", () => {
+    expect(errorsFor(card("ir-go", (c) => (c.id = "ir-form-yo")))).toEqual([
+      "card ir-form-yo.id: a content card cannot have a form or phrase id",
+    ]);
+    expect(errorsFor(card("de-of", (c) => (c.id = "phrase-of")))).toEqual([
+      "card phrase-of.id: a glue card cannot have a form or phrase id",
+    ]);
+  });
+
+  it("reject a form card with no image, or not a verb", () => {
+    expect(errorsFor(card("ir-form-yo", (c) => (c.image = null)))).toEqual([
+      "card ir-form-yo.image: is required for a form card",
+    ]);
+    const noun = card("ir-form-yo", (c) => Object.assign(c, { pos: "noun", es: "el voy", grammar: { gender: "m", article: "el" } }));
+    expect(errorsFor(noun)).toEqual(['card ir-form-yo.pos: must be "verb" for a form card']);
+  });
+
+  it("reject a form card whose answer is not its own form in the strip", () => {
+    expect(errorsFor(card("ir-form-yo", (c) => (c.es = "vas")))).toEqual([
+      "card ir-form-yo.es: must be the yo form in grammar.present",
+    ]);
+  });
+
+  it("reject a phrase card with an image, with grammar, or another part of speech", () => {
+    expect(errorsFor(card("phrase-going-home", (c) => (c.image = "/deck/img/casa-house.svg")))).toEqual([
+      "card phrase-going-home.image: must be null for a phrase card",
+    ]);
+    expect(errorsFor(card("phrase-going-home", (c) => (c.grammar = { feminine: "x" })))).toEqual([
+      'card phrase-going-home.grammar: must be null for pos "phrase"',
+    ]);
+    expect(errorsFor(card("phrase-going-home", (c) => (c.pos = "other")))).toEqual([
+      'card phrase-going-home.pos: must be "phrase" for a phrase card',
+    ]);
+  });
+
+  it("reject the phrase part of speech on a word card", () => {
+    expect(errorsFor(card("ahora-now", (c) => (c.pos = "phrase")))).toEqual([
+      'card ahora-now.pos: cannot be "phrase" for a content card',
+    ]);
+  });
+
+  it("reject a phrase prompt with square brackets", () => {
+    expect(errorsFor(card("phrase-going-home", (c) => (c.en = "I'm going [home]")))).toEqual([
+      "card phrase-going-home.en: a phrase prompt must not contain square brackets",
+    ]);
+  });
+
+  it("allow no trick, which content and glue cards must have", () => {
+    expect(errorsFor(card("ir-form-tu", (c) => (c.trick = null)))).toEqual([]);
+    expect(errorsFor(card("casa-house", (c) => (c.trick = null)))).toEqual([
+      "card casa-house.trick: must be a non-empty string",
+    ]);
+    expect(errorsFor(card("de-of", (c) => (c.trick = null)))).toEqual(["card de-of.trick: must be a non-empty string"]);
+  });
+});
+
+describe("draft cards", () => {
+  const draft = (id: string) => {
+    const { unit, requires, tip, why, ...rest } = card(id);
+    void [unit, requires, tip, why];
+    return rest;
+  };
+
+  it("are cards without the learning path's fields, of any kind", () => {
+    for (const id of ["casa-house", "de-of", "ir-form-yo", "phrase-going-home"]) {
+      expect(validateDraftCard(draft(id))).toMatchObject({ ok: true });
+    }
+    expect(validateDraftCard(card("casa-house"))).toMatchObject({ ok: false });
+    expect(validateDraftCard({ ...draft("ir-form-yo"), es: "vas" })).toMatchObject({ ok: false });
+  });
+
+  it("are checked together for duplicate ids and prompts", () => {
+    expect(validateDraftCards([draft("casa-house"), draft("de-of")]).ok).toBe(true);
+    const twin = { ...draft("tiempo-weather"), en: "time", hint: "clock, duration" };
+    const result = validateDraftCards([draft("tiempo-time"), twin, draft("tiempo-time")]);
+    expect(result.ok ? [] : result.errors).toEqual([
+      "card tiempo-weather.en: same prompt as card tiempo-time; add a hint so each has one answer",
+      "card tiempo-time.id: duplicate id",
+      "card tiempo-time.en: same prompt as card tiempo-time; add a hint so each has one answer",
+    ]);
+  });
+});
+
+describe("validateDeck checks the learning path", () => {
+  const errorsWith = (change: (deck: Loose) => void) => {
+    const deck = structuredClone(raw) as unknown as Loose;
+    change(deck);
+    const result = validateDeck(deck);
+    return result.ok ? [] : result.errors;
+  };
+  const cardsOf = (deck: Loose) => deck.cards as Loose[];
+  const byId = (deck: Loose, id: string) => cardsOf(deck).find((c) => c.id === id)!;
+
+  it("a unit or tip the deck does not have", () => {
+    expect(errorsWith((d) => (byId(d, "casa-house").unit = "my-house"))).toEqual([
+      'card casa-house.unit: no unit "my-house" in the deck',
+    ]);
+    expect(errorsWith((d) => (byId(d, "ir-form-yo").tip = "tip-two-to-be"))).toEqual([
+      'card ir-form-yo.tip: no tip "tip-two-to-be" in the deck',
+    ]);
+  });
+
+  it("requires naming a card that is not in the deck, comes later, is itself or is listed twice", () => {
+    expect(errorsWith((d) => (byId(d, "phrase-thats-great").requires = ["bueno-bad"]))).toEqual([
+      'card phrase-thats-great.requires: no card "bueno-bad" in the deck',
+    ]);
+    expect(errorsWith((d) => (byId(d, "ir-form-yo").requires = ["ir-form-tu"]))).toEqual([
+      'card ir-form-yo.requires: "ir-form-tu" must come earlier in the file',
+    ]);
+    expect(errorsWith((d) => (byId(d, "ir-form-yo").requires = ["ir-form-yo"]))).toEqual([
+      "card ir-form-yo.requires: a card cannot require itself",
+    ]);
+    expect(errorsWith((d) => (byId(d, "phrase-thats-great").requires = ["bueno-good", "bueno-good"]))).toEqual([
+      'card phrase-thats-great.requires: "bueno-good" is listed twice',
+    ]);
+  });
+
+  it("the card order: moving a phrase before what it requires breaks the deck", () => {
+    const errors = errorsWith((d) => {
+      const cards = cardsOf(d);
+      const phrase = cards.findIndex((c) => c.id === "phrase-going-home");
+      cards.unshift(...cards.splice(phrase, 1));
+    });
+    expect(errors).toEqual([
+      'card phrase-going-home.requires: "ir-form-yo" must come earlier in the file',
+      'card phrase-going-home.requires: "casa-house" must come earlier in the file',
+    ]);
+  });
+
+  it("units: unique slug ids and a title and goal", () => {
+    const units = (d: Loose) => d.units as Loose[];
+    expect(errorsWith((d) => (units(d)[1].id = "where-i-go"))).toEqual([
+      "unit where-i-go.id: duplicate id",
+      'card bueno-good.unit: no unit "good-things" in the deck',
+      'card ahora-now.unit: no unit "good-things" in the deck',
+      'card phrase-thats-great.unit: no unit "good-things" in the deck',
+    ]);
+    expect(errorsWith((d) => (units(d)[0].id = "Where I go"))).toContain("unit Where I go.id: must be a lower-case slug");
+    expect(errorsWith((d) => delete units(d)[0].goal)).toEqual(["unit where-i-go.goal: missing"]);
+    expect(errorsWith((d) => (d.units = {}))).toEqual(["deck.units: must be an array"]);
+  });
+
+  it("tips: tip- ids, unique, a body and two or three examples with audio", () => {
+    const tip = (d: Loose) => (d.tips as Loose[])[0];
+    const examples = (d: Loose) => tip(d).examples as Loose[];
+    expect(errorsWith((d) => (d.tips = [tip(d), tip(d)]))).toEqual(["tip tip-verb-endings.id: duplicate id"]);
+    expect(errorsWith((d) => (tip(d).id = "verb-endings"))).toContain(
+      'tip verb-endings.id: must be "tip-" and lower-case words',
+    );
+    expect(errorsWith((d) => (tip(d).body = ""))).toEqual(["tip tip-verb-endings.body: must be a non-empty string"]);
+    expect(errorsWith((d) => examples(d).pop())).toEqual([
+      "tip tip-verb-endings.examples: must be a list of two or three examples",
+    ]);
+    expect(errorsWith((d) => examples(d).push(examples(d)[0], examples(d)[0]))).toHaveLength(1);
+    expect(errorsWith((d) => delete examples(d)[1].audio)).toEqual(["tip tip-verb-endings.examples.1.audio: missing"]);
+  });
+});
+
 describe("parseDeck", () => {
   it("returns a valid deck and throws a DeckError for an invalid one", () => {
-    expect(parseDeck(raw).cards).toHaveLength(12);
+    expect(parseDeck(raw).cards).toHaveLength(16);
     expect(() => parseDeck({ version: 1, cards: [{}] })).toThrow(DeckError);
   });
 });
@@ -228,7 +462,7 @@ describe("deck loader", () => {
     const { calls, fetchImpl } = respond(raw);
     const deck = await fetchDeck(fetchImpl);
     expect(calls).toEqual(["/deck/deck.json"]);
-    expect(deck.cards).toHaveLength(12);
+    expect(deck.cards).toHaveLength(16);
     expect(deck.byId.get("lo-him")?.es).toBe("lo");
   });
 

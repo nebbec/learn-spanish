@@ -152,6 +152,11 @@ describe("orphanClips", () => {
     expect(orphanClips(files, [app, content])).toEqual(["ir-go.word.0ld0.mp3", "casa-house.word.wav"]);
   });
 
+  it("keeps a tip example's clip", () => {
+    const tips = [{ id: "tip-a", examples: [{ es: "x", en: "y", audio: "/deck/audio/tip-a.1.eeee.mp3" }] }];
+    expect(orphanClips(["tip-a.1.eeee.mp3", "tip-a.2.ffff.mp3"], [{ ...app, tips }])).toEqual(["tip-a.2.ffff.mp3"]);
+  });
+
   it("would delete the other deck's clips if given one deck, which is why --prune passes both", () => {
     expect(orphanClips(["ir-go.word.cccc.mp3"], [app])).toEqual(["ir-go.word.cccc.mp3"]);
   });

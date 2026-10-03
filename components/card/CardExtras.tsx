@@ -65,20 +65,24 @@ function NoteField({ card, store }: { card: Card; store: ExtrasStore }) {
   }
 
   const noteId = `note-${card.id}`;
+  // Form and phrase cards may have no trick.
+  const { trick } = card;
   return (
     <div className="flex flex-col gap-1">
       <div className="flex items-center justify-between gap-2">
         <label htmlFor={noteId} className="text-sm font-bold uppercase tracking-wide text-ink-soft">
           My note
         </label>
-        <button
-          type="button"
-          data-testid="suggest-trick"
-          onClick={() => change(withTrick(text, card.trick))}
-          className="min-h-11 rounded-button px-2 text-sm font-bold text-brand"
-        >
-          Suggest a trick
-        </button>
+        {trick !== null && (
+          <button
+            type="button"
+            data-testid="suggest-trick"
+            onClick={() => change(withTrick(text, trick))}
+            className="min-h-11 rounded-button px-2 text-sm font-bold text-brand"
+          >
+            Suggest a trick
+          </button>
+        )}
       </div>
       <textarea
         id={noteId}

@@ -1,10 +1,11 @@
 // Writes placeholder art for every card in the fixture deck (lib/deck/fixture.json): an SVG
 // showing the English prompt. A card whose clips are still .wav also gets two
-// short tones (word, sentence); `npm run audio` replaces them with real clips.
+// short tones (word, sentence), and so does a tip example whose clip is .wav;
+// `npm run audio` replaces them with real clips.
 // Run with: node scripts/make-fixture-media.mjs
 // Prints counts only. F2 replaces the SVGs with real stills.
 
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -65,7 +66,8 @@ function write(urlPath, contents) {
 let images = 0;
 let clips = 0;
 deck.cards.forEach((card, index) => {
-  if (card.image) {
+  // A form card shows its verb's still. A still already there is kept, so its colour stays put.
+  if (card.kind === "content" && !existsSync(join(publicDir, card.image))) {
     write(card.image, placeholderSvg(card, index));
     images++;
   }
@@ -74,5 +76,12 @@ deck.cards.forEach((card, index) => {
   write(card.audio.sentence, toneWav(0.9, 440));
   clips += 2;
 });
+for (const tip of deck.tips ?? []) {
+  for (const example of tip.examples) {
+    if (!example.audio.endsWith(".wav")) continue;
+    write(example.audio, toneWav(0.9, 440));
+    clips++;
+  }
+}
 
 console.log(`cards: ${deck.cards.length}, images: ${images}, audio clips: ${clips}`);

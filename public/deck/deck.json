@@ -1,5 +1,8 @@
 {
+  "format": 2,
   "version": 5,
+  "units": [],
+  "tips": [],
   "cards": [
     {
       "id": "ser-be-identity",
@@ -27,7 +30,11 @@
       "audio": {
         "word": "/deck/audio/ser-be-identity.word.ac464949.mp3",
         "sentence": "/deck/audio/ser-be-identity.sentence.927fb20d.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "estar-be-state",
@@ -55,7 +62,11 @@
       "audio": {
         "word": "/deck/audio/estar-be-state.word.e827f8a2.mp3",
         "sentence": "/deck/audio/estar-be-state.sentence.6778d3b5.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "el-the",
@@ -76,7 +87,11 @@
       "audio": {
         "word": "/deck/audio/el-the.word.8a3c3aa0.mp3",
         "sentence": "/deck/audio/el-the.sentence.fe3fd1cc.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "haber-have-auxiliary",
@@ -104,7 +119,11 @@
       "audio": {
         "word": "/deck/audio/haber-have-auxiliary.word.cadbba37.mp3",
         "sentence": "/deck/audio/haber-have-auxiliary.sentence.5e7fd5c2.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "haber-there-is",
@@ -132,7 +151,11 @@
       "audio": {
         "word": "/deck/audio/haber-there-is.word.cadbba37.mp3",
         "sentence": "/deck/audio/haber-there-is.sentence.c2338f5f.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "de-of",
@@ -153,7 +176,11 @@
       "audio": {
         "word": "/deck/audio/de-of.word.d852311f.mp3",
         "sentence": "/deck/audio/de-of.sentence.99d92eab.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "tener-have",
@@ -181,7 +208,11 @@
       "audio": {
         "word": "/deck/audio/tener-have.word.10555d5c.mp3",
         "sentence": "/deck/audio/tener-have.sentence.b9d08d80.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "tener-have-to",
@@ -209,7 +240,11 @@
       "audio": {
         "word": "/deck/audio/tener-have-to.word.10555d5c.mp3",
         "sentence": "/deck/audio/tener-have-to.sentence.dc0ddc91.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "de-from",
@@ -230,7 +265,11 @@
       "audio": {
         "word": "/deck/audio/de-from.word.d852311f.mp3",
         "sentence": "/deck/audio/de-from.sentence.e7326e88.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "ir-go",
@@ -258,7 +297,11 @@
       "audio": {
         "word": "/deck/audio/ir-go.word.99cff4b3.mp3",
         "sentence": "/deck/audio/ir-go.sentence.047ffc82.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "hacer-do",
@@ -286,7 +329,11 @@
       "audio": {
         "word": "/deck/audio/hacer-do.word.ee05367f.mp3",
         "sentence": "/deck/audio/hacer-do.sentence.dfc3f70e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "que-that",
@@ -307,7 +354,11 @@
       "audio": {
         "word": "/deck/audio/que-that.word.5d84a940.mp3",
         "sentence": "/deck/audio/que-that.sentence.ebb80581.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "hacer-make",
@@ -335,7 +386,11 @@
       "audio": {
         "word": "/deck/audio/hacer-make.word.ee05367f.mp3",
         "sentence": "/deck/audio/hacer-make.sentence.87b417bf.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "poder-can",
@@ -363,7 +418,11 @@
       "audio": {
         "word": "/deck/audio/poder-can.word.108e91f9.mp3",
         "sentence": "/deck/audio/poder-can.sentence.3d78f120.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "que-who-which",
@@ -384,7 +443,11 @@
       "audio": {
         "word": "/deck/audio/que-who-which.word.5d84a940.mp3",
         "sentence": "/deck/audio/que-who-which.sentence.141c0781.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "decir-say",
@@ -412,7 +475,11 @@
       "audio": {
         "word": "/deck/audio/decir-say.word.5966f43f.mp3",
         "sentence": "/deck/audio/decir-say.sentence.f6c63399.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "saber-know",
@@ -440,7 +507,11 @@
       "audio": {
         "word": "/deck/audio/saber-know.word.524c45d6.mp3",
         "sentence": "/deck/audio/saber-know.sentence.90354863.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "que-than",
@@ -461,7 +532,11 @@
       "audio": {
         "word": "/deck/audio/que-than.word.5d84a940.mp3",
         "sentence": "/deck/audio/que-than.sentence.270407f8.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "querer-want",
@@ -489,7 +564,11 @@
       "audio": {
         "word": "/deck/audio/querer-want.word.d8788e40.mp3",
         "sentence": "/deck/audio/querer-want.sentence.26406add.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "querer-love",
@@ -517,7 +596,11 @@
       "audio": {
         "word": "/deck/audio/querer-love.word.d8788e40.mp3",
         "sentence": "/deck/audio/querer-love.sentence.ca565c43.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "no-not",
@@ -538,7 +621,11 @@
       "audio": {
         "word": "/deck/audio/no-not.word.31fc1e71.mp3",
         "sentence": "/deck/audio/no-not.sentence.57fd88ba.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "si-yes",
@@ -559,7 +646,11 @@
       "audio": {
         "word": "/deck/audio/si-yes.word.f9173474.mp3",
         "sentence": "/deck/audio/si-yes.sentence.6e736b43.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "bien-well",
@@ -580,7 +671,11 @@
       "audio": {
         "word": "/deck/audio/bien-well.word.19cba92b.mp3",
         "sentence": "/deck/audio/bien-well.sentence.4b4bfc51.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "no-no-answer",
@@ -601,7 +696,11 @@
       "audio": {
         "word": "/deck/audio/no-no-answer.word.31fc1e71.mp3",
         "sentence": "/deck/audio/no-no-answer.sentence.dc435eee.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "ver-see",
@@ -629,7 +728,11 @@
       "audio": {
         "word": "/deck/audio/ver-see.word.cfbae7b8.mp3",
         "sentence": "/deck/audio/ver-see.sentence.cbc91c97.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "ver-watch",
@@ -657,7 +760,11 @@
       "audio": {
         "word": "/deck/audio/ver-watch.word.cfbae7b8.mp3",
         "sentence": "/deck/audio/ver-watch.sentence.74af02ef.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "un-a",
@@ -678,7 +785,11 @@
       "audio": {
         "word": "/deck/audio/un-a.word.8a3b13c0.mp3",
         "sentence": "/deck/audio/un-a.sentence.0c024343.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "bueno-good",
@@ -701,7 +812,11 @@
       "audio": {
         "word": "/deck/audio/bueno-good.word.98cd593f.mp3",
         "sentence": "/deck/audio/bueno-good.sentence.a80c1736.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "bueno-well-okay",
@@ -722,7 +837,11 @@
       "audio": {
         "word": "/deck/audio/bueno-well-okay.word.98cd593f.mp3",
         "sentence": "/deck/audio/bueno-well-okay.sentence.e436e008.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "a-to",
@@ -743,7 +862,11 @@
       "audio": {
         "word": "/deck/audio/a-to.word.ad0ba37b.mp3",
         "sentence": "/deck/audio/a-to.sentence.028e3115.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "aqui-here",
@@ -764,7 +887,11 @@
       "audio": {
         "word": "/deck/audio/aqui-here.word.c5f8edd7.mp3",
         "sentence": "/deck/audio/aqui-here.sentence.a3d37ee7.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "mas-more",
@@ -785,7 +912,11 @@
       "audio": {
         "word": "/deck/audio/mas-more.word.bd967971.mp3",
         "sentence": "/deck/audio/mas-more.sentence.04cec378.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "a-at-time",
@@ -806,7 +937,11 @@
       "audio": {
         "word": "/deck/audio/a-at-time.word.ad0ba37b.mp3",
         "sentence": "/deck/audio/a-at-time.sentence.229f9f95.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "mas-most",
@@ -827,7 +962,11 @@
       "audio": {
         "word": "/deck/audio/mas-most.word.bd967971.mp3",
         "sentence": "/deck/audio/mas-most.sentence.c3c0bd24.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "solo-only",
@@ -848,7 +987,11 @@
       "audio": {
         "word": "/deck/audio/solo-only.word.eead367f.mp3",
         "sentence": "/deck/audio/solo-only.sentence.84ab0035.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "y-and",
@@ -869,7 +1012,11 @@
       "audio": {
         "word": "/deck/audio/y-and.word.6b3daaa6.mp3",
         "sentence": "/deck/audio/y-and.sentence.cc9bdfc2.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "solo-alone",
@@ -892,7 +1039,11 @@
       "audio": {
         "word": "/deck/audio/solo-alone.word.eead367f.mp3",
         "sentence": "/deck/audio/solo-alone.sentence.831281fe.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "creer-believe",
@@ -920,7 +1071,11 @@
       "audio": {
         "word": "/deck/audio/creer-believe.word.2f218d8c.mp3",
         "sentence": "/deck/audio/creer-believe.sentence.5b3b6d6b.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "en-in",
@@ -941,7 +1096,11 @@
       "audio": {
         "word": "/deck/audio/en-in.word.67171667.mp3",
         "sentence": "/deck/audio/en-in.sentence.3dc03ad6.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "creer-think-opinion",
@@ -969,7 +1128,11 @@
       "audio": {
         "word": "/deck/audio/creer-think-opinion.word.2f218d8c.mp3",
         "sentence": "/deck/audio/creer-think-opinion.sentence.e37e4daa.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "deber-must",
@@ -997,7 +1160,11 @@
       "audio": {
         "word": "/deck/audio/deber-must.word.3e557333.mp3",
         "sentence": "/deck/audio/deber-must.sentence.69fb668f.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "en-on",
@@ -1018,7 +1185,11 @@
       "audio": {
         "word": "/deck/audio/en-on.word.67171667.mp3",
         "sentence": "/deck/audio/en-on.sentence.d674bbd5.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "deber-owe",
@@ -1046,7 +1217,11 @@
       "audio": {
         "word": "/deck/audio/deber-owe.word.3e557333.mp3",
         "sentence": "/deck/audio/deber-owe.sentence.6ce5fd29.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "ya-already",
@@ -1067,7 +1242,11 @@
       "audio": {
         "word": "/deck/audio/ya-already.word.8c4151f4.mp3",
         "sentence": "/deck/audio/ya-already.sentence.0bef9020.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "en-at",
@@ -1088,7 +1267,11 @@
       "audio": {
         "word": "/deck/audio/en-at.word.67171667.mp3",
         "sentence": "/deck/audio/en-at.sentence.a8429fa4.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "ya-not-anymore",
@@ -1109,7 +1292,11 @@
       "audio": {
         "word": "/deck/audio/ya-not-anymore.word.a93da8a9.mp3",
         "sentence": "/deck/audio/ya-not-anymore.sentence.491950e2.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "ahora-now",
@@ -1130,7 +1317,11 @@
       "audio": {
         "word": "/deck/audio/ahora-now.word.8aa40213.mp3",
         "sentence": "/deck/audio/ahora-now.sentence.35631b80.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "lo-him-it",
@@ -1151,7 +1342,11 @@
       "audio": {
         "word": "/deck/audio/lo-him-it.word.0f327322.mp3",
         "sentence": "/deck/audio/lo-him-it.sentence.73f60bd3.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "muy-very",
@@ -1172,7 +1367,11 @@
       "audio": {
         "word": "/deck/audio/muy-very.word.1a199006.mp3",
         "sentence": "/deck/audio/muy-very.sentence.b10db2b9.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "dar-give",
@@ -1200,7 +1399,11 @@
       "audio": {
         "word": "/deck/audio/dar-give.word.2f67b443.mp3",
         "sentence": "/deck/audio/dar-give.sentence.cd08aa9a.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "lo-the-thing",
@@ -1221,7 +1424,11 @@
       "audio": {
         "word": "/deck/audio/lo-the-thing.word.0f327322.mp3",
         "sentence": "/deck/audio/lo-the-thing.sentence.ec6c4d03.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "pasar-happen",
@@ -1249,7 +1456,11 @@
       "audio": {
         "word": "/deck/audio/pasar-happen.word.3b6f32f2.mp3",
         "sentence": "/deck/audio/pasar-happen.sentence.85c38082.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "pasar-pass",
@@ -1277,7 +1488,11 @@
       "audio": {
         "word": "/deck/audio/pasar-pass.word.3b6f32f2.mp3",
         "sentence": "/deck/audio/pasar-pass.sentence.ccd20dd1.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "por-for-reason",
@@ -1298,7 +1513,11 @@
       "audio": {
         "word": "/deck/audio/por-for-reason.word.0c7e46e8.mp3",
         "sentence": "/deck/audio/por-for-reason.sentence.557ff3f2.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "pasar-spend-time",
@@ -1326,7 +1545,11 @@
       "audio": {
         "word": "/deck/audio/pasar-spend-time.word.3b6f32f2.mp3",
         "sentence": "/deck/audio/pasar-spend-time.sentence.e880116a.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "asi-like-this",
@@ -1347,7 +1570,11 @@
       "audio": {
         "word": "/deck/audio/asi-like-this.word.95b75db6.mp3",
         "sentence": "/deck/audio/asi-like-this.sentence.66b42a43.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "por-through",
@@ -1368,7 +1595,11 @@
       "audio": {
         "word": "/deck/audio/por-through.word.0c7e46e8.mp3",
         "sentence": "/deck/audio/por-through.sentence.a7972124.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "algo-somewhat",
@@ -1389,7 +1620,11 @@
       "audio": {
         "word": "/deck/audio/algo-somewhat.word.6bfe402c.mp3",
         "sentence": "/deck/audio/algo-somewhat.sentence.be41bab8.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "dejar-leave",
@@ -1417,7 +1652,11 @@
       "audio": {
         "word": "/deck/audio/dejar-leave.word.3a69c60a.mp3",
         "sentence": "/deck/audio/dejar-leave.sentence.3ea14a7e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "por-by",
@@ -1438,7 +1677,11 @@
       "audio": {
         "word": "/deck/audio/por-by.word.0c7e46e8.mp3",
         "sentence": "/deck/audio/por-by.sentence.ae38fc33.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "dejar-let",
@@ -1466,7 +1709,11 @@
       "audio": {
         "word": "/deck/audio/dejar-let.word.3a69c60a.mp3",
         "sentence": "/deck/audio/dejar-let.sentence.50f2ce46.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "dejar-quit",
@@ -1494,7 +1741,11 @@
       "audio": {
         "word": "/deck/audio/dejar-quit.word.3a69c60a.mp3",
         "sentence": "/deck/audio/dejar-quit.sentence.69f3b67a.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "que-what",
@@ -1515,7 +1766,11 @@
       "audio": {
         "word": "/deck/audio/que-what.word.b588b7d2.mp3",
         "sentence": "/deck/audio/que-what.sentence.b08066d0.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "vez-time-occasion",
@@ -1539,7 +1794,11 @@
       "audio": {
         "word": "/deck/audio/vez-time-occasion.word.82c87455.mp3",
         "sentence": "/deck/audio/vez-time-occasion.sentence.fcb82ff7.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "hablar-speak",
@@ -1567,7 +1826,11 @@
       "audio": {
         "word": "/deck/audio/hablar-speak.word.0e822159.mp3",
         "sentence": "/deck/audio/hablar-speak.sentence.748c27b1.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "que-how-exclamation",
@@ -1588,7 +1851,11 @@
       "audio": {
         "word": "/deck/audio/que-how-exclamation.word.b588b7d2.mp3",
         "sentence": "/deck/audio/que-how-exclamation.sentence.1d180ddd.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "sentir-feel",
@@ -1616,7 +1883,11 @@
       "audio": {
         "word": "/deck/audio/sentir-feel.word.b5bcbaa5.mp3",
         "sentence": "/deck/audio/sentir-feel.sentence.c9fba597.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "sentir-be-sorry",
@@ -1644,7 +1915,11 @@
       "audio": {
         "word": "/deck/audio/sentir-be-sorry.word.b5bcbaa5.mp3",
         "sentence": "/deck/audio/sentir-be-sorry.sentence.7d923589.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "me-me",
@@ -1665,7 +1940,11 @@
       "audio": {
         "word": "/deck/audio/me-me.word.e2a0eafd.mp3",
         "sentence": "/deck/audio/me-me.sentence.be107b1f.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "venir-come",
@@ -1693,7 +1972,11 @@
       "audio": {
         "word": "/deck/audio/venir-come.word.0e055c42.mp3",
         "sentence": "/deck/audio/venir-come.sentence.8a1f5954.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "mucho-many",
@@ -1716,7 +1999,11 @@
       "audio": {
         "word": "/deck/audio/mucho-many.word.10994daa.mp3",
         "sentence": "/deck/audio/mucho-many.sentence.bfdcff46.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "me-myself",
@@ -1737,7 +2024,11 @@
       "audio": {
         "word": "/deck/audio/me-myself.word.e2a0eafd.mp3",
         "sentence": "/deck/audio/me-myself.sentence.cb72a416.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "mucho-a-lot",
@@ -1758,7 +2049,11 @@
       "audio": {
         "word": "/deck/audio/mucho-a-lot.word.10994daa.mp3",
         "sentence": "/deck/audio/mucho-a-lot.sentence.36e6c2d4.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "esperar-wait",
@@ -1786,7 +2081,11 @@
       "audio": {
         "word": "/deck/audio/esperar-wait.word.afeb1ac0.mp3",
         "sentence": "/deck/audio/esperar-wait.sentence.402cb9a4.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "se-himself-reflexive",
@@ -1807,7 +2106,11 @@
       "audio": {
         "word": "/deck/audio/se-himself-reflexive.word.379ec9c0.mp3",
         "sentence": "/deck/audio/se-himself-reflexive.sentence.b8ce3f4d.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "esperar-hope",
@@ -1835,7 +2138,11 @@
       "audio": {
         "word": "/deck/audio/esperar-hope.word.afeb1ac0.mp3",
         "sentence": "/deck/audio/esperar-hope.sentence.5453ffc9.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "esperar-expect",
@@ -1863,7 +2170,11 @@
       "audio": {
         "word": "/deck/audio/esperar-expect.word.afeb1ac0.mp3",
         "sentence": "/deck/audio/esperar-expect.sentence.2e364877.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "se-one-impersonal",
@@ -1884,7 +2195,11 @@
       "audio": {
         "word": "/deck/audio/se-one-impersonal.word.379ec9c0.mp3",
         "sentence": "/deck/audio/se-one-impersonal.sentence.d0420eaf.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "pensar-think",
@@ -1912,7 +2227,11 @@
       "audio": {
         "word": "/deck/audio/pensar-think.word.3a3a2cba.mp3",
         "sentence": "/deck/audio/pensar-think.sentence.f680a9b7.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "gracias-thank-you",
@@ -1933,7 +2252,11 @@
       "audio": {
         "word": "/deck/audio/gracias-thank-you.word.2bd04ed6.mp3",
         "sentence": "/deck/audio/gracias-thank-you.sentence.e30dc22e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "te-you",
@@ -1954,7 +2277,11 @@
       "audio": {
         "word": "/deck/audio/te-you.word.68fab8d6.mp3",
         "sentence": "/deck/audio/te-you.sentence.4748a76f.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "senor-sir",
@@ -1978,7 +2305,11 @@
       "audio": {
         "word": "/deck/audio/senor-sir.word.85f42bbb.mp3",
         "sentence": "/deck/audio/senor-sir.sentence.980ae547.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "cosa-thing",
@@ -2002,7 +2333,11 @@
       "audio": {
         "word": "/deck/audio/cosa-thing.word.c11d48b1.mp3",
         "sentence": "/deck/audio/cosa-thing.sentence.c06df59e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "te-yourself",
@@ -2023,7 +2358,11 @@
       "audio": {
         "word": "/deck/audio/te-yourself.word.68fab8d6.mp3",
         "sentence": "/deck/audio/te-yourself.sentence.b6c73d1e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "necesitar-need",
@@ -2051,7 +2390,11 @@
       "audio": {
         "word": "/deck/audio/necesitar-need.word.59f4d9a0.mp3",
         "sentence": "/deck/audio/necesitar-need.sentence.92ffaaa5.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "mirar-look-at",
@@ -2079,7 +2422,11 @@
       "audio": {
         "word": "/deck/audio/mirar-look-at.word.89f5db40.mp3",
         "sentence": "/deck/audio/mirar-look-at.sentence.b7112841.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "con-with",
@@ -2100,7 +2447,11 @@
       "audio": {
         "word": "/deck/audio/con-with.word.ea9ca2b8.mp3",
         "sentence": "/deck/audio/con-with.sentence.4c93d887.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "llamar-call",
@@ -2128,7 +2479,11 @@
       "audio": {
         "word": "/deck/audio/llamar-call.word.0957e01a.mp3",
         "sentence": "/deck/audio/llamar-call.sentence.aa77f192.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "llamar-be-named",
@@ -2156,7 +2511,11 @@
       "audio": {
         "word": "/deck/audio/llamar-be-named.word.6b815a30.mp3",
         "sentence": "/deck/audio/llamar-be-named.sentence.dbb83d69.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "para-for",
@@ -2177,7 +2536,11 @@
       "audio": {
         "word": "/deck/audio/para-for.word.197c283f.mp3",
         "sentence": "/deck/audio/para-for.sentence.64b2eff8.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "dia-day",
@@ -2201,7 +2564,11 @@
       "audio": {
         "word": "/deck/audio/dia-day.word.0fe02e34.mp3",
         "sentence": "/deck/audio/dia-day.sentence.87de6460.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "hombre-man",
@@ -2225,7 +2592,11 @@
       "audio": {
         "word": "/deck/audio/hombre-man.word.8befab5e.mp3",
         "sentence": "/deck/audio/hombre-man.sentence.0bcb632f.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "para-in-order-to",
@@ -2246,7 +2617,11 @@
       "audio": {
         "word": "/deck/audio/para-in-order-to.word.197c283f.mp3",
         "sentence": "/deck/audio/para-in-order-to.sentence.ce6e273d.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "entonces-so",
@@ -2267,7 +2642,11 @@
       "audio": {
         "word": "/deck/audio/entonces-so.word.119c771e.mp3",
         "sentence": "/deck/audio/entonces-so.sentence.f1d1f570.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "entonces-then-time",
@@ -2288,7 +2667,11 @@
       "audio": {
         "word": "/deck/audio/entonces-then-time.word.119c771e.mp3",
         "sentence": "/deck/audio/entonces-then-time.sentence.04e24d9d.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "mi-my",
@@ -2309,7 +2692,11 @@
       "audio": {
         "word": "/deck/audio/mi-my.word.78c81d5a.mp3",
         "sentence": "/deck/audio/mi-my.sentence.caeaf27e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "casa-house",
@@ -2333,7 +2720,11 @@
       "audio": {
         "word": "/deck/audio/casa-house.word.ad730258.mp3",
         "sentence": "/deck/audio/casa-house.sentence.6eb6d23e.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "casa-home",
@@ -2357,7 +2748,11 @@
       "audio": {
         "word": "/deck/audio/casa-home.word.ad730258.mp3",
         "sentence": "/deck/audio/casa-home.sentence.a8b1d812.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "su-his-her",
@@ -2378,7 +2773,11 @@
       "audio": {
         "word": "/deck/audio/su-his-her.word.568c2285.mp3",
         "sentence": "/deck/audio/su-his-her.sentence.a02b5779.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "hola-hello",
@@ -2399,7 +2798,11 @@
       "audio": {
         "word": "/deck/audio/hola-hello.word.941dae82.mp3",
         "sentence": "/deck/audio/hola-hello.sentence.86ac7fdf.mp3"
-      }
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
     }
   ]
 }

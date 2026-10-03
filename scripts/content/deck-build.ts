@@ -13,8 +13,8 @@
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { isDeepStrictEqual } from "node:util";
-import type { Card, Deck } from "@/lib/deck/types";
-import { validateCard, validateDeck } from "@/lib/deck/validate";
+import { DECK_FORMAT, type Card, type Deck, type DraftCard } from "@/lib/deck/types";
+import { validateDeck, validateDraftCard } from "@/lib/deck/validate";
 import { learnQueue } from "@/lib/queues";
 import { audioPaths } from "./audio.mjs";
 import { cardFromDecision, readDecision } from "./decisions";
@@ -47,6 +47,14 @@ export interface DeckBuild {
 /** The order Learn shows a new learner: glue and content queues by rank, two content cards per glue card. */
 export function learnOrder(cards: Card[]): Card[] {
   return learnQueue(cards, new Map());
+}
+
+/**
+ * A drafted card with the learning path's fields, all empty for now: the tag pass (L5)
+ * and the ordering build (L6) fill them. They come last, after the drafted fields.
+ */
+export function deckCard(draft: DraftCard): Card {
+  return { ...draft, unit: null, requires: [], tip: null, why: null };
 }
 
 export function readDeckFile(file: string): Deck | null {
@@ -90,14 +98,14 @@ export function buildDeck(
     for (const id of word.cards) {
       const draft = readDraftCard(drafts, id);
       if (!draft) continue;
-      drafted.push(draft);
+      drafted.push(deckCard(draft));
       const review = reviews.get(id);
       if (!review || review.draft !== cardHash(draft)) {
         build.notReviewed.push(id);
         continue;
       }
       if (!review.flagged) {
-        cards.set(id, draft);
+        cards.set(id, deckCard(draft));
         build.passed.push(id);
         continue;
       }
@@ -115,14 +123,14 @@ export function buildDeck(
         continue;
       }
       const card = cardFromDecision(draft, decision.fields);
-      const validation = validateCard(card);
+      const validation = validateDraftCard(card);
       const fields = validation.ok ? [] : validation.errors.map((e) => e.replace(/^card [^.:]*\.?/, "").split(":")[0] || "card");
       if (idProblem(String((card as { id: unknown }).id), word.word, word.rank)) fields.push("id");
       if (fields.length) {
         build.problems.push(`${id}: ${[...new Set(fields)].join(", ")}`);
         continue;
       }
-      cards.set(id, card as Card);
+      cards.set(id, deckCard(card as DraftCard));
       build.approved.push(id);
       if (!isDeepStrictEqual(card, draft)) build.corrected.push(id);
     }
@@ -137,7 +145,9 @@ export function buildDeck(
   // Clip paths carry a hash of the clip's text and take (G2), so a corrected sentence names a new clip.
   const ordered = learnOrder(kept.map((card) => ({ ...card, audio: audioPaths(card, takes) })));
   const changed = !previous || JSON.stringify(previous.cards) !== JSON.stringify(ordered);
-  const deck: Deck = { version: !previous ? 1 : changed ? previous.version + 1 : previous.version, cards: ordered };
+  const version = !previous ? 1 : changed ? previous.version + 1 : previous.version;
+  // Units and tips join the deck in L4 and L6.
+  const deck: Deck = { format: DECK_FORMAT, version, units: [], tips: [], cards: ordered };
   build.changed = changed;
 
   const validation = validateDeck(deck);

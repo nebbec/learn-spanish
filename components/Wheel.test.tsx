@@ -11,7 +11,7 @@ import type { CardState } from "@/lib/scheduler";
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 
 const cards = fixtureDeck.cards;
-const FIXTURE_GROUPS = ["noun", "verb", "adjective", "adverb", "pronoun", "preposition"];
+const FIXTURE_GROUPS = ["noun", "verb", "adjective", "adverb", "pronoun", "preposition", "phrase"];
 
 function state(cardId: string, stability: number): CardState {
   return {
@@ -67,15 +67,16 @@ describe("Wheel", () => {
       "Adverbs",
       "Pronouns",
       "Prepositions",
+      "Phrases",
     ]);
     for (const pos of FIXTURE_GROUPS) {
       expect(layer(pos, "seen")).toBe("");
       expect(layer(pos, "memorized")).toBe("");
       expect(layer(pos, "hit")).not.toBe("");
     }
-    expect(centre()).toBe("0of 12");
+    expect(centre()).toBe("0of 16");
     expect(host.querySelector("svg")!.getAttribute("aria-label")).toBe(
-      "Progress: 0 of 12 cards memorized, 0 seen",
+      "Progress: 0 of 16 cards memorized, 0 seen",
     );
   });
 
@@ -118,7 +119,7 @@ describe("Wheel", () => {
       /fill-brand(\s|$)/,
     );
 
-    expect(centre()).toBe("1of 12");
+    expect(centre()).toBe("1of 16");
     expect(slice("noun").getAttribute("aria-label")).toBe("Nouns: 1 memorized and 4 seen, of 5");
   });
 
@@ -130,7 +131,7 @@ describe("Wheel", () => {
       expect(layer(s.pos, "memorized")).toBe(full);
       expect(layer(s.pos, "seen")).toBe(full);
     }
-    expect(centre()).toBe("12of 12");
+    expect(centre()).toBe("16of 16");
   });
 
   it("renders an empty deck without slices", () => {

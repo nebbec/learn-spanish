@@ -1,14 +1,19 @@
 // Runtime validator for cards and decks. No dependencies, so the content
 // pipeline scripts and the app can both use it.
 
-import { ARTICLES, CARD_KINDS, PARTS_OF_SPEECH, type Card, type Deck } from "./types";
+import { ARTICLES, CARD_KINDS, DECK_FORMAT, PARTS_OF_SPEECH, type Card, type Deck, type DraftCard } from "./types";
 
 export type Validation<T> = { ok: true; value: T } | { ok: false; errors: string[] };
 
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+/** `<verb>-form-<yo|tu|el>`, or `haber-form-hay`. */
+const FORM_ID = /^(?:[a-z]+-form-(yo|tu|el)|haber-form-hay)$/;
+/** `phrase-` and one to four English words. */
+const PHRASE_ID = /^phrase(-[a-z0-9]+){1,4}$/;
+const TIP_ID = /^tip(-[a-z0-9]+)+$/;
 const BRACKETED = /\[[^\[\]]+\]/g;
 
-const CARD_FIELDS = [
+const DRAFT_CARD_FIELDS = [
   "id",
   "rank",
   "kind",
@@ -23,6 +28,9 @@ const CARD_FIELDS = [
   "image",
   "audio",
 ];
+/** Added to every card in the deck by the learning path. */
+const PATH_FIELDS = ["unit", "requires", "tip", "why"];
+const CARD_FIELDS = [...DRAFT_CARD_FIELDS, ...PATH_FIELDS];
 
 type Rec = Record<string, unknown>;
 
@@ -116,13 +124,66 @@ function checkGrammar(c: Checker, card: Rec) {
   }
 }
 
-function checkCard(input: unknown, path: string): string[] {
+/** The rules that depend on the kind: id, part of speech, prompt, image, trick, form. */
+function checkKind(c: Checker, card: Rec) {
+  const { kind } = card;
+  const id = typeof card.id === "string" ? card.id : "";
+
+  if (kind === "form") {
+    const form = FORM_ID.exec(id);
+    if (id && !form) c.fail("id", 'a form card\'s id must be "<verb>-form-<yo|tu|el>" or "haber-form-hay"');
+    if ("pos" in card && card.pos !== "verb") c.fail("pos", 'must be "verb" for a form card');
+    // The reveal highlights the card's own form in its verb's strip.
+    const person = form?.[1] as "yo" | "tu" | "el" | undefined;
+    const present = isRecord(card.grammar) && isRecord(card.grammar.present) ? card.grammar.present : null;
+    if (person && present && isText(card.es) && present[person] !== card.es) {
+      c.fail("es", `must be the ${person} form in grammar.present`);
+    }
+  } else if (kind === "phrase") {
+    if (id && !PHRASE_ID.test(id)) c.fail("id", 'a phrase card\'s id must be "phrase-" and one to four English words');
+    if ("pos" in card && card.pos !== "phrase") c.fail("pos", 'must be "phrase" for a phrase card');
+  } else if (kind === "content" || kind === "glue") {
+    if (FORM_ID.test(id) || PHRASE_ID.test(id)) c.fail("id", `a ${kind} card cannot have a form or phrase id`);
+    if (card.pos === "phrase") c.fail("pos", `cannot be "phrase" for a ${kind} card`);
+    c.text(card, "trick");
+  } else {
+    return;
+  }
+  if (kind !== "content" && kind !== "glue") c.textOrNull(card, "trick");
+
+  if (isText(card.en)) {
+    const targets = card.en.match(BRACKETED)?.length ?? 0;
+    const strayBrackets = card.en.replace(BRACKETED, "").match(/[\[\]]/) !== null;
+    if (kind === "glue" && (targets !== 1 || strayBrackets)) {
+      c.fail("en", "a glue prompt must mark exactly one target in [square brackets]");
+    }
+    if (kind !== "glue" && (targets !== 0 || strayBrackets)) {
+      c.fail("en", `a ${kind} prompt must not contain square brackets`);
+    }
+  }
+  if ("image" in card) {
+    const needsImage = kind === "content" || kind === "form";
+    if (needsImage && card.image === null) c.fail("image", `is required for a ${kind} card`);
+    if (!needsImage && card.image !== null) c.fail("image", `must be null for a ${kind} card`);
+  }
+}
+
+function checkPathFields(c: Checker, card: Rec) {
+  c.textOrNull(card, "unit");
+  c.textOrNull(card, "tip");
+  c.textOrNull(card, "why");
+  if ("requires" in card && !(Array.isArray(card.requires) && card.requires.every(isText))) {
+    c.fail("requires", "must be a list of card ids");
+  }
+}
+
+function checkCard(input: unknown, path: string, draft: boolean): string[] {
   const c = new Checker(path);
   if (!isRecord(input)) {
     c.fail("", "must be an object");
     return c.errors;
   }
-  c.fields(input, CARD_FIELDS);
+  c.fields(input, draft ? DRAFT_CARD_FIELDS : CARD_FIELDS);
 
   if ("id" in input && !(typeof input.id === "string" && ID_PATTERN.test(input.id))) {
     c.fail("id", "must be a lower-case slug (a-z, 0-9, hyphens)");
@@ -130,37 +191,21 @@ function checkCard(input: unknown, path: string): string[] {
   if ("rank" in input && !(Number.isInteger(input.rank) && (input.rank as number) >= 1)) {
     c.fail("rank", "must be a whole number, 1 or more");
   }
-  const kindOk = CARD_KINDS.includes(input.kind as never);
-  if ("kind" in input && !kindOk) c.fail("kind", `must be one of ${CARD_KINDS.join(", ")}`);
+  if ("kind" in input && !CARD_KINDS.includes(input.kind as never)) {
+    c.fail("kind", `must be one of ${CARD_KINDS.join(", ")}`);
+  }
   if ("pos" in input && !PARTS_OF_SPEECH.includes(input.pos as never)) {
     c.fail("pos", `must be one of ${PARTS_OF_SPEECH.join(", ")}`);
   }
-  for (const key of ["es", "en", "trick"]) c.text(input, key);
+  for (const key of ["es", "en"]) c.text(input, key);
   c.textOrNull(input, "hint");
   c.textOrNull(input, "spain");
   c.textOrNull(input, "image");
   c.textRecord(input, "example", ["es", "en"]);
   c.textRecord(input, "audio", ["word", "sentence"]);
   checkGrammar(c, input);
-
-  if (kindOk && isText(input.en)) {
-    const targets = input.en.match(BRACKETED)?.length ?? 0;
-    const strayBrackets = input.en.replace(BRACKETED, "").match(/[\[\]]/) !== null;
-    if (input.kind === "glue" && (targets !== 1 || strayBrackets)) {
-      c.fail("en", "a glue prompt must mark exactly one target in [square brackets]");
-    }
-    if (input.kind === "content" && (targets !== 0 || strayBrackets)) {
-      c.fail("en", "a content prompt must not contain square brackets");
-    }
-  }
-  if (kindOk && "image" in input) {
-    if (input.kind === "glue" && input.image !== null) {
-      c.fail("image", "must be null for a glue card");
-    }
-    if (input.kind === "content" && input.image === null) {
-      c.fail("image", "is required for a content card");
-    }
-  }
+  checkKind(c, input);
+  if (!draft) checkPathFields(c, input);
   return c.errors;
 }
 
@@ -169,33 +214,30 @@ function promptKey(card: Rec): string {
   return `${String(card.en).trim().toLowerCase()}|${String(card.hint ?? "").trim().toLowerCase()}`;
 }
 
+function cardLabel(input: unknown, index?: number): string {
+  return isRecord(input) && typeof input.id === "string" ? input.id : index === undefined ? "?" : `#${index}`;
+}
+
+/** A card in the deck, with the learning path's fields. */
 export function validateCard(input: unknown): Validation<Card> {
-  const id = isRecord(input) && typeof input.id === "string" ? input.id : "?";
-  const errors = checkCard(input, `card ${id}`);
+  const errors = checkCard(input, `card ${cardLabel(input)}`, false);
   return errors.length ? { ok: false, errors } : { ok: true, value: input as Card };
 }
 
-/** Validates every card, plus the rules that span cards: unique ids and unique prompts. */
-export function validateDeck(input: unknown): Validation<Deck> {
-  if (!isRecord(input)) return { ok: false, errors: ["deck: must be an object"] };
-  const c = new Checker("deck");
-  c.fields(input, ["version", "cards"]);
-  if ("version" in input && !(Number.isInteger(input.version) && (input.version as number) >= 1)) {
-    c.fail("version", "must be a whole number, 1 or more");
-  }
-  const errors = c.errors;
-  if (!("cards" in input)) return { ok: false, errors };
-  if (!Array.isArray(input.cards)) {
-    c.fail("cards", "must be an array");
-    return { ok: false, errors };
-  }
+/** A card as the draft pass writes it: every rule but the learning path's fields, which it does not have yet. */
+export function validateDraftCard(input: unknown): Validation<DraftCard> {
+  const errors = checkCard(input, `card ${cardLabel(input)}`, true);
+  return errors.length ? { ok: false, errors } : { ok: true, value: input as DraftCard };
+}
 
+/** Checks each card, plus the rules that span cards: unique ids and unique prompts. */
+function checkCards(cards: unknown[], draft: boolean): string[] {
+  const errors: string[] = [];
   const ids = new Set<string>();
   const prompts = new Map<string, string>();
-  input.cards.forEach((card: unknown, index) => {
-    const id = isRecord(card) && typeof card.id === "string" ? card.id : `#${index}`;
-    const cardErrors = checkCard(card, `card ${id}`);
-    errors.push(...cardErrors);
+  cards.forEach((card, index) => {
+    const id = cardLabel(card, index);
+    errors.push(...checkCard(card, `card ${id}`, draft));
     if (!isRecord(card) || typeof card.id !== "string") return;
 
     if (ids.has(card.id)) errors.push(`card ${id}.id: duplicate id`);
@@ -210,6 +252,125 @@ export function validateDeck(input: unknown): Validation<Deck> {
         prompts.set(key, card.id);
       }
     }
+  });
+  return errors;
+}
+
+/** Every drafted card together: each card's rules, unique ids and unique prompts. */
+export function validateDraftCards(cards: unknown[]): Validation<DraftCard[]> {
+  const errors = checkCards(cards, true);
+  return errors.length ? { ok: false, errors } : { ok: true, value: cards as DraftCard[] };
+}
+
+/** A list of entries with unique ids. Returns the ids, or null when the list is not a list. */
+function checkEntries(
+  c: Checker,
+  deck: Rec,
+  key: "units" | "tips",
+  idPattern: RegExp,
+  check: (entry: Rec, entryChecker: Checker) => void,
+): Set<string> | null {
+  if (!(key in deck)) return null;
+  if (!Array.isArray(deck[key])) {
+    c.fail(key, "must be an array");
+    return null;
+  }
+  const ids = new Set<string>();
+  (deck[key] as unknown[]).forEach((entry, index) => {
+    const label = isRecord(entry) && typeof entry.id === "string" ? entry.id : `#${index}`;
+    const ec = new Checker(`${key === "units" ? "unit" : "tip"} ${label}`);
+    if (!isRecord(entry)) {
+      ec.fail("", "must be an object");
+    } else {
+      if (!(typeof entry.id === "string" && idPattern.test(entry.id))) {
+        ec.fail("id", key === "units" ? "must be a lower-case slug" : 'must be "tip-" and lower-case words');
+      } else if (ids.has(entry.id)) {
+        ec.fail("id", "duplicate id");
+      } else {
+        ids.add(entry.id);
+      }
+      check(entry, ec);
+    }
+    c.errors.push(...ec.errors);
+  });
+  return ids;
+}
+
+function checkUnit(unit: Rec, c: Checker) {
+  c.fields(unit, ["id", "title", "goal"]);
+  c.text(unit, "title");
+  c.text(unit, "goal");
+}
+
+function checkTip(tip: Rec, c: Checker) {
+  c.fields(tip, ["id", "title", "body", "examples"]);
+  c.text(tip, "title");
+  c.text(tip, "body");
+  if (!("examples" in tip)) return;
+  const { examples } = tip;
+  if (!Array.isArray(examples) || examples.length < 2 || examples.length > 3) {
+    c.fail("examples", "must be a list of two or three examples");
+    return;
+  }
+  examples.forEach((example, index) => {
+    if (!isRecord(example)) {
+      c.fail(`examples.${index}`, "must be an object");
+      return;
+    }
+    c.fields(example, ["es", "en", "audio"], `examples.${index}`);
+    for (const key of ["es", "en", "audio"]) c.text(example, key, `examples.${index}`);
+  });
+}
+
+/**
+ * Validates every card, plus the rules that span the deck: unique ids and prompts, every
+ * `unit` and `tip` naming an entry of the deck, and every `requires` naming a card earlier in the file.
+ */
+export function validateDeck(input: unknown): Validation<Deck> {
+  if (!isRecord(input)) return { ok: false, errors: ["deck: must be an object"] };
+  const c = new Checker("deck");
+  c.fields(input, ["format", "version", "units", "tips", "cards"]);
+  if ("format" in input && input.format !== DECK_FORMAT) {
+    c.fail("format", `must be ${DECK_FORMAT}`);
+  }
+  if ("version" in input && !(Number.isInteger(input.version) && (input.version as number) >= 1)) {
+    c.fail("version", "must be a whole number, 1 or more");
+  }
+  const units = checkEntries(c, input, "units", ID_PATTERN, checkUnit);
+  const tips = checkEntries(c, input, "tips", TIP_ID, checkTip);
+  const errors = c.errors;
+  if (!("cards" in input)) return { ok: false, errors };
+  if (!Array.isArray(input.cards)) {
+    c.fail("cards", "must be an array");
+    return { ok: false, errors };
+  }
+  const cards: unknown[] = input.cards;
+  errors.push(...checkCards(cards, false));
+
+  // References: checked only once the card's own fields have the right types.
+  const allIds = new Set(cards.map((card) => (isRecord(card) ? card.id : undefined)));
+  const earlier = new Set<unknown>();
+  cards.forEach((card, index) => {
+    if (!isRecord(card)) return;
+    const id = cardLabel(card, index);
+    if (units && isText(card.unit) && !units.has(card.unit)) {
+      errors.push(`card ${id}.unit: no unit "${card.unit}" in the deck`);
+    }
+    if (tips && isText(card.tip) && !tips.has(card.tip)) {
+      errors.push(`card ${id}.tip: no tip "${card.tip}" in the deck`);
+    }
+    if (Array.isArray(card.requires)) {
+      const seen = new Set<unknown>();
+      for (const required of card.requires) {
+        if (!isText(required)) continue;
+        if (seen.has(required)) errors.push(`card ${id}.requires: "${required}" is listed twice`);
+        seen.add(required);
+        if (required === card.id) errors.push(`card ${id}.requires: a card cannot require itself`);
+        else if (!allIds.has(required)) errors.push(`card ${id}.requires: no card "${required}" in the deck`);
+        else if (!earlier.has(required)) errors.push(`card ${id}.requires: "${required}" must come earlier in the file`);
+      }
+    }
+    earlier.add(card.id);
   });
 
   return errors.length ? { ok: false, errors } : { ok: true, value: input as unknown as Deck };

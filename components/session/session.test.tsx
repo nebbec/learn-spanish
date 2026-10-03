@@ -127,7 +127,10 @@ describe("a full Learn batch on the fixture deck", () => {
     expect(states.map((state) => state.cardId).sort()).toEqual([...LEARN_ORDER].sort());
     const replayed = replayReviews(reviews);
     expect(new Map(states.map((state) => [state.cardId, state]))).toEqual(replayed);
-    for (const card of cards) expect(isSeen(replayed.get(card.id))).toBe(true);
+    // Every card Learn shows: form and phrase cards join Learn with the ordering build (L6).
+    for (const card of cards.filter((c) => c.kind === "content" || c.kind === "glue")) {
+      expect(isSeen(replayed.get(card.id))).toBe(true);
+    }
     expect(learnQueue(cards, replayed)).toEqual([]);
   });
 

@@ -211,11 +211,17 @@ export function normalizeSpoken(text) {
 
 /**
  * The files in public/deck/audio that no deck names: a redone take's old clip, a
- * corrected card's old clips, or the fixture's tones. `--prune` passes both the
- * app's deck and content/deck.json, so pruning after one never deletes the other's.
+ * corrected card's old clips, or the fixture's tones. A deck names its cards' clips and
+ * its tips' example clips. `--prune` passes both the app's deck and content/deck.json,
+ * so pruning after one never deletes the other's.
  */
 export function orphanClips(files, decks) {
-  const named = new Set(decks.flatMap((deck) => deck.cards.flatMap((card) => Object.values(card.audio))));
+  const named = new Set(
+    decks.flatMap((deck) => [
+      ...deck.cards.flatMap((card) => Object.values(card.audio)),
+      ...(deck.tips ?? []).flatMap((tip) => tip.examples.map((example) => example.audio)),
+    ]),
+  );
   return files.filter((name) => !named.has(`/deck/audio/${name}`));
 }
 

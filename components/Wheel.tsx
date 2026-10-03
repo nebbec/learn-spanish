@@ -21,6 +21,7 @@ export const POS_LABELS: Record<PartOfSpeech, string> = {
   conjunction: "Conjunctions",
   determiner: "Determiners",
   other: "Other",
+  phrase: "Phrases",
 };
 
 export interface WheelProps {

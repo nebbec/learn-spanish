@@ -17,7 +17,7 @@
 import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
-import type { Card } from "@/lib/deck/types";
+import type { DraftCard } from "@/lib/deck/types";
 import type { CallUsage, Effort, Runner } from "./claude";
 import { DraftStore, formatDuration, slug, writeJson } from "./drafting";
 
@@ -58,7 +58,7 @@ export function idProblem(id: string, word: string, rank: number): string | null
 }
 
 /** A short fingerprint of a drafted card: a review or a decision applies only to the card it saw. */
-export function cardHash(card: Card): string {
+export function cardHash(card: DraftCard): string {
   return createHash("sha256").update(JSON.stringify(card)).digest("hex").slice(0, 16);
 }
 
@@ -88,13 +88,13 @@ Last, note is one sentence for anything worth telling the editor that is not a p
 Every text field is one line of plain text, with no Markdown.`;
 
 /** The part of the card the reviewer sees: no id, rank or media paths. */
-function shownCard(card: Card) {
+function shownCard(card: DraftCard) {
   const { kind, pos, es, en, hint, grammar, example, spain, trick } = card;
   return { kind, pos, es, en, hint, grammar, example, spain, trick };
 }
 
-export function reviewPrompt(card: Card, word: { rank: number; word: string }, others: Card[]): string {
-  const prompt = (c: Card) => (c.hint ? `"${c.en}" (hint: ${c.hint})` : `"${c.en}"`);
+export function reviewPrompt(card: DraftCard, word: { rank: number; word: string }, others: DraftCard[]): string {
+  const prompt = (c: DraftCard) => (c.hint ? `"${c.en}" (hint: ${c.hint})` : `"${c.en}"`);
   return [
     `Word: ${word.word}, rank ${word.rank} in a frequency list made from film and TV subtitles.`,
     others.length
@@ -196,9 +196,9 @@ export function draftedWords(drafts: DraftStore, from = 1, to = Number.MAX_SAFE_
     .sort((a, b) => a.rank - b.rank);
 }
 
-export function readDraftCard(drafts: DraftStore, id: string): Card | null {
+export function readDraftCard(drafts: DraftStore, id: string): DraftCard | null {
   const file = path.join(drafts.cardsDir, `${id}.json`);
-  return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as Card) : null;
+  return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as DraftCard) : null;
 }
 
 /** The review files under one directory (content/review by default). */
@@ -232,7 +232,7 @@ export class ReviewStore {
 }
 
 /** The script's own checks on one card: the id rule, and what the deck validator found among all drafts. */
-export function scriptFindings(card: Card, word: string, deckProblems: string[]): Finding[] {
+export function scriptFindings(card: DraftCard, word: string, deckProblems: string[]): Finding[] {
   const findings: Finding[] = [];
   const id = idProblem(card.id, word, card.rank);
   if (id) findings.push({ reason: "id", problem: `The id ${id}.`, fix: null });
@@ -283,9 +283,9 @@ export interface ReviewSummary {
 }
 
 interface Job {
-  card: Card;
+  card: DraftCard;
   word: DraftedWord;
-  others: Card[];
+  others: DraftCard[];
 }
 
 /** Reviews every drafted card of the given words that has no review of its current draft. */
@@ -298,7 +298,7 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
 
   const jobs: Job[] = [];
   for (const word of words) {
-    const cards = word.cards.map((id) => readDraftCard(drafts, id)).filter((c): c is Card => c !== null);
+    const cards = word.cards.map((id) => readDraftCard(drafts, id)).filter((c): c is DraftCard => c !== null);
     for (const card of cards) jobs.push({ card, word, others: cards.filter((c) => c !== card) });
   }
   const todo = jobs.filter((j) => redo || store.get(j.card.id)?.draft !== cardHash(j.card));

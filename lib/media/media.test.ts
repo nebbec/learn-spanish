@@ -55,8 +55,8 @@ describe("which files", () => {
   it("lists every file in the deck once", () => {
     const all = deckMedia(cards);
     expect(new Set(all).size).toBe(all.length);
-    // 9 content cards with a still, and two clips for each of the 12 cards.
-    expect(all).toHaveLength(9 + 24);
+    // 9 content cards with a still (the form cards share ir-go's), and two clips for each of the 16 cards.
+    expect(all).toHaveLength(9 + 32);
   });
 
   it("wants the next Learn batches, soonest first, and nothing beyond them", () => {
@@ -78,7 +78,9 @@ describe("which files", () => {
   });
 
   it("wants the whole deck when the batches ahead cover it", () => {
-    expect([...wantedMedia(cards, new Map())].sort()).toEqual([...deckMedia(cards)].sort());
+    // Learn leaves out form and phrase cards until the ordering build (L6) makes it follow the deck file.
+    const learnt = cards.filter((c) => c.kind === "content" || c.kind === "glue");
+    expect([...wantedMedia(cards, new Map())].sort()).toEqual([...deckMedia(learnt)].sort());
   });
 });
 

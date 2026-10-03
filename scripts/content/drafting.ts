@@ -9,8 +9,8 @@
 
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { ARTICLES, CARD_KINDS, PARTS_OF_SPEECH, type Card } from "@/lib/deck/types";
-import { validateCard, validateDeck } from "@/lib/deck/validate";
+import { ARTICLES, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard } from "@/lib/deck/types";
+import { validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
 import type { CallUsage, Effort, Runner } from "./claude";
 
 export interface WordEntry {
@@ -111,8 +111,8 @@ export const DRAFT_SCHEMA: Record<string, unknown> = object({
     type: "array",
     items: object({
       id: text,
-      kind: { type: "string", enum: [...CARD_KINDS] },
-      pos: { type: "string", enum: [...PARTS_OF_SPEECH] },
+      kind: { type: "string", enum: [...WORD_CARD_KINDS] },
+      pos: { type: "string", enum: [...WORD_PARTS_OF_SPEECH] },
       es: text,
       en: text,
       hint: nullable(text),
@@ -202,7 +202,7 @@ function grammarFor(pos: unknown, raw: unknown, g: Guard): unknown {
   return null;
 }
 
-function buildCard(raw: unknown, entry: WordEntry, g: Guard): Card {
+function buildCard(raw: unknown, entry: WordEntry, g: Guard): DraftCard {
   const r = isRec(raw) ? raw : {};
   const id = typeof r.id === "string" ? r.id.trim().toLowerCase() : "";
   const prefix = slug(entry.word);
@@ -221,17 +221,17 @@ function buildCard(raw: unknown, entry: WordEntry, g: Guard): Card {
     spain: g.optional(r.spain, "spain"),
     trick: g.text(r.trick, "trick"),
   });
-  const validation = validateCard(card);
+  const validation = validateDraftCard(card);
   for (const error of validation.ok ? [] : validation.errors) {
     // Errors read "card <id>.<field>: <message>"; keep only the field.
     const rest = error.slice(`card ${id}`.length);
     g.fail(rest.startsWith(".") ? rest.slice(1, rest.indexOf(":")) : "card");
   }
-  return card as Card;
+  return card as DraftCard;
 }
 
 export type Guarded =
-  | { ok: true; cards: Card[]; skip: Skip | null }
+  | { ok: true; cards: DraftCard[]; skip: Skip | null }
   | { ok: false; kind: "shape" | "invalid"; fields: string[] };
 
 /** The output guard: turns Claude's answer for one word into valid cards, or names the failing fields. */
@@ -275,11 +275,11 @@ export class DraftStore {
     for (const card of this.cards()) this.index.set(card.id, card.rank);
   }
 
-  cards(): Card[] {
+  cards(): DraftCard[] {
     return readdirSync(this.cardsDir)
       .filter((f) => f.endsWith(".json"))
       .sort()
-      .map((f) => JSON.parse(readFileSync(path.join(this.cardsDir, f), "utf8")) as Card);
+      .map((f) => JSON.parse(readFileSync(path.join(this.cardsDir, f), "utf8")) as DraftCard);
   }
 
   wordFile(rank: number) {
@@ -295,7 +295,7 @@ export class DraftStore {
    * word whose word file is missing is drafted again on the next run. An id
    * another word already holds gets this word's rank appended.
    */
-  saveWord(entry: WordEntry, cards: Card[], skip: Skip | null, meta: Rec): string[] {
+  saveWord(entry: WordEntry, cards: DraftCard[], skip: Skip | null, meta: Rec): string[] {
     for (const [id, rank] of this.index) {
       if (rank !== entry.rank) continue;
       rmSync(path.join(this.cardsDir, `${id}.json`), { force: true });
@@ -303,7 +303,7 @@ export class DraftStore {
     }
     const ids: string[] = [];
     for (let card of cards) {
-      if (this.index.has(card.id)) card = withMedia({ ...card, id: `${card.id}-${entry.rank}` }) as Card;
+      if (this.index.has(card.id)) card = withMedia({ ...card, id: `${card.id}-${entry.rank}` }) as DraftCard;
       writeJson(path.join(this.cardsDir, `${card.id}.json`), card);
       this.index.set(card.id, entry.rank);
       ids.push(card.id);
@@ -324,7 +324,7 @@ export class DraftStore {
 
   /** Checks every drafted card together, as the deck build will. Returns "id.field" for each problem. */
   deckProblems(): string[] {
-    const result = validateDeck({ version: 1, cards: this.cards() });
+    const result = validateDraftCards(this.cards());
     if (result.ok) return [];
     return result.errors.map((e) => e.replace(/^card /, "").split(":")[0]);
   }

@@ -4,7 +4,7 @@
 import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import type { Card } from "@/lib/deck/types";
+import type { DraftCard } from "@/lib/deck/types";
 import type { CallResult, DraftRequest, Runner } from "./claude";
 import { DraftStore, withMedia, type WordEntry } from "./drafting";
 import { CHECKS, ReviewStore, type ReviewOptions } from "./reviewing";
@@ -18,8 +18,8 @@ export const words: Record<string, WordEntry> = {
 
 const base = { hint: null, spain: null, trick: "A made-up trick for the test." };
 
-export function testCards(): Record<string, Card[]> {
-  const card = (c: { id: string; kind: string } & Record<string, unknown>) => withMedia({ ...base, ...c }) as unknown as Card;
+export function testCards(): Record<string, DraftCard[]> {
+  const card = (c: { id: string; kind: string } & Record<string, unknown>) => withMedia({ ...base, ...c }) as unknown as DraftCard;
   return {
     de: [card({ id: "de-of", rank: 2, kind: "glue", pos: "preposition", es: "de", en: "the house [of] Maria", grammar: null, example: { es: "Es la casa de María.", en: "It is Maria's house." } })],
     tener: [
@@ -37,7 +37,7 @@ const FAULTS: Record<string, string> = { house: "example", "to have to": "oneAns
 const NOTES: Record<string, string> = { "to have": "Note text: the hint is not needed.", house: "Note text for house." };
 
 export function answerFor(prompt: string) {
-  const card = JSON.parse(prompt.slice(prompt.indexOf("{"))) as Card;
+  const card = JSON.parse(prompt.slice(prompt.indexOf("{"))) as DraftCard;
   const fault = FAULTS[card.en];
   return {
     back: { es: "back-translated word", example: "back-translated sentence" },

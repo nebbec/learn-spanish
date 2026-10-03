@@ -1,4 +1,5 @@
-// The 12-card fixture deck, for tests. The app served it at DECK_URL until
+// The 16-card fixture deck, for tests: twelve word cards, and since L2 two form
+// cards, two phrase cards, two units and a tip. The app served it at DECK_URL until
 // 2026-10-03, when the real deck took its place; its art and clips stay in
 // public/deck.
 
