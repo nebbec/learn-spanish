@@ -12,14 +12,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         ver-watch
 kind:       content
 pos:        verb
 es:         ver
 en:         to watch
-hint:       TV, a movie
+hint:       a movie, a show (same verb as "to see")
 yo:         veo
 tu:         ves
 el:         ve

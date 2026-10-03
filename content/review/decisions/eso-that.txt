@@ -12,14 +12,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         eso-that
 kind:       glue
 pos:        pronoun
 es:         eso
 en:         [that] is not true
-hint:       neuter pronoun for an idea or thing near you, not far away
+hint:       neuter pronoun for something just said or near the person you're talking to, not far from both of you
 example.es: Eso no es verdad.
 example.en: That's not true.
 spain:

@@ -12,14 +12,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         creer-think-opinion
 kind:       content
 pos:        verb
 es:         creer
 en:         to think
-hint:       have an opinion, as in I think so
+hint:       believe something is so, as in I think so (not pensar)
 yo:         creo
 tu:         crees
 el:         cree

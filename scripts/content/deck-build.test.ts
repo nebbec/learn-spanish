@@ -142,6 +142,24 @@ describe("deck build", () => {
     expect(buildDeck(drafts, store, first, { allowDrop: true }).deck?.cards.map((c) => c.id)).not.toContain("casa-house");
   });
 
+  it("keeps the first cards in Learn order up to the size, holding the place of a card that waits", async () => {
+    const { drafts, store } = await reviewed();
+    refreshFlagged(drafts, store);
+    // In full Learn order: tener-have, tener-have-to (waiting), de-of, bueno-good, casa-house (waiting).
+    const first = buildDeck(drafts, store, null, { size: 3 });
+    expect(first.deck?.cards.map((c) => c.id)).toEqual(["tener-have", "de-of"]);
+    expect(first.beyondSize).toEqual(["bueno-good", "casa-house"]);
+
+    decide(store, "tener-have-to", "approve");
+    const second = buildDeck(drafts, store, first.deck, { size: 3 });
+    expect(second).toMatchObject({ dropped: [], beyondSize: ["bueno-good", "casa-house"] });
+    expect(second.deck?.cards.map((c) => c.id)).toEqual(["tener-have", "tener-have-to", "de-of"]);
+
+    writeFileSync(decisionPath(store, "tener-have-to"), readFileSync(decisionPath(store, "tener-have-to"), "utf8").replace("decision: approve", "decision: reject"));
+    const third = buildDeck(drafts, store, null, { size: 3 });
+    expect(third.deck?.cards.map((c) => c.id)).toEqual(["tener-have", "bueno-good", "de-of"]);
+  });
+
   it("leaves out an approved card its decision file breaks, naming the fields", async () => {
     const { drafts, store } = await reviewed();
     refreshFlagged(drafts, store);

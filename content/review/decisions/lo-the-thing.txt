@@ -11,7 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         lo-the-thing
 kind:       glue
@@ -22,7 +22,7 @@ hint:       before an adjective, no noun
 example.es: Lo bueno es que llegamos temprano.
 example.en: The good thing is that we arrived early.
 spain:
-trick:      LO sounds like low: the lowdown, the main thing, is what matters.
+trick:      LO sounds like low: lo bajo is 'the low part', so LO plus an adjective means 'the ... thing' or 'the ... part'.
 
 # The draft this file was made from. Do not change it.
 draft: 7954e0c325c4cc01

@@ -12,7 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         volver-do-again
 kind:       content
@@ -24,8 +24,8 @@ yo:         vuelvo
 tu:         vuelves
 el:         vuelve
 irregular:  yes
-example.es: ¿Vas a volver a llamarla?
-example.en: Are you going to call her again?
+example.es: Mañana la vuelvo a llamar.
+example.en: I'll call her again tomorrow.
 spain:
 trick:      VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again.
 

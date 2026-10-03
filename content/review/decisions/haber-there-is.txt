@@ -11,7 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         haber-there-is
 kind:       content
@@ -21,7 +21,7 @@ en:         there to be
 hint:       as in there is, there are (hay); not estar
 yo:         he
 tu:         has
-el:         hay
+el:         ha
 irregular:  yes
 example.es: Hay un perro en la casa.
 example.en: There is a dog in the house.

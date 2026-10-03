@@ -1,5 +1,7 @@
 // The deck build: every drafted card that passed review, plus every flagged
-// card a person approved (with their corrections), in Learn order, checked by
+// card a person approved (with their corrections), in Learn order, up to a
+// size: the first `size` cards in Learn order, counting a card that still waits
+// for a decision, so approving it later never pushes a card out. Checked by
 // the deck validator and written to content/deck.json. An id in the previous
 // build must still be there, so a rebuild can never rename or drop a card that
 // progress may be keyed on.
@@ -38,6 +40,8 @@ export interface DeckBuild {
   dropped: string[];
   /** True when the cards differ from the previous build. */
   changed: boolean;
+  /** Drafted cards past the first `size` in Learn order, left for a later batch. */
+  beyondSize: string[];
 }
 
 /** The order Learn shows a new learner: glue and content queues by rank, two content cards per glue card. */
@@ -57,7 +61,11 @@ export function buildDeck(
   drafts: DraftStore,
   reviews: ReviewStore,
   previous: Deck | null,
-  { allowDrop = false, takes = {} }: { allowDrop?: boolean; takes?: Record<string, number> } = {},
+  {
+    allowDrop = false,
+    takes = {},
+    size = Infinity,
+  }: { allowDrop?: boolean; takes?: Record<string, number>; size?: number } = {},
 ): DeckBuild {
   const build: DeckBuild = {
     deck: null,
@@ -71,20 +79,25 @@ export function buildDeck(
     deckProblems: [],
     dropped: [],
     changed: false,
+    beyondSize: [],
   };
-  const cards: Card[] = [];
+  /** The cards for the deck, by drafted id: an approved card may carry a corrected id. */
+  const cards = new Map<string, Card>();
+  /** Every drafted card, waiting ones included: they fix which cards are the first `size`. */
+  const drafted: Card[] = [];
 
   for (const word of draftedWords(drafts)) {
     for (const id of word.cards) {
       const draft = readDraftCard(drafts, id);
       if (!draft) continue;
+      drafted.push(draft);
       const review = reviews.get(id);
       if (!review || review.draft !== cardHash(draft)) {
         build.notReviewed.push(id);
         continue;
       }
       if (!review.flagged) {
-        cards.push(draft);
+        cards.set(id, draft);
         build.passed.push(id);
         continue;
       }
@@ -109,14 +122,20 @@ export function buildDeck(
         build.problems.push(`${id}: ${[...new Set(fields)].join(", ")}`);
         continue;
       }
-      cards.push(card as Card);
+      cards.set(id, card as Card);
       build.approved.push(id);
       if (!isDeepStrictEqual(card, draft)) build.corrected.push(id);
     }
   }
 
+  // The first `size` in Learn order among the cards not rejected, waiting ones
+  // included, so approving a waiting card later never pushes another card out.
+  const inOrder = learnOrder(drafted.filter((c) => !build.rejected.includes(c.id)));
+  const first = new Set(inOrder.slice(0, size).map((c) => c.id));
+  build.beyondSize = inOrder.slice(size).map((c) => c.id);
+  const kept = [...cards].filter(([id]) => first.has(id)).map(([, card]) => card);
   // Clip paths carry a hash of the clip's text and take (G2), so a corrected sentence names a new clip.
-  const ordered = learnOrder(cards.map((card) => ({ ...card, audio: audioPaths(card, takes) })));
+  const ordered = learnOrder(kept.map((card) => ({ ...card, audio: audioPaths(card, takes) })));
   const changed = !previous || JSON.stringify(previous.cards) !== JSON.stringify(ordered);
   const deck: Deck = { version: !previous ? 1 : changed ? previous.version + 1 : previous.version, cards: ordered };
   build.changed = changed;

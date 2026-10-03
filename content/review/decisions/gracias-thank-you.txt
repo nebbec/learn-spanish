@@ -12,7 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         gracias-thank-you
 kind:       content
@@ -20,8 +20,8 @@ pos:        other
 es:         gracias
 en:         thank you
 hint:
-example.es: Muchas gracias por tu ayuda.
-example.en: Thank you very much for your help.
+example.es: Muchas gracias, me ayudaste mucho.
+example.en: Thank you very much, you helped me a lot.
 spain:
 trick:      GRACIAS sounds like gracious: a gracious person always says thank you.
 

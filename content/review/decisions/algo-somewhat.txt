@@ -12,14 +12,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         algo-somewhat
 kind:       content
 pos:        adverb
 es:         algo
 en:         somewhat
-hint:       one word, before an adjective; not un poco
+hint:       one word, before an adjective; not medio
 example.es: Estoy algo cansado hoy.
 example.en: I'm somewhat tired today.
 spain:

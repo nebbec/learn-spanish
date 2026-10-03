@@ -11,14 +11,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         que-who-which
 kind:       glue
 pos:        pronoun
 es:         que
 en:         the man [who] lives here
-hint:       the everyday word, not quien
+hint:
 example.es: El hombre que vive aquí es mi tío.
 example.en: The man who lives here is my uncle.
 spain:

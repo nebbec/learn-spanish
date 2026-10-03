@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 5,
   "cards": [
     {
       "id": "ser-be-identity",
@@ -25,8 +25,134 @@
       "trick": "SER sounds like sir: being called sir is part of who you are, your identity.",
       "image": "/deck/img/ser-be-identity.webp",
       "audio": {
-        "word": "/deck/audio/ser-be-identity.word.mp3",
-        "sentence": "/deck/audio/ser-be-identity.sentence.mp3"
+        "word": "/deck/audio/ser-be-identity.word.ac464949.mp3",
+        "sentence": "/deck/audio/ser-be-identity.sentence.927fb20d.mp3"
+      }
+    },
+    {
+      "id": "estar-be-state",
+      "rank": 8,
+      "kind": "content",
+      "pos": "verb",
+      "es": "estar",
+      "en": "to be",
+      "hint": "state, place",
+      "grammar": {
+        "present": {
+          "yo": "estoy",
+          "tu": "estás",
+          "el": "está"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Estoy en casa y muy cansado.",
+        "en": "I'm at home and really tired."
+      },
+      "spain": null,
+      "trick": "ESTAR sounds like \"a star\": a star is always somewhere in the sky, shining bright or dim depending on its state.",
+      "image": "/deck/img/estar-be-state.webp",
+      "audio": {
+        "word": "/deck/audio/estar-be-state.word.e827f8a2.mp3",
+        "sentence": "/deck/audio/estar-be-state.sentence.6778d3b5.mp3"
+      }
+    },
+    {
+      "id": "el-the",
+      "rank": 1,
+      "kind": "glue",
+      "pos": "determiner",
+      "es": "el",
+      "en": "[the] boy",
+      "hint": "masculine singular",
+      "grammar": null,
+      "example": {
+        "es": "El perro está en la cocina.",
+        "en": "The dog is in the kitchen."
+      },
+      "spain": null,
+      "trick": "EL sounds like the letter L, and L comes before M just like THE comes before a noun.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/el-the.word.8a3c3aa0.mp3",
+        "sentence": "/deck/audio/el-the.sentence.fe3fd1cc.mp3"
+      }
+    },
+    {
+      "id": "haber-have-auxiliary",
+      "rank": 12,
+      "kind": "content",
+      "pos": "verb",
+      "es": "haber",
+      "en": "to have",
+      "hint": "helper verb, as in I have eaten; not tener",
+      "grammar": {
+        "present": {
+          "yo": "he",
+          "tu": "has",
+          "el": "ha"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Nunca he estado en México.",
+        "en": "I've never been to Mexico."
+      },
+      "spain": null,
+      "trick": "HABER sounds like have-er: it's the helper that turns eaten into have eaten.",
+      "image": "/deck/img/haber-have-auxiliary.webp",
+      "audio": {
+        "word": "/deck/audio/haber-have-auxiliary.word.cadbba37.mp3",
+        "sentence": "/deck/audio/haber-have-auxiliary.sentence.5e7fd5c2.mp3"
+      }
+    },
+    {
+      "id": "haber-there-is",
+      "rank": 12,
+      "kind": "content",
+      "pos": "verb",
+      "es": "haber",
+      "en": "there to be",
+      "hint": "as in there is, there are (hay); not estar",
+      "grammar": {
+        "present": {
+          "yo": "he",
+          "tu": "has",
+          "el": "ha"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Hay un perro en la casa.",
+        "en": "There is a dog in the house."
+      },
+      "spain": null,
+      "trick": "HAY sounds like eye: open your eye and see what there is.",
+      "image": "/deck/img/haber-there-is.webp",
+      "audio": {
+        "word": "/deck/audio/haber-there-is.word.cadbba37.mp3",
+        "sentence": "/deck/audio/haber-there-is.sentence.c2338f5f.mp3"
+      }
+    },
+    {
+      "id": "de-of",
+      "rank": 2,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "de",
+      "en": "the house [of] María",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Es la casa de mi mamá.",
+        "en": "It's my mom's house."
+      },
+      "spain": null,
+      "trick": "DE sounds like day: a cup OF coffee starts the day.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/de-of.word.d852311f.mp3",
+        "sentence": "/deck/audio/de-of.sentence.99d92eab.mp3"
       }
     },
     {
@@ -53,29 +179,8 @@
       "trick": "TENER sounds like 'tenant': a tenant has a place to live.",
       "image": "/deck/img/tener-have.webp",
       "audio": {
-        "word": "/deck/audio/tener-have.word.mp3",
-        "sentence": "/deck/audio/tener-have.sentence.mp3"
-      }
-    },
-    {
-      "id": "el-the",
-      "rank": 1,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "el",
-      "en": "[the] boy",
-      "hint": "masculine singular",
-      "grammar": null,
-      "example": {
-        "es": "El perro está en la cocina.",
-        "en": "The dog is in the kitchen."
-      },
-      "spain": null,
-      "trick": "EL sounds like the letter L, and L comes before M just like THE comes before a noun.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/el-the.word.mp3",
-        "sentence": "/deck/audio/el-the.sentence.mp3"
+        "word": "/deck/audio/tener-have.word.10555d5c.mp3",
+        "sentence": "/deck/audio/tener-have.sentence.b9d08d80.mp3"
       }
     },
     {
@@ -102,8 +207,29 @@
       "trick": "TENER QUE sounds like 'ten okay': you have to do ten push-ups before it's okay.",
       "image": "/deck/img/tener-have-to.webp",
       "audio": {
-        "word": "/deck/audio/tener-have-to.word.mp3",
-        "sentence": "/deck/audio/tener-have-to.sentence.mp3"
+        "word": "/deck/audio/tener-have-to.word.10555d5c.mp3",
+        "sentence": "/deck/audio/tener-have-to.sentence.dc0ddc91.mp3"
+      }
+    },
+    {
+      "id": "de-from",
+      "rank": 2,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "de",
+      "en": "I'm [from] Mexico",
+      "hint": "origin",
+      "grammar": null,
+      "example": {
+        "es": "Soy de Colombia, ¿y tú?",
+        "en": "I'm from Colombia, and you?"
+      },
+      "spain": null,
+      "trick": "DE sounds like day: you came FROM far away, a whole day's trip.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/de-from.word.d852311f.mp3",
+        "sentence": "/deck/audio/de-from.sentence.e7326e88.mp3"
       }
     },
     {
@@ -130,29 +256,8 @@
       "trick": "IR sounds like ear: you go wherever your ear hears music.",
       "image": "/deck/img/ir-go.webp",
       "audio": {
-        "word": "/deck/audio/ir-go.word.mp3",
-        "sentence": "/deck/audio/ir-go.sentence.mp3"
-      }
-    },
-    {
-      "id": "de-of",
-      "rank": 2,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "de",
-      "en": "the house [of] María",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Es la casa de mi mamá.",
-        "en": "It's my mom's house."
-      },
-      "spain": null,
-      "trick": "DE sounds like day: a cup OF coffee starts the day.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/de-of.word.mp3",
-        "sentence": "/deck/audio/de-of.sentence.mp3"
+        "word": "/deck/audio/ir-go.word.99cff4b3.mp3",
+        "sentence": "/deck/audio/ir-go.sentence.047ffc82.mp3"
       }
     },
     {
@@ -179,8 +284,29 @@
       "trick": "HACER sounds like 'ah, sir': 'Ah, sir, what should I do?' asks the eager helper.",
       "image": "/deck/img/hacer-do.webp",
       "audio": {
-        "word": "/deck/audio/hacer-do.word.mp3",
-        "sentence": "/deck/audio/hacer-do.sentence.mp3"
+        "word": "/deck/audio/hacer-do.word.ee05367f.mp3",
+        "sentence": "/deck/audio/hacer-do.sentence.dfc3f70e.mp3"
+      }
+    },
+    {
+      "id": "que-that",
+      "rank": 3,
+      "kind": "glue",
+      "pos": "conjunction",
+      "es": "que",
+      "en": "I think [that] she is coming",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Creo que ella viene mañana.",
+        "en": "I think that she's coming tomorrow."
+      },
+      "spain": null,
+      "trick": "QUE sounds like \"K\": that letter K joins two thoughts, just like \"that\" links them.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/que-that.word.5d84a940.mp3",
+        "sentence": "/deck/audio/que-that.sentence.ebb80581.mp3"
       }
     },
     {
@@ -207,29 +333,8 @@
       "trick": "HACER sounds like 'a saucer': you make a saucer out of clay.",
       "image": "/deck/img/hacer-make.webp",
       "audio": {
-        "word": "/deck/audio/hacer-make.word.mp3",
-        "sentence": "/deck/audio/hacer-make.sentence.mp3"
-      }
-    },
-    {
-      "id": "de-from",
-      "rank": 2,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "de",
-      "en": "I'm [from] Mexico",
-      "hint": "origin",
-      "grammar": null,
-      "example": {
-        "es": "Soy de Colombia, ¿y tú?",
-        "en": "I'm from Colombia, and you?"
-      },
-      "spain": null,
-      "trick": "DE sounds like day: you came FROM far away, a whole day's trip.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/de-from.word.mp3",
-        "sentence": "/deck/audio/de-from.sentence.mp3"
+        "word": "/deck/audio/hacer-make.word.ee05367f.mp3",
+        "sentence": "/deck/audio/hacer-make.sentence.87b417bf.mp3"
       }
     },
     {
@@ -256,8 +361,29 @@
       "trick": "PODER sounds like powder: with a little magic powder, you can do anything.",
       "image": "/deck/img/poder-can.webp",
       "audio": {
-        "word": "/deck/audio/poder-can.word.mp3",
-        "sentence": "/deck/audio/poder-can.sentence.mp3"
+        "word": "/deck/audio/poder-can.word.108e91f9.mp3",
+        "sentence": "/deck/audio/poder-can.sentence.3d78f120.mp3"
+      }
+    },
+    {
+      "id": "que-who-which",
+      "rank": 3,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "que",
+      "en": "the man [who] lives here",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "El hombre que vive aquí es mi tío.",
+        "en": "The man who lives here is my uncle."
+      },
+      "spain": null,
+      "trick": "QUE sounds like \"key\": it's the key that points to who or which thing you mean.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/que-who-which.word.5d84a940.mp3",
+        "sentence": "/deck/audio/que-who-which.sentence.141c0781.mp3"
       }
     },
     {
@@ -284,29 +410,8 @@
       "trick": "DECIR sounds like \"the sere\": the old seer always has something to say.",
       "image": "/deck/img/decir-say.webp",
       "audio": {
-        "word": "/deck/audio/decir-say.word.mp3",
-        "sentence": "/deck/audio/decir-say.sentence.mp3"
-      }
-    },
-    {
-      "id": "que-that",
-      "rank": 3,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "que",
-      "en": "I think [that] she is coming",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Creo que ella viene mañana.",
-        "en": "I think that she's coming tomorrow."
-      },
-      "spain": null,
-      "trick": "QUE sounds like \"K\": that letter K joins two thoughts, just like \"that\" links them.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/que-that.word.mp3",
-        "sentence": "/deck/audio/que-that.sentence.mp3"
+        "word": "/deck/audio/decir-say.word.5966f43f.mp3",
+        "sentence": "/deck/audio/decir-say.sentence.f6c63399.mp3"
       }
     },
     {
@@ -333,8 +438,29 @@
       "trick": "SABER sounds like a wise man's \"saber\" sword: he cuts through every question because he knows all the answers.",
       "image": "/deck/img/saber-know.webp",
       "audio": {
-        "word": "/deck/audio/saber-know.word.mp3",
-        "sentence": "/deck/audio/saber-know.sentence.mp3"
+        "word": "/deck/audio/saber-know.word.524c45d6.mp3",
+        "sentence": "/deck/audio/saber-know.sentence.90354863.mp3"
+      }
+    },
+    {
+      "id": "que-than",
+      "rank": 3,
+      "kind": "glue",
+      "pos": "conjunction",
+      "es": "que",
+      "en": "taller [than] you",
+      "hint": "comparing two things",
+      "grammar": null,
+      "example": {
+        "es": "Mi hermano es más alto que yo.",
+        "en": "My brother is taller than me."
+      },
+      "spain": null,
+      "trick": "QUE sounds like \"K\": K comes later in the alphabet than A, so it's \"more than\" A.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/que-than.word.5d84a940.mp3",
+        "sentence": "/deck/audio/que-than.sentence.270407f8.mp3"
       }
     },
     {
@@ -361,29 +487,8 @@
       "trick": "QUERER sounds like \"carer\": a good carer always asks what you want.",
       "image": "/deck/img/querer-want.webp",
       "audio": {
-        "word": "/deck/audio/querer-want.word.mp3",
-        "sentence": "/deck/audio/querer-want.sentence.mp3"
-      }
-    },
-    {
-      "id": "que-than",
-      "rank": 3,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "que",
-      "en": "taller [than] you",
-      "hint": "comparing two things",
-      "grammar": null,
-      "example": {
-        "es": "Mi hermano es más alto que yo.",
-        "en": "My brother is taller than me."
-      },
-      "spain": null,
-      "trick": "QUE sounds like \"K\": K comes later in the alphabet than A, so it's \"more than\" A.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/que-than.word.mp3",
-        "sentence": "/deck/audio/que-than.sentence.mp3"
+        "word": "/deck/audio/querer-want.word.d8788e40.mp3",
+        "sentence": "/deck/audio/querer-want.sentence.26406add.mp3"
       }
     },
     {
@@ -410,29 +515,8 @@
       "trick": "QUERER sounds like \"care-er\": you care about the people you love.",
       "image": "/deck/img/querer-love.webp",
       "audio": {
-        "word": "/deck/audio/querer-love.word.mp3",
-        "sentence": "/deck/audio/querer-love.sentence.mp3"
-      }
-    },
-    {
-      "id": "si-yes",
-      "rank": 32,
-      "kind": "content",
-      "pos": "adverb",
-      "es": "sí",
-      "en": "yes",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Sí, quiero ir contigo.",
-        "en": "Yes, I want to go with you."
-      },
-      "spain": null,
-      "trick": "SÍ sounds like see: when you see what someone means, you nod and say yes.",
-      "image": "/deck/img/si-yes.webp",
-      "audio": {
-        "word": "/deck/audio/si-yes.word.mp3",
-        "sentence": "/deck/audio/si-yes.sentence.mp3"
+        "word": "/deck/audio/querer-love.word.d8788e40.mp3",
+        "sentence": "/deck/audio/querer-love.sentence.ca565c43.mp3"
       }
     },
     {
@@ -452,8 +536,29 @@
       "trick": "NO sounds just like English no: put it right before the verb to make anything a no, meaning not.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/no-not.word.mp3",
-        "sentence": "/deck/audio/no-not.sentence.mp3"
+        "word": "/deck/audio/no-not.word.31fc1e71.mp3",
+        "sentence": "/deck/audio/no-not.sentence.57fd88ba.mp3"
+      }
+    },
+    {
+      "id": "si-yes",
+      "rank": 32,
+      "kind": "content",
+      "pos": "adverb",
+      "es": "sí",
+      "en": "yes",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Sí, quiero ir contigo.",
+        "en": "Yes, I want to go with you."
+      },
+      "spain": null,
+      "trick": "SÍ sounds like see: when you see what someone means, you nod and say yes.",
+      "image": "/deck/img/si-yes.webp",
+      "audio": {
+        "word": "/deck/audio/si-yes.word.f9173474.mp3",
+        "sentence": "/deck/audio/si-yes.sentence.6e736b43.mp3"
       }
     },
     {
@@ -473,8 +578,29 @@
       "trick": "BIEN sounds like \"be in\": when you're in good shape, you're doing well.",
       "image": "/deck/img/bien-well.webp",
       "audio": {
-        "word": "/deck/audio/bien-well.word.mp3",
-        "sentence": "/deck/audio/bien-well.sentence.mp3"
+        "word": "/deck/audio/bien-well.word.19cba92b.mp3",
+        "sentence": "/deck/audio/bien-well.sentence.4b4bfc51.mp3"
+      }
+    },
+    {
+      "id": "no-no-answer",
+      "rank": 5,
+      "kind": "glue",
+      "pos": "adverb",
+      "es": "no",
+      "en": "[No], thanks.",
+      "hint": "the answer, opposite of yes",
+      "grammar": null,
+      "example": {
+        "es": "¿Quieres café? No, gracias.",
+        "en": "Do you want coffee? No, thanks."
+      },
+      "spain": null,
+      "trick": "NO is spelled and said like English no, so refusing in Spanish works just like in English.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/no-no-answer.word.31fc1e71.mp3",
+        "sentence": "/deck/audio/no-no-answer.sentence.dc435eee.mp3"
       }
     },
     {
@@ -501,29 +627,57 @@
       "trick": "VER sounds like \"where\": you ask where it is until you finally see it.",
       "image": "/deck/img/ver-see.webp",
       "audio": {
-        "word": "/deck/audio/ver-see.word.mp3",
-        "sentence": "/deck/audio/ver-see.sentence.mp3"
+        "word": "/deck/audio/ver-see.word.cfbae7b8.mp3",
+        "sentence": "/deck/audio/ver-see.sentence.cbc91c97.mp3"
       }
     },
     {
-      "id": "no-no-answer",
-      "rank": 5,
-      "kind": "glue",
-      "pos": "adverb",
-      "es": "no",
-      "en": "[No], thanks.",
-      "hint": "the answer, opposite of yes",
-      "grammar": null,
+      "id": "ver-watch",
+      "rank": 35,
+      "kind": "content",
+      "pos": "verb",
+      "es": "ver",
+      "en": "to watch",
+      "hint": "a movie, a show (same verb as \"to see\")",
+      "grammar": {
+        "present": {
+          "yo": "veo",
+          "tu": "ves",
+          "el": "ve"
+        },
+        "irregular": true
+      },
       "example": {
-        "es": "¿Quieres café? No, gracias.",
-        "en": "Do you want coffee? No, thanks."
+        "es": "¿Vemos una película esta noche?",
+        "en": "Should we watch a movie tonight?"
       },
       "spain": null,
-      "trick": "NO is spelled and said like English no, so refusing in Spanish works just like in English.",
+      "trick": "VER sounds like \"vary\": you watch TV and vary the channel all night.",
+      "image": "/deck/img/ver-watch.webp",
+      "audio": {
+        "word": "/deck/audio/ver-watch.word.cfbae7b8.mp3",
+        "sentence": "/deck/audio/ver-watch.sentence.74af02ef.mp3"
+      }
+    },
+    {
+      "id": "un-a",
+      "rank": 6,
+      "kind": "glue",
+      "pos": "determiner",
+      "es": "un",
+      "en": "I want [a] book",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Tengo un perro y una gata.",
+        "en": "I have a dog and a cat."
+      },
+      "spain": null,
+      "trick": "UN sounds like oon, a short form of uno (one), so un libro is one book, a book.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/no-no-answer.word.mp3",
-        "sentence": "/deck/audio/no-no-answer.sentence.mp3"
+        "word": "/deck/audio/un-a.word.8a3b13c0.mp3",
+        "sentence": "/deck/audio/un-a.sentence.0c024343.mp3"
       }
     },
     {
@@ -545,8 +699,8 @@
       "trick": "BUENO sounds like \"bway-no\": no way it's bad, it's good!",
       "image": "/deck/img/bueno-good.webp",
       "audio": {
-        "word": "/deck/audio/bueno-good.word.mp3",
-        "sentence": "/deck/audio/bueno-good.sentence.mp3"
+        "word": "/deck/audio/bueno-good.word.98cd593f.mp3",
+        "sentence": "/deck/audio/bueno-good.sentence.a80c1736.mp3"
       }
     },
     {
@@ -566,29 +720,29 @@
       "trick": "BUENO starts a reply like \"well, now\": a quick sound to buy time before you answer.",
       "image": "/deck/img/bueno-well-okay.webp",
       "audio": {
-        "word": "/deck/audio/bueno-well-okay.word.mp3",
-        "sentence": "/deck/audio/bueno-well-okay.sentence.mp3"
+        "word": "/deck/audio/bueno-well-okay.word.98cd593f.mp3",
+        "sentence": "/deck/audio/bueno-well-okay.sentence.e436e008.mp3"
       }
     },
     {
-      "id": "a-at-time",
+      "id": "a-to",
       "rank": 7,
       "kind": "glue",
       "pos": "preposition",
       "es": "a",
-      "en": "the class starts [at] eight",
-      "hint": "clock time",
+      "en": "I go [to] Mexico",
+      "hint": "destination of movement",
       "grammar": null,
       "example": {
-        "es": "La fiesta empieza a las nueve.",
-        "en": "The party starts at nine."
+        "es": "Mañana voy a la playa.",
+        "en": "Tomorrow I'm going to the beach."
       },
       "spain": null,
-      "trick": "A sounds like 'ah!': 'Ah, it's eight o'clock!' you gasp, glancing at the clock.",
+      "trick": "A sounds like 'ah!': you shout 'ah!' as you finally arrive at where you were going.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/a-at-time.word.mp3",
-        "sentence": "/deck/audio/a-at-time.sentence.mp3"
+        "word": "/deck/audio/a-to.word.ad0ba37b.mp3",
+        "sentence": "/deck/audio/a-to.sentence.028e3115.mp3"
       }
     },
     {
@@ -608,8 +762,8 @@
       "trick": "AQUÍ sounds like a key: here is a key, right here in my hand.",
       "image": "/deck/img/aqui-here.webp",
       "audio": {
-        "word": "/deck/audio/aqui-here.word.mp3",
-        "sentence": "/deck/audio/aqui-here.sentence.mp3"
+        "word": "/deck/audio/aqui-here.word.c5f8edd7.mp3",
+        "sentence": "/deck/audio/aqui-here.sentence.a3d37ee7.mp3"
       }
     },
     {
@@ -629,29 +783,29 @@
       "trick": "MÁS sounds like \"mass\": a bigger mass means more.",
       "image": "/deck/img/mas-more.webp",
       "audio": {
-        "word": "/deck/audio/mas-more.word.mp3",
-        "sentence": "/deck/audio/mas-more.sentence.mp3"
+        "word": "/deck/audio/mas-more.word.bd967971.mp3",
+        "sentence": "/deck/audio/mas-more.sentence.04cec378.mp3"
       }
     },
     {
-      "id": "y-and",
-      "rank": 9,
+      "id": "a-at-time",
+      "rank": 7,
       "kind": "glue",
-      "pos": "conjunction",
-      "es": "y",
-      "en": "bread [and] butter",
-      "hint": null,
+      "pos": "preposition",
+      "es": "a",
+      "en": "the class starts [at] eight",
+      "hint": "clock time",
       "grammar": null,
       "example": {
-        "es": "Tengo un perro y un gato.",
-        "en": "I have a dog and a cat."
+        "es": "La fiesta empieza a las nueve.",
+        "en": "The party starts at nine."
       },
       "spain": null,
-      "trick": "Y sounds like \"ee\": you squeal \"eee!\" when you get cake and ice cream.",
+      "trick": "A sounds like 'ah!': 'Ah, it's eight o'clock!' you gasp, glancing at the clock.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/y-and.word.mp3",
-        "sentence": "/deck/audio/y-and.sentence.mp3"
+        "word": "/deck/audio/a-at-time.word.ad0ba37b.mp3",
+        "sentence": "/deck/audio/a-at-time.sentence.229f9f95.mp3"
       }
     },
     {
@@ -671,8 +825,8 @@
       "trick": "MÁS sounds like \"mass\": whoever has the most mass wins the top spot.",
       "image": "/deck/img/mas-most.webp",
       "audio": {
-        "word": "/deck/audio/mas-most.word.mp3",
-        "sentence": "/deck/audio/mas-most.sentence.mp3"
+        "word": "/deck/audio/mas-most.word.bd967971.mp3",
+        "sentence": "/deck/audio/mas-most.sentence.c3c0bd24.mp3"
       }
     },
     {
@@ -692,29 +846,29 @@
       "trick": "SOLO sounds like a solo song: only one singer, nobody else.",
       "image": "/deck/img/solo-only.webp",
       "audio": {
-        "word": "/deck/audio/solo-only.word.mp3",
-        "sentence": "/deck/audio/solo-only.sentence.mp3"
+        "word": "/deck/audio/solo-only.word.eead367f.mp3",
+        "sentence": "/deck/audio/solo-only.sentence.84ab0035.mp3"
       }
     },
     {
-      "id": "en-in",
-      "rank": 10,
+      "id": "y-and",
+      "rank": 9,
       "kind": "glue",
-      "pos": "preposition",
-      "es": "en",
-      "en": "I live [in] Mexico",
+      "pos": "conjunction",
+      "es": "y",
+      "en": "bread [and] butter",
       "hint": null,
       "grammar": null,
       "example": {
-        "es": "Las llaves están en la caja.",
-        "en": "The keys are in the box."
+        "es": "Tengo un perro y un gato.",
+        "en": "I have a dog and a cat."
       },
       "spain": null,
-      "trick": "EN sounds like the start of 'inside': whatever is EN something is in it.",
+      "trick": "Y sounds like \"ee\": you squeal \"eee!\" when you get cake and ice cream.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/en-in.word.mp3",
-        "sentence": "/deck/audio/en-in.sentence.mp3"
+        "word": "/deck/audio/y-and.word.6b3daaa6.mp3",
+        "sentence": "/deck/audio/y-and.sentence.cc9bdfc2.mp3"
       }
     },
     {
@@ -736,8 +890,8 @@
       "trick": "SOLO is like Han Solo: a pilot who likes to fly alone.",
       "image": "/deck/img/solo-alone.webp",
       "audio": {
-        "word": "/deck/audio/solo-alone.word.mp3",
-        "sentence": "/deck/audio/solo-alone.sentence.mp3"
+        "word": "/deck/audio/solo-alone.word.eead367f.mp3",
+        "sentence": "/deck/audio/solo-alone.sentence.831281fe.mp3"
       }
     },
     {
@@ -764,29 +918,57 @@
       "trick": "CREER sounds like \"career\": you need to believe in yourself to build a career.",
       "image": "/deck/img/creer-believe.webp",
       "audio": {
-        "word": "/deck/audio/creer-believe.word.mp3",
-        "sentence": "/deck/audio/creer-believe.sentence.mp3"
+        "word": "/deck/audio/creer-believe.word.2f218d8c.mp3",
+        "sentence": "/deck/audio/creer-believe.sentence.5b3b6d6b.mp3"
       }
     },
     {
-      "id": "en-on",
+      "id": "en-in",
       "rank": 10,
       "kind": "glue",
       "pos": "preposition",
       "es": "en",
-      "en": "the book is [on] the table",
-      "hint": "the everyday word, not sobre",
+      "en": "I live [in] Mexico",
+      "hint": null,
       "grammar": null,
       "example": {
-        "es": "Tu celular está en la mesa.",
-        "en": "Your phone is on the table."
+        "es": "Las llaves están en la caja.",
+        "en": "The keys are in the box."
       },
       "spain": null,
-      "trick": "EN is like 'on' with a Spanish accent: the cup sits EN the table.",
+      "trick": "EN sounds like the start of 'inside': whatever is EN something is in it.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/en-on.word.mp3",
-        "sentence": "/deck/audio/en-on.sentence.mp3"
+        "word": "/deck/audio/en-in.word.67171667.mp3",
+        "sentence": "/deck/audio/en-in.sentence.3dc03ad6.mp3"
+      }
+    },
+    {
+      "id": "creer-think-opinion",
+      "rank": 48,
+      "kind": "content",
+      "pos": "verb",
+      "es": "creer",
+      "en": "to think",
+      "hint": "believe something is so, as in I think so (not pensar)",
+      "grammar": {
+        "present": {
+          "yo": "creo",
+          "tu": "crees",
+          "el": "cree"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Creo que va a llover.",
+        "en": "I think it's going to rain."
+      },
+      "spain": null,
+      "trick": "CREO sounds like \"Cray-oh\": you draw what you think with a crayon.",
+      "image": "/deck/img/creer-think-opinion.webp",
+      "audio": {
+        "word": "/deck/audio/creer-think-opinion.word.2f218d8c.mp3",
+        "sentence": "/deck/audio/creer-think-opinion.sentence.e37e4daa.mp3"
       }
     },
     {
@@ -813,8 +995,29 @@
       "trick": "DEBER sounds like debate: there is no debate, you simply must do it.",
       "image": "/deck/img/deber-must.webp",
       "audio": {
-        "word": "/deck/audio/deber-must.word.mp3",
-        "sentence": "/deck/audio/deber-must.sentence.mp3"
+        "word": "/deck/audio/deber-must.word.3e557333.mp3",
+        "sentence": "/deck/audio/deber-must.sentence.69fb668f.mp3"
+      }
+    },
+    {
+      "id": "en-on",
+      "rank": 10,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "en",
+      "en": "the book is [on] the table",
+      "hint": "the everyday word, not sobre",
+      "grammar": null,
+      "example": {
+        "es": "Tu celular está en la mesa.",
+        "en": "Your phone is on the table."
+      },
+      "spain": null,
+      "trick": "EN is like 'on' with a Spanish accent: the cup sits EN the table.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/en-on.word.67171667.mp3",
+        "sentence": "/deck/audio/en-on.sentence.d674bbd5.mp3"
       }
     },
     {
@@ -841,29 +1044,8 @@
       "trick": "DEBER sounds like debt-bear: when you owe money, you bear a debt.",
       "image": "/deck/img/deber-owe.webp",
       "audio": {
-        "word": "/deck/audio/deber-owe.word.mp3",
-        "sentence": "/deck/audio/deber-owe.sentence.mp3"
-      }
-    },
-    {
-      "id": "en-at",
-      "rank": 10,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "en",
-      "en": "she is [at] home",
-      "hint": "location, not direction",
-      "grammar": null,
-      "example": {
-        "es": "Estoy en el trabajo todo el día.",
-        "en": "I'm at work all day."
-      },
-      "spain": null,
-      "trick": "EN sounds like the letter N, as in 'Now here': where you are at right now.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/en-at.word.mp3",
-        "sentence": "/deck/audio/en-at.sentence.mp3"
+        "word": "/deck/audio/deber-owe.word.3e557333.mp3",
+        "sentence": "/deck/audio/deber-owe.sentence.6ce5fd29.mp3"
       }
     },
     {
@@ -883,8 +1065,29 @@
       "trick": "YA sounds like a happy \"yay\": you cheer because it's already done.",
       "image": "/deck/img/ya-already.webp",
       "audio": {
-        "word": "/deck/audio/ya-already.word.mp3",
-        "sentence": "/deck/audio/ya-already.sentence.mp3"
+        "word": "/deck/audio/ya-already.word.8c4151f4.mp3",
+        "sentence": "/deck/audio/ya-already.sentence.0bef9020.mp3"
+      }
+    },
+    {
+      "id": "en-at",
+      "rank": 10,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "en",
+      "en": "she is [at] home",
+      "hint": "location, not direction",
+      "grammar": null,
+      "example": {
+        "es": "Estoy en el trabajo todo el día.",
+        "en": "I'm at work all day."
+      },
+      "spain": null,
+      "trick": "EN sounds like the letter N, as in 'Now here': where you are at right now.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/en-at.word.67171667.mp3",
+        "sentence": "/deck/audio/en-at.sentence.a8429fa4.mp3"
       }
     },
     {
@@ -904,8 +1107,29 @@
       "trick": "YA NO sounds like \"yeah, no\": a casual way of saying something doesn't happen anymore.",
       "image": "/deck/img/ya-not-anymore.webp",
       "audio": {
-        "word": "/deck/audio/ya-not-anymore.word.mp3",
-        "sentence": "/deck/audio/ya-not-anymore.sentence.mp3"
+        "word": "/deck/audio/ya-not-anymore.word.a93da8a9.mp3",
+        "sentence": "/deck/audio/ya-not-anymore.sentence.491950e2.mp3"
+      }
+    },
+    {
+      "id": "ahora-now",
+      "rank": 52,
+      "kind": "content",
+      "pos": "adverb",
+      "es": "ahora",
+      "en": "now",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Ahora no puedo hablar, estoy ocupado.",
+        "en": "I can't talk now, I'm busy."
+      },
+      "spain": null,
+      "trick": "AHORA sounds like \"a-HOUR-a\": the hour that matters is the one happening now (and the Spanish word really does come from hora, hour).",
+      "image": "/deck/img/ahora-now.webp",
+      "audio": {
+        "word": "/deck/audio/ahora-now.word.8aa40213.mp3",
+        "sentence": "/deck/audio/ahora-now.sentence.35631b80.mp3"
       }
     },
     {
@@ -925,8 +1149,8 @@
       "trick": "LO sounds like low: you look low and see him lying on the floor.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/lo-him-it.word.mp3",
-        "sentence": "/deck/audio/lo-him-it.sentence.mp3"
+        "word": "/deck/audio/lo-him-it.word.0f327322.mp3",
+        "sentence": "/deck/audio/lo-him-it.sentence.73f60bd3.mp3"
       }
     },
     {
@@ -946,8 +1170,8 @@
       "trick": "MUY sounds like a cow's very loud MOO: that cow is very, very noisy.",
       "image": "/deck/img/muy-very.webp",
       "audio": {
-        "word": "/deck/audio/muy-very.word.mp3",
-        "sentence": "/deck/audio/muy-very.sentence.mp3"
+        "word": "/deck/audio/muy-very.word.1a199006.mp3",
+        "sentence": "/deck/audio/muy-very.sentence.b10db2b9.mp3"
       }
     },
     {
@@ -974,29 +1198,29 @@
       "trick": "DAR sounds like \"dollar\": you give someone a dollar.",
       "image": "/deck/img/dar-give.webp",
       "audio": {
-        "word": "/deck/audio/dar-give.word.mp3",
-        "sentence": "/deck/audio/dar-give.sentence.mp3"
+        "word": "/deck/audio/dar-give.word.2f67b443.mp3",
+        "sentence": "/deck/audio/dar-give.sentence.cd08aa9a.mp3"
       }
     },
     {
-      "id": "por-for-reason",
-      "rank": 14,
+      "id": "lo-the-thing",
+      "rank": 11,
       "kind": "glue",
-      "pos": "preposition",
-      "es": "por",
-      "en": "thanks [for] everything",
-      "hint": "reason or exchange, not purpose",
+      "pos": "determiner",
+      "es": "lo",
+      "en": "[the] important thing is the family",
+      "hint": "before an adjective, no noun",
       "grammar": null,
       "example": {
-        "es": "Gracias por la ayuda.",
-        "en": "Thanks for the help."
+        "es": "Lo bueno es que llegamos temprano.",
+        "en": "The good thing is that we arrived early."
       },
       "spain": null,
-      "trick": "POR sounds like pour: you pour out thanks for everything someone did.",
+      "trick": "LO sounds like low: lo bajo is 'the low part', so LO plus an adjective means 'the ... thing' or 'the ... part'.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/por-for-reason.word.mp3",
-        "sentence": "/deck/audio/por-for-reason.sentence.mp3"
+        "word": "/deck/audio/lo-the-thing.word.0f327322.mp3",
+        "sentence": "/deck/audio/lo-the-thing.sentence.ec6c4d03.mp3"
       }
     },
     {
@@ -1023,8 +1247,8 @@
       "trick": "PASAR sounds like passer-by: a passer-by always sees what happens on the street.",
       "image": "/deck/img/pasar-happen.webp",
       "audio": {
-        "word": "/deck/audio/pasar-happen.word.mp3",
-        "sentence": "/deck/audio/pasar-happen.sentence.mp3"
+        "word": "/deck/audio/pasar-happen.word.3b6f32f2.mp3",
+        "sentence": "/deck/audio/pasar-happen.sentence.85c38082.mp3"
       }
     },
     {
@@ -1051,29 +1275,29 @@
       "trick": "PASAR starts like pass: you pass by, pass through, pass the ball.",
       "image": "/deck/img/pasar-pass.webp",
       "audio": {
-        "word": "/deck/audio/pasar-pass.word.mp3",
-        "sentence": "/deck/audio/pasar-pass.sentence.mp3"
+        "word": "/deck/audio/pasar-pass.word.3b6f32f2.mp3",
+        "sentence": "/deck/audio/pasar-pass.sentence.ccd20dd1.mp3"
       }
     },
     {
-      "id": "por-through",
+      "id": "por-for-reason",
       "rank": 14,
       "kind": "glue",
       "pos": "preposition",
       "es": "por",
-      "en": "we walk [through] the park",
-      "hint": "one short word",
+      "en": "thanks [for] everything",
+      "hint": "reason or exchange, not purpose",
       "grammar": null,
       "example": {
-        "es": "Caminamos por el parque.",
-        "en": "We walk through the park."
+        "es": "Gracias por la ayuda.",
+        "en": "Thanks for the help."
       },
       "spain": null,
-      "trick": "POR sounds like pore: sweat goes through your pores.",
+      "trick": "POR sounds like pour: you pour out thanks for everything someone did.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/por-through.word.mp3",
-        "sentence": "/deck/audio/por-through.sentence.mp3"
+        "word": "/deck/audio/por-for-reason.word.0c7e46e8.mp3",
+        "sentence": "/deck/audio/por-for-reason.sentence.557ff3f2.mp3"
       }
     },
     {
@@ -1100,8 +1324,8 @@
       "trick": "PASAR is how you pass the time: you spend the hours letting them pass.",
       "image": "/deck/img/pasar-spend-time.webp",
       "audio": {
-        "word": "/deck/audio/pasar-spend-time.word.mp3",
-        "sentence": "/deck/audio/pasar-spend-time.sentence.mp3"
+        "word": "/deck/audio/pasar-spend-time.word.3b6f32f2.mp3",
+        "sentence": "/deck/audio/pasar-spend-time.sentence.e880116a.mp3"
       }
     },
     {
@@ -1121,29 +1345,50 @@
       "trick": "ASÍ sounds like \"ah, see?\": ah, see? You do it like this.",
       "image": "/deck/img/asi-like-this.webp",
       "audio": {
-        "word": "/deck/audio/asi-like-this.word.mp3",
-        "sentence": "/deck/audio/asi-like-this.sentence.mp3"
+        "word": "/deck/audio/asi-like-this.word.95b75db6.mp3",
+        "sentence": "/deck/audio/asi-like-this.sentence.66b42a43.mp3"
       }
     },
     {
-      "id": "por-by",
+      "id": "por-through",
       "rank": 14,
       "kind": "glue",
       "pos": "preposition",
       "es": "por",
-      "en": "a book written [by] my mother",
-      "hint": null,
+      "en": "we walk [through] the park",
+      "hint": "one short word",
       "grammar": null,
       "example": {
-        "es": "La carta fue escrita por mi papá.",
-        "en": "The letter was written by my dad."
+        "es": "Caminamos por el parque.",
+        "en": "We walk through the park."
       },
       "spain": null,
-      "trick": "POR sounds like poor: a poem written by a poor poet.",
+      "trick": "POR sounds like pore: sweat goes through your pores.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/por-by.word.mp3",
-        "sentence": "/deck/audio/por-by.sentence.mp3"
+        "word": "/deck/audio/por-through.word.0c7e46e8.mp3",
+        "sentence": "/deck/audio/por-through.sentence.a7972124.mp3"
+      }
+    },
+    {
+      "id": "algo-somewhat",
+      "rank": 57,
+      "kind": "content",
+      "pos": "adverb",
+      "es": "algo",
+      "en": "somewhat",
+      "hint": "one word, before an adjective; not medio",
+      "grammar": null,
+      "example": {
+        "es": "Estoy algo cansado hoy.",
+        "en": "I'm somewhat tired today."
+      },
+      "spain": null,
+      "trick": "ALGO sounds like 'all go': I'm somewhat tired, but we all go anyway.",
+      "image": "/deck/img/algo-somewhat.webp",
+      "audio": {
+        "word": "/deck/audio/algo-somewhat.word.6bfe402c.mp3",
+        "sentence": "/deck/audio/algo-somewhat.sentence.be41bab8.mp3"
       }
     },
     {
@@ -1170,8 +1415,29 @@
       "trick": "DEJAR sounds like day jar: you leave your coins in the day jar by the door.",
       "image": "/deck/img/dejar-leave.webp",
       "audio": {
-        "word": "/deck/audio/dejar-leave.word.mp3",
-        "sentence": "/deck/audio/dejar-leave.sentence.mp3"
+        "word": "/deck/audio/dejar-leave.word.3a69c60a.mp3",
+        "sentence": "/deck/audio/dejar-leave.sentence.3ea14a7e.mp3"
+      }
+    },
+    {
+      "id": "por-by",
+      "rank": 14,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "por",
+      "en": "a book written [by] my mother",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "La carta fue escrita por mi papá.",
+        "en": "The letter was written by my dad."
+      },
+      "spain": null,
+      "trick": "POR sounds like poor: a poem written by a poor poet.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/por-by.word.0c7e46e8.mp3",
+        "sentence": "/deck/audio/por-by.sentence.ae38fc33.mp3"
       }
     },
     {
@@ -1198,29 +1464,8 @@
       "trick": "DÉJAME sounds like day, ha, me: let me have the day off, ha!",
       "image": "/deck/img/dejar-let.webp",
       "audio": {
-        "word": "/deck/audio/dejar-let.word.mp3",
-        "sentence": "/deck/audio/dejar-let.sentence.mp3"
-      }
-    },
-    {
-      "id": "que-what",
-      "rank": 16,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "qué",
-      "en": "[What] do you want?",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "¿Qué haces aquí?",
-        "en": "What are you doing here?"
-      },
-      "spain": null,
-      "trick": "QUÉ sounds like \"K?\": a puzzled K-shaped question mark asking what.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/que-what.word.mp3",
-        "sentence": "/deck/audio/que-what.sentence.mp3"
+        "word": "/deck/audio/dejar-let.word.3a69c60a.mp3",
+        "sentence": "/deck/audio/dejar-let.sentence.50f2ce46.mp3"
       }
     },
     {
@@ -1247,8 +1492,29 @@
       "trick": "DEJAR DE sounds like day jar day: one day you quit and toss your cigarettes in a jar.",
       "image": "/deck/img/dejar-quit.webp",
       "audio": {
-        "word": "/deck/audio/dejar-quit.word.mp3",
-        "sentence": "/deck/audio/dejar-quit.sentence.mp3"
+        "word": "/deck/audio/dejar-quit.word.3a69c60a.mp3",
+        "sentence": "/deck/audio/dejar-quit.sentence.69f3b67a.mp3"
+      }
+    },
+    {
+      "id": "que-what",
+      "rank": 16,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "qué",
+      "en": "[What] do you want?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Qué haces aquí?",
+        "en": "What are you doing here?"
+      },
+      "spain": null,
+      "trick": "QUÉ sounds like \"K?\": a puzzled K-shaped question mark asking what.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/que-what.word.b588b7d2.mp3",
+        "sentence": "/deck/audio/que-what.sentence.b08066d0.mp3"
       }
     },
     {
@@ -1271,29 +1537,8 @@
       "trick": "VEZ sounds like base: every time you touch a base in baseball counts as one more vez.",
       "image": "/deck/img/vez-time-occasion.webp",
       "audio": {
-        "word": "/deck/audio/vez-time-occasion.word.mp3",
-        "sentence": "/deck/audio/vez-time-occasion.sentence.mp3"
-      }
-    },
-    {
-      "id": "que-how-exclamation",
-      "rank": 16,
-      "kind": "glue",
-      "pos": "adverb",
-      "es": "qué",
-      "en": "[How] pretty!",
-      "hint": "exclamation",
-      "grammar": null,
-      "example": {
-        "es": "¡Qué bonita es tu casa!",
-        "en": "How pretty your house is!"
-      },
-      "spain": null,
-      "trick": "QUÉ sounds like \"Kay!\": Kay gasps at everything, saying how lovely it all is.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/que-how-exclamation.word.mp3",
-        "sentence": "/deck/audio/que-how-exclamation.sentence.mp3"
+        "word": "/deck/audio/vez-time-occasion.word.82c87455.mp3",
+        "sentence": "/deck/audio/vez-time-occasion.sentence.fcb82ff7.mp3"
       }
     },
     {
@@ -1320,8 +1565,29 @@
       "trick": "HABLAR sounds like \"blabber\": people who blabber talk all day long.",
       "image": "/deck/img/hablar-speak.webp",
       "audio": {
-        "word": "/deck/audio/hablar-speak.word.mp3",
-        "sentence": "/deck/audio/hablar-speak.sentence.mp3"
+        "word": "/deck/audio/hablar-speak.word.0e822159.mp3",
+        "sentence": "/deck/audio/hablar-speak.sentence.748c27b1.mp3"
+      }
+    },
+    {
+      "id": "que-how-exclamation",
+      "rank": 16,
+      "kind": "glue",
+      "pos": "adverb",
+      "es": "qué",
+      "en": "[How] pretty!",
+      "hint": "exclamation",
+      "grammar": null,
+      "example": {
+        "es": "¡Qué bonita es tu casa!",
+        "en": "How pretty your house is!"
+      },
+      "spain": null,
+      "trick": "QUÉ sounds like \"Kay!\": Kay gasps at everything, saying how lovely it all is.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/que-how-exclamation.word.b588b7d2.mp3",
+        "sentence": "/deck/audio/que-how-exclamation.sentence.1d180ddd.mp3"
       }
     },
     {
@@ -1348,29 +1614,8 @@
       "trick": "SENTIR sounds like sent here: every feeling gets sent here, straight to your heart.",
       "image": "/deck/img/sentir-feel.webp",
       "audio": {
-        "word": "/deck/audio/sentir-feel.word.mp3",
-        "sentence": "/deck/audio/sentir-feel.sentence.mp3"
-      }
-    },
-    {
-      "id": "me-me",
-      "rank": 18,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "me",
-      "en": "call [me] tomorrow",
-      "hint": "object pronoun, attached to or before the verb",
-      "grammar": null,
-      "example": {
-        "es": "¿Me llamas mañana?",
-        "en": "Will you call me tomorrow?"
-      },
-      "spain": null,
-      "trick": "ME is spelled just like English me, so it's an easy one.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/me-me.word.mp3",
-        "sentence": "/deck/audio/me-me.sentence.mp3"
+        "word": "/deck/audio/sentir-feel.word.b5bcbaa5.mp3",
+        "sentence": "/deck/audio/sentir-feel.sentence.c9fba597.mp3"
       }
     },
     {
@@ -1397,8 +1642,29 @@
       "trick": "SIENTO sounds like see an ant, oh: you see the ant you stepped on and say sorry.",
       "image": "/deck/img/sentir-be-sorry.webp",
       "audio": {
-        "word": "/deck/audio/sentir-be-sorry.word.mp3",
-        "sentence": "/deck/audio/sentir-be-sorry.sentence.mp3"
+        "word": "/deck/audio/sentir-be-sorry.word.b5bcbaa5.mp3",
+        "sentence": "/deck/audio/sentir-be-sorry.sentence.7d923589.mp3"
+      }
+    },
+    {
+      "id": "me-me",
+      "rank": 18,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "me",
+      "en": "call [me] tomorrow",
+      "hint": "object pronoun, attached to or before the verb",
+      "grammar": null,
+      "example": {
+        "es": "¿Me llamas mañana?",
+        "en": "Will you call me tomorrow?"
+      },
+      "spain": null,
+      "trick": "ME is spelled just like English me, so it's an easy one.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/me-me.word.e2a0eafd.mp3",
+        "sentence": "/deck/audio/me-me.sentence.be107b1f.mp3"
       }
     },
     {
@@ -1425,29 +1691,8 @@
       "trick": "VENIR sounds like 'when ear': when your ear hears dinner called, you come running.",
       "image": "/deck/img/venir-come.webp",
       "audio": {
-        "word": "/deck/audio/venir-come.word.mp3",
-        "sentence": "/deck/audio/venir-come.sentence.mp3"
-      }
-    },
-    {
-      "id": "me-myself",
-      "rank": 18,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "me",
-      "en": "I wash [myself]",
-      "hint": "reflexive pronoun, goes before the verb",
-      "grammar": null,
-      "example": {
-        "es": "Me lavo las manos antes de comer.",
-        "en": "I wash my hands before eating."
-      },
-      "spain": null,
-      "trick": "ME looks like me: when I do something to me, that's myself.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/me-myself.word.mp3",
-        "sentence": "/deck/audio/me-myself.sentence.mp3"
+        "word": "/deck/audio/venir-come.word.0e055c42.mp3",
+        "sentence": "/deck/audio/venir-come.sentence.8a1f5954.mp3"
       }
     },
     {
@@ -1469,8 +1714,29 @@
       "trick": "MUCHO sounds like \"much-o\": it is simply much, with an extra o for more.",
       "image": "/deck/img/mucho-many.webp",
       "audio": {
-        "word": "/deck/audio/mucho-many.word.mp3",
-        "sentence": "/deck/audio/mucho-many.sentence.mp3"
+        "word": "/deck/audio/mucho-many.word.10994daa.mp3",
+        "sentence": "/deck/audio/mucho-many.sentence.bfdcff46.mp3"
+      }
+    },
+    {
+      "id": "me-myself",
+      "rank": 18,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "me",
+      "en": "I wash [myself]",
+      "hint": "reflexive pronoun, goes before the verb",
+      "grammar": null,
+      "example": {
+        "es": "Me lavo las manos antes de comer.",
+        "en": "I wash my hands before eating."
+      },
+      "spain": null,
+      "trick": "ME looks like me: when I do something to me, that's myself.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/me-myself.word.e2a0eafd.mp3",
+        "sentence": "/deck/audio/me-myself.sentence.cb72a416.mp3"
       }
     },
     {
@@ -1490,29 +1756,8 @@
       "trick": "MUCHO sounds like \"much, oh!\": you say it when someone does something a lot.",
       "image": "/deck/img/mucho-a-lot.webp",
       "audio": {
-        "word": "/deck/audio/mucho-a-lot.word.mp3",
-        "sentence": "/deck/audio/mucho-a-lot.sentence.mp3"
-      }
-    },
-    {
-      "id": "se-himself-reflexive",
-      "rank": 20,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "se",
-      "en": "he washes [himself]",
-      "hint": "reflexive pronoun before the verb, also herself, themselves, yourself (usted)",
-      "grammar": null,
-      "example": {
-        "es": "Mi hermano se levanta muy temprano.",
-        "en": "My brother gets up very early."
-      },
-      "spain": null,
-      "trick": "SE sounds like 'say': he looks in the mirror and says his name to himself.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/se-himself-reflexive.word.mp3",
-        "sentence": "/deck/audio/se-himself-reflexive.sentence.mp3"
+        "word": "/deck/audio/mucho-a-lot.word.10994daa.mp3",
+        "sentence": "/deck/audio/mucho-a-lot.sentence.36e6c2d4.mp3"
       }
     },
     {
@@ -1539,8 +1784,29 @@
       "trick": "ESPERAR sounds like 'is pear ready?': you wait and wait until the pear is ripe.",
       "image": "/deck/img/esperar-wait.webp",
       "audio": {
-        "word": "/deck/audio/esperar-wait.word.mp3",
-        "sentence": "/deck/audio/esperar-wait.sentence.mp3"
+        "word": "/deck/audio/esperar-wait.word.afeb1ac0.mp3",
+        "sentence": "/deck/audio/esperar-wait.sentence.402cb9a4.mp3"
+      }
+    },
+    {
+      "id": "se-himself-reflexive",
+      "rank": 20,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "se",
+      "en": "he washes [himself]",
+      "hint": "reflexive pronoun before the verb, also herself, themselves, yourself (usted)",
+      "grammar": null,
+      "example": {
+        "es": "Mi hermano se levanta muy temprano.",
+        "en": "My brother gets up very early."
+      },
+      "spain": null,
+      "trick": "SE sounds like 'say': he looks in the mirror and says his name to himself.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/se-himself-reflexive.word.379ec9c0.mp3",
+        "sentence": "/deck/audio/se-himself-reflexive.sentence.b8ce3f4d.mp3"
       }
     },
     {
@@ -1567,29 +1833,8 @@
       "trick": "ESPERAR sounds like 'aspire': you hope for the things you aspire to.",
       "image": "/deck/img/esperar-hope.webp",
       "audio": {
-        "word": "/deck/audio/esperar-hope.word.mp3",
-        "sentence": "/deck/audio/esperar-hope.sentence.mp3"
-      }
-    },
-    {
-      "id": "se-one-impersonal",
-      "rank": 20,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "se",
-      "en": "how do [you] say it?",
-      "hint": "impersonal: people in general, not a specific you",
-      "grammar": null,
-      "example": {
-        "es": "¿Cómo se dice gracias en inglés?",
-        "en": "How do you say gracias in English?"
-      },
-      "spain": null,
-      "trick": "SE sounds like 'say': how do people say it? ¿Cómo se dice?",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/se-one-impersonal.word.mp3",
-        "sentence": "/deck/audio/se-one-impersonal.sentence.mp3"
+        "word": "/deck/audio/esperar-hope.word.afeb1ac0.mp3",
+        "sentence": "/deck/audio/esperar-hope.sentence.5453ffc9.mp3"
       }
     },
     {
@@ -1616,8 +1861,29 @@
       "trick": "ESPERAR sounds like 'prepare': you prepare for whatever you expect to happen.",
       "image": "/deck/img/esperar-expect.webp",
       "audio": {
-        "word": "/deck/audio/esperar-expect.word.mp3",
-        "sentence": "/deck/audio/esperar-expect.sentence.mp3"
+        "word": "/deck/audio/esperar-expect.word.afeb1ac0.mp3",
+        "sentence": "/deck/audio/esperar-expect.sentence.2e364877.mp3"
+      }
+    },
+    {
+      "id": "se-one-impersonal",
+      "rank": 20,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "se",
+      "en": "how do [you] say it?",
+      "hint": "impersonal: people in general, not a specific you",
+      "grammar": null,
+      "example": {
+        "es": "¿Cómo se dice gracias en inglés?",
+        "en": "How do you say gracias in English?"
+      },
+      "spain": null,
+      "trick": "SE sounds like 'say': how do people say it? ¿Cómo se dice?",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/se-one-impersonal.word.379ec9c0.mp3",
+        "sentence": "/deck/audio/se-one-impersonal.sentence.d0420eaf.mp3"
       }
     },
     {
@@ -1644,8 +1910,29 @@
       "trick": "PENSAR sounds like pencil: you chew your pencil while you think hard.",
       "image": "/deck/img/pensar-think.webp",
       "audio": {
-        "word": "/deck/audio/pensar-think.word.mp3",
-        "sentence": "/deck/audio/pensar-think.sentence.mp3"
+        "word": "/deck/audio/pensar-think.word.3a3a2cba.mp3",
+        "sentence": "/deck/audio/pensar-think.sentence.f680a9b7.mp3"
+      }
+    },
+    {
+      "id": "gracias-thank-you",
+      "rank": 75,
+      "kind": "content",
+      "pos": "other",
+      "es": "gracias",
+      "en": "thank you",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Muchas gracias, me ayudaste mucho.",
+        "en": "Thank you very much, you helped me a lot."
+      },
+      "spain": null,
+      "trick": "GRACIAS sounds like gracious: a gracious person always says thank you.",
+      "image": "/deck/img/gracias-thank-you.webp",
+      "audio": {
+        "word": "/deck/audio/gracias-thank-you.word.2bd04ed6.mp3",
+        "sentence": "/deck/audio/gracias-thank-you.sentence.e30dc22e.mp3"
       }
     },
     {
@@ -1665,8 +1952,32 @@
       "trick": "TE sounds like tea: I'll make you tea because I love you.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/te-you.word.mp3",
-        "sentence": "/deck/audio/te-you.sentence.mp3"
+        "word": "/deck/audio/te-you.word.68fab8d6.mp3",
+        "sentence": "/deck/audio/te-you.sentence.4748a76f.mp3"
+      }
+    },
+    {
+      "id": "senor-sir",
+      "rank": 76,
+      "kind": "content",
+      "pos": "noun",
+      "es": "el señor",
+      "en": "sir, Mr.",
+      "hint": "polite title or word for a man; feminine señora",
+      "grammar": {
+        "gender": "m",
+        "article": "el"
+      },
+      "example": {
+        "es": "El señor López vive en mi calle.",
+        "en": "Mr. López lives on my street."
+      },
+      "spain": null,
+      "trick": "SEÑOR sounds like senior: you call an older, respected man sir.",
+      "image": "/deck/img/senor-sir.webp",
+      "audio": {
+        "word": "/deck/audio/senor-sir.word.85f42bbb.mp3",
+        "sentence": "/deck/audio/senor-sir.sentence.980ae547.mp3"
       }
     },
     {
@@ -1689,8 +2000,29 @@
       "trick": "COSA sounds like \"cause a\": every thing can cause a problem if you leave it lying around.",
       "image": "/deck/img/cosa-thing.webp",
       "audio": {
-        "word": "/deck/audio/cosa-thing.word.mp3",
-        "sentence": "/deck/audio/cosa-thing.sentence.mp3"
+        "word": "/deck/audio/cosa-thing.word.c11d48b1.mp3",
+        "sentence": "/deck/audio/cosa-thing.sentence.c06df59e.mp3"
+      }
+    },
+    {
+      "id": "te-yourself",
+      "rank": 21,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "te",
+      "en": "did you hurt [yourself]?",
+      "hint": "one short word before the verb",
+      "grammar": null,
+      "example": {
+        "es": "¿Te lastimaste la mano?",
+        "en": "Did you hurt your hand?"
+      },
+      "spain": null,
+      "trick": "TE sounds like tea: you spilled hot tea on yourself.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/te-yourself.word.68fab8d6.mp3",
+        "sentence": "/deck/audio/te-yourself.sentence.b6c73d1e.mp3"
       }
     },
     {
@@ -1717,29 +2049,8 @@
       "trick": "NECESITAR sounds like necessity: when something is a necessity, you need it.",
       "image": "/deck/img/necesitar-need.webp",
       "audio": {
-        "word": "/deck/audio/necesitar-need.word.mp3",
-        "sentence": "/deck/audio/necesitar-need.sentence.mp3"
-      }
-    },
-    {
-      "id": "te-yourself",
-      "rank": 21,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "te",
-      "en": "did you hurt [yourself]?",
-      "hint": "one short word before the verb",
-      "grammar": null,
-      "example": {
-        "es": "¿Te lastimaste la mano?",
-        "en": "Did you hurt your hand?"
-      },
-      "spain": null,
-      "trick": "TE sounds like tea: you spilled hot tea on yourself.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/te-yourself.word.mp3",
-        "sentence": "/deck/audio/te-yourself.sentence.mp3"
+        "word": "/deck/audio/necesitar-need.word.59f4d9a0.mp3",
+        "sentence": "/deck/audio/necesitar-need.sentence.92ffaaa5.mp3"
       }
     },
     {
@@ -1766,8 +2077,29 @@
       "trick": "MIRAR sounds like mirror: you look at yourself in the mirror.",
       "image": "/deck/img/mirar-look-at.webp",
       "audio": {
-        "word": "/deck/audio/mirar-look-at.word.mp3",
-        "sentence": "/deck/audio/mirar-look-at.sentence.mp3"
+        "word": "/deck/audio/mirar-look-at.word.89f5db40.mp3",
+        "sentence": "/deck/audio/mirar-look-at.sentence.b7112841.mp3"
+      }
+    },
+    {
+      "id": "con-with",
+      "rank": 22,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "con",
+      "en": "coffee [with] milk",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Quieres venir conmigo o con ellos?",
+        "en": "Do you want to come with me or with them?"
+      },
+      "spain": null,
+      "trick": "CON sounds like \"cone\": ice cream always comes with a cone.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/con-with.word.ea9ca2b8.mp3",
+        "sentence": "/deck/audio/con-with.sentence.4c93d887.mp3"
       }
     },
     {
@@ -1794,29 +2126,8 @@
       "trick": "LLAMAR starts like llama: picture a llama on the phone, calling you from the Andes.",
       "image": "/deck/img/llamar-call.webp",
       "audio": {
-        "word": "/deck/audio/llamar-call.word.mp3",
-        "sentence": "/deck/audio/llamar-call.sentence.mp3"
-      }
-    },
-    {
-      "id": "con-with",
-      "rank": 22,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "con",
-      "en": "coffee [with] milk",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "¿Quieres venir conmigo o con ellos?",
-        "en": "Do you want to come with me or with them?"
-      },
-      "spain": null,
-      "trick": "CON sounds like \"cone\": ice cream always comes with a cone.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/con-with.word.mp3",
-        "sentence": "/deck/audio/con-with.sentence.mp3"
+        "word": "/deck/audio/llamar-call.word.0957e01a.mp3",
+        "sentence": "/deck/audio/llamar-call.sentence.aa77f192.mp3"
       }
     },
     {
@@ -1843,8 +2154,29 @@
       "trick": "LLAMARSE: a llama introduces itself, saying its name is Larry the Llama.",
       "image": "/deck/img/llamar-be-named.webp",
       "audio": {
-        "word": "/deck/audio/llamar-be-named.word.mp3",
-        "sentence": "/deck/audio/llamar-be-named.sentence.mp3"
+        "word": "/deck/audio/llamar-be-named.word.6b815a30.mp3",
+        "sentence": "/deck/audio/llamar-be-named.sentence.dbb83d69.mp3"
+      }
+    },
+    {
+      "id": "para-for",
+      "rank": 24,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "para",
+      "en": "a gift [for] you",
+      "hint": "recipient, purpose or deadline, not por",
+      "grammar": null,
+      "example": {
+        "es": "Este regalo es para ti.",
+        "en": "This gift is for you."
+      },
+      "spain": null,
+      "trick": "PARA sounds like a parachute dropping a gift for you, aimed right at its recipient.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/para-for.word.197c283f.mp3",
+        "sentence": "/deck/audio/para-for.sentence.64b2eff8.mp3"
       }
     },
     {
@@ -1867,29 +2199,74 @@
       "trick": "DÍA sounds like \"dear\": every new day is dear to me, even though it ends in -a and is still masculine.",
       "image": "/deck/img/dia-day.webp",
       "audio": {
-        "word": "/deck/audio/dia-day.word.mp3",
-        "sentence": "/deck/audio/dia-day.sentence.mp3"
+        "word": "/deck/audio/dia-day.word.0fe02e34.mp3",
+        "sentence": "/deck/audio/dia-day.sentence.87de6460.mp3"
       }
     },
     {
-      "id": "para-for",
+      "id": "hombre-man",
+      "rank": 85,
+      "kind": "content",
+      "pos": "noun",
+      "es": "el hombre",
+      "en": "man",
+      "hint": null,
+      "grammar": {
+        "gender": "m",
+        "article": "el"
+      },
+      "example": {
+        "es": "Ese hombre es mi tío.",
+        "en": "That man is my uncle."
+      },
+      "spain": null,
+      "trick": "HOMBRE sounds like \"OM-bray\": picture a man chanting a deep \"om\" as he walks into the room (the h is silent).",
+      "image": "/deck/img/hombre-man.webp",
+      "audio": {
+        "word": "/deck/audio/hombre-man.word.8befab5e.mp3",
+        "sentence": "/deck/audio/hombre-man.sentence.0bcb632f.mp3"
+      }
+    },
+    {
+      "id": "para-in-order-to",
       "rank": 24,
       "kind": "glue",
       "pos": "preposition",
       "es": "para",
-      "en": "a gift [for] you",
-      "hint": "recipient, purpose or deadline, not por",
+      "en": "I work [in order to] live",
+      "hint": "before a verb, showing purpose",
       "grammar": null,
       "example": {
-        "es": "Este regalo es para ti.",
-        "en": "This gift is for you."
+        "es": "Vine para hablar contigo.",
+        "en": "I came to talk to you."
       },
       "spain": null,
-      "trick": "PARA sounds like a parachute dropping a gift for you, aimed right at its recipient.",
+      "trick": "PARA sounds like a paramedic, who rushes in order to save you.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/para-for.word.mp3",
-        "sentence": "/deck/audio/para-for.sentence.mp3"
+        "word": "/deck/audio/para-in-order-to.word.197c283f.mp3",
+        "sentence": "/deck/audio/para-in-order-to.sentence.ce6e273d.mp3"
+      }
+    },
+    {
+      "id": "entonces-so",
+      "rank": 86,
+      "kind": "content",
+      "pos": "adverb",
+      "es": "entonces",
+      "en": "so",
+      "hint": "one word, to draw a conclusion or move on, not pues or tan",
+      "grammar": null,
+      "example": {
+        "es": "Entonces, ¿vienes o no?",
+        "en": "So, are you coming or not?"
+      },
+      "spain": null,
+      "trick": "ENTONCES sounds like \"in tone, says\": in a serious tone, he says, \"So, what now?\"",
+      "image": "/deck/img/entonces-so.webp",
+      "audio": {
+        "word": "/deck/audio/entonces-so.word.119c771e.mp3",
+        "sentence": "/deck/audio/entonces-so.sentence.f1d1f570.mp3"
       }
     },
     {
@@ -1909,8 +2286,29 @@
       "trick": "ENTONCES sounds like \"in ton-says\": back then, an old clock went ton, ton, and everyone says it.",
       "image": "/deck/img/entonces-then-time.webp",
       "audio": {
-        "word": "/deck/audio/entonces-then-time.word.mp3",
-        "sentence": "/deck/audio/entonces-then-time.sentence.mp3"
+        "word": "/deck/audio/entonces-then-time.word.119c771e.mp3",
+        "sentence": "/deck/audio/entonces-then-time.sentence.04e24d9d.mp3"
+      }
+    },
+    {
+      "id": "mi-my",
+      "rank": 25,
+      "kind": "glue",
+      "pos": "determiner",
+      "es": "mi",
+      "en": "[my] house",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Mi hermana vive en Bogotá.",
+        "en": "My sister lives in Bogotá."
+      },
+      "spain": null,
+      "trick": "MI sounds like me: anything that belongs to me is my stuff.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/mi-my.word.78c81d5a.mp3",
+        "sentence": "/deck/audio/mi-my.sentence.caeaf27e.mp3"
       }
     },
     {
@@ -1933,29 +2331,8 @@
       "trick": "CASA sounds like \"castle\": every house is a little castle to its owner.",
       "image": "/deck/img/casa-house.webp",
       "audio": {
-        "word": "/deck/audio/casa-house.word.mp3",
-        "sentence": "/deck/audio/casa-house.sentence.mp3"
-      }
-    },
-    {
-      "id": "para-in-order-to",
-      "rank": 24,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "para",
-      "en": "I work [in order to] live",
-      "hint": "before a verb, showing purpose",
-      "grammar": null,
-      "example": {
-        "es": "Vine para hablar contigo.",
-        "en": "I came to talk to you."
-      },
-      "spain": null,
-      "trick": "PARA sounds like a paramedic, who rushes in order to save you.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/para-in-order-to.word.mp3",
-        "sentence": "/deck/audio/para-in-order-to.sentence.mp3"
+        "word": "/deck/audio/casa-house.word.ad730258.mp3",
+        "sentence": "/deck/audio/casa-house.sentence.6eb6d23e.mp3"
       }
     },
     {
@@ -1978,95 +2355,8 @@
       "trick": "CASA sounds like \"cozy\": home is the cozy place you return to.",
       "image": "/deck/img/casa-home.webp",
       "audio": {
-        "word": "/deck/audio/casa-home.word.mp3",
-        "sentence": "/deck/audio/casa-home.sentence.mp3"
-      }
-    },
-    {
-      "id": "hola-hello",
-      "rank": 88,
-      "kind": "content",
-      "pos": "other",
-      "es": "hola",
-      "en": "hello",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "¡Hola! ¿Cómo estás?",
-        "en": "Hello! How are you?"
-      },
-      "spain": null,
-      "trick": "HOLA sounds like \"hello\" with an O and an A: you holler hola to say hello.",
-      "image": "/deck/img/hola-hello.webp",
-      "audio": {
-        "word": "/deck/audio/hola-hello.word.mp3",
-        "sentence": "/deck/audio/hola-hello.sentence.mp3"
-      }
-    },
-    {
-      "id": "mi-my",
-      "rank": 25,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "mi",
-      "en": "[my] house",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Mi hermana vive en Bogotá.",
-        "en": "My sister lives in Bogotá."
-      },
-      "spain": null,
-      "trick": "MI sounds like me: anything that belongs to me is my stuff.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/mi-my.word.mp3",
-        "sentence": "/deck/audio/mi-my.sentence.mp3"
-      }
-    },
-    {
-      "id": "verdad-truth",
-      "rank": 89,
-      "kind": "content",
-      "pos": "noun",
-      "es": "la verdad",
-      "en": "truth",
-      "hint": null,
-      "grammar": {
-        "gender": "f",
-        "article": "la"
-      },
-      "example": {
-        "es": "Tienes que decirme la verdad.",
-        "en": "You have to tell me the truth."
-      },
-      "spain": null,
-      "trick": "VERDAD sounds like verdict: a fair verdict always rests on the truth.",
-      "image": "/deck/img/verdad-truth.webp",
-      "audio": {
-        "word": "/deck/audio/verdad-truth.word.mp3",
-        "sentence": "/deck/audio/verdad-truth.sentence.mp3"
-      }
-    },
-    {
-      "id": "verdad-right-tag",
-      "rank": 89,
-      "kind": "content",
-      "pos": "other",
-      "es": "¿verdad?",
-      "en": "right? (at the end of a sentence)",
-      "hint": "the tag that literally means truth, not ¿no?",
-      "grammar": null,
-      "example": {
-        "es": "Vienes mañana, ¿verdad?",
-        "en": "You're coming tomorrow, right?"
-      },
-      "spain": null,
-      "trick": "Ending with VERDAD is like asking for the verdict: that's true, right?",
-      "image": "/deck/img/verdad-right-tag.webp",
-      "audio": {
-        "word": "/deck/audio/verdad-right-tag.word.mp3",
-        "sentence": "/deck/audio/verdad-right-tag.sentence.mp3"
+        "word": "/deck/audio/casa-home.word.ad730258.mp3",
+        "sentence": "/deck/audio/casa-home.sentence.a8b1d812.mp3"
       }
     },
     {
@@ -2086,645 +2376,29 @@
       "trick": "SU sounds like Sue: whose bag is it? It's Sue's, so su means his, her or their.",
       "image": null,
       "audio": {
-        "word": "/deck/audio/su-his-her.word.mp3",
-        "sentence": "/deck/audio/su-his-her.sentence.mp3"
+        "word": "/deck/audio/su-his-her.word.568c2285.mp3",
+        "sentence": "/deck/audio/su-his-her.sentence.a02b5779.mp3"
       }
     },
     {
-      "id": "volver-come-back",
-      "rank": 90,
+      "id": "hola-hello",
+      "rank": 88,
       "kind": "content",
-      "pos": "verb",
-      "es": "volver",
-      "en": "to come back",
-      "hint": "not regresar",
-      "grammar": {
-        "present": {
-          "yo": "vuelvo",
-          "tu": "vuelves",
-          "el": "vuelve"
-        },
-        "irregular": true
-      },
-      "example": {
-        "es": "Vuelvo en cinco minutos.",
-        "en": "I'll be back in five minutes."
-      },
-      "spain": null,
-      "trick": "VOLVER sounds like Volvo: you drive your Volvo to come back home.",
-      "image": "/deck/img/volver-come-back.webp",
-      "audio": {
-        "word": "/deck/audio/volver-come-back.word.mp3",
-        "sentence": "/deck/audio/volver-come-back.sentence.mp3"
-      }
-    },
-    {
-      "id": "este-this",
-      "rank": 29,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "este",
-      "en": "I want [this] book",
+      "pos": "other",
+      "es": "hola",
+      "en": "hello",
       "hint": null,
       "grammar": null,
       "example": {
-        "es": "Este libro es muy bueno.",
-        "en": "This book is very good."
+        "es": "¡Hola! ¿Cómo estás?",
+        "en": "Hello! How are you?"
       },
       "spain": null,
-      "trick": "ESTE sounds like 'is t'he': point and say 'this is the one' right here.",
-      "image": null,
+      "trick": "HOLA sounds like \"hello\" with an O and an A: you holler hola to say hello.",
+      "image": "/deck/img/hola-hello.webp",
       "audio": {
-        "word": "/deck/audio/este-this.word.mp3",
-        "sentence": "/deck/audio/este-this.sentence.mp3"
-      }
-    },
-    {
-      "id": "todo-all",
-      "rank": 30,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "todo",
-      "en": "[all] the day",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Trabajé todo el día.",
-        "en": "I worked all day."
-      },
-      "spain": null,
-      "trick": "TODO sounds like to-do: your to-do list takes all the day.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/todo-all.word.mp3",
-        "sentence": "/deck/audio/todo-all.sentence.mp3"
-      }
-    },
-    {
-      "id": "todo-everything",
-      "rank": 30,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "todo",
-      "en": "[everything] is fine",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Tranquilo, todo está bien.",
-        "en": "Relax, everything is fine."
-      },
-      "spain": null,
-      "trick": "TODO sounds like Toto, Dorothy's dog: in Oz, everything was different, Toto.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/todo-everything.word.mp3",
-        "sentence": "/deck/audio/todo-everything.sentence.mp3"
-      }
-    },
-    {
-      "id": "pero-but",
-      "rank": 31,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "pero",
-      "en": "I want to go, [but] I can't",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Es caro, pero es muy bueno.",
-        "en": "It's expensive, but it's very good."
-      },
-      "spain": null,
-      "trick": "PERO sounds like a pear-o: I wanted an apple, but I got a pear-o.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/pero-but.word.mp3",
-        "sentence": "/deck/audio/pero-but.sentence.mp3"
-      }
-    },
-    {
-      "id": "si-if",
-      "rank": 33,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "si",
-      "en": "[if] you want, we go",
-      "hint": "no accent; not sí meaning yes",
-      "grammar": null,
-      "example": {
-        "es": "Si quieres, vamos al cine.",
-        "en": "If you want, we'll go to the movies."
-      },
-      "spain": null,
-      "trick": "SI sounds like \"see\": we'll see IF it works.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/si-if.word.mp3",
-        "sentence": "/deck/audio/si-if.sentence.mp3"
-      }
-    },
-    {
-      "id": "yo-i",
-      "rank": 37,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "yo",
-      "en": "[I] am tired",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Yo no sé nada.",
-        "en": "I don't know anything."
-      },
-      "spain": null,
-      "trick": "YO sounds like a rapper's \"Yo!\": that's me, I'm talking about myself.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/yo-i.word.mp3",
-        "sentence": "/deck/audio/yo-i.sentence.mp3"
-      }
-    },
-    {
-      "id": "tu-your",
-      "rank": 38,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "tu",
-      "en": "[your] house",
-      "hint": "informal, talking to one friend",
-      "grammar": null,
-      "example": {
-        "es": "¿Dónde está tu teléfono?",
-        "en": "Where is your phone?"
-      },
-      "spain": null,
-      "trick": "TU sounds like \"to you\": the thing that belongs to you is yours.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/tu-your.word.mp3",
-        "sentence": "/deck/audio/tu-your.sentence.mp3"
-      }
-    },
-    {
-      "id": "le-to-him-her",
-      "rank": 40,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "le",
-      "en": "I told [her] the truth",
-      "hint": "indirect object: to him, to her, to you (usted)",
-      "grammar": null,
-      "example": {
-        "es": "Le di el dinero a mi hermano.",
-        "en": "I gave my brother the money."
-      },
-      "spain": null,
-      "trick": "LE sounds like lay: you lay something down for him or her, handing it to them.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/le-to-him-her.word.mp3",
-        "sentence": "/deck/audio/le-to-him-her.sentence.mp3"
-      }
-    },
-    {
-      "id": "del-of-the",
-      "rank": 41,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "del",
-      "en": "the car [of the] boss",
-      "hint": "one word: de + el, before a masculine noun",
-      "grammar": null,
-      "example": {
-        "es": "Es el carro del jefe.",
-        "en": "It's the boss's car."
-      },
-      "spain": null,
-      "trick": "DEL sounds like \"dell\": the computer of the boss is a Dell.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/del-of-the.word.mp3",
-        "sentence": "/deck/audio/del-of-the.sentence.mp3"
-      }
-    },
-    {
-      "id": "como-like",
-      "rank": 42,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "como",
-      "en": "he talks [like] his dad",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Hablas como tu mamá.",
-        "en": "You talk like your mom."
-      },
-      "spain": null,
-      "trick": "COMO sounds like a comma: a little pause before you say what something is like.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/como-like.word.mp3",
-        "sentence": "/deck/audio/como-like.sentence.mp3"
-      }
-    },
-    {
-      "id": "como-as",
-      "rank": 42,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "como",
-      "en": "as tall [as] you",
-      "hint": "equal comparison, after tan",
-      "grammar": null,
-      "example": {
-        "es": "Mi hermano es tan alto como tú.",
-        "en": "My brother is as tall as you."
-      },
-      "spain": null,
-      "trick": "COMO sounds like 'co-mo': two co-workers, each as good as the other.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/como-as.word.mp3",
-        "sentence": "/deck/audio/como-as.sentence.mp3"
-      }
-    },
-    {
-      "id": "al-to-the",
-      "rank": 45,
-      "kind": "glue",
-      "pos": "preposition",
-      "es": "al",
-      "en": "I'm going [to the] park",
-      "hint": "a + el, before a masculine noun",
-      "grammar": null,
-      "example": {
-        "es": "Vamos al parque mañana.",
-        "en": "Let's go to the park tomorrow."
-      },
-      "spain": null,
-      "trick": "AL sounds like \"all\": all roads lead to the park.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/al-to-the.word.mp3",
-        "sentence": "/deck/audio/al-to-the.sentence.mp3"
-      }
-    },
-    {
-      "id": "ese-that",
-      "rank": 46,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "ese",
-      "en": "I want [that] book",
-      "hint": "near you, not far away; masculine",
-      "grammar": null,
-      "example": {
-        "es": "¿Cuánto cuesta ese libro?",
-        "en": "How much does that book cost?"
-      },
-      "spain": null,
-      "trick": "ESE sounds like essay: point at that essay in your hand.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/ese-that.word.mp3",
-        "sentence": "/deck/audio/ese-that.sentence.mp3"
-      }
-    },
-    {
-      "id": "esto-this",
-      "rank": 49,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "esto",
-      "en": "what is [this]?",
-      "hint": "neuter: an unnamed thing or idea, not este or esta",
-      "grammar": null,
-      "example": {
-        "es": "¿Qué es esto? No entiendo nada.",
-        "en": "What is this? I don't understand anything."
-      },
-      "spain": null,
-      "trick": "ESTO sounds like a stow: you point at a weird thing in the stowed box and ask, what is this?",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/esto-this.word.mp3",
-        "sentence": "/deck/audio/esto-this.sentence.mp3"
-      }
-    },
-    {
-      "id": "algo-something",
-      "rank": 57,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "algo",
-      "en": "I want [something] to eat",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "¿Quieres algo de tomar?",
-        "en": "Do you want something to drink?"
-      },
-      "spain": null,
-      "trick": "ALGO sounds like 'I'll go': I'll go get something from the kitchen.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/algo-something.word.mp3",
-        "sentence": "/deck/audio/algo-something.sentence.mp3"
-      }
-    },
-    {
-      "id": "el-he",
-      "rank": 61,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "él",
-      "en": "[he] is my brother",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Él no sabe nada.",
-        "en": "He doesn't know anything."
-      },
-      "spain": null,
-      "trick": "ÉL sounds like the letter L: think of L for Lad, a he.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/el-he.word.mp3",
-        "sentence": "/deck/audio/el-he.sentence.mp3"
-      }
-    },
-    {
-      "id": "el-him",
-      "rank": 61,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "él",
-      "en": "I went with [him]",
-      "hint": "after a preposition",
-      "grammar": null,
-      "example": {
-        "es": "Este regalo es para él.",
-        "en": "This gift is for him."
-      },
-      "spain": null,
-      "trick": "ÉL sounds like the letter L: picture a big L pointing at him when you say con él.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/el-him.word.mp3",
-        "sentence": "/deck/audio/el-him.sentence.mp3"
-      }
-    },
-    {
-      "id": "cuando-when",
-      "rank": 62,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "cuando",
-      "en": "call me [when] you arrive",
-      "hint": "not a question, no accent",
-      "grammar": null,
-      "example": {
-        "es": "Llámame cuando llegues a casa.",
-        "en": "Call me when you get home."
-      },
-      "spain": null,
-      "trick": "CUANDO sounds like \"quand-o\": like French quand, it tells you when something happens.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/cuando-when.word.mp3",
-        "sentence": "/deck/audio/cuando-when.sentence.mp3"
-      }
-    },
-    {
-      "id": "tu-you-informal",
-      "rank": 64,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "tú",
-      "en": "[you] are my friend",
-      "hint": "informal, one person, subject",
-      "grammar": null,
-      "example": {
-        "es": "¿Tú quieres ir al cine conmigo?",
-        "en": "Do you want to go to the movies with me?"
-      },
-      "spain": null,
-      "trick": "TÚ sounds like two: it takes two, me and you, to have a friendly chat.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/tu-you-informal.word.mp3",
-        "sentence": "/deck/audio/tu-you-informal.sentence.mp3"
-      }
-    },
-    {
-      "id": "nos-us",
-      "rank": 65,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "nos",
-      "en": "she sees [us]",
-      "hint": "object pronoun before the verb, not nosotros",
-      "grammar": null,
-      "example": {
-        "es": "Mi mamá nos llama todos los días.",
-        "en": "My mom calls us every day."
-      },
-      "spain": null,
-      "trick": "NOS sounds like nose: they always poke their nose into our business, bothering us.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/nos-us.word.mp3",
-        "sentence": "/deck/audio/nos-us.sentence.mp3"
-      }
-    },
-    {
-      "id": "nos-each-other",
-      "rank": 65,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "nos",
-      "en": "we love [each other]",
-      "hint": "reflexive or reciprocal, also ourselves",
-      "grammar": null,
-      "example": {
-        "es": "Nos vemos mañana en la escuela.",
-        "en": "We'll see each other tomorrow at school."
-      },
-      "spain": null,
-      "trick": "NOS sounds like nose: we rub noses with each other to say hello.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/nos-each-other.word.mp3",
-        "sentence": "/deck/audio/nos-each-other.sentence.mp3"
-      }
-    },
-    {
-      "id": "nada-nothing",
-      "rank": 66,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "nada",
-      "en": "I have [nothing]",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "No pasa nada, tranquilo.",
-        "en": "It's nothing, relax."
-      },
-      "spain": null,
-      "trick": "NADA sounds like 'not a' thing: there is not a thing there, nothing at all.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/nada-nothing.word.mp3",
-        "sentence": "/deck/audio/nada-nothing.sentence.mp3"
-      }
-    },
-    {
-      "id": "como-how",
-      "rank": 67,
-      "kind": "glue",
-      "pos": "adverb",
-      "es": "cómo",
-      "en": "[How] are you?",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "¿Cómo se llama tu hermano?",
-        "en": "What's your brother's name?"
-      },
-      "spain": null,
-      "trick": "CÓMO sounds like \"come, oh?\": you ask how someone will come over.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/como-how.word.mp3",
-        "sentence": "/deck/audio/como-how.sentence.mp3"
-      }
-    },
-    {
-      "id": "o-or",
-      "rank": 69,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "o",
-      "en": "coffee [or] tea",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "¿Quieres café o té?",
-        "en": "Do you want coffee or tea?"
-      },
-      "spain": null,
-      "trick": "O is the round shape of a fork in the road: you go one way or the other.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/o-or.word.mp3",
-        "sentence": "/deck/audio/o-or.sentence.mp3"
-      }
-    },
-    {
-      "id": "otro-other",
-      "rank": 70,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "otro",
-      "en": "[another] coffee, please",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Quiero otro café, por favor.",
-        "en": "I want another coffee, please."
-      },
-      "spain": null,
-      "trick": "OTRO sounds like \"other row\": when one row is full, you sit in the other row.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/otro-other.word.mp3",
-        "sentence": "/deck/audio/otro-other.sentence.mp3"
-      }
-    },
-    {
-      "id": "ella-she",
-      "rank": 72,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "ella",
-      "en": "[she] is my friend",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Ella vive cerca de mi casa.",
-        "en": "She lives near my house."
-      },
-      "spain": null,
-      "trick": "ELLA sounds like Ella, a girl's name, and Ella is always a she.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/ella-she.word.mp3",
-        "sentence": "/deck/audio/ella-she.sentence.mp3"
-      }
-    },
-    {
-      "id": "porque-because",
-      "rank": 78,
-      "kind": "glue",
-      "pos": "conjunction",
-      "es": "porque",
-      "en": "I'm eating [because] I'm hungry",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "No voy porque estoy cansado.",
-        "en": "I'm not going because I'm tired."
-      },
-      "spain": null,
-      "trick": "PORQUE sounds like \"poor case\": you lost the case because your lawyer was poor.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/porque-because.word.mp3",
-        "sentence": "/deck/audio/porque-because.sentence.mp3"
-      }
-    },
-    {
-      "id": "nuestro-our",
-      "rank": 81,
-      "kind": "glue",
-      "pos": "determiner",
-      "es": "nuestro",
-      "en": "[our] dog",
-      "hint": null,
-      "grammar": null,
-      "example": {
-        "es": "Nuestro perro duerme en el sofá.",
-        "en": "Our dog sleeps on the sofa."
-      },
-      "spain": null,
-      "trick": "NUESTRO sounds like \"new stereo\": our new stereo belongs to all of us.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/nuestro-our.word.mp3",
-        "sentence": "/deck/audio/nuestro-our.sentence.mp3"
-      }
-    },
-    {
-      "id": "usted-you-formal",
-      "rank": 84,
-      "kind": "glue",
-      "pos": "pronoun",
-      "es": "usted",
-      "en": "Are [you] the doctor?",
-      "hint": "formal, one person",
-      "grammar": null,
-      "example": {
-        "es": "¿Usted es el doctor?",
-        "en": "Are you the doctor?"
-      },
-      "spain": null,
-      "trick": "USTED sounds like \"you steady\": you speak steady and polite to a respected person.",
-      "image": null,
-      "audio": {
-        "word": "/deck/audio/usted-you-formal.word.mp3",
-        "sentence": "/deck/audio/usted-you-formal.sentence.mp3"
+        "word": "/deck/audio/hola-hello.word.941dae82.mp3",
+        "sentence": "/deck/audio/hola-hello.sentence.86ac7fdf.mp3"
       }
     }
   ]

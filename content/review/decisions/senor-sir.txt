@@ -12,7 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         senor-sir
 kind:       content
@@ -22,8 +22,8 @@ en:         sir, Mr.
 hint:       polite title or word for a man; feminine señora
 gender:     m
 article:    el
-example.es: Buenos días, señor. ¿Le puedo ayudar?
-example.en: Good morning, sir. Can I help you?
+example.es: El señor López vive en mi calle.
+example.en: Mr. López lives on my street.
 spain:
 trick:      SEÑOR sounds like senior: you call an older, respected man sir.
 

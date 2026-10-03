@@ -11,7 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         estar-be-state
 kind:       content
@@ -23,8 +23,8 @@ yo:         estoy
 tu:         estás
 el:         está
 irregular:  yes
-example.es: ¿Dónde estás? Estoy muy cansado.
-example.en: Where are you? I'm really tired.
+example.es: Estoy en casa y muy cansado.
+example.en: I'm at home and really tired.
 spain:
 trick:      ESTAR sounds like "a star": a star is always somewhere in the sky, shining bright or dim depending on its state.
 

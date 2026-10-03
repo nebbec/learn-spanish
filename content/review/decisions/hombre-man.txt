@@ -12,7 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         hombre-man
 kind:       content
@@ -25,7 +25,7 @@ article:    el
 example.es: Ese hombre es mi tío.
 example.en: That man is my uncle.
 spain:
-trick:      HOMBRE sounds like "hombre-ombre", like a man's deep voice humming "hum-bray" as he walks into the room.
+trick:      HOMBRE sounds like "OM-bray": picture a man chanting a deep "om" as he walks into the room (the h is silent).
 
 # The draft this file was made from. Do not change it.
 draft: 634e3aa5b3e7543e

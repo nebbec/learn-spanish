@@ -11,14 +11,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         a-to
 kind:       glue
 pos:        preposition
 es:         a
 en:         I go [to] Mexico
-hint:       direction, movement
+hint:       destination of movement
 example.es: Mañana voy a la playa.
 example.en: Tomorrow I'm going to the beach.
 spain:

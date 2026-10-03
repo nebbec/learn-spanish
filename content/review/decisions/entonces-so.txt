@@ -12,14 +12,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         entonces-so
 kind:       content
 pos:        adverb
 es:         entonces
 en:         so
-hint:       one word, to draw a conclusion or move on, not tan
+hint:       one word, to draw a conclusion or move on, not pues or tan
 example.es: Entonces, ¿vienes o no?
 example.en: So, are you coming or not?
 spain:

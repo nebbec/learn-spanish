@@ -11,7 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         haber-have-auxiliary
 kind:       content
@@ -23,8 +23,8 @@ yo:         he
 tu:         has
 el:         ha
 irregular:  yes
-example.es: ¿Ya has comido?
-example.en: Have you eaten yet?
+example.es: Nunca he estado en México.
+example.en: I've never been to Mexico.
 spain:
 trick:      HABER sounds like have-er: it's the helper that turns eaten into have eaten.
 

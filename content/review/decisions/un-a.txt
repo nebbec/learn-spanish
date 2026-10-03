@@ -12,18 +12,18 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         un-a
 kind:       glue
 pos:        determiner
 es:         un
 en:         I want [a] book
-hint:       masculine form
+hint:
 example.es: Tengo un perro y una gata.
 example.en: I have a dog and a cat.
 spain:
-trick:      UN sounds like the start of "an": just drop the a and you have it.
+trick:      UN sounds like oon, a short form of uno (one), so un libro is one book, a book.
 
 # The draft this file was made from. Do not change it.
 draft: 771b88fea8f5c7ad
