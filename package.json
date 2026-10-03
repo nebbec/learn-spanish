@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check:rls": "node --env-file=.env.local scripts/check-rls.mjs"
+    "check:rls": "node --env-file=.env.local scripts/check-rls.mjs",
+    "check:signin": "node --env-file=.env.local scripts/check-signin.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
