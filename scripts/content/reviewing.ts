@@ -18,14 +18,15 @@ import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import type { DraftCard } from "@/lib/deck/types";
+import { PHRASE_ID } from "@/lib/deck/validate";
 import type { CallUsage, Effort, Runner } from "./claude";
-import { DraftStore, formatDuration, slug, writeJson } from "./drafting";
+import { DraftStore, formatDuration, slug, writeJson, type GroupKind } from "./drafting";
 
 /** The reviewer's checks, in the order it answers them. */
 export const CHECKS = ["meaning", "oneAnswer", "grammar", "usage", "example", "trick"] as const;
 export type CheckName = (typeof CHECKS)[number];
 /** Why a card is flagged: one of the reviewer's checks, or one the script makes itself. */
-export type Reason = CheckName | "id" | "deck";
+export type Reason = CheckName | "id" | "deck" | "words";
 
 export const REASON_LABELS: Record<Reason, string> = {
   meaning: "Meaning",
@@ -36,6 +37,7 @@ export const REASON_LABELS: Record<Reason, string> = {
   trick: "Memory trick",
   id: "Card id",
   deck: "Clash with another card",
+  words: "Words outside the top 1,000",
 };
 
 /** Words that follow the word in an id: one to three, naming the meaning. */
@@ -47,8 +49,15 @@ const MAX_MEANING_WORDS = 3;
  * (`estar-be-state`). An id another word already held when it was drafted has
  * that word's rank at the end (`que-what-16`). Returns what is wrong, or null.
  */
-export function idProblem(id: string, word: string, rank: number): string | null {
+export function idProblem(id: string, word: string, rank: number, kind?: GroupKind): string | null {
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) return "must be lower-case a-z and 0-9 words joined by single hyphens";
+  // A form card's id is its verb's, then -form- and the person (haber's only card is haber-form-hay).
+  if (kind === "form") {
+    const verb = slug(word);
+    const ok = verb === "haber" ? id === "haber-form-hay" : new RegExp(`^${verb}-form-(yo|tu|el)$`).test(id);
+    return ok ? null : verb === "haber" ? 'must be "haber-form-hay"' : `must be "${verb}-form-" and yo, tu or el`;
+  }
+  if (kind === "phrase") return PHRASE_ID.test(id) ? null : 'must be "phrase-" and one to four English words';
   const prefix = `${slug(word)}-`;
   if (!id.startsWith(prefix)) return `must start with "${prefix}" and then name the meaning`;
   let meaning = id.slice(prefix.length).split("-");
@@ -67,22 +76,24 @@ export const REVIEW_SYSTEM_PROMPT = `You check flashcards for an app that teache
 How a card works
 - The learner sees the English prompt (en) with its hint, recalls the Spanish answer (es), then sees the answer with its grammar, the example sentence, the Spain alternative and the memory trick, and rates their own recall. So every prompt must have exactly one right Spanish answer.
 - kind "content": en is plain English ("to go", "house", "good"); verbs start with "to". kind "glue": a function word (article, preposition, conjunction, pronoun, determiner, a particle such as se or lo); en is a short English phrase with the target in square brackets ("the house [of] Maria"), and when English has no word for it, the hint says what to recall.
+- kind "form": one present-tense form of a core irregular verb. en is an English subject and verb ("I am", "you are", "he / she is", "there is / there are"), es is that one form ("soy"), and grammar is the verb's whole present-tense strip, in which es must be the form for the card's person (yo, tú or él; haber's card is hay). A "you" prompt is tú and says informal in its hint, since usted takes the él form.
+- kind "phrase": a whole phrase or short sentence a beginner says as one piece ("How are you?", "I'm from Mexico"). en is its English, es its natural Latin American Spanish with accents and ¿ ? ¡ ! as needed, and grammar is null.
 - hint: there when the bare prompt would have more than one right answer, and then it must rule the others out. A hint the prompt does not strictly need is harmless and is never a reason to fail a check.
-- es: the dictionary form (infinitive, masculine singular, singular noun). A noun starts with its definite article ("la casa", "el agua").
+- es: the dictionary form (infinitive, masculine singular, singular noun), except on a form card (one form) and a phrase card (the whole phrase). A noun starts with its definite article ("la casa", "el agua").
 - grammar: a noun has gender and article; an adjective its feminine singular; a verb its present-tense yo, tú and él forms and irregular, which is true when the verb is irregular in the present or the preterite, stem changes included. Other parts of speech have none.
 - example: one short, natural sentence using the word in this card's meaning (a verb conjugated, not the infinitive), with its English translation.
 - spain: the word Spain uses instead for this meaning when it differs noticeably, else null.
-- trick: one English sentence linking the sound of the Spanish word to its meaning.
+- trick: one English sentence linking the sound of the Spanish word to its meaning. A form or phrase card may have none (null).
 
 How to check
 First translate back, before you judge anything: write what es means in English on its own, as a good learner's dictionary would give it for this part of speech, and translate the Spanish example sentence into English yourself.
 Then judge each area. ok is true when it is right. When it is not, problem is one sentence saying what is wrong, and fix is the corrected text (name the field: "en: ...", "example.es: ..."), or null when you cannot say.
 - meaning: your back-translation of es agrees with the prompt and hint; the meaning is a common one a beginner needs; kind and part of speech fit it.
 - oneAnswer: someone who knows Spanish well would give exactly this es for this prompt and hint, and no other common Spanish word, and none of the word's other cards, would also be right. A hint that is wrong or misleading, or that leaves more than one right answer, fails this check. A hint that is right but not needed does not: pass the check and say so in note.
-- grammar: the article and gender, the feminine form, the three present-tense forms and the irregular flag are right; es is in dictionary form.
+- grammar: the article and gender, the feminine form, the three present-tense forms and the irregular flag are right; es is in dictionary form. On a form card, es is the strip's form for the prompt's person; on a phrase card, the phrase is grammatical (agreement, verb endings, word order).
 - usage: the word and the sentence are what Latin American speakers say, in the tú register; spain is right (null when Spain says the same, filled when it noticeably differs).
 - example: the sentence is natural and short, uses es in this card's meaning, conjugates a verb, and its English translation is right and agrees with yours.
-- trick: it is in English and says nothing false about the Spanish word or its meaning. A weak pun is fine.
+- trick: it is in English and says nothing false about the Spanish word or its meaning. A weak pun is fine. A null trick on a form or phrase card passes.
 Last, note is one sentence for anything worth telling the editor that is not a problem, such as a hint the prompt does not need, or null when there is nothing. A note never fails a check.
 
 Every text field is one line of plain text, with no Markdown.`;
@@ -93,13 +104,17 @@ function shownCard(card: DraftCard) {
   return { kind, pos, es, en, hint, grammar, example, spain, trick };
 }
 
-export function reviewPrompt(card: DraftCard, word: { rank: number; word: string }, others: DraftCard[]): string {
+export function reviewPrompt(card: DraftCard, word: Pick<DraftedWord, "rank" | "word" | "kind">, others: DraftCard[]): string {
   const prompt = (c: DraftCard) => (c.hint ? `"${c.en}" (hint: ${c.hint})` : `"${c.en}"`);
+  const [about, owner, only] =
+    word.kind === "form"
+      ? [`A form card of the verb ${word.word}, rank ${word.rank} in a frequency list made from film and TV subtitles: one present-tense form, recalled from its English.`, "verb's other form cards", "verb's only form card"]
+      : word.kind === "phrase"
+        ? [`A phrase card of the starter path's unit ${word.word}, recalled whole from its English.`, "unit's other phrase cards", "unit's only phrase card"]
+        : [`Word: ${word.word}, rank ${word.rank} in a frequency list made from film and TV subtitles.`, "word's other cards", "word's only card"];
   return [
-    `Word: ${word.word}, rank ${word.rank} in a frequency list made from film and TV subtitles.`,
-    others.length
-      ? `The word's other cards ask: ${others.map(prompt).join("; ")}.`
-      : "This is the word's only card.",
+    about,
+    others.length ? `The ${owner} ask: ${others.map(prompt).join("; ")}.` : `This is the ${only}.`,
     "",
     "The card:",
     JSON.stringify(shownCard(card), null, 2),
@@ -183,8 +198,13 @@ export interface Review {
 /** A word as content/drafts/words/<rank>.json holds it. */
 export interface DraftedWord {
   rank: number;
+  /** The word; a form group's verb; a phrase group's unit id. */
   word: string;
   cards: string[];
+  /** Set on the learning path's groups (L3): a verb's form cards, or a unit's phrase cards. */
+  kind?: GroupKind;
+  /** A phrase group's words outside the top 1,000, by card id. Never printed. */
+  outside?: Record<string, string[]>;
 }
 
 /** The drafted words in a range of ranks, in rank order. */
@@ -194,6 +214,49 @@ export function draftedWords(drafts: DraftStore, from = 1, to = Number.MAX_SAFE_
     .map((f) => JSON.parse(readFileSync(path.join(drafts.wordsDir, f), "utf8")) as DraftedWord)
     .filter((w) => w.rank >= from && w.rank <= to)
     .sort((a, b) => a.rank - b.rank);
+}
+
+const readJsonDir = (dir: string) =>
+  existsSync(dir)
+    ? readdirSync(dir)
+        .filter((f) => f.endsWith(".json"))
+        .sort()
+        .map((f) => JSON.parse(readFileSync(path.join(dir, f), "utf8")) as Record<string, unknown>)
+    : [];
+
+/** The verbs whose form cards are drafted, in rank order: one group per verb. */
+export function draftedForms(drafts: DraftStore, verbs?: string[]): DraftedWord[] {
+  return readJsonDir(drafts.formsDir)
+    .map((g) => ({ kind: "form" as const, rank: g.rank as number, word: g.word as string, cards: g.cards as string[] }))
+    .filter((g) => !verbs || verbs.includes(g.word))
+    .sort((a, b) => a.rank - b.rank || a.word.localeCompare(b.word));
+}
+
+/**
+ * The drafted phrase cards, one group per unit in plan order (each phrase file keeps its place in the plan as
+ * `order`), so the reviewer sees the unit's other phrases. A group's rank is its highest card's.
+ */
+export function draftedPhrases(drafts: DraftStore, units?: string[]): DraftedWord[] {
+  const files = readJsonDir(drafts.phrasesDir)
+    .filter((g) => !units || units.includes(g.unit as string))
+    .sort((a, b) => (a.order as number) - (b.order as number));
+  const groups = new Map<string, DraftedWord>();
+  for (const g of files) {
+    const unit = g.unit as string;
+    const group = groups.get(unit) ?? { kind: "phrase" as const, rank: 0, word: unit, cards: [], outside: {} };
+    groups.set(unit, group);
+    group.rank = Math.max(group.rank, g.rank as number);
+    for (const id of g.cards as string[]) {
+      group.cards.push(id);
+      if ((g.outside as string[] | undefined)?.length) group.outside![id] = g.outside as string[];
+    }
+  }
+  return [...groups.values()];
+}
+
+/** Every drafted group: the words, then the verbs' form cards, then the units' phrase cards. */
+export function allDrafted(drafts: DraftStore): DraftedWord[] {
+  return [...draftedWords(drafts), ...draftedForms(drafts), ...draftedPhrases(drafts)];
 }
 
 export function readDraftCard(drafts: DraftStore, id: string): DraftCard | null {
@@ -232,10 +295,18 @@ export class ReviewStore {
 }
 
 /** The script's own checks on one card: the id rule, and what the deck validator found among all drafts. */
-export function scriptFindings(card: DraftCard, word: string, deckProblems: string[]): Finding[] {
+export function scriptFindings(card: DraftCard, word: DraftedWord, deckProblems: string[]): Finding[] {
   const findings: Finding[] = [];
-  const id = idProblem(card.id, word, card.rank);
+  const id = idProblem(card.id, word.word, card.rank, word.kind);
   if (id) findings.push({ reason: "id", problem: `The id ${id}.`, fix: null });
+  const outside = word.outside?.[card.id] ?? [];
+  if (outside.length) {
+    findings.push({
+      reason: "words",
+      problem: `The phrase uses ${outside.join(", ")}, not among the 1,000 most common words.`,
+      fix: null,
+    });
+  }
   const fields = deckProblems.filter((p) => p.startsWith(`${card.id}.`)).map((p) => p.slice(card.id.length + 1));
   if (fields.length) {
     findings.push({
@@ -364,10 +435,11 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
 
       if (guarded?.ok) {
         failsInARow = 0;
-        const findings = [...guarded.answer.findings, ...scriptFindings(card, word.word, deckProblems)];
+        const findings = [...guarded.answer.findings, ...scriptFindings(card, word, deckProblems)];
         store.save({
           id: card.id,
-          rank: word.rank,
+          // A phrase group's rank is its highest card's; each card keeps its own.
+          rank: card.rank,
           word: word.word,
           draft: cardHash(card),
           flagged: findings.length > 0,

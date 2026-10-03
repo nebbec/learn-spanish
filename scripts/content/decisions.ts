@@ -14,8 +14,8 @@ import path from "node:path";
 import type { DraftCard } from "@/lib/deck/types";
 import { type DraftStore, withMedia } from "./drafting";
 import {
+  allDrafted,
   cardHash,
-  draftedWords,
   readDraftCard,
   REASON_LABELS,
   type Finding,
@@ -128,7 +128,7 @@ function yesNo(value: string): unknown {
 
 /**
  * The card a decision file describes: the draft's fields, replaced by the
- * file's lines. Media paths follow the (possibly corrected) id. Not validated.
+ * file's lines. Media paths follow the (possibly corrected) id; a form card keeps its verb's image. Not validated.
  */
 export function cardFromDecision(draft: DraftCard, fields: Map<string, string>): unknown {
   const values = new Map(cardLines(draft));
@@ -155,6 +155,7 @@ export function cardFromDecision(draft: DraftCard, fields: Map<string, string>):
     example: { es: get("example.es"), en: get("example.en") },
     spain: get("spain") || null,
     trick: get("trick") || null,
+    image: draft.image,
   });
 }
 
@@ -184,7 +185,7 @@ export interface FlaggedCard {
 export function flaggedCards(drafts: DraftStore, store: ReviewStore): { cards: FlaggedCard[]; reset: string[] } {
   const cards: FlaggedCard[] = [];
   const reset: string[] = [];
-  for (const word of draftedWords(drafts)) {
+  for (const word of allDrafted(drafts)) {
     for (const id of word.cards) {
       const card = readDraftCard(drafts, id);
       const review = store.get(id);

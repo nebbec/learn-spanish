@@ -19,7 +19,7 @@ import { learnQueue } from "@/lib/queues";
 import { audioPaths } from "./audio.mjs";
 import { cardFromDecision, readDecision } from "./decisions";
 import type { DraftStore } from "./drafting";
-import { cardHash, draftedWords, idProblem, readDraftCard, type ReviewStore } from "./reviewing";
+import { allDrafted, cardHash, idProblem, readDraftCard, type ReviewStore } from "./reviewing";
 
 export interface DeckBuild {
   /** The deck to write, or null when it must not be written (see `problems` and `dropped`). */
@@ -94,7 +94,7 @@ export function buildDeck(
   /** Every drafted card, waiting ones included: they fix which cards are the first `size`. */
   const drafted: Card[] = [];
 
-  for (const word of draftedWords(drafts)) {
+  for (const word of allDrafted(drafts)) {
     for (const id of word.cards) {
       const draft = readDraftCard(drafts, id);
       if (!draft) continue;
@@ -125,7 +125,7 @@ export function buildDeck(
       const card = cardFromDecision(draft, decision.fields);
       const validation = validateDraftCard(card);
       const fields = validation.ok ? [] : validation.errors.map((e) => e.replace(/^card [^.:]*\.?/, "").split(":")[0] || "card");
-      if (idProblem(String((card as { id: unknown }).id), word.word, word.rank)) fields.push("id");
+      if (idProblem(String((card as { id: unknown }).id), word.word, word.rank, word.kind)) fields.push("id");
       if (fields.length) {
         build.problems.push(`${id}: ${[...new Set(fields)].join(", ")}`);
         continue;

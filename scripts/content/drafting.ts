@@ -10,8 +10,8 @@
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { ARTICLES, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard } from "@/lib/deck/types";
-import { validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
-import type { CallUsage, Effort, Runner } from "./claude";
+import { FORM_ID, PHRASE_ID, validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
+import type { CallUsage, DraftRequest, Effort, Runner } from "./claude";
 
 export interface WordEntry {
   rank: number;
@@ -143,7 +143,7 @@ const QUOTE_PAIRS: Array<[string, string]> = [
 ];
 
 /** Collects the names of the fields that fail, never their contents. */
-class Guard {
+export class Guard {
   fields = new Set<string>();
 
   fail(field: string) {
@@ -175,11 +175,14 @@ class Guard {
   }
 }
 
-/** Media paths follow the id. The image extension is a placeholder until F2; the deck build replaces the audio paths with G2's. */
-export function withMedia<T extends { id: string; kind: unknown }>(card: T) {
+/**
+ * Media paths follow the id. The image extension is a placeholder until F2; the deck build replaces the audio paths
+ * with G2's. A form card keeps the image it is given: its verb's still.
+ */
+export function withMedia<T extends { id: string; kind: unknown; image?: string | null }>(card: T) {
   return {
     ...card,
-    image: card.kind === "content" ? `/deck/img/${card.id}.webp` : null,
+    image: card.kind === "content" ? `/deck/img/${card.id}.webp` : card.kind === "form" ? (card.image ?? null) : null,
     audio: { word: `/deck/audio/${card.id}.word.mp3`, sentence: `/deck/audio/${card.id}.sentence.mp3` },
   };
 }
@@ -221,14 +224,25 @@ function buildCard(raw: unknown, entry: WordEntry, g: Guard): DraftCard {
     spain: g.optional(r.spain, "spain"),
     trick: g.text(r.trick, "trick"),
   });
+  guardValid(card, g);
+  return card as DraftCard;
+}
+
+/** Runs the deck validator on one drafted card and adds the failing field names to the guard. */
+export function guardValid(card: { id: string }, g: Guard) {
   const validation = validateDraftCard(card);
   for (const error of validation.ok ? [] : validation.errors) {
     // Errors read "card <id>.<field>: <message>"; keep only the field.
-    const rest = error.slice(`card ${id}`.length);
+    const rest = error.slice(`card ${card.id}`.length);
     g.fail(rest.startsWith(".") ? rest.slice(1, rest.indexOf(":")) : "card");
   }
-  return card as DraftCard;
 }
+
+/** A form or phrase card's id: these belong to a group file, not to the word that shares their rank. */
+export const isPathId = (id: string) => FORM_ID.test(id) || PHRASE_ID.test(id);
+
+/** The kinds of group file the learning path adds beside the word files (L3). */
+export type GroupKind = "form" | "phrase";
 
 export type Guarded =
   | { ok: true; cards: DraftCard[]; skip: Skip | null }
@@ -260,6 +274,10 @@ export function guardDraft(output: unknown, entry: WordEntry): Guarded {
 export class DraftStore {
   readonly cardsDir: string;
   readonly wordsDir: string;
+  /** One file per verb whose form cards are drafted: `forms/<verb>.json`. */
+  readonly formsDir: string;
+  /** One file per drafted phrase card: `phrases/<id>.json`. */
+  readonly phrasesDir: string;
   readonly failedDir: string;
   readonly logFile: string;
   /** Every card file on disk: id to rank. */
@@ -268,6 +286,8 @@ export class DraftStore {
   constructor(readonly dir: string) {
     this.cardsDir = path.join(dir, "cards");
     this.wordsDir = path.join(dir, "words");
+    this.formsDir = path.join(dir, "forms");
+    this.phrasesDir = path.join(dir, "phrases");
     this.failedDir = path.join(dir, ".failed");
     this.logFile = path.join(dir, "usage.jsonl");
     mkdirSync(this.cardsDir, { recursive: true });
@@ -297,7 +317,8 @@ export class DraftStore {
    */
   saveWord(entry: WordEntry, cards: DraftCard[], skip: Skip | null, meta: Rec): string[] {
     for (const [id, rank] of this.index) {
-      if (rank !== entry.rank) continue;
+      // Form and phrase cards share ranks with words but belong to their group files.
+      if (rank !== entry.rank || isPathId(id)) continue;
       rmSync(path.join(this.cardsDir, `${id}.json`), { force: true });
       this.index.delete(id);
     }
@@ -312,10 +333,41 @@ export class DraftStore {
     return ids;
   }
 
+  groupFile(kind: GroupKind, name: string) {
+    return path.join(kind === "form" ? this.formsDir : this.phrasesDir, `${name}.json`);
+  }
+
+  /** The group file of a verb's form cards or of one phrase card, or null. */
+  readGroup(kind: GroupKind, name: string): Rec | null {
+    const file = this.groupFile(kind, name);
+    return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as Rec) : null;
+  }
+
+  /**
+   * Replaces a group's cards, as `saveWord` does for a word: card files first, the group file last, so an
+   * interrupted group is drafted again. Form and phrase ids are made by the script, so a rerun overwrites them.
+   */
+  saveGroup(kind: GroupKind, name: string, cards: DraftCard[], group: Rec): string[] {
+    const old = this.readGroup(kind, name);
+    const ids = cards.map((c) => c.id);
+    for (const id of Array.isArray(old?.cards) ? (old.cards as string[]) : []) {
+      if (ids.includes(id)) continue;
+      rmSync(path.join(this.cardsDir, `${id}.json`), { force: true });
+      this.index.delete(id);
+    }
+    for (const card of cards) {
+      writeJson(path.join(this.cardsDir, `${card.id}.json`), card);
+      this.index.set(card.id, card.rank);
+    }
+    mkdirSync(path.dirname(this.groupFile(kind, name)), { recursive: true });
+    writeJson(this.groupFile(kind, name), { kind, ...group, cards: ids });
+    return ids;
+  }
+
   /** Keeps an answer the guard refused, for a person to look at. Git ignores this folder. */
-  saveFailed(entry: WordEntry, attempt: number, output: unknown) {
+  saveFailed(name: string, attempt: number, output: unknown) {
     mkdirSync(this.failedDir, { recursive: true });
-    writeJson(path.join(this.failedDir, `${String(entry.rank).padStart(4, "0")}-${attempt}.json`), output);
+    writeJson(path.join(this.failedDir, `${name}-${attempt}.json`), output);
   }
 
   log(line: Rec) {
@@ -371,17 +423,50 @@ export interface DraftSummary {
   elapsedMs: number;
 }
 
+/** One call's worth of drafting: a word, a verb's form cards or a phrase card. */
+export interface DraftTask {
+  /** Printed before the ids or the failure: ranks, words from the list, ids. Never card text. */
+  label: string;
+  /** Already drafted: skipped unless the run redoes. */
+  done: boolean;
+  /** Identifies the task in the usage log (rank and word, or a group's name). */
+  log: Rec;
+  /** The name a refused answer is saved under in `.failed/`. */
+  failedName: string;
+  request: Pick<DraftRequest, "system" | "prompt" | "schema">;
+  guard: (output: unknown) => Guarded;
+  /** Writes the cards and returns their ids. */
+  save: (cards: DraftCard[], skip: Skip | null, meta: Rec) => string[];
+}
+
 export async function draftWords(entries: WordEntry[], options: DraftOptions): Promise<DraftSummary> {
+  const { store } = options;
+  const tasks = entries.map(
+    (entry): DraftTask => ({
+      label: `#${entry.rank} ${entry.word}`,
+      done: store.isDrafted(entry.rank),
+      log: { rank: entry.rank, word: entry.word },
+      failedName: String(entry.rank).padStart(4, "0"),
+      request: { system: SYSTEM_PROMPT, prompt: userPrompt(entry), schema: DRAFT_SCHEMA },
+      guard: (output) => guardDraft(output, entry),
+      save: (cards, skip, meta) => store.saveWord(entry, cards, skip, meta),
+    }),
+  );
+  return runDraftTasks(tasks, options);
+}
+
+/** Runs draft tasks a few at a time, with retries, the usage log and the stop after failures in a row. */
+export async function runDraftTasks(tasks: DraftTask[], options: DraftOptions): Promise<DraftSummary> {
   const { store, runner, via, model, effort, concurrency = 2, retries = 2, redo = false, stopAfter = 4 } = options;
   const print = options.print ?? ((line: string) => console.log(line));
   const sleep = options.sleep ?? ((ms: number) => new Promise<void>((r) => setTimeout(r, ms)));
   const now = options.now ?? Date.now;
   const started = now();
 
-  const todo = entries.filter((e) => redo || !store.isDrafted(e.rank));
+  const todo = tasks.filter((t) => redo || !t.done);
   const summary: DraftSummary = {
-    words: entries.length,
-    alreadyDrafted: entries.length - todo.length,
+    words: tasks.length,
+    alreadyDrafted: tasks.length - todo.length,
     drafted: 0,
     skipped: 0,
     failed: 0,
@@ -407,20 +492,19 @@ export async function draftWords(entries: WordEntry[], options: DraftOptions): P
     summary.costUsd += usage.costUsd ?? 0;
   };
 
-  async function draftOne(entry: WordEntry) {
-    const label = `#${entry.rank} ${entry.word}`;
+  async function draftOne(task: DraftTask) {
+    const { label } = task;
     let lastError = "";
     for (let attempt = 1; attempt <= 1 + retries; attempt++) {
       if (summary.stopped) break;
-      const result = await runner({ system: SYSTEM_PROMPT, prompt: userPrompt(entry), schema: DRAFT_SCHEMA, model, effort });
-      const guarded = result.ok ? guardDraft(result.output, entry) : null;
+      const result = await runner({ ...task.request, model, effort });
+      const guarded = result.ok ? task.guard(result.output) : null;
       const error = !result.ok ? result.error : guarded && !guarded.ok ? guarded.kind : null;
       const fields = guarded && !guarded.ok ? guarded.fields : [];
       count(result.usage);
       store.log({
         at: new Date(now()).toISOString(),
-        rank: entry.rank,
-        word: entry.word,
+        ...task.log,
         attempt,
         via,
         model,
@@ -433,7 +517,7 @@ export async function draftWords(entries: WordEntry[], options: DraftOptions): P
 
       if (guarded?.ok) {
         failsInARow = 0;
-        const ids = store.saveWord(entry, guarded.cards, guarded.skip, {
+        const ids = task.save(guarded.cards, guarded.skip, {
           via,
           model,
           effort,
@@ -453,7 +537,7 @@ export async function draftWords(entries: WordEntry[], options: DraftOptions): P
 
       summary.failedCalls++;
       lastError = fields.length ? `${error}: ${fields.join(", ")}` : String(error);
-      if (result.ok) store.saveFailed(entry, attempt, result.output);
+      if (result.ok) store.saveFailed(task.failedName, attempt, result.output);
       if (++failsInARow >= stopAfter) summary.stopped = true;
       // A refused answer is worth asking again at once; a failed call waits a little first.
       else if (!result.ok && attempt <= retries) await sleep(5_000 * attempt);
@@ -484,18 +568,19 @@ export function formatDuration(ms: number): string {
 }
 
 /** The end-of-run report: counts only. */
-export function formatSummary(s: DraftSummary, via: string): string[] {
+/** `noun` names what was drafted: words, verbs or phrases. */
+export function formatSummary(s: DraftSummary, via: string, noun = "Words"): string[] {
   const reasons = Object.entries(s.skipReasons)
     .map(([reason, count]) => `${reason} ${count}`)
     .join(", ");
   const lines = [
-    `Words: ${s.words} in range, ${s.alreadyDrafted} already drafted; this run drafted ${s.drafted}, skipped ${s.skipped}${reasons ? ` (${reasons})` : ""}, failed ${s.failed}${s.notRun ? `, not run ${s.notRun}` : ""}`,
-    `Cards: ${s.cards} (${s.drafted ? (s.cards / s.drafted).toFixed(2) : "0"} per drafted word)`,
+    `${noun}: ${s.words} in range, ${s.alreadyDrafted} already drafted; this run drafted ${s.drafted}, skipped ${s.skipped}${reasons ? ` (${reasons})` : ""}, failed ${s.failed}${s.notRun ? `, not run ${s.notRun}` : ""}`,
+    `Cards: ${s.cards} (${s.drafted ? (s.cards / s.drafted).toFixed(2) : "0"} per drafted ${noun.toLowerCase().replace(/s$/, "")})`,
     `Calls: ${s.calls} (${s.failedCalls} failed), ${formatDuration(s.elapsedMs)}`,
     `Tokens: input ${n(s.tokens.input)}, output ${n(s.tokens.output)}, cache read ${n(s.tokens.cacheRead)}, cache write ${n(s.tokens.cacheWrite)}`,
     `Notional API cost: $${s.costUsd.toFixed(2)}${via === "cli" ? " (what the API would charge; the plan is not charged it)" : ""}`,
   ];
   if (s.stopped) lines.push("Stopped early: too many failed calls in a row. Rerun the same command to resume.");
-  else if (s.failed) lines.push("Rerun the same command to retry the failed words.");
+  else if (s.failed) lines.push(`Rerun the same command to retry the failed ${noun.toLowerCase()}.`);
   return lines;
 }

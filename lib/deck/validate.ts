@@ -7,9 +7,9 @@ export type Validation<T> = { ok: true; value: T } | { ok: false; errors: string
 
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 /** `<verb>-form-<yo|tu|el>`, or `haber-form-hay`. */
-const FORM_ID = /^(?:[a-z]+-form-(yo|tu|el)|haber-form-hay)$/;
+export const FORM_ID = /^(?:[a-z]+-form-(yo|tu|el)|haber-form-hay)$/;
 /** `phrase-` and one to four English words. */
-const PHRASE_ID = /^phrase(-[a-z0-9]+){1,4}$/;
+export const PHRASE_ID = /^phrase(-[a-z0-9]+){1,4}$/;
 const TIP_ID = /^tip(-[a-z0-9]+)+$/;
 const BRACKETED = /\[[^\[\]]+\]/g;
 
