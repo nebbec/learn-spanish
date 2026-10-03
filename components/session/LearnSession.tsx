@@ -20,13 +20,24 @@ export interface LearnSessionProps {
   batchSize?: number;
   /** Called as each batch after the first starts, once the ratings of the one before are stored. */
   onBatchStart?: () => void;
+  /** Called as each batch ends, once its ratings are stored. */
+  onBatchEnd?: () => void;
   /** Defaults to the app's shared store. Tests pass their own. */
   store?: SessionStore & ExtrasStore;
   clock?: () => number;
 }
 
 /** Learn: unseen cards in batches, most common first, until none are left. */
-export function LearnSession({ cards, states, onExit, batchSize, onBatchStart, store, clock }: LearnSessionProps) {
+export function LearnSession({
+  cards,
+  states,
+  onExit,
+  batchSize,
+  onBatchStart,
+  onBatchEnd,
+  store,
+  clock,
+}: LearnSessionProps) {
   // Each batch is cut fresh from the cards still unseen when it starts.
   const [round, setRound] = useState(() => ({ number: 0, states, batch: learnBatch(cards, states, batchSize) }));
 
@@ -58,6 +69,7 @@ export function LearnSession({ cards, states, onExit, batchSize, onBatchStart, s
       store={store}
       clock={clock}
       onExit={onExit}
+      onFinish={onBatchEnd}
       onAnother={(next) => {
         setRound({ number: round.number + 1, states: next, batch: learnBatch(cards, next, batchSize) });
         onBatchStart?.();
@@ -73,10 +85,11 @@ interface LearnBatchProps {
   store?: SessionStore & ExtrasStore;
   clock?: () => number;
   onExit: () => void;
+  onFinish?: () => void;
   onAnother: (states: CardStates) => void;
 }
 
-function LearnBatch({ cards, batch, states, store, clock, onExit, onAnother }: LearnBatchProps) {
+function LearnBatch({ cards, batch, states, store, clock, onExit, onFinish, onAnother }: LearnBatchProps) {
   const session = useSession({
     cards: batch,
     section: "learn",
@@ -87,7 +100,7 @@ function LearnBatch({ cards, batch, states, store, clock, onExit, onAnother }: L
   });
 
   return (
-    <SessionView session={session} store={store} onClose={session.finished ? undefined : onExit}>
+    <SessionView session={session} store={store} onClose={session.finished ? undefined : onExit} onFinish={onFinish}>
       {session.finished && (
         <LearnEnd
           session={session}

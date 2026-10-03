@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Baloo_2, Nunito } from "next/font/google";
 import { KeepMedia, RegisterServiceWorker } from "@/components/pwa";
+import { AutoSync } from "@/components/sync";
 import "./globals.css";
 
 const baloo = Baloo_2({ subsets: ["latin", "latin-ext"], variable: "--font-baloo" });
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <RegisterServiceWorker />
         <KeepMedia />
+        <AutoSync />
       </body>
     </html>
   );

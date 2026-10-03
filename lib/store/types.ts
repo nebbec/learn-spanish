@@ -90,3 +90,9 @@ export interface SyncStateRow {
   /** The server's own marker, passed back unchanged on the next download. */
   cursor: string;
 }
+
+/** The account the synced flags and cursors refer to (D6). Kept in `sync_state` too. */
+export interface SyncAccountRow {
+  key: "account";
+  userId: string;
+}

@@ -8,6 +8,7 @@ import type {
   Report,
   Review,
   ReviewFilter,
+  SyncAccountRow,
   SyncStateRow,
   SyncTable,
   Unsynced,
@@ -21,7 +22,7 @@ class LocalDb extends Dexie {
   card_state!: Table<CardStateRow, string>;
   notes!: Table<Note, string>;
   reports!: Table<Report, string>;
-  sync_state!: Table<SyncStateRow, string>;
+  sync_state!: Table<SyncStateRow | SyncAccountRow, string>;
 
   constructor(name: string, options?: DexieOptions) {
     super(name, options);
@@ -274,7 +275,36 @@ export class LocalStore {
 
   /** Where the last download of this kind of row stopped, or null before the first. */
   async getSyncCursor(table: SyncTable): Promise<string | null> {
-    return (await this.db.sync_state.get(table))?.cursor ?? null;
+    const row = await this.db.sync_state.get(table);
+    return row && "cursor" in row ? row.cursor : null;
+  }
+
+  /** The account this device last synced with, or null before the first sync. */
+  async getSyncAccount(): Promise<string | null> {
+    const row = await this.db.sync_state.get("account");
+    return row && "userId" in row ? row.userId : null;
+  }
+
+  /**
+   * Makes the synced flags and cursors refer to `userId` before a sync. When the
+   * device last synced with another account, every row is marked unsynced and
+   * both cursors are dropped, so the next sync uploads everything on the device
+   * to this account and downloads all of its rows. Nothing is deleted. Returns
+   * true when the rows had been synced with a different account.
+   */
+  async bindSyncAccount(userId: string): Promise<boolean> {
+    const { reviews, notes, reports, sync_state } = this.db;
+    return this.db.transaction("rw", [reviews, notes, reports, sync_state], async () => {
+      const row = await sync_state.get("account");
+      const current = row && "userId" in row ? row.userId : null;
+      if (current === userId) return false;
+      await reviews.where("synced").equals(1).modify({ synced: 0 });
+      await notes.where("synced").equals(1).modify({ synced: 0 });
+      await reports.where("synced").equals(1).modify({ synced: 0 });
+      await sync_state.bulkDelete(["reviews", "notes"]);
+      await sync_state.put({ key: "account", userId });
+      return current !== null;
+    });
   }
 
   // Lifecycle

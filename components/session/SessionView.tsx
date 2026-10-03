@@ -15,6 +15,8 @@ export interface SessionViewProps {
   store?: ExtrasStore;
   /** What to show once every card is rated: the batch-end screen. */
   children: ReactNode;
+  /** Called once when every card is rated and stored. */
+  onFinish?: () => void;
 }
 
 /** The character's answer to a rating. Orange has none. */
@@ -34,8 +36,15 @@ interface Leaving {
  * stays for the length of the jump or droop. The rating is stored straight
  * away; only the change of card waits.
  */
-export function SessionView({ session, onClose, store, children }: SessionViewProps) {
+export function SessionView({ session, onClose, store, children, onFinish }: SessionViewProps) {
   const motion = useMotion();
+  const finish = useRef(onFinish);
+  useEffect(() => {
+    finish.current = onFinish;
+  });
+  useEffect(() => {
+    if (session.finished) finish.current?.();
+  }, [session.finished]);
   const [leaving, setLeaving] = useState<Leaving | null>(null);
   const held = useRef(false);
   const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);

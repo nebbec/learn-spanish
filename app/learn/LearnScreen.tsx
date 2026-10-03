@@ -9,6 +9,7 @@ import type { CardStates } from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
 import { replayReviews } from "@/lib/scheduler";
 import { localStore } from "@/lib/store";
+import { requestSync } from "@/lib/sync";
 
 type Loaded = { status: "loading" } | { status: "failed" } | { status: "ready"; cards: Card[]; states: CardStates };
 
@@ -41,6 +42,7 @@ export function LearnScreen() {
         onExit={() => router.push(ROUTES.menu)}
         // Several batches in one sitting would otherwise outrun the art and audio stored ahead.
         onBatchStart={() => void keepMediaStored()}
+        onBatchEnd={requestSync}
       />
     );
   }

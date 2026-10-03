@@ -28,6 +28,8 @@ export interface PracticeSessionProps {
   onReverseChange?: (reverse: boolean) => void;
   /** Leaves for the menu. */
   onExit: () => void;
+  /** Called as each batch ends, once its ratings are stored. */
+  onBatchEnd?: () => void;
   batchSize?: number;
   /** Defaults to the app's shared store. Tests pass their own. */
   store?: SessionStore & ExtrasStore;
@@ -67,6 +69,7 @@ export function PracticeSession({
   reverse: startsReversed = false,
   onReverseChange,
   onExit,
+  onBatchEnd,
   batchSize = DEFAULT_BATCH_SIZE,
   store,
   clock = Date.now,
@@ -146,6 +149,7 @@ export function PracticeSession({
       store={store}
       clock={clock}
       onExit={onExit}
+      onFinish={onBatchEnd}
       end={{
         title: caughtUp ? "You're all caught up!" : "Batch done!",
         line: caughtUp ? (
@@ -179,11 +183,12 @@ interface PracticeBatchProps {
   store?: SessionStore & ExtrasStore;
   clock: () => number;
   onExit: () => void;
+  onFinish?: () => void;
   onAnother?: (states: CardStates) => void;
   end: { title: string; line: ReactNode; anotherLabel: string; actions: ReactNode };
 }
 
-function PracticeBatch({ batch, states, reverse, store, clock, onExit, onAnother, end }: PracticeBatchProps) {
+function PracticeBatch({ batch, states, reverse, store, clock, onExit, onFinish, onAnother, end }: PracticeBatchProps) {
   const session = useSession({
     cards: batch,
     section: "practice",
@@ -194,7 +199,7 @@ function PracticeBatch({ batch, states, reverse, store, clock, onExit, onAnother
   });
 
   return (
-    <SessionView session={session} store={store} onClose={session.finished ? undefined : onExit}>
+    <SessionView session={session} store={store} onClose={session.finished ? undefined : onExit} onFinish={onFinish}>
       {session.finished && (
         <BatchEnd
           title={end.title}

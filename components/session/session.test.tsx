@@ -47,12 +47,13 @@ function mount(node: React.ReactNode) {
   act(() => root.render(node));
 }
 
-function mountLearn(props: { states?: CardStates; batchSize?: number } = {}) {
+function mountLearn(props: { states?: CardStates; batchSize?: number; onBatchEnd?: () => void } = {}) {
   mount(
     <LearnSession
       cards={cards}
       states={props.states ?? new Map()}
       batchSize={props.batchSize}
+      onBatchEnd={props.onBatchEnd}
       store={store}
       clock={clock}
       onExit={() => (exits += 1)}
@@ -219,6 +220,20 @@ describe("the session screen", () => {
     // The pattern restarts: two content words, then a glue word.
     const second = await studyBatch(() => "good");
     expect(second.map((tap) => tap.cardId)).toEqual(["ahora-now", "tiempo-time", "se-impersonal"]);
+  });
+
+  it("says when each batch ends, after its ratings are stored, so a sync can take them", async () => {
+    const stored: number[] = [];
+    const onBatchEnd = () => void store.getReviews().then((reviews) => stored.push(reviews.length));
+    mountLearn({ batchSize: 2, onBatchEnd });
+    await studyBatch(() => "good");
+    await until(() => stored.length === 1, "the first batch to end");
+    expect(stored).toEqual([2]);
+
+    act(() => q("another-batch")!.click());
+    await studyBatch(() => "good");
+    await until(() => stored.length === 2, "the second batch to end");
+    expect(stored).toEqual([2, 4]);
   });
 
   it("starts from the progress already on the device", async () => {

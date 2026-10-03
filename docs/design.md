@@ -300,7 +300,7 @@ Decided in D2 (logic in `lib/media`, trigger in `components/pwa/KeepMedia.tsx`, 
 | `card_state` | FSRS state per card. A cache derived by replaying forward `reviews` in time order. |
 | `notes` | Card id, text, updated-at, synced flag. |
 | `reports` | Card id, optional comment, created-at, synced flag. |
-| `sync_state` | Added in D5: how far this device has read the server's reviews and notes. |
+| `sync_state` | Added in D5: how far this device has read the server's reviews and notes. D6 adds the account those cursors and the synced flags belong to. |
 
 Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
@@ -342,7 +342,15 @@ Decided in D5 (core in `lib/sync/sync.ts`, the server's interface in `lib/sync/r
 - **Notes**: the server keeps the note with the later `updatedAt`, and on equal times the one it already has. A device takes the server's note unless its own is later. So on a tie the first to upload wins and every device ends on the same text.
 - **Reports only go up.** No device needs another device's reports.
 - **Downloaded reviews keep the device id of the device that made them** and are stored as synced.
-- **Not done**: the synced flags and cursors do not know which account they belong to. Signing out and into a different account on the same device would leave the first account's rows marked as uploaded. D6 has to settle this.
+- **Not done**: the synced flags and cursors do not know which account they belong to. Signing out and into a different account on the same device would leave the first account's rows marked as uploaded. D6 has to settle this. (Settled in D6, below.)
+
+Decided in D6 (server in `lib/sync/supabaseRemote.ts`, triggers and status in `lib/sync/runner.ts` and `components/sync`, check in `scripts/check-sync.live.test.ts`):
+
+- **The device's progress follows the account it syncs with.** `sync_state` also records the account the synced flags and cursors refer to. Before each sync the device compares it with the signed-in account; if they differ, every review, note and report is marked unsynced and both cursors are dropped, so the sync uploads everything on the device to the new account and downloads all of that account's rows. Nothing is deleted, on the device or the server: the first account keeps what it had, and the device ends up holding both. Signing out changes nothing on the device, and signing back into the same account re-uploads nothing. Merging rather than wiping fits an app with one user; separate progress per account on one device would need a database per account and is not built.
+- **When it syncs**: when the app is opened or reloaded, on sign-in and sign-out, when a connection returns, when the app comes back into view, at the end of each Learn and Practice batch (once its ratings are stored), and from "Sync now" in settings. Only while signed in, and not while the browser reports no connection. A request for a sync while one is running does not start a second; the running one goes round once more, so ratings stored after it began still go up.
+- **Pages of 500 rows** on download. The cursor is the last row's `seq` as text; a short page means no more. Uploads use the calls D3 checked.
+- **After a sync that brought in rows** the page fires `learn-spanish:synced` on `window` (the menu reloads its counts on it), and when card state was rebuilt the cards seen elsewhere get their art and audio (`keepMediaStored()`).
+- **Status** has seven phases: unavailable (no Supabase in the build; nothing shown), signed out, not synced yet, syncing, synced (with the time, kept in `localStorage` under `learn-spanish.last-sync` per account), offline and failed, each with the number of changes waiting to upload. A failed request with no answer at all counts as offline; one the server refused is failed. Nothing retries on a timer: the next trigger tries again.
 
 ### Sign-in
 
@@ -501,7 +509,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | D3 | Supabase schema | A1 | Project and keys | Done |
 | D4 | Sign-in | D3 | Email sender | Done except: real emailed code (needs custom SMTP and the code template) |
 | D5 | Sync core | B1, B2 | | Done |
-| D6 | Sync wiring | D4, D5 | Two-device check | Todo |
+| D6 | Sync wiring | D4, D5 | Two-device check | Done except: two-device check on real phones |
 | E1 | Word list | A2 | | Done |
 | E2 | Draft pass | E1 | API key | Todo |
 | E3 | Review pass and deck build | E2 | | Todo |
@@ -653,6 +661,9 @@ Built against the fixture deck.
 **D6 Sync wiring**
 - Build: the Supabase implementation of the D5 interface. Triggers on sign-in, on regaining a connection, after each batch and when the app returns to the foreground. Sync status on the menu and in settings.
 - Done when: ratings made offline on one real device appear on a second after both reconnect.
+- Note (D6): done except the check on two real phones, which is Courtney's (part of H1). Simulated twice against the real project, with throwaway users made and signed in through the secret key's admin API and deleted afterwards (none were left). `npm run check:sync` (4 of 4 pass) runs the app's `SyncRunner` and `SupabaseRemote` for two devices, each a `LocalStore` over its own in-memory IndexedDB and a browser client over its own storage, signed in as one user: both rate the same cards at interleaved times with no connection and write notes (B's later note on the same card), a sync while offline uploads nothing, then after reconnecting both hold the same 11 reviews, the same card state (equal to a replay of all of them) and the same notes, and the server holds 11 reviews, 2 notes and 1 report. A later rating on B reaches A on the next sync, and signing A into a second account uploads everything on A to it while the first account keeps its rows. Then in headless Chromium against `next start`, two browser contexts signed in as one user through the settings page (the code request answered by the script, so no email went out): A studied a whole Learn batch with the browser offline, its menu said "Offline. 12 changes will upload when you reconnect." and the server had nothing; on reconnecting A synced by itself, the server had 12 reviews, and B's menu showed 12 seen. No page errors besides the failed requests while offline.
+- Note (D6): for later tickets: import `requestSync` from `@/lib/sync` to ask for a sync (it never throws), `appSync()` for the runner, and `SYNCED_EVENT` to reload a screen when another device's rows arrive. `LearnSession` and `PracticeSession` gained `onBatchEnd`, and `SessionView` `onFinish`. `AutoSync` sits in the root layout next to `KeepMedia`; `SyncStatusLine` is under the menu's header (passed to `Menu` as `status`) and `SyncPanel` is the "Sync" section under the account in settings. Test ids `sync-status` (with `data-phase`) and `sync-now`. Live checks are `*.live.test.ts` files, left out of `npm test` and run through their npm script, which sets `LIVE_CHECK`.
+- Note (D6): supabase-js may report `SIGNED_IN` again when the app comes back into view, so returning to the app can run two syncs back to back. Each is a few small requests; not worth more code.
 
 ### Track E: content pipeline
 

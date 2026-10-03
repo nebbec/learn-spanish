@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { loadDeck, type Card } from "@/lib/deck";
 import type { CardStates } from "@/lib/queues";
 import { replayReviews, type ReviewEvent } from "@/lib/scheduler";
 import { localStore, type Review } from "@/lib/store";
+import { SYNCED_EVENT } from "@/lib/sync";
 import { Menu } from "./Menu";
 
 type Loaded =
@@ -20,12 +21,14 @@ export interface MenuScreenProps {
   /** Defaults to the deck the app serves. */
   loadCards?: () => Promise<readonly Card[]>;
   clock?: () => number;
+  /** Passed to the menu: the sync status line. */
+  status?: ReactNode;
 }
 
 const loadDeckCards = () => loadDeck().then((deck) => deck.cards);
 
 /** Loads the deck and the progress on this device, then draws the menu. */
-export function MenuScreen({ onNavigate, store, loadCards = loadDeckCards, clock = Date.now }: MenuScreenProps) {
+export function MenuScreen({ onNavigate, store, loadCards = loadDeckCards, clock = Date.now, status }: MenuScreenProps) {
   const [loaded, setLoaded] = useState<Loaded>({ status: "loading" });
 
   useEffect(() => {
@@ -50,10 +53,13 @@ export function MenuScreen({ onNavigate, store, loadCards = loadDeckCards, clock
       if (document.visibilityState === "visible") refresh();
     };
     window.addEventListener("pageshow", refresh);
+    // A sync can bring in reviews from another device.
+    window.addEventListener(SYNCED_EVENT, refresh);
     document.addEventListener("visibilitychange", onVisible);
     return () => {
       cancelled = true;
       window.removeEventListener("pageshow", refresh);
+      window.removeEventListener(SYNCED_EVENT, refresh);
       document.removeEventListener("visibilitychange", onVisible);
     };
   }, [store, loadCards, clock]);
@@ -66,6 +72,7 @@ export function MenuScreen({ onNavigate, store, loadCards = loadDeckCards, clock
         reviews={loaded.reviews}
         now={loaded.now}
         onNavigate={onNavigate}
+        status={status}
       />
     );
   }

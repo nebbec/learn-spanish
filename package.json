@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "check:rls": "node --env-file=.env.local scripts/check-rls.mjs",
-    "check:signin": "node --env-file=.env.local scripts/check-signin.mjs"
+    "check:signin": "node --env-file=.env.local scripts/check-signin.mjs",
+    "check:sync": "LIVE_CHECK=1 node --env-file=.env.local node_modules/vitest/vitest.mjs run scripts/check-sync.live.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

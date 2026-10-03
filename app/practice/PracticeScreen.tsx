@@ -8,6 +8,7 @@ import { parsePracticeParams, practiceHref, type CardStates } from "@/lib/queues
 import { ROUTES } from "@/lib/routes";
 import { replayReviews, type ReviewEvent } from "@/lib/scheduler";
 import { localStore } from "@/lib/store";
+import { requestSync } from "@/lib/sync";
 
 type Loaded =
   | { status: "loading" }
@@ -50,6 +51,7 @@ export function PracticeScreen() {
         reverse={reverse}
         onReverseChange={(next) => window.history.replaceState(null, "", practiceHref({ mode, pos, reverse: next }))}
         onExit={() => router.push(ROUTES.menu)}
+        onBatchEnd={requestSync}
       />
     );
   }

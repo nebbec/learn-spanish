@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DownloadEverything, SignIn } from "@/components/settings";
+import { SyncPanel } from "@/components/sync";
 import { ROUTES } from "@/lib/routes";
 
 export default function SettingsPage() {
@@ -11,7 +12,7 @@ export default function SettingsPage() {
       <h1 className="font-display text-prompt font-bold">Settings</h1>
       <DownloadEverything />
       <SignIn />
-      {/* D6 adds the sync status. */}
+      <SyncPanel />
     </main>
   );
 }

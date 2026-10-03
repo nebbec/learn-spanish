@@ -4,7 +4,7 @@
 // See docs/design.md, "Menu". Presentational: progress in, links out.
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { Wheel } from "@/components/Wheel";
 import type { Card, PartOfSpeech } from "@/lib/deck";
 import { progressStats } from "@/lib/progress";
@@ -23,12 +23,14 @@ export interface MenuProps {
   now: number;
   /** Called with the Practice link for a tapped slice of the wheel. */
   onNavigate: (href: string) => void;
+  /** The sync status line, drawn under the header. */
+  status?: ReactNode;
 }
 
 const optionClass =
   "flex min-h-14 flex-col items-center justify-center rounded-button border-2 border-line bg-surface px-2 py-2 text-center font-bold";
 
-export function Menu({ cards, states, reviews, now, onNavigate }: MenuProps) {
+export function Menu({ cards, states, reviews, now, onNavigate, status }: MenuProps) {
   // Reverse combines with every way into Practice, so it is a switch that changes the links.
   const [reverse, setReverse] = useState(false);
 
@@ -52,6 +54,7 @@ export function Menu({ cards, states, reviews, now, onNavigate }: MenuProps) {
           Settings
         </Link>
       </header>
+      {status}
 
       <section aria-label="Progress" className="flex flex-col items-center gap-1">
         <Wheel stats={stats} onSliceTap={(pos) => onNavigate(href(undefined, pos))} className="w-full" />
