@@ -262,6 +262,13 @@ Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Whe
 - The voice is chosen by a blind listening test on 20 tricky words across candidate providers before generating the rest.
 - Audio plays on button press only.
 
+Decided in G1 (test script `scripts/voice-test.mjs`, with its page `scripts/voice-test.html`):
+
+- **Provider: OpenAI, `gpt-4o-mini-tts`, voice `coral`**, with the instruction to speak neutral Latin American Spanish with a Mexican accent, clearly and at a natural pace, like a teacher reading a vocabulary card (the exact wording is `OPENAI_INSTRUCTIONS` in the script). The key is `OPENAI_API_KEY` in `.env.local`.
+- **Chosen without the blind listening test.** Courtney picked OpenAI as a quick bet and will reconsider if it sounds wrong in real use. The script and its page still run the blind test: it supports Azure, Google Cloud and ElevenLabs as well, each one included once its key is in `.env.local`, so a switch can be tested the same way.
+- **Checked by transcribing back**: the 20 tricky words (perro and pero, y, la calle, México and el examen, el pingüino, el agua and others) and 4 example sentences were generated with the voice and transcribed with `gpt-4o-transcribe`. All 24 came back as their own text; "y" came back as "I", the right sound for the word, not the letter's name. This checks intelligibility, not accent.
+- **Size**: the API's MP3s are 128 kbps, about 24 KB for a word and 53 KB for a sentence, which would make about 77 MB for 1,000 cards against the 30 to 40 MB estimate. G2 has to re-encode them smaller. There is no ffmpeg on Courtney's Mac yet.
+
 ## Offline and sync
 
 The device is the source of truth while studying. Supabase is the backup and the way a second device catches up.
@@ -474,7 +481,7 @@ Each is settled by the ticket named (see [Tickets](#tickets)).
 
 - **Art style and mascot identity** (F1): needs visual exploration.
 - **Mascot animation format** (F3).
-- **Speech provider** (G1): decided by the listening test.
+- **Speech provider** (G1): settled, OpenAI `gpt-4o-mini-tts` with the voice `coral`. See [Audio](#audio).
 - **Service worker library** (D1): settled, none. See [Stack](#stack).
 - **Word list source and lemmatizing method** (E1): settled, OpenSubtitles through FrequencyWords, lemmatized with lemmatization-lists and a Hunspell dictionary. See [Content pipeline](#content-pipeline).
 - **Where media lives at 1,000 cards** (S1): static files in the repo are fine for the first slice (about 8 MB). At an estimated 75 MB, decide between the repo and Supabase Storage before producing the rest.
@@ -556,7 +563,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | F1 | Art style and mascot design | none | Style choice | Todo |
 | F2 | Art script and first stills | F1, E4 | Contact-sheet review | Todo |
 | F3 | Hero mascot animation | F1, C6, C7 | | Todo |
-| G1 | Voice test | none | Listening test, API keys | Todo |
+| G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
 | G2 | Audio script and first clips | G1, E4 | | Todo |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
@@ -751,6 +758,8 @@ Scripts only. Depends on A2 and nothing else in the app.
 **G1 Voice test**
 - Do: generate the same 20 tricky words with each candidate provider. Build a throwaway page that plays them unlabelled. Courtney picks. Record the provider and voice under [Audio](#audio).
 - Done when: the choice is recorded.
+- Note (G1): Courtney chose OpenAI (`gpt-4o-mini-tts`, voice `coral`) without running the blind test, to revisit if it sounds bad in use. The key came from `crossfit_logger`'s `.env.local`. `npm run voice-test` makes the 24 test clips and the page in `content/.cache/voice-test` (not committed); with more provider keys it becomes the blind test. The decision and the measured clip sizes are under [Audio](#audio).
+- Note (G1): for G2: start from `PROVIDERS.openai` and `OPENAI_INSTRUCTIONS` in `scripts/voice-test.mjs`. A single word is spoken with its article as the reveal shows it, and a bare "y" was read correctly. The clips come as 128 kbps MP3 and need re-encoding to fit the estimate.
 
 **G2 Audio script and first clips**
 - Build: a script that generates the word and sentence clips for each card, evens out loudness, encodes them small and can resume. Run it for the first 100 cards.

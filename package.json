@@ -15,7 +15,8 @@
     "check:sync": "LIVE_CHECK=1 node --env-file=.env.local node_modules/vitest/vitest.mjs run scripts/check-sync.live.test.ts",
     "draft": "tsx scripts/content/draft.mts",
     "review": "tsx scripts/content/review.mts",
-    "deck": "tsx scripts/content/build-deck.mts"
+    "deck": "tsx scripts/content/build-deck.mts",
+    "voice-test": "node --env-file-if-exists=.env.local scripts/voice-test.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

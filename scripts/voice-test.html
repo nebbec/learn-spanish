@@ -1,0 +1,188 @@
+<!doctype html>
+<!-- Template for scripts/voice-test.mjs, which puts the clips in place of DATA. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice test</title>
+<style>
+  :root { --paper: #fff8ec; --ink: #2b2340; --soft: #6f6787; --brand: #7a5af8; --line: #e8dfcf; --bad: #e5484d; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.45 system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 96px; }
+  h1 { margin: 0 0 8px; font-size: 28px; }
+  p { margin: 0 0 12px; color: var(--soft); }
+  .item { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin: 16px 0; }
+  .item.done { border-color: var(--brand); }
+  .text { font-size: 24px; font-weight: 700; margin: 0; }
+  .tests { font-size: 14px; color: var(--soft); margin: 2px 0 12px; }
+  .row { display: grid; grid-template-columns: 1fr auto auto; gap: 8px 12px; align-items: center; padding: 6px 0; border-top: 1px solid var(--line); }
+  button { font: inherit; border: 0; border-radius: 999px; padding: 8px 16px; cursor: pointer; }
+  .play { background: var(--paper); color: var(--ink); text-align: left; }
+  .play.on { background: var(--brand); color: #fff; }
+  .all { background: none; color: var(--brand); padding: 4px 0; margin-top: 8px; }
+  label { display: flex; align-items: center; gap: 6px; font-size: 14px; white-space: nowrap; }
+  .who { font-size: 13px; color: var(--brand); font-weight: 600; }
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--ink); color: #fff; padding: 12px 16px; display: flex; gap: 12px; align-items: center; justify-content: center; flex-wrap: wrap; }
+  .bar button { background: var(--brand); color: #fff; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; background: #fff; border-radius: 12px; overflow: hidden; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); font-size: 15px; }
+  textarea { width: 100%; height: 120px; font: 12px ui-monospace, monospace; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Voice test</h1>
+  <p>Each word has one clip per voice, shuffled under the letters so you cannot tell which voice is which. For each word, pick the one you would most like to hear two thousand times, and tick <b>wrong</b> on any that says it wrong. Every clip is played at the same loudness, so a louder voice cannot win on volume.</p>
+  <p>Your answers are kept in this browser until you reveal the voices.</p>
+  <div id="items"></div>
+  <section id="results" hidden>
+    <h2>Results</h2>
+    <table id="tally"></table>
+    <p>Send these to Claude to record the choice:</p>
+    <textarea id="json" readonly></textarea>
+  </section>
+</main>
+<div class="bar"><span id="progress"></span><button id="reveal">Reveal voices</button></div>
+<script>
+const DATA = /*DATA*/null;
+const KEY = "voice-test";
+const LETTERS = "ABCDEFGH";
+
+let state = { best: {}, wrong: {}, revealed: false };
+try { state = { ...state, ...JSON.parse(localStorage.getItem(KEY) || "{}") }; } catch {}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} }
+
+// Playback through Web Audio, with each clip's gain set so its speech sits at the
+// same level: the RMS of its 20 ms windows that are not silence.
+let ctx = null;
+let current = null;
+const decoded = new Map();
+
+async function buffer(src) {
+  if (decoded.has(src)) return decoded.get(src);
+  const bytes = Uint8Array.from(atob(src.split(",")[1]), (c) => c.charCodeAt(0));
+  const buf = await ctx.decodeAudioData(bytes.buffer);
+  const data = buf.getChannelData(0);
+  const win = Math.round(buf.sampleRate * 0.02);
+  let sum = 0, count = 0, peak = 0;
+  for (let i = 0; i + win <= data.length; i += win) {
+    let s = 0;
+    for (let j = i; j < i + win; j++) { s += data[j] * data[j]; peak = Math.max(peak, Math.abs(data[j])); }
+    if (s / win > 1e-4) { sum += s; count += win; }
+  }
+  const rms = Math.sqrt(sum / Math.max(count, 1)) || 1e-3;
+  const gain = Math.min(0.1 / rms, 0.98 / Math.max(peak, 1e-3));
+  const entry = { buf, gain };
+  decoded.set(src, entry);
+  return entry;
+}
+
+async function play(src, button) {
+  ctx ??= new AudioContext();
+  await ctx.resume();
+  stop();
+  const { buf, gain } = await buffer(src);
+  const node = ctx.createBufferSource();
+  const amp = ctx.createGain();
+  amp.gain.value = gain;
+  node.buffer = buf;
+  node.connect(amp).connect(ctx.destination);
+  button?.classList.add("on");
+  current = { node, button };
+  const ended = new Promise((resolve) => (node.onended = resolve));
+  node.start();
+  await ended;
+  button?.classList.remove("on");
+  if (current?.node === node) current = null;
+}
+
+function stop() {
+  if (!current) return;
+  current.node.onended?.();
+  try { current.node.stop(); } catch {}
+  current.button?.classList.remove("on");
+  current = null;
+}
+
+function render() {
+  const root = document.getElementById("items");
+  root.innerHTML = "";
+  for (const item of DATA.items) {
+    const card = document.createElement("section");
+    card.className = "item" + (state.best[item.n] ? " done" : "");
+    card.innerHTML = `<p class="text"></p><p class="tests"></p>`;
+    card.querySelector(".text").textContent = item.text;
+    card.querySelector(".tests").textContent = item.tests;
+    const buttons = [];
+    item.clips.forEach((clip, i) => {
+      const letter = LETTERS[i];
+      const row = document.createElement("div");
+      row.className = "row";
+      const btn = document.createElement("button");
+      btn.className = "play";
+      btn.innerHTML = `▶ Voice ${letter}` + (state.revealed ? ` <span class="who">${clip.who}</span>` : "");
+      btn.onclick = () => play(clip.src, btn);
+      buttons.push([clip.src, btn]);
+      const best = document.createElement("label");
+      best.innerHTML = `<input type="radio" name="best-${item.n}"> best`;
+      best.firstChild.checked = state.best[item.n] === clip.who;
+      best.firstChild.onchange = () => { state.best[item.n] = clip.who; save(); card.classList.add("done"); progress(); };
+      const wrong = document.createElement("label");
+      wrong.innerHTML = `<input type="checkbox"> wrong`;
+      const key = `${item.n}:${clip.who}`;
+      wrong.firstChild.checked = !!state.wrong[key];
+      wrong.firstChild.onchange = (e) => { if (e.target.checked) state.wrong[key] = true; else delete state.wrong[key]; save(); };
+      row.append(btn, best, wrong);
+      card.append(row);
+    });
+    const all = document.createElement("button");
+    all.className = "all";
+    all.textContent = "Play all in turn";
+    all.onclick = async () => { for (const [src, btn] of buttons) { await play(src, btn); await new Promise((r) => setTimeout(r, 400)); } };
+    card.append(all);
+    root.append(card);
+  }
+  progress();
+  if (state.revealed) results();
+}
+
+function progress() {
+  const done = DATA.items.filter((item) => state.best[item.n]).length;
+  document.getElementById("progress").textContent = `${done} of ${DATA.items.length} judged`;
+}
+
+function results() {
+  const names = Object.keys(DATA.voices);
+  const rows = names.map((who) => ({
+    who,
+    voice: DATA.voices[who],
+    best: DATA.items.filter((item) => state.best[item.n] === who).length,
+    wrong: DATA.items.filter((item) => state.wrong[`${item.n}:${who}`]).map((item) => item.text),
+  })).sort((a, b) => b.best - a.best || a.wrong.length - b.wrong.length);
+  document.getElementById("tally").innerHTML =
+    "<tr><th>Provider</th><th>Voice</th><th>Best</th><th>Wrong</th></tr>" +
+    rows.map((r) => `<tr><td>${r.who}</td><td>${r.voice}</td><td>${r.best}</td><td>${r.wrong.length}</td></tr>`).join("");
+  document.getElementById("json").value = JSON.stringify({
+    judged: DATA.items.filter((item) => state.best[item.n]).length,
+    results: rows,
+    best: Object.fromEntries(DATA.items.map((item) => [item.text, state.best[item.n] ?? null])),
+  }, null, 1);
+  document.getElementById("results").hidden = false;
+  document.getElementById("reveal").hidden = true;
+}
+
+document.getElementById("reveal").onclick = () => {
+  const left = DATA.items.length - DATA.items.filter((item) => state.best[item.n]).length;
+  if (left && !confirm(`${left} words have no pick yet. Reveal the voices anyway?`)) return;
+  state.revealed = true;
+  save();
+  render();
+  document.getElementById("results").scrollIntoView();
+};
+
+render();
+</script>
+</body>
+</html>
