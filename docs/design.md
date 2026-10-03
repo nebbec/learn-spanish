@@ -362,8 +362,13 @@ Decided in D4 (logic in `lib/auth`, section in `components/settings/SignIn.tsx`,
 - **The code has 8 digits**, the live project's `otp_length`. The field keeps only digits, so a pasted "1234 5678" works, and Sign in waits for all eight. A new code can be asked for after 60 seconds, the project's limit on emails. Asking for a code creates the account on first use.
 - **Who is signed in is read from the stored session**, not from `getSession()`. With no connection and an expired access token, `getSession()` retries the refresh for up to half a minute and then reports no session, although the session is still stored. The stored one is what settings shows, so it appears at once and offline; it goes when the server rejects it or the user signs out.
 - **Signing out works offline.** The device forgets the session straight away; the server is told when it can be reached.
-- **The email's link**, if it has one, points back to `/settings`, where the client is set to pick up a session from the link (not yet tried with a real email). It only works once that address is in the project's redirect list; until then a link goes to the site URL (`http://localhost:3000`). The code is the way in that is meant to work.
-- **Not done**: the emailed code itself. The project uses Supabase's built-in email on the free plan, which cannot change templates, so the email carries a link and no code. The code arrives once Courtney sets up her own SMTP sender and puts `{{ .Token }}` in the Magic Link template.
+- **The email's link**, if it has one, points back to `/settings`, where the client is set to pick up a session from the link (not yet tried with a real email). It only works once that address is in the project's redirect list; until then a link goes to the site URL. The code is the way in that is meant to work.
+
+Set up by Courtney after D4, in the Supabase dashboard (not mirrored in `supabase/config.toml`):
+
+- **Email goes through Resend's SMTP**: the same Resend account and verified `wodly.net` domain as `crossfit_logger`, with its own API key and a `wodly.net` sender. Supabase's built-in email cannot have its templates changed, and sends only a few emails an hour. Resend's free plan, 100 a day and 3,000 a month, is shared with `crossfit_logger`.
+- **Both templates carry the code** (`{{ .Token }}`): "Magic link or OTP" and "Confirm signup". Email confirmation is on, so the first sign-in for an address sends Confirm signup, and later ones send Magic link or OTP.
+- **The site URL** is the production address, `https://learn-spanish-delta.vercel.app`, so a link in an email opens the app rather than `localhost`.
 
 ## Content pipeline
 
@@ -525,7 +530,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | D1 | Installable app and service worker | A2 | | Done |
 | D2 | Media caching | D1, B3 | | Done |
 | D3 | Supabase schema | A1 | Project and keys | Done |
-| D4 | Sign-in | D3 | Email sender | Done except: real emailed code (needs custom SMTP and the code template) |
+| D4 | Sign-in | D3 | Email sender | Done |
 | D5 | Sync core | B1, B2 | | Done |
 | D6 | Sync wiring | D4, D5 | Two-device check | Done except: two-device check on real phones |
 | E1 | Word list | A2 | | Done |
@@ -666,6 +671,7 @@ Built against the fixture deck.
 - Done when: signing in works, and the session survives a reload while offline.
 - Note (D4): done except the real email. `npm run check:signin` runs against the real project, 13 of 13 pass: a throwaway user gets the 8-digit code the email would carry from the admin API (no email is sent), a wrong code is refused, the code signs in through the publishable key and works once, the stored session reads the user's own rows and survives a reload with no connection, and signing out removes it and the server stops accepting it. The user is deleted at the end. In headless Chromium against `next start` a script drove the settings page the same way: the request for a code was answered by the test (so no email went out), the real code signed in, then the server was stopped, the browser set offline and the page reloaded, and settings still showed the account. `components/settings/SignIn.test.tsx` and `lib/auth/auth.test.ts` cover the rest against `fakeAuthServer` from `@/lib/auth`, including an offline reload after the access token has expired.
 - Note (D4): human step left: real emails carry a link, not the code (see [Sign-in](#sign-in)). Courtney decides whether to set up her own SMTP sender; then the Magic Link template needs `{{ .Token }}`, and the code input already takes 8 digits. If she also wants the link to work, add the app's addresses (production, previews, `http://localhost:3000/settings`) to the redirect list. Neither is a code change. The public URL and key are now set in Vercel for Production and Preview. The live auth settings were not changed; `supabase/config.toml` matches them, so do not run `supabase config push` from an older copy.
+- Note (D4): the real email was checked by Courtney on 2026-10-03 on production, and the emailed 8-digit code signed in. The first email carried only a link to `localhost`; after the code went into the Confirm signup template too and the site URL was set, the next one carried the code (see [Sign-in](#sign-in)).
 - Note (D4): for D6: `authClient()` from `@/lib/auth` is the client to give the Supabase `SyncRemote`, so its calls carry the session. React to sign-in with `authClient().auth.onAuthStateChange` (`SIGNED_IN`), and use `storedAccount(localStorage)` for who is signed in without waiting on the network. `SignIn` sits under `DownloadEverything` on `/settings`; test ids `signin-email`, `signin-send`, `signin-sent`, `signin-code`, `signin-verify`, `signin-resend`, `signin-change-email`, `signin-account`, `signout`, `signin-error`, `signin-unavailable`.
 
 **D5 Sync core**
