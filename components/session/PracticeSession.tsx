@@ -2,7 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import type { ExtrasStore } from "@/components/card";
-import type { Card, PartOfSpeech } from "@/lib/deck";
+import type { Card, DeckTip, PartOfSpeech } from "@/lib/deck";
 import { DEFAULT_BATCH_SIZE, practiceQueue, testSteps, type CardStates, type PracticeMode } from "@/lib/queues";
 import type { ReviewEvent } from "@/lib/scheduler";
 import { BatchEnd } from "./BatchEnd";
@@ -14,6 +14,8 @@ const plural = (count: number, word: string) => `${count} ${word}${count === 1 ?
 export interface PracticeSessionProps {
   /** The whole deck. */
   cards: readonly Card[];
+  /** The tips the deck ships, for the "?" on the reveal of a card naming one. */
+  tips?: readonly DeckTip[];
   /** Card state when the screen opens. */
   states: CardStates;
   /** Every review on the device. Only the Struggling option reads them. */
@@ -62,6 +64,7 @@ function cut(cards: readonly Card[], size: number): Card[][] {
  */
 export function PracticeSession({
   cards,
+  tips = [],
   states,
   reviews,
   mode = "due",
@@ -144,6 +147,7 @@ export function PracticeSession({
     <PracticeBatch
       key={run.step}
       batch={plan.batches[run.step]}
+      tips={tips}
       states={run.states}
       reverse={reverse}
       store={store}
@@ -178,6 +182,7 @@ const EMPTY: Record<PracticeMode, string> = {
 
 interface PracticeBatchProps {
   batch: readonly Card[];
+  tips: readonly DeckTip[];
   states: CardStates;
   reverse: boolean;
   store?: SessionStore & ExtrasStore;
@@ -188,7 +193,7 @@ interface PracticeBatchProps {
   end: { title: string; line: ReactNode; anotherLabel: string; actions: ReactNode };
 }
 
-function PracticeBatch({ batch, states, reverse, store, clock, onExit, onFinish, onAnother, end }: PracticeBatchProps) {
+function PracticeBatch({ batch, tips, states, reverse, store, clock, onExit, onFinish, onAnother, end }: PracticeBatchProps) {
   const session = useSession({
     steps: testSteps(batch),
     section: "practice",
@@ -199,7 +204,13 @@ function PracticeBatch({ batch, states, reverse, store, clock, onExit, onFinish,
   });
 
   return (
-    <SessionView session={session} store={store} onClose={session.finished ? undefined : onExit} onFinish={onFinish}>
+    <SessionView
+      session={session}
+      store={store}
+      onClose={session.finished ? undefined : onExit}
+      onFinish={onFinish}
+      tips={tips}
+    >
       {session.finished && (
         <BatchEnd
           title={end.title}

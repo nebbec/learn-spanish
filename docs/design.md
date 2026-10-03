@@ -307,6 +307,13 @@ Decided in L4 (logic in `scripts/content/tips.ts`, run as `npm run tips` from `s
 - **The deck build ships every approved tip with no problem, in `content/tips.json` order**, whether or not a card in the deck names it yet (an unnamed tip is never shown, since the app shows a tip only before a card naming it). Each example's `audio` is `/deck/audio/<tip id>.<n>.<hash>.mp3`, numbered from 1 (a hashed name since L8; see "Decided in L8" under [Audio](#audio)). A revised tip counts as a new deck version, as a changed card does. `npm run deck` prints counts and ids of tips shipped, waiting, not drafted and with problems (a file not in the tip list is a problem), and the missing-media count includes tip clips.
 - **Hold-back**: a card among the first `size` in Learn order whose `tip` the deck does not ship is left out and listed by id ("Held back until their tip is approved"). Like a card waiting for a decision, it keeps its place in the count, so approving the tip later never pushes another card out.
 
+Decided in L11 (steps in `lib/queues/queues.ts` and `lib/queues/tips.ts`; screens in `components/card/Tip.tsx` and `components/tips/TipsScreen.tsx`):
+
+- **A tip is a third step kind**, `{ kind: "tip", card, tip }`, where `card` is the card it comes before. `learnBatch(cards, states, size, tips)` puts it before the intro of the first card in the batch that names a tip the deck ships, once per batch, while no card naming the tip is seen (`isTipReached`). A batch left after the tip but before any card naming it was rated shows the tip again next time; that is the progress rule, and no store, table or sync is added.
+- **It is a segment of the batch bar**, as "Intro, then test" says (that later rule wins over "not in the batch bar" above). It is never rated: the tip screen's one button, "Got it", stores nothing and moves on (`useSession`'s `passTip`), so the summary and the wheel never count it.
+- **The "?"** sits at the top right of the intro and the reveal of any card naming a shipped tip, in Learn and in Practice (`tipOf`; `SessionView`, `LearnSession` and `PracticeSession` take `tips`). It opens the tip in a sheet over the card, drawn on `document.body`, and Close, Escape or a tap outside closes it; the card underneath is unchanged.
+- **`/tips`** lists every reached tip (`reachedTips`: a card naming it is seen, `known` included) in the deck's tip order, each with its title, body and examples with their clips, and says that tips appear in Learn before the card that needs them when none is reached. The menu's header has a "Tips" link beside Settings, always shown. `/tips` is one of the service worker's `PAGES`, so it opens offline.
+
 ### Contrast lines
 
 A card gets a one-line `why` only where it contrasts with a near neighbour (ser and estar, por and para, saber and conocer, pedir and preguntar): "Use estar for how or where something is right now; ser for what it is." It shows on the intro and the reveal. Null on most cards.
@@ -828,7 +835,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L8 | Audio for form cards, phrase cards and tips | L2 | | Done |
 | L9 | Learning path content for the first 100 | L4, L7, L8 | Read tips and `path.md`, flagged cards | Todo |
 | L10 | Intro step and the `known` rating | L2 | | Done except: push the migration and run `npm run check:rls` |
-| L11 | Tips in the app | L2, L10 | | Todo |
+| L11 | Tips in the app | L2, L10 | | Done |
 | L12 | Units in Learn | L2, L10 | | Todo |
 | L13 | Form, phrase and contrast layouts | L2 | | Todo |
 | L14 | Audio by itself, mute, say it out loud | none | | Todo |
@@ -1141,6 +1148,8 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L11 Tips in the app**
 - Build: the tip screen in a Learn batch before the first card naming it, shown by the progress rule; the "?" on the intro and reveal opening it over the card; `/tips` listing reached tips (added to `PAGES` in `public/sw.js`) and a link from the menu.
 - Done when: on the fixture a tip appears once before its first card and not again after that card is seen, and `/tips` lists it.
+- Note (L11): done. `lib/queues/queues.test.ts` ("Learn batch: tips") checks the fixture's `tip-verb-endings` comes once, before `ir-form-yo` and not before `ir-form-tu`, and not after either is seen; `components/session/session.test.tsx` ("tips in Learn") runs it as a step, opens the "?" on the intro and the reveal, and checks the next batch has no tip; `components/tips/tips.test.tsx` checks `/tips` is empty first and lists the tip once a card naming it is seen. Decisions are under [Tips](#tips), "Decided in L11".
+- Note (L11): for later tickets. `Step` is now a union: a `tip` step carries `card` (the card it comes before) and `tip`, so `step.card` still works everywhere. `LearnSession` shows tips only when given `tips`; tests that drive Learn without them are unchanged, and `studyBatch` in the session test passes a tip with `tip-continue`. The real deck ships no tips yet (L9), so the app shows none until `npm run tips` and Courtney's approval. L12: a unit batch should keep the tip step (`learnBatch`'s `tips` argument). L13: the "?" is absolutely placed at the card's top right; keep it clear of the form card's layout. L14: the tip screen's example clips do not play by themselves; mute need not cover them, since they play only on a tap.
 
 **L12 Units in Learn**
 - Build: a batch is the earliest unit with unseen cards; the unit's name in the frame and on the menu's Learn button; the "Unit complete: now you can say…" batch end with the unit's phrase cards and audio; "New in *unit*" for a card added to a finished unit; batch size only after the starter path.

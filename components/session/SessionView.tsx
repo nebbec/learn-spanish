@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { BatchFrame, CardExtras, CardFront, Intro, Reveal, type ExtrasStore } from "@/components/card";
+import { BatchFrame, CardExtras, CardFront, Intro, Reveal, TipScreen, type ExtrasStore } from "@/components/card";
 import { MOVE_MS, useMotion } from "@/components/motion";
-import type { Card } from "@/lib/deck";
+import type { Card, DeckTip } from "@/lib/deck";
+import { tipOf } from "@/lib/queues";
 import type { Rating } from "@/lib/store";
 import type { Session } from "./useSession";
 
@@ -19,6 +20,8 @@ export interface SessionViewProps {
   onFinish?: () => void;
   /** For an intro: the meaning of the same word already seen, if any. Learn passes `earlierMeaning`. */
   earlierMeaning?: (card: Card) => Card | undefined;
+  /** The tips the deck ships, for the "?" on the intro and reveal of a card naming one. */
+  tips?: readonly DeckTip[];
 }
 
 /** The character's answer to a rating. Orange has none. */
@@ -38,7 +41,15 @@ interface Leaving {
  * stays for the length of the jump or droop. The rating is stored straight
  * away; only the change of card waits.
  */
-export function SessionView({ session, onClose, store, children, onFinish, earlierMeaning }: SessionViewProps) {
+export function SessionView({
+  session,
+  onClose,
+  store,
+  children,
+  onFinish,
+  earlierMeaning,
+  tips = [],
+}: SessionViewProps) {
   const motion = useMotion();
   const finish = useRef(onFinish);
   useEffect(() => {
@@ -76,10 +87,17 @@ export function SessionView({ session, onClose, store, children, onFinish, earli
     <BatchFrame total={leaving?.total ?? batch.length} index={shownIndex} onClose={onClose}>
       {!card ? (
         children
+      ) : !leaving && session.step?.kind === "tip" ? (
+        <TipScreen key={index} tip={session.step.tip} onDone={session.passTip} />
       ) : !leaving && session.step?.kind === "intro" ? (
         // Keyed by position, like the front, so each step starts fresh.
         <div key={index} className="flex min-h-0 flex-1 flex-col gap-3">
-          <Intro card={card} earlier={earlierMeaning?.(card)} onChoose={(choice) => void session.introduce(choice)} />
+          <Intro
+            card={card}
+            earlier={earlierMeaning?.(card)}
+            tip={tipOf(tips, card)}
+            onChoose={(choice) => void session.introduce(choice)}
+          />
           {session.error && (
             <p role="alert" data-testid="session-error" className="w-full text-center font-bold text-again">
               {session.error}
@@ -88,7 +106,7 @@ export function SessionView({ session, onClose, store, children, onFinish, earli
         </div>
       ) : leaving || session.revealed ? (
         // Keyed by position, so a card that returns starts with a fresh reveal.
-        <Reveal key={shownIndex} card={card} onRate={rate} move={leaving?.move}>
+        <Reveal key={shownIndex} card={card} onRate={rate} move={leaving?.move} tip={tipOf(tips, card)}>
           {session.error && (
             <p role="alert" data-testid="session-error" className="w-full font-bold text-again">
               {session.error}

@@ -10,7 +10,7 @@ const SHELL_PREFIX = "learn-spanish-shell-";
 const SHELL = SHELL_PREFIX + VERSION;
 
 // Every route is a static page, so its HTML can be stored as it is.
-const PAGES = ["/", "/learn", "/practice", "/settings"];
+const PAGES = ["/", "/learn", "/practice", "/settings", "/tips"];
 const FILES = ["/deck/deck.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"];
 
 // Art and audio are not stored here. The page fills a cache of its own

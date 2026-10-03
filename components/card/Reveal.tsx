@@ -2,10 +2,11 @@
 
 import type { ReactNode } from "react";
 import { useMotion } from "@/components/motion";
-import type { Card } from "@/lib/deck";
+import type { Card, DeckTip } from "@/lib/deck";
 import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
+import { TipButton } from "./Tip";
 
 /** The three rating buttons, in the order they sit on screen. */
 export const RATING_BUTTONS: { rating: ButtonRating; label: string; className: string }[] = [
@@ -33,6 +34,8 @@ export interface RevealProps {
   move?: "wiggle" | "jump" | "droop";
   /** Extra content under the card details, above the rating buttons: C3's note field and report button. */
   children?: ReactNode;
+  /** The tip the card names, if the deck ships it: a "?" opens it over the card. */
+  tip?: DeckTip;
 }
 
 /**
@@ -40,7 +43,7 @@ export interface RevealProps {
  * audio, with the three rating buttons pinned to the bottom. It looks the same
  * in both directions, so it takes no `direction`.
  */
-export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", children }: RevealProps) {
+export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", children, tip }: RevealProps) {
   const motion = useMotion();
   return (
     <div
@@ -49,7 +52,8 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
       data-enter={motion ? "reveal" : undefined}
       className="flex min-h-0 flex-1 flex-col gap-3"
     >
-      <div className="flex min-h-0 flex-1 flex-col items-center gap-3 overflow-y-auto overscroll-contain rounded-card border-2 border-line bg-surface p-5 text-center shadow-card">
+      <div className="relative flex min-h-0 flex-1 flex-col items-center gap-3 overflow-y-auto overscroll-contain rounded-card border-2 border-line bg-surface p-5 text-center shadow-card">
+        {tip && <TipButton tip={tip} onPlay={onPlay} className="absolute right-3 top-3" />}
         <CharacterSlot image={card.image} className="max-h-36 min-h-20" move={move} />
 
         <div className="flex flex-col items-center gap-1">

@@ -14,7 +14,9 @@ import {
   learnBatch,
   learnQueue,
   practiceQueue,
+  reachedTips,
   strugglingCardIds,
+  tipOf,
 } from "@/lib/queues";
 import { isDue, predictedRecall, replayReviews, type ReviewEvent } from "@/lib/scheduler";
 import type { Direction, Rating } from "@/lib/store";
@@ -130,6 +132,50 @@ describe("Learn batch: intros, then tests", () => {
   it("leaves the batch alone when the step is not an intro", () => {
     const tested = testSteps(cards.slice(0, 2));
     expect(afterIntro(tested, 0, "got-it")).toBe(tested);
+  });
+});
+
+describe("Learn batch: tips", () => {
+  const tips = fixtureDeck.tips;
+  // The fixture's one tip is named by its first two cards, ir-form-yo and ir-form-tu.
+  const named = cards.filter((card) => card.tip === "tip-verb-endings").map((card) => card.id);
+
+  it("shows a tip once, before the first card naming it", () => {
+    expect(named).toEqual(["ir-form-yo", "ir-form-tu"]);
+    expect(steps(learnBatch(cards, new Map(), 3, tips))).toEqual([
+      "tip:ir-form-yo",
+      "intro:ir-form-yo",
+      "intro:ir-form-tu",
+      "intro:casa-house",
+    ]);
+    const tip = learnBatch(cards, new Map(), 1, tips)[0];
+    expect(tip.kind === "tip" && tip.tip.id).toBe("tip-verb-endings");
+  });
+
+  it("does not show it again once a card naming it is seen", () => {
+    const seen = replayReviews([review("ir-form-yo", "good", T0)]);
+    expect(steps(learnBatch(cards, seen, 2, tips))).toEqual(["intro:ir-form-tu", "intro:casa-house"]);
+    const known = replayReviews([review("ir-form-tu", "known", T0)]);
+    expect(steps(learnBatch(cards, known, 1, tips))).toEqual(["intro:ir-form-yo"]);
+  });
+
+  it("is shown again while no card naming it is seen, as after a batch left early", () => {
+    const other = replayReviews([review("casa-house", "good", T0)]);
+    expect(steps(learnBatch(cards, other, 1, tips))).toEqual(["tip:ir-form-yo", "intro:ir-form-yo"]);
+  });
+
+  it("shows no tip the deck does not ship", () => {
+    expect(steps(learnBatch(cards, new Map(), 1))).toEqual(["intro:ir-form-yo"]);
+    expect(tipOf([], fixtureCard("ir-form-yo"))).toBeUndefined();
+    expect(tipOf(tips, fixtureCard("casa-house"))).toBeUndefined();
+    expect(tipOf(tips, fixtureCard("ir-form-tu"))?.id).toBe("tip-verb-endings");
+  });
+
+  it("counts a tip as reached once a card naming it is seen", () => {
+    expect(reachedTips(tips, cards, new Map())).toEqual([]);
+    expect(reachedTips(tips, cards, replayReviews([review("casa-house", "good", T0)]))).toEqual([]);
+    const seen = replayReviews([review("ir-form-tu", "again", T0)]);
+    expect(reachedTips(tips, cards, seen).map((tip) => tip.id)).toEqual(["tip-verb-endings"]);
   });
 });
 

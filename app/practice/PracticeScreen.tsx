@@ -3,7 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PracticeSession } from "@/components/session";
-import { loadDeck, type Card } from "@/lib/deck";
+import { loadDeck, type Card, type DeckTip } from "@/lib/deck";
 import { parsePracticeParams, practiceHref, type CardStates } from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
 import { replayReviews, type ReviewEvent } from "@/lib/scheduler";
@@ -13,7 +13,7 @@ import { requestSync } from "@/lib/sync";
 type Loaded =
   | { status: "loading" }
   | { status: "failed" }
-  | { status: "ready"; cards: Card[]; states: CardStates; reviews: ReviewEvent[] };
+  | { status: "ready"; cards: Card[]; tips: DeckTip[]; states: CardStates; reviews: ReviewEvent[] };
 
 /** Loads the deck and the progress on this device, then runs Practice with the options in the URL. */
 export function PracticeScreen() {
@@ -27,7 +27,7 @@ export function PracticeScreen() {
     // so it is right even if a cache write was lost.
     Promise.all([loadDeck(), localStore().getReviews()])
       .then(([deck, reviews]) => {
-        if (!cancelled) setLoaded({ status: "ready", cards: deck.cards, states: replayReviews(reviews), reviews });
+        if (!cancelled) setLoaded({ status: "ready", cards: deck.cards, tips: deck.tips, states: replayReviews(reviews), reviews });
       })
       .catch(() => {
         if (!cancelled) setLoaded({ status: "failed" });
@@ -44,6 +44,7 @@ export function PracticeScreen() {
         // Reverse is not in the key: it does not change the queue.
         key={`${mode}:${pos ?? ""}`}
         cards={loaded.cards}
+        tips={loaded.tips}
         states={loaded.states}
         reviews={loaded.reviews}
         mode={mode}

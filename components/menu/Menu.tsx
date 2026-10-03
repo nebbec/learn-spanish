@@ -50,9 +50,14 @@ export function Menu({ cards, states, reviews, now, onNavigate, status }: MenuPr
           <div data-testid="mascot-slot" aria-hidden="true" className="size-12 shrink-0 rounded-full bg-sun" />
           <h1 className="font-display text-prompt font-bold">Learn Spanish</h1>
         </div>
-        <Link href={ROUTES.settings} data-testid="menu-settings" className="font-bold text-brand">
-          Settings
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href={ROUTES.tips} data-testid="menu-tips" className="font-bold text-brand">
+            Tips
+          </Link>
+          <Link href={ROUTES.settings} data-testid="menu-settings" className="font-bold text-brand">
+            Settings
+          </Link>
+        </div>
       </header>
       {status}
 

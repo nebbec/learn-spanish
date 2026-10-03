@@ -24,6 +24,7 @@ function site(): Record<string, string> {
     "/learn": page("learn"),
     "/practice": page("practice"),
     "/settings": page("settings"),
+    "/tips": page("tips"),
     "/deck/deck.json": '{"version":1,"cards":[]}',
     "/manifest.webmanifest": "{}",
     "/icon-192.png": "png",

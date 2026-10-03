@@ -4,6 +4,7 @@ export const ROUTES = {
   learn: "/learn",
   practice: "/practice",
   settings: "/settings",
+  tips: "/tips",
 } as const;
 
 export type RouteName = keyof typeof ROUTES;

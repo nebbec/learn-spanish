@@ -21,4 +21,5 @@ export {
   type PracticeOptions,
   type PracticeQueue,
 } from "./queues";
+export { tipOf, isTipReached, reachedTips } from "./tips";
 export { parsePracticeParams, practiceHref, type PracticeParams, type ParamSource } from "./params";

@@ -5,6 +5,7 @@ import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { BatchEnd, LearnSession, SessionView, summarize, useSession } from "@/components/session";
 import { until } from "@/components/testing";
+import type { DeckTip } from "@/lib/deck";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { learnQueue, testSteps, type CardStates, type IntroChoice } from "@/lib/queues";
 import { isSeen, rateCard, replayReviews, type CardState } from "@/lib/scheduler";
@@ -34,10 +35,13 @@ function mount(node: React.ReactNode) {
   act(() => root.render(node));
 }
 
-function mountLearn(props: { states?: CardStates; batchSize?: number; onBatchEnd?: () => void } = {}) {
+function mountLearn(
+  props: { states?: CardStates; batchSize?: number; onBatchEnd?: () => void; tips?: readonly DeckTip[] } = {},
+) {
   mount(
     <LearnSession
       cards={cards}
+      tips={props.tips}
       states={props.states ?? new Map()}
       batchSize={props.batchSize}
       onBatchEnd={props.onBatchEnd}
@@ -65,7 +69,7 @@ async function study(rating: Rating) {
 /**
  * Studies until the batch ends. `taps` is every rating, in order. `pick` chooses a test's
  * rating from the number of tests rated so far; `choose` passes each intro, "Got it" unless
- * it says otherwise. `steps` lists what was shown: `intro:<id>` and `test:<id>`.
+ * it says otherwise. `steps` lists what was shown: `tip:<tip id>`, `intro:<id>` and `test:<id>`.
  */
 async function studyBatch(pick: (position: number) => Rating, choose: (cardId: string) => IntroChoice = () => "got-it") {
   const tapped: { cardId: string; rating: Rating }[] = [];
@@ -73,6 +77,12 @@ async function studyBatch(pick: (position: number) => Rating, choose: (cardId: s
   let tests = 0;
   while (!q("batch-end")) {
     if (steps.length > 100) throw new Error("The batch never ended");
+    const tip = q("tip")?.dataset.tipId;
+    if (tip) {
+      steps.push(`tip:${tip}`);
+      act(() => q("tip-continue")!.click());
+      continue;
+    }
     const intro = q("intro")?.dataset.cardId;
     if (intro) {
       steps.push(`intro:${intro}`);
@@ -358,6 +368,71 @@ describe("the session screen", () => {
     expect(shownCard()).toBe("ir-form-yo");
     // Reopened so afterEach can close it.
     store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: "device-a" });
+  });
+});
+
+describe("tips in Learn", () => {
+  const tips = fixtureDeck.tips;
+
+  it("shows the tip once, before the first card naming it, and not again once that card is seen", async () => {
+    mountLearn({ batchSize: 2, tips });
+    // The tip is a step of the bar: tip, two intros, two tests.
+    expect(q("tip")!.dataset.tipId).toBe("tip-verb-endings");
+    expect(q("tip-title")!.textContent).toBe(tips[0].title);
+    expect(host.querySelectorAll('[data-testid="tip-example"]')).toHaveLength(2);
+    expect(segments()).toBe(3);
+    const { steps, taps } = await studyBatch(() => "good");
+    expect(steps).toEqual([
+      "tip:tip-verb-endings",
+      "intro:ir-form-yo",
+      "intro:ir-form-tu",
+      "test:ir-form-yo",
+      "test:ir-form-tu",
+    ]);
+    // Never rated: only the two cards are stored.
+    expect(await storedTaps()).toEqual(taps);
+    expect(q("summary-cards")!.textContent).toBe("2 new cards seen.");
+
+    act(() => q("another-batch")!.click());
+    const second = await studyBatch(() => "good");
+    expect(second.steps.some((step) => step.startsWith("tip:"))).toBe(false);
+  });
+
+  it("does not show the tip to a learner who has seen a card naming it", async () => {
+    const earlier = replayReviews([
+      { id: "r1", cardId: "ir-form-yo", direction: "forward", rating: "good", timestamp: START - 5000 },
+    ]);
+    mountLearn({ states: earlier, batchSize: 1, tips });
+    expect(q("tip")).toBeNull();
+    expect(q("intro")!.dataset.cardId).toBe("ir-form-tu");
+  });
+
+  it("opens the tip over the intro and the reveal of a card naming it", async () => {
+    mountLearn({ batchSize: 1, tips });
+    act(() => q("tip-continue")!.click());
+    expect(q("intro")!.dataset.cardId).toBe("ir-form-yo");
+    act(() => q("tip-open")!.click());
+    expect(document.querySelector('[data-testid="tip-sheet"]')?.getAttribute("data-tip-id")).toBe("tip-verb-endings");
+    act(() => (document.querySelector('[data-testid="tip-close"]') as HTMLElement).click());
+    expect(document.querySelector('[data-testid="tip-sheet"]')).toBeNull();
+    expect(q("intro")!.dataset.cardId).toBe("ir-form-yo");
+
+    act(() => q("intro-got-it")!.click());
+    act(() => q("card-front")!.click());
+    act(() => q("tip-open")!.click());
+    expect(document.querySelector('[data-testid="tip-sheet"]')).not.toBeNull();
+    act(() => (document.querySelector('[data-testid="tip-close"]') as HTMLElement).click());
+    expect(shownCard()).toBe("ir-form-yo");
+  });
+
+  it("puts no \"?\" on a card that names no tip", async () => {
+    const earlier = replayReviews([
+      { id: "r1", cardId: "ir-form-yo", direction: "forward", rating: "good", timestamp: START - 5000 },
+      { id: "r2", cardId: "ir-form-tu", direction: "forward", rating: "good", timestamp: START - 4000 },
+    ]);
+    mountLearn({ states: earlier, batchSize: 1, tips });
+    expect(q("intro")!.dataset.cardId).toBe("casa-house");
+    expect(q("tip-open")).toBeNull();
   });
 });
 

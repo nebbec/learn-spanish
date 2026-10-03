@@ -4,3 +4,4 @@ export { Reveal, RATING_BUTTONS, playClip, type RevealProps } from "./Reveal";
 export { Intro, type IntroProps } from "./Intro";
 export { splitGluePrompt, type GluePrompt } from "./gluePrompt";
 export { CardExtras, withTrick, type CardExtrasProps, type ExtrasStore } from "./CardExtras";
+export { TipScreen, TipBody, TipButton, type TipScreenProps } from "./Tip";

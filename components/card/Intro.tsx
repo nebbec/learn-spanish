@@ -1,11 +1,12 @@
 "use client";
 
 import { useMotion } from "@/components/motion";
-import type { Card } from "@/lib/deck";
+import type { Card, DeckTip } from "@/lib/deck";
 import type { IntroChoice } from "@/lib/queues";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
 import { AudioButton, GrammarStrip, Meaning, playClip } from "./Reveal";
+import { TipButton } from "./Tip";
 
 export interface IntroProps {
   card: Card;
@@ -18,6 +19,8 @@ export interface IntroProps {
   onChoose: (choice: IntroChoice) => void;
   /** Plays a clip, given its path. Defaults to `playClip`. */
   onPlay?: (src: string) => void;
+  /** The tip the card names, if the deck ships it: a "?" opens it over the card. */
+  tip?: DeckTip;
 }
 
 /**
@@ -26,7 +29,7 @@ export interface IntroProps {
  * its test later in the batch; "I already know this" rates it `known`. Never rated as a
  * test. See "Intro, then test" in docs/design.md.
  */
-export function Intro({ card, earlier, onChoose, onPlay = playClip }: IntroProps) {
+export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: IntroProps) {
   const motion = useMotion();
   return (
     <div
@@ -36,7 +39,8 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip }: IntroProps
       data-enter={motion ? "card" : undefined}
       className="flex min-h-0 flex-1 flex-col gap-3"
     >
-      <div className="flex min-h-0 flex-1 flex-col items-center gap-3 overflow-y-auto overscroll-contain rounded-card border-2 border-line bg-surface p-5 text-center shadow-card">
+      <div className="relative flex min-h-0 flex-1 flex-col items-center gap-3 overflow-y-auto overscroll-contain rounded-card border-2 border-line bg-surface p-5 text-center shadow-card">
+        {tip && <TipButton tip={tip} onPlay={onPlay} className="absolute right-3 top-3" />}
         <span className="text-sm font-bold uppercase tracking-wide text-ink-soft">New card</span>
         {earlier && <EarlierLine earlier={earlier} />}
         <CharacterSlot image={card.image} className="max-h-40 min-h-20" move="pop" />

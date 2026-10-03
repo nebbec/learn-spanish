@@ -46,7 +46,7 @@ export interface Session {
   index: number;
   /** The step on screen, or undefined once finished. */
   step: Step | undefined;
-  /** The card of the step on screen, or undefined once finished. */
+  /** The card of the step on screen (for a tip, the card it comes before), or undefined once finished. */
   card: Card | undefined;
   revealed: boolean;
   finished: boolean;
@@ -66,6 +66,8 @@ export interface Session {
    * the batch. Ignored on a test.
    */
   introduce: (choice: IntroChoice) => Promise<void>;
+  /** Moves on from the tip on screen. Stores nothing: a tip is never rated. Ignored on a card. */
+  passTip: () => void;
 }
 
 interface SessionState {
@@ -162,6 +164,12 @@ export function useSession(options: SessionOptions): Session {
     setError(null);
   };
 
+  const passTip = () => {
+    const now = live.current;
+    if (now.batch[now.index]?.kind !== "tip" || saving.current) return;
+    commit({ ...now, index: now.index + 1, revealed: false });
+  };
+
   const step = state.batch[state.index];
   return {
     batch: state.batch,
@@ -177,6 +185,7 @@ export function useSession(options: SessionOptions): Session {
     reveal,
     rate,
     introduce,
+    passTip,
   };
 }
 

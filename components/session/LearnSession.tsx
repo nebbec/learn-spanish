@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { ExtrasStore } from "@/components/card";
-import type { Card } from "@/lib/deck";
+import type { Card, DeckTip } from "@/lib/deck";
 import { afterLearnRating, earlierMeaning, learnBatch, learnQueue, type CardStates, type Step } from "@/lib/queues";
 import { BatchEnd } from "./BatchEnd";
 import { SessionView } from "./SessionView";
@@ -13,6 +13,8 @@ const plural = (count: number, word: string) => `${count} ${word}${count === 1 ?
 export interface LearnSessionProps {
   /** The whole deck. */
   cards: readonly Card[];
+  /** The tips the deck ships. A tip comes as a step before the first card naming it, and opens from its "?". */
+  tips?: readonly DeckTip[];
   /** Card state when the screen opens. */
   states: CardStates;
   /** Leaves for the menu. */
@@ -33,6 +35,7 @@ export interface LearnSessionProps {
  */
 export function LearnSession({
   cards,
+  tips = [],
   states,
   onExit,
   batchSize,
@@ -42,7 +45,7 @@ export function LearnSession({
   clock,
 }: LearnSessionProps) {
   // Each batch is cut fresh from the cards still unseen when it starts.
-  const [round, setRound] = useState(() => ({ number: 0, states, batch: learnBatch(cards, states, batchSize) }));
+  const [round, setRound] = useState(() => ({ number: 0, states, batch: learnBatch(cards, states, batchSize, tips) }));
 
   if (round.batch.length === 0) {
     return (
@@ -67,6 +70,7 @@ export function LearnSession({
     <LearnBatch
       key={round.number}
       cards={cards}
+      tips={tips}
       batch={round.batch}
       states={round.states}
       store={store}
@@ -74,7 +78,7 @@ export function LearnSession({
       onExit={onExit}
       onFinish={onBatchEnd}
       onAnother={(next) => {
-        setRound({ number: round.number + 1, states: next, batch: learnBatch(cards, next, batchSize) });
+        setRound({ number: round.number + 1, states: next, batch: learnBatch(cards, next, batchSize, tips) });
         onBatchStart?.();
       }}
     />
@@ -83,6 +87,7 @@ export function LearnSession({
 
 interface LearnBatchProps {
   cards: readonly Card[];
+  tips: readonly DeckTip[];
   batch: readonly Step[];
   states: CardStates;
   store?: SessionStore & ExtrasStore;
@@ -92,7 +97,7 @@ interface LearnBatchProps {
   onAnother: (states: CardStates) => void;
 }
 
-function LearnBatch({ cards, batch, states, store, clock, onExit, onFinish, onAnother }: LearnBatchProps) {
+function LearnBatch({ cards, tips, batch, states, store, clock, onExit, onFinish, onAnother }: LearnBatchProps) {
   const session = useSession({
     steps: batch,
     section: "learn",
@@ -109,6 +114,7 @@ function LearnBatch({ cards, batch, states, store, clock, onExit, onFinish, onAn
       onClose={session.finished ? undefined : onExit}
       onFinish={onFinish}
       earlierMeaning={(card) => earlierMeaning(cards, session.states, card)}
+      tips={tips}
     >
       {session.finished && (
         <LearnEnd
