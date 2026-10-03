@@ -1,0 +1,12 @@
+{
+  "rank": 15,
+  "word": "ir",
+  "cards": [
+    "ir-go"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:13:11.746Z"
+}

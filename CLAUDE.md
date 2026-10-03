@@ -41,6 +41,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `lib/progress/`: seen and memorized counts per part of speech, and the wheel's slice angles and fill radii. `components/Wheel.tsx` draws it.
 - `public/deck/`: `deck.json` plus its art (`img/`) and audio (`audio/`).
 - `scripts/content/`: the content pipeline, run by hand, not part of the app. `word-list.mjs` writes `content/word-list.tsv`, the ranked candidate words; its sources are downloaded into `content/.cache/` (ignored by git). The rules are in design.md under "Content pipeline".
+- `scripts/content/draft.mts` (`npm run draft -- --from 1 --to 20`): the draft pass. Claude (the Claude Code CLI on the Max plan by default, `--via api` for the API) writes cards into `content/drafts/`: one file per card under `cards/`, one per word under `words/`, and each call's token usage in `usage.jsonl`. Rerunning the same command resumes. Prompt, schema, output guard and files are in `drafting.ts`; the two ways of calling Claude are in `claude.ts`, and the tests use a fake runner, so `npm test` never calls Claude.
 - `@/` is an import alias for the repo root.
 
 ## Rules for every ticket

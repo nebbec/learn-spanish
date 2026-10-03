@@ -1,0 +1,21 @@
+{
+  "id": "en-in",
+  "rank": 10,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "en",
+  "en": "I live [in] Mexico",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Las llaves están en la caja.",
+    "en": "The keys are in the box."
+  },
+  "spain": null,
+  "trick": "EN sounds like the start of 'inside': whatever is EN something is in it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/en-in.word.mp3",
+    "sentence": "/deck/audio/en-in.sentence.mp3"
+  }
+}

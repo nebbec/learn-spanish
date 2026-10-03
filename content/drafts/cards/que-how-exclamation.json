@@ -1,0 +1,21 @@
+{
+  "id": "que-how-exclamation",
+  "rank": 16,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "qué",
+  "en": "[How] pretty!",
+  "hint": "exclamation",
+  "grammar": null,
+  "example": {
+    "es": "¡Qué bonita es tu casa!",
+    "en": "How pretty your house is!"
+  },
+  "spain": null,
+  "trick": "QUÉ sounds like \"Kay!\": Kay gasps at everything, saying how lovely it all is.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/que-how-exclamation.word.mp3",
+    "sentence": "/deck/audio/que-how-exclamation.sentence.mp3"
+  }
+}

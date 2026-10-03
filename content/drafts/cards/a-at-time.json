@@ -1,0 +1,21 @@
+{
+  "id": "a-at-time",
+  "rank": 7,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "a",
+  "en": "the class starts [at] eight",
+  "hint": "clock time",
+  "grammar": null,
+  "example": {
+    "es": "La fiesta empieza a las nueve.",
+    "en": "The party starts at nine."
+  },
+  "spain": null,
+  "trick": "A sounds like 'ah!': 'Ah, it's eight o'clock!' you gasp, glancing at the clock.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/a-at-time.word.mp3",
+    "sentence": "/deck/audio/a-at-time.sentence.mp3"
+  }
+}

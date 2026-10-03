@@ -1,0 +1,28 @@
+{
+  "id": "ser-be-identity",
+  "rank": 4,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ser",
+  "en": "to be",
+  "hint": "identity, origin, what something is",
+  "grammar": {
+    "present": {
+      "yo": "soy",
+      "tu": "eres",
+      "el": "es"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Soy de México y soy doctora.",
+    "en": "I'm from Mexico and I'm a doctor."
+  },
+  "spain": null,
+  "trick": "SER sounds like sir: being called sir is part of who you are, your identity.",
+  "image": "/deck/img/ser-be-identity.webp",
+  "audio": {
+    "word": "/deck/audio/ser-be-identity.word.mp3",
+    "sentence": "/deck/audio/ser-be-identity.sentence.mp3"
+  }
+}

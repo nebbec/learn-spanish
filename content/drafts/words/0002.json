@@ -1,0 +1,13 @@
+{
+  "rank": 2,
+  "word": "de",
+  "cards": [
+    "de-of",
+    "de-from"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:12:11.297Z"
+}

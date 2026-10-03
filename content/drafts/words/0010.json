@@ -1,0 +1,14 @@
+{
+  "rank": 10,
+  "word": "en",
+  "cards": [
+    "en-in",
+    "en-on",
+    "en-at"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:12:54.437Z"
+}

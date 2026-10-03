@@ -1,0 +1,28 @@
+{
+  "id": "haber-have-auxiliary",
+  "rank": 12,
+  "kind": "content",
+  "pos": "verb",
+  "es": "haber",
+  "en": "to have",
+  "hint": "helper verb, as in I have eaten; not tener",
+  "grammar": {
+    "present": {
+      "yo": "he",
+      "tu": "has",
+      "el": "ha"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Ya has comido?",
+    "en": "Have you eaten yet?"
+  },
+  "spain": null,
+  "trick": "HABER sounds like have-er: it's the helper that turns eaten into have eaten.",
+  "image": "/deck/img/haber-have-auxiliary.webp",
+  "audio": {
+    "word": "/deck/audio/haber-have-auxiliary.word.mp3",
+    "sentence": "/deck/audio/haber-have-auxiliary.sentence.mp3"
+  }
+}

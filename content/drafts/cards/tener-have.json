@@ -1,0 +1,28 @@
+{
+  "id": "tener-have",
+  "rank": 13,
+  "kind": "content",
+  "pos": "verb",
+  "es": "tener",
+  "en": "to have",
+  "hint": "own, possess",
+  "grammar": {
+    "present": {
+      "yo": "tengo",
+      "tu": "tienes",
+      "el": "tiene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Tengo dos hermanos y un perro.",
+    "en": "I have two brothers and a dog."
+  },
+  "spain": null,
+  "trick": "TENER sounds like 'tenant': a tenant has a place to live.",
+  "image": "/deck/img/tener-have.webp",
+  "audio": {
+    "word": "/deck/audio/tener-have.word.mp3",
+    "sentence": "/deck/audio/tener-have.sentence.mp3"
+  }
+}

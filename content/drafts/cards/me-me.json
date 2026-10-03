@@ -1,0 +1,21 @@
+{
+  "id": "me-me",
+  "rank": 18,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "me",
+  "en": "call [me] tomorrow",
+  "hint": "object pronoun, attached to or before the verb",
+  "grammar": null,
+  "example": {
+    "es": "¿Me llamas mañana?",
+    "en": "Will you call me tomorrow?"
+  },
+  "spain": null,
+  "trick": "ME is spelled just like English me, so it's an easy one.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/me-me.word.mp3",
+    "sentence": "/deck/audio/me-me.sentence.mp3"
+  }
+}

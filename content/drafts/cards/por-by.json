@@ -1,0 +1,21 @@
+{
+  "id": "por-by",
+  "rank": 14,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "por",
+  "en": "a book written [by] my mother",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "La carta fue escrita por mi papá.",
+    "en": "The letter was written by my dad."
+  },
+  "spain": null,
+  "trick": "POR sounds like poor: a poem written by a poor poet.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/por-by.word.mp3",
+    "sentence": "/deck/audio/por-by.sentence.mp3"
+  }
+}

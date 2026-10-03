@@ -1,0 +1,21 @@
+{
+  "id": "que-what",
+  "rank": 16,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "qué",
+  "en": "[What] do you want?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Qué haces aquí?",
+    "en": "What are you doing here?"
+  },
+  "spain": null,
+  "trick": "QUÉ sounds like \"K?\": a puzzled K-shaped question mark asking what.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/que-what.word.mp3",
+    "sentence": "/deck/audio/que-what.sentence.mp3"
+  }
+}

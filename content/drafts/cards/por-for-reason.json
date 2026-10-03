@@ -1,0 +1,21 @@
+{
+  "id": "por-for-reason",
+  "rank": 14,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "por",
+  "en": "thanks [for] everything",
+  "hint": "reason or exchange, not purpose",
+  "grammar": null,
+  "example": {
+    "es": "Gracias por la ayuda.",
+    "en": "Thanks for the help."
+  },
+  "spain": null,
+  "trick": "POR sounds like pour: you pour out thanks for everything someone did.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/por-for-reason.word.mp3",
+    "sentence": "/deck/audio/por-for-reason.sentence.mp3"
+  }
+}

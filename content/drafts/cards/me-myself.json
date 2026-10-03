@@ -1,0 +1,21 @@
+{
+  "id": "me-myself",
+  "rank": 18,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "me",
+  "en": "I wash [myself]",
+  "hint": "reflexive pronoun, goes before the verb",
+  "grammar": null,
+  "example": {
+    "es": "Me lavo las manos antes de comer.",
+    "en": "I wash my hands before eating."
+  },
+  "spain": null,
+  "trick": "ME looks like me: when I do something to me, that's myself.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/me-myself.word.mp3",
+    "sentence": "/deck/audio/me-myself.sentence.mp3"
+  }
+}

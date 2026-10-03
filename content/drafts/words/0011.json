@@ -1,0 +1,13 @@
+{
+  "rank": 11,
+  "word": "lo",
+  "cards": [
+    "lo-him-it",
+    "lo-the-thing"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:12:58.000Z"
+}

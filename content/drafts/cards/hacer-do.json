@@ -1,0 +1,28 @@
+{
+  "id": "hacer-do",
+  "rank": 17,
+  "kind": "content",
+  "pos": "verb",
+  "es": "hacer",
+  "en": "to do",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "hago",
+      "tu": "haces",
+      "el": "hace"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Qué haces esta noche?",
+    "en": "What are you doing tonight?"
+  },
+  "spain": null,
+  "trick": "HACER sounds like 'ah, sir': 'Ah, sir, what should I do?' asks the eager helper.",
+  "image": "/deck/img/hacer-do.webp",
+  "audio": {
+    "word": "/deck/audio/hacer-do.word.mp3",
+    "sentence": "/deck/audio/hacer-do.sentence.mp3"
+  }
+}

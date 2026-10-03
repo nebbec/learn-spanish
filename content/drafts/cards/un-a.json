@@ -1,0 +1,21 @@
+{
+  "id": "un-a",
+  "rank": 6,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "un",
+  "en": "I want [a] book",
+  "hint": "masculine form",
+  "grammar": null,
+  "example": {
+    "es": "Tengo un perro y una gata.",
+    "en": "I have a dog and a cat."
+  },
+  "spain": null,
+  "trick": "UN sounds like the start of \"an\": just drop the a and you have it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/un-a.word.mp3",
+    "sentence": "/deck/audio/un-a.sentence.mp3"
+  }
+}

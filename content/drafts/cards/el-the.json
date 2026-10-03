@@ -1,0 +1,21 @@
+{
+  "id": "el-the",
+  "rank": 1,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "el",
+  "en": "[the] boy",
+  "hint": "masculine singular",
+  "grammar": null,
+  "example": {
+    "es": "El perro está en la cocina.",
+    "en": "The dog is in the kitchen."
+  },
+  "spain": null,
+  "trick": "EL sounds like the letter L, and L comes before M just like THE comes before a noun.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/el-the.word.mp3",
+    "sentence": "/deck/audio/el-the.sentence.mp3"
+  }
+}

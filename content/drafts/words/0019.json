@@ -1,0 +1,12 @@
+{
+  "rank": 19,
+  "word": "poder",
+  "cards": [
+    "poder-can"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:13:29.682Z"
+}

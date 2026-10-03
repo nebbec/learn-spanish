@@ -1,0 +1,21 @@
+{
+  "id": "no-no-answer",
+  "rank": 5,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "no",
+  "en": "[No], thanks.",
+  "hint": "the answer, opposite of yes",
+  "grammar": null,
+  "example": {
+    "es": "¿Quieres café? No, gracias.",
+    "en": "Do you want coffee? No, thanks."
+  },
+  "spain": null,
+  "trick": "NO is spelled and said like English no, so refusing in Spanish works just like in English.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/no-no-answer.word.mp3",
+    "sentence": "/deck/audio/no-no-answer.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "poder-can",
+  "rank": 19,
+  "kind": "content",
+  "pos": "verb",
+  "es": "poder",
+  "en": "to be able to",
+  "hint": "can",
+  "grammar": {
+    "present": {
+      "yo": "puedo",
+      "tu": "puedes",
+      "el": "puede"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Puedes ayudarme con esto?",
+    "en": "Can you help me with this?"
+  },
+  "spain": null,
+  "trick": "PODER sounds like powder: with a little magic powder, you can do anything.",
+  "image": "/deck/img/poder-can.webp",
+  "audio": {
+    "word": "/deck/audio/poder-can.word.mp3",
+    "sentence": "/deck/audio/poder-can.sentence.mp3"
+  }
+}

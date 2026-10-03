@@ -1,0 +1,12 @@
+{
+  "rank": 6,
+  "word": "un",
+  "cards": [
+    "un-a"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:12:28.095Z"
+}

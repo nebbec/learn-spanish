@@ -1,0 +1,13 @@
+{
+  "rank": 5,
+  "word": "no",
+  "cards": [
+    "no-not",
+    "no-no-answer"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:12:24.951Z"
+}

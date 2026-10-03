@@ -1,0 +1,21 @@
+{
+  "id": "de-of",
+  "rank": 2,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "de",
+  "en": "the house [of] María",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Es la casa de mi mamá.",
+    "en": "It's my mom's house."
+  },
+  "spain": null,
+  "trick": "DE sounds like day: a cup OF coffee starts the day.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/de-of.word.mp3",
+    "sentence": "/deck/audio/de-of.sentence.mp3"
+  }
+}

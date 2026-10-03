@@ -1,0 +1,21 @@
+{
+  "id": "en-at",
+  "rank": 10,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "en",
+  "en": "she is [at] home",
+  "hint": "location, not direction",
+  "grammar": null,
+  "example": {
+    "es": "Estoy en el trabajo todo el día.",
+    "en": "I'm at work all day."
+  },
+  "spain": null,
+  "trick": "EN sounds like the letter N, as in 'Now here': where you are at right now.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/en-at.word.mp3",
+    "sentence": "/deck/audio/en-at.sentence.mp3"
+  }
+}

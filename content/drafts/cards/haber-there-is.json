@@ -1,0 +1,28 @@
+{
+  "id": "haber-there-is",
+  "rank": 12,
+  "kind": "content",
+  "pos": "verb",
+  "es": "haber",
+  "en": "there to be",
+  "hint": "as in there is, there are (hay); not estar",
+  "grammar": {
+    "present": {
+      "yo": "he",
+      "tu": "has",
+      "el": "hay"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Hay un perro en la casa.",
+    "en": "There is a dog in the house."
+  },
+  "spain": null,
+  "trick": "HAY sounds like eye: open your eye and see what there is.",
+  "image": "/deck/img/haber-there-is.webp",
+  "audio": {
+    "word": "/deck/audio/haber-there-is.word.mp3",
+    "sentence": "/deck/audio/haber-there-is.sentence.mp3"
+  }
+}

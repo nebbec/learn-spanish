@@ -1,0 +1,21 @@
+{
+  "id": "que-that",
+  "rank": 3,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "que",
+  "en": "I think [that] she is coming",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Creo que ella viene mañana.",
+    "en": "I think that she's coming tomorrow."
+  },
+  "spain": null,
+  "trick": "QUE sounds like \"K\": that letter K joins two thoughts, just like \"that\" links them.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/que-that.word.mp3",
+    "sentence": "/deck/audio/que-that.sentence.mp3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 16,
+  "word": "qué",
+  "cards": [
+    "que-what",
+    "que-how-exclamation"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:13:19.950Z"
+}

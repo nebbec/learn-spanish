@@ -1,0 +1,21 @@
+{
+  "id": "y-and",
+  "rank": 9,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "y",
+  "en": "bread [and] butter",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Tengo un perro y un gato.",
+    "en": "I have a dog and a cat."
+  },
+  "spain": null,
+  "trick": "Y sounds like \"ee\": you squeal \"eee!\" when you get cake and ice cream.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/y-and.word.mp3",
+    "sentence": "/deck/audio/y-and.sentence.mp3"
+  }
+}

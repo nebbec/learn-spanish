@@ -1,0 +1,28 @@
+{
+  "id": "ir-go",
+  "rank": 15,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ir",
+  "en": "to go",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "voy",
+      "tu": "vas",
+      "el": "va"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mañana voy a la playa con mis amigos.",
+    "en": "Tomorrow I'm going to the beach with my friends."
+  },
+  "spain": null,
+  "trick": "IR sounds like ear: you go wherever your ear hears music.",
+  "image": "/deck/img/ir-go.webp",
+  "audio": {
+    "word": "/deck/audio/ir-go.word.mp3",
+    "sentence": "/deck/audio/ir-go.sentence.mp3"
+  }
+}

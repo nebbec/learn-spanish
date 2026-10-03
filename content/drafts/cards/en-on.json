@@ -1,0 +1,21 @@
+{
+  "id": "en-on",
+  "rank": 10,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "en",
+  "en": "the book is [on] the table",
+  "hint": "the everyday word, not sobre",
+  "grammar": null,
+  "example": {
+    "es": "Tu celular está en la mesa.",
+    "en": "Your phone is on the table."
+  },
+  "spain": null,
+  "trick": "EN is like 'on' with a Spanish accent: the cup sits EN the table.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/en-on.word.mp3",
+    "sentence": "/deck/audio/en-on.sentence.mp3"
+  }
+}

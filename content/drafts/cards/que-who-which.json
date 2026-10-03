@@ -1,0 +1,21 @@
+{
+  "id": "que-who-which",
+  "rank": 3,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "que",
+  "en": "the man [who] lives here",
+  "hint": "the everyday word, not quien",
+  "grammar": null,
+  "example": {
+    "es": "El hombre que vive aquí es mi tío.",
+    "en": "The man who lives here is my uncle."
+  },
+  "spain": null,
+  "trick": "QUE sounds like \"key\": it's the key that points to who or which thing you mean.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/que-who-which.word.mp3",
+    "sentence": "/deck/audio/que-who-which.sentence.mp3"
+  }
+}

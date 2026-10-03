@@ -1,0 +1,21 @@
+{
+  "id": "no-not",
+  "rank": 5,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "no",
+  "en": "I do [not] know",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "No tengo hambre.",
+    "en": "I'm not hungry."
+  },
+  "spain": null,
+  "trick": "NO sounds just like English no: put it right before the verb to make anything a no, meaning not.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/no-not.word.mp3",
+    "sentence": "/deck/audio/no-not.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rank": 3,
+  "word": "que",
+  "cards": [
+    "que-that",
+    "que-who-which",
+    "que-than"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:12:21.196Z"
+}

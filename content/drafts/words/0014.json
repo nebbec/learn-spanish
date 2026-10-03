@@ -1,0 +1,14 @@
+{
+  "rank": 14,
+  "word": "por",
+  "cards": [
+    "por-for-reason",
+    "por-through",
+    "por-by"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T13:13:15.691Z"
+}

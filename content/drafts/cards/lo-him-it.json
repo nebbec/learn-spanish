@@ -1,0 +1,21 @@
+{
+  "id": "lo-him-it",
+  "rank": 11,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "lo",
+  "en": "I see [him]",
+  "hint": "direct object, masculine or it",
+  "grammar": null,
+  "example": {
+    "es": "Lo vi ayer en la calle.",
+    "en": "I saw him yesterday on the street."
+  },
+  "spain": null,
+  "trick": "LO sounds like low: you look low and see him lying on the floor.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/lo-him-it.word.mp3",
+    "sentence": "/deck/audio/lo-him-it.sentence.mp3"
+  }
+}

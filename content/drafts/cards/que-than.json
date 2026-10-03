@@ -1,0 +1,21 @@
+{
+  "id": "que-than",
+  "rank": 3,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "que",
+  "en": "taller [than] you",
+  "hint": "comparing two things",
+  "grammar": null,
+  "example": {
+    "es": "Mi hermano es más alto que yo.",
+    "en": "My brother is taller than me."
+  },
+  "spain": null,
+  "trick": "QUE sounds like \"K\": K comes later in the alphabet than A, so it's \"more than\" A.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/que-than.word.mp3",
+    "sentence": "/deck/audio/que-than.sentence.mp3"
+  }
+}

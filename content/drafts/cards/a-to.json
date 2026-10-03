@@ -1,0 +1,21 @@
+{
+  "id": "a-to",
+  "rank": 7,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "a",
+  "en": "I go [to] Mexico",
+  "hint": "direction, movement",
+  "grammar": null,
+  "example": {
+    "es": "Mañana voy a la playa.",
+    "en": "Tomorrow I'm going to the beach."
+  },
+  "spain": null,
+  "trick": "A sounds like 'ah!': you shout 'ah!' as you finally arrive at where you were going.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/a-to.word.mp3",
+    "sentence": "/deck/audio/a-to.sentence.mp3"
+  }
+}

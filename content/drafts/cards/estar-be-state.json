@@ -1,0 +1,28 @@
+{
+  "id": "estar-be-state",
+  "rank": 8,
+  "kind": "content",
+  "pos": "verb",
+  "es": "estar",
+  "en": "to be",
+  "hint": "state, place",
+  "grammar": {
+    "present": {
+      "yo": "estoy",
+      "tu": "estás",
+      "el": "está"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Dónde estás? Estoy muy cansado.",
+    "en": "Where are you? I'm really tired."
+  },
+  "spain": null,
+  "trick": "ESTAR sounds like \"a star\": a star is always somewhere in the sky, shining bright or dim depending on its state.",
+  "image": "/deck/img/estar-be-state.webp",
+  "audio": {
+    "word": "/deck/audio/estar-be-state.word.mp3",
+    "sentence": "/deck/audio/estar-be-state.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "de-from",
+  "rank": 2,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "de",
+  "en": "I'm [from] Mexico",
+  "hint": "origin",
+  "grammar": null,
+  "example": {
+    "es": "Soy de Colombia, ¿y tú?",
+    "en": "I'm from Colombia, and you?"
+  },
+  "spain": null,
+  "trick": "DE sounds like day: you came FROM far away, a whole day's trip.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/de-from.word.mp3",
+    "sentence": "/deck/audio/de-from.sentence.mp3"
+  }
+}
