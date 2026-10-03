@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tip-no-pronoun",
+    "title": "Spanish drops \"I\" and \"you\"",
+    "about": "The verb's ending already says who: soy means I am, eres you are. Yo and tú are added only for stress or contrast."
+  },
+  {
+    "id": "tip-two-to-be",
+    "title": "Two verbs for \"to be\"",
+    "about": "Ser for what someone or something is (name, origin, job, what it's like); estar for how it is right now and where it is."
+  },
+  {
+    "id": "tip-verb-endings",
+    "title": "Verbs change with who does them",
+    "about": "Each verb has a form for I, you and he / she: quiero, quieres, quiere. The ending tells you who."
+  },
+  {
+    "id": "tip-el-la",
+    "title": "Every noun is el or la",
+    "about": "Every noun is masculine (el, un) or feminine (la, una), people and things alike. Learn the article with the word; -o is usually el and -a usually la."
+  },
+  {
+    "id": "tip-adjective-after",
+    "title": "Describing words come after and match",
+    "about": "Adjectives usually follow the noun (una casa grande) and take its gender and number (un amigo nuevo, una amiga nueva)."
+  },
+  {
+    "id": "tip-questions",
+    "title": "Questions and ¿ ¡",
+    "about": "Questions open with ¿ and exclamations with ¡. A yes-or-no question can be a statement said with a rising voice: ¿Eres de México? Question words carry an accent: qué, dónde, cómo."
+  },
+  {
+    "id": "tip-no-before-verb",
+    "title": "No goes before the verb",
+    "about": "To say not, put no straight before the verb: no entiendo, no sé. Spanish also says no twice in answers: No, no sé."
+  },
+  {
+    "id": "tip-tu-usted",
+    "title": "Tú and usted",
+    "about": "Tú is you for friends, family and people your age; usted is the polite you for strangers and older people. Usted takes the he / she form of the verb: ¿Puede ayudarme?"
+  },
+  {
+    "id": "tip-going-to",
+    "title": "Going to: voy a…",
+    "about": "Ir a plus a verb in dictionary form talks about plans, like going to in English: voy a comer, ¿vas a venir?"
+  },
+  {
+    "id": "tip-regular-endings",
+    "title": "Regular -ar, -er and -ir verbs",
+    "about": "Most verbs follow one of three patterns. Drop -ar, -er or -ir and add -o for I, -as / -es for you, -a / -e for he / she: hablo, hablas, habla; como, comes, come; vivo, vives, vive."
+  },
+  {
+    "id": "tip-gustar",
+    "title": "Gustar works backwards",
+    "about": "Me gusta el café means the coffee pleases me. The thing liked is the subject, so it is me gusta for one thing and me gustan for several, and te gusta asks if you like it."
+  },
+  {
+    "id": "tip-object-pronouns",
+    "title": "Me, te, lo go before the verb",
+    "about": "Words for me, you, him and it go in front of a conjugated verb: te quiero (I love you), lo veo (I see him). They join the end of a dictionary-form verb: ayudarme."
+  },
+  {
+    "id": "tip-por-para",
+    "title": "Por and para",
+    "about": "Both can mean for. Para looks ahead to a goal, a person receiving or a deadline (para ti, para comer); por looks back at a cause, an exchange or a route (por favor, gracias por todo, por aquí)."
+  },
+  {
+    "id": "tip-past",
+    "title": "Talking about the past",
+    "about": "A first look at the past: fue (it was / he went), tuve, hice, and the -é / -ó endings of regular verbs: hablé, habló. For when fue and the first past forms arrive after the starter path."
+  }
+]

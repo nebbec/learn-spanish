@@ -1,0 +1,295 @@
+[
+  {
+    "id": "me-and-you",
+    "title": "Me and you",
+    "goal": "greet someone, say yes or no, and say please and thank you.",
+    "tip": null,
+    "cap": 12,
+    "wants": ["yo", "tú", "él", "ella", "sí", "no: no (the answer)", "hola", "adiós", "gracias", "phrase: por favor = please"],
+    "payoff": ["Yes, please.", "No, thank you."]
+  },
+  {
+    "id": "who-i-am",
+    "title": "Who I am",
+    "goal": "say your name and where you are from.",
+    "tip": "tip-no-pronoun",
+    "cap": 12,
+    "wants": [
+      "ser: I am (soy)",
+      "ser: you are (eres)",
+      "ser: he / she is (es)",
+      "de: from",
+      "y: and",
+      "phrase: me llamo = my name is",
+      "phrase: ¿cómo te llamas? = what's your name?",
+      "phrase: mucho gusto = nice to meet you",
+      "phrase: de nada = you're welcome"
+    ],
+    "payoff": ["I am from Mexico.", "Are you from Mexico?", "My name is Ana. Nice to meet you."]
+  },
+  {
+    "id": "how-and-where-i-am",
+    "title": "How and where I am",
+    "goal": "ask how someone is, and say how and where you are.",
+    "tip": "tip-two-to-be",
+    "cap": 12,
+    "wants": [
+      "estar: I am (estoy)",
+      "estar: you are (estás)",
+      "estar: he / she is (está)",
+      "phrase: ¿cómo estás? = how are you?",
+      "phrase: buenos días = good morning",
+      "bien",
+      "mal",
+      "muy",
+      "aquí",
+      "en: in, at"
+    ],
+    "payoff": ["I'm very well, thank you. And you?", "I'm here in Mexico."]
+  },
+  {
+    "id": "what-i-want-and-have",
+    "title": "What I want and have",
+    "goal": "say what you want and what you have.",
+    "tip": "tip-verb-endings",
+    "cap": 12,
+    "wants": [
+      "querer: I want (quiero)",
+      "querer: you want (quieres)",
+      "querer: he / she wants (quiere)",
+      "tener: I have (tengo)",
+      "tener: you have (tienes)",
+      "tener: he / she has (tiene)",
+      "un / una: a",
+      "mi: my",
+      "tu: your",
+      "café"
+    ],
+    "payoff": ["I want a coffee, please.", "Do you have coffee?"]
+  },
+  {
+    "id": "my-people",
+    "title": "My people",
+    "goal": "talk about the people in your life.",
+    "tip": "tip-el-la",
+    "cap": 12,
+    "wants": ["el / la: the", "madre", "padre", "hermano / hermana", "hijo / hija", "amigo / amiga", "esposo / esposa"],
+    "payoff": ["She is my sister.", "I have a son and a daughter."]
+  },
+  {
+    "id": "what-people-are-like",
+    "title": "What people are like",
+    "goal": "describe people and things: good, big, new, happy, tired.",
+    "tip": "tip-adjective-after",
+    "cap": 12,
+    "wants": ["bueno", "malo", "grande", "pequeño", "nuevo", "viejo", "feliz", "cansado", "pero: but", "también: also"],
+    "payoff": ["I'm tired but happy.", "She is a very good friend."]
+  },
+  {
+    "id": "asking-questions",
+    "title": "Asking questions",
+    "goal": "ask what, who, where, when, how and why.",
+    "tip": "tip-questions",
+    "cap": 12,
+    "wants": [
+      "qué: what (question)",
+      "quién",
+      "dónde",
+      "cuándo",
+      "cuánto",
+      "cuál",
+      "cómo: how (question)",
+      "por qué: why",
+      "porque: because",
+      "esto: this"
+    ],
+    "payoff": ["What is this?", "Who is she?"]
+  },
+  {
+    "id": "when-i-dont-understand",
+    "title": "When I don't understand",
+    "goal": "say you don't understand or don't know, and say sorry.",
+    "tip": "tip-no-before-verb",
+    "cap": 12,
+    "wants": [
+      "phrase: no entiendo = I don't understand",
+      "phrase: ¿puedes repetir? = can you repeat that?",
+      "phrase: lo siento = I'm sorry",
+      "perdón",
+      "hablar",
+      "entender",
+      "saber: I know (sé)",
+      "saber: you know (sabes)",
+      "saber: he / she knows (sabe)",
+      "inglés"
+    ],
+    "payoff": ["I don't know.", "Do you speak English?"]
+  },
+  {
+    "id": "can-you-help-me",
+    "title": "Can you help me?",
+    "goal": "ask for help politely and say what you can and need.",
+    "tip": "tip-tu-usted",
+    "cap": 10,
+    "wants": [
+      "poder: I can (puedo)",
+      "poder: you can (puedes)",
+      "poder: he / she can (puede)",
+      "usted",
+      "ayudar",
+      "ayuda",
+      "necesitar",
+      "me: me (object)"
+    ],
+    "payoff": ["Can you help me, please? (polite)", "I need help."]
+  },
+  {
+    "id": "out-and-about",
+    "title": "Out and about",
+    "goal": "ask where things are and say what there is.",
+    "tip": null,
+    "cap": 11,
+    "wants": [
+      "haber: there is (hay)",
+      "phrase: disculpe = excuse me (polite)",
+      "baño",
+      "hotel",
+      "calle",
+      "ciudad",
+      "cerca",
+      "lejos",
+      "allí"
+    ],
+    "payoff": ["Where is the bathroom?", "Is there a hotel near here?"]
+  },
+  {
+    "id": "where-im-going",
+    "title": "Where I'm going",
+    "goal": "say where you are going and when.",
+    "tip": "tip-going-to",
+    "cap": 11,
+    "wants": [
+      "ir: I go (voy)",
+      "ir: you go (vas)",
+      "ir: he / she goes (va)",
+      "a: to",
+      "casa: home",
+      "trabajo: work",
+      "hoy",
+      "mañana: tomorrow",
+      "ahora"
+    ],
+    "payoff": ["I'm going home now.", "Where are you going today?"]
+  },
+  {
+    "id": "what-i-do",
+    "title": "What I do",
+    "goal": "say where you live and work and what you do.",
+    "tip": "tip-regular-endings",
+    "cap": 10,
+    "wants": [
+      "hacer: I do (hago)",
+      "hacer: you do (haces)",
+      "hacer: he / she does (hace)",
+      "trabajar",
+      "vivir",
+      "comer",
+      "estudiar",
+      "siempre"
+    ],
+    "payoff": ["I live in Mexico and I work here.", "What are you going to do tomorrow?"]
+  },
+  {
+    "id": "what-i-like",
+    "title": "What I like",
+    "goal": "say what you like and don't like to eat and drink.",
+    "tip": "tip-gustar",
+    "cap": 9,
+    "wants": ["phrase: me gusta = I like it", "gustar", "comida", "agua", "beber", "cerveza", "mucho: a lot"],
+    "payoff": ["I like coffee a lot.", "I don't like beer."]
+  },
+  {
+    "id": "how-i-feel",
+    "title": "How I feel",
+    "goal": "say how you feel: hungry, cold, scared, sad or sick.",
+    "tip": null,
+    "cap": 10,
+    "wants": ["sentir: feel", "hambre", "frío", "miedo", "triste", "enfermo", "un poco: a little", "mejor: better"],
+    "payoff": ["I'm hungry.", "I feel a little sick."]
+  },
+  {
+    "id": "people-i-love",
+    "title": "People I love",
+    "goal": "tell someone you love them and that you'll call them.",
+    "tip": "tip-object-pronouns",
+    "cap": 9,
+    "wants": [
+      "querer: love (te quiero)",
+      "te: you (object)",
+      "lo / la: him, her, it",
+      "llamar: call",
+      "ver: see",
+      "amor",
+      "phrase: hasta luego = see you later"
+    ],
+    "payoff": ["I love you.", "I'll call you tomorrow."]
+  },
+  {
+    "id": "buying-things",
+    "title": "Buying things",
+    "goal": "count to five, ask what something costs and pay.",
+    "tip": null,
+    "cap": 12,
+    "wants": [
+      "uno",
+      "dos",
+      "tres",
+      "cuatro",
+      "cinco",
+      "dinero",
+      "comprar",
+      "pagar",
+      "cuenta: the bill",
+      "phrase: ¿cuánto cuesta? = how much is it?"
+    ],
+    "payoff": ["Two coffees, please.", "The bill, please."]
+  },
+  {
+    "id": "making-plans",
+    "title": "Making plans",
+    "goal": "invite someone along and say what you're doing tonight.",
+    "tip": null,
+    "cap": 11,
+    "wants": [
+      "venir: I come (vengo)",
+      "venir: you come (vienes)",
+      "venir: he / she comes (viene)",
+      "con: with",
+      "conmigo",
+      "contigo",
+      "este / esta: this",
+      "noche",
+      "fiesta"
+    ],
+    "payoff": ["Do you want to come with me?", "Tonight I'm going to a party."]
+  },
+  {
+    "id": "what-people-say",
+    "title": "What people say",
+    "goal": "say what you think and what people say, and ask how to say a word.",
+    "tip": null,
+    "cap": 11,
+    "wants": [
+      "decir: I say (digo)",
+      "decir: you say (dices)",
+      "decir: he / she says (dice)",
+      "phrase: ¿cómo se dice…? = how do you say…?",
+      "palabra",
+      "verdad: true, the truth",
+      "creer: think (opinion)",
+      "pensar",
+      "que: that (I think that…)"
+    ],
+    "payoff": ["I think that's true.", "What does she say?"]
+  }
+]

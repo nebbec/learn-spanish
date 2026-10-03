@@ -217,6 +217,13 @@ The order of the deck comes from rules applied to tagged cards, so it can be rec
 
 **The one hand-edited input** is `content/units.json`: an ordered list of units, each `{ id, title, goal, tip, cap, wants, payoff }`. `goal` is the "now you can say" line; `tip` a tip id or null; `cap` the most cards the unit takes (default 12); `wants` the words and meanings the unit is meant to hold, in plain words ("yo", "ser: I am", "me llamo"), which guide the tag pass; `payoff` the English of the unit's payoff phrases, which the draft pass turns into phrase cards. Claude drafts it; Courtney edits and approves it.
 
+Decided in L1 (checks in `scripts/content/units.ts`, test in `scripts/content/units.test.ts`):
+
+- **`content/units.json` is a JSON list of units** in path order, each with exactly the fields above. `id` is lower-case words joined by hyphens (`who-i-am`). `goal` completes "Now you can …": lower case, ending in a full stop. `cap` is a whole number from 4 to 16, 12 when left out. A unit introduces at most one tip and no two units introduce the same one.
+- **Survival chunks sit in `wants` as `phrase: <Spanish> = <English>`** (`phrase: me llamo = my name is`), so L3 reads the list of survival chunks from the units, each in the unit it belongs to; every other want is a word, or a word and its meaning (`ser: I am (soy)`). A form card's want names its verb, its person and its form.
+- **The tip list is `content/tips.json`**, a JSON list of `{ id, title, about }` in the order the tips are first met; `about` is a one- or two-sentence brief for the tip draft (L4) and is not shipped. A tip need not belong to a unit: `tip-por-para` and `tip-past` are named by cards of the frequency phase.
+- **The first draft** (Claude, 2026-10-03, waiting for Courtney): 18 units with caps adding up to 200, 31 form-card wants (the ten verbs' three forms and `hay`), 15 survival chunks and 37 payoff lines; 14 tips, 12 of them introduced by a unit. Words come from ranks 1 to about 300 plus a few travel words further down the top 1,000 (café 532, baño 576, hotel 623, inglés 907). `¿puedes repetir?` is the one exception to the top 1,000: repetir is rank 1,006, kept because this section names the chunk.
+
 **Each card carries tags**, set by a tag pass and checked by script: `unit` (a unit id or null), `requires` (card ids) and `tip` (a tip id or null).
 
 **The rules, applied by the deck build:**
@@ -731,7 +738,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | G2 | Audio script | G1 | | Done |
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
 | L0 | Learning path spec | none | Interview | Done |
-| L1 | Unit plan | L0 | Approve `units.json` | Todo |
+| L1 | Unit plan | L0 | Approve `units.json` | Done except: Courtney approves `units.json` |
 | L2 | Deck format v2 | L0 | | Todo |
 | L3 | Form and phrase cards in the pipeline | L2 | | Todo |
 | L4 | Tips in the pipeline | L1, L2 | | Todo |
@@ -984,6 +991,10 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L1 Unit plan**
 - Do: Claude drafts `content/units.json` (15 to 20 units, each `{ id, title, goal, tip, cap, wants, payoff }`) and the list of tip ids and titles, from the expected tips and the words of ranks 1 to about 300 in `content/word-list.tsv`. Survival chunks go in the early units' `wants`. Courtney edits and approves it.
 - Done when: `units.json` is committed with Courtney's approval noted here, and a test checks its shape (unique ids, every `tip` in the tip list, caps between 4 and 16).
+- Note (L1): Claude's draft is committed: `content/units.json` (18 units, caps adding up to 200) and `content/tips.json` (14 tips). `scripts/content/units.ts` checks both (`checkUnits`, `checkTips`), and `units.test.ts` runs the checks on the committed files and on broken made-up plans. The formats are under [Learning path](#learning-path), "Decided in L1".
+- Note (L1): the unit order is me and you; who I am (ser forms, tip-no-pronoun); how and where I am (estar forms, tip-two-to-be); what I want and have (querer and tener forms, tip-verb-endings); my people (family, tip-el-la); what people are like (adjectives, tip-adjective-after); asking questions (tip-questions); when I don't understand (saber forms, tip-no-before-verb); can you help me? (poder forms, usted, tip-tu-usted); out and about (hay, travel places); where I'm going (ir forms, tip-going-to); what I do (hacer forms, regular verbs, tip-regular-endings); what I like (tip-gustar); how I feel; people I love (object pronouns, tip-object-pronouns); buying things (numbers to five); making plans (venir forms); what people say (decir forms).
+- Note (L1): the tips are numbered here by the order they are met, not by the list under [Tips](#tips): "tip 6" (tú and usted) is the eighth tip met and "tip 12" (regular endings) the tenth. Two tips were added to the expected twelve: `tip-going-to` (ir a plus a verb, for plans) and `tip-past`, for after the starter path.
+- Note (L1): left for Courtney: read and edit `content/units.json` and `content/tips.json` (the titles and `about` lines; L4 drafts the tip bodies from them), then note the approval here and set the board to Done. Points to look at: whether my-people's feminine forms (hermana, hija, amiga, esposa) need cards of their own, `¿puedes repetir?` at rank 1,006, and object pronouns (me, te) met in chunks and payoffs before their tip in unit 15.
 
 **L2 Deck format v2**
 - Build: in `lib/deck`, kinds `form` and `phrase`, pos `phrase`, fields `unit`, `requires`, `tip`, `why`, and the deck's `units` and `tips`. Validator rules: form ids and phrase ids as in [Learning path](#learning-path); a form card has an image and verb grammar; a phrase card has neither; every `requires` id is in the deck and earlier in the file; every `unit` and `tip` names an entry of the deck. Extend the fixture with two form cards, two phrase cards, two units and a tip. Add `phrase` to the wheel's groups.
