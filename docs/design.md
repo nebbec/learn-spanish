@@ -809,7 +809,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | G2 | Audio script | G1 | | Done |
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
 | L0 | Learning path spec | none | Interview | Done |
-| L1 | Unit plan | L0 | Approve `units.json` | Done except: Courtney approves `units.json` |
+| L1 | Unit plan | L0 | Approve `units.json` | Done |
 | L2 | Deck format v2 | L0 | | Done |
 | L3 | Form and phrase cards in the pipeline | L2 | | Done |
 | L4 | Tips in the pipeline | L1, L2 | | Done |
@@ -1066,6 +1066,7 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Note (L1): the unit order is me and you; who I am (ser forms, tip-no-pronoun); how and where I am (estar forms, tip-two-to-be); what I want and have (querer and tener forms, tip-verb-endings); my people (family, tip-el-la); what people are like (adjectives, tip-adjective-after); asking questions (tip-questions); when I don't understand (saber forms, tip-no-before-verb); can you help me? (poder forms, usted, tip-tu-usted); out and about (hay, travel places); where I'm going (ir forms, tip-going-to); what I do (hacer forms, regular verbs, tip-regular-endings); what I like (tip-gustar); how I feel; people I love (object pronouns, tip-object-pronouns); buying things (numbers to five); making plans (venir forms); what people say (decir forms).
 - Note (L1): the tips are numbered here by the order they are met, not by the list under [Tips](#tips): "tip 6" (tú and usted) is the eighth tip met and "tip 12" (regular endings) the tenth. Two tips were added to the expected twelve: `tip-going-to` (ir a plus a verb, for plans) and `tip-past`, for after the starter path.
 - Note (L1): left for Courtney: read and edit `content/units.json` and `content/tips.json` (the titles and `about` lines; L4 drafts the tip bodies from them), then note the approval here and set the board to Done. Points to look at: whether my-people's feminine forms (hermana, hija, amiga, esposa) need cards of their own, `¿puedes repetir?` at rank 1,006, and object pronouns (me, te) met in chunks and payoffs before their tip in unit 15.
+- Note (L1): Courtney approved `content/units.json` and `content/tips.json` unchanged on 2026-10-03. They would rather study the path in the app from zero and tailor units, tips and order afterwards than review the plan in detail on paper.
 
 **L2 Deck format v2**
 - Build: in `lib/deck`, kinds `form` and `phrase`, pos `phrase`, fields `unit`, `requires`, `tip`, `why`, and the deck's `units` and `tips`. Validator rules: form ids and phrase ids as in [Learning path](#learning-path); a form card has an image and verb grammar; a phrase card has neither; every `requires` id is in the deck and earlier in the file; every `unit` and `tip` names an entry of the deck. Extend the fixture with two form cards, two phrase cards, two units and a tip. Add `phrase` to the wheel's groups.
