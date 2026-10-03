@@ -46,6 +46,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `scripts/content/build-deck.mts` (`npm run deck`): builds `content/deck.json` from the cards that passed review and the flagged cards approved in their decision files, in Learn order, and refuses to drop an id the previous build had; logic in `deck-build.ts`. The app still ships the fixture in `public/deck/deck.json` until H1. The review and deck tests share `review-fixture.ts`.
 - `scripts/content/make-audio.mjs` (`npm run audio`): makes each card's word and sentence clips into `public/deck/audio/` and points the deck at them; logic in `audio.mjs`. The rules are in design.md under "Audio".
 - `content/flagged-clips.html`: the page for hearing the clips the audio check lists (flagged, long or redone), opened from disk; written by `npm run audio -- --check` from the template `scripts/content/flagged-clips.html`. It plays the clips from `public/deck/audio/`, which holds the clips of both `public/deck/deck.json` and `content/deck.json`.
+- `content/art/`: the locked art style. `style.md` holds the prompt template and the rules for stills; `mascot/` the turtle's model sheet, the image reference for every render. The rules are in design.md under "Art".
 - `@/` is an import alias for the repo root.
 
 ## Rules for every ticket

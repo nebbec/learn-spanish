@@ -255,6 +255,17 @@ Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Whe
 - **Hero mascot**: one properly animated character for the menu, the caught-up marker and batch celebrations.
 - **Budget**: roughly 40 MB for the full deck at about 40 KB per image. This is an estimate to check on the first 100.
 
+Decided in F1 (style reference, prompt template and mascot in `content/art`, rules in `content/art/style.md`):
+
+- **Style: soft 3D clay toy.** Matte plasticine with soft studio light and pastel colours. Chosen over flat vector and kawaii sticker on a contact sheet of the same six words (`content/art/style-test`).
+- **Mascot: a pastel mint-green baby turtle** with a lilac shell on its back, a cream belly plate, big glossy eyes and pink cheeks. Chosen over a capybara and a chick. The model sheet `content/art/mascot/turtle-sheet.webp` (four views, four expressions) is the image reference for every render.
+- **The turtle is on every content card**, acting out the card's meaning. Its pose shows the word, never the rating: a "sad" still is a drooping turtle that still jumps on green, because the four moves animate the whole still in CSS and never the turtle's limbs.
+- **Stills are transparent.** Cards are white and the menu is cream, so a still carries no background box. Render on plain cream, then remove the background.
+- **Six stills per render.** Generate a 3 by 2 sheet of six cards' poses and cut it apart, which costs a sixth of one render per still and keeps neighbouring stills on-model. Whether six different words stay on-model on one sheet is F2's first check; the fallback is one still per render at five times the cost.
+- **Model: Seedream 5.0 Flash**, 0.5 credits per render at any resolution. GPT Image 2.5 needs a paid plan. Scripted batches run on credits, not the Plus plan's Unlimited models, because Higgsfield's fair-use terms forbid automation and review Unlimited usage.
+- **Estimates, from F1's renders**: about 10 credits for the first slice's roughly 67 stills and 100 to 130 for the full deck, both with a third redone. A clay still of the front view is about 14 KB at 512 px wide and 18 KB at 640 px as WebP, well under the 40 KB per image above; F2 measures the real average.
+- **Hero mascot**: idle loop on the menu; celebration loop on the batch-end screen and the caught-up marker; a still pose on the empty screens ("Nothing new to learn", "Nothing to practise yet"), which have no celebration. Clay cannot be drawn as vector animation (Lottie, Rive), so the loops are short video clips generated from the model sheet, with the same first and last frame so they loop cleanly, rendered on the paper colour (`#fff8ec`) instead of transparent, since transparent video plays differently in Safari and Chrome. With reduced motion on, a still from the clip shows instead. F3 settles the file format and the size.
+
 ## Audio
 
 - Two clips per card (word, example sentence), generated once by a script with one Latin American neural voice. About 2,000 clips, estimated 30 to 40 MB.
@@ -501,7 +512,7 @@ These were proposed during the interview and not explicitly confirmed. Change th
 
 Each is settled by the ticket named (see [Tickets](#tickets)).
 
-- **Art style and mascot identity** (F1): needs visual exploration.
+- **Art style and mascot identity** (F1): settled, clay toy and a pastel turtle. See [Art](#art).
 - **Mascot animation format** (F3).
 - **Speech provider** (G1): settled, OpenAI `gpt-4o-mini-tts` with the voice `coral`. See [Audio](#audio).
 - **Service worker library** (D1): settled, none. See [Stack](#stack).
@@ -582,7 +593,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | E2 | Draft pass | E1 | Max plan sign-in (no API key) | Done |
 | E3 | Review pass and deck build | E2 | | Done |
 | E4 | First 100 cards | E3 | Flagged-card review | Done |
-| F1 | Art style and mascot design | none | Style choice | Todo |
+| F1 | Art style and mascot design | none | Style choice | Done |
 | F2 | Art script and first stills | F1, E4 | Contact-sheet review | Todo |
 | F3 | Hero mascot animation | F1, C6, C7 | | Todo |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
@@ -778,13 +789,16 @@ Scripts only. Depends on A2 and nothing else in the app.
 **F1 Art style and mascot design**
 - Do: render the same six words in three or four candidate styles through Higgsfield. Courtney picks one. Lock the style reference and prompt template, and design the hero mascot in that style.
 - Done when: the style reference, the template and the mascot design are committed and noted under [Art](#art).
+- Note (F1): three styles (flat vector, clay toy, sticker) on one contact sheet each, then three pastel animals on one clay sheet, then the turtle's model sheet: five renders, 2.5 of the free plan's 3.5 credits. Courtney chose the clay style and the turtle. The axolotl on the style sheets was a stand-in to compare styles. The originals are in `content/.cache/art/` (ignored by git); the repo holds JPEG previews and the WebP references.
+- Note (F1): for F2: start from the template in `content/art/style.md` and pass `content/art/mascot/turtle-sheet.webp` as the image reference. The free plan runs one job at a time; Courtney plans to take the Plus plan (1,200 credits a month, 8 images at once) when E4 is near. First check that six different words on one sheet stay on-model, then that the background remover leaves clean edges on clay. F2 also has to cut sheets into panels and decide each still's width; the turtle's model sheet panels cut cleanly on the gutters.
+- Note (F1): the wheel keeps one brand colour for every slice; colours per part of speech were not part of the style test.
 
 **F2 Art script and first stills**
 - Build: a script that generates a still per content card, lays out contact sheets for review, regenerates rejects and converts approved stills to WebP at the target size. Run it for the content words in the first 100.
 - Done when: every content card in the first 100 has an approved still, and the measured average size is recorded against the 40 KB estimate.
 
 **F3 Hero mascot animation**
-- Build: choose the animation format and record it under [Art](#art). Produce an idle loop and a celebration loop. Place them on the menu, the caught-up marker and the batch-end screen.
+- Build: choose the animation format and record it under [Art](#art). Produce an idle loop and a celebration loop from the turtle's model sheet, following the hero mascot rules under [Art](#art). Place the idle loop on the menu and the celebration loop on the caught-up marker and the batch-end screen, and a still pose on the empty screens. The menu's mascot slot is 48 px, too small for an animation to read; make it bigger. Replace D1's placeholder app icons with the turtle (`scripts/make-icons.mjs`).
 - Done when: the mascot plays in all three places and works offline.
 
 ### Track G: audio
