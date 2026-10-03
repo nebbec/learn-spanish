@@ -33,7 +33,9 @@ let time: number;
 let visited: string[];
 /** A clock that moves on a second each time it is read. */
 const clock = () => (time += 1000);
-const loadCards = async () => cards;
+/** The fixture with no units, so every Learn batch is cut by size and the Learn button shows the count. */
+const loadPlain = async () => ({ cards, units: [] });
+const loadWithUnits = async () => ({ cards, units: fixtureDeck.units });
 
 const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${testId}"]`);
 const count = (testId: string) => Number(q(testId)!.textContent);
@@ -48,8 +50,8 @@ function show(screen: ReactNode) {
 }
 
 /** Waits for the menu's counts to be drawn, however long the store takes to load them. */
-async function showMenu() {
-  show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadCards={loadCards} clock={clock} />);
+async function showMenu(loadDeck: typeof loadWithUnits = loadPlain) {
+  show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadDeck={loadDeck} clock={clock} />);
   await until(() => q("menu"), "the menu to load");
 }
 
@@ -244,5 +246,33 @@ describe("the menu after a session", () => {
 
     await showMenu();
     expect(counts()).toEqual(before);
+  });
+});
+
+describe("the Learn button in the starter path", () => {
+  it("names the unit the next batch studies in place of the count, then the count after the last unit", async () => {
+    await showMenu(loadWithUnits);
+    expect(q("menu-unit")?.textContent).toBe("Unit 1 · Where I go");
+    expect(q("menu-unseen")).toBeNull();
+
+    show(<LearnSession cards={cards} units={fixtureDeck.units} states={new Map()} onExit={() => {}} store={store} clock={clock} />);
+    await studyBatch();
+    await showMenu(loadWithUnits);
+    expect(q("menu-unit")?.textContent).toBe("Unit 2 · Good things");
+
+    show(
+      <LearnSession
+        cards={cards}
+        units={fixtureDeck.units}
+        states={replayReviews(await store.getReviews())}
+        onExit={() => {}}
+        store={store}
+        clock={clock}
+      />,
+    );
+    await studyBatch();
+    await showMenu(loadWithUnits);
+    expect(q("menu-unit")).toBeNull();
+    expect(count("menu-unseen")).toBe(TOTAL - 7);
   });
 });

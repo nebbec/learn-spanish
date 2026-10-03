@@ -4,10 +4,11 @@
 // Everything here is a pure function of the deck, card state and reviews. Nothing reads
 // the clock or the store; the one source of randomness (shuffle) is passed in.
 
-import type { Card, DeckTip, PartOfSpeech } from "@/lib/deck/types";
+import type { Card, DeckTip, DeckUnit, PartOfSpeech } from "@/lib/deck/types";
 import { isDue, isSeen, predictedRecall, type CardState, type ReviewEvent } from "@/lib/scheduler";
 import type { Rating } from "@/lib/store/types";
 import { isTipReached, tipOf } from "./tips";
+import { learnCut } from "./units";
 
 /** Card state by card id, as `replayReviews` returns it. Unseen cards are absent. */
 export type CardStates = ReadonlyMap<string, CardState>;
@@ -61,8 +62,11 @@ export function testSteps(cards: readonly Card[]): Step[] {
 }
 
 /**
- * The next Learn batch: an intro for each of the first `batchSize` cards of the Learn
- * queue. Each card's test joins the batch when its intro is passed (`afterIntro`).
+ * The next Learn batch: an intro for each card `learnCut` picks. In the starter path that
+ * is the earliest unfinished unit's unseen cards, after any cards added to units already
+ * finished; after it, the first `batchSize` cards of the Learn queue. Without `units`
+ * every card is in the frequency phase. Each card's test joins the batch when its intro is
+ * passed (`afterIntro`).
  *
  * A tip the deck ships (`tips`) comes as a step before the intro of the first card in the
  * batch naming it, while no card naming it has been seen. Once one is seen, the tip is
@@ -73,10 +77,24 @@ export function learnBatch(
   states: CardStates,
   batchSize: number = DEFAULT_BATCH_SIZE,
   tips: readonly DeckTip[] = [],
+  units: readonly DeckUnit[] = [],
+): Step[] {
+  return learnSteps(learnCut(cards, states, units, batchSize).cards, cards, states, tips);
+}
+
+/**
+ * The steps for a batch of new cards (`batchCards`, from `learnCut`): an intro each, with a
+ * shipped tip before the first card naming it while the tip is not reached.
+ */
+export function learnSteps(
+  batchCards: readonly Card[],
+  cards: readonly Card[],
+  states: CardStates,
+  tips: readonly DeckTip[] = [],
 ): Step[] {
   const steps: Step[] = [];
   const shown = new Set<string>();
-  for (const card of learnQueue(cards, states).slice(0, Math.max(0, batchSize))) {
+  for (const card of batchCards) {
     const tip = tipOf(tips, card);
     if (tip && !shown.has(tip.id) && !isTipReached(tip, cards, states)) {
       shown.add(tip.id);

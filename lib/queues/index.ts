@@ -4,6 +4,7 @@ export {
   PRACTICE_MODES,
   learnQueue,
   learnBatch,
+  learnSteps,
   afterIntro,
   afterLearnRating,
   earlierMeaning,
@@ -22,4 +23,5 @@ export {
   type PracticeQueue,
 } from "./queues";
 export { tipOf, isTipReached, reachedTips } from "./tips";
+export { learnCut, unitName, unitOf, isUnitComplete, unitPhrases, type LearnCut } from "./units";
 export { parsePracticeParams, practiceHref, type PracticeParams, type ParamSource } from "./params";

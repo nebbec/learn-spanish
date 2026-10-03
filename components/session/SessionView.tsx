@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { BatchFrame, CardExtras, CardFront, Intro, Reveal, TipScreen, type ExtrasStore } from "@/components/card";
 import { MOVE_MS, useMotion } from "@/components/motion";
 import type { Card, DeckTip } from "@/lib/deck";
-import { tipOf } from "@/lib/queues";
+import { tipOf, type Step } from "@/lib/queues";
 import type { Rating } from "@/lib/store";
 import type { Session } from "./useSession";
 
@@ -22,6 +22,8 @@ export interface SessionViewProps {
   earlierMeaning?: (card: Card) => Card | undefined;
   /** The tips the deck ships, for the "?" on the intro and reveal of a card naming one. */
   tips?: readonly DeckTip[];
+  /** The frame's title for the step on screen (Learn: the unit's name), if any. */
+  title?: (step: Step | undefined) => string | undefined;
 }
 
 /** The character's answer to a rating. Orange has none. */
@@ -49,6 +51,7 @@ export function SessionView({
   onFinish,
   earlierMeaning,
   tips = [],
+  title,
 }: SessionViewProps) {
   const motion = useMotion();
   const finish = useRef(onFinish);
@@ -84,7 +87,12 @@ export function SessionView({
   const card = leaving?.card ?? session.card;
   const shownIndex = leaving?.index ?? index;
   return (
-    <BatchFrame total={leaving?.total ?? batch.length} index={shownIndex} onClose={onClose}>
+    <BatchFrame
+      total={leaving?.total ?? batch.length}
+      index={shownIndex}
+      onClose={onClose}
+      title={title?.(batch[shownIndex])}
+    >
       {!card ? (
         children
       ) : !leaving && session.step?.kind === "tip" ? (

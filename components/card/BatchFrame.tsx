@@ -9,6 +9,8 @@ export interface BatchFrameProps {
   index: number;
   /** Shows a close button when given. */
   onClose?: () => void;
+  /** A line under the bar naming what the batch studies, e.g. "Unit 3 · How and where I am". */
+  title?: string;
   children: ReactNode;
 }
 
@@ -17,7 +19,7 @@ export interface BatchFrameProps {
  * card, and the card below it. Fills the screen and turns off overscroll, so a
  * swipe down reveals the card instead of pulling the page to refresh.
  */
-export function BatchFrame({ total, index, onClose, children }: BatchFrameProps) {
+export function BatchFrame({ total, index, onClose, title, children }: BatchFrameProps) {
   // Pull-to-refresh is decided by the root element, not by this container.
   useEffect(() => {
     const root = document.documentElement;
@@ -44,6 +46,11 @@ export function BatchFrame({ total, index, onClose, children }: BatchFrameProps)
             </button>
           )}
         </header>
+        {title && (
+          <p data-testid="batch-title" className="-mt-2 truncate text-center text-sm font-bold text-ink-soft">
+            {title}
+          </p>
+        )}
         <div className="flex min-h-0 flex-1 flex-col">{children}</div>
       </div>
     </div>

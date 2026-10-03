@@ -6,15 +6,25 @@
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
 import { Wheel } from "@/components/Wheel";
-import type { Card, PartOfSpeech } from "@/lib/deck";
+import type { Card, DeckUnit, PartOfSpeech } from "@/lib/deck";
 import { progressStats } from "@/lib/progress";
-import { practiceHref, strugglingCardIds, type CardStates, type PracticeMode } from "@/lib/queues";
+import {
+  DEFAULT_BATCH_SIZE,
+  learnCut,
+  practiceHref,
+  strugglingCardIds,
+  unitName,
+  type CardStates,
+  type PracticeMode,
+} from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
 import { isDue, type ReviewEvent } from "@/lib/scheduler";
 
 export interface MenuProps {
   /** The whole deck. */
   cards: readonly Card[];
+  /** The starter path's units. While one has unseen cards, the Learn button names it. */
+  units?: readonly DeckUnit[];
   /** Card state for every seen card. */
   states: CardStates;
   /** Every stored review. Read for the struggling count. */
@@ -30,12 +40,14 @@ export interface MenuProps {
 const optionClass =
   "flex min-h-14 flex-col items-center justify-center rounded-button border-2 border-line bg-surface px-2 py-2 text-center font-bold";
 
-export function Menu({ cards, states, reviews, now, onNavigate, status }: MenuProps) {
+export function Menu({ cards, units = [], states, reviews, now, onNavigate, status }: MenuProps) {
   // Reverse combines with every way into Practice, so it is a switch that changes the links.
   const [reverse, setReverse] = useState(false);
 
   const stats = progressStats(cards, states);
   const unseen = stats.total - stats.seen;
+  // The batch size does not matter here: only the unit is read.
+  const unit = learnCut(cards, states, units, DEFAULT_BATCH_SIZE).unit;
   const due = cards.filter((card) => isDue(states.get(card.id), now)).length;
   const strugglingIds = strugglingCardIds(reviews);
   const struggling = cards.filter((card) => strugglingIds.has(card.id)).length;
@@ -76,9 +88,13 @@ export function Menu({ cards, states, reviews, now, onNavigate, status }: MenuPr
           className="flex flex-col items-center rounded-button bg-brand p-4 text-center text-on-brand"
         >
           <span className="font-display text-2xl font-bold">Learn</span>
-          <span>
-            <span data-testid="menu-unseen">{unseen}</span> new {unseen === 1 ? "card" : "cards"} left
-          </span>
+          {unit ? (
+            <span data-testid="menu-unit">{unitName(units, unit)}</span>
+          ) : (
+            <span>
+              <span data-testid="menu-unseen">{unseen}</span> new {unseen === 1 ? "card" : "cards"} left
+            </span>
+          )}
         </Link>
         <Link
           href={href()}

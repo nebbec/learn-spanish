@@ -364,6 +364,15 @@ Decided in L7 (check in `scripts/content/known-words.ts`, redraft in `scripts/co
 - **No gating**: the next unit opens whatever the ratings. Practice handles weak cards.
 - A card added to a unit the learner has finished leads the next Learn batch, headed "New in *unit title*".
 
+Decided in L12 (`lib/queues/units.ts`: `learnCut`, `unitName`, `isUnitComplete`, `unitPhrases`):
+
+- **How far the learner has got** is worked out from progress, with no store of its own: the latest unit (in `deck.units` order) holding a seen card, or past every unit once a frequency-phase card is seen. Units before that point are finished.
+- **The batch** is the unseen cards of the earliest unit from that point on that has any, however many; with none left, the first batch-size unseen frequency-phase cards. A card whose `unit` the deck does not list counts as frequency phase, so a deck with no units cuts every batch by size, as before.
+- **Added cards**: unseen cards of finished units lead the batch, at most a batch size of them, each with "New in *unit title*" in the frame. In the frequency phase they count towards the batch size; in the starter path the whole unit follows them. A learner who had seen frequency-phase cards before the units existed meets the unit cards this way, a batch at a time.
+- **The frame's title** is a line under the bar ("Unit 1 · Where I go"), kept on the batch end; none in the frequency phase. The menu's Learn button shows the same name in place of the count while a unit has unseen cards.
+- **The unit's batch end** is titled "Unit complete!", then "Now you can *goal*", then the unit's phrase cards (Spanish, English and a button playing the word clip, which for a phrase speaks the whole phrase), then the usual summary. Shown when the batch's unit has no unseen card left; a "New in" card finishing an earlier unit does not bring that unit's payoff.
+- **Tips** still come before the first card naming them, inside the unit's batch.
+
 ### Hear it, say it
 
 - The word clip plays by itself on the intro and when the reveal opens; the sentence clip is a tap away.
@@ -836,7 +845,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L9 | Learning path content for the first 100 | L4, L7, L8 | Read tips and `path.md`, flagged cards | Todo |
 | L10 | Intro step and the `known` rating | L2 | | Done except: push the migration and run `npm run check:rls` |
 | L11 | Tips in the app | L2, L10 | | Done |
-| L12 | Units in Learn | L2, L10 | | Todo |
+| L12 | Units in Learn | L2, L10 | | Done |
 | L13 | Form, phrase and contrast layouts | L2 | | Todo |
 | L14 | Audio by itself, mute, say it out loud | none | | Todo |
 | L15 | Reset on the device | none | | Todo |
@@ -1154,6 +1163,8 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L12 Units in Learn**
 - Build: a batch is the earliest unit with unseen cards; the unit's name in the frame and on the menu's Learn button; the "Unit complete: now you can say…" batch end with the unit's phrase cards and audio; "New in *unit*" for a card added to a finished unit; batch size only after the starter path.
 - Done when: on the fixture's two units each batch is one unit, the payoff screen lists the right phrases, and the frequency phase still cuts batches by size.
+- Note (L12): decisions are in "Units in Learn", "Decided in L12". `learnBatch` takes a 5th argument, `units` (default []), and is now `learnSteps(learnCut(...).cards, ...)`; `LearnSession` takes `units` and draws the frame title per step; `SessionView` takes `title(step)`; `BatchFrame` takes `title`; `BatchEnd` takes `payoff`; the payoff is `components/session/UnitPayoff.tsx` (test ids unit-payoff, unit-goal, payoff-phrase, payoff-play-<id>; frame title batch-title; menu menu-unit). `MenuScreen`'s test hook `loadCards` is now `loadDeck`, returning `{ cards, units }`. The real deck ships no units yet, so the app looks as before until L17.
+- Note (L12): for later tickets. L14: the payoff's phrase buttons play only on a tap; mute need not cover them. L15: after Start over nothing is seen, so Learn starts at unit 1 again. L17: LearnScreen and the menu already read `deck.units`. `lib/media` still keeps "batches ahead" as queue length times batch size, not by unit; with units of up to 16 cards that is close enough.
 
 **L13 Form, phrase and contrast layouts**
 - Build: the form card's reveal with its own form highlighted in the strip and its verb's character; the phrase card's front and reveal in the glue layout with no character; the `why` line on the intro and reveal.

@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { LearnSession } from "@/components/session";
-import { loadDeck, type Card, type DeckTip } from "@/lib/deck";
+import { loadDeck, type Card, type DeckTip, type DeckUnit } from "@/lib/deck";
 import { keepMediaStored } from "@/lib/media";
 import type { CardStates } from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
@@ -11,7 +11,7 @@ import { replayReviews } from "@/lib/scheduler";
 import { localStore } from "@/lib/store";
 import { requestSync } from "@/lib/sync";
 
-type Loaded = { status: "loading" } | { status: "failed" } | { status: "ready"; cards: Card[]; tips: DeckTip[]; states: CardStates };
+type Loaded = { status: "loading" } | { status: "failed" } | { status: "ready"; cards: Card[]; tips: DeckTip[]; units: DeckUnit[]; states: CardStates };
 
 /** Loads the deck and the progress on this device, then runs Learn. */
 export function LearnScreen() {
@@ -24,7 +24,13 @@ export function LearnScreen() {
     // so it is right even if a cache write was lost.
     Promise.all([loadDeck(), localStore().getReviews()])
       .then(([deck, reviews]) => {
-        if (!cancelled) setLoaded({ status: "ready", cards: deck.cards, tips: deck.tips, states: replayReviews(reviews) });
+        if (!cancelled) setLoaded({
+            status: "ready",
+            cards: deck.cards,
+            tips: deck.tips,
+            units: deck.units,
+            states: replayReviews(reviews),
+          });
       })
       .catch(() => {
         if (!cancelled) setLoaded({ status: "failed" });
@@ -39,6 +45,7 @@ export function LearnScreen() {
       <LearnSession
         cards={loaded.cards}
         tips={loaded.tips}
+        units={loaded.units}
         states={loaded.states}
         onExit={() => router.push(ROUTES.menu)}
         // Several batches in one sitting would otherwise outrun the art and audio stored ahead.

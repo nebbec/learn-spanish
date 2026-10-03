@@ -1,11 +1,26 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import type { ExtrasStore } from "@/components/card";
-import type { Card, DeckTip } from "@/lib/deck";
-import { afterLearnRating, earlierMeaning, learnBatch, learnQueue, type CardStates, type Step } from "@/lib/queues";
+import type { Card, DeckTip, DeckUnit } from "@/lib/deck";
+import {
+  DEFAULT_BATCH_SIZE,
+  afterLearnRating,
+  earlierMeaning,
+  isUnitComplete,
+  learnCut,
+  learnQueue,
+  learnSteps,
+  unitName,
+  unitOf,
+  unitPhrases,
+  type CardStates,
+  type LearnCut,
+  type Step,
+} from "@/lib/queues";
 import { BatchEnd } from "./BatchEnd";
 import { SessionView } from "./SessionView";
+import { UnitPayoff } from "./UnitPayoff";
 import { summarize, useSession, type SessionStore } from "./useSession";
 
 const plural = (count: number, word: string) => `${count} ${word}${count === 1 ? "" : "s"}`;
@@ -15,10 +30,16 @@ export interface LearnSessionProps {
   cards: readonly Card[];
   /** The tips the deck ships. A tip comes as a step before the first card naming it, and opens from its "?". */
   tips?: readonly DeckTip[];
+  /**
+   * The starter path's units, in order. While a unit has unseen cards a batch is one unit;
+   * without units every batch is cut by size.
+   */
+  units?: readonly DeckUnit[];
   /** Card state when the screen opens. */
   states: CardStates;
   /** Leaves for the menu. */
   onExit: () => void;
+  /** Cards in a batch after the starter path. */
   batchSize?: number;
   /** Called as each batch after the first starts, once the ratings of the one before are stored. */
   onBatchStart?: () => void;
@@ -31,21 +52,26 @@ export interface LearnSessionProps {
 
 /**
  * Learn: unseen cards in batches, in the deck file's order, until none are left. Each new
- * card is introduced before it is tested.
+ * card is introduced before it is tested. In the starter path a batch is one unit.
  */
 export function LearnSession({
   cards,
   tips = [],
+  units = [],
   states,
   onExit,
-  batchSize,
+  batchSize = DEFAULT_BATCH_SIZE,
   onBatchStart,
   onBatchEnd,
   store,
   clock,
 }: LearnSessionProps) {
   // Each batch is cut fresh from the cards still unseen when it starts.
-  const [round, setRound] = useState(() => ({ number: 0, states, batch: learnBatch(cards, states, batchSize, tips) }));
+  const cutFor = (next: CardStates) => {
+    const cut = learnCut(cards, next, units, batchSize);
+    return { cut, states: next, batch: learnSteps(cut.cards, cards, next, tips) };
+  };
+  const [round, setRound] = useState(() => ({ number: 0, ...cutFor(states) }));
 
   if (round.batch.length === 0) {
     return (
@@ -71,6 +97,8 @@ export function LearnSession({
       key={round.number}
       cards={cards}
       tips={tips}
+      units={units}
+      cut={round.cut}
       batch={round.batch}
       states={round.states}
       store={store}
@@ -78,7 +106,7 @@ export function LearnSession({
       onExit={onExit}
       onFinish={onBatchEnd}
       onAnother={(next) => {
-        setRound({ number: round.number + 1, states: next, batch: learnBatch(cards, next, batchSize, tips) });
+        setRound({ number: round.number + 1, ...cutFor(next) });
         onBatchStart?.();
       }}
     />
@@ -88,6 +116,8 @@ export function LearnSession({
 interface LearnBatchProps {
   cards: readonly Card[];
   tips: readonly DeckTip[];
+  units: readonly DeckUnit[];
+  cut: LearnCut;
   batch: readonly Step[];
   states: CardStates;
   store?: SessionStore & ExtrasStore;
@@ -97,7 +127,7 @@ interface LearnBatchProps {
   onAnother: (states: CardStates) => void;
 }
 
-function LearnBatch({ cards, tips, batch, states, store, clock, onExit, onFinish, onAnother }: LearnBatchProps) {
+function LearnBatch({ cards, tips, units, cut, batch, states, store, clock, onExit, onFinish, onAnother }: LearnBatchProps) {
   const session = useSession({
     steps: batch,
     section: "learn",
@@ -115,10 +145,16 @@ function LearnBatch({ cards, tips, batch, states, store, clock, onExit, onFinish
       onFinish={onFinish}
       earlierMeaning={(card) => earlierMeaning(cards, session.states, card)}
       tips={tips}
+      title={(step) => frameTitle(units, cut, step)}
     >
       {session.finished && (
         <LearnEnd
           session={session}
+          payoff={
+            cut.unit && isUnitComplete(cut.unit, cards, session.states) ? (
+              <UnitPayoff unit={cut.unit} phrases={unitPhrases(cut.unit, cards)} />
+            ) : undefined
+          }
           remaining={learnQueue(cards, session.states).length}
           onExit={onExit}
           onAnother={() => onAnother(session.states)}
@@ -128,13 +164,26 @@ function LearnBatch({ cards, tips, batch, states, store, clock, onExit, onFinish
   );
 }
 
+/**
+ * The frame's title for a step: "New in <unit title>" on a card added to a unit already
+ * finished, otherwise the batch's unit ("Unit 3 · How and where I am"). None after the starter path.
+ */
+function frameTitle(units: readonly DeckUnit[], cut: LearnCut, step: Step | undefined): string | undefined {
+  const added = step && cut.added.some((card) => card.id === step.card.id) ? unitOf(units, step.card) : undefined;
+  if (added) return `New in ${added.title}`;
+  return cut.unit ? unitName(units, cut.unit) : undefined;
+}
+
 function LearnEnd({
   session,
+  payoff,
   remaining,
   onExit,
   onAnother,
 }: {
   session: ReturnType<typeof useSession>;
+  /** The unit's "now you can say" list, when the batch finished its unit. */
+  payoff?: ReactNode;
   remaining: number;
   onExit: () => void;
   onAnother: () => void;
@@ -142,8 +191,9 @@ function LearnEnd({
   const summary = summarize(session.ratings);
   return (
     <BatchEnd
-      title="Batch done!"
+      title={payoff ? "Unit complete!" : "Batch done!"}
       summary={summary}
+      payoff={payoff}
       onAnother={remaining > 0 ? onAnother : undefined}
       onMenu={onExit}
     >

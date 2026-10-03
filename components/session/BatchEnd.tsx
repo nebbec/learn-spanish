@@ -8,6 +8,8 @@ export interface BatchEndProps {
   summary: SessionSummary;
   /** A line under the title, e.g. how many cards are left. */
   children?: ReactNode;
+  /** Shown between the title and the summary, e.g. a unit's payoff. */
+  payoff?: ReactNode;
   /** Starts another batch. Leave out when there is nothing more to study. */
   onAnother?: () => void;
   anotherLabel?: string;
@@ -27,11 +29,11 @@ const SOFT: Record<string, string> = {
  * another batch or the menu. Goes inside `BatchFrame`. The celebration is the
  * mascot slot bouncing and a fall of confetti; the slot itself is empty until F3.
  */
-export function BatchEnd({ title, summary, children, onAnother, anotherLabel = "Another batch", actions, onMenu }: BatchEndProps) {
+export function BatchEnd({ title, summary, children, payoff, onAnother, anotherLabel = "Another batch", actions, onMenu }: BatchEndProps) {
   const motion = useMotion();
   return (
     <div data-testid="batch-end" className="flex min-h-0 flex-1 flex-col gap-3">
-      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center gap-5 overflow-y-auto rounded-card border-2 border-line bg-surface p-6 text-center shadow-card">
+      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center-safe gap-5 overflow-y-auto rounded-card border-2 border-line bg-surface p-6 text-center shadow-card">
         <Confetti />
         <div
           data-testid="mascot-slot"
@@ -43,6 +45,7 @@ export function BatchEnd({ title, summary, children, onAnother, anotherLabel = "
           <h1 className="font-display text-prompt font-bold">{title}</h1>
           {children && <p className="text-lg text-ink-soft">{children}</p>}
         </div>
+        {payoff}
         <dl className="grid w-full grid-cols-3 gap-2">
           {[...RATING_BUTTONS].reverse().map(({ rating, label }) => (
             <div key={rating} className={`flex flex-col-reverse rounded-button p-3 ${SOFT[rating]}`}>

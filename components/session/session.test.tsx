@@ -5,7 +5,7 @@ import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { BatchEnd, LearnSession, SessionView, summarize, useSession } from "@/components/session";
 import { until } from "@/components/testing";
-import type { DeckTip } from "@/lib/deck";
+import type { DeckTip, DeckUnit } from "@/lib/deck";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { learnQueue, testSteps, type CardStates, type IntroChoice } from "@/lib/queues";
 import { isSeen, rateCard, replayReviews, type CardState } from "@/lib/scheduler";
@@ -36,12 +36,19 @@ function mount(node: React.ReactNode) {
 }
 
 function mountLearn(
-  props: { states?: CardStates; batchSize?: number; onBatchEnd?: () => void; tips?: readonly DeckTip[] } = {},
+  props: {
+    states?: CardStates;
+    batchSize?: number;
+    onBatchEnd?: () => void;
+    tips?: readonly DeckTip[];
+    units?: readonly DeckUnit[];
+  } = {},
 ) {
   mount(
     <LearnSession
       cards={cards}
       tips={props.tips}
+      units={props.units}
       states={props.states ?? new Map()}
       batchSize={props.batchSize}
       onBatchEnd={props.onBatchEnd}
@@ -368,6 +375,75 @@ describe("the session screen", () => {
     expect(shownCard()).toBe("ir-form-yo");
     // Reopened so afterEach can close it.
     store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: "device-a" });
+  });
+});
+
+describe("units in Learn", () => {
+  const units = fixtureDeck.units;
+  const UNIT_1 = ["ir-form-yo", "ir-form-tu", "casa-house", "phrase-going-home"];
+  const UNIT_2 = ["bueno-good", "ahora-now", "phrase-thats-great"];
+  const FREQUENCY = LEARN_ORDER.slice(UNIT_1.length + UNIT_2.length);
+  const title = () => q("batch-title")?.textContent;
+  const intros = (steps: string[]) => steps.filter((step) => step.startsWith("intro:")).map((step) => step.slice(6));
+  const payoff = () =>
+    [...host.querySelectorAll<HTMLElement>('[data-testid="payoff-phrase"]')].map((item) => item.dataset.card);
+
+  it("makes each starter batch one unit, ends it on the payoff, then cuts the frequency phase by size", async () => {
+    mountLearn({ units, tips: fixtureDeck.tips, batchSize: 2 });
+    expect(title()).toBe("Unit 1 · Where I go");
+    const first = await studyBatch(() => "good");
+    expect(intros(first.steps)).toEqual(UNIT_1);
+    expect(q("batch-end")!.querySelector("h1")!.textContent).toBe("Unit complete!");
+    expect(q("unit-goal")!.textContent).toBe("Now you can say where you are going.");
+    expect(payoff()).toEqual(["phrase-going-home"]);
+    expect(q("payoff-play-phrase-going-home")).not.toBeNull();
+    expect(title()).toBe("Unit 1 · Where I go");
+
+    act(() => q("another-batch")!.click());
+    expect(title()).toBe("Unit 2 · Good things");
+    const second = await studyBatch(() => "good");
+    expect(intros(second.steps)).toEqual(UNIT_2);
+    expect(payoff()).toEqual(["phrase-thats-great"]);
+
+    act(() => q("another-batch")!.click());
+    expect(title()).toBeUndefined();
+    const third = await studyBatch(() => "good");
+    expect(intros(third.steps)).toEqual(FREQUENCY.slice(0, 2));
+    expect(q("batch-end")!.querySelector("h1")!.textContent).toBe("Batch done!");
+    expect(q("unit-payoff")).toBeNull();
+  });
+
+  it("goes on with a unit left part way, and ends it on the payoff", async () => {
+    const earlier = replayReviews([
+      { id: "r1", cardId: "ir-form-yo", direction: "forward", rating: "good", timestamp: START - 5000 },
+    ]);
+    mountLearn({ units, states: earlier });
+    expect(title()).toBe("Unit 1 · Where I go");
+    const { steps } = await studyBatch(() => "good", (cardId) => (cardId === "casa-house" ? "known" : "got-it"));
+    expect(intros(steps)).toEqual(UNIT_1.slice(1));
+    expect(payoff()).toEqual(["phrase-going-home"]);
+  });
+
+  it("leads with a card added to a unit already finished, headed New in", async () => {
+    // casa-house stands in for a card added to unit 1 after the learner moved on.
+    const earlier = replayReviews(
+      ["ir-form-yo", "ir-form-tu", "phrase-going-home", "bueno-good"].map((cardId, i) => ({
+        id: `r${i}`,
+        cardId,
+        direction: "forward" as const,
+        rating: "good" as const,
+        timestamp: START - 5000 + i,
+      })),
+    );
+    mountLearn({ units, states: earlier });
+    expect(q("intro")!.dataset.cardId).toBe("casa-house");
+    expect(title()).toBe("New in Where I go");
+    act(() => q("intro-got-it")!.click());
+    expect(q("intro")!.dataset.cardId).toBe("ahora-now");
+    expect(title()).toBe("Unit 2 · Good things");
+    const { steps } = await studyBatch(() => "good");
+    expect(intros(steps)).toEqual(["ahora-now", "phrase-thats-great"]);
+    expect(payoff()).toEqual(["phrase-thats-great"]);
   });
 });
 

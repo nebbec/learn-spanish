@@ -11,7 +11,11 @@ import {
   type Step,
   dueQueue,
   extraPracticeQueue,
+  isUnitComplete,
   learnBatch,
+  learnCut,
+  unitName,
+  unitPhrases,
   learnQueue,
   practiceQueue,
   reachedTips,
@@ -176,6 +180,71 @@ describe("Learn batch: tips", () => {
     expect(reachedTips(tips, cards, replayReviews([review("casa-house", "good", T0)]))).toEqual([]);
     const seen = replayReviews([review("ir-form-tu", "again", T0)]);
     expect(reachedTips(tips, cards, seen).map((tip) => tip.id)).toEqual(["tip-verb-endings"]);
+  });
+});
+
+describe("Learn batch: units", () => {
+  const units = fixtureDeck.units;
+  const UNIT_1 = ["ir-form-yo", "ir-form-tu", "casa-house", "phrase-going-home"];
+  const UNIT_2 = ["bueno-good", "ahora-now", "phrase-thats-great"];
+  const FREQUENCY = FILE_ORDER.slice(UNIT_1.length + UNIT_2.length);
+  const seen = (...list: string[]) => replayReviews(list.map((id, i) => review(id, "good", T0 + i * MINUTE)));
+  const cut = (states: ReturnType<typeof seen>, size = DEFAULT_BATCH_SIZE) => {
+    const { unit, added, cards: batch } = learnCut(cards, states, units, size);
+    return { unit: unit?.id ?? null, added: ids(added), cards: ids(batch) };
+  };
+
+  it("makes a batch of the first unit, whatever the batch size, with its tip", () => {
+    expect(cut(new Map(), 2)).toEqual({ unit: "where-i-go", added: [], cards: UNIT_1 });
+    expect(steps(learnBatch(cards, new Map(), 2, fixtureDeck.tips, units))).toEqual([
+      "tip:ir-form-yo",
+      ...UNIT_1.map((id) => `intro:${id}`),
+    ]);
+  });
+
+  it("goes on with a unit left part way, then takes the next unit", () => {
+    expect(cut(seen("ir-form-yo"))).toEqual({ unit: "where-i-go", added: [], cards: UNIT_1.slice(1) });
+    expect(cut(seen(...UNIT_1))).toEqual({ unit: "good-things", added: [], cards: UNIT_2 });
+  });
+
+  it("cuts the frequency phase by batch size once every unit is seen", () => {
+    const starter = seen(...UNIT_1, ...UNIT_2);
+    expect(cut(starter, 3)).toEqual({ unit: null, added: [], cards: FREQUENCY.slice(0, 3) });
+    expect(cut(starter)).toEqual({ unit: null, added: [], cards: FREQUENCY });
+    expect(steps(learnBatch(cards, starter, 2, fixtureDeck.tips, units))).toEqual(
+      FREQUENCY.slice(0, 2).map((id) => `intro:${id}`),
+    );
+  });
+
+  it("leads with a card added to a unit already finished", () => {
+    // casa-house stands in for a card added to unit 1 after the learner moved on to unit 2.
+    const inUnit2 = seen("ir-form-yo", "ir-form-tu", "phrase-going-home", "bueno-good");
+    expect(cut(inUnit2)).toEqual({
+      unit: "good-things",
+      added: ["casa-house"],
+      cards: ["casa-house", "ahora-now", "phrase-thats-great"],
+    });
+    // In the frequency phase the added card counts towards the batch size.
+    const pastUnits = seen("ir-form-yo", "ir-form-tu", "phrase-going-home", ...UNIT_2, "ir-go");
+    expect(cut(pastUnits, 3)).toEqual({
+      unit: null,
+      added: ["casa-house"],
+      cards: ["casa-house", ...FREQUENCY.slice(1, 3)],
+    });
+  });
+
+  it("cuts by size when the deck has no units", () => {
+    const { unit, cards: batch } = learnCut(cards, new Map(), [], 3);
+    expect(unit).toBeNull();
+    expect(ids(batch)).toEqual(FILE_ORDER.slice(0, 3));
+  });
+
+  it("names a unit, knows when it is complete, and lists its phrases", () => {
+    expect(unitName(units, units[1])).toBe("Unit 2 · Good things");
+    expect(isUnitComplete(units[0], cards, seen(...UNIT_1.slice(1)))).toBe(false);
+    expect(isUnitComplete(units[0], cards, seen(...UNIT_1))).toBe(true);
+    expect(ids(unitPhrases(units[0], cards))).toEqual(["phrase-going-home"]);
+    expect(ids(unitPhrases(units[1], cards))).toEqual(["phrase-thats-great"]);
   });
 });
 
