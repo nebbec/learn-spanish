@@ -1,0 +1,17 @@
+{
+  "id": "saber-know",
+  "rank": 26,
+  "word": "saber",
+  "draft": "2b5f10da9494d68a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to know (a fact or information; how to do something)",
+    "example": "I don't know where my keys are."
+  },
+  "note": "The hint is needed and works well: it rules out conocer, which means knowing people and places.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:41.490Z"
+}

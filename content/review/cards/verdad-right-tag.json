@@ -1,0 +1,17 @@
+{
+  "id": "verdad-right-tag",
+  "rank": 89,
+  "word": "verdad",
+  "draft": "99d2f18529239c2a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "right? / isn't it? (tag question asking for confirmation, literally 'truth?')",
+    "example": "You're coming tomorrow, right?"
+  },
+  "note": "The hint is needed because ¿no? and ¿cierto? are also common tags, and saying 'literally means truth' rules both out (cierto means 'true', not 'truth'); it also keeps the card clearly separate from the 'truth' card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:18.377Z"
+}

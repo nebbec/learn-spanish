@@ -1,0 +1,21 @@
+{
+  "id": "usted-you-formal",
+  "rank": 84,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "usted",
+  "en": "Are [you] the doctor?",
+  "hint": "formal, one person",
+  "grammar": null,
+  "example": {
+    "es": "¿Usted es el doctor?",
+    "en": "Are you the doctor?"
+  },
+  "spain": null,
+  "trick": "USTED sounds like \"you steady\": you speak steady and polite to a respected person.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/usted-you-formal.word.mp3",
+    "sentence": "/deck/audio/usted-you-formal.sentence.mp3"
+  }
+}

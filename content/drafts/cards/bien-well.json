@@ -1,0 +1,21 @@
+{
+  "id": "bien-well",
+  "rank": 34,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "bien",
+  "en": "well",
+  "hint": "in a good way, also fine; not the filler well... (that is bueno)",
+  "grammar": null,
+  "example": {
+    "es": "Cantas muy bien.",
+    "en": "You sing really well."
+  },
+  "spain": null,
+  "trick": "BIEN sounds like \"be in\": when you're in good shape, you're doing well.",
+  "image": "/deck/img/bien-well.webp",
+  "audio": {
+    "word": "/deck/audio/bien-well.word.mp3",
+    "sentence": "/deck/audio/bien-well.sentence.mp3"
+  }
+}

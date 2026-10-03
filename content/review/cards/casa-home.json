@@ -1,0 +1,17 @@
+{
+  "id": "casa-home",
+  "rank": 87,
+  "word": "casa",
+  "draft": "34171b3d11f73762",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "house; home (en casa = at home, a casa = home, as a destination)",
+    "example": "I'm going home now / I'm off home now."
+  },
+  "note": "The hint correctly rules out \"el hogar\", but learners may need to be told that \"casa\" takes no article in \"en casa\" and \"a casa\", even though the card lists it as \"la casa\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:09.026Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "todo-everything",
+  "rank": 30,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "todo",
+  "en": "[everything] is fine",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Tranquilo, todo está bien.",
+    "en": "Relax, everything is fine."
+  },
+  "spain": null,
+  "trick": "TODO sounds like Toto, Dorothy's dog: in Oz, everything was different, Toto.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/todo-everything.word.mp3",
+    "sentence": "/deck/audio/todo-everything.sentence.mp3"
+  }
+}

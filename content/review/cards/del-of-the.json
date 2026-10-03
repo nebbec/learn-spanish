@@ -1,0 +1,17 @@
+{
+  "id": "del-of-the",
+  "rank": 41,
+  "word": "del",
+  "draft": "178a1c0297f5f7b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "of the / from the (contraction of de + el, used before a masculine singular noun)",
+    "example": "It's the boss's car. (literally: It is the car of the boss.)"
+  },
+  "note": "The hint is needed because \"de la jefa\" would also be right without it, and \"carro\" is the right Latin American word for car (Spain says \"coche\"), but that does not affect the spain field for \"del\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:59.464Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 86,
+  "word": "entonces",
+  "cards": [
+    "entonces-so",
+    "entonces-then-time"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:18:41.429Z"
+}

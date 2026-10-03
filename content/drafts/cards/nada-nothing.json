@@ -1,0 +1,21 @@
+{
+  "id": "nada-nothing",
+  "rank": 66,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "nada",
+  "en": "I have [nothing]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "No pasa nada, tranquilo.",
+    "en": "It's nothing, relax."
+  },
+  "spain": null,
+  "trick": "NADA sounds like 'not a' thing: there is not a thing there, nothing at all.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/nada-nothing.word.mp3",
+    "sentence": "/deck/audio/nada-nothing.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "al-to-the",
+  "rank": 45,
+  "word": "al",
+  "draft": "899158d3f016948e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "al = to the (contraction of a + el, used before a masculine singular noun); also 'upon/when' before an infinitive",
+    "example": "We're going to the park tomorrow. / Let's go to the park tomorrow."
+  },
+  "note": "Strictly speaking, al is a contraction of a preposition and an article, not a plain preposition. The other common use, al + infinitive ('al llegar' = 'when I/you arrive'), is not taught on this card and could go on a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:20.719Z"
+}

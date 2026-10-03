@@ -1,0 +1,17 @@
+{
+  "id": "mirar-look-at",
+  "rank": 80,
+  "word": "mirar",
+  "draft": "9c308926dd96ca57",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to look at, to watch",
+    "example": "Why are you looking at me like that?"
+  },
+  "note": "The trick is also accurate in origin: English \"mirror\" comes from the same Latin root as mirar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:29.795Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "llamar-be-named",
+  "rank": 82,
+  "kind": "content",
+  "pos": "verb",
+  "es": "llamarse",
+  "en": "to be named",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "me llamo",
+      "tu": "te llamas",
+      "el": "se llama"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Hola, me llamo Ana. ¿Cómo te llamas?",
+    "en": "Hi, my name is Ana. What's your name?"
+  },
+  "spain": null,
+  "trick": "LLAMARSE: a llama introduces itself, saying its name is Larry the Llama.",
+  "image": "/deck/img/llamar-be-named.webp",
+  "audio": {
+    "word": "/deck/audio/llamar-be-named.word.mp3",
+    "sentence": "/deck/audio/llamar-be-named.sentence.mp3"
+  }
+}

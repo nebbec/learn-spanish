@@ -1,0 +1,24 @@
+{
+  "id": "hombre-man",
+  "rank": 85,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el hombre",
+  "en": "man",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Ese hombre es mi tío.",
+    "en": "That man is my uncle."
+  },
+  "spain": null,
+  "trick": "HOMBRE sounds like \"hombre-ombre\", like a man's deep voice humming \"hum-bray\" as he walks into the room.",
+  "image": "/deck/img/hombre-man.webp",
+  "audio": {
+    "word": "/deck/audio/hombre-man.word.mp3",
+    "sentence": "/deck/audio/hombre-man.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "nos-us",
+  "rank": 65,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "nos",
+  "en": "she sees [us]",
+  "hint": "object pronoun before the verb, not nosotros",
+  "grammar": null,
+  "example": {
+    "es": "Mi mamá nos llama todos los días.",
+    "en": "My mom calls us every day."
+  },
+  "spain": null,
+  "trick": "NOS sounds like nose: they always poke their nose into our business, bothering us.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/nos-us.word.mp3",
+    "sentence": "/deck/audio/nos-us.sentence.mp3"
+  }
+}

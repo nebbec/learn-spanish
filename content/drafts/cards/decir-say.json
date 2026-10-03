@@ -1,0 +1,28 @@
+{
+  "id": "decir-say",
+  "rank": 23,
+  "kind": "content",
+  "pos": "verb",
+  "es": "decir",
+  "en": "to say",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "digo",
+      "tu": "dices",
+      "el": "dice"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Qué dijiste? No te escuché.",
+    "en": "What did you say? I didn't hear you."
+  },
+  "spain": null,
+  "trick": "DECIR sounds like \"the sere\": the old seer always has something to say.",
+  "image": "/deck/img/decir-say.webp",
+  "audio": {
+    "word": "/deck/audio/decir-say.word.mp3",
+    "sentence": "/deck/audio/decir-say.sentence.mp3"
+  }
+}

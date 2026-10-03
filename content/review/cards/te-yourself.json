@@ -1,0 +1,17 @@
+{
+  "id": "te-yourself",
+  "rank": 21,
+  "word": "te",
+  "draft": "7507a797df99a944",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "te = yourself / you (reflexive or object pronoun for tú), placed before a conjugated verb; '¿te lastimaste?' = 'did you hurt yourself?'",
+    "example": "Did you hurt your hand?"
+  },
+  "note": "The hint is harmless but probably not needed, since only reflexive te fits a 'did you hurt [yourself]?' prompt for one word; it's also good that this card (reflexive te) is clearly different from the other card's 'I love [you]' (te as object).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:21.880Z"
+}

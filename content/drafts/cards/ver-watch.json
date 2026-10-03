@@ -1,0 +1,28 @@
+{
+  "id": "ver-watch",
+  "rank": 35,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ver",
+  "en": "to watch",
+  "hint": "TV, a movie",
+  "grammar": {
+    "present": {
+      "yo": "veo",
+      "tu": "ves",
+      "el": "ve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Vemos una película esta noche?",
+    "en": "Should we watch a movie tonight?"
+  },
+  "spain": null,
+  "trick": "VER sounds like \"vary\": you watch TV and vary the channel all night.",
+  "image": "/deck/img/ver-watch.webp",
+  "audio": {
+    "word": "/deck/audio/ver-watch.word.mp3",
+    "sentence": "/deck/audio/ver-watch.sentence.mp3"
+  }
+}

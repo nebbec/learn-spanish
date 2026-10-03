@@ -1,0 +1,17 @@
+{
+  "id": "nos-us",
+  "rank": 65,
+  "word": "nos",
+  "draft": "4a6caa7c4a2da3e5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "us (object pronoun, direct or indirect)",
+    "example": "My mom calls us every day."
+  },
+  "note": "The hint is useful because it rules out \"a nosotros\" and keeps this object-pronoun card separate from the reflexive/reciprocal card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:28.202Z"
+}

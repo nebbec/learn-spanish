@@ -1,0 +1,23 @@
+{
+  "id": "volver-do-again",
+  "rank": 90,
+  "word": "volver",
+  "draft": "4373b3d0d0f380d9",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "In the example, volver stays in the infinitive (only ir is conjugated), so the sentence does not conjugate the card's verb.",
+      "fix": "example.es: Mañana la vuelvo a llamar. / example.en: I'll call her again tomorrow."
+    }
+  ],
+  "back": {
+    "es": "to return, to come back; with a + infinitive: to do (something) again",
+    "example": "Are you going to call her again?"
+  },
+  "note": "The hint is needed and correctly rules out repetir and rehacer, and the revolver pun works because revolver and volver really are related.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:30.159Z"
+}

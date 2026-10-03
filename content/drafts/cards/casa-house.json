@@ -1,0 +1,24 @@
+{
+  "id": "casa-house",
+  "rank": 87,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la casa",
+  "en": "house",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi casa tiene un jardín grande.",
+    "en": "My house has a big garden."
+  },
+  "spain": null,
+  "trick": "CASA sounds like \"castle\": every house is a little castle to its owner.",
+  "image": "/deck/img/casa-house.webp",
+  "audio": {
+    "word": "/deck/audio/casa-house.word.mp3",
+    "sentence": "/deck/audio/casa-house.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mucho-a-lot",
+  "rank": 71,
+  "word": "mucho",
+  "draft": "1a34a0ee86a7d8b9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "a lot, much (adverb: to a great degree)",
+    "example": "I love you a lot."
+  },
+  "note": "The hint is needed: it separates this adverb card from the adjective card \"many, much\". The slangy phrase \"un montón\" could also come to mind, but it is a phrase, not one common word, so mucho is still the clear answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:54.403Z"
+}

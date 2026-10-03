@@ -1,0 +1,17 @@
+{
+  "id": "cuando-when",
+  "rank": 62,
+  "word": "cuando",
+  "draft": "cd492d1c063dfe0a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "when (conjunction, introducing a time clause)",
+    "example": "Call me when you get home."
+  },
+  "note": "The hint isn't strictly needed because the prompt isn't a question, but it's harmless and helps the learner remember that this \"cuando\" has no accent.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:05.288Z"
+}

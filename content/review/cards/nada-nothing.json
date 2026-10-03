@@ -1,0 +1,17 @@
+{
+  "id": "nada-nothing",
+  "rank": 66,
+  "word": "nada",
+  "draft": "1328e04f22ee4158",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "nothing (pronoun); 'I have [nothing]' = 'No tengo nada'",
+    "example": "Nothing is happening, calm down. (Idiomatically: It's fine / No worries, relax.)"
+  },
+  "note": "The prompt 'I have [nothing]' needs the double negative 'No tengo nada', which the example also shows with 'No pasa nada', so the editor could mention the no...nada pattern somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:35.779Z"
+}

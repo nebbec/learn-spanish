@@ -1,0 +1,21 @@
+{
+  "id": "pero-but",
+  "rank": 31,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "pero",
+  "en": "I want to go, [but] I can't",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Es caro, pero es muy bueno.",
+    "en": "It's expensive, but it's very good."
+  },
+  "spain": null,
+  "trick": "PERO sounds like a pear-o: I wanted an apple, but I got a pear-o.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/pero-but.word.mp3",
+    "sentence": "/deck/audio/pero-but.sentence.mp3"
+  }
+}

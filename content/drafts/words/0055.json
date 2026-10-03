@@ -1,0 +1,14 @@
+{
+  "rank": 55,
+  "word": "pasar",
+  "cards": [
+    "pasar-happen",
+    "pasar-pass",
+    "pasar-spend-time"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:46.648Z"
+}

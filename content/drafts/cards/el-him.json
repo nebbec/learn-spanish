@@ -1,0 +1,21 @@
+{
+  "id": "el-him",
+  "rank": 61,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "él",
+  "en": "I went with [him]",
+  "hint": "after a preposition",
+  "grammar": null,
+  "example": {
+    "es": "Este regalo es para él.",
+    "en": "This gift is for him."
+  },
+  "spain": null,
+  "trick": "ÉL sounds like the letter L: picture a big L pointing at him when you say con él.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/el-him.word.mp3",
+    "sentence": "/deck/audio/el-him.sentence.mp3"
+  }
+}

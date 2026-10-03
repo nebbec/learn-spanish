@@ -1,0 +1,21 @@
+{
+  "id": "nuestro-our",
+  "rank": 81,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "nuestro",
+  "en": "[our] dog",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Nuestro perro duerme en el sofá.",
+    "en": "Our dog sleeps on the sofa."
+  },
+  "spain": null,
+  "trick": "NUESTRO sounds like \"new stereo\": our new stereo belongs to all of us.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/nuestro-our.word.mp3",
+    "sentence": "/deck/audio/nuestro-our.sentence.mp3"
+  }
+}

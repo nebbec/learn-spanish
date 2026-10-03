@@ -1,0 +1,17 @@
+{
+  "id": "para-in-order-to",
+  "rank": 24,
+  "word": "para",
+  "draft": "f359504a944b6350",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "para = for, to, in order to (preposition showing purpose, recipient or deadline); Trabajo para vivir = I work in order to live",
+    "example": "I came to talk to you."
+  },
+  "note": "The prompt alone already points to para, because longer phrases like a fin de or con el fin de are formal and not what a learner would say here, so the hint is harmless but not strictly needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:36.340Z"
+}

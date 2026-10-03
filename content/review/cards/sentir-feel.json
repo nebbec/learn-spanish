@@ -1,0 +1,17 @@
+{
+  "id": "sentir-feel",
+  "rank": 63,
+  "word": "sentir",
+  "draft": "fb1e293b971040f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to feel (also to sense; to be sorry, as in lo siento)",
+    "example": "I feel very tired today."
+  },
+  "note": "The example uses the reflexive sentirse (me siento cansado), which is the usual way to say how you feel, but the editor may want to add a plain sentir example such as Siento frío.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:16.143Z"
+}

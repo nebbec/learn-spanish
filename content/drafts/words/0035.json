@@ -1,0 +1,13 @@
+{
+  "rank": 35,
+  "word": "ver",
+  "cards": [
+    "ver-see",
+    "ver-watch"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:15:24.317Z"
+}

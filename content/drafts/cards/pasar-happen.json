@@ -1,0 +1,28 @@
+{
+  "id": "pasar-happen",
+  "rank": 55,
+  "kind": "content",
+  "pos": "verb",
+  "es": "pasar",
+  "en": "to happen",
+  "hint": "the everyday word, as in what's happening?",
+  "grammar": {
+    "present": {
+      "yo": "paso",
+      "tu": "pasas",
+      "el": "pasa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Qué pasó anoche?",
+    "en": "What happened last night?"
+  },
+  "spain": null,
+  "trick": "PASAR sounds like passer-by: a passer-by always sees what happens on the street.",
+  "image": "/deck/img/pasar-happen.webp",
+  "audio": {
+    "word": "/deck/audio/pasar-happen.word.mp3",
+    "sentence": "/deck/audio/pasar-happen.sentence.mp3"
+  }
+}

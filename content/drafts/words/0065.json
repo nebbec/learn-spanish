@@ -1,0 +1,13 @@
+{
+  "rank": 65,
+  "word": "nos",
+  "cards": [
+    "nos-us",
+    "nos-each-other"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:21.729Z"
+}

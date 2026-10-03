@@ -1,0 +1,17 @@
+{
+  "id": "esto-this",
+  "rank": 49,
+  "word": "esto",
+  "draft": "e6d60377900137a3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "this (neuter demonstrative pronoun, for an unnamed thing, idea or situation)",
+    "example": "What is this? I don't understand anything."
+  },
+  "note": "The hint is needed: it rules out este and esta, and \"this\" already rules out eso.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:43.902Z"
+}

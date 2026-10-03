@@ -1,0 +1,17 @@
+{
+  "id": "volver-come-back",
+  "rank": 90,
+  "word": "volver",
+  "draft": "525a8675f453df44",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to return, to come back, to go back",
+    "example": "I'm coming back in five minutes / I'll be back in five minutes."
+  },
+  "note": "The hint is needed because regresar is a very common synonym in Latin America, and this card is clearly separate from the \"volver a + infinitive\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:22.119Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "asi-like-this",
+  "rank": 56,
+  "word": "así",
+  "draft": "6fd112fad5592c03",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "like this, like that, this way, so (adverb)",
+    "example": "No, do it like this."
+  },
+  "note": "Así also covers \"like that\" and \"so\"; the prompt \"like this\" rules out the directional reading of \"this way\" (por aquí).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:27.916Z"
+}

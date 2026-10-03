@@ -1,0 +1,17 @@
+{
+  "id": "porque-because",
+  "rank": 78,
+  "word": "porque",
+  "draft": "018464156a05779e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "because (conjunction introducing a reason)",
+    "example": "I'm not going because I'm tired."
+  },
+  "note": "At some point learners should see how porque (because) differs from por qué (why), but that would go on a separate card for por qué.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:24.043Z"
+}

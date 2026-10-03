@@ -1,0 +1,28 @@
+{
+  "id": "esperar-wait",
+  "rank": 73,
+  "kind": "content",
+  "pos": "verb",
+  "es": "esperar",
+  "en": "to wait",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "espero",
+      "tu": "esperas",
+      "el": "espera"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Espérame aquí, ya vuelvo.",
+    "en": "Wait for me here, I'll be right back."
+  },
+  "spain": null,
+  "trick": "ESPERAR sounds like 'is pear ready?': you wait and wait until the pear is ripe.",
+  "image": "/deck/img/esperar-wait.webp",
+  "audio": {
+    "word": "/deck/audio/esperar-wait.word.mp3",
+    "sentence": "/deck/audio/esperar-wait.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ya-already",
+  "rank": 51,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "ya",
+  "en": "already",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Ya comí, gracias.",
+    "en": "I already ate, thanks."
+  },
+  "spain": null,
+  "trick": "YA sounds like a happy \"yay\": you cheer because it's already done.",
+  "image": "/deck/img/ya-already.webp",
+  "audio": {
+    "word": "/deck/audio/ya-already.word.mp3",
+    "sentence": "/deck/audio/ya-already.sentence.mp3"
+  }
+}

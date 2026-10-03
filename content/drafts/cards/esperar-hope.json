@@ -1,0 +1,28 @@
+{
+  "id": "esperar-hope",
+  "rank": 73,
+  "kind": "content",
+  "pos": "verb",
+  "es": "esperar",
+  "en": "to hope",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "espero",
+      "tu": "esperas",
+      "el": "espera"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Espero que estés bien.",
+    "en": "I hope you're well."
+  },
+  "spain": null,
+  "trick": "ESPERAR sounds like 'aspire': you hope for the things you aspire to.",
+  "image": "/deck/img/esperar-hope.webp",
+  "audio": {
+    "word": "/deck/audio/esperar-hope.word.mp3",
+    "sentence": "/deck/audio/esperar-hope.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "te-you",
+  "rank": 21,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "te",
+  "en": "I love [you]",
+  "hint": "informal tú, object before the verb",
+  "grammar": null,
+  "example": {
+    "es": "Te llamo mañana.",
+    "en": "I'll call you tomorrow."
+  },
+  "spain": null,
+  "trick": "TE sounds like tea: I'll make you tea because I love you.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/te-you.word.mp3",
+    "sentence": "/deck/audio/te-you.sentence.mp3"
+  }
+}

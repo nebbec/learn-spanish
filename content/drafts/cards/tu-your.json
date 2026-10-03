@@ -1,0 +1,21 @@
+{
+  "id": "tu-your",
+  "rank": 38,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "tu",
+  "en": "[your] house",
+  "hint": "informal, talking to one friend",
+  "grammar": null,
+  "example": {
+    "es": "¿Dónde está tu teléfono?",
+    "en": "Where is your phone?"
+  },
+  "spain": null,
+  "trick": "TU sounds like \"to you\": the thing that belongs to you is yours.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/tu-your.word.mp3",
+    "sentence": "/deck/audio/tu-your.sentence.mp3"
+  }
+}

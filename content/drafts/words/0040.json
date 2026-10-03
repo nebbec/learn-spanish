@@ -1,0 +1,12 @@
+{
+  "rank": 40,
+  "word": "le",
+  "cards": [
+    "le-to-him-her"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:15:38.244Z"
+}

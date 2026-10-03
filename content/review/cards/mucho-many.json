@@ -1,0 +1,17 @@
+{
+  "id": "mucho-many",
+  "rank": 71,
+  "word": "mucho",
+  "draft": "66c1c372a664a27c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "mucho (adjective/determiner): much, many, a lot of",
+    "example": "I have many friends at school."
+  },
+  "note": "The hint \"before a noun\" keeps this card apart from the adverb card \"a lot\" (after a verb), and the example shows the plural agreement muchos with a masculine plural noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:52.943Z"
+}

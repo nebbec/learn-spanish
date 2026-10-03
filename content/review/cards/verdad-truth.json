@@ -1,0 +1,17 @@
+{
+  "id": "verdad-truth",
+  "rank": 89,
+  "word": "verdad",
+  "draft": "01df17db359e348f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "truth (noun)",
+    "example": "You have to tell me the truth."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:14.276Z"
+}

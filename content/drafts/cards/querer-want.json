@@ -1,0 +1,28 @@
+{
+  "id": "querer-want",
+  "rank": 28,
+  "kind": "content",
+  "pos": "verb",
+  "es": "querer",
+  "en": "to want",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "quiero",
+      "tu": "quieres",
+      "el": "quiere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Quieres un café?",
+    "en": "Do you want a coffee?"
+  },
+  "spain": null,
+  "trick": "QUERER sounds like \"carer\": a good carer always asks what you want.",
+  "image": "/deck/img/querer-want.webp",
+  "audio": {
+    "word": "/deck/audio/querer-want.word.mp3",
+    "sentence": "/deck/audio/querer-want.sentence.mp3"
+  }
+}

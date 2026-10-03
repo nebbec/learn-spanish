@@ -11,7 +11,9 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+# Courtney's decision, 2026-10-03: approve as written. Its only reason is a hint that is not needed,
+# which no longer flags a card. Entered by the E4 session; the card lines are unchanged.
+decision: approve
 
 id:         de-from
 kind:       glue

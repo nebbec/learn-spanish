@@ -1,0 +1,21 @@
+{
+  "id": "mas-most",
+  "rank": 44,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "más",
+  "en": "most",
+  "hint": "after el or la, as in the most beautiful, not the majority",
+  "grammar": null,
+  "example": {
+    "es": "Ella es la más inteligente de la clase.",
+    "en": "She is the most intelligent in the class."
+  },
+  "spain": null,
+  "trick": "MÁS sounds like \"mass\": whoever has the most mass wins the top spot.",
+  "image": "/deck/img/mas-most.webp",
+  "audio": {
+    "word": "/deck/audio/mas-most.word.mp3",
+    "sentence": "/deck/audio/mas-most.sentence.mp3"
+  }
+}

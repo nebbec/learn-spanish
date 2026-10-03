@@ -1,0 +1,21 @@
+{
+  "id": "otro-other",
+  "rank": 70,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "otro",
+  "en": "[another] coffee, please",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Quiero otro café, por favor.",
+    "en": "I want another coffee, please."
+  },
+  "spain": null,
+  "trick": "OTRO sounds like \"other row\": when one row is full, you sit in the other row.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/otro-other.word.mp3",
+    "sentence": "/deck/audio/otro-other.sentence.mp3"
+  }
+}

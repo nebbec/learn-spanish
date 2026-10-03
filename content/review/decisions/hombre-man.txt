@@ -1,0 +1,31 @@
+# hombre-man · rank 85 · hombre
+#
+# Why it was flagged:
+#   - Memory trick: The trick says hombre sounds like "hum-bray", which teaches a pronounced h, but the Spanish h is silent (OM-breh), and the "hombre-ombre" part means nothing. Suggested fix: trick: HOMBRE sounds like "OM-bray": picture a man chanting a deep "om" as he walks into the room (the h is silent).
+# Reviewer's note (not a reason to flag): Hombre is also very common in speech as an interjection (\"¡Hombre!\"), but this card rightly teaches the noun meaning.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         hombre-man
+kind:       content
+pos:        noun
+es:         el hombre
+en:         man
+hint:
+gender:     m
+article:    el
+example.es: Ese hombre es mi tío.
+example.en: That man is my uncle.
+spain:
+trick:      HOMBRE sounds like "hombre-ombre", like a man's deep voice humming "hum-bray" as he walks into the room.
+
+# The draft this file was made from. Do not change it.
+draft: 634e3aa5b3e7543e

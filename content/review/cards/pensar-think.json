@@ -1,0 +1,17 @@
+{
+  "id": "pensar-think",
+  "rank": 74,
+  "word": "pensar",
+  "draft": "2576b7e132588155",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to think",
+    "example": "I think about you a lot."
+  },
+  "note": "Creer also translates \"I think\" in opinions (\"creo que...\"), but its dictionary meaning is \"to believe\", so pensar is still the one answer for the bare prompt \"to think\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:12.369Z"
+}

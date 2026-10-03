@@ -1,0 +1,21 @@
+{
+  "id": "algo-something",
+  "rank": 57,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "algo",
+  "en": "I want [something] to eat",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Quieres algo de tomar?",
+    "en": "Do you want something to drink?"
+  },
+  "spain": null,
+  "trick": "ALGO sounds like 'I'll go': I'll go get something from the kitchen.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/algo-something.word.mp3",
+    "sentence": "/deck/audio/algo-something.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "el-him",
+  "rank": 61,
+  "word": "él",
+  "draft": "2ae0633a2177f469",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "él = he; him (after a preposition). Example: 'This gift is for him.'",
+    "example": "This gift is for him."
+  },
+  "note": "The prompt already puts \"him\" after \"with\", so \"con él\" is the only right answer and the hint \"after a preposition\" isn't strictly needed, though it does no harm.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:03.715Z"
+}

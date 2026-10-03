@@ -1,0 +1,17 @@
+{
+  "id": "algo-something",
+  "rank": 57,
+  "word": "algo",
+  "draft": "c5220862a52ba1dd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "something (indefinite pronoun)",
+    "example": "Do you want something to drink?"
+  },
+  "note": "The prompt clearly separates this card from the \"somewhat\" card, and \"tomar\" meaning \"drink\" is natural everyday Latin American usage.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:27.957Z"
+}

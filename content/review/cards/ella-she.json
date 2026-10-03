@@ -1,0 +1,17 @@
+{
+  "id": "ella-she",
+  "rank": 72,
+  "word": "ella",
+  "draft": "37a922c9a061f0ea",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "she (subject pronoun); also her after a preposition",
+    "example": "She lives near my house."
+  },
+  "note": "Since this is the word's only card, the editor might want to mention somewhere that ella also means her after a preposition (para ella, con ella) and that Spanish often leaves out subject pronouns.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:58.777Z"
+}

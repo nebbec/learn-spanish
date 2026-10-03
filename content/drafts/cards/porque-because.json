@@ -1,0 +1,21 @@
+{
+  "id": "porque-because",
+  "rank": 78,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "porque",
+  "en": "I'm eating [because] I'm hungry",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "No voy porque estoy cansado.",
+    "en": "I'm not going because I'm tired."
+  },
+  "spain": null,
+  "trick": "PORQUE sounds like \"poor case\": you lost the case because your lawyer was poor.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/porque-because.word.mp3",
+    "sentence": "/deck/audio/porque-because.sentence.mp3"
+  }
+}

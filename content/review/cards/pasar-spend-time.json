@@ -1,0 +1,17 @@
+{
+  "id": "pasar-spend-time",
+  "rank": 55,
+  "word": "pasar",
+  "draft": "36c8780baacb284a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to spend (time), to pass, to happen",
+    "example": "I spend Sundays with my family."
+  },
+  "note": "The hint \"time, not money\" isn't needed because \"(time)\" in the prompt already rules out gastar, but it does no harm.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:21.007Z"
+}

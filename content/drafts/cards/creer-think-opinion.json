@@ -1,0 +1,28 @@
+{
+  "id": "creer-think-opinion",
+  "rank": 48,
+  "kind": "content",
+  "pos": "verb",
+  "es": "creer",
+  "en": "to think",
+  "hint": "have an opinion, as in I think so",
+  "grammar": {
+    "present": {
+      "yo": "creo",
+      "tu": "crees",
+      "el": "cree"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Creo que va a llover.",
+    "en": "I think it's going to rain."
+  },
+  "spain": null,
+  "trick": "CREO sounds like \"Cray-oh\": you draw what you think with a crayon.",
+  "image": "/deck/img/creer-think-opinion.webp",
+  "audio": {
+    "word": "/deck/audio/creer-think-opinion.word.mp3",
+    "sentence": "/deck/audio/creer-think-opinion.sentence.mp3"
+  }
+}

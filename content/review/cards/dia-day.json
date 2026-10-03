@@ -1,0 +1,17 @@
+{
+  "id": "dia-day",
+  "rank": 83,
+  "word": "día",
+  "draft": "c484904d8ff96c26",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "day (masculine noun)",
+    "example": "Today is a very nice day."
+  },
+  "note": "The trick usefully points out that día is masculine even though it ends in -a, which is a common trap for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:41.115Z"
+}

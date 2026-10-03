@@ -1,0 +1,28 @@
+{
+  "id": "saber-know",
+  "rank": 26,
+  "kind": "content",
+  "pos": "verb",
+  "es": "saber",
+  "en": "to know",
+  "hint": "facts, information, how to do something",
+  "grammar": {
+    "present": {
+      "yo": "sé",
+      "tu": "sabes",
+      "el": "sabe"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "No sé dónde están mis llaves.",
+    "en": "I don't know where my keys are."
+  },
+  "spain": null,
+  "trick": "SABER sounds like a wise man's \"saber\" sword: he cuts through every question because he knows all the answers.",
+  "image": "/deck/img/saber-know.webp",
+  "audio": {
+    "word": "/deck/audio/saber-know.word.mp3",
+    "sentence": "/deck/audio/saber-know.sentence.mp3"
+  }
+}

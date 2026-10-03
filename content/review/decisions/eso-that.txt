@@ -1,0 +1,29 @@
+# eso-that · rank 36 · eso
+#
+# Why it was flagged:
+#   - One right answer: The hint says 'near you', which a learner reads as near themselves (the speaker), and that is esto; eso actually points to something near the listener or an idea just mentioned, so the hint teaches the wrong distinction. Suggested fix: hint: neuter pronoun for something just said or near the person you're talking to, not far from both of you
+# Reviewer's note (not a reason to flag): The English 'that' already rules out esto, so the hint's real job is to rule out aquello and to explain what eso points to.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         eso-that
+kind:       glue
+pos:        pronoun
+es:         eso
+en:         [that] is not true
+hint:       neuter pronoun for an idea or thing near you, not far away
+example.es: Eso no es verdad.
+example.en: That's not true.
+spain:
+trick:      ESO sounds like 'so': 'So THAT is what you meant!'
+
+# The draft this file was made from. Do not change it.
+draft: 582cd1a6b0665f35

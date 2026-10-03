@@ -1,0 +1,17 @@
+{
+  "id": "como-as",
+  "rank": 42,
+  "word": "como",
+  "draft": "8e8c35b871d2a1fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "como = as (in equal comparisons: tan ... como, 'as ... as'); also 'like'",
+    "example": "My brother is as tall as you."
+  },
+  "note": "The hint \"after tan\" is useful because it rules out \"que\", which is used for unequal comparisons, and it keeps this card separate from the \"like\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:06.213Z"
+}

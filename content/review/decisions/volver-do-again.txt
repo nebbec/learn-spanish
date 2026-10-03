@@ -1,0 +1,33 @@
+# volver-do-again · rank 90 · volver
+#
+# Why it was flagged:
+#   - Example sentence: In the example, volver stays in the infinitive (only ir is conjugated), so the sentence does not conjugate the card's verb. Suggested fix: example.es: Mañana la vuelvo a llamar. / example.en: I'll call her again tomorrow.
+# Reviewer's note (not a reason to flag): The hint is needed and correctly rules out repetir and rehacer, and the revolver pun works because revolver and volver really are related.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         volver-do-again
+kind:       content
+pos:        verb
+es:         volver
+en:         to do again
+hint:       followed by a + infinitive
+yo:         vuelvo
+tu:         vuelves
+el:         vuelve
+irregular:  yes
+example.es: ¿Vas a volver a llamarla?
+example.en: Are you going to call her again?
+spain:
+trick:      VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again.
+
+# The draft this file was made from. Do not change it.
+draft: 4373b3d0d0f380d9

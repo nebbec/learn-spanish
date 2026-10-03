@@ -1,0 +1,12 @@
+{
+  "rank": 68,
+  "word": "venir",
+  "cards": [
+    "venir-come"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:26.260Z"
+}

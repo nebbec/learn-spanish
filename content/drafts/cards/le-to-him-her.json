@@ -1,0 +1,21 @@
+{
+  "id": "le-to-him-her",
+  "rank": 40,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "le",
+  "en": "I told [her] the truth",
+  "hint": "indirect object: to him, to her, to you (usted)",
+  "grammar": null,
+  "example": {
+    "es": "Le di el dinero a mi hermano.",
+    "en": "I gave my brother the money."
+  },
+  "spain": null,
+  "trick": "LE sounds like lay: you lay something down for him or her, handing it to them.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/le-to-him-her.word.mp3",
+    "sentence": "/deck/audio/le-to-him-her.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "este-this",
+  "rank": 29,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "este",
+  "en": "I want [this] book",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Este libro es muy bueno.",
+    "en": "This book is very good."
+  },
+  "spain": null,
+  "trick": "ESTE sounds like 'is t'he': point and say 'this is the one' right here.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/este-this.word.mp3",
+    "sentence": "/deck/audio/este-this.sentence.mp3"
+  }
+}

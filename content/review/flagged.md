@@ -1,52 +1,10 @@
 # Flagged cards
 
-The review pass flagged 10 cards: 10 waiting for you, 0 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
+The review pass flagged 20 cards: 17 waiting for you, 3 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
 
 **To decide on a card**, open its file in `content/review/decisions/` (linked under each card), change `decision: pending` to `decision: approve` or `decision: reject`, and correct any card line first if it needs it. Then run `npm run deck`, which puts approved cards in the deck and rewrites this list.
 
 ## Waiting for you
-
-### el-the · rank 1 · el
-
-Decide in [decisions/el-the.txt](decisions/el-the.txt)
-
-| Field | Card |
-|---|---|
-| Prompt | [the] boy |
-| Hint | masculine singular |
-| Answer | el |
-| Kind | glue, determiner |
-| Grammar | none |
-| Example | El perro está en la cocina. / The dog is in the kitchen. |
-| Spain | none |
-| Trick | EL sounds like the letter L, and L comes before M just like THE comes before a noun. |
-
-Why it was flagged:
-
-- One right answer: The hint is unnecessary because 'boy' (niño/chico) is already masculine singular, so 'el' is the only answer and a hint should only appear when the bare prompt is ambiguous. Suggested fix: hint: null
-
-The reviewer's own translation: answer "the (masculine singular definite article)"; example "The dog is in the kitchen.".
-
-### de-from · rank 2 · de
-
-Decide in [decisions/de-from.txt](decisions/de-from.txt)
-
-| Field | Card |
-|---|---|
-| Prompt | I'm [from] Mexico |
-| Hint | origin |
-| Answer | de |
-| Kind | glue, preposition |
-| Grammar | none |
-| Example | Soy de Colombia, ¿y tú? / I'm from Colombia, and you? |
-| Spain | none |
-| Trick | DE sounds like day: you came FROM far away, a whole day's trip. |
-
-Why it was flagged:
-
-- One right answer: The frame 'I'm [from] Mexico' already allows only 'de' ('soy desde México' is wrong), so the hint 'origin' isn't needed and breaks the hint-only-when-ambiguous rule. Suggested fix: hint: null
-
-The reviewer's own translation: answer "de = of, from (a preposition)"; example "I'm from Colombia, and you?".
 
 ### que-who-which · rank 3 · que
 
@@ -68,27 +26,6 @@ Why it was flagged:
 - One right answer: The hint suggests quien would also be correct here, just less common, but 'el hombre quien vive aquí' is ungrammatical because a restrictive relative clause without a comma needs que, so the bare prompt already has only one answer. Suggested fix: hint: null
 
 The reviewer's own translation: answer "que (relative pronoun): who, that, which"; example "The man who lives here is my uncle.".
-
-### no-no-answer · rank 5 · no
-
-Decide in [decisions/no-no-answer.txt](decisions/no-no-answer.txt)
-
-| Field | Card |
-|---|---|
-| Prompt | [No], thanks. |
-| Hint | the answer, opposite of yes |
-| Answer | no |
-| Kind | glue, adverb |
-| Grammar | none |
-| Example | ¿Quieres café? No, gracias. / Do you want coffee? No, thanks. |
-| Spain | none |
-| Trick | NO is spelled and said like English no, so refusing in Spanish works just like in English. |
-
-Why it was flagged:
-
-- One right answer: The bare prompt "[No], thanks." already has only one right answer, "no", and cannot be confused with the "I do [not] know" card, so the hint is unnecessary and should be dropped. Suggested fix: hint: null
-
-The reviewer's own translation: answer "no (the negative answer, opposite of yes)"; example "Do you want coffee? No, thanks.".
 
 ### un-a · rank 6 · un
 
@@ -217,6 +154,238 @@ Why it was flagged:
 
 The reviewer's own translation: answer "there to be (impersonal haber: hay = there is/there are); also the helper verb to have"; example "There is a dog in the house.".
 
+### ver-watch · rank 35 · ver
+
+Decide in [decisions/ver-watch.txt](decisions/ver-watch.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to watch |
+| Hint | TV, a movie |
+| Answer | ver |
+| Kind | content, verb |
+| Grammar | yo veo · tú ves · él ve (irregular) |
+| Example | ¿Vemos una película esta noche? / Should we watch a movie tonight? |
+| Spain | none |
+| Trick | VER sounds like "vary": you watch TV and vary the channel all night. |
+
+Why it was flagged:
+
+- One right answer: With only the hint "TV, a movie", mirar is also a right answer, since mirar la tele and mirar una película are common in much of Latin America, especially the Río de la Plata region. Suggested fix: hint: a movie, a show (same verb as "to see")
+
+Reviewer's note (not a reason to flag): Ver is still the most common way to say watching a movie or TV across Latin America, so the card is worth keeping once the hint rules out mirar.
+
+The reviewer's own translation: answer "to see; to watch (TV, a movie)"; example "Shall we watch a movie tonight?".
+
+### eso-that · rank 36 · eso
+
+Decide in [decisions/eso-that.txt](decisions/eso-that.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | [that] is not true |
+| Hint | neuter pronoun for an idea or thing near you, not far away |
+| Answer | eso |
+| Kind | glue, pronoun |
+| Grammar | none |
+| Example | Eso no es verdad. / That's not true. |
+| Spain | none |
+| Trick | ESO sounds like 'so': 'So THAT is what you meant!' |
+
+Why it was flagged:
+
+- One right answer: The hint says 'near you', which a learner reads as near themselves (the speaker), and that is esto; eso actually points to something near the listener or an idea just mentioned, so the hint teaches the wrong distinction. Suggested fix: hint: neuter pronoun for something just said or near the person you're talking to, not far from both of you
+
+Reviewer's note (not a reason to flag): The English 'that' already rules out esto, so the hint's real job is to rule out aquello and to explain what eso points to.
+
+The reviewer's own translation: answer "that (neuter demonstrative pronoun, for something just said or near the listener)"; example "That is not true.".
+
+### creer-think-opinion · rank 48 · creer
+
+Decide in [decisions/creer-think-opinion.txt](decisions/creer-think-opinion.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to think |
+| Hint | have an opinion, as in I think so |
+| Answer | creer |
+| Kind | content, verb |
+| Grammar | yo creo · tú crees · él cree (irregular) |
+| Example | Creo que va a llover. / I think it's going to rain. |
+| Spain | none |
+| Trick | CREO sounds like "Cray-oh": you draw what you think with a crayon. |
+
+Why it was flagged:
+
+- One right answer: Pensar is also a common, correct answer for 'to think' meaning 'have an opinion' (pienso que sí, ¿qué piensas?), and the hint doesn't rule it out, so a learner could reasonably answer pensar. Suggested fix: hint: suppose something is so, as in creo que sí for I think so (not pensar)
+
+Reviewer's note (not a reason to flag): Irregular: true is justified because the preterite has the y spelling (creyó, creyeron), even though the present is regular.
+
+The reviewer's own translation: answer "to believe; to think (have an opinion, suppose)"; example "I think it's going to rain.".
+
+### ahora-now · rank 52 · ahora
+
+Decide in [decisions/ahora-now.txt](decisions/ahora-now.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | now |
+| Hint | none |
+| Answer | ahora |
+| Kind | content, adverb |
+| Grammar | none |
+| Example | Ahora no puedo hablar, estoy ocupado. / I can't talk now, I'm busy. |
+| Spain | none |
+| Trick | AHORA sounds like "a whore-a"... better: like "a-HOUR-a": the hour that matters is the one happening now. |
+
+Why it was flagged:
+
+- Memory trick: The trick still contains a crude rejected pun and the drafting leftover '... better:', so the learner would see two tricks, one of them offensive. Suggested fix: trick: AHORA sounds like "a-HOUR-a": the hour that matters is the one happening now (and the Spanish word really does come from hora, hour).
+
+Reviewer's note (not a reason to flag): Mexican speakers also often say ahorita, but ahora is the right neutral answer for this card.
+
+The reviewer's own translation: answer "now (adverb)"; example "Now I can't talk, I'm busy.".
+
+### algo-somewhat · rank 57 · algo
+
+Decide in [decisions/algo-somewhat.txt](decisions/algo-somewhat.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | somewhat |
+| Hint | one word, before an adjective; not un poco |
+| Answer | algo |
+| Kind | content, adverb |
+| Grammar | none |
+| Example | Estoy algo cansado hoy. / I'm somewhat tired today. |
+| Spain | none |
+| Trick | ALGO sounds like 'all go': I'm somewhat tired, but we all go anyway. |
+
+Why it was flagged:
+
+- One right answer: In Latin America, medio is also one common word that goes before an adjective and means 'somewhat' (estoy medio cansado), and the hint does not rule it out; 'not un poco' adds nothing because 'one word' already rules un poco out. Suggested fix: hint: one word, before an adjective; not medio
+
+Reviewer's note (not a reason to flag): The adverb card is a good complement to the pronoun card ("I want [something] to eat"), and the two prompts do not overlap.
+
+The reviewer's own translation: answer "algo (adverb) = somewhat, rather, a bit (before an adjective)"; example "I'm somewhat tired today.".
+
+### gracias-thank-you · rank 75 · gracias
+
+Decide in [decisions/gracias-thank-you.txt](decisions/gracias-thank-you.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | thank you |
+| Hint | none |
+| Answer | gracias |
+| Kind | content, other |
+| Grammar | none |
+| Example | Muchas gracias por tu ayuda. / Thank you very much for your help. |
+| Spain | none |
+| Trick | GRACIAS sounds like gracious: a gracious person always says thank you. |
+
+Why it was flagged:
+
+- Example sentence: The sentence has no conjugated verb, and the rules say the example must conjugate one. Suggested fix: example.es: Muchas gracias, me ayudaste mucho. example.en: Thank you very much, you helped me a lot.
+
+Reviewer's note (not a reason to flag): Gracias also means "thanks", so the learner could accept either English prompt, but both still lead to the same single Spanish answer.
+
+The reviewer's own translation: answer "thank you, thanks"; example "Thank you very much for your help.".
+
+### senor-sir · rank 76 · señor
+
+Decide in [decisions/senor-sir.txt](decisions/senor-sir.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | sir, Mr. |
+| Hint | polite title or word for a man; feminine señora |
+| Answer | el señor |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | Buenos días, señor. ¿Le puedo ayudar? / Good morning, sir. Can I help you? |
+| Spain | none |
+| Trick | SEÑOR sounds like senior: you call an older, respected man sir. |
+
+Why it was flagged:
+
+- Latin American usage: The example uses the usted register (¿Le puedo ayudar?), but the app's sentences must use tú, and usted may only appear as a word card of its own. Suggested fix: example.es: Buenos días, señor López. ¿Cómo está su familia? is still usted, so use instead: El señor López vive en mi calle. / example.en: Mr. López lives on my street.
+
+Reviewer's note (not a reason to flag): The hint's 'feminine señora' rules out other answers like caballero and don, so the card has one right answer; the trick works because señor and senior share a Latin root.
+
+The reviewer's own translation: answer "the gentleman, the man; sir (as a form of address); Mr. (as a title before a surname); also lord"; example "Good morning, sir. Can I help you?".
+
+### hombre-man · rank 85 · hombre
+
+Decide in [decisions/hombre-man.txt](decisions/hombre-man.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | man |
+| Hint | none |
+| Answer | el hombre |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | Ese hombre es mi tío. / That man is my uncle. |
+| Spain | none |
+| Trick | HOMBRE sounds like "hombre-ombre", like a man's deep voice humming "hum-bray" as he walks into the room. |
+
+Why it was flagged:
+
+- Memory trick: The trick says hombre sounds like "hum-bray", which teaches a pronounced h, but the Spanish h is silent (OM-breh), and the "hombre-ombre" part means nothing. Suggested fix: trick: HOMBRE sounds like "OM-bray": picture a man chanting a deep "om" as he walks into the room (the h is silent).
+
+Reviewer's note (not a reason to flag): Hombre is also very common in speech as an interjection (\"¡Hombre!\"), but this card rightly teaches the noun meaning.
+
+The reviewer's own translation: answer "man (adult male person; also mankind)"; example "That man is my uncle.".
+
+### entonces-so · rank 86 · entonces
+
+Decide in [decisions/entonces-so.txt](decisions/entonces-so.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | so |
+| Hint | one word, to draw a conclusion or move on, not tan |
+| Answer | entonces |
+| Kind | content, adverb |
+| Grammar | none |
+| Example | Entonces, ¿vienes o no? / So, are you coming or not? |
+| Spain | none |
+| Trick | ENTONCES sounds like "in tone, says": in a serious tone, he says, "So, what now?" |
+
+Why it was flagged:
+
+- One right answer: The hint rules out tan and multi-word options like así que, but pues is also one word that means 'so' when drawing a conclusion or moving on ('Pues, ¿vienes o no?'), and it is very common in Mexico and Colombia, so the prompt has two right answers. Suggested fix: hint: one word, to draw a conclusion or move on, not pues or tan
+
+Reviewer's note (not a reason to flag): This card stays clearly separate from the word's other card, "then" (at that time).
+
+The reviewer's own translation: answer "then, so (adverb: at that time; or, as a connector, in that case / so)"; example "So, are you coming or not?".
+
+### volver-do-again · rank 90 · volver
+
+Decide in [decisions/volver-do-again.txt](decisions/volver-do-again.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to do again |
+| Hint | followed by a + infinitive |
+| Answer | volver |
+| Kind | content, verb |
+| Grammar | yo vuelvo · tú vuelves · él vuelve (irregular) |
+| Example | ¿Vas a volver a llamarla? / Are you going to call her again? |
+| Spain | none |
+| Trick | VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again. |
+
+Why it was flagged:
+
+- Example sentence: In the example, volver stays in the infinitive (only ir is conjugated), so the sentence does not conjugate the card's verb. Suggested fix: example.es: Mañana la vuelvo a llamar. / example.en: I'll call her again tomorrow.
+
+Reviewer's note (not a reason to flag): The hint is needed and correctly rules out repetir and rehacer, and the revolver pun works because revolver and volver really are related.
+
+The reviewer's own translation: answer "to return, to come back; with a + infinitive: to do (something) again"; example "Are you going to call her again?".
+
 ## Decided
 
-Nothing yet.
+- el-the (rank 1, el): approved. Flagged for one right answer.
+- de-from (rank 2, de): approved. Flagged for one right answer.
+- no-no-answer (rank 5, no): approved. Flagged for one right answer.

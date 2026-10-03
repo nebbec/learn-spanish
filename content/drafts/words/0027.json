@@ -1,0 +1,12 @@
+{
+  "rank": 27,
+  "word": "su",
+  "cards": [
+    "su-his-her"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:14:55.779Z"
+}

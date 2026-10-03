@@ -1,0 +1,17 @@
+{
+  "id": "solo-alone",
+  "rank": 47,
+  "word": "solo",
+  "draft": "0e214b3581496fd9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "alone, by oneself (adjective)",
+    "example": "My grandmother lives alone."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:35.295Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "asi-like-this",
+  "rank": 56,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "así",
+  "en": "like this, this way",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "No, hazlo así.",
+    "en": "No, do it like this."
+  },
+  "spain": null,
+  "trick": "ASÍ sounds like \"ah, see?\": ah, see? You do it like this.",
+  "image": "/deck/img/asi-like-this.webp",
+  "audio": {
+    "word": "/deck/audio/asi-like-this.word.mp3",
+    "sentence": "/deck/audio/asi-like-this.sentence.mp3"
+  }
+}

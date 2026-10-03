@@ -1,0 +1,14 @@
+{
+  "rank": 58,
+  "word": "dejar",
+  "cards": [
+    "dejar-leave",
+    "dejar-let",
+    "dejar-quit"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:56.473Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "otro-other",
+  "rank": 70,
+  "word": "otro",
+  "draft": "2c8f1d7b6efc5a4d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "other, another",
+    "example": "I want another coffee, please."
+  },
+  "note": "The prompt correctly expects \"otro\" with no article, because \"café\" is masculine; the editor could add that English speakers often wrongly say \"un otro\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:47.309Z"
+}

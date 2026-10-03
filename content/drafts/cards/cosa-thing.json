@@ -1,0 +1,24 @@
+{
+  "id": "cosa-thing",
+  "rank": 77,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cosa",
+  "en": "thing",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tengo muchas cosas que hacer hoy.",
+    "en": "I have a lot of things to do today."
+  },
+  "spain": null,
+  "trick": "COSA sounds like \"cause a\": every thing can cause a problem if you leave it lying around.",
+  "image": "/deck/img/cosa-thing.webp",
+  "audio": {
+    "word": "/deck/audio/cosa-thing.word.mp3",
+    "sentence": "/deck/audio/cosa-thing.sentence.mp3"
+  }
+}

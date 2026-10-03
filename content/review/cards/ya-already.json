@@ -1,0 +1,17 @@
+{
+  "id": "ya-already",
+  "rank": 51,
+  "word": "ya",
+  "draft": "76245be8ef05f678",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "already; now; anymore (with no)",
+    "example": "I already ate, thanks."
+  },
+  "note": "In Spain people would usually say \"Ya he comido\" here, but the word itself is the same, so spain is correctly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:56.422Z"
+}

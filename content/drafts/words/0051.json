@@ -1,0 +1,13 @@
+{
+  "rank": 51,
+  "word": "ya",
+  "cards": [
+    "ya-already",
+    "ya-not-anymore"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:35.902Z"
+}

@@ -1,0 +1,31 @@
+# senor-sir · rank 76 · señor
+#
+# Why it was flagged:
+#   - Latin American usage: The example uses the usted register (¿Le puedo ayudar?), but the app's sentences must use tú, and usted may only appear as a word card of its own. Suggested fix: example.es: Buenos días, señor López. ¿Cómo está su familia? is still usted, so use instead: El señor López vive en mi calle. / example.en: Mr. López lives on my street.
+# Reviewer's note (not a reason to flag): The hint's 'feminine señora' rules out other answers like caballero and don, so the card has one right answer; the trick works because señor and senior share a Latin root.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         senor-sir
+kind:       content
+pos:        noun
+es:         el señor
+en:         sir, Mr.
+hint:       polite title or word for a man; feminine señora
+gender:     m
+article:    el
+example.es: Buenos días, señor. ¿Le puedo ayudar?
+example.en: Good morning, sir. Can I help you?
+spain:
+trick:      SEÑOR sounds like senior: you call an older, respected man sir.
+
+# The draft this file was made from. Do not change it.
+draft: 9f7e7f8e87f3f540

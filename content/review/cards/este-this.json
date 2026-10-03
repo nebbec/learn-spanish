@@ -1,0 +1,17 @@
+{
+  "id": "este-this",
+  "rank": 29,
+  "word": "este",
+  "draft": "d139149ab6f7561a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "this (masculine singular demonstrative determiner, used before a noun)",
+    "example": "This book is very good."
+  },
+  "note": "Because \"libro\" is masculine, the prompt allows only \"este\" and rules out \"esta\" and \"esto\"; the editor may want to mention esta/estos/estas somewhere, even though determiners have no grammar field.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:53.687Z"
+}

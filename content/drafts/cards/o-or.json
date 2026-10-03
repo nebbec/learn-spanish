@@ -1,0 +1,21 @@
+{
+  "id": "o-or",
+  "rank": 69,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "o",
+  "en": "coffee [or] tea",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Quieres café o té?",
+    "en": "Do you want coffee or tea?"
+  },
+  "spain": null,
+  "trick": "O is the round shape of a fork in the road: you go one way or the other.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/o-or.word.mp3",
+    "sentence": "/deck/audio/o-or.sentence.mp3"
+  }
+}

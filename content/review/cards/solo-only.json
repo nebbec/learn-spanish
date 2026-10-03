@@ -1,0 +1,17 @@
+{
+  "id": "solo-only",
+  "rank": 47,
+  "word": "solo",
+  "draft": "3c53cf77178079ad",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "solo (adverb) = only, just",
+    "example": "I just want to sleep for a while."
+  },
+  "note": "The hint already rules out solamente, but \"adverb, as in 'I only want'; not solamente\" would also rule out the adjective único (\"the only one\"). The regional Mexican nomás is not a real competitor in neutral Spanish.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:30.358Z"
+}

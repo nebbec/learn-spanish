@@ -1,0 +1,13 @@
+{
+  "rank": 63,
+  "word": "sentir",
+  "cards": [
+    "sentir-feel",
+    "sentir-be-sorry"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:15.478Z"
+}

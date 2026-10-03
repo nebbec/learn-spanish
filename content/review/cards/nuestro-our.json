@@ -1,0 +1,17 @@
+{
+  "id": "nuestro-our",
+  "rank": 81,
+  "word": "nuestro",
+  "draft": "1f005ca52dfa0c7b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "our (possessive determiner, masculine singular)",
+    "example": "Our dog sleeps on the sofa."
+  },
+  "note": "The masculine noun \"perro\" correctly forces nuestro rather than nuestra/nuestros/nuestras; the editor might consider mentioning that it agrees with the thing owned, since this is the word's only card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:35.102Z"
+}

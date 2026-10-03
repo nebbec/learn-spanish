@@ -1,0 +1,21 @@
+{
+  "id": "yo-i",
+  "rank": 37,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "yo",
+  "en": "[I] am tired",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Yo no sé nada.",
+    "en": "I don't know anything."
+  },
+  "spain": null,
+  "trick": "YO sounds like a rapper's \"Yo!\": that's me, I'm talking about myself.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/yo-i.word.mp3",
+    "sentence": "/deck/audio/yo-i.sentence.mp3"
+  }
+}

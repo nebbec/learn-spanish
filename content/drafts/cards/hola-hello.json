@@ -1,0 +1,21 @@
+{
+  "id": "hola-hello",
+  "rank": 88,
+  "kind": "content",
+  "pos": "other",
+  "es": "hola",
+  "en": "hello",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¡Hola! ¿Cómo estás?",
+    "en": "Hello! How are you?"
+  },
+  "spain": null,
+  "trick": "HOLA sounds like \"hello\" with an O and an A: you holler hola to say hello.",
+  "image": "/deck/img/hola-hello.webp",
+  "audio": {
+    "word": "/deck/audio/hola-hello.word.mp3",
+    "sentence": "/deck/audio/hola-hello.sentence.mp3"
+  }
+}

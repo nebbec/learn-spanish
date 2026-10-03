@@ -1,0 +1,17 @@
+{
+  "id": "querer-love",
+  "rank": 28,
+  "word": "querer",
+  "draft": "9157777b83587e55",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to want; to love (a person), to be fond of",
+    "example": "I love you a lot, Mom."
+  },
+  "note": "The hint is needed: it rules out amar and points to affection for people, which also rules out encantar, so it keeps this card apart from the \"to want\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:52.568Z"
+}

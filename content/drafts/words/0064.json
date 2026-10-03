@@ -1,0 +1,12 @@
+{
+  "rank": 64,
+  "word": "tú",
+  "cards": [
+    "tu-you-informal"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:13.910Z"
+}

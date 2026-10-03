@@ -1,0 +1,17 @@
+{
+  "id": "como-like",
+  "rank": 42,
+  "word": "como",
+  "draft": "6fb7f5cd39afa199",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "like, as (comparison of manner or similarity)",
+    "example": "You talk like your mom."
+  },
+  "note": "The phrase \"igual que\" could also fit the prompt, but \"como\" is clearly the expected single word, and this card does not overlap with the tan...como card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:59.700Z"
+}

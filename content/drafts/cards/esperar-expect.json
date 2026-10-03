@@ -1,0 +1,28 @@
+{
+  "id": "esperar-expect",
+  "rank": 73,
+  "kind": "content",
+  "pos": "verb",
+  "es": "esperar",
+  "en": "to expect",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "espero",
+      "tu": "esperas",
+      "el": "espera"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "No esperaba verte aquí.",
+    "en": "I didn't expect to see you here."
+  },
+  "spain": null,
+  "trick": "ESPERAR sounds like 'prepare': you prepare for whatever you expect to happen.",
+  "image": "/deck/img/esperar-expect.webp",
+  "audio": {
+    "word": "/deck/audio/esperar-expect.word.mp3",
+    "sentence": "/deck/audio/esperar-expect.sentence.mp3"
+  }
+}

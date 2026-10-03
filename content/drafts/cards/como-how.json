@@ -1,0 +1,21 @@
+{
+  "id": "como-how",
+  "rank": 67,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "cómo",
+  "en": "[How] are you?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Cómo se llama tu hermano?",
+    "en": "What's your brother's name?"
+  },
+  "spain": null,
+  "trick": "CÓMO sounds like \"come, oh?\": you ask how someone will come over.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/como-how.word.mp3",
+    "sentence": "/deck/audio/como-how.sentence.mp3"
+  }
+}

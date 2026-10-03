@@ -1,0 +1,28 @@
+{
+  "id": "llamar-call",
+  "rank": 82,
+  "kind": "content",
+  "pos": "verb",
+  "es": "llamar",
+  "en": "to call",
+  "hint": "phone, call out",
+  "grammar": {
+    "present": {
+      "yo": "llamo",
+      "tu": "llamas",
+      "el": "llama"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te llamo mañana después del trabajo.",
+    "en": "I'll call you tomorrow after work."
+  },
+  "spain": null,
+  "trick": "LLAMAR starts like llama: picture a llama on the phone, calling you from the Andes.",
+  "image": "/deck/img/llamar-call.webp",
+  "audio": {
+    "word": "/deck/audio/llamar-call.word.mp3",
+    "sentence": "/deck/audio/llamar-call.sentence.mp3"
+  }
+}

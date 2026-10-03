@@ -1,0 +1,17 @@
+{
+  "id": "entonces-then-time",
+  "rank": 86,
+  "word": "entonces",
+  "draft": "b8708f8f57f635a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "then (at that time); also so (to draw a conclusion)",
+    "example": "Since then, I haven't seen him."
+  },
+  "note": "The hint \"at that time, not luego\" is needed and does its job: it rules out luego and después (afterwards) and keeps this card apart from the \"so\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:02.085Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "si-yes",
+  "rank": 32,
+  "word": "sí",
+  "draft": "9203014d8804e8ff",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "yes",
+    "example": "Yes, I want to go with you."
+  },
+  "note": "The written accent is what tells sí (yes) apart from si (if), so it may be worth pointing out to learners; the less common sí meaning \"oneself\" (para sí) has no card, which is fine at this level.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:09.640Z"
+}

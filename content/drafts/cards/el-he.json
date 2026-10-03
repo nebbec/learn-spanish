@@ -1,0 +1,21 @@
+{
+  "id": "el-he",
+  "rank": 61,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "él",
+  "en": "[he] is my brother",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Él no sabe nada.",
+    "en": "He doesn't know anything."
+  },
+  "spain": null,
+  "trick": "ÉL sounds like the letter L: think of L for Lad, a he.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/el-he.word.mp3",
+    "sentence": "/deck/audio/el-he.sentence.mp3"
+  }
+}

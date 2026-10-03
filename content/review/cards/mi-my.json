@@ -1,0 +1,17 @@
+{
+  "id": "mi-my",
+  "rank": 25,
+  "word": "mi",
+  "draft": "f647edd4857c5c43",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "my (possessive determiner, before a singular noun)",
+    "example": "My sister lives in Bogotá."
+  },
+  "note": "The singular noun in the prompt correctly rules out the plural mis, and mío cannot come before a noun, so mi is the only answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:38.367Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "muy-very",
+  "rank": 53,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "muy",
+  "en": "very",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "La película es muy buena.",
+    "en": "The movie is very good."
+  },
+  "spain": null,
+  "trick": "MUY sounds like a cow's very loud MOO: that cow is very, very noisy.",
+  "image": "/deck/img/muy-very.webp",
+  "audio": {
+    "word": "/deck/audio/muy-very.word.mp3",
+    "sentence": "/deck/audio/muy-very.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ya-not-anymore",
+  "rank": 51,
+  "word": "ya",
+  "draft": "6821d86978dc8dc2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "no longer / not anymore (adverbial phrase)",
+    "example": "I no longer live here. / I don't live here anymore."
+  },
+  "note": "The hint is needed and works, because it rules out the regional split form \"no ... más\" (as in Argentina and Uruguay); the answer is a two-word phrase built on ya and stays clearly separate from the \"already\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:02.290Z"
+}

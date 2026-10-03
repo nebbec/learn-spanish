@@ -1,0 +1,28 @@
+{
+  "id": "mirar-look-at",
+  "rank": 80,
+  "kind": "content",
+  "pos": "verb",
+  "es": "mirar",
+  "en": "to look at",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "miro",
+      "tu": "miras",
+      "el": "mira"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Por qué me miras así?",
+    "en": "Why are you looking at me like that?"
+  },
+  "spain": null,
+  "trick": "MIRAR sounds like mirror: you look at yourself in the mirror.",
+  "image": "/deck/img/mirar-look-at.webp",
+  "audio": {
+    "word": "/deck/audio/mirar-look-at.word.mp3",
+    "sentence": "/deck/audio/mirar-look-at.sentence.mp3"
+  }
+}

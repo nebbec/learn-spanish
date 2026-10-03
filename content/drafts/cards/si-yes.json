@@ -1,0 +1,21 @@
+{
+  "id": "si-yes",
+  "rank": 32,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "sí",
+  "en": "yes",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Sí, quiero ir contigo.",
+    "en": "Yes, I want to go with you."
+  },
+  "spain": null,
+  "trick": "SÍ sounds like see: when you see what someone means, you nod and say yes.",
+  "image": "/deck/img/si-yes.webp",
+  "audio": {
+    "word": "/deck/audio/si-yes.word.mp3",
+    "sentence": "/deck/audio/si-yes.sentence.mp3"
+  }
+}

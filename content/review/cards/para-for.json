@@ -1,0 +1,17 @@
+{
+  "id": "para-for",
+  "rank": 24,
+  "word": "para",
+  "draft": "f42124180854777a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "for (recipient, purpose, destination, deadline); in order to",
+    "example": "This gift is for you."
+  },
+  "note": "The hint is correct but not strictly needed, because \"a gift for you\" can only be \"para ti\" (por would not work here); the example sentence also nearly repeats the prompt, which is fine but adds little.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:32.762Z"
+}

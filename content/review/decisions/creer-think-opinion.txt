@@ -1,0 +1,33 @@
+# creer-think-opinion · rank 48 · creer
+#
+# Why it was flagged:
+#   - One right answer: Pensar is also a common, correct answer for 'to think' meaning 'have an opinion' (pienso que sí, ¿qué piensas?), and the hint doesn't rule it out, so a learner could reasonably answer pensar. Suggested fix: hint: suppose something is so, as in creo que sí for I think so (not pensar)
+# Reviewer's note (not a reason to flag): Irregular: true is justified because the preterite has the y spelling (creyó, creyeron), even though the present is regular.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         creer-think-opinion
+kind:       content
+pos:        verb
+es:         creer
+en:         to think
+hint:       have an opinion, as in I think so
+yo:         creo
+tu:         crees
+el:         cree
+irregular:  yes
+example.es: Creo que va a llover.
+example.en: I think it's going to rain.
+spain:
+trick:      CREO sounds like "Cray-oh": you draw what you think with a crayon.
+
+# The draft this file was made from. Do not change it.
+draft: a8559db75360c6c2

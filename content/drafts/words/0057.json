@@ -1,0 +1,13 @@
+{
+  "rank": 57,
+  "word": "algo",
+  "cards": [
+    "algo-something",
+    "algo-somewhat"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:54.436Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sentir-be-sorry",
+  "rank": 63,
+  "word": "sentir",
+  "draft": "ad043cbf09c5804c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to feel; to regret, to be sorry (as in lo siento)",
+    "example": "I'm sorry, I can't go."
+  },
+  "note": "The hint almost gives the answer away, but it is needed to rule out lamentar and arrepentirse, so it is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:21.082Z"
+}

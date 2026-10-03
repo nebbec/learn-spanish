@@ -1,0 +1,28 @@
+{
+  "id": "pensar-think",
+  "rank": 74,
+  "kind": "content",
+  "pos": "verb",
+  "es": "pensar",
+  "en": "to think",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "pienso",
+      "tu": "piensas",
+      "el": "piensa"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Pienso mucho en ti.",
+    "en": "I think about you a lot."
+  },
+  "spain": null,
+  "trick": "PENSAR sounds like pencil: you chew your pencil while you think hard.",
+  "image": "/deck/img/pensar-think.webp",
+  "audio": {
+    "word": "/deck/audio/pensar-think.word.mp3",
+    "sentence": "/deck/audio/pensar-think.sentence.mp3"
+  }
+}

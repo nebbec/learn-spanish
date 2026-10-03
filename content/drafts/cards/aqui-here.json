@@ -1,0 +1,21 @@
+{
+  "id": "aqui-here",
+  "rank": 43,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "aquí",
+  "en": "here",
+  "hint": "the standard word, not acá",
+  "grammar": null,
+  "example": {
+    "es": "Ven aquí, quiero mostrarte algo.",
+    "en": "Come here, I want to show you something."
+  },
+  "spain": null,
+  "trick": "AQUÍ sounds like a key: here is a key, right here in my hand.",
+  "image": "/deck/img/aqui-here.webp",
+  "audio": {
+    "word": "/deck/audio/aqui-here.word.mp3",
+    "sentence": "/deck/audio/aqui-here.sentence.mp3"
+  }
+}

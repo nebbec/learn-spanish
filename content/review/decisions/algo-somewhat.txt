@@ -1,0 +1,29 @@
+# algo-somewhat · rank 57 · algo
+#
+# Why it was flagged:
+#   - One right answer: In Latin America, medio is also one common word that goes before an adjective and means 'somewhat' (estoy medio cansado), and the hint does not rule it out; 'not un poco' adds nothing because 'one word' already rules un poco out. Suggested fix: hint: one word, before an adjective; not medio
+# Reviewer's note (not a reason to flag): The adverb card is a good complement to the pronoun card ("I want [something] to eat"), and the two prompts do not overlap.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         algo-somewhat
+kind:       content
+pos:        adverb
+es:         algo
+en:         somewhat
+hint:       one word, before an adjective; not un poco
+example.es: Estoy algo cansado hoy.
+example.en: I'm somewhat tired today.
+spain:
+trick:      ALGO sounds like 'all go': I'm somewhat tired, but we all go anyway.
+
+# The draft this file was made from. Do not change it.
+draft: c0c2cc1e825f8c8a

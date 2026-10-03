@@ -1,0 +1,21 @@
+{
+  "id": "del-of-the",
+  "rank": 41,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "del",
+  "en": "the car [of the] boss",
+  "hint": "one word: de + el, before a masculine noun",
+  "grammar": null,
+  "example": {
+    "es": "Es el carro del jefe.",
+    "en": "It's the boss's car."
+  },
+  "spain": null,
+  "trick": "DEL sounds like \"dell\": the computer of the boss is a Dell.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/del-of-the.word.mp3",
+    "sentence": "/deck/audio/del-of-the.sentence.mp3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rank": 25,
+  "word": "mi",
+  "cards": [
+    "mi-my"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:14:45.995Z"
+}

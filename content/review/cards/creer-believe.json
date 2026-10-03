@@ -1,0 +1,17 @@
+{
+  "id": "creer-believe",
+  "rank": 48,
+  "word": "creer",
+  "draft": "057c38d92b2f19fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to believe (also: to think, to suppose)",
+    "example": "I don't believe you at all."
+  },
+  "note": "The irregular flag is true only because of the preterite spelling change (creyó, creyeron), since the present-tense forms are regular; that is defensible under the rule.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:37.597Z"
+}

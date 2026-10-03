@@ -1,0 +1,33 @@
+# ver-watch · rank 35 · ver
+#
+# Why it was flagged:
+#   - One right answer: With only the hint "TV, a movie", mirar is also a right answer, since mirar la tele and mirar una película are common in much of Latin America, especially the Río de la Plata region. Suggested fix: hint: a movie, a show (same verb as "to see")
+# Reviewer's note (not a reason to flag): Ver is still the most common way to say watching a movie or TV across Latin America, so the card is worth keeping once the hint rules out mirar.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         ver-watch
+kind:       content
+pos:        verb
+es:         ver
+en:         to watch
+hint:       TV, a movie
+yo:         veo
+tu:         ves
+el:         ve
+irregular:  yes
+example.es: ¿Vemos una película esta noche?
+example.en: Should we watch a movie tonight?
+spain:
+trick:      VER sounds like "vary": you watch TV and vary the channel all night.
+
+# The draft this file was made from. Do not change it.
+draft: c678df5d1a5be4d2

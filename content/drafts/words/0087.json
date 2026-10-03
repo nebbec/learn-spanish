@@ -1,0 +1,13 @@
+{
+  "rank": 87,
+  "word": "casa",
+  "cards": [
+    "casa-house",
+    "casa-home"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:18:40.475Z"
+}

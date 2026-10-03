@@ -1,0 +1,17 @@
+{
+  "id": "dejar-let",
+  "rank": 58,
+  "word": "dejar",
+  "draft": "f33e808174bd6dee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to let, to allow (also: to leave, to quit)",
+    "example": "Let me see your phone."
+  },
+  "note": "The word \"allow\" in the hint could suggest permitir, but \"as in let me\" points clearly to the everyday dejar, so the hint works; it is also what keeps this card apart from the \"to leave\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:43.700Z"
+}

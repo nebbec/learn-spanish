@@ -1,0 +1,21 @@
+{
+  "id": "mucho-a-lot",
+  "rank": 71,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "mucho",
+  "en": "a lot",
+  "hint": "after a verb, as in I eat a lot",
+  "grammar": null,
+  "example": {
+    "es": "Te quiero mucho.",
+    "en": "I love you a lot."
+  },
+  "spain": null,
+  "trick": "MUCHO sounds like \"much, oh!\": you say it when someone does something a lot.",
+  "image": "/deck/img/mucho-a-lot.webp",
+  "audio": {
+    "word": "/deck/audio/mucho-a-lot.word.mp3",
+    "sentence": "/deck/audio/mucho-a-lot.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mas-more",
+  "rank": 44,
+  "word": "más",
+  "draft": "6b378b8da8896200",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "more",
+    "example": "I want more coffee, please."
+  },
+  "note": "In the example, más comes before a noun as a quantifier (\"more coffee\"), not as a plain adverb, which is fine because the RAE still calls it an adverb, but a sentence like \"Habla más despacio\" would show the adverb use more clearly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:12.990Z"
+}

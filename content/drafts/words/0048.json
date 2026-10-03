@@ -1,0 +1,13 @@
+{
+  "rank": 48,
+  "word": "creer",
+  "cards": [
+    "creer-believe",
+    "creer-think-opinion"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:10.629Z"
+}

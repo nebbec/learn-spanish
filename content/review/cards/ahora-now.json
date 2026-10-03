@@ -1,0 +1,23 @@
+{
+  "id": "ahora-now",
+  "rank": 52,
+  "word": "ahora",
+  "draft": "e54059c2063d1b45",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick still contains a crude rejected pun and the drafting leftover '... better:', so the learner would see two tricks, one of them offensive.",
+      "fix": "trick: AHORA sounds like \"a-HOUR-a\": the hour that matters is the one happening now (and the Spanish word really does come from hora, hour)."
+    }
+  ],
+  "back": {
+    "es": "now (adverb)",
+    "example": "Now I can't talk, I'm busy."
+  },
+  "note": "Mexican speakers also often say ahorita, but ahora is the right neutral answer for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:06.193Z"
+}

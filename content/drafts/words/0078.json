@@ -1,0 +1,12 @@
+{
+  "rank": 78,
+  "word": "porque",
+  "cards": [
+    "porque-because"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:18:06.074Z"
+}

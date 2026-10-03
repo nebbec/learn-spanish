@@ -1,0 +1,21 @@
+{
+  "id": "tu-you-informal",
+  "rank": 64,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "tú",
+  "en": "[you] are my friend",
+  "hint": "informal, one person, subject",
+  "grammar": null,
+  "example": {
+    "es": "¿Tú quieres ir al cine conmigo?",
+    "en": "Do you want to go to the movies with me?"
+  },
+  "spain": null,
+  "trick": "TÚ sounds like two: it takes two, me and you, to have a friendly chat.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/tu-you-informal.word.mp3",
+    "sentence": "/deck/audio/tu-you-informal.sentence.mp3"
+  }
+}

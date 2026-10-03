@@ -1,0 +1,28 @@
+{
+  "id": "venir-come",
+  "rank": 68,
+  "kind": "content",
+  "pos": "verb",
+  "es": "venir",
+  "en": "to come",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "vengo",
+      "tu": "vienes",
+      "el": "viene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Vienes a la fiesta esta noche?",
+    "en": "Are you coming to the party tonight?"
+  },
+  "spain": null,
+  "trick": "VENIR sounds like 'when ear': when your ear hears dinner called, you come running.",
+  "image": "/deck/img/venir-come.webp",
+  "audio": {
+    "word": "/deck/audio/venir-come.word.mp3",
+    "sentence": "/deck/audio/venir-come.sentence.mp3"
+  }
+}

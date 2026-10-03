@@ -1,0 +1,13 @@
+{
+  "rank": 44,
+  "word": "más",
+  "cards": [
+    "mas-more",
+    "mas-most"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:15:55.934Z"
+}

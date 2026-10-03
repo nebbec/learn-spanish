@@ -1,0 +1,17 @@
+{
+  "id": "esperar-wait",
+  "rank": 73,
+  "word": "esperar",
+  "draft": "68c909cfee20566c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "esperar: to wait (also to hope, to expect)",
+    "example": "Wait for me here, I'll be right back."
+  },
+  "note": "Aguardar also means to wait, but it is formal and uncommon, so esperar is clearly the expected answer, and the prompt does not need a hint to tell it apart from the \"to hope\" and \"to expect\" cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:00.448Z"
+}

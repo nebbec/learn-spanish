@@ -1,0 +1,13 @@
+{
+  "rank": 50,
+  "word": "deber",
+  "cards": [
+    "deber-must",
+    "deber-owe"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:15.898Z"
+}

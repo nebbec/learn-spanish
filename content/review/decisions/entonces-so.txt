@@ -1,0 +1,29 @@
+# entonces-so · rank 86 · entonces
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out tan and multi-word options like así que, but pues is also one word that means 'so' when drawing a conclusion or moving on ('Pues, ¿vienes o no?'), and it is very common in Mexico and Colombia, so the prompt has two right answers. Suggested fix: hint: one word, to draw a conclusion or move on, not pues or tan
+# Reviewer's note (not a reason to flag): This card stays clearly separate from the word's other card, "then" (at that time).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         entonces-so
+kind:       content
+pos:        adverb
+es:         entonces
+en:         so
+hint:       one word, to draw a conclusion or move on, not tan
+example.es: Entonces, ¿vienes o no?
+example.en: So, are you coming or not?
+spain:
+trick:      ENTONCES sounds like "in tone, says": in a serious tone, he says, "So, what now?"
+
+# The draft this file was made from. Do not change it.
+draft: 8cd7fc28f84c0578

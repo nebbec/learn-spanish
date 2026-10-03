@@ -1,0 +1,21 @@
+{
+  "id": "todo-all",
+  "rank": 30,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "todo",
+  "en": "[all] the day",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Trabajé todo el día.",
+    "en": "I worked all day."
+  },
+  "spain": null,
+  "trick": "TODO sounds like to-do: your to-do list takes all the day.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/todo-all.word.mp3",
+    "sentence": "/deck/audio/todo-all.sentence.mp3"
+  }
+}

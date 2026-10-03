@@ -1,0 +1,21 @@
+{
+  "id": "con-with",
+  "rank": 22,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "con",
+  "en": "coffee [with] milk",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Quieres venir conmigo o con ellos?",
+    "en": "Do you want to come with me or with them?"
+  },
+  "spain": null,
+  "trick": "CON sounds like \"cone\": ice cream always comes with a cone.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/con-with.word.mp3",
+    "sentence": "/deck/audio/con-with.sentence.mp3"
+  }
+}

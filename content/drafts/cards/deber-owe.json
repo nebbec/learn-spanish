@@ -1,0 +1,28 @@
+{
+  "id": "deber-owe",
+  "rank": 50,
+  "kind": "content",
+  "pos": "verb",
+  "es": "deber",
+  "en": "to owe",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "debo",
+      "tu": "debes",
+      "el": "debe"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te debo veinte dólares.",
+    "en": "I owe you twenty dollars."
+  },
+  "spain": null,
+  "trick": "DEBER sounds like debt-bear: when you owe money, you bear a debt.",
+  "image": "/deck/img/deber-owe.webp",
+  "audio": {
+    "word": "/deck/audio/deber-owe.word.mp3",
+    "sentence": "/deck/audio/deber-owe.sentence.mp3"
+  }
+}

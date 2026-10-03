@@ -1,0 +1,17 @@
+{
+  "id": "o-or",
+  "rank": 69,
+  "word": "o",
+  "draft": "30ff2207ac34f7ee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "or",
+    "example": "Do you want coffee or tea?"
+  },
+  "note": "The prompt correctly takes \"o\" and not \"u\", because \"té\" doesn't start with an o sound; the editor might later add that \"o\" becomes \"u\" before words starting with an o sound (siete u ocho).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:46.578Z"
+}

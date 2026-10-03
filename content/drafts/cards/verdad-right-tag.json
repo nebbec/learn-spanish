@@ -1,0 +1,21 @@
+{
+  "id": "verdad-right-tag",
+  "rank": 89,
+  "kind": "content",
+  "pos": "other",
+  "es": "¿verdad?",
+  "en": "right? (at the end of a sentence)",
+  "hint": "the tag that literally means truth, not ¿no?",
+  "grammar": null,
+  "example": {
+    "es": "Vienes mañana, ¿verdad?",
+    "en": "You're coming tomorrow, right?"
+  },
+  "spain": null,
+  "trick": "Ending with VERDAD is like asking for the verdict: that's true, right?",
+  "image": "/deck/img/verdad-right-tag.webp",
+  "audio": {
+    "word": "/deck/audio/verdad-right-tag.word.mp3",
+    "sentence": "/deck/audio/verdad-right-tag.sentence.mp3"
+  }
+}

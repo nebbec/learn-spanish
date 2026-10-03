@@ -1,0 +1,17 @@
+{
+  "id": "vez-time-occasion",
+  "rank": 59,
+  "word": "vez",
+  "draft": "0a71e6086bf55709",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "time, occasion, instance (as in once, three times)",
+    "example": "I told you three times."
+  },
+  "note": "The plural veces (z to c) appears in the example, so you could mention it in the grammar or the trick to help learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:50.199Z"
+}

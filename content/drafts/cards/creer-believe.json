@@ -1,0 +1,28 @@
+{
+  "id": "creer-believe",
+  "rank": 48,
+  "kind": "content",
+  "pos": "verb",
+  "es": "creer",
+  "en": "to believe",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "creo",
+      "tu": "crees",
+      "el": "cree"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "No te creo nada.",
+    "en": "I don't believe you at all."
+  },
+  "spain": null,
+  "trick": "CREER sounds like \"career\": you need to believe in yourself to build a career.",
+  "image": "/deck/img/creer-believe.webp",
+  "audio": {
+    "word": "/deck/audio/creer-believe.word.mp3",
+    "sentence": "/deck/audio/creer-believe.sentence.mp3"
+  }
+}

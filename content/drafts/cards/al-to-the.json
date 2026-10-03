@@ -1,0 +1,21 @@
+{
+  "id": "al-to-the",
+  "rank": 45,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "al",
+  "en": "I'm going [to the] park",
+  "hint": "a + el, before a masculine noun",
+  "grammar": null,
+  "example": {
+    "es": "Vamos al parque mañana.",
+    "en": "Let's go to the park tomorrow."
+  },
+  "spain": null,
+  "trick": "AL sounds like \"all\": all roads lead to the park.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/al-to-the.word.mp3",
+    "sentence": "/deck/audio/al-to-the.sentence.mp3"
+  }
+}

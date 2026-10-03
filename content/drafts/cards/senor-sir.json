@@ -1,0 +1,24 @@
+{
+  "id": "senor-sir",
+  "rank": 76,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el señor",
+  "en": "sir, Mr.",
+  "hint": "polite title or word for a man; feminine señora",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Buenos días, señor. ¿Le puedo ayudar?",
+    "en": "Good morning, sir. Can I help you?"
+  },
+  "spain": null,
+  "trick": "SEÑOR sounds like senior: you call an older, respected man sir.",
+  "image": "/deck/img/senor-sir.webp",
+  "audio": {
+    "word": "/deck/audio/senor-sir.word.mp3",
+    "sentence": "/deck/audio/senor-sir.sentence.mp3"
+  }
+}

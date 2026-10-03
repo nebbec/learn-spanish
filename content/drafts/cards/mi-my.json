@@ -1,0 +1,21 @@
+{
+  "id": "mi-my",
+  "rank": 25,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "mi",
+  "en": "[my] house",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Mi hermana vive en Bogotá.",
+    "en": "My sister lives in Bogotá."
+  },
+  "spain": null,
+  "trick": "MI sounds like me: anything that belongs to me is my stuff.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/mi-my.word.mp3",
+    "sentence": "/deck/audio/mi-my.sentence.mp3"
+  }
+}

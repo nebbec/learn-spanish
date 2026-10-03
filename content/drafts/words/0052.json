@@ -1,0 +1,12 @@
+{
+  "rank": 52,
+  "word": "ahora",
+  "cards": [
+    "ahora-now"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:16:32.993Z"
+}

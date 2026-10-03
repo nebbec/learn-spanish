@@ -1,0 +1,17 @@
+{
+  "id": "con-with",
+  "rank": 22,
+  "word": "con",
+  "draft": "07549abac3644354",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "with (preposition)",
+    "example": "Do you want to come with me or with them?"
+  },
+  "note": "The example shows both \"con ellos\" and the fused form \"conmigo\"; the editor could add that con + mí becomes conmigo (and con + ti becomes contigo) somewhere learners will see it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:25.704Z"
+}

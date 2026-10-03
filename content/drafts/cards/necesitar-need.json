@@ -1,0 +1,28 @@
+{
+  "id": "necesitar-need",
+  "rank": 79,
+  "kind": "content",
+  "pos": "verb",
+  "es": "necesitar",
+  "en": "to need",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "necesito",
+      "tu": "necesitas",
+      "el": "necesita"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Necesito tu ayuda, por favor.",
+    "en": "I need your help, please."
+  },
+  "spain": null,
+  "trick": "NECESITAR sounds like necessity: when something is a necessity, you need it.",
+  "image": "/deck/img/necesitar-need.webp",
+  "audio": {
+    "word": "/deck/audio/necesitar-need.word.mp3",
+    "sentence": "/deck/audio/necesitar-need.sentence.mp3"
+  }
+}

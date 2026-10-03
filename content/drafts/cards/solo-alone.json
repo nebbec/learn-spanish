@@ -1,0 +1,23 @@
+{
+  "id": "solo-alone",
+  "rank": 47,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "solo",
+  "en": "alone",
+  "hint": null,
+  "grammar": {
+    "feminine": "sola"
+  },
+  "example": {
+    "es": "Mi abuela vive sola.",
+    "en": "My grandma lives alone."
+  },
+  "spain": null,
+  "trick": "SOLO is like Han Solo: a pilot who likes to fly alone.",
+  "image": "/deck/img/solo-alone.webp",
+  "audio": {
+    "word": "/deck/audio/solo-alone.word.mp3",
+    "sentence": "/deck/audio/solo-alone.sentence.mp3"
+  }
+}

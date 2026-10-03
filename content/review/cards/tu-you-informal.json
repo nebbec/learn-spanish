@@ -1,0 +1,17 @@
+{
+  "id": "tu-you-informal",
+  "rank": 64,
+  "word": "tú",
+  "draft": "7bc02047c8b8d31d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "you (informal, singular, subject pronoun)",
+    "example": "Do you want to go to the movies with me?"
+  },
+  "note": "The hint is needed: it rules out usted (formal), ustedes (plural) and te/ti (not subject forms); vos is regional, so it does not count against neutral tú.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:23.596Z"
+}

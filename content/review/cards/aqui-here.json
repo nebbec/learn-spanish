@@ -1,0 +1,17 @@
+{
+  "id": "aqui-here",
+  "rank": 43,
+  "word": "aquí",
+  "draft": "82c600c669c9bb66",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "here",
+    "example": "Come here, I want to show you something."
+  },
+  "note": "The hint is needed because acá is a common Latin American answer, but acá is also standard Spanish, so \"not acá\" alone would be more accurate than \"the standard word\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:09.810Z"
+}

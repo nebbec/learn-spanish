@@ -1,0 +1,17 @@
+{
+  "id": "llamar-call",
+  "rank": 82,
+  "word": "llamar",
+  "draft": "0a59a3631edfc96e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to call (on the phone, or call someone over); also to name",
+    "example": "I'll call you tomorrow after work."
+  },
+  "note": "The hint \"phone, call out\" keeps this card apart from the learner's other card for llamarse (\"to be named\"), which is good.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:36.086Z"
+}

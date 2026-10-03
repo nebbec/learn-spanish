@@ -1,0 +1,21 @@
+{
+  "id": "entonces-then-time",
+  "rank": 86,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "entonces",
+  "en": "then",
+  "hint": "at that time, not luego",
+  "grammar": null,
+  "example": {
+    "es": "Desde entonces, no lo he visto.",
+    "en": "Since then, I haven't seen him."
+  },
+  "spain": null,
+  "trick": "ENTONCES sounds like \"in ton-says\": back then, an old clock went ton, ton, and everyone says it.",
+  "image": "/deck/img/entonces-then-time.webp",
+  "audio": {
+    "word": "/deck/audio/entonces-then-time.word.mp3",
+    "sentence": "/deck/audio/entonces-then-time.sentence.mp3"
+  }
+}

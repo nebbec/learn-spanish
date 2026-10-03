@@ -1,0 +1,17 @@
+{
+  "id": "cosa-thing",
+  "rank": 77,
+  "word": "cosa",
+  "draft": "1db39b672fb77295",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "thing",
+    "example": "I have many things to do today."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:18.665Z"
+}

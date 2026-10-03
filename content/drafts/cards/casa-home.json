@@ -1,0 +1,24 @@
+{
+  "id": "casa-home",
+  "rank": 87,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la casa",
+  "en": "home",
+  "hint": "as in at home, go home",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Ya me voy a casa.",
+    "en": "I'm going home now."
+  },
+  "spain": null,
+  "trick": "CASA sounds like \"cozy\": home is the cozy place you return to.",
+  "image": "/deck/img/casa-home.webp",
+  "audio": {
+    "word": "/deck/audio/casa-home.word.mp3",
+    "sentence": "/deck/audio/casa-home.sentence.mp3"
+  }
+}

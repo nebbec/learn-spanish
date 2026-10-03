@@ -1,0 +1,21 @@
+{
+  "id": "cuando-when",
+  "rank": 62,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "cuando",
+  "en": "call me [when] you arrive",
+  "hint": "not a question, no accent",
+  "grammar": null,
+  "example": {
+    "es": "Llámame cuando llegues a casa.",
+    "en": "Call me when you get home."
+  },
+  "spain": null,
+  "trick": "CUANDO sounds like \"quand-o\": like French quand, it tells you when something happens.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cuando-when.word.mp3",
+    "sentence": "/deck/audio/cuando-when.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "yo-i",
+  "rank": 37,
+  "word": "yo",
+  "draft": "45888c712cda488f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "I (first-person singular subject pronoun)",
+    "example": "I don't know anything."
+  },
+  "note": "Spanish usually drops yo and says just \"estoy cansado\", so the app could tell learners that yo is mostly used for emphasis or contrast.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:33.776Z"
+}

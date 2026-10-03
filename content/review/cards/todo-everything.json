@@ -1,0 +1,17 @@
+{
+  "id": "todo-everything",
+  "rank": 30,
+  "word": "todo",
+  "draft": "42fac2d9fb9791e8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "everything, all (pronoun)",
+    "example": "Calm down, everything is fine."
+  },
+  "note": "The example sentence mostly repeats the prompt, so it shows the learner little new context.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:04.128Z"
+}

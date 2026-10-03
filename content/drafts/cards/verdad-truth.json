@@ -1,0 +1,24 @@
+{
+  "id": "verdad-truth",
+  "rank": 89,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la verdad",
+  "en": "truth",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tienes que decirme la verdad.",
+    "en": "You have to tell me the truth."
+  },
+  "spain": null,
+  "trick": "VERDAD sounds like verdict: a fair verdict always rests on the truth.",
+  "image": "/deck/img/verdad-truth.webp",
+  "audio": {
+    "word": "/deck/audio/verdad-truth.word.mp3",
+    "sentence": "/deck/audio/verdad-truth.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "para-in-order-to",
+  "rank": 24,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "para",
+  "en": "I work [in order to] live",
+  "hint": "before a verb, showing purpose",
+  "grammar": null,
+  "example": {
+    "es": "Vine para hablar contigo.",
+    "en": "I came to talk to you."
+  },
+  "spain": null,
+  "trick": "PARA sounds like a paramedic, who rushes in order to save you.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/para-in-order-to.word.mp3",
+    "sentence": "/deck/audio/para-in-order-to.sentence.mp3"
+  }
+}

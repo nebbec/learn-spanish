@@ -1,0 +1,21 @@
+{
+  "id": "ya-not-anymore",
+  "rank": 51,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "ya no",
+  "en": "not anymore",
+  "hint": "two words, before the verb",
+  "grammar": null,
+  "example": {
+    "es": "Ya no vivo aquí.",
+    "en": "I don't live here anymore."
+  },
+  "spain": null,
+  "trick": "YA NO sounds like \"yeah, no\": a casual way of saying something doesn't happen anymore.",
+  "image": "/deck/img/ya-not-anymore.webp",
+  "audio": {
+    "word": "/deck/audio/ya-not-anymore.word.mp3",
+    "sentence": "/deck/audio/ya-not-anymore.sentence.mp3"
+  }
+}

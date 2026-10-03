@@ -1,0 +1,12 @@
+{
+  "rank": 69,
+  "word": "o",
+  "cards": [
+    "o-or"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:30.349Z"
+}

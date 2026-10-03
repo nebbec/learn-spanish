@@ -1,0 +1,28 @@
+{
+  "id": "volver-come-back",
+  "rank": 90,
+  "kind": "content",
+  "pos": "verb",
+  "es": "volver",
+  "en": "to come back",
+  "hint": "not regresar",
+  "grammar": {
+    "present": {
+      "yo": "vuelvo",
+      "tu": "vuelves",
+      "el": "vuelve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Vuelvo en cinco minutos.",
+    "en": "I'll be back in five minutes."
+  },
+  "spain": null,
+  "trick": "VOLVER sounds like Volvo: you drive your Volvo to come back home.",
+  "image": "/deck/img/volver-come-back.webp",
+  "audio": {
+    "word": "/deck/audio/volver-come-back.word.mp3",
+    "sentence": "/deck/audio/volver-come-back.sentence.mp3"
+  }
+}

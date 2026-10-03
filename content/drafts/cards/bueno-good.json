@@ -1,0 +1,23 @@
+{
+  "id": "bueno-good",
+  "rank": 39,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "bueno",
+  "en": "good",
+  "hint": null,
+  "grammar": {
+    "feminine": "buena"
+  },
+  "example": {
+    "es": "Es una película muy buena.",
+    "en": "It's a really good movie."
+  },
+  "spain": null,
+  "trick": "BUENO sounds like \"bway-no\": no way it's bad, it's good!",
+  "image": "/deck/img/bueno-good.webp",
+  "audio": {
+    "word": "/deck/audio/bueno-good.word.mp3",
+    "sentence": "/deck/audio/bueno-good.sentence.mp3"
+  }
+}

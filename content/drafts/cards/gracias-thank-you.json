@@ -1,0 +1,21 @@
+{
+  "id": "gracias-thank-you",
+  "rank": 75,
+  "kind": "content",
+  "pos": "other",
+  "es": "gracias",
+  "en": "thank you",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Muchas gracias por tu ayuda.",
+    "en": "Thank you very much for your help."
+  },
+  "spain": null,
+  "trick": "GRACIAS sounds like gracious: a gracious person always says thank you.",
+  "image": "/deck/img/gracias-thank-you.webp",
+  "audio": {
+    "word": "/deck/audio/gracias-thank-you.word.mp3",
+    "sentence": "/deck/audio/gracias-thank-you.sentence.mp3"
+  }
+}

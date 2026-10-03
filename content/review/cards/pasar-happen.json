@@ -1,0 +1,17 @@
+{
+  "id": "pasar-happen",
+  "rank": 55,
+  "word": "pasar",
+  "draft": "0fb700bf171249b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to happen, to pass, to spend (time); here, to happen (¿qué pasa? = what's happening?)",
+    "example": "What happened last night?"
+  },
+  "note": "The hint is needed: it rules out the more formal suceder and ocurrir, and it keeps this card separate from the \"to pass\" and \"to spend (time)\" cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:14.661Z"
+}

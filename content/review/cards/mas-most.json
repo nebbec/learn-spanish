@@ -1,0 +1,17 @@
+{
+  "id": "mas-most",
+  "rank": 44,
+  "word": "más",
+  "draft": "b2f4a67b5602e68f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "more; (after el/la/lo) most, as in the superlative",
+    "example": "She is the smartest (most intelligent) in the class."
+  },
+  "note": "The hint is needed and does its job: \"after el or la\" asks for the superlative más, and \"not the majority\" rules out la mayoría, so the card stays separate from the \"more\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:17.426Z"
+}

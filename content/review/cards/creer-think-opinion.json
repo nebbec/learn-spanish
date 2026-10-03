@@ -1,0 +1,23 @@
+{
+  "id": "creer-think-opinion",
+  "rank": 48,
+  "word": "creer",
+  "draft": "a8559db75360c6c2",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Pensar is also a common, correct answer for 'to think' meaning 'have an opinion' (pienso que sí, ¿qué piensas?), and the hint doesn't rule it out, so a learner could reasonably answer pensar.",
+      "fix": "hint: suppose something is so, as in creo que sí for I think so (not pensar)"
+    }
+  ],
+  "back": {
+    "es": "to believe; to think (have an opinion, suppose)",
+    "example": "I think it's going to rain."
+  },
+  "note": "Irregular: true is justified because the preterite has the y spelling (creyó, creyeron), even though the present is regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:21:44.985Z"
+}

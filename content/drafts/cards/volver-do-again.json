@@ -1,0 +1,28 @@
+{
+  "id": "volver-do-again",
+  "rank": 90,
+  "kind": "content",
+  "pos": "verb",
+  "es": "volver",
+  "en": "to do again",
+  "hint": "followed by a + infinitive",
+  "grammar": {
+    "present": {
+      "yo": "vuelvo",
+      "tu": "vuelves",
+      "el": "vuelve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Vas a volver a llamarla?",
+    "en": "Are you going to call her again?"
+  },
+  "spain": null,
+  "trick": "VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again.",
+  "image": "/deck/img/volver-do-again.webp",
+  "audio": {
+    "word": "/deck/audio/volver-do-again.word.mp3",
+    "sentence": "/deck/audio/volver-do-again.sentence.mp3"
+  }
+}

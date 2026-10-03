@@ -1,0 +1,17 @@
+{
+  "id": "esperar-expect",
+  "rank": 73,
+  "word": "esperar",
+  "draft": "90173ea4f5cef703",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "esperar = to expect (also to wait, to hope); example: I wasn't expecting to see you here / I didn't expect to see you here.",
+    "example": "I didn't expect to see you here."
+  },
+  "note": "The card passes every check: esperar is the common answer for \"to expect\" and needs no hint, though the 'prepare' sound link in the trick is weak.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:06.965Z"
+}

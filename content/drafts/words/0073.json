@@ -1,0 +1,14 @@
+{
+  "rank": 73,
+  "word": "esperar",
+  "cards": [
+    "esperar-wait",
+    "esperar-hope",
+    "esperar-expect"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:50.524Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 71,
+  "word": "mucho",
+  "cards": [
+    "mucho-many",
+    "mucho-a-lot"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:39.906Z"
+}

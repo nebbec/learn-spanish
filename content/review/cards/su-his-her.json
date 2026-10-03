@@ -1,0 +1,17 @@
+{
+  "id": "su-his-her",
+  "rank": 27,
+  "word": "su",
+  "draft": "251ae2e9a3e8b052",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "su = his, her, its, their, your (formal usted/ustedes); possessive determiner used before a singular noun",
+    "example": "Her (or his/their/your) house is very big."
+  },
+  "note": "The prompt really only needs the bare word su, since \"car\" is singular and rules out sus; the example is ambiguous out of context, so \"Her\" is just one correct reading among his/her/their/your, and the editor may want to mention the plural form sus somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:46.417Z"
+}

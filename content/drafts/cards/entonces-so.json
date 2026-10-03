@@ -1,0 +1,21 @@
+{
+  "id": "entonces-so",
+  "rank": 86,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "entonces",
+  "en": "so",
+  "hint": "one word, to draw a conclusion or move on, not tan",
+  "grammar": null,
+  "example": {
+    "es": "Entonces, ¿vienes o no?",
+    "en": "So, are you coming or not?"
+  },
+  "spain": null,
+  "trick": "ENTONCES sounds like \"in tone, says\": in a serious tone, he says, \"So, what now?\"",
+  "image": "/deck/img/entonces-so.webp",
+  "audio": {
+    "word": "/deck/audio/entonces-so.word.mp3",
+    "sentence": "/deck/audio/entonces-so.sentence.mp3"
+  }
+}

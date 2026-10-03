@@ -1,0 +1,17 @@
+{
+  "id": "casa-house",
+  "rank": 87,
+  "word": "casa",
+  "draft": "383e4ffaf3031c16",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "house; home",
+    "example": "My house has a big garden."
+  },
+  "note": "The bare prompt \"house\" is fine without a hint, because the separate \"home\" card covers the other sense and vivienda is too formal to compete.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:04.555Z"
+}

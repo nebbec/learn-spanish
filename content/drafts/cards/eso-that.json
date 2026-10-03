@@ -1,0 +1,21 @@
+{
+  "id": "eso-that",
+  "rank": 36,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "eso",
+  "en": "[that] is not true",
+  "hint": "neuter pronoun for an idea or thing near you, not far away",
+  "grammar": null,
+  "example": {
+    "es": "Eso no es verdad.",
+    "en": "That's not true."
+  },
+  "spain": null,
+  "trick": "ESO sounds like 'so': 'So THAT is what you meant!'",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/eso-that.word.mp3",
+    "sentence": "/deck/audio/eso-that.sentence.mp3"
+  }
+}

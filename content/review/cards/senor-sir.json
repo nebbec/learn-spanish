@@ -1,0 +1,23 @@
+{
+  "id": "senor-sir",
+  "rank": 76,
+  "word": "señor",
+  "draft": "9f7e7f8e87f3f540",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "The example uses the usted register (¿Le puedo ayudar?), but the app's sentences must use tú, and usted may only appear as a word card of its own.",
+      "fix": "example.es: Buenos días, señor López. ¿Cómo está su familia? is still usted, so use instead: El señor López vive en mi calle. / example.en: Mr. López lives on my street."
+    }
+  ],
+  "back": {
+    "es": "the gentleman, the man; sir (as a form of address); Mr. (as a title before a surname); also lord",
+    "example": "Good morning, sir. Can I help you?"
+  },
+  "note": "The hint's 'feminine señora' rules out other answers like caballero and don, so the card has one right answer; the trick works because señor and senior share a Latin root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:24.171Z"
+}

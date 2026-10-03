@@ -1,0 +1,28 @@
+{
+  "id": "dar-give",
+  "rank": 54,
+  "kind": "content",
+  "pos": "verb",
+  "es": "dar",
+  "en": "to give",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "doy",
+      "tu": "das",
+      "el": "da"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Dame el teléfono, por favor.",
+    "en": "Give me the phone, please."
+  },
+  "spain": null,
+  "trick": "DAR sounds like \"dollar\": you give someone a dollar.",
+  "image": "/deck/img/dar-give.webp",
+  "audio": {
+    "word": "/deck/audio/dar-give.word.mp3",
+    "sentence": "/deck/audio/dar-give.sentence.mp3"
+  }
+}

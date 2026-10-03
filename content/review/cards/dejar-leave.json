@@ -1,0 +1,17 @@
+{
+  "id": "dejar-leave",
+  "rank": 58,
+  "word": "dejar",
+  "draft": "0b80575dcc3c108d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to leave (something or someone somewhere), to leave behind; also to let, to allow",
+    "example": "I left the keys on the table."
+  },
+  "note": "The hint already works because \"behind\" points to dejar, but \"not go out or go away\" would also clearly rule out irse as well as salir.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:35.572Z"
+}

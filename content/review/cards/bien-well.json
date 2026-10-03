@@ -1,0 +1,17 @@
+{
+  "id": "bien-well",
+  "rank": 34,
+  "word": "bien",
+  "draft": "2e4bb98ec17c8b62",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "well, fine (adverb: in a good or right way)",
+    "example": "You sing very well."
+  },
+  "note": "The hint is useful because it rules out the filler \"well...\". Latin American speakers also say \"pues\" for that, but \"bueno\" is the most common choice, so the hint is accurate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:16.461Z"
+}

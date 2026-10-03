@@ -1,0 +1,17 @@
+{
+  "id": "dejar-quit",
+  "rank": 58,
+  "word": "dejar",
+  "draft": "0d2c30088e2e0afa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dejar (de + infinitive): to stop, to quit doing something",
+    "example": "My dad stopped smoking."
+  },
+  "note": "The hint could say \"a habit; used with de plus a verb\" to make parar de even less likely as an answer, though dejar de is already the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:51.123Z"
+}

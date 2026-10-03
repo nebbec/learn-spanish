@@ -1,0 +1,17 @@
+{
+  "id": "decir-say",
+  "rank": 23,
+  "word": "decir",
+  "draft": "75b641b01adcd78b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to say; to tell",
+    "example": "What did you say? I didn't hear you."
+  },
+  "note": "The trick would be clearer as \"DECIR sounds like 'the seer'\" (Latin American pronunciation is roughly deh-SEER), since \"sere\" is an obscure word that clashes with the \"seer\" image.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:28.540Z"
+}

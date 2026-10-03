@@ -1,0 +1,12 @@
+{
+  "rank": 33,
+  "word": "si",
+  "cards": [
+    "si-if"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:15:16.649Z"
+}

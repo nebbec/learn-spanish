@@ -1,0 +1,23 @@
+{
+  "id": "hombre-man",
+  "rank": 85,
+  "word": "hombre",
+  "draft": "634e3aa5b3e7543e",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says hombre sounds like \"hum-bray\", which teaches a pronounced h, but the Spanish h is silent (OM-breh), and the \"hombre-ombre\" part means nothing.",
+      "fix": "trick: HOMBRE sounds like \"OM-bray\": picture a man chanting a deep \"om\" as he walks into the room (the h is silent)."
+    }
+  ],
+  "back": {
+    "es": "man (adult male person; also mankind)",
+    "example": "That man is my uncle."
+  },
+  "note": "Hombre is also very common in speech as an interjection (\\\"¡Hombre!\\\"), but this card rightly teaches the noun meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:51.968Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "te-you",
+  "rank": 21,
+  "word": "te",
+  "draft": "e6c33933feff7c0c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "te = you (informal tú, direct or indirect object pronoun, placed before the conjugated verb), as in te quiero = I love you",
+    "example": "Te llamo mañana. = I'll call you tomorrow."
+  },
+  "note": "The hint is needed: it rules out usted forms (lo, la, le) and the stressed form a ti, and the object meaning keeps this card apart from the reflexive \"yourself\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:19:20.116Z"
+}

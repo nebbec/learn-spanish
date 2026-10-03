@@ -1,0 +1,28 @@
+{
+  "id": "ver-see",
+  "rank": 35,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ver",
+  "en": "to see",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "veo",
+      "tu": "ves",
+      "el": "ve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "No veo nada sin mis lentes.",
+    "en": "I can't see anything without my glasses."
+  },
+  "spain": null,
+  "trick": "VER sounds like \"where\": you ask where it is until you finally see it.",
+  "image": "/deck/img/ver-see.webp",
+  "audio": {
+    "word": "/deck/audio/ver-see.word.mp3",
+    "sentence": "/deck/audio/ver-see.sentence.mp3"
+  }
+}

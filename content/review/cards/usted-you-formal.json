@@ -1,0 +1,17 @@
+{
+  "id": "usted-you-formal",
+  "rank": 84,
+  "word": "usted",
+  "draft": "a7f482e49f3b80dc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "you (formal, singular)",
+    "example": "Are you the doctor?"
+  },
+  "note": "The hint is needed and works: \"formal\" rules out tú and \"one person\" rules out ustedes.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:46.555Z"
+}

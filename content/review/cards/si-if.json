@@ -1,0 +1,17 @@
+{
+  "id": "si-if",
+  "rank": 33,
+  "word": "si",
+  "draft": "044a9235d0d53d3e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "if (conjunction introducing a condition)",
+    "example": "If you want, we'll go to the movies (or: let's go to the movies)."
+  },
+  "note": "The prompt doesn't strictly need the hint, since \"[if]\" can only be si, but the warning about the accent and sí meaning yes is correct and helpful.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:20:13.013Z"
+}

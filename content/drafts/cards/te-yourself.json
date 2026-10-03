@@ -1,0 +1,21 @@
+{
+  "id": "te-yourself",
+  "rank": 21,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "te",
+  "en": "did you hurt [yourself]?",
+  "hint": "one short word before the verb",
+  "grammar": null,
+  "example": {
+    "es": "¿Te lastimaste la mano?",
+    "en": "Did you hurt your hand?"
+  },
+  "spain": null,
+  "trick": "TE sounds like tea: you spilled hot tea on yourself.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/te-yourself.word.mp3",
+    "sentence": "/deck/audio/te-yourself.sentence.mp3"
+  }
+}

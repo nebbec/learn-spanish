@@ -1,0 +1,17 @@
+{
+  "id": "llamar-be-named",
+  "rank": 82,
+  "word": "llamar",
+  "draft": "75ba94263951dc84",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be called, to be named (reflexive: me llamo = my name is)",
+    "example": "Hello, I'm called Ana. What are you called?"
+  },
+  "note": "\"To be named\" could in theory be read as \"to be appointed\" (ser nombrado), so the editor could add an optional hint such as \"my name is...\", but llamarse is clearly the expected answer and it stays separate from the \"to call\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:24:42.787Z"
+}

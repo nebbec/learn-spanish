@@ -1,0 +1,13 @@
+{
+  "rank": 30,
+  "word": "todo",
+  "cards": [
+    "todo-all",
+    "todo-everything"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:15:10.925Z"
+}

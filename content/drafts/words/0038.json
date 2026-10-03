@@ -1,0 +1,12 @@
+{
+  "rank": 38,
+  "word": "tu",
+  "cards": [
+    "tu-your"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:15:32.010Z"
+}

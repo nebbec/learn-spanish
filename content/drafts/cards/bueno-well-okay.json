@@ -1,0 +1,21 @@
+{
+  "id": "bueno-well-okay",
+  "rank": 39,
+  "kind": "content",
+  "pos": "other",
+  "es": "bueno",
+  "en": "well, okay",
+  "hint": "filler word to start a reply, not bien",
+  "grammar": null,
+  "example": {
+    "es": "Bueno, nos vemos mañana.",
+    "en": "Well, see you tomorrow."
+  },
+  "spain": null,
+  "trick": "BUENO starts a reply like \"well, now\": a quick sound to buy time before you answer.",
+  "image": "/deck/img/bueno-well-okay.webp",
+  "audio": {
+    "word": "/deck/audio/bueno-well-okay.word.mp3",
+    "sentence": "/deck/audio/bueno-well-okay.sentence.mp3"
+  }
+}

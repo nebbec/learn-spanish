@@ -1,0 +1,21 @@
+{
+  "id": "si-if",
+  "rank": 33,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "si",
+  "en": "[if] you want, we go",
+  "hint": "no accent; not sí meaning yes",
+  "grammar": null,
+  "example": {
+    "es": "Si quieres, vamos al cine.",
+    "en": "If you want, we'll go to the movies."
+  },
+  "spain": null,
+  "trick": "SI sounds like \"see\": we'll see IF it works.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/si-if.word.mp3",
+    "sentence": "/deck/audio/si-if.sentence.mp3"
+  }
+}

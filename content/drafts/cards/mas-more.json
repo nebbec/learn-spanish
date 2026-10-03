@@ -1,0 +1,21 @@
+{
+  "id": "mas-more",
+  "rank": 44,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "más",
+  "en": "more",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Quiero más café, por favor.",
+    "en": "I want more coffee, please."
+  },
+  "spain": null,
+  "trick": "MÁS sounds like \"mass\": a bigger mass means more.",
+  "image": "/deck/img/mas-more.webp",
+  "audio": {
+    "word": "/deck/audio/mas-more.word.mp3",
+    "sentence": "/deck/audio/mas-more.sentence.mp3"
+  }
+}

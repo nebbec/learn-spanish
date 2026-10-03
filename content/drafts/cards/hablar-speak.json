@@ -1,0 +1,28 @@
+{
+  "id": "hablar-speak",
+  "rank": 60,
+  "kind": "content",
+  "pos": "verb",
+  "es": "hablar",
+  "en": "to speak, to talk",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "hablo",
+      "tu": "hablas",
+      "el": "habla"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Hablas inglés?",
+    "en": "Do you speak English?"
+  },
+  "spain": null,
+  "trick": "HABLAR sounds like \"blabber\": people who blabber talk all day long.",
+  "image": "/deck/img/hablar-speak.webp",
+  "audio": {
+    "word": "/deck/audio/hablar-speak.word.mp3",
+    "sentence": "/deck/audio/hablar-speak.sentence.mp3"
+  }
+}

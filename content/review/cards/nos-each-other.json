@@ -1,0 +1,17 @@
+{
+  "id": "nos-each-other",
+  "rank": 65,
+  "word": "nos",
+  "draft": "b96b64a063cadaa5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "each other / ourselves (reciprocal or reflexive pronoun for we)",
+    "example": "We'll see each other tomorrow at school."
+  },
+  "note": "The hint correctly steers away from longer phrasings like \"el uno al otro\", and the example's \"nos vemos\" also works as the everyday goodbye \"see you\", which learners will meet often.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:32.146Z"
+}

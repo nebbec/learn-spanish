@@ -1,0 +1,28 @@
+{
+  "id": "deber-must",
+  "rank": 50,
+  "kind": "content",
+  "pos": "verb",
+  "es": "deber",
+  "en": "to have to",
+  "hint": "must, should; not tener que",
+  "grammar": {
+    "present": {
+      "yo": "debo",
+      "tu": "debes",
+      "el": "debe"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Deberías llamar a tu mamá.",
+    "en": "You should call your mom."
+  },
+  "spain": null,
+  "trick": "DEBER sounds like debate: there is no debate, you simply must do it.",
+  "image": "/deck/img/deber-must.webp",
+  "audio": {
+    "word": "/deck/audio/deber-must.word.mp3",
+    "sentence": "/deck/audio/deber-must.sentence.mp3"
+  }
+}

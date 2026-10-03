@@ -1,0 +1,17 @@
+{
+  "id": "hola-hello",
+  "rank": 88,
+  "word": "hola",
+  "draft": "0b26bfe46ecbafde",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "hello, hi (greeting)",
+    "example": "Hi! How are you?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:25:09.826Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 24,
+  "word": "para",
+  "cards": [
+    "para-for",
+    "para-in-order-to"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:14:47.737Z"
+}

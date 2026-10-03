@@ -1,0 +1,17 @@
+{
+  "id": "venir-come",
+  "rank": 68,
+  "word": "venir",
+  "draft": "a3a2a54c1607260b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to come",
+    "example": "Are you coming to the party tonight?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:23:40.564Z"
+}

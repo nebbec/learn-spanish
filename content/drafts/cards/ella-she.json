@@ -1,0 +1,21 @@
+{
+  "id": "ella-she",
+  "rank": 72,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "ella",
+  "en": "[she] is my friend",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Ella vive cerca de mi casa.",
+    "en": "She lives near my house."
+  },
+  "spain": null,
+  "trick": "ELLA sounds like Ella, a girl's name, and Ella is always a she.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ella-she.word.mp3",
+    "sentence": "/deck/audio/ella-she.sentence.mp3"
+  }
+}

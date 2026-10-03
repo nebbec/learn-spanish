@@ -1,0 +1,17 @@
+{
+  "id": "hablar-speak",
+  "rank": 60,
+  "word": "hablar",
+  "draft": "2d1e8a56b4bf7226",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to speak, to talk",
+    "example": "Do you speak English?"
+  },
+  "note": "Words like conversar or the Mexican platicar can also mean \"to talk\", but hablar is the clear default answer for \"to speak, to talk\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T14:22:56.186Z"
+}

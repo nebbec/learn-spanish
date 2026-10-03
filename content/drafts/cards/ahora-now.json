@@ -1,0 +1,21 @@
+{
+  "id": "ahora-now",
+  "rank": 52,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "ahora",
+  "en": "now",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Ahora no puedo hablar, estoy ocupado.",
+    "en": "I can't talk now, I'm busy."
+  },
+  "spain": null,
+  "trick": "AHORA sounds like \"a whore-a\"... better: like \"a-HOUR-a\": the hour that matters is the one happening now.",
+  "image": "/deck/img/ahora-now.webp",
+  "audio": {
+    "word": "/deck/audio/ahora-now.word.mp3",
+    "sentence": "/deck/audio/ahora-now.sentence.mp3"
+  }
+}

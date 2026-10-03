@@ -1,0 +1,28 @@
+{
+  "id": "sentir-feel",
+  "rank": 63,
+  "kind": "content",
+  "pos": "verb",
+  "es": "sentir",
+  "en": "to feel",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "siento",
+      "tu": "sientes",
+      "el": "siente"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Me siento muy cansado hoy.",
+    "en": "I feel very tired today."
+  },
+  "spain": null,
+  "trick": "SENTIR sounds like sent here: every feeling gets sent here, straight to your heart.",
+  "image": "/deck/img/sentir-feel.webp",
+  "audio": {
+    "word": "/deck/audio/sentir-feel.word.mp3",
+    "sentence": "/deck/audio/sentir-feel.sentence.mp3"
+  }
+}

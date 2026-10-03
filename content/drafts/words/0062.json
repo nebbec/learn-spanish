@@ -1,0 +1,12 @@
+{
+  "rank": 62,
+  "word": "cuando",
+  "cards": [
+    "cuando-when"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:17:06.375Z"
+}

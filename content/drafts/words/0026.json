@@ -1,0 +1,12 @@
+{
+  "rank": 26,
+  "word": "saber",
+  "cards": [
+    "saber-know"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-03T14:14:51.865Z"
+}
