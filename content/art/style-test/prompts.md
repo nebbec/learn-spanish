@@ -33,7 +33,7 @@ Right column: a pastel mint-green baby turtle with a pale lilac rounded shell.
 No text, letters, numbers or symbols anywhere in the image. Each character keeps the same design in its two panels.
 ```
 
-## Turtle model sheet (`../mascot/turtle-sheet.webp`)
+## Turtle model sheet (`../cast/turtle-sheet.webp`)
 
 Same model, 2k, 16:9, with the turtle panel cropped from the candidates sheet as `--image`.
 
@@ -46,3 +46,21 @@ Top row, turnaround in a neutral standing pose: front view, three-quarter view, 
 Bottom row, expressions: very happy jumping with arms up, surprised with a little wiggle, sad and drooping with head down, thinking with one hand on its chin.
 No text, letters, numbers or symbols anywhere in the image. The same character design in all eight panels.
 ```
+
+## Cast candidates (`cast-candidates.jpg`)
+
+A second round after F1, for a lead with more character that could also front the app's Instagram account. Seedream 5.0 Flash, 2k, 1:1, one render per candidate, each with the turtle's panel from `mascot-candidates.jpg` as `--image` for the clay material only. Candidates: a hummingbird, an alpaca, a coquí frog, a capybara, a concha bun and a made-up teardrop. Courtney chose the concha as lead and kept the alpaca, with the turtle, the chick and the capybara, as the cast. Each prompt is the candidate's line followed by the shared text.
+
+Shared text:
+
+```
+Ultra-simple Japanese kawaii character design: a soft rounded mochi-like body, almost no neck, tiny stubby limbs, tiny black dot eyes set wide apart, soft pink blush cheeks, soft pastel colours. Rendered as a handmade clay toy: matte plasticine with subtle fingerprints, rounded chunky forms, soft studio lighting with gentle shadows. Use the reference image for the clay material, colour softness, cuteness and lighting only, not for the character. Full body, centred. Plain warm cream background (#fff8ec). No text, letters, numbers or symbols anywhere in the image.
+```
+
+Concha line: `A tiny cute creature that is a Mexican concha sweet bun: a soft round pastel-pink bread dome with the classic white sugar seashell pattern on top, worn like an elegant hairdo, with a small face on the front of the bun, tiny stubby arms and legs. She is a little drama-queen diva: two tiny eyelash flicks above each dot eye and a tiny red mouth, with one tiny limb raised to her forehead as if about to swoon. Tiny pastel-lilac cat-eye sunglasses perched on top.`
+
+Alpaca line: `A tiny round baby alpaca, a fluffy cream-white cloud of a body, a huge fluffy topknot of curly wool on her head like dramatic 1980s big hair, small pastel-pink ears.` followed by the same diva line and `A small pastel-lilac feather boa around her neck.`
+
+## Cast model sheets (`../cast/`)
+
+The concha's and the alpaca's from their candidate renders, the chick's and the capybara's from their panels on `mascot-candidates.jpg`, each as `--image`. The prompt is the turtle model sheet's above, with the turtle's description replaced by the character's from `../style.md`. 16:9, 2k.
