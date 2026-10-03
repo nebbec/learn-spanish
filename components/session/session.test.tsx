@@ -6,8 +6,8 @@ import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { BatchEnd, LearnSession, SessionView, summarize, useSession } from "@/components/session";
 import { until } from "@/components/testing";
 import { fixtureDeck } from "@/lib/deck/fixture";
-import { learnQueue, type CardStates } from "@/lib/queues";
-import { isSeen, replayReviews, type CardState } from "@/lib/scheduler";
+import { learnQueue, testSteps, type CardStates, type IntroChoice } from "@/lib/queues";
+import { isSeen, rateCard, replayReviews, type CardState } from "@/lib/scheduler";
 import { LocalStore, type Direction, type Rating } from "@/lib/store";
 
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
@@ -48,6 +48,11 @@ function mountLearn(props: { states?: CardStates; batchSize?: number; onBatchEnd
   );
 }
 
+/** Passes every intro on screen with "Got it", until a test's front is up. */
+function passIntros() {
+  while (q("intro")) act(() => q("intro-got-it")!.click());
+}
+
 /** Reveals the card on screen with a tap, rates it, and returns its id. */
 async function study(rating: Rating) {
   act(() => q("card-front")!.click());
@@ -57,15 +62,35 @@ async function study(rating: Rating) {
   return cardId;
 }
 
-/** Studies until the batch ends. `pick` chooses the rating from the number of cards studied so far. */
-async function studyBatch(pick: (position: number) => Rating) {
+/**
+ * Studies until the batch ends. `taps` is every rating, in order. `pick` chooses a test's
+ * rating from the number of tests rated so far; `choose` passes each intro, "Got it" unless
+ * it says otherwise. `steps` lists what was shown: `intro:<id>` and `test:<id>`.
+ */
+async function studyBatch(pick: (position: number) => Rating, choose: (cardId: string) => IntroChoice = () => "got-it") {
   const tapped: { cardId: string; rating: Rating }[] = [];
+  const steps: string[] = [];
+  let tests = 0;
   while (!q("batch-end")) {
-    if (tapped.length > 50) throw new Error("The batch never ended");
-    const rating = pick(tapped.length);
-    tapped.push({ cardId: await study(rating), rating });
+    if (steps.length > 100) throw new Error("The batch never ended");
+    const intro = q("intro")?.dataset.cardId;
+    if (intro) {
+      steps.push(`intro:${intro}`);
+      const choice = choose(intro);
+      act(() => q(`intro-${choice}`)!.click());
+      if (choice === "known") {
+        tapped.push({ cardId: intro, rating: "known" });
+        await until(() => q("intro")?.dataset.cardId !== intro, "the known card to leave the screen");
+      }
+      continue;
+    }
+    const rating = pick(tests);
+    tests += 1;
+    const cardId = await study(rating);
+    steps.push(`test:${cardId}`);
+    tapped.push({ cardId, rating });
   }
-  return tapped;
+  return { taps: tapped, steps };
 }
 
 const storedTaps = async () =>
@@ -97,10 +122,26 @@ describe("a full Learn batch on the fixture deck", () => {
     expect(await store.getReviews()).toEqual([]);
     expect(await store.getAllCardStates()).toEqual([]);
 
-    const tapped = await studyBatch(pick);
+    const { taps: tapped, steps } = await studyBatch(pick);
 
-    // The batch is the fixture in Learn order, with the red card once more at the end.
-    expect(tapped.map((tap) => tap.cardId)).toEqual([...LEARN_ORDER, "casa-house"]);
+    // Each card is introduced before its test: three intros, then their three tests.
+    for (const id of LEARN_ORDER) {
+      expect(steps.indexOf(`intro:${id}`)).toBeGreaterThanOrEqual(0);
+      expect(steps.indexOf(`intro:${id}`)).toBeLessThan(steps.indexOf(`test:${id}`));
+    }
+    expect(steps.slice(0, 6)).toEqual([
+      "intro:ir-form-yo",
+      "intro:ir-form-tu",
+      "intro:casa-house",
+      "test:ir-form-yo",
+      "test:ir-form-tu",
+      "test:casa-house",
+    ]);
+    expect(steps).toHaveLength(16 + 16 + 1);
+
+    // The tests are the fixture in Learn order, with the red card once more near the end: its
+    // return joined the batch before the last card's intro put that card's test after it.
+    expect(tapped.map((tap) => tap.cardId)).toEqual([...LEARN_ORDER.slice(0, -1), "casa-house", LEARN_ORDER.at(-1)]);
 
     const reviews = await store.getReviews();
     expect(reviews.map(({ cardId, rating }) => ({ cardId, rating }))).toEqual(tapped);
@@ -131,8 +172,8 @@ describe("a full Learn batch on the fixture deck", () => {
     expect(q("summary-again")!.textContent).toBe("1");
     expect(q("summary-remaining")!.textContent).toBe("That was the last of them.");
     expect(q("another-batch")).toBeNull();
-    // Every segment of the bar is filled.
-    expect(host.querySelectorAll('[data-segment="done"]').length).toBe(17);
+    // Every segment of the bar is filled: 16 intros, 16 tests and the red's return.
+    expect(host.querySelectorAll('[data-segment="done"]').length).toBe(33);
 
     act(() => q("to-menu")!.click());
     expect(exits).toBe(1);
@@ -142,16 +183,19 @@ describe("a full Learn batch on the fixture deck", () => {
 describe("reds in a Learn batch", () => {
   it("adds a segment when a red returns, and a red on the return does not add another", async () => {
     mountLearn({ batchSize: 3 });
+    // One segment per intro; each test joins as its intro is passed.
     expect(segments()).toBe(3);
+    passIntros();
+    expect(segments()).toBe(6);
 
     expect(await study("again")).toBe("ir-form-yo");
-    expect(segments()).toBe(4);
+    expect(segments()).toBe(7);
     await study("good");
     await study("good");
     expect(q("batch-end")).toBeNull();
 
     expect(await study("again")).toBe("ir-form-yo");
-    expect(segments()).toBe(4);
+    expect(segments()).toBe(7);
     expect(q("batch-end")).not.toBeNull();
     expect(await storedTaps()).toEqual([
       { cardId: "ir-form-yo", rating: "again" },
@@ -165,10 +209,59 @@ describe("reds in a Learn batch", () => {
   });
 });
 
+describe("I already know this", () => {
+  it("rates the card known, takes it out of the batch, and replay agrees with the session", async () => {
+    mountLearn({ batchSize: 3 });
+    const { steps } = await studyBatch(() => "good", (cardId) => (cardId === "casa-house" ? "known" : "got-it"));
+
+    // casa-house is introduced and never tested; the other two are tested after their intros.
+    expect(steps).toEqual([
+      "intro:ir-form-yo",
+      "intro:ir-form-tu",
+      "intro:casa-house",
+      "test:ir-form-yo",
+      "test:ir-form-tu",
+    ]);
+    expect(segments()).toBe(5);
+    const reviews = await store.getReviews();
+    expect(reviews.map(({ cardId, rating }) => ({ cardId, rating }))).toEqual([
+      { cardId: "casa-house", rating: "known" },
+      { cardId: "ir-form-yo", rating: "good" },
+      { cardId: "ir-form-tu", rating: "good" },
+    ]);
+    expect(reviews[0]).toMatchObject({ direction: "forward", section: "learn" });
+
+    // Its first rating is Easy: straight to review, a day or more away, unlike a first green.
+    const known = reviews[0];
+    const easy = rateCard(undefined, "casa-house", "known", known.timestamp);
+    expect(easy.phase).toBe("review");
+    expect(easy.due - known.timestamp).toBeGreaterThanOrEqual(24 * 3600 * 1000);
+    expect(rateCard(undefined, "casa-house", "good", known.timestamp).phase).toBe("learning");
+
+    // The session's card states, as stored, are what a replay of the reviews gives.
+    const states = await store.getAllCardStates<CardState>();
+    const replayed = replayReviews(reviews);
+    expect(new Map(states.map((state) => [state.cardId, state]))).toEqual(replayed);
+    expect(replayed.get("casa-house")).toEqual(easy);
+
+    // Green in the summary.
+    expect(q("summary-cards")!.textContent).toBe("3 new cards seen.");
+    expect(q("summary-good")!.textContent).toBe("3");
+  });
+});
+
 describe("the session screen", () => {
-  it("shows the front first, with no rating buttons until the reveal", async () => {
+  it("introduces each new card, then shows its front, with no rating buttons until the reveal", async () => {
     mountLearn({ batchSize: 2 });
-    expect(q("card-front")).not.toBeNull();
+    expect(q("intro")!.dataset.cardId).toBe("ir-form-yo");
+    expect(q("card-front")).toBeNull();
+    expect(q("rate-good")).toBeNull();
+    act(() => q("intro-got-it")!.click());
+    // Two cards: the second intro, then the first card's test (fewer than three steps remain).
+    expect(q("intro")!.dataset.cardId).toBe("ir-form-tu");
+    act(() => q("intro-got-it")!.click());
+    expect(q("intro")).toBeNull();
+    expect(q("card-front")!.dataset.cardId).toBe("ir-form-yo");
     expect(q("reveal")).toBeNull();
     expect(q("rate-good")).toBeNull();
 
@@ -181,6 +274,7 @@ describe("the session screen", () => {
 
   it("stores one review when a rating is tapped twice", async () => {
     mountLearn({ batchSize: 2 });
+    passIntros();
     act(() => q("card-front")!.click());
     act(() => {
       q("rate-good")!.click();
@@ -208,7 +302,7 @@ describe("the session screen", () => {
     expect(q("batch-end")).toBeNull();
     expect(segments()).toBe(3);
     // The next three in the deck file's order.
-    const second = await studyBatch(() => "good");
+    const { taps: second } = await studyBatch(() => "good");
     expect(second.map((tap) => tap.cardId)).toEqual(["phrase-going-home", "bueno-good", "ahora-now"]);
   });
 
@@ -232,7 +326,7 @@ describe("the session screen", () => {
       { id: "r2", cardId: "casa-house", direction: "forward", rating: "again", timestamp: START - 4000 },
     ]);
     mountLearn({ states: earlier, batchSize: 2 });
-    const tapped = await studyBatch(() => "good");
+    const { taps: tapped } = await studyBatch(() => "good");
     expect(tapped.map((tap) => tap.cardId)).toEqual(["ir-form-tu", "phrase-going-home"]);
   });
 
@@ -255,6 +349,7 @@ describe("the session screen", () => {
 
   it("keeps the card on screen and says so when a rating cannot be saved", async () => {
     mountLearn({ batchSize: 2 });
+    passIntros();
     act(() => q("card-front")!.click());
     store.close();
     act(() => q("rate-good")!.click());
@@ -269,7 +364,7 @@ describe("the session screen", () => {
 describe("useSession outside Learn", () => {
   function Harness({ direction, states }: { direction: Direction; states: CardStates }) {
     const session = useSession({
-      cards: cards.slice(0, 2),
+      steps: testSteps(cards.slice(0, 2)),
       section: "practice",
       direction,
       states,
@@ -308,5 +403,10 @@ describe("summarize", () => {
       summarize([rating("a", "again", 0), rating("b", "nearly", 1), rating("c", "good", 2), rating("a", "good", 3)]),
     ).toEqual({ cards: 3, good: 1, nearly: 1, again: 1 });
     expect(summarize([])).toEqual({ cards: 0, good: 0, nearly: 0, again: 0 });
+  });
+
+  it("counts known as green", () => {
+    const rating = (cardId: string, value: Rating, i: number) => ({ cardId, rating: value, reviewId: `r${i}` });
+    expect(summarize([rating("a", "known", 0), rating("b", "good", 1)])).toEqual({ cards: 2, good: 2, nearly: 0, again: 0 });
   });
 });

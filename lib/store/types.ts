@@ -3,9 +3,17 @@
 export const DIRECTIONS = ["forward", "reverse"] as const;
 export type Direction = (typeof DIRECTIONS)[number];
 
-/** The three rating buttons: green, orange, red. Named after the theme's rating colours. */
-export const RATINGS = ["good", "nearly", "again"] as const;
+/**
+ * Every stored rating. `good`, `nearly` and `again` are the reveal's three buttons (green,
+ * orange, red), named after the theme's rating colours. `known` is the intro's "I already
+ * know this": Easy in FSRS, and green in summaries and colours. See "Intro, then test" in
+ * docs/design.md.
+ */
+export const RATINGS = ["good", "nearly", "again", "known"] as const;
 export type Rating = (typeof RATINGS)[number];
+
+/** The ratings the reveal's buttons give. */
+export type ButtonRating = Exclude<Rating, "known">;
 
 export const SECTIONS = ["learn", "practice"] as const;
 export type Section = (typeof SECTIONS)[number];

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import type { ExtrasStore } from "@/components/card";
 import type { Card } from "@/lib/deck";
-import { afterLearnRating, learnBatch, learnQueue, type CardStates } from "@/lib/queues";
+import { afterLearnRating, earlierMeaning, learnBatch, learnQueue, type CardStates, type Step } from "@/lib/queues";
 import { BatchEnd } from "./BatchEnd";
 import { SessionView } from "./SessionView";
 import { summarize, useSession, type SessionStore } from "./useSession";
@@ -27,7 +27,10 @@ export interface LearnSessionProps {
   clock?: () => number;
 }
 
-/** Learn: unseen cards in batches, most common first, until none are left. */
+/**
+ * Learn: unseen cards in batches, in the deck file's order, until none are left. Each new
+ * card is introduced before it is tested.
+ */
 export function LearnSession({
   cards,
   states,
@@ -80,7 +83,7 @@ export function LearnSession({
 
 interface LearnBatchProps {
   cards: readonly Card[];
-  batch: readonly Card[];
+  batch: readonly Step[];
   states: CardStates;
   store?: SessionStore & ExtrasStore;
   clock?: () => number;
@@ -91,7 +94,7 @@ interface LearnBatchProps {
 
 function LearnBatch({ cards, batch, states, store, clock, onExit, onFinish, onAnother }: LearnBatchProps) {
   const session = useSession({
-    cards: batch,
+    steps: batch,
     section: "learn",
     states,
     afterRating: afterLearnRating,
@@ -100,7 +103,13 @@ function LearnBatch({ cards, batch, states, store, clock, onExit, onFinish, onAn
   });
 
   return (
-    <SessionView session={session} store={store} onClose={session.finished ? undefined : onExit} onFinish={onFinish}>
+    <SessionView
+      session={session}
+      store={store}
+      onClose={session.finished ? undefined : onExit}
+      onFinish={onFinish}
+      earlierMeaning={(card) => earlierMeaning(cards, session.states, card)}
+    >
       {session.finished && (
         <LearnEnd
           session={session}

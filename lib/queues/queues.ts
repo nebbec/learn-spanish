@@ -39,26 +39,88 @@ export function learnQueue(cards: readonly Card[], states: CardStates): Card[] {
   return cards.filter((card) => !isSeen(states.get(card.id)));
 }
 
-/** The next Learn batch: the first `batchSize` cards of the Learn queue. */
+// ---------- Steps ----------
+
+/**
+ * One step of a batch, and one segment of its bar. An `intro` shows a new card before
+ * it is tested (Learn only); a `test` is the usual front, reveal and rating.
+ */
+export interface Step {
+  kind: "intro" | "test";
+  card: Card;
+}
+
+/** What the intro's two buttons choose: "Got it" or "I already know this". */
+export type IntroChoice = "got-it" | "known";
+
+/** After "Got it", the card's test comes this many steps later, or at the end of the batch. */
+export const TEST_DELAY = 3;
+
+/** A test step for each card, as Practice shows them. */
+export function testSteps(cards: readonly Card[]): Step[] {
+  return cards.map((card) => ({ kind: "test", card }));
+}
+
+/**
+ * The next Learn batch: an intro for each of the first `batchSize` cards of the Learn
+ * queue. Each card's test joins the batch when its intro is passed (`afterIntro`).
+ */
 export function learnBatch(
   cards: readonly Card[],
   states: CardStates,
   batchSize: number = DEFAULT_BATCH_SIZE,
-): Card[] {
-  return learnQueue(cards, states).slice(0, Math.max(0, batchSize));
+): Step[] {
+  return learnQueue(cards, states)
+    .slice(0, Math.max(0, batchSize))
+    .map((card) => ({ kind: "intro", card }));
 }
 
 /**
- * The batch after the card at `index` has been rated. A card rated red returns once
- * more at the end of the batch; a red on that second showing does not add a third.
+ * The batch after the intro at `index` is passed. "Got it" puts the card's test
+ * `TEST_DELAY` steps later, or at the end if fewer steps remain; "I already know this"
+ * adds nothing, since the card is rated `known` and leaves the batch. Returns the same
+ * array when nothing changes. `batch` is not modified.
+ */
+export function afterIntro(batch: readonly Step[], index: number, choice: IntroChoice): readonly Step[] {
+  const step = batch[index];
+  if (!step || step.kind !== "intro" || choice === "known") return batch;
+  const at = Math.min(index + TEST_DELAY, batch.length);
+  return [...batch.slice(0, at), { kind: "test", card: step.card }, ...batch.slice(at)];
+}
+
+/**
+ * The batch after the test at `index` has been rated. A card rated red returns once
+ * more at the end of the batch; a red on that second test does not add a third.
  * Returns the same array when nothing changes. `batch` is not modified.
  */
-export function afterLearnRating(batch: readonly Card[], index: number, rating: Rating): readonly Card[] {
-  const card = batch[index];
-  if (!card || rating !== "again") return batch;
-  const isFirstShowing = batch.findIndex((other) => other.id === card.id) === index;
-  const alreadyReturning = batch.some((other, i) => i > index && other.id === card.id);
-  return isFirstShowing && !alreadyReturning ? [...batch, card] : batch;
+export function afterLearnRating(batch: readonly Step[], index: number, rating: Rating): readonly Step[] {
+  const step = batch[index];
+  if (!step || step.kind !== "test" || rating !== "again") return batch;
+  const isTest = (other: Step) => other.kind === "test" && other.card.id === step.card.id;
+  const isFirstTest = batch.findIndex(isTest) === index;
+  const alreadyReturning = batch.some((other, i) => i > index && isTest(other));
+  return isFirstTest && !alreadyReturning ? [...batch, { kind: "test", card: step.card }] : batch;
+}
+
+/**
+ * For the intro of a later meaning: the word's meaning the learner has already seen. Only
+ * content and glue cards count, as in the deck build's sibling rule (form and phrase cards
+ * borrow a rank). When several are seen, the nearest one before `card` in the deck wins.
+ */
+export function earlierMeaning(cards: readonly Card[], states: CardStates, card: Card): Card | undefined {
+  if (card.kind !== "content" && card.kind !== "glue") return undefined;
+  const at = cards.findIndex((other) => other.id === card.id);
+  const siblings = cards
+    .map((other, index) => ({ other, index }))
+    .filter(
+      ({ other }) =>
+        other.id !== card.id &&
+        other.rank === card.rank &&
+        (other.kind === "content" || other.kind === "glue") &&
+        isSeen(states.get(other.id)),
+    );
+  const before = siblings.filter(({ index }) => index < at);
+  return (before.at(-1) ?? siblings[0])?.other;
 }
 
 // ---------- Practice ----------

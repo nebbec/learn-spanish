@@ -6,6 +6,9 @@ import { RATING_BUTTONS, Reveal } from "@/components/card";
 import { fixtureCard, fixtureDeck } from "@/lib/deck/fixture";
 import { RATINGS } from "@/lib/store";
 
+/** The reveal's buttons: every rating but `known`, which only the intro gives. */
+const BUTTONS = RATINGS.filter((rating) => rating !== "known");
+
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 
 let host: HTMLDivElement;
@@ -128,16 +131,17 @@ describe("Reveal, audio", () => {
 });
 
 describe("Reveal, rating", () => {
-  it("has one labelled button per rating", () => {
+  it("has one labelled button per rating, and none for known", () => {
     render(<Reveal card={fixtureCard("casa-house")} onRate={() => {}} />);
-    expect(RATING_BUTTONS.map((b) => b.rating).sort()).toEqual([...RATINGS].sort());
+    expect(RATING_BUTTONS.map((b) => b.rating).sort()).toEqual([...BUTTONS].sort());
+    expect(q("rate-known")).toBeNull();
     for (const { rating, label } of RATING_BUTTONS) {
       expect(label.length).toBeGreaterThan(0);
       expect(text(`rate-${rating}`)).toBe(label);
     }
   });
 
-  it.each(RATINGS)("pressing %s fires onRate once with that rating", (rating) => {
+  it.each(BUTTONS)("pressing %s fires onRate once with that rating", (rating) => {
     const onRate = vi.fn();
     render(<Reveal card={fixtureCard("casa-house")} onRate={onRate} />);
     click(`rate-${rating}`);

@@ -3,7 +3,12 @@ import type { Card } from "@/lib/deck";
 import { fixtureCard, fixtureDeck } from "@/lib/deck/fixture";
 import {
   DEFAULT_BATCH_SIZE,
+  TEST_DELAY,
+  afterIntro,
   afterLearnRating,
+  earlierMeaning,
+  testSteps,
+  type Step,
   dueQueue,
   extraPracticeQueue,
   learnBatch,
@@ -35,6 +40,8 @@ function review(
 }
 
 const ids = (list: readonly Card[]) => list.map((card) => card.id);
+/** Steps written short: `intro:casa-house`, `test:casa-house`. */
+const steps = (list: readonly Step[]) => list.map((step) => `${step.kind}:${step.card.id}`);
 const reversed = <T>(list: readonly T[]) => [...list].reverse();
 
 /** A deterministic stand-in for Math.random. */
@@ -74,40 +81,112 @@ describe("Learn queue", () => {
     expect(learnQueue(cards, states)).toEqual([]);
   });
 
-  it("cuts a batch to the batch size, 15 by default", () => {
-    expect(ids(learnBatch(cards, new Map(), 6))).toEqual(FILE_ORDER.slice(0, 6));
+  it("cuts a batch to the batch size, 15 by default, as an intro for each card", () => {
+    expect(steps(learnBatch(cards, new Map(), 3))).toEqual(FILE_ORDER.slice(0, 3).map((id) => `intro:${id}`));
     expect(DEFAULT_BATCH_SIZE).toBe(15);
-    expect(ids(learnBatch(cards, new Map()))).toEqual(FILE_ORDER.slice(0, 15));
+    expect(learnBatch(cards, new Map()).map((step) => step.card.id)).toEqual(FILE_ORDER.slice(0, 15));
     const states = replayReviews(FILE_ORDER.slice(0, 15).map((id) => review(id, "good", T0)));
-    expect(ids(learnBatch(cards, states))).toEqual(["tiempo-weather"]);
+    expect(steps(learnBatch(cards, states))).toEqual(["intro:tiempo-weather"]);
+  });
+});
+
+describe("Learn batch: intros, then tests", () => {
+  const batch = learnBatch(cards, new Map(), 4);
+  const [a, b, c, d] = FILE_ORDER;
+
+  it("puts a card's test three steps after its intro on Got it", () => {
+    expect(TEST_DELAY).toBe(3);
+    const next = afterIntro(batch, 0, "got-it");
+    expect(steps(next)).toEqual([`intro:${a}`, `intro:${b}`, `intro:${c}`, `test:${a}`, `intro:${d}`]);
+    expect(batch).toHaveLength(4);
+  });
+
+  it("puts the test at the end when fewer steps remain", () => {
+    expect(steps(afterIntro(batch, 3, "got-it"))).toEqual([...steps(batch), `test:${d}`]);
+    expect(steps(afterIntro(batch, 2, "got-it"))).toEqual([...steps(batch), `test:${c}`]);
+  });
+
+  it("shows every intro before its test when each intro is passed in turn", () => {
+    let current: readonly Step[] = batch;
+    for (let i = 0; i < current.length; i += 1) {
+      if (current[i].kind === "intro") current = afterIntro(current, i, "got-it");
+    }
+    expect(steps(current)).toEqual([
+      `intro:${a}`,
+      `intro:${b}`,
+      `intro:${c}`,
+      `test:${a}`,
+      `test:${b}`,
+      `test:${c}`,
+      `intro:${d}`,
+      `test:${d}`,
+    ]);
+  });
+
+  it("adds no test for a card the learner already knows", () => {
+    expect(afterIntro(batch, 1, "known")).toBe(batch);
+  });
+
+  it("leaves the batch alone when the step is not an intro", () => {
+    const tested = testSteps(cards.slice(0, 2));
+    expect(afterIntro(tested, 0, "got-it")).toBe(tested);
   });
 });
 
 describe("Learn batch: reds return at the end", () => {
-  const batch = learnBatch(cards, new Map(), 4);
+  const batch = testSteps(cards.slice(0, 4));
 
-  it("appends a card rated red to the end of the batch", () => {
+  it("appends a test rated red to the end of the batch", () => {
     const next = afterLearnRating(batch, 1, "again");
-    expect(ids(next)).toEqual([...ids(batch), batch[1].id]);
+    expect(steps(next)).toEqual([...steps(batch), `test:${batch[1].card.id}`]);
     expect(batch).toHaveLength(4);
   });
 
-  it("leaves the batch alone on green or orange", () => {
+  it("leaves the batch alone on green, orange or known", () => {
     expect(afterLearnRating(batch, 1, "good")).toBe(batch);
     expect(afterLearnRating(batch, 1, "nearly")).toBe(batch);
+    expect(afterLearnRating(batch, 1, "known")).toBe(batch);
   });
 
   it("brings a card back only once", () => {
     const once = afterLearnRating(batch, 0, "again");
     expect(afterLearnRating(once, 0, "again")).toBe(once);
-    // Red again on the second showing, which is the last card of the batch.
+    // Red again on the second test, which is the last step of the batch.
     expect(afterLearnRating(once, once.length - 1, "again")).toBe(once);
   });
 
   it("keeps returned cards in the order they were failed", () => {
     let current = afterLearnRating(batch, 2, "again");
     current = afterLearnRating(current, 3, "again");
-    expect(ids(current).slice(4)).toEqual([batch[2].id, batch[3].id]);
+    expect(steps(current).slice(4)).toEqual([`test:${batch[2].card.id}`, `test:${batch[3].card.id}`]);
+  });
+
+  it("counts an intro before the test as no showing", () => {
+    const withIntro = afterIntro(learnBatch(cards, new Map(), 1), 0, "got-it");
+    const once = afterLearnRating(withIntro, 1, "again");
+    const [first] = FILE_ORDER;
+    expect(steps(once)).toEqual([`intro:${first}`, `test:${first}`, `test:${first}`]);
+    expect(afterLearnRating(once, 2, "again")).toBe(once);
+  });
+});
+
+describe("earlier meaning", () => {
+  it("is the seen content or glue card of the same rank", () => {
+    const later = fixtureCard("tiempo-weather");
+    expect(earlierMeaning(cards, new Map(), later)).toBeUndefined();
+    const seen = replayReviews([review("tiempo-time", "good", T0)]);
+    expect(earlierMeaning(cards, seen, later)?.id).toBe("tiempo-time");
+    // The first meaning has the second as its sibling too, once that one is seen.
+    expect(earlierMeaning(cards, replayReviews([review("tiempo-weather", "good", T0)]), fixtureCard("tiempo-time"))?.id).toBe(
+      "tiempo-weather",
+    );
+  });
+
+  it("ignores form and phrase cards, which borrow a rank", () => {
+    const formsSeen = replayReviews([review("ir-form-yo", "good", T0), review("ir-form-tu", "good", T0)]);
+    expect(earlierMeaning(cards, formsSeen, fixtureCard("ir-go"))).toBeUndefined();
+    const goSeen = replayReviews([review("ir-go", "good", T0)]);
+    expect(earlierMeaning(cards, goSeen, fixtureCard("ir-form-yo"))).toBeUndefined();
   });
 });
 
@@ -132,9 +211,9 @@ describe("Practice: due cards, then extra practice", () => {
 
   it("places the caught-up marker after the due cards and before extra practice", () => {
     const states = replayReviews([
-      review("ir-go", "good", T0),
+      review("ir-go", "known", T0),
       review("carro-car", "again", T0),
-      review("de-of", "good", T0),
+      review("de-of", "known", T0),
       review("casa-house", "again", T0),
     ]);
     const now = T0 + HOUR;
@@ -147,9 +226,9 @@ describe("Practice: due cards, then extra practice", () => {
   it("orders extra practice by lowest predicted recall first", () => {
     // Same rating, so the same stability: the longer ago, the lower the recall.
     const states = replayReviews([
-      review("de-of", "good", T0 + 2 * DAY),
-      review("carro-car", "good", T0),
-      review("ir-go", "good", T0 + DAY),
+      review("de-of", "known", T0 + 2 * DAY),
+      review("carro-car", "known", T0),
+      review("ir-go", "known", T0 + DAY),
     ]);
     const now = T0 + 3 * DAY;
     const recall = (id: string) => predictedRecall(states.get(id), now);
@@ -164,10 +243,10 @@ describe("Practice: due cards, then extra practice", () => {
 
   it("breaks recall ties by frequency rank", () => {
     const states = replayReviews([
-      review("carro-car", "good", T0),
-      review("hablar-speak", "good", T0),
-      review("de-of", "good", T0),
-      review("problema-problem", "good", T0 - DAY),
+      review("carro-car", "known", T0),
+      review("hablar-speak", "known", T0),
+      review("de-of", "known", T0),
+      review("problema-problem", "known", T0 - DAY),
     ]);
     expect(ids(extraPracticeQueue(reversed(cards), states, T0 + DAY))).toEqual([
       "problema-problem",
@@ -188,15 +267,15 @@ describe("Practice: due cards, then extra practice", () => {
 });
 
 describe("Practice options", () => {
-  // Seen: four due (red) and four not due (green). Four cards stay unseen.
+  // Seen: four due (red) and four not due (known, so Easy). Four cards stay unseen.
   const reviews = [
     review("carro-car", "again", T0),
-    review("lo-him", "good", T0),
-    review("casa-house", "good", T0),
+    review("lo-him", "known", T0),
+    review("casa-house", "known", T0),
     review("ir-go", "again", T0),
-    review("tiempo-weather", "good", T0),
+    review("tiempo-weather", "known", T0),
     review("tiempo-time", "again", T0),
-    review("de-of", "good", T0),
+    review("de-of", "known", T0),
     review("hablar-speak", "again", T0),
   ];
   const states = replayReviews(reviews);

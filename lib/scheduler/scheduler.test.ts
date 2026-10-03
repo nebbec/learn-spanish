@@ -12,7 +12,7 @@ import {
   type CardState,
   type ReviewEvent,
 } from "@/lib/scheduler";
-import type { Direction, Rating } from "@/lib/store";
+import { RATINGS, type Direction, type Rating } from "@/lib/store";
 
 const DAY = 24 * 60 * 60 * 1000;
 const T0 = Date.UTC(2026, 0, 1, 9);
@@ -50,37 +50,36 @@ function shuffled<T>(items: readonly T[], seed: number): T[] {
 }
 
 describe("rating mapping", () => {
-  it("maps green to Easy on a first view and Good afterwards", () => {
-    expect(toFsrsGrade("good", true)).toBe(FsrsRating.Easy);
-    expect(toFsrsGrade("good", false)).toBe(FsrsRating.Good);
+  it("maps the intro's known to Easy and green to Good, on a first view too", () => {
+    expect(toFsrsGrade("known")).toBe(FsrsRating.Easy);
+    expect(toFsrsGrade("good")).toBe(FsrsRating.Good);
   });
 
-  it("maps orange to Hard and red to Again on any view", () => {
-    for (const firstView of [true, false]) {
-      expect(toFsrsGrade("nearly", firstView)).toBe(FsrsRating.Hard);
-      expect(toFsrsGrade("again", firstView)).toBe(FsrsRating.Again);
-    }
+  it("maps orange to Hard and red to Again", () => {
+    expect(toFsrsGrade("nearly")).toBe(FsrsRating.Hard);
+    expect(toFsrsGrade("again")).toBe(FsrsRating.Again);
   });
 
-  it("gives a first-view green a longer first interval than any other first rating", () => {
+  it("gives known a longer first interval than any other first rating", () => {
+    const known = rateCard(undefined, "casa-house", "known", T0);
     const green = rateCard(undefined, "casa-house", "good", T0);
     const orange = rateCard(undefined, "casa-house", "nearly", T0);
     const red = rateCard(undefined, "casa-house", "again", T0);
 
-    expect(green.due - T0).toBeGreaterThanOrEqual(DAY);
+    expect(known.due - T0).toBeGreaterThanOrEqual(DAY);
+    expect(known.phase).toBe("review");
+    expect(known.due).toBeGreaterThan(green.due);
     expect(green.due).toBeGreaterThan(orange.due);
     expect(orange.due).toBeGreaterThan(red.due);
+    expect(known.stability).toBeGreaterThan(green.stability);
     expect(green.stability).toBeGreaterThan(orange.stability);
     expect(orange.stability).toBeGreaterThan(red.stability);
   });
 
-  it("treats a later green as Good, not Easy", () => {
-    const first = rateCard(undefined, "casa-house", "nearly", T0);
-    const viaRateCard = rateCard(first, "casa-house", "good", T0 + DAY);
-    const easyAgain = rateCard(undefined, "casa-house", "good", T0);
-    // A second-view green must not reproduce the first-view (Easy) outcome.
-    expect(viaRateCard.reps).toBe(2);
-    expect(viaRateCard.stability).not.toBe(easyAgain.stability);
+  it("keeps a first-test green in the learning steps, as Good", () => {
+    const green = rateCard(undefined, "casa-house", "good", T0);
+    expect(green.phase).toBe("learning");
+    expect(green.due - T0).toBeLessThan(DAY);
   });
 });
 
@@ -101,7 +100,7 @@ describe("rateCard", () => {
   });
 
   it("gives an early review a smaller gain than a due one", () => {
-    const first = rateCard(undefined, "ir-go", "good", T0);
+    const first = rateCard(undefined, "ir-go", "known", T0);
     const early = rateCard(first, "ir-go", "good", T0 + DAY);
     const onTime = rateCard(first, "ir-go", "good", first.due);
     expect(first.due - T0).toBeGreaterThan(DAY);
@@ -147,7 +146,7 @@ describe("replay", () => {
     const b: ReviewEvent = { id: "b", cardId: "lo-him", direction: "forward", rating: "good", timestamp: T0 };
     const ab = replayReviews([a, b]);
     expect(replayReviews([b, a])).toEqual(ab);
-    // "a" sorts first, so the red is the first view and the green is a plain Good.
+    // "a" sorts first, so the red is the first view and the green comes second.
     const manual = rateCard(rateCard(undefined, "lo-him", "again", T0), "lo-him", "good", T0);
     expect(ab.get("lo-him")).toEqual(manual);
   });
@@ -181,7 +180,7 @@ describe("seen and due", () => {
   });
 
   it("makes a card seen after one forward rating of any colour", () => {
-    for (const rating of ["good", "nearly", "again"] as const) {
+    for (const rating of RATINGS) {
       expect(isSeen(replayReviews([review("casa-house", rating, T0)]).get("casa-house"))).toBe(true);
     }
   });
@@ -196,7 +195,7 @@ describe("seen and due", () => {
 });
 
 describe("memorized", () => {
-  const base: CardState = { ...rateCard(undefined, "casa-house", "good", T0), phase: "review" };
+  const base: CardState = { ...rateCard(undefined, "casa-house", "known", T0), phase: "review" };
 
   it("uses a 21-day stability threshold", () => {
     expect(MEMORIZED_STABILITY_DAYS).toBe(21);

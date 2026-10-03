@@ -3,12 +3,12 @@
 import type { ReactNode } from "react";
 import { useMotion } from "@/components/motion";
 import type { Card } from "@/lib/deck";
-import type { Rating } from "@/lib/store";
+import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
 
 /** The three rating buttons, in the order they sit on screen. */
-export const RATING_BUTTONS: { rating: Rating; label: string; className: string }[] = [
+export const RATING_BUTTONS: { rating: ButtonRating; label: string; className: string }[] = [
   { rating: "again", label: "Didn't have it", className: "bg-again text-on-again" },
   { rating: "nearly", label: "Nearly", className: "bg-nearly text-on-nearly" },
   { rating: "good", label: "Got it", className: "bg-good text-on-good" },
@@ -109,7 +109,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 }
 
 /** The English, small, under the Spanish. Glue phrases keep their highlighted target. */
-function Meaning({ card }: { card: Card }) {
+export function Meaning({ card }: { card: Card }) {
   const glue = card.kind === "glue" ? splitGluePrompt(card.en) : null;
   return (
     <span data-testid="meaning" className="text-ink-soft">
@@ -128,7 +128,7 @@ function Meaning({ card }: { card: Card }) {
 }
 
 /** Noun: gender. Adjective: both endings. Verb: three present-tense forms and the irregular flag. Nothing otherwise. */
-function GrammarStrip({ card }: { card: Card }) {
+export function GrammarStrip({ card }: { card: Card }) {
   if (card.pos === "noun") {
     return (
       <p data-testid="grammar" data-variant="noun" className="font-bold">
@@ -168,7 +168,7 @@ function GrammarStrip({ card }: { card: Card }) {
   return null;
 }
 
-function AudioButton({ label, testId, onPress }: { label: string; testId: string; onPress: () => void }) {
+export function AudioButton({ label, testId, onPress }: { label: string; testId: string; onPress: () => void }) {
   return (
     <button
       type="button"

@@ -319,6 +319,15 @@ A card gets a one-line `why` only where it contrasts with a near neighbour (ser 
 - Stored as a new rating value, `known`, which is green in summaries and colours and Easy in FSRS. It needs the `rating` check in Supabase widened (a migration) and the `Rating` type extended. Old reviews are ignored after Courtney's reset, so the change to first-view green needs no replay of history.
 - Intros and tips are steps in the segmented bar. The "a red returns once" rule is unchanged.
 
+Decided in L10 (steps in `lib/queues/queues.ts`, run by `useSession`; the screen is `components/card/Intro.tsx`; migration `supabase/migrations/20261003191001_known_rating.sql`):
+
+- **A batch is a list of steps**, `{ kind: "intro" | "test", card }`, one segment each. `learnBatch` returns an intro for each of the first `batchSize` unseen cards, and no tests: a card's test joins when its intro is passed. Practice passes `testSteps(cards)`, so it has no intros. With every intro passed, a batch runs three intros, their three tests, the next three intros, and so on; a batch of 15 is 30 steps before any red.
+- **"Got it"** stores nothing and puts the card's test `TEST_DELAY` (3) steps later (`afterIntro`), or at the end if fewer steps remain, so a red that returned earlier can come before the last card's test. **"I already know this"** stores the rating `known` at once, forward, section `learn`, and adds no test; the card is seen and belongs to Practice. A red brings a test back once, as before; an intro is not a showing.
+- **`known` is a fourth stored rating**, not a button: `RATINGS` is `good`, `nearly`, `again`, `known`, and `ButtonRating` is the reveal's three. The scheduler maps `known` to Easy and green to Good on every view, first test included (`toFsrsGrade(rating)` no longer takes a first-view flag). Summaries count `known` as green; Struggling ignores it, as any non-red. Old reviews keep their stored value, so a green stored as a first view before L10 now replays as Good; Courtney's reset (L15) makes that moot.
+- **The intro screen** shows "New card", the character (popping in, as on the front), the Spanish with its audio button, the part of speech, the English with its hint, the grammar strip and the `why` line, then "I already know this" (green, soft) and "Got it" (brand). No example: it is a test's answer side. The word clip does not play by itself yet (L14), and the tip's "?" is L11's.
+- **A later meaning's line**, "You know *esperar* = to wait. It also means:", is worked out as the screen shows (`earlierMeaning`): a seen content or glue card of the same rank, the nearest one before it in the deck, so a meaning seen earlier in the same batch counts. Form and phrase cards borrow a rank and are left out on both sides. A glue card is named by its target (`de = of`).
+- **Supabase** checks `reviews.rating` against the four values (the migration replaces `reviews_rating_check`), and `npm run check:rls` checks that a `known` review is accepted and any other value refused. Until the migration is pushed, the server refuses a `known` review, so it must be pushed before this ships.
+
 ### Example sentences use known words
 
 - **Starter path**: an example may use only words of cards earlier in the deck's order, the card's own word, names and numbers, and at most one other word, which must be an obvious cognate (doctor, hotel, chocolate).
@@ -541,7 +550,7 @@ Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 - **Database**: one Dexie database named `learn-spanish`, schema version 1. Primary keys: `reviews.id`, `card_state.cardId`, `notes.cardId` (one note per card), `reports.id` (a UUID, added so a report has a key).
 - **Times** are numbers: milliseconds since the Unix epoch.
 - **`synced`** is `0` or `1`, not a boolean, because IndexedDB cannot index booleans.
-- **`rating`** is `good`, `nearly` or `again`, matching the rating colour tokens. **`direction`** is `forward` or `reverse`; **`section`** is `learn` or `practice`.
+- **`rating`** is `good`, `nearly` or `again`, matching the rating colour tokens, or `known`, the intro's "I already know this" (since L10; see [Intro, then test](#intro-then-test)). **`direction`** is `forward` or `reverse`; **`section`** is `learn` or `practice`.
 - **Device id**: a random UUID created on first use and kept in `localStorage` under `learn-spanish.device-id`.
 - **`card_state`** rows only need a `cardId`; the scheduler owns the other fields.
 
@@ -818,7 +827,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L7 | Known-words check and example redraft | L6 | | Done |
 | L8 | Audio for form cards, phrase cards and tips | L2 | | Done |
 | L9 | Learning path content for the first 100 | L4, L7, L8 | Read tips and `path.md`, flagged cards | Todo |
-| L10 | Intro step and the `known` rating | L2 | | Todo |
+| L10 | Intro step and the `known` rating | L2 | | Done except: push the migration and run `npm run check:rls` |
 | L11 | Tips in the app | L2, L10 | | Todo |
 | L12 | Units in Learn | L2, L10 | | Todo |
 | L13 | Form, phrase and contrast layouts | L2 | | Todo |
@@ -1125,6 +1134,9 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L10 Intro step and the `known` rating**
 - Build: the intro screen (`components/card`), intros and delayed tests in `learnBatch` and `useSession`, "I already know this" storing `known`; `known` in the `Rating` type, the scheduler (Easy), summaries and colours; first-view green mapped to Good; a migration widening the `rating` check in Supabase (`npm run check:rls` still passing).
 - Done when: a Learn batch on the fixture shows each new card's intro before its test, a "known" card leaves the batch with an Easy first rating, and replay agrees with the session.
+- Note (L10): done except the server step. `components/session/session.test.tsx` runs a 16-card Learn batch on the fixture and checks each card's intro comes before its test (33 steps with one red), and a batch where `casa-house` is "I already know this": it is never tested, its one review is `known`, its state is the Easy outcome (review phase, a day or more away), and the stored card states equal `replayReviews` of the stored reviews. `npm test` (615), `npm run lint`, `npm run typecheck` and `npm run build` pass. The decisions are under [Intro, then test](#intro-then-test), "Decided in L10".
+- Note (L10): left for Courtney. The migration `supabase/migrations/20261003191001_known_rating.sql` is written but not pushed: pushing needs the database password, typed into `supabase link --project-ref sbouiweyksuiakajkrbt` by Courtney (this worktree is not linked and has no `.env.local`). Then `supabase db push --linked` and `npm run check:rls`, which now also checks that `known` is accepted and another value refused. Push it before this branch is deployed: until then the server refuses a `known` review.
+- Note (L10): for later tickets. A session's `batch` is now `Step[]` and `Session` has `step` and `introduce(choice)`; `SessionView` takes `earlierMeaning`. Tests that drive Learn pass each intro with `intro-got-it` (helpers in the session, menu and motion tests). Many test histories that relied on a first green being Easy now use `known`. L11: the tip screen is a third step kind before the first card naming it; the "?" goes on `Intro` and `Reveal`. L12: a unit batch is the unit's unseen cards as intro steps, the same `learnBatch` cut by unit. L14: autoplay the word clip on `Intro` mount and on the reveal; `Intro` takes `onPlay` like `Reveal`.
 
 **L11 Tips in the app**
 - Build: the tip screen in a Learn batch before the first card naming it, shown by the progress rule; the "?" on the intro and reveal opening it over the card; `/tips` listing reached tips (added to `PAGES` in `public/sw.js`) and a link from the menu.

@@ -3,7 +3,7 @@
 import { useState, type ReactNode } from "react";
 import type { ExtrasStore } from "@/components/card";
 import type { Card, PartOfSpeech } from "@/lib/deck";
-import { DEFAULT_BATCH_SIZE, practiceQueue, type CardStates, type PracticeMode } from "@/lib/queues";
+import { DEFAULT_BATCH_SIZE, practiceQueue, testSteps, type CardStates, type PracticeMode } from "@/lib/queues";
 import type { ReviewEvent } from "@/lib/scheduler";
 import { BatchEnd } from "./BatchEnd";
 import { SessionView } from "./SessionView";
@@ -190,7 +190,7 @@ interface PracticeBatchProps {
 
 function PracticeBatch({ batch, states, reverse, store, clock, onExit, onFinish, onAnother, end }: PracticeBatchProps) {
   const session = useSession({
-    cards: batch,
+    steps: testSteps(batch),
     section: "practice",
     direction: reverse ? "reverse" : "forward",
     states,

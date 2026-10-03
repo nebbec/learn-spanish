@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { BatchFrame, CardExtras, CardFront, Reveal, type ExtrasStore } from "@/components/card";
+import { BatchFrame, CardExtras, CardFront, Intro, Reveal, type ExtrasStore } from "@/components/card";
 import { MOVE_MS, useMotion } from "@/components/motion";
 import type { Card } from "@/lib/deck";
 import type { Rating } from "@/lib/store";
@@ -17,6 +17,8 @@ export interface SessionViewProps {
   children: ReactNode;
   /** Called once when every card is rated and stored. */
   onFinish?: () => void;
+  /** For an intro: the meaning of the same word already seen, if any. Learn passes `earlierMeaning`. */
+  earlierMeaning?: (card: Card) => Card | undefined;
 }
 
 /** The character's answer to a rating. Orange has none. */
@@ -36,7 +38,7 @@ interface Leaving {
  * stays for the length of the jump or droop. The rating is stored straight
  * away; only the change of card waits.
  */
-export function SessionView({ session, onClose, store, children, onFinish }: SessionViewProps) {
+export function SessionView({ session, onClose, store, children, onFinish, earlierMeaning }: SessionViewProps) {
   const motion = useMotion();
   const finish = useRef(onFinish);
   useEffect(() => {
@@ -74,6 +76,16 @@ export function SessionView({ session, onClose, store, children, onFinish }: Ses
     <BatchFrame total={leaving?.total ?? batch.length} index={shownIndex} onClose={onClose}>
       {!card ? (
         children
+      ) : !leaving && session.step?.kind === "intro" ? (
+        // Keyed by position, like the front, so each step starts fresh.
+        <div key={index} className="flex min-h-0 flex-1 flex-col gap-3">
+          <Intro card={card} earlier={earlierMeaning?.(card)} onChoose={(choice) => void session.introduce(choice)} />
+          {session.error && (
+            <p role="alert" data-testid="session-error" className="w-full text-center font-bold text-again">
+              {session.error}
+            </p>
+          )}
+        </div>
       ) : leaving || session.revealed ? (
         // Keyed by position, so a card that returns starts with a fresh reveal.
         <Reveal key={shownIndex} card={card} onRate={rate} move={leaving?.move}>

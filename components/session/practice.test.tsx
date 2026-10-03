@@ -17,17 +17,20 @@ const HOUR = 60 * 60 * 1000;
 const DAY = 24 * HOUR;
 const START = Date.UTC(2026, 9, 2, 9, 0, 0);
 
-/** Forward ratings given before the Practice sitting: [card, rating, how long ago]. */
+/**
+ * Forward ratings given before the Practice sitting: [card, rating, how long ago]. A first
+ * rating that should leave the card out of the learning steps is `known` (Easy).
+ */
 const HISTORY: [string, Rating, number][] = [
-  ["de-of", "good", 30 * DAY], // rank 1, long overdue
+  ["de-of", "known", 30 * DAY], // rank 1, long overdue
   ["se-impersonal", "again", DAY], // rank 9, failed yesterday
-  ["ir-go", "good", HOUR], // rank 30, fresh
+  ["ir-go", "known", HOUR], // rank 30, fresh
   ["bueno-good", "nearly", 2 * DAY], // rank 48
-  ["tiempo-time", "good", HOUR], // rank 70, fresh
+  ["tiempo-time", "known", HOUR], // rank 70, fresh
   ["casa-house", "again", 3 * DAY], // rank 95, failed and then got
   ["casa-house", "good", 2 * DAY],
-  ["hablar-speak", "good", 3 * DAY], // rank 110, not due yet, but the most faded of the three
-  ["carro-car", "good", 40 * DAY], // rank 640, long overdue
+  ["hablar-speak", "known", 3 * DAY], // rank 110, not due yet, but the most faded of the three
+  ["carro-car", "known", 40 * DAY], // rank 640, long overdue
 ];
 /** Seen cards by frequency rank. The other four fixture cards are unseen. */
 const SEEN = [

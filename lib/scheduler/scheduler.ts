@@ -57,13 +57,16 @@ const FSRS_TO_PHASE: Partial<Record<State, CardPhase>> = {
 };
 
 /**
- * Maps a rating button to an FSRS grade. Green is Good, except on a card's first view,
- * where it means "I already knew this" and maps to Easy.
+ * Maps a rating to an FSRS grade. The intro's "I already know this" (`known`) is the only
+ * way to Easy; green is Good, on a card's first test too. See "Intro, then test" in
+ * docs/design.md.
  */
-export function toFsrsGrade(rating: Rating, firstView: boolean): Grade {
+export function toFsrsGrade(rating: Rating): Grade {
   switch (rating) {
+    case "known":
+      return FsrsRating.Easy;
     case "good":
-      return firstView ? FsrsRating.Easy : FsrsRating.Good;
+      return FsrsRating.Good;
     case "nearly":
       return FsrsRating.Hard;
     case "again":
@@ -115,7 +118,7 @@ export function rateCard(
 ): CardState {
   const at = prev ? Math.max(timestamp, prev.lastReview) : timestamp;
   const card = prev ? toFsrsCard(prev) : newFsrsCard(at);
-  const next = engine.next(card, new Date(at), toFsrsGrade(rating, prev === undefined)).card;
+  const next = engine.next(card, new Date(at), toFsrsGrade(rating)).card;
   const phase = FSRS_TO_PHASE[next.state];
   if (!phase) throw new Error(`Unexpected FSRS state ${next.state} for card ${cardId}`);
   return {

@@ -53,6 +53,11 @@ function mountLearn(batchSize = 3) {
   );
 }
 
+/** Passes each Learn intro with "Got it", until the first test's front is up. */
+function passIntros() {
+  while (q("intro")) tap("intro-got-it");
+}
+
 /** Rates the card on screen and sees it off: past any move, and once the rating is stored. */
 async function study(rating: Rating) {
   tap("card-front");
@@ -81,8 +86,12 @@ afterEach(() => {
 describe("with motion allowed", () => {
   beforeEach(() => setReducedMotion(false));
 
-  it("pops the character in on the front and wiggles it on the reveal", () => {
+  it("pops the character in on the intro and the front, and wiggles it on the reveal", () => {
     mountLearn();
+    expect(q("intro")!.dataset.cardId).toBe("ir-go");
+    expect(move()).toBe("pop");
+    expect(q("intro")!.dataset.enter).toBe("card");
+    passIntros();
     expect(front()).toBe("ir-go");
     expect(move()).toBe("pop");
     expect(q("card-front")!.dataset.enter).toBe("card");
@@ -94,6 +103,7 @@ describe("with motion allowed", () => {
 
   it("jumps on green: the rating is stored at once and the next card waits for the jump", async () => {
     mountLearn();
+    passIntros();
     tap("card-front");
     tap("rate-good");
     expect(move()).toBe("jump");
@@ -113,6 +123,7 @@ describe("with motion allowed", () => {
 
   it("droops on red, then moves on", async () => {
     mountLearn();
+    passIntros();
     tap("card-front");
     tap("rate-again");
     expect(move()).toBe("droop");
@@ -126,6 +137,7 @@ describe("with motion allowed", () => {
 
   it("stores one review when a rating is tapped again during the move", async () => {
     mountLearn();
+    passIntros();
     tap("card-front");
     tap("rate-good");
     await stored(1);
@@ -139,6 +151,7 @@ describe("with motion allowed", () => {
 
   it("has no move for orange, or for a glue card, which has no character", async () => {
     mountLearn();
+    passIntros();
     tap("card-front");
     tap("rate-nearly");
     // The clock is held, so reaching the next card shows that nothing waited on a move.
@@ -154,6 +167,7 @@ describe("with motion allowed", () => {
 
   it("celebrates at the end of the batch", async () => {
     mountLearn(2);
+    passIntros();
     await study("good");
     await study("good");
 
@@ -169,6 +183,10 @@ describe("with reduced motion on", () => {
 
   it("plays no move, transition or celebration through a whole batch", async () => {
     mountLearn(2);
+    expect(q("intro")).not.toBeNull();
+    expect(q("character")).not.toBeNull();
+    expect(moving()).toBe(0);
+    passIntros();
     expect(front()).toBe("ir-go");
     expect(q("character")).not.toBeNull();
     expect(moving()).toBe(0);

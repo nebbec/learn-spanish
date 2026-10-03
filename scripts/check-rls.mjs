@@ -166,6 +166,13 @@ async function main() {
       !pageError && page.length === 1 && page[0].id === offlineLastWeek.id,
       pageError?.message ?? `${page?.length} rows`,
     );
+
+    // Ratings: the intro's `known` (L10) is stored like the three buttons; anything else is refused.
+    const known = { ...review(a.id, t0 + 1000), rating: "known" };
+    const knownResult = await pushReviews(a.client, [known]);
+    check("a known review is accepted", !knownResult.error, knownResult.error?.message);
+    const unknown = await pushReviews(a.client, [{ ...review(a.id, t0 + 2000), rating: "easy" }]);
+    check("a rating outside the four is refused", unknown.error?.code === "23514", unknown.error?.code ?? "accepted");
   } finally {
     for (const user of users) await admin.auth.admin.deleteUser(user.id);
   }

@@ -53,11 +53,18 @@ async function showMenu() {
   await until(() => q("menu"), "the menu to load");
 }
 
-/** Rates every card that comes up until the batch ends. `ratings` are used in turn, then green. */
+/**
+ * Rates every card that comes up until the batch ends, passing each Learn intro with
+ * "Got it". `ratings` are used in turn, then green.
+ */
 async function studyBatch(ratings: Rating[] = []) {
   let shown = 0;
   while (!q("batch-end")) {
     if (shown > 50) throw new Error("The batch never ended");
+    if (q("intro")) {
+      click("intro-got-it");
+      continue;
+    }
     click("card-front");
     click(`rate-${ratings[shown] ?? "good"}`);
     // The rating is stored by the time the session leaves the reveal.

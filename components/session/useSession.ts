@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import type { Card } from "@/lib/deck";
-import type { CardStates } from "@/lib/queues";
+import { afterIntro, type CardStates, type IntroChoice, type Step } from "@/lib/queues";
 import { rateCard } from "@/lib/scheduler";
 import { localStore, type Direction, type LocalStore, type Rating, type Section } from "@/lib/store";
 
@@ -18,18 +18,21 @@ export interface SessionRating {
 }
 
 export interface SessionOptions {
-  /** The queue: the cards to show, in order. Read once, when the session starts. */
-  cards: readonly Card[];
+  /**
+   * The queue: the steps to show, in order. Read once, when the session starts. Learn
+   * passes `learnBatch`'s intros; Practice passes `testSteps(cards)`.
+   */
+  steps: readonly Step[];
   section: Section;
   /** Defaults to forward. Reverse ratings are stored but never change card state. */
   direction?: Direction;
   /** Card state when the session starts. Not modified. */
   states: CardStates;
   /**
-   * Returns the queue after the card at `index` was rated. Learn passes
+   * Returns the queue after the test at `index` was rated. Learn passes
    * `afterLearnRating`, which brings a red back at the end of the batch.
    */
-  afterRating?: (batch: readonly Card[], index: number, rating: Rating) => readonly Card[];
+  afterRating?: (batch: readonly Step[], index: number, rating: Rating) => readonly Step[];
   /** Defaults to the app's shared store. Tests pass their own. */
   store?: SessionStore;
   /** Defaults to `Date.now`. */
@@ -37,11 +40,13 @@ export interface SessionOptions {
 }
 
 export interface Session {
-  /** The cards of the session. Grows when `afterRating` adds one. */
-  batch: readonly Card[];
-  /** Position of the card on screen. Equal to `batch.length` once finished. */
+  /** The steps of the session. Grows when an intro's test joins or a red brings a test back. */
+  batch: readonly Step[];
+  /** Position of the step on screen. Equal to `batch.length` once finished. */
   index: number;
-  /** The card on screen, or undefined once finished. */
+  /** The step on screen, or undefined once finished. */
+  step: Step | undefined;
+  /** The card of the step on screen, or undefined once finished. */
   card: Card | undefined;
   revealed: boolean;
   finished: boolean;
@@ -53,12 +58,18 @@ export interface Session {
   /** Set when a rating could not be saved. The card stays on screen so it can be rated again. */
   error: string | null;
   reveal: () => void;
-  /** Stores the rating, updates card state and moves to the next card. Ignored before the reveal. */
+  /** Stores the rating, updates card state and moves to the next step. Ignored before the reveal and on an intro. */
   rate: (rating: Rating) => Promise<void>;
+  /**
+   * Passes the intro on screen. "Got it" stores nothing and puts the card's test later in
+   * the batch; "I already know this" stores the rating `known` (Easy) and the card leaves
+   * the batch. Ignored on a test.
+   */
+  introduce: (choice: IntroChoice) => Promise<void>;
 }
 
 interface SessionState {
-  batch: readonly Card[];
+  batch: readonly Step[];
   index: number;
   revealed: boolean;
   ratings: readonly SessionRating[];
@@ -75,7 +86,7 @@ export function useSession(options: SessionOptions): Session {
   const { section, direction = "forward", afterRating, store, clock = Date.now } = options;
 
   const [state, setState] = useState<SessionState>(() => ({
-    batch: options.cards,
+    batch: options.steps,
     index: 0,
     revealed: false,
     ratings: [],
@@ -95,14 +106,15 @@ export function useSession(options: SessionOptions): Session {
 
   const reveal = () => {
     const now = live.current;
-    if (now.revealed || now.index >= now.batch.length) return;
+    if (now.revealed || now.batch[now.index]?.kind !== "test") return;
     commit({ ...now, revealed: true });
   };
 
-  const rate = async (rating: Rating) => {
+  /** Stores one rating of the card on screen and moves on, with the batch `nextBatch` gives. */
+  const storeRating = async (rating: Rating, nextBatch: (now: SessionState) => readonly Step[]) => {
     const now = live.current;
-    const card = now.batch[now.index];
-    if (!card || !now.revealed || saving.current) return;
+    const card = now.batch[now.index]?.card;
+    if (!card) return;
     saving.current = true;
     try {
       const target = store ?? localStore();
@@ -119,7 +131,7 @@ export function useSession(options: SessionOptions): Session {
       }
 
       commit({
-        batch: afterRating ? afterRating(now.batch, now.index, rating) : now.batch,
+        batch: nextBatch(now),
         index: now.index + 1,
         revealed: false,
         ratings: [...now.ratings, { cardId: card.id, rating, reviewId: review.id }],
@@ -133,10 +145,29 @@ export function useSession(options: SessionOptions): Session {
     }
   };
 
+  const rate = async (rating: Rating) => {
+    const now = live.current;
+    if (now.batch[now.index]?.kind !== "test" || !now.revealed || saving.current) return;
+    await storeRating(rating, (at) => (afterRating ? afterRating(at.batch, at.index, rating) : at.batch));
+  };
+
+  const introduce = async (choice: IntroChoice) => {
+    const now = live.current;
+    if (now.batch[now.index]?.kind !== "intro" || saving.current) return;
+    if (choice === "known") {
+      await storeRating("known", (at) => afterIntro(at.batch, at.index, choice));
+      return;
+    }
+    commit({ ...now, batch: afterIntro(now.batch, now.index, choice), index: now.index + 1, revealed: false });
+    setError(null);
+  };
+
+  const step = state.batch[state.index];
   return {
     batch: state.batch,
     index: state.index,
-    card: state.batch[state.index],
+    step,
+    card: step?.card,
     revealed: state.revealed,
     finished: state.index >= state.batch.length,
     direction,
@@ -145,10 +176,14 @@ export function useSession(options: SessionOptions): Session {
     error,
     reveal,
     rate,
+    introduce,
   };
 }
 
-/** What the batch-end screen reports. Each card counts once, under its first rating of the session. */
+/**
+ * What the batch-end screen reports. Each card counts once, under its first rating of the
+ * session; `known` counts as green.
+ */
 export interface SessionSummary {
   /** Distinct cards rated. */
   cards: number;
@@ -163,6 +198,6 @@ export function summarize(ratings: readonly SessionRating[]): SessionSummary {
     if (!first.has(cardId)) first.set(cardId, rating);
   }
   const summary: SessionSummary = { cards: first.size, good: 0, nearly: 0, again: 0 };
-  for (const rating of first.values()) summary[rating] += 1;
+  for (const rating of first.values()) summary[rating === "known" ? "good" : rating] += 1;
   return summary;
 }
