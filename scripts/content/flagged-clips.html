@@ -1,0 +1,148 @@
+<!doctype html>
+<!-- Template for scripts/content/make-audio.mjs, which writes content/flagged-clips.html with the clips to hear in place of DATA. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clips to hear</title>
+<style>
+  :root { --paper: #fff8ec; --card: #fff; --ink: #2b2340; --soft: #6f6787; --brand: #7a5af8; --line: #e8dfcf; --good: #2f9e5b; --again: #e5484d; }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1c1828; --card: #262036; --ink: #f3eefc; --soft: #b3aac8; --brand: #9d85ff; --line: #3a3350; --good: #4cc27c; --again: #ff6b6f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.45 system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 120px; }
+  h1 { margin: 0 0 8px; font-size: 28px; }
+  h2 { margin: 32px 0 8px; font-size: 22px; }
+  p { margin: 0 0 12px; color: var(--soft); }
+  .item { background: var(--card); border: 2px solid var(--line); border-radius: 16px; padding: 16px; margin: 16px 0; }
+  .item.ok { border-color: var(--good); }
+  .item.again { border-color: var(--again); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 13px; color: var(--soft); margin-bottom: 4px; }
+  .tag { font-weight: 600; color: var(--brand); }
+  .text { font-size: 24px; font-weight: 700; margin: 0 0 4px; overflow-wrap: anywhere; color: var(--ink); }
+  .why { font-size: 15px; margin: 0 0 12px; color: var(--ink); }
+  .buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+  button { font: inherit; border: 2px solid transparent; border-radius: 999px; padding: 8px 16px; cursor: pointer; background: var(--paper); color: var(--ink); }
+  button:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
+  .play { background: var(--brand); color: #fff; min-width: 96px; }
+  .choice[aria-pressed="true"].ok { background: var(--good); color: #fff; }
+  .choice[aria-pressed="true"].again { background: var(--again); color: #fff; }
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--ink); color: var(--paper); padding: 12px 16px; display: flex; gap: 12px; align-items: center; justify-content: center; flex-wrap: wrap; }
+  .bar a { color: var(--paper); font-weight: 600; }
+  pre { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font: 13px/1.5 ui-monospace, monospace; color: var(--ink); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Clips to hear</h1>
+  <p>The audio script played every clip to a speech-to-text model and compared what it heard with what the clip should say. These are the clips where the two differed, the word clips much longer than the rest, and any clip said again at your request. A flag only means "worth a listen": a lone short word is easy to mishear, and in Latin American Spanish some words sound exactly like others (haber and a ver, vez and ves), which the model cannot tell apart.</p>
+  <p>Press <b>Play</b>, then choose <b>Sounds right</b> or <b>Say it again</b>. Your choices are kept in this browser, so you can stop and come back.</p>
+  <div id="items"></div>
+  <section id="done">
+    <h2>When you are done</h2>
+    <p id="left"></p>
+    <div id="redo" hidden>
+      <p>To have the clips you marked <b>Say it again</b> recorded again, send this to Claude, or paste it into Terminal in the project folder:</p>
+      <pre id="command"></pre>
+      <button id="copy-command">Copy</button>
+      <p>It asks the voice for each of those clips again, checks the new recording and rebuilds this page. Reload the page afterwards: the new recordings appear marked "said again", for you to hear.</p>
+    </div>
+    <p>Then send Claude this line, so the result is written down:</p>
+    <pre id="summary"></pre>
+    <button id="copy-summary">Copy</button>
+  </section>
+</main>
+<div class="bar"><span id="progress"></span><a href="#done">Done?</a></div>
+<script>
+const DATA = /*DATA*/null;
+const KEY = "flagged-clips";
+
+// Choices are kept by the clip's file, so a new recording of a clip starts unheard.
+let choices = {};
+try { choices = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch {}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(choices)); } catch {} }
+
+const audio = new Audio();
+let playing = null;
+audio.addEventListener("ended", () => setPlaying(null));
+function setPlaying(button) {
+  if (playing) playing.textContent = "Play";
+  playing = button;
+  if (button) button.textContent = "Stop";
+}
+
+function el(tag, props = {}, ...children) {
+  const node = Object.assign(document.createElement(tag), props);
+  node.append(...children);
+  return node;
+}
+
+const items = document.getElementById("items");
+for (const clip of DATA.clips) {
+  const play = el("button", { className: "play", textContent: "Play" });
+  play.addEventListener("click", () => {
+    if (playing === play) { audio.pause(); setPlaying(null); return; }
+    audio.src = clip.src;
+    audio.play().then(() => setPlaying(play), () => setPlaying(null));
+  });
+  const ok = el("button", { className: "choice ok", textContent: "Sounds right" });
+  const again = el("button", { className: "choice again", textContent: "Say it again" });
+  const reasons = [];
+  if (clip.flagged) reasons.push(`The speech-to-text model heard: “${clip.heard}”`);
+  if (clip.long) reasons.push(`Long for one word: ${clip.seconds.toFixed(1)} seconds, where most word clips take ${clip.median.toFixed(1)}. There may be a pause or an extra sound.`);
+  if (clip.take > 1) reasons.push(clip.flagged ? "Said again at your request." : `Said again at your request. The model heard: “${clip.heard}”, which matches.`);
+  const why = reasons.join(" ");
+  const item = el("div", { className: "item" },
+    el("div", { className: "meta" },
+      el("span", { className: "tag", textContent: clip.clip === "word" ? "Word" : "Sentence" }),
+      el("span", { textContent: `card ${clip.card}` }),
+      ...(clip.take > 1 ? [el("span", { className: "tag", textContent: `said again (take ${clip.take})` })] : [])),
+    el("p", { className: "text", lang: "es", textContent: clip.text }),
+    el("p", { className: "why", textContent: why }),
+    el("div", { className: "buttons" }, play, ok, again));
+  const show = () => {
+    const choice = choices[clip.src];
+    item.className = `item ${choice || ""}`;
+    ok.setAttribute("aria-pressed", String(choice === "ok"));
+    again.setAttribute("aria-pressed", String(choice === "again"));
+    update();
+  };
+  const choose = (value) => { choices[clip.src] = choices[clip.src] === value ? undefined : value; save(); show(); };
+  ok.addEventListener("click", () => choose("ok"));
+  again.addEventListener("click", () => choose("again"));
+  items.append(item);
+  clip.show = show;
+}
+
+function update() {
+  const marked = (value) => DATA.clips.filter((clip) => choices[clip.src] === value);
+  const ok = marked("ok"), again = marked("again");
+  const heard = ok.length + again.length, total = DATA.clips.length;
+  document.getElementById("progress").textContent = `${heard} of ${total} heard`;
+  document.getElementById("left").textContent = heard === total
+    ? (again.length ? `All ${total} heard. ${again.length} to say again.` : `All ${total} heard, and all sound right.`)
+    : `${total - heard} still to hear.`;
+  const names = (list) => list.map((clip) => clip.name).join(", ") || "none";
+  document.getElementById("redo").hidden = again.length === 0;
+  document.getElementById("command").textContent =
+    `npm run audio -- --deck ${DATA.deck} --check --prune --redo ${again.map((clip) => clip.name).join(",")}`;
+  document.getElementById("summary").textContent =
+    `Heard ${heard} of ${total} clips. Sound right: ${names(ok)}. Say again: ${names(again)}.`;
+}
+
+for (const [button, source] of [["copy-command", "command"], ["copy-summary", "summary"]]) {
+  document.getElementById(button).addEventListener("click", (event) => {
+    navigator.clipboard?.writeText(document.getElementById(source).textContent)
+      .then(() => { event.target.textContent = "Copied"; setTimeout(() => { event.target.textContent = "Copy"; }, 1500); }, () => {});
+  });
+}
+
+DATA.clips.forEach((clip) => clip.show());
+if (!DATA.clips.length) document.getElementById("left").textContent = "Nothing to hear: the check flagged no clip.";
+update();
+</script>
+</body>
+</html>

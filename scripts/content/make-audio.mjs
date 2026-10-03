@@ -4,26 +4,46 @@
 //   npm run audio                       every card in public/deck/deck.json
 //   npm run audio -- --deck FILE        another deck file
 //   npm run audio -- --limit N          only the first N cards by rank (a trial run)
-//   npm run audio -- --check            also transcribe each clip back and flag mismatches
+//   npm run audio -- --check            also transcribe each clip back, flag mismatches and write
+//                                       content/flagged-clips.html, the page for hearing them
+//                                       (with any word clip over twice the median word's length)
 //   npm run audio -- --redo ID.CLIP,... speak these clips again (e.g. lo-him.word), as a new take
-//   npm run audio -- --prune            delete clips in public/deck/audio the app's deck no longer names
+//   npm run audio -- --prune            delete clips in public/deck/audio that neither the app's
+//                                       deck nor content/deck.json names
 //
 // A clip whose file exists is not made again, so a failed run resumes where it
 // stopped. The speech API's raw answers are kept in content/.cache/audio (not
 // committed), so a change to ENCODING re-encodes without calling the API again.
 // A redone take is counted in content/audio-takes.json, which is committed, since
 // the take is part of the clip's path. Needs OPENAI_API_KEY in .env.local. Prints counts and card ids only; flagged
-// clips, with what the transcriber heard, go in content/.cache/audio/flagged.tsv.
+// clips, with what the transcriber heard, go in content/.cache/audio/flagged.tsv, and
+// they and every redone take are listed on content/flagged-clips.html (G3), which
+// plays them from public/deck/audio for a person to hear.
 
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { ENCODING, VOICE, audioPaths, clipTexts, finishClip, loudness, normalizeSpoken, pcmToFloat, rawKey } from "./audio.mjs";
+import {
+  ENCODING,
+  VOICE,
+  audioPaths,
+  clipTexts,
+  clipsToHear,
+  finishClip,
+  loudness,
+  normalizeSpoken,
+  orphanClips,
+  pcmToFloat,
+  rawKey,
+} from "./audio.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const PUBLIC = path.join(ROOT, "public");
 const CACHE = path.join(ROOT, "content", ".cache", "audio");
 const TAKES = path.join(ROOT, "content", "audio-takes.json");
+const DECKS = [path.join(PUBLIC, "deck", "deck.json"), path.join(ROOT, "content", "deck.json")];
+const PAGE = path.join(ROOT, "content", "flagged-clips.html");
+const PAGE_TEMPLATE = path.join(ROOT, "scripts", "content", "flagged-clips.html");
 const CLIPS = ["word", "sentence"];
 const PARALLEL = 4;
 
@@ -188,14 +208,30 @@ if (check) {
   writeFileSync(path.join(CACHE, "flagged.tsv"), ["clip\texpected\theard", ...rows].join("\n") + "\n");
   console.log(`check: ${present.length} clips, ${flagged.length} flagged (content/.cache/audio/flagged.tsv)`);
   if (flagged.length) console.log(`flagged: ${flagged.map((j) => `${j.card.id}.${j.clip}`).join(" ")}`);
+
+  // The page a person hears them on: the flagged clips and every redone take, played
+  // from public/deck/audio by a path relative to the page.
+  // A clip's length from its size, as the MP3 is constant bitrate.
+  const seconds = (file) => (statSync(file).size * 8) / (ENCODING.kbps * 1000);
+  const clips = present.map((j) => ({ name: `${j.card.id}.${j.clip}`, card: j.card.id, clip: j.clip, url: j.url, text: j.text, seconds: seconds(j.file) }));
+  const toHear = clipsToHear(clips, heard, takes).map(({ url, ...clip }) => ({ ...clip, src: `../public${url}` }));
+  const data = { deck: path.relative(ROOT, deckFile), clips: toHear };
+  const page = readFileSync(PAGE_TEMPLATE, "utf8").replace("/*DATA*/null", () => JSON.stringify(data).replace(/</g, "\\u003c"));
+  writeFileSync(PAGE, page);
+  const long = toHear.filter((c) => c.long && !c.flagged);
+  const redone = toHear.filter((c) => c.take > 1).length;
+  console.log(
+    `page: content/flagged-clips.html, ${toHear.length} clips to hear ` +
+      `(${long.length} more for a long word clip${long.length ? `: ${long.map((c) => c.name).join(" ")}` : ""}; ${redone} redone takes)`,
+  );
 }
 
-// Clips the app's deck no longer names: a corrected card's old clips, or the fixture's tones.
-const appDeck = deckFile === path.join(PUBLIC, "deck", "deck.json");
-const named = new Set(deck.cards.flatMap((card) => CLIPS.map((clip) => card.audio[clip])));
+// Clips neither deck names: a redone take's old clip, a corrected card's old clips,
+// or the fixture's tones. Both decks keep their clips in public/deck/audio.
+const decks = [deck, ...DECKS.filter((file) => file !== deckFile && existsSync(file)).map((file) => JSON.parse(readFileSync(file, "utf8")))];
 const audioDir = path.join(PUBLIC, "deck", "audio");
-const orphans = appDeck && existsSync(audioDir) ? readdirSync(audioDir).filter((name) => !named.has(`/deck/audio/${name}`)) : [];
+const orphans = existsSync(audioDir) ? orphanClips(readdirSync(audioDir), decks) : [];
 if (prune) for (const name of orphans) rmSync(path.join(audioDir, name));
-if (orphans.length) console.log(`${orphans.length} clips the deck does not name ${prune ? "deleted" : "left (--prune deletes them)"}`);
+if (orphans.length) console.log(`${orphans.length} clips no deck names ${prune ? "deleted" : "left (--prune deletes them)"}`);
 
 if (counts.failed) process.exitCode = 1;

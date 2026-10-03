@@ -4,9 +4,11 @@ import {
   ENCODING,
   audioPaths,
   clipTexts,
+  clipsToHear,
   finishClip,
   loudness,
   normalizeSpoken,
+  orphanClips,
   peakDb,
   pcmToFloat,
   trimSilence,
@@ -130,5 +132,59 @@ describe("normalizeSpoken", () => {
   it("ignores case, accents and punctuation, as a transcript differs in those", () => {
     expect(normalizeSpoken("¿Dónde está la calle?")).toBe("donde esta la calle");
     expect(normalizeSpoken("El pingüino.")).toBe(normalizeSpoken("el pinguino"));
+  });
+});
+
+describe("orphanClips", () => {
+  const card = (id: string, word: string, sentence: string) => ({ id, audio: { word, sentence } });
+  const app = { cards: [card("casa-house", "/deck/audio/casa-house.word.aaaa.mp3", "/deck/audio/casa-house.sentence.bbbb.mp3")] };
+  const content = { cards: [card("ir-go", "/deck/audio/ir-go.word.cccc.mp3", "/deck/audio/ir-go.sentence.dddd.mp3")] };
+
+  it("keeps every clip that either deck names and returns the rest", () => {
+    const files = [
+      "casa-house.word.aaaa.mp3",
+      "casa-house.sentence.bbbb.mp3",
+      "ir-go.word.cccc.mp3",
+      "ir-go.word.0ld0.mp3",
+      "ir-go.sentence.dddd.mp3",
+      "casa-house.word.wav",
+    ];
+    expect(orphanClips(files, [app, content])).toEqual(["ir-go.word.0ld0.mp3", "casa-house.word.wav"]);
+  });
+
+  it("would delete the other deck's clips if given one deck, which is why --prune passes both", () => {
+    expect(orphanClips(["ir-go.word.cccc.mp3"], [app])).toEqual(["ir-go.word.cccc.mp3"]);
+  });
+});
+
+describe("clipsToHear", () => {
+  const clips = [
+    { name: "ir-go.word", clip: "word", url: "/deck/audio/ir-go.word.1.mp3", text: "ir", seconds: 0.5 },
+    { name: "ir-go.sentence", clip: "sentence", url: "/deck/audio/ir-go.sentence.1.mp3", text: "Voy a la tienda.", seconds: 2.4 },
+    { name: "y-and.word", clip: "word", url: "/deck/audio/y-and.word.2.mp3", text: "y", seconds: 0.6 },
+    { name: "mirar-look.word", clip: "word", url: "/deck/audio/mirar-look.word.1.mp3", text: "mirar", seconds: 2.0 },
+    { name: "casa-house.word", clip: "word", url: "/deck/audio/casa-house.word.1.mp3", text: "la casa", seconds: 0.8 },
+  ];
+  const heard = {
+    "/deck/audio/ir-go.word.1.mp3": "Ich",
+    "/deck/audio/ir-go.sentence.1.mp3": "¡Voy a la tienda!",
+    "/deck/audio/y-and.word.2.mp3": "Y.",
+    "/deck/audio/mirar-look.word.1.mp3": "Mirar.",
+    "/deck/audio/casa-house.word.1.mp3": "La casa.",
+  };
+
+  it("lists a flagged clip, a word clip over twice the median word's length and a redone take, in deck order", () => {
+    const list = clipsToHear(clips, heard, { "y-and.word": 2 });
+    expect(list.map((c: { name: string; flagged: boolean; long: boolean; take: number }) => [c.name, c.flagged, c.long, c.take])).toEqual([
+      ["ir-go.word", true, false, 1],
+      ["y-and.word", false, false, 2],
+      ["mirar-look.word", false, true, 1],
+    ]);
+    expect(list[0].heard).toBe("Ich");
+    expect(list[2].median).toBe(0.8);
+  });
+
+  it("leaves out a clip that was never transcribed", () => {
+    expect(clipsToHear(clips, {}, { "y-and.word": 2 })).toEqual([]);
   });
 });

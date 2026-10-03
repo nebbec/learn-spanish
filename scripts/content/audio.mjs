@@ -208,3 +208,33 @@ export function normalizeSpoken(text) {
     .replace(/[^\p{L}\p{N}]+/gu, " ")
     .trim();
 }
+
+/**
+ * The files in public/deck/audio that no deck names: a redone take's old clip, a
+ * corrected card's old clips, or the fixture's tones. `--prune` passes both the
+ * app's deck and content/deck.json, so pruning after one never deletes the other's.
+ */
+export function orphanClips(files, decks) {
+  const named = new Set(decks.flatMap((deck) => deck.cards.flatMap((card) => Object.values(card.audio))));
+  return files.filter((name) => !named.has(`/deck/audio/${name}`));
+}
+
+/**
+ * The clips a person should hear (G3): every clip the transcriber flagged; every
+ * word clip more than twice as long as the median word clip (`long`), as a pause
+ * or an extra sound there passes the transcriber; and every clip said again with
+ * `--redo`, since a new take the checks pass has still not been heard. `clips`
+ * are `{ name, clip, url, text, seconds }` in deck order, `clip` being "word" or
+ * "sentence"; `heard` maps a clip's url to its transcript.
+ */
+export function clipsToHear(clips, heard, takes) {
+  const words = clips.filter((c) => c.clip === "word").map((c) => c.seconds).sort((a, b) => a - b);
+  const median = words.length ? words[Math.floor(words.length / 2)] : Infinity;
+  return clips.flatMap((clip) => {
+    if (!(clip.url in heard)) return [];
+    const flagged = normalizeSpoken(heard[clip.url]) !== normalizeSpoken(clip.text);
+    const long = clip.clip === "word" && clip.seconds > 2 * median;
+    const take = takes[clip.name] ?? 1;
+    return flagged || long || take > 1 ? [{ ...clip, heard: heard[clip.url], flagged, long, median, take }] : [];
+  });
+}
