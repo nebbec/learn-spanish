@@ -1,0 +1,16 @@
+{
+  "id": "me-me",
+  "rank": 18,
+  "word": "me",
+  "draft": "4829c1091b782846",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "me (object pronoun: me, to me; also the reflexive myself)",
+    "example": "Will you call me tomorrow?"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:49.535Z"
+}

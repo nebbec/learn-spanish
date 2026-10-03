@@ -1,0 +1,16 @@
+{
+  "id": "de-of",
+  "rank": 2,
+  "word": "de",
+  "draft": "dcb939a3a198e916",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "of (possession, belonging); also from",
+    "example": "It's my mom's house."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:39:35.546Z"
+}

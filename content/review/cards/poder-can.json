@@ -1,0 +1,16 @@
+{
+  "id": "poder-can",
+  "rank": 19,
+  "word": "poder",
+  "draft": "5a10d7b3caece005",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be able to; can",
+    "example": "Can you help me with this?"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:57.010Z"
+}

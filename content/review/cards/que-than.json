@@ -1,0 +1,16 @@
+{
+  "id": "que-than",
+  "rank": 3,
+  "word": "que",
+  "draft": "f1b57e7dc3a7683c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "than (in comparisons: más ... que = more ... than)",
+    "example": "My brother is taller than me."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:39:56.412Z"
+}

@@ -1,0 +1,28 @@
+# no-no-answer · rank 5 · no
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt "[No], thanks." already has only one right answer, "no", and cannot be confused with the "I do [not] know" card, so the hint is unnecessary and should be dropped. Suggested fix: hint: null
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         no-no-answer
+kind:       glue
+pos:        adverb
+es:         no
+en:         [No], thanks.
+hint:       the answer, opposite of yes
+example.es: ¿Quieres café? No, gracias.
+example.en: Do you want coffee? No, thanks.
+spain:
+trick:      NO is spelled and said like English no, so refusing in Spanish works just like in English.
+
+# The draft this file was made from. Do not change it.
+draft: daf60dc606f48b2d

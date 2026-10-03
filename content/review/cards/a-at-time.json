@@ -1,0 +1,16 @@
+{
+  "id": "a-at-time",
+  "rank": 7,
+  "word": "a",
+  "draft": "0125e6e0e66b005f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "a = to / at (preposition); with clock times: at",
+    "example": "The party starts at nine."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:19.849Z"
+}

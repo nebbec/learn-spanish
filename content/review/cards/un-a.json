@@ -1,0 +1,27 @@
+{
+  "id": "un-a",
+  "rank": 6,
+  "word": "un",
+  "draft": "771b88fea8f5c7ad",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint is not needed because libro is masculine, so un is already the only right answer to the bare prompt, and hints should appear only when the prompt has more than one answer.",
+      "fix": "hint: null"
+    },
+    {
+      "reason": "trick",
+      "problem": "Dropping the a from an leaves n, not un, and Spanish un sounds like oon, not like English an, so the trick is misleading.",
+      "fix": "trick: UN sounds like oon, a short form of uno (one), so un libro is one book, a book."
+    }
+  ],
+  "back": {
+    "es": "a, an (masculine singular indefinite article)",
+    "example": "I have a dog and a (female) cat."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:15.075Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "haber-have-auxiliary",
+  "rank": 12,
+  "word": "haber",
+  "draft": "dad12beb61dc003c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "For 'Have you eaten yet?' Latin American speakers overwhelmingly say '¿Ya comiste?' (preterite); '¿Ya has comido?' sounds Peninsular, so the example teaches a less natural Latin American usage.",
+      "fix": "example.es: Nunca he estado en México. | example.en: I've never been to Mexico."
+    }
+  ],
+  "back": {
+    "es": "to have (auxiliary verb forming perfect tenses); also there to be (hay)",
+    "example": "Have you eaten yet? / Have you already eaten?"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:00.820Z"
+}

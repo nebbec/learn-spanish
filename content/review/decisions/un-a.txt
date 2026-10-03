@@ -1,0 +1,29 @@
+# un-a · rank 6 · un
+#
+# Why it was flagged:
+#   - One right answer: The hint is not needed because libro is masculine, so un is already the only right answer to the bare prompt, and hints should appear only when the prompt has more than one answer. Suggested fix: hint: null
+#   - Memory trick: Dropping the a from an leaves n, not un, and Spanish un sounds like oon, not like English an, so the trick is misleading. Suggested fix: trick: UN sounds like oon, a short form of uno (one), so un libro is one book, a book.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         un-a
+kind:       glue
+pos:        determiner
+es:         un
+en:         I want [a] book
+hint:       masculine form
+example.es: Tengo un perro y una gata.
+example.en: I have a dog and a cat.
+spain:
+trick:      UN sounds like the start of "an": just drop the a and you have it.
+
+# The draft this file was made from. Do not change it.
+draft: 771b88fea8f5c7ad

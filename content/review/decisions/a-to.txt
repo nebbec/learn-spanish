@@ -1,0 +1,28 @@
+# a-to · rank 7 · a
+#
+# Why it was flagged:
+#   - One right answer: The hint 'direction, movement' also fits hacia (toward) and colloquial para ('voy para México'), whereas 'destination' points only to a. Suggested fix: hint: destination of movement
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         a-to
+kind:       glue
+pos:        preposition
+es:         a
+en:         I go [to] Mexico
+hint:       direction, movement
+example.es: Mañana voy a la playa.
+example.en: Tomorrow I'm going to the beach.
+spain:
+trick:      A sounds like 'ah!': you shout 'ah!' as you finally arrive at where you were going.
+
+# The draft this file was made from. Do not change it.
+draft: df833c0660fd1ffa

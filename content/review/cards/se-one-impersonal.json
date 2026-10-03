@@ -1,0 +1,16 @@
+{
+  "id": "se-one-impersonal",
+  "rank": 20,
+  "word": "se",
+  "draft": "95519d485c70b17e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "se: impersonal pronoun (one, people in general, 'you' in the generic sense); also reflexive himself/herself/themselves",
+    "example": "How do you say 'gracias' in English? (literally: How is 'gracias' said in English?)"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:42:03.730Z"
+}

@@ -1,0 +1,28 @@
+# lo-the-thing · rank 11 · lo
+#
+# Why it was flagged:
+#   - Memory trick: The trick suggests lo means 'the main thing' or 'what matters', but lo only means 'the ... thing' and carries no sense of importance (lo malo is 'the bad thing'). Suggested fix: trick: LO sounds like low: lo bajo is 'the low part', so LO plus an adjective means 'the ... thing' or 'the ... part'.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         lo-the-thing
+kind:       glue
+pos:        determiner
+es:         lo
+en:         [the] important thing is the family
+hint:       before an adjective, no noun
+example.es: Lo bueno es que llegamos temprano.
+example.en: The good thing is that we arrived early.
+spain:
+trick:      LO sounds like low: the lowdown, the main thing, is what matters.
+
+# The draft this file was made from. Do not change it.
+draft: 7954e0c325c4cc01

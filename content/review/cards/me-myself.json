@@ -1,0 +1,16 @@
+{
+  "id": "me-myself",
+  "rank": 18,
+  "word": "me",
+  "draft": "20c0cf475c4da20b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "me / myself (first-person singular object or reflexive pronoun)",
+    "example": "I wash my hands before eating."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:55.810Z"
+}

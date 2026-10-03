@@ -330,7 +330,8 @@ export class DraftStore {
   }
 }
 
-function writeJson(file: string, value: unknown) {
+/** Writes JSON through a temporary file and a rename, so a killed run never leaves half a file. */
+export function writeJson(file: string, value: unknown) {
   writeFileSync(`${file}.tmp`, `${JSON.stringify(value, null, 2)}\n`);
   renameSync(`${file}.tmp`, file);
 }

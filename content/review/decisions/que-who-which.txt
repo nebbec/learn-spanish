@@ -1,0 +1,28 @@
+# que-who-which · rank 3 · que
+#
+# Why it was flagged:
+#   - One right answer: The hint suggests quien would also be correct here, just less common, but 'el hombre quien vive aquí' is ungrammatical because a restrictive relative clause without a comma needs que, so the bare prompt already has only one answer. Suggested fix: hint: null
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         que-who-which
+kind:       glue
+pos:        pronoun
+es:         que
+en:         the man [who] lives here
+hint:       the everyday word, not quien
+example.es: El hombre que vive aquí es mi tío.
+example.en: The man who lives here is my uncle.
+spain:
+trick:      QUE sounds like "key": it's the key that points to who or which thing you mean.
+
+# The draft this file was made from. Do not change it.
+draft: fd75d2f76ba55474

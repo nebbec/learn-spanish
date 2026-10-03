@@ -1,0 +1,16 @@
+{
+  "id": "por-through",
+  "rank": 14,
+  "word": "por",
+  "draft": "40ee2578c23d4cf3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "por: through, along, around, by, for, because of (a preposition)",
+    "example": "We walk through (around) the park."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:25.097Z"
+}

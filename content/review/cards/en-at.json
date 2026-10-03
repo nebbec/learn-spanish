@@ -1,0 +1,16 @@
+{
+  "id": "en-at",
+  "rank": 10,
+  "word": "en",
+  "draft": "9a54dbcb1a35eafc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "in / on / at (preposition of location)",
+    "example": "I'm at work all day."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:42.491Z"
+}

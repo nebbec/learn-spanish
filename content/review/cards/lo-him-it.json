@@ -1,0 +1,16 @@
+{
+  "id": "lo-him-it",
+  "rank": 11,
+  "word": "lo",
+  "draft": "e95c7fe1a7c24c22",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "him, it (masculine direct-object pronoun)",
+    "example": "I saw him yesterday in the street."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:46.670Z"
+}

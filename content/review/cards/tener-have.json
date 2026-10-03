@@ -1,0 +1,16 @@
+{
+  "id": "tener-have",
+  "rank": 13,
+  "word": "tener",
+  "draft": "dc9364eb7ad6524f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to have (own, possess)",
+    "example": "I have two brothers (or siblings) and a dog."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:06.432Z"
+}

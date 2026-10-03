@@ -1,0 +1,22 @@
+{
+  "id": "lo-the-thing",
+  "rank": 11,
+  "word": "lo",
+  "draft": "7954e0c325c4cc01",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick suggests lo means 'the main thing' or 'what matters', but lo only means 'the ... thing' and carries no sense of importance (lo malo is 'the bad thing').",
+      "fix": "trick: LO sounds like low: lo bajo is 'the low part', so LO plus an adjective means 'the ... thing' or 'the ... part'."
+    }
+  ],
+  "back": {
+    "es": "the (neuter article before an adjective: 'the ... thing / the ... part')",
+    "example": "The good thing is that we arrived early."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:56.223Z"
+}

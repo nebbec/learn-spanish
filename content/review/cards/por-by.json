@@ -1,0 +1,16 @@
+{
+  "id": "por-by",
+  "rank": 14,
+  "word": "por",
+  "draft": "f731e781fb615449",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "por = by (agent of a passive), also for, through, because of",
+    "example": "The letter was written by my dad."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:26.609Z"
+}

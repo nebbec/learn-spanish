@@ -1,0 +1,16 @@
+{
+  "id": "que-how-exclamation",
+  "rank": 16,
+  "word": "qué",
+  "draft": "bea84db875a2beb5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "qué = how (in exclamations before an adjective); also what",
+    "example": "How pretty your house is!"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:39.660Z"
+}

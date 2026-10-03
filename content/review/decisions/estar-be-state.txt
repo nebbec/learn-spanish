@@ -1,0 +1,32 @@
+# estar-be-state · rank 8 · estar
+#
+# Why it was flagged:
+#   - Example sentence: The example is two sentences, but the card format calls for one short sentence. Suggested fix: example.es: Estoy en casa y estoy muy cansado. | example.en: I'm at home and I'm really tired.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         estar-be-state
+kind:       content
+pos:        verb
+es:         estar
+en:         to be
+hint:       state, place
+yo:         estoy
+tu:         estás
+el:         está
+irregular:  yes
+example.es: ¿Dónde estás? Estoy muy cansado.
+example.en: Where are you? I'm really tired.
+spain:
+trick:      ESTAR sounds like "a star": a star is always somewhere in the sky, shining bright or dim depending on its state.
+
+# The draft this file was made from. Do not change it.
+draft: 9c0002455b56f258

@@ -1,0 +1,16 @@
+{
+  "id": "y-and",
+  "rank": 9,
+  "word": "y",
+  "draft": "83c5e9b8707e0410",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "and",
+    "example": "I have a dog and a cat."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:25.348Z"
+}

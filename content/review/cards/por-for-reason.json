@@ -1,0 +1,16 @@
+{
+  "id": "por-for-reason",
+  "rank": 14,
+  "word": "por",
+  "draft": "6fd838540d0a2aa5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "for (because of, in exchange for); through; by",
+    "example": "Thanks for the help."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:19.695Z"
+}

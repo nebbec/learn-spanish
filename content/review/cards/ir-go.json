@@ -1,0 +1,16 @@
+{
+  "id": "ir-go",
+  "rank": 15,
+  "word": "ir",
+  "draft": "1fc4690b3f7e6811",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to go",
+    "example": "Tomorrow I'm going to the beach with my friends."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:29.955Z"
+}

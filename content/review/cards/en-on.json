@@ -1,0 +1,16 @@
+{
+  "id": "en-on",
+  "rank": 10,
+  "word": "en",
+  "draft": "b1e47837caf5d244",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "in, on, at (preposition)",
+    "example": "Your phone is on the table."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:38.363Z"
+}

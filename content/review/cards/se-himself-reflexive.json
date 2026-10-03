@@ -1,0 +1,16 @@
+{
+  "id": "se-himself-reflexive",
+  "rank": 20,
+  "word": "se",
+  "draft": "e59234703a2d7548",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "himself, herself, itself, themselves, yourself (usted): reflexive pronoun",
+    "example": "My brother gets up very early."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:42:06.353Z"
+}

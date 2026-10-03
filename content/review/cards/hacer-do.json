@@ -1,0 +1,16 @@
+{
+  "id": "hacer-do",
+  "rank": 17,
+  "word": "hacer",
+  "draft": "f5c9ed3847972f6d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to do; to make",
+    "example": "What are you doing tonight?"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:42.637Z"
+}

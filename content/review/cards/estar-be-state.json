@@ -1,0 +1,22 @@
+{
+  "id": "estar-be-state",
+  "rank": 8,
+  "word": "estar",
+  "draft": "9c0002455b56f258",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is two sentences, but the card format calls for one short sentence.",
+      "fix": "example.es: Estoy en casa y estoy muy cansado. | example.en: I'm at home and I'm really tired."
+    }
+  ],
+  "back": {
+    "es": "to be (temporary states, conditions and location)",
+    "example": "Where are you? I'm very tired."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:40:23.835Z"
+}

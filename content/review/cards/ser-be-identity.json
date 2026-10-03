@@ -1,0 +1,16 @@
+{
+  "id": "ser-be-identity",
+  "rank": 4,
+  "word": "ser",
+  "draft": "ac4fb2fb9dc02cc9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be (permanent identity, origin, characteristics, what something is)",
+    "example": "I am from Mexico and I am a doctor."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:39:53.185Z"
+}

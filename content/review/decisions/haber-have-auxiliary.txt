@@ -1,0 +1,32 @@
+# haber-have-auxiliary · rank 12 · haber
+#
+# Why it was flagged:
+#   - Latin American usage: For 'Have you eaten yet?' Latin American speakers overwhelmingly say '¿Ya comiste?' (preterite); '¿Ya has comido?' sounds Peninsular, so the example teaches a less natural Latin American usage. Suggested fix: example.es: Nunca he estado en México. | example.en: I've never been to Mexico.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         haber-have-auxiliary
+kind:       content
+pos:        verb
+es:         haber
+en:         to have
+hint:       helper verb, as in I have eaten; not tener
+yo:         he
+tu:         has
+el:         ha
+irregular:  yes
+example.es: ¿Ya has comido?
+example.en: Have you eaten yet?
+spain:
+trick:      HABER sounds like have-er: it's the helper that turns eaten into have eaten.
+
+# The draft this file was made from. Do not change it.
+draft: dad12beb61dc003c

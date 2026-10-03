@@ -1,0 +1,16 @@
+{
+  "id": "tener-have-to",
+  "rank": 13,
+  "word": "tener",
+  "draft": "4faf61c81b458edd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tener = to have; with que before another verb (tener que) = to have to",
+    "example": "You have to eat something."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:18.393Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "haber-there-is",
+  "rank": 12,
+  "word": "haber",
+  "draft": "a69964e1bf5cb1cc",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "grammar",
+      "problem": "The él present form of haber is ha (él ha comido); hay is the separate impersonal form, so listing él: hay teaches a wrong form.",
+      "fix": "grammar.present.el: ha"
+    }
+  ],
+  "back": {
+    "es": "there to be (impersonal haber: hay = there is/there are); also the helper verb to have",
+    "example": "There is a dog in the house."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-03T13:41:09.967Z"
+}
