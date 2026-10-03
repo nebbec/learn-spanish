@@ -4,6 +4,7 @@ import type {
   NewReview,
   Note,
   RemoteNote,
+  RemoteReset,
   RemoteReview,
   Report,
   Reset,
@@ -224,11 +225,12 @@ export class LocalStore {
 
   /** Every row not yet uploaded, from one consistent snapshot. */
   async listUnsynced(): Promise<Unsynced> {
-    const { reviews, notes, reports } = this.db;
-    return this.db.transaction("r", reviews, notes, reports, async () => ({
+    const { reviews, notes, reports, resets } = this.db;
+    return this.db.transaction("r", [reviews, notes, reports, resets], async () => ({
       reviews: (await reviews.where("synced").equals(0).toArray()).sort(byTimeThenId),
       notes: await notes.where("synced").equals(0).toArray(),
       reports: await reports.where("synced").equals(0).sortBy("createdAt"),
+      resets: await resets.where("synced").equals(0).sortBy("resetAt"),
     }));
   }
 
@@ -237,11 +239,15 @@ export class LocalStore {
    * a note edited since then has a newer `updatedAt` and stays unsynced.
    */
   async markSynced(uploaded: Partial<Unsynced>): Promise<void> {
-    const { reviews, notes, reports } = this.db;
-    await this.db.transaction("rw", reviews, notes, reports, async () => {
+    const { reviews, notes, reports, resets } = this.db;
+    await this.db.transaction("rw", [reviews, notes, reports, resets], async () => {
       await reviews
         .where("id")
         .anyOf((uploaded.reviews ?? []).map((r) => r.id))
+        .modify({ synced: 1 });
+      await resets
+        .where("id")
+        .anyOf((uploaded.resets ?? []).map((r) => r.id))
         .modify({ synced: 1 });
       await reports
         .where("id")
@@ -289,6 +295,26 @@ export class LocalStore {
   }
 
   /**
+   * Adds downloaded resets this device does not have yet, as synced rows, and returns
+   * the ones it added. Like reviews, resets merge by union on id. `cursor`, when given,
+   * is saved in the same transaction. The caller rebuilds card state when any was
+   * added, since fewer reviews may now count.
+   */
+  async mergeResets(rows: readonly RemoteReset[], cursor?: string | null): Promise<Reset[]> {
+    const { resets, sync_state } = this.db;
+    return this.db.transaction("rw", resets, sync_state, async () => {
+      const unique = [...new Map(rows.map((r) => [r.id, r])).values()];
+      const existing = await resets.bulkGet(unique.map((r) => r.id));
+      const added = unique
+        .filter((_, i) => existing[i] === undefined)
+        .map((r): Reset => ({ id: r.id, resetAt: r.resetAt, deviceId: r.deviceId, synced: 1 }));
+      await resets.bulkAdd(added);
+      if (cursor != null) await sync_state.put({ key: "resets", cursor });
+      return added;
+    });
+  }
+
+  /**
    * Takes each downloaded note unless this device holds a later edit, and returns
    * the notes it changed. On equal times the server's copy wins, so every device
    * ends on the same text. `cursor` is saved in the same transaction.
@@ -329,18 +355,20 @@ export class LocalStore {
    * device last synced with another account, every row is marked unsynced and
    * both cursors are dropped, so the next sync uploads everything on the device
    * to this account and downloads all of its rows. Nothing is deleted. Returns
-   * true when the rows had been synced with a different account.
+   * true when the rows had been synced with a different account. Resets (L16) are
+   * treated like reviews.
    */
   async bindSyncAccount(userId: string): Promise<boolean> {
-    const { reviews, notes, reports, sync_state } = this.db;
-    return this.db.transaction("rw", [reviews, notes, reports, sync_state], async () => {
+    const { reviews, notes, reports, resets, sync_state } = this.db;
+    return this.db.transaction("rw", [reviews, notes, reports, resets, sync_state], async () => {
       const row = await sync_state.get("account");
       const current = row && "userId" in row ? row.userId : null;
       if (current === userId) return false;
       await reviews.where("synced").equals(1).modify({ synced: 0 });
       await notes.where("synced").equals(1).modify({ synced: 0 });
       await reports.where("synced").equals(1).modify({ synced: 0 });
-      await sync_state.bulkDelete(["reviews", "notes"]);
+      await resets.where("synced").equals(1).modify({ synced: 0 });
+      await sync_state.bulkDelete(["reviews", "notes", "resets"]);
       await sync_state.put({ key: "account", userId });
       return current !== null;
     });

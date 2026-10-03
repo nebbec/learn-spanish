@@ -1,6 +1,6 @@
 // An in-memory server for tests: one user's rows, shared by every simulated device.
 
-import type { RemoteNote, RemoteReport, RemoteReview } from "@/lib/store";
+import type { RemoteNote, RemoteReport, RemoteReset, RemoteReview } from "@/lib/store";
 import type { RemotePage, SyncRemote } from "./remote";
 
 interface Stored<T> {
@@ -27,6 +27,7 @@ export class FakeRemote implements SyncRemote {
   private readonly reviewRows = new Map<string, Stored<RemoteReview>>();
   private readonly noteRows = new Map<string, Stored<RemoteNote>>();
   private readonly reportRows = new Map<string, Stored<RemoteReport>>();
+  private readonly resetRows = new Map<string, Stored<RemoteReset>>();
 
   constructor(options: FakeRemoteOptions = {}) {
     this.pageSize = options.pageSize ?? 100;
@@ -41,6 +42,9 @@ export class FakeRemote implements SyncRemote {
   }
   get reports(): RemoteReport[] {
     return this.inOrder(this.reportRows);
+  }
+  get resets(): RemoteReset[] {
+    return this.inOrder(this.resetRows);
   }
 
   async pushReviews(rows: readonly RemoteReview[]): Promise<void> {
@@ -66,6 +70,13 @@ export class FakeRemote implements SyncRemote {
     }
   }
 
+  async pushResets(rows: readonly RemoteReset[]): Promise<void> {
+    this.beforePush("pushResets");
+    for (const row of rows) {
+      if (!this.resetRows.has(row.id)) this.resetRows.set(row.id, { seq: ++this.seq, row: { ...row } });
+    }
+  }
+
   async pullReviews(since: string | null): Promise<RemotePage<RemoteReview>> {
     this.begin("pullReviews");
     return this.page(this.reviewRows, since);
@@ -74,6 +85,11 @@ export class FakeRemote implements SyncRemote {
   async pullNotes(since: string | null): Promise<RemotePage<RemoteNote>> {
     this.begin("pullNotes");
     return this.page(this.noteRows, since);
+  }
+
+  async pullResets(since: string | null): Promise<RemotePage<RemoteReset>> {
+    this.begin("pullResets");
+    return this.page(this.resetRows, since);
   }
 
   private begin(call: string): void {

@@ -408,6 +408,16 @@ Decided in L15 (device side; sync is L16):
 - **One filter**: `sinceLatestReset(reviews, resets)` in `lib/store/reset.ts` drops reviews whose `timestamp` is at or before the latest `resetAt` (a review in the reset's own millisecond is dropped). `LocalStore.getReviewsSinceReset(filter?)` applies it in one read transaction, and every reader of state uses it: Menu (counts, wheel, Struggling), Learn, Practice, Tips, media keeping and sync's `rebuildCardStates`. `getReviews` still returns every stored review, for sync and tests.
 - **Start over**: `LocalStore.startOver(at?)` adds the reset row and empties the `card_state` cache in one transaction. Reviews, notes and reports stay on the device. The settings section `StartOver` (last on the page) asks first ("Yes, start over" or "Cancel") and then says "Done. Learn starts again at the first card." Local settings (batch size, mute, Reverse) are not touched.
 
+Decided in L16 (migration `supabase/migrations/20261003194035_resets.sql`; sync in `lib/sync`):
+
+- **Server table**: `resets` (`user_id`, `id`, `reset_at` timestamptz, `device_id`, `seq`), key `(user_id, id)`, index `(user_id, seq)`, `seq` numbered by the shared `set_sync_seq` trigger. Like reviews: owner-only select and insert, never changed, deleted only by the service role or with the user, no access for anon.
+- **Remote**: `SyncRemote.pushResets(rows)` (stores the ones it does not have; a repeat changes nothing) and `pullResets(since)` (pages after the cursor, from every device), in `FakeRemote` and `SupabaseRemote` (`resetToRow`, `rowToReset`).
+- **Device**: `listUnsynced` and `markSynced` carry `resets`; `LocalStore.mergeResets(rows, cursor)` adds the ones it lacks as synced and saves a `resets` cursor in `sync_state` in the same transaction (`SyncTable` is now `reviews | notes | resets`); `bindSyncAccount` marks resets unsynced and drops their cursor too. No schema bump: the cursor is one more `sync_state` row.
+- **One sync**: uploads reviews, notes, reports, then resets; downloads resets, then reviews, then notes. If a reset or a forward review arrived, card state is rebuilt once (`rebuildCardStates`, which reads only reviews after the latest reset). `SyncResult` counts `uploaded.resets` and `downloaded.resets`, `replayed` is true when a reset arrived, and a downloaded reset fires `learn-spanish:synced` so the menu reloads. The status's waiting count includes resets.
+- **Which reviews a reset drops** is still decided by time alone: a review from another device made at or before the latest `resetAt` stops counting when the reset arrives, and one made after it counts, even if it reached the server earlier. The latest reset from any device wins.
+- **Start over asks for a sync** (`onDone`, default `requestSync`) once the reset is stored, and its confirmation now says progress goes back to zero "here and on any device you sync with".
+- **Order of release**: once this code is live, every sync calls `pullResets`, so the migration must be applied before the app is deployed, or every sync fails.
+
 ## Screens
 
 ### Menu
@@ -582,8 +592,8 @@ Decided in D2 (logic in `lib/media`, trigger in `components/pwa/KeepMedia.tsx`, 
 | `card_state` | FSRS state per card. A cache derived by replaying forward `reviews` in time order. |
 | `notes` | Card id, text, updated-at, synced flag. |
 | `reports` | Card id, optional comment, created-at, synced flag. |
-| `sync_state` | Added in D5: how far this device has read the server's reviews and notes. D6 adds the account those cursors and the synced flags belong to. |
-| `resets` | Added in L15 (schema version 3): each "Start over": id, reset-at, device id, synced flag. See [Reset](#reset). |
+| `sync_state` | Added in D5: how far this device has read the server's reviews and notes. D6 adds the account those cursors and the synced flags belong to. L16 adds a cursor for resets. |
+| `resets` | Added in L15 (schema version 3): each "Start over": id, reset-at, device id, synced flag. Synced since L16. See [Reset](#reset). |
 
 Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
@@ -596,7 +606,7 @@ Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
 ### Data in Supabase
 
-Tables `reviews`, `notes` and `card_reports`, each with a `user_id` column and row-level security restricting rows to their owner. Card state is not stored on the server; any device rebuilds it by replaying review events.
+Tables `reviews`, `notes`, `card_reports` and (since L16, see [Reset](#reset)) `resets`, each with a `user_id` column and row-level security restricting rows to their owner. Card state is not stored on the server; any device rebuilds it by replaying review events.
 
 Decided in D3 (migration in `supabase/migrations`, check in `scripts/check-rls.mjs`):
 
@@ -873,7 +883,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L13 | Form, phrase and contrast layouts | L2 | | Done |
 | L14 | Audio by itself, mute, say it out loud | none | | Done |
 | L15 | Reset on the device | none | | Done |
-| L16 | Reset sync | L15 | | Todo |
+| L16 | Reset sync | L15 | | Done except: push the migrations, then run `npm run check:rls` and `npm run check:sync` |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Todo |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
@@ -1211,6 +1221,8 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L16 Reset sync**
 - Build: a `resets` table in Supabase (migration, owner-only select and insert, a `seq` cursor like reviews) and `pushResets` and `pullResets` in `SyncRemote`, `FakeRemote` and `SupabaseRemote`; a downloaded reset triggers a replay.
 - Done when: in the two-device test a reset on one device clears progress on the other after both sync, and `npm run check:rls` and `npm run check:sync` pass with the new table.
+- Note (L16): done 2026-10-03 except the live checks. Decisions are under [Reset](#reset), "Decided in L16". The two-device check passes against `FakeRemote` (lib/sync/sync.test.ts, "resets": a reset on A clears B after both sync and later study counts on both; B's offline ratings before the reset are dropped and later ones kept; a reset alone rebuilds state once; the latest of several resets wins; resets go up again after an account change). Also covered: store (`listUnsynced`/`markSynced` with resets, `mergeResets`), runner (a reset recorded before sign-in uploads), AutoSync (a downloaded reset fires the synced event), StartOver (asks for a sync only on success). `scripts/check-rls.mjs` now covers `resets` (owner-only read and insert, others refused, owner cannot change or delete, repeat upload adds nothing, `seq` follows arrival) and `scripts/check-sync.live.test.ts` has the reset case between the two devices.
+- Note (L16): left for Courtney. This worktree is now linked (`supabase link`, no password needed: the CLI's login role works), and `supabase db push --linked --dry-run` lists two pending migrations: L10's `20261003191001_known_rating.sql` (never pushed) and `20261003194035_resets.sql`. The push itself was refused by the agent's permission check, so run `supabase db push --linked`, then `npm run check:rls` and `npm run check:sync` (they need `.env.local`; this worktree has none, so copy it or run with `node --env-file=../ahead-manx/.env.local …`). That also finishes L10's leftover step. Push before deploying this code: every sync now pulls resets and fails without the table.
 
 **L17 Publish the learning path deck**
 - Do: copy `content/deck.json` to `public/deck/deck.json`; Courtney presses Start over and studies unit 1 from zero on the phone; fix small problems and write a ticket for anything larger.

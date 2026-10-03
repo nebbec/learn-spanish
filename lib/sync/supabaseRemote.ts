@@ -3,7 +3,7 @@
 // signed-in user's rows, and `user_id` is filled in by the database.
 
 import type { SupabaseClient } from "@supabase/supabase-js";
-import type { Direction, Rating, RemoteNote, RemoteReport, RemoteReview, Section } from "@/lib/store";
+import type { Direction, Rating, RemoteNote, RemoteReport, RemoteReset, RemoteReview, Section } from "@/lib/store";
 import type { RemotePage, SyncRemote } from "./remote";
 
 /** Rows per download page. */
@@ -32,8 +32,16 @@ interface ReportRow {
   created_at: string;
 }
 
+interface ResetRow {
+  id: string;
+  reset_at: string;
+  device_id: string;
+  seq?: number | string;
+}
+
 const REVIEW_COLUMNS = "id, card_id, direction, rating, reviewed_at, section, device_id, seq";
 const NOTE_COLUMNS = "card_id, text, updated_at, seq";
+const RESET_COLUMNS = "id, reset_at, device_id, seq";
 
 const iso = (ms: number) => new Date(ms).toISOString();
 const ms = (time: string) => {
@@ -68,6 +76,12 @@ export const reportToRow = (r: RemoteReport): ReportRow => ({
   comment: r.comment,
   created_at: iso(r.createdAt),
 });
+export const resetToRow = (r: RemoteReset): ResetRow => ({
+  id: r.id,
+  reset_at: iso(r.resetAt),
+  device_id: r.deviceId,
+});
+export const rowToReset = (r: ResetRow): RemoteReset => ({ id: r.id, resetAt: ms(r.reset_at), deviceId: r.device_id });
 
 /** supabase-js reports failures in the answer rather than throwing; the sync core needs a throw. */
 function check(error: { message: string; code?: string } | null, what: string): void {
@@ -128,6 +142,14 @@ export class SupabaseRemote implements SyncRemote {
     check(error, "uploading reports");
   }
 
+  async pushResets(rows: readonly RemoteReset[]): Promise<void> {
+    if (rows.length === 0) return;
+    const { error } = await this.client
+      .from("resets")
+      .upsert(rows.map(resetToRow), { onConflict: "user_id,id", ignoreDuplicates: true });
+    check(error, "uploading resets");
+  }
+
   async pullReviews(since: string | null): Promise<RemotePage<RemoteReview>> {
     let query = this.client.from("reviews").select(REVIEW_COLUMNS);
     if (since !== null) query = query.gt("seq", since);
@@ -142,5 +164,13 @@ export class SupabaseRemote implements SyncRemote {
     const { data, error } = await query.order("seq").limit(this.pageSize);
     check(error, "downloading notes");
     return page((data ?? []) as NoteRow[], since, this.pageSize, rowToNote);
+  }
+
+  async pullResets(since: string | null): Promise<RemotePage<RemoteReset>> {
+    let query = this.client.from("resets").select(RESET_COLUMNS);
+    if (since !== null) query = query.gt("seq", since);
+    const { data, error } = await query.order("seq").limit(this.pageSize);
+    check(error, "downloading resets");
+    return page((data ?? []) as ResetRow[], since, this.pageSize, rowToReset);
   }
 }

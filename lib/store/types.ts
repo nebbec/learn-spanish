@@ -76,7 +76,8 @@ export interface Report {
 /**
  * One "Start over" (L15). Reviews at or before the latest reset no longer count for
  * card state, the queues, the wheel or Struggling; they stay stored and synced, as
- * reviews are append-only. See "Reset" in docs/design.md.
+ * reviews are append-only. Resets sync like reviews (L16), so a reset on one device
+ * clears progress on every device of the account. See "Reset" in docs/design.md.
  */
 export interface Reset {
   /** UUID. */
@@ -91,6 +92,7 @@ export interface Unsynced {
   reviews: Review[];
   notes: Note[];
   reports: Report[];
+  resets: Reset[];
 }
 
 export interface ReviewFilter {
@@ -104,8 +106,8 @@ export type RemoteNote = Omit<Note, "synced">;
 export type RemoteReport = Omit<Report, "synced">;
 export type RemoteReset = Omit<Reset, "synced">;
 
-/** The two kinds of row a device downloads. Reports only go up. */
-export type SyncTable = "reviews" | "notes";
+/** The kinds of row a device downloads. Reports only go up. */
+export type SyncTable = "reviews" | "notes" | "resets";
 
 /** How far this device has read the server's rows of one kind. */
 export interface SyncStateRow {

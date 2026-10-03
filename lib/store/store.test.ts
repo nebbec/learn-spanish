@@ -139,7 +139,7 @@ describe("reports", () => {
 
 describe("unsynced rows", () => {
   it("lists nothing in an empty store", async () => {
-    expect(await store.listUnsynced()).toEqual({ reviews: [], notes: [], reports: [] });
+    expect(await store.listUnsynced()).toEqual({ reviews: [], notes: [], reports: [], resets: [] });
   });
 
   it("lists new rows, and drops them once marked synced", async () => {
@@ -152,16 +152,30 @@ describe("unsynced rows", () => {
     });
     const note = await store.saveNote("casa-house", "a note", 2);
     const report = await store.addReport("casa-house", "typo", 3);
+    const reset = await store.startOver(4);
 
     const unsynced = await store.listUnsynced();
-    expect(unsynced).toEqual({ reviews: [review], notes: [note], reports: [report] });
+    expect(unsynced).toEqual({ reviews: [review], notes: [note], reports: [report], resets: [reset] });
 
     await store.markSynced(unsynced);
 
-    expect(await store.listUnsynced()).toEqual({ reviews: [], notes: [], reports: [] });
+    expect(await store.listUnsynced()).toEqual({ reviews: [], notes: [], reports: [], resets: [] });
     expect((await store.getReviews())[0].synced).toBe(1);
     expect((await store.getNote("casa-house"))?.synced).toBe(1);
     expect((await store.getReports())[0].synced).toBe(1);
+    expect((await store.getResets())[0].synced).toBe(1);
+  });
+
+  it("merges downloaded resets by union on id, saving the cursor with them", async () => {
+    const mine = await store.startOver(10);
+    const other = { id: "00000000-0000-4000-8000-000000000002", resetAt: 5, deviceId: "device-b" };
+
+    const added = await store.mergeResets([{ id: mine.id, resetAt: 10, deviceId: mine.deviceId }, other, other], "9");
+
+    expect(added).toEqual([{ ...other, synced: 1 }]);
+    expect(await store.getResets()).toEqual([{ ...other, synced: 1 }, mine]);
+    expect(await store.getSyncCursor("resets")).toBe("9");
+    expect(await store.mergeResets([other], "9")).toEqual([]);
   });
 
   it("marks only the rows it is given", async () => {

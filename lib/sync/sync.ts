@@ -2,17 +2,30 @@
 // then rebuild card state. See docs/design.md, "Sync rules".
 
 import { replayReviews } from "@/lib/scheduler";
-import type { LocalStore, Note, RemoteNote, RemoteReport, RemoteReview, Report, Review } from "@/lib/store";
+import type {
+  LocalStore,
+  Note,
+  RemoteNote,
+  RemoteReport,
+  RemoteReset,
+  RemoteReview,
+  Report,
+  Reset,
+  Review,
+} from "@/lib/store";
 import type { RemotePage, SyncRemote } from "./remote";
 
 /** Rows sent per request, so one upload after a long time offline stays small. */
 export const UPLOAD_CHUNK = 200;
 
 export interface SyncResult {
-  uploaded: { reviews: number; notes: number; reports: number };
+  uploaded: { reviews: number; notes: number; reports: number; resets: number };
   /** Rows this device did not have before. Its own rows coming back are not counted. */
-  downloaded: { reviews: number; notes: number };
-  /** True when card state was rebuilt, so screens showing progress should reload. */
+  downloaded: { reviews: number; notes: number; resets: number };
+  /**
+   * True when card state was rebuilt (a forward review or a reset arrived), so screens
+   * showing progress should reload.
+   */
   replayed: boolean;
 }
 
@@ -38,6 +51,7 @@ const toRemoteReport = (r: Report): RemoteReport => ({
   comment: r.comment,
   createdAt: r.createdAt,
 });
+const toRemoteReset = (r: Reset): RemoteReset => ({ id: r.id, resetAt: r.resetAt, deviceId: r.deviceId });
 
 /** Reads pages until the server says there are no more, merging each as it arrives. */
 async function download<T>(
@@ -59,9 +73,9 @@ async function download<T>(
 /**
  * One full sync of this device with the server.
  *
- * Uploads unsynced reviews, notes and reports, downloads reviews and notes from
- * other devices, and, if any forward review arrived, replays every review into
- * the card-state cache.
+ * Uploads unsynced reviews, notes, reports and resets, downloads resets, reviews
+ * and notes from other devices, and, if any reset or forward review arrived,
+ * replays the reviews since the latest reset into the card-state cache.
  *
  * It throws if the server cannot be reached or refuses a request. Nothing is
  * lost when it does: rows are marked synced only after the server took them,
@@ -70,8 +84,8 @@ async function download<T>(
  */
 export async function sync(store: LocalStore, remote: SyncRemote): Promise<SyncResult> {
   const result: SyncResult = {
-    uploaded: { reviews: 0, notes: 0, reports: 0 },
-    downloaded: { reviews: 0, notes: 0 },
+    uploaded: { reviews: 0, notes: 0, reports: 0, resets: 0 },
+    downloaded: { reviews: 0, notes: 0, resets: 0 },
     replayed: false,
   };
 
@@ -92,22 +106,37 @@ export async function sync(store: LocalStore, remote: SyncRemote): Promise<SyncR
     await store.markSynced({ reports });
     result.uploaded.reports += reports.length;
   }
+  for (const resets of chunks(unsynced.resets, UPLOAD_CHUNK)) {
+    await remote.pushResets(resets.map(toRemoteReset));
+    await store.markSynced({ resets });
+    result.uploaded.resets += resets.length;
+  }
 
   // Card state is rebuilt even when a later page fails, so the cache never
-  // lags behind reviews that were already merged.
-  let forwardArrived = false;
+  // lags behind resets or reviews that were already merged. Resets come first,
+  // so a sync that brings both replays once.
+  let stateChanged = false;
   try {
+    result.downloaded.resets = await download(
+      await store.getSyncCursor("resets"),
+      (since) => remote.pullResets(since),
+      async (rows, cursor) => {
+        const added = await store.mergeResets(rows, cursor);
+        stateChanged ||= added.length > 0;
+        return added;
+      },
+    );
     result.downloaded.reviews = await download(
       await store.getSyncCursor("reviews"),
       (since) => remote.pullReviews(since),
       async (rows, cursor) => {
         const added = await store.mergeReviews(rows, cursor);
-        forwardArrived ||= added.some((r) => r.direction === "forward");
+        stateChanged ||= added.some((r) => r.direction === "forward");
         return added;
       },
     );
   } finally {
-    if (forwardArrived) {
+    if (stateChanged) {
       await rebuildCardStates(store);
       result.replayed = true;
     }

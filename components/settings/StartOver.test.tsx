@@ -95,11 +95,15 @@ describe("Start over", () => {
     expect(Number(q("menu-seen")!.textContent)).toBeGreaterThan(0);
     expect(q("menu-unit")!.textContent).toContain("Unit 2");
 
-    show(<StartOver store={store} clock={clock} />);
+    const onDone = vi.fn();
+    show(<StartOver store={store} clock={clock} onDone={onDone} />);
     click("start-over");
     expect(q("start-over-confirm")).not.toBeNull();
     click("start-over-confirm");
     await until(() => q("start-over-done"), "the reset to be stored");
+    // A sync is asked for, so the reset reaches the account's other devices (L16).
+    expect(onDone).toHaveBeenCalledTimes(1);
+    expect((await store.listUnsynced()).resets).toHaveLength(1);
 
     // The menu shows nothing seen and Learn offers unit 1 again.
     await showMenu();
@@ -127,7 +131,8 @@ describe("Start over", () => {
 
   it("asks first, and Cancel stores nothing", async () => {
     await store.appendReview({ cardId: cards[0].id, direction: "forward", rating: "good", section: "learn", timestamp: clock() });
-    show(<StartOver store={store} clock={clock} />);
+    const onDone = vi.fn();
+    show(<StartOver store={store} clock={clock} onDone={onDone} />);
     expect(q("start-over-confirm")).toBeNull();
     click("start-over");
     click("start-over-cancel");
@@ -135,13 +140,16 @@ describe("Start over", () => {
     expect(q("start-over")).not.toBeNull();
     expect(await store.getResets()).toEqual([]);
     expect(await store.getReviewsSinceReset()).toHaveLength(1);
+    expect(onDone).not.toHaveBeenCalled();
   });
 
   it("says so when the reset cannot be stored", async () => {
-    show(<StartOver store={{ startOver: () => Promise.reject(new Error("blocked")) }} clock={clock} />);
+    const onDone = vi.fn();
+    show(<StartOver store={{ startOver: () => Promise.reject(new Error("blocked")) }} clock={clock} onDone={onDone} />);
     click("start-over");
     // The refusal settles at once, so the tap waits for it inside act.
     await act(async () => q("start-over-confirm")!.click());
     await until(() => q("start-over-failed"), "the failure to show");
+    expect(onDone).not.toHaveBeenCalled();
   });
 });

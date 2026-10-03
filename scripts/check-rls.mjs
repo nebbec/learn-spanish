@@ -1,8 +1,8 @@
 // D3's check against the real Supabase project: a second user can neither read
-// nor change the first user's rows in reviews, notes or card_reports, and a
-// visitor who is not signed in gets nothing. Also checks the rules sync relies
-// on: a repeated upload changes nothing, reviews cannot be changed, a note only
-// replaces an earlier one, and the download order (`seq`) follows arrival.
+// nor change the first user's rows in reviews, notes, card_reports or resets (L16),
+// and a visitor who is not signed in gets nothing. Also checks the rules sync relies
+// on: a repeated upload changes nothing, reviews and resets cannot be changed, a
+// note only replaces an earlier one, and the download order (`seq`) follows arrival.
 //
 // Creates two throwaway users with the secret key, signs each in with an
 // emailed-code token through the publishable key as the app would, and deletes
@@ -22,7 +22,7 @@ if (!url || !publishable || !secret) {
 
 const memoryOnly = { auth: { persistSession: false, autoRefreshToken: false } };
 const admin = createClient(url, secret, memoryOnly);
-const TABLES = ["reviews", "notes", "card_reports"];
+const TABLES = ["reviews", "notes", "card_reports", "resets"];
 const CARD = "rls-check-card";
 const DEVICE = randomUUID();
 
@@ -73,10 +73,15 @@ function report(userId) {
   return { user_id: userId, id: randomUUID(), card_id: CARD, comment: "rls check", created_at: new Date().toISOString() };
 }
 
+function reset(userId, at) {
+  return { user_id: userId, id: randomUUID(), reset_at: new Date(at).toISOString(), device_id: DEVICE };
+}
+
 // The calls D6's remote will make.
 const pushReviews = (client, rows) => client.from("reviews").upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true });
 const pushNotes = (client, rows) => client.from("notes").upsert(rows, { onConflict: "user_id,card_id" });
 const pushReports = (client, rows) => client.from("card_reports").upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true });
+const pushResets = (client, rows) => client.from("resets").upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true });
 
 /** Every row the client can see in a table, oldest seq first where there is one. */
 async function visible(client, table) {
@@ -106,6 +111,9 @@ async function main() {
     check("first user adds a review", !(await pushReviews(a.client, [first])).error);
     check("first user adds a note", !(await pushNotes(a.client, [note(a.id, "mine", t0)])).error);
     check("first user adds a report", !(await pushReports(a.client, [report(a.id)])).error);
+    const firstReset = reset(a.id, t0);
+    const addReset = await pushResets(a.client, [firstReset]);
+    check("first user adds a reset", !addReset.error, addReset.error?.message);
     for (const table of TABLES) {
       const { rows, error } = await visible(a.client, table);
       check(`first user reads their own ${table}`, !error && rows.length === 1, error?.message ?? `${rows.length} rows`);
@@ -121,28 +129,37 @@ async function main() {
         ["reviews", await pushReviews(client, [review(a.id, t0)])],
         ["notes", await pushNotes(client, [note(a.id, "theirs", t0 + 1000)])],
         ["card_reports", await pushReports(client, [report(a.id)])],
+        ["resets", await pushResets(client, [reset(a.id, t0)])],
       ];
       for (const [table, result] of adds) {
         check(`${who} cannot add to ${table} as the first user`, refused(result), result.error?.code ?? "accepted");
       }
       await client.from("notes").update({ text: "theirs", updated_at: new Date(t0 + 2000).toISOString() }).eq("user_id", a.id);
       await client.from("reviews").update({ rating: "again" }).eq("user_id", a.id);
+      await client.from("resets").update({ reset_at: new Date(t0 + 3000).toISOString() }).eq("user_id", a.id);
       for (const table of TABLES) await client.from(table).delete().eq("user_id", a.id);
     }
     const afterB = await Promise.all(TABLES.map((table) => visible(a.client, table)));
     check("first user still has all their rows", afterB.every(({ rows }) => rows.length === 1));
     check("first user's note unchanged", (await heldNote(a))?.text === "mine");
     check("first user's review unchanged", afterB[0].rows[0]?.rating === "good");
+    check("first user's reset unchanged", Date.parse(afterB[3].rows[0]?.reset_at) === t0);
 
     // Reviews are never changed, even by their owner.
     const ownChange = await a.client.from("reviews").update({ rating: "again" }).eq("id", first.id);
     check("owner cannot change a review", refused(ownChange), ownChange.error?.code ?? "accepted");
     const ownDelete = await a.client.from("reviews").delete().eq("id", first.id);
     check("owner cannot delete a review", refused(ownDelete), ownDelete.error?.code ?? "accepted");
+    const resetChange = await a.client.from("resets").update({ reset_at: new Date(t0 + 4000).toISOString() }).eq("id", firstReset.id);
+    check("owner cannot change a reset", refused(resetChange), resetChange.error?.code ?? "accepted");
+    const resetDelete = await a.client.from("resets").delete().eq("id", firstReset.id);
+    check("owner cannot delete a reset", refused(resetDelete), resetDelete.error?.code ?? "accepted");
 
     // A repeated upload changes nothing.
     check("repeating a review upload is accepted", !(await pushReviews(a.client, [first])).error);
     check("repeating a review upload adds nothing", (await visible(a.client, "reviews")).rows.length === 1);
+    check("repeating a reset upload is accepted", !(await pushResets(a.client, [firstReset])).error);
+    check("repeating a reset upload adds nothing", (await visible(a.client, "resets")).rows.length === 1);
 
     // Notes: the latest edit wins, and on equal times the stored one stays.
     const before = await heldNote(a);
@@ -165,6 +182,21 @@ async function main() {
       "a review uploaded later is read after the cursor",
       !pageError && page.length === 1 && page[0].id === offlineLastWeek.id,
       pageError?.message ?? `${page?.length} rows`,
+    );
+
+    // Resets follow arrival too: one uploaded later is read after the cursor (L16).
+    const resetSeq = (await visible(a.client, "resets")).rows[0]?.seq;
+    const laterReset = reset(a.id, t0 - 7 * 24 * 3600 * 1000);
+    await pushResets(a.client, [laterReset]);
+    const { data: resetPage, error: resetPageError } = await a.client
+      .from("resets")
+      .select("id, seq")
+      .gt("seq", resetSeq)
+      .order("seq");
+    check(
+      "a reset uploaded later is read after the cursor",
+      !resetPageError && resetPage.length === 1 && resetPage[0].id === laterReset.id,
+      resetPageError?.message ?? `${resetPage?.length} rows`,
     );
 
     // Ratings: the intro's `known` (L10) is stored like the three buttons; anything else is refused.

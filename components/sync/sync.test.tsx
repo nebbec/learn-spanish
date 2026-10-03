@@ -114,6 +114,19 @@ describe("AutoSync", () => {
     window.removeEventListener(SYNCED_EVENT, onSynced);
     expect((await store.getReviews()).map((r) => r.cardId)).toEqual(["ir-go"]);
   });
+
+  it("tells the screens when another device's reset arrives, so the menu drops its progress", async () => {
+    signIn();
+    await store.appendReview({ cardId: "ir-go", direction: "forward", rating: "good", section: "learn", timestamp: T0 });
+    await remote.pushResets([{ id: crypto.randomUUID(), resetAt: T0 + 1000, deviceId: "device-b" }]);
+    let synced = 0;
+    const onSynced = () => (synced += 1);
+    window.addEventListener(SYNCED_EVENT, onSynced);
+    mount(<AutoSync runner={runner()} client={client} keepMedia={() => undefined} />);
+    await until(() => synced === 1, "the screens to be told");
+    window.removeEventListener(SYNCED_EVENT, onSynced);
+    expect(await store.getReviewsSinceReset()).toEqual([]);
+  });
 });
 
 describe("sync status", () => {

@@ -1,7 +1,8 @@
 // D6's check against the real Supabase project: two devices signed in as the
 // same user rate cards with no connection, reconnect and sync, and end with the
-// same reviews, card state and notes. Then one of them signs into a second
-// account, which gets everything on that device.
+// same reviews, card state and notes. Then one presses Start over and the other
+// loses its progress too once both have synced (L16). Then one of them signs into
+// a second account, which gets everything on that device.
 //
 // Each device is a LocalStore over its own in-memory IndexedDB and a browser
 // client over its own storage, run through the app's SyncRunner and
@@ -92,14 +93,14 @@ async function cardStatesOf(device: Device): Promise<CardState[]> {
 async function notesOf(device: Device) {
   return (await device.store.getNotes()).map(({ cardId, text, updatedAt }) => ({ cardId, text, updatedAt }));
 }
-async function serverCount(table: "reviews" | "notes" | "card_reports", userId: string): Promise<number> {
+async function serverCount(table: "reviews" | "notes" | "card_reports" | "resets", userId: string): Promise<number> {
   const { count, error } = await admin.from(table).select("*", { count: "exact", head: true }).eq("user_id", userId);
   if (error) throw new Error(`counting ${table}: ${error.message}`);
   return count ?? -1;
 }
 async function pending(device: Device): Promise<number> {
-  const { reviews, notes, reports } = await device.store.listUnsynced();
-  return reviews.length + notes.length + reports.length;
+  const { reviews, notes, reports, resets } = await device.store.listUnsynced();
+  return reviews.length + notes.length + reports.length + resets.length;
 }
 
 let first: { id: string; email: string };
@@ -141,7 +142,10 @@ afterAll(async () => {
     expect(error, `deleting test user ${user.email}`).toBeNull();
   }
   // Deleting a user removes their rows.
-  for (const user of users) expect(await serverCount("reviews", user.id)).toBe(0);
+  for (const user of users) {
+    expect(await serverCount("reviews", user.id)).toBe(0);
+    expect(await serverCount("resets", user.id)).toBe(0);
+  }
 }, 60_000);
 
 describe("two devices signed in as one user", () => {
@@ -208,6 +212,26 @@ describe("two devices signed in as one user", () => {
     expect((await reviewsOf(a)).length).toBe(script.length + 1);
     expect(await cardStatesOf(a)).toEqual(await cardStatesOf(b));
   }, 60_000);
+
+  it("a reset on one device clears progress on the other after both sync", async () => {
+    expect((await cardStatesOf(b)).length).toBeGreaterThan(0);
+    await a.store.startOver(Date.now());
+    expect(await cardStatesOf(a)).toEqual([]);
+    expect(await pending(a)).toBe(1);
+
+    await a.runner.run();
+    await b.runner.run();
+    for (const device of [a, b]) {
+      expect(device.runner.getStatus(), device.name).toMatchObject({ phase: "synced", pending: 0 });
+      expect(await cardStatesOf(device), device.name).toEqual([]);
+      expect(await device.store.getReviewsSinceReset(), device.name).toEqual([]);
+      expect(await device.store.getResets(), device.name).toHaveLength(1);
+      // The reviews and notes stay; they just no longer count.
+      expect(await device.store.getReviews(), device.name).toHaveLength(script.length + 1);
+      expect(await notesOf(device), device.name).toHaveLength(2);
+    }
+    expect(await serverCount("resets", first.id)).toBe(1);
+  }, 60_000);
 });
 
 describe("a second account on the same device", () => {
@@ -222,6 +246,7 @@ describe("a second account on the same device", () => {
     expect(await a.store.getSyncAccount()).toBe(second.id);
     expect(await serverCount("reviews", second.id)).toBe(script.length + 1);
     expect(await serverCount("notes", second.id)).toBe(2);
+    expect(await serverCount("resets", second.id)).toBe(1);
     expect(await serverCount("reviews", first.id)).toBe(script.length + 1);
   }, 60_000);
 });

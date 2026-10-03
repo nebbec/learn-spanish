@@ -29,7 +29,7 @@ export interface SyncStatus {
   phase: SyncPhase;
   /** When the last sync for the signed-in account finished, in epoch milliseconds. */
   lastSyncedAt: number | null;
-  /** Ratings, notes and reports on this device not yet uploaded. */
+  /** Ratings, notes, reports and resets on this device not yet uploaded. */
   pending: number;
 }
 
@@ -145,8 +145,8 @@ export class SyncRunner {
 
   private async countPending(): Promise<number> {
     try {
-      const { reviews, notes, reports } = await this.options.store.listUnsynced();
-      return reviews.length + notes.length + reports.length;
+      const { reviews, notes, reports, resets } = await this.options.store.listUnsynced();
+      return reviews.length + notes.length + reports.length + resets.length;
     } catch {
       return this.status.pending;
     }

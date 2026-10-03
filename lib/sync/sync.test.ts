@@ -149,14 +149,14 @@ describe("upload", () => {
 
     const result = await sync(a, remote);
 
-    expect(result.uploaded).toEqual({ reviews: 1, notes: 1, reports: 1 });
+    expect(result.uploaded).toEqual({ reviews: 1, notes: 1, reports: 1, resets: 0 });
     expect(remote.reviews.map((r) => r.cardId)).toEqual(["casa-house"]);
     expect(remote.reviews[0]).not.toHaveProperty("synced");
     expect(remote.notes).toEqual([{ cardId: "casa-house", text: "casa sounds like castle", updatedAt: T0 }]);
     expect(remote.reports).toEqual([
       { id: expect.any(String), cardId: "ir-go", comment: "wrong example", createdAt: T0 },
     ]);
-    expect(await a.listUnsynced()).toEqual({ reviews: [], notes: [], reports: [] });
+    expect(await a.listUnsynced()).toEqual({ reviews: [], notes: [], reports: [], resets: [] });
   });
 
   it("sends nothing the second time", async () => {
@@ -167,10 +167,10 @@ describe("upload", () => {
 
     const result = await sync(a, remote);
 
-    expect(result.uploaded).toEqual({ reviews: 0, notes: 0, reports: 0 });
-    expect(result.downloaded).toEqual({ reviews: 0, notes: 0 });
+    expect(result.uploaded).toEqual({ reviews: 0, notes: 0, reports: 0, resets: 0 });
+    expect(result.downloaded).toEqual({ reviews: 0, notes: 0, resets: 0 });
     expect(result.replayed).toBe(false);
-    expect(remote.calls).toEqual(["pullReviews", "pullNotes"]);
+    expect(remote.calls).toEqual(["pullResets", "pullReviews", "pullNotes"]);
     expect(remote.reviews).toHaveLength(1);
     expect(await cardStates(a)).toEqual(before);
   });
@@ -374,6 +374,105 @@ describe("reports", () => {
   });
 });
 
+describe("resets", () => {
+  // The two-device check of L16: a "Start over" on one device clears progress on the
+  // other once both have synced, and what either studies afterwards counts on both.
+  it("a reset on one device clears progress on the other after both sync", async () => {
+    await rate(a, "casa-house", "good", T0);
+    await rate(b, "ir-go", "again", T0 + 1000);
+    await rate(b, "de-of", "good", T0 + 2000);
+    await b.saveNote("ir-go", "voy, vas, va", T0 + 3000);
+    await sync(a, remote);
+    await sync(b, remote);
+    await sync(a, remote);
+    expect((await cardStates(a)).map((s) => s.cardId)).toEqual(["casa-house", "de-of", "ir-go"]);
+    expect(await cardStates(b)).toEqual(await cardStates(a));
+
+    const reset = await a.startOver(T0 + DAY);
+    expect(await cardStates(a)).toEqual([]);
+    const uploaded = await sync(a, remote);
+    expect(uploaded.uploaded.resets).toBe(1);
+    expect(remote.resets).toEqual([{ id: reset.id, resetAt: T0 + DAY, deviceId: "device-a" }]);
+    expect((await a.listUnsynced()).resets).toEqual([]);
+
+    const result = await sync(b, remote);
+    expect(result.downloaded.resets).toBe(1);
+    expect(result.replayed).toBe(true);
+    expect(await cardStates(b)).toEqual([]);
+    expect(await b.getReviewsSinceReset()).toEqual([]);
+    expect(await b.getResets()).toEqual([{ ...reset, synced: 1 }]);
+    // Reviews and notes stay stored on both devices; they just no longer count.
+    expect(await b.getReviews()).toHaveLength(3);
+    expect((await b.getNote("ir-go"))?.text).toBe("voy, vas, va");
+
+    // Studying after the reset counts on both devices.
+    await rate(b, "hablar-speak", "good", T0 + 2 * DAY);
+    await sync(b, remote);
+    await sync(a, remote);
+    expect((await cardStates(a)).map((s) => s.cardId)).toEqual(["hablar-speak"]);
+    expect(await cardStates(a)).toEqual(await cardStates(b));
+  });
+
+  it("drops the other device's offline ratings made before the reset, and keeps later ones", async () => {
+    // B studies offline on both sides of A's reset, and syncs after it.
+    await rate(b, "ir-go", "good", T0);
+    await rate(b, "de-of", "good", T0 + 2 * DAY);
+    await a.startOver(T0 + DAY);
+    await sync(a, remote);
+    await sync(b, remote);
+    await sync(a, remote);
+
+    for (const store of [a, b]) {
+      expect((await cardStates(store)).map((s) => s.cardId)).toEqual(["de-of"]);
+    }
+    const replayed = [...replayReviews(await a.getReviewsSinceReset()).values()];
+    expect(await cardStates(a)).toEqual(replayed);
+  });
+
+  it("a reset arriving on its own still rebuilds card state, once", async () => {
+    await rate(b, "casa-house", "good", T0);
+    await sync(b, remote);
+    await a.startOver(T0 + DAY);
+    await sync(a, remote);
+    remote.calls.length = 0;
+
+    const result = await sync(b, remote);
+    expect(result).toMatchObject({ downloaded: { reviews: 0, notes: 0, resets: 1 }, replayed: true });
+    expect(await cardStates(b)).toEqual([]);
+
+    // Nothing new the next time: no replay, and the reset is not counted again.
+    const again = await sync(b, remote);
+    expect(again).toMatchObject({ downloaded: { reviews: 0, notes: 0, resets: 0 }, replayed: false });
+    expect(remote.resets).toHaveLength(1);
+  });
+
+  it("the latest of several resets is the one that counts", async () => {
+    await rate(a, "casa-house", "good", T0);
+    await rate(a, "ir-go", "good", T0 + 3 * DAY);
+    await b.startOver(T0 + 2 * DAY);
+    await a.startOver(T0 + DAY);
+    await sync(a, remote);
+    await sync(b, remote);
+    await sync(a, remote);
+
+    for (const store of [a, b]) {
+      expect((await store.getResets()).map((r) => r.resetAt)).toEqual([T0 + DAY, T0 + 2 * DAY]);
+      expect((await cardStates(store)).map((s) => s.cardId)).toEqual(["ir-go"]);
+    }
+  });
+
+  it("go up again after the device moves to another account", async () => {
+    await a.startOver(T0);
+    await a.bindSyncAccount("user-1");
+    await sync(a, remote);
+    expect(await a.getSyncCursor("resets")).not.toBeNull();
+
+    expect(await a.bindSyncAccount("user-2")).toBe(true);
+    expect((await a.listUnsynced()).resets).toHaveLength(1);
+    expect(await a.getSyncCursor("resets")).toBeNull();
+  });
+});
+
 describe("the store's merge", () => {
   it("leaves a review it already has untouched, and survives a reopen", async () => {
     const idb = new IDBFactory();
@@ -395,6 +494,7 @@ describe("the store's merge", () => {
     const second = new LocalStore({ indexedDB: idb, IDBKeyRange, deviceId: "device-a" });
     expect(await second.getSyncCursor("reviews")).toBe("7");
     expect(await second.getSyncCursor("notes")).toBeNull();
+    expect(await second.getSyncCursor("resets")).toBeNull();
     expect((await second.getReviews()).map((r) => [r.deviceId, r.synced])).toEqual(
       expect.arrayContaining([
         ["device-a", 0],

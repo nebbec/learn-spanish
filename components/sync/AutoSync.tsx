@@ -33,7 +33,8 @@ export function AutoSync({ runner: runnerProp, client: clientProp, keepMedia = k
     };
 
     const stopResults = runner.onResult((result) => {
-      if (result.downloaded.reviews > 0 || result.downloaded.notes > 0) window.dispatchEvent(new Event(SYNCED_EVENT));
+      const { reviews, notes, resets } = result.downloaded;
+      if (reviews > 0 || notes > 0 || resets > 0) window.dispatchEvent(new Event(SYNCED_EVENT));
       if (result.replayed) void keepMedia();
     });
     // INITIAL_SESSION is left out: the sync on opening covers it.

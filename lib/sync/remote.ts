@@ -1,7 +1,7 @@
 // The server as the sync core sees it. See docs/design.md, "Sync rules".
 // D6 writes the Supabase implementation; tests use `FakeRemote`.
 
-import type { RemoteNote, RemoteReport, RemoteReview } from "@/lib/store";
+import type { RemoteNote, RemoteReport, RemoteReset, RemoteReview } from "@/lib/store";
 
 /** One page of a download. */
 export interface RemotePage<T> {
@@ -36,8 +36,12 @@ export interface SyncRemote {
   pushNotes(rows: readonly RemoteNote[]): Promise<void>;
   /** Stores the reports it does not have yet. */
   pushReports(rows: readonly RemoteReport[]): Promise<void>;
+  /** Stores the resets ("Start over", L16) it does not have yet. A reset is never changed. */
+  pushResets(rows: readonly RemoteReset[]): Promise<void>;
   /** Reviews that reached the server after `since`, from every device; all of them when null. */
   pullReviews(since: string | null): Promise<RemotePage<RemoteReview>>;
   /** Notes stored or replaced on the server after `since`; all of them when null. */
   pullNotes(since: string | null): Promise<RemotePage<RemoteNote>>;
+  /** Resets that reached the server after `since`, from every device; all of them when null. */
+  pullResets(since: string | null): Promise<RemotePage<RemoteReset>>;
 }

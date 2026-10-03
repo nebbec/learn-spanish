@@ -75,6 +75,7 @@ describe("SyncRunner", () => {
     await rate("casa-house");
     await store.saveNote("casa-house", "kasa", T0);
     await store.addReport("ir-go", "typo", T0);
+    await store.startOver(T0);
     signIn("user-1");
     const r = runner();
     expect(r.getStatus().phase).toBe("idle");
@@ -83,8 +84,9 @@ describe("SyncRunner", () => {
 
     await r.run();
     expect(r.getStatus()).toEqual({ phase: "synced", lastSyncedAt: T0, pending: 0 });
-    expect(results[0].uploaded).toEqual({ reviews: 1, notes: 1, reports: 1 });
+    expect(results[0].uploaded).toEqual({ reviews: 1, notes: 1, reports: 1, resets: 1 });
     expect(server("user-1").reviews).toHaveLength(1);
+    expect(server("user-1").resets).toHaveLength(1);
     // A new runner, as after a reload, starts from the saved time.
     expect(runner().getStatus()).toEqual({ phase: "synced", lastSyncedAt: T0, pending: 0 });
     expect(JSON.parse(storage.getItem(LAST_SYNC_KEY)!)).toEqual({ userId: "user-1", at: T0 });

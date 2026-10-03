@@ -2,12 +2,18 @@
 
 import { useState } from "react";
 import { localStore, type LocalStore } from "@/lib/store";
+import { requestSync } from "@/lib/sync";
 
 export interface StartOverProps {
   /** Defaults to the app's shared store. Tests pass their own. */
   store?: Pick<LocalStore, "startOver">;
   /** The time the reset is recorded at. Defaults to now. */
   clock?: () => number;
+  /**
+   * Called once the reset is stored. Defaults to `requestSync`, so the reset reaches
+   * the account's other devices (L16).
+   */
+  onDone?: () => void;
 }
 
 type Step = "idle" | "confirming" | "working" | "done" | "failed";
@@ -17,17 +23,19 @@ type Step = "idle" | "confirming" | "working" | "done" | "failed";
  * Learn starts again at the first card. Notes and reports are kept. See "Reset" in
  * docs/design.md.
  */
-export function StartOver({ store, clock = Date.now }: StartOverProps) {
+export function StartOver({ store, clock = Date.now, onDone = requestSync }: StartOverProps) {
   const [step, setStep] = useState<Step>("idle");
 
   async function startOver() {
     setStep("working");
     try {
       await (store ?? localStore()).startOver(clock());
-      setStep("done");
     } catch {
       setStep("failed");
+      return;
     }
+    setStep("done");
+    onDone();
   }
 
   return (
@@ -45,7 +53,7 @@ export function StartOver({ store, clock = Date.now }: StartOverProps) {
       {step === "confirming" || step === "working" ? (
         <div role="alertdialog" aria-labelledby="start-over-confirm" className="flex flex-col gap-3">
           <p id="start-over-confirm" className="font-bold">
-            Start over from the first card? Your progress on this device goes back to zero.
+            Start over from the first card? Your progress goes back to zero, here and on any device you sync with.
           </p>
           <button
             type="button"
