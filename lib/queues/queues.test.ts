@@ -20,19 +20,8 @@ const DAY = 24 * HOUR;
 const T0 = Date.UTC(2026, 0, 1, 9);
 
 const cards = fixtureDeck.cards;
-// The fixture by frequency rank. The two meanings of "el tiempo" share rank 70.
-const CONTENT = [
-  "ir-go",
-  "bueno-good",
-  "ahora-now",
-  "tiempo-time",
-  "tiempo-weather",
-  "casa-house",
-  "hablar-speak",
-  "problema-problem",
-  "carro-car",
-];
-const GLUE = ["de-of", "se-impersonal", "lo-him"];
+// The fixture's file order, which the deck build computed: two units, then the frequency phase.
+const FILE_ORDER = cards.map((card) => card.id);
 
 let nextId = 0;
 function review(
@@ -57,57 +46,27 @@ function seeded(seed: number): () => number {
   };
 }
 
+// The interleave of content and glue cards, units and sibling spacing are the deck build's
+// (scripts/content/path-order.test.ts): Learn follows the deck file.
 describe("Learn queue", () => {
-  it("draws two content words, then one glue word, each queue in rank order", () => {
-    expect(ids(learnQueue(cards, new Map()))).toEqual([
-      "ir-go",
-      "bueno-good",
-      "de-of",
-      "ahora-now",
-      "tiempo-time",
-      "se-impersonal",
-      "tiempo-weather",
-      "casa-house",
-      "lo-him",
-      "hablar-speak",
-      "problema-problem",
-      "carro-car",
-    ]);
+  it("is every unseen card in the deck file's order", () => {
+    expect(ids(learnQueue(cards, new Map()))).toEqual(FILE_ORDER);
+    expect(FILE_ORDER.slice(0, 4)).toEqual(["ir-form-yo", "ir-form-tu", "casa-house", "phrase-going-home"]);
   });
 
-  it("keeps the glue queue and the content queue each in rank order", () => {
-    const queue = learnQueue(cards, new Map());
-    expect(ids(queue.filter((card) => card.kind === "glue"))).toEqual(GLUE);
-    expect(ids(queue.filter((card) => card.kind === "content"))).toEqual(CONTENT);
-  });
-
-  it("does not depend on the order of the deck file", () => {
-    expect(ids(learnQueue(reversed(cards), new Map())).filter((id) => !id.startsWith("tiempo"))).toEqual(
-      ids(learnQueue(cards, new Map())).filter((id) => !id.startsWith("tiempo")),
-    );
-  });
-
-  it("continues with content words once the glue queue runs out", () => {
-    const queue = ids(learnQueue(cards, new Map()));
-    expect(queue.slice(queue.indexOf("lo-him") + 1)).toEqual(["hablar-speak", "problema-problem", "carro-car"]);
-  });
-
-  it("continues with glue words if the content queue runs out first", () => {
-    const states = replayReviews(CONTENT.slice(1).map((id) => review(id, "good", T0)));
-    expect(ids(learnQueue(cards, states))).toEqual(["ir-go", "de-of", "se-impersonal", "lo-him"]);
+  it("follows the file whatever the ranks, kinds or units", () => {
+    expect(ids(learnQueue(reversed(cards), new Map()))).toEqual(reversed(FILE_ORDER));
   });
 
   it("leaves out seen cards, whatever their rating, and ignores reverse ratings", () => {
     const states = replayReviews([
-      review("ir-go", "again", T0),
+      review("ir-form-yo", "again", T0),
       review("de-of", "nearly", T0),
       review("bueno-good", "good", T0, "reverse"),
     ]);
     const queue = ids(learnQueue(cards, states));
-    expect(queue).not.toContain("ir-go");
-    expect(queue).not.toContain("de-of");
-    expect(queue.slice(0, 3)).toEqual(["bueno-good", "ahora-now", "se-impersonal"]);
-    expect(queue).toHaveLength(10);
+    expect(queue).toEqual(FILE_ORDER.filter((id) => id !== "ir-form-yo" && id !== "de-of"));
+    expect(queue).toContain("bueno-good");
   });
 
   it("is empty when every card is seen", () => {
@@ -116,21 +75,11 @@ describe("Learn queue", () => {
   });
 
   it("cuts a batch to the batch size, 15 by default", () => {
-    const all = ids(learnQueue(cards, new Map()));
-    expect(ids(learnBatch(cards, new Map(), 6))).toEqual(all.slice(0, 6));
+    expect(ids(learnBatch(cards, new Map(), 6))).toEqual(FILE_ORDER.slice(0, 6));
     expect(DEFAULT_BATCH_SIZE).toBe(15);
-    expect(learnBatch(cards, new Map())).toHaveLength(12);
-
-    // A deck larger than one batch: 40 content and 10 glue cards.
-    const big: Card[] = [];
-    for (let i = 0; i < 50; i += 1) {
-      const base = fixtureCard(i % 5 === 0 ? "de-of" : "casa-house");
-      big.push({ ...base, id: `card-${i}`, rank: i + 1 });
-    }
-    const batch = learnBatch(big, new Map());
-    expect(batch).toHaveLength(15);
-    expect(batch.filter((card) => card.kind === "glue")).toHaveLength(5);
-    expect(batch.filter((card) => card.kind === "content")).toHaveLength(10);
+    expect(ids(learnBatch(cards, new Map()))).toEqual(FILE_ORDER.slice(0, 15));
+    const states = replayReviews(FILE_ORDER.slice(0, 15).map((id) => review(id, "good", T0)));
+    expect(ids(learnBatch(cards, states))).toEqual(["tiempo-weather"]);
   });
 });
 

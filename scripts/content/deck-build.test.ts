@@ -1,12 +1,16 @@
 import { readFileSync, writeFileSync } from "node:fs";
+import path from "node:path";
 import { describe, expect, it } from "vitest";
 import type { DraftCard } from "@/lib/deck/types";
 import { validateDeck } from "@/lib/deck/validate";
 import { audioPaths } from "./audio.mjs";
-import { buildDeck, deckText, learnOrder } from "./deck-build";
+import { buildDeck, deckText, type PathPlan } from "./deck-build";
 import { cardFromDecision, decisionFile, decisionPath, parseDecision, refreshFlagged } from "./decisions";
 import { withMedia } from "./drafting";
-import { draftedWords, reviewCards, type Review, type ReviewStore } from "./reviewing";
+import { pathOrder } from "./path-order";
+import { cardHash, draftedWords, readDraftCard, reviewCards, type Review, type ReviewStore } from "./reviewing";
+import { TagStore, type Tag } from "./tagging";
+import type { Unit } from "./units";
 import { fakeReviewer, options, setup, testCards, words } from "./review-fixture";
 
 const review = (card: DraftCard): Review => ({
@@ -97,7 +101,7 @@ describe("deck build", () => {
     expect(cards.find((c) => c.id === "casa-house")?.example.es).toBe("Mi casa es grande.");
     // Two content cards, then a glue card: tener-have and bueno-good, then de-of, then casa-house.
     expect(cards.map((c) => c.id)).toEqual(["tener-have", "bueno-good", "de-of", "casa-house"]);
-    expect(learnOrder(cards)).toEqual(cards);
+    expect(pathOrder(cards, []).cards).toEqual(cards);
     expect(refreshFlagged(drafts, store)).toMatchObject({ waiting: [], approved: 1, rejected: 1 });
   });
 
@@ -146,17 +150,18 @@ describe("deck build", () => {
     const { drafts, store } = await reviewed();
     refreshFlagged(drafts, store);
     // In full Learn order: tener-have, tener-have-to (waiting), de-of, bueno-good, casa-house (waiting).
-    const first = buildDeck(drafts, store, null, { size: 3 });
+    // With no sibling spacing, so that tener-have-to sits second.
+    const first = buildDeck(drafts, store, null, { size: 3, spacing: 0 });
     expect(first.deck?.cards.map((c) => c.id)).toEqual(["tener-have", "de-of"]);
     expect(first.beyondSize).toEqual(["bueno-good", "casa-house"]);
 
     decide(store, "tener-have-to", "approve");
-    const second = buildDeck(drafts, store, first.deck, { size: 3 });
+    const second = buildDeck(drafts, store, first.deck, { size: 3, spacing: 0 });
     expect(second).toMatchObject({ dropped: [], beyondSize: ["bueno-good", "casa-house"] });
     expect(second.deck?.cards.map((c) => c.id)).toEqual(["tener-have", "tener-have-to", "de-of"]);
 
     writeFileSync(decisionPath(store, "tener-have-to"), readFileSync(decisionPath(store, "tener-have-to"), "utf8").replace("decision: approve", "decision: reject"));
-    const third = buildDeck(drafts, store, null, { size: 3 });
+    const third = buildDeck(drafts, store, null, { size: 3, spacing: 0 });
     expect(third.deck?.cards.map((c) => c.id)).toEqual(["tener-have", "bueno-good", "de-of"]);
   });
 
@@ -182,5 +187,130 @@ describe("deck build", () => {
 
     await reviewCards(draftedWords(drafts), options(drafts, store, fakeReviewer().runner));
     expect(refreshFlagged(drafts, store)).toMatchObject({ reset: ["casa-house"], waiting: ["tener-have-to", "casa-house"] });
+  });
+});
+
+describe("ordering build (L6)", () => {
+  const UNITS: Unit[] = [
+    { id: "home", title: "Home", goal: "say where you live.", tip: null, wants: ["casa: house", "bueno: good", "nosotros: we"], payoff: [] },
+  ];
+
+  /** The test drafts and reviews, a tag store, and a plan reading it. */
+  async function tagged() {
+    const env = await reviewed();
+    refreshFlagged(env.drafts, env.store);
+    const tags = new TagStore(path.join(env.dir, "tags"));
+    const plan: PathPlan = { units: UNITS, tipList: [{ id: "tip-x", title: "X", about: "x" }], tags };
+    /** Writes a tag as the tag pass would, for the card's current draft. */
+    const tag = (id: string, fields: Partial<Tag>) => {
+      const draft = readDraftCard(env.drafts, id)!;
+      const full = { id, unit: null, want: null, requires: [], tip: null, ...fields };
+      writeFileSync(tags.file(id), JSON.stringify({ ...full, draft: cardHash(draft), group: "test", via: "cli", model: "m", effort: "e", taggedAt: "t" }));
+    };
+    // casa and bueno make unit "home" (bueno after casa, which it requires); de-of needs casa too.
+    tag("casa-house", { unit: "home", want: "casa: house" });
+    tag("bueno-good", { unit: "home", want: "bueno: good", requires: ["casa-house"] });
+    tag("de-of", { requires: ["casa-house"] });
+    return { ...env, plan, tag };
+  }
+  const idsOf = (deck: { cards: { id: string }[] } | null) => deck?.cards.map((c) => c.id);
+
+  it("orders by the tags: units first in requires order, then the frequency phase with sibling spacing", async () => {
+    const { drafts, store, plan } = await tagged();
+    decide(store, "casa-house", "approve");
+    decide(store, "tener-have-to", "approve");
+    const build = buildDeck(drafts, store, null, { plan });
+    expect(idsOf(build.deck)).toEqual(["casa-house", "bueno-good", "tener-have", "de-of", "tener-have-to"]);
+    expect(build.deck?.units).toEqual([{ id: "home", title: "Home", goal: "say where you live." }]);
+    expect(build.deck?.cards.find((c) => c.id === "bueno-good")).toMatchObject({ unit: "home", requires: ["casa-house"], tip: null, why: null });
+    expect(build.notTagged).toEqual(["tener-have", "tener-have-to"]);
+    expect(validateDeck(build.deck).ok).toBe(true);
+    // Spacing 0 lets tener-have-to follow its first meaning straight away.
+    expect(idsOf(buildDeck(drafts, store, null, { plan, spacing: 0 }).deck)).toEqual(["casa-house", "bueno-good", "tener-have", "tener-have-to", "de-of"]);
+  });
+
+  it("holds back a card whose requires are not all in the deck, keeping its place in the count", async () => {
+    const { drafts, store, plan } = await tagged();
+    // casa-house waits for a decision, so bueno-good and de-of, which require it, wait too.
+    const build = buildDeck(drafts, store, null, { plan, size: 4 });
+    expect(build.heldForRequires).toEqual(["bueno-good", "de-of"]);
+    expect(idsOf(build.deck)).toEqual(["tener-have"]);
+    expect(build.deck?.units).toEqual([]);
+    expect(build.beyondSize).toEqual(["tener-have-to"]);
+
+    // A card requiring a rejected card is held back too.
+    decide(store, "casa-house", "reject");
+    expect(buildDeck(drafts, store, null, { plan }).heldForRequires).toEqual(["bueno-good", "de-of"]);
+  });
+
+  it("holds back a card whose tip is not shipped, and the cards that require it", async () => {
+    const { drafts, store, plan, tag } = await tagged();
+    decide(store, "casa-house", "approve");
+    tag("casa-house", { unit: "home", want: "casa: house", tip: "tip-x" });
+    const build = buildDeck(drafts, store, null, { plan });
+    expect(build.heldBack).toEqual(["casa-house"]);
+    expect(build.heldForRequires).toEqual(["bueno-good", "de-of"]);
+  });
+
+  it("follows a corrected id from its tags and from the cards that require it", async () => {
+    const { drafts, store, plan } = await tagged();
+    decide(store, "casa-house", "approve", { id: "casa-home" });
+    const build = buildDeck(drafts, store, null, { plan });
+    expect(idsOf(build.deck)?.slice(0, 2)).toEqual(["casa-home", "bueno-good"]);
+    expect(build.deck?.cards[0].unit).toBe("home");
+    expect(build.deck?.cards[1].requires).toEqual(["casa-home"]);
+  });
+
+  it("refuses to write a deck when the requires go round in a circle", async () => {
+    const { drafts, store, plan, tag } = await tagged();
+    tag("casa-house", { unit: "home", want: "casa: house", requires: ["bueno-good"] });
+    const build = buildDeck(drafts, store, null, { plan });
+    expect(build).toMatchObject({ deck: null, pathText: "", orderProblems: ["requires go round in a circle: casa-house > bueno-good > casa-house"] });
+  });
+
+  it("uses no tag made for an earlier draft or failing the checks", async () => {
+    const { drafts, store, plan, tag } = await tagged();
+    tag("tener-have", { unit: "nowhere" });
+    writeFileSync(plan.tags.file("bueno-good"), readFileSync(plan.tags.file("bueno-good"), "utf8").replace(/"draft":"[^"]*"/, '"draft":"old"'));
+    expect(buildDeck(drafts, store, null, { plan }).notTagged).toEqual(["tener-have", "tener-have-to", "bueno-good"]);
+  });
+
+  it("keeps every card already in the deck, joins new cards from the top of the order, and writes the computed order", async () => {
+    const { drafts, store, plan } = await tagged();
+    decide(store, "casa-house", "approve");
+    // Before tagging: tener-have, de-of, bueno-good are the first three (tener-have-to is spaced off).
+    const untagged = buildDeck(drafts, store, null, { size: 3 }).deck!;
+    expect(idsOf(untagged)).toEqual(["tener-have", "de-of", "bueno-good"]);
+
+    // Tagged, casa-house heads the order, but the three cards in the deck already fill the size, and
+    // two of them now require it: held back, they would be dropped, so nothing is written.
+    const grown = buildDeck(drafts, store, untagged, { plan, size: 3 });
+    expect(grown).toMatchObject({ dropped: ["de-of", "bueno-good"], heldForRequires: ["bueno-good", "de-of"] });
+    expect(grown.deck).toBeNull();
+    // Room for one more: casa-house joins, and the deck is written in the new order.
+    const bigger = buildDeck(drafts, store, untagged, { plan, size: 4 });
+    expect(idsOf(bigger.deck)).toEqual(["casa-house", "bueno-good", "tener-have", "de-of"]);
+    expect(bigger.deck?.version).toBe(2);
+    expect(bigger.beyondSize).toEqual(["tener-have-to"]);
+  });
+
+  it("gives the same deck file and path.md on a rebuild with nothing changed", async () => {
+    const { drafts, store, plan } = await tagged();
+    decide(store, "casa-house", "approve");
+    const first = buildDeck(drafts, store, null, { plan });
+    const again = buildDeck(drafts, store, first.deck, { plan });
+    expect(again.changed).toBe(false);
+    expect(deckText(again.deck!)).toBe(deckText(first.deck!));
+    expect(again.pathText).toBe(first.pathText);
+  });
+
+  it("writes path.md with the unit, its unmatched wants, and why a card is not in the deck", async () => {
+    const { drafts, store, plan } = await tagged();
+    const text = buildDeck(drafts, store, null, { plan }).pathText;
+    expect(text).toContain("## Unit 1 · Home (`home`)\n\nNow you can say where you live.\n\n1. `casa-house` · house → la casa · *not in the deck: waiting for your decision*\n");
+    expect(text).toContain("2. `bueno-good` · good → bueno · *not in the deck: a card it requires is not in the deck*\n");
+    expect(text).toContain("Wants no drafted card fills:\n\n- nosotros: we\n");
+    expect(text).not.toContain("- casa: house");
+    expect(text).toContain("## Frequency phase\n\n3. `tener-have` · to have (own) → tener\n");
   });
 });

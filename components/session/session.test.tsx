@@ -13,21 +13,8 @@ import { LocalStore, type Direction, type Rating } from "@/lib/store";
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 
 const cards = fixtureDeck.cards;
-/** The fixture in Learn order: two content words, then one glue word. */
-const LEARN_ORDER = [
-  "ir-go",
-  "bueno-good",
-  "de-of",
-  "ahora-now",
-  "tiempo-time",
-  "se-impersonal",
-  "tiempo-weather",
-  "casa-house",
-  "lo-him",
-  "hablar-speak",
-  "problema-problem",
-  "carro-car",
-];
+/** The fixture in Learn order: the deck file's order, which the deck build computed. */
+const LEARN_ORDER = cards.map((card) => card.id);
 const START = Date.UTC(2026, 9, 2, 9, 0, 0);
 
 let store: LocalStore;
@@ -102,18 +89,18 @@ afterEach(() => {
 });
 
 describe("a full Learn batch on the fixture deck", () => {
-  // Third card red, fifth card orange, everything else green.
+  // Third card red, fifth card orange, everything else green. One batch holds all 16 cards.
   const pick = (position: number): Rating => (position === 2 ? "again" : position === 4 ? "nearly" : "good");
 
   it("moves every card from unseen to seen, and stores exactly what was tapped", async () => {
-    mountLearn();
+    mountLearn({ batchSize: 16 });
     expect(await store.getReviews()).toEqual([]);
     expect(await store.getAllCardStates()).toEqual([]);
 
     const tapped = await studyBatch(pick);
 
     // The batch is the fixture in Learn order, with the red card once more at the end.
-    expect(tapped.map((tap) => tap.cardId)).toEqual([...LEARN_ORDER, "de-of"]);
+    expect(tapped.map((tap) => tap.cardId)).toEqual([...LEARN_ORDER, "casa-house"]);
 
     const reviews = await store.getReviews();
     expect(reviews.map(({ cardId, rating }) => ({ cardId, rating }))).toEqual(tapped);
@@ -127,26 +114,25 @@ describe("a full Learn batch on the fixture deck", () => {
     expect(states.map((state) => state.cardId).sort()).toEqual([...LEARN_ORDER].sort());
     const replayed = replayReviews(reviews);
     expect(new Map(states.map((state) => [state.cardId, state]))).toEqual(replayed);
-    // Every card Learn shows: form and phrase cards join Learn with the ordering build (L6).
-    for (const card of cards.filter((c) => c.kind === "content" || c.kind === "glue")) {
+    for (const card of cards) {
       expect(isSeen(replayed.get(card.id))).toBe(true);
     }
     expect(learnQueue(cards, replayed)).toEqual([]);
   });
 
   it("ends on a summary that counts each card once, with no further batch to offer", async () => {
-    mountLearn();
+    mountLearn({ batchSize: 16 });
     await studyBatch(pick);
 
     expect(q("batch-end")).not.toBeNull();
-    expect(q("summary-cards")!.textContent).toBe("12 new cards seen.");
-    expect(q("summary-good")!.textContent).toBe("10");
+    expect(q("summary-cards")!.textContent).toBe("16 new cards seen.");
+    expect(q("summary-good")!.textContent).toBe("14");
     expect(q("summary-nearly")!.textContent).toBe("1");
     expect(q("summary-again")!.textContent).toBe("1");
     expect(q("summary-remaining")!.textContent).toBe("That was the last of them.");
     expect(q("another-batch")).toBeNull();
     // Every segment of the bar is filled.
-    expect(host.querySelectorAll('[data-segment="done"]').length).toBe(13);
+    expect(host.querySelectorAll('[data-segment="done"]').length).toBe(17);
 
     act(() => q("to-menu")!.click());
     expect(exits).toBe(1);
@@ -158,20 +144,20 @@ describe("reds in a Learn batch", () => {
     mountLearn({ batchSize: 3 });
     expect(segments()).toBe(3);
 
-    expect(await study("again")).toBe("ir-go");
+    expect(await study("again")).toBe("ir-form-yo");
     expect(segments()).toBe(4);
     await study("good");
     await study("good");
     expect(q("batch-end")).toBeNull();
 
-    expect(await study("again")).toBe("ir-go");
+    expect(await study("again")).toBe("ir-form-yo");
     expect(segments()).toBe(4);
     expect(q("batch-end")).not.toBeNull();
     expect(await storedTaps()).toEqual([
-      { cardId: "ir-go", rating: "again" },
-      { cardId: "bueno-good", rating: "good" },
-      { cardId: "de-of", rating: "good" },
-      { cardId: "ir-go", rating: "again" },
+      { cardId: "ir-form-yo", rating: "again" },
+      { cardId: "ir-form-tu", rating: "good" },
+      { cardId: "casa-house", rating: "good" },
+      { cardId: "ir-form-yo", rating: "again" },
     ]);
     // Counted once in the summary, under its first rating.
     expect(q("summary-cards")!.textContent).toBe("3 new cards seen.");
@@ -188,7 +174,7 @@ describe("the session screen", () => {
 
     act(() => q("card-front")!.click());
     expect(q("card-front")).toBeNull();
-    expect(shownCard()).toBe("ir-go");
+    expect(shownCard()).toBe("ir-form-yo");
     // The note field and report button sit in the reveal.
     expect(q("reveal")!.contains(q("card-extras"))).toBe(true);
   });
@@ -202,8 +188,9 @@ describe("the session screen", () => {
     });
     await rated();
 
-    expect(await storedTaps()).toEqual([{ cardId: "ir-go", rating: "good" }]);
-    expect(q("card-front")!.textContent).toContain("good");
+    expect(await storedTaps()).toEqual([{ cardId: "ir-form-yo", rating: "good" }]);
+    // The next card is up: ir-form-tu.
+    expect(q("card-front")!.textContent).toContain("you go");
   });
 
   it("closes to the menu from the frame", async () => {
@@ -215,14 +202,14 @@ describe("the session screen", () => {
   it("offers another batch cut from the cards still unseen", async () => {
     mountLearn({ batchSize: 3 });
     await studyBatch(() => "good");
-    expect(q("summary-remaining")!.textContent).toBe("9 cards left to learn.");
+    expect(q("summary-remaining")!.textContent).toBe("13 cards left to learn.");
 
     act(() => q("another-batch")!.click());
     expect(q("batch-end")).toBeNull();
     expect(segments()).toBe(3);
-    // The pattern restarts: two content words, then a glue word.
+    // The next three in the deck file's order.
     const second = await studyBatch(() => "good");
-    expect(second.map((tap) => tap.cardId)).toEqual(["ahora-now", "tiempo-time", "se-impersonal"]);
+    expect(second.map((tap) => tap.cardId)).toEqual(["phrase-going-home", "bueno-good", "ahora-now"]);
   });
 
   it("says when each batch ends, after its ratings are stored, so a sync can take them", async () => {
@@ -241,12 +228,12 @@ describe("the session screen", () => {
 
   it("starts from the progress already on the device", async () => {
     const earlier = replayReviews([
-      { id: "r1", cardId: "ir-go", direction: "forward", rating: "good", timestamp: START - 5000 },
-      { id: "r2", cardId: "de-of", direction: "forward", rating: "again", timestamp: START - 4000 },
+      { id: "r1", cardId: "ir-form-yo", direction: "forward", rating: "good", timestamp: START - 5000 },
+      { id: "r2", cardId: "casa-house", direction: "forward", rating: "again", timestamp: START - 4000 },
     ]);
     mountLearn({ states: earlier, batchSize: 2 });
     const tapped = await studyBatch(() => "good");
-    expect(tapped.map((tap) => tap.cardId)).toEqual(["bueno-good", "ahora-now"]);
+    expect(tapped.map((tap) => tap.cardId)).toEqual(["ir-form-tu", "phrase-going-home"]);
   });
 
   it("says so when every card has been seen", async () => {
@@ -273,7 +260,7 @@ describe("the session screen", () => {
     act(() => q("rate-good")!.click());
     await until(() => q("session-error"), "the save to fail");
 
-    expect(shownCard()).toBe("ir-go");
+    expect(shownCard()).toBe("ir-form-yo");
     // Reopened so afterEach can close it.
     store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: "device-a" });
   });

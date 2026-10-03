@@ -8,12 +8,14 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { MOVE_MS } from "@/components/motion";
 import { LearnSession } from "@/components/session";
 import { until } from "@/components/testing";
-import { fixtureDeck } from "@/lib/deck/fixture";
+import { fixtureCard } from "@/lib/deck/fixture";
 import { LocalStore, type Rating } from "@/lib/store";
 
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 
-// Learn order on the fixture: ir-go and bueno-good have characters, de-of is a glue word.
+// Three fixture cards, studied in this order (Learn follows the deck's order): ir-go and
+// bueno-good have characters, de-of is a glue word.
+const cards = ["ir-go", "bueno-good", "de-of"].map(fixtureCard);
 let store: LocalStore;
 let host: HTMLDivElement;
 let root: Root;
@@ -47,7 +49,7 @@ function setReducedMotion(reduce: boolean) {
 
 function mountLearn(batchSize = 3) {
   act(() =>
-    root.render(<LearnSession cards={fixtureDeck.cards} states={new Map()} batchSize={batchSize} store={store} onExit={() => {}} />),
+    root.render(<LearnSession cards={cards} states={new Map()} batchSize={batchSize} store={store} onExit={() => {}} />),
   );
 }
 

@@ -60,27 +60,27 @@ describe("which files", () => {
   });
 
   it("wants the next Learn batches, soonest first, and nothing beyond them", () => {
-    // One batch of three ahead: ir, bueno, de in Learn order.
+    // One batch of three ahead: the deck file's first three cards (two form cards share ir-go's still).
     const wanted = wantedMedia(cards, new Map(), 1, 3);
-    expect(wanted).toEqual(["ir-go", "bueno-good", "de-of"].flatMap((id) => cardMedia(fixtureCard(id))));
+    expect(wanted).toEqual([...new Set(["ir-form-yo", "ir-form-tu", "casa-house"].flatMap((id) => cardMedia(fixtureCard(id))))]);
+    // The next three: phrase-going-home (two clips, no still), bueno-good and ahora-now (three files each).
     expect(wantedMedia(cards, new Map(), 2, 3)).toHaveLength(wanted.length + 8);
     expect(wantedMedia(cards, new Map(), 0, 3)).toEqual([]);
   });
 
   it("wants every seen card as well as the batches ahead", () => {
-    const states = seen("ir-go", "bueno-good", "de-of", "carro-car");
+    const states = seen("ir-form-yo", "ir-form-tu", "casa-house", "phrase-going-home", "carro-car");
     const wanted = wantedMedia(cards, states, 1, 3);
-    // Ahead: the next three unseen cards. Seen: all four, however far down the deck.
-    const ahead = ["ahora-now", "tiempo-time", "se-impersonal"];
-    const expected = [...ahead, "ir-go", "bueno-good", "de-of", "carro-car"].flatMap((id) => cardMedia(fixtureCard(id)));
+    // Ahead: the next three unseen cards. Seen: all five, however far down the deck.
+    const ahead = ["bueno-good", "ahora-now", "phrase-thats-great"];
+    const seenIds = ["ir-form-yo", "ir-form-tu", "casa-house", "phrase-going-home", "carro-car"];
+    const expected = new Set([...ahead, ...seenIds].flatMap((id) => cardMedia(fixtureCard(id))));
     expect([...wanted].sort()).toEqual([...expected].sort());
-    expect(wanted.slice(0, 3)).toEqual(cardMedia(fixtureCard("ahora-now")));
+    expect(wanted.slice(0, 3)).toEqual(cardMedia(fixtureCard("bueno-good")));
   });
 
   it("wants the whole deck when the batches ahead cover it", () => {
-    // Learn leaves out form and phrase cards until the ordering build (L6) makes it follow the deck file.
-    const learnt = cards.filter((c) => c.kind === "content" || c.kind === "glue");
-    expect([...wantedMedia(cards, new Map())].sort()).toEqual([...deckMedia(learnt)].sort());
+    expect([...wantedMedia(cards, new Map())].sort()).toEqual([...deckMedia(cards)].sort());
   });
 });
 

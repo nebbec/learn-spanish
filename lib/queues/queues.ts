@@ -14,9 +14,6 @@ export type CardStates = ReadonlyMap<string, CardState>;
 /** The default number of cards in a batch. Settings can change it. */
 export const DEFAULT_BATCH_SIZE = 15;
 
-/** In Learn, this many content words are drawn for each glue word. */
-export const CONTENT_PER_GLUE = 2;
-
 /** A card counts as struggling when a red is among this many of its latest forward ratings. */
 export const STRUGGLING_WINDOW = 3;
 
@@ -34,27 +31,12 @@ function byRank(cards: readonly Card[]): Card[] {
 // ---------- Learn ----------
 
 /**
- * Every unseen card in the order Learn shows them. Glue words and content words form
- * two queues, each by rank, and the result repeats "two content words, then one glue
- * word" until one queue runs out; the rest of the other queue follows.
+ * Every unseen card in the order Learn shows them: the deck file's order. The deck build
+ * computes that order (units, `requires`, the frequency phase's interleave, sibling
+ * spacing; see "Learning path" in docs/design.md), so Learn only follows it.
  */
 export function learnQueue(cards: readonly Card[], states: CardStates): Card[] {
-  const unseen = byRank(cards.filter((card) => !isSeen(states.get(card.id))));
-  const content = unseen.filter((card) => card.kind === "content");
-  const glue = unseen.filter((card) => card.kind === "glue");
-
-  const queue: Card[] = [];
-  let c = 0;
-  let g = 0;
-  while (c < content.length && g < glue.length) {
-    for (let i = 0; i < CONTENT_PER_GLUE && c < content.length; i += 1) {
-      queue.push(content[c]);
-      c += 1;
-    }
-    queue.push(glue[g]);
-    g += 1;
-  }
-  return [...queue, ...content.slice(c), ...glue.slice(g)];
+  return cards.filter((card) => !isSeen(states.get(card.id)));
 }
 
 /** The next Learn batch: the first `batchSize` cards of the Learn queue. */
