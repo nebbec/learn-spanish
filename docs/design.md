@@ -1,6 +1,6 @@
 # Learn Spanish: design
 
-Status: agreed design, nothing built yet. Written 2026-10-01 from a design interview. The work is broken into [tickets](#tickets) at the end.
+Status: agreed design, nothing built yet. Written 2026-10-01 from a design interview. The work is broken into [tickets](#tickets) at the end. The [learning path](#learning-path) (units, tips, intros, form and phrase cards, track L) was added on 2026-10-03 from a second interview, after using the first 100 cards from zero showed that pure frequency order loses a true beginner.
 
 ## Goal
 
@@ -23,8 +23,15 @@ These are used exactly as defined here throughout the doc.
 - **Seen**: a card with at least one forward rating.
 - **Due**: a seen card whose scheduled review time has passed.
 - **Memorized**: a seen card the scheduler expects to be recalled three weeks from now (precise definition under [Learning engine](#learning-engine)).
-- **Batch**: about 15 cards studied in one sitting, shown Stories-style.
+- **Batch**: about 15 cards studied in one sitting, shown Stories-style. In the starter path, one unit.
 - **Wheel**: the progress chart on the menu.
+- **Form card**: a card for one present-tense form of a core irregular verb ("I am (identity)" → soy). Kind `form`.
+- **Phrase card**: a card for a whole phrase ("How are you?" → ¿Cómo estás?). Kind `phrase`.
+- **Unit**: a small themed group of cards that ends in something the learner can say ("Who I am"). Defined in `content/units.json`.
+- **Starter path**: the units, about the first 150 to 200 cards. After it comes the **frequency phase**.
+- **Tip**: a short, unrated concept screen (two verbs for "to be"). Not a card.
+- **Intro**: the unrated screen that shows a new card before it is first tested.
+- **Reset**: a dated marker that makes replay ignore every earlier review.
 
 ## The deck
 
@@ -81,6 +88,12 @@ The deck is a static JSON file. One entry per card:
 | `trick` | One pre-written sound-alike memory trick. |
 | `image` | Path to the character still. Null for glue words. |
 | `audio` | Paths to two clips: the word and the example sentence. |
+| `unit` | Added by the [learning path](#learning-path): the unit id, or null in the frequency phase. |
+| `requires` | Added by the learning path: ids of cards that must come before this one. Often empty. |
+| `tip` | Added by the learning path: the tip id this card depends on, or null. |
+| `why` | Added by the learning path: a one-line contrast with a near neighbour, or null. |
+
+Changed by the learning path (deck version 2 of the format, L2): `kind` also takes `form` and `phrase`; `pos` also takes `phrase`; a form card has an `image` (its verb's) and verb `grammar`; a phrase card has no image and null `grammar`; `trick` may be null on form and phrase cards. The file gains `units` (`{ id, title, goal }`, in order) and `tips` (`{ id, title, body, examples }`) beside `cards`, and its card order is the Learn order.
 
 Decided in A2 (types in `lib/deck/types.ts`, validator in `lib/deck/validate.ts`):
 
@@ -104,7 +117,7 @@ Shown on the reveal as three buttons. Each has a text label as well as a colour,
 | Orange | Nearly: wrong ending, gender or accent, or a long think | Hard |
 | Red | Didn't have it | Again |
 
-On a card's first view the rating answers "did I already know this?". Green maps to Easy there, which gives a longer first interval than Good, so words already known get out of the way without a placement test.
+Changed by the [learning path](#learning-path): the intro's "I already know this" (rating `known`) is now the only way to Easy, and green on a first test is Good. Before that change: on a card's first view the rating answered "did I already know this?". Green maps to Easy there, which gives a longer first interval than Good, so words already known get out of the way without a placement test.
 
 ### Memorized
 
@@ -118,6 +131,8 @@ Decided in B2 (scheduler in `lib/scheduler/scheduler.ts`):
 - **Card state** holds times as epoch milliseconds and `phase` as `learning`, `review` or `relearning`. An unseen card has no row.
 
 ### Learn
+
+Changed by the [learning path](#learning-path): Learn takes unseen cards in the deck file's order, which the build computes; new cards get an intro before their first test; in the starter path a batch is a unit; first-view green is no longer Easy. The rules below still describe the frequency phase.
 
 - Shows unseen cards, most common first, in mixed batches: two queues (glue words and content words), each in rank order, drawing about one glue word for every two content words until the glue queue runs out.
 - Same flip interaction as Practice.
@@ -163,6 +178,126 @@ Decided in C5 (session in `components/session/PracticeSession.tsx`, URL paramete
 
 Spanish is shown first and the character stays hidden until the reveal, since it would give the answer away. Ratings are stored with `direction = reverse` and are excluded from scheduling and from the wheel.
 
+## Learning path
+
+Agreed with Courtney on 2026-10-03 in a second interview, after studying the first 100 cards from zero. Built by [track L](#track-l-learning-path). Where this section and an earlier one disagree, this one wins; the earlier sections carry a pointer here.
+
+### Why
+
+Strict frequency order is right for *which* words to learn and wrong for *the order* to meet them in from zero. On the first 100 cards:
+
+- `ser` is card 1. Its reveal shows `soy · eres · es` and "Soy de México y soy doctora", but yo, tú and él (ranks 37, 61, 64, drafted as glue) come after card 100, because Learn takes one glue card per two content cards in rank order and glue ranks 1 to 27 fill every glue slot.
+- One card holds four things to memorize (the infinitive and three forms), and the one rated, the infinitive, is the one a beginner least needs to say.
+- `ser` and `estar` arrive as cards 1 and 2 with nothing explaining the difference.
+- Meanings of one word sit a few cards apart (`que` at 12, 15, 18; `por` at 54, 57, 60; `esperar` at 74, 76, 77), so they interfere, and many second meanings are advanced (`lo` before an adjective, impersonal `se`).
+- A new card is first shown as a test, so a true beginner presses red on nearly every new card.
+
+### Goal
+
+Courtney's goal is to **speak**: survival and travel Spanish, and simple conversations about themselves and the people around them (family, feelings, plans). Understanding follows. So the foundation is pronouns, greetings and "I am / I want / I have", and the forward direction (English shown, Spanish recalled) stays the one that counts.
+
+### Principles
+
+1. **Frequency decides which words; teachability decides when.** The deck is still the 1,000 most common words. Nothing outside the top 1,000 is added, apart from phrases made of top-1,000 words.
+2. **Nothing appears before what it needs.** A card comes after every card it `requires`.
+3. **Concepts get a screen, not a card.** Tips introduce an idea once, just before it is needed.
+4. **Show, then test.** A new card is shown before it is first tested.
+5. **Every example is understood.** Starter examples use only words already met.
+6. **Similar things apart.** Later meanings of a word come well after its first.
+7. **Say it.** Audio plays by itself; the front says to say it out loud.
+
+### Two phases
+
+- **Starter path**: about 15 to 20 units, about the first 150 to 200 cards. Each unit has about 8 to 12 cards, introduces at most one tip, and ends with a few payoff phrases ("now you can say…"). An illustrative opening, not binding (L1 writes the real one): 1 Me and you (yo, tú, él, ella, sí, no, hola, gracias), 2 Who I am (ser's forms, de, me llamo), 3 How and where I am (estar's forms, bien, aquí, en), 4 What I want and have (querer, tener, un, mi), …
+- **Frequency phase**: everything else, in rank order, two content cards then one glue card as before, with phrase cards and later meanings placed by the rules below.
+
+### Order is computed, not hand-written
+
+The order of the deck comes from rules applied to tagged cards, so it can be recomputed every time the deck grows (100, 200, 300 cards…). Progress is keyed on card id and Learn only reads unseen cards, so reordering never harms progress.
+
+**The one hand-edited input** is `content/units.json`: an ordered list of units, each `{ id, title, goal, tip, cap, wants, payoff }`. `goal` is the "now you can say" line; `tip` a tip id or null; `cap` the most cards the unit takes (default 12); `wants` the words and meanings the unit is meant to hold, in plain words ("yo", "ser: I am", "me llamo"), which guide the tag pass; `payoff` the English of the unit's payoff phrases, which the draft pass turns into phrase cards. Claude drafts it; Courtney edits and approves it.
+
+**Each card carries tags**, set by a tag pass and checked by script: `unit` (a unit id or null), `requires` (card ids) and `tip` (a tip id or null).
+
+**The rules, applied by the deck build:**
+
+1. Units come in `units.json` order. Within a unit: `requires` order first, then non-phrase cards before phrase cards, then rank.
+2. If more cards are tagged into a unit than its `cap`, the lowest-ranked non-phrase cards drop to the frequency phase.
+3. The frequency phase follows: content and glue cards by rank, two content then one glue. A card's slot is the later of its rank slot and the slot just after its last `requires`.
+4. **Sibling spacing**: a word's later meanings (cards of kind `content` or `glue` sharing its rank) come at least 50 cards after its previous meaning, outside the starter path (`--spacing N` changes it). Inside a unit, `units.json` decides.
+5. A card is never before anything it `requires`, and a card whose `requires` are not all in the deck is held back. The build fails on a cycle or a missing id, and the validator checks the order of the shipped file.
+6. **Growth**: a card once in `content/deck.json` stays. The size (`DECK_SIZE`, `--size N`) only chooses which new cards join, from the top of the computed order. The file is then written in the computed order, so the unseen part reorders around what is already there.
+7. The build writes `content/path.md`, the computed order as a readable list (unit headers, ids, prompts), for Courtney to read. It holds card text, so no script prints it. It also lists, by unit, the `wants` no drafted card matches, which tells the next draft run what to draft out of rank order (nosotros at rank 138, for example).
+
+**Learn order is the deck file's order.** `learnQueue` takes unseen cards in file order; the interleave and spacing rules live in the build only. D2's caching ahead still uses `learnQueue`.
+
+### Form cards
+
+- About ten core irregular verbs: ser, estar, ir, tener, poder, querer, hacer, decir, saber, venir, each with three cards (yo, tú, él forms), plus one for haber (`hay`). About 31 cards.
+- Kind `form`, part of speech `verb`. Prompt "I am (identity)" → `soy`, "you are (identity, informal)" → `eres`, "he / she is (identity)" → `es`. Usted takes the él form; tip 6 says so.
+- Id: `<verb>-form-<yo|tu|el>` (`ser-form-yo`), and `haber-form-hay`.
+- A form card carries its verb's `grammar` strip, and the reveal highlights its own form. It reuses its verb's still (`image` is the infinitive card's image path), so form cards need no new art, but F2 must make the still of any verb whose form cards are in the deck even when the infinitive card is not yet.
+- In the starter path a form card `requires` its pronoun card, so "yo" comes before "I am". The infinitive card comes later ("I want **to be**…").
+
+### Phrase cards
+
+- Kind `phrase`, part of speech `phrase` (a new wheel slice, after `other`). English prompt, Spanish phrase as `es`, glue layout with no character. The word clip speaks the whole phrase. `grammar` is null; `trick` may be null.
+- About 100 in all, made only of top-1,000 words:
+  - **Unit payoffs**, about 40: the `payoff` lines of `units.json`, at the end of their unit.
+  - **Survival chunks**, about 15, allowed before their words: me llamo, ¿cómo estás?, lo siento, de nada, me gusta, no entiendo, ¿puedes repetir?, mucho gusto and the like. A word's later intro says where it was met ("you know this from *lo siento*").
+  - **Frequency-phase phrases**, about 45, placed once every word in them is seen. Claude drafts a ranked candidate list from subtitle phrase counts and Courtney cuts and approves it as one list (S4).
+- Id: `phrase-` and one to four English words (`phrase-how-are-you`). `rank` is the highest rank among its words (so it sorts sensibly), and the sibling rule ignores phrases.
+- Rated like any card: orange covers a small slip in a long phrase (an ending, an accent, a dropped word).
+
+### Tips
+
+- About 12 to 15 short screens. Expected set: Spanish drops "I / you" (soy = I am); verbs change with who does them; every noun is el or la; two verbs for "to be"; adjectives come after the noun and match it; tú and usted; questions and ¿¡; no goes before the verb; object pronouns go before the verb (te quiero); gustar works backwards; por and para; regular -ar, -er, -ir endings. Later tips may follow the starter path (talking about the past, when `fue` arrives).
+- A tip has an id (`tip-two-to-be`), a title, a body of three to five plain sentences, and two or three examples, each `{ es, en, audio }`.
+- **Shown in Learn before the first card that names it**, as an unrated screen. "Shown once" is worked out from progress: a tip appears when none of the cards naming it has been seen. No new store, table or sync.
+- Never rated, never counted: not in Practice, the wheel, the batch bar or the summary.
+- **Read again** from a "?" on the reveal of any card naming it (opens over the card), and from a Tips list on the menu holding every tip reached (a tip is reached when a card naming it is seen), at `/tips`.
+- Drafted by Claude, one file per tip as plain text like a decision file (`content/tips/<id>.txt`: `status: pending`, `title:`, body lines, `example: es | en` lines). **Courtney reads every tip** and sets `status: approve`; the build ships approved tips only, and holds back any card naming an unapproved tip.
+
+### Contrast lines
+
+A card gets a one-line `why` only where it contrasts with a near neighbour (ser and estar, por and para, saber and conocer, pedir and preguntar): "Use estar for how or where something is right now; ser for what it is." It shows on the intro and the reveal. Null on most cards.
+
+### Intro, then test
+
+- In Learn, a new card first appears as an **intro**: the character, the Spanish with its audio playing, the English, the grammar strip, the `why` line and the tip's "?". For a later meaning, the line "You know *esperar* = to wait. It also means:" is added, worked out from a seen card of the same rank.
+- Two buttons: **Got it** puts the card's test three steps later in the batch (or at the end, if fewer steps remain); **I already know this** records the first rating as Easy and the card leaves the batch.
+- The test is the usual front and reveal, and its rating is the card's first forward rating, mapped as in Practice: green is Good, not Easy. Green on first view no longer means "already knew it"; only the intro's button does.
+- Stored as a new rating value, `known`, which is green in summaries and colours and Easy in FSRS. It needs the `rating` check in Supabase widened (a migration) and the `Rating` type extended. Old reviews are ignored after Courtney's reset, so the change to first-view green needs no replay of history.
+- Intros and tips are steps in the segmented bar. The "a red returns once" rule is unchanged.
+
+### Example sentences use known words
+
+- **Starter path**: an example may use only words of cards earlier in the deck's order, the card's own word, names and numbers, and at most one other word, which must be an obvious cognate (doctor, hotel, chocolate).
+- **Frequency phase**: up to two other words.
+- Checked by script, not Claude: each word of `example.es` is mapped to its lemmas with E1's lemma lists, and a word whose lemmas are all unknown counts against the limit. Over the limit flags the card with reason `known-words`.
+- Order can change as the deck grows, so the build checks every example and lists the ones a reorder has broken.
+- A flagged example is redrafted on its own (`npm run draft -- --examples --ids …`), with the allowed words given to Claude; nothing else of the card changes. The first 100 cards' examples are redrafted this way.
+
+### Units in Learn
+
+- **In the starter path a batch is one unit**: the unseen cards of the earliest unit that has any, with their intros and tips. The batch size setting applies only after the starter path.
+- The batch frame names the unit ("Unit 3 · How and where I am"), and so does the menu's Learn button, in place of the count, while starter units remain.
+- **The unit's batch end** opens with "Unit complete: now you can say…", listing the unit's phrase cards with audio, then the usual summary. Shown when the batch leaves no unseen card in the unit.
+- **No gating**: the next unit opens whatever the ratings. Practice handles weak cards.
+- A card added to a unit the learner has finished leads the next Learn batch, headed "New in *unit title*".
+
+### Hear it, say it
+
+- The word clip plays by itself on the intro and when the reveal opens; the sentence clip is a tap away.
+- **A mute button is always on the card screen**, in the batch frame's top bar. Muting stops any clip playing and stops clips playing by themselves; the audio buttons still play when tapped. One switch, the same as "Play audio by itself" in settings, kept on the device in `localStorage` (`learn-spanish.muted`). On by default (not muted).
+- In the starter path the forward front says "Say it out loud" under the prompt.
+
+### Reset
+
+- A **Start over** button in settings, with a confirmation, for starting the learning path cleanly. Courtney starts fresh; nothing on the current deck needs keeping.
+- Reviews are append-only and nobody but the service role can delete on the server, so a reset is a row of its own: `resets` (`id`, `reset_at`, `device_id`) on the device and in Supabase, with the same owner-only rules and a `seq` download cursor, synced like reviews.
+- Replay, the queues, the wheel and Struggling read only reviews made after the latest reset. Notes and reports are kept.
+
 ## Screens
 
 ### Menu
@@ -191,6 +326,8 @@ Decided in C6 (menu in `components/menu`):
 Swipe-down also triggers pull-to-refresh in phone browsers. The card screen disables overscroll, and the gesture is only dependable once the app is installed to the home screen. Tap always works.
 
 ### Reveal
+
+Changed by the [learning path](#learning-path): the word clip plays by itself (mute button in the frame), a `why` line and a tip "?" where the card has them, and a form card highlights its own form in the strip.
 
 - Spanish word, with article where relevant.
 - Part of speech.
@@ -237,7 +374,7 @@ A radial chart with one slice per part of speech.
 - A complete solid disc means the whole deck is memorized.
 - Tapping a slice starts Practice for that part of speech.
 
-The part-of-speech groups are provisional until the deck exists: noun, verb, adjective, adverb, pronoun, preposition, conjunction, determiner, other.
+The part-of-speech groups are provisional until the deck exists: noun, verb, adjective, adverb, pronoun, preposition, conjunction, determiner, other. The [learning path](#learning-path) adds `phrase`, after `other`.
 
 Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Wheel.tsx`):
 
@@ -260,7 +397,7 @@ Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Whe
 - Two clips per card (word, example sentence), generated once by a script with one Latin American neural voice. About 2,000 clips, estimated 30 to 40 MB.
 - Clips ship with the deck, so playback is instant, free per tap, and works offline.
 - The voice is chosen by a blind listening test on 20 tricky words across candidate providers before generating the rest.
-- Audio plays on button press only.
+- ~~Audio plays on button press only.~~ Changed by the [learning path](#learning-path): the word clip plays by itself on the intro and the reveal, with a mute button always on the card screen.
 
 Decided in G1 (test script `scripts/voice-test.mjs`, with its page `scripts/voice-test.html`):
 
@@ -482,6 +619,7 @@ Build every part end to end on the first 100 cards in Learn order, before produc
 - The illustration style is locked and the hero mascot exists.
 - The voice has been chosen by the listening test and the first 200 clips generated.
 - Learn, Practice (with all options and Reverse), the reveal, notes, reports and the wheel work.
+- The first 100 cards are in [learning path](#learning-path) order: a learner starting from zero meets units, tips, intros, form cards and phrase cards, and every starter example sentence uses only words met before it.
 - The app installs to a phone and a full batch can be studied in airplane mode.
 - Ratings made offline on one device appear on a second device after both reconnect.
 
@@ -512,9 +650,13 @@ Each is settled by the ticket named (see [Tickets](#tickets)).
 
 Considered and left out of the first version:
 
-- A pack of common irregular verb forms (es, hay, fue, tengo) as their own cards.
+- ~~A pack of common irregular verb forms (es, hay, fue, tengo) as their own cards.~~ Brought forward as form cards for about ten core verbs, present tense only (see [Learning path](#learning-path)). Past-tense forms (fue, tuve) stay deferred.
 - Spain as a switchable variant with its own audio.
-- A placement test and intro cards for true beginners.
+- A placement test. ~~Intro cards for true beginners~~: brought forward as intros, tips and the starter path.
+- Speech recognition or pronunciation scoring: patchy in browsers and needs a connection on most phones, which breaks offline-first.
+- Tapping a word in an example sentence to see its meaning.
+- Themed units for the whole deck: units stop after the starter path.
+- Form cards for regular verbs: tip 12 (regular endings) teaches the pattern once.
 - Swipe-to-rate gestures.
 - A typed-answer mode.
 - Generating a fresh memory trick on demand.
@@ -583,17 +725,36 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | E3 | Review pass and deck build | E2 | | Done |
 | E4 | First 100 cards | E3 | Flagged-card review | Done |
 | F1 | Art style and mascot design | none | Style choice | Todo |
-| F2 | Art script and first stills | F1, E4 | Contact-sheet review | Todo |
+| F2 | Art script and first stills | F1, L9 | Contact-sheet review | Todo |
 | F3 | Hero mascot animation | F1, C6, C7 | | Todo |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
 | G2 | Audio script | G1 | | Done |
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
+| L0 | Learning path spec | none | Interview | Done |
+| L1 | Unit plan | L0 | Approve `units.json` | Todo |
+| L2 | Deck format v2 | L0 | | Todo |
+| L3 | Form and phrase cards in the pipeline | L2 | | Todo |
+| L4 | Tips in the pipeline | L1, L2 | | Todo |
+| L5 | Tag pass | L1, L3 | | Todo |
+| L6 | Ordering build | L2, L5 | | Todo |
+| L7 | Known-words check and example redraft | L6 | | Todo |
+| L8 | Audio for form cards, phrase cards and tips | L2 | | Todo |
+| L9 | Learning path content for the first 100 | L4, L7, L8 | Read tips and `path.md`, flagged cards | Todo |
+| L10 | Intro step and the `known` rating | L2 | | Todo |
+| L11 | Tips in the app | L2, L10 | | Todo |
+| L12 | Units in Learn | L2, L10 | | Todo |
+| L13 | Form, phrase and contrast layouts | L2 | | Todo |
+| L14 | Audio by itself, mute, say it out loud | none | | Todo |
+| L15 | Reset on the device | none | | Todo |
+| L16 | Reset sync | L15 | | Todo |
+| L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Todo |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
+| S4 | Frequency-phase phrase list | L17 | Cut and approve the list | Todo |
 
-Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 and G1 can start on day one.
+Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 and G1 can start on day one. Track L comes before F2 and H1, because it changes which cards are the first 100; F1 can run beside it. L1, L2, L14 and L15 can start at once.
 
 ### Track A: foundation
 
@@ -811,6 +972,83 @@ Scripts only. Depends on A2 and nothing else in the app.
 - Note (G3): cost: the script does not report it. about 6.4 minutes of speech came back from `gpt-4o-mini-tts` (before trimming; the cache keeps 162 of the 186 answers) and 5.3 minutes went to `gpt-4o-transcribe`; at OpenAI's published estimates of about $0.015 and $0.006 a minute that is about $0.10 and $0.03, so roughly $0.13 for the 100 cards, or about $1.30 per 1,000 cards.
 - Note (G3): Courtney decided on 2026-10-03 to ship the 200 clips with the 33 flagged ones unheard: they cannot judge them well, the 12-card sample sounded right to them, and their fiancée will listen to the flagged ones later on `content/flagged-clips.html`. Until then a flagged clip may say the wrong word; a bad one is redone with `--redo` as above.
 
+### Track L: learning path
+
+The rules are under [Learning path](#learning-path). Content tickets follow the rules for every ticket: scripts print counts and ids, never card text.
+
+**L0 Learning path spec**
+- Do: interview Courtney on making the first 1,000 words learnable from zero, and write the result into this doc.
+- Done when: [Learning path](#learning-path) and this track are in the doc.
+- Note (L0): done 2026-10-03. Decisions in interview order: goal is speaking (survival and travel, conversations about themselves and the people around them); a curated starter path of 150 to 200 cards, then frequency; form cards for about ten core irregular verbs; every card counts toward progress, the denominator being the deck size; tips plus a "?" link plus contrast lines; tips worked out from progress, never rated, every one read by Courtney; about 100 phrase cards, Claude drafting and Courtney approving; intro then test; known-words examples, strict in the starter path; deck order is Learn order, plus a reset (Courtney starts fresh); a unit is a batch, with a payoff screen and no gating; audio by itself with a mute button always on screen, no speech recognition; later meanings 50 cards apart; order computed by rules from tags with `units.json` the only hand-edited input; track L before F2 and H1. No native speaker is available to read the plan; the full native-speaker review before others get access stands.
+
+**L1 Unit plan**
+- Do: Claude drafts `content/units.json` (15 to 20 units, each `{ id, title, goal, tip, cap, wants, payoff }`) and the list of tip ids and titles, from the expected tips and the words of ranks 1 to about 300 in `content/word-list.tsv`. Survival chunks go in the early units' `wants`. Courtney edits and approves it.
+- Done when: `units.json` is committed with Courtney's approval noted here, and a test checks its shape (unique ids, every `tip` in the tip list, caps between 4 and 16).
+
+**L2 Deck format v2**
+- Build: in `lib/deck`, kinds `form` and `phrase`, pos `phrase`, fields `unit`, `requires`, `tip`, `why`, and the deck's `units` and `tips`. Validator rules: form ids and phrase ids as in [Learning path](#learning-path); a form card has an image and verb grammar; a phrase card has neither; every `requires` id is in the deck and earlier in the file; every `unit` and `tip` names an entry of the deck. Extend the fixture with two form cards, two phrase cards, two units and a tip. Add `phrase` to the wheel's groups.
+- Done when: the validator accepts the extended fixture and rejects each broken rule, under test, and the app still builds against it.
+
+**L3 Form and phrase cards in the pipeline**
+- Build: draft and review modes for form cards (from a fixed list of verbs in `drafting.ts`, ids made by the script) and phrase cards (from the `payoff` lines of `units.json` and a list of survival chunks), each with its own prompt and schema, written to `content/drafts/cards/` like any card and reviewed by the same review pass with checks for the new kinds.
+- Done when: a run on three form cards and three phrase cards against the fake runner writes valid cards and reviews, and `npm test` covers the id rules and the prompts' inputs.
+
+**L4 Tips in the pipeline**
+- Build: `npm run tips` drafts each tip of L1's list into `content/tips/<id>.txt` (one Claude call each, same caller as the draft pass); a parser for those files; the deck build takes approved tips into the deck's `tips` and holds back any card naming an unapproved one.
+- Done when: drafting, parsing and the hold-back are under test with the fake runner.
+
+**L5 Tag pass**
+- Build: `npm run tag`: one Claude call per word, given `units.json`, the word's cards and the ids and prompts of every drafted card, returning `unit`, `requires` and `tip` for each card, written to `content/tags/<id>.json`. Script checks: every id exists, no card requires itself, unit and tip ids exist. Rerun resumes; `--redo` retags.
+- Done when: a run against the fake runner writes tags and the checks reject bad ones, under test.
+
+**L6 Ordering build**
+- Build: the rules under "Order is computed, not hand-written" in `deck-build.ts`: units, caps, `requires`, the frequency phase's interleave, sibling spacing, held-back cards, growth that never drops a shipped id, and `content/path.md` with its list of unmatched `wants`. Change `learnQueue` in `lib/queues` to unseen cards in deck order, and move B3's interleave tests to the build.
+- Done when: each rule has a test on a small made-up deck, and rebuilding with nothing changed writes a byte-identical file.
+
+**L7 Known-words check and example redraft**
+- Build: the check under "Example sentences use known words", run by the deck build (listing broken examples) and by the review pass (reason `known-words`); `npm run draft -- --examples --ids …` redrafting only `example`, with the allowed words in the prompt.
+- Done when: the check is under test on made-up sentences (a cognate, a name, a number, a conjugated form of a known verb), and a redraft against the fake runner changes only the example.
+
+**L8 Audio for form cards, phrase cards and tips**
+- Build: the audio script speaks a phrase card's `es` as its word clip, and makes a clip per tip example at `/deck/audio/<tip id>.<n>.<hash>.mp3`, named in the deck's `tips`. The listening page includes them.
+- Done when: the fixture's new cards and tip have clips, under the existing audio tests.
+
+**L9 Learning path content for the first 100**
+- Do: draft the form cards, the survival chunks, the payoff phrases and any `wants` the first units need that are not drafted (out of rank order); draft the tips; tag every drafted card; review; Courtney decides the flagged cards, reads every tip and reads `content/path.md`; redraft the examples the known-words check flags; build at 100 cards; make the new clips. Commit the deck text.
+- Done when: `content/deck.json` is the first 100 cards in learning-path order, passing the validator, with no flagged card, unapproved tip or broken example in it.
+
+**L10 Intro step and the `known` rating**
+- Build: the intro screen (`components/card`), intros and delayed tests in `learnBatch` and `useSession`, "I already know this" storing `known`; `known` in the `Rating` type, the scheduler (Easy), summaries and colours; first-view green mapped to Good; a migration widening the `rating` check in Supabase (`npm run check:rls` still passing).
+- Done when: a Learn batch on the fixture shows each new card's intro before its test, a "known" card leaves the batch with an Easy first rating, and replay agrees with the session.
+
+**L11 Tips in the app**
+- Build: the tip screen in a Learn batch before the first card naming it, shown by the progress rule; the "?" on the intro and reveal opening it over the card; `/tips` listing reached tips (added to `PAGES` in `public/sw.js`) and a link from the menu.
+- Done when: on the fixture a tip appears once before its first card and not again after that card is seen, and `/tips` lists it.
+
+**L12 Units in Learn**
+- Build: a batch is the earliest unit with unseen cards; the unit's name in the frame and on the menu's Learn button; the "Unit complete: now you can say…" batch end with the unit's phrase cards and audio; "New in *unit*" for a card added to a finished unit; batch size only after the starter path.
+- Done when: on the fixture's two units each batch is one unit, the payoff screen lists the right phrases, and the frequency phase still cuts batches by size.
+
+**L13 Form, phrase and contrast layouts**
+- Build: the form card's reveal with its own form highlighted in the strip and its verb's character; the phrase card's front and reveal in the glue layout with no character; the `why` line on the intro and reveal.
+- Done when: every new fixture card renders in both directions, under test.
+
+**L14 Audio by itself, mute, say it out loud**
+- Build: the word clip plays when an intro or reveal opens; the mute button in `BatchFrame` and the matching settings switch, kept in `localStorage` under `learn-spanish.muted`; muting stops a playing clip; "Say it out loud" under the forward prompt of a card with a `unit`.
+- Done when: under test, a reveal plays its word clip unmuted and not muted, a tapped button plays either way, and the mute state survives a reload.
+
+**L15 Reset on the device**
+- Build: a `resets` store (Dexie schema version bump), a "Start over" button in settings with a confirmation, and one filter used everywhere reviews are read for state (replay, queues, wheel, Struggling, media keeping) that drops reviews at or before the latest reset.
+- Done when: after a reset on the fixture the menu shows nothing seen, Learn starts at the first card, and notes are still there.
+
+**L16 Reset sync**
+- Build: a `resets` table in Supabase (migration, owner-only select and insert, a `seq` cursor like reviews) and `pushResets` and `pullResets` in `SyncRemote`, `FakeRemote` and `SupabaseRemote`; a downloaded reset triggers a replay.
+- Done when: in the two-device test a reset on one device clears progress on the other after both sync, and `npm run check:rls` and `npm run check:sync` pass with the new table.
+
+**L17 Publish the learning path deck**
+- Do: copy `content/deck.json` to `public/deck/deck.json`; Courtney presses Start over and studies unit 1 from zero on the phone; fix small problems and write a ticket for anything larger.
+- Done when: unit 1 is studied from zero on the phone with intros, its tip, its form cards and its payoff screen, offline.
+
 ### Track H: acceptance
 
 **H1 First-slice acceptance**
@@ -833,3 +1071,7 @@ After H1 is signed off.
 **S3 Report triage**
 - Build: a script that pulls `card_reports` into a fix list, and a way to publish corrected cards as a deck revision without changing ids.
 - Done when: a reported card can be corrected and the fix reaches an installed app.
+
+**S4 Frequency-phase phrase list**
+- Do: Claude drafts a ranked list of about 60 candidate phrases from subtitle phrase counts, made only of top-1,000 words and not already in a unit; Courtney cuts it to about 45 and approves it as one list; the phrases are drafted, tagged with `requires` and reviewed like any card.
+- Done when: the approved list is committed and its phrases are in the drafts, placed by the ordering build.
