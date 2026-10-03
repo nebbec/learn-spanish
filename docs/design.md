@@ -315,6 +315,16 @@ Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
 Tables `reviews`, `notes` and `card_reports`, each with a `user_id` column and row-level security restricting rows to their owner. Card state is not stored on the server; any device rebuilds it by replaying review events.
 
+Decided in D3 (migration in `supabase/migrations`, check in `scripts/check-rls.mjs`):
+
+- **Project**: `learn-spanish`, ref `sbouiweyksuiakajkrbt`, eu-west-1. Migrations are SQL files in `supabase/migrations`, made with `supabase migration new` and applied with `supabase db push --linked`. The CLI connects through a temporary login role, so no database password is needed.
+- **Columns** are the device's fields in snake case, with times as `timestamptz`: `reviews` (`id`, `card_id`, `direction`, `rating`, `reviewed_at`, `section`, `device_id`), `notes` (`card_id`, `text`, `updated_at`) and `card_reports` (`id`, `card_id`, `comment`, `created_at`). `user_id` defaults to the signed-in user. Ids and device ids are `uuid`; `direction`, `rating` and `section` are checked against the same values as the device.
+- **Keys include the user**: `(user_id, id)` for reviews and reports, `(user_id, card_id)` for notes. Two accounts never collide on a row, so the same device's rows could be uploaded to each.
+- **Download cursor**: `reviews.seq` and `notes.seq`, numbers from one sequence set by a trigger on every insert, and on every note update. A plain sequence can commit out of order (5 after 6), so the trigger first takes a lock per user held until commit: one user's uploads are numbered in the order they commit. The cursor is `seq` as text; a page is `seq > cursor` in `seq` order, indexed by `(user_id, seq)`.
+- **Notes: the latest edit wins in the database.** A trigger skips any update whose `updated_at` is not later than the stored one, so an upsert can send every unsynced note and the rule in `SyncRemote.pushNotes` holds without reading first.
+- **Access**: signed-in users may select and insert their own rows, and update their own notes. Nobody but the service role can delete, reviews and reports cannot be changed, and the anon role has no access at all. Policies compare `(select auth.uid())` with `user_id`.
+- **Keys** (in `.env.local`, see `.env.example`): `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` for the app; `SUPABASE_SECRET_KEY` for scripts only, never the app or Vercel. The client library is `@supabase/supabase-js`.
+
 ### Sync rules
 
 - Unsynced rows upload whenever a connection is available; rows from other devices download.
@@ -470,7 +480,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C7 | Motion | C4 | | Done |
 | D1 | Installable app and service worker | A2 | | Done |
 | D2 | Media caching | D1, B3 | | Done |
-| D3 | Supabase schema | A1 | Project and keys | Todo |
+| D3 | Supabase schema | A1 | Project and keys | Done |
 | D4 | Sign-in | D3 | | Todo |
 | D5 | Sync core | B1, B2 | | Done |
 | D6 | Sync wiring | D4, D5 | Two-device check | Todo |
@@ -603,6 +613,9 @@ Built against the fixture deck.
 **D3 Supabase schema**
 - Build: migrations for `reviews`, `notes` and `card_reports`, each with `user_id` and owner-only row-level security. An `.env.example`.
 - Done when: a script shows a second user cannot read or write the first user's rows.
+- Note (D3): `npm run check:rls` is the done-when check, run against the real project: 32 of 32 pass. It creates two users with the secret key, signs each in with an emailed-code token through the publishable key (no email is sent), and shows the second user and a signed-out visitor can neither read nor add, change or delete the first user's rows. It also covers the rules D6 relies on, through the calls D6 should make: `upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true })` for reviews and reports, and `upsert(rows, { onConflict: "user_id,card_id" })` for notes. A repeated upload adds nothing, an earlier or equal-time note leaves the stored one, a later note replaces it with a higher `seq`, and a review made last week but uploaded now comes after the cursor. Deleting the users removes their rows. Supabase's advisor (`supabase db advisors --linked`) reports no issues.
+- Note (D3): for D4: the Magic Link email template must include `{{ .Token }}` for the email to carry a code (Courtney sets this in the dashboard). Supabase's built-in email only reaches the organisation's members and sends a few an hour. The URL and publishable key are not yet in Vercel; D4 needs them there for Production and Preview.
+- Note (D3): `supabase projects api-keys` masks the secret key unless given `--reveal`.
 
 **D4 Sign-in**
 - Build: emailed one-time code in the browser client, with sign in and sign out in settings. Port from `crossfit_logger`'s `app/welcome/OnboardingFlow.tsx`: that file is over 1,100 lines, so search for `signInWithOtp` and read only that region.

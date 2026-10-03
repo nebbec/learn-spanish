@@ -34,6 +34,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `lib/deck/`: card types, validator and loader. `lib/deck/fixture.ts` exports the 12-card fixture deck for tests.
 - `lib/scheduler/`: the `ts-fsrs` wrapper: rating a card, replaying reviews into card state, and the seen, due, memorized and predicted-recall checks.
 - `lib/sync/`: the sync core: upload unsynced rows, download the other devices' rows, replay. Written against the `SyncRemote` interface; `FakeRemote` is the in-memory server for tests. The rules are in design.md under "Sync rules".
+- `supabase/migrations/`: the server's tables, row-level security and triggers, applied with `supabase db push --linked`. `npm run check:rls` checks them against the real project; the rules are in design.md under "Data in Supabase".
 - `lib/queues/`: the Learn and Practice queues: which cards a session shows and in what order. Also the Practice options as URL parameters (`practiceHref`, `parsePracticeParams`).
 - `lib/progress/`: seen and memorized counts per part of speech, and the wheel's slice angles and fill radii. `components/Wheel.tsx` draws it.
 - `public/deck/`: `deck.json` plus its art (`img/`) and audio (`audio/`).
