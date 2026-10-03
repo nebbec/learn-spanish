@@ -1,4 +1,4 @@
-// Row types for the four IndexedDB stores. See docs/design.md, "Data on the device".
+// Row types for the IndexedDB stores. See docs/design.md, "Data on the device".
 
 export const DIRECTIONS = ["forward", "reverse"] as const;
 export type Direction = (typeof DIRECTIONS)[number];
@@ -73,6 +73,20 @@ export interface Report {
   synced: SyncedFlag;
 }
 
+/**
+ * One "Start over" (L15). Reviews at or before the latest reset no longer count for
+ * card state, the queues, the wheel or Struggling; they stay stored and synced, as
+ * reviews are append-only. See "Reset" in docs/design.md.
+ */
+export interface Reset {
+  /** UUID. */
+  id: string;
+  /** Milliseconds since the Unix epoch. */
+  resetAt: number;
+  deviceId: string;
+  synced: SyncedFlag;
+}
+
 export interface Unsynced {
   reviews: Review[];
   notes: Note[];
@@ -88,6 +102,7 @@ export interface ReviewFilter {
 export type RemoteReview = Omit<Review, "synced">;
 export type RemoteNote = Omit<Note, "synced">;
 export type RemoteReport = Omit<Report, "synced">;
+export type RemoteReset = Omit<Reset, "synced">;
 
 /** The two kinds of row a device downloads. Reports only go up. */
 export type SyncTable = "reviews" | "notes";

@@ -31,7 +31,7 @@ function review(cardId: string, rating: Review["rating"] = "good"): Review {
 function show(reviews: Review[], played: string[] = []) {
   act(() =>
     root.render(
-      <TipsScreen store={{ getReviews: async () => reviews }} loadTips={loadTips} onPlay={(src) => played.push(src)} />,
+      <TipsScreen store={{ getReviewsSinceReset: async () => reviews }} loadTips={loadTips} onPlay={(src) => played.push(src)} />,
     ),
   );
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AutoplaySwitch, DownloadEverything, SignIn } from "@/components/settings";
+import { AutoplaySwitch, DownloadEverything, SignIn, StartOver } from "@/components/settings";
 import { SyncPanel } from "@/components/sync";
 import { ROUTES } from "@/lib/routes";
 
@@ -14,6 +14,7 @@ export default function SettingsPage() {
       <DownloadEverything />
       <SignIn />
       <SyncPanel />
+      <StartOver />
     </main>
   );
 }

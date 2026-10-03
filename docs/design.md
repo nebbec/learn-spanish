@@ -402,6 +402,12 @@ Decided in L14 (`components/audio/`, `components/card/BatchFrame.tsx`, `CardFron
 - Reviews are append-only and nobody but the service role can delete on the server, so a reset is a row of its own: `resets` (`id`, `reset_at`, `device_id`) on the device and in Supabase, with the same owner-only rules and a `seq` download cursor, synced like reviews.
 - Replay, the queues, the wheel and Struggling read only reviews made after the latest reset. Notes and reports are kept.
 
+Decided in L15 (device side; sync is L16):
+
+- **Store**: `resets` is a new IndexedDB store, Dexie schema version 3 (`id, resetAt, synced`). A row is `{ id (UUID), resetAt (ms), deviceId, synced }`; `RemoteReset` is the same without `synced`. Nothing uploads it until L16.
+- **One filter**: `sinceLatestReset(reviews, resets)` in `lib/store/reset.ts` drops reviews whose `timestamp` is at or before the latest `resetAt` (a review in the reset's own millisecond is dropped). `LocalStore.getReviewsSinceReset(filter?)` applies it in one read transaction, and every reader of state uses it: Menu (counts, wheel, Struggling), Learn, Practice, Tips, media keeping and sync's `rebuildCardStates`. `getReviews` still returns every stored review, for sync and tests.
+- **Start over**: `LocalStore.startOver(at?)` adds the reset row and empties the `card_state` cache in one transaction. Reviews, notes and reports stay on the device. The settings section `StartOver` (last on the page) asks first ("Yes, start over" or "Cancel") and then says "Done. Learn starts again at the first card." Local settings (batch size, mute, Reverse) are not touched.
+
 ## Screens
 
 ### Menu
@@ -577,6 +583,7 @@ Decided in D2 (logic in `lib/media`, trigger in `components/pwa/KeepMedia.tsx`, 
 | `notes` | Card id, text, updated-at, synced flag. |
 | `reports` | Card id, optional comment, created-at, synced flag. |
 | `sync_state` | Added in D5: how far this device has read the server's reviews and notes. D6 adds the account those cursors and the synced flags belong to. |
+| `resets` | Added in L15 (schema version 3): each "Start over": id, reset-at, device id, synced flag. See [Reset](#reset). |
 
 Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
@@ -865,7 +872,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L12 | Units in Learn | L2, L10 | | Done |
 | L13 | Form, phrase and contrast layouts | L2 | | Done |
 | L14 | Audio by itself, mute, say it out loud | none | | Done |
-| L15 | Reset on the device | none | | Todo |
+| L15 | Reset on the device | none | | Done |
 | L16 | Reset sync | L15 | | Todo |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Todo |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
@@ -1198,6 +1205,8 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L15 Reset on the device**
 - Build: a `resets` store (Dexie schema version bump), a "Start over" button in settings with a confirmation, and one filter used everywhere reviews are read for state (replay, queues, wheel, Struggling, media keeping) that drops reviews at or before the latest reset.
 - Done when: after a reset on the fixture the menu shows nothing seen, Learn starts at the first card, and notes are still there.
+- Note (L15): done 2026-10-03. Decisions are under [Reset](#reset), "Decided in L15". New `lib/store/reset.ts` (`sinceLatestReset`, `latestResetAt`), `LocalStore.startOver`, `getResets` and `getReviewsSinceReset`, `Reset`/`RemoteReset` types, and `components/settings/StartOver.tsx` (test ids `start-over`, `start-over-confirm`, `start-over-cancel`, `start-over-done`, `start-over-failed`). `MenuScreen` and `TipsScreen` test stores now provide `getReviewsSinceReset`. Tests: components/settings/StartOver.test.tsx (the Done-when check: study unit 1 and save a note, Start over, menu shows 0 seen and Unit 1, Learn opens on the first card, the note is kept, studying afterwards counts), lib/store/store.test.ts (filter, reset at the review's own time, card-state cache cleared, notes and reports kept, upgrade from version 2), lib/store/reset.test.ts.
+- Note (L15): for L16. `resets` rows are written with `synced: 0` and an index on `synced`, but `listUnsynced`, `markSynced` and `bindSyncAccount` ignore them, and there is no `mergeResets` or `resets` cursor in `SyncTable` yet. A merged reset needs `rebuildCardStates`, which already reads `getReviewsSinceReset`. Until L16, a reset on one device leaves other devices as they were, and their newer reviews still arrive and count here.
 
 **L16 Reset sync**
 - Build: a `resets` table in Supabase (migration, owner-only select and insert, a `seq` cursor like reviews) and `pushResets` and `pullResets` in `SyncRemote`, `FakeRemote` and `SupabaseRemote`; a downloaded reset triggers a replay.

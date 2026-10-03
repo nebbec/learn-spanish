@@ -17,7 +17,7 @@ let askedAgain = false;
 async function keepOnce(): Promise<void> {
   const store = browserCaches();
   if (!store) return;
-  const [deck, reviews] = await Promise.all([loadDeck(), localStore().getReviews()]);
+  const [deck, reviews] = await Promise.all([loadDeck(), localStore().getReviewsSinceReset()]);
   await storeMedia(wantedMedia(deck.cards, replayReviews(reviews)), { caches: store, fetch: (url) => fetch(url) });
 }
 

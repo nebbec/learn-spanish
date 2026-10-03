@@ -121,8 +121,8 @@ export async function sync(store: LocalStore, remote: SyncRemote): Promise<SyncR
   return result;
 }
 
-/** Replaces the card-state cache with a replay of every stored review. */
+/** Replaces the card-state cache with a replay of the reviews since the latest reset. */
 export async function rebuildCardStates(store: LocalStore): Promise<void> {
-  const states = replayReviews(await store.getReviews());
+  const states = replayReviews(await store.getReviewsSinceReset());
   await store.replaceCardStates([...states.values()]);
 }

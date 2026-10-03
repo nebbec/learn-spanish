@@ -28,7 +28,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `components/menu/`: the menu: the wheel with live counts, Learn and Practice with their counts, the Practice options and the Reverse switch. `MenuScreen` loads the progress; `Menu` draws it.
 - `components/pwa/`: registers the service worker, draws the install prompt on the menu, and (`KeepMedia`) asks for art and audio to be stored as pages open.
 - `components/tips/`: `TipsScreen`, the `/tips` list of every tip reached. When a tip joins a Learn batch is in `lib/queues/tips.ts` and `learnBatch`.
-- `components/settings/`: the settings page's sections: `AutoplaySwitch` ("Play audio by itself", the mute button's other side), `DownloadEverything` and `SignIn`.
+- `components/settings/`: the settings page's sections: `AutoplaySwitch` ("Play audio by itself", the mute button's other side), `DownloadEverything`, `SignIn` and `StartOver` (records a reset; reviews at or before the latest reset no longer count, see `lib/store/reset.ts`).
 - `components/sync/`: `AutoSync` (in the root layout) starts a sync on opening, sign-in, reconnecting and returning to the app; `SyncStatusLine` (menu) and `SyncPanel` (settings) show the status.
 - `lib/auth/`: the Supabase browser client, the emailed-code sign-in and sign-out, and who is signed in, read from the stored session so it works offline. `fakeAuthServer` stands in for Supabase Auth in tests. `npm run check:signin` checks sign-in against the real project; the rules are in design.md under "Sign-in".
 - `lib/media/`: which art and audio files to keep on the device (a few Learn batches ahead, every seen card, or the whole deck) and storing them in the `learn-spanish-media` cache. The rules are in design.md under "Installable app".

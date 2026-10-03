@@ -6,6 +6,7 @@ import type {
   RemoteNote,
   RemoteReview,
   Report,
+  Reset,
   Review,
   ReviewFilter,
   SyncAccountRow,
@@ -13,6 +14,7 @@ import type {
   SyncTable,
   Unsynced,
 } from "./types";
+import { sinceLatestReset } from "./reset";
 
 export const DB_NAME = "learn-spanish";
 const DEVICE_ID_KEY = "learn-spanish.device-id";
@@ -23,6 +25,7 @@ class LocalDb extends Dexie {
   notes!: Table<Note, string>;
   reports!: Table<Report, string>;
   sync_state!: Table<SyncStateRow | SyncAccountRow, string>;
+  resets!: Table<Reset, string>;
 
   constructor(name: string, options?: DexieOptions) {
     super(name, options);
@@ -35,6 +38,8 @@ class LocalDb extends Dexie {
     });
     // Version 2 (D5) adds the download cursors. The four stores above are unchanged.
     this.version(2).stores({ sync_state: "key" });
+    // Version 3 (L15) adds the resets ("Start over"). The other stores are unchanged.
+    this.version(3).stores({ resets: "id, resetAt, synced" });
   }
 }
 
@@ -119,6 +124,40 @@ export class LocalStore {
         : await this.db.reviews.where("cardId").equals(cardId).toArray();
     const kept = direction === undefined ? rows : rows.filter((r) => r.direction === direction);
     return kept.sort(byTimeThenId);
+  }
+
+  /**
+   * The reviews that count for state: those made after the latest reset, oldest first.
+   * Replay, the queues, the wheel, Struggling and media keeping read these, never
+   * `getReviews`, which returns every stored review.
+   */
+  async getReviewsSinceReset(filter: ReviewFilter = {}): Promise<Review[]> {
+    const { reviews, resets } = this.db;
+    return this.db.transaction("r", reviews, resets, async () =>
+      sinceLatestReset(await this.getReviews(filter), await resets.toArray()),
+    );
+  }
+
+  // Resets
+
+  /**
+   * "Start over": records a reset as a new, unsynced row and empties the card-state
+   * cache, since no review counts any more. Reviews, notes and reports are kept.
+   */
+  async startOver(at: number = Date.now()): Promise<Reset> {
+    const reset: Reset = { id: crypto.randomUUID(), resetAt: at, deviceId: this.deviceId, synced: 0 };
+    const { resets, card_state } = this.db;
+    await this.db.transaction("rw", resets, card_state, async () => {
+      await resets.add(reset);
+      await card_state.clear();
+    });
+    return reset;
+  }
+
+  /** Resets oldest first. */
+  async getResets(): Promise<Reset[]> {
+    const rows = await this.db.resets.toArray();
+    return rows.sort((a, b) => a.resetAt - b.resetAt || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   }
 
   // Card state

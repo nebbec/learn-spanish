@@ -16,7 +16,7 @@ type Loaded = { status: "loading" } | { status: "failed" } | { status: "ready"; 
 
 export interface TipsScreenProps {
   /** Defaults to the app's shared store. Tests pass their own. */
-  store?: { getReviews(): Promise<Review[]> };
+  store?: { getReviewsSinceReset(): Promise<Review[]> };
   /** Defaults to the deck the app serves. */
   loadTips?: () => Promise<{ cards: readonly Card[]; tips: readonly DeckTip[] }>;
   /** Plays a clip, given its path. */
@@ -29,7 +29,7 @@ export function TipsScreen({ store, loadTips = loadDeck, onPlay }: TipsScreenPro
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadTips(), (store ?? localStore()).getReviews()])
+    Promise.all([loadTips(), (store ?? localStore()).getReviewsSinceReset()])
       .then(([deck, reviews]) => {
         if (!cancelled) setLoaded({ status: "ready", tips: reachedTips(deck.tips, deck.cards, replayReviews(reviews)) });
       })

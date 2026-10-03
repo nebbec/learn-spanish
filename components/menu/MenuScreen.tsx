@@ -24,7 +24,7 @@ export interface MenuScreenProps {
   /** Goes to a Practice link when a slice of the wheel is tapped. */
   onNavigate: (href: string) => void;
   /** Defaults to the app's shared store. Tests pass their own. */
-  store?: { getReviews(): Promise<Review[]> };
+  store?: { getReviewsSinceReset(): Promise<Review[]> };
   /** Defaults to the deck the app serves. Tests pass their own cards and units. */
   loadDeck?: () => Promise<{ cards: readonly Card[]; units: readonly DeckUnit[] }>;
   clock?: () => number;
@@ -42,7 +42,7 @@ export function MenuScreen({ onNavigate, store, loadDeck: load = loadDeck, clock
     // Card state comes from replaying the reviews, not from the card_state cache,
     // so it is right even if a cache write was lost.
     const refresh = () => {
-      Promise.all([load(), (store ?? localStore()).getReviews()])
+      Promise.all([load(), (store ?? localStore()).getReviewsSinceReset()])
         .then(([{ cards, units }, reviews]) => {
           if (!cancelled) {
             setLoaded({ status: "ready", cards, units, states: replayReviews(reviews), reviews, now: clock() });

@@ -25,7 +25,7 @@ export function PracticeScreen() {
     let cancelled = false;
     // Card state comes from replaying the reviews, not from the card_state cache,
     // so it is right even if a cache write was lost.
-    Promise.all([loadDeck(), localStore().getReviews()])
+    Promise.all([loadDeck(), localStore().getReviewsSinceReset()])
       .then(([deck, reviews]) => {
         if (!cancelled) setLoaded({ status: "ready", cards: deck.cards, tips: deck.tips, states: replayReviews(reviews), reviews });
       })

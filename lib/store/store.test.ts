@@ -1,6 +1,7 @@
 import { IDBFactory, IDBKeyRange } from "fake-indexeddb";
 import { beforeEach, describe, expect, it } from "vitest";
-import { LocalStore, getDeviceId, type CardStateRow } from "@/lib/store";
+import Dexie from "dexie";
+import { DB_NAME, LocalStore, getDeviceId, type CardStateRow } from "@/lib/store";
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 
@@ -207,5 +208,62 @@ describe("device id", () => {
       section: "learn",
     });
     expect(review.deviceId).toBe(id);
+  });
+});
+
+describe("resets", () => {
+  const base = { cardId: "casa-house", direction: "forward", section: "learn" } as const;
+
+  it("counts only the reviews made after the latest reset, and keeps the rest stored", async () => {
+    await store.appendReview({ ...base, rating: "good", timestamp: 100 });
+    await store.appendReview({ ...base, rating: "again", timestamp: 200 });
+    expect(await store.getReviewsSinceReset()).toHaveLength(2);
+
+    const reset = await store.startOver(200);
+    expect(reset).toMatchObject({ resetAt: 200, deviceId: "device-a", synced: 0 });
+    expect(reset.id).toMatch(UUID);
+    // A review at the reset's own time is dropped too.
+    expect(await store.getReviewsSinceReset()).toEqual([]);
+
+    const after = await store.appendReview({ ...base, rating: "nearly", timestamp: 300 });
+    expect(await store.getReviewsSinceReset()).toEqual([after]);
+    expect(await store.getReviewsSinceReset({ cardId: "ir-go" })).toEqual([]);
+    expect(await store.getReviews()).toHaveLength(3);
+
+    await store.startOver(400);
+    expect(await reopen().getReviewsSinceReset()).toEqual([]);
+    expect((await reopen().getResets()).map((r) => r.resetAt)).toEqual([200, 400]);
+  });
+
+  it("empties the card-state cache and keeps notes and reports", async () => {
+    await store.putCardState({ cardId: "casa-house" });
+    await store.saveNote("casa-house", "a note");
+    await store.addReport("casa-house", "odd");
+    await store.startOver();
+    expect(await store.getAllCardStates()).toEqual([]);
+    expect((await store.getNote("casa-house"))?.text).toBe("a note");
+    expect(await store.getReports()).toHaveLength(1);
+  });
+});
+
+describe("upgrade", () => {
+  it("opens a version 2 database with its reviews kept and no resets", async () => {
+    const old = new Dexie(DB_NAME, { indexedDB: idb, IDBKeyRange });
+    old.version(2).stores({
+      reviews: "id, cardId, timestamp, synced",
+      card_state: "cardId",
+      notes: "cardId, synced",
+      reports: "id, cardId, synced",
+      sync_state: "key",
+    });
+    await old.table("reviews").add({
+      id: "r1", cardId: "casa-house", direction: "forward", rating: "good",
+      timestamp: 100, section: "learn", deviceId: "device-a", synced: 1,
+    });
+    old.close();
+
+    const upgraded = reopen();
+    expect(await upgraded.getResets()).toEqual([]);
+    expect((await upgraded.getReviewsSinceReset()).map((r) => r.id)).toEqual(["r1"]);
   });
 });
