@@ -328,38 +328,38 @@ Wants no drafted card fills:
 
 ## Frequency phase
 
-1. `ser-be-identity` · to be (identity, origin, what something is) → ser
-2. `estar-be-state` · to be (state, place) → estar
-3. `el-the` · [the] boy (masculine singular) → el
+1. `ser-be-identity` · to be (identity, origin, what something is) → ser · *example uses words not met yet: de, y, doctora*
+2. `estar-be-state` · to be (state, place) → estar · *example uses words not met yet: en, casa, y, muy, cansado*
+3. `el-the` · [the] boy (masculine singular) → el · *example uses words not met yet: perro, en, cocina*
 4. `haber-have-auxiliary` · to have (helper verb, as in I have eaten; not tener) → haber
-5. `de-of` · the house [of] María → de
-6. `tener-have` · to have (own, possess) → tener
-7. `ir-go` · to go → ir
+5. `de-of` · the house [of] María → de · *example uses words not met yet: casa, mi, mamá*
+6. `tener-have` · to have (own, possess) → tener · *example uses words not met yet: hermanos, y, un, perro*
+7. `ir-go` · to go → ir · *example uses words not met yet: Mañana, a, playa, con, mis, amigos*
 8. `hacer-do` · to do → hacer
-9. `que-that` · I think [that] she is coming → que
-10. `poder-can` · to be able to (can) → poder
-11. `decir-say` · to say → decir
-12. `saber-know` · to know (facts, information, how to do something) → saber
+9. `que-that` · I think [that] she is coming → que · *example uses words not met yet: Creo, ella, viene, mañana*
+10. `poder-can` · to be able to (can) → poder · *example uses words not met yet: ayudarme, con, esto*
+11. `decir-say` · to say → decir · *example uses words not met yet: No, te, escuché*
+12. `saber-know` · to know (facts, information, how to do something) → saber · *example uses words not met yet: No, dónde, mis, llaves*
 13. `querer-want` · to want → querer
 14. `no-not` · I do [not] know → no
 15. `si-yes` · yes → sí
 16. `bien-well` · well (in a good way, also fine; not the filler well... (that is bueno)) → bien
-17. `ver-see` · to see → ver
-18. `un-a` · I want [a] book → un
+17. `ver-see` · to see → ver · *example uses words not met yet: nada, sin, mis, lentes*
+18. `un-a` · I want [a] book → un · *example uses words not met yet: perro, y, gata*
 19. `bueno-good` · good → bueno
 20. `a-to` · I go [to] Mexico (destination of movement) → a
 21. `aqui-here` · here (the standard word, not acá) → aquí
-22. `mas-more` · more → más
+22. `mas-more` · more → más · *example uses words not met yet: café, por, favor*
 23. `solo-only` · only (short word, not solamente) → solo
 24. `y-and` · bread [and] butter → y
 25. `creer-believe` · to believe → creer
 26. `en-in` · I live [in] Mexico → en
-27. `deber-must` · to have to (must, should; not tener que) → deber
+27. `deber-must` · to have to (must, should; not tener que) → deber · *example uses words not met yet: llamar, tu, mamá*
 28. `ya-already` · already → ya
 29. `ahora-now` · now → ahora
 30. `lo-him-it` · I see [him] (direct object, masculine or it) → lo
 31. `muy-very` · very → muy
-32. `dar-give` · to give → dar
+32. `dar-give` · to give → dar · *example uses words not met yet: teléfono, por, favor*
 33. `pasar-happen` · to happen (the everyday word, as in what's happening?) → pasar
 34. `por-for-reason` · thanks [for] everything (reason or exchange, not purpose) → por
 35. `asi-like-this` · like this, this way → así
@@ -370,40 +370,40 @@ Wants no drafted card fills:
 40. `hablar-speak` · to speak, to talk → hablar
 41. `sentir-feel` · to feel → sentir
 42. `me-me` · call [me] tomorrow (object pronoun, attached to or before the verb) → me
-43. `venir-come` · to come → venir
+43. `venir-come` · to come → venir · *example uses words not met yet: fiesta, esta, noche*
 44. `mucho-many` · many, much (before a noun: a lot of) → mucho
 45. `esperar-wait` · to wait → esperar
-46. `se-himself-reflexive` · he washes [himself] (reflexive pronoun before the verb, also herself, themselves, yourself (usted)) → se
+46. `se-himself-reflexive` · he washes [himself] (reflexive pronoun before the verb, also herself, themselves, yourself (usted)) → se · *example uses words not met yet: Mi, hermano, levanta, temprano*
 47. `pensar-think` · to think → pensar
 48. `gracias-thank-you` · thank you → gracias
 49. `te-you` · I love [you] (informal tú, object before the verb) → te
-50. `senor-sir` · sir, Mr. (polite title or word for a man; feminine señora) → el señor
+50. `senor-sir` · sir, Mr. (polite title or word for a man; feminine señora) → el señor · *example uses words not met yet: vive, mi, calle*
 51. `cosa-thing` · thing → la cosa
-52. `necesitar-need` · to need → necesitar
+52. `necesitar-need` · to need → necesitar · *example uses words not met yet: tu, ayuda, favor*
 53. `mirar-look-at` · to look at → mirar
 54. `haber-there-is` · there to be (as in there is, there are (hay); not estar) → haber
 55. `de-from` · I'm [from] Mexico (origin) → de
 56. `tener-have-to` · to have to (used with que before the next verb) → tener
-57. `con-with` · coffee [with] milk → con
-58. `hacer-make` · to make → hacer
-59. `que-who-which` · the man [who] lives here → que
-60. `llamar-call` · to call (phone, call out) → llamar
+57. `con-with` · coffee [with] milk → con · *example uses words not met yet: conmigo, o, ellos*
+58. `hacer-make` · to make → hacer · *example uses words not met yet: Mi, mamá, pastel*
+59. `que-who-which` · the man [who] lives here → que · *example uses words not met yet: hombre, vive, mi, tío*
+60. `llamar-call` · to call (phone, call out) → llamar · *example uses words not met yet: mañana, después, del, trabajo*
 61. `para-for` · a gift [for] you (recipient, purpose or deadline, not por) → para
 62. `dia-day` · day → el día
 63. `querer-love` · to love (family, friends, everyday affection, not amar) → querer
 64. `no-no-answer` · [No], thanks. (the answer, opposite of yes) → no
-65. `hombre-man` · man → el hombre
+65. `hombre-man` · man → el hombre · *example uses words not met yet: Ese, mi, tío*
 66. `entonces-so` · so (one word, to draw a conclusion or move on, not pues or tan) → entonces
-67. `ver-watch` · to watch (a movie, a show (same verb as "to see")) → ver
+67. `ver-watch` · to watch (a movie, a show (same verb as "to see")) → ver · *example uses words not met yet: película, esta, noche*
 68. `mi-my` · [my] house → mi
 69. `bueno-well-okay` · well, okay (filler word to start a reply, not bien) → bueno
 70. `a-at-time` · the class starts [at] eight (clock time) → a
 71. `casa-house` · house → la casa
-72. `mas-most` · most (after el or la, as in the most beautiful, not the majority) → más
+72. `mas-most` · most (after el or la, as in the most beautiful, not the majority) → más · *example uses words not met yet: Ella, inteligente, clase*
 73. `solo-alone` · alone → solo
 74. `su-his-her` · I like [his] car (one word for his, her, their, or formal your) → su
 75. `creer-think-opinion` · to think (believe something is so, as in I think so (not pensar)) → creer
-76. `en-on` · the book is [on] the table (the everyday word, not sobre) → en
+76. `en-on` · the book is [on] the table (the everyday word, not sobre) → en · *example uses words not met yet: Tu, celular, mesa*
 77. `deber-owe` · to owe → deber
 78. `ya-not-anymore` · not anymore (two words, before the verb) → ya no
 79. `hola-hello` · hello → hola
@@ -419,7 +419,7 @@ Wants no drafted card fills:
 89. `pero-but` · I want to go, [but] I can't → pero · *not in the deck: past the deck size*
 90. `si-if` · [if] you want, we go (no accent; not sí meaning yes) → si · *not in the deck: past the deck size*
 91. `sentir-be-sorry` · to be sorry (the verb in lo siento) → sentir
-92. `me-myself` · I wash [myself] (reflexive pronoun, goes before the verb) → me
+92. `me-myself` · I wash [myself] (reflexive pronoun, goes before the verb) → me · *example uses words not met yet: lavo, manos, antes, comer*
 93. `eso-that` · [that] is not true (neuter pronoun for something just said or near the person you're talking to, not far from both of you) → eso · *not in the deck: past the deck size*
 94. `mucho-a-lot` · a lot (after a verb, as in I eat a lot) → mucho
 95. `esperar-hope` · to hope → esperar
@@ -431,7 +431,7 @@ Wants no drafted card fills:
 101. `del-of-the` · the car [of the] boss (one word: de + el, before a masculine noun) → del · *not in the deck: past the deck size*
 102. `como-like` · he talks [like] his dad → como · *not in the deck: past the deck size*
 103. `al-to-the` · I'm going [to the] park (a + el, before a masculine noun) → al · *not in the deck: past the deck size*
-104. `ese-that` · I want [that] book (near you, not far away; masculine) → ese · *not in the deck: past the deck size*
+104. `ese-that` · I want [that] book (near you, not far away; masculine) → ese · *not in the deck: past the deck size; example uses words not met yet: Cuánto, cuesta, libro*
 105. `esto-this` · what is [this]? (neuter: an unnamed thing or idea, not este or esta) → esto · *not in the deck: past the deck size*
 106. `algo-something` · I want [something] to eat → algo · *not in the deck: past the deck size*
 107. `el-he` · [he] is my brother → él · *not in the deck: past the deck size*
@@ -449,16 +449,16 @@ Wants no drafted card fills:
 119. `ella-she` · [she] is my friend → ella · *not in the deck: past the deck size*
 120. `porque-because` · I'm eating [because] I'm hungry → porque · *not in the deck: past the deck size*
 121. `casa-home` · home (as in at home, go home) → la casa
-122. `nuestro-our` · [our] dog → nuestro · *not in the deck: past the deck size*
+122. `nuestro-our` · [our] dog → nuestro · *not in the deck: past the deck size; example uses words not met yet: perro, duerme, sofá*
 123. `usted-you-formal` · Are [you] the doctor? (formal, one person) → usted · *not in the deck: past the deck size*
 124. `en-at` · she is [at] home (location, not direction) → en
 125. `pasar-spend-time` · to spend (time) (time, not money) → pasar
-126. `por-by` · a book written [by] my mother → por
+126. `por-by` · a book written [by] my mother → por · *example uses words not met yet: carta, escrita, papá*
 127. `dejar-quit` · to quit (doing) (used with de plus a verb) → dejar
 128. `esperar-expect` · to expect → esperar
 129. `verdad-right-tag` · right? (at the end of a sentence) (the tag that literally means truth, not ¿no?) → ¿verdad? · *not in the deck: past the deck size*
 130. `volver-do-again` · to do again (followed by a + infinitive) → volver · *not in the deck: past the deck size*
 131. `todo-everything` · [everything] is fine → todo · *not in the deck: past the deck size*
-132. `como-as` · as tall [as] you (equal comparison, after tan) → como · *not in the deck: past the deck size*
+132. `como-as` · as tall [as] you (equal comparison, after tan) → como · *not in the deck: past the deck size; example uses words not met yet: hermano, tan, alto*
 133. `el-him` · I went with [him] (after a preposition) → él · *not in the deck: past the deck size*
 134. `nos-each-other` · we love [each other] (reflexive or reciprocal, also ourselves) → nos · *not in the deck: past the deck size*

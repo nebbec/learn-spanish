@@ -4,10 +4,17 @@
 //                    [--effort medium] [--concurrency 2] [--retries 2] [--redo]
 //   npm run draft -- --forms [--verbs ser,estar] [...]    the core verbs' form cards
 //   npm run draft -- --phrases [--units who-i-am] [...]   content/units.json's chunks and payoffs
+//   npm run draft -- --examples --ids a,b [...]           a new example for each card, nothing else
 //
 // --forms drafts one call per verb of FORM_VERBS (path-cards.ts) whose card is
 // drafted, into content/drafts/forms/<verb>.json; --phrases one call per phrase,
 // into content/drafts/phrases/<id>.json. Both resume like words do.
+//
+// --examples redrafts only the example of each card named by --ids (drafted
+// ids, or the ids npm run deck lists), one call per card, given the words met
+// before the card in the learning path's order; the known-words check (L7) is
+// its guard. A card whose example already passes is skipped unless --redo is
+// given. The card keeps a current tag; run npm run review afterwards.
 //
 // --via cli (the default) calls the Claude Code CLI on the Max plan; --via api
 // calls the API with ANTHROPIC_API_KEY. Writes content/drafts/cards/<id>.json
@@ -22,8 +29,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
+import { pathOnDisk } from "./deck-build";
 import { DraftStore, draftWords, formatSummary, parseWordList, type DraftSummary } from "./drafting";
+import { exampleJobs, redraftExamples } from "./examples";
+import { loadLemmas } from "./known-words";
 import { draftForms, draftPhrases, formJobs, phraseJobs, wordRanks } from "./path-cards";
+import { ReviewStore } from "./reviewing";
+import { TagStore } from "./tagging";
 import { readUnits } from "./units";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -40,6 +52,8 @@ const { values } = parseArgs({
     redo: { type: "boolean", default: false },
     forms: { type: "boolean", default: false },
     phrases: { type: "boolean", default: false },
+    examples: { type: "boolean", default: false },
+    ids: { type: "string" },
     verbs: { type: "string" },
     units: { type: "string" },
     list: { type: "string", default: path.join(ROOT, "content", "word-list.tsv") },
@@ -52,12 +66,14 @@ function fail(message: string): never {
   process.exit(2);
 }
 
-const mode = values.forms ? "forms" : values.phrases ? "phrases" : "words";
-if (values.forms && values.phrases) fail("Give --forms or --phrases, not both");
+const mode = values.forms ? "forms" : values.phrases ? "phrases" : values.examples ? "examples" : "words";
+if ([values.forms, values.phrases, values.examples].filter(Boolean).length > 1) {
+  fail("Give one of --forms, --phrases and --examples");
+}
 const from = Number(values.from);
 const to = Number(values.to ?? values.from);
 if (mode === "words" && (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to < from)) {
-  fail("Give a range of ranks (--from 1 --to 20), or --forms, or --phrases");
+  fail("Give a range of ranks (--from 1 --to 20), or --forms, or --phrases, or --examples --ids a,b");
 }
 const list = (value: string | undefined) => value?.split(",").map((v) => v.trim()).filter(Boolean);
 if (values.via !== "cli" && values.via !== "api") fail('--via is "cli" or "api"');
@@ -66,6 +82,8 @@ const effort = values.effort as Effort;
 const concurrency = Number(values.concurrency);
 const retries = Number(values.retries);
 if (!(concurrency >= 1) || !(retries >= 0)) fail("--concurrency must be 1 or more and --retries 0 or more");
+const ids = list(values.ids);
+if (mode === "examples" && !ids?.length) fail("Give the cards whose example to redraft: --examples --ids a,b");
 
 const wordList = parseWordList(readFileSync(values.list, "utf8"));
 const store = new DraftStore(values.dir);
@@ -84,7 +102,16 @@ const how = `via ${via}, model ${values.model}, effort ${effort}, ${concurrency}
 let summary: DraftSummary;
 let noun = "Words";
 
-if (mode === "forms") {
+if (mode === "examples") {
+  const lemmas = await loadLemmas(ROOT);
+  const build = pathOnDisk(ROOT, store, new ReviewStore(path.join(ROOT, "content", "review")), lemmas);
+  if (build.orderProblems.length) fail(`The order has ${build.orderProblems.length} problems: run npm run deck to see them`);
+  const { jobs, missing } = exampleJobs(build, store, ids!, lemmas);
+  if (missing.length) console.log(`Not in the learning path's order (not drafted, or rejected): ${missing.join(", ")}`);
+  console.log(`Redrafting the examples of ${jobs.length} cards ${how}`);
+  summary = await redraftExamples(jobs, lemmas, { ...options, tags: new TagStore(path.join(ROOT, "content", "tags")) });
+  noun = "Examples";
+} else if (mode === "forms") {
   const { jobs, missing } = formJobs(store, readUnits(ROOT), list(values.verbs));
   if (missing.length) console.log(`Not drafted, their verb's card is missing: ${missing.join(", ")}`);
   console.log(`Drafting the form cards of ${jobs.length} verbs (${jobs.reduce((n, j) => n + j.cards.length, 0)} cards) ${how}`);

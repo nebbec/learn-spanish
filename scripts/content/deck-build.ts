@@ -25,11 +25,12 @@ import { DECK_FORMAT, type Card, type Deck, type DeckTip, type DeckUnit, type Dr
 import { validateDeck, validateDraftCard } from "@/lib/deck/validate";
 import { audioPaths } from "./audio.mjs";
 import { cardFromDecision, readDecision } from "./decisions";
+import { checkExamples, type ExampleCheck, type Lemmas } from "./known-words";
 import type { DraftStore } from "./drafting";
 import { pathMarkdown, pathOrder, SIBLING_SPACING } from "./path-order";
 import { allDrafted, cardHash, idProblem, readDraftCard, type ReviewStore } from "./reviewing";
-import { tagProblems, type TagStore } from "./tagging";
-import type { TipEntry, Unit } from "./units";
+import { tagProblems, TagStore } from "./tagging";
+import { readTips, readUnits, type TipEntry, type Unit } from "./units";
 
 /** What the learning path is computed from: the unit plan, the tip list and the tag pass's tags. */
 export interface PathPlan {
@@ -71,6 +72,14 @@ export interface DeckBuild {
   orderProblems: string[];
   /** content/path.md: the computed order for a person to read (card text). Empty when the order has problems. */
   pathText: string;
+  /** Every card not rejected, in the computed order (empty when the order has problems). */
+  order: Card[];
+  /** A card's drafted id by its id in `order`, where a decision corrected it. */
+  draftIds: Map<string, string>;
+  /** The known-words check of each card in `order` (L7), when the build was given the lemma list. */
+  examples: Map<string, ExampleCheck>;
+  /** Cards in the deck whose example uses words not met before them (L7): redraft with `npm run draft -- --examples`. */
+  brokenExamples: string[];
 }
 
 /**
@@ -110,6 +119,7 @@ export function buildDeck(
     tips = [],
     plan = null,
     spacing = SIBLING_SPACING,
+    lemmas = null,
   }: {
     allowDrop?: boolean;
     takes?: Record<string, number>;
@@ -120,6 +130,8 @@ export function buildDeck(
     plan?: PathPlan | null;
     /** Sibling spacing (rule 4). */
     spacing?: number;
+    /** E1's lemma list, for the known-words check (L7). Without it no example is checked. */
+    lemmas?: Lemmas | null;
   } = {},
 ): DeckBuild {
   const build: DeckBuild = {
@@ -141,6 +153,10 @@ export function buildDeck(
     capped: [],
     orderProblems: [],
     pathText: "",
+    order: [],
+    draftIds: new Map(),
+    examples: new Map(),
+    brokenExamples: [],
   };
   /** The cards for the deck, by drafted id: an approved card may carry a corrected id. */
   const cards = new Map<string, Card>();
@@ -220,6 +236,9 @@ export function buildDeck(
     return build;
   }
   build.capped = order.capped;
+  build.order = order.cards;
+  for (const [id, card] of cards) if (card.id !== id) build.draftIds.set(card.id, id);
+  if (lemmas) build.examples = checkExamples(order.cards, lemmas);
 
   // Growth: a card once in the deck stays; the size chooses which new cards join, from the top of
   // the order. A card waiting for a decision holds its place, so approving it later pushes no card out.
@@ -265,6 +284,12 @@ export function buildDeck(
   note(build.heldBack, "its tip is not approved");
   note(build.heldForRequires, "a card it requires is not in the deck");
   note(build.beyondSize, "past the deck size");
+  build.brokenExamples = kept.filter((c) => build.examples.get(c.id)?.ok === false).map((c) => c.id);
+  for (const [id, check] of build.examples) {
+    if (check.ok) continue;
+    const words = [...check.unknown, ...check.cognates].join(", ");
+    notes.set(id, [notes.get(id), `example uses words not met yet: ${words}`].filter(Boolean).join("; "));
+  }
   build.pathText = pathMarkdown({ order, units: plan?.units ?? [], notes, matched });
 
   const validation = validateDeck(deck);
@@ -274,6 +299,16 @@ export function buildDeck(
 
   if (!build.deckProblems.length && (allowDrop || !build.dropped.length)) build.deck = deck;
   return build;
+}
+
+/**
+ * The learning path's order and known-words checks as the deck build would compute them from the files under
+ * `root` (content/units.json, content/tips.json, content/tags): for the review pass and the example redraft (L7),
+ * which need each card's place but not the deck itself.
+ */
+export function pathOnDisk(root: string, drafts: DraftStore, reviews: ReviewStore, lemmas: Lemmas): DeckBuild {
+  const plan = { units: readUnits(root), tipList: readTips(root), tags: new TagStore(path.join(root, "content", "tags")) };
+  return buildDeck(drafts, reviews, null, { plan, lemmas });
 }
 
 /** Media paths in the deck with no file under `publicDir` yet. Art comes in F2; `npm run audio` makes the clips. */

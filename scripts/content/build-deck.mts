@@ -15,6 +15,10 @@
 // deck ships). Also rewrites content/review/flagged.md, and content/path.md,
 // the computed order for a person to read.
 //
+// Checks every example against the words met before its card (L7, E1's lemma
+// list from content/.cache, downloaded once if missing) and lists by id the
+// cards in the deck whose example a reorder has broken; path.md names the words.
+//
 // Prints only card ids, field names and counts, never card text.
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
@@ -24,6 +28,7 @@ import { parseArgs } from "node:util";
 import { buildDeck, deckText, missingMedia, readDeckFile } from "./deck-build";
 import { refreshFlagged } from "./decisions";
 import { DraftStore } from "./drafting";
+import { loadLemmas } from "./known-words";
 import { SIBLING_SPACING } from "./path-order";
 import { ReviewStore } from "./reviewing";
 import { TagStore } from "./tagging";
@@ -69,6 +74,7 @@ const build = buildDeck(drafts, reviews, readDeckFile(values.out), {
   tips: tips.tips,
   plan,
   spacing,
+  lemmas: await loadLemmas(ROOT),
 });
 const rel = (file: string) => path.relative(process.cwd(), file);
 const ids = (list: string[]) => (list.length ? `: ${list.join(", ")}` : "");
@@ -97,6 +103,11 @@ if (build.heldForRequires.length) {
 if (build.notTagged.length) {
   const shown = build.notTagged.length > 20 ? ` (first 20: ${build.notTagged.slice(0, 20).join(", ")})` : ids(build.notTagged);
   console.log(`Not tagged, placed by rank in the frequency phase (npm run tag): ${build.notTagged.length}${shown}`);
+}
+if (build.brokenExamples.length) {
+  console.log(
+    `Examples using words not met yet (npm run draft -- --examples --ids …): ${build.brokenExamples.length}${ids(build.brokenExamples)}`,
+  );
 }
 if (build.capped.length) console.log(`Dropped from their unit by its cap: ${build.capped.length}${ids(build.capped)}`);
 if (flagged.reset.length) console.log(`Decision files remade for a new draft: ${flagged.reset.join(", ")}`);

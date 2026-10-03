@@ -12,14 +12,20 @@
 // content/review/usage.jsonl. Rerunning the same command resumes: a card whose
 // current draft has a review is skipped unless --redo is given.
 //
+// The known-words check (L7) runs on every card reviewed, against the learning
+// path's order as `npm run deck` computes it now (units.json and the tags), with
+// E1's lemma list from content/.cache (downloaded once if missing).
+//
 // Prints only ranks, words, card ids, check names and counts, never card text.
 
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
+import { pathOnDisk } from "./deck-build";
 import { refreshFlagged } from "./decisions";
 import { DraftStore } from "./drafting";
+import { exampleProblem, loadLemmas } from "./known-words";
 import { draftedForms, draftedPhrases, draftedWords, formatReviewSummary, reviewCards, ReviewStore } from "./reviewing";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -76,6 +82,13 @@ const what = values.forms
     ? `the phrase cards of ${words.length} units`
     : `the cards of ranks ${from} to ${to} (${words.length} drafted ${words.length === 1 ? "word" : "words"})`;
 
+const computed = pathOnDisk(ROOT, drafts, store, await loadLemmas(ROOT));
+const knownWords = new Map<string, string>();
+for (const [id, check] of computed.examples) if (!check.ok) knownWords.set(computed.draftIds.get(id) ?? id, exampleProblem(check));
+if (computed.orderProblems.length) {
+  console.log(`Known-words check not run: the order has ${computed.orderProblems.length} problems (run npm run deck to see them)`);
+}
+
 console.log(`Reviewing ${what} via ${via}, model ${values.model}, effort ${effort}, ${concurrency} at a time`);
 const summary = await reviewCards(words, {
   drafts,
@@ -87,6 +100,7 @@ const summary = await reviewCards(words, {
   concurrency,
   retries,
   redo: values.redo,
+  knownWords,
 });
 for (const line of formatReviewSummary(summary, via)) console.log(line);
 

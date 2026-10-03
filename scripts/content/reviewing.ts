@@ -26,7 +26,7 @@ import { DraftStore, formatDuration, slug, writeJson, type GroupKind } from "./d
 export const CHECKS = ["meaning", "oneAnswer", "grammar", "usage", "example", "trick"] as const;
 export type CheckName = (typeof CHECKS)[number];
 /** Why a card is flagged: one of the reviewer's checks, or one the script makes itself. */
-export type Reason = CheckName | "id" | "deck" | "words";
+export type Reason = CheckName | "id" | "deck" | "words" | "known-words";
 
 export const REASON_LABELS: Record<Reason, string> = {
   meaning: "Meaning",
@@ -38,6 +38,7 @@ export const REASON_LABELS: Record<Reason, string> = {
   id: "Card id",
   deck: "Clash with another card",
   words: "Words outside the top 1,000",
+  "known-words": "Example uses words not met yet",
 };
 
 /** Words that follow the word in an id: one to three, naming the meaning. */
@@ -294,8 +295,16 @@ export class ReviewStore {
   }
 }
 
-/** The script's own checks on one card: the id rule, and what the deck validator found among all drafts. */
-export function scriptFindings(card: DraftCard, word: DraftedWord, deckProblems: string[]): Finding[] {
+/**
+ * The script's own checks on one card: the id rule, what the deck validator found among all drafts, and the
+ * known-words check (L7): `knownWords` is the problem with the card's example, by id, as `exampleProblem` words it.
+ */
+export function scriptFindings(
+  card: DraftCard,
+  word: DraftedWord,
+  deckProblems: string[],
+  knownWords?: ReadonlyMap<string, string>,
+): Finding[] {
   const findings: Finding[] = [];
   const id = idProblem(card.id, word.word, card.rank, word.kind);
   if (id) findings.push({ reason: "id", problem: `The id ${id}.`, fix: null });
@@ -315,6 +324,10 @@ export function scriptFindings(card: DraftCard, word: DraftedWord, deckProblems:
       fix: null,
     });
   }
+  const known = knownWords?.get(card.id);
+  if (known) {
+    findings.push({ reason: "known-words", problem: known, fix: `npm run draft -- --examples --ids ${card.id}` });
+  }
   return findings;
 }
 
@@ -330,6 +343,8 @@ export interface ReviewOptions {
   retries?: number;
   /** Review cards again even if their draft has a review. */
   redo?: boolean;
+  /** The known-words check's problem with each card's example, by id (L7). Cards not in it pass the check. */
+  knownWords?: ReadonlyMap<string, string>;
   /** Stop starting calls after this many failed calls in a row. */
   stopAfter?: number;
   print?: (line: string) => void;
@@ -435,7 +450,7 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
 
       if (guarded?.ok) {
         failsInARow = 0;
-        const findings = [...guarded.answer.findings, ...scriptFindings(card, word, deckProblems)];
+        const findings = [...guarded.answer.findings, ...scriptFindings(card, word, deckProblems, options.knownWords)];
         store.save({
           id: card.id,
           // A phrase group's rank is its highest card's; each card keeps its own.
