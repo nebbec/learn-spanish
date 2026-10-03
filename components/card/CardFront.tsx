@@ -71,6 +71,8 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
         <ReverseFace card={card} />
       ) : card.kind === "glue" ? (
         <GlueFace card={card} />
+      ) : card.kind === "phrase" ? (
+        <PhraseFace card={card} />
       ) : (
         <ContentFace card={card} />
       )}
@@ -79,6 +81,7 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
   );
 }
 
+/** Content and form cards: the character over the English. A form card's character is its verb's. */
 function ContentFace({ card }: { card: Card }) {
   return (
     <>
@@ -103,6 +106,18 @@ function GlueFace({ card }: { card: Card }) {
           {target}
         </mark>
         {after}
+      </span>
+      <Hint hint={card.hint} />
+    </span>
+  );
+}
+
+/** The glue layout with nothing marked: a phrase card asks for the whole phrase, and has no character. */
+function PhraseFace({ card }: { card: Card }) {
+  return (
+    <span className="flex flex-1 flex-col items-center justify-center gap-3">
+      <span data-testid="prompt" className="font-display text-prompt font-bold">
+        {card.en}
       </span>
       <Hint hint={card.hint} />
     </span>

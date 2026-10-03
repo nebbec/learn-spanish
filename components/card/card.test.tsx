@@ -2,7 +2,7 @@
 import { act, type ReactNode } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { BatchFrame, CardFront, SWIPE_DISTANCE, splitGluePrompt } from "@/components/card";
+import { BatchFrame, CardFront, Reveal, SWIPE_DISTANCE, splitGluePrompt } from "@/components/card";
 import { fixtureCard, fixtureDeck } from "@/lib/deck/fixture";
 
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
@@ -81,6 +81,33 @@ describe("CardFront, forward", () => {
     },
   );
 
+  it.each(fixtureDeck.cards.filter((c) => c.kind === "form"))(
+    "form card $id shows the English prompt, its hint and its verb's character",
+    (card) => {
+      render(<CardFront card={card} onReveal={() => {}} />);
+      expect(front().dataset.kind).toBe("form");
+      expect(q("prompt")!.textContent).toBe(card.en);
+      expect(q("hint")?.textContent ?? null).toBe(card.hint && `(${card.hint})`);
+      expect(q("character")!.querySelector("img")!.getAttribute("src")).toBe(fixtureCard("ir-go").image);
+      expect(q("target")).toBeNull();
+      expect(front().textContent).not.toContain(card.es);
+    },
+  );
+
+  it.each(fixtureDeck.cards.filter((c) => c.kind === "phrase"))(
+    "phrase card $id shows the whole English phrase, nothing marked and no character",
+    (card) => {
+      render(<CardFront card={card} onReveal={() => {}} />);
+      expect(front().dataset.kind).toBe("phrase");
+      expect(q("prompt")!.textContent).toBe(card.en);
+      expect(q("target")).toBeNull();
+      expect(host.querySelector("mark")).toBeNull();
+      expect(q("character")).toBeNull();
+      expect(host.querySelector("img")).toBeNull();
+      expect(front().textContent).not.toContain(card.es);
+    },
+  );
+
   it("leaves the character out when its art does not load", () => {
     const card = fixtureDeck.cards.find((c) => c.kind === "content")!;
     render(<CardFront card={card} onReveal={() => {}} />);
@@ -110,6 +137,33 @@ describe("CardFront, reverse", () => {
     expect(q("target")).toBeNull();
     expect(front().dataset.direction).toBe("reverse");
   });
+});
+
+describe("Form and phrase cards, both directions", () => {
+  const pathCards = fixtureDeck.cards.filter((c) => c.kind === "form" || c.kind === "phrase");
+
+  it("the fixture has both kinds", () => {
+    expect(pathCards.map((c) => c.kind)).toEqual(expect.arrayContaining(["form", "phrase"]));
+  });
+
+  it.each(pathCards.flatMap((card) => (["forward", "reverse"] as const).map((direction) => ({ card, direction }))))(
+    "$card.id, $direction: the front asks and the reveal answers",
+    ({ card, direction }) => {
+      let revealed = false;
+      render(<CardFront card={card} direction={direction} onReveal={() => (revealed = true)} />);
+      expect(q("prompt")!.textContent).toBe(direction === "forward" ? card.en : card.es);
+      act(() => front().click());
+      expect(revealed).toBe(true);
+
+      render(<Reveal card={card} onRate={() => {}} />);
+      expect(q("answer")!.textContent).toBe(card.es);
+      expect(q("meaning")!.textContent).toContain(card.en);
+      expect(q("character")?.querySelector("img")?.getAttribute("src") ?? null).toBe(card.image);
+      expect(q("why")?.textContent ?? null).toBe(card.why);
+      if (card.kind === "form") expect(q("own-form")).not.toBeNull();
+      else expect(q("grammar")).toBeNull();
+    },
+  );
 });
 
 describe("CardFront gestures", () => {

@@ -45,6 +45,7 @@ describe("Intro, every fixture card", () => {
     render(<Intro card={fixtureCard("ir-form-tu")} onChoose={() => {}} />);
     expect(q("grammar")!.dataset.variant).toBe("verb");
     expect(text("grammar")).toContain("tú vas");
+    expect(text("own-form")).toBe("tú vas");
     expect(text("why")!.length).toBeGreaterThan(0);
   });
 

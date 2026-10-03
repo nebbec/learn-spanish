@@ -1,8 +1,9 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import { useMotion } from "@/components/motion";
 import type { Card, DeckTip } from "@/lib/deck";
+import { FORM_ID } from "@/lib/deck/validate";
 import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
@@ -54,7 +55,8 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
     >
       <div className="relative flex min-h-0 flex-1 flex-col items-center gap-3 overflow-y-auto overscroll-contain rounded-card border-2 border-line bg-surface p-5 text-center shadow-card">
         {tip && <TipButton tip={tip} onPlay={onPlay} className="absolute right-3 top-3" />}
-        <CharacterSlot image={card.image} className="max-h-36 min-h-20" move={move} />
+        {/* With a "?" in the corner, the character keeps clear of it on both sides. */}
+        <CharacterSlot image={card.image} className={`max-h-36 min-h-20 ${tip ? "px-12" : ""}`} move={move} />
 
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">
@@ -73,6 +75,8 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
         </div>
 
         <GrammarStrip card={card} />
+
+        <WhyLine card={card} />
 
         <div className="flex w-full items-start gap-2 rounded-button bg-paper p-3 text-left">
           <p className="flex flex-1 flex-col gap-0.5">
@@ -131,7 +135,34 @@ export function Meaning({ card }: { card: Card }) {
   );
 }
 
-/** Noun: gender. Adjective: both endings. Verb: three present-tense forms and the irregular flag. Nothing otherwise. */
+/** The strip's three persons, in order, with the pronoun shown before each form. */
+const PERSONS = [
+  { person: "yo", label: "yo" },
+  { person: "tu", label: "tú" },
+  { person: "el", label: "él" },
+] as const;
+
+/** The person a form card drills (`ser-form-tu` → `tu`), or null: any other card, and `haber-form-hay`, whose form is not in the strip. */
+export function formPerson(card: Card): "yo" | "tu" | "el" | null {
+  if (card.kind !== "form") return null;
+  const person = FORM_ID.exec(card.id)?.[1];
+  return person === "yo" || person === "tu" || person === "el" ? person : null;
+}
+
+/** The one-line contrast with a near neighbour ("Use estar for how or where…"), on the intro and the reveal. */
+export function WhyLine({ card }: { card: Card }) {
+  if (!card.why) return null;
+  return (
+    <p data-testid="why" className="w-full rounded-button bg-paper p-3 text-left">
+      {card.why}
+    </p>
+  );
+}
+
+/**
+ * Noun: gender. Adjective: both endings. Verb: three present-tense forms and the irregular
+ * flag; a form card's own form is highlighted. Nothing otherwise.
+ */
 export function GrammarStrip({ card }: { card: Card }) {
   if (card.pos === "noun") {
     return (
@@ -152,11 +183,23 @@ export function GrammarStrip({ card }: { card: Card }) {
     );
   }
   if (card.pos === "verb") {
-    const { yo, tu, el } = card.grammar.present;
+    const { present } = card.grammar;
+    const own = formPerson(card);
     return (
       <p data-testid="grammar" data-variant="verb" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
         <span lang="es" className="font-bold">
-          yo {yo} · tú {tu} · él {el}
+          {PERSONS.map(({ person, label }, i) => (
+            <Fragment key={person}>
+              {i > 0 && " · "}
+              {person === own ? (
+                <mark data-testid="own-form" className="rounded-chip bg-sun px-1 text-ink">
+                  {label} {present[person]}
+                </mark>
+              ) : (
+                `${label} ${present[person]}`
+              )}
+            </Fragment>
+          ))}
         </span>
         {card.grammar.irregular && (
           <span

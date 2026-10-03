@@ -318,6 +318,13 @@ Decided in L11 (steps in `lib/queues/queues.ts` and `lib/queues/tips.ts`; screen
 
 A card gets a one-line `why` only where it contrasts with a near neighbour (ser and estar, por and para, saber and conocer, pedir and preguntar): "Use estar for how or where something is right now; ser for what it is." It shows on the intro and the reveal. Null on most cards.
 
+Decided in L13 (`components/card/CardFront.tsx`, `Reveal.tsx`, `Intro.tsx`):
+
+- **A form card's front is the content layout**: its verb's character over the English prompt and hint ("I go", "you go (informal)"). Its reveal and intro show the verb's whole strip, "yo voy · tú vas · él va", with the card's own person in a `sun` highlight (`own-form`). The person comes from the id (`formPerson`); `haber-form-hay` highlights nothing, since `hay` is not in haber's strip.
+- **A phrase card's front is the glue layout with nothing marked**: the whole English phrase centred, its hint, no character and no `mark`. Its reveal and intro are the usual ones; with no image and no grammar they show no character and no strip, and the part-of-speech chip reads "phrase". Reverse is the same Spanish-first front as every card.
+- **The `why` line** (`WhyLine`) sits under the grammar strip on both the intro and the reveal, above the reveal's example, in the paper-coloured box the example uses. Nothing is shown when `why` is null.
+- **The tip's "?"** stays absolutely placed at the top right; when a card has one, the character gets side padding as wide as the button, so a wide still never runs under it.
+
 ### Intro, then test
 
 - In Learn, a new card first appears as an **intro**: the character, the Spanish with its audio playing, the English, the grammar strip, the `why` line and the tip's "?". For a later meaning, the line "You know *esperar* = to wait. It also means:" is added, worked out from a seen card of the same rank.
@@ -846,7 +853,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L10 | Intro step and the `known` rating | L2 | | Done except: push the migration and run `npm run check:rls` |
 | L11 | Tips in the app | L2, L10 | | Done |
 | L12 | Units in Learn | L2, L10 | | Done |
-| L13 | Form, phrase and contrast layouts | L2 | | Todo |
+| L13 | Form, phrase and contrast layouts | L2 | | Done |
 | L14 | Audio by itself, mute, say it out loud | none | | Todo |
 | L15 | Reset on the device | none | | Todo |
 | L16 | Reset sync | L15 | | Todo |
@@ -1169,6 +1176,8 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L13 Form, phrase and contrast layouts**
 - Build: the form card's reveal with its own form highlighted in the strip and its verb's character; the phrase card's front and reveal in the glue layout with no character; the `why` line on the intro and reveal.
 - Done when: every new fixture card renders in both directions, under test.
+- Note (L13): decisions are under [Contrast lines](#contrast-lines), "Decided in L13". `GrammarStrip` now highlights a form card's own form (`own-form`, from `formPerson` in Reveal.tsx); the front has a `PhraseFace` (glue layout, nothing marked); `WhyLine` is shared by the intro and the reveal. Tests: card.test.tsx walks every form and phrase fixture card forward and reverse through the front and the reveal; Reveal.test.tsx checks the highlight (yo, tú, él, none on a verb or hay) and the why line on every fixture card.
+- Note (L13): for later tickets. L14: "Say it out loud" goes under the forward prompt, which for a form card is `ContentFace` and for a phrase card `PhraseFace` in CardFront.tsx. L17: check the highlight and the why line on the phone with real stills; nothing else in the app treats form or phrase cards differently.
 
 **L14 Audio by itself, mute, say it out loud**
 - Build: the word clip plays when an intro or reveal opens; the mute button in `BatchFrame` and the matching settings switch, kept in `localStorage` under `learn-spanish.muted`; muting stops a playing clip; "Say it out loud" under the forward prompt of a card with a `unit`.

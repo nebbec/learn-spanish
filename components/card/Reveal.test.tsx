@@ -55,6 +55,8 @@ describe("Reveal, every fixture card", () => {
 
     const variant = q("grammar")?.dataset.variant ?? null;
     expect(variant).toBe(["noun", "adjective", "verb"].includes(card.pos) ? card.pos : null);
+
+    expect(text("why") ?? null).toBe(card.why);
   });
 
   it("has seen a Spain footnote and all three grammar variants in the fixture", () => {
@@ -88,9 +90,53 @@ describe("Reveal, grammar strip", () => {
     expect(q("irregular")).toBeNull();
   });
 
+  it("form card: the strip is its verb's, with its own form highlighted", () => {
+    render(<Reveal card={fixtureCard("ir-form-yo")} onRate={() => {}} />);
+    expect(text("grammar")).toContain("yo voy · tú vas · él va");
+    expect(q("own-form")!.tagName).toBe("MARK");
+    expect(text("own-form")).toBe("yo voy");
+    expect(host.querySelectorAll("mark")).toHaveLength(1);
+
+    render(<Reveal card={fixtureCard("ir-form-tu")} onRate={() => {}} />);
+    expect(text("own-form")).toBe("tú vas");
+
+    const el = { ...fixtureCard("ir-form-yo"), id: "ir-form-el", es: "va" };
+    render(<Reveal card={el} onRate={() => {}} />);
+    expect(text("own-form")).toBe("él va");
+  });
+
+  it("a verb card, and hay, highlight nothing", () => {
+    render(<Reveal card={fixtureCard("ir-go")} onRate={() => {}} />);
+    expect(q("own-form")).toBeNull();
+
+    const hay = { ...fixtureCard("ir-form-yo"), id: "haber-form-hay", es: "hay" };
+    render(<Reveal card={hay} onRate={() => {}} />);
+    expect(q("grammar")).not.toBeNull();
+    expect(q("own-form")).toBeNull();
+  });
+
+  it("phrase card: no strip, no character", () => {
+    render(<Reveal card={fixtureCard("phrase-going-home")} onRate={() => {}} />);
+    expect(q("grammar")).toBeNull();
+    expect(q("character")).toBeNull();
+    expect(text("pos")).toBe("phrase");
+  });
+
   it("other parts of speech have no strip", () => {
     render(<Reveal card={fixtureCard("ahora-now")} onRate={() => {}} />);
     expect(q("grammar")).toBeNull();
+  });
+});
+
+describe("Reveal, why line", () => {
+  it("shows a card's contrast line, and none on a card without one", () => {
+    const card = fixtureCard("ir-form-tu");
+    render(<Reveal card={card} onRate={() => {}} />);
+    expect(text("why")).toBe(card.why);
+    expect(card.why!.length).toBeGreaterThan(0);
+
+    render(<Reveal card={fixtureCard("ir-form-yo")} onRate={() => {}} />);
+    expect(q("why")).toBeNull();
   });
 });
 

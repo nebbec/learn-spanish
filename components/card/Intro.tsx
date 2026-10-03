@@ -5,7 +5,7 @@ import type { Card, DeckTip } from "@/lib/deck";
 import type { IntroChoice } from "@/lib/queues";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
-import { AudioButton, GrammarStrip, Meaning, playClip } from "./Reveal";
+import { AudioButton, GrammarStrip, Meaning, playClip, WhyLine } from "./Reveal";
 import { TipButton } from "./Tip";
 
 export interface IntroProps {
@@ -43,7 +43,8 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
         {tip && <TipButton tip={tip} onPlay={onPlay} className="absolute right-3 top-3" />}
         <span className="text-sm font-bold uppercase tracking-wide text-ink-soft">New card</span>
         {earlier && <EarlierLine earlier={earlier} />}
-        <CharacterSlot image={card.image} className="max-h-40 min-h-20" move="pop" />
+        {/* With a "?" in the corner, the character keeps clear of it on both sides. */}
+        <CharacterSlot image={card.image} className={`max-h-40 min-h-20 ${tip ? "px-12" : ""}`} move="pop" />
 
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">
@@ -63,11 +64,7 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
 
         <GrammarStrip card={card} />
 
-        {card.why && (
-          <p data-testid="why" className="rounded-button bg-paper p-3 text-left">
-            {card.why}
-          </p>
-        )}
+        <WhyLine card={card} />
       </div>
 
       <div role="group" aria-label="New card" className="grid grid-cols-2 gap-2">
