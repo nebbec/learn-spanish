@@ -269,6 +269,18 @@ Decided in G1 (test script `scripts/voice-test.mjs`, with its page `scripts/voic
 - **Checked by transcribing back**: the 20 tricky words (perro and pero, y, la calle, México and el examen, el pingüino, el agua and others) and 4 example sentences were generated with the voice and transcribed with `gpt-4o-transcribe`. All 24 came back as their own text; "y" came back as "I", the right sound for the word, not the letter's name. This checks intelligibility, not accent.
 - **Size**: the API's MP3s are 128 kbps, about 24 KB for a word and 53 KB for a sentence, which would make about 77 MB for 1,000 cards against the 30 to 40 MB estimate. G2 has to re-encode them smaller. There is no ffmpeg on Courtney's Mac yet.
 
+Decided in G2 (pure parts in `scripts/content/audio.mjs`, the run in `scripts/content/make-audio.mjs`, `npm run audio`):
+
+- **What is spoken**: the word clip speaks `es` as the reveal shows it (nouns with their article, adjectives in the masculine), and the sentence clip speaks `example.es`.
+- **Format: MP3, 48 kbps constant bitrate, mono, 24 kHz** (the API's own rate). Every browser plays MP3, Safari included. The script asks the API for raw samples (`response_format: "pcm"`) rather than its MP3, so the clip is encoded once, not twice.
+- **No ffmpeg.** Trimming, loudness and encoding are done in JavaScript: the MP3 encoder is `@breezystack/lamejs` (a maintained copy of lamejs, pure JavaScript, LGPL 3, used only by the script and never shipped to the app). So the script runs on any machine with Node and its steps are unit-tested.
+- **Trimmed**: the quiet before the first sound and after the last is cut, keeping 80 ms each side with a 5 ms fade. Quiet is a 10 ms window more than 35 dB under the clip's loudest.
+- **Even loudness: -18 LUFS integrated** (ITU-R BS.1770-4, measured in the script), with the sample peak kept at or under -1.5 dBFS. A clip whose peak would pass that ceiling is left quieter, not limited or compressed, and the run counts them. At -16 LUFS 7 of the fixture's 24 clips could not reach the target; at -18 none miss it.
+- **Paths carry a hash**: `/deck/audio/<id>.<word|sentence>.<hash>.mp3`, the hash taken over the text, the voice settings, the encoding settings and the take. A corrected sentence, a new voice or a re-encode gives a clip a new path, which the app needs because it never refreshes a stored file (see D2 under [Installable app](#installable-app)). `audioPaths(card, takes)` gives a card's `audio` field.
+- **Takes**: the API sometimes says a short word badly. `npm run audio -- --redo lo-him.word` asks for that clip again as take 2, recorded in `content/audio-takes.json` (committed, because the take is part of the path).
+- **Checked by transcribing back**: `--check` sends each clip to `gpt-4o-transcribe` and flags any whose transcript differs from the text, ignoring case, accents and punctuation. The flagged clips are listed in `content/.cache/audio/flagged.tsv` with what was heard, for a person to listen to. A flag is a prompt to listen, not proof of a bad clip: on one run "lo" was heard as "La." and on the next as "lo", from the same audio.
+- **Measured on the fixture's 12 cards**: 24 clips, 220 KB; on average 5.3 KB for a word and 13.0 KB for a sentence, which would make about 18 MB for 1,000 cards, under the 30 to 40 MB estimate. Measuring again on the first 100 is G3.
+
 ## Offline and sync
 
 The device is the source of truth while studying. Supabase is the backup and the way a second device catches up.
@@ -500,7 +512,7 @@ Considered and left out of the first version:
 
 ## Tickets
 
-The first slice is 29 tickets. Scale-out to 1,000 cards is 3 more, one of which is a template run nine times. Each ticket is meant for one fresh agent session that finishes without exceeding a 100k-token context window.
+The first slice is 30 tickets. Scale-out to 1,000 cards is 3 more, one of which is a template run nine times. Each ticket is meant for one fresh agent session that finishes without exceeding a 100k-token context window.
 
 ### How the tickets are sized
 
@@ -564,7 +576,8 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | F2 | Art script and first stills | F1, E4 | Contact-sheet review | Todo |
 | F3 | Hero mascot animation | F1, C6, C7 | | Todo |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
-| G2 | Audio script and first clips | G1, E4 | | Todo |
+| G2 | Audio script | G1 | | Done |
+| G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Todo |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
@@ -761,9 +774,16 @@ Scripts only. Depends on A2 and nothing else in the app.
 - Note (G1): Courtney chose OpenAI (`gpt-4o-mini-tts`, voice `coral`) without running the blind test, to revisit if it sounds bad in use. The key came from `crossfit_logger`'s `.env.local`. `npm run voice-test` makes the 24 test clips and the page in `content/.cache/voice-test` (not committed); with more provider keys it becomes the blind test. The decision and the measured clip sizes are under [Audio](#audio).
 - Note (G1): for G2: start from `PROVIDERS.openai` and `OPENAI_INSTRUCTIONS` in `scripts/voice-test.mjs`. A single word is spoken with its article as the reveal shows it, and a bare "y" was read correctly. The clips come as 128 kbps MP3 and need re-encoding to fit the estimate.
 
-**G2 Audio script and first clips**
-- Build: a script that generates the word and sentence clips for each card, evens out loudness, encodes them small and can resume. Run it for the first 100 cards.
-- Done when: all 200 clips exist and the measured total is recorded against the estimate.
+**G2 Audio script**
+- Build: a script that generates the word and sentence clips for each card, evens out loudness, encodes them small and can resume. Run it on the fixture deck. (Split from the first 100 cards' run, which is G3, so the script did not wait for E4.)
+- Done when: the fixture's 24 clips exist, play in the app and are recorded against the estimate.
+- Note (G2): `npm run audio` made the fixture's 24 clips, replacing the placeholder tones, and pointed `public/deck/deck.json` at them; `--check` flagged none. The decisions and the measured sizes are under [Audio](#audio). `scripts/content/audio.test.ts` covers the loudness measure against the BS.1770 reference (a full-scale 1 kHz sine reads -3.01 LUFS), the trimming, the peak ceiling, the MP3's size and the paths. Nobody has listened to the clips yet; open a reveal in `npm run dev` and press the two audio buttons.
+- Note (G2): a run is safe to repeat: a clip whose file exists is skipped, and the API's raw answers are kept in `content/.cache/audio/raw`, so a change to `ENCODING` re-encodes without calling the API. One API answer for the lone word "se" was 0.3 s of silence; the script now asks again, up to three times, and never caches a silent answer. `--prune` deletes clips the app's deck no longer names; `make-fixture-media.mjs` now writes tones only for a card whose clips are still `.wav`.
+- Note (G2): for E3: when the deck build writes a card, set `audio` to `audioPaths(card, takes)` from `scripts/content/audio.mjs`, with `takes` read from `content/audio-takes.json` (an empty object when the file is missing). Then a rebuilt deck names the clips the audio script makes, and a card whose text has not changed keeps its clips. `npm run audio` also repoints a deck itself, but only for cards whose clips it has made.
+
+**G3 First 100 cards' clips**
+- Do: run `npm run audio -- --check --prune` on the 100-card deck from E4. A person listens to the flagged clips and redoes any bad one with `--redo`. Commit the clips.
+- Done when: all 200 clips exist, nothing flagged is left unheard, and the measured total is recorded against the estimate under [Audio](#audio).
 
 ### Track H: acceptance
 

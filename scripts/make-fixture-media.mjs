@@ -1,7 +1,8 @@
-// Writes placeholder art and audio for every card in public/deck/deck.json:
-// an SVG showing the English prompt, and two short tones (word, sentence).
+// Writes placeholder art for every card in public/deck/deck.json: an SVG
+// showing the English prompt. A card whose clips are still .wav also gets two
+// short tones (word, sentence); `npm run audio` replaces them with real clips.
 // Run with: node scripts/make-fixture-media.mjs
-// Prints counts only. F2 and G2 replace these files with real stills and clips.
+// Prints counts only. F2 replaces the SVGs with real stills.
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -68,6 +69,7 @@ deck.cards.forEach((card, index) => {
     write(card.image, placeholderSvg(card, index));
     images++;
   }
+  if (!card.audio.word.endsWith(".wav")) return;
   write(card.audio.word, toneWav(0.3, 660));
   write(card.audio.sentence, toneWav(0.9, 440));
   clips += 2;

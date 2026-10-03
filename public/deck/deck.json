@@ -14,7 +14,7 @@
       "spain": null,
       "trick": "DE sounds like the start of \"DEscended from\": the house descended from, or of, Maria.",
       "image": null,
-      "audio": { "word": "/deck/audio/de-of.word.wav", "sentence": "/deck/audio/de-of.sentence.wav" }
+      "audio": { "word": "/deck/audio/de-of.word.d852311f.mp3", "sentence": "/deck/audio/de-of.sentence.42e517df.mp3" }
     },
     {
       "id": "se-impersonal",
@@ -29,7 +29,7 @@
       "spain": null,
       "trick": "SE sounds like \"they SAY\": they say Spanish is spoken here, and nobody knows who \"they\" are.",
       "image": null,
-      "audio": { "word": "/deck/audio/se-impersonal.word.wav", "sentence": "/deck/audio/se-impersonal.sentence.wav" }
+      "audio": { "word": "/deck/audio/se-impersonal.word.379ec9c0.mp3", "sentence": "/deck/audio/se-impersonal.sentence.b7b6871c.mp3" }
     },
     {
       "id": "lo-him",
@@ -44,7 +44,7 @@
       "spain": null,
       "trick": "LO sounds like \"LOW\": I see him lying low.",
       "image": null,
-      "audio": { "word": "/deck/audio/lo-him.word.wav", "sentence": "/deck/audio/lo-him.sentence.wav" }
+      "audio": { "word": "/deck/audio/lo-him.word.0f327322.mp3", "sentence": "/deck/audio/lo-him.sentence.809c1ac5.mp3" }
     },
     {
       "id": "ir-go",
@@ -59,7 +59,7 @@
       "spain": null,
       "trick": "IR sounds like \"EAR\": you go wherever your ear hears music.",
       "image": "/deck/img/ir-go.svg",
-      "audio": { "word": "/deck/audio/ir-go.word.wav", "sentence": "/deck/audio/ir-go.sentence.wav" }
+      "audio": { "word": "/deck/audio/ir-go.word.99cff4b3.mp3", "sentence": "/deck/audio/ir-go.sentence.0ae2aaec.mp3" }
     },
     {
       "id": "bueno-good",
@@ -74,7 +74,7 @@
       "spain": null,
       "trick": "BUENO sounds like \"BWAY-no\": a Broadway show so good nobody says no.",
       "image": "/deck/img/bueno-good.svg",
-      "audio": { "word": "/deck/audio/bueno-good.word.wav", "sentence": "/deck/audio/bueno-good.sentence.wav" }
+      "audio": { "word": "/deck/audio/bueno-good.word.98cd593f.mp3", "sentence": "/deck/audio/bueno-good.sentence.94fa37a1.mp3" }
     },
     {
       "id": "ahora-now",
@@ -89,7 +89,7 @@
       "spain": null,
       "trick": "AHORA sounds like \"a-ORA\": an hour is too long, I want it now.",
       "image": "/deck/img/ahora-now.svg",
-      "audio": { "word": "/deck/audio/ahora-now.word.wav", "sentence": "/deck/audio/ahora-now.sentence.wav" }
+      "audio": { "word": "/deck/audio/ahora-now.word.8aa40213.mp3", "sentence": "/deck/audio/ahora-now.sentence.8c0e9074.mp3" }
     },
     {
       "id": "tiempo-time",
@@ -104,7 +104,7 @@
       "spain": null,
       "trick": "TIEMPO sounds like \"TEMPO\": the tempo of a song keeps the time.",
       "image": "/deck/img/tiempo-time.svg",
-      "audio": { "word": "/deck/audio/tiempo-time.word.wav", "sentence": "/deck/audio/tiempo-time.sentence.wav" }
+      "audio": { "word": "/deck/audio/tiempo-time.word.902c497c.mp3", "sentence": "/deck/audio/tiempo-time.sentence.18e60d33.mp3" }
     },
     {
       "id": "tiempo-weather",
@@ -119,7 +119,7 @@
       "spain": null,
       "trick": "TIEMPO sounds like \"TEMPerature\": the temperature tells you the weather.",
       "image": "/deck/img/tiempo-weather.svg",
-      "audio": { "word": "/deck/audio/tiempo-weather.word.wav", "sentence": "/deck/audio/tiempo-weather.sentence.wav" }
+      "audio": { "word": "/deck/audio/tiempo-weather.word.902c497c.mp3", "sentence": "/deck/audio/tiempo-weather.sentence.83404027.mp3" }
     },
     {
       "id": "casa-house",
@@ -134,7 +134,7 @@
       "spain": null,
       "trick": "CASA sounds like \"CASAnova\": Casanova invites everyone to his house.",
       "image": "/deck/img/casa-house.svg",
-      "audio": { "word": "/deck/audio/casa-house.word.wav", "sentence": "/deck/audio/casa-house.sentence.wav" }
+      "audio": { "word": "/deck/audio/casa-house.word.ad730258.mp3", "sentence": "/deck/audio/casa-house.sentence.44f90170.mp3" }
     },
     {
       "id": "hablar-speak",
@@ -149,7 +149,7 @@
       "spain": null,
       "trick": "HABLAR sounds like \"a BLAH\": blah blah blah is what speaking sounds like.",
       "image": "/deck/img/hablar-speak.svg",
-      "audio": { "word": "/deck/audio/hablar-speak.word.wav", "sentence": "/deck/audio/hablar-speak.sentence.wav" }
+      "audio": { "word": "/deck/audio/hablar-speak.word.0e822159.mp3", "sentence": "/deck/audio/hablar-speak.sentence.ee85ca84.mp3" }
     },
     {
       "id": "problema-problem",
@@ -164,7 +164,7 @@
       "spain": null,
       "trick": "The problem with PROBLEMA: it ends in -a but takes EL. \"EL problema is a HE-problem.\"",
       "image": "/deck/img/problema-problem.svg",
-      "audio": { "word": "/deck/audio/problema-problem.word.wav", "sentence": "/deck/audio/problema-problem.sentence.wav" }
+      "audio": { "word": "/deck/audio/problema-problem.word.be8b626f.mp3", "sentence": "/deck/audio/problema-problem.sentence.cae49d09.mp3" }
     },
     {
       "id": "carro-car",
@@ -179,7 +179,7 @@
       "spain": "el coche",
       "trick": "CARRO sounds like \"CAR-oh\": \"Car! Oh, what a nice car.\"",
       "image": "/deck/img/carro-car.svg",
-      "audio": { "word": "/deck/audio/carro-car.word.wav", "sentence": "/deck/audio/carro-car.sentence.wav" }
+      "audio": { "word": "/deck/audio/carro-car.word.9cdbcc21.mp3", "sentence": "/deck/audio/carro-car.sentence.360fcd9a.mp3" }
     }
   ]
 }

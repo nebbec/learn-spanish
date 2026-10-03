@@ -15,6 +15,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { OPENAI_INSTRUCTIONS } from "./content/audio.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "content", ".cache", "voice-test");
@@ -48,8 +49,6 @@ export const ITEMS = [
   ["Quiero un jugo de naranja, por favor.", "linking between words"],
 ].map(([text, tests], i) => ({ n: i + 1, text, tests }));
 
-const OPENAI_INSTRUCTIONS =
-  "Habla en español latinoamericano neutro, con acento mexicano. Pronuncia con claridad y a ritmo natural, como una profesora que lee una tarjeta de vocabulario.";
 
 const PROVIDERS = {
   azure: {
