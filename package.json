@@ -17,6 +17,7 @@
     "review": "tsx scripts/content/review.mts",
     "deck": "tsx scripts/content/build-deck.mts",
     "tips": "tsx scripts/content/draft-tips.mts",
+    "tag": "tsx scripts/content/tag.mts",
     "voice-test": "node --env-file-if-exists=.env.local scripts/voice-test.mjs",
     "audio": "node --env-file-if-exists=.env.local scripts/content/make-audio.mjs"
   },

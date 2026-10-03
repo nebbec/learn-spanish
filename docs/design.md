@@ -235,6 +235,15 @@ Decided in L1 (checks in `scripts/content/units.ts`, test in `scripts/content/un
 
 **Each card carries tags**, set by a tag pass and checked by script: `unit` (a unit id or null), `requires` (card ids) and `tip` (a tip id or null).
 
+Decided in L5 (logic in `scripts/content/tagging.ts`, run as `npm run tag` from `scripts/content/tag.mts`):
+
+- **One call per drafted group, through the draft pass's caller and runner** (`runDraftTasks`): a word's cards, a verb's form cards, or a unit's phrase cards (the groups of `allDrafted`, so 18 phrase calls, not 52). Same CLI default, `--via api` switch, model, effort, concurrency, retries and stop rule. `--from` and `--to` keep the groups whose rank is in range (a phrase group's rank is its highest phrase's); with neither, every group. `--check` only checks the stored tags. Each call's usage goes to `content/tags/usage.jsonl`; a refused answer to `content/tags/.failed/` (ignored by git).
+- **What Claude is given**: the unit plan in order (id, title, goal, tip, cap, wants, payoff lines), the tip list (id, title, `about`), then every drafted card as `id | prompt (hint) | answer` (the answer added to the ticket's ids and prompts, so a payoff's `estoy` can be matched to its form card), all identical in every call so the prefix caches; last, the group's cards in full without media paths, and for a phrase card whether it is a survival chunk or a payoff and its `words` from the draft pass. The system prompt says how to choose each field: a unit only for a card whose word and meaning one of the unit's wants names (the earliest such unit), a form card requires its pronoun card, a payoff phrase its words' cards (form cards for core-verb forms), a survival chunk nothing, word cards rarely anything, and a tip on the cards that first need its idea, at least one in the unit that introduces it.
+- **A tag is `{ id, unit, want, requires, tip }`**: `want` (new, not in the ticket) is the unit's want the card fills, copied exactly, or null. It is what L6 needs to list the wants no drafted card matches. A phrase card's `unit` and `want` are not Claude's: the script takes the unit from its phrase file and the want from its plan line (the chunk's `phrase: …` want, null for a payoff).
+- **Files**: `content/tags/<id>.json`, one per card, holding the tag, `draft` (the card's `cardHash`, as a review does), the group's label, model, effort, path and time. Committed, like the reviews. **A group is tagged again** when any of its cards has no tag, a tag for an earlier draft, or a tag the checks refuse; `--redo` tags it again anyway. A run deletes the tags of cards no longer drafted and prints their ids.
+- **Script checks**, as the guard on Claude's answer (a refused answer is asked again) and again on every stored tag (`checkTags`, printed by id after every run): the answer names each card of the group once and no other; every `requires` id is a drafted card, not the card itself, and not listed twice; `unit` is in `units.json`, `tip` in `tips.json`; a `want` needs a unit and must be one of its wants. Cycles in `requires`, and a unit card requiring a later card, are left to L6's build.
+- **No pass writes `why`** yet: the tag pass returns only the three tags of the ticket and `want`.
+
 **The rules, applied by the deck build:**
 
 1. Units come in `units.json` order. Within a unit: `requires` order first, then non-phrase cards before phrase cards, then rank.
@@ -768,7 +777,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L2 | Deck format v2 | L0 | | Done |
 | L3 | Form and phrase cards in the pipeline | L2 | | Done |
 | L4 | Tips in the pipeline | L1, L2 | | Done |
-| L5 | Tag pass | L1, L3 | | Todo |
+| L5 | Tag pass | L1, L3 | | Done |
 | L6 | Ordering build | L2, L5 | | Todo |
 | L7 | Known-words check and example redraft | L6 | | Todo |
 | L8 | Audio for form cards, phrase cards and tips | L2 | | Todo |
@@ -1047,6 +1056,9 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 **L5 Tag pass**
 - Build: `npm run tag`: one Claude call per word, given `units.json`, the word's cards and the ids and prompts of every drafted card, returning `unit`, `requires` and `tip` for each card, written to `content/tags/<id>.json`. Script checks: every id exists, no card requires itself, unit and tip ids exist. Rerun resumes; `--redo` retags.
 - Done when: a run against the fake runner writes tags and the checks reject bad ones, under test.
+- Note (L5): done. `scripts/content/tagging.test.ts` tags eight made-up drafted cards (four words, a form card, a chunk and a payoff phrase) in six calls with a fake runner, checks the prompt (the same plan, tips and card list first in every call, the group's cards without media, the phrase cards' places), the tag files and usage log, resuming with no calls, `--redo`, retagging only a redrafted card's group, a refused answer asked again and kept aside, and the guard and stored-tag checks rejecting a missing, extra or repeated card, an unknown required id, a card requiring itself or one card twice, an unknown unit or tip and a wrong want; a tag for a card no longer drafted is named and deleted. It also builds the groups and prompt from the committed drafts and plan. `npm test` (545), `npm run lint`, `npm run typecheck` and `npm run build` pass. `npm run tag -- --check` on the real drafts: 134 cards in 90 groups, none tagged. The decisions are under [Learning path](#learning-path), "Decided in L5".
+- Note (L5): nothing was tagged for real, and Claude was not called. A call's request is about 21,000 characters on today's 134 drafted cards; the card list grows with the deck. For L9: tag after the form cards, phrases and missing `wants` are drafted (`npm run tag`, about 90 word calls plus 11 verb and 18 unit calls), since every new card changes the card list Claude sees but not other cards' tags; a card drafted after tagging is tagged by the next run and its group's other cards keep their tags.
+- Note (L5): for L6: read the tags with `TagStore` (`read(id)`) and `checkTags`; tags are keyed by draft id, so a card whose id was corrected in its decision file needs its draft id to find its tag. `want` gives the matched wants for `path.md`'s unmatched list. `requires` may name a card that is not in the deck (waiting, rejected or past the size): rule 5 holds such a card back. No pass writes `why`; L6 or L9 needs to decide where it comes from (a field in the tag pass would be the smallest change).
 
 **L6 Ordering build**
 - Build: the rules under "Order is computed, not hand-written" in `deck-build.ts`: units, caps, `requires`, the frequency phase's interleave, sibling spacing, held-back cards, growth that never drops a shipped id, and `content/path.md` with its list of unmatched `wants`. Change `learnQueue` in `lib/queues` to unseen cards in deck order, and move B3's interleave tests to the build.
