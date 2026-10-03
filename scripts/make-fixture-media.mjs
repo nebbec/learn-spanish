@@ -1,4 +1,4 @@
-// Writes placeholder art for every card in public/deck/deck.json: an SVG
+// Writes placeholder art for every card in the fixture deck (lib/deck/fixture.json): an SVG
 // showing the English prompt. A card whose clips are still .wav also gets two
 // short tones (word, sentence); `npm run audio` replaces them with real clips.
 // Run with: node scripts/make-fixture-media.mjs
@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const publicDir = join(dirname(fileURLToPath(import.meta.url)), "..", "public");
-const deck = JSON.parse(readFileSync(join(publicDir, "deck", "deck.json"), "utf8"));
+const deck = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), "..", "lib", "deck", "fixture.json"), "utf8"));
 
 const COLOURS = ["#ffd166", "#06d6a0", "#8ecae6", "#f4a261", "#cdb4db", "#ffafcc"];
 

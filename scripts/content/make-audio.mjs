@@ -9,7 +9,7 @@
 //                                       (with any word clip over twice the median word's length)
 //   npm run audio -- --redo ID.CLIP,... speak these clips again (e.g. lo-him.word), as a new take
 //   npm run audio -- --prune            delete clips in public/deck/audio that neither the app's
-//                                       deck nor content/deck.json names
+//                                       deck, content/deck.json nor the test fixture names
 //
 // A clip whose file exists is not made again, so a failed run resumes where it
 // stopped. The speech API's raw answers are kept in content/.cache/audio (not
@@ -41,7 +41,8 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..")
 const PUBLIC = path.join(ROOT, "public");
 const CACHE = path.join(ROOT, "content", ".cache", "audio");
 const TAKES = path.join(ROOT, "content", "audio-takes.json");
-const DECKS = [path.join(PUBLIC, "deck", "deck.json"), path.join(ROOT, "content", "deck.json")];
+// The fixture (tests) keeps its clips too, though the app no longer serves it.
+const DECKS = [path.join(PUBLIC, "deck", "deck.json"), path.join(ROOT, "content", "deck.json"), path.join(ROOT, "lib", "deck", "fixture.json")];
 const PAGE = path.join(ROOT, "content", "flagged-clips.html");
 const PAGE_TEMPLATE = path.join(ROOT, "scripts", "content", "flagged-clips.html");
 const CLIPS = ["word", "sentence"];

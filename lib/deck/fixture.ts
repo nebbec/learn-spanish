@@ -1,8 +1,8 @@
-// The 12-card fixture deck, for tests and for building screens before the
-// content pipeline exists. It is the same file the app serves at DECK_URL
-// until H1 replaces it with the real deck.
+// The 12-card fixture deck, for tests. The app served it at DECK_URL until
+// 2026-10-03, when the real deck took its place; its art and clips stay in
+// public/deck.
 
-import raw from "@/public/deck/deck.json";
+import raw from "./fixture.json";
 import { indexDeck, type LoadedDeck } from "./load";
 import { parseDeck } from "./validate";
 

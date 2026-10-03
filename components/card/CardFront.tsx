@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, type PointerEvent } from "react";
+import { useRef, useState, type PointerEvent } from "react";
 import { useMotion, type Move } from "@/components/motion";
 import type { Card } from "@/lib/deck";
 import type { Direction } from "@/lib/store";
@@ -134,7 +134,8 @@ function Hint({ hint }: { hint: string | null }) {
  * Where a content card's character goes. A plain `<img>`: deck art is a static
  * file the service worker caches, and the Next image optimiser needs a server.
  * `move` is the move the character plays; changing it plays the new one. It is
- * dropped when motion is reduced.
+ * dropped when motion is reduced. Art that fails to load leaves the slot out, so
+ * a card whose still is not made yet (F2) shows no broken image.
  */
 export function CharacterSlot({
   image,
@@ -146,7 +147,8 @@ export function CharacterSlot({
   move?: Move;
 }) {
   const motion = useMotion();
-  if (!image) return null;
+  const [failed, setFailed] = useState<string | null>(null);
+  if (!image || failed === image) return null;
   return (
     <span
       data-testid="character"
@@ -154,7 +156,13 @@ export function CharacterSlot({
       className={`flex min-h-0 w-full flex-1 items-center justify-center ${className}`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={image} alt="" draggable={false} className="max-h-full max-w-full object-contain" />
+      <img
+        src={image}
+        alt=""
+        draggable={false}
+        onError={() => setFailed(image)}
+        className="max-h-full max-w-full object-contain"
+      />
     </span>
   );
 }

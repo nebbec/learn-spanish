@@ -1,7 +1,7 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
-import raw from "@/public/deck/deck.json";
+import raw from "./fixture.json";
 import { fixtureCard, fixtureDeck } from "./fixture";
 import { clearDeckCache, fetchDeck, loadDeck } from "./load";
 import { DeckError, parseDeck, validateCard, validateDeck } from "./validate";

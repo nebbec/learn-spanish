@@ -81,6 +81,16 @@ describe("CardFront, forward", () => {
     },
   );
 
+  it("leaves the character out when its art does not load", () => {
+    const card = fixtureDeck.cards.find((c) => c.kind === "content")!;
+    render(<CardFront card={card} onReveal={() => {}} />);
+    act(() => {
+      q("character")!.querySelector("img")!.dispatchEvent(new Event("error"));
+    });
+    expect(q("character")).toBeNull();
+    expect(front().textContent).toContain(card.en);
+  });
+
   it("tells the two meanings of el tiempo apart", () => {
     render(<CardFront card={fixtureCard("tiempo-time")} onReveal={() => {}} />);
     const time = front().textContent;
