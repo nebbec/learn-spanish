@@ -907,6 +907,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L16 | Reset sync | L15 | | Done |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done except: deploy, Start over and study unit 1 on the phone |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
+| M1 | Archive finished tickets' notes | none | | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
@@ -1262,6 +1263,13 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Do: copy `content/deck.json` to `public/deck/deck.json`; Courtney presses Start over and studies unit 1 from zero on the phone; fix small problems and write a ticket for anything larger.
 - Done when: unit 1 is studied from zero on the phone with intros, its tip, its form cards and its payoff screen, offline.
 - Note (L17): `content/deck.json` (version 8) copied to `public/deck/deck.json` on 2026-10-04; `npm test` (693), `npm run lint` and `npm run build` pass, and the build serves `/tips`. The migrations it needs are on the server (L10, L16). Left for Courtney: deploy, press Start over in settings, and study unit 1 from zero on the phone, offline too. Anything that feels wrong in use becomes a tweak to `content/units.json`, a tip or a card, or a new ticket.
+
+### Track M: maintenance
+
+**M1 Archive finished tickets' notes**
+- Do: this doc has grown to about 190 KB (roughly 50k tokens), against the "about 8k" its sizing table assumes, so every ticket session starts heavy. Move the "Note (…):" lines of every ticket whose Status is Done into `docs/history.md`, under the same track and ticket headings, word for word. In this doc each Done ticket keeps its Build or Do line and its Done when line, plus one line linking to its notes in history.md. Keep every "Decided in …" block (they are the agreed design), the board, open tickets' notes (F2, F3, H1, L17, S1 to S4) and the Learning path section as they are. Update the sizing table's estimate for this doc, and point CLAUDE.md and `docs/ticket-loop.md` at history.md for anyone who needs a finished ticket's notes.
+- Done when: a script, run once and described in the ticket's note, shows every line removed from this doc appears in history.md; links inside both docs resolve; and this doc's size is recorded before and after.
+- Note (M1): added 2026-10-04 at Courtney's request, after track L's builders started at 100k to 200k tokens of context, mostly this doc.
 
 ### Track H: acceptance
 
