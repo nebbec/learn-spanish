@@ -2,6 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import type { ExtrasStore } from "@/components/card";
+import { Mascot } from "@/components/motion";
 import type { Card, DeckTip, DeckUnit } from "@/lib/deck";
 import {
   DEFAULT_BATCH_SIZE,
@@ -76,7 +77,10 @@ export function LearnSession({
   if (round.batch.length === 0) {
     return (
       <main data-testid="learn-empty" className="mx-auto flex min-h-dvh max-w-md flex-col justify-center gap-4 p-6">
-        <div className="rounded-card border-2 border-line bg-surface p-8 text-center shadow-card">
+        <div className="flex flex-col items-center rounded-card border-2 border-line bg-surface p-8 text-center shadow-card">
+          <div data-testid="mascot-slot" aria-hidden="true" className="mb-5 size-28 shrink-0">
+            <Mascot pose="still" />
+          </div>
           <h1 className="font-display text-prompt font-bold">Nothing new to learn</h1>
           <p className="mt-2 text-lg text-ink-soft">You have seen every card. Practice keeps them fresh.</p>
         </div>

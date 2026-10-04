@@ -531,7 +531,7 @@ Decided in F1 (style reference, prompt template and cast in `content/art`, rules
 - **Six stills per render.** Generate a 3 by 2 sheet of six cards' poses and cut it apart, which costs a sixth of one render per still and keeps neighbouring stills on-model. Whether six different words stay on-model on one sheet is F2's first check; the fallback is one still per render at five times the cost.
 - **Model: Seedream 5.0 Flash**, 0.5 credits per render at any resolution. GPT Image 2.5 needs a paid plan. Scripted batches run on credits, not the Plus plan's Unlimited models, because Higgsfield's fair-use terms forbid automation and review Unlimited usage.
 - **Estimates, from F1's renders**: about 10 credits for the first slice's roughly 67 stills and 100 to 130 for the full deck, both with a third redone. A clay still of the front view is about 14 KB at 512 px wide and 18 KB at 640 px as WebP, well under the 40 KB per image above; F2 measures the real average.
-- **Hero mascot**: idle loop on the menu; celebration loop on the batch-end screen and the caught-up marker; a still pose on the empty screens ("Nothing new to learn", "Nothing to practise yet"), which have no celebration. Clay cannot be drawn as vector animation (Lottie, Rive), so the loops are short video clips generated from the concha's model sheet, with the same first and last frame so they loop cleanly, rendered on the paper colour (`#fff8ec`) instead of transparent, since transparent video plays differently in Safari and Chrome. With reduced motion on, a still from the clip shows instead. F3 settles the file format and the size.
+- **Hero mascot**: idle loop on the menu; celebration loop on the batch-end screen and the caught-up marker; a still pose on the empty screens ("Nothing new to learn", "Nothing to practise yet"), which have no celebration. Clay cannot be drawn as vector animation (Lottie, Rive), so the loops are short video clips generated from the concha's model sheet, with the same first and last frame so they loop cleanly, rendered on the paper colour (`#fff8ec`) instead of transparent, since transparent video plays differently in Safari and Chrome. With reduced motion on, a still from the clip shows instead. F3 settles the file format and the size (see "Decided in F3" below).
 
 Decided in F2 (`npm run art`, script in `scripts/content/make-art.mts` with logic in `art.ts`, `art-images.ts` and `art-run.ts`; files in `content/art`):
 
@@ -543,6 +543,17 @@ Decided in F2 (`npm run art`, script in `scripts/content/make-art.mts` with logi
 - **Still format: 512 by 512 WebP**, transparent, quality 82, the character trimmed and fitted with a 4% margin. **Measured average: 32.6 KB over the 36 stills**, under the 40 KB estimate (F1's 14 KB was an opaque front view with no props); the full deck at that rate is about 29 MB.
 - **Review in `content/art/review.tsv`**, one row per take: Courtney writes `ok` or `redo` after looking at the contact sheets in `content/art/contact/` (`npm run art -- contact`, takes waiting for a verdict, twelve a page, each on white with a cream strip to show halos). A still with every take marked redo is rendered again by `npm run art -- render`, with the character and pose from `cast.tsv`. `npm run art -- publish` copies each still's ok take to its image path under `public/`.
 - **What is kept**: the cut takes in `content/art/stills/` (`<still>.t<take>.webp`), the contact sheets, `sheets.json` (each sheet's panels and Higgsfield job ids and result URLs). The raw and background-removed sheets go to `content/.cache/art/` (ignored by git) and are downloaded again from the job URLs when missing.
+
+Decided in F3 (`npm run mascot`, script in `scripts/content/make-mascot.mjs` with logic in `mascot.mjs`; takes in `content/art/mascot`; component `Mascot` in `components/motion`):
+
+- **Format: MP4 (H.264, Main profile, no sound), 480 by 480, about 4 seconds at 24 fps, CRF 27, with a WebP poster of its first frame.** H.264 plays everywhere the app runs, including iPhone Safari, without a second WebM copy. 480 px is three times the largest slot (160 px). The idle loop is 102 KB and the celebration 141 KB; posters about 8 KB each.
+- **Played as `<video autoplay loop muted playsinline>`**, with the poster as the first thing drawn. With reduced motion on, the poster shows instead of the video. On the empty screens ("Nothing new to learn", "Nothing to practise yet") a transparent still of the concha's front view (`public/mascot/concha.webp`, 512 px WebP, like the card stills) shows instead.
+- **A soft disc instead of an exact colour match.** The video models drift the cream (#fff8ec in, about #f3eee4 out, with a slight vignette), so the script scales each channel to bring the background back to the paper colour, and the page fades the clip's edge in a disc (`.mascot-disc` in `app/globals.css`, a radial mask fading from 80% of the radius). The clip sits on the menu's paper and on the white batch-end card alike.
+- **Loops**: generated from one start frame, the concha's front view with the background removed (`content/art/cast/concha-cutout.webp`, Higgsfield `image_background_remover`, 1 credit) centred on a 1024 px square of #fff8ec with headroom for jumps, passed as both the start and the end image so the clip loops. The script drops the last frame, which repeats the first. Models: **Seedance 1.5 Pro** (`seedance1_5`, 480p, 4 s, 1:1, no audio) for the idle loop and **Seedance 2.0 fast** (`seedance_2_0 --mode fast`, same settings) for the celebration, which kept her on-model through two hops and a twirl where 1.5 Pro let the crust melt into a bob. Credits, not Unlimited.
+- **Sizes on screen**: menu header 96 px (was a 48 px dot), batch end and caught-up marker 144 px, empty screens 112 px. The batch end's CSS bounce is gone: the celebration loop is the celebration; the slot keeps `data-move="celebrate"` as the mark that it plays.
+- **Offline**: the service worker stores the five mascot files with the pages on install (an install fails without them) and answers byte-range requests for them from the store, as it does for audio, since Safari asks for video in ranges.
+- **Icons**: the concha's cutout on the paper colour, inside the middle 56% so her corners stay in a maskable icon's safe circle (`scripts/make-icons.mjs`, now with sharp). The manifest's `ICON_VERSION` is 2.
+- **Takes**: `content/art/mascot/takes.json` lists every take (model, prompt, job id, URL) and which idle and celebration take the app uses; `content/art/mascot/takes.html` (opened from disk) plays each one on the paper and on white. To switch, change `use` and run `npm run mascot`.
 
 ## Audio
 
@@ -605,7 +616,7 @@ Decided in D1 (worker in `public/sw.js`, manifest in `app/manifest.ts`, prompt i
 - **Next's in-app navigation requests are left to the network.** With no connection they fail, Next loads the page in full instead, and the worker serves that.
 - **Art and audio are read from any cache but not stored by this worker**; storing them is D2. On activation the worker deletes only caches whose name starts `learn-spanish-shell-`.
 - **Install prompt**: a card at the top of the menu. On an iPhone or iPad it gives the Share, then Add to Home Screen steps and says why. Elsewhere it shows an Install button once the browser offers one (`beforeinstallprompt`). It is not shown in the installed app, and a dismissal is remembered in `localStorage` under `learn-spanish.install-dismissed`.
-- **Icons** are placeholders drawn by `scripts/make-icons.mjs` (a small wheel on the brand purple) until the mascot exists.
+- **Icons** were placeholders drawn by `scripts/make-icons.mjs` (a small wheel on the brand purple) until the mascot existed; since F3 they are the concha on the paper colour (see "Decided in F3" under [Art](#art)).
 
 Decided in D2 (logic in `lib/media`, trigger in `components/pwa/KeepMedia.tsx`, button in `components/settings`):
 
@@ -809,7 +820,7 @@ These were proposed during the interview and not explicitly confirmed. Change th
 Each is settled by the ticket named (see [Tickets](#tickets)).
 
 - **Art style and mascot identity** (F1): settled, clay toy, the concha as lead mascot and a cast of five on the cards. See [Art](#art).
-- **Mascot animation format** (F3).
+- **Mascot animation format** (F3): settled, looping H.264 MP4 clips on the paper colour with a WebP poster. See [Art](#art).
 - **Speech provider** (G1): settled, OpenAI `gpt-4o-mini-tts` with the voice `coral`. See [Audio](#audio).
 - **Service worker library** (D1): settled, none. See [Stack](#stack).
 - **Word list source and lemmatizing method** (E1): settled, OpenSubtitles through FrequencyWords, lemmatized with lemmatization-lists and a Hunspell dictionary. See [Content pipeline](#content-pipeline).
@@ -897,7 +908,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | E4 | First 100 cards | E3 | Flagged-card review | Done |
 | F1 | Art style and mascot design | none | Style choice | Done |
 | F2 | Art script and first stills | F1, L9 | Contact-sheet review | Done except: Courtney reviews the contact sheets |
-| F3 | Hero mascot animation | F1, C6, C7 | | Todo |
+| F3 | Hero mascot animation | F1, C6, C7 | | Done except: Courtney picks or approves the loops (`content/art/mascot/takes.html`) |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
 | G2 | Audio script | G1 | | Done |
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
@@ -1079,6 +1090,10 @@ Scripts only. Depends on A2 and nothing else in the app.
 **F3 Hero mascot animation**
 - Build: choose the animation format and record it under [Art](#art). Produce an idle loop and a celebration loop from the concha's model sheet (`content/art/cast/concha-sheet.webp`), following the hero mascot rules under [Art](#art). Place the idle loop on the menu and the celebration loop on the caught-up marker and the batch-end screen, and a still pose on the empty screens. The menu's mascot slot is 48 px, too small for an animation to read; make it bigger. Replace D1's placeholder app icons with the concha (`scripts/make-icons.mjs`).
 - Done when: the mascot plays in all three places and works offline.
+- Note (F3): format, sizes, models and the offline rule are in "Decided in F3" under [Art](#art). New command `npm run mascot` (`scripts/content/make-mascot.mjs`, logic in `mascot.mjs`, ffmpeg from the new devDependency `ffmpeg-static`); new component `Mascot` (`@/components/motion`, pose `idle`, `celebrate` or `still`). The concha's front view with the background removed is `content/art/cast/concha-cutout.webp`; the icons script now draws her from it with sharp.
+- Note (F3): five takes, 9.8 credits in all (961.24 to 951.44): 1 for the background removal, 1.2 for each of four Seedance 1.5 Pro takes (idle t1 and t2, celebrate t1 and t2) and 4 for one Seedance 2.0 fast take (celebrate t3). In use: `idle-t1` (gentle breathing and a sway) and `celebrate-t3` (two hops, arms up, a twirl that shows her crust from behind). Celebrate t1 and t2 morphed the sugar crust into a bob mid-jump; idle t2 has a squint and a pout.
+- Note (F3): the done-when check ran in a real browser: the production build in Playwright's Chromium and WebKit at phone size. After one online visit, with the network gone (Chromium offline mode; for WebKit the server stopped, since its offline mode breaks reloads under a service worker), the idle loop plays on the menu, the celebration plays on the batch end and on Practice's caught-up marker, the still shows on "Nothing to practise yet", and with reduced motion the menu shows the poster. In the tests: `components/motion/Mascot.test.tsx`, `lib/pwa/sw.test.ts` (stored on install, ranged offline), and the menu, session, practice and motion tests check which pose each slot shows. Not tried on a real iPhone; H1 should watch the loops there with low-power mode on, which can stop muted autoplay (the poster then shows).
+- Note (F3): left for Courtney: open `content/art/mascot/takes.html` from disk, and either approve the two in use or change `use` in `content/art/mascot/takes.json` and run `npm run mascot`. New takes: generate with the start frame recipe in takes.json, add them to `takes` and rerun. The menu title now wraps to two lines next to the 96 px mascot on a 390 px phone.
 
 ### Track G: audio
 

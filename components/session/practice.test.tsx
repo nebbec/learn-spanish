@@ -198,6 +198,7 @@ describe("plain Practice", () => {
     const reviews = await seed(HISTORY.filter(([id]) => EXTRA.includes(id)));
     mountPractice(reviews);
     expect(q("caught-up")).not.toBeNull();
+    expect(q("mascot")!.dataset.pose).toBe("celebrate");
     expect(q("card-front")).toBeNull();
 
     click("another-batch");
@@ -208,6 +209,7 @@ describe("plain Practice", () => {
   it("says so when no card has been seen", async () => {
     mountPractice([]);
     expect(q("practice-empty")).not.toBeNull();
+    expect(q("mascot")!.dataset.pose).toBe("still");
     expect(q("card-front")).toBeNull();
     click("to-menu");
     expect(exits).toBe(1);

@@ -173,6 +173,10 @@ describe("with motion allowed", () => {
 
     expect(q("batch-end")).not.toBeNull();
     expect(move("mascot-slot")).toBe("celebrate");
+    // The celebration loop plays in the slot.
+    const loop = q("mascot") as HTMLVideoElement;
+    expect(loop.tagName).toBe("VIDEO");
+    expect(loop.getAttribute("src")).toBe("/mascot/celebrate.mp4");
     expect(q("confetti")!.querySelectorAll("[data-confetti]").length).toBeGreaterThan(0);
     expect(q("confetti")!.getAttribute("aria-hidden")).toBe("true");
   });
@@ -212,6 +216,9 @@ describe("with reduced motion on", () => {
     await batchEnd();
     expect(q("confetti")).toBeNull();
     expect(moving()).toBe(0);
+    // A still from the celebration loop instead of the loop.
+    expect(q("mascot")!.tagName).toBe("IMG");
+    expect(q("mascot")!.getAttribute("src")).toBe("/mascot/celebrate.webp");
   });
 });
 

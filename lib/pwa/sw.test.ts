@@ -1,12 +1,22 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { MASCOT_FILES } from "@/components/motion/Mascot";
 import { ROUTES } from "@/lib/routes";
 
 // Runs public/sw.js itself against a pretend browser: a server that can be
 // switched off, and a cache store. The real-browser check is in the D1 notes.
 
-const SOURCE = readFileSync(path.join(__dirname, "..", "..", "public", "sw.js"), "utf8");
+const PUBLIC = path.join(__dirname, "..", "..", "public");
+const SOURCE = readFileSync(path.join(PUBLIC, "sw.js"), "utf8");
+// Every file the hero mascot shows, as the app names them.
+const MASCOT = [
+  MASCOT_FILES.idle.clip,
+  MASCOT_FILES.idle.poster,
+  MASCOT_FILES.celebrate.clip,
+  MASCOT_FILES.celebrate.poster,
+  MASCOT_FILES.still,
+];
 const ORIGIN = "https://app.test";
 
 const CHUNK = "/_next/static/chunks/main-abc123.js";
@@ -35,6 +45,7 @@ function site(): Record<string, string> {
     [CSS]: `@font-face{src:url(../media/nunito-latin.woff2) format("woff2")}`,
     [FONT]: "font",
     "/deck/img/casa.svg": "<svg/>",
+    ...Object.fromEntries(MASCOT.map((file) => [file, `mascot ${file}`])),
   };
 }
 
@@ -220,6 +231,26 @@ describe("service worker", () => {
     expect(await b.request("/api/anything", { method: "POST" })).toBeNull();
     expect(await b.request("https://elsewhere.test/rest/v1/reviews")).toBeNull();
     expect(await b.request("/sw.js?v=one")).toBeNull();
+  });
+
+  it("stores the hero mascot on install and plays it offline, in byte ranges", async () => {
+    for (const file of MASCOT) expect(existsSync(path.join(PUBLIC, file)), `public${file}`).toBe(true);
+    const b = await installed();
+    const shell = b.caches.stores.get("learn-spanish-shell-one")!;
+    for (const file of MASCOT) expect(shell.has(file), file).toBe(true);
+
+    b.state.online = false;
+    const clip = MASCOT_FILES.celebrate.clip;
+    expect(await b.text(MASCOT_FILES.still)).toBe(`mascot ${MASCOT_FILES.still}`);
+    const part = (await b.request(clip, { headers: { Range: "bytes=0-5" } }))!;
+    expect(part.status).toBe(206);
+    expect(await part.text()).toBe("mascot");
+  });
+
+  it("does not finish installing when a mascot file cannot be fetched", async () => {
+    const b = browser();
+    delete b.files[MASCOT_FILES.idle.clip];
+    await expect(b.lifecycle("install")).rejects.toThrow(MASCOT_FILES.idle.clip);
   });
 
   it("reads art and audio from any cache but does not store them", async () => {

@@ -13,6 +13,12 @@ const SHELL = SHELL_PREFIX + VERSION;
 const PAGES = ["/", "/learn", "/practice", "/settings", "/tips"];
 const FILES = ["/deck/deck.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"];
 
+// The hero mascot (F3): its two loops, their posters and the still. Stored with
+// the pages, so the menu and the batch end play them offline. Safari asks for
+// video in byte ranges, so they are answered like art and audio.
+const MASCOT_PATH = "/mascot/";
+const MASCOT = ["idle.mp4", "idle.webp", "celebrate.mp4", "celebrate.webp", "concha.webp"].map((file) => MASCOT_PATH + file);
+
 // Art and audio are not stored here. The page fills a cache of its own
 // (lib/media), which this worker reads but never writes or deletes.
 const MEDIA_PATHS = ["/deck/img/", "/deck/audio/"];
@@ -47,9 +53,9 @@ async function precache() {
   const cache = await caches.open(SHELL);
   const assets = new Set();
 
-  // The pages and the deck must all arrive, or the install fails and the browser tries again on the next visit.
+  // The pages, the deck and the mascot must all arrive, or the install fails and the browser tries again on the next visit.
   await Promise.all(
-    [...PAGES, ...FILES].map(async (path) => {
+    [...PAGES, ...FILES, ...MASCOT].map(async (path) => {
       const response = await fetch(path, { cache: "reload" });
       if (!storable(response)) throw new Error(`Could not store ${path}: ${response.status}`);
       if (PAGES.includes(path)) {
@@ -127,7 +133,7 @@ async function ranged(request, response) {
   return new Response(body.slice(start, end + 1), { status: 206, statusText: "Partial Content", headers });
 }
 
-/** Art and audio: whatever the page has stored, otherwise the network. */
+/** Art, audio and the mascot: whatever is stored, otherwise the network. */
 async function storedOrNetwork(request, key) {
   const cached = await caches.match(key);
   return cached ? ranged(request, cached) : fetch(request);
@@ -167,7 +173,7 @@ self.addEventListener("fetch", (event) => {
     // Next's in-app navigation data. Left to the network: when it fails, Next
     // loads the page in full instead, and that request is served above.
     return;
-  } else if (MEDIA_PATHS.some((path) => url.pathname.startsWith(path))) {
+  } else if (url.pathname.startsWith(MASCOT_PATH) || MEDIA_PATHS.some((path) => url.pathname.startsWith(path))) {
     event.respondWith(storedOrNetwork(request, key));
   } else {
     event.respondWith(networkFirst(event, key));

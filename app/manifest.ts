@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 // Change this when the icon files change, so installed copies fetch the new ones.
-const ICON_VERSION = "1";
+const ICON_VERSION = "2";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {

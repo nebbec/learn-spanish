@@ -70,3 +70,7 @@ A pose is a short phrase in that voice, for example `waving happily in front of 
 ## Budget
 
 Every Seedream render costs 0.5 credits whatever the resolution or reference, and the background removal 1 credit a sheet, so a sheet of six is 1.5 credits: 0.25 a still. The first 100's 36 stills took 9 credits. The full deck (about 920 stills) is about 230 credits, about 300 with a third redone. Grouping by character can leave a part-filled last sheet per character; the script fills it with extra takes of the same stills. Run scripted batches on credits, not Unlimited: Higgsfield's fair-use terms forbid automation and review Unlimited usage, and credit jobs run on the faster queue.
+
+## Mascot loops
+
+F3 made the hero mascot's idle and celebration loops from the concha's front view with the background removed (`cast/concha-cutout.webp`), centred on a square of the paper colour and passed as both the start and the end frame of a short video job. The takes, their prompts and models are in `mascot/takes.json`; `npm run mascot` encodes them and publishes the two in use. The decisions are in `docs/design.md` under "Art", "Decided in F3".

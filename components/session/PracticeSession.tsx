@@ -2,6 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import type { ExtrasStore } from "@/components/card";
+import { Mascot, type MascotPose } from "@/components/motion";
 import type { Card, DeckTip, PartOfSpeech } from "@/lib/deck";
 import { DEFAULT_BATCH_SIZE, practiceQueue, testSteps, type CardStates, type PracticeMode } from "@/lib/queues";
 import type { ReviewEvent } from "@/lib/scheduler";
@@ -105,7 +106,7 @@ export function PracticeSession({
 
   if (plan.batches.length === 0) {
     return (
-      <Notice testId="practice-empty" title={EMPTY[mode]} onExit={onExit}>
+      <Notice testId="practice-empty" title={EMPTY[mode]} mascot="still" onExit={onExit}>
         {pos ? `No ${pos} cards match yet.` : "Cards show up here once you have seen them in Learn."}
       </Notice>
     );
@@ -116,6 +117,7 @@ export function PracticeSession({
       <Notice
         testId="caught-up"
         title="You're all caught up!"
+        mascot="celebrate"
         onExit={onExit}
         actions={
           <>
@@ -232,19 +234,24 @@ function Notice({
   testId,
   title,
   children,
+  mascot,
   actions,
   onExit,
 }: {
   testId: string;
   title: string;
   children: ReactNode;
+  /** The caught-up marker celebrates; an empty queue has the still. */
+  mascot: MascotPose;
   actions?: ReactNode;
   onExit: () => void;
 }) {
   return (
     <main data-testid={testId} className="mx-auto flex min-h-dvh max-w-md flex-col justify-center gap-3 p-6">
       <div className="flex flex-col items-center gap-5 rounded-card border-2 border-line bg-surface p-8 text-center shadow-card">
-        <div data-testid="mascot-slot" aria-hidden="true" className="size-28 shrink-0 rounded-full bg-sun" />
+        <div data-testid="mascot-slot" aria-hidden="true" className={mascot === "still" ? "size-28 shrink-0" : "size-36 shrink-0"}>
+          <Mascot pose={mascot} />
+        </div>
         <div className="flex flex-col gap-1">
           <h1 className="font-display text-prompt font-bold">{title}</h1>
           <p className="text-lg text-ink-soft">{children}</p>

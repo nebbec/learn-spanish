@@ -5,6 +5,7 @@
 
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
+import { Mascot } from "@/components/motion";
 import { Wheel } from "@/components/Wheel";
 import type { Card, DeckUnit, PartOfSpeech } from "@/lib/deck";
 import { progressStats } from "@/lib/progress";
@@ -58,8 +59,9 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
     <main data-testid="menu" className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 p-6">
       <header className="flex items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          {/* F3 puts the hero mascot here. */}
-          <div data-testid="mascot-slot" aria-hidden="true" className="size-12 shrink-0 rounded-full bg-sun" />
+          <div data-testid="mascot-slot" aria-hidden="true" className="size-24 shrink-0">
+            <Mascot pose="idle" />
+          </div>
           <h1 className="font-display text-prompt font-bold">Learn Spanish</h1>
         </div>
         <div className="flex items-center gap-4">

@@ -359,6 +359,7 @@ describe("the session screen", () => {
     );
     mountLearn({ states: all });
     expect(q("learn-empty")).not.toBeNull();
+    expect(q("mascot")!.dataset.pose).toBe("still");
     expect(q("card-front")).toBeNull();
     act(() => q("to-menu")!.click());
     expect(exits).toBe(1);

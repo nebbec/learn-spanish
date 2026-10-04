@@ -126,7 +126,7 @@ describe("the menu before any studying", () => {
     });
   });
 
-  it("links to Learn, Practice, each option and settings, and has a mascot slot", async () => {
+  it("links to Learn, Practice, each option and settings, and has the idle mascot", async () => {
     await showMenu();
     expect(href("menu-learn")).toBe("/learn");
     expect(href("menu-practice")).toBe("/practice");
@@ -134,7 +134,7 @@ describe("the menu before any studying", () => {
     expect(href("menu-in-order")).toBe("/practice?mode=in-order");
     expect(href("menu-struggling")).toBe("/practice?mode=struggling");
     expect(href("menu-settings")).toBe("/settings");
-    expect(q("mascot-slot")).not.toBeNull();
+    expect(q("mascot-slot")!.querySelector<HTMLElement>('[data-testid="mascot"]')!.dataset.pose).toBe("idle");
   });
 
   it("opens Practice for a part of speech when its slice is tapped", async () => {
