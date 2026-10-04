@@ -27,7 +27,7 @@ Each ticket is sized to fit one agent's 100k context window, so every ticket mus
 
 Give each builder this, with the ticket ID filled in:
 
-- Read docs/design.md in full, then your ticket under "Tickets". Follow "Rules for every ticket".
+- Read docs/design.md in full, then your ticket under "Tickets". Follow "Rules for every ticket". Finished tickets' notes are in [history.md](history.md); read there only the notes of the tickets yours depends on or whose code it touches.
 - Do only ticket `<ID>`. Do not start other tickets or change code outside its scope.
 - When the ticket's "Done when" check passes, set its Status on the board to Done and commit, with the ticket ID at the start of the message.
 - If you cannot finish (blocked, or past about 60% of your context), set Status to Blocked, write a handoff note under the ticket saying what is done, what is left and why, commit, and report failure.

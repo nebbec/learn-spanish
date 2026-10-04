@@ -2,7 +2,7 @@
 
 An installable, offline-first web app that teaches the 1,000 most common Spanish words. Next 16, React 19, Tailwind 4, TypeScript, Vitest, ESLint.
 
-**Read [docs/design.md](docs/design.md) first.** It is the agreed design: terms, data model, learning engine, screens, and the ticket board. Use its terms (card, deck, forward, seen, due, memorized, batch, wheel) exactly as defined there. To run tickets unattended, see [docs/ticket-loop.md](docs/ticket-loop.md).
+**Read [docs/design.md](docs/design.md) first.** It is the agreed design: terms, data model, learning engine, screens, and the ticket board. Use its terms (card, deck, forward, seen, due, memorized, batch, wheel) exactly as defined there. To run tickets unattended, see [docs/ticket-loop.md](docs/ticket-loop.md). Finished tickets' notes (what each ticket built, where, and what it left for later) are in [docs/history.md](docs/history.md), under the same track and ticket headings; read a ticket's notes there only when your ticket depends on it or touches its code.
 
 ## Commands
 

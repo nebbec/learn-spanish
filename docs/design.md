@@ -831,7 +831,7 @@ The numbers below are estimates, not measurements. Run `/context` in a fresh ses
 | Share of the 100k window | Estimate |
 |---|---|
 | Fixed overhead: system prompt, tools, skills, repo instructions | 20–30k |
-| This doc, read in full | about 8k |
+| This doc, read in full | about 40k (157 KB on 2026-10-04, after M1 moved finished tickets' notes out; 229 KB, about 60k, before) |
 | Left for the work itself | 60–70k |
 | Planned work per ticket (half of what's left; the rest is for debugging detours) | 30–35k |
 
@@ -841,6 +841,8 @@ That planned budget corresponds to roughly:
 - up to about 500 lines of new code, tests included;
 - up to 6 files touched and 3 existing files read;
 - up to 2 sections of this doc needed.
+
+The doc has outgrown the 8k the other rows were planned around, so a session that reads it in full has less left for the work than the table says. Finished tickets' notes live in [history.md](history.md), under the same track and ticket headings (decided in M1); a ticket reads there only the notes of the tickets it depends on or whose code it touches.
 
 A ticket that would exceed any of these was split. Logic is separated from screens for the same reason: tracks B and the sync core are verified by tests, which cost far less context than checking a UI.
 
@@ -907,7 +909,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L16 | Reset sync | L15 | | Done |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done except: deploy, Start over and study unit 1 on the phone |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
-| M1 | Archive finished tickets' notes | none | | Todo |
+| M1 | Archive finished tickets' notes | none | | Done |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
@@ -1182,6 +1184,9 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Do: this doc has grown to about 190 KB (roughly 50k tokens), against the "about 8k" its sizing table assumes, so every ticket session starts heavy. Move the "Note (…):" lines of every ticket whose Status is Done into `docs/history.md`, under the same track and ticket headings, word for word. In this doc each Done ticket keeps its Build or Do line and its Done when line, plus one line linking to its notes in history.md. Keep every "Decided in …" block (they are the agreed design), the board, open tickets' notes (F2, F3, H1, L17, S1 to S4) and the Learning path section as they are. Update the sizing table's estimate for this doc, and point CLAUDE.md and `docs/ticket-loop.md` at history.md for anyone who needs a finished ticket's notes.
 - Done when: a script, run once and described in the ticket's note, shows every line removed from this doc appears in history.md; links inside both docs resolve; and this doc's size is recorded before and after.
 - Note (M1): added 2026-10-04 at Courtney's request, after track L's builders started at 100k to 200k tokens of context, mostly this doc.
+- Note (M1): moved the 132 note lines of the 44 Done tickets (Status Done, Done except or Done with a remark, so D6, G1 and G3 too) into [history.md](history.md); each of those tickets now has one "Notes: in history.md" line after its other lines. Kept here: open tickets' notes (F2, F3, H1, L17, S1 to S4), M1's own notes, the "Why:" line under A2, and everything outside "Tickets", which holds every "Decided in …" block and the Learning path section. Moved lines are word for word except that a link to a section of this doc now names the file (`design.md#audio` where it had `#audio`), so it still resolves from history.md.
+- Note (M1): the check is `node scripts/check-history.mjs`: it lists the lines removed from this doc between the commit before M1 (`e221464`) and the move commit (`9885461`), 132, and finds each in history.md (0 missing); then it resolves every relative link and anchor in the working tree's design.md, history.md, ticket-loop.md and CLAUDE.md (none broken). With `e221464 worktree` it compares against the working tree instead, and then also lists the two lines M1 changed on purpose after the move (the sizing row and M1's board row). Size of this doc: 229,295 bytes before, 156,744 after the move, about 159 KB with these notes.
+- Note (M1): CLAUDE.md and the builder brief in ticket-loop.md now point at history.md. Archiving again later is the same move: notes of Done tickets under their headings in history.md, a link line left here.
 
 ### Track H: acceptance
 
