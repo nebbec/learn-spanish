@@ -1,0 +1,41 @@
+# Which cast member shows each still, and the pose. Edit freely: the art script
+# (npm run art) reads this file before every render. character is one of
+# concha, alpaca, turtle, chick, capybara. The pose is a short phrase, no text in the image.
+# A changed pose or character takes effect on the still's next render (a redo).
+still	character	pose
+si-yes	chick	nodding eagerly with wings raised high and beak wide open in an excited, enthusiastic yes
+gracias-thank-you	concha	accepting a beautifully wrapped gift box, clutching it to her chest and bowing deeply in heartfelt, theatrical gratitude
+hola-hello	chick	bouncing on tiptoe and waving one stubby wing hello with a big bright smile
+adios-goodbye	concha	standing on a train platform with a small suitcase, waving a lace handkerchief in a tearful dramatic farewell
+ser-be-identity	alpaca	striking a proud pose with one hoof on her chest, chin high, presenting herself as if to say this is me
+estar-be-state	concha	lounging comfortably inside a cosy cardboard box, peeking out over the edge, clearly settled right where she is
+bien-well	capybara	sitting contentedly in a warm bath of water, eyes half closed, giving a relaxed thumbs-up paw
+aqui-here	capybara	sitting calmly on a little cushion and pointing down at the spot right beside it
+muy-very	alpaca	proudly showing off an enormously oversized, extremely fluffy topknot of curly wool towering far above her head
+mal-badly	concha	wobbling clumsily on roller skates with arms flailing wildly, legs splayed, about to topple over
+tener-have	capybara	hugging a huge round watermelon possessively to its belly with a calm satisfied smile
+querer-want	concha	pressing her face against a bakery window, gazing longingly at a single perfect cake, arms reaching out with desire
+cafe-coffee	capybara	sitting peacefully and sipping from a steaming cup of coffee held in both paws, eyes closed in bliss
+amigo-friend	concha	walking arm in arm with a same-size concha, both laughing together and sharing a big bag of popcorn
+hijo-son	concha	tenderly cradling a much smaller concha wearing a little blue cap, beaming down at him with motherly pride
+hijo-daughter	concha	lovingly tying a pink hair bow on a much smaller concha standing in front of her
+padre-father	concha	hugging the leg of a much larger concha with a bushy mustache and a tie, who pats her head proudly
+hermano-brother	concha	playfully tugging a toy ball away from a slightly smaller concha in a backwards baseball cap, both squabbling and grinning
+hermano-sister	concha	sitting side by side braiding the hair-ribbon of a slightly smaller concha with a pink bow, both giggling
+madre-mother	concha	snuggled in the arms of a much larger concha wearing a pearl necklace and apron, who kisses her forehead
+bueno-good	capybara	munching a juicy slice of melon with eyes closed and a deeply contented, satisfied smile
+tambien-also	alpaca	raising a hoof eagerly beside a second identical alpaca who is already raising hers, as if to say me too
+nuevo-new	chick	gleefully unwrapping a shiny brand-new toy from crinkled tissue paper, eyes sparkling with excitement
+pequeno-small	chick	standing on tiptoe beside a huge ordinary coffee mug, looking tiny next to it and stretching up to peek over
+malo-bad	concha	recoiling dramatically from a smelly rotten fish on a plate, one hand on her forehead, nose wrinkled in disgust
+viejo-old	concha	hunched over a little wooden cane in tiny round spectacles, shuffling slowly along like a frail elderly lady
+grande-big	alpaca	proudly hugging an enormous oversized teddy bear far bigger than herself, arms barely reaching around it
+feliz-happy	concha	beaming joyfully in front of a birthday cake with lit candles, arms thrown wide in delight
+cansado-tired	capybara	slumped heavily against a pillow, eyelids drooping and mouth stretched in a huge sleepy yawn
+saber-know	alpaca	tapping her temple with one hoof and smirking knowingly, nose in the air like a confident know-it-all
+hablar-speak	alpaca	chattering animatedly into an old-fashioned telephone receiver, gesturing grandly with her free hoof, mouth wide open mid-gossip
+entender-understand	chick	leaping up with wings flung open, eyes wide and beak open in a sudden delighted moment of getting it
+ingles-english	concha	wearing a tiny black bowler hat and sipping afternoon tea from a dainty porcelain cup with pinkie raised
+poder-can	chick	triumphantly lifting a little dumbbell high over its head with stubby wings, puffing out its chest proudly
+necesitar-need	concha	crawling dramatically on her belly, one arm stretched desperately toward a glass of water just out of reach
+ayudar-help	concha	kindly reaching down to pull up a same-size concha who has tripped and fallen, offering both hands

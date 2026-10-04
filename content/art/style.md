@@ -61,10 +61,12 @@ A pose is a short phrase in that voice, for example `waving happily in front of 
 
 ## After rendering
 
-- Cut the sheet into its six panels on the gutters.
-- Remove the background so the still is transparent; cards are white and the menu is cream, so a still must not carry a box of either colour. Higgsfield's `image_background_remover` is the first thing to try; check its edges on the soft clay shadow.
-- Export WebP at the card size. A first measure on the turtle's front view: 512 px wide at quality 82 is about 14 KB, 640 px about 18 KB, on the cream background. Transparency will add a little.
+`npm run art` does these steps; the decisions are in `docs/design.md` under "Art", "Decided in F2".
+
+- Remove the background of the whole sheet with Higgsfield's `image_background_remover` (1 credit), then cut it into its six panels. Seedream returns 2496 by 1664: six 832 px squares with no gutters.
+- Export each still as a 512 by 512 transparent WebP, quality 82, the character fitted with a 4% margin. The first 36 average 32.6 KB.
+- Keep poses free of places and scenery (no platforms, shop windows, rooms): Seedream draws the scene and the removal cuts it away half done.
 
 ## Budget
 
-Every Seedream render costs 0.5 credits whatever the resolution or reference. Six stills a sheet makes the first slice (about 67 stills) roughly 10 credits with redos, and the full deck (about 920) 100 to 130. Grouping by character can leave a part-filled last sheet per character, at most five renders more per batch. One still a render would be five times that. Run scripted batches on credits, not Unlimited: Higgsfield's fair-use terms forbid automation and review Unlimited usage, and credit jobs run on the faster queue.
+Every Seedream render costs 0.5 credits whatever the resolution or reference, and the background removal 1 credit a sheet, so a sheet of six is 1.5 credits: 0.25 a still. The first 100's 36 stills took 9 credits. The full deck (about 920 stills) is about 230 credits, about 300 with a third redone. Grouping by character can leave a part-filled last sheet per character; the script fills it with extra takes of the same stills. Run scripted batches on credits, not Unlimited: Higgsfield's fair-use terms forbid automation and review Unlimited usage, and credit jobs run on the faster queue.

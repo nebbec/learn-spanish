@@ -1,0 +1,274 @@
+{
+  "sheets": [
+    {
+      "id": "concha-01",
+      "character": "concha",
+      "panels": [
+        {
+          "still": "gracias-thank-you",
+          "take": 1,
+          "pose": "accepting a beautifully wrapped gift box, clutching it to her chest and bowing deeply in heartfelt, theatrical gratitude"
+        },
+        {
+          "still": "adios-goodbye",
+          "take": 1,
+          "pose": "standing on a train platform with a small suitcase, waving a lace handkerchief in a tearful dramatic farewell"
+        },
+        {
+          "still": "estar-be-state",
+          "take": 1,
+          "pose": "lounging comfortably inside a cosy cardboard box, peeking out over the edge, clearly settled right where she is"
+        },
+        {
+          "still": "mal-badly",
+          "take": 1,
+          "pose": "wobbling clumsily on roller skates with arms flailing wildly, legs splayed, about to topple over"
+        },
+        {
+          "still": "querer-want",
+          "take": 1,
+          "pose": "pressing her face against a bakery window, gazing longingly at a single perfect cake, arms reaching out with desire"
+        },
+        {
+          "still": "amigo-friend",
+          "take": 1,
+          "pose": "walking arm in arm with a same-size concha, both laughing together and sharing a big bag of popcorn"
+        }
+      ],
+      "render": {
+        "job": "67a8fcab-8e8c-4380-8691-e9a60c07b6bb",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143509_67a8fcab-8e8c-4380-8691-e9a60c07b6bb.png"
+      },
+      "cutout": {
+        "job": "54657340-dd8f-4632-b6a1-c5c587a0717c",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143549_54657340-dd8f-4632-b6a1-c5c587a0717c.png"
+      },
+      "cut": true
+    },
+    {
+      "id": "concha-02",
+      "character": "concha",
+      "panels": [
+        {
+          "still": "hijo-son",
+          "take": 1,
+          "pose": "tenderly cradling a much smaller concha wearing a little blue cap, beaming down at him with motherly pride"
+        },
+        {
+          "still": "hijo-daughter",
+          "take": 1,
+          "pose": "lovingly tying a pink hair bow on a much smaller concha standing in front of her"
+        },
+        {
+          "still": "padre-father",
+          "take": 1,
+          "pose": "hugging the leg of a much larger concha with a bushy mustache and a tie, who pats her head proudly"
+        },
+        {
+          "still": "hermano-brother",
+          "take": 1,
+          "pose": "playfully tugging a toy ball away from a slightly smaller concha in a backwards baseball cap, both squabbling and grinning"
+        },
+        {
+          "still": "hermano-sister",
+          "take": 1,
+          "pose": "sitting side by side braiding the hair-ribbon of a slightly smaller concha with a pink bow, both giggling"
+        },
+        {
+          "still": "madre-mother",
+          "take": 1,
+          "pose": "snuggled in the arms of a much larger concha wearing a pearl necklace and apron, who kisses her forehead"
+        }
+      ],
+      "render": {
+        "job": "2c87dd20-e36a-4bd2-b59c-92d503172a80",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143656_2c87dd20-e36a-4bd2-b59c-92d503172a80.png"
+      },
+      "cutout": {
+        "job": "7781c746-1115-47ef-aa7d-3a8294a10248",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143740_7781c746-1115-47ef-aa7d-3a8294a10248.png"
+      },
+      "cut": true
+    },
+    {
+      "id": "concha-03",
+      "character": "concha",
+      "panels": [
+        {
+          "still": "malo-bad",
+          "take": 1,
+          "pose": "recoiling dramatically from a smelly rotten fish on a plate, one hand on her forehead, nose wrinkled in disgust"
+        },
+        {
+          "still": "viejo-old",
+          "take": 1,
+          "pose": "hunched over a little wooden cane in tiny round spectacles, shuffling slowly along like a frail elderly lady"
+        },
+        {
+          "still": "feliz-happy",
+          "take": 1,
+          "pose": "beaming joyfully in front of a birthday cake with lit candles, arms thrown wide in delight"
+        },
+        {
+          "still": "ingles-english",
+          "take": 1,
+          "pose": "wearing a tiny black bowler hat and sipping afternoon tea from a dainty porcelain cup with pinkie raised"
+        },
+        {
+          "still": "necesitar-need",
+          "take": 1,
+          "pose": "crawling dramatically across a dry desert floor, one arm stretched desperately toward a glass of water just out of reach"
+        },
+        {
+          "still": "ayudar-help",
+          "take": 1,
+          "pose": "kindly reaching down to pull up a same-size concha who has tripped and fallen, offering both hands"
+        }
+      ],
+      "render": {
+        "job": "82e4f5da-f45c-4def-9095-1360d5cc3136",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143757_82e4f5da-f45c-4def-9095-1360d5cc3136.png"
+      },
+      "cutout": {
+        "job": "7eb3ad31-1abf-4f3c-9fad-a03087e9ed41",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143838_7eb3ad31-1abf-4f3c-9fad-a03087e9ed41.png"
+      },
+      "cut": true
+    },
+    {
+      "id": "alpaca-01",
+      "character": "alpaca",
+      "panels": [
+        {
+          "still": "ser-be-identity",
+          "take": 1,
+          "pose": "striking a proud pose with one hoof on her chest, chin high, presenting herself as if to say this is me"
+        },
+        {
+          "still": "muy-very",
+          "take": 1,
+          "pose": "proudly showing off an enormously oversized, extremely fluffy topknot of curly wool towering far above her head"
+        },
+        {
+          "still": "tambien-also",
+          "take": 1,
+          "pose": "raising a hoof eagerly beside a second identical alpaca who is already raising hers, as if to say me too"
+        },
+        {
+          "still": "grande-big",
+          "take": 1,
+          "pose": "proudly hugging an enormous oversized teddy bear far bigger than herself, arms barely reaching around it"
+        },
+        {
+          "still": "saber-know",
+          "take": 1,
+          "pose": "tapping her temple with one hoof and smirking knowingly, nose in the air like a confident know-it-all"
+        },
+        {
+          "still": "hablar-speak",
+          "take": 1,
+          "pose": "chattering animatedly into an old-fashioned telephone receiver, gesturing grandly with her free hoof, mouth wide open mid-gossip"
+        }
+      ],
+      "render": {
+        "job": "58859893-f20e-4005-952e-511725e2f255",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143855_58859893-f20e-4005-952e-511725e2f255.png"
+      },
+      "cutout": {
+        "job": "db6ec923-2fd8-4ca6-b59f-1eb048c2ad73",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143938_db6ec923-2fd8-4ca6-b59f-1eb048c2ad73.png"
+      },
+      "cut": true
+    },
+    {
+      "id": "chick-01",
+      "character": "chick",
+      "panels": [
+        {
+          "still": "si-yes",
+          "take": 1,
+          "pose": "nodding eagerly with wings raised high and beak wide open in an excited, enthusiastic yes"
+        },
+        {
+          "still": "hola-hello",
+          "take": 1,
+          "pose": "bouncing on tiptoe and waving one stubby wing hello with a big bright smile"
+        },
+        {
+          "still": "nuevo-new",
+          "take": 1,
+          "pose": "gleefully unwrapping a shiny brand-new toy from crinkled tissue paper, eyes sparkling with excitement"
+        },
+        {
+          "still": "pequeno-small",
+          "take": 1,
+          "pose": "standing on tiptoe beside a huge ordinary coffee mug, looking tiny next to it and stretching up to peek over"
+        },
+        {
+          "still": "entender-understand",
+          "take": 1,
+          "pose": "leaping up with wings flung open, eyes wide and beak open in a sudden delighted moment of getting it"
+        },
+        {
+          "still": "poder-can",
+          "take": 1,
+          "pose": "triumphantly lifting a little dumbbell high over its head with stubby wings, puffing out its chest proudly"
+        }
+      ],
+      "render": {
+        "job": "829f4b4a-28df-4d1f-a758-adc48378c264",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_143956_829f4b4a-28df-4d1f-a758-adc48378c264.png"
+      },
+      "cutout": {
+        "job": "97e58494-36f2-4cd8-b124-7bd4899fd519",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_144039_97e58494-36f2-4cd8-b124-7bd4899fd519.png"
+      },
+      "cut": true
+    },
+    {
+      "id": "capybara-01",
+      "character": "capybara",
+      "panels": [
+        {
+          "still": "bien-well",
+          "take": 1,
+          "pose": "sitting contentedly in a warm bath of water, eyes half closed, giving a relaxed thumbs-up paw"
+        },
+        {
+          "still": "aqui-here",
+          "take": 1,
+          "pose": "sitting calmly on a little cushion and pointing down at the spot right beside it"
+        },
+        {
+          "still": "tener-have",
+          "take": 1,
+          "pose": "hugging a huge round watermelon possessively to its belly with a calm satisfied smile"
+        },
+        {
+          "still": "cafe-coffee",
+          "take": 1,
+          "pose": "sitting peacefully and sipping from a steaming cup of coffee held in both paws, eyes closed in bliss"
+        },
+        {
+          "still": "bueno-good",
+          "take": 1,
+          "pose": "munching a juicy slice of melon with eyes closed and a deeply contented, satisfied smile"
+        },
+        {
+          "still": "cansado-tired",
+          "take": 1,
+          "pose": "slumped heavily against a pillow, eyelids drooping and mouth stretched in a huge sleepy yawn"
+        }
+      ],
+      "render": {
+        "job": "0da2d434-54c4-42c5-80d7-05bf7681fefc",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_144100_0da2d434-54c4-42c5-80d7-05bf7681fefc.png"
+      },
+      "cutout": {
+        "job": "3e27c8a2-ae69-4828-9b5c-c38dc368b3ce",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_144140_3e27c8a2-ae69-4828-9b5c-c38dc368b3ce.png"
+      },
+      "cut": true
+    }
+  ]
+}

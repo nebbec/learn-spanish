@@ -19,7 +19,8 @@
     "tips": "tsx scripts/content/draft-tips.mts",
     "tag": "tsx scripts/content/tag.mts",
     "voice-test": "node --env-file-if-exists=.env.local scripts/voice-test.mjs",
-    "audio": "node --env-file-if-exists=.env.local scripts/content/make-audio.mjs"
+    "audio": "node --env-file-if-exists=.env.local scripts/content/make-audio.mjs",
+    "art": "tsx scripts/content/make-art.mts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
@@ -40,6 +41,7 @@
     "eslint-config-next": "16.1.4",
     "fake-indexeddb": "^6.2.5",
     "jsdom": "^29.1.1",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5",

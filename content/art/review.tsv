@@ -1,0 +1,43 @@
+# One row per cut still (a "take"). Look at the contact sheets in content/art/contact/,
+# then write "ok" or "redo" in the verdict column of each take. A still needs one
+# "ok" take; if a still has two takes, mark the better one ok and the other redo.
+# A still whose takes are all "redo" is rendered again by `npm run art -- render`,
+# with the character and pose in cast.tsv (change them there first if you like).
+# The note column is for you. `npm run art -- publish` copies the ok takes into the app.
+still	take	character	sheet	verdict	note
+gracias-thank-you	1	concha	concha-01		
+adios-goodbye	1	concha	concha-01		
+estar-be-state	1	concha	concha-01		
+mal-badly	1	concha	concha-01		
+querer-want	1	concha	concha-01		
+amigo-friend	1	concha	concha-01		
+hijo-son	1	concha	concha-02		
+hijo-daughter	1	concha	concha-02		
+padre-father	1	concha	concha-02		
+hermano-brother	1	concha	concha-02		
+hermano-sister	1	concha	concha-02		
+madre-mother	1	concha	concha-02		
+malo-bad	1	concha	concha-03		
+viejo-old	1	concha	concha-03		
+feliz-happy	1	concha	concha-03		
+ingles-english	1	concha	concha-03		
+necesitar-need	1	concha	concha-03		
+ayudar-help	1	concha	concha-03		
+ser-be-identity	1	alpaca	alpaca-01		
+muy-very	1	alpaca	alpaca-01		
+tambien-also	1	alpaca	alpaca-01		
+grande-big	1	alpaca	alpaca-01		
+saber-know	1	alpaca	alpaca-01		
+hablar-speak	1	alpaca	alpaca-01		
+si-yes	1	chick	chick-01		
+hola-hello	1	chick	chick-01		
+nuevo-new	1	chick	chick-01		
+pequeno-small	1	chick	chick-01		
+entender-understand	1	chick	chick-01		
+poder-can	1	chick	chick-01		
+bien-well	1	capybara	capybara-01		
+aqui-here	1	capybara	capybara-01		
+tener-have	1	capybara	capybara-01		
+cafe-coffee	1	capybara	capybara-01		
+bueno-good	1	capybara	capybara-01		
+cansado-tired	1	capybara	capybara-01		
