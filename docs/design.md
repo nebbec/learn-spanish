@@ -885,13 +885,13 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L7 | Known-words check and example redraft | L6 | | Done |
 | L8 | Audio for form cards, phrase cards and tips | L2 | | Done |
 | L9 | Learning path content for the first 100 | L4, L7, L8 | Read tips and `path.md`, flagged cards | Done except: Courtney decides the flagged cards, reads and approves the 14 tips, reads `content/path.md`, and fixes `tu-you-informal`'s example |
-| L10 | Intro step and the `known` rating | L2 | | Done except: push the migration and run `npm run check:rls` |
+| L10 | Intro step and the `known` rating | L2 | | Done |
 | L11 | Tips in the app | L2, L10 | | Done |
 | L12 | Units in Learn | L2, L10 | | Done |
 | L13 | Form, phrase and contrast layouts | L2 | | Done |
 | L14 | Audio by itself, mute, say it out loud | none | | Done |
 | L15 | Reset on the device | none | | Done |
-| L16 | Reset sync | L15 | | Done except: push the migrations, then run `npm run check:rls` and `npm run check:sync` |
+| L16 | Reset sync | L15 | | Done |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Todo |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
@@ -1198,6 +1198,7 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Note (L10): done except the server step. `components/session/session.test.tsx` runs a 16-card Learn batch on the fixture and checks each card's intro comes before its test (33 steps with one red), and a batch where `casa-house` is "I already know this": it is never tested, its one review is `known`, its state is the Easy outcome (review phase, a day or more away), and the stored card states equal `replayReviews` of the stored reviews. `npm test` (615), `npm run lint`, `npm run typecheck` and `npm run build` pass. The decisions are under [Intro, then test](#intro-then-test), "Decided in L10".
 - Note (L10): left for Courtney. The migration `supabase/migrations/20261003191001_known_rating.sql` is written but not pushed: pushing needs the database password, typed into `supabase link --project-ref sbouiweyksuiakajkrbt` by Courtney (this worktree is not linked and has no `.env.local`). Then `supabase db push --linked` and `npm run check:rls`, which now also checks that `known` is accepted and another value refused. Push it before this branch is deployed: until then the server refuses a `known` review.
 - Note (L10): for later tickets. A session's `batch` is now `Step[]` and `Session` has `step` and `introduce(choice)`; `SessionView` takes `earlierMeaning`. Tests that drive Learn pass each intro with `intro-got-it` (helpers in the session, menu and motion tests). Many test histories that relied on a first green being Easy now use `known`. L11: the tip screen is a third step kind before the first card naming it; the "?" goes on `Intro` and `Reveal`. L12: a unit batch is the unit's unseen cards as intro steps, the same `learnBatch` cut by unit. L14: autoplay the word clip on `Intro` mount and on the reveal; `Intro` takes `onPlay` like `Reveal`.
+- Note (L10): Courtney pushed `known_rating` with `supabase db push --linked` on 2026-10-04; `npm run check:rls` then passed 46 of 46, including a `known` review accepted and any other value refused.
 
 **L11 Tips in the app**
 - Build: the tip screen in a Learn batch before the first card naming it, shown by the progress rule; the "?" on the intro and reveal opening it over the card; `/tips` listing reached tips (added to `PAGES` in `public/sw.js`) and a link from the menu.
@@ -1234,6 +1235,7 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Done when: in the two-device test a reset on one device clears progress on the other after both sync, and `npm run check:rls` and `npm run check:sync` pass with the new table.
 - Note (L16): done 2026-10-03 except the live checks. Decisions are under [Reset](#reset), "Decided in L16". The two-device check passes against `FakeRemote` (lib/sync/sync.test.ts, "resets": a reset on A clears B after both sync and later study counts on both; B's offline ratings before the reset are dropped and later ones kept; a reset alone rebuilds state once; the latest of several resets wins; resets go up again after an account change). Also covered: store (`listUnsynced`/`markSynced` with resets, `mergeResets`), runner (a reset recorded before sign-in uploads), AutoSync (a downloaded reset fires the synced event), StartOver (asks for a sync only on success). `scripts/check-rls.mjs` now covers `resets` (owner-only read and insert, others refused, owner cannot change or delete, repeat upload adds nothing, `seq` follows arrival) and `scripts/check-sync.live.test.ts` has the reset case between the two devices.
 - Note (L16): left for Courtney. This worktree is now linked (`supabase link`, no password needed: the CLI's login role works), and `supabase db push --linked --dry-run` lists two pending migrations: L10's `20261003191001_known_rating.sql` (never pushed) and `20261003194035_resets.sql`. The push itself was refused by the agent's permission check, so run `supabase db push --linked`, then `npm run check:rls` and `npm run check:sync` (they need `.env.local`; this worktree has none, so copy it or run with `node --env-file=../ahead-manx/.env.local …`). That also finishes L10's leftover step. Push before deploying this code: every sync now pulls resets and fails without the table.
+- Note (L16): Courtney pushed `resets` on 2026-10-04 (with L10's migration); `npm run check:rls` passed 46 of 46 and `npm run check:sync` 5 of 5, including a reset on one device clearing progress on the other after both sync.
 
 **L17 Publish the learning path deck**
 - Do: copy `content/deck.json` to `public/deck/deck.json`; Courtney presses Start over and studies unit 1 from zero on the phone; fix small problems and write a ticket for anything larger.
