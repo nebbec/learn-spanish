@@ -520,6 +520,19 @@ Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Whe
 - **Hero mascot**: one properly animated character for the menu, the caught-up marker and batch celebrations.
 - **Budget**: roughly 40 MB for the full deck at about 40 KB per image. This is an estimate to check on the first 100.
 
+Decided in F1 (style reference, prompt template and cast in `content/art`, rules in `content/art/style.md`):
+
+- **Style: soft 3D clay toy.** Matte plasticine with soft studio light and pastel colours. Chosen over flat vector and kawaii sticker on a contact sheet of the same six words (`content/art/style-test`).
+- **Lead mascot: the concha**, a pastel-pink Mexican sweet bun with the white sugar-shell crust worn like a hairdo, a diva's lashes and red mouth, and tiny lilac cat-eye sunglasses. Chosen in a second round over the turtle and five other clay candidates (a hummingbird, an alpaca, a coquí frog, a capybara and a made-up teardrop) as the most unique and memorable. She is the hero mascot, and the lead of the app's Instagram character in the `ai-influencer` repo (`docs/learn-spanish-character.md`), so the cards and the account share one cast.
+- **A cast of five on the cards**: the concha, an alpaca, the turtle, a chick and a capybara. Each has a model sheet in `content/art/cast/` (four views, four expressions), the image reference for every render of that character. Their personalities and prompt descriptions are in `content/art/style.md`.
+- **Each content card shows one cast member, chosen by fit.** The concha takes about half the content cards and any card where no one else fits better; the others take the words that suit their personality (the turtle esperar and casa, the capybara comer and dormir). The choice belongs to the art pipeline, not the deck: the card's `image` already points at its still, so the card data, the validator and the app do not change. The pose shows the word, never the rating: a "sad" still is a drooping character that still jumps on green, because the four moves animate the whole still in CSS and never the character's limbs.
+- **One character per render.** A sheet of six stills holds one character, so a batch's cards are grouped by character before they are cut into sheets.
+- **Stills are transparent.** Cards are white and the menu is cream, so a still carries no background box. Render on plain cream, then remove the background.
+- **Six stills per render.** Generate a 3 by 2 sheet of six cards' poses and cut it apart, which costs a sixth of one render per still and keeps neighbouring stills on-model. Whether six different words stay on-model on one sheet is F2's first check; the fallback is one still per render at five times the cost.
+- **Model: Seedream 5.0 Flash**, 0.5 credits per render at any resolution. GPT Image 2.5 needs a paid plan. Scripted batches run on credits, not the Plus plan's Unlimited models, because Higgsfield's fair-use terms forbid automation and review Unlimited usage.
+- **Estimates, from F1's renders**: about 10 credits for the first slice's roughly 67 stills and 100 to 130 for the full deck, both with a third redone. A clay still of the front view is about 14 KB at 512 px wide and 18 KB at 640 px as WebP, well under the 40 KB per image above; F2 measures the real average.
+- **Hero mascot**: idle loop on the menu; celebration loop on the batch-end screen and the caught-up marker; a still pose on the empty screens ("Nothing new to learn", "Nothing to practise yet"), which have no celebration. Clay cannot be drawn as vector animation (Lottie, Rive), so the loops are short video clips generated from the concha's model sheet, with the same first and last frame so they loop cleanly, rendered on the paper colour (`#fff8ec`) instead of transparent, since transparent video plays differently in Safari and Chrome. With reduced motion on, a still from the clip shows instead. F3 settles the file format and the size.
+
 ## Audio
 
 - Two clips per card (word, example sentence), generated once by a script with one Latin American neural voice. About 2,000 clips, estimated 30 to 40 MB.
@@ -784,7 +797,7 @@ These were proposed during the interview and not explicitly confirmed. Change th
 
 Each is settled by the ticket named (see [Tickets](#tickets)).
 
-- **Art style and mascot identity** (F1): needs visual exploration.
+- **Art style and mascot identity** (F1): settled, clay toy, the concha as lead mascot and a cast of five on the cards. See [Art](#art).
 - **Mascot animation format** (F3).
 - **Speech provider** (G1): settled, OpenAI `gpt-4o-mini-tts` with the voice `coral`. See [Audio](#audio).
 - **Service worker library** (D1): settled, none. See [Stack](#stack).
@@ -869,7 +882,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | E2 | Draft pass | E1 | Max plan sign-in (no API key) | Done |
 | E3 | Review pass and deck build | E2 | | Done |
 | E4 | First 100 cards | E3 | Flagged-card review | Done |
-| F1 | Art style and mascot design | none | Style choice | Todo |
+| F1 | Art style and mascot design | none | Style choice | Done |
 | F2 | Art script and first stills | F1, L9 | Contact-sheet review | Todo |
 | F3 | Hero mascot animation | F1, C6, C7 | | Todo |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
@@ -1084,13 +1097,18 @@ Scripts only. Depends on A2 and nothing else in the app.
 **F1 Art style and mascot design**
 - Do: render the same six words in three or four candidate styles through Higgsfield. Courtney picks one. Lock the style reference and prompt template, and design the hero mascot in that style.
 - Done when: the style reference, the template and the mascot design are committed and noted under [Art](#art).
+- Note (F1): three styles (flat vector, clay toy, sticker) on one contact sheet each, then three pastel animals on one clay sheet, then the turtle's model sheet: five renders, 2.5 of the free plan's 3.5 credits. Courtney chose the clay style and the turtle. The axolotl on the style sheets was a stand-in to compare styles. The originals are in `content/.cache/art/` (ignored by git); the repo holds JPEG previews and the WebP references.
+- Note (F1): for F2: start from the template in `content/art/style.md` and pass the model sheet of the character being rendered, from `content/art/cast/`, as the image reference. The free plan runs one job at a time; Courtney plans to take the Plus plan (1,200 credits a month, 8 images at once) when E4 is near. First check that six different words on one sheet stay on-model, then that the background remover leaves clean edges on clay. F2 also has to cut sheets into panels and decide each still's width; the model sheets' panels cut cleanly on the gutters.
+- Note (F1, cast): after the turtle was chosen, Courtney asked for a lead with more character, to double as the Instagram character the `ai-influencer` repo is building to market the app. Six candidates on one clay sheet (`content/art/style-test/cast-candidates.jpg`, prompts in `style-test/prompts.md`); Courtney chose the concha as lead and kept the alpaca, the turtle, the chick and the capybara as the cast, with each card's character chosen by fit. Model sheets for the four new characters cost 2 credits on the Plus plan (Seedream, 0.5 each). The turtle's files moved from `content/art/mascot/` to `content/art/cast/`. Small flaw to watch: the capybara's "surprised" panel grew a tuft of hair the other panels lack.
+- Note (F1): the wheel keeps one brand colour for every slice; colours per part of speech were not part of the style test.
 
 **F2 Art script and first stills**
-- Build: a script that generates a still per content card, lays out contact sheets for review, regenerates rejects and converts approved stills to WebP at the target size. Run it for the content words in the first 100.
-- Done when: every content card in the first 100 has an approved still, and the measured average size is recorded against the 40 KB estimate.
+- Build: a script that gives each content card a cast member by fit (rules and personalities in `content/art/style.md`), records the choice per card id in a file Courtney can edit, generates a still per content card with one character per sheet, lays out contact sheets for review, regenerates rejects and converts approved stills to WebP at the target size. Run it for the content words in the first 100.
+- Done when: every content card in the first 100 has a cast member and an approved still, the concha has about half of them, and the measured average size is recorded against the 40 KB estimate.
+- Note (F2, from track L, 2026-10-04): the first 100 are now the learning path's (deck version 8: 30 content, 18 form, 27 phrase and 25 glue cards), so F2 makes **36 distinct stills**, not about 67. Phrase and glue cards have no still; a form card's `image` is its verb's still, so the still of a verb whose form cards are in the deck is needed even when the infinitive card is not (see "Form cards" under [Learning path](#learning-path)). Count the stills from the distinct `image` paths of `content/deck.json`, not from content cards. The 1,000-card estimate of about 920 images is unchanged.
 
 **F3 Hero mascot animation**
-- Build: choose the animation format and record it under [Art](#art). Produce an idle loop and a celebration loop. Place them on the menu, the caught-up marker and the batch-end screen.
+- Build: choose the animation format and record it under [Art](#art). Produce an idle loop and a celebration loop from the concha's model sheet (`content/art/cast/concha-sheet.webp`), following the hero mascot rules under [Art](#art). Place the idle loop on the menu and the celebration loop on the caught-up marker and the batch-end screen, and a still pose on the empty screens. The menu's mascot slot is 48 px, too small for an animation to read; make it bigger. Replace D1's placeholder app icons with the concha (`scripts/make-icons.mjs`).
 - Done when: the mascot plays in all three places and works offline.
 
 ### Track G: audio

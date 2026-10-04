@@ -53,6 +53,7 @@ A ticket is not done until `npm test`, `npm run lint` and `npm run build` all pa
 - `scripts/content/make-audio.mjs` (`npm run audio`): makes each card's word and sentence clips (a phrase card's word clip is the whole phrase) and each tip example's clip into `public/deck/audio/` and points the deck at them; logic in `audio.mjs`. The rules are in design.md under "Audio".
 - `content/units.json` and `content/tips.json`: the learning path's unit plan (the one hand-edited input of the ordering) and the tip list; checked by `scripts/content/units.ts`. The rules are in design.md under "Learning path".
 - `content/flagged-clips.html`: the page for hearing the clips the audio check lists (flagged, long or redone), opened from disk; written by `npm run audio -- --check` from the template `scripts/content/flagged-clips.html`. It plays the clips from `public/deck/audio/`, which holds the clips of both `public/deck/deck.json` and `content/deck.json`.
+- `content/art/`: the locked art style. `style.md` holds the cast (the concha leads), the prompt template and the rules for stills; `cast/` each character's model sheet, the image reference for every render of that character. The rules are in design.md under "Art".
 - `@/` is an import alias for the repo root.
 
 ## Rules for every ticket
