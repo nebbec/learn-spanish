@@ -444,6 +444,16 @@ Decided in C6 (menu in `components/menu`):
 - **Reverse is a switch on the menu.** While it is on, every way into Practice from the menu (the button, the three options and a slice of the wheel) opens in Reverse. It does not affect Learn, and it is off each time the menu opens.
 - **Under the wheel** a line gives the memorized and seen counts in words, since the wheel's centre shows only memorized.
 
+Decided in U1 (interview with Courtney, 2026-10-04; built in U3, replacing C6's layout where they differ):
+
+- **No title.** The top bar holds only a menu button (three lines, top right). It opens a bottom sheet with Tips, Settings and the sync status line, which leaves the home page; a small dot on the button shows when sync has failed.
+- **The mascot is the centrepiece**: about 180 px, centred in the upper part of the screen, playing her idle loop, transparent (no disc, see U2). Under her, one Spanish line in the display font, chosen by state: **¡Hola!** when nothing is seen yet, **¡Muy bien!** when nothing is due and the current unit has no unseen cards, **¡Vamos!** otherwise. No English under it. Tapping her plays the line aloud and makes her jump (U4).
+- **Then the wheel** (see [The wheel](#the-wheel), "Decided in U1") with a legend under it instead of the counts line.
+- **Learn** is a full-width filled button at thumb height, with the unit name or the new-card count small under the label. Under it, one row: **Practice** (outlined, the due count) and a small square sliders button that opens a **Practice options** bottom sheet with Shuffle, In order, Struggling (with its count) and the Reverse switch.
+- **Reverse keeps C6's rule** (every way into Practice from the menu, petals included, while on; off each time the menu opens), and while on, the Practice button carries a small "Reverse on" tag.
+- **The whole screen fits a 390 by 844 phone without scrolling** (wheel about 280 px).
+- **Theme: clean white**, picked by Courtney from the U1 mockups (warm paper was the other). Background `#FFFFFF`, ink `#141416`, soft text `#6B6B73`, lines `#ECECF0`, quiet fill `#F4F4F6`, one accent: saffron `#FFB800` with ink text on it (the Learn button, the switch). Practice and the sliders button are white with a 1.5 px `#E2E2E8` border; sheets are white with a 28 px top radius over a `rgba(20, 20, 22, 0.28)` scrim. Type: Manrope throughout (800 for "¡Vamos!" at 34 px and button labels). The clay mascot and the wheel are the only rich colour. U3 swaps the `@theme` tokens app-wide. No dark mode.
+
 ### Card front
 
 - Segmented bar across the top, one segment per card in the batch.
@@ -511,6 +521,16 @@ Decided in B4 (maths in `lib/progress/progress.ts`, component in `components/Whe
 - **No hole in the middle.** The fill starts at the exact centre, as the square-root rule needs. The headline count is drawn over the fill with a light outline around the digits so it stays readable, and taps pass through it to the slices.
 - **One colour for every slice**: the brand purple for memorized and its soft tint for seen. A colour per part of speech can come with the art style (F1).
 - **Labels** sit outside the rim, so a narrow slice can still carry one.
+
+Decided in U1 (interview with Courtney, 2026-10-04; built in U3, replacing B4's look where they differ, keeping the maths):
+
+- **Petals, after Apple Health's wheel**: each slice is a petal with rounded corners and a gap from its neighbours, with a faint full-size ghost behind it standing for all its cards. Seen and memorized fill it outwards by the square-root rule, as before.
+- **No number in the centre.** A legend under the wheel gives "x% seen" and "y% memorized", each beside a small square of its colour.
+- **At 0% memorized** a small dot of the memorized colour sits in the centre, so the legend's second colour shows from the start.
+- **Colour per part of speech** (picked from the U1 mockups over one accent): noun `#23A897`, verb `#F0652F`, adjective `#6DB836`, adverb `#3B7BF0`, pronoun `#8455F0`, preposition `#E8458F`, conjunction `#EDAE00`, determiner `#12A9C9`, other `#8C9AAD`, phrase `#E2444A`. The unseen part (the ghost) is one light grey `#EFEFF2` for every petal, Courtney's call; seen is the petal's colour mixed 36% into white (a solid tint, not a see-through layer, which looks muddy over the grey); memorized is full colour. The legend's squares are ink at 22% (seen) and full ink (memorized), since the rule holds for every colour, and the centre dot is ink.
+- **Every petal reaches the same small inner circle** (radius 17 of 104), Courtney's call: narrow petals must not start further out than wide ones. The gaps are by angle (3.4°), so they narrow towards the centre; corners are rounded (9 px outside, up to 4 px inside). With the inner circle, the fill radius is `sqrt(r0² + f·(R² − r0²))`, which keeps area true to the fraction.
+- **Percentages are of the cards shipped** (the deck the app serves, 100 today), not of the 1,000 goal, so a beginner's wheel does not look empty for months. They dip a little each time a batch of new cards ships.
+- **Labels stay short words outside the rim** ("nouns", "verbs"), no icons. Tapping a petal still starts Practice for it.
 
 ## Art
 
@@ -932,6 +952,10 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done except: deploy, Start over and study unit 1 on the phone |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | M1 | Archive finished tickets' notes | none | | Done |
+| U1 | Home page mockups | none | Pick a theme | Done |
+| U2 | Transparent mascot | none | Approve the cost and the cut-outs | Todo |
+| U3 | New theme and home page | U1, U2 | | Todo |
+| U4 | Tap the mascot | U3 | Listen to the clips | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
@@ -1218,6 +1242,27 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Note (M1): moved the 132 note lines of the 44 Done tickets (Status Done, Done except or Done with a remark, so D6, G1 and G3 too) into [history.md](history.md); each of those tickets now has one "Notes: in history.md" line after its other lines. Kept here: open tickets' notes (F2, F3, H1, L17, S1 to S4), M1's own notes, the "Why:" line under A2, and everything outside "Tickets", which holds every "Decided in …" block and the Learning path section. Moved lines are word for word except that a link to a section of this doc now names the file (`design.md#audio` where it had `#audio`), so it still resolves from history.md.
 - Note (M1): the check is `node scripts/check-history.mjs`: it lists the lines removed from this doc between the commit before M1 (`e221464`) and the move commit (`9885461`), 132, and finds each in history.md (0 missing); then it resolves every relative link and anchor in the working tree's design.md, history.md, ticket-loop.md and CLAUDE.md (none broken). With `e221464 worktree` it compares against the working tree instead, and then also lists the two lines M1 changed on purpose after the move (the sizing row and M1's board row). Size of this doc: 229,295 bytes before, 156,744 after the move, about 159 KB with these notes.
 - Note (M1): CLAUDE.md and the builder brief in ticket-loop.md now point at history.md. Archiving again later is the same move: notes of Done tickets under their headings in history.md, a link line left here.
+
+### Track U: UI upgrade
+
+Added 2026-10-04 at Courtney's request: the app looks clunky, starting with the menu. The agreed design is under [Menu](#menu) and [The wheel](#the-wheel), "Decided in U1". After U3, the other screens get the same treatment one at a time, most used first (card front and reveal, then batch end, then settings and tips), each with its own mockup round reusing the chosen theme; write those tickets when U3 is done.
+
+**U1 Home page mockups**
+- Do: in Claude Design, one canvas with two columns, one per theme: warm paper with the one-accent wheel, clean white with the multicolour wheel. Each column has four phone frames (390 by 844): home mid-progress (¡Vamos!, about 40% seen and 15% memorized, 12 due, a unit name on Learn), home on the first visit (¡Hola!, an empty wheel with the centre dot, 0 due), the menu sheet open, and the Practice options sheet open. Real part-of-speech groups and counts from the 100-card deck; the mascot is her transparent still.
+- Done when: Courtney has picked a theme and a wheel colouring, and the pick is recorded in "Decided in U1" under [Menu](#menu) and [The wheel](#the-wheel), with the theme's colour values.
+- Note (U1): the canvas is the private Claude Design artifact https://claude.ai/artifact/CaYTFa2zg7yip89qnYXkCJ (rows: warm paper, then clean white; the clean white row is the one to build). Courtney picked clean white with a colour per part of speech on 2026-10-04, then asked for two changes, both on the canvas and in "Decided in U1": every petal reaches the same inner circle, and the unseen part is one grey for all petals. The labels "prep." and "conj." are shortened to fit 390 px; "determiners" just fits.
+
+**U2 Transparent mascot**
+- Do: run the two loops in use (`idle-t2`, `celebrate-t3`) through Higgsfield's Video Background Remover (`video_background_remover`), after showing Courtney the cost (`higgsfield generate cost`). Ship each loop in two formats, since no one video format with transparency plays everywhere: WebM (VP9 with alpha) for Chrome, Android and Firefox, and HEVC with alpha for Safari and iPhone, as `<source>`s the browser picks from. Posters become transparent WebP. Remove `.mascot-disc` and its use, so no screen shows a disc. Extend `npm run mascot` to do it from `content/art/mascot/takes.json`; the service worker stores the new files.
+- Done when: on white and on cream, in Chromium and WebKit, the menu loop, the batch-end celebration and the caught-up marker show no halo or box, the reduced-motion poster is transparent too, and Courtney has approved the cut-outs (her sugar crust is cream, so check its edges).
+
+**U3 New theme and home page**
+- Do: swap the `@theme` tokens in `app/globals.css` to the theme picked in U1, app-wide; check every screen once and fix only what breaks (card shadow, purple tints, rating colours on the new background). Build the home page as "Decided in U1" under [Menu](#menu): the petal wheel with its legend and centre dot (`components/Wheel.tsx`; the maths in `lib/progress` stays), the 180 px mascot with the state line, the menu sheet, the Practice options sheet and the Reverse tag.
+- Done when: the menu matches the chosen mockup at 390 by 844 with no scrolling, the menu tests cover the sheets, the state line and the Reverse tag, and tests, lint and build pass.
+
+**U4 Tap the mascot**
+- Do: make three clips (¡Hola!, ¡Vamos!, ¡Muy bien!) with the audio script's voice; tapping the mascot on the menu plays the line shown under her (respecting the mute switch) and plays her jump.
+- Done when: a tap plays the right clip once and jumps, a tap while muted only jumps, and reduced motion leaves the jump out.
 
 ### Track H: acceptance
 
