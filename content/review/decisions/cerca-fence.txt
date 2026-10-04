@@ -1,4 +1,5 @@
 # cerca-fence · rank 339 · cerca
+# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
 #
 # Why it was flagged:
 #   - One right answer: For 'fence' around a yard or field, other common Latin American words are just as right (el cerco, la reja, la valla, el alambrado), and the hint does not rule them out. Suggested fix: hint: around a yard or field; the same word as 'near'
@@ -12,14 +13,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         cerca-fence
 kind:       content
 pos:        noun
 es:         la cerca
 en:         fence
-hint:       around a yard or field
+hint:       around a yard or field; the same word as 'near'
 gender:     f
 article:    la
 example.es: El perro saltó la cerca.

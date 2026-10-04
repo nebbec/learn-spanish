@@ -1,4 +1,6 @@
 # phrase-can-you-repeat-that · rank 1006 · when-i-dont-understand
+# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
+# Claude: no field changed. The reviewer gave no suggested fix (repetir is outside the top 1,000); approve to keep it, or reject.
 #
 # Why it was flagged:
 #   - Words outside the top 1,000: The phrase uses repetir, not among the 1,000 most common words.
@@ -12,7 +14,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         phrase-can-you-repeat-that
 kind:       phrase

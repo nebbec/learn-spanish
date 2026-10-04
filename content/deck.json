@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "version": 7,
+  "version": 8,
   "units": [
     {
       "id": "me-and-you",
@@ -48,7 +48,316 @@
       "goal": "ask for help politely and say what you can and need."
     }
   ],
-  "tips": [],
+  "tips": [
+    {
+      "id": "tip-no-pronoun",
+      "title": "Spanish drops \"I\" and \"you\"",
+      "body": "In Spanish, the verb's ending already tells you who is doing it. Soy means I am and eres means you are, so you don't need a separate word for I or you. To say I'm from Chile, just say soy de Chile. Add yo (I) or tú (you) only when you want to stress the person or compare two people, as in English when you say I am, but you are.",
+      "examples": [
+        {
+          "es": "Soy de México.",
+          "en": "I'm from Mexico.",
+          "audio": "/deck/audio/tip-no-pronoun.1.711b7249.mp3"
+        },
+        {
+          "es": "¿Eres Ana?",
+          "en": "Are you Ana?",
+          "audio": "/deck/audio/tip-no-pronoun.2.e1962e9f.mp3"
+        },
+        {
+          "es": "Yo soy Luis y tú eres Ana.",
+          "en": "I'm Luis, and you're Ana.",
+          "audio": "/deck/audio/tip-no-pronoun.3.fb70a0b6.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-two-to-be",
+      "title": "Two verbs for \"to be\"",
+      "body": "Spanish has two verbs that both mean to be: ser and estar. Use ser (soy, eres, es) for what someone is: their name, where they're from, their job, what they're like. Use estar (estoy, estás, está) for how someone is right now and where they are. So soy de México tells people where you come from, but estoy bien tells them how you feel today. If it's about how you feel or where you are at the moment, reach for estar.",
+      "examples": [
+        {
+          "es": "Soy Ana y estoy muy bien.",
+          "en": "I'm Ana and I'm very well.",
+          "audio": "/deck/audio/tip-two-to-be.1.98a96843.mp3"
+        },
+        {
+          "es": "Él es de Chile y está aquí.",
+          "en": "He's from Chile and he's here.",
+          "audio": "/deck/audio/tip-two-to-be.2.78d8df5f.mp3"
+        },
+        {
+          "es": "Ella está en Lima.",
+          "en": "She's in Lima.",
+          "audio": "/deck/audio/tip-two-to-be.3.d1392d7b.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-verb-endings",
+      "title": "Verbs change with who does them",
+      "body": "A Spanish verb changes its ending to show who is doing it. Quiero means I want, quieres means you want, and quiere means he or she wants. Tener works the same way: tengo is I have, tienes is you have, and tiene is he or she has. Most of the time, an ending in -o means I, an ending in -s means you, and an ending in -e means he or she. Listen for the ending, because it tells you who, even when nobody says yo, tú or ella.",
+      "examples": [
+        {
+          "es": "Quiero un café, por favor.",
+          "en": "I want a coffee, please.",
+          "audio": "/deck/audio/tip-verb-endings.1.eaf1bfc6.mp3"
+        },
+        {
+          "es": "Tienes mi café.",
+          "en": "You have my coffee.",
+          "audio": "/deck/audio/tip-verb-endings.2.1997e211.mp3"
+        },
+        {
+          "es": "Ella quiere un café y tiene mi café.",
+          "en": "She wants a coffee and has my coffee.",
+          "audio": "/deck/audio/tip-verb-endings.3.8418bbf5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-el-la",
+      "title": "Every noun is el or la",
+      "body": "In Spanish, every noun (a word for a person or a thing) is either masculine or feminine. Masculine words use el for the and un for a, like el hermano and un amigo. Feminine words use la for the and una for a, like la hermana and una amiga. This is true for things too, so coffee is masculine: el café. Words ending in -o are usually el and words ending in -a are usually la, but not always, so learn el or la together with each new word.",
+      "examples": [
+        {
+          "es": "Tengo un hermano y una hermana.",
+          "en": "I have a brother and a sister.",
+          "audio": "/deck/audio/tip-el-la.1.3b45f2a3.mp3"
+        },
+        {
+          "es": "La madre de Ana está aquí.",
+          "en": "Ana's mother is here.",
+          "audio": "/deck/audio/tip-el-la.2.fe389288.mp3"
+        },
+        {
+          "es": "Quiero un café, por favor.",
+          "en": "I'd like a coffee, please.",
+          "audio": "/deck/audio/tip-el-la.3.eaf1bfc6.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-adjective-after",
+      "title": "Describing words come after and match",
+      "body": "In Spanish, a describing word usually comes after the thing it describes, so a big coffee is un café grande. It also matches that thing: use the -o ending for an el word and the -a ending for a la word, as in un amigo nuevo and una amiga nueva. When there is more than one, add -s to both words, as in dos amigos nuevos. Words that end in -e, like grande, are the same for el words and la words. So say the thing first, then make the describing word's ending match it.",
+      "examples": [
+        {
+          "es": "Quiero un café grande.",
+          "en": "I want a big coffee.",
+          "audio": "/deck/audio/tip-adjective-after.1.ba4602fb.mp3"
+        },
+        {
+          "es": "Mi hermana tiene una amiga nueva.",
+          "en": "My sister has a new friend.",
+          "audio": "/deck/audio/tip-adjective-after.2.159d3365.mp3"
+        },
+        {
+          "es": "Tengo dos hermanos pequeños.",
+          "en": "I have two little brothers.",
+          "audio": "/deck/audio/tip-adjective-after.3.3b115473.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-questions",
+      "title": "Questions and ¿ ¡",
+      "body": "In Spanish, a question opens with an upside-down ¿ and closes with ?, so you know from the start that it's a question. Exclamations work the same way, with ¡ at the start and ! at the end, as in ¡Hola! For a yes-or-no question, you can take a normal sentence and raise your voice at the end: eres de México means you are from Mexico, and ¿Eres de México? asks it. Question words always carry an accent mark, like qué, dónde and cómo. The accent doesn't change the sound much, but it marks the word as a question word, so keep it when you ask.",
+      "examples": [
+        {
+          "es": "¿Eres de México?",
+          "en": "Are you from Mexico?",
+          "audio": "/deck/audio/tip-questions.1.a2090611.mp3"
+        },
+        {
+          "es": "¿Dónde está tu hermana?",
+          "en": "Where is your sister?",
+          "audio": "/deck/audio/tip-questions.2.536f7773.mp3"
+        },
+        {
+          "es": "¡Muy bien, gracias!",
+          "en": "Very well, thanks!",
+          "audio": "/deck/audio/tip-questions.3.43cfcc4a.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-no-before-verb",
+      "title": "No goes before the verb",
+      "body": "To say not in Spanish, you just put no right before the action word, the verb. So sé means I know, and no sé means I don't know. Spanish has no extra word like don't, so no entiendo means I don't understand. When you answer a question with no, you often say it twice: No, no sé means No, I don't know. The first no answers the question, and the second no goes before the verb.",
+      "examples": [
+        {
+          "es": "No, no sé.",
+          "en": "No, I don't know.",
+          "audio": "/deck/audio/tip-no-before-verb.1.15f1afd5.mp3"
+        },
+        {
+          "es": "No quiero café.",
+          "en": "I don't want coffee.",
+          "audio": "/deck/audio/tip-no-before-verb.2.a7f9463c.mp3"
+        },
+        {
+          "es": "Él no está aquí.",
+          "en": "He isn't here.",
+          "audio": "/deck/audio/tip-no-before-verb.3.a9ba36ab.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-tu-usted",
+      "title": "Tú and usted",
+      "body": "Spanish has two ways to say you. Use tú with friends, family and people your age, and usted to be polite with strangers and older people. With usted, the verb takes the same form as for he or she, so you say puede, not puedes. ¿Puedes ayudarme? asks a friend for help, and ¿Puede ayudarme? asks a stranger politely. If you're not sure which one to use, usted is the safe choice.",
+      "examples": [
+        {
+          "es": "Perdón, ¿puede ayudarme?",
+          "en": "Excuse me, can you help me?",
+          "audio": "/deck/audio/tip-tu-usted.1.0752c944.mp3"
+        },
+        {
+          "es": "Ana, ¿puedes ayudarme?",
+          "en": "Ana, can you help me?",
+          "audio": "/deck/audio/tip-tu-usted.2.af337fde.mp3"
+        },
+        {
+          "es": "Buenos días, ¿cómo está usted?",
+          "en": "Good morning, how are you?",
+          "audio": "/deck/audio/tip-tu-usted.3.ede7ee3d.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-going-to",
+      "title": "Going to: voy a…",
+      "body": "To talk about plans, Spanish uses ir a, just like going to in English. Take the right form of ir (voy, vas or va), add a, then add a second verb. That second verb stays in its basic form, the one ending in -ar, -er or -ir that you'd find in a dictionary, like hablar or entender. So voy a hablar means I'm going to speak, and ¿vas a venir? means are you going to come? Add hoy or mañana to say when your plan happens.",
+      "examples": [
+        {
+          "es": "Voy a hablar inglés.",
+          "en": "I'm going to speak English.",
+          "audio": "/deck/audio/tip-going-to.1.526233fc.mp3"
+        },
+        {
+          "es": "¿Vas a estar en casa hoy?",
+          "en": "Are you going to be home today?",
+          "audio": "/deck/audio/tip-going-to.2.f7e9839c.mp3"
+        },
+        {
+          "es": "Mi amiga va a necesitar ayuda mañana.",
+          "en": "My friend is going to need help tomorrow.",
+          "audio": "/deck/audio/tip-going-to.3.3cce88a2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-regular-endings",
+      "title": "Regular -ar, -er and -ir verbs",
+      "body": "Most Spanish verbs follow one of three patterns, depending on whether they end in -ar, -er or -ir. To use one, drop that ending and add a new one that shows who is doing it. For I, add -o: hablo means I speak, como means I eat, vivo means I live. For you, add -as to -ar verbs and -es to the others: hablas, comes, vives. For he or she, add -a to -ar verbs and -e to the others: habla, come, vive.",
+      "examples": [
+        {
+          "es": "Trabajo en un hotel.",
+          "en": "I work in a hotel.",
+          "audio": "/deck/audio/tip-regular-endings.1.ac6f6592.mp3"
+        },
+        {
+          "es": "¿Dónde vives?",
+          "en": "Where do you live?",
+          "audio": "/deck/audio/tip-regular-endings.2.08ea3563.mp3"
+        },
+        {
+          "es": "Mi madre come aquí.",
+          "en": "My mother eats here.",
+          "audio": "/deck/audio/tip-regular-endings.3.49fdabed.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-gustar",
+      "title": "Gustar works backwards",
+      "body": "Spanish says I like backwards: me gusta el café really means the coffee pleases me. The thing you like does the pleasing, so the verb matches that thing, not you. Say me gusta for one thing and me gustan for two or more things. To ask someone if they like something, swap me for te: ¿te gusta el café? means do you like coffee?",
+      "examples": [
+        {
+          "es": "Me gusta mucho el café.",
+          "en": "I really like coffee.",
+          "audio": "/deck/audio/tip-gustar.1.d5fe914e.mp3"
+        },
+        {
+          "es": "Me gustan los hoteles pequeños.",
+          "en": "I like small hotels.",
+          "audio": "/deck/audio/tip-gustar.2.4762a420.mp3"
+        },
+        {
+          "es": "¿Te gusta la cerveza?",
+          "en": "Do you like beer?",
+          "audio": "/deck/audio/tip-gustar.3.80233951.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-object-pronouns",
+      "title": "Me, te, lo go before the verb",
+      "body": "The small words for me, you, him, her and it are me, te, lo and la, and they go right before the verb. So I love you is te quiero, which word for word is you I love. Lo veo means I see him or I see it, and la veo means I see her. When the verb is in its dictionary form, the one ending in -ar, -er or -ir, the small word attaches to the end of it instead. So to help me is ayudarme, all one word.",
+      "examples": [
+        {
+          "es": "Te quiero mucho, mi amor.",
+          "en": "I love you so much, my love.",
+          "audio": "/deck/audio/tip-object-pronouns.1.112dcf9e.mp3"
+        },
+        {
+          "es": "Lo veo mañana.",
+          "en": "I'll see him tomorrow.",
+          "audio": "/deck/audio/tip-object-pronouns.2.7e3b250d.mp3"
+        },
+        {
+          "es": "¿Puedes llamarme mañana?",
+          "en": "Can you call me tomorrow?",
+          "audio": "/deck/audio/tip-object-pronouns.3.ebab0cd0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-por-para",
+      "title": "Por and para",
+      "body": "Por and para can both mean for, but they point in different directions. Para looks ahead to a goal or to the person who gets something: para mi madre means for my mother, and para comer means in order to eat. Para can also give a deadline, so para mañana means by tomorrow. Por looks back at a reason or an exchange: you already know por favor, and gracias por todo means thanks for everything. Por can also mean through or around a place, so por aquí means around here.",
+      "examples": [
+        {
+          "es": "Este café es para mi madre.",
+          "en": "This coffee is for my mother.",
+          "audio": "/deck/audio/tip-por-para.1.60a71f53.mp3"
+        },
+        {
+          "es": "Gracias por la ayuda.",
+          "en": "Thanks for the help.",
+          "audio": "/deck/audio/tip-por-para.2.557ff3f2.mp3"
+        },
+        {
+          "es": "¿Hay un baño por aquí?",
+          "en": "Is there a bathroom around here?",
+          "audio": "/deck/audio/tip-por-para.3.db169c54.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-past",
+      "title": "Talking about the past",
+      "body": "To talk about something that already happened, Spanish changes the end of the verb. For -ar verbs like hablar, drop the -ar and add -é for I or -ó for he or she, so hablé means I spoke and habló means he or she spoke. Say the accent clearly, because hablo with no accent means I speak, right now. Some very common verbs have their own short past forms, so learn them as words: tuve means I had, and hice means I did or I made. Fue has two meanings: it was, and he or she went, and the rest of the sentence tells you which one.",
+      "examples": [
+        {
+          "es": "Hablé con Ana y ella habló conmigo.",
+          "en": "I talked to Ana and she talked to me.",
+          "audio": "/deck/audio/tip-past.1.8b2da4a6.mp3"
+        },
+        {
+          "es": "Mi padre fue a la fiesta.",
+          "en": "My father went to the party.",
+          "audio": "/deck/audio/tip-past.2.bc5facfb.mp3"
+        },
+        {
+          "es": "Hoy tuve mucho trabajo.",
+          "en": "I had a lot of work today.",
+          "audio": "/deck/audio/tip-past.3.d6eaee84.mp3"
+        }
+      ]
+    }
+  ],
   "cards": [
     {
       "id": "no-no-answer",
@@ -69,6 +378,31 @@
       "audio": {
         "word": "/deck/audio/no-no-answer.word.31fc1e71.mp3",
         "sentence": "/deck/audio/no-no-answer.sentence.9a63f2cb.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "si-yes",
+      "rank": 32,
+      "kind": "content",
+      "pos": "adverb",
+      "es": "sí",
+      "en": "yes",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Chocolate? ¡Sí, sí!",
+        "en": "Chocolate? Yes, yes!"
+      },
+      "spain": null,
+      "trick": "SÍ sounds like see: when you see what someone means, you nod and say yes.",
+      "image": "/deck/img/si-yes.webp",
+      "audio": {
+        "word": "/deck/audio/si-yes.word.f9173474.mp3",
+        "sentence": "/deck/audio/si-yes.sentence.20542ca9.mp3"
       },
       "unit": "me-and-you",
       "requires": [],
@@ -176,6 +510,109 @@
       "why": null
     },
     {
+      "id": "gracias-thank-you",
+      "rank": 75,
+      "kind": "content",
+      "pos": "other",
+      "es": "gracias",
+      "en": "thank you",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "No, gracias. Yo insisto.",
+        "en": "No, thank you. I insist."
+      },
+      "spain": null,
+      "trick": "GRACIAS sounds like gracious: a gracious person always says thank you.",
+      "image": "/deck/img/gracias-thank-you.webp",
+      "audio": {
+        "word": "/deck/audio/gracias-thank-you.word.2bd04ed6.mp3",
+        "sentence": "/deck/audio/gracias-thank-you.sentence.7fbfb8c3.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "hola-hello",
+      "rank": 88,
+      "kind": "content",
+      "pos": "other",
+      "es": "hola",
+      "en": "hello",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¡Hola, Ana! Sí, yo insisto.",
+        "en": "Hello, Ana! Yes, I insist."
+      },
+      "spain": null,
+      "trick": "HOLA sounds like \"hello\" with an O and an A: you holler hola to say hello.",
+      "image": "/deck/img/hola-hello.webp",
+      "audio": {
+        "word": "/deck/audio/hola-hello.word.941dae82.mp3",
+        "sentence": "/deck/audio/hola-hello.sentence.6677da6a.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "adios-goodbye",
+      "rank": 274,
+      "kind": "content",
+      "pos": "other",
+      "es": "adiós",
+      "en": "goodbye",
+      "hint": "the standard word, not chao",
+      "grammar": null,
+      "example": {
+        "es": "Gracias, yo no insisto. ¡Adiós, Ana!",
+        "en": "Thanks, I won't insist. Goodbye, Ana!"
+      },
+      "spain": null,
+      "trick": "ADIÓS sounds like \"a dose\": take a dose of courage before saying goodbye.",
+      "image": "/deck/img/adios-goodbye.webp",
+      "audio": {
+        "word": "/deck/audio/adios-goodbye.word.7ab4e932.mp3",
+        "sentence": "/deck/audio/adios-goodbye.sentence.ddfcc219.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-no-thank-you",
+      "rank": 75,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "No, gracias.",
+      "en": "No, thank you.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Chocolate? No, gracias.",
+        "en": "Chocolate? No, thank you."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-no-thank-you.word.a978fa83.mp3",
+        "sentence": "/deck/audio/phrase-no-thank-you.sentence.eb2a92e6.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [
+        "no-no-answer",
+        "gracias-thank-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "phrase-please",
       "rank": 105,
       "kind": "phrase",
@@ -201,6 +638,163 @@
       "why": null
     },
     {
+      "id": "phrase-yes-please",
+      "rank": 105,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Sí, por favor.",
+      "en": "Yes, please.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Sí, por favor, yo insisto.",
+        "en": "Yes, please, I insist."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-yes-please.word.ddac2c82.mp3",
+        "sentence": "/deck/audio/phrase-yes-please.sentence.efe1d7a8.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [
+        "si-yes",
+        "phrase-please"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "ser-form-yo",
+      "rank": 4,
+      "kind": "form",
+      "pos": "verb",
+      "es": "soy",
+      "en": "I am",
+      "hint": "identity, origin",
+      "grammar": {
+        "present": {
+          "yo": "soy",
+          "tu": "eres",
+          "el": "es"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Hola, yo soy Ana.",
+        "en": "Hello, I am Ana."
+      },
+      "spain": null,
+      "trick": "Picture yourself proudly announcing I am soy sauce: yo soy.",
+      "image": "/deck/img/ser-be-identity.webp",
+      "audio": {
+        "word": "/deck/audio/ser-form-yo.word.e0e7cdf9.mp3",
+        "sentence": "/deck/audio/ser-form-yo.sentence.6b8f32ca.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "yo-i"
+      ],
+      "tip": "tip-no-pronoun",
+      "why": "Use soy for who or what you are and where you're from; estoy for how or where you are right now."
+    },
+    {
+      "id": "de-from",
+      "rank": 2,
+      "kind": "glue",
+      "pos": "preposition",
+      "es": "de",
+      "en": "I'm [from] Mexico",
+      "hint": "origin",
+      "grammar": null,
+      "example": {
+        "es": "Hola, soy de Colombia.",
+        "en": "Hello, I'm from Colombia."
+      },
+      "spain": null,
+      "trick": "DE sounds like day: you came FROM far away, a whole day's trip.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/de-from.word.d852311f.mp3",
+        "sentence": "/deck/audio/de-from.sentence.c6a7a3be.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "ser-form-yo"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "ser-form-tu",
+      "rank": 4,
+      "kind": "form",
+      "pos": "verb",
+      "es": "eres",
+      "en": "you are",
+      "hint": "identity, informal",
+      "grammar": {
+        "present": {
+          "yo": "soy",
+          "tu": "eres",
+          "el": "es"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Hola, ¿tú eres Carlos?",
+        "en": "Hi, are you Carlos?"
+      },
+      "spain": null,
+      "trick": "Eres sounds like heiress: you are an heiress.",
+      "image": "/deck/img/ser-be-identity.webp",
+      "audio": {
+        "word": "/deck/audio/ser-form-tu.word.bba90983.mp3",
+        "sentence": "/deck/audio/ser-form-tu.sentence.3379a055.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "tu-you-informal"
+      ],
+      "tip": "tip-no-pronoun",
+      "why": "Use eres for who or what someone is; estás for how or where they are right now."
+    },
+    {
+      "id": "ser-form-el",
+      "rank": 4,
+      "kind": "form",
+      "pos": "verb",
+      "es": "es",
+      "en": "he / she is",
+      "hint": "identity, origin",
+      "grammar": {
+        "present": {
+          "yo": "soy",
+          "tu": "eres",
+          "el": "es"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Ella es de México.",
+        "en": "She is from Mexico."
+      },
+      "spain": null,
+      "trick": "Es sounds just like the start of is: he es, she es.",
+      "image": "/deck/img/ser-be-identity.webp",
+      "audio": {
+        "word": "/deck/audio/ser-form-el.word.17d18e9e.mp3",
+        "sentence": "/deck/audio/ser-form-el.sentence.54630b60.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "el-he"
+      ],
+      "tip": "tip-no-pronoun",
+      "why": "Use es for what someone or something is; está for how or where it is right now."
+    },
+    {
       "id": "y-and",
       "rank": 9,
       "kind": "glue",
@@ -219,6 +813,87 @@
       "audio": {
         "word": "/deck/audio/y-and.word.6b3daaa6.mp3",
         "sentence": "/deck/audio/y-and.sentence.b1aff77f.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-i-am-from-mexico",
+      "rank": 4,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Soy de México.",
+      "en": "I am from Mexico.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Hola, soy Ana y soy de México.",
+        "en": "Hi, I'm Ana and I'm from Mexico."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-i-am-from-mexico.word.711b7249.mp3",
+        "sentence": "/deck/audio/phrase-i-am-from-mexico.sentence.96ca0dba.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "ser-form-yo",
+        "de-from"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-are-you-from-mexico",
+      "rank": 4,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "¿Eres de México?",
+      "en": "Are you from Mexico?",
+      "hint": "informal",
+      "grammar": null,
+      "example": {
+        "es": "¿Eres de México? Sí, soy de Monterrey.",
+        "en": "Are you from Mexico? Yes, I'm from Monterrey."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-are-you-from-mexico.word.a2090611.mp3",
+        "sentence": "/deck/audio/phrase-are-you-from-mexico.sentence.740656d2.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "ser-form-tu",
+        "de-from"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-youre-welcome",
+      "rank": 66,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "De nada.",
+      "en": "You're welcome.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "—Gracias, Ana. Eres fantástica. —¡De nada!",
+        "en": "—Thanks, Ana. You're fantastic. —You're welcome!"
+      },
+      "spain": null,
+      "trick": "De nada literally means \"of nothing\", like saying \"it was nothing\".",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-youre-welcome.word.a216c610.mp3",
+        "sentence": "/deck/audio/phrase-youre-welcome.sentence.302bcb32.mp3"
       },
       "unit": "who-i-am",
       "requires": [],
@@ -247,6 +922,84 @@
       },
       "unit": "who-i-am",
       "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-whats-your-name",
+      "rank": 82,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "¿Cómo te llamas?",
+      "en": "What's your name?",
+      "hint": "informal; the everyday way, literally \"how do you call yourself?\"",
+      "grammar": null,
+      "example": {
+        "es": "Hola, ¿cómo te llamas? —Me llamo Ana.",
+        "en": "Hi, what's your name? —My name is Ana."
+      },
+      "spain": null,
+      "trick": "It literally means \"how do you call yourself?\", where cómo is \"how\" and te llamas is \"you call yourself\".",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-whats-your-name.word.2a5ba6dc.mp3",
+        "sentence": "/deck/audio/phrase-whats-your-name.sentence.f9acf8f7.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-nice-to-meet-you",
+      "rank": 625,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Mucho gusto.",
+      "en": "Nice to meet you.",
+      "hint": "The everyday two-word phrase, literally \"much pleasure\", that anyone can say, man or woman.",
+      "grammar": null,
+      "example": {
+        "es": "Hola, me llamo Ana. Mucho gusto.",
+        "en": "Hi, my name is Ana. Nice to meet you."
+      },
+      "spain": "Spain more often says encantado, or encantada if you are a woman.",
+      "trick": "Gusto means pleasure, like doing something with gusto, so mucho gusto is literally much pleasure.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-nice-to-meet-you.word.30f4ec78.mp3",
+        "sentence": "/deck/audio/phrase-nice-to-meet-you.sentence.a3f086fe.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-my-name-is-ana",
+      "rank": 625,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Me llamo Ana. Mucho gusto.",
+      "en": "My name is Ana. Nice to meet you.",
+      "hint": "The everyday \"I call myself\" way, then the two-word phrase anyone can say, man or woman.",
+      "grammar": null,
+      "example": {
+        "es": "—Me llamo Ana. Mucho gusto. —Mucho gusto, Ana.",
+        "en": "My name is Ana. Nice to meet you. Nice to meet you, Ana."
+      },
+      "spain": "Me llamo Ana. Encantada. (Encantado or encantada is more common than mucho gusto in Spain.)",
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-my-name-is-ana.word.a4c5956a.mp3",
+        "sentence": "/deck/audio/phrase-my-name-is-ana.sentence.2bdcd61e.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "phrase-my-name-is",
+        "phrase-nice-to-meet-you"
+      ],
       "tip": null,
       "why": null
     },
@@ -283,6 +1036,40 @@
       ],
       "tip": null,
       "why": "Use estás for how or where someone is right now; eres for who or what they are."
+    },
+    {
+      "id": "estar-form-el",
+      "rank": 8,
+      "kind": "form",
+      "pos": "verb",
+      "es": "está",
+      "en": "he / she is",
+      "hint": "state, place",
+      "grammar": {
+        "present": {
+          "yo": "estoy",
+          "tu": "estás",
+          "el": "está"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Hola, Ana. ¿Cómo está Pedro?",
+        "en": "Hi, Ana. How is Pedro?"
+      },
+      "spain": null,
+      "trick": null,
+      "image": "/deck/img/estar-be-state.webp",
+      "audio": {
+        "word": "/deck/audio/estar-form-el.word.e128a90b.mp3",
+        "sentence": "/deck/audio/estar-form-el.sentence.b16308bc.mp3"
+      },
+      "unit": "how-and-where-i-am",
+      "requires": [
+        "el-he"
+      ],
+      "tip": null,
+      "why": "Use está for how or where something is right now; es for what it is."
     },
     {
       "id": "en-in",
@@ -335,6 +1122,41 @@
       "why": "Use bien for how someone is or how something is done; bueno describes what a person or thing is like."
     },
     {
+      "id": "estar-form-yo",
+      "rank": 8,
+      "kind": "form",
+      "pos": "verb",
+      "es": "estoy",
+      "en": "I am",
+      "hint": "state, place",
+      "grammar": {
+        "present": {
+          "yo": "estoy",
+          "tu": "estás",
+          "el": "está"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Hola, estoy en México.",
+        "en": "Hi, I'm in Mexico."
+      },
+      "spain": null,
+      "trick": "Estoy sounds like \"a stay\": where I stay is where I am right now.",
+      "image": "/deck/img/estar-be-state.webp",
+      "audio": {
+        "word": "/deck/audio/estar-form-yo.word.d5ab15f0.mp3",
+        "sentence": "/deck/audio/estar-form-yo.sentence.918c368a.mp3"
+      },
+      "unit": "how-and-where-i-am",
+      "requires": [
+        "yo-i",
+        "bien-well"
+      ],
+      "tip": "tip-two-to-be",
+      "why": "Use estoy for how or where you are right now; soy for who or what you are."
+    },
+    {
       "id": "aqui-here",
       "rank": 43,
       "kind": "content",
@@ -385,6 +1207,60 @@
       "why": null
     },
     {
+      "id": "mal-badly",
+      "rank": 204,
+      "kind": "content",
+      "pos": "adverb",
+      "es": "mal",
+      "en": "badly",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Él está muy mal.",
+        "en": "He's doing very badly."
+      },
+      "spain": null,
+      "trick": "MAL as in malfunction: a machine that malfunctions is working badly.",
+      "image": "/deck/img/mal-badly.webp",
+      "audio": {
+        "word": "/deck/audio/mal-badly.word.4943bc30.mp3",
+        "sentence": "/deck/audio/mal-badly.sentence.bd8eed38.mp3"
+      },
+      "unit": "how-and-where-i-am",
+      "requires": [],
+      "tip": null,
+      "why": "Use mal for how you are or how something is done (estoy mal); malo describes a noun (un día malo)."
+    },
+    {
+      "id": "phrase-im-here-in-mexico",
+      "rank": 43,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Estoy aquí en México.",
+      "en": "I'm here in Mexico.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Hola, Ana. Estoy muy bien, estoy aquí en México.",
+        "en": "Hi, Ana. I'm very well, I'm here in Mexico."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-im-here-in-mexico.word.aa82c4e7.mp3",
+        "sentence": "/deck/audio/phrase-im-here-in-mexico.sentence.399cab3d.mp3"
+      },
+      "unit": "how-and-where-i-am",
+      "requires": [
+        "estar-form-yo",
+        "aqui-here",
+        "en-in"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "phrase-how-are-you",
       "rank": 67,
       "kind": "phrase",
@@ -406,6 +1282,38 @@
       },
       "unit": "how-and-where-i-am",
       "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-im-very-well-thank",
+      "rank": 75,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Estoy muy bien, gracias. ¿Y tú?",
+      "en": "I'm very well, thank you. And you?",
+      "hint": "informal",
+      "grammar": null,
+      "example": {
+        "es": "—¿Cómo estás? —Estoy muy bien, gracias. ¿Y tú?",
+        "en": "How are you? I'm very well, thank you. And you?"
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-im-very-well-thank.word.94405c33.mp3",
+        "sentence": "/deck/audio/phrase-im-very-well-thank.sentence.8be7ade6.mp3"
+      },
+      "unit": "how-and-where-i-am",
+      "requires": [
+        "estar-form-yo",
+        "muy-very",
+        "bien-well",
+        "gracias-thank-you",
+        "y-and",
+        "tu-you-informal"
+      ],
       "tip": null,
       "why": null
     },
@@ -432,6 +1340,65 @@
       "unit": "how-and-where-i-am",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "un-a",
+      "rank": 6,
+      "kind": "glue",
+      "pos": "determiner",
+      "es": "un",
+      "en": "I want [a] book",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Estoy en un hotel muy bueno.",
+        "en": "I'm at a very good hotel."
+      },
+      "spain": null,
+      "trick": "UN sounds like oon, a short form of uno (one), so un libro is one book, a book.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/un-a.word.8a3b13c0.mp3",
+        "sentence": "/deck/audio/un-a.sentence.7d0eddcd.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "tener-form-yo",
+      "rank": 13,
+      "kind": "form",
+      "pos": "verb",
+      "es": "tengo",
+      "en": "I have",
+      "hint": "own, possess",
+      "grammar": {
+        "present": {
+          "yo": "tengo",
+          "tu": "tienes",
+          "el": "tiene"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Tengo un hotel en México.",
+        "en": "I have a hotel in Mexico."
+      },
+      "spain": null,
+      "trick": "Tengo sounds like tango: I have a tango partner.",
+      "image": "/deck/img/tener-have.webp",
+      "audio": {
+        "word": "/deck/audio/tener-form-yo.word.e6c489a5.mp3",
+        "sentence": "/deck/audio/tener-form-yo.sentence.9db989af.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "yo-i"
+      ],
+      "tip": "tip-verb-endings",
       "why": null
     },
     {
@@ -525,6 +1492,40 @@
       "unit": "what-i-want-and-have",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "querer-form-yo",
+      "rank": 28,
+      "kind": "form",
+      "pos": "verb",
+      "es": "quiero",
+      "en": "I want",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "yo": "quiero",
+          "tu": "quieres",
+          "el": "quiere"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Quiero un chocolate, por favor.",
+        "en": "I want a chocolate, please."
+      },
+      "spain": null,
+      "trick": "Quiero starts like query: you make a query when you want something.",
+      "image": "/deck/img/querer-want.webp",
+      "audio": {
+        "word": "/deck/audio/querer-form-yo.word.7b741d2b.mp3",
+        "sentence": "/deck/audio/querer-form-yo.sentence.425cd07c.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "yo-i"
+      ],
+      "tip": "tip-verb-endings",
       "why": null
     },
     {
@@ -649,6 +1650,36 @@
       "why": null
     },
     {
+      "id": "phrase-i-want-a-coffee",
+      "rank": 532,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Quiero un café, por favor.",
+      "en": "I want a coffee, please.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Buenos días, quiero un café, por favor.",
+        "en": "Good morning, I want a coffee, please."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-i-want-a-coffee.word.eaf1bfc6.mp3",
+        "sentence": "/deck/audio/phrase-i-want-a-coffee.sentence.e67d654a.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "querer-form-yo",
+        "un-a",
+        "cafe-coffee",
+        "phrase-please"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "phrase-do-you-have-coffee",
       "rank": 532,
       "kind": "phrase",
@@ -674,6 +1705,31 @@
         "cafe-coffee"
       ],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "el-the",
+      "rank": 1,
+      "kind": "glue",
+      "pos": "determiner",
+      "es": "el",
+      "en": "[the] boy",
+      "hint": "masculine singular",
+      "grammar": null,
+      "example": {
+        "es": "El café está aquí.",
+        "en": "The coffee is here."
+      },
+      "spain": null,
+      "trick": "EL sounds like the letter L, and L comes before M just like THE comes before a noun.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/el-the.word.8a3c3aa0.mp3",
+        "sentence": "/deck/audio/el-the.sentence.156b27a1.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": "tip-el-la",
       "why": null
     },
     {
@@ -873,6 +1929,67 @@
       "why": null
     },
     {
+      "id": "phrase-i-have-a-son",
+      "rank": 116,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Tengo un hijo y una hija.",
+      "en": "I have a son and a daughter.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Tienes hijos? Sí, tengo un hijo y una hija.",
+        "en": "Do you have kids? Yes, I have a son and a daughter."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-i-have-a-son.word.bc59802d.mp3",
+        "sentence": "/deck/audio/phrase-i-have-a-son.sentence.47c449f8.mp3"
+      },
+      "unit": "my-people",
+      "requires": [
+        "tener-form-yo",
+        "un-a",
+        "hijo-son",
+        "y-and",
+        "hijo-daughter"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-she-is-my-sister",
+      "rank": 167,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Ella es mi hermana.",
+      "en": "She is my sister.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Ella es mi hermana y él es mi hermano.",
+        "en": "She is my sister and he is my brother."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-she-is-my-sister.word.f80842a4.mp3",
+        "sentence": "/deck/audio/phrase-she-is-my-sister.sentence.c10f51e9.mp3"
+      },
+      "unit": "my-people",
+      "requires": [
+        "ella-she",
+        "ser-form-el",
+        "mi-my",
+        "hermano-sister"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "pero-but",
       "rank": 31,
       "kind": "glue",
@@ -898,6 +2015,33 @@
       "why": null
     },
     {
+      "id": "bueno-good",
+      "rank": 39,
+      "kind": "content",
+      "pos": "adjective",
+      "es": "bueno",
+      "en": "good",
+      "hint": null,
+      "grammar": {
+        "feminine": "buena"
+      },
+      "example": {
+        "es": "El café de aquí es muy bueno.",
+        "en": "The coffee here is really good."
+      },
+      "spain": null,
+      "trick": "BUENO sounds like \"bway-no\": no way it's bad, it's good!",
+      "image": "/deck/img/bueno-good.webp",
+      "audio": {
+        "word": "/deck/audio/bueno-good.word.98cd593f.mp3",
+        "sentence": "/deck/audio/bueno-good.sentence.fb78a76b.mp3"
+      },
+      "unit": "what-people-are-like",
+      "requires": [],
+      "tip": "tip-adjective-after",
+      "why": "Use bueno to describe a person or thing (good); use bien for how you are or how something is done (well)."
+    },
+    {
       "id": "tambien-also",
       "rank": 115,
       "kind": "content",
@@ -916,6 +2060,60 @@
       "audio": {
         "word": "/deck/audio/tambien-also.word.39596610.mp3",
         "sentence": "/deck/audio/tambien-also.sentence.d01cd9fb.mp3"
+      },
+      "unit": "what-people-are-like",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "nuevo-new",
+      "rank": 124,
+      "kind": "content",
+      "pos": "adjective",
+      "es": "nuevo",
+      "en": "new",
+      "hint": null,
+      "grammar": {
+        "feminine": "nueva"
+      },
+      "example": {
+        "es": "Tengo un amigo nuevo.",
+        "en": "I have a new friend."
+      },
+      "spain": null,
+      "trick": "NUEVO sounds like \"new-EH-vo\": it even starts with \"new\".",
+      "image": "/deck/img/nuevo-new.webp",
+      "audio": {
+        "word": "/deck/audio/nuevo-new.word.98f1ed3c.mp3",
+        "sentence": "/deck/audio/nuevo-new.sentence.222b5f76.mp3"
+      },
+      "unit": "what-people-are-like",
+      "requires": [],
+      "tip": "tip-adjective-after",
+      "why": null
+    },
+    {
+      "id": "pequeno-small",
+      "rank": 205,
+      "kind": "content",
+      "pos": "adjective",
+      "es": "pequeño",
+      "en": "small",
+      "hint": null,
+      "grammar": {
+        "feminine": "pequeña"
+      },
+      "example": {
+        "es": "Mi hotel es muy pequeño.",
+        "en": "My hotel is very small."
+      },
+      "spain": null,
+      "trick": "PEQUEÑO sounds like peck-a-new: a tiny chick can only peck a new, small seed.",
+      "image": "/deck/img/pequeno-small.webp",
+      "audio": {
+        "word": "/deck/audio/pequeno-small.word.74d5b29b.mp3",
+        "sentence": "/deck/audio/pequeno-small.sentence.f8f408f9.mp3"
       },
       "unit": "what-people-are-like",
       "requires": [],
@@ -1058,6 +2256,93 @@
       "why": null
     },
     {
+      "id": "phrase-she-is-a-very",
+      "rank": 113,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Ella es una muy buena amiga.",
+      "en": "She is a very good friend.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Ana? Sí, ella es una muy buena amiga.",
+        "en": "Ana? Yes, she's a very good friend."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-she-is-a-very.word.ba63bd97.mp3",
+        "sentence": "/deck/audio/phrase-she-is-a-very.sentence.b8b1ae6c.mp3"
+      },
+      "unit": "what-people-are-like",
+      "requires": [
+        "ella-she",
+        "ser-form-el",
+        "un-a",
+        "muy-very",
+        "bueno-good",
+        "amigo-friend"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-im-tired-but-happy",
+      "rank": 736,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "Estoy cansado pero feliz.",
+      "en": "I'm tired but happy.",
+      "hint": "Said by a man; a woman says cansada.",
+      "grammar": null,
+      "example": {
+        "es": "¿Cómo estás? —Estoy cansado pero feliz.",
+        "en": "How are you? —I'm tired but happy."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-im-tired-but-happy.word.a101d51a.mp3",
+        "sentence": "/deck/audio/phrase-im-tired-but-happy.sentence.8dd18bdd.mp3"
+      },
+      "unit": "what-people-are-like",
+      "requires": [
+        "estar-form-yo",
+        "cansado-tired",
+        "pero-but",
+        "feliz-happy"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "que-what",
+      "rank": 16,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "qué",
+      "en": "[What] do you want?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Qué quiere tu hermano?",
+        "en": "What does your brother want?"
+      },
+      "spain": null,
+      "trick": "QUÉ sounds like \"K?\": a puzzled K-shaped question mark asking what.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/que-what.word.b588b7d2.mp3",
+        "sentence": "/deck/audio/que-what.sentence.8a9f565a.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": null
+    },
+    {
       "id": "esto-this",
       "rank": 49,
       "kind": "glue",
@@ -1133,6 +2418,106 @@
       "why": "Porque, one word with no accent, gives an answer (because); por qué, two words with an accent, asks why."
     },
     {
+      "id": "quien-who",
+      "rank": 91,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "quién",
+      "en": "[Who] is at the door?",
+      "hint": "question word",
+      "grammar": null,
+      "example": {
+        "es": "¿Quién es tu nuevo amigo?",
+        "en": "Who is your new friend?"
+      },
+      "spain": null,
+      "trick": "QUIÉN sounds like key-EN: someone knocks, and you ask who has the key.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/quien-who.word.0d88f900.mp3",
+        "sentence": "/deck/audio/quien-who.sentence.506bb909.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": null
+    },
+    {
+      "id": "donde-where",
+      "rank": 102,
+      "kind": "glue",
+      "pos": "adverb",
+      "es": "dónde",
+      "en": "[Where] is the bathroom?",
+      "hint": "question word, with accent",
+      "grammar": null,
+      "example": {
+        "es": "¿Dónde está mi hermano?",
+        "en": "Where is my brother?"
+      },
+      "spain": null,
+      "trick": "DÓNDE sounds like \"Don, they\": where did Don and they go?",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/donde-where.word.5c00decd.mp3",
+        "sentence": "/deck/audio/donde-where.sentence.1932be0a.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": null
+    },
+    {
+      "id": "cuanto-how-much",
+      "rank": 234,
+      "kind": "glue",
+      "pos": "determiner",
+      "es": "cuánto",
+      "en": "[how much] does it cost?",
+      "hint": "also how many: cuántos, cuántas",
+      "grammar": null,
+      "example": {
+        "es": "¿Cuánto café quieres?",
+        "en": "How much coffee do you want?"
+      },
+      "spain": null,
+      "trick": "CUÁNTO sounds like quantity: when you ask how much or how many, you want the quantity.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/cuanto-how-much.word.2b31669c.mp3",
+        "sentence": "/deck/audio/cuanto-how-much.sentence.571617ea.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": "Use cuánto to ask how much or how many; cuándo, with a d, asks when."
+    },
+    {
+      "id": "cual-which",
+      "rank": 268,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "cuál",
+      "en": "[which] one do you want?",
+      "hint": "which one, standing alone (not qué)",
+      "grammar": null,
+      "example": {
+        "es": "¿Cuál es tu hermano?",
+        "en": "Which one is your brother?"
+      },
+      "spain": null,
+      "trick": "CUÁL sounds like quail: three quails in a row, which one do you want?",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/cual-which.word.349608c0.mp3",
+        "sentence": "/deck/audio/cual-which.sentence.96f1c014.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": "Use cuál to pick one from a set, as in ¿cuál es...?; use qué right before a noun or to ask what something is."
+    },
+    {
       "id": "cuando-when-question",
       "rank": 350,
       "kind": "glue",
@@ -1155,6 +2540,89 @@
       "unit": "asking-questions",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-what-is-this",
+      "rank": 49,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "¿Qué es esto?",
+      "en": "What is this?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Qué es esto? —Es un café.",
+        "en": "What is this? —It's a coffee."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-what-is-this.word.b06a057c.mp3",
+        "sentence": "/deck/audio/phrase-what-is-this.sentence.cc8ba82a.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [
+        "que-what",
+        "ser-form-el",
+        "esto-this"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-who-is-she",
+      "rank": 91,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "¿Quién es ella?",
+      "en": "Who is she?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Quién es ella? —Es mi hermana.",
+        "en": "Who is she? —She's my sister."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-who-is-she.word.9e0be3e4.mp3",
+        "sentence": "/deck/audio/phrase-who-is-she.sentence.5b699e56.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [
+        "quien-who",
+        "ser-form-el",
+        "ella-she"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "no-not",
+      "rank": 5,
+      "kind": "glue",
+      "pos": "adverb",
+      "es": "no",
+      "en": "I do [not] know",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "No quiero café, gracias.",
+        "en": "I don't want coffee, thanks."
+      },
+      "spain": null,
+      "trick": "NO sounds just like English no: put it right before the verb to make anything a no, meaning not.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/no-not.word.31fc1e71.mp3",
+        "sentence": "/deck/audio/no-not.sentence.b2de622c.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": "tip-no-before-verb",
       "why": null
     },
     {
@@ -1292,6 +2760,38 @@
       "why": null
     },
     {
+      "id": "entender-understand",
+      "rank": 141,
+      "kind": "content",
+      "pos": "verb",
+      "es": "entender",
+      "en": "to understand",
+      "hint": "the everyday word, as in \"I don't get it\" (not comprender)",
+      "grammar": {
+        "present": {
+          "yo": "entiendo",
+          "tu": "entiendes",
+          "el": "entiende"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Ana, no entiendo nada.",
+        "en": "Ana, I don't understand anything."
+      },
+      "spain": null,
+      "trick": "ENTENDER sounds like \"intend her\": to understand what she intends, you have to listen to her.",
+      "image": "/deck/img/entender-understand.webp",
+      "audio": {
+        "word": "/deck/audio/entender-understand.word.f1affaa8.mp3",
+        "sentence": "/deck/audio/entender-understand.sentence.bf995a17.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "ingles-english",
       "rank": 907,
       "kind": "content",
@@ -1319,6 +2819,34 @@
       "why": null
     },
     {
+      "id": "phrase-i-dont-know",
+      "rank": 26,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "No sé.",
+      "en": "I don't know.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "¿Dónde está mi café? —No sé.",
+        "en": "Where's my coffee? —I don't know."
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-i-dont-know.word.81bc5ab0.mp3",
+        "sentence": "/deck/audio/phrase-i-dont-know.sentence.04b793d4.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "no-not",
+        "saber-form-yo"
+      ],
+      "tip": "tip-no-before-verb",
+      "why": null
+    },
+    {
       "id": "phrase-im-sorry",
       "rank": 63,
       "kind": "phrase",
@@ -1342,6 +2870,84 @@
       "requires": [],
       "tip": null,
       "why": "Use lo siento for a real apology or sympathy; perdón for a quick sorry or to get past someone."
+    },
+    {
+      "id": "phrase-i-dont-understand",
+      "rank": 141,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "No entiendo",
+      "en": "I don't understand.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "es": "Lo siento, no entiendo. ¿Hablas inglés?",
+        "en": "I'm sorry, I don't understand. Do you speak English?"
+      },
+      "spain": null,
+      "trick": "Entiendo sounds like the entendre in double entendre, a phrase about two ways to understand something.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-i-dont-understand.word.b8bef765.mp3",
+        "sentence": "/deck/audio/phrase-i-dont-understand.sentence.40b5e063.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": "tip-no-before-verb",
+      "why": null
+    },
+    {
+      "id": "phrase-do-you-speak-english",
+      "rank": 907,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "¿Hablas inglés?",
+      "en": "Do you speak English?",
+      "hint": "informal",
+      "grammar": null,
+      "example": {
+        "es": "No entiendo. ¿Hablas inglés?",
+        "en": "I don't understand. Do you speak English?"
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-do-you-speak-english.word.748c27b1.mp3",
+        "sentence": "/deck/audio/phrase-do-you-speak-english.sentence.7d5b1e14.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "hablar-speak",
+        "ingles-english"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-can-you-repeat-that",
+      "rank": 1006,
+      "kind": "phrase",
+      "pos": "phrase",
+      "es": "¿Puedes repetir?",
+      "en": "Can you repeat that?",
+      "hint": "informal",
+      "grammar": null,
+      "example": {
+        "es": "No entiendo. ¿Puedes repetir, por favor?",
+        "en": "I don't understand. Can you repeat that, please?"
+      },
+      "spain": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/phrase-can-you-repeat-that.word.7de25562.mp3",
+        "sentence": "/deck/audio/phrase-can-you-repeat-that.sentence.02d27d49.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
     },
     {
       "id": "me-me",
@@ -1403,6 +3009,74 @@
       "why": null
     },
     {
+      "id": "poder-form-tu",
+      "rank": 19,
+      "kind": "form",
+      "pos": "verb",
+      "es": "puedes",
+      "en": "you can",
+      "hint": "are able to, informal",
+      "grammar": {
+        "present": {
+          "yo": "puedo",
+          "tu": "puedes",
+          "el": "puede"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "¿Puedes hablar en inglés, por favor?",
+        "en": "Can you speak in English, please?"
+      },
+      "spain": null,
+      "trick": null,
+      "image": "/deck/img/poder-can.webp",
+      "audio": {
+        "word": "/deck/audio/poder-form-tu.word.5902d790.mp3",
+        "sentence": "/deck/audio/poder-form-tu.sentence.b160eea0.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [
+        "tu-you-informal"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "poder-form-el",
+      "rank": 19,
+      "kind": "form",
+      "pos": "verb",
+      "es": "puede",
+      "en": "he / she can",
+      "hint": "is able to",
+      "grammar": {
+        "present": {
+          "yo": "puedo",
+          "tu": "puedes",
+          "el": "puede"
+        },
+        "irregular": true
+      },
+      "example": {
+        "es": "Mi hermana no puede hablar, está muy cansada.",
+        "en": "My sister can't talk, she's very tired."
+      },
+      "spain": null,
+      "trick": "Puede sounds like pway-day, close to payday: on payday, he can buy anything.",
+      "image": "/deck/img/poder-can.webp",
+      "audio": {
+        "word": "/deck/audio/poder-form-el.word.41d21fe6.mp3",
+        "sentence": "/deck/audio/poder-form-el.sentence.276652da.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [
+        "el-he"
+      ],
+      "tip": "tip-tu-usted",
+      "why": null
+    },
+    {
       "id": "necesitar-need",
       "rank": 79,
       "kind": "content",
@@ -1433,6 +3107,31 @@
       "requires": [],
       "tip": null,
       "why": null
+    },
+    {
+      "id": "usted-you-formal",
+      "rank": 84,
+      "kind": "glue",
+      "pos": "pronoun",
+      "es": "usted",
+      "en": "Are [you] the doctor?",
+      "hint": "formal, one person",
+      "grammar": null,
+      "example": {
+        "es": "¿Usted es el doctor?",
+        "en": "Are you the doctor?"
+      },
+      "spain": null,
+      "trick": "USTED sounds like \"you steady\": you speak steady and polite to a respected person.",
+      "image": null,
+      "audio": {
+        "word": "/deck/audio/usted-you-formal.word.7a42c7d4.mp3",
+        "sentence": "/deck/audio/usted-you-formal.sentence.f2ce2ec9.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [],
+      "tip": "tip-tu-usted",
+      "why": "Use usted for strangers and older people; tú for friends, family and people your age."
     },
     {
       "id": "ayudar-help",

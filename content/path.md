@@ -9,40 +9,40 @@ A card marked *not in the deck* keeps its place in the order and the count, and 
 Now you can greet someone, say yes or no, and say please and thank you.
 
 1. `no-no-answer` · [No], thanks. (the answer, opposite of yes) → no
-2. `si-yes` · yes → sí · *not in the deck: waiting for your decision*
+2. `si-yes` · yes → sí
 3. `yo-i` · [I] am tired → yo
 4. `el-he` · [he] is my brother → él
 5. `tu-you-informal` · [you] are my friend (informal, one person, subject) → tú · *example uses words not met yet: quieres, ir, al, cine, conmigo*
 6. `ella-she` · [she] is my friend → ella
-7. `gracias-thank-you` · thank you → gracias · *not in the deck: waiting for your decision*
-8. `hola-hello` · hello → hola · *not in the deck: waiting for your decision*
-9. `adios-goodbye` · goodbye (the standard word, not chao) → adiós · *not in the deck: waiting for your decision*
-10. `phrase-no-thank-you` · No, thank you. → No, gracias. · *not in the deck: waiting for your decision*
+7. `gracias-thank-you` · thank you → gracias
+8. `hola-hello` · hello → hola
+9. `adios-goodbye` · goodbye (the standard word, not chao) → adiós
+10. `phrase-no-thank-you` · No, thank you. → No, gracias.
 11. `phrase-please` · Please → por favor
-12. `phrase-yes-please` · Yes, please. → Sí, por favor. · *not in the deck: waiting for your decision*
+12. `phrase-yes-please` · Yes, please. → Sí, por favor.
 
 ## Unit 2 · Who I am (`who-i-am`)
 
 Now you can say your name and where you are from.
 
-13. `ser-form-yo` · I am (identity, origin) → soy · *not in the deck: its tip is not approved*
+13. `ser-form-yo` · I am (identity, origin) → soy
    - Tip: `tip-no-pronoun`
    - Why: Use soy for who or what you are and where you're from; estoy for how or where you are right now.
-14. `de-from` · I'm [from] Mexico (origin) → de · *not in the deck: a card it requires is not in the deck*
-15. `ser-form-tu` · you are (identity, informal) → eres · *not in the deck: its tip is not approved*
+14. `de-from` · I'm [from] Mexico (origin) → de
+15. `ser-form-tu` · you are (identity, informal) → eres
    - Tip: `tip-no-pronoun`
    - Why: Use eres for who or what someone is; estás for how or where they are right now.
-16. `ser-form-el` · he / she is (identity, origin) → es · *not in the deck: its tip is not approved*
+16. `ser-form-el` · he / she is (identity, origin) → es
    - Tip: `tip-no-pronoun`
    - Why: Use es for what someone or something is; está for how or where it is right now.
 17. `y-and` · bread [and] butter → y
-18. `phrase-i-am-from-mexico` · I am from Mexico. → Soy de México. · *not in the deck: a card it requires is not in the deck*
-19. `phrase-are-you-from-mexico` · Are you from Mexico? (informal) → ¿Eres de México? · *not in the deck: a card it requires is not in the deck*
-20. `phrase-youre-welcome` · You're welcome. → De nada. · *not in the deck: waiting for your decision*
+18. `phrase-i-am-from-mexico` · I am from Mexico. → Soy de México.
+19. `phrase-are-you-from-mexico` · Are you from Mexico? (informal) → ¿Eres de México?
+20. `phrase-youre-welcome` · You're welcome. → De nada.
 21. `phrase-my-name-is` · My name is... (The everyday two-word way, literally "I call myself") → Me llamo
-22. `phrase-whats-your-name` · What's your name? (informal) → ¿Cómo te llamas? · *not in the deck: waiting for your decision*
-23. `phrase-nice-to-meet-you` · Nice to meet you. (The two-word phrase that anyone can say, man or woman.) → Mucho gusto. · *not in the deck: waiting for your decision*
-24. `phrase-my-name-is-ana` · My name is Ana. Nice to meet you. → Me llamo Ana. Mucho gusto. · *not in the deck: waiting for your decision*
+22. `phrase-whats-your-name` · What's your name? (informal; the everyday way, literally "how do you call yourself?") → ¿Cómo te llamas?
+23. `phrase-nice-to-meet-you` · Nice to meet you. (The everyday two-word phrase, literally "much pleasure", that anyone can say, man or woman.) → Mucho gusto.
+24. `phrase-my-name-is-ana` · My name is Ana. Nice to meet you. (The everyday "I call myself" way, then the two-word phrase anyone can say, man or woman.) → Me llamo Ana. Mucho gusto.
 
 ## Unit 3 · How and where I am (`how-and-where-i-am`)
 
@@ -50,48 +50,48 @@ Now you can ask how someone is, and say how and where you are.
 
 25. `estar-form-tu` · you are (state, place, informal) → estás
    - Why: Use estás for how or where someone is right now; eres for who or what they are.
-26. `estar-form-el` · he / she is (state, place) → está · *not in the deck: waiting for your decision*
+26. `estar-form-el` · he / she is (state, place) → está
    - Why: Use está for how or where something is right now; es for what it is.
 27. `en-in` · I live [in] Mexico → en
 28. `bien-well` · well (in a good way, also fine; not the filler well... (that is bueno)) → bien
    - Why: Use bien for how someone is or how something is done; bueno describes what a person or thing is like.
-29. `estar-form-yo` · I am (state, place) → estoy · *not in the deck: its tip is not approved*
+29. `estar-form-yo` · I am (state, place) → estoy
    - Tip: `tip-two-to-be`
    - Why: Use estoy for how or where you are right now; soy for who or what you are.
 30. `aqui-here` · here (the standard word, not acá) → aquí
 31. `muy-very` · very → muy
-32. `mal-badly` · badly → mal · *not in the deck: waiting for your decision*
+32. `mal-badly` · badly → mal
    - Why: Use mal for how you are or how something is done (estoy mal); malo describes a noun (un día malo).
-33. `phrase-im-here-in-mexico` · I'm here in Mexico. → Estoy aquí en México. · *not in the deck: a card it requires is not in the deck*
+33. `phrase-im-here-in-mexico` · I'm here in Mexico. → Estoy aquí en México.
 34. `phrase-how-are-you` · How are you? (informal) → ¿Cómo estás?
-35. `phrase-im-very-well-thank` · I'm very well, thank you. And you? (informal) → Estoy muy bien, gracias. ¿Y tú? · *not in the deck: a card it requires is not in the deck*
+35. `phrase-im-very-well-thank` · I'm very well, thank you. And you? (informal) → Estoy muy bien, gracias. ¿Y tú?
 36. `phrase-good-morning` · Good morning! → ¡Buenos días!
 
 ## Unit 4 · What I want and have (`what-i-want-and-have`)
 
 Now you can say what you want and what you have.
 
-37. `un-a` · I want [a] book (masculine form) → un · *not in the deck: waiting for your decision*
-38. `tener-form-yo` · I have (own, possess) → tengo · *not in the deck: its tip is not approved*
+37. `un-a` · I want [a] book → un
+38. `tener-form-yo` · I have (own, possess) → tengo
    - Tip: `tip-verb-endings`
 39. `tener-form-tu` · you have (own, possess, informal) → tienes
 40. `tener-form-el` · he / she has (own, possess) → tiene
 41. `mi-my` · [my] house → mi
-42. `querer-form-yo` · I want → quiero · *not in the deck: its tip is not approved*
+42. `querer-form-yo` · I want → quiero
    - Tip: `tip-verb-endings`
 43. `querer-form-tu` · you want (informal) → quieres
 44. `querer-form-el` · he / she wants → quiere
 45. `tu-your` · [your] house (informal, talking to one friend) → tu
    - Why: Without an accent, tu means your (tu casa); with an accent, tú means you (tú eres).
 46. `cafe-coffee` · coffee → el café
-47. `phrase-i-want-a-coffee` · I want a coffee, please. → Quiero un café, por favor. · *not in the deck: waiting for your decision*
+47. `phrase-i-want-a-coffee` · I want a coffee, please. → Quiero un café, por favor.
 48. `phrase-do-you-have-coffee` · Do you have coffee? (informal) → ¿Tienes café?
 
 ## Unit 5 · My people (`my-people`)
 
 Now you can talk about the people in your life.
 
-49. `el-the` · [the] boy (masculine singular) → el · *not in the deck: its tip is not approved*
+49. `el-the` · [the] boy (masculine singular) → el
    - Tip: `tip-el-la`
 50. `amigo-friend` · friend → el amigo
 51. `hijo-son` · son → el hijo
@@ -100,8 +100,8 @@ Now you can talk about the people in your life.
 54. `hermano-brother` · brother → el hermano
 55. `hermano-sister` · sister → la hermana
 56. `madre-mother` · mother → la madre
-57. `phrase-i-have-a-son` · I have a son and a daughter. → Tengo un hijo y una hija. · *not in the deck: a card it requires is not in the deck*
-58. `phrase-she-is-my-sister` · She is my sister. → Ella es mi hermana. · *not in the deck: a card it requires is not in the deck*
+57. `phrase-i-have-a-son` · I have a son and a daughter. → Tengo un hijo y una hija.
+58. `phrase-she-is-my-sister` · She is my sister. → Ella es mi hermana.
 
 Wants no drafted card fills:
 
@@ -112,45 +112,45 @@ Wants no drafted card fills:
 Now you can describe people and things: good, big, new, happy, tired.
 
 59. `pero-but` · I want to go, [but] I can't → pero
-60. `bueno-good` · good → bueno · *not in the deck: its tip is not approved*
+60. `bueno-good` · good → bueno
    - Tip: `tip-adjective-after`
    - Why: Use bueno to describe a person or thing (good); use bien for how you are or how something is done (well).
 61. `tambien-also` · also → también
-62. `nuevo-new` · new → nuevo · *not in the deck: its tip is not approved*
+62. `nuevo-new` · new → nuevo
    - Tip: `tip-adjective-after`
-63. `pequeno-small` · small → pequeño · *not in the deck: waiting for your decision*
+63. `pequeno-small` · small → pequeño
 64. `malo-bad` · bad (adjective, full form) → malo
    - Why: Use malo to describe a person or thing (una película mala); mal for how something goes or how you feel.
 65. `viejo-old` · old → viejo
 66. `grande-big` · big → grande
 67. `feliz-happy` · happy (as in happy birthday) → feliz
 68. `cansado-tired` · tired → cansado
-69. `phrase-she-is-a-very` · She is a very good friend. → Ella es una muy buena amiga. · *not in the deck: a card it requires is not in the deck*
-70. `phrase-im-tired-but-happy` · I'm tired but happy. (Said by a man; a woman says cansada.) → Estoy cansado pero feliz. · *not in the deck: a card it requires is not in the deck*
+69. `phrase-she-is-a-very` · She is a very good friend. → Ella es una muy buena amiga.
+70. `phrase-im-tired-but-happy` · I'm tired but happy. (Said by a man; a woman says cansada.) → Estoy cansado pero feliz.
 
 ## Unit 7 · Asking questions (`asking-questions`)
 
 Now you can ask what, who, where, when, how and why.
 
-71. `que-what` · [What] do you want? → qué · *not in the deck: its tip is not approved*
+71. `que-what` · [What] do you want? → qué
    - Tip: `tip-questions`
 72. `esto-this` · what is [this]? (neuter: an unnamed thing or idea, not este or esta) → esto
 73. `como-how` · [How] are you? → cómo
 74. `porque-because` · I'm eating [because] I'm hungry → porque
    - Why: Porque, one word with no accent, gives an answer (because); por qué, two words with an accent, asks why.
-75. `quien-who` · [Who] is at the door? (question word) → quién · *not in the deck: its tip is not approved*
+75. `quien-who` · [Who] is at the door? (question word) → quién
    - Tip: `tip-questions`
-76. `donde-where` · [Where] is the bathroom? (question word, with accent) → dónde · *not in the deck: its tip is not approved*
+76. `donde-where` · [Where] is the bathroom? (question word, with accent) → dónde
    - Tip: `tip-questions`
-77. `cuanto-how-much` · [how much] does it cost? (also how many: cuántos, cuántas) → cuánto · *not in the deck: its tip is not approved*
+77. `cuanto-how-much` · [how much] does it cost? (also how many: cuántos, cuántas) → cuánto
    - Tip: `tip-questions`
    - Why: Use cuánto to ask how much or how many; cuándo, with a d, asks when.
-78. `cual-which` · [which] one do you want? (which one, standing alone (not qué)) → cuál · *not in the deck: its tip is not approved*
+78. `cual-which` · [which] one do you want? (which one, standing alone (not qué)) → cuál
    - Tip: `tip-questions`
    - Why: Use cuál to pick one from a set, as in ¿cuál es...?; use qué right before a noun or to ask what something is.
 79. `cuando-when-question` · [when] are you coming? (question word, with accent) → cuándo
-80. `phrase-what-is-this` · What is this? → ¿Qué es esto? · *not in the deck: a card it requires is not in the deck*
-81. `phrase-who-is-she` · Who is she? → ¿Quién es ella? · *not in the deck: a card it requires is not in the deck*
+80. `phrase-what-is-this` · What is this? → ¿Qué es esto?
+81. `phrase-who-is-she` · Who is she? → ¿Quién es ella?
 
 Wants no drafted card fills:
 
@@ -160,22 +160,22 @@ Wants no drafted card fills:
 
 Now you can say you don't understand or don't know, and say sorry.
 
-82. `no-not` · I do [not] know → no · *not in the deck: its tip is not approved*
+82. `no-not` · I do [not] know → no
    - Tip: `tip-no-before-verb`
 83. `saber-form-yo` · I know (facts, information, how to do something) → sé
 84. `saber-form-tu` · you know (facts, information, how to do something; informal) → sabes
 85. `saber-form-el` · he / she knows (facts, information, how to do something) → sabe
 86. `hablar-speak` · to speak, to talk → hablar
-87. `entender-understand` · to understand → entender · *not in the deck: waiting for your decision*
+87. `entender-understand` · to understand (the everyday word, as in "I don't get it" (not comprender)) → entender
 88. `ingles-english` · English → inglés
-89. `phrase-i-dont-know` · I don't know. → No sé. · *not in the deck: its tip is not approved*
+89. `phrase-i-dont-know` · I don't know. → No sé.
    - Tip: `tip-no-before-verb`
 90. `phrase-im-sorry` · I'm sorry. (apology or sympathy, not excuse me) → Lo siento.
    - Why: Use lo siento for a real apology or sympathy; perdón for a quick sorry or to get past someone.
-91. `phrase-i-dont-understand` · I don't understand. → No entiendo · *not in the deck: its tip is not approved*
+91. `phrase-i-dont-understand` · I don't understand. → No entiendo
    - Tip: `tip-no-before-verb`
-92. `phrase-do-you-speak-english` · Do you speak English? (informal) → ¿Hablas inglés? · *not in the deck: waiting for your decision*
-93. `phrase-can-you-repeat-that` · Can you repeat that? (informal) → ¿Puedes repetir? · *not in the deck: waiting for your decision*
+92. `phrase-do-you-speak-english` · Do you speak English? (informal) → ¿Hablas inglés?
+93. `phrase-can-you-repeat-that` · Can you repeat that? (informal) → ¿Puedes repetir?
 
 ## Unit 9 · Can you help me? (`can-you-help-me`)
 
@@ -183,16 +183,16 @@ Now you can ask for help politely and say what you can and need.
 
 94. `me-me` · call [me] tomorrow (object pronoun, attached to or before the verb) → me
 95. `poder-form-yo` · I can (am able to) → puedo
-96. `poder-form-tu` · you can (are able to, informal) → puedes · *not in the deck: waiting for your decision*
-97. `poder-form-el` · he / she can (is able to) → puede · *not in the deck: waiting for your decision*
+96. `poder-form-tu` · you can (are able to, informal) → puedes
+97. `poder-form-el` · he / she can (is able to) → puede
    - Tip: `tip-tu-usted`
 98. `necesitar-need` · to need → necesitar
-99. `usted-you-formal` · Are [you] the doctor? (formal, one person) → usted · *not in the deck: its tip is not approved*
+99. `usted-you-formal` · Are [you] the doctor? (formal, one person) → usted
    - Tip: `tip-tu-usted`
    - Why: Use usted for strangers and older people; tú for friends, family and people your age.
 100. `ayudar-help` · to help → ayudar
 101. `ayuda-help` · help → la ayuda · *not in the deck: past the deck size*
-102. `phrase-can-you-help-me` · Can you help me, please? (Formal: polite, to a stranger (usted)) → ¿Me puede ayudar, por favor? · *not in the deck: past the deck size; example uses words not met yet: Perdón*
+102. `phrase-can-you-help-me` · Can you help me, please? (Informal (tú)) → ¿Me puedes ayudar, por favor? · *not in the deck: past the deck size; example uses words not met yet: Perdón*
 103. `phrase-i-need-help` · I need help. → Necesito ayuda. · *not in the deck: past the deck size; example uses words not met yet: Perdón*
 
 ## Unit 10 · Out and about (`out-and-about`)
@@ -201,14 +201,14 @@ Now you can ask where things are and say what there is.
 
 104. `haber-form-hay` · there is / there are (something exists; not estar) → hay · *not in the deck: past the deck size; example uses words not met yet: pan, mesa*
    - Why: Use hay to say something exists (there is a hotel); use está for where a particular thing is (the hotel is here).
-105. `alli-there` · there (a specific place far from both of us, not ahí or allá) → allí · *not in the deck: past the deck size; example uses words not met yet: abuela, vive, esa, casa, azul*
+105. `alli-there` · there (a specific place far from both of us, not ahí or allá) → allí · *not in the deck: past the deck size; example uses words not met yet: abuela, vive*
 106. `ciudad-city` · city → la ciudad · *not in the deck: past the deck size; example uses words not met yet: Vivo*
 107. `cerca-near` · near (adverb, often with de) → cerca · *not in the deck: past the deck size; example uses words not met yet: casa*
 108. `lejos-far` · far away → lejos · *not in the deck: past the deck size; example uses words not met yet: casa*
 109. `calle-street` · street → la calle · *not in the deck: past the deck size; example uses words not met yet: casa*
 110. `bano-bathroom` · bathroom → el baño · *not in the deck: past the deck size*
 111. `hotel-hotel` · hotel → el hotel · *not in the deck: past the deck size; example uses words not met yet: playa*
-112. `phrase-excuse-me-polite` · Excuse me. (formal, to get a stranger's attention) → Disculpe. · *not in the deck: past the deck size*
+112. `phrase-excuse-me-polite` · Excuse me. (informal (tú), to get someone's attention; the verb disculpar, not perdón) → Disculpa. · *not in the deck: past the deck size*
 113. `phrase-where-is-the-bathroom` · Where is the bathroom? → ¿Dónde está el baño? · *not in the deck: past the deck size*
 114. `phrase-is-there-a-hotel` · Is there a hotel near here? → ¿Hay un hotel cerca de aquí? · *not in the deck: past the deck size*
 
@@ -296,7 +296,7 @@ Now you can tell someone you love them and that you'll call them.
 160. `amor-love` · love → el amor · *not in the deck: past the deck size; example uses words not met yet: extraño*
 161. `phrase-i-love-you` · I love you. (Everyday love for family, friends or partner, not the more intense te amo) → Te quiero. · *not in the deck: past the deck size*
    - Tip: `tip-object-pronouns`
-162. `phrase-ill-call-you-tomorrow` · I'll call you tomorrow. (informal) → Te llamo mañana. · *not in the deck: past the deck size*
+162. `phrase-ill-call-you-tomorrow` · I'll call you tomorrow. (Informal, using the simple present (not voy a llamar or llamaré)) → Te llamo mañana. · *not in the deck: past the deck size*
 163. `phrase-see-you-later` · See you later! (Literally "until later", not "nos vemos") → ¡Hasta luego! · *not in the deck: past the deck size*
 
 ## Unit 16 · Buying things (`buying-things`)
@@ -350,7 +350,7 @@ Now you can say what you think and what people say, and ask how to say a word.
 194. `palabra-word` · word → la palabra · *not in the deck: past the deck size; example uses words not met yet: esa*
 195. `phrase-how-do-you-say` · How do you say…? (Asking about a word, with "you" meaning people in general) → ¿Cómo se dice…? · *not in the deck: past the deck size; example uses words not met yet: español, thank, you*
 196. `phrase-what-does-she-say` · What does she say? → ¿Qué dice ella? · *not in the deck: past the deck size*
-197. `phrase-i-think-thats-true` · I think that's true. (Use creer, the everyday verb for an opinion.) → Creo que es verdad. · *not in the deck: past the deck size*
+197. `phrase-i-think-thats-true` · I think that's true. (Use creer, the everyday verb for an opinion, and the noun verdad for "true".) → Creo que es verdad. · *not in the deck: past the deck size*
 
 ## Frequency phase
 
@@ -430,11 +430,11 @@ Now you can say what you think and what people say, and ask how to say a word.
 252. `tener-have-to` · to have to (used with que before the next verb) → tener · *not in the deck: past the deck size*
 253. `como-like` · he talks [like] his dad → como · *not in the deck: past the deck size*
 254. `hacer-make` · to make → hacer · *not in the deck: past the deck size*
-255. `mejor-best` · best (used with el or la) → mejor · *not in the deck: past the deck size*
+255. `mejor-best` · best (used after el, la or a possessive such as mi) → mejor · *not in the deck: past the deck size*
 256. `poco-few` · few, not much → poco · *not in the deck: past the deck size*
 257. `en-at` · she is [at] home (location, not direction) → en · *not in the deck: past the deck size*
    - Why: Use en for where someone or something is; use a for where someone is going.
-258. `padre-parents` · parents → los padres · *not in the deck: past the deck size*
+258. `padre-parents` · parents (not the informal papás) → los padres · *not in the deck: past the deck size*
 259. `al-to-the` · I'm going [to the] park (a + el, before a masculine noun) → al · *not in the deck: past the deck size*
 260. `manana-morning` · morning → la mañana · *not in the deck: past the deck size*
    - Why: With la (la mañana) it means morning; on its own, mañana means tomorrow.
@@ -450,13 +450,13 @@ Now you can say what you think and what people say, and ask how to say a word.
 267. `deber-owe` · to owe → deber · *not in the deck: past the deck size*
 268. `viejo-old-man` · old man (everyday word) → el viejo · *not in the deck: past the deck size*
 269. `ya-not-anymore` · not anymore (two words, before the verb) → ya no · *not in the deck: past the deck size*
-270. `cerca-fence` · fence (around a yard or field) → la cerca · *not in the deck: past the deck size*
+270. `cerca-fence` · fence (around a yard or field; the same word as 'near') → la cerca · *not in the deck: past the deck size*
 271. `comida-meal` · meal → la comida · *not in the deck: past the deck size*
 272. `pasar-pass` · to pass (to go by, go through, or come in) → pasar · *not in the deck: past the deck size*
 273. `se-one-impersonal` · how do [you] say it? (impersonal: people in general, not a specific you) → se · *not in the deck: past the deck size*
 274. `el-him` · I went with [him] (after a preposition) → él · *not in the deck: past the deck size*
 275. `algo-something` · I want [something] to eat → algo · *not in the deck: past the deck size*
-276. `perdon-sorry` · sorry (one-word apology, not lo siento or disculpa) → perdón · *dropped from its unit by the cap; not in the deck: past the deck size*
+276. `perdon-sorry` · sorry (one-word apology, not a verb form like perdona or disculpa, and not lo siento) → perdón · *dropped from its unit by the cap; not in the deck: past the deck size*
    - Why: Use perdón for a quick sorry or to get past someone; lo siento for real regret or sympathy.
 277. `dejar-let` · to let (allow, as in let me) → dejar · *not in the deck: past the deck size*
 278. `para-in-order-to` · I work [in order to] live (before a verb, showing purpose) → para · *not in the deck: past the deck size*

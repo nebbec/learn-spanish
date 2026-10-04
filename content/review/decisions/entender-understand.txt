@@ -1,4 +1,5 @@
 # entender-understand · rank 141 · entender
+# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
 #
 # Why it was flagged:
 #   - One right answer: With no hint, "to understand" also has comprender as a common, correct answer, so a learner who recalls comprender would be marked wrong. Suggested fix: hint: the everyday word, as in "I don't get it" (not comprender)
@@ -12,14 +13,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         entender-understand
 kind:       content
 pos:        verb
 es:         entender
 en:         to understand
-hint:
+hint:       the everyday word, as in "I don't get it" (not comprender)
 yo:         entiendo
 tu:         entiendes
 el:         entiende

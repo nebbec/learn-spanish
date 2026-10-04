@@ -1,4 +1,5 @@
 # mejor-best · rank 100 · mejor
+# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
 #
 # Why it was flagged:
 #   - One right answer: The hint says 'best' is mejor used with el or la, but the card's own example uses it with the possessive mi and no article, so the hint misleads the learner. Suggested fix: hint: used after el, la or a possessive such as mi
@@ -12,14 +13,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         mejor-best
 kind:       content
 pos:        adjective
 es:         mejor
 en:         best
-hint:       used with el or la
+hint:       used after el, la or a possessive such as mi
 feminine:   mejor
 example.es: Eres mi mejor amigo.
 example.en: You're my best friend.

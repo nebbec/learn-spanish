@@ -1,4 +1,5 @@
 # perdon-sorry · rank 520 · perdón
+# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
 #
 # Why it was flagged:
 #   - One right answer: The hint rules out disculpa but not the other common one-word verb apologies perdona, perdone and disculpe, so a learner could reasonably give one of those. Suggested fix: hint: one-word apology, not a verb form like perdona or disculpa, and not lo siento
@@ -12,14 +13,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         perdon-sorry
 kind:       content
 pos:        other
 es:         perdón
 en:         sorry
-hint:       one-word apology, not lo siento or disculpa
+hint:       one-word apology, not a verb form like perdona or disculpa, and not lo siento
 example.es: ¡Perdón! No te vi.
 example.en: Sorry! I didn't see you.
 spain:

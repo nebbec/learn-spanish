@@ -1,4 +1,6 @@
 # hacer-form-yo · rank 17 · hacer
+# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
+# Claude: no field changed. The reviewer's fix is a redraft of the example (npm run draft -- --examples), not a field correction; approving keeps the example that uses words not met yet.
 #
 # Why it was flagged:
 #   - Example uses words not met yet: The example uses words not met before this card: tarea, en, casa. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids hacer-form-yo
@@ -12,7 +14,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:         hacer-form-yo
 kind:       form

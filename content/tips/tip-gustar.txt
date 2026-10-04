@@ -12,7 +12,7 @@
 # Until this tip is approved, no card naming it goes into the deck.
 # npm run tips -- --tips tip-gustar --redo drafts it again and replaces this whole file.
 
-status: pending
+status: approve
 
 title: Gustar works backwards
 
