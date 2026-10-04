@@ -13,11 +13,15 @@ const SHELL = SHELL_PREFIX + VERSION;
 const PAGES = ["/", "/learn", "/practice", "/settings", "/tips"];
 const FILES = ["/deck/deck.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"];
 
-// The hero mascot (F3): its two loops, their posters and the still. Stored with
-// the pages, so the menu and the batch end play them offline. Safari asks for
-// video in byte ranges, so they are answered like art and audio.
+// The hero mascot (F3, transparent since U2): its two loops in both formats
+// (WebM and HEVC, the page plays whichever this browser shows transparent),
+// their posters and the still. Stored with the pages, so the menu and the batch
+// end play them offline. Safari asks for video in byte ranges, so they are
+// answered like art and audio.
 const MASCOT_PATH = "/mascot/";
-const MASCOT = ["idle.mp4", "idle.webp", "celebrate.mp4", "celebrate.webp", "concha.webp"].map((file) => MASCOT_PATH + file);
+const MASCOT = ["idle.webm", "idle.mov", "idle.webp", "celebrate.webm", "celebrate.mov", "celebrate.webp", "concha.webp"].map(
+  (file) => MASCOT_PATH + file,
+);
 
 // Art and audio are not stored here. The page fills a cache of its own
 // (lib/media), which this worker reads but never writes or deletes.

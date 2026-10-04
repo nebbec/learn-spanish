@@ -59,16 +59,6 @@ body {
 }
 
 /*
- * The hero mascot's loops (F3) are clips on the paper colour. A soft disc fades
- * their edge, so they sit on the paper and on a white card alike, and hides
- * the video models' slight drift in the background colour.
- */
-.mascot-disc {
-  -webkit-mask-image: radial-gradient(closest-side, #000 80%, transparent);
-  mask-image: radial-gradient(closest-side, #000 80%, transparent);
-}
-
-/*
  * Motion (C7). Everything that moves is inside this block, so with reduced
  * motion on nothing plays. Components also leave the data-move and data-enter
  * attributes off in that case (components/motion). The durations of the four

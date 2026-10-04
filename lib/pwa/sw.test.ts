@@ -11,10 +11,7 @@ const PUBLIC = path.join(__dirname, "..", "..", "public");
 const SOURCE = readFileSync(path.join(PUBLIC, "sw.js"), "utf8");
 // Every file the hero mascot shows, as the app names them.
 const MASCOT = [
-  MASCOT_FILES.idle.clip,
-  MASCOT_FILES.idle.poster,
-  MASCOT_FILES.celebrate.clip,
-  MASCOT_FILES.celebrate.poster,
+  ...(["idle", "celebrate"] as const).flatMap((pose) => Object.values(MASCOT_FILES[pose])),
   MASCOT_FILES.still,
 ];
 const ORIGIN = "https://app.test";
@@ -240,17 +237,18 @@ describe("service worker", () => {
     for (const file of MASCOT) expect(shell.has(file), file).toBe(true);
 
     b.state.online = false;
-    const clip = MASCOT_FILES.celebrate.clip;
     expect(await b.text(MASCOT_FILES.still)).toBe(`mascot ${MASCOT_FILES.still}`);
-    const part = (await b.request(clip, { headers: { Range: "bytes=0-5" } }))!;
-    expect(part.status).toBe(206);
-    expect(await part.text()).toBe("mascot");
+    for (const clip of [MASCOT_FILES.celebrate.webm, MASCOT_FILES.celebrate.hevc]) {
+      const part = (await b.request(clip, { headers: { Range: "bytes=0-5" } }))!;
+      expect(part.status).toBe(206);
+      expect(await part.text()).toBe("mascot");
+    }
   });
 
   it("does not finish installing when a mascot file cannot be fetched", async () => {
     const b = browser();
-    delete b.files[MASCOT_FILES.idle.clip];
-    await expect(b.lifecycle("install")).rejects.toThrow(MASCOT_FILES.idle.clip);
+    delete b.files[MASCOT_FILES.idle.hevc];
+    await expect(b.lifecycle("install")).rejects.toThrow(MASCOT_FILES.idle.hevc);
   });
 
   it("reads art and audio from any cache but does not store them", async () => {

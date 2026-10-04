@@ -176,7 +176,7 @@ describe("with motion allowed", () => {
     // The celebration loop plays in the slot.
     const loop = q("mascot") as HTMLVideoElement;
     expect(loop.tagName).toBe("VIDEO");
-    expect(loop.getAttribute("src")).toBe("/mascot/celebrate.mp4");
+    expect(loop.getAttribute("src")).toMatch(/^\/mascot\/celebrate\.(webm|mov)$/);
     expect(q("confetti")!.querySelectorAll("[data-confetti]").length).toBeGreaterThan(0);
     expect(q("confetti")!.getAttribute("aria-hidden")).toBe("true");
   });

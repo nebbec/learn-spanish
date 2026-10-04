@@ -1,5 +1,5 @@
-// Logic for the hero mascot loops (F3). The run is in make-mascot.mjs; the
-// rules are in docs/design.md under "Art", "Decided in F3".
+// Logic for the hero mascot loops (F3, made transparent in U2). The run is in
+// make-mascot.mjs; the rules are in docs/design.md under "Art", "Decided in F3" and "Decided in U2".
 
 /** The paper colour the clips are shown on, as in app/globals.css. */
 export const PAPER = [0xff, 0xf8, 0xec];
@@ -58,12 +58,93 @@ export function loopSeconds(duration, fps) {
   return Math.max(0, duration - 1 / fps);
 }
 
-/** Duration in seconds and frame rate from ffmpeg's banner (`ffmpeg -i file`). */
+/** Duration in seconds, frame rate and frame size from ffmpeg's banner (`ffmpeg -i file`). */
 export function probe(banner) {
   const d = /Duration: (\d+):(\d+):([\d.]+)/.exec(banner);
   const f = /, ([\d.]+) fps/.exec(banner);
   if (!d || !f) throw new Error("Could not read the clip's duration and frame rate");
-  return { duration: Number(d[1]) * 3600 + Number(d[2]) * 60 + Number(d[3]), fps: Number(f[1]) };
+  const s = /Video: .*?, (\d+)x(\d+)/.exec(banner);
+  return {
+    duration: Number(d[1]) * 3600 + Number(d[2]) * 60 + Number(d[3]),
+    fps: Number(f[1]),
+    width: s ? Number(s[1]) : 0,
+    height: s ? Number(s[2]) : 0,
+  };
+}
+
+/** The background colour of a raw RGB frame, read from a ring along its edge. */
+function edgeColour(pixels, width, height, ring) {
+  const channels = [[], [], []];
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      if (x >= ring && x < width - ring && y >= ring && y < height - ring) continue;
+      const at = (y * width + x) * 3;
+      for (let c = 0; c < 3; c++) channels[c].push(pixels[at + c]);
+    }
+  }
+  return channels.map(median);
+}
+
+/**
+ * One transparent frame from two copies of it (U2): `cream`, the take as rendered
+ * on the cream background, and `black`, Higgsfield's cut-out of it on black.
+ * A pixel's cream shows through by (1 - alpha), so alpha = 1 - (cream - black) / B,
+ * B being the cream read from the frame's edge, and the colour is black / alpha.
+ * Dark parts of the character (the eyes) are the same in both, so they stay solid;
+ * a pixel black in the cut-out but light on cream is background (the cream darkens
+ * towards the corners, which the formula alone would read as a little opaque).
+ * Near-solid and near-empty alphas are snapped, to drop compression noise.
+ *
+ * `cream` and `black` are raw RGB of the same size; returns raw RGBA.
+ */
+export function matteFrame(cream, black, width, height) {
+  const bg = edgeColour(cream, width, height, Math.max(2, Math.round(width * 0.012)));
+  const out = Buffer.alloc(width * height * 4);
+  for (let i = 0, j = 0; i < cream.length; i += 3, j += 4) {
+    let shown = 0;
+    for (let c = 0; c < 3; c++) shown += bg[c] > 0 ? (cream[i + c] - black[i + c]) / bg[c] : 0;
+    let alpha = 1 - Math.min(1, Math.max(0, shown / 3));
+    // Black in the cut-out but light on cream is background, even where the
+    // cream darkens towards the corners; dark parts of her are dark on cream too.
+    const cutoutBlack = Math.max(black[i], black[i + 1], black[i + 2]) < 24;
+    const lightOnCream = cream[i] + cream[i + 1] + cream[i + 2] > 0.6 * (bg[0] + bg[1] + bg[2]);
+    if ((cutoutBlack && lightOnCream) || alpha < 0.08) alpha = 0;
+    else if (alpha > 0.92) alpha = 1;
+    for (let c = 0; c < 3; c++) out[j + c] = alpha > 0 ? Math.min(255, Math.round(black[i + c] / alpha)) : 0;
+    out[j + 3] = Math.round(alpha * 255);
+  }
+  return out;
+}
+
+/** The box around a raw RGBA frame's visible pixels, or null when there are none. */
+export function visibleBox(rgba, width, height) {
+  let left = width, top = height, right = -1, bottom = -1;
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      if (rgba[(y * width + x) * 4 + 3] < 13) continue;
+      if (x < left) left = x;
+      if (x > right) right = x;
+      if (y < top) top = y;
+      if (y > bottom) bottom = y;
+    }
+  }
+  return right < 0 ? null : { left, top, right, bottom };
+}
+
+/**
+ * The square crop that holds a box with a margin (a share of the box's longer
+ * side) on every side, kept inside the frame where it fits. Even numbers, for the encoders.
+ */
+export function squareAround(box, width, height, margin = 0.04) {
+  const even = (n) => 2 * Math.round(n / 2);
+  const long = Math.max(box.right - box.left, box.bottom - box.top) + 1;
+  const side = even(Math.min(width, height, long * (1 + 2 * margin)));
+  const clamp = (start, limit) => Math.min(Math.max(0, start), limit - side);
+  return {
+    side,
+    x: even(clamp((box.left + box.right + 1) / 2 - side / 2, width)),
+    y: even(clamp((box.top + box.bottom + 1) / 2 - side / 2, height)),
+  };
 }
 
 /** Checks takes.json: every take named once, and the two in use exist and are of their kind. */
@@ -78,5 +159,7 @@ export function checkTakes(record) {
     const name = record.use?.[kind];
     if (!names.has(name)) throw new Error(`use.${kind} names ${name}, which is not a take`);
     if (!name.startsWith(`${kind}-`)) throw new Error(`use.${kind} names ${name}, which does not start with "${kind}-"`);
+    const take = record.takes.find((t) => t.name === name);
+    if (!take.cutout?.url) throw new Error(`Take ${name} is in use but has no cutout (Higgsfield's cut-out on black, U2)`);
   }
 }
