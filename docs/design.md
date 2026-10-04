@@ -907,8 +907,8 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | E3 | Review pass and deck build | E2 | | Done |
 | E4 | First 100 cards | E3 | Flagged-card review | Done |
 | F1 | Art style and mascot design | none | Style choice | Done |
-| F2 | Art script and first stills | F1, L9 | Contact-sheet review | Done except: Courtney reviews the contact sheets |
-| F3 | Hero mascot animation | F1, C6, C7 | | Done except: Courtney picks or approves the loops (`content/art/mascot/takes.html`) |
+| F2 | Art script and first stills | F1, L9 | Contact-sheet review | Done |
+| F3 | Hero mascot animation | F1, C6, C7 | | Done |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
 | G2 | Audio script | G1 | | Done |
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
@@ -1086,6 +1086,7 @@ Scripts only. Depends on A2 and nothing else in the app.
 - Note (F2): built `npm run art` (cast, render, contact, publish, status; see "Decided in F2" under [Art](#art)). Claude cast the 36 stills: concha 18 (50%), alpaca 6, chick 6, capybara 6, turtle none. Rendered 6 sheets of six, removed the backgrounds, cut 36 takes; 9 credits spent (970.24 to 961.24), 0.25 a still. Measured average 32.6 KB a still against the 40 KB estimate.
 - Note (F2): the first sheet (concha-01) was rendered alone as the six-on-a-sheet check: on-model, so the rest followed. Two of its poses named a scene (a train platform, a bakery window), which Seedream drew and the background removal half cut away; `querer-want` t1 came out cropped. The cast rules now forbid scenery, and two later poses were changed before rendering (`necesitar-need`, `tambien-also`).
 - Note (F2): left for Courtney: look at `content/art/contact/contact-01.jpg` to `-03.jpg`, write `ok` or `redo` against each take in `content/art/review.tsv` (change a redo's pose or character in `content/art/cast.tsv` first if wanted), then `npm run art -- render` for the redos, `npm run art -- contact` for the new takes, and `npm run art -- publish` once every still has an ok take. Nothing is in `public/deck/img` yet, because no take is approved.
+- Note (F2): Courtney reviewed the three contact sheets on 2026-10-04 and passed all 36 stills for now (`content/art/review.tsv`, every verdict `ok`). `npm run art -- publish` copied them to `public/deck/img`: 36 stills, average 32.6 KB against the 40 KB estimate. The builder's possible redos (`querer-want` cropped, stray blobs on `aqui-here` and `cafe-coffee`, three similar chick poses) stay as they are until she asks.
 
 **F3 Hero mascot animation**
 - Build: choose the animation format and record it under [Art](#art). Produce an idle loop and a celebration loop from the concha's model sheet (`content/art/cast/concha-sheet.webp`), following the hero mascot rules under [Art](#art). Place the idle loop on the menu and the celebration loop on the caught-up marker and the batch-end screen, and a still pose on the empty screens. The menu's mascot slot is 48 px, too small for an animation to read; make it bigger. Replace D1's placeholder app icons with the concha (`scripts/make-icons.mjs`).
@@ -1094,6 +1095,7 @@ Scripts only. Depends on A2 and nothing else in the app.
 - Note (F3): five takes, 9.8 credits in all (961.24 to 951.44): 1 for the background removal, 1.2 for each of four Seedance 1.5 Pro takes (idle t1 and t2, celebrate t1 and t2) and 4 for one Seedance 2.0 fast take (celebrate t3). In use: `idle-t1` (gentle breathing and a sway) and `celebrate-t3` (two hops, arms up, a twirl that shows her crust from behind). Celebrate t1 and t2 morphed the sugar crust into a bob mid-jump; idle t2 has a squint and a pout.
 - Note (F3): the done-when check ran in a real browser: the production build in Playwright's Chromium and WebKit at phone size. After one online visit, with the network gone (Chromium offline mode; for WebKit the server stopped, since its offline mode breaks reloads under a service worker), the idle loop plays on the menu, the celebration plays on the batch end and on Practice's caught-up marker, the still shows on "Nothing to practise yet", and with reduced motion the menu shows the poster. In the tests: `components/motion/Mascot.test.tsx`, `lib/pwa/sw.test.ts` (stored on install, ranged offline), and the menu, session, practice and motion tests check which pose each slot shows. Not tried on a real iPhone; H1 should watch the loops there with low-power mode on, which can stop muted autoplay (the poster then shows).
 - Note (F3): left for Courtney: open `content/art/mascot/takes.html` from disk, and either approve the two in use or change `use` in `content/art/mascot/takes.json` and run `npm run mascot`. New takes: generate with the start frame recipe in takes.json, add them to `takes` and rerun. The menu title now wraps to two lines next to the 96 px mascot on a 390 px phone.
+- Note (F3): Courtney chose `idle-t2` for the menu and kept `celebrate-t3` on 2026-10-04 (`content/art/mascot/takes.json`, then `npm run mascot`: idle.mp4 77.1 KB). The menu title no longer wraps beside the 96 px mascot: Tips and Settings moved to a line under the title, which stays on one line at 390 px (measured in Chromium and WebKit: title right edge 334 px, no sideways scroll).
 
 ### Track G: audio
 

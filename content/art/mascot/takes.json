@@ -1,7 +1,7 @@
 {
   "note": "Hero mascot takes (F3). npm run mascot re-encodes every take into content/art/mascot/takes/ and publishes the two in \"use\" to public/mascot/. Raw takes are cached in content/.cache/mascot/ and downloaded again from url when missing.",
   "use": {
-    "idle": "idle-t1",
+    "idle": "idle-t2",
     "celebrate": "celebrate-t3"
   },
   "startFrame": {

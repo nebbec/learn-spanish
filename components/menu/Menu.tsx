@@ -57,20 +57,20 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
 
   return (
     <main data-testid="menu" className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 p-6">
-      <header className="flex items-center justify-between gap-3">
-        <div className="flex items-center gap-3">
-          <div data-testid="mascot-slot" aria-hidden="true" className="size-24 shrink-0">
-            <Mascot pose="idle" />
-          </div>
-          <h1 className="font-display text-prompt font-bold">Learn Spanish</h1>
+      <header className="flex items-center gap-3">
+        <div data-testid="mascot-slot" aria-hidden="true" className="size-24 shrink-0">
+          <Mascot pose="idle" />
         </div>
-        <div className="flex items-center gap-4">
-          <Link href={ROUTES.tips} data-testid="menu-tips" className="font-bold text-brand">
-            Tips
-          </Link>
-          <Link href={ROUTES.settings} data-testid="menu-settings" className="font-bold text-brand">
-            Settings
-          </Link>
+        <div className="flex min-w-0 flex-col gap-1">
+          <h1 className="font-display text-prompt font-bold whitespace-nowrap">Learn Spanish</h1>
+          <div className="flex items-center gap-4">
+            <Link href={ROUTES.tips} data-testid="menu-tips" className="font-bold text-brand">
+              Tips
+            </Link>
+            <Link href={ROUTES.settings} data-testid="menu-settings" className="font-bold text-brand">
+              Settings
+            </Link>
+          </div>
         </div>
       </header>
       {status}

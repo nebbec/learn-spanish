@@ -5,39 +5,39 @@
 # with the character and pose in cast.tsv (change them there first if you like).
 # The note column is for you. `npm run art -- publish` copies the ok takes into the app.
 still	take	character	sheet	verdict	note
-gracias-thank-you	1	concha	concha-01		
-adios-goodbye	1	concha	concha-01		
-estar-be-state	1	concha	concha-01		
-mal-badly	1	concha	concha-01		
-querer-want	1	concha	concha-01		
-amigo-friend	1	concha	concha-01		
-hijo-son	1	concha	concha-02		
-hijo-daughter	1	concha	concha-02		
-padre-father	1	concha	concha-02		
-hermano-brother	1	concha	concha-02		
-hermano-sister	1	concha	concha-02		
-madre-mother	1	concha	concha-02		
-malo-bad	1	concha	concha-03		
-viejo-old	1	concha	concha-03		
-feliz-happy	1	concha	concha-03		
-ingles-english	1	concha	concha-03		
-necesitar-need	1	concha	concha-03		
-ayudar-help	1	concha	concha-03		
-ser-be-identity	1	alpaca	alpaca-01		
-muy-very	1	alpaca	alpaca-01		
-tambien-also	1	alpaca	alpaca-01		
-grande-big	1	alpaca	alpaca-01		
-saber-know	1	alpaca	alpaca-01		
-hablar-speak	1	alpaca	alpaca-01		
-si-yes	1	chick	chick-01		
-hola-hello	1	chick	chick-01		
-nuevo-new	1	chick	chick-01		
-pequeno-small	1	chick	chick-01		
-entender-understand	1	chick	chick-01		
-poder-can	1	chick	chick-01		
-bien-well	1	capybara	capybara-01		
-aqui-here	1	capybara	capybara-01		
-tener-have	1	capybara	capybara-01		
-cafe-coffee	1	capybara	capybara-01		
-bueno-good	1	capybara	capybara-01		
-cansado-tired	1	capybara	capybara-01		
+gracias-thank-you	1	concha	concha-01	ok	Courtney 2026-10-04: all stills fine for now
+adios-goodbye	1	concha	concha-01	ok	Courtney 2026-10-04: all stills fine for now
+estar-be-state	1	concha	concha-01	ok	Courtney 2026-10-04: all stills fine for now
+mal-badly	1	concha	concha-01	ok	Courtney 2026-10-04: all stills fine for now
+querer-want	1	concha	concha-01	ok	Courtney 2026-10-04: all stills fine for now
+amigo-friend	1	concha	concha-01	ok	Courtney 2026-10-04: all stills fine for now
+hijo-son	1	concha	concha-02	ok	Courtney 2026-10-04: all stills fine for now
+hijo-daughter	1	concha	concha-02	ok	Courtney 2026-10-04: all stills fine for now
+padre-father	1	concha	concha-02	ok	Courtney 2026-10-04: all stills fine for now
+hermano-brother	1	concha	concha-02	ok	Courtney 2026-10-04: all stills fine for now
+hermano-sister	1	concha	concha-02	ok	Courtney 2026-10-04: all stills fine for now
+madre-mother	1	concha	concha-02	ok	Courtney 2026-10-04: all stills fine for now
+malo-bad	1	concha	concha-03	ok	Courtney 2026-10-04: all stills fine for now
+viejo-old	1	concha	concha-03	ok	Courtney 2026-10-04: all stills fine for now
+feliz-happy	1	concha	concha-03	ok	Courtney 2026-10-04: all stills fine for now
+ingles-english	1	concha	concha-03	ok	Courtney 2026-10-04: all stills fine for now
+necesitar-need	1	concha	concha-03	ok	Courtney 2026-10-04: all stills fine for now
+ayudar-help	1	concha	concha-03	ok	Courtney 2026-10-04: all stills fine for now
+ser-be-identity	1	alpaca	alpaca-01	ok	Courtney 2026-10-04: all stills fine for now
+muy-very	1	alpaca	alpaca-01	ok	Courtney 2026-10-04: all stills fine for now
+tambien-also	1	alpaca	alpaca-01	ok	Courtney 2026-10-04: all stills fine for now
+grande-big	1	alpaca	alpaca-01	ok	Courtney 2026-10-04: all stills fine for now
+saber-know	1	alpaca	alpaca-01	ok	Courtney 2026-10-04: all stills fine for now
+hablar-speak	1	alpaca	alpaca-01	ok	Courtney 2026-10-04: all stills fine for now
+si-yes	1	chick	chick-01	ok	Courtney 2026-10-04: all stills fine for now
+hola-hello	1	chick	chick-01	ok	Courtney 2026-10-04: all stills fine for now
+nuevo-new	1	chick	chick-01	ok	Courtney 2026-10-04: all stills fine for now
+pequeno-small	1	chick	chick-01	ok	Courtney 2026-10-04: all stills fine for now
+entender-understand	1	chick	chick-01	ok	Courtney 2026-10-04: all stills fine for now
+poder-can	1	chick	chick-01	ok	Courtney 2026-10-04: all stills fine for now
+bien-well	1	capybara	capybara-01	ok	Courtney 2026-10-04: all stills fine for now
+aqui-here	1	capybara	capybara-01	ok	Courtney 2026-10-04: all stills fine for now
+tener-have	1	capybara	capybara-01	ok	Courtney 2026-10-04: all stills fine for now
+cafe-coffee	1	capybara	capybara-01	ok	Courtney 2026-10-04: all stills fine for now
+bueno-good	1	capybara	capybara-01	ok	Courtney 2026-10-04: all stills fine for now
+cansado-tired	1	capybara	capybara-01	ok	Courtney 2026-10-04: all stills fine for now
