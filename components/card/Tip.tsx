@@ -28,7 +28,7 @@ export function TipBody({ tip, onPlay = playClip }: TipBodyProps) {
           <li
             key={example.audio}
             data-testid="tip-example"
-            className="flex items-center gap-2 rounded-button bg-paper p-3 text-left"
+            className="flex items-center gap-2 rounded-button bg-quiet p-3 text-left"
           >
             <p className="flex flex-1 flex-col gap-0.5">
               <span lang="es" className="text-lg font-bold">
@@ -96,7 +96,7 @@ export function TipButton({ tip, onPlay, className = "" }: TipBodyProps & { clas
         aria-label={`Tip: ${tip.title}`}
         aria-haspopup="dialog"
         onClick={() => setOpen(true)}
-        className={`grid size-11 shrink-0 place-items-center rounded-full border-2 border-brand bg-brand-soft font-display text-xl font-bold text-brand ${className}`}
+        className={`grid size-11 shrink-0 place-items-center rounded-full border-2 border-brand bg-brand-soft font-display text-xl font-bold text-ink ${className}`}
       >
         ?
       </button>

@@ -1,14 +1,15 @@
 "use client";
 
-// The menu: the wheel, Learn and Practice with their counts, and the Practice options.
-// See docs/design.md, "Menu". Presentational: progress in, links out.
+// The menu, the app's home page: the mascot and her line, the wheel, Learn, and Practice
+// with its options in a sheet. See docs/design.md, "Menu" ("Decided in U1" and "Decided in U3").
+// Presentational: progress in, links out.
 
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
 import { Mascot } from "@/components/motion";
 import { Wheel } from "@/components/Wheel";
 import type { Card, DeckUnit, PartOfSpeech } from "@/lib/deck";
-import { progressStats } from "@/lib/progress";
+import { GREETING_TEXT, menuGreeting, progressStats } from "@/lib/progress";
 import {
   DEFAULT_BATCH_SIZE,
   learnCut,
@@ -20,6 +21,17 @@ import {
 } from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
 import { isDue, type ReviewEvent } from "@/lib/scheduler";
+import {
+  InOrderIcon,
+  MenuIcon,
+  ReverseIcon,
+  SettingsIcon,
+  ShuffleIcon,
+  SlidersIcon,
+  StrugglingIcon,
+  TipsIcon,
+} from "./icons";
+import { Sheet, SheetDivider, SheetIcon, SheetLink, SheetText } from "./Sheet";
 
 export interface MenuProps {
   /** The whole deck. */
@@ -32,18 +44,22 @@ export interface MenuProps {
   reviews: readonly ReviewEvent[];
   /** The time the due count is taken at, in epoch milliseconds. */
   now: number;
-  /** Called with the Practice link for a tapped slice of the wheel. */
+  /** Called with the Practice link for a tapped petal of the wheel. */
   onNavigate: (href: string) => void;
-  /** The sync status line, drawn under the header. */
+  /** The sync status line, drawn at the foot of the menu sheet. */
   status?: ReactNode;
+  /** Puts a dot on the menu button, since the status line is out of sight in the sheet. */
+  syncFailed?: boolean;
 }
 
-const optionClass =
-  "flex min-h-14 flex-col items-center justify-center rounded-button border-2 border-line bg-surface px-2 py-2 text-center font-bold";
+type OpenSheet = "menu" | "practice" | null;
 
-export function Menu({ cards, units = [], states, reviews, now, onNavigate, status }: MenuProps) {
+export function Menu({ cards, units = [], states, reviews, now, onNavigate, status, syncFailed = false }: MenuProps) {
   // Reverse combines with every way into Practice, so it is a switch that changes the links.
+  // It starts off each time the menu opens.
   const [reverse, setReverse] = useState(false);
+  const [sheet, setSheet] = useState<OpenSheet>(null);
+  const close = () => setSheet(null);
 
   const stats = progressStats(cards, states);
   const unseen = stats.total - stats.seen;
@@ -52,95 +68,185 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
   const due = cards.filter((card) => isDue(states.get(card.id), now)).length;
   const strugglingIds = strugglingCardIds(reviews);
   const struggling = cards.filter((card) => strugglingIds.has(card.id)).length;
+  const greeting = menuGreeting(cards, units, states, now);
 
   const href = (mode?: PracticeMode, pos?: PartOfSpeech) => practiceHref({ mode, pos, reverse });
 
   return (
-    <main data-testid="menu" className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 p-6">
-      <header className="flex items-center gap-3">
-        <div data-testid="mascot-slot" aria-hidden="true" className="size-24 shrink-0">
-          <Mascot pose="idle" />
-        </div>
-        <div className="flex min-w-0 flex-col gap-1">
-          <h1 className="font-display text-prompt font-bold whitespace-nowrap">Learn Spanish</h1>
-          <div className="flex items-center gap-4">
-            <Link href={ROUTES.tips} data-testid="menu-tips" className="font-bold text-brand">
-              Tips
-            </Link>
-            <Link href={ROUTES.settings} data-testid="menu-settings" className="font-bold text-brand">
-              Settings
-            </Link>
+    <>
+      <main
+        data-testid="menu"
+        inert={sheet !== null}
+        className="mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-3 pb-7.5"
+      >
+        <header className="flex h-11 shrink-0 justify-end">
+          <button
+            type="button"
+            data-testid="menu-open"
+            aria-label={syncFailed ? "Menu, sync failed" : "Menu"}
+            aria-haspopup="dialog"
+            aria-expanded={sheet === "menu"}
+            onClick={() => setSheet("menu")}
+            className="relative grid size-11 place-items-center rounded-full text-ink"
+          >
+            <MenuIcon />
+            {syncFailed && (
+              <span
+                data-testid="menu-sync-dot"
+                className="absolute top-2 right-2 size-2.5 rounded-full border-2 border-surface bg-again"
+              />
+            )}
+          </button>
+        </header>
+
+        <div className="mt-1 flex shrink-0 flex-col items-center gap-0.5">
+          <div data-testid="mascot-slot" aria-hidden="true" className="size-[clamp(112px,21.4dvh,180px)]">
+            <Mascot pose="idle" />
           </div>
-        </div>
-      </header>
-      {status}
-
-      <section aria-label="Progress" className="flex flex-col items-center gap-1">
-        <Wheel stats={stats} onSliceTap={(pos) => onNavigate(href(undefined, pos))} className="w-full" />
-        <p className="text-center text-ink-soft">
-          <span data-testid="menu-memorized">{stats.memorized}</span> memorized ·{" "}
-          <span data-testid="menu-seen">{stats.seen}</span> seen of {stats.total}. Tap a slice to practise it.
-        </p>
-      </section>
-
-      <nav aria-label="Study" className="flex flex-col gap-3">
-        <Link
-          href={ROUTES.learn}
-          data-testid="menu-learn"
-          className="flex flex-col items-center rounded-button bg-brand p-4 text-center text-on-brand"
-        >
-          <span className="font-display text-2xl font-bold">Learn</span>
-          {unit ? (
-            <span data-testid="menu-unit">{unitName(units, unit)}</span>
-          ) : (
-            <span>
-              <span data-testid="menu-unseen">{unseen}</span> new {unseen === 1 ? "card" : "cards"} left
-            </span>
-          )}
-        </Link>
-        <Link
-          href={href()}
-          data-testid="menu-practice"
-          className="flex flex-col items-center rounded-button border-2 border-brand bg-brand-soft p-4 text-center text-ink"
-        >
-          <span className="font-display text-2xl font-bold">Practice</span>
-          <span>
-            <span data-testid="menu-due">{due}</span> due
-          </span>
-        </Link>
-
-        <div className="grid grid-cols-3 gap-3">
-          <Link href={href("shuffle")} data-testid="menu-shuffle" className={optionClass}>
-            Shuffle
-          </Link>
-          <Link href={href("in-order")} data-testid="menu-in-order" className={optionClass}>
-            In order
-          </Link>
-          <Link href={href("struggling")} data-testid="menu-struggling" className={optionClass}>
-            <span>Struggling</span>
-            <span className="text-sm font-normal text-ink-soft">
-              <span data-testid="menu-struggling-count">{struggling}</span> {struggling === 1 ? "card" : "cards"}
-            </span>
-          </Link>
+          <h1
+            data-testid="menu-greeting"
+            data-greeting={greeting}
+            lang="es"
+            className="font-display text-greeting font-extrabold tracking-[-0.01em]"
+          >
+            {GREETING_TEXT[greeting]}
+          </h1>
         </div>
 
-        <button
-          type="button"
-          role="switch"
-          aria-checked={reverse}
-          data-testid="menu-reverse"
-          onClick={() => setReverse((on) => !on)}
-          className={`flex min-h-14 items-center justify-between rounded-button border-2 px-4 py-2 text-left font-bold ${
-            reverse ? "border-brand bg-brand-soft" : "border-line bg-surface"
-          }`}
-        >
-          <span className="flex flex-col">
-            <span>Reverse</span>
-            <span className="text-sm font-normal text-ink-soft">Practise with the Spanish shown first</span>
-          </span>
-          <span>{reverse ? "On" : "Off"}</span>
-        </button>
-      </nav>
-    </main>
+        <section aria-label="Progress" className="mt-4.5 shrink-0">
+          <Wheel stats={stats} onSliceTap={(pos) => onNavigate(href(undefined, pos))} />
+        </section>
+
+        <div className="min-h-3 grow" />
+
+        <nav aria-label="Study" className="flex shrink-0 flex-col gap-2.5">
+          <Link
+            href={ROUTES.learn}
+            data-testid="menu-learn"
+            className="flex h-17 flex-col items-center justify-center gap-px rounded-cta bg-brand text-on-brand"
+          >
+            <span className="text-xl font-extrabold">Learn</span>
+            <span className="text-sm font-semibold opacity-85">
+              {unit ? (
+                <span data-testid="menu-unit">{unitName(units, unit)}</span>
+              ) : (
+                <>
+                  <span data-testid="menu-unseen">{unseen}</span> new {unseen === 1 ? "card" : "cards"} left
+                </>
+              )}
+            </span>
+          </Link>
+
+          <div className="flex gap-2.5">
+            <Link
+              href={href()}
+              data-testid="menu-practice"
+              className="flex h-14 min-w-0 grow items-center justify-center gap-2 rounded-tile border-[1.5px] border-edge bg-surface px-2"
+            >
+              <span className="text-[1.0625rem] font-extrabold">Practice</span>
+              <span data-testid="menu-due" data-count={due} className="truncate text-sm font-semibold text-ink-soft">
+                {due > 0 ? `${due} due` : stats.seen > 0 ? "Nothing due" : "Nothing due yet"}
+              </span>
+              {reverse && (
+                <span
+                  data-testid="menu-reverse-tag"
+                  className="shrink-0 rounded-full bg-ink px-2 py-0.75 text-xs font-bold text-surface"
+                >
+                  Reverse on
+                </span>
+              )}
+            </Link>
+            <button
+              type="button"
+              data-testid="practice-options"
+              aria-label="Practice options"
+              aria-haspopup="dialog"
+              aria-expanded={sheet === "practice"}
+              onClick={() => setSheet("practice")}
+              className="grid size-14 shrink-0 place-items-center rounded-tile border-[1.5px] border-edge bg-surface"
+            >
+              <SlidersIcon />
+            </button>
+          </div>
+        </nav>
+      </main>
+
+      {sheet === "menu" && (
+        <Sheet testId="menu-sheet" label="Menu" onClose={close}>
+          <SheetLink
+            href={ROUTES.tips}
+            testId="menu-tips"
+            icon={<TipsIcon />}
+            title="Tips"
+            detail="Every tip you have reached"
+          />
+          <SheetLink
+            href={ROUTES.settings}
+            testId="menu-settings"
+            icon={<SettingsIcon />}
+            title="Settings"
+            detail="Sign-in, audio, batch size, offline"
+          />
+          {/* The status line draws nothing when sync is not set up, and its rule goes with it. */}
+          <div className="mt-2 border-t border-line pt-2 empty:hidden">{status}</div>
+        </Sheet>
+      )}
+
+      {sheet === "practice" && (
+        <Sheet testId="practice-sheet" labelledBy="practice-options-heading" onClose={close}>
+          <h2 id="practice-options-heading" className="mb-1.5 text-[1.1875rem] font-extrabold">
+            Practice options
+          </h2>
+          <SheetLink
+            href={href("shuffle")}
+            testId="menu-shuffle"
+            icon={<ShuffleIcon />}
+            title="Shuffle"
+            detail="Seen cards in random order"
+          />
+          <SheetLink
+            href={href("in-order")}
+            testId="menu-in-order"
+            icon={<InOrderIcon />}
+            title="In order"
+            detail="Seen cards, most common first"
+          />
+          <SheetLink
+            href={href("struggling")}
+            testId="menu-struggling"
+            icon={<StrugglingIcon />}
+            title="Struggling"
+            detail={
+              <>
+                <span data-testid="menu-struggling-count">{struggling}</span> {struggling === 1 ? "card" : "cards"}{" "}
+                with a recent red
+              </>
+            }
+          />
+          <SheetDivider />
+          <div className="flex min-h-15 items-center gap-3.5">
+            <SheetIcon>
+              <ReverseIcon />
+            </SheetIcon>
+            <SheetText title="Reverse" detail="Spanish shown first, everywhere in Practice" />
+            <button
+              type="button"
+              role="switch"
+              aria-checked={reverse}
+              aria-label="Reverse"
+              data-testid="menu-reverse"
+              onClick={() => setReverse((on) => !on)}
+              className={`relative h-8 w-13 shrink-0 rounded-full ${reverse ? "bg-brand" : "bg-edge"}`}
+            >
+              <span
+                className={`absolute top-0.75 size-6.5 rounded-full bg-surface shadow-[0_1px_3px_rgb(0_0_0/0.2)] motion-safe:transition-[left] ${
+                  reverse ? "left-5.75" : "left-0.75"
+                }`}
+              />
+            </button>
+          </div>
+        </Sheet>
+      )}
+    </>
   );
 }

@@ -112,7 +112,7 @@ export function InstallPrompt() {
             type="button"
             data-testid="install-dismiss"
             onClick={dismiss}
-            className="rounded-button px-4 py-2 font-bold text-brand"
+            className="rounded-button px-4 py-2 font-bold text-ink"
           >
             {path === "ios" ? "Got it" : "Not now"}
           </button>

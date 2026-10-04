@@ -143,7 +143,7 @@ function ReverseFace({ card }: { card: Card }) {
 function SayIt({ card }: { card: Card }) {
   if (!card.unit) return null;
   return (
-    <span data-testid="say-it" className="text-base font-bold text-brand">
+    <span data-testid="say-it" className="text-base font-bold text-ink-soft">
       Say it out loud
     </span>
   );

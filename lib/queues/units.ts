@@ -26,6 +26,30 @@ function placeOf(units: readonly DeckUnit[]): (card: Card) => number {
 }
 
 /**
+ * How far the learner has got: the index of the latest unit holding a seen card,
+ * `units.length` once a frequency-phase card is seen, or -1 with nothing seen.
+ */
+function reachedIndex(cards: readonly Card[], states: CardStates, units: readonly DeckUnit[]): number {
+  const place = placeOf(units);
+  let reached = -1;
+  for (const card of cards) {
+    if (!isSeen(states.get(card.id))) continue;
+    const at = place(card);
+    reached = Math.max(reached, at === -1 ? units.length : at);
+  }
+  return reached;
+}
+
+/**
+ * The unit the learner is on: the latest unit holding a seen card. Null with
+ * nothing seen, and in the frequency phase, once a card outside the units is seen.
+ */
+export function currentUnit(cards: readonly Card[], states: CardStates, units: readonly DeckUnit[]): DeckUnit | null {
+  const reached = reachedIndex(cards, states, units);
+  return reached >= 0 && reached < units.length ? units[reached] : null;
+}
+
+/**
  * The next Learn batch's cards. The learner has got as far as the latest unit holding a
  * seen card, or past every unit once a frequency-phase card is seen. The batch is the
  * unseen cards of the earliest unit from there on that has any, whatever their number;
@@ -43,13 +67,7 @@ export function learnCut(
   const size = Math.max(0, batchSize);
   const seen = (card: Card) => isSeen(states.get(card.id));
 
-  let reached = -1;
-  for (const card of cards) {
-    if (!seen(card)) continue;
-    const at = place(card);
-    reached = Math.max(reached, at === -1 ? units.length : at);
-  }
-  const from = Math.max(0, reached);
+  const from = Math.max(0, reachedIndex(cards, states, units));
 
   const unseen = cards.filter((card) => !seen(card));
   const added = unseen.filter((card) => place(card) !== -1 && place(card) < from).slice(0, size);

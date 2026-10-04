@@ -454,6 +454,16 @@ Decided in U1 (interview with Courtney, 2026-10-04; built in U3, replacing C6's 
 - **The whole screen fits a 390 by 844 phone without scrolling** (wheel about 280 px).
 - **Theme: clean white**, picked by Courtney from the U1 mockups (warm paper was the other). Background `#FFFFFF`, ink `#141416`, soft text `#6B6B73`, lines `#ECECF0`, quiet fill `#F4F4F6`, one accent: saffron `#FFB800` with ink text on it (the Learn button, the switch). Practice and the sliders button are white with a 1.5 px `#E2E2E8` border; sheets are white with a 28 px top radius over a `rgba(20, 20, 22, 0.28)` scrim. Type: Manrope throughout (800 for "¡Vamos!" at 34 px and button labels). The clay mascot and the wheel are the only rich colour. U3 swaps the `@theme` tokens app-wide. No dark mode.
 
+Decided in U3 (home page in `components/menu`, sheets in `components/menu/Sheet.tsx`, the line in `lib/progress/greeting.ts`, tokens in `app/globals.css`):
+
+- **The line under the mascot** is `menuGreeting`, keyed `hola`, `vamos` or `muy-bien` (U4 names its clips by the key). "The current unit" is the latest unit holding a seen card (`currentUnit` in `lib/queues/units.ts`, the same reckoning as `learnCut`). In the frequency phase there is no current unit, so nothing due is enough for ¡Muy bien!. It is an `h1` with `lang="es"`, the page's only heading.
+- **Practice's count** reads "12 due", "Nothing due", or "Nothing due yet" while nothing is seen. **Learn** keeps L12's name, "Unit 2 · Who I am" (the mockup showed the title alone), or "n new cards left".
+- **Both sheets are one `Sheet`**: a dialog over the scrim that closes on the scrim, on its handle (a Close button) or on Escape; focus moves into it and back to the button that opened it, and the page behind is `inert`. It rises in 240 ms over a fading scrim, inside the reduced-motion guard. The menu sheet's rows say "Every tip you have reached" and "Sign-in, audio, batch size, offline", as in the mockup.
+- **The sync line** (`SyncStatusLine`) now lives at the foot of the menu sheet, after a dot: green when synced, red when it failed, grey otherwise. When sync is not set up it draws nothing, and its rule goes with it. The menu button's dot is red, and the button's label becomes "Menu, sync failed".
+- **Short screens**: the mascot (112 to 180 px, 21.4% of the height) and the wheel (190 to 256 px tall, 30.5%) shrink with the screen's height, so the page also fits Safari with its bars (390 by 664) and a 360 by 740 Android; at 844 they are 180 and 256 exactly. The install prompt, while it shows, still sits above the page, which then scrolls.
+- **The theme, app-wide**: `paper` and `surface` are white; new tokens `edge` (outlined buttons), `quiet` (a box inside a card, a sheet's icon tile), `scrim`, `ghost`, and `pos-<part of speech>` with `pos-<part of speech>-seen` for the wheel; radii `tile` (18 px), `cta` (20 px) and `sheet` (28 px); `text-greeting` (34 px); `shadow-sheet`. `brand` is saffron with `on-brand` ink and `brand-soft` a pale saffron; `sun` stays for highlights (a glue card's target). Manrope (`next/font`, `--font-manrope`) replaces Baloo 2 and Nunito for both `font-display` and `font-body`. The browser's theme colour and the manifest's background are white.
+- **What the swap broke, and the fixes**: saffron text is unreadable on white, so every link that was `text-brand` is ink (underlined where it is a text button: Suggest a trick, the sign-in links, Sync now); "Say it out loud" is `ink-soft`. Boxes inside a card that were cream on white (the reveal's example and why line, a tip's examples, the unit payoff's phrases) are `bg-quiet`, since the page and the card are now both white. The batch bar's done segments are ink and the current one saffron, as saffron and `sun` side by side could not be told apart. Cards lift off the white page by a soft shadow (`shadow-card`) instead of the cream theme's hard 6 px edge. The rating colours pass on white and are unchanged. The app icons still show the concha on cream; redrawing them on white means raising `ICON_VERSION`, left for a later ticket.
+
 ### Card front
 
 - Segmented bar across the top, one segment per card in the batch.
@@ -531,6 +541,14 @@ Decided in U1 (interview with Courtney, 2026-10-04; built in U3, replacing B4's 
 - **Every petal reaches the same small inner circle** (radius 17 of 104), Courtney's call: narrow petals must not start further out than wide ones. The gaps are by angle (3.4°), so they narrow towards the centre; corners are rounded (9 px outside, up to 4 px inside). With the inner circle, the fill radius is `sqrt(r0² + f·(R² − r0²))`, which keeps area true to the fraction.
 - **Percentages are of the cards shipped** (the deck the app serves, 100 today), not of the 1,000 goal, so a beginner's wheel does not look empty for months. They dip a little each time a batch of new cards ships.
 - **Labels stay short words outside the rim** ("nouns", "verbs"), no icons. Tapping a petal still starts Practice for it.
+
+Decided in U3 (`components/Wheel.tsx`; the maths in `lib/progress/progress.ts`):
+
+- **The petal is `petalPath`**, beside B4's `sectorPath`: the slice between the inner circle and a radius, the gap taken off both sides as radial edges, outer corners rounded 9 units along the edge and the rim (less when the arc is short), inner corners up to 4. Every layer (ghost, seen, memorized) is the same shape at its own radius, so a fill just past the inner circle is still a closed petal. The wheel is drawn in a 358 by 256 box, radius 104, inner circle 17.
+- **`fillRadius` takes the inner radius** (`wheelSlices(stats, { radius, innerRadius })`); with none, as before, it fills from the centre. No cards gives no layer at all.
+- **The legend is part of the wheel**, under it. `percentOf` rounds to a whole percentage that is 0 only with none and 100 only with all, so one card seen of 1,000 reads 1%.
+- **Labels**: the short words sit 12 units outside the rim, on their baseline near the top, hanging near the bottom and centred at the sides; screen readers hear the full names ("Prepositions: 3 memorized and 5 seen, of 12"). The grey ghost takes a tap anywhere on the petal; a focused petal is outlined in ink.
+- **The seen colours are written out** as tokens (`--color-pos-noun-seen` and so on, the mockup's values), and `lib/theme.test.ts` checks each is its colour mixed 36% into white.
 
 ## Art
 
@@ -962,8 +980,14 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | M1 | Archive finished tickets' notes | none | | Done |
 | U1 | Home page mockups | none | Pick a theme | Done |
 | U2 | Transparent mascot | none | Approve the cost and the cut-outs | Done except: Courtney approves the cut-outs on the phone |
-| U3 | New theme and home page | U1, U2 | | Todo |
+| U3 | New theme and home page | U1, U2 | | Done |
 | U4 | Tap the mascot | U3 | Listen to the clips | Todo |
+| U5 | Card screens mockups | U3 | Pick a design | Todo |
+| U6 | Card screens | U5 | | Todo |
+| U7 | Batch end mockups | U3 | Pick a design | Todo |
+| U8 | Batch end | U7 | | Todo |
+| U9 | Settings and tips mockups | U3 | Pick a design | Todo |
+| U10 | Settings and tips | U9 | | Todo |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
@@ -1253,7 +1277,7 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 
 ### Track U: UI upgrade
 
-Added 2026-10-04 at Courtney's request: the app looks clunky, starting with the menu. The agreed design is under [Menu](#menu) and [The wheel](#the-wheel), "Decided in U1". After U3, the other screens get the same treatment one at a time, most used first (card front and reveal, then batch end, then settings and tips), each with its own mockup round reusing the chosen theme; write those tickets when U3 is done.
+Added 2026-10-04 at Courtney's request: the app looks clunky, starting with the menu. The agreed design is under [Menu](#menu) and [The wheel](#the-wheel), "Decided in U1". After U3, the other screens get the same treatment one at a time, most used first (card front and reveal, then batch end, then settings and tips), each with its own mockup round reusing the chosen theme; written as U5 to U10 when U3 was done.
 
 **U1 Home page mockups**
 - Do: in Claude Design, one canvas with two columns, one per theme: warm paper with the one-accent wheel, clean white with the multicolour wheel. Each column has four phone frames (390 by 844): home mid-progress (¡Vamos!, about 40% seen and 15% memorized, 12 due, a unit name on Learn), home on the first visit (¡Hola!, an empty wheel with the centre dot, 0 due), the menu sheet open, and the Practice options sheet open. Real part-of-speech groups and counts from the 100-card deck; the mascot is her transparent still.
@@ -1269,6 +1293,33 @@ Added 2026-10-04 at Courtney's request: the app looks clunky, starting with the 
 **U3 New theme and home page**
 - Do: swap the `@theme` tokens in `app/globals.css` to the theme picked in U1, app-wide; check every screen once and fix only what breaks (card shadow, purple tints, rating colours on the new background). Build the home page as "Decided in U1" under [Menu](#menu): the petal wheel with its legend and centre dot (`components/Wheel.tsx`; the maths in `lib/progress` stays), the 180 px mascot with the state line, the menu sheet, the Practice options sheet and the Reverse tag.
 - Done when: the menu matches the chosen mockup at 390 by 844 with no scrolling, the menu tests cover the sheets, the state line and the Reverse tag, and tests, lint and build pass.
+- Note (U3): built as "Decided in U3" under [Menu](#menu) and [The wheel](#the-wheel). The checks: `components/menu/menu.test.tsx` (both sheets, closing by scrim, handle and Escape, focus, the sync dot, the Reverse tag and links, the three lines, the counts after Learn and Practice), `components/Wheel.test.tsx`, `lib/progress/greeting.test.ts`, the petal and percentage tests in `lib/progress/progress.test.ts`, and `lib/theme.test.ts`. 752 tests, lint and build pass.
+- Note (U3): checked in a real browser: the production build in Playwright's Chromium and WebKit at 390 by 844 shows no scrolling (page height 844), Manrope and a white page, on a first visit (¡Hola!, grey petals, the centre dot, "Nothing due yet") and after studying unit 1 of the real deck (¡Muy bien!, 12% seen, "Unit 2 · Who I am"), with both sheets and the Reverse tag; 390 by 797 and 664, 360 by 740 and 430 by 932 fit without scrolling either way. The intro, front, reveal, batch end, settings and tips were each looked at once after the swap. Not seen in a browser: petals with memorized fills (tests only), and not tried on a real iPhone.
+- Note (U3): for U4: the `mascot-slot` is still `aria-hidden` with no handler, and `menu-greeting` carries the line's key in `data-greeting`. Test ids that changed: `menu-seen`, `menu-memorized` and `wheel-centre` are gone (the wheel's label carries the counts, `legend-seen` and `legend-memorized` the percentages); `menu-due` holds its count in `data-count`; Tips, Settings, the three options and the Reverse switch exist only while their sheet is open (`menu-open`, `practice-options`).
+
+**U5 Card screens mockups**
+- Do: in Claude Design, in the clean white theme, phone frames (390 by 844) of the intro, a forward front with a character, a glue front, the reveal of a verb (strip, example, note) and of a phrase card, and the tip screen: each as U3 left it and in one new layout. Real cards from the deck.
+- Done when: Courtney has picked, and the pick is recorded as "Decided in U5" under [Card front](#card-front) and [Reveal](#reveal).
+
+**U6 Card screens**
+- Do: build U5's pick in `components/card`, the frame's bar and mute button included, keeping every behaviour and test id the session tests use.
+- Done when: the card screens match the pick at 390 by 844, and tests, lint and build pass.
+
+**U7 Batch end mockups**
+- Do: as U5, for the batch end, the unit's payoff ("Unit complete!"), the caught-up marker and the two empty screens, with the celebration loop.
+- Done when: Courtney has picked, and the pick is recorded as "Decided in U7" under [Batch end](#batch-end).
+
+**U8 Batch end**
+- Do: build U7's pick in `components/session` (`BatchEnd`, `UnitPayoff`, the marker and empty screens).
+- Done when: those screens match the pick at 390 by 844, and tests, lint and build pass.
+
+**U9 Settings and tips mockups**
+- Do: as U5, for the settings page (its switch drawn like the Practice options' switch) and the tips list.
+- Done when: Courtney has picked, and the pick is recorded as "Decided in U9" under [Settings](#settings).
+
+**U10 Settings and tips**
+- Do: build U9's pick in `components/settings`, `components/sync` (`SyncPanel`) and `components/tips`; redraw the app icons on white if the pick asks for it (raise `ICON_VERSION`).
+- Done when: both pages match the pick at 390 by 844, and tests, lint and build pass.
 
 **U4 Tap the mascot**
 - Do: make three clips (¡Hola!, ¡Vamos!, ¡Muy bien!) with the audio script's voice; tapping the mascot on the menu plays the line shown under her (respecting the mute switch) and plays her jump.

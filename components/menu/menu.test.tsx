@@ -41,6 +41,17 @@ const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${t
 const count = (testId: string) => Number(q(testId)!.textContent);
 const href = (testId: string) => q(testId)!.getAttribute("href");
 const click = (testId: string) => act(() => q(testId)!.click());
+const tapPetal = (pos: string) =>
+  act(() => host.querySelector<SVGGElement>(`[data-pos="${pos}"]`)!.dispatchEvent(new MouseEvent("click", { bubbles: true })));
+const press = (key: string) =>
+  act(() => void document.activeElement!.dispatchEvent(new KeyboardEvent("keydown", { key, bubbles: true })));
+/** Runs `read` with the Practice options sheet open, then closes it by its scrim. */
+function inPracticeSheet<T>(read: () => T): T {
+  click("practice-options");
+  const result = read();
+  click("practice-sheet-scrim");
+  return result;
+}
 
 /** Replaces whatever is on screen, the way moving to another route does. */
 function show(screen: ReactNode) {
@@ -50,8 +61,8 @@ function show(screen: ReactNode) {
 }
 
 /** Waits for the menu's counts to be drawn, however long the store takes to load them. */
-async function showMenu(loadDeck: typeof loadWithUnits = loadPlain) {
-  show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadDeck={loadDeck} clock={clock} />);
+async function showMenu(loadDeck: typeof loadWithUnits = loadPlain, extra: { status?: ReactNode; syncFailed?: boolean } = {}) {
+  show(<MenuScreen onNavigate={(to) => visited.push(to)} store={store} loadDeck={loadDeck} clock={clock} {...extra} />);
   await until(() => q("menu"), "the menu to load");
 }
 
@@ -75,16 +86,20 @@ async function studyBatch(ratings: Rating[] = []) {
   }
 }
 
-/** The counts the menu shows, read off the screen. */
-const counts = () => ({
-  unseen: count("menu-unseen"),
-  due: count("menu-due"),
-  seen: count("menu-seen"),
-  memorized: count("menu-memorized"),
-  struggling: count("menu-struggling-count"),
-  centre: q("wheel-centre")!.textContent,
-  wheel: q("wheel")!.getAttribute("aria-label"),
-});
+/** The counts the menu shows, read off the screen: the wheel's label carries seen and memorized. */
+function counts() {
+  const wheel = q("wheel")!.getAttribute("aria-label")!;
+  const [, memorized, , seen] = wheel.match(/^Progress: (\d+) of (\d+) cards memorized, (\d+) seen$/)!.map(Number);
+  return {
+    unseen: count("menu-unseen"),
+    due: Number(q("menu-due")!.dataset.count),
+    seen,
+    memorized,
+    struggling: inPracticeSheet(() => count("menu-struggling-count")),
+    legend: `${q("legend-seen")!.textContent} · ${q("legend-memorized")!.textContent}`,
+    wheel,
+  };
+}
 
 /** The same counts worked out from what the store holds. */
 async function expected(now: number) {
@@ -113,7 +128,7 @@ afterEach(() => {
 });
 
 describe("the menu before any studying", () => {
-  it("shows the whole deck as unseen and an empty wheel", async () => {
+  it("shows the whole deck as unseen, an empty wheel and ¡Hola!", async () => {
     await showMenu();
     expect(counts()).toEqual({
       unseen: TOTAL,
@@ -121,39 +136,122 @@ describe("the menu before any studying", () => {
       seen: 0,
       memorized: 0,
       struggling: 0,
-      centre: `0of ${TOTAL}`,
+      legend: "0% seen · 0% memorized",
       wheel: `Progress: 0 of ${TOTAL} cards memorized, 0 seen`,
     });
+    expect(q("menu-greeting")!.textContent).toBe("¡Hola!");
+    expect(q("menu-due")!.textContent).toBe("Nothing due yet");
+    expect(q("wheel-centre-dot")).not.toBeNull();
   });
 
-  it("links to Learn, Practice, each option and settings, and has the idle mascot", async () => {
+  it("links to Learn and Practice, and has the idle mascot and no title", async () => {
     await showMenu();
     expect(href("menu-learn")).toBe("/learn");
     expect(href("menu-practice")).toBe("/practice");
+    expect(q("mascot-slot")!.querySelector<HTMLElement>('[data-testid="mascot"]')!.dataset.pose).toBe("idle");
+    expect(host.querySelectorAll("h1")).toHaveLength(1);
+    expect(host.querySelector("h1")!.getAttribute("lang")).toBe("es");
+    // Tips, Settings and the options are in the sheets, which start closed.
+    expect(q("menu-sheet")).toBeNull();
+    expect(q("practice-sheet")).toBeNull();
+    expect(q("menu-settings")).toBeNull();
+  });
+
+  it("opens Practice for a part of speech when its petal is tapped", async () => {
+    await showMenu();
+    tapPetal("verb");
+    expect(visited).toEqual(["/practice?pos=verb"]);
+  });
+});
+
+describe("the menu sheet", () => {
+  it("opens from the menu button with Tips, Settings and the sync status, and closes on its scrim", async () => {
+    await showMenu(loadPlain, { status: <p data-testid="sync-status">Synced just now.</p> });
+    expect(q("menu-open")!.getAttribute("aria-expanded")).toBe("false");
+    click("menu-open");
+    expect(q("menu-open")!.getAttribute("aria-expanded")).toBe("true");
+    const sheet = q("menu-sheet")!;
+    expect(sheet.getAttribute("role")).toBe("dialog");
+    expect(sheet.getAttribute("aria-modal")).toBe("true");
+    expect(href("menu-tips")).toBe("/tips");
+    expect(href("menu-settings")).toBe("/settings");
+    expect(sheet.contains(q("sync-status"))).toBe(true);
+    // The page behind the sheet is out of reach.
+    expect(q("menu")!.hasAttribute("inert")).toBe(true);
+
+    click("menu-sheet-scrim");
+    expect(q("menu-sheet")).toBeNull();
+    expect(q("menu")!.hasAttribute("inert")).toBe(false);
+  });
+
+  it("closes on Escape and on its handle, handing focus back to the button that opened it", async () => {
+    await showMenu();
+    act(() => q("menu-open")!.focus());
+    click("menu-open");
+    expect(document.activeElement).toBe(q("menu-sheet"));
+    press("Escape");
+    expect(q("menu-sheet")).toBeNull();
+    expect(document.activeElement).toBe(q("menu-open"));
+
+    click("menu-open");
+    act(() => q("menu-sheet")!.querySelector<HTMLElement>('button[aria-label="Close"]')!.click());
+    expect(q("menu-sheet")).toBeNull();
+  });
+
+  it("puts a dot on the menu button when sync has failed", async () => {
+    await showMenu();
+    expect(q("menu-sync-dot")).toBeNull();
+    expect(q("menu-open")!.getAttribute("aria-label")).toBe("Menu");
+
+    await showMenu(loadPlain, { syncFailed: true });
+    expect(q("menu-sync-dot")).not.toBeNull();
+    expect(q("menu-open")!.getAttribute("aria-label")).toBe("Menu, sync failed");
+  });
+});
+
+describe("the Practice options sheet", () => {
+  it("links to each option, with the struggling count", async () => {
+    await showMenu();
+    click("practice-options");
+    expect(q("practice-sheet")!.getAttribute("aria-labelledby")).toBe("practice-options-heading");
     expect(href("menu-shuffle")).toBe("/practice?mode=shuffle");
     expect(href("menu-in-order")).toBe("/practice?mode=in-order");
     expect(href("menu-struggling")).toBe("/practice?mode=struggling");
-    expect(href("menu-settings")).toBe("/settings");
-    expect(q("mascot-slot")!.querySelector<HTMLElement>('[data-testid="mascot"]')!.dataset.pose).toBe("idle");
+    expect(q("menu-struggling")!.textContent).toContain("0 cards with a recent red");
   });
 
-  it("opens Practice for a part of speech when its slice is tapped", async () => {
+  it("adds Reverse to every Practice link while the switch is on, and tags the Practice button", async () => {
     await showMenu();
-    act(() => host.querySelector<SVGGElement>('[data-pos="verb"]')!.dispatchEvent(new MouseEvent("click", { bubbles: true })));
-    expect(visited).toEqual(["/practice?pos=verb"]);
-  });
-
-  it("adds Reverse to every Practice link while the switch is on", async () => {
-    await showMenu();
+    expect(q("menu-reverse-tag")).toBeNull();
+    click("practice-options");
+    expect(q("menu-reverse")!.getAttribute("aria-checked")).toBe("false");
     click("menu-reverse");
     expect(q("menu-reverse")!.getAttribute("aria-checked")).toBe("true");
-    expect(href("menu-practice")).toBe("/practice?reverse=1");
     expect(href("menu-shuffle")).toBe("/practice?mode=shuffle&reverse=1");
+    expect(href("menu-struggling")).toBe("/practice?mode=struggling&reverse=1");
+    click("practice-sheet-scrim");
+
+    expect(q("menu-reverse-tag")!.textContent).toBe("Reverse on");
+    expect(href("menu-practice")).toBe("/practice?reverse=1");
     expect(href("menu-learn")).toBe("/learn");
-    act(() => host.querySelector<SVGGElement>('[data-pos="noun"]')!.dispatchEvent(new MouseEvent("click", { bubbles: true })));
+    tapPetal("noun");
     expect(visited).toEqual(["/practice?pos=noun&reverse=1"]);
 
+    // The switch keeps its place while the sheet is shut and opened again.
+    click("practice-options");
+    expect(q("menu-reverse")!.getAttribute("aria-checked")).toBe("true");
     click("menu-reverse");
+    click("practice-sheet-scrim");
+    expect(q("menu-reverse-tag")).toBeNull();
+    expect(href("menu-practice")).toBe("/practice");
+  });
+
+  it("starts with Reverse off each time the menu opens", async () => {
+    await showMenu();
+    click("practice-options");
+    click("menu-reverse");
+    await showMenu();
+    expect(q("menu-reverse-tag")).toBeNull();
     expect(href("menu-practice")).toBe("/practice");
   });
 });
@@ -187,6 +285,8 @@ describe("the menu after a session", () => {
     await showMenu();
     const before = counts();
     expect(before).toMatchObject({ unseen: TOTAL - 5, seen: 5, due: 5, memorized: 0 });
+    expect(q("menu-due")!.textContent).toBe("5 due");
+    expect(q("menu-greeting")!.textContent).toBe("¡Vamos!");
 
     const reviews = await store.getReviews();
     show(
@@ -205,11 +305,13 @@ describe("the menu after a session", () => {
     const after = counts();
     expect(after.due).toBe(0);
     expect(after.memorized).toBe(5);
-    expect(after.centre).toBe(`5of ${TOTAL}`);
+    expect(after.legend).toBe("31% seen · 31% memorized");
     expect(after.wheel).toBe(`Progress: 5 of ${TOTAL} cards memorized, 5 seen`);
     expect(after).toMatchObject(await expected(time));
-    // The solid layer of the wheel has grown from nothing.
-    expect(host.querySelectorAll('[data-layer="memorized"]').length).toBeGreaterThan(0);
+    // The full-colour layer of the wheel has grown from nothing, so the centre dot has gone.
+    expect([...host.querySelectorAll('[data-layer="memorized"]')].some((path) => path.getAttribute("d"))).toBe(true);
+    expect(q("wheel-centre-dot")).toBeNull();
+    expect(q("menu-due")!.textContent).toBe("Nothing due");
   });
 
   it("takes the counts again when the page comes back into view", async () => {
@@ -220,7 +322,7 @@ describe("the menu after a session", () => {
     await store.appendReview({ cardId: cards[0].id, direction: "forward", rating: "good", section: "learn", timestamp: clock() });
     act(() => void window.dispatchEvent(new Event("pageshow")));
     await until(() => count("menu-unseen") === TOTAL - 1, "the counts to be taken again");
-    expect(count("menu-seen")).toBe(1);
+    expect(counts().seen).toBe(1);
   });
 
   it("leaves the counts alone after a Reverse sitting", async () => {
@@ -274,5 +376,39 @@ describe("the Learn button in the starter path", () => {
     await showMenu(loadWithUnits);
     expect(q("menu-unit")).toBeNull();
     expect(count("menu-unseen")).toBe(TOTAL - 7);
+  });
+});
+
+describe("the line under the mascot", () => {
+  it("says ¡Hola!, then ¡Vamos! part-way through a unit, ¡Muy bien! once it is done, and ¡Vamos! when cards fall due", async () => {
+    await showMenu(loadWithUnits);
+    expect(q("menu-greeting")!.textContent).toBe("¡Hola!");
+
+    // One card of unit 1 seen: the unit still has unseen cards.
+    await store.appendReview({ cardId: "casa-house", direction: "forward", rating: "good", section: "learn", timestamp: clock() });
+    await showMenu(loadWithUnits);
+    expect(q("menu-greeting")!.textContent).toBe("¡Vamos!");
+    expect(q("menu-greeting")!.dataset.greeting).toBe("vamos");
+
+    show(
+      <LearnSession
+        cards={cards}
+        units={fixtureDeck.units}
+        states={replayReviews(await store.getReviews())}
+        onExit={() => {}}
+        store={store}
+        clock={clock}
+      />,
+    );
+    await studyBatch();
+    // Unit 1 finished and nothing due yet: a good place to stop.
+    await showMenu(loadWithUnits);
+    expect(q("menu-unit")?.textContent).toBe("Unit 2 · Good things");
+    expect(Number(q("menu-due")!.dataset.count)).toBe(0);
+    expect(q("menu-greeting")!.textContent).toBe("¡Muy bien!");
+
+    time += 30 * DAY;
+    await showMenu(loadWithUnits);
+    expect(q("menu-greeting")!.textContent).toBe("¡Vamos!");
   });
 });

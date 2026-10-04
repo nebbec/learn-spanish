@@ -262,7 +262,7 @@ function Notice({
         type="button"
         data-testid="to-menu"
         onClick={onExit}
-        className="min-h-14 rounded-button border-2 border-line bg-surface px-4 py-3 font-display text-xl font-bold text-brand"
+        className="min-h-14 rounded-button border-2 border-line bg-surface px-4 py-3 font-display text-xl font-bold text-ink"
       >
         Menu
       </button>

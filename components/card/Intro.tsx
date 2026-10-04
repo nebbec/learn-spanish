@@ -57,7 +57,7 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
           </div>
           <span
             data-testid="pos"
-            className="rounded-chip bg-brand-soft px-2 py-0.5 text-sm font-bold uppercase tracking-wide text-brand"
+            className="rounded-chip bg-brand-soft px-2 py-0.5 text-sm font-bold uppercase tracking-wide text-ink"
           >
             {card.pos}
           </span>

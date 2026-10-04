@@ -5,7 +5,7 @@ import { ROUTES } from "@/lib/routes";
 export function Placeholder({ title, ticket }: { title: string; ticket: string }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 p-6">
-      <Link href={ROUTES.menu} className="font-bold text-brand">
+      <Link href={ROUTES.menu} className="font-bold text-ink">
         ← Menu
       </Link>
       <div className="rounded-card border-2 border-line bg-surface p-8 shadow-card">

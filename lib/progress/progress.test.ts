@@ -4,6 +4,8 @@ import { fixtureDeck } from "@/lib/deck/fixture";
 import {
   MIN_SLICE_ANGLE,
   fillRadius,
+  percentOf,
+  petalPath,
   polarPoint,
   progressStats,
   sectorPath,
@@ -158,6 +160,97 @@ describe("fillRadius", () => {
   it("is 0 for an empty group and never exceeds the full radius", () => {
     expect(fillRadius(0, 0, 100)).toBe(0);
     expect(fillRadius(12, 10, 100)).toBe(100);
+  });
+});
+
+describe("fillRadius with an inner circle", () => {
+  it("starts at the inner circle and keeps the ring's filled area true to the fraction", () => {
+    expect(fillRadius(0, 10, 104, 17)).toBe(0);
+    expect(fillRadius(10, 10, 104, 17)).toBeCloseTo(104);
+    // One card of many is drawn just past the inner circle, not from the centre.
+    expect(fillRadius(1, 1000, 104, 17)).toBeGreaterThan(17);
+    const r = fillRadius(3, 10, 104, 17);
+    expect((r * r - 17 * 17) / (104 * 104 - 17 * 17)).toBeCloseTo(0.3);
+  });
+
+  it("is passed through by wheelSlices", () => {
+    const stats = progressStats(cards, new Map([["casa-house", state("casa-house", 30)]]));
+    const noun = wheelSlices(stats, { radius: 104, innerRadius: 17 })[0];
+    expect(noun.memorizedRadius).toBeCloseTo(fillRadius(1, noun.total, 104, 17));
+    expect(noun.seenRadius).toBe(noun.memorizedRadius);
+  });
+});
+
+describe("percentOf", () => {
+  it("rounds to a whole percentage", () => {
+    expect(percentOf(40, 100)).toBe(40);
+    expect(percentOf(1, 3)).toBe(33);
+    expect(percentOf(2, 3)).toBe(67);
+  });
+
+  it("is 0 only for none and 100 only for all", () => {
+    expect(percentOf(0, 100)).toBe(0);
+    expect(percentOf(0, 0)).toBe(0);
+    expect(percentOf(1, 1000)).toBe(1);
+    expect(percentOf(999, 1000)).toBe(99);
+    expect(percentOf(1000, 1000)).toBe(100);
+  });
+});
+
+describe("petalPath", () => {
+  const shape = { innerRadius: 17, gap: (3.4 * Math.PI) / 180, outerCorner: 9, innerCorner: 4 };
+  const deg = (d: number) => (d * Math.PI) / 180;
+  /** Every point of a path (end points and control points), with its distance from the centre and angle. */
+  const points = (path: string) => {
+    const out: { x: number; y: number }[] = [];
+    for (const command of path.match(/[MLQA][^MLQAZ]*/g)!) {
+      const n = command.slice(1).trim().split(/\s+/).map(Number);
+      // An arc carries its radii and flags before its end point.
+      const xy = command[0] === "A" ? n.slice(5) : n;
+      for (let i = 0; i < xy.length; i += 2) out.push({ x: xy[i], y: xy[i + 1] });
+    }
+    return out.map(({ x, y }) => ({ r: Math.hypot(x, y), angle: (Math.atan2(x, -y) + 2 * Math.PI) % (2 * Math.PI) }));
+  };
+
+  it("draws nothing at or inside the inner circle", () => {
+    expect(petalPath(0, deg(40), 17, shape)).toBe("");
+    expect(petalPath(0, deg(40), 0, shape)).toBe("");
+  });
+
+  it("starts on the start edge, just outside the inner circle, with the gap taken off", () => {
+    const [first] = points(petalPath(0, deg(90), 104, shape));
+    expect(first.angle).toBeCloseTo(deg(1.7), 3);
+    expect(first.r).toBeCloseTo(17 + 4, 2);
+  });
+
+  it("keeps every point between the inner circle and its radius, and inside its angles", () => {
+    for (const [end, radius] of [
+      [deg(90), 104],
+      [deg(20), 104],
+      [deg(20), 30],
+      [deg(90), 17.5],
+    ]) {
+      for (const p of points(petalPath(0, end, radius, shape))) {
+        expect(p.r).toBeLessThanOrEqual(radius + 0.01);
+        expect(p.r).toBeGreaterThanOrEqual(17 - 0.01);
+        expect(p.angle).toBeGreaterThanOrEqual(deg(1.7) - 1e-3);
+        expect(p.angle).toBeLessThanOrEqual(end - deg(1.7) + 1e-3);
+      }
+    }
+  });
+
+  it("rounds the outer corners 9 units along the edge and the rim", () => {
+    const path = petalPath(0, deg(90), 104, shape);
+    const [, second, control, onRim] = points(path);
+    expect(second.r).toBeCloseTo(95, 2);
+    expect(control.r).toBeCloseTo(104, 2);
+    expect((onRim.angle - deg(1.7)) * 104).toBeCloseTo(9, 2);
+    expect(path).toContain("A 104 104 0 0 1");
+    expect(path).toContain("A 17 17 0 0 0");
+  });
+
+  it("sets the large-arc flag for a petal wider than half a turn", () => {
+    expect(petalPath(0, deg(300), 104, shape)).toContain("A 104 104 0 1 1");
   });
 });
 

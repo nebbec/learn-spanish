@@ -6,17 +6,23 @@
  * lib/theme.test.ts checks the names below, so rename there too.
  */
 @theme {
-  /* Surfaces and text */
-  --color-paper: #fff8ec;
+  /* Surfaces and text: the clean white theme picked in U1 (docs/design.md, "Menu", "Decided in U1"). */
+  --color-paper: #ffffff;
   --color-surface: #ffffff;
-  --color-ink: #2b2140;
-  --color-ink-soft: #6b6280;
-  --color-line: #eadfcd;
+  --color-ink: #141416;
+  --color-ink-soft: #6b6b73;
+  --color-line: #ececf0;
+  /* The border of an outlined button (Practice, the sliders button). */
+  --color-edge: #e2e2e8;
+  /* A quiet fill: a box inside a card, the icon tiles in a sheet. */
+  --color-quiet: #f4f4f6;
+  /* Behind a bottom sheet. */
+  --color-scrim: rgb(20 20 22 / 0.28);
 
-  /* Brand */
-  --color-brand: #7c4dff;
-  --color-brand-soft: #e9e0ff;
-  --color-on-brand: #ffffff;
+  /* Brand: one accent, saffron, always with ink on it. Saffron text on white is unreadable, so links are ink. */
+  --color-brand: #ffb800;
+  --color-brand-soft: #fff3d1;
+  --color-on-brand: #141416;
   --color-sun: #ffc93c;
 
   /* Ratings: green = right, orange = nearly, red = didn't have it.
@@ -31,21 +37,55 @@
   --color-again-soft: #ffe0ea;
   --color-on-again: #ffffff;
 
-  /* Type */
-  --font-display: var(--font-baloo), ui-rounded, "Arial Rounded MT Bold", system-ui, sans-serif;
-  --font-body: var(--font-nunito), ui-rounded, system-ui, sans-serif;
+  /* The wheel: a colour per part of speech (memorized), the same mixed 36% into
+     white (seen, a solid tint), and one grey for the unseen part of every petal. */
+  --color-ghost: #efeff2;
+  --color-pos-noun: #23a897;
+  --color-pos-noun-seen: #b0e0da;
+  --color-pos-verb: #f0652f;
+  --color-pos-verb-seen: #fac8b4;
+  --color-pos-adjective: #6db836;
+  --color-pos-adjective-seen: #cae5b7;
+  --color-pos-adverb: #3b7bf0;
+  --color-pos-adverb-seen: #b8cffa;
+  --color-pos-pronoun: #8455f0;
+  --color-pos-pronoun-seen: #d3c2fa;
+  --color-pos-preposition: #e8458f;
+  --color-pos-preposition-seen: #f7bcd7;
+  --color-pos-conjunction: #edae00;
+  --color-pos-conjunction-seen: #f9e2a3;
+  --color-pos-determiner: #12a9c9;
+  --color-pos-determiner-seen: #aae0ec;
+  --color-pos-other: #8c9aad;
+  --color-pos-other-seen: #d6dbe1;
+  --color-pos-phrase: #e2444a;
+  --color-pos-phrase-seen: #f5bcbe;
+
+  /* Type: Manrope throughout. */
+  --font-display: var(--font-manrope), system-ui, sans-serif;
+  --font-body: var(--font-manrope), system-ui, sans-serif;
 
   --text-prompt: 2rem;
   --text-prompt--line-height: 1.15;
   --text-answer: 2.75rem;
   --text-answer--line-height: 1.1;
+  /* The menu's Spanish line under the mascot. */
+  --text-greeting: 2.125rem;
+  --text-greeting--line-height: 1.1;
 
   /* Radius */
   --radius-chip: 0.5rem;
   --radius-button: 1rem;
+  /* The menu's outlined buttons, and its big Learn button. */
+  --radius-tile: 1.125rem;
+  --radius-cta: 1.25rem;
   --radius-card: 1.75rem;
+  /* The top corners of a bottom sheet. */
+  --radius-sheet: 1.75rem;
 
-  --shadow-card: 0 6px 0 0 var(--color-line);
+  /* On white, a card is lifted by a soft shadow rather than the cream theme's hard edge. */
+  --shadow-card: 0 1px 2px rgb(20 20 22 / 0.04), 0 6px 20px rgb(20 20 22 / 0.06);
+  --shadow-sheet: 0 -8px 30px rgb(0 0 0 / 0.08);
 }
 
 html {
@@ -91,6 +131,14 @@ body {
   /* Batch end. The mascot slot's data-move="celebrate" is played by the mascot's celebration loop (F3), not here. */
   [data-confetti] {
     animation: confetti-fall 1600ms ease-in both;
+  }
+
+  /* A bottom sheet rises into place over its fading scrim (U3). */
+  [data-enter="sheet"] {
+    animation: enter-sheet 240ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+  [data-enter="scrim"] {
+    animation: enter-scrim 200ms ease-out both;
   }
 }
 
@@ -180,5 +228,23 @@ body {
   100% {
     opacity: 0;
     transform: translateY(70vh) rotate(var(--confetti-turn, 480deg));
+  }
+}
+
+@keyframes enter-sheet {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes enter-scrim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

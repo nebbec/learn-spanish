@@ -1,11 +1,10 @@
 import type { Metadata, Viewport } from "next";
-import { Baloo_2, Nunito } from "next/font/google";
+import { Manrope } from "next/font/google";
 import { KeepMedia, RegisterServiceWorker } from "@/components/pwa";
 import { AutoSync } from "@/components/sync";
 import "./globals.css";
 
-const baloo = Baloo_2({ subsets: ["latin", "latin-ext"], variable: "--font-baloo" });
-const nunito = Nunito({ subsets: ["latin", "latin-ext"], variable: "--font-nunito" });
+const manrope = Manrope({ subsets: ["latin", "latin-ext"], variable: "--font-manrope" });
 
 export const metadata: Metadata = {
   title: "Learn Spanish",
@@ -24,12 +23,13 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#fff8ec",
+  // The paper colour, as in app/globals.css.
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${baloo.variable} ${nunito.variable}`}>
+    <html lang="en" className={manrope.variable}>
       <body className="antialiased">
         {children}
         <RegisterServiceWorker />

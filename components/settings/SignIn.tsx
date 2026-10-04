@@ -43,7 +43,7 @@ function browserStorage(): Pick<Storage, "getItem"> | null {
 
 const button =
   "min-h-14 rounded-button bg-brand px-4 py-3 font-display text-xl font-bold text-on-brand disabled:opacity-50";
-const quiet = "min-h-11 font-bold text-brand underline-offset-4 hover:underline disabled:text-ink-soft disabled:no-underline";
+const quiet = "min-h-11 font-bold text-ink underline underline-offset-4 disabled:text-ink-soft disabled:no-underline";
 const field = "min-h-14 rounded-button border-2 border-line bg-surface px-4 py-3 text-lg";
 
 /**

@@ -29,7 +29,7 @@ export function UnitPayoff({ unit, phrases, onPlay = playClip }: UnitPayoffProps
               key={card.id}
               data-testid="payoff-phrase"
               data-card={card.id}
-              className="flex items-center gap-2 rounded-button bg-paper p-3 text-left"
+              className="flex items-center gap-2 rounded-button bg-quiet p-3 text-left"
             >
               <p className="flex flex-1 flex-col gap-0.5">
                 <span lang="es" className="text-lg font-bold">

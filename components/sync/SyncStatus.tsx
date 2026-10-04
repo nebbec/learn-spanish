@@ -8,7 +8,6 @@ import { appSync, type SyncRunner, type SyncStatus } from "@/lib/sync";
 const SERVER_STATUS: SyncStatus = { phase: "idle", lastSyncedAt: null, pending: 0 };
 const noRunner = { subscribe: () => () => {}, getStatus: () => SERVER_STATUS };
 
-
 /** The runner's status, redrawn as it changes. `ready` is false on the server and in the first render. */
 export function useSyncStatus(runnerProp?: SyncRunner | null): { status: SyncStatus; ready: boolean } {
   // False on the server and while hydrating, so the page drawn on both sides matches.
@@ -71,16 +70,23 @@ export interface SyncStatusProps {
   clock?: () => number;
 }
 
-/** The menu's sync line. Signed out, it links to settings. */
+/** The menu sheet's sync line, after a dot: green when synced, red when it failed. Signed out, it links to settings. */
 export function SyncStatusLine({ runner, clock = Date.now }: SyncStatusProps) {
   const { status, ready } = useSyncStatus(runner);
   const now = useNow(clock);
   const text = ready ? describeSync(status, now) : null;
   if (!text) return null;
+  const dot = status.phase === "synced" ? "bg-good" : status.phase === "failed" ? "bg-again" : "bg-edge";
   return (
-    <p data-testid="sync-status" data-phase={status.phase} className="text-center text-sm text-ink-soft" aria-live="polite">
+    <p
+      data-testid="sync-status"
+      data-phase={status.phase}
+      className="flex min-h-8 items-center gap-2.5 text-sm text-ink-soft"
+      aria-live="polite"
+    >
+      <span aria-hidden="true" className={`size-2 shrink-0 rounded-full ${dot}`} />
       {status.phase === "signed-out" ? (
-        <Link href={ROUTES.settings} className="font-bold text-brand">
+        <Link href={ROUTES.settings} className="font-bold text-ink underline underline-offset-4">
           Progress is on this device only. Sign in to back it up.
         </Link>
       ) : (
@@ -114,7 +120,7 @@ export function SyncPanel({ runner: runnerProp, clock = Date.now }: SyncStatusPr
           data-testid="sync-now"
           disabled={!canSync}
           onClick={() => void runner?.run()}
-          className="min-h-11 self-start font-bold text-brand underline-offset-4 hover:underline disabled:text-ink-soft disabled:no-underline"
+          className="min-h-11 self-start font-bold text-ink underline underline-offset-4 disabled:text-ink-soft disabled:no-underline"
         >
           Sync now
         </button>

@@ -78,7 +78,7 @@ function SegmentedBar({ total, index }: { total: number; index: number }) {
             key={i}
             data-segment={state}
             className={`flex-1 rounded-full ${
-              state === "done" ? "bg-brand" : state === "current" ? "bg-sun" : "bg-line"
+              state === "done" ? "bg-ink" : state === "current" ? "bg-brand" : "bg-line"
             }`}
           />
         );
