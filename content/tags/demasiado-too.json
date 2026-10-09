@@ -1,0 +1,14 @@
+{
+  "id": "demasiado-too",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use demasiado for too meaning excessively (too hot); use también for too meaning also.",
+  "draft": "913f9908e6aa469f",
+  "group": "#219 demasiado",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:53.769Z"
+}

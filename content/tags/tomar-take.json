@@ -1,0 +1,14 @@
+{
+  "id": "tomar-take",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0c5b5316a0063360",
+  "group": "#107 tomar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:50.457Z"
+}

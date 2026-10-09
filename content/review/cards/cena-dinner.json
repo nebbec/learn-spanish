@@ -1,0 +1,17 @@
+{
+  "id": "cena-dinner",
+  "rank": 669,
+  "word": "cena",
+  "draft": "6e9ae7d6ab891b1c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dinner, supper (the evening meal)",
+    "example": "Dinner is ready, come and eat."
+  },
+  "note": "A hint such as \"evening meal\" isn't needed, but it could stop learners who know \"la comida\" (the main midday meal in Mexico) from second-guessing themselves.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:04.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "antes-before",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "92efb26c8ef90c25",
+  "group": "#133 antes",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:27.662Z"
+}

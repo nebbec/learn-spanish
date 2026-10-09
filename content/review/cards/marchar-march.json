@@ -1,0 +1,17 @@
+{
+  "id": "marchar-march",
+  "rank": 670,
+  "word": "marchar",
+  "draft": "9031c1975d27b281",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to march (also: to go, to run / work, as in things going well)",
+    "example": "Thousands of people are marching through the center (downtown) today."
+  },
+  "note": "The word's high subtitle rank probably comes partly from Spain's marcharse (to leave, \"me marcho\") and from \"marchar bien\" (to go well), but \"to march\" is a sound Latin American meaning for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:12.313Z"
+}

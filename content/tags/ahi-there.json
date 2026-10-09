@@ -1,0 +1,14 @@
+{
+  "id": "ahi-there",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ahí for there near the person you're talking to; allí for a place far from both of you.",
+  "draft": "05151208ee404d09",
+  "group": "#131 ahí",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:24.320Z"
+}

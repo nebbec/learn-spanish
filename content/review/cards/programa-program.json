@@ -1,0 +1,17 @@
+{
+  "id": "programa-program",
+  "rank": 687,
+  "word": "programa",
+  "draft": "8a87df09412f1d3d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the program (TV or radio show, software, plan of activities)",
+    "example": "My favorite program starts at eight."
+  },
+  "note": "Programa is masculine even though it ends in -a, which is worth stressing to learners; translating it as \"show\" in the example is fine and natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:31.243Z"
+}

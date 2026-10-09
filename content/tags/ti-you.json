@@ -1,0 +1,14 @@
+{
+  "id": "ti-you",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ti after a preposition (para ti); tú is the subject, and te goes before a verb.",
+  "draft": "3eaed5657c5b9bab",
+  "group": "#121 ti",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:12.876Z"
+}

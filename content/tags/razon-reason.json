@@ -1,0 +1,14 @@
+{
+  "id": "razon-reason",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8592e9aca630fd65",
+  "group": "#208 razón",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:32.954Z"
+}

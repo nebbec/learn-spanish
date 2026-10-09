@@ -1,0 +1,14 @@
+{
+  "id": "segundo-second-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c2d9371da99db19d",
+  "group": "#213 segundo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:42.938Z"
+}

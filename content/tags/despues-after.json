@@ -1,0 +1,14 @@
+{
+  "id": "despues-after",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use después for after something (después de la cena); luego is a looser later or then.",
+  "draft": "2ed1db6f3baa202a",
+  "group": "#158 después",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:14.335Z"
+}

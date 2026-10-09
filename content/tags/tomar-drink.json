@@ -1,0 +1,14 @@
+{
+  "id": "tomar-drink",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tomar for everyday drinking, like having a coffee or a drink; beber is the plain verb for the act of drinking.",
+  "draft": "1df853d8a168f9b0",
+  "group": "#107 tomar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:50.457Z"
+}

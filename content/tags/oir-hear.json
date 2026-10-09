@@ -1,0 +1,14 @@
+{
+  "id": "oir-hear",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use oír when a sound simply reaches your ears; use escuchar when you listen on purpose.",
+  "draft": "0bc263fc363b5d87",
+  "group": "#122 oír",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:14.486Z"
+}

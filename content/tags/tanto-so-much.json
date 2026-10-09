@@ -1,0 +1,14 @@
+{
+  "id": "tanto-so-much",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tanto before a noun (tanto trabajo); use tan before an adjective (tan cansado).",
+  "draft": "98c5f23d1a2a9d57",
+  "group": "#185 tanto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:57.652Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "peligroso-dangerous",
+  "rank": 686,
+  "word": "peligroso",
+  "draft": "9e9b0c01c7f23615",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "peligroso = dangerous (adjective)",
+    "example": "That neighborhood is very dangerous at night."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:25.039Z"
+}

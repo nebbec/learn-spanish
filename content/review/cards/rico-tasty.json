@@ -1,0 +1,17 @@
+{
+  "id": "rico-tasty",
+  "rank": 672,
+  "word": "rico",
+  "draft": "7952189e75808ba9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tasty, delicious (of food); also rich, wealthy",
+    "example": "How tasty the soup is!"
+  },
+  "note": "The hint \"same word as rich\" is needed to rule out sabroso and delicioso, but it nearly gives the answer away to anyone who has already learned the \"rich\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:24.934Z"
+}

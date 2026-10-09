@@ -1,0 +1,14 @@
+{
+  "id": "jugar-play",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use jugar for games and sports; for playing music or an instrument, use tocar.",
+  "draft": "d9162b49eda74927",
+  "group": "#256 jugar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:47.080Z"
+}

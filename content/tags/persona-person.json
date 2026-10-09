@@ -1,0 +1,14 @@
+{
+  "id": "persona-person",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use persona for one individual; use gente for people in general.",
+  "draft": "17799d177ad2ac3c",
+  "group": "#172 persona",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:33.111Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "junto-together",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2dc4c0a2488ae9ad",
+  "group": "#232 junto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:13.629Z"
+}

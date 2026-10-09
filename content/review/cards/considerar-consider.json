@@ -1,0 +1,17 @@
+{
+  "id": "considerar-consider",
+  "rank": 685,
+  "word": "considerar",
+  "draft": "16ed3c92db79c584",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to consider (to think about carefully; to regard as)",
+    "example": "I consider you my best friend."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:24.989Z"
+}

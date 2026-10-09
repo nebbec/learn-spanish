@@ -1,0 +1,17 @@
+{
+  "id": "estrella-star",
+  "rank": 654,
+  "word": "estrella",
+  "draft": "d2e9110b5b77ff94",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "star (a star in the sky; also a celebrity star)",
+    "example": "Look, there are lots of stars tonight."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:07.669Z"
+}

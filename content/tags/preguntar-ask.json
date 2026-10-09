@@ -1,0 +1,14 @@
+{
+  "id": "preguntar-ask",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use preguntar to ask a question; use pedir to ask for something or order it.",
+  "draft": "9caf00f547129b99",
+  "group": "#177 preguntar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:43.727Z"
+}

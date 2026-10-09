@@ -1,0 +1,17 @@
+{
+  "id": "vivo-alive",
+  "rank": 652,
+  "word": "vivo",
+  "draft": "7a08fff546848e2b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "alive, living (adjective; also lively, bright)",
+    "example": "The dog is still alive!"
+  },
+  "note": "Much of this word's frequency in subtitles probably comes from \"vivo\" as the yo form of vivir (\"I live\"), so the editor may want the vivir card to cover that.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:03.050Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "detective-detective",
+  "rank": 678,
+  "word": "detective",
+  "draft": "a2173a9703bdcd52",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says the stress moves to the end, but in detective the stress falls on the next-to-last syllable (ti), not the last one (ve), so a learner could stress the wrong syllable.",
+      "fix": "trick: DETECTIVE is spelled just like the English word, but the stress moves to TEE: deh-tek-TEE-veh."
+    }
+  ],
+  "back": {
+    "es": "the detective (male, or unspecified sex)",
+    "example": "The detective found the thief."
+  },
+  "note": "Detective has one form for both genders (el detective for a man, la detective for a woman), so the editor could add that to the grammar or the answer side.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:52.703Z"
+}

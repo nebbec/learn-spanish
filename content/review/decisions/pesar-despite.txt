@@ -1,0 +1,29 @@
+# pesar-despite · rank 658 · pesar
+#
+# Why it was flagged:
+#   - Memory trick: The trick glosses pesar as 'weight', but pesar is the verb 'to weigh' (as a noun it means 'sorrow'), and the noun for weight is el peso. Suggested fix: trick: A PESAR DE: even with a problem weighing (pesar) on you, you keep going anyway.
+# Reviewer's note (not a reason to flag): The hint 'three-word phrase' is useful because it rules out the shorter, more formal synonym 'pese a'.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         pesar-despite
+kind:       glue
+pos:        preposition
+es:         a pesar de
+en:         [despite] the rain
+hint:       three-word phrase
+example.es: Salimos a pesar de la lluvia.
+example.en: We went out despite the rain.
+spain:
+trick:      A PESAR DE: even with the weight (pesar) of the problem on you, you keep going anyway.
+
+# The draft this file was made from. Do not change it.
+draft: 6dc0fbbf8b588b07

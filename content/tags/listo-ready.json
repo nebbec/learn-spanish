@@ -1,0 +1,14 @@
+{
+  "id": "listo-ready",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use listo with estar for ready (estoy listo); with ser it means clever.",
+  "draft": "35128dea1c84de41",
+  "group": "#239 listo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:21.987Z"
+}

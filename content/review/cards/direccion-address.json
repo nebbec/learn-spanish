@@ -1,0 +1,17 @@
+{
+  "id": "direccion-address",
+  "rank": 663,
+  "word": "dirección",
+  "draft": "85d510ce0f15f52e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "address (of a home or place); also direction",
+    "example": "Will you give me your address?"
+  },
+  "note": "Domicilio also means address but is formal or legal, so dirección is clearly the everyday answer, and the hint keeps this card apart from the direction card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:41.351Z"
+}

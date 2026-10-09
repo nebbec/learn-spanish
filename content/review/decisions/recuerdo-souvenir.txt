@@ -1,0 +1,31 @@
+# recuerdo-souvenir · rank 683 · recuerdo
+#
+# Why it was flagged:
+#   - One right answer: Without a hint, "souvenir" could also get "el souvenir", a loanword that is very common across Latin America (Mexico, Argentina, Peru and others), so the prompt has two right answers. Suggested fix: hint: the native Spanish word, not the borrowed "souvenir"
+# Reviewer's note (not a reason to flag): The new hint also keeps this card apart from the "memory" card, which uses the same word.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         recuerdo-souvenir
+kind:       content
+pos:        noun
+es:         el recuerdo
+en:         souvenir
+hint:
+gender:     m
+article:    el
+example.es: Te traje un recuerdo de México.
+example.en: I brought you a souvenir from Mexico.
+spain:
+trick:      RECUERDO sounds like "record": a souvenir is a small object that records your trip.
+
+# The draft this file was made from. Do not change it.
+draft: 5c21c59adbb34e53

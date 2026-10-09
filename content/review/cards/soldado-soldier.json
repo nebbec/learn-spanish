@@ -1,0 +1,17 @@
+{
+  "id": "soldado-soldier",
+  "rank": 680,
+  "word": "soldado",
+  "draft": "64123a7bc9911d95",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "soldier",
+    "example": "My grandfather was a soldier in the war."
+  },
+  "note": "Soldado is usually used for both genders (la soldado for a woman), which could be worth mentioning, but el soldado is the right dictionary form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:57.742Z"
+}

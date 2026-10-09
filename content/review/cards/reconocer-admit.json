@@ -1,0 +1,17 @@
+{
+  "id": "reconocer-admit",
+  "rank": 697,
+  "word": "reconocer",
+  "draft": "b22aad990664fde1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "reconocer: to recognize; to admit, to acknowledge",
+    "example": "I admit (that) I was wrong."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:29.103Z"
+}

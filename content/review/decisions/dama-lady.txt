@@ -1,0 +1,31 @@
+# dama-lady · rank 699 · dama
+#
+# Why it was flagged:
+#   - Example sentence: The example has no conjugated verb; it is a set greeting with no verb at all. Suggested fix: example.es: Esa dama es muy elegante. / example.en: That lady is very elegant.
+# Reviewer's note (not a reason to flag): The hint matters here because señora is the everyday word for lady, and the hint's "elegant or formal" is what points to dama, so it should stay.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         dama-lady
+kind:       content
+pos:        noun
+es:         la dama
+en:         lady
+hint:       elegant or formal word, as in ladies and gentlemen
+gender:     f
+article:    la
+example.es: Buenas noches, damas y caballeros.
+example.en: Good evening, ladies and gentlemen.
+spain:
+trick:      DAMA sounds like dame: a grand dame is an elegant lady.
+
+# The draft this file was made from. Do not change it.
+draft: bf2206a791946f89

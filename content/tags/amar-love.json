@@ -1,0 +1,14 @@
+{
+  "id": "amar-love",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use amar for deep, intense love, like a partner; use querer for everyday love for family and friends.",
+  "draft": "3407e4f42524b728",
+  "group": "#216 amar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:48.761Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tiempo-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tiempo for an amount of time; vez for one occasion, hora for clock time.",
+  "draft": "4e38e46e0cce126d",
+  "group": "#93 tiempo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:25.783Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "contratar-hire",
+  "rank": 649,
+  "word": "contratar",
+  "draft": "0ab9badddb001b43",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to hire, to take on (an employee); also to contract (a service)",
+    "example": "They hired my brother at the hospital."
+  },
+  "note": "Emplear can also mean to employ, but contratar is the clear everyday answer for \"to hire,\" so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:46.324Z"
+}

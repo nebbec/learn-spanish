@@ -1,0 +1,17 @@
+{
+  "id": "rico-rich",
+  "rank": 672,
+  "word": "rico",
+  "draft": "8d4223d0d1647d7f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "rich, wealthy (also tasty, delicious)",
+    "example": "His/Her family is very rich."
+  },
+  "note": "Su in the example could also mean her, your or their, so His is one correct reading of it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:18.346Z"
+}

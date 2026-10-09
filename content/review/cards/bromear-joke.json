@@ -1,0 +1,17 @@
+{
+  "id": "bromear-joke",
+  "rank": 693,
+  "word": "bromear",
+  "draft": "83232415623bf3f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to joke, to kid (around)",
+    "example": "Are you joking? I don't believe you."
+  },
+  "note": "Bromear is a regular -ear verb (bromeo, bromeé), so irregular false is right, and \"Are you kidding?\" would be an equally good English translation of the example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:03.721Z"
+}

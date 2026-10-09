@@ -1,0 +1,17 @@
+{
+  "id": "animal-animal",
+  "rank": 695,
+  "word": "animal",
+  "draft": "54fbf07f7678564b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "animal (noun, masculine)",
+    "example": "I love animals."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:08.004Z"
+}

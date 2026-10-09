@@ -1,0 +1,17 @@
+{
+  "id": "reconocer-recognize",
+  "rank": 697,
+  "word": "reconocer",
+  "draft": "81f04192bffaa9fb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to recognize (to identify someone or something seen before; also to acknowledge or admit)",
+    "example": "Don't you recognize me? I'm your cousin."
+  },
+  "note": "The irregular flag is right because the yo form is reconozco (the -zco change), and the trick's \"re-know\" fits, since conocer means \"to know\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:18.592Z"
+}

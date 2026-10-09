@@ -1,0 +1,14 @@
+{
+  "id": "recordar-remind",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f30b4e97785cceec",
+  "group": "#192 recordar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:15.340Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mio-mine",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use mío alone or after the noun (es mío); use mi before a noun (mi libro).",
+  "draft": "0d1a8f0895e29719",
+  "group": "#166 mío",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:28.687Z"
+}

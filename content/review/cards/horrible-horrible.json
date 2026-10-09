@@ -1,0 +1,17 @@
+{
+  "id": "horrible-horrible",
+  "rank": 682,
+  "word": "horrible",
+  "draft": "8370582dd1902339",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "horrible (adjective): horrible, awful",
+    "example": "The food at that place is horrible."
+  },
+  "note": "The rr in horrible is trilled, which the respelling oh-REE-bleh only approximates, but that is acceptable for a trick.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:12.942Z"
+}

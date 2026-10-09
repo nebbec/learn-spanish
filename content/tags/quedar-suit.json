@@ -1,0 +1,14 @@
+{
+  "id": "quedar-suit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fd360f549c2dfec5",
+  "group": "#117 quedar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:03.610Z"
+}

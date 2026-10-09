@@ -1,0 +1,14 @@
+{
+  "id": "momento-moment",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "02a5e52bb6ff1a1f",
+  "group": "#155 momento",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:04.619Z"
+}

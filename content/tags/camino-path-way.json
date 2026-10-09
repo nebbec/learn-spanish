@@ -1,0 +1,14 @@
+{
+  "id": "camino-path-way",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use camino for the route you travel; manera or forma for the way something is done.",
+  "draft": "9d478bee1a31bbc2",
+  "group": "#270 camino",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:09.424Z"
+}

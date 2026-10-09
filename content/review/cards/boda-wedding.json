@@ -1,0 +1,17 @@
+{
+  "id": "boda-wedding",
+  "rank": 653,
+  "word": "boda",
+  "draft": "9577d7cc2309039f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "wedding",
+    "example": "My sister's wedding is in June."
+  },
+  "note": "Some regions also say \"casamiento\" (Río de la Plata) or \"matrimonio\" (Chile, Colombia) for the event, but \"boda\" is understood everywhere and is the standard answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:05.064Z"
+}

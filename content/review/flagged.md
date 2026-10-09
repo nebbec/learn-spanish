@@ -1,6 +1,6 @@
 # Flagged cards
 
-The review pass flagged 153 cards: 112 waiting for you, 41 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
+The review pass flagged 169 cards: 128 waiting for you, 41 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
 
 **To decide on a card**, open its file in `content/review/decisions/` (linked under each card), change `decision: pending` to `decision: approve` or `decision: reject`, and correct any card line first if it needs it. Then run `npm run deck`, which puts approved cards in the deck and rewrites this list.
 
@@ -2566,6 +2566,375 @@ Why it was flagged:
 Reviewer's note (not a reason to flag): In Spain, "caramelo" means a hard candy specifically, and "golosina" or "chuche" is the general word, so "caramelo" is an acceptable Spain alternative but a narrow one.
 
 The reviewer's own translation: answer "candy, sweet (a piece of candy); also a sweet dessert or preserve"; example "Will you give me a candy?".
+
+### alejar-move-away · rank 647 · alejar
+
+Decide in [decisions/alejar-move-away.txt](decisions/alejar-move-away.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to move away |
+| Hint | put distance between, not escape |
+| Answer | alejarse |
+| Kind | content, verb |
+| Grammar | yo me alejo · tú te alejas · él se aleja |
+| Example | ¡Aléjate de mi hija! / Get away from my daughter! |
+| Spain | none |
+| Trick | ALEJARSE sounds like 'a ledge, ah!': you scream and move away from the ledge. |
+
+Why it was flagged:
+
+- One right answer: In English, 'to move away' often means to relocate (mudarse), and the hint 'put distance between' doesn't rule that out, so mudarse is also a valid answer. Suggested fix: hint: get farther from someone or something, not relocate or escape
+
+Reviewer's note (not a reason to flag): The frequency word is alejar, but the card teaches the more common reflexive alejarse, and the example uses that meaning well.
+
+The reviewer's own translation: answer "to move away, to get away (from), to distance oneself"; example "Get away from my daughter!".
+
+### cargo-position · rank 651 · cargo
+
+Decide in [decisions/cargo-position.txt](decisions/cargo-position.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | position |
+| Hint | a post or office someone holds, as in a cargo de (in charge of) |
+| Answer | el cargo |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | Ella ocupa un cargo importante en el gobierno. / She holds an important position in the government. |
+| Spain | none |
+| Trick | CARGO sounds like cargo: the person in that position carries the whole company's cargo on their shoulders. |
+
+Why it was flagged:
+
+- One right answer: The hint gives away the answer by quoting 'a cargo de', which actually uses the different sense 'in charge of', and it does not rule out el puesto or la posición, which are also common answers for 'position'. Suggested fix: en: office; hint: a post someone holds in government or an organization, as in to run for public office (not the room)
+- Example uses words not met yet: The example uses words not met before this card: ocupa, gobierno, importante. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids cargo-position
+
+Reviewer's note (not a reason to flag): Using 'office' plus a public-office hint fits cargo público and keeps this card separate from the criminal 'charge' card.
+
+The reviewer's own translation: answer "position, post, office (a role someone holds); also charge or responsibility"; example "She holds an important position in the government.".
+
+### cargo-charge · rank 651 · cargo
+
+Decide in [decisions/cargo-charge.txt](decisions/cargo-charge.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | charge |
+| Hint | a criminal accusation, as in to face charges |
+| Answer | el cargo |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | La policía retiró los cargos contra él. / The police dropped the charges against him. |
+| Spain | none |
+| Trick | CARGO sounds like cargo: the smuggler caught with illegal cargo now faces serious charges. |
+
+Why it was flagged:
+
+- One right answer: Because the hint uses the word 'accusation', it invites 'la acusación', which is also a correct Spanish answer, so the card has two right answers. Suggested fix: hint: a legal count against someone, as in to drop the charges (not the general word for accusation)
+
+Reviewer's note (not a reason to flag): In this sense the word usually appears in the plural (los cargos), which the example already shows.
+
+The reviewer's own translation: answer "charge (a formal accusation); also position, post, responsibility"; example "The police withdrew the charges against him.".
+
+### pesar-despite · rank 658 · pesar
+
+Decide in [decisions/pesar-despite.txt](decisions/pesar-despite.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | [despite] the rain |
+| Hint | three-word phrase |
+| Answer | a pesar de |
+| Kind | glue, preposition |
+| Grammar | none |
+| Example | Salimos a pesar de la lluvia. / We went out despite the rain. |
+| Spain | none |
+| Trick | A PESAR DE: even with the weight (pesar) of the problem on you, you keep going anyway. |
+
+Why it was flagged:
+
+- Memory trick: The trick glosses pesar as 'weight', but pesar is the verb 'to weigh' (as a noun it means 'sorrow'), and the noun for weight is el peso. Suggested fix: trick: A PESAR DE: even with a problem weighing (pesar) on you, you keep going anyway.
+
+Reviewer's note (not a reason to flag): The hint 'three-word phrase' is useful because it rules out the shorter, more formal synonym 'pese a'.
+
+The reviewer's own translation: answer "despite, in spite of (prepositional phrase)"; example "We went out despite the rain.".
+
+### publico-audience · rank 664 · público
+
+Decide in [decisions/publico-audience.txt](decisions/publico-audience.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | audience |
+| Hint | none |
+| Answer | el público |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | El público aplaudió mucho. / The audience clapped a lot. |
+| Spain | none |
+| Trick | EL PÚBLICO is the public that shows up to watch, so the crowd in the seats is your audience. |
+
+Why it was flagged:
+
+- One right answer: With no hint, "audience" could also be answered "la audiencia", which is common, especially for TV or radio audiences. Suggested fix: hint: the people in the seats at a show or game
+
+Reviewer's note (not a reason to flag): This noun card stays separate from the adjective card "public" only if the hint points to a live audience.
+
+The reviewer's own translation: answer "el público: audience, the public (people watching a show, game or event)"; example "The audience applauded a lot.".
+
+### calmar-calm-down · rank 668 · calmar
+
+Decide in [decisions/calmar-calm-down.txt](decisions/calmar-calm-down.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to calm down |
+| Hint | none |
+| Answer | calmar |
+| Kind | content, verb |
+| Grammar | yo calmo · tú calmas · él calma |
+| Example | Cálmate, todo va a estar bien. / Calm down, everything is going to be fine. |
+| Spain | none |
+| Trick | CALMAR sounds like calm-ARRR: even an angry pirate needs someone to calm him down. |
+
+Why it was flagged:
+
+- One right answer: With no hint, "to calm down" could just as well be answered with tranquilizar, which is equally common in Latin America, or with the reflexive calmarse, which fits the intransitive English best. Suggested fix: en: to calm (someone) down; hint: the word that looks like English "calm", not tranquilizar
+
+Reviewer's note (not a reason to flag): The example uses the reflexive cálmate (from calmarse), which is how the word usually shows up in subtitles; that is fine, but the editor might want the grammar or hint to mention calmarse = to calm down (oneself).
+
+The reviewer's own translation: answer "to calm, to calm (someone) down, to soothe; reflexive calmarse = to calm down"; example "Calm down, everything is going to be fine.".
+
+### guardar-keep · rank 671 · guardar
+
+Decide in [decisions/guardar-keep.txt](decisions/guardar-keep.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to keep |
+| Hint | put away, store, save |
+| Answer | guardar |
+| Kind | content, verb |
+| Grammar | yo guardo · tú guardas · él guarda |
+| Example | ¿Puedes guardar un secreto? / Can you keep a secret? |
+| Spain | none |
+| Trick | GUARDAR sounds like guard: a guard keeps your things safe and puts them away. |
+
+Why it was flagged:
+
+- Example sentence: The example leaves guardar as an infinitive after puedes, but the target verb must be conjugated. Suggested fix: example.es: Siempre guardo las llaves en el cajón. / example.en: I always keep the keys in the drawer.
+
+Reviewer's note (not a reason to flag): The hint is needed because otherwise "to keep" could also mean mantener, conservar or quedarse con, and "put away, store" points clearly to guardar.
+
+The reviewer's own translation: answer "to keep, to put away, to store, to save (a file, a seat)"; example "Can you keep a secret?".
+
+### detective-detective · rank 678 · detective
+
+Decide in [decisions/detective-detective.txt](decisions/detective-detective.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | detective |
+| Hint | none |
+| Answer | el detective |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | El detective encontró al ladrón. / The detective found the thief. |
+| Spain | none |
+| Trick | DETECTIVE is spelled just like the English word; only the stress moves to the end: deh-tek-TEE-veh. |
+
+Why it was flagged:
+
+- Memory trick: The trick says the stress moves to the end, but in detective the stress falls on the next-to-last syllable (ti), not the last one (ve), so a learner could stress the wrong syllable. Suggested fix: trick: DETECTIVE is spelled just like the English word, but the stress moves to TEE: deh-tek-TEE-veh.
+
+Reviewer's note (not a reason to flag): Detective has one form for both genders (el detective for a man, la detective for a woman), so the editor could add that to the grammar or the answer side.
+
+The reviewer's own translation: answer "the detective (male, or unspecified sex)"; example "The detective found the thief.".
+
+### don-title · rank 681 · don
+
+Decide in [decisions/don-title.txt](decisions/don-title.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | Mr. (respectful title before a first name) |
+| Hint | used before a first name, as in ___ Pedro, not señor; feminine doña |
+| Answer | don |
+| Kind | content, other |
+| Grammar | none |
+| Example | Buenos días, don Pedro, ¿cómo está? / Good morning, Mr. Pedro, how are you? |
+| Spain | none |
+| Trick | DON sounds like Don Corleone: everyone respectfully calls the boss Don before his name. |
+
+Why it was flagged:
+
+- Latin American usage: The example speaks to don Pedro with usted (¿cómo está?), but the cards must use the tú register; that is natural with 'don', so the fix is a sentence that talks about him instead of to him. Suggested fix: example.es: Don Pedro vive al lado de mi casa. / example.en: Mr. Pedro lives next door to me.
+
+Reviewer's note (not a reason to flag): The prompt needs the hint, because it tells the learner not to answer señor, which also means Mr.
+
+The reviewer's own translation: answer "don: a respectful title used before a man's first name (roughly 'Mr.', 'Sir'); feminine doña"; example "Good morning, Don Pedro, how are you?".
+
+### recuerdo-souvenir · rank 683 · recuerdo
+
+Decide in [decisions/recuerdo-souvenir.txt](decisions/recuerdo-souvenir.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | souvenir |
+| Hint | none |
+| Answer | el recuerdo |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | Te traje un recuerdo de México. / I brought you a souvenir from Mexico. |
+| Spain | none |
+| Trick | RECUERDO sounds like "record": a souvenir is a small object that records your trip. |
+
+Why it was flagged:
+
+- One right answer: Without a hint, "souvenir" could also get "el souvenir", a loanword that is very common across Latin America (Mexico, Argentina, Peru and others), so the prompt has two right answers. Suggested fix: hint: the native Spanish word, not the borrowed "souvenir"
+
+Reviewer's note (not a reason to flag): The new hint also keeps this card apart from the "memory" card, which uses the same word.
+
+The reviewer's own translation: answer "memory; souvenir, keepsake (noun)"; example "I brought you a souvenir from Mexico.".
+
+### gracioso-funny · rank 690 · gracioso
+
+Decide in [decisions/gracioso-funny.txt](decisions/gracioso-funny.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | funny |
+| Hint | makes you laugh, not divertido |
+| Answer | gracioso |
+| Kind | content, adjective |
+| Grammar | feminine graciosa |
+| Example | Tu hermano es muy gracioso. / Your brother is really funny. |
+| Spain | none |
+| Trick | GRACIOSO sounds like gracious, but a gracious host who tells jokes all night is just plain funny. |
+
+Why it was flagged:
+
+- One right answer: The hint rules out divertido but not chistoso, which is a very common Latin American word for 'funny' (especially in Mexico, Colombia and Peru) and would be just as correct. Suggested fix: hint: makes you laugh; not divertido or chistoso
+
+Reviewer's note (not a reason to flag): The trick correctly treats 'gracious' as a false friend, so the link still works.
+
+The reviewer's own translation: answer "funny, amusing (of a person or thing that makes you laugh)"; example "Your brother is very funny.".
+
+### ocupar-take-care · rank 692 · ocupar
+
+Decide in [decisions/ocupar-take-care.txt](decisions/ocupar-take-care.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to take care of |
+| Hint | handle a task or problem, not look after someone |
+| Answer | ocuparse |
+| Kind | content, verb |
+| Grammar | yo me ocupo · tú te ocupas · él se ocupa |
+| Example | Tranquilo, yo me ocupo de todo. / Relax, I'll take care of everything. |
+| Spain | none |
+| Trick | OCUPARSE sounds like 'occupy myself': you occupy yourself with a problem until it's handled. |
+
+Why it was flagged:
+
+- One right answer: The hint doesn't rule out encargarse, which is just as common as ocuparse in Latin America for handling a task (yo me encargo de todo), so a learner could give a right answer and still be marked wrong. Suggested fix: hint: handle a task or problem; the reflexive form of 'to occupy', not encargarse
+
+Reviewer's note (not a reason to flag): You could show ocuparse with its preposition (ocuparse de) in the answer or grammar, since the verb almost always takes de in this meaning.
+
+The reviewer's own translation: answer "ocuparse (de): to take care of, deal with, handle (a task or matter); literally to occupy oneself"; example "Relax / Don't worry, I'll take care of everything.".
+
+### interesante-interesting · rank 696 · interesante
+
+Decide in [decisions/interesante-interesting.txt](decisions/interesante-interesting.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | interesting |
+| Hint | none |
+| Answer | interesante |
+| Kind | content, adjective |
+| Grammar | feminine interesante |
+| Example | Qué libro tan interesante. / What an interesting book. |
+| Spain | none |
+| Trick | INTERESANTE sounds like interesting plus 'aunty': your aunty always tells the most interesting stories. |
+
+Why it was flagged:
+
+- Example sentence: The example has no conjugated verb, and as an exclamation it should have ¡ ! instead of a full stop. Suggested fix: example.es: Este libro es muy interesante. / example.en: This book is very interesting.
+
+Reviewer's note (not a reason to flag): If the editor wants to keep the exclamation, "¡Qué libro tan interesante!" is natural, but it still has no conjugated verb.
+
+The reviewer's own translation: answer "interesting"; example "What an interesting book.".
+
+### dama-lady · rank 699 · dama
+
+Decide in [decisions/dama-lady.txt](decisions/dama-lady.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | lady |
+| Hint | elegant or formal word, as in ladies and gentlemen |
+| Answer | la dama |
+| Kind | content, noun |
+| Grammar | feminine, la |
+| Example | Buenas noches, damas y caballeros. / Good evening, ladies and gentlemen. |
+| Spain | none |
+| Trick | DAMA sounds like dame: a grand dame is an elegant lady. |
+
+Why it was flagged:
+
+- Example sentence: The example has no conjugated verb; it is a set greeting with no verb at all. Suggested fix: example.es: Esa dama es muy elegante. / example.en: That lady is very elegant.
+
+Reviewer's note (not a reason to flag): The hint matters here because señora is the everyday word for lady, and the hint's "elegant or formal" is what points to dama, so it should stay.
+
+The reviewer's own translation: answer "la dama = lady (a woman, especially in an elegant or formal sense)"; example "Good evening, ladies and gentlemen.".
+
+### retirar-retire · rank 701 · retirar
+
+Decide in [decisions/retirar-retire.txt](decisions/retirar-retire.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to retire |
+| Hint | from a job or sport, or to step away |
+| Answer | retirarse |
+| Kind | content, verb |
+| Grammar | yo me retiro · tú te retiras · él se retira |
+| Example | Mi papá se retira el próximo año. / My dad is retiring next year. |
+| Spain | none |
+| Trick | RETIRARSE sounds like retire: when you are tired of working, you retire. |
+
+Why it was flagged:
+
+- One right answer: The hint mentions retiring from a job, and for that meaning jubilarse is the standard Latin American word, so a learner could correctly answer jubilarse instead of retirarse. Suggested fix: hint: from a sport or career, or to step away (not jubilarse)
+
+Reviewer's note (not a reason to flag): Because jubilarse is the usual word for retiring from work, the editor might move the example to a sport, such as "El futbolista se retira este año."
+
+The reviewer's own translation: answer "to retire (from work or a sport); to withdraw, step back, leave"; example "My dad retires next year.".
+
+### reunir-gather · rank 708 · reunir
+
+Decide in [decisions/reunir-gather.txt](decisions/reunir-gather.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to gather |
+| Hint | bring people or things together |
+| Answer | reunir |
+| Kind | content, verb |
+| Grammar | yo reúno · tú reúnes · él reúne |
+| Example | Mi abuela reúne a toda la familia en Navidad. / My grandma gathers the whole family at Christmas. |
+| Spain | none |
+| Trick | REUNIR sounds like reunion: you gather everyone together for a big reunion. |
+
+Why it was flagged:
+
+- One right answer: The hint 'bring people or things together' fits juntar equally well, and juntar is very common in Latin America (juntar a la familia, juntar dinero), so the prompt has two right answers. Suggested fix: hint: bring people together, as for a reunion (not juntar)
+
+Reviewer's note (not a reason to flag): The forms reúno, reúnes and reúne only add a written accent, so irregular: false holds up, but the accent is easy to miss and a learner may need it pointed out.
+
+The reviewer's own translation: answer "to gather, to bring together, to collect (transitive)"; example "My grandmother gets the whole family together at Christmas.".
 
 ### phrase-can-you-help-me · rank 144 · can-you-help-me
 

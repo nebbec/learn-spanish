@@ -1,0 +1,14 @@
+{
+  "id": "contar-tell",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use contar to tell a story or what happened; use decir to say words or give a quick message.",
+  "draft": "95a2499e0bbcf26b",
+  "group": "#224 contar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:03.551Z"
+}

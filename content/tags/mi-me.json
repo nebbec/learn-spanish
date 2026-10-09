@@ -1,0 +1,14 @@
+{
+  "id": "mi-me",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use mí after a word like para or de (para mí); use me next to a verb (me llama), and mi without an accent for my.",
+  "draft": "3018c647ea9c3398",
+  "group": "#109 mí",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:55.918Z"
+}

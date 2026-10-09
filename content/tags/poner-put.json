@@ -1,0 +1,14 @@
+{
+  "id": "poner-put",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e01f1dd8268d2c33",
+  "group": "#106 poner",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:48.856Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sobre-envelope",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "974b4eb33d190784",
+  "group": "#118 sobre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:06.395Z"
+}

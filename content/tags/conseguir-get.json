@@ -1,0 +1,14 @@
+{
+  "id": "conseguir-get",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c8f86e1793e4f10d",
+  "group": "#190 conseguir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:10.809Z"
+}

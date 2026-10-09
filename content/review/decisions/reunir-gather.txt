@@ -1,0 +1,33 @@
+# reunir-gather · rank 708 · reunir
+#
+# Why it was flagged:
+#   - One right answer: The hint 'bring people or things together' fits juntar equally well, and juntar is very common in Latin America (juntar a la familia, juntar dinero), so the prompt has two right answers. Suggested fix: hint: bring people together, as for a reunion (not juntar)
+# Reviewer's note (not a reason to flag): The forms reúno, reúnes and reúne only add a written accent, so irregular: false holds up, but the accent is easy to miss and a learner may need it pointed out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         reunir-gather
+kind:       content
+pos:        verb
+es:         reunir
+en:         to gather
+hint:       bring people or things together
+yo:         reúno
+tu:         reúnes
+el:         reúne
+irregular:  no
+example.es: Mi abuela reúne a toda la familia en Navidad.
+example.en: My grandma gathers the whole family at Christmas.
+spain:
+trick:      REUNIR sounds like reunion: you gather everyone together for a big reunion.
+
+# The draft this file was made from. Do not change it.
+draft: 655888c7d9b1165b

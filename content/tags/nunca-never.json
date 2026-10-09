@@ -1,0 +1,14 @@
+{
+  "id": "nunca-never",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "463662b6df0352b6",
+  "group": "#99 nunca",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:38.097Z"
+}

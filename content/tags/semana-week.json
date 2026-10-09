@@ -1,0 +1,14 @@
+{
+  "id": "semana-week",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "aa03205c4107e517",
+  "group": "#227 semana",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:06.894Z"
+}

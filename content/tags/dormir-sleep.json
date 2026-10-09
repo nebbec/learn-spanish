@@ -1,0 +1,14 @@
+{
+  "id": "dormir-sleep",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1aacab85e07742f2",
+  "group": "#247 dormir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:29.464Z"
+}

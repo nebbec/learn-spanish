@@ -1,0 +1,31 @@
+# detective-detective · rank 678 · detective
+#
+# Why it was flagged:
+#   - Memory trick: The trick says the stress moves to the end, but in detective the stress falls on the next-to-last syllable (ti), not the last one (ve), so a learner could stress the wrong syllable. Suggested fix: trick: DETECTIVE is spelled just like the English word, but the stress moves to TEE: deh-tek-TEE-veh.
+# Reviewer's note (not a reason to flag): Detective has one form for both genders (el detective for a man, la detective for a woman), so the editor could add that to the grammar or the answer side.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         detective-detective
+kind:       content
+pos:        noun
+es:         el detective
+en:         detective
+hint:
+gender:     m
+article:    el
+example.es: El detective encontró al ladrón.
+example.en: The detective found the thief.
+spain:
+trick:      DETECTIVE is spelled just like the English word; only the stress moves to the end: deh-tek-TEE-veh.
+
+# The draft this file was made from. Do not change it.
+draft: a2173a9703bdcd52

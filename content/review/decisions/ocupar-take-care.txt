@@ -1,0 +1,33 @@
+# ocupar-take-care · rank 692 · ocupar
+#
+# Why it was flagged:
+#   - One right answer: The hint doesn't rule out encargarse, which is just as common as ocuparse in Latin America for handling a task (yo me encargo de todo), so a learner could give a right answer and still be marked wrong. Suggested fix: hint: handle a task or problem; the reflexive form of 'to occupy', not encargarse
+# Reviewer's note (not a reason to flag): You could show ocuparse with its preposition (ocuparse de) in the answer or grammar, since the verb almost always takes de in this meaning.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         ocupar-take-care
+kind:       content
+pos:        verb
+es:         ocuparse
+en:         to take care of
+hint:       handle a task or problem, not look after someone
+yo:         me ocupo
+tu:         te ocupas
+el:         se ocupa
+irregular:  no
+example.es: Tranquilo, yo me ocupo de todo.
+example.en: Relax, I'll take care of everything.
+spain:
+trick:      OCUPARSE sounds like 'occupy myself': you occupy yourself with a problem until it's handled.
+
+# The draft this file was made from. Do not change it.
+draft: 47cc3c1bbe6f95e5

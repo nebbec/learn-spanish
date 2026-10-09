@@ -1,0 +1,14 @@
+{
+  "id": "puerta-door",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6d954436d94542a4",
+  "group": "#260 puerta",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:52.151Z"
+}

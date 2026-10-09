@@ -1,0 +1,14 @@
+{
+  "id": "nosotros-we",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use nosotros for \"we\" as the subject; nos is \"us\", the object before the verb.",
+  "draft": "9c812b22caf4ffb2",
+  "group": "#138 nosotros",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:36.850Z"
+}

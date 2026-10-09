@@ -1,0 +1,14 @@
+{
+  "id": "empezar-start",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4382f182d097c2ef",
+  "group": "#195 empezar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:14.374Z"
+}

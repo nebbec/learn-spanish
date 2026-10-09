@@ -1,0 +1,17 @@
+{
+  "id": "evitar-avoid",
+  "rank": 648,
+  "word": "evitar",
+  "draft": "13bd966e579d827e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to avoid, to prevent",
+    "example": "I always avoid the traffic in the morning."
+  },
+  "note": "Evadir also means to avoid, but it is narrower and means to evade, so evitar is clearly the one answer with no hint needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:40.435Z"
+}

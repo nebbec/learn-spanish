@@ -1,0 +1,14 @@
+{
+  "id": "esposo-handcuffs",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0d7b6539ae6f552f",
+  "group": "#253 esposo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:42.609Z"
+}

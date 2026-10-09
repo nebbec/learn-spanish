@@ -1,0 +1,14 @@
+{
+  "id": "cada-each",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f0739f99bb3220ed",
+  "group": "#214 cada",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:45.101Z"
+}

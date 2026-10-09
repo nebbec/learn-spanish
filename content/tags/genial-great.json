@@ -1,0 +1,14 @@
+{
+  "id": "genial-great",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "903cc8dd18d09933",
+  "group": "#265 genial",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:01.325Z"
+}

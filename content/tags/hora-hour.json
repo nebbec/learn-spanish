@@ -1,0 +1,14 @@
+{
+  "id": "hora-hour",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c5c67907c574a097",
+  "group": "#156 hora",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:08.909Z"
+}

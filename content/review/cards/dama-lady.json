@@ -1,0 +1,23 @@
+{
+  "id": "dama-lady",
+  "rank": 699,
+  "word": "dama",
+  "draft": "bf2206a791946f89",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example has no conjugated verb; it is a set greeting with no verb at all.",
+      "fix": "example.es: Esa dama es muy elegante. / example.en: That lady is very elegant."
+    }
+  ],
+  "back": {
+    "es": "la dama = lady (a woman, especially in an elegant or formal sense)",
+    "example": "Good evening, ladies and gentlemen."
+  },
+  "note": "The hint matters here because señora is the everyday word for lady, and the hint's \"elegant or formal\" is what points to dama, so it should stay.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:31.171Z"
+}

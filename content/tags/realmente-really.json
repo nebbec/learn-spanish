@@ -1,0 +1,14 @@
+{
+  "id": "realmente-really",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4caf979e61e19143",
+  "group": "#206 realmente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:28.159Z"
+}

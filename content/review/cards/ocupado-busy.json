@@ -1,0 +1,17 @@
+{
+  "id": "ocupado-busy",
+  "rank": 656,
+  "word": "ocupado",
+  "draft": "7be13adb6682a0ab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "ocupado: busy; occupied, taken (of a seat, line or bathroom)",
+    "example": "I can't right now, I'm very busy."
+  },
+  "note": "The example uses the feminine form ocupada, which is fine and also shows the learner the feminine ending in use.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:13.048Z"
+}

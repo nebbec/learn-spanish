@@ -1,0 +1,14 @@
+{
+  "id": "ni-nor",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "57cb0362931408cc",
+  "group": "#135 ni",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:31.934Z"
+}

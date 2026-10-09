@@ -1,0 +1,17 @@
+{
+  "id": "carrera-race",
+  "rank": 645,
+  "word": "carrera",
+  "draft": "656f2c9c88c2a48b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la carrera: race (a speed competition); also career, university degree, run",
+    "example": "My brother won the car race."
+  },
+  "note": "The hint is needed because it rules out la raza (race as in ethnicity), and Spain would say carrera de coches rather than de autos, but carrera itself is the same, so spain is correctly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:27.223Z"
+}

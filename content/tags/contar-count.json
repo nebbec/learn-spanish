@@ -1,0 +1,14 @@
+{
+  "id": "contar-count",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1dd24f7f1f375e1a",
+  "group": "#224 contar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:03.551Z"
+}

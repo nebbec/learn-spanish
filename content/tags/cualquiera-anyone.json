@@ -1,0 +1,14 @@
+{
+  "id": "cualquiera-anyone",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use cualquiera for anyone at all, whoever it is; use alguien for some particular person.",
+  "draft": "ce37e6a417f517e0",
+  "group": "#229 cualquiera",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:13.137Z"
+}

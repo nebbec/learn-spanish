@@ -1,0 +1,14 @@
+{
+  "id": "pedir-ask-for",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use pedir to ask for something or order food; use preguntar to ask a question.",
+  "draft": "98d3b7b05c99b5af",
+  "group": "#181 pedir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:50.842Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "intentar-try",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use intentar to attempt something; use probar to test or taste something.",
+  "draft": "ec66507e78c2fa31",
+  "group": "#176 intentar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:43.075Z"
+}

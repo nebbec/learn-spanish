@@ -1,0 +1,17 @@
+{
+  "id": "paso-step",
+  "rank": 684,
+  "word": "paso",
+  "draft": "0a7636316ab7830e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "step (a movement of the foot when walking); also pass, passage",
+    "example": "Take a step back, please."
+  },
+  "note": "The hint is useful because it rules out escalón and peldaño for a stair step, and \"Da un paso atrás\" would be a slightly more common way to say the example, though \"hacia atrás\" is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:20.313Z"
+}

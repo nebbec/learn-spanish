@@ -1,0 +1,17 @@
+{
+  "id": "centro-downtown",
+  "rank": 675,
+  "word": "centro",
+  "draft": "a2cafb476c40deed",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el centro = the center; the town center, downtown",
+    "example": "We're going / Let's go downtown to buy clothes."
+  },
+  "note": "\"Vamos al centro\" can mean either \"Let's go downtown\" or \"We're going downtown\", and both fit, so the translation is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:42.545Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "principio-principle",
+  "rank": 691,
+  "word": "principio",
+  "draft": "689109731f6c9277",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the principle (also: the beginning)",
+    "example": "He is a man of principles."
+  },
+  "note": "The hint isn't strictly needed, because the English word \"principle\" already leads only to \"principio\" and can't be confused with the \"beginning\" card, but it does no harm.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:50.348Z"
+}

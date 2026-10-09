@@ -1,0 +1,17 @@
+{
+  "id": "cumplir-turn-age",
+  "rank": 689,
+  "word": "cumplir",
+  "draft": "be0cd04cb1802a2d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to turn (an age), to reach a number of years; also to fulfill or carry out",
+    "example": "Tomorrow my daughter turns ten (years old)."
+  },
+  "note": "The hint is needed because \"to turn\" alone would mean girar or doblar, and it clearly keeps this card apart from the \"to fulfill\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:37.857Z"
+}

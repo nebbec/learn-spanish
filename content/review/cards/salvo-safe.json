@@ -1,0 +1,17 @@
+{
+  "id": "salvo-safe",
+  "rank": 673,
+  "word": "salvo",
+  "draft": "542f73e4384cd39b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "safe, unharmed (adjective, mainly in sano y salvo, safe and sound)",
+    "example": "The children are safe and sound."
+  },
+  "note": "As an adjective, salvo is mostly used in the set phrases sano y salvo and a salvo; the hint and example already present it that way, which is good.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:29.293Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "publico-public",
+  "rank": 664,
+  "word": "público",
+  "draft": "e4300fa7086eb7dc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "public (adjective: open to or belonging to everyone, run by the state)",
+    "example": "It's a public school."
+  },
+  "note": "The adjective prompt \"public\" is kept apart from the noun card \"audience\" (el público), so the two cards don't clash.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:46.998Z"
+}

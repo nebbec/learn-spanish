@@ -1,0 +1,14 @@
+{
+  "id": "nadie-nobody",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use nadie for no person; nada for no thing.",
+  "draft": "53bb77fce6f9a8a7",
+  "group": "#147 nadie",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:50.055Z"
+}

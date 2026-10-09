@@ -1,0 +1,14 @@
+{
+  "id": "mantener-keep",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use mantener to keep something going or in a state; guardar to put something away or store it.",
+  "draft": "c5ab79eafd3a9ea9",
+  "group": "#264 mantener",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:00.258Z"
+}

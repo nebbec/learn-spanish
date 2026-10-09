@@ -1,0 +1,17 @@
+{
+  "id": "recuperar-recover",
+  "rank": 650,
+  "word": "recuperar",
+  "draft": "414219d5462dbf33",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to recover, to get back, to regain",
+    "example": "Finally I got my phone back."
+  },
+  "note": "The hint \"get back\" helps by ruling out the reflexive sense of recovering from an illness (recuperarse) and recobrar is too rare to compete, so the card has one clear answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:50.090Z"
+}

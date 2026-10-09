@@ -1,0 +1,14 @@
+{
+  "id": "quien-who-relative",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use quien for a person after a preposition (con quien); elsewhere the everyday word for who is que.",
+  "draft": "7eb0d1ad536afb7e",
+  "group": "#217 quien",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:51.014Z"
+}

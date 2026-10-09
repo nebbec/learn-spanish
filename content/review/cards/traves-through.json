@@ -1,0 +1,17 @@
+{
+  "id": "traves-through",
+  "rank": 688,
+  "word": "través",
+  "draft": "fd71ebd64d32ba88",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "a través de = through, across (a compound preposition)",
+    "example": "I saw my brother through the window."
+  },
+  "note": "The hint is needed because \"caminamos por el bosque\" is the most natural everyday wording, and \"not por\" rules it out correctly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:32.232Z"
+}

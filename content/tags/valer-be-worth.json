@@ -1,0 +1,14 @@
+{
+  "id": "valer-be-worth",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "54825c724e9e235e",
+  "group": "#162 valer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:21.687Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "seguro-sure",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3dcec57cb5cdb664",
+  "group": "#139 seguro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:38.275Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "olvidar-forget",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e302cc7bc0e1ed41",
+  "group": "#220 olvidar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:55.182Z"
+}

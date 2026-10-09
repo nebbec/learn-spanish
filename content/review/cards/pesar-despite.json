@@ -1,0 +1,23 @@
+{
+  "id": "pesar-despite",
+  "rank": 658,
+  "word": "pesar",
+  "draft": "6dc0fbbf8b588b07",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick glosses pesar as 'weight', but pesar is the verb 'to weigh' (as a noun it means 'sorrow'), and the noun for weight is el peso.",
+      "fix": "trick: A PESAR DE: even with a problem weighing (pesar) on you, you keep going anyway."
+    }
+  ],
+  "back": {
+    "es": "despite, in spite of (prepositional phrase)",
+    "example": "We went out despite the rain."
+  },
+  "note": "The hint 'three-word phrase' is useful because it rules out the shorter, more formal synonym 'pese a'.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:29.008Z"
+}

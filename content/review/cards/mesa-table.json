@@ -1,0 +1,17 @@
+{
+  "id": "mesa-table",
+  "rank": 662,
+  "word": "mesa",
+  "draft": "52d57cf67948cdb5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the table (furniture)",
+    "example": "The food is on the table."
+  },
+  "note": "A bare \"table\" almost always means la mesa, but the editor could add a hint such as \"furniture\" so nobody answers \"la tabla\" (a data table or chart).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:37.517Z"
+}

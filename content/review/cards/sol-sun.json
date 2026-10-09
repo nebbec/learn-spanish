@@ -1,0 +1,17 @@
+{
+  "id": "sol-sun",
+  "rank": 698,
+  "word": "sol",
+  "draft": "96a85e7beff08b3f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the sun",
+    "example": "Today it is very sunny at the beach."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:22.707Z"
+}

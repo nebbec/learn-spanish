@@ -1,0 +1,17 @@
+{
+  "id": "principio-beginning",
+  "rank": 691,
+  "word": "principio",
+  "draft": "fa89e51ca0720b2f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "beginning, start (also principle)",
+    "example": "At first I didn't understand anything."
+  },
+  "note": "The hint \"al ...\" is needed because the prompt alone would also allow el comienzo or el inicio, and with it the fixed phrase al principio is the clear answer, which also keeps this card apart from the \"principle\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:44.091Z"
+}

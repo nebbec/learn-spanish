@@ -1,0 +1,14 @@
+{
+  "id": "papa-dad",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use papá for dad in everyday, affectionate talk; padre is the more formal father.",
+  "draft": "b0ff4b0a6d15f90b",
+  "group": "#189 papá",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:06.429Z"
+}

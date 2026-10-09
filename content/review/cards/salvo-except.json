@@ -1,0 +1,17 @@
+{
+  "id": "salvo-except",
+  "rank": 673,
+  "word": "salvo",
+  "draft": "0d5a1ef59422c1e1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "except, save (preposition)",
+    "example": "We open every day except Sunday."
+  },
+  "note": "The hint correctly rules out the more everyday menos and excepto; salvo is a bit more formal than menos in casual speech, and \"salvo los domingos\" would sound slightly more idiomatic for regular closing days, but the example is fine as written.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:33.154Z"
+}

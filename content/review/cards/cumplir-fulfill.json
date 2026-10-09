@@ -1,0 +1,17 @@
+{
+  "id": "cumplir-fulfill",
+  "rank": 689,
+  "word": "cumplir",
+  "draft": "6973758217a7c395",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to fulfill, to carry out, to keep (a promise), to comply with",
+    "example": "I always keep my promises."
+  },
+  "note": "The hint keeps this card apart from the \"to turn (an age)\" card, and cumplir is in fact related to \"complete\" (both come from Latin complere), so the trick also holds up historically.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:37.569Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tan-so",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tan before an adjective or adverb (tan cansado); tanto before a noun (tanto trabajo).",
+  "draft": "d90ffa26a451fc34",
+  "group": "#95 tan",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:31.951Z"
+}

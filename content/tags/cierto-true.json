@@ -1,0 +1,14 @@
+{
+  "id": "cierto-true",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "863bb0bebd4fe77a",
+  "group": "#207 cierto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:32.142Z"
+}

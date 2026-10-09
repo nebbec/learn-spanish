@@ -1,0 +1,14 @@
+{
+  "id": "ninguno-none",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ninguno for none out of a known group; nadie for nobody at all.",
+  "draft": "dc4f10fd90848d16",
+  "group": "#184 ninguno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:55.229Z"
+}

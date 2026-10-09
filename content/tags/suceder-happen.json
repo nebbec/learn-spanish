@@ -1,0 +1,14 @@
+{
+  "id": "suceder-happen",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "559dd8a6b94e4e2f",
+  "group": "#271 suceder",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:11.501Z"
+}

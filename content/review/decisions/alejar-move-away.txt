@@ -1,0 +1,33 @@
+# alejar-move-away · rank 647 · alejar
+#
+# Why it was flagged:
+#   - One right answer: In English, 'to move away' often means to relocate (mudarse), and the hint 'put distance between' doesn't rule that out, so mudarse is also a valid answer. Suggested fix: hint: get farther from someone or something, not relocate or escape
+# Reviewer's note (not a reason to flag): The frequency word is alejar, but the card teaches the more common reflexive alejarse, and the example uses that meaning well.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         alejar-move-away
+kind:       content
+pos:        verb
+es:         alejarse
+en:         to move away
+hint:       put distance between, not escape
+yo:         me alejo
+tu:         te alejas
+el:         se aleja
+irregular:  no
+example.es: ¡Aléjate de mi hija!
+example.en: Get away from my daughter!
+spain:
+trick:      ALEJARSE sounds like 'a ledge, ah!': you scream and move away from the ledge.
+
+# The draft this file was made from. Do not change it.
+draft: 00a84f57b8989921

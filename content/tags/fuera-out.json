@@ -1,0 +1,14 @@
+{
+  "id": "fuera-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use fuera before de (fuera de la ciudad); afuera stands alone for outside.",
+  "draft": "74be9709f5506359",
+  "group": "#259 fuera",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:54.824Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sorprender-surprise",
+  "rank": 706,
+  "word": "sorprender",
+  "draft": "9725dae2ba7237b7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to surprise",
+    "example": "It surprises me that you don't know (it)."
+  },
+  "note": "The example also shows the subjunctive after \"me sorprende que\" (sepas), which is good exposure but may be new to beginners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:07:00.257Z"
+}

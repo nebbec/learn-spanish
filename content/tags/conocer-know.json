@@ -1,0 +1,14 @@
+{
+  "id": "conocer-know",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use conocer to know a person or place; saber to know a fact or how to do something.",
+  "draft": "b7b78da64ac3bfa1",
+  "group": "#119 conocer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:07.726Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "crimen-crime",
+  "rank": 705,
+  "word": "crimen",
+  "draft": "cec74a0e301f1787",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "crime (a serious one, especially murder)",
+    "example": "The police are investigating the crime."
+  },
+  "note": "The hint is useful because it steers the learner away from delito (any offense) and delincuencia (crime in general).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:58.976Z"
+}
