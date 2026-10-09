@@ -57,7 +57,6 @@ describe("language config", () => {
     expect(LANGS.de).toMatchObject({ tag: "de", appName: "Learn German", shortName: "German", deckPath: "/deck-de/" });
     expect(LANGS.es.contentDir).toBe("content");
     expect(LANGS.de.contentDir).toBe("content/de");
-    expect(LANGS.es.regionalLabel).toBe("Spain");
   });
 
   it("holds the Spanish voice the audio script reads, so no clip path changes", () => {

@@ -21,7 +21,6 @@ export const es: LangConfig = {
     still: "/mascot/concha.webp",
   },
   icons: { version: "2", icon192: "/icon-192.png", icon512: "/icon-512.png", apple: "/apple-touch-icon.png" },
-  regionalLabel: "Spain",
   // G1's choice, read by scripts/content/audio.mjs (DE5). Its fields are part of every clip's hash, in this order.
   voice: {
     model: "gpt-4o-mini-tts",

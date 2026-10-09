@@ -7,7 +7,8 @@ import type { Card, DeckTip } from "@/lib/deck";
 import type { IntroChoice } from "@/lib/queues";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
-import { AudioButton, GrammarStrip, Meaning, WhyLine } from "./Reveal";
+import { GrammarStrip } from "./GrammarStrip";
+import { AudioButton, Meaning, WhyLine } from "./Reveal";
 import { TipButton } from "./Tip";
 
 export interface IntroProps {
@@ -49,7 +50,8 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
         {/* With a "?" in the corner, the character keeps clear of it on both sides. */}
         <CharacterSlot image={card.image} className={`max-h-40 min-h-20 ${tip ? "px-12" : ""}`} move="pop" />
 
-        <div className="flex flex-col items-center gap-1">
+        {/* With a "?" and no character, the answer starts below the "?" ("New card" sits beside it). */}
+        <div data-testid="answer-block" className={`flex flex-col items-center gap-1 ${tip && !card.image ? "pt-3" : ""}`}>
           <div className="flex items-center gap-2">
             <span data-testid="intro-es" lang={LANG.tag} className="font-display text-answer font-bold">
               {card.target}
@@ -94,7 +96,7 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
 
 /** "You know esperar = to wait. It also means:", from the meaning already seen. */
 function EarlierLine({ earlier }: { earlier: Card }) {
-  const meaning = earlier.kind === "glue" ? splitGluePrompt(earlier.en).target : earlier.en;
+  const meaning = earlier.kind === "glue" || earlier.kind === "case" ? splitGluePrompt(earlier.en).target : earlier.en;
   return (
     <p data-testid="earlier-meaning" className="text-lg">
       You know{" "}

@@ -1,13 +1,13 @@
 "use client";
 
-import { Fragment, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
 import { LANG } from "@/lang";
-import type { Card, DeckTip, VerbGrammar } from "@/lib/deck";
-import { FORM_ID } from "@/lib/deck/validate";
+import type { Card, DeckTip } from "@/lib/deck";
 import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
+import { GrammarStrip } from "./GrammarStrip";
 import { splitGluePrompt } from "./gluePrompt";
 import { TipButton } from "./Tip";
 
@@ -56,7 +56,8 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
         {/* With a "?" in the corner, the character keeps clear of it on both sides. */}
         <CharacterSlot image={card.image} className={`max-h-36 min-h-20 ${tip ? "px-12" : ""}`} move={move} />
 
-        <div className="flex flex-col items-center gap-1">
+        {/* With a "?" and no character above it, the answer starts below the "?". */}
+        <div data-testid="answer-block" className={`flex flex-col items-center gap-1 ${tip && !card.image ? "pt-10" : ""}`}>
           <div className="flex items-center gap-2">
             <span data-testid="answer" lang={LANG.tag} className="font-display text-answer font-bold">
               {card.target}
@@ -90,7 +91,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         {card.regional && (
           <p data-testid="regional" className="text-sm text-ink-soft">
-            {LANG.regionalLabel ?? card.regional.where}: <span lang={LANG.tag}>{card.regional.text}</span>
+            {card.regional.where}: <span lang={LANG.tag}>{card.regional.text}</span>
           </p>
         )}
 
@@ -114,9 +115,9 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
   );
 }
 
-/** The English, small, under the answer. Glue phrases keep their highlighted target. */
+/** The English, small, under the answer. Glue and case prompts keep their highlighted target. */
 export function Meaning({ card }: { card: Card }) {
-  const glue = card.kind === "glue" ? splitGluePrompt(card.en) : null;
+  const glue = card.kind === "glue" || card.kind === "case" ? splitGluePrompt(card.en) : null;
   return (
     <span data-testid="meaning" className="text-ink-soft">
       {glue ? (
@@ -133,20 +134,6 @@ export function Meaning({ card }: { card: Card }) {
   );
 }
 
-/** The strip's three persons, in order, with the pronoun shown before each form. */
-const PERSONS = [
-  { person: "yo", label: "yo" },
-  { person: "tu", label: "tú" },
-  { person: "el", label: "él" },
-] as const;
-
-/** The person a form card drills (`ser-form-tu` → `tu`), or null: any other card, and `haber-form-hay`, whose form is not in the strip. */
-export function formPerson(card: Card): "yo" | "tu" | "el" | null {
-  if (card.kind !== "form") return null;
-  const person = FORM_ID.exec(card.id)?.[1];
-  return person === "yo" || person === "tu" || person === "el" ? person : null;
-}
-
 /** The one-line contrast with a near neighbour ("Use estar for how or where…"), on the intro and the reveal. */
 export function WhyLine({ card }: { card: Card }) {
   if (!card.why) return null;
@@ -155,65 +142,6 @@ export function WhyLine({ card }: { card: Card }) {
       {card.why}
     </p>
   );
-}
-
-const GENDER_NAMES = { m: "masculine", f: "feminine", n: "neuter" } as const;
-
-/**
- * Noun: gender. Adjective: both endings. Verb: three present-tense forms and the irregular
- * flag; a form card's own form is highlighted. Nothing otherwise.
- */
-export function GrammarStrip({ card }: { card: Card }) {
-  if (card.pos === "noun") {
-    return (
-      <p data-testid="grammar" data-variant="noun" className="font-bold">
-        <span lang={LANG.tag}>{card.grammar.article}</span>
-        <span className="font-normal text-ink-soft">
-          {" · "}
-          {GENDER_NAMES[card.grammar.gender]}
-        </span>
-      </p>
-    );
-  }
-  if (card.pos === "adjective" && card.grammar) {
-    return (
-      <p data-testid="grammar" data-variant="adjective" lang={LANG.tag} className="font-bold">
-        {card.target} / {card.grammar.feminine}
-      </p>
-    );
-  }
-  // German verbs get their own strip in DE4.
-  if (card.pos === "verb" && "yo" in card.grammar.present) {
-    const { present } = card.grammar as VerbGrammar;
-    const own = formPerson(card);
-    return (
-      <p data-testid="grammar" data-variant="verb" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
-        <span lang={LANG.tag} className="font-bold">
-          {PERSONS.map(({ person, label }, i) => (
-            <Fragment key={person}>
-              {i > 0 && " · "}
-              {person === own ? (
-                <mark data-testid="own-form" className="rounded-chip bg-sun px-1 text-ink">
-                  {label} {present[person]}
-                </mark>
-              ) : (
-                `${label} ${present[person]}`
-              )}
-            </Fragment>
-          ))}
-        </span>
-        {card.grammar.irregular && (
-          <span
-            data-testid="irregular"
-            className="rounded-chip bg-sun px-2 py-0.5 text-sm font-bold uppercase tracking-wide text-ink"
-          >
-            Irregular
-          </span>
-        )}
-      </p>
-    );
-  }
-  return null;
 }
 
 export function AudioButton({ label, testId, onPress }: { label: string; testId: string; onPress: () => void }) {

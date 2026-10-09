@@ -24,8 +24,6 @@ export const de: LangConfig = {
   },
   // Placeholder until DE14: the concha's icons.
   icons: { version: "2", icon192: "/icon-192.png", icon512: "/icon-512.png", apple: "/apple-touch-icon.png" },
-  // Each German card names its region (Austria or Switzerland) from DE3.
-  regionalLabel: null,
   // Placeholder until DE11 picks a voice by ear.
   voice: {
     model: "gpt-4o-mini-tts",

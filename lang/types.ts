@@ -38,11 +38,6 @@ export interface LangConfig {
   mascot: { idle: MascotLoop; celebrate: MascotLoop; still: string };
   /** App icons, under public/. Raise `version` when the files change, so installed copies fetch them again. */
   icons: { version: string; icon192: string; icon512: string; apple: string };
-  /**
-   * Label of the regional footnote on the reveal ("Spain"). Null where each
-   * card names its own region (German: Austria or Switzerland, from DE3).
-   */
-  regionalLabel: string | null;
   /** The speech voice, read by `npm run audio` (`voiceOf` in scripts/content/audio.mjs). Changing it gives every clip a new path. */
   voice: { model: string; voice: string; instructions: string };
 }

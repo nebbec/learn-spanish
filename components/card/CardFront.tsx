@@ -70,7 +70,7 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
     >
       {direction === "reverse" ? (
         <ReverseFace card={card} />
-      ) : card.kind === "glue" ? (
+      ) : card.kind === "glue" || card.kind === "case" ? (
         <GlueFace card={card} />
       ) : card.kind === "phrase" ? (
         <PhraseFace card={card} />
@@ -98,6 +98,7 @@ function ContentFace({ card }: { card: Card }) {
   );
 }
 
+/** Glue and case cards: the English phrase with its target marked, and no character. */
 function GlueFace({ card }: { card: Card }) {
   const { before, target, after } = splitGluePrompt(card.en);
   return (
