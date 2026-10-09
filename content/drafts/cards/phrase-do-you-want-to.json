@@ -3,15 +3,15 @@
   "rank": 199,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Quieres venir conmigo?",
+  "target": "¿Quieres venir conmigo?",
   "en": "Do you want to come with me?",
   "hint": "informal",
   "grammar": null,
   "example": {
-    "es": "¿Quieres venir conmigo a la fiesta esta noche?",
+    "target": "¿Quieres venir conmigo a la fiesta esta noche?",
     "en": "Do you want to come with me to the party tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

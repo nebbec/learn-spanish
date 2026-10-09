@@ -3,7 +3,7 @@
   "rank": 711,
   "kind": "content",
   "pos": "noun",
-  "es": "el hambre",
+  "target": "el hambre",
   "en": "hunger",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tengo mucha hambre, ¿vamos a comer?",
+    "target": "Tengo mucha hambre, ¿vamos a comer?",
     "en": "I'm really hungry, shall we go eat?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "HAMBRE sounds like \"hamburger\": hunger makes you dream of a big hamburger.",
   "image": "/deck/img/hambre-hunger.webp",
   "audio": {

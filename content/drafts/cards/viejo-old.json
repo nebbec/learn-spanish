@@ -3,17 +3,17 @@
   "rank": 242,
   "kind": "content",
   "pos": "adjective",
-  "es": "viejo",
+  "target": "viejo",
   "en": "old",
   "hint": null,
   "grammar": {
     "feminine": "vieja"
   },
   "example": {
-    "es": "Mi padre es viejo, pero mi madre no.",
+    "target": "Mi padre es viejo, pero mi madre no.",
     "en": "My father is old, but my mother isn't."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VIEJO sounds like \"Be a yo-yo\": that toy is so old your grandpa played with it.",
   "image": "/deck/img/viejo-old.webp",
   "audio": {

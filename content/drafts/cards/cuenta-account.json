@@ -3,7 +3,7 @@
   "rank": 238,
   "kind": "content",
   "pos": "noun",
-  "es": "la cuenta",
+  "target": "la cuenta",
   "en": "account",
   "hint": "bank, email",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No tengo dinero en mi cuenta.",
+    "target": "No tengo dinero en mi cuenta.",
     "en": "I don't have money in my account."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUENTA sounds like count-a: the bank counts every dollar in your account.",
   "image": "/deck/img/cuenta-account.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 167,
   "kind": "content",
   "pos": "noun",
-  "es": "el hermano",
+  "target": "el hermano",
   "en": "brother",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi hermano está en México.",
+    "target": "Mi hermano está en México.",
     "en": "My brother is in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HERMANO sounds like \"her man, oh\": the guy always with her is just her brother.",
   "image": "/deck/img/hermano-brother.webp",
   "audio": {

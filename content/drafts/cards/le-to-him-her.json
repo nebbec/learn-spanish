@@ -3,15 +3,15 @@
   "rank": 40,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "le",
+  "target": "le",
   "en": "I told [her] the truth",
   "hint": "indirect object: to him, to her, to you (usted)",
   "grammar": null,
   "example": {
-    "es": "Le di el dinero a mi hermano.",
+    "target": "Le di el dinero a mi hermano.",
     "en": "I gave my brother the money."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LE sounds like lay: you lay something down for him or her, handing it to them.",
   "image": null,
   "audio": {

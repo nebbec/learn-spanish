@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         calle-street
-kind:       content
-pos:        noun
-es:         la calle
-en:         street
+id:             calle-street
+kind:           content
+pos:            noun
+target:         la calle
+en:             street
 hint:
-gender:     f
-article:    la
-example.es: Mi casa está en esta calle.
-example.en: My house is on this street.
-spain:
-trick:      CALLE sounds like "KAH-yeh": you yell "Ka-yeh!" to a friend across the street.
+gender:         f
+article:        la
+example.target: Mi casa está en esta calle.
+example.en:     My house is on this street.
+regional.where:
+regional.text:
+trick:          CALLE sounds like "KAH-yeh": you yell "Ka-yeh!" to a friend across the street.
 
 # The draft this file was made from. Do not change it.
-draft: 92c115cd078a5b3f
+draft: 0e57b30c9e7da092

@@ -3,7 +3,7 @@
   "rank": 55,
   "kind": "content",
   "pos": "verb",
-  "es": "pasar",
+  "target": "pasar",
   "en": "to spend (time)",
   "hint": "time, not money",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Paso los domingos con mi familia.",
+    "target": "Paso los domingos con mi familia.",
     "en": "I spend Sundays with my family."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PASAR is how you pass the time: you spend the hours letting them pass.",
   "image": "/deck/img/pasar-spend-time.webp",
   "audio": {

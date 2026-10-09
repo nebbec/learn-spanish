@@ -3,7 +3,7 @@
   "rank": 28,
   "kind": "content",
   "pos": "verb",
-  "es": "querer",
+  "target": "querer",
   "en": "to love",
   "hint": "family, friends, everyday affection, not amar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Te quiero mucho, mamá.",
+    "target": "Te quiero mucho, mamá.",
     "en": "I love you so much, Mom."
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUERER sounds like \"care-er\": you care about the people you love.",
   "image": "/deck/img/querer-love.webp",
   "audio": {

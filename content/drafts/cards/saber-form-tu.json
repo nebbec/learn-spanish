@@ -3,7 +3,7 @@
   "rank": 26,
   "kind": "form",
   "pos": "verb",
-  "es": "sabes",
+  "target": "sabes",
   "en": "you know",
   "hint": "facts, information, how to do something; informal",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Sabes dónde está Ana?",
+    "target": "¿Sabes dónde está Ana?",
     "en": "Do you know where Ana is?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Sabes sounds like savvy, and a savvy person knows things.",
   "image": "/deck/img/saber-know.webp",
   "audio": {

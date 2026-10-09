@@ -4,10 +4,12 @@
 import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import type { CallResult, DraftRequest, Runner } from "./claude";
 import { DraftStore, withMedia, type WordEntry } from "./drafting";
 import { CHECKS, ReviewStore, type ReviewOptions } from "./reviewing";
+
+type DraftCard = AnyDraftCard<"es">;
 
 export const words: Record<string, WordEntry> = {
   de: { rank: 2, word: "de", forms: ["de"] },
@@ -16,18 +18,18 @@ export const words: Record<string, WordEntry> = {
   casa: { rank: 90, word: "casa", forms: ["casa"] },
 };
 
-const base = { hint: null, spain: null, trick: "A made-up trick for the test." };
+const base = { hint: null, regional: null, trick: "A made-up trick for the test." };
 
 export function testCards(): Record<string, DraftCard[]> {
   const card = (c: { id: string; kind: string } & Record<string, unknown>) => withMedia({ ...base, ...c }) as unknown as DraftCard;
   return {
-    de: [card({ id: "de-of", rank: 2, kind: "glue", pos: "preposition", es: "de", en: "the house [of] Maria", grammar: null, example: { es: "Es la casa de María.", en: "It is Maria's house." } })],
+    de: [card({ id: "de-of", rank: 2, kind: "glue", pos: "preposition", target: "de", en: "the house [of] Maria", grammar: null, example: { target: "Es la casa de María.", en: "It is Maria's house." } })],
     tener: [
-      card({ id: "tener-have", rank: 13, kind: "content", pos: "verb", es: "tener", en: "to have", hint: "own", grammar: { present: { yo: "tengo", tu: "tienes", el: "tiene" }, irregular: true }, example: { es: "Tengo un perro.", en: "I have a dog." } }),
-      card({ id: "tener-have-to", rank: 13, kind: "content", pos: "verb", es: "tener", en: "to have to", hint: "tener que", grammar: { present: { yo: "tengo", tu: "tienes", el: "tiene" }, irregular: true }, example: { es: "Tengo que irme.", en: "I have to go." } }),
+      card({ id: "tener-have", rank: 13, kind: "content", pos: "verb", target: "tener", en: "to have", hint: "own", grammar: { present: { yo: "tengo", tu: "tienes", el: "tiene" }, irregular: true }, example: { target: "Tengo un perro.", en: "I have a dog." } }),
+      card({ id: "tener-have-to", rank: 13, kind: "content", pos: "verb", target: "tener", en: "to have to", hint: "tener que", grammar: { present: { yo: "tengo", tu: "tienes", el: "tiene" }, irregular: true }, example: { target: "Tengo que irme.", en: "I have to go." } }),
     ],
-    bueno: [card({ id: "bueno-good", rank: 39, kind: "content", pos: "adjective", es: "bueno", en: "good", grammar: { feminine: "buena" }, example: { es: "Es un buen día.", en: "It's a good day." } })],
-    casa: [card({ id: "casa-house", rank: 90, kind: "content", pos: "noun", es: "la casa", en: "house", grammar: { gender: "f", article: "la" }, example: { es: "Mi casa es pequeña.", en: "My house is small." } })],
+    bueno: [card({ id: "bueno-good", rank: 39, kind: "content", pos: "adjective", target: "bueno", en: "good", grammar: { feminine: "buena" }, example: { target: "Es un buen día.", en: "It's a good day." } })],
+    casa: [card({ id: "casa-house", rank: 90, kind: "content", pos: "noun", target: "la casa", en: "house", grammar: { gender: "f", article: "la" }, example: { target: "Mi casa es pequeña.", en: "My house is small." } })],
   };
 }
 

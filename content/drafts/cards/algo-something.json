@@ -3,15 +3,15 @@
   "rank": 57,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "algo",
+  "target": "algo",
   "en": "I want [something] to eat",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Quieres algo de tomar?",
+    "target": "¿Quieres algo de tomar?",
     "en": "Do you want something to drink?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALGO sounds like 'I'll go': I'll go get something from the kitchen.",
   "image": null,
   "audio": {

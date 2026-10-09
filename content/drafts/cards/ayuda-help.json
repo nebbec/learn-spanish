@@ -3,7 +3,7 @@
   "rank": 285,
   "kind": "content",
   "pos": "noun",
-  "es": "la ayuda",
+  "target": "la ayuda",
   "en": "help",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Gracias por tu ayuda.",
+    "target": "Gracias por tu ayuda.",
     "en": "Thanks for your help."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AYUDA sounds like \"I owe ya\": when someone gives you help, you say I owe ya.",
   "image": "/deck/img/ayuda-help.webp",
   "audio": {

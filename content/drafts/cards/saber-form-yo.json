@@ -3,7 +3,7 @@
   "rank": 26,
   "kind": "form",
   "pos": "verb",
-  "es": "sé",
+  "target": "sé",
   "en": "I know",
   "hint": "facts, information, how to do something",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "No sé dónde está.",
+    "target": "No sé dónde está.",
     "en": "I don't know where it is."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Sé sounds like say: you can only say it if you know it.",
   "image": "/deck/img/saber-know.webp",
   "audio": {

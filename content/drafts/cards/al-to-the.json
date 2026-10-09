@@ -3,15 +3,15 @@
   "rank": 45,
   "kind": "glue",
   "pos": "preposition",
-  "es": "al",
+  "target": "al",
   "en": "I'm going [to the] park",
   "hint": "a + el, before a masculine noun",
   "grammar": null,
   "example": {
-    "es": "Vamos al parque mañana.",
+    "target": "Vamos al parque mañana.",
     "en": "Let's go to the park tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AL sounds like \"all\": all roads lead to the park.",
   "image": null,
   "audio": {

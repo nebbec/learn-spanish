@@ -3,15 +3,15 @@
   "rank": 5,
   "kind": "glue",
   "pos": "adverb",
-  "es": "no",
+  "target": "no",
   "en": "I do [not] know",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "No quiero café, gracias.",
+    "target": "No quiero café, gracias.",
     "en": "I don't want coffee, thanks."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NO sounds just like English no: put it right before the verb to make anything a no, meaning not.",
   "image": null,
   "audio": {

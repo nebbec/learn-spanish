@@ -10,23 +10,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         pequeno-small
-kind:       content
-pos:        adjective
-es:         pequeño
-en:         small
+id:             pequeno-small
+kind:           content
+pos:            adjective
+target:         pequeño
+en:             small
 hint:
-feminine:   pequeña
-example.es: Mi hotel es muy pequeño.
-example.en: My hotel is very small.
-spain:
-trick:      PEQUEÑO sounds like peck-a-new: a tiny chick can only peck a new, small seed.
+feminine:       pequeña
+example.target: Mi hotel es muy pequeño.
+example.en:     My hotel is very small.
+regional.where:
+regional.text:
+trick:          PEQUEÑO sounds like peck-a-new: a tiny chick can only peck a new, small seed.
 
 # The draft this file was made from. Do not change it.
-draft: d5d600b30e492163
+draft: e04b381055b3dcee

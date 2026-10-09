@@ -3,15 +3,15 @@
   "rank": 199,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "conmigo",
+  "target": "conmigo",
   "en": "come [with me]",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Quieres ir al cine conmigo?",
+    "target": "¿Quieres ir al cine conmigo?",
     "en": "Do you want to go to the movies with me?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONMIGO sounds like \"come amigo\": come, friend, stay with me.",
   "image": null,
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 269,
   "kind": "content",
   "pos": "adjective",
-  "es": "feliz",
+  "target": "feliz",
   "en": "happy",
   "hint": "as in happy birthday",
   "grammar": {
     "feminine": "feliz"
   },
   "example": {
-    "es": "Mi hermana está muy feliz aquí.",
+    "target": "Mi hermana está muy feliz aquí.",
     "en": "My sister is very happy here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FELIZ sounds like Felix, the cat who is always happy and grinning.",
   "image": "/deck/img/feliz-happy.webp",
   "audio": {

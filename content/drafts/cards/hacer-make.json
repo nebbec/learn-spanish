@@ -3,7 +3,7 @@
   "rank": 17,
   "kind": "content",
   "pos": "verb",
-  "es": "hacer",
+  "target": "hacer",
   "en": "to make",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi mamá hizo un pastel.",
+    "target": "Mi mamá hizo un pastel.",
     "en": "My mom made a cake."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HACER sounds like 'a saucer': you make a saucer out of clay.",
   "image": "/deck/img/hacer-make.webp",
   "audio": {

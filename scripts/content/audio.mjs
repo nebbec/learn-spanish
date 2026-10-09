@@ -27,11 +27,11 @@ export const ENCODING = {
 };
 
 /**
- * The text each clip speaks: the Spanish as the reveal shows it, and the example
- * sentence. A phrase card's word clip speaks the whole phrase (L8), as its `es` is it.
+ * The text each clip speaks: the answer as the reveal shows it, and the example
+ * sentence. A phrase card's word clip speaks the whole phrase (L8), as its `target` is it.
  */
 export function clipTexts(card) {
-  return { word: card.es, sentence: card.example.es };
+  return { word: card.target, sentence: card.example.target };
 }
 
 function hash(value) {
@@ -83,7 +83,7 @@ export function tipAudioPath(tipId, n, text, takes = {}) {
 
 /** The tip with each example's `audio` set to its clip's path. */
 export function tipAudioPaths(tip, takes = {}) {
-  return { ...tip, examples: tip.examples.map((e, i) => ({ ...e, audio: tipAudioPath(tip.id, i + 1, e.es, takes) })) };
+  return { ...tip, examples: tip.examples.map((e, i) => ({ ...e, audio: tipAudioPath(tip.id, i + 1, e.target, takes) })) };
 }
 
 /** 16-bit little-endian samples to floats from -1 to 1. */

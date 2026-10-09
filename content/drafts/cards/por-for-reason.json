@@ -3,15 +3,15 @@
   "rank": 14,
   "kind": "glue",
   "pos": "preposition",
-  "es": "por",
+  "target": "por",
   "en": "thanks [for] everything",
   "hint": "reason or exchange, not purpose",
   "grammar": null,
   "example": {
-    "es": "Gracias por la ayuda.",
+    "target": "Gracias por la ayuda.",
     "en": "Thanks for the help."
   },
-  "spain": null,
+  "regional": null,
   "trick": "POR sounds like pour: you pour out thanks for everything someone did.",
   "image": null,
   "audio": {

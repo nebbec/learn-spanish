@@ -46,16 +46,16 @@ const lemmas = lemmasFrom(
 
 const known = (...words: string[]) => new Set(words.flatMap((w) => wordLemmas(w, lemmas)));
 
-function card(fields: Partial<Card> & Pick<Card, "es" | "example">): Card {
+function card(fields: Partial<Card> & Pick<Card, "target" | "example">): Card {
   return {
-    id: fields.es.replace(/\W+/g, "-"),
+    id: fields.target.replace(/\W+/g, "-"),
     rank: 1,
     kind: "content",
     pos: "noun",
     en: "x",
     hint: null,
     grammar: null,
-    spain: null,
+    regional: null,
     trick: null,
     image: null,
     audio: { word: "/w.mp3", sentence: "/s.mp3" },
@@ -70,17 +70,17 @@ function card(fields: Partial<Card> & Pick<Card, "es" | "example">): Card {
 describe("the known-words check on made-up sentences", () => {
   it("knows a conjugated form of a known verb, and a plural of a known noun", () => {
     const check = checkExample(
-      card({ es: "la casa", unit: "home", example: { es: "Hablo de las casas.", en: "I talk about the houses." } }),
+      card({ target: "la casa", unit: "home", example: { target: "Hablo de las casas.", en: "I talk about the houses." } }),
       known("hablar", "de", "las"),
       lemmas,
     );
     expect(check).toEqual({ ok: true, starter: true, unknown: [], cognates: [] });
     // Without the verb card before it, "hablo" is not met yet.
-    expect(checkExample(card({ es: "la casa", unit: "home", example: { es: "Hablo de las casas.", en: "x" } }), known("de", "las"), lemmas).unknown).toEqual(["Hablo"]);
+    expect(checkExample(card({ target: "la casa", unit: "home", example: { target: "Hablo de las casas.", en: "x" } }), known("de", "las"), lemmas).unknown).toEqual(["Hablo"]);
   });
 
   it("allows one obvious cognate in the starter path, but not two, and no other word", () => {
-    const soy = (es: string, en: string) => checkExample(card({ es: "soy", unit: "who-i-am", example: { es, en } }), known("de"), lemmas);
+    const soy = (target: string, en: string) => checkExample(card({ target: "soy", unit: "who-i-am", example: { target, en } }), known("de"), lemmas);
     expect(soy("Soy doctor.", "I am a doctor.")).toMatchObject({ ok: true, cognates: ["doctor"], unknown: [] });
     expect(soy("Soy doctor de hotel.", "I am a hotel doctor.")).toMatchObject({ ok: false, cognates: ["doctor", "hotel"] });
     expect(soy("Soy médico.", "I am a doctor.")).toMatchObject({ ok: false, unknown: ["médico"], cognates: [] });
@@ -90,7 +90,7 @@ describe("the known-words check on made-up sentences", () => {
   });
 
   it("allows names and numbers anywhere", () => {
-    const check = (es: string) => checkExample(card({ es: "tener", unit: "home", example: { es, en: "x" } }), known("de", "la"), lemmas);
+    const check = (target: string) => checkExample(card({ target: "tener", unit: "home", example: { target, en: "x" } }), known("de", "la"), lemmas);
     expect(check("Tengo la casa de María.").ok).toBe(false); // casa is not met
     expect(check("Tengo 3 perros.").unknown).toEqual(["perros"]);
     expect(check("Tengo dos.").ok).toBe(true);
@@ -101,21 +101,21 @@ describe("the known-words check on made-up sentences", () => {
   });
 
   it("allows two other words of any kind in the frequency phase, not three", () => {
-    const check = (es: string) => checkExample(card({ es: "tener", example: { es, en: "x" } }), known(), lemmas);
+    const check = (target: string) => checkExample(card({ target: "tener", example: { target, en: "x" } }), known(), lemmas);
     expect(check("Tengo perros buenos.")).toMatchObject({ ok: true, starter: false, unknown: ["perros", "buenos"] });
     expect(check("Tengo perros buenos aquí.").ok).toBe(false);
   });
 
   it("counts the card's own words: its answer, its strip and its feminine", () => {
-    const tener = card({ es: "tener", pos: "verb", grammar: { present: { yo: "tengo", tu: "tienes", el: "tiene" }, irregular: true }, example: { es: "x", en: "x" } });
+    const tener = card({ target: "tener", pos: "verb", grammar: { present: { yo: "tengo", tu: "tienes", el: "tiene" }, irregular: true }, example: { target: "x", en: "x" } });
     expect([...cardWords(tener, lemmas)]).toEqual(expect.arrayContaining(["tener", "tengo", "tienes", "tiene"]));
-    const buena = card({ es: "bueno", unit: "u", grammar: { feminine: "buena" }, example: { es: "Buena casa.", en: "x" } });
+    const buena = card({ target: "bueno", unit: "u", grammar: { feminine: "buena" }, example: { target: "Buena casa.", en: "x" } });
     expect(checkExample(buena, known("casa"), lemmas).ok).toBe(true);
   });
 
   it("walks the order: an example knows only the cards before it, so a reorder can break it", () => {
-    const yo = card({ es: "soy", unit: "u", example: { es: "Soy Ana.", en: "I am Ana." } });
-    const casa = card({ es: "la casa", unit: "u", example: { es: "Es la casa.", en: "It is the house." } });
+    const yo = card({ target: "soy", unit: "u", example: { target: "Soy Ana.", en: "I am Ana." } });
+    const casa = card({ target: "la casa", unit: "u", example: { target: "Es la casa.", en: "It is the house." } });
     expect([...checkExamples([yo, casa], lemmas).values()].map((c) => c.ok)).toEqual([true, true]);
     expect([...checkExamples([casa, yo], lemmas).values()].map((c) => c.ok)).toEqual([false, true]);
     expect(knownBefore([yo, casa], casa.id, lemmas)).toEqual(new Set(["soy", "ser"]));
@@ -204,7 +204,7 @@ describe("the example redraft", () => {
     expect(print).toEqual(["example bueno-good: bueno-good"]);
 
     const after = readDraftCard(drafts, "bueno-good")!;
-    expect(after).toEqual({ ...before, example: { es: "Tengo un perro bueno.", en: "I have a good dog." } });
+    expect(after).toEqual({ ...before, example: { target: "Tengo un perro bueno.", en: "I have a good dog." } });
     expect(JSON.parse(readFileSync(tags.file("bueno-good"), "utf8")).draft).toBe(cardHash(after));
     expect(existsSync(path.join(drafts.failedDir, "example-bueno-good-1.json"))).toBe(true);
     const log = readFileSync(drafts.logFile, "utf8").trim().split("\n").map((l) => JSON.parse(l));
@@ -227,6 +227,6 @@ describe("the example redraft", () => {
     expect(guardExample({}, jobs[0], lemmas)).toMatchObject({ ok: false, kind: "shape" });
     expect(guardExample({ example: { es: "", en: "x" } }, jobs[0], lemmas)).toMatchObject({ ok: false, fields: ["example.es"] });
     const ok = guardExample({ example: { es: "La casa.", en: "The house." } }, jobs[0], lemmas);
-    expect(ok.ok && (ok.cards[0] as DraftCard)).toEqual({ ...jobs[0].card, example: { es: "La casa.", en: "The house." } });
+    expect(ok.ok && (ok.cards[0] as DraftCard)).toEqual({ ...jobs[0].card, example: { target: "La casa.", en: "The house." } });
   });
 });

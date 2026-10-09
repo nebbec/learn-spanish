@@ -3,15 +3,15 @@
   "rank": 795,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "No me gusta la cerveza.",
+  "target": "No me gusta la cerveza.",
   "en": "I don't like beer.",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "No me gusta la cerveza, pero me gusta el café.",
+    "target": "No me gusta la cerveza, pero me gusta el café.",
     "en": "I don't like beer, but I like coffee."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

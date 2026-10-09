@@ -8,22 +8,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         entonces-so
-kind:       content
-pos:        adverb
-es:         entonces
-en:         so
-hint:       one word, to draw a conclusion or move on, not pues or tan
-example.es: Entonces, ¿vienes o no?
-example.en: So, are you coming or not?
-spain:
-trick:      ENTONCES sounds like "in tone, says": in a serious tone, he says, "So, what now?"
+id:             entonces-so
+kind:           content
+pos:            adverb
+target:         entonces
+en:             so
+hint:           one word, to draw a conclusion or move on, not pues or tan
+example.target: Entonces, ¿vienes o no?
+example.en:     So, are you coming or not?
+regional.where:
+regional.text:
+trick:          ENTONCES sounds like "in tone, says": in a serious tone, he says, "So, what now?"
 
 # The draft this file was made from. Do not change it.
-draft: 8cd7fc28f84c0578
+draft: f92ae034a0e91a97

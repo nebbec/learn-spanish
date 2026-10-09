@@ -155,7 +155,7 @@ describe("output guard", () => {
       { skip: null, cards: [tenerCard({ en: '"to have"', es: "# tener", trick: '"TENER" sounds like "TENNER"' })] },
       tener,
     );
-    expect(result.ok && result.cards[0]).toMatchObject({ en: "to have", es: "tener", trick: '"TENER" sounds like "TENNER"' });
+    expect(result.ok && result.cards[0]).toMatchObject({ en: "to have", target: "tener", trick: '"TENER" sounds like "TENNER"' });
   });
 
   it("names the failing fields and never their contents", () => {

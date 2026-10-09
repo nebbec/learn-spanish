@@ -3,15 +3,15 @@
   "rank": 25,
   "kind": "glue",
   "pos": "determiner",
-  "es": "mi",
+  "target": "mi",
   "en": "[my] house",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Mi hotel está aquí.",
+    "target": "Mi hotel está aquí.",
     "en": "My hotel is here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MI sounds like me: anything that belongs to me is my stuff.",
   "image": null,
   "audio": {

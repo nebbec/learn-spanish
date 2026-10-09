@@ -3,7 +3,7 @@
   "rank": 28,
   "kind": "form",
   "pos": "verb",
-  "es": "quiero",
+  "target": "quiero",
   "en": "I want",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Quiero un chocolate, por favor.",
+    "target": "Quiero un chocolate, por favor.",
     "en": "I want a chocolate, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Quiero starts like query: you make a query when you want something.",
   "image": "/deck/img/querer-want.webp",
   "audio": {

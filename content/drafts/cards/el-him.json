@@ -3,15 +3,15 @@
   "rank": 61,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "él",
+  "target": "él",
   "en": "I went with [him]",
   "hint": "after a preposition",
   "grammar": null,
   "example": {
-    "es": "Este regalo es para él.",
+    "target": "Este regalo es para él.",
     "en": "This gift is for him."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ÉL sounds like the letter L: picture a big L pointing at him when you say con él.",
   "image": null,
   "audio": {

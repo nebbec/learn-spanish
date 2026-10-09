@@ -3,15 +3,15 @@
   "rank": 127,
   "kind": "content",
   "pos": "adverb",
-  "es": "poco",
+  "target": "poco",
   "en": "a little, a bit",
   "hint": "after un: un ___",
   "grammar": null,
   "example": {
-    "es": "Estoy un poco cansado hoy.",
+    "target": "Estoy un poco cansado hoy.",
     "en": "I'm a little tired today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Un POCO is a little poke: just a little bit, not a big push.",
   "image": "/deck/img/poco-a-little.webp",
   "audio": {

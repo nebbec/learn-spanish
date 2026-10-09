@@ -3,7 +3,7 @@
   "rank": 68,
   "kind": "form",
   "pos": "verb",
-  "es": "viene",
+  "target": "viene",
   "en": "he / she comes",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi mamá viene hoy.",
+    "target": "Mi mamá viene hoy.",
     "en": "My mom is coming today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Viene sounds like Vienna: he comes from Vienna.",
   "image": "/deck/img/venir-come.webp",
   "audio": {

@@ -151,9 +151,9 @@ describe("tip files", () => {
       title: "Ser and estar",
       body: "First sentence. Second: with a colon inside. Third and fourth.",
       examples: [
-        { es: "Soy Ana.", en: "I'm Ana.", audio: tipAudioPath("tip-two-to-be", 1, "Soy Ana.") },
-        { es: "¿Eres de México?", en: "Are you from Mexico?", audio: tipAudioPath("tip-two-to-be", 2, "¿Eres de México?") },
-        { es: "Estoy aquí.", en: "I'm here.", audio: tipAudioPath("tip-two-to-be", 3, "Estoy aquí.") },
+        { target: "Soy Ana.", en: "I'm Ana.", audio: tipAudioPath("tip-two-to-be", 1, "Soy Ana.") },
+        { target: "¿Eres de México?", en: "Are you from Mexico?", audio: tipAudioPath("tip-two-to-be", 2, "¿Eres de México?") },
+        { target: "Estoy aquí.", en: "I'm here.", audio: tipAudioPath("tip-two-to-be", 3, "Estoy aquí.") },
       ],
     });
   });

@@ -3,7 +3,7 @@
   "rank": 623,
   "kind": "content",
   "pos": "noun",
-  "es": "el hotel",
+  "target": "el hotel",
   "en": "hotel",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El hotel está cerca de la playa.",
+    "target": "El hotel está cerca de la playa.",
     "en": "The hotel is near the beach."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HOTEL is spelled just like English, but the H is silent: say oh-TEL, like a happy oh when you see your room.",
   "image": "/deck/img/hotel-hotel.webp",
   "audio": {

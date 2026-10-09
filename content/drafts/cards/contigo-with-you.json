@@ -3,15 +3,15 @@
   "rank": 221,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "contigo",
+  "target": "contigo",
   "en": "I want to go [with you]",
   "hint": "informal tú, one word",
   "grammar": null,
   "example": {
-    "es": "Quiero hablar contigo.",
+    "target": "Quiero hablar contigo.",
     "en": "I want to talk with you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONTIGO sounds like \"con, tea, go\": with you, let's have tea and go.",
   "image": null,
   "audio": {

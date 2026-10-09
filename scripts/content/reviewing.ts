@@ -17,10 +17,13 @@
 import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { PHRASE_ID } from "@/lib/deck/validate";
 import type { CallUsage, Effort, Runner } from "./claude";
 import { DraftStore, formatDuration, slug, writeJson, type GroupKind } from "./drafting";
+
+/** Drafted cards are Spanish until the scripts take `--lang` (DE5). */
+type DraftCard = AnyDraftCard<"es">;
 
 /** The reviewer's checks, in the order it answers them. */
 export const CHECKS = ["meaning", "oneAnswer", "grammar", "usage", "example", "trick"] as const;
@@ -68,7 +71,7 @@ export function idProblem(id: string, word: string, rank: number, kind?: GroupKi
 }
 
 /** A short fingerprint of a drafted card: a review or a decision applies only to the card it saw. */
-export function cardHash(card: DraftCard): string {
+export function cardHash(card: AnyDraftCard): string {
   return createHash("sha256").update(JSON.stringify(card)).digest("hex").slice(0, 16);
 }
 
@@ -99,10 +102,14 @@ Last, note is one sentence for anything worth telling the editor that is not a p
 
 Every text field is one line of plain text, with no Markdown.`;
 
-/** The part of the card the reviewer sees: no id, rank or media paths. */
+/**
+ * The part of the card the reviewer sees: no id, rank or media paths. The Spanish review
+ * prompt names the answer `es` and the footnote `spain`, so the card is shown with those
+ * names, exactly as before deck format 3.
+ */
 function shownCard(card: DraftCard) {
-  const { kind, pos, es, en, hint, grammar, example, spain, trick } = card;
-  return { kind, pos, es, en, hint, grammar, example, spain, trick };
+  const { kind, pos, target, en, hint, grammar, example, regional, trick } = card;
+  return { kind, pos, es: target, en, hint, grammar, example: { es: example.target, en: example.en }, spain: regional?.text ?? null, trick };
 }
 
 export function reviewPrompt(card: DraftCard, word: Pick<DraftedWord, "rank" | "word" | "kind">, others: DraftCard[]): string {
@@ -260,6 +267,7 @@ export function allDrafted(drafts: DraftStore): DraftedWord[] {
   return [...draftedWords(drafts), ...draftedForms(drafts), ...draftedPhrases(drafts)];
 }
 
+/** A drafted card. The drafts on disk are Spanish until the scripts take `--lang` (DE5). */
 export function readDraftCard(drafts: DraftStore, id: string): DraftCard | null {
   const file = path.join(drafts.cardsDir, `${id}.json`);
   return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as DraftCard) : null;

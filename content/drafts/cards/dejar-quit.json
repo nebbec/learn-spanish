@@ -3,7 +3,7 @@
   "rank": 58,
   "kind": "content",
   "pos": "verb",
-  "es": "dejar",
+  "target": "dejar",
   "en": "to quit (doing)",
   "hint": "used with de plus a verb",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi papá dejó de fumar.",
+    "target": "Mi papá dejó de fumar.",
     "en": "My dad quit smoking."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEJAR DE sounds like day jar day: one day you quit and toss your cigarettes in a jar.",
   "image": "/deck/img/dejar-quit.webp",
   "audio": {

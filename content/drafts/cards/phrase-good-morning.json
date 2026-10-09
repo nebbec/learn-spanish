@@ -3,15 +3,15 @@
   "rank": 83,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¡Buenos días!",
+  "target": "¡Buenos días!",
   "en": "Good morning!",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¡Buenos días! ¿Cómo estás?",
+    "target": "¡Buenos días! ¿Cómo estás?",
     "en": "Good morning! How are you?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Word for word it means good days, plural, the way you would wish someone a good day.",
   "image": null,
   "audio": {

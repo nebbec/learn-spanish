@@ -3,15 +3,15 @@
   "rank": 66,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "nada",
+  "target": "nada",
   "en": "I have [nothing]",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "No pasa nada, tranquilo.",
+    "target": "No pasa nada, tranquilo.",
     "en": "It's nothing, relax."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NADA sounds like 'not a' thing: there is not a thing there, nothing at all.",
   "image": null,
   "audio": {

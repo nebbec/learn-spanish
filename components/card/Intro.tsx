@@ -52,7 +52,7 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">
             <span data-testid="intro-es" lang={LANG.tag} className="font-display text-answer font-bold">
-              {card.es}
+              {card.target}
             </span>
             <AudioButton label="Play the word" testId="play-word" onPress={() => onPlay(card.audio.word)} />
           </div>
@@ -99,7 +99,7 @@ function EarlierLine({ earlier }: { earlier: Card }) {
     <p data-testid="earlier-meaning" className="text-lg">
       You know{" "}
       <em lang={LANG.tag} className="font-bold">
-        {earlier.es}
+        {earlier.target}
       </em>{" "}
       = {meaning}. It also means:
     </p>

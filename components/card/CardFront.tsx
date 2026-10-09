@@ -133,7 +133,7 @@ function ReverseFace({ card }: { card: Card }) {
   return (
     <span className="flex flex-1 flex-col items-center justify-center gap-3">
       <span data-testid="prompt" lang={LANG.tag} className="font-display text-answer font-bold">
-        {card.es}
+        {card.target}
       </span>
       <span className="text-ink-soft">What does it mean?</span>
     </span>

@@ -3,15 +3,15 @@
   "rank": 43,
   "kind": "content",
   "pos": "adverb",
-  "es": "aquí",
+  "target": "aquí",
   "en": "here",
   "hint": "the standard word, not acá",
   "grammar": null,
   "example": {
-    "es": "Hola, Ana. Estoy aquí en México.",
+    "target": "Hola, Ana. Estoy aquí en México.",
     "en": "Hi, Ana. I'm here in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AQUÍ sounds like a key: here is a key, right here in my hand.",
   "image": "/deck/img/aqui-here.webp",
   "audio": {

@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { validateDraftCard } from "@/lib/deck/validate";
 import type { Runner } from "./claude";
 import { SYSTEM_PROMPT, withMedia } from "./drafting";
@@ -15,6 +15,8 @@ import {
   REVIEW_SYSTEM_PROMPT,
   reviewCards,
 } from "./reviewing";
+
+type DraftCard = AnyDraftCard<"es">;
 
 describe("id rule", () => {
   it("accepts the word without accents and one to three meaning words, with a rank suffix if one was added", () => {
@@ -109,7 +111,7 @@ describe("review run", () => {
 
     const output = [...printed, ...formatReviewSummary(summary, "cli")].join("\n");
     for (const card of Object.values(testCards()).flat()) {
-      for (const t of [card.example.es, card.example.en, card.trick]) expect(output).not.toContain(t);
+      for (const t of [card.example.target, card.example.en, card.trick]) expect(output).not.toContain(t);
     }
     expect(output).not.toContain("Problem text");
     expect(output).not.toContain("Note text");
@@ -139,7 +141,7 @@ describe("review run", () => {
     const summary = await reviewCards(draftedWords(drafts), options(drafts, store, again.runner));
     expect(summary).toMatchObject({ alreadyReviewed: 5, calls: 0 });
 
-    const changed = withMedia({ ...testCards().bueno[0], example: { es: "Qué bueno.", en: "How good." } }) as DraftCard;
+    const changed = withMedia({ ...testCards().bueno[0], example: { target: "Qué bueno.", en: "How good." } }) as DraftCard;
     expect(validateDraftCard(changed).ok).toBe(true);
     drafts.saveWord(words.bueno, [changed], null, { via: "cli" });
     const third = fakeReviewer();

@@ -7,26 +7,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         estar-be-state
-kind:       content
-pos:        verb
-es:         estar
-en:         to be
-hint:       state, place
-yo:         estoy
-tu:         estás
-el:         está
-irregular:  yes
-example.es: Estoy en casa y muy cansado.
-example.en: I'm at home and really tired.
-spain:
-trick:      ESTAR sounds like "a star": a star is always somewhere in the sky, shining bright or dim depending on its state.
+id:             estar-be-state
+kind:           content
+pos:            verb
+target:         estar
+en:             to be
+hint:           state, place
+yo:             estoy
+tu:             estás
+el:             está
+irregular:      yes
+example.target: Estoy en casa y muy cansado.
+example.en:     I'm at home and really tired.
+regional.where:
+regional.text:
+trick:          ESTAR sounds like "a star": a star is always somewhere in the sky, shining bright or dim depending on its state.
 
 # The draft this file was made from. Do not change it.
-draft: 9c0002455b56f258
+draft: df8302e1fa90a030

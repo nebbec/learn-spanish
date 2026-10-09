@@ -3,15 +3,15 @@
   "rank": 29,
   "kind": "glue",
   "pos": "determiner",
-  "es": "este",
+  "target": "este",
   "en": "I want [this] book",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Este libro es muy bueno.",
+    "target": "Este libro es muy bueno.",
     "en": "This book is very good."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESTE sounds like 'is t'he': point and say 'this is the one' right here.",
   "image": null,
   "audio": {

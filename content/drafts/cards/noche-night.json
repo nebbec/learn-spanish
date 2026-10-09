@@ -3,7 +3,7 @@
   "rank": 111,
   "kind": "content",
   "pos": "noun",
-  "es": "la noche",
+  "target": "la noche",
   "en": "night",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Anoche no dormí en toda la noche.",
+    "target": "Anoche no dormí en toda la noche.",
     "en": "Last night I didn't sleep all night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOCHE sounds like 'no show': at night the sun is a no-show.",
   "image": "/deck/img/noche-night.webp",
   "audio": {

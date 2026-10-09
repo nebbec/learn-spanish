@@ -16,7 +16,7 @@
 
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import {
   type DraftOptions,
   type DraftStore,
@@ -29,6 +29,9 @@ import {
 } from "./drafting";
 import { allDrafted, cardHash, readDraftCard } from "./reviewing";
 import { unitCap, type TipEntry, type Unit } from "./units";
+
+/** Drafted cards are Spanish until the scripts take `--lang` (DE5). */
+type DraftCard = AnyDraftCard<"es">;
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -163,7 +166,7 @@ export function tagPrompt(group: TagGroup, ctx: TagContext): string {
     ...ctx.tips.map((t) => `- ${t.id}: ${t.title}. ${t.about}`),
     "",
     "Every drafted card (id | prompt | answer):",
-    ...ctx.cards.map((c) => `- ${c.id} | ${c.en}${c.hint ? ` (${c.hint})` : ""} | ${c.es}`),
+    ...ctx.cards.map((c) => `- ${c.id} | ${c.en}${c.hint ? ` (${c.hint})` : ""} | ${c.target}`),
     "",
     `Tag these cards. ${heading}:`,
     ...group.cards.flatMap((card) => {

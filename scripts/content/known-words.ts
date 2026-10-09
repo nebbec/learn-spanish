@@ -3,10 +3,10 @@
 // numbers, and a few other words: in the starter path at most one, which must
 // be an obvious cognate; in the frequency phase up to two, of any kind.
 //
-// Each word of `example.es` is mapped to its lemmas with E1's lemma list
+// Each word of `example.target` is mapped to its lemmas with E1's lemma list
 // (lemmatization-lists, read from content/.cache), and counts against the
 // limit when none of its lemmas is known. A card makes known the words of its
-// `es`, the forms in its grammar (the present-tense strip, the feminine) and
+// `target`, the forms in its grammar (the present-tense strip, the feminine) and
 // their lemmas. Pure functions apart from `loadLemmas`; nothing here prints.
 //
 // The rules are in docs/design.md under "Learning path", "Example sentences
@@ -78,9 +78,9 @@ export function tokens(text: string): Token[] {
   return out;
 }
 
-/** The words a card makes known: its `es`, its grammar's forms, and their lemmas. */
-export function cardWords(card: Pick<DraftCard, "es" | "grammar">, lemmas: Lemmas): Set<string> {
-  const words = tokens(card.es).map((t) => t.word);
+/** The words a card makes known: its `target`, its grammar's forms, and their lemmas. */
+export function cardWords(card: Pick<DraftCard, "target" | "grammar">, lemmas: Lemmas): Set<string> {
+  const words = tokens(card.target).map((t) => t.word);
   const g = card.grammar as Record<string, unknown> | null;
   if (g && typeof g.feminine === "string") words.push(...tokens(g.feminine).map((t) => t.word));
   if (g && g.present && typeof g.present === "object") {
@@ -115,7 +115,7 @@ export interface ExampleCheck {
  * the first of a sentence is a name, and so is a first word whose lower case has no lemma in the list and is unknown.
  */
 export function checkExample(
-  card: Pick<Card, "es" | "grammar" | "example" | "unit">,
+  card: Pick<Card, "target" | "grammar" | "example" | "unit">,
   known: ReadonlySet<string>,
   lemmas: Lemmas,
 ): ExampleCheck {
@@ -123,7 +123,7 @@ export function checkExample(
   const isKnown = (w: string) => wordLemmas(w, lemmas).some((l) => known.has(l) || own.has(l));
   const unknown: string[] = [];
   const cognates: string[] = [];
-  for (const { word, first } of tokens(card.example.es)) {
+  for (const { word, first } of tokens(card.example.target)) {
     const lower = normalize(word);
     if (NUMBER_WORDS.has(lower) || isKnown(word)) continue;
     const capital = word !== lower;
@@ -154,12 +154,12 @@ export function knownBefore(order: readonly Card[], id: string, lemmas: Lemmas):
   return new Set(order.slice(0, at).flatMap((c) => [...cardWords(c, lemmas)]));
 }
 
-/** The words of the cards before one in the order, as written on them (`es` and grammar forms), each once. */
+/** The words of the cards before one in the order, as written on them (`target` and grammar forms), each once. */
 export function wordsBefore(order: readonly Card[], id: string): string[] {
   const at = order.findIndex((c) => c.id === id);
   const words = new Set<string>();
   for (const card of order.slice(0, Math.max(0, at))) {
-    for (const t of tokens(card.es)) words.add(normalize(t.word));
+    for (const t of tokens(card.target)) words.add(normalize(t.word));
     const g = card.grammar as Record<string, unknown> | null;
     if (g && typeof g.feminine === "string") words.add(normalize(g.feminine));
     if (g && g.present && typeof g.present === "object") {

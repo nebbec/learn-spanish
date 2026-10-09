@@ -3,15 +3,15 @@
   "rank": 6,
   "kind": "glue",
   "pos": "determiner",
-  "es": "un",
+  "target": "un",
   "en": "I want [a] book",
   "hint": "masculine form",
   "grammar": null,
   "example": {
-    "es": "Estoy en un hotel muy bueno.",
+    "target": "Estoy en un hotel muy bueno.",
     "en": "I'm at a very good hotel."
   },
-  "spain": null,
+  "regional": null,
   "trick": "UN sounds like the start of \"an\": just drop the a and you have it.",
   "image": null,
   "audio": {

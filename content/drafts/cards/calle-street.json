@@ -3,7 +3,7 @@
   "rank": 503,
   "kind": "content",
   "pos": "noun",
-  "es": "la calle",
+  "target": "la calle",
   "en": "street",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi casa está en esta calle.",
+    "target": "Mi casa está en esta calle.",
     "en": "My house is on this street."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CALLE sounds like \"kai-yay\": you yell \"Hey!\" to a friend across the street.",
   "image": "/deck/img/calle-street.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 19,
   "kind": "content",
   "pos": "verb",
-  "es": "poder",
+  "target": "poder",
   "en": "to be able to",
   "hint": "can",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Puedes ayudarme con esto?",
+    "target": "¿Puedes ayudarme con esto?",
     "en": "Can you help me with this?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PODER sounds like powder: with a little magic powder, you can do anything.",
   "image": "/deck/img/poder-can.webp",
   "audio": {

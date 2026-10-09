@@ -4,7 +4,7 @@ import { Fragment, type ReactNode } from "react";
 import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
 import { LANG } from "@/lang";
-import type { Card, DeckTip } from "@/lib/deck";
+import type { Card, DeckTip, VerbGrammar } from "@/lib/deck";
 import { FORM_ID } from "@/lib/deck/validate";
 import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
@@ -36,7 +36,7 @@ export interface RevealProps {
 }
 
 /**
- * The answer side of a card: the Spanish, its grammar, the example sentence and
+ * The answer side of a card: the answer, its grammar, the example sentence and
  * audio, with the three rating buttons pinned to the bottom. It looks the same
  * in both directions, so it takes no `direction`. The word clip plays when it
  * opens, unless muted.
@@ -59,7 +59,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">
             <span data-testid="answer" lang={LANG.tag} className="font-display text-answer font-bold">
-              {card.es}
+              {card.target}
             </span>
             <AudioButton label="Play the word" testId="play-word" onPress={() => onPlay(card.audio.word)} />
           </div>
@@ -79,7 +79,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
         <div className="flex w-full items-start gap-2 rounded-button bg-paper p-3 text-left">
           <p className="flex flex-1 flex-col gap-0.5">
             <span data-testid="example-es" lang={LANG.tag} className="text-lg font-bold">
-              {card.example.es}
+              {card.example.target}
             </span>
             <span data-testid="example-en" className="text-ink-soft">
               {card.example.en}
@@ -88,9 +88,9 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
           <AudioButton label="Play the sentence" testId="play-sentence" onPress={() => onPlay(card.audio.sentence)} />
         </div>
 
-        {card.spain && (
-          <p data-testid="spain" className="text-sm text-ink-soft">
-            {LANG.regionalLabel ?? "Also"}: <span lang={LANG.tag}>{card.spain}</span>
+        {card.regional && (
+          <p data-testid="regional" className="text-sm text-ink-soft">
+            {LANG.regionalLabel ?? card.regional.where}: <span lang={LANG.tag}>{card.regional.text}</span>
           </p>
         )}
 
@@ -114,7 +114,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
   );
 }
 
-/** The English, small, under the Spanish. Glue phrases keep their highlighted target. */
+/** The English, small, under the answer. Glue phrases keep their highlighted target. */
 export function Meaning({ card }: { card: Card }) {
   const glue = card.kind === "glue" ? splitGluePrompt(card.en) : null;
   return (
@@ -157,6 +157,8 @@ export function WhyLine({ card }: { card: Card }) {
   );
 }
 
+const GENDER_NAMES = { m: "masculine", f: "feminine", n: "neuter" } as const;
+
 /**
  * Noun: gender. Adjective: both endings. Verb: three present-tense forms and the irregular
  * flag; a form card's own form is highlighted. Nothing otherwise.
@@ -168,20 +170,21 @@ export function GrammarStrip({ card }: { card: Card }) {
         <span lang={LANG.tag}>{card.grammar.article}</span>
         <span className="font-normal text-ink-soft">
           {" · "}
-          {card.grammar.gender === "f" ? "feminine" : "masculine"}
+          {GENDER_NAMES[card.grammar.gender]}
         </span>
       </p>
     );
   }
-  if (card.pos === "adjective") {
+  if (card.pos === "adjective" && card.grammar) {
     return (
       <p data-testid="grammar" data-variant="adjective" lang={LANG.tag} className="font-bold">
-        {card.es} / {card.grammar.feminine}
+        {card.target} / {card.grammar.feminine}
       </p>
     );
   }
-  if (card.pos === "verb") {
-    const { present } = card.grammar;
+  // German verbs get their own strip in DE4.
+  if (card.pos === "verb" && "yo" in card.grammar.present) {
+    const { present } = card.grammar as VerbGrammar;
     const own = formPerson(card);
     return (
       <p data-testid="grammar" data-variant="verb" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">

@@ -3,7 +3,7 @@
   "rank": 87,
   "kind": "content",
   "pos": "noun",
-  "es": "la casa",
+  "target": "la casa",
   "en": "home",
   "hint": "as in at home, go home",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Ya me voy a casa.",
+    "target": "Ya me voy a casa.",
     "en": "I'm going home now."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CASA sounds like \"cozy\": home is the cozy place you return to.",
   "image": "/deck/img/casa-home.webp",
   "audio": {

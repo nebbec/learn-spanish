@@ -3,7 +3,7 @@
   "rank": 128,
   "kind": "content",
   "pos": "noun",
-  "es": "los padres",
+  "target": "los padres",
   "en": "parents",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "los"
   },
   "example": {
-    "es": "Mis padres viven en el campo.",
+    "target": "Mis padres viven en el campo.",
     "en": "My parents live in the countryside."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PADRES sounds like padres plural: more than one father figure at home means both your parents.",
   "image": "/deck/img/padre-parents.webp",
   "audio": {

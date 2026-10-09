@@ -95,6 +95,8 @@ The deck is a static JSON file. One entry per card:
 
 Changed by the learning path (deck version 2 of the format, L2): `kind` also takes `form` and `phrase`; `pos` also takes `phrase`; a form card has an `image` (its verb's) and verb `grammar`; a phrase card has no image and null `grammar`; `trick` may be null on form and phrase cards. The file gains `units` (`{ id, title, goal }`, in order) and `tips` (`{ id, title, body, examples }`) beside `cards`, and its card order is the Learn order.
 
+Changed by deck format 3 (DE3, [german.md](german.md#card-data), "Decided in DE3"): `es` is now `target`, `example.es` is `example.target`, `spain` is `regional` (`{ where: "Spain", text }` or null), and the file names its language (`"lang": "es"`). The rules below use the old names.
+
 Decided in A2 (types in `lib/deck/types.ts`, validator in `lib/deck/validate.ts`):
 
 - **File**: `public/deck/deck.json`, shaped `{ "version": 1, "cards": [...] }` (format 1; changed in L2, below). The app fetches it from `/deck/deck.json`; media sits beside it under `/deck/img/` and `/deck/audio/`, and `image` and `audio` hold those URL paths.

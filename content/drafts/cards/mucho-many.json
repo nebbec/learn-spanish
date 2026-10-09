@@ -3,17 +3,17 @@
   "rank": 71,
   "kind": "content",
   "pos": "adjective",
-  "es": "mucho",
+  "target": "mucho",
   "en": "many, much",
   "hint": "before a noun: a lot of",
   "grammar": {
     "feminine": "mucha"
   },
   "example": {
-    "es": "Tengo muchos amigos en la escuela.",
+    "target": "Tengo muchos amigos en la escuela.",
     "en": "I have a lot of friends at school."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MUCHO sounds like \"much-o\": it is simply much, with an extra o for more.",
   "image": "/deck/img/mucho-many.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 14,
   "kind": "glue",
   "pos": "preposition",
-  "es": "por",
+  "target": "por",
   "en": "we walk [through] the park",
   "hint": "one short word",
   "grammar": null,
   "example": {
-    "es": "Caminamos por el parque.",
+    "target": "Caminamos por el parque.",
     "en": "We walk through the park."
   },
-  "spain": null,
+  "regional": null,
   "trick": "POR sounds like pore: sweat goes through your pores.",
   "image": null,
   "audio": {

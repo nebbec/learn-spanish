@@ -3,7 +3,7 @@
   "rank": 168,
   "kind": "content",
   "pos": "verb",
-  "es": "trabajar",
+  "target": "trabajar",
   "en": "to work",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi mamá trabaja en un hospital.",
+    "target": "Mi mamá trabaja en un hospital.",
     "en": "My mom works at a hospital."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRABAJAR sounds like \"trouble, ha!\": work is trouble, but you laugh and keep working.",
   "image": "/deck/img/trabajar-work.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 349,
   "kind": "content",
   "pos": "noun",
-  "es": "la fiesta",
+  "target": "la fiesta",
   "en": "party",
   "hint": "celebration, not political",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Vas a ir a la fiesta de Ana?",
+    "target": "¿Vas a ir a la fiesta de Ana?",
     "en": "Are you going to Ana's party?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "FIESTA sounds like \"feast-a\": every good party has a feast.",
   "image": "/deck/img/fiesta-party.webp",
   "audio": {

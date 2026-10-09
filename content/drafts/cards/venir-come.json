@@ -3,7 +3,7 @@
   "rank": 68,
   "kind": "content",
   "pos": "verb",
-  "es": "venir",
+  "target": "venir",
   "en": "to come",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Vienes a la fiesta esta noche?",
+    "target": "¿Vienes a la fiesta esta noche?",
     "en": "Are you coming to the party tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VENIR sounds like 'when ear': when your ear hears dinner called, you come running.",
   "image": "/deck/img/venir-come.webp",
   "audio": {

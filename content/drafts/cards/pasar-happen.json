@@ -3,7 +3,7 @@
   "rank": 55,
   "kind": "content",
   "pos": "verb",
-  "es": "pasar",
+  "target": "pasar",
   "en": "to happen",
   "hint": "the everyday word, as in what's happening?",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Qué pasó anoche?",
+    "target": "¿Qué pasó anoche?",
     "en": "What happened last night?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PASAR sounds like passer-by: a passer-by always sees what happens on the street.",
   "image": "/deck/img/pasar-happen.webp",
   "audio": {

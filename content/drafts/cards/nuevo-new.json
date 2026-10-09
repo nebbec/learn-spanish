@@ -3,17 +3,17 @@
   "rank": 124,
   "kind": "content",
   "pos": "adjective",
-  "es": "nuevo",
+  "target": "nuevo",
   "en": "new",
   "hint": null,
   "grammar": {
     "feminine": "nueva"
   },
   "example": {
-    "es": "Tengo un amigo nuevo.",
+    "target": "Tengo un amigo nuevo.",
     "en": "I have a new friend."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NUEVO sounds like \"new-EH-vo\": it even starts with \"new\".",
   "image": "/deck/img/nuevo-new.webp",
   "audio": {

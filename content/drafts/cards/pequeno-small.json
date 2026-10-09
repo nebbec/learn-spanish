@@ -3,17 +3,17 @@
   "rank": 205,
   "kind": "content",
   "pos": "adjective",
-  "es": "pequeño",
+  "target": "pequeño",
   "en": "small",
   "hint": null,
   "grammar": {
     "feminine": "pequeña"
   },
   "example": {
-    "es": "Mi hija es muy pequeña.",
+    "target": "Mi hija es muy pequeña.",
     "en": "My daughter is very small."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PEQUEÑO sounds like peck-a-new: a tiny chick can only peck a new, small seed.",
   "image": "/deck/img/pequeno-small.webp",
   "audio": {

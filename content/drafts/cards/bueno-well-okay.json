@@ -3,15 +3,15 @@
   "rank": 39,
   "kind": "content",
   "pos": "other",
-  "es": "bueno",
+  "target": "bueno",
   "en": "well, okay",
   "hint": "filler word to start a reply, not bien",
   "grammar": null,
   "example": {
-    "es": "Bueno, nos vemos mañana.",
+    "target": "Bueno, nos vemos mañana.",
     "en": "Well, see you tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BUENO starts a reply like \"well, now\": a quick sound to buy time before you answer.",
   "image": "/deck/img/bueno-well-okay.webp",
   "audio": {

@@ -13,7 +13,7 @@
 
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard, VerbGrammar } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard, VerbGrammar } from "@/lib/deck/types";
 import {
   type DraftOptions,
   type DraftStore,
@@ -24,10 +24,14 @@ import {
   guardValid,
   runDraftTasks,
   slug,
+  spainFootnote,
   type WordEntry,
   withMedia,
 } from "./drafting";
 import { PHRASE_WANT, type Unit } from "./units";
+
+/** Drafted cards are Spanish until the scripts take `--lang` (DE5). */
+type DraftCard = AnyDraftCard<"es">;
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -181,16 +185,16 @@ export function guardForms(output: unknown, job: FormJob): Guarded {
       rank: job.rank,
       kind: "form",
       pos: "verb",
-      es: want.es,
+      target: want.es,
       en: g.text(r.en, "en"),
       hint: g.optional(r.hint, "hint"),
       grammar: structuredClone(job.source.grammar),
-      example: { es: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
-      spain: null,
+      example: { target: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
+      regional: null,
       trick: g.optional(r.trick, "trick"),
       image: job.source.image,
     });
-    if (!wordsOf(card.example.es).includes(want.es.toLowerCase())) g.fail("example.es");
+    if (!wordsOf(card.example.target).includes(want.es.toLowerCase())) g.fail("example.es");
     guardValid(card, g);
     return card as DraftCard;
   });
@@ -354,12 +358,12 @@ export function guardPhrase(
     rank: known.length ? Math.max(...known) : 0,
     kind: "phrase",
     pos: "phrase",
-    es: g.text(output.es, "es"),
+    target: g.text(output.es, "es"),
     en: g.text(output.en, "en"),
     hint: g.optional(output.hint, "hint"),
     grammar: null,
-    example: { es: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
-    spain: g.optional(output.spain, "spain"),
+    example: { target: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
+    regional: spainFootnote(g.optional(output.spain, "spain")),
     trick: g.optional(output.trick, "trick"),
   });
   guardValid(card, g);

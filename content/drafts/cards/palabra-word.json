@@ -3,7 +3,7 @@
   "rank": 290,
   "kind": "content",
   "pos": "noun",
-  "es": "la palabra",
+  "target": "la palabra",
   "en": "word",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No entiendo esa palabra.",
+    "target": "No entiendo esa palabra.",
     "en": "I don't understand that word."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PALABRA sounds like \"parable\": a parable is a story told entirely in words.",
   "image": "/deck/img/palabra-word.webp",
   "audio": {

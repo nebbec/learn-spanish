@@ -3,7 +3,7 @@
   "rank": 26,
   "kind": "content",
   "pos": "verb",
-  "es": "saber",
+  "target": "saber",
   "en": "to know",
   "hint": "facts, information, how to do something",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "No sé dónde están mis llaves.",
+    "target": "No sé dónde están mis llaves.",
     "en": "I don't know where my keys are."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SABER sounds like a wise man's \"saber\" sword: he cuts through every question because he knows all the answers.",
   "image": "/deck/img/saber-know.webp",
   "audio": {

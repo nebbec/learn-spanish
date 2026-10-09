@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { FORM_ID, PHRASE_ID, validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
 import type { DraftRequest, Runner } from "./claude";
 import { buildDeck } from "./deck-build";
@@ -27,6 +27,8 @@ import {
 import { fakeReviewer, options as reviewOptions, setup, usage } from "./review-fixture";
 import { allDrafted, draftedForms, draftedPhrases, idProblem, reviewCards } from "./reviewing";
 import type { Unit } from "./units";
+
+type DraftCard = AnyDraftCard<"es">;
 
 const units: Unit[] = [
   { id: "me-and-you", title: "Me and you", goal: "say hello.", tip: null, wants: ["yo", "phrase: me llamo = my name is"], payoff: [] },
@@ -58,12 +60,12 @@ const irGo = withMedia({
   rank: 15,
   kind: "content",
   pos: "verb",
-  es: "ir",
+  target: "ir",
   en: "to go",
   hint: null,
   grammar: { present: { yo: "voy", tu: "vas", el: "va" }, irregular: true },
-  example: { es: "Voy al parque.", en: "I'm going to the park." },
-  spain: null,
+  example: { target: "Voy al parque.", en: "I'm going to the park." },
+  regional: null,
   trick: "IR sounds like EAR: you go wherever your ear hears music.",
 }) as DraftCard;
 
@@ -228,7 +230,7 @@ describe("guards", () => {
     const guarded = guardForms(structuredClone(FORM_ANSWER), job);
     expect(guarded.ok).toBe(true);
     const cards = guarded.ok ? guarded.cards : [];
-    expect(cards.map((c) => [c.id, c.kind, c.pos, c.es, c.image])).toEqual([
+    expect(cards.map((c) => [c.id, c.kind, c.pos, c.target, c.image])).toEqual([
       ["ir-form-yo", "form", "verb", "voy", "/deck/img/ir-go.webp"],
       ["ir-form-tu", "form", "verb", "vas", "/deck/img/ir-go.webp"],
       ["ir-form-el", "form", "verb", "va", "/deck/img/ir-go.webp"],

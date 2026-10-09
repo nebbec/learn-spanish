@@ -10,24 +10,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         padre-parents
-kind:       content
-pos:        noun
-es:         los padres
-en:         parents
-hint:       not the informal papás
-gender:     m
-article:    los
-example.es: Mis padres viven en el campo.
-example.en: My parents live in the countryside.
-spain:
-trick:      PADRES starts with PA, like PArents, and your padres are your parents.
+id:             padre-parents
+kind:           content
+pos:            noun
+target:         los padres
+en:             parents
+hint:           not the informal papás
+gender:         m
+article:        los
+example.target: Mis padres viven en el campo.
+example.en:     My parents live in the countryside.
+regional.where:
+regional.text:
+trick:          PADRES starts with PA, like PArents, and your padres are your parents.
 
 # The draft this file was made from. Do not change it.
-draft: d76dba512e625aa7
+draft: 45a641590e0adfe5

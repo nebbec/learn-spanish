@@ -3,7 +3,7 @@
   "rank": 167,
   "kind": "content",
   "pos": "noun",
-  "es": "la hermana",
+  "target": "la hermana",
   "en": "sister",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi hermana está en México.",
+    "target": "Mi hermana está en México.",
     "en": "My sister is in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HERMANA sounds like \"her mama\": your sister acts just like her mama, bossing you around.",
   "image": "/deck/img/hermano-sister.webp",
   "audio": {

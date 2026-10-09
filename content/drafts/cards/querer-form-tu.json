@@ -3,7 +3,7 @@
   "rank": 28,
   "kind": "form",
   "pos": "verb",
-  "es": "quieres",
+  "target": "quieres",
   "en": "you want",
   "hint": "informal",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Ana, ¿quieres un chocolate?",
+    "target": "Ana, ¿quieres un chocolate?",
     "en": "Ana, do you want a chocolate?"
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": "/deck/img/querer-want.webp",
   "audio": {

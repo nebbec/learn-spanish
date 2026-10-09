@@ -3,7 +3,7 @@
   "rank": 236,
   "kind": "content",
   "pos": "noun",
-  "es": "el amor",
+  "target": "el amor",
   "en": "love",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te extraño mucho, mi amor.",
+    "target": "Te extraño mucho, mi amor.",
     "en": "I miss you a lot, my love."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AMOR sounds like \"a more\": love always makes you want a little more.",
   "image": "/deck/img/amor-love.webp",
   "audio": {

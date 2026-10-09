@@ -3,15 +3,15 @@
   "rank": 9,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "y",
+  "target": "y",
   "en": "bread [and] butter",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Yo soy Ana y él es Juan.",
+    "target": "Yo soy Ana y él es Juan.",
     "en": "I'm Ana and he's Juan."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Y sounds like \"ee\": you squeal \"eee!\" when you get cake and ice cream.",
   "image": null,
   "audio": {

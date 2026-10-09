@@ -231,7 +231,7 @@ describe("a tag run with the fake tagger", () => {
 
     // bueno is redrafted with a new example: its tag is for an earlier draft until bueno is tagged again.
     const [bueno] = testCards().bueno;
-    drafts.saveWord(words.bueno, [{ ...bueno, example: { es: "Es bueno.", en: "It's good." } }], null, { via: "cli" });
+    drafts.saveWord(words.bueno, [{ ...bueno, example: { target: "Es bueno.", en: "It's good." } }], null, { via: "cli" });
     const fresh = new DraftStore(path.join(dir, "drafts"));
     const groups2 = tagGroups(fresh);
     const ctx2 = tagContext(groups2, units, tips);

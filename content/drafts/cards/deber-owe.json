@@ -3,7 +3,7 @@
   "rank": 50,
   "kind": "content",
   "pos": "verb",
-  "es": "deber",
+  "target": "deber",
   "en": "to owe",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te debo veinte dólares.",
+    "target": "Te debo veinte dólares.",
     "en": "I owe you twenty dollars."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEBER sounds like debt-bear: when you owe money, you bear a debt.",
   "image": "/deck/img/deber-owe.webp",
   "audio": {

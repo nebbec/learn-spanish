@@ -10,26 +10,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         poder-form-el
-kind:       form
-pos:        verb
-es:         puede
-en:         he / she can
-hint:       is able to
-yo:         puedo
-tu:         puedes
-el:         puede
-irregular:  yes
-example.es: Mi hermana no puede hablar, está muy cansada.
-example.en: My sister can't talk, she's very tired.
-spain:
-trick:      Puede sounds like pway-day, close to payday: on payday, he can buy anything.
+id:             poder-form-el
+kind:           form
+pos:            verb
+target:         puede
+en:             he / she can
+hint:           is able to
+yo:             puedo
+tu:             puedes
+el:             puede
+irregular:      yes
+example.target: Mi hermana no puede hablar, está muy cansada.
+example.en:     My sister can't talk, she's very tired.
+regional.where:
+regional.text:
+trick:          Puede sounds like pway-day, close to payday: on payday, he can buy anything.
 
 # The draft this file was made from. Do not change it.
-draft: 8d21a3bf5f3583e9
+draft: f16e424d64a2407b

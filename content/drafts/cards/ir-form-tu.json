@@ -3,7 +3,7 @@
   "rank": 15,
   "kind": "form",
   "pos": "verb",
-  "es": "vas",
+  "target": "vas",
   "en": "you go",
   "hint": "informal",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Vas a la fiesta?",
+    "target": "¿Vas a la fiesta?",
     "en": "Are you going to the party?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Vas sounds like 'bus': you go by bus.",
   "image": "/deck/img/ir-go.webp",
   "audio": {

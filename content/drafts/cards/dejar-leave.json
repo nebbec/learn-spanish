@@ -3,7 +3,7 @@
   "rank": 58,
   "kind": "content",
   "pos": "verb",
-  "es": "dejar",
+  "target": "dejar",
   "en": "to leave",
   "hint": "leave something or someone behind, not go out",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Dejé las llaves en la mesa.",
+    "target": "Dejé las llaves en la mesa.",
     "en": "I left the keys on the table."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEJAR sounds like day jar: you leave your coins in the day jar by the door.",
   "image": "/deck/img/dejar-leave.webp",
   "audio": {

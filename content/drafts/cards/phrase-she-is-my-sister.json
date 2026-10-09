@@ -3,15 +3,15 @@
   "rank": 167,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Ella es mi hermana.",
+  "target": "Ella es mi hermana.",
   "en": "She is my sister.",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Ella es mi hermana y él es mi hermano.",
+    "target": "Ella es mi hermana y él es mi hermano.",
     "en": "She is my sister and he is my brother."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

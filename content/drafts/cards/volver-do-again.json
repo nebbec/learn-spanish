@@ -3,7 +3,7 @@
   "rank": 90,
   "kind": "content",
   "pos": "verb",
-  "es": "volver",
+  "target": "volver",
   "en": "to do again",
   "hint": "followed by a + infinitive",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Vas a volver a llamarla?",
+    "target": "¿Vas a volver a llamarla?",
     "en": "Are you going to call her again?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again.",
   "image": "/deck/img/volver-do-again.webp",
   "audio": {

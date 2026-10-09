@@ -3,7 +3,7 @@
   "rank": 404,
   "kind": "content",
   "pos": "noun",
-  "es": "la comida",
+  "target": "la comida",
   "en": "meal",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La comida más importante es el desayuno.",
+    "target": "La comida más importante es el desayuno.",
     "en": "The most important meal is breakfast."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMIDA sounds like \"come, me da\": come sit down, and someone hands me a full meal.",
   "image": "/deck/img/comida-meal.webp",
   "audio": {

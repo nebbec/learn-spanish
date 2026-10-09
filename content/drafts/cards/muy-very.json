@@ -3,15 +3,15 @@
   "rank": 53,
   "kind": "content",
   "pos": "adverb",
-  "es": "muy",
+  "target": "muy",
   "en": "very",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Estoy muy bien, gracias.",
+    "target": "Estoy muy bien, gracias.",
     "en": "I'm very well, thanks."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MUY sounds like a cow's very loud MOO: that cow is very, very noisy.",
   "image": "/deck/img/muy-very.webp",
   "audio": {

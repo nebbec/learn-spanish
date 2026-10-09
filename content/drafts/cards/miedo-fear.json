@@ -3,7 +3,7 @@
   "rank": 315,
   "kind": "content",
   "pos": "noun",
-  "es": "el miedo",
+  "target": "el miedo",
   "en": "fear",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tengo miedo de la oscuridad.",
+    "target": "Tengo miedo de la oscuridad.",
     "en": "I'm afraid of the dark."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MIEDO sounds like \"me, eh, doh!\": the scared cry you let out when fear grabs you.",
   "image": "/deck/img/miedo-fear.webp",
   "audio": {

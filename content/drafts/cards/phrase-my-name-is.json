@@ -3,15 +3,15 @@
   "rank": 82,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Me llamo",
+  "target": "Me llamo",
   "en": "My name is...",
   "hint": "The everyday two-word way, literally \"I call myself\"",
   "grammar": null,
   "example": {
-    "es": "Hola, me llamo Ana.",
+    "target": "Hola, me llamo Ana.",
     "en": "Hi, my name is Ana."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Llamo sounds a bit like \"call me\", and me llamo really means \"I call myself\".",
   "image": null,
   "audio": {

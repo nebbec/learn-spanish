@@ -3,15 +3,15 @@
   "rank": 194,
   "kind": "content",
   "pos": "other",
-  "es": "tres",
+  "target": "tres",
   "en": "three",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Tengo tres hermanos.",
+    "target": "Tengo tres hermanos.",
     "en": "I have three siblings."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRES sounds like \"trace\": you trace a triangle with three sides.",
   "image": "/deck/img/tres-three.webp",
   "audio": {

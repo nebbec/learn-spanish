@@ -9,22 +9,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         gracias-thank-you
-kind:       content
-pos:        other
-es:         gracias
-en:         thank you
+id:             gracias-thank-you
+kind:           content
+pos:            other
+target:         gracias
+en:             thank you
 hint:
-example.es: No, gracias. Yo insisto.
-example.en: No, thank you. I insist.
-spain:
-trick:      GRACIAS sounds like gracious: a gracious person always says thank you.
+example.target: No, gracias. Yo insisto.
+example.en:     No, thank you. I insist.
+regional.where:
+regional.text:
+trick:          GRACIAS sounds like gracious: a gracious person always says thank you.
 
 # The draft this file was made from. Do not change it.
-draft: d5aa2387200c4f75
+draft: 5a4ac64d83cf2881

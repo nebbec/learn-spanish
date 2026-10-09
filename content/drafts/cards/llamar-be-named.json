@@ -3,7 +3,7 @@
   "rank": 82,
   "kind": "content",
   "pos": "verb",
-  "es": "llamarse",
+  "target": "llamarse",
   "en": "to be named",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Hola, me llamo Ana. ¿Cómo te llamas?",
+    "target": "Hola, me llamo Ana. ¿Cómo te llamas?",
     "en": "Hi, my name is Ana. What's your name?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLAMARSE: a llama introduces itself, saying its name is Larry the Llama.",
   "image": "/deck/img/llamar-be-named.webp",
   "audio": {

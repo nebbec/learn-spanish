@@ -3,15 +3,15 @@
   "rank": 75,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "No, gracias.",
+  "target": "No, gracias.",
   "en": "No, thank you.",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Chocolate? No, gracias.",
+    "target": "¿Chocolate? No, gracias.",
     "en": "Chocolate? No, thank you."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

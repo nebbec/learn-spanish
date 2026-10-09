@@ -163,7 +163,7 @@ const jobs = [
       owner: tip.id,
       clip: "example",
       phrase: false,
-      text: example.es,
+      text: example.target,
       url: example.audio,
       file: path.join(PUBLIC, example.audio),
     })),

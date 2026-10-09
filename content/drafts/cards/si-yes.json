@@ -3,15 +3,15 @@
   "rank": 32,
   "kind": "content",
   "pos": "adverb",
-  "es": "sí",
+  "target": "sí",
   "en": "yes",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Chocolate? ¡Sí, sí!",
+    "target": "¿Chocolate? ¡Sí, sí!",
     "en": "Chocolate? Yes, yes!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SÍ sounds like see: when you see what someone means, you nod and say yes.",
   "image": "/deck/img/si-yes.webp",
   "audio": {

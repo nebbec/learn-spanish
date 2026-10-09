@@ -9,22 +9,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         phrase-nice-to-meet-you
-kind:       phrase
-pos:        phrase
-es:         Mucho gusto.
-en:         Nice to meet you.
-hint:       The everyday two-word phrase, literally "much pleasure", that anyone can say, man or woman.
-example.es: Hola, me llamo Ana. Mucho gusto.
-example.en: Hi, my name is Ana. Nice to meet you.
-spain:      Spain more often says encantado, or encantada if you are a woman.
-trick:      Gusto means pleasure, like doing something with gusto, so mucho gusto is literally much pleasure.
+id:             phrase-nice-to-meet-you
+kind:           phrase
+pos:            phrase
+target:         Mucho gusto.
+en:             Nice to meet you.
+hint:           The everyday two-word phrase, literally "much pleasure", that anyone can say, man or woman.
+example.target: Hola, me llamo Ana. Mucho gusto.
+example.en:     Hi, my name is Ana. Nice to meet you.
+regional.where: Spain
+regional.text:  Spain more often says encantado, or encantada if you are a woman.
+trick:          Gusto means pleasure, like doing something with gusto, so mucho gusto is literally much pleasure.
 
 # The draft this file was made from. Do not change it.
-draft: 7fd1b0c929638a0f
+draft: be5b52388fdd2678

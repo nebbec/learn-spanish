@@ -3,7 +3,7 @@
   "rank": 520,
   "kind": "content",
   "pos": "noun",
-  "es": "el perdón",
+  "target": "el perdón",
   "en": "forgiveness",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te pido perdón por lo de ayer.",
+    "target": "Te pido perdón por lo de ayer.",
     "en": "I'm asking for your forgiveness for yesterday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EL PERDÓN is a pardon: a king's pardon is the ultimate forgiveness.",
   "image": "/deck/img/perdon-forgiveness.webp",
   "audio": {

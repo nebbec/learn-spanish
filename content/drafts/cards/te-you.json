@@ -3,15 +3,15 @@
   "rank": 21,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "te",
+  "target": "te",
   "en": "I love [you]",
   "hint": "informal tú, object before the verb",
   "grammar": null,
   "example": {
-    "es": "Te llamo mañana.",
+    "target": "Te llamo mañana.",
     "en": "I'll call you tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TE sounds like tea: I'll make you tea because I love you.",
   "image": null,
   "audio": {

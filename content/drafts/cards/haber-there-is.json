@@ -3,7 +3,7 @@
   "rank": 12,
   "kind": "content",
   "pos": "verb",
-  "es": "haber",
+  "target": "haber",
   "en": "there to be",
   "hint": "as in there is, there are (hay); not estar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Hay un perro en la casa.",
+    "target": "Hay un perro en la casa.",
     "en": "There is a dog in the house."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HAY sounds like eye: open your eye and see what there is.",
   "image": "/deck/img/haber-there-is.webp",
   "audio": {

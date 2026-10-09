@@ -3,7 +3,7 @@
   "rank": 28,
   "kind": "content",
   "pos": "verb",
-  "es": "querer",
+  "target": "querer",
   "en": "to want",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Quieres un café?",
+    "target": "¿Quieres un café?",
     "en": "Do you want a coffee?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUERER sounds like \"carer\": a good carer always asks what you want.",
   "image": "/deck/img/querer-want.webp",
   "audio": {

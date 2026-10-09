@@ -8,26 +8,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         ser-form-el
-kind:       form
-pos:        verb
-es:         es
-en:         he / she is
-hint:       identity, origin
-yo:         soy
-tu:         eres
-el:         es
-irregular:  yes
-example.es: Ella es mi hermana.
-example.en: She is my sister.
-spain:
-trick:      Es sounds just like the start of is: he es, she es.
+id:             ser-form-el
+kind:           form
+pos:            verb
+target:         es
+en:             he / she is
+hint:           identity, origin
+yo:             soy
+tu:             eres
+el:             es
+irregular:      yes
+example.target: Ella es mi hermana.
+example.en:     She is my sister.
+regional.where:
+regional.text:
+trick:          Es sounds just like the start of is: he es, she es.
 
 # The draft this file was made from. Do not change it.
 draft: a0870f1d905e143a

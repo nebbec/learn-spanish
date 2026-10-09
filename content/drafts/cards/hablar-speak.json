@@ -3,7 +3,7 @@
   "rank": 60,
   "kind": "content",
   "pos": "verb",
-  "es": "hablar",
+  "target": "hablar",
   "en": "to speak, to talk",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi hija habla mucho.",
+    "target": "Mi hija habla mucho.",
     "en": "My daughter talks a lot."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HABLAR sounds like \"blabber\": people who blabber talk all day long.",
   "image": "/deck/img/hablar-speak.webp",
   "audio": {

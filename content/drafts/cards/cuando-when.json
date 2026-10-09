@@ -3,15 +3,15 @@
   "rank": 62,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "cuando",
+  "target": "cuando",
   "en": "call me [when] you arrive",
   "hint": "not a question, no accent",
   "grammar": null,
   "example": {
-    "es": "Llámame cuando llegues a casa.",
+    "target": "Llámame cuando llegues a casa.",
     "en": "Call me when you get home."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUANDO sounds like \"quand-o\": like French quand, it tells you when something happens.",
   "image": null,
   "audio": {

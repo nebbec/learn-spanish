@@ -3,7 +3,7 @@
   "rank": 404,
   "kind": "content",
   "pos": "noun",
-  "es": "la comida",
+  "target": "la comida",
   "en": "food",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La comida mexicana me encanta.",
+    "target": "La comida mexicana me encanta.",
     "en": "I love Mexican food."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMIDA sounds like \"come eat-a\": come and eat the food on the table.",
   "image": "/deck/img/comida-food.webp",
   "audio": {

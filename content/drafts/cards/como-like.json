@@ -3,15 +3,15 @@
   "rank": 42,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "como",
+  "target": "como",
   "en": "he talks [like] his dad",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Hablas como tu mamá.",
+    "target": "Hablas como tu mamá.",
     "en": "You talk like your mom."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMO sounds like a comma: a little pause before you say what something is like.",
   "image": null,
   "audio": {

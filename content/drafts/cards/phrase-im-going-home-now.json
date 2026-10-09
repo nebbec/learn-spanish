@@ -3,15 +3,15 @@
   "rank": 87,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Voy a casa ahora.",
+  "target": "Voy a casa ahora.",
   "en": "I'm going home now.",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Estoy muy cansado. Voy a casa ahora.",
+    "target": "Estoy muy cansado. Voy a casa ahora.",
     "en": "I'm really tired. I'm going home now."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

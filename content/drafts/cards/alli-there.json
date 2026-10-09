@@ -3,15 +3,15 @@
   "rank": 178,
   "kind": "content",
   "pos": "adverb",
-  "es": "allí",
+  "target": "allí",
   "en": "there",
   "hint": "a specific place far from both of us, not ahí or allá",
   "grammar": null,
   "example": {
-    "es": "Mi abuela vive allí, en esa casa azul.",
+    "target": "Mi abuela vive allí, en esa casa azul.",
     "en": "My grandma lives there, in that blue house."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALLÍ sounds like \"ally\": your ally is waiting over there, far away.",
   "image": "/deck/img/alli-there.webp",
   "audio": {

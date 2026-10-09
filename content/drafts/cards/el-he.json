@@ -3,15 +3,15 @@
   "rank": 61,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "él",
+  "target": "él",
   "en": "[he] is my brother",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Él sí insiste, yo no.",
+    "target": "Él sí insiste, yo no.",
     "en": "He does insist, I don't."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ÉL sounds like the letter L: think of L for Lad, a he.",
   "image": null,
   "audio": {

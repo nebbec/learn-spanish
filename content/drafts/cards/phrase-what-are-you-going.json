@@ -3,15 +3,15 @@
   "rank": 171,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Qué vas a hacer mañana?",
+  "target": "¿Qué vas a hacer mañana?",
   "en": "What are you going to do tomorrow?",
   "hint": "informal",
   "grammar": null,
   "example": {
-    "es": "¿Qué vas a hacer mañana? Voy a trabajar.",
+    "target": "¿Qué vas a hacer mañana? Voy a trabajar.",
     "en": "What are you going to do tomorrow? I'm going to work."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

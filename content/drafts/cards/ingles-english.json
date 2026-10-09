@@ -3,17 +3,17 @@
   "rank": 907,
   "kind": "content",
   "pos": "adjective",
-  "es": "inglés",
+  "target": "inglés",
   "en": "English",
   "hint": null,
   "grammar": {
     "feminine": "inglesa"
   },
   "example": {
-    "es": "Mi amiga es inglesa, de Londres.",
+    "target": "Mi amiga es inglesa, de Londres.",
     "en": "My friend is English, from London."
   },
-  "spain": null,
+  "regional": null,
   "trick": "INGLÉS sounds like \"English\" said quickly with a Spanish accent: in-GLÉS, in-GLISH.",
   "image": "/deck/img/ingles-english.webp",
   "audio": {

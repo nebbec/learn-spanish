@@ -3,15 +3,15 @@
   "rank": 18,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "me",
+  "target": "me",
   "en": "I wash [myself]",
   "hint": "reflexive pronoun, goes before the verb",
   "grammar": null,
   "example": {
-    "es": "Me lavo las manos antes de comer.",
+    "target": "Me lavo las manos antes de comer.",
     "en": "I wash my hands before eating."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ME looks like me: when I do something to me, that's myself.",
   "image": null,
   "audio": {

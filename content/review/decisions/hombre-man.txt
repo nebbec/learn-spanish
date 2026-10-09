@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         hombre-man
-kind:       content
-pos:        noun
-es:         el hombre
-en:         man
+id:             hombre-man
+kind:           content
+pos:            noun
+target:         el hombre
+en:             man
 hint:
-gender:     m
-article:    el
-example.es: Ese hombre es mi tío.
-example.en: That man is my uncle.
-spain:
-trick:      HOMBRE sounds like "OM-bray": picture a man chanting a deep "om" as he walks into the room (the h is silent).
+gender:         m
+article:        el
+example.target: Ese hombre es mi tío.
+example.en:     That man is my uncle.
+regional.where:
+regional.text:
+trick:          HOMBRE sounds like "OM-bray": picture a man chanting a deep "om" as he walks into the room (the h is silent).
 
 # The draft this file was made from. Do not change it.
-draft: 634e3aa5b3e7543e
+draft: c217857a83ef2432

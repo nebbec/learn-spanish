@@ -7,7 +7,7 @@ import { fixtureCard, fixtureDeck } from "@/lib/deck/fixture";
 import { interleave, pathMarkdown, pathOrder, SIBLING_SPACING } from "./path-order";
 import type { Unit } from "./units";
 
-const BASE: Record<CardKind, string> = { content: "casa-house", glue: "de-of", form: "ir-form-yo", phrase: "phrase-going-home" };
+const BASE: Record<CardKind, string> = { content: "casa-house", glue: "de-of", form: "ir-form-yo", phrase: "phrase-going-home", case: "case-i-see-the-man" };
 
 /** A made-up card: only its id, kind, rank and path fields matter to the order. */
 function card(id: string, kind: CardKind, rank: number, path: Partial<Pick<Card, "unit" | "requires">> = {}): Card {

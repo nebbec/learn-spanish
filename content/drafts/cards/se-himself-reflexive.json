@@ -3,15 +3,15 @@
   "rank": 20,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "se",
+  "target": "se",
   "en": "he washes [himself]",
   "hint": "reflexive pronoun before the verb, also herself, themselves, yourself (usted)",
   "grammar": null,
   "example": {
-    "es": "Mi hermano se levanta muy temprano.",
+    "target": "Mi hermano se levanta muy temprano.",
     "en": "My brother gets up very early."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SE sounds like 'say': he looks in the mirror and says his name to himself.",
   "image": null,
   "audio": {

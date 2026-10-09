@@ -10,22 +10,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         hola-hello
-kind:       content
-pos:        other
-es:         hola
-en:         hello
+id:             hola-hello
+kind:           content
+pos:            other
+target:         hola
+en:             hello
 hint:
-example.es: ¡Hola, Ana! Sí, yo insisto.
-example.en: Hello, Ana! Yes, I insist.
-spain:
-trick:      HOLA sounds like "hello" with an O and an A: you holler hola to say hello.
+example.target: ¡Hola, Ana! Sí, yo insisto.
+example.en:     Hello, Ana! Yes, I insist.
+regional.where:
+regional.text:
+trick:          HOLA sounds like "hello" with an O and an A: you holler hola to say hello.
 
 # The draft this file was made from. Do not change it.
-draft: ee1fb6746d6b1b58
+draft: 40d837f1ec69bad6

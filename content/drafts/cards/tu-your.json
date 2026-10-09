@@ -3,15 +3,15 @@
   "rank": 38,
   "kind": "glue",
   "pos": "determiner",
-  "es": "tu",
+  "target": "tu",
   "en": "[your] house",
   "hint": "informal, talking to one friend",
   "grammar": null,
   "example": {
-    "es": "¿Tu hotel está aquí?",
+    "target": "¿Tu hotel está aquí?",
     "en": "Is your hotel here?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TU sounds like \"to you\": the thing that belongs to you is yours.",
   "image": null,
   "audio": {

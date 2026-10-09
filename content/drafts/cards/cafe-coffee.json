@@ -3,7 +3,7 @@
   "rank": 532,
   "kind": "content",
   "pos": "noun",
-  "es": "el café",
+  "target": "el café",
   "en": "coffee",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Sí, quiero un café, por favor.",
+    "target": "Sí, quiero un café, por favor.",
     "en": "Yes, I want a coffee, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAFÉ sounds like the English café, where you go to drink coffee.",
   "image": "/deck/img/cafe-coffee.webp",
   "audio": {

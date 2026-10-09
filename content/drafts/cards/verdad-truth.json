@@ -3,7 +3,7 @@
   "rank": 89,
   "kind": "content",
   "pos": "noun",
-  "es": "la verdad",
+  "target": "la verdad",
   "en": "truth",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tienes que decirme la verdad.",
+    "target": "Tienes que decirme la verdad.",
     "en": "You have to tell me the truth."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VERDAD sounds like verdict: a fair verdict always rests on the truth.",
   "image": "/deck/img/verdad-truth.webp",
   "audio": {

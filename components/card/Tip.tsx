@@ -33,7 +33,7 @@ export function TipBody({ tip, onPlay = playClip }: TipBodyProps) {
           >
             <p className="flex flex-1 flex-col gap-0.5">
               <span lang={LANG.tag} className="text-lg font-bold">
-                {example.es}
+                {example.target}
               </span>
               <span className="text-ink-soft">{example.en}</span>
             </p>

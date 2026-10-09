@@ -9,7 +9,7 @@
 
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { ARTICLES, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard } from "@/lib/deck/types";
+import { ARTICLES, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard, type Regional } from "@/lib/deck/types";
 import { FORM_ID, PHRASE_ID, validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
 import type { CallUsage, DraftRequest, Effort, Runner } from "./claude";
 
@@ -216,25 +216,41 @@ function buildCard(raw: unknown, entry: WordEntry, g: Guard): DraftCard {
     rank: entry.rank,
     kind: r.kind,
     pos: r.pos,
-    es: g.text(r.es, "es"),
+    target: g.text(r.es, "es"),
     en: g.text(r.en, "en"),
     hint: g.optional(r.hint, "hint"),
     grammar: grammarFor(r.pos, r.grammar, g),
-    example: { es: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
-    spain: g.optional(r.spain, "spain"),
+    example: { target: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
+    regional: spainFootnote(g.optional(r.spain, "spain")),
     trick: g.text(r.trick, "trick"),
   });
   guardValid(card, g);
   return card as DraftCard;
 }
 
-/** Runs the deck validator on one drafted card and adds the failing field names to the guard. */
+/**
+ * Claude's `spain` (the Spanish prompts keep their field names) as the deck's regional
+ * footnote. Format 3 names the region on the card (docs/german.md, "Card data").
+ */
+export function spainFootnote(text: string | null): Regional | null {
+  return text ? { where: "Spain", text } : null;
+}
+
+/** The deck's field names (format 3) as the Spanish prompts' schemas name them, for the failing fields a guard reports. */
+function claudeField(field: string): string {
+  if (field === "target") return "es";
+  if (field === "example.target") return "example.es";
+  if (field === "regional" || field.startsWith("regional.")) return "spain";
+  return field;
+}
+
+/** Runs the deck validator on one drafted card and adds the failing field names to the guard, as Claude's answer names them. */
 export function guardValid(card: { id: string }, g: Guard) {
   const validation = validateDraftCard(card);
   for (const error of validation.ok ? [] : validation.errors) {
     // Errors read "card <id>.<field>: <message>"; keep only the field.
     const rest = error.slice(`card ${card.id}`.length);
-    g.fail(rest.startsWith(".") ? rest.slice(1, rest.indexOf(":")) : "card");
+    g.fail(rest.startsWith(".") ? claudeField(rest.slice(1, rest.indexOf(":"))) : "card");
   }
 }
 

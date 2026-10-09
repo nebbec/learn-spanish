@@ -3,15 +3,15 @@
   "rank": 46,
   "kind": "glue",
   "pos": "determiner",
-  "es": "ese",
+  "target": "ese",
   "en": "I want [that] book",
   "hint": "near you, not far away; masculine",
   "grammar": null,
   "example": {
-    "es": "¿Cuánto cuesta ese libro?",
+    "target": "¿Cuánto cuesta ese libro?",
     "en": "How much does that book cost?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESE sounds like essay: point at that essay in your hand.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 26,
   "kind": "form",
   "pos": "verb",
-  "es": "sabe",
+  "target": "sabe",
   "en": "he / she knows",
   "hint": "facts, information, how to do something",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi madre sabe dónde está el café.",
+    "target": "Mi madre sabe dónde está el café.",
     "en": "My mother knows where the coffee is."
   },
-  "spain": null,
+  "regional": null,
   "trick": "English savvy comes from Spanish sabe, so someone savvy knows a lot.",
   "image": "/deck/img/saber-know.webp",
   "audio": {

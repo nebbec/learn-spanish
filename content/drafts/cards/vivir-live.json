@@ -3,7 +3,7 @@
   "rank": 149,
   "kind": "content",
   "pos": "verb",
-  "es": "vivir",
+  "target": "vivir",
   "en": "to live",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi hermana vive en Buenos Aires.",
+    "target": "Mi hermana vive en Buenos Aires.",
     "en": "My sister lives in Buenos Aires."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VIVIR sounds like vivid: when you truly live, life feels vivid.",
   "image": "/deck/img/vivir-live.webp",
   "audio": {

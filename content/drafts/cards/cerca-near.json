@@ -3,15 +3,15 @@
   "rank": 339,
   "kind": "content",
   "pos": "adverb",
-  "es": "cerca",
+  "target": "cerca",
   "en": "near",
   "hint": "adverb, often with de",
   "grammar": null,
   "example": {
-    "es": "Mi casa está cerca de aquí.",
+    "target": "Mi casa está cerca de aquí.",
     "en": "My house is near here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CERCA sounds like circle: anything inside your little circle is near you.",
   "image": "/deck/img/cerca-near.webp",
   "audio": {

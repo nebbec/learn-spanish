@@ -3,7 +3,7 @@
   "rank": 58,
   "kind": "content",
   "pos": "verb",
-  "es": "dejar",
+  "target": "dejar",
   "en": "to let",
   "hint": "allow, as in let me",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Déjame ver tu teléfono.",
+    "target": "Déjame ver tu teléfono.",
     "en": "Let me see your phone."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DÉJAME sounds like day, ha, me: let me have the day off, ha!",
   "image": "/deck/img/dejar-let.webp",
   "audio": {

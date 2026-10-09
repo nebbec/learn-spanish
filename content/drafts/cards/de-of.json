@@ -3,15 +3,15 @@
   "rank": 2,
   "kind": "glue",
   "pos": "preposition",
-  "es": "de",
+  "target": "de",
   "en": "the house [of] María",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Es la casa de mi mamá.",
+    "target": "Es la casa de mi mamá.",
     "en": "It's my mom's house."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DE sounds like day: a cup OF coffee starts the day.",
   "image": null,
   "audio": {

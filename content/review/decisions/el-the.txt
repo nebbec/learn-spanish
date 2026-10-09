@@ -7,7 +7,7 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
@@ -15,16 +15,17 @@
 # which no longer flags a card. Entered by the E4 session; the card lines are unchanged.
 decision: approve
 
-id:         el-the
-kind:       glue
-pos:        determiner
-es:         el
-en:         [the] boy
-hint:       masculine singular
-example.es: El perro está en la cocina.
-example.en: The dog is in the kitchen.
-spain:
-trick:      EL sounds like the letter L, and L comes before M just like THE comes before a noun.
+id:             el-the
+kind:           glue
+pos:            determiner
+target:         el
+en:             [the] boy
+hint:           masculine singular
+example.target: El perro está en la cocina.
+example.en:     The dog is in the kitchen.
+regional.where:
+regional.text:
+trick:          EL sounds like the letter L, and L comes before M just like THE comes before a noun.
 
 # The draft this file was made from. Do not change it.
 draft: 60e9afeeac971327

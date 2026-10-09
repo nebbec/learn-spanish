@@ -3,15 +3,15 @@
   "rank": 65,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "nos",
+  "target": "nos",
   "en": "she sees [us]",
   "hint": "object pronoun before the verb, not nosotros",
   "grammar": null,
   "example": {
-    "es": "Mi mamá nos llama todos los días.",
+    "target": "Mi mamá nos llama todos los días.",
     "en": "My mom calls us every day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOS sounds like nose: they always poke their nose into our business, bothering us.",
   "image": null,
   "audio": {

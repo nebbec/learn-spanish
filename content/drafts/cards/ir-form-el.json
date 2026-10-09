@@ -3,7 +3,7 @@
   "rank": 15,
   "kind": "form",
   "pos": "verb",
-  "es": "va",
+  "target": "va",
   "en": "he / she goes",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Ella va al trabajo.",
+    "target": "Ella va al trabajo.",
     "en": "She goes to work."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Va sounds like 'vroom': he goes, vroom, va!",
   "image": "/deck/img/ir-go.webp",
   "audio": {

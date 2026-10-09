@@ -3,15 +3,15 @@
   "rank": 16,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "qué",
+  "target": "qué",
   "en": "[What] do you want?",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Qué quiere tu hermano?",
+    "target": "¿Qué quiere tu hermano?",
     "en": "What does your brother want?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUÉ sounds like \"K?\": a puzzled K-shaped question mark asking what.",
   "image": null,
   "audio": {

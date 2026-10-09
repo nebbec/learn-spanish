@@ -3,15 +3,15 @@
   "rank": 51,
   "kind": "content",
   "pos": "adverb",
-  "es": "ya no",
+  "target": "ya no",
   "en": "not anymore",
   "hint": "two words, before the verb",
   "grammar": null,
   "example": {
-    "es": "Ya no vivo aquí.",
+    "target": "Ya no vivo aquí.",
     "en": "I don't live here anymore."
   },
-  "spain": null,
+  "regional": null,
   "trick": "YA NO sounds like \"yeah, no\": a casual way of saying something doesn't happen anymore.",
   "image": "/deck/img/ya-not-anymore.webp",
   "audio": {

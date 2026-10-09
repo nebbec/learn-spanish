@@ -9,22 +9,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         phrase-my-name-is-ana
-kind:       phrase
-pos:        phrase
-es:         Me llamo Ana. Mucho gusto.
-en:         My name is Ana. Nice to meet you.
-hint:       The everyday "I call myself" way, then the two-word phrase anyone can say, man or woman.
-example.es: —Me llamo Ana. Mucho gusto. —Mucho gusto, Ana.
-example.en: My name is Ana. Nice to meet you. Nice to meet you, Ana.
-spain:      Me llamo Ana. Encantada. (Encantado or encantada is more common than mucho gusto in Spain.)
+id:             phrase-my-name-is-ana
+kind:           phrase
+pos:            phrase
+target:         Me llamo Ana. Mucho gusto.
+en:             My name is Ana. Nice to meet you.
+hint:           The everyday "I call myself" way, then the two-word phrase anyone can say, man or woman.
+example.target: —Me llamo Ana. Mucho gusto. —Mucho gusto, Ana.
+example.en:     My name is Ana. Nice to meet you. Nice to meet you, Ana.
+regional.where: Spain
+regional.text:  Me llamo Ana. Encantada. (Encantado or encantada is more common than mucho gusto in Spain.)
 trick:
 
 # The draft this file was made from. Do not change it.
-draft: d621b0a29990659f
+draft: 3c946aaeab92d2b0

@@ -221,7 +221,7 @@ export function deckTip(id: string, tip: ParsedTip, takes: Record<string, number
     id,
     title: tip.title,
     body: tip.body.join(" "),
-    examples: tip.examples.map((e, i) => ({ es: e.es, en: e.en, audio: tipAudioPath(id, i + 1, e.es, takes) })),
+    examples: tip.examples.map((e, i) => ({ target: e.es, en: e.en, audio: tipAudioPath(id, i + 1, e.es, takes) })),
   };
 }
 

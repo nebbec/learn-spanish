@@ -34,12 +34,12 @@ export function UnitPayoff({ unit, phrases, onPlay = playClip }: UnitPayoffProps
             >
               <p className="flex flex-1 flex-col gap-0.5">
                 <span lang={LANG.tag} className="text-lg font-bold">
-                  {card.es}
+                  {card.target}
                 </span>
                 <span className="text-ink-soft">{card.en}</span>
               </p>
               <AudioButton
-                label={`Play “${card.es}”`}
+                label={`Play “${card.target}”`}
                 testId={`payoff-play-${card.id}`}
                 onPress={() => onPlay(card.audio.word)}
               />

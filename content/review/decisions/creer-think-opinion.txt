@@ -8,26 +8,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         creer-think-opinion
-kind:       content
-pos:        verb
-es:         creer
-en:         to think
-hint:       believe something is so, as in I think so (not pensar)
-yo:         creo
-tu:         crees
-el:         cree
-irregular:  yes
-example.es: Creo que va a llover.
-example.en: I think it's going to rain.
-spain:
-trick:      CREO sounds like "Cray-oh": you draw what you think with a crayon.
+id:             creer-think-opinion
+kind:           content
+pos:            verb
+target:         creer
+en:             to think
+hint:           believe something is so, as in I think so (not pensar)
+yo:             creo
+tu:             crees
+el:             cree
+irregular:      yes
+example.target: Creo que va a llover.
+example.en:     I think it's going to rain.
+regional.where:
+regional.text:
+trick:          CREO sounds like "Cray-oh": you draw what you think with a crayon.
 
 # The draft this file was made from. Do not change it.
-draft: a8559db75360c6c2
+draft: 0cfdeb694e7d6793

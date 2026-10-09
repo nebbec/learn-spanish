@@ -9,22 +9,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         phrase-i-want-a-coffee
-kind:       phrase
-pos:        phrase
-es:         Quiero un café, por favor.
-en:         I want a coffee, please.
+id:             phrase-i-want-a-coffee
+kind:           phrase
+pos:            phrase
+target:         Quiero un café, por favor.
+en:             I want a coffee, please.
 hint:
-example.es: Buenos días, quiero un café, por favor.
-example.en: Good morning, I want a coffee, please.
-spain:
+example.target: Buenos días, quiero un café, por favor.
+example.en:     Good morning, I want a coffee, please.
+regional.where:
+regional.text:
 trick:
 
 # The draft this file was made from. Do not change it.
-draft: a31ecfb67d286644
+draft: 253254730db51f1c

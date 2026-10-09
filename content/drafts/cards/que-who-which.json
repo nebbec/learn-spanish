@@ -3,15 +3,15 @@
   "rank": 3,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "que",
+  "target": "que",
   "en": "the man [who] lives here",
   "hint": "the everyday word, not quien",
   "grammar": null,
   "example": {
-    "es": "El hombre que vive aquí es mi tío.",
+    "target": "El hombre que vive aquí es mi tío.",
     "en": "The man who lives here is my uncle."
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUE sounds like \"key\": it's the key that points to who or which thing you mean.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 309,
   "kind": "content",
   "pos": "noun",
-  "es": "el agua",
+  "target": "el agua",
   "en": "water",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Me das un vaso de agua?",
+    "target": "¿Me das un vaso de agua?",
     "en": "Can you give me a glass of water?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "AGUA sounds like \"aqua\", the blue-green color of clear water.",
   "image": "/deck/img/agua-water.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 261,
   "kind": "content",
   "pos": "verb",
-  "es": "comprar",
+  "target": "comprar",
   "en": "to buy",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Compré pan para el desayuno.",
+    "target": "Compré pan para el desayuno.",
     "en": "I bought bread for breakfast."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMPRAR sounds like \"compare\": you compare prices before you buy.",
   "image": "/deck/img/comprar-buy.webp",
   "audio": {

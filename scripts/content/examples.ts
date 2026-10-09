@@ -116,9 +116,9 @@ export function examplePrompt(job: ExampleJob): string {
   return [
     `Card (${card.kind}, ${card.pos}), in ${place}:`,
     `Prompt: ${card.en}${card.hint ? ` (${card.hint})` : ""}`,
-    `Answer: ${card.es}`,
+    `Answer: ${card.target}`,
     grammarLine(card),
-    `Current example: ${card.example.es} = ${card.example.en}`,
+    `Current example: ${card.example.target} = ${card.example.en}`,
     check.ok ? "Why it is redrafted: asked for by a person." : `Why it is redrafted: ${exampleProblem(check)}`,
     "",
     job.met.length
@@ -135,7 +135,7 @@ export function examplePrompt(job: ExampleJob): string {
 export function guardExample(output: unknown, job: ExampleJob, lemmas: Lemmas): Guarded {
   if (!isRec(output) || !isRec(output.example)) return { ok: false, kind: "shape", fields: [] };
   const g = new Guard();
-  const example = { es: g.text(output.example.es, "example.es"), en: g.text(output.example.en, "example.en") };
+  const example = { target: g.text(output.example.es, "example.es"), en: g.text(output.example.en, "example.en") };
   const card: DraftCard = { ...job.card, example };
   guardValid(card, g);
   if (!g.fields.size && !checkExample({ ...card, unit: job.placed.unit }, job.known, lemmas).ok) g.fail("example.es");

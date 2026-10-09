@@ -3,7 +3,7 @@
   "rank": 141,
   "kind": "content",
   "pos": "verb",
-  "es": "entender",
+  "target": "entender",
   "en": "to understand",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Ana, no entiendo nada.",
+    "target": "Ana, no entiendo nada.",
     "en": "Ana, I don't understand anything."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENTENDER sounds like \"intend her\": to understand what she intends, you have to listen to her.",
   "image": "/deck/img/entender-understand.webp",
   "audio": {

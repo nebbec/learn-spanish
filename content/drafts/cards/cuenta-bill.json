@@ -3,7 +3,7 @@
   "rank": 238,
   "kind": "content",
   "pos": "noun",
-  "es": "la cuenta",
+  "target": "la cuenta",
   "en": "bill",
   "hint": "at a restaurant",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La cuenta, por favor.",
+    "target": "La cuenta, por favor.",
     "en": "The check, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUENTA sounds like count-a: the waiter counts up everything you ate on the bill.",
   "image": "/deck/img/cuenta-bill.webp",
   "audio": {

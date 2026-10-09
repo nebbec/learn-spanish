@@ -3,7 +3,7 @@
   "rank": 4,
   "kind": "form",
   "pos": "verb",
-  "es": "eres",
+  "target": "eres",
   "en": "you are",
   "hint": "identity, informal",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Hola, ¿tú eres Carlos?",
+    "target": "Hola, ¿tú eres Carlos?",
     "en": "Hi, are you Carlos?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Eres sounds like heiress: you are an heiress.",
   "image": "/deck/img/ser-be-identity.webp",
   "audio": {

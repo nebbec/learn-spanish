@@ -11,7 +11,7 @@
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { type DraftStore, withMedia } from "./drafting";
 import {
   allDrafted,
@@ -23,6 +23,9 @@ import {
   type ReviewStore,
 } from "./reviewing";
 
+/** Decision files are Spanish until the scripts take `--lang` (DE5). */
+type DraftCard = AnyDraftCard<"es">;
+
 export const DECISIONS = ["pending", "approve", "reject"] as const;
 export type Decision = (typeof DECISIONS)[number];
 
@@ -32,7 +35,7 @@ export function cardLines(card: DraftCard): Array<[string, string]> {
     ["id", card.id],
     ["kind", card.kind],
     ["pos", card.pos],
-    ["es", card.es],
+    ["target", card.target],
     ["en", card.en],
     ["hint", card.hint ?? ""],
   ];
@@ -43,17 +46,18 @@ export function cardLines(card: DraftCard): Array<[string, string]> {
     lines.push(["yo", present.yo], ["tu", present.tu], ["el", present.el], ["irregular", irregular ? "yes" : "no"]);
   }
   lines.push(
-    ["example.es", card.example.es],
+    ["example.target", card.example.target],
     ["example.en", card.example.en],
-    ["spain", card.spain ?? ""],
+    ["regional.where", card.regional?.where ?? ""],
+    ["regional.text", card.regional?.text ?? ""],
     ["trick", card.trick ?? ""],
   );
   return lines;
 }
 
 const CARD_KEYS = [
-  "id", "kind", "pos", "es", "en", "hint", "gender", "article", "feminine",
-  "yo", "tu", "el", "irregular", "example.es", "example.en", "spain", "trick",
+  "id", "kind", "pos", "target", "en", "hint", "gender", "article", "feminine",
+  "yo", "tu", "el", "irregular", "example.target", "example.en", "regional.where", "regional.text", "trick",
 ];
 
 /** A finding as one readable line. */
@@ -75,7 +79,7 @@ export function decisionFile(card: DraftCard, review: Review): string {
     "#   approve   the card goes into the deck as written below, with any corrections you make",
     "#   reject    the card stays out of the deck",
     "# To correct the card, change the text after the colon on any card line.",
-    "# Leave hint or spain empty for none; irregular is yes or no.",
+    "# Leave hint or regional.text empty for none; irregular is yes or no.",
     "# Then run: npm run deck",
     "# Lines starting with # are notes and are ignored.",
     "",
@@ -148,12 +152,12 @@ export function cardFromDecision(draft: DraftCard, fields: Map<string, string>):
     rank: draft.rank,
     kind: get("kind"),
     pos,
-    es: get("es"),
+    target: get("target"),
     en: get("en"),
     hint: get("hint") || null,
     grammar,
-    example: { es: get("example.es"), en: get("example.en") },
-    spain: get("spain") || null,
+    example: { target: get("example.target"), en: get("example.en") },
+    regional: get("regional.text") ? { where: get("regional.where"), text: get("regional.text") } : null,
     trick: get("trick") || null,
     image: draft.image,
   });
@@ -246,11 +250,11 @@ export function renderFlaggedList(cards: FlaggedCard[]): string {
       "|---|---|",
       `| Prompt | ${cell(card.en)} |`,
       `| Hint | ${cell(card.hint)} |`,
-      `| Answer | ${cell(card.es)} |`,
+      `| Answer | ${cell(card.target)} |`,
       `| Kind | ${card.kind}, ${card.pos} |`,
       `| Grammar | ${cell(grammarText(card))} |`,
-      `| Example | ${cell(card.example.es)} / ${cell(card.example.en)} |`,
-      `| Spain | ${cell(card.spain)} |`,
+      `| Example | ${cell(card.example.target)} / ${cell(card.example.en)} |`,
+      `| Regional | ${cell(card.regional && `${card.regional.where}: ${card.regional.text}`)} |`,
       `| Trick | ${cell(card.trick)} |`,
       "",
       "Why it was flagged:",

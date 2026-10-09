@@ -3,7 +3,7 @@
   "rank": 35,
   "kind": "content",
   "pos": "verb",
-  "es": "ver",
+  "target": "ver",
   "en": "to see",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "No veo nada sin mis lentes.",
+    "target": "No veo nada sin mis lentes.",
     "en": "I can't see anything without my glasses."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VER sounds like \"where\": you ask where it is until you finally see it.",
   "image": "/deck/img/ver-see.webp",
   "audio": {

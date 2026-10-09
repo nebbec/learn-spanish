@@ -3,15 +3,15 @@
   "rank": 37,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "yo",
+  "target": "yo",
   "en": "[I] am tired",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "No, yo insisto.",
+    "target": "No, yo insisto.",
     "en": "No, I insist."
   },
-  "spain": null,
+  "regional": null,
   "trick": "YO sounds like a rapper's \"Yo!\": that's me, I'm talking about myself.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 17,
   "kind": "form",
   "pos": "verb",
-  "es": "hace",
+  "target": "hace",
   "en": "he / she does",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Ella hace ejercicio todos los días.",
+    "target": "Ella hace ejercicio todos los días.",
     "en": "She exercises every day."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": "/deck/img/hacer-do.webp",
   "audio": {

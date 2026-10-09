@@ -3,7 +3,7 @@
   "rank": 218,
   "kind": "content",
   "pos": "verb",
-  "es": "comer",
+  "target": "comer",
   "en": "to eat",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Ya comiste algo hoy?",
+    "target": "¿Ya comiste algo hoy?",
     "en": "Have you eaten anything today?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMER sounds like \"come here\": Mom shouts \"come here\" when it's time to eat.",
   "image": "/deck/img/comer-eat.webp",
   "audio": {

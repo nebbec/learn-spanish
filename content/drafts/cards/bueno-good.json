@@ -3,17 +3,17 @@
   "rank": 39,
   "kind": "content",
   "pos": "adjective",
-  "es": "bueno",
+  "target": "bueno",
   "en": "good",
   "hint": null,
   "grammar": {
     "feminine": "buena"
   },
   "example": {
-    "es": "El café de aquí es muy bueno.",
+    "target": "El café de aquí es muy bueno.",
     "en": "The coffee here is really good."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BUENO sounds like \"bway-no\": no way it's bad, it's good!",
   "image": "/deck/img/bueno-good.webp",
   "audio": {

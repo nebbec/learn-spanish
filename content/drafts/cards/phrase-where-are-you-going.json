@@ -3,15 +3,15 @@
   "rank": 193,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿A dónde vas hoy?",
+  "target": "¿A dónde vas hoy?",
   "en": "Where are you going today?",
   "hint": "informal",
   "grammar": null,
   "example": {
-    "es": "¿A dónde vas hoy? —Voy al trabajo.",
+    "target": "¿A dónde vas hoy? —Voy al trabajo.",
     "en": "Where are you going today? —I'm going to work."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

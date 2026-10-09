@@ -278,7 +278,7 @@ export function buildDeck(
     !previous ||
     JSON.stringify([previous.units ?? [], previous.tips ?? [], previous.cards]) !== JSON.stringify([units, shippedTips, ordered]);
   const version = !previous ? 1 : changed ? previous.version + 1 : previous.version;
-  const deck: Deck = { format: DECK_FORMAT, version, units, tips: shippedTips, cards: ordered };
+  const deck: Deck = { format: DECK_FORMAT, lang: "es", version, units, tips: shippedTips, cards: ordered };
   build.changed = changed;
 
   const notes = new Map<string, string>();

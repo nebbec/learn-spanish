@@ -3,15 +3,15 @@
   "rank": 31,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "pero",
+  "target": "pero",
   "en": "I want to go, [but] I can't",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Estoy bien, pero mi madre está mal.",
+    "target": "Estoy bien, pero mi madre está mal.",
     "en": "I'm fine, but my mother isn't well."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PERO sounds like a pear-o: I wanted an apple, but I got a pear-o.",
   "image": null,
   "audio": {
