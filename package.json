@@ -18,10 +18,11 @@
     "deck": "tsx scripts/content/build-deck.mts",
     "tips": "tsx scripts/content/draft-tips.mts",
     "tag": "tsx scripts/content/tag.mts",
-    "voice-test": "node --env-file-if-exists=.env.local scripts/voice-test.mjs",
-    "audio": "node --env-file-if-exists=.env.local scripts/content/make-audio.mjs",
+    "voice-test": "node --env-file-if-exists=.env.local --import tsx scripts/voice-test.mjs",
+    "audio": "node --env-file-if-exists=.env.local --import tsx scripts/content/make-audio.mjs",
     "art": "tsx scripts/content/make-art.mts",
-    "mascot": "node scripts/content/make-mascot.mjs"
+    "mascot": "tsx scripts/content/make-mascot.mjs",
+    "word-list": "tsx scripts/content/word-list.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

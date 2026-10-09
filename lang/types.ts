@@ -30,9 +30,9 @@ export interface LangConfig {
   storage: string;
   /** URL path the deck is served under, with a trailing slash: `/deck/deck.json` and its media. */
   deckPath: string;
-  /** Repo folder the content scripts read and write (used from DE5). */
+  /** Repo folder the content scripts read and write with `--lang` (scripts/content/script-lang.ts). */
   contentDir: string;
-  /** Repo folder under public/ the deck the app serves is published to (used from DE5). */
+  /** Repo folder under public/ the deck the app serves is published to, with its audio and own stills. */
   publicDeckDir: string;
   /** The hero mascot's files, under public/. */
   mascot: { idle: MascotLoop; celebrate: MascotLoop; still: string };
@@ -43,6 +43,6 @@ export interface LangConfig {
    * card names its own region (German: Austria or Switzerland, from DE3).
    */
   regionalLabel: string | null;
-  /** The speech voice, read by `npm run audio` and the voice test (from DE5). Changing it gives every clip a new path. */
+  /** The speech voice, read by `npm run audio` (`voiceOf` in scripts/content/audio.mjs). Changing it gives every clip a new path. */
   voice: { model: string; voice: string; instructions: string };
 }

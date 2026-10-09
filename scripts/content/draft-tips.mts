@@ -9,6 +9,9 @@
 // so rerunning resumes; --redo drafts again and replaces the file, approval and
 // corrections included. Each call's token usage goes to content/tips/usage.jsonl.
 //
+// --lang de (DE5) drafts content/de/tips.json into content/de/tips/. German's
+// prompts are stand-ins until DE7, so a German run is refused for now.
+//
 // Prints only tip ids and counts, never tip text.
 
 import path from "node:path";
@@ -17,12 +20,15 @@ import { parseArgs } from "node:util";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
 import { formatSummary } from "./drafting";
 import { draftTips, TipStore, tipJobs } from "./tips";
+import { PROMPTS_READY, promptsNotReady } from "./prompts-de";
+import { contentPaths, LANG_OPTION, parseLang } from "./script-lang";
 import { checkTips, checkUnits, readTips, readUnits } from "./units";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
 const { values } = parseArgs({
   options: {
+    ...LANG_OPTION,
     tips: { type: "string" },
     via: { type: "string", default: "cli" },
     model: { type: "string", default: DEFAULT_MODEL },
@@ -30,7 +36,7 @@ const { values } = parseArgs({
     concurrency: { type: "string", default: "2" },
     retries: { type: "string", default: "2" },
     redo: { type: "boolean", default: false },
-    dir: { type: "string", default: path.join(ROOT, "content", "tips") },
+    dir: { type: "string" },
   },
 });
 
@@ -39,23 +45,27 @@ function fail(message: string): never {
   process.exit(2);
 }
 
+const lang = parseLang(values.lang);
+const paths = contentPaths(ROOT, lang);
+if (!PROMPTS_READY[lang]) fail(promptsNotReady(lang));
+
 if (values.via !== "cli" && values.via !== "api") fail('--via is "cli" or "api"');
 if (!EFFORTS.includes(values.effort as Effort)) fail(`--effort is one of ${EFFORTS.join(", ")}`);
 const concurrency = Number(values.concurrency);
 const retries = Number(values.retries);
 if (!(concurrency >= 1) || !(retries >= 0)) fail("--concurrency must be 1 or more and --retries 0 or more");
 
-const list = readTips(ROOT);
-const units = readUnits(ROOT);
+const list = readTips(ROOT, lang);
+const units = readUnits(ROOT, lang);
 const planProblems = [...checkTips(list), ...checkUnits(units, list)];
 if (planProblems.length) fail(`The tip list or unit plan has ${planProblems.length} problems: ${planProblems.join("; ")}`);
 
 const only = values.tips?.split(",").map((v) => v.trim()).filter(Boolean);
 const unknown = (only ?? []).filter((id) => !list.some((t) => t.id === id));
-if (unknown.length) fail(`Not in content/tips.json: ${unknown.join(", ")}`);
+if (unknown.length) fail(`Not in ${path.relative(ROOT, paths.tipList)}: ${unknown.join(", ")}`);
 const jobs = tipJobs(list, units).filter((job) => !only || only.includes(job.id));
 
-const store = new TipStore(values.dir);
+const store = new TipStore(values.dir ?? paths.tips, lang);
 const via = values.via;
 console.log(`Drafting ${jobs.length} tips via ${via}, model ${values.model}, effort ${values.effort}, ${concurrency} at a time`);
 const summary = await draftTips(jobs, {

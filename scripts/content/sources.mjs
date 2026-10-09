@@ -29,6 +29,12 @@ export const SOURCES = {
   },
 };
 
+/**
+ * Each language's sources (DE5): Spanish's above; German's are DE6's to pin (FrequencyWords' German list,
+ * lemmatization-lists' German file, LibreOffice's de_DE dictionary), null until then.
+ */
+export const SOURCES_BY_LANG = { es: SOURCES, de: null };
+
 /** One source's text: read from the cache, or downloaded into it, and checked against its SHA-256. */
 export async function source({ file, url, sha256 }, cache = CACHE) {
   const local = path.join(cache, file);

@@ -60,7 +60,7 @@ describe("language config", () => {
     expect(LANGS.es.regionalLabel).toBe("Spain");
   });
 
-  it("holds the Spanish voice the audio script uses, so no clip path changes", () => {
+  it("holds the Spanish voice the audio script reads, so no clip path changes", () => {
     expect(LANGS.es.voice).toEqual(VOICE);
   });
 });

@@ -1,7 +1,10 @@
 // Builds content/word-list.tsv: the most common Spanish words in dictionary
 // form, ranked by how often they are spoken in film and TV subtitles.
 //
-//   node scripts/content/word-list.mjs [--size 1200] [--top 50] [--explain 0]
+//   npm run word-list -- [--size 1200] [--top 50] [--explain 0] [--lang de]
+//
+// --lang de (DE5) writes content/de/word-list.tsv; German's sources and rules are
+// DE6's, so until then it stops before downloading anything.
 //
 // --top N prints the first N words for a spot check (words only, no cards).
 // --explain N prints how each of the N most frequent forms was counted.
@@ -15,10 +18,18 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildWordList, parseDicStems, parseFrequency, parseLemmaPairs } from "./lemmatize.mjs";
 import { DROP, OVERRIDES } from "./overrides.mjs";
-import { source, SOURCES } from "./sources.mjs";
+import { contentPaths, parseLang } from "./script-lang.ts";
+import { source, SOURCES_BY_LANG } from "./sources.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
-const OUT = path.join(ROOT, "content", "word-list.tsv");
+const langAt = process.argv.indexOf("--lang");
+const lang = parseLang(langAt === -1 ? undefined : process.argv[langAt + 1]);
+const OUT = contentPaths(ROOT, lang).wordList;
+const SOURCES = SOURCES_BY_LANG[lang];
+if (!SOURCES) {
+  console.error(`No word-list sources for ${lang} yet: DE6 pins them. Nothing was downloaded or written.`);
+  process.exit(2);
+}
 
 function arg(name, fallback) {
   const i = process.argv.indexOf(`--${name}`);

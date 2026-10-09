@@ -32,9 +32,14 @@ import {
 } from "./art";
 import { contactSheet, cutSheet, toStill } from "./art-images";
 import type { DraftRequest, Runner } from "./claude";
+import { contentPaths, type LangCode } from "./script-lang";
 
 export interface ArtPaths {
   root: string;
+  /** The language whose stills these are (DE5). */
+  lang: LangCode;
+  /** The language's deck URL (`/deck/`, `/deck-de/`): its own stills are the images under it. */
+  deckUrl: string;
   deck: string;
   style: string;
   cast: string;
@@ -47,19 +52,27 @@ export interface ArtPaths {
   public: string;
 }
 
-export function artPaths(root: string): ArtPaths {
-  const art = path.join(root, "content", "art");
+/**
+ * The art files of a language (DE5). Spanish's are in content/art; German's cast, review, sheets, stills and
+ * contact sheets in content/de/art, while the style guide and the model sheets stay shared in content/art.
+ */
+export function artPaths(root: string, lang: LangCode = "es"): ArtPaths {
+  const paths = contentPaths(root, lang);
+  const art = paths.art;
   return {
     root,
-    deck: path.join(root, "content", "deck.json"),
-    style: path.join(art, "style.md"),
+    lang,
+    deckUrl: paths.deckUrl,
+    deck: paths.deck,
+    style: path.join(paths.sharedArt, "style.md"),
     cast: path.join(art, "cast.tsv"),
     manifest: path.join(art, "sheets.json"),
     review: path.join(art, "review.tsv"),
     stills: path.join(art, "stills"),
     contact: path.join(art, "contact"),
-    cache: path.join(root, "content", ".cache", "art"),
-    public: path.join(root, "public"),
+    // Sheets are numbered per language, so each keeps its downloads apart.
+    cache: path.join(paths.cache, lang === "es" ? "art" : `art-${lang}`),
+    public: paths.public,
   };
 }
 
@@ -69,19 +82,25 @@ const writeText = (file: string, text: string | Buffer) => {
   writeFileSync(file, text);
 };
 
+/**
+ * The language's own stills: the deck's images under its deck URL. A German card that reuses a Spanish still
+ * names it by its Spanish path (docs/german.md, "Art"), which is Spanish's to render, not German's.
+ */
 export function readStills(p: ArtPaths): Still[] {
-  return stillsFromDeck(JSON.parse(readFileSync(p.deck, "utf8")) as DeckLike);
+  return stillsFromDeck(JSON.parse(readFileSync(p.deck, "utf8")) as DeckLike).filter((s) => s.image.startsWith(p.deckUrl));
 }
+
+const shown = (p: ArtPaths, file: string) => path.relative(p.root, file);
 
 export function readCast(p: ArtPaths): CastRow[] {
   const { rows, problems } = parseCast(readText(p.cast));
-  if (problems.length) throw new Error(`content/art/cast.tsv: ${problems.join("; ")}`);
+  if (problems.length) throw new Error(`${shown(p, p.cast)}: ${problems.join("; ")}`);
   return rows;
 }
 
 export function readReview(p: ArtPaths): ReviewRow[] {
   const { rows, problems } = parseReview(readText(p.review));
-  if (problems.length) throw new Error(`content/art/review.tsv: ${problems.join("; ")}`);
+  if (problems.length) throw new Error(`${shown(p, p.review)}: ${problems.join("; ")}`);
   return rows;
 }
 

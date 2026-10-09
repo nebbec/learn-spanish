@@ -12,12 +12,15 @@
 //   npm run art -- publish
 //       Copies each still's ok take to its image path under public/.
 //   npm run art -- status
+//   npm run art -- <step> --lang de
+//       German's own stills (the images under /deck-de/), from content/de/deck.json into content/de/art
+//       (DE5). Casting German waits for its lead (DE10) and reuse by meaning (DE13), so cast is refused.
 //
 // Prints ids, counts and credits, never card text. The rules are in
 // docs/design.md under "Art" and in content/art/style.md.
 
 import { spawn } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
@@ -36,12 +39,14 @@ import {
   type Higgsfield,
 } from "./art-run";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
+import { LANG_OPTION, parseLang } from "./script-lang";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
 const { values, positionals } = parseArgs({
   allowPositionals: true,
   options: {
+    ...LANG_OPTION,
     via: { type: "string", default: "cli" },
     model: { type: "string", default: DEFAULT_MODEL },
     effort: { type: "string", default: "medium" },
@@ -55,7 +60,9 @@ function fail(message: string): never {
   process.exit(2);
 }
 
-const p = artPaths(ROOT);
+const lang = parseLang(values.lang);
+const p = artPaths(ROOT, lang);
+if (!existsSync(p.deck)) fail(`${path.relative(ROOT, p.deck)} does not exist yet: build it with npm run deck${lang === "es" ? "" : ` -- --lang ${lang}`}`);
 const style = parseStyle(readFileSync(p.style, "utf8"));
 const styleProblems = checkStyle(style);
 if (styleProblems.length) fail(styleProblems.join("; "));
@@ -95,6 +102,7 @@ const higgsfield: Higgsfield = {
 
 const step = positionals[0];
 if (step === "cast") {
+  if (lang !== "es") fail("German stills are cast with reuse by meaning and the German lead (DE10, DE13); nothing was sent to Claude.");
   if (values.via !== "cli" && values.via !== "api") fail('--via is "cli" or "api"');
   if (!EFFORTS.includes(values.effort as Effort)) fail(`--effort is one of ${EFFORTS.join(", ")}`);
   const runner = values.via === "api" ? apiRunner() : cliRunner();

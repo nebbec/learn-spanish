@@ -21,9 +21,14 @@ import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { PHRASE_ID } from "@/lib/deck/validate";
 import type { CallUsage, Effort, Runner } from "./claude";
 import { DraftStore, formatDuration, slug, writeJson, type GroupKind } from "./drafting";
+import { GERMAN_REVIEW_SYSTEM } from "./prompts-de";
+import type { LangCode } from "./script-lang";
 
-/** Drafted cards are Spanish until the scripts take `--lang` (DE5). */
-type DraftCard = AnyDraftCard<"es">;
+/** Drafted cards of either language; the drafts' store says which (DE5). */
+type DraftCard = AnyDraftCard;
+
+/** The persons a form card's id may end in, per language. Spanish haber's only card is haber-form-hay. */
+const FORM_PERSONS: Readonly<Record<LangCode, string>> = { es: "yo|tu|el", de: "ich|du|er" };
 
 /** The reviewer's checks, in the order it answers them. */
 export const CHECKS = ["meaning", "oneAnswer", "grammar", "usage", "example", "trick"] as const;
@@ -53,13 +58,15 @@ const MAX_MEANING_WORDS = 3;
  * (`estar-be-state`). An id another word already held when it was drafted has
  * that word's rank at the end (`que-what-16`). Returns what is wrong, or null.
  */
-export function idProblem(id: string, word: string, rank: number, kind?: GroupKind): string | null {
+export function idProblem(id: string, word: string, rank: number, kind?: GroupKind, lang: LangCode = "es"): string | null {
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) return "must be lower-case a-z and 0-9 words joined by single hyphens";
-  // A form card's id is its verb's, then -form- and the person (haber's only card is haber-form-hay).
+  // A form card's id is its verb's, then -form- and the person (Spanish haber's only card is haber-form-hay).
   if (kind === "form") {
     const verb = slug(word);
-    const ok = verb === "haber" ? id === "haber-form-hay" : new RegExp(`^${verb}-form-(yo|tu|el)$`).test(id);
-    return ok ? null : verb === "haber" ? 'must be "haber-form-hay"' : `must be "${verb}-form-" and yo, tu or el`;
+    const persons = FORM_PERSONS[lang];
+    if (lang === "es" && verb === "haber") return id === "haber-form-hay" ? null : 'must be "haber-form-hay"';
+    const ok = new RegExp(`^${verb}-form-(${persons})$`).test(id);
+    return ok ? null : `must be "${verb}-form-" and ${persons.split("|").join(", ").replace(/, (\w+)$/, " or $1")}`;
   }
   if (kind === "phrase") return PHRASE_ID.test(id) ? null : 'must be "phrase-" and one to four English words';
   const prefix = `${slug(word)}-`;
@@ -102,17 +109,26 @@ Last, note is one sentence for anything worth telling the editor that is not a p
 
 Every text field is one line of plain text, with no Markdown.`;
 
+/** The review pass's system prompt per language (DE5); the schema is shared. German's is DE7's to write. */
+export const REVIEW_SYSTEMS: Readonly<Record<LangCode, string>> = { es: REVIEW_SYSTEM_PROMPT, de: GERMAN_REVIEW_SYSTEM };
+
 /**
  * The part of the card the reviewer sees: no id, rank or media paths. The Spanish review
- * prompt names the answer `es` and the footnote `spain`, so the card is shown with those
- * names, exactly as before deck format 3.
+ * prompt names the answer `es` and the footnote `spain`, so a Spanish card is shown with those
+ * names, exactly as before deck format 3. A German card is shown with the deck's names.
  */
-function shownCard(card: DraftCard) {
+function shownCard(card: DraftCard, lang: LangCode) {
   const { kind, pos, target, en, hint, grammar, example, regional, trick } = card;
+  if (lang !== "es") return { kind, pos, target, en, hint, grammar, example, regional, trick };
   return { kind, pos, es: target, en, hint, grammar, example: { es: example.target, en: example.en }, spain: regional?.text ?? null, trick };
 }
 
-export function reviewPrompt(card: DraftCard, word: Pick<DraftedWord, "rank" | "word" | "kind">, others: DraftCard[]): string {
+export function reviewPrompt(
+  card: DraftCard,
+  word: Pick<DraftedWord, "rank" | "word" | "kind">,
+  others: DraftCard[],
+  lang: LangCode = "es",
+): string {
   const prompt = (c: DraftCard) => (c.hint ? `"${c.en}" (hint: ${c.hint})` : `"${c.en}"`);
   const [about, owner, only] =
     word.kind === "form"
@@ -125,7 +141,7 @@ export function reviewPrompt(card: DraftCard, word: Pick<DraftedWord, "rank" | "
     others.length ? `The ${owner} ask: ${others.map(prompt).join("; ")}.` : `This is the ${only}.`,
     "",
     "The card:",
-    JSON.stringify(shownCard(card), null, 2),
+    JSON.stringify(shownCard(card, lang), null, 2),
   ].join("\n");
 }
 
@@ -267,7 +283,7 @@ export function allDrafted(drafts: DraftStore): DraftedWord[] {
   return [...draftedWords(drafts), ...draftedForms(drafts), ...draftedPhrases(drafts)];
 }
 
-/** A drafted card. The drafts on disk are Spanish until the scripts take `--lang` (DE5). */
+/** A drafted card, of the drafts' language. */
 export function readDraftCard(drafts: DraftStore, id: string): DraftCard | null {
   const file = path.join(drafts.cardsDir, `${id}.json`);
   return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as DraftCard) : null;
@@ -312,9 +328,10 @@ export function scriptFindings(
   word: DraftedWord,
   deckProblems: string[],
   knownWords?: ReadonlyMap<string, string>,
+  lang: LangCode = "es",
 ): Finding[] {
   const findings: Finding[] = [];
-  const id = idProblem(card.id, word.word, card.rank, word.kind);
+  const id = idProblem(card.id, word.word, card.rank, word.kind, lang);
   if (id) findings.push({ reason: "id", problem: `The id ${id}.`, fix: null });
   const outside = word.outside?.[card.id] ?? [];
   if (outside.length) {
@@ -431,8 +448,8 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
     for (let attempt = 1; attempt <= 1 + retries; attempt++) {
       if (summary.stopped) break;
       const result = await runner({
-        system: REVIEW_SYSTEM_PROMPT,
-        prompt: reviewPrompt(card, word, others),
+        system: REVIEW_SYSTEMS[drafts.lang],
+        prompt: reviewPrompt(card, word, others, drafts.lang),
         schema: REVIEW_SCHEMA,
         model,
         effort,
@@ -458,7 +475,7 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
 
       if (guarded?.ok) {
         failsInARow = 0;
-        const findings = [...guarded.answer.findings, ...scriptFindings(card, word, deckProblems, options.knownWords)];
+        const findings = [...guarded.answer.findings, ...scriptFindings(card, word, deckProblems, options.knownWords, drafts.lang)];
         store.save({
           id: card.id,
           // A phrase group's rank is its highest card's; each card keeps its own.

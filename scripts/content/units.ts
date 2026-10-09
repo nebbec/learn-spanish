@@ -2,8 +2,9 @@
 // checks on them. The rules are in docs/design.md under "Learning path", "Order is computed, not
 // hand-written" and "Tips".
 
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { existsSync, readFileSync } from "node:fs";
+import { relative } from "node:path";
+import { contentPaths, type LangCode } from "./script-lang";
 
 export interface Unit {
   /** Lower-case words joined by hyphens: `who-i-am`. */
@@ -39,15 +40,22 @@ export const PHRASE_WANT = "phrase: ";
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const TIP_ID = /^tip-[a-z0-9]+(-[a-z0-9]+)*$/;
 
-export const unitsPath = (root: string) => join(root, "content", "units.json");
-export const tipsPath = (root: string) => join(root, "content", "tips.json");
+/** The unit plan of a language: content/units.json, or content/de/units.json (DE5). */
+export const unitsPath = (root: string, lang: LangCode = "es") => contentPaths(root, lang).units;
+export const tipsPath = (root: string, lang: LangCode = "es") => contentPaths(root, lang).tipList;
 
-export function readUnits(root: string): Unit[] {
-  return JSON.parse(readFileSync(unitsPath(root), "utf8"));
+export function readUnits(root: string, lang: LangCode = "es"): Unit[] {
+  return readPlan(root, unitsPath(root, lang));
 }
 
-export function readTips(root: string): TipEntry[] {
-  return JSON.parse(readFileSync(tipsPath(root), "utf8"));
+export function readTips(root: string, lang: LangCode = "es"): TipEntry[] {
+  return readPlan(root, tipsPath(root, lang));
+}
+
+/** A plan file, or an error naming it when the language has none yet (German's come in DE8). */
+function readPlan<T>(root: string, file: string): T {
+  if (!existsSync(file)) throw new Error(`${relative(root, file)} does not exist yet`);
+  return JSON.parse(readFileSync(file, "utf8"));
 }
 
 export const unitCap = (unit: Unit) => unit.cap ?? DEFAULT_CAP;

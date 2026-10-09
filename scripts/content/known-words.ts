@@ -15,7 +15,8 @@
 import path from "node:path";
 import type { Card, DraftCard } from "@/lib/deck/types";
 import { cliticLemmas, normalize, parseLemmaPairs, stripAccents } from "./lemmatize.mjs";
-import { source, SOURCES } from "./sources.mjs";
+import type { LangCode } from "./script-lang";
+import { source, SOURCES_BY_LANG } from "./sources.mjs";
 
 /** Other words an example may use: one obvious cognate in the starter path, any two in the frequency phase. */
 export const STARTER_OTHER_WORDS = 1;
@@ -43,9 +44,13 @@ export function lemmasFrom(text: string): Lemmas {
   return { map, set };
 }
 
-/** Reads the lemma list from content/.cache, downloading it there once (SHA-256 checked). */
-export async function loadLemmas(root: string): Promise<Lemmas> {
-  return lemmasFrom(await source(SOURCES.lemmas, path.join(root, "content", ".cache")));
+/**
+ * Reads a language's lemma list from content/.cache, downloading it there once (SHA-256 checked). Null for a
+ * language with no pinned list yet (German until DE6): the known-words check is then not run.
+ */
+export async function loadLemmas(root: string, lang: LangCode = "es"): Promise<Lemmas | null> {
+  const sources = SOURCES_BY_LANG[lang];
+  return sources ? lemmasFrom(await source(sources.lemmas, path.join(root, "content", ".cache"))) : null;
 }
 
 /** A word in lower case and its lemmas: from the list, and a verb with pronouns attached (verte, dímelo). */

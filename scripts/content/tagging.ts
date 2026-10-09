@@ -27,11 +27,13 @@ import {
   type TaskStore,
   writeJson,
 } from "./drafting";
+import { GERMAN_TAG_SYSTEM } from "./prompts-de";
 import { allDrafted, cardHash, readDraftCard } from "./reviewing";
+import type { LangCode } from "./script-lang";
 import { unitCap, type TipEntry, type Unit } from "./units";
 
-/** Drafted cards are Spanish until the scripts take `--lang` (DE5). */
-type DraftCard = AnyDraftCard<"es">;
+/** Drafted cards of either language: the tag pass reads only fields every card has. */
+type DraftCard = AnyDraftCard;
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -117,10 +119,12 @@ export interface TagContext {
   tips: TipEntry[];
   /** Every drafted card, in the order of `tagGroups`. */
   cards: DraftCard[];
+  /** The language of the cards (DE5), which picks the system prompt. Spanish when left out. */
+  lang?: LangCode;
 }
 
-export function tagContext(groups: TagGroup[], units: Unit[], tips: TipEntry[]): TagContext {
-  return { units, tips, cards: groups.flatMap((g) => g.cards) };
+export function tagContext(groups: TagGroup[], units: Unit[], tips: TipEntry[], lang: LangCode = "es"): TagContext {
+  return { units, tips, cards: groups.flatMap((g) => g.cards), lang };
 }
 
 export const TAG_SYSTEM_PROMPT = `You place flashcards on the learning path of an app that teaches the most common Spanish words to English speakers who start from zero and want to speak. The path begins with the starter path: themed units, in the order of the unit plan you are given, each ending in a few phrases the learner can now say. Then comes the frequency phase: every other card, most common word first. A script computes the order from the tags you set on each card. You do not write or judge cards; you only tag them.
@@ -141,6 +145,9 @@ Answer for every card you are asked about, once each, with these fields:
 - why: one short sentence in English, under ${WHY_MAX} characters, shown under the card when it is introduced, or null. Write it only where this card is easily confused with a near neighbour the learner meets nearby: ser and estar ("Use estar for how or where something is right now; ser for what it is."), por and para, saber and conocer, pedir and preguntar, tú and usted, and the like. It says when to use this card's word rather than the other. Null on nearly every card.
 
 Answer with the ids, unit ids, wants and tip ids exactly as given.`;
+
+/** The tag pass's system prompt per language (DE5); the schema is shared. German's is DE7's to write. */
+export const TAG_SYSTEMS: Readonly<Record<LangCode, string>> = { es: TAG_SYSTEM_PROMPT, de: GERMAN_TAG_SYSTEM };
 
 /** A card as the tagger sees it: no media paths. */
 const shown = (card: DraftCard) => Object.fromEntries(Object.entries(card).filter(([key]) => key !== "image" && key !== "audio"));
@@ -335,7 +342,7 @@ export function tagTasks(groups: TagGroup[], store: TagStore, ctx: TagContext): 
     done: group.cards.every((card) => isCurrent(store.read(card.id), card, ids, ctx)),
     log: group.kind === "word" ? { rank: group.rank, word: group.name } : { group: group.kind, name: group.name },
     failedName: group.kind === "word" ? String(group.rank).padStart(4, "0") : `${group.kind}-${group.name}`,
-    request: { system: TAG_SYSTEM_PROMPT, prompt: tagPrompt(group, ctx), schema: TAG_SCHEMA },
+    request: { system: TAG_SYSTEMS[ctx.lang ?? "es"], prompt: tagPrompt(group, ctx), schema: TAG_SCHEMA },
     guard: (output) => guardTags(output, group, ctx),
     save: (tags, _skip, meta) => store.save(group, tags, meta),
   }));

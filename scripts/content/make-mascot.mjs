@@ -1,4 +1,7 @@
-// Hero mascot loops (F3): `npm run mascot`.
+// Hero mascot loops (F3): `npm run mascot`, or `npm run mascot -- --lang de` for
+// the German lead (DE5): content/de/art/mascot/takes.json into the files lang/de.ts
+// names. A language whose files are another's (German's are the concha's until
+// DE14) is refused, so a run never overwrites the other app's mascot.
 //
 // Reads content/art/mascot/takes.json (each Higgsfield take, and which idle and
 // celebration take the app uses), then:
@@ -20,18 +23,37 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import ffmpegPath from "ffmpeg-static";
 import sharp from "sharp";
-import { CLIP_SIZE, STILL_SIZE, backgroundGains, checkTakes, gainFilter, loopSeconds, probe } from "./mascot.mjs";
+import {
+  CLIP_SIZE,
+  STILL_SIZE,
+  backgroundGains,
+  checkTakes,
+  gainFilter,
+  loopSeconds,
+  mascotPaths,
+  probe,
+  sharedMascotFiles,
+} from "./mascot.mjs";
+import { parseLang } from "./script-lang.ts";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
-const ART = path.join(ROOT, "content", "art", "mascot");
-const CACHE = path.join(ROOT, "content", ".cache", "mascot");
+const args = process.argv.slice(2);
+const lang = parseLang(args.includes("--lang") ? args[args.indexOf("--lang") + 1] : undefined);
+const shared = sharedMascotFiles(lang);
+if (shared.length) {
+  console.error(`The ${lang} mascot files are the Spanish concha's (${shared.join(", ")}); give it its own in lang/${lang}.ts first (DE14).`);
+  process.exit(2);
+}
+const paths = mascotPaths(ROOT, lang);
+const ART = paths.art;
+const CACHE = paths.cache;
 const TAKES = path.join(ART, "takes");
-const PUBLIC = path.join(ROOT, "public", "mascot");
-const CUTOUT = path.join(ROOT, "content", "art", "cast", "concha-cutout.webp");
+const CUTOUT = paths.cutout;
+const rel = (file) => path.relative(ROOT, file);
 
 const record = JSON.parse(readFileSync(path.join(ART, "takes.json"), "utf8"));
 checkTakes(record);
-for (const dir of [CACHE, TAKES, PUBLIC]) mkdirSync(dir, { recursive: true });
+for (const dir of [CACHE, TAKES, path.dirname(paths.idle.clip), path.dirname(paths.still)]) mkdirSync(dir, { recursive: true });
 
 const kb = (file) => `${(statSync(file).size / 1024).toFixed(1)} KB`;
 
@@ -83,21 +105,21 @@ const encoded = new Map();
 for (const take of record.takes) encoded.set(take.name, await encode(take));
 
 for (const kind of ["idle", "celebrate"]) {
-  const clip = path.join(PUBLIC, `${kind}.mp4`);
+  const { clip, poster: still } = paths[kind];
   copyFileSync(encoded.get(record.use[kind]), clip);
-  await poster(clip, path.join(PUBLIC, `${kind}.webp`));
-  console.log(`public/mascot/${kind}.mp4: ${record.use[kind]}, ${kb(clip)}; poster ${kb(path.join(PUBLIC, `${kind}.webp`))}`);
+  await poster(clip, still);
+  console.log(`${rel(clip)}: ${record.use[kind]}, ${kb(clip)}; poster ${kb(still)}`);
 }
 
 // The still: fitted with a 4% margin, as the card stills are (F2).
 const inner = Math.round(STILL_SIZE * 0.92);
 const figure = await sharp(CUTOUT).resize(inner, inner, { fit: "inside" }).toBuffer();
-const still = path.join(PUBLIC, "concha.webp");
+const still = paths.still;
 await sharp({ create: { width: STILL_SIZE, height: STILL_SIZE, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
   .composite([{ input: figure, gravity: "center" }])
   .webp({ quality: 82 })
   .toFile(still);
-console.log(`public/mascot/concha.webp: ${kb(still)}`);
+console.log(`${rel(still)}: ${kb(still)}`);
 
 // The takes page: each take as the app shows it, on the menu's paper and on a white card.
 const row = (take) => {
@@ -126,4 +148,4 @@ ${record.takes.map(row).join("\n")}
 </main>
 `,
 );
-console.log(`content/art/mascot/takes.html: ${record.takes.length} takes`);
+console.log(`${rel(path.join(ART, "takes.html"))}: ${record.takes.length} takes`);

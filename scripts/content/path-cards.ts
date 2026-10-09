@@ -13,8 +13,10 @@
 
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard as AnyDraftCard, VerbGrammar } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard, GermanVerbGrammar, VerbGrammar } from "@/lib/deck/types";
 import {
+  claudeExample,
+  claudeTexts,
   type DraftOptions,
   type DraftStore,
   type DraftSummary,
@@ -24,14 +26,15 @@ import {
   guardValid,
   runDraftTasks,
   slug,
-  spainFootnote,
   type WordEntry,
   withMedia,
 } from "./drafting";
+import { GERMAN_FORM_SCHEMA, GERMAN_FORM_SYSTEM, GERMAN_PHRASE_SCHEMA, GERMAN_PHRASE_SYSTEM } from "./prompts-de";
+import { LANGS, type LangCode } from "./script-lang";
 import { PHRASE_WANT, type Unit } from "./units";
 
-/** Drafted cards are Spanish until the scripts take `--lang` (DE5). */
-type DraftCard = AnyDraftCard<"es">;
+/** Drafted cards of either language; the drafts' store says which (DE5). */
+type DraftCard = AnyDraftCard;
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -45,9 +48,11 @@ const object = (properties: Rec) => ({
   properties,
 });
 
-/** A form card's person: yo, tú or él, or haber's impersonal hay. */
+/** A Spanish form card's person: yo, tú or él, or haber's impersonal hay. */
 export const PERSONS = ["yo", "tu", "el", "hay"] as const;
-export type Person = (typeof PERSONS)[number];
+/** A German form card's person (DE5): ich, du or er. German has no hay. */
+export const GERMAN_PERSONS = ["ich", "du", "er"] as const;
+export type Person = (typeof PERSONS)[number] | (typeof GERMAN_PERSONS)[number];
 const THREE: Person[] = ["yo", "tu", "el"];
 
 export interface FormVerb {
@@ -72,17 +77,32 @@ export const FORM_VERBS: FormVerb[] = [
   { verb: "decir", card: "decir-say", persons: THREE },
 ];
 
-/** `<verb>-form-<yo|tu|el>`, or `haber-form-hay`. */
+/**
+ * The verbs that get form cards, per language. German's list (sein, haben, werden, können…) is DE7's; until
+ * then a German `--forms` run has no verbs.
+ */
+export const FORM_VERBS_BY_LANG: Readonly<Record<LangCode, readonly FormVerb[]>> = { es: FORM_VERBS, de: [] };
+
+/** `<verb>-form-<yo|tu|el>`, or `haber-form-hay`; German `<verb>-form-<ich|du|er>`. */
 export const formId = (verb: string, person: Person) => (person === "hay" ? "haber-form-hay" : `${verb}-form-${person}`);
 
-/** The form for a person: from the verb's present-tense strip, or hay. */
-const formOf = (grammar: VerbGrammar, person: Person) => (person === "hay" ? "hay" : grammar.present[person]);
+/**
+ * The answer for a person: from the verb's present-tense strip, or hay. A German form card's answer has its
+ * pronoun, as German never drops it (`ich bin`, `ich rufe an`).
+ */
+function formOf(grammar: VerbGrammar | GermanVerbGrammar, person: Person): string {
+  if (person === "hay") return "hay";
+  if (person === "ich" || person === "du" || person === "er") return `${person} ${(grammar as GermanVerbGrammar).present[person]}`;
+  return (grammar as VerbGrammar).present[person];
+}
 
 export interface FormJob {
   verb: string;
   rank: number;
   /** The verb's drafted card. */
   source: DraftCard & { pos: "verb" };
+  /** The language of the cards (DE5): Spanish unless given. */
+  lang?: LangCode;
   cards: Array<{ person: Person; id: string; es: string }>;
   /** The unit plan's wants for this verb (`ser: I am (soy)`). */
   wants: string[];
@@ -97,12 +117,20 @@ function readCard(store: DraftStore, id: string): DraftCard | null {
 
 const promptOf = (c: DraftCard) => (c.hint ? `"${c.en}" (hint: ${c.hint})` : `"${c.en}"`);
 
-/** The form jobs for the given verbs (all by default). A verb whose card is not drafted, or not a verb, is missing. */
-export function formJobs(store: DraftStore, units: Unit[], verbs?: string[]): { jobs: FormJob[]; missing: string[] } {
-  const sources = new Map(FORM_VERBS.map((v) => [v.verb, readCard(store, v.card)]));
+/**
+ * The form jobs for the given verbs (all by default) of the drafts' language. A verb whose card is not drafted,
+ * or not a verb, is missing. `list` is the language's verb list unless given.
+ */
+export function formJobs(
+  store: DraftStore,
+  units: Unit[],
+  verbs?: string[],
+  list: readonly FormVerb[] = FORM_VERBS_BY_LANG[store.lang],
+): { jobs: FormJob[]; missing: string[] } {
+  const sources = new Map(list.map((v) => [v.verb, readCard(store, v.card)]));
   const jobs: FormJob[] = [];
   const missing: string[] = [];
-  for (const v of FORM_VERBS) {
+  for (const v of list) {
     if (verbs && !verbs.includes(v.verb)) continue;
     const source = sources.get(v.verb);
     if (!source || source.pos !== "verb") {
@@ -113,9 +141,10 @@ export function formJobs(store: DraftStore, units: Unit[], verbs?: string[]): { 
       verb: v.verb,
       rank: source.rank,
       source,
+      lang: store.lang,
       cards: v.persons.map((person) => ({ person, id: formId(v.verb, person), es: formOf(source.grammar, person) })),
       wants: units.flatMap((u) => u.wants.filter((w) => w.startsWith(`${v.verb}:`))),
-      others: FORM_VERBS.filter((o) => o.verb !== v.verb).flatMap((o) => {
+      others: list.filter((o) => o.verb !== v.verb).flatMap((o) => {
         const card = sources.get(o.verb);
         return card ? [`${o.verb}: ${promptOf(card)}`] : [];
       }),
@@ -138,11 +167,21 @@ Fields
 
 Every text field is one line of plain text, with no Markdown and no surrounding quotes.`;
 
+/** The present-tense strip as the form prompt shows it. */
+function strip(job: FormJob): string {
+  if ((job.lang ?? "es") !== "es") {
+    const { present, irregular, separable } = job.source.grammar as GermanVerbGrammar;
+    const flags = [irregular && "irregular", separable && "separable"].filter(Boolean).join(", ");
+    return `ich ${present.ich} · du ${present.du} · er ${present.er}${flags ? ` (${flags})` : ""}`;
+  }
+  const { present, irregular } = job.source.grammar as VerbGrammar;
+  return `yo ${present.yo} · tú ${present.tu} · él ${present.el}${irregular ? " (irregular)" : ""}`;
+}
+
 export function formPrompt(job: FormJob): string {
-  const { present, irregular } = job.source.grammar;
   return [
     `Verb: ${job.verb}, rank ${job.rank}. Its card asks ${promptOf(job.source)}.`,
-    `Present tense: yo ${present.yo} · tú ${present.tu} · él ${present.el}${irregular ? " (irregular)" : ""}.`,
+    `Present tense: ${strip(job)}.`,
     "Write one card for each of these forms:",
     ...job.cards.map((c) => `- ${c.person}: ${c.es}`),
     job.wants.length ? `The unit plan asks for: ${job.wants.join("; ")}.` : "The unit plan names no form of this verb.",
@@ -165,11 +204,18 @@ export const FORM_SCHEMA: Rec = object({
   },
 });
 
+/** The form pass's system prompt and schema per language (DE5). German's are DE7's to write; see prompts-de.ts. */
+export const FORM_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
+  es: { system: FORM_SYSTEM_PROMPT, schema: FORM_SCHEMA },
+  de: { system: GERMAN_FORM_SYSTEM, schema: GERMAN_FORM_SCHEMA },
+};
+
 /** The words of a sentence, lower case, for checking that an example uses a form. */
 const wordsOf = (s: string) => s.toLowerCase().split(/[^\p{L}]+/u).filter(Boolean);
 
 /** The output guard for a verb's form cards: one valid card per form asked for, or the failing field names. */
 export function guardForms(output: unknown, job: FormJob): Guarded {
+  const lang = job.lang ?? "es";
   if (!isRec(output) || !Array.isArray(output.cards)) return { ok: false, kind: "shape", fields: [] };
   const raws = output.cards.filter(isRec);
   const persons = raws.map((r) => r.person);
@@ -179,23 +225,28 @@ export function guardForms(output: unknown, job: FormJob): Guarded {
   const g = new Guard();
   const cards = job.cards.map((want) => {
     const r = raws.find((raw) => raw.person === want.person)!;
-    const example = isRec(r.example) ? r.example : {};
-    const card = withMedia({
-      id: want.id,
-      rank: job.rank,
-      kind: "form",
-      pos: "verb",
-      target: want.es,
-      en: g.text(r.en, "en"),
-      hint: g.optional(r.hint, "hint"),
-      grammar: structuredClone(job.source.grammar),
-      example: { target: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
-      regional: null,
-      trick: g.optional(r.trick, "trick"),
-      image: job.source.image,
-    });
-    if (!wordsOf(card.example.target).includes(want.es.toLowerCase())) g.fail("example.es");
-    guardValid(card, g);
+    const example = claudeExample(r, g, lang);
+    const card = withMedia(
+      {
+        id: want.id,
+        rank: job.rank,
+        kind: "form",
+        pos: "verb",
+        target: want.es,
+        en: g.text(r.en, "en"),
+        hint: g.optional(r.hint, "hint"),
+        grammar: structuredClone(job.source.grammar),
+        example,
+        regional: null,
+        trick: g.optional(r.trick, "trick"),
+        image: job.source.image,
+      },
+      lang,
+    );
+    // Every word of the form is in the example: `voy`, or a German form with its pronoun (`ich rufe an`).
+    const used = wordsOf(card.example.target);
+    if (!wordsOf(want.es).every((w) => used.includes(w))) g.fail(lang === "es" ? "example.es" : "example.target");
+    guardValid(card, g, lang);
     return card as DraftCard;
   });
   const prompts = cards.map((c) => `${c.en.toLowerCase()}|${(c.hint ?? "").toLowerCase()}`);
@@ -210,7 +261,7 @@ export function formTasks(jobs: FormJob[], store: DraftStore): DraftTask[] {
     done: store.readGroup("form", job.verb) !== null,
     log: { group: "form", rank: job.rank, word: job.verb },
     failedName: `form-${job.verb}`,
-    request: { system: FORM_SYSTEM_PROMPT, prompt: formPrompt(job), schema: FORM_SCHEMA },
+    request: { ...FORM_REQUESTS[store.lang], prompt: formPrompt(job) },
     guard: (output) => guardForms(output, job),
     save: (cards, _skip, meta) => store.saveGroup("form", job.verb, cards, { rank: job.rank, word: job.verb, from: job.source.id, ...meta }),
   }));
@@ -307,11 +358,11 @@ Fields
 
 Every text field is one line of plain text, with no Markdown and no surrounding quotes.`;
 
-export function phrasePrompt(job: PhraseJob): string {
+export function phrasePrompt(job: PhraseJob, lang: LangCode = "es"): string {
   return [
     `Unit ${job.unitNumber} of the starter path: "${job.unitTitle}". Its goal: now you can ${job.unitGoal.replace(/^now you can /i, "")}`,
     job.source === "chunk"
-      ? `This is a survival chunk. Its English: "${job.en}". Its Spanish, from the plan: ${job.es}`
+      ? `This is a survival chunk. Its English: "${job.en}". Its ${LANGS[lang].language}, from the plan: ${job.es}`
       : `This is a payoff phrase. Its English: "${job.en}".`,
     "What the learner has met by the end of this unit (the unit plan's wants, earlier units first):",
     ...job.known.map((w) => `- ${w}`),
@@ -328,6 +379,12 @@ export const PHRASE_SCHEMA: Rec = object({
   words: { type: "array", items: text },
 });
 
+/** The phrase pass's system prompt and schema per language (DE5). German's are DE7's to write; see prompts-de.ts. */
+export const PHRASE_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
+  es: { system: PHRASE_SYSTEM_PROMPT, schema: PHRASE_SCHEMA },
+  de: { system: GERMAN_PHRASE_SYSTEM, schema: GERMAN_PHRASE_SCHEMA },
+};
+
 /** The 1,000 most common words: a phrase is made only of these. */
 export const TOP_WORDS = 1000;
 
@@ -343,6 +400,7 @@ export function guardPhrase(
   output: unknown,
   job: PhraseJob,
   ranks: Map<string, number>,
+  lang: LangCode = "es",
 ): { guarded: Guarded; words: PhraseWords | null } {
   if (!isRec(output)) return { guarded: { ok: false, kind: "shape", fields: [] }, words: null };
   const g = new Guard();
@@ -352,21 +410,24 @@ export function guardPhrase(
   );
   const known = words.map((w) => w.rank).filter((r): r is number => r !== null);
   if (known.length === 0) g.fail("words");
-  const example = isRec(output.example) ? output.example : {};
-  const card = withMedia({
-    id: job.id,
-    rank: known.length ? Math.max(...known) : 0,
-    kind: "phrase",
-    pos: "phrase",
-    target: g.text(output.es, "es"),
-    en: g.text(output.en, "en"),
-    hint: g.optional(output.hint, "hint"),
-    grammar: null,
-    example: { target: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
-    regional: spainFootnote(g.optional(output.spain, "spain")),
-    trick: g.optional(output.trick, "trick"),
-  });
-  guardValid(card, g);
+  const claude = claudeTexts(output, g, lang);
+  const card = withMedia(
+    {
+      id: job.id,
+      rank: known.length ? Math.max(...known) : 0,
+      kind: "phrase",
+      pos: "phrase",
+      target: claude.target,
+      en: g.text(output.en, "en"),
+      hint: g.optional(output.hint, "hint"),
+      grammar: null,
+      example: claude.example,
+      regional: claude.regional,
+      trick: g.optional(output.trick, "trick"),
+    },
+    lang,
+  );
+  guardValid(card, g, lang);
   if (g.fields.size > 0) return { guarded: { ok: false, kind: "invalid", fields: [...g.fields].sort() }, words: null };
   const outside = words.filter((w) => w.rank === null || w.rank > TOP_WORDS).map((w) => w.word);
   return { guarded: { ok: true, cards: [card as DraftCard], skip: null }, words: { words, outside } };
@@ -384,9 +445,9 @@ export function phraseTasks(jobs: PhraseJob[], store: DraftStore, ranks: Map<str
       done: group !== null && group.line === job.line && group.unit === job.unit,
       log: { group: "phrase", id: job.id, unit: job.unit },
       failedName: job.id,
-      request: { system: PHRASE_SYSTEM_PROMPT, prompt: phrasePrompt(job), schema: PHRASE_SCHEMA },
+      request: { ...PHRASE_REQUESTS[store.lang], prompt: phrasePrompt(job, store.lang) },
       guard: (output) => {
-        const { guarded, words } = guardPhrase(output, job, ranks);
+        const { guarded, words } = guardPhrase(output, job, ranks, store.lang);
         last = words;
         return guarded;
       },
