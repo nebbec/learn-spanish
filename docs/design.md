@@ -1,6 +1,6 @@
 # Learn Spanish: design
 
-Status: agreed design, nothing built yet. Written 2026-10-01 from a design interview. The work is broken into [tickets](#tickets) at the end. The [learning path](#learning-path) (units, tips, intros, form and phrase cards, track L) was added on 2026-10-03 from a second interview, after using the first 100 cards from zero showed that pure frequency order loses a true beginner.
+Status: agreed design, nothing built yet. Written 2026-10-01 from a design interview. The work is broken into [tickets](#tickets) at the end. The [learning path](#learning-path) (units, tips, intros, form and phrase cards, track L) was added on 2026-10-03 from a second interview, after using the first 100 cards from zero showed that pure frequency order loses a true beginner. A German version of the same app, sharing this code and engine, is specified in [german.md](german.md) with its own board (agreed 2026-10-09).
 
 ## Goal
 
@@ -930,7 +930,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L15 | Reset on the device | none | | Done |
 | L16 | Reset sync | L15 | | Done |
 | L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done except: deploy, Start over and study unit 1 on the phone |
-| H1 | First-slice acceptance | all above | Phone testing | Todo |
+| H1 | First-slice acceptance | all above | Phone testing | Done |
 | M1 | Archive finished tickets' notes | none | | Done |
 | S1 | Media hosting at 1,000 cards | H1 | Decision | Todo |
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
