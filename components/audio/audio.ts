@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useSyncExternalStore } from "react";
+import { NAMES } from "@/lang";
 
 /**
- * `localStorage` key for the mute switch: "1" when muted. Missing means not muted,
+ * `localStorage` key for the mute switch (`learn-spanish.muted` in Spanish): "1" when muted. Missing means not muted,
  * so audio plays by itself until the learner turns it off. See "Hear it, say it"
  * in docs/design.md.
  */
-export const MUTED_KEY = "learn-spanish.muted";
+export const MUTED_KEY = NAMES.muted;
 
 const listeners = new Set<() => void>();
 

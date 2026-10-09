@@ -2,6 +2,8 @@ import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import manifest from "@/app/manifest";
+import { LANGS } from "@/lang";
+import { appManifest } from "./manifest";
 import { installPath, isIos, serviceWorkerUrl } from "./install";
 
 const IPHONE =
@@ -26,24 +28,33 @@ describe("install path", () => {
     expect(installPath({ userAgent: ANDROID, maxTouchPoints: 5, standalone: true })).toBe("installed");
   });
 
-  it("gives each build its own service worker address", () => {
-    expect(serviceWorkerUrl("abc123")).toBe("/sw.js?v=abc123");
-    expect(serviceWorkerUrl(undefined)).toBe("/sw.js?v=dev");
+  it("gives each build its own service worker address, naming the build's language", () => {
+    expect(serviceWorkerUrl("abc123")).toBe("/sw.js?v=abc123&lang=es");
+    expect(serviceWorkerUrl(undefined)).toBe("/sw.js?v=dev&lang=es");
+    expect(serviceWorkerUrl("abc123", "de")).toBe("/sw.js?v=abc123&lang=de");
   });
 });
 
 describe("manifest", () => {
   const publicDir = path.join(__dirname, "..", "..", "public");
 
-  it("opens on the menu as a standalone app", () => {
-    const m = manifest();
-    expect(m.start_url).toBe("/");
-    expect(m.display).toBe("standalone");
-    expect(m.name).toBe("Learn Spanish");
+  it("is the build's language's (Spanish when NEXT_PUBLIC_LANG is unset)", () => {
+    expect(manifest()).toEqual(appManifest(LANGS.es));
   });
 
-  it("has 192 and 512 pixel icons and a maskable one, each a real file of that size", () => {
-    const icons = manifest().icons ?? [];
+  it.each([
+    ["es", "Learn Spanish", "Spanish"],
+    ["de", "Learn German", "German"],
+  ] as const)("opens on the menu as a standalone app (%s)", (code, name, shortName) => {
+    const m = appManifest(LANGS[code]);
+    expect(m.start_url).toBe("/");
+    expect(m.display).toBe("standalone");
+    expect(m.name).toBe(name);
+    expect(m.short_name).toBe(shortName);
+  });
+
+  it.each(["es", "de"] as const)("has 192 and 512 pixel icons and a maskable one, each a real file of that size (%s)", (code) => {
+    const icons = appManifest(LANGS[code]).icons ?? [];
     expect(icons.map((icon) => icon.sizes)).toEqual(expect.arrayContaining(["192x192", "512x512"]));
     expect(icons.some((icon) => icon.purpose === "maskable")).toBe(true);
     for (const icon of icons) {
@@ -53,12 +64,12 @@ describe("manifest", () => {
       const data = readFileSync(file);
       expect(`${data.readUInt32BE(16)}x${data.readUInt32BE(20)}`).toBe(icon.sizes);
     }
-    expect(existsSync(path.join(publicDir, "apple-touch-icon.png"))).toBe(true);
+    expect(existsSync(path.join(publicDir, LANGS[code].icons.apple))).toBe(true);
   });
 
-  it("lists every icon among the files the service worker stores", () => {
+  it.each(["es", "de"] as const)("lists every icon among the files the service worker stores (%s)", (code) => {
     const sw = readFileSync(path.join(publicDir, "sw.js"), "utf8");
-    for (const icon of manifest().icons ?? []) expect(sw).toContain(`"${icon.src.split("?")[0]}"`);
+    for (const icon of appManifest(LANGS[code]).icons ?? []) expect(sw).toContain(`"${icon.src.split("?")[0]}"`);
     expect(sw).toContain('"/manifest.webmanifest"');
   });
 });

@@ -6,6 +6,7 @@
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
 import { Mascot } from "@/components/motion";
+import { LANG } from "@/lang";
 import { Wheel } from "@/components/Wheel";
 import type { Card, DeckUnit, PartOfSpeech } from "@/lib/deck";
 import { progressStats } from "@/lib/progress";
@@ -62,7 +63,7 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
           <Mascot pose="idle" />
         </div>
         <div className="flex min-w-0 flex-col gap-1">
-          <h1 className="font-display text-prompt font-bold whitespace-nowrap">Learn Spanish</h1>
+          <h1 className="font-display text-prompt font-bold whitespace-nowrap">{LANG.appName}</h1>
           <div className="flex items-center gap-4">
             <Link href={ROUTES.tips} data-testid="menu-tips" className="font-bold text-brand">
               Tips
@@ -136,7 +137,7 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
         >
           <span className="flex flex-col">
             <span>Reverse</span>
-            <span className="text-sm font-normal text-ink-soft">Practise with the Spanish shown first</span>
+            <span className="text-sm font-normal text-ink-soft">Practise with the {LANG.language} shown first</span>
           </span>
           <span>{reverse ? "On" : "Off"}</span>
         </button>

@@ -2,6 +2,7 @@
 
 import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
+import { LANG } from "@/lang";
 import type { Card, DeckTip } from "@/lib/deck";
 import type { IntroChoice } from "@/lib/queues";
 import { CharacterSlot } from "./CardFront";
@@ -50,7 +51,7 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
 
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">
-            <span data-testid="intro-es" lang="es" className="font-display text-answer font-bold">
+            <span data-testid="intro-es" lang={LANG.tag} className="font-display text-answer font-bold">
               {card.es}
             </span>
             <AudioButton label="Play the word" testId="play-word" onPress={() => onPlay(card.audio.word)} />
@@ -97,7 +98,7 @@ function EarlierLine({ earlier }: { earlier: Card }) {
   return (
     <p data-testid="earlier-meaning" className="text-lg">
       You know{" "}
-      <em lang="es" className="font-bold">
+      <em lang={LANG.tag} className="font-bold">
         {earlier.es}
       </em>{" "}
       = {meaning}. It also means:

@@ -46,6 +46,16 @@ One file per language, `lang/<code>.ts` (`lang/es.ts`, `lang/de.ts`), picked at 
 - **The voice**: provider, voice and instruction, read by `npm run audio` and the voice test.
 - **The draft, review and tag prompts' language rules**: register, variety, grammar fields and the language's examples, so the shared passes write German cards. The prompts' structure stays shared. Only the paragraphs that are about the language move into the config.
 
+Decided in DE1 (config in `lang/`: `types.ts`, `es.ts`, `de.ts`, and `index.ts` with `LANG`, `langConfig`, `storageNames` and `NAMES`; test in `lang/lang.test.ts`):
+
+- **Chosen at build time.** `next.config.ts` passes `NEXT_PUBLIC_LANG` on as `es` when it is unset or empty, so every build inlines a value; `lang/index.ts` reads it as `process.env.NEXT_PUBLIC_LANG` and refuses an unknown code, which fails the build. Both configs are in every bundle (about a kilobyte); only the build's is used.
+- **The names on the device come from one prefix**, `storage` (`learn-spanish`, `learn-german`), spelled out by `storageNames`: the database is the prefix itself; `localStorage` keys are `<prefix>.muted`, `.device-id`, `.install-dismissed`, `.last-sync` and `.auth`; the window event is `<prefix>:synced`; the worker's cache is `<prefix>-shell-<build id>` and the media cache `<prefix>-media`. The Spanish names are exactly the ones before DE1: `lang/lang.test.ts` writes them out and loads every module that names one under each language (`NEXT_PUBLIC_LANG` unset and `de`).
+- **The service worker is told its language in its address**, `/sw.js?v=<build id>&lang=<es|de>` (`serviceWorkerUrl`). `public/sw.js` is served as it is and cannot import `lang/`, so it holds a small table per language (prefix, deck path, mascot files, icons), and `lib/pwa/sw.test.ts` checks it against `lang/es.ts` and `lang/de.ts`. No language, or an unknown one, is Spanish. A worker reads art and audio under every language's deck (`/deck/` and `/deck-de/`), since a German card may use a Spanish still by its Spanish path; it stores and deletes only its own shell caches, so in development, where both share `localhost`, neither removes the other's.
+- **What the config drives in the app**: the manifest (`appManifest` in `lib/pwa/manifest.ts`), `<title>` and the home-screen title, the menu heading, the install prompt, "Practise with the Spanish shown first" and the Reverse button (`language`), every `lang` attribute on text in the language being learned (`tag`), the deck's address (`DECK_URL`, `deckPath`), the mascot files (`MASCOT_FILES`) and the icons. The page's own `<html lang>` stays `en`: the screens are in English.
+- **Fields for later tickets**, held in the config but not yet read by the scripts: `contentDir` (`content`, `content/de`) and `publicDeckDir` (`public/deck`, `public/deck-de`) for DE5, and `voice`. The Spanish `voice` is a copy of `VOICE` in `scripts/content/audio.mjs`, which a test keeps equal until DE5 makes the scripts read the config.
+- **Placeholders in `lang/de.ts`**: the mascot and icons are the concha's (`/mascot/`, `/icon-*.png`) until DE14 makes the lead's under `/mascot-de/`, which must change the `de` row of `public/sw.js` too; the voice is `coral` with a Hochdeutsch instruction until DE11. `regionalLabel` is null for German, since each card will name its region (DE3); until DE4 draws it from the card, the reveal labels a German footnote "Also".
+- **A placeholder German deck**, `public/deck-de/deck.json`, an empty format 2 deck (version 1), so the German build loads and its worker installs. DE3 moves it to format 3 with `lang`, and DE12 replaces it with the first 100.
+
 ### Content scripts
 
 Every content script takes `--lang de` (default `es`) and reads and writes `content/de/` in place of `content/`: `word-list.tsv`, `units.json`, `tips.json`, `drafts/`, `review/`, `tags/`, `tips/`, `deck.json`, `path.md`, `art/cast.tsv` and `art/review.tsv`. The German deck the app serves is `public/deck-de/deck.json`, with its audio under `public/deck-de/audio/` and its own stills under `public/deck-de/img/`. A reused Spanish still is named by its Spanish path (`/deck/img/casa-house.webp`).
@@ -203,7 +213,7 @@ Same rules as design.md, "Rules for every ticket", and the same [ticket loop](ti
 
 | ID | Ticket | Depends on | Human | Status |
 |---|---|---|---|---|
-| DE1 | Language config and two builds | none | | Todo |
+| DE1 | Language config and two builds | none | | Done |
 | DE2 | `lang` in Supabase and sync | DE1 | Push migration | Todo |
 | DE3 | Deck format 3 and German grammar | DE1 | | Todo |
 | DE4 | German card layouts | DE3 | | Todo |
@@ -227,6 +237,7 @@ DE1 and DE10 can start at once. DE2, DE3 and DE5 run beside each other after DE1
 **DE1 Language config and two builds**
 - Build: `lang/es.ts` and `lang/de.ts` as under [The language config](#the-language-config), chosen by `NEXT_PUBLIC_LANG` (default `es`). Move every Spanish-specific name, string, storage name, cache name, deck path and mascot path in `app/`, `components/`, `lib/` and `public/sw.js` behind it, including the `lang="es"` attributes. `lang/de.ts` may hold placeholders for the mascot and voice until DE10, DE11 and DE14. Tests run under both languages where a test names a storage key or path.
 - Done when: the Spanish build is unchanged byte for byte in what it stores (same database, keys and caches; checked by test), `NEXT_PUBLIC_LANG=de npm run build` passes and serves the German names, and `npm test`, `npm run lint` and both builds pass.
+- Note (DE1): built as in "Decided in DE1" under [The language config](#the-language-config). Checked on 2026-10-09: `npm test` (48 files, 731 tests), `npm run lint`, `npm run typecheck`, `npm run build` (manifest "Learn Spanish", unchanged) and `NEXT_PUBLIC_LANG=de npm run build`; `next start` on the German build served `<title>Learn German</title>`, the German manifest, `/deck-de/deck.json` and the worker. Not looked at in a browser: the German build has an empty deck until DE12, so its menu shows nothing to learn.
 
 **DE2 `lang` in Supabase and sync**
 - Build: a migration adding `lang` (checked `es` or `de`, default `es`) to `reviews`, `notes`, `card_reports` and `resets`, the notes key `(user_id, lang, card_id)` and an index for filtered downloads. `SyncRemote` sends and filters by the config's language (`FakeRemote` too). `check:rls` and `check:sync` gain a German case: German rows never reach a Spanish device, and a German reset leaves Spanish replay alone.

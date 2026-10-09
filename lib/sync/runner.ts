@@ -2,6 +2,7 @@
 // show. See docs/design.md, "Sync rules" (decided in D6).
 
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { NAMES } from "@/lang";
 import { authClient, storedAccount } from "@/lib/auth";
 import { localStore, type LocalStore } from "@/lib/store";
 import type { SyncRemote } from "./remote";
@@ -9,10 +10,10 @@ import { SupabaseRemote, SyncRequestError } from "./supabaseRemote";
 import { sync, type SyncResult } from "./sync";
 
 /** localStorage key for when this device last finished a sync, and for which account. */
-export const LAST_SYNC_KEY = "learn-spanish.last-sync";
+export const LAST_SYNC_KEY = NAMES.lastSync;
 
 /** Fired on `window` after a sync that changed the device's reviews or notes. */
-export const SYNCED_EVENT = "learn-spanish:synced";
+export const SYNCED_EVENT = NAMES.syncedEvent;
 
 export type SyncPhase =
   /** The build has no Supabase settings. */

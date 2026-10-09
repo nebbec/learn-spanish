@@ -1,5 +1,7 @@
 // What the app can tell about being installed. Pure: the caller passes in what the browser reports.
 
+import { LANG, NAMES, type LangCode } from "@/lang";
+
 export interface Device {
   userAgent: string;
   /** iPadOS calls itself a Mac; a Mac with a touch screen is an iPad. */
@@ -26,9 +28,9 @@ export function installPath(device: Device): InstallPath {
 }
 
 /** The service worker's address for a build. A new build id makes the browser install a new worker. */
-export function serviceWorkerUrl(buildId: string | undefined): string {
-  return `/sw.js?v=${encodeURIComponent(buildId || "dev")}`;
+export function serviceWorkerUrl(buildId: string | undefined, lang: LangCode = LANG.code): string {
+  return `/sw.js?v=${encodeURIComponent(buildId || "dev")}&lang=${lang}`;
 }
 
 /** `localStorage` key that remembers the install prompt was dismissed. */
-export const INSTALL_DISMISSED_KEY = "learn-spanish.install-dismissed";
+export const INSTALL_DISMISSED_KEY = NAMES.installDismissed;

@@ -3,6 +3,7 @@
 import { Fragment, type ReactNode } from "react";
 import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
+import { LANG } from "@/lang";
 import type { Card, DeckTip } from "@/lib/deck";
 import { FORM_ID } from "@/lib/deck/validate";
 import type { ButtonRating, Rating } from "@/lib/store";
@@ -57,7 +58,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center gap-2">
-            <span data-testid="answer" lang="es" className="font-display text-answer font-bold">
+            <span data-testid="answer" lang={LANG.tag} className="font-display text-answer font-bold">
               {card.es}
             </span>
             <AudioButton label="Play the word" testId="play-word" onPress={() => onPlay(card.audio.word)} />
@@ -77,7 +78,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         <div className="flex w-full items-start gap-2 rounded-button bg-paper p-3 text-left">
           <p className="flex flex-1 flex-col gap-0.5">
-            <span data-testid="example-es" lang="es" className="text-lg font-bold">
+            <span data-testid="example-es" lang={LANG.tag} className="text-lg font-bold">
               {card.example.es}
             </span>
             <span data-testid="example-en" className="text-ink-soft">
@@ -89,7 +90,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         {card.spain && (
           <p data-testid="spain" className="text-sm text-ink-soft">
-            Spain: <span lang="es">{card.spain}</span>
+            {LANG.regionalLabel ?? "Also"}: <span lang={LANG.tag}>{card.spain}</span>
           </p>
         )}
 
@@ -164,7 +165,7 @@ export function GrammarStrip({ card }: { card: Card }) {
   if (card.pos === "noun") {
     return (
       <p data-testid="grammar" data-variant="noun" className="font-bold">
-        <span lang="es">{card.grammar.article}</span>
+        <span lang={LANG.tag}>{card.grammar.article}</span>
         <span className="font-normal text-ink-soft">
           {" · "}
           {card.grammar.gender === "f" ? "feminine" : "masculine"}
@@ -174,7 +175,7 @@ export function GrammarStrip({ card }: { card: Card }) {
   }
   if (card.pos === "adjective") {
     return (
-      <p data-testid="grammar" data-variant="adjective" lang="es" className="font-bold">
+      <p data-testid="grammar" data-variant="adjective" lang={LANG.tag} className="font-bold">
         {card.es} / {card.grammar.feminine}
       </p>
     );
@@ -184,7 +185,7 @@ export function GrammarStrip({ card }: { card: Card }) {
     const own = formPerson(card);
     return (
       <p data-testid="grammar" data-variant="verb" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
-        <span lang="es" className="font-bold">
+        <span lang={LANG.tag} className="font-bold">
           {PERSONS.map(({ person, label }, i) => (
             <Fragment key={person}>
               {i > 0 && " · "}

@@ -2,9 +2,11 @@
 // service worker can cache it and a deck revision needs no code change.
 
 import type { Card, Deck } from "./types";
+import { LANG } from "@/lang";
 import { parseDeck } from "./validate";
 
-export const DECK_URL = "/deck/deck.json";
+/** The build's deck: `/deck/deck.json` for Spanish, `/deck-de/deck.json` for German (lang/). */
+export const DECK_URL = `${LANG.deckPath}deck.json`;
 
 export interface LoadedDeck extends Deck {
   /** Look a card up by id. */

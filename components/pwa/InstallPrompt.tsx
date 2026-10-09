@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { INSTALL_DISMISSED_KEY, installPath, type InstallPath } from "@/lib/pwa";
+import { LANG } from "@/lang";
 
 /** Chrome's install event. Not in TypeScript's DOM types. */
 interface BeforeInstallPromptEvent extends Event {
@@ -86,7 +87,7 @@ export function InstallPrompt() {
         {path === "ios" ? (
           <>
             <p data-testid="install-ios">
-              Add Learn Spanish to your Home Screen: tap <strong>Share</strong>, then{" "}
+              Add {LANG.appName} to your Home Screen: tap <strong>Share</strong>, then{" "}
               <strong>Add to Home Screen</strong>, and open it from there.
             </p>
             <p className="text-sm text-ink-soft">
@@ -95,7 +96,7 @@ export function InstallPrompt() {
             </p>
           </>
         ) : (
-          <p>Install Learn Spanish to open it from your home screen, online or off.</p>
+          <p>Install {LANG.appName} to open it from your home screen, online or off.</p>
         )}
         <div className="flex gap-3">
           {path === "browser" && (

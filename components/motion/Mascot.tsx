@@ -3,20 +3,17 @@
 /* eslint-disable @next/next/no-img-element -- static files from public/mascot, stored by the service worker */
 
 import { useMotion } from "./motion";
+import { LANG } from "@/lang";
 
 /** What the hero mascot does: the menu's idle loop, the celebration loop, or the still for the empty screens. */
 export type MascotPose = "idle" | "celebrate" | "still";
 
 /**
- * The mascot's files, made by `npm run mascot` (docs/design.md, "Art", "Decided in F3").
+ * The build's mascot files (lang/), made by `npm run mascot` (docs/design.md, "Art", "Decided in F3").
  * Each loop's poster is its first frame, which also stands in for it with reduced motion on.
  * The service worker stores them all on install, so they play offline.
  */
-export const MASCOT_FILES = {
-  idle: { clip: "/mascot/idle.mp4", poster: "/mascot/idle.webp" },
-  celebrate: { clip: "/mascot/celebrate.mp4", poster: "/mascot/celebrate.webp" },
-  still: "/mascot/concha.webp",
-} as const;
+export const MASCOT_FILES = LANG.mascot;
 
 /** Muted is set as a property too: React leaves the attribute off, and iOS only autoplays muted video. */
 function keepMuted(video: HTMLVideoElement | null) {

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useMotion } from "@/components/motion";
+import { LANG } from "@/lang";
 import type { DeckTip } from "@/lib/deck";
 import { playClip } from "@/components/audio";
 import { AudioButton } from "./Reveal";
@@ -31,7 +32,7 @@ export function TipBody({ tip, onPlay = playClip }: TipBodyProps) {
             className="flex items-center gap-2 rounded-button bg-paper p-3 text-left"
           >
             <p className="flex flex-1 flex-col gap-0.5">
-              <span lang="es" className="text-lg font-bold">
+              <span lang={LANG.tag} className="text-lg font-bold">
                 {example.es}
               </span>
               <span className="text-ink-soft">{example.en}</span>
