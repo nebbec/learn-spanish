@@ -1,0 +1,17 @@
+{
+  "id": "cuarto-room",
+  "rank": 523,
+  "word": "cuarto",
+  "draft": "a896a0fc5cfa151e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "room, especially a bedroom (noun)",
+    "example": "I'm in my room."
+  },
+  "note": "Spain does use cuarto too (for example, cuarto de baño and mi cuarto), but habitación is the more usual word there for a bedroom, so the spain field is defensible; regional words like recámara (Mexico) and pieza (Southern Cone) are less common than cuarto and do not undermine the single answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:37.595Z"
+}

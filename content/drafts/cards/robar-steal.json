@@ -1,0 +1,28 @@
+{
+  "id": "robar-steal",
+  "rank": 345,
+  "kind": "content",
+  "pos": "verb",
+  "es": "robar",
+  "en": "to steal",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "robo",
+      "tu": "robas",
+      "el": "roba"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Alguien me robó el celular.",
+    "en": "Someone stole my phone."
+  },
+  "spain": null,
+  "trick": "ROBAR sounds like robber: a robber's whole job is to steal.",
+  "image": "/deck/img/robar-steal.webp",
+  "audio": {
+    "word": "/deck/audio/robar-steal.word.mp3",
+    "sentence": "/deck/audio/robar-steal.sentence.mp3"
+  }
+}

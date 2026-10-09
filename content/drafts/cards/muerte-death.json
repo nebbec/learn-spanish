@@ -1,0 +1,24 @@
+{
+  "id": "muerte-death",
+  "rank": 301,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la muerte",
+  "en": "death",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "No le tengo miedo a la muerte.",
+    "en": "I'm not afraid of death."
+  },
+  "spain": null,
+  "trick": "MUERTE sounds like \"more tea\": at the wake, everyone asks for more tea after the death.",
+  "image": "/deck/img/muerte-death.webp",
+  "audio": {
+    "word": "/deck/audio/muerte-death.word.mp3",
+    "sentence": "/deck/audio/muerte-death.sentence.mp3"
+  }
+}

@@ -1,0 +1,30 @@
+# aunque-although · rank 361 · aunque
+#
+# Why it was flagged:
+#   - Example sentence: With the subjunctive esté the sentence means 'even if I'm tired', not 'even though I'm tired', so the translation teaches the wrong mood-meaning pairing and does not match the prompt's factual indicative use. Suggested fix: example.es: Voy a ir aunque estoy cansado.
+# Reviewer's note (not a reason to flag): If a subjunctive example is wanted later, it should be translated with 'even if', on a separate card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to example.es (indicative, matching 'even though').
+decision: pending
+
+id:         aunque-although
+kind:       glue
+pos:        conjunction
+es:         aunque
+en:         I'll go [although] it's raining
+hint:
+example.es: Voy a ir aunque estoy cansado.
+example.en: I'm going to go even though I'm tired.
+spain:
+trick:      AUNQUE sounds like "own key": although you own a key, you still knock on the door.
+
+# The draft this file was made from. Do not change it.
+draft: 650f230a7538e8c3

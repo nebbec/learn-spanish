@@ -1,0 +1,24 @@
+{
+  "id": "mensaje-message",
+  "rank": 510,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el mensaje",
+  "en": "message",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Te mandé un mensaje anoche.",
+    "en": "I sent you a message last night."
+  },
+  "spain": null,
+  "trick": "MENSAJE sounds like \"message\" said with a fancy accent: men-SAH-heh, the message has arrived.",
+  "image": "/deck/img/mensaje-message.webp",
+  "audio": {
+    "word": "/deck/audio/mensaje-message.word.mp3",
+    "sentence": "/deck/audio/mensaje-message.sentence.mp3"
+  }
+}

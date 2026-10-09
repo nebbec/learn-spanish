@@ -1,0 +1,24 @@
+{
+  "id": "mentira-lie",
+  "rank": 773,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la mentira",
+  "en": "lie",
+  "hint": "a false statement",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Eso es mentira, yo no dije nada.",
+    "en": "That's a lie, I didn't say anything."
+  },
+  "spain": null,
+  "trick": "MENTIRA sounds like 'meant ear-a': what he meant never reached your ear, only a lie.",
+  "image": "/deck/img/mentira-lie.webp",
+  "audio": {
+    "word": "/deck/audio/mentira-lie.word.mp3",
+    "sentence": "/deck/audio/mentira-lie.sentence.mp3"
+  }
+}

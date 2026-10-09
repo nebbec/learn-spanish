@@ -1,0 +1,17 @@
+{
+  "id": "escribir-write",
+  "rank": 279,
+  "word": "escribir",
+  "draft": "0f5184001a876fc6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to write",
+    "example": "I'll write you a message later."
+  },
+  "note": "Escribir has an irregular past participle (escrito), but it is regular in the present and preterite, so irregular: false is correct by the card's rule.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:11.382Z"
+}

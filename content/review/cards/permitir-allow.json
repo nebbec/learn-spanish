@@ -1,0 +1,17 @@
+{
+  "id": "permitir-allow",
+  "rank": 355,
+  "word": "permitir",
+  "draft": "f19dc7921757447c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to allow, to permit",
+    "example": "My mom doesn't let me go out late."
+  },
+  "note": "The hint is needed because \"to allow\" could also be \"dejar\", and it correctly points the learner to permitir.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:29.510Z"
+}

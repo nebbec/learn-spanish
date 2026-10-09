@@ -1,0 +1,17 @@
+{
+  "id": "mundo-world",
+  "rank": 161,
+  "word": "mundo",
+  "draft": "4612319d9ba47d10",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the world",
+    "example": "I want to travel around the whole world."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:06.249Z"
+}

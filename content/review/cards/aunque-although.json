@@ -1,0 +1,23 @@
+{
+  "id": "aunque-although",
+  "rank": 361,
+  "word": "aunque",
+  "draft": "650f230a7538e8c3",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "With the subjunctive esté the sentence means 'even if I'm tired', not 'even though I'm tired', so the translation teaches the wrong mood-meaning pairing and does not match the prompt's factual indicative use.",
+      "fix": "example.es: Voy a ir aunque estoy cansado."
+    }
+  ],
+  "back": {
+    "es": "although / even though (with indicative); even if (with subjunctive)",
+    "example": "I'm going to go even if I'm tired."
+  },
+  "note": "If a subjunctive example is wanted later, it should be translated with 'even if', on a separate card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:59.535Z"
+}

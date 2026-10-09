@@ -1,0 +1,24 @@
+{
+  "id": "noticia-news",
+  "rank": 449,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la noticia",
+  "en": "news",
+  "hint": "a piece of news; plural for the news",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tengo buenas noticias para ti.",
+    "en": "I have good news for you."
+  },
+  "spain": null,
+  "trick": "NOTICIA sounds like notice: news is whatever everyone suddenly notices.",
+  "image": "/deck/img/noticia-news.webp",
+  "audio": {
+    "word": "/deck/audio/noticia-news.word.mp3",
+    "sentence": "/deck/audio/noticia-news.sentence.mp3"
+  }
+}

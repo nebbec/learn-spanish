@@ -1,0 +1,24 @@
+{
+  "id": "dulce-candy",
+  "rank": 639,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el dulce",
+  "en": "candy",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "¿Me das un dulce?",
+    "en": "Can you give me a candy?"
+  },
+  "spain": "caramelo",
+  "trick": "DULCE sounds like \"dull sea\": kids on a dull seaside trip beg for candy.",
+  "image": "/deck/img/dulce-candy.webp",
+  "audio": {
+    "word": "/deck/audio/dulce-candy.word.mp3",
+    "sentence": "/deck/audio/dulce-candy.sentence.mp3"
+  }
+}

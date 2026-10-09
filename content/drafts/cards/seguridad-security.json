@@ -1,0 +1,24 @@
+{
+  "id": "seguridad-security",
+  "rank": 476,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la seguridad",
+  "en": "security, safety",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Llama a seguridad, hay un hombre afuera.",
+    "en": "Call security, there's a man outside."
+  },
+  "spain": null,
+  "trick": "SEGURIDAD sounds like \"secure-a-dad\": security means keeping your dad safe and secure.",
+  "image": "/deck/img/seguridad-security.webp",
+  "audio": {
+    "word": "/deck/audio/seguridad-security.word.mp3",
+    "sentence": "/deck/audio/seguridad-security.sentence.mp3"
+  }
+}

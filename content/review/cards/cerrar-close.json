@@ -1,0 +1,17 @@
+{
+  "id": "cerrar-close",
+  "rank": 342,
+  "word": "cerrar",
+  "draft": "52d4d8b1fa15d7a3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to close, to shut",
+    "example": "Close the door, please."
+  },
+  "note": "The example uses the tú imperative (cierra), which has the same form as the él present, so it also shows the e-to-ie stem change.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:42.669Z"
+}

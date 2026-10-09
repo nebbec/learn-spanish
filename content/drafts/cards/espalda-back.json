@@ -1,0 +1,24 @@
+{
+  "id": "espalda-back",
+  "rank": 789,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la espalda",
+  "en": "back",
+  "hint": "body part",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Me duele mucho la espalda.",
+    "en": "My back hurts a lot."
+  },
+  "spain": null,
+  "trick": "ESPALDA sounds like \"a spa, Dad\": Dad's sore back needs a spa massage.",
+  "image": "/deck/img/espalda-back.webp",
+  "audio": {
+    "word": "/deck/audio/espalda-back.word.mp3",
+    "sentence": "/deck/audio/espalda-back.sentence.mp3"
+  }
+}

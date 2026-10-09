@@ -1,0 +1,17 @@
+{
+  "id": "peor-worse",
+  "rank": 465,
+  "word": "peor",
+  "draft": "abe26664f94a821d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "worse (also worst, with an article: el peor)",
+    "example": "Today the traffic is worse than yesterday."
+  },
+  "note": "Because this is the word's only card, the editor could mention that peor with an article also means \"worst\" (el peor, la peor).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:22.286Z"
+}

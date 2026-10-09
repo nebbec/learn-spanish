@@ -1,0 +1,24 @@
+{
+  "id": "oportunidad-chance",
+  "rank": 368,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la oportunidad",
+  "en": "opportunity",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Dame otra oportunidad, por favor.",
+    "en": "Give me another chance, please."
+  },
+  "spain": null,
+  "trick": "OPORTUNIDAD sounds like opportunity with a Spanish accent: a golden chance knocking on your door.",
+  "image": "/deck/img/oportunidad-chance.webp",
+  "audio": {
+    "word": "/deck/audio/oportunidad-chance.word.mp3",
+    "sentence": "/deck/audio/oportunidad-chance.sentence.mp3"
+  }
+}

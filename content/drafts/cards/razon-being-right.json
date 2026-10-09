@@ -1,0 +1,24 @@
+{
+  "id": "razon-being-right",
+  "rank": 208,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la razón",
+  "en": "being right",
+  "hint": "used in tener ___ (to be right)",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tienes razón, lo siento.",
+    "en": "You're right, I'm sorry."
+  },
+  "spain": null,
+  "trick": "If you have RAZÓN, you have the reason on your side, so you're right.",
+  "image": "/deck/img/razon-being-right.webp",
+  "audio": {
+    "word": "/deck/audio/razon-being-right.word.mp3",
+    "sentence": "/deck/audio/razon-being-right.sentence.mp3"
+  }
+}

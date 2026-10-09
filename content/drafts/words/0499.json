@@ -1,0 +1,12 @@
+{
+  "rank": 499,
+  "word": "libre",
+  "cards": [
+    "libre-free"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:34:39.671Z"
+}

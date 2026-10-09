@@ -1,0 +1,17 @@
+{
+  "id": "derecho-straight-ahead",
+  "rank": 483,
+  "word": "derecho",
+  "draft": "9cfa55037341b4aa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "straight, straight ahead (adverb, in directions: seguir derecho = keep going straight)",
+    "example": "Keep going straight for two blocks."
+  },
+  "note": "You could add a line to the card saying \"derecho\" (straight ahead) is not \"a la derecha\" (to the right), because learners often mix the two up when giving directions.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:38.499Z"
+}

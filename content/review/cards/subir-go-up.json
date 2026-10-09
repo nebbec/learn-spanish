@@ -1,0 +1,17 @@
+{
+  "id": "subir-go-up",
+  "rank": 351,
+  "word": "subir",
+  "draft": "e0bda749ef8920a5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "subir = to go up, to climb (stairs), to rise; also to take up, to raise, to upload",
+    "example": "Go up the stairs, I'm in my room."
+  },
+  "note": "Ascender also means to go up but is formal, so subir is clearly the everyday answer; \"Come up the stairs\" is a fair rendering of the imperative \"Sube\" because the speaker is upstairs.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:12.729Z"
+}

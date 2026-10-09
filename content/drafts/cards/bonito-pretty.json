@@ -1,0 +1,23 @@
+{
+  "id": "bonito-pretty",
+  "rank": 413,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "bonito",
+  "en": "pretty",
+  "hint": "also nice; not lindo",
+  "grammar": {
+    "feminine": "bonita"
+  },
+  "example": {
+    "es": "Qué casa tan bonita tienes.",
+    "en": "What a pretty house you have."
+  },
+  "spain": null,
+  "trick": "BONITO sounds like \"bonnet, oh\": what a pretty bonnet, oh my!",
+  "image": "/deck/img/bonito-pretty.webp",
+  "audio": {
+    "word": "/deck/audio/bonito-pretty.word.mp3",
+    "sentence": "/deck/audio/bonito-pretty.sentence.mp3"
+  }
+}

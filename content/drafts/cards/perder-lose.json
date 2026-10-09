@@ -1,0 +1,28 @@
+{
+  "id": "perder-lose",
+  "rank": 152,
+  "kind": "content",
+  "pos": "verb",
+  "es": "perder",
+  "en": "to lose",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "pierdo",
+      "tu": "pierdes",
+      "el": "pierde"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Perdí mis llaves otra vez.",
+    "en": "I lost my keys again."
+  },
+  "spain": null,
+  "trick": "PERDER sounds like \"pair dare\": you dare to bet a pair of shoes and lose them.",
+  "image": "/deck/img/perder-lose.webp",
+  "audio": {
+    "word": "/deck/audio/perder-lose.word.mp3",
+    "sentence": "/deck/audio/perder-lose.sentence.mp3"
+  }
+}

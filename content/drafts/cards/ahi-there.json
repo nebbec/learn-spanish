@@ -1,0 +1,21 @@
+{
+  "id": "ahi-there",
+  "rank": 131,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "ahí",
+  "en": "there",
+  "hint": "near you, not far away",
+  "grammar": null,
+  "example": {
+    "es": "Tus llaves están ahí, en la mesa.",
+    "en": "Your keys are there, on the table."
+  },
+  "spain": null,
+  "trick": "AHÍ sounds like \"ah, he\": Ah, he is right there, next to you!",
+  "image": "/deck/img/ahi-there.webp",
+  "audio": {
+    "word": "/deck/audio/ahi-there.word.mp3",
+    "sentence": "/deck/audio/ahi-there.sentence.mp3"
+  }
+}

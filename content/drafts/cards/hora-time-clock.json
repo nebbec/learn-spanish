@@ -1,0 +1,24 @@
+{
+  "id": "hora-time-clock",
+  "rank": 156,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la hora",
+  "en": "time",
+  "hint": "on the clock",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Qué hora es?",
+    "en": "What time is it?"
+  },
+  "spain": null,
+  "trick": "HORA sounds like \"hour\": to ask what time it is, you ask which hour it is.",
+  "image": "/deck/img/hora-time-clock.webp",
+  "audio": {
+    "word": "/deck/audio/hora-time-clock.word.mp3",
+    "sentence": "/deck/audio/hora-time-clock.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "caballero-gentleman",
+  "rank": 519,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el caballero",
+  "en": "gentleman",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Buenas noches, damas y caballeros.",
+    "en": "Good evening, ladies and gentlemen."
+  },
+  "spain": null,
+  "trick": "CABALLERO sounds like \"cab a hero\": a true gentleman calls a cab for you like a hero.",
+  "image": "/deck/img/caballero-gentleman.webp",
+  "audio": {
+    "word": "/deck/audio/caballero-gentleman.word.mp3",
+    "sentence": "/deck/audio/caballero-gentleman.sentence.mp3"
+  }
+}

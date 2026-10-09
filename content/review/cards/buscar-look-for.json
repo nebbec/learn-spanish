@@ -1,0 +1,17 @@
+{
+  "id": "buscar-look-for",
+  "rank": 148,
+  "word": "buscar",
+  "draft": "5ebef084a6da2876",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to look for, to search for",
+    "example": "I'm looking for my keys."
+  },
+  "note": "The preterite yo form busqué is only a spelling change (c to qu), so irregular: false is right, but the editor might mention busqué somewhere so learners aren't surprised by it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:36.238Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bastante-enough",
+  "rank": 331,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "bastante",
+  "en": "enough",
+  "hint": "plenty, a good amount; not suficiente",
+  "grammar": {
+    "feminine": "bastante"
+  },
+  "example": {
+    "es": "No tenemos bastante dinero para el viaje.",
+    "en": "We don't have enough money for the trip."
+  },
+  "spain": null,
+  "trick": "BASTANTE sounds like 'basta': basta means stop, because you already have enough.",
+  "image": "/deck/img/bastante-enough.webp",
+  "audio": {
+    "word": "/deck/audio/bastante-enough.word.mp3",
+    "sentence": "/deck/audio/bastante-enough.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cumplir-fulfill",
+  "rank": 689,
+  "kind": "content",
+  "pos": "verb",
+  "es": "cumplir",
+  "en": "to fulfill",
+  "hint": "a promise, a duty, an order",
+  "grammar": {
+    "present": {
+      "yo": "cumplo",
+      "tu": "cumples",
+      "el": "cumple"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Siempre cumplo mis promesas.",
+    "en": "I always keep my promises."
+  },
+  "spain": null,
+  "trick": "CUMPLIR sounds like complete: you fulfill a promise by completing it.",
+  "image": "/deck/img/cumplir-fulfill.webp",
+  "audio": {
+    "word": "/deck/audio/cumplir-fulfill.word.mp3",
+    "sentence": "/deck/audio/cumplir-fulfill.sentence.mp3"
+  }
+}

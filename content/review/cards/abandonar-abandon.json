@@ -1,0 +1,23 @@
+{
+  "id": "abandonar-abandon",
+  "rank": 611,
+  "word": "abandonar",
+  "draft": "cad98fe8eaf6c22b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The sentence uses abandonar in the infinitive after voy a, but the card's own verb must appear conjugated.",
+      "fix": "example.es: Mi papá nos abandonó cuando yo era niño. / example.en: My dad abandoned us when I was a kid."
+    }
+  ],
+  "back": {
+    "es": "to abandon, to leave (someone or something) behind, to give up",
+    "example": "I'm never going to abandon you."
+  },
+  "note": "Dejar can also mean \"to leave\", but for the prompt \"to abandon\" abandonar is the clear answer, so the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:47.470Z"
+}

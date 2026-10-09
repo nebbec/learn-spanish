@@ -1,0 +1,28 @@
+{
+  "id": "permitir-allow",
+  "rank": 355,
+  "kind": "content",
+  "pos": "verb",
+  "es": "permitir",
+  "en": "to allow",
+  "hint": "looks like permit, not dejar",
+  "grammar": {
+    "present": {
+      "yo": "permito",
+      "tu": "permites",
+      "el": "permite"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Mi mamá no me permite salir tarde.",
+    "en": "My mom doesn't allow me to go out late."
+  },
+  "spain": null,
+  "trick": "PERMITIR sounds like permit-ear: you permit someone to whisper in your ear.",
+  "image": "/deck/img/permitir-allow.webp",
+  "audio": {
+    "word": "/deck/audio/permitir-allow.word.mp3",
+    "sentence": "/deck/audio/permitir-allow.sentence.mp3"
+  }
+}

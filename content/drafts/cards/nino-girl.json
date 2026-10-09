@@ -1,0 +1,24 @@
+{
+  "id": "nino-girl",
+  "rank": 150,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la niña",
+  "en": "girl",
+  "hint": "a young child, not chica",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La niña tiene seis años.",
+    "en": "The girl is six years old."
+  },
+  "spain": null,
+  "trick": "NIÑA sounds like \"knee-nya\": the little girl hugs her dad's knee.",
+  "image": "/deck/img/nino-girl.webp",
+  "audio": {
+    "word": "/deck/audio/nino-girl.word.mp3",
+    "sentence": "/deck/audio/nino-girl.sentence.mp3"
+  }
+}

@@ -1,0 +1,32 @@
+# limpiar-clean · rank 631 · limpiar
+#
+# Why it was flagged:
+#   - Example sentence: The example uses limpiar as an infinitive after tengo que instead of conjugating it. Suggested fix: example.es: Limpio mi cuarto todos los sábados. example.en: I clean my room every Saturday.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         limpiar-clean
+kind:       content
+pos:        verb
+es:         limpiar
+en:         to clean
+hint:
+yo:         limpio
+tu:         limpias
+el:         limpia
+irregular:  no
+example.es: Tengo que limpiar mi cuarto hoy.
+example.en: I have to clean my room today.
+spain:
+trick:      LIMPIAR sounds like "limp pier": you clean the dirty, limp old pier until it shines.
+
+# The draft this file was made from. Do not change it.
+draft: 21a2723fac489037

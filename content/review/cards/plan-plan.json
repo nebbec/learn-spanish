@@ -1,0 +1,17 @@
+{
+  "id": "plan-plan",
+  "rank": 388,
+  "word": "plan",
+  "draft": "3d0385bab19c174c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "plan (a masculine noun)",
+    "example": "What is the plan for tonight?"
+  },
+  "note": "The trick goes in a circle and adds little, but it says nothing false, so it passes.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:22.132Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "esposo-wife",
+  "rank": 253,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la esposa",
+  "en": "wife",
+  "hint": "not mujer; related to spouse",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Te presento a mi esposa, Laura.",
+    "en": "Let me introduce my wife, Laura."
+  },
+  "spain": null,
+  "trick": "ESPOSA sounds like spouse-a: the a ending makes her the wife.",
+  "image": "/deck/img/esposo-wife.webp",
+  "audio": {
+    "word": "/deck/audio/esposo-wife.word.mp3",
+    "sentence": "/deck/audio/esposo-wife.sentence.mp3"
+  }
+}

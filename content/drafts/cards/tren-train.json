@@ -1,0 +1,24 @@
+{
+  "id": "tren-train",
+  "rank": 751,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el tren",
+  "en": "train",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El tren sale a las ocho.",
+    "en": "The train leaves at eight."
+  },
+  "spain": null,
+  "trick": "TREN sounds like train without the A: the train lost its A somewhere down the tracks.",
+  "image": "/deck/img/tren-train.webp",
+  "audio": {
+    "word": "/deck/audio/tren-train.word.mp3",
+    "sentence": "/deck/audio/tren-train.sentence.mp3"
+  }
+}

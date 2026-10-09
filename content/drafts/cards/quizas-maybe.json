@@ -1,0 +1,21 @@
+{
+  "id": "quizas-maybe",
+  "rank": 175,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "quizás",
+  "en": "maybe",
+  "hint": "one word, not tal vez",
+  "grammar": null,
+  "example": {
+    "es": "Quizás llueva mañana.",
+    "en": "Maybe it will rain tomorrow."
+  },
+  "spain": null,
+  "trick": "QUIZÁS sounds like a quiz: maybe you pass, maybe you don't.",
+  "image": "/deck/img/quizas-maybe.webp",
+  "audio": {
+    "word": "/deck/audio/quizas-maybe.word.mp3",
+    "sentence": "/deck/audio/quizas-maybe.sentence.mp3"
+  }
+}

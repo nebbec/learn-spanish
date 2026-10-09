@@ -1,0 +1,30 @@
+# fuera-out · rank 259 · fuera
+#
+# Why it was flagged:
+#   - One right answer: The hint contains the Spanish answer itself (fuera de), so the learner reads the answer instead of recalling it. Suggested fix: hint: as in out of town, followed by de; the shorter word, not afuera
+# Reviewer's note (not a reason to flag): In Latin America afuera is more common than fuera for outside on its own, so the hint does need to rule afuera out and point to the fuera de construction.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: pending
+
+id:         fuera-out
+kind:       content
+pos:        adverb
+es:         fuera
+en:         out
+hint:       as in out of town, followed by de; the shorter word, not afuera
+example.es: Mi papá está fuera de la ciudad.
+example.en: My dad is out of town.
+spain:
+trick:      FUERA sounds like fury: in a fury, she threw him out of the house.
+
+# The draft this file was made from. Do not change it.
+draft: 74be9709f5506359

@@ -1,0 +1,24 @@
+{
+  "id": "acuerdo-agreement",
+  "rank": 143,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el acuerdo",
+  "en": "agreement",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Estoy de acuerdo contigo.",
+    "en": "I agree with you."
+  },
+  "spain": null,
+  "trick": "ACUERDO sounds like \"a cord\": an agreement ties two people together like a cord.",
+  "image": "/deck/img/acuerdo-agreement.webp",
+  "audio": {
+    "word": "/deck/audio/acuerdo-agreement.word.mp3",
+    "sentence": "/deck/audio/acuerdo-agreement.sentence.mp3"
+  }
+}

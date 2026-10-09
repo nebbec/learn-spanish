@@ -1,0 +1,17 @@
+{
+  "id": "claro-clear",
+  "rank": 153,
+  "word": "claro",
+  "draft": "38502150b60ef066",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "clear, obvious, easy to understand (adjective)",
+    "example": "The answer is very clear."
+  },
+  "note": "The hint is needed to rule out \"transparente\" (see-through) and separates this card from the \"light\" and \"of course\" cards, but its word \"obvious\" might make a learner think of \"obvio\"; \"easy to understand\" alone would avoid that.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:11.248Z"
+}

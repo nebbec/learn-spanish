@@ -1,0 +1,28 @@
+{
+  "id": "averiguar-find-out",
+  "rank": 619,
+  "kind": "content",
+  "pos": "verb",
+  "es": "averiguar",
+  "en": "to find out",
+  "hint": "by investigating",
+  "grammar": {
+    "present": {
+      "yo": "averiguo",
+      "tu": "averiguas",
+      "el": "averigua"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Voy a averiguar quién lo hizo.",
+    "en": "I'm going to find out who did it."
+  },
+  "spain": null,
+  "trick": "AVERIGUAR sounds like \"a very good war\": a detective wages a very good war on mystery to find out the truth.",
+  "image": "/deck/img/averiguar-find-out.webp",
+  "audio": {
+    "word": "/deck/audio/averiguar-find-out.word.mp3",
+    "sentence": "/deck/audio/averiguar-find-out.sentence.mp3"
+  }
+}

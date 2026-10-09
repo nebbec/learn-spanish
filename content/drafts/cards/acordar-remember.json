@@ -1,0 +1,28 @@
+{
+  "id": "acordar-remember",
+  "rank": 722,
+  "kind": "content",
+  "pos": "verb",
+  "es": "acordarse",
+  "en": "to remember",
+  "hint": "reflexive, used with de; not recordar",
+  "grammar": {
+    "present": {
+      "yo": "me acuerdo",
+      "tu": "te acuerdas",
+      "el": "se acuerda"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Te acuerdas de mí?",
+    "en": "Do you remember me?"
+  },
+  "spain": null,
+  "trick": "ACUERDO sounds like \"a cord\": tie a cord around your finger to remember.",
+  "image": "/deck/img/acordar-remember.webp",
+  "audio": {
+    "word": "/deck/audio/acordar-remember.word.mp3",
+    "sentence": "/deck/audio/acordar-remember.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ocurrir-happen",
+  "rank": 280,
+  "word": "ocurrir",
+  "draft": "d347519ac98f2462",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to occur, to happen",
+    "example": "What happened last night at the party?"
+  },
+  "note": "In subtitles ocurrir is also very frequent as ocurrírsele (se me ocurre, it occurs to me / I have an idea), which could be worth a future card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:17.702Z"
+}

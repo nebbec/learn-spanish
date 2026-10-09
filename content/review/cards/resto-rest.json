@@ -1,0 +1,17 @@
+{
+  "id": "resto-rest",
+  "rank": 508,
+  "word": "resto",
+  "draft": "8adb4ac40c87ac5b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the rest, the remainder (what is left over)",
+    "example": "I pay the rest tomorrow (i.e. I'll pay the rest tomorrow)."
+  },
+  "note": "The hint is needed to rule out el descanso, and it does that well; lo demás is close in meaning but is a neuter phrase, not a noun, so el resto is the expected answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:47.413Z"
+}

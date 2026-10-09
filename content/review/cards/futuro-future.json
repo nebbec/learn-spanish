@@ -1,0 +1,17 @@
+{
+  "id": "futuro-future",
+  "rank": 558,
+  "word": "futuro",
+  "draft": "5def6d38bf614418",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the future (noun)",
+    "example": "Nobody knows what will happen in the future."
+  },
+  "note": "El porvenir is a rarer, more literary synonym, so el futuro is the clear answer, and the bare prompt works even if read as the adjective, since that is also futuro.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:52.569Z"
+}

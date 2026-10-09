@@ -2,16 +2,16 @@
   "id": "comida-food",
   "rank": 404,
   "word": "comida",
-  "draft": "43f531740c48df47",
+  "draft": "fbd0b7d06616f7ff",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "la comida = food (also: meal)",
-    "example": "I love Mexican food."
+    "es": "food (also meal, lunch); la comida = the food",
+    "example": "I really like my mother's food."
   },
-  "note": "El alimento also means food, but it is more formal or technical, so la comida is clearly the everyday answer for this prompt.",
+  "note": "El alimento also means food, but it is more formal and used for nutrition, so la comida is clearly the everyday answer, and the separate \"meal\" card does not clash with this one.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:07:13.043Z"
+  "reviewedAt": "2026-10-09T14:27:19.199Z"
 }

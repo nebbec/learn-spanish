@@ -1,0 +1,17 @@
+{
+  "id": "viaje-trip",
+  "rank": 521,
+  "word": "viaje",
+  "draft": "30f870ee3b426297",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the trip, the journey (masculine noun)",
+    "example": "How was your trip to Mexico?"
+  },
+  "note": "Because content-card verbs always start with \"to\", the learner will read \"trip\" as the noun and not the verb \"to trip\" (tropezar), and viaje is the clear everyday answer ahead of excursión or paseo.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:27.878Z"
+}

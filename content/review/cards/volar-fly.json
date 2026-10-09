@@ -1,0 +1,17 @@
+{
+  "id": "volar-fly",
+  "rank": 545,
+  "word": "volar",
+  "draft": "abbb4e4d6db839c6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to fly",
+    "example": "The bird flies very high."
+  },
+  "note": "The irregular flag is right because volar has the o-to-ue stem change (vuelo, vuelas, vuela).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:04.266Z"
+}

@@ -1,0 +1,32 @@
+# bailar-dance · rank 620 · bailar
+#
+# Why it was flagged:
+#   - Example sentence: The example uses bailar only as an infinitive after quieres, but the target verb itself should be conjugated. Suggested fix: example.es: Mi hermana baila muy bien. / example.en: My sister dances very well.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         bailar-dance
+kind:       content
+pos:        verb
+es:         bailar
+en:         to dance
+hint:
+yo:         bailo
+tu:         bailas
+el:         baila
+irregular:  no
+example.es: ¿Quieres bailar conmigo?
+example.en: Do you want to dance with me?
+spain:
+trick:      BAILAR sounds like "buy a lar(ge) ticket": you buy a large ticket to the ball so you can dance all night.
+
+# The draft this file was made from. Do not change it.
+draft: f70ee8f424a6d1cf

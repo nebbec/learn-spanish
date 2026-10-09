@@ -1,0 +1,17 @@
+{
+  "id": "clase-kind",
+  "rank": 311,
+  "word": "clase",
+  "draft": "91e7dc7e134b2914",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "class; kind, sort, type (noun, feminine)",
+    "example": "What kind of person does that?"
+  },
+  "note": "The hint is needed because it rules out tipo, the more common word for kind, and \"what kind of person\" makes clase the clear answer over especie; the meaning is also different enough from the other card, \"class\" as a school lesson.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:17.516Z"
+}

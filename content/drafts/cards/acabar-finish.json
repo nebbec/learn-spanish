@@ -1,0 +1,28 @@
+{
+  "id": "acabar-finish",
+  "rank": 154,
+  "kind": "content",
+  "pos": "verb",
+  "es": "acabar",
+  "en": "to finish",
+  "hint": "not terminar; also to run out, to end up",
+  "grammar": {
+    "present": {
+      "yo": "acabo",
+      "tu": "acabas",
+      "el": "acaba"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Ya acabaste la tarea?",
+    "en": "Did you already finish your homework?"
+  },
+  "spain": null,
+  "trick": "ACABAR sounds like a cab bar: you finish your drink at the bar, then take a cab home.",
+  "image": "/deck/img/acabar-finish.webp",
+  "audio": {
+    "word": "/deck/audio/acabar-finish.word.mp3",
+    "sentence": "/deck/audio/acabar-finish.sentence.mp3"
+  }
+}

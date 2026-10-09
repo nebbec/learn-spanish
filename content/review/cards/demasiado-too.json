@@ -1,0 +1,17 @@
+{
+  "id": "demasiado-too",
+  "rank": 219,
+  "word": "demasiado",
+  "draft": "913f9908e6aa469f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "too (excessively), adverb before an adjective or adverb",
+    "example": "This coffee is too hot."
+  },
+  "note": "The hint is needed: it rules out también and separates this card from the too much / too many card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:12.690Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bajo-under",
+  "rank": 276,
+  "word": "bajo",
+  "draft": "90470be266a0fe4d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "under, beneath (preposition); 'bajo presión' = under pressure",
+    "example": "I work under a lot of pressure."
+  },
+  "note": "The hint isn't strictly needed, because nobody says \"debajo de presión\" and \"bajo presión\" is the fixed phrase, but it does no harm.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:59.465Z"
+}

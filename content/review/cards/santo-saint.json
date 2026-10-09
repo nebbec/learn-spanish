@@ -1,0 +1,23 @@
+{
+  "id": "santo-saint",
+  "rank": 405,
+  "word": "santo",
+  "draft": "18af3d82d728624b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "known-words",
+      "problem": "The example uses words not met before this card: abuela, reza, favorito. In the frequency phase it may use at most two words not met yet.",
+      "fix": "npm run draft -- --examples --ids santo-saint"
+    }
+  ],
+  "back": {
+    "es": "saint (a holy person; noun)",
+    "example": "My grandmother prays to her favorite saint."
+  },
+  "note": "The grammar or a later card could mention that before most names santo shortens to San (San Pedro) and that the feminine is la santa.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:46.383Z"
+}

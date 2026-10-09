@@ -1,0 +1,24 @@
+{
+  "id": "atencion-attention",
+  "rank": 585,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la atención",
+  "en": "attention",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Presta atención, por favor.",
+    "en": "Pay attention, please."
+  },
+  "spain": null,
+  "trick": "ATENCIÓN sounds like attention: say it slowly, a-ten-SYON, and everyone turns to look.",
+  "image": "/deck/img/atencion-attention.webp",
+  "audio": {
+    "word": "/deck/audio/atencion-attention.word.mp3",
+    "sentence": "/deck/audio/atencion-attention.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "real-royal",
+  "rank": 480,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "real",
+  "en": "royal",
+  "hint": null,
+  "grammar": {
+    "feminine": "real"
+  },
+  "example": {
+    "es": "La familia real vive en un palacio.",
+    "en": "The royal family lives in a palace."
+  },
+  "spain": null,
+  "trick": "Real Madrid means Royal Madrid: the king gave the football club its royal title.",
+  "image": "/deck/img/real-royal.webp",
+  "audio": {
+    "word": "/deck/audio/real-royal.word.mp3",
+    "sentence": "/deck/audio/real-royal.sentence.mp3"
+  }
+}

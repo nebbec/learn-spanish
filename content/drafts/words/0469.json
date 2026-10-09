@@ -1,0 +1,12 @@
+{
+  "rank": 469,
+  "word": "cama",
+  "cards": [
+    "cama-bed"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:33:06.748Z"
+}

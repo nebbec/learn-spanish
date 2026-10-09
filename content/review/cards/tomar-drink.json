@@ -1,0 +1,23 @@
+{
+  "id": "tomar-drink",
+  "rank": 107,
+  "word": "tomar",
+  "draft": "1df853d8a168f9b0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses tomar as an infinitive after quieres, but tomar itself should be conjugated.",
+      "fix": "example.es: ¿Tomas café en la mañana? / example.en: Do you drink coffee in the morning?"
+    }
+  ],
+  "back": {
+    "es": "tomar: to take; to drink, to have (a drink)",
+    "example": "Do you want to have a coffee?"
+  },
+  "note": "The hint \"everyday word\" is what rules out beber, which is the more formal or written word for \"to drink\". This matters because many learners will know beber first.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:45.833Z"
+}

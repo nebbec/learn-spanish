@@ -1,0 +1,17 @@
+{
+  "id": "obtener-obtain",
+  "rank": 617,
+  "word": "obtener",
+  "draft": "76fa4e44f72d7d98",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to obtain, to get (conjugated like tener)",
+    "example": "He/She got the job he/she wanted."
+  },
+  "note": "The gloss \"achieve\" in the hint leans toward lograr, but \"conjugates like tener\" still leaves obtener as the only answer, so the editor might tighten it to \"to get, gain; conjugates like tener\"; note too that everyday Latin American speech often says conseguir for \"to get\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:09.859Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "asegurar-make-sure",
+  "rank": 447,
+  "word": "asegurar",
+  "draft": "d8f62bb180c0b180",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The English says \"lock\", but cerrar la puerta means close the door; lock would be cerrar con llave.",
+      "fix": "example.en: Make sure you close the door."
+    }
+  ],
+  "back": {
+    "es": "to make sure (oneself), to ensure",
+    "example": "Make sure to close the door."
+  },
+  "note": "The trick's \"arse\" pun is a bit crude for a learner app, but it is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:08.542Z"
+}

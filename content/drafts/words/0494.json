@@ -1,0 +1,13 @@
+{
+  "rank": 494,
+  "word": "pueblo",
+  "cards": [
+    "pueblo-town",
+    "pueblo-people-nation"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:34:25.159Z"
+}

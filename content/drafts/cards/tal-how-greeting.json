@@ -1,0 +1,21 @@
+{
+  "id": "tal-how-greeting",
+  "rank": 151,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "tal",
+  "en": "Hi, [how] are you?",
+  "hint": "after qué, a casual greeting",
+  "grammar": null,
+  "example": {
+    "es": "Hola, ¿qué tal tu día?",
+    "en": "Hi, how was your day?"
+  },
+  "spain": null,
+  "trick": "TAL sounds like tell: qué tal? means tell me, how are you?",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/tal-how-greeting.word.mp3",
+    "sentence": "/deck/audio/tal-how-greeting.sentence.mp3"
+  }
+}

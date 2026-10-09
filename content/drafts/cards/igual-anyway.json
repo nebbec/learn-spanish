@@ -1,0 +1,21 @@
+{
+  "id": "igual-anyway",
+  "rank": 333,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "igual",
+  "en": "anyway",
+  "hint": "one word, still, regardless",
+  "grammar": null,
+  "example": {
+    "es": "No me invitaron, pero igual voy.",
+    "en": "They didn't invite me, but I'm going anyway."
+  },
+  "spain": null,
+  "trick": "IGUAL, \"equal\": whatever happens, it's all equal to me, so I'll do it anyway.",
+  "image": "/deck/img/igual-anyway.webp",
+  "audio": {
+    "word": "/deck/audio/igual-anyway.word.mp3",
+    "sentence": "/deck/audio/igual-anyway.sentence.mp3"
+  }
+}

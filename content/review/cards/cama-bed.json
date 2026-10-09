@@ -1,0 +1,17 @@
+{
+  "id": "cama-bed",
+  "rank": 469,
+  "word": "cama",
+  "draft": "d8064f3a5e526e41",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "bed",
+    "example": "I'm off to bed now."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:34.043Z"
+}

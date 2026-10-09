@@ -1,0 +1,21 @@
+{
+  "id": "detras-behind",
+  "rank": 544,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "detrás",
+  "en": "behind",
+  "hint": "usually followed by de, not atrás",
+  "grammar": null,
+  "example": {
+    "es": "El gato está detrás de la puerta.",
+    "en": "The cat is behind the door."
+  },
+  "spain": null,
+  "trick": "DETRÁS sounds like \"the trash\": the trash is always kept behind the house.",
+  "image": "/deck/img/detras-behind.webp",
+  "audio": {
+    "word": "/deck/audio/detras-behind.word.mp3",
+    "sentence": "/deck/audio/detras-behind.sentence.mp3"
+  }
+}

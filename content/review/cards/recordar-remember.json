@@ -1,0 +1,17 @@
+{
+  "id": "recordar-remember",
+  "rank": 192,
+  "word": "recordar",
+  "draft": "53734167aae09994",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to remember (also: to remind)",
+    "example": "Do you remember his/her name?"
+  },
+  "note": "The hint is needed, because acordarse (de) is just as common in Latin American speech, and the example's \"su\" could also mean her or your, so \"his\" is only one correct translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:28.663Z"
+}

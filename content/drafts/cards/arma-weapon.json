@@ -1,0 +1,24 @@
+{
+  "id": "arma-weapon",
+  "rank": 316,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el arma",
+  "en": "weapon",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "el"
+  },
+  "example": {
+    "es": "¡Baja el arma ahora mismo!",
+    "en": "Put the weapon down right now!"
+  },
+  "spain": null,
+  "trick": "ARMA sounds like arm: you arm yourself with a weapon, and the army carries arms.",
+  "image": "/deck/img/arma-weapon.webp",
+  "audio": {
+    "word": "/deck/audio/arma-weapon.word.mp3",
+    "sentence": "/deck/audio/arma-weapon.sentence.mp3"
+  }
+}

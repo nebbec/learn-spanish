@@ -1,0 +1,17 @@
+{
+  "id": "seis-six",
+  "rank": 474,
+  "word": "seis",
+  "draft": "76dcd780ae242fc0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "six (the number 6)",
+    "example": "I arrive at six in the evening."
+  },
+  "note": "The example uses the present tense \"llego\" for a planned arrival, which is natural, and \"de la tarde\" at six fits \"in the evening\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:48.742Z"
+}

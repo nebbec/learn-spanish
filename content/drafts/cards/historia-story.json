@@ -1,0 +1,24 @@
+{
+  "id": "historia-story",
+  "rank": 257,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la historia",
+  "en": "story",
+  "hint": "an account of events, not a children's tale",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Es una historia muy larga.",
+    "en": "It's a very long story."
+  },
+  "spain": null,
+  "trick": "HISTORIA sounds like his story: every person has his story to tell.",
+  "image": "/deck/img/historia-story.webp",
+  "audio": {
+    "word": "/deck/audio/historia-story.word.mp3",
+    "sentence": "/deck/audio/historia-story.sentence.mp3"
+  }
+}

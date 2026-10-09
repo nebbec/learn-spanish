@@ -1,0 +1,21 @@
+{
+  "id": "ellos-they",
+  "rank": 142,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "ellos",
+  "en": "[they] are my friends",
+  "hint": "men or a mixed group (ellas for only women)",
+  "grammar": null,
+  "example": {
+    "es": "Ellos viven cerca de mi casa.",
+    "en": "They live near my house."
+  },
+  "spain": null,
+  "trick": "ELLOS sounds like \"eh, yos\": you point at a group across the street and say \"eh, those guys\" meaning them.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ellos-they.word.mp3",
+    "sentence": "/deck/audio/ellos-they.sentence.mp3"
+  }
+}

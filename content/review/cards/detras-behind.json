@@ -1,0 +1,17 @@
+{
+  "id": "detras-behind",
+  "rank": 544,
+  "word": "detrás",
+  "draft": "eb2275d30fb1419b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "behind (adverb, used as detrás de = behind something)",
+    "example": "The cat is behind the door."
+  },
+  "note": "The hint is needed because \"atrás de\" is common in colloquial Latin American Spanish, and it correctly points to detrás as the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:01.348Z"
+}

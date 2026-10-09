@@ -1,0 +1,17 @@
+{
+  "id": "suponer-suppose",
+  "rank": 201,
+  "word": "suponer",
+  "draft": "0078ce2de4d5d686",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to suppose, to assume",
+    "example": "I suppose you're right."
+  },
+  "note": "Suponer is conjugated like poner (supongo, supuse), so the irregular flag is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:47.749Z"
+}

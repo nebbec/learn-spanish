@@ -1,0 +1,24 @@
+{
+  "id": "maldicion-curse",
+  "rank": 772,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la maldición",
+  "en": "curse",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Dicen que esta casa tiene una maldición.",
+    "en": "They say this house has a curse."
+  },
+  "spain": null,
+  "trick": "MALDICIÓN is MAL (bad) plus DICTION (saying): bad words spoken over you, a curse. Shouted alone, it means damn!",
+  "image": "/deck/img/maldicion-curse.webp",
+  "audio": {
+    "word": "/deck/audio/maldicion-curse.word.mp3",
+    "sentence": "/deck/audio/maldicion-curse.sentence.mp3"
+  }
+}

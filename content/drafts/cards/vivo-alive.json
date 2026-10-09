@@ -1,0 +1,23 @@
+{
+  "id": "vivo-alive",
+  "rank": 652,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "vivo",
+  "en": "alive",
+  "hint": null,
+  "grammar": {
+    "feminine": "viva"
+  },
+  "example": {
+    "es": "¡El perro todavía está vivo!",
+    "en": "The dog is still alive!"
+  },
+  "spain": null,
+  "trick": "VIVO sounds like vivid: things that are alive look bright and vivid.",
+  "image": "/deck/img/vivo-alive.webp",
+  "audio": {
+    "word": "/deck/audio/vivo-alive.word.mp3",
+    "sentence": "/deck/audio/vivo-alive.sentence.mp3"
+  }
+}

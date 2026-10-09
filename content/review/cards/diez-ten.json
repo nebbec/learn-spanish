@@ -1,0 +1,17 @@
+{
+  "id": "diez-ten",
+  "rank": 528,
+  "word": "diez",
+  "draft": "22c9d85b82d77e1b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "ten (the number 10)",
+    "example": "I'll see you in ten minutes."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:57.861Z"
+}

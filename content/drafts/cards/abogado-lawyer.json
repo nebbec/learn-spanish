@@ -1,0 +1,24 @@
+{
+  "id": "abogado-lawyer",
+  "rank": 524,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el abogado",
+  "en": "lawyer",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Necesito hablar con mi abogado.",
+    "en": "I need to talk to my lawyer."
+  },
+  "spain": null,
+  "trick": "ABOGADO sounds like \"advocate\": a lawyer advocates for you in court.",
+  "image": "/deck/img/abogado-lawyer.webp",
+  "audio": {
+    "word": "/deck/audio/abogado-lawyer.word.mp3",
+    "sentence": "/deck/audio/abogado-lawyer.sentence.mp3"
+  }
+}

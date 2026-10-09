@@ -1,0 +1,23 @@
+{
+  "id": "mismo-self",
+  "rank": 114,
+  "kind": "glue",
+  "pos": "adjective",
+  "es": "mismo",
+  "en": "I did it [myself]",
+  "hint": "the word after yo that stresses who did it",
+  "grammar": {
+    "feminine": "misma"
+  },
+  "example": {
+    "es": "Lo hice yo mismo.",
+    "en": "I did it myself."
+  },
+  "spain": null,
+  "trick": "MISMO sounds like \"me, so\": me, so I did it myself.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/mismo-self.word.mp3",
+    "sentence": "/deck/audio/mismo-self.sentence.mp3"
+  }
+}

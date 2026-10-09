@@ -1,0 +1,17 @@
+{
+  "id": "cabeza-head",
+  "rank": 250,
+  "word": "cabeza",
+  "draft": "25af79b1fdf4c8fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the head (body part)",
+    "example": "My head hurts a lot."
+  },
+  "note": "Bare \"head\" points to the body part, so no hint is needed; \"jefe\" (head as in boss) is a different sense a learner wouldn't give here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:06.559Z"
+}

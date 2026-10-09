@@ -1,0 +1,17 @@
+{
+  "id": "ganar-win",
+  "rank": 210,
+  "word": "ganar",
+  "draft": "db4c7ab4d37f5ffd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to win (also: to earn, to gain)",
+    "example": "My team won the game last night."
+  },
+  "note": "Vencer means to defeat or beat rather than plain to win, so ganar is the one natural answer, and the \"to earn\" card asks for a different meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:32.545Z"
+}

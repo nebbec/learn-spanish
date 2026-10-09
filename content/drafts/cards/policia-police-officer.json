@@ -1,0 +1,24 @@
+{
+  "id": "policia-police-officer",
+  "rank": 225,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el policía",
+  "en": "police officer",
+  "hint": "one person, a man",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El policía me pidió mi licencia.",
+    "en": "The police officer asked me for my license."
+  },
+  "spain": null,
+  "trick": "POLICÍA ends like see-ah: the officer says I see ya speeding, and writes you a ticket.",
+  "image": "/deck/img/policia-police-officer.webp",
+  "audio": {
+    "word": "/deck/audio/policia-police-officer.word.mp3",
+    "sentence": "/deck/audio/policia-police-officer.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sonar-ring",
+  "rank": 392,
+  "word": "sonar",
+  "draft": "6756fbe407638f7d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to ring, to sound, to make a noise (of a phone, bell, alarm)",
+    "example": "Your phone is ringing."
+  },
+  "note": "The yo form sueno correctly has no tilde (unlike sueño from soñar), and \"Tu celular está sonando\" would sound slightly more Latin American, though teléfono is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:41.424Z"
+}

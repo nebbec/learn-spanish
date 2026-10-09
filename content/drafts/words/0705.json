@@ -1,0 +1,12 @@
+{
+  "rank": 705,
+  "word": "crimen",
+  "cards": [
+    "crimen-crime"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:45:11.272Z"
+}

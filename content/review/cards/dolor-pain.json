@@ -1,0 +1,17 @@
+{
+  "id": "dolor-pain",
+  "rank": 583,
+  "word": "dolor",
+  "draft": "896ea2065e5bb3ce",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "pain, ache (masculine noun)",
+    "example": "I have a terrible headache."
+  },
+  "note": "The example also shows the common pattern \"dolor de + body part\" (dolor de cabeza = headache), which is worth keeping.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:56.598Z"
+}

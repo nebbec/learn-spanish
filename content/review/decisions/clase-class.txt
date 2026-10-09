@@ -1,0 +1,32 @@
+# clase-class · rank 311 · clase
+#
+# Why it was flagged:
+#   - Memory trick: The trick says clase is class plus an E, but that would spell classe, and a learner would memorize the wrong spelling, since clase has only one S. Suggested fix: trick: CLASE sounds like class: drop one S and add an E at the end of the lesson.
+# Reviewer's note (not a reason to flag): The hint "lesson at school" is needed, because it separates this card from the "kind, sort" card, and it fits clase, the usual word for a class session, better than lección.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to trick.
+decision: pending
+
+id:         clase-class
+kind:       content
+pos:        noun
+es:         la clase
+en:         class
+hint:       lesson at school
+gender:     f
+article:    la
+example.es: Tengo clase de inglés a las ocho.
+example.en: I have English class at eight.
+spain:
+trick:      CLASE sounds like class: drop one S and add an E at the end of the lesson.
+
+# The draft this file was made from. Do not change it.
+draft: 96c25ae26607b0ef

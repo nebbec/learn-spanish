@@ -1,0 +1,17 @@
+{
+  "id": "confiar-trust",
+  "rank": 401,
+  "word": "confiar",
+  "draft": "00635fe974c21713",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to trust, to rely on (confiar en = to trust someone or something)",
+    "example": "I trust you, brother."
+  },
+  "note": "The written accent in confío, confías and confía is only a spelling rule, like in enviar, so irregular: false is right, but learners may want to be shown the accent.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:31.121Z"
+}

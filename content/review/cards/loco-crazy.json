@@ -1,0 +1,17 @@
+{
+  "id": "loco-crazy",
+  "rank": 244,
+  "word": "loco",
+  "draft": "76226c625a84fb88",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "crazy, mad (adjective)",
+    "example": "Are you crazy? It's very cold outside."
+  },
+  "note": "The example uses \"afuera\", which is the normal Latin American form (Spain prefers \"fuera\"), so it suits the app's target variety.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:50.626Z"
+}

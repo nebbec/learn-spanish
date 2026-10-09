@@ -1,0 +1,21 @@
+{
+  "id": "luego-later",
+  "rank": 188,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "luego",
+  "en": "later, then",
+  "hint": "as in hasta ___ (see you later); not después or entonces",
+  "grammar": null,
+  "example": {
+    "es": "Te llamo luego, ahora estoy ocupado.",
+    "en": "I'll call you later, I'm busy now."
+  },
+  "spain": null,
+  "trick": "LUEGO sounds like \"loo, ego\": first the loo, then later your ego gets the mirror.",
+  "image": "/deck/img/luego-later.webp",
+  "audio": {
+    "word": "/deck/audio/luego-later.word.mp3",
+    "sentence": "/deck/audio/luego-later.sentence.mp3"
+  }
+}

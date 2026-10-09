@@ -1,0 +1,24 @@
+{
+  "id": "nino-child",
+  "rank": 150,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el niño",
+  "en": "child",
+  "hint": "also a little boy",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Los niños están jugando en el parque.",
+    "en": "The kids are playing in the park."
+  },
+  "spain": null,
+  "trick": "NIÑO sounds like \"knee-nyo\": a little child only reaches up to your knee.",
+  "image": "/deck/img/nino-child.webp",
+  "audio": {
+    "word": "/deck/audio/nino-child.word.mp3",
+    "sentence": "/deck/audio/nino-child.sentence.mp3"
+  }
+}

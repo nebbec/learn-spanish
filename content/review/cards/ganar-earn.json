@@ -1,0 +1,17 @@
+{
+  "id": "ganar-earn",
+  "rank": 210,
+  "word": "ganar",
+  "draft": "cd40e39c67a12c2c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "ganar = to earn (money); also to win",
+    "example": "I earn little money in this job."
+  },
+  "note": "An optional hint such as \"money\" would point the learner to the wage sense rather than \"to earn (respect)\", which is usually ganarse, but the bare prompt already gives ganar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:31.598Z"
+}

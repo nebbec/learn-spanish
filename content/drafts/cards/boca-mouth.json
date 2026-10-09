@@ -1,0 +1,24 @@
+{
+  "id": "boca-mouth",
+  "rank": 590,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la boca",
+  "en": "mouth",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Abre la boca, por favor.",
+    "en": "Open your mouth, please."
+  },
+  "spain": null,
+  "trick": "BOCA sounds like \"broke a\": he broke a tooth in his mouth.",
+  "image": "/deck/img/boca-mouth.webp",
+  "audio": {
+    "word": "/deck/audio/boca-mouth.word.mp3",
+    "sentence": "/deck/audio/boca-mouth.sentence.mp3"
+  }
+}

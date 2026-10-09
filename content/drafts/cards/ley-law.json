@@ -1,0 +1,24 @@
+{
+  "id": "ley-law",
+  "rank": 596,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la ley",
+  "en": "law",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Nadie está por encima de la ley.",
+    "en": "No one is above the law."
+  },
+  "spain": null,
+  "trick": "LEY sounds like \"lay\": the law is laid down for everyone to follow.",
+  "image": "/deck/img/ley-law.webp",
+  "audio": {
+    "word": "/deck/audio/ley-law.word.mp3",
+    "sentence": "/deck/audio/ley-law.sentence.mp3"
+  }
+}

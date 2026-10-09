@@ -1,0 +1,24 @@
+{
+  "id": "ojo-eye",
+  "rank": 275,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el ojo",
+  "en": "eye",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tienes los ojos muy bonitos.",
+    "en": "You have really pretty eyes."
+  },
+  "spain": null,
+  "trick": "OJO sounds like \"oh, ho!\": your eyes go wide when you see something surprising.",
+  "image": "/deck/img/ojo-eye.webp",
+  "audio": {
+    "word": "/deck/audio/ojo-eye.word.mp3",
+    "sentence": "/deck/audio/ojo-eye.sentence.mp3"
+  }
+}

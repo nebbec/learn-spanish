@@ -1,0 +1,32 @@
+# esposo-husband · rank 253 · esposo
+#
+# Why it was flagged:
+#   - Latin American usage: In everyday speech Spain clearly prefers marido for husband, while esposo sounds formal there, so spain should not be null. Suggested fix: spain: el marido
+# Reviewer's note (not a reason to flag): The hint is needed and works, because it rules out marido, which is also a correct answer for husband.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to spain.
+decision: pending
+
+id:         esposo-husband
+kind:       content
+pos:        noun
+es:         el esposo
+en:         husband
+hint:       not marido; related to spouse
+gender:     m
+article:    el
+example.es: Mi esposo trabaja en un hospital.
+example.en: My husband works at a hospital.
+spain:      el marido
+trick:      ESPOSO sounds like spouse-o: your male spouse is your husband.
+
+# The draft this file was made from. Do not change it.
+draft: 09284d9df101ab1d

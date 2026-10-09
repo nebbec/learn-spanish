@@ -1,0 +1,24 @@
+{
+  "id": "cena-dinner",
+  "rank": 669,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cena",
+  "en": "dinner",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La cena está lista, ven a comer.",
+    "en": "Dinner is ready, come eat."
+  },
+  "spain": null,
+  "trick": "CENA sounds like scene-a: the big family dinner is always the scene of the drama.",
+  "image": "/deck/img/cena-dinner.webp",
+  "audio": {
+    "word": "/deck/audio/cena-dinner.word.mp3",
+    "sentence": "/deck/audio/cena-dinner.sentence.mp3"
+  }
+}

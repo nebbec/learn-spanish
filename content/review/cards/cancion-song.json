@@ -1,0 +1,17 @@
+{
+  "id": "cancion-song",
+  "rank": 589,
+  "word": "canción",
+  "draft": "04d2a015290d8e54",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "song (feminine noun: la canción)",
+    "example": "I love this song."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:24.607Z"
+}

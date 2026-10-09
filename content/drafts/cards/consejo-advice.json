@@ -1,0 +1,24 @@
+{
+  "id": "consejo-advice",
+  "rank": 746,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el consejo",
+  "en": "advice",
+  "hint": "a piece of advice",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Te voy a dar un consejo.",
+    "en": "I'm going to give you some advice."
+  },
+  "spain": null,
+  "trick": "CONSEJO sounds like \"consider, Joe\": that's the advice everyone gives Joe before he acts.",
+  "image": "/deck/img/consejo-advice.webp",
+  "audio": {
+    "word": "/deck/audio/consejo-advice.word.mp3",
+    "sentence": "/deck/audio/consejo-advice.sentence.mp3"
+  }
+}

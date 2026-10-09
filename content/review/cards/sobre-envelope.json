@@ -1,0 +1,17 @@
+{
+  "id": "sobre-envelope",
+  "rank": 118,
+  "word": "sobre",
+  "draft": "974b4eb33d190784",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "envelope (masculine noun)",
+    "example": "The money is in the envelope."
+  },
+  "note": "The word's rank comes mostly from the preposition, so this noun card is lower priority than the \"about\" and \"on\" cards, but it is valid.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:47.380Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ejercito-army",
+  "rank": 771,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el ejército",
+  "en": "army",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi hermano está en el ejército.",
+    "en": "My brother is in the army."
+  },
+  "spain": null,
+  "trick": "EJÉRCITO sounds like \"exercise\": an army exercises and drills every single day.",
+  "image": "/deck/img/ejercito-army.webp",
+  "audio": {
+    "word": "/deck/audio/ejercito-army.word.mp3",
+    "sentence": "/deck/audio/ejercito-army.sentence.mp3"
+  }
+}

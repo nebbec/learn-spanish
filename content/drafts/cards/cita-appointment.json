@@ -1,0 +1,24 @@
+{
+  "id": "cita-appointment",
+  "rank": 567,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cita",
+  "en": "appointment",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tengo cita con el doctor mañana.",
+    "en": "I have a doctor's appointment tomorrow."
+  },
+  "spain": null,
+  "trick": "CITA sounds like 'sit-a': at your appointment you sit a while in the waiting room.",
+  "image": "/deck/img/cita-appointment.webp",
+  "audio": {
+    "word": "/deck/audio/cita-appointment.word.mp3",
+    "sentence": "/deck/audio/cita-appointment.sentence.mp3"
+  }
+}

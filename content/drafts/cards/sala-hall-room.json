@@ -1,0 +1,24 @@
+{
+  "id": "sala-hall-room",
+  "rank": 737,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la sala",
+  "en": "room",
+  "hint": "large public room, like a waiting room or hall",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Espérame en la sala de espera.",
+    "en": "Wait for me in the waiting room."
+  },
+  "spain": null,
+  "trick": "SALA sounds like \"salon\": a big hall where crowds gather, like a waiting room or concert hall.",
+  "image": "/deck/img/sala-hall-room.webp",
+  "audio": {
+    "word": "/deck/audio/sala-hall-room.word.mp3",
+    "sentence": "/deck/audio/sala-hall-room.sentence.mp3"
+  }
+}

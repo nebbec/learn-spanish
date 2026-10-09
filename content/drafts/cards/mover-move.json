@@ -1,0 +1,28 @@
+{
+  "id": "mover-move",
+  "rank": 284,
+  "kind": "content",
+  "pos": "verb",
+  "es": "mover",
+  "en": "to move",
+  "hint": "change position, not move house",
+  "grammar": {
+    "present": {
+      "yo": "muevo",
+      "tu": "mueves",
+      "el": "mueve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¡Muévete, que no veo nada!",
+    "en": "Move, I can't see anything!"
+  },
+  "spain": null,
+  "trick": "MOVER sounds like \"mover\": a mover is someone who moves things.",
+  "image": "/deck/img/mover-move.webp",
+  "audio": {
+    "word": "/deck/audio/mover-move.word.mp3",
+    "sentence": "/deck/audio/mover-move.sentence.mp3"
+  }
+}

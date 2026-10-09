@@ -1,0 +1,17 @@
+{
+  "id": "escuela-school",
+  "rank": 389,
+  "word": "escuela",
+  "draft": "76582eff127d1a62",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "school (the place where children are taught; also a school of thought or a specialist school)",
+    "example": "Tomorrow there is no school."
+  },
+  "note": "The hint \"the general word\" correctly rules out colegio, which in much of Latin America means a private school or secondary school; the spain value could add its article (\"el colegio\") to match how nouns are shown elsewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:29.291Z"
+}

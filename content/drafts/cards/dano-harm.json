@@ -1,0 +1,24 @@
+{
+  "id": "dano-harm",
+  "rank": 537,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el daño",
+  "en": "harm, damage",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "No te voy a hacer daño.",
+    "en": "I'm not going to hurt you."
+  },
+  "spain": null,
+  "trick": "DAÑO sounds like \"darn, oh!\", which is what you say when you see the damage.",
+  "image": "/deck/img/dano-harm.webp",
+  "audio": {
+    "word": "/deck/audio/dano-harm.word.mp3",
+    "sentence": "/deck/audio/dano-harm.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "caja-checkout",
+  "rank": 580,
+  "word": "caja",
+  "draft": "458565685f27e825",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la caja = box; also the cash register or checkout in a shop",
+    "example": "You can pay at the checkout (register)."
+  },
+  "note": "The hint \"where you pay\" separates this card from the \"box\" card, and Spain also says \"caja\", so spain is correctly null. The trick's \"cash-a\" is only a loose sound match, because the j in caja is said like a breathy h (KAH-ha), not like \"sh\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:32.810Z"
+}

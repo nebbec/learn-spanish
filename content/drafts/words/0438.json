@@ -1,0 +1,13 @@
+{
+  "rank": 438,
+  "word": "servir",
+  "cards": [
+    "servir-serve",
+    "servir-be-useful"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:31:29.504Z"
+}

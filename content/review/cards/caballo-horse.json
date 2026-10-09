@@ -1,0 +1,17 @@
+{
+  "id": "caballo-horse",
+  "rank": 598,
+  "word": "caballo",
+  "draft": "d38e9ea630cbea20",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the horse",
+    "example": "My grandfather has three horses on the ranch."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:00.944Z"
+}

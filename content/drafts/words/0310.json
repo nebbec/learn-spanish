@@ -1,0 +1,13 @@
+{
+  "rank": 310,
+  "word": "justo",
+  "cards": [
+    "justo-fair",
+    "justo-exactly"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:25:04.038Z"
+}

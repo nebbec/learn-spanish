@@ -1,0 +1,24 @@
+{
+  "id": "bebe-baby",
+  "rank": 379,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el bebé",
+  "en": "baby",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El bebé está durmiendo, no hagas ruido.",
+    "en": "The baby is sleeping, don't make noise."
+  },
+  "spain": null,
+  "trick": "BEBÉ sounds almost exactly like baby, and a baby bebe, drinks, milk all day.",
+  "image": "/deck/img/bebe-baby.webp",
+  "audio": {
+    "word": "/deck/audio/bebe-baby.word.mp3",
+    "sentence": "/deck/audio/bebe-baby.sentence.mp3"
+  }
+}

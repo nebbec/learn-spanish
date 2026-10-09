@@ -1,0 +1,21 @@
+{
+  "id": "ustedes-you-plural",
+  "rank": 245,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "ustedes",
+  "en": "are [you all] coming tonight?",
+  "hint": "more than one person",
+  "grammar": null,
+  "example": {
+    "es": "¿Ustedes vienen a la fiesta?",
+    "en": "Are you guys coming to the party?"
+  },
+  "spain": null,
+  "trick": "USTEDES sounds like \"use the days\": you all use the days together.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ustedes-you-plural.word.mp3",
+    "sentence": "/deck/audio/ustedes-you-plural.sentence.mp3"
+  }
+}

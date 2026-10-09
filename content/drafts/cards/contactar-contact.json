@@ -1,0 +1,28 @@
+{
+  "id": "contactar-contact",
+  "rank": 604,
+  "kind": "content",
+  "pos": "verb",
+  "es": "contactar",
+  "en": "to contact",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "contacto",
+      "tu": "contactas",
+      "el": "contacta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te contacto mañana por teléfono.",
+    "en": "I'll contact you tomorrow by phone."
+  },
+  "spain": null,
+  "trick": "CONTACTAR sounds like \"contact a star\": you contact a famous star to ask for an autograph.",
+  "image": "/deck/img/contactar-contact.webp",
+  "audio": {
+    "word": "/deck/audio/contactar-contact.word.mp3",
+    "sentence": "/deck/audio/contactar-contact.sentence.mp3"
+  }
+}

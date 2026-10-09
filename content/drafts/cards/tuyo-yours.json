@@ -1,0 +1,21 @@
+{
+  "id": "tuyo-yours",
+  "rank": 381,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "tuyo",
+  "en": "this book is [yours]",
+  "hint": "informal, to a friend",
+  "grammar": null,
+  "example": {
+    "es": "¿Este celular es tuyo?",
+    "en": "Is this phone yours?"
+  },
+  "spain": null,
+  "trick": "TUYO sounds like \"to you\": what belongs to you is yours.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/tuyo-yours.word.mp3",
+    "sentence": "/deck/audio/tuyo-yours.sentence.mp3"
+  }
+}

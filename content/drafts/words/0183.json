@@ -1,0 +1,13 @@
+{
+  "rank": 183,
+  "word": "gran",
+  "cards": [],
+  "skip": {
+    "reason": "covered-elsewhere",
+    "note": "gran is the shortened form of grande used before a singular noun; it belongs to the grande card (dictionary form), where the 'great' sense before nouns can be covered."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:19:43.731Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "recordar-remind",
+  "rank": 192,
+  "word": "recordar",
+  "draft": "f30b4e97785cceec",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to remind (also: to remember); recordarle algo a alguien = to remind someone of something",
+    "example": "Remind me to call my mom."
+  },
+  "note": "This card's prompt \"to remind\" can't be confused with the sibling card \"to remember\", and Spain also uses recordar for \"to remind\", so null for spain is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:30.020Z"
+}

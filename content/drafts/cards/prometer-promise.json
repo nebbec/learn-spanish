@@ -1,0 +1,28 @@
+{
+  "id": "prometer-promise",
+  "rank": 347,
+  "kind": "content",
+  "pos": "verb",
+  "es": "prometer",
+  "en": "to promise",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "prometo",
+      "tu": "prometes",
+      "el": "promete"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te prometo que voy a llegar temprano.",
+    "en": "I promise you I'm going to arrive early."
+  },
+  "spain": null,
+  "trick": "PROMETER sounds like \"promise meter\": a gadget that measures how much you promise.",
+  "image": "/deck/img/prometer-promise.webp",
+  "audio": {
+    "word": "/deck/audio/prometer-promise.word.mp3",
+    "sentence": "/deck/audio/prometer-promise.sentence.mp3"
+  }
+}

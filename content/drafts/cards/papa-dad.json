@@ -1,0 +1,24 @@
+{
+  "id": "papa-dad",
+  "rank": 189,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el papá",
+  "en": "dad",
+  "hint": "informal, not padre",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi papá llega tarde hoy.",
+    "en": "My dad is getting home late today."
+  },
+  "spain": null,
+  "trick": "PAPÁ sounds like \"pa-pa\", what a baby babbles when dad walks in.",
+  "image": "/deck/img/papa-dad.webp",
+  "audio": {
+    "word": "/deck/audio/papa-dad.word.mp3",
+    "sentence": "/deck/audio/papa-dad.sentence.mp3"
+  }
+}

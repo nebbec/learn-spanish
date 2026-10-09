@@ -1,0 +1,24 @@
+{
+  "id": "broma-joke-prank",
+  "rank": 679,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la broma",
+  "en": "joke",
+  "hint": "prank or teasing, not a joke you tell",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Es una broma, no te enojes.",
+    "en": "It's a joke, don't get mad."
+  },
+  "spain": null,
+  "trick": "BROMA sounds like \"bro, Ma!\": your bro plays a joke on Ma and yells it when she falls for it.",
+  "image": "/deck/img/broma-joke-prank.webp",
+  "audio": {
+    "word": "/deck/audio/broma-joke-prank.word.mp3",
+    "sentence": "/deck/audio/broma-joke-prank.sentence.mp3"
+  }
+}

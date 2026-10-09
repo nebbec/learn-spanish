@@ -1,0 +1,21 @@
+{
+  "id": "nosotros-we",
+  "rank": 138,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "nosotros",
+  "en": "[we] did it, not them",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Nosotros vamos al cine esta noche.",
+    "en": "We're going to the movies tonight."
+  },
+  "spain": null,
+  "trick": "NOSOTROS sounds like nose-a-trio: we three noses sniff around together as a group.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/nosotros-we.word.mp3",
+    "sentence": "/deck/audio/nosotros-we.sentence.mp3"
+  }
+}

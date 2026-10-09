@@ -1,0 +1,23 @@
+{
+  "id": "usar-use",
+  "rank": 196,
+  "word": "usar",
+  "draft": "3de370dd41653671",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The sentence leaves usar in the infinitive after puedo, but the card's own verb has to be conjugated in the example.",
+      "fix": "example.es: Uso mi teléfono todo el día. / example.en: I use my phone all day."
+    }
+  ],
+  "back": {
+    "es": "to use",
+    "example": "Can I use your phone for a moment?"
+  },
+  "note": "Utilizar (more formal) and the regional ocupar (Mexico, Chile) also mean to use, but usar is the everyday answer everyone would give, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:37.300Z"
+}

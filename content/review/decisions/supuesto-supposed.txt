@@ -1,0 +1,32 @@
+# supuesto-supposed · rank 272 · supuesto
+#
+# Why it was flagged:
+#   - One right answer: The hint "alleged" is the usual English translation of presunto, a common word in news Spanish ("el presunto ladrón"), so it could lead the learner to that word instead of supuesto. Suggested fix: hint: alleged, not presunto
+# Reviewer's note (not a reason to flag): This adjective sense does not overlap with the "of course" card (por supuesto), so the two cards stay apart.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+# Claude suggests: reject — the adjective 'supposed/alleged' is news register and rare for a beginner; English 'supposed' suggests 'supposed to', and por supuesto already covers the word.
+decision: pending
+
+id:         supuesto-supposed
+kind:       content
+pos:        adjective
+es:         supuesto
+en:         supposed
+hint:       alleged, not presunto
+feminine:   supuesta
+example.es: El supuesto ladrón era su hermano.
+example.en: The supposed thief was his brother.
+spain:
+trick:      SUPUESTO sounds like "supposed-o": the supposed suspect, only supposedly guilty.
+
+# The draft this file was made from. Do not change it.
+draft: 2d49e6afd01f1a1f

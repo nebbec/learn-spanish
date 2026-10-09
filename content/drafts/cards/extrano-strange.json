@@ -1,0 +1,23 @@
+{
+  "id": "extrano-strange",
+  "rank": 398,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "extraño",
+  "en": "strange",
+  "hint": "not raro",
+  "grammar": {
+    "feminine": "extraña"
+  },
+  "example": {
+    "es": "Hay un ruido extraño en la cocina.",
+    "en": "There's a strange noise in the kitchen."
+  },
+  "spain": null,
+  "trick": "EXTRAÑO sounds like EXTRA STRANGE-O: something so odd it is extra strange.",
+  "image": "/deck/img/extrano-strange.webp",
+  "audio": {
+    "word": "/deck/audio/extrano-strange.word.mp3",
+    "sentence": "/deck/audio/extrano-strange.sentence.mp3"
+  }
+}

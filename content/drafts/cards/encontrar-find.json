@@ -1,0 +1,28 @@
+{
+  "id": "encontrar-find",
+  "rank": 97,
+  "kind": "content",
+  "pos": "verb",
+  "es": "encontrar",
+  "en": "to find",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "encuentro",
+      "tu": "encuentras",
+      "el": "encuentra"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "No encuentro mis llaves.",
+    "en": "I can't find my keys."
+  },
+  "spain": null,
+  "trick": "ENCONTRAR sounds like \"encounter\": when you encounter something you were looking for, you find it.",
+  "image": "/deck/img/encontrar-find.webp",
+  "audio": {
+    "word": "/deck/audio/encontrar-find.word.mp3",
+    "sentence": "/deck/audio/encontrar-find.sentence.mp3"
+  }
+}

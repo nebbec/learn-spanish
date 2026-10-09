@@ -1,0 +1,17 @@
+{
+  "id": "herido-wound",
+  "rank": 559,
+  "word": "herido",
+  "draft": "08e34d62e0042b91",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "wound (noun), injury",
+    "example": "The wound still hurts (me)."
+  },
+  "note": "This noun card fits well with the word's adjective card \"wounded\" (herido), and the plain prompt \"wound\" can't be confused with the verb \"to wound\" (herir).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:58.973Z"
+}

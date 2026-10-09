@@ -1,0 +1,17 @@
+{
+  "id": "barco-boat",
+  "rank": 633,
+  "word": "barco",
+  "draft": "aaeb5790f9339cda",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the boat, the ship (masculine noun)",
+    "example": "The boat leaves at eight."
+  },
+  "note": "The hint is needed and works, because \"the general word, any size\" rules out the small-boat words bote, lancha and barca.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:14.274Z"
+}

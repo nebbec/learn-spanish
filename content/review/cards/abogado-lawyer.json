@@ -1,0 +1,17 @@
+{
+  "id": "abogado-lawyer",
+  "rank": 524,
+  "word": "abogado",
+  "draft": "f869c5abb9dbeccf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el abogado = the lawyer (male, or generic); Example: I need to talk to my lawyer.",
+    "example": "I need to talk to my lawyer."
+  },
+  "note": "The feminine form la abogada could be shown with the answer, and the trick is accurate because abogado and advocate both come from Latin advocatus.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:45.192Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "echar-pour-in",
+  "rank": 341,
+  "word": "echar",
+  "draft": "a17631ea0b7c2c61",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to throw, to toss; to put in, to add, to pour (salt, sugar, fuel); to kick out",
+    "example": "Do you put sugar in your coffee? (literally: Do you add sugar to the coffee?)"
+  },
+  "note": "On its own, \"to pour\" could mean servir or verter, so this card relies on the hint (salt, sugar, gas, not poner) to point to echar; the hint does that well enough and keeps it apart from the \"to kick out\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:37.745Z"
+}

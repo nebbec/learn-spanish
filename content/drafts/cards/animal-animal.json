@@ -1,0 +1,24 @@
+{
+  "id": "animal-animal",
+  "rank": 695,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el animal",
+  "en": "animal",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Me encantan los animales.",
+    "en": "I love animals."
+  },
+  "spain": null,
+  "trick": "ANIMAL is spelled just like the English word animal, but the stress falls on the last syllable: ah-nee-MAHL.",
+  "image": "/deck/img/animal-animal.webp",
+  "audio": {
+    "word": "/deck/audio/animal-animal.word.mp3",
+    "sentence": "/deck/audio/animal-animal.sentence.mp3"
+  }
+}

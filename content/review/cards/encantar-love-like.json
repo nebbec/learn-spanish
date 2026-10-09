@@ -1,0 +1,17 @@
+{
+  "id": "encantar-love-like",
+  "rank": 353,
+  "word": "encantar",
+  "draft": "743b53c4a280353c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to delight, to enchant; with an indirect object (me encanta) = I love it",
+    "example": "I love this song."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:30.503Z"
+}

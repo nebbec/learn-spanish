@@ -1,0 +1,28 @@
+{
+  "id": "agradecer-thank",
+  "rank": 547,
+  "kind": "content",
+  "pos": "verb",
+  "es": "agradecer",
+  "en": "to thank",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "agradezco",
+      "tu": "agradeces",
+      "el": "agradece"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Te agradezco mucho tu ayuda.",
+    "en": "Thank you so much for your help."
+  },
+  "spain": null,
+  "trick": "AGRADECER sounds like 'a grad, sir': the new graduate turns to his teacher and thanks him.",
+  "image": "/deck/img/agradecer-thank.webp",
+  "audio": {
+    "word": "/deck/audio/agradecer-thank.word.mp3",
+    "sentence": "/deck/audio/agradecer-thank.sentence.mp3"
+  }
+}

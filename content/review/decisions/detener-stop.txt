@@ -1,0 +1,35 @@
+# detener-stop · rank 330 · detener
+#
+# Why it was flagged:
+#   - Latin American usage: The example uses the formal usted command (Deténgase, No puede), not the informal tú register the app requires. Suggested fix: example.es: El guardia detiene los coches en la entrada.
+#   - Example sentence: The example uses reflexive detenerse (to stop oneself) in the usted form, not detener meaning to halt someone or something, as the hint says. Suggested fix: example.es: El guardia detiene los coches en la entrada. / example.en: The guard stops the cars at the entrance.
+# Reviewer's note (not a reason to flag): The trick's "detain her" leans toward the sibling "to arrest" card, but it still fits "stop" well enough.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: replaced the usted example; not the reviewer's sentence because coches is Spain's word and carros is not met yet.
+decision: pending
+
+id:         detener-stop
+kind:       content
+pos:        verb
+es:         detener
+en:         to stop
+hint:       halt someone or something, formal; not parar
+yo:         detengo
+tu:         detienes
+el:         detiene
+irregular:  yes
+example.es: Nada me detiene.
+example.en: Nothing stops me.
+spain:
+trick:      DETENER sounds like "detain her": to detain someone is to stop them in their tracks.
+
+# The draft this file was made from. Do not change it.
+draft: 319c640d72e4b55d

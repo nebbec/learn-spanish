@@ -1,0 +1,28 @@
+{
+  "id": "matar-kill",
+  "rank": 134,
+  "kind": "content",
+  "pos": "verb",
+  "es": "matar",
+  "en": "to kill",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "mato",
+      "tu": "matas",
+      "el": "mata"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Mi mamá me va a matar!",
+    "en": "My mom is going to kill me!"
+  },
+  "spain": null,
+  "trick": "MATAR sounds like \"matador\", the bullfighter whose job is to kill the bull.",
+  "image": "/deck/img/matar-kill.webp",
+  "audio": {
+    "word": "/deck/audio/matar-kill.word.mp3",
+    "sentence": "/deck/audio/matar-kill.sentence.mp3"
+  }
+}

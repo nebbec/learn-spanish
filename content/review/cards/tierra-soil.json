@@ -1,0 +1,17 @@
+{
+  "id": "tierra-soil",
+  "rank": 334,
+  "word": "tierra",
+  "draft": "246348765bed17d1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "soil, dirt, earth (also the planet Earth, written la Tierra)",
+    "example": "Your shoes have dirt on them."
+  },
+  "note": "The hint's mention of planet Earth usefully rules out el suelo and la suciedad, but the editor may want to note that the planet is written with a capital letter (la Tierra).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:22.938Z"
+}

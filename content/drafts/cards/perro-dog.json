@@ -1,0 +1,24 @@
+{
+  "id": "perro-dog",
+  "rank": 312,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el perro",
+  "en": "dog",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi perro duerme en el sofá.",
+    "en": "My dog sleeps on the sofa."
+  },
+  "spain": null,
+  "trick": "PERRO sounds like a purring 'pair-oh': the dog growls 'grrr' with that rolling RR.",
+  "image": "/deck/img/perro-dog.webp",
+  "audio": {
+    "word": "/deck/audio/perro-dog.word.mp3",
+    "sentence": "/deck/audio/perro-dog.sentence.mp3"
+  }
+}

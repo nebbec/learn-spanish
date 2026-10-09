@@ -1,0 +1,24 @@
+{
+  "id": "frente-forehead",
+  "rank": 571,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la frente",
+  "en": "forehead",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tienes pintura en la frente.",
+    "en": "You have paint on your forehead."
+  },
+  "spain": null,
+  "trick": "FRENTE sounds like FRONT: your forehead is the front of your head.",
+  "image": "/deck/img/frente-forehead.webp",
+  "audio": {
+    "word": "/deck/audio/frente-forehead.word.mp3",
+    "sentence": "/deck/audio/frente-forehead.sentence.mp3"
+  }
+}

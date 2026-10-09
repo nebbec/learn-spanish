@@ -1,0 +1,17 @@
+{
+  "id": "negro-black",
+  "rank": 418,
+  "word": "negro",
+  "draft": "daf7ddef753ac7d5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "black (the color; adjective)",
+    "example": "I like your black shirt."
+  },
+  "note": "The trick is a little loose, since photo negatives swap light and dark rather than turning everything black, but it says nothing false about negro; the editor could change it to \"film negatives look mostly black\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:44.561Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "conocer-know",
+  "rank": 119,
+  "word": "conocer",
+  "draft": "b7b78da64ac3bfa1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to know, be acquainted or familiar with (a person, place or thing); also to meet for the first time",
+    "example": "Do you know my brother?"
+  },
+  "note": "The hint correctly rules out saber, and the example models the personal \"a\" used before a person.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:47.321Z"
+}

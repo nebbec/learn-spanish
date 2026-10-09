@@ -1,0 +1,24 @@
+{
+  "id": "marido-husband",
+  "rank": 493,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el marido",
+  "en": "husband",
+  "hint": "not esposo",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi marido trabaja en un hospital.",
+    "en": "My husband works in a hospital."
+  },
+  "spain": null,
+  "trick": "MARIDO sounds like \"married-o\": the guy you married is your husband.",
+  "image": "/deck/img/marido-husband.webp",
+  "audio": {
+    "word": "/deck/audio/marido-husband.word.mp3",
+    "sentence": "/deck/audio/marido-husband.sentence.mp3"
+  }
+}

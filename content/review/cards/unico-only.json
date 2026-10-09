@@ -1,0 +1,17 @@
+{
+  "id": "unico-only",
+  "rank": 222,
+  "word": "único",
+  "draft": "4b802068e50d45e2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "only, sole (adjective); also unique",
+    "example": "You are the only person who understands me."
+  },
+  "note": "The hint is needed: it rules out the adverb \"solo/solamente\" (\"only\" as in \"I only want...\"), and \"the only one\" clearly calls for \"el único\", which keeps this card separate from the \"unique\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:19.444Z"
+}

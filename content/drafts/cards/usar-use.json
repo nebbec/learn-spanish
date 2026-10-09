@@ -1,0 +1,28 @@
+{
+  "id": "usar-use",
+  "rank": 196,
+  "kind": "content",
+  "pos": "verb",
+  "es": "usar",
+  "en": "to use",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "uso",
+      "tu": "usas",
+      "el": "usa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Puedo usar tu teléfono un momento?",
+    "en": "Can I use your phone for a moment?"
+  },
+  "spain": null,
+  "trick": "USAR sounds like a USER: a user is someone who uses things.",
+  "image": "/deck/img/usar-use.webp",
+  "audio": {
+    "word": "/deck/audio/usar-use.word.mp3",
+    "sentence": "/deck/audio/usar-use.sentence.mp3"
+  }
+}

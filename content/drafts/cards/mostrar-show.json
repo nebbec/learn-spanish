@@ -1,0 +1,28 @@
+{
+  "id": "mostrar-show",
+  "rank": 321,
+  "kind": "content",
+  "pos": "verb",
+  "es": "mostrar",
+  "en": "to show",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "muestro",
+      "tu": "muestras",
+      "el": "muestra"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Me muestras tu cuarto nuevo?",
+    "en": "Will you show me your new room?"
+  },
+  "spain": null,
+  "trick": "MOSTRAR sounds like most rare: you show everyone your most rare treasures.",
+  "image": "/deck/img/mostrar-show.webp",
+  "audio": {
+    "word": "/deck/audio/mostrar-show.word.mp3",
+    "sentence": "/deck/audio/mostrar-show.sentence.mp3"
+  }
+}

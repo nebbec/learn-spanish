@@ -1,0 +1,17 @@
+{
+  "id": "lado-side",
+  "rank": 251,
+  "word": "lado",
+  "draft": "b4d1466b0b997f4f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "side",
+    "example": "I'm on your side."
+  },
+  "note": "Words like costado (side of the body) and bando (side in a conflict) are narrower, so el lado is clearly the default answer for a bare \"side\" and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:11.703Z"
+}

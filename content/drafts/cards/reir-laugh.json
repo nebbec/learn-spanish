@@ -1,0 +1,28 @@
+{
+  "id": "reir-laugh",
+  "rank": 743,
+  "kind": "content",
+  "pos": "verb",
+  "es": "reír",
+  "en": "to laugh",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "río",
+      "tu": "ríes",
+      "el": "ríe"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mi hija ríe mucho con ese programa.",
+    "en": "My daughter laughs a lot at that show."
+  },
+  "spain": null,
+  "trick": "REÍR sounds like ray-EAR: a ray of laughter rings right in your ear.",
+  "image": "/deck/img/reir-laugh.webp",
+  "audio": {
+    "word": "/deck/audio/reir-laugh.word.mp3",
+    "sentence": "/deck/audio/reir-laugh.sentence.mp3"
+  }
+}

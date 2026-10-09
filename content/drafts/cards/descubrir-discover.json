@@ -1,0 +1,28 @@
+{
+  "id": "descubrir-discover",
+  "rank": 466,
+  "kind": "content",
+  "pos": "verb",
+  "es": "descubrir",
+  "en": "to discover",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "descubro",
+      "tu": "descubres",
+      "el": "descubre"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Descubrí que mi hermano tiene novia.",
+    "en": "I found out my brother has a girlfriend."
+  },
+  "spain": null,
+  "trick": "DESCUBRIR sounds like \"discover\": take the cover off something and you discover what's inside.",
+  "image": "/deck/img/descubrir-discover.webp",
+  "audio": {
+    "word": "/deck/audio/descubrir-discover.word.mp3",
+    "sentence": "/deck/audio/descubrir-discover.sentence.mp3"
+  }
+}

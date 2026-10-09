@@ -1,0 +1,17 @@
+{
+  "id": "metro-subway",
+  "rank": 627,
+  "word": "metro",
+  "draft": "72bfa1a0db030e2f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the subway, the metro (underground railway)",
+    "example": "I take the subway to go to work."
+  },
+  "note": "Argentina says \"el subte\", but \"el metro\" is the standard pan-Latin American word, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:52.798Z"
+}

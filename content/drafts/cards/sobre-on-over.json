@@ -1,0 +1,21 @@
+{
+  "id": "sobre-on-over",
+  "rank": 118,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "sobre",
+  "en": "the keys [on] the table",
+  "hint": "on top of, over; not en",
+  "grammar": null,
+  "example": {
+    "es": "Dejé las llaves sobre la mesa.",
+    "en": "I left the keys on the table."
+  },
+  "spain": null,
+  "trick": "SOBRE looks like super, Latin for above: it sits on top of things.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/sobre-on-over.word.mp3",
+    "sentence": "/deck/audio/sobre-on-over.sentence.mp3"
+  }
+}

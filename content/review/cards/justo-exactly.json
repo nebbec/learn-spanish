@@ -1,0 +1,17 @@
+{
+  "id": "justo-exactly",
+  "rank": 310,
+  "word": "justo",
+  "draft": "37227fdb4db4f1f9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "exactly, just, right (as in justo a tiempo = just in time, justo aquí = right here)",
+    "example": "You arrived just in time."
+  },
+  "note": "For \"right here\" Spanish also says \"aquí mismo\", but \"justo aquí\" is equally natural, so the hint still works.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:10.966Z"
+}

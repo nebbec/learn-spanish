@@ -1,0 +1,24 @@
+{
+  "id": "cliente-customer",
+  "rank": 568,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el cliente",
+  "en": "customer, client",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El cliente siempre tiene la razón.",
+    "en": "The customer is always right."
+  },
+  "spain": null,
+  "trick": "CLIENTE sounds like client: the client walks in, and you smile at your customer.",
+  "image": "/deck/img/cliente-customer.webp",
+  "audio": {
+    "word": "/deck/audio/cliente-customer.word.mp3",
+    "sentence": "/deck/audio/cliente-customer.sentence.mp3"
+  }
+}

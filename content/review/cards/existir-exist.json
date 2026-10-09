@@ -1,0 +1,17 @@
+{
+  "id": "existir-exist",
+  "rank": 535,
+  "word": "existir",
+  "draft": "ee870629c3b5f493",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to exist",
+    "example": "Ghosts don't exist."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:22.253Z"
+}

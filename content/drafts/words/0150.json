@@ -1,0 +1,13 @@
+{
+  "rank": 150,
+  "word": "niño",
+  "cards": [
+    "nino-child",
+    "nino-girl"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:18:09.128Z"
+}

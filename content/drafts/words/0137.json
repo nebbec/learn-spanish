@@ -1,0 +1,12 @@
+{
+  "rank": 137,
+  "word": "escuchar",
+  "cards": [
+    "escuchar-listen"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:17:37.351Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rico-rich",
+  "rank": 672,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "rico",
+  "en": "rich",
+  "hint": null,
+  "grammar": {
+    "feminine": "rica"
+  },
+  "example": {
+    "es": "Su familia es muy rica.",
+    "en": "His family is very rich."
+  },
+  "spain": null,
+  "trick": "RICO sounds like Ricky: rich Ricky drives a gold car and buys everything he sees.",
+  "image": "/deck/img/rico-rich.webp",
+  "audio": {
+    "word": "/deck/audio/rico-rich.word.mp3",
+    "sentence": "/deck/audio/rico-rich.sentence.mp3"
+  }
+}

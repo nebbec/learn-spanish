@@ -1,0 +1,17 @@
+{
+  "id": "companero-companion",
+  "rank": 538,
+  "word": "compañero",
+  "draft": "5320aedd2a30c0c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the companion, mate, partner (as in classmate, coworker, teammate)",
+    "example": "My work colleague is very nice."
+  },
+  "note": "The hint is needed, because \"companion\" alone could also suggest acompañante or amigo, and it correctly points to compañero; the editor may want to mention the feminine compañera somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:35.968Z"
+}

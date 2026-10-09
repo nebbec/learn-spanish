@@ -1,0 +1,21 @@
+{
+  "id": "ay-ouch",
+  "rank": 632,
+  "kind": "content",
+  "pos": "other",
+  "es": "ay",
+  "en": "ouch",
+  "hint": "also oh, oh no",
+  "grammar": null,
+  "example": {
+    "es": "¡Ay, me duele la cabeza!",
+    "en": "Ouch, my head hurts!"
+  },
+  "spain": null,
+  "trick": "AY sounds like 'eye': you poke your eye and cry ouch!",
+  "image": "/deck/img/ay-ouch.webp",
+  "audio": {
+    "word": "/deck/audio/ay-ouch.word.mp3",
+    "sentence": "/deck/audio/ay-ouch.sentence.mp3"
+  }
+}

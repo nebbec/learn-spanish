@@ -1,0 +1,24 @@
+{
+  "id": "paz-peace",
+  "rank": 492,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la paz",
+  "en": "peace",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Déjame en paz, por favor.",
+    "en": "Leave me alone, please."
+  },
+  "spain": null,
+  "trick": "PAZ sounds like \"pause\": when the fighting takes a pause, there is peace.",
+  "image": "/deck/img/paz-peace.webp",
+  "audio": {
+    "word": "/deck/audio/paz-peace.word.mp3",
+    "sentence": "/deck/audio/paz-peace.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "necesario-necessary",
+  "rank": 655,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "necesario",
+  "en": "necessary",
+  "hint": null,
+  "grammar": {
+    "feminine": "necesaria"
+  },
+  "example": {
+    "es": "No es necesario gritar.",
+    "en": "There's no need to shout."
+  },
+  "spain": null,
+  "trick": "NECESARIO sounds just like necessary with a Spanish -io ending, like a necessary ration added to the end.",
+  "image": "/deck/img/necesario-necessary.webp",
+  "audio": {
+    "word": "/deck/audio/necesario-necessary.word.mp3",
+    "sentence": "/deck/audio/necesario-necessary.sentence.mp3"
+  }
+}

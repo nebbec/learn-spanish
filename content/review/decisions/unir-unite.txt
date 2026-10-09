@@ -1,0 +1,33 @@
+# unir-unite · rank 462 · unir
+#
+# Why it was flagged:
+#   - Example sentence: The example leaves the target verb as an infinitive after quieres, and it uses the pronominal unirse (to join a group) rather than this card's meaning of unir, to unite or join together. Suggested fix: example.es: La música une a las personas. / example.en: Music unites people.
+# Reviewer's note (not a reason to flag): The hint's aside about unirse is correct and rules out juntar, but since it mentions another verb, the editor could shorten it to just "to join together".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         unir-unite
+kind:       content
+pos:        verb
+es:         unir
+en:         to unite
+hint:       to join together; unirse = to join a group
+yo:         uno
+tu:         unes
+el:         une
+irregular:  no
+example.es: ¿Quieres unirte a nosotros?
+example.en: Do you want to join us?
+spain:
+trick:      UNIR sounds like 'unit': when you unite people, they become one unit.
+
+# The draft this file was made from. Do not change it.
+draft: accdbf722377c315

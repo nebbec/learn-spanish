@@ -1,0 +1,23 @@
+{
+  "id": "hermoso-beautiful",
+  "rank": 424,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "hermoso",
+  "en": "beautiful",
+  "hint": "stronger than lindo; starts with a silent h",
+  "grammar": {
+    "feminine": "hermosa"
+  },
+  "example": {
+    "es": "¡Qué día tan hermoso!",
+    "en": "What a beautiful day!"
+  },
+  "spain": null,
+  "trick": "HERMOSO sounds like \"her, more so\": she is beautiful, and her sister is even more so.",
+  "image": "/deck/img/hermoso-beautiful.webp",
+  "audio": {
+    "word": "/deck/audio/hermoso-beautiful.word.mp3",
+    "sentence": "/deck/audio/hermoso-beautiful.sentence.mp3"
+  }
+}

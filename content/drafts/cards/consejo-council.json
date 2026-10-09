@@ -1,0 +1,24 @@
+{
+  "id": "consejo-council",
+  "rank": 746,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el consejo",
+  "en": "council",
+  "hint": "a group that decides",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El consejo se reúne mañana.",
+    "en": "The council meets tomorrow."
+  },
+  "spain": null,
+  "trick": "CONSEJO sounds like \"council, eh Joe?\": Joe sits on the council that gives everyone advice.",
+  "image": "/deck/img/consejo-council.webp",
+  "audio": {
+    "word": "/deck/audio/consejo-council.word.mp3",
+    "sentence": "/deck/audio/consejo-council.sentence.mp3"
+  }
+}

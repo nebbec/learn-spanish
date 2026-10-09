@@ -1,0 +1,13 @@
+{
+  "rank": 354,
+  "word": "coger",
+  "cards": [],
+  "skip": {
+    "reason": "spain-only",
+    "note": "In Spain coger means to take or grab, but in much of Latin America (Mexico, Argentina and others) it is a vulgar word for sex. Neutral Latin American Spanish uses agarrar or tomar instead."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:27:04.896Z"
+}

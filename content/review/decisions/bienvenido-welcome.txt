@@ -1,0 +1,31 @@
+# bienvenido-welcome · rank 500 · bienvenido
+#
+# Why it was flagged:
+#   - One right answer: Bare "welcome" can also be the noun ("a warm welcome"), so "la bienvenida" would also be a right answer. Suggested fix: hint: greeting a guest, as in 'Welcome!' (adjective, not the noun)
+#   - Example sentence: The example sentence has no conjugated verb. Suggested fix: example.es: Siempre eres bienvenido aquí. / example.en: You're always welcome here.
+# Reviewer's note (not a reason to flag): The trick's breakdown into bien + venido (participle of venir) is accurate.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         bienvenido-welcome
+kind:       content
+pos:        adjective
+es:         bienvenido
+en:         welcome
+hint:
+feminine:   bienvenida
+example.es: ¡Bienvenidos a mi casa, amigos!
+example.en: Welcome to my house, friends!
+spain:
+trick:      BIENVENIDO is bien (well) plus venido (come): you have come well, so welcome!
+
+# The draft this file was made from. Do not change it.
+draft: 7e40709dc9d18264

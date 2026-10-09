@@ -1,0 +1,17 @@
+{
+  "id": "mandar-send",
+  "rank": 489,
+  "word": "mandar",
+  "draft": "cb2acfa0f2fae2cf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to send (also: to order, to command)",
+    "example": "I'm sending you the photo on WhatsApp."
+  },
+  "note": "The hint is needed because enviar is also a correct answer for \"to send\", and it rules enviar out cleanly; the present tense in the example can be translated as \"I'm sending\" or \"I'll send\", so both are fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:14.698Z"
+}

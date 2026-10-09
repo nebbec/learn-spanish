@@ -1,0 +1,17 @@
+{
+  "id": "capaz-capable",
+  "rank": 644,
+  "word": "capaz",
+  "draft": "7ccbbcd00e944a54",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "capable, able (adjective; same form for masculine and feminine)",
+    "example": "You are capable of doing it on your own."
+  },
+  "note": "Much of the subtitle frequency probably comes from the Latin American adverb use \"capaz (que)\" = \"maybe\" (especially in the Southern Cone), which the editor might mention somewhere, though the card is correct as it stands.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:01.909Z"
+}

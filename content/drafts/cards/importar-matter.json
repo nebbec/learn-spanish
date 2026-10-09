@@ -1,0 +1,28 @@
+{
+  "id": "importar-matter",
+  "rank": 180,
+  "kind": "content",
+  "pos": "verb",
+  "es": "importar",
+  "en": "to matter",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "importo",
+      "tu": "importas",
+      "el": "importa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "No importa, lo hacemos mañana.",
+    "en": "It doesn't matter, we'll do it tomorrow."
+  },
+  "spain": null,
+  "trick": "IMPORTAR sounds like important: if something is important to you, it matters.",
+  "image": "/deck/img/importar-matter.webp",
+  "audio": {
+    "word": "/deck/audio/importar-matter.word.mp3",
+    "sentence": "/deck/audio/importar-matter.sentence.mp3"
+  }
+}

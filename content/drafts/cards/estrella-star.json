@@ -1,0 +1,24 @@
+{
+  "id": "estrella-star",
+  "rank": 654,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la estrella",
+  "en": "star",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mira, hay muchas estrellas esta noche.",
+    "en": "Look, there are lots of stars tonight."
+  },
+  "spain": null,
+  "trick": "ESTRELLA sounds like \"a stellar\": a stellar night is full of stars.",
+  "image": "/deck/img/estrella-star.webp",
+  "audio": {
+    "word": "/deck/audio/estrella-star.word.mp3",
+    "sentence": "/deck/audio/estrella-star.sentence.mp3"
+  }
+}

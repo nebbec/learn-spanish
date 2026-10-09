@@ -1,0 +1,24 @@
+{
+  "id": "vuelta-turn",
+  "rank": 375,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la vuelta",
+  "en": "turn",
+  "hint": "a spin, a lap, a stroll around",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Vamos a dar una vuelta por el parque.",
+    "en": "Let's take a walk around the park."
+  },
+  "spain": null,
+  "trick": "VUELTA sounds like a twirling waltz: you turn round and round on the dance floor.",
+  "image": "/deck/img/vuelta-turn.webp",
+  "audio": {
+    "word": "/deck/audio/vuelta-turn.word.mp3",
+    "sentence": "/deck/audio/vuelta-turn.sentence.mp3"
+  }
+}

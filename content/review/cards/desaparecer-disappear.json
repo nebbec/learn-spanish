@@ -1,0 +1,17 @@
+{
+  "id": "desaparecer-disappear",
+  "rank": 451,
+  "word": "desaparecer",
+  "draft": "910cf1217849219d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to disappear, to vanish",
+    "example": "My cat disappeared yesterday."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:27.294Z"
+}

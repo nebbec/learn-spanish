@@ -1,0 +1,23 @@
+{
+  "id": "preocupado-worried",
+  "rank": 724,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "preocupado",
+  "en": "worried",
+  "hint": null,
+  "grammar": {
+    "feminine": "preocupada"
+  },
+  "example": {
+    "es": "Mi mamá está muy preocupada por ti.",
+    "en": "My mom is very worried about you."
+  },
+  "spain": null,
+  "trick": "PREOCUPADO sounds like preoccupied: a worried mind is preoccupied with its problems.",
+  "image": "/deck/img/preocupado-worried.webp",
+  "audio": {
+    "word": "/deck/audio/preocupado-worried.word.mp3",
+    "sentence": "/deck/audio/preocupado-worried.sentence.mp3"
+  }
+}

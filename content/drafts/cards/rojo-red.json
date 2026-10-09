@@ -1,0 +1,23 @@
+{
+  "id": "rojo-red",
+  "rank": 607,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "rojo",
+  "en": "red",
+  "hint": null,
+  "grammar": {
+    "feminine": "roja"
+  },
+  "example": {
+    "es": "Me encanta tu vestido rojo.",
+    "en": "I love your red dress."
+  },
+  "spain": null,
+  "trick": "ROJO sounds like \"row ho\": Santa rows his boat shouting ho ho ho in his red suit.",
+  "image": "/deck/img/rojo-red.webp",
+  "audio": {
+    "word": "/deck/audio/rojo-red.word.mp3",
+    "sentence": "/deck/audio/rojo-red.sentence.mp3"
+  }
+}

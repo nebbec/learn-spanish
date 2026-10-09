@@ -1,0 +1,28 @@
+{
+  "id": "crear-create",
+  "rank": 674,
+  "kind": "content",
+  "pos": "verb",
+  "es": "crear",
+  "en": "to create",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "creo",
+      "tu": "creas",
+      "el": "crea"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Ella creó una página web para su negocio.",
+    "en": "She created a website for her business."
+  },
+  "spain": null,
+  "trick": "CREAR sounds like create without the T: you create something new by taking letters away.",
+  "image": "/deck/img/crear-create.webp",
+  "audio": {
+    "word": "/deck/audio/crear-create.word.mp3",
+    "sentence": "/deck/audio/crear-create.sentence.mp3"
+  }
+}

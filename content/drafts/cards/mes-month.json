@@ -1,0 +1,24 @@
+{
+  "id": "mes-month",
+  "rank": 289,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el mes",
+  "en": "month",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Me voy de viaje el próximo mes.",
+    "en": "I'm going on a trip next month."
+  },
+  "spain": null,
+  "trick": "MES sounds like \"mess\": your room turns into a mess after a whole month without cleaning.",
+  "image": "/deck/img/mes-month.webp",
+  "audio": {
+    "word": "/deck/audio/mes-month.word.mp3",
+    "sentence": "/deck/audio/mes-month.sentence.mp3"
+  }
+}

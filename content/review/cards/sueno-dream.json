@@ -1,0 +1,17 @@
+{
+  "id": "sueno-dream",
+  "rank": 448,
+  "word": "sueño",
+  "draft": "b844ed77858d91c7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dream (also sleep, sleepiness)",
+    "example": "Last night I had a very strange dream."
+  },
+  "note": "The hint is needed and correct: it rules out the verb soñar for the English \"dream\", and the sleepiness sense is kept apart on its own card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:12.050Z"
+}

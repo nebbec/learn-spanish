@@ -1,0 +1,17 @@
+{
+  "id": "forma-shape",
+  "rank": 241,
+  "word": "forma",
+  "draft": "3ea75d2e8ec4cfe8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la forma = shape, form (also: way, manner)",
+    "example": "The cloud has the shape of a heart."
+  },
+  "note": "This card is fine, but the hint on the sibling \"way\" card has it backwards: it calls manera \"the word that also means shape\", yet forma is the one that also means shape, so that hint should be reworded.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:46.906Z"
+}

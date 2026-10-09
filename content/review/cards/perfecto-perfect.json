@@ -1,0 +1,17 @@
+{
+  "id": "perfecto-perfect",
+  "rank": 432,
+  "word": "perfecto",
+  "draft": "42abcb8b4ad3a606",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "perfect",
+    "example": "The plan is perfect."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:54.513Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 725,
+  "word": "carajo",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "carajo is a swear word (damn/hell, vulgar in many countries); not taught as a card."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:46:05.609Z"
+}

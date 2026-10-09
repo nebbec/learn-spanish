@@ -1,0 +1,28 @@
+{
+  "id": "desear-wish",
+  "rank": 372,
+  "kind": "content",
+  "pos": "verb",
+  "es": "desear",
+  "en": "to wish",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "deseo",
+      "tu": "deseas",
+      "el": "desea"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te deseo mucha suerte mañana.",
+    "en": "I wish you lots of luck tomorrow."
+  },
+  "spain": null,
+  "trick": "DESEAR sounds like desire: you wish for whatever you desire.",
+  "image": "/deck/img/desear-wish.webp",
+  "audio": {
+    "word": "/deck/audio/desear-wish.word.mp3",
+    "sentence": "/deck/audio/desear-wish.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rey-king",
+  "rank": 488,
+  "word": "rey",
+  "draft": "48a241194cd8f53e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the king",
+    "example": "The king lives in an enormous castle."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:10.811Z"
+}

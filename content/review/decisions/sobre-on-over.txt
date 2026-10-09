@@ -1,0 +1,30 @@
+# sobre-on-over · rank 118 · sobre
+#
+# Why it was flagged:
+#   - One right answer: The hint 'on top of, over' leads straight to 'encima de' (and in Latin America 'arriba de'), which are common, correct answers for 'the keys on top of the table', so sobre is not the only right answer. Suggested fix: hint: one-word preposition meaning on top of; not en
+# Reviewer's note (not a reason to flag): The trick is accurate: sobre comes from Latin super, which means above or over.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: pending
+
+id:         sobre-on-over
+kind:       glue
+pos:        preposition
+es:         sobre
+en:         the keys [on] the table
+hint:       one-word preposition meaning on top of; not en
+example.es: Dejé las llaves sobre la mesa.
+example.en: I left the keys on the table.
+spain:
+trick:      SOBRE looks like super, Latin for above: it sits on top of things.
+
+# The draft this file was made from. Do not change it.
+draft: b1ed568eb2159334

@@ -1,0 +1,17 @@
+{
+  "id": "error-mistake",
+  "rank": 518,
+  "word": "error",
+  "draft": "cac5cdd26fc105e1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "error, mistake",
+    "example": "It was a mistake to trust him."
+  },
+  "note": "La equivocación also means mistake, but el error is the clear everyday default, so the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:20.766Z"
+}

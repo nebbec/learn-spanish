@@ -1,0 +1,28 @@
+{
+  "id": "manejar-handle",
+  "rank": 767,
+  "kind": "content",
+  "pos": "verb",
+  "es": "manejar",
+  "en": "to handle",
+  "hint": "a situation or problem",
+  "grammar": {
+    "present": {
+      "yo": "manejo",
+      "tu": "manejas",
+      "el": "maneja"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Tranquilo, yo puedo manejarlo.",
+    "en": "Relax, I can handle it."
+  },
+  "spain": null,
+  "trick": "MANEJAR sounds like \"manage\": you manage, or handle, any problem that comes your way.",
+  "image": "/deck/img/manejar-handle.webp",
+  "audio": {
+    "word": "/deck/audio/manejar-handle.word.mp3",
+    "sentence": "/deck/audio/manejar-handle.sentence.mp3"
+  }
+}

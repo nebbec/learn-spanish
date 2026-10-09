@@ -1,0 +1,13 @@
+{
+  "rank": 691,
+  "word": "principio",
+  "cards": [
+    "principio-beginning",
+    "principio-principle"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:44:24.914Z"
+}

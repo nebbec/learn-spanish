@@ -1,0 +1,23 @@
+{
+  "id": "herido-wounded",
+  "rank": 559,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "herido",
+  "en": "wounded",
+  "hint": null,
+  "grammar": {
+    "feminine": "herida"
+  },
+  "example": {
+    "es": "Hay un hombre herido en la calle.",
+    "en": "There's a wounded man in the street."
+  },
+  "spain": null,
+  "trick": "HERIDO sounds like \"hurried, oh!\": he hurried off the battlefield, wounded.",
+  "image": "/deck/img/herido-wounded.webp",
+  "audio": {
+    "word": "/deck/audio/herido-wounded.word.mp3",
+    "sentence": "/deck/audio/herido-wounded.sentence.mp3"
+  }
+}

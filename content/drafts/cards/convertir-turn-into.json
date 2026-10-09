@@ -1,0 +1,28 @@
+{
+  "id": "convertir-turn-into",
+  "rank": 371,
+  "kind": "content",
+  "pos": "verb",
+  "es": "convertir",
+  "en": "to turn into",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "convierto",
+      "tu": "conviertes",
+      "el": "convierte"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "La bruja convirtió al príncipe en rana.",
+    "en": "The witch turned the prince into a frog."
+  },
+  "spain": null,
+  "trick": "CONVERTIR sounds like convert: a magician converts, or turns, a rabbit into a dove.",
+  "image": "/deck/img/convertir-turn-into.webp",
+  "audio": {
+    "word": "/deck/audio/convertir-turn-into.word.mp3",
+    "sentence": "/deck/audio/convertir-turn-into.sentence.mp3"
+  }
+}

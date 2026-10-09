@@ -1,0 +1,24 @@
+{
+  "id": "dolar-dollar",
+  "rank": 441,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el dólar",
+  "en": "dollar",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Me prestas diez dólares?",
+    "en": "Can you lend me ten dollars?"
+  },
+  "spain": null,
+  "trick": "DÓLAR sounds just like dollar, said with a little Spanish stress on the first syllable.",
+  "image": "/deck/img/dolar-dollar.webp",
+  "audio": {
+    "word": "/deck/audio/dolar-dollar.word.mp3",
+    "sentence": "/deck/audio/dolar-dollar.sentence.mp3"
+  }
+}

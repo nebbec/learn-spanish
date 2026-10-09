@@ -1,0 +1,24 @@
+{
+  "id": "recuerdo-souvenir",
+  "rank": 683,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el recuerdo",
+  "en": "souvenir",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Te traje un recuerdo de México.",
+    "en": "I brought you a souvenir from Mexico."
+  },
+  "spain": null,
+  "trick": "RECUERDO sounds like \"record\": a souvenir is a small object that records your trip.",
+  "image": "/deck/img/recuerdo-souvenir.webp",
+  "audio": {
+    "word": "/deck/audio/recuerdo-souvenir.word.mp3",
+    "sentence": "/deck/audio/recuerdo-souvenir.sentence.mp3"
+  }
+}

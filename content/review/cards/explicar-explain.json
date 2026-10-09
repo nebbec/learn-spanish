@@ -1,0 +1,17 @@
+{
+  "id": "explicar-explain",
+  "rank": 472,
+  "word": "explicar",
+  "draft": "a7b6e0c5183f603c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to explain",
+    "example": "Will you explain to me what happened last night?"
+  },
+  "note": "The preterite yo form expliqué changes c to qu only for spelling, so marking the verb regular is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:39.543Z"
+}

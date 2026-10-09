@@ -1,0 +1,17 @@
+{
+  "id": "razon-being-right",
+  "rank": 208,
+  "word": "razón",
+  "draft": "8ef759a3a554dc5f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la razón: reason; in tener razón, being right",
+    "example": "You're right, I'm sorry."
+  },
+  "note": "This card really tests the phrase tener razón, and the prompt being right only works because of the hint, which is accurate and leaves one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:24.770Z"
+}

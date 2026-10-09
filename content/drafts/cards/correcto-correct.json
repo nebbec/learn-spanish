@@ -1,0 +1,23 @@
+{
+  "id": "correcto-correct",
+  "rank": 410,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "correcto",
+  "en": "correct",
+  "hint": null,
+  "grammar": {
+    "feminine": "correcta"
+  },
+  "example": {
+    "es": "Tu respuesta es correcta.",
+    "en": "Your answer is correct."
+  },
+  "spain": null,
+  "trick": "CORRECTO sounds like \"correct-oh\": you say \"oh!\" when the answer is correct.",
+  "image": "/deck/img/correcto-correct.webp",
+  "audio": {
+    "word": "/deck/audio/correcto-correct.word.mp3",
+    "sentence": "/deck/audio/correcto-correct.sentence.mp3"
+  }
+}

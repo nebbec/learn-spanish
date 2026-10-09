@@ -1,0 +1,31 @@
+# suerte-luck · rank 303 · suerte
+#
+# Why it was flagged:
+#   - Example sentence: The example has no conjugated verb, so it doesn't meet the requirement that it conjugate a verb. Suggested fix: example.es: ¡Que tengas suerte en tu examen! / example.en: Good luck on your exam!
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: replaced the example with one that conjugates a verb; used 'Tienes mucha suerte' instead of the reviewer's '¡Que tengas suerte en tu examen!' to avoid the subjunctive and the rarer word examen.
+decision: pending
+
+id:         suerte-luck
+kind:       content
+pos:        noun
+es:         la suerte
+en:         luck
+hint:
+gender:     f
+article:    la
+example.es: Tienes mucha suerte.
+example.en: You're really lucky.
+spain:
+trick:      SUERTE sounds like "sweat-a": you sweat a lot hoping for good luck.
+
+# The draft this file was made from. Do not change it.
+draft: eecec054fc8541cf

@@ -1,0 +1,17 @@
+{
+  "id": "serio-serious",
+  "rank": 209,
+  "word": "serio",
+  "draft": "5692f979878d7b72",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "serious (adjective; feminine seria)",
+    "example": "Are you talking seriously? / Are you serious?"
+  },
+  "note": "The example uses the very common set phrase \"en serio\" rather than serio as an agreeing adjective, so the editor might add or switch to something like \"Mi papá es muy serio.\" to show it describing a noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:24.535Z"
+}

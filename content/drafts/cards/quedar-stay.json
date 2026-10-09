@@ -1,0 +1,28 @@
+{
+  "id": "quedar-stay",
+  "rank": 117,
+  "kind": "content",
+  "pos": "verb",
+  "es": "quedar",
+  "en": "to stay",
+  "hint": "usually with se: quedarse",
+  "grammar": {
+    "present": {
+      "yo": "quedo",
+      "tu": "quedas",
+      "el": "queda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Quédate conmigo esta noche.",
+    "en": "Stay with me tonight."
+  },
+  "spain": null,
+  "trick": "QUEDAR sounds like 'K, stay there!': you tell your friend to stay put.",
+  "image": "/deck/img/quedar-stay.webp",
+  "audio": {
+    "word": "/deck/audio/quedar-stay.word.mp3",
+    "sentence": "/deck/audio/quedar-stay.sentence.mp3"
+  }
+}

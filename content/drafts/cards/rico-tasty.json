@@ -1,0 +1,23 @@
+{
+  "id": "rico-tasty",
+  "rank": 672,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "rico",
+  "en": "tasty",
+  "hint": "food; same word as rich",
+  "grammar": {
+    "feminine": "rica"
+  },
+  "example": {
+    "es": "¡Qué rica está la sopa!",
+    "en": "The soup is so tasty!"
+  },
+  "spain": null,
+  "trick": "RICO sounds like rich: a tasty cake is rich in chocolate and flavor.",
+  "image": "/deck/img/rico-tasty.webp",
+  "audio": {
+    "word": "/deck/audio/rico-tasty.word.mp3",
+    "sentence": "/deck/audio/rico-tasty.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vuelta-turn",
+  "rank": 375,
+  "word": "vuelta",
+  "draft": "24fc1d5778c07082",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "turn, spin; lap; a walk or ride around (in dar una vuelta); also return, or change (money)",
+    "example": "We're going to take a walk around the park. / Let's take a walk around the park."
+  },
+  "note": "Because the hint names a lap and a stroll around, it rules out el turno (a turn in a game) and el giro (a change of direction), and it keeps this card apart from the \"return\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:13.990Z"
+}

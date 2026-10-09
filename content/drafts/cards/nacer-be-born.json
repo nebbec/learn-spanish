@@ -1,0 +1,28 @@
+{
+  "id": "nacer-be-born",
+  "rank": 640,
+  "kind": "content",
+  "pos": "verb",
+  "es": "nacer",
+  "en": "to be born",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "nazco",
+      "tu": "naces",
+      "el": "nace"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Nací en México en 1995.",
+    "en": "I was born in Mexico in 1995."
+  },
+  "spain": null,
+  "trick": "NACER sounds like \"nurser\": the nurse is there when a baby is born.",
+  "image": "/deck/img/nacer-be-born.webp",
+  "audio": {
+    "word": "/deck/audio/nacer-be-born.word.mp3",
+    "sentence": "/deck/audio/nacer-be-born.sentence.mp3"
+  }
+}

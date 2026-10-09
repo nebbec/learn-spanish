@@ -1,0 +1,17 @@
+{
+  "id": "leer-read",
+  "rank": 255,
+  "word": "leer",
+  "draft": "4eb58267ce2374d5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to read",
+    "example": "My daughter reads a book every week."
+  },
+  "note": "The irregular flag being true is justified only by the preterite spelling change (leyó, leyeron), since the present forms are regular, so the editor may want that noted somewhere for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:34.489Z"
+}

@@ -1,0 +1,33 @@
+# tirar-throw · rank 486 · tirar
+#
+# Why it was flagged:
+#   - One right answer: The hint 'a ball, a stone' doesn't rule out lanzar, a common word that is just as right for throwing a ball or a stone (and aventar is common in Mexico). Suggested fix: hint: a ball, a stone; the everyday word that also means to throw away, not lanzar
+# Reviewer's note (not a reason to flag): The hint correctly separates this card from the 'to throw away' card, but it still needs to rule out lanzar.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         tirar-throw
+kind:       content
+pos:        verb
+es:         tirar
+en:         to throw
+hint:       a ball, a stone
+yo:         tiro
+tu:         tiras
+el:         tira
+irregular:  no
+example.es: Tírame la pelota.
+example.en: Throw me the ball.
+spain:
+trick:      TIRAR sounds like a T. rex roaring as it throws a rock at you.
+
+# The draft this file was made from. Do not change it.
+draft: fb20688f7853d6c5

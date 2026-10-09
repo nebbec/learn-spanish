@@ -1,0 +1,28 @@
+{
+  "id": "explicar-explain",
+  "rank": 472,
+  "kind": "content",
+  "pos": "verb",
+  "es": "explicar",
+  "en": "to explain",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "explico",
+      "tu": "explicas",
+      "el": "explica"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Me explicas qué pasó anoche?",
+    "en": "Can you explain to me what happened last night?"
+  },
+  "spain": null,
+  "trick": "EXPLICAR sounds like \"explain car\": a mechanic explains how the car works.",
+  "image": "/deck/img/explicar-explain.webp",
+  "audio": {
+    "word": "/deck/audio/explicar-explain.word.mp3",
+    "sentence": "/deck/audio/explicar-explain.sentence.mp3"
+  }
+}

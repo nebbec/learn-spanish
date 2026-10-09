@@ -1,0 +1,21 @@
+{
+  "id": "contra-against",
+  "rank": 277,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "contra",
+  "en": "we play [against] them",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "No tengo nada contra ti.",
+    "en": "I have nothing against you."
+  },
+  "spain": null,
+  "trick": "CONTRA sounds like contrary: being contrary means going against everything.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/contra-against.word.mp3",
+    "sentence": "/deck/audio/contra-against.sentence.mp3"
+  }
+}

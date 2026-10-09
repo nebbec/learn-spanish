@@ -1,0 +1,28 @@
+{
+  "id": "suponer-suppose",
+  "rank": 201,
+  "kind": "content",
+  "pos": "verb",
+  "es": "suponer",
+  "en": "to suppose",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "supongo",
+      "tu": "supones",
+      "el": "supone"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Supongo que tienes razón.",
+    "en": "I suppose you're right."
+  },
+  "spain": null,
+  "trick": "SUPONER sounds like \"suppose-ner\": just suppose, and you've got it.",
+  "image": "/deck/img/suponer-suppose.webp",
+  "audio": {
+    "word": "/deck/audio/suponer-suppose.word.mp3",
+    "sentence": "/deck/audio/suponer-suppose.sentence.mp3"
+  }
+}

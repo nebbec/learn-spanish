@@ -1,0 +1,24 @@
+{
+  "id": "cara-face",
+  "rank": 313,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cara",
+  "en": "face",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Lávate la cara antes de dormir.",
+    "en": "Wash your face before you sleep."
+  },
+  "spain": null,
+  "trick": "CARA sounds like \"car\": you see your face reflected in the shiny car window.",
+  "image": "/deck/img/cara-face.webp",
+  "audio": {
+    "word": "/deck/audio/cara-face.word.mp3",
+    "sentence": "/deck/audio/cara-face.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "atencion-attention",
+  "rank": 585,
+  "word": "atención",
+  "draft": "5e143acb75d17cda",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "attention (noun, feminine)",
+    "example": "Pay attention, please."
+  },
+  "note": "The example's verb, presta, is the informal tú command, which fits the register.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:01.205Z"
+}

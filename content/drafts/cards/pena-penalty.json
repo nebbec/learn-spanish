@@ -1,0 +1,24 @@
+{
+  "id": "pena-penalty",
+  "rank": 581,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la pena",
+  "en": "penalty, sentence",
+  "hint": "legal punishment, as in la ___ de muerte",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Le dieron una pena de diez años.",
+    "en": "They gave him a ten-year sentence."
+  },
+  "spain": null,
+  "trick": "PENA looks like penalty: the judge hands out the pain.",
+  "image": "/deck/img/pena-penalty.webp",
+  "audio": {
+    "word": "/deck/audio/pena-penalty.word.mp3",
+    "sentence": "/deck/audio/pena-penalty.sentence.mp3"
+  }
+}

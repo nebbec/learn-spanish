@@ -1,0 +1,17 @@
+{
+  "id": "todavia-still",
+  "rank": 249,
+  "word": "todavía",
+  "draft": "b558d0af11309cb0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "still; yet (in todavía no, 'not yet')",
+    "example": "Are you still in the house? / Are you still at home?"
+  },
+  "note": "The hint is needed because it rules out aún, its synonym; \"en la casa\" for \"at home\" is normal in much of Latin America, though \"en casa\" would also work.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:07.349Z"
+}

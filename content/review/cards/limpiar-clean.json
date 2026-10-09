@@ -1,0 +1,23 @@
+{
+  "id": "limpiar-clean",
+  "rank": 631,
+  "word": "limpiar",
+  "draft": "21a2723fac489037",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses limpiar as an infinitive after tengo que instead of conjugating it.",
+      "fix": "example.es: Limpio mi cuarto todos los sábados. example.en: I clean my room every Saturday."
+    }
+  ],
+  "back": {
+    "es": "to clean",
+    "example": "I have to clean my room today."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:07.039Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "recuperar-recover",
+  "rank": 650,
+  "kind": "content",
+  "pos": "verb",
+  "es": "recuperar",
+  "en": "to recover",
+  "hint": "get back",
+  "grammar": {
+    "present": {
+      "yo": "recupero",
+      "tu": "recuperas",
+      "el": "recupera"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Por fin recuperé mi teléfono.",
+    "en": "I finally got my phone back."
+  },
+  "spain": null,
+  "trick": "RECUPERAR sounds like recuperate: you recover what you lost, or recover your health.",
+  "image": "/deck/img/recuperar-recover.webp",
+  "audio": {
+    "word": "/deck/audio/recuperar-recover.word.mp3",
+    "sentence": "/deck/audio/recuperar-recover.sentence.mp3"
+  }
+}

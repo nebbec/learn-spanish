@@ -1,0 +1,23 @@
+{
+  "id": "fin-end",
+  "rank": 327,
+  "word": "fin",
+  "draft": "93e1d123d0271e0d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The sentence uses fin only in the set phrases por fin (finally) and fin de semana (weekend), so it never shows fin meaning plain end, and the learner gets two idioms instead of the card's meaning.",
+      "fix": "example.es: No es el fin del mundo. example.en: It's not the end of the world."
+    }
+  ],
+  "back": {
+    "es": "end (the end, finish; also purpose/aim)",
+    "example": "At last the weekend arrived."
+  },
+  "note": "The hint correctly rules out el final, which is the other common Spanish word for end.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:27.764Z"
+}

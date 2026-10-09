@@ -1,0 +1,24 @@
+{
+  "id": "pie-foot",
+  "rank": 423,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el pie",
+  "en": "foot",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Me duele el pie derecho.",
+    "en": "My right foot hurts."
+  },
+  "spain": null,
+  "trick": "PIE looks like the English pie: don't step in the pie with your foot!",
+  "image": "/deck/img/pie-foot.webp",
+  "audio": {
+    "word": "/deck/audio/pie-foot.word.mp3",
+    "sentence": "/deck/audio/pie-foot.sentence.mp3"
+  }
+}

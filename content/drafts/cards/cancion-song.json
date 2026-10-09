@@ -1,0 +1,24 @@
+{
+  "id": "cancion-song",
+  "rank": 589,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la canción",
+  "en": "song",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Me encanta esta canción.",
+    "en": "I love this song."
+  },
+  "spain": null,
+  "trick": "CANCIÓN sounds like a canned chant: a song you can't stop singing.",
+  "image": "/deck/img/cancion-song.webp",
+  "audio": {
+    "word": "/deck/audio/cancion-song.word.mp3",
+    "sentence": "/deck/audio/cancion-song.sentence.mp3"
+  }
+}

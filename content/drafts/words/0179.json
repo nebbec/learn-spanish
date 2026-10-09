@@ -1,0 +1,13 @@
+{
+  "rank": 179,
+  "word": "menos",
+  "cards": [
+    "menos-less",
+    "menos-except"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:19:26.177Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 225,
+  "word": "policía",
+  "cards": [
+    "policia-police",
+    "policia-police-officer"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:21:30.125Z"
+}

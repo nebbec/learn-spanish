@@ -1,0 +1,13 @@
+{
+  "rank": 627,
+  "word": "metro",
+  "cards": [
+    "metro-meter",
+    "metro-subway"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:40:58.937Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mil-thousand",
+  "rank": 445,
+  "kind": "content",
+  "pos": "other",
+  "es": "mil",
+  "en": "thousand",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "El boleto cuesta mil pesos.",
+    "en": "The ticket costs a thousand pesos."
+  },
+  "spain": null,
+  "trick": "MIL sounds like \"mill\": an old mill grinds a thousand bags of flour a day.",
+  "image": "/deck/img/mil-thousand.webp",
+  "audio": {
+    "word": "/deck/audio/mil-thousand.word.mp3",
+    "sentence": "/deck/audio/mil-thousand.sentence.mp3"
+  }
+}

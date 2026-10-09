@@ -1,0 +1,28 @@
+{
+  "id": "acordar-agree",
+  "rank": 722,
+  "kind": "content",
+  "pos": "verb",
+  "es": "acordar",
+  "en": "to agree on",
+  "hint": "to settle or decide together",
+  "grammar": {
+    "present": {
+      "yo": "acuerdo",
+      "tu": "acuerdas",
+      "el": "acuerda"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Acordamos vernos a las ocho.",
+    "en": "We agreed to meet at eight."
+  },
+  "spain": null,
+  "trick": "ACORDAR sounds like \"accord\": when you reach an accord, you agree on something.",
+  "image": "/deck/img/acordar-agree.webp",
+  "audio": {
+    "word": "/deck/audio/acordar-agree.word.mp3",
+    "sentence": "/deck/audio/acordar-agree.sentence.mp3"
+  }
+}

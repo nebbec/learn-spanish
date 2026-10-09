@@ -1,0 +1,28 @@
+{
+  "id": "cerrar-close",
+  "rank": 342,
+  "kind": "content",
+  "pos": "verb",
+  "es": "cerrar",
+  "en": "to close",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "cierro",
+      "tu": "cierras",
+      "el": "cierra"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Cierra la puerta, por favor.",
+    "en": "Close the door, please."
+  },
+  "spain": null,
+  "trick": "CERRAR sounds like \"sir, rah!\": the guard shouts \"sir, rah!\" and slams the gate closed.",
+  "image": "/deck/img/cerrar-close.webp",
+  "audio": {
+    "word": "/deck/audio/cerrar-close.word.mp3",
+    "sentence": "/deck/audio/cerrar-close.sentence.mp3"
+  }
+}

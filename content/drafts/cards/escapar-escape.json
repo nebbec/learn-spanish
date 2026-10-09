@@ -1,0 +1,28 @@
+{
+  "id": "escapar-escape",
+  "rank": 509,
+  "kind": "content",
+  "pos": "verb",
+  "es": "escapar",
+  "en": "to escape",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "escapo",
+      "tu": "escapas",
+      "el": "escapa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "El perro se escapó por la puerta.",
+    "en": "The dog escaped through the door."
+  },
+  "spain": null,
+  "trick": "ESCAPAR sounds like escape plus a car: you escape in a getaway car.",
+  "image": "/deck/img/escapar-escape.webp",
+  "audio": {
+    "word": "/deck/audio/escapar-escape.word.mp3",
+    "sentence": "/deck/audio/escapar-escape.sentence.mp3"
+  }
+}

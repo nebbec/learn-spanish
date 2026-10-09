@@ -1,0 +1,23 @@
+{
+  "id": "peligroso-dangerous",
+  "rank": 686,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "peligroso",
+  "en": "dangerous",
+  "hint": null,
+  "grammar": {
+    "feminine": "peligrosa"
+  },
+  "example": {
+    "es": "Ese barrio es muy peligroso de noche.",
+    "en": "That neighborhood is very dangerous at night."
+  },
+  "spain": null,
+  "trick": "PELIGROSO sounds like \"peril-gross-o\": something full of peril is dangerous.",
+  "image": "/deck/img/peligroso-dangerous.webp",
+  "audio": {
+    "word": "/deck/audio/peligroso-dangerous.word.mp3",
+    "sentence": "/deck/audio/peligroso-dangerous.sentence.mp3"
+  }
+}

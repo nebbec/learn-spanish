@@ -1,0 +1,17 @@
+{
+  "id": "corazon-heart",
+  "rank": 302,
+  "word": "corazón",
+  "draft": "f5a2a81ea87c4b9a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the heart",
+    "example": "I love you with all my heart."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:28.404Z"
+}

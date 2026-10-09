@@ -1,0 +1,28 @@
+{
+  "id": "aceptar-accept",
+  "rank": 459,
+  "kind": "content",
+  "pos": "verb",
+  "es": "aceptar",
+  "en": "to accept",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "acepto",
+      "tu": "aceptas",
+      "el": "acepta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Aceptas tarjeta o solo efectivo?",
+    "en": "Do you take cards or only cash?"
+  },
+  "spain": null,
+  "trick": "ACEPTAR sounds like \"accept\" with a star: you accept the gold star they hand you.",
+  "image": "/deck/img/aceptar-accept.webp",
+  "audio": {
+    "word": "/deck/audio/aceptar-accept.word.mp3",
+    "sentence": "/deck/audio/aceptar-accept.sentence.mp3"
+  }
+}

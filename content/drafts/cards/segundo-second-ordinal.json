@@ -1,0 +1,23 @@
+{
+  "id": "segundo-second-ordinal",
+  "rank": 213,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "segundo",
+  "en": "second",
+  "hint": "in order, 2nd",
+  "grammar": {
+    "feminine": "segunda"
+  },
+  "example": {
+    "es": "Es la segunda vez que llamas hoy.",
+    "en": "It's the second time you've called today."
+  },
+  "spain": null,
+  "trick": "SEGUNDO sounds like \"second-oh\": oh, you came second again!",
+  "image": "/deck/img/segundo-second-ordinal.webp",
+  "audio": {
+    "word": "/deck/audio/segundo-second-ordinal.word.mp3",
+    "sentence": "/deck/audio/segundo-second-ordinal.sentence.mp3"
+  }
+}

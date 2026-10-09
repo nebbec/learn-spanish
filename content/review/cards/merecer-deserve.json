@@ -1,0 +1,17 @@
+{
+  "id": "merecer-deserve",
+  "rank": 608,
+  "word": "merecer",
+  "draft": "1e272f9042d3c594",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to deserve",
+    "example": "You deserve something better."
+  },
+  "note": "The example uses reflexive merecerse (te mereces), which is natural and very common, though the plain te merece would also work.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:39.374Z"
+}

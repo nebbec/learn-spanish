@@ -1,0 +1,17 @@
+{
+  "id": "grupo-group",
+  "rank": 534,
+  "word": "grupo",
+  "draft": "be80982e6ba7e9b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the group",
+    "example": "We're going to work in a group (as a group)."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:22.241Z"
+}

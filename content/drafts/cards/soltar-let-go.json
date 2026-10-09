@@ -1,0 +1,28 @@
+{
+  "id": "soltar-let-go",
+  "rank": 582,
+  "kind": "content",
+  "pos": "verb",
+  "es": "soltar",
+  "en": "to let go",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "suelto",
+      "tu": "sueltas",
+      "el": "suelta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¡Suéltame! Me estás lastimando.",
+    "en": "Let go of me! You're hurting me."
+  },
+  "spain": null,
+  "trick": "SOLTAR sounds like \"salt jar\": your slippery hand lets go of the salt jar and it crashes.",
+  "image": "/deck/img/soltar-let-go.webp",
+  "audio": {
+    "word": "/deck/audio/soltar-let-go.word.mp3",
+    "sentence": "/deck/audio/soltar-let-go.sentence.mp3"
+  }
+}

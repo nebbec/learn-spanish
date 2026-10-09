@@ -1,0 +1,17 @@
+{
+  "id": "poner-get-become",
+  "rank": 106,
+  "word": "poner",
+  "draft": "3cae54d8e432bb6f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to get / to become (a temporary state or mood, with an adjective); also to put on (clothes)",
+    "example": "I get nervous when I speak in public."
+  },
+  "note": "Ponerse also means to put on (clothes), so a later card for that sense would need a hint to tell the two apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:34.776Z"
+}

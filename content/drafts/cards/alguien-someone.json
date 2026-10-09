@@ -1,0 +1,21 @@
+{
+  "id": "alguien-someone",
+  "rank": 125,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "alguien",
+  "en": "[someone] is at the door",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¿Alguien quiere más café?",
+    "en": "Does anyone want more coffee?"
+  },
+  "spain": null,
+  "trick": "ALGUIEN sounds like \"all geese in\": someone must have let all the geese in.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/alguien-someone.word.mp3",
+    "sentence": "/deck/audio/alguien-someone.sentence.mp3"
+  }
+}

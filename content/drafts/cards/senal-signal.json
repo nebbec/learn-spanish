@@ -1,0 +1,24 @@
+{
+  "id": "senal-signal",
+  "rank": 702,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la señal",
+  "en": "signal",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Aquí no hay señal para el celular.",
+    "en": "There's no phone signal here."
+  },
+  "spain": null,
+  "trick": "SEÑAL sounds like signal said with a Spanish ñ: same word, same meaning.",
+  "image": "/deck/img/senal-signal.webp",
+  "audio": {
+    "word": "/deck/audio/senal-signal.word.mp3",
+    "sentence": "/deck/audio/senal-signal.sentence.mp3"
+  }
+}

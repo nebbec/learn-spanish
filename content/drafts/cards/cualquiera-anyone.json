@@ -1,0 +1,21 @@
+{
+  "id": "cualquiera-anyone",
+  "rank": 229,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "cualquiera",
+  "en": "[anyone] can do it",
+  "hint": "anyone at all, not alguien",
+  "grammar": null,
+  "example": {
+    "es": "Eso lo puede hacer cualquiera.",
+    "en": "Anyone can do that."
+  },
+  "spain": null,
+  "trick": "CUALQUIERA sounds like \"call-key-era\": anyone who calls can get the key.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cualquiera-anyone.word.mp3",
+    "sentence": "/deck/audio/cualquiera-anyone.sentence.mp3"
+  }
+}

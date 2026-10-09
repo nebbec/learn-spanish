@@ -1,0 +1,17 @@
+{
+  "id": "mover-move",
+  "rank": 284,
+  "word": "mover",
+  "draft": "c56a1145e81fc4a2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to move (change the position of something or someone; moverse: to move oneself)",
+    "example": "Move, I can't see anything! (literally: Move yourself, because I don't see anything!)"
+  },
+  "note": "The hint correctly rules out mudarse (to move house), and the example uses the reflexive imperative muévete, which is fine because it is still mover conjugated in this meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:48.682Z"
+}

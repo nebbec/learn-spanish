@@ -1,0 +1,17 @@
+{
+  "id": "mayor-older",
+  "rank": 378,
+  "word": "mayor",
+  "draft": "ec0dccc1aaf3bd7a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "older, elder (also greater, bigger); invariable adjective",
+    "example": "My older brother lives in Mexico."
+  },
+  "note": "The hint is needed because it rules out más viejo, and the trick is fine, but the editor might add that the Spanish for a town's mayor is el alcalde so learners don't take mayor to mean that.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:30.471Z"
+}

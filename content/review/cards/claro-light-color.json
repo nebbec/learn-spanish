@@ -1,0 +1,17 @@
+{
+  "id": "claro-light-color",
+  "rank": 153,
+  "word": "claro",
+  "draft": "56449312ce0a2240",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "clear; light (of a color)",
+    "example": "I want a light blue shirt."
+  },
+  "note": "The example correctly keeps \"claro\" masculine after \"camisa\" because compound colors like \"azul claro\" don't change their ending, which may surprise learners next to the feminine \"clara\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:16.198Z"
+}

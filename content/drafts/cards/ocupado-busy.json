@@ -1,0 +1,23 @@
+{
+  "id": "ocupado-busy",
+  "rank": 656,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "ocupado",
+  "en": "busy",
+  "hint": null,
+  "grammar": {
+    "feminine": "ocupada"
+  },
+  "example": {
+    "es": "Ahora no puedo, estoy muy ocupada.",
+    "en": "I can't right now, I'm really busy."
+  },
+  "spain": null,
+  "trick": "OCUPADO sounds like occupied: a busy person's whole day is occupied.",
+  "image": "/deck/img/ocupado-busy.webp",
+  "audio": {
+    "word": "/deck/audio/ocupado-busy.word.mp3",
+    "sentence": "/deck/audio/ocupado-busy.sentence.mp3"
+  }
+}

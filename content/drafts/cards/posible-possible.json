@@ -1,0 +1,23 @@
+{
+  "id": "posible-possible",
+  "rank": 383,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "posible",
+  "en": "possible",
+  "hint": null,
+  "grammar": {
+    "feminine": "posible"
+  },
+  "example": {
+    "es": "¿Es posible llegar antes de las ocho?",
+    "en": "Is it possible to get there before eight?"
+  },
+  "spain": null,
+  "trick": "POSIBLE looks almost exactly like possible: just drop one s and say it the Spanish way, po-SEE-bleh.",
+  "image": "/deck/img/posible-possible.webp",
+  "audio": {
+    "word": "/deck/audio/posible-possible.word.mp3",
+    "sentence": "/deck/audio/posible-possible.sentence.mp3"
+  }
+}

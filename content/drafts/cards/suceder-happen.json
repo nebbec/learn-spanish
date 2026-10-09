@@ -1,0 +1,28 @@
+{
+  "id": "suceder-happen",
+  "rank": 271,
+  "kind": "content",
+  "pos": "verb",
+  "es": "suceder",
+  "en": "to happen",
+  "hint": "not pasar or ocurrir; looks like succeed",
+  "grammar": {
+    "present": {
+      "yo": "sucedo",
+      "tu": "sucedes",
+      "el": "sucede"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Qué sucede aquí?",
+    "en": "What's happening here?"
+  },
+  "spain": null,
+  "trick": "SUCEDER sounds like succeed: when things succeed one after another, events happen.",
+  "image": "/deck/img/suceder-happen.webp",
+  "audio": {
+    "word": "/deck/audio/suceder-happen.word.mp3",
+    "sentence": "/deck/audio/suceder-happen.sentence.mp3"
+  }
+}

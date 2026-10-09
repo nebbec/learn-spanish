@@ -1,0 +1,24 @@
+{
+  "id": "auto-car",
+  "rank": 352,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el auto",
+  "en": "car",
+  "hint": "short for automóvil, not carro",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi papá lavó el auto ayer.",
+    "en": "My dad washed the car yesterday."
+  },
+  "spain": "coche",
+  "trick": "AUTO is like automobile: an auto is simply a car.",
+  "image": "/deck/img/auto-car.webp",
+  "audio": {
+    "word": "/deck/audio/auto-car.word.mp3",
+    "sentence": "/deck/audio/auto-car.sentence.mp3"
+  }
+}

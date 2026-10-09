@@ -1,0 +1,34 @@
+# acabar-finish · rank 154 · acabar
+#
+# Why it was flagged:
+#   - One right answer: The hint says acabar also means to run out, but that sense belongs to the pronominal acabarse (se acabó la leche), so a learner would memorize a wrong use of plain acabar. Suggested fix: hint: not terminar; also to end up
+# Reviewer's note (not a reason to flag): In Rioplatense and some other varieties, plain acabar without an object is also slang for to climax, so the editor may want examples that always give it an object, as this one does.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint (dropped 'to run out', which is acabarse).
+decision: pending
+
+id:         acabar-finish
+kind:       content
+pos:        verb
+es:         acabar
+en:         to finish
+hint:       not terminar; also to end up
+yo:         acabo
+tu:         acabas
+el:         acaba
+irregular:  no
+example.es: ¿Ya acabaste la tarea?
+example.en: Did you already finish your homework?
+spain:
+trick:      ACABAR sounds like a cab bar: you finish your drink at the bar, then take a cab home.
+
+# The draft this file was made from. Do not change it.
+draft: ba5ffea572e859f2

@@ -1,0 +1,17 @@
+{
+  "id": "edad-age",
+  "rank": 626,
+  "word": "edad",
+  "draft": "b2028f6adea1efbd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la edad = age (how old someone or something is)",
+    "example": "What age is your brother? (How old is your brother?)"
+  },
+  "note": "\"Age\" in the sense of a historical era would be \"la era\" or \"la época\", but a bare \"age\" points to \"la edad\", so the card doesn't need a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:44.427Z"
+}

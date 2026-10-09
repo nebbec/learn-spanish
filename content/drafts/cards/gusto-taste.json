@@ -1,0 +1,24 @@
+{
+  "id": "gusto-taste",
+  "rank": 625,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el gusto",
+  "en": "taste",
+  "hint": "personal preference, style",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tienes buen gusto para la ropa.",
+    "en": "You have good taste in clothes."
+  },
+  "spain": null,
+  "trick": "GUSTO sounds like gust: a gust of flavor hits your tongue and tells you what you like.",
+  "image": "/deck/img/gusto-taste.webp",
+  "audio": {
+    "word": "/deck/audio/gusto-taste.word.mp3",
+    "sentence": "/deck/audio/gusto-taste.sentence.mp3"
+  }
+}

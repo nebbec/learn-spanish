@@ -1,0 +1,17 @@
+{
+  "id": "demonio-demon",
+  "rank": 402,
+  "word": "demonio",
+  "draft": "defa5749076ffb85",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "demon (also devil, the Devil)",
+    "example": "My brother says he saw a demon."
+  },
+  "note": "Much of this word's subtitle frequency probably comes from the exclamation ¡Demonios! (damn it!), which the editor could mention somewhere, though it is not needed for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:37.265Z"
+}

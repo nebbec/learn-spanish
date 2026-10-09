@@ -1,0 +1,28 @@
+{
+  "id": "detener-stop",
+  "rank": 330,
+  "word": "detener",
+  "draft": "319c640d72e4b55d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "The example uses the formal usted command (Deténgase, No puede), not the informal tú register the app requires.",
+      "fix": "example.es: El guardia detiene los coches en la entrada."
+    },
+    {
+      "reason": "example",
+      "problem": "The example uses reflexive detenerse (to stop oneself) in the usted form, not detener meaning to halt someone or something, as the hint says.",
+      "fix": "example.es: El guardia detiene los coches en la entrada. / example.en: The guard stops the cars at the entrance."
+    }
+  ],
+  "back": {
+    "es": "to stop, to halt (someone or something); also to arrest, to detain",
+    "example": "Stop (yourself)! You can't go through. (formal usted command of the reflexive detenerse)"
+  },
+  "note": "The trick's \"detain her\" leans toward the sibling \"to arrest\" card, but it still fits \"stop\" well enough.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:41.641Z"
+}

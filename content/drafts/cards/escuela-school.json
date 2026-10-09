@@ -1,0 +1,24 @@
+{
+  "id": "escuela-school",
+  "rank": 389,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la escuela",
+  "en": "school",
+  "hint": "the general word",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mañana no hay escuela.",
+    "en": "There's no school tomorrow."
+  },
+  "spain": "colegio",
+  "trick": "ESCUELA sounds like 'a school, ya!': kids shout it as they run to the school bus.",
+  "image": "/deck/img/escuela-school.webp",
+  "audio": {
+    "word": "/deck/audio/escuela-school.word.mp3",
+    "sentence": "/deck/audio/escuela-school.sentence.mp3"
+  }
+}

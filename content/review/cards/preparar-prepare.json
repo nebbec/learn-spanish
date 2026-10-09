@@ -1,0 +1,23 @@
+{
+  "id": "preparar-prepare",
+  "rank": 308,
+  "word": "preparar",
+  "draft": "d0601ea8d272af7d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Adding -ar to 'prepare' gives 'preparear', so the trick could teach a misspelling; preparar swaps the final e for -ar.",
+      "fix": "trick: PREPARAR is just prepare with its final e swapped for -ar (prepar-AR), and you're ready to go."
+    }
+  ],
+  "back": {
+    "es": "to prepare, to get ready (something)",
+    "example": "My mom makes (prepares) dinner every day."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:54.509Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "caja-box",
+  "rank": 580,
+  "word": "caja",
+  "draft": "0cfeee15f9f84f98",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la caja = box (also cash register, checkout)",
+    "example": "What is there in this box? / What's in this box?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:26.838Z"
+}

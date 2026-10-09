@@ -1,0 +1,17 @@
+{
+  "id": "pena-penalty",
+  "rank": 581,
+  "word": "pena",
+  "draft": "2ddf4a30542733ad",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la pena: penalty, punishment, (prison) sentence; also pity, sorrow, grief, and in Latin America embarrassment",
+    "example": "They gave him a ten-year sentence."
+  },
+  "note": "La condena also means sentence, but the fixed phrase la pena de muerte points to pena; adding \"not condena\" to the hint would make that firmer, and the very common sense \"vale la pena\" (it's worth it) has no card yet.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:49.161Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cambiar-change",
+  "rank": 223,
+  "word": "cambiar",
+  "draft": "441ef98959d0cd31",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to change (also to exchange, to swap)",
+    "example": "My life changed a lot this year."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:24.595Z"
+}

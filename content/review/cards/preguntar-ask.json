@@ -1,0 +1,23 @@
+{
+  "id": "preguntar-ask",
+  "rank": 177,
+  "word": "preguntar",
+  "draft": "9caf00f547129b99",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses preguntar only in the infinitive (preguntarte after puedo), so the card's verb is not conjugated.",
+      "fix": "example.es: Mi hijo siempre pregunta por qué. / example.en: My son always asks why."
+    }
+  ],
+  "back": {
+    "es": "to ask (a question), to inquire",
+    "example": "Can I ask you something?"
+  },
+  "note": "The hint matters here because it rules out pedir (to ask for something).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:18.826Z"
+}

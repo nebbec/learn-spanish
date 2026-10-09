@@ -1,0 +1,13 @@
+{
+  "rank": 230,
+  "word": "eh",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "eh is a filler interjection used the same way in English"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:21:39.376Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "equipo-team",
+  "rank": 318,
+  "word": "equipo",
+  "draft": "a788b4805cf9b52d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "team (also: equipment)",
+    "example": "We're a good team, right?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:37.654Z"
+}

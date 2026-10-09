@@ -1,0 +1,24 @@
+{
+  "id": "policia-police",
+  "rank": 225,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la policía",
+  "en": "the police",
+  "hint": "the force as a whole",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¡Llama a la policía ahora mismo!",
+    "en": "Call the police right now!"
+  },
+  "spain": null,
+  "trick": "POLICÍA sounds like police plus a cheer, AH: the police arrive and everyone says ah.",
+  "image": "/deck/img/policia-police.webp",
+  "audio": {
+    "word": "/deck/audio/policia-police.word.mp3",
+    "sentence": "/deck/audio/policia-police.sentence.mp3"
+  }
+}

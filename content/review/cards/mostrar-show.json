@@ -1,0 +1,17 @@
+{
+  "id": "mostrar-show",
+  "rank": 321,
+  "word": "mostrar",
+  "draft": "ef9e95a9dc2e48a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to show",
+    "example": "Will you show me your new room? / Can you show me your new room?"
+  },
+  "note": "Enseñar is also often used for \"to show\" in everyday speech, but its main meaning is \"to teach\" and mostrar is the standard answer for \"to show\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:59.767Z"
+}

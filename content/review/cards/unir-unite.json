@@ -1,0 +1,23 @@
+{
+  "id": "unir-unite",
+  "rank": 462,
+  "word": "unir",
+  "draft": "accdbf722377c315",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example leaves the target verb as an infinitive after quieres, and it uses the pronominal unirse (to join a group) rather than this card's meaning of unir, to unite or join together.",
+      "fix": "example.es: La música une a las personas. / example.en: Music unites people."
+    }
+  ],
+  "back": {
+    "es": "to unite, to join (together), to connect",
+    "example": "Do you want to join us?"
+  },
+  "note": "The hint's aside about unirse is correct and rules out juntar, but since it mentions another verb, the editor could shorten it to just \"to join together\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:11.729Z"
+}

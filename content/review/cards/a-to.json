@@ -2,21 +2,16 @@
   "id": "a-to",
   "rank": 7,
   "word": "a",
-  "draft": "df833c0660fd1ffa",
-  "flagged": true,
-  "findings": [
-    {
-      "reason": "oneAnswer",
-      "problem": "The hint 'direction, movement' also fits hacia (toward) and colloquial para ('voy para México'), whereas 'destination' points only to a.",
-      "fix": "hint: destination of movement"
-    }
-  ],
+  "draft": "d1381e1489f1ad2b",
+  "flagged": false,
+  "findings": [],
   "back": {
-    "es": "to, at (preposition marking destination, direction, time, indirect object)",
-    "example": "Tomorrow I'm going to the beach."
+    "es": "to, at (preposition marking direction or destination); 'Voy a México' = I go to Mexico",
+    "example": "I need a taxi to the city."
   },
+  "note": "The hint is correct and helps tell this card apart from the clock-time card; a sentence with a motion verb, such as \"Voy a la ciudad en taxi.\", would show the meaning more clearly, though the current example is acceptable.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:40:12.312Z"
+  "reviewedAt": "2026-10-09T14:19:15.198Z"
 }

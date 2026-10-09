@@ -1,0 +1,17 @@
+{
+  "id": "sistema-system",
+  "rank": 569,
+  "word": "sistema",
+  "draft": "e05b61302901a885",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the system",
+    "example": "The system isn't working again."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:36.918Z"
+}

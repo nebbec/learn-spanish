@@ -2,22 +2,22 @@
   "id": "phrase-can-you-help-me",
   "rank": 144,
   "word": "can-you-help-me",
-  "draft": "70b5ca6c9914583b",
+  "draft": "a628f2104f0eb3f4",
   "flagged": true,
   "findings": [
     {
       "reason": "usage",
-      "problem": "The card uses the usted register (puede), but the app's Spanish must be in the informal tú register, with usted taught only as a word card of its own.",
-      "fix": "es: ¿Me puedes ayudar, por favor? | hint: Informal (tú) | example.es: Perdón, ¿me puedes ayudar, por favor? No entiendo."
+      "problem": "The app teaches the informal tú register and uses usted only on its own word card, but this card teaches the usted form 'puede' and its hint asks for formal speech.",
+      "fix": "es: ¿Me puedes ayudar, por favor? / hint: Informal: to a friend (tú) / example.es: Hola, ¿me puedes ayudar, por favor? No entiendo."
     }
   ],
   "back": {
-    "es": "Can you (formal) help me, please?",
-    "example": "Sorry, can you help me, please? I don't understand."
+    "es": "Can you help me, please? (formal: usted)",
+    "example": "Hi, can you help me, please? I don't understand."
   },
-  "note": "With the formal hint, ¿Me podría ayudar, por favor? would also be a natural answer; the tú version has the same issue with ¿Me podrías ayudar?, so the editor could think about accepting the conditional form or making the hint rule it out.",
+  "note": "Other ways to say this are also correct and a learner might give them, such as '¿Puedes ayudarme, por favor?' (the pronoun placed after the verb), so the grader should accept them.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:24.963Z"
+  "reviewedAt": "2026-10-09T14:18:51.710Z"
 }

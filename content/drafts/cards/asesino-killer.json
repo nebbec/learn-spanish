@@ -1,0 +1,24 @@
+{
+  "id": "asesino-killer",
+  "rank": 491,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el asesino",
+  "en": "killer",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "La policía todavía busca al asesino.",
+    "en": "The police are still looking for the killer."
+  },
+  "spain": null,
+  "trick": "ASESINO sounds like assassin-o: an assassin is a hired killer.",
+  "image": "/deck/img/asesino-killer.webp",
+  "audio": {
+    "word": "/deck/audio/asesino-killer.word.mp3",
+    "sentence": "/deck/audio/asesino-killer.sentence.mp3"
+  }
+}

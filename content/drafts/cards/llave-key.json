@@ -1,0 +1,24 @@
+{
+  "id": "llave-key",
+  "rank": 592,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la llave",
+  "en": "key",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Dónde dejaste las llaves del carro?",
+    "en": "Where did you leave the car keys?"
+  },
+  "spain": null,
+  "trick": "LLAVE sounds like \"yah, vay!\": you cheer when you finally find your lost key.",
+  "image": "/deck/img/llave-key.webp",
+  "audio": {
+    "word": "/deck/audio/llave-key.word.mp3",
+    "sentence": "/deck/audio/llave-key.sentence.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+# disparar-shoot · rank 328 · disparar
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt "to shoot" could also mean shooting a film or a photo (filmar, rodar, fotografiar), so without a hint there is more than one right answer. Suggested fix: hint: fire a gun
+# Reviewer's note (not a reason to flag): The trick spells "pair" as "par"; that works as a sound pun but could read as a typo.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint; spelled the trick's pun as pair, per the reviewer's note.
+# Claude suggests: reject — only about firing guns; frequent in film subtitles but of little use to a beginner.
+decision: pending
+
+id:         disparar-shoot
+kind:       content
+pos:        verb
+es:         disparar
+en:         to shoot
+hint:       fire a gun
+yo:         disparo
+tu:         disparas
+el:         dispara
+irregular:  no
+example.es: ¡No dispares! Somos amigos.
+example.en: Don't shoot! We're friends.
+spain:
+trick:      DISPARAR sounds like "this pair": he shoots this pair of bottles off the fence.
+
+# The draft this file was made from. Do not change it.
+draft: 22f290f174f1cff4

@@ -1,0 +1,24 @@
+{
+  "id": "nave-ship",
+  "rank": 703,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la nave",
+  "en": "ship",
+  "hint": "especially a spaceship, not barco",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La nave aterrizó en Marte.",
+    "en": "The ship landed on Mars."
+  },
+  "spain": null,
+  "trick": "NAVE sounds like navy: the navy is full of ships, and the space navy flies spaceships.",
+  "image": "/deck/img/nave-ship.webp",
+  "audio": {
+    "word": "/deck/audio/nave-ship.word.mp3",
+    "sentence": "/deck/audio/nave-ship.sentence.mp3"
+  }
+}

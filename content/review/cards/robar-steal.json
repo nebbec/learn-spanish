@@ -1,0 +1,17 @@
+{
+  "id": "robar-steal",
+  "rank": 345,
+  "word": "robar",
+  "draft": "6e59e655dc296698",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to steal, to rob",
+    "example": "Someone stole my (cell) phone (from me)."
+  },
+  "note": "The example uses the Latin American word celular, which is correct here, but Spain would say el móvil; robar itself is the same in Spain, so spain is correctly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:59.530Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 374,
+  "word": "probar",
+  "cards": [
+    "probar-try",
+    "probar-taste"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:28:04.870Z"
+}

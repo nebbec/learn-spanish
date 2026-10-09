@@ -1,0 +1,17 @@
+{
+  "id": "sitio-place",
+  "rank": 452,
+  "word": "sitio",
+  "draft": "0a4310c282ca785b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "place, spot, site (as in website, sitio web)",
+    "example": "This is a good place to eat."
+  },
+  "note": "In much of Latin America, lugar is the everyday word for place and sitio is heard more in Spain and in sitio web, so the hint ruling out lugar does useful work; the example is still natural in Latin America.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:37.317Z"
+}

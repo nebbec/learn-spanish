@@ -1,0 +1,23 @@
+{
+  "id": "dulce-sweet",
+  "rank": 639,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "dulce",
+  "en": "sweet",
+  "hint": null,
+  "grammar": {
+    "feminine": "dulce"
+  },
+  "example": {
+    "es": "Este pastel está muy dulce.",
+    "en": "This cake is very sweet."
+  },
+  "spain": null,
+  "trick": "DULCE sounds like \"dull, see?\": nothing is dull once you taste something sweet.",
+  "image": "/deck/img/dulce-sweet.webp",
+  "audio": {
+    "word": "/deck/audio/dulce-sweet.word.mp3",
+    "sentence": "/deck/audio/dulce-sweet.sentence.mp3"
+  }
+}

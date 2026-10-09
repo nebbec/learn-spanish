@@ -1,0 +1,31 @@
+# luz-light · rank 393 · luz
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt "light" can also be read as an adjective, for weight (ligero) or colour (claro), and nothing rules those readings out. Suggested fix: hint: noun, as in turn on the light
+# Reviewer's note (not a reason to flag): Luz also commonly means electricity in Latin America (se fue la luz), which a later example could show, but this card's meaning is fine as written.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         luz-light
+kind:       content
+pos:        noun
+es:         la luz
+en:         light
+hint:
+gender:     f
+article:    la
+example.es: Apaga la luz, por favor.
+example.en: Turn off the light, please.
+spain:
+trick:      LUZ sounds like "Lucy": Lucy always flips on the light when she walks in.
+
+# The draft this file was made from. Do not change it.
+draft: c0a9bfa3920561eb

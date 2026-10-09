@@ -1,0 +1,23 @@
+{
+  "id": "imaginar-imagine",
+  "rank": 429,
+  "word": "imaginar",
+  "draft": "fb4eb21e3361612e",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Adding -ar to imagine gives the misspelling imaginear, and a learner could memorize that; the e has to be dropped first.",
+      "fix": "trick: IMAGINAR is just imagine with the final e swapped for -ar: imagin-AR, to imagine."
+    }
+  ],
+  "back": {
+    "es": "to imagine",
+    "example": "I imagine (suppose) you're tired."
+  },
+  "note": "The example uses the pronominal form me imagino, which is the most natural everyday way to say I imagine or I suppose in Latin America, so it is fine for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:50.227Z"
+}

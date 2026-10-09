@@ -1,0 +1,24 @@
+{
+  "id": "nota-grade",
+  "rank": 761,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la nota",
+  "en": "grade",
+  "hint": "at school",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Saqué una buena nota en el examen.",
+    "en": "I got a good grade on the test."
+  },
+  "spain": null,
+  "trick": "The teacher writes a NOTA on your test: a note telling you your grade.",
+  "image": "/deck/img/nota-grade.webp",
+  "audio": {
+    "word": "/deck/audio/nota-grade.word.mp3",
+    "sentence": "/deck/audio/nota-grade.sentence.mp3"
+  }
+}

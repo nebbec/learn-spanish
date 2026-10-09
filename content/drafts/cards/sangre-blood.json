@@ -1,0 +1,24 @@
+{
+  "id": "sangre-blood",
+  "rank": 380,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la sangre",
+  "en": "blood",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tienes sangre en la camisa.",
+    "en": "You have blood on your shirt."
+  },
+  "spain": null,
+  "trick": "SANGRE sounds like sanguine and sangria: red wine as dark as blood.",
+  "image": "/deck/img/sangre-blood.webp",
+  "audio": {
+    "word": "/deck/audio/sangre-blood.word.mp3",
+    "sentence": "/deck/audio/sangre-blood.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "disculpar-excuse",
+  "rank": 305,
+  "kind": "content",
+  "pos": "verb",
+  "es": "disculpar",
+  "en": "to excuse",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "disculpo",
+      "tu": "disculpas",
+      "el": "disculpa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Disculpe, ¿dónde está el baño?",
+    "en": "Excuse me, where is the bathroom?"
+  },
+  "spain": null,
+  "trick": "DISCULPAR sounds like this culprit: please excuse this culprit, he didn't mean it.",
+  "image": "/deck/img/disculpar-excuse.webp",
+  "audio": {
+    "word": "/deck/audio/disculpar-excuse.word.mp3",
+    "sentence": "/deck/audio/disculpar-excuse.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mismo-self",
+  "rank": 114,
+  "word": "mismo",
+  "draft": "abb0d68c8bc0dddd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "mismo: same; (after a pronoun) -self, used for emphasis, as in yo mismo = I myself",
+    "example": "I did it myself."
+  },
+  "note": "The hint rules out \"solo\" (by myself), and it keeps this card separate from the \"same\" card; the editor might also mention that a female speaker would say \"yo misma\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:14.869Z"
+}

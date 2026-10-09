@@ -1,0 +1,28 @@
+{
+  "id": "arruinar-ruin",
+  "rank": 729,
+  "kind": "content",
+  "pos": "verb",
+  "es": "arruinar",
+  "en": "to ruin",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "arruino",
+      "tu": "arruinas",
+      "el": "arruina"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Arruinaste la sorpresa!",
+    "en": "You ruined the surprise!"
+  },
+  "spain": null,
+  "trick": "ARRUINAR sounds like \"a ruin\": when you ruin something, you leave behind a ruin.",
+  "image": "/deck/img/arruinar-ruin.webp",
+  "audio": {
+    "word": "/deck/audio/arruinar-ruin.word.mp3",
+    "sentence": "/deck/audio/arruinar-ruin.sentence.mp3"
+  }
+}

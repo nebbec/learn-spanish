@@ -1,0 +1,17 @@
+{
+  "id": "caso-case",
+  "rank": 248,
+  "word": "caso",
+  "draft": "9c801132fae008c5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "case (an instance, situation or matter; also a police or legal case)",
+    "example": "The detective solved the case."
+  },
+  "note": "Since this is the word's only card, the editor might consider a later card for the very common subtitle phrase \"hacer caso\" (to pay attention, to listen to someone).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:01.538Z"
+}

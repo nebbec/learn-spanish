@@ -1,0 +1,17 @@
+{
+  "id": "divertido-fun",
+  "rank": 514,
+  "word": "divertido",
+  "draft": "b11209c4940ac6b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "fun, entertaining, amusing (adjective)",
+    "example": "The party was very fun."
+  },
+  "note": "Divertido can also mean funny or amusing, but fun is its main meaning, and for the adjective fun it is the standard neutral answer, ahead of entretenido and regional words like chévere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:09.207Z"
+}

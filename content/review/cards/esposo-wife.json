@@ -1,0 +1,17 @@
+{
+  "id": "esposo-wife",
+  "rank": 253,
+  "word": "esposo",
+  "draft": "882757a232d3ade5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la esposa = the wife (also 'the spouse', female); the plural las esposas also means handcuffs",
+    "example": "I introduce to you my wife, Laura. (Let me introduce my wife, Laura.)"
+  },
+  "note": "The hint correctly rules out mujer, which is also a common word for wife, and it doesn't clash with the handcuffs card, because that sense is the plural las esposas.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:22.034Z"
+}

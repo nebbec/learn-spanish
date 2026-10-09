@@ -1,0 +1,17 @@
+{
+  "id": "voz-voice",
+  "rank": 554,
+  "word": "voz",
+  "draft": "0699686044f88aef",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "voice",
+    "example": "You have a very pretty voice."
+  },
+  "note": "The plural \"las voces\" (z changes to c) might be worth showing somewhere, but the card is correct as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:40.141Z"
+}

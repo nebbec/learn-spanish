@@ -1,0 +1,23 @@
+{
+  "id": "trasero-rear",
+  "rank": 740,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "trasero",
+  "en": "back",
+  "hint": "adjective, as in the back door",
+  "grammar": {
+    "feminine": "trasera"
+  },
+  "example": {
+    "es": "Sal por la puerta trasera.",
+    "en": "Go out the back door."
+  },
+  "spain": null,
+  "trick": "TRASERO sounds like \"trash area\": the trash area is always at the back of the house.",
+  "image": "/deck/img/trasero-rear.webp",
+  "audio": {
+    "word": "/deck/audio/trasero-rear.word.mp3",
+    "sentence": "/deck/audio/trasero-rear.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rank": 483,
+  "word": "derecho",
+  "cards": [
+    "derecho-right-entitlement",
+    "derecho-right-side",
+    "derecho-straight-ahead"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:33:52.449Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "metro-meter",
+  "rank": 627,
+  "word": "metro",
+  "draft": "726d2629fa3e17e9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "meter (unit of length); also subway",
+    "example": "The wall measures three meters."
+  },
+  "note": "The hint \"unit of length\" is needed: it separates this card from the \"subway\" card and from a measuring device such as an electricity meter (medidor).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:46.963Z"
+}

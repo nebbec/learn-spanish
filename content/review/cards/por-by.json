@@ -2,15 +2,22 @@
   "id": "por-by",
   "rank": 14,
   "word": "por",
-  "draft": "f731e781fb615449",
-  "flagged": false,
-  "findings": [],
+  "draft": "01e29fe4dcd38b01",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The full passive \"La comida fue hecha por mi madre\" sounds stiff for food in everyday speech, where people would say \"La comida la hizo mi mamá\"; a written work is a more natural place for the por agent.",
+      "fix": "example.es: Esta canción fue escrita por mi hermano. / example.en: This song was written by my brother."
+    }
+  ],
   "back": {
-    "es": "por = by (agent of a passive), also for, through, because of",
-    "example": "The letter was written by my dad."
+    "es": "by (agent of a passive or participle), also for, through, because of",
+    "example": "The food was made by my mother."
   },
+  "note": "The prompt clearly separates this card from the cause/exchange and through cards, because \\\"escrito\\\" makes por the only natural answer and rules out de.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:41:26.609Z"
+  "reviewedAt": "2026-10-09T14:19:27.524Z"
 }

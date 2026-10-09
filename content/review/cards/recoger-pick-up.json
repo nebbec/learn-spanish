@@ -1,0 +1,17 @@
+{
+  "id": "recoger-pick-up",
+  "rank": 615,
+  "word": "recoger",
+  "draft": "7960269c8459fb2d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to pick up, to collect, to gather",
+    "example": "I'll pick you up at school at three."
+  },
+  "note": "The g-to-j change in recojo is only a spelling change, so irregular false is right; some regions also say \"pasar a buscar\" for picking someone up, but recoger is the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:02.267Z"
+}

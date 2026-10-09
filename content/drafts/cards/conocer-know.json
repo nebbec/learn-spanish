@@ -1,0 +1,28 @@
+{
+  "id": "conocer-know",
+  "rank": 119,
+  "kind": "content",
+  "pos": "verb",
+  "es": "conocer",
+  "en": "to know",
+  "hint": "a person or place, not a fact",
+  "grammar": {
+    "present": {
+      "yo": "conozco",
+      "tu": "conoces",
+      "el": "conoce"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Conoces a mi hermano?",
+    "en": "Do you know my brother?"
+  },
+  "spain": null,
+  "trick": "CONOCER sounds like \"cone of sir\": you know Sir Tom well, he always buys you an ice cream cone.",
+  "image": "/deck/img/conocer-know.webp",
+  "audio": {
+    "word": "/deck/audio/conocer-know.word.mp3",
+    "sentence": "/deck/audio/conocer-know.sentence.mp3"
+  }
+}

@@ -1,0 +1,32 @@
+# fin-end · rank 327 · fin
+#
+# Why it was flagged:
+#   - Example sentence: The sentence uses fin only in the set phrases por fin (finally) and fin de semana (weekend), so it never shows fin meaning plain end, and the learner gets two idioms instead of the card's meaning. Suggested fix: example.es: No es el fin del mundo. example.en: It's not the end of the world.
+# Reviewer's note (not a reason to flag): The hint correctly rules out el final, which is the other common Spanish word for end.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to the example.
+decision: pending
+
+id:         fin-end
+kind:       content
+pos:        noun
+es:         el fin
+en:         end
+hint:       short word shown at the end of a movie, not final
+gender:     m
+article:    el
+example.es: No es el fin del mundo.
+example.en: It's not the end of the world.
+spain:
+trick:      FIN sounds like a fish fin: the fin is at the very end of the fish.
+
+# The draft this file was made from. Do not change it.
+draft: 93e1d123d0271e0d

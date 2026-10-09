@@ -1,0 +1,28 @@
+{
+  "id": "ocupar-take-care",
+  "rank": 692,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ocuparse",
+  "en": "to take care of",
+  "hint": "handle a task or problem, not look after someone",
+  "grammar": {
+    "present": {
+      "yo": "me ocupo",
+      "tu": "te ocupas",
+      "el": "se ocupa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Tranquilo, yo me ocupo de todo.",
+    "en": "Relax, I'll take care of everything."
+  },
+  "spain": null,
+  "trick": "OCUPARSE sounds like 'occupy myself': you occupy yourself with a problem until it's handled.",
+  "image": "/deck/img/ocupar-take-care.webp",
+  "audio": {
+    "word": "/deck/audio/ocupar-take-care.word.mp3",
+    "sentence": "/deck/audio/ocupar-take-care.sentence.mp3"
+  }
+}

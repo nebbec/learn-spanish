@@ -1,0 +1,24 @@
+{
+  "id": "novio-boyfriend",
+  "rank": 357,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el novio",
+  "en": "boyfriend",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi novio vive en otra ciudad.",
+    "en": "My boyfriend lives in another city."
+  },
+  "spain": null,
+  "trick": "NOVIO sounds like novel: your boyfriend is the hero of your love novel.",
+  "image": "/deck/img/novio-boyfriend.webp",
+  "audio": {
+    "word": "/deck/audio/novio-boyfriend.word.mp3",
+    "sentence": "/deck/audio/novio-boyfriend.sentence.mp3"
+  }
+}

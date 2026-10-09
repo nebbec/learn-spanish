@@ -2,16 +2,16 @@
   "id": "phrase-i-need-help",
   "rank": 285,
   "word": "can-you-help-me",
-  "draft": "2ad117d7c7ef0ab4",
+  "draft": "5c10f4c012f357d6",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "I need help.",
-    "example": "Excuse me, I need help. Can you help me?"
+    "example": "I need help, I don't understand this."
   },
-  "note": "The example uses informal ¿Puedes ayudarme?, while the unit's other card teaches the formal usted version, which is fine for tú but worth knowing about when you put the unit together.",
+  "note": "The example's English uses a full stop where the Spanish has a comma, which is fine; \"Necesito ayuda\" is the standard answer, and the hint-free prompt does not clash with the unit's usted card.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:21.918Z"
+  "reviewedAt": "2026-10-09T14:18:45.404Z"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "pena-embarrassment",
+  "rank": 581,
+  "word": "pena",
+  "draft": "57703229959566e6",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "Pena as embarrassment is regional (Mexico, Central America, Colombia, Venezuela), not general Latin American; in the Southern Cone and Peru me da pena means sadness and vergüenza is used, so the hint's label misleads the learner.",
+      "fix": "hint: Mexico, Central America, Colombia, as in me da ___; not vergüenza"
+    }
+  ],
+  "back": {
+    "es": "la pena: embarrassment, shyness (Mexico, Central America, Colombia, Venezuela); elsewhere sorrow, pity, penalty",
+    "example": "It embarrasses me to speak in public."
+  },
+  "note": "Spain is correctly vergüenza, but vergüenza is also the normal word in much of South America, so the regional label in the hint matters.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:50.694Z"
+}

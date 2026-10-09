@@ -1,0 +1,24 @@
+{
+  "id": "santo-saint",
+  "rank": 405,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el santo",
+  "en": "saint",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi abuela le reza a su santo favorito.",
+    "en": "My grandma prays to her favorite saint."
+  },
+  "spain": null,
+  "trick": "SANTO sounds like Santa: Santa Claus is based on a saint, Saint Nicholas.",
+  "image": "/deck/img/santo-saint.webp",
+  "audio": {
+    "word": "/deck/audio/santo-saint.word.mp3",
+    "sentence": "/deck/audio/santo-saint.sentence.mp3"
+  }
+}

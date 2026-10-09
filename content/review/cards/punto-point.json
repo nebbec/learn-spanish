@@ -1,0 +1,17 @@
+{
+  "id": "punto-point",
+  "rank": 306,
+  "word": "punto",
+  "draft": "e48a118a36b07419",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "point (also dot, full stop / period, stitch)",
+    "example": "You're right, that's a good point."
+  },
+  "note": "In real football a punt does not score a point, but the trick says nothing false about the Spanish word, so it passes; an example of the score sense (e.g. \"Ganamos por un punto.\") would also work if the editor wants a more basic sentence.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:45.836Z"
+}

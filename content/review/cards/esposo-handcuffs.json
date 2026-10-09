@@ -1,0 +1,17 @@
+{
+  "id": "esposo-handcuffs",
+  "rank": 253,
+  "word": "esposo",
+  "draft": "0d7b6539ae6f552f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "handcuffs (plural noun; the singular la esposa means wife)",
+    "example": "The police officer put the handcuffs on him (or her)."
+  },
+  "note": "The plural es is correct because \"handcuffs\" is a plural-only sense, and in the example \"le\" could also mean \"her\", so \"on him\" is one valid reading.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:30.408Z"
+}

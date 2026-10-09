@@ -1,0 +1,17 @@
+{
+  "id": "alegrar-make-happy",
+  "rank": 473,
+  "word": "alegrar",
+  "draft": "a3a79c24e657ee94",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to make happy, to cheer up (alegrarse: to be glad)",
+    "example": "I'm very glad to see you."
+  },
+  "note": "The hint is needed because \"hacer feliz\" or \"poner contento\" could otherwise answer \"to make happy\", and pointing to the very common reflexive \"me alegro\" suits a list built from subtitles.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:51.176Z"
+}

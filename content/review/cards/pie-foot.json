@@ -1,0 +1,17 @@
+{
+  "id": "pie-foot",
+  "rank": 423,
+  "word": "pie",
+  "draft": "e5beb4db0b3a64d2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "foot (body part; also base of something, or a foot as a unit of length)",
+    "example": "My right foot hurts."
+  },
+  "note": "The common phrase \"a pie\" (on foot) could be worth adding to the example or the trick, since it comes up a lot in everyday speech.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:06.191Z"
+}

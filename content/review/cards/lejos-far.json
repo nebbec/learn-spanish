@@ -2,16 +2,16 @@
   "id": "lejos-far",
   "rank": 470,
   "word": "lejos",
-  "draft": "6d182020ecaaad11",
+  "draft": "9564cafb5600aafc",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "far, far away (adverb)",
-    "example": "My house is very far from here."
+    "example": "The city is very far from here."
   },
-  "note": "An optional hint \"(adverb)\" would rule out the adjective lejano, which some learners might give for \"far away\".",
+  "note": "The adjective lejano also means far away, but a beginner would naturally answer lejos for the plain prompt, so no hint is needed.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:07:23.306Z"
+  "reviewedAt": "2026-10-09T14:27:25.349Z"
 }

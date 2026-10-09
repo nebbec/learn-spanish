@@ -1,0 +1,32 @@
+# realidad-reality · rank 314 · realidad
+#
+# Why it was flagged:
+#   - Example sentence: The example uses the fixed phrase 'en realidad' = 'actually', so neither the sentence nor its translation shows the noun meaning 'reality' that the card teaches. Suggested fix: example.es: Tienes que aceptar la realidad. / example.en: You have to accept reality.
+# Reviewer's note (not a reason to flag): 'En realidad' (actually) is a very common phrase, so it could be worth its own phrase card, or a mention elsewhere, rather than being the noun's only example.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: replaced example.es and example.en with a noun-sense example; used 'Esa es la realidad' instead of the reviewer's 'Tienes que aceptar la realidad' to avoid the rarer word aceptar.
+decision: pending
+
+id:         realidad-reality
+kind:       content
+pos:        noun
+es:         la realidad
+en:         reality
+hint:
+gender:     f
+article:    la
+example.es: Esa es la realidad.
+example.en: That's the reality.
+spain:
+trick:      REALIDAD sounds like "real, dad": Dad tells you to face reality and keep it real.
+
+# The draft this file was made from. Do not change it.
+draft: 34be79b1c1f414cc

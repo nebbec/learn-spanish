@@ -1,0 +1,24 @@
+{
+  "id": "servicio-service",
+  "rank": 594,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el servicio",
+  "en": "service",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El servicio en este restaurante es excelente.",
+    "en": "The service at this restaurant is excellent."
+  },
+  "spain": null,
+  "trick": "SERVICIO sounds like \"service-ee-oh\": just add a cheerful \"ee-oh\" to service with a smile.",
+  "image": "/deck/img/servicio-service.webp",
+  "audio": {
+    "word": "/deck/audio/servicio-service.word.mp3",
+    "sentence": "/deck/audio/servicio-service.sentence.mp3"
+  }
+}

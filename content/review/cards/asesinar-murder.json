@@ -1,0 +1,17 @@
+{
+  "id": "asesinar-murder",
+  "rank": 573,
+  "word": "asesinar",
+  "draft": "5e3a02cac85fb45b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to murder, to assassinate",
+    "example": "They murdered the witness last night."
+  },
+  "note": "\"To murder\" points clearly to asesinar rather than matar (\"to kill\"), so the card doesn't need a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:57.955Z"
+}

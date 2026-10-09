@@ -1,0 +1,17 @@
+{
+  "id": "acercar-get-closer",
+  "rank": 603,
+  "word": "acercar",
+  "draft": "ec38f779be481ba7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to come closer, to approach, to get near (reflexive: the subject itself moves near)",
+    "example": "Come closer, I want to tell you something."
+  },
+  "note": "The irregular flag is correctly false because the preterite acerqué is only a regular c-to-qu spelling change, and the hint usefully separates this card from the \"to bring closer\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:21.843Z"
+}

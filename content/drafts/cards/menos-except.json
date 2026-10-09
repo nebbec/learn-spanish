@@ -1,0 +1,21 @@
+{
+  "id": "menos-except",
+  "rank": 179,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "menos",
+  "en": "everyone [except] me",
+  "hint": "same word as less, not excepto",
+  "grammar": null,
+  "example": {
+    "es": "Todos vinieron menos tu hermano.",
+    "en": "Everyone came except your brother."
+  },
+  "spain": null,
+  "trick": "MENOS sounds like \"minus\": everyone minus me means everyone except me.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/menos-except.word.mp3",
+    "sentence": "/deck/audio/menos-except.sentence.mp3"
+  }
+}

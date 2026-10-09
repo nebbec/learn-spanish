@@ -1,0 +1,28 @@
+{
+  "id": "acercar-get-closer",
+  "rank": 603,
+  "kind": "content",
+  "pos": "verb",
+  "es": "acercarse",
+  "en": "to come closer",
+  "hint": "yourself moving near",
+  "grammar": {
+    "present": {
+      "yo": "me acerco",
+      "tu": "te acercas",
+      "el": "se acerca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Acércate, quiero decirte algo.",
+    "en": "Come closer, I want to tell you something."
+  },
+  "spain": null,
+  "trick": "ACERCARSE sounds like a circus: everyone comes closer to see the circus.",
+  "image": "/deck/img/acercar-get-closer.webp",
+  "audio": {
+    "word": "/deck/audio/acercar-get-closer.word.mp3",
+    "sentence": "/deck/audio/acercar-get-closer.sentence.mp3"
+  }
+}

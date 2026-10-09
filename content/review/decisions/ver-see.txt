@@ -1,0 +1,34 @@
+# ver-see · rank 35 · ver
+#
+# Why it was flagged:
+#   - Example sentence: The example uses ver only in the infinitive, and it means visiting someone rather than seeing with your eyes. Suggested fix: example.es: No veo bien sin mis lentes. / example.en: I can't see well without my glasses.
+# Reviewer's note (not a reason to flag): The trick's sound link is loose, because ver sounds more like "bear" than "where", but it says nothing false.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: replaced the example with one that conjugates ver in its seeing sense; used 'No veo nada' instead of the reviewer's 'No veo bien sin mis lentes' to avoid the rarer word lentes.
+decision: pending
+
+id:         ver-see
+kind:       content
+pos:        verb
+es:         ver
+en:         to see
+hint:
+yo:         veo
+tu:         ves
+el:         ve
+irregular:  yes
+example.es: No veo nada.
+example.en: I can't see anything.
+spain:
+trick:      VER sounds like "where": you ask where it is until you finally see it.
+
+# The draft this file was made from. Do not change it.
+draft: 7e389c9bfca66b36

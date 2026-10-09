@@ -1,0 +1,23 @@
+{
+  "id": "antiguo-ancient",
+  "rank": 726,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "antiguo",
+  "en": "ancient",
+  "hint": "very old, from long ago; not viejo",
+  "grammar": {
+    "feminine": "antigua"
+  },
+  "example": {
+    "es": "Esta iglesia es muy antigua.",
+    "en": "This church is very old."
+  },
+  "spain": null,
+  "trick": "ANTIGUO sounds like antique: antiques are ancient things from long ago.",
+  "image": "/deck/img/antiguo-ancient.webp",
+  "audio": {
+    "word": "/deck/audio/antiguo-ancient.word.mp3",
+    "sentence": "/deck/audio/antiguo-ancient.sentence.mp3"
+  }
+}

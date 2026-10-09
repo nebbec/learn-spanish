@@ -1,0 +1,28 @@
+{
+  "id": "callar-shut-up",
+  "rank": 382,
+  "kind": "content",
+  "pos": "verb",
+  "es": "callar",
+  "en": "to shut up",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "callo",
+      "tu": "callas",
+      "el": "calla"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Cállate y escúchame!",
+    "en": "Shut up and listen to me!"
+  },
+  "spain": null,
+  "trick": "CALLAR sounds like collar: grab someone by the collar and they'll shut up fast.",
+  "image": "/deck/img/callar-shut-up.webp",
+  "audio": {
+    "word": "/deck/audio/callar-shut-up.word.mp3",
+    "sentence": "/deck/audio/callar-shut-up.sentence.mp3"
+  }
+}

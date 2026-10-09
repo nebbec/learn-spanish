@@ -1,0 +1,17 @@
+{
+  "id": "gente-people",
+  "rank": 145,
+  "word": "gente",
+  "draft": "8bfc2d1b811a7365",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "people (in general), folks; a singular collective noun",
+    "example": "The people here are very friendly."
+  },
+  "note": "The hint rules out \"las personas\" as it should, and the example shows that gente takes a singular verb, which helps learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:23.873Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tirar-throw",
+  "rank": 486,
+  "word": "tirar",
+  "draft": "fb20688f7853d6c5",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'a ball, a stone' doesn't rule out lanzar, a common word that is just as right for throwing a ball or a stone (and aventar is common in Mexico).",
+      "fix": "hint: a ball, a stone; the everyday word that also means to throw away, not lanzar"
+    }
+  ],
+  "back": {
+    "es": "to throw, to toss (also: to throw away, to pull down)",
+    "example": "Throw me the ball."
+  },
+  "note": "The hint correctly separates this card from the 'to throw away' card, but it still needs to rule out lanzar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:00.607Z"
+}

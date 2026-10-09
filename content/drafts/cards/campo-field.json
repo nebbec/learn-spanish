@@ -1,0 +1,24 @@
+{
+  "id": "campo-field",
+  "rank": 570,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el campo",
+  "en": "field",
+  "hint": "open land, farm or battle",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Los caballos corren por el campo.",
+    "en": "The horses run across the field."
+  },
+  "spain": null,
+  "trick": "CAMPO sounds like camp: soldiers set up camp in a big open field.",
+  "image": "/deck/img/campo-field.webp",
+  "audio": {
+    "word": "/deck/audio/campo-field.word.mp3",
+    "sentence": "/deck/audio/campo-field.sentence.mp3"
+  }
+}

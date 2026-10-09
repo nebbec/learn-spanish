@@ -1,0 +1,23 @@
+{
+  "id": "caballero-gentleman",
+  "rank": 519,
+  "word": "caballero",
+  "draft": "21a4895bd8f9ec67",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb, so it does not show the word in a full sentence.",
+      "fix": "example.es: Tu papá es todo un caballero. / example.en: Your dad is a real gentleman."
+    }
+  ],
+  "back": {
+    "es": "gentleman (also knight, horseman)",
+    "example": "Good evening, ladies and gentlemen."
+  },
+  "note": "Señor can sometimes mean \"gentleman\" too, but caballero is the standard answer, and it is clearly separate from the \"knight\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:21.674Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "servir-be-useful",
+  "rank": 438,
+  "word": "servir",
+  "draft": "bb7dc4a87666cda4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "servir: to serve; to be useful, to work, to be good for (servir para)",
+    "example": "This charger is good for nothing / doesn't work at all."
+  },
+  "note": "The words \"to work\" in the hint might make some learners think of funcionar, so the editor could cut the hint down to \"one verb; be good for something\" to aim it more clearly at servir.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:28.938Z"
+}

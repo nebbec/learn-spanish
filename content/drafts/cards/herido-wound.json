@@ -1,0 +1,24 @@
+{
+  "id": "herido-wound",
+  "rank": 559,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la herida",
+  "en": "wound",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La herida todavía me duele.",
+    "en": "The wound still hurts."
+  },
+  "spain": null,
+  "trick": "LA HERIDA sounds like \"hair-EE-da\": she hid the wound under her hair.",
+  "image": "/deck/img/herido-wound.webp",
+  "audio": {
+    "word": "/deck/audio/herido-wound.word.mp3",
+    "sentence": "/deck/audio/herido-wound.sentence.mp3"
+  }
+}

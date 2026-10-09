@@ -1,0 +1,31 @@
+# cualquiera-any · rank 229 · cualquiera
+#
+# Why it was flagged:
+#   - One right answer: In the frame "call me [any] day" the word comes before a noun, so the right Spanish is cualquier (llámame cualquier día), not the answer shown, cualquiera, and a learner who recalls cualquier would be marked wrong, or would learn that cualquiera día is correct. Suggested fix: en: pick [any one] of them; hint: any one at all, whichever, not a person (that is the anyone card)
+#   - Example sentence: The sentence is natural and correctly translated, but it uses only the shortened form cualquier, so it does not show es as written and would no longer match a corrected prompt that uses the full form. Suggested fix: example.es: Puedes elegir cualquiera de los dos. example.en: You can pick either one.
+# Reviewer's note (not a reason to flag): Another option is to keep the noun frame and put the word after the noun (un día cualquiera), but that means an ordinary day rather than any day, so the any-one-of-them frame fits better; the hint's note that it shortens to cualquier before a noun is worth keeping on the answer side.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to en and hint; example differs from the suggestion because elegir is not met yet.
+decision: pending
+
+id:         cualquiera-any
+kind:       glue
+pos:        determiner
+es:         cualquiera
+en:         pick [any one] of them
+hint:       any one at all, whichever; not a person (that is the anyone card)
+example.es: Toma cualquiera, todos son buenos.
+example.en: Take any one, they're all good.
+spain:
+trick:      CUALQUIERA sounds like "quality-era": in any era, any day, any quality will do.
+
+# The draft this file was made from. Do not change it.
+draft: c61603a636804e33

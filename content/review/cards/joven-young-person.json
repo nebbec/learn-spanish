@@ -1,0 +1,17 @@
+{
+  "id": "joven-young-person",
+  "rank": 344,
+  "word": "joven",
+  "draft": "a8c4d57d80fdd343",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "young man, young person (noun; el joven for a male, la joven for a female)",
+    "example": "That young man works at the store."
+  },
+  "note": "Joven is a common-gender noun (el joven / la joven) with plural jóvenes, so the editor could mention la joven for a young woman; the hint is needed and correctly rules out chico and muchacho.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:55.756Z"
+}

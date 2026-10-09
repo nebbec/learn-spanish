@@ -2,16 +2,16 @@
   "id": "conmigo-with-me",
   "rank": 199,
   "word": "conmigo",
-  "draft": "acc06b8303b52a71",
+  "draft": "694de91d74df89d2",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "conmigo = with me",
-    "example": "Do you want to go to the movies with me?"
+    "es": "with me",
+    "example": "Are you coming with me to eat today?"
   },
-  "note": "The card could teach that \"con mí\" is never correct, since English speakers often make that mistake.",
+  "note": "The grammar field could mention that \"con mí\" is never correct and that \"contigo\" is the matching form for \"with you\", but this card is fine without it.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:28.722Z"
+  "reviewedAt": "2026-10-09T14:26:47.786Z"
 }

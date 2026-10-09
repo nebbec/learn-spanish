@@ -1,0 +1,23 @@
+{
+  "id": "probablemente-probably",
+  "rank": 436,
+  "word": "probablemente",
+  "draft": "fc1eaf701830a4b1",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The plain present 'llueve' for tomorrow's weather sounds unnatural here; speakers say 'va a llover' (or the subjunctive 'llueva').",
+      "fix": "example.es: Probablemente va a llover mañana."
+    }
+  ],
+  "back": {
+    "es": "probably",
+    "example": "It probably rains tomorrow."
+  },
+  "note": "'Seguramente' is also often used for 'probably' in Latin America, but 'probablemente' is the direct, standard answer for this prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:18.736Z"
+}

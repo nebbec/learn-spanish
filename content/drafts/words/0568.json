@@ -1,0 +1,12 @@
+{
+  "rank": 568,
+  "word": "cliente",
+  "cards": [
+    "cliente-customer"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:38:06.202Z"
+}

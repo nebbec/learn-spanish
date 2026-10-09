@@ -1,0 +1,17 @@
+{
+  "id": "propio-own",
+  "rank": 299,
+  "word": "propio",
+  "draft": "9a48bcfa9e74b13e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "own (as in my own, his own); also proper, typical of",
+    "example": "I want to have my own house."
+  },
+  "note": "Because content verbs start with \"to\", the bare prompt \"own\" points to the adjective and not the verb \"to own\", so it needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:24.082Z"
+}

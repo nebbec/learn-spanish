@@ -1,0 +1,24 @@
+{
+  "id": "camara-camera",
+  "rank": 599,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cámara",
+  "en": "camera",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Sonríe, que hay una cámara.",
+    "en": "Smile, there's a camera."
+  },
+  "spain": null,
+  "trick": "CÁMARA sounds like camera with an extra a: say cheese, the cámara is rolling.",
+  "image": "/deck/img/camara-camera.webp",
+  "audio": {
+    "word": "/deck/audio/camara-camera.word.mp3",
+    "sentence": "/deck/audio/camara-camera.sentence.mp3"
+  }
+}

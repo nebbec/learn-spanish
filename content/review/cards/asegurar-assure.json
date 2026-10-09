@@ -1,0 +1,17 @@
+{
+  "id": "asegurar-assure",
+  "rank": 447,
+  "word": "asegurar",
+  "draft": "d6c06a8ae081dc8e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to assure, to ensure, to secure (verb); here, to tell someone confidently that something is true",
+    "example": "I assure you it wasn't me."
+  },
+  "note": "The hint \"promise someone\" is needed: it separates this sense from the word's other card, \"to make sure\", and \"to assure\" points to asegurar rather than prometer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:05.475Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ensenar-teach",
+  "rank": 396,
+  "word": "enseñar",
+  "draft": "7352802f2036cea6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to teach (also: to show)",
+    "example": "My mom taught me to cook."
+  },
+  "note": "I found no problems with this card: \"enseñar\" is the one common answer for \"to teach\", it is regular in both present and preterite, and the example correctly uses it in the teaching sense, which keeps it apart from the \"to show\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:02.806Z"
+}

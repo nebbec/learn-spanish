@@ -1,0 +1,17 @@
+{
+  "id": "muchacho-boy",
+  "rank": 376,
+  "word": "muchacho",
+  "draft": "2fa6f5b490dd35fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "boy, young man, lad (el muchacho, masculine noun)",
+    "example": "That boy/young man works with my dad."
+  },
+  "note": "The hint correctly rules out chico and niño, and \"el joven\" does not fit \"boy\", so the prompt has one answer, but adding \"not joven\" to the hint would make it airtight.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:25.744Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "suficiente-enough",
+  "rank": 319,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "suficiente",
+  "en": "enough",
+  "hint": "sufficient",
+  "grammar": {
+    "feminine": "suficiente"
+  },
+  "example": {
+    "es": "No tenemos suficiente dinero para el viaje.",
+    "en": "We don't have enough money for the trip."
+  },
+  "spain": null,
+  "trick": "SUFICIENTE sounds like 'sufficient': when you have a sufficient amount, you have enough.",
+  "image": "/deck/img/suficiente-enough.webp",
+  "audio": {
+    "word": "/deck/audio/suficiente-enough.word.mp3",
+    "sentence": "/deck/audio/suficiente-enough.sentence.mp3"
+  }
+}

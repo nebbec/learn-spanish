@@ -1,0 +1,28 @@
+{
+  "id": "bastar-be-enough",
+  "rank": 485,
+  "kind": "content",
+  "pos": "verb",
+  "es": "bastar",
+  "en": "to be enough",
+  "hint": "one verb",
+  "grammar": {
+    "present": {
+      "yo": "basto",
+      "tu": "bastas",
+      "el": "basta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Basta! No quiero hablar más de eso.",
+    "en": "Enough! I don't want to talk about that anymore."
+  },
+  "spain": null,
+  "trick": "BASTA sounds like pasta: one big plate of pasta is enough for anyone.",
+  "image": "/deck/img/bastar-be-enough.webp",
+  "audio": {
+    "word": "/deck/audio/bastar-be-enough.word.mp3",
+    "sentence": "/deck/audio/bastar-be-enough.sentence.mp3"
+  }
+}

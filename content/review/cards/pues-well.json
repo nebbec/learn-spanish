@@ -1,0 +1,17 @@
+{
+  "id": "pues-well",
+  "rank": 273,
+  "word": "pues",
+  "draft": "8fc6b30ab1eee6b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "well (discourse marker opening a reply); also then, since",
+    "example": "Well, I don't know, maybe tomorrow."
+  },
+  "note": "The hint is needed because it rules out bueno, which also means \"well\" at the start of a reply; pues is used more in Mexico, Colombia and the Andes than in the Southern Cone, but it is understood everywhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:46.013Z"
+}

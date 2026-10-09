@@ -1,0 +1,21 @@
+{
+  "id": "hacia-toward",
+  "rank": 297,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "hacia",
+  "en": "walk [toward] the door",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Caminamos hacia la playa.",
+    "en": "We walked toward the beach."
+  },
+  "spain": null,
+  "trick": "HACIA sounds like \"ah, see ya\": you wave and head toward your friend across the street.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/hacia-toward.word.mp3",
+    "sentence": "/deck/audio/hacia-toward.sentence.mp3"
+  }
+}

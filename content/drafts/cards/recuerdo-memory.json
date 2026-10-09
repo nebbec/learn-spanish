@@ -1,0 +1,24 @@
+{
+  "id": "recuerdo-memory",
+  "rank": 683,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el recuerdo",
+  "en": "memory",
+  "hint": "a thing you remember, not the ability",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tengo muchos recuerdos bonitos de mi infancia.",
+    "en": "I have a lot of nice memories from my childhood."
+  },
+  "spain": null,
+  "trick": "RECUERDO sounds like \"record\": a memory is a little recording of your past.",
+  "image": "/deck/img/recuerdo-memory.webp",
+  "audio": {
+    "word": "/deck/audio/recuerdo-memory.word.mp3",
+    "sentence": "/deck/audio/recuerdo-memory.sentence.mp3"
+  }
+}

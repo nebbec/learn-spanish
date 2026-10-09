@@ -1,0 +1,24 @@
+{
+  "id": "cabeza-head",
+  "rank": 250,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la cabeza",
+  "en": "head",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Me duele mucho la cabeza.",
+    "en": "My head really hurts."
+  },
+  "spain": null,
+  "trick": "CABEZA sounds like \"cab bets ya\": the cab driver bets you'll bump your head getting in.",
+  "image": "/deck/img/cabeza-head.webp",
+  "audio": {
+    "word": "/deck/audio/cabeza-head.word.mp3",
+    "sentence": "/deck/audio/cabeza-head.sentence.mp3"
+  }
+}

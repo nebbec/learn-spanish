@@ -1,0 +1,17 @@
+{
+  "id": "cuarto-fourth",
+  "rank": 523,
+  "word": "cuarto",
+  "draft": "d8a412797cbd016f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "fourth (ordinal adjective; feminine cuarta)",
+    "example": "I live on the fourth floor."
+  },
+  "note": "The bare prompt \"fourth\" has only one common Spanish answer, so no hint is needed, and the card does not clash with the \"room\" or \"quarter\" cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:38.980Z"
+}

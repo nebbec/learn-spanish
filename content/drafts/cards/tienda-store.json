@@ -1,0 +1,24 @@
+{
+  "id": "tienda-store",
+  "rank": 637,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la tienda",
+  "en": "store",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Voy a la tienda a comprar leche.",
+    "en": "I'm going to the store to buy milk."
+  },
+  "spain": null,
+  "trick": "TIENDA sounds like \"tend her\": the shopkeeper tends her store all day.",
+  "image": "/deck/img/tienda-store.webp",
+  "audio": {
+    "word": "/deck/audio/tienda-store.word.mp3",
+    "sentence": "/deck/audio/tienda-store.sentence.mp3"
+  }
+}

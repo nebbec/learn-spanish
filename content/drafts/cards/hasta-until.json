@@ -1,0 +1,21 @@
+{
+  "id": "hasta-until",
+  "rank": 130,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "hasta",
+  "en": "I work [until] eight",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "¡Hasta mañana, mi amor!",
+    "en": "See you tomorrow, my love!"
+  },
+  "spain": null,
+  "trick": "HASTA sounds like \"hasta la vista\": you won't see me until later, baby.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/hasta-until.word.mp3",
+    "sentence": "/deck/audio/hasta-until.sentence.mp3"
+  }
+}

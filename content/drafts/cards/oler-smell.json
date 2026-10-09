@@ -1,0 +1,28 @@
+{
+  "id": "oler-smell",
+  "rank": 770,
+  "kind": "content",
+  "pos": "verb",
+  "es": "oler",
+  "en": "to smell",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "huelo",
+      "tu": "hueles",
+      "el": "huele"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Aquí huele a café.",
+    "en": "It smells like coffee in here."
+  },
+  "spain": null,
+  "trick": "OLER sounds like \"oh, layer!\": you sniff each layer of the cake and say oh, it smells great.",
+  "image": "/deck/img/oler-smell.webp",
+  "audio": {
+    "word": "/deck/audio/oler-smell.word.mp3",
+    "sentence": "/deck/audio/oler-smell.sentence.mp3"
+  }
+}

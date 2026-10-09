@@ -1,0 +1,28 @@
+{
+  "id": "asegurar-assure",
+  "rank": 447,
+  "kind": "content",
+  "pos": "verb",
+  "es": "asegurar",
+  "en": "to assure",
+  "hint": "promise someone",
+  "grammar": {
+    "present": {
+      "yo": "aseguro",
+      "tu": "aseguras",
+      "el": "asegura"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te aseguro que no fui yo.",
+    "en": "I assure you it wasn't me."
+  },
+  "spain": null,
+  "trick": "ASEGURAR sounds like \"assure-ar\": you assure someone their secret is secure.",
+  "image": "/deck/img/asegurar-assure.webp",
+  "audio": {
+    "word": "/deck/audio/asegurar-assure.word.mp3",
+    "sentence": "/deck/audio/asegurar-assure.sentence.mp3"
+  }
+}

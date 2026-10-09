@@ -1,0 +1,17 @@
+{
+  "id": "abajo-down",
+  "rank": 411,
+  "word": "abajo",
+  "draft": "d679fa0b3d8e6605",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "down, below, downstairs (adverb)",
+    "example": "I'll wait for you downstairs."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:15.188Z"
+}

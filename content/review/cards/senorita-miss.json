@@ -1,0 +1,23 @@
+{
+  "id": "senorita-miss",
+  "rank": 495,
+  "word": "señorita",
+  "draft": "20a3cc3ef6e8310e",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "The example uses the usted command 'Disculpe', but the card must use the informal tú register.",
+      "fix": "example.es: Disculpa, señorita, ¿dónde está la estación?"
+    }
+  ],
+  "back": {
+    "es": "the young lady, miss (polite term for a young or unmarried woman)",
+    "example": "Excuse me, miss, where is the station?"
+  },
+  "note": "The hint is needed here, because it rules out 'extrañar' (to miss someone) and other senses of 'miss'.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:43.939Z"
+}

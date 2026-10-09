@@ -2,16 +2,16 @@
   "id": "comer-eat",
   "rank": 218,
   "word": "comer",
-  "draft": "9b841701603a3955",
+  "draft": "88c62eb0865b13ae",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "comer = to eat",
-    "example": "Did you already eat something today? / Have you eaten anything today?"
+    "es": "comer: to eat",
+    "example": "Today I eat at home, but tomorrow I eat at the hotel."
   },
-  "note": "In Mexico and some other regions comer can also mean to have the main midday meal (lunch), which the editor might mention in a later note but which does not affect this card.",
+  "note": "The example is correct, but saying \"como\" twice sounds a little forced; a simpler sentence such as \"¿Qué comes en el desayuno?\" would read more naturally.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:41.890Z"
+  "reviewedAt": "2026-10-09T14:26:48.587Z"
 }

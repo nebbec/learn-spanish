@@ -1,0 +1,28 @@
+{
+  "id": "pegar-hit",
+  "rank": 766,
+  "kind": "content",
+  "pos": "verb",
+  "es": "pegar",
+  "en": "to hit",
+  "hint": "everyday word, e.g. a child hitting someone",
+  "grammar": {
+    "present": {
+      "yo": "pego",
+      "tu": "pegas",
+      "el": "pega"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Mamá, mi hermano me pegó!",
+    "en": "Mom, my brother hit me!"
+  },
+  "spain": null,
+  "trick": "PEGAR sounds like peg: someone hits you so hard you get hammered in like a tent peg.",
+  "image": "/deck/img/pegar-hit.webp",
+  "audio": {
+    "word": "/deck/audio/pegar-hit.word.mp3",
+    "sentence": "/deck/audio/pegar-hit.sentence.mp3"
+  }
+}

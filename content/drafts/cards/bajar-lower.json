@@ -1,0 +1,28 @@
+{
+  "id": "bajar-lower",
+  "rank": 386,
+  "kind": "content",
+  "pos": "verb",
+  "es": "bajar",
+  "en": "to lower",
+  "hint": "put down, turn down",
+  "grammar": {
+    "present": {
+      "yo": "bajo",
+      "tu": "bajas",
+      "el": "baja"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Baja el arma, por favor.",
+    "en": "Put the gun down, please."
+  },
+  "spain": null,
+  "trick": "BAJAR sounds like \"bah, jar\": grumbling \"bah\", you lower the heavy jar to the floor.",
+  "image": "/deck/img/bajar-lower.webp",
+  "audio": {
+    "word": "/deck/audio/bajar-lower.word.mp3",
+    "sentence": "/deck/audio/bajar-lower.sentence.mp3"
+  }
+}

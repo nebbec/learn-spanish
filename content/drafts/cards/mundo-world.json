@@ -1,0 +1,24 @@
+{
+  "id": "mundo-world",
+  "rank": 161,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el mundo",
+  "en": "world",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Quiero viajar por todo el mundo.",
+    "en": "I want to travel all over the world."
+  },
+  "spain": null,
+  "trick": "MUNDO sounds like Monday: every Monday the whole world goes back to work.",
+  "image": "/deck/img/mundo-world.webp",
+  "audio": {
+    "word": "/deck/audio/mundo-world.word.mp3",
+    "sentence": "/deck/audio/mundo-world.sentence.mp3"
+  }
+}

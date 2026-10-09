@@ -1,0 +1,28 @@
+{
+  "id": "tratar-be-about",
+  "rank": 157,
+  "kind": "content",
+  "pos": "verb",
+  "es": "tratar",
+  "en": "to be about",
+  "hint": "a story or topic, with de",
+  "grammar": {
+    "present": {
+      "yo": "trato",
+      "tu": "tratas",
+      "el": "trata"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿De qué trata la película?",
+    "en": "What is the movie about?"
+  },
+  "spain": null,
+  "trick": "TRATAR sounds like \"tract\": a tract is a booklet that's all about one topic.",
+  "image": "/deck/img/tratar-be-about.webp",
+  "audio": {
+    "word": "/deck/audio/tratar-be-about.word.mp3",
+    "sentence": "/deck/audio/tratar-be-about.sentence.mp3"
+  }
+}

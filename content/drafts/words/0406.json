@@ -1,0 +1,12 @@
+{
+  "rank": 406,
+  "word": "cuidar",
+  "cards": [
+    "cuidar-take-care"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:29:44.132Z"
+}

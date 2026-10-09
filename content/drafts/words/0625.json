@@ -1,0 +1,13 @@
+{
+  "rank": 625,
+  "word": "gusto",
+  "cards": [
+    "gusto-pleasure",
+    "gusto-taste"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:40:53.015Z"
+}

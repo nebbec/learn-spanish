@@ -1,0 +1,28 @@
+{
+  "id": "interesar-interest",
+  "rank": 666,
+  "kind": "content",
+  "pos": "verb",
+  "es": "interesar",
+  "en": "to interest",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "intereso",
+      "tu": "interesas",
+      "el": "interesa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "No me interesa la política.",
+    "en": "Politics doesn't interest me."
+  },
+  "spain": null,
+  "trick": "INTERESAR sounds like \"interest, sir\": the waiter asks if the menu holds any interest, sir.",
+  "image": "/deck/img/interesar-interest.webp",
+  "audio": {
+    "word": "/deck/audio/interesar-interest.word.mp3",
+    "sentence": "/deck/audio/interesar-interest.sentence.mp3"
+  }
+}

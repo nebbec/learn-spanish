@@ -1,0 +1,17 @@
+{
+  "id": "bajo-low",
+  "rank": 276,
+  "word": "bajo",
+  "draft": "b8cf5fb7b9ae7f96",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "low (adjective; also short in height)",
+    "example": "Speak in a low voice, please. (Speak quietly, please.)"
+  },
+  "note": "The example uses the feminine form baja in the set phrase en voz baja, which shows agreement nicely, and 'Speak quietly, please' would be an equally good English translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:53.116Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "centro-center",
+  "rank": 675,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el centro",
+  "en": "center",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Pon la mesa en el centro del cuarto.",
+    "en": "Put the table in the center of the room."
+  },
+  "spain": null,
+  "trick": "CENTRO sounds like center-oh: the arrow lands in the center and everyone says oh!",
+  "image": "/deck/img/centro-center.webp",
+  "audio": {
+    "word": "/deck/audio/centro-center.word.mp3",
+    "sentence": "/deck/audio/centro-center.sentence.mp3"
+  }
+}

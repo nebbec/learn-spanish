@@ -1,0 +1,24 @@
+{
+  "id": "novio-groom",
+  "rank": 357,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el novio",
+  "en": "groom",
+  "hint": "at a wedding",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El novio llegó tarde a la boda.",
+    "en": "The groom arrived late to the wedding."
+  },
+  "spain": null,
+  "trick": "NOVIO sounds like novice: the groom is a nervous novice at marriage.",
+  "image": "/deck/img/novio-groom.webp",
+  "audio": {
+    "word": "/deck/audio/novio-groom.word.mp3",
+    "sentence": "/deck/audio/novio-groom.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "herido-wounded",
+  "rank": 559,
+  "word": "herido",
+  "draft": "bb24ae7bcf09e1fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "wounded, injured, hurt (adjective)",
+    "example": "There is a wounded man in the street."
+  },
+  "note": "Herido also covers \"injured\" and \"hurt\", so the editor could show those meanings on the back. \"Wounded\" points clearly to herido and not to lastimado or lesionado, and it doesn't clash with the \"wound\" (la herida) card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:57.671Z"
+}

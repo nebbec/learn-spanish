@@ -1,0 +1,13 @@
+{
+  "rank": 542,
+  "word": "partir",
+  "cards": [
+    "partir-depart",
+    "partir-split"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:36:49.590Z"
+}

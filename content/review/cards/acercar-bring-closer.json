@@ -1,0 +1,17 @@
+{
+  "id": "acercar-bring-closer",
+  "rank": 603,
+  "word": "acercar",
+  "draft": "b5ab784f284575fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to bring closer, to move (something) near",
+    "example": "Will you bring the salt closer to me? / Can you pass me the salt?"
+  },
+  "note": "The hint is needed because it separates this card from the reflexive acercarse card, and irregular false is right because acerqué is only a spelling change.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:20.763Z"
+}

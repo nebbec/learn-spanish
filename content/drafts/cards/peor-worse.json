@@ -1,0 +1,23 @@
+{
+  "id": "peor-worse",
+  "rank": 465,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "peor",
+  "en": "worse",
+  "hint": null,
+  "grammar": {
+    "feminine": "peor"
+  },
+  "example": {
+    "es": "Hoy el tráfico está peor que ayer.",
+    "en": "Traffic is worse today than yesterday."
+  },
+  "spain": null,
+  "trick": "PEOR sounds like poor: a poor grade is worse than a good one.",
+  "image": "/deck/img/peor-worse.webp",
+  "audio": {
+    "word": "/deck/audio/peor-worse.word.mp3",
+    "sentence": "/deck/audio/peor-worse.sentence.mp3"
+  }
+}

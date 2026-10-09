@@ -1,0 +1,28 @@
+{
+  "id": "planear-plan",
+  "rank": 797,
+  "kind": "content",
+  "pos": "verb",
+  "es": "planear",
+  "en": "to plan",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "planeo",
+      "tu": "planeas",
+      "el": "planea"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Qué planeas hacer este fin de semana?",
+    "en": "What are you planning to do this weekend?"
+  },
+  "spain": null,
+  "trick": "PLANEAR sounds like \"plan near\": you plan a trip to somewhere near.",
+  "image": "/deck/img/planear-plan.webp",
+  "audio": {
+    "word": "/deck/audio/planear-plan.word.mp3",
+    "sentence": "/deck/audio/planear-plan.sentence.mp3"
+  }
+}

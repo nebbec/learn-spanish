@@ -1,0 +1,31 @@
+# listo-ready · rank 239 · listo
+#
+# Why it was flagged:
+#   - One right answer: With no hint, a learner could also correctly answer preparado for "ready", and the prompt does not point to the estar sense the way the sister card points to the ser sense. Suggested fix: hint: used with estar; not preparado
+# Reviewer's note (not a reason to flag): The new hint would match the sister card's "used with ser" hint, so the learner can see that listo means ready with estar and clever with ser.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: pending
+
+id:         listo-ready
+kind:       content
+pos:        adjective
+es:         listo
+en:         ready
+hint:       used with estar; not preparado
+feminine:   lista
+example.es: ¿Estás listo para salir?
+example.en: Are you ready to go out?
+spain:
+trick:      LISTO sounds like list: once you tick off every item on your list, you're ready.
+
+# The draft this file was made from. Do not change it.
+draft: 35128dea1c84de41

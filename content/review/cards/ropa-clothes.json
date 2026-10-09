@@ -1,0 +1,17 @@
+{
+  "id": "ropa-clothes",
+  "rank": 530,
+  "word": "ropa",
+  "draft": "7a9ba4ff24fd2355",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "clothes, clothing",
+    "example": "I have to wash the clothes today."
+  },
+  "note": "Ropa is a singular mass noun while English \"clothes\" is plural, so the editor might add a short grammar note so learners don't say \"las ropas\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:07.774Z"
+}

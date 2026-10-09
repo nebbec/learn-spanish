@@ -1,0 +1,21 @@
+{
+  "id": "cuanto-as-soon-as",
+  "rank": 384,
+  "kind": "glue",
+  "pos": "conjunction",
+  "es": "en cuanto",
+  "en": "I'll call you [as soon as] I arrive",
+  "hint": "two words, starts with en",
+  "grammar": null,
+  "example": {
+    "es": "Te llamo en cuanto llegue a casa.",
+    "en": "I'll call you as soon as I get home."
+  },
+  "spain": null,
+  "trick": "EN CUANTO sounds like in quantum: the moment, the quantum leap, as soon as it happens.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cuanto-as-soon-as.word.mp3",
+    "sentence": "/deck/audio/cuanto-as-soon-as.sentence.mp3"
+  }
+}

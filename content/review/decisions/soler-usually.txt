@@ -1,0 +1,33 @@
+# soler-usually · rank 587 · soler
+#
+# Why it was flagged:
+#   - Meaning: The 'used to' gloss is wrong for the verb as a whole: it only matches the imperfect solía, while suelo means 'I usually', not 'I used to', so learners would mix up the tenses. Suggested fix: en: to usually (do)
+# Reviewer's note (not a reason to flag): The past example is correct, but a present-tense one such as 'Suelo desayunar en casa. / I usually have breakfast at home.' would better show the core 'usually' meaning, and the trick's 'used to' wording could be cut along with the gloss.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         soler-usually
+kind:       content
+pos:        verb
+es:         soler
+en:         to usually do, used to
+hint:
+yo:         suelo
+tu:         sueles
+el:         suele
+irregular:  yes
+example.es: Yo solía vivir cerca de la playa.
+example.en: I used to live near the beach.
+spain:
+trick:      SOLER sounds like solar: the sun usually rises every morning, just like it used to.
+
+# The draft this file was made from. Do not change it.
+draft: b9952924a793ec3d

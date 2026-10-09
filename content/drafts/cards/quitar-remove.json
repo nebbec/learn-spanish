@@ -1,0 +1,28 @@
+{
+  "id": "quitar-remove",
+  "rank": 365,
+  "kind": "content",
+  "pos": "verb",
+  "es": "quitar",
+  "en": "to remove",
+  "hint": "take off, take away",
+  "grammar": {
+    "present": {
+      "yo": "quito",
+      "tu": "quitas",
+      "el": "quita"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Quítate los zapatos, por favor.",
+    "en": "Take off your shoes, please."
+  },
+  "spain": null,
+  "trick": "QUITAR sounds like quit: when you quit something, you take it off and remove it from your life.",
+  "image": "/deck/img/quitar-remove.webp",
+  "audio": {
+    "word": "/deck/audio/quitar-remove.word.mp3",
+    "sentence": "/deck/audio/quitar-remove.sentence.mp3"
+  }
+}

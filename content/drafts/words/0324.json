@@ -1,0 +1,13 @@
+{
+  "rank": 324,
+  "word": "coche",
+  "cards": [],
+  "skip": {
+    "reason": "spain-only",
+    "note": "Coche is the usual word for car in Spain; neutral Latin American Spanish uses carro (or auto), which should get the card, with spain set to coche."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:25:42.342Z"
+}

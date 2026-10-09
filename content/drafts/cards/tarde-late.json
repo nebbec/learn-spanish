@@ -1,0 +1,21 @@
+{
+  "id": "tarde-late",
+  "rank": 215,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "tarde",
+  "en": "late",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Llegaste tarde otra vez.",
+    "en": "You arrived late again."
+  },
+  "spain": null,
+  "trick": "TARDE sounds like \"tardy\": a tardy student always shows up late.",
+  "image": "/deck/img/tarde-late.webp",
+  "audio": {
+    "word": "/deck/audio/tarde-late.word.mp3",
+    "sentence": "/deck/audio/tarde-late.sentence.mp3"
+  }
+}

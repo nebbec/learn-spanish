@@ -1,0 +1,23 @@
+{
+  "id": "quizas-maybe",
+  "rank": 175,
+  "word": "quizás",
+  "draft": "45c80dbe1dba9929",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint rules out tal vez but not quizá, an equally correct one-word form without the final s, so a learner could give a different right answer.",
+      "fix": "hint: one word ending in -s, not tal vez"
+    }
+  ],
+  "back": {
+    "es": "maybe, perhaps (adverb)",
+    "example": "Maybe it will rain tomorrow."
+  },
+  "note": "Quizás with the subjunctive (llueva) is a good, natural model for learners, and quizás is the more common spelling in Latin America.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:12.477Z"
+}

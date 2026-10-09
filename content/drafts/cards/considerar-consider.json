@@ -1,0 +1,28 @@
+{
+  "id": "considerar-consider",
+  "rank": 685,
+  "kind": "content",
+  "pos": "verb",
+  "es": "considerar",
+  "en": "to consider",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "considero",
+      "tu": "consideras",
+      "el": "considera"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te considero mi mejor amigo.",
+    "en": "I consider you my best friend."
+  },
+  "spain": null,
+  "trick": "CONSIDERAR sounds like \"consider\" with an extra \"ar\": you say \"arr\" while you consider your options.",
+  "image": "/deck/img/considerar-consider.webp",
+  "audio": {
+    "word": "/deck/audio/considerar-consider.word.mp3",
+    "sentence": "/deck/audio/considerar-consider.sentence.mp3"
+  }
+}

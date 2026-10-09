@@ -1,0 +1,17 @@
+{
+  "id": "continuar-continue",
+  "rank": 566,
+  "word": "continuar",
+  "draft": "026d0edf460d15ae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to continue, to go on, to carry on",
+    "example": "We'll continue tomorrow, it's already very late."
+  },
+  "note": "Seguir also means to continue, but continuar is the direct cognate and the standard answer for this prompt, and the stressed ú in continúo, continúas and continúa is only an accent change, so irregular: false is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:25.229Z"
+}

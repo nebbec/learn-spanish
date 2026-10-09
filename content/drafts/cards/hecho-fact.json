@@ -1,0 +1,24 @@
+{
+  "id": "hecho-fact",
+  "rank": 322,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el hecho",
+  "en": "fact",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El hecho es que no me llamaste.",
+    "en": "The fact is that you didn't call me."
+  },
+  "spain": null,
+  "trick": "HECHO sounds like \"echo\": a fact keeps echoing back no matter how you deny it.",
+  "image": "/deck/img/hecho-fact.webp",
+  "audio": {
+    "word": "/deck/audio/hecho-fact.word.mp3",
+    "sentence": "/deck/audio/hecho-fact.sentence.mp3"
+  }
+}

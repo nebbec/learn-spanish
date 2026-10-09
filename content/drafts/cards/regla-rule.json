@@ -1,0 +1,24 @@
+{
+  "id": "regla-rule",
+  "rank": 775,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la regla",
+  "en": "rule",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "En mi casa, mis reglas.",
+    "en": "In my house, my rules."
+  },
+  "spain": null,
+  "trick": "REGLA sounds like 'regular': rules keep everything regular.",
+  "image": "/deck/img/regla-rule.webp",
+  "audio": {
+    "word": "/deck/audio/regla-rule.word.mp3",
+    "sentence": "/deck/audio/regla-rule.sentence.mp3"
+  }
+}

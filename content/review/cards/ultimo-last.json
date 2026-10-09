@@ -1,0 +1,17 @@
+{
+  "id": "ultimo-last",
+  "rank": 202,
+  "word": "último",
+  "draft": "6f8a1f9fac550840",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "last, final (adjective; feminine última)",
+    "example": "It's the last time I help you."
+  },
+  "note": "A learner might think of \"pasado\" for \"last\" as in \"last week\" (la semana pasada), so an optional hint such as \"final, as in the last time\" could help, but último is the standard answer for the bare adjective.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:51.597Z"
+}

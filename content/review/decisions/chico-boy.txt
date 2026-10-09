@@ -1,0 +1,32 @@
+# chico-boy · rank 94 · chico
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out niño but not muchacho, which is a common Latin American word for a teen or young guy and would also be a right answer. Suggested fix: hint: teen or young guy, the everyday word, not niño or muchacho
+# Reviewer's note (not a reason to flag): In much of Latin America, chico is also a very common adjective meaning small, and this card does not teach that meaning.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: pending
+
+id:         chico-boy
+kind:       content
+pos:        noun
+es:         el chico
+en:         boy
+hint:       teen or young guy, the everyday word, not niño or muchacho
+gender:     m
+article:    el
+example.es: Ese chico es mi hermano.
+example.en: That boy is my brother.
+spain:
+trick:      CHICO sounds like chick-o: the boy chasing chicks around the farm; a girl is a chica.
+
+# The draft this file was made from. Do not change it.
+draft: b0a022db8de034a1

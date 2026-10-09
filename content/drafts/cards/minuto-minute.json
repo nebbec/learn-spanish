@@ -1,0 +1,24 @@
+{
+  "id": "minuto-minute",
+  "rank": 226,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el minuto",
+  "en": "minute",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Espérame un minuto, ya vengo.",
+    "en": "Wait for me a minute, I'm coming."
+  },
+  "spain": null,
+  "trick": "MINUTO sounds like minute-oh: oh, just one more minute!",
+  "image": "/deck/img/minuto-minute.webp",
+  "audio": {
+    "word": "/deck/audio/minuto-minute.word.mp3",
+    "sentence": "/deck/audio/minuto-minute.sentence.mp3"
+  }
+}

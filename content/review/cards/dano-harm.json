@@ -1,0 +1,17 @@
+{
+  "id": "dano-harm",
+  "rank": 537,
+  "word": "daño",
+  "draft": "ab6624742f8f4a87",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "harm, damage (noun, masculine)",
+    "example": "I'm not going to hurt you (literally: I'm not going to do you harm)."
+  },
+  "note": "Many Latin American speakers would also say \"No te voy a lastimar\" here, but \"hacer daño\" is common and natural everywhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:30.717Z"
+}

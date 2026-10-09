@@ -1,0 +1,28 @@
+{
+  "id": "entrar-enter",
+  "rank": 191,
+  "kind": "content",
+  "pos": "verb",
+  "es": "entrar",
+  "en": "to enter",
+  "hint": "to go in",
+  "grammar": {
+    "present": {
+      "yo": "entro",
+      "tu": "entras",
+      "el": "entra"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Entra, la puerta está abierta.",
+    "en": "Come in, the door is open."
+  },
+  "spain": null,
+  "trick": "ENTRAR sounds like \"entrance\": you go through the entrance to enter.",
+  "image": "/deck/img/entrar-enter.webp",
+  "audio": {
+    "word": "/deck/audio/entrar-enter.word.mp3",
+    "sentence": "/deck/audio/entrar-enter.sentence.mp3"
+  }
+}

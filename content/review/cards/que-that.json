@@ -2,15 +2,16 @@
   "id": "que-that",
   "rank": 3,
   "word": "que",
-  "draft": "f04f7cb2e660f668",
+  "draft": "04ac3a539f948e3d",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "that (conjunction introducing a clause)",
-    "example": "I think (that) she's coming tomorrow."
+    "es": "que (conjunction) = that, introducing a clause: Creo que viene = I think that she is coming",
+    "example": "I know that she is coming tomorrow."
   },
+  "note": "The prompt is fine without a hint because Spanish needs que here even though English can leave out \"that\", and it doesn't overlap with the relative-pronoun or comparison cards.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T13:39:45.778Z"
+  "reviewedAt": "2026-10-09T14:19:11.862Z"
 }

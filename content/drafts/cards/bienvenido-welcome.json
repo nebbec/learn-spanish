@@ -1,0 +1,23 @@
+{
+  "id": "bienvenido-welcome",
+  "rank": 500,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "bienvenido",
+  "en": "welcome",
+  "hint": null,
+  "grammar": {
+    "feminine": "bienvenida"
+  },
+  "example": {
+    "es": "¡Bienvenidos a mi casa, amigos!",
+    "en": "Welcome to my house, friends!"
+  },
+  "spain": null,
+  "trick": "BIENVENIDO is bien (well) plus venido (come): you have come well, so welcome!",
+  "image": "/deck/img/bienvenido-welcome.webp",
+  "audio": {
+    "word": "/deck/audio/bienvenido-welcome.word.mp3",
+    "sentence": "/deck/audio/bienvenido-welcome.sentence.mp3"
+  }
+}

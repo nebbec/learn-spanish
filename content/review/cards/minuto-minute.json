@@ -1,0 +1,17 @@
+{
+  "id": "minuto-minute",
+  "rank": 226,
+  "word": "minuto",
+  "draft": "2ad6463b1320a15b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "minute (the unit of time, 60 seconds)",
+    "example": "Wait for me a minute, I'm coming / I'll be right back."
+  },
+  "note": "In much of Latin America \"ya vengo\" usually means \"I'll be right back\", so \"Wait for me a minute, I'll be right back\" might be a clearer translation, though \"I'm coming\" is also a valid reading.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:47.095Z"
+}

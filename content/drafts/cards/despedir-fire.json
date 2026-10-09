@@ -1,0 +1,28 @@
+{
+  "id": "despedir-fire",
+  "rank": 586,
+  "kind": "content",
+  "pos": "verb",
+  "es": "despedir",
+  "en": "to fire",
+  "hint": "from a job",
+  "grammar": {
+    "present": {
+      "yo": "despido",
+      "tu": "despides",
+      "el": "despide"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Me despidieron del trabajo ayer.",
+    "en": "They fired me from my job yesterday."
+  },
+  "spain": null,
+  "trick": "DESPEDIR sounds like \"desk peddler\": the boss fires the guy peddling stuff at his desk.",
+  "image": "/deck/img/despedir-fire.webp",
+  "audio": {
+    "word": "/deck/audio/despedir-fire.word.mp3",
+    "sentence": "/deck/audio/despedir-fire.sentence.mp3"
+  }
+}

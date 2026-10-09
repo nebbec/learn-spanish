@@ -1,0 +1,21 @@
+{
+  "id": "completamente-completely",
+  "rank": 714,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "completamente",
+  "en": "completely",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Me olvidé completamente de tu cumpleaños.",
+    "en": "I completely forgot about your birthday."
+  },
+  "spain": null,
+  "trick": "COMPLETAMENTE sounds like \"complete mentally\": you finish the puzzle completely, even in your head.",
+  "image": "/deck/img/completamente-completely.webp",
+  "audio": {
+    "word": "/deck/audio/completamente-completely.word.mp3",
+    "sentence": "/deck/audio/completamente-completely.sentence.mp3"
+  }
+}

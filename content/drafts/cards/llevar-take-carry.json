@@ -1,0 +1,28 @@
+{
+  "id": "llevar-take-carry",
+  "rank": 96,
+  "kind": "content",
+  "pos": "verb",
+  "es": "llevar",
+  "en": "to take",
+  "hint": "carry someone or something somewhere, not grab",
+  "grammar": {
+    "present": {
+      "yo": "llevo",
+      "tu": "llevas",
+      "el": "lleva"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te llevo a tu casa.",
+    "en": "I'll take you home."
+  },
+  "spain": null,
+  "trick": "LLEVAR sounds like lever: you use a lever to carry heavy things somewhere.",
+  "image": "/deck/img/llevar-take-carry.webp",
+  "audio": {
+    "word": "/deck/audio/llevar-take-carry.word.mp3",
+    "sentence": "/deck/audio/llevar-take-carry.sentence.mp3"
+  }
+}

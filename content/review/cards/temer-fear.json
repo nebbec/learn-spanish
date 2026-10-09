@@ -1,0 +1,23 @@
+{
+  "id": "temer-fear",
+  "rank": 498,
+  "word": "temer",
+  "draft": "49849b864b6f7328",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses the reflexive set phrase 'me temo que', which is a polite way to say 'I'm sorry to say' and does not mean fearing something, so it does not show this card's meaning.",
+      "fix": "example.es: Le temo a la oscuridad. / example.en: I fear the dark."
+    }
+  ],
+  "back": {
+    "es": "temer = to fear, to be afraid of",
+    "example": "I'm afraid I can't go. (This is the polite 'I'm sorry to say' meaning of temerse, not real fear.)"
+  },
+  "note": "In everyday Latin American speech people usually say 'tener miedo (de)' rather than temer, but that is a phrase and not a single verb, so temer is still the one dictionary answer for 'to fear'.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:03.785Z"
+}

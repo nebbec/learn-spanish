@@ -1,0 +1,17 @@
+{
+  "id": "durante-during",
+  "rank": 278,
+  "word": "durante",
+  "draft": "6af7b6788112178a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "during (preposition of time)",
+    "example": "It rained a lot during the night."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:07.840Z"
+}

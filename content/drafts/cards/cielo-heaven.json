@@ -1,0 +1,24 @@
+{
+  "id": "cielo-heaven",
+  "rank": 408,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el cielo",
+  "en": "heaven",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi abuela ya está en el cielo.",
+    "en": "My grandma is in heaven now."
+  },
+  "spain": null,
+  "trick": "CIELO sounds like 'cello': the angels in heaven all play the cello.",
+  "image": "/deck/img/cielo-heaven.webp",
+  "audio": {
+    "word": "/deck/audio/cielo-heaven.word.mp3",
+    "sentence": "/deck/audio/cielo-heaven.sentence.mp3"
+  }
+}

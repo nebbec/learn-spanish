@@ -1,0 +1,13 @@
+{
+  "rank": 628,
+  "word": "maestro",
+  "cards": [
+    "maestro-teacher",
+    "maestro-master"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:41:01.658Z"
+}

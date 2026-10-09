@@ -1,0 +1,17 @@
+{
+  "id": "jefe-boss",
+  "rank": 292,
+  "word": "jefe",
+  "draft": "d7b3a84b2693a1c9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "boss, chief, head (noun)",
+    "example": "My boss called me this morning."
+  },
+  "note": "The feminine is la jefa, which could be shown somewhere on the card; the trick is also accurate in origin, since jefe comes from French chef.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:05.750Z"
+}

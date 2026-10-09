@@ -1,0 +1,24 @@
+{
+  "id": "guerra-war",
+  "rank": 356,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la guerra",
+  "en": "war",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi abuelo peleó en la guerra.",
+    "en": "My grandfather fought in the war."
+  },
+  "spain": null,
+  "trick": "GUERRA sounds like \"guerrilla\": guerrilla fighters are out fighting a war.",
+  "image": "/deck/img/guerra-war.webp",
+  "audio": {
+    "word": "/deck/audio/guerra-war.word.mp3",
+    "sentence": "/deck/audio/guerra-war.sentence.mp3"
+  }
+}

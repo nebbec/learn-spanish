@@ -1,0 +1,21 @@
+{
+  "id": "afuera-outside",
+  "rank": 539,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "afuera",
+  "en": "outside",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Los niños están jugando afuera.",
+    "en": "The kids are playing outside."
+  },
+  "spain": "fuera",
+  "trick": "AFUERA sounds like 'a fur area': outside in the cold, you need a fur coat.",
+  "image": "/deck/img/afuera-outside.webp",
+  "audio": {
+    "word": "/deck/audio/afuera-outside.word.mp3",
+    "sentence": "/deck/audio/afuera-outside.sentence.mp3"
+  }
+}

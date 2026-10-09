@@ -1,0 +1,23 @@
+{
+  "id": "medio-half",
+  "rank": 282,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "medio",
+  "en": "half",
+  "hint": "before a noun, as in half an hour (not the noun mitad)",
+  "grammar": {
+    "feminine": "media"
+  },
+  "example": {
+    "es": "Te espero media hora, no más.",
+    "en": "I'll wait for you half an hour, no more."
+  },
+  "spain": null,
+  "trick": "MEDIO sounds like medium: a medium portion is half of the big one.",
+  "image": "/deck/img/medio-half.webp",
+  "audio": {
+    "word": "/deck/audio/medio-half.word.mp3",
+    "sentence": "/deck/audio/medio-half.sentence.mp3"
+  }
+}

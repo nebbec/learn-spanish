@@ -1,0 +1,28 @@
+{
+  "id": "presentar-present",
+  "rank": 450,
+  "kind": "content",
+  "pos": "verb",
+  "es": "presentar",
+  "en": "to present",
+  "hint": "show or hand in",
+  "grammar": {
+    "present": {
+      "yo": "presento",
+      "tu": "presentas",
+      "el": "presenta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Mañana presento mi proyecto en clase.",
+    "en": "Tomorrow I present my project in class."
+  },
+  "spain": null,
+  "trick": "PRESENTAR looks like present plus -ar: you present your project on stage.",
+  "image": "/deck/img/presentar-present.webp",
+  "audio": {
+    "word": "/deck/audio/presentar-present.word.mp3",
+    "sentence": "/deck/audio/presentar-present.sentence.mp3"
+  }
+}

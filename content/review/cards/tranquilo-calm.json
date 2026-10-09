@@ -1,0 +1,23 @@
+{
+  "id": "tranquilo-calm",
+  "rank": 467,
+  "word": "tranquilo",
+  "draft": "c2cb252d63adcbbb",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, the bare prompt 'calm' also allows calmado, a common Latin American adjective, so the learner cannot tell which word is wanted.",
+      "fix": "hint: the everyday word, also said on its own to mean 'Relax!'"
+    }
+  ],
+  "back": {
+    "es": "calm, relaxed, quiet (adjective)",
+    "example": "(Stay) calm, everything is going to be fine."
+  },
+  "note": "The example uses the feminine form tranquila said on its own as a reassurance, which is natural and fine, but the editor may want to note that it shows the feminine form, not es.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:32.955Z"
+}

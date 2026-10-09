@@ -1,0 +1,32 @@
+# momento-moment · rank 155 · momento
+#
+# Why it was flagged:
+#   - Example sentence: "Ya vengo" means "I'll be right back" (going and returning), not "I'll be right there", which would be "ya voy". Suggested fix: example.en: Wait a moment, I'll be right back.
+# Reviewer's note (not a reason to flag): "Instante" also means moment, but "el momento" is clearly the everyday answer, so no hint is needed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to example.en.
+decision: pending
+
+id:         momento-moment
+kind:       content
+pos:        noun
+es:         el momento
+en:         moment
+hint:
+gender:     m
+article:    el
+example.es: Espera un momento, ya vengo.
+example.en: Wait a moment, I'll be right back.
+spain:
+trick:      MOMENTO sounds like "memento": a keepsake that helps you remember a special moment.
+
+# The draft this file was made from. Do not change it.
+draft: 02a5e52bb6ff1a1f

@@ -1,0 +1,17 @@
+{
+  "id": "aprender-learn",
+  "rank": 430,
+  "word": "aprender",
+  "draft": "d6e66a54a80252c6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to learn",
+    "example": "I learned a lot in/at this job."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:50.390Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "casi-almost",
+  "rank": 296,
+  "word": "casi",
+  "draft": "282f1af5f22e025f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "almost, nearly",
+    "example": "I almost fell in the street."
+  },
+  "note": "The example uses the present tense with a past meaning after casi (casi me caigo = I almost fell), which is natural and idiomatic, but the editor may want to add a short explanation because learners might find it surprising.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:11.105Z"
+}

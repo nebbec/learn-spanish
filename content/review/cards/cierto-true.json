@@ -1,0 +1,23 @@
+{
+  "id": "cierto-true",
+  "rank": 207,
+  "word": "cierto",
+  "draft": "863bb0bebd4fe77a",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The adjective \"true\" with this hint could just as well be answered with \"verdadero\", the standard dictionary translation of \"true\", or with \"verdad\" (\"es verdad\"), and the hint rules out neither.",
+      "fix": "hint: as in es ___, it's true, that's right; not verdad or verdadero"
+    }
+  ],
+  "back": {
+    "es": "true, correct (also certain, sure; before a noun: a certain, some)",
+    "example": "Is it true that you're leaving tomorrow?"
+  },
+  "note": "Since \\\"es verdad\\\" is at least as common as \\\"es cierto\\\" in everyday speech, the hint needs to steer learners away from it so they aren't marked wrong for a natural answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:02.870Z"
+}

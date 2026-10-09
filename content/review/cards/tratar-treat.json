@@ -1,0 +1,17 @@
+{
+  "id": "tratar-treat",
+  "rank": 157,
+  "word": "tratar",
+  "draft": "3990977240aef50f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to treat (someone, in a certain way); to deal with",
+    "example": "She treats me very well."
+  },
+  "note": "The hint usefully separates this meaning from medical treatment (atender, curar) and from the word's \"to try\" and \"to be about\" cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:41.275Z"
+}

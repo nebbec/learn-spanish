@@ -1,0 +1,17 @@
+{
+  "id": "tratar-try",
+  "rank": 157,
+  "word": "tratar",
+  "draft": "bcfd4fcd11d56fce",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to try (tratar de + infinitive); also to treat, to deal with",
+    "example": "I try to sleep, but I can't. / I'm trying to sleep, but I can't."
+  },
+  "note": "The hint is needed: \"de + verb\" rules out probar, and \"not intentar\" rules out intentar, so the prompt has only one answer and is kept apart from the word's \"to treat\" and \"to be about\" cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:36.474Z"
+}

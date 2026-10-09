@@ -1,0 +1,24 @@
+{
+  "id": "frente-front",
+  "rank": 571,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el frente",
+  "en": "front",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Ella siempre se sienta al frente.",
+    "en": "She always sits in the front."
+  },
+  "spain": null,
+  "trick": "FRENTE sounds like FRONT with an extra -e: el frente is simply the front.",
+  "image": "/deck/img/frente-front.webp",
+  "audio": {
+    "word": "/deck/audio/frente-front.word.mp3",
+    "sentence": "/deck/audio/frente-front.sentence.mp3"
+  }
+}

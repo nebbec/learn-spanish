@@ -1,0 +1,23 @@
+{
+  "id": "maldito-damned",
+  "rank": 252,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "maldito",
+  "en": "damned",
+  "hint": "cursed",
+  "grammar": {
+    "feminine": "maldita"
+  },
+  "example": {
+    "es": "¡Este maldito carro no arranca!",
+    "en": "This damn car won't start!"
+  },
+  "spain": null,
+  "trick": "MALDITO sounds like bad ditto: bad, then bad again, so the thing must be cursed.",
+  "image": "/deck/img/maldito-damned.webp",
+  "audio": {
+    "word": "/deck/audio/maldito-damned.word.mp3",
+    "sentence": "/deck/audio/maldito-damned.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "estupido-stupid",
+  "rank": 471,
+  "word": "estúpido",
+  "draft": "92aa343171a2725b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb, so it does not show the word in a full clause as required.",
+      "fix": "example.es: No es una pregunta estúpida. / example.en: It's not a stupid question."
+    }
+  ],
+  "back": {
+    "es": "stupid (adjective)",
+    "example": "What a stupid idea!"
+  },
+  "note": "Tonto is a near-synonym but is closer to dumb or silly, so estúpido is the clear answer for stupid without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:42.917Z"
+}

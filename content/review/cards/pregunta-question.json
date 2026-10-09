@@ -1,0 +1,17 @@
+{
+  "id": "pregunta-question",
+  "rank": 348,
+  "word": "pregunta",
+  "draft": "1679f7d92b2e8aa3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "question (something asked)",
+    "example": "I have a question for you."
+  },
+  "note": "\"La cuestión\" means a matter or issue rather than a question someone asks, so the bare prompt \"question\" still has only one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:06.936Z"
+}

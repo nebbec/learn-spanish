@@ -1,0 +1,17 @@
+{
+  "id": "pais-country",
+  "rank": 481,
+  "word": "país",
+  "draft": "46ca39f0a9703861",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "country (nation)",
+    "example": "Mexico is a very pretty country."
+  },
+  "note": "The hint correctly rules out \"el campo\" (countryside), and \"la nación\" is much less common than \"el país\" for \"country\", so the prompt still has one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:18.047Z"
+}

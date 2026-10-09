@@ -1,0 +1,17 @@
+{
+  "id": "golpear-hit",
+  "rank": 527,
+  "word": "golpear",
+  "draft": "d376aaa11f067482",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to hit, to strike, to beat, to knock (on)",
+    "example": "Someone banged on (knocked on) the door very hard."
+  },
+  "note": "golpear la puerta is often understood as knocking or banging on the door, so example.en could read \"Someone banged on the door really hard\" to sound more natural, but the current translation is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:01.988Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arriba-up",
+  "rank": 370,
+  "word": "arriba",
+  "draft": "b9afc0d3f2c523c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "up, upstairs, above (adverb of place)",
+    "example": "My room is upstairs."
+  },
+  "note": "The hint is useful because \"up\", \"upstairs\" and \"above\" together point to arriba rather than encima or the verb subir.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:23.539Z"
+}

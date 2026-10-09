@@ -1,0 +1,34 @@
+# usar-use · rank 196 · usar
+#
+# Why it was flagged:
+#   - Example sentence: The sentence leaves usar in the infinitive after puedo, but the card's own verb has to be conjugated in the example. Suggested fix: example.es: Uso mi teléfono todo el día. / example.en: I use my phone all day.
+# Reviewer's note (not a reason to flag): Utilizar (more formal) and the regional ocupar (Mexico, Chile) also mean to use, but usar is the everyday answer everyone would give, so no hint is needed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to example.es and example.en.
+decision: pending
+
+id:         usar-use
+kind:       content
+pos:        verb
+es:         usar
+en:         to use
+hint:
+yo:         uso
+tu:         usas
+el:         usa
+irregular:  no
+example.es: Uso mi teléfono todo el día.
+example.en: I use my phone all day.
+spain:
+trick:      USAR sounds like a USER: a user is someone who uses things.
+
+# The draft this file was made from. Do not change it.
+draft: 3de370dd41653671

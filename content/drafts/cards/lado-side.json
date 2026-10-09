@@ -1,0 +1,24 @@
+{
+  "id": "lado-side",
+  "rank": 251,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el lado",
+  "en": "side",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Estoy de tu lado.",
+    "en": "I'm on your side."
+  },
+  "spain": null,
+  "trick": "LADO sounds like \"ladder\": lean the ladder against the side of the house.",
+  "image": "/deck/img/lado-side.webp",
+  "audio": {
+    "word": "/deck/audio/lado-side.word.mp3",
+    "sentence": "/deck/audio/lado-side.sentence.mp3"
+  }
+}

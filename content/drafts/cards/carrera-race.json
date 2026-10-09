@@ -1,0 +1,24 @@
+{
+  "id": "carrera-race",
+  "rank": 645,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la carrera",
+  "en": "race",
+  "hint": "a competition of speed",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi hermano ganó la carrera de autos.",
+    "en": "My brother won the car race."
+  },
+  "spain": null,
+  "trick": "CARRERA sounds like \"car rare\": a rare car zooms past everyone to win the race.",
+  "image": "/deck/img/carrera-race.webp",
+  "audio": {
+    "word": "/deck/audio/carrera-race.word.mp3",
+    "sentence": "/deck/audio/carrera-race.sentence.mp3"
+  }
+}

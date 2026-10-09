@@ -1,0 +1,28 @@
+{
+  "id": "ninguno-no-any",
+  "rank": 184,
+  "word": "ninguno",
+  "draft": "0e97cf3c33f81e40",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "The prompt \"I don't have [any] money problem\" is broken English, since \"money problem\" needs to be plural or have no article, so the learner gets a garbled sentence to recall from.",
+      "fix": "en: I don't have [any] problem"
+    },
+    {
+      "reason": "trick",
+      "problem": "\"nothing at all\" mixes ninguno up with nada (nothing); ninguno means not a single one of something, not nothing.",
+      "fix": "trick: NINGUNO starts like \"nine\" and ends with \"no\": nine? No, not even one."
+    }
+  ],
+  "back": {
+    "es": "ninguno = no, not any, none (negative determiner; ningún before a masculine singular noun, ninguna before a feminine one)",
+    "example": "There isn't any problem. / There's no problem."
+  },
+  "note": "The card's es is the dictionary form ninguno, but the prompt's slot actually takes ningún, so the hint about shortening is doing real work and should stay.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:50.947Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "alto-stop",
+  "rank": 317,
+  "kind": "content",
+  "pos": "other",
+  "es": "alto",
+  "en": "Stop!",
+  "hint": "one-word command shouted by police or guards",
+  "grammar": null,
+  "example": {
+    "es": "¡Alto! ¡Policía!",
+    "en": "Stop! Police!"
+  },
+  "spain": null,
+  "trick": "ALTO sounds like halt-o: the guard shouts halt so you stop.",
+  "image": "/deck/img/alto-stop.webp",
+  "audio": {
+    "word": "/deck/audio/alto-stop.word.mp3",
+    "sentence": "/deck/audio/alto-stop.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mayor-older",
+  "rank": 378,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "mayor",
+  "en": "older",
+  "hint": "one word, for siblings or age",
+  "grammar": {
+    "feminine": "mayor"
+  },
+  "example": {
+    "es": "Mi hermano mayor vive en México.",
+    "en": "My older brother lives in Mexico."
+  },
+  "spain": null,
+  "trick": "MAYOR sounds like mayor: the town mayor is usually one of the older people in town.",
+  "image": "/deck/img/mayor-older.webp",
+  "audio": {
+    "word": "/deck/audio/mayor-older.word.mp3",
+    "sentence": "/deck/audio/mayor-older.sentence.mp3"
+  }
+}

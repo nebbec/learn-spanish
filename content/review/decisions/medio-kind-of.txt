@@ -1,0 +1,30 @@
+# medio-kind-of · rank 282 · medio
+#
+# Why it was flagged:
+#   - One right answer: For 'kind of' before an adjective, 'un poco', 'algo' and 'como' (estoy un poco cansado, algo cansado, como cansado) are equally common, and the hint does not rule them out. Suggested fix: hint: informal adverb, literally 'half', before an adjective: kind of tired (not un poco or algo)
+# Reviewer's note (not a reason to flag): As an adverb, medio stays the same in standard Spanish (medio cansada, not media cansada), so a feminine example or a short note could stop learners from making it agree.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: pending
+
+id:         medio-kind-of
+kind:       content
+pos:        adverb
+es:         medio
+en:         kind of
+hint:       informal, literally 'half', before an adjective: kind of tired (not un poco or algo)
+example.es: Estoy medio cansado hoy.
+example.en: I'm kind of tired today.
+spain:
+trick:      MEDIO sounds like medium: feeling medium tired means you're kind of tired.
+
+# The draft this file was made from. Do not change it.
+draft: f929f7c6de29217f

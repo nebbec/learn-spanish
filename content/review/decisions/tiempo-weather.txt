@@ -1,0 +1,32 @@
+# tiempo-weather · rank 93 · tiempo
+#
+# Why it was flagged:
+#   - One right answer: In much of Latin America, especially Mexico, el clima is the everyday word for the weather, so a learner could answer el clima, and the hint's 'not the climate' doesn't rule that out because clima means weather there. Suggested fix: hint: the same word that also means time
+# Reviewer's note (not a reason to flag): Hace buen tiempo is understood everywhere, but many Latin American speakers would more naturally say hace buen clima, so the editor may want to mention el clima somewhere on the card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: fixed hint to rule out el clima directly; the reviewer's 'the same word that also means time' points straight at the answer.
+decision: pending
+
+id:         tiempo-weather
+kind:       content
+pos:        noun
+es:         el tiempo
+en:         weather
+hint:       not el clima
+gender:     m
+article:    el
+example.es: Hoy hace buen tiempo.
+example.en: The weather is nice today.
+spain:
+trick:      TIEMPO sounds like "temperature": the weather report gives the temperature.
+
+# The draft this file was made from. Do not change it.
+draft: 776ea8f67468d9dc

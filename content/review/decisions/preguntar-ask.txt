@@ -1,0 +1,34 @@
+# preguntar-ask · rank 177 · preguntar
+#
+# Why it was flagged:
+#   - Example sentence: The example uses preguntar only in the infinitive (preguntarte after puedo), so the card's verb is not conjugated. Suggested fix: example.es: Mi hijo siempre pregunta por qué. / example.en: My son always asks why.
+# Reviewer's note (not a reason to flag): The hint matters here because it rules out pedir (to ask for something).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to example.es and example.en.
+decision: pending
+
+id:         preguntar-ask
+kind:       content
+pos:        verb
+es:         preguntar
+en:         to ask
+hint:       a question, not ask for something
+yo:         pregunto
+tu:         preguntas
+el:         pregunta
+irregular:  no
+example.es: Mi hijo siempre pregunta por qué.
+example.en: My son always asks why.
+spain:
+trick:      PREGUNTAR sounds like a pregnant tar pit: everyone asks, how did that happen?
+
+# The draft this file was made from. Do not change it.
+draft: 9caf00f547129b99

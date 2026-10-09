@@ -1,0 +1,24 @@
+{
+  "id": "mama-mom",
+  "rank": 186,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la mamá",
+  "en": "mom",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi mamá cocina muy rico.",
+    "en": "My mom cooks really well."
+  },
+  "spain": null,
+  "trick": "MAMÁ sounds just like \"mama\", so picture a baby calling for mom, with the stress on the last syllable.",
+  "image": "/deck/img/mama-mom.webp",
+  "audio": {
+    "word": "/deck/audio/mama-mom.word.mp3",
+    "sentence": "/deck/audio/mama-mom.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "caja-checkout",
+  "rank": 580,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la caja",
+  "en": "checkout (in a store)",
+  "hint": "where you pay",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Puedes pagar en la caja.",
+    "en": "You can pay at the checkout."
+  },
+  "spain": null,
+  "trick": "CAJA sounds like 'cash-a': the cash goes into the box at the checkout.",
+  "image": "/deck/img/caja-checkout.webp",
+  "audio": {
+    "word": "/deck/audio/caja-checkout.word.mp3",
+    "sentence": "/deck/audio/caja-checkout.sentence.mp3"
+  }
+}

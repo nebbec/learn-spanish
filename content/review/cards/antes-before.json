@@ -1,0 +1,17 @@
+{
+  "id": "antes-before",
+  "rank": 133,
+  "word": "antes",
+  "draft": "92efb26c8ef90c25",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "before, earlier, formerly (adverb of time)",
+    "example": "Before, I used to live in Mexico. / I used to live in Mexico."
+  },
+  "note": "The example translation is correct but says \"before\" twice over (used to + before), so \"I used to live in Mexico.\" would read more cleanly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:44.841Z"
+}

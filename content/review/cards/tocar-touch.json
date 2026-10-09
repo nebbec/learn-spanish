@@ -1,0 +1,17 @@
+{
+  "id": "tocar-touch",
+  "rank": 283,
+  "word": "tocar",
+  "draft": "422a56bddadd8feb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to touch (also: to play an instrument; to be someone's turn)",
+    "example": "Don't touch that, it's hot."
+  },
+  "note": "The preterite toqué only changes spelling (c to qu to keep the hard sound), so it's right to mark tocar as regular, and the example's negative command toques is a good early look at that spelling change.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:38.645Z"
+}

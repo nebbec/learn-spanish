@@ -1,0 +1,12 @@
+{
+  "rank": 741,
+  "word": "estado",
+  "cards": [
+    "estado-state"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:46:49.737Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "huir-flee",
+  "rank": 738,
+  "kind": "content",
+  "pos": "verb",
+  "es": "huir",
+  "en": "to flee",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "huyo",
+      "tu": "huyes",
+      "el": "huye"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "El ladrón huyó de la policía.",
+    "en": "The thief fled from the police."
+  },
+  "spain": null,
+  "trick": "HUIR sounds like \"we're out\": the robbers shout \"We're out of here!\" as they flee.",
+  "image": "/deck/img/huir-flee.webp",
+  "audio": {
+    "word": "/deck/audio/huir-flee.word.mp3",
+    "sentence": "/deck/audio/huir-flee.sentence.mp3"
+  }
+}

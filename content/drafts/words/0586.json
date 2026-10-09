@@ -1,0 +1,13 @@
+{
+  "rank": 586,
+  "word": "despedir",
+  "cards": [
+    "despedir-fire",
+    "despedir-say-goodbye"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:39:16.480Z"
+}

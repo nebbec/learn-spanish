@@ -1,0 +1,17 @@
+{
+  "id": "seguro-sure",
+  "rank": 139,
+  "word": "seguro",
+  "draft": "3dcec57cb5cdb664",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "seguro (adj.): sure, certain; also safe, secure",
+    "example": "Are you sure?"
+  },
+  "note": "The hint is useful because it keeps this card separate from the \"safe\" card, and in everyday speech \"sure\" points to seguro rather than cierto.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:03.875Z"
+}

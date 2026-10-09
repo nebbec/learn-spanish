@@ -1,0 +1,17 @@
+{
+  "id": "maestro-master",
+  "rank": 628,
+  "word": "maestro",
+  "draft": "e7338827564323a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the master (an expert or a teacher of a skill, as in a martial arts master); also a schoolteacher",
+    "example": "The master taught me to fight."
+  },
+  "note": "The kung fu hint usefully rules out el amo (master of a servant or pet) and el experto, and keeps this card apart from the word's \"teacher\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:00.851Z"
+}

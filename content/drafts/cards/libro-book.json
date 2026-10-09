@@ -1,0 +1,24 @@
+{
+  "id": "libro-book",
+  "rank": 399,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el libro",
+  "en": "book",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Estoy leyendo un libro muy bueno.",
+    "en": "I'm reading a really good book."
+  },
+  "spain": null,
+  "trick": "LIBRO sounds like library: a library is full of books.",
+  "image": "/deck/img/libro-book.webp",
+  "audio": {
+    "word": "/deck/audio/libro-book.word.mp3",
+    "sentence": "/deck/audio/libro-book.sentence.mp3"
+  }
+}

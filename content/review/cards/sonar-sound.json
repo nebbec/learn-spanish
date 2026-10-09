@@ -1,0 +1,17 @@
+{
+  "id": "sonar-sound",
+  "rank": 392,
+  "word": "sonar",
+  "draft": "7c3e06846ba921d1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to sound; to ring",
+    "example": "Your plan sounds very good."
+  },
+  "note": "The yo form is correctly sueno without a tilde, unlike sueño from soñar, which learners may confuse.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:41.855Z"
+}

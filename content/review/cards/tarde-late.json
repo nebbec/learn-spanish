@@ -1,0 +1,17 @@
+{
+  "id": "tarde-late",
+  "rank": 215,
+  "word": "tarde",
+  "draft": "8e2f61be66e59d94",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "late (adverb)",
+    "example": "You arrived late again."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:57.807Z"
+}

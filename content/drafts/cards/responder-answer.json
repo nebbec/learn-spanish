@@ -1,0 +1,28 @@
+{
+  "id": "responder-answer",
+  "rank": 555,
+  "kind": "content",
+  "pos": "verb",
+  "es": "responder",
+  "en": "to answer",
+  "hint": "looks like English respond, not contestar",
+  "grammar": {
+    "present": {
+      "yo": "respondo",
+      "tu": "respondes",
+      "el": "responde"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Por qué no respondes mis mensajes?",
+    "en": "Why don't you answer my messages?"
+  },
+  "spain": null,
+  "trick": "RESPONDER sounds like respond: when someone asks, you respond with an answer.",
+  "image": "/deck/img/responder-answer.webp",
+  "audio": {
+    "word": "/deck/audio/responder-answer.word.mp3",
+    "sentence": "/deck/audio/responder-answer.sentence.mp3"
+  }
+}

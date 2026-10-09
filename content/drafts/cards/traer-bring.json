@@ -1,0 +1,28 @@
+{
+  "id": "traer-bring",
+  "rank": 174,
+  "kind": "content",
+  "pos": "verb",
+  "es": "traer",
+  "en": "to bring",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "traigo",
+      "tu": "traes",
+      "el": "trae"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Me traes un vaso de agua?",
+    "en": "Can you bring me a glass of water?"
+  },
+  "spain": null,
+  "trick": "TRAER sounds like tray-AIR: a waiter brings your food on a tray held up in the air.",
+  "image": "/deck/img/traer-bring.webp",
+  "audio": {
+    "word": "/deck/audio/traer-bring.word.mp3",
+    "sentence": "/deck/audio/traer-bring.sentence.mp3"
+  }
+}

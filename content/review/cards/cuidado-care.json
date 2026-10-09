@@ -1,0 +1,17 @@
+{
+  "id": "cuidado-care",
+  "rank": 336,
+  "word": "cuidado",
+  "draft": "507535c0d989c0c5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "care, caution (noun); as an interjection, ¡Cuidado! means Watch out! / Careful!",
+    "example": "Be careful with the dog! (literally: Have care with the dog!)"
+  },
+  "note": "The word is probably this common in subtitles because of the interjection ¡Cuidado! (Watch out!), so the editor could mention that use in the grammar or trick, although the tener cuidado example already covers it well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:23.419Z"
+}

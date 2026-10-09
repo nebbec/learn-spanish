@@ -1,0 +1,21 @@
+{
+  "id": "menos-less",
+  "rank": 179,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "menos",
+  "en": "less",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Ahora trabajo menos y duermo más.",
+    "en": "Now I work less and sleep more."
+  },
+  "spain": null,
+  "trick": "MENOS sounds like \"minus\": take something away and you have less.",
+  "image": "/deck/img/menos-less.webp",
+  "audio": {
+    "word": "/deck/audio/menos-less.word.mp3",
+    "sentence": "/deck/audio/menos-less.sentence.mp3"
+  }
+}

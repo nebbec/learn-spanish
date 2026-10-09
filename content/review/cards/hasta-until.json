@@ -1,0 +1,23 @@
+{
+  "id": "hasta-until",
+  "rank": 130,
+  "word": "hasta",
+  "draft": "0bc4f0685a46fd87",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is a fixed farewell with no conjugated verb, and its idiomatic translation hides the 'until' meaning the card teaches.",
+      "fix": "example.es: Hoy trabajo hasta las ocho. / example.en: Today I work until eight."
+    }
+  ],
+  "back": {
+    "es": "until, up to (preposition); the prompt is 'Trabajo hasta las ocho'",
+    "example": "Until tomorrow, my love! (that is, See you tomorrow, my love!)"
+  },
+  "note": "The prompt needs no hint, because 'even' is covered by the word's other card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:27.485Z"
+}

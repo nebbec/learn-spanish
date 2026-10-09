@@ -1,0 +1,28 @@
+{
+  "id": "preguntar-ask",
+  "rank": 177,
+  "kind": "content",
+  "pos": "verb",
+  "es": "preguntar",
+  "en": "to ask",
+  "hint": "a question, not ask for something",
+  "grammar": {
+    "present": {
+      "yo": "pregunto",
+      "tu": "preguntas",
+      "el": "pregunta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Puedo preguntarte algo?",
+    "en": "Can I ask you something?"
+  },
+  "spain": null,
+  "trick": "PREGUNTAR sounds like a pregnant tar pit: everyone asks, how did that happen?",
+  "image": "/deck/img/preguntar-ask.webp",
+  "audio": {
+    "word": "/deck/audio/preguntar-ask.word.mp3",
+    "sentence": "/deck/audio/preguntar-ask.sentence.mp3"
+  }
+}

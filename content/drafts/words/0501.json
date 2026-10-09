@@ -1,0 +1,13 @@
+{
+  "rank": 501,
+  "word": "carta",
+  "cards": [
+    "carta-letter",
+    "carta-playing-card"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:35:03.900Z"
+}

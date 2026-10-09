@@ -1,0 +1,28 @@
+{
+  "id": "mentir-lie",
+  "rank": 442,
+  "kind": "content",
+  "pos": "verb",
+  "es": "mentir",
+  "en": "to lie",
+  "hint": "tell an untruth",
+  "grammar": {
+    "present": {
+      "yo": "miento",
+      "tu": "mientes",
+      "el": "miente"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Por qué me mentiste?",
+    "en": "Why did you lie to me?"
+  },
+  "spain": null,
+  "trick": "MENTIR sounds like \"meant to\": he said he meant to pay you back, but he was lying.",
+  "image": "/deck/img/mentir-lie.webp",
+  "audio": {
+    "word": "/deck/audio/mentir-lie.word.mp3",
+    "sentence": "/deck/audio/mentir-lie.sentence.mp3"
+  }
+}

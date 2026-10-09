@@ -1,0 +1,24 @@
+{
+  "id": "carino-honey",
+  "rank": 262,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el cariño",
+  "en": "honey",
+  "hint": "what you call a loved one, not the food",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Cariño, ya llegué a casa.",
+    "en": "Honey, I'm home."
+  },
+  "spain": null,
+  "trick": "CARIÑO sounds like \"carry no\": honey, I'll carry you, no problem.",
+  "image": "/deck/img/carino-honey.webp",
+  "audio": {
+    "word": "/deck/audio/carino-honey.word.mp3",
+    "sentence": "/deck/audio/carino-honey.sentence.mp3"
+  }
+}

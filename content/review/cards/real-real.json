@@ -1,0 +1,17 @@
+{
+  "id": "real-real",
+  "rank": 480,
+  "word": "real",
+  "draft": "7745f8b25c5bbfdc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "real, actual (also: royal)",
+    "example": "Is this real or is it a dream?"
+  },
+  "note": "The hint is needed: \"same spelling as English\" rules out verdadero and auténtico, and \"not fake\" rules out the royal card. The trick's \"ray-AHL\" is only a rough guide, since Spanish says reh-AHL without the English ay glide, so it could be changed to \"reh-AHL\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:11.486Z"
+}

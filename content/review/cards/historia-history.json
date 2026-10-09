@@ -1,0 +1,23 @@
+{
+  "id": "historia-history",
+  "rank": 257,
+  "word": "historia",
+  "draft": "91d6ae92170828fd",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Saying 'with an added accent' could make a learner think historia has a written accent mark, but it has none.",
+      "fix": "trick: HISTORIA is just HISTORY with the Y swapped for an -IA ending, like many Spanish feminine nouns."
+    }
+  ],
+  "back": {
+    "es": "history (the past; the study of the past); also story",
+    "example": "I love the history of Mexico."
+  },
+  "note": "The bare prompt \"history\" needs no hint, because the \"story\" card's hint already keeps the two meanings apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:45.616Z"
+}

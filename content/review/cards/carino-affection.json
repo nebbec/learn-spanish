@@ -1,0 +1,17 @@
+{
+  "id": "carino-affection",
+  "rank": 262,
+  "word": "cariño",
+  "draft": "ae70a652352ce2a5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "affection, fondness (noun)",
+    "example": "I'm very fond of my grandma / I have a lot of affection for my grandma."
+  },
+  "note": "The hint correctly rules out afecto, the most likely other answer, and it keeps this card separate from the \"honey\" card for the same word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:03.096Z"
+}

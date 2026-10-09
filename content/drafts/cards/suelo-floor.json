@@ -1,0 +1,24 @@
+{
+  "id": "suelo-floor",
+  "rank": 754,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el suelo",
+  "en": "floor",
+  "hint": "the ground underfoot, not piso",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Las llaves están en el suelo.",
+    "en": "The keys are on the floor."
+  },
+  "spain": null,
+  "trick": "SUELO sounds like the sole of your shoe, which always touches the floor.",
+  "image": "/deck/img/suelo-floor.webp",
+  "audio": {
+    "word": "/deck/audio/suelo-floor.word.mp3",
+    "sentence": "/deck/audio/suelo-floor.sentence.mp3"
+  }
+}

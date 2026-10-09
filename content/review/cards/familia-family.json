@@ -1,0 +1,17 @@
+{
+  "id": "familia-family",
+  "rank": 231,
+  "word": "familia",
+  "draft": "7d21824b4fcb03b3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the family",
+    "example": "My family lives in Guadalajara."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:02.864Z"
+}

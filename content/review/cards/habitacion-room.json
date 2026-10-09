@@ -1,0 +1,17 @@
+{
+  "id": "habitacion-room",
+  "rank": 394,
+  "word": "habitación",
+  "draft": "784024eaec11d622",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the room (especially a bedroom or hotel room)",
+    "example": "My room is on the second floor."
+  },
+  "note": "The hint works, but saying \"a room in a house or hotel\" instead of \"bedroom\" could stop a Mexican learner from thinking of recámara or dormitorio.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:54.735Z"
+}

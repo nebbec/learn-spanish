@@ -1,0 +1,24 @@
+{
+  "id": "ano-year",
+  "rank": 103,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el año",
+  "en": "year",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tengo veinte años.",
+    "en": "I'm twenty years old."
+  },
+  "spain": null,
+  "trick": "AÑO sounds like \"on yo\": every year, a new candle goes on your cake.",
+  "image": "/deck/img/ano-year.webp",
+  "audio": {
+    "word": "/deck/audio/ano-year.word.mp3",
+    "sentence": "/deck/audio/ano-year.sentence.mp3"
+  }
+}

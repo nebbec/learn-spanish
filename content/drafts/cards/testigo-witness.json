@@ -1,0 +1,24 @@
+{
+  "id": "testigo-witness",
+  "rank": 787,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el testigo",
+  "en": "witness",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Ella es la única testigo del accidente.",
+    "en": "She is the only witness to the accident."
+  },
+  "spain": null,
+  "trick": "TESTIGO sounds like \"testify, go!\": the witness is told to go testify in court.",
+  "image": "/deck/img/testigo-witness.webp",
+  "audio": {
+    "word": "/deck/audio/testigo-witness.word.mp3",
+    "sentence": "/deck/audio/testigo-witness.sentence.mp3"
+  }
+}

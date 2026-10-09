@@ -1,0 +1,17 @@
+{
+  "id": "bastante-enough",
+  "rank": 331,
+  "word": "bastante",
+  "draft": "6fb3f5e15e96af25",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "bastante (adj.): enough; quite a lot of, plenty of",
+    "example": "We don't have enough money for the trip."
+  },
+  "note": "The hint blends two senses (\"enough\" and \"plenty\"), which matches how bastante is used, and \"not suficiente\" rules out the main alternative; the editor could add \"before a noun\" to set it apart from the \"quite\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:52.577Z"
+}

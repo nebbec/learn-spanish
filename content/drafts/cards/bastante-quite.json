@@ -1,0 +1,21 @@
+{
+  "id": "bastante-quite",
+  "rank": 331,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "bastante",
+  "en": "quite",
+  "hint": "fairly, rather; before an adjective",
+  "grammar": null,
+  "example": {
+    "es": "La película es bastante buena.",
+    "en": "The movie is quite good."
+  },
+  "spain": null,
+  "trick": "BASTANTE sounds like 'boss tanned': the boss came back quite tanned, fairly brown.",
+  "image": "/deck/img/bastante-quite.webp",
+  "audio": {
+    "word": "/deck/audio/bastante-quite.word.mp3",
+    "sentence": "/deck/audio/bastante-quite.sentence.mp3"
+  }
+}

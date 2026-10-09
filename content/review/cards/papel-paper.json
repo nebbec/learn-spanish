@@ -1,0 +1,17 @@
+{
+  "id": "papel-paper",
+  "rank": 595,
+  "word": "papel",
+  "draft": "2b4b26eda25166c5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "paper (the material)",
+    "example": "Do you have paper and a pencil?"
+  },
+  "note": "The trick calls papel paper with an extra letter, but it really swaps the final R for an L, so wording like \"paper with its R swapped for an L\" would be more accurate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:49.277Z"
+}

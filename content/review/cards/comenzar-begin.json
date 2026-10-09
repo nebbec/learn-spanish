@@ -1,0 +1,17 @@
+{
+  "id": "comenzar-begin",
+  "rank": 358,
+  "word": "comenzar",
+  "draft": "1364393d9c64b18a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to begin, to start (comenzar: a stem-changing verb, e to ie)",
+    "example": "The movie starts at eight."
+  },
+  "note": "The hint rules out empezar, and comenzar is clearly the common answer, though iniciar is also somewhat formal; the editor could add \"sounds like commence\" to the hint to remove all doubt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:42.094Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cortar-cut",
+  "rank": 468,
+  "kind": "content",
+  "pos": "verb",
+  "es": "cortar",
+  "en": "to cut",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "corto",
+      "tu": "cortas",
+      "el": "corta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Corta el pan, por favor.",
+    "en": "Cut the bread, please."
+  },
+  "spain": null,
+  "trick": "CORTAR sounds like \"cut-tar\": you cut through the sticky tar with scissors.",
+  "image": "/deck/img/cortar-cut.webp",
+  "audio": {
+    "word": "/deck/audio/cortar-cut.word.mp3",
+    "sentence": "/deck/audio/cortar-cut.sentence.mp3"
+  }
+}

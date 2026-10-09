@@ -2,16 +2,16 @@
   "id": "phrase-where-are-you-going",
   "rank": 193,
   "word": "where-im-going",
-  "draft": "f78946fea5b8dfb8",
+  "draft": "ed91d06471846d5c",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "Where are you (informal) going today?",
-    "example": "Where are you going today? —I'm going to work."
+    "example": "Where are you going today, Ana? —I'm going to the city."
   },
-  "note": "The hint \"informal\" is needed because it rules out usted's \"¿A dónde va hoy?\", and the one-word spelling \"¿Adónde vas hoy?\" is an equally correct form of the same answer that the app could also accept.",
+  "note": "The one-word spelling \"¿Adónde vas hoy?\" is just as correct, so the app should accept it as the same answer when learners grade themselves.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:44.740Z"
+  "reviewedAt": "2026-10-09T14:18:51.618Z"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "historia-history",
+  "rank": 257,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la historia",
+  "en": "history",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Me encanta la historia de México.",
+    "en": "I love Mexican history."
+  },
+  "spain": null,
+  "trick": "HISTORIA looks like history plus an extra A: the past with an added accent.",
+  "image": "/deck/img/historia-history.webp",
+  "audio": {
+    "word": "/deck/audio/historia-history.word.mp3",
+    "sentence": "/deck/audio/historia-history.sentence.mp3"
+  }
+}

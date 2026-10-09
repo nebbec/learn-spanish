@@ -1,0 +1,35 @@
+# encargar-handle · rank 572 · encargar
+#
+# Why it was flagged:
+#   - Meaning: Plain encargar means to order or to entrust, while to take care of is the meaning of the pronominal verb encargarse (de), so es does not match the prompt. Suggested fix: es: encargarse
+#   - One right answer: The hint shows the answer (me encargo), so it gives it away instead of only ruling out other answers such as cuidar or ocuparse. Suggested fix: hint: handle a task or be in charge of it; reflexive verb used with de
+#   - Grammar: For this meaning the dictionary form is encargarse, and its present forms need the reflexive pronouns. Suggested fix: es: encargarse; grammar.present: yo me encargo, tú te encargas, él se encarga (irregular: false)
+# Reviewer's note (not a reason to flag): The preterite encargué is only a spelling change, so irregular: false is correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         encargar-handle
+kind:       content
+pos:        verb
+es:         encargar
+en:         to take care of
+hint:       handle a task; used with se: me encargo
+yo:         encargo
+tu:         encargas
+el:         encarga
+irregular:  no
+example.es: Tranquilo, yo me encargo de todo.
+example.en: Relax, I'll take care of everything.
+spain:
+trick:      ENCARGAR sounds like "in cargo": you take charge of the cargo and handle it yourself.
+
+# The draft this file was made from. Do not change it.
+draft: df077bef2a5a6cae

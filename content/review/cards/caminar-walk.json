@@ -1,0 +1,17 @@
+{
+  "id": "caminar-walk",
+  "rank": 556,
+  "word": "caminar",
+  "draft": "e9a16b44ab83f249",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "caminar = to walk (verb). Example: 'Camino al trabajo todos los días.' = 'I walk to work every day.'",
+    "example": "I walk to work every day."
+  },
+  "note": "The hint usefully rules out andar, which can also mean \"to walk\"; spain is fine as null because Spain also says caminar, though andar is more common there.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:46.952Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dormir-sleep",
+  "rank": 247,
+  "word": "dormir",
+  "draft": "1aacab85e07742f2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to sleep",
+    "example": "Last night I slept very little."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:58.225Z"
+}

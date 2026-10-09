@@ -1,0 +1,21 @@
+{
+  "id": "adonde-where-to",
+  "rank": 646,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "adónde",
+  "en": "[where] are you going?",
+  "hint": "where to, with motion",
+  "grammar": null,
+  "example": {
+    "es": "¿Adónde vamos esta noche?",
+    "en": "Where are we going tonight?"
+  },
+  "spain": null,
+  "trick": "ADÓNDE sounds like \"a donde\": add an A to dónde when you're heading toward somewhere.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/adonde-where-to.word.mp3",
+    "sentence": "/deck/audio/adonde-where-to.sentence.mp3"
+  }
+}

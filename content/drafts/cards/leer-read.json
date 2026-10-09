@@ -1,0 +1,28 @@
+{
+  "id": "leer-read",
+  "rank": 255,
+  "kind": "content",
+  "pos": "verb",
+  "es": "leer",
+  "en": "to read",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "leo",
+      "tu": "lees",
+      "el": "lee"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mi hija lee un libro cada semana.",
+    "en": "My daughter reads a book every week."
+  },
+  "spain": null,
+  "trick": "LEER sounds like \"leer\": you leer at the page when you read the juicy gossip.",
+  "image": "/deck/img/leer-read.webp",
+  "audio": {
+    "word": "/deck/audio/leer-read.word.mp3",
+    "sentence": "/deck/audio/leer-read.sentence.mp3"
+  }
+}

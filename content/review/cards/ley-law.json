@@ -1,0 +1,17 @@
+{
+  "id": "ley-law",
+  "rank": 596,
+  "word": "ley",
+  "draft": "1625989a40810662",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "law (a rule or set of rules made by a government)",
+    "example": "Nobody is above the law."
+  },
+  "note": "Law as a field of study (\"study law\") is \"el derecho\", so a hint like \"a rule, e.g. pass a law\" would rule that out, but most people would answer \"la ley\" to the bare prompt \"law\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:56.232Z"
+}

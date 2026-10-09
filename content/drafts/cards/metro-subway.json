@@ -1,0 +1,24 @@
+{
+  "id": "metro-subway",
+  "rank": 627,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el metro",
+  "en": "subway",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Tomo el metro para ir al trabajo.",
+    "en": "I take the subway to work."
+  },
+  "spain": null,
+  "trick": "METRO sounds like metropolis: every big metropolis has a subway running underneath it.",
+  "image": "/deck/img/metro-subway.webp",
+  "audio": {
+    "word": "/deck/audio/metro-subway.word.mp3",
+    "sentence": "/deck/audio/metro-subway.sentence.mp3"
+  }
+}

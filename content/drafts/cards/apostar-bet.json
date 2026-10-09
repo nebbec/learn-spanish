@@ -1,0 +1,28 @@
+{
+  "id": "apostar-bet",
+  "rank": 513,
+  "kind": "content",
+  "pos": "verb",
+  "es": "apostar",
+  "en": "to bet",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "apuesto",
+      "tu": "apuestas",
+      "el": "apuesta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Te apuesto que mañana llueve.",
+    "en": "I bet you it rains tomorrow."
+  },
+  "spain": null,
+  "trick": "APOSTAR sounds like a post star: you bet money on which star will hit the goal post.",
+  "image": "/deck/img/apostar-bet.webp",
+  "audio": {
+    "word": "/deck/audio/apostar-bet.word.mp3",
+    "sentence": "/deck/audio/apostar-bet.sentence.mp3"
+  }
+}

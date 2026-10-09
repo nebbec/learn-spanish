@@ -1,0 +1,24 @@
+{
+  "id": "direccion-direction",
+  "rank": 663,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la dirección",
+  "en": "direction",
+  "hint": "way you are heading",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Vamos en la dirección equivocada.",
+    "en": "We're going in the wrong direction."
+  },
+  "spain": null,
+  "trick": "DIRECCIÓN looks almost exactly like \"direction\": just swap the ending -tion for -ción.",
+  "image": "/deck/img/direccion-direction.webp",
+  "audio": {
+    "word": "/deck/audio/direccion-direction.word.mp3",
+    "sentence": "/deck/audio/direccion-direction.sentence.mp3"
+  }
+}

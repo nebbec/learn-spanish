@@ -1,0 +1,17 @@
+{
+  "id": "asesino-killer",
+  "rank": 491,
+  "word": "asesino",
+  "draft": "03f27bcbb262d070",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the killer, the murderer",
+    "example": "The police are still looking for the killer."
+  },
+  "note": "Asesino is the everyday word for any killer or murderer, not only a hired one, and its feminine form is la asesina; the editor could say this somewhere so the trick doesn't narrow the meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:29.127Z"
+}

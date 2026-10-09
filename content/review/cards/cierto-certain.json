@@ -1,0 +1,17 @@
+{
+  "id": "cierto-certain",
+  "rank": 207,
+  "word": "cierto",
+  "draft": "f4fbc771c1a9866a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "certain, some particular (before a noun: cierto día = a certain day)",
+    "example": "Certain people don't know how to listen."
+  },
+  "note": "The hint's \"before a noun\" is what separates this card from the word's \"true\" card (es cierto), so it is worth keeping.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:12.834Z"
+}

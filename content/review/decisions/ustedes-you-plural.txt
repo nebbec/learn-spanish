@@ -1,0 +1,30 @@
+# ustedes-you-plural · rank 245 · ustedes
+#
+# Why it was flagged:
+#   - Latin American usage: In this informal 'you guys' sense, Spain says vosotros, which is noticeably different, so spain should not be null. Suggested fix: spain: vosotros
+# Reviewer's note (not a reason to flag): The hint is correct, and in Latin America ustedes is the only plural "you" for both formal and informal speech, so the prompt has exactly one answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to spain.
+decision: pending
+
+id:         ustedes-you-plural
+kind:       glue
+pos:        pronoun
+es:         ustedes
+en:         are [you all] coming tonight?
+hint:       more than one person
+example.es: ¿Ustedes vienen a la fiesta?
+example.en: Are you guys coming to the party?
+spain:      vosotros
+trick:      USTEDES sounds like "use the days": you all use the days together.
+
+# The draft this file was made from. Do not change it.
+draft: 93943874bc90f753

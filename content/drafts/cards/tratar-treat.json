@@ -1,0 +1,28 @@
+{
+  "id": "tratar-treat",
+  "rank": 157,
+  "kind": "content",
+  "pos": "verb",
+  "es": "tratar",
+  "en": "to treat",
+  "hint": "how you deal with someone",
+  "grammar": {
+    "present": {
+      "yo": "trato",
+      "tu": "tratas",
+      "el": "trata"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Ella me trata muy bien.",
+    "en": "She treats me really well."
+  },
+  "spain": null,
+  "trick": "TRATAR sounds like \"treat her\": always treat her kindly.",
+  "image": "/deck/img/tratar-treat.webp",
+  "audio": {
+    "word": "/deck/audio/tratar-treat.word.mp3",
+    "sentence": "/deck/audio/tratar-treat.sentence.mp3"
+  }
+}

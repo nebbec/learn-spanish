@@ -1,0 +1,23 @@
+{
+  "id": "monton-pile",
+  "rank": 638,
+  "word": "montón",
+  "draft": "45331ff0d80f9255",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint includes the Spanish answer itself (un montón de), so there is nothing to recall, and without it 'pile' could also be la pila or la montaña.",
+      "fix": "hint: a heap of things; in casual speech also means 'a ton of'"
+    }
+  ],
+  "back": {
+    "es": "the pile, the heap; casually, a lot (un montón de = a lot of)",
+    "example": "I have a ton of work today."
+  },
+  "note": "Montón really does come from monte (mountain), so the trick is accurate as well as easy to remember.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:37.995Z"
+}

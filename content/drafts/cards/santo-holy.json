@@ -1,0 +1,23 @@
+{
+  "id": "santo-holy",
+  "rank": 405,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "santo",
+  "en": "holy",
+  "hint": "same word as saint, not sagrado",
+  "grammar": {
+    "feminine": "santa"
+  },
+  "example": {
+    "es": "En Semana Santa vamos a la playa.",
+    "en": "During Holy Week we go to the beach."
+  },
+  "spain": null,
+  "trick": "SANTO sounds like Santa: Christmas is a holy day, and Santa comes on it.",
+  "image": "/deck/img/santo-holy.webp",
+  "audio": {
+    "word": "/deck/audio/santo-holy.word.mp3",
+    "sentence": "/deck/audio/santo-holy.sentence.mp3"
+  }
+}

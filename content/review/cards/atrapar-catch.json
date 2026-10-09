@@ -1,0 +1,23 @@
+{
+  "id": "atrapar-catch",
+  "rank": 484,
+  "word": "atrapar",
+  "draft": "7632b8808abb3067",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'trap, capture' also points to capturar, and agarrar is an equally common Latin American answer for 'to catch'.",
+      "fix": "hint: a ball or a thief, as in a trap; not agarrar"
+    }
+  ],
+  "back": {
+    "es": "to catch, to trap, to capture",
+    "example": "The police caught the thief last night."
+  },
+  "note": "Spain often says coger for 'to catch', but atrapar is also normal there, so leaving spain null is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:51.732Z"
+}

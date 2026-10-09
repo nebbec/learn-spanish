@@ -1,0 +1,33 @@
+# asegurar-make-sure · rank 447 · asegurar
+#
+# Why it was flagged:
+#   - Example sentence: The English says "lock", but cerrar la puerta means close the door; lock would be cerrar con llave. Suggested fix: example.en: Make sure you close the door.
+# Reviewer's note (not a reason to flag): The trick's "arse" pun is a bit crude for a learner app, but it is not wrong.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         asegurar-make-sure
+kind:       content
+pos:        verb
+es:         asegurarse
+en:         to make sure
+hint:
+yo:         me aseguro
+tu:         te aseguras
+el:         se asegura
+irregular:  no
+example.es: Asegúrate de cerrar la puerta.
+example.en: Make sure you lock the door.
+spain:
+trick:      ASEGURARSE sounds like "a secure-arse": make sure everything is secure before you sit down.
+
+# The draft this file was made from. Do not change it.
+draft: d8f62bb180c0b180

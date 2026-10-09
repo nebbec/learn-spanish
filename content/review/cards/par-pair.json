@@ -1,0 +1,17 @@
+{
+  "id": "par-pair",
+  "rank": 437,
+  "word": "par",
+  "draft": "eccb5ac28218ee61",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "pair, couple (a pair of things; un par de = a couple of, a few)",
+    "example": "Give me a couple of minutes."
+  },
+  "note": "The hint \"of things\" usefully rules out la pareja (a pair of people, a romantic couple), and the example shows the very common \"un par de\" meaning \"a couple of\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:18.314Z"
+}

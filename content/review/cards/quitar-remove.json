@@ -1,0 +1,17 @@
+{
+  "id": "quitar-remove",
+  "rank": 365,
+  "word": "quitar",
+  "draft": "18d1a14af7081d33",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to remove, to take off, to take away (regular -ar verb)",
+    "example": "Take off your shoes, please."
+  },
+  "note": "The example uses the reflexive quitarse (take off your own clothing), which is correct, but learners may also want to see plain quitar with an object, e.g. \"Quita eso de la mesa.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:11.378Z"
+}

@@ -1,0 +1,33 @@
+# partir-split · rank 542 · partir
+#
+# Why it was flagged:
+#   - One right answer: The prompt "to split" with the hint "cut or break into pieces" also fits dividir (the usual word for splitting something like a bill), cortar and romper, so it doesn't lead to partir alone. Suggested fix: hint: split something physical into pieces, like bread or a cake (not dividir, cortar or romper)
+# Reviewer's note (not a reason to flag): The example's English "Will you split" works as a request reading of the Spanish present-tense question.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         partir-split
+kind:       content
+pos:        verb
+es:         partir
+en:         to split
+hint:       cut or break into pieces
+yo:         parto
+tu:         partes
+el:         parte
+irregular:  no
+example.es: ¿Partes el pastel en ocho pedazos?
+example.en: Will you split the cake into eight pieces?
+spain:
+trick:      PARTIR splits something into PARTs, so everyone gets a part.
+
+# The draft this file was made from. Do not change it.
+draft: 714afa99e27abf5a

@@ -1,0 +1,28 @@
+{
+  "id": "armar-arm",
+  "rank": 744,
+  "kind": "content",
+  "pos": "verb",
+  "es": "armar",
+  "en": "to arm",
+  "hint": "with weapons",
+  "grammar": {
+    "present": {
+      "yo": "armo",
+      "tu": "armas",
+      "el": "arma"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Cuidado, el hombre está armado.",
+    "en": "Careful, the man is armed."
+  },
+  "spain": null,
+  "trick": "ARMAR looks like arm and armor: to arm someone, you hand them weapons and armor.",
+  "image": "/deck/img/armar-arm.webp",
+  "audio": {
+    "word": "/deck/audio/armar-arm.word.mp3",
+    "sentence": "/deck/audio/armar-arm.sentence.mp3"
+  }
+}

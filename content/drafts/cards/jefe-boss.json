@@ -1,0 +1,24 @@
+{
+  "id": "jefe-boss",
+  "rank": 292,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el jefe",
+  "en": "boss",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi jefe me llamó esta mañana.",
+    "en": "My boss called me this morning."
+  },
+  "spain": null,
+  "trick": "JEFE sounds like \"chef\": the head chef is the boss of the kitchen.",
+  "image": "/deck/img/jefe-boss.webp",
+  "audio": {
+    "word": "/deck/audio/jefe-boss.word.mp3",
+    "sentence": "/deck/audio/jefe-boss.sentence.mp3"
+  }
+}

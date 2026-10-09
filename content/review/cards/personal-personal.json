@@ -1,0 +1,23 @@
+{
+  "id": "personal-personal",
+  "rank": 578,
+  "word": "personal",
+  "draft": "ec28b394237f3be5",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The Spanish says 'es solo trabajo' (it's just work), but the translation says 'it's just business', which could teach the learner that trabajo means business.",
+      "fix": "example.en: It's nothing personal, it's just work."
+    }
+  ],
+  "back": {
+    "es": "personal (adjective: relating to a particular person, private)",
+    "example": "It's nothing personal, it's just work."
+  },
+  "note": "Personal is also a noun (el personal, staff), but this adjective card is clear without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:21.199Z"
+}

@@ -1,0 +1,12 @@
+{
+  "rank": 454,
+  "word": "llamada",
+  "cards": [
+    "llamada-call"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:32:16.135Z"
+}

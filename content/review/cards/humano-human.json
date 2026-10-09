@@ -1,0 +1,17 @@
+{
+  "id": "humano-human",
+  "rank": 464,
+  "word": "humano",
+  "draft": "ffb374c4df63db98",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "human (adjective; also used as a noun, 'a human')",
+    "example": "Calm down, I'm only human."
+  },
+  "note": "Even if a learner reads \"human\" as a noun, the answer is still humano, so the bare prompt works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:18.682Z"
+}

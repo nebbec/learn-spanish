@@ -1,0 +1,30 @@
+# supuesto-of-course · rank 272 · supuesto
+#
+# Why it was flagged:
+#   - One right answer: The hint only rules out claro, but other two-word phrases also mean of course, such as cómo no (very common in Latin America) and desde luego. Suggested fix: hint: two-word phrase starting with por, not claro
+# Reviewer's note (not a reason to flag): Using a fixed two-word phrase as a content card for supuesto makes sense, because por supuesto is by far the word's most frequent use in subtitles.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: fixed hint by naming the other answers to rule out; the reviewer's 'starting with por' gives away half the answer.
+decision: pending
+
+id:         supuesto-of-course
+kind:       content
+pos:        adverb
+es:         por supuesto
+en:         of course
+hint:       two-word phrase, not claro, cómo no or desde luego
+example.es: ¿Me ayudas? Por supuesto.
+example.en: Will you help me? Of course.
+spain:
+trick:      POR SUPUESTO sounds like "for supposed": of course it's true, everyone supposed so.
+
+# The draft this file was made from. Do not change it.
+draft: eece5d1aa7f5ff93

@@ -1,0 +1,17 @@
+{
+  "id": "decidir-decide",
+  "rank": 364,
+  "word": "decidir",
+  "draft": "ec871dafb1544df1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to decide",
+    "example": "You decide where we're going tonight."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:05.803Z"
+}

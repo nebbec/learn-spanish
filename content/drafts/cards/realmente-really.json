@@ -1,0 +1,21 @@
+{
+  "id": "realmente-really",
+  "rank": 206,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "realmente",
+  "en": "really",
+  "hint": "one word ending in -mente",
+  "grammar": null,
+  "example": {
+    "es": "¿Realmente quieres ir a la fiesta?",
+    "en": "Do you really want to go to the party?"
+  },
+  "spain": null,
+  "trick": "REALMENTE sounds like real-mental: if it's real in your mind, then you really mean it.",
+  "image": "/deck/img/realmente-really.webp",
+  "audio": {
+    "word": "/deck/audio/realmente-really.word.mp3",
+    "sentence": "/deck/audio/realmente-really.sentence.mp3"
+  }
+}

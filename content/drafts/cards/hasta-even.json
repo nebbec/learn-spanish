@@ -1,0 +1,21 @@
+{
+  "id": "hasta-even",
+  "rank": 130,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "hasta",
+  "en": "[even] my mom knows",
+  "hint": "the word that also means until, not incluso",
+  "grammar": null,
+  "example": {
+    "es": "Hasta mi abuela usa WhatsApp.",
+    "en": "Even my grandma uses WhatsApp."
+  },
+  "spain": null,
+  "trick": "HASTA sounds like \"has to\": everyone has to know it, even your mom.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/hasta-even.word.mp3",
+    "sentence": "/deck/audio/hasta-even.sentence.mp3"
+  }
+}

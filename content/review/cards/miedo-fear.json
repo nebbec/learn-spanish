@@ -2,16 +2,16 @@
   "id": "miedo-fear",
   "rank": 315,
   "word": "miedo",
-  "draft": "6a1fa8f00b8c43e2",
+  "draft": "2525f1771447ea9e",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "fear (the feeling of being afraid)",
-    "example": "I'm afraid of the dark."
+    "es": "fear",
+    "example": "I'm not afraid, I'm fine."
   },
-  "note": "El temor also means fear but is more formal and less common, so el miedo is clearly the expected answer, and the example usefully teaches the everyday phrase tener miedo.",
+  "note": "El temor also means fear, but it is more formal and much less common, so el miedo is clearly the everyday answer, and the example nicely teaches the key phrase tener miedo (to be afraid).",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:06:50.447Z"
+  "reviewedAt": "2026-10-09T14:27:10.444Z"
 }

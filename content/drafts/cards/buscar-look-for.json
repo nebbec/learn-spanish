@@ -1,0 +1,28 @@
+{
+  "id": "buscar-look-for",
+  "rank": 148,
+  "kind": "content",
+  "pos": "verb",
+  "es": "buscar",
+  "en": "to look for",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "busco",
+      "tu": "buscas",
+      "el": "busca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Estoy buscando mis llaves.",
+    "en": "I'm looking for my keys."
+  },
+  "spain": null,
+  "trick": "BUSCAR sounds like \"bus car\": you look for your lost bag on every bus and car.",
+  "image": "/deck/img/buscar-look-for.webp",
+  "audio": {
+    "word": "/deck/audio/buscar-look-for.word.mp3",
+    "sentence": "/deck/audio/buscar-look-for.sentence.mp3"
+  }
+}

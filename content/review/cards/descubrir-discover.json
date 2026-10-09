@@ -1,0 +1,17 @@
+{
+  "id": "descubrir-discover",
+  "rank": 466,
+  "word": "descubrir",
+  "draft": "4317ba63579742a2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to discover, to find out, to uncover",
+    "example": "I found out that my brother has a girlfriend."
+  },
+  "note": "Irregular is correctly false because the present and preterite are regular, but the past participle is irregular (descubierto), which the editor may want to mention somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:24.997Z"
+}

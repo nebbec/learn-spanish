@@ -1,0 +1,17 @@
+{
+  "id": "pueblo-town",
+  "rank": 494,
+  "word": "pueblo",
+  "draft": "dd487b030efecedf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "town, village (also: a people, a nation)",
+    "example": "My grandmother lives in a small town/village."
+  },
+  "note": "The hint \"small town or village\" rules out ciudad and separates this card from the \"the people\" card, and pueblo is the everyday word here, well ahead of aldea.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:36.081Z"
+}

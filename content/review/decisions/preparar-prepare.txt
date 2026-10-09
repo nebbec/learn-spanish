@@ -1,0 +1,33 @@
+# preparar-prepare · rank 308 · preparar
+#
+# Why it was flagged:
+#   - Memory trick: Adding -ar to 'prepare' gives 'preparear', so the trick could teach a misspelling; preparar swaps the final e for -ar. Suggested fix: trick: PREPARAR is just prepare with its final e swapped for -ar (prepar-AR), and you're ready to go.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to trick.
+decision: pending
+
+id:         preparar-prepare
+kind:       content
+pos:        verb
+es:         preparar
+en:         to prepare
+hint:
+yo:         preparo
+tu:         preparas
+el:         prepara
+irregular:  no
+example.es: Mi mamá prepara la cena todos los días.
+example.en: My mom prepares dinner every day.
+spain:
+trick:      PREPARAR is just prepare with its final e swapped for -ar (prepar-AR), and you're ready to go.
+
+# The draft this file was made from. Do not change it.
+draft: d0601ea8d272af7d

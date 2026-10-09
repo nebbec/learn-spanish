@@ -1,0 +1,23 @@
+{
+  "id": "amable-kind",
+  "rank": 721,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "amable",
+  "en": "kind",
+  "hint": null,
+  "grammar": {
+    "feminine": "amable"
+  },
+  "example": {
+    "es": "Eres muy amable, gracias por tu ayuda.",
+    "en": "You're very kind, thanks for your help."
+  },
+  "spain": null,
+  "trick": "AMABLE sounds like amiable: a kind person is amiable and easy to love.",
+  "image": "/deck/img/amable-kind.webp",
+  "audio": {
+    "word": "/deck/audio/amable-kind.word.mp3",
+    "sentence": "/deck/audio/amable-kind.sentence.mp3"
+  }
+}

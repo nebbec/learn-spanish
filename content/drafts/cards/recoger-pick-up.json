@@ -1,0 +1,28 @@
+{
+  "id": "recoger-pick-up",
+  "rank": 615,
+  "kind": "content",
+  "pos": "verb",
+  "es": "recoger",
+  "en": "to pick up",
+  "hint": "collect someone or something",
+  "grammar": {
+    "present": {
+      "yo": "recojo",
+      "tu": "recoges",
+      "el": "recoge"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te recojo en la escuela a las tres.",
+    "en": "I'll pick you up at school at three."
+  },
+  "spain": null,
+  "trick": "RECOGER sounds like 're-collect': you go back to collect, or pick up, the kids after school.",
+  "image": "/deck/img/recoger-pick-up.webp",
+  "audio": {
+    "word": "/deck/audio/recoger-pick-up.word.mp3",
+    "sentence": "/deck/audio/recoger-pick-up.sentence.mp3"
+  }
+}

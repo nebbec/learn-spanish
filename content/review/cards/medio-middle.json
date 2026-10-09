@@ -1,0 +1,17 @@
+{
+  "id": "medio-middle",
+  "rank": 282,
+  "word": "medio",
+  "draft": "9a6bed608188fa0e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the middle (noun); it can also mean a means or a medium",
+    "example": "The dog is in the middle of the street."
+  },
+  "note": "Some learners may answer \"el centro\" (centre) or the regional \"la mitad\" (as in \"en la mitad de la calle\"); if that becomes a problem, the hint could add \"(not centro)\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:35.364Z"
+}

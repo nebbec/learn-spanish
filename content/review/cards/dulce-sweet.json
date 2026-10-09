@@ -1,0 +1,17 @@
+{
+  "id": "dulce-sweet",
+  "rank": 639,
+  "word": "dulce",
+  "draft": "dda3cd4afeb69f4d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sweet (adjective; also gentle, kind)",
+    "example": "This cake is very sweet."
+  },
+  "note": "Dulce has the same form for masculine and feminine. The adjective prompt \"sweet\" doesn't clash with the noun card \"candy\" (el dulce).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:32.848Z"
+}

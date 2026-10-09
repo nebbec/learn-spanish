@@ -1,0 +1,24 @@
+{
+  "id": "camino-path-way",
+  "rank": 270,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el camino",
+  "en": "path, way",
+  "hint": "the route you travel, not a manner",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Ya estamos en camino.",
+    "en": "We're already on our way."
+  },
+  "spain": null,
+  "trick": "CAMINO sounds like came in, oh: you came in by this path, the only way through the woods.",
+  "image": "/deck/img/camino-path-way.webp",
+  "audio": {
+    "word": "/deck/audio/camino-path-way.word.mp3",
+    "sentence": "/deck/audio/camino-path-way.sentence.mp3"
+  }
+}

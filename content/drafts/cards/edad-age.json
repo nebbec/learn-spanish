@@ -1,0 +1,24 @@
+{
+  "id": "edad-age",
+  "rank": 626,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la edad",
+  "en": "age",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Qué edad tiene tu hermano?",
+    "en": "How old is your brother?"
+  },
+  "spain": null,
+  "trick": "EDAD sounds like \"a dad\": you can tell a dad's age by his gray hair.",
+  "image": "/deck/img/edad-age.webp",
+  "audio": {
+    "word": "/deck/audio/edad-age.word.mp3",
+    "sentence": "/deck/audio/edad-age.sentence.mp3"
+  }
+}

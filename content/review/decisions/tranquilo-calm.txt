@@ -1,0 +1,30 @@
+# tranquilo-calm · rank 467 · tranquilo
+#
+# Why it was flagged:
+#   - One right answer: With no hint, the bare prompt 'calm' also allows calmado, a common Latin American adjective, so the learner cannot tell which word is wanted. Suggested fix: hint: the everyday word, also said on its own to mean 'Relax!'
+# Reviewer's note (not a reason to flag): The example uses the feminine form tranquila said on its own as a reassurance, which is natural and fine, but the editor may want to note that it shows the feminine form, not es.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         tranquilo-calm
+kind:       content
+pos:        adjective
+es:         tranquilo
+en:         calm
+hint:
+feminine:   tranquila
+example.es: Tranquila, todo va a estar bien.
+example.en: Stay calm, everything is going to be fine.
+spain:
+trick:      TRANQUILO sounds like tranquil: a tranquil lake is perfectly calm.
+
+# The draft this file was made from. Do not change it.
+draft: c2cb252d63adcbbb

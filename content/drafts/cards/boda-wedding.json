@@ -1,0 +1,24 @@
+{
+  "id": "boda-wedding",
+  "rank": 653,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la boda",
+  "en": "wedding",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "La boda de mi hermana es en junio.",
+    "en": "My sister's wedding is in June."
+  },
+  "spain": null,
+  "trick": "BODA sounds like \"bod-a\": everyone shows off their best bod at a wedding.",
+  "image": "/deck/img/boda-wedding.webp",
+  "audio": {
+    "word": "/deck/audio/boda-wedding.word.mp3",
+    "sentence": "/deck/audio/boda-wedding.sentence.mp3"
+  }
+}

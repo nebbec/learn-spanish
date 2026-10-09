@@ -1,0 +1,24 @@
+{
+  "id": "vuelta-return",
+  "rank": 375,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la vuelta",
+  "en": "return",
+  "hint": "the trip back; de ... = back",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¡Qué bueno que estás de vuelta!",
+    "en": "It's so good that you're back!"
+  },
+  "spain": null,
+  "trick": "VUELTA sounds like volver's daughter: whoever goes out comes back on the return trip.",
+  "image": "/deck/img/vuelta-return.webp",
+  "audio": {
+    "word": "/deck/audio/vuelta-return.word.mp3",
+    "sentence": "/deck/audio/vuelta-return.sentence.mp3"
+  }
+}

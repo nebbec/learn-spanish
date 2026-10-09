@@ -1,0 +1,23 @@
+{
+  "id": "soler-usually",
+  "rank": 587,
+  "word": "soler",
+  "draft": "b9952924a793ec3d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "The 'used to' gloss is wrong for the verb as a whole: it only matches the imperfect solía, while suelo means 'I usually', not 'I used to', so learners would mix up the tenses.",
+      "fix": "en: to usually (do)"
+    }
+  ],
+  "back": {
+    "es": "soler = to usually (do something), to tend to, to be in the habit of (followed by an infinitive); only its imperfect forms (solía) mean 'used to'.",
+    "example": "I used to live near the beach."
+  },
+  "note": "The past example is correct, but a present-tense one such as 'Suelo desayunar en casa. / I usually have breakfast at home.' would better show the core 'usually' meaning, and the trick's 'used to' wording could be cut along with the gloss.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:20.808Z"
+}

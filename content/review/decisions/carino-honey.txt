@@ -1,0 +1,32 @@
+# carino-honey · rank 262 · cariño
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out miel, but other common pet names still fit, especially mi amor, amor, corazón, cielo and mi vida, and mi amor is at least as common as cariño in Latin America. Suggested fix: hint: what you call a loved one, the same word that means affection (not amor, cielo or corazón)
+# Reviewer's note (not a reason to flag): Linking this card's hint to the affection card helps the learner see that it is one word with two uses; when cariño is used to address someone, as in the example, it takes no article.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint, and also ruled out mi vida.
+decision: pending
+
+id:         carino-honey
+kind:       content
+pos:        noun
+es:         el cariño
+en:         honey
+hint:       what you call a loved one, the same word that means affection (not amor, cielo, corazón or mi vida)
+gender:     m
+article:    el
+example.es: Cariño, ya llegué a casa.
+example.en: Honey, I'm home.
+spain:
+trick:      CARIÑO sounds like "carry no": honey, I'll carry you, no problem.
+
+# The draft this file was made from. Do not change it.
+draft: ff8ccec561abeb49

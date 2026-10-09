@@ -1,0 +1,34 @@
+# parar-stand-up · rank 325 · parar
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out levantarse but not ponerse de pie, which is also common in Latin America and also means 'to get on your feet', so two answers still fit. Suggested fix: hint: the everyday Latin American verb, not levantarse or ponerse de pie
+# Reviewer's note (not a reason to flag): In Spain the everyday word for standing up is levantarse more than ponerse de pie, so the editor could use "levantarse" in the spain field instead, though either is correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint, keeping 'get on your feet' so the meaning stays clear.
+decision: pending
+
+id:         parar-stand-up
+kind:       content
+pos:        verb
+es:         pararse
+en:         to stand up
+hint:       get on your feet; the everyday Latin American verb, not levantarse or ponerse de pie
+yo:         me paro
+tu:         te paras
+el:         se para
+irregular:  no
+example.es: Párate, ya llegó la maestra.
+example.en: Stand up, the teacher is here.
+spain:      ponerse de pie
+trick:      PARARSE sounds like 'para-rise': a paratrooper rises to his feet after landing.
+
+# The draft this file was made from. Do not change it.
+draft: f22277d148a98ff2

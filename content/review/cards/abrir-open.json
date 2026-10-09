@@ -1,0 +1,17 @@
+{
+  "id": "abrir-open",
+  "rank": 286,
+  "word": "abrir",
+  "draft": "3e4b325a1a4a323b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to open",
+    "example": "Will you open the door for me, please?"
+  },
+  "note": "The irregular flag is correctly false because abrir is regular in the present and preterite, but its past participle (abierto) is irregular, which may be worth teaching later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:51.637Z"
+}

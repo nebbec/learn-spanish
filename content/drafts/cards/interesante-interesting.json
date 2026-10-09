@@ -1,0 +1,23 @@
+{
+  "id": "interesante-interesting",
+  "rank": 696,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "interesante",
+  "en": "interesting",
+  "hint": null,
+  "grammar": {
+    "feminine": "interesante"
+  },
+  "example": {
+    "es": "Qué libro tan interesante.",
+    "en": "What an interesting book."
+  },
+  "spain": null,
+  "trick": "INTERESANTE sounds like interesting plus 'aunty': your aunty always tells the most interesting stories.",
+  "image": "/deck/img/interesante-interesting.webp",
+  "audio": {
+    "word": "/deck/audio/interesante-interesting.word.mp3",
+    "sentence": "/deck/audio/interesante-interesting.sentence.mp3"
+  }
+}

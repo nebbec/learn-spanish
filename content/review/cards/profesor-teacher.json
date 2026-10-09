@@ -1,0 +1,17 @@
+{
+  "id": "profesor-teacher",
+  "rank": 584,
+  "word": "profesor",
+  "draft": "fe98d9d6f484875a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "teacher (secondary school or university), professor",
+    "example": "My history teacher is very fun."
+  },
+  "note": "The hint correctly rules out maestro (the usual word for a primary school teacher), and the editor might also mention the feminine form, la profesora, somewhere for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:01.188Z"
+}

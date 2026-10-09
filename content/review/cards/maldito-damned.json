@@ -1,0 +1,17 @@
+{
+  "id": "maldito-damned",
+  "rank": 252,
+  "word": "maldito",
+  "draft": "0906414216ec25d6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "damned, cursed (adjective; also used as an intensifier, like 'damn')",
+    "example": "This damned car won't start!"
+  },
+  "note": "The hint \"cursed\" usefully rules out condenado; carro is the Latin American word for car (Spain would say coche), but that only affects the example, not the spain field for maldito.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:14.323Z"
+}

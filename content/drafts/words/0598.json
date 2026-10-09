@@ -1,0 +1,12 @@
+{
+  "rank": 598,
+  "word": "caballo",
+  "cards": [
+    "caballo-horse"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:39:38.877Z"
+}

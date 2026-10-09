@@ -1,0 +1,17 @@
+{
+  "id": "tuyo-yours",
+  "rank": 381,
+  "word": "tuyo",
+  "draft": "8694e79ef36a5232",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "yours (informal singular, masculine singular possessive: belonging to you)",
+    "example": "Is this cell phone yours?"
+  },
+  "note": "The hint is needed to rule out suyo and de usted, and the masculine noun libro makes tuyo (not tuya) the only answer; the editor could mention tuya, tuyos and tuyas elsewhere, since learners will meet them.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:46.291Z"
+}

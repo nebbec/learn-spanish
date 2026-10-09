@@ -1,0 +1,23 @@
+{
+  "id": "adelante-come-in",
+  "rank": 332,
+  "word": "adelante",
+  "draft": "532017070536bc42",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'one word, said as an invitation' does not rule out the very common one-word verb answers ¡Pasa! (come in) and ¡Dale! (go ahead), which a fluent speaker could easily give instead.",
+      "fix": "hint: one word, not a verb (not pasa or dale); the same word that means 'forward'"
+    }
+  ],
+  "back": {
+    "es": "come in!, go ahead!, forward! (interjection inviting someone to enter or proceed)",
+    "example": "Come in, the door is open!"
+  },
+  "note": "In everyday Latin American speech, ¡Pasa! is probably more common than ¡Adelante! for 'come in', so the hint needs to point the learner clearly to adelante.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:02.775Z"
+}

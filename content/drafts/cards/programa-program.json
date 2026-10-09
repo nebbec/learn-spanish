@@ -1,0 +1,24 @@
+{
+  "id": "programa-program",
+  "rank": 687,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el programa",
+  "en": "program",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi programa favorito empieza a las ocho.",
+    "en": "My favorite show starts at eight."
+  },
+  "spain": null,
+  "trick": "PROGRAMA sounds like program plus a grandma: Grandma never misses her TV program.",
+  "image": "/deck/img/programa-program.webp",
+  "audio": {
+    "word": "/deck/audio/programa-program.word.mp3",
+    "sentence": "/deck/audio/programa-program.sentence.mp3"
+  }
+}

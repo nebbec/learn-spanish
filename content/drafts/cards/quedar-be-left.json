@@ -1,0 +1,28 @@
+{
+  "id": "quedar-be-left",
+  "rank": 117,
+  "kind": "content",
+  "pos": "verb",
+  "es": "quedar",
+  "en": "to be left",
+  "hint": "remaining, still there",
+  "grammar": {
+    "present": {
+      "yo": "quedo",
+      "tu": "quedas",
+      "el": "queda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Solo queda un minuto.",
+    "en": "There's only one minute left."
+  },
+  "spain": null,
+  "trick": "QUEDAR sounds like 'Keep it there': whatever you keep there is what's left.",
+  "image": "/deck/img/quedar-be-left.webp",
+  "audio": {
+    "word": "/deck/audio/quedar-be-left.word.mp3",
+    "sentence": "/deck/audio/quedar-be-left.sentence.mp3"
+  }
+}

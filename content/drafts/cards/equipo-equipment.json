@@ -1,0 +1,24 @@
+{
+  "id": "equipo-equipment",
+  "rank": 318,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el equipo",
+  "en": "equipment",
+  "hint": "gear, kit",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Necesito mi equipo para bucear.",
+    "en": "I need my diving equipment."
+  },
+  "spain": null,
+  "trick": "EQUIPO looks like 'equip': it's what you equip yourself with before the job.",
+  "image": "/deck/img/equipo-equipment.webp",
+  "audio": {
+    "word": "/deck/audio/equipo-equipment.word.mp3",
+    "sentence": "/deck/audio/equipo-equipment.sentence.mp3"
+  }
+}

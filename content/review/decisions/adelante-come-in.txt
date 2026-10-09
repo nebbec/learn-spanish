@@ -1,0 +1,30 @@
+# adelante-come-in · rank 332 · adelante
+#
+# Why it was flagged:
+#   - One right answer: The hint 'one word, said as an invitation' does not rule out the very common one-word verb answers ¡Pasa! (come in) and ¡Dale! (go ahead), which a fluent speaker could easily give instead. Suggested fix: hint: one word, not a verb (not pasa or dale); the same word that means 'forward'
+# Reviewer's note (not a reason to flag): In everyday Latin American speech, ¡Pasa! is probably more common than ¡Adelante! for 'come in', so the hint needs to point the learner clearly to adelante.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint, slightly shortened.
+decision: pending
+
+id:         adelante-come-in
+kind:       content
+pos:        other
+es:         adelante
+en:         come in! go ahead!
+hint:       one word, not a verb like pasa or dale; also means forward
+example.es: ¡Adelante, la puerta está abierta!
+example.en: Come in, the door is open!
+spain:
+trick:      Someone knocks at the deli and the ant waves: ADELANTE, a deli ant saying come in, go ahead!
+
+# The draft this file was made from. Do not change it.
+draft: 532017070536bc42

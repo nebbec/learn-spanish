@@ -1,0 +1,17 @@
+{
+  "id": "probar-try",
+  "rank": 374,
+  "word": "probar",
+  "draft": "fd9a721a71a1be5d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to try (out), to test; also to taste",
+    "example": "Why don't you try the key again?"
+  },
+  "note": "The hint rules out intentar and tratar de, which mean \"attempt\", and it keeps this card apart from the \"to taste\" card; \"¿Por qué no pruebas la llave otra vez?\" is a slightly more usual word order, but the current one is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:03.855Z"
+}

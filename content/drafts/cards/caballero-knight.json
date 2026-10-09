@@ -1,0 +1,24 @@
+{
+  "id": "caballero-knight",
+  "rank": 519,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el caballero",
+  "en": "knight",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El caballero salvó a la princesa.",
+    "en": "The knight saved the princess."
+  },
+  "spain": null,
+  "trick": "CABALLERO comes from caballo, horse: a knight is the man who rides the horse.",
+  "image": "/deck/img/caballero-knight.webp",
+  "audio": {
+    "word": "/deck/audio/caballero-knight.word.mp3",
+    "sentence": "/deck/audio/caballero-knight.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "demas-the-others",
+  "rank": 565,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "demás",
+  "en": "don't worry about [the others]",
+  "hint": "the rest of the people, used after los; not otros",
+  "grammar": null,
+  "example": {
+    "es": "No te preocupes por los demás.",
+    "en": "Don't worry about the others."
+  },
+  "spain": null,
+  "trick": "DEMÁS sounds like the mass: the whole mass of everyone else, the rest of them.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/demas-the-others.word.mp3",
+    "sentence": "/deck/audio/demas-the-others.sentence.mp3"
+  }
+}

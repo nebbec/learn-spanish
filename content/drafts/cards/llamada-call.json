@@ -1,0 +1,24 @@
+{
+  "id": "llamada-call",
+  "rank": 454,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la llamada",
+  "en": "call",
+  "hint": "phone call",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tengo una llamada de mi mamá.",
+    "en": "I have a call from my mom."
+  },
+  "spain": null,
+  "trick": "LLAMADA sounds like \"yah, Mada?\": what you say when you answer a phone call.",
+  "image": "/deck/img/llamada-call.webp",
+  "audio": {
+    "word": "/deck/audio/llamada-call.word.mp3",
+    "sentence": "/deck/audio/llamada-call.sentence.mp3"
+  }
+}

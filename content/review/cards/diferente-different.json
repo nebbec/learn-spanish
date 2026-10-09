@@ -1,0 +1,23 @@
+{
+  "id": "diferente-different",
+  "rank": 439,
+  "word": "diferente",
+  "draft": "4647bab4b4647fe6",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Saying that adding \"ay\" to \"different\" gives you the word suggests the spelling \"differente\" with a double f and an \"ay\" ending, but the Spanish has one f and ends in a short \"eh\" sound.",
+      "fix": "trick: DIFERENTE is just \"different\" with one f dropped and an \"eh\" added at the end: dee-feh-REN-teh."
+    }
+  ],
+  "back": {
+    "es": "different",
+    "example": "This city is very different from mine."
+  },
+  "note": "The hint is needed because distinto is also a common right answer, and it correctly rules distinto out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:32.518Z"
+}

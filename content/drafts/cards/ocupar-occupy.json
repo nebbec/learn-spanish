@@ -1,0 +1,28 @@
+{
+  "id": "ocupar-occupy",
+  "rank": 692,
+  "kind": "content",
+  "pos": "verb",
+  "es": "ocupar",
+  "en": "to occupy",
+  "hint": "take up space, time or a place",
+  "grammar": {
+    "present": {
+      "yo": "ocupo",
+      "tu": "ocupas",
+      "el": "ocupa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Esta mesa ocupa mucho espacio.",
+    "en": "This table takes up a lot of space."
+  },
+  "spain": null,
+  "trick": "OCUPAR sounds like 'occupy': the giant couch occupies the whole room.",
+  "image": "/deck/img/ocupar-occupy.webp",
+  "audio": {
+    "word": "/deck/audio/ocupar-occupy.word.mp3",
+    "sentence": "/deck/audio/ocupar-occupy.sentence.mp3"
+  }
+}

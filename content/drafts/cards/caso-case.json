@@ -1,0 +1,24 @@
+{
+  "id": "caso-case",
+  "rank": 248,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el caso",
+  "en": "case",
+  "hint": "situation or investigation, not a container",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El detective resolvió el caso.",
+    "en": "The detective solved the case."
+  },
+  "spain": null,
+  "trick": "CASO sounds like case-o: every detective's favorite word is case-o, the case to crack.",
+  "image": "/deck/img/caso-case.webp",
+  "audio": {
+    "word": "/deck/audio/caso-case.word.mp3",
+    "sentence": "/deck/audio/caso-case.sentence.mp3"
+  }
+}

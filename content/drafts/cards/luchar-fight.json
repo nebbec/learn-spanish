@@ -1,0 +1,28 @@
+{
+  "id": "luchar-fight",
+  "rank": 593,
+  "kind": "content",
+  "pos": "verb",
+  "es": "luchar",
+  "en": "to fight",
+  "hint": "struggle, fight for something",
+  "grammar": {
+    "present": {
+      "yo": "lucho",
+      "tu": "luchas",
+      "el": "lucha"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Siempre luchamos por nuestra familia.",
+    "en": "We always fight for our family."
+  },
+  "spain": null,
+  "trick": "LUCHAR sounds like \"loose char\": a loose character who throws punches and fights everyone.",
+  "image": "/deck/img/luchar-fight.webp",
+  "audio": {
+    "word": "/deck/audio/luchar-fight.word.mp3",
+    "sentence": "/deck/audio/luchar-fight.sentence.mp3"
+  }
+}

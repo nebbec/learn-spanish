@@ -1,0 +1,14 @@
+{
+  "rank": 118,
+  "word": "sobre",
+  "cards": [
+    "sobre-about",
+    "sobre-on-over",
+    "sobre-envelope"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:16:57.758Z"
+}

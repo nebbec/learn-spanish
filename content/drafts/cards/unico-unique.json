@@ -1,0 +1,23 @@
+{
+  "id": "unico-unique",
+  "rank": 222,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "único",
+  "en": "unique",
+  "hint": null,
+  "grammar": {
+    "feminine": "única"
+  },
+  "example": {
+    "es": "Tu abuela tiene un estilo único.",
+    "en": "Your grandma has a unique style."
+  },
+  "spain": null,
+  "trick": "ÚNICO sounds like \"unique-o\": just say unique with an O on the end.",
+  "image": "/deck/img/unico-unique.webp",
+  "audio": {
+    "word": "/deck/audio/unico-unique.word.mp3",
+    "sentence": "/deck/audio/unico-unique.sentence.mp3"
+  }
+}

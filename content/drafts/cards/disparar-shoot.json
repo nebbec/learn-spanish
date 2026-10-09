@@ -1,0 +1,28 @@
+{
+  "id": "disparar-shoot",
+  "rank": 328,
+  "kind": "content",
+  "pos": "verb",
+  "es": "disparar",
+  "en": "to shoot",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "disparo",
+      "tu": "disparas",
+      "el": "dispara"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡No dispares! Somos amigos.",
+    "en": "Don't shoot! We're friends."
+  },
+  "spain": null,
+  "trick": "DISPARAR sounds like \"this par\": he shoots this par of bottles off the fence.",
+  "image": "/deck/img/disparar-shoot.webp",
+  "audio": {
+    "word": "/deck/audio/disparar-shoot.word.mp3",
+    "sentence": "/deck/audio/disparar-shoot.sentence.mp3"
+  }
+}

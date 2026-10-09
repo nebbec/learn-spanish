@@ -1,0 +1,17 @@
+{
+  "id": "segundo-second-ordinal",
+  "rank": 213,
+  "word": "segundo",
+  "draft": "95ff37183f3e1407",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "second (ordinal adjective: coming after the first)",
+    "example": "It's the second time you call today."
+  },
+  "note": "The hint \"in order, 2nd\" is needed here because it separates this adjective card from the noun card for the unit of time (\"el segundo\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:41.917Z"
+}

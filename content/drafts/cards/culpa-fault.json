@@ -1,0 +1,24 @@
+{
+  "id": "culpa-fault",
+  "rank": 400,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la culpa",
+  "en": "fault",
+  "hint": "blame, guilt",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "No es mi culpa.",
+    "en": "It's not my fault."
+  },
+  "spain": null,
+  "trick": "CULPA sounds like culprit: the culprit is the one whose fault it is.",
+  "image": "/deck/img/culpa-fault.webp",
+  "audio": {
+    "word": "/deck/audio/culpa-fault.word.mp3",
+    "sentence": "/deck/audio/culpa-fault.sentence.mp3"
+  }
+}

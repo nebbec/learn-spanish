@@ -1,0 +1,29 @@
+# demas-the-others · rank 565 · demás
+#
+# Why it was flagged:
+#   - Meaning: The brackets cover 'the others', but the answer is only demás, and 'the' is the separate word los, so a learner would memorize demás as meaning 'the others'. Suggested fix: en: don't worry about the [others]
+# Reviewer's note (not a reason to flag): The hint is needed and works: it rules out otros and makes clear that the answer is the word after los.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         demas-the-others
+kind:       glue
+pos:        pronoun
+es:         demás
+en:         don't worry about [the others]
+hint:       the rest of the people, used after los; not otros
+example.es: No te preocupes por los demás.
+example.en: Don't worry about the others.
+spain:
+trick:      DEMÁS sounds like the mass: the whole mass of everyone else, the rest of them.
+
+# The draft this file was made from. Do not change it.
+draft: f6e8ee6b49d55e85

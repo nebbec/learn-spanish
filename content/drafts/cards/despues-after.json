@@ -1,0 +1,21 @@
+{
+  "id": "despues-after",
+  "rank": 158,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "después",
+  "en": "after, afterwards",
+  "hint": "not luego; with de before a noun",
+  "grammar": null,
+  "example": {
+    "es": "Te llamo después de la cena.",
+    "en": "I'll call you after dinner."
+  },
+  "spain": null,
+  "trick": "DESPUÉS sounds like \"des-PACE\": after the race is over, you finally slow your pace.",
+  "image": "/deck/img/despues-after.webp",
+  "audio": {
+    "word": "/deck/audio/despues-after.word.mp3",
+    "sentence": "/deck/audio/despues-after.sentence.mp3"
+  }
+}

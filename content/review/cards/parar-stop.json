@@ -1,0 +1,17 @@
+{
+  "id": "parar-stop",
+  "rank": 325,
+  "word": "parar",
+  "draft": "db8a3421376916a7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to stop (to halt, or to make something halt)",
+    "example": "Stop the car, please!"
+  },
+  "note": "The example uses the tú command \"para\", which looks the same as the preposition \"para\", and in Spain \"¡Para el carro!\" is also an idiom for \"hold your horses\"; a sentence like \"El bus para aquí.\" would avoid both possible confusions, though the current one is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:12.937Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hecho-fact",
+  "rank": 322,
+  "word": "hecho",
+  "draft": "28ed2594d2777321",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el hecho = the fact (also: event, deed)",
+    "example": "The fact is that you didn't call me."
+  },
+  "note": "Much of hecho's frequency in subtitles comes from its use as the past participle of hacer (he hecho, ¿qué has hecho?) and from de hecho, so since this is the word's only card, the editor may want to make sure the participle is taught on the hacer card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:03.740Z"
+}

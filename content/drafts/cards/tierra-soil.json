@@ -1,0 +1,24 @@
+{
+  "id": "tierra-soil",
+  "rank": 334,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la tierra",
+  "en": "soil",
+  "hint": "dirt on the ground, also planet Earth",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tus zapatos tienen tierra.",
+    "en": "Your shoes have dirt on them."
+  },
+  "spain": null,
+  "trick": "TIERRA sounds like terra cotta: pots made from baked soil.",
+  "image": "/deck/img/tierra-soil.webp",
+  "audio": {
+    "word": "/deck/audio/tierra-soil.word.mp3",
+    "sentence": "/deck/audio/tierra-soil.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "lograr-achieve",
+  "rank": 550,
+  "word": "lograr",
+  "draft": "31eb885e7d34dfb7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to achieve, to manage to, to succeed in (doing something)",
+    "example": "We finally achieved it! / We finally pulled it off!"
+  },
+  "note": "The hint's \"manage to, pull off\" rules out alcanzar, and \"not conseguir\" rules out the other main synonym, so the answer can only be lograr.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:27.729Z"
+}

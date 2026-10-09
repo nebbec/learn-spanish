@@ -1,0 +1,24 @@
+{
+  "id": "mitad-half",
+  "rank": 665,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la mitad",
+  "en": "half",
+  "hint": "noun: a half of something",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Dame la mitad de tu sándwich.",
+    "en": "Give me half of your sandwich."
+  },
+  "spain": null,
+  "trick": "MITAD sounds like \"mid-ad\": cut right through the middle of an ad and you get two halves.",
+  "image": "/deck/img/mitad-half.webp",
+  "audio": {
+    "word": "/deck/audio/mitad-half.word.mp3",
+    "sentence": "/deck/audio/mitad-half.sentence.mp3"
+  }
+}

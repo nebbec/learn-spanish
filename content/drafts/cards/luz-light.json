@@ -1,0 +1,24 @@
+{
+  "id": "luz-light",
+  "rank": 393,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la luz",
+  "en": "light",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Apaga la luz, por favor.",
+    "en": "Turn off the light, please."
+  },
+  "spain": null,
+  "trick": "LUZ sounds like \"Lucy\": Lucy always flips on the light when she walks in.",
+  "image": "/deck/img/luz-light.webp",
+  "audio": {
+    "word": "/deck/audio/luz-light.word.mp3",
+    "sentence": "/deck/audio/luz-light.sentence.mp3"
+  }
+}

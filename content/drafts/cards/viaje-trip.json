@@ -1,0 +1,24 @@
+{
+  "id": "viaje-trip",
+  "rank": 521,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el viaje",
+  "en": "trip",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "¿Qué tal tu viaje a México?",
+    "en": "How was your trip to Mexico?"
+  },
+  "spain": null,
+  "trick": "VIAJE sounds like via: a trip takes you via many places.",
+  "image": "/deck/img/viaje-trip.webp",
+  "audio": {
+    "word": "/deck/audio/viaje-trip.word.mp3",
+    "sentence": "/deck/audio/viaje-trip.sentence.mp3"
+  }
+}

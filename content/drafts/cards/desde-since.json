@@ -1,0 +1,21 @@
+{
+  "id": "desde-since",
+  "rank": 160,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "desde",
+  "en": "I have lived here [since] 2015",
+  "hint": "time, not cause",
+  "grammar": null,
+  "example": {
+    "es": "No como nada desde ayer.",
+    "en": "I haven't eaten anything since yesterday."
+  },
+  "spain": null,
+  "trick": "DESDE sounds like \"this day\": since this day, everything changed.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/desde-since.word.mp3",
+    "sentence": "/deck/audio/desde-since.sentence.mp3"
+  }
+}

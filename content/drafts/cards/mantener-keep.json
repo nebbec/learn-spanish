@@ -1,0 +1,28 @@
+{
+  "id": "mantener-keep",
+  "rank": 264,
+  "kind": "content",
+  "pos": "verb",
+  "es": "mantener",
+  "en": "to keep",
+  "hint": "maintain, keep up; not store away",
+  "grammar": {
+    "present": {
+      "yo": "mantengo",
+      "tu": "mantienes",
+      "el": "mantiene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mantén la calma, todo va a estar bien.",
+    "en": "Keep calm, everything is going to be fine."
+  },
+  "spain": null,
+  "trick": "MANTENER sounds like \"man, ten in here\": a man keeps ten people in line by maintaining order.",
+  "image": "/deck/img/mantener-keep.webp",
+  "audio": {
+    "word": "/deck/audio/mantener-keep.word.mp3",
+    "sentence": "/deck/audio/mantener-keep.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "novio-groom",
+  "rank": 357,
+  "word": "novio",
+  "draft": "c135f6c02287cfee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el novio: boyfriend; bridegroom (groom); fiancé",
+    "example": "The groom arrived late to the wedding."
+  },
+  "note": "The hint \"at a wedding\" is needed: it rules out the other meaning of groom, someone who looks after horses (mozo de cuadra), and it keeps this card apart from the \"boyfriend\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:42.649Z"
+}

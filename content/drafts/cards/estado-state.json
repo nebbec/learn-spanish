@@ -1,0 +1,24 @@
+{
+  "id": "estado-state",
+  "rank": 741,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el estado",
+  "en": "state",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi tía vive en otro estado.",
+    "en": "My aunt lives in another state."
+  },
+  "spain": null,
+  "trick": "ESTADO sounds like a big ESTATE: a state is just a huge estate with its own government.",
+  "image": "/deck/img/estado-state.webp",
+  "audio": {
+    "word": "/deck/audio/estado-state.word.mp3",
+    "sentence": "/deck/audio/estado-state.sentence.mp3"
+  }
+}

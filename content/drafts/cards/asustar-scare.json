@@ -1,0 +1,28 @@
+{
+  "id": "asustar-scare",
+  "rank": 677,
+  "kind": "content",
+  "pos": "verb",
+  "es": "asustar",
+  "en": "to scare",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "asusto",
+      "tu": "asustas",
+      "el": "asusta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Ay, me asustaste!",
+    "en": "Oh, you scared me!"
+  },
+  "spain": null,
+  "trick": "ASUSTAR sounds like a SUSpense STAR: horror movie stars exist to scare you.",
+  "image": "/deck/img/asustar-scare.webp",
+  "audio": {
+    "word": "/deck/audio/asustar-scare.word.mp3",
+    "sentence": "/deck/audio/asustar-scare.sentence.mp3"
+  }
+}

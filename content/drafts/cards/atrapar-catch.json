@@ -1,0 +1,28 @@
+{
+  "id": "atrapar-catch",
+  "rank": 484,
+  "kind": "content",
+  "pos": "verb",
+  "es": "atrapar",
+  "en": "to catch",
+  "hint": "trap, capture",
+  "grammar": {
+    "present": {
+      "yo": "atrapo",
+      "tu": "atrapas",
+      "el": "atrapa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "La policía atrapó al ladrón anoche.",
+    "en": "The police caught the thief last night."
+  },
+  "spain": null,
+  "trick": "ATRAPAR sounds like a trap: you catch someone by setting a trap.",
+  "image": "/deck/img/atrapar-catch.webp",
+  "audio": {
+    "word": "/deck/audio/atrapar-catch.word.mp3",
+    "sentence": "/deck/audio/atrapar-catch.sentence.mp3"
+  }
+}

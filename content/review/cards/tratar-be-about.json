@@ -1,0 +1,17 @@
+{
+  "id": "tratar-be-about",
+  "rank": 157,
+  "word": "tratar",
+  "draft": "5013e098c124fa68",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to treat; to try (tratar de + infinitive); to be about (tratar de/sobre, of a book, film or topic)",
+    "example": "What is the movie about?"
+  },
+  "note": "The hint \"a story or topic, with de\" points to tratar de and keeps this card apart from the \"to try\" and \"to treat\" cards; a learner might also think of the related tratarse de (\"se trata de\"), but that means \"it's a matter of\" and does not fit a story's topic as well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:44.461Z"
+}

@@ -1,0 +1,35 @@
+# casar-marry · rank 343 · casar
+#
+# Why it was flagged:
+#   - Meaning: Bare casar is transitive and means to wed a couple or to marry off, but the meaning a beginner needs and the one the hint and example use is casarse, to get married. Suggested fix: es: casarse; en: to get married
+#   - One right answer: The hint gives away casarse while the answer is casar, so it is unclear which form the learner should recall, and for 'to marry someone' a fluent speaker would answer casarse (con), not casar. Suggested fix: hint: null (with es: casarse, en: to get married), or hint: 'to marry someone = casarse con' if en stays 'to marry'
+# Reviewer's note (not a reason to flag): If es becomes casarse, the grammar strip should read me caso, te casas, se casa (still regular), and the example and trick can stay as they are.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix: es casarse, en to get married, hint removed, present strip made reflexive, trick starts with CASARSE; id left as is.
+decision: pending
+
+id:         casar-marry
+kind:       content
+pos:        verb
+es:         casarse
+en:         to get married
+hint:
+yo:         me caso
+tu:         te casas
+el:         se casa
+irregular:  no
+example.es: ¿Quieres casarte conmigo?
+example.en: Will you marry me?
+spain:
+trick:      CASARSE starts like casa, house: when you get married, you move into one house together.
+
+# The draft this file was made from. Do not change it.
+draft: 184de8127faf9161

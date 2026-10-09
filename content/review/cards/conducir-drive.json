@@ -1,0 +1,17 @@
+{
+  "id": "conducir-drive",
+  "rank": 574,
+  "word": "conducir",
+  "draft": "04db4a23b60d03c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to drive (a vehicle); also to lead or conduct",
+    "example": "My dad drives very fast."
+  },
+  "note": "The hint is needed because manejar is the usual everyday word for driving in most of Latin America; conducir is understood everywhere and is standard in set phrases like licencia de conducir, so the card is fine, but the editor may want a separate manejar card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:08.815Z"
+}

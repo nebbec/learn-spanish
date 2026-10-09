@@ -1,0 +1,17 @@
+{
+  "id": "nunca-never",
+  "rank": 99,
+  "word": "nunca",
+  "draft": "463662b6df0352b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "never",
+    "example": "I never eat meat."
+  },
+  "note": "The hint is useful because it rules out jamás, which is also a correct translation of never.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:13.258Z"
+}

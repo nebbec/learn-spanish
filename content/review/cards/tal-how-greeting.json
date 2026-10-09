@@ -1,0 +1,28 @@
+{
+  "id": "tal-how-greeting",
+  "rank": 151,
+  "word": "tal",
+  "draft": "78fd5dd3dde5dc1b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example has no conjugated verb.",
+      "fix": "example.es: Hola, ¿qué tal te fue en el trabajo? / example.en: Hi, how did it go at work?"
+    },
+    {
+      "reason": "trick",
+      "problem": "The trick says qué tal means 'tell me, how are you?', but neither qué nor tal means 'tell', so the learner would memorize a false meaning.",
+      "fix": "trick: Picture a friend shouting 'Qué TAL?' across the street and asking how TALL a day you've had, which is their way of asking how you are."
+    }
+  ],
+  "back": {
+    "es": "tal: such, so; in the set phrase qué tal: how (how are you, how's it going)",
+    "example": "Hi, how's your day?"
+  },
+  "note": "The hint is needed, since without 'after qué' the obvious answer would be cómo.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:57.041Z"
+}

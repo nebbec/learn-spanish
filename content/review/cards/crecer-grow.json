@@ -1,0 +1,17 @@
+{
+  "id": "crecer-grow",
+  "rank": 636,
+  "word": "crecer",
+  "draft": "9031d9f9e7bfb6a7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to grow (get bigger), to grow up",
+    "example": "I grew up in a small town."
+  },
+  "note": "The hint is needed: it rules out cultivar (to grow plants), and the trick works well because crescent comes from the same Latin root as crecer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:25.978Z"
+}

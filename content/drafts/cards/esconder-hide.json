@@ -1,0 +1,28 @@
+{
+  "id": "esconder-hide",
+  "rank": 525,
+  "kind": "content",
+  "pos": "verb",
+  "es": "esconder",
+  "en": "to hide",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "escondo",
+      "tu": "escondes",
+      "el": "esconde"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Dónde escondiste el regalo?",
+    "en": "Where did you hide the present?"
+  },
+  "spain": null,
+  "trick": "ESCONDER sounds like \"escaped under\": the kid escaped under the bed to hide.",
+  "image": "/deck/img/esconder-hide.webp",
+  "audio": {
+    "word": "/deck/audio/esconder-hide.word.mp3",
+    "sentence": "/deck/audio/esconder-hide.sentence.mp3"
+  }
+}

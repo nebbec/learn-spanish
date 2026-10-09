@@ -1,0 +1,30 @@
+# alto-stop · rank 317 · alto
+#
+# Why it was flagged:
+#   - One right answer: Other one-word police commands for stopping also fit the prompt and hint, such as ¡Deténgase!, ¡Párese! and ¡Deténganse!, so 'alto' is not the only right answer. Suggested fix: en: Halt! | hint: one-word police or military command, not a verb form
+# Reviewer's note (not a reason to flag): The trick works well because Spanish 'alto' (stop) and English 'halt' come from the same German root.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to en and hint.
+decision: pending
+
+id:         alto-stop
+kind:       content
+pos:        other
+es:         alto
+en:         Halt!
+hint:       one-word police or military command, not a verb form
+example.es: ¡Alto! ¡Policía!
+example.en: Stop! Police!
+spain:
+trick:      ALTO sounds like halt-o: the guard shouts halt so you stop.
+
+# The draft this file was made from. Do not change it.
+draft: 316133dcbf5879cd

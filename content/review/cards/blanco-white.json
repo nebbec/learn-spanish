@@ -1,0 +1,17 @@
+{
+  "id": "blanco-white",
+  "rank": 431,
+  "word": "blanco",
+  "draft": "560b2f5274c6d0b0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "white (adjective; also the noun 'target')",
+    "example": "My favorite shirt is white."
+  },
+  "note": "The trick works especially well because English \"blank\" comes from the same root as blanco (Old French blanc, \"white\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:55.136Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "muerte-death",
+  "rank": 301,
+  "word": "muerte",
+  "draft": "06b2f9e0a3e081e6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "death",
+    "example": "I'm not afraid of death."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:27.231Z"
+}

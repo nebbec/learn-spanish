@@ -1,0 +1,24 @@
+{
+  "id": "oficina-office",
+  "rank": 463,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la oficina",
+  "en": "office",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Mi papá trabaja en una oficina.",
+    "en": "My dad works in an office."
+  },
+  "spain": null,
+  "trick": "OFICINA sounds like \"office-eena\": a tiny office where Tina answers phones all day.",
+  "image": "/deck/img/oficina-office.webp",
+  "audio": {
+    "word": "/deck/audio/oficina-office.word.mp3",
+    "sentence": "/deck/audio/oficina-office.sentence.mp3"
+  }
+}

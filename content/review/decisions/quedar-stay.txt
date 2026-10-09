@@ -1,0 +1,36 @@
+# quedar-stay · rank 117 · quedar
+#
+# Why it was flagged:
+#   - Meaning: Plain quedar means to remain or be left (or to be located), while 'to stay' in the sense of not leaving is the pronominal quedarse, so es does not match the prompt. Suggested fix: es: quedarse
+#   - One right answer: The hint gives the answer away by spelling out quedarse, and it contradicts es, which says quedar; 'to stay' already points to quedarse without a hint. Suggested fix: hint: null
+#   - Grammar: For this meaning the dictionary form is quedarse, so the present forms need the reflexive pronoun. Suggested fix: es: quedarse; grammar.present: yo me quedo, tu te quedas, el se queda (irregular: false)
+# Reviewer's note (not a reason to flag): Once es is quedarse, this card is clearly separate from the 'to be left' card (quedar, as in quedan dos).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fixes: es to quedarse, hint removed, reflexive grammar lines.
+decision: pending
+
+id:         quedar-stay
+kind:       content
+pos:        verb
+es:         quedarse
+en:         to stay
+hint:
+yo:         me quedo
+tu:         te quedas
+el:         se queda
+irregular:  no
+example.es: Quédate conmigo esta noche.
+example.en: Stay with me tonight.
+spain:
+trick:      QUEDAR sounds like 'K, stay there!': you tell your friend to stay put.
+
+# The draft this file was made from. Do not change it.
+draft: 9b359d59732bcee4

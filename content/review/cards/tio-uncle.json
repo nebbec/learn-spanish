@@ -1,0 +1,17 @@
+{
+  "id": "tio-uncle",
+  "rank": 240,
+  "word": "tío",
+  "draft": "47c8f0746bc757b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "uncle",
+    "example": "My uncle lives in Guadalajara."
+  },
+  "note": "The high subtitle rank probably comes from Spain's slang \"tío\" meaning \"guy\" or \"dude\", which isn't neutral Latin American Spanish, so keeping \"uncle\" as the only meaning is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:40.232Z"
+}

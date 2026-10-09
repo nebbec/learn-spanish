@@ -1,0 +1,17 @@
+{
+  "id": "sueno-sleepiness",
+  "rank": 448,
+  "word": "sueño",
+  "draft": "9f5fef443ba2fcc0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sleep, sleepiness (also dream); tener sueño = to be sleepy",
+    "example": "I'm very sleepy, I'm going to bed."
+  },
+  "note": "The hint is needed because it rules out la somnolencia and the word's dream card, and the example uses the same tener sueño set phrase the hint gives.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:15.678Z"
+}

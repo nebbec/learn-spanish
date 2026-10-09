@@ -1,0 +1,28 @@
+{
+  "id": "acercar-bring-closer",
+  "rank": 603,
+  "kind": "content",
+  "pos": "verb",
+  "es": "acercar",
+  "en": "to bring closer",
+  "hint": "moving something else near",
+  "grammar": {
+    "present": {
+      "yo": "acerco",
+      "tu": "acercas",
+      "el": "acerca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Me acercas la sal?",
+    "en": "Can you pass me the salt?"
+  },
+  "spain": null,
+  "trick": "ACERCAR sounds like a circle car: you bring the car closer to close the circle.",
+  "image": "/deck/img/acercar-bring-closer.webp",
+  "audio": {
+    "word": "/deck/audio/acercar-bring-closer.word.mp3",
+    "sentence": "/deck/audio/acercar-bring-closer.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "contar-count",
+  "rank": 224,
+  "kind": "content",
+  "pos": "verb",
+  "es": "contar",
+  "en": "to count",
+  "hint": "numbers, or count on someone",
+  "grammar": {
+    "present": {
+      "yo": "cuento",
+      "tu": "cuentas",
+      "el": "cuenta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Mi hijo ya cuenta hasta cien.",
+    "en": "My son can already count to a hundred."
+  },
+  "spain": null,
+  "trick": "CONTAR sounds like 'counter': a counter is the thing that counts.",
+  "image": "/deck/img/contar-count.webp",
+  "audio": {
+    "word": "/deck/audio/contar-count.word.mp3",
+    "sentence": "/deck/audio/contar-count.sentence.mp3"
+  }
+}

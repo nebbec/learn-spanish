@@ -1,0 +1,17 @@
+{
+  "id": "proximo-next",
+  "rank": 422,
+  "word": "próximo",
+  "draft": "91b94a162efda1be",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "next, upcoming (also: near, close)",
+    "example": "We'll see each other next week."
+  },
+  "note": "The hint correctly rules out siguiente, the main competitor for \"next\", and the proximity trick fits, since próximo also means near.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:05.059Z"
+}

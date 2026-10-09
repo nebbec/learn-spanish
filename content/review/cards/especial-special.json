@@ -1,0 +1,17 @@
+{
+  "id": "especial-special",
+  "rank": 477,
+  "word": "especial",
+  "draft": "1350159986bb5dba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "special (adjective)",
+    "example": "Today is a very special day for me."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:00.157Z"
+}

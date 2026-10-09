@@ -1,0 +1,28 @@
+{
+  "id": "arreglar-fix",
+  "rank": 446,
+  "kind": "content",
+  "pos": "verb",
+  "es": "arreglar",
+  "en": "to fix",
+  "hint": "everyday word, also for sorting out problems",
+  "grammar": {
+    "present": {
+      "yo": "arreglo",
+      "tu": "arreglas",
+      "el": "arregla"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "No te preocupes, yo lo arreglo.",
+    "en": "Don't worry, I'll fix it."
+  },
+  "spain": null,
+  "trick": "ARREGLAR sounds like \"a regular\": a regular handyman comes to fix everything you break.",
+  "image": "/deck/img/arreglar-fix.webp",
+  "audio": {
+    "word": "/deck/audio/arreglar-fix.word.mp3",
+    "sentence": "/deck/audio/arreglar-fix.sentence.mp3"
+  }
+}

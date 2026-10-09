@@ -1,0 +1,28 @@
+{
+  "id": "abandonar-abandon",
+  "rank": 611,
+  "kind": "content",
+  "pos": "verb",
+  "es": "abandonar",
+  "en": "to abandon",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "abandono",
+      "tu": "abandonas",
+      "el": "abandona"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Nunca te voy a abandonar.",
+    "en": "I'm never going to abandon you."
+  },
+  "spain": null,
+  "trick": "ABANDONAR sounds like \"abandon\" plus \"-ar\": just add the Spanish verb ending to the English word.",
+  "image": "/deck/img/abandonar-abandon.webp",
+  "audio": {
+    "word": "/deck/audio/abandonar-abandon.word.mp3",
+    "sentence": "/deck/audio/abandonar-abandon.sentence.mp3"
+  }
+}

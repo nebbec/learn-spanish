@@ -1,0 +1,17 @@
+{
+  "id": "derecho-right-entitlement",
+  "rank": 483,
+  "word": "derecho",
+  "draft": "346fe6d7377688f9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the right (an entitlement); also law as a field of study",
+    "example": "You don't have the right to talk to me like that."
+  },
+  "note": "The hint is needed here because it separates this card from the \"right\" side card, and it does that clearly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:27.473Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 104,
+  "word": "oh",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "oh is an interjection that is the same in English"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:16:09.981Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "siguiente-next",
+  "rank": 557,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "siguiente",
+  "en": "next",
+  "hint": "the following one, not próximo",
+  "grammar": {
+    "feminine": "siguiente"
+  },
+  "example": {
+    "es": "Nos vemos la semana siguiente.",
+    "en": "See you the following week."
+  },
+  "spain": null,
+  "trick": "SIGUIENTE sounds like 'see, good gente': see the good people waiting in line, then call the next one.",
+  "image": "/deck/img/siguiente-next.webp",
+  "audio": {
+    "word": "/deck/audio/siguiente-next.word.mp3",
+    "sentence": "/deck/audio/siguiente-next.sentence.mp3"
+  }
+}

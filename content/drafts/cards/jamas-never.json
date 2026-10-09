@@ -1,0 +1,21 @@
+{
+  "id": "jamas-never",
+  "rank": 609,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "jamás",
+  "en": "never",
+  "hint": "emphatic, not nunca",
+  "grammar": null,
+  "example": {
+    "es": "Jamás te voy a olvidar.",
+    "en": "I will never forget you."
+  },
+  "spain": null,
+  "trick": "JAMÁS sounds like \"ha, mass\": ha, I will never go to mass again!",
+  "image": "/deck/img/jamas-never.webp",
+  "audio": {
+    "word": "/deck/audio/jamas-never.word.mp3",
+    "sentence": "/deck/audio/jamas-never.sentence.mp3"
+  }
+}

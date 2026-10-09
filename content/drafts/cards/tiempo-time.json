@@ -1,0 +1,24 @@
+{
+  "id": "tiempo-time",
+  "rank": 93,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el tiempo",
+  "en": "time",
+  "hint": "duration, not an occasion or clock time",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "No tengo tiempo para eso.",
+    "en": "I don't have time for that."
+  },
+  "spain": null,
+  "trick": "TIEMPO sounds like \"tempo\": music's tempo is all about time.",
+  "image": "/deck/img/tiempo-time.webp",
+  "audio": {
+    "word": "/deck/audio/tiempo-time.word.mp3",
+    "sentence": "/deck/audio/tiempo-time.sentence.mp3"
+  }
+}

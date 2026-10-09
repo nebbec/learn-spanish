@@ -1,0 +1,17 @@
+{
+  "id": "semana-week",
+  "rank": 227,
+  "word": "semana",
+  "draft": "aa03205c4107e517",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the week",
+    "example": "See you next week."
+  },
+  "note": "The trick happens to match the real origin of the word (Latin septimana, from 'seven'), which helps it stick.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:51.778Z"
+}

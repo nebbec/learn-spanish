@@ -1,0 +1,17 @@
+{
+  "id": "quedar-suit",
+  "rank": 117,
+  "word": "quedar",
+  "draft": "fd360f549c2dfec5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to suit, to fit (of clothes on someone, usually with an indirect object and bien/mal: te queda bien)",
+    "example": "That shirt fits you really well / looks really good on you."
+  },
+  "note": "Sentar (te sienta bien) also means to suit, but in Latin America quedar is the everyday verb and the hint fits it well; this sense also covers \"to fit\" (no me queda = it doesn't fit me), which the editor could mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:32.376Z"
+}

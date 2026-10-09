@@ -1,0 +1,17 @@
+{
+  "id": "presentar-introduce",
+  "rank": 450,
+  "word": "presentar",
+  "draft": "4209606fb23da203",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to introduce (a person), to present",
+    "example": "I introduce you to my girlfriend, Laura. / Let me introduce you to my girlfriend, Laura."
+  },
+  "note": "The hint is needed: it rules out introducir, a false friend that means to insert or bring in, not to introduce a person.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:22.166Z"
+}

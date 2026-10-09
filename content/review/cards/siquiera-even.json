@@ -1,0 +1,17 @@
+{
+  "id": "siquiera-even",
+  "rank": 307,
+  "word": "siquiera",
+  "draft": "95bccfd144d3123b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "even (in negatives, usually in 'ni siquiera' = not even)",
+    "example": "Not even did he call me yesterday / He didn't even call me yesterday."
+  },
+  "note": "Learners may recall the whole chunk 'ni siquiera'; the hint's 'after ni' points to siquiera alone, but the editor may want to accept 'ni siquiera' too.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:59.763Z"
+}

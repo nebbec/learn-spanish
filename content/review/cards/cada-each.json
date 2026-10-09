@@ -1,0 +1,17 @@
+{
+  "id": "cada-each",
+  "rank": 214,
+  "word": "cada",
+  "draft": "f0739f99bb3220ed",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "each, every (invariable determiner)",
+    "example": "Every day I learn something new."
+  },
+  "note": "Cada is invariable (same for masculine and feminine, never plural), which the example could show with a feminine noun, e.g. \"cada semana\", though this is optional.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:48.113Z"
+}

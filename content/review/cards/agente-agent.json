@@ -1,0 +1,17 @@
+{
+  "id": "agente-agent",
+  "rank": 475,
+  "word": "agente",
+  "draft": "279f93aac79faa32",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "agent; (police) officer",
+    "example": "The officer (agent) asked me for my documents."
+  },
+  "note": "Agente has the same form for both genders (el agente, la agente), so the editor may want to mention this in the grammar, and in the example it most naturally means a police officer, which \"agent\" still covers.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:55.821Z"
+}

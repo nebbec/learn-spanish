@@ -1,0 +1,34 @@
+# convertir-turn-into · rank 371 · convertir
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: bruja, príncipe, rana. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids convertir-turn-into
+# Reviewer's note (not a reason to flag): Much of this word's subtitle frequency comes from reflexive convertirse en (to become), so the editor might mention it in a later card or note; transformar is a rarer near-synonym but is not the natural answer to "to turn into".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: redrafted the example by hand; every word is met before this card.
+decision: pending
+
+id:         convertir-turn-into
+kind:       content
+pos:        verb
+es:         convertir
+en:         to turn into
+hint:
+yo:         convierto
+tu:         conviertes
+el:         convierte
+irregular:  yes
+example.es: Ella convirtió su casa en un hotel.
+example.en: She turned her house into a hotel.
+spain:
+trick:      CONVERTIR sounds like convert: a magician converts, or turns, a rabbit into a dove.
+
+# The draft this file was made from. Do not change it.
+draft: b4eef926f7ea16ce

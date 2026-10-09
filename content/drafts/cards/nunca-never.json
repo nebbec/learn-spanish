@@ -1,0 +1,21 @@
+{
+  "id": "nunca-never",
+  "rank": 99,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "nunca",
+  "en": "never",
+  "hint": "the everyday word, not jamás",
+  "grammar": null,
+  "example": {
+    "es": "Nunca como carne.",
+    "en": "I never eat meat."
+  },
+  "spain": null,
+  "trick": "NUNCA sounds like \"noon? Nah\": he never wakes up before noon, never ever.",
+  "image": "/deck/img/nunca-never.webp",
+  "audio": {
+    "word": "/deck/audio/nunca-never.word.mp3",
+    "sentence": "/deck/audio/nunca-never.sentence.mp3"
+  }
+}

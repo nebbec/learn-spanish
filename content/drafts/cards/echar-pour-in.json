@@ -1,0 +1,28 @@
+{
+  "id": "echar-pour-in",
+  "rank": 341,
+  "kind": "content",
+  "pos": "verb",
+  "es": "echar",
+  "en": "to put in, to pour",
+  "hint": "toss in salt, sugar or gas, not poner",
+  "grammar": {
+    "present": {
+      "yo": "echo",
+      "tu": "echas",
+      "el": "echa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Le echas azúcar al café?",
+    "en": "Do you put sugar in your coffee?"
+  },
+  "spain": null,
+  "trick": "ECHAR sounds like A CHAR: toss a char of wood into the fire, or pour salt into the pot.",
+  "image": "/deck/img/echar-pour-in.webp",
+  "audio": {
+    "word": "/deck/audio/echar-pour-in.word.mp3",
+    "sentence": "/deck/audio/echar-pour-in.sentence.mp3"
+  }
+}

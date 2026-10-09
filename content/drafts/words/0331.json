@@ -1,0 +1,13 @@
+{
+  "rank": 331,
+  "word": "bastante",
+  "cards": [
+    "bastante-quite",
+    "bastante-enough"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:26:05.692Z"
+}

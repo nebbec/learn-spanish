@@ -1,0 +1,17 @@
+{
+  "id": "servir-serve",
+  "rank": 438,
+  "word": "servir",
+  "draft": "be43ed88f7425926",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to serve (food, drinks); also to be useful, to work for something",
+    "example": "She serves dinner at eight."
+  },
+  "note": "The hint \"food, drinks\" is needed: it keeps this card apart from the word's other card, \"to be useful\", and rules out atender (serving customers).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:24.411Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "echar-kick-out",
+  "rank": 341,
+  "word": "echar",
+  "draft": "39ef8f77c2587da4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to throw out, to kick out (also to throw, to pour, to fire from a job)",
+    "example": "They threw me out of work yesterday / They fired me yesterday."
+  },
+  "note": "Expulsar (more formal), despedir (to fire) and Mexican correr are near-synonyms, but echar is the everyday colloquial match for \"kick out\", so the card's answer holds and differs clearly from the \"to put in, to pour\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:37.352Z"
+}

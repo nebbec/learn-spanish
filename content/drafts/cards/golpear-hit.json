@@ -1,0 +1,28 @@
+{
+  "id": "golpear-hit",
+  "rank": 527,
+  "kind": "content",
+  "pos": "verb",
+  "es": "golpear",
+  "en": "to hit",
+  "hint": "strike, give a blow (not pegar)",
+  "grammar": {
+    "present": {
+      "yo": "golpeo",
+      "tu": "golpeas",
+      "el": "golpea"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Alguien golpeó la puerta muy fuerte.",
+    "en": "Someone hit the door really hard."
+  },
+  "spain": null,
+  "trick": "GOLPEAR sounds like \"goal pear\": you hit a pear so hard it flies into the goal.",
+  "image": "/deck/img/golpear-hit.webp",
+  "audio": {
+    "word": "/deck/audio/golpear-hit.word.mp3",
+    "sentence": "/deck/audio/golpear-hit.sentence.mp3"
+  }
+}

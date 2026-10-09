@@ -1,0 +1,17 @@
+{
+  "id": "numero-number",
+  "rank": 340,
+  "word": "número",
+  "draft": "32fe21716610e3fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "number (the noun: a figure or numeral, or a phone or house number)",
+    "example": "Will you give me your phone number?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:28.375Z"
+}

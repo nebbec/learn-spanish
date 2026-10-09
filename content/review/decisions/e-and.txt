@@ -1,0 +1,29 @@
+# e-and · rank 387 · e
+#
+# Why it was flagged:
+#   - Example sentence: Mi papá e hijo is unnatural and confusing: with one possessive it reads as a single person who is both dad and son, and nobody would say it to mean my dad and my son. Suggested fix: example.es: Hablo español e inglés. example.en: I speak Spanish and English.
+# Reviewer's note (not a reason to flag): The hint could add that y stays before hie- words (agua y hielo), but that doesn't affect this prompt.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         e-and
+kind:       glue
+pos:        conjunction
+es:         e
+en:         father [and] son
+hint:       used instead of y before a word starting with an i sound (i-, hi-)
+example.es: Mi papá e hijo trabajan juntos.
+example.en: My dad and son work together.
+spain:
+trick:      E replaces Y before an EE sound, so you never say y-ee; padre e hijo flows smoothly.
+
+# The draft this file was made from. Do not change it.
+draft: 8f48e39cfeb0ec2c

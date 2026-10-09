@@ -2,22 +2,16 @@
   "id": "calle-street",
   "rank": 503,
   "word": "calle",
-  "draft": "92c115cd078a5b3f",
-  "flagged": true,
-  "findings": [
-    {
-      "reason": "trick",
-      "problem": "The respelling \"kai-yay\" teaches the wrong pronunciation: calle is said KAH-yeh, with a plain \"ka\" rather than \"kai\" and a short final e rather than \"ay\".",
-      "fix": "trick: CALLE sounds like \"KAH-yeh\": you yell \"Ka-yeh!\" to a friend across the street."
-    }
-  ],
+  "draft": "e61fde0e32e3b91c",
+  "flagged": false,
+  "findings": [],
   "back": {
     "es": "the street",
-    "example": "My house is on this street."
+    "example": "My friend's street is very big."
   },
-  "note": null,
+  "note": "\"Muy ancha\" (very wide) would describe a street more precisely than \"muy grande\", but \"grande\" is fine in everyday speech.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:07:24.977Z"
+  "reviewedAt": "2026-10-09T14:27:27.266Z"
 }

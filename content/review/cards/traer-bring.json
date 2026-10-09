@@ -1,0 +1,17 @@
+{
+  "id": "traer-bring",
+  "rank": 174,
+  "word": "traer",
+  "draft": "5ab41efe6e4a22f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to bring",
+    "example": "Will you bring me a glass of water?"
+  },
+  "note": "Spanish uses llevar where English says \"bring\" for movement away from the speaker (for example, bringing wine to someone else's party), so that point could go into a later card about llevar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:07.006Z"
+}

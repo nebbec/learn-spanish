@@ -1,0 +1,28 @@
+{
+  "id": "quedar-suit",
+  "rank": 117,
+  "kind": "content",
+  "pos": "verb",
+  "es": "quedar",
+  "en": "to suit",
+  "hint": "clothes on someone",
+  "grammar": {
+    "present": {
+      "yo": "quedo",
+      "tu": "quedas",
+      "el": "queda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Esa camisa te queda muy bien.",
+    "en": "That shirt really suits you."
+  },
+  "spain": null,
+  "trick": "QUEDAR sounds like 'Ka-ching, darling!': that outfit suits you so well it's worth the money.",
+  "image": "/deck/img/quedar-suit.webp",
+  "audio": {
+    "word": "/deck/audio/quedar-suit.word.mp3",
+    "sentence": "/deck/audio/quedar-suit.sentence.mp3"
+  }
+}

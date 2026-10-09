@@ -1,0 +1,28 @@
+{
+  "id": "andar-be-doing",
+  "rank": 426,
+  "kind": "content",
+  "pos": "verb",
+  "es": "andar",
+  "en": "to be (going around)",
+  "hint": "how someone is getting on, what they're up to: ¿Cómo ___s?",
+  "grammar": {
+    "present": {
+      "yo": "ando",
+      "tu": "andas",
+      "el": "anda"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Cómo andas? ¿Qué andas haciendo?",
+    "en": "How are you doing? What are you up to?"
+  },
+  "spain": null,
+  "trick": "ANDAR sounds like \"and are\": and how are you doing these days?",
+  "image": "/deck/img/andar-be-doing.webp",
+  "audio": {
+    "word": "/deck/audio/andar-be-doing.word.mp3",
+    "sentence": "/deck/audio/andar-be-doing.sentence.mp3"
+  }
+}

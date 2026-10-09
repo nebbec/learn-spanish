@@ -1,0 +1,28 @@
+{
+  "id": "vender-sell",
+  "rank": 421,
+  "kind": "content",
+  "pos": "verb",
+  "es": "vender",
+  "en": "to sell",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "vendo",
+      "tu": "vendes",
+      "el": "vende"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Mi papá vende carros usados.",
+    "en": "My dad sells used cars."
+  },
+  "spain": null,
+  "trick": "VENDER sounds like \"vendor\": a vendor is someone who sells things.",
+  "image": "/deck/img/vender-sell.webp",
+  "audio": {
+    "word": "/deck/audio/vender-sell.word.mp3",
+    "sentence": "/deck/audio/vender-sell.sentence.mp3"
+  }
+}

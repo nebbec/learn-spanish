@@ -1,0 +1,24 @@
+{
+  "id": "oficial-officer",
+  "rank": 548,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el oficial",
+  "en": "officer",
+  "hint": "a rank in the army or police",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "El oficial nos pidió los documentos.",
+    "en": "The officer asked us for our papers."
+  },
+  "spain": null,
+  "trick": "El OFICIAL is the official in uniform: the officer who gives the orders.",
+  "image": "/deck/img/oficial-officer.webp",
+  "audio": {
+    "word": "/deck/audio/oficial-officer.word.mp3",
+    "sentence": "/deck/audio/oficial-officer.sentence.mp3"
+  }
+}

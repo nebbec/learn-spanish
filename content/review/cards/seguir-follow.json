@@ -1,0 +1,17 @@
+{
+  "id": "seguir-follow",
+  "rank": 126,
+  "word": "seguir",
+  "draft": "a28742c0fa6c01fb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to follow (also: to continue, to keep on)",
+    "example": "Follow me, I know the way."
+  },
+  "note": "The example uses the imperative with an attached pronoun (sígueme), which is fine but harder for a beginner than a present-tense form such as \"Te sigo\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:15.005Z"
+}

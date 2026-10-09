@@ -1,0 +1,12 @@
+{
+  "rank": 287,
+  "word": "regresar",
+  "cards": [
+    "regresar-return"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:24:10.801Z"
+}

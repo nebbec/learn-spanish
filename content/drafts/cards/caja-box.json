@@ -1,0 +1,24 @@
+{
+  "id": "caja-box",
+  "rank": 580,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la caja",
+  "en": "box",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Qué hay en esta caja?",
+    "en": "What's in this box?"
+  },
+  "spain": null,
+  "trick": "CAJA sounds like 'car-ha': ha, the whole car fits in that giant box!",
+  "image": "/deck/img/caja-box.webp",
+  "audio": {
+    "word": "/deck/audio/caja-box.word.mp3",
+    "sentence": "/deck/audio/caja-box.sentence.mp3"
+  }
+}

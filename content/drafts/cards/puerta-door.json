@@ -1,0 +1,24 @@
+{
+  "id": "puerta-door",
+  "rank": 260,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la puerta",
+  "en": "door",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Puedes cerrar la puerta, por favor?",
+    "en": "Can you close the door, please?"
+  },
+  "spain": null,
+  "trick": "PUERTA sounds like \"portal\": every portal starts with a door you walk through.",
+  "image": "/deck/img/puerta-door.webp",
+  "audio": {
+    "word": "/deck/audio/puerta-door.word.mp3",
+    "sentence": "/deck/audio/puerta-door.sentence.mp3"
+  }
+}

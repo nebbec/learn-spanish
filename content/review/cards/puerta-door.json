@@ -1,0 +1,17 @@
+{
+  "id": "puerta-door",
+  "rank": 260,
+  "word": "puerta",
+  "draft": "6d954436d94542a4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the door",
+    "example": "Can you close the door, please?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:50.242Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "abrir-open",
+  "rank": 286,
+  "kind": "content",
+  "pos": "verb",
+  "es": "abrir",
+  "en": "to open",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "abro",
+      "tu": "abres",
+      "el": "abre"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¿Me abres la puerta, por favor?",
+    "en": "Can you open the door for me, please?"
+  },
+  "spain": null,
+  "trick": "ABRIR sounds like abracadabra: say the magic word and every door opens.",
+  "image": "/deck/img/abrir-open.webp",
+  "audio": {
+    "word": "/deck/audio/abrir-open.word.mp3",
+    "sentence": "/deck/audio/abrir-open.sentence.mp3"
+  }
+}

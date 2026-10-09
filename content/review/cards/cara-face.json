@@ -1,0 +1,17 @@
+{
+  "id": "cara-face",
+  "rank": 313,
+  "word": "cara",
+  "draft": "34ca7bf147fbaf65",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "face (the front of the head)",
+    "example": "Wash your face before going to sleep."
+  },
+  "note": "Rostro also means face but is formal or literary, so cara is clearly the everyday answer and the prompt needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:22.644Z"
+}

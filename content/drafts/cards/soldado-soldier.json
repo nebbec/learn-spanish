@@ -1,0 +1,24 @@
+{
+  "id": "soldado-soldier",
+  "rank": 680,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el soldado",
+  "en": "soldier",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mi abuelo fue soldado en la guerra.",
+    "en": "My grandfather was a soldier in the war."
+  },
+  "spain": null,
+  "trick": "SOLDADO sounds like soldier: a soldier is sold on duty to his country.",
+  "image": "/deck/img/soldado-soldier.webp",
+  "audio": {
+    "word": "/deck/audio/soldado-soldier.word.mp3",
+    "sentence": "/deck/audio/soldado-soldier.sentence.mp3"
+  }
+}

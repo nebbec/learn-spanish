@@ -1,0 +1,24 @@
+{
+  "id": "cumpleanos-birthday",
+  "rank": 753,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el cumpleaños",
+  "en": "birthday",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Mañana es mi cumpleaños.",
+    "en": "Tomorrow is my birthday."
+  },
+  "spain": null,
+  "trick": "CUMPLEAÑOS sounds like \"complete years\": on your birthday you complete another year.",
+  "image": "/deck/img/cumpleanos-birthday.webp",
+  "audio": {
+    "word": "/deck/audio/cumpleanos-birthday.word.mp3",
+    "sentence": "/deck/audio/cumpleanos-birthday.sentence.mp3"
+  }
+}

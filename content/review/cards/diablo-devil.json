@@ -1,0 +1,17 @@
+{
+  "id": "diablo-devil",
+  "rank": 390,
+  "word": "diablo",
+  "draft": "d3745c8bb6dba72d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the devil",
+    "example": "That kid is a devil."
+  },
+  "note": "Much of this word's subtitle frequency probably comes from expressions like \"¿Qué diablos...?\" (\"What the hell...?\"), which a later card or the example could show, and \"a little devil\" in the example's translation is a fair idiomatic choice.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:31.914Z"
+}

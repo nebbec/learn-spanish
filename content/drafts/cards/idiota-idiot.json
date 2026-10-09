@@ -1,0 +1,24 @@
+{
+  "id": "idiota-idiot",
+  "rank": 425,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el idiota",
+  "en": "idiot",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "No seas idiota, ella te quiere.",
+    "en": "Don't be an idiot, she loves you."
+  },
+  "spain": null,
+  "trick": "IDIOTA sounds like 'idiot-a': just add an 'a' to the English idiot.",
+  "image": "/deck/img/idiota-idiot.webp",
+  "audio": {
+    "word": "/deck/audio/idiota-idiot.word.mp3",
+    "sentence": "/deck/audio/idiota-idiot.sentence.mp3"
+  }
+}

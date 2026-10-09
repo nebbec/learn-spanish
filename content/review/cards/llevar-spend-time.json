@@ -1,0 +1,23 @@
+{
+  "id": "llevar-spend-time",
+  "rank": 96,
+  "word": "llevar",
+  "draft": "beea556848230c0f",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint contains the answer itself (llevo), so the learner just copies it instead of recalling it; an English-only hint would let estar (he estado) or hacer (hace dos años que...) fit, so it has to name and exclude them.",
+      "fix": "hint: the verb that counts time, as in 'I've been here two years', not estar or hace"
+    }
+  ],
+  "back": {
+    "es": "llevar (with a length of time): to have been (doing something or somewhere) for that time; also to carry, to take, to wear",
+    "example": "I've been waiting for two hours."
+  },
+  "note": "The hint now rules out the other two llevar cards (to take, to wear), since this prompt is about time, not carrying or clothing.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:06.828Z"
+}

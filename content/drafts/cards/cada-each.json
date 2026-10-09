@@ -1,0 +1,21 @@
+{
+  "id": "cada-each",
+  "rank": 214,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "cada",
+  "en": "[each] day",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Cada día aprendo algo nuevo.",
+    "en": "Each day I learn something new."
+  },
+  "spain": null,
+  "trick": "CADA sounds like \"cod-a\": each cod in the market gets its own label.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cada-each.word.mp3",
+    "sentence": "/deck/audio/cada-each.sentence.mp3"
+  }
+}

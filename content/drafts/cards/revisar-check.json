@@ -1,0 +1,28 @@
+{
+  "id": "revisar-check",
+  "rank": 715,
+  "kind": "content",
+  "pos": "verb",
+  "es": "revisar",
+  "en": "to check",
+  "hint": "look over, review",
+  "grammar": {
+    "present": {
+      "yo": "reviso",
+      "tu": "revisas",
+      "el": "revisa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Revisa tu teléfono, te mandé un mensaje.",
+    "en": "Check your phone, I sent you a message."
+  },
+  "spain": null,
+  "trick": "REVISAR sounds like \"revise\": you check your work again before handing it in.",
+  "image": "/deck/img/revisar-check.webp",
+  "audio": {
+    "word": "/deck/audio/revisar-check.word.mp3",
+    "sentence": "/deck/audio/revisar-check.sentence.mp3"
+  }
+}

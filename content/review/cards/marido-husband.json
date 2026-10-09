@@ -1,0 +1,17 @@
+{
+  "id": "marido-husband",
+  "rank": 493,
+  "word": "marido",
+  "draft": "d470da7f5674f1d9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "husband",
+    "example": "My husband works at a hospital."
+  },
+  "note": "The hint \"not esposo\" is needed and does its job, since esposo is an equally correct answer for \"husband\" and is actually the more common word in much of Latin America.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:35.739Z"
+}

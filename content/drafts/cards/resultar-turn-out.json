@@ -1,0 +1,28 @@
+{
+  "id": "resultar-turn-out",
+  "rank": 733,
+  "kind": "content",
+  "pos": "verb",
+  "es": "resultar",
+  "en": "to turn out",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "resulto",
+      "tu": "resultas",
+      "el": "resulta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Resulta que él tenía razón.",
+    "en": "It turns out he was right."
+  },
+  "spain": null,
+  "trick": "RESULTAR sounds like \"result\": how something turns out is its result.",
+  "image": "/deck/img/resultar-turn-out.webp",
+  "audio": {
+    "word": "/deck/audio/resultar-turn-out.word.mp3",
+    "sentence": "/deck/audio/resultar-turn-out.sentence.mp3"
+  }
+}

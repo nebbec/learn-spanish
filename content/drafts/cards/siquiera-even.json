@@ -1,0 +1,21 @@
+{
+  "id": "siquiera-even",
+  "rank": 307,
+  "kind": "glue",
+  "pos": "adverb",
+  "es": "siquiera",
+  "en": "he didn't [even] call",
+  "hint": "in negatives, often after ni; not incluso",
+  "grammar": null,
+  "example": {
+    "es": "Ni siquiera me llamó ayer.",
+    "en": "He didn't even call me yesterday."
+  },
+  "spain": null,
+  "trick": "SIQUIERA sounds like 'see, key? Era...': you can't even see the key you lost.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/siquiera-even.word.mp3",
+    "sentence": "/deck/audio/siquiera-even.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "andar-walk",
+  "rank": 426,
+  "kind": "content",
+  "pos": "verb",
+  "es": "andar",
+  "en": "to walk around",
+  "hint": "to go about on foot, not caminar",
+  "grammar": {
+    "present": {
+      "yo": "ando",
+      "tu": "andas",
+      "el": "anda"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Me gusta andar por el parque.",
+    "en": "I like walking around the park."
+  },
+  "spain": null,
+  "trick": "ANDAR sounds like \"and are\": and off you are, walking around town.",
+  "image": "/deck/img/andar-walk.webp",
+  "audio": {
+    "word": "/deck/audio/andar-walk.word.mp3",
+    "sentence": "/deck/audio/andar-walk.sentence.mp3"
+  }
+}

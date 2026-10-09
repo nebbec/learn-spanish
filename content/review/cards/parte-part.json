@@ -1,0 +1,17 @@
+{
+  "id": "parte-part",
+  "rank": 182,
+  "word": "parte",
+  "draft": "87d1115ab71bda1d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "part, portion (also: side, place, as in 'en alguna parte')",
+    "example": "This is the best part of the movie."
+  },
+  "note": "Without a hint, \"part\" could in rare cases call for \"la pieza\" (a machine part) or \"el papel\" (a role), but \"la parte\" is clearly the default answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:37.869Z"
+}

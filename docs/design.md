@@ -975,7 +975,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L14 | Audio by itself, mute, say it out loud | none | | Done |
 | L15 | Reset on the device | none | | Done |
 | L16 | Reset sync | L15 | | Done |
-| L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done except: deploy, Start over and study unit 1 on the phone |
+| L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done |
 | H1 | First-slice acceptance | all above | Phone testing | Todo |
 | M1 | Archive finished tickets' notes | none | | Done |
 | U1 | Home page mockups | none | Pick a theme | Done |
@@ -992,6 +992,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
 | S4 | Frequency-phase phrase list | L17 | Cut and approve the list | Todo |
+| S5 | Text and audio to 1,000 cards | L17 | Bulk-approve flagged cards | In progress |
 
 Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 and G1 can start on day one. Track L comes before F2 and H1, because it changes which cards are the first 100; F1 can run beside it. L1, L2, L14 and L15 can start at once.
 
@@ -1264,6 +1265,7 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Do: copy `content/deck.json` to `public/deck/deck.json`; Courtney presses Start over and studies unit 1 from zero on the phone; fix small problems and write a ticket for anything larger.
 - Done when: unit 1 is studied from zero on the phone with intros, its tip, its form cards and its payoff screen, offline.
 - Note (L17): `content/deck.json` (version 8) copied to `public/deck/deck.json` on 2026-10-04; `npm test` (693), `npm run lint` and `npm run build` pass, and the build serves `/tips`. The migrations it needs are on the server (L10, L16). Left for Courtney: deploy, press Start over in settings, and study unit 1 from zero on the phone, offline too. Anything that feels wrong in use becomes a tweak to `content/units.json`, a tip or a card, or a new ticket.
+- Note (L17): done 2026-10-09. Courtney studied unit 1 from zero on the phone and is happy with the direction and the audio; no changes asked for. She asked to grow the deck now and add pictures later (S5).
 
 ### Track M: maintenance
 
@@ -1334,11 +1336,15 @@ Added 2026-10-04 at Courtney's request: the app looks clunky, starting with the 
 
 ### Scale-out
 
-After H1 is signed off.
+After H1 is signed off. (Changed 2026-10-09 at Courtney's request: S5 grows the deck's text and audio to 1,000 cards before H1, S1 and the art; S2 then makes the art for the cards S5 added, a batch at a time.)
 
 **S1 Media hosting at 1,000 cards**
 - Do: using the sizes measured in F2 and G2, decide between the repo and Supabase Storage, and implement the choice.
 - Done when: the decision is recorded under [Open](#open) and media loads from its final home.
+
+**S5 Text and audio to 1,000 cards**
+- Do: draft the word-list ranks the deck still needs, review them, tag every new group, redraft the examples the known-words check flags and review them again; stage the reviewer's fixes into each flagged card's decision file for Courtney to approve in one step (as in L9); build at 1,000 cards, make the clips, and publish. No art: a card whose still is missing shows no character (see the note under H1), and S2 makes the stills later.
+- Done when: `content/deck.json` holds 1,000 cards passing the validator, with no card waiting and every clip made, and `public/deck/deck.json` is a copy of it.
 
 **S2 Content batch of 100** (run nine times, a fresh session each)
 - Do: for the next 100 cards: draft, review, resolve flagged cards, generate art and audio, review contact sheets, and publish a deck revision.

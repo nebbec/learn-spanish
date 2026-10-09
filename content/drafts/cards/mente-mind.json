@@ -1,0 +1,24 @@
+{
+  "id": "mente-mind",
+  "rank": 597,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la mente",
+  "en": "mind",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "Tienes que abrir tu mente.",
+    "en": "You have to open your mind."
+  },
+  "spain": null,
+  "trick": "MENTE sounds like mental: everything mental happens in your mind.",
+  "image": "/deck/img/mente-mind.webp",
+  "audio": {
+    "word": "/deck/audio/mente-mind.word.mp3",
+    "sentence": "/deck/audio/mente-mind.sentence.mp3"
+  }
+}

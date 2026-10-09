@@ -1,0 +1,28 @@
+{
+  "id": "tirar-throw-away",
+  "rank": 486,
+  "kind": "content",
+  "pos": "verb",
+  "es": "tirar",
+  "en": "to throw away",
+  "hint": "into the trash",
+  "grammar": {
+    "present": {
+      "yo": "tiro",
+      "tu": "tiras",
+      "el": "tira"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "No tires esa comida.",
+    "en": "Don't throw away that food."
+  },
+  "spain": null,
+  "trick": "TIRAR sounds like tear: you tear up the old letter and throw it away.",
+  "image": "/deck/img/tirar-throw-away.webp",
+  "audio": {
+    "word": "/deck/audio/tirar-throw-away.word.mp3",
+    "sentence": "/deck/audio/tirar-throw-away.sentence.mp3"
+  }
+}

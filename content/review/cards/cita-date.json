@@ -1,0 +1,17 @@
+{
+  "id": "cita-date",
+  "rank": 567,
+  "word": "cita",
+  "draft": "f22e4ec602e96ea3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "date (romantic meeting); also appointment",
+    "example": "Tonight I have a date with Ana."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:29.476Z"
+}

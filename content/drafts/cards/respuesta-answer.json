@@ -1,0 +1,24 @@
+{
+  "id": "respuesta-answer",
+  "rank": 563,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la respuesta",
+  "en": "answer",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "No sé la respuesta.",
+    "en": "I don't know the answer."
+  },
+  "spain": null,
+  "trick": "RESPUESTA sounds like \"response\": an answer is your response to a question.",
+  "image": "/deck/img/respuesta-answer.webp",
+  "audio": {
+    "word": "/deck/audio/respuesta-answer.word.mp3",
+    "sentence": "/deck/audio/respuesta-answer.sentence.mp3"
+  }
+}

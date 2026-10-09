@@ -1,0 +1,17 @@
+{
+  "id": "salvar-save-rescue",
+  "rank": 346,
+  "word": "salvar",
+  "draft": "fff8b8f0af31c496",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to save (from danger), to rescue",
+    "example": "You saved my life."
+  },
+  "note": "The hint is needed because it rules out ahorrar (save money) and guardar (save or keep a file), and for \"save from danger\" salvar is the natural answer over rescatar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:01.968Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ayer-yesterday",
+  "rank": 564,
+  "word": "ayer",
+  "draft": "2962793ad47d61fa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "yesterday (adverb)",
+    "example": "Yesterday I went to the movies with my sister."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:15.357Z"
+}

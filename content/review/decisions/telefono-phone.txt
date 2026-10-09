@@ -1,0 +1,32 @@
+# telefono-phone · rank 369 · teléfono
+#
+# Why it was flagged:
+#   - One right answer: In everyday English, a bare "phone" usually means a mobile phone, and in Latin America that is "el celular", so a learner could fairly answer "el celular" instead of "el teléfono". Suggested fix: en: telephone
+# Reviewer's note (not a reason to flag): Another way to fix it is to keep en as "phone" and add the hint "the general word, not specifically a mobile (that's celular)".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to en.
+decision: pending
+
+id:         telefono-phone
+kind:       content
+pos:        noun
+es:         el teléfono
+en:         telephone
+hint:
+gender:     m
+article:    el
+example.es: ¿Me das tu número de teléfono?
+example.en: Can you give me your phone number?
+spain:
+trick:      TELÉFONO sounds just like telephone: tell your friend everything on the phone.
+
+# The draft this file was made from. Do not change it.
+draft: 93340547aa2d9af3

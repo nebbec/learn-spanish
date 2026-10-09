@@ -1,0 +1,21 @@
+{
+  "id": "ambos-both",
+  "rank": 526,
+  "kind": "glue",
+  "pos": "determiner",
+  "es": "ambos",
+  "en": "[both] brothers",
+  "hint": "one word, not los dos",
+  "grammar": null,
+  "example": {
+    "es": "Ambos hermanos viven en la misma ciudad.",
+    "en": "Both brothers live in the same city."
+  },
+  "spain": null,
+  "trick": "AMBOS sounds like \"am both\": I am both happy and tired, two things at once.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ambos-both.word.mp3",
+    "sentence": "/deck/audio/ambos-both.sentence.mp3"
+  }
+}

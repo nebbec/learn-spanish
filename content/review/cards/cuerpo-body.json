@@ -1,0 +1,17 @@
+{
+  "id": "cuerpo-body",
+  "rank": 329,
+  "word": "cuerpo",
+  "draft": "f5d38088910115d7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the body",
+    "example": "My whole body hurts."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:32.270Z"
+}

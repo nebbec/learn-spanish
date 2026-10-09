@@ -1,0 +1,17 @@
+{
+  "id": "matar-kill",
+  "rank": 134,
+  "word": "matar",
+  "draft": "ba992e6c3702057f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to kill",
+    "example": "My mom is going to kill me!"
+  },
+  "note": "The trick is accurate because matador comes from matar and literally means killer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:42.497Z"
+}

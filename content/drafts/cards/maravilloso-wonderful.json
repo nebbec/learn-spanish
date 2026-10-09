@@ -1,0 +1,23 @@
+{
+  "id": "maravilloso-wonderful",
+  "rank": 561,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "maravilloso",
+  "en": "wonderful",
+  "hint": null,
+  "grammar": {
+    "feminine": "maravillosa"
+  },
+  "example": {
+    "es": "Fue un día maravilloso con mi familia.",
+    "en": "It was a wonderful day with my family."
+  },
+  "spain": null,
+  "trick": "MARAVILLOSO sounds like \"marvelous\": a marvel of a day is simply wonderful.",
+  "image": "/deck/img/maravilloso-wonderful.webp",
+  "audio": {
+    "word": "/deck/audio/maravilloso-wonderful.word.mp3",
+    "sentence": "/deck/audio/maravilloso-wonderful.sentence.mp3"
+  }
+}

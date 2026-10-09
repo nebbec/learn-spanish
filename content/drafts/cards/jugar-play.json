@@ -1,0 +1,28 @@
+{
+  "id": "jugar-play",
+  "rank": 256,
+  "kind": "content",
+  "pos": "verb",
+  "es": "jugar",
+  "en": "to play",
+  "hint": "a game or sport, not music",
+  "grammar": {
+    "present": {
+      "yo": "juego",
+      "tu": "juegas",
+      "el": "juega"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Los niños juegan fútbol en el parque.",
+    "en": "The kids play soccer in the park."
+  },
+  "spain": null,
+  "trick": "JUGAR sounds like \"who guards\" the goal? Whoever wants to play the game.",
+  "image": "/deck/img/jugar-play.webp",
+  "audio": {
+    "word": "/deck/audio/jugar-play.word.mp3",
+    "sentence": "/deck/audio/jugar-play.sentence.mp3"
+  }
+}

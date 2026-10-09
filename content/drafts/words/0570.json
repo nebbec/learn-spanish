@@ -1,0 +1,13 @@
+{
+  "rank": 570,
+  "word": "campo",
+  "cards": [
+    "campo-field",
+    "campo-countryside"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:38:16.912Z"
+}

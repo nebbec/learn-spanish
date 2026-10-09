@@ -1,0 +1,30 @@
+# estupido-stupid · rank 471 · estúpido
+#
+# Why it was flagged:
+#   - Example sentence: The example sentence has no conjugated verb, so it does not show the word in a full clause as required. Suggested fix: example.es: No es una pregunta estúpida. / example.en: It's not a stupid question.
+# Reviewer's note (not a reason to flag): Tonto is a near-synonym but is closer to dumb or silly, so estúpido is the clear answer for stupid without a hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         estupido-stupid
+kind:       content
+pos:        adjective
+es:         estúpido
+en:         stupid
+hint:
+feminine:   estúpida
+example.es: ¡Qué idea tan estúpida!
+example.en: What a stupid idea!
+spain:
+trick:      ESTÚPIDO sounds almost exactly like "stupid" with an extra "es" in front and an "o" on the end.
+
+# The draft this file was made from. Do not change it.
+draft: 92aa343171a2725b

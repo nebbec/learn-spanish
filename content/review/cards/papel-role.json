@@ -1,0 +1,17 @@
+{
+  "id": "papel-role",
+  "rank": 595,
+  "word": "papel",
+  "draft": "ba2e15a41966313b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el papel: role, part (in a film or play); also paper",
+    "example": "She has the main role."
+  },
+  "note": "The hint \"same word as paper\" is needed because it rules out \"el rol\" and \"la parte\", though it also gives the answer away to anyone who remembers the paper card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:51.393Z"
+}

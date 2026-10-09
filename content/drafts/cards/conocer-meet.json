@@ -1,0 +1,28 @@
+{
+  "id": "conocer-meet",
+  "rank": 119,
+  "kind": "content",
+  "pos": "verb",
+  "es": "conocer",
+  "en": "to meet",
+  "hint": "for the first time",
+  "grammar": {
+    "present": {
+      "yo": "conozco",
+      "tu": "conoces",
+      "el": "conoce"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Conocí a mi esposa en una fiesta.",
+    "en": "I met my wife at a party."
+  },
+  "spain": null,
+  "trick": "CONOCER sounds like \"cone, oh, sir!\": you meet someone new when you bump into them and drop your ice cream cone.",
+  "image": "/deck/img/conocer-meet.webp",
+  "audio": {
+    "word": "/deck/audio/conocer-meet.word.mp3",
+    "sentence": "/deck/audio/conocer-meet.sentence.mp3"
+  }
+}

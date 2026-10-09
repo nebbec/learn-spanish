@@ -1,0 +1,28 @@
+{
+  "id": "salir-go-out",
+  "rank": 108,
+  "kind": "content",
+  "pos": "verb",
+  "es": "salir",
+  "en": "to go out",
+  "hint": "to exit or leave a place",
+  "grammar": {
+    "present": {
+      "yo": "salgo",
+      "tu": "sales",
+      "el": "sale"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Salgo con mis amigos esta noche.",
+    "en": "I'm going out with my friends tonight."
+  },
+  "spain": null,
+  "trick": "SALIR sounds like sail here: you sail out of the harbor when you go out.",
+  "image": "/deck/img/salir-go-out.webp",
+  "audio": {
+    "word": "/deck/audio/salir-go-out.word.mp3",
+    "sentence": "/deck/audio/salir-go-out.sentence.mp3"
+  }
+}

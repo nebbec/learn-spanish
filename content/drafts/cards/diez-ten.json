@@ -1,0 +1,21 @@
+{
+  "id": "diez-ten",
+  "rank": 528,
+  "kind": "content",
+  "pos": "other",
+  "es": "diez",
+  "en": "ten",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Te veo en diez minutos.",
+    "en": "I'll see you in ten minutes."
+  },
+  "spain": null,
+  "trick": "DIEZ sounds like \"the ace\": a perfect ten is the ace of scores.",
+  "image": "/deck/img/diez-ten.webp",
+  "audio": {
+    "word": "/deck/audio/diez-ten.word.mp3",
+    "sentence": "/deck/audio/diez-ten.sentence.mp3"
+  }
+}

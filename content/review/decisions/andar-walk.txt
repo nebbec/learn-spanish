@@ -1,0 +1,34 @@
+# andar-walk · rank 426 · andar
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out caminar but not pasear, which is a common and correct answer for walking around a place on foot, especially for pleasure. Suggested fix: hint: to go about on foot, not caminar or pasear
+#   - Example sentence: The example uses andar as an infinitive after gusta rather than a conjugated form of andar. Suggested fix: example.es: Ando por el parque todas las mañanas. / example.en: I walk around the park every morning.
+# Reviewer's note (not a reason to flag): The irregular flag is right because of the preterite anduve, even though the present tense is regular; in most of Latin America caminar is the everyday word for walking, so this sense of andar is less central than the "to be (going around)" card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         andar-walk
+kind:       content
+pos:        verb
+es:         andar
+en:         to walk around
+hint:       to go about on foot, not caminar
+yo:         ando
+tu:         andas
+el:         anda
+irregular:  yes
+example.es: Me gusta andar por el parque.
+example.en: I like walking around the park.
+spain:
+trick:      ANDAR sounds like "and are": and off you are, walking around town.
+
+# The draft this file was made from. Do not change it.
+draft: 3e9a87ce9727587d

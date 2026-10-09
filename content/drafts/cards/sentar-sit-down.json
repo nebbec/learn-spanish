@@ -1,0 +1,28 @@
+{
+  "id": "sentar-sit-down",
+  "rank": 338,
+  "kind": "content",
+  "pos": "verb",
+  "es": "sentarse",
+  "en": "to sit down",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "me siento",
+      "tu": "te sientas",
+      "el": "se sienta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Siéntate aquí conmigo.",
+    "en": "Sit down here with me."
+  },
+  "spain": null,
+  "trick": "SENTARSE sounds like \"sent ourselves\": we sent ourselves straight to the sofa to sit down.",
+  "image": "/deck/img/sentar-sit-down.webp",
+  "audio": {
+    "word": "/deck/audio/sentar-sit-down.word.mp3",
+    "sentence": "/deck/audio/sentar-sit-down.sentence.mp3"
+  }
+}

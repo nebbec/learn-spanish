@@ -1,0 +1,28 @@
+{
+  "id": "cumplir-turn-age",
+  "rank": 689,
+  "kind": "content",
+  "pos": "verb",
+  "es": "cumplir",
+  "en": "to turn",
+  "hint": "an age, a number of years",
+  "grammar": {
+    "present": {
+      "yo": "cumplo",
+      "tu": "cumples",
+      "el": "cumple"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Mañana mi hija cumple diez años.",
+    "en": "Tomorrow my daughter turns ten."
+  },
+  "spain": null,
+  "trick": "CUMPLIR sounds like complete: on your birthday you complete another year.",
+  "image": "/deck/img/cumplir-turn-age.webp",
+  "audio": {
+    "word": "/deck/audio/cumplir-turn-age.word.mp3",
+    "sentence": "/deck/audio/cumplir-turn-age.sentence.mp3"
+  }
+}

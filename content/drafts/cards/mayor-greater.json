@@ -1,0 +1,23 @@
+{
+  "id": "mayor-greater",
+  "rank": 378,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "mayor",
+  "en": "greater",
+  "hint": "one word, not más grande",
+  "grammar": {
+    "feminine": "mayor"
+  },
+  "example": {
+    "es": "Ese es nuestro mayor problema.",
+    "en": "That is our greatest problem."
+  },
+  "spain": null,
+  "trick": "MAYOR sounds like mayor: the mayor has greater power than anyone else in the city.",
+  "image": "/deck/img/mayor-greater.webp",
+  "audio": {
+    "word": "/deck/audio/mayor-greater.word.mp3",
+    "sentence": "/deck/audio/mayor-greater.sentence.mp3"
+  }
+}

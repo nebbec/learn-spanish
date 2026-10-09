@@ -1,0 +1,17 @@
+{
+  "id": "asunto-matter",
+  "rank": 461,
+  "word": "asunto",
+  "draft": "37219005cbfa3c12",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "matter, affair, issue; business (as in personal concern)",
+    "example": "That's none of your business."
+  },
+  "note": "The hint's \"none of your business\" idiom is what rules out el tema and la cuestión for the bare prompt \"matter\", so it should stay.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:12.774Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "durante-during",
+  "rank": 278,
+  "kind": "glue",
+  "pos": "preposition",
+  "es": "durante",
+  "en": "I slept [during] the movie",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "es": "Llovió mucho durante la noche.",
+    "en": "It rained a lot during the night."
+  },
+  "spain": null,
+  "trick": "DURANTE sounds like \"during\" plus \"ante\": things that happen during something endure through it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/durante-during.word.mp3",
+    "sentence": "/deck/audio/durante-during.sentence.mp3"
+  }
+}

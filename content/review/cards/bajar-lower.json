@@ -1,0 +1,17 @@
+{
+  "id": "bajar-lower",
+  "rank": 386,
+  "word": "bajar",
+  "draft": "42f798af2c6aad65",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to lower, to take down, to turn down (transitive bajar)",
+    "example": "Lower the weapon, please."
+  },
+  "note": "The hint correctly steers the learner away from reducir or disminuir (to lower a price or amount), and \"to lower\" stays separate from the sibling card \"to go down\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:17.010Z"
+}

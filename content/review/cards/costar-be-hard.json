@@ -1,0 +1,17 @@
+{
+  "id": "costar-be-hard",
+  "rank": 643,
+  "word": "costar",
+  "draft": "a6d9858acb89b0cf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to cost; (with an indirect object, as in me cuesta) to be hard for someone, to take effort",
+    "example": "It's hard for me to believe it. / I find it hard to believe."
+  },
+  "note": "The hint's blank, \"me ___ trabajo\", takes the conjugated form cuesta, while the answer is the infinitive costar; this works because it points clearly to costar over ser difícil, but the editor might want the hint to say the answer is the infinitive.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:00.467Z"
+}

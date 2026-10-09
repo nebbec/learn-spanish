@@ -1,0 +1,17 @@
+{
+  "id": "mujer-woman",
+  "rank": 146,
+  "word": "mujer",
+  "draft": "f282afaba3ff5eeb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "woman (also wife)",
+    "example": "That woman is my teacher."
+  },
+  "note": "Mujer also commonly means wife (mi mujer), which could be mentioned somewhere on the card, but it doesn't affect the answer to the prompt woman.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:29.212Z"
+}

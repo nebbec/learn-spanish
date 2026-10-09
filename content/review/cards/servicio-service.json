@@ -1,0 +1,17 @@
+{
+  "id": "servicio-service",
+  "rank": 594,
+  "word": "servicio",
+  "draft": "caa4a089c32a2db3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the service (noun, masculine)",
+    "example": "The service in this restaurant is excellent."
+  },
+  "note": "In Spain \"el servicio\" also commonly means a restroom, but that is a different meaning, so spain is correctly null for the \"service\" meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:44.958Z"
+}

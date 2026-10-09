@@ -1,0 +1,17 @@
+{
+  "id": "jamas-never",
+  "rank": 609,
+  "word": "jamás",
+  "draft": "6a55dbb2edb567fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "never (emphatic: never ever, not once)",
+    "example": "I am never going to forget you."
+  },
+  "note": "The hint is needed and correctly rules out nunca, and the English \"I will never forget you\" is a fair, natural translation of the \"voy a\" future.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:37.275Z"
+}

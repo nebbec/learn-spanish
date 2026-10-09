@@ -1,0 +1,13 @@
+{
+  "rank": 716,
+  "word": "culo",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "Culo means 'ass/butt' and is vulgar in most of Latin America, so it is not suitable as a beginner card."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:45:41.034Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ensenar-show",
+  "rank": 396,
+  "word": "enseñar",
+  "draft": "6846a012482a166c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to teach; to show (point out, let someone see something)",
+    "example": "I'll show you my new house."
+  },
+  "note": "In Latin America mostrar is probably the more common verb for \"show\", but the hint rules it out, so the card has only one right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:17.584Z"
+}

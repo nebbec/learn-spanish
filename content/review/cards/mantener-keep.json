@@ -1,0 +1,17 @@
+{
+  "id": "mantener-keep",
+  "rank": 264,
+  "word": "mantener",
+  "draft": "c5ab79eafd3a9ea9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to maintain, to keep (up), to keep (in a state); also to support financially",
+    "example": "Stay calm, everything is going to be okay."
+  },
+  "note": "The hint \"maintain, keep up; not store away\" correctly rules out guardar and quedarse con, and the imperative \"Mantén\" is a good extra example of the irregular tú command.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:11.915Z"
+}

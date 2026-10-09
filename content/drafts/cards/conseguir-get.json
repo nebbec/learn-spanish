@@ -1,0 +1,28 @@
+{
+  "id": "conseguir-get",
+  "rank": 190,
+  "kind": "content",
+  "pos": "verb",
+  "es": "conseguir",
+  "en": "to get",
+  "hint": "obtain something, often with effort",
+  "grammar": {
+    "present": {
+      "yo": "consigo",
+      "tu": "consigues",
+      "el": "consigue"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¿Dónde conseguiste esos zapatos?",
+    "en": "Where did you get those shoes?"
+  },
+  "spain": null,
+  "trick": "CONSEGUIR sounds like \"con, see, gear\": a con artist sees gear he wants and gets it.",
+  "image": "/deck/img/conseguir-get.webp",
+  "audio": {
+    "word": "/deck/audio/conseguir-get.word.mp3",
+    "sentence": "/deck/audio/conseguir-get.sentence.mp3"
+  }
+}

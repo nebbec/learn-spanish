@@ -1,0 +1,24 @@
+{
+  "id": "pelicula-movie",
+  "rank": 435,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la película",
+  "en": "movie",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Vemos una película esta noche?",
+    "en": "Should we watch a movie tonight?"
+  },
+  "spain": null,
+  "trick": "PELÍCULA sounds like \"pellicle\", a thin film, and movies were shot on thin film.",
+  "image": "/deck/img/pelicula-movie.webp",
+  "audio": {
+    "word": "/deck/audio/pelicula-movie.word.mp3",
+    "sentence": "/deck/audio/pelicula-movie.sentence.mp3"
+  }
+}

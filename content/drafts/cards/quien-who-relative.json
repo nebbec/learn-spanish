@@ -1,0 +1,21 @@
+{
+  "id": "quien-who-relative",
+  "rank": 217,
+  "kind": "glue",
+  "pos": "pronoun",
+  "es": "quien",
+  "en": "the friend with [whom] I live",
+  "hint": "relative pronoun after a preposition, not que; no accent",
+  "grammar": null,
+  "example": {
+    "es": "Ella es la chica con quien hablé.",
+    "en": "She's the girl I talked to."
+  },
+  "spain": null,
+  "trick": "QUIEN sounds like \"key-en\": the person who holds the key gets in.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/quien-who-relative.word.mp3",
+    "sentence": "/deck/audio/quien-who-relative.sentence.mp3"
+  }
+}

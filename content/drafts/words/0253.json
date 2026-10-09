@@ -1,0 +1,14 @@
+{
+  "rank": 253,
+  "word": "esposo",
+  "cards": [
+    "esposo-husband",
+    "esposo-wife",
+    "esposo-handcuffs"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:22:38.645Z"
+}

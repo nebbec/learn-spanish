@@ -1,0 +1,28 @@
+{
+  "id": "subir-get-in",
+  "rank": 351,
+  "kind": "content",
+  "pos": "verb",
+  "es": "subir",
+  "en": "to get in",
+  "hint": "a car, bus, train",
+  "grammar": {
+    "present": {
+      "yo": "subo",
+      "tu": "subes",
+      "el": "sube"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "¡Súbete al carro, ya nos vamos!",
+    "en": "Get in the car, we're leaving!"
+  },
+  "spain": null,
+  "trick": "SUBIR sounds like subway: you get in the subway car before the doors close.",
+  "image": "/deck/img/subir-get-in.webp",
+  "audio": {
+    "word": "/deck/audio/subir-get-in.word.mp3",
+    "sentence": "/deck/audio/subir-get-in.sentence.mp3"
+  }
+}

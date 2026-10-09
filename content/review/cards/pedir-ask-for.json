@@ -1,0 +1,17 @@
+{
+  "id": "pedir-ask-for",
+  "rank": 181,
+  "word": "pedir",
+  "draft": "98d3b7b05c99b5af",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to ask for, to request; to order (food, in a restaurant)",
+    "example": "I always ask my brother for help."
+  },
+  "note": "The hint is useful because it separates pedir (to request) from preguntar (to ask a question), and the e to i stem change (pido, pides, pide) is correctly marked as irregular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:32.362Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "todavia-still",
+  "rank": 249,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "todavía",
+  "en": "still",
+  "hint": "also yet in todavía no; not aún",
+  "grammar": null,
+  "example": {
+    "es": "¿Todavía estás en la casa?",
+    "en": "Are you still at home?"
+  },
+  "spain": null,
+  "trick": "TODAVÍA sounds like \"today via\": you're still on your way today, and you're not there yet.",
+  "image": "/deck/img/todavia-still.webp",
+  "audio": {
+    "word": "/deck/audio/todavia-still.word.mp3",
+    "sentence": "/deck/audio/todavia-still.sentence.mp3"
+  }
+}

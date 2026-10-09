@@ -1,0 +1,28 @@
+{
+  "id": "escribir-write",
+  "rank": 279,
+  "kind": "content",
+  "pos": "verb",
+  "es": "escribir",
+  "en": "to write",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "escribo",
+      "tu": "escribes",
+      "el": "escribe"
+    },
+    "irregular": false
+  },
+  "example": {
+    "es": "Te escribo un mensaje más tarde.",
+    "en": "I'll write you a message later."
+  },
+  "spain": null,
+  "trick": "ESCRIBIR sounds like a scribe: an old scribe sits all day writing letters by hand.",
+  "image": "/deck/img/escribir-write.webp",
+  "audio": {
+    "word": "/deck/audio/escribir-write.word.mp3",
+    "sentence": "/deck/audio/escribir-write.sentence.mp3"
+  }
+}

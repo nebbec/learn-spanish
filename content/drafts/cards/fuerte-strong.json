@@ -1,0 +1,23 @@
+{
+  "id": "fuerte-strong",
+  "rank": 359,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "fuerte",
+  "en": "strong",
+  "hint": null,
+  "grammar": {
+    "feminine": "fuerte"
+  },
+  "example": {
+    "es": "Mi papá es muy fuerte.",
+    "en": "My dad is very strong."
+  },
+  "spain": null,
+  "trick": "FUERTE sounds like a fort: a strong fort is hard to knock down.",
+  "image": "/deck/img/fuerte-strong.webp",
+  "audio": {
+    "word": "/deck/audio/fuerte-strong.word.mp3",
+    "sentence": "/deck/audio/fuerte-strong.sentence.mp3"
+  }
+}

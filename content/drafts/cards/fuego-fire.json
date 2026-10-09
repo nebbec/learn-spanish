@@ -1,0 +1,24 @@
+{
+  "id": "fuego-fire",
+  "rank": 512,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el fuego",
+  "en": "fire",
+  "hint": "flames, not a building on fire",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "No toques el fuego, quema.",
+    "en": "Don't touch the fire, it burns."
+  },
+  "spain": null,
+  "trick": "FUEGO sounds like 'fuel, go!': add fuel and the fire goes up in flames.",
+  "image": "/deck/img/fuego-fire.webp",
+  "audio": {
+    "word": "/deck/audio/fuego-fire.word.mp3",
+    "sentence": "/deck/audio/fuego-fire.sentence.mp3"
+  }
+}

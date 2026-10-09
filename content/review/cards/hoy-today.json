@@ -2,16 +2,16 @@
   "id": "hoy-today",
   "rank": 193,
   "word": "hoy",
-  "draft": "e3f881d7f2fee75d",
+  "draft": "4ba28c3644bcf2bb",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "today",
-    "example": "Today I don't have classes."
+    "example": "Today I have a lot of work."
   },
   "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:19.031Z"
+  "reviewedAt": "2026-10-09T14:26:41.330Z"
 }

@@ -1,0 +1,35 @@
+# preocupar-worry · rank 233 · preocupar
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt 'to worry' most naturally means the intransitive 'I worry', which Spanish says with preocuparse, so a fluent speaker could equally answer preocuparse, and nothing rules it out. Suggested fix: hint: to make someone worry, as in 'it worries me' (to worry yourself is preocuparse)
+#   - Example sentence: The sentence uses the reflexive preocuparse ('no te preocupes'), not preocupar in its transitive meaning of worrying someone. Suggested fix: example.es: Me preocupa tu salud. / example.en: Your health worries me.
+# Reviewer's note (not a reason to flag): You could instead make the card preocuparse (me preocupo, te preocupas, se preocupa) and keep 'No te preocupes'. That fits the prompt 'to worry' and is probably why the word ranks so high in the subtitles list.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: followed the reviewer's note instead of the two suggested fixes: made the card preocuparse (the natural answer to 'to worry') with reflexive grammar lines, and kept 'No te preocupes', which now matches; the suggested hint named preocuparse, nearly giving the answer away.
+decision: pending
+
+id:         preocupar-worry
+kind:       content
+pos:        verb
+es:         preocuparse
+en:         to worry
+hint:
+yo:         me preocupo
+tu:         te preocupas
+el:         se preocupa
+irregular:  no
+example.es: No te preocupes, todo va a estar bien.
+example.en: Don't worry, everything's going to be fine.
+spain:
+trick:      PREOCUPAR sounds like pre-occupy: when you worry, your mind is preoccupied.
+
+# The draft this file was made from. Do not change it.
+draft: 81d6ce61208401e6

@@ -1,0 +1,28 @@
+{
+  "id": "divertir-have-fun",
+  "rank": 762,
+  "kind": "content",
+  "pos": "verb",
+  "es": "divertirse",
+  "en": "to have fun",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "me divierto",
+      "tu": "te diviertes",
+      "el": "se divierte"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "¡Diviértete mucho en la fiesta!",
+    "en": "Have lots of fun at the party!"
+  },
+  "spain": null,
+  "trick": "DIVERTIRSE sounds like \"diverse\": a diverse party full of different people is where you have fun.",
+  "image": "/deck/img/divertir-have-fun.webp",
+  "audio": {
+    "word": "/deck/audio/divertir-have-fun.word.mp3",
+    "sentence": "/deck/audio/divertir-have-fun.sentence.mp3"
+  }
+}

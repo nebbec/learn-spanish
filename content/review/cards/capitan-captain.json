@@ -1,0 +1,17 @@
+{
+  "id": "capitan-captain",
+  "rank": 403,
+  "word": "capitán",
+  "draft": "fea568ebec0496e7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the captain",
+    "example": "The captain of the ship is very serious."
+  },
+  "note": "The feminine form is la capitana, which the editor could mention, but the masculine dictionary form is correct as the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:37.237Z"
+}

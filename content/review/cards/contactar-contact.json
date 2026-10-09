@@ -1,0 +1,17 @@
+{
+  "id": "contactar-contact",
+  "rank": 604,
+  "word": "contactar",
+  "draft": "ec9aea8bdf6a72e0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to contact (get in touch with someone)",
+    "example": "I'll contact you tomorrow by phone."
+  },
+  "note": "The phrases \"ponerse en contacto con\" and \"comunicarse con\" mean the same thing, but they are multi-word phrases, so contactar is still the one-word answer for \"to contact\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:27.133Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "oir-hear",
+  "rank": 122,
+  "word": "oír",
+  "draft": "0bc263fc363b5d87",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to hear (to perceive sound)",
+    "example": "Do you hear that noise outside?"
+  },
+  "note": "The hint is worth keeping because Latin American speakers often use escuchar to mean \"hear\", so it correctly steers the learner to oír.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:02.691Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fuerza-strength",
+  "rank": 515,
+  "word": "fuerza",
+  "draft": "0592e4800b91d81f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "strength, force (noun)",
+    "example": "I don't have the strength to lift this."
+  },
+  "note": "The plural \"No tengo fuerzas para...\" is also very common in this sense, but the singular in the example is correct and natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:09.775Z"
+}

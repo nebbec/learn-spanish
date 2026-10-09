@@ -1,0 +1,17 @@
+{
+  "id": "mama-mom",
+  "rank": 186,
+  "word": "mamá",
+  "draft": "c42f5ee1969d157e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "mom, mum (informal for mother)",
+    "example": "My mom cooks really deliciously / really well."
+  },
+  "note": "\"Cocina muy rico\" is a natural Latin American colloquialism, and Spain also says mamá, so null for spain is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:56.727Z"
+}

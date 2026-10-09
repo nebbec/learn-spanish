@@ -1,0 +1,31 @@
+# millon-million · rank 440 · millón
+#
+# Why it was flagged:
+#   - Memory trick: The trick says to add an O to million, but English million already ends in -on, and the Spanish actually drops the second i (millón, not millión), so a learner could misspell it. Suggested fix: trick: MILLÓN is million without the second i, with the stress on the end: mee-YOHN.
+# Reviewer's note (not a reason to flag): The example also shows the useful pattern un millón de + noun.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         millon-million
+kind:       content
+pos:        noun
+es:         el millón
+en:         million
+hint:
+gender:     m
+article:    el
+example.es: Esa casa cuesta un millón de dólares.
+example.en: That house costs a million dollars.
+spain:
+trick:      MILLÓN sounds like million with a Spanish accent: just add an O and stress the end.
+
+# The draft this file was made from. Do not change it.
+draft: 2abf236a3c305025

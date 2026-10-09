@@ -1,0 +1,21 @@
+{
+  "id": "ademas-besides",
+  "rank": 487,
+  "kind": "content",
+  "pos": "adverb",
+  "es": "además",
+  "en": "besides, moreover",
+  "hint": "adds another point, not también",
+  "grammar": null,
+  "example": {
+    "es": "Es tarde y, además, estoy cansado.",
+    "en": "It's late and, besides, I'm tired."
+  },
+  "spain": null,
+  "trick": "ADEMÁS sounds like add-a-mass: besides what you have, you add a whole mass more.",
+  "image": "/deck/img/ademas-besides.webp",
+  "audio": {
+    "word": "/deck/audio/ademas-besides.word.mp3",
+    "sentence": "/deck/audio/ademas-besides.sentence.mp3"
+  }
+}

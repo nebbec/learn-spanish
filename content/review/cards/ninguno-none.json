@@ -1,0 +1,17 @@
+{
+  "id": "ninguno-none",
+  "rank": 184,
+  "word": "ninguno",
+  "draft": "dc4f10fd90848d16",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "none, not one (pronoun)",
+    "example": "None of my friends came."
+  },
+  "note": "Ninguna would also fit an all-female group, but the masculine dictionary form ninguno is the expected answer, and the hint correctly rules out nadie and separates this card from the ningún determiner card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:45.358Z"
+}

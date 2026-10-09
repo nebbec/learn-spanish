@@ -1,0 +1,17 @@
+{
+  "id": "anoche-last-night",
+  "rank": 517,
+  "word": "anoche",
+  "draft": "0587c796a8cc31af",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "last night (adverb)",
+    "example": "Last night I didn't sleep at all."
+  },
+  "note": "Phrases like \"ayer en la noche\" and \"la noche pasada\" also mean \"last night\", but anoche is the standard one-word answer, so the card has no hint and doesn't need one.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:15.088Z"
+}

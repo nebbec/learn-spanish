@@ -1,0 +1,17 @@
+{
+  "id": "sexo-sex",
+  "rank": 577,
+  "word": "sexo",
+  "draft": "e94a9f99181118f8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sex (the act, and also biological sex as a category, as on a form)",
+    "example": "In the movie they talk a lot about sex."
+  },
+  "note": "Like English \"sex\", \"sexo\" covers both the act and biological sex (for example \"sexo: masculino\" on a form), so this one card covers both meanings.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:15.191Z"
+}

@@ -1,0 +1,30 @@
+# derecho-right-side · rank 483 · derecho
+#
+# Why it was flagged:
+#   - One right answer: The hint 'the side, not left' points to the side itself, so a learner could fairly answer the noun 'la derecha' (as in 'a la derecha') rather than the adjective 'derecho'. Suggested fix: hint: describing a noun, the side, not left, as in my right arm
+# Reviewer's note (not a reason to flag): The new hint also keeps this card apart from the word's other cards: el derecho (something you are entitled to) and derecho (straight ahead).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         derecho-right-side
+kind:       content
+pos:        adjective
+es:         derecho
+en:         right
+hint:       the side, not left
+feminine:   derecha
+example.es: Me duele el brazo derecho.
+example.en: My right arm hurts.
+spain:
+trick:      DERECHO sounds like "direct, yo": most people direct things with their right hand.
+
+# The draft this file was made from. Do not change it.
+draft: cb9925f0a3acd20b

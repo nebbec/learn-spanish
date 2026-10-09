@@ -1,0 +1,17 @@
+{
+  "id": "vender-sell",
+  "rank": 421,
+  "word": "vender",
+  "draft": "36d444f3334e932c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to sell",
+    "example": "My dad sells used cars."
+  },
+  "note": "The example uses carros, the normal Latin American word, where Spain would say coches, but vender itself is the same in Spain, so spain is correctly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:59.196Z"
+}

@@ -1,10 +1,8 @@
 # phrase-can-you-help-me · rank 144 · can-you-help-me
-# Reviewer's fix staged by Claude on 2026-10-04 for Courtney's bulk decision; decision left pending.
-# Claude: example.en left as it was, since it fits the tú version too. The example's Perdón is not met before this card in the current order, before and after this fix.
 #
 # Why it was flagged:
-#   - Latin American usage: The card uses the usted register (puede), but the app's Spanish must be in the informal tú register, with usted taught only as a word card of its own. Suggested fix: es: ¿Me puedes ayudar, por favor? | hint: Informal (tú) | example.es: Perdón, ¿me puedes ayudar, por favor? No entiendo.
-# Reviewer's note (not a reason to flag): With the formal hint, ¿Me podría ayudar, por favor? would also be a natural answer; the tú version has the same issue with ¿Me podrías ayudar?, so the editor could think about accepting the conditional form or making the hint rule it out.
+#   - Latin American usage: The app teaches the informal tú register and uses usted only on its own word card, but this card teaches the usted form 'puede' and its hint asks for formal speech. Suggested fix: es: ¿Me puedes ayudar, por favor? / hint: Informal: to a friend (tú) / example.es: Hola, ¿me puedes ayudar, por favor? No entiendo.
+# Reviewer's note (not a reason to flag): Other ways to say this are also correct and a learner might give them, such as '¿Puedes ayudarme, por favor?' (the pronoun placed after the verb), so the grader should accept them.
 #
 # To decide, change "pending" on the decision line to:
 #   approve   the card goes into the deck as written below, with any corrections you make
@@ -14,7 +12,8 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
-decision: approve
+# Staged by Claude 2026-10-09: applied the reviewer's fix to es and example.es (tú form); hint carried over as 'Informal (tú)' from the earlier approved corrections; example.en already fits.
+decision: pending
 
 id:         phrase-can-you-help-me
 kind:       phrase
@@ -22,10 +21,10 @@ pos:        phrase
 es:         ¿Me puedes ayudar, por favor?
 en:         Can you help me, please?
 hint:       Informal (tú)
-example.es: Perdón, ¿me puedes ayudar, por favor? No entiendo.
-example.en: Excuse me, can you help me, please? I don't understand.
+example.es: Hola, ¿me puedes ayudar, por favor? No entiendo.
+example.en: Hello, can you help me, please? I don't understand.
 spain:
 trick:
 
 # The draft this file was made from. Do not change it.
-draft: 70b5ca6c9914583b
+draft: a628f2104f0eb3f4

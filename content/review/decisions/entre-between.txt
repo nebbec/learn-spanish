@@ -1,0 +1,30 @@
+# entre-between · rank 237 · entre
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: banco, farmacia, parque. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids entre-between
+# Reviewer's note (not a reason to flag): The prompt fits the set phrase "entre tú y yo" well, and the example shows the physical meaning, so the card covers both uses.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: redrafted the example by hand; every word is met before this card.
+decision: pending
+
+id:         entre-between
+kind:       glue
+pos:        preposition
+es:         entre
+en:         [between] you and me
+hint:
+example.es: Siéntate entre tu papá y yo.
+example.en: Sit between your dad and me.
+spain:
+trick:      ENTRE sounds like enter: you enter the gap between two things.
+
+# The draft this file was made from. Do not change it.
+draft: 727891a1414d5906

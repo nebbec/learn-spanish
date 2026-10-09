@@ -1,0 +1,23 @@
+{
+  "id": "listo-ready",
+  "rank": 239,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "listo",
+  "en": "ready",
+  "hint": null,
+  "grammar": {
+    "feminine": "lista"
+  },
+  "example": {
+    "es": "¿Estás listo para salir?",
+    "en": "Are you ready to go out?"
+  },
+  "spain": null,
+  "trick": "LISTO sounds like list: once you tick off every item on your list, you're ready.",
+  "image": "/deck/img/listo-ready.webp",
+  "audio": {
+    "word": "/deck/audio/listo-ready.word.mp3",
+    "sentence": "/deck/audio/listo-ready.sentence.mp3"
+  }
+}

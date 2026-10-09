@@ -1,0 +1,31 @@
+# medico-doctor · rank 458 · médico
+#
+# Why it was flagged:
+#   - One right answer: The prompt says doctor and the hint says not doctor, which contradicts itself and doesn't clearly rule out el doctor, an equally common answer. Suggested fix: hint: physician; not the cognate el doctor
+# Reviewer's note (not a reason to flag): The feminine noun is la médica, which the editor could mention, since many speakers also say la doctora.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:         medico-doctor
+kind:       content
+pos:        noun
+es:         el médico
+en:         doctor
+hint:       physician, not doctor
+gender:     m
+article:    el
+example.es: Tengo que ir al médico mañana.
+example.en: I have to go to the doctor tomorrow.
+spain:
+trick:      MÉDICO sounds like medic: the medic is the doctor who fixes you.
+
+# The draft this file was made from. Do not change it.
+draft: 26c5eb896c36c4fa

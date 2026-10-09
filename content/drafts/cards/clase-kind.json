@@ -1,0 +1,24 @@
+{
+  "id": "clase-kind",
+  "rank": 311,
+  "kind": "content",
+  "pos": "noun",
+  "es": "la clase",
+  "en": "kind, sort",
+  "hint": "not tipo; as in what kind of person",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "es": "¿Qué clase de persona hace eso?",
+    "en": "What kind of person does that?"
+  },
+  "spain": null,
+  "trick": "CLASE sounds like class: things in the same class are the same kind.",
+  "image": "/deck/img/clase-kind.webp",
+  "audio": {
+    "word": "/deck/audio/clase-kind.word.mp3",
+    "sentence": "/deck/audio/clase-kind.sentence.mp3"
+  }
+}

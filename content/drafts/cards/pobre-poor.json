@@ -1,0 +1,23 @@
+{
+  "id": "pobre-poor",
+  "rank": 541,
+  "kind": "content",
+  "pos": "adjective",
+  "es": "pobre",
+  "en": "poor",
+  "hint": null,
+  "grammar": {
+    "feminine": "pobre"
+  },
+  "example": {
+    "es": "¡Pobre perro, tiene mucho frío!",
+    "en": "Poor dog, he's really cold!"
+  },
+  "spain": null,
+  "trick": "POBRE sounds like poor-bray: the poor donkey brays because he has no hay.",
+  "image": "/deck/img/pobre-poor.webp",
+  "audio": {
+    "word": "/deck/audio/pobre-poor.word.mp3",
+    "sentence": "/deck/audio/pobre-poor.sentence.mp3"
+  }
+}

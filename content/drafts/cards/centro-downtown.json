@@ -1,0 +1,24 @@
+{
+  "id": "centro-downtown",
+  "rank": 675,
+  "kind": "content",
+  "pos": "noun",
+  "es": "el centro",
+  "en": "downtown",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "es": "Vamos al centro a comprar ropa.",
+    "en": "Let's go downtown to buy clothes."
+  },
+  "spain": null,
+  "trick": "CENTRO is the center of town, so going al centro means heading downtown.",
+  "image": "/deck/img/centro-downtown.webp",
+  "audio": {
+    "word": "/deck/audio/centro-downtown.word.mp3",
+    "sentence": "/deck/audio/centro-downtown.sentence.mp3"
+  }
+}

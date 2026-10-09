@@ -1,0 +1,28 @@
+{
+  "id": "reconocer-admit",
+  "rank": 697,
+  "kind": "content",
+  "pos": "verb",
+  "es": "reconocer",
+  "en": "to admit",
+  "hint": "acknowledge, not admitir or confesar",
+  "grammar": {
+    "present": {
+      "yo": "reconozco",
+      "tu": "reconoces",
+      "el": "reconoce"
+    },
+    "irregular": true
+  },
+  "example": {
+    "es": "Reconozco que me equivoqué.",
+    "en": "I admit I was wrong."
+  },
+  "spain": null,
+  "trick": "RECONOCER: you re-know the truth out loud, finally admitting what everyone already knew.",
+  "image": "/deck/img/reconocer-admit.webp",
+  "audio": {
+    "word": "/deck/audio/reconocer-admit.word.mp3",
+    "sentence": "/deck/audio/reconocer-admit.sentence.mp3"
+  }
+}
