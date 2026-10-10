@@ -1,0 +1,33 @@
+{
+  "id": "haben-have",
+  "rank": 5,
+  "kind": "content",
+  "pos": "verb",
+  "target": "haben",
+  "en": "to have",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehabt"
+    }
+  },
+  "example": {
+    "target": "Hast du heute Abend Zeit?",
+    "en": "Do you have time tonight?"
+  },
+  "regional": null,
+  "trick": "HAH-ben sounds almost like have with an -en on the end: haben is to have.",
+  "image": "/deck-de/img/haben-have.webp",
+  "audio": {
+    "word": "/deck-de/audio/haben-have.word.mp3",
+    "sentence": "/deck-de/audio/haben-have.sentence.mp3"
+  }
+}

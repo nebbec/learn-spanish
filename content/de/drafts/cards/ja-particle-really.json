@@ -1,0 +1,21 @@
+{
+  "id": "ja-particle-really",
+  "rank": 20,
+  "kind": "glue",
+  "pos": "other",
+  "target": "ja",
+  "en": "That's [really] great!",
+  "hint": "particle of surprise, not wirklich",
+  "grammar": null,
+  "example": {
+    "target": "Du bist ja schon da!",
+    "en": "Oh, you're already here!"
+  },
+  "regional": null,
+  "trick": "JA sounds like \"yah\": picture a surprised \"yeah, wow!\" slipped into the middle of a sentence.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ja-particle-really.word.mp3",
+    "sentence": "/deck-de/audio/ja-particle-really.sentence.mp3"
+  }
+}

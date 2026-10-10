@@ -1,0 +1,19 @@
+{
+  "rank": 4,
+  "word": "sie",
+  "cards": [
+    "sie-she",
+    "sie-they",
+    "sie-her"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sie-she": null,
+    "sie-they": null,
+    "sie-her": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:30:24.296Z"
+}

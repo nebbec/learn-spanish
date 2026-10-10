@@ -20,8 +20,8 @@ import path from "node:path";
 import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { PHRASE_ID } from "@/lib/deck/validate";
 import type { CallUsage, Effort, Runner } from "./claude";
-import { DraftStore, formatDuration, slug, writeJson, type GroupKind } from "./drafting";
-import { GERMAN_REVIEW_SYSTEM } from "./prompts-de";
+import { DraftStore, formatDuration, slug, type SpanishMeaning, writeJson, type GroupKind } from "./drafting";
+import { GERMAN_REVIEW_SCHEMA, GERMAN_REVIEW_SYSTEM, germanReviewSystem } from "./prompts-de";
 import type { LangCode } from "./script-lang";
 
 /** Drafted cards of either language; the drafts' store says which (DE5). */
@@ -32,10 +32,13 @@ const FORM_PERSONS: Readonly<Record<LangCode, string>> = { es: "yo|tu|el", de: "
 
 /** The reviewer's checks, in the order it answers them. */
 export const CHECKS = ["meaning", "oneAnswer", "grammar", "usage", "example", "trick"] as const;
-export type CheckName = (typeof CHECKS)[number];
+/** German's reviewer also checks `sameAs`, the Spanish card whose still a German card may reuse (DE7). */
+export const CHECKS_BY_LANG: Readonly<Record<LangCode, readonly CheckName[]>> = { es: CHECKS, de: [...CHECKS, "sameAs"] };
+export type CheckName = (typeof CHECKS)[number] | "sameAs";
 /** Why a card is flagged: one of the reviewer's checks, or one the script makes itself. */
 export type Reason = CheckName | "id" | "deck" | "words" | "known-words";
 
+/** Spanish's labels, as the flagged list and decision files have always named the reasons. */
 export const REASON_LABELS: Record<Reason, string> = {
   meaning: "Meaning",
   oneAnswer: "One right answer",
@@ -47,7 +50,14 @@ export const REASON_LABELS: Record<Reason, string> = {
   deck: "Clash with another card",
   words: "Words outside the top 1,000",
   "known-words": "Example uses words not met yet",
+  sameAs: "Same meaning as a Spanish card",
 };
+
+/** A reason's label in a language's flagged list and decision files: German's usage is Germany's (DE7). */
+export function reasonLabel(reason: Reason, lang: LangCode = "es"): string {
+  if (lang === "de" && reason === "usage") return "Usage in Germany";
+  return REASON_LABELS[reason];
+}
 
 /** Words that follow the word in an id: one to three, naming the meaning. */
 const MAX_MEANING_WORDS = 3;
@@ -62,14 +72,14 @@ export function idProblem(id: string, word: string, rank: number, kind?: GroupKi
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) return "must be lower-case a-z and 0-9 words joined by single hyphens";
   // A form card's id is its verb's, then -form- and the person (Spanish haber's only card is haber-form-hay).
   if (kind === "form") {
-    const verb = slug(word);
+    const verb = slug(word, lang);
     const persons = FORM_PERSONS[lang];
     if (lang === "es" && verb === "haber") return id === "haber-form-hay" ? null : 'must be "haber-form-hay"';
     const ok = new RegExp(`^${verb}-form-(${persons})$`).test(id);
     return ok ? null : `must be "${verb}-form-" and ${persons.split("|").join(", ").replace(/, (\w+)$/, " or $1")}`;
   }
   if (kind === "phrase") return PHRASE_ID.test(id) ? null : 'must be "phrase-" and one to four English words';
-  const prefix = `${slug(word)}-`;
+  const prefix = `${slug(word, lang)}-`;
   if (!id.startsWith(prefix)) return `must start with "${prefix}" and then name the meaning`;
   let meaning = id.slice(prefix.length).split("-");
   if (meaning.length > 1 && meaning.at(-1) === String(rank)) meaning = meaning.slice(0, -1);
@@ -109,8 +119,16 @@ Last, note is one sentence for anything worth telling the editor that is not a p
 
 Every text field is one line of plain text, with no Markdown.`;
 
-/** The review pass's system prompt per language (DE5); the schema is shared. German's is DE7's to write. */
+/**
+ * The review pass's system prompt per language (DE5). German's (DE7) is followed by the Spanish cards a `sameAs`
+ * may name: see `reviewSystem`.
+ */
 export const REVIEW_SYSTEMS: Readonly<Record<LangCode, string>> = { es: REVIEW_SYSTEM_PROMPT, de: GERMAN_REVIEW_SYSTEM };
+
+/** The review's system prompt for a language: German's ends with the Spanish cards, to check `sameAs` against. */
+export function reviewSystem(lang: LangCode, spanish: readonly SpanishMeaning[] = []): string {
+  return lang === "es" ? REVIEW_SYSTEM_PROMPT : germanReviewSystem(spanish);
+}
 
 /**
  * The part of the card the reviewer sees: no id, rank or media paths. The Spanish review
@@ -125,9 +143,10 @@ function shownCard(card: DraftCard, lang: LangCode) {
 
 export function reviewPrompt(
   card: DraftCard,
-  word: Pick<DraftedWord, "rank" | "word" | "kind">,
+  word: Pick<DraftedWord, "rank" | "word" | "kind" | "sameAs">,
   others: DraftCard[],
   lang: LangCode = "es",
+  spanish: readonly SpanishMeaning[] = [],
 ): string {
   const prompt = (c: DraftCard) => (c.hint ? `"${c.en}" (hint: ${c.hint})` : `"${c.en}"`);
   const [about, owner, only] =
@@ -142,7 +161,16 @@ export function reviewPrompt(
     "",
     "The card:",
     JSON.stringify(shownCard(card, lang), null, 2),
+    ...(lang === "es" ? [] : ["", sameAsLine(word.sameAs?.[card.id] ?? null, spanish)]),
   ].join("\n");
+}
+
+/** What the draft said about the Spanish card of the same meaning (German, DE7), for the `sameAs` check. */
+function sameAsLine(id: string | null, spanish: readonly SpanishMeaning[]): string {
+  if (!id) return "sameAs: null (the draft found no Spanish card with this meaning).";
+  const match = spanish.find((s) => s.id === id);
+  const prompt = match ? `"${match.en}"${match.hint ? ` (hint: ${match.hint})` : ""}` : "not in the list";
+  return `sameAs: ${id}, the Spanish card ${prompt}.`;
 }
 
 const text = { type: "string" };
@@ -162,14 +190,26 @@ export const REVIEW_SCHEMA: Record<string, unknown> = object({
   note: nullable(text),
 });
 
+/** The review's schema per language: German's names the back-translated answer `target` and adds `sameAs` (DE7). */
+export const REVIEW_SCHEMAS: Readonly<Record<LangCode, Record<string, unknown>>> = { es: REVIEW_SCHEMA, de: GERMAN_REVIEW_SCHEMA };
+
 export interface Finding {
   reason: Reason;
   problem: string;
   fix: string | null;
 }
 
+/**
+ * The reviewer's own translation: of the answer (`es` in a Spanish review, `target` in a German one) and of the
+ * example sentence.
+ */
+export type BackTranslation = { es: string; example: string } | { target: string; example: string };
+
+/** The back-translated answer, whichever language's review it is. */
+export const backAnswer = (back: BackTranslation) => ("target" in back ? back.target : back.es);
+
 export interface ReviewAnswer {
-  back: { es: string; example: string };
+  back: BackTranslation;
   findings: Finding[];
   /** Something worth telling the editor that is not a problem (a hint not needed). Never flags the card. */
   note: string | null;
@@ -180,19 +220,22 @@ const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !
 const oneLine = (v: unknown) => (typeof v === "string" ? v.replace(/\s+/g, " ").trim() : "");
 
 /** Checks the reviewer's answer. A failed check needs a problem; a passed one keeps none. The note is optional. */
-export function guardReview(output: unknown): { ok: true; answer: ReviewAnswer } | { ok: false; fields: string[] } {
+export function guardReview(output: unknown, lang: LangCode = "es"): { ok: true; answer: ReviewAnswer } | { ok: false; fields: string[] } {
   const fields: string[] = [];
   const o = isRec(output) ? output : {};
   const back = isRec(o.back) ? o.back : {};
   const checks = isRec(o.checks) ? o.checks : {};
+  const key = lang === "es" ? "es" : "target";
+  const answered = oneLine(back[key]);
+  const example = oneLine(back.example);
   const answer: ReviewAnswer = {
-    back: { es: oneLine(back.es), example: oneLine(back.example) },
+    back: lang === "es" ? { es: answered, example } : { target: answered, example },
     findings: [],
     note: oneLine(o.note) || null,
   };
-  if (!answer.back.es) fields.push("back.es");
-  if (!answer.back.example) fields.push("back.example");
-  for (const name of CHECKS) {
+  if (!answered) fields.push(`back.${key}`);
+  if (!example) fields.push("back.example");
+  for (const name of CHECKS_BY_LANG[lang]) {
     const c = isRec(checks[name]) ? checks[name] : {};
     const problem = oneLine(c.problem);
     if (typeof c.ok !== "boolean" || (!c.ok && !problem)) fields.push(`checks.${name}`);
@@ -210,7 +253,7 @@ export interface Review {
   draft: string;
   flagged: boolean;
   findings: Finding[];
-  back: { es: string; example: string };
+  back: BackTranslation;
   /** The reviewer's note, which never flags a card. Reviews made before E4 have none. */
   note?: string | null;
   via: string;
@@ -229,6 +272,8 @@ export interface DraftedWord {
   kind?: GroupKind;
   /** A phrase group's words outside the top 1,000, by card id. Never printed. */
   outside?: Record<string, string[]>;
+  /** A German word's Spanish card of the same meaning, by card id (DE7). Never shipped. */
+  sameAs?: Record<string, string | null>;
 }
 
 /** The drafted words in a range of ranks, in rank order. */
@@ -370,6 +415,8 @@ export interface ReviewOptions {
   redo?: boolean;
   /** The known-words check's problem with each card's example, by id (L7). Cards not in it pass the check. */
   knownWords?: ReadonlyMap<string, string>;
+  /** German's review (DE7): the Spanish cards a `sameAs` may name. None when left out. */
+  spanish?: readonly SpanishMeaning[];
   /** Stop starting calls after this many failed calls in a row. */
   stopAfter?: number;
   print?: (line: string) => void;
@@ -414,6 +461,8 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
   }
   const todo = jobs.filter((j) => redo || store.get(j.card.id)?.draft !== cardHash(j.card));
   const deckProblems = drafts.deckProblems();
+  const spanish = options.spanish ?? [];
+  const system = reviewSystem(drafts.lang, spanish);
 
   const summary: ReviewSummary = {
     cards: jobs.length,
@@ -448,13 +497,13 @@ export async function reviewCards(words: DraftedWord[], options: ReviewOptions):
     for (let attempt = 1; attempt <= 1 + retries; attempt++) {
       if (summary.stopped) break;
       const result = await runner({
-        system: REVIEW_SYSTEMS[drafts.lang],
-        prompt: reviewPrompt(card, word, others, drafts.lang),
-        schema: REVIEW_SCHEMA,
+        system,
+        prompt: reviewPrompt(card, word, others, drafts.lang, spanish),
+        schema: REVIEW_SCHEMAS[drafts.lang],
         model,
         effort,
       });
-      const guarded = result.ok ? guardReview(result.output) : null;
+      const guarded = result.ok ? guardReview(result.output, drafts.lang) : null;
       const error = !result.ok ? result.error : guarded && !guarded.ok ? "invalid" : null;
       const fields = guarded && !guarded.ok ? guarded.fields : [];
       count(result.usage);

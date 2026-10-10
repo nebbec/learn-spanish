@@ -1,0 +1,33 @@
+{
+  "id": "koennen-can",
+  "rank": 17,
+  "kind": "content",
+  "pos": "verb",
+  "target": "können",
+  "en": "to be able to",
+  "hint": "can",
+  "grammar": {
+    "present": {
+      "ich": "kann",
+      "du": "kannst",
+      "er": "kann"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekonnt"
+    }
+  },
+  "example": {
+    "target": "Kannst du mir kurz helfen?",
+    "en": "Can you help me for a second?"
+  },
+  "regional": null,
+  "trick": "KÖNNEN starts with a k-n sound like 'can', and ich kann sounds almost exactly like 'I can'.",
+  "image": "/deck-de/img/koennen-can.webp",
+  "audio": {
+    "word": "/deck-de/audio/koennen-can.word.mp3",
+    "sentence": "/deck-de/audio/koennen-can.sentence.mp3"
+  }
+}

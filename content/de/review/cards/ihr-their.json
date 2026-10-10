@@ -1,0 +1,17 @@
+{
+  "id": "ihr-their",
+  "rank": 19,
+  "word": "ihr",
+  "draft": "982815fca4ee3e9d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "their (possessive determiner; also her)",
+    "example": "Anna and Tom are selling their car."
+  },
+  "note": "Both the prompt (ihr Hund, masculine nominative) and the example (ihr Auto, neuter accusative) correctly take the bare form ihr, so the learner never sees endings like ihre or ihren on this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:34:28.749Z"
+}

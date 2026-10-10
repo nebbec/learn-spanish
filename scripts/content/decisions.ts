@@ -24,8 +24,9 @@ import { type DraftStore, withMedia } from "./drafting";
 import {
   allDrafted,
   cardHash,
+  backAnswer,
   readDraftCard,
-  REASON_LABELS,
+  reasonLabel,
   type Finding,
   type Review,
   type ReviewStore,
@@ -116,8 +117,8 @@ const CARD_KEYS: Readonly<Record<LangCode, readonly string[]>> = {
 };
 
 /** A finding as one readable line. */
-function findingLine(f: Finding): string {
-  return `${REASON_LABELS[f.reason]}: ${f.problem}${f.fix ? ` Suggested fix: ${f.fix}` : ""}`;
+function findingLine(f: Finding, lang: LangCode = "es"): string {
+  return `${reasonLabel(f.reason, lang)}: ${f.problem}${f.fix ? ` Suggested fix: ${f.fix}` : ""}`;
 }
 
 /** The text of a new decision file for a flagged card. */
@@ -128,13 +129,16 @@ export function decisionFile(card: DraftCard, review: Review, lang: LangCode = "
     `# ${card.id} · rank ${review.rank} · ${review.word}`,
     "#",
     "# Why it was flagged:",
-    ...review.findings.map((f) => `#   - ${findingLine(f)}`),
+    ...review.findings.map((f) => `#   - ${findingLine(f, lang)}`),
     ...(review.note ? [`# Reviewer's note (not a reason to flag): ${review.note}`] : []),
     "#",
     '# To decide, change "pending" on the decision line to:',
     "#   approve   the card goes into the deck as written below, with any corrections you make",
     "#   reject    the card stays out of the deck",
     "# To correct the card, change the text after the colon on any card line.",
+    ...(review.findings.some((f) => f.reason === "sameAs")
+      ? [`# sameAs is not a card line: correct it in ${LANGS[lang].contentDir}/drafts/words/${String(review.rank).padStart(4, "0")}.json.`]
+      : []),
     lang === "es"
       ? "# Leave hint or regional.text empty for none; irregular is yes or no."
       : "# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.",
@@ -359,17 +363,17 @@ export function renderFlaggedList(cards: FlaggedCard[], lang: LangCode = "es"): 
       "",
       "Why it was flagged:",
       "",
-      ...review.findings.map((f) => `- ${findingLine(f)}`),
+      ...review.findings.map((f) => `- ${findingLine(f, lang)}`),
       "",
       ...(review.note ? [`Reviewer's note (not a reason to flag): ${review.note}`, ""] : []),
-      `The reviewer's own translation: answer "${review.back.es}"; example "${review.back.example}".`,
+      `The reviewer's own translation: answer "${backAnswer(review.back)}"; example "${review.back.example}".`,
       "",
     );
   }
   out.push("## Decided", "");
   if (!decided.length) out.push("Nothing yet.", "");
   for (const { card, review, state } of decided) {
-    out.push(`- ${card.id} (rank ${review.rank}, ${review.word}): ${STATE_TEXT[state]}. Flagged for ${[...new Set(review.findings.map((f) => REASON_LABELS[f.reason]))].join(", ").toLowerCase()}.`);
+    out.push(`- ${card.id} (rank ${review.rank}, ${review.word}): ${STATE_TEXT[state]}. Flagged for ${[...new Set(review.findings.map((f) => reasonLabel(f.reason, lang)))].join(", ").toLowerCase()}.`);
   }
   return `${out.join("\n").trimEnd()}\n`;
 }

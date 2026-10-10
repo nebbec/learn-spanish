@@ -12,7 +12,7 @@ import path from "node:path";
 import { ARTICLES, REGIONS, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard, type Regional } from "@/lib/deck/types";
 import { CASE_ID, FORM_ID, GERMAN_FORM_ID, PHRASE_ID, validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
 import type { CallUsage, DraftRequest, Effort, Runner } from "./claude";
-import { GERMAN_DRAFT_SYSTEM, germanDraftSchema } from "./prompts-de";
+import { GERMAN_DRAFT_SYSTEM, germanDraftSchema, germanDraftSystem, type SpanishMeaning } from "./prompts-de";
 import { LANGS, type LangCode } from "./script-lang";
 
 export interface WordEntry {
@@ -37,15 +37,23 @@ export function parseWordList(text: string): WordEntry[] {
   });
 }
 
-/** Lower-case ASCII: accents dropped, anything else between words becomes a hyphen. */
-export function slug(text: string): string {
-  return text
+/**
+ * Lower-case ASCII: accents dropped, anything else between words becomes a hyphen. German writes ä, ö and ü as ae,
+ * oe and ue and ß as ss first (DE7), so `schön` is `schoen`, never `schon`, and `weiß` is `weiss`.
+ */
+export function slug(text: string, lang: LangCode = "es"): string {
+  const spelled = lang === "de" ? germanAscii(text) : text;
+  return spelled
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
+
+/** German's spelling in ASCII: ä, ö, ü as ae, oe, ue and ß as ss, keeping a capital's case. */
+export const germanAscii = (text: string) =>
+  text.replace(/[äöüÄÖÜß]/g, (c) => ({ ä: "ae", ö: "oe", ü: "ue", Ä: "Ae", Ö: "Oe", Ü: "Ue", ß: "ss" })[c]!);
 
 export const SKIP_REASONS = [
   "interjection",
@@ -55,7 +63,13 @@ export const SKIP_REASONS = [
   "covered-elsewhere",
   "other",
 ] as const;
-export type SkipReason = (typeof SKIP_REASONS)[number];
+
+/** The skip reasons per language (DE7): German's word used only in Austria or Switzerland is `regional-only`. */
+export const SKIP_REASONS_BY_LANG: Readonly<Record<LangCode, readonly string[]>> = {
+  es: SKIP_REASONS,
+  de: ["interjection", "vulgar", "regional-only", "name-or-foreign", "covered-elsewhere", "other"],
+};
+export type SkipReason = (typeof SKIP_REASONS)[number] | "regional-only";
 export interface Skip {
   reason: SkipReason;
   note: string;
@@ -132,11 +146,30 @@ export const DRAFT_SCHEMA: Record<string, unknown> = object({
   },
 });
 
-/** The word pass's system prompt and schema per language (DE5). German's are DE7's to write; see prompts-de.ts. */
+/**
+ * The word pass's system prompt and schema per language (DE5). German's prompt (DE7) is followed by the Spanish
+ * cards it may name in `sameAs`: see `draftRequest`.
+ */
 export const DRAFT_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Record<string, unknown> }>> = {
   es: { system: SYSTEM_PROMPT, schema: DRAFT_SCHEMA },
-  de: { system: GERMAN_DRAFT_SYSTEM, schema: germanDraftSchema(SKIP_REASONS) },
+  de: { system: GERMAN_DRAFT_SYSTEM, schema: germanDraftSchema(SKIP_REASONS_BY_LANG.de) },
 };
+
+export type { SpanishMeaning };
+
+/** The Spanish content cards of a Spanish draft store, in id order: what German's `sameAs` may name. */
+export function spanishMeanings(spanish: DraftStore): SpanishMeaning[] {
+  return spanish
+    .cards()
+    .filter((c) => c.kind === "content")
+    .map(({ id, en, hint }) => ({ id, en, hint }));
+}
+
+/** The word pass's request for a language: German's system prompt ends with the Spanish cards `sameAs` may name. */
+export function draftRequest(lang: LangCode, spanish: readonly SpanishMeaning[] = []) {
+  const request = DRAFT_REQUESTS[lang];
+  return lang === "es" ? request : { ...request, system: germanDraftSystem(spanish) };
+}
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -239,7 +272,7 @@ function grammarFor(pos: unknown, raw: unknown, g: Guard, lang: LangCode = "es")
 function buildCard(raw: unknown, entry: WordEntry, g: Guard, lang: LangCode = "es"): DraftCard {
   const r = isRec(raw) ? raw : {};
   const id = typeof r.id === "string" ? r.id.trim().toLowerCase() : "";
-  const prefix = slug(entry.word);
+  const prefix = slug(entry.word, lang);
   if (id !== prefix && !id.startsWith(`${prefix}-`)) g.fail("id");
   const claude = claudeTexts(r, g, lang);
   const card = withMedia(
@@ -265,7 +298,7 @@ function buildCard(raw: unknown, entry: WordEntry, g: Guard, lang: LangCode = "e
 /**
  * The answer, the example and the regional footnote from Claude's answer, by the language's field names: the
  * Spanish schemas keep `es`, `example.es` and `spain` (a string; Spain is the only region), German's use the
- * deck's own `target`, `example.target` and `regional` (`{ where, text }` or null), until DE7 decides otherwise.
+ * deck's own `target`, `example.target` and `regional` (`{ where, text }` or null): DE7 kept them.
  */
 export function claudeTexts(r: Rec, g: Guard, lang: LangCode = "es") {
   if (lang === "es") {
@@ -341,15 +374,24 @@ export type GroupKind = "form" | "phrase";
 
 /** The guard's verdict on one answer. `T` is what a task drafts: cards, or a tip (L4). */
 export type Guarded<T = DraftCard> =
-  | { ok: true; cards: T[]; skip: Skip | null }
+  /** `sameAs` (German word cards, DE7): each card's Spanish card of the same meaning, or null, in card order. */
+  | { ok: true; cards: T[]; skip: Skip | null; sameAs?: Array<string | null> }
   | { ok: false; kind: "shape" | "invalid"; fields: string[] };
 
-/** The output guard: turns Claude's answer for one word into valid cards, or names the failing fields. */
-export function guardDraft(output: unknown, entry: WordEntry, lang: LangCode = "es"): Guarded {
+/**
+ * The output guard: turns Claude's answer for one word into valid cards, or names the failing fields. A German
+ * card's `sameAs` must be null or one of `spanish`'s ids (DE7); it is returned beside the cards, never in them.
+ */
+export function guardDraft(
+  output: unknown,
+  entry: WordEntry,
+  lang: LangCode = "es",
+  spanish: ReadonlySet<string> = new Set(),
+): Guarded {
   if (!isRec(output) || !Array.isArray(output.cards)) return { ok: false, kind: "shape", fields: [] };
   if (output.skip != null) {
     const skip = output.skip;
-    if (!isRec(skip) || !SKIP_REASONS.includes(skip.reason as SkipReason) || output.cards.length > 0) {
+    if (!isRec(skip) || !SKIP_REASONS_BY_LANG[lang].includes(skip.reason as string) || output.cards.length > 0) {
       return { ok: false, kind: "invalid", fields: ["skip"] };
     }
     return { ok: true, cards: [], skip: { reason: skip.reason as SkipReason, note: String(skip.note ?? "") } };
@@ -362,8 +404,17 @@ export function guardDraft(output: unknown, entry: WordEntry, lang: LangCode = "
   if (new Set(cards.map((c) => c.id)).size < cards.length) g.fail("id");
   const prompts = cards.map((c) => `${c.en.toLowerCase()}|${(c.hint ?? "").toLowerCase()}`);
   if (new Set(prompts).size < cards.length) g.fail("en");
+  if (lang === "es") {
+    if (g.fields.size > 0) return { ok: false, kind: "invalid", fields: [...g.fields].sort() };
+    return { ok: true, cards, skip: null };
+  }
+  const sameAs = output.cards.map((raw) => {
+    const value = isRec(raw) && typeof raw.sameAs === "string" ? raw.sameAs.trim() : null;
+    if (value && !spanish.has(value)) g.fail("sameAs");
+    return value || null;
+  });
   if (g.fields.size > 0) return { ok: false, kind: "invalid", fields: [...g.fields].sort() };
-  return { ok: true, cards, skip: null };
+  return { ok: true, cards, skip: null, sameAs };
 }
 
 /** The draft files under one directory (content/drafts by default), for one language (DE5): Spanish unless given. */
@@ -412,9 +463,10 @@ export class DraftStore {
   /**
    * Replaces a word's cards. Card files go first and the word file last, so a
    * word whose word file is missing is drafted again on the next run. An id
-   * another word already holds gets this word's rank appended.
+   * another word already holds gets this word's rank appended. A German word
+   * file keeps each card's `sameAs` by the id saved (DE7); it is never shipped.
    */
-  saveWord(entry: WordEntry, cards: DraftCard[], skip: Skip | null, meta: Rec): string[] {
+  saveWord(entry: WordEntry, cards: DraftCard[], skip: Skip | null, meta: Rec, sameAs?: Array<string | null>): string[] {
     for (const [id, rank] of this.index) {
       // Form and phrase cards share ranks with words but belong to their group files.
       if (rank !== entry.rank || isPathId(id)) continue;
@@ -428,7 +480,8 @@ export class DraftStore {
       this.index.set(card.id, entry.rank);
       ids.push(card.id);
     }
-    writeJson(this.wordFile(entry.rank), { rank: entry.rank, word: entry.word, cards: ids, skip, ...meta });
+    const same = sameAs ? { sameAs: Object.fromEntries(ids.map((id, i) => [id, sameAs[i] ?? null])) } : {};
+    writeJson(this.wordFile(entry.rank), { rank: entry.rank, word: entry.word, cards: ids, skip, ...same, ...meta });
     return ids;
   }
 
@@ -505,6 +558,8 @@ export interface DraftOptions {
   redo?: boolean;
   /** Stop starting calls after this many failed calls in a row. */
   stopAfter?: number;
+  /** German's word pass (DE7): the Spanish cards a card's `sameAs` may name. None when left out. */
+  spanish?: readonly SpanishMeaning[];
   print?: (line: string) => void;
   sleep?: (ms: number) => Promise<void>;
   now?: () => number;
@@ -551,17 +606,25 @@ export interface DraftTask<T = DraftCard> {
 
 export async function draftWords(entries: WordEntry[], options: DraftOptions): Promise<DraftSummary> {
   const { store } = options;
-  const tasks = entries.map(
-    (entry): DraftTask => ({
+  const spanish = options.spanish ?? [];
+  const request = draftRequest(store.lang, spanish);
+  const spanishIds = new Set(spanish.map((s) => s.id));
+  const tasks = entries.map((entry): DraftTask => {
+    let sameAs: Array<string | null> | undefined;
+    return {
       label: `#${entry.rank} ${entry.word}`,
       done: store.isDrafted(entry.rank),
       log: { rank: entry.rank, word: entry.word },
       failedName: String(entry.rank).padStart(4, "0"),
-      request: { ...DRAFT_REQUESTS[store.lang], prompt: userPrompt(entry) },
-      guard: (output) => guardDraft(output, entry, store.lang),
-      save: (cards, skip, meta) => store.saveWord(entry, cards, skip, meta),
-    }),
-  );
+      request: { ...request, prompt: userPrompt(entry) },
+      guard: (output) => {
+        const guarded = guardDraft(output, entry, store.lang, spanishIds);
+        sameAs = guarded.ok ? guarded.sameAs : undefined;
+        return guarded;
+      },
+      save: (cards, skip, meta) => store.saveWord(entry, cards, skip, meta, store.lang === "es" ? undefined : (sameAs ?? [])),
+    };
+  });
   return runDraftTasks(tasks, options);
 }
 

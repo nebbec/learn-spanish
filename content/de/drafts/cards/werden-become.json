@@ -1,0 +1,33 @@
+{
+  "id": "werden-become",
+  "rank": 13,
+  "kind": "content",
+  "pos": "verb",
+  "target": "werden",
+  "en": "to become",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geworden"
+    }
+  },
+  "example": {
+    "target": "Draußen wird es schon kalt.",
+    "en": "It's already getting cold outside."
+  },
+  "regional": null,
+  "trick": "WERDEN sounds like VAIR-den, close to warden: work hard and you might become a warden.",
+  "image": "/deck-de/img/werden-become.webp",
+  "audio": {
+    "word": "/deck-de/audio/werden-become.word.mp3",
+    "sentence": "/deck-de/audio/werden-become.sentence.mp3"
+  }
+}

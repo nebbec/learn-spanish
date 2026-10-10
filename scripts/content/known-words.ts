@@ -32,6 +32,21 @@ export const NUMBER_WORDS = new Set(
   ).split(" "),
 );
 
+/**
+ * German's number words (DE7), free like Spanish's. "ein" and "eine" are articles, so not here; "eins" is the
+ * number said alone.
+ */
+export const NUMBER_WORDS_DE = new Set(
+  (
+    "null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf dreizehn vierzehn fünfzehn sechzehn " +
+    "siebzehn achtzehn neunzehn zwanzig dreißig dreissig vierzig fünfzig sechzig siebzig achtzig neunzig hundert " +
+    "tausend million millionen"
+  ).split(" "),
+);
+
+/** The number words of a language. */
+export const numberWords = (lang: LangCode = "es") => (lang === "de" ? NUMBER_WORDS_DE : NUMBER_WORDS);
+
 /** E1's lemma list: each word form's possible lemmas, and every lemma. */
 export interface Lemmas {
   map: Map<string, Set<string>>;
@@ -121,13 +136,44 @@ export function cardWords(card: Pick<DraftCard, "target" | "grammar">, lemmas: L
 
 /**
  * An unknown word that is an obvious cognate: it appears in the English translation as it is, without its accents,
- * without a final vowel (problema, música), or with -ción as -tion and -dad as -ty.
+ * without a final vowel (problema, música), or with -ción as -tion and -dad as -ty. German's rule is its own
+ * (`isGermanCognate`).
  */
-export function isCognate(word: string, english: string): boolean {
+export function isCognate(word: string, english: string, lang: LangCode = "es"): boolean {
+  if (lang === "de") return isGermanCognate(word, english);
   const en = new Set(tokens(english).map((t) => normalize(t.word)));
   const w = stripAccents(normalize(word)) as string;
   const forms = [w, w.replace(/[aeo]$/, ""), w.replace(/ción$/, "tion").replace(/cion$/, "tion"), w.replace(/dad$/, "ty")];
   return forms.some((f) => f.length > 2 && en.has(f));
+}
+
+/**
+ * German's obvious cognate (DE7): an unknown word that appears in the English translation as it is (Hotel, Taxi,
+ * Information: -ion unchanged), or after the usual changes, c for k and ph for f (Doktor, Musik, Telefon), -tät as
+ * -ty (Universität), -ie as -y (Familie), -isch as -ic, a final e dropped, umlauts and ß as plain letters. A word of
+ * five letters or more also counts when one letter is all that differs from an English word of the sentence after
+ * those changes (Kaffee as coffee, Banane as banana), since such pairs are the obvious ones.
+ */
+export function isGermanCognate(word: string, english: string): boolean {
+  const en = tokens(english).map((t) => normalize(t.word));
+  const w = normalize(word);
+  const ends = [w, w.replace(/tät$/, "ty"), w.replace(/ie$/, "y"), w.replace(/isch$/, "ic"), w.replace(/e$/, "")];
+  const plain = (f: string) =>
+    f.replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u").replace(/ß/g, "ss");
+  const forms = new Set(ends.flatMap((f) => [f, f.replace(/k/g, "c"), f.replace(/f/g, "ph"), f.replace(/k/g, "c").replace(/f/g, "ph")]).map(plain));
+  return en.some((e) =>
+    [...forms].some((f) => f.length > 2 && (f === e || f === e.replace(/e$/, "") || (f.length >= 5 && oneEditApart(f, e)))),
+  );
+}
+
+/** Two words one letter apart: one changed, added or dropped. */
+function oneEditApart(a: string, b: string): boolean {
+  if (a === b) return true;
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  if (a.length === b.length) return a.slice(i + 1) === b.slice(i + 1);
+  return a.length > b.length ? a.slice(i + 1) === b.slice(i) : a.slice(i) === b.slice(i + 1);
 }
 
 export interface ExampleCheck {
@@ -157,11 +203,11 @@ export function checkExample(
   const cognates: string[] = [];
   for (const { word, first } of tokens(card.example.target)) {
     const lower = normalize(word);
-    if (NUMBER_WORDS.has(lower) || isKnown(word)) continue;
+    if (numberWords(lemmas.lang).has(lower) || isKnown(word)) continue;
     const capital = word !== lower;
     const listed = lemmas.map.has(lower) || lemmas.set.has(lower);
     if (capital && (lemmas.lang === "de" ? !listed : !first || !listed)) continue;
-    (isCognate(word, card.example.en) ? cognates : unknown).push(word);
+    (isCognate(word, card.example.en, lemmas.lang) ? cognates : unknown).push(word);
   }
   const starter = card.unit !== null;
   const others = unknown.length + cognates.length;

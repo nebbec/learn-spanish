@@ -1,0 +1,17 @@
+{
+  "id": "wir-we",
+  "rank": 11,
+  "word": "wir",
+  "draft": "dab5f25b9efd798e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "we",
+    "example": "We're going to the cinema today."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:32.340Z"
+}

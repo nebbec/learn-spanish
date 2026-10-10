@@ -1,0 +1,17 @@
+{
+  "id": "zu-closed",
+  "rank": 14,
+  "word": "zu",
+  "draft": "98fa45505932cdac",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "closed, shut (predicative, colloquial)",
+    "example": "The shop is already closed."
+  },
+  "note": "In this meaning zu works only after a verb (der Laden ist zu); before a noun (eine zue Tür) it is colloquial and nonstandard, so the editor could mention that in the grammar or a tip.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:59.374Z"
+}

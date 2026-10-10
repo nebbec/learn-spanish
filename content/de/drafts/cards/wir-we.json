@@ -1,0 +1,21 @@
+{
+  "id": "wir-we",
+  "rank": 11,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "wir",
+  "en": "[we] are going home",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir gehen heute ins Kino.",
+    "en": "We're going to the cinema today."
+  },
+  "regional": null,
+  "trick": "WIR sounds like \"veer\": we veer off the road together.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wir-we.word.mp3",
+    "sentence": "/deck-de/audio/wir-we.sentence.mp3"
+  }
+}

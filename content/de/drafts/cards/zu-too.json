@@ -1,0 +1,21 @@
+{
+  "id": "zu-too",
+  "rank": 14,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "zu",
+  "en": "That's [too] expensive",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist mir zu teuer.",
+    "en": "That's too expensive for me."
+  },
+  "regional": null,
+  "trick": "ZU sounds like tsoo, almost English too: tsoo expensive, tsoo big.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/zu-too.word.mp3",
+    "sentence": "/deck-de/audio/zu-too.sentence.mp3"
+  }
+}

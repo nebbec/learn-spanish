@@ -1,0 +1,15 @@
+{
+  "rank": 10,
+  "word": "und",
+  "cards": [
+    "und-and"
+  ],
+  "skip": null,
+  "sameAs": {
+    "und-and": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:30:44.265Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "es-it",
+  "rank": 9,
+  "word": "es",
+  "draft": "09d0e9a7fc96bf43",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "it (personal pronoun, neuter, also impersonal subject)",
+    "example": "It's raining again (already)."
+  },
+  "note": "Since this is the word's only card, the editor might later add a card for es as a pronoun that stands for a neuter noun (\"Das Buch? Ich habe es.\"). The impersonal use here is a good first pick.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:27.003Z"
+}

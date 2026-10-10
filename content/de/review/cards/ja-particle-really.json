@@ -1,0 +1,23 @@
+{
+  "id": "ja-particle-really",
+  "rank": 20,
+  "word": "ja",
+  "draft": "5551cb13ed9f3b72",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint rules out wirklich but not aber, the other common particle of surprise: Das ist aber toll! is just as right as Das ist ja toll!, and the adverb echt also fits.",
+      "fix": "hint: particle of surprise, not aber, echt or wirklich"
+    }
+  ],
+  "back": {
+    "target": "(modal particle) expressing surprise or a shared obvious fact; roughly oh, really, after all",
+    "example": "Oh, you're already here!"
+  },
+  "note": "English has no real word for this ja, so the bracketed [really] is only a rough stand-in, and the hint does most of the work.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:33:40.290Z"
+}

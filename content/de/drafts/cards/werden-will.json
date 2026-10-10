@@ -1,0 +1,33 @@
+{
+  "id": "werden-will",
+  "rank": 13,
+  "kind": "glue",
+  "pos": "verb",
+  "target": "werden",
+  "en": "We [will] see",
+  "hint": "future helper verb",
+  "grammar": {
+    "present": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geworden"
+    }
+  },
+  "example": {
+    "target": "Ich werde dich morgen anrufen.",
+    "en": "I will call you tomorrow."
+  },
+  "regional": null,
+  "trick": "WERDEN sounds like VAIR-den, a bit like very soon: what will happen comes very soon.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/werden-will.word.mp3",
+    "sentence": "/deck-de/audio/werden-will.sentence.mp3"
+  }
+}

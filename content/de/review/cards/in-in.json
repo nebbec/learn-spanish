@@ -1,0 +1,17 @@
+{
+  "id": "in-in",
+  "rank": 16,
+  "word": "in",
+  "draft": "f1583efbcc3f590a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "in (preposition: inside, within; also into with movement)",
+    "example": "I live in Berlin."
+  },
+  "note": "The prompt works because \"die Tasche\" is feminine, which gives \"in der Tasche\" and avoids the contraction \"im\"; the editor might mention somewhere that \"in\" takes the dative for location and the accusative for movement into something.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:33:05.859Z"
+}

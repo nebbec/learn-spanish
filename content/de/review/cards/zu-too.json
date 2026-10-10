@@ -1,0 +1,17 @@
+{
+  "id": "zu-too",
+  "rank": 14,
+  "word": "zu",
+  "draft": "a11d252aaeb46210",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "too (excessively, before an adjective or adverb)",
+    "example": "That's too expensive for me."
+  },
+  "note": "The context \"too expensive\" rules out auch (too in the sense of also), so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:53.072Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ihr-her",
+  "rank": 19,
+  "word": "ihr",
+  "draft": "484e4e5f89dd7165",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "her (possessive determiner, for a female owner)",
+    "example": "That is her brother."
+  },
+  "note": "At the start of the prompt sentence the answer is written with a capital, Ihr Bruder ist hier, so learners may be confused with formal Ihr; the lowercase target in the example avoids this.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:34:22.043Z"
+}

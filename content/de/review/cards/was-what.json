@@ -1,0 +1,17 @@
+{
+  "id": "was-what",
+  "rank": 12,
+  "word": "was",
+  "draft": "034ea74dc3890050",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "what (question word / pronoun)",
+    "example": "What are you doing this evening?"
+  },
+  "note": "In everyday speech, was also often means etwas (something), as in Ich hab was gefunden, so a second card for that meaning could be useful later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:37.165Z"
+}

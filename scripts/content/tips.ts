@@ -104,7 +104,7 @@ export const TIP_SCHEMA: Rec = object({
   examples: { type: "array", items: object({ es: text, en: text }) },
 });
 
-/** The tip pass's system prompt and schema per language (DE5). German's are DE7's to write; see prompts-de.ts. */
+/** The tip pass's system prompt and schema per language (DE5). German's are in prompts-de.ts (DE7). */
 export const TIP_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
   es: { system: TIP_SYSTEM_PROMPT, schema: TIP_SCHEMA },
   de: { system: GERMAN_TIP_SYSTEM, schema: GERMAN_TIP_SCHEMA },

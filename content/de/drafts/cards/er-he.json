@@ -1,0 +1,21 @@
+{
+  "id": "er-he",
+  "rank": 15,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "er",
+  "en": "[He] is my brother.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Er kommt heute nicht.",
+    "en": "He's not coming today."
+  },
+  "regional": null,
+  "trick": "ER sounds like \"air\": he is full of hot air.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/er-he.word.mp3",
+    "sentence": "/deck-de/audio/er-he.sentence.mp3"
+  }
+}

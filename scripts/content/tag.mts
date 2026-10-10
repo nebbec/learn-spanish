@@ -12,8 +12,7 @@
 // card has no tag, a tag made for an earlier draft, or a tag the checks refuse; --redo tags it again anyway.
 // Tags of cards no longer drafted are deleted.
 //
-// --lang de (DE5) reads and writes content/de/ in place of content/. German's prompts are stand-ins until
-// DE7, so a German run that would call Claude is refused; --check runs.
+// --lang de (DE5) reads and writes content/de/ in place of content/, with German's prompt (DE7).
 //
 // Prints only ranks, words, ids, unit and tip ids, and counts, never card text.
 

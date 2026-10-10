@@ -1,0 +1,15 @@
+{
+  "rank": 8,
+  "word": "nicht",
+  "cards": [
+    "nicht-not"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nicht-not": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:30:37.496Z"
+}

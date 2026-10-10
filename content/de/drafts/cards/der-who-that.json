@@ -1,0 +1,21 @@
+{
+  "id": "der-who-that",
+  "rank": 1,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "der",
+  "en": "the man [who] lives here",
+  "hint": "short word, not welcher",
+  "grammar": null,
+  "example": {
+    "target": "Das ist der Mann, der hier wohnt.",
+    "en": "That's the man who lives here."
+  },
+  "regional": null,
+  "trick": "DER sounds like \"dare\": the man who dares wins.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/der-who-that.word.mp3",
+    "sentence": "/deck-de/audio/der-who-that.sentence.mp3"
+  }
+}

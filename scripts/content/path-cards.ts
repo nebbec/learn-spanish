@@ -77,14 +77,37 @@ export const FORM_VERBS: FormVerb[] = [
   { verb: "decir", card: "decir-say", persons: THREE },
 ];
 
-/**
- * The verbs that get form cards, per language. German's list (sein, haben, werden, können…) is DE7's; until
- * then a German `--forms` run has no verbs.
- */
-export const FORM_VERBS_BY_LANG: Readonly<Record<LangCode, readonly FormVerb[]>> = { es: FORM_VERBS, de: [] };
+const GERMAN_THREE: Person[] = ["ich", "du", "er"];
 
-/** `<verb>-form-<yo|tu|el>`, or `haber-form-hay`; German `<verb>-form-<ich|du|er>`. */
-export const formId = (verb: string, person: Person) => (person === "hay" ? "haber-form-hay" : `${verb}-form-${person}`);
+/**
+ * German's core verbs (DE7), as docs/german.md lists them ("What the cards look like"). Each names the drafted card
+ * its strip and still come from: the ids of ranks 1 to 20 are the trial's, the others the ids the draft prompt's
+ * rule gives (`koennen-can`), to be checked when DE12 drafts them (`npm run draft -- --lang de --forms` lists a verb
+ * whose card is missing). möchten has no row of its own in the word list (its forms count under mögen), so the
+ * draft prompt asks for its card under mögen.
+ */
+export const GERMAN_FORM_VERBS: FormVerb[] = [
+  { verb: "sein", card: "sein-be", persons: GERMAN_THREE },
+  { verb: "haben", card: "haben-have", persons: GERMAN_THREE },
+  { verb: "werden", card: "werden-become", persons: GERMAN_THREE },
+  { verb: "können", card: "koennen-can", persons: GERMAN_THREE },
+  { verb: "müssen", card: "muessen-must", persons: GERMAN_THREE },
+  { verb: "wollen", card: "wollen-want", persons: GERMAN_THREE },
+  { verb: "möchten", card: "moegen-would-like", persons: GERMAN_THREE },
+  { verb: "gehen", card: "gehen-go", persons: GERMAN_THREE },
+  { verb: "kommen", card: "kommen-come", persons: GERMAN_THREE },
+  { verb: "wissen", card: "wissen-know", persons: GERMAN_THREE },
+];
+
+/** The verbs that get form cards, per language. */
+export const FORM_VERBS_BY_LANG: Readonly<Record<LangCode, readonly FormVerb[]>> = { es: FORM_VERBS, de: GERMAN_FORM_VERBS };
+
+/**
+ * `<verb>-form-<yo|tu|el>`, or `haber-form-hay`; German `<verb>-form-<ich|du|er>`, the verb spelled as an id
+ * spells it (`koennen-form-ich`).
+ */
+export const formId = (verb: string, person: Person, lang: LangCode = "es") =>
+  person === "hay" ? "haber-form-hay" : `${lang === "es" ? verb : slug(verb, lang)}-form-${person}`;
 
 /**
  * The answer for a person: from the verb's present-tense strip, or hay. A German form card's answer has its
@@ -142,7 +165,7 @@ export function formJobs(
       rank: source.rank,
       source,
       lang: store.lang,
-      cards: v.persons.map((person) => ({ person, id: formId(v.verb, person), es: formOf(source.grammar, person) })),
+      cards: v.persons.map((person) => ({ person, id: formId(v.verb, person, store.lang), es: formOf(source.grammar, person) })),
       wants: units.flatMap((u) => u.wants.filter((w) => w.startsWith(`${v.verb}:`))),
       others: list.filter((o) => o.verb !== v.verb).flatMap((o) => {
         const card = sources.get(o.verb);
@@ -204,7 +227,7 @@ export const FORM_SCHEMA: Rec = object({
   },
 });
 
-/** The form pass's system prompt and schema per language (DE5). German's are DE7's to write; see prompts-de.ts. */
+/** The form pass's system prompt and schema per language (DE5). German's are in prompts-de.ts (DE7). */
 export const FORM_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
   es: { system: FORM_SYSTEM_PROMPT, schema: FORM_SCHEMA },
   de: { system: GERMAN_FORM_SYSTEM, schema: GERMAN_FORM_SCHEMA },
@@ -379,7 +402,7 @@ export const PHRASE_SCHEMA: Rec = object({
   words: { type: "array", items: text },
 });
 
-/** The phrase pass's system prompt and schema per language (DE5). German's are DE7's to write; see prompts-de.ts. */
+/** The phrase pass's system prompt and schema per language (DE5). German's are in prompts-de.ts (DE7). */
 export const PHRASE_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
   es: { system: PHRASE_SYSTEM_PROMPT, schema: PHRASE_SCHEMA },
   de: { system: GERMAN_PHRASE_SYSTEM, schema: GERMAN_PHRASE_SCHEMA },
@@ -433,8 +456,18 @@ export function guardPhrase(
   return { guarded: { ok: true, cards: [card as DraftCard], skip: null }, words: { words, outside } };
 }
 
-/** Word list ranks by word, for a phrase's rank. */
-export const wordRanks = (entries: WordEntry[]) => new Map(entries.map((e) => [e.word, e.rank]));
+/**
+ * Word list ranks by word in lower case, for a phrase's rank: the guard lowers Claude's words, and German's list
+ * writes nouns with their capital (`Kaffee`). A word twice keeps its better rank.
+ */
+export function wordRanks(entries: WordEntry[]): Map<string, number> {
+  const ranks = new Map<string, number>();
+  for (const e of entries) {
+    const word = e.word.toLowerCase();
+    if (!ranks.has(word) || e.rank < ranks.get(word)!) ranks.set(word, e.rank);
+  }
+  return ranks;
+}
 
 export function phraseTasks(jobs: PhraseJob[], store: DraftStore, ranks: Map<string, number>): DraftTask[] {
   return jobs.map((job) => {

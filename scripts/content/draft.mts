@@ -8,9 +8,9 @@
 //   npm run draft -- --examples --ids a,b [...]           a new example for each card, nothing else
 //   npm run draft -- --lang de ...                        German: content/de/word-list.tsv into content/de/drafts
 //
-// --lang de (DE5) reads and writes content/de/ in place of content/. German's
-// prompts are stand-ins until DE7, so a German run that would call Claude is
-// refused. German's lemma list and word list are DE6's.
+// --lang de (DE5) reads and writes content/de/ in place of content/, with
+// German's prompts (DE7). A German word pass is also given the drafted Spanish
+// content cards, so each card can name the one of the same meaning (`sameAs`).
 //
 // --forms drafts one call per verb of FORM_VERBS (path-cards.ts) whose card is
 // drafted, into content/drafts/forms/<verb>.json; --phrases one call per phrase,
@@ -36,7 +36,7 @@ import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
 import { pathOnDisk } from "./deck-build";
-import { DraftStore, draftWords, formatSummary, parseWordList, type DraftSummary } from "./drafting";
+import { DraftStore, draftWords, formatSummary, parseWordList, spanishMeanings, type DraftSummary } from "./drafting";
 import { exampleJobs, redraftExamples } from "./examples";
 import { loadLemmas } from "./known-words";
 import { draftForms, draftPhrases, formJobs, phraseJobs, wordRanks } from "./path-cards";
@@ -113,6 +113,7 @@ const options = {
   concurrency,
   retries,
   redo: values.redo,
+  spanish: lang === "es" ? [] : spanishMeanings(new DraftStore(contentPaths(ROOT, "es").drafts)),
 };
 const how = `via ${via}, model ${values.model}, effort ${effort}, ${concurrency} at a time`;
 let summary: DraftSummary;

@@ -1,0 +1,21 @@
+{
+  "id": "ihr-her",
+  "rank": 19,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "ihr",
+  "en": "[her] brother is here",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist ihr Bruder.",
+    "en": "That's her brother."
+  },
+  "regional": null,
+  "trick": "IHR sounds like ear: her ear belongs to her.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ihr-her.word.mp3",
+    "sentence": "/deck-de/audio/ihr-her.sentence.mp3"
+  }
+}

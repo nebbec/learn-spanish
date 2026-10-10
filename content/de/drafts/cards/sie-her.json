@@ -1,0 +1,21 @@
+{
+  "id": "sie-her",
+  "rank": 4,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "sie",
+  "en": "I know [her] well.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich kenne sie gut.",
+    "en": "I know her well."
+  },
+  "regional": null,
+  "trick": "SIE sounds like \"zee\": I see her, so I say sie.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/sie-her.word.mp3",
+    "sentence": "/deck-de/audio/sie-her.sentence.mp3"
+  }
+}

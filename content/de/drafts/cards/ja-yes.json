@@ -1,0 +1,21 @@
+{
+  "id": "ja-yes",
+  "rank": 20,
+  "kind": "content",
+  "pos": "other",
+  "target": "ja",
+  "en": "yes",
+  "hint": "the everyday answer",
+  "grammar": null,
+  "example": {
+    "target": "Ja, ich komme heute Abend mit.",
+    "en": "Yes, I'm coming along tonight."
+  },
+  "regional": null,
+  "trick": "JA sounds like \"yah\", just like a relaxed \"yeah\": it means yes.",
+  "image": "/deck-de/img/ja-yes.webp",
+  "audio": {
+    "word": "/deck-de/audio/ja-yes.word.mp3",
+    "sentence": "/deck-de/audio/ja-yes.sentence.mp3"
+  }
+}

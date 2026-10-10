@@ -10,31 +10,53 @@ import { describe, expect, it } from "vitest";
 import { LANGS } from "@/lang";
 import { fixtureDeckDe } from "@/lib/deck/fixture";
 import type { Card, Deck, DraftCard } from "@/lib/deck/types";
-import { validateDeck, validateDraftCard } from "@/lib/deck/validate";
+import { GERMAN_FORM_ID, validateDeck, validateDraftCard } from "@/lib/deck/validate";
 import { CAST_SCHEMA, CAST_SYSTEM } from "./art";
 import { artPaths, readStills } from "./art-run";
 import { audioPaths, orphanClips, rawKey, tipAudioPaths, VOICE, voiceOf } from "./audio.mjs";
 import type { CallResult, DraftRequest, Runner } from "./claude";
 import { decisionPath, readDecision, refreshFlagged } from "./decisions";
 import { buildDeck } from "./deck-build";
-import { DRAFT_REQUESTS, DraftStore, draftWords, type WordEntry } from "./drafting";
-import { EXAMPLE_SCHEMA, EXAMPLE_SYSTEM_PROMPT } from "./examples";
+import {
+  DRAFT_REQUESTS,
+  DraftStore,
+  draftWords,
+  guardDraft,
+  SKIP_REASONS,
+  SKIP_REASONS_BY_LANG,
+  slug,
+  type SpanishMeaning,
+  type WordEntry,
+} from "./drafting";
+import { EXAMPLE_REQUESTS, EXAMPLE_SCHEMA, EXAMPLE_SYSTEM_PROMPT } from "./examples";
+import { isCognate, numberWords } from "./known-words";
 import { mascotPaths, sharedMascotFiles } from "./mascot.mjs";
 import {
   draftForms,
   draftPhrases,
   FORM_REQUESTS,
   FORM_VERBS_BY_LANG,
+  formId,
   formJobs,
   PHRASE_REQUESTS,
   phraseJobs,
   wordRanks,
 } from "./path-cards";
-import { GERMAN_DRAFT_SYSTEM, PROMPTS_READY } from "./prompts-de";
-import { allDrafted, idProblem, REVIEW_SCHEMA, REVIEW_SYSTEMS, reviewCards, ReviewStore } from "./reviewing";
+import { GERMAN_DRAFT_SYSTEM, germanDraftSystem, PROMPTS_READY } from "./prompts-de";
+import {
+  allDrafted,
+  draftedWords,
+  idProblem,
+  reasonLabel,
+  REVIEW_SCHEMA,
+  REVIEW_SCHEMAS,
+  REVIEW_SYSTEMS,
+  reviewCards,
+  ReviewStore,
+} from "./reviewing";
 import { contentPaths, parseLang } from "./script-lang";
 import { SOURCES_BY_LANG } from "./sources.mjs";
-import { TAG_SCHEMA, TAG_SYSTEMS, tagCards, tagContext, tagGroups, TagStore } from "./tagging";
+import { TAG_SCHEMA, TAG_SYSTEMS, tagCards, tagContext, tagGroups, TagStore, WHY_MAX } from "./tagging";
 import { draftTips, TIP_REQUESTS, TipStore, tipJobs, tipsForDeck } from "./tips";
 import { readTips, readUnits, type TipEntry, type Unit } from "./units";
 
@@ -121,12 +143,21 @@ function fakeRunner(flag: string[] = []) {
       });
     }
     if (prompt.includes("The card:")) {
-      const id = JSON.parse(prompt.slice(prompt.indexOf("{"))).target as string;
+      const shown = prompt.slice(prompt.indexOf("{"), prompt.lastIndexOf("}") + 1);
+      const id = JSON.parse(shown).target as string;
       const bad = flag.includes(id);
       const check = { ok: true, problem: null, fix: null };
       return answer({
-        back: { es: "back", example: "back" },
-        checks: { meaning: check, oneAnswer: check, grammar: bad ? { ok: false, problem: "Wrong plural.", fix: null } : check, usage: check, example: check, trick: check },
+        back: { target: "back", example: "back" },
+        checks: {
+          meaning: check,
+          oneAnswer: check,
+          grammar: bad ? { ok: false, problem: "Wrong plural.", fix: null } : check,
+          usage: check,
+          example: check,
+          trick: check,
+          sameAs: check,
+        },
         note: null,
       });
     }
@@ -251,16 +282,95 @@ describe("Spanish runs are unchanged", () => {
   });
 });
 
-describe("German's side until DE7", () => {
-  it("has stand-in prompts the scripts refuse to send, and its word-list sources (DE6)", () => {
-    expect(PROMPTS_READY).toEqual({ es: true, de: false });
-    expect(DRAFT_REQUESTS.de.system).toBe(GERMAN_DRAFT_SYSTEM);
+describe("German's prompts and rules (DE7)", () => {
+  it("has written prompts the scripts send, and its word-list sources (DE6)", () => {
+    expect(PROMPTS_READY).toEqual({ es: true, de: true });
+    const systems = [
+      DRAFT_REQUESTS.de.system,
+      FORM_REQUESTS.de.system,
+      PHRASE_REQUESTS.de.system,
+      REVIEW_SYSTEMS.de,
+      TAG_SYSTEMS.de,
+      TIP_REQUESTS.de.system,
+      EXAMPLE_REQUESTS.de.system,
+    ];
+    for (const system of systems) {
+      expect(system).toMatch(/German/);
+      expect(system).not.toMatch(/Spanish words|Latin American|Stand-in/);
+    }
+    // The tag prompt's limit on a contrast line is the guard's.
+    expect(TAG_SYSTEMS.de).toContain(`under ${WHY_MAX} characters`);
     expect(Object.values(SOURCES_BY_LANG.de).map((s) => s.file)).toEqual([
       "de_50k.txt",
       "lemmatization-de.txt",
       "de_DE_frami.dic",
     ]);
-    expect(FORM_VERBS_BY_LANG.de).toEqual([]);
+  });
+
+  it("lists German's ten form verbs, with ids the validator takes", () => {
+    const verbs = FORM_VERBS_BY_LANG.de;
+    expect(verbs.map((v) => v.verb)).toEqual(["sein", "haben", "werden", "können", "müssen", "wollen", "möchten", "gehen", "kommen", "wissen"]);
+    for (const v of verbs) {
+      expect(v.persons).toEqual(["ich", "du", "er"]);
+      for (const person of v.persons) expect(formId(v.verb, person, "de")).toMatch(GERMAN_FORM_ID);
+      expect(idProblem(formId(v.verb, "ich", "de"), v.verb, 1, "form", "de")).toBeNull();
+    }
+    expect(formId("möchten", "du", "de")).toBe("moechten-form-du");
+    expect(formId("ir", "yo")).toBe("ir-form-yo");
+  });
+
+  it("spells German ids with ae, oe, ue and ss, and leaves Spanish's as they were", () => {
+    expect(slug("schön", "de")).toBe("schoen");
+    expect(slug("schon", "de")).toBe("schon");
+    expect(slug("weiß", "de")).toBe("weiss");
+    expect(slug("Straße", "de")).toBe("strasse");
+    expect(slug("Mädchen", "de")).toBe("maedchen");
+    expect(slug("pingüino")).toBe("pinguino");
+    expect(slug("más")).toBe("mas");
+    expect(idProblem("koennen-can", "können", 17, undefined, "de")).toBeNull();
+    expect(idProblem("konnen-can", "können", 17, undefined, "de")).toMatch(/must start with "koennen-"/);
+  });
+
+  it("has German's skip reasons: regional-only in place of spain-only", () => {
+    expect(SKIP_REASONS_BY_LANG.es).toEqual(SKIP_REASONS);
+    expect(SKIP_REASONS_BY_LANG.de).toContain("regional-only");
+    expect(SKIP_REASONS_BY_LANG.de).not.toContain("spain-only");
+    const entry = { rank: 500, word: "Jänner", forms: [] };
+    const skip = (reason: string) => ({ skip: { reason, note: "n" }, cards: [] });
+    expect(guardDraft(skip("regional-only"), entry, "de")).toMatchObject({ ok: true, skip: { reason: "regional-only" } });
+    expect(guardDraft(skip("spain-only"), entry, "de")).toMatchObject({ ok: false, fields: ["skip"] });
+    expect(guardDraft(skip("regional-only"), entry, "es")).toMatchObject({ ok: false, fields: ["skip"] });
+  });
+
+  it("ranks a phrase's words in lower case, so a noun's capital does not matter", () => {
+    const ranks = wordRanks([
+      { rank: 3, word: "ich", forms: [] },
+      { rank: 532, word: "Kaffee", forms: [] },
+      { rank: 90, word: "morgen", forms: [] },
+      { rank: 400, word: "Morgen", forms: [] },
+    ]);
+    expect(ranks.get("kaffee")).toBe(532);
+    expect(ranks.get("morgen")).toBe(90);
+  });
+
+  it("counts German cognates and number words as German writes them", () => {
+    expect(isCognate("Kaffee", "A coffee, please.", "de")).toBe(true);
+    expect(isCognate("Doktor", "He is a doctor.", "de")).toBe(true);
+    expect(isCognate("Universität", "The university is big.", "de")).toBe(true);
+    expect(isCognate("Familie", "My family is here.", "de")).toBe(true);
+    expect(isCognate("Telefon", "Where is the telephone?", "de")).toBe(true);
+    expect(isCognate("Musik", "I like music.", "de")).toBe(true);
+    expect(isCognate("Hotel", "The hotel is there.", "de")).toBe(true);
+    expect(isCognate("Information", "Thanks for the information.", "de")).toBe(true);
+    expect(isCognate("Banane", "A banana.", "de")).toBe(true);
+    expect(isCognate("Vater", "My father is here.", "de")).toBe(false);
+    expect(isCognate("Haus", "The house is big.", "de")).toBe(false);
+    // Spanish's rule is unchanged.
+    expect(isCognate("problema", "It is a problem.")).toBe(true);
+    expect(isCognate("Kaffee", "A coffee, please.")).toBe(false);
+    expect(numberWords("de").has("zwölf")).toBe(true);
+    expect(numberWords("de").has("ein")).toBe(false);
+    expect(numberWords("es").has("doce")).toBe(true);
   });
 
   it("checks German form ids by ich, du and er", () => {
@@ -287,7 +397,8 @@ describe("the passes on the German fixture, with a fake runner", () => {
     const { drafts, calls, summaries } = await draftAll();
     expect([summaries.words.drafted, summaries.forms.drafted, summaries.phrases.drafted]).toEqual([8, 1, 1]);
     expect(calls[0].schema).toBe(DRAFT_REQUESTS.de.schema);
-    expect(calls[0].system).toBe(GERMAN_DRAFT_SYSTEM);
+    expect(calls[0].system).toBe(germanDraftSystem([]));
+    expect(calls[0].system.startsWith(GERMAN_DRAFT_SYSTEM)).toBe(true);
     expect(drafts.deckProblems()).toEqual([]);
 
     const read = (id: string) => JSON.parse(readFileSync(path.join(drafts.cardsDir, `${id}.json`), "utf8")) as DraftCard<"de">;
@@ -400,5 +511,86 @@ describe("audio, art and mascot for German", () => {
     // haus-house and gehen-go reuse Spanish stills by their Spanish paths: Spanish's to render.
     expect(readStills(p).map((s) => s.id)).toEqual(["sein-be", "mann-man", "frau-woman", "anrufen-call", "gut-good", "januar-january"]);
     expect(existsSync(p.cast)).toBe(false);
+  });
+});
+
+describe("sameAs: the Spanish card of the same meaning (DE7)", () => {
+  const SPANISH: SpanishMeaning[] = [
+    { id: "ir-go", en: "to go", hint: null },
+    { id: "casa-house", en: "house", hint: null },
+  ];
+  const entry = { rank: 40, word: "gehen", forms: ["gehen"] };
+  const gehen = (sameAs: string | null) => ({ skip: null, cards: [{ ...claudeCard(fixtureCard("gehen-go")), sameAs }] });
+
+  async function draftGehen(sameAs: string | null) {
+    const { paths } = germanRoot();
+    const drafts = new DraftStore(paths.drafts, "de");
+    const calls: DraftRequest[] = [];
+    const runner: Runner = async (request) => {
+      calls.push(request);
+      return answer(gehen(sameAs));
+    };
+    const summary = await draftWords([entry], { ...options, store: drafts, runner, retries: 0, spanish: SPANISH });
+    return { paths, drafts, calls, summary };
+  }
+
+  it("gives the word pass the Spanish cards and keeps each card's sameAs in the word file, not the card", async () => {
+    const { drafts, calls, summary } = await draftGehen("ir-go");
+    expect(summary.drafted).toBe(1);
+    expect(calls[0].system).toBe(germanDraftSystem(SPANISH));
+    expect(calls[0].system).toContain("- ir-go | to go");
+    const word = JSON.parse(readFileSync(drafts.wordFile(40), "utf8"));
+    expect(word.sameAs).toEqual({ "gehen-go": "ir-go" });
+    const card = JSON.parse(readFileSync(path.join(drafts.cardsDir, "gehen-go.json"), "utf8"));
+    expect(card).not.toHaveProperty("sameAs");
+    expect(validateDraftCard(card, "de").ok).toBe(true);
+    expect(draftedWords(drafts)[0].sameAs).toEqual({ "gehen-go": "ir-go" });
+  });
+
+  it("refuses a sameAs that is not a Spanish card's id", async () => {
+    const { drafts, summary } = await draftGehen("ir-walk");
+    expect(summary.failed).toBe(1);
+    expect(JSON.parse(readFileSync(drafts.logFile, "utf8").trim()).fields).toEqual(["sameAs"]);
+    expect(guardDraft(gehen(null), entry, "de")).toMatchObject({ ok: true, sameAs: [null] });
+    // A Spanish word file has no sameAs.
+    expect(guardDraft({ skip: null, cards: [] }, entry, "es")).toMatchObject({ ok: false });
+  });
+
+  it("has the reviewer check sameAs, flag it with its own reason and back-translate as target", async () => {
+    const { paths, drafts } = await draftGehen("casa-house");
+    const reviews = new ReviewStore(paths.review);
+    const calls: DraftRequest[] = [];
+    const check = { ok: true, problem: null, fix: null };
+    const runner: Runner = async (request) => {
+      calls.push(request);
+      return answer({
+        back: { target: "to go", example: "I'm going home." },
+        checks: {
+          meaning: check,
+          oneAnswer: check,
+          grammar: check,
+          usage: { ok: false, problem: "Not said in Germany.", fix: null },
+          example: check,
+          trick: check,
+          sameAs: { ok: false, problem: "casa-house means house.", fix: "ir-go" },
+        },
+        note: null,
+      });
+    };
+    const summary = await reviewCards(draftedWords(drafts), { ...options, drafts, store: reviews, runner, spanish: SPANISH });
+    expect(summary.reasons).toEqual({ usage: 1, sameAs: 1 });
+    expect(calls[0].schema).toBe(REVIEW_SCHEMAS.de);
+    expect(calls[0].system).toContain("- casa-house | house");
+    expect(calls[0].prompt).toContain('sameAs: casa-house, the Spanish card "house".');
+    const review = reviews.get("gehen-go")!;
+    expect(review.back).toEqual({ target: "to go", example: "I'm going home." });
+
+    refreshFlagged(drafts, reviews);
+    const decision = readFileSync(decisionPath(reviews, "gehen-go"), "utf8");
+    expect(decision).toContain(`#   - ${reasonLabel("sameAs", "de")}: casa-house means house. Suggested fix: ir-go`);
+    expect(decision).toContain("#   - Usage in Germany: Not said in Germany.");
+    expect(decision).toContain("# sameAs is not a card line: correct it in content/de/drafts/words/0040.json.");
+    expect(readFileSync(reviews.flaggedFile, "utf8")).toContain('answer "to go"');
+    expect(reasonLabel("usage")).toBe("Latin American usage");
   });
 });

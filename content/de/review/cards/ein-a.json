@@ -1,0 +1,17 @@
+{
+  "id": "ein-a",
+  "rank": 6,
+  "word": "ein",
+  "draft": "5b3ffe4f1bc9b45c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "a, an (indefinite article, masculine or neuter nominative)",
+    "example": "That is a dog."
+  },
+  "note": "This card is fine, but the other ein card's hint, \"before a noun, not counting\", seems to contradict its prompt \"Just [one] beer\", which is counting, so the editor may want to look at it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:11.675Z"
+}

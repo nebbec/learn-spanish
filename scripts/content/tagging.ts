@@ -146,7 +146,7 @@ Answer for every card you are asked about, once each, with these fields:
 
 Answer with the ids, unit ids, wants and tip ids exactly as given.`;
 
-/** The tag pass's system prompt per language (DE5); the schema is shared. German's is DE7's to write. */
+/** The tag pass's system prompt per language (DE5); the schema is shared. German's is in prompts-de.ts (DE7). */
 export const TAG_SYSTEMS: Readonly<Record<LangCode, string>> = { es: TAG_SYSTEM_PROMPT, de: GERMAN_TAG_SYSTEM };
 
 /** A card as the tagger sees it: no media paths. */

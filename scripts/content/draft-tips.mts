@@ -9,8 +9,8 @@
 // so rerunning resumes; --redo drafts again and replaces the file, approval and
 // corrections included. Each call's token usage goes to content/tips/usage.jsonl.
 //
-// --lang de (DE5) drafts content/de/tips.json into content/de/tips/. German's
-// prompts are stand-ins until DE7, so a German run is refused for now.
+// --lang de (DE5) drafts content/de/tips.json into content/de/tips/, with
+// German's prompt (DE7).
 //
 // Prints only tip ids and counts, never tip text.
 
