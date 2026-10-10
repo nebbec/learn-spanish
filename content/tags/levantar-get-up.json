@@ -1,0 +1,14 @@
+{
+  "id": "levantar-get-up",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c85f182dbda81fe5",
+  "group": "#412 levantar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:03.703Z"
+}

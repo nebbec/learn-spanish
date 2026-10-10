@@ -1,0 +1,14 @@
+{
+  "id": "crimen-crime",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cec74a0e301f1787",
+  "group": "#705 crimen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:09.512Z"
+}

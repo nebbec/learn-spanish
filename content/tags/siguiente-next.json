@@ -1,0 +1,14 @@
+{
+  "id": "siguiente-next",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use siguiente for the one after another (the following day); próximo for the next one coming from now (next week).",
+  "draft": "3c74fde06431c11b",
+  "group": "#557 siguiente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:34.775Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "controlar-control",
+  "rank": 710,
+  "word": "controlar",
+  "draft": "c2b9762426f9a9b4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to control",
+    "example": "Relax, I control the situation (I've got the situation under control)."
+  },
+  "note": "Tranquilo is addressed to a man (a woman would hear tranquila), which is fine for a single example sentence.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:38:55.791Z"
+}

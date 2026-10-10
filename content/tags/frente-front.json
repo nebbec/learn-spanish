@@ -1,0 +1,14 @@
+{
+  "id": "frente-front",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Masculine el frente is the front of something; feminine la frente is your forehead.",
+  "draft": "3a45b3d4be3519aa",
+  "group": "#571 frente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:02.354Z"
+}

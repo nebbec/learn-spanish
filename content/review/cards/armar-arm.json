@@ -1,0 +1,23 @@
+{
+  "id": "armar-arm",
+  "rank": 744,
+  "word": "armar",
+  "draft": "385b0980b56b5949",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses only the participle armado as an adjective after estar, so armar itself is never conjugated as the rules require.",
+      "fix": "example.es: El gobierno armó a los rebeldes. / example.en: The government armed the rebels."
+    }
+  ],
+  "back": {
+    "es": "to arm (with weapons); also to put together, to assemble",
+    "example": "Careful, the man is armed."
+  },
+  "note": "The hint \"with weapons\" is needed and works, because it separates this card from the word's \"to put together\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:09.173Z"
+}

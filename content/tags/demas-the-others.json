@@ -1,0 +1,14 @@
+{
+  "id": "demas-the-others",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f6e8ee6b49d55e85",
+  "group": "#565 demás",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:50.763Z"
+}

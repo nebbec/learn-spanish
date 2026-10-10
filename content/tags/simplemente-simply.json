@@ -1,0 +1,14 @@
+{
+  "id": "simplemente-simply",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9fc1e583cd795a7c",
+  "group": "#460 simplemente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:36.556Z"
+}

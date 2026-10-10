@@ -1,0 +1,14 @@
+{
+  "id": "auto-car",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9dbb0dc67c0f41b2",
+  "group": "#352 auto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:42:05.768Z"
+}

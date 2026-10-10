@@ -1,0 +1,14 @@
+{
+  "id": "construir-build",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e4478e5b7d051486",
+  "group": "#717 construir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:25.812Z"
+}

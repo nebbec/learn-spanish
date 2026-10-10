@@ -1,0 +1,14 @@
+{
+  "id": "proximo-next",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use próximo for the next one coming up from now (next week); siguiente for the one that follows another.",
+  "draft": "91b94a162efda1be",
+  "group": "#422 próximo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:24.932Z"
+}

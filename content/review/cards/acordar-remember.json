@@ -1,0 +1,17 @@
+{
+  "id": "acordar-remember",
+  "rank": 722,
+  "word": "acordar",
+  "draft": "a1fd0cb95a119e50",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "acordarse: to remember (reflexive, used with de)",
+    "example": "Do you remember me?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:28.055Z"
+}

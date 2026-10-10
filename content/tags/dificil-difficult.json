@@ -1,0 +1,14 @@
+{
+  "id": "dificil-difficult",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "04288a36c3e54504",
+  "group": "#326 difícil",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:20.904Z"
+}

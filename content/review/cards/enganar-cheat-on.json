@@ -1,0 +1,17 @@
+{
+  "id": "enganar-cheat-on",
+  "rank": 742,
+  "word": "engañar",
+  "draft": "96aa766a8f7145c7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to deceive, to fool; (of a partner) to cheat on, to be unfaithful to",
+    "example": "Are you cheating on me with another woman?"
+  },
+  "note": "The hint \"a partner\" is needed to keep \"cheat on\" apart from cheating on a test (hacer trampa, copiar), and \"con otra\" literally means \"with another woman\", so the English could say that instead of \"someone else\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:57.770Z"
+}

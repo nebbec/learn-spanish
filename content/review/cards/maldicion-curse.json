@@ -1,0 +1,17 @@
+{
+  "id": "maldicion-curse",
+  "rank": 772,
+  "word": "maldición",
+  "draft": "08ac4e222e64b9fa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "curse, malediction (also, as an interjection, damn!)",
+    "example": "They say this house has a curse."
+  },
+  "note": "The word ranks high in subtitles mostly because of the dubbed interjection ¡Maldición! (Damn!), and the trick mentions that use, which is helpful.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:10.717Z"
+}

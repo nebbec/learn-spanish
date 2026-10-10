@@ -1,0 +1,14 @@
+{
+  "id": "bastar-be-enough",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "499ac0b9faba5673",
+  "group": "#485 bastar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:19.493Z"
+}

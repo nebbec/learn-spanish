@@ -1,0 +1,14 @@
+{
+  "id": "crear-create",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use crear for making something new; creer is to believe or think (both have the form creo).",
+  "draft": "b2b0c0f5f05fa094",
+  "group": "#674 crear",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:11.632Z"
+}

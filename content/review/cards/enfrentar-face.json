@@ -1,0 +1,23 @@
+{
+  "id": "enfrentar-face",
+  "rank": 747,
+  "word": "enfrentar",
+  "draft": "ab7c91ac5eba1190",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The target verb appears only as an infinitive after tienes que, but the example should show enfrentar conjugated.",
+      "fix": "example.es: Mi hermano enfrenta sus problemas con calma. / example.en: My brother faces his problems calmly."
+    }
+  ],
+  "back": {
+    "es": "to face, to confront",
+    "example": "You have to face your fears."
+  },
+  "note": "The hint is useful because it separates this meaning of to face from mirar hacia (to face a direction), and the less common afrontar is no real competitor in everyday Latin American speech.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:31.741Z"
+}

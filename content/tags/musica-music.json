@@ -1,0 +1,14 @@
+{
+  "id": "musica-music",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "85c51d5ba96a1abb",
+  "group": "#516 música",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:47:20.988Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pegar-hit",
+  "rank": 766,
+  "word": "pegar",
+  "draft": "4f3016ee0a4a19ee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to hit, to strike (a person); also to stick, to glue",
+    "example": "Mom, my brother hit me!"
+  },
+  "note": "The hint \"everyday word\" is needed to rule out golpear, which is more formal and more general, and the preterite pegué only changes its spelling, so irregular: false is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:42:39.173Z"
+}

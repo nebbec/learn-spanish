@@ -1,0 +1,14 @@
+{
+  "id": "inteligente-intelligent",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "630506fe6dd7ae5b",
+  "group": "#778 inteligente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:20.829Z"
+}

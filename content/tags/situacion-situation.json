@@ -1,0 +1,14 @@
+{
+  "id": "situacion-situation",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1d8e957d1247c930",
+  "group": "#613 situación",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:21.216Z"
+}

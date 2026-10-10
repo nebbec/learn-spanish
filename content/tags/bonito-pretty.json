@@ -1,0 +1,14 @@
+{
+  "id": "bonito-pretty",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c9fe5625f1973c56",
+  "group": "#413 bonito",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:06.195Z"
+}

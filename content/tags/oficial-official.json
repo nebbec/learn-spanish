@@ -1,0 +1,14 @@
+{
+  "id": "oficial-official",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fa3b23b6a0683a07",
+  "group": "#548 oficial",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:16.806Z"
+}

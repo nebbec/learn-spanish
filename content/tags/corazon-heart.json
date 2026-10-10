@@ -1,0 +1,14 @@
+{
+  "id": "corazon-heart",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f5a2a81ea87c4b9a",
+  "group": "#302 corazón",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:39.257Z"
+}

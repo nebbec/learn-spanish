@@ -1,0 +1,14 @@
+{
+  "id": "parar-stop",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use parar for everyday stopping; detener is more formal, for halting or arresting someone.",
+  "draft": "db8a3421376916a7",
+  "group": "#325 parar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:24.005Z"
+}

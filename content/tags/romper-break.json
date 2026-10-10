@@ -1,0 +1,14 @@
+{
+  "id": "romper-break",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f310c67d97d8816f",
+  "group": "#385 romper",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:09.713Z"
+}

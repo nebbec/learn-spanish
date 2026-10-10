@@ -1,0 +1,14 @@
+{
+  "id": "alma-soul",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3f96f8471a82fbdb",
+  "group": "#700 alma",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:01.320Z"
+}

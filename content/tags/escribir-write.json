@@ -1,0 +1,14 @@
+{
+  "id": "escribir-write",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0f5184001a876fc6",
+  "group": "#279 escribir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:39:58.729Z"
+}

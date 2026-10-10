@@ -1,0 +1,17 @@
+{
+  "id": "tren-train",
+  "rank": 751,
+  "word": "tren",
+  "draft": "67a0903fd75144ce",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el tren = the train (noun, masculine)",
+    "example": "The train leaves at eight."
+  },
+  "note": "Strictly, dropping the A from the spelling of train gives \"trin\", not \"tren\", so the trick only works by sound; it could say \"TREN sounds like train said quickly\" to be accurate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:45.279Z"
+}

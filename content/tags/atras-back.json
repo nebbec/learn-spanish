@@ -1,0 +1,14 @@
+{
+  "id": "atras-back",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use atrás on its own for back or backward; use detrás de before a noun for behind something.",
+  "draft": "636a0e9738c5df44",
+  "group": "#420 atrás",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:18.457Z"
+}

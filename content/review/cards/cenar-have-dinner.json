@@ -1,0 +1,23 @@
+{
+  "id": "cenar-have-dinner",
+  "rank": 749,
+  "word": "cenar",
+  "draft": "784cbffcd5aa54e4",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses cenar only as an infinitive after quieres, but it should show cenar itself conjugated.",
+      "fix": "example.es: Siempre cenamos a las ocho. / example.en: We always have dinner at eight."
+    }
+  ],
+  "back": {
+    "es": "to have dinner, to eat supper",
+    "example": "Do you want to have dinner with me tonight?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:36.175Z"
+}

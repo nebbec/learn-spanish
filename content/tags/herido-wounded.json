@@ -1,0 +1,14 @@
+{
+  "id": "herido-wounded",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bb24ae7bcf09e1fc",
+  "group": "#559 herido",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:38.187Z"
+}

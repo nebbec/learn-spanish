@@ -1,0 +1,17 @@
+{
+  "id": "mentira-lie",
+  "rank": 773,
+  "word": "mentira",
+  "draft": "8557a8ed6a80208d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "a lie, a falsehood (noun)",
+    "example": "That's a lie, I didn't say anything."
+  },
+  "note": "The example drops the article (\"es mentira\"), which is the normal way to say \"that's a lie\" in Spanish and is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:14.314Z"
+}

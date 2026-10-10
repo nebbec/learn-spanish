@@ -1,0 +1,14 @@
+{
+  "id": "alejar-move-away",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "00a84f57b8989921",
+  "group": "#647 alejar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:18.243Z"
+}

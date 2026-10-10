@@ -1,0 +1,14 @@
+{
+  "id": "pegar-stick",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1f073021206ccaa0",
+  "group": "#766 pegar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:57.286Z"
+}

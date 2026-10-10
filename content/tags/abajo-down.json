@@ -1,0 +1,14 @@
+{
+  "id": "abajo-down",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d679fa0b3d8e6605",
+  "group": "#411 abajo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:02.290Z"
+}

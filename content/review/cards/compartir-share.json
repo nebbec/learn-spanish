@@ -1,0 +1,17 @@
+{
+  "id": "compartir-share",
+  "rank": 783,
+  "word": "compartir",
+  "draft": "a8b3740d970ae455",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to share",
+    "example": "We shared (or: we share) the pizza with my brother."
+  },
+  "note": "Compartimos has the same form in the present and the preterite, so \"We shared\" is correct, but \"We share\" would be too.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:46.612Z"
+}

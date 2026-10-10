@@ -1,0 +1,17 @@
+{
+  "id": "ejercito-army",
+  "rank": 771,
+  "word": "ejército",
+  "draft": "37d8f84ec2dbd7cc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the army",
+    "example": "My brother is in the army."
+  },
+  "note": "The trick is stronger than a pun because ejército really does come from Latin exercitus, from exercere, which is also the source of English exercise.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:05.537Z"
+}

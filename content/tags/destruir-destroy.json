@@ -1,0 +1,14 @@
+{
+  "id": "destruir-destroy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a2407a35bc2da61a",
+  "group": "#575 destruir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:08.553Z"
+}

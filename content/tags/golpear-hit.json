@@ -1,0 +1,14 @@
+{
+  "id": "golpear-hit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d376aaa11f067482",
+  "group": "#527 golpear",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:47:40.023Z"
+}

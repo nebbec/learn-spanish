@@ -1,0 +1,14 @@
+{
+  "id": "estado-state",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f50a6d775950c62d",
+  "group": "#741 estado",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:06.214Z"
+}

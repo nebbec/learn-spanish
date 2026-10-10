@@ -1,0 +1,14 @@
+{
+  "id": "traves-through",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use a través de for through something to the other side, like a window; por for moving along or around a route.",
+  "draft": "fd71ebd64d32ba88",
+  "group": "#688 través",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:37.547Z"
+}

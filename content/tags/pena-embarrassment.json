@@ -1,0 +1,14 @@
+{
+  "id": "pena-embarrassment",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "57703229959566e6",
+  "group": "#581 pena",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:17.497Z"
+}

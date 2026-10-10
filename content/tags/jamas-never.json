@@ -1,0 +1,14 @@
+{
+  "id": "jamas-never",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use jamás for a strong, emphatic never; nunca is the everyday word.",
+  "draft": "6a55dbb2edb567fc",
+  "group": "#609 jamás",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:11.778Z"
+}

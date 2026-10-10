@@ -1,0 +1,17 @@
+{
+  "id": "informar-inform",
+  "rank": 799,
+  "word": "informar",
+  "draft": "b55abae9fbd4a0f2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to inform, to report",
+    "example": "I inform you that the meeting is tomorrow."
+  },
+  "note": "\"Te informo que\" without \"de\" is normal in Latin America, but Spain's prescriptive norm prefers \"te informo de que\". This doesn't affect the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:43.653Z"
+}

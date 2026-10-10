@@ -1,0 +1,14 @@
+{
+  "id": "idiota-idiot",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "236178f7d7a78d77",
+  "group": "#425 idiota",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:27.965Z"
+}

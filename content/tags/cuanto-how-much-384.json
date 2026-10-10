@@ -1,0 +1,14 @@
+{
+  "id": "cuanto-how-much-384",
+  "unit": "asking-questions",
+  "want": "cuánto",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "42f361fee49a323e",
+  "group": "#384 cuanto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:11.096Z"
+}

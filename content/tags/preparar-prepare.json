@@ -1,0 +1,14 @@
+{
+  "id": "preparar-prepare",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d0601ea8d272af7d",
+  "group": "#308 preparar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:50.796Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gracioso-funny",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use gracioso for someone or something that makes you laugh; divertido for something fun to do.",
+  "draft": "73c6a595fa5250b5",
+  "group": "#690 gracioso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:43.431Z"
+}

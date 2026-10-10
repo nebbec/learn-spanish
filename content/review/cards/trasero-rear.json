@@ -1,0 +1,17 @@
+{
+  "id": "trasero-rear",
+  "rank": 740,
+  "word": "trasero",
+  "draft": "be6024e205cdf4cb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "rear, back (adjective)",
+    "example": "Go out through the back door."
+  },
+  "note": "In everyday Latin American speech, \"la puerta de atrás\" is at least as common as \"la puerta trasera\", but it is a phrase rather than an adjective, so the hint still points to trasero as the one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:42.726Z"
+}

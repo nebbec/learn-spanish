@@ -1,0 +1,14 @@
+{
+  "id": "santo-holy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6a1cac051b8cdc34",
+  "group": "#405 santo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:50.812Z"
+}

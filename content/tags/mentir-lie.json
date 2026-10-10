@@ -1,0 +1,14 @@
+{
+  "id": "mentir-lie",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3191a6beee00279f",
+  "group": "#442 mentir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:03.367Z"
+}

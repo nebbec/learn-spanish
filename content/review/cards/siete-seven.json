@@ -1,0 +1,17 @@
+{
+  "id": "siete-seven",
+  "rank": 734,
+  "word": "siete",
+  "draft": "c13deb341be50f21",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "seven",
+    "example": "I arrive at seven in the evening."
+  },
+  "note": "The example's English could sound more natural as \"seven in the evening\", but \"seven at night\" is also correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:13.969Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "costar-be-hard",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a6d9858acb89b0cf",
+  "group": "#643 costar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:12.080Z"
+}

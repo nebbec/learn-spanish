@@ -1,0 +1,17 @@
+{
+  "id": "lista-list",
+  "rank": 748,
+  "word": "lista",
+  "draft": "4d8133398a289833",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the list",
+    "example": "Your name is not on the list."
+  },
+  "note": "Much of lista's subtitle frequency probably comes from the adjective form (feminine of listo, \"ready\" or \"smart\"), which a separate listo card could cover.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:29.712Z"
+}

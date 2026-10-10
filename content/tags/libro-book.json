@@ -1,0 +1,14 @@
+{
+  "id": "libro-book",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6d47b84f9690f1cc",
+  "group": "#399 libro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:41.359Z"
+}

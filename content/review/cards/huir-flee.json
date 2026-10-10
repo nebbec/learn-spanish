@@ -1,0 +1,17 @@
+{
+  "id": "huir-flee",
+  "rank": 738,
+  "word": "huir",
+  "draft": "b97c7345dcce916a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to flee, to run away",
+    "example": "The thief fled from the police."
+  },
+  "note": "Escapar is close in meaning, but it means \"to escape\", so \"to flee\" points clearly to huir and the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:27.885Z"
+}

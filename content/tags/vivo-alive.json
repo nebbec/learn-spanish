@@ -1,0 +1,14 @@
+{
+  "id": "vivo-alive",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7a08fff546848e2b",
+  "group": "#652 vivo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:26.749Z"
+}

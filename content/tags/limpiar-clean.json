@@ -1,0 +1,14 @@
+{
+  "id": "limpiar-clean",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "21a2723fac489037",
+  "group": "#631 limpiar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:48.564Z"
+}

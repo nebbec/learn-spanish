@@ -1,0 +1,23 @@
+{
+  "id": "sorpresa-surprise",
+  "rank": 774,
+  "word": "sorpresa",
+  "draft": "6c0a6474fb009758",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example has no conjugated verb, only the infinitive verte, so it does not meet the rule that the example conjugates a verb.",
+      "fix": "example.es: Fue una sorpresa verte aquí. example.en: It was a surprise to see you here."
+    }
+  ],
+  "back": {
+    "es": "surprise (noun)",
+    "example": "What a surprise to see you here!"
+  },
+  "note": "The original exclamation is perfectly natural Spanish and fails only on the conjugated-verb rule.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:17.712Z"
+}

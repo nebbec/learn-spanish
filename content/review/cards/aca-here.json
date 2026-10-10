@@ -1,0 +1,17 @@
+{
+  "id": "aca-here",
+  "rank": 777,
+  "word": "acá",
+  "draft": "6e8a234a0758f715",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "here (adverb of place, especially with verbs of motion, as in 'come here')",
+    "example": "Come here, I want to show you something."
+  },
+  "note": "The hint correctly rules out aquí, but aquí is also everyday across much of Latin America, especially Mexico, so a softer wording such as \"the word favored in Latin America, not aquí\" would avoid suggesting aquí is only used in Spain.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:33.506Z"
+}

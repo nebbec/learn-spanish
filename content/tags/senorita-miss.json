@@ -1,0 +1,14 @@
+{
+  "id": "senorita-miss",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use señorita for a young or unmarried woman; señora for an older or married one.",
+  "draft": "20a3cc3ef6e8310e",
+  "group": "#495 señorita",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:42.044Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "guardia-guard",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9d6d380ed4f00a26",
+  "group": "#788 guardia",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:36.970Z"
+}

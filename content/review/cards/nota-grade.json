@@ -1,0 +1,23 @@
+{
+  "id": "nota-grade",
+  "rank": 761,
+  "word": "nota",
+  "draft": "c3d0d95e022cd534",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'at school' does not rule out grade meaning school year, which is 'el grado' ('¿En qué grado estás?'), so the prompt has two right answers.",
+      "fix": "hint: score on a test"
+    }
+  ],
+  "back": {
+    "es": "the grade, the mark (score on schoolwork); also a note",
+    "example": "I got a good grade on the exam."
+  },
+  "note": "'La calificación' is also common for a school grade, especially in Mexico, but 'la nota' is the everyday word across Latin America, so the card can keep it as the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:42:20.913Z"
+}

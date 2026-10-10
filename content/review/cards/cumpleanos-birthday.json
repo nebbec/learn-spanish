@@ -1,0 +1,17 @@
+{
+  "id": "cumpleanos-birthday",
+  "rank": 753,
+  "word": "cumpleaños",
+  "draft": "a59569c50a107610",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el cumpleaños = birthday (masculine noun; same form in singular and plural)",
+    "example": "Tomorrow is my birthday."
+  },
+  "note": "The trick matches the real origin of the word (cumplir años, \"to complete years\"), and the plural is also los cumpleaños, which the editor could mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:49.914Z"
+}

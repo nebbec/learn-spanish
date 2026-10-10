@@ -1,0 +1,14 @@
+{
+  "id": "control-control",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "79c6c86648ba647f",
+  "group": "#562 control",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:42.278Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "orden-tidiness",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use el orden for tidiness or sequence; la orden is a command someone gives.",
+  "draft": "3c28bb3a13e6b29a",
+  "group": "#395 orden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:32.340Z"
+}

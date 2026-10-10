@@ -1,0 +1,14 @@
+{
+  "id": "cliente-customer",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cb68c182bc95879c",
+  "group": "#568 cliente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:53.458Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ademas-besides",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use además to add a further point (besides, moreover); también simply means also or too.",
+  "draft": "d6b655137943ef91",
+  "group": "#487 además",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:24.956Z"
+}

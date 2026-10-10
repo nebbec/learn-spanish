@@ -1,0 +1,14 @@
+{
+  "id": "mil-thousand",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a5cfebb5f06cfd29",
+  "group": "#445 mil",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:09.993Z"
+}

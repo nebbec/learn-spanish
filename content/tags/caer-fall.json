@@ -1,0 +1,14 @@
+{
+  "id": "caer-fall",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "908103c7039f28d4",
+  "group": "#281 caer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:01.808Z"
+}

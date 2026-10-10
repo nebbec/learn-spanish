@@ -1,0 +1,14 @@
+{
+  "id": "enviar-send",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6c4e0ad6080c3925",
+  "group": "#288 enviar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:17.674Z"
+}

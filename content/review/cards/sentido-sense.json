@@ -1,0 +1,17 @@
+{
+  "id": "sentido-sense",
+  "rank": 792,
+  "word": "sentido",
+  "draft": "6eefbf47631ec171",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sense (meaning; one of the five senses; direction)",
+    "example": "This has no sense / This doesn't make sense."
+  },
+  "note": "A hint such as \"meaning; also one of the five senses\" could help keep learners from answering la sensación, but the bare prompt already points to el sentido.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:26.884Z"
+}

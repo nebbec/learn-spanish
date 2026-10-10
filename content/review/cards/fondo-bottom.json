@@ -1,0 +1,17 @@
+{
+  "id": "fondo-bottom",
+  "rank": 786,
+  "word": "fondo",
+  "draft": "d8d011d6e841521b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the bottom; the back or far end (of a place)",
+    "example": "The keys are at the bottom of the bag."
+  },
+  "note": "The hint's \"a hall\" points to the far-end sense (al fondo del pasillo), and \"bottom of a hall\" is British usage that may puzzle American learners, so \"of the sea, a glass, a bag\" would be clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:01.756Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "siquiera-even",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use siquiera for even in negatives (ni siquiera); use incluso or hasta for even in positive sentences.",
+  "draft": "95bccfd144d3123b",
+  "group": "#307 siquiera",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:49.389Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "foto-photo",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3e730dc3d69b2f5a",
+  "group": "#416 foto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:09.394Z"
+}

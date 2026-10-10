@@ -1,0 +1,17 @@
+{
+  "id": "edificio-building",
+  "rank": 782,
+  "word": "edificio",
+  "draft": "5441d7c85a288337",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el edificio = building (a structure with walls and a roof, such as an apartment block or office building)",
+    "example": "I live in that blue building."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:43.504Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "duda-doubt",
+  "rank": 769,
+  "word": "duda",
+  "draft": "627d3c4e51718e17",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "doubt (also a question one has, as in tengo una duda)",
+    "example": "Without a doubt, it's the best movie of the year."
+  },
+  "note": "In everyday Latin American Spanish, la duda is also often used to mean a question someone has (¿Tienes alguna duda?), which could be worth teaching on a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:42:57.637Z"
+}

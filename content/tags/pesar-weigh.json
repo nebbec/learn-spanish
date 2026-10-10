@@ -1,0 +1,14 @@
+{
+  "id": "pesar-weigh",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "10f50ca7396047d0",
+  "group": "#658 pesar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:40.458Z"
+}

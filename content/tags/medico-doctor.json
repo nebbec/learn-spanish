@@ -1,0 +1,14 @@
+{
+  "id": "medico-doctor",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use médico for the job, a physician; doctor works too and is also the title, as in Doctor García.",
+  "draft": "26c5eb896c36c4fa",
+  "group": "#458 médico",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:33.459Z"
+}

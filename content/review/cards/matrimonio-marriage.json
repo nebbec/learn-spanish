@@ -1,0 +1,17 @@
+{
+  "id": "matrimonio-marriage",
+  "rank": 793,
+  "word": "matrimonio",
+  "draft": "f2bb332a7337f375",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "marriage, matrimony (in parts of Latin America also a wedding)",
+    "example": "Their (his/her) marriage lasted forty years."
+  },
+  "note": "Casamiento is a much less common word for marriage, so el matrimonio is clearly the expected answer, and in countries such as Chile and Colombia matrimonio also means wedding.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:26.618Z"
+}

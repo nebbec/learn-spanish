@@ -1,0 +1,14 @@
+{
+  "id": "consejo-advice",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "763d024ae8daaf9d",
+  "group": "#746 consejo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:16.171Z"
+}

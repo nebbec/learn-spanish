@@ -1,0 +1,17 @@
+{
+  "id": "suelo-floor",
+  "rank": 754,
+  "word": "suelo",
+  "draft": "90c21aaabcb43d9a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the floor; the ground",
+    "example": "The keys are on the floor."
+  },
+  "note": "In much of Latin America, especially Mexico, el piso is the everyday word for an indoor floor, so the hint is needed and does its job by ruling piso out; the example sentence would often be said with piso there, but suelo is understood and used everywhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:54.325Z"
+}

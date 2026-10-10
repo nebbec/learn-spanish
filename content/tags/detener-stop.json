@@ -1,0 +1,14 @@
+{
+  "id": "detener-stop",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use detener to halt someone or something, a bit formally; parar is the everyday word for stop.",
+  "draft": "319c640d72e4b55d",
+  "group": "#330 detener",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:31.608Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "echar-kick-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "39ef8f77c2587da4",
+  "group": "#341 echar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:49.250Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "peligroso-dangerous",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9e9b0c01c7f23615",
+  "group": "#686 peligroso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:32.876Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "demonio-demon",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "defa5749076ffb85",
+  "group": "#402 demonio",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:47.444Z"
+}

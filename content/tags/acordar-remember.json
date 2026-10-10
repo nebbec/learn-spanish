@@ -1,0 +1,14 @@
+{
+  "id": "acordar-remember",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use acordarse with me/te/se and de (me acuerdo de ti); recordar takes the thing directly (recuerdo tu nombre).",
+  "draft": "a1fd0cb95a119e50",
+  "group": "#722 acordar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:37.192Z"
+}

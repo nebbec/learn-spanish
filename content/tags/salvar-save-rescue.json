@@ -1,0 +1,14 @@
+{
+  "id": "salvar-save-rescue",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fff8b8f0af31c496",
+  "group": "#346 salvar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:59.503Z"
+}

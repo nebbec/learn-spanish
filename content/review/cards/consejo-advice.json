@@ -1,0 +1,17 @@
+{
+  "id": "consejo-advice",
+  "rank": 746,
+  "word": "consejo",
+  "draft": "763d024ae8daaf9d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el consejo: a piece of advice, a tip (also council, board)",
+    "example": "I'm going to give you a piece of advice."
+  },
+  "note": "The hint \"a piece of advice\" is needed: it points to the singular countable el consejo and not the plural los consejos, which English \"advice\" could also mean, and it separates this card from the \"council\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:18.330Z"
+}

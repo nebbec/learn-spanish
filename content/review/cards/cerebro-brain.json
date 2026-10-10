@@ -1,0 +1,17 @@
+{
+  "id": "cerebro-brain",
+  "rank": 798,
+  "word": "cerebro",
+  "draft": "63cd98041328d036",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the brain",
+    "example": "Use your brain before speaking."
+  },
+  "note": "Los sesos is a colloquial or culinary alternative, but el cerebro is the standard answer for brain, so the prompt needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:37.800Z"
+}

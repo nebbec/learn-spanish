@@ -1,0 +1,14 @@
+{
+  "id": "perro-dog",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2523caf289f8ade3",
+  "group": "#312 perro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:56.225Z"
+}

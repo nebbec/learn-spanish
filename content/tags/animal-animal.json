@@ -1,0 +1,14 @@
+{
+  "id": "animal-animal",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "54fbf07f7678564b",
+  "group": "#695 animal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:51.401Z"
+}

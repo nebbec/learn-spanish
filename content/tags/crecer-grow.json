@@ -1,0 +1,14 @@
+{
+  "id": "crecer-grow",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9031d9f9e7bfb6a7",
+  "group": "#636 crecer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:56.895Z"
+}

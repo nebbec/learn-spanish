@@ -1,0 +1,14 @@
+{
+  "id": "cantar-sing",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a2623a80ef9a07b3",
+  "group": "#560 cantar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:39.165Z"
+}

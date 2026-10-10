@@ -1,0 +1,14 @@
+{
+  "id": "muerte-death",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "06b2f9e0a3e081e6",
+  "group": "#301 muerte",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:36.516Z"
+}

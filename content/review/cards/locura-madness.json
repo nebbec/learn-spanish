@@ -1,0 +1,17 @@
+{
+  "id": "locura-madness",
+  "rank": 791,
+  "word": "locura",
+  "draft": "5c0f26110357ad71",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "madness, insanity, craziness (a crazy thing)",
+    "example": "This is madness! / This is crazy!"
+  },
+  "note": "Demencia is the clinical word for this, but a learner asked for \"madness\" would say locura, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:20.252Z"
+}

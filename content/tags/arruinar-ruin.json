@@ -1,0 +1,14 @@
+{
+  "id": "arruinar-ruin",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "49d946f3ae53b660",
+  "group": "#729 arruinar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:45.995Z"
+}

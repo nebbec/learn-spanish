@@ -1,0 +1,17 @@
+{
+  "id": "silencio-silence",
+  "rank": 780,
+  "word": "silencio",
+  "draft": "f81f4c9654ba488a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "silence (masculine noun); also quiet, absence of noise",
+    "example": "Silence, please! The baby is asleep."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:40.457Z"
+}

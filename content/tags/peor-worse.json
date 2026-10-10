@@ -1,0 +1,14 @@
+{
+  "id": "peor-worse",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "abe26664f94a821d",
+  "group": "#465 peor",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:43.875Z"
+}

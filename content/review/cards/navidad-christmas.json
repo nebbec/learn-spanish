@@ -1,0 +1,17 @@
+{
+  "id": "navidad-christmas",
+  "rank": 760,
+  "word": "navidad",
+  "draft": "7091062003f94931",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "Christmas (la Navidad, feminine noun, usually capitalized)",
+    "example": "What are you going to do at Christmas?"
+  },
+  "note": "The example correctly drops the article after \"en\", as in \"en Navidad\", and the trick's link to \"nativity\" is also the word's real origin.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:42:12.440Z"
+}

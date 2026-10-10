@@ -1,0 +1,14 @@
+{
+  "id": "asunto-matter",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "37219005cbfa3c12",
+  "group": "#461 asunto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:37.359Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cumpleanos-birthday",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a59569c50a107610",
+  "group": "#753 cumpleaños",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:29.336Z"
+}

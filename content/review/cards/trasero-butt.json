@@ -1,0 +1,17 @@
+{
+  "id": "trasero-butt",
+  "rank": 740,
+  "word": "trasero",
+  "draft": "e1338f2236a796a7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el trasero: bottom, backside, butt (noun)",
+    "example": "I fell and my backside hurt."
+  },
+  "note": "The hint correctly rules out the vulgar \"culo\", and the singular \"butt\" rules out \"las nalgas\"; regional words like \"pompis\" or \"cola\" are not neutral alternatives, but \"polite\" slightly overstates a word that is more neutral-informal than polite.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:38.358Z"
+}

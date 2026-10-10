@@ -1,0 +1,14 @@
+{
+  "id": "ay-ouch",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5d3fa7c1a2d287ef",
+  "group": "#632 ay",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:50.615Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sala-living-room",
+  "rank": 737,
+  "word": "sala",
+  "draft": "3daa98ec2042ba5b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "living room, sitting room (also: hall, large room)",
+    "example": "The children are watching TV in the living room."
+  },
+  "note": "Some learners may answer \"la sala de estar\", and in Argentina and Chile people often say \"el living\"; plain \"la sala\" is still the most widely used, neutral answer, so the card works as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:21.593Z"
+}

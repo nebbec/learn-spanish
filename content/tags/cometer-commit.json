@@ -1,0 +1,14 @@
+{
+  "id": "cometer-commit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fd7f474ed471b8b3",
+  "group": "#727 cometer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:42.716Z"
+}

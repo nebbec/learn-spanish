@@ -1,0 +1,14 @@
+{
+  "id": "club-club",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "028ed7d45e5f0cc0",
+  "group": "#739 club",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:03.054Z"
+}

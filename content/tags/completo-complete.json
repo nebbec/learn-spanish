@@ -1,0 +1,14 @@
+{
+  "id": "completo-complete",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9a232b1d447b7ab7",
+  "group": "#745 completo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:12.471Z"
+}

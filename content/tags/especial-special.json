@@ -1,0 +1,14 @@
+{
+  "id": "especial-special",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1350159986bb5dba",
+  "group": "#477 especial",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:03.340Z"
+}

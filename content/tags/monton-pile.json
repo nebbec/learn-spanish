@@ -1,0 +1,14 @@
+{
+  "id": "monton-pile",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "45331ff0d80f9255",
+  "group": "#638 montón",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:00.043Z"
+}

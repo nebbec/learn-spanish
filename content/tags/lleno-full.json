@@ -1,0 +1,14 @@
+{
+  "id": "lleno-full",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a380ee829cd61624",
+  "group": "#602 lleno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:55.908Z"
+}

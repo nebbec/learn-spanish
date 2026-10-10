@@ -1,0 +1,14 @@
+{
+  "id": "suficiente-enough",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use suficiente for just enough for a need; bastante leans toward plenty, a good amount.",
+  "draft": "916031e91d5dcbd3",
+  "group": "#319 suficiente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:10.946Z"
+}

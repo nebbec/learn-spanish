@@ -1,0 +1,14 @@
+{
+  "id": "ocupado-busy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7be13adb6682a0ab",
+  "group": "#656 ocupado",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:37.042Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "detener-arrest",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "12eb831f3983c113",
+  "group": "#330 detener",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:31.608Z"
+}

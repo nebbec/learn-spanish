@@ -1,0 +1,14 @@
+{
+  "id": "joven-young",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6cc3815d7be7d08c",
+  "group": "#344 joven",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:54.806Z"
+}

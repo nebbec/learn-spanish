@@ -1,0 +1,14 @@
+{
+  "id": "hermoso-beautiful",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2fa5731f253532cb",
+  "group": "#424 hermoso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:26.623Z"
+}

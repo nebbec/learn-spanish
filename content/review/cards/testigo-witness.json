@@ -1,0 +1,23 @@
+{
+  "id": "testigo-witness",
+  "rank": 787,
+  "word": "testigo",
+  "draft": "0277824490804776",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "grammar",
+      "problem": "Testigo has common gender (el testigo for a man, la testigo for a woman), so listing it as only masculine is misleading, and the example's la única testigo seems to contradict it.",
+      "fix": "grammar: gender m/f (common gender), article el / la (el testigo, la testigo)"
+    }
+  ],
+  "back": {
+    "es": "witness (a person who sees an event or testifies)",
+    "example": "She is the only witness of the accident."
+  },
+  "note": "Keeping es as el testigo is fine as the dictionary form, but the grammar should teach the learner that the article follows the person's sex.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:09.867Z"
+}
