@@ -3,6 +3,9 @@
 // and a visitor who is not signed in gets nothing. Also checks the rules sync relies
 // on: a repeated upload changes nothing, reviews and resets cannot be changed, a
 // note only replaces an earlier one, and the download order (`seq`) follows arrival.
+// And the language column (DE2): a row that names no language is Spanish, only es
+// and de are accepted, a card has a note per language, and a read filtered by
+// language gets only that language's rows.
 //
 // Creates two throwaway users with the secret key, signs each in with an
 // emailed-code token through the publishable key as the app would, and deletes
@@ -77,9 +80,9 @@ function reset(userId, at) {
   return { user_id: userId, id: randomUUID(), reset_at: new Date(at).toISOString(), device_id: DEVICE };
 }
 
-// The calls D6's remote will make.
+// The calls the app's remote makes (lib/sync/supabaseRemote.ts). Rows without `lang` are Spanish by default.
 const pushReviews = (client, rows) => client.from("reviews").upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true });
-const pushNotes = (client, rows) => client.from("notes").upsert(rows, { onConflict: "user_id,card_id" });
+const pushNotes = (client, rows) => client.from("notes").upsert(rows, { onConflict: "user_id,lang,card_id" });
 const pushReports = (client, rows) => client.from("card_reports").upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true });
 const pushResets = (client, rows) => client.from("resets").upsert(rows, { onConflict: "user_id,id", ignoreDuplicates: true });
 
@@ -205,6 +208,77 @@ async function main() {
     check("a known review is accepted", !knownResult.error, knownResult.error?.message);
     const unknown = await pushReviews(a.client, [{ ...review(a.id, t0 + 2000), rating: "easy" }]);
     check("a rating outside the four is refused", unknown.error?.code === "23514", unknown.error?.code ?? "accepted");
+
+    // Languages (DE2). Everything above named no language, so it is Spanish.
+    for (const table of TABLES) {
+      const { rows } = await visible(a.client, table);
+      check(`a ${table} row that names no language is Spanish`, rows.length > 0 && rows.every((r) => r.lang === "es"));
+    }
+    const de = (row) => ({ ...row, lang: "de" });
+    const germanReview = de(review(a.id, t0 + 3000));
+    check("a German review is accepted", !(await pushReviews(a.client, [germanReview])).error);
+    check("a German report is accepted", !(await pushReports(a.client, [de(report(a.id))])).error);
+    const germanReset = de(reset(a.id, t0 + 3000));
+    check("a German reset is accepted", !(await pushResets(a.client, [germanReset])).error);
+    for (const [table, push, row] of [
+      ["reviews", pushReviews, review(a.id, t0)],
+      ["notes", pushNotes, note(a.id, "french", t0)],
+      ["card_reports", pushReports, report(a.id)],
+      ["resets", pushResets, reset(a.id, t0)],
+    ]) {
+      const result = await push(a.client, [{ ...row, lang: "fr" }]);
+      check(`a ${table} row in another language is refused`, result.error?.code === "23514", result.error?.code ?? "accepted");
+    }
+
+    // A card id can be in both decks: one note per language, each kept by its own rule.
+    const spanishNote = await heldNote(a);
+    const addGermanNote = await pushNotes(a.client, [de(note(a.id, "deutsch", t0 - 9000))]);
+    check("a German note on a card with a Spanish note is accepted", !addGermanNote.error, addGermanNote.error?.message);
+    const notes = (await visible(a.client, "notes")).rows;
+    check(
+      "the card then has a note in each language",
+      notes.length === 2 && notes.some((n) => n.lang === "es" && n.text === spanishNote?.text) && notes.some((n) => n.lang === "de" && n.text === "deutsch"),
+      notes.map((n) => `${n.lang}:${n.text}`).join(", "),
+    );
+    await pushNotes(a.client, [de(note(a.id, "deutsch, later", t0 + 9000))]);
+    const afterGerman = (await visible(a.client, "notes")).rows;
+    check(
+      "a later German note replaces only the German one",
+      afterGerman.find((n) => n.lang === "de")?.text === "deutsch, later" && afterGerman.find((n) => n.lang === "es")?.text === spanishNote?.text,
+    );
+
+    // A download filtered by language, as the app makes it, after a cursor shared by both.
+    const read = (table, lang, since) => a.client.from(table).select("*").eq("lang", lang).gt("seq", since).order("seq");
+    const germanOnly = await read("reviews", "de", 0);
+    check(
+      "a German download reads only German reviews",
+      !germanOnly.error && germanOnly.data.length === 1 && germanOnly.data[0].id === germanReview.id,
+      germanOnly.error?.message ?? `${germanOnly.data?.length} rows`,
+    );
+    const spanishOnly = await read("reviews", "es", 0);
+    check("a Spanish download reads no German review", !spanishOnly.error && spanishOnly.data.every((r) => r.lang === "es") && spanishOnly.data.length === 3);
+    const spanishResets = await read("resets", "es", 0);
+    check(
+      "a Spanish download reads no German reset",
+      !spanishResets.error && spanishResets.data.length === 2 && !spanishResets.data.some((r) => r.id === germanReset.id),
+    );
+    // The German review's seq lies between the Spanish cursor and the next Spanish row.
+    const lastSpanish = spanishOnly.data.at(-1)?.seq;
+    check("the German review took a later seq than the Spanish cursor", Number(germanOnly.data?.[0]?.seq) > Number(lastSpanish));
+    const laterSpanish = review(a.id, t0 + 4000);
+    await pushReviews(a.client, [laterSpanish]);
+    const nextPage = await read("reviews", "es", lastSpanish);
+    check(
+      "a Spanish row uploaded after a German one is read after the Spanish cursor",
+      !nextPage.error && nextPage.data.length === 1 && nextPage.data[0].id === laterSpanish.id,
+      nextPage.error?.message ?? `${nextPage.data?.length} rows`,
+    );
+
+    // Languages do not open another user's rows.
+    for (const table of TABLES) {
+      const { data } = await b.client.from(table).select("*").eq("lang", "de");
+      check(`second user reads none of the first user's German ${table}`, (data ?? []).length === 0, `${data?.length} rows`);
+    }
   } finally {
     for (const user of users) await admin.auth.admin.deleteUser(user.id);
   }

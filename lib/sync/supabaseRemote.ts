@@ -1,13 +1,23 @@
 // The Supabase implementation of `SyncRemote`. See docs/design.md, "Data in
 // Supabase" and "Sync rules". Row-level security limits every call to the
-// signed-in user's rows, and `user_id` is filled in by the database.
+// signed-in user's rows, and `user_id` is filled in by the database. Every row
+// carries the language it belongs to (docs/german.md, "Data"): uploads set it and
+// downloads read only that language's rows.
 
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { LANG, type LangCode } from "@/lang";
 import type { Direction, Rating, RemoteNote, RemoteReport, RemoteReset, RemoteReview, Section } from "@/lib/store";
 import type { RemotePage, SyncRemote } from "./remote";
 
 /** Rows per download page. */
 export const PULL_PAGE = 500;
+
+export interface SupabaseRemoteOptions {
+  /** The language whose rows this remote uploads and downloads. Defaults to this build's. */
+  lang?: LangCode;
+  /** Rows per download page. Defaults to `PULL_PAGE`. */
+  pageSize?: number;
+}
 
 interface ReviewRow {
   id: string;
@@ -114,63 +124,86 @@ function page<R extends { seq?: number | string }, T>(
 }
 
 export class SupabaseRemote implements SyncRemote {
+  /** The language of every row this remote sends and reads. */
+  readonly lang: LangCode;
+  private readonly pageSize: number;
+
   constructor(
     private readonly client: SupabaseClient,
-    private readonly pageSize: number = PULL_PAGE,
-  ) {}
+    options: SupabaseRemoteOptions = {},
+  ) {
+    this.lang = options.lang ?? LANG.code;
+    this.pageSize = options.pageSize ?? PULL_PAGE;
+  }
+
+  /** A row as uploaded: the device's fields and this remote's language. */
+  private tagged<R>(row: R): R & { lang: LangCode } {
+    return { ...row, lang: this.lang };
+  }
 
   async pushReviews(rows: readonly RemoteReview[]): Promise<void> {
     if (rows.length === 0) return;
-    const { error } = await this.client
-      .from("reviews")
-      .upsert(rows.map(reviewToRow), { onConflict: "user_id,id", ignoreDuplicates: true });
+    const { error } = await this.client.from("reviews").upsert(
+      rows.map((r) => this.tagged(reviewToRow(r))),
+      { onConflict: "user_id,id", ignoreDuplicates: true },
+    );
     check(error, "uploading reviews");
   }
 
   async pushNotes(rows: readonly RemoteNote[]): Promise<void> {
     if (rows.length === 0) return;
-    // A trigger keeps the stored note when it is as late or later (see the migration).
-    const { error } = await this.client.from("notes").upsert(rows.map(noteToRow), { onConflict: "user_id,card_id" });
+    // One note per user, language and card. A trigger keeps the stored note when
+    // it is as late or later (see the migrations).
+    const { error } = await this.client.from("notes").upsert(
+      rows.map((n) => this.tagged(noteToRow(n))),
+      { onConflict: "user_id,lang,card_id" },
+    );
     check(error, "uploading notes");
   }
 
   async pushReports(rows: readonly RemoteReport[]): Promise<void> {
     if (rows.length === 0) return;
-    const { error } = await this.client
-      .from("card_reports")
-      .upsert(rows.map(reportToRow), { onConflict: "user_id,id", ignoreDuplicates: true });
+    const { error } = await this.client.from("card_reports").upsert(
+      rows.map((r) => this.tagged(reportToRow(r))),
+      { onConflict: "user_id,id", ignoreDuplicates: true },
+    );
     check(error, "uploading reports");
   }
 
   async pushResets(rows: readonly RemoteReset[]): Promise<void> {
     if (rows.length === 0) return;
-    const { error } = await this.client
-      .from("resets")
-      .upsert(rows.map(resetToRow), { onConflict: "user_id,id", ignoreDuplicates: true });
+    const { error } = await this.client.from("resets").upsert(
+      rows.map((r) => this.tagged(resetToRow(r))),
+      { onConflict: "user_id,id", ignoreDuplicates: true },
+    );
     check(error, "uploading resets");
   }
 
   async pullReviews(since: string | null): Promise<RemotePage<RemoteReview>> {
-    let query = this.client.from("reviews").select(REVIEW_COLUMNS);
-    if (since !== null) query = query.gt("seq", since);
-    const { data, error } = await query.order("seq").limit(this.pageSize);
-    check(error, "downloading reviews");
-    return page((data ?? []) as ReviewRow[], since, this.pageSize, rowToReview);
+    const data = await this.pull<ReviewRow>("reviews", REVIEW_COLUMNS, since, "downloading reviews");
+    return page(data, since, this.pageSize, rowToReview);
   }
 
   async pullNotes(since: string | null): Promise<RemotePage<RemoteNote>> {
-    let query = this.client.from("notes").select(NOTE_COLUMNS);
-    if (since !== null) query = query.gt("seq", since);
-    const { data, error } = await query.order("seq").limit(this.pageSize);
-    check(error, "downloading notes");
-    return page((data ?? []) as NoteRow[], since, this.pageSize, rowToNote);
+    const data = await this.pull<NoteRow>("notes", NOTE_COLUMNS, since, "downloading notes");
+    return page(data, since, this.pageSize, rowToNote);
   }
 
   async pullResets(since: string | null): Promise<RemotePage<RemoteReset>> {
-    let query = this.client.from("resets").select(RESET_COLUMNS);
+    const data = await this.pull<ResetRow>("resets", RESET_COLUMNS, since, "downloading resets");
+    return page(data, since, this.pageSize, rowToReset);
+  }
+
+  /**
+   * One page of this language's rows after the cursor, in `seq` order. `seq` is one
+   * sequence across languages, so the page's last `seq` is still a cursor the next
+   * page starts after; rows of the other language in between are simply never read.
+   */
+  private async pull<R>(table: string, columns: string, since: string | null, what: string): Promise<R[]> {
+    let query = this.client.from(table).select(columns).eq("lang", this.lang);
     if (since !== null) query = query.gt("seq", since);
     const { data, error } = await query.order("seq").limit(this.pageSize);
-    check(error, "downloading resets");
-    return page((data ?? []) as ResetRow[], since, this.pageSize, rowToReset);
+    check(error, what);
+    return (data ?? []) as R[];
   }
 }

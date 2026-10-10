@@ -653,6 +653,8 @@ Decided in B1 (types in `lib/store/types.ts`, store in `lib/store/db.ts`):
 
 Tables `reviews`, `notes`, `card_reports` and (since L16, see [Reset](#reset)) `resets`, each with a `user_id` column and row-level security restricting rows to their owner. Card state is not stored on the server; any device rebuilds it by replaying review events.
 
+Changed by DE2 ([german.md](german.md#data), "Decided in DE2"): each table also has `lang` (`es` or `de`, default `es`), the notes key is `(user_id, lang, card_id)`, and a device uploads and downloads only its own language's rows. The rules below name the tables as they were.
+
 Decided in D3 (migration in `supabase/migrations`, check in `scripts/check-rls.mjs`):
 
 - **Project**: `learn-spanish`, ref `sbouiweyksuiakajkrbt`, eu-west-1. Migrations are SQL files in `supabase/migrations`, made with `supabase migration new` and applied with `supabase db push --linked`. The CLI connects through a temporary login role, so no database password is needed.
