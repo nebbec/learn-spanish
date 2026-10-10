@@ -1,0 +1,324 @@
+[
+  {
+    "id": "me-and-you",
+    "title": "Me and you",
+    "goal": "say I, you, he, she, it and we, say yes or no, and say please and thank you.",
+    "tip": null,
+    "cap": 12,
+    "wants": ["ich", "du", "er", "sie: she", "es: it", "wir", "ja", "nein", "danke", "bitte: please"],
+    "payoff": ["Yes, please.", "No, thank you."]
+  },
+  {
+    "id": "who-i-am",
+    "title": "Who I am",
+    "goal": "say your name and where you are from.",
+    "tip": "tip-always-pronoun",
+    "cap": 11,
+    "wants": [
+      "sein: I am (ich bin)",
+      "sein: you are (du bist)",
+      "sein: he / she is (er ist)",
+      "aus: from",
+      "und: and",
+      "phrase: ich heiße = my name is",
+      "phrase: Wie heißt du? = what's your name?",
+      "phrase: freut mich = nice to meet you",
+      "phrase: gern geschehen = you're welcome"
+    ],
+    "payoff": ["I'm from Berlin, and you?", "She is from Hamburg."]
+  },
+  {
+    "id": "hello-how-are-you",
+    "title": "Hello, how are you?",
+    "goal": "say hello and goodbye, ask how someone is and say how you are.",
+    "tip": null,
+    "cap": 12,
+    "wants": [
+      "hallo",
+      "phrase: guten Morgen = good morning",
+      "phrase: Wie geht's? = how are you?",
+      "phrase: mir geht's gut = I'm fine",
+      "phrase: und dir? = and you? (how are you)",
+      "phrase: auf Wiedersehen = goodbye",
+      "gut: good, well",
+      "sehr: very",
+      "nicht: not",
+      "müde"
+    ],
+    "payoff": ["Hello! How are you?", "I'm very tired."]
+  },
+  {
+    "id": "what-i-want-and-have",
+    "title": "What I want and have",
+    "goal": "say what you would like and what you have.",
+    "tip": "tip-verb-endings",
+    "cap": 12,
+    "wants": [
+      "haben: I have (ich habe)",
+      "haben: you have (du hast)",
+      "haben: he / she has (er hat)",
+      "möchten: I would like (ich möchte)",
+      "möchten: you would like (du möchtest)",
+      "möchten: he / she would like (er möchte)",
+      "ein: a",
+      "Kaffee",
+      "Wasser",
+      "Haus: house"
+    ],
+    "payoff": ["I'd like a water, please.", "He has a house."]
+  },
+  {
+    "id": "my-people",
+    "title": "My people",
+    "goal": "talk about the people in your life.",
+    "tip": "tip-der-die-das",
+    "cap": 12,
+    "wants": [
+      "der / die / das: the",
+      "das: this, that (das ist …)",
+      "Mann: man",
+      "Frau: woman",
+      "Kind",
+      "Mutter",
+      "Vater",
+      "Bruder",
+      "Schwester",
+      "mein: my"
+    ],
+    "payoff": ["This is my mother.", "My brother is from Hamburg."]
+  },
+  {
+    "id": "a-coffee-please",
+    "title": "A coffee, please",
+    "goal": "order a drink and say who you have.",
+    "tip": "tip-accusative",
+    "cap": 10,
+    "wants": [
+      "trinken",
+      "essen: eat",
+      "Bier",
+      "Tee",
+      "case: einen Kaffee = [a] coffee, please",
+      "case: einen Bruder = I have [a] brother",
+      "case: den Mann = I see [the] man",
+      "case: meinen Vater = I love [my] father"
+    ],
+    "payoff": ["A coffee and a beer, please.", "I have a brother and a sister."]
+  },
+  {
+    "id": "asking-questions",
+    "title": "Asking questions",
+    "goal": "ask what, who, where, when, how and why.",
+    "tip": "tip-questions",
+    "cap": 10,
+    "wants": [
+      "was: what (question)",
+      "wer",
+      "wo",
+      "wann",
+      "wie: how (question)",
+      "warum",
+      "woher",
+      "phrase: Wie bitte? = pardon? (I didn't catch that)"
+    ],
+    "payoff": ["What is that?", "Who is he?"]
+  },
+  {
+    "id": "when-i-dont-understand",
+    "title": "When I don't understand",
+    "goal": "say you don't understand or don't know, and ask how to say something.",
+    "tip": "tip-nicht-kein",
+    "cap": 12,
+    "wants": [
+      "wissen: I know (ich weiß)",
+      "wissen: you know (du weißt)",
+      "wissen: he / she knows (er weiß)",
+      "verstehen",
+      "sprechen",
+      "kein: no, not a",
+      "Deutsch: German (the language)",
+      "phrase: Sprechen Sie Englisch? = do you speak English? (polite)",
+      "phrase: noch einmal, bitte = once more, please",
+      "phrase: Wie sagt man … auf Deutsch? = how do you say … in German?"
+    ],
+    "payoff": ["I don't understand.", "I don't speak German."]
+  },
+  {
+    "id": "can-you-help-me",
+    "title": "Can you help me?",
+    "goal": "ask for help and say what you can, must and need.",
+    "tip": "tip-modal-end",
+    "cap": 12,
+    "wants": [
+      "können: I can (ich kann)",
+      "können: you can (du kannst)",
+      "können: he / she can (er kann)",
+      "müssen: I must (ich muss)",
+      "müssen: you must (du musst)",
+      "müssen: he / she must (er muss)",
+      "helfen",
+      "Hilfe",
+      "brauchen: need",
+      "mir: (to) me"
+    ],
+    "payoff": ["Can you help me, please?", "I need help."]
+  },
+  {
+    "id": "out-and-about",
+    "title": "Out and about",
+    "goal": "speak politely to strangers and ask where things are.",
+    "tip": "tip-du-sie",
+    "cap": 11,
+    "wants": [
+      "Sie: you (polite)",
+      "können: to be able to (Sie können)",
+      "phrase: Entschuldigung = excuse me, sorry",
+      "phrase: es gibt = there is, there are",
+      "phrase: Wo ist die Toilette? = where is the toilet?",
+      "Hotel",
+      "Stadt",
+      "hier",
+      "weit: far"
+    ],
+    "payoff": ["Excuse me, where is the hotel?", "Excuse me, can you help me? (polite)"]
+  },
+  {
+    "id": "where-im-going",
+    "title": "Where I'm going",
+    "goal": "say where you are going and when.",
+    "tip": "tip-verb-second",
+    "cap": 11,
+    "wants": [
+      "gehen: I go (ich gehe)",
+      "gehen: you go (du gehst)",
+      "gehen: he / she goes (er geht)",
+      "nach: to (a city, a country, home)",
+      "zu: to (a person, a place)",
+      "heute",
+      "morgen: tomorrow",
+      "jetzt",
+      "Arbeit: work"
+    ],
+    "payoff": ["I'm going home now.", "Tomorrow I'm going to Anna's."]
+  },
+  {
+    "id": "what-i-do",
+    "title": "What I do",
+    "goal": "say where you live and work and what you do in a day.",
+    "tip": "tip-separable",
+    "cap": 10,
+    "wants": [
+      "machen: do, make",
+      "arbeiten",
+      "wohnen: live (somewhere)",
+      "lernen",
+      "aufstehen: get up",
+      "anfangen: start",
+      "in: in",
+      "früh: early"
+    ],
+    "payoff": ["I live in Berlin and work here.", "I get up early."]
+  },
+  {
+    "id": "what-i-like",
+    "title": "What I like",
+    "goal": "say what you like, what you like doing and what you want.",
+    "tip": "tip-gern",
+    "cap": 9,
+    "wants": [
+      "mögen: like",
+      "gern: gladly (I like doing)",
+      "wollen: I want (ich will)",
+      "wollen: you want (du willst)",
+      "wollen: he / she wants (er will)",
+      "Essen: food",
+      "Musik"
+    ],
+    "payoff": ["I like drinking coffee.", "I don't like beer."]
+  },
+  {
+    "id": "how-i-feel",
+    "title": "How I feel",
+    "goal": "say how you feel: hungry, cold, scared, sad or sick.",
+    "tip": null,
+    "cap": 10,
+    "wants": ["Hunger", "kalt", "krank", "traurig", "glücklich", "Angst: fear", "bisschen: a little (ein bisschen)", "besser: better"],
+    "payoff": ["I'm hungry.", "I'm a little sick."]
+  },
+  {
+    "id": "people-i-love",
+    "title": "People I love",
+    "goal": "tell someone you love and miss them and that you'll call.",
+    "tip": null,
+    "cap": 10,
+    "wants": [
+      "lieben",
+      "dich: you (object)",
+      "mich: me (object)",
+      "ihn: him (object)",
+      "anrufen: call (on the phone)",
+      "vermissen",
+      "Liebe",
+      "phrase: bis später = see you later"
+    ],
+    "payoff": ["I love you.", "I'll call you tomorrow."]
+  },
+  {
+    "id": "buying-things",
+    "title": "Buying things",
+    "goal": "count to five, ask what something costs and pay.",
+    "tip": "tip-plurals",
+    "cap": 11,
+    "wants": [
+      "eins: one (counting)",
+      "zwei",
+      "drei",
+      "vier",
+      "fünf",
+      "Geld",
+      "kaufen",
+      "bezahlen",
+      "phrase: Was kostet das? = how much is it?"
+    ],
+    "payoff": ["Two coffees, please.", "I'd like to pay, please."]
+  },
+  {
+    "id": "with-friends",
+    "title": "With friends",
+    "goal": "say who you are with and whose place you are at.",
+    "tip": "tip-dative",
+    "cap": 12,
+    "wants": [
+      "mit: with",
+      "bei: at (someone's place)",
+      "Freund: friend",
+      "dir: (to) you",
+      "ihm: (to) him",
+      "case: mit einem Freund = with [a] friend",
+      "case: mit meiner Mutter = with [my] mother",
+      "case: mit dem Kind = with [the] child",
+      "case: mit der Frau = with [the] woman",
+      "case: mit meinem Vater = with [my] father"
+    ],
+    "payoff": ["I'm going with a friend.", "I'm at my mother's."]
+  },
+  {
+    "id": "making-plans",
+    "title": "Making plans",
+    "goal": "invite someone along and say what will happen tonight and tomorrow.",
+    "tip": null,
+    "cap": 11,
+    "wants": [
+      "kommen: I come (ich komme)",
+      "kommen: you come (du kommst)",
+      "kommen: he / she comes (er kommt)",
+      "werden: I will (ich werde)",
+      "werden: you will (du wirst)",
+      "werden: he / she will (er wird)",
+      "Abend: evening",
+      "Party",
+      "phrase: Kommst du mit? = are you coming along?"
+    ],
+    "payoff": ["Are you coming this evening?", "My friend is coming tomorrow."]
+  }
+]
