@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: new example using only common words (llamarse, ese) in place of the redraft.
 decision: pending
 
 id:         santo-saint
@@ -22,8 +23,8 @@ en:         saint
 hint:
 gender:     m
 article:    el
-example.es: Mi abuela le reza a su santo favorito.
-example.en: My grandma prays to her favorite saint.
+example.es: ¿Cómo se llama ese santo?
+example.en: What's that saint's name?
 spain:
 trick:      SANTO sounds like Santa: Santa Claus is based on a saint, Saint Nicholas.
 

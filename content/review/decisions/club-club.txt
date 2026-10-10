@@ -1,0 +1,32 @@
+# club-club · rank 739 · club
+#
+# Why it was flagged:
+#   - One right answer: The bare English prompt club also means a weapon (el garrote, la porra) or a golf club (el palo), so with no hint more than one Spanish answer is right. Suggested fix: hint: an association or team, as in a soccer club
+# Reviewer's note (not a reason to flag): The plural is clubes (clubs is also heard), which might be worth showing to learners.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: fixed hint; dropped the reviewer's 'or team', which invites equipo.
+decision: pending
+
+id:         club-club
+kind:       content
+pos:        noun
+es:         el club
+en:         club
+hint:       a group with members, as in a soccer club
+gender:     m
+article:    el
+example.es: Mi hermano juega en un club de fútbol.
+example.en: My brother plays for a soccer club.
+spain:
+trick:      CLUB sounds just like the English club: same word, same meeting place for members.
+
+# The draft this file was made from. Do not change it.
+draft: 028ed7d45e5f0cc0

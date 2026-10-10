@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         caballero-gentleman
@@ -22,8 +23,8 @@ en:         gentleman
 hint:
 gender:     m
 article:    el
-example.es: Buenas noches, damas y caballeros.
-example.en: Good evening, ladies and gentlemen.
+example.es: Tu papá es todo un caballero.
+example.en: Your dad is a real gentleman.
 spain:
 trick:      CABALLERO sounds like "cab a hero": a true gentleman calls a cab for you like a hero.
 

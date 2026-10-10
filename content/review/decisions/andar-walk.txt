@@ -13,6 +13,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fixes to hint and example.
 decision: pending
 
 id:         andar-walk
@@ -20,13 +21,13 @@ kind:       content
 pos:        verb
 es:         andar
 en:         to walk around
-hint:       to go about on foot, not caminar
+hint:       to go about on foot, not caminar or pasear
 yo:         ando
 tu:         andas
 el:         anda
 irregular:  yes
-example.es: Me gusta andar por el parque.
-example.en: I like walking around the park.
+example.es: Ando por el parque todas las mañanas.
+example.en: I walk around the park every morning.
 spain:
 trick:      ANDAR sounds like "and are": and off you are, walking around town.
 

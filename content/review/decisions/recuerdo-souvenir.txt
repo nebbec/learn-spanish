@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: pending
 
 id:         recuerdo-souvenir
@@ -19,7 +20,7 @@ kind:       content
 pos:        noun
 es:         el recuerdo
 en:         souvenir
-hint:
+hint:       the native Spanish word, not the borrowed souvenir
 gender:     m
 article:    el
 example.es: Te traje un recuerdo de México.

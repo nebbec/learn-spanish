@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: could not apply the reviewer's m/f gender (the deck allows only m or f), so kept gender m, article el, and put el idiota / la idiota in the trick instead.
 decision: pending
 
 id:         idiota-idiot
@@ -25,7 +26,7 @@ article:    el
 example.es: No seas idiota, ella te quiere.
 example.en: Don't be an idiot, she loves you.
 spain:
-trick:      IDIOTA sounds like 'idiot-a': just add an 'a' to the English idiot.
+trick:      IDIOTA is the English idiot plus an 'a', and it is the same word for anyone: el idiota for a man, la idiota for a woman.
 
 # The draft this file was made from. Do not change it.
 draft: 236178f7d7a78d77

@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: pending
 
 id:         monton-pile
@@ -19,7 +20,7 @@ kind:       content
 pos:        noun
 es:         el montón
 en:         pile
-hint:       also a lot, as in un montón de
+hint:       a heap of things; in casual speech also means 'a ton of'
 gender:     m
 article:    el
 example.es: Tengo un montón de trabajo hoy.

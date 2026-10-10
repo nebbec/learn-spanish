@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: added a hint, but not the reviewer's ('the noun form of sweet' gives away the answer, since dulce-sweet is its own card); this one rules out caramelo and golosina instead.
 decision: pending
 
 id:         dulce-candy
@@ -19,8 +20,7 @@ kind:       content
 pos:        noun
 es:         el dulce
 en:         candy
-hint:
-gender:     m
+hint:       a sweet treat; not caramelo or golosina
 article:    el
 example.es: ¿Me das un dulce?
 example.en: Can you give me a candy?

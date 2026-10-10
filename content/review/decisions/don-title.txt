@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         don-title
@@ -20,8 +21,8 @@ pos:        other
 es:         don
 en:         Mr. (respectful title before a first name)
 hint:       used before a first name, as in ___ Pedro, not señor; feminine doña
-example.es: Buenos días, don Pedro, ¿cómo está?
-example.en: Good morning, Mr. Pedro, how are you?
+example.es: Don Pedro vive al lado de mi casa.
+example.en: Mr. Pedro lives next door to me.
 spain:
 trick:      DON sounds like Don Corleone: everyone respectfully calls the boss Don before his name.
 

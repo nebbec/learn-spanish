@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: pending
 
 id:         pena-embarrassment
@@ -19,7 +20,7 @@ kind:       content
 pos:        noun
 es:         la pena
 en:         embarrassment
-hint:       Latin American, as in me da ___; not vergüenza
+hint:       Mexico, Central America, Colombia, as in me da ___; not vergüenza
 gender:     f
 article:    la
 example.es: Me da pena hablar en público.

@@ -12,20 +12,21 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's en; hint is only 'not tranquilizar', since 'the word that looks like English calm' gives the answer away; replaced the example (cálmate is calmarse) with a transitive calmar to match the new prompt.
 decision: pending
 
 id:         calmar-calm-down
 kind:       content
 pos:        verb
 es:         calmar
-en:         to calm down
-hint:
+en:         to calm (someone) down
+hint:       not tranquilizar
 yo:         calmo
 tu:         calmas
 el:         calma
 irregular:  no
-example.es: Cálmate, todo va a estar bien.
-example.en: Calm down, everything is going to be fine.
+example.es: Mi mamá siempre me calma.
+example.en: My mom always calms me down.
 spain:
 trick:      CALMAR sounds like calm-ARRR: even an angry pirate needs someone to calm him down.
 

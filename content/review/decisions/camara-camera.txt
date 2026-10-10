@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to trick.
 decision: pending
 
 id:         camara-camera
@@ -25,7 +26,7 @@ article:    la
 example.es: Sonríe, que hay una cámara.
 example.en: Smile, there's a camera.
 spain:
-trick:      CÁMARA sounds like camera with an extra a: say cheese, the cámara is rolling.
+trick:      CÁMARA is camera with the e swapped for an a: say cheese, the cámara is rolling.
 
 # The draft this file was made from. Do not change it.
 draft: 14566be9baa75056

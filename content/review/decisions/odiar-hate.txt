@@ -11,6 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: new example using only common words (cuando, hacer, eso) in place of the redraft.
 decision: pending
 
 id:         odiar-hate
@@ -23,8 +24,8 @@ yo:         odio
 tu:         odias
 el:         odia
 irregular:  no
-example.es: Odio levantarme temprano los lunes.
-example.en: I hate getting up early on Mondays.
+example.es: Odio cuando haces eso.
+example.en: I hate it when you do that.
 spain:
 trick:      ODIAR sounds like "oh dear": oh dear, it's Monday again, and you hate it.
 

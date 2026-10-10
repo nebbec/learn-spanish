@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.
 decision: pending
 
 id:         unir-unite
@@ -24,8 +25,8 @@ yo:         uno
 tu:         unes
 el:         une
 irregular:  no
-example.es: ¿Quieres unirte a nosotros?
-example.en: Do you want to join us?
+example.es: La música une a las personas.
+example.en: Music unites people.
 spain:
 trick:      UNIR sounds like 'unit': when you unite people, they become one unit.
 

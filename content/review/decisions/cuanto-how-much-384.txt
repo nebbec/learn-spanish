@@ -12,16 +12,17 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to pos. Example rewritten by Claude with words met before it in the starter path.
 decision: pending
 
 id:         cuanto-how-much-384
 kind:       glue
-pos:        determiner
+pos:        adverb
 es:         cuánto
 en:         [how much] does it cost?
 hint:
-example.es: ¿Cuánto cuesta este libro?
-example.en: How much does this book cost?
+example.es: ¿Cuánto es el café?
+example.en: How much is the coffee?
 spain:
 trick:      CUÁNTO sounds like quantity: asking how much is asking the quantity.
 

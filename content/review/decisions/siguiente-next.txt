@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: new example; simpler than the suggested 'Me bajo en la siguiente parada' (bajarse and parada not met yet).
 decision: pending
 
 id:         siguiente-next
@@ -21,8 +22,8 @@ es:         siguiente
 en:         next
 hint:       the following one, not próximo
 feminine:   siguiente
-example.es: Nos vemos la semana siguiente.
-example.en: See you the following week.
+example.es: ¿Quién es el siguiente?
+example.en: Who's next?
 spain:
 trick:      SIGUIENTE sounds like 'see, good gente': see the good people waiting in line, then call the next one.
 

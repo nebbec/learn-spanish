@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
 decision: pending
 
 id:         diferente-different
@@ -24,7 +25,7 @@ feminine:   diferente
 example.es: Esta ciudad es muy diferente a la mía.
 example.en: This city is very different from mine.
 spain:
-trick:      DIFERENTE sounds like "different-ay": just add a Spanish "ay" to different and you've got it.
+trick:      DIFERENTE is just "different" with one f dropped and an "eh" added at the end: dee-feh-REN-teh.
 
 # The draft this file was made from. Do not change it.
 draft: 4647bab4b4647fe6

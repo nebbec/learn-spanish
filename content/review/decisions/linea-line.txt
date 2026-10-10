@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: new example with common words (escribir, nombre) in place of the redraft; also added the hint from the reviewer's note to rule out fila.
 decision: pending
 
 id:         linea-line
@@ -19,11 +20,11 @@ kind:       content
 pos:        noun
 es:         la línea
 en:         line
-hint:
+hint:       a drawn or written line, not a queue
 gender:     f
 article:    la
-example.es: Dibuja una línea recta en el papel.
-example.en: Draw a straight line on the paper.
+example.es: Escribe tu nombre en esta línea.
+example.en: Write your name on this line.
 spain:
 trick:      LÍNEA sounds like linear: a linear drawing is just one straight line.
 

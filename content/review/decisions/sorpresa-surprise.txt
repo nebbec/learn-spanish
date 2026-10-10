@@ -1,0 +1,32 @@
+# sorpresa-surprise · rank 774 · sorpresa
+#
+# Why it was flagged:
+#   - Example sentence: The example has no conjugated verb, only the infinitive verte, so it does not meet the rule that the example conjugates a verb. Suggested fix: example.es: Fue una sorpresa verte aquí. example.en: It was a surprise to see you here.
+# Reviewer's note (not a reason to flag): The original exclamation is perfectly natural Spanish and fails only on the conjugated-verb rule.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: new conjugated example; simpler and more natural than the suggested 'Fue una sorpresa verte aquí'.
+decision: pending
+
+id:         sorpresa-surprise
+kind:       content
+pos:        noun
+es:         la sorpresa
+en:         surprise
+hint:
+gender:     f
+article:    la
+example.es: Tengo una sorpresa para ti.
+example.en: I have a surprise for you.
+spain:
+trick:      SORPRESA sounds like surprise with a press: someone presses the button and confetti bursts out as a surprise.
+
+# The draft this file was made from. Do not change it.
+draft: 6c0a6474fb009758

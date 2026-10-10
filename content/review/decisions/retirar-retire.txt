@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, and moved the example to sport as the note suggests (retiring from work is jubilarse).
 decision: pending
 
 id:         retirar-retire
@@ -19,13 +20,13 @@ kind:       content
 pos:        verb
 es:         retirarse
 en:         to retire
-hint:       from a job or sport, or to step away
+hint:       from a sport or career, or to step away; not jubilarse
 yo:         me retiro
 tu:         te retiras
 el:         se retira
 irregular:  no
-example.es: Mi papá se retira el próximo año.
-example.en: My dad is retiring next year.
+example.es: Ella se retira del fútbol este año.
+example.en: She's retiring from soccer this year.
 spain:
 trick:      RETIRARSE sounds like retire: when you are tired of working, you retire.
 

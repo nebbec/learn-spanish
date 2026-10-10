@@ -14,17 +14,18 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to es and the present forms (reflexive referirse); id kept.
 decision: pending
 
 id:         referir-refer
 kind:       content
 pos:        verb
-es:         referir
+es:         referirse
 en:         to refer (to)
 hint:
-yo:         refiero
-tu:         refieres
-el:         refiere
+yo:         me refiero
+tu:         te refieres
+el:         se refiere
 irregular:  yes
 example.es: ¿A qué te refieres?
 example.en: What do you mean?

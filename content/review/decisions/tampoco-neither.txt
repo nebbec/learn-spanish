@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.
 decision: pending
 
 id:         tampoco-neither
@@ -20,8 +21,8 @@ pos:        adverb
 es:         tampoco
 en:         neither, not either
 hint:       me neither; the negative of también
-example.es: Yo no quiero ir. Yo tampoco.
-example.en: I don't want to go. Me neither.
+example.es: Ana no quiere ir y yo tampoco.
+example.en: Ana doesn't want to go, and neither do I.
 spain:
 trick:      TAMPOCO sounds like 'tam, poco': 'that much? too little!' Neither of us wants it either.
 

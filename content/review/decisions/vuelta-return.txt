@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (dropped 'lap or spin', which is the vuelta-turn card).
 decision: pending
 
 id:         vuelta-return
@@ -19,7 +20,7 @@ kind:       content
 pos:        noun
 es:         la vuelta
 en:         return
-hint:       the trip back; de ... = back
+hint:       the trip back, as in ida y ... (round trip); de ... = back
 gender:     f
 article:    la
 example.es: ¡Qué bueno que estás de vuelta!

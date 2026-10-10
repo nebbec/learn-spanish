@@ -13,6 +13,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fixes to hint (shortened) and example.
 decision: pending
 
 id:         andar-be-doing
@@ -20,13 +21,13 @@ kind:       content
 pos:        verb
 es:         andar
 en:         to be (going around)
-hint:       how someone is getting on, what they're up to: ¿Cómo ___s?
+hint:       colloquial, how someone's doing or what they're up to, not estar: ¿Cómo ___s?
 yo:         ando
 tu:         andas
 el:         anda
 irregular:  yes
-example.es: ¿Cómo andas? ¿Qué andas haciendo?
-example.en: How are you doing? What are you up to?
+example.es: ¿Qué andas haciendo hoy?
+example.en: What are you up to today?
 spain:
 trick:      ANDAR sounds like "and are": and how are you doing these days?
 

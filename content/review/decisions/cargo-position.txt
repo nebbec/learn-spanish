@@ -13,18 +13,19 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's en (office), shortened the hint; rewrote the example by hand with common words (gobierno, importante unmet).
 decision: pending
 
 id:         cargo-position
 kind:       content
 pos:        noun
 es:         el cargo
-en:         position
-hint:       a post or office someone holds, as in a cargo de (in charge of)
+en:         office
+hint:       a post someone holds, as in public office; not the room
 gender:     m
 article:    el
-example.es: Ella ocupa un cargo importante en el gobierno.
-example.en: She holds an important position in the government.
+example.es: Mi papá tiene un cargo nuevo en el trabajo.
+example.en: My dad has a new position at work.
 spain:
 trick:      CARGO sounds like cargo: the person in that position carries the whole company's cargo on their shoulders.
 

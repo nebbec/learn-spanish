@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: pending
 
 id:         luz-light
@@ -19,7 +20,7 @@ kind:       content
 pos:        noun
 es:         la luz
 en:         light
-hint:
+hint:       noun, as in turn on the light
 gender:     f
 article:    la
 example.es: Apaga la luz, por favor.

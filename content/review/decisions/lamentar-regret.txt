@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint but dropped 'to lament', which gives away the answer; added 'as in condolences'.
 decision: pending
 
 id:         lamentar-regret
@@ -19,7 +20,7 @@ kind:       content
 pos:        verb
 es:         lamentar
 en:         to regret
-hint:       to be sorry about something, not to repent
+hint:       be sorry about something, as in condolences; not sentir, not to repent
 yo:         lamento
 tu:         lamentas
 el:         lamenta

@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint, with 'look-alike' for 'cognate' (doctor-doctor's hint already says not médico).
 decision: pending
 
 id:         medico-doctor
@@ -19,7 +20,7 @@ kind:       content
 pos:        noun
 es:         el médico
 en:         doctor
-hint:       physician, not doctor
+hint:       physician; not the look-alike doctor
 gender:     m
 article:    el
 example.es: Tengo que ir al médico mañana.

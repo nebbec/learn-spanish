@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
 decision: pending
 
 id:         gusto-pleasure
@@ -25,7 +26,7 @@ article:    el
 example.es: Mucho gusto, me llamo Ana.
 example.en: Nice to meet you, my name is Ana.
 spain:
-trick:      GUSTO sounds like gusto: meeting someone with gusto shows the pleasure is all yours.
+trick:      Say 'mucho gusto' with real gusto when you meet someone, because the pleasure is all mine.
 
 # The draft this file was made from. Do not change it.
 draft: 1770fac51fe57628

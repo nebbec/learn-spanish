@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the example.
 decision: pending
 
 id:         interesante-interesting
@@ -21,8 +22,8 @@ es:         interesante
 en:         interesting
 hint:
 feminine:   interesante
-example.es: Qué libro tan interesante.
-example.en: What an interesting book.
+example.es: Este libro es muy interesante.
+example.en: This book is very interesting.
 spain:
 trick:      INTERESANTE sounds like interesting plus 'aunty': your aunty always tells the most interesting stories.
 

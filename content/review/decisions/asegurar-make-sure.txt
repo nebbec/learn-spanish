@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.en. Trick replaced by Claude: the old one was a crude pun.
 decision: pending
 
 id:         asegurar-make-sure
@@ -25,9 +26,9 @@ tu:         te aseguras
 el:         se asegura
 irregular:  no
 example.es: Asegúrate de cerrar la puerta.
-example.en: Make sure you lock the door.
+example.en: Make sure you close the door.
 spain:
-trick:      ASEGURARSE sounds like "a secure-arse": make sure everything is secure before you sit down.
+trick:      ASEGURARSE has SEGURO (sure, safe) inside it: to make yourself sure.
 
 # The draft this file was made from. Do not change it.
 draft: d8f62bb180c0b180

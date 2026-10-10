@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         e-and
@@ -20,8 +21,8 @@ pos:        conjunction
 es:         e
 en:         father [and] son
 hint:       used instead of y before a word starting with an i sound (i-, hi-)
-example.es: Mi papá e hijo trabajan juntos.
-example.en: My dad and son work together.
+example.es: Hablo español e inglés.
+example.en: I speak Spanish and English.
 spain:
 trick:      E replaces Y before an EE sound, so you never say y-ee; padre e hijo flows smoothly.
 

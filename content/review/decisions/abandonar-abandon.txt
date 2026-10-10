@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         abandonar-abandon
@@ -24,8 +25,8 @@ yo:         abandono
 tu:         abandonas
 el:         abandona
 irregular:  no
-example.es: Nunca te voy a abandonar.
-example.en: I'm never going to abandon you.
+example.es: Mi papá nos abandonó cuando yo era niño.
+example.en: My dad abandoned us when I was a kid.
 spain:
 trick:      ABANDONAR sounds like "abandon" plus "-ar": just add the Spanish verb ending to the English word.
 

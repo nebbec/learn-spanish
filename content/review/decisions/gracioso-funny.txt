@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: pending
 
 id:         gracioso-funny
@@ -19,7 +20,7 @@ kind:       content
 pos:        adjective
 es:         gracioso
 en:         funny
-hint:       makes you laugh, not divertido
+hint:       makes you laugh; not divertido or chistoso
 feminine:   graciosa
 example.es: Tu hermano es muy gracioso.
 example.en: Your brother is really funny.

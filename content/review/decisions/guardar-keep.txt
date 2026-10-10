@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: replaced the example so guardar is conjugated; used 'Guardo mis cosas en mi cuarto' instead of the reviewer's sentence to avoid the rarer word cajón.
 decision: pending
 
 id:         guardar-keep
@@ -24,8 +25,8 @@ yo:         guardo
 tu:         guardas
 el:         guarda
 irregular:  no
-example.es: ¿Puedes guardar un secreto?
-example.en: Can you keep a secret?
+example.es: Guardo mis cosas en mi cuarto.
+example.en: I keep my things in my room.
 spain:
 trick:      GUARDAR sounds like guard: a guard keeps your things safe and puts them away.
 

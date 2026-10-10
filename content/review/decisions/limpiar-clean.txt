@@ -11,6 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: rewrote the example with limpiar conjugated as the reviewer asked, but avoiding sábados (a rare word).
 decision: pending
 
 id:         limpiar-clean
@@ -23,8 +24,8 @@ yo:         limpio
 tu:         limpias
 el:         limpia
 irregular:  no
-example.es: Tengo que limpiar mi cuarto hoy.
-example.en: I have to clean my room today.
+example.es: Mi mamá limpia la casa todos los días.
+example.en: My mom cleans the house every day.
 spain:
 trick:      LIMPIAR sounds like "limp pier": you clean the dirty, limp old pier until it shines.
 

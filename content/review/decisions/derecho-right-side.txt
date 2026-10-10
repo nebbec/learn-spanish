@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint, reworded so the side comes first.
 decision: pending
 
 id:         derecho-right-side
@@ -19,7 +20,7 @@ kind:       content
 pos:        adjective
 es:         derecho
 en:         right
-hint:       the side, not left
+hint:       the side, not left; describes a noun, as in my right arm
 feminine:   derecha
 example.es: Me duele el brazo derecho.
 example.en: My right arm hurts.

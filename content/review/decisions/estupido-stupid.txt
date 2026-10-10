@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         estupido-stupid
@@ -21,8 +22,8 @@ es:         estúpido
 en:         stupid
 hint:
 feminine:   estúpida
-example.es: ¡Qué idea tan estúpida!
-example.en: What a stupid idea!
+example.es: No es una pregunta estúpida.
+example.en: It's not a stupid question.
 spain:
 trick:      ESTÚPIDO sounds almost exactly like "stupid" with an extra "es" in front and an "o" on the end.
 

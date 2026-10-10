@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: pending
 
 id:         cual-which-relative
@@ -19,7 +20,7 @@ kind:       glue
 pos:        pronoun
 es:         cual
 en:         the reason for [which] I came
-hint:       relative, after el/la/lo, no accent
+hint:       relative, after el/la/lo, no accent; not que
 example.es: Llegó tarde, lo cual me molestó mucho.
 example.en: He arrived late, which really bothered me.
 spain:

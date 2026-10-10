@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (romper doesn't really answer 'split').
 decision: pending
 
 id:         partir-split
@@ -19,7 +20,7 @@ kind:       content
 pos:        verb
 es:         partir
 en:         to split
-hint:       cut or break into pieces
+hint:       into pieces, like bread or a cake; not dividir or cortar
 yo:         parto
 tu:         partes
 el:         parte

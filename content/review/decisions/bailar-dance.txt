@@ -11,6 +11,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         bailar-dance
@@ -23,8 +24,8 @@ yo:         bailo
 tu:         bailas
 el:         baila
 irregular:  no
-example.es: ¿Quieres bailar conmigo?
-example.en: Do you want to dance with me?
+example.es: Mi hermana baila muy bien.
+example.en: My sister dances very well.
 spain:
 trick:      BAILAR sounds like "buy a lar(ge) ticket": you buy a large ticket to the ball so you can dance all night.
 

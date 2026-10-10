@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: fixed hint; dropped the reviewer's 'as in a trap' (odd, and points at the answer) and also ruled out capturar, which the old hint invited.
 decision: pending
 
 id:         atrapar-catch
@@ -19,7 +20,7 @@ kind:       content
 pos:        verb
 es:         atrapar
 en:         to catch
-hint:       trap, capture
+hint:       a ball or a thief; not agarrar or capturar
 yo:         atrapo
 tu:         atrapas
 el:         atrapa

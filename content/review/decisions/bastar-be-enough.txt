@@ -13,6 +13,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fixes to hint (shortened) and example; cut the example to 'Con un café me basta' to keep it short.
 decision: pending
 
 id:         bastar-be-enough
@@ -20,13 +21,13 @@ kind:       content
 pos:        verb
 es:         bastar
 en:         to be enough
-hint:       one verb
+hint:       one verb, also shouted alone to mean Stop it!; not alcanzar
 yo:         basto
 tu:         bastas
 el:         basta
 irregular:  no
-example.es: ¡Basta! No quiero hablar más de eso.
-example.en: Enough! I don't want to talk about that anymore.
+example.es: Con un café me basta.
+example.en: One coffee is enough for me.
 spain:
 trick:      BASTA sounds like pasta: one big plate of pasta is enough for anyone.
 

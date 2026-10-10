@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to trick.
 decision: pending
 
 id:         imaginar-imagine
@@ -27,7 +28,7 @@ irregular:  no
 example.es: Me imagino que estás cansado.
 example.en: I imagine you're tired.
 spain:
-trick:      IMAGINAR sounds like imagine-ar: just add -ar to imagine and you're imagining in Spanish.
+trick:      IMAGINAR is just imagine with the final e swapped for -ar: imagin-AR, to imagine.
 
 # The draft this file was made from. Do not change it.
 draft: fb4eb21e3361612e

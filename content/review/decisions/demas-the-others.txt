@@ -12,13 +12,14 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to en.
 decision: pending
 
 id:         demas-the-others
 kind:       glue
 pos:        pronoun
 es:         demás
-en:         don't worry about [the others]
+en:         don't worry about the [others]
 hint:       the rest of the people, used after los; not otros
 example.es: No te preocupes por los demás.
 example.en: Don't worry about the others.

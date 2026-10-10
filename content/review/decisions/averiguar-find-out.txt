@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         averiguar-find-out
@@ -24,8 +25,8 @@ yo:         averiguo
 tu:         averiguas
 el:         averigua
 irregular:  no
-example.es: Voy a averiguar quién lo hizo.
-example.en: I'm going to find out who did it.
+example.es: Ya averigüé quién lo hizo.
+example.en: I already found out who did it.
 spain:
 trick:      AVERIGUAR sounds like "a very good war": a detective wages a very good war on mystery to find out the truth.
 

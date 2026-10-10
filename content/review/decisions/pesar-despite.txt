@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to trick.
 decision: pending
 
 id:         pesar-despite
@@ -23,7 +24,7 @@ hint:       three-word phrase
 example.es: Salimos a pesar de la lluvia.
 example.en: We went out despite the rain.
 spain:
-trick:      A PESAR DE: even with the weight (pesar) of the problem on you, you keep going anyway.
+trick:      A PESAR DE: even with a problem weighing (pesar) on you, you keep going anyway.
 
 # The draft this file was made from. Do not change it.
 draft: 6dc0fbbf8b588b07

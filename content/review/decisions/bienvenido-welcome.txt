@@ -13,6 +13,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fixes to hint, example.es and example.en.
 decision: pending
 
 id:         bienvenido-welcome
@@ -20,10 +21,10 @@ kind:       content
 pos:        adjective
 es:         bienvenido
 en:         welcome
-hint:
+hint:       greeting a guest, as in Welcome! (adjective, not the noun)
 feminine:   bienvenida
-example.es: ¡Bienvenidos a mi casa, amigos!
-example.en: Welcome to my house, friends!
+example.es: Siempre eres bienvenido aquí.
+example.en: You're always welcome here.
 spain:
 trick:      BIENVENIDO is bien (well) plus venido (come): you have come well, so welcome!
 

@@ -1,6 +1,6 @@
 # Flagged cards
 
-The review pass flagged 169 cards: 128 waiting for you, 41 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
+The review pass flagged 186 cards: 145 waiting for you, 41 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
 
 **To decide on a card**, open its file in `content/review/decisions/` (linked under each card), change `decision: pending` to `decision: approve` or `decision: reject`, and correct any card line first if it needs it. Then run `npm run deck`, which puts approved cards in the deck and rewrites this list.
 
@@ -2935,6 +2935,396 @@ Why it was flagged:
 Reviewer's note (not a reason to flag): The forms reúno, reúnes and reúne only add a written accent, so irregular: false holds up, but the accent is easy to miss and a learner may need it pointed out.
 
 The reviewer's own translation: answer "to gather, to bring together, to collect (transitive)"; example "My grandmother gets the whole family together at Christmas.".
+
+### totalmente-totally · rank 719 · totalmente
+
+Decide in [decisions/totalmente-totally.txt](decisions/totalmente-totally.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | totally |
+| Hint | none |
+| Answer | totalmente |
+| Kind | content, adverb |
+| Grammar | none |
+| Example | Tienes totalmente la razón. / You're totally right. |
+| Spain | none |
+| Trick | TOTALMENTE sounds like "total mental": you agree so totally, it's total mental agreement. |
+
+Why it was flagged:
+
+- Example sentence: "Tienes totalmente la razón" is grammatical, but it sounds stiff: speakers say "Tienes toda la razón" (which drops the target word) or "Tienes totalmente razón", and the most natural use of totalmente is in "totalmente de acuerdo". Suggested fix: example.es: Estoy totalmente de acuerdo contigo. / example.en: I totally agree with you.
+
+Reviewer's note (not a reason to flag): An unprompted learner might answer completamente, but "totally" points clearly to the cognate totalmente, so no hint is needed.
+
+The reviewer's own translation: answer "totally, completely, entirely (adverb)"; example "You totally have the right / You're totally right.".
+
+### amable-kind · rank 721 · amable
+
+Decide in [decisions/amable-kind.txt](decisions/amable-kind.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | kind |
+| Hint | none |
+| Answer | amable |
+| Kind | content, adjective |
+| Grammar | feminine amable |
+| Example | Eres muy amable, gracias por tu ayuda. / You're very kind, thanks for your help. |
+| Spain | none |
+| Trick | AMABLE sounds like amiable: a kind person is amiable and easy to love. |
+
+Why it was flagged:
+
+- One right answer: The bare prompt "kind" could also be the noun meaning "type" (el tipo, la clase), so a learner could give a different correct answer. Suggested fix: hint: adjective, as in "a kind person"
+
+Reviewer's note (not a reason to flag): Once the hint rules out the noun, amable is clearly the everyday answer over bondadoso or gentil.
+
+The reviewer's own translation: answer "kind, nice, friendly (adjective)"; example "You are very kind, thanks for your help.".
+
+### antiguo-former · rank 726 · antiguo
+
+Decide in [decisions/antiguo-former.txt](decisions/antiguo-former.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | former |
+| Hint | placed before the noun, as in my former boss |
+| Answer | antiguo |
+| Kind | content, adjective |
+| Grammar | feminine antigua |
+| Example | Vi a mi antiguo jefe en el mercado. / I saw my former boss at the market. |
+| Spain | none |
+| Trick | ANTIGUO sounds like antique: your former boss is now an antique from your past. |
+
+Why it was flagged:
+
+- One right answer: The hint does not rule out other common ways to say 'former': the prefix ex- (mi exjefe) is very common in Latin America, and anterior (mi anterior jefe) also works before the noun. Suggested fix: hint: an adjective placed before the noun, as in my former boss; not the prefix ex- and not anterior
+
+Reviewer's note (not a reason to flag): The point about word order is worth keeping: antiguo before the noun means former, and after the noun it means old, which keeps this card apart from the "ancient" card.
+
+The reviewer's own translation: answer "former, previous (before a noun); old, ancient (after a noun)"; example "I saw my former boss at the market.".
+
+### sala-hall-room · rank 737 · sala
+
+Decide in [decisions/sala-hall-room.txt](decisions/sala-hall-room.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | room |
+| Hint | large public room, like a waiting room or hall |
+| Answer | la sala |
+| Kind | content, noun |
+| Grammar | feminine, la |
+| Example | Espérame en la sala de espera. / Wait for me in the waiting room. |
+| Spain | none |
+| Trick | SALA sounds like "salon": a big hall where crowds gather, like a waiting room or concert hall. |
+
+Why it was flagged:
+
+- One right answer: The hint's 'large public room... or hall' also fits el salón (salón de eventos, salón de fiestas), which is very common in Latin America, so the prompt has two right answers. Suggested fix: hint: room in a public building, as in 'waiting room' or 'operating room' (not salón)
+
+Reviewer's note (not a reason to flag): The word "public" in the hint is what keeps this card apart from the "living room" card, so a new hint needs to keep that contrast.
+
+The reviewer's own translation: answer "room, hall (a large room in a building or home; also living room)"; example "Wait for me in the waiting room.".
+
+### club-club · rank 739 · club
+
+Decide in [decisions/club-club.txt](decisions/club-club.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | club |
+| Hint | none |
+| Answer | el club |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | Mi hermano juega en un club de fútbol. / My brother plays for a soccer club. |
+| Spain | none |
+| Trick | CLUB sounds just like the English club: same word, same meeting place for members. |
+
+Why it was flagged:
+
+- One right answer: The bare English prompt club also means a weapon (el garrote, la porra) or a golf club (el palo), so with no hint more than one Spanish answer is right. Suggested fix: hint: an association or team, as in a soccer club
+
+Reviewer's note (not a reason to flag): The plural is clubes (clubs is also heard), which might be worth showing to learners.
+
+The reviewer's own translation: answer "club (a group or association of members, e.g. a sports club or social club; also a nightclub)"; example "My brother plays on/for a soccer club.".
+
+### reir-laugh · rank 743 · reír
+
+Decide in [decisions/reir-laugh.txt](decisions/reir-laugh.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to laugh |
+| Hint | none |
+| Answer | reír |
+| Kind | content, verb |
+| Grammar | yo río · tú ríes · él ríe (irregular) |
+| Example | Mi hija ríe mucho con ese programa. / My daughter laughs a lot at that show. |
+| Spain | none |
+| Trick | REÍR sounds like ray-EAR: a ray of laughter rings right in your ear. |
+
+Why it was flagged:
+
+- Latin American usage: In everyday Latin American speech, 'to laugh' is almost always the pronominal reírse, so 'ríe mucho' without se sounds literary rather than conversational. Suggested fix: example.es: Mi hija se ríe mucho con ese programa.
+- Example sentence: The sentence leaves out the 'se' that natural speech uses with this verb, so the learner memorizes a stiff pattern. Suggested fix: example.es: Mi hija se ríe mucho con ese programa.
+
+Reviewer's note (not a reason to flag): Consider having the grammar or example show that the everyday form is reírse (me río, te ríes, se ríe), since learners will mostly hear it that way.
+
+The reviewer's own translation: answer "to laugh"; example "My daughter laughs a lot with that show.".
+
+### armar-put-together · rank 744 · armar
+
+Decide in [decisions/armar-put-together.txt](decisions/armar-put-together.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to put together |
+| Hint | furniture, a puzzle, a plan |
+| Answer | armar |
+| Kind | content, verb |
+| Grammar | yo armo · tú armas · él arma |
+| Example | Mi papá armó la mesa en diez minutos. / My dad put the table together in ten minutes. |
+| Spain | none |
+| Trick | ARMAR sounds like arm: you use both arms to put the furniture together. |
+
+Why it was flagged:
+
+- Latin American usage: In Spain the usual word for putting together furniture or a puzzle is montar, not armar, so spain should not be null. Suggested fix: spain: montar
+
+Reviewer's note (not a reason to flag): The hint is needed: it separates this card from the word's "to arm" card and rules out juntar (to put together in the sense of joining).
+
+The reviewer's own translation: answer "armar: to assemble, to put together (also to arm; to set up or cause, as in armar un lío)"; example "My dad put the table together in ten minutes.".
+
+### armar-arm · rank 744 · armar
+
+Decide in [decisions/armar-arm.txt](decisions/armar-arm.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to arm |
+| Hint | with weapons |
+| Answer | armar |
+| Kind | content, verb |
+| Grammar | yo armo · tú armas · él arma |
+| Example | Cuidado, el hombre está armado. / Careful, the man is armed. |
+| Spain | none |
+| Trick | ARMAR looks like arm and armor: to arm someone, you hand them weapons and armor. |
+
+Why it was flagged:
+
+- Example sentence: The example uses only the participle armado as an adjective after estar, so armar itself is never conjugated as the rules require. Suggested fix: example.es: El gobierno armó a los rebeldes. / example.en: The government armed the rebels.
+
+Reviewer's note (not a reason to flag): The hint "with weapons" is needed and works, because it separates this card from the word's "to put together" card.
+
+The reviewer's own translation: answer "to arm (with weapons); also to put together, to assemble"; example "Careful, the man is armed.".
+
+### consejo-council · rank 746 · consejo
+
+Decide in [decisions/consejo-council.txt](decisions/consejo-council.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | council |
+| Hint | a group that decides |
+| Answer | el consejo |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | El consejo se reúne mañana. / The council meets tomorrow. |
+| Spain | none |
+| Trick | CONSEJO sounds like "council, eh Joe?": Joe sits on the council that gives everyone advice. |
+
+Why it was flagged:
+
+- One right answer: The hint 'a group that decides' does not rule out el concejo, the usual Latin American word for a town or city council ('concejo municipal'), which sounds the same as consejo, and it also fits la junta or el comité. Suggested fix: hint: a governing or advisory body, like a student or security council (not a town council)
+
+Reviewer's note (not a reason to flag): Learners may confuse consejo with the homophone concejo (town council), so a short contrast on the back of the card could help.
+
+The reviewer's own translation: answer "council, board (a body that governs or advises); also advice"; example "The council meets tomorrow.".
+
+### enfrentar-face · rank 747 · enfrentar
+
+Decide in [decisions/enfrentar-face.txt](decisions/enfrentar-face.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to face |
+| Hint | to confront a problem or enemy |
+| Answer | enfrentar |
+| Kind | content, verb |
+| Grammar | yo enfrento · tú enfrentas · él enfrenta |
+| Example | Tienes que enfrentar tus miedos. / You have to face your fears. |
+| Spain | none |
+| Trick | ENFRENTAR sounds like in front: to face something, you stand right in front of it. |
+
+Why it was flagged:
+
+- Example sentence: The target verb appears only as an infinitive after tienes que, but the example should show enfrentar conjugated. Suggested fix: example.es: Mi hermano enfrenta sus problemas con calma. / example.en: My brother faces his problems calmly.
+
+Reviewer's note (not a reason to flag): The hint is useful because it separates this meaning of to face from mirar hacia (to face a direction), and the less common afrontar is no real competitor in everyday Latin American speech.
+
+The reviewer's own translation: answer "to face, to confront"; example "You have to face your fears.".
+
+### cenar-have-dinner · rank 749 · cenar
+
+Decide in [decisions/cenar-have-dinner.txt](decisions/cenar-have-dinner.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to have dinner |
+| Hint | none |
+| Answer | cenar |
+| Kind | content, verb |
+| Grammar | yo ceno · tú cenas · él cena |
+| Example | ¿Quieres cenar conmigo esta noche? / Do you want to have dinner with me tonight? |
+| Spain | none |
+| Trick | CENAR sounds like "see a nar-rator": you see the storyteller every evening at dinner. |
+
+Why it was flagged:
+
+- Example sentence: The example uses cenar only as an infinitive after quieres, but it should show cenar itself conjugated. Suggested fix: example.es: Siempre cenamos a las ocho. / example.en: We always have dinner at eight.
+
+The reviewer's own translation: answer "to have dinner, to eat supper"; example "Do you want to have dinner with me tonight?".
+
+### nota-grade · rank 761 · nota
+
+Decide in [decisions/nota-grade.txt](decisions/nota-grade.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | grade |
+| Hint | at school |
+| Answer | la nota |
+| Kind | content, noun |
+| Grammar | feminine, la |
+| Example | Saqué una buena nota en el examen. / I got a good grade on the test. |
+| Spain | none |
+| Trick | The teacher writes a NOTA on your test: a note telling you your grade. |
+
+Why it was flagged:
+
+- One right answer: The hint 'at school' does not rule out grade meaning school year, which is 'el grado' ('¿En qué grado estás?'), so the prompt has two right answers. Suggested fix: hint: score on a test
+
+Reviewer's note (not a reason to flag): 'La calificación' is also common for a school grade, especially in Mexico, but 'la nota' is the everyday word across Latin America, so the card can keep it as the answer.
+
+The reviewer's own translation: answer "the grade, the mark (score on schoolwork); also a note"; example "I got a good grade on the exam.".
+
+### embargo-however · rank 765 · embargo
+
+Decide in [decisions/embargo-however.txt](decisions/embargo-however.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | It's late. [However], I'm staying. |
+| Hint | two words, not pero |
+| Answer | sin embargo |
+| Kind | glue, conjunction |
+| Grammar | none |
+| Example | Es caro. Sin embargo, lo voy a comprar. / It's expensive. However, I'm going to buy it. |
+| Spain | none |
+| Trick | SIN EMBARGO sounds like "seen an embargo": I've seen an embargo; however, the ships still sail. |
+
+Why it was flagged:
+
+- One right answer: The hint 'two words, not pero' still allows 'no obstante' (also two words, also 'however') and arguably 'aun así', so the prompt doesn't have exactly one answer. Suggested fix: hint: two words, not pero or no obstante
+
+Reviewer's note (not a reason to flag): Sin embargo is a fixed connector (a conjunctive phrase), so labelling it a conjunction works, and Spain uses it the same way.
+
+The reviewer's own translation: answer "however, nevertheless (sin embargo)"; example "It's expensive. However, I'm going to buy it.".
+
+### manejar-handle · rank 767 · manejar
+
+Decide in [decisions/manejar-handle.txt](decisions/manejar-handle.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | to handle |
+| Hint | a situation or problem |
+| Answer | manejar |
+| Kind | content, verb |
+| Grammar | yo manejo · tú manejas · él maneja |
+| Example | Tranquilo, yo puedo manejarlo. / Relax, I can handle it. |
+| Spain | none |
+| Trick | MANEJAR sounds like "manage": you manage, or handle, any problem that comes your way. |
+
+Why it was flagged:
+
+- Example sentence: The example uses manejar only as an infinitive after puedo, so the card's own verb is not conjugated. Suggested fix: example.es: Tranquila, yo manejo esto. / example.en: Relax, I'll handle this.
+
+Reviewer's note (not a reason to flag): The hint correctly separates this card from the drive card, and encargarse de and lidiar con are close synonyms but less direct for handle a situation.
+
+The reviewer's own translation: answer "to handle, to manage (a situation, problem, tool); in Latin America also to drive"; example "Relax, I can handle it.".
+
+### sorpresa-surprise · rank 774 · sorpresa
+
+Decide in [decisions/sorpresa-surprise.txt](decisions/sorpresa-surprise.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | surprise |
+| Hint | none |
+| Answer | la sorpresa |
+| Kind | content, noun |
+| Grammar | feminine, la |
+| Example | ¡Qué sorpresa verte aquí! / What a surprise to see you here! |
+| Spain | none |
+| Trick | SORPRESA sounds like surprise with a press: someone presses the button and confetti bursts out as a surprise. |
+
+Why it was flagged:
+
+- Example sentence: The example has no conjugated verb, only the infinitive verte, so it does not meet the rule that the example conjugates a verb. Suggested fix: example.es: Fue una sorpresa verte aquí. example.en: It was a surprise to see you here.
+
+Reviewer's note (not a reason to flag): The original exclamation is perfectly natural Spanish and fails only on the conjugated-verb rule.
+
+The reviewer's own translation: answer "surprise (noun)"; example "What a surprise to see you here!".
+
+### regla-rule · rank 775 · regla
+
+Decide in [decisions/regla-rule.txt](decisions/regla-rule.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | rule |
+| Hint | none |
+| Answer | la regla |
+| Kind | content, noun |
+| Grammar | feminine, la |
+| Example | En mi casa, mis reglas. / In my house, my rules. |
+| Spain | none |
+| Trick | REGLA sounds like 'regular': rules keep everything regular. |
+
+Why it was flagged:
+
+- Example sentence: The example has no conjugated verb, which every example must have. Suggested fix: example.es: Tienes que seguir las reglas. example.en: You have to follow the rules.
+
+Reviewer's note (not a reason to flag): Norma can also mean rule, but regla is the everyday default, so the prompt needs no hint.
+
+The reviewer's own translation: answer "la regla: rule (also ruler, and colloquially a menstrual period)"; example "In my house, my rules.".
+
+### testigo-witness · rank 787 · testigo
+
+Decide in [decisions/testigo-witness.txt](decisions/testigo-witness.txt)
+
+| Field | Card |
+|---|---|
+| Prompt | witness |
+| Hint | none |
+| Answer | el testigo |
+| Kind | content, noun |
+| Grammar | masculine, el |
+| Example | Ella es la única testigo del accidente. / She is the only witness to the accident. |
+| Spain | none |
+| Trick | TESTIGO sounds like "testify, go!": the witness is told to go testify in court. |
+
+Why it was flagged:
+
+- Grammar: Testigo has common gender (el testigo for a man, la testigo for a woman), so listing it as only masculine is misleading, and the example's la única testigo seems to contradict it. Suggested fix: grammar: gender m/f (common gender), article el / la (el testigo, la testigo)
+
+Reviewer's note (not a reason to flag): Keeping es as el testigo is fine as the dictionary form, but the grammar should teach the learner that the article follows the person's sex.
+
+The reviewer's own translation: answer "witness (a person who sees an event or testifies)"; example "She is the only witness of the accident.".
 
 ### phrase-can-you-help-me · rank 144 · can-you-help-me
 

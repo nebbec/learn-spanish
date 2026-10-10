@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
 decision: pending
 
 id:         foto-photo
@@ -25,7 +26,7 @@ article:    la
 example.es: ¿Me tomas una foto con mi mamá?
 example.en: Can you take a photo of me with my mom?
 spain:
-trick:      FOTO sounds like photo: just drop the h and add an o, and it is still feminine like la fotografía.
+trick:      FOTO is just photo spelled the Spanish way, with f instead of ph, and it is feminine because it is short for la fotografía.
 
 # The draft this file was made from. Do not change it.
 draft: 3e730dc3d69b2f5a

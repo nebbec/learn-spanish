@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es.
 decision: pending
 
 id:         dolar-dollar
@@ -22,7 +23,7 @@ en:         dollar
 hint:
 gender:     m
 article:    el
-example.es: Me prestas diez dólares?
+example.es: ¿Me prestas diez dólares?
 example.en: Can you lend me ten dollars?
 spain:
 trick:      DÓLAR sounds just like dollar, said with a little Spanish stress on the first syllable.

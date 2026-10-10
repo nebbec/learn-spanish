@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint but left out 'the reflexive form of to occupy', which gives away the answer.
 decision: pending
 
 id:         ocupar-take-care
@@ -19,7 +20,7 @@ kind:       content
 pos:        verb
 es:         ocuparse
 en:         to take care of
-hint:       handle a task or problem, not look after someone
+hint:       handle a task or problem; not cuidar or encargarse
 yo:         me ocupo
 tu:         te ocupas
 el:         se ocupa

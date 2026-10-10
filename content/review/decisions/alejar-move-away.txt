@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: pending
 
 id:         alejar-move-away
@@ -19,7 +20,7 @@ kind:       content
 pos:        verb
 es:         alejarse
 en:         to move away
-hint:       put distance between, not escape
+hint:       get farther from someone or something, not relocate or escape
 yo:         me alejo
 tu:         te alejas
 el:         se aleja

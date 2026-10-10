@@ -1,0 +1,34 @@
+# armar-put-together · rank 744 · armar
+#
+# Why it was flagged:
+#   - Latin American usage: In Spain the usual word for putting together furniture or a puzzle is montar, not armar, so spain should not be null. Suggested fix: spain: montar
+# Reviewer's note (not a reason to flag): The hint is needed: it separates this card from the word's "to arm" card and rules out juntar (to put together in the sense of joining).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to spain.
+decision: pending
+
+id:         armar-put-together
+kind:       content
+pos:        verb
+es:         armar
+en:         to put together
+hint:       furniture, a puzzle, a plan
+yo:         armo
+tu:         armas
+el:         arma
+irregular:  no
+example.es: Mi papá armó la mesa en diez minutos.
+example.en: My dad put the table together in ten minutes.
+spain:      montar
+trick:      ARMAR sounds like arm: you use both arms to put the furniture together.
+
+# The draft this file was made from. Do not change it.
+draft: 92ca7a17c5a88d9d

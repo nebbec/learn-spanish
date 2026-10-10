@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: pending
 
 id:         dama-lady
@@ -22,8 +23,8 @@ en:         lady
 hint:       elegant or formal word, as in ladies and gentlemen
 gender:     f
 article:    la
-example.es: Buenas noches, damas y caballeros.
-example.en: Good evening, ladies and gentlemen.
+example.es: Esa dama es muy elegante.
+example.en: That lady is very elegant.
 spain:
 trick:      DAMA sounds like dame: a grand dame is an elegant lady.
 

@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
 decision: pending
 
 id:         millon-million
@@ -25,7 +26,7 @@ article:    el
 example.es: Esa casa cuesta un millón de dólares.
 example.en: That house costs a million dollars.
 spain:
-trick:      MILLÓN sounds like million with a Spanish accent: just add an O and stress the end.
+trick:      MILLÓN is million without the second i, with the stress on the end: mee-YOHN.
 
 # The draft this file was made from. Do not change it.
 draft: 2abf236a3c305025

@@ -1,0 +1,30 @@
+# embargo-however · rank 765 · embargo
+#
+# Why it was flagged:
+#   - One right answer: The hint 'two words, not pero' still allows 'no obstante' (also two words, also 'however') and arguably 'aun así', so the prompt doesn't have exactly one answer. Suggested fix: hint: two words, not pero or no obstante
+# Reviewer's note (not a reason to flag): Sin embargo is a fixed connector (a conjunctive phrase), so labelling it a conjunction works, and Spain uses it the same way.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
+decision: pending
+
+id:         embargo-however
+kind:       glue
+pos:        conjunction
+es:         sin embargo
+en:         It's late. [However], I'm staying.
+hint:       two words, not pero or no obstante
+example.es: Es caro. Sin embargo, lo voy a comprar.
+example.en: It's expensive. However, I'm going to buy it.
+spain:
+trick:      SIN EMBARGO sounds like "seen an embargo": I've seen an embargo; however, the ships still sail.
+
+# The draft this file was made from. Do not change it.
+draft: fcb8e74297e63eec

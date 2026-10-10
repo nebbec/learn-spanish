@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
 decision: pending
 
 id:         detective-detective
@@ -25,7 +26,7 @@ article:    el
 example.es: El detective encontró al ladrón.
 example.en: The detective found the thief.
 spain:
-trick:      DETECTIVE is spelled just like the English word; only the stress moves to the end: deh-tek-TEE-veh.
+trick:      DETECTIVE is spelled just like the English word, but the stress moves to TEE: deh-tek-TEE-veh.
 
 # The draft this file was made from. Do not change it.
 draft: a2173a9703bdcd52

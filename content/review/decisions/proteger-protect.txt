@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the example.
 decision: pending
 
 id:         proteger-protect
@@ -24,8 +25,8 @@ yo:         protejo
 tu:         proteges
 el:         protege
 irregular:  no
-example.es: Yo siempre te voy a proteger.
-example.en: I'm always going to protect you.
+example.es: Mi hermano mayor siempre me protege.
+example.en: My older brother always protects me.
 spain:
 trick:      PROTEGER sounds like protect-HAIR: you wear a helmet to protect your hair and head.
 

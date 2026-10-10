@@ -12,6 +12,7 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: replaced the example, but not with the reviewer's (oscuridad is a rare word); same le temo a pattern.
 decision: pending
 
 id:         temer-fear
@@ -24,8 +25,8 @@ yo:         temo
 tu:         temes
 el:         teme
 irregular:  no
-example.es: Me temo que no puedo ir.
-example.en: I'm afraid I can't go.
+example.es: No le temo a nada.
+example.en: I'm not afraid of anything.
 spain:
 trick:      TEMER sounds like tremor: when you fear something, your hands shake with a tremor.
 

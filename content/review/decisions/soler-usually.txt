@@ -12,22 +12,23 @@
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
+# Staged by Claude 2026-10-10: applied the reviewer's fix to en, and from the reviewer's note a present-tense example (comer for desayunar, a rare word) and a trick without 'used to'.
 decision: pending
 
 id:         soler-usually
 kind:       content
 pos:        verb
 es:         soler
-en:         to usually do, used to
+en:         to usually (do)
 hint:
 yo:         suelo
 tu:         sueles
 el:         suele
 irregular:  yes
-example.es: Yo solía vivir cerca de la playa.
-example.en: I used to live near the beach.
+example.es: Suelo comer en casa.
+example.en: I usually eat at home.
 spain:
-trick:      SOLER sounds like solar: the sun usually rises every morning, just like it used to.
+trick:      SOLER sounds like solar: the sun usually rises every morning.
 
 # The draft this file was made from. Do not change it.
 draft: b9952924a793ec3d

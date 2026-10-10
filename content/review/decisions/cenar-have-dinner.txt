@@ -1,0 +1,33 @@
+# cenar-have-dinner · rank 749 · cenar
+#
+# Why it was flagged:
+#   - Example sentence: The example uses cenar only as an infinitive after quieres, but it should show cenar itself conjugated. Suggested fix: example.es: Siempre cenamos a las ocho. / example.en: We always have dinner at eight.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or spain empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the example.
+decision: pending
+
+id:         cenar-have-dinner
+kind:       content
+pos:        verb
+es:         cenar
+en:         to have dinner
+hint:
+yo:         ceno
+tu:         cenas
+el:         cena
+irregular:  no
+example.es: Siempre cenamos a las ocho.
+example.en: We always have dinner at eight.
+spain:
+trick:      CENAR sounds like "see a nar-rator": you see the storyteller every evening at dinner.
+
+# The draft this file was made from. Do not change it.
+draft: 784cbffcd5aa54e4
