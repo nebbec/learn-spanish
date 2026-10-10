@@ -98,7 +98,7 @@ const computed = pathOnDisk(ROOT, drafts, store, lemmas);
 const knownWords = new Map<string, string>();
 for (const [id, check] of computed.examples) if (!check.ok) knownWords.set(computed.draftIds.get(id) ?? id, exampleProblem(check));
 if (!lemmas) {
-  console.log(`Known-words check not run: no ${paths.config.language} lemma list yet (DE6)`);
+  console.log(`Known-words check not run: no ${paths.config.language} lemma list pinned in sources.mjs`);
 } else if (computed.orderProblems.length) {
   console.log(`Known-words check not run: the order has ${computed.orderProblems.length} problems (run npm run deck to see them)`);
 }

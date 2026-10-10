@@ -15,6 +15,7 @@
 import path from "node:path";
 import type { Card, DraftCard } from "@/lib/deck/types";
 import { cliticLemmas, normalize, parseLemmaPairs, stripAccents } from "./lemmatize.mjs";
+import { OVERRIDES_DE } from "./overrides-de.mjs";
 import type { LangCode } from "./script-lang";
 import { source, SOURCES_BY_LANG } from "./sources.mjs";
 
@@ -35,28 +36,52 @@ export const NUMBER_WORDS = new Set(
 export interface Lemmas {
   map: Map<string, Set<string>>;
   set: Set<string>;
+  /** The list's language: Spanish when left out. German's rules differ on capitals and attached pronouns (DE6). */
+  lang?: LangCode;
 }
 
-export function lemmasFrom(text: string): Lemmas {
+export function lemmasFrom(text: string, lang: LangCode = "es"): Lemmas {
   const map = parseLemmaPairs(text) as Map<string, Set<string>>;
+  if (lang === "de") germanCorrections(map);
   const set = new Set<string>();
   for (const lemmas of map.values()) for (const l of lemmas) set.add(l);
-  return { map, set };
+  return lang === "es" ? { map, set } : { map, set, lang };
+}
+
+/**
+ * German's list read the way the word list counts it (DE6): a form the word list's overrides give to a word has
+ * that word as its lemma (`sie` is sie, not ich; `dir` is dir; `die` is der), and a form spelled with ß before the
+ * 1996 reform is found by its new spelling too (`musste` as mußte, to müssen).
+ */
+function germanCorrections(map: Map<string, Set<string>>) {
+  for (const [form, lemmas] of [...map]) {
+    if (!form.includes("ß")) continue;
+    const reformed = form.replaceAll("ß", "ss");
+    if (!map.has(reformed)) map.set(reformed, new Set(lemmas));
+  }
+  for (const [form, value] of Object.entries(OVERRIDES_DE as Record<string, unknown>)) {
+    if (typeof value === "string") map.set(form, new Set([value]));
+    else if (value && typeof value === "object") map.set(form, new Set(Object.keys(value)));
+  }
 }
 
 /**
  * Reads a language's lemma list from content/.cache, downloading it there once (SHA-256 checked). Null for a
- * language with no pinned list yet (German until DE6): the known-words check is then not run.
+ * language with no pinned list: the known-words check is then not run.
  */
 export async function loadLemmas(root: string, lang: LangCode = "es"): Promise<Lemmas | null> {
   const sources = SOURCES_BY_LANG[lang];
-  return sources ? lemmasFrom(await source(sources.lemmas, path.join(root, "content", ".cache"))) : null;
+  return sources ? lemmasFrom(await source(sources.lemmas, path.join(root, "content", ".cache")), lang) : null;
 }
 
-/** A word in lower case and its lemmas: from the list, and a verb with pronouns attached (verte, dímelo). */
+/**
+ * A word in lower case and its lemmas: from the list, and in Spanish a verb with pronouns attached (verte, dímelo).
+ * German attaches none.
+ */
 export function wordLemmas(word: string, lemmas: Lemmas): string[] {
   const w = normalize(word);
   const out = new Set([w, ...(lemmas.map.get(w) ?? [])]);
+  if (lemmas.lang === "de") return [...out];
   for (const verb of (cliticLemmas(w, lemmas.map, lemmas.set) as string[] | null) ?? []) out.add(verb);
   return [...out];
 }
@@ -118,6 +143,8 @@ export interface ExampleCheck {
 /**
  * Checks one example against the words known before its card (plus the card's own). A capitalised word that is not
  * the first of a sentence is a name, and so is a first word whose lower case has no lemma in the list and is unknown.
+ * In German a capitalised word is a name only when its lower case is not in the list, wherever it stands, since
+ * every noun has a capital.
  */
 export function checkExample(
   card: Pick<Card, "target" | "grammar" | "example" | "unit">,
@@ -132,7 +159,8 @@ export function checkExample(
     const lower = normalize(word);
     if (NUMBER_WORDS.has(lower) || isKnown(word)) continue;
     const capital = word !== lower;
-    if (capital && (!first || (!lemmas.map.has(lower) && !lemmas.set.has(lower)))) continue;
+    const listed = lemmas.map.has(lower) || lemmas.set.has(lower);
+    if (capital && (lemmas.lang === "de" ? !listed : !first || !listed)) continue;
     (isCognate(word, card.example.en) ? cognates : unknown).push(word);
   }
   const starter = card.unit !== null;

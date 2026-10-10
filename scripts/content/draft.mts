@@ -10,7 +10,7 @@
 //
 // --lang de (DE5) reads and writes content/de/ in place of content/. German's
 // prompts are stand-ins until DE7, so a German run that would call Claude is
-// refused; --examples also needs the German lemma list (DE6).
+// refused. German's lemma list and word list are DE6's.
 //
 // --forms drafts one call per verb of FORM_VERBS (path-cards.ts) whose card is
 // drafted, into content/drafts/forms/<verb>.json; --phrases one call per phrase,
@@ -120,7 +120,7 @@ let noun = "Words";
 
 if (mode === "examples") {
   const lemmas = await loadLemmas(ROOT, lang);
-  if (!lemmas) fail(`--examples needs the ${paths.config.language} lemma list, which is not pinned yet (DE6)`);
+  if (!lemmas) fail(`--examples needs the ${paths.config.language} lemma list, which is not pinned in sources.mjs`);
   const build = pathOnDisk(ROOT, store, new ReviewStore(paths.review), lemmas);
   if (build.orderProblems.length) fail(`The order has ${build.orderProblems.length} problems: run npm run deck to see them`);
   const { jobs, missing } = exampleJobs(build, store, ids!, lemmas);

@@ -251,11 +251,15 @@ describe("Spanish runs are unchanged", () => {
   });
 });
 
-describe("German's side until DE6 and DE7", () => {
-  it("has stand-in prompts the scripts refuse to send, and no word-list sources yet", () => {
+describe("German's side until DE7", () => {
+  it("has stand-in prompts the scripts refuse to send, and its word-list sources (DE6)", () => {
     expect(PROMPTS_READY).toEqual({ es: true, de: false });
     expect(DRAFT_REQUESTS.de.system).toBe(GERMAN_DRAFT_SYSTEM);
-    expect(SOURCES_BY_LANG.de).toBeNull();
+    expect(Object.values(SOURCES_BY_LANG.de).map((s) => s.file)).toEqual([
+      "de_50k.txt",
+      "lemmatization-de.txt",
+      "de_DE_frami.dic",
+    ]);
     expect(FORM_VERBS_BY_LANG.de).toEqual([]);
   });
 

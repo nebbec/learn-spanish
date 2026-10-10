@@ -30,13 +30,37 @@ export const SOURCES = {
 };
 
 /**
- * Each language's sources (DE5): Spanish's above; German's are DE6's to pin (FrequencyWords' German list,
- * lemmatization-lists' German file, LibreOffice's de_DE dictionary), null until then.
+ * German's (DE6), from the same three projects at the same commits: FrequencyWords' 2018 German list
+ * (CC BY-SA 4.0), lemmatization-lists' German file (ODbL 1.0) and LibreOffice's de_DE (frami) Hunspell
+ * dictionary (GPL 2 or GPL 3), which is ISO-8859-1, not UTF-8. Licences are in docs/german.md under "Word list".
  */
-export const SOURCES_BY_LANG = { es: SOURCES, de: null };
+export const SOURCES_DE = {
+  frequency: {
+    file: "de_50k.txt",
+    url: "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/de/de_50k.txt",
+    sha256: "d9e50546fd7e8b6fe6542a2b33c51d1331092b2a3916ec09f80d97856068705b",
+  },
+  lemmas: {
+    file: "lemmatization-de.txt",
+    url: "https://raw.githubusercontent.com/michmech/lemmatization-lists/943c9d5f04ed714d9a76970fdb00437e94bb9afb/lemmatization-de.txt",
+    sha256: "b64233a770c6a0945a5f1df7390e93e2a41936a58fc4a2e70abab0c7dc381d75",
+  },
+  dictionary: {
+    file: "de_DE_frami.dic",
+    url: "https://raw.githubusercontent.com/LibreOffice/dictionaries/762abe74008b94b2ff06db6f4024b59a8254c467/de/de_DE_frami.dic",
+    sha256: "4ca3c958b0e5545910999bc246f668840bf8ede3df8e5e6790d05edd5a586c38",
+    encoding: "latin1",
+  },
+};
 
-/** One source's text: read from the cache, or downloaded into it, and checked against its SHA-256. */
-export async function source({ file, url, sha256 }, cache = CACHE) {
+/** Each language's sources (DE5, German's since DE6). */
+export const SOURCES_BY_LANG = { es: SOURCES, de: SOURCES_DE };
+
+/**
+ * One source's text: read from the cache, or downloaded into it, and checked against its SHA-256. Decoded as
+ * UTF-8 unless the source names another `encoding`.
+ */
+export async function source({ file, url, sha256, encoding = "utf8" }, cache = CACHE) {
   const local = path.join(cache, file);
   let bytes;
   if (existsSync(local)) {
@@ -52,5 +76,5 @@ export async function source({ file, url, sha256 }, cache = CACHE) {
     mkdirSync(cache, { recursive: true });
     writeFileSync(local, bytes);
   }
-  return bytes.toString("utf8");
+  return bytes.toString(encoding);
 }

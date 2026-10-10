@@ -133,6 +133,47 @@ describe("the known-words check on made-up sentences", () => {
   });
 });
 
+describe("the known-words check in German (DE6)", () => {
+  /** A made-up German list in the same format, with the real list's faults: sie and dir under ich, mußte. */
+  const de = lemmasFrom(
+    [
+      "\uFEFFsein\tbin",
+      "sein\tist",
+      "sein\tsind",
+      "ich\tsie",
+      "ich\tdir",
+      "Tisch\tTische",
+      "müssen\tmußte",
+      "der\tden",
+      "Mann\tMänner",
+      "Hose\tHosen",
+    ].join("\r\n"),
+    "de",
+  );
+  const knownDe = (...words: string[]) => new Set(words.flatMap((w) => wordLemmas(w, de)));
+  const check = (target: string, knownWords: Set<string>) =>
+    checkExample(card({ target: "der Tisch", unit: "home", example: { target, en: "x" } }), knownWords, de);
+
+  it("reads the list as the word list counts it: sie is not ich, and mußte is found as musste", () => {
+    expect(wordLemmas("sie", de)).toEqual(["sie"]);
+    expect(wordLemmas("dir", de)).toEqual(["dir"]);
+    expect(wordLemmas("die", de)).toEqual(["die", "der"]);
+    expect(wordLemmas("musste", de)).toEqual(["musste", "müssen"]);
+    // German attaches no pronouns to a verb: Hose is not ho plus se.
+    expect(wordLemmas("Hose", de)).toEqual(["hose"]);
+  });
+
+  it("counts a capitalised noun not met yet, anywhere in the sentence, and lets a name pass", () => {
+    expect(check("Ich bin der Mann.", knownDe("ich", "sein", "der")).unknown).toEqual(["Mann"]);
+    expect(check("Ich bin der Mann.", knownDe("ich", "sein", "der", "Mann"))).toMatchObject({ ok: true, unknown: [] });
+    expect(check("Ich bin Anna.", knownDe("ich", "sein"))).toMatchObject({ ok: true, unknown: [] });
+    // The card's own noun and its plural are known through the list.
+    expect(check("Die Tische sind hier.", knownDe("der", "sein")).unknown).toEqual(["hier"]);
+    // Sie is a word to learn, not a name, and not ich.
+    expect(check("Sie ist hier.", knownDe("ich", "sein", "hier")).unknown).toEqual(["Sie"]);
+  });
+});
+
 describe("the known-words check in the review pass and the deck build", () => {
   it("flags a card with reason known-words when the review is given its problem", async () => {
     const { drafts, store } = setup();

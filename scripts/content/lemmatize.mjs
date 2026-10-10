@@ -139,9 +139,23 @@ export function candidates(form, { lemmaMap, lemmaSet, dic, overrides }) {
  *   overrides?: Record<string, string | string[] | Record<string, number> | null>,
  *   drop?: string[],
  *   size?: number,
+ *   resolve?: typeof candidates,
+ *   written?: (lemma: string) => string,
  * }} input
+ *
+ * `resolve` gives a form's lemmas (Spanish's `candidates` when left out; German's is in lemmatize-de.mjs), and
+ * `written` how a kept word is spelled in the list (as it is when left out; German capitalises its nouns).
  */
-export function buildWordList({ frequencies, lemmaMap, dic, overrides = {}, drop = [], size = 1200 }) {
+export function buildWordList({
+  frequencies,
+  lemmaMap,
+  dic,
+  overrides = {},
+  drop = [],
+  size = 1200,
+  resolve = candidates,
+  written = (lemma) => lemma,
+}) {
   const lemmaSet = new Set();
   for (const lemmas of lemmaMap.values()) for (const l of lemmas) lemmaSet.add(l);
   const named = new Set();
@@ -152,7 +166,7 @@ export function buildWordList({ frequencies, lemmaMap, dic, overrides = {}, drop
   const dropped = new Set(drop);
   const context = { lemmaMap, lemmaSet, dic, overrides };
 
-  const resolved = frequencies.map(({ form, count }) => ({ form, count, to: candidates(form, context) }));
+  const resolved = frequencies.map(({ form, count }) => ({ form, count, to: resolve(form, context) }));
 
   // Counts from forms that belong to one lemma only.
   const solo = new Map();
@@ -194,7 +208,7 @@ export function buildWordList({ frequencies, lemmaMap, dic, overrides = {}, drop
 
   const entries = kept.slice(0, size).map((entry, i) => ({
     rank: i + 1,
-    word: entry.word,
+    word: written(entry.word),
     count: entry.count,
     forms: forms
       .get(entry.word)

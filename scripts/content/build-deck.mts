@@ -82,7 +82,7 @@ const takes = existsSync(takesFile) ? JSON.parse(readFileSync(takesFile, "utf8")
 const tips = tipsForDeck(new TipStore(values.tips ?? paths.tips, lang), tipList);
 const plan = { units, tipList, tags: new TagStore(values.tags ?? paths.tags) };
 const lemmas = await loadLemmas(ROOT, lang);
-if (!lemmas) console.log(`Known-words check not run: no ${paths.config.language} lemma list yet (DE6)`);
+if (!lemmas) console.log(`Known-words check not run: no ${paths.config.language} lemma list pinned in sources.mjs`);
 const build = buildDeck(drafts, reviews, readDeckFile(out), {
   allowDrop: values["allow-drop"] || values.fresh,
   fresh: values.fresh,
