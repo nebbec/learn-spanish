@@ -308,7 +308,7 @@ Same rules as design.md, "Rules for every ticket", and the same [ticket loop](ti
 | ID | Ticket | Depends on | Human | Status |
 |---|---|---|---|---|
 | DE1 | Language config and two builds | none | | Done |
-| DE2 | `lang` in Supabase and sync | DE1 | Push migration | Done except: push the migration, run `check:rls` and `check:sync` against the real project, deploy Spanish |
+| DE2 | `lang` in Supabase and sync | DE1 | Push migration | Done except: merge and deploy the Spanish app |
 | DE3 | Deck format 3 and German grammar | DE1 | | Done |
 | DE4 | German card layouts | DE3 | | Done |
 | DE5 | Scripts take `--lang` | DE1, DE3 | | Done |
@@ -338,6 +338,7 @@ DE1 and DE10 can start at once. DE2, DE3 and DE5 run beside each other after DE1
 - Build: a migration adding `lang` (checked `es` or `de`, default `es`) to `reviews`, `notes`, `card_reports` and `resets`, the notes key `(user_id, lang, card_id)` and an index for filtered downloads. `SyncRemote` sends and filters by the config's language (`FakeRemote` too). `check:rls` and `check:sync` gain a German case: German rows never reach a Spanish device, and a German reset leaves Spanish replay alone.
 - Done when: the migration is pushed (human), the checks pass against the real project, and the Spanish app still syncs.
 - Note (DE2): built as in "Decided in DE2" under [Data](#data). Checked on 2026-10-10: on a local Supabase stack (`supabase start` from a scratch copy of `supabase/` on other ports, never the linked project) the four migrations applied in order, `npm run check:rls` passed 69 of 69 and `npm run check:sync` 7 of 7, Spanish cases included; a separate Postgres run showed a pre-DE2 notes upsert on `user_id,card_id` is refused after the migration. `npm test` (51 files, 828 tests), `npm run lint`, `npm run typecheck`, `npm run build` and `NEXT_PUBLIC_LANG=de npm run build` pass, and `npm run deck` reports the Spanish deck version 8 unchanged. Left for Courtney: `supabase db push --linked` (from a linked worktree), then `npm run check:rls` and `npm run check:sync` with the real `.env.local`, then merge and deploy the Spanish app soon after (see "Order of release"). For later tickets: a German device's remote is `new SupabaseRemote(client)` in the German build (it reads `LANG`); tests and scripts that need the other language pass `{ lang }`, and `FakeRemote.forLang` gives a second language's view of one fake server. DE16 checks on the phone that German ratings never show in Spanish.
+- Pushed (DE2): Courtney applied `20261010090000_lang.sql` to the live project on 2026-10-22 (`supabase db push --linked`); then `npm run check:rls` passed 69 of 69 and `npm run check:sync` 7 of 7 against it. Left: merge and deploy the Spanish app, whose note uploads the live project refuses until then.
 
 **DE3 Deck format 3 and German grammar**
 - Build: format 3 as under [Card data](#card-data), with the `target` and `regional` rename, the `lang` field, the German grammar shapes and validator rules, and the `case` kind. Migrate the Spanish deck, drafts, reviews, tags and decision files in one commit with fingerprints recomputed, so `npm run deck` rebuilds the same Spanish deck apart from the rename. Add a German fixture deck (`lib/deck/fixture-de.json`) with nouns of three genders, a separable and a strong verb, a glue card, a form card, a phrase card, a case card and a tip.
