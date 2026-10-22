@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-she-is-from-hamburg
 kind:           phrase
 pos:            phrase
 target:         Sie ist aus Hamburg.
 en:             She is from Hamburg.
-hint:
+hint:           with sein, not kommen
 example.target: Sie ist aus Hamburg und er ist aus Berlin.
 example.en:     She is from Hamburg and he is from Berlin.
 regional.where:

@@ -13,14 +13,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-how-much-is-it
 kind:           phrase
 pos:            phrase
 target:         Was kostet das?
 en:             How much is it?
-hint:
+hint:           the short way, starting with was (not wie viel)
 example.target: Entschuldigung, was kostet das?
 example.en:     Excuse me, how much is it?
 regional.where:

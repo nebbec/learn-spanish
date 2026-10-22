@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-he-has-a-house
 kind:           phrase
@@ -20,8 +20,8 @@ pos:            phrase
 target:         Er hat ein Haus.
 en:             He has a house.
 hint:
-example.target: Er hat ein Haus und ich habe Kaffee.
-example.en:     He has a house and I have coffee.
+example.target: Er hat ein Haus mit Garten.
+example.en:     He has a house with a garden.
 regional.where:
 regional.text:
 trick:

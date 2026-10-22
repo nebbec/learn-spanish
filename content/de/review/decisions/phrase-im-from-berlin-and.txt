@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-im-from-berlin-and
 kind:           phrase
 pos:            phrase
 target:         Ich bin aus Berlin, und du?
 en:             I'm from Berlin, and you?
-hint:           informal
+hint:           informal; with sein (literally "I am"), not kommen
 example.target: Ich bin aus Berlin, und du? – Ich bin aus Hamburg.
 example.en:     I'm from Berlin, and you? – I'm from Hamburg.
 regional.where:

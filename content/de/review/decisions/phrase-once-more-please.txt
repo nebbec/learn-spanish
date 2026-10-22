@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-once-more-please
 kind:           phrase
@@ -20,8 +20,8 @@ pos:            phrase
 target:         Noch einmal, bitte.
 en:             Once more, please.
 hint:
-example.target: Ich verstehe das nicht. Noch einmal, bitte.
-example.en:     I don't understand that. Once more, please.
+example.target: Entschuldigung, noch einmal, bitte.
+example.en:     Sorry, once more, please.
 regional.where:
 regional.text:
 trick:          Einmal starts with ein, meaning one, so noch einmal is literally still one time.

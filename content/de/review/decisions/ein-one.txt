@@ -13,14 +13,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             ein-one
 kind:           glue
 pos:            determiner
 target:         ein
 en:             Just [one] beer, please
-hint:           before a noun, not counting
+hint:           the number, before a noun (not eins)
 example.target: Ich trinke nur ein Bier.
 example.en:     I'm only drinking one beer.
 regional.where:

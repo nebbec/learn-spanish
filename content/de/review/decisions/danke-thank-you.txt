@@ -13,7 +13,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             danke-thank-you
 kind:           content
@@ -23,8 +23,8 @@ en:             thank you
 hint:
 example.target: Danke für deine Hilfe!
 example.en:     Thanks for your help!
-regional.where:
-regional.text:
+regional.where: Switzerland
+regional.text:  Merci (Merci vielmal for thanks a lot) is very common in everyday Swiss German, alongside danke.
 trick:          DANKE sounds like DAHN-keh, close to thank-ya: say thanks with a D and you've got it.
 
 # The draft this file was made from. Do not change it.

@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-i-dont-like-beer
 kind:           phrase
@@ -20,8 +20,8 @@ pos:            phrase
 target:         Ich mag kein Bier.
 en:             I don't like beer.
 hint:           use kein
-example.target: Nein, danke. Ich mag kein Bier. Ich trinke Wasser.
-example.en:     No, thanks. I don't like beer. I'll drink water.
+example.target: Nein danke, ich mag kein Bier.
+example.en:     No thanks, I don't like beer.
 regional.where:
 regional.text:
 trick:

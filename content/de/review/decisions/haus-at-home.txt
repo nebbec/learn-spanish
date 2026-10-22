@@ -13,7 +13,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             haus-at-home
 kind:           content
@@ -23,9 +23,9 @@ en:             at home
 hint:
 example.target: Bist du heute Abend zu Hause?
 example.en:     Are you at home tonight?
-regional.where:
-regional.text:
-trick:          ZU HAUSE sounds like tsoo HOW-zeh: to the house, so you're at home.
+regional.where: Austria
+regional.text:  daheim is the usual everyday word for at home, in Switzerland too (Bist du heute Abend daheim?).
+trick:          ZU HAUSE sounds like tsoo HOW-zeh: you're sitting in your own HOUSE, so you're at home.
 
 # The draft this file was made from. Do not change it.
 draft: 9318c8e771ae19e5

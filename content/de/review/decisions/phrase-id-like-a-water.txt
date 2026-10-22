@@ -13,14 +13,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-id-like-a-water
 kind:           phrase
 pos:            phrase
 target:         Ich möchte ein Wasser, bitte.
 en:             I'd like a water, please.
-hint:
+hint:           use möchte
 example.target: Hallo! Ich möchte ein Wasser, bitte.
 example.en:     Hello! I'd like a water, please.
 regional.where:

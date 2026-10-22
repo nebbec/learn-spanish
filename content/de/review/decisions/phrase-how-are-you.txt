@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-how-are-you
 kind:           phrase
 pos:            phrase
 target:         Wie geht's?
 en:             How are you?
-hint:           casual, to a friend
+hint:           casual short form, without dir
 example.target: Hallo, Anna! Wie geht's?
 example.en:     Hi, Anna! How are you?
 regional.where:

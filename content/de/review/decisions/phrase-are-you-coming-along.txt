@@ -13,7 +13,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-are-you-coming-along
 kind:           phrase
@@ -21,8 +21,8 @@ pos:            phrase
 target:         Kommst du mit?
 en:             Are you coming along?
 hint:           informal
-example.target: Ich gehe heute Abend zu einer Party. Kommst du mit?
-example.en:     I'm going to a party tonight. Are you coming along?
+example.target: Ich gehe heute Abend auf eine Party, kommst du mit?
+example.en:     I'm going to a party tonight, are you coming along?
 regional.where:
 regional.text:
 trick:

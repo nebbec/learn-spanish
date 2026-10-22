@@ -13,18 +13,18 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             bisschen-a-bit
 kind:           content
 pos:            adverb
 target:         bisschen
 en:             a bit, a little
-hint:           after ein: ein ___
+hint:           after ein: ein ___ (the everyday word, not wenig)
 example.target: Ich bin ein bisschen müde.
 example.en:     I'm a bit tired.
-regional.where:
-regional.text:
+regional.where: Austria
+regional.text:  In everyday speech Austrians usually say ein bissl (often a bissl).
 trick:          BISSCHEN sounds like "bitsy-shen": a bitsy little bite, just a bit.
 
 # The draft this file was made from. Do not change it.

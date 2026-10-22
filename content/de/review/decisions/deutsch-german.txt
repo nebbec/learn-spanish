@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             deutsch-german
 kind:           content
 pos:            adjective
 target:         deutsch
 en:             German
-hint:
+hint:           adjective, as in German beer; not the language or a person
 example.target: Ich trinke gern deutsches Bier.
 example.en:     I like drinking German beer.
 regional.where:

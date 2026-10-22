@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             nein-no
 kind:           content
@@ -20,8 +20,8 @@ pos:            other
 target:         nein
 en:             no
 hint:           the answer, opposite of yes
-example.target: Nein, ich finde es.
-example.en:     No, I'll find it.
+example.target: Nein, ich habe keine Zeit.
+example.en:     No, I don't have time.
 regional.where:
 regional.text:
 trick:          NEIN sounds like "nine": picture a toddler shouting no nine times in a row.

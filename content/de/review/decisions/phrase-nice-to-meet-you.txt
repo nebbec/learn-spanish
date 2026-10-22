@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-nice-to-meet-you
 kind:           phrase
 pos:            phrase
 target:         Freut mich!
 en:             Nice to meet you!
-hint:
+hint:           The short two-word reply, not schön, dich kennenzulernen
 example.target: Freut mich! Ich bin aus Hamburg.
 example.en:     Nice to meet you! I'm from Hamburg.
 regional.where:

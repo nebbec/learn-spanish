@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             stadt-city
 kind:           content
@@ -27,7 +27,7 @@ example.target: Die Stadt ist nicht weit.
 example.en:     The town isn't far.
 regional.where:
 regional.text:
-trick:          STADT sounds like shtaht, close to state: a big city is like a little state of its own.
+trick:          STADT sounds like shtat, a bit like state: a big city is like a little state of its own.
 
 # The draft this file was made from. Do not change it.
 draft: 38fc11226807cc2e

@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:                 sein-form-er
 kind:               form
@@ -27,8 +27,8 @@ irregular:          yes
 separable:          no
 perfekt.aux:        sein
 perfekt.participle: gewesen
-example.target:     Nein, er ist Paul.
-example.en:         No, he's Paul.
+example.target:     Er ist mein Bruder.
+example.en:         He's my brother.
 regional.where:
 regional.text:
 trick:              Ist sounds like English is with a t at the end: er ist means he is.

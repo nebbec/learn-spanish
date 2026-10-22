@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             liebe-love
 kind:           content
@@ -27,7 +27,7 @@ example.target: Die Liebe macht glücklich.
 example.en:     Love makes you happy.
 regional.where:
 regional.text:
-trick:          LIEBE sounds like LEE-buh and is a cousin of English love; think of the lieb in beloved.
+trick:          LIEBE sounds like LEE-buh and is a cousin of English love, so picture someone saying love with a German accent.
 
 # The draft this file was made from. Do not change it.
 draft: 1d8119b3b1a9beb4

@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-excuse-me-sorry
 kind:           phrase
 pos:            phrase
 target:         Entschuldigung!
 en:             Excuse me! / Sorry!
-hint:
+hint:           the one-word noun, to get attention or apologise (not Tut mir leid or Entschuldige)
 example.target: Entschuldigung, wo ist die Toilette?
 example.en:     Excuse me, where is the toilet?
 regional.where: Switzerland

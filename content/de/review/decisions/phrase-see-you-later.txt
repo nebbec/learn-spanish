@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-see-you-later
 kind:           phrase
 pos:            phrase
 target:         Bis später!
 en:             See you later!
-hint:           later today
+hint:           later today, with the everyday word for later (not nachher or gleich)
 example.target: Ich rufe dich an. Bis später!
 example.en:     I'll call you. See you later!
 regional.where:

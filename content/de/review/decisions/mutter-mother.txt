@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             mutter-mother
 kind:           content
@@ -27,7 +27,7 @@ example.target: Meine Mutter ist aus Hamburg.
 example.en:     My mother is from Hamburg.
 regional.where:
 regional.text:
-trick:          MUTTER sounds like MOO-ter, close to mother: picture a mother cow mooing for her calf.
+trick:          MUTTER, said MUT-ter as in mutt, is close to MOTHER: picture a mother hugging her mutt.
 
 # The draft this file was made from. Do not change it.
 draft: 12499000e946328c

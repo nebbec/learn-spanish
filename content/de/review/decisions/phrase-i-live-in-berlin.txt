@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-i-live-in-berlin
 kind:           phrase
 pos:            phrase
 target:         Ich wohne in Berlin und arbeite hier.
 en:             I live in Berlin and work here.
-hint:
+hint:           use wohnen for live
 example.target: Ich wohne in Berlin und arbeite hier. Und du?
 example.en:     I live in Berlin and work here. And you?
 regional.where:

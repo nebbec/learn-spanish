@@ -1,7 +1,7 @@
 {
   "format": 3,
   "lang": "de",
-  "version": 1,
+  "version": 2,
   "units": [
     {
       "id": "me-and-you",
@@ -49,7 +49,316 @@
       "goal": "ask for help and say what you can, must and need."
     }
   ],
-  "tips": [],
+  "tips": [
+    {
+      "id": "tip-always-pronoun",
+      "title": "German always says who",
+      "body": "In casual English you can sometimes skip the I, but German always says who is doing something. Bin on its own is not a sentence, but ich bin means I am. That is why the cards teach the person and the verb together: ich bin, du bist, er ist. Learn each pair as one chunk, and never leave out the ich, du or er when you speak.",
+      "examples": [
+        {
+          "target": "Ich bin Anna.",
+          "en": "I'm Anna.",
+          "audio": "/deck-de/audio/tip-always-pronoun.1.186b61e1.mp3"
+        },
+        {
+          "target": "Du bist aus London.",
+          "en": "You're from London.",
+          "audio": "/deck-de/audio/tip-always-pronoun.2.c2bc6ca1.mp3"
+        },
+        {
+          "target": "Er ist Max und sie ist Lena.",
+          "en": "He's Max and she's Lena.",
+          "audio": "/deck-de/audio/tip-always-pronoun.3.84679f42.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-verb-endings",
+      "title": "Verbs change with who does them",
+      "body": "In German, the verb changes a little depending on who is doing it. The ending usually tells you who: -e for ich, -st for du and -t for er or sie, so ich habe, du hast, er hat. Möchte is the odd one: ich möchte and er möchte are the same, and only du gets an ending, du möchtest. When you speak, match the verb to the person, and when you listen, the ending helps you hear who it's about.",
+      "examples": [
+        {
+          "target": "Ich habe ein Haus.",
+          "en": "I have a house.",
+          "audio": "/deck-de/audio/tip-verb-endings.1.6e8876d8.mp3"
+        },
+        {
+          "target": "Sie hat Kaffee und ich habe Wasser.",
+          "en": "She has coffee and I have water.",
+          "audio": "/deck-de/audio/tip-verb-endings.2.d8a00ddc.mp3"
+        },
+        {
+          "target": "Du möchtest Kaffee, und er möchte Wasser.",
+          "en": "You'd like coffee, and he'd like water.",
+          "audio": "/deck-de/audio/tip-verb-endings.3.f4b40da7.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-der-die-das",
+      "title": "Every noun is der, die or das",
+      "body": "Every German noun is masculine, feminine or neuter, and the word for the shows which one: der, die or das. This applies to people and things alike: der Vater, die Mutter, das Haus, and even das Kind. You often can't guess it, so learn every noun with its der, die or das as part of the word. If you get the word right but use the wrong der, die or das, it counts as Nearly. Every noun also starts with a capital letter, wherever it is in the sentence.",
+      "examples": [
+        {
+          "target": "Der Mann möchte Kaffee.",
+          "en": "The man would like coffee.",
+          "audio": "/deck-de/audio/tip-der-die-das.1.6f22cbfe.mp3"
+        },
+        {
+          "target": "Die Frau ist aus Berlin.",
+          "en": "The woman is from Berlin.",
+          "audio": "/deck-de/audio/tip-der-die-das.2.fc2bd787.mp3"
+        },
+        {
+          "target": "Das Kind ist sehr müde.",
+          "en": "The child is very tired.",
+          "audio": "/deck-de/audio/tip-der-die-das.3.9643ec4e.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-accusative",
+      "title": "Den and einen: the accusative",
+      "body": "When a der word is the thing you have, want, see or order, the little word in front of it changes, and German calls this the accusative. Der becomes den and ein becomes einen: ich habe einen Bruder, or einen Kaffee, bitte. Mein works just like ein, so my father becomes meinen Vater. Die, das, eine and plurals never change, so eine Schwester and ein Wasser stay as they are. So when you order or say who you have, check whether the noun is a der word and add the -en.",
+      "examples": [
+        {
+          "target": "Ich habe einen Bruder und eine Schwester.",
+          "en": "I have a brother and a sister.",
+          "audio": "/deck-de/audio/tip-accusative.1.20990090.mp3"
+        },
+        {
+          "target": "Einen Kaffee und ein Wasser, bitte.",
+          "en": "A coffee and a water, please.",
+          "audio": "/deck-de/audio/tip-accusative.2.7a52026a.mp3"
+        },
+        {
+          "target": "Der Mann trinkt meinen Kaffee!",
+          "en": "The man is drinking my coffee!",
+          "audio": "/deck-de/audio/tip-accusative.3.673f3ade.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-questions",
+      "title": "Questions start with the verb",
+      "body": "To ask a yes-or-no question, put the verb first: du bist müde means you are tired, and Bist du müde? means are you tired? English often adds do (do you have water?), but German simply moves the verb to the front: Hast du Wasser? With a question word like was, wer, wo, wann, wie or warum, the question word comes first and the verb comes straight after it. So Wo ist das Hotel? means where is the hotel, in the same order as English.",
+      "examples": [
+        {
+          "target": "Hast du einen Bruder?",
+          "en": "Do you have a brother?",
+          "audio": "/deck-de/audio/tip-questions.1.dcc26ef1.mp3"
+        },
+        {
+          "target": "Wo ist das Hotel?",
+          "en": "Where is the hotel?",
+          "audio": "/deck-de/audio/tip-questions.2.9bc53307.mp3"
+        },
+        {
+          "target": "Warum ist sie müde?",
+          "en": "Why is she tired?",
+          "audio": "/deck-de/audio/tip-questions.3.cf70de64.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-nicht-kein",
+      "title": "Nicht and kein",
+      "body": "Nicht means not, so ich verstehe nicht means I don't understand. Before a noun that would have ein, or no article at all, German doesn't use nicht but says kein, which means not a or no. So ich spreche kein Deutsch means I don't speak German, and das ist kein Bier means that's not a beer. Kein takes the same endings as ein, so einen Bruder becomes keinen Bruder and eine Schwester becomes keine Schwester.",
+      "examples": [
+        {
+          "target": "Ich weiß nicht.",
+          "en": "I don't know.",
+          "audio": "/deck-de/audio/tip-nicht-kein.1.194416fe.mp3"
+        },
+        {
+          "target": "Ich spreche kein Deutsch.",
+          "en": "I don't speak German.",
+          "audio": "/deck-de/audio/tip-nicht-kein.2.04a2faf6.mp3"
+        },
+        {
+          "target": "Ich habe keinen Bruder.",
+          "en": "I don't have a brother.",
+          "audio": "/deck-de/audio/tip-nicht-kein.3.98bbec99.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-modal-end",
+      "title": "Can, must, want: the second verb goes last",
+      "body": "Words like können (can), müssen (must), wollen (want) and möchten (would like) often team up with a second verb. The first verb changes with who does it, like ich kann or du kannst, and sits in its usual spot. The second verb goes to the very end of the sentence in its dictionary form, so ich möchte Wasser trinken means I would like to drink water. Everything else goes in between, and questions work the same way: Kannst du mir helfen? means can you help me? English says to drink or to help, but German needs no word for to here.",
+      "examples": [
+        {
+          "target": "Kannst du mir helfen?",
+          "en": "Can you help me?",
+          "audio": "/deck-de/audio/tip-modal-end.1.94de7bdb.mp3"
+        },
+        {
+          "target": "Ich möchte einen Kaffee trinken.",
+          "en": "I'd like to drink a coffee.",
+          "audio": "/deck-de/audio/tip-modal-end.2.eaf5e84d.mp3"
+        },
+        {
+          "target": "Wir müssen Deutsch sprechen.",
+          "en": "We have to speak German.",
+          "audio": "/deck-de/audio/tip-modal-end.3.2f9e5335.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-du-sie",
+      "title": "Du and Sie",
+      "body": "German has two words for you: du for friends, family, children and people your age, and Sie for strangers, shop staff and officials. The polite Sie always has a capital S, even in the middle of a sentence. With Sie, the verb takes its dictionary form, just as it does with wir (we) and sie (they): Können Sie mir helfen? means can you help me? Sein (to be) is the exception, because you are is Sie sind. Ihr means you when you talk to several friends at once, but this app leaves its forms out.",
+      "examples": [
+        {
+          "target": "Entschuldigung, können Sie mir helfen?",
+          "en": "Excuse me, can you help me?",
+          "audio": "/deck-de/audio/tip-du-sie.1.ab5007ed.mp3"
+        },
+        {
+          "target": "Sind Sie aus Berlin?",
+          "en": "Are you from Berlin?",
+          "audio": "/deck-de/audio/tip-du-sie.2.0bcff838.mp3"
+        },
+        {
+          "target": "Kannst du mir helfen?",
+          "en": "Can you help me? (to a friend)",
+          "audio": "/deck-de/audio/tip-du-sie.3.94de7bdb.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-verb-second",
+      "title": "The verb comes second",
+      "body": "In a German statement, the verb always comes second. Second means the second part of the sentence, and a part can be one word like ich or a group of words like der Mann. You can start with the person, as in Ich gehe heute nach Hause, which means I'm going home today. If you start with something else, like a time or a place, the verb still comes second and the person moves behind it: Heute gehe ich nach Hause. So when you start with heute, morgen, jetzt or hier, put the verb next, then the person.",
+      "examples": [
+        {
+          "target": "Heute gehe ich nach Hause.",
+          "en": "Today I'm going home.",
+          "audio": "/deck-de/audio/tip-verb-second.1.6041998a.mp3"
+        },
+        {
+          "target": "Morgen geht Anna nach Berlin.",
+          "en": "Tomorrow Anna is going to Berlin.",
+          "audio": "/deck-de/audio/tip-verb-second.2.c53de3d0.mp3"
+        },
+        {
+          "target": "Hier ist das Hotel.",
+          "en": "The hotel is here.",
+          "audio": "/deck-de/audio/tip-verb-second.3.d2794bee.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-separable",
+      "title": "Verbs that split in two",
+      "body": "Some German verbs have a small front part that can break off: aufstehen (get up) is auf plus stehen. In an everyday sentence the front part jumps to the very end: Ich stehe früh auf means I get up early. Anrufen (call) works the same way: Ich rufe dich an means I'm calling you. In the dictionary form the verb stays in one piece, and after können or müssen it goes to the end in one piece too: Ich muss früh aufstehen. So when you hear a little word like auf or an at the end, join it back onto the verb to get the meaning.",
+      "examples": [
+        {
+          "target": "Ich stehe früh auf.",
+          "en": "I get up early.",
+          "audio": "/deck-de/audio/tip-separable.1.17ceb4df.mp3"
+        },
+        {
+          "target": "Wann fängt die Arbeit an?",
+          "en": "When does work start?",
+          "audio": "/deck-de/audio/tip-separable.2.1cb36657.mp3"
+        },
+        {
+          "target": "Ich muss morgen früh aufstehen.",
+          "en": "I have to get up early tomorrow.",
+          "audio": "/deck-de/audio/tip-separable.3.8242e820.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-gern",
+      "title": "Liking: gern and mögen",
+      "body": "To say you like doing something, use the normal verb and put gern right after it: Ich trinke gern Kaffee means I like drinking coffee. To say you don't like doing it, put nicht before gern: Ich arbeite nicht gern means I don't like working. To like a thing or a person, use mögen, which is ich mag and du magst: Ich mag Musik means I like music. Ich möchte comes from mögen too, and it's the polite I would like, which is perfect for asking for things.",
+      "examples": [
+        {
+          "target": "Ich lerne gern Deutsch.",
+          "en": "I like learning German.",
+          "audio": "/deck-de/audio/tip-gern.1.25c4a6c6.mp3"
+        },
+        {
+          "target": "Er arbeitet nicht gern.",
+          "en": "He doesn't like working.",
+          "audio": "/deck-de/audio/tip-gern.2.ef3272c5.mp3"
+        },
+        {
+          "target": "Magst du Musik?",
+          "en": "Do you like music?",
+          "audio": "/deck-de/audio/tip-gern.3.822741d5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-plurals",
+      "title": "Plurals have no single rule",
+      "body": "English mostly adds -s for more than one, but German plurals come in several patterns. Das Kind becomes die Kinder, die Frau becomes die Frauen, der Bruder becomes die Brüder, and das Hotel becomes die Hotels. Whether the noun is der, die or das, the word for the in the plural is always die. There's no rule you can rely on, so learn each plural together with its noun, and the answer on each card shows it to you. When you order, drinks often stay singular, so you say zwei Kaffee, bitte.",
+      "examples": [
+        {
+          "target": "Ich habe zwei Brüder.",
+          "en": "I have two brothers.",
+          "audio": "/deck-de/audio/tip-plurals.1.20d12d89.mp3"
+        },
+        {
+          "target": "Die Kinder trinken Wasser.",
+          "en": "The children are drinking water.",
+          "audio": "/deck-de/audio/tip-plurals.2.d420719d.mp3"
+        },
+        {
+          "target": "Zwei Kaffee, bitte.",
+          "en": "Two coffees, please.",
+          "audio": "/deck-de/audio/tip-plurals.3.2dd37e5c.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-dative",
+      "title": "After mit, bei and zu: the dative",
+      "body": "After mit (with), bei (at someone's place) and zu (to someone), the word for the or a changes, and this changed form is called the dative. Der and das become dem, die becomes der, and ein becomes einem or einer: mit dem Mann, mit der Frau, mit einem Kind. Mein changes just like ein, so you say mit meinem Vater and bei meiner Mutter. Ich becomes mir and du becomes dir, which is why you say mit mir and Wie geht es dir?",
+      "examples": [
+        {
+          "target": "Ich trinke Kaffee mit einem Freund.",
+          "en": "I'm having coffee with a friend.",
+          "audio": "/deck-de/audio/tip-dative.1.8c8452aa.mp3"
+        },
+        {
+          "target": "Morgen gehe ich zu meiner Mutter.",
+          "en": "Tomorrow I'm going to my mother's.",
+          "audio": "/deck-de/audio/tip-dative.2.92f7e4f5.mp3"
+        },
+        {
+          "target": "Er wohnt bei mir.",
+          "en": "He lives at my place.",
+          "audio": "/deck-de/audio/tip-dative.3.7919fca6.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tip-perfekt",
+      "title": "Talking about the past: the Perfekt",
+      "body": "To talk about the past in conversation, German uses haben or sein plus a past form of the verb, and that past form goes at the end. Ich habe gearbeitet means I worked or I have worked, and ich bin nach Hause gegangen means I went home. Most verbs use haben, but verbs of moving or changing, like gehen, kommen and aufstehen, use sein. You don't have to guess which one: each verb's answer shows its past with the right helper, like hat gemacht or ist gegangen.",
+      "examples": [
+        {
+          "target": "Ich habe heute gearbeitet.",
+          "en": "I worked today.",
+          "audio": "/deck-de/audio/tip-perfekt.1.33851451.mp3"
+        },
+        {
+          "target": "Wir haben Kaffee getrunken.",
+          "en": "We drank coffee.",
+          "audio": "/deck-de/audio/tip-perfekt.2.d1e6cf2e.mp3"
+        },
+        {
+          "target": "Er ist nach Hause gegangen.",
+          "en": "He went home.",
+          "audio": "/deck-de/audio/tip-perfekt.3.d114d4b1.mp3"
+        }
+      ]
+    }
+  ],
   "cards": [
     {
       "id": "ich-i",
@@ -227,6 +536,31 @@
       "why": null
     },
     {
+      "id": "nein-no",
+      "rank": 44,
+      "kind": "content",
+      "pos": "other",
+      "target": "nein",
+      "en": "no",
+      "hint": "the answer, opposite of yes",
+      "grammar": null,
+      "example": {
+        "target": "Nein, ich habe keine Zeit.",
+        "en": "No, I don't have time."
+      },
+      "regional": null,
+      "trick": "NEIN sounds like \"nine\": picture a toddler shouting no nine times in a row.",
+      "image": "/deck-de/img/nein-no.webp",
+      "audio": {
+        "word": "/deck-de/audio/nein-no.word.7af2f98e.mp3",
+        "sentence": "/deck-de/audio/nein-no.sentence.d427b62f.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "bitte-please",
       "rank": 86,
       "kind": "content",
@@ -245,6 +579,34 @@
       "audio": {
         "word": "/deck-de/audio/bitte-please.word.7e6c1720.mp3",
         "sentence": "/deck-de/audio/bitte-please.sentence.efc56873.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "danke-thank-you",
+      "rank": 96,
+      "kind": "content",
+      "pos": "other",
+      "target": "danke",
+      "en": "thank you",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Danke für deine Hilfe!",
+        "en": "Thanks for your help!"
+      },
+      "regional": {
+        "where": "Switzerland",
+        "text": "Merci (Merci vielmal for thanks a lot) is very common in everyday Swiss German, alongside danke."
+      },
+      "trick": "DANKE sounds like DAHN-keh, close to thank-ya: say thanks with a D and you've got it.",
+      "image": "/deck-de/img/danke-thank-you.webp",
+      "audio": {
+        "word": "/deck-de/audio/danke-thank-you.word.daffe28c.mp3",
+        "sentence": "/deck-de/audio/danke-thank-you.sentence.0cea99c6.mp3"
       },
       "unit": "me-and-you",
       "requires": [],
@@ -277,6 +639,76 @@
         "bitte-please"
       ],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-no-thank-you",
+      "rank": 96,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Nein, danke.",
+      "en": "No, thank you.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Möchtest du einen Kaffee? – Nein, danke.",
+        "en": "Would you like a coffee? – No, thank you."
+      },
+      "regional": {
+        "where": "Switzerland",
+        "text": "Nein, merci."
+      },
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-no-thank-you.word.d727b2df.mp3",
+        "sentence": "/deck-de/audio/phrase-no-thank-you.sentence.cb1fcea4.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [
+        "nein-no",
+        "danke-thank-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "sein-form-ich",
+      "rank": 2,
+      "kind": "form",
+      "pos": "verb",
+      "target": "ich bin",
+      "en": "I am",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "bin",
+          "du": "bist",
+          "er": "ist"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "sein",
+          "participle": "gewesen"
+        }
+      },
+      "example": {
+        "target": "Ja, ich bin Anna.",
+        "en": "Yes, I'm Anna."
+      },
+      "regional": null,
+      "trick": "Bin sounds like English been, as in I have been here: I am.",
+      "image": "/deck-de/img/sein-be.webp",
+      "audio": {
+        "word": "/deck-de/audio/sein-form-ich.word.b5038ccf.mp3",
+        "sentence": "/deck-de/audio/sein-form-ich.sentence.ebf0299d.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "ich-i"
+      ],
+      "tip": "tip-always-pronoun",
       "why": null
     },
     {
@@ -314,6 +746,45 @@
       "unit": "who-i-am",
       "requires": [
         "du-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "sein-form-er",
+      "rank": 2,
+      "kind": "form",
+      "pos": "verb",
+      "target": "er ist",
+      "en": "he / she is",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "bin",
+          "du": "bist",
+          "er": "ist"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "sein",
+          "participle": "gewesen"
+        }
+      },
+      "example": {
+        "target": "Er ist mein Bruder.",
+        "en": "He's my brother."
+      },
+      "regional": null,
+      "trick": "Ist sounds like English is with a t at the end: er ist means he is.",
+      "image": "/deck-de/img/sein-be.webp",
+      "audio": {
+        "word": "/deck-de/audio/sein-form-er.word.f9f96787.mp3",
+        "sentence": "/deck-de/audio/sein-form-er.sentence.5bf74849.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "er-he"
       ],
       "tip": null,
       "why": null
@@ -369,6 +840,66 @@
       "why": null
     },
     {
+      "id": "phrase-im-from-berlin-and",
+      "rank": 65,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich bin aus Berlin, und du?",
+      "en": "I'm from Berlin, and you?",
+      "hint": "informal; with sein (literally \"I am\"), not kommen",
+      "grammar": null,
+      "example": {
+        "target": "Ich bin aus Berlin, und du? – Ich bin aus Hamburg.",
+        "en": "I'm from Berlin, and you? – I'm from Hamburg."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-im-from-berlin-and.word.103a71c0.mp3",
+        "sentence": "/deck-de/audio/phrase-im-from-berlin-and.sentence.925ec99b.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "ich-i",
+        "sein-form-ich",
+        "aus-from",
+        "und-and",
+        "du-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-she-is-from-hamburg",
+      "rank": 65,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Sie ist aus Hamburg.",
+      "en": "She is from Hamburg.",
+      "hint": "with sein, not kommen",
+      "grammar": null,
+      "example": {
+        "target": "Sie ist aus Hamburg und er ist aus Berlin.",
+        "en": "She is from Hamburg and he is from Berlin."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-she-is-from-hamburg.word.56152bcf.mp3",
+        "sentence": "/deck-de/audio/phrase-she-is-from-hamburg.sentence.27541707.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "sie-she",
+        "sein-form-er",
+        "aus-from"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "phrase-my-name-is",
       "rank": 167,
       "kind": "phrase",
@@ -387,6 +918,56 @@
       "audio": {
         "word": "/deck-de/audio/phrase-my-name-is.word.02c9eabf.mp3",
         "sentence": "/deck-de/audio/phrase-my-name-is.sentence.2af5e8c8.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-whats-your-name",
+      "rank": 167,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Wie heißt du?",
+      "en": "What's your name?",
+      "hint": "informal; the everyday way: literally \"How are you called?\"",
+      "grammar": null,
+      "example": {
+        "target": "Ich heiße Tom. Wie heißt du?",
+        "en": "My name is Tom. What's your name?"
+      },
+      "regional": null,
+      "trick": "Heißt sounds like the old English word hight, which meant \"named\", as in \"a knight hight Lancelot\".",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-whats-your-name.word.4f8d6d82.mp3",
+        "sentence": "/deck-de/audio/phrase-whats-your-name.sentence.c1e957d8.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-nice-to-meet-you",
+      "rank": 417,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Freut mich!",
+      "en": "Nice to meet you!",
+      "hint": "The short two-word reply, not schön, dich kennenzulernen",
+      "grammar": null,
+      "example": {
+        "target": "Freut mich! Ich bin aus Hamburg.",
+        "en": "Nice to meet you! I'm from Hamburg."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-nice-to-meet-you.word.adde9fbf.mp3",
+        "sentence": "/deck-de/audio/phrase-nice-to-meet-you.sentence.91b85b78.mp3"
       },
       "unit": "who-i-am",
       "requires": [],
@@ -547,6 +1128,31 @@
       "why": null
     },
     {
+      "id": "phrase-how-are-you",
+      "rank": 34,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Wie geht's?",
+      "en": "How are you?",
+      "hint": "casual short form, without dir",
+      "grammar": null,
+      "example": {
+        "target": "Hallo, Anna! Wie geht's?",
+        "en": "Hi, Anna! How are you?"
+      },
+      "regional": null,
+      "trick": "Think of the old English \"How goes it?\": geht means goes, and 's is short for es, it.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-how-are-you.word.9fc38022.mp3",
+        "sentence": "/deck-de/audio/phrase-how-are-you.sentence.14532ac0.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "phrase-im-fine",
       "rank": 43,
       "kind": "phrase",
@@ -681,6 +1287,75 @@
       "why": null
     },
     {
+      "id": "phrase-im-very-tired",
+      "rank": 836,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich bin sehr müde.",
+      "en": "I'm very tired.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wie geht's? – Ich bin sehr müde.",
+        "en": "How are you? – I'm very tired."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-im-very-tired.word.f18b3a7c.mp3",
+        "sentence": "/deck-de/audio/phrase-im-very-tired.sentence.cd474f20.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [
+        "ich-i",
+        "sein-form-ich",
+        "sehr-very",
+        "muede-tired"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "haben-form-ich",
+      "rank": 5,
+      "kind": "form",
+      "pos": "verb",
+      "target": "ich habe",
+      "en": "I have",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "habe",
+          "du": "hast",
+          "er": "hat"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gehabt"
+        }
+      },
+      "example": {
+        "target": "Danke, ich habe Kaffee.",
+        "en": "Thanks, I have coffee."
+      },
+      "regional": null,
+      "trick": "Habe (HAH-buh) is just English have with a b in place of the v.",
+      "image": "/deck-de/img/haben-have.webp",
+      "audio": {
+        "word": "/deck-de/audio/haben-form-ich.word.524a5540.mp3",
+        "sentence": "/deck-de/audio/haben-form-ich.sentence.7a6b97dd.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "ich-i"
+      ],
+      "tip": "tip-verb-endings",
+      "why": null
+    },
+    {
       "id": "haben-form-du",
       "rank": 5,
       "kind": "form",
@@ -784,6 +1459,123 @@
       "why": null
     },
     {
+      "id": "moechten-form-ich",
+      "rank": 104,
+      "kind": "form",
+      "pos": "verb",
+      "target": "ich möchte",
+      "en": "I would like",
+      "hint": "polite wish, the modal verb möchten, not hätte gern",
+      "grammar": {
+        "present": {
+          "ich": "möchte",
+          "du": "möchtest",
+          "er": "möchte"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gemocht"
+        }
+      },
+      "example": {
+        "target": "Ich möchte einen Kaffee.",
+        "en": "I'd like a coffee."
+      },
+      "regional": null,
+      "trick": null,
+      "image": "/deck-de/img/moegen-would-like.webp",
+      "audio": {
+        "word": "/deck-de/audio/moechten-form-ich.word.aad1da5e.mp3",
+        "sentence": "/deck-de/audio/moechten-form-ich.sentence.b52ec12a.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "ich-i"
+      ],
+      "tip": "tip-verb-endings",
+      "why": null
+    },
+    {
+      "id": "moechten-form-du",
+      "rank": 104,
+      "kind": "form",
+      "pos": "verb",
+      "target": "du möchtest",
+      "en": "you would like",
+      "hint": "polite wish, informal",
+      "grammar": {
+        "present": {
+          "ich": "möchte",
+          "du": "möchtest",
+          "er": "möchte"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gemocht"
+        }
+      },
+      "example": {
+        "target": "Möchtest du einen Kaffee?",
+        "en": "Would you like a coffee?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": "/deck-de/img/moegen-would-like.webp",
+      "audio": {
+        "word": "/deck-de/audio/moechten-form-du.word.d3e2a923.mp3",
+        "sentence": "/deck-de/audio/moechten-form-du.sentence.b83e3e58.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "du-you"
+      ],
+      "tip": "tip-verb-endings",
+      "why": null
+    },
+    {
+      "id": "moechten-form-er",
+      "rank": 104,
+      "kind": "form",
+      "pos": "verb",
+      "target": "er möchte",
+      "en": "he / she would like",
+      "hint": "polite wish",
+      "grammar": {
+        "present": {
+          "ich": "möchte",
+          "du": "möchtest",
+          "er": "möchte"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gewollt"
+        }
+      },
+      "example": {
+        "target": "Er möchte einen Kaffee, bitte.",
+        "en": "He'd like a coffee, please."
+      },
+      "regional": null,
+      "trick": null,
+      "image": "/deck-de/img/moegen-would-like.webp",
+      "audio": {
+        "word": "/deck-de/audio/moechten-form-er.word.bee9e2b1.mp3",
+        "sentence": "/deck-de/audio/moechten-form-er.sentence.03184103.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "er-he"
+      ],
+      "tip": "tip-verb-endings",
+      "why": null
+    },
+    {
       "id": "haus-house",
       "rank": 129,
       "kind": "content",
@@ -842,6 +1634,119 @@
       "why": null
     },
     {
+      "id": "kaffee-coffee",
+      "rank": 583,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Kaffee",
+      "en": "coffee",
+      "hint": null,
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": "die Kaffees"
+      },
+      "example": {
+        "target": "Möchtest du einen Kaffee?",
+        "en": "Would you like a coffee?"
+      },
+      "regional": null,
+      "trick": "KAFFEE sounds like \"café\", the place where you go to drink coffee.",
+      "image": "/deck-de/img/kaffee-coffee.webp",
+      "audio": {
+        "word": "/deck-de/audio/kaffee-coffee.word.7d37dcd8.mp3",
+        "sentence": "/deck-de/audio/kaffee-coffee.sentence.b83e3e58.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [],
+      "tip": "tip-der-die-das",
+      "why": null
+    },
+    {
+      "id": "phrase-he-has-a-house",
+      "rank": 129,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Er hat ein Haus.",
+      "en": "He has a house.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Er hat ein Haus mit Garten.",
+        "en": "He has a house with a garden."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-he-has-a-house.word.44200f99.mp3",
+        "sentence": "/deck-de/audio/phrase-he-has-a-house.sentence.9cba1a99.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "haben-form-er",
+        "ein-a",
+        "haus-house"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-id-like-a-water",
+      "rank": 402,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich möchte ein Wasser, bitte.",
+      "en": "I'd like a water, please.",
+      "hint": "use möchte",
+      "grammar": null,
+      "example": {
+        "target": "Hallo! Ich möchte ein Wasser, bitte.",
+        "en": "Hello! I'd like a water, please."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-id-like-a-water.word.006367d4.mp3",
+        "sentence": "/deck-de/audio/phrase-id-like-a-water.sentence.1d1e569c.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "moechten-form-ich",
+        "ein-a",
+        "wasser-water",
+        "bitte-please"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "der-the",
+      "rank": 1,
+      "kind": "glue",
+      "pos": "determiner",
+      "target": "der",
+      "en": "[The] man is tired.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Der Kaffee ist kalt.",
+        "en": "The coffee is cold."
+      },
+      "regional": null,
+      "trick": "DER sounds like \"dare\": I dare the man to drink the coffee.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/der-the.word.59fb7a9c.mp3",
+        "sentence": "/deck-de/audio/der-the.sentence.ca5eb9d1.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": "tip-der-die-das",
+      "why": null
+    },
+    {
       "id": "mein-my",
       "rank": 18,
       "kind": "glue",
@@ -864,6 +1769,93 @@
       "unit": "my-people",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "mann-man",
+      "rank": 82,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Mann",
+      "en": "man",
+      "hint": "an adult male, not person",
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": "die Männer"
+      },
+      "example": {
+        "target": "Der Mann ist aus Hamburg.",
+        "en": "The man is from Hamburg."
+      },
+      "regional": null,
+      "trick": "MANN sounds just like the English word man, and that is exactly what it means.",
+      "image": "/deck-de/img/mann-man.webp",
+      "audio": {
+        "word": "/deck-de/audio/mann-man.word.b9ee1f77.mp3",
+        "sentence": "/deck-de/audio/mann-man.sentence.735f56cc.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": "tip-der-die-das",
+      "why": null
+    },
+    {
+      "id": "frau-woman",
+      "rank": 114,
+      "kind": "content",
+      "pos": "noun",
+      "target": "die Frau",
+      "en": "woman",
+      "hint": null,
+      "grammar": {
+        "gender": "f",
+        "article": "die",
+        "plural": "die Frauen"
+      },
+      "example": {
+        "target": "Die Frau ist aus Berlin.",
+        "en": "The woman is from Berlin."
+      },
+      "regional": null,
+      "trick": "FRAU rhymes with wow: wow, look at that woman!",
+      "image": "/deck-de/img/frau-woman.webp",
+      "audio": {
+        "word": "/deck-de/audio/frau-woman.word.d42dab1d.mp3",
+        "sentence": "/deck-de/audio/frau-woman.sentence.fc2bd787.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": "tip-der-die-das",
+      "why": null
+    },
+    {
+      "id": "kind-child",
+      "rank": 147,
+      "kind": "content",
+      "pos": "noun",
+      "target": "das Kind",
+      "en": "child",
+      "hint": null,
+      "grammar": {
+        "gender": "n",
+        "article": "das",
+        "plural": "die Kinder"
+      },
+      "example": {
+        "target": "Das Kind ist sehr müde.",
+        "en": "The child is very tired."
+      },
+      "regional": null,
+      "trick": "KIND, said like kint, is the kinder in kindergarten, literally a garden for children.",
+      "image": "/deck-de/img/kind-child.webp",
+      "audio": {
+        "word": "/deck-de/audio/kind-child.word.e817d0e2.mp3",
+        "sentence": "/deck-de/audio/kind-child.sentence.9643ec4e.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": "tip-der-die-das",
       "why": null
     },
     {
@@ -896,6 +1888,64 @@
       "why": null
     },
     {
+      "id": "mutter-mother",
+      "rank": 175,
+      "kind": "content",
+      "pos": "noun",
+      "target": "die Mutter",
+      "en": "mother",
+      "hint": null,
+      "grammar": {
+        "gender": "f",
+        "article": "die",
+        "plural": "die Mütter"
+      },
+      "example": {
+        "target": "Meine Mutter ist aus Hamburg.",
+        "en": "My mother is from Hamburg."
+      },
+      "regional": null,
+      "trick": "MUTTER, said MUT-ter as in mutt, is close to MOTHER: picture a mother hugging her mutt.",
+      "image": "/deck-de/img/mutter-mother.webp",
+      "audio": {
+        "word": "/deck-de/audio/mutter-mother.word.99a0af00.mp3",
+        "sentence": "/deck-de/audio/mutter-mother.sentence.a1ebb351.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "bruder-brother",
+      "rank": 267,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Bruder",
+      "en": "brother",
+      "hint": null,
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": "die Brüder"
+      },
+      "example": {
+        "target": "Mein Bruder ist aus Hamburg.",
+        "en": "My brother is from Hamburg."
+      },
+      "regional": null,
+      "trick": "BRUDER sounds like brooder, and your brother broods over everything at the family dinner.",
+      "image": "/deck-de/img/bruder-brother.webp",
+      "audio": {
+        "word": "/deck-de/audio/bruder-brother.word.b5c56937.mp3",
+        "sentence": "/deck-de/audio/bruder-brother.sentence.5de7b659.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": "tip-der-die-das",
+      "why": null
+    },
+    {
       "id": "schwester-sister",
       "rank": 343,
       "kind": "content",
@@ -921,6 +1971,65 @@
       },
       "unit": "my-people",
       "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-this-is-my-mother",
+      "rank": 175,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Das ist meine Mutter.",
+      "en": "This is my mother.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Hallo! Das ist meine Mutter, Anna.",
+        "en": "Hello! This is my mother, Anna."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-this-is-my-mother.word.f2aa9dde.mp3",
+        "sentence": "/deck-de/audio/phrase-this-is-my-mother.sentence.9e78cfcf.mp3"
+      },
+      "unit": "my-people",
+      "requires": [
+        "sein-form-er",
+        "mein-my",
+        "mutter-mother"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-my-brother-is-from",
+      "rank": 267,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Mein Bruder ist aus Hamburg.",
+      "en": "My brother is from Hamburg.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Mein Bruder ist aus Hamburg, und ich bin aus Berlin.",
+        "en": "My brother is from Hamburg, and I'm from Berlin."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-my-brother-is-from.word.5de7b659.mp3",
+        "sentence": "/deck-de/audio/phrase-my-brother-is-from.sentence.b687b9d3.mp3"
+      },
+      "unit": "my-people",
+      "requires": [
+        "mein-my",
+        "bruder-brother",
+        "sein-form-er",
+        "aus-from"
+      ],
       "tip": null,
       "why": null
     },
@@ -1057,6 +2166,341 @@
       "why": null
     },
     {
+      "id": "case-i-see-the-man",
+      "rank": 82,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "den Mann",
+      "en": "I see [the] man",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "der"
+      },
+      "example": {
+        "target": "Meine Mutter hat den Mann gern.",
+        "en": "My mother likes the man."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-see-the-man.word.84d5d088.mp3",
+        "sentence": "/deck-de/audio/case-i-see-the-man.sentence.b5ed3e71.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "mann-man"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-i-have-a-house",
+      "rank": 129,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "ein Haus",
+      "en": "I have [a] house",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "n",
+        "from": "ein"
+      },
+      "example": {
+        "target": "Mein Bruder hat ein Haus.",
+        "en": "My brother has a house."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-have-a-house.word.d5b4257f.mp3",
+        "sentence": "/deck-de/audio/case-i-have-a-house.sentence.e8cc8c66.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "haus-house"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-i-love-my-father",
+      "rank": 155,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "meinen Vater",
+      "en": "I love [my] father",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "mein"
+      },
+      "example": {
+        "target": "Ich habe meinen Vater sehr gern.",
+        "en": "I really like my father."
+      },
+      "regional": null,
+      "trick": "mein takes the same ending as ein: einen Bruder, meinen Vater.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-love-my-father.word.eb4c8f9a.mp3",
+        "sentence": "/deck-de/audio/case-i-love-my-father.sentence.d8033194.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "vater-father"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-i-have-a-brother",
+      "rank": 267,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "einen Bruder",
+      "en": "I have [a] brother",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "ein"
+      },
+      "example": {
+        "target": "Ich habe einen Bruder und eine Schwester.",
+        "en": "I have a brother and a sister."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-have-a-brother.word.f778639e.mp3",
+        "sentence": "/deck-de/audio/case-i-have-a-brother.sentence.20990090.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "bruder-brother"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-i-have-a-sister",
+      "rank": 343,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "eine Schwester",
+      "en": "I have [a] sister",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "f",
+        "from": "eine"
+      },
+      "example": {
+        "target": "Ich habe eine Schwester und einen Bruder.",
+        "en": "I have a sister and a brother."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-have-a-sister.word.a862183a.mp3",
+        "sentence": "/deck-de/audio/case-i-have-a-sister.sentence.92383f17.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "schwester-sister"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-im-drinking-the-water",
+      "rank": 402,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "das Wasser",
+      "en": "I'm drinking [the] water",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "n",
+        "from": "das"
+      },
+      "example": {
+        "target": "Trinkst du das Wasser nicht?",
+        "en": "Aren't you drinking the water?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-im-drinking-the-water.word.ca555e17.mp3",
+        "sentence": "/deck-de/audio/case-im-drinking-the-water.sentence.b33eba90.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "wasser-water"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-a-coffee-please",
+      "rank": 583,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "einen Kaffee",
+      "en": "[a] coffee, please",
+      "hint": "the object of an unspoken ich möchte (I'd like)",
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "ein"
+      },
+      "example": {
+        "target": "Ich möchte einen Kaffee, bitte.",
+        "en": "I'd like a coffee, please."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-a-coffee-please.word.bcb8f5e5.mp3",
+        "sentence": "/deck-de/audio/case-a-coffee-please.sentence.e1d4b315.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "kaffee-coffee"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-im-drinking-the-tea",
+      "rank": 997,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "den Tee",
+      "en": "I'm drinking [the] tea",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "der"
+      },
+      "example": {
+        "target": "Ich trinke den Tee, nicht den Kaffee.",
+        "en": "I'm drinking the tea, not the coffee."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-im-drinking-the-tea.word.909e13d9.mp3",
+        "sentence": "/deck-de/audio/case-im-drinking-the-tea.sentence.0b6511c8.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "tee-tea"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "phrase-i-have-a-brother",
+      "rank": 343,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich habe einen Bruder und eine Schwester.",
+      "en": "I have a brother and a sister.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich habe einen Bruder und eine Schwester. Und du?",
+        "en": "I have a brother and a sister. And you?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-i-have-a-brother.word.20990090.mp3",
+        "sentence": "/deck-de/audio/phrase-i-have-a-brother.sentence.1228aefa.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "ich-i",
+        "haben-form-ich",
+        "case-i-have-a-brother",
+        "und-and",
+        "case-i-have-a-sister"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-a-coffee-and-a",
+      "rank": 801,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Einen Kaffee und ein Bier, bitte.",
+      "en": "A coffee and a beer, please.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Hallo! Ich möchte einen Kaffee und ein Bier, bitte.",
+        "en": "Hello! I'd like a coffee and a beer, please."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-a-coffee-and-a.word.a866d960.mp3",
+        "sentence": "/deck-de/audio/phrase-a-coffee-and-a.sentence.650b3528.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [
+        "case-a-coffee-please",
+        "ein-a",
+        "und-and",
+        "bier-beer",
+        "bitte-please"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "was-what",
+      "rank": 12,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "was",
+      "en": "[What] are you doing?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Was machst du heute Abend?",
+        "en": "What are you doing tonight?"
+      },
+      "regional": null,
+      "trick": "WAS sounds like \"vass\", close to \"what's\": what's that? Was ist das?",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/was-what.word.2ac623be.mp3",
+        "sentence": "/deck-de/audio/was-what.sentence.079a4b00.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": null
+    },
+    {
       "id": "wie-how",
       "rank": 23,
       "kind": "glue",
@@ -1079,6 +2523,106 @@
       "unit": "asking-questions",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "wo-where",
+      "rank": 79,
+      "kind": "glue",
+      "pos": "adverb",
+      "target": "wo",
+      "en": "[Where] are you?",
+      "hint": "a place, not a direction",
+      "grammar": null,
+      "example": {
+        "target": "Wo ist mein Handy?",
+        "en": "Where is my phone?"
+      },
+      "regional": null,
+      "trick": "WO sounds like \"voh\", as in \"voilà\": you say it while pointing at where something is.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/wo-where.word.ea769b8e.mp3",
+        "sentence": "/deck-de/audio/wo-where.sentence.bbdbac77.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": "Use wo for where something is; woher for where someone comes from."
+    },
+    {
+      "id": "warum-why",
+      "rank": 90,
+      "kind": "glue",
+      "pos": "adverb",
+      "target": "warum",
+      "en": "[why] are you laughing?",
+      "hint": "the standard word, not wieso",
+      "grammar": null,
+      "example": {
+        "target": "Warum bist du müde?",
+        "en": "Why are you tired?"
+      },
+      "regional": null,
+      "trick": "WARUM sounds like vah-ROOM: why does that car keep going vah-room outside my window?",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/warum-why.word.3bb28527.mp3",
+        "sentence": "/deck-de/audio/warum-why.sentence.37fb8e58.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": null
+    },
+    {
+      "id": "wer-who",
+      "rank": 102,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "wer",
+      "en": "[who] is that?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wer trinkt mein Bier?",
+        "en": "Who's drinking my beer?"
+      },
+      "regional": null,
+      "trick": "WER, said like vair, sounds close to where, but it asks who; the German for where is wo.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/wer-who.word.05339b29.mp3",
+        "sentence": "/deck-de/audio/wer-who.sentence.59b83b30.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
+      "why": "Wer asks who, even though it sounds like where; for where, use wo."
+    },
+    {
+      "id": "wann-when",
+      "rank": 283,
+      "kind": "glue",
+      "pos": "adverb",
+      "target": "wann",
+      "en": "[when] are you coming home?",
+      "hint": "asking a question",
+      "grammar": null,
+      "example": {
+        "target": "Wann möchtest du essen?",
+        "en": "When do you want to eat?"
+      },
+      "regional": null,
+      "trick": "WANN sounds like \"van\": when does the van come?",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/wann-when.word.56a9eb57.mp3",
+        "sentence": "/deck-de/audio/wann-when.sentence.0e33ad3e.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": "tip-questions",
       "why": null
     },
     {
@@ -1107,6 +2651,34 @@
       "why": "Use woher to ask where someone or something comes from; wo asks where something is."
     },
     {
+      "id": "phrase-what-is-that",
+      "rank": 12,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Was ist das?",
+      "en": "What is that?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Was ist das? – Das ist Tee.",
+        "en": "What is that? – That's tea."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-what-is-that.word.5c3f4ee8.mp3",
+        "sentence": "/deck-de/audio/phrase-what-is-that.sentence.14ddfb6d.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [
+        "was-what",
+        "sein-form-er"
+      ],
+      "tip": "tip-questions",
+      "why": null
+    },
+    {
       "id": "phrase-pardon-i-didnt-catch",
       "rank": 86,
       "kind": "phrase",
@@ -1129,6 +2701,35 @@
       "unit": "asking-questions",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-who-is-he",
+      "rank": 102,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Wer ist er?",
+      "en": "Who is he?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wer ist er? – Das ist mein Bruder.",
+        "en": "Who is he? – That's my brother."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-who-is-he.word.8699b83f.mp3",
+        "sentence": "/deck-de/audio/phrase-who-is-he.sentence.f2234dd5.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [
+        "wer-who",
+        "sein-form-er",
+        "er-he"
+      ],
+      "tip": "tip-questions",
       "why": null
     },
     {
@@ -1249,6 +2850,31 @@
       "why": null
     },
     {
+      "id": "kein-no",
+      "rank": 41,
+      "kind": "glue",
+      "pos": "determiner",
+      "target": "kein",
+      "en": "I have [no] car",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Mein Vater trinkt keinen Kaffee.",
+        "en": "My father doesn't drink coffee."
+      },
+      "regional": null,
+      "trick": "KEIN sounds like \"kine\", rhyming with nein, the German no: kein means no or not a.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/kein-no.word.4407064d.mp3",
+        "sentence": "/deck-de/audio/kein-no.sentence.37e621f2.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": "tip-nicht-kein",
+      "why": "Use kein before a noun that would take ein or no article; use nicht to say not anywhere else."
+    },
+    {
       "id": "verstehen-understand",
       "rank": 124,
       "kind": "content",
@@ -1323,6 +2949,149 @@
       "why": null
     },
     {
+      "id": "deutsch-german",
+      "rank": 731,
+      "kind": "content",
+      "pos": "adjective",
+      "target": "deutsch",
+      "en": "German",
+      "hint": "adjective, as in German beer; not the language or a person",
+      "grammar": null,
+      "example": {
+        "target": "Ich trinke gern deutsches Bier.",
+        "en": "I like drinking German beer."
+      },
+      "regional": null,
+      "trick": "DEUTSCH sounds like \"DOYTCH\", close to \"Dutch\": Pennsylvania Dutch settlers were really Germans.",
+      "image": "/deck-de/img/deutsch-german.webp",
+      "audio": {
+        "word": "/deck-de/audio/deutsch-german.word.c7cfa64d.mp3",
+        "sentence": "/deck-de/audio/deutsch-german.sentence.53fa6643.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "case-i-have-no-brother",
+      "rank": 267,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "keinen Bruder",
+      "en": "I have [no] brother",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "kein"
+      },
+      "example": {
+        "target": "Ich habe keinen Bruder und keine Schwester.",
+        "en": "I have no brother and no sister."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-have-no-brother.word.77189cca.mp3",
+        "sentence": "/deck-de/audio/case-i-have-no-brother.sentence.66f79e95.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "bruder-brother",
+        "kein-no"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-i-have-no-sister",
+      "rank": 343,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "keine Schwester",
+      "en": "I have [no] sister",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "f",
+        "from": "keine"
+      },
+      "example": {
+        "target": "Ich habe keine Schwester, ich habe einen Bruder.",
+        "en": "I don't have a sister, I have a brother."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-have-no-sister.word.e6167aba.mp3",
+        "sentence": "/deck-de/audio/case-i-have-no-sister.sentence.1085da0a.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "schwester-sister",
+        "kein-no"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "phrase-i-dont-understand",
+      "rank": 124,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich verstehe nicht.",
+      "en": "I don't understand.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich verstehe nicht. Sprechen Sie Englisch?",
+        "en": "I don't understand. Do you speak English?"
+      },
+      "regional": null,
+      "trick": "Verstehen has stehen, to stand, inside it, just as understand has stand.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-i-dont-understand.word.7601c86b.mp3",
+        "sentence": "/deck-de/audio/phrase-i-dont-understand.sentence.59291367.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "ich-i",
+        "verstehen-understand",
+        "nicht-not"
+      ],
+      "tip": "tip-nicht-kein",
+      "why": null
+    },
+    {
+      "id": "phrase-once-more-please",
+      "rank": 280,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Noch einmal, bitte.",
+      "en": "Once more, please.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Entschuldigung, noch einmal, bitte.",
+        "en": "Sorry, once more, please."
+      },
+      "regional": null,
+      "trick": "Einmal starts with ein, meaning one, so noch einmal is literally still one time.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-once-more-please.word.e1dcdd9b.mp3",
+        "sentence": "/deck-de/audio/phrase-once-more-please.sentence.adafdd8a.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
       "id": "phrase-how-do-you-say",
       "rank": 731,
       "kind": "phrase",
@@ -1345,6 +3114,100 @@
       "unit": "when-i-dont-understand",
       "requires": [],
       "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-i-dont-speak-german",
+      "rank": 731,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich spreche kein Deutsch.",
+      "en": "I don't speak German.",
+      "hint": "Use kein, not nicht",
+      "grammar": null,
+      "example": {
+        "target": "Ich verstehe das nicht, ich spreche kein Deutsch.",
+        "en": "I don't understand that, I don't speak German."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-i-dont-speak-german.word.04a2faf6.mp3",
+        "sentence": "/deck-de/audio/phrase-i-dont-speak-german.sentence.b0c62757.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "ich-i",
+        "sprechen-speak",
+        "kein-no",
+        "deutsch-german"
+      ],
+      "tip": "tip-nicht-kein",
+      "why": null
+    },
+    {
+      "id": "phrase-do-you-speak-english",
+      "rank": 1186,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Sprechen Sie Englisch?",
+      "en": "Do you speak English?",
+      "hint": "formal, to a stranger",
+      "grammar": null,
+      "example": {
+        "target": "Hallo, sprechen Sie Englisch? Ich spreche kein Deutsch.",
+        "en": "Hello, do you speak English? I don't speak German."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-do-you-speak-english.word.da881ff8.mp3",
+        "sentence": "/deck-de/audio/phrase-do-you-speak-english.sentence.62ae522d.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "koennen-form-ich",
+      "rank": 17,
+      "kind": "form",
+      "pos": "verb",
+      "target": "ich kann",
+      "en": "I can",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "kann",
+          "du": "kannst",
+          "er": "kann"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gekonnt"
+        }
+      },
+      "example": {
+        "target": "Ich kann gut Englisch sprechen.",
+        "en": "I can speak English well."
+      },
+      "regional": null,
+      "trick": "Kann sounds almost exactly like English can, and means the same thing.",
+      "image": "/deck-de/img/koennen-can.webp",
+      "audio": {
+        "word": "/deck-de/audio/koennen-form-ich.word.1d74a21d.mp3",
+        "sentence": "/deck-de/audio/koennen-form-ich.sentence.0d273fe1.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [
+        "ich-i"
+      ],
+      "tip": "tip-modal-end",
       "why": null
     },
     {

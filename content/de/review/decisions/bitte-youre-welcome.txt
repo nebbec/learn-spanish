@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             bitte-youre-welcome
 kind:           content
 pos:            other
 target:         bitte
 en:             you're welcome
-hint:           one-word reply to danke
+hint:           one-word reply to danke, the same word as please (not gerne)
 example.target: Danke für den Kaffee! – Bitte!
 example.en:     Thanks for the coffee! – You're welcome!
 regional.where:

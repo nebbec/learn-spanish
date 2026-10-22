@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             phrase-i-love-you
 kind:           phrase
 pos:            phrase
 target:         Ich liebe dich.
 en:             I love you.
-hint:           informal
+hint:           informal, romantic (to your partner)
 example.target: Ich liebe dich und ich vermisse dich.
 example.en:     I love you and I miss you.
 regional.where:

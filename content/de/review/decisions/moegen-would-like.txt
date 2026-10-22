@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:                 moegen-would-like
 kind:               content
@@ -26,7 +26,7 @@ er:                 möchte
 irregular:          yes
 separable:          no
 perfekt.aux:        haben
-perfekt.participle: gemocht
+perfekt.participle: gewollt
 example.target:     Möchtest du einen Kaffee?
 example.en:         Would you like a coffee?
 regional.where:

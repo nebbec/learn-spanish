@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:                 moechten-form-ich
 kind:               form
 pos:                verb
 target:             ich möchte
 en:                 I would like
-hint:               polite wish
+hint:               polite wish, the modal verb möchten, not hätte gern
 ich:                möchte
 du:                 möchtest
 er:                 möchte

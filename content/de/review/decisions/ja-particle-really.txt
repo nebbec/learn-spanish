@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             ja-particle-really
 kind:           glue
 pos:            other
 target:         ja
 en:             That's [really] great!
-hint:           particle of surprise, not wirklich
+hint:           particle of surprise, not aber, echt or wirklich
 example.target: Du bist ja schon da!
 example.en:     Oh, you're already here!
 regional.where:

@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:                 muessen-must
 kind:               content
@@ -28,7 +28,7 @@ separable:          no
 perfekt.aux:        haben
 perfekt.participle: gemusst
 example.target:     Ich muss morgen früh arbeiten.
-example.en:         I have to work early tomorrow.
+example.en:         I have to work tomorrow morning.
 regional.where:
 regional.text:
 trick:              MUSS, as in ich muss, sounds almost like must, and that is exactly what it means.

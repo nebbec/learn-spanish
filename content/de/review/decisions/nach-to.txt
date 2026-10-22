@@ -12,7 +12,7 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             nach-to
 kind:           glue
@@ -20,7 +20,7 @@ pos:            preposition
 target:         nach
 en:             I'm flying [to] Berlin
 hint:           a city or country, also home
-example.target: Ich gehe morgen nach Hamburg.
+example.target: Ich fahre morgen nach Hamburg.
 example.en:     I'm going to Hamburg tomorrow.
 regional.where:
 regional.text:

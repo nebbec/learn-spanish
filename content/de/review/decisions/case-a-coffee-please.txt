@@ -12,14 +12,14 @@
 # Then run: npm run deck -- --lang de
 # Lines starting with # are notes and are ignored.
 
-decision: pending
+decision: approve
 
 id:             case-a-coffee-please
 kind:           case
 pos:            determiner
 target:         einen Kaffee
 en:             [a] coffee, please
-hint:
+hint:           the object of an unspoken ich möchte (I'd like)
 case:           akk
 gender:         m
 from:           ein
