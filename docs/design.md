@@ -643,6 +643,11 @@ Decided in L8 (form cards, phrase cards and tips; same files as G2):
 - **The listening page** lists tip examples with the tag "Tip example" and the tip's id, and a phrase card's word clip with the tag "Phrase". A phrase card's word clip is not a single word, so it is neither counted in the median word clip nor listed as long (`clipsToHear`); it is still listed when the transcriber flags it or it is said again.
 - **The fixture** (`lib/deck/fixture.json`) now has real clips for its two form cards, two phrase cards and the tip's two examples, made with `npm run audio -- --deck lib/deck/fixture.json --check --prune` (10 API calls, 18 KB for the two tip clips), and the ten `.wav` tones are deleted. The check flagged the four new clips with a `v` or a `b` (voy heard as "Boi", vas as "Bas", and the two tip examples likewise), which sound the same in Spanish; nobody has listened to them. The committed `content/flagged-clips.html` is still G3's page for `content/deck.json`: a `--check` run on another deck rewrites it, so it was restored after the fixture's run.
 
+Measured in S5 (the 1,000-card deck, `content/deck.json` version 9):
+
+- **2,000 card clips, 21,819.9 KB (21.3 MB)**: on average 6.2 KB for a word and 15.6 KB for a sentence, a little above G3's rate (18.1 MB) and under the 30 to 40 MB estimate. The 14 tips' 42 example clips add 536.5 KB. `public/deck/audio` is 26 MB on disk with the fixture's clips.
+- **The transcription check flagged 124 of the 2,042 clips** (mostly lone short words, as in G3), and 10 word clips are over twice the median length: 134 to hear on `content/flagged-clips.html`. 145 clips stay under -18 LUFS because of the peak ceiling.
+
 ## Offline and sync
 
 The device is the source of truth while studying. Supabase is the backup and the way a second device catches up.
@@ -992,7 +997,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
 | S4 | Frequency-phase phrase list | L17 | Cut and approve the list | Todo |
-| S5 | Text and audio to 1,000 cards | L17 | Bulk-approve flagged cards | In progress |
+| S5 | Text and audio to 1,000 cards | L17 | Bulk-approve flagged cards | Done except: 134 listed clips not yet heard |
 
 Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 and G1 can start on day one. Track L comes before F2 and H1, because it changes which cards are the first 100; F1 can run beside it. L1, L2, L14 and L15 can start at once.
 
@@ -1346,6 +1351,9 @@ After H1 is signed off. (Changed 2026-10-09 at Courtney's request: S5 grows the 
 - Do: draft the word-list ranks the deck still needs, review them, tag every new group, redraft the examples the known-words check flags and review them again; stage the reviewer's fixes into each flagged card's decision file for Courtney to approve in one step (as in L9); build at 1,000 cards, make the clips, and publish. No art: a card whose still is missing shows no character (see the note under H1), and S2 makes the stills later.
 - Done when: `content/deck.json` holds 1,000 cards passing the validator, with no card waiting and every clip made, and `public/deck/deck.json` is a copy of it.
 - Note (S5, handoff 2026-10-09): the session stopped at the Max plan's usage limit. Done: ranks 91 to 800 drafted (1,076 drafted cards; `abuelo` fails the id rule every time, like `esposo` did, and is left out); 57 starter-path examples redrafted (`tu-you-informal` still fails, accepted before); 899 of 993 word cards reviewed (169 flagged: 41 approved, 128 waiting); the reviewer's fixes staged by Claude into 61 of the waiting decision files, decision left pending, each with a "# Staged by Claude" line (two carry "# Claude suggests: reject": `disparar-shoot`, `supuesto-supposed`). Left, in order: `npm run review -- --from 1 --to 1200` (95 cards not run); `npm run tag` (490 of 1,076 tagged, 586 not; the run's prefix of every drafted card was written to the cache afresh on most calls, $33 notional for 144 calls, so it is the costly step and worth a look); `npm run deck -- --size 1000` and `npm run draft -- --examples --ids …` for the examples it lists, then review them; stage the other waiting decision files; Courtney approves; `npm run deck -- --size 1000`; `node --env-file=<a worktree with OPENAI_API_KEY>/.env.local scripts/content/make-audio.mjs --deck content/deck.json --check --prune`; copy to `public/deck/deck.json`; tests, lint, build.
+
+- Note (S5): done 2026-10-22. Courtney approved every waiting flagged card in one step (145 files, the two marked "Claude suggests: reject" included). `npm run deck` built `content/deck.json` at 1,000 cards (version 9: 890 passed review, 186 approved, 76 drafted cards past the size left for later; `tu-you-informal`'s example still fails the known-words check, accepted before; `perdon-sorry` and `contigo-with-you` dropped from their unit by its cap). `DECK_SIZE` in `build-deck.mts` is now 1000. The first 100 cards are all still in it, but from card 56 three new cards come earlier (`esposo-husband`, `esposo-wife`, `cuanto-how-much-384`). Clips: 1,646 made (1,624 API calls), none failed; 2,000 card clips and 42 tip clips, every path the deck names exists. Copied to `public/deck/deck.json`; 752 tests, lint and build pass. The art test now counts the real deck's 786 stills (36 in its first 100).
+- Note (S5): left for Courtney: open `content/flagged-clips.html` and hear the 134 listed clips (124 flagged by the transcriber, 10 long word clips), then `npm run audio -- --deck content/deck.json --redo …` for any said again. 750 stills are not made yet (S2).
 
 **S2 Content batch of 100** (run nine times, a fresh session each)
 - Do: for the next 100 cards: draft, review, resolve flagged cards, generate art and audio, review contact sheets, and publish a deck revision.
