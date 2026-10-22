@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { PAPER, backgroundGains, checkTakes, gainFilter, loopSeconds, matteFrame, probe, squareAround, visibleBox } from "./mascot.mjs";
+import { PAPER, backgroundGains, checkTakes, dropFilter, gainFilter, isDropped, loopSeconds, matteFrame, probe, squareAround, visibleBox } from "./mascot.mjs";
 
 /** A square frame of one colour with a different square in the middle. */
 function frame(size: number, edge: number[], middle: number[]) {
@@ -46,6 +46,19 @@ describe("mascot clips", () => {
     expect(() => checkTakes({ takes: [...takes, takes[0]], use: { idle: "idle-t1", celebrate: "celebrate-t1" } })).toThrow(/twice/);
     const uncut = [{ name: "idle-t1", url: "u1" }, takes[1]];
     expect(() => checkTakes({ takes: uncut, use: { idle: "idle-t1", celebrate: "celebrate-t1" } })).toThrow(/no cutout/);
+  });
+
+  it("cuts a take's dropped frames, first and last included, and checks the ranges", () => {
+    const drop = [[48, 53]];
+    expect([47, 48, 53, 54].map((n) => isDropped(n, drop))).toEqual([false, true, true, false]);
+    expect(isDropped(10)).toBe(false);
+    expect(dropFilter(drop)).toBe("select='not(between(n\\,48\\,53))',setpts=N/FRAME_RATE/TB");
+    expect(dropFilter([[2, 3], [8, 8]])).toBe("select='not(between(n\\,2\\,3)+between(n\\,8\\,8))',setpts=N/FRAME_RATE/TB");
+    expect(dropFilter()).toBe("");
+    const use = { idle: "idle-t1", celebrate: "celebrate-t1" };
+    const take = (d: unknown) => [{ name: "idle-t1", url: "u1", cutout: { url: "c1" } }, { name: "celebrate-t1", url: "u2", cutout: { url: "c2" }, drop: d }];
+    expect(() => checkTakes({ takes: take(drop), use })).not.toThrow();
+    for (const bad of [[[53, 48]], [[0, 4]], [[48]], [[1.5, 3]]]) expect(() => checkTakes({ takes: take(bad), use })).toThrow(/drops/);
   });
 
   it("mattes a frame from its copy on cream and its cut-out on black", () => {

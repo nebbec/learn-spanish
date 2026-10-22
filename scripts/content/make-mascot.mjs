@@ -14,7 +14,7 @@
 //      Higgsfield's cut-out of it on black (`matteFrame`), crops a square around
 //      the character and writes public/mascot/<kind>.webm (VP9 with alpha, for
 //      Chrome, Firefox and Android) and <kind>.mov (HEVC with alpha, for Safari
-//      and iPhone; macOS only, by its VideoToolbox encoder), each with its first
+//      and iPhone; VideoToolbox on macOS, elsewhere the system ffmpeg's x265), each with its first
 //      frame as a transparent WebP poster (also the reduced-motion still),
 //   4. writes public/mascot/concha.webp, the still for the empty screens, from
 //      the concha's cutout (content/art/cast/concha-cutout.webp),
@@ -33,7 +33,9 @@ import {
   STILL_SIZE,
   backgroundGains,
   checkTakes,
+  dropFilter,
   gainFilter,
+  isDropped,
   loopSeconds,
   mascotPaths,
   matteFrame,
@@ -111,6 +113,38 @@ function encodeRgba(rgba, width, height, fps, crop, codec, out) {
 
 const VP9_ALPHA = ["-c:v", "libvpx-vp9", "-pix_fmt", "yuva420p", "-b:v", "0", "-crf", "42", "-row-mt", "1", "-auto-alt-ref", "0"];
 const HEVC_ALPHA = ["-c:v", "hevc_videotoolbox", "-allow_sw", "1", "-alpha_quality", "0.6", "-q:v", "45", "-pix_fmt", "bgra", "-tag:v", "hvc1", "-movflags", "+faststart"];
+// Off macOS (DE14): no ffmpeg encodes HEVC with alpha unless its x265 was built with ENABLE_ALPHA, which
+// distributions leave off. So the frames go to an x265 command-line tool built that way (its path in
+// MASCOT_X265), and FFmpeg 8 or later (the system's `ffmpeg`, as ffmpeg-static 7.0 splits the alpha layer
+// into frames of its own) wraps the stream in a .mov. Safari reads x265's alpha layer as it reads VideoToolbox's.
+const X265_ALPHA = ["--input-csp", "i420", "--alpha", "--crf", "30", "--preset", "slow", "--colorprim", "bt709", "--transfer", "bt709", "--colormatrix", "smpte170m", "--range", "limited", "--log-level", "error"];
+
+/** The HEVC loop off macOS: crop and convert with ffmpeg-static, encode with x265's alpha layer, wrap with FFmpeg 8. */
+function encodeHevcX265(rgba, width, height, fps, crop, out) {
+  const yuva = path.join(CACHE, `${path.basename(out)}.yuva`);
+  const hevc = path.join(CACHE, `${path.basename(out)}.hevc`);
+  // ffmpeg's default conversion from RGB is BT.601, limited range, which the stream says it is.
+  encodeRgba(rgba, width, height, fps, crop, ["-pix_fmt", "yuva420p", "-f", "rawvideo"], yuva);
+  const x265 = spawnSync(process.env.MASCOT_X265, ["--input", yuva, "--input-res", `${CLIP_SIZE}x${CLIP_SIZE}`, "--fps", String(fps), ...X265_ALPHA, "--output", hevc], { encoding: "utf8" });
+  if (x265.status !== 0) throw new Error(`x265 failed on ${path.basename(out)}: ${x265.stderr.trim().split("\n").slice(-3).join(" ")}`);
+  const wrap = spawnSync("ffmpeg", ["-hide_banner", "-v", "error", "-y", "-fflags", "+genpts", "-r", String(fps), "-i", hevc, "-c", "copy", "-tag:v", "hvc1", "-movflags", "+faststart", out], { encoding: "utf8" });
+  if (wrap.status !== 0) throw new Error(`ffmpeg failed to wrap ${path.basename(out)}: ${wrap.stderr.trim().split("\n").slice(-3).join(" ")}`);
+  rmSync(yuva);
+  rmSync(hevc);
+}
+
+/** Checks before any work that this machine can make the HEVC loops: macOS, or an alpha-enabled x265 and FFmpeg 8. */
+function checkHevc() {
+  if (process.platform === "darwin") return;
+  const help = process.env.MASCOT_X265 ? spawnSync(process.env.MASCOT_X265, ["--help"], { encoding: "utf8" }) : null;
+  const version = spawnSync("ffmpeg", ["-hide_banner", "-version"], { encoding: "utf8" });
+  const major = Number(/ffmpeg version n?(\d+)/.exec(version.stdout ?? "")?.[1] ?? 0);
+  if (!help || !/--alpha/.test(`${help.stdout}${help.stderr}`) || major < 8) {
+    console.error("The HEVC loops (Safari, iPhone) need macOS, or off it MASCOT_X265 naming an x265 built with -DENABLE_ALPHA=ON and FFmpeg 8 or later as `ffmpeg`; see docs/german.md, \"Decided in DE14\".");
+    process.exit(2);
+  }
+}
+checkHevc();
 
 /** The transparent loop of a take in use, in both formats, with its poster. */
 async function transparent(take, kind) {
@@ -119,8 +153,9 @@ async function transparent(take, kind) {
   await download(take.cutout.url, cut);
   const { duration, fps, width, height } = probe(spawnSync(ffmpegPath, ["-hide_banner", "-i", raw], { encoding: "utf8" }).stderr);
   const count = Math.round(loopSeconds(duration, fps) * fps);
-  const cream = frames(raw, width, height, count);
-  const black = frames(cut, width, height, count);
+  const kept = (_, n) => !isDropped(n, take.drop);
+  const cream = frames(raw, width, height, count).filter(kept);
+  const black = frames(cut, width, height, count).filter(kept);
   if (cream.length !== black.length) throw new Error(`${take.name}: ${cream.length} frames but its cut-out has ${black.length}`);
   const rgba = cream.map((frame, i) => matteFrame(frame, black[i], width, height));
   const boxes = rgba.map((frame) => visibleBox(frame, width, height)).filter(Boolean);
@@ -133,7 +168,8 @@ async function transparent(take, kind) {
   const crop = squareAround(box, width, height);
   const { webm, hevc: mov, poster: posterFile } = paths[kind];
   encodeRgba(rgba, width, height, fps, crop, VP9_ALPHA, webm);
-  encodeRgba(rgba, width, height, fps, crop, HEVC_ALPHA, mov);
+  if (process.platform === "darwin") encodeRgba(rgba, width, height, fps, crop, HEVC_ALPHA, mov);
+  else encodeHevcX265(rgba, width, height, fps, crop, mov);
   await sharp(rgba[0], { raw: { width, height, channels: 4 } })
     .extract({ left: crop.x, top: crop.y, width: crop.side, height: crop.side })
     .resize(CLIP_SIZE, CLIP_SIZE, { kernel: "lanczos3" })
@@ -149,10 +185,13 @@ async function encode(take) {
   const { duration, fps } = probe(banner);
   const gains = backgroundGains(firstFrame(raw, CLIP_SIZE), CLIP_SIZE);
   const out = path.join(TAKES, `${take.name}.mp4`);
+  // With frames cut, the clip ends by frame count: the loop's frames less the dropped ones.
+  const count = Math.round(loopSeconds(duration, fps) * fps);
+  const kept = Array.from({ length: count }, (_, n) => n).filter((n) => !isDropped(n, take.drop)).length;
   ffmpeg([
     "-i", raw,
-    "-t", loopSeconds(duration, fps).toFixed(3),
-    "-vf", `${gainFilter(gains)},scale=${CLIP_SIZE}:${CLIP_SIZE}:flags=lanczos`,
+    ...(take.drop?.length ? ["-frames:v", String(kept)] : ["-t", loopSeconds(duration, fps).toFixed(3)]),
+    "-vf", [dropFilter(take.drop), gainFilter(gains), `scale=${CLIP_SIZE}:${CLIP_SIZE}:flags=lanczos`].filter(Boolean).join(","),
     "-an",
     "-c:v", "libx264", "-profile:v", "main", "-pix_fmt", "yuv420p", "-crf", "27", "-preset", "slow",
     "-movflags", "+faststart",

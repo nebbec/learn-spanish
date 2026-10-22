@@ -1,6 +1,6 @@
 # German cast: design pack from F4
 
-A cast for a German version of the app, in the same clay style as `../style.md`. No German app, deck or pipeline exists yet, and no script reads this folder; it is here so a German project can start from it. Decided in F4, recorded in `docs/design.md` under "Art", "Decided in F4". The rounds that led here and their prompts are in `../style-test/prompts.md` (from "Brezel candidates").
+A cast for the German version of the app (docs/german.md), in the same clay style as `../style.md`. It began as a design pack before the German app existed; since DE10 the Brezel is the German lead, and her cutout is in `../cast/brezel-cutout.webp`, where the scripts look for a lead's cutout. Decided in F4, recorded in `docs/design.md` under "Art", "Decided in F4". The rounds that led here and their prompts are in `../style-test/prompts.md` (from "Brezel candidates").
 
 ## The cast
 
@@ -33,4 +33,4 @@ Each has a model sheet and a front view in `cast/` (`<name>-sheet.webp`, `<name>
 - **The gummy bear is translucent**, and the background removal has only been tried on opaque clay. Render and cut one sheet of her first.
 - **The Maß's side view lost his handle**, and the bratwurst's sad panel is close to his neutral one.
 - **The Maß is a beer.** Fine for adult learners, but he would act out trinken and appear on any shared marketing.
-- **The hero mascot loops** (idle and celebration) and the icons are not made; F3 and U2's recipe applies, starting from a cut-out of the Brezel's front view.
+- **The hero mascot loops** (idle and celebration) and the icons were made in DE14 from her cutout (`content/de/art/mascot/takes.json`, `public/mascot-de/`).
