@@ -300,6 +300,13 @@ Decided in DE11 (test in `scripts/voice-test.mjs` with its page `scripts/voice-t
 - **Not transcribed back.** G1 checked its clips with `gpt-4o-transcribe`; DE11 was allowed text-to-speech only, and the pipeline's `--check` transcribes every German clip with `language: de` in DE15 anyway.
 - **Cost**: 96 clips (24 items, 4 voices), about 3 minutes of speech and 3.1 MB, a few cents of OpenAI text-to-speech.
 
+Decided in DE15 (no code changed; `npm run audio -- --lang de --check`):
+
+- **Run on the deck that exists, again on the 100.** The German deck is still DE12's 48 cards (no tips yet, as none is approved), so DE15 made its 96 clips now. Clip paths hash the text, voice and take, so the run on the 100-card deck makes only the new cards' and tips' clips and keeps these.
+- **Voice `sage`** with DE11's instruction, from `lang/de.ts`.
+- **Sizes**: 96 clips, 1,170 KB (word clips 8.2 KB on average, sentences 16.2 KB); at that rate 1,000 cards would be 23.8 MB. 17 clips sit short of -18 LUFS because of the peak ceiling, as some Spanish ones do.
+- **Check**: the transcriber flagged 22 of 96 (18 word clips, 4 sentences), and the page adds one long word clip (`haus-house.word`), so `content/de/flagged-clips.html` lists 23. Most word flags are lone short words the transcriber hears as another language (ich, sie, du, es, wir, ja, wie, sehr), as with Spanish; `verstehen`, `trinken`, `aus`, `müde` and `woher` are the ones worth a careful listen. No take was redone before Courtney hears them.
+
 ## Deployment
 
 - **A second Vercel project**, `learn-german`, from the same repo and branch, with `NEXT_PUBLIC_LANG=de` and the same Supabase public keys. The production address joins Supabase's redirect list.
@@ -347,7 +354,7 @@ Same rules as design.md, "Rules for every ticket", and the same [ticket loop](ti
 | DE12 | German first 100 | DE7, DE8, DE9, DE17 | Flagged cards, tips, `path.md` | Done except: Courtney decides the 43 waiting cards in `content/de/review/decisions/`, sets `status: approve` on the 14 tips in `content/de/tips/`, reads `content/de/path.md`, then `npm run deck -- --lang de` and `cp content/de/deck.json public/deck-de/deck.json` |
 | DE13 | Art for the German first 100 | DE10, DE12 | Contact-sheet review | Todo |
 | DE14 | German hero loops and icons | DE10, DE1 | Pick takes | Todo |
-| DE15 | Audio for the German first 100 | DE11, DE12 | Listen to flagged clips | Todo |
+| DE15 | Audio for the German first 100 | DE11, DE12 | Listen to flagged clips | Done except: Courtney hears the 23 clips on `content/de/flagged-clips.html` (redo any said wrong with the command the page gives), and after the 100-card deck is copied to `public/deck-de/deck.json` (DE12's steps), `npm run audio -- --lang de --check` makes and checks the rest |
 | DE16 | Deploy and acceptance | all above | Phone, study from zero | Todo |
 | DE17 | German word list: words the dictionary makes with affixes | DE6 | Skim the new words | Done except: Courtney skims the 35 words that joined (listed in "Decided in DE17") in `content/de/word-list.tsv` |
 
@@ -430,6 +437,7 @@ DE1 and DE10 can start at once. DE2, DE3 and DE5 run beside each other after DE1
 **DE15 Audio for the German first 100**
 - Do: `npm run audio -- --lang de --check` for the cards and tips. Courtney hears the flagged clips.
 - Done when: every clip exists, the flagged ones are heard, and sizes are recorded here.
+- Note (DE15): built as in "Decided in DE15" under [Audio](#audio). Run on 2026-10-22: `npm run audio -- --lang de --check` made all 96 clips of the 48-card deck in `public/deck-de/audio/` (96 API calls, none failed), every deck path names a clip on disk, and a rerun made nothing. `npm test` (54 files, 890 tests), `npm run lint`, `npm run build` and `NEXT_PUBLIC_LANG=de npm run build` pass, and `npm run deck` reports the Spanish deck version 8 unchanged. Left for Courtney: open `content/de/flagged-clips.html` from disk, hear the 23 clips and run the redo command it gives for any said wrong; after DE12's approvals and the copy of the 100-card deck, run `npm run audio -- --lang de --check` again for the remaining cards and the tips, and hear what it flags.
 
 **DE16 Deploy and acceptance**
 - Do: the `learn-german` Vercel project, the redirect URL and the template wording, then the [first slice](#first-slice) checks on the phone.
