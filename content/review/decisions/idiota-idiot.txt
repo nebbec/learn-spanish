@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: could not apply the reviewer's m/f gender (the deck allows only m or f), so kept gender m, article el, and put el idiota / la idiota in the trick instead.
-decision: pending
+decision: approve
 
 id:         idiota-idiot
 kind:       content

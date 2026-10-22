@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix: es casarse, en to get married, hint removed, present strip made reflexive, trick starts with CASARSE; id left as is.
-decision: pending
+decision: approve
 
 id:         casar-marry
 kind:       content

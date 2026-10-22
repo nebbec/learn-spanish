@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to example.es and example.en; rewrote trick myself (sound link only, no false meaning), as the reviewer's 'how TALL a day' trick was awkward.
-decision: pending
+decision: approve
 
 id:         tal-how-greeting
 kind:       glue

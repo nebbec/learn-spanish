@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example with common words (escribir, nombre) in place of the redraft; also added the hint from the reviewer's note to rule out fila.
-decision: pending
+decision: approve
 
 id:         linea-line
 kind:       content

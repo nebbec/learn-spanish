@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's en (office), shortened the hint; rewrote the example by hand with common words (gobierno, importante unmet).
-decision: pending
+decision: approve
 
 id:         cargo-position
 kind:       content

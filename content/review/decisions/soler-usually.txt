@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to en, and from the reviewer's note a present-tense example (comer for desayunar, a rare word) and a trick without 'used to'.
-decision: pending
+decision: approve
 
 id:         soler-usually
 kind:       content

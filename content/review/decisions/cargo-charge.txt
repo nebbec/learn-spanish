@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: fixed hint; shorter than the reviewer's 'a legal count against someone...', ruling out acusación by name.
-decision: pending
+decision: approve
 
 id:         cargo-charge
 kind:       content

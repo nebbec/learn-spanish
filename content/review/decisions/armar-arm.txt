@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: replaced the example so armar is conjugated; used 'Ellos armaron a sus hombres' instead of the reviewer's 'El gobierno armó a los rebeldes' to avoid the rarer words gobierno and rebeldes.
-decision: pending
+decision: approve
 
 id:         armar-arm
 kind:       content

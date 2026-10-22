@@ -15,7 +15,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's es (encargarse) and reflexive present forms; changed en to 'to be in charge of', the hint and the example because ocupar-take-care (ocuparse) already has 'to take care of' and the same example; trick updated to encargarse.
-decision: pending
+decision: approve
 
 id:         encargar-handle
 kind:       content

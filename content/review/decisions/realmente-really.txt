@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: fixed hint, but left out the reviewer's 'built on the Spanish word for real', which spells out the answer (real + mente).
-decision: pending
+decision: approve
 
 id:         realmente-really
 kind:       content

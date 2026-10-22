@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: the card format allows only m or f, so gender stays m (el testigo); changed the example so it no longer contradicts it (la única testigo). Courtney may want la testigo mentioned elsewhere.
-decision: pending
+decision: approve
 
 id:         testigo-witness
 kind:       content

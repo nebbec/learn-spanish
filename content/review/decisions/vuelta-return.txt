@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (dropped 'lap or spin', which is the vuelta-turn card).
-decision: pending
+decision: approve
 
 id:         vuelta-return
 kind:       content

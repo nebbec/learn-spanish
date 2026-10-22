@@ -12,7 +12,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: rewrote the example with limpiar conjugated as the reviewer asked, but avoiding sábados (a rare word).
-decision: pending
+decision: approve
 
 id:         limpiar-clean
 kind:       content

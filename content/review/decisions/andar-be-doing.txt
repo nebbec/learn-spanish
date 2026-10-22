@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fixes to hint (shortened) and example.
-decision: pending
+decision: approve
 
 id:         andar-be-doing
 kind:       content

@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's example (se ríe), and, per the reviewer's note, made the card reírse (es, present forms, trick) so the grammar matches the example and everyday speech, like ocuparse.
-decision: pending
+decision: approve
 
 id:         reir-laugh
 kind:       content

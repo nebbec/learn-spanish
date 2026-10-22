@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: conjugated example as the reviewer asked, but with 'los problemas' so it can't be read as driving (yo manejo esto could).
-decision: pending
+decision: approve
 
 id:         manejar-handle
 kind:       content

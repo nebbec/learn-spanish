@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: replaced the example so guardar is conjugated; used 'Guardo mis cosas en mi cuarto' instead of the reviewer's sentence to avoid the rarer word cajón.
-decision: pending
+decision: approve
 
 id:         guardar-keep
 kind:       content

@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: rewrote the example with ir a + infinitive as the reviewer asked, but with llegar tarde instead of llover (llover is a rare word).
-decision: pending
+decision: approve
 
 id:         probablemente-probably
 kind:       content

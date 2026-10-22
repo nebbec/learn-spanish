@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: replaced the farewell example; not the reviewer's sentence because it nearly repeats the prompt.
-decision: pending
+decision: approve
 
 id:         hasta-until
 kind:       glue

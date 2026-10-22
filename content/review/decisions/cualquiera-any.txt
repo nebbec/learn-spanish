@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to en and hint; example differs from the suggestion because elegir is not met yet.
-decision: pending
+decision: approve
 
 id:         cualquiera-any
 kind:       glue

@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to pos. Example rewritten by Claude with words met before it in the starter path.
-decision: pending
+decision: approve
 
 id:         cuanto-how-much-384
 kind:       glue

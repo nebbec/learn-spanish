@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint; redrafted the example by hand with words met before this card.
-decision: pending
+decision: approve
 
 id:         incluso-even
 kind:       content

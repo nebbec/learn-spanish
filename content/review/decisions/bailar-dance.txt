@@ -12,7 +12,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
-decision: pending
+decision: approve
 
 id:         bailar-dance
 kind:       content

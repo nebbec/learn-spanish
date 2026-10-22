@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fixes to en and trick; added 'with that' so the English reads naturally.
-decision: pending
+decision: approve
 
 id:         ninguno-no-any
 kind:       glue

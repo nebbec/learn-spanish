@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's en; hint is only 'not tranquilizar', since 'the word that looks like English calm' gives the answer away; replaced the example (cálmate is calmarse) with a transitive calmar to match the new prompt.
-decision: pending
+decision: approve
 
 id:         calmar-calm-down
 kind:       content

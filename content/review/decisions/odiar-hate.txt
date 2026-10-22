@@ -12,7 +12,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example using only common words (cuando, hacer, eso) in place of the redraft.
-decision: pending
+decision: approve
 
 id:         odiar-hate
 kind:       content

@@ -14,7 +14,7 @@
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint; spelled the trick's pun as pair, per the reviewer's note.
 # Claude suggests: reject — only about firing guns; frequent in film subtitles but of little use to a beginner.
-decision: pending
+decision: approve
 
 id:         disparar-shoot
 kind:       content

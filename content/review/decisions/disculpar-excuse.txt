@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fixes to hint and example.es; the hint also rules out perdonar and excusar, since excusarse also means to apologize.
-decision: pending
+decision: approve
 
 id:         disculpar-excuse
 kind:       content

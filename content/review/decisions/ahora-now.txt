@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: carried over the earlier approved trick (the reviewer's fix plus the hora origin); new example kept.
-decision: pending
+decision: approve
 
 id:         ahora-now
 kind:       content

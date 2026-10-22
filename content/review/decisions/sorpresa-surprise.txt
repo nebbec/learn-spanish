@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new conjugated example; simpler and more natural than the suggested 'Fue una sorpresa verte aquí'.
-decision: pending
+decision: approve
 
 id:         sorpresa-surprise
 kind:       content

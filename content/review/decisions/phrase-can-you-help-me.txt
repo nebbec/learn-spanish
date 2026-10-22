@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to es and example.es (tú form); hint carried over as 'Informal (tú)' from the earlier approved corrections; example.en already fits.
-decision: pending
+decision: approve
 
 id:         phrase-can-you-help-me
 kind:       phrase

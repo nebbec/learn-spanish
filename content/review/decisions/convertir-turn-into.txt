@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: redrafted the example by hand; every word is met before this card.
-decision: pending
+decision: approve
 
 id:         convertir-turn-into
 kind:       content

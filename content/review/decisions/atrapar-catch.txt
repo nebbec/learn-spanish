@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: fixed hint; dropped the reviewer's 'as in a trap' (odd, and points at the answer) and also ruled out capturar, which the old hint invited.
-decision: pending
+decision: approve
 
 id:         atrapar-catch
 kind:       content

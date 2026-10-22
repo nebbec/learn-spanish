@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example using only common words (llamarse, ese) in place of the redraft.
-decision: pending
+decision: approve
 
 id:         santo-saint
 kind:       content

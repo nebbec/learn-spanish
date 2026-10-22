@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint but dropped 'as for a reunion', which spells out the cognate.
-decision: pending
+decision: approve
 
 id:         reunir-gather
 kind:       content

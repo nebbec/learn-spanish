@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: fixed hint to rule out el clima directly; the reviewer's 'the same word that also means time' points straight at the answer.
-decision: pending
+decision: approve
 
 id:         tiempo-weather
 kind:       content

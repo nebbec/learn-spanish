@@ -14,7 +14,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: replaced the usted example; not the reviewer's sentence because coches is Spain's word and carros is not met yet.
-decision: pending
+decision: approve
 
 id:         detener-stop
 kind:       content

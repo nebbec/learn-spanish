@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: replaced the example with one that conjugates ver in its seeing sense; used 'No veo nada' instead of the reviewer's 'No veo bien sin mis lentes' to avoid the rarer word lentes.
-decision: pending
+decision: approve
 
 id:         ver-see
 kind:       content

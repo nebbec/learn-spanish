@@ -40,8 +40,8 @@ import { readTips, readUnits } from "./units";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
-/** The first slice is 100 cards (E4); each content batch of 100 (S2) raises it by 100. */
-const DECK_SIZE = 100;
+/** The first slice was 100 cards (E4); S5 grew the text and audio to 1,000. */
+const DECK_SIZE = 1000;
 
 const { values } = parseArgs({
   options: {

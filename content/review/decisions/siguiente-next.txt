@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example; simpler than the suggested 'Me bajo en la siguiente parada' (bajarse and parada not met yet).
-decision: pending
+decision: approve
 
 id:         siguiente-next
 kind:       content

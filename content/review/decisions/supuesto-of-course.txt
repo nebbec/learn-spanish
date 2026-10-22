@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: fixed hint by naming the other answers to rule out; the reviewer's 'starting with por' gives away half the answer.
-decision: pending
+decision: approve
 
 id:         supuesto-of-course
 kind:       content

@@ -14,7 +14,7 @@
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 # Claude suggests: reject — the adjective 'supposed/alleged' is news register and rare for a beginner; English 'supposed' suggests 'supposed to', and por supuesto already covers the word.
-decision: pending
+decision: approve
 
 id:         supuesto-supposed
 kind:       content

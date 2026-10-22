@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: replaced the example so caer is conjugated; used this instead of the reviewer's 'El vaso se cayó al piso' because vaso and piso are not met yet.
-decision: pending
+decision: approve
 
 id:         caer-fall
 kind:       content

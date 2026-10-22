@@ -13,7 +13,7 @@
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to the example.
-decision: pending
+decision: approve
 
 id:         fin-end
 kind:       content
