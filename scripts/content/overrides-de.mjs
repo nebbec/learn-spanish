@@ -90,6 +90,49 @@ export const OVERRIDES_DE = {
   // Clipped or English forms that count towards no word.
   ma: null,
   miss: null,
+  // DE17: frequent words the dictionary has only with an affix flag (nichts from nicht/S, etwas, Entschuldigung,
+  // Freundin, Wohnung) or not at all (wenn, denn, seit, oben, während, Hochzeit), each a word of its own.
+  ...itself("wenn nichts etwas denn seit oben während bereits solange darin unbedingt böse unmöglich tschüss hey"),
+  ...itself("ordnung ahnung freundin entschuldigung wohnung krankenhaus meinung entscheidung augenblick bewegung"),
+  ...itself("hochzeit verzeihung verbindung richtung beziehung geburtstag vorsicht arschloch ins"),
+  ...fold("auge", ["auge", "augen"]),
+  // Forms of words the list has: gerne is gern, alleine allein; daß is the old spelling of dass.
+  gerne: "gern",
+  alleine: "allein",
+  anderes: "andere",
+  beiden: "beide",
+  daß: "dass",
+  scheiß: "scheiße",
+  ok: "okay",
+  // Clipped forms: wär is wäre (sein), werd is werde, ne and nen are 'ne and 'nen (eine, einen). The rarer
+  // contractions aufs, fürs and ans count towards their preposition; ins, as frequent as im, stays a word.
+  wär: "sein",
+  werd: "werden",
+  ne: "ein",
+  nen: "ein",
+  aufs: "auf",
+  fürs: "für",
+  ans: "an",
+  // Imperatives the lemma list does not know (komm, geh, sag, hör).
+  komm: "kommen",
+  mach: "machen",
+  hör: "hören",
+  sag: "sagen",
+  geh: "gehen",
+  bleib: "bleiben",
+  bring: "bringen",
+  hol: "holen",
+  glaub: "glauben",
+  setz: "setzen",
+  zeig: "zeigen",
+  denk: "denken",
+  zieh: "ziehen",
+  fahr: "fahren",
+  erzähl: "erzählen",
+  stell: "stellen",
+  leg: "legen",
+  steh: "stehen",
+  beeil: "beeilen",
 };
 
 /**
@@ -102,7 +145,8 @@ export const SPELLINGS_DE = {
   ...Object.fromEntries(
     (
       "Junge Liebe Frage Dank Zeit Freund Angst Schuld Teil Plan Licht Kraft Klasse Feind Schritt Gang Bar " +
-      "Verbrechen Weile Wand Weihnachten Vergnügen Zeuge Aussage Akte"
+      "Verbrechen Weile Wand Weihnachten Vergnügen Zeuge Aussage Akte Krankenhaus Verzeihung Arschloch Augenblick " +
+      "Vorsicht"
     )
       .split(" ")
       .map((w) => [w.toLowerCase(), w]),
@@ -114,5 +158,8 @@ export const DROP_DE = (
   "john jack sam frank michael charlie peter tom mary york david max paul alex harry ben james henry nick jim don " +
   "lee bob richard billy sarah bill charles robert anna daniel martin maria johnny thomas william roger tommy " +
   "paris london amerika " +
-  "a o m t de al dr. mr fbi i new sir lady monsieur madame"
+  "mike joe george " +
+  "a o m t de al dr. mr fbi i new sir lady monsieur madame " +
+  // DE17: English words, titles and fillers among the 1,200 most frequent forms.
+  "mr. mrs. s. dad mom daddy the you and tu captain colonel wow hm chffffff"
 ).split(" ");

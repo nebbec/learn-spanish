@@ -219,6 +219,7 @@ export function buildWordList({
   return {
     entries,
     resolved,
+    keptWords: new Set(kept.map((k) => k.word)),
     stats: {
       forms: frequencies.length,
       droppedForms,
@@ -228,4 +229,20 @@ export function buildWordList({
       rejectedLemmas: totals.size - kept.length,
     },
   };
+}
+
+/**
+ * The forms among the `top` most frequent that count towards no word and were not left out on purpose (DE17): a
+ * form dropped by an override (null) or counting towards a dropped word (a name, an English word) is on purpose;
+ * any other form whose words are all rejected is a gap, such as a word the dictionary lacks.
+ * @param {{ resolved: { form: string, to: unknown }[], keptWords: Set<string>, drop?: string[], top?: number }} options
+ * @returns {string[]}
+ */
+export function unplacedForms({ resolved, keptWords, drop = [], top = 1200 }) {
+  const dropped = new Set(drop);
+  return resolved.slice(0, top).flatMap(({ form, to }) => {
+    if (!to) return [];
+    const lemmas = Array.isArray(to) ? to : Object.keys(to);
+    return lemmas.some((l) => keptWords.has(l) || dropped.has(l)) ? [] : [form];
+  });
 }

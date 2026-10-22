@@ -8,6 +8,7 @@ import {
   parseFrequency,
   parseLemmaPairs,
   stripAccents,
+  unplacedForms,
 } from "./lemmatize.mjs";
 import { candidatesDe, lemmaSpellings, parseDicWords, spellingIn } from "./lemmatize-de.mjs";
 import { DROP_DE, OVERRIDES_DE } from "./overrides-de.mjs";
@@ -319,6 +320,28 @@ describe("German's rules (DE6)", () => {
       mich: 7,
       sie: 6,
     });
+  });
+
+  it("keeps the words the dictionary lacks or makes with an affix, and finds no form left out by mistake", () => {
+    const result = buildWordList({
+      frequencies: parseFrequency("wenn 9\nnichts 8\nkomm 7\ngerne 6\nmr. 5\nma 4\nfoo 3\nkommen 2\ngern 1"),
+      lemmaMap: parseLemmaPairs(""),
+      dic: parseDicWords("3\nkommen\nnicht/Ske\ngern/E"),
+      overrides: OVERRIDES_DE,
+      drop: DROP_DE,
+      resolve: candidatesDe,
+    });
+    expect(Object.fromEntries(result.entries.map((e: { word: string; count: number }) => [e.word, e.count]))).toEqual({
+      wenn: 9,
+      kommen: 9,
+      nichts: 8,
+      gern: 7,
+    });
+    // mr. is dropped by name and ma by a null override, on purpose; foo is a gap.
+    expect(unplacedForms({ resolved: result.resolved, keptWords: result.keptWords, drop: DROP_DE })).toEqual(["foo"]);
+    expect(unplacedForms({ resolved: result.resolved, keptWords: result.keptWords, drop: DROP_DE, top: 6 })).toEqual(
+      [],
+    );
   });
 });
 

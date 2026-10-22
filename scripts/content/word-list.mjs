@@ -16,7 +16,14 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { candidatesDe, lemmaSpellings, parseDicWords, spellingIn } from "./lemmatize-de.mjs";
-import { buildWordList, candidates, parseDicStems, parseFrequency, parseLemmaPairs } from "./lemmatize.mjs";
+import {
+  buildWordList,
+  candidates,
+  parseDicStems,
+  parseFrequency,
+  parseLemmaPairs,
+  unplacedForms,
+} from "./lemmatize.mjs";
 import { DROP, OVERRIDES } from "./overrides.mjs";
 import { DROP_DE, OVERRIDES_DE, SPELLINGS_DE } from "./overrides-de.mjs";
 import { contentPaths, parseLang } from "./script-lang.ts";
@@ -77,7 +84,7 @@ const [frequencyText, lemmaText, dicText] = await Promise.all([
 ]);
 
 const dic = rules.parseDic(dicText);
-const { entries, resolved, stats } = buildWordList({
+const { entries, resolved, keptWords, stats } = buildWordList({
   frequencies: parseFrequency(frequencyText),
   lemmaMap: parseLemmaPairs(lemmaText),
   dic,
@@ -97,6 +104,11 @@ console.log(
   `forms ${stats.forms}, dropped ${stats.droppedForms}, shared ${stats.sharedForms}; ` +
     `lemmas ${stats.lemmas}, kept ${stats.keptLemmas}, rejected ${stats.rejectedLemmas}; ` +
     `written ${entries.length} to ${path.relative(ROOT, OUT)}`,
+);
+const unplaced = unplacedForms({ resolved, keptWords, drop: rules.drop, top: size });
+console.log(
+  `top ${size} forms counting towards no word (not dropped on purpose): ${unplaced.length}` +
+    (unplaced.length ? `: ${unplaced.slice(0, 40).join(" ")}` : ""),
 );
 if (explain > 0) {
   const shown = resolved.slice(0, explain).flatMap(({ form, to }) => {
