@@ -63,7 +63,7 @@ rank	word	count	forms
 57	schon	442343	schon
 58	geben	440700	gibt geben gib gab gegeben gebe gibst gebt
 59	als	440490	als
-60	mal	440260	mal male malen
+60	mal	435631	mal
 61	jetzt	435411	jetzt
 62	ihn	435147	ihn
 63	dann	429424	dann
@@ -84,35 +84,35 @@ rank	word	count	forms
 78	mehr	281301	mehr
 79	bei	277087	bei
 80	also	276548	also
-81	bitte	275454	bitte bitten
+81	bitte	261548	bitte
 82	immer	260238	immer
 83	ganz	260002	ganz ganze ganzen ganzes ganzer ganzem
-84	weg	253956	weg wegen wege weges wegs
-85	unser	251779	unsere unser unserer unseren unserem unseres unsre unsrer
-86	warum	251177	warum
-87	vor	247840	vor
-88	los	243535	los lose losen loses
-89	hören	242613	gehört hören hört höre hörst hörte hörten hörtest
-90	wieder	240508	wieder
-91	finden	233089	finden gefunden finde fand findet findest fanden fände
-92	danke	227937	danke
-93	leben	227446	leben lebt lebens lebe lebst gelebt lebte lebend
-94	glauben	226895	glaube glauben glaubst glaubt geglaubt glaubte glaubten glaubens
-95	sehr	226425	sehr
-96	ihm	217025	ihm
-97	zum	216201	zum
-98	wer	214852	wer wessen
-99	vielleicht	212216	vielleicht
-100	mögen	210969	möchte mag möchten möchtest mögen magst mochte möge
-101	euch	206931	euch
-102	brauchen	200004	brauchen brauche braucht brauchst brauch brauchte gebraucht brauchten
-103	über	196855	über
-104	okay	196683	okay
-105	nehmen	191473	nehmen nimm nehme genommen nimmt nahm nimmst nehmt
-106	wirklich	187498	wirklich wirkliche wirklichen wirklicher wirkliches
-107	nie	185925	nie
-108	einfach	180554	einfach einfacher einfache einfachen einfaches einfachste einfachsten einfachere
-109	Frau	180182	frau frauen
+84	unser	251779	unsere unser unserer unseren unserem unseres unsre unsrer
+85	warum	251177	warum
+86	vor	247840	vor
+87	los	243535	los lose losen loses
+88	hören	242613	gehört hören hört höre hörst hörte hörten hörtest
+89	wieder	240508	wieder
+90	finden	233089	finden gefunden finde fand findet findest fanden fände
+91	danke	227937	danke
+92	leben	227446	leben lebt lebens lebe lebst gelebt lebte lebend
+93	glauben	226895	glaube glauben glaubst glaubt geglaubt glaubte glaubten glaubens
+94	sehr	226425	sehr
+95	ihm	217025	ihm
+96	zum	216201	zum
+97	wer	214852	wer wessen
+98	vielleicht	212216	vielleicht
+99	mögen	210969	möchte mag möchten möchtest mögen magst mochte möge
+100	euch	206931	euch
+101	brauchen	200004	brauchen brauche braucht brauchst brauch brauchte gebraucht brauchten
+102	über	196855	über
+103	okay	196683	okay
+104	nehmen	191473	nehmen nimm nehme genommen nimmt nahm nimmst nehmt
+105	wirklich	187498	wirklich wirkliche wirklichen wirklicher wirkliches
+106	nie	185925	nie
+107	einfach	180554	einfach einfacher einfache einfachen einfaches einfachste einfachsten einfachere
+108	Frau	180182	frau frauen
+109	weg	179894	weg wege weges wegs
 110	am	170913	am
 111	Zeit	170767	zeit zeiten
 112	reden	166014	reden rede redest redet geredet redete redeten
@@ -218,989 +218,989 @@ rank	word	count	forms
 212	dafür	75302	dafür
 213	Herr	74948	herr herren
 214	Mädchen	74196	mädchen mädchens
-215	Ding	73788	dinge ding dingen dings
-216	hin	72272	hin
-217	Abend	72030	abend abende abenden
-218	meinen	71748	meinst meinte meint gemeint meinten meintest
-219	rein	71426	rein reine reiner reinen reinste reines reinem reinsten
-220	sorgen	71272	sorgen sorge sorgt gesorgt sorgst sorgte sorgten
-221	stellen	71164	stellen stelle stellt gestellt stellte stellst stellten
-222	drei	69824	drei
-223	welcher	69749	welche welcher welches welchen welchem
-224	Welt	68706	welt welten
-225	verlieren	68591	verloren verlieren verliert verlor verliere verlierst
-226	Angst	68379	angst ängste ängsten
-227	toll	68108	toll tolle toller tolles tollen tollste tollsten
-228	weit	67642	weit weitere weiteren weiteres weiterer weiten weite weitem
-229	holen	67566	holen hole holt geholt holst holte holten
-230	unter	67548	unter unteren untere untersten unterste
-231	jung	67399	jungen junge jung junger jünger junges jüngste jüngsten
-232	zusammen	66885	zusammen
-233	liegen	66833	liegt liegen lag liege liegst lagen gelegen läge
-234	echt	66785	echt echte echter echten echtes echtem
-235	arbeiten	66738	arbeiten arbeitet arbeite gearbeitet arbeitest arbeitete arbeiteten
-236	beste	66160	beste besten bestes bester bestem
-237	Hand	65986	hand hände händen
-238	fühlen	65497	fühle fühlen fühlt fühlst fühlte gefühlt fühlten fühltest
-239	schaffen	65146	schaffen geschafft schafft schaffst schaffe geschaffen schaffte schuft
-240	wahr	64318	wahr wahre wahren wahres wahrer
-241	erst	64092	erst
-242	Moment	63449	moment momente momenten moments
-243	schauen	62658	schau schauen schaut schaue schaust schaute geschaut schauten
-244	genug	62381	genug
-245	kriegen	62370	krieg kriegen kriegt kriegst gekriegt kriegte kriegten
-246	schlafen	62056	schlafen geschlafen schlaf schläft schläfst schlief schlaft schliefen
-247	scheiße	61982	scheiße
-248	Familie	61973	familie familien
-249	gegen	61438	gegen
-250	fallen	61257	gefallen fällt fallen fiel fielen fällst falle fallt
-251	sonst	60478	sonst
-252	Bruder	60433	bruder brüder bruders brüdern
-253	halt	59860	halt halte halten halts
-254	Musik	59500	musik
-255	zeigen	59269	zeigen zeigt zeige gezeigt zeigte zeigst zeigten zeigtest
-256	nächste	58781	nächste nächsten nächstes nächster
-257	wenig	58235	wenig weniger wenige wenigen wenigsten wenigste
-258	dabei	57923	dabei
-259	Sohn	57776	sohn söhne söhnen sohns
-260	erinnern	57543	erinnern erinnere erinnerst erinnert erinnerte erinnerten
-261	Schatz	56932	schatz schätze schätzen schatzes
-262	Stunde	56909	stunden stunde
-263	beide	56857	beide beides
-264	sofort	56605	sofort
-265	bevor	56210	bevor
-266	entschuldigen	56144	entschuldigen entschuldige entschuldigt entschuldigst entschuldigte
-267	einmal	55398	einmal
-268	passen	55009	pass passt passen passe passend passte paß gepasst
-269	Woche	54623	woche wochen
-270	wann	54105	wann
-271	fertig	54070	fertig fertigen fertige
-272	schlecht	53998	schlecht schlechte schlechter schlechten schlechtes schlechteste schlechtesten schlechtem
-273	Minute	53972	minuten minute
-274	allein	53720	allein
-275	beim	53673	beim
-276	einzig	53377	einzige einzigen einziger einziges einzig
-277	wichtig	53166	wichtig wichtiger wichtige wichtigste wichtiges wichtigen wichtigsten wichtigeres
-278	verschwinden	52848	verschwinden verschwunden verschwinde verschwindet verschwand verschwindest verschwanden verschwindens
-279	nennen	52758	nennen nennt genannt nenne nannte nennst nannten nanntest
-280	Hilfe	52679	hilfe
-281	gern	52147	gern
-282	schicken	51908	schicken geschickt schickt schicke schick schickte schickten schickst
-283	darüber	51711	darüber
-284	hoch	50699	hoch höher hohen hohe höchste höchsten hoher höhere
-285	nett	50506	nett netter nette nettes netten netteste nettesten
-286	verrückt	50190	verrückt verrückte verrückten verrückter verrücktes
-287	dazu	50144	dazu
-288	ziehen	50110	ziehen zieht ziehe gezogen zog ziehst zogen zogst
-289	daran	50081	daran
-290	Baby	49833	baby babys
-291	hoffen	49280	hoffe hoffen gehofft hoffte hofft hofften hoffst
-292	Dank	49155	dank
-293	lieber	49123	lieber
-294	kurz	48489	kurz kurze kurzem kurzen kurzer kürzer kurzes kürzeren
-295	Ende	48431	ende enden endes
-296	Kopf	48396	kopf köpfe köpfen kopfes
-297	egal	48287	egal
-298	Stadt	47989	stadt städte städten
-299	eigentlich	47823	eigentlich eigentliche eigentlichen
-300	verlassen	47767	verlassen verlässt verließ verlasse verlass verließen verlasst verlassenen
-301	Auto	47353	auto autos
-302	sitzen	47033	sitzen sitzt saß sitze sitz gesessen saßen säße
-303	Uhr	46935	uhr uhren
-304	schreiben	46800	schreiben geschrieben schreibt schrieb schreibe schreibst schrieben schriebst
-305	bereit	46581	bereit bereiten bereite
-306	Typ	46368	typ typen type typs
-307	Grund	46320	grund gründe gründen grunde
-308	trinken	46081	trinken getrunken trinke trinkt trinkst trank tranken tränke
-309	falsch	45716	falsch falsche falschen falsches falscher falschem
-310	Tür	45636	tür türen
-311	schlimm	45215	schlimm schlimmer schlimmste schlimmes schlimme schlimmsten schlimmeres schlimmen
-312	schwer	45151	schwer schwere schwerer schweren schweres schwerste schwersten schwerem
-313	reichen	45136	reicht reich reichen reiche gereicht reichte reichst reichten
-314	gefallen	44885	gefällt gefallen gefiel gefällst gefalle gefallenen gefielen gefiele
-315	setzen	44803	setzen setzt gesetzt setze setzte setzten
-316	Glück	44733	glück glücks glückes
-317	hi	44653	hi
-318	später	44320	später
-319	lesen	44231	lesen gelesen liest las lies lese last lest
-320	retten	43944	retten gerettet rette rettet rettete rettest retteten
-321	Wort	43675	wort worte wörter wortes wörtern
-322	lernen	43448	lernen gelernt lernt lernte lerne lernst lernten
-323	bedeuten	43279	bedeutet bedeuten bedeutete bedeutest bedeutend bedeute bedeuteten
-324	darauf	43236	darauf
-325	bald	42834	bald
-326	eins	42404	eins einsen
-327	scheinen	42370	scheint scheinen schien scheinst scheine schein schienen schiene
-328	Kerl	42244	kerl kerle kerlen kerls
-329	Idee	42051	idee ideen
-330	Waffe	41872	waffe waffen
-331	tragen	41863	tragen trägt trage trug trägst getragen trugen tragt
-332	Tod	41855	tod tode todes
-333	Schwester	41829	schwester schwestern
-334	fangen	41789	fangen gefangen fang fängt fing fängst fangt fingen
-335	Monat	41783	monate monaten monat monats
-336	bisschen	41471	bisschen
-337	voll	41375	voll voller volle vollen vollem volles vollstes
-338	ruhig	40917	ruhig ruhige ruhiger ruhigen ruhiges
-339	Polizei	40572	polizei
-340	kümmern	40265	kümmern kümmere kümmert gekümmert kümmerst kümmerte kümmerten
-341	draußen	40075	draußen
-342	einige	40059	einige einiges einigen einiger
-343	Tochter	39843	tochter töchter töchtern
-344	kaufen	39738	kaufen gekauft kauf kauft kaufte kaufst kauften
-345	Liebe	39720	liebe
-346	arm	39585	arme arm armen armer armes ärmste arms ärmsten
-347	eigen	39548	eigenen eigene eigenes eigener eigen eigenem
-348	fast	39542	fast
-349	versprechen	39427	versprochen verspreche versprechen versprich versprach versprichst verspricht versprachen
-350	runter	39290	runter
-351	anrufen	39279	angerufen anrufen anzurufen anruft anrief anrufst anriefen anriefst
-352	schlagen	39227	schlagen geschlagen schlag schlägt schlug schlägst schlagt schlugen
-353	Geschichte	39013	geschichte geschichten
-354	hinter	38865	hinter hinteren hintere
-355	vorbei	38763	vorbei
-356	Job	38647	job jobs
-357	Herz	38620	herz herzen herzens
-358	ziemlich	38595	ziemlich ziemlicher ziemliche ziemliches ziemlichen
-359	dran	38593	dran
-360	Land	38275	land landes länder lande ländern
-361	spät	38019	spät späten späte späteren spätere spätes
-362	lachen	37484	lacht lachen gelacht lachst lache lachend lachte lachten
-363	Ruhe	37452	ruhe ruhen
-364	darum	37424	darum
-365	Frage	37260	frage fragen
-366	drin	36941	drin
-367	umbringen	36727	umbringen umgebracht umzubringen umbringt umbrachte umbringe umbringst umbrachten
-368	klingen	36671	klingt klang klingen klinge klänge klingst geklungen klangen
-369	sogar	36650	sogar
-370	wagen	36497	wagen wagt wage gewagt wagst wagens wagte wagten
-371	Teufel	36495	teufel teufels teufeln
-372	je	36205	je
-373	woher	36061	woher
-374	Art	35968	art arten
-375	Schuld	35883	schuld schulden
-376	Mama	35710	mama mamas
-377	vertrauen	35654	vertrauen vertraut vertraue vertrau vertraust vertraute vertrauens
-378	überhaupt	35566	überhaupt
-379	Seite	35463	seite seiten
-380	frei	34996	frei freien freie freier freies freiem
-381	Ort	34943	ort orten orte
-382	ernst	34917	ernst ernstes ernste ernster ernsten
-383	hassen	34499	hasse hasst hassen hass gehasst hasste hassten haßt
-384	gestern	34095	gestern
-385	erwarten	33931	erwartet erwarten erwarte erwartest erwartete
-386	endlich	33924	endlich
-387	he	33922	he
-388	etwa	33845	etwa
-389	Wasser	33801	wasser wassers wassern
-390	anders	33554	anders
-391	Chance	33518	chance chancen
-392	folgen	33470	folgen folge folgt gefolgt folgte folgst folgten folgend
-393	fünf	33424	fünf
-394	heiraten	33088	heiraten geheiratet heiratet heirate heiratest heiratete heirateten
-395	glücklich	32987	glücklich glückliche glücklicher glücklichen glückliches glücklichste glücklichsten
-396	Wahrheit	32893	wahrheit wahrheiten
-397	eben	32819	eben ebene ebenen
-398	stecken	32638	steckt stecken steckst gesteckt stecke steckte steckten
-399	Spaß	32481	spaß spass späße
-400	deshalb	32451	deshalb
-401	lügen	32430	lügen lüge gelogen lügt lügst log logen
-402	Zimmer	32413	zimmer zimmern zimmers
-403	freuen	32213	freut freue freuen gefreut freust freute freuten
-404	süß	32041	süß süße süßer süßes süßen süßeste süsse süßesten
-405	Krieg	32033	krieg kriege kriegen krieges kriegs
-406	ändern	31878	ändern geändert ändert änderte ändere änderst änderten
-407	ah	31832	ah
-408	gewinnen	31654	gewonnen gewinnen gewinnt gewinn gewinnst gewann gewannen
-409	bezahlen	31577	bezahlen bezahlt bezahle bezahlst bezahlte
-410	Bett	31478	bett betten bette bettes betts
-411	vier	31390	vier
-412	niemals	31303	niemals
-413	stark	31191	stark stärker starke starken starker starkes stärkste stärksten
-414	möglich	31014	möglich mögliche möglichen möglicher möglichstes mögliches
-415	Gesicht	30722	gesicht gesichter gesichtern gesichts
-416	erklären	30501	erklären erklärt erkläre erklärte erklärst erklärten
-417	manchmal	30500	manchmal
-418	wünschen	30422	wünschte wünsche wünschen wünscht gewünscht wünschst wünschten
-419	zwischen	30326	zwischen
-420	legen	30244	legen legt gelegt lege legte legst legten legend
-421	fliegen	30234	fliegen fliegt fliege geflogen flog fliegst flogen
-422	verkaufen	29920	verkaufen verkauft verkauf verkaufte verkaufst verkauften
-423	Schule	29828	schule schulen
-424	wohnen	29788	wohnen wohnt wohne gewohnt wohnst wohnte wohnten
-425	benutzen	29667	benutzt benutzen benutze benutzte benutzten
-426	Gefühl	29620	gefühl gefühle gefühlen
-427	fest	29534	fest fester feste festen festes festem
-428	beginnen	29113	beginnen beginnt begann begonnen beginn beginne begannen beginnst
-429	verdienen	29112	verdient verdienen verdienst verdiene verdiente verdienten
-430	wiedersehen	28911	wiedersehen wiederzusehen wiedergesehen wiedersehe wiedersiehst
-431	früh	28808	früh früheren frühen frühere frühe früherer frühes früheres
-432	ehrlich	28795	ehrlich ehrliche ehrlicher ehrlichen ehrliches ehrlichste
-433	anfangen	28613	anfangen angefangen anfing anfängt anzufangen anfängst anfingen anfangt
-434	dauern	28577	dauert dauern dauernd gedauert dauerte dauer dauerten
-435	Blut	28526	blut bluten blute blutes bluts
-436	bloß	28282	bloß bloßen bloße bloßer
-437	aufhören	28275	aufhören aufgehört aufhört aufzuhören aufhörst aufhöre aufhörte aufhörten
-438	Hund	28176	hund hunde hunden
-439	funktionieren	28077	funktioniert funktionieren funktionierte funktioniere funktionierten
-440	gehören	28057	gehören gehört gehörte gehörst gehöre gehör
-441	Nachricht	28051	nachricht nachrichten
-442	Platz	27980	platz plätze plätzen platze platzes
-443	weiß	27928	weiß weißen weiße weißer weißes weisse weißem weissen
-444	geschehen	27896	geschehen geschieht geschah geschehe geschahen geschehene geschehens geschähe
-445	schließen	27885	schließen schloss geschlossen schließt schließe schlossen schliesst schloß
-446	äh	27883	äh
-447	hart	27728	hart harte harter harten härter hartes härteste härtesten
-448	Teil	27704	teil teilen teile teils
-449	Kampf	27620	kampf kämpfen kämpfe kampfes
-450	laut	27431	laut lauter lautes laute lauten
-451	Buch	27289	buch bücher büchern buches buche buchs
-452	unten	27259	unten
-453	Schiff	27198	schiff schiffe schiffes schiffen schiffs
-454	derselbe	27176	dasselbe dieselbe derselbe derselben denselben dieselben demselben desselben
-455	Film	27174	film filme filmen films filmes
-456	leicht	27021	leicht leichter leichte leichtes leichten leichtesten leichtem leichteste
-457	schießen	26916	schießen geschossen schießt schoss schieße schoß schossen schiesst
-458	oft	26820	oft
-459	langsam	26512	langsam langsamer langsame langsamen langsames
-460	dies	26436	dies
-461	dumm	26386	dumm dumme dummes dummen dummer dümmste dümmer dümmsten
-462	schreien	26359	schreit schreien schreie schrie geschrien schreist schreiend schrien
-463	Eltern	26221	eltern
-464	Nummer	26121	nummer nummern
-465	solcher	25756	solche solchen solcher solches solchem
-466	werfen	25657	werfen geworfen wirf wirft warf werfe werft wirfst
-467	führen	25599	führt geführt führte führen führst führten führe führend
-468	wen	25569	wen
-469	drauf	25564	drauf
-470	Papa	25454	papa papas
-471	aussehen	25411	aussehen aussieht aussiehst aussah ausgesehen aussehe auszusehen aussehend
-472	herum	25400	rum herum
-473	irgendwie	25378	irgendwie
-474	König	25211	könig königs könige königen
-475	kaum	25058	kaum
-476	irgendwas	24950	irgendwas
-477	nah	24914	nahe nah näher nahen naher nähere näheres näheren
-478	erfahren	24749	erfahren erfährt erfuhr erfahre erfährst erfuhren erfahrener erfahrene
-479	sondern	24687	sondern
-480	Telefon	24673	telefon telefone telefons telefonen
-481	Arzt	24652	arzt ärzte ärzten arztes
-482	öffnen	24618	öffnen geöffnet öffnet öffne öffnete öffnest öffneten
-483	Feuer	24607	feuer feuern feuers
-484	früher	24599	früher
-485	erledigen	24516	erledigt erledigen erledige erledigst erledigte erledigten
-486	wohin	24373	wohin
-487	außer	24306	außer
-488	verletzen	24118	verletzt verletzen verletzte verletzten verletze verletzend
-489	hübsch	24041	hübsch hübsche hübsches hübscher hübschen hübschere
-490	zuerst	24005	zuerst
-491	wahrscheinlich	23968	wahrscheinlich
-492	interessieren	23831	interessiert interessieren interessiere interessierst interessierte
-493	Arsch	23823	arsch
-494	Straße	23647	straße straßen strassen
-495	froh	23637	froh frohe frohes frohen froher
-496	krank	23612	krank kranken kranke kranker krankes
-497	Fehler	23593	fehler fehlern fehlers
-498	Dollar	23404	dollar dollars
-499	Dame	23381	dame damen
-500	willkommen	23375	willkommen
-501	planen	23357	plan geplant planen plant planet planst plante plane
-502	Menge	23321	menge mengen
-503	hierher	23229	hierher
-504	Büro	23116	büro büros
-505	Traum	23115	traum träume träumen traums traumes
-506	vorstellen	23071	vorstellen vorgestellt vorzustellen vorstelle vorstellt vorstellst vorstellte
-507	direkt	22993	direkt direkten direkte direkter direktem direktes
-508	klappen	22990	klappe klappt geklappt klappen klappte
-509	brechen	22950	brechen gebrochen bricht brach breche brichst brecht brich
-510	zehn	22855	zehn
-511	reisen	22817	reise reisen reis reist gereist reiste reisten
-512	Spiel	22790	spielen spiele spiel spiels
-513	singen	22697	singen singt gesungen singe sang singst sangen singend
-514	Bild	22661	bild bilder bildern bilde bildes
-515	perfekt	22570	perfekt perfekte perfekten perfektes perfekter perfektem
-516	bestimmt	22556	bestimmt bestimmten bestimmte bestimmtes bestimmter
-517	sechs	22454	sechs
-518	laden	22418	laden geladen lade lädt lud lädst ladet ladens
-519	schwarz	22376	schwarze schwarzen schwarz schwarzer schwarzes schwarzem
-520	bauen	22336	bauen gebaut bau baut baue baute bauten baust
-521	Mord	22276	mord mordes morde morden
-522	vermissen	22265	vermisst vermisse vermissen vermissten vermisste vermiss vermißt
-523	Sekunde	22199	sekunden sekunde
-524	raten	22169	rat raten rate geraten ratet riet rät rätst
-525	großartig	22106	großartig großartige großartiger großartigen großartiges großartigste großartigsten grossartige
-526	Geschäft	22076	geschäft geschäfte geschäften geschäfts
-527	cool	21946	cool coole cooler coolen cooles coolste coolsten
-528	leider	21867	leider
-529	erkennen	21853	erkennen erkannt erkenne erkennt erkennst erkannte
-530	Opfer	21847	opfer opfern opfers
-531	Plan	21792	plan pläne plans plänen plane planes
-532	wert	21786	wert werte werten wertes
-533	Foto	21751	foto fotos
-534	Million	21748	millionen million
-535	Stück	21666	stück stücke stücken stücks stückes
-536	Hölle	21656	hölle
-537	Doktor	21621	doktor doktors
-538	weinen	21564	wein weinen weint geweint weinst weinte weinend weinten
-539	tanzen	21559	tanzen tanz tanzt getanzt tanzte tanzten
-540	ansehen	21490	ansehen angesehen anzusehen ansieht ansehe ansiehst ansah ansahen
-541	trotzdem	21476	trotzdem
-542	Kumpel	21469	kumpel kumpels
-543	total	21467	total totale totaler totalen totales
-544	völlig	21368	völlig völliger völlige völligen völliges
-545	tja	21330	tja
-546	fehlen	21309	fehlt fehlen gefehlt fehlte fehlst fehlten fehle
-547	halb	21308	halb halbe halben halbes halber halbem
-548	hängen	21260	hängt hängen hing hänge hängst gehängt hingen hängte
-549	überall	21161	überall
-550	Himmel	21158	himmel himmels
-551	normal	20997	normal normale normaler normalen normales normalem
-552	behalten	20893	behalten behalte behält behältst behaltet behielt behielten
-553	stehlen	20844	gestohlen stehlen stahl stiehlt stahlen stehle stiehlst stehlt
-554	wem	20802	wem
-555	Licht	20792	licht lichter lichts lichtern lichte lichtes
-556	danach	20649	danach
-557	deswegen	20564	deswegen
-558	Zweite	20554	zweite zweiten zweiter zweites
-559	Luft	20544	luft lüften lüfte
-560	Antwort	20487	antwort antworten
-561	melden	20285	melden gemeldet melde meldet meldete meldest meldeten
-562	Party	20226	party partys
-563	tief	20122	tief tiefer tiefe tiefen tiefsten tiefes tiefstem tiefste
-564	besorgen	20059	besorgt besorgen besorge besorgte besorgst
-565	Person	20028	person personen
-566	Kaffee	19999	kaffee
-567	entscheiden	19851	entschieden entscheiden entscheidet entschied entscheidest entscheidend
-568	zerstören	19681	zerstört zerstören zerstörte zerstöre zerstörst
-569	Sinn	19560	sinn sinne sinnen
-570	Erde	19549	erde erden
-571	beweisen	19531	beweisen beweis beweist bewiesen bewies
-572	schrecklich	19451	schrecklich schreckliche schrecklichen schreckliches schrecklicher schrecklichste schrecklichsten
-573	fassen	19403	fassen fass gefasst fasse fasst fasste faß fassten
-574	zwar	19381	zwar
-575	drehen	19315	drehen dreht gedreht drehe drehte drehst drehten
-576	bewegen	19245	bewegen bewegt bewege bewegte bewegst bewegend bewogen
-577	Weh	19211	weh wehe wehen
-578	Wahl	19190	wahl wahlen
-579	Onkel	19170	onkel onkels
-580	gefährlich	19154	gefährlich gefährliche gefährlicher gefährlichen gefährliches gefährlichste gefährlichsten
-581	Witz	19149	witz witze witzen
-582	komisch	19062	komisch komische komisches komischen komischer
-583	Fuß	19048	fuß füße füßen füsse fuße füssen
-584	lustig	19008	lustig lustige lustiger lustiges lustigen lustigste
-585	übernehmen	18982	übernehmen übernehme übernimmt übernommen übernimmst übernahm übernimm übernahmen
-586	blöd	18937	blöd blöde blöden blöder blödes blödeste
-587	meist	18915	meisten meiste meist
-588	super	18808	super
-589	erreichen	18798	erreichen erreicht erreiche erreichte erreichten erreichst
-590	Befehl	18693	befehl befehle befehlen
-591	Leiche	18662	leiche leichen
-592	kosten	18559	kostet kosten gekostet kostete koste kostest kosteten
-593	Körper	18490	körper körpers körpern
-594	wunderbar	18489	wunderbar wunderbare wunderbaren wunderbarer wunderbares wunderbarste
-595	bitten	18446	gebeten bat bittet bittest baten bitten
-596	damals	18434	damals
-597	treten	18374	treten tritt getreten trete trat tretet trittst traten
-598	Ehre	18346	ehre ehren
-599	stören	18339	stören stört gestört störe störst störte störten störend
-600	Haar	18336	haare haar haaren
-601	persönlich	18317	persönlich persönliche persönlichen persönliches persönlicher persönlichem
-602	nachdem	18300	nachdem
-603	unglaublich	18285	unglaublich unglaubliche unglaublichen unglaubliches unglaublicher unglaublichste
-604	bestimmen	18239	bestimmt bestimmen bestimmte bestimme bestimmst
-605	Rest	18201	rest reste resten
-606	irgendwo	18104	irgendwo
-607	genauso	18069	genauso
-608	Zukunft	17963	zukunft
-609	zahlen	17952	zahlen zahlt zahle gezahlt zahlst zahlte zahlten
-610	Gefängnis	17902	gefängnis gefängnisse gefängnissen gefängnisses
-611	Pferd	17813	pferd pferde pferden pferdes
-612	Kraft	17774	kraft kräfte kräften
-613	erschießen	17708	erschossen erschießen erschießt erschoss erschieße
-614	drüben	17704	drüben
-615	Schlüssel	17691	schlüssel schlüsseln schlüssels
-616	acht	17567	acht achten
-617	stolz	17556	stolz stolze stolzer stolzen stolzes
-618	seltsam	17501	seltsam seltsame seltsames seltsamen seltsamer seltsamste seltsamsten
-619	Bein	17496	beine bein beinen
-620	teilen	17493	teil teilen teilt geteilt teilte teilten teilst
-621	rot	17479	rot roten rote roter rotes rotem
-622	Agent	17448	agent agenten
-623	still	17372	still stille stillen stiller stilles
-624	eher	17329	eher
-625	verraten	17298	verraten verrat verrate verrät verrätst verriet verratet verrieten
-626	Team	17283	team teams
-627	nachdenken	17209	nachgedacht nachdenken nachzudenken nachdenke nachdenkt nachdenkst nachdachte
-628	vorsichtig	17159	vorsichtig vorsichtiger
-629	hauen	17155	haut hauen haust haue gehauen haute
-630	fürchten	17148	fürchte fürchten fürchtet fürchtete fürchtest gefürchtet fürchteten
-631	Mist	17132	mist
-632	ärgern	17035	ärger ärgern ärgert geärgert ärgere ärgerst ärgerte
-633	offen	16999	offen offenen offene offener offenes offenem
-634	Klasse	16978	klasse klassen
-635	kalt	16923	kalt kalte kalten kaltes kalter kälter kaltem
-636	nötig	16799	nötig nötige nötigen nötigste nötiger
-637	wovon	16791	wovon
-638	sobald	16778	sobald
-639	Geist	16764	geist geister geistes geistern geiste
-640	nochmal	16749	nochmal
-641	Sex	16739	sex
-642	beruhigen	16697	beruhigen beruhige beruhigt beruhigend beruhigst beruhigte
-643	merken	16605	merken merkt gemerkt merke merkst merkte merkten
-644	außerdem	16556	außerdem
-645	Karte	16542	karte karten
-646	Gedanke	16482	gedanken gedanke
-647	wenigstens	16418	wenigstens
-648	Mörder	16287	mörder mörders mördern
-649	überleben	16224	überleben überlebt überlebte überlebe überlebst überlebten überlebens
-650	Boden	16201	boden böden bodens
-651	Mund	16199	mund munde münder
-652	besonders	16170	besonders
-653	Brief	16145	brief briefe briefen briefes
-654	Tier	16129	tiere tier tieren tieres
-655	angreifen	16113	angegriffen angriff angreifen anzugreifen angreift angreifst
-656	bestehen	16104	besteht bestehen bestanden bestand bestehe bestehst bestehend bestünde
-657	verstecken	16036	versteckt verstecken versteck versteckst versteckte
-658	General	16022	general generäle generals generälen
-659	absolut	16013	absolut absolute absoluter absoluten absolutes
-660	Sicherheit	16011	sicherheit sicherheiten
-661	heilig	15963	heilige heiligen heiliger heilig heiliges heiligem heiligste heiligsten
-662	interessant	15894	interessant interessante interessantes interessanter interessanten interessanteste interessantesten
-663	steigen	15883	steigen steigt stieg gestiegen steige steigst stiegen steigend
-664	Raum	15877	raum räumen räume raumes raums
-665	Boss	15863	boss
-666	Information	15825	informationen information
-667	Anwalt	15819	anwalt anwälte anwälten anwalts
-668	beschützen	15797	beschützen beschützt beschütze beschützte beschützten
-669	schwören	15791	schwöre schwören geschworen schwor schwört schwörst schworen
-670	rollen	15748	rolle rollen rollt gerollt rollte
-671	lieb	15731	liebes liebsten liebste lieb liebster liebstes
-672	irren	15705	irre irren geirrt irrst irrt irrte
-673	kämpfen	15687	kämpfen kämpft gekämpft kämpfte kämpfe kämpfst kämpften kämpfend
-674	Geheimnis	15667	geheimnis geheimnisse geheimnissen geheimnisses
-675	erwischen	15638	erwischt erwischen erwische erwischte erwischten erwischst
-676	verändern	15459	verändert verändern veränderte verändere veränderst
-677	kennenlernen	15424	kennenzulernen kennengelernt kennenlernen kennenlernte kennenlernten kennenlernt kennenlernst kennenlerne
-678	aufhalten	15377	aufhalten aufzuhalten aufgehalten aufhält aufhielt aufhalte aufhältst
-679	handeln	15335	handeln handelt handel gehandelt handelte handle handelst handele
-680	Hotel	15335	hotel hotels
-681	verlangen	15317	verlangt verlangen verlange verlangst verlangte verlangten
-682	Tisch	15298	tisch tische tischen tisches
-683	plötzlich	15289	plötzlich plötzliche plötzlichen plötzlicher plötzliches
-684	ähm	15268	ähm
-685	verbringen	15249	verbringen verbracht verbrachte verbringt verbringe verbringst
-686	Idiot	15243	idiot
-687	mitnehmen	15171	mitnehmen mitgenommen mitzunehmen mitnimmt mitnahm mitnehme mitnimmst mitnahmen
-688	Besuch	15145	besuch besuchen besuche besuchs besuches
-689	Anfang	15030	anfang anfangs anfange anfänge anfängen
-690	traurig	15022	traurig traurige traurigen trauriger trauriges traurigste
-691	feiern	15021	feiern feier gefeiert feiert feiere feierten feierst feierte
-692	Schluss	15005	schluss
-693	vorher	15005	vorher
-694	sieben	14995	sieben siebten siebte sieb
-695	Anruf	14986	anruf anrufe anrufs
-696	Punkt	14986	punkt punkte punkten
-697	Liebling	14921	liebling lieblinge lieblings
-698	wunderschön	14913	wunderschön wunderschöne wunderschönen wunderschönes wunderschöner
-699	Schmerz	14874	schmerz schmerzen schmerzes
-700	schützen	14867	schützen schütze schützt geschützt schützte schütz
-701	Geschenk	14841	geschenk geschenke geschenken
-702	Handy	14818	handy
-703	hinten	14804	hinten
-704	Beweis	14788	beweise beweis beweises
-705	tatsächlich	14777	tatsächlich tatsächliche tatsächlichen
-706	Soldat	14763	soldaten soldat
-707	verheiratet	14762	verheiratet verheiratete verheirateten verheirateter verheiratetes
-708	deutsch	14693	deutsche deutschen deutsch deutscher deutsches deutschem
-709	Meister	14671	meister meistern meisters
-710	erhalten	14616	erhalten erhielt erhält erhielten erhalte erhältst erhalt erhaltet
-711	heraus	14613	heraus
-712	dunkel	14610	dunkel dunkle dunklen dunkeln dunkler dunkles dunkelsten dunkelste
-713	rennen	14423	rennen rennt rannte gerannt rennst renne rannten rennens
-714	Seele	14419	seele seelen
-715	Nähe	14368	nähe
-716	Gefahr	14346	gefahr gefahren
-717	riechen	14331	riecht riechen rieche riechst gerochen roch rochen
-718	verlieben	14322	verliebt verlieben verliebte verliebe verliebten verliebst
-719	Präsident	14315	präsident präsidenten
-720	streiten	14311	streit streiten gestritten streitet stritten stritt streitest
-721	ständig	14299	ständig ständige ständigen ständiger ständiges
-722	beenden	14270	beenden beendet beende beendete beendest beendeten
-723	zählen	14246	zählt zählen zähle gezählt zählst zählte zählten
-724	Wette	14168	wette wetten
-725	Feind	14156	feind feinde feinden feindes
-726	jemals	14154	jemals
-727	verfolgen	14099	verfolgt verfolgen verfolge verfolgte verfolgst verfolgten
-728	Bescheid	14097	bescheid bescheiden
-729	spüren	14090	spüren spüre gespürt spürt spürte spürst spürten
-730	überlegen	14022	überlegen überlegt überlege überlegst überlegte überlegene überlegten überlegenen
-731	Regel	14020	regeln regel
-732	ha	13954	ha
-733	Bericht	13894	bericht berichten berichte berichts
-734	verhaften	13845	verhaftet verhaften verhafte verhafteten verhaftete verhaftest
-735	Finger	13842	finger fingern fingers
-736	überraschen	13813	überrascht überraschen überraschend überraschte überrasche überraschst
-737	obwohl	13796	obwohl
-738	Zug	13756	zug züge zügen zuge zuges zugs
-739	Fenster	13747	fenster fenstern
-740	küssen	13736	küssen geküsst küsst küsse küsste küssten
-741	unterwegs	13693	unterwegs
-742	Kleid	13674	kleid kleider kleidern kleide kleides
-743	wirken	13667	wirkt wirken wirkte wirkst gewirkt wirke wirkten
-744	Tasche	13623	tasche taschen
-745	dagegen	13607	dagegen
-746	zurückkommen	13583	zurückkommen zurückgekommen zurückkommt zurückkomme zurückkam zurückzukommen zurückkommst zurückkamen
-747	packen	13564	packen pack packt gepackt packe packst packte packten
-748	verzeihen	13552	verzeihen verzeiht verzieh verziehen verzeihe verzeihst
-749	bieten	13470	bieten bietet biete bot geboten boten bietest
-750	verpassen	13436	verpasst verpassen verpasse verpasste verpassten verpaßt
-751	Möglichkeit	13435	möglichkeit möglichkeiten
-752	weise	13425	weise weisen weiser
-753	behandeln	13408	behandelt behandeln behandelst behandle behandelte behandelten behandele
-754	erlauben	13301	erlaubt erlauben erlaube erlaubte erlaubst erlaubten
-755	ewig	13285	ewig ewige ewigen ewiges ewiger ewigem
-756	überprüfen	13236	überprüfen überprüft überprüfe überprüfte überprüfst überprüften
-757	atmen	13190	atmen atmet atme atmest atmete geatmet
-758	fort	13175	fort
-759	bekannt	13141	bekannt bekannten bekannte bekannter bekanntes bekanntesten bekannteste
-760	Zeug	13135	zeug zeugen zeugs
-761	Polizist	13117	polizist polizisten
-762	Partner	13116	partner partnern partners
-763	Ziel	13084	ziel ziele zielen ziels
-764	wählen	13041	wählen gewählt wählt wähle wählte wählst wählten
-765	manch	13021	manche manchen manches mancher manch manchem
-766	Chef	12939	chef chefs
-767	Ehe	12897	ehe ehen
-768	aufgeben	12881	aufgeben aufgegeben aufzugeben aufgaben aufgibt aufgibst aufgebe aufgab
-769	treiben	12800	treiben treibt getrieben treibst trieb treibe treibend
-770	überzeugen	12765	überzeugt überzeugen überzeugend überzeugte überzeuge überzeugst überzeugten
-771	Unfall	12762	unfall unfälle unfalls unfällen
-772	schwierig	12754	schwierig schwieriger schwierige schwierigen schwierigste schwieriges schwierigsten
-773	Bier	12728	bier biere
-774	zwingen	12718	gezwungen zwingen zwang zwingt zwinge zwangen zwingst zwingend
-775	annehmen	12712	annehmen angenommen anzunehmen annimmt annehme annahm annimmst annahmen
-776	gemeinsam	12682	gemeinsam gemeinsame gemeinsamen gemeinsames gemeinsamer
-777	herkommen	12674	herkommen hergekommen herkommt herzukommen herkam herkomme herkommst herkamen
-778	Schritt	12531	schritt schritte schritten
-779	Boot	12485	boot boote booten boots bootes
-780	furchtbar	12470	furchtbar furchtbare furchtbaren furchtbares furchtbarer
-781	Gesetz	12453	gesetz gesetze gesetzes gesetzen
-782	entfernen	12448	entfernt entfernen entfernte entferne entfernst
-783	greifen	12409	griff greifen greift greife gegriffen greifst
-784	Ei	12357	eier ei eiern
-785	einladen	12346	eingeladen einladen einzuladen einlädt einlade einlädst einlud einladend
-786	ermorden	12330	ermordet ermorden ermordete ermordeten
-787	wach	12280	wach
-788	jagen	12272	jagen gejagt jagt jage jagte jagst jagten
-789	wozu	12270	wozu
-790	rauchen	12267	rauchen rauch geraucht rauche raucht rauchst rauchte rauchten
-791	schnappen	12234	schnappen schnappt geschnappt schnappe schnappte schnappst schnappten
-792	Bar	12229	bar bars bares bare
-793	dienen	12218	dienen dienst dient gedient diente diene dienten
-794	Schwein	12216	schwein schweine schweinen schweins
-795	lösen	12179	lösen gelöst löst löse löste lösten
-796	hoffentlich	12163	hoffentlich
-797	beschäftigen	12159	beschäftigt beschäftigen beschäftige beschäftigte beschäftigst beschäftigten
-798	Schuh	12139	schuhe schuh schuhen
-799	zuhause	12137	zuhause
-800	Wunder	12112	wunder wundern wunders
-801	Firma	12075	firma firmen
-802	fressen	12042	fressen fresse frisst gefressen fraß friss fresst fraßen
-803	rücken	12027	rücken rückt rückte rückst rücke gerückt
-804	fremd	12000	fremden fremde fremder fremd fremdes fremdem
-805	sauber	11999	sauber saubere sauberen sauberes sauberer
-806	irgendwann	11991	irgendwann
-807	müde	11979	müde müden müder
-808	jedenfalls	11973	jedenfalls
-809	aufnehmen	11957	aufgenommen aufnehmen aufnahmen aufzunehmen aufnimmt aufnahm aufnimmst aufnehme
-810	leisten	11954	leisten geleistet leistet leiste leistest leistete leisteten
-811	rüber	11953	rüber
-812	Mitte	11927	mitten mitte
-813	nutzen	11926	nutzen nutzt nutze genutzt nutzte nutzten
-814	Gast	11895	gäste gast gästen
-815	irgendetwas	11872	irgendetwas
-816	Weile	11866	weile
-817	bisher	11864	bisher
-818	stöhnen	11822	stöhnt stöhnen stöhnend gestöhnt
-819	Ohr	11815	ohren ohr
-820	kochen	11813	kochen koch gekocht kocht kochst kochte kochend
-821	blau	11810	blau blaue blauen blaues blauer blauem
-822	besitzen	11801	besitzt besessen besitz besitzen besaß besaßen
-823	schneiden	11792	schnitt schneiden geschnitten schneide schneidet schnitte schneidest
-824	wofür	11771	wofür
-825	Kontrolle	11758	kontrolle kontrollen
-826	Kamera	11735	kamera kameras
-827	Beispiel	11699	beispiel beispiele
-828	Kontakt	11680	kontakt kontakte kontakten
-829	erwähnen	11663	erwähnt erwähnen erwähnte erwähnten erwähne erwähnst erwähntest
-830	wild	11652	wild wilde wilden wilder wildes wilderer wildesten wildeste
-831	Mark	11636	mark marke marken
-832	sauer	11557	sauer saures saure sauren saurer
-833	beobachten	11554	beobachtet beobachten beobachte beobachtete beobachtest beobachteten
-834	Volk	11548	volk volkes völker völkern volke volks
-835	landen	11529	landen gelandet landet landete landest landeten
-836	frisch	11517	frisch frische frischen frisches frischer frischem
-837	Lage	11467	lage lagen
-838	dahin	11442	dahin
-839	Vogel	11422	vogel vögel vögeln vogels
-840	besuchen	11421	besucht besuch besuchen besuchte besuchst besuchten
-841	klingeln	11387	klingelt klingeln klingel geklingelt klingelte
-842	binden	11370	band gebunden binden binde bindet banden bände bindend
-843	schenken	11320	geschenkt schenken schenke schenkt schenkte schenkst schenkten
-844	leer	11296	leer leere leeren leeres leerer leerem
-845	zumindest	11261	zumindest
-846	aufpassen	11253	aufpassen aufgepasst aufpasst aufzupassen aufpasse
-847	übel	11244	übel üble übler üblen übles übelsten übelste übels
-848	springen	11237	springen springt gesprungen sprang springe springst sprangen
-849	sowieso	11215	sowieso
-850	Gericht	11170	gericht gerichts gerichte gerichten
-851	Tante	11122	tante tanten
-852	Bulle	11116	bullen bulle
-853	Hunger	11083	hunger
-854	rund	11062	runde rund runden runder rundes
-855	kaputt	11006	kaputt kaputte kaputten kaputtes kaputter
-856	trennen	11003	getrennt trennen trennt trennten trenne trennte trennst
-857	Held	11001	held helden
-858	Hoffnung	10972	hoffnung hoffnungen
-859	Wald	10968	wald wälder wäldern waldes walde
-860	Droge	10964	drogen droge
-861	Baum	10952	baum bäume bäumen baumes
-862	Kirche	10946	kirche kirchen
-863	dick	10880	dick dicke dicken dicker dickes dicksten dickem
-864	neben	10880	neben
-865	warnen	10877	gewarnt warnen warne warnte warnt warnten warnst
-866	ergeben	10842	ergibt ergeben ergab ergebe ergebt ergib ergaben ergebener
-867	Major	10816	major majors
-868	witzig	10807	witzig witzige witziger witziges witzigen
-869	gesund	10780	gesund gesunde gesunden gesundes gesunder gesundem
-870	leise	10777	leise leiser leises leiseste leisen leisesten
-871	Majestät	10751	majestät majestäten
-872	derjenige	10723	derjenige diejenige diejenigen denjenigen demjenigen derjenigen
-873	schaden	10723	schaden schadet schäden geschadet schadest schadens
-874	vermutlich	10690	vermutlich
-875	offensichtlich	10685	offensichtlich offensichtliche offensichtlichen offensichtlicher
-876	Preis	10667	preis preise preisen preises
-877	Computer	10656	computer computern computers
-878	Patient	10605	patienten patient
-879	links	10601	links
-880	Professor	10596	professor professoren professors
-881	menschlich	10516	menschliche menschlichen menschlich menschliches menschlicher menschlichem
-882	schuldig	10489	schuldig schuldigen schuldige schuldiger
-883	erleben	10476	erlebt erleben erlebe erlebte erlebst erlebten
-884	selber	10450	selber
-885	Nase	10443	nase nasen
-886	mitbringen	10441	mitgebracht mitbringen mitzubringen mitbringt mitbringst mitbrachte mitbringe
-887	Dritte	10424	dritte dritten dritter drittes
-888	antworten	10420	antworte antworten antwortet geantwortet antwortete antwortest antworteten
-889	Show	10390	show shows
-890	wachsen	10360	wachsen wächst gewachsen wuchs wuchsen wachst wachse gewachst
-891	Glas	10359	glas gläser gläsern
-892	ausgehen	10357	ausgehen ausgegangen ausgeht auszugehen ausging ausgehe ausgehst ausgehend
-893	Güte	10288	güte
-894	diesmal	10282	diesmal
-895	schade	10280	schade
-896	entdecken	10278	entdeckt entdecken entdeckte entdeckten entdecke entdeckst
-897	Fisch	10255	fisch fische fischen
-898	ankommen	10211	angekommen ankommen ankommt ankam ankamen ankommst ankomme anzukommen
-899	Angebot	10206	angebot angeboten angebote
-900	genießen	10191	genießen genießt genossen genieße genoss
-901	Bank	10152	bank bänke
-902	lächeln	10149	lächeln lächelt lächle lächelst gelächelt lächelte lächelnd lächele
-903	nämlich	10147	nämlich
-904	trauen	10146	trauen traue traust traut getraut traute trauten
-905	zeugen	10146	zeug zeugen gezeugt zeugt zeugte
-906	Gebäude	10096	gebäude gebäudes gebäuden
-907	vorbereiten	10082	vorbereitet vorbereiten vorzubereiten vorbereite vorbereitete
-908	verbinden	10081	verbunden verbinden verbindet verband verbinde verbände
-909	wütend	10061	wütend wütender wütende wütenden wütendes
-910	nerven	10041	nerven nervt genervt nervst nerv nervte
-911	Weihnachten	10033	weihnachten
-912	Situation	10018	situation situationen
-913	verhalten	10013	verhalten verhält verhältst verhalte verhaltens verhielt verhaltet verhielten
-914	vergeben	9996	vergeben vergib vergebe vergebt vergibt vergebens vergibst vergab
-915	hinterlassen	9991	hinterlassen hinterließ hinterlässt hinterlasse hinterlasst hinterlass hinterließen
-916	unternehmen	9989	unternehmen unternommen unternehmens unternimmt unternimm unternimmst unternehme unternahm
-917	befinden	9987	befindet befinden befand befunden befinde befanden befindest
-918	Armee	9980	armee armeen
-919	Planet	9969	planeten planet
-920	erwachsen	9966	erwachsen erwachsene erwachsenen erwachsener
-921	Drink	9941	drink drinks
-922	Wand	9925	wand wände wänden
-923	Gold	9897	gold
-924	Berg	9891	berg berge bergen
-925	klug	9873	klug klüger kluge kluger kluges klügste klugen klügsten
-926	Stein	9857	stein steine steinen steins
-927	abholen	9845	abholen abgeholt abzuholen abholt abhole abholst abholte
-928	heim	9843	heim heime heimen
-929	Maschine	9831	maschine maschinen
-930	fantastisch	9821	fantastisch fantastische fantastischen fantastischer fantastisches
-931	Wunsch	9815	wunsch wünsche wünschen
-932	Schicksal	9808	schicksal schicksals schicksale
-933	Grad	9799	grad grade grades
-934	ran	9783	ran
-935	gegenüber	9781	gegenüber
-936	Lust	9773	lust
-937	Wille	9771	willen wille
-938	nervös	9769	nervös nervöser nervöse nervösen nervöses
-939	übrigens	9753	übrigens
-940	verantwortlich	9750	verantwortlich verantwortlichen verantwortliche verantwortlicher
-941	übrig	9722	übrig übrigen übrige
-942	schmecken	9704	schmeckt schmecken geschmeckt schmeckte schmeckst schmecke
-943	Gespräch	9657	gespräch gespräche gesprächen gesprächs
-944	beeilen	9652	beeilen beeilt beeile beeilst
-945	auftauchen	9631	aufgetaucht auftauchen auftaucht auftauchte aufzutauchen auftauchst auftauchten auftauche
-946	Hose	9618	hose hosen
-947	geheim	9608	geheim geheime geheimen geheimes geheimer
-948	heilen	9577	heilen heil geheilt heilt heilte heilst
-949	Vergnügen	9577	vergnügen vergnügt vergnügens
-950	Aufgabe	9478	aufgabe aufgaben
-951	Lied	9474	lied lieder liedern liedes
-952	miteinander	9474	miteinander
-953	indem	9458	indem
-954	Richter	9453	richter richters richtern
-955	weder	9435	weder
-956	Gesellschaft	9417	gesellschaft gesellschaften
-957	Hals	9409	hals hälse halse
-958	Vergangenheit	9406	vergangenheit
-959	drücken	9391	drücken drückt gedrückt drücke drückst drückte drückten
-960	danken	9387	danken dankt gedankt dankte dankst dankend
-961	Tee	9380	tee
-962	unterhalten	9376	unterhalten unterhalt unterhielten unterhalte unterhält unterhaltet unterhielt unterhältst
-963	entweder	9358	entweder
-964	abhauen	9346	abhauen abgehauen abzuhauen abhaut abhaust abhaue
-965	Verbrechen	9333	verbrechen verbrechens verbrochen
-966	Gruppe	9329	gruppe gruppen
-967	Loch	9309	loch löcher löchern lochs
-968	Mädel	9301	mädels mädel
-969	anziehen	9300	anziehen angezogen anzuziehen anzieht anziehend anziehe anziehst anzog
-970	erscheinen	9297	erscheinen erscheint erschien erschienen erscheine erscheinst
-971	grün	9291	grün grünen grüne grünes grüner grünem
-972	beten	9289	beten bete gebetet betet betete betest beteten
-973	klauen	9278	geklaut klauen klaut klaute klaust klaue klauten
-974	gucken	9262	gucken guckt guckst geguckt gucke guckte
-975	Sheriff	9233	sheriff
-976	verwenden	9233	verwenden verwendet verwandt verwandte verwende verwendete verwendeten verwendest
-977	reißen	9225	reißen reißt gerissen riss reiße risse rissen reisst
-978	Flasche	9183	flasche flaschen
-979	Küche	9163	küche küchen
-980	schwanger	9137	schwanger schwangere schwangeren
-981	Bord	9127	bord borden
-982	Blume	9120	blumen blume
-983	Erfolg	9072	erfolg erfolge erfolgen erfolges erfolgs
-984	Zeichen	9068	zeichen
-985	Adresse	9063	adresse adressen
-986	Wache	9053	wache wachen
-987	schwach	9039	schwach schwachen schwache schwächer schwaches schwacher schwächsten schwächste
-988	Gegend	9019	gegend gegenden
-989	aufstehen	9009	aufstehen aufstand aufgestanden aufzustehen aufsteht aufstehe aufstehst
-990	träumen	9008	geträumt träume träumte träumt träumen träumst träumten
-991	Test	9006	test tests
-992	entkommen	9004	entkommen entkommt entkam entkommst entkamen
-993	bestellen	8995	bestellt bestellen bestelle bestellte bestellst bestellten
-994	gelten	8993	gilt gelten galt geltend galten gelte
-995	behaupten	8992	behauptet behaupten behauptete behaupte behauptest behaupteten
-996	herausfinden	8989	herausfinden
-997	brennen	8960	brennt brennen brannte brenne gebrannt brannten brennst brennend
-998	allerdings	8953	allerdings
-999	fliehen	8942	fliehen geflohen floh flieht flohen flöhe fliehe fliehst
-1000	gefangen	8934	gefangenen gefangene gefangener gefangen
-1001	soweit	8928	soweit
-1002	verflucht	8926	verflucht verfluchte verfluchten verfluchter verfluchtes
-1003	Monster	8917	monster monstern monsters
-1004	ähnlich	8910	ähnlich ähnliches ähnliche ähnlichen ähnlicher ähnlichem
-1005	Grenze	8908	grenze grenzen
-1006	Deal	8876	deal deals dealen
-1007	Mission	8876	mission missionen
-1008	worauf	8837	worauf
-1009	Dorf	8831	dorf dörfer dorfes dörfern
-1010	lächerlich	8818	lächerlich lächerliche lächerlichen lächerlicher lächerliches lächerlichste
-1011	warm	8799	warm warme warmes warmen wärmer warmer
-1012	Hut	8794	hut hüte hüten
-1013	aufregen	8791	aufgeregt aufregend aufregen aufregt aufzuregen aufregst
-1014	Glückwunsch	8778	glückwunsch
-1015	statt	8774	statt
-1016	Interesse	8772	interesse interessen
-1017	Staat	8766	staaten staat staates staats staate
-1018	aufwachen	8764	aufwachen aufgewacht aufwacht aufwachte aufzuwachen aufwache aufwachst aufwachten
-1019	schulden	8762	schulde schuldest schuldet schulden schuldete geschuldet
-1020	klopfen	8744	klopfen klopft geklopft klopfte klopfe klopfst
-1021	graben	8734	grab graben gegraben gräbt grabt gräben grub gräbst
-1022	Messer	8726	messer messern messers
-1023	Position	8717	position positionen
-1024	System	8691	system systeme systems systemen
-1025	herein	8674	herein
-1026	Rose	8673	rose rosen
-1027	Kunde	8657	kunden kunde
-1028	ungefähr	8654	ungefähr ungefähre
-1029	befreien	8647	befreien befreit befreie befreite befreiend befreiten befreist
-1030	jawohl	8647	jawohl
-1031	parken	8645	park parken geparkt parkt parke parkte parkst
-1032	teuer	8619	teuer teure teurer teuren teuerste teures teuersten
-1033	benehmen	8618	benehmen benommen benimmst benimmt benimm benehmt benahm benehme
-1034	neun	8617	neun neunen
-1035	unterschreiben	8613	unterschreiben unterschrieben unterschreibe unterschreibt unterschrieb unterschreibst
-1036	Papier	8576	papiere papier papieren
-1037	gebären	8553	geboren gebären gebar
-1038	akzeptieren	8551	akzeptieren akzeptiert akzeptiere akzeptierst akzeptierte akzeptierten
-1039	drinnen	8545	drinnen
-1040	zuvor	8539	zuvor
-1041	begleiten	8530	begleiten begleite begleitet begleitest begleitete
-1042	richten	8525	richten richte gerichtet richtet richtete richtest richteten
-1043	entführen	8518	entführt entführen entführte entführten entführe
-1044	untersuchen	8517	untersuchen untersucht untersuche untersuchte
-1045	Hälfte	8515	hälfte hälften
-1046	decken	8514	decke decken deckt gedeckt deckst deckte
-1047	Insel	8507	insel inseln
-1048	Sergeant	8499	sergeant
-1049	fern	8487	fern ferne fernen ferner fernes
-1050	kontrollieren	8474	kontrollieren kontrolliert kontrolliere kontrollierte kontrollierst kontrollierten
-1051	hingehen	8471	hingehen hingegangen hingeht hingehst hingehe hinzugehen hinging
-1052	bestätigen	8443	bestätigt bestätigen bestätige bestätigte bestätigten
-1053	Schwierigkeit	8439	schwierigkeiten schwierigkeit
-1054	Respekt	8435	respekt respekts
-1055	enttäuschen	8410	enttäuscht enttäuschen enttäuschend enttäusche enttäuschst enttäuschte
-1056	kapieren	8410	kapiert kapierst kapieren kapiere
-1057	Stopp	8367	stopp
-1058	Wind	8364	wind winde winden windes
-1059	Schlag	8363	schlage schlag schläge schlägen
-1060	Unsinn	8340	unsinn
-1061	nähern	8322	näher nähern nähert näherte näherten genähert nähere näherst
-1062	pro	8322	pro
-1063	Prinz	8308	prinz prinzen
-1064	davor	8303	davor
-1065	fernsehen	8295	fernsehen ferngesehen fernsehens fernzusehen
-1066	ernsthaft	8280	ernsthaft ernsthafte ernsthaften ernsthaftes ernsthafter
-1067	unterscheiden	8265	unterschied unterscheiden unterscheidet unterschieden
-1068	wiederholen	8256	wiederholen wiederhole wiederholt wiederholte wiederholst wiederholten
-1069	zufällig	8254	zufällig zufällige zufälligen zufälliger zufälliges
-1070	zufrieden	8242	zufrieden zufriedener zufriedene
-1071	Zahl	8230	zahlen zahl
-1072	verbrennen	8229	verbrannt verbrennen verbrennt verbrannte verbrenne verbrennst
-1073	zweifeln	8222	zweifel zweifeln zweifle gezweifelt zweifelt zweifelst zweifelte zweifele
-1074	Prinzessin	8214	prinzessin prinzessinnen
-1075	zuhören	8173	zuhören zugehört zuzuhören zuhört zuhörst zuhöre
-1076	zurückkehren	8163	zurückkehren zurückgekehrt zurückzukehren zurückkehrt zurückkehrte zurückkehre zurückkehrst zurückkehrten
-1077	besprechen	8161	besprechen besprochen besprachen bespreche bespricht
-1078	herzlich	8145	herzlichen herzlich herzliches herzliche
-1079	verschieden	8123	verschiedene verschiedenen verschieden verschiedener verschiedenes verschiedensten
-1080	wechseln	8100	wechseln gewechselt wechsel wechselt wechsle wechselte wechselst wechselten
-1081	irgendwelche	8096	irgendwelche
-1082	Eis	8082	eis
-1083	Meer	8074	meer meeres meere meeren
-1084	spinnen	8073	spinnst spinnt spinne spinnen spannen spann spannt gesponnen
-1085	Neuigkeit	8070	neuigkeiten neuigkeit
-1086	wundervoll	8070	wundervoll wundervolle wundervollen wundervoller wundervolles wundervollste
-1087	Ring	8068	ring ringe ringen rings
-1088	Farbe	8066	farbe farben
-1089	worüber	8041	worüber
-1090	leiten	8031	leiten leitet leite geleitet leitete leitest leiteten
-1091	Tor	8024	tor tore toren
-1092	Gehirn	8002	gehirn gehirns gehirne gehirnen
-1093	reparieren	7996	reparieren repariert repariere reparierst reparierte
-1094	reiten	7990	reiten reitet reite ritt geritten reitest
-1095	nachts	7964	nachts
-1096	Meter	7939	meter metern
-1097	riesig	7915	riesige riesig riesigen riesiger riesiges
-1098	schließlich	7900	schließlich
-1099	Zahn	7892	zähne zahn zähnen
-1100	Risiko	7876	risiko risiken risikos
-1101	Auftrag	7862	auftrag aufträge auftrags aufträgen
-1102	See	7849	see seen
-1103	probieren	7843	probieren probiert probiere probierst probierte probierten
-1104	Freiheit	7832	freiheit freiheiten
-1105	Gang	7829	gang gange gänge gangs ganges gängen
-1106	existieren	7825	existiert existieren existiere existierte existierst existierten
-1107	Stern	7825	sterne stern sternen sterns
-1108	Bus	7790	bus busse bussen
-1109	starten	7788	starten startet gestartet starte startete startest starteten
-1110	erschrecken	7775	erschreckt erschrecken erschrocken erschrickt erschreckend erschreckst erschrecke erschreckte
-1111	daher	7771	daher
-1112	konzentrieren	7756	konzentrieren konzentriert konzentriere konzentrierst konzentrierte
-1113	Ecke	7750	ecke ecken
-1114	Taxi	7736	taxi taxis taxen
-1115	liefern	7734	liefern geliefert liefert liefere lieferte lieferst lieferten
-1116	fett	7723	fett fette fetten fetter fettes
-1117	Schwanz	7722	schwanz schwänze schwänzen
-1118	amerikanisch	7720	amerikanische amerikanischen amerikanischer amerikanisches amerikanisch amerikanischem
-1119	Operation	7714	operation operationen
-1120	Ball	7700	ball bälle balls bällen
-1121	einverstanden	7685	einverstanden
-1122	ruinieren	7681	ruiniert ruinieren ruinierst ruiniere ruinierte ruinierten
-1123	scharf	7666	scharf scharfe scharfen scharfes schärfer scharfer schärfste schärfsten
-1124	bemerken	7655	bemerkt bemerken bemerkte bemerke bemerkst
-1125	Fleisch	7627	fleisch fleisches
-1126	Energie	7624	energie energien
-1127	seufzen	7616	seufzt seufzen seufzend
-1128	Engel	7590	engel engeln engels
-1129	gesamt	7567	gesamte gesamten gesamtes gesamter
-1130	entlang	7566	entlang
-1131	Brücke	7556	brücke brücken
-1132	begreifen	7547	begreifen begriff begriffen begreife begreifst begreift
-1133	Club	7533	club clubs
-1134	Gelegenheit	7529	gelegenheit gelegenheiten
-1135	erfüllen	7527	erfüllt erfüllen erfülle erfüllte erfüllst
-1136	aha	7512	aha
-1137	fluchen	7507	flucht fluch fluchen geflucht
-1138	stammen	7503	stammt stammen stamm stammte stammst stammten
-1139	vernichten	7502	vernichten vernichtet vernichte vernichtete vernichtend vernichteten vernichtest
-1140	beeindrucken	7498	beeindruckt beeindruckend beeindrucken beeindruckte
-1141	umgehen	7466	umgehen umgehend umzugehen umgeht umgegangen umgehst umgehe umging
-1142	gelingen	7465	gelangen gelungen gelingt gelangt gelang gelingen
-1143	Aussage	7463	aussage aussagen
-1144	schwimmen	7448	schwimmen schwimmt schwamm geschwommen schwimme schwimmst schwammen schwämme
-1145	unterstützen	7446	unterstützen unterstützt unterstütze unterstützte unterstützten unterstützend
-1146	beißen	7441	gebissen beißen beißt biss bissen beiße bisse
-1147	Nachmittag	7441	nachmittag nachmittags nachmittage
-1148	lauten	7425	lautet lautete laute lauten lauteten
-1149	englisch	7422	englisch englischen englische englischer englisches
-1150	geliebt	7408	geliebte geliebten geliebter geliebt geliebtes
-1151	fair	7404	fair fairer fairen faire faires
-1152	spannend	7401	spannende spannend spannender spannendes spannenden
-1153	komplett	7387	komplett komplette kompletten kompletter komplettes
-1154	angehen	7383	angeht angehen anzugehen anging angegangen
-1155	worum	7357	worum
-1156	fein	7352	fein feine feiner feinen feines feinsten feinste
-1157	feuern	7346	gefeuert feuert feuern feuerte feuere feuerst feuerten
-1158	schlau	7342	schlau schlauer schlaue schlaues schlauen schlauste
-1159	Oma	7332	oma omas
-1160	Dach	7329	dach dachs dächern dächer
-1161	wahnsinnig	7314	wahnsinnig wahnsinniger wahnsinnige wahnsinnigen wahnsinniges
-1162	Thema	7313	thema themen
-1163	klären	7306	klären geklärt kläre klärt klärst
-1164	empfangen	7300	empfangen empfang empfängt empfing empfängst empfingen empfangt
-1165	riskieren	7290	riskieren riskiert riskiere riskierst riskierte riskierten
-1166	langweilig	7276	langweilig langweilige langweiligen langweiliger langweiliges langweiligste
-1167	einsam	7274	einsam einsame einsamen einsamer einsames einsamste
-1168	verhindern	7267	verhindern verhindert verhinderte verhindere
-1169	merkwürdig	7251	merkwürdig merkwürdige merkwürdiges merkwürdigen merkwürdiger
-1170	Schwert	7243	schwert schwerter schwertern schwertes
-1171	beantworten	7242	beantworten beantwortet beantworte beantwortest beantwortete
-1172	stoppen	7236	stoppen stoppt gestoppt stoppte stoppe stoppten stoppst
-1173	Quatsch	7233	quatsch
-1174	Restaurant	7219	restaurant restaurants
-1175	knien	7216	knie knien kniet kniete kniest
-1176	blind	7204	blind blinde blinden blinder blindes
-1177	verdächtigen	7204	verdächtigen verdächtige verdächtigt verdächtigte verdächtigst
-1178	beibringen	7199	beigebracht beibringen beizubringen beibrachte beibringt beibringe
-1179	Schuss	7198	schuss
-1180	zulassen	7171	zulassen zugelassen zulässt zuzulassen zulasse zuließ
-1181	verbieten	7165	verboten verbieten verbiete verbietet verbot verbietest
-1182	Versteck	7152	verstecken versteck verstecke
-1183	stechen	7145	stich stechen gestochen sticht stach steche stichst stachen
-1184	berühren	7132	berührt berühren berühre berührte berührst
-1185	französisch	7131	französisch französische französischen französischer französisches französischem
-1186	waschen	7123	waschen gewaschen wäscht wasche wäschst wusch wascht
-1187	Trick	7112	trick tricks
-1188	berühmt	7102	berühmt berühmte berühmten berühmter berühmteste berühmtesten berühmtes
-1189	Keller	7089	keller kellers kellern
-1190	betrügen	7085	betrogen betrügt betrügen betrügst betrog betrüge
-1191	studieren	7074	studiert studieren studiere studierte studierst studierten
-1192	offenbar	7061	offenbar
-1193	Blick	7060	blick blicken blicke
-1194	au	7042	au
-1195	Maul	7040	maul mäuler
-1196	angetan	7039	angetan
-1197	beeil	7037	beeil
-1198	freundlich	7029	freundlich freundliche freundlicher freundlichen freundliches
-1199	schweigen	7029	schweigen schweigt schweige geschwiegen schweigst schweigend schweigens schwieg
-1200	Flug	7023	flug flüge fluges flugs flügen
+215	wegen	74062	wegen
+216	Ding	73788	dinge ding dingen dings
+217	hin	72272	hin
+218	Abend	72030	abend abende abenden
+219	meinen	71748	meinst meinte meint gemeint meinten meintest
+220	rein	71426	rein reine reiner reinen reinste reines reinem reinsten
+221	sorgen	71272	sorgen sorge sorgt gesorgt sorgst sorgte sorgten
+222	stellen	71164	stellen stelle stellt gestellt stellte stellst stellten
+223	drei	69824	drei
+224	welcher	69749	welche welcher welches welchen welchem
+225	Welt	68706	welt welten
+226	verlieren	68591	verloren verlieren verliert verlor verliere verlierst
+227	Angst	68379	angst ängste ängsten
+228	toll	68108	toll tolle toller tolles tollen tollste tollsten
+229	weit	67642	weit weitere weiteren weiteres weiterer weiten weite weitem
+230	holen	67566	holen hole holt geholt holst holte holten
+231	unter	67548	unter unteren untere untersten unterste
+232	jung	67399	jungen junge jung junger jünger junges jüngste jüngsten
+233	zusammen	66885	zusammen
+234	liegen	66833	liegt liegen lag liege liegst lagen gelegen läge
+235	echt	66785	echt echte echter echten echtes echtem
+236	arbeiten	66738	arbeiten arbeitet arbeite gearbeitet arbeitest arbeitete arbeiteten
+237	beste	66160	beste besten bestes bester bestem
+238	Hand	65986	hand hände händen
+239	fühlen	65497	fühle fühlen fühlt fühlst fühlte gefühlt fühlten fühltest
+240	schaffen	65146	schaffen geschafft schafft schaffst schaffe geschaffen schaffte schuft
+241	wahr	64318	wahr wahre wahren wahres wahrer
+242	erst	64092	erst
+243	Moment	63449	moment momente momenten moments
+244	schauen	62658	schau schauen schaut schaue schaust schaute geschaut schauten
+245	genug	62381	genug
+246	kriegen	62370	krieg kriegen kriegt kriegst gekriegt kriegte kriegten
+247	schlafen	62056	schlafen geschlafen schlaf schläft schläfst schlief schlaft schliefen
+248	scheiße	61982	scheiße
+249	Familie	61973	familie familien
+250	gegen	61438	gegen
+251	fallen	61257	gefallen fällt fallen fiel fielen fällst falle fallt
+252	sonst	60478	sonst
+253	Bruder	60433	bruder brüder bruders brüdern
+254	halt	59860	halt halte halten halts
+255	Musik	59500	musik
+256	zeigen	59269	zeigen zeigt zeige gezeigt zeigte zeigst zeigten zeigtest
+257	nächste	58781	nächste nächsten nächstes nächster
+258	wenig	58235	wenig weniger wenige wenigen wenigsten wenigste
+259	dabei	57923	dabei
+260	Sohn	57776	sohn söhne söhnen sohns
+261	erinnern	57543	erinnern erinnere erinnerst erinnert erinnerte erinnerten
+262	Schatz	56932	schatz schätze schätzen schatzes
+263	Stunde	56909	stunden stunde
+264	beide	56857	beide beides
+265	sofort	56605	sofort
+266	bevor	56210	bevor
+267	entschuldigen	56144	entschuldigen entschuldige entschuldigt entschuldigst entschuldigte
+268	einmal	55398	einmal
+269	passen	55009	pass passt passen passe passend passte paß gepasst
+270	Woche	54623	woche wochen
+271	wann	54105	wann
+272	fertig	54070	fertig fertigen fertige
+273	schlecht	53998	schlecht schlechte schlechter schlechten schlechtes schlechteste schlechtesten schlechtem
+274	Minute	53972	minuten minute
+275	allein	53720	allein
+276	beim	53673	beim
+277	einzig	53377	einzige einzigen einziger einziges einzig
+278	wichtig	53166	wichtig wichtiger wichtige wichtigste wichtiges wichtigen wichtigsten wichtigeres
+279	verschwinden	52848	verschwinden verschwunden verschwinde verschwindet verschwand verschwindest verschwanden verschwindens
+280	nennen	52758	nennen nennt genannt nenne nannte nennst nannten nanntest
+281	Hilfe	52679	hilfe
+282	gern	52147	gern
+283	schicken	51908	schicken geschickt schickt schicke schick schickte schickten schickst
+284	darüber	51711	darüber
+285	hoch	50699	hoch höher hohen hohe höchste höchsten hoher höhere
+286	nett	50506	nett netter nette nettes netten netteste nettesten
+287	verrückt	50190	verrückt verrückte verrückten verrückter verrücktes
+288	dazu	50144	dazu
+289	ziehen	50110	ziehen zieht ziehe gezogen zog ziehst zogen zogst
+290	daran	50081	daran
+291	Baby	49833	baby babys
+292	hoffen	49280	hoffe hoffen gehofft hoffte hofft hofften hoffst
+293	Dank	49155	dank
+294	lieber	49123	lieber
+295	kurz	48489	kurz kurze kurzem kurzen kurzer kürzer kurzes kürzeren
+296	Ende	48431	ende enden endes
+297	Kopf	48396	kopf köpfe köpfen kopfes
+298	egal	48287	egal
+299	Stadt	47989	stadt städte städten
+300	eigentlich	47823	eigentlich eigentliche eigentlichen
+301	verlassen	47767	verlassen verlässt verließ verlasse verlass verließen verlasst verlassenen
+302	Auto	47353	auto autos
+303	sitzen	47033	sitzen sitzt saß sitze sitz gesessen saßen säße
+304	Uhr	46935	uhr uhren
+305	schreiben	46800	schreiben geschrieben schreibt schrieb schreibe schreibst schrieben schriebst
+306	bereit	46581	bereit bereiten bereite
+307	Typ	46368	typ typen type typs
+308	Grund	46320	grund gründe gründen grunde
+309	trinken	46081	trinken getrunken trinke trinkt trinkst trank tranken tränke
+310	falsch	45716	falsch falsche falschen falsches falscher falschem
+311	Tür	45636	tür türen
+312	schlimm	45215	schlimm schlimmer schlimmste schlimmes schlimme schlimmsten schlimmeres schlimmen
+313	schwer	45151	schwer schwere schwerer schweren schweres schwerste schwersten schwerem
+314	reichen	45136	reicht reich reichen reiche gereicht reichte reichst reichten
+315	gefallen	44885	gefällt gefallen gefiel gefällst gefalle gefallenen gefielen gefiele
+316	setzen	44803	setzen setzt gesetzt setze setzte setzten
+317	Glück	44733	glück glücks glückes
+318	hi	44653	hi
+319	später	44320	später
+320	lesen	44231	lesen gelesen liest las lies lese last lest
+321	retten	43944	retten gerettet rette rettet rettete rettest retteten
+322	Wort	43675	wort worte wörter wortes wörtern
+323	lernen	43448	lernen gelernt lernt lernte lerne lernst lernten
+324	bedeuten	43279	bedeutet bedeuten bedeutete bedeutest bedeutend bedeute bedeuteten
+325	darauf	43236	darauf
+326	bald	42834	bald
+327	eins	42404	eins einsen
+328	scheinen	42370	scheint scheinen schien scheinst scheine schein schienen schiene
+329	Kerl	42244	kerl kerle kerlen kerls
+330	Idee	42051	idee ideen
+331	Waffe	41872	waffe waffen
+332	tragen	41863	tragen trägt trage trug trägst getragen trugen tragt
+333	Tod	41855	tod tode todes
+334	Schwester	41829	schwester schwestern
+335	fangen	41789	fangen gefangen fang fängt fing fängst fangt fingen
+336	Monat	41783	monate monaten monat monats
+337	bisschen	41471	bisschen
+338	voll	41375	voll voller volle vollen vollem volles vollstes
+339	ruhig	40917	ruhig ruhige ruhiger ruhigen ruhiges
+340	Polizei	40572	polizei
+341	kümmern	40265	kümmern kümmere kümmert gekümmert kümmerst kümmerte kümmerten
+342	draußen	40075	draußen
+343	einige	40059	einige einiges einigen einiger
+344	Tochter	39843	tochter töchter töchtern
+345	kaufen	39738	kaufen gekauft kauf kauft kaufte kaufst kauften
+346	Liebe	39720	liebe
+347	arm	39585	arme arm armen armer armes ärmste arms ärmsten
+348	eigen	39548	eigenen eigene eigenes eigener eigen eigenem
+349	fast	39542	fast
+350	versprechen	39427	versprochen verspreche versprechen versprich versprach versprichst verspricht versprachen
+351	runter	39290	runter
+352	anrufen	39279	angerufen anrufen anzurufen anruft anrief anrufst anriefen anriefst
+353	schlagen	39227	schlagen geschlagen schlag schlägt schlug schlägst schlagt schlugen
+354	Geschichte	39013	geschichte geschichten
+355	hinter	38865	hinter hinteren hintere
+356	vorbei	38763	vorbei
+357	Job	38647	job jobs
+358	Herz	38620	herz herzen herzens
+359	ziemlich	38595	ziemlich ziemlicher ziemliche ziemliches ziemlichen
+360	dran	38593	dran
+361	Land	38275	land landes länder lande ländern
+362	spät	38019	spät späten späte späteren spätere spätes
+363	lachen	37484	lacht lachen gelacht lachst lache lachend lachte lachten
+364	Ruhe	37452	ruhe ruhen
+365	darum	37424	darum
+366	Frage	37260	frage fragen
+367	drin	36941	drin
+368	umbringen	36727	umbringen umgebracht umzubringen umbringt umbrachte umbringe umbringst umbrachten
+369	klingen	36671	klingt klang klingen klinge klänge klingst geklungen klangen
+370	sogar	36650	sogar
+371	wagen	36497	wagen wagt wage gewagt wagst wagens wagte wagten
+372	Teufel	36495	teufel teufels teufeln
+373	je	36205	je
+374	woher	36061	woher
+375	Art	35968	art arten
+376	Schuld	35883	schuld schulden
+377	Mama	35710	mama mamas
+378	vertrauen	35654	vertrauen vertraut vertraue vertrau vertraust vertraute vertrauens
+379	überhaupt	35566	überhaupt
+380	Seite	35463	seite seiten
+381	frei	34996	frei freien freie freier freies freiem
+382	Ort	34943	ort orten orte
+383	ernst	34917	ernst ernstes ernste ernster ernsten
+384	hassen	34499	hasse hasst hassen hass gehasst hasste hassten haßt
+385	gestern	34095	gestern
+386	erwarten	33931	erwartet erwarten erwarte erwartest erwartete
+387	endlich	33924	endlich
+388	he	33922	he
+389	etwa	33845	etwa
+390	Wasser	33801	wasser wassers wassern
+391	anders	33554	anders
+392	Chance	33518	chance chancen
+393	folgen	33470	folgen folge folgt gefolgt folgte folgst folgten folgend
+394	fünf	33424	fünf
+395	heiraten	33088	heiraten geheiratet heiratet heirate heiratest heiratete heirateten
+396	glücklich	32987	glücklich glückliche glücklicher glücklichen glückliches glücklichste glücklichsten
+397	Wahrheit	32893	wahrheit wahrheiten
+398	bitten	32879	bitten gebeten bat bittet bittest baten
+399	eben	32819	eben ebene ebenen
+400	stecken	32638	steckt stecken steckst gesteckt stecke steckte steckten
+401	Spaß	32481	spaß spass späße
+402	deshalb	32451	deshalb
+403	lügen	32430	lügen lüge gelogen lügt lügst log logen
+404	Zimmer	32413	zimmer zimmern zimmers
+405	freuen	32213	freut freue freuen gefreut freust freute freuten
+406	süß	32041	süß süße süßer süßes süßen süßeste süsse süßesten
+407	Krieg	32033	krieg kriege kriegen krieges kriegs
+408	ändern	31878	ändern geändert ändert änderte ändere änderst änderten
+409	ah	31832	ah
+410	gewinnen	31654	gewonnen gewinnen gewinnt gewinn gewinnst gewann gewannen
+411	bezahlen	31577	bezahlen bezahlt bezahle bezahlst bezahlte
+412	Bett	31478	bett betten bette bettes betts
+413	vier	31390	vier
+414	niemals	31303	niemals
+415	stark	31191	stark stärker starke starken starker starkes stärkste stärksten
+416	möglich	31014	möglich mögliche möglichen möglicher möglichstes mögliches
+417	Gesicht	30722	gesicht gesichter gesichtern gesichts
+418	erklären	30501	erklären erklärt erkläre erklärte erklärst erklärten
+419	manchmal	30500	manchmal
+420	wünschen	30422	wünschte wünsche wünschen wünscht gewünscht wünschst wünschten
+421	zwischen	30326	zwischen
+422	legen	30244	legen legt gelegt lege legte legst legten legend
+423	fliegen	30234	fliegen fliegt fliege geflogen flog fliegst flogen
+424	verkaufen	29920	verkaufen verkauft verkauf verkaufte verkaufst verkauften
+425	Schule	29828	schule schulen
+426	wohnen	29788	wohnen wohnt wohne gewohnt wohnst wohnte wohnten
+427	benutzen	29667	benutzt benutzen benutze benutzte benutzten
+428	Gefühl	29620	gefühl gefühle gefühlen
+429	fest	29534	fest fester feste festen festes festem
+430	beginnen	29113	beginnen beginnt begann begonnen beginn beginne begannen beginnst
+431	verdienen	29112	verdient verdienen verdienst verdiene verdiente verdienten
+432	wiedersehen	28911	wiedersehen wiederzusehen wiedergesehen wiedersehe wiedersiehst
+433	früh	28808	früh früheren frühen frühere frühe früherer frühes früheres
+434	ehrlich	28795	ehrlich ehrliche ehrlicher ehrlichen ehrliches ehrlichste
+435	anfangen	28613	anfangen angefangen anfing anfängt anzufangen anfängst anfingen anfangt
+436	dauern	28577	dauert dauern dauernd gedauert dauerte dauer dauerten
+437	Blut	28526	blut bluten blute blutes bluts
+438	bloß	28282	bloß bloßen bloße bloßer
+439	aufhören	28275	aufhören aufgehört aufhört aufzuhören aufhörst aufhöre aufhörte aufhörten
+440	Hund	28176	hund hunde hunden
+441	funktionieren	28077	funktioniert funktionieren funktionierte funktioniere funktionierten
+442	gehören	28057	gehören gehört gehörte gehörst gehöre gehör
+443	Nachricht	28051	nachricht nachrichten
+444	Platz	27980	platz plätze plätzen platze platzes
+445	weiß	27928	weiß weißen weiße weißer weißes weisse weißem weissen
+446	geschehen	27896	geschehen geschieht geschah geschehe geschahen geschehene geschehens geschähe
+447	schließen	27885	schließen schloss geschlossen schließt schließe schlossen schliesst schloß
+448	äh	27883	äh
+449	hart	27728	hart harte harter harten härter hartes härteste härtesten
+450	Teil	27704	teil teilen teile teils
+451	Kampf	27620	kampf kämpfen kämpfe kampfes
+452	laut	27431	laut lauter lautes laute lauten
+453	Buch	27289	buch bücher büchern buches buche buchs
+454	unten	27259	unten
+455	Schiff	27198	schiff schiffe schiffes schiffen schiffs
+456	derselbe	27176	dasselbe dieselbe derselbe derselben denselben dieselben demselben desselben
+457	Film	27174	film filme filmen films filmes
+458	leicht	27021	leicht leichter leichte leichtes leichten leichtesten leichtem leichteste
+459	schießen	26916	schießen geschossen schießt schoss schieße schoß schossen schiesst
+460	oft	26820	oft
+461	langsam	26512	langsam langsamer langsame langsamen langsames
+462	dies	26436	dies
+463	dumm	26386	dumm dumme dummes dummen dummer dümmste dümmer dümmsten
+464	schreien	26359	schreit schreien schreie schrie geschrien schreist schreiend schrien
+465	Eltern	26221	eltern
+466	Nummer	26121	nummer nummern
+467	solcher	25756	solche solchen solcher solches solchem
+468	werfen	25657	werfen geworfen wirf wirft warf werfe werft wirfst
+469	führen	25599	führt geführt führte führen führst führten führe führend
+470	wen	25569	wen
+471	drauf	25564	drauf
+472	Papa	25454	papa papas
+473	aussehen	25411	aussehen aussieht aussiehst aussah ausgesehen aussehe auszusehen aussehend
+474	herum	25400	rum herum
+475	irgendwie	25378	irgendwie
+476	König	25211	könig königs könige königen
+477	kaum	25058	kaum
+478	irgendwas	24950	irgendwas
+479	nah	24914	nahe nah näher nahen naher nähere näheres näheren
+480	erfahren	24749	erfahren erfährt erfuhr erfahre erfährst erfuhren erfahrener erfahrene
+481	sondern	24687	sondern
+482	Telefon	24673	telefon telefone telefons telefonen
+483	Arzt	24652	arzt ärzte ärzten arztes
+484	öffnen	24618	öffnen geöffnet öffnet öffne öffnete öffnest öffneten
+485	Feuer	24607	feuer feuern feuers
+486	früher	24599	früher
+487	erledigen	24516	erledigt erledigen erledige erledigst erledigte erledigten
+488	wohin	24373	wohin
+489	außer	24306	außer
+490	verletzen	24118	verletzt verletzen verletzte verletzten verletze verletzend
+491	hübsch	24041	hübsch hübsche hübsches hübscher hübschen hübschere
+492	zuerst	24005	zuerst
+493	wahrscheinlich	23968	wahrscheinlich
+494	interessieren	23831	interessiert interessieren interessiere interessierst interessierte
+495	Arsch	23823	arsch
+496	Straße	23647	straße straßen strassen
+497	froh	23637	froh frohe frohes frohen froher
+498	krank	23612	krank kranken kranke kranker krankes
+499	Fehler	23593	fehler fehlern fehlers
+500	Dollar	23404	dollar dollars
+501	Dame	23381	dame damen
+502	willkommen	23375	willkommen
+503	planen	23357	plan geplant planen plant planet planst plante plane
+504	Menge	23321	menge mengen
+505	hierher	23229	hierher
+506	Büro	23116	büro büros
+507	Traum	23115	traum träume träumen traums traumes
+508	vorstellen	23071	vorstellen vorgestellt vorzustellen vorstelle vorstellt vorstellst vorstellte
+509	direkt	22993	direkt direkten direkte direkter direktem direktes
+510	klappen	22990	klappe klappt geklappt klappen klappte
+511	brechen	22950	brechen gebrochen bricht brach breche brichst brecht brich
+512	zehn	22855	zehn
+513	reisen	22817	reise reisen reis reist gereist reiste reisten
+514	Spiel	22790	spielen spiele spiel spiels
+515	singen	22697	singen singt gesungen singe sang singst sangen singend
+516	Bild	22661	bild bilder bildern bilde bildes
+517	perfekt	22570	perfekt perfekte perfekten perfektes perfekter perfektem
+518	bestimmt	22556	bestimmt bestimmten bestimmte bestimmtes bestimmter
+519	sechs	22454	sechs
+520	laden	22418	laden geladen lade lädt lud lädst ladet ladens
+521	schwarz	22376	schwarze schwarzen schwarz schwarzer schwarzes schwarzem
+522	bauen	22336	bauen gebaut bau baut baue baute bauten baust
+523	Mord	22276	mord mordes morde morden
+524	vermissen	22265	vermisst vermisse vermissen vermissten vermisste vermiss vermißt
+525	Sekunde	22199	sekunden sekunde
+526	raten	22169	rat raten rate geraten ratet riet rät rätst
+527	großartig	22106	großartig großartige großartiger großartigen großartiges großartigste großartigsten grossartige
+528	Geschäft	22076	geschäft geschäfte geschäften geschäfts
+529	cool	21946	cool coole cooler coolen cooles coolste coolsten
+530	leider	21867	leider
+531	erkennen	21853	erkennen erkannt erkenne erkennt erkennst erkannte
+532	Opfer	21847	opfer opfern opfers
+533	Plan	21792	plan pläne plans plänen plane planes
+534	wert	21786	wert werte werten wertes
+535	Foto	21751	foto fotos
+536	Million	21748	millionen million
+537	Stück	21666	stück stücke stücken stücks stückes
+538	Hölle	21656	hölle
+539	Doktor	21621	doktor doktors
+540	weinen	21564	wein weinen weint geweint weinst weinte weinend weinten
+541	tanzen	21559	tanzen tanz tanzt getanzt tanzte tanzten
+542	ansehen	21490	ansehen angesehen anzusehen ansieht ansehe ansiehst ansah ansahen
+543	trotzdem	21476	trotzdem
+544	Kumpel	21469	kumpel kumpels
+545	total	21467	total totale totaler totalen totales
+546	völlig	21368	völlig völliger völlige völligen völliges
+547	tja	21330	tja
+548	fehlen	21309	fehlt fehlen gefehlt fehlte fehlst fehlten fehle
+549	halb	21308	halb halbe halben halbes halber halbem
+550	hängen	21260	hängt hängen hing hänge hängst gehängt hingen hängte
+551	überall	21161	überall
+552	Himmel	21158	himmel himmels
+553	normal	20997	normal normale normaler normalen normales normalem
+554	behalten	20893	behalten behalte behält behältst behaltet behielt behielten
+555	stehlen	20844	gestohlen stehlen stahl stiehlt stahlen stehle stiehlst stehlt
+556	wem	20802	wem
+557	Licht	20792	licht lichter lichts lichtern lichte lichtes
+558	danach	20649	danach
+559	deswegen	20564	deswegen
+560	Zweite	20554	zweite zweiten zweiter zweites
+561	Luft	20544	luft lüften lüfte
+562	Antwort	20487	antwort antworten
+563	melden	20285	melden gemeldet melde meldet meldete meldest meldeten
+564	Party	20226	party partys
+565	tief	20122	tief tiefer tiefe tiefen tiefsten tiefes tiefstem tiefste
+566	besorgen	20059	besorgt besorgen besorge besorgte besorgst
+567	Person	20028	person personen
+568	Kaffee	19999	kaffee
+569	entscheiden	19851	entschieden entscheiden entscheidet entschied entscheidest entscheidend
+570	zerstören	19681	zerstört zerstören zerstörte zerstöre zerstörst
+571	Sinn	19560	sinn sinne sinnen
+572	Erde	19549	erde erden
+573	beweisen	19531	beweisen beweis beweist bewiesen bewies
+574	schrecklich	19451	schrecklich schreckliche schrecklichen schreckliches schrecklicher schrecklichste schrecklichsten
+575	fassen	19403	fassen fass gefasst fasse fasst fasste faß fassten
+576	zwar	19381	zwar
+577	drehen	19315	drehen dreht gedreht drehe drehte drehst drehten
+578	bewegen	19245	bewegen bewegt bewege bewegte bewegst bewegend bewogen
+579	Weh	19211	weh wehe wehen
+580	Wahl	19190	wahl wahlen
+581	Onkel	19170	onkel onkels
+582	gefährlich	19154	gefährlich gefährliche gefährlicher gefährlichen gefährliches gefährlichste gefährlichsten
+583	Witz	19149	witz witze witzen
+584	komisch	19062	komisch komische komisches komischen komischer
+585	Fuß	19048	fuß füße füßen füsse fuße füssen
+586	lustig	19008	lustig lustige lustiger lustiges lustigen lustigste
+587	übernehmen	18982	übernehmen übernehme übernimmt übernommen übernimmst übernahm übernimm übernahmen
+588	blöd	18937	blöd blöde blöden blöder blödes blödeste
+589	meist	18915	meisten meiste meist
+590	super	18808	super
+591	erreichen	18798	erreichen erreicht erreiche erreichte erreichten erreichst
+592	Befehl	18693	befehl befehle befehlen
+593	Leiche	18662	leiche leichen
+594	kosten	18559	kostet kosten gekostet kostete koste kostest kosteten
+595	Körper	18490	körper körpers körpern
+596	wunderbar	18489	wunderbar wunderbare wunderbaren wunderbarer wunderbares wunderbarste
+597	damals	18434	damals
+598	treten	18374	treten tritt getreten trete trat tretet trittst traten
+599	Ehre	18346	ehre ehren
+600	stören	18339	stören stört gestört störe störst störte störten störend
+601	Haar	18336	haare haar haaren
+602	persönlich	18317	persönlich persönliche persönlichen persönliches persönlicher persönlichem
+603	nachdem	18300	nachdem
+604	unglaublich	18285	unglaublich unglaubliche unglaublichen unglaubliches unglaublicher unglaublichste
+605	bestimmen	18239	bestimmt bestimmen bestimmte bestimme bestimmst
+606	Rest	18201	rest reste resten
+607	irgendwo	18104	irgendwo
+608	genauso	18069	genauso
+609	Zukunft	17963	zukunft
+610	zahlen	17952	zahlen zahlt zahle gezahlt zahlst zahlte zahlten
+611	Gefängnis	17902	gefängnis gefängnisse gefängnissen gefängnisses
+612	Pferd	17813	pferd pferde pferden pferdes
+613	Kraft	17774	kraft kräfte kräften
+614	erschießen	17708	erschossen erschießen erschießt erschoss erschieße
+615	drüben	17704	drüben
+616	Schlüssel	17691	schlüssel schlüsseln schlüssels
+617	acht	17567	acht achten
+618	stolz	17556	stolz stolze stolzer stolzen stolzes
+619	seltsam	17501	seltsam seltsame seltsames seltsamen seltsamer seltsamste seltsamsten
+620	Bein	17496	beine bein beinen
+621	teilen	17493	teil teilen teilt geteilt teilte teilten teilst
+622	rot	17479	rot roten rote roter rotes rotem
+623	Agent	17448	agent agenten
+624	still	17372	still stille stillen stiller stilles
+625	eher	17329	eher
+626	verraten	17298	verraten verrat verrate verrät verrätst verriet verratet verrieten
+627	Team	17283	team teams
+628	nachdenken	17209	nachgedacht nachdenken nachzudenken nachdenke nachdenkt nachdenkst nachdachte
+629	vorsichtig	17159	vorsichtig vorsichtiger
+630	hauen	17155	haut hauen haust haue gehauen haute
+631	fürchten	17148	fürchte fürchten fürchtet fürchtete fürchtest gefürchtet fürchteten
+632	Mist	17132	mist
+633	ärgern	17035	ärger ärgern ärgert geärgert ärgere ärgerst ärgerte
+634	offen	16999	offen offenen offene offener offenes offenem
+635	Klasse	16978	klasse klassen
+636	kalt	16923	kalt kalte kalten kaltes kalter kälter kaltem
+637	nötig	16799	nötig nötige nötigen nötigste nötiger
+638	wovon	16791	wovon
+639	sobald	16778	sobald
+640	Geist	16764	geist geister geistes geistern geiste
+641	nochmal	16749	nochmal
+642	Sex	16739	sex
+643	beruhigen	16697	beruhigen beruhige beruhigt beruhigend beruhigst beruhigte
+644	merken	16605	merken merkt gemerkt merke merkst merkte merkten
+645	außerdem	16556	außerdem
+646	Karte	16542	karte karten
+647	Gedanke	16482	gedanken gedanke
+648	wenigstens	16418	wenigstens
+649	Mörder	16287	mörder mörders mördern
+650	überleben	16224	überleben überlebt überlebte überlebe überlebst überlebten überlebens
+651	Boden	16201	boden böden bodens
+652	Mund	16199	mund munde münder
+653	besonders	16170	besonders
+654	Brief	16145	brief briefe briefen briefes
+655	Tier	16129	tiere tier tieren tieres
+656	angreifen	16113	angegriffen angriff angreifen anzugreifen angreift angreifst
+657	bestehen	16104	besteht bestehen bestanden bestand bestehe bestehst bestehend bestünde
+658	verstecken	16036	versteckt verstecken versteck versteckst versteckte
+659	General	16022	general generäle generals generälen
+660	absolut	16013	absolut absolute absoluter absoluten absolutes
+661	Sicherheit	16011	sicherheit sicherheiten
+662	heilig	15963	heilige heiligen heiliger heilig heiliges heiligem heiligste heiligsten
+663	interessant	15894	interessant interessante interessantes interessanter interessanten interessanteste interessantesten
+664	steigen	15883	steigen steigt stieg gestiegen steige steigst stiegen steigend
+665	Raum	15877	raum räumen räume raumes raums
+666	Boss	15863	boss
+667	Information	15825	informationen information
+668	Anwalt	15819	anwalt anwälte anwälten anwalts
+669	beschützen	15797	beschützen beschützt beschütze beschützte beschützten
+670	schwören	15791	schwöre schwören geschworen schwor schwört schwörst schworen
+671	rollen	15748	rolle rollen rollt gerollt rollte
+672	lieb	15731	liebes liebsten liebste lieb liebster liebstes
+673	irren	15705	irre irren geirrt irrst irrt irrte
+674	kämpfen	15687	kämpfen kämpft gekämpft kämpfte kämpfe kämpfst kämpften kämpfend
+675	Geheimnis	15667	geheimnis geheimnisse geheimnissen geheimnisses
+676	erwischen	15638	erwischt erwischen erwische erwischte erwischten erwischst
+677	verändern	15459	verändert verändern veränderte verändere veränderst
+678	kennenlernen	15424	kennenzulernen kennengelernt kennenlernen kennenlernte kennenlernten kennenlernt kennenlernst kennenlerne
+679	aufhalten	15377	aufhalten aufzuhalten aufgehalten aufhält aufhielt aufhalte aufhältst
+680	handeln	15335	handeln handelt handel gehandelt handelte handle handelst handele
+681	Hotel	15335	hotel hotels
+682	verlangen	15317	verlangt verlangen verlange verlangst verlangte verlangten
+683	Tisch	15298	tisch tische tischen tisches
+684	plötzlich	15289	plötzlich plötzliche plötzlichen plötzlicher plötzliches
+685	ähm	15268	ähm
+686	verbringen	15249	verbringen verbracht verbrachte verbringt verbringe verbringst
+687	Idiot	15243	idiot
+688	mitnehmen	15171	mitnehmen mitgenommen mitzunehmen mitnimmt mitnahm mitnehme mitnimmst mitnahmen
+689	Besuch	15145	besuch besuchen besuche besuchs besuches
+690	Anfang	15030	anfang anfangs anfange anfänge anfängen
+691	traurig	15022	traurig traurige traurigen trauriger trauriges traurigste
+692	feiern	15021	feiern feier gefeiert feiert feiere feierten feierst feierte
+693	Schluss	15005	schluss
+694	vorher	15005	vorher
+695	sieben	14995	sieben siebten siebte sieb
+696	Anruf	14986	anruf anrufe anrufs
+697	Punkt	14986	punkt punkte punkten
+698	Liebling	14921	liebling lieblinge lieblings
+699	wunderschön	14913	wunderschön wunderschöne wunderschönen wunderschönes wunderschöner
+700	Schmerz	14874	schmerz schmerzen schmerzes
+701	schützen	14867	schützen schütze schützt geschützt schützte schütz
+702	Geschenk	14841	geschenk geschenke geschenken
+703	Handy	14818	handy
+704	hinten	14804	hinten
+705	Beweis	14788	beweise beweis beweises
+706	tatsächlich	14777	tatsächlich tatsächliche tatsächlichen
+707	Soldat	14763	soldaten soldat
+708	verheiratet	14762	verheiratet verheiratete verheirateten verheirateter verheiratetes
+709	deutsch	14693	deutsche deutschen deutsch deutscher deutsches deutschem
+710	Meister	14671	meister meistern meisters
+711	erhalten	14616	erhalten erhielt erhält erhielten erhalte erhältst erhalt erhaltet
+712	heraus	14613	heraus
+713	dunkel	14610	dunkel dunkle dunklen dunkeln dunkler dunkles dunkelsten dunkelste
+714	rennen	14423	rennen rennt rannte gerannt rennst renne rannten rennens
+715	Seele	14419	seele seelen
+716	Nähe	14368	nähe
+717	Gefahr	14346	gefahr gefahren
+718	riechen	14331	riecht riechen rieche riechst gerochen roch rochen
+719	verlieben	14322	verliebt verlieben verliebte verliebe verliebten verliebst
+720	Präsident	14315	präsident präsidenten
+721	streiten	14311	streit streiten gestritten streitet stritten stritt streitest
+722	ständig	14299	ständig ständige ständigen ständiger ständiges
+723	beenden	14270	beenden beendet beende beendete beendest beendeten
+724	zählen	14246	zählt zählen zähle gezählt zählst zählte zählten
+725	Wette	14168	wette wetten
+726	Feind	14156	feind feinde feinden feindes
+727	jemals	14154	jemals
+728	verfolgen	14099	verfolgt verfolgen verfolge verfolgte verfolgst verfolgten
+729	Bescheid	14097	bescheid bescheiden
+730	spüren	14090	spüren spüre gespürt spürt spürte spürst spürten
+731	überlegen	14022	überlegen überlegt überlege überlegst überlegte überlegene überlegten überlegenen
+732	Regel	14020	regeln regel
+733	ha	13954	ha
+734	Bericht	13894	bericht berichten berichte berichts
+735	verhaften	13845	verhaftet verhaften verhafte verhafteten verhaftete verhaftest
+736	Finger	13842	finger fingern fingers
+737	überraschen	13813	überrascht überraschen überraschend überraschte überrasche überraschst
+738	obwohl	13796	obwohl
+739	Zug	13756	zug züge zügen zuge zuges zugs
+740	Fenster	13747	fenster fenstern
+741	küssen	13736	küssen geküsst küsst küsse küsste küssten
+742	unterwegs	13693	unterwegs
+743	Kleid	13674	kleid kleider kleidern kleide kleides
+744	wirken	13667	wirkt wirken wirkte wirkst gewirkt wirke wirkten
+745	Tasche	13623	tasche taschen
+746	dagegen	13607	dagegen
+747	zurückkommen	13583	zurückkommen zurückgekommen zurückkommt zurückkomme zurückkam zurückzukommen zurückkommst zurückkamen
+748	packen	13564	packen pack packt gepackt packe packst packte packten
+749	verzeihen	13552	verzeihen verzeiht verzieh verziehen verzeihe verzeihst
+750	bieten	13470	bieten bietet biete bot geboten boten bietest
+751	verpassen	13436	verpasst verpassen verpasse verpasste verpassten verpaßt
+752	Möglichkeit	13435	möglichkeit möglichkeiten
+753	weise	13425	weise weisen weiser
+754	behandeln	13408	behandelt behandeln behandelst behandle behandelte behandelten behandele
+755	erlauben	13301	erlaubt erlauben erlaube erlaubte erlaubst erlaubten
+756	ewig	13285	ewig ewige ewigen ewiges ewiger ewigem
+757	überprüfen	13236	überprüfen überprüft überprüfe überprüfte überprüfst überprüften
+758	atmen	13190	atmen atmet atme atmest atmete geatmet
+759	fort	13175	fort
+760	bekannt	13141	bekannt bekannten bekannte bekannter bekanntes bekanntesten bekannteste
+761	Zeug	13135	zeug zeugen zeugs
+762	Polizist	13117	polizist polizisten
+763	Partner	13116	partner partnern partners
+764	Ziel	13084	ziel ziele zielen ziels
+765	wählen	13041	wählen gewählt wählt wähle wählte wählst wählten
+766	manch	13021	manche manchen manches mancher manch manchem
+767	Chef	12939	chef chefs
+768	Ehe	12897	ehe ehen
+769	aufgeben	12881	aufgeben aufgegeben aufzugeben aufgaben aufgibt aufgibst aufgebe aufgab
+770	treiben	12800	treiben treibt getrieben treibst trieb treibe treibend
+771	überzeugen	12765	überzeugt überzeugen überzeugend überzeugte überzeuge überzeugst überzeugten
+772	Unfall	12762	unfall unfälle unfalls unfällen
+773	schwierig	12754	schwierig schwieriger schwierige schwierigen schwierigste schwieriges schwierigsten
+774	Bier	12728	bier biere
+775	zwingen	12718	gezwungen zwingen zwang zwingt zwinge zwangen zwingst zwingend
+776	annehmen	12712	annehmen angenommen anzunehmen annimmt annehme annahm annimmst annahmen
+777	gemeinsam	12682	gemeinsam gemeinsame gemeinsamen gemeinsames gemeinsamer
+778	herkommen	12674	herkommen hergekommen herkommt herzukommen herkam herkomme herkommst herkamen
+779	Schritt	12531	schritt schritte schritten
+780	Boot	12485	boot boote booten boots bootes
+781	furchtbar	12470	furchtbar furchtbare furchtbaren furchtbares furchtbarer
+782	Gesetz	12453	gesetz gesetze gesetzes gesetzen
+783	entfernen	12448	entfernt entfernen entfernte entferne entfernst
+784	greifen	12409	griff greifen greift greife gegriffen greifst
+785	Ei	12357	eier ei eiern
+786	einladen	12346	eingeladen einladen einzuladen einlädt einlade einlädst einlud einladend
+787	ermorden	12330	ermordet ermorden ermordete ermordeten
+788	wach	12280	wach
+789	jagen	12272	jagen gejagt jagt jage jagte jagst jagten
+790	wozu	12270	wozu
+791	rauchen	12267	rauchen rauch geraucht rauche raucht rauchst rauchte rauchten
+792	schnappen	12234	schnappen schnappt geschnappt schnappe schnappte schnappst schnappten
+793	Bar	12229	bar bars bares bare
+794	dienen	12218	dienen dienst dient gedient diente diene dienten
+795	Schwein	12216	schwein schweine schweinen schweins
+796	lösen	12179	lösen gelöst löst löse löste lösten
+797	hoffentlich	12163	hoffentlich
+798	beschäftigen	12159	beschäftigt beschäftigen beschäftige beschäftigte beschäftigst beschäftigten
+799	Schuh	12139	schuhe schuh schuhen
+800	zuhause	12137	zuhause
+801	Wunder	12112	wunder wundern wunders
+802	Firma	12075	firma firmen
+803	fressen	12042	fressen fresse frisst gefressen fraß friss fresst fraßen
+804	rücken	12027	rücken rückt rückte rückst rücke gerückt
+805	fremd	12000	fremden fremde fremder fremd fremdes fremdem
+806	sauber	11999	sauber saubere sauberen sauberes sauberer
+807	irgendwann	11991	irgendwann
+808	müde	11979	müde müden müder
+809	jedenfalls	11973	jedenfalls
+810	aufnehmen	11957	aufgenommen aufnehmen aufnahmen aufzunehmen aufnimmt aufnahm aufnimmst aufnehme
+811	leisten	11954	leisten geleistet leistet leiste leistest leistete leisteten
+812	rüber	11953	rüber
+813	Mitte	11927	mitten mitte
+814	nutzen	11926	nutzen nutzt nutze genutzt nutzte nutzten
+815	Gast	11895	gäste gast gästen
+816	irgendetwas	11872	irgendetwas
+817	Weile	11866	weile
+818	bisher	11864	bisher
+819	stöhnen	11822	stöhnt stöhnen stöhnend gestöhnt
+820	Ohr	11815	ohren ohr
+821	kochen	11813	kochen koch gekocht kocht kochst kochte kochend
+822	blau	11810	blau blaue blauen blaues blauer blauem
+823	besitzen	11801	besitzt besessen besitz besitzen besaß besaßen
+824	schneiden	11792	schnitt schneiden geschnitten schneide schneidet schnitte schneidest
+825	wofür	11771	wofür
+826	Kontrolle	11758	kontrolle kontrollen
+827	Kamera	11735	kamera kameras
+828	Beispiel	11699	beispiel beispiele
+829	Kontakt	11680	kontakt kontakte kontakten
+830	erwähnen	11663	erwähnt erwähnen erwähnte erwähnten erwähne erwähnst erwähntest
+831	wild	11652	wild wilde wilden wilder wildes wilderer wildesten wildeste
+832	Mark	11636	mark marke marken
+833	sauer	11557	sauer saures saure sauren saurer
+834	beobachten	11554	beobachtet beobachten beobachte beobachtete beobachtest beobachteten
+835	Volk	11548	volk volkes völker völkern volke volks
+836	landen	11529	landen gelandet landet landete landest landeten
+837	frisch	11517	frisch frische frischen frisches frischer frischem
+838	Lage	11467	lage lagen
+839	dahin	11442	dahin
+840	Vogel	11422	vogel vögel vögeln vogels
+841	besuchen	11421	besucht besuch besuchen besuchte besuchst besuchten
+842	klingeln	11387	klingelt klingeln klingel geklingelt klingelte
+843	binden	11370	band gebunden binden binde bindet banden bände bindend
+844	schenken	11320	geschenkt schenken schenke schenkt schenkte schenkst schenkten
+845	leer	11296	leer leere leeren leeres leerer leerem
+846	zumindest	11261	zumindest
+847	aufpassen	11253	aufpassen aufgepasst aufpasst aufzupassen aufpasse
+848	übel	11244	übel üble übler üblen übles übelsten übelste übels
+849	springen	11237	springen springt gesprungen sprang springe springst sprangen
+850	sowieso	11215	sowieso
+851	Gericht	11170	gericht gerichts gerichte gerichten
+852	Tante	11122	tante tanten
+853	Bulle	11116	bullen bulle
+854	Hunger	11083	hunger
+855	rund	11062	runde rund runden runder rundes
+856	kaputt	11006	kaputt kaputte kaputten kaputtes kaputter
+857	trennen	11003	getrennt trennen trennt trennten trenne trennte trennst
+858	Held	11001	held helden
+859	Hoffnung	10972	hoffnung hoffnungen
+860	Wald	10968	wald wälder wäldern waldes walde
+861	Droge	10964	drogen droge
+862	Baum	10952	baum bäume bäumen baumes
+863	Kirche	10946	kirche kirchen
+864	dick	10880	dick dicke dicken dicker dickes dicksten dickem
+865	neben	10880	neben
+866	warnen	10877	gewarnt warnen warne warnte warnt warnten warnst
+867	ergeben	10842	ergibt ergeben ergab ergebe ergebt ergib ergaben ergebener
+868	Major	10816	major majors
+869	witzig	10807	witzig witzige witziger witziges witzigen
+870	gesund	10780	gesund gesunde gesunden gesundes gesunder gesundem
+871	leise	10777	leise leiser leises leiseste leisen leisesten
+872	Majestät	10751	majestät majestäten
+873	derjenige	10723	derjenige diejenige diejenigen denjenigen demjenigen derjenigen
+874	schaden	10723	schaden schadet schäden geschadet schadest schadens
+875	vermutlich	10690	vermutlich
+876	offensichtlich	10685	offensichtlich offensichtliche offensichtlichen offensichtlicher
+877	Preis	10667	preis preise preisen preises
+878	Computer	10656	computer computern computers
+879	Patient	10605	patienten patient
+880	links	10601	links
+881	Professor	10596	professor professoren professors
+882	menschlich	10516	menschliche menschlichen menschlich menschliches menschlicher menschlichem
+883	schuldig	10489	schuldig schuldigen schuldige schuldiger
+884	erleben	10476	erlebt erleben erlebe erlebte erlebst erlebten
+885	selber	10450	selber
+886	Nase	10443	nase nasen
+887	mitbringen	10441	mitgebracht mitbringen mitzubringen mitbringt mitbringst mitbrachte mitbringe
+888	Dritte	10424	dritte dritten dritter drittes
+889	antworten	10420	antworte antworten antwortet geantwortet antwortete antwortest antworteten
+890	Show	10390	show shows
+891	wachsen	10360	wachsen wächst gewachsen wuchs wuchsen wachst wachse gewachst
+892	Glas	10359	glas gläser gläsern
+893	ausgehen	10357	ausgehen ausgegangen ausgeht auszugehen ausging ausgehe ausgehst ausgehend
+894	Güte	10288	güte
+895	diesmal	10282	diesmal
+896	schade	10280	schade
+897	entdecken	10278	entdeckt entdecken entdeckte entdeckten entdecke entdeckst
+898	Fisch	10255	fisch fische fischen
+899	ankommen	10211	angekommen ankommen ankommt ankam ankamen ankommst ankomme anzukommen
+900	Angebot	10206	angebot angeboten angebote
+901	genießen	10191	genießen genießt genossen genieße genoss
+902	Bank	10152	bank bänke
+903	lächeln	10149	lächeln lächelt lächle lächelst gelächelt lächelte lächelnd lächele
+904	nämlich	10147	nämlich
+905	trauen	10146	trauen traue traust traut getraut traute trauten
+906	zeugen	10146	zeug zeugen gezeugt zeugt zeugte
+907	Gebäude	10096	gebäude gebäudes gebäuden
+908	vorbereiten	10082	vorbereitet vorbereiten vorzubereiten vorbereite vorbereitete
+909	verbinden	10081	verbunden verbinden verbindet verband verbinde verbände
+910	wütend	10061	wütend wütender wütende wütenden wütendes
+911	nerven	10041	nerven nervt genervt nervst nerv nervte
+912	Weihnachten	10033	weihnachten
+913	Situation	10018	situation situationen
+914	verhalten	10013	verhalten verhält verhältst verhalte verhaltens verhielt verhaltet verhielten
+915	vergeben	9996	vergeben vergib vergebe vergebt vergibt vergebens vergibst vergab
+916	hinterlassen	9991	hinterlassen hinterließ hinterlässt hinterlasse hinterlasst hinterlass hinterließen
+917	unternehmen	9989	unternehmen unternommen unternehmens unternimmt unternimm unternimmst unternehme unternahm
+918	befinden	9987	befindet befinden befand befunden befinde befanden befindest
+919	Armee	9980	armee armeen
+920	Planet	9969	planeten planet
+921	erwachsen	9966	erwachsen erwachsene erwachsenen erwachsener
+922	Drink	9941	drink drinks
+923	Wand	9925	wand wände wänden
+924	Gold	9897	gold
+925	Berg	9891	berg berge bergen
+926	klug	9873	klug klüger kluge kluger kluges klügste klugen klügsten
+927	Stein	9857	stein steine steinen steins
+928	abholen	9845	abholen abgeholt abzuholen abholt abhole abholst abholte
+929	heim	9843	heim heime heimen
+930	Maschine	9831	maschine maschinen
+931	fantastisch	9821	fantastisch fantastische fantastischen fantastischer fantastisches
+932	Wunsch	9815	wunsch wünsche wünschen
+933	Schicksal	9808	schicksal schicksals schicksale
+934	Grad	9799	grad grade grades
+935	ran	9783	ran
+936	gegenüber	9781	gegenüber
+937	Lust	9773	lust
+938	Wille	9771	willen wille
+939	nervös	9769	nervös nervöser nervöse nervösen nervöses
+940	übrigens	9753	übrigens
+941	verantwortlich	9750	verantwortlich verantwortlichen verantwortliche verantwortlicher
+942	übrig	9722	übrig übrigen übrige
+943	schmecken	9704	schmeckt schmecken geschmeckt schmeckte schmeckst schmecke
+944	Gespräch	9657	gespräch gespräche gesprächen gesprächs
+945	beeilen	9652	beeilen beeilt beeile beeilst
+946	auftauchen	9631	aufgetaucht auftauchen auftaucht auftauchte aufzutauchen auftauchst auftauchten auftauche
+947	Hose	9618	hose hosen
+948	geheim	9608	geheim geheime geheimen geheimes geheimer
+949	heilen	9577	heilen heil geheilt heilt heilte heilst
+950	Vergnügen	9577	vergnügen vergnügt vergnügens
+951	Aufgabe	9478	aufgabe aufgaben
+952	Lied	9474	lied lieder liedern liedes
+953	miteinander	9474	miteinander
+954	indem	9458	indem
+955	Richter	9453	richter richters richtern
+956	weder	9435	weder
+957	Gesellschaft	9417	gesellschaft gesellschaften
+958	Hals	9409	hals hälse halse
+959	Vergangenheit	9406	vergangenheit
+960	drücken	9391	drücken drückt gedrückt drücke drückst drückte drückten
+961	danken	9387	danken dankt gedankt dankte dankst dankend
+962	Tee	9380	tee
+963	unterhalten	9376	unterhalten unterhalt unterhielten unterhalte unterhält unterhaltet unterhielt unterhältst
+964	entweder	9358	entweder
+965	abhauen	9346	abhauen abgehauen abzuhauen abhaut abhaust abhaue
+966	Verbrechen	9333	verbrechen verbrechens verbrochen
+967	Gruppe	9329	gruppe gruppen
+968	Loch	9309	loch löcher löchern lochs
+969	Mädel	9301	mädels mädel
+970	anziehen	9300	anziehen angezogen anzuziehen anzieht anziehend anziehe anziehst anzog
+971	erscheinen	9297	erscheinen erscheint erschien erschienen erscheine erscheinst
+972	grün	9291	grün grünen grüne grünes grüner grünem
+973	beten	9289	beten bete gebetet betet betete betest beteten
+974	klauen	9278	geklaut klauen klaut klaute klaust klaue klauten
+975	gucken	9262	gucken guckt guckst geguckt gucke guckte
+976	Sheriff	9233	sheriff
+977	verwenden	9233	verwenden verwendet verwandt verwandte verwende verwendete verwendeten verwendest
+978	reißen	9225	reißen reißt gerissen riss reiße risse rissen reisst
+979	Flasche	9183	flasche flaschen
+980	Küche	9163	küche küchen
+981	schwanger	9137	schwanger schwangere schwangeren
+982	Bord	9127	bord borden
+983	Blume	9120	blumen blume
+984	Erfolg	9072	erfolg erfolge erfolgen erfolges erfolgs
+985	Zeichen	9068	zeichen
+986	Adresse	9063	adresse adressen
+987	Wache	9053	wache wachen
+988	schwach	9039	schwach schwachen schwache schwächer schwaches schwacher schwächsten schwächste
+989	Gegend	9019	gegend gegenden
+990	aufstehen	9009	aufstehen aufstand aufgestanden aufzustehen aufsteht aufstehe aufstehst
+991	träumen	9008	geträumt träume träumte träumt träumen träumst träumten
+992	Test	9006	test tests
+993	entkommen	9004	entkommen entkommt entkam entkommst entkamen
+994	bestellen	8995	bestellt bestellen bestelle bestellte bestellst bestellten
+995	gelten	8993	gilt gelten galt geltend galten gelte
+996	behaupten	8992	behauptet behaupten behauptete behaupte behauptest behaupteten
+997	herausfinden	8989	herausfinden
+998	brennen	8960	brennt brennen brannte brenne gebrannt brannten brennst brennend
+999	allerdings	8953	allerdings
+1000	fliehen	8942	fliehen geflohen floh flieht flohen flöhe fliehe fliehst
+1001	gefangen	8934	gefangenen gefangene gefangener gefangen
+1002	soweit	8928	soweit
+1003	verflucht	8926	verflucht verfluchte verfluchten verfluchter verfluchtes
+1004	Monster	8917	monster monstern monsters
+1005	ähnlich	8910	ähnlich ähnliches ähnliche ähnlichen ähnlicher ähnlichem
+1006	Grenze	8908	grenze grenzen
+1007	Deal	8876	deal deals dealen
+1008	Mission	8876	mission missionen
+1009	worauf	8837	worauf
+1010	Dorf	8831	dorf dörfer dorfes dörfern
+1011	lächerlich	8818	lächerlich lächerliche lächerlichen lächerlicher lächerliches lächerlichste
+1012	warm	8799	warm warme warmes warmen wärmer warmer
+1013	Hut	8794	hut hüte hüten
+1014	aufregen	8791	aufgeregt aufregend aufregen aufregt aufzuregen aufregst
+1015	Glückwunsch	8778	glückwunsch
+1016	statt	8774	statt
+1017	Interesse	8772	interesse interessen
+1018	Staat	8766	staaten staat staates staats staate
+1019	aufwachen	8764	aufwachen aufgewacht aufwacht aufwachte aufzuwachen aufwache aufwachst aufwachten
+1020	schulden	8762	schulde schuldest schuldet schulden schuldete geschuldet
+1021	klopfen	8744	klopfen klopft geklopft klopfte klopfe klopfst
+1022	graben	8734	grab graben gegraben gräbt grabt gräben grub gräbst
+1023	Messer	8726	messer messern messers
+1024	Position	8717	position positionen
+1025	System	8691	system systeme systems systemen
+1026	herein	8674	herein
+1027	Rose	8673	rose rosen
+1028	Kunde	8657	kunden kunde
+1029	ungefähr	8654	ungefähr ungefähre
+1030	befreien	8647	befreien befreit befreie befreite befreiend befreiten befreist
+1031	jawohl	8647	jawohl
+1032	parken	8645	park parken geparkt parkt parke parkte parkst
+1033	teuer	8619	teuer teure teurer teuren teuerste teures teuersten
+1034	benehmen	8618	benehmen benommen benimmst benimmt benimm benehmt benahm benehme
+1035	neun	8617	neun neunen
+1036	unterschreiben	8613	unterschreiben unterschrieben unterschreibe unterschreibt unterschrieb unterschreibst
+1037	Papier	8576	papiere papier papieren
+1038	gebären	8553	geboren gebären gebar
+1039	akzeptieren	8551	akzeptieren akzeptiert akzeptiere akzeptierst akzeptierte akzeptierten
+1040	drinnen	8545	drinnen
+1041	zuvor	8539	zuvor
+1042	begleiten	8530	begleiten begleite begleitet begleitest begleitete
+1043	richten	8525	richten richte gerichtet richtet richtete richtest richteten
+1044	entführen	8518	entführt entführen entführte entführten entführe
+1045	untersuchen	8517	untersuchen untersucht untersuche untersuchte
+1046	Hälfte	8515	hälfte hälften
+1047	decken	8514	decke decken deckt gedeckt deckst deckte
+1048	Insel	8507	insel inseln
+1049	Sergeant	8499	sergeant
+1050	fern	8487	fern ferne fernen ferner fernes
+1051	kontrollieren	8474	kontrollieren kontrolliert kontrolliere kontrollierte kontrollierst kontrollierten
+1052	hingehen	8471	hingehen hingegangen hingeht hingehst hingehe hinzugehen hinging
+1053	bestätigen	8443	bestätigt bestätigen bestätige bestätigte bestätigten
+1054	Schwierigkeit	8439	schwierigkeiten schwierigkeit
+1055	Respekt	8435	respekt respekts
+1056	enttäuschen	8410	enttäuscht enttäuschen enttäuschend enttäusche enttäuschst enttäuschte
+1057	kapieren	8410	kapiert kapierst kapieren kapiere
+1058	Stopp	8367	stopp
+1059	Wind	8364	wind winde winden windes
+1060	Schlag	8363	schlage schlag schläge schlägen
+1061	Unsinn	8340	unsinn
+1062	nähern	8322	näher nähern nähert näherte näherten genähert nähere näherst
+1063	pro	8322	pro
+1064	Prinz	8308	prinz prinzen
+1065	davor	8303	davor
+1066	fernsehen	8295	fernsehen ferngesehen fernsehens fernzusehen
+1067	ernsthaft	8280	ernsthaft ernsthafte ernsthaften ernsthaftes ernsthafter
+1068	unterscheiden	8265	unterschied unterscheiden unterscheidet unterschieden
+1069	wiederholen	8256	wiederholen wiederhole wiederholt wiederholte wiederholst wiederholten
+1070	zufällig	8254	zufällig zufällige zufälligen zufälliger zufälliges
+1071	zufrieden	8242	zufrieden zufriedener zufriedene
+1072	Zahl	8230	zahlen zahl
+1073	verbrennen	8229	verbrannt verbrennen verbrennt verbrannte verbrenne verbrennst
+1074	zweifeln	8222	zweifel zweifeln zweifle gezweifelt zweifelt zweifelst zweifelte zweifele
+1075	Prinzessin	8214	prinzessin prinzessinnen
+1076	zuhören	8173	zuhören zugehört zuzuhören zuhört zuhörst zuhöre
+1077	zurückkehren	8163	zurückkehren zurückgekehrt zurückzukehren zurückkehrt zurückkehrte zurückkehre zurückkehrst zurückkehrten
+1078	besprechen	8161	besprechen besprochen besprachen bespreche bespricht
+1079	herzlich	8145	herzlichen herzlich herzliches herzliche
+1080	verschieden	8123	verschiedene verschiedenen verschieden verschiedener verschiedenes verschiedensten
+1081	wechseln	8100	wechseln gewechselt wechsel wechselt wechsle wechselte wechselst wechselten
+1082	irgendwelche	8096	irgendwelche
+1083	Eis	8082	eis
+1084	Meer	8074	meer meeres meere meeren
+1085	spinnen	8073	spinnst spinnt spinne spinnen spannen spann spannt gesponnen
+1086	Neuigkeit	8070	neuigkeiten neuigkeit
+1087	wundervoll	8070	wundervoll wundervolle wundervollen wundervoller wundervolles wundervollste
+1088	Ring	8068	ring ringe ringen rings
+1089	Farbe	8066	farbe farben
+1090	worüber	8041	worüber
+1091	leiten	8031	leiten leitet leite geleitet leitete leitest leiteten
+1092	Tor	8024	tor tore toren
+1093	Gehirn	8002	gehirn gehirns gehirne gehirnen
+1094	reparieren	7996	reparieren repariert repariere reparierst reparierte
+1095	reiten	7990	reiten reitet reite ritt geritten reitest
+1096	nachts	7964	nachts
+1097	Meter	7939	meter metern
+1098	riesig	7915	riesige riesig riesigen riesiger riesiges
+1099	schließlich	7900	schließlich
+1100	Zahn	7892	zähne zahn zähnen
+1101	Risiko	7876	risiko risiken risikos
+1102	Auftrag	7862	auftrag aufträge auftrags aufträgen
+1103	See	7849	see seen
+1104	probieren	7843	probieren probiert probiere probierst probierte probierten
+1105	Freiheit	7832	freiheit freiheiten
+1106	Gang	7829	gang gange gänge gangs ganges gängen
+1107	existieren	7825	existiert existieren existiere existierte existierst existierten
+1108	Stern	7825	sterne stern sternen sterns
+1109	Bus	7790	bus busse bussen
+1110	starten	7788	starten startet gestartet starte startete startest starteten
+1111	erschrecken	7775	erschreckt erschrecken erschrocken erschrickt erschreckend erschreckst erschrecke erschreckte
+1112	daher	7771	daher
+1113	konzentrieren	7756	konzentrieren konzentriert konzentriere konzentrierst konzentrierte
+1114	Ecke	7750	ecke ecken
+1115	Taxi	7736	taxi taxis taxen
+1116	liefern	7734	liefern geliefert liefert liefere lieferte lieferst lieferten
+1117	fett	7723	fett fette fetten fetter fettes
+1118	Schwanz	7722	schwanz schwänze schwänzen
+1119	amerikanisch	7720	amerikanische amerikanischen amerikanischer amerikanisches amerikanisch amerikanischem
+1120	Operation	7714	operation operationen
+1121	Ball	7700	ball bälle balls bällen
+1122	einverstanden	7685	einverstanden
+1123	ruinieren	7681	ruiniert ruinieren ruinierst ruiniere ruinierte ruinierten
+1124	scharf	7666	scharf scharfe scharfen scharfes schärfer scharfer schärfste schärfsten
+1125	bemerken	7655	bemerkt bemerken bemerkte bemerke bemerkst
+1126	Fleisch	7627	fleisch fleisches
+1127	Energie	7624	energie energien
+1128	seufzen	7616	seufzt seufzen seufzend
+1129	malen	7597	male malen gemalt malt malte malst
+1130	Engel	7590	engel engeln engels
+1131	gesamt	7567	gesamte gesamten gesamtes gesamter
+1132	entlang	7566	entlang
+1133	Brücke	7556	brücke brücken
+1134	begreifen	7547	begreifen begriff begriffen begreife begreifst begreift
+1135	Club	7533	club clubs
+1136	Gelegenheit	7529	gelegenheit gelegenheiten
+1137	erfüllen	7527	erfüllt erfüllen erfülle erfüllte erfüllst
+1138	aha	7512	aha
+1139	fluchen	7507	flucht fluch fluchen geflucht
+1140	stammen	7503	stammt stammen stamm stammte stammst stammten
+1141	vernichten	7502	vernichten vernichtet vernichte vernichtete vernichtend vernichteten vernichtest
+1142	beeindrucken	7498	beeindruckt beeindruckend beeindrucken beeindruckte
+1143	umgehen	7466	umgehen umgehend umzugehen umgeht umgegangen umgehst umgehe umging
+1144	gelingen	7465	gelangen gelungen gelingt gelangt gelang gelingen
+1145	Aussage	7463	aussage aussagen
+1146	schwimmen	7448	schwimmen schwimmt schwamm geschwommen schwimme schwimmst schwammen schwämme
+1147	unterstützen	7446	unterstützen unterstützt unterstütze unterstützte unterstützten unterstützend
+1148	beißen	7441	gebissen beißen beißt biss bissen beiße bisse
+1149	Nachmittag	7441	nachmittag nachmittags nachmittage
+1150	lauten	7425	lautet lautete laute lauten lauteten
+1151	englisch	7422	englisch englischen englische englischer englisches
+1152	geliebt	7408	geliebte geliebten geliebter geliebt geliebtes
+1153	fair	7404	fair fairer fairen faire faires
+1154	spannend	7401	spannende spannend spannender spannendes spannenden
+1155	komplett	7387	komplett komplette kompletten kompletter komplettes
+1156	angehen	7383	angeht angehen anzugehen anging angegangen
+1157	worum	7357	worum
+1158	fein	7352	fein feine feiner feinen feines feinsten feinste
+1159	feuern	7346	gefeuert feuert feuern feuerte feuere feuerst feuerten
+1160	schlau	7342	schlau schlauer schlaue schlaues schlauen schlauste
+1161	Oma	7332	oma omas
+1162	Dach	7329	dach dachs dächern dächer
+1163	wahnsinnig	7314	wahnsinnig wahnsinniger wahnsinnige wahnsinnigen wahnsinniges
+1164	Thema	7313	thema themen
+1165	klären	7306	klären geklärt kläre klärt klärst
+1166	empfangen	7300	empfangen empfang empfängt empfing empfängst empfingen empfangt
+1167	riskieren	7290	riskieren riskiert riskiere riskierst riskierte riskierten
+1168	langweilig	7276	langweilig langweilige langweiligen langweiliger langweiliges langweiligste
+1169	einsam	7274	einsam einsame einsamen einsamer einsames einsamste
+1170	verhindern	7267	verhindern verhindert verhinderte verhindere
+1171	merkwürdig	7251	merkwürdig merkwürdige merkwürdiges merkwürdigen merkwürdiger
+1172	Schwert	7243	schwert schwerter schwertern schwertes
+1173	beantworten	7242	beantworten beantwortet beantworte beantwortest beantwortete
+1174	stoppen	7236	stoppen stoppt gestoppt stoppte stoppe stoppten stoppst
+1175	Quatsch	7233	quatsch
+1176	Restaurant	7219	restaurant restaurants
+1177	knien	7216	knie knien kniet kniete kniest
+1178	blind	7204	blind blinde blinden blinder blindes
+1179	verdächtigen	7204	verdächtigen verdächtige verdächtigt verdächtigte verdächtigst
+1180	beibringen	7199	beigebracht beibringen beizubringen beibrachte beibringt beibringe
+1181	Schuss	7198	schuss
+1182	zulassen	7171	zulassen zugelassen zulässt zuzulassen zulasse zuließ
+1183	verbieten	7165	verboten verbieten verbiete verbietet verbot verbietest
+1184	Versteck	7152	verstecken versteck verstecke
+1185	stechen	7145	stich stechen gestochen sticht stach steche stichst stachen
+1186	berühren	7132	berührt berühren berühre berührte berührst
+1187	französisch	7131	französisch französische französischen französischer französisches französischem
+1188	waschen	7123	waschen gewaschen wäscht wasche wäschst wusch wascht
+1189	Trick	7112	trick tricks
+1190	berühmt	7102	berühmt berühmte berühmten berühmter berühmteste berühmtesten berühmtes
+1191	Keller	7089	keller kellers kellern
+1192	betrügen	7085	betrogen betrügt betrügen betrügst betrog betrüge
+1193	studieren	7074	studiert studieren studiere studierte studierst studierten
+1194	offenbar	7061	offenbar
+1195	Blick	7060	blick blicken blicke
+1196	au	7042	au
+1197	Maul	7040	maul mäuler
+1198	angetan	7039	angetan
+1199	beeil	7037	beeil
+1200	freundlich	7029	freundlich freundliche freundlicher freundlichen freundliches

@@ -83,6 +83,10 @@ export const OVERRIDES_DE = {
   fragen: { fragen: 0.85, frage: 0.15 },
   junge: { junge: 0.7, jung: 0.3 },
   jungs: "junge",
+  // Words of their own that the lemma list folds into a more common one (wegen is not weg, bitten not bitte, malen
+  // not mal).
+  ...itself("wegen bitten malen"),
+  male: "malen",
   // Clipped or English forms that count towards no word.
   ma: null,
   miss: null,
