@@ -1,0 +1,21 @@
+{
+  "id": "besser-better",
+  "rank": 164,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "besser",
+  "en": "better",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Heute geht es mir besser.",
+    "en": "I'm feeling better today."
+  },
+  "regional": null,
+  "trick": "BESSER sounds like BETTER with the double t swapped for a double s, and it means exactly that: better.",
+  "image": "/deck-de/img/besser-better.webp",
+  "audio": {
+    "word": "/deck-de/audio/besser-better.word.mp3",
+    "sentence": "/deck-de/audio/besser-better.sentence.mp3"
+  }
+}

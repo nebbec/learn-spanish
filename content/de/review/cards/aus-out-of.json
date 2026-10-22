@@ -1,0 +1,17 @@
+{
+  "id": "aus-out-of",
+  "rank": 65,
+  "word": "aus",
+  "draft": "88929001c37894dd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "out of, from (preposition with the dative)",
+    "example": "He's just coming out of the house."
+  },
+  "note": "The example shows that aus takes the dative (aus dem Haus), so you could mention in the trick or the editing notes that aus always takes the dative.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:11.476Z"
+}

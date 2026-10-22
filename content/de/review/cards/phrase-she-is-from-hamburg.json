@@ -1,0 +1,23 @@
+{
+  "id": "phrase-she-is-from-hamburg",
+  "rank": 65,
+  "word": "who-i-am",
+  "draft": "be79f0ea19acfd5c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Without a hint, \"Sie kommt aus Hamburg.\" is just as common and correct for \"She is from Hamburg.\", so the prompt has two right answers.",
+      "fix": "hint: with sein, not kommen"
+    }
+  ],
+  "back": {
+    "target": "She is from Hamburg.",
+    "example": "She is from Hamburg and he is from Berlin."
+  },
+  "note": "Make sure this card and the \"I'm from Berlin, and you?\" card use the same verb (sein or kommen), or tell them apart with hints, so the learner isn't confused.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:45.795Z"
+}

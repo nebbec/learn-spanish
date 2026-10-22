@@ -1,0 +1,17 @@
+{
+  "id": "helfen-help",
+  "rank": 139,
+  "word": "helfen",
+  "draft": "6890efa40d3ef3b5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to help",
+    "example": "Can you please help me?"
+  },
+  "note": "The example also shows that helfen takes the dative (mir), which is worth pointing out to learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:19.134Z"
+}

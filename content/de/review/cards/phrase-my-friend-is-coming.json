@@ -1,0 +1,17 @@
+{
+  "id": "phrase-my-friend-is-coming",
+  "rank": 157,
+  "word": "making-plans",
+  "draft": "3a2fd7be2028f028",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "My friend (male; often also my boyfriend) is coming tomorrow.",
+    "example": "My friend is coming tomorrow from Berlin."
+  },
+  "note": "Mein Freund often means my boyfriend, especially when a woman says it, and people say ein Freund von mir to mean just a friend, so the editor could mention this somewhere on the card; the hint is needed to rule out Freundin.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:58.389Z"
+}

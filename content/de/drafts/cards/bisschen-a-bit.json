@@ -1,0 +1,21 @@
+{
+  "id": "bisschen-a-bit",
+  "rank": 347,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "bisschen",
+  "en": "a bit, a little",
+  "hint": "after ein: ein ___",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin ein bisschen müde.",
+    "en": "I'm a bit tired."
+  },
+  "regional": null,
+  "trick": "BISSCHEN sounds like \"bitsy-shen\": a bitsy little bite, just a bit.",
+  "image": "/deck-de/img/bisschen-a-bit.webp",
+  "audio": {
+    "word": "/deck-de/audio/bisschen-a-bit.word.mp3",
+    "sentence": "/deck-de/audio/bisschen-a-bit.sentence.mp3"
+  }
+}

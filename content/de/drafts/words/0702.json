@@ -1,0 +1,15 @@
+{
+  "rank": 702,
+  "word": "Hotel",
+  "cards": [
+    "hotel-hotel"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hotel-hotel": "hotel-hotel"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:29.590Z"
+}

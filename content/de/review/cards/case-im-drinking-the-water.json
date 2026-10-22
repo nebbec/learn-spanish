@@ -6,12 +6,12 @@
   "flagged": false,
   "findings": [],
   "back": {
-    "target": "the water (accusative, unchanged from the nominative)",
+    "target": "the water (accusative, as the direct object)",
     "example": "Aren't you drinking the water?"
   },
-  "note": "A neuter accusative looks just like the nominative, so this card only teaches that das stays das; that's correct, but the editor may want to make sure the unit also covers this point clearly next to the den Mann card.",
+  "note": "The neuter accusative das is the same as the nominative, so this card shows that the article doesn't change, unlike den Mann in the same unit; the content card agua-water is the right picture match, but a case card's sameAs stays null.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:05.740Z"
+  "reviewedAt": "2026-10-22T09:05:54.361Z"
 }

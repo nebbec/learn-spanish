@@ -1,0 +1,33 @@
+{
+  "id": "sprechen-speak",
+  "rank": 149,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sprechen",
+  "en": "to speak, to talk",
+  "hint": "also a language; not reden",
+  "grammar": {
+    "present": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er": "spricht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesprochen"
+    }
+  },
+  "example": {
+    "target": "Sprichst du Englisch?",
+    "en": "Do you speak English?"
+  },
+  "regional": null,
+  "trick": "SPRECHEN sounds a bit like SPEECH-en: when you speak, you make speech.",
+  "image": "/deck-de/img/sprechen-speak.webp",
+  "audio": {
+    "word": "/deck-de/audio/sprechen-speak.word.mp3",
+    "sentence": "/deck-de/audio/sprechen-speak.sentence.mp3"
+  }
+}

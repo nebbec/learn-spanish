@@ -1,0 +1,17 @@
+{
+  "id": "kein-no",
+  "rank": 41,
+  "word": "kein",
+  "draft": "4e14c52c3f6a4450",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "no, not a, not any (negative determiner)",
+    "example": "My father doesn't drink coffee."
+  },
+  "note": "The prompt \"Ich habe kein Auto\" gives the bare form kein because Auto is neuter, and the example shows the -en ending (keinen Kaffee), so the learner sees that kein changes its ending.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:40.920Z"
+}

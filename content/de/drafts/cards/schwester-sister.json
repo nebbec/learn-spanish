@@ -1,0 +1,25 @@
+{
+  "id": "schwester-sister",
+  "rank": 343,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Schwester",
+  "en": "sister",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Schwestern"
+  },
+  "example": {
+    "target": "Meine Schwester ist aus Hamburg.",
+    "en": "My sister is from Hamburg."
+  },
+  "regional": null,
+  "trick": "SCHWESTER sounds like \"shvester\", close to \"sister\" with a swish, as if your sister stole your sweater.",
+  "image": "/deck-de/img/schwester-sister.webp",
+  "audio": {
+    "word": "/deck-de/audio/schwester-sister.word.mp3",
+    "sentence": "/deck-de/audio/schwester-sister.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "zwei-two",
+  "rank": 153,
+  "word": "zwei",
+  "draft": "29a8db844dfaa14a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "two",
+    "example": "I'd like two coffees, please."
+  },
+  "note": "In Germany people often say zwo instead of zwei on the phone or when reading out numbers so it isn't confused with drei, which could go in a later footnote, and the singular in zwei Kaffee is the normal way to order and shouldn't be changed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:16.720Z"
+}

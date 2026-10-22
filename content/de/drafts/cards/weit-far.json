@@ -1,0 +1,21 @@
+{
+  "id": "weit-far",
+  "rank": 243,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "weit",
+  "en": "far",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ist es noch weit?",
+    "en": "Is it still far?"
+  },
+  "regional": null,
+  "trick": "WEIT sounds like \"vite\", close to \"white\": mountains far away look white with snow.",
+  "image": "/deck-de/img/weit-far.webp",
+  "audio": {
+    "word": "/deck-de/audio/weit-far.word.mp3",
+    "sentence": "/deck-de/audio/weit-far.sentence.mp3"
+  }
+}

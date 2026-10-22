@@ -1,0 +1,33 @@
+{
+  "id": "anrufen-call",
+  "rank": 363,
+  "kind": "content",
+  "pos": "verb",
+  "target": "anrufen",
+  "en": "to call",
+  "hint": "on the phone",
+  "grammar": {
+    "present": {
+      "ich": "rufe an",
+      "du": "rufst an",
+      "er": "ruft an"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angerufen"
+    }
+  },
+  "example": {
+    "target": "Ich rufe dich morgen an.",
+    "en": "I'll call you tomorrow."
+  },
+  "regional": null,
+  "trick": "ANRUFEN sounds like \"an ROOF-en\": picture yourself on a roof, phone in hand, calling a friend.",
+  "image": "/deck-de/img/anrufen-call.webp",
+  "audio": {
+    "word": "/deck-de/audio/anrufen-call.word.mp3",
+    "sentence": "/deck-de/audio/anrufen-call.sentence.mp3"
+  }
+}

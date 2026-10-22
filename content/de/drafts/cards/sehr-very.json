@@ -1,0 +1,21 @@
+{
+  "id": "sehr-very",
+  "rank": 98,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "sehr",
+  "en": "very",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich heiße Anna. Freut mich sehr!",
+    "en": "I'm Anna. Very nice to meet you!"
+  },
+  "regional": null,
+  "trick": "SEHR sounds like \"zair\", like a zebra's hair: very, very stripy.",
+  "image": "/deck-de/img/sehr-very.webp",
+  "audio": {
+    "word": "/deck-de/audio/sehr-very.word.mp3",
+    "sentence": "/deck-de/audio/sehr-very.sentence.mp3"
+  }
+}

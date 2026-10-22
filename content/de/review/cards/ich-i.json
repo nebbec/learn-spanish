@@ -2,16 +2,16 @@
   "id": "ich-i",
   "rank": 3,
   "word": "ich",
-  "draft": "853f11e378004dd0",
+  "draft": "df398f3b1eafd846",
   "flagged": false,
   "findings": [],
   "back": {
     "target": "I (first-person singular subject pronoun)",
-    "example": "I'm really tired today."
+    "example": "I sing. / I'm singing."
   },
-  "note": "The trick's \"itch\" is only a rough guide because the German ch in ich is a soft hissing sound, not the tch in itch, so the editor might add that to keep learners from saying \"itch\".",
+  "note": "The example works, but a more everyday sentence such as \"Ich bin müde.\" (I'm tired.) would match the prompt and sound less bare than \"Ich singe.\"",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-10T13:31:56.268Z"
+  "reviewedAt": "2026-10-22T09:14:20.383Z"
 }

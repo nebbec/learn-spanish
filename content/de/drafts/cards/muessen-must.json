@@ -1,0 +1,33 @@
+{
+  "id": "muessen-must",
+  "rank": 42,
+  "kind": "content",
+  "pos": "verb",
+  "target": "müssen",
+  "en": "to have to",
+  "hint": "must",
+  "grammar": {
+    "present": {
+      "ich": "muss",
+      "du": "musst",
+      "er": "muss"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemusst"
+    }
+  },
+  "example": {
+    "target": "Ich muss morgen früh arbeiten.",
+    "en": "I have to work early tomorrow."
+  },
+  "regional": null,
+  "trick": "MUSS, as in ich muss, sounds almost like must, and that is exactly what it means.",
+  "image": "/deck-de/img/muessen-must.webp",
+  "audio": {
+    "word": "/deck-de/audio/muessen-must.word.mp3",
+    "sentence": "/deck-de/audio/muessen-must.sentence.mp3"
+  }
+}

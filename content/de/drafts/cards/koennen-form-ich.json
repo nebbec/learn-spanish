@@ -1,0 +1,33 @@
+{
+  "id": "koennen-form-ich",
+  "rank": 17,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich kann",
+  "en": "I can",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "kann",
+      "du": "kannst",
+      "er": "kann"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekonnt"
+    }
+  },
+  "example": {
+    "target": "Ich kann gut Englisch sprechen.",
+    "en": "I can speak English well."
+  },
+  "regional": null,
+  "trick": "Kann sounds almost exactly like English can, and means the same thing.",
+  "image": "/deck-de/img/koennen-can.webp",
+  "audio": {
+    "word": "/deck-de/audio/koennen-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/koennen-form-ich.sentence.mp3"
+  }
+}

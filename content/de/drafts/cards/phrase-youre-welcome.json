@@ -1,0 +1,21 @@
+{
+  "id": "phrase-youre-welcome",
+  "rank": 459,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Gern geschehen.",
+  "en": "You're welcome.",
+  "hint": "The two-word reply to thanks, not bitte",
+  "grammar": null,
+  "example": {
+    "target": "Danke, Anna! – Gern geschehen.",
+    "en": "Thanks, Anna! – You're welcome."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-youre-welcome.word.mp3",
+    "sentence": "/deck-de/audio/phrase-youre-welcome.sentence.mp3"
+  }
+}

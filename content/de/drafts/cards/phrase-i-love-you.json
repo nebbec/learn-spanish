@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-love-you",
+  "rank": 145,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich liebe dich.",
+  "en": "I love you.",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "target": "Ich liebe dich und ich vermisse dich.",
+    "en": "I love you and I miss you."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-i-love-you.word.mp3",
+    "sentence": "/deck-de/audio/phrase-i-love-you.sentence.mp3"
+  }
+}

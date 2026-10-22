@@ -1,0 +1,16 @@
+{
+  "id": "koennen-form-ich",
+  "unit": "can-you-help-me",
+  "want": "können: I can (ich kann)",
+  "requires": [
+    "ich-i"
+  ],
+  "tip": "tip-modal-end",
+  "why": null,
+  "draft": "86c6dd23f1c6f349",
+  "group": "forms können",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:16.364Z"
+}

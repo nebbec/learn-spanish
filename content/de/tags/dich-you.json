@@ -1,0 +1,16 @@
+{
+  "id": "dich-you",
+  "unit": "people-i-love",
+  "want": "dich: you (object)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": "Use dich when you is the object (I see you); du when you is the one doing it.",
+  "draft": "9fc1b2d92d3b502a",
+  "group": "#39 dich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:02:39.454Z"
+}

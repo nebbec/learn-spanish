@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-have-a-brother",
+  "rank": 343,
+  "word": "a-coffee-please",
+  "draft": "c628e53633766634",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I have a brother and a sister.",
+    "example": "I have a brother and a sister. And you?"
+  },
+  "note": "This card is fine, but a family phrase doesn't really fit the unit a-coffee-please, whose other phrase is about ordering, so the editor may want to move it to a unit about family or introducing yourself.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:20.453Z"
+}

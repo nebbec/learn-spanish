@@ -1,0 +1,14 @@
+{
+  "id": "angst-fear",
+  "unit": "how-i-feel",
+  "want": "Angst: fear",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "34764ade8be5c6e0",
+  "group": "#241 Angst",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:34.655Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mich-myself",
+  "rank": 26,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "mich",
+  "en": "I see [myself] in the mirror",
+  "hint": "direct object, not mir",
+  "grammar": null,
+  "example": {
+    "target": "Ich freue mich auf das Wochenende.",
+    "en": "I'm looking forward to the weekend."
+  },
+  "regional": null,
+  "trick": "MICH sounds like \"me\" with a soft hiss: when I do something to me, that's myself.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mich-myself.word.mp3",
+    "sentence": "/deck-de/audio/mich-myself.sentence.mp3"
+  }
+}

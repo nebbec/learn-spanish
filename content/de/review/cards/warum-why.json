@@ -1,0 +1,17 @@
+{
+  "id": "warum-why",
+  "rank": 90,
+  "word": "warum",
+  "draft": "1d7e2ce47a5bf2f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "why",
+    "example": "Why are you tired?"
+  },
+  "note": "The hint correctly rules out wieso, which is just as common in everyday speech, so the editor might word it as \"the most neutral word, not wieso or weshalb\" rather than implying wieso is non-standard.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:59.589Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bitte-please",
+  "rank": 86,
+  "word": "bitte",
+  "draft": "b68f2c7ee7a6244c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "please",
+    "example": "Bring it, please!"
+  },
+  "note": "The example is correct, but \"Bring mir das bitte!\" (Please bring me that!) would sound a bit more natural than a bare \"Bring es bitte!\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:57.242Z"
+}

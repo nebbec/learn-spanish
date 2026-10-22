@@ -1,0 +1,23 @@
+{
+  "id": "nein-no",
+  "rank": 44,
+  "word": "nein",
+  "draft": "d30aa10605372be2",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "'Nein, ich finde es.' is awkward and unclear, because bare 'ich finde es' sounds like an unfinished opinion ('I find it...') and doesn't clearly mean 'I'll find it'.",
+      "fix": "example.target: Nein, ich habe keine Zeit. / example.en: No, I don't have time."
+    }
+  ],
+  "back": {
+    "target": "no (as an answer, the opposite of yes)",
+    "example": "No, I find it. (Bare 'ich finde es' reads as 'I find it' or a cut-off 'I think it's...', not clearly 'I'll find it'.)"
+  },
+  "note": "The hint is useful because it rules out kein (no as in 'no money'), and Swiss dialect 'nei' doesn't need a regional note, since standard German everywhere uses nein.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:43.182Z"
+}

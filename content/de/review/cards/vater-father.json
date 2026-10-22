@@ -1,0 +1,17 @@
+{
+  "id": "vater-father",
+  "rank": 155,
+  "word": "Vater",
+  "draft": "8844faf364e0868a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "father",
+    "example": "My father is from Hamburg."
+  },
+  "note": "The hint is needed and works: it rules out Papa, which would otherwise also be a right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:26.747Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-at-my-mothers",
+  "rank": 175,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich bin bei meiner Mutter.",
+  "en": "I'm at my mother's.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wo bist du? – Ich bin bei meiner Mutter.",
+    "en": "Where are you? – I'm at my mother's."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-at-my-mothers.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-at-my-mothers.sentence.mp3"
+  }
+}

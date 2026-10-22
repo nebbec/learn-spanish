@@ -1,0 +1,14 @@
+{
+  "id": "wasser-water",
+  "unit": "what-i-want-and-have",
+  "want": "Wasser",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "09ef75103dfbdd2d",
+  "group": "#402 Wasser",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:48.597Z"
+}

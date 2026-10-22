@@ -1,0 +1,30 @@
+# morgen-tomorrow · rank 157 · morgen
+#
+# Why it was flagged:
+#   - Example sentence: For a trip to another city Germans say fahren, not gehen, and 'Ich gehe nach Hamburg' tends to mean moving there, so learners would memorize the wrong verb for travel. Suggested fix: example.target: Ich fahre morgen nach Hamburg.
+# Reviewer's note (not a reason to flag): The lowercase adverb morgen is clearly separate from the noun der Morgen on the word's other card, so no hint is needed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             morgen-tomorrow
+kind:           content
+pos:            adverb
+target:         morgen
+en:             tomorrow
+hint:
+example.target: Ich gehe morgen nach Hamburg.
+example.en:     I'm going to Hamburg tomorrow.
+regional.where:
+regional.text:
+trick:          MORGEN starts like "morning": tomorrow begins with the next morning.
+
+# The draft this file was made from. Do not change it.
+draft: 74f98f61d8d91a13

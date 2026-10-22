@@ -3,7 +3,7 @@
   "unit": "making-plans",
   "want": "case: bei meiner Schwester = at [my] sister's",
   "requires": [
-    "mein-my"
+    "schwester-sister"
   ],
   "tip": "tip-dative",
   "why": null,
@@ -12,5 +12,5 @@
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "taggedAt": "2026-10-22T08:53:48.716Z"
+  "taggedAt": "2026-10-22T09:02:37.559Z"
 }

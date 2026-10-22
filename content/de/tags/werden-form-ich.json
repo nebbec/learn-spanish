@@ -1,0 +1,16 @@
+{
+  "id": "werden-form-ich",
+  "unit": "making-plans",
+  "want": "werden: I will (ich werde)",
+  "requires": [
+    "ich-i"
+  ],
+  "tip": null,
+  "why": "For \"I will\" say ich werde; ich will means \"I want\".",
+  "draft": "dafc1f938709a98d",
+  "group": "forms werden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:14.682Z"
+}

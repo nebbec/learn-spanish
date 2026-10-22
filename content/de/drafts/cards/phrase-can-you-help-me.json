@@ -1,0 +1,21 @@
+{
+  "id": "phrase-can-you-help-me",
+  "rank": 139,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Kannst du mir bitte helfen?",
+  "en": "Can you help me, please?",
+  "hint": "informal, to a friend",
+  "grammar": null,
+  "example": {
+    "target": "Ich verstehe das nicht. Kannst du mir bitte helfen?",
+    "en": "I don't understand this. Can you help me, please?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-can-you-help-me.word.mp3",
+    "sentence": "/deck-de/audio/phrase-can-you-help-me.sentence.mp3"
+  }
+}

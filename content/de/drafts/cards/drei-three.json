@@ -1,0 +1,21 @@
+{
+  "id": "drei-three",
+  "rank": 237,
+  "kind": "content",
+  "pos": "other",
+  "target": "drei",
+  "en": "three",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich habe drei Brüder.",
+    "en": "I have three brothers."
+  },
+  "regional": null,
+  "trick": "DREI sounds like \"dry\": hang three towels out to dry.",
+  "image": "/deck-de/img/drei-three.webp",
+  "audio": {
+    "word": "/deck-de/audio/drei-three.word.mp3",
+    "sentence": "/deck-de/audio/drei-three.sentence.mp3"
+  }
+}

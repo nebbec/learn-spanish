@@ -1,0 +1,17 @@
+{
+  "rank": 243,
+  "word": "weit",
+  "cards": [
+    "weit-far",
+    "weit-wide"
+  ],
+  "skip": null,
+  "sameAs": {
+    "weit-far": "lejos-far",
+    "weit-wide": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:46.791Z"
+}

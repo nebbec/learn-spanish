@@ -1,0 +1,23 @@
+{
+  "id": "morgen-tomorrow",
+  "rank": 157,
+  "word": "morgen",
+  "draft": "74f98f61d8d91a13",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "For a trip to another city Germans say fahren, not gehen, and 'Ich gehe nach Hamburg' tends to mean moving there, so learners would memorize the wrong verb for travel.",
+      "fix": "example.target: Ich fahre morgen nach Hamburg."
+    }
+  ],
+  "back": {
+    "target": "tomorrow",
+    "example": "I'm going to Hamburg tomorrow (with gehen this can sound like moving there)."
+  },
+  "note": "The lowercase adverb morgen is clearly separate from the noun der Morgen on the word's other card, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:30.100Z"
+}

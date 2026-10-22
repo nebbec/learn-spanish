@@ -1,0 +1,33 @@
+{
+  "id": "moechten-form-du",
+  "rank": 104,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du möchtest",
+  "en": "you would like",
+  "hint": "polite wish, informal",
+  "grammar": {
+    "present": {
+      "ich": "möchte",
+      "du": "möchtest",
+      "er": "möchte"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemocht"
+    }
+  },
+  "example": {
+    "target": "Möchtest du einen Kaffee?",
+    "en": "Would you like a coffee?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/moegen-would-like.webp",
+  "audio": {
+    "word": "/deck-de/audio/moechten-form-du.word.mp3",
+    "sentence": "/deck-de/audio/moechten-form-du.sentence.mp3"
+  }
+}

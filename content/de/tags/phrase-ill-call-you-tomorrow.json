@@ -1,0 +1,19 @@
+{
+  "id": "phrase-ill-call-you-tomorrow",
+  "unit": "people-i-love",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "anrufen-call",
+    "dich-you",
+    "morgen-tomorrow"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "e50879b6d6b2f664",
+  "group": "phrases people-i-love",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:56.912Z"
+}

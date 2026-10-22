@@ -1,0 +1,27 @@
+# tip-modal-end · tip 7 of 14 · introduced by unit 9, Can you help me?
+# The brief from content/tips.json: With können, müssen, wollen or möchten, the other verb goes to the very end of the sentence in its dictionary form: Kannst du mir helfen? Ich möchte Wasser trinken.
+# Drafted 2026-10-22T08:58:55.991Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-modal-end --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Can, must, want: the second verb goes last
+
+Words like können (can), müssen (must), wollen (want) and möchten (would like) often team up with a second verb.
+The first verb changes with who does it, like ich kann or du kannst, and sits in its usual spot.
+The second verb goes to the very end of the sentence in its dictionary form, so ich möchte Wasser trinken means I would like to drink water.
+Everything else goes in between, and questions work the same way: Kannst du mir helfen? means can you help me?
+English says to drink or to help, but German needs no word for to here.
+
+example: Kannst du mir helfen? | Can you help me?
+example: Ich möchte einen Kaffee trinken. | I'd like to drink a coffee.
+example: Wir müssen Deutsch sprechen. | We have to speak German.

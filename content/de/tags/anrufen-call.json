@@ -1,0 +1,14 @@
+{
+  "id": "anrufen-call",
+  "unit": "people-i-love",
+  "want": "anrufen: call (on the phone)",
+  "requires": [],
+  "tip": "tip-separable",
+  "why": null,
+  "draft": "5be322ebb84bd9c0",
+  "group": "#363 anrufen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:48.169Z"
+}

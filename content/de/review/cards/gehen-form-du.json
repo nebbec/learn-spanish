@@ -1,0 +1,17 @@
+{
+  "id": "gehen-form-du",
+  "rank": 34,
+  "word": "gehen",
+  "draft": "4623bdd15430b5cd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you go (informal, singular)",
+    "example": "Where are you going?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:28.073Z"
+}

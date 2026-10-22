@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-dont-understand",
+  "rank": 124,
+  "word": "when-i-dont-understand",
+  "draft": "68cee8b83abc9de8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I don't understand.",
+    "example": "I don't understand. Do you speak English?"
+  },
+  "note": "Ich verstehe das nicht is a close variant that a learner might also give, but it means I don't understand that, so the bare prompt still points to Ich verstehe nicht.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:40.044Z"
+}

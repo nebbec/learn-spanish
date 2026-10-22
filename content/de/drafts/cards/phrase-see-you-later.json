@@ -1,0 +1,21 @@
+{
+  "id": "phrase-see-you-later",
+  "rank": 328,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Bis später!",
+  "en": "See you later!",
+  "hint": "later today",
+  "grammar": null,
+  "example": {
+    "target": "Ich rufe dich an. Bis später!",
+    "en": "I'll call you. See you later!"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-see-you-later.word.mp3",
+    "sentence": "/deck-de/audio/phrase-see-you-later.sentence.mp3"
+  }
+}

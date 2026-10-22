@@ -1,0 +1,33 @@
+{
+  "id": "kommen-form-du",
+  "rank": 37,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du kommst",
+  "en": "you come",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gekommen"
+    }
+  },
+  "example": {
+    "target": "Kommst du heute?",
+    "en": "Are you coming today?"
+  },
+  "regional": null,
+  "trick": "Kommst sounds like old English thou comest, which was also the informal you.",
+  "image": "/deck-de/img/kommen-come.webp",
+  "audio": {
+    "word": "/deck-de/audio/kommen-form-du.word.mp3",
+    "sentence": "/deck-de/audio/kommen-form-du.sentence.mp3"
+  }
+}

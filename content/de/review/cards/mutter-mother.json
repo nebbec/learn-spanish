@@ -1,0 +1,23 @@
+{
+  "id": "mutter-mother",
+  "rank": 175,
+  "word": "Mutter",
+  "draft": "12499000e946328c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "MOO-ter suggests a long oo vowel, but the u in Mutter is short (MUT-ter, as in mutt), so the trick teaches a wrong pronunciation.",
+      "fix": "trick: MUTTER, said MUT-ter as in mutt, is close to MOTHER: picture a mother hugging her mutt."
+    }
+  ],
+  "back": {
+    "target": "mother",
+    "example": "My mother is from Hamburg."
+  },
+  "note": "Mutter also means a screw nut (plural die Muttern), but that does not affect this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:42.877Z"
+}

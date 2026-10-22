@@ -1,0 +1,14 @@
+{
+  "id": "hilfe-help",
+  "unit": "can-you-help-me",
+  "want": "Hilfe",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8438c4728c72d482",
+  "group": "#293 Hilfe",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:37.845Z"
+}

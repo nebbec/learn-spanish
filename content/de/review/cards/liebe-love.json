@@ -1,0 +1,23 @@
+{
+  "id": "liebe-love",
+  "rank": 357,
+  "word": "Liebe",
+  "draft": "1d8119b3b1a9beb4",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick tells the learner to find lieb in beloved, but beloved has no lieb in it, so the link is misleading.",
+      "fix": "trick: LIEBE sounds like LEE-buh and is a cousin of English love, so picture someone saying love with a German accent."
+    }
+  ],
+  "back": {
+    "target": "love (the noun)",
+    "example": "Love makes you happy."
+  },
+  "note": "The plural is null, which is fine: die Lieben means loved ones and is not a common plural of love.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:12.796Z"
+}

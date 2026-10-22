@@ -1,0 +1,21 @@
+{
+  "id": "zwei-two",
+  "rank": 153,
+  "kind": "content",
+  "pos": "other",
+  "target": "zwei",
+  "en": "two",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich hätte gern zwei Kaffee, bitte.",
+    "en": "I'd like two coffees, please."
+  },
+  "regional": null,
+  "trick": "ZWEI sounds like \"tsvy\", rhyming with \"eye\": you have two eyes.",
+  "image": "/deck-de/img/zwei-two.webp",
+  "audio": {
+    "word": "/deck-de/audio/zwei-two.word.mp3",
+    "sentence": "/deck-de/audio/zwei-two.sentence.mp3"
+  }
+}

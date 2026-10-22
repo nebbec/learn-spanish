@@ -1,0 +1,17 @@
+{
+  "id": "phrase-excuse-me-can-you",
+  "rank": 451,
+  "word": "out-and-about",
+  "draft": "389779f32c8ff988",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Excuse me, can you help me? (said politely to a stranger)",
+    "example": "Excuse me, can you help me? Where is the hotel?"
+  },
+  "note": "The hint \"formal\" correctly rules out the du version (kannst du mir helfen), but \"Entschuldigen Sie, können Sie mir helfen?\" is also natural, so the editor may want to accept that as a near-match when the learner rates their recall.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:06.728Z"
+}

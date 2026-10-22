@@ -1,0 +1,14 @@
+{
+  "id": "mutter-mother",
+  "unit": "my-people",
+  "want": "Mutter",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "12499000e946328c",
+  "group": "#175 Mutter",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:26.519Z"
+}

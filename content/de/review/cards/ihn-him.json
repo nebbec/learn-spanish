@@ -1,0 +1,17 @@
+{
+  "id": "ihn-him",
+  "rank": 63,
+  "word": "ihn",
+  "draft": "ce2c45207a11b212",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "him (accusative of er; also it, for a masculine noun as direct object)",
+    "example": "My sister likes him very much."
+  },
+  "note": "Spoken German sometimes uses den for him (Ich seh den), but ihn is the standard answer and the card is fine without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:48.648Z"
+}

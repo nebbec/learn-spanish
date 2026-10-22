@@ -1,0 +1,17 @@
+{
+  "id": "haben-form-ich",
+  "rank": 5,
+  "word": "haben",
+  "draft": "1195f1e6747be5f7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I have",
+    "example": "Thanks, I've got coffee."
+  },
+  "note": "The example works as turning down an offered drink, but \"Danke, ich hab schon Kaffee.\" (Thanks, I've already got coffee.) would sound more natural, and it would show the common spoken form \"hab\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:28.514Z"
+}

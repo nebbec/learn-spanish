@@ -1,0 +1,14 @@
+{
+  "id": "muede-tired",
+  "unit": "hello-how-are-you",
+  "want": "müde",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7bbad38fc78ee480",
+  "group": "#836 müde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:05.325Z"
+}

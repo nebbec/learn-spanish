@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-dont-speak-german",
+  "rank": 731,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich spreche kein Deutsch.",
+  "en": "I don't speak German.",
+  "hint": "Use kein, not nicht",
+  "grammar": null,
+  "example": {
+    "target": "Ich verstehe das nicht, ich spreche kein Deutsch.",
+    "en": "I don't understand that, I don't speak German."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-i-dont-speak-german.word.mp3",
+    "sentence": "/deck-de/audio/phrase-i-dont-speak-german.sentence.mp3"
+  }
+}

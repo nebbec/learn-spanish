@@ -1,0 +1,17 @@
+{
+  "id": "dich-you",
+  "rank": 39,
+  "word": "dich",
+  "draft": "9fc1b2d92d3b502a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you (informal singular, accusative object pronoun)",
+    "example": "I like you a lot."
+  },
+  "note": "The hint is needed here: it rules out euch and Sie, and because sehen takes the accusative, dir is ruled out too.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:34.038Z"
+}

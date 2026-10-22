@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 157,
+  "word": "where-im-going",
+  "unit": "where-im-going",
+  "order": 37,
+  "source": "payoff",
+  "line": "Tomorrow I'm going to Anna's.",
+  "words": [
+    {
+      "word": "morgen",
+      "rank": 157
+    },
+    {
+      "word": "gehen",
+      "rank": 34
+    },
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "zu",
+      "rank": 14
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:41.366Z",
+  "cards": [
+    "phrase-tomorrow-im-going-to"
+  ]
+}

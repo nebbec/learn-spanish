@@ -1,0 +1,33 @@
+{
+  "id": "lieben-love",
+  "rank": 145,
+  "kind": "content",
+  "pos": "verb",
+  "target": "lieben",
+  "en": "to love",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "liebe",
+      "du": "liebst",
+      "er": "liebt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geliebt"
+    }
+  },
+  "example": {
+    "target": "Ich liebe dich.",
+    "en": "I love you."
+  },
+  "regional": null,
+  "trick": "LIEBEN sounds like \"LEE-ben\", close to \"leavin'\": you never want to be leaving someone you love.",
+  "image": "/deck-de/img/lieben-love.webp",
+  "audio": {
+    "word": "/deck-de/audio/lieben-love.word.mp3",
+    "sentence": "/deck-de/audio/lieben-love.sentence.mp3"
+  }
+}

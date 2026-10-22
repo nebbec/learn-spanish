@@ -1,0 +1,17 @@
+{
+  "id": "jetzt-now",
+  "rank": 62,
+  "word": "jetzt",
+  "draft": "07a123e7355d14a8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "now",
+    "example": "I have to go now."
+  },
+  "note": "The hint correctly rules out nun, which is the more formal or literary near-synonym, so jetzt is the only answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:46.314Z"
+}

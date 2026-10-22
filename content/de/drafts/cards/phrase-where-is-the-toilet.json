@@ -1,0 +1,24 @@
+{
+  "id": "phrase-where-is-the-toilet",
+  "rank": 79,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Wo ist die Toilette?",
+  "en": "Where is the toilet?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wo ist hier die Toilette, bitte?",
+    "en": "Where's the toilet around here, please?"
+  },
+  "regional": {
+    "where": "Switzerland",
+    "text": "Wo ist das WC?"
+  },
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-where-is-the-toilet.word.mp3",
+    "sentence": "/deck-de/audio/phrase-where-is-the-toilet.sentence.mp3"
+  }
+}

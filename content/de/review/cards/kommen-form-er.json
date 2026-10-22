@@ -1,0 +1,17 @@
+{
+  "id": "kommen-form-er",
+  "rank": 37,
+  "word": "kommen",
+  "draft": "a572607727e3bdcc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he comes (er kommt; sie kommt for she)",
+    "example": "He's coming tomorrow."
+  },
+  "note": "The prompt says \"he / she\" while the target gives only er, which is the app's usual way of writing the er-form card, so the grammar or the answer screen could add that sie kommt is the \"she\" form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:43.059Z"
+}

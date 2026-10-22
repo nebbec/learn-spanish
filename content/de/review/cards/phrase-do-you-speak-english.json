@@ -1,0 +1,23 @@
+{
+  "id": "phrase-do-you-speak-english",
+  "rank": 1186,
+  "word": "when-i-dont-understand",
+  "draft": "1ccc8be612f989ce",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses englisch, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "Do you speak English? (formal)",
+    "example": "Hello, do you speak English? I don't speak German."
+  },
+  "note": "The example reuses the unit's own phrase \"Ich spreche kein Deutsch\", which works as reinforcement; the colloquial \"Können Sie Englisch?\" also exists, but \"Sprechen Sie Englisch?\" is the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:26.906Z"
+}

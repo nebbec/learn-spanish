@@ -1,0 +1,16 @@
+{
+  "id": "gehen-form-du",
+  "unit": "where-im-going",
+  "want": "gehen: you go (du gehst)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "4623bdd15430b5cd",
+  "group": "forms gehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:20.868Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gehen-form-er",
+  "rank": 34,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er geht",
+  "en": "he / she goes",
+  "hint": "on foot, or in general",
+  "grammar": {
+    "present": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er": "geht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gegangen"
+    }
+  },
+  "example": {
+    "target": "Wann geht er zu meinem Bruder?",
+    "en": "When is he going to my brother's?"
+  },
+  "regional": null,
+  "trick": "Geht sounds like gate: he goes through the gate.",
+  "image": "/deck-de/img/gehen-go.webp",
+  "audio": {
+    "word": "/deck-de/audio/gehen-form-er.word.mp3",
+    "sentence": "/deck-de/audio/gehen-form-er.sentence.mp3"
+  }
+}

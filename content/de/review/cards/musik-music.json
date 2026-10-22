@@ -1,0 +1,17 @@
+{
+  "id": "musik-music",
+  "rank": 269,
+  "word": "Musik",
+  "draft": "b5e00f20e394b124",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "music",
+    "example": "My brother likes German music."
+  },
+  "note": "A plural of null is fine because \"Musiken\" is rare, and a regional of null is fine because Austria and Switzerland use the same word, even if some speakers there stress the first syllable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:51.641Z"
+}

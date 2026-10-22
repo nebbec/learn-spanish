@@ -1,0 +1,17 @@
+{
+  "id": "gluecklich-happy",
+  "rank": 408,
+  "word": "glücklich",
+  "draft": "3e3ff5abf77684c3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "happy (also lucky, fortunate)",
+    "example": "I am very happy today."
+  },
+  "note": "froh also translates as happy but is closer to glad, so glücklich is the expected answer to a bare \"happy\"; if froh gets its own card later, both cards will need hints to tell them apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:20.311Z"
+}

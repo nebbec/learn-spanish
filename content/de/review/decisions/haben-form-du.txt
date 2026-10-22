@@ -1,0 +1,37 @@
+# haben-form-du · rank 5 · haben
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: heute, Zeit. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids haben-form-du
+# Reviewer's note (not a reason to flag): The informal hint is needed here, since without it "you have" could also be "Sie haben" or "ihr habt".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 haben-form-du
+kind:               form
+pos:                verb
+target:             du hast
+en:                 you have
+hint:               informal
+ich:                habe
+du:                 hast
+er:                 hat
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gehabt
+example.target:     Hast du heute Zeit?
+example.en:         Do you have time today?
+regional.where:
+regional.text:
+trick:              Du hast is old English thou hast, meaning you have.
+
+# The draft this file was made from. Do not change it.
+draft: bb25e9e2ec053a15

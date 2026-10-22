@@ -1,0 +1,16 @@
+{
+  "id": "werden-form-du",
+  "unit": "making-plans",
+  "want": "werden: you will (du wirst)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "a3cd77ff700e7afa",
+  "group": "forms werden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:14.682Z"
+}

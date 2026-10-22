@@ -1,0 +1,21 @@
+{
+  "id": "nach-to",
+  "rank": 73,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "nach",
+  "en": "I'm flying [to] Berlin",
+  "hint": "a city or country, also home",
+  "grammar": null,
+  "example": {
+    "target": "Ich gehe morgen nach Hamburg.",
+    "en": "I'm going to Hamburg tomorrow."
+  },
+  "regional": null,
+  "trick": "NACH sounds like a short \"knock\": you knock on the door of the city you travel to.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/nach-to.word.mp3",
+    "sentence": "/deck-de/audio/nach-to.sentence.mp3"
+  }
+}

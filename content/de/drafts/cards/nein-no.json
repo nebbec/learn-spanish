@@ -1,0 +1,21 @@
+{
+  "id": "nein-no",
+  "rank": 44,
+  "kind": "content",
+  "pos": "other",
+  "target": "nein",
+  "en": "no",
+  "hint": "the answer, opposite of yes",
+  "grammar": null,
+  "example": {
+    "target": "Nein, ich finde es.",
+    "en": "No, I'll find it."
+  },
+  "regional": null,
+  "trick": "NEIN sounds like \"nine\": picture a toddler shouting no nine times in a row.",
+  "image": "/deck-de/img/nein-no.webp",
+  "audio": {
+    "word": "/deck-de/audio/nein-no.word.mp3",
+    "sentence": "/deck-de/audio/nein-no.sentence.mp3"
+  }
+}

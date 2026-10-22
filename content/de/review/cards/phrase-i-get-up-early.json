@@ -1,0 +1,23 @@
+{
+  "id": "phrase-i-get-up-early",
+  "rank": 1025,
+  "word": "what-i-do",
+  "draft": "347c8b9f3dcf1919",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses aufstehen, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "I get up early.",
+    "example": "I get up early and drink a coffee."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:12.650Z"
+}

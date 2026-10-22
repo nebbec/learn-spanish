@@ -1,0 +1,17 @@
+{
+  "id": "wie-how",
+  "rank": 23,
+  "word": "wie",
+  "draft": "c26569381976c06f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "how (question word)",
+    "example": "How's it going (for you)? / How are you?"
+  },
+  "note": "The example sentence just repeats the prompt as a set phrase, so a second example such as \"Wie heißt du?\" or \"Wie alt bist du?\" would show wie as \"how\" more clearly, though the current one is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:27.929Z"
+}

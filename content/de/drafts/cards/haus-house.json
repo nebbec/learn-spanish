@@ -1,0 +1,25 @@
+{
+  "id": "haus-house",
+  "rank": 129,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Haus",
+  "en": "house",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Häuser"
+  },
+  "example": {
+    "target": "Sie hat ein Haus, ich nicht.",
+    "en": "She has a house, I don't."
+  },
+  "regional": null,
+  "trick": "HAUS sounds almost exactly like house, and that's what it means.",
+  "image": "/deck-de/img/haus-house.webp",
+  "audio": {
+    "word": "/deck-de/audio/haus-house.word.mp3",
+    "sentence": "/deck-de/audio/haus-house.sentence.mp3"
+  }
+}

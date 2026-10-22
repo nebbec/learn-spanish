@@ -1,0 +1,33 @@
+{
+  "id": "wollen-form-du",
+  "rank": 28,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du willst",
+  "en": "you want",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewollt"
+    }
+  },
+  "example": {
+    "target": "Willst du einen Kaffee?",
+    "en": "Do you want a coffee?"
+  },
+  "regional": null,
+  "trick": "Willst sounds like a stretched-out will: your will, what you want.",
+  "image": "/deck-de/img/wollen-want.webp",
+  "audio": {
+    "word": "/deck-de/audio/wollen-form-du.word.mp3",
+    "sentence": "/deck-de/audio/wollen-form-du.sentence.mp3"
+  }
+}

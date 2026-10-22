@@ -1,0 +1,17 @@
+{
+  "id": "phrase-are-you-coming-this",
+  "rank": 233,
+  "word": "making-plans",
+  "draft": "c27bc3e6b8df9291",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Are you coming tonight / this evening?",
+    "example": "Are you coming this evening? There's a party."
+  },
+  "note": "Learners might mix this up with the unit's \"Are you coming along?\" card (Kommst du mit?), so the editor could check that the two prompts stay clearly different, which they do now.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:56.852Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-need-help",
+  "rank": 293,
+  "word": "can-you-help-me",
+  "draft": "d0d28d6d30922179",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I need help.",
+    "example": "Can you help me? I need help."
+  },
+  "note": "The example sentence uses the unit's other phrase, \"Kannst du mir helfen?\", so it also reviews that phrase.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:50.045Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hallo-hello",
+  "rank": 146,
+  "word": "hallo",
+  "draft": "d99897486fb12325",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hello, hi (informal greeting)",
+    "example": "Hello, what's your name?"
+  },
+  "note": "The regional note could also say that Switzerland commonly uses hoi or sali (and grüezi), and that servus is also common in Bavaria.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:24.757Z"
+}

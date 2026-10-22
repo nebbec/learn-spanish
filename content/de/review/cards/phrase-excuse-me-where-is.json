@@ -1,0 +1,17 @@
+{
+  "id": "phrase-excuse-me-where-is",
+  "rank": 702,
+  "word": "out-and-about",
+  "draft": "0f25b276094492e9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Excuse me, where is the hotel?",
+    "example": "Excuse me, where is the hotel? Is it far?"
+  },
+  "note": "Entschuldigen Sie would also be right for a stranger, but Entschuldigung is the usual opener and matches the unit's Excuse me card, so the target stands.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:04.206Z"
+}

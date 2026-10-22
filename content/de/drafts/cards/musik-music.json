@@ -1,0 +1,25 @@
+{
+  "id": "musik-music",
+  "rank": 269,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Musik",
+  "en": "music",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Mein Bruder mag deutsche Musik.",
+    "en": "My brother likes German music."
+  },
+  "regional": null,
+  "trick": "MUSIK sounds like moo-ZEEK, almost the English word music with the stress moved to the end.",
+  "image": "/deck-de/img/musik-music.webp",
+  "audio": {
+    "word": "/deck-de/audio/musik-music.word.mp3",
+    "sentence": "/deck-de/audio/musik-music.sentence.mp3"
+  }
+}

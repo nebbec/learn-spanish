@@ -1,0 +1,17 @@
+{
+  "id": "kind-child",
+  "rank": 147,
+  "word": "Kind",
+  "draft": "f17f1a7cc1987827",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "child",
+    "example": "The child is very tired."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:21.501Z"
+}

@@ -1,0 +1,30 @@
+# eins-one · rank 336 · eins
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: los. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids eins-one
+# Reviewer's note (not a reason to flag): The hint "the number, counting" is needed, because it rules out ein/eine before a noun; a later card on the article ein should point out the difference.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             eins-one
+kind:           content
+pos:            other
+target:         eins
+en:             one
+hint:           the number, counting
+example.target: Eins, zwei, drei, los!
+example.en:     One, two, three, go!
+regional.where:
+regional.text:
+trick:          EINS sounds like eye-ns: close one eye and you see with just one.
+
+# The draft this file was made from. Do not change it.
+draft: d247e997b8dd3688

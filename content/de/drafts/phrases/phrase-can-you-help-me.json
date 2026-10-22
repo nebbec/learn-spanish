@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 139,
+  "word": "can-you-help-me",
+  "unit": "can-you-help-me",
+  "order": 29,
+  "source": "payoff",
+  "line": "Can you help me, please?",
+  "words": [
+    {
+      "word": "können",
+      "rank": 17
+    },
+    {
+      "word": "du",
+      "rank": 7
+    },
+    {
+      "word": "mir",
+      "rank": 21
+    },
+    {
+      "word": "bitte",
+      "rank": 86
+    },
+    {
+      "word": "helfen",
+      "rank": 139
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:21.661Z",
+  "cards": [
+    "phrase-can-you-help-me"
+  ]
+}

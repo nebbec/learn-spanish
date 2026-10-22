@@ -1,0 +1,33 @@
+{
+  "id": "werden-form-ich",
+  "rank": 13,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich werde",
+  "en": "I will",
+  "hint": "future",
+  "grammar": {
+    "present": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geworden"
+    }
+  },
+  "example": {
+    "target": "Ich werde dich morgen anrufen.",
+    "en": "I'll call you tomorrow."
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/werden-become.webp",
+  "audio": {
+    "word": "/deck-de/audio/werden-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/werden-form-ich.sentence.mp3"
+  }
+}

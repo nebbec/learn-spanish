@@ -1,0 +1,14 @@
+{
+  "id": "kein-no",
+  "unit": "when-i-dont-understand",
+  "want": "kein: no, not a",
+  "requires": [],
+  "tip": "tip-nicht-kein",
+  "why": "Use kein before a noun that would take ein or no article; use nicht to say not anywhere else.",
+  "draft": "4e14c52c3f6a4450",
+  "group": "#41 kein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:02:42.695Z"
+}

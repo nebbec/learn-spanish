@@ -1,0 +1,33 @@
+{
+  "id": "wohnen-live",
+  "rank": 439,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wohnen",
+  "en": "to live",
+  "hint": "reside somewhere, not be alive",
+  "grammar": {
+    "present": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er": "wohnt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewohnt"
+    }
+  },
+  "example": {
+    "target": "Wo wohnst du?",
+    "en": "Where do you live?"
+  },
+  "regional": null,
+  "trick": "WOHNEN sounds like VOH-nen, a bit like a moaning home owner: the owner lives in that home.",
+  "image": "/deck-de/img/wohnen-live.webp",
+  "audio": {
+    "word": "/deck-de/audio/wohnen-live.word.mp3",
+    "sentence": "/deck-de/audio/wohnen-live.sentence.mp3"
+  }
+}

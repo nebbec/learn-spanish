@@ -1,0 +1,17 @@
+{
+  "id": "werden-form-er",
+  "rank": 13,
+  "word": "werden",
+  "draft": "cd13975579472dd3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he will (future auxiliary; with er, he will / it will)",
+    "example": "She will work in Berlin tomorrow."
+  },
+  "note": "The hint \"future\" is needed, because without it \"he / she becomes\" (er wird) would also fit; in everyday speech Germans would usually say \"Sie arbeitet morgen in Berlin\", but the future example suits this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:42.008Z"
+}

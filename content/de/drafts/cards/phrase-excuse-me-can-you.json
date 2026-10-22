@@ -1,0 +1,21 @@
+{
+  "id": "phrase-excuse-me-can-you",
+  "rank": 451,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Entschuldigung, können Sie mir helfen?",
+  "en": "Excuse me, can you help me?",
+  "hint": "formal",
+  "grammar": null,
+  "example": {
+    "target": "Entschuldigung, können Sie mir helfen? Wo ist das Hotel?",
+    "en": "Excuse me, can you help me? Where is the hotel?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-excuse-me-can-you.word.mp3",
+    "sentence": "/deck-de/audio/phrase-excuse-me-can-you.sentence.mp3"
+  }
+}

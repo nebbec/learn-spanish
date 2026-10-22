@@ -1,0 +1,15 @@
+{
+  "rank": 84,
+  "word": "bei",
+  "cards": [
+    "bei-at-place"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bei-at-place": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:40.861Z"
+}

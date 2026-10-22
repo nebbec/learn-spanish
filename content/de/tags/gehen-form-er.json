@@ -1,0 +1,16 @@
+{
+  "id": "gehen-form-er",
+  "unit": "where-im-going",
+  "want": "gehen: he / she goes (er geht)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "06c89a7ea9b0879b",
+  "group": "forms gehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:20.868Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "deutsch-german",
+  "rank": 731,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "deutsch",
+  "en": "German",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke gern deutsches Bier.",
+    "en": "I like drinking German beer."
+  },
+  "regional": null,
+  "trick": "DEUTSCH sounds like \"DOYTCH\", close to \"Dutch\": Pennsylvania Dutch settlers were really Germans.",
+  "image": "/deck-de/img/deutsch-german.webp",
+  "audio": {
+    "word": "/deck-de/audio/deutsch-german.word.mp3",
+    "sentence": "/deck-de/audio/deutsch-german.sentence.mp3"
+  }
+}

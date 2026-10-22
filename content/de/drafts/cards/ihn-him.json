@@ -1,0 +1,21 @@
+{
+  "id": "ihn-him",
+  "rank": 63,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "ihn",
+  "en": "I see [him]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Meine Schwester mag ihn sehr.",
+    "en": "My sister likes him a lot."
+  },
+  "regional": null,
+  "trick": "IHN sounds like the end of seen: I have seen him.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ihn-him.word.mp3",
+    "sentence": "/deck-de/audio/ihn-him.sentence.mp3"
+  }
+}

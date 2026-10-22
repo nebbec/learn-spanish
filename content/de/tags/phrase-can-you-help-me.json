@@ -1,0 +1,19 @@
+{
+  "id": "phrase-can-you-help-me",
+  "unit": "can-you-help-me",
+  "want": null,
+  "requires": [
+    "koennen-form-du",
+    "mir-me-dative",
+    "bitte-please",
+    "helfen-help"
+  ],
+  "tip": "tip-modal-end",
+  "why": null,
+  "draft": "8022108bf3b3949b",
+  "group": "phrases can-you-help-me",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:42.160Z"
+}

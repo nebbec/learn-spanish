@@ -1,0 +1,15 @@
+{
+  "rank": 425,
+  "word": "vier",
+  "cards": [
+    "vier-four"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vier-four": "cuatro-four"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:11.877Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 28,
+  "word": "wollen",
+  "cards": [
+    "wollen-want"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wollen-want": "querer-want"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:04.673Z"
+}

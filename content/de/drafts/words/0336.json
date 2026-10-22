@@ -1,0 +1,15 @@
+{
+  "rank": 336,
+  "word": "eins",
+  "cards": [
+    "eins-one"
+  ],
+  "skip": null,
+  "sameAs": {
+    "eins-one": "uno-one-number"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:58.836Z"
+}

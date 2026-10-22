@@ -1,0 +1,23 @@
+{
+  "id": "phrase-he-has-a-house",
+  "rank": 129,
+  "word": "what-i-want-and-have",
+  "draft": "3729906eae191676",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "Grammatically fine, but pairing a house with coffee is an odd mix that nobody would naturally say, so it doesn't work as a model sentence.",
+      "fix": "example.target: Er hat ein Haus mit Garten. / example.en: He has a house with a garden."
+    }
+  ],
+  "back": {
+    "target": "He has a house.",
+    "example": "He has a house and I have coffee."
+  },
+  "note": "sameAs is correctly null because this is a phrase card, though the Spanish card tener-have covers the same verb if a picture is wanted elsewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:13.872Z"
+}

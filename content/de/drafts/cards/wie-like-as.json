@@ -1,0 +1,21 @@
+{
+  "id": "wie-like-as",
+  "rank": 23,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "wie",
+  "en": "as tall [as] me",
+  "hint": "comparing equals, also like",
+  "grammar": null,
+  "example": {
+    "target": "Mein Bruder ist so müde wie ich.",
+    "en": "My brother is as tired as I am."
+  },
+  "regional": null,
+  "trick": "WIE sounds like vee: two V letters side by side look just like each other, as alike as twins.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wie-like-as.word.mp3",
+    "sentence": "/deck-de/audio/wie-like-as.sentence.mp3"
+  }
+}

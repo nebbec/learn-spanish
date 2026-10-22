@@ -1,0 +1,17 @@
+{
+  "id": "kaufen-buy",
+  "rank": 356,
+  "word": "kaufen",
+  "draft": "a4f0e386034ffa89",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to buy, to purchase",
+    "example": "I'm buying coffee and water today."
+  },
+  "note": "The trick's sound match is loose because German au sounds like \"ow\" (so kauf sounds closer to \"cowf\"), but the cough-up link still works as a weak pun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:09.577Z"
+}

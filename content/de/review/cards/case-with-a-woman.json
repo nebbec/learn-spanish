@@ -7,11 +7,11 @@
   "findings": [],
   "back": {
     "target": "with a woman",
-    "example": "He is talking with a woman."
+    "example": "He is talking to a woman."
   },
   "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:24.881Z"
+  "reviewedAt": "2026-10-22T09:06:32.946Z"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "koennen-form-ich",
+  "rank": 17,
+  "word": "können",
+  "draft": "86c6dd23f1c6f349",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I can",
+    "example": "I can speak English well."
+  },
+  "note": "The participle gekonnt is right when können is the main verb (Ich habe das gekonnt), but with another infinitive the Perfekt uses können instead (Ich habe nicht kommen können), which the editor may want to mention somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:46.400Z"
+}

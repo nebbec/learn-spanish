@@ -1,0 +1,21 @@
+{
+  "id": "danke-thank-you",
+  "rank": 96,
+  "kind": "content",
+  "pos": "other",
+  "target": "danke",
+  "en": "thank you",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Danke für deine Hilfe!",
+    "en": "Thanks for your help!"
+  },
+  "regional": null,
+  "trick": "DANKE sounds like DAHN-keh, close to thank-ya: say thanks with a D and you've got it.",
+  "image": "/deck-de/img/danke-thank-you.webp",
+  "audio": {
+    "word": "/deck-de/audio/danke-thank-you.word.mp3",
+    "sentence": "/deck-de/audio/danke-thank-you.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wissen-form-du",
+  "rank": 30,
+  "word": "wissen",
+  "draft": "753fe53cc51a4b96",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you know (a fact, informal singular)",
+    "example": "Do you know where he is?"
+  },
+  "note": "The hint \"a fact\" rules out du kennst and \"informal\" rules out Sie wissen, so the hint is needed and works as written.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:22.239Z"
+}

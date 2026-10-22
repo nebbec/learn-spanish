@@ -1,0 +1,33 @@
+{
+  "id": "muessen-form-er",
+  "rank": 42,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er muss",
+  "en": "he / she must",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "muss",
+      "du": "musst",
+      "er": "muss"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemusst"
+    }
+  },
+  "example": {
+    "target": "Er muss Deutsch sprechen.",
+    "en": "He has to speak German."
+  },
+  "regional": null,
+  "trick": "Just like English, he must has no extra ending: er muss is must without the t.",
+  "image": "/deck-de/img/muessen-must.webp",
+  "audio": {
+    "word": "/deck-de/audio/muessen-form-er.word.mp3",
+    "sentence": "/deck-de/audio/muessen-form-er.sentence.mp3"
+  }
+}

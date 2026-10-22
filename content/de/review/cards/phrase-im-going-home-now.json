@@ -1,0 +1,23 @@
+{
+  "id": "phrase-im-going-home-now",
+  "rank": 129,
+  "word": "where-im-going",
+  "draft": "be9424f11a7423e8",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is two sentences, but it should be one short sentence.",
+      "fix": "example.target: Tschüss, ich gehe jetzt nach Hause. | example.en: Bye, I'm going home now."
+    }
+  ],
+  "back": {
+    "target": "I'm going home now.",
+    "example": "I'm very tired. I'm going home now."
+  },
+  "note": "\"Ich fahre jetzt nach Hause\" also works if you're going by car or train, and southern speakers often say \"heim\", but \"gehe ... nach Hause\" is the right everyday default, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:07.631Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-tomorrow-im-going-to",
+  "rank": 157,
+  "word": "where-im-going",
+  "draft": "6fa2dc2379adf05e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Tomorrow I'm going to Anna's.",
+    "example": "Not today. Tomorrow I'm going to Anna's."
+  },
+  "note": "\"Ich gehe morgen zu Anna.\" is an equally natural word order, so the learner should count it as right when rating themselves.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:40.266Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wasser-water",
+  "rank": 402,
+  "word": "Wasser",
+  "draft": "09ef75103dfbdd2d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "water",
+    "example": "Do you want some water?"
+  },
+  "note": "A null plural is fine here, since die Wässer (kinds of water) and die Gewässer (bodies of water) are rare or separate words; the a in Wasser is short, though VAH-ser could suggest a long vowel.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:11.225Z"
+}

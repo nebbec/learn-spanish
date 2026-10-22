@@ -1,0 +1,37 @@
+# lernen-learn · rank 332 · lernen
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: seit, Jahr. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids lernen-learn
+# Reviewer's note (not a reason to flag): The Spanish list has estudiar-study but no aprender card, so null is right; lernen also covers studying for a test, which this card doesn't need to teach.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 lernen-learn
+kind:               content
+pos:                verb
+target:             lernen
+en:                 to learn
+hint:
+ich:                lerne
+du:                 lernst
+er:                 lernt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gelernt
+example.target:     Ich lerne seit einem Jahr Deutsch.
+example.en:         I've been learning German for a year.
+regional.where:
+regional.text:
+trick:              LERNEN sounds like "learn-en": just add -en to learn and you have it.
+
+# The draft this file was made from. Do not change it.
+draft: 7123f25951235b85

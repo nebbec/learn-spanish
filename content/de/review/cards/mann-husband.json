@@ -1,0 +1,17 @@
+{
+  "id": "mann-husband",
+  "rank": 82,
+  "word": "Mann",
+  "draft": "57289cea7b098ce2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "husband (as in mein Mann, my husband)",
+    "example": "My husband is cooking tonight."
+  },
+  "note": "The hint is needed: it rules out der Ehemann and points to the possessive use that keeps this card apart from the man card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:24.869Z"
+}

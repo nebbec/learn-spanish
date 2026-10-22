@@ -2,16 +2,16 @@
   "id": "ja-yes",
   "rank": 20,
   "word": "ja",
-  "draft": "902e5d0af322b523",
+  "draft": "6e3ff8640a19c533",
   "flagged": false,
   "findings": [],
   "back": {
     "target": "yes",
-    "example": "Yes, I'm coming along tonight."
+    "example": "Yes, he sings."
   },
-  "note": "The hint is harmless but not strictly needed, since ja is the standard answer for yes; doch, the yes that contradicts a negative question, is a separate word to teach later.",
+  "note": "The hint is harmless but not strictly needed, because plain \"yes\" already points to ja (doch only fits after a negative question). A more natural example might be \"Hast du Hunger? – Ja!\".",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-10T13:33:28.253Z"
+  "reviewedAt": "2026-10-22T09:14:26.662Z"
 }

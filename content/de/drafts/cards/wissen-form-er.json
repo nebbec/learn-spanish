@@ -1,0 +1,33 @@
+{
+  "id": "wissen-form-er",
+  "rank": 30,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er weiß",
+  "en": "he / she knows",
+  "hint": "a fact",
+  "grammar": {
+    "present": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewusst"
+    }
+  },
+  "example": {
+    "target": "Er weiß, wo meine Mutter ist.",
+    "en": "He knows where my mother is."
+  },
+  "regional": null,
+  "trick": "Weiß sounds like vice, close to wise, and a wise person knows things.",
+  "image": "/deck-de/img/wissen-know.webp",
+  "audio": {
+    "word": "/deck-de/audio/wissen-form-er.word.mp3",
+    "sentence": "/deck-de/audio/wissen-form-er.sentence.mp3"
+  }
+}

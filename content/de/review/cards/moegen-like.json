@@ -1,0 +1,17 @@
+{
+  "id": "moegen-like",
+  "rank": 104,
+  "word": "mögen",
+  "draft": "b84418700c4a9d38",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to like",
+    "example": "My mother doesn't like coffee."
+  },
+  "note": "The hint helps keep this card apart from the \"would like\" (möchte) card and from gefallen or gern plus a verb, and the mug pun is loose because mag has a long a, but that is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:07.708Z"
+}

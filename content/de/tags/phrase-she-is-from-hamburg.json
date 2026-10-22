@@ -1,0 +1,18 @@
+{
+  "id": "phrase-she-is-from-hamburg",
+  "unit": "who-i-am",
+  "want": null,
+  "requires": [
+    "sie-she",
+    "sein-form-er",
+    "aus-from"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "be79f0ea19acfd5c",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:31.259Z"
+}

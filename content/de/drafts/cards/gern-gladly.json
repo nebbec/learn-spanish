@@ -1,0 +1,21 @@
+{
+  "id": "gern-gladly",
+  "rank": 188,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "gern",
+  "en": "gladly",
+  "hint": "with a verb it means to like doing it",
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke gern Kaffee.",
+    "en": "I like drinking coffee."
+  },
+  "regional": null,
+  "trick": "GERN sounds a bit like grin: you grin when you do something gladly.",
+  "image": "/deck-de/img/gern-gladly.webp",
+  "audio": {
+    "word": "/deck-de/audio/gern-gladly.word.mp3",
+    "sentence": "/deck-de/audio/gern-gladly.sentence.mp3"
+  }
+}

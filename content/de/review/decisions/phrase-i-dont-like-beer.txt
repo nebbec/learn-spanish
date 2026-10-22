@@ -1,0 +1,30 @@
+# phrase-i-dont-like-beer · rank 801 · what-i-like
+#
+# Why it was flagged:
+#   - Example sentence: The example is three sentences, but it should be one short sentence. Suggested fix: example.target: Nein danke, ich mag kein Bier. example.en: No thanks, I don't like beer.
+# Reviewer's note (not a reason to flag): The hint "use kein" is needed because it rules out "Ich mag Bier nicht" and "Ich trinke nicht gern Bier", and sameAs is rightly null even though the Spanish list has cerveza-beer, because phrase cards never have a sameAs.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-i-dont-like-beer
+kind:           phrase
+pos:            phrase
+target:         Ich mag kein Bier.
+en:             I don't like beer.
+hint:           use kein
+example.target: Nein, danke. Ich mag kein Bier. Ich trinke Wasser.
+example.en:     No, thanks. I don't like beer. I'll drink water.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: e3b5ab8358741ab3

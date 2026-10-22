@@ -1,0 +1,14 @@
+{
+  "id": "frueh-early",
+  "unit": "what-i-do",
+  "want": "früh: early",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "50cb6199fd985ea8",
+  "group": "#446 früh",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:54.118Z"
+}

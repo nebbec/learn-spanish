@@ -1,0 +1,23 @@
+{
+  "id": "phrase-what-is-that",
+  "rank": 12,
+  "word": "asking-questions",
+  "draft": "46de8338c6d71849",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses das, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "What is that? / What is this?",
+    "example": "What is that? – That is tea."
+  },
+  "note": "Was ist das? works for both \"What is that?\" and \"What is this?\", so the prompt has one clear answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:25.076Z"
+}

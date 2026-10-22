@@ -1,0 +1,21 @@
+{
+  "id": "bitte-youre-welcome",
+  "rank": 86,
+  "kind": "content",
+  "pos": "other",
+  "target": "bitte",
+  "en": "you're welcome",
+  "hint": "one-word reply to danke",
+  "grammar": null,
+  "example": {
+    "target": "Danke für den Kaffee! – Bitte!",
+    "en": "Thanks for the coffee! – You're welcome!"
+  },
+  "regional": null,
+  "trick": "BITTE sounds like BIT-uh: no need to thank me, it was only a bit of help, you're welcome.",
+  "image": "/deck-de/img/bitte-youre-welcome.webp",
+  "audio": {
+    "word": "/deck-de/audio/bitte-youre-welcome.word.mp3",
+    "sentence": "/deck-de/audio/bitte-youre-welcome.sentence.mp3"
+  }
+}

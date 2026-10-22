@@ -1,0 +1,17 @@
+{
+  "id": "kalt-cold",
+  "rank": 652,
+  "word": "kalt",
+  "draft": "391abc8d4ae36296",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "cold",
+    "example": "I'm cold, I'd like a tea."
+  },
+  "note": "The example teaches the useful dative pattern \"mir ist kalt\" (not \"ich bin kalt\"), which is worth pointing out to learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:29.150Z"
+}

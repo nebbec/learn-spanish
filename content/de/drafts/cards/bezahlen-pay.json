@@ -1,0 +1,33 @@
+{
+  "id": "bezahlen-pay",
+  "rank": 423,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bezahlen",
+  "en": "to pay",
+  "hint": "the be- word, not zahlen",
+  "grammar": {
+    "present": {
+      "ich": "bezahle",
+      "du": "bezahlst",
+      "er": "bezahlt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bezahlt"
+    }
+  },
+  "example": {
+    "target": "Heute bezahle ich den Kaffee.",
+    "en": "I'm paying for the coffee today."
+  },
+  "regional": null,
+  "trick": "The middle of beZAHLen sounds like tsahl, close to toll: at a toll booth you have to pay.",
+  "image": "/deck-de/img/bezahlen-pay.webp",
+  "audio": {
+    "word": "/deck-de/audio/bezahlen-pay.word.mp3",
+    "sentence": "/deck-de/audio/bezahlen-pay.sentence.mp3"
+  }
+}

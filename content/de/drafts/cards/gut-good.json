@@ -1,0 +1,21 @@
+{
+  "id": "gut-good",
+  "rank": 43,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "gut",
+  "en": "good",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ja, Hamburg ist gut.",
+    "en": "Yes, Hamburg is good."
+  },
+  "regional": null,
+  "trick": "GUT sounds like \"goot\", almost exactly the English word \"good\", and it means good.",
+  "image": "/deck-de/img/gut-good.webp",
+  "audio": {
+    "word": "/deck-de/audio/gut-good.word.mp3",
+    "sentence": "/deck-de/audio/gut-good.sentence.mp3"
+  }
+}

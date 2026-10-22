@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 145,
+  "word": "people-i-love",
+  "unit": "people-i-love",
+  "order": 45,
+  "source": "payoff",
+  "line": "I love you.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "lieben",
+      "rank": 145
+    },
+    {
+      "word": "dich",
+      "rank": 39
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:00.452Z",
+  "cards": [
+    "phrase-i-love-you"
+  ]
+}

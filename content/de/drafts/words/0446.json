@@ -1,0 +1,15 @@
+{
+  "rank": 446,
+  "word": "früh",
+  "cards": [
+    "frueh-early"
+  ],
+  "skip": null,
+  "sameAs": {
+    "frueh-early": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:19.575Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bisschen-a-bit",
+  "unit": "how-i-feel",
+  "want": "bisschen: a little (ein bisschen)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5d3f466bf24f6ebd",
+  "group": "#347 bisschen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:43.589Z"
+}

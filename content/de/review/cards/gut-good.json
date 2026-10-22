@@ -1,0 +1,17 @@
+{
+  "id": "gut-good",
+  "rank": 43,
+  "word": "gut",
+  "draft": "7f81dd2c223c8b44",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "good",
+    "example": "Yes, Hamburg is good."
+  },
+  "note": "The example is correct, but out of context it reads as \"Hamburg is fine\" (agreeing to a suggestion). A sentence like \"Das Essen hier ist richtig gut.\" (The food here is really good.) would show the adjective more clearly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:42.560Z"
+}

@@ -1,0 +1,30 @@
+# phrase-where-is-the-toilet · rank 79 · out-and-about
+#
+# Why it was flagged:
+#   - Words outside the top 1,000: The phrase uses toilette, not among the 1,000 most common words.
+# Reviewer's note (not a reason to flag): Wo ist das Klo? is the casual version among friends and Wo ist das WC? is also heard in Germany, but Toilette is the safe standard word for "toilet", so the card is fine; the Swiss footnote is reasonable since WC is the usual word there.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-where-is-the-toilet
+kind:           phrase
+pos:            phrase
+target:         Wo ist die Toilette?
+en:             Where is the toilet?
+hint:
+example.target: Wo ist hier die Toilette, bitte?
+example.en:     Where's the toilet around here, please?
+regional.where: Switzerland
+regional.text:  Wo ist das WC?
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 289311ebdbdac881

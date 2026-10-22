@@ -1,0 +1,33 @@
+# musik-music · rank 269 · Musik
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: mal, leiser. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids musik-music
+# Reviewer's note (not a reason to flag): The plural is null, which is fine because Musiken is rare and technical, and none of the Spanish cards means music, so sameAs null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             musik-music
+kind:           content
+pos:            noun
+target:         die Musik
+en:             music
+hint:
+gender:         f
+article:        die
+plural:
+example.target: Mach die Musik mal leiser!
+example.en:     Turn the music down a bit!
+regional.where:
+regional.text:
+trick:          MUSIK sounds like moo-ZEEK, almost the English word music with the stress moved to the end.
+
+# The draft this file was made from. Do not change it.
+draft: ac1d81cdcc0496da

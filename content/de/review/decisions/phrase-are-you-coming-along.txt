@@ -1,0 +1,31 @@
+# phrase-are-you-coming-along · rank 7 · making-plans
+#
+# Why it was flagged:
+#   - Example sentence: The example is two sentences, but the card format asks for one short sentence. Suggested fix: example.target: Ich gehe heute Abend auf eine Party, kommst du mit? | example.en: I'm going to a party tonight, are you coming along?
+#   - Words outside the top 1,000: The phrase uses mitkommen, not among the 1,000 most common words.
+# Reviewer's note (not a reason to flag): The informal hint is needed here, because it rules out the Sie form "Kommen Sie mit?".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-are-you-coming-along
+kind:           phrase
+pos:            phrase
+target:         Kommst du mit?
+en:             Are you coming along?
+hint:           informal
+example.target: Ich gehe heute Abend zu einer Party. Kommst du mit?
+example.en:     I'm going to a party tonight. Are you coming along?
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 5f8c3bf04dfbf9b2

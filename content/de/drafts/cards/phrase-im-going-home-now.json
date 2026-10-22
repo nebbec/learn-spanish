@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-going-home-now",
+  "rank": 129,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich gehe jetzt nach Hause.",
+  "en": "I'm going home now.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich bin sehr müde. Ich gehe jetzt nach Hause.",
+    "en": "I'm very tired. I'm going home now."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-going-home-now.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-going-home-now.sentence.mp3"
+  }
+}

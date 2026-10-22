@@ -1,0 +1,17 @@
+{
+  "id": "hunger-hunger",
+  "rank": 888,
+  "word": "Hunger",
+  "draft": "d71c0c1fe0b3be93",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hunger",
+    "example": "I'm hungry and want to eat now."
+  },
+  "note": "The example teaches the key pattern Hunger haben (to be hungry), which is worth keeping.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:39.548Z"
+}

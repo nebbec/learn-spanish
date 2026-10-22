@@ -1,0 +1,20 @@
+{
+  "id": "phrase-im-from-berlin-and",
+  "unit": "who-i-am",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "sein-form-ich",
+    "aus-from",
+    "und-and",
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "b5319ca587c8f20c",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:31.259Z"
+}

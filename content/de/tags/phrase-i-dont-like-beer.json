@@ -1,0 +1,19 @@
+{
+  "id": "phrase-i-dont-like-beer",
+  "unit": "what-i-like",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "moegen-like",
+    "kein-no",
+    "bier-beer"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "e3b5ab8358741ab3",
+  "group": "phrases what-i-like",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:57.451Z"
+}

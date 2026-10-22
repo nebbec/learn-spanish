@@ -1,0 +1,17 @@
+{
+  "id": "arbeiten-work",
+  "rank": 249,
+  "word": "arbeiten",
+  "draft": "f435d8d41cd4eaa7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to work (do a job, labour)",
+    "example": "My brother is working in Hamburg today."
+  },
+  "note": "\"To work\" can also mean \"funktionieren\" (a machine works), but a learner seeing the bare verb would almost always think of a job, so the card can stay without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:49.804Z"
+}

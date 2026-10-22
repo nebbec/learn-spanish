@@ -1,0 +1,33 @@
+{
+  "id": "wissen-form-du",
+  "rank": 30,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du weißt",
+  "en": "you know",
+  "hint": "a fact, informal",
+  "grammar": {
+    "present": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewusst"
+    }
+  },
+  "example": {
+    "target": "Weißt du, wo er ist?",
+    "en": "Do you know where he is?"
+  },
+  "regional": null,
+  "trick": "Weißt sounds like vicet, almost wised: you got wise, so you know.",
+  "image": "/deck-de/img/wissen-know.webp",
+  "audio": {
+    "word": "/deck-de/audio/wissen-form-du.word.mp3",
+    "sentence": "/deck-de/audio/wissen-form-du.sentence.mp3"
+  }
+}

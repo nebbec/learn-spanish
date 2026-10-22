@@ -1,0 +1,17 @@
+{
+  "id": "heute-today",
+  "rank": 127,
+  "word": "heute",
+  "draft": "fc0dac44707ea4da",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "today",
+    "example": "I'm going to Hamburg today."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:15.701Z"
+}

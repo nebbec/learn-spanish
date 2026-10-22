@@ -1,0 +1,33 @@
+{
+  "id": "haben-form-ich",
+  "rank": 5,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich habe",
+  "en": "I have",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehabt"
+    }
+  },
+  "example": {
+    "target": "Danke, ich habe Kaffee.",
+    "en": "Thanks, I have coffee."
+  },
+  "regional": null,
+  "trick": "Habe (HAH-buh) is just English have with a b in place of the v.",
+  "image": "/deck-de/img/haben-have.webp",
+  "audio": {
+    "word": "/deck-de/audio/haben-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/haben-form-ich.sentence.mp3"
+  }
+}

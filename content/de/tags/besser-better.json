@@ -1,0 +1,14 @@
+{
+  "id": "besser-better",
+  "unit": "how-i-feel",
+  "want": "besser: better",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7f88a82c03120027",
+  "group": "#164 besser",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:24.016Z"
+}

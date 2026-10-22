@@ -1,0 +1,15 @@
+{
+  "rank": 34,
+  "word": "gehen",
+  "cards": [
+    "gehen-go"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gehen-go": "ir-go"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:13.553Z"
+}

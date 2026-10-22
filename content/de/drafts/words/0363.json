@@ -1,0 +1,15 @@
+{
+  "rank": 363,
+  "word": "anrufen",
+  "cards": [
+    "anrufen-call"
+  ],
+  "skip": null,
+  "sameAs": {
+    "anrufen-call": "llamar-call"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:05.571Z"
+}

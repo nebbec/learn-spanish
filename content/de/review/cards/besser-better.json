@@ -1,0 +1,17 @@
+{
+  "id": "besser-better",
+  "rank": 164,
+  "word": "besser",
+  "draft": "7f88a82c03120027",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "better (comparative of gut, good/well)",
+    "example": "Today I'm doing better."
+  },
+  "note": "besser is the comparative of gut rather than a base form, but it is a high-frequency word in its own right, so it is reasonable as the target here; the editor might add that it comes from gut.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:32.952Z"
+}

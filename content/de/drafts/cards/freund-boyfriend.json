@@ -1,0 +1,25 @@
+{
+  "id": "freund-boyfriend",
+  "rank": 150,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Freund",
+  "en": "boyfriend",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Freunde"
+  },
+  "example": {
+    "target": "Hast du einen Freund?",
+    "en": "Do you have a boyfriend?"
+  },
+  "regional": null,
+  "trick": "FREUND sounds like \"froynt\", like \"friend\": a boyfriend is the friend who is a bit more than a friend.",
+  "image": "/deck-de/img/freund-boyfriend.webp",
+  "audio": {
+    "word": "/deck-de/audio/freund-boyfriend.word.mp3",
+    "sentence": "/deck-de/audio/freund-boyfriend.sentence.mp3"
+  }
+}

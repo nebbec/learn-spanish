@@ -1,0 +1,30 @@
+# vier-four · rank 425 · vier
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Leute. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids vier-four
+# Reviewer's note (not a reason to flag): You could also use "Wir sind zu viert." as an example, since it is the more idiomatic way to say "there are four of us", but the current sentence is natural too, for example when asking for a table.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             vier-four
+kind:           content
+pos:            other
+target:         vier
+en:             four
+hint:
+example.target: Wir sind vier Leute.
+example.en:     There are four of us.
+regional.where:
+regional.text:
+trick:          VIER sounds like "fear": four ghosts fill you with fear.
+
+# The draft this file was made from. Do not change it.
+draft: ae2b3c40dd466005

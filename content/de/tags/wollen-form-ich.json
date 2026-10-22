@@ -1,0 +1,16 @@
+{
+  "id": "wollen-form-ich",
+  "unit": "what-i-like",
+  "want": "wollen: I want (ich will)",
+  "requires": [
+    "ich-i"
+  ],
+  "tip": null,
+  "why": "Ich will means I want; for the future I will, use werden (ich werde).",
+  "draft": "bb069e7c8314b388",
+  "group": "forms wollen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:17.853Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "wollen-form-er",
+  "unit": "what-i-like",
+  "want": "wollen: he / she wants (er will)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "7536ebdf8ad42c25",
+  "group": "forms wollen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:17.853Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "muessen-must",
+  "rank": 42,
+  "word": "müssen",
+  "draft": "bd38ae09c4b7801c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "Morgen früh is the fixed expression for tomorrow morning, so translating it as early tomorrow misleads the learner.",
+      "fix": "example.en: I have to work tomorrow morning."
+    }
+  ],
+  "back": {
+    "target": "to have to, must",
+    "example": "I have to work tomorrow morning."
+  },
+  "note": "The hint must is useful because it rules out sollen (should), and the participle gemusst is right for müssen used alone, though with an infinitive the Perfekt uses müssen (ich habe arbeiten müssen).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:59.373Z"
+}

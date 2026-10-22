@@ -1,0 +1,17 @@
+{
+  "id": "verstehen-understand",
+  "rank": 124,
+  "word": "verstehen",
+  "draft": "0a10047df71aef76",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to understand",
+    "example": "I don't understand that."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:13.997Z"
+}

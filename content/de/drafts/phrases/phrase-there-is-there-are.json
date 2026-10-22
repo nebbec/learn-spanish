@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 59,
+  "word": "out-and-about",
+  "unit": "out-and-about",
+  "order": 32,
+  "source": "chunk",
+  "line": "phrase: es gibt = there is, there are",
+  "words": [
+    {
+      "word": "es",
+      "rank": 9
+    },
+    {
+      "word": "geben",
+      "rank": 59
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:27.839Z",
+  "cards": [
+    "phrase-there-is-there-are"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 363,
+  "word": "people-i-love",
+  "unit": "people-i-love",
+  "order": 46,
+  "source": "payoff",
+  "line": "I'll call you tomorrow.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "anrufen",
+      "rank": 363
+    },
+    {
+      "word": "dich",
+      "rank": 39
+    },
+    {
+      "word": "morgen",
+      "rank": 157
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:02.816Z",
+  "cards": [
+    "phrase-ill-call-you-tomorrow"
+  ]
+}

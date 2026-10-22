@@ -1,0 +1,17 @@
+{
+  "rank": 178,
+  "word": "essen",
+  "cards": [
+    "essen-eat",
+    "essen-food"
+  ],
+  "skip": null,
+  "sameAs": {
+    "essen-eat": "comer-eat",
+    "essen-food": "comida-food"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:35.909Z"
+}

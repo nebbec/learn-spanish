@@ -1,0 +1,21 @@
+{
+  "id": "hier-here",
+  "rank": 31,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "hier",
+  "en": "here",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Meine Mutter ist nicht hier.",
+    "en": "My mother isn't here."
+  },
+  "regional": null,
+  "trick": "HIER sounds almost exactly like English \"here\", and it means the same thing.",
+  "image": "/deck-de/img/hier-here.webp",
+  "audio": {
+    "word": "/deck-de/audio/hier-here.word.mp3",
+    "sentence": "/deck-de/audio/hier-here.sentence.mp3"
+  }
+}

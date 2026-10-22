@@ -1,0 +1,17 @@
+{
+  "id": "werden-form-ich",
+  "rank": 13,
+  "word": "werden",
+  "draft": "dafc1f938709a98d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I will (future auxiliary, first person singular of werden)",
+    "example": "I will call you tomorrow."
+  },
+  "note": "The hint \"future\" is needed: without it, \"I will\" could be confused with ich will (\"I want\"); the card might also mention that everyday German often uses the present tense for the future (\"Ich ruf dich morgen an\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:44.112Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-a-little-sick",
+  "rank": 512,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich bin ein bisschen krank.",
+  "en": "I'm a little sick.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich bin ein bisschen krank und sehr müde.",
+    "en": "I'm a little sick and very tired."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-a-little-sick.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-a-little-sick.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "werden-form-er",
+  "rank": 13,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er wird",
+  "en": "he / she will",
+  "hint": "future",
+  "grammar": {
+    "present": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geworden"
+    }
+  },
+  "example": {
+    "target": "Sie wird morgen in Berlin arbeiten.",
+    "en": "She'll be working in Berlin tomorrow."
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/werden-become.webp",
+  "audio": {
+    "word": "/deck-de/audio/werden-form-er.word.mp3",
+    "sentence": "/deck-de/audio/werden-form-er.sentence.mp3"
+  }
+}

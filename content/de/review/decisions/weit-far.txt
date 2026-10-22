@@ -1,0 +1,30 @@
+# weit-far · rank 243 · weit
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt far also allows fern, a common German word for far or distant, and the card has no hint to rule it out. Suggested fix: hint: a long way, as in is it far?; not fern
+# Reviewer's note (not a reason to flag): The English example could read more naturally as "Is it much further?", but "Is it still far?" is an acceptable literal translation.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             weit-far
+kind:           content
+pos:            adjective
+target:         weit
+en:             far
+hint:
+example.target: Ist es noch weit?
+example.en:     Is it still far?
+regional.where:
+regional.text:
+trick:          WEIT sounds like "vite", close to "white": mountains far away look white with snow.
+
+# The draft this file was made from. Do not change it.
+draft: 6bb75ac4a09c98e4

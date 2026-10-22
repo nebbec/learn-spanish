@@ -1,0 +1,14 @@
+{
+  "id": "frau-woman",
+  "unit": "my-people",
+  "want": "Frau: woman",
+  "requires": [],
+  "tip": "tip-der-die-das",
+  "why": null,
+  "draft": "caa21e76c04af72d",
+  "group": "#114 Frau",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:11.176Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bier-beer",
+  "rank": 801,
+  "word": "Bier",
+  "draft": "9eec37239276b972",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "beer",
+    "example": "I would like a beer, please."
+  },
+  "note": "The trick only says the word sounds like its English cognate, which is weak but true.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:34.892Z"
+}

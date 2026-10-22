@@ -1,0 +1,21 @@
+{
+  "id": "traurig-sad",
+  "rank": 713,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "traurig",
+  "en": "sad",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Warum bist du heute traurig?",
+    "en": "Why are you sad today?"
+  },
+  "regional": null,
+  "trick": "TRAURIG sounds like TROW-rikh, a bit like trout: a trout caught on a hook looks sad.",
+  "image": "/deck-de/img/traurig-sad.webp",
+  "audio": {
+    "word": "/deck-de/audio/traurig-sad.word.mp3",
+    "sentence": "/deck-de/audio/traurig-sad.sentence.mp3"
+  }
+}

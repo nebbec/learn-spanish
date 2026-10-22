@@ -1,0 +1,23 @@
+{
+  "id": "phrase-id-like-to-pay",
+  "rank": 423,
+  "word": "buying-things",
+  "draft": "12b02430c4221970",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses möchten, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "I would like to pay, please.",
+    "example": "Excuse me! I would like to pay, please."
+  },
+  "note": "The common short form \"Zahlen, bitte!\" could be worth mentioning somewhere, but \"I'd like to\" clearly points to \"Ich möchte bezahlen, bitte.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:42.601Z"
+}

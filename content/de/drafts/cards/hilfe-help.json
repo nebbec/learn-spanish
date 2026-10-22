@@ -1,0 +1,25 @@
+{
+  "id": "hilfe-help",
+  "rank": 293,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Hilfe",
+  "en": "help",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Brauchst du Hilfe?",
+    "en": "Do you need help?"
+  },
+  "regional": null,
+  "trick": "HILFE sounds like HILF-uh, close to help with an extra uh: shout Hilfe when you need help.",
+  "image": "/deck-de/img/hilfe-help.webp",
+  "audio": {
+    "word": "/deck-de/audio/hilfe-help.word.mp3",
+    "sentence": "/deck-de/audio/hilfe-help.sentence.mp3"
+  }
+}

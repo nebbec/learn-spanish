@@ -3,21 +3,15 @@
   "rank": 150,
   "word": "making-plans",
   "draft": "df799a3eba933b45",
-  "flagged": true,
-  "findings": [
-    {
-      "reason": "example",
-      "problem": "Said on its own, \"Heute Abend gehe ich zu meinem Freund\" is usually heard as going to your boyfriend's, so the translation \"my friend's\" misleads; a name after Freund makes the friend reading natural.",
-      "fix": "example.target: Heute Abend gehe ich zu meinem Freund Max. example.en: Tonight I'm going to my friend Max's."
-    }
-  ],
+  "flagged": false,
+  "findings": [],
   "back": {
-    "target": "to my (male) friend / to my boyfriend (dative after zu)",
-    "example": "Tonight I'm going to my friend's (or, as most Germans would hear it, to my boyfriend's)."
+    "target": "to my friend (to my friend's place); also to my boyfriend",
+    "example": "Tonight I'm going to my friend's (place)."
   },
-  "note": "Learners may need a heads-up somewhere on the card that \"mein Freund\" without context often means my boyfriend, and that Germans say \"ein Freund von mir\" or add a name for a plain friend.",
+  "note": "\"Mein Freund\" often means \"my boyfriend\" in Germany, so the editor might mention in the grammar or a footnote that many speakers say \"zu einem Freund\" or \"zu einem Kumpel\" for a friend who is just a friend.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:43.985Z"
+  "reviewedAt": "2026-10-22T09:06:56.394Z"
 }

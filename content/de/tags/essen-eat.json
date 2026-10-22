@@ -1,0 +1,14 @@
+{
+  "id": "essen-eat",
+  "unit": "a-coffee-please",
+  "want": "essen: eat",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "35b84f73377b406c",
+  "group": "#178 essen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:27.658Z"
+}

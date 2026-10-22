@@ -1,0 +1,25 @@
+{
+  "id": "hotel-hotel",
+  "rank": 702,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Hotel",
+  "en": "hotel",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Hotels"
+  },
+  "example": {
+    "target": "Mein Hotel ist nicht weit.",
+    "en": "My hotel isn't far."
+  },
+  "regional": null,
+  "trick": "HOTEL is the same word as in English, said ho-TEL with the stress on the end and a light H.",
+  "image": "/deck-de/img/hotel-hotel.webp",
+  "audio": {
+    "word": "/deck-de/audio/hotel-hotel.word.mp3",
+    "sentence": "/deck-de/audio/hotel-hotel.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-can-you-help-me",
+  "rank": 139,
+  "word": "can-you-help-me",
+  "draft": "8022108bf3b3949b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Can you please help me?",
+    "example": "I don't understand this. Can you please help me?"
+  },
+  "note": "The hint is needed because it rules out the Sie form, Können Sie mir bitte helfen?, and the dative mir and the position of bitte are both right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:46.314Z"
+}

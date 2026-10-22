@@ -1,0 +1,14 @@
+{
+  "id": "vermissen-miss",
+  "unit": "people-i-love",
+  "want": "vermissen",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "843fa9664e9cb96c",
+  "group": "#539 vermissen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:57.798Z"
+}

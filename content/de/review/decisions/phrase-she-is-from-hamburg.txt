@@ -1,0 +1,30 @@
+# phrase-she-is-from-hamburg · rank 65 · who-i-am
+#
+# Why it was flagged:
+#   - One right answer: Without a hint, "Sie kommt aus Hamburg." is just as common and correct for "She is from Hamburg.", so the prompt has two right answers. Suggested fix: hint: with sein, not kommen
+# Reviewer's note (not a reason to flag): Make sure this card and the "I'm from Berlin, and you?" card use the same verb (sein or kommen), or tell them apart with hints, so the learner isn't confused.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-she-is-from-hamburg
+kind:           phrase
+pos:            phrase
+target:         Sie ist aus Hamburg.
+en:             She is from Hamburg.
+hint:
+example.target: Sie ist aus Hamburg und er ist aus Berlin.
+example.en:     She is from Hamburg and he is from Berlin.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: be79f0ea19acfd5c

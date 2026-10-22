@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-a-little-sick",
+  "rank": 512,
+  "word": "how-i-feel",
+  "draft": "8f572578f8504473",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm a little sick.",
+    "example": "I'm a bit sick and very tired."
+  },
+  "note": "\"Ich bin etwas krank\" is a close variant that learners might give, and it could count as right when they rate their own recall.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:26.230Z"
+}

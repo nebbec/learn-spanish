@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 96,
+  "word": "me-and-you",
+  "unit": "me-and-you",
+  "order": 1,
+  "source": "payoff",
+  "line": "No, thank you.",
+  "words": [
+    {
+      "word": "nein",
+      "rank": 44
+    },
+    {
+      "word": "danke",
+      "rank": 96
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:26.636Z",
+  "cards": [
+    "phrase-no-thank-you"
+  ]
+}

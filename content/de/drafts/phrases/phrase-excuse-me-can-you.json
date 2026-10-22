@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 451,
+  "word": "out-and-about",
+  "unit": "out-and-about",
+  "order": 35,
+  "source": "payoff",
+  "line": "Excuse me, can you help me? (polite)",
+  "words": [
+    {
+      "word": "entschuldigung",
+      "rank": 451
+    },
+    {
+      "word": "können",
+      "rank": 17
+    },
+    {
+      "word": "sie",
+      "rank": 4
+    },
+    {
+      "word": "mir",
+      "rank": 21
+    },
+    {
+      "word": "helfen",
+      "rank": 139
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:40.097Z",
+  "cards": [
+    "phrase-excuse-me-can-you"
+  ]
+}

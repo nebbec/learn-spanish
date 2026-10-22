@@ -1,0 +1,17 @@
+{
+  "id": "muede-tired",
+  "rank": 836,
+  "word": "müde",
+  "draft": "7bbad38fc78ee480",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "tired",
+    "example": "I'm very tired, and you?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:36.422Z"
+}

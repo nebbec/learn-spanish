@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-going-with-a",
+  "rank": 150,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich gehe mit einem Freund.",
+  "en": "I'm going with a friend.",
+  "hint": "a male friend",
+  "grammar": null,
+  "example": {
+    "target": "Heute gehe ich mit einem Freund in die Stadt.",
+    "en": "Today I'm going into town with a friend."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-going-with-a.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-going-with-a.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 652,
+  "word": "kalt",
+  "cards": [
+    "kalt-cold"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kalt-cold": "frio-cold"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:26.333Z"
+}

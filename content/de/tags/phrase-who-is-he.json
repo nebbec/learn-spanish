@@ -1,0 +1,18 @@
+{
+  "id": "phrase-who-is-he",
+  "unit": "asking-questions",
+  "want": null,
+  "requires": [
+    "wer-who",
+    "sein-form-er",
+    "er-he"
+  ],
+  "tip": "tip-questions",
+  "why": null,
+  "draft": "cced0088a5bd7c3f",
+  "group": "phrases asking-questions",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:49.125Z"
+}

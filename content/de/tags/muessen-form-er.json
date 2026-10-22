@@ -1,0 +1,16 @@
+{
+  "id": "muessen-form-er",
+  "unit": "can-you-help-me",
+  "want": "müssen: he / she must (er muss)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "fd0d67bf839e438e",
+  "group": "forms müssen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:25.722Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gehen-form-er",
+  "rank": 34,
+  "word": "gehen",
+  "draft": "06c89a7ea9b0879b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he goes",
+    "example": "When is he going to my brother's?"
+  },
+  "note": "The hint \"on foot, or in general\" matters here because it rules out fahren, which English \"goes\" could also mean when travelling by vehicle.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:07.254Z"
+}

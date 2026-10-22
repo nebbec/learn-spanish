@@ -1,0 +1,17 @@
+{
+  "id": "morgen-morning",
+  "rank": 157,
+  "word": "morgen",
+  "draft": "096aac2deff4e51f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "morning",
+    "example": "Good morning! Did you sleep well?"
+  },
+  "note": "The noun der Morgen keeps its capital, and that is what separates it from the adverb morgen (tomorrow) on the word's other card. The editor might mention this in the trick or in a footnote.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:21.719Z"
+}

@@ -1,0 +1,26 @@
+# tip-always-pronoun · tip 1 of 14 · introduced by unit 2, Who I am
+# The brief from content/tips.json: German never drops the pronoun: bin alone is not a sentence, ich bin is I am. That is why the form cards answer with the pronoun and the verb together: ich bin, du bist, er ist.
+# Drafted 2026-10-22T08:58:32.186Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-always-pronoun --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: German always says who
+
+In casual English you can sometimes skip the I, but German always says who is doing something.
+Bin on its own is not a sentence, but ich bin means I am.
+That is why the cards teach the person and the verb together: ich bin, du bist, er ist.
+Learn each pair as one chunk, and never leave out the ich, du or er when you speak.
+
+example: Ich bin Anna. | I'm Anna.
+example: Du bist aus London. | You're from London.
+example: Er ist Max und sie ist Lena. | He's Max and she's Lena.

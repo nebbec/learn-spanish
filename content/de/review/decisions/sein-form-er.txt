@@ -1,0 +1,37 @@
+# sein-form-er · rank 2 · sein
+#
+# Why it was flagged:
+#   - Example sentence: Germans normally say 'das ist Paul', not 'er ist Paul', when saying who someone is, and the opening 'Nein,' answers a question the learner never sees, so the sentence feels odd on its own. Suggested fix: example.target: Er ist mein Bruder. example.en: He's my brother.
+# Reviewer's note (not a reason to flag): The prompt "he / she is" with the answer "er ist" follows the app's rule for er-form cards, though a learner might answer "sie ist" and should count that as right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 sein-form-er
+kind:               form
+pos:                verb
+target:             er ist
+en:                 he / she is
+hint:
+ich:                bin
+du:                 bist
+er:                 ist
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gewesen
+example.target:     Nein, er ist Paul.
+example.en:         No, he's Paul.
+regional.where:
+regional.text:
+trick:              Ist sounds like English is with a t at the end: er ist means he is.
+
+# The draft this file was made from. Do not change it.
+draft: a9f522b991849a1c

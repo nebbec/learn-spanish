@@ -1,0 +1,15 @@
+{
+  "rank": 241,
+  "word": "Angst",
+  "cards": [
+    "angst-fear"
+  ],
+  "skip": null,
+  "sameAs": {
+    "angst-fear": "miedo-fear"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:40.810Z"
+}

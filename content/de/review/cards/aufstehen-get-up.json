@@ -1,0 +1,17 @@
+{
+  "id": "aufstehen-get-up",
+  "rank": 1025,
+  "word": "aufstehen",
+  "draft": "a89248e97c3786a8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to get up (out of bed), to stand up",
+    "example": "My father gets up early."
+  },
+  "note": "The trick is a loose sound link (auf is closer to \"owf\" than \"off\"), but it says nothing false, so it passes.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:44.196Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 26,
+  "word": "mich",
+  "cards": [
+    "mich-me",
+    "mich-myself"
+  ],
+  "skip": null,
+  "sameAs": {
+    "mich-me": null,
+    "mich-myself": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:02.387Z"
+}

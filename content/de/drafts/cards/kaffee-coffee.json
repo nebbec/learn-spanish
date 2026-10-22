@@ -1,0 +1,25 @@
+{
+  "id": "kaffee-coffee",
+  "rank": 583,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Kaffee",
+  "en": "coffee",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Kaffees"
+  },
+  "example": {
+    "target": "Möchtest du einen Kaffee?",
+    "en": "Would you like a coffee?"
+  },
+  "regional": null,
+  "trick": "KAFFEE sounds like \"café\", the place where you go to drink coffee.",
+  "image": "/deck-de/img/kaffee-coffee.webp",
+  "audio": {
+    "word": "/deck-de/audio/kaffee-coffee.word.mp3",
+    "sentence": "/deck-de/audio/kaffee-coffee.sentence.mp3"
+  }
+}

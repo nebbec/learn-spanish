@@ -1,0 +1,21 @@
+{
+  "id": "phrase-are-you-coming-along",
+  "rank": 7,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Kommst du mit?",
+  "en": "Are you coming along?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "target": "Ich gehe heute Abend zu einer Party. Kommst du mit?",
+    "en": "I'm going to a party tonight. Are you coming along?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-are-you-coming-along.word.mp3",
+    "sentence": "/deck-de/audio/phrase-are-you-coming-along.sentence.mp3"
+  }
+}

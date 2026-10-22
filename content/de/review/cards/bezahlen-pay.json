@@ -1,0 +1,17 @@
+{
+  "id": "bezahlen-pay",
+  "rank": 423,
+  "word": "bezahlen",
+  "draft": "34e3810b227a2353",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to pay (for)",
+    "example": "Today I'm paying for the coffee."
+  },
+  "note": "The hint is needed because zahlen also means to pay, and it correctly rules zahlen out; the participle bezahlt correctly has no ge- because of the be- prefix.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:19.564Z"
+}

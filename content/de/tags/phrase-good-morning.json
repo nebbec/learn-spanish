@@ -1,0 +1,14 @@
+{
+  "id": "phrase-good-morning",
+  "unit": "hello-how-are-you",
+  "want": "phrase: guten Morgen = good morning",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8b987395bf9b1a91",
+  "group": "phrases hello-how-are-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:35.188Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 23,
+  "word": "wie",
+  "cards": [
+    "wie-how",
+    "wie-like-as"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wie-how": null,
+    "wie-like-as": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:04.431Z"
+}

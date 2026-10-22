@@ -1,0 +1,17 @@
+{
+  "id": "sehr-very",
+  "rank": 98,
+  "word": "sehr",
+  "draft": "1d0c2f94ff5d2835",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "very, very much (adverb)",
+    "example": "My name is Anna. Very pleased to meet you!"
+  },
+  "note": "In the example, sehr strengthens a verb (freut mich sehr, \"pleases me very much\"), so the editor might also want an example with an adjective, such as \"Das Essen ist sehr gut\", to show the more basic \"very\" use.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:03.419Z"
+}

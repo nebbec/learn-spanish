@@ -1,0 +1,17 @@
+{
+  "id": "traurig-sad",
+  "rank": 713,
+  "word": "traurig",
+  "draft": "3673f74f36560848",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sad",
+    "example": "Why are you sad today?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:33.999Z"
+}

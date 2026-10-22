@@ -1,0 +1,14 @@
+{
+  "id": "danke-thank-you",
+  "unit": "me-and-you",
+  "want": "danke",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5a33357ae4e2348b",
+  "group": "#96 danke",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:02:59.605Z"
+}

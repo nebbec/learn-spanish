@@ -1,0 +1,24 @@
+{
+  "id": "hallo-hello",
+  "rank": 146,
+  "kind": "content",
+  "pos": "other",
+  "target": "hallo",
+  "en": "hello",
+  "hint": "the everyday greeting, not guten Tag",
+  "grammar": null,
+  "example": {
+    "target": "Hallo, wie heißt du?",
+    "en": "Hi, what's your name?"
+  },
+  "regional": {
+    "where": "Austria",
+    "text": "servus"
+  },
+  "trick": "HALLO sounds like HAH-low, almost hello, and that is just what it means.",
+  "image": "/deck-de/img/hallo-hello.webp",
+  "audio": {
+    "word": "/deck-de/audio/hallo-hello.word.mp3",
+    "sentence": "/deck-de/audio/hallo-hello.sentence.mp3"
+  }
+}

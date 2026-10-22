@@ -1,0 +1,25 @@
+{
+  "id": "morgen-morning",
+  "rank": 157,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Morgen",
+  "en": "morning",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Morgen"
+  },
+  "example": {
+    "target": "Guten Morgen! Hast du gut geschlafen?",
+    "en": "Good morning! Did you sleep well?"
+  },
+  "regional": null,
+  "trick": "MORGEN sounds a lot like \"morning\", and \"Guten Morgen\" is just \"good morning\".",
+  "image": "/deck-de/img/morgen-morning.webp",
+  "audio": {
+    "word": "/deck-de/audio/morgen-morning.word.mp3",
+    "sentence": "/deck-de/audio/morgen-morning.sentence.mp3"
+  }
+}

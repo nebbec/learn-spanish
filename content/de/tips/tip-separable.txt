@@ -1,0 +1,27 @@
+# tip-separable · tip 10 of 14 · introduced by unit 12, What I do
+# The brief from content/tips.json: Some verbs have a front part that splits off and goes to the end of the sentence: aufstehen becomes Ich stehe früh auf, anrufen becomes Ich rufe dich an. In the dictionary form, and at the end after können or müssen, they stay together: Ich muss früh aufstehen.
+# Drafted 2026-10-22T08:59:06.043Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-separable --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Verbs that split in two
+
+Some German verbs have a small front part that can break off: aufstehen (get up) is auf plus stehen.
+In an everyday sentence the front part jumps to the very end: Ich stehe früh auf means I get up early.
+Anrufen (call) works the same way: Ich rufe dich an means I'm calling you.
+In the dictionary form the verb stays in one piece, and after können or müssen it goes to the end in one piece too: Ich muss früh aufstehen.
+So when you hear a little word like auf or an at the end, join it back onto the verb to get the meaning.
+
+example: Ich stehe früh auf. | I get up early.
+example: Wann fängt die Arbeit an? | When does work start?
+example: Ich muss morgen früh aufstehen. | I have to get up early tomorrow.

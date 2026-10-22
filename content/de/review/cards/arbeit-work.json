@@ -1,0 +1,17 @@
+{
+  "id": "arbeit-work",
+  "rank": 209,
+  "word": "Arbeit",
+  "draft": "981295163633fc0b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "work, job (the noun)",
+    "example": "My work isn't far (away)."
+  },
+  "note": "The example is correct, but it would sound more natural as \"Meine Arbeit ist nicht weit weg.\" Another option is \"Ich gehe jetzt zur Arbeit.\", which matches the hint's \"go to work\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:52.866Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 5,
+  "word": "haben",
+  "from": "haben-have",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:01:42.235Z",
+  "cards": [
+    "haben-form-ich",
+    "haben-form-du",
+    "haben-form-er"
+  ]
+}

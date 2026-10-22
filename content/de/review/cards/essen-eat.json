@@ -1,0 +1,17 @@
+{
+  "id": "essen-eat",
+  "rank": 178,
+  "word": "essen",
+  "draft": "35b84f73377b406c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to eat",
+    "example": "My sister likes eating pizza."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:39.620Z"
+}

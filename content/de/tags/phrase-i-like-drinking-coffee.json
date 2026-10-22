@@ -1,0 +1,19 @@
+{
+  "id": "phrase-i-like-drinking-coffee",
+  "unit": "what-i-like",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "trinken-drink",
+    "gern-gladly",
+    "kaffee-coffee"
+  ],
+  "tip": "tip-gern",
+  "why": null,
+  "draft": "dfdd0d024c1eb564",
+  "group": "phrases what-i-like",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:57.451Z"
+}

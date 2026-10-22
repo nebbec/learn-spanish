@@ -1,0 +1,16 @@
+{
+  "id": "ihm-him",
+  "unit": "with-friends",
+  "want": "ihm: (to) him",
+  "requires": [
+    "er-he"
+  ],
+  "tip": "tip-dative",
+  "why": "Use ihm after mit, bei, zu or for 'to him'; use ihn when him is the direct object.",
+  "draft": "c920d09ab23ea8b4",
+  "group": "#100 ihm",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:06.172Z"
+}

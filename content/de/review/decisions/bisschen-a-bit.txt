@@ -1,0 +1,31 @@
+# bisschen-a-bit · rank 347 · bisschen
+#
+# Why it was flagged:
+#   - One right answer: The hint "ein ___" also allows "wenig", since "ein wenig" is common, correct German for a bit or a little. Suggested fix: hint: after ein: ein ___ (the everyday word, not wenig)
+#   - Usage in Germany: In Austria people commonly say "ein bissl" (often "a bissl") instead, and in Switzerland "es bitzeli", so regional should not be null. Suggested fix: regional: { where: "Austria", text: "In everyday speech Austrians usually say ein bissl (often a bissl)." }
+# Reviewer's note (not a reason to flag): The trick works well because bisschen really does come from Biss (bite) plus -chen, so it literally means a little bite.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             bisschen-a-bit
+kind:           content
+pos:            adverb
+target:         bisschen
+en:             a bit, a little
+hint:           after ein: ein ___
+example.target: Ich bin ein bisschen müde.
+example.en:     I'm a bit tired.
+regional.where:
+regional.text:
+trick:          BISSCHEN sounds like "bitsy-shen": a bitsy little bite, just a bit.
+
+# The draft this file was made from. Do not change it.
+draft: 5d3f466bf24f6ebd

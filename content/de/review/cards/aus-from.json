@@ -1,0 +1,17 @@
+{
+  "id": "aus-from",
+  "rank": 65,
+  "word": "aus",
+  "draft": "747a9cb251b7c9ae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "from (origin), out of",
+    "example": "Are you from Berlin?"
+  },
+  "note": "The hint \"where you come from\" is helpful because it steers away from von, though in \"I'm from Berlin\" only aus would be natural anyway.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:49.498Z"
+}

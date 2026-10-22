@@ -1,0 +1,15 @@
+{
+  "rank": 63,
+  "word": "ihn",
+  "cards": [
+    "ihn-him"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ihn-him": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:29.501Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "phrase-i-have-a-brother",
+  "unit": "a-coffee-please",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "haben-form-ich",
+    "case-i-have-a-brother",
+    "und-and",
+    "case-i-have-a-sister"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "c628e53633766634",
+  "group": "phrases a-coffee-please",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:38.799Z"
+}

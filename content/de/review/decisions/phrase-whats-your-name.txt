@@ -1,0 +1,30 @@
+# phrase-whats-your-name · rank 167 · who-i-am
+#
+# Why it was flagged:
+#   - One right answer: The hint "informal" doesn't rule out "Wie ist dein Name?", which is also a correct and common informal answer, so the prompt has two right answers. Suggested fix: hint: informal; the everyday way: literally "How are you called?"
+# Reviewer's note (not a reason to flag): The example is two short sentences rather than one, but it reads naturally as an introduction, and the verb card llamar-be-named is rightly not reused for this whole phrase.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-whats-your-name
+kind:           phrase
+pos:            phrase
+target:         Wie heißt du?
+en:             What's your name?
+hint:           informal
+example.target: Ich heiße Tom. Wie heißt du?
+example.en:     My name is Tom. What's your name?
+regional.where:
+regional.text:
+trick:          Heißt sounds like the old English word hight, which meant "named", as in "a knight hight Lancelot".
+
+# The draft this file was made from. Do not change it.
+draft: fcce6def5104876d

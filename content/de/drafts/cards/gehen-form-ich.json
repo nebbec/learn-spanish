@@ -1,0 +1,33 @@
+{
+  "id": "gehen-form-ich",
+  "rank": 34,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich gehe",
+  "en": "I go",
+  "hint": "on foot, or in general",
+  "grammar": {
+    "present": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er": "geht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gegangen"
+    }
+  },
+  "example": {
+    "target": "Ich gehe zu meinem Bruder.",
+    "en": "I'm going to my brother's."
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/gehen-go.webp",
+  "audio": {
+    "word": "/deck-de/audio/gehen-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/gehen-form-ich.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-very-tired",
+  "rank": 836,
+  "word": "hello-how-are-you",
+  "draft": "5e758b2e53b739ec",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm very tired.",
+    "example": "How's it going? – I'm very tired."
+  },
+  "note": "The card has no problems, and sameAs is correctly null because this is a phrase card, even though the Spanish card cansado-tired shares the word tired.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:01.215Z"
+}

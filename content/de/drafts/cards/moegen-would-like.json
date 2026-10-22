@@ -1,0 +1,33 @@
+{
+  "id": "moegen-would-like",
+  "rank": 104,
+  "kind": "content",
+  "pos": "verb",
+  "target": "möchten",
+  "en": "would like",
+  "hint": "polite wish, as in I would like a coffee",
+  "grammar": {
+    "present": {
+      "ich": "möchte",
+      "du": "möchtest",
+      "er": "möchte"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemocht"
+    }
+  },
+  "example": {
+    "target": "Möchtest du einen Kaffee?",
+    "en": "Would you like a coffee?"
+  },
+  "regional": null,
+  "trick": "MÖCHTE sounds a bit like merch-ta: I would like some band merch.",
+  "image": "/deck-de/img/moegen-would-like.webp",
+  "audio": {
+    "word": "/deck-de/audio/moegen-would-like.word.mp3",
+    "sentence": "/deck-de/audio/moegen-would-like.sentence.mp3"
+  }
+}

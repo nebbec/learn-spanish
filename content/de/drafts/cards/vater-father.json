@@ -1,0 +1,25 @@
+{
+  "id": "vater-father",
+  "rank": 155,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Vater",
+  "en": "father",
+  "hint": "not the informal dad",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Väter"
+  },
+  "example": {
+    "target": "Mein Vater ist aus Hamburg.",
+    "en": "My father is from Hamburg."
+  },
+  "regional": null,
+  "trick": "VATER is said FAH-ter, because German v sounds like f, so it sounds almost exactly like father.",
+  "image": "/deck-de/img/vater-father.webp",
+  "audio": {
+    "word": "/deck-de/audio/vater-father.word.mp3",
+    "sentence": "/deck-de/audio/vater-father.sentence.mp3"
+  }
+}

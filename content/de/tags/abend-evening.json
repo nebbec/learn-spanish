@@ -1,0 +1,14 @@
+{
+  "id": "abend-evening",
+  "unit": "making-plans",
+  "want": "Abend: evening",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4dc3e3a76c83f4b8",
+  "group": "#233 Abend",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:29.512Z"
+}

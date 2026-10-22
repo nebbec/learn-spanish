@@ -1,0 +1,17 @@
+{
+  "id": "wollen-want",
+  "rank": 28,
+  "word": "wollen",
+  "draft": "dd0415bcf2c472aa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to want",
+    "example": "Do you want to go to the cinema tonight?"
+  },
+  "note": "The example leaves out \"gehen\" after \"ins Kino\", which is natural spoken German, so learners may need to know that the motion verb is understood.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:37.667Z"
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 124,
+  "word": "when-i-dont-understand",
+  "unit": "when-i-dont-understand",
+  "order": 27,
+  "source": "payoff",
+  "line": "I don't understand.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "verstehen",
+      "rank": 124
+    },
+    {
+      "word": "nicht",
+      "rank": 8
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:21.839Z",
+  "cards": [
+    "phrase-i-dont-understand"
+  ]
+}

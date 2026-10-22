@@ -1,0 +1,17 @@
+{
+  "id": "hotel-hotel",
+  "rank": 702,
+  "word": "Hotel",
+  "draft": "ef1892c252c69a3c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hotel",
+    "example": "My hotel is not far."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:31.563Z"
+}

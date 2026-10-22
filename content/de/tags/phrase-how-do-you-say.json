@@ -1,0 +1,14 @@
+{
+  "id": "phrase-how-do-you-say",
+  "unit": "when-i-dont-understand",
+  "want": "phrase: Wie sagt man … auf Deutsch? = how do you say … in German?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9ce4a57db29f83cb",
+  "group": "phrases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:43.688Z"
+}

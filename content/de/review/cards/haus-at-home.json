@@ -1,0 +1,28 @@
+{
+  "id": "haus-at-home",
+  "rank": 129,
+  "word": "Haus",
+  "draft": "9318c8e771ae19e5",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Austria and Switzerland, daheim is the usual everyday word for at home, much more than in most of Germany, so regional should not be null.",
+      "fix": "regional: { where: \"Austria, Switzerland\", text: \"daheim is the usual everyday word for at home (Bist du heute Abend daheim?).\" }"
+    },
+    {
+      "reason": "trick",
+      "problem": "The trick glosses zu Hause as 'to the house', which is misleading because going (to) home is nach Hause, and zu Hause means only being at home, a distinction learners often get wrong.",
+      "fix": "trick: ZU HAUSE sounds like tsoo HOW-zeh: you're sitting in your own HOUSE, so you're at home."
+    }
+  ],
+  "back": {
+    "target": "at home",
+    "example": "Are you at home tonight?"
+  },
+  "note": "Zuhause written as one word is also an accepted spelling of the adverb (and is standard in Austria and Switzerland), so it might be worth accepting it as the same answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:07.975Z"
+}

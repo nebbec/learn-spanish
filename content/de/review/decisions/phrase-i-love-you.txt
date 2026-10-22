@@ -1,0 +1,30 @@
+# phrase-i-love-you · rank 145 · people-i-love
+#
+# Why it was flagged:
+#   - One right answer: In a unit about the people you love, the hint 'informal' only rules out Sie, so 'Ich hab dich lieb.' (the usual way to say I love you to family and friends) would also be a correct answer. Suggested fix: hint: informal, romantic (to your partner)
+# Reviewer's note (not a reason to flag): You could add a separate phrase card for 'Ich hab dich lieb.' (for family and friends), since it fits this unit and is how Germans say I love you to people who aren't their partner.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-i-love-you
+kind:           phrase
+pos:            phrase
+target:         Ich liebe dich.
+en:             I love you.
+hint:           informal
+example.target: Ich liebe dich und ich vermisse dich.
+example.en:     I love you and I miss you.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 5ba9ed1d41e75667

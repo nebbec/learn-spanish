@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-get-up-early",
+  "rank": 1025,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich stehe früh auf.",
+  "en": "I get up early.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich stehe früh auf und trinke einen Kaffee.",
+    "en": "I get up early and drink a coffee."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-i-get-up-early.word.mp3",
+    "sentence": "/deck-de/audio/phrase-i-get-up-early.sentence.mp3"
+  }
+}

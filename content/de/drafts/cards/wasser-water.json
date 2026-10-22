@@ -1,0 +1,25 @@
+{
+  "id": "wasser-water",
+  "rank": 402,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Wasser",
+  "en": "water",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": null
+  },
+  "example": {
+    "target": "Möchtest du Wasser?",
+    "en": "Would you like some water?"
+  },
+  "regional": null,
+  "trick": "WASSER sounds like VAH-ser, a close cousin of English water, with the W said as a V.",
+  "image": "/deck-de/img/wasser-water.webp",
+  "audio": {
+    "word": "/deck-de/audio/wasser-water.word.mp3",
+    "sentence": "/deck-de/audio/wasser-water.sentence.mp3"
+  }
+}

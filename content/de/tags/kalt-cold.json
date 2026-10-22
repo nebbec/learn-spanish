@@ -1,0 +1,14 @@
+{
+  "id": "kalt-cold",
+  "unit": "how-i-feel",
+  "want": "kalt",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "391abc8d4ae36296",
+  "group": "#652 kalt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:59.947Z"
+}

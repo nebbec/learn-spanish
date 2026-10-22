@@ -1,0 +1,17 @@
+{
+  "id": "phrase-good-morning",
+  "rank": 157,
+  "word": "hello-how-are-you",
+  "draft": "8b987395bf9b1a91",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Good morning!",
+    "example": "Good morning! How are you?"
+  },
+  "note": "The casual short form \"Morgen!\" (and northern \"Moin!\") also exists, but \"Guten Morgen!\" is clearly the standard answer to this prompt; the Spanish manana-morning card is the bare noun \"morning\", so null sameAs is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:47.523Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wo-where",
+  "rank": 79,
+  "word": "wo",
+  "draft": "2ab61cf9f4817562",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "where (in what place)",
+    "example": "Where is my phone?"
+  },
+  "note": "The hint is not strictly needed, since \"Where are you?\" can only be wo, but it helpfully sets wo apart from wohin; the trick's link to voilà is loose because voilà starts with a \"vwa\" sound, but \"voh\" for wo is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:22.943Z"
+}

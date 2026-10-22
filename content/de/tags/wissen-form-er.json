@@ -1,0 +1,16 @@
+{
+  "id": "wissen-form-er",
+  "unit": "when-i-dont-understand",
+  "want": "wissen: he / she knows (er weiß)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "251e5eb728b321ea",
+  "group": "forms wissen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:17.984Z"
+}

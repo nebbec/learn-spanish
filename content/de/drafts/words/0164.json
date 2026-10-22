@@ -1,0 +1,15 @@
+{
+  "rank": 164,
+  "word": "besser",
+  "cards": [
+    "besser-better"
+  ],
+  "skip": null,
+  "sameAs": {
+    "besser-better": "mejor-better"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:26.180Z"
+}

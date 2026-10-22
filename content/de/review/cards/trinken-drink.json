@@ -1,0 +1,17 @@
+{
+  "id": "trinken-drink",
+  "rank": 319,
+  "word": "trinken",
+  "draft": "dabc2dd7bd830634",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to drink",
+    "example": "I like drinking coffee."
+  },
+  "note": "The trick works, but its second half repeats itself; something like \"TRINKEN sounds like drinking\" alone would be cleaner.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:59.126Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "woher-where-from",
+  "rank": 385,
+  "word": "woher",
+  "draft": "6a7d8689343c7f4d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "where from, from where (question word)",
+    "example": "Where are you from?"
+  },
+  "note": "The example just repeats the prompt, and \"Woher kommst du?\" is the slightly more common way to say it, so the editor could use it or another sentence to show the word in a second context.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:12.238Z"
+}

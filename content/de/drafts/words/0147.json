@@ -1,0 +1,15 @@
+{
+  "rank": 147,
+  "word": "Kind",
+  "cards": [
+    "kind-child"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kind-child": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:13.929Z"
+}

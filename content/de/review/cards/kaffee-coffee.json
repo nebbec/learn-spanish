@@ -1,0 +1,17 @@
+{
+  "id": "kaffee-coffee",
+  "rank": 583,
+  "word": "Kaffee",
+  "draft": "0d1a6bee03aeb73c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "coffee",
+    "example": "Would you like a coffee?"
+  },
+  "note": "In Germany Kaffee is usually stressed on the first syllable, unlike café, but the trick still works as a sound link.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:28.954Z"
+}

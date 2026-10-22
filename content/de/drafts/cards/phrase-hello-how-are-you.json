@@ -1,0 +1,24 @@
+{
+  "id": "phrase-hello-how-are-you",
+  "rank": 146,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Hallo! Wie geht's?",
+  "en": "Hello! How are you?",
+  "hint": "casual, short form",
+  "grammar": null,
+  "example": {
+    "target": "Hallo! Wie geht's? – Gut, danke. Und dir?",
+    "en": "Hello! How are you? – Fine, thanks. And you?"
+  },
+  "regional": {
+    "where": "Austria",
+    "text": "Servus! Wie geht's?"
+  },
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-hello-how-are-you.word.mp3",
+    "sentence": "/deck-de/audio/phrase-hello-how-are-you.sentence.mp3"
+  }
+}

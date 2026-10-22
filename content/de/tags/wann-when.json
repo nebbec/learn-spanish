@@ -1,0 +1,14 @@
+{
+  "id": "wann-when",
+  "unit": "asking-questions",
+  "want": "wann",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": null,
+  "draft": "298c39dcb7cfe726",
+  "group": "#283 wann",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:38.335Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-like-drinking-coffee",
+  "rank": 583,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich trinke gern Kaffee.",
+  "en": "I like drinking coffee.",
+  "hint": "use gern",
+  "grammar": null,
+  "example": {
+    "target": "Mein Vater trinkt gern Kaffee, nicht Tee.",
+    "en": "My father likes drinking coffee, not tea."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-i-like-drinking-coffee.word.mp3",
+    "sentence": "/deck-de/audio/phrase-i-like-drinking-coffee.sentence.mp3"
+  }
+}

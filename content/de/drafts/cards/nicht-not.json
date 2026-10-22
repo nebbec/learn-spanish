@@ -8,8 +8,8 @@
   "hint": null,
   "grammar": null,
   "example": {
-    "target": "Ich weiß es nicht.",
-    "en": "I don't know."
+    "target": "Nein, ich bin nicht aus Hamburg.",
+    "en": "No, I'm not from Hamburg."
   },
   "regional": null,
   "trick": "NICHT sounds a bit like nix, the slang word for no or nothing: nicht means not.",

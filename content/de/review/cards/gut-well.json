@@ -1,0 +1,17 @@
+{
+  "id": "gut-well",
+  "rank": 43,
+  "word": "gut",
+  "draft": "da72497af3ecbc0a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "well (adverb: in a good way); fine",
+    "example": "You really cook well."
+  },
+  "note": "The hint is needed: it rules out the filler \"well...\" (na ja, also), and \"wohl\" is too formal or old-fashioned to compete.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:59.484Z"
+}

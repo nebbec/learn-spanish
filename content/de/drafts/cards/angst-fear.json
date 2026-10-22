@@ -1,0 +1,25 @@
+{
+  "id": "angst-fear",
+  "rank": 241,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Angst",
+  "en": "fear",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Ängste"
+  },
+  "example": {
+    "target": "Warum hast du Angst?",
+    "en": "Why are you afraid?"
+  },
+  "regional": null,
+  "trick": "ANGST is the word English borrowed as angst: teenage angst is a heavy feeling of worry and fear.",
+  "image": "/deck-de/img/angst-fear.webp",
+  "audio": {
+    "word": "/deck-de/audio/angst-fear.word.mp3",
+    "sentence": "/deck-de/audio/angst-fear.sentence.mp3"
+  }
+}

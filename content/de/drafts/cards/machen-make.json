@@ -1,0 +1,33 @@
+{
+  "id": "machen-make",
+  "rank": 40,
+  "kind": "content",
+  "pos": "verb",
+  "target": "machen",
+  "en": "to make",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "mache",
+      "du": "machst",
+      "er": "macht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemacht"
+    }
+  },
+  "example": {
+    "target": "Ich mache dir einen Kaffee.",
+    "en": "I'll make you a coffee."
+  },
+  "regional": null,
+  "trick": "MACHEN sounds a bit like machine, and a machine makes things.",
+  "image": "/deck-de/img/machen-make.webp",
+  "audio": {
+    "word": "/deck-de/audio/machen-make.word.mp3",
+    "sentence": "/deck-de/audio/machen-make.sentence.mp3"
+  }
+}

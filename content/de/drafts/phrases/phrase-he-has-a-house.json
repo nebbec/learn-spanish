@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 129,
+  "word": "what-i-want-and-have",
+  "unit": "what-i-want-and-have",
+  "order": 16,
+  "source": "payoff",
+  "line": "He has a house.",
+  "words": [
+    {
+      "word": "er",
+      "rank": 15
+    },
+    {
+      "word": "haben",
+      "rank": 5
+    },
+    {
+      "word": "ein",
+      "rank": 6
+    },
+    {
+      "word": "haus",
+      "rank": 129
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:56.469Z",
+  "cards": [
+    "phrase-he-has-a-house"
+  ]
+}

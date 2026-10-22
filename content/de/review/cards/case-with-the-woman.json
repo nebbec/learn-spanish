@@ -7,11 +7,11 @@
   "findings": [],
   "back": {
     "target": "with the woman",
-    "example": "I'm talking to the woman."
+    "example": "I'm talking with the woman."
   },
-  "note": null,
+  "note": "The answer is clearly different from the unit's \"with [a] woman\" (mit einer Frau), and the English \"talking to\" is a natural way to translate \"sprechen mit\".",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:22.375Z"
+  "reviewedAt": "2026-10-22T09:06:24.811Z"
 }

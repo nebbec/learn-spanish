@@ -1,0 +1,33 @@
+{
+  "id": "sein-form-ich",
+  "rank": 2,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich bin",
+  "en": "I am",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "bin",
+      "du": "bist",
+      "er": "ist"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gewesen"
+    }
+  },
+  "example": {
+    "target": "Ja, ich bin Anna.",
+    "en": "Yes, I'm Anna."
+  },
+  "regional": null,
+  "trick": "Bin sounds like English been, as in I have been here: I am.",
+  "image": "/deck-de/img/sein-be.webp",
+  "audio": {
+    "word": "/deck-de/audio/sein-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/sein-form-ich.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 31,
+  "word": "hier",
+  "cards": [
+    "hier-here"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hier-here": "aqui-here"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:08.442Z"
+}

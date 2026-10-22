@@ -1,0 +1,26 @@
+# tip-verb-endings · tip 2 of 14 · introduced by unit 4, What I want and have
+# The brief from content/tips.json: Each verb has a form for I, you and he / she: ich habe, du hast, er hat. The ending usually tells you who: -e for ich, -st for du, -t for er, though möchte has none for er: ich möchte, du möchtest, er möchte.
+# Drafted 2026-10-22T08:58:31.454Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-verb-endings --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Verbs change with who does them
+
+In German, the verb changes a little depending on who is doing it.
+The ending usually tells you who: -e for ich, -st for du and -t for er or sie, so ich habe, du hast, er hat.
+Möchte is the odd one: ich möchte and er möchte are the same, and only du gets an ending, du möchtest.
+When you speak, match the verb to the person, and when you listen, the ending helps you hear who it's about.
+
+example: Ich habe ein Haus. | I have a house.
+example: Sie hat Kaffee und ich habe Wasser. | She has coffee and I have water.
+example: Du möchtest Kaffee, und er möchte Wasser. | You'd like coffee, and he'd like water.

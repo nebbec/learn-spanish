@@ -1,0 +1,33 @@
+{
+  "id": "aufstehen-get-up",
+  "rank": 1025,
+  "kind": "content",
+  "pos": "verb",
+  "target": "aufstehen",
+  "en": "to get up, to stand up",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "stehe auf",
+      "du": "stehst auf",
+      "er": "steht auf"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "aufgestanden"
+    }
+  },
+  "example": {
+    "target": "Mein Vater steht früh auf.",
+    "en": "My father gets up early."
+  },
+  "regional": null,
+  "trick": "AUF sounds like \"off\" and STEHEN like \"shtay-en\", close to \"stay\": get off the bed and stay on your feet.",
+  "image": "/deck-de/img/aufstehen-get-up.webp",
+  "audio": {
+    "word": "/deck-de/audio/aufstehen-get-up.word.mp3",
+    "sentence": "/deck-de/audio/aufstehen-get-up.sentence.mp3"
+  }
+}

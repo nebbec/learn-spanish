@@ -1,0 +1,18 @@
+{
+  "id": "phrase-i-dont-understand",
+  "unit": "when-i-dont-understand",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "verstehen-understand",
+    "nicht-not"
+  ],
+  "tip": "tip-nicht-kein",
+  "why": null,
+  "draft": "68cee8b83abc9de8",
+  "group": "phrases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:43.688Z"
+}

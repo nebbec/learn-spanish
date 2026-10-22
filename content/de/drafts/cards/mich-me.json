@@ -1,0 +1,21 @@
+{
+  "id": "mich-me",
+  "rank": 26,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "mich",
+  "en": "Do you love [me]?",
+  "hint": "direct object, not mir",
+  "grammar": null,
+  "example": {
+    "target": "Mein Bruder versteht mich nicht.",
+    "en": "My brother doesn't understand me."
+  },
+  "regional": null,
+  "trick": "MICH sounds like \"me\" with a soft hiss at the end: mich is me.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mich-me.word.mp3",
+    "sentence": "/deck-de/audio/mich-me.sentence.mp3"
+  }
+}

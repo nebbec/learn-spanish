@@ -1,0 +1,25 @@
+{
+  "id": "arbeit-work",
+  "rank": 209,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Arbeit",
+  "en": "work, job",
+  "hint": "the noun, as in go to work; not der Job",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Arbeiten"
+  },
+  "example": {
+    "target": "Meine Arbeit ist nicht weit.",
+    "en": "My work isn't far."
+  },
+  "regional": null,
+  "trick": "ARBEIT sounds like \"are bite\": work takes a big bite out of your day.",
+  "image": "/deck-de/img/arbeit-work.webp",
+  "audio": {
+    "word": "/deck-de/audio/arbeit-work.word.mp3",
+    "sentence": "/deck-de/audio/arbeit-work.sentence.mp3"
+  }
+}

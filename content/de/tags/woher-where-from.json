@@ -1,0 +1,14 @@
+{
+  "id": "woher-where-from",
+  "unit": "asking-questions",
+  "want": "woher",
+  "requires": [],
+  "tip": null,
+  "why": "Use woher to ask where someone or something comes from; wo asks where something is.",
+  "draft": "6a7d8689343c7f4d",
+  "group": "#385 woher",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:48.183Z"
+}

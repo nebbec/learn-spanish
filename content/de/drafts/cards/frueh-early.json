@@ -1,0 +1,21 @@
+{
+  "id": "frueh-early",
+  "rank": 446,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "früh",
+  "en": "early",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Es ist noch zu früh.",
+    "en": "It's still too early."
+  },
+  "regional": null,
+  "trick": "FRÜH sounds a bit like free: early in the morning, before work starts, you still feel free.",
+  "image": "/deck-de/img/frueh-early.webp",
+  "audio": {
+    "word": "/deck-de/audio/frueh-early.word.mp3",
+    "sentence": "/deck-de/audio/frueh-early.sentence.mp3"
+  }
+}

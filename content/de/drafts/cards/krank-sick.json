@@ -1,0 +1,21 @@
+{
+  "id": "krank-sick",
+  "rank": 512,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "krank",
+  "en": "sick",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Meine Mutter ist krank, ich muss nach Hause.",
+    "en": "My mother is sick, I have to go home."
+  },
+  "regional": null,
+  "trick": "KRANK sounds like cranky: when you're sick in bed, you get cranky.",
+  "image": "/deck-de/img/krank-sick.webp",
+  "audio": {
+    "word": "/deck-de/audio/krank-sick.word.mp3",
+    "sentence": "/deck-de/audio/krank-sick.sentence.mp3"
+  }
+}

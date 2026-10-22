@@ -1,0 +1,17 @@
+{
+  "id": "wohnen-live",
+  "rank": 439,
+  "word": "wohnen",
+  "draft": "86fa066bccac39ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to live (somewhere), to reside",
+    "example": "Where do you live?"
+  },
+  "note": "You can also say \"Ich lebe in Berlin\", so the hint could be sharper, for example \"have your home somewhere, not be alive\"; even so, \"reside\" points clearly to wohnen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:08:27.675Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-ill-call-you-tomorrow",
+  "rank": 363,
+  "word": "people-i-love",
+  "draft": "e50879b6d6b2f664",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'll call you tomorrow.",
+    "example": "I have to go now. I'll call you tomorrow."
+  },
+  "note": "The spoken short form \"Ich ruf dich morgen an.\" should also count as correct. The editor could add the Swiss \"Ich telefoniere dir morgen\" or the Austrian \"Ich läut dich morgen an\" as a regional note, but leaving regional null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:35.207Z"
+}

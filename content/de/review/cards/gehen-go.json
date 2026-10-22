@@ -1,0 +1,17 @@
+{
+  "id": "gehen-go",
+  "rank": 34,
+  "word": "gehen",
+  "draft": "6506e829d85f059a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to go, to walk",
+    "example": "I'm going home now."
+  },
+  "note": "The hint is needed because it rules out fahren (to go by vehicle), and irregular is correctly true because the participle gegangen is strong, even though the present forms are regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:43.734Z"
+}

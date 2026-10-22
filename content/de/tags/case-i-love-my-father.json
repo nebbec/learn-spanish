@@ -3,14 +3,14 @@
   "unit": "a-coffee-please",
   "want": "case: meinen Vater = I love [my] father",
   "requires": [
-    "mein-my"
+    "vater-father"
   ],
   "tip": "tip-accusative",
   "why": null,
-  "draft": "90f7af34744a0ef0",
+  "draft": "1495c9c8ee2f3190",
   "group": "cases a-coffee-please",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "taggedAt": "2026-10-22T08:53:40.416Z"
+  "taggedAt": "2026-10-22T09:02:29.686Z"
 }

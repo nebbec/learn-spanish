@@ -1,0 +1,14 @@
+{
+  "id": "phrase-see-you-later",
+  "unit": "people-i-love",
+  "want": "phrase: bis später = see you later",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f379688571a889bf",
+  "group": "phrases people-i-love",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:56.912Z"
+}

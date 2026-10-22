@@ -6,12 +6,12 @@
   "flagged": false,
   "findings": [],
   "back": {
-    "target": "my brother (accusative, as the direct object)",
-    "example": "I miss my brother a lot."
+    "target": "my brother (as the object of a verb, accusative)",
+    "example": "I miss my brother very much."
   },
-  "note": "Mir fehlt mein Bruder is another common way to say this, but it puts my brother in the nominative, so the direct translation with vermissen and the accusative meinen Bruder is clearly the intended answer.",
+  "note": "Vermissen takes the accusative, so meinen Bruder is right; the common alternative \"Mein Bruder fehlt mir\" uses a different structure and doesn't compete with the bracketed answer.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:19.370Z"
+  "reviewedAt": "2026-10-22T09:06:13.274Z"
 }

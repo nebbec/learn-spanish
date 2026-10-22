@@ -1,0 +1,33 @@
+# stadt-city · rank 309 · Stadt
+#
+# Why it was flagged:
+#   - Memory trick: The respelling shtaht suggests a long vowel, but the a in Stadt is short, [ʃtat]. Suggested fix: trick: STADT sounds like shtat, a bit like state: a big city is like a little state of its own.
+# Reviewer's note (not a reason to flag): Town and city are both die Stadt, so the combined prompt has one answer, and the Spanish city picture works for it.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             stadt-city
+kind:           content
+pos:            noun
+target:         die Stadt
+en:             city, town
+hint:
+gender:         f
+article:        die
+plural:         die Städte
+example.target: Die Stadt ist nicht weit.
+example.en:     The town isn't far.
+regional.where:
+regional.text:
+trick:          STADT sounds like shtaht, close to state: a big city is like a little state of its own.
+
+# The draft this file was made from. Do not change it.
+draft: 38fc11226807cc2e

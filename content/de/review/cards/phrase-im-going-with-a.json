@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-going-with-a",
+  "rank": 150,
+  "word": "with-friends",
+  "draft": "c1cada8d73c304fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm going with a (male) friend.",
+    "example": "Today I'm going into town with a friend."
+  },
+  "note": "The hint \"a male friend\" is needed because it rules out \"mit einer Freundin\", and the indefinite \"einem Freund\" avoids the \"boyfriend\" reading that \"mein Freund\" would have.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:47.442Z"
+}

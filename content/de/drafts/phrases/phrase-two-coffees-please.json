@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 583,
+  "word": "buying-things",
+  "unit": "buying-things",
+  "order": 48,
+  "source": "payoff",
+  "line": "Two coffees, please.",
+  "words": [
+    {
+      "word": "zwei",
+      "rank": 153
+    },
+    {
+      "word": "kaffee",
+      "rank": 583
+    },
+    {
+      "word": "bitte",
+      "rank": 86
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:06.583Z",
+  "cards": [
+    "phrase-two-coffees-please"
+  ]
+}

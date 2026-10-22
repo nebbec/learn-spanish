@@ -1,0 +1,33 @@
+{
+  "id": "haben-form-er",
+  "rank": 5,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er hat",
+  "en": "he / she has",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehabt"
+    }
+  },
+  "example": {
+    "target": "Er hat Kaffee, ich nicht.",
+    "en": "He has coffee, I don't."
+  },
+  "regional": null,
+  "trick": "Er hat sounds close to hat: he has a hat.",
+  "image": "/deck-de/img/haben-have.webp",
+  "audio": {
+    "word": "/deck-de/audio/haben-form-er.word.mp3",
+    "sentence": "/deck-de/audio/haben-form-er.sentence.mp3"
+  }
+}

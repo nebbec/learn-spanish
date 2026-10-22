@@ -1,0 +1,17 @@
+{
+  "id": "wann-when",
+  "rank": 283,
+  "word": "wann",
+  "draft": "298c39dcb7cfe726",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "when (question word: at what time)",
+    "example": "When would you like to eat?"
+  },
+  "note": "The prompt is already a direct question, so it rules out wenn and als without the hint, which is harmless; also, möchtest is closer to \"would like\" than \"want\", though the given translation is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:55.883Z"
+}

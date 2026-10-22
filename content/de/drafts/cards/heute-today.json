@@ -1,0 +1,21 @@
+{
+  "id": "heute-today",
+  "rank": 127,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "heute",
+  "en": "today",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich gehe heute nach Hamburg.",
+    "en": "I'm going to Hamburg today."
+  },
+  "regional": null,
+  "trick": "HEUTE sounds like \"hoy-tuh\": say \"Ahoy!\" to greet today's new day.",
+  "image": "/deck-de/img/heute-today.webp",
+  "audio": {
+    "word": "/deck-de/audio/heute-today.word.mp3",
+    "sentence": "/deck-de/audio/heute-today.sentence.mp3"
+  }
+}

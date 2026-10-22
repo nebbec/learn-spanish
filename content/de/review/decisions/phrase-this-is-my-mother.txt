@@ -1,0 +1,30 @@
+# phrase-this-is-my-mother · rank 175 · my-people
+#
+# Why it was flagged:
+#   - Words outside the top 1,000: The phrase uses das, not among the 1,000 most common words.
+# Reviewer's note (not a reason to flag): In the example, "Anna" can be read as the mother's name or as the person being spoken to, in German and in English alike, so both readings work.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-this-is-my-mother
+kind:           phrase
+pos:            phrase
+target:         Das ist meine Mutter.
+en:             This is my mother.
+hint:
+example.target: Hallo! Das ist meine Mutter, Anna.
+example.en:     Hello! This is my mother, Anna.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 4d6f8f4c614966e3

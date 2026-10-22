@@ -1,0 +1,33 @@
+{
+  "id": "kommen-form-er",
+  "rank": 37,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er kommt",
+  "en": "he / she comes",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gekommen"
+    }
+  },
+  "example": {
+    "target": "Er kommt morgen.",
+    "en": "He's coming tomorrow."
+  },
+  "regional": null,
+  "trick": "Kommt is just come with a t at the end: er kommt, he comes.",
+  "image": "/deck-de/img/kommen-come.webp",
+  "audio": {
+    "word": "/deck-de/audio/kommen-form-er.word.mp3",
+    "sentence": "/deck-de/audio/kommen-form-er.sentence.mp3"
+  }
+}

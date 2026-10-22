@@ -1,0 +1,21 @@
+{
+  "id": "kalt-cold",
+  "rank": 652,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "kalt",
+  "en": "cold",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Mir ist kalt, ich möchte einen Tee.",
+    "en": "I'm cold, I'd like a tea."
+  },
+  "regional": null,
+  "trick": "KALT sounds a lot like the English word cold, and it means the same thing.",
+  "image": "/deck-de/img/kalt-cold.webp",
+  "audio": {
+    "word": "/deck-de/audio/kalt-cold.word.mp3",
+    "sentence": "/deck-de/audio/kalt-cold.sentence.mp3"
+  }
+}

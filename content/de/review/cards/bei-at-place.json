@@ -1,0 +1,17 @@
+{
+  "id": "bei-at-place",
+  "rank": 84,
+  "word": "bei",
+  "draft": "3b35087309c44d55",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at (someone's place), with, near, by",
+    "example": "We're eating at Anna's today."
+  },
+  "note": "The hint is useful because it rules out \"an\" and \"in\", and \"Ich bin bei Anna\" is the only natural German for the prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:55.030Z"
+}

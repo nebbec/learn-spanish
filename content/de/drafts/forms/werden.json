@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 13,
+  "word": "werden",
+  "from": "werden-become",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:02:15.472Z",
+  "cards": [
+    "werden-form-ich",
+    "werden-form-du",
+    "werden-form-er"
+  ]
+}

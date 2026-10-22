@@ -1,0 +1,21 @@
+{
+  "id": "mit-with",
+  "rank": 22,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "mit",
+  "en": "I'm going [with] Anna",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke gern Kaffee mit Anna.",
+    "en": "I like having coffee with Anna."
+  },
+  "regional": null,
+  "trick": "MIT sounds like mitt: a baseball mitt always comes with your hand.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mit-with.word.mp3",
+    "sentence": "/deck-de/audio/mit-with.sentence.mp3"
+  }
+}

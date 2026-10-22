@@ -1,0 +1,14 @@
+{
+  "id": "phrase-there-is-there-are",
+  "unit": "out-and-about",
+  "want": "phrase: es gibt = there is, there are",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "379165e517f54998",
+  "group": "phrases out-and-about",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:49.407Z"
+}

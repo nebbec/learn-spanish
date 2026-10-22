@@ -1,0 +1,23 @@
+{
+  "id": "moechten-form-er",
+  "rank": 104,
+  "word": "möchten",
+  "draft": "08a578af3a70d621",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "grammar",
+      "problem": "möchten has no Perfekt of its own: hat gemocht is the Perfekt of mögen and means liked, not wanted, so a learner who memorizes it would say the wrong thing; a past wish uses wollen (hat gewollt, wollte).",
+      "fix": "grammar.perfekt: null (or note that the past is expressed with wollen: hat gewollt)"
+    }
+  ],
+  "back": {
+    "target": "he / she would like",
+    "example": "He would like a coffee, please."
+  },
+  "note": "The hint \"polite wish\" is fine; it steers away from \"er will\" (he wants), and only \"er möchte\" fits the möchten strip.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:40.342Z"
+}

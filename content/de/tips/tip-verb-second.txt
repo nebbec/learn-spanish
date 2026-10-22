@@ -1,0 +1,27 @@
+# tip-verb-second · tip 9 of 14 · introduced by unit 11, Where I'm going
+# The brief from content/tips.json: In a statement the verb is always the second part. When something else comes first, such as a time or a place, the subject moves behind the verb: Ich gehe heute nach Hause, but Heute gehe ich nach Hause.
+# Drafted 2026-10-22T08:58:55.435Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-verb-second --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: The verb comes second
+
+In a German statement, the verb always comes second.
+Second means the second part of the sentence, and a part can be one word like ich or a group of words like der Mann.
+You can start with the person, as in Ich gehe heute nach Hause, which means I'm going home today.
+If you start with something else, like a time or a place, the verb still comes second and the person moves behind it: Heute gehe ich nach Hause.
+So when you start with heute, morgen, jetzt or hier, put the verb next, then the person.
+
+example: Heute gehe ich nach Hause. | Today I'm going home.
+example: Morgen geht Anna nach Berlin. | Tomorrow Anna is going to Berlin.
+example: Hier ist das Hotel. | The hotel is here.

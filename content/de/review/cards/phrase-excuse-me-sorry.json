@@ -1,0 +1,23 @@
+{
+  "id": "phrase-excuse-me-sorry",
+  "rank": 451,
+  "word": "out-and-about",
+  "draft": "ddde4504a99f4a03",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, 'Excuse me! / Sorry!' could also be answered with Entschuldige!, Entschuldigen Sie!, Verzeihung!, Tut mir leid! or the everyday loanword Sorry!, so more than one answer is right.",
+      "fix": "hint: the one-word noun, to get attention or apologise (not Tut mir leid or Entschuldige)"
+    }
+  ],
+  "back": {
+    "target": "Excuse me! / Sorry! (a one-word noun used to apologise or to get someone's attention)",
+    "example": "Excuse me, where is the toilet?"
+  },
+  "note": "Exgüsi is Swiss German dialect, while Swiss Standard German also says Entschuldigung, so the regional text could say it is the spoken form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:58.355Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "trinken-drink",
+  "rank": 319,
+  "kind": "content",
+  "pos": "verb",
+  "target": "trinken",
+  "en": "to drink",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er": "trinkt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getrunken"
+    }
+  },
+  "example": {
+    "target": "Ich trinke gern Kaffee.",
+    "en": "I like to drink coffee."
+  },
+  "regional": null,
+  "trick": "TRINKEN sounds like \"drinking\": you drink when you trinkst.",
+  "image": "/deck-de/img/trinken-drink.webp",
+  "audio": {
+    "word": "/deck-de/audio/trinken-drink.word.mp3",
+    "sentence": "/deck-de/audio/trinken-drink.sentence.mp3"
+  }
+}

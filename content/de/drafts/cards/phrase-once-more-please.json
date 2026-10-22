@@ -1,0 +1,21 @@
+{
+  "id": "phrase-once-more-please",
+  "rank": 280,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Noch einmal, bitte.",
+  "en": "Once more, please.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich verstehe das nicht. Noch einmal, bitte.",
+    "en": "I don't understand that. Once more, please."
+  },
+  "regional": null,
+  "trick": "Einmal starts with ein, meaning one, so noch einmal is literally still one time.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-once-more-please.word.mp3",
+    "sentence": "/deck-de/audio/phrase-once-more-please.sentence.mp3"
+  }
+}

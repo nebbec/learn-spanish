@@ -1,0 +1,16 @@
+{
+  "id": "kommen-form-du",
+  "unit": "making-plans",
+  "want": "kommen: you come (du kommst)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "78b449d2036799d4",
+  "group": "forms kommen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:21.697Z"
+}

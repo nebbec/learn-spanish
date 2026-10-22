@@ -1,0 +1,14 @@
+{
+  "id": "phrase-how-are-you",
+  "unit": "hello-how-are-you",
+  "want": "phrase: Wie geht's? = how are you?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9884be59d1a380a4",
+  "group": "phrases hello-how-are-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:35.188Z"
+}

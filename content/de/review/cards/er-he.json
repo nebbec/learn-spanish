@@ -2,16 +2,16 @@
   "id": "er-he",
   "rank": 15,
   "word": "er",
-  "draft": "55ac4584b09096c5",
+  "draft": "a6013dcbaeccd474",
   "flagged": false,
   "findings": [],
   "back": {
     "target": "he (also it, for a masculine noun)",
-    "example": "He isn't coming today."
+    "example": "He sings. / He is singing."
   },
-  "note": "A later card could teach that er also means it for masculine nouns (der Tisch, er ist neu), since English speakers often miss this.",
+  "note": "The example is correct but very thin; something like \"Er wohnt in Berlin.\" (He lives in Berlin.) would give more context, and a later card could teach that er also means \"it\" for masculine nouns (der Tisch, er ist neu).",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-10T13:33:00.487Z"
+  "reviewedAt": "2026-10-22T09:14:19.319Z"
 }

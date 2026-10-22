@@ -1,0 +1,21 @@
+{
+  "id": "gut-well",
+  "rank": 43,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "gut",
+  "en": "well",
+  "hint": "in a good way, also fine",
+  "grammar": null,
+  "example": {
+    "target": "Du kochst echt gut.",
+    "en": "You cook really well."
+  },
+  "regional": null,
+  "trick": "GUT sounds like \"good\": doing something in a good way means doing it well.",
+  "image": "/deck-de/img/gut-well.webp",
+  "audio": {
+    "word": "/deck-de/audio/gut-well.word.mp3",
+    "sentence": "/deck-de/audio/gut-well.sentence.mp3"
+  }
+}

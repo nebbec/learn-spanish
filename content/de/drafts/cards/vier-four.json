@@ -1,0 +1,21 @@
+{
+  "id": "vier-four",
+  "rank": 425,
+  "kind": "content",
+  "pos": "other",
+  "target": "vier",
+  "en": "four",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich möchte vier Bier, bitte.",
+    "en": "I'd like four beers, please."
+  },
+  "regional": null,
+  "trick": "VIER sounds like \"fear\": four ghosts fill you with fear.",
+  "image": "/deck-de/img/vier-four.webp",
+  "audio": {
+    "word": "/deck-de/audio/vier-four.word.mp3",
+    "sentence": "/deck-de/audio/vier-four.sentence.mp3"
+  }
+}

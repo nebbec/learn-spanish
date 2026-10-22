@@ -1,0 +1,15 @@
+{
+  "rank": 408,
+  "word": "glücklich",
+  "cards": [
+    "gluecklich-happy"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gluecklich-happy": "feliz-happy"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:14.745Z"
+}

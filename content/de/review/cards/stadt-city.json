@@ -1,0 +1,23 @@
+{
+  "id": "stadt-city",
+  "rank": 309,
+  "word": "Stadt",
+  "draft": "38fc11226807cc2e",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The respelling shtaht suggests a long vowel, but the a in Stadt is short, [ʃtat].",
+      "fix": "trick: STADT sounds like shtat, a bit like state: a big city is like a little state of its own."
+    }
+  ],
+  "back": {
+    "target": "city, town",
+    "example": "The city isn't far."
+  },
+  "note": "Town and city are both die Stadt, so the combined prompt has one answer, and the Spanish city picture works for it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:01.057Z"
+}

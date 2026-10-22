@@ -1,0 +1,30 @@
+# phrase-how-are-you · rank 34 · hello-how-are-you
+#
+# Why it was flagged:
+#   - One right answer: The hint 'casual, to a friend' fits 'Wie geht es dir?' and 'Wie geht's dir?' just as well as 'Wie geht's?', so the learner can't tell which one the card wants. Suggested fix: hint: casual short form, without dir
+# Reviewer's note (not a reason to flag): The example sentence is almost the same as the answer of the unit's 'Hello! How are you?' card, so the editor might want to keep the two cards clearly apart.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-how-are-you
+kind:           phrase
+pos:            phrase
+target:         Wie geht's?
+en:             How are you?
+hint:           casual, to a friend
+example.target: Hallo, Anna! Wie geht's?
+example.en:     Hi, Anna! How are you?
+regional.where:
+regional.text:
+trick:          Think of the old English "How goes it?": geht means goes, and 's is short for es, it.
+
+# The draft this file was made from. Do not change it.
+draft: 9884be59d1a380a4

@@ -1,0 +1,26 @@
+# tip-perfekt · tip 14 of 14 · for cards after the starter path
+# The brief from content/tips.json: In conversation German talks about the past with haben or sein plus a past form at the end: Ich habe gearbeitet, Ich bin nach Hause gegangen. Most verbs take haben; verbs of moving or changing take sein. Each verb's answer shows its Perfekt (hat gemacht, ist gegangen). For after the starter path, when the first past forms arrive.
+# Drafted 2026-10-22T08:59:15.757Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-perfekt --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Talking about the past: the Perfekt
+
+To talk about the past in conversation, German uses haben or sein plus a past form of the verb, and that past form goes at the end.
+Ich habe gearbeitet means I worked or I have worked, and ich bin nach Hause gegangen means I went home.
+Most verbs use haben, but verbs of moving or changing, like gehen, kommen and aufstehen, use sein.
+You don't have to guess which one: each verb's answer shows its past with the right helper, like hat gemacht or ist gegangen.
+
+example: Ich habe heute gearbeitet. | I worked today.
+example: Wir haben Kaffee getrunken. | We drank coffee.
+example: Er ist nach Hause gegangen. | He went home.

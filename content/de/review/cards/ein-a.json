@@ -2,16 +2,16 @@
   "id": "ein-a",
   "rank": 6,
   "word": "ein",
-  "draft": "5b3ffe4f1bc9b45c",
+  "draft": "932dbbd96d71cc8e",
   "flagged": false,
   "findings": [],
   "back": {
-    "target": "a, an (indefinite article, masculine or neuter nominative)",
-    "example": "That is a dog."
+    "target": "a, an (indefinite article, masculine or neuter)",
+    "example": "She has a baby."
   },
-  "note": "This card is fine, but the other ein card's hint, \"before a noun, not counting\", seems to contradict its prompt \"Just [one] beer\", which is counting, so the editor may want to look at it.",
+  "note": "The prompt (Das ist ein Hund, masculine nominative) and the example (ein Baby, neuter accusative) both correctly use the bare form ein, so this card leaves the learner ready for eine, einen and einem on later case cards.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-10T13:32:11.675Z"
+  "reviewedAt": "2026-10-22T09:14:21.468Z"
 }

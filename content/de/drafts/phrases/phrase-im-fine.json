@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 43,
+  "word": "hello-how-are-you",
+  "unit": "hello-how-are-you",
+  "order": 10,
+  "source": "chunk",
+  "line": "phrase: mir geht's gut = I'm fine",
+  "words": [
+    {
+      "word": "mir",
+      "rank": 21
+    },
+    {
+      "word": "gehen",
+      "rank": 34
+    },
+    {
+      "word": "es",
+      "rank": 9
+    },
+    {
+      "word": "gut",
+      "rank": 43
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:45.666Z",
+  "cards": [
+    "phrase-im-fine"
+  ]
+}

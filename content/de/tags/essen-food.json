@@ -1,0 +1,14 @@
+{
+  "id": "essen-food",
+  "unit": "what-i-like",
+  "want": "Essen: food",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "efd1da20e7ca4375",
+  "group": "#178 essen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:27.658Z"
+}

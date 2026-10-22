@@ -1,0 +1,17 @@
+{
+  "id": "koennen-form-du",
+  "rank": 17,
+  "word": "können",
+  "draft": "830adeb76296e6c7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you can (informal, singular)",
+    "example": "Can you speak English?"
+  },
+  "note": "The \"informal\" hint is needed, because it rules out the Sie form \"Sie können\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:47.525Z"
+}

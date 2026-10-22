@@ -2,7 +2,9 @@
   "id": "case-with-my-mother",
   "unit": "with-friends",
   "want": "case: mit meiner Mutter = with [my] mother",
-  "requires": [],
+  "requires": [
+    "mutter-mother"
+  ],
   "tip": "tip-dative",
   "why": null,
   "draft": "7604ab372ffbc7de",
@@ -10,5 +12,5 @@
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "taggedAt": "2026-10-22T08:53:48.729Z"
+  "taggedAt": "2026-10-22T09:02:39.935Z"
 }

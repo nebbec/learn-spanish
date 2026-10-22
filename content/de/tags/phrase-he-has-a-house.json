@@ -1,0 +1,18 @@
+{
+  "id": "phrase-he-has-a-house",
+  "unit": "what-i-want-and-have",
+  "want": null,
+  "requires": [
+    "haben-form-er",
+    "ein-a",
+    "haus-house"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "3729906eae191676",
+  "group": "phrases what-i-want-and-have",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:33.101Z"
+}

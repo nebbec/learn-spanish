@@ -1,0 +1,16 @@
+{
+  "id": "koennen-form-er",
+  "unit": "can-you-help-me",
+  "want": "können: he / she can (er kann)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "17af49138aa6909b",
+  "group": "forms können",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:16.364Z"
+}

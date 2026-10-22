@@ -1,0 +1,27 @@
+# tip-plurals · tip 12 of 14 · introduced by unit 16, Buying things
+# The brief from content/tips.json: German plurals come in several patterns: das Kind, die Kinder; die Frau, die Frauen; der Bruder, die Brüder; das Hotel, die Hotels. Every plural takes die. Learn each plural with its noun: the answer shows it. When ordering, drinks often stay singular: zwei Kaffee, bitte.
+# Drafted 2026-10-22T08:59:05.615Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-plurals --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Plurals have no single rule
+
+English mostly adds -s for more than one, but German plurals come in several patterns.
+Das Kind becomes die Kinder, die Frau becomes die Frauen, der Bruder becomes die Brüder, and das Hotel becomes die Hotels.
+Whether the noun is der, die or das, the word for the in the plural is always die.
+There's no rule you can rely on, so learn each plural together with its noun, and the answer on each card shows it to you.
+When you order, drinks often stay singular, so you say zwei Kaffee, bitte.
+
+example: Ich habe zwei Brüder. | I have two brothers.
+example: Die Kinder trinken Wasser. | The children are drinking water.
+example: Zwei Kaffee, bitte. | Two coffees, please.

@@ -1,0 +1,17 @@
+{
+  "id": "wollen-form-du",
+  "rank": 28,
+  "word": "wollen",
+  "draft": "956035a1d4aca2a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you want (informal, singular)",
+    "example": "Do you want a coffee?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:12.648Z"
+}

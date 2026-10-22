@@ -1,0 +1,30 @@
+# bitte-youre-welcome · rank 86 · bitte
+#
+# Why it was flagged:
+#   - One right answer: Gerne (or gern) is also a very common one-word reply to danke in Germany, so the hint does not rule it out. Suggested fix: hint: one-word reply to danke, the same word as please (not gerne)
+# Reviewer's note (not a reason to flag): Bitte schön and gern geschehen are also common replies, but they are two words, so the one-word part of the hint already rules them out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             bitte-youre-welcome
+kind:           content
+pos:            other
+target:         bitte
+en:             you're welcome
+hint:           one-word reply to danke
+example.target: Danke für den Kaffee! – Bitte!
+example.en:     Thanks for the coffee! – You're welcome!
+regional.where:
+regional.text:
+trick:          BITTE sounds like BIT-uh: no need to thank me, it was only a bit of help, you're welcome.
+
+# The draft this file was made from. Do not change it.
+draft: 992f4616be28e2ab

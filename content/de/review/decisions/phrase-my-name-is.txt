@@ -1,0 +1,30 @@
+# phrase-my-name-is · rank 167 · who-i-am
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Hallo, Anna. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids phrase-my-name-is
+# Reviewer's note (not a reason to flag): The hint is needed because it rules out the more formal Mein Name ist …, and the trick is accurate since archaic English hight is a cognate of heißen.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-my-name-is
+kind:           phrase
+pos:            phrase
+target:         Ich heiße …
+en:             My name is …
+hint:           The everyday way: literally "I am called".
+example.target: Hallo, ich heiße Anna.
+example.en:     Hi, my name is Anna.
+regional.where:
+regional.text:
+trick:          Heiße is related to the old English word hight, meaning "called", as in "a knight hight Lancelot".
+
+# The draft this file was made from. Do not change it.
+draft: 5784aca1ae500aee

@@ -1,0 +1,27 @@
+# tip-du-sie · tip 8 of 14 · introduced by unit 10, Out and about
+# The brief from content/tips.json: Du is you for friends, family, children and people your age; Sie, always with a capital, is the polite you for strangers, shops and officials. Sie takes the verb's dictionary form, as wir (we) and sie (they) do: Können Sie mir helfen? Sein is the exception: Sie sind. Ihr is you for several friends; this app leaves its forms out.
+# Drafted 2026-10-22T08:58:55.908Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-du-sie --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Du and Sie
+
+German has two words for you: du for friends, family, children and people your age, and Sie for strangers, shop staff and officials.
+The polite Sie always has a capital S, even in the middle of a sentence.
+With Sie, the verb takes its dictionary form, just as it does with wir (we) and sie (they): Können Sie mir helfen? means can you help me?
+Sein (to be) is the exception, because you are is Sie sind.
+Ihr means you when you talk to several friends at once, but this app leaves its forms out.
+
+example: Entschuldigung, können Sie mir helfen? | Excuse me, can you help me?
+example: Sind Sie aus Berlin? | Are you from Berlin?
+example: Kannst du mir helfen? | Can you help me? (to a friend)

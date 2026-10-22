@@ -1,0 +1,21 @@
+{
+  "id": "ihm-him",
+  "rank": 100,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "ihm",
+  "en": "I'm going with [him]",
+  "hint": "dative, as after mit or to him",
+  "grammar": null,
+  "example": {
+    "target": "Ich gehe heute mit ihm nach Hause.",
+    "en": "I'm going home with him today."
+  },
+  "regional": null,
+  "trick": "IHM sounds like eem, rhyming with team: pass the ball to him, he's on your team.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ihm-him.word.mp3",
+    "sentence": "/deck-de/audio/ihm-him.sentence.mp3"
+  }
+}

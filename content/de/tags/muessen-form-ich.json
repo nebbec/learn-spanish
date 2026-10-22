@@ -1,0 +1,16 @@
+{
+  "id": "muessen-form-ich",
+  "unit": "can-you-help-me",
+  "want": "müssen: I must (ich muss)",
+  "requires": [
+    "ich-i"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "40ac79471aef3547",
+  "group": "forms müssen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:25.722Z"
+}

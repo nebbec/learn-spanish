@@ -1,0 +1,23 @@
+{
+  "id": "phrase-how-are-you",
+  "rank": 34,
+  "word": "hello-how-are-you",
+  "draft": "9884be59d1a380a4",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'casual, to a friend' fits 'Wie geht es dir?' and 'Wie geht's dir?' just as well as 'Wie geht's?', so the learner can't tell which one the card wants.",
+      "fix": "hint: casual short form, without dir"
+    }
+  ],
+  "back": {
+    "target": "How's it going? / How are you? (casual, literally: how goes it?)",
+    "example": "Hi, Anna! How's it going?"
+  },
+  "note": "The example sentence is almost the same as the answer of the unit's 'Hello! How are you?' card, so the editor might want to keep the two cards clearly apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:54.761Z"
+}

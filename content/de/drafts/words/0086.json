@@ -1,0 +1,17 @@
+{
+  "rank": 86,
+  "word": "bitte",
+  "cards": [
+    "bitte-please",
+    "bitte-youre-welcome"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bitte-please": null,
+    "bitte-youre-welcome": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:46.286Z"
+}

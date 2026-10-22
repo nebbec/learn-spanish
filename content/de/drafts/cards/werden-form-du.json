@@ -1,0 +1,33 @@
+{
+  "id": "werden-form-du",
+  "rank": 13,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du wirst",
+  "en": "you will",
+  "hint": "future, informal",
+  "grammar": {
+    "present": {
+      "ich": "werde",
+      "du": "wirst",
+      "er": "wird"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geworden"
+    }
+  },
+  "example": {
+    "target": "Du wirst es lieben.",
+    "en": "You'll love it."
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/werden-become.webp",
+  "audio": {
+    "word": "/deck-de/audio/werden-form-du.word.mp3",
+    "sentence": "/deck-de/audio/werden-form-du.sentence.mp3"
+  }
+}

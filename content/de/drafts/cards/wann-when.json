@@ -1,0 +1,21 @@
+{
+  "id": "wann-when",
+  "rank": 283,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "wann",
+  "en": "[when] are you coming home?",
+  "hint": "asking a question",
+  "grammar": null,
+  "example": {
+    "target": "Wann möchtest du essen?",
+    "en": "When do you want to eat?"
+  },
+  "regional": null,
+  "trick": "WANN sounds like \"van\": when does the van come?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wann-when.word.mp3",
+    "sentence": "/deck-de/audio/wann-when.sentence.mp3"
+  }
+}

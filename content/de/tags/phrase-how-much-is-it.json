@@ -1,0 +1,14 @@
+{
+  "id": "phrase-how-much-is-it",
+  "unit": "buying-things",
+  "want": "phrase: Was kostet das? = how much is it?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c2c9347bfa086cf7",
+  "group": "phrases buying-things",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:05:03.147Z"
+}

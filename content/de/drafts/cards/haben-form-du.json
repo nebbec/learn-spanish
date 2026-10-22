@@ -1,0 +1,33 @@
+{
+  "id": "haben-form-du",
+  "rank": 5,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du hast",
+  "en": "you have",
+  "hint": "informal",
+  "grammar": {
+    "present": {
+      "ich": "habe",
+      "du": "hast",
+      "er": "hat"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehabt"
+    }
+  },
+  "example": {
+    "target": "Hast du Kaffee?",
+    "en": "Do you have coffee?"
+  },
+  "regional": null,
+  "trick": "Du hast is old English thou hast, meaning you have.",
+  "image": "/deck-de/img/haben-have.webp",
+  "audio": {
+    "word": "/deck-de/audio/haben-form-du.word.mp3",
+    "sentence": "/deck-de/audio/haben-form-du.sentence.mp3"
+  }
+}

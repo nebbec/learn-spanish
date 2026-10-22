@@ -1,0 +1,17 @@
+{
+  "id": "mann-man",
+  "rank": 82,
+  "word": "Mann",
+  "draft": "5d8e053a349f3d63",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the man (adult male)",
+    "example": "The man is from Hamburg."
+  },
+  "note": "The hint is useful because it rules out Mensch (person, human), and the bare prompt \"man\" is clearly different from the husband card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:52.351Z"
+}

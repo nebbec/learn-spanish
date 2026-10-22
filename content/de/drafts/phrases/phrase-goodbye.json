@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 445,
+  "word": "hello-how-are-you",
+  "unit": "hello-how-are-you",
+  "order": 12,
+  "source": "chunk",
+  "line": "phrase: auf Wiedersehen = goodbye",
+  "words": [
+    {
+      "word": "auf",
+      "rank": 25
+    },
+    {
+      "word": "wiedersehen",
+      "rank": 445
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:51.365Z",
+  "cards": [
+    "phrase-goodbye"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wollen-form-ich",
+  "rank": 28,
+  "word": "wollen",
+  "draft": "bb069e7c8314b388",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I want",
+    "example": "I want to go home."
+  },
+  "note": "sameAs is null, which is correct because this is a form card, even though querer-want has the same meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:02.237Z"
+}

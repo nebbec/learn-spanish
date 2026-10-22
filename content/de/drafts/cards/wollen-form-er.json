@@ -1,0 +1,33 @@
+{
+  "id": "wollen-form-er",
+  "rank": 28,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er will",
+  "en": "he / she wants",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewollt"
+    }
+  },
+  "example": {
+    "target": "Er will Deutsch lernen.",
+    "en": "He wants to learn German."
+  },
+  "regional": null,
+  "trick": "Er will means he wants, not he will. Same form as ich will, with no -t added.",
+  "image": "/deck-de/img/wollen-want.webp",
+  "audio": {
+    "word": "/deck-de/audio/wollen-form-er.word.mp3",
+    "sentence": "/deck-de/audio/wollen-form-er.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-there-is-there-are",
+  "rank": 59,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Es gibt",
+  "en": "There is, there are",
+  "hint": "something exists, as in there is a hotel here",
+  "grammar": null,
+  "example": {
+    "target": "Es gibt hier ein Hotel.",
+    "en": "There is a hotel here."
+  },
+  "regional": null,
+  "trick": "Gibt sounds like gives, and es gibt literally means it gives, so German says the world gives you a hotel here.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-there-is-there-are.word.mp3",
+    "sentence": "/deck-de/audio/phrase-there-is-there-are.sentence.mp3"
+  }
+}

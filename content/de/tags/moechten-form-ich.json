@@ -1,0 +1,16 @@
+{
+  "id": "moechten-form-ich",
+  "unit": "what-i-want-and-have",
+  "want": "möchten: I would like (ich möchte)",
+  "requires": [
+    "ich-i"
+  ],
+  "tip": "tip-verb-endings",
+  "why": null,
+  "draft": "565ab412a646dceb",
+  "group": "forms möchten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:25.084Z"
+}

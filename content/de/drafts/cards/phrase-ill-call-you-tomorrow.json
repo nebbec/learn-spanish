@@ -1,0 +1,21 @@
+{
+  "id": "phrase-ill-call-you-tomorrow",
+  "rank": 363,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich rufe dich morgen an.",
+  "en": "I'll call you tomorrow.",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "target": "Ich muss jetzt gehen. Ich rufe dich morgen an.",
+    "en": "I have to go now. I'll call you tomorrow."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-ill-call-you-tomorrow.word.mp3",
+    "sentence": "/deck-de/audio/phrase-ill-call-you-tomorrow.sentence.mp3"
+  }
+}

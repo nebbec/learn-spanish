@@ -1,0 +1,21 @@
+{
+  "id": "phrase-a-coffee-and-a",
+  "rank": 801,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Einen Kaffee und ein Bier, bitte.",
+  "en": "A coffee and a beer, please.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Hallo! Ich möchte einen Kaffee und ein Bier, bitte.",
+    "en": "Hello! I'd like a coffee and a beer, please."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-a-coffee-and-a.word.mp3",
+    "sentence": "/deck-de/audio/phrase-a-coffee-and-a.sentence.mp3"
+  }
+}

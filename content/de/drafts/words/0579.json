@@ -1,0 +1,15 @@
+{
+  "rank": 579,
+  "word": "Party",
+  "cards": [
+    "party-party"
+  ],
+  "skip": null,
+  "sameAs": {
+    "party-party": "fiesta-party"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:25.764Z"
+}

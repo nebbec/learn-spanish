@@ -1,0 +1,33 @@
+# mutter-mother · rank 175 · Mutter
+#
+# Why it was flagged:
+#   - Memory trick: MOO-ter suggests a long oo vowel, but the u in Mutter is short (MUT-ter, as in mutt), so the trick teaches a wrong pronunciation. Suggested fix: trick: MUTTER, said MUT-ter as in mutt, is close to MOTHER: picture a mother hugging her mutt.
+# Reviewer's note (not a reason to flag): Mutter also means a screw nut (plural die Muttern), but that does not affect this card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             mutter-mother
+kind:           content
+pos:            noun
+target:         die Mutter
+en:             mother
+hint:
+gender:         f
+article:        die
+plural:         die Mütter
+example.target: Meine Mutter ist aus Hamburg.
+example.en:     My mother is from Hamburg.
+regional.where:
+regional.text:
+trick:          MUTTER sounds like MOO-ter, close to mother: picture a mother cow mooing for her calf.
+
+# The draft this file was made from. Do not change it.
+draft: 12499000e946328c

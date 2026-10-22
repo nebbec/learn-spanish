@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 2,
+  "word": "sein",
+  "from": "sein-be",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:01:33.786Z",
+  "cards": [
+    "sein-form-ich",
+    "sein-form-du",
+    "sein-form-er"
+  ]
+}

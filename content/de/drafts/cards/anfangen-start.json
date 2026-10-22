@@ -1,0 +1,33 @@
+{
+  "id": "anfangen-start",
+  "rank": 448,
+  "kind": "content",
+  "pos": "verb",
+  "target": "anfangen",
+  "en": "to start, to begin",
+  "hint": "the everyday word, not beginnen",
+  "grammar": {
+    "present": {
+      "ich": "fange an",
+      "du": "fängst an",
+      "er": "fängt an"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angefangen"
+    }
+  },
+  "example": {
+    "target": "Wann fängt die Arbeit heute an?",
+    "en": "When does work start today?"
+  },
+  "regional": null,
+  "trick": "ANFANGEN sounds like on fang-en: a snake starts its attack by sinking its fangs on you.",
+  "image": "/deck-de/img/anfangen-start.webp",
+  "audio": {
+    "word": "/deck-de/audio/anfangen-start.word.mp3",
+    "sentence": "/deck-de/audio/anfangen-start.sentence.mp3"
+  }
+}

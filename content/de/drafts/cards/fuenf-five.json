@@ -1,0 +1,21 @@
+{
+  "id": "fuenf-five",
+  "rank": 406,
+  "kind": "content",
+  "pos": "other",
+  "target": "fünf",
+  "en": "five",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir möchten fünf Bier, bitte.",
+    "en": "We'd like five beers, please."
+  },
+  "regional": null,
+  "trick": "FÜNF sounds a bit like 'fun-f': count five fingers of fun on one hand.",
+  "image": "/deck-de/img/fuenf-five.webp",
+  "audio": {
+    "word": "/deck-de/audio/fuenf-five.word.mp3",
+    "sentence": "/deck-de/audio/fuenf-five.sentence.mp3"
+  }
+}

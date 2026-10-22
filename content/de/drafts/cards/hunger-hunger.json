@@ -1,0 +1,25 @@
+{
+  "id": "hunger-hunger",
+  "rank": 888,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Hunger",
+  "en": "hunger",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": null
+  },
+  "example": {
+    "target": "Ich habe Hunger und will jetzt essen.",
+    "en": "I'm hungry and want to eat now."
+  },
+  "regional": null,
+  "trick": "HUNGER sounds almost like English hunger, just with an oo sound: HOONG-er, and it means the same thing.",
+  "image": "/deck-de/img/hunger-hunger.webp",
+  "audio": {
+    "word": "/deck-de/audio/hunger-hunger.word.mp3",
+    "sentence": "/deck-de/audio/hunger-hunger.sentence.mp3"
+  }
+}

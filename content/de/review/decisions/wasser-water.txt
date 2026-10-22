@@ -1,0 +1,33 @@
+# wasser-water · rank 402 · Wasser
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Kann, Glas. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids wasser-water
+# Reviewer's note (not a reason to flag): A null plural is fine here, since the plurals die Wasser (bodies of water) and die Wässer (kinds of water) are specialised and not everyday words.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             wasser-water
+kind:           content
+pos:            noun
+target:         das Wasser
+en:             water
+hint:
+gender:         n
+article:        das
+plural:
+example.target: Kann ich bitte ein Glas Wasser haben?
+example.en:     Can I have a glass of water, please?
+regional.where:
+regional.text:
+trick:          WASSER sounds like VAH-ser, a close cousin of English water, with the W said as a V.
+
+# The draft this file was made from. Do not change it.
+draft: ab26255f0e6d2766

@@ -1,0 +1,17 @@
+{
+  "id": "krank-sick",
+  "rank": 512,
+  "word": "krank",
+  "draft": "c6969d5df54810b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sick, ill",
+    "example": "My mother is sick, I have to go home."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:23.832Z"
+}

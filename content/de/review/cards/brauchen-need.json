@@ -1,0 +1,17 @@
+{
+  "id": "brauchen-need",
+  "rank": 106,
+  "word": "brauchen",
+  "draft": "63016bbc079520cc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to need",
+    "example": "I'm tired, I need a coffee."
+  },
+  "note": "Benötigen also means to need, but it is formal, so a fluent speaker would still give brauchen for this plain prompt and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:07.897Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-and-you-how-are",
+  "rank": 51,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Und dir?",
+  "en": "And you?",
+  "hint": "informal, asking back how someone is",
+  "grammar": null,
+  "example": {
+    "target": "Mir geht's gut, danke. Und dir?",
+    "en": "I'm fine, thanks. And you?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-and-you-how-are.word.mp3",
+    "sentence": "/deck-de/audio/phrase-and-you-how-are.sentence.mp3"
+  }
+}

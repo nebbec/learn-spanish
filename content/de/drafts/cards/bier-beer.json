@@ -1,0 +1,25 @@
+{
+  "id": "bier-beer",
+  "rank": 801,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Bier",
+  "en": "beer",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Biere"
+  },
+  "example": {
+    "target": "Ich möchte ein Bier, bitte.",
+    "en": "I'd like a beer, please."
+  },
+  "regional": null,
+  "trick": "BIER sounds like \"beer\" because it means beer.",
+  "image": "/deck-de/img/bier-beer.webp",
+  "audio": {
+    "word": "/deck-de/audio/bier-beer.word.mp3",
+    "sentence": "/deck-de/audio/bier-beer.sentence.mp3"
+  }
+}

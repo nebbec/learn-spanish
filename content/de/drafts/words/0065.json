@@ -1,0 +1,19 @@
+{
+  "rank": 65,
+  "word": "aus",
+  "cards": [
+    "aus-from",
+    "aus-out-of",
+    "aus-off"
+  ],
+  "skip": null,
+  "sameAs": {
+    "aus-from": null,
+    "aus-out-of": null,
+    "aus-off": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:36.213Z"
+}

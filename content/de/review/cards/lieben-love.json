@@ -1,0 +1,17 @@
+{
+  "id": "lieben-love",
+  "rank": 145,
+  "word": "lieben",
+  "draft": "b9412574ed904bb9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to love",
+    "example": "I love you."
+  },
+  "note": "Lieben is stronger than Spanish querer and also covers amar, so it is fine for the two cards to share a picture, but the Spanish card's hint should not be shown with this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:02.913Z"
+}

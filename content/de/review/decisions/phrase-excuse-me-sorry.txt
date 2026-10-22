@@ -1,0 +1,30 @@
+# phrase-excuse-me-sorry · rank 451 · out-and-about
+#
+# Why it was flagged:
+#   - One right answer: With no hint, 'Excuse me! / Sorry!' could also be answered with Entschuldige!, Entschuldigen Sie!, Verzeihung!, Tut mir leid! or the everyday loanword Sorry!, so more than one answer is right. Suggested fix: hint: the one-word noun, to get attention or apologise (not Tut mir leid or Entschuldige)
+# Reviewer's note (not a reason to flag): Exgüsi is Swiss German dialect, while Swiss Standard German also says Entschuldigung, so the regional text could say it is the spoken form.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-excuse-me-sorry
+kind:           phrase
+pos:            phrase
+target:         Entschuldigung!
+en:             Excuse me! / Sorry!
+hint:
+example.target: Entschuldigung, wo ist die Toilette?
+example.en:     Excuse me, where is the toilet?
+regional.where: Switzerland
+regional.text:  Exgüsi
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: ddde4504a99f4a03

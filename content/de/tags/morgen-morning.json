@@ -1,0 +1,14 @@
+{
+  "id": "morgen-morning",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use der Morgen, with a capital, for the morning; lowercase morgen means tomorrow.",
+  "draft": "096aac2deff4e51f",
+  "group": "#157 morgen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:26.695Z"
+}

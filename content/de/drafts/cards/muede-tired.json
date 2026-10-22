@@ -1,0 +1,21 @@
+{
+  "id": "muede-tired",
+  "rank": 836,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "müde",
+  "en": "tired",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich bin sehr müde, und du?",
+    "en": "I'm very tired, and you?"
+  },
+  "regional": null,
+  "trick": "MÜDE sounds a bit like moody: when you're tired, you get moody.",
+  "image": "/deck-de/img/muede-tired.webp",
+  "audio": {
+    "word": "/deck-de/audio/muede-tired.word.mp3",
+    "sentence": "/deck-de/audio/muede-tired.sentence.mp3"
+  }
+}

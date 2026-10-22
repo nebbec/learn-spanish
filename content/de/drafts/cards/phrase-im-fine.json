@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-fine",
+  "rank": 43,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Mir geht's gut.",
+  "en": "I'm fine.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wie geht's? – Mir geht's gut, danke.",
+    "en": "How are you? – I'm fine, thanks."
+  },
+  "regional": null,
+  "trick": "Think of it word for word as \"me it goes good\": mir sounds like \"me\", and gut sounds like \"good\".",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-fine.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-fine.sentence.mp3"
+  }
+}

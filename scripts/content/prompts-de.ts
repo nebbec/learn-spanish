@@ -48,7 +48,7 @@ Meanings
 - Usually one card; at most three. Make a second card only when English needs a different word for the meaning (Uhr is "clock" and "o'clock"). Do not split shades of one meaning.
 - A row of the list can hold two kinds of word, and then each kind gets its card: sein is the verb "to be" and the possessive "his"; ihr is the pronoun "you (plural)" and the possessive "her, their"; essen is the verb "to eat" and das Essen "food"; morgen is "tomorrow" and der Morgen "morning".
 - The forms show what the word was counted from. A form shared with another word (sie is she, they and the formal Sie) is not a reason for a card beyond the meanings a beginner needs.
-- One exception: möchten ("would like") is counted under mögen but learned as a verb of its own. When the word is mögen, also write a card with id "moegen-would-like" whose answer is "möchten", with möchten's own present forms (möchte, möchtest, möchte).
+- One exception: möchten ("would like") is counted under mögen but learned as a verb of its own. When the word is mögen, also write a card with id "moegen-would-like" whose answer is "möchten", with möchten's own present forms (möchte, möchtest, möchte) and mögen's Perfekt (aux "haben", participle "gemocht"), since möchten has none of its own.
 - Always the dictionary form: the infinitive (a separable verb whole: anrufen), the noun in the nominative singular, the adjective's base form (neu, never neue).
 
 Content and glue cards

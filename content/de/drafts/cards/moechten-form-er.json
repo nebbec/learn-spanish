@@ -1,0 +1,33 @@
+{
+  "id": "moechten-form-er",
+  "rank": 104,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er möchte",
+  "en": "he / she would like",
+  "hint": "polite wish",
+  "grammar": {
+    "present": {
+      "ich": "möchte",
+      "du": "möchtest",
+      "er": "möchte"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemocht"
+    }
+  },
+  "example": {
+    "target": "Er möchte einen Kaffee, bitte.",
+    "en": "He'd like a coffee, please."
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/moegen-would-like.webp",
+  "audio": {
+    "word": "/deck-de/audio/moechten-form-er.word.mp3",
+    "sentence": "/deck-de/audio/moechten-form-er.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "brauchen-need",
+  "rank": 106,
+  "kind": "content",
+  "pos": "verb",
+  "target": "brauchen",
+  "en": "to need",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er": "braucht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebraucht"
+    }
+  },
+  "example": {
+    "target": "Ich bin müde, ich brauche einen Kaffee.",
+    "en": "I'm tired, I need a coffee."
+  },
+  "regional": null,
+  "trick": "BRAUCHEN starts like BROW: you wipe your brow because you NEED a break.",
+  "image": "/deck-de/img/brauchen-need.webp",
+  "audio": {
+    "word": "/deck-de/audio/brauchen-need.word.mp3",
+    "sentence": "/deck-de/audio/brauchen-need.sentence.mp3"
+  }
+}

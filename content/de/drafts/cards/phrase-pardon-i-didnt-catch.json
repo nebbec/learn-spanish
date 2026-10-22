@@ -1,0 +1,21 @@
+{
+  "id": "phrase-pardon-i-didnt-catch",
+  "rank": 86,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Wie bitte?",
+  "en": "Pardon? (I didn't catch that.)",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wie bitte? Wie heißt du?",
+    "en": "Pardon? What's your name?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-pardon-i-didnt-catch.word.mp3",
+    "sentence": "/deck-de/audio/phrase-pardon-i-didnt-catch.sentence.mp3"
+  }
+}

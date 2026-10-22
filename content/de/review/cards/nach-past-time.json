@@ -1,0 +1,17 @@
+{
+  "id": "nach-past-time",
+  "rank": 73,
+  "word": "nach",
+  "draft": "24bd5e47648464ca",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "past, after (in clock times: zehn nach drei = ten past three)",
+    "example": "It's already ten past three."
+  },
+  "note": "The hint \"telling the time\" isn't really needed because the prompt already makes the clock-time sense clear, but it does no harm.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:19.109Z"
+}

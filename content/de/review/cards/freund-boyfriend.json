@@ -1,0 +1,17 @@
+{
+  "id": "freund-boyfriend",
+  "rank": 150,
+  "word": "Freund",
+  "draft": "1c1e16e9fa4b9840",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "boyfriend (also: male friend)",
+    "example": "Do you have a boyfriend?"
+  },
+  "note": "The example \"Hast du einen Freund?\" is the classic way to ask \"Do you have a boyfriend?\", so it shows this meaning well, even though out of context it could also mean \"a (male) friend\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:14.853Z"
+}

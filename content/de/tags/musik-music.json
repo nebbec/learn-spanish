@@ -1,0 +1,14 @@
+{
+  "id": "musik-music",
+  "unit": "what-i-like",
+  "want": "Musik",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b5e00f20e394b124",
+  "group": "#269 Musik",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:36.336Z"
+}

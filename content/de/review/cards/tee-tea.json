@@ -1,0 +1,17 @@
+{
+  "id": "tee-tea",
+  "rank": 997,
+  "word": "Tee",
+  "draft": "a4e856f09d250df1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "tea",
+    "example": "I like drinking tea."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:40.530Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-two-coffees-please",
+  "rank": 583,
+  "word": "buying-things",
+  "draft": "c7d80f24a8827dba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Two coffees, please.",
+    "example": "Hello! Two coffees, please."
+  },
+  "note": "Zwei Kaffee with no plural ending is the right way to order, since Kaffee works as a unit word here, so it is worth pointing this out to learners who would expect Kaffees.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:39.902Z"
+}

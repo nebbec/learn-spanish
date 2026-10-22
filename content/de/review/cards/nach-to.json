@@ -1,0 +1,23 @@
+{
+  "id": "nach-to",
+  "rank": 73,
+  "word": "nach",
+  "draft": "f4cdf68070b65a3d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "For a trip to another city, Germans say fahren, not gehen; 'Ich gehe nach Hamburg' sounds like going on foot or moving there for good, so learners would pick up the wrong verb for travel.",
+      "fix": "example.target: Ich fahre morgen nach Hamburg."
+    }
+  ],
+  "back": {
+    "target": "to (a city or country without an article, and in nach Hause, home)",
+    "example": "I'm walking to Hamburg tomorrow / I'm going to Hamburg tomorrow (gehen suggests going on foot or moving there)."
+  },
+  "note": "The hint correctly rules out zu and in, and its mention of home points to nach Hause.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:52.255Z"
+}

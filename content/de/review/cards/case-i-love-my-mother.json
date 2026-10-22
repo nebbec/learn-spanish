@@ -9,9 +9,9 @@
     "target": "my mother (accusative, as the object of a verb)",
     "example": "I love my mother very much."
   },
-  "note": "The feminine accusative \"meine\" looks the same as the nominative, so this card shows the learner that nothing changes; next to the \"meinen Bruder\" card that contrast is useful.",
+  "note": "Feminine meine looks the same in the nominative and accusative, so this card shows no visible case change, unlike the brother card (meinen Bruder).",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:11.694Z"
+  "reviewedAt": "2026-10-22T09:06:08.886Z"
 }

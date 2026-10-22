@@ -1,0 +1,33 @@
+{
+  "id": "moegen-like",
+  "rank": 104,
+  "kind": "content",
+  "pos": "verb",
+  "target": "mögen",
+  "en": "to like",
+  "hint": "as in I like you, I like pizza",
+  "grammar": {
+    "present": {
+      "ich": "mag",
+      "du": "magst",
+      "er": "mag"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemocht"
+    }
+  },
+  "example": {
+    "target": "Meine Mutter mag keinen Kaffee.",
+    "en": "My mother doesn't like coffee."
+  },
+  "regional": null,
+  "trick": "Its form MAG sounds like mug: I like my favourite mug.",
+  "image": "/deck-de/img/moegen-like.webp",
+  "audio": {
+    "word": "/deck-de/audio/moegen-like.word.mp3",
+    "sentence": "/deck-de/audio/moegen-like.sentence.mp3"
+  }
+}

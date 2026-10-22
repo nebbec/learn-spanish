@@ -1,0 +1,15 @@
+{
+  "rank": 713,
+  "word": "traurig",
+  "cards": [
+    "traurig-sad"
+  ],
+  "skip": null,
+  "sameAs": {
+    "traurig-sad": "triste-sad"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:32.196Z"
+}

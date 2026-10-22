@@ -1,0 +1,17 @@
+{
+  "id": "party-party",
+  "rank": 579,
+  "word": "Party",
+  "draft": "3e760de92415e82a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "party (a social gathering or celebration)",
+    "example": "Are you coming to the party this evening?"
+  },
+  "note": "The hint is needed: calling it the English loanword rules out Feier and Fest, and naming Partei rules out the political sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:26.806Z"
+}

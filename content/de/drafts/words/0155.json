@@ -1,0 +1,15 @@
+{
+  "rank": 155,
+  "word": "Vater",
+  "cards": [
+    "vater-father"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vater-father": "padre-father"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:23.387Z"
+}

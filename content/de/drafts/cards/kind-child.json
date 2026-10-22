@@ -1,0 +1,25 @@
+{
+  "id": "kind-child",
+  "rank": 147,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Kind",
+  "en": "child",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Kinder"
+  },
+  "example": {
+    "target": "Das Kind ist sehr müde.",
+    "en": "The child is very tired."
+  },
+  "regional": null,
+  "trick": "KIND, said like kint, is the kinder in kindergarten, literally a garden for children.",
+  "image": "/deck-de/img/kind-child.webp",
+  "audio": {
+    "word": "/deck-de/audio/kind-child.word.mp3",
+    "sentence": "/deck-de/audio/kind-child.sentence.mp3"
+  }
+}

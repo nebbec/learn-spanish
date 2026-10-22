@@ -1,0 +1,17 @@
+{
+  "id": "fuenf-five",
+  "rank": 406,
+  "word": "fünf",
+  "draft": "29ec27df608cf6df",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "five",
+    "example": "We'd like five beers, please."
+  },
+  "note": "The example correctly uses \"fünf Bier\" (Bier as a unit when ordering) and not \"Biere\", which is a good natural touch to keep.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:15.861Z"
+}

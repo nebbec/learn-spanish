@@ -1,0 +1,21 @@
+{
+  "id": "aus-out-of",
+  "rank": 65,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "aus",
+  "en": "he comes [out of] the house",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Er kommt gerade aus dem Haus.",
+    "en": "He's just coming out of the house."
+  },
+  "regional": null,
+  "trick": "AUS sounds like the end of house, and it means out of: you step aus the house.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/aus-out-of.word.mp3",
+    "sentence": "/deck-de/audio/aus-out-of.sentence.mp3"
+  }
+}

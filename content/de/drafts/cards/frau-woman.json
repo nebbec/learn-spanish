@@ -1,0 +1,25 @@
+{
+  "id": "frau-woman",
+  "rank": 114,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Frau",
+  "en": "woman",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Frauen"
+  },
+  "example": {
+    "target": "Die Frau ist aus Berlin.",
+    "en": "The woman is from Berlin."
+  },
+  "regional": null,
+  "trick": "FRAU rhymes with wow: wow, look at that woman!",
+  "image": "/deck-de/img/frau-woman.webp",
+  "audio": {
+    "word": "/deck-de/audio/frau-woman.word.mp3",
+    "sentence": "/deck-de/audio/frau-woman.sentence.mp3"
+  }
+}

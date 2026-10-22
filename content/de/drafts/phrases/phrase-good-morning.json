@@ -1,0 +1,27 @@
+{
+  "kind": "phrase",
+  "rank": 157,
+  "word": "hello-how-are-you",
+  "unit": "hello-how-are-you",
+  "order": 8,
+  "source": "chunk",
+  "line": "phrase: guten Morgen = good morning",
+  "words": [
+    {
+      "word": "gut",
+      "rank": 43
+    },
+    {
+      "word": "morgen",
+      "rank": 157
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:40.898Z",
+  "cards": [
+    "phrase-good-morning"
+  ]
+}

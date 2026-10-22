@@ -1,0 +1,15 @@
+{
+  "rank": 146,
+  "word": "hallo",
+  "cards": [
+    "hallo-hello"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hallo-hello": "hola-hello"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:10.635Z"
+}

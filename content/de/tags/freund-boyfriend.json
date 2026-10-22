@@ -1,0 +1,14 @@
+{
+  "id": "freund-boyfriend",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Mein Freund often means my boyfriend; to mean just a friend, say ein Freund von mir.",
+  "draft": "1c1e16e9fa4b9840",
+  "group": "#150 Freund",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:19.402Z"
+}

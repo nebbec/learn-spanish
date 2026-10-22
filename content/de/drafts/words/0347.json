@@ -1,0 +1,15 @@
+{
+  "rank": 347,
+  "word": "bisschen",
+  "cards": [
+    "bisschen-a-bit"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bisschen-a-bit": "poco-a-little"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:59.045Z"
+}

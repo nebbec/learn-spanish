@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-dont-like-beer",
+  "rank": 801,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich mag kein Bier.",
+  "en": "I don't like beer.",
+  "hint": "use kein",
+  "grammar": null,
+  "example": {
+    "target": "Nein, danke. Ich mag kein Bier. Ich trinke Wasser.",
+    "en": "No, thanks. I don't like beer. I'll drink water."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-i-dont-like-beer.word.mp3",
+    "sentence": "/deck-de/audio/phrase-i-dont-like-beer.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "sein-form-er",
+  "rank": 2,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er ist",
+  "en": "he / she is",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "bin",
+      "du": "bist",
+      "er": "ist"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gewesen"
+    }
+  },
+  "example": {
+    "target": "Nein, er ist Paul.",
+    "en": "No, he's Paul."
+  },
+  "regional": null,
+  "trick": "Ist sounds like English is with a t at the end: er ist means he is.",
+  "image": "/deck-de/img/sein-be.webp",
+  "audio": {
+    "word": "/deck-de/audio/sein-form-er.word.mp3",
+    "sentence": "/deck-de/audio/sein-form-er.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "phrase-do-you-speak-english",
+  "unit": "when-i-dont-understand",
+  "want": "phrase: Sprechen Sie Englisch? = do you speak English? (polite)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1ccc8be612f989ce",
+  "group": "phrases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:43.688Z"
+}

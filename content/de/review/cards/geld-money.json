@@ -1,0 +1,17 @@
+{
+  "id": "geld-money",
+  "rank": 171,
+  "word": "Geld",
+  "draft": "ae531d459885acd5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "money",
+    "example": "I have no money today."
+  },
+  "note": "A plural of null is fine for beginners, though \"die Gelder\" (funds, as in \"öffentliche Gelder\") does exist in formal and news language.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:33.030Z"
+}

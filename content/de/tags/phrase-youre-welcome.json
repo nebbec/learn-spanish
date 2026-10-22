@@ -1,0 +1,14 @@
+{
+  "id": "phrase-youre-welcome",
+  "unit": "who-i-am",
+  "want": "phrase: gern geschehen = you're welcome",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "446b68bb2cba77c3",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:31.259Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "haben-form-du",
+  "unit": "what-i-want-and-have",
+  "want": "haben: you have (du hast)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "9164e7d171133079",
+  "group": "forms haben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:13.277Z"
+}

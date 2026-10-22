@@ -1,0 +1,17 @@
+{
+  "id": "anrufen-call",
+  "rank": 363,
+  "word": "anrufen",
+  "draft": "5be322ebb84bd9c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to call (someone on the phone), to phone, to ring",
+    "example": "I'll call you tomorrow."
+  },
+  "note": "The hint \"on the phone\" correctly rules out rufen (call out) and nennen (call by a name); Swiss German also uses anrufen, sometimes with the dative (jemandem anrufen), but that is not a different word, so regional null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:08:14.874Z"
+}

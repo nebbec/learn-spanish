@@ -1,0 +1,17 @@
+{
+  "id": "haben-form-du",
+  "rank": 5,
+  "word": "haben",
+  "draft": "9164e7d171133079",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you have (informal, singular)",
+    "example": "Do you have coffee?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:33.755Z"
+}

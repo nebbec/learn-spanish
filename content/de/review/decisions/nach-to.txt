@@ -1,0 +1,30 @@
+# nach-to · rank 73 · nach
+#
+# Why it was flagged:
+#   - Example sentence: For a trip to another city, Germans say fahren, not gehen; 'Ich gehe nach Hamburg' sounds like going on foot or moving there for good, so learners would pick up the wrong verb for travel. Suggested fix: example.target: Ich fahre morgen nach Hamburg.
+# Reviewer's note (not a reason to flag): The hint correctly rules out zu and in, and its mention of home points to nach Hause.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             nach-to
+kind:           glue
+pos:            preposition
+target:         nach
+en:             I'm flying [to] Berlin
+hint:           a city or country, also home
+example.target: Ich gehe morgen nach Hamburg.
+example.en:     I'm going to Hamburg tomorrow.
+regional.where:
+regional.text:
+trick:          NACH sounds like a short "knock": you knock on the door of the city you travel to.
+
+# The draft this file was made from. Do not change it.
+draft: f4cdf68070b65a3d

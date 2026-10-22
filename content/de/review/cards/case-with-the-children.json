@@ -9,9 +9,9 @@
     "target": "with the children",
     "example": "I'm eating with the children today."
   },
-  "note": "The trick is a grammar tip rather than a sound link, but it is accurate and useful for the dative plural -n.",
+  "note": "The trick is a grammar tip rather than a sound link, which is fine on a case card, and what it says is correct.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:28.825Z"
+  "reviewedAt": "2026-10-22T09:06:39.355Z"
 }

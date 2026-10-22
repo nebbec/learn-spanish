@@ -1,0 +1,21 @@
+{
+  "id": "jetzt-now",
+  "rank": 62,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "jetzt",
+  "en": "now",
+  "hint": "the everyday word, not nun",
+  "grammar": null,
+  "example": {
+    "target": "Ich muss jetzt gehen.",
+    "en": "I have to go now."
+  },
+  "regional": null,
+  "trick": "JETZT sounds like yetst, close to yet: is it time yet? Yes, it's time now!",
+  "image": "/deck-de/img/jetzt-now.webp",
+  "audio": {
+    "word": "/deck-de/audio/jetzt-now.word.mp3",
+    "sentence": "/deck-de/audio/jetzt-now.sentence.mp3"
+  }
+}

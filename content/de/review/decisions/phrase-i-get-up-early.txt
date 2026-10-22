@@ -1,0 +1,29 @@
+# phrase-i-get-up-early · rank 1025 · what-i-do
+#
+# Why it was flagged:
+#   - Words outside the top 1,000: The phrase uses aufstehen, not among the 1,000 most common words.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-i-get-up-early
+kind:           phrase
+pos:            phrase
+target:         Ich stehe früh auf.
+en:             I get up early.
+hint:
+example.target: Ich stehe früh auf und trinke einen Kaffee.
+example.en:     I get up early and drink a coffee.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 347c8b9f3dcf1919

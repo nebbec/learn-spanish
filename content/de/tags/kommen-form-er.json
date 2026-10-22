@@ -1,0 +1,16 @@
+{
+  "id": "kommen-form-er",
+  "unit": "making-plans",
+  "want": "kommen: he / she comes (er kommt)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "a572607727e3bdcc",
+  "group": "forms kommen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:21.697Z"
+}

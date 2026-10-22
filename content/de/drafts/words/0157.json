@@ -1,0 +1,17 @@
+{
+  "rank": 157,
+  "word": "morgen",
+  "cards": [
+    "morgen-tomorrow",
+    "morgen-morning"
+  ],
+  "skip": null,
+  "sameAs": {
+    "morgen-tomorrow": "manana-tomorrow",
+    "morgen-morning": "manana-morning"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:28.303Z"
+}

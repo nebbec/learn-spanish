@@ -1,0 +1,18 @@
+{
+  "id": "phrase-tomorrow-im-going-to",
+  "unit": "where-im-going",
+  "want": null,
+  "requires": [
+    "morgen-tomorrow",
+    "gehen-form-ich",
+    "zu-to"
+  ],
+  "tip": "tip-verb-second",
+  "why": null,
+  "draft": "6fa2dc2379adf05e",
+  "group": "phrases where-im-going",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:52.925Z"
+}

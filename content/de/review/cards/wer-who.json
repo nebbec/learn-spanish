@@ -1,0 +1,17 @@
+{
+  "id": "wer-who",
+  "rank": 102,
+  "word": "wer",
+  "draft": "74d79f273bab392a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "who (question pronoun, nominative)",
+    "example": "Who is drinking my beer?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:06.792Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-pardon-i-didnt-catch",
+  "rank": 86,
+  "word": "asking-questions",
+  "draft": "b20689e85db54886",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Pardon? / Sorry, what did you say?",
+    "example": "Pardon? What's your name?"
+  },
+  "note": "Colloquial Was? or Hä? also ask someone to repeat, but they sound blunt, so Wie bitte? is the clear standard answer to \"Pardon?\"; the example could read more naturally as \"Wie bitte? Wie heißt du nochmal?\", but it is fine as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:27.868Z"
+}

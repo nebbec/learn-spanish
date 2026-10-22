@@ -1,0 +1,14 @@
+{
+  "id": "hunger-hunger",
+  "unit": "how-i-feel",
+  "want": "Hunger",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d71c0c1fe0b3be93",
+  "group": "#888 Hunger",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:05.197Z"
+}

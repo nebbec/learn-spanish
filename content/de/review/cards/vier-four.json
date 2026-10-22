@@ -1,0 +1,17 @@
+{
+  "id": "vier-four",
+  "rank": 425,
+  "word": "vier",
+  "draft": "c04578da522936d7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "four",
+    "example": "I'd like four beers, please."
+  },
+  "note": "When ordering, Germans normally say \"vier Bier\" with no plural ending, so the example is natural and teaches a useful pattern.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:18.582Z"
+}

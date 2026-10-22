@@ -1,0 +1,23 @@
+{
+  "id": "phrase-once-more-please",
+  "rank": 280,
+  "word": "when-i-dont-understand",
+  "draft": "d07b03fe57dfc5d0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is two sentences, but it should be one short sentence.",
+      "fix": "example.target: Entschuldigung, noch einmal, bitte. | example.en: Sorry, once more, please."
+    }
+  ],
+  "back": {
+    "target": "Once more, please. / One more time, please.",
+    "example": "I don't understand that. Once more, please."
+  },
+  "note": "People often shorten it to \"Noch mal, bitte.\" (or \"Nochmal, bitte.\"), so you could accept that as a variant of the same answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:41.308Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "aus-off",
+  "rank": 65,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "aus",
+  "en": "the light is [off]",
+  "hint": "a light or device, not on",
+  "grammar": null,
+  "example": {
+    "target": "Mach bitte das Licht aus.",
+    "en": "Please turn the light off."
+  },
+  "regional": null,
+  "trick": "AUS sounds close to out: lights out means the lights are off.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/aus-off.word.mp3",
+    "sentence": "/deck-de/audio/aus-off.sentence.mp3"
+  }
+}

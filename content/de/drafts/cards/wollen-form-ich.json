@@ -1,0 +1,33 @@
+{
+  "id": "wollen-form-ich",
+  "rank": 28,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich will",
+  "en": "I want",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewollt"
+    }
+  },
+  "example": {
+    "target": "Ich will nach Hause.",
+    "en": "I want to go home."
+  },
+  "regional": null,
+  "trick": "Careful: ich will means I want, not I will. Think of willpower: your will is what you want.",
+  "image": "/deck-de/img/wollen-want.webp",
+  "audio": {
+    "word": "/deck-de/audio/wollen-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/wollen-form-ich.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+# case-a-coffee-please · rank 583 · a-coffee-please
+#
+# Why it was flagged:
+#   - One right answer: With no verb in the prompt, nothing makes the case accusative, and "Ein Kaffee, bitte" (nominative) is also often heard when people order in Germany, so a learner could fairly give ein Kaffee instead of einen Kaffee. Suggested fix: hint: the object of an unspoken ich möchte (I'd like)
+# Reviewer's note (not a reason to flag): The Spanish card cafe-coffee has the same noun, but a case card's sameAs stays null, so null is right here.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             case-a-coffee-please
+kind:           case
+pos:            determiner
+target:         einen Kaffee
+en:             [a] coffee, please
+hint:
+case:           akk
+gender:         m
+from:           ein
+example.target: Ich möchte einen Kaffee, bitte.
+example.en:     I'd like a coffee, please.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: ce95116907cffc22

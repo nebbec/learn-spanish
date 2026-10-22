@@ -1,0 +1,21 @@
+{
+  "id": "gluecklich-happy",
+  "rank": 408,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "glücklich",
+  "en": "happy",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich bin heute sehr glücklich.",
+    "en": "I'm very happy today."
+  },
+  "regional": null,
+  "trick": "GLÜCK-lich hides Glück, which sounds a bit like luck: lucky people are happy.",
+  "image": "/deck-de/img/gluecklich-happy.webp",
+  "audio": {
+    "word": "/deck-de/audio/gluecklich-happy.word.mp3",
+    "sentence": "/deck-de/audio/gluecklich-happy.sentence.mp3"
+  }
+}

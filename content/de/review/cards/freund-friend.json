@@ -1,0 +1,17 @@
+{
+  "id": "freund-friend",
+  "rank": 150,
+  "word": "Freund",
+  "draft": "4a764a346d6f7180",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "friend (male); also boyfriend",
+    "example": "That is a friend from Berlin."
+  },
+  "note": "The hint \"male\" is needed because it rules out die Freundin, and \"ein Freund\" in the example clearly means a friend, not the boyfriend sense on the word's other card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:28.038Z"
+}

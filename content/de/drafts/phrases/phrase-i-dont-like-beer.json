@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 801,
+  "word": "what-i-like",
+  "unit": "what-i-like",
+  "order": 41,
+  "source": "payoff",
+  "line": "I don't like beer.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "mögen",
+      "rank": 104
+    },
+    {
+      "word": "kein",
+      "rank": 41
+    },
+    {
+      "word": "bier",
+      "rank": 801
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:51.793Z",
+  "cards": [
+    "phrase-i-dont-like-beer"
+  ]
+}

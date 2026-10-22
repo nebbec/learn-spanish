@@ -1,0 +1,17 @@
+{
+  "id": "wissen-form-er",
+  "rank": 30,
+  "word": "wissen",
+  "draft": "251e5eb728b321ea",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he knows (a fact)",
+    "example": "He knows where my mother is."
+  },
+  "note": "The hint \"a fact\" is needed here because it rules out \"er kennt\", and the \"he / she\" prompt follows the form-card convention of using er.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:00.486Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mir-me-dative",
+  "rank": 21,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "mir",
+  "en": "give [me] the key",
+  "hint": "to me (dative, not mich)",
+  "grammar": null,
+  "example": {
+    "target": "Kannst du mir das noch einmal sagen?",
+    "en": "Can you say that to me again?"
+  },
+  "regional": null,
+  "trick": "MIR sounds like the start of mirror: look in a mirror and you see me.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mir-me-dative.word.mp3",
+    "sentence": "/deck-de/audio/mir-me-dative.sentence.mp3"
+  }
+}

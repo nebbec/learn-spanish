@@ -1,0 +1,16 @@
+{
+  "id": "wollen-form-du",
+  "unit": "what-i-like",
+  "want": "wollen: you want (du willst)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "956035a1d4aca2a0",
+  "group": "forms wollen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:17.853Z"
+}

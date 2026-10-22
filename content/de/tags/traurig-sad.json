@@ -1,0 +1,14 @@
+{
+  "id": "traurig-sad",
+  "unit": "how-i-feel",
+  "want": "traurig",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3673f74f36560848",
+  "group": "#713 traurig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:01.702Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gehen-form-du",
+  "rank": 34,
+  "kind": "form",
+  "pos": "verb",
+  "target": "du gehst",
+  "en": "you go",
+  "hint": "on foot, or in general, informal",
+  "grammar": {
+    "present": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er": "geht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gegangen"
+    }
+  },
+  "example": {
+    "target": "Wohin gehst du?",
+    "en": "Where are you going?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": "/deck-de/img/gehen-go.webp",
+  "audio": {
+    "word": "/deck-de/audio/gehen-form-du.word.mp3",
+    "sentence": "/deck-de/audio/gehen-form-du.sentence.mp3"
+  }
+}

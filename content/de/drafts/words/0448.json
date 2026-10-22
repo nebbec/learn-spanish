@@ -1,0 +1,15 @@
+{
+  "rank": 448,
+  "word": "anfangen",
+  "cards": [
+    "anfangen-start"
+  ],
+  "skip": null,
+  "sameAs": {
+    "anfangen-start": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:22.239Z"
+}

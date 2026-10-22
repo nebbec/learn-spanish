@@ -1,0 +1,37 @@
+# muessen-must · rank 42 · müssen
+#
+# Why it was flagged:
+#   - Example sentence: Morgen früh is the fixed expression for tomorrow morning, so translating it as early tomorrow misleads the learner. Suggested fix: example.en: I have to work tomorrow morning.
+# Reviewer's note (not a reason to flag): The hint must is useful because it rules out sollen (should), and the participle gemusst is right for müssen used alone, though with an infinitive the Perfekt uses müssen (ich habe arbeiten müssen).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 muessen-must
+kind:               content
+pos:                verb
+target:             müssen
+en:                 to have to
+hint:               must
+ich:                muss
+du:                 musst
+er:                 muss
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gemusst
+example.target:     Ich muss morgen früh arbeiten.
+example.en:         I have to work early tomorrow.
+regional.where:
+regional.text:
+trick:              MUSS, as in ich muss, sounds almost like must, and that is exactly what it means.
+
+# The draft this file was made from. Do not change it.
+draft: bd38ae09c4b7801c

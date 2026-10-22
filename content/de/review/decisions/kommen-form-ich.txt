@@ -1,0 +1,37 @@
+# kommen-form-ich · rank 37 · kommen
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: gleich. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids kommen-form-ich
+# Reviewer's note (not a reason to flag): sameAs is rightly null because this is a form card, even though the Spanish card venir-come has the same meaning.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 kommen-form-ich
+kind:               form
+pos:                verb
+target:             ich komme
+en:                 I come
+hint:
+ich:                komme
+du:                 kommst
+er:                 kommt
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gekommen
+example.target:     Ich komme gleich.
+example.en:         I'm coming right away.
+regional.where:
+regional.text:
+trick:              Komme sounds like English come with a short uh on the end: ich komme, I come.
+
+# The draft this file was made from. Do not change it.
+draft: 27b38263fbf7e6a1

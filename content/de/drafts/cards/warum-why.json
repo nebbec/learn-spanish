@@ -1,0 +1,21 @@
+{
+  "id": "warum-why",
+  "rank": 90,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "warum",
+  "en": "[why] are you laughing?",
+  "hint": "the standard word, not wieso",
+  "grammar": null,
+  "example": {
+    "target": "Warum bist du müde?",
+    "en": "Why are you tired?"
+  },
+  "regional": null,
+  "trick": "WARUM sounds like vah-ROOM: why does that car keep going vah-room outside my window?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/warum-why.word.mp3",
+    "sentence": "/deck-de/audio/warum-why.sentence.mp3"
+  }
+}

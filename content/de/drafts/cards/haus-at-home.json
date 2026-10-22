@@ -1,0 +1,21 @@
+{
+  "id": "haus-at-home",
+  "rank": 129,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "zu Hause",
+  "en": "at home",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Bist du heute Abend zu Hause?",
+    "en": "Are you at home tonight?"
+  },
+  "regional": null,
+  "trick": "ZU HAUSE sounds like tsoo HOW-zeh: to the house, so you're at home.",
+  "image": "/deck-de/img/haus-at-home.webp",
+  "audio": {
+    "word": "/deck-de/audio/haus-at-home.word.mp3",
+    "sentence": "/deck-de/audio/haus-at-home.sentence.mp3"
+  }
+}

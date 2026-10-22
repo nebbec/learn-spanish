@@ -1,0 +1,14 @@
+{
+  "id": "kind-child",
+  "unit": "my-people",
+  "want": "Kind",
+  "requires": [],
+  "tip": "tip-der-die-das",
+  "why": null,
+  "draft": "f17f1a7cc1987827",
+  "group": "#147 Kind",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:18.348Z"
+}

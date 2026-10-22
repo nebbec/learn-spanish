@@ -1,0 +1,37 @@
+# kaufen-buy · rank 356 · kaufen
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Brot. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids kaufen-buy
+# Reviewer's note (not a reason to flag): einkaufen means to go shopping rather than to buy something, so it doesn't compete with kaufen for this prompt.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 kaufen-buy
+kind:               content
+pos:                verb
+target:             kaufen
+en:                 to buy
+hint:
+ich:                kaufe
+du:                 kaufst
+er:                 kauft
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gekauft
+example.target:     Ich kaufe heute Brot und Milch.
+example.en:         I'm buying bread and milk today.
+regional.where:
+regional.text:
+trick:              KAUF sounds like "cough": when you buy something, you cough up the money.
+
+# The draft this file was made from. Do not change it.
+draft: 9da414f1e410c9c7

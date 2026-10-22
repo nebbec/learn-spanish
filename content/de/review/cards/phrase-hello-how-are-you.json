@@ -1,0 +1,17 @@
+{
+  "id": "phrase-hello-how-are-you",
+  "rank": 146,
+  "word": "hello-how-are-you",
+  "draft": "b0d568aac5f801dc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Hello! How's it going? / How are you?",
+    "example": "Hello! How are you? – Good, thanks. And you?"
+  },
+  "note": "The hint \"casual, short form\" is needed to rule out \"Hallo! Wie geht es dir?\". This card overlaps with the unit's \"How are you?\" card, and the example's reply \"Und dir?\" shows the same answer as the \"And you?\" card, though neither of these is an error.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:04.389Z"
+}

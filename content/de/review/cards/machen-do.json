@@ -1,0 +1,17 @@
+{
+  "id": "machen-do",
+  "rank": 40,
+  "word": "machen",
+  "draft": "aead17a65006db20",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to do, to make",
+    "example": "What are you doing today?"
+  },
+  "note": "The hint is needed here, because \"to do\" could also be tun, and it rules that answer out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:40.246Z"
+}

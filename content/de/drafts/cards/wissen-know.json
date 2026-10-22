@@ -1,0 +1,33 @@
+{
+  "id": "wissen-know",
+  "rank": 30,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wissen",
+  "en": "to know",
+  "hint": "a fact",
+  "grammar": {
+    "present": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewusst"
+    }
+  },
+  "example": {
+    "target": "Weißt du, wo Anna ist?",
+    "en": "Do you know where Anna is?"
+  },
+  "regional": null,
+  "trick": "WISSEN, said VISS-en, is a cousin of English wise and wisdom: wise people know a lot.",
+  "image": "/deck-de/img/wissen-know.webp",
+  "audio": {
+    "word": "/deck-de/audio/wissen-know.word.mp3",
+    "sentence": "/deck-de/audio/wissen-know.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-hungry",
+  "rank": 888,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich habe Hunger.",
+  "en": "I'm hungry.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich habe Hunger. Was gibt es zu essen?",
+    "en": "I'm hungry. What is there to eat?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-hungry.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-hungry.sentence.mp3"
+  }
+}

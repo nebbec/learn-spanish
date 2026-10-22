@@ -1,0 +1,14 @@
+{
+  "id": "moegen-like",
+  "unit": "what-i-like",
+  "want": "mögen: like",
+  "requires": [],
+  "tip": "tip-gern",
+  "why": "Use mögen for what you like in general; möchten for a polite wish (I would like).",
+  "draft": "b84418700c4a9d38",
+  "group": "#104 mögen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:06.496Z"
+}

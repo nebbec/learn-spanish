@@ -1,0 +1,38 @@
+# moechten-form-du · rank 104 · möchten
+#
+# Why it was flagged:
+#   - Grammar: The participle gemocht means liked, which is mögen's past, not would like; möchten has no Perfekt of its own and Germans use wollen for its past (ich habe ein Wasser gewollt, ich wollte), so a learner who memorizes gemocht would get it wrong. Suggested fix: grammar.perfekt.participle: gewollt (möchten borrows its past from wollen)
+#   - Example uses words not met yet: The example uses words not met before this card: Wasser. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids moechten-form-du
+# Reviewer's note (not a reason to flag): The hint "polite wish, informal" may read as a contradiction at first glance, but it works: "polite wish" rules out willst and "informal" rules out Sie möchten.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 moechten-form-du
+kind:               form
+pos:                verb
+target:             du möchtest
+en:                 you would like
+hint:               polite wish, informal
+ich:                möchte
+du:                 möchtest
+er:                 möchte
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gemocht
+example.target:     Möchtest du ein Wasser?
+example.en:         Would you like a water?
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 244aedae52cc2362

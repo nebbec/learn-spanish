@@ -1,0 +1,21 @@
+{
+  "id": "phrase-this-is-my-mother",
+  "rank": 175,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Das ist meine Mutter.",
+  "en": "This is my mother.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Hallo! Das ist meine Mutter, Anna.",
+    "en": "Hello! This is my mother, Anna."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-this-is-my-mother.word.mp3",
+    "sentence": "/deck-de/audio/phrase-this-is-my-mother.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hallo-hello",
+  "unit": "hello-how-are-you",
+  "want": "hallo",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d99897486fb12325",
+  "group": "#146 hallo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:14.325Z"
+}

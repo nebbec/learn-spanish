@@ -1,0 +1,28 @@
+{
+  "id": "danke-thank-you",
+  "rank": 96,
+  "word": "danke",
+  "draft": "5a33357ae4e2348b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Switzerland people commonly say merci (merci vielmal) for thank you, so regional should not be null.",
+      "fix": "regional: { where: \"Switzerland\", text: \"Merci (Merci vielmal for thanks a lot) is very common in everyday Swiss German, alongside danke.\" }"
+    },
+    {
+      "reason": "known-words",
+      "problem": "The example uses words not met before this card: für, deine, Hilfe. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate.",
+      "fix": "npm run draft -- --examples --ids danke-thank-you"
+    }
+  ],
+  "back": {
+    "target": "thank you, thanks",
+    "example": "Thanks for your help!"
+  },
+  "note": "Dankeschön and vielen Dank also mean thank you, but danke is clearly the basic expected answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:35.879Z"
+}

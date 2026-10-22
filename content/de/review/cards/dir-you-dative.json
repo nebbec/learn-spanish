@@ -1,0 +1,17 @@
+{
+  "id": "dir-you-dative",
+  "rank": 51,
+  "word": "dir",
+  "draft": "59c724789433852c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "(to/for) you, informal singular, dative of du",
+    "example": "How are you? (literally: How is it going for you?)"
+  },
+  "note": "The hint is needed: it rules out dich, euch and Ihnen and leaves only dir for \"Ich helfe dir.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:03.733Z"
+}

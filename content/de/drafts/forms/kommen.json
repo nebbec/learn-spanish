@@ -1,0 +1,15 @@
+{
+  "kind": "form",
+  "rank": 37,
+  "word": "kommen",
+  "from": "kommen-come",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:01:55.750Z",
+  "cards": [
+    "kommen-form-ich",
+    "kommen-form-du",
+    "kommen-form-er"
+  ]
+}

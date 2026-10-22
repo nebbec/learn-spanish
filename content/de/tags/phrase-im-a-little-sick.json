@@ -1,0 +1,19 @@
+{
+  "id": "phrase-im-a-little-sick",
+  "unit": "how-i-feel",
+  "want": null,
+  "requires": [
+    "sein-form-ich",
+    "ein-a",
+    "bisschen-a-bit",
+    "krank-sick"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "8f572578f8504473",
+  "group": "phrases how-i-feel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:56.168Z"
+}

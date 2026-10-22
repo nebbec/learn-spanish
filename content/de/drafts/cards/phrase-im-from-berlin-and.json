@@ -1,0 +1,21 @@
+{
+  "id": "phrase-im-from-berlin-and",
+  "rank": 65,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Ich bin aus Berlin, und du?",
+  "en": "I'm from Berlin, and you?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin aus Berlin, und du? – Ich bin aus Hamburg.",
+    "en": "I'm from Berlin, and you? – I'm from Hamburg."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-im-from-berlin-and.word.mp3",
+    "sentence": "/deck-de/audio/phrase-im-from-berlin-and.sentence.mp3"
+  }
+}

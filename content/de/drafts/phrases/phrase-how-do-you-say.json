@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 731,
+  "word": "when-i-dont-understand",
+  "unit": "when-i-dont-understand",
+  "order": 26,
+  "source": "chunk",
+  "line": "phrase: Wie sagt man … auf Deutsch? = how do you say … in German?",
+  "words": [
+    {
+      "word": "wie",
+      "rank": 23
+    },
+    {
+      "word": "sagen",
+      "rank": 32
+    },
+    {
+      "word": "man",
+      "rank": 76
+    },
+    {
+      "word": "auf",
+      "rank": 25
+    },
+    {
+      "word": "deutsch",
+      "rank": 731
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:13.701Z",
+  "cards": [
+    "phrase-how-do-you-say"
+  ]
+}

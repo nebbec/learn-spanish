@@ -1,0 +1,19 @@
+{
+  "id": "phrase-i-dont-speak-german",
+  "unit": "when-i-dont-understand",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "sprechen-speak",
+    "kein-no",
+    "deutsch-german"
+  ],
+  "tip": "tip-nicht-kein",
+  "why": null,
+  "draft": "442e65499996f253",
+  "group": "phrases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:43.688Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "phrase-tomorrow-im-going-to",
+  "rank": 157,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Morgen gehe ich zu Anna.",
+  "en": "Tomorrow I'm going to Anna's.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Heute nicht. Morgen gehe ich zu Anna.",
+    "en": "Not today. Tomorrow I'm going to Anna's."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-tomorrow-im-going-to.word.mp3",
+    "sentence": "/deck-de/audio/phrase-tomorrow-im-going-to.sentence.mp3"
+  }
+}

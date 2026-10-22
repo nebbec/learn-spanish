@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 34,
+  "word": "hello-how-are-you",
+  "unit": "hello-how-are-you",
+  "order": 9,
+  "source": "chunk",
+  "line": "phrase: Wie geht's? = how are you?",
+  "words": [
+    {
+      "word": "wie",
+      "rank": 23
+    },
+    {
+      "word": "gehen",
+      "rank": 34
+    },
+    {
+      "word": "es",
+      "rank": 9
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:44.922Z",
+  "cards": [
+    "phrase-how-are-you"
+  ]
+}

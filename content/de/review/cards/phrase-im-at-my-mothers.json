@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-at-my-mothers",
+  "rank": 175,
+  "word": "with-friends",
+  "draft": "588c4e0afeefcdd0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm at my mother's (place).",
+    "example": "Where are you? – I'm at my mother's."
+  },
+  "note": "Bei plus dative (meiner) fits the with-friends unit well, and \"Mutter\" rather than \"Mama\" is the right match for the English \"mother\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:46.096Z"
+}

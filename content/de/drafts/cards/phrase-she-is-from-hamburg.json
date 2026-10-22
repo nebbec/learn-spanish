@@ -1,0 +1,21 @@
+{
+  "id": "phrase-she-is-from-hamburg",
+  "rank": 65,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Sie ist aus Hamburg.",
+  "en": "She is from Hamburg.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Sie ist aus Hamburg und er ist aus Berlin.",
+    "en": "She is from Hamburg and he is from Berlin."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-she-is-from-hamburg.word.mp3",
+    "sentence": "/deck-de/audio/phrase-she-is-from-hamburg.sentence.mp3"
+  }
+}

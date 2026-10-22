@@ -1,0 +1,17 @@
+{
+  "id": "angst-fear",
+  "rank": 241,
+  "word": "Angst",
+  "draft": "34764ade8be5c6e0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "fear, anxiety",
+    "example": "Why are you scared?"
+  },
+  "note": "Die Furcht also means fear, but it is formal and much less common, so die Angst is clearly the everyday answer and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:45.549Z"
+}

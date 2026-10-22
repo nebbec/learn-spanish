@@ -1,0 +1,17 @@
+{
+  "id": "vermissen-miss",
+  "rank": 539,
+  "word": "vermissen",
+  "draft": "843fa9664e9cb96c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to miss (feel the absence of someone or something; also to notice something is missing)",
+    "example": "I miss my mother very much."
+  },
+  "note": "The hint is needed, because it rules out verpassen (to miss a bus or a chance), and fehlen (du fehlst mir) is a different construction, so it would not be a second answer to the verb prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:27.842Z"
+}

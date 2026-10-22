@@ -1,0 +1,17 @@
+{
+  "id": "eins-one",
+  "rank": 336,
+  "word": "eins",
+  "draft": "87fee61996808def",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "one (the number, as in counting)",
+    "example": "One, two, three – now we eat!"
+  },
+  "note": "The hint is needed here, because without it \"ein\" or \"eine\" (the article or a number before a noun) would also be right answers to \"one\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:04.105Z"
+}

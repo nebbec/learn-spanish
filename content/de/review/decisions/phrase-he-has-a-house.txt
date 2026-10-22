@@ -1,0 +1,30 @@
+# phrase-he-has-a-house · rank 129 · what-i-want-and-have
+#
+# Why it was flagged:
+#   - Example sentence: Grammatically fine, but pairing a house with coffee is an odd mix that nobody would naturally say, so it doesn't work as a model sentence. Suggested fix: example.target: Er hat ein Haus mit Garten. / example.en: He has a house with a garden.
+# Reviewer's note (not a reason to flag): sameAs is correctly null because this is a phrase card, though the Spanish card tener-have covers the same verb if a picture is wanted elsewhere.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-he-has-a-house
+kind:           phrase
+pos:            phrase
+target:         Er hat ein Haus.
+en:             He has a house.
+hint:
+example.target: Er hat ein Haus und ich habe Kaffee.
+example.en:     He has a house and I have coffee.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 3729906eae191676

@@ -1,0 +1,17 @@
+{
+  "id": "drei-three",
+  "rank": 237,
+  "word": "drei",
+  "draft": "1a3ffe50eb46a234",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "three",
+    "example": "I have three brothers."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:34.794Z"
+}

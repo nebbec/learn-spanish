@@ -1,0 +1,15 @@
+{
+  "rank": 42,
+  "word": "müssen",
+  "cards": [
+    "muessen-must"
+  ],
+  "skip": null,
+  "sameAs": {
+    "muessen-must": "deber-must"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:24.761Z"
+}

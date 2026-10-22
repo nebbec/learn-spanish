@@ -1,0 +1,21 @@
+{
+  "id": "phrase-how-much-is-it",
+  "rank": 609,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Was kostet das?",
+  "en": "How much is it?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Entschuldigung, was kostet das?",
+    "en": "Excuse me, how much is it?"
+  },
+  "regional": null,
+  "trick": "Kostet sounds like costs, so Was kostet das? is literally What costs that?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-how-much-is-it.word.mp3",
+    "sentence": "/deck-de/audio/phrase-how-much-is-it.sentence.mp3"
+  }
+}

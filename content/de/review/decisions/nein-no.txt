@@ -1,0 +1,30 @@
+# nein-no · rank 44 · nein
+#
+# Why it was flagged:
+#   - Example sentence: 'Nein, ich finde es.' is awkward and unclear, because bare 'ich finde es' sounds like an unfinished opinion ('I find it...') and doesn't clearly mean 'I'll find it'. Suggested fix: example.target: Nein, ich habe keine Zeit. / example.en: No, I don't have time.
+# Reviewer's note (not a reason to flag): The hint is useful because it rules out kein (no as in 'no money'), and Swiss dialect 'nei' doesn't need a regional note, since standard German everywhere uses nein.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             nein-no
+kind:           content
+pos:            other
+target:         nein
+en:             no
+hint:           the answer, opposite of yes
+example.target: Nein, ich finde es.
+example.en:     No, I'll find it.
+regional.where:
+regional.text:
+trick:          NEIN sounds like "nine": picture a toddler shouting no nine times in a row.
+
+# The draft this file was made from. Do not change it.
+draft: d30aa10605372be2

@@ -1,0 +1,25 @@
+{
+  "id": "mutter-mother",
+  "rank": 175,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Mutter",
+  "en": "mother",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Mütter"
+  },
+  "example": {
+    "target": "Meine Mutter ist aus Hamburg.",
+    "en": "My mother is from Hamburg."
+  },
+  "regional": null,
+  "trick": "MUTTER sounds like MOO-ter, close to mother: picture a mother cow mooing for her calf.",
+  "image": "/deck-de/img/mutter-mother.webp",
+  "audio": {
+    "word": "/deck-de/audio/mutter-mother.word.mp3",
+    "sentence": "/deck-de/audio/mutter-mother.sentence.mp3"
+  }
+}

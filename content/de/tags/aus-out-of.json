@@ -1,0 +1,14 @@
+{
+  "id": "aus-out-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "88929001c37894dd",
+  "group": "#65 aus",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:02:50.775Z"
+}

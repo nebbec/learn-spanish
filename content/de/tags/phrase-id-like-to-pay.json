@@ -1,0 +1,19 @@
+{
+  "id": "phrase-id-like-to-pay",
+  "unit": "buying-things",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "moechten-form-ich",
+    "bezahlen-pay",
+    "bitte-please"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "12b02430c4221970",
+  "group": "phrases buying-things",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:05:03.147Z"
+}

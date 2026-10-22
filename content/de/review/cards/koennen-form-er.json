@@ -1,0 +1,17 @@
+{
+  "id": "koennen-form-er",
+  "rank": 17,
+  "word": "können",
+  "draft": "17af49138aa6909b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he can (he is able to)",
+    "example": "My mother can speak English very well."
+  },
+  "note": "The prompt says \"he / she\" and the answer gives only \"er\", which follows the app's convention, but a learner who answers \"sie kann\" should count it as right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:54.165Z"
+}

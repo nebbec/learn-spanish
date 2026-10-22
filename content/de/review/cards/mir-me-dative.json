@@ -1,0 +1,17 @@
+{
+  "id": "mir-me-dative",
+  "rank": 21,
+  "word": "mir",
+  "draft": "8bcc4b08af91795d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "me, to me (dative of ich)",
+    "example": "Can you tell me that again?"
+  },
+  "note": "The hint isn't strictly needed, because \"Gib mir den Schlüssel\" already forces mir, but it is correct and helps learners tell mir apart from mich.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:27.513Z"
+}

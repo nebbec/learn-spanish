@@ -1,0 +1,17 @@
+{
+  "rank": 129,
+  "word": "Haus",
+  "cards": [
+    "haus-house",
+    "haus-at-home"
+  ],
+  "skip": null,
+  "sameAs": {
+    "haus-house": "casa-house",
+    "haus-at-home": "casa-home"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:07.520Z"
+}

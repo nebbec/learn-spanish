@@ -1,0 +1,16 @@
+{
+  "id": "sein-form-du",
+  "unit": "who-i-am",
+  "want": "sein: you are (du bist)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "58ca820672f4afb9",
+  "group": "forms sein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:11.413Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bei-at-place",
+  "rank": 84,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "bei",
+  "en": "I'm [at] Anna's",
+  "hint": "at someone's place",
+  "grammar": null,
+  "example": {
+    "target": "Wir essen heute bei Anna.",
+    "en": "We're eating at Anna's today."
+  },
+  "regional": null,
+  "trick": "BEI sounds like \"by\": if you stop by Anna, you end up at Anna's place.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/bei-at-place.word.mp3",
+    "sentence": "/deck-de/audio/bei-at-place.sentence.mp3"
+  }
+}

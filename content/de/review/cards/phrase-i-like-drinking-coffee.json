@@ -1,0 +1,17 @@
+{
+  "id": "phrase-i-like-drinking-coffee",
+  "rank": 583,
+  "word": "what-i-like",
+  "draft": "dfdd0d024c1eb564",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I like drinking coffee.",
+    "example": "My father likes drinking coffee, not tea."
+  },
+  "note": "The hint \"use gern\" is needed because it rules out \"Ich mag Kaffee\". \"Ich trinke Kaffee gern\" is also grammatical, but it puts emphasis on gern, so the target's word order is the natural default.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:46.556Z"
+}

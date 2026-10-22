@@ -1,0 +1,17 @@
+{
+  "id": "schwester-sister",
+  "rank": 343,
+  "word": "Schwester",
+  "draft": "9f3646d63c41a334",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sister",
+    "example": "My sister is from Hamburg."
+  },
+  "note": "Schwester can also mean nurse (Krankenschwester), but \"sister\" is the main meaning and the one this card should teach.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:04.384Z"
+}

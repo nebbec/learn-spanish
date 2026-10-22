@@ -1,0 +1,33 @@
+{
+  "id": "vermissen-miss",
+  "rank": 539,
+  "kind": "content",
+  "pos": "verb",
+  "target": "vermissen",
+  "en": "to miss",
+  "hint": "someone you love, not a bus",
+  "grammar": {
+    "present": {
+      "ich": "vermisse",
+      "du": "vermisst",
+      "er": "vermisst"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vermisst"
+    }
+  },
+  "example": {
+    "target": "Ich vermisse meine Mutter sehr.",
+    "en": "I miss my mother a lot."
+  },
+  "regional": null,
+  "trick": "VERMISSEN sounds like fair-MISS-en, and it has the English word miss right in the middle: you miss someone.",
+  "image": "/deck-de/img/vermissen-miss.webp",
+  "audio": {
+    "word": "/deck-de/audio/vermissen-miss.word.mp3",
+    "sentence": "/deck-de/audio/vermissen-miss.sentence.mp3"
+  }
+}

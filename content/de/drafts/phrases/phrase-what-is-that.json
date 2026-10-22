@@ -1,0 +1,33 @@
+{
+  "kind": "phrase",
+  "rank": 12,
+  "word": "asking-questions",
+  "unit": "asking-questions",
+  "order": 22,
+  "source": "payoff",
+  "line": "What is that?",
+  "words": [
+    {
+      "word": "was",
+      "rank": 12
+    },
+    {
+      "word": "sein",
+      "rank": 2
+    },
+    {
+      "word": "das",
+      "rank": null
+    }
+  ],
+  "outside": [
+    "das"
+  ],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:05.765Z",
+  "cards": [
+    "phrase-what-is-that"
+  ]
+}

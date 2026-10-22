@@ -1,0 +1,16 @@
+{
+  "id": "werden-form-er",
+  "unit": "making-plans",
+  "want": "werden: he / she will (er wird)",
+  "requires": [
+    "er-he"
+  ],
+  "tip": null,
+  "why": "For \"he will\" say er wird; er will means \"he wants\".",
+  "draft": "cd13975579472dd3",
+  "group": "forms werden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:14.682Z"
+}

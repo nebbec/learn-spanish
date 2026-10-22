@@ -1,0 +1,21 @@
+{
+  "id": "nach-past-time",
+  "rank": 73,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "nach",
+  "en": "it's ten [past] three",
+  "hint": "telling the time",
+  "grammar": null,
+  "example": {
+    "target": "Es ist schon zehn nach drei.",
+    "en": "It's already ten past three."
+  },
+  "regional": null,
+  "trick": "NACH sounds like \"knock\": the clock knocks ten minutes past three.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/nach-past-time.word.mp3",
+    "sentence": "/deck-de/audio/nach-past-time.sentence.mp3"
+  }
+}

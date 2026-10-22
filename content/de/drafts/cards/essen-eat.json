@@ -1,0 +1,33 @@
+{
+  "id": "essen-eat",
+  "rank": 178,
+  "kind": "content",
+  "pos": "verb",
+  "target": "essen",
+  "en": "to eat",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "esse",
+      "du": "isst",
+      "er": "isst"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gegessen"
+    }
+  },
+  "example": {
+    "target": "Meine Schwester isst gern Pizza.",
+    "en": "My sister likes eating pizza."
+  },
+  "regional": null,
+  "trick": "ESSEN starts with the sound of the letter S: picture yourself eating a big S-shaped pretzel.",
+  "image": "/deck-de/img/essen-eat.webp",
+  "audio": {
+    "word": "/deck-de/audio/essen-eat.word.mp3",
+    "sentence": "/deck-de/audio/essen-eat.sentence.mp3"
+  }
+}

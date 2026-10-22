@@ -1,0 +1,15 @@
+{
+  "rank": 237,
+  "word": "drei",
+  "cards": [
+    "drei-three"
+  ],
+  "skip": null,
+  "sameAs": {
+    "drei-three": "tres-three"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:39.628Z"
+}

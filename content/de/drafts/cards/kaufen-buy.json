@@ -1,0 +1,33 @@
+{
+  "id": "kaufen-buy",
+  "rank": 356,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kaufen",
+  "en": "to buy",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er": "kauft"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekauft"
+    }
+  },
+  "example": {
+    "target": "Ich kaufe heute Kaffee und Wasser.",
+    "en": "I'm buying coffee and water today."
+  },
+  "regional": null,
+  "trick": "KAUF sounds like \"cough\": when you buy something, you cough up the money.",
+  "image": "/deck-de/img/kaufen-buy.webp",
+  "audio": {
+    "word": "/deck-de/audio/kaufen-buy.word.mp3",
+    "sentence": "/deck-de/audio/kaufen-buy.sentence.mp3"
+  }
+}

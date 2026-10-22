@@ -1,0 +1,26 @@
+# tip-nicht-kein · tip 6 of 14 · introduced by unit 8, When I don't understand
+# The brief from content/tips.json: Nicht says not: Ich verstehe nicht. Before a noun that would have ein or no article, German says kein instead (not a, no): Ich spreche kein Deutsch, Das ist kein Bier. Kein takes the endings of ein.
+# Drafted 2026-10-22T08:58:45.660Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-nicht-kein --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Nicht and kein
+
+Nicht means not, so ich verstehe nicht means I don't understand.
+Before a noun that would have ein, or no article at all, German doesn't use nicht but says kein, which means not a or no.
+So ich spreche kein Deutsch means I don't speak German, and das ist kein Bier means that's not a beer.
+Kein takes the same endings as ein, so einen Bruder becomes keinen Bruder and eine Schwester becomes keine Schwester.
+
+example: Ich weiß nicht. | I don't know.
+example: Ich spreche kein Deutsch. | I don't speak German.
+example: Ich habe keinen Bruder. | I don't have a brother.

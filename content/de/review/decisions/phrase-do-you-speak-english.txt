@@ -1,0 +1,30 @@
+# phrase-do-you-speak-english · rank 1186 · when-i-dont-understand
+#
+# Why it was flagged:
+#   - Words outside the top 1,000: The phrase uses englisch, not among the 1,000 most common words.
+# Reviewer's note (not a reason to flag): The example reuses the unit's own phrase "Ich spreche kein Deutsch", which works as reinforcement; the colloquial "Können Sie Englisch?" also exists, but "Sprechen Sie Englisch?" is the standard answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-do-you-speak-english
+kind:           phrase
+pos:            phrase
+target:         Sprechen Sie Englisch?
+en:             Do you speak English?
+hint:           formal, to a stranger
+example.target: Hallo, sprechen Sie Englisch? Ich spreche kein Deutsch.
+example.en:     Hello, do you speak English? I don't speak German.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 1ccc8be612f989ce

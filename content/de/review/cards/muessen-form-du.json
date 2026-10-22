@@ -1,0 +1,17 @@
+{
+  "id": "muessen-form-du",
+  "rank": 42,
+  "word": "müssen",
+  "draft": "20984a1750887f81",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you must, you have to (informal, one person)",
+    "example": "You have to drink water!"
+  },
+  "note": "\"Du musst mehr Wasser trinken!\" might sound a little more everyday than the bare \"Du musst Wasser trinken!\", but this is only a matter of taste.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:19.727Z"
+}

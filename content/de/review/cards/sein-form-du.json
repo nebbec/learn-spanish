@@ -1,0 +1,17 @@
+{
+  "id": "sein-form-du",
+  "rank": 2,
+  "word": "sein",
+  "draft": "58ca820672f4afb9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you are (informal, singular)",
+    "example": "You are Anna, yes?"
+  },
+  "note": "\"Du bist Anna, oder?\" is a slightly more common tag in everyday speech than \"ja?\", but both are natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:18.006Z"
+}

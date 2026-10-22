@@ -1,0 +1,30 @@
+# phrase-im-going-home-now · rank 129 · where-im-going
+#
+# Why it was flagged:
+#   - Example sentence: The example is two sentences, but it should be one short sentence. Suggested fix: example.target: Tschüss, ich gehe jetzt nach Hause. | example.en: Bye, I'm going home now.
+# Reviewer's note (not a reason to flag): "Ich fahre jetzt nach Hause" also works if you're going by car or train, and southern speakers often say "heim", but "gehe ... nach Hause" is the right everyday default, so no hint is needed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-im-going-home-now
+kind:           phrase
+pos:            phrase
+target:         Ich gehe jetzt nach Hause.
+en:             I'm going home now.
+hint:
+example.target: Ich bin sehr müde. Ich gehe jetzt nach Hause.
+example.en:     I'm very tired. I'm going home now.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: be9424f11a7423e8

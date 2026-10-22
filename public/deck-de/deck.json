@@ -2,7 +2,1455 @@
   "format": 3,
   "lang": "de",
   "version": 1,
-  "units": [],
+  "units": [
+    {
+      "id": "me-and-you",
+      "title": "Me and you",
+      "goal": "say I, you, he, she, it and we, say yes or no, and say please and thank you."
+    },
+    {
+      "id": "who-i-am",
+      "title": "Who I am",
+      "goal": "say your name and where you are from."
+    },
+    {
+      "id": "hello-how-are-you",
+      "title": "Hello, how are you?",
+      "goal": "say hello and goodbye, ask how someone is and say how you are."
+    },
+    {
+      "id": "what-i-want-and-have",
+      "title": "What I want and have",
+      "goal": "say what you would like and what you have."
+    },
+    {
+      "id": "my-people",
+      "title": "My people",
+      "goal": "talk about the people in your life."
+    },
+    {
+      "id": "a-coffee-please",
+      "title": "A coffee, please",
+      "goal": "order a drink and say who you have."
+    },
+    {
+      "id": "asking-questions",
+      "title": "Asking questions",
+      "goal": "ask what, who, where, when, how and why."
+    },
+    {
+      "id": "when-i-dont-understand",
+      "title": "When I don't understand",
+      "goal": "say you don't understand or don't know, and ask how to say something."
+    },
+    {
+      "id": "can-you-help-me",
+      "title": "Can you help me?",
+      "goal": "ask for help and say what you can, must and need."
+    }
+  ],
   "tips": [],
-  "cards": []
+  "cards": [
+    {
+      "id": "ich-i",
+      "rank": 3,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "ich",
+      "en": "[I] am tired",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich singe.",
+        "en": "I sing."
+      },
+      "regional": null,
+      "trick": "ICH sounds a bit like \"itch\" said softly: I have an itch, so I scratch.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/ich-i.word.c8af2b43.mp3",
+        "sentence": "/deck-de/audio/ich-i.sentence.cc1cb19e.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "sie-she",
+      "rank": 4,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "sie",
+      "en": "[She] is my sister.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ist sie deine Schwester?",
+        "en": "Is she your sister?"
+      },
+      "regional": null,
+      "trick": "SIE sounds like \"zee\": see her over there? She is the one you see.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/sie-she.word.3d17085f.mp3",
+        "sentence": "/deck-de/audio/sie-she.sentence.a42e6477.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "du-you",
+      "rank": 7,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "du",
+      "en": "Are [you] tired?",
+      "hint": "one person, informal",
+      "grammar": null,
+      "example": {
+        "target": "Du bist mein bester Freund.",
+        "en": "You're my best friend."
+      },
+      "regional": null,
+      "trick": "DU sounds like \"doo\", which rhymes with \"you\": do you want to be my du?",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/du-you.word.bb68a9d4.mp3",
+        "sentence": "/deck-de/audio/du-you.sentence.a4bf80c7.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "es-it",
+      "rank": 9,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "es",
+      "en": "[it]'s raining",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Es regnet schon wieder.",
+        "en": "It's raining again."
+      },
+      "regional": null,
+      "trick": "ES sounds like the hissing end of \"it's\": it's raining, es regnet.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/es-it.word.68732207.mp3",
+        "sentence": "/deck-de/audio/es-it.sentence.3871f446.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "wir-we",
+      "rank": 11,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "wir",
+      "en": "[we] are going home",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wir gehen heute ins Kino.",
+        "en": "We're going to the cinema today."
+      },
+      "regional": null,
+      "trick": "WIR sounds like \"veer\": we veer off the road together.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/wir-we.word.4c439141.mp3",
+        "sentence": "/deck-de/audio/wir-we.sentence.a83558ef.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "er-he",
+      "rank": 15,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "er",
+      "en": "[He] is my brother.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Er singt.",
+        "en": "He sings."
+      },
+      "regional": null,
+      "trick": "ER sounds like \"air\": he is full of hot air.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/er-he.word.458a7e6c.mp3",
+        "sentence": "/deck-de/audio/er-he.sentence.3a655432.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "ja-yes",
+      "rank": 20,
+      "kind": "content",
+      "pos": "other",
+      "target": "ja",
+      "en": "yes",
+      "hint": "the everyday answer",
+      "grammar": null,
+      "example": {
+        "target": "Ja, er singt.",
+        "en": "Yes, he sings."
+      },
+      "regional": null,
+      "trick": "JA sounds like \"yah\", just like a relaxed \"yeah\": it means yes.",
+      "image": "/deck-de/img/ja-yes.webp",
+      "audio": {
+        "word": "/deck-de/audio/ja-yes.word.3db45963.mp3",
+        "sentence": "/deck-de/audio/ja-yes.sentence.43af4dc8.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "bitte-please",
+      "rank": 86,
+      "kind": "content",
+      "pos": "other",
+      "target": "bitte",
+      "en": "please",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Bring es bitte!",
+        "en": "Please bring it!"
+      },
+      "regional": null,
+      "trick": "BITTE sounds like BIT-uh: could you give me a bit more, please?",
+      "image": "/deck-de/img/bitte-please.webp",
+      "audio": {
+        "word": "/deck-de/audio/bitte-please.word.7e6c1720.mp3",
+        "sentence": "/deck-de/audio/bitte-please.sentence.efc56873.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-yes-please",
+      "rank": 86,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ja, bitte.",
+      "en": "Yes, please.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Kaffee? – Ja, bitte.",
+        "en": "Coffee? – Yes, please."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-yes-please.word.5bb9d3dd.mp3",
+        "sentence": "/deck-de/audio/phrase-yes-please.sentence.f64e4638.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [
+        "ja-yes",
+        "bitte-please"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "sein-form-du",
+      "rank": 2,
+      "kind": "form",
+      "pos": "verb",
+      "target": "du bist",
+      "en": "you are",
+      "hint": "informal",
+      "grammar": {
+        "present": {
+          "ich": "bin",
+          "du": "bist",
+          "er": "ist"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "sein",
+          "participle": "gewesen"
+        }
+      },
+      "example": {
+        "target": "Du bist Anna, ja?",
+        "en": "You're Anna, right?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": "/deck-de/img/sein-be.webp",
+      "audio": {
+        "word": "/deck-de/audio/sein-form-du.word.ae9ee950.mp3",
+        "sentence": "/deck-de/audio/sein-form-du.sentence.7a10b16f.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [
+        "du-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "und-and",
+      "rank": 10,
+      "kind": "glue",
+      "pos": "conjunction",
+      "target": "und",
+      "en": "bread [and] butter",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich trinke Kaffee und du trinkst Tee.",
+        "en": "I'm drinking coffee and you're drinking tea."
+      },
+      "regional": null,
+      "trick": "UND sounds like the start of \"and\" said with an oo sound: oont, and.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/und-and.word.df03d3ba.mp3",
+        "sentence": "/deck-de/audio/und-and.sentence.aa657056.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "aus-from",
+      "rank": 65,
+      "kind": "glue",
+      "pos": "preposition",
+      "target": "aus",
+      "en": "I'm [from] Berlin",
+      "hint": "where you come from",
+      "grammar": null,
+      "example": {
+        "target": "Bist du aus Berlin?",
+        "en": "Are you from Berlin?"
+      },
+      "regional": null,
+      "trick": "AUS rhymes with house: you come from the house you grew up in.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/aus-from.word.16794911.mp3",
+        "sentence": "/deck-de/audio/aus-from.sentence.4633a421.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-my-name-is",
+      "rank": 167,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Ich heiße …",
+      "en": "My name is …",
+      "hint": "The everyday way: literally \"I am called\".",
+      "grammar": null,
+      "example": {
+        "target": "Ich heiße Anna und ich bin aus Berlin.",
+        "en": "My name is Anna and I'm from Berlin."
+      },
+      "regional": null,
+      "trick": "Heiße is related to the old English word hight, meaning \"called\", as in \"a knight hight Lancelot\".",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-my-name-is.word.02c9eabf.mp3",
+        "sentence": "/deck-de/audio/phrase-my-name-is.sentence.2af5e8c8.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-youre-welcome",
+      "rank": 459,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Gern geschehen.",
+      "en": "You're welcome.",
+      "hint": "The two-word reply to thanks, not bitte",
+      "grammar": null,
+      "example": {
+        "target": "Danke, Anna! – Gern geschehen.",
+        "en": "Thanks, Anna! – You're welcome."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-youre-welcome.word.a6c0fe2d.mp3",
+        "sentence": "/deck-de/audio/phrase-youre-welcome.sentence.0f442c41.mp3"
+      },
+      "unit": "who-i-am",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "nicht-not",
+      "rank": 8,
+      "kind": "glue",
+      "pos": "adverb",
+      "target": "nicht",
+      "en": "I'm [not] tired",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Nein, ich bin nicht aus Hamburg.",
+        "en": "No, I'm not from Hamburg."
+      },
+      "regional": null,
+      "trick": "NICHT sounds a bit like nix, the slang word for no or nothing: nicht means not.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/nicht-not.word.015bab75.mp3",
+        "sentence": "/deck-de/audio/nicht-not.sentence.cf47b7c7.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "gut-good",
+      "rank": 43,
+      "kind": "content",
+      "pos": "adjective",
+      "target": "gut",
+      "en": "good",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ja, Hamburg ist gut.",
+        "en": "Yes, Hamburg is good."
+      },
+      "regional": null,
+      "trick": "GUT sounds like \"goot\", almost exactly the English word \"good\", and it means good.",
+      "image": "/deck-de/img/gut-good.webp",
+      "audio": {
+        "word": "/deck-de/audio/gut-good.word.7c543dad.mp3",
+        "sentence": "/deck-de/audio/gut-good.sentence.47dae1e7.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "sehr-very",
+      "rank": 98,
+      "kind": "content",
+      "pos": "adverb",
+      "target": "sehr",
+      "en": "very",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich heiße Anna. Freut mich sehr!",
+        "en": "I'm Anna. Very nice to meet you!"
+      },
+      "regional": null,
+      "trick": "SEHR sounds like \"zair\", like a zebra's hair: very, very stripy.",
+      "image": "/deck-de/img/sehr-very.webp",
+      "audio": {
+        "word": "/deck-de/audio/sehr-very.word.466beeac.mp3",
+        "sentence": "/deck-de/audio/sehr-very.sentence.6870d25f.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "hallo-hello",
+      "rank": 146,
+      "kind": "content",
+      "pos": "other",
+      "target": "hallo",
+      "en": "hello",
+      "hint": "the everyday greeting, not guten Tag",
+      "grammar": null,
+      "example": {
+        "target": "Hallo, wie heißt du?",
+        "en": "Hi, what's your name?"
+      },
+      "regional": {
+        "where": "Austria",
+        "text": "servus"
+      },
+      "trick": "HALLO sounds like HAH-low, almost hello, and that is just what it means.",
+      "image": "/deck-de/img/hallo-hello.webp",
+      "audio": {
+        "word": "/deck-de/audio/hallo-hello.word.8ca0ebdf.mp3",
+        "sentence": "/deck-de/audio/hallo-hello.sentence.f6ab0cc1.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "muede-tired",
+      "rank": 836,
+      "kind": "content",
+      "pos": "adjective",
+      "target": "müde",
+      "en": "tired",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich bin sehr müde, und du?",
+        "en": "I'm very tired, and you?"
+      },
+      "regional": null,
+      "trick": "MÜDE sounds a bit like moody: when you're tired, you get moody.",
+      "image": "/deck-de/img/muede-tired.webp",
+      "audio": {
+        "word": "/deck-de/audio/muede-tired.word.b0da892b.mp3",
+        "sentence": "/deck-de/audio/muede-tired.sentence.0e8b44e2.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-im-fine",
+      "rank": 43,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Mir geht's gut.",
+      "en": "I'm fine.",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wie geht's? – Mir geht's gut, danke.",
+        "en": "How are you? – I'm fine, thanks."
+      },
+      "regional": null,
+      "trick": "Think of it word for word as \"me it goes good\": mir sounds like \"me\", and gut sounds like \"good\".",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-im-fine.word.e63fe970.mp3",
+        "sentence": "/deck-de/audio/phrase-im-fine.sentence.0b09e456.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-and-you-how-are",
+      "rank": 51,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Und dir?",
+      "en": "And you?",
+      "hint": "informal, asking back how someone is",
+      "grammar": null,
+      "example": {
+        "target": "Mir geht's gut, danke. Und dir?",
+        "en": "I'm fine, thanks. And you?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-and-you-how-are.word.7d4d0a2b.mp3",
+        "sentence": "/deck-de/audio/phrase-and-you-how-are.sentence.0c0a9234.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-hello-how-are-you",
+      "rank": 146,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Hallo! Wie geht's?",
+      "en": "Hello! How are you?",
+      "hint": "casual, short form",
+      "grammar": null,
+      "example": {
+        "target": "Hallo! Wie geht's? – Gut, danke. Und dir?",
+        "en": "Hello! How are you? – Fine, thanks. And you?"
+      },
+      "regional": {
+        "where": "Austria",
+        "text": "Servus! Wie geht's?"
+      },
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-hello-how-are-you.word.e9fda07f.mp3",
+        "sentence": "/deck-de/audio/phrase-hello-how-are-you.sentence.2bcf30c9.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [
+        "hallo-hello",
+        "es-it"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-good-morning",
+      "rank": 157,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Guten Morgen!",
+      "en": "Good morning!",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Guten Morgen! Wie geht's?",
+        "en": "Good morning! How are you?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-good-morning.word.68d4ed13.mp3",
+        "sentence": "/deck-de/audio/phrase-good-morning.sentence.d7a73905.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-goodbye",
+      "rank": 445,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Auf Wiedersehen!",
+      "en": "Goodbye!",
+      "hint": "formal",
+      "grammar": null,
+      "example": {
+        "target": "Danke, auf Wiedersehen!",
+        "en": "Thanks, goodbye!"
+      },
+      "regional": {
+        "where": "Austria",
+        "text": "Auf Wiederschauen!"
+      },
+      "trick": "Wieder means again and sehen means see, so it is literally until we see each other again.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-goodbye.word.2b860282.mp3",
+        "sentence": "/deck-de/audio/phrase-goodbye.sentence.a8bafd7c.mp3"
+      },
+      "unit": "hello-how-are-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "haben-form-du",
+      "rank": 5,
+      "kind": "form",
+      "pos": "verb",
+      "target": "du hast",
+      "en": "you have",
+      "hint": "informal",
+      "grammar": {
+        "present": {
+          "ich": "habe",
+          "du": "hast",
+          "er": "hat"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gehabt"
+        }
+      },
+      "example": {
+        "target": "Hast du Kaffee?",
+        "en": "Do you have coffee?"
+      },
+      "regional": null,
+      "trick": "Du hast is old English thou hast, meaning you have.",
+      "image": "/deck-de/img/haben-have.webp",
+      "audio": {
+        "word": "/deck-de/audio/haben-form-du.word.0b849a99.mp3",
+        "sentence": "/deck-de/audio/haben-form-du.sentence.dd21d760.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "du-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "haben-form-er",
+      "rank": 5,
+      "kind": "form",
+      "pos": "verb",
+      "target": "er hat",
+      "en": "he / she has",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "habe",
+          "du": "hast",
+          "er": "hat"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gehabt"
+        }
+      },
+      "example": {
+        "target": "Er hat Kaffee, ich nicht.",
+        "en": "He has coffee, I don't."
+      },
+      "regional": null,
+      "trick": "Er hat sounds close to hat: he has a hat.",
+      "image": "/deck-de/img/haben-have.webp",
+      "audio": {
+        "word": "/deck-de/audio/haben-form-er.word.348f9d2f.mp3",
+        "sentence": "/deck-de/audio/haben-form-er.sentence.e4073dc0.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [
+        "er-he"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "ein-a",
+      "rank": 6,
+      "kind": "glue",
+      "pos": "determiner",
+      "target": "ein",
+      "en": "That's [a] dog",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Sie hat ein Baby.",
+        "en": "She has a baby."
+      },
+      "regional": null,
+      "trick": "EIN rhymes with \"mine\": think \"a mine\", and ein is simply a or an.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/ein-a.word.584a25a3.mp3",
+        "sentence": "/deck-de/audio/ein-a.sentence.30de7224.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "haus-house",
+      "rank": 129,
+      "kind": "content",
+      "pos": "noun",
+      "target": "das Haus",
+      "en": "house",
+      "hint": null,
+      "grammar": {
+        "gender": "n",
+        "article": "das",
+        "plural": "die Häuser"
+      },
+      "example": {
+        "target": "Sie hat ein Haus, ich nicht.",
+        "en": "She has a house, I don't."
+      },
+      "regional": null,
+      "trick": "HAUS sounds almost exactly like house, and that's what it means.",
+      "image": "/deck-de/img/haus-house.webp",
+      "audio": {
+        "word": "/deck-de/audio/haus-house.word.a7005d07.mp3",
+        "sentence": "/deck-de/audio/haus-house.sentence.c64e8352.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "wasser-water",
+      "rank": 402,
+      "kind": "content",
+      "pos": "noun",
+      "target": "das Wasser",
+      "en": "water",
+      "hint": null,
+      "grammar": {
+        "gender": "n",
+        "article": "das",
+        "plural": null
+      },
+      "example": {
+        "target": "Möchtest du Wasser?",
+        "en": "Would you like some water?"
+      },
+      "regional": null,
+      "trick": "WASSER sounds like VAH-ser, a close cousin of English water, with the W said as a V.",
+      "image": "/deck-de/img/wasser-water.webp",
+      "audio": {
+        "word": "/deck-de/audio/wasser-water.word.ca555e17.mp3",
+        "sentence": "/deck-de/audio/wasser-water.sentence.25f35ec2.mp3"
+      },
+      "unit": "what-i-want-and-have",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "mein-my",
+      "rank": 18,
+      "kind": "glue",
+      "pos": "determiner",
+      "target": "mein",
+      "en": "That's [my] dog",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Mein Kaffee ist nicht gut.",
+        "en": "My coffee isn't good."
+      },
+      "regional": null,
+      "trick": "MEIN sounds just like English \"mine\", and it means my.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/mein-my.word.730a6159.mp3",
+        "sentence": "/deck-de/audio/mein-my.sentence.0029b0e7.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "vater-father",
+      "rank": 155,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Vater",
+      "en": "father",
+      "hint": "not the informal dad",
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": "die Väter"
+      },
+      "example": {
+        "target": "Mein Vater ist aus Hamburg.",
+        "en": "My father is from Hamburg."
+      },
+      "regional": null,
+      "trick": "VATER is said FAH-ter, because German v sounds like f, so it sounds almost exactly like father.",
+      "image": "/deck-de/img/vater-father.webp",
+      "audio": {
+        "word": "/deck-de/audio/vater-father.word.b8d3118f.mp3",
+        "sentence": "/deck-de/audio/vater-father.sentence.0be80284.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "schwester-sister",
+      "rank": 343,
+      "kind": "content",
+      "pos": "noun",
+      "target": "die Schwester",
+      "en": "sister",
+      "hint": null,
+      "grammar": {
+        "gender": "f",
+        "article": "die",
+        "plural": "die Schwestern"
+      },
+      "example": {
+        "target": "Meine Schwester ist aus Hamburg.",
+        "en": "My sister is from Hamburg."
+      },
+      "regional": null,
+      "trick": "SCHWESTER sounds like \"shvester\", close to \"sister\" with a swish, as if your sister stole your sweater.",
+      "image": "/deck-de/img/schwester-sister.webp",
+      "audio": {
+        "word": "/deck-de/audio/schwester-sister.word.be43c411.mp3",
+        "sentence": "/deck-de/audio/schwester-sister.sentence.ccd15873.mp3"
+      },
+      "unit": "my-people",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "essen-eat",
+      "rank": 178,
+      "kind": "content",
+      "pos": "verb",
+      "target": "essen",
+      "en": "to eat",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "esse",
+          "du": "isst",
+          "er": "isst"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gegessen"
+        }
+      },
+      "example": {
+        "target": "Meine Schwester isst gern Pizza.",
+        "en": "My sister likes eating pizza."
+      },
+      "regional": null,
+      "trick": "ESSEN starts with the sound of the letter S: picture yourself eating a big S-shaped pretzel.",
+      "image": "/deck-de/img/essen-eat.webp",
+      "audio": {
+        "word": "/deck-de/audio/essen-eat.word.92de7513.mp3",
+        "sentence": "/deck-de/audio/essen-eat.sentence.cab44c36.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "trinken-drink",
+      "rank": 319,
+      "kind": "content",
+      "pos": "verb",
+      "target": "trinken",
+      "en": "to drink",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "trinke",
+          "du": "trinkst",
+          "er": "trinkt"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "getrunken"
+        }
+      },
+      "example": {
+        "target": "Ich trinke gern Kaffee.",
+        "en": "I like to drink coffee."
+      },
+      "regional": null,
+      "trick": "TRINKEN sounds like \"drinking\": you drink when you trinkst.",
+      "image": "/deck-de/img/trinken-drink.webp",
+      "audio": {
+        "word": "/deck-de/audio/trinken-drink.word.2231db06.mp3",
+        "sentence": "/deck-de/audio/trinken-drink.sentence.1185d650.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "bier-beer",
+      "rank": 801,
+      "kind": "content",
+      "pos": "noun",
+      "target": "das Bier",
+      "en": "beer",
+      "hint": null,
+      "grammar": {
+        "gender": "n",
+        "article": "das",
+        "plural": "die Biere"
+      },
+      "example": {
+        "target": "Ich möchte ein Bier, bitte.",
+        "en": "I'd like a beer, please."
+      },
+      "regional": null,
+      "trick": "BIER sounds like \"beer\" because it means beer.",
+      "image": "/deck-de/img/bier-beer.webp",
+      "audio": {
+        "word": "/deck-de/audio/bier-beer.word.3b3a374d.mp3",
+        "sentence": "/deck-de/audio/bier-beer.sentence.74c1f7ec.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "tee-tea",
+      "rank": 997,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Tee",
+      "en": "tea",
+      "hint": null,
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": "die Tees"
+      },
+      "example": {
+        "target": "Ich trinke gern Tee.",
+        "en": "I like drinking tea."
+      },
+      "regional": null,
+      "trick": "TEE sounds like \"tay\", which is close to \"tea\": a cup of Tee is a cup of tea.",
+      "image": "/deck-de/img/tee-tea.webp",
+      "audio": {
+        "word": "/deck-de/audio/tee-tea.word.80519d13.mp3",
+        "sentence": "/deck-de/audio/tee-tea.sentence.b422f3cf.mp3"
+      },
+      "unit": "a-coffee-please",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "wie-how",
+      "rank": 23,
+      "kind": "glue",
+      "pos": "adverb",
+      "target": "wie",
+      "en": "[how] are you?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wie geht's dir?",
+        "en": "How are you?"
+      },
+      "regional": null,
+      "trick": "WIE sounds like vee: picture someone shrugging with arms in a V shape, asking how?",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/wie-how.word.d7bc7fca.mp3",
+        "sentence": "/deck-de/audio/wie-how.sentence.dc6c3dee.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "woher-where-from",
+      "rank": 385,
+      "kind": "glue",
+      "pos": "adverb",
+      "target": "woher",
+      "en": "[where] are you from?",
+      "hint": "from where, not wo or wohin",
+      "grammar": null,
+      "example": {
+        "target": "Woher bist du?",
+        "en": "Where are you from?"
+      },
+      "regional": null,
+      "trick": "WOHER sounds like 'vo-hair': where did that hair come from?",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/woher-where-from.word.5fb6a6c1.mp3",
+        "sentence": "/deck-de/audio/woher-where-from.sentence.679a09b1.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": null,
+      "why": "Use woher to ask where someone or something comes from; wo asks where something is."
+    },
+    {
+      "id": "phrase-pardon-i-didnt-catch",
+      "rank": 86,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Wie bitte?",
+      "en": "Pardon? (I didn't catch that.)",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wie bitte? Wie heißt du?",
+        "en": "Pardon? What's your name?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-pardon-i-didnt-catch.word.b0d74c03.mp3",
+        "sentence": "/deck-de/audio/phrase-pardon-i-didnt-catch.sentence.78680ddd.mp3"
+      },
+      "unit": "asking-questions",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "wissen-form-ich",
+      "rank": 30,
+      "kind": "form",
+      "pos": "verb",
+      "target": "ich weiß",
+      "en": "I know",
+      "hint": "a fact",
+      "grammar": {
+        "present": {
+          "ich": "weiß",
+          "du": "weißt",
+          "er": "weiß"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gewusst"
+        }
+      },
+      "example": {
+        "target": "Ich weiß es nicht.",
+        "en": "I don't know."
+      },
+      "regional": null,
+      "trick": "Weiß sounds like vice, close to wise, and a wise person knows things.",
+      "image": "/deck-de/img/wissen-know.webp",
+      "audio": {
+        "word": "/deck-de/audio/wissen-form-ich.word.d26448f6.mp3",
+        "sentence": "/deck-de/audio/wissen-form-ich.sentence.e2727229.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "ich-i"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "wissen-form-du",
+      "rank": 30,
+      "kind": "form",
+      "pos": "verb",
+      "target": "du weißt",
+      "en": "you know",
+      "hint": "a fact, informal",
+      "grammar": {
+        "present": {
+          "ich": "weiß",
+          "du": "weißt",
+          "er": "weiß"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gewusst"
+        }
+      },
+      "example": {
+        "target": "Weißt du, wo er ist?",
+        "en": "Do you know where he is?"
+      },
+      "regional": null,
+      "trick": "Weißt sounds like vicet, almost wised: you got wise, so you know.",
+      "image": "/deck-de/img/wissen-know.webp",
+      "audio": {
+        "word": "/deck-de/audio/wissen-form-du.word.54b05482.mp3",
+        "sentence": "/deck-de/audio/wissen-form-du.sentence.b2d51fb5.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "du-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "wissen-form-er",
+      "rank": 30,
+      "kind": "form",
+      "pos": "verb",
+      "target": "er weiß",
+      "en": "he / she knows",
+      "hint": "a fact",
+      "grammar": {
+        "present": {
+          "ich": "weiß",
+          "du": "weißt",
+          "er": "weiß"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gewusst"
+        }
+      },
+      "example": {
+        "target": "Er weiß, wo meine Mutter ist.",
+        "en": "He knows where my mother is."
+      },
+      "regional": null,
+      "trick": "Weiß sounds like vice, close to wise, and a wise person knows things.",
+      "image": "/deck-de/img/wissen-know.webp",
+      "audio": {
+        "word": "/deck-de/audio/wissen-form-er.word.30d8239a.mp3",
+        "sentence": "/deck-de/audio/wissen-form-er.sentence.1f0b087b.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [
+        "er-he"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "verstehen-understand",
+      "rank": 124,
+      "kind": "content",
+      "pos": "verb",
+      "target": "verstehen",
+      "en": "to understand",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "verstehe",
+          "du": "verstehst",
+          "er": "versteht"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "verstanden"
+        }
+      },
+      "example": {
+        "target": "Ich verstehe das nicht.",
+        "en": "I don't understand that."
+      },
+      "regional": null,
+      "trick": "verSTEHEN sounds like \"fair SHTAY-en\": if you stay and listen fairly, you'll understand.",
+      "image": "/deck-de/img/verstehen-understand.webp",
+      "audio": {
+        "word": "/deck-de/audio/verstehen-understand.word.d0f662bb.mp3",
+        "sentence": "/deck-de/audio/verstehen-understand.sentence.34189965.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "sprechen-speak",
+      "rank": 149,
+      "kind": "content",
+      "pos": "verb",
+      "target": "sprechen",
+      "en": "to speak, to talk",
+      "hint": "also a language; not reden",
+      "grammar": {
+        "present": {
+          "ich": "spreche",
+          "du": "sprichst",
+          "er": "spricht"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gesprochen"
+        }
+      },
+      "example": {
+        "target": "Sprichst du Englisch?",
+        "en": "Do you speak English?"
+      },
+      "regional": null,
+      "trick": "SPRECHEN sounds a bit like SPEECH-en: when you speak, you make speech.",
+      "image": "/deck-de/img/sprechen-speak.webp",
+      "audio": {
+        "word": "/deck-de/audio/sprechen-speak.word.82d28b0f.mp3",
+        "sentence": "/deck-de/audio/sprechen-speak.sentence.68908b4a.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-how-do-you-say",
+      "rank": 731,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Wie sagt man … auf Deutsch?",
+      "en": "How do you say … in German?",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Wie sagt man das auf Deutsch?",
+        "en": "How do you say that in German?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-how-do-you-say.word.e6725204.mp3",
+        "sentence": "/deck-de/audio/phrase-how-do-you-say.sentence.d11e4f7a.mp3"
+      },
+      "unit": "when-i-dont-understand",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "koennen-form-du",
+      "rank": 17,
+      "kind": "form",
+      "pos": "verb",
+      "target": "du kannst",
+      "en": "you can",
+      "hint": "informal",
+      "grammar": {
+        "present": {
+          "ich": "kann",
+          "du": "kannst",
+          "er": "kann"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gekonnt"
+        }
+      },
+      "example": {
+        "target": "Kannst du Englisch sprechen?",
+        "en": "Can you speak English?"
+      },
+      "regional": null,
+      "trick": "Kannst is like old English thou canst: can plus the st ending that du forms take.",
+      "image": "/deck-de/img/koennen-can.webp",
+      "audio": {
+        "word": "/deck-de/audio/koennen-form-du.word.8371aa1e.mp3",
+        "sentence": "/deck-de/audio/koennen-form-du.sentence.d5c47e5e.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [
+        "du-you"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "koennen-form-er",
+      "rank": 17,
+      "kind": "form",
+      "pos": "verb",
+      "target": "er kann",
+      "en": "he / she can",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "kann",
+          "du": "kannst",
+          "er": "kann"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "gekonnt"
+        }
+      },
+      "example": {
+        "target": "Meine Mutter kann sehr gut Englisch sprechen.",
+        "en": "My mother can speak English very well."
+      },
+      "regional": null,
+      "trick": "Same as ich: kann sounds like can, with no ending for he or she, just like English.",
+      "image": "/deck-de/img/koennen-can.webp",
+      "audio": {
+        "word": "/deck-de/audio/koennen-form-er.word.367864aa.mp3",
+        "sentence": "/deck-de/audio/koennen-form-er.sentence.6648a4f1.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [
+        "er-he"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "mir-me-dative",
+      "rank": 21,
+      "kind": "glue",
+      "pos": "pronoun",
+      "target": "mir",
+      "en": "give [me] the key",
+      "hint": "to me (dative, not mich)",
+      "grammar": null,
+      "example": {
+        "target": "Kannst du mir das noch einmal sagen?",
+        "en": "Can you say that to me again?"
+      },
+      "regional": null,
+      "trick": "MIR sounds like the start of mirror: look in a mirror and you see me.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/mir-me-dative.word.09160345.mp3",
+        "sentence": "/deck-de/audio/mir-me-dative.sentence.452f2755.mp3"
+      },
+      "unit": "can-you-help-me",
+      "requires": [
+        "ich-i"
+      ],
+      "tip": null,
+      "why": "Use mir for to me and after helfen or mit; use mich when me is the direct object."
+    }
+  ]
 }

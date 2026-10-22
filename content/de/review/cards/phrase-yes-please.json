@@ -1,0 +1,17 @@
+{
+  "id": "phrase-yes-please",
+  "rank": 86,
+  "word": "me-and-you",
+  "draft": "4fe5d4bc24ceb642",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Yes, please.",
+    "example": "Coffee? – Yes, please."
+  },
+  "note": "\"Ja, gern(e).\" is a common, warmer way to accept an offer, but it means \"Yes, I'd love to\", so \"Ja, bitte.\" stays the one answer for this prompt, and it pairs well with the unit's \"Nein, danke.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:27.910Z"
+}

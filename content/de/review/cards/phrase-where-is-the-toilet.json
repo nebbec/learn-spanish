@@ -1,0 +1,23 @@
+{
+  "id": "phrase-where-is-the-toilet",
+  "rank": 79,
+  "word": "out-and-about",
+  "draft": "289311ebdbdac881",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses toilette, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "Where is the toilet?",
+    "example": "Where is the toilet here, please?"
+  },
+  "note": "Wo ist das Klo? is the casual version among friends and Wo ist das WC? is also heard in Germany, but Toilette is the safe standard word for \"toilet\", so the card is fine; the Swiss footnote is reasonable since WC is the usual word there.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:42.465Z"
+}

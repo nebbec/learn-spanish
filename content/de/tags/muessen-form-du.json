@@ -1,0 +1,16 @@
+{
+  "id": "muessen-form-du",
+  "unit": "can-you-help-me",
+  "want": "müssen: you must (du musst)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "20984a1750887f81",
+  "group": "forms müssen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:25.722Z"
+}

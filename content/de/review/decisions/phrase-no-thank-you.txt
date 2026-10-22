@@ -1,0 +1,30 @@
+# phrase-no-thank-you · rank 96 · me-and-you
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Möchtest, einen. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids phrase-no-thank-you
+# Reviewer's note (not a reason to flag): The Swiss footnote is right, since merci is the everyday thanks in Switzerland, and the card pairs well with "Ja, bitte." in the same unit.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-no-thank-you
+kind:           phrase
+pos:            phrase
+target:         Nein, danke.
+en:             No, thank you.
+hint:
+example.target: Möchtest du einen Kaffee? – Nein, danke.
+example.en:     Would you like a coffee? – No, thank you.
+regional.where: Switzerland
+regional.text:  Nein, merci.
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: b261d0c1ba8735e2

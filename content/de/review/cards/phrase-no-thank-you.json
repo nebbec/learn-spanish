@@ -1,0 +1,23 @@
+{
+  "id": "phrase-no-thank-you",
+  "rank": 96,
+  "word": "me-and-you",
+  "draft": "b261d0c1ba8735e2",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "known-words",
+      "problem": "The example uses words not met before this card: Möchtest, einen. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate.",
+      "fix": "npm run draft -- --examples --ids phrase-no-thank-you"
+    }
+  ],
+  "back": {
+    "target": "No, thanks.",
+    "example": "Do you want a coffee? – No, thanks."
+  },
+  "note": "The Swiss footnote is right, since merci is the everyday thanks in Switzerland, and the card pairs well with \"Ja, bitte.\" in the same unit.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:27.539Z"
+}

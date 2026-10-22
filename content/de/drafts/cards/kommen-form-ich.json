@@ -1,0 +1,33 @@
+{
+  "id": "kommen-form-ich",
+  "rank": 37,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich komme",
+  "en": "I come",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gekommen"
+    }
+  },
+  "example": {
+    "target": "Ich komme später nach Hause.",
+    "en": "I'm coming home later."
+  },
+  "regional": null,
+  "trick": "Komme sounds like English come with a short uh on the end: ich komme, I come.",
+  "image": "/deck-de/img/kommen-come.webp",
+  "audio": {
+    "word": "/deck-de/audio/kommen-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/kommen-form-ich.sentence.mp3"
+  }
+}

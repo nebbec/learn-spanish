@@ -1,0 +1,14 @@
+{
+  "id": "freund-friend",
+  "unit": "with-friends",
+  "want": "Freund: friend",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4a764a346d6f7180",
+  "group": "#150 Freund",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:19.402Z"
+}

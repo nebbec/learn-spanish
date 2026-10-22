@@ -1,0 +1,30 @@
+# ihm-him · rank 100 · ihm
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Buch. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids ihm-him
+# Reviewer's note (not a reason to flag): The hint isn't strictly needed, because mit already requires the dative, so "Ich gehe mit ihm" leaves only ihm, but it does no harm.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             ihm-him
+kind:           glue
+pos:            pronoun
+target:         ihm
+en:             I'm going with [him]
+hint:           dative, as after mit or to him
+example.target: Ich gebe ihm morgen das Buch.
+example.en:     I'll give him the book tomorrow.
+regional.where:
+regional.text:
+trick:          IHM sounds like eem, rhyming with team: pass the ball to him, he's on your team.
+
+# The draft this file was made from. Do not change it.
+draft: 23bb603568843b9e

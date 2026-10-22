@@ -12,8 +12,8 @@
     "from": "kein"
   },
   "example": {
-    "target": "Ich habe keinen Bruder, nur eine Schwester.",
-    "en": "I don't have a brother, just a sister."
+    "target": "Ich habe keinen Bruder und keine Schwester.",
+    "en": "I have no brother and no sister."
   },
   "regional": null,
   "trick": null,

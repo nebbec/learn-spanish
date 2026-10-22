@@ -1,0 +1,24 @@
+{
+  "id": "phrase-excuse-me-sorry",
+  "rank": 451,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Entschuldigung!",
+  "en": "Excuse me! / Sorry!",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Entschuldigung, wo ist die Toilette?",
+    "en": "Excuse me, where is the toilet?"
+  },
+  "regional": {
+    "where": "Switzerland",
+    "text": "Exgüsi"
+  },
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-excuse-me-sorry.word.mp3",
+    "sentence": "/deck-de/audio/phrase-excuse-me-sorry.sentence.mp3"
+  }
+}

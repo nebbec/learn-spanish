@@ -1,0 +1,33 @@
+{
+  "id": "wollen-want",
+  "rank": 28,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wollen",
+  "en": "to want",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "will",
+      "du": "willst",
+      "er": "will"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewollt"
+    }
+  },
+  "example": {
+    "target": "Willst du heute Abend ins Kino?",
+    "en": "Do you want to go to the cinema tonight?"
+  },
+  "regional": null,
+  "trick": "Ich WILL sounds like English will: where there's a will, there's a way, and a will is what you want.",
+  "image": "/deck-de/img/wollen-want.webp",
+  "audio": {
+    "word": "/deck-de/audio/wollen-want.word.mp3",
+    "sentence": "/deck-de/audio/wollen-want.sentence.mp3"
+  }
+}

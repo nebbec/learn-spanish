@@ -1,0 +1,16 @@
+{
+  "id": "moechten-form-du",
+  "unit": "what-i-want-and-have",
+  "want": "möchten: you would like (du möchtest)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": "tip-verb-endings",
+  "why": null,
+  "draft": "379d2ba44e4b0dce",
+  "group": "forms möchten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:25.084Z"
+}

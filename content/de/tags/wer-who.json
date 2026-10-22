@@ -1,0 +1,14 @@
+{
+  "id": "wer-who",
+  "unit": "asking-questions",
+  "want": "wer",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": "Wer asks who, even though it sounds like where; for where, use wo.",
+  "draft": "74d79f273bab392a",
+  "group": "#102 wer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:07.755Z"
+}

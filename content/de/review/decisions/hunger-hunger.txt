@@ -1,0 +1,33 @@
+# hunger-hunger · rank 888 · Hunger
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: lass, uns. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids hunger-hunger
+# Reviewer's note (not a reason to flag): The example teaches the key pattern "Hunger haben" for "to be hungry", which is worth keeping.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             hunger-hunger
+kind:           content
+pos:            noun
+target:         der Hunger
+en:             hunger
+hint:
+gender:         m
+article:        der
+plural:
+example.target: Ich habe Hunger, lass uns essen.
+example.en:     I'm hungry, let's eat.
+regional.where:
+regional.text:
+trick:          HUNGER sounds almost like English hunger, just with an oo sound: HOONG-er, and it means the same thing.
+
+# The draft this file was made from. Do not change it.
+draft: d974ef2f1450878f

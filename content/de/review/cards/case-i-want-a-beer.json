@@ -6,12 +6,12 @@
   "flagged": false,
   "findings": [],
   "back": {
-    "target": "a beer (accusative, neuter)",
+    "target": "a beer (accusative, neuter: ein stays ein)",
     "example": "I want a beer now."
   },
-  "note": "The neuter accusative ein is the same as the nominative, so this card shows no visible case change; the editor may want the unit to also have a masculine example such as einen Kaffee.",
+  "note": "Neuter ein has the same form in the accusative as in the nominative, so this card mostly teaches that nothing changes, unlike the masculine einen.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:17.223Z"
+  "reviewedAt": "2026-10-22T09:06:06.569Z"
 }

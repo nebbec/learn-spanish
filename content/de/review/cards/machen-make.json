@@ -1,0 +1,17 @@
+{
+  "id": "machen-make",
+  "rank": 40,
+  "word": "machen",
+  "draft": "9c1cc68ac3cb575e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to make; to do",
+    "example": "I'll make you a coffee."
+  },
+  "note": "Herstellen means to manufacture, not the everyday to make, so it is not a second right answer here, and the to do card also has machen as its answer, so the two cards do not clash.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:51.207Z"
+}

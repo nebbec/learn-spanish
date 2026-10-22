@@ -1,0 +1,14 @@
+{
+  "id": "phrase-where-is-the-toilet",
+  "unit": "out-and-about",
+  "want": "phrase: Wo ist die Toilette? = where is the toilet?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "289311ebdbdac881",
+  "group": "phrases out-and-about",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:49.407Z"
+}

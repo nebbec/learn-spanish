@@ -1,0 +1,33 @@
+{
+  "id": "wissen-form-ich",
+  "rank": 30,
+  "kind": "form",
+  "pos": "verb",
+  "target": "ich weiß",
+  "en": "I know",
+  "hint": "a fact",
+  "grammar": {
+    "present": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er": "weiß"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewusst"
+    }
+  },
+  "example": {
+    "target": "Ich weiß es nicht.",
+    "en": "I don't know."
+  },
+  "regional": null,
+  "trick": "Weiß sounds like vice, close to wise, and a wise person knows things.",
+  "image": "/deck-de/img/wissen-know.webp",
+  "audio": {
+    "word": "/deck-de/audio/wissen-form-ich.word.mp3",
+    "sentence": "/deck-de/audio/wissen-form-ich.sentence.mp3"
+  }
+}

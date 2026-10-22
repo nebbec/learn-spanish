@@ -1,0 +1,14 @@
+{
+  "id": "phrase-im-fine",
+  "unit": "hello-how-are-you",
+  "want": "phrase: mir geht's gut = I'm fine",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c1ed3ed3d6746402",
+  "group": "phrases hello-how-are-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:35.188Z"
+}

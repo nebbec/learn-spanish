@@ -1,0 +1,17 @@
+{
+  "id": "gehen-form-ich",
+  "rank": 34,
+  "word": "gehen",
+  "draft": "47dd46a5e4b1792d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I go (on foot), I'm going",
+    "example": "I'm going to my brother's (place)."
+  },
+  "note": "The hint is useful because it rules out fahren, and irregular is correctly true because the participle gegangen is strong, even though the present-tense forms are regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:01.918Z"
+}

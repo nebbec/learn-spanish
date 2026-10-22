@@ -1,0 +1,33 @@
+# liebe-love · rank 357 · Liebe
+#
+# Why it was flagged:
+#   - Memory trick: The trick tells the learner to find lieb in beloved, but beloved has no lieb in it, so the link is misleading. Suggested fix: trick: LIEBE sounds like LEE-buh and is a cousin of English love, so picture someone saying love with a German accent.
+# Reviewer's note (not a reason to flag): The plural is null, which is fine: die Lieben means loved ones and is not a common plural of love.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             liebe-love
+kind:           content
+pos:            noun
+target:         die Liebe
+en:             love
+hint:
+gender:         f
+article:        die
+plural:
+example.target: Die Liebe macht glücklich.
+example.en:     Love makes you happy.
+regional.where:
+regional.text:
+trick:          LIEBE sounds like LEE-buh and is a cousin of English love; think of the lieb in beloved.
+
+# The draft this file was made from. Do not change it.
+draft: 1d8119b3b1a9beb4

@@ -1,0 +1,17 @@
+{
+  "id": "wissen-know",
+  "rank": 30,
+  "word": "wissen",
+  "draft": "64b5f41f0d3f0cc2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to know (a fact, information)",
+    "example": "Do you know where Anna is?"
+  },
+  "note": "The hint \"a fact\" is needed because it rules out kennen (to know a person or place); saber-know also covers knowing how to do something, which German usually says with können, but its main meaning, knowing facts, is the same.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:37.414Z"
+}

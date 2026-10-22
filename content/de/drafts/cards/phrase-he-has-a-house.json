@@ -1,0 +1,21 @@
+{
+  "id": "phrase-he-has-a-house",
+  "rank": 129,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Er hat ein Haus.",
+  "en": "He has a house.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Er hat ein Haus und ich habe Kaffee.",
+    "en": "He has a house and I have coffee."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-he-has-a-house.word.mp3",
+    "sentence": "/deck-de/audio/phrase-he-has-a-house.sentence.mp3"
+  }
+}

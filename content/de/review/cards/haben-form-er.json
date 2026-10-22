@@ -1,0 +1,17 @@
+{
+  "id": "haben-form-er",
+  "rank": 5,
+  "word": "haben",
+  "draft": "ec5efb0b56846873",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he has (third-person singular present of haben, to have)",
+    "example": "He has coffee, I don't."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:39.545Z"
+}

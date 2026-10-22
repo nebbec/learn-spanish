@@ -1,0 +1,14 @@
+{
+  "id": "gluecklich-happy",
+  "unit": "how-i-feel",
+  "want": "glücklich",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3e3ff5abf77684c3",
+  "group": "#408 glücklich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:51.002Z"
+}

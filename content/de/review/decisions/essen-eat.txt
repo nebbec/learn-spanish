@@ -1,0 +1,37 @@
+# essen-eat · rank 178 · essen
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Was, heute, zu, Mittag. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids essen-eat
+# Reviewer's note (not a reason to flag): The "to" in the prompt keeps this card apart from the noun card das Essen (food), and fressen is only used for animals, so no hint is needed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 essen-eat
+kind:               content
+pos:                verb
+target:             essen
+en:                 to eat
+hint:
+ich:                esse
+du:                 isst
+er:                 isst
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gegessen
+example.target:     Was isst du heute zu Mittag?
+example.en:         What are you eating for lunch today?
+regional.where:
+regional.text:
+trick:              ESSEN starts with the sound of the letter S: picture yourself eating a big S-shaped pretzel.
+
+# The draft this file was made from. Do not change it.
+draft: 6ce60d6f1bcb854e

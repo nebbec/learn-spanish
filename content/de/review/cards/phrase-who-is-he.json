@@ -1,0 +1,17 @@
+{
+  "id": "phrase-who-is-he",
+  "rank": 102,
+  "word": "asking-questions",
+  "draft": "cced0088a5bd7c3f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "Who is he?",
+    "example": "Who is he? – That's my brother."
+  },
+  "note": "When pointing at someone, Germans often say \"Wer ist das?\", so the unit might want that as a separate card later. \"Wer ist er?\" is still the direct, correct answer to this prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:27.967Z"
+}

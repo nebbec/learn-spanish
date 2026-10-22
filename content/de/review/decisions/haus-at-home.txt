@@ -1,0 +1,31 @@
+# haus-at-home · rank 129 · Haus
+#
+# Why it was flagged:
+#   - Usage in Germany: In Austria and Switzerland, daheim is the usual everyday word for at home, much more than in most of Germany, so regional should not be null. Suggested fix: regional: { where: "Austria, Switzerland", text: "daheim is the usual everyday word for at home (Bist du heute Abend daheim?)." }
+#   - Memory trick: The trick glosses zu Hause as 'to the house', which is misleading because going (to) home is nach Hause, and zu Hause means only being at home, a distinction learners often get wrong. Suggested fix: trick: ZU HAUSE sounds like tsoo HOW-zeh: you're sitting in your own HOUSE, so you're at home.
+# Reviewer's note (not a reason to flag): Zuhause written as one word is also an accepted spelling of the adverb (and is standard in Austria and Switzerland), so it might be worth accepting it as the same answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             haus-at-home
+kind:           content
+pos:            adverb
+target:         zu Hause
+en:             at home
+hint:
+example.target: Bist du heute Abend zu Hause?
+example.en:     Are you at home tonight?
+regional.where:
+regional.text:
+trick:          ZU HAUSE sounds like tsoo HOW-zeh: to the house, so you're at home.
+
+# The draft this file was made from. Do not change it.
+draft: 9318c8e771ae19e5

@@ -1,0 +1,15 @@
+{
+  "rank": 62,
+  "word": "jetzt",
+  "cards": [
+    "jetzt-now"
+  ],
+  "skip": null,
+  "sameAs": {
+    "jetzt-now": "ahora-now"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:58:27.093Z"
+}

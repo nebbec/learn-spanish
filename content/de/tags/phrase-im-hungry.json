@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-hungry",
+  "unit": "how-i-feel",
+  "want": null,
+  "requires": [
+    "haben-form-ich",
+    "hunger-hunger"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "b5a9dab2942627b6",
+  "group": "phrases how-i-feel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:56.168Z"
+}

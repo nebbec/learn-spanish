@@ -1,0 +1,29 @@
+# krank-sick · rank 512 · krank
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: siehst. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids krank-sick
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             krank-sick
+kind:           content
+pos:            adjective
+target:         krank
+en:             sick
+hint:
+example.target: Bist du krank? Du siehst müde aus.
+example.en:     Are you sick? You look tired.
+regional.where:
+regional.text:
+trick:          KRANK sounds like cranky: when you're sick in bed, you get cranky.
+
+# The draft this file was made from. Do not change it.
+draft: 480c3d5c0374a479

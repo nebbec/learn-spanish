@@ -1,0 +1,25 @@
+{
+  "id": "abend-evening",
+  "rank": 233,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Abend",
+  "en": "evening",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Abende"
+  },
+  "example": {
+    "target": "Was machst du heute Abend?",
+    "en": "What are you doing this evening?"
+  },
+  "regional": null,
+  "trick": "ABEND sounds like \"AH-bent\": by evening the sun has bent down to the horizon.",
+  "image": "/deck-de/img/abend-evening.webp",
+  "audio": {
+    "word": "/deck-de/audio/abend-evening.word.mp3",
+    "sentence": "/deck-de/audio/abend-evening.sentence.mp3"
+  }
+}

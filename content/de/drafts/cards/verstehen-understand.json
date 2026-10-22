@@ -1,0 +1,33 @@
+{
+  "id": "verstehen-understand",
+  "rank": 124,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verstehen",
+  "en": "to understand",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verstehe",
+      "du": "verstehst",
+      "er": "versteht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verstanden"
+    }
+  },
+  "example": {
+    "target": "Ich verstehe das nicht.",
+    "en": "I don't understand that."
+  },
+  "regional": null,
+  "trick": "verSTEHEN sounds like \"fair SHTAY-en\": if you stay and listen fairly, you'll understand.",
+  "image": "/deck-de/img/verstehen-understand.webp",
+  "audio": {
+    "word": "/deck-de/audio/verstehen-understand.word.mp3",
+    "sentence": "/deck-de/audio/verstehen-understand.sentence.mp3"
+  }
+}

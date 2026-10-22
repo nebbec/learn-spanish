@@ -1,0 +1,17 @@
+{
+  "id": "lernen-learn",
+  "rank": 332,
+  "word": "lernen",
+  "draft": "fba2d007ab4c85fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to learn (also to study, e.g. for a test)",
+    "example": "I'm learning German in Berlin now."
+  },
+  "note": "The Spanish list has estudiar-study (to study) but no aprender card, so null is right; lernen also covers studying for an exam, which the example could show some other time.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:16:02.347Z"
+}

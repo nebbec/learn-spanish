@@ -1,0 +1,14 @@
+{
+  "id": "gern-gladly",
+  "unit": "what-i-like",
+  "want": "gern: gladly (I like doing)",
+  "requires": [],
+  "tip": "tip-gern",
+  "why": "Put gern after a verb to say you like doing something; use mögen to say you like a thing or a person.",
+  "draft": "af6015242c5558e7",
+  "group": "#188 gern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:28.574Z"
+}

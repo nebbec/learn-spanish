@@ -1,0 +1,33 @@
+{
+  "id": "arbeiten-work",
+  "rank": 249,
+  "kind": "content",
+  "pos": "verb",
+  "target": "arbeiten",
+  "en": "to work",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er": "arbeitet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gearbeitet"
+    }
+  },
+  "example": {
+    "target": "Mein Bruder arbeitet heute in Hamburg.",
+    "en": "My brother is working in Hamburg today."
+  },
+  "regional": null,
+  "trick": "ARBEITEN sounds like \"are biting\": at work, people are biting into a big pile of tasks.",
+  "image": "/deck-de/img/arbeiten-work.webp",
+  "audio": {
+    "word": "/deck-de/audio/arbeiten-work.word.mp3",
+    "sentence": "/deck-de/audio/arbeiten-work.sentence.mp3"
+  }
+}

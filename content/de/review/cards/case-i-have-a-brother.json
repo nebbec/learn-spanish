@@ -6,12 +6,12 @@
   "flagged": false,
   "findings": [],
   "back": {
-    "target": "a brother (masculine accusative, as the object of a verb)",
+    "target": "a brother (accusative, as the direct object)",
     "example": "I have a brother and a sister."
   },
-  "note": "The example also includes eine Schwester, which is the answer to the unit's \"I have [a] sister\" card, so it gives that card away, though it also shows masculine einen next to feminine eine.",
+  "note": "The example also uses eine Schwester, which is the answer to this unit's \"I have [a] sister\" card, so the two cards show each other's answers.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:51:54.999Z"
+  "reviewedAt": "2026-10-22T09:05:28.434Z"
 }

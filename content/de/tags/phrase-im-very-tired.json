@@ -1,0 +1,19 @@
+{
+  "id": "phrase-im-very-tired",
+  "unit": "hello-how-are-you",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "sein-form-ich",
+    "sehr-very",
+    "muede-tired"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "5e758b2e53b739ec",
+  "group": "phrases hello-how-are-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:35.188Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phrase-a-coffee-and-a",
+  "rank": 801,
+  "word": "a-coffee-please",
+  "draft": "cd8d342e0dff7f3a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "A coffee and a beer, please.",
+    "example": "Hello! I'd like a coffee and a beer, please."
+  },
+  "note": "When ordering, people often say \"Ein Kaffee und ein Bier, bitte\" in casual speech, so the editor may want to accept that version too, though the accusative \"einen Kaffee\" is the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:26.495Z"
+}

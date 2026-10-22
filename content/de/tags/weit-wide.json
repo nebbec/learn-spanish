@@ -1,0 +1,14 @@
+{
+  "id": "weit-wide",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "01c5672de5e8b6c9",
+  "group": "#243 weit",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:33.412Z"
+}

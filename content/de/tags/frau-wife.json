@@ -1,0 +1,14 @@
+{
+  "id": "frau-wife",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5d0e196491543709",
+  "group": "#114 Frau",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:11.176Z"
+}

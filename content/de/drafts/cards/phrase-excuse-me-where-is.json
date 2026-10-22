@@ -1,0 +1,21 @@
+{
+  "id": "phrase-excuse-me-where-is",
+  "rank": 702,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Entschuldigung, wo ist das Hotel?",
+  "en": "Excuse me, where is the hotel?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Entschuldigung, wo ist das Hotel? Ist es weit?",
+    "en": "Excuse me, where is the hotel? Is it far?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-excuse-me-where-is.word.mp3",
+    "sentence": "/deck-de/audio/phrase-excuse-me-where-is.sentence.mp3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "phrase-im-at-my-mothers",
+  "unit": "with-friends",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "sein-form-ich",
+    "bei-at-place",
+    "mein-my",
+    "mutter-mother"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "588c4e0afeefcdd0",
+  "group": "phrases with-friends",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:05:07.298Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sein-form-er",
+  "rank": 2,
+  "word": "sein",
+  "draft": "a9f522b991849a1c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "Germans normally say 'das ist Paul', not 'er ist Paul', when saying who someone is, and the opening 'Nein,' answers a question the learner never sees, so the sentence feels odd on its own.",
+      "fix": "example.target: Er ist mein Bruder. example.en: He's my brother."
+    }
+  ],
+  "back": {
+    "target": "he is",
+    "example": "No, he is Paul."
+  },
+  "note": "The prompt \"he / she is\" with the answer \"er ist\" follows the app's rule for er-form cards, though a learner might answer \"sie ist\" and should count that as right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:27.990Z"
+}

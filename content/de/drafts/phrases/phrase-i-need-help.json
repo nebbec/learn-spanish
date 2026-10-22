@@ -1,0 +1,31 @@
+{
+  "kind": "phrase",
+  "rank": 293,
+  "word": "can-you-help-me",
+  "unit": "can-you-help-me",
+  "order": 30,
+  "source": "payoff",
+  "line": "I need help.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "brauchen",
+      "rank": 106
+    },
+    {
+      "word": "hilfe",
+      "rank": 293
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:26.257Z",
+  "cards": [
+    "phrase-i-need-help"
+  ]
+}

@@ -1,0 +1,26 @@
+# tip-dative · tip 13 of 14 · introduced by unit 17, With friends
+# The brief from content/tips.json: After mit, bei and zu the article changes: der and das become dem, die becomes der, ein becomes einem or einer, and mein follows ein: mit einem Freund, bei meiner Mutter. Ich becomes mir and du becomes dir, which is why it is mit mir and Wie geht es dir?
+# Drafted 2026-10-22T08:59:18.135Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-dative --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: After mit, bei and zu: the dative
+
+After mit (with), bei (at someone's place) and zu (to someone), the word for the or a changes, and this changed form is called the dative.
+Der and das become dem, die becomes der, and ein becomes einem or einer: mit dem Mann, mit der Frau, mit einem Kind.
+Mein changes just like ein, so you say mit meinem Vater and bei meiner Mutter.
+Ich becomes mir and du becomes dir, which is why you say mit mir and Wie geht es dir?
+
+example: Ich trinke Kaffee mit einem Freund. | I'm having coffee with a friend.
+example: Morgen gehe ich zu meiner Mutter. | Tomorrow I'm going to my mother's.
+example: Er wohnt bei mir. | He lives at my place.

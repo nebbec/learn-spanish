@@ -1,0 +1,17 @@
+{
+  "id": "wie-like-as",
+  "rank": 23,
+  "word": "wie",
+  "draft": "b5b687f30f6c226d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "as (in comparisons of equality: so ... wie), like",
+    "example": "My brother is as tired as I am."
+  },
+  "note": "The hint usefully rules out als (used after comparatives, as in größer als ich), and it fits the word's other card, \"[how] are you?\", without any overlap.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:33.212Z"
+}

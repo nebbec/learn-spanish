@@ -1,0 +1,33 @@
+{
+  "id": "helfen-help",
+  "rank": 139,
+  "kind": "content",
+  "pos": "verb",
+  "target": "helfen",
+  "en": "to help",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "helfe",
+      "du": "hilfst",
+      "er": "hilft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geholfen"
+    }
+  },
+  "example": {
+    "target": "Kannst du mir bitte helfen?",
+    "en": "Can you help me, please?"
+  },
+  "regional": null,
+  "trick": "HELFEN sounds like \"help 'em\": when someone is stuck, you help them.",
+  "image": "/deck-de/img/helfen-help.webp",
+  "audio": {
+    "word": "/deck-de/audio/helfen-help.word.mp3",
+    "sentence": "/deck-de/audio/helfen-help.sentence.mp3"
+  }
+}

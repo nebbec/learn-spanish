@@ -1,0 +1,30 @@
+# hier-here · rank 31 · hier
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: warte, dich. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids hier-here
+# Reviewer's note (not a reason to flag): The bare prompt "here" means location, so hier is the one right answer (hierher, "to here", is for direction), and the card needs no hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             hier-here
+kind:           content
+pos:            adverb
+target:         hier
+en:             here
+hint:
+example.target: Ich warte hier auf dich.
+example.en:     I'll wait for you here.
+regional.where:
+regional.text:
+trick:          HIER sounds almost exactly like English "here", and it means the same thing.
+
+# The draft this file was made from. Do not change it.
+draft: 5d74cb637460f9b3

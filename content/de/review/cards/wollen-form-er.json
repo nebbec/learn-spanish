@@ -1,0 +1,17 @@
+{
+  "id": "wollen-form-er",
+  "rank": 28,
+  "word": "wollen",
+  "draft": "7536ebdf8ad42c25",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he wants",
+    "example": "He wants to learn German."
+  },
+  "note": "The trick usefully warns about the false friend with English will, which is worth keeping.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:55.177Z"
+}

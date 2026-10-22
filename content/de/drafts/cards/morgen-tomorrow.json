@@ -1,0 +1,21 @@
+{
+  "id": "morgen-tomorrow",
+  "rank": 157,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "morgen",
+  "en": "tomorrow",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich gehe morgen nach Hamburg.",
+    "en": "I'm going to Hamburg tomorrow."
+  },
+  "regional": null,
+  "trick": "MORGEN starts like \"morning\": tomorrow begins with the next morning.",
+  "image": "/deck-de/img/morgen-tomorrow.webp",
+  "audio": {
+    "word": "/deck-de/audio/morgen-tomorrow.word.mp3",
+    "sentence": "/deck-de/audio/morgen-tomorrow.sentence.mp3"
+  }
+}

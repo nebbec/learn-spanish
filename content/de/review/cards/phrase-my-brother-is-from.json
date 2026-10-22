@@ -1,0 +1,17 @@
+{
+  "id": "phrase-my-brother-is-from",
+  "rank": 267,
+  "word": "my-people",
+  "draft": "590807c31b66c21c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "My brother is from Hamburg.",
+    "example": "My brother is from Hamburg, and I am from Berlin."
+  },
+  "note": "\"Mein Bruder kommt aus Hamburg\" is an equally common way to say this, so it may be worth accepting it when the learner rates their recall, but \"ist aus\" is the closest match to \"is from\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:18.902Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "haus-house",
+  "unit": "what-i-want-and-have",
+  "want": "Haus: house",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "74c5198bc1f9f5b2",
+  "group": "#129 Haus",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:13.247Z"
+}

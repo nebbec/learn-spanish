@@ -1,0 +1,14 @@
+{
+  "id": "anfangen-start",
+  "unit": "what-i-do",
+  "want": "anfangen: start",
+  "requires": [],
+  "tip": "tip-separable",
+  "why": null,
+  "draft": "7e21ce0341dcbdf4",
+  "group": "#448 anfangen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:56.164Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "phrase-are-you-coming-along",
+  "rank": 7,
+  "word": "making-plans",
+  "draft": "5f8c3bf04dfbf9b2",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is two sentences, but the card format asks for one short sentence.",
+      "fix": "example.target: Ich gehe heute Abend auf eine Party, kommst du mit? | example.en: I'm going to a party tonight, are you coming along?"
+    },
+    {
+      "reason": "words",
+      "problem": "The phrase uses mitkommen, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "Are you coming along? / Are you coming with me (us)?",
+    "example": "I'm going to a party this evening. Are you coming along?"
+  },
+  "note": "The informal hint is needed here, because it rules out the Sie form \"Kommen Sie mit?\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:50.954Z"
+}

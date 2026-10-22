@@ -2,16 +2,16 @@
   "id": "case-i-have-no-brother",
   "rank": 267,
   "word": "when-i-dont-understand",
-  "draft": "9a6ba6f9dca03e83",
+  "draft": "17c2bf40d70862ce",
   "flagged": false,
   "findings": [],
   "back": {
-    "target": "no brother (accusative, as the object of a verb)",
-    "example": "I have no brother, only a sister."
+    "target": "no brother (accusative, as the object)",
+    "example": "I have no brother and no sister."
   },
-  "note": null,
+  "note": "The example sentence puts keinen Bruder (masculine accusative) next to keine Schwester, the unit's other case card, which helps the learner compare the two endings.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-22T08:52:05.437Z"
+  "reviewedAt": "2026-10-22T09:14:24.531Z"
 }

@@ -1,0 +1,14 @@
+{
+  "id": "eins-one",
+  "unit": "buying-things",
+  "want": "eins: one (counting)",
+  "requires": [],
+  "tip": null,
+  "why": "Use eins when counting on its own; before a noun say ein: ein Bier.",
+  "draft": "87fee61996808def",
+  "group": "#336 eins",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:42.535Z"
+}

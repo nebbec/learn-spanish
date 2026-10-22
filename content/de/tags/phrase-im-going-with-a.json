@@ -1,0 +1,20 @@
+{
+  "id": "phrase-im-going-with-a",
+  "unit": "with-friends",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "gehen-form-ich",
+    "mit-with",
+    "ein-a",
+    "freund-friend"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "c1cada8d73c304fd",
+  "group": "phrases with-friends",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:05:07.298Z"
+}

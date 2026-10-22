@@ -1,0 +1,21 @@
+{
+  "id": "wo-where",
+  "rank": 79,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "wo",
+  "en": "[Where] are you?",
+  "hint": "a place, not a direction",
+  "grammar": null,
+  "example": {
+    "target": "Wo ist mein Handy?",
+    "en": "Where is my phone?"
+  },
+  "regional": null,
+  "trick": "WO sounds like \"voh\", as in \"voilà\": you say it while pointing at where something is.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wo-where.word.mp3",
+    "sentence": "/deck-de/audio/wo-where.sentence.mp3"
+  }
+}

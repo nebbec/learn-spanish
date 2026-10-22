@@ -1,0 +1,33 @@
+{
+  "id": "kommen-come",
+  "rank": 37,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kommen",
+  "en": "to come",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "komme",
+      "du": "kommst",
+      "er": "kommt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gekommen"
+    }
+  },
+  "example": {
+    "target": "Kommst du heute Abend zur Party?",
+    "en": "Are you coming to the party tonight?"
+  },
+  "regional": null,
+  "trick": "KOMMEN sounds like come in: when you come, someone says come in.",
+  "image": "/deck-de/img/kommen-come.webp",
+  "audio": {
+    "word": "/deck-de/audio/kommen-come.word.mp3",
+    "sentence": "/deck-de/audio/kommen-come.sentence.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 583,
+  "word": "what-i-like",
+  "unit": "what-i-like",
+  "order": 40,
+  "source": "payoff",
+  "line": "I like drinking coffee.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "trinken",
+      "rank": 319
+    },
+    {
+      "word": "gern",
+      "rank": 188
+    },
+    {
+      "word": "kaffee",
+      "rank": 583
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:47.945Z",
+  "cards": [
+    "phrase-i-like-drinking-coffee"
+  ]
+}

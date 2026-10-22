@@ -1,0 +1,14 @@
+{
+  "id": "krank-sick",
+  "unit": "how-i-feel",
+  "want": "krank",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c6969d5df54810b2",
+  "group": "#512 krank",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:54.647Z"
+}

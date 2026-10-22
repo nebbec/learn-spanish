@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-fine",
+  "rank": 43,
+  "word": "hello-how-are-you",
+  "draft": "c1ed3ed3d6746402",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm fine / I'm doing well (literally: it goes well for me).",
+    "example": "How's it going? – I'm fine, thanks."
+  },
+  "note": "Learners who say the full form \"Mir geht es gut.\" should count it as correct, because it is the same phrase without the contraction.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:54.720Z"
+}

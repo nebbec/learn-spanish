@@ -1,0 +1,14 @@
+{
+  "id": "nein-no",
+  "unit": "me-and-you",
+  "want": "nein",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d30aa10605372be2",
+  "group": "#44 nein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:02:45.926Z"
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 175,
+  "word": "with-friends",
+  "unit": "with-friends",
+  "order": 51,
+  "source": "payoff",
+  "line": "I'm at my mother's.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "sein",
+      "rank": 2
+    },
+    {
+      "word": "bei",
+      "rank": 84
+    },
+    {
+      "word": "mein",
+      "rank": 18
+    },
+    {
+      "word": "mutter",
+      "rank": 175
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:12.981Z",
+  "cards": [
+    "phrase-im-at-my-mothers"
+  ]
+}

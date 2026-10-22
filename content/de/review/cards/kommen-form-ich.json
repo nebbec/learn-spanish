@@ -1,0 +1,17 @@
+{
+  "id": "kommen-form-ich",
+  "rank": 37,
+  "word": "kommen",
+  "draft": "7bfdc71d2cc9f446",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I come, I'm coming",
+    "example": "I'm coming home later."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:12.360Z"
+}

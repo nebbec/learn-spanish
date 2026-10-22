@@ -1,0 +1,30 @@
+# phrase-once-more-please · rank 280 · when-i-dont-understand
+#
+# Why it was flagged:
+#   - Example sentence: The example is two sentences, but it should be one short sentence. Suggested fix: example.target: Entschuldigung, noch einmal, bitte. | example.en: Sorry, once more, please.
+# Reviewer's note (not a reason to flag): People often shorten it to "Noch mal, bitte." (or "Nochmal, bitte."), so you could accept that as a variant of the same answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-once-more-please
+kind:           phrase
+pos:            phrase
+target:         Noch einmal, bitte.
+en:             Once more, please.
+hint:
+example.target: Ich verstehe das nicht. Noch einmal, bitte.
+example.en:     I don't understand that. Once more, please.
+regional.where:
+regional.text:
+trick:          Einmal starts with ein, meaning one, so noch einmal is literally still one time.
+
+# The draft this file was made from. Do not change it.
+draft: d07b03fe57dfc5d0

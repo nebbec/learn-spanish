@@ -1,0 +1,21 @@
+{
+  "id": "dich-you",
+  "rank": 39,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "dich",
+  "en": "I see [you]",
+  "hint": "one friend, as the object",
+  "grammar": null,
+  "example": {
+    "target": "Ich mag dich sehr.",
+    "en": "I like you a lot."
+  },
+  "regional": null,
+  "trick": "DICH sounds a bit like dish: I made this dish just for you.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dich-you.word.mp3",
+    "sentence": "/deck-de/audio/dich-you.sentence.mp3"
+  }
+}

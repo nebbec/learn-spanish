@@ -1,0 +1,25 @@
+{
+  "id": "stadt-city",
+  "rank": 309,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Stadt",
+  "en": "city, town",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Städte"
+  },
+  "example": {
+    "target": "Die Stadt ist nicht weit.",
+    "en": "The town isn't far."
+  },
+  "regional": null,
+  "trick": "STADT sounds like shtaht, close to state: a big city is like a little state of its own.",
+  "image": "/deck-de/img/stadt-city.webp",
+  "audio": {
+    "word": "/deck-de/audio/stadt-city.word.mp3",
+    "sentence": "/deck-de/audio/stadt-city.sentence.mp3"
+  }
+}

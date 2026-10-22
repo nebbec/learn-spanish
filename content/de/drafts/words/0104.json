@@ -1,0 +1,17 @@
+{
+  "rank": 104,
+  "word": "mögen",
+  "cards": [
+    "moegen-like",
+    "moegen-would-like"
+  ],
+  "skip": null,
+  "sameAs": {
+    "moegen-like": "gustar-like",
+    "moegen-would-like": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:01:07.203Z"
+}

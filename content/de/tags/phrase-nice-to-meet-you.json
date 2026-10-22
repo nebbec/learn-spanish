@@ -1,0 +1,14 @@
+{
+  "id": "phrase-nice-to-meet-you",
+  "unit": "who-i-am",
+  "want": "phrase: freut mich = nice to meet you",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "28e6512252cf9c80",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:31.259Z"
+}

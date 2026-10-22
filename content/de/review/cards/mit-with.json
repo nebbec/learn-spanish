@@ -1,0 +1,17 @@
+{
+  "id": "mit-with",
+  "rank": 22,
+  "word": "mit",
+  "draft": "adcae52484fb0745",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with",
+    "example": "I like drinking coffee with Anna."
+  },
+  "note": "mit always takes the dative, which could be worth showing on a later case card (for example mit einem Freund).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:27.800Z"
+}

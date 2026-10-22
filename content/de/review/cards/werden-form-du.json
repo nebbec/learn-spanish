@@ -1,0 +1,17 @@
+{
+  "id": "werden-form-du",
+  "rank": 13,
+  "word": "werden",
+  "draft": "a3cd77ff700e7afa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you will (future auxiliary, informal singular)",
+    "example": "You will love it."
+  },
+  "note": "The \"future\" hint is useful because it keeps learners from confusing English \"will\" with German \"du willst\" (you want).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:45.720Z"
+}

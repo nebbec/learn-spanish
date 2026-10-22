@@ -1,0 +1,19 @@
+{
+  "id": "phrase-excuse-me-can-you",
+  "unit": "out-and-about",
+  "want": null,
+  "requires": [
+    "phrase-excuse-me-sorry",
+    "koennen-can",
+    "mir-me-dative",
+    "helfen-help"
+  ],
+  "tip": "tip-du-sie",
+  "why": null,
+  "draft": "389779f32c8ff988",
+  "group": "phrases out-and-about",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:49.407Z"
+}

@@ -1,0 +1,27 @@
+# tip-accusative · tip 4 of 14 · introduced by unit 6, A coffee, please
+# The brief from content/tips.json: When a masculine noun is the thing you have, want, see or order, der becomes den and ein becomes einen: Ich habe einen Bruder, Einen Kaffee, bitte. Die, das, eine and the plural do not change, and mein follows ein (meinen Vater).
+# Drafted 2026-10-22T08:58:44.448Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-accusative --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Den and einen: the accusative
+
+When a der word is the thing you have, want, see or order, the little word in front of it changes, and German calls this the accusative.
+Der becomes den and ein becomes einen: ich habe einen Bruder, or einen Kaffee, bitte.
+Mein works just like ein, so my father becomes meinen Vater.
+Die, das, eine and plurals never change, so eine Schwester and ein Wasser stay as they are.
+So when you order or say who you have, check whether the noun is a der word and add the -en.
+
+example: Ich habe einen Bruder und eine Schwester. | I have a brother and a sister.
+example: Einen Kaffee und ein Wasser, bitte. | A coffee and a water, please.
+example: Der Mann trinkt meinen Kaffee! | The man is drinking my coffee!

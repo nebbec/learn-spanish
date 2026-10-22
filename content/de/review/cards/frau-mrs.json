@@ -1,0 +1,17 @@
+{
+  "id": "frau-mrs",
+  "rank": 114,
+  "word": "Frau",
+  "draft": "7294ea644325532a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "woman; wife; (as a title before a surname) Mrs., Ms.",
+    "example": "Mrs. Schmidt isn't here today."
+  },
+  "note": "As a title, Frau has no article (Frau Schmidt, not die Frau Schmidt), and the example shows this correctly; the editor might mention it in the grammar display so learners don't add die before a name.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:54.606Z"
+}

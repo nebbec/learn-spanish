@@ -1,0 +1,17 @@
+{
+  "id": "phrase-im-hungry",
+  "rank": 888,
+  "word": "how-i-feel",
+  "draft": "b5a9dab2942627b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm hungry. (literally: I have hunger.)",
+    "example": "I'm hungry. What is there to eat?"
+  },
+  "note": "Ich bin hungrig is also grammatical but much less common in speech, so Ich habe Hunger is the right answer to teach, and the hungry/Hunger link makes it easy to remember.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:24.141Z"
+}

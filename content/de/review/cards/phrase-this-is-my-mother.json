@@ -1,0 +1,23 @@
+{
+  "id": "phrase-this-is-my-mother",
+  "rank": 175,
+  "word": "my-people",
+  "draft": "4d6f8f4c614966e3",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "words",
+      "problem": "The phrase uses das, not among the 1,000 most common words.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "This is my mother.",
+    "example": "Hi! This is my mother, Anna."
+  },
+  "note": "In the example, \"Anna\" can be read as the mother's name or as the person being spoken to, in German and in English alike, so both readings work.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:11.334Z"
+}

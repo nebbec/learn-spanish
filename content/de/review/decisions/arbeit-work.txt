@@ -1,0 +1,33 @@
+# arbeit-work · rank 209 · Arbeit
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: zur. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids arbeit-work
+# Reviewer's note (not a reason to flag): The hint is needed here: "as in go to work" points to Arbeit over die Stelle or der Beruf, and "not der Job" rules out the loanword.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             arbeit-work
+kind:           content
+pos:            noun
+target:         die Arbeit
+en:             work, job
+hint:           the noun, as in go to work; not der Job
+gender:         f
+article:        die
+plural:         die Arbeiten
+example.target: Ich muss jetzt zur Arbeit.
+example.en:     I have to go to work now.
+regional.where:
+regional.text:
+trick:          ARBEIT sounds like "are bite": work takes a big bite out of your day.
+
+# The draft this file was made from. Do not change it.
+draft: e49651d2140a8f6d

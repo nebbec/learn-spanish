@@ -1,0 +1,33 @@
+{
+  "id": "koennen-form-er",
+  "rank": 17,
+  "kind": "form",
+  "pos": "verb",
+  "target": "er kann",
+  "en": "he / she can",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "kann",
+      "du": "kannst",
+      "er": "kann"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekonnt"
+    }
+  },
+  "example": {
+    "target": "Meine Mutter kann sehr gut Englisch sprechen.",
+    "en": "My mother can speak English very well."
+  },
+  "regional": null,
+  "trick": "Same as ich: kann sounds like can, with no ending for he or she, just like English.",
+  "image": "/deck-de/img/koennen-can.webp",
+  "audio": {
+    "word": "/deck-de/audio/koennen-form-er.word.mp3",
+    "sentence": "/deck-de/audio/koennen-form-er.sentence.mp3"
+  }
+}

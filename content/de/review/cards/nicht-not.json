@@ -2,16 +2,16 @@
   "id": "nicht-not",
   "rank": 8,
   "word": "nicht",
-  "draft": "b007ded303826ef8",
+  "draft": "0a3dad54e5ffaf5d",
   "flagged": false,
   "findings": [],
   "back": {
     "target": "not",
-    "example": "I don't know (it)."
+    "example": "No, I'm not from Hamburg."
   },
-  "note": null,
+  "note": "Later, a separate card for kein would help learners with the nicht vs kein contrast (ich habe kein Auto), but this card itself is correct.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-10T13:32:25.323Z"
+  "reviewedAt": "2026-10-22T09:14:18.234Z"
 }

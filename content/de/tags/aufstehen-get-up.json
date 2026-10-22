@@ -1,0 +1,14 @@
+{
+  "id": "aufstehen-get-up",
+  "unit": "what-i-do",
+  "want": "aufstehen: get up",
+  "requires": [],
+  "tip": "tip-separable",
+  "why": null,
+  "draft": "a89248e97c3786a8",
+  "group": "#1025 aufstehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:09.004Z"
+}

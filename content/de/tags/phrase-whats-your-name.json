@@ -1,0 +1,14 @@
+{
+  "id": "phrase-whats-your-name",
+  "unit": "who-i-am",
+  "want": "phrase: Wie heißt du? = what's your name?",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fcce6def5104876d",
+  "group": "phrases who-i-am",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:31.259Z"
+}

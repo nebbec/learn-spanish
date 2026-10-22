@@ -1,0 +1,17 @@
+{
+  "id": "aus-off",
+  "rank": 65,
+  "word": "aus",
+  "draft": "91164b2859ddd4c2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "off (switched off, of a light or device)",
+    "example": "Please turn off the light."
+  },
+  "note": "The example uses aus as the split-off part of ausmachen rather than the predicative \"ist aus\" from the prompt; that is correct, but \"Das Licht ist schon aus.\" would match the prompt more closely.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:15.183Z"
+}

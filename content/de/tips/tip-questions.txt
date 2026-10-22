@@ -1,0 +1,26 @@
+# tip-questions · tip 5 of 14 · introduced by unit 7, Asking questions
+# The brief from content/tips.json: A yes-or-no question starts with the verb: Bist du müde? Hast du Wasser? A question word (was, wer, wo, wann, wie, warum) comes first and the verb straight after it: Wo ist das Hotel?
+# Drafted 2026-10-22T08:58:41.048Z by claude-opus-5-5 (via cli, effort medium).
+#
+# Read it as a beginner would. To ship it, change "pending" on the status line to "approve".
+# Correct anything first:
+#   title:    the heading of the tip screen
+#   the plain lines under the title are the body, three to five sentences, one per line
+#             (the app shows them as one paragraph)
+#   example:  Spanish | English, two or three of them; each is spoken (npm run audio makes the clips)
+# Lines starting with # are notes and are ignored. Then run: npm run deck
+# Until this tip is approved, no card naming it goes into the deck.
+# npm run tips -- --tips tip-questions --redo drafts it again and replaces this whole file.
+
+status: pending
+
+title: Questions start with the verb
+
+To ask a yes-or-no question, put the verb first: du bist müde means you are tired, and Bist du müde? means are you tired?
+English often adds do (do you have water?), but German simply moves the verb to the front: Hast du Wasser?
+With a question word like was, wer, wo, wann, wie or warum, the question word comes first and the verb comes straight after it.
+So Wo ist das Hotel? means where is the hotel, in the same order as English.
+
+example: Hast du einen Bruder? | Do you have a brother?
+example: Wo ist das Hotel? | Where is the hotel?
+example: Warum ist sie müde? | Why is she tired?

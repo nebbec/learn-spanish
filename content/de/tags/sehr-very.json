@@ -1,0 +1,14 @@
+{
+  "id": "sehr-very",
+  "unit": "hello-how-are-you",
+  "want": "sehr: very",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1d0c2f94ff5d2835",
+  "group": "#98 sehr",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:01.254Z"
+}

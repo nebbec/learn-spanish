@@ -1,0 +1,14 @@
+{
+  "id": "phrase-and-you-how-are",
+  "unit": "hello-how-are-you",
+  "want": "phrase: und dir? = and you? (how are you)",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bbdb5609f7722388",
+  "group": "phrases hello-how-are-you",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:35.188Z"
+}

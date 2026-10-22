@@ -1,0 +1,21 @@
+{
+  "id": "phrase-i-live-in-berlin",
+  "unit": "what-i-do",
+  "want": null,
+  "requires": [
+    "ich-i",
+    "wohnen-live",
+    "in-in",
+    "und-and",
+    "arbeiten-work",
+    "hier-here"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "cac3febb532726dc",
+  "group": "phrases what-i-do",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:50.231Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "geld-money",
+  "unit": "buying-things",
+  "want": "Geld",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ae531d459885acd5",
+  "group": "#171 Geld",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:22.704Z"
+}

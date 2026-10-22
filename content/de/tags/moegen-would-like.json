@@ -1,0 +1,14 @@
+{
+  "id": "moegen-would-like",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use möchten for a polite wish right now; mögen for what you like in general.",
+  "draft": "dff226fbaeda21dd",
+  "group": "#104 mögen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:03:06.496Z"
+}

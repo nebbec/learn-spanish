@@ -1,0 +1,21 @@
+{
+  "id": "phrase-are-you-coming-this",
+  "rank": 233,
+  "kind": "phrase",
+  "pos": "phrase",
+  "target": "Kommst du heute Abend?",
+  "en": "Are you coming this evening?",
+  "hint": "informal",
+  "grammar": null,
+  "example": {
+    "target": "Kommst du heute Abend? Es gibt eine Party.",
+    "en": "Are you coming this evening? There's a party."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/phrase-are-you-coming-this.word.mp3",
+    "sentence": "/deck-de/audio/phrase-are-you-coming-this.sentence.mp3"
+  }
+}

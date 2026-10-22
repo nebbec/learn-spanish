@@ -1,0 +1,37 @@
+# koennen-form-er · rank 17 · können
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: heute, kommen. In the starter path it may use only earlier cards' words, its own, names, numbers and at most one obvious cognate. Suggested fix: npm run draft -- --examples --ids koennen-form-er
+# Reviewer's note (not a reason to flag): The participle gekonnt is right when können is the main verb, but after another verb the Perfekt uses the infinitive (Ich habe nicht kommen können), which could be worth teaching later.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 koennen-form-er
+kind:               form
+pos:                verb
+target:             er kann
+en:                 he / she can
+hint:
+ich:                kann
+du:                 kannst
+er:                 kann
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gekonnt
+example.target:     Er kann heute nicht kommen.
+example.en:         He can't come today.
+regional.where:
+regional.text:
+trick:              Same as ich: kann sounds like can, with no ending for he or she, just like English.
+
+# The draft this file was made from. Do not change it.
+draft: dbc728ad3faf7986

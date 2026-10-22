@@ -1,0 +1,17 @@
+{
+  "id": "haus-house",
+  "rank": 129,
+  "word": "Haus",
+  "draft": "74c5198bc1f9f5b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "house",
+    "example": "She has a house, I don't."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:16.229Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "koennen-form-du",
+  "unit": "can-you-help-me",
+  "want": "können: you can (du kannst)",
+  "requires": [
+    "du-you"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "830adeb76296e6c7",
+  "group": "forms können",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:16.364Z"
+}

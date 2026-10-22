@@ -1,0 +1,17 @@
+{
+  "id": "phrase-my-name-is",
+  "rank": 167,
+  "word": "who-i-am",
+  "draft": "0f374e136e860ae7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "I'm called …, my name is …",
+    "example": "My name is Anna and I'm from Berlin."
+  },
+  "note": "The hint is needed: it rules out the also-correct but stiffer \"Mein Name ist …\". The Spanish card llamar-be-named is a verb card, so null is right for this phrase card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:14:19.246Z"
+}

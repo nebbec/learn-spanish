@@ -1,0 +1,17 @@
+{
+  "id": "phrase-and-you-how-are",
+  "rank": 51,
+  "word": "hello-how-are-you",
+  "draft": "bbdb5609f7722388",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "And you? (informal, dative: and how are you, asked back after Wie geht's dir?)",
+    "example": "I'm doing well, thanks. And you?"
+  },
+  "note": "Learners may answer \"Und du?\", which you hear in casual speech, or the colloquial \"Und selbst?\", so the grammar or a later card could explain why \"Wie geht's dir?\" takes the dative \"dir\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:05:55.319Z"
+}

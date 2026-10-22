@@ -1,0 +1,21 @@
+{
+  "id": "wie-how",
+  "rank": 23,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "wie",
+  "en": "[how] are you?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wie geht's dir?",
+    "en": "How are you?"
+  },
+  "regional": null,
+  "trick": "WIE sounds like vee: picture someone shrugging with arms in a V shape, asking how?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wie-how.word.mp3",
+    "sentence": "/deck-de/audio/wie-how.sentence.mp3"
+  }
+}

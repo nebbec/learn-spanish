@@ -1,0 +1,17 @@
+{
+  "id": "frau-wife",
+  "rank": 114,
+  "word": "Frau",
+  "draft": "5d0e196491543709",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "woman; wife",
+    "example": "This is my wife, Lena."
+  },
+  "note": "The hint \"the everyday word\" is needed: it rules out the more formal die Ehefrau and die Gattin.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:50.208Z"
+}

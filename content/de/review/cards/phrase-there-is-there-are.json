@@ -1,0 +1,17 @@
+{
+  "id": "phrase-there-is-there-are",
+  "rank": 59,
+  "word": "out-and-about",
+  "draft": "379165e517f54998",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "there is, there are (literally: it gives)",
+    "example": "There is a hotel here."
+  },
+  "note": "The card has no grammar field, so learners never see that es gibt takes the accusative (Es gibt einen Park hier); a masculine noun in the example would show it, and the hint is useful because it rules out da ist, which points at a location.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:58.021Z"
+}

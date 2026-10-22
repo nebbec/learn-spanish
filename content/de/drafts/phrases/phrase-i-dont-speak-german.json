@@ -1,0 +1,35 @@
+{
+  "kind": "phrase",
+  "rank": 731,
+  "word": "when-i-dont-understand",
+  "unit": "when-i-dont-understand",
+  "order": 28,
+  "source": "payoff",
+  "line": "I don't speak German.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "sprechen",
+      "rank": 149
+    },
+    {
+      "word": "kein",
+      "rank": 41
+    },
+    {
+      "word": "deutsch",
+      "rank": 731
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:20.448Z",
+  "cards": [
+    "phrase-i-dont-speak-german"
+  ]
+}

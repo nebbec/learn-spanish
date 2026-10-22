@@ -1,0 +1,17 @@
+{
+  "id": "abend-evening",
+  "rank": 233,
+  "word": "Abend",
+  "draft": "4dc3e3a76c83f4b8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "evening",
+    "example": "What are you doing tonight / this evening?"
+  },
+  "note": "There is no Spanish card for evening (tarde); noche-night means night, so leaving sameAs null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:07:38.047Z"
+}

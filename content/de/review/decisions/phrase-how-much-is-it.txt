@@ -1,0 +1,31 @@
+# phrase-how-much-is-it · rank 609 · buying-things
+#
+# Why it was flagged:
+#   - One right answer: Wie viel kostet das? is just as common and just as right for How much is it?, and nothing in the prompt rules it out. Suggested fix: hint: the short way, starting with was (not wie viel)
+#   - Words outside the top 1,000: The phrase uses das, not among the 1,000 most common words.
+# Reviewer's note (not a reason to flag): An English prompt of How much is this? or How much is that? would match das a little more closely than it, but it is fine as it is.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             phrase-how-much-is-it
+kind:           phrase
+pos:            phrase
+target:         Was kostet das?
+en:             How much is it?
+hint:
+example.target: Entschuldigung, was kostet das?
+example.en:     Excuse me, how much is it?
+regional.where:
+regional.text:
+trick:          Kostet sounds like costs, so Was kostet das? is literally What costs that?
+
+# The draft this file was made from. Do not change it.
+draft: c2c9347bfa086cf7

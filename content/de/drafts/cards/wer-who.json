@@ -1,0 +1,21 @@
+{
+  "id": "wer-who",
+  "rank": 102,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "wer",
+  "en": "[who] is that?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wer trinkt mein Bier?",
+    "en": "Who's drinking my beer?"
+  },
+  "regional": null,
+  "trick": "WER, said like vair, sounds close to where, but it asks who; the German for where is wo.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wer-who.word.mp3",
+    "sentence": "/deck-de/audio/wer-who.sentence.mp3"
+  }
+}

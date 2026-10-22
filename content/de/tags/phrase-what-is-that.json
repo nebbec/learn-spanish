@@ -1,0 +1,17 @@
+{
+  "id": "phrase-what-is-that",
+  "unit": "asking-questions",
+  "want": null,
+  "requires": [
+    "was-what",
+    "sein-form-er"
+  ],
+  "tip": "tip-questions",
+  "why": null,
+  "draft": "46de8338c6d71849",
+  "group": "phrases asking-questions",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:49.125Z"
+}

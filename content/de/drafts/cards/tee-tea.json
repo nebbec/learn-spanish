@@ -1,0 +1,25 @@
+{
+  "id": "tee-tea",
+  "rank": 997,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Tee",
+  "en": "tea",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Tees"
+  },
+  "example": {
+    "target": "Ich trinke gern Tee.",
+    "en": "I like drinking tea."
+  },
+  "regional": null,
+  "trick": "TEE sounds like \"tay\", which is close to \"tea\": a cup of Tee is a cup of tea.",
+  "image": "/deck-de/img/tee-tea.webp",
+  "audio": {
+    "word": "/deck-de/audio/tee-tea.word.mp3",
+    "sentence": "/deck-de/audio/tee-tea.sentence.mp3"
+  }
+}

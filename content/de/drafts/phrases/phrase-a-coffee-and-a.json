@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 801,
+  "word": "a-coffee-please",
+  "unit": "a-coffee-please",
+  "order": 19,
+  "source": "payoff",
+  "line": "A coffee and a beer, please.",
+  "words": [
+    {
+      "word": "ein",
+      "rank": 6
+    },
+    {
+      "word": "kaffee",
+      "rank": 583
+    },
+    {
+      "word": "und",
+      "rank": 10
+    },
+    {
+      "word": "bier",
+      "rank": 801
+    },
+    {
+      "word": "bitte",
+      "rank": 86
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:59:03.848Z",
+  "cards": [
+    "phrase-a-coffee-and-a"
+  ]
+}

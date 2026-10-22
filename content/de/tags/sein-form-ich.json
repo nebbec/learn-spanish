@@ -1,0 +1,16 @@
+{
+  "id": "sein-form-ich",
+  "unit": "who-i-am",
+  "want": "sein: I am (ich bin)",
+  "requires": [
+    "ich-i"
+  ],
+  "tip": "tip-always-pronoun",
+  "why": null,
+  "draft": "5d36702635c9f50e",
+  "group": "forms sein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T09:04:11.413Z"
+}

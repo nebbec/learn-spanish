@@ -1,0 +1,17 @@
+{
+  "id": "nach-after",
+  "rank": 73,
+  "word": "nach",
+  "draft": "e458099da2219286",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "after (preposition of time, takes the dative)",
+    "example": "After the meal we're going for a walk."
+  },
+  "note": "The example could use the prompt's own phrase (Nach dem Film gehen wir noch was trinken.) to tie it to the prompt more closely, but the current sentence is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:06:17.035Z"
+}

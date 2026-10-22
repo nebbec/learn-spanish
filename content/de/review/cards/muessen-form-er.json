@@ -1,0 +1,17 @@
+{
+  "id": "muessen-form-er",
+  "rank": 42,
+  "word": "müssen",
+  "draft": "fd0d67bf839e438e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "he must, he has to",
+    "example": "He has to speak German."
+  },
+  "note": "The trick is loose because must without the t is spelled mus, not muss, but the point that the er form has no ending is right, so it doesn't mislead.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:15:25.582Z"
+}

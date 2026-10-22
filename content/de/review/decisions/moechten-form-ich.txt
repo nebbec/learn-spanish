@@ -1,0 +1,37 @@
+# moechten-form-ich · rank 104 · möchten
+#
+# Why it was flagged:
+#   - One right answer: The hint 'polite wish' doesn't rule out 'ich hätte gern', a very common German way to say 'I would like' (Ich hätte gern einen Kaffee), so the prompt has two right answers. Suggested fix: hint: polite wish, the modal verb möchten, not hätte gern
+# Reviewer's note (not a reason to flag): Möchten has no Perfekt of its own, since hat gemocht means 'liked' (from mögen) and a past wish is usually said with wollte, so the editor may want to say that the Perfekt shown is borrowed from mögen; the sibling cards should get the same hätte gern fix.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:                 moechten-form-ich
+kind:               form
+pos:                verb
+target:             ich möchte
+en:                 I would like
+hint:               polite wish
+ich:                möchte
+du:                 möchtest
+er:                 möchte
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gemocht
+example.target:     Ich möchte einen Kaffee.
+example.en:         I'd like a coffee.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 565ab412a646dceb

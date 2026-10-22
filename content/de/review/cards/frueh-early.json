@@ -1,0 +1,17 @@
+{
+  "id": "frueh-early",
+  "rank": 446,
+  "word": "früh",
+  "draft": "50cb6199fd985ea8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "early",
+    "example": "It's still too early."
+  },
+  "note": "Austria also uses zeitig for early, but früh is the normal word there too, so leaving regional null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T09:08:29.318Z"
+}

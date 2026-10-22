@@ -1,0 +1,39 @@
+{
+  "kind": "phrase",
+  "rank": 150,
+  "word": "with-friends",
+  "unit": "with-friends",
+  "order": 50,
+  "source": "payoff",
+  "line": "I'm going with a friend.",
+  "words": [
+    {
+      "word": "ich",
+      "rank": 3
+    },
+    {
+      "word": "gehen",
+      "rank": 34
+    },
+    {
+      "word": "mit",
+      "rank": 22
+    },
+    {
+      "word": "ein",
+      "rank": 6
+    },
+    {
+      "word": "freund",
+      "rank": 150
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T09:00:11.328Z",
+  "cards": [
+    "phrase-im-going-with-a"
+  ]
+}
