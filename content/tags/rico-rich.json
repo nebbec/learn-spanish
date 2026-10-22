@@ -1,0 +1,14 @@
+{
+  "id": "rico-rich",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "887fdc58b192f800",
+  "group": "#672 rico",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:06.352Z"
+}

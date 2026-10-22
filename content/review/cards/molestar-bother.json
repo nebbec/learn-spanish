@@ -1,0 +1,17 @@
+{
+  "id": "molestar-bother",
+  "rank": 455,
+  "word": "molestar",
+  "draft": "0d6d015c2fad0bf6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to bother, to annoy",
+    "example": "Don't bother me, I'm working."
+  },
+  "note": "The trick also warns about the false friend \"molest\", which is useful; synonyms like fastidiar exist, but molestar is clearly the standard answer for \"to bother\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:43.324Z"
+}

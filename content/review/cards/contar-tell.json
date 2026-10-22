@@ -1,0 +1,17 @@
+{
+  "id": "contar-tell",
+  "rank": 224,
+  "word": "contar",
+  "draft": "1866ca49e64bdaca",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to tell (a story, what happened); also to count",
+    "example": "Tell me what happened last night."
+  },
+  "note": "The hint rules out decir, and with it the learner will reliably answer contar rather than the rarer narrar or relatar; it also keeps this card apart from the \"to count\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:31.232Z"
+}

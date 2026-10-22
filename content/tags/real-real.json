@@ -1,0 +1,14 @@
+{
+  "id": "real-real",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5ffc995267b6c355",
+  "group": "#480 real",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:08.971Z"
+}

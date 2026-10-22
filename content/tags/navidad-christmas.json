@@ -1,0 +1,14 @@
+{
+  "id": "navidad-christmas",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "759d2db8ed7a0cd8",
+  "group": "#760 navidad",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:46.475Z"
+}

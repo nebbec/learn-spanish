@@ -1,0 +1,28 @@
+{
+  "id": "seguir-follow",
+  "rank": 126,
+  "kind": "content",
+  "pos": "verb",
+  "target": "seguir",
+  "en": "to follow",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "sigo",
+      "tu": "sigues",
+      "el": "sigue"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Sígueme, yo conozco el camino.",
+    "en": "Follow me, I know the way."
+  },
+  "regional": null,
+  "trick": "SEGUIR sounds like Segway here: ride your Segway here and follow me.",
+  "image": "/deck/img/seguir-follow.webp",
+  "audio": {
+    "word": "/deck/audio/seguir-follow.word.mp3",
+    "sentence": "/deck/audio/seguir-follow.sentence.mp3"
+  }
+}

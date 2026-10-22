@@ -1,0 +1,28 @@
+{
+  "id": "significar-mean",
+  "rank": 254,
+  "kind": "content",
+  "pos": "verb",
+  "target": "significar",
+  "en": "to mean",
+  "hint": "one word, not querer decir",
+  "grammar": {
+    "present": {
+      "yo": "significo",
+      "tu": "significas",
+      "el": "significa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Qué significa esta palabra?",
+    "en": "What does this word mean?"
+  },
+  "regional": null,
+  "trick": "SIGNIFICAR sounds like \"significant\": anything significant means something.",
+  "image": "/deck/img/significar-mean.webp",
+  "audio": {
+    "word": "/deck/audio/significar-mean.word.mp3",
+    "sentence": "/deck/audio/significar-mean.sentence.mp3"
+  }
+}

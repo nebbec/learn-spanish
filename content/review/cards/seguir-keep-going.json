@@ -1,0 +1,17 @@
+{
+  "id": "seguir-keep-going",
+  "rank": 126,
+  "word": "seguir",
+  "draft": "08865c5da01a8148",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to continue, to keep on (doing), to still be (seguir + gerund or adjective)",
+    "example": "It keeps raining (it's still raining), we'd better stay."
+  },
+  "note": "Continuar also takes a gerund, but it is more formal, and \"to still be\" plus the \"everyday word\" hint point clearly to seguir, which is also separate from the \"to follow\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:23.931Z"
+}

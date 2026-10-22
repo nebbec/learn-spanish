@@ -1,0 +1,17 @@
+{
+  "id": "nino-girl",
+  "rank": 150,
+  "word": "niño",
+  "draft": "1788f4429658191d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la niña = the girl, little girl (a female child)",
+    "example": "The girl is six years old."
+  },
+  "note": "The hint \"a young child, not chica\" is needed and works, because it rules out chica and muchacha; regional words like nena (Río de la Plata) are less general, so niña is still the one standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:44.335Z"
+}

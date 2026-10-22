@@ -1,0 +1,31 @@
+{
+  "id": "manejar-drive",
+  "rank": 767,
+  "kind": "content",
+  "pos": "verb",
+  "target": "manejar",
+  "en": "to drive",
+  "hint": "a car, everyday Latin American word",
+  "grammar": {
+    "present": {
+      "yo": "manejo",
+      "tu": "manejas",
+      "el": "maneja"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi papá maneja muy rápido.",
+    "en": "My dad drives really fast."
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "conducir"
+  },
+  "trick": "MANEJAR sounds like \"man, a jar\": a man drives with a jar of coffee on the dashboard.",
+  "image": "/deck/img/manejar-drive.webp",
+  "audio": {
+    "word": "/deck/audio/manejar-drive.word.mp3",
+    "sentence": "/deck/audio/manejar-drive.sentence.mp3"
+  }
+}

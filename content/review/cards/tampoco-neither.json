@@ -1,0 +1,23 @@
+{
+  "id": "tampoco-neither",
+  "rank": 444,
+  "word": "tampoco",
+  "draft": "3f99df16e1070e7c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example is two lines from two different speakers with nothing to mark the change of speaker, so it reads as one person contradicting themselves, and it is not one sentence.",
+      "fix": "example.es: Ana no quiere ir y yo tampoco. / example.en: Ana doesn't want to go, and neither do I."
+    }
+  ],
+  "back": {
+    "es": "neither, not either (adverb: the negative counterpart of también, as in 'yo tampoco' = 'me neither')",
+    "example": "I don't want to go. I neither (Me neither)."
+  },
+  "note": "The hint is needed because it rules out ni (as in ni... ni); the trick is weak and its last sentence is clumsy, but it says nothing false.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:52.911Z"
+}

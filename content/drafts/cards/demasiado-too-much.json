@@ -1,0 +1,23 @@
+{
+  "id": "demasiado-too-much",
+  "rank": 219,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "demasiado",
+  "en": "too much, too many",
+  "hint": null,
+  "grammar": {
+    "feminine": "demasiada"
+  },
+  "example": {
+    "target": "Hay demasiada gente aquí.",
+    "en": "There are too many people here."
+  },
+  "regional": null,
+  "trick": "DEMASIADO sounds like \"the massive dose\": a massive dose is always too much.",
+  "image": "/deck/img/demasiado-too-much.webp",
+  "audio": {
+    "word": "/deck/audio/demasiado-too-much.word.mp3",
+    "sentence": "/deck/audio/demasiado-too-much.sentence.mp3"
+  }
+}

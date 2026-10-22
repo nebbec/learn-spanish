@@ -1,0 +1,14 @@
+{
+  "id": "duro-hard",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3535ae944bde03b2",
+  "group": "#427 duro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:31.442Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "partir-split",
+  "rank": 542,
+  "kind": "content",
+  "pos": "verb",
+  "target": "partir",
+  "en": "to split",
+  "hint": "cut or break into pieces",
+  "grammar": {
+    "present": {
+      "yo": "parto",
+      "tu": "partes",
+      "el": "parte"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Partes el pastel en ocho pedazos?",
+    "en": "Will you split the cake into eight pieces?"
+  },
+  "regional": null,
+  "trick": "PARTIR splits something into PARTs, so everyone gets a part.",
+  "image": "/deck/img/partir-split.webp",
+  "audio": {
+    "word": "/deck/audio/partir-split.word.mp3",
+    "sentence": "/deck/audio/partir-split.sentence.mp3"
+  }
+}

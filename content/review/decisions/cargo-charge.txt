@@ -1,0 +1,33 @@
+# cargo-charge · rank 651 · cargo
+#
+# Why it was flagged:
+#   - One right answer: Because the hint uses the word 'accusation', it invites 'la acusación', which is also a correct Spanish answer, so the card has two right answers. Suggested fix: hint: a legal count against someone, as in to drop the charges (not the general word for accusation)
+# Reviewer's note (not a reason to flag): In this sense the word usually appears in the plural (los cargos), which the example already shows.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: fixed hint; shorter than the reviewer's 'a legal count against someone...', ruling out acusación by name.
+decision: approve
+
+id:             cargo-charge
+kind:           content
+pos:            noun
+target:         el cargo
+en:             charge
+hint:           criminal, as in to drop the charges; not acusación
+gender:         m
+article:        el
+example.target: La policía retiró los cargos contra él.
+example.en:     The police dropped the charges against him.
+regional.where:
+regional.text:
+trick:          CARGO sounds like cargo: the smuggler caught with illegal cargo now faces serious charges.
+
+# The draft this file was made from. Do not change it.
+draft: d3d3c960f73f6f56

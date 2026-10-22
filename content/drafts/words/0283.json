@@ -1,0 +1,14 @@
+{
+  "rank": 283,
+  "word": "tocar",
+  "cards": [
+    "tocar-touch",
+    "tocar-play-instrument",
+    "tocar-be-turn"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:24:00.120Z"
+}

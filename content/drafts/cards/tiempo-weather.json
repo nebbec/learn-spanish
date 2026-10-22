@@ -1,0 +1,24 @@
+{
+  "id": "tiempo-weather",
+  "rank": 93,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el tiempo",
+  "en": "weather",
+  "hint": "today's conditions outside, not the climate",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Hoy hace buen tiempo.",
+    "en": "The weather is nice today."
+  },
+  "regional": null,
+  "trick": "TIEMPO sounds like \"temperature\": the weather report gives the temperature.",
+  "image": "/deck/img/tiempo-weather.webp",
+  "audio": {
+    "word": "/deck/audio/tiempo-weather.word.mp3",
+    "sentence": "/deck/audio/tiempo-weather.sentence.mp3"
+  }
+}

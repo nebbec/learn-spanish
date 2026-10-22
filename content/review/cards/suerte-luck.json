@@ -1,0 +1,23 @@
+{
+  "id": "suerte-luck",
+  "rank": 303,
+  "word": "suerte",
+  "draft": "a6c3913ff07c26a7",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example has no conjugated verb, so it doesn't meet the requirement that it conjugate a verb.",
+      "fix": "example.es: ¡Que tengas suerte en tu examen! / example.en: Good luck on your exam!"
+    }
+  ],
+  "back": {
+    "es": "luck (noun, feminine)",
+    "example": "Good luck on your exam!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:35.514Z"
+}

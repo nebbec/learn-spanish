@@ -1,0 +1,14 @@
+{
+  "id": "partir-depart",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use partir for setting off on a journey; use salir for going out of or leaving a place.",
+  "draft": "6f74f71b4055fcaa",
+  "group": "#542 partir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:06.556Z"
+}

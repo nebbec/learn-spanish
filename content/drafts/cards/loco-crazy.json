@@ -1,0 +1,23 @@
+{
+  "id": "loco-crazy",
+  "rank": 244,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "loco",
+  "en": "crazy",
+  "hint": null,
+  "grammar": {
+    "feminine": "loca"
+  },
+  "example": {
+    "target": "¿Estás loco? Hace mucho frío afuera.",
+    "en": "Are you crazy? It's really cold outside."
+  },
+  "regional": null,
+  "trick": "LOCO sounds like loco-motive: a crazy train speeding off the rails.",
+  "image": "/deck/img/loco-crazy.webp",
+  "audio": {
+    "word": "/deck/audio/loco-crazy.word.mp3",
+    "sentence": "/deck/audio/loco-crazy.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pena-pity",
+  "rank": 581,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la pena",
+  "en": "pity, sorrow",
+  "hint": "as in qué ___, what a shame; not lástima",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¡Qué pena que no puedas venir!",
+    "en": "What a shame you can't come!"
+  },
+  "regional": null,
+  "trick": "PENA sounds like pain: a pity is a little pain in your heart.",
+  "image": "/deck/img/pena-pity.webp",
+  "audio": {
+    "word": "/deck/audio/pena-pity.word.mp3",
+    "sentence": "/deck/audio/pena-pity.sentence.mp3"
+  }
+}

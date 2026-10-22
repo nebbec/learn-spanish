@@ -1,0 +1,23 @@
+{
+  "id": "terrible-terrible",
+  "rank": 704,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "terrible",
+  "en": "terrible",
+  "hint": null,
+  "grammar": {
+    "feminine": "terrible"
+  },
+  "example": {
+    "target": "Fue un día terrible en el trabajo.",
+    "en": "It was a terrible day at work."
+  },
+  "regional": null,
+  "trick": "TERRIBLE is spelled just like the English word terrible; only the sound changes, to teh-REE-bleh.",
+  "image": "/deck/img/terrible-terrible.webp",
+  "audio": {
+    "word": "/deck/audio/terrible-terrible.word.mp3",
+    "sentence": "/deck/audio/terrible-terrible.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ocho-eight",
+  "rank": 796,
+  "kind": "content",
+  "pos": "other",
+  "target": "ocho",
+  "en": "eight",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Llego a las ocho de la noche.",
+    "en": "I'm arriving at eight at night."
+  },
+  "regional": null,
+  "trick": "OCHO sounds like an octopus's OCHOpus: it has eight arms.",
+  "image": "/deck/img/ocho-eight.webp",
+  "audio": {
+    "word": "/deck/audio/ocho-eight.word.mp3",
+    "sentence": "/deck/audio/ocho-eight.sentence.mp3"
+  }
+}

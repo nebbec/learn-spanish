@@ -1,0 +1,17 @@
+{
+  "id": "equivocado-wrong",
+  "rank": 694,
+  "word": "equivocado",
+  "draft": "68ca916a25a9ef1a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "mistaken, wrong (of a person who is in error, as in estar equivocado)",
+    "example": "I think you're wrong."
+  },
+  "note": "The hint is needed, since bare \"wrong\" could also be incorrecto or malo, and limiting it to a mistaken person correctly leaves equivocado.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:12.983Z"
+}

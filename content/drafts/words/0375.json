@@ -1,0 +1,13 @@
+{
+  "rank": 375,
+  "word": "vuelta",
+  "cards": [
+    "vuelta-turn",
+    "vuelta-return"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:28:08.685Z"
+}

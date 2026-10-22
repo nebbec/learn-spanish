@@ -1,0 +1,14 @@
+{
+  "id": "negocio-business",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fd929cc79e91fde8",
+  "group": "#419 negocio",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:15.906Z"
+}

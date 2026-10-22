@@ -1,0 +1,14 @@
+{
+  "id": "boda-wedding",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "66130e48a0f8fcb3",
+  "group": "#653 boda",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:30.092Z"
+}

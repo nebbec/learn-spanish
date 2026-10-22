@@ -1,0 +1,17 @@
+{
+  "id": "acabar-have-just",
+  "rank": 154,
+  "word": "acabar",
+  "draft": "2f3b5429217bfe05",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "acabar: to finish, to end; acabar de + infinitive: to have just (done something)",
+    "example": "I have just arrived home. / I just got home."
+  },
+  "note": "The hint about de + infinitive is useful, since it keeps this card separate from the word's \"to finish\" card and from terminar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:23.509Z"
+}

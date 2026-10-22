@@ -1,0 +1,31 @@
+{
+  "id": "parar-stand-up",
+  "rank": 325,
+  "kind": "content",
+  "pos": "verb",
+  "target": "pararse",
+  "en": "to stand up",
+  "hint": "get on your feet, not levantarse",
+  "grammar": {
+    "present": {
+      "yo": "me paro",
+      "tu": "te paras",
+      "el": "se para"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Párate, ya llegó la maestra.",
+    "en": "Stand up, the teacher is here."
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "ponerse de pie"
+  },
+  "trick": "PARARSE sounds like 'para-rise': a paratrooper rises to his feet after landing.",
+  "image": "/deck/img/parar-stand-up.webp",
+  "audio": {
+    "word": "/deck/audio/parar-stand-up.word.mp3",
+    "sentence": "/deck/audio/parar-stand-up.sentence.mp3"
+  }
+}

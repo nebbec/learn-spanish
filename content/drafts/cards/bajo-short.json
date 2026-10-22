@@ -1,0 +1,23 @@
+{
+  "id": "bajo-short",
+  "rank": 276,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "bajo",
+  "en": "short",
+  "hint": "in height, not length",
+  "grammar": {
+    "feminine": "baja"
+  },
+  "example": {
+    "target": "Mi hermano es más bajo que yo.",
+    "en": "My brother is shorter than me."
+  },
+  "regional": null,
+  "trick": "BAJO sounds like a baby's 'bah-ho': babies are short.",
+  "image": "/deck/img/bajo-short.webp",
+  "audio": {
+    "word": "/deck/audio/bajo-short.word.mp3",
+    "sentence": "/deck/audio/bajo-short.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hermoso-beautiful",
+  "rank": 424,
+  "word": "hermoso",
+  "draft": "20a98e9880049d91",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "beautiful, lovely (adjective)",
+    "example": "What a beautiful day!"
+  },
+  "note": "The hint's silent-h clue is what rules out the other right answers (lindo, bonito, bello and precioso), and \"stronger than lindo\" only adds a fair sense of degree.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:12.421Z"
+}

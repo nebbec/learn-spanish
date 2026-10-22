@@ -1,0 +1,24 @@
+{
+  "id": "joven-young-person",
+  "rank": 344,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el joven",
+  "en": "young man",
+  "hint": "not chico; the word that also means young",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Ese joven trabaja en la tienda.",
+    "en": "That young man works at the store."
+  },
+  "regional": null,
+  "trick": "JOVEN sounds like \"Hoven\": young Hoven is the new guy everyone calls the young man.",
+  "image": "/deck/img/joven-young-person.webp",
+  "audio": {
+    "word": "/deck/audio/joven-young-person.word.mp3",
+    "sentence": "/deck/audio/joven-young-person.sentence.mp3"
+  }
+}

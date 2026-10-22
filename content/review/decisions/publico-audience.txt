@@ -1,0 +1,33 @@
+# publico-audience · rank 664 · público
+#
+# Why it was flagged:
+#   - One right answer: With no hint, "audience" could also be answered "la audiencia", which is common, especially for TV or radio audiences. Suggested fix: hint: the people in the seats at a show or game
+# Reviewer's note (not a reason to flag): This noun card stays separate from the adjective card "public" only if the hint points to a live audience.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
+decision: approve
+
+id:             publico-audience
+kind:           content
+pos:            noun
+target:         el público
+en:             audience
+hint:           the people in the seats at a show or game
+gender:         m
+article:        el
+example.target: El público aplaudió mucho.
+example.en:     The audience clapped a lot.
+regional.where:
+regional.text:
+trick:          EL PÚBLICO is the public that shows up to watch, so the crowd in the seats is your audience.
+
+# The draft this file was made from. Do not change it.
+draft: e287eb1be4d9ff62

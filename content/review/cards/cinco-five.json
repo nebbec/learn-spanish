@@ -2,16 +2,16 @@
   "id": "cinco-five",
   "rank": 335,
   "word": "cinco",
-  "draft": "c38a38bb520eff15",
+  "draft": "c7df831bbd1e7b2a",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "five",
-    "example": "I arrive in five minutes / I'll be there in five minutes."
+    "example": "I want five coffees, please."
   },
   "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:06:49.654Z"
+  "reviewedAt": "2026-10-09T14:27:12.932Z"
 }

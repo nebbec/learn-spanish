@@ -1,0 +1,24 @@
+{
+  "id": "papel-role",
+  "rank": 595,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el papel",
+  "en": "role",
+  "hint": "in a movie or play; same word as paper",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Ella tiene el papel principal.",
+    "en": "She has the lead role."
+  },
+  "regional": null,
+  "trick": "An actor's PAPEL is the paper script with their lines: your role is literally written on paper.",
+  "image": "/deck/img/papel-role.webp",
+  "audio": {
+    "word": "/deck/audio/papel-role.word.mp3",
+    "sentence": "/deck/audio/papel-role.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "punto-point",
+  "rank": 306,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el punto",
+  "en": "point",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Tienes razón, ese es un buen punto.",
+    "en": "You're right, that's a good point."
+  },
+  "regional": null,
+  "trick": "PUNTO sounds like \"punt\": the kicker punts the ball to score a point.",
+  "image": "/deck/img/punto-point.webp",
+  "audio": {
+    "word": "/deck/audio/punto-point.word.mp3",
+    "sentence": "/deck/audio/punto-point.sentence.mp3"
+  }
+}

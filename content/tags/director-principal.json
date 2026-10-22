@@ -1,0 +1,14 @@
+{
+  "id": "director-principal",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "28a35a5d2e7fb69b",
+  "group": "#707 director",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:12.894Z"
+}

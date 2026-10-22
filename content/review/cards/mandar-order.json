@@ -1,0 +1,17 @@
+{
+  "id": "mandar-order",
+  "rank": 489,
+  "word": "mandar",
+  "draft": "b727ce9625ee0a9b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to order, to command; to be in charge (also: to send)",
+    "example": "I give the orders here."
+  },
+  "note": "The trick's sound link is really to \"mandate\" rather than \"command\", which is fine, and the \"to be in charge\" part of the prompt is what rules out ordenar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:23.117Z"
+}

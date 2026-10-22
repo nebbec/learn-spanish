@@ -1,0 +1,32 @@
+# tal-how-greeting · rank 151 · tal
+#
+# Why it was flagged:
+#   - Example sentence: The example has no conjugated verb. Suggested fix: example.es: Hola, ¿qué tal te fue en el trabajo? / example.en: Hi, how did it go at work?
+#   - Memory trick: The trick says qué tal means 'tell me, how are you?', but neither qué nor tal means 'tell', so the learner would memorize a false meaning. Suggested fix: trick: Picture a friend shouting 'Qué TAL?' across the street and asking how TALL a day you've had, which is their way of asking how you are.
+# Reviewer's note (not a reason to flag): The hint is needed, since without 'after qué' the obvious answer would be cómo.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to example.es and example.en; rewrote trick myself (sound link only, no false meaning), as the reviewer's 'how TALL a day' trick was awkward.
+decision: approve
+
+id:             tal-how-greeting
+kind:           glue
+pos:            adverb
+target:         tal
+en:             Hi, [how] are you?
+hint:           after qué, a casual greeting
+example.target: Hola, ¿qué tal te fue en el trabajo?
+example.en:     Hi, how did it go at work?
+regional.where:
+regional.text:
+trick:          TAL sounds like tell: a friend asks ¿qué tal? so you'll tell them how you are.
+
+# The draft this file was made from. Do not change it.
+draft: 67fbafa64ec0dc01

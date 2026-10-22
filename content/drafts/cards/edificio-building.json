@@ -1,0 +1,24 @@
+{
+  "id": "edificio-building",
+  "rank": 782,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el edificio",
+  "en": "building",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Vivo en ese edificio azul.",
+    "en": "I live in that blue building."
+  },
+  "regional": null,
+  "trick": "EDIFICIO sounds like \"edifice\": a big edifice is a building.",
+  "image": "/deck/img/edificio-building.webp",
+  "audio": {
+    "word": "/deck/audio/edificio-building.word.mp3",
+    "sentence": "/deck/audio/edificio-building.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "alto-tall",
+  "rank": 317,
+  "word": "alto",
+  "draft": "6a0c6d3d0ddd1dc9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tall, high (also loud, of a voice or sound)",
+    "example": "My brother is very tall."
+  },
+  "note": "Giving both \"tall\" and \"high\" makes alto the clear answer over narrower words like elevado, and it doesn't clash with the \"Stop!\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:30.780Z"
+}

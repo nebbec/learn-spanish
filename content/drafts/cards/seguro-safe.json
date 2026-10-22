@@ -1,0 +1,23 @@
+{
+  "id": "seguro-safe",
+  "rank": 139,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "seguro",
+  "en": "safe",
+  "hint": "not in danger",
+  "grammar": {
+    "feminine": "segura"
+  },
+  "example": {
+    "target": "Aquí estamos seguros.",
+    "en": "We're safe here."
+  },
+  "regional": null,
+  "trick": "SEGURO sounds like \"secure\": a secure place is a safe place.",
+  "image": "/deck/img/seguro-safe.webp",
+  "audio": {
+    "word": "/deck/audio/seguro-safe.word.mp3",
+    "sentence": "/deck/audio/seguro-safe.sentence.mp3"
+  }
+}

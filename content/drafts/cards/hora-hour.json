@@ -1,0 +1,24 @@
+{
+  "id": "hora-hour",
+  "rank": 156,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la hora",
+  "en": "hour",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Te espero una hora, no más.",
+    "en": "I'll wait for you an hour, no more."
+  },
+  "regional": null,
+  "trick": "HORA sounds like \"hour-a\": an hour ticking by on the clock.",
+  "image": "/deck/img/hora-hour.webp",
+  "audio": {
+    "word": "/deck/audio/hora-hour.word.mp3",
+    "sentence": "/deck/audio/hora-hour.sentence.mp3"
+  }
+}

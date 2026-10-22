@@ -1,0 +1,24 @@
+{
+  "id": "accidente-accident",
+  "rank": 642,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el accidente",
+  "en": "accident",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mi hermano tuvo un accidente en la carretera.",
+    "en": "My brother had an accident on the highway."
+  },
+  "regional": null,
+  "trick": "ACCIDENTE sounds like accident with an extra E: an accident leaves an extra dent in your car.",
+  "image": "/deck/img/accidente-accident.webp",
+  "audio": {
+    "word": "/deck/audio/accidente-accident.word.mp3",
+    "sentence": "/deck/audio/accidente-accident.sentence.mp3"
+  }
+}

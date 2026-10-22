@@ -1,0 +1,14 @@
+{
+  "id": "escena-scene",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0a041b94d298398a",
+  "group": "#768 escena",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:01.015Z"
+}

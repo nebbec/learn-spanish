@@ -1,0 +1,17 @@
+{
+  "id": "terrible-terrible",
+  "rank": 704,
+  "word": "terrible",
+  "draft": "670890d25f3876a2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "terrible, awful (adjective)",
+    "example": "It was a terrible day at work."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:53.421Z"
+}

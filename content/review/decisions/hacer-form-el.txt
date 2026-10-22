@@ -32,4 +32,4 @@ regional.text:
 trick:
 
 # The draft this file was made from. Do not change it.
-draft: 77e18896c7c7e63a
+draft: 27cd47105e0fe37d

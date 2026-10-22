@@ -1,0 +1,17 @@
+{
+  "id": "mensaje-message",
+  "rank": 510,
+  "word": "mensaje",
+  "draft": "84693bfae1edd4b3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "message (noun, masculine)",
+    "example": "I sent you a message last night."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:52.183Z"
+}

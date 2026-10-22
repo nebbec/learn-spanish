@@ -1,0 +1,23 @@
+{
+  "id": "gracioso-funny",
+  "rank": 690,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "gracioso",
+  "en": "funny",
+  "hint": "makes you laugh, not divertido",
+  "grammar": {
+    "feminine": "graciosa"
+  },
+  "example": {
+    "target": "Tu hermano es muy gracioso.",
+    "en": "Your brother is really funny."
+  },
+  "regional": null,
+  "trick": "GRACIOSO sounds like gracious, but a gracious host who tells jokes all night is just plain funny.",
+  "image": "/deck/img/gracioso-funny.webp",
+  "audio": {
+    "word": "/deck/audio/gracioso-funny.word.mp3",
+    "sentence": "/deck/audio/gracioso-funny.sentence.mp3"
+  }
+}

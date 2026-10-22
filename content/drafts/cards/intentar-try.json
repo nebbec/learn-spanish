@@ -1,0 +1,28 @@
+{
+  "id": "intentar-try",
+  "rank": 176,
+  "kind": "content",
+  "pos": "verb",
+  "target": "intentar",
+  "en": "to try",
+  "hint": "to attempt, not to taste",
+  "grammar": {
+    "present": {
+      "yo": "intento",
+      "tu": "intentas",
+      "el": "intenta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Estoy intentando dormir, ¿puedes callarte?",
+    "en": "I'm trying to sleep, can you be quiet?"
+  },
+  "regional": null,
+  "trick": "INTENTAR sounds like \"intend to\": when you intend to do something, you try.",
+  "image": "/deck/img/intentar-try.webp",
+  "audio": {
+    "word": "/deck/audio/intentar-try.word.mp3",
+    "sentence": "/deck/audio/intentar-try.sentence.mp3"
+  }
+}

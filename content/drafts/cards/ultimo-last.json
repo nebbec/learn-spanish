@@ -1,0 +1,23 @@
+{
+  "id": "ultimo-last",
+  "rank": 202,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "último",
+  "en": "last",
+  "hint": null,
+  "grammar": {
+    "feminine": "última"
+  },
+  "example": {
+    "target": "Es la última vez que te ayudo.",
+    "en": "It's the last time I help you."
+  },
+  "regional": null,
+  "trick": "ÚLTIMO sounds like \"ultimate\": the ultimate one is the last one standing.",
+  "image": "/deck/img/ultimo-last.webp",
+  "audio": {
+    "word": "/deck/audio/ultimo-last.word.mp3",
+    "sentence": "/deck/audio/ultimo-last.sentence.mp3"
+  }
+}

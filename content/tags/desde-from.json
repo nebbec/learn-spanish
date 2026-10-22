@@ -1,0 +1,14 @@
+{
+  "id": "desde-from",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use desde for the point something starts from or is seen from; de for where someone or something comes from.",
+  "draft": "a7a0ff3defeeef51",
+  "group": "#160 desde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:19.901Z"
+}

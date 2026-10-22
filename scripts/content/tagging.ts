@@ -156,17 +156,15 @@ export const TAG_SYSTEMS: Readonly<Record<LangCode, string>> = { es: TAG_SYSTEM_
 /** A card as the tagger sees it: no media paths. */
 const shown = (card: DraftCard) => Object.fromEntries(Object.entries(card).filter(([key]) => key !== "image" && key !== "audio"));
 
-/** The request: the plan, the tips and every card first (the same in every call), then the group's cards. */
-export function tagPrompt(group: TagGroup, ctx: TagContext): string {
-  const heading =
-    group.kind === "word"
-      ? `The cards of the word "${group.name}" (rank ${group.rank} in the frequency list)`
-      : group.kind === "form"
-        ? `The form cards of the verb "${group.name}"`
-        : group.kind === "case"
-          ? `The case cards drafted for unit ${group.name}; each one's unit is fixed`
-          : `The phrase cards drafted for unit ${group.name}; each one's unit is fixed`;
+/**
+ * The system prompt: the instructions, then the plan, the tips and every drafted card. It is the same in
+ * every call of a run, so the CLI caches all of it; in the message, the shared part was written to the
+ * cache afresh on every call (S5: about 29k tokens a call at 1,076 drafted cards).
+ */
+export function tagSystem(ctx: TagContext): string {
   return [
+    TAG_SYSTEMS[ctx.lang ?? "es"],
+    "",
     "The unit plan, in order:",
     ...ctx.units.flatMap((unit, i) => [
       `Unit ${i + 1}: ${unit.id}, "${unit.title}". Now you can ${unit.goal.replace(/^now you can /i, "")} Introduces tip: ${unit.tip ?? "none"}. Holds at most ${unitCap(unit)} cards.`,
@@ -180,7 +178,20 @@ export function tagPrompt(group: TagGroup, ctx: TagContext): string {
     "",
     "Every drafted card (id | prompt | answer):",
     ...ctx.cards.map((c) => `- ${c.id} | ${c.en}${c.hint ? ` (${c.hint})` : ""} | ${c.target}`),
-    "",
+  ].join("\n");
+}
+
+/** The message: the group's cards, without media paths. */
+export function tagPrompt(group: TagGroup): string {
+  const heading =
+    group.kind === "word"
+      ? `The cards of the word "${group.name}" (rank ${group.rank} in the frequency list)`
+      : group.kind === "form"
+        ? `The form cards of the verb "${group.name}"`
+        : group.kind === "case"
+          ? `The case cards drafted for unit ${group.name}; each one's unit is fixed`
+          : `The phrase cards drafted for unit ${group.name}; each one's unit is fixed`;
+  return [
     `Tag these cards. ${heading}:`,
     ...group.cards.flatMap((card) => {
       const place = group.phrases[card.id];
@@ -343,12 +354,13 @@ export type TagOptions = Omit<DraftOptions, "store"> & { store: TagStore };
 
 export function tagTasks(groups: TagGroup[], store: TagStore, ctx: TagContext): DraftTask<Tag>[] {
   const ids = new Set(ctx.cards.map((c) => c.id));
+  const system = tagSystem(ctx);
   return groups.map((group) => ({
     label: group.label,
     done: group.cards.every((card) => isCurrent(store.read(card.id), card, ids, ctx)),
     log: group.kind === "word" ? { rank: group.rank, word: group.name } : { group: group.kind, name: group.name },
     failedName: group.kind === "word" ? String(group.rank).padStart(4, "0") : `${group.kind}-${group.name}`,
-    request: { system: TAG_SYSTEMS[ctx.lang ?? "es"], prompt: tagPrompt(group, ctx), schema: TAG_SCHEMA },
+    request: { system, prompt: tagPrompt(group), schema: TAG_SCHEMA },
     guard: (output) => guardTags(output, group, ctx),
     save: (tags, _skip, meta) => store.save(group, tags, meta),
   }));

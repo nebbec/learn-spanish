@@ -1,0 +1,17 @@
+{
+  "id": "dios-god",
+  "rank": 112,
+  "word": "dios",
+  "draft": "58344e719f63505c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "god, a god (noun); capitalized Dios = God",
+    "example": "My God, what a fright you gave me!"
+  },
+  "note": "The example uses the capitalized proper noun Dios with no article, which is how the word mostly appears in subtitles, while the answer el dios is the common noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:07.691Z"
+}

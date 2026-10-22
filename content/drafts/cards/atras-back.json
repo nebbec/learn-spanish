@@ -1,0 +1,21 @@
+{
+  "id": "atras-back",
+  "rank": 420,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "atrás",
+  "en": "back",
+  "hint": "direction or place, as in step back",
+  "grammar": null,
+  "example": {
+    "target": "Da un paso atrás, por favor.",
+    "en": "Take a step back, please."
+  },
+  "regional": null,
+  "trick": "ATRÁS sounds like \"a trash\": you always carry the trash out back.",
+  "image": "/deck/img/atras-back.webp",
+  "audio": {
+    "word": "/deck/audio/atras-back.word.mp3",
+    "sentence": "/deck/audio/atras-back.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ocho-eight",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6c74ccba71e4d8c5",
+  "group": "#796 ocho",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:50.702Z"
+}

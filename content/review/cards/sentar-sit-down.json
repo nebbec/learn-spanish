@@ -1,0 +1,17 @@
+{
+  "id": "sentar-sit-down",
+  "rank": 338,
+  "word": "sentar",
+  "draft": "c3c58e07f1dfa963",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to sit down (reflexive of sentar, to seat)",
+    "example": "Sit here with me."
+  },
+  "note": "The card teaches the reflexive form sentarse rather than the headword sentar. That's the right choice, because \"to sit down\" is almost always sentarse in everyday speech.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:28.996Z"
+}

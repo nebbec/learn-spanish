@@ -1,0 +1,14 @@
+{
+  "id": "ocupar-take-care",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ocuparse de for handling a task or problem; use cuidar for looking after a person.",
+  "draft": "6860ffcdb5ef295e",
+  "group": "#692 ocupar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:48.329Z"
+}

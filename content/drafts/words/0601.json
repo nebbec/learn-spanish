@@ -1,0 +1,12 @@
+{
+  "rank": 601,
+  "word": "pelear",
+  "cards": [
+    "pelear-fight"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:39:46.259Z"
+}

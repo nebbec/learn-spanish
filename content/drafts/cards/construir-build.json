@@ -1,0 +1,28 @@
+{
+  "id": "construir-build",
+  "rank": 717,
+  "kind": "content",
+  "pos": "verb",
+  "target": "construir",
+  "en": "to build",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "construyo",
+      "tu": "construyes",
+      "el": "construye"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Mi papá construyó esta casa.",
+    "en": "My dad built this house."
+  },
+  "regional": null,
+  "trick": "CONSTRUIR sounds like construct: to build is to construct something from the ground up.",
+  "image": "/deck/img/construir-build.webp",
+  "audio": {
+    "word": "/deck/audio/construir-build.word.mp3",
+    "sentence": "/deck/audio/construir-build.sentence.mp3"
+  }
+}

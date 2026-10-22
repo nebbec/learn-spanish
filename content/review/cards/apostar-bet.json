@@ -1,0 +1,17 @@
+{
+  "id": "apostar-bet",
+  "rank": 513,
+  "word": "apostar",
+  "draft": "3fd09789ca97e7a8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to bet, to wager",
+    "example": "I bet you that it rains tomorrow."
+  },
+  "note": "The o-to-ue stem change (apuesto, apuestas, apuesta) is correctly flagged as irregular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:03.975Z"
+}

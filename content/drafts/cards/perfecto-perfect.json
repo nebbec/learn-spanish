@@ -1,0 +1,23 @@
+{
+  "id": "perfecto-perfect",
+  "rank": 432,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "perfecto",
+  "en": "perfect",
+  "hint": null,
+  "grammar": {
+    "feminine": "perfecta"
+  },
+  "example": {
+    "target": "El plan es perfecto.",
+    "en": "The plan is perfect."
+  },
+  "regional": null,
+  "trick": "PERFECTO sounds like perfect plus a cheerful O, the sound you make when something is just right.",
+  "image": "/deck/img/perfecto-perfect.webp",
+  "audio": {
+    "word": "/deck/audio/perfecto-perfect.word.mp3",
+    "sentence": "/deck/audio/perfecto-perfect.sentence.mp3"
+  }
+}

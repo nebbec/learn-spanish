@@ -1,0 +1,14 @@
+{
+  "id": "llamada-call",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e91a9af64daff974",
+  "group": "#454 llamada",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:25.026Z"
+}

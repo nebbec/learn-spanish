@@ -1,0 +1,17 @@
+{
+  "id": "destruir-destroy",
+  "rank": 575,
+  "word": "destruir",
+  "draft": "8c86b6ea03bbb131",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to destroy",
+    "example": "The hurricane destroyed many houses."
+  },
+  "note": "Irregular is correctly true because of the y inserted in destruyo, destruyes and destruye, and in the preterite destruyó.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:13.315Z"
+}

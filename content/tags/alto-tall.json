@@ -1,0 +1,14 @@
+{
+  "id": "alto-tall",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6a0c6d3d0ddd1dc9",
+  "group": "#317 alto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:06.043Z"
+}

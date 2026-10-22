@@ -1,0 +1,14 @@
+{
+  "id": "sacar-take-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "642884ee99e2dcfd",
+  "group": "#235 sacar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:16.604Z"
+}

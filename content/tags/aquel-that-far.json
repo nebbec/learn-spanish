@@ -1,0 +1,14 @@
+{
+  "id": "aquel-that-far",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use aquel for something far from both of you; ese for something near the person you're talking to.",
+  "draft": "b3b6ebbde1ee7402",
+  "group": "#478 aquel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:05.734Z"
+}

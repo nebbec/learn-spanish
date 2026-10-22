@@ -1,0 +1,17 @@
+{
+  "id": "claro-of-course",
+  "rank": 153,
+  "word": "claro",
+  "draft": "a96a016ca157b38a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "of course, sure (interjection/reply)",
+    "example": "Are you coming to the party? Of course!"
+  },
+  "note": "The hint \"one word\" correctly rules out \"por supuesto\" and \"desde luego\"; regional one-word replies like \"obvio\" exist, but \"claro\" is by far the standard answer for \"of course\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:03.741Z"
+}

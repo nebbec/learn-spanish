@@ -1,0 +1,17 @@
+{
+  "id": "bebe-baby",
+  "rank": 379,
+  "word": "bebé",
+  "draft": "ea508166711daa24",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "baby (the baby)",
+    "example": "The baby is sleeping, don't make noise."
+  },
+  "note": "In much of Latin America \"la bebé\" is used for a baby girl, so the editor could mention that, but \"el bebé\" is the correct default form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:36.882Z"
+}

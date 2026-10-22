@@ -1,0 +1,28 @@
+{
+  "id": "sorprender-surprise",
+  "rank": 706,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sorprender",
+  "en": "to surprise",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "sorprendo",
+      "tu": "sorprendes",
+      "el": "sorprende"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Me sorprende que no lo sepas.",
+    "en": "It surprises me that you don't know."
+  },
+  "regional": null,
+  "trick": "SORPRENDER sounds like surprise-render: a party renders everyone surprised when they jump out.",
+  "image": "/deck/img/sorprender-surprise.webp",
+  "audio": {
+    "word": "/deck/audio/sorprender-surprise.word.mp3",
+    "sentence": "/deck/audio/sorprender-surprise.sentence.mp3"
+  }
+}

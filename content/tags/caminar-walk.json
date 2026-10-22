@@ -1,0 +1,14 @@
+{
+  "id": "caminar-walk",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use caminar for the plain act of walking on foot; andar is more about going around or how someone is getting on.",
+  "draft": "3ae8c9fd425c6554",
+  "group": "#556 caminar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:32.976Z"
+}

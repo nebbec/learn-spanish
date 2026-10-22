@@ -1,0 +1,17 @@
+{
+  "id": "guardia-guard",
+  "rank": 788,
+  "word": "guardia",
+  "draft": "c0aa6f16b70accbf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "guard (a person who guards, e.g. a security, prison or palace guard)",
+    "example": "The guard didn't let us in."
+  },
+  "note": "Guardia used for a person can be masculine or feminine (el guardia / la guardia, a woman guard), and la guardia also means a guard duty or a guard unit, as in estar de guardia; the editor could say this in the grammar, and a hint like \"the person, e.g. at a gate or prison\" would steer learners away from vigilante a little better than \"on watch\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:13.571Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jurar-swear",
+  "rank": 546,
+  "word": "jurar",
+  "draft": "74af3575e6ffcc4e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to swear (to take an oath, to promise solemnly)",
+    "example": "I swear to you it wasn't me."
+  },
+  "note": "The hint is needed and works: it rules out the cursing sense (maldecir, decir groserías), and the English \"to swear\" doesn't lead anyone to prometer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:07.031Z"
+}

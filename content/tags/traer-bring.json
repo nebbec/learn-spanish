@@ -1,0 +1,14 @@
+{
+  "id": "traer-bring",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use traer for bringing something here, toward you; llevar for taking it away, over there.",
+  "draft": "98d6996243a624f7",
+  "group": "#174 traer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:37.447Z"
+}

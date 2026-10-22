@@ -1,0 +1,17 @@
+{
+  "id": "dentro-inside",
+  "rank": 295,
+  "word": "dentro",
+  "draft": "3c5d89edf7966e42",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "inside, within (adverb; dentro de = inside of)",
+    "example": "The keys are inside the box."
+  },
+  "note": "The hint is needed, because Latin American speakers often say adentro for a bare \"inside\"; colloquial \"adentro de\" also exists, but \"dentro de\" is the standard form the hint points to.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:12.139Z"
+}

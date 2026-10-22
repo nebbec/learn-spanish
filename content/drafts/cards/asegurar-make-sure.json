@@ -1,0 +1,28 @@
+{
+  "id": "asegurar-make-sure",
+  "rank": 447,
+  "kind": "content",
+  "pos": "verb",
+  "target": "asegurarse",
+  "en": "to make sure",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "me aseguro",
+      "tu": "te aseguras",
+      "el": "se asegura"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Asegúrate de cerrar la puerta.",
+    "en": "Make sure you lock the door."
+  },
+  "regional": null,
+  "trick": "ASEGURARSE sounds like \"a secure-arse\": make sure everything is secure before you sit down.",
+  "image": "/deck/img/asegurar-make-sure.webp",
+  "audio": {
+    "word": "/deck/audio/asegurar-make-sure.word.mp3",
+    "sentence": "/deck/audio/asegurar-make-sure.sentence.mp3"
+  }
+}

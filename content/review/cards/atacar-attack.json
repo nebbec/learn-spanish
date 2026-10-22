@@ -1,0 +1,17 @@
+{
+  "id": "atacar-attack",
+  "rank": 377,
+  "word": "atacar",
+  "draft": "0763ad851a9bf07c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to attack",
+    "example": "The dog attacked my cat."
+  },
+  "note": "The preterite ataqué only changes c to qu to keep the hard sound, so irregular: false is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:23.611Z"
+}

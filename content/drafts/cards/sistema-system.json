@@ -1,0 +1,24 @@
+{
+  "id": "sistema-system",
+  "rank": 569,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sistema",
+  "en": "system",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El sistema no funciona otra vez.",
+    "en": "The system isn't working again."
+  },
+  "regional": null,
+  "trick": "SISTEMA sounds like system-a: it ends in -a but is masculine, like el problema.",
+  "image": "/deck/img/sistema-system.webp",
+  "audio": {
+    "word": "/deck/audio/sistema-system.word.mp3",
+    "sentence": "/deck/audio/sistema-system.sentence.mp3"
+  }
+}

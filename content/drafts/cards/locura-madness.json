@@ -1,0 +1,24 @@
+{
+  "id": "locura-madness",
+  "rank": 791,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la locura",
+  "en": "madness",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¡Esto es una locura!",
+    "en": "This is madness!"
+  },
+  "regional": null,
+  "trick": "LOCURA sounds like loco-cure-a: madness is what a loco needs a cure for.",
+  "image": "/deck/img/locura-madness.webp",
+  "audio": {
+    "word": "/deck/audio/locura-madness.word.mp3",
+    "sentence": "/deck/audio/locura-madness.sentence.mp3"
+  }
+}

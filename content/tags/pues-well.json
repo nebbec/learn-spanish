@@ -1,0 +1,14 @@
+{
+  "id": "pues-well",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use pues to pause before a reply; use bueno to mean okay or to accept something.",
+  "draft": "a6a0cda21440a6d6",
+  "group": "#273 pues",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:16.454Z"
+}

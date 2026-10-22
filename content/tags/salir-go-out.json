@@ -1,0 +1,14 @@
+{
+  "id": "salir-go-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use salir for leaving or going out of a place; dejar for leaving something or someone behind.",
+  "draft": "2d7798b8f519203d",
+  "group": "#108 salir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:56.020Z"
+}

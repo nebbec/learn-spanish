@@ -1,0 +1,17 @@
+{
+  "id": "pesar-weigh",
+  "rank": 658,
+  "word": "pesar",
+  "draft": "e01da27c20e5c9c6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to weigh (to have a certain weight; also to weigh something on a scale)",
+    "example": "This suitcase weighs too much."
+  },
+  "note": "The word's other card covers \"a pesar de\", which this verb card's prompt does not overlap with, and this card is likely why the word ranks so high.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:18.787Z"
+}

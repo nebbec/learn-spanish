@@ -1,0 +1,28 @@
+{
+  "id": "bienvenido-welcome",
+  "rank": 500,
+  "word": "bienvenido",
+  "draft": "9a49c871fa2e39ea",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Bare \"welcome\" can also be the noun (\"a warm welcome\"), so \"la bienvenida\" would also be a right answer.",
+      "fix": "hint: greeting a guest, as in 'Welcome!' (adjective, not the noun)"
+    },
+    {
+      "reason": "example",
+      "problem": "The example sentence has no conjugated verb.",
+      "fix": "example.es: Siempre eres bienvenido aquí. / example.en: You're always welcome here."
+    }
+  ],
+  "back": {
+    "es": "welcome (adjective/interjection: welcome, said to someone arriving)",
+    "example": "Welcome to my house, friends!"
+  },
+  "note": "The trick's breakdown into bien + venido (participle of venir) is accurate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:14.122Z"
+}

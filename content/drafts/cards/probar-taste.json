@@ -1,0 +1,28 @@
+{
+  "id": "probar-taste",
+  "rank": 374,
+  "kind": "content",
+  "pos": "verb",
+  "target": "probar",
+  "en": "to taste",
+  "hint": "try food, not taste of",
+  "grammar": {
+    "present": {
+      "yo": "pruebo",
+      "tu": "pruebas",
+      "el": "prueba"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Prueba la sopa, está deliciosa.",
+    "en": "Taste the soup, it's delicious."
+  },
+  "regional": null,
+  "trick": "PROBAR sounds like probe: your tongue probes the soup to taste it.",
+  "image": "/deck/img/probar-taste.webp",
+  "audio": {
+    "word": "/deck/audio/probar-taste.word.mp3",
+    "sentence": "/deck/audio/probar-taste.sentence.mp3"
+  }
+}

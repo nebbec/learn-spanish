@@ -1,0 +1,28 @@
+{
+  "id": "faltar-be-missing",
+  "rank": 529,
+  "kind": "content",
+  "pos": "verb",
+  "target": "faltar",
+  "en": "to be missing",
+  "hint": "to be lacking or still needed",
+  "grammar": {
+    "present": {
+      "yo": "falto",
+      "tu": "faltas",
+      "el": "falta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Falta una silla en la mesa.",
+    "en": "There's a chair missing at the table."
+  },
+  "regional": null,
+  "trick": "FALTAR sounds like \"fault\": it's always someone's fault when something is missing.",
+  "image": "/deck/img/faltar-be-missing.webp",
+  "audio": {
+    "word": "/deck/audio/faltar-be-missing.word.mp3",
+    "sentence": "/deck/audio/faltar-be-missing.sentence.mp3"
+  }
+}

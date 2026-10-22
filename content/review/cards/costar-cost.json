@@ -1,0 +1,17 @@
+{
+  "id": "costar-cost",
+  "rank": 643,
+  "word": "costar",
+  "draft": "d1e8730b450c906b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to cost (have a price of)",
+    "example": "How much does this shirt cost?"
+  },
+  "note": "The hint \"price, money\" isn't strictly needed, because \"to cost\" already points to costar and the other card's prompt is different, but it does no harm and helps keep the two meanings apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:55.668Z"
+}

@@ -1,0 +1,32 @@
+# cierto-true · rank 207 · cierto
+#
+# Why it was flagged:
+#   - One right answer: The adjective "true" with this hint could just as well be answered with "verdadero", the standard dictionary translation of "true", or with "verdad" ("es verdad"), and the hint rules out neither. Suggested fix: hint: as in es ___, it's true, that's right; not verdad or verdadero
+# Reviewer's note (not a reason to flag): Since \"es verdad\" is at least as common as \"es cierto\" in everyday speech, the hint needs to steer learners away from it so they aren't marked wrong for a natural answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: approve
+
+id:             cierto-true
+kind:           content
+pos:            adjective
+target:         cierto
+en:             true
+hint:           as in es ___, it's true, that's right; not verdad or verdadero
+feminine:       cierta
+example.target: ¿Es cierto que te vas mañana?
+example.en:     Is it true that you're leaving tomorrow?
+regional.where:
+regional.text:
+trick:          CIERTO sounds like certainly: if something is certainly so, it's true.
+
+# The draft this file was made from. Do not change it.
+draft: 9e5a2de9f5d7ccb7

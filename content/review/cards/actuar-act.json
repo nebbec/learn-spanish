@@ -1,0 +1,17 @@
+{
+  "id": "actuar-act",
+  "rank": 618,
+  "word": "actuar",
+  "draft": "4da19d67bc25c6f4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to act (to behave, or to perform as an actor)",
+    "example": "Today you're acting very strange."
+  },
+  "note": "The accent shift in actúo/actúas/actúa only changes where the stress falls, so irregular: false is correct; the trick uses English \"actual\" (real), which is fine, but learners may later confuse it with Spanish \"actual\" (current).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:11.109Z"
+}

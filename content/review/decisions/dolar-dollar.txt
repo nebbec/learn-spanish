@@ -1,0 +1,33 @@
+# dolar-dollar · rank 441 · dólar
+#
+# Why it was flagged:
+#   - Example sentence: The Spanish question is missing its opening question mark (¿). Suggested fix: example.es: ¿Me prestas diez dólares?
+# Reviewer's note (not a reason to flag): The plural dólares has an irregular-looking -es ending and keeps the accent, so learners may find it useful to see that in the example.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es.
+decision: approve
+
+id:             dolar-dollar
+kind:           content
+pos:            noun
+target:         el dólar
+en:             dollar
+hint:
+gender:         m
+article:        el
+example.target: ¿Me prestas diez dólares?
+example.en:     Can you lend me ten dollars?
+regional.where:
+regional.text:
+trick:          DÓLAR sounds just like dollar, said with a little Spanish stress on the first syllable.
+
+# The draft this file was made from. Do not change it.
+draft: 7461b887acb3fc66

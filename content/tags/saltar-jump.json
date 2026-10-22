@@ -1,0 +1,14 @@
+{
+  "id": "saltar-jump",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2a84d89e22f8e6ce",
+  "group": "#779 saltar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:23.439Z"
+}

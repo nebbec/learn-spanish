@@ -1,0 +1,17 @@
+{
+  "id": "enemigo-enemy",
+  "rank": 718,
+  "word": "enemigo",
+  "draft": "dbafcbf250df7587",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the enemy",
+    "example": "He is not your enemy, he is your brother."
+  },
+  "note": "The feminine form for a female enemy is la enemiga, which the editor could mention, but the masculine dictionary form is correct as given.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:12.467Z"
+}

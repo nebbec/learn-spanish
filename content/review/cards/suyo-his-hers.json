@@ -1,0 +1,17 @@
+{
+  "id": "suyo-his-hers",
+  "rank": 553,
+  "word": "suyo",
+  "draft": "b53813b22de7afcc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "his (also hers, theirs, yours formal): the possessive pronoun after ser, masculine singular",
+    "example": "That car isn't mine, it's his (or hers, theirs, yours)."
+  },
+  "note": "The hint's \"one word\" correctly rules out the very common Latin American \"de él\"; the editor might mention that suyo agrees with the thing owned (suya, suyos, suyas), since grammar is null for pronouns.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:35.736Z"
+}

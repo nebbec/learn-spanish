@@ -1,0 +1,28 @@
+{
+  "id": "pedir-ask-for",
+  "rank": 181,
+  "kind": "content",
+  "pos": "verb",
+  "target": "pedir",
+  "en": "to ask for",
+  "hint": "to request something, also to order food",
+  "grammar": {
+    "present": {
+      "yo": "pido",
+      "tu": "pides",
+      "el": "pide"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Siempre pido ayuda a mi hermano.",
+    "en": "I always ask my brother for help."
+  },
+  "regional": null,
+  "trick": "PEDIR sounds like \"pay dear\": when you ask for something fancy, you pay dearly.",
+  "image": "/deck/img/pedir-ask-for.webp",
+  "audio": {
+    "word": "/deck/audio/pedir-ask-for.word.mp3",
+    "sentence": "/deck/audio/pedir-ask-for.sentence.mp3"
+  }
+}

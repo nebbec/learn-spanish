@@ -1,0 +1,17 @@
+{
+  "id": "esposo-wife",
+  "rank": 253,
+  "word": "esposo",
+  "draft": "5b66d3262c60bdf1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "wife, spouse (female)",
+    "example": "My wife is from Mexico."
+  },
+  "note": "In casual speech Spain often says \"mi mujer\", but \"esposa\" is also normal there, so spain null is fine; the hint correctly rules out mujer (and señora is unlikely as an answer).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:56:24.846Z"
+}

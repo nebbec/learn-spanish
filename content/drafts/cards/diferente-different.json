@@ -1,0 +1,23 @@
+{
+  "id": "diferente-different",
+  "rank": 439,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "diferente",
+  "en": "different",
+  "hint": "the look-alike word, not distinto",
+  "grammar": {
+    "feminine": "diferente"
+  },
+  "example": {
+    "target": "Esta ciudad es muy diferente a la mía.",
+    "en": "This city is very different from mine."
+  },
+  "regional": null,
+  "trick": "DIFERENTE sounds like \"different-ay\": just add a Spanish \"ay\" to different and you've got it.",
+  "image": "/deck/img/diferente-different.webp",
+  "audio": {
+    "word": "/deck/audio/diferente-different.word.mp3",
+    "sentence": "/deck/audio/diferente-different.sentence.mp3"
+  }
+}

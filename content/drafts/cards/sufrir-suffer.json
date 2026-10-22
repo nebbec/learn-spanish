@@ -1,0 +1,28 @@
+{
+  "id": "sufrir-suffer",
+  "rank": 730,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sufrir",
+  "en": "to suffer",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "sufro",
+      "tu": "sufres",
+      "el": "sufre"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi abuela sufre mucho por el frío.",
+    "en": "My grandma suffers a lot from the cold."
+  },
+  "regional": null,
+  "trick": "SUFRIR sounds like suffer-ear: you suffer when someone screams in your ear.",
+  "image": "/deck/img/sufrir-suffer.webp",
+  "audio": {
+    "word": "/deck/audio/sufrir-suffer.word.mp3",
+    "sentence": "/deck/audio/sufrir-suffer.sentence.mp3"
+  }
+}

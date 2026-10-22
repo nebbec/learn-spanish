@@ -1,0 +1,14 @@
+{
+  "id": "responder-answer",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "daf28a2a198305cf",
+  "group": "#555 responder",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:30.025Z"
+}

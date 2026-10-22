@@ -1,0 +1,14 @@
+{
+  "id": "error-mistake",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d70a58f92d305bfd",
+  "group": "#518 error",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:47:22.122Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "justo-fair",
+  "rank": 310,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "justo",
+  "en": "fair",
+  "hint": "just, not unfair",
+  "grammar": {
+    "feminine": "justa"
+  },
+  "example": {
+    "target": "Eso no es justo, yo llegué primero.",
+    "en": "That's not fair, I got here first."
+  },
+  "regional": null,
+  "trick": "JUSTO sounds like justice: a fair judge always gives justice.",
+  "image": "/deck/img/justo-fair.webp",
+  "audio": {
+    "word": "/deck/audio/justo-fair.word.mp3",
+    "sentence": "/deck/audio/justo-fair.sentence.mp3"
+  }
+}

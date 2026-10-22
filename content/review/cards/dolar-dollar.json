@@ -1,0 +1,23 @@
+{
+  "id": "dolar-dollar",
+  "rank": 441,
+  "word": "dólar",
+  "draft": "7461b887acb3fc66",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The Spanish question is missing its opening question mark (¿).",
+      "fix": "example.es: ¿Me prestas diez dólares?"
+    }
+  ],
+  "back": {
+    "es": "dollar (noun, masculine)",
+    "example": "Will you lend me ten dollars?"
+  },
+  "note": "The plural dólares has an irregular-looking -es ending and keeps the accent, so learners may find it useful to see that in the example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:38.520Z"
+}

@@ -1,0 +1,32 @@
+# incluso-even · rank 360 · incluso
+#
+# Why it was flagged:
+#   - One right answer: The hint lists aún, but with the accent aún means still or yet; the word for even is aun without the accent, so the hint teaches the wrong spelling for that meaning. Suggested fix: hint: related to include, not hasta or aun
+#   - Example uses words not met yet: The example uses words not met before this card: abuela, baila, salsa. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids incluso-even
+# Reviewer's note (not a reason to flag): Apart from the aun spelling, the hint does rule out the other common translations of even (hasta, aun), which a strict prompt needs.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint; redrafted the example by hand with words met before this card.
+decision: approve
+
+id:             incluso-even
+kind:           content
+pos:            adverb
+target:         incluso
+en:             even
+hint:           related to include, not hasta or aun
+example.target: Incluso los niños lo saben.
+example.en:     Even the kids know it.
+regional.where:
+regional.text:
+trick:          INCLUSO sounds like inclusive: everyone is included, even the people you least expect.
+
+# The draft this file was made from. Do not change it.
+draft: 6590a8110314ff93

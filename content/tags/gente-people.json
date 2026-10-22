@@ -1,0 +1,14 @@
+{
+  "id": "gente-people",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use gente for people in general, with a singular verb (la gente es); personas counts individuals.",
+  "draft": "7d57616097890c56",
+  "group": "#145 gente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:45.949Z"
+}

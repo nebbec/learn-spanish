@@ -1,0 +1,14 @@
+{
+  "id": "derecho-straight-ahead",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "In directions, derecho means straight ahead; to turn right is a la derecha.",
+  "draft": "51da32df4b3d24f6",
+  "group": "#483 derecho",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:17.819Z"
+}

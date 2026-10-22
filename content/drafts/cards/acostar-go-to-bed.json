@@ -1,0 +1,28 @@
+{
+  "id": "acostar-go-to-bed",
+  "rank": 764,
+  "kind": "content",
+  "pos": "verb",
+  "target": "acostarse",
+  "en": "to go to bed",
+  "hint": "to lie down for the night",
+  "grammar": {
+    "present": {
+      "yo": "me acuesto",
+      "tu": "te acuestas",
+      "el": "se acuesta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Me acuesto temprano porque mañana trabajo.",
+    "en": "I'm going to bed early because I work tomorrow."
+  },
+  "regional": null,
+  "trick": "ACOSTARSE sounds like a coast: you lie down on the coast and go to bed under the stars.",
+  "image": "/deck/img/acostar-go-to-bed.webp",
+  "audio": {
+    "word": "/deck/audio/acostar-go-to-bed.word.mp3",
+    "sentence": "/deck/audio/acostar-go-to-bed.sentence.mp3"
+  }
+}

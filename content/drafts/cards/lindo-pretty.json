@@ -1,0 +1,26 @@
+{
+  "id": "lindo-pretty",
+  "rank": 479,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "lindo",
+  "en": "pretty",
+  "hint": "cute, lovely; not bonito",
+  "grammar": {
+    "feminine": "linda"
+  },
+  "example": {
+    "target": "¡Qué linda está tu casa!",
+    "en": "Your house looks so pretty!"
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "bonito"
+  },
+  "trick": "LINDO sounds like Linda, a pretty name for a pretty girl.",
+  "image": "/deck/img/lindo-pretty.webp",
+  "audio": {
+    "word": "/deck/audio/lindo-pretty.word.mp3",
+    "sentence": "/deck/audio/lindo-pretty.sentence.mp3"
+  }
+}

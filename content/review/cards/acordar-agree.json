@@ -1,0 +1,17 @@
+{
+  "id": "acordar-agree",
+  "rank": 722,
+  "word": "acordar",
+  "draft": "6d5235bc47b1e590",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to agree (on), to decide jointly, to settle on (transitive verb)",
+    "example": "We agreed to see each other at eight."
+  },
+  "note": "The hint separates this card from \"estar de acuerdo\" (to share an opinion) and from the reflexive \"acordarse de\" card; people also say \"quedar en\" for this in casual speech, but the prompt asks for a single verb, so acordar is the clear answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:35.962Z"
+}

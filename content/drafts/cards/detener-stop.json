@@ -1,0 +1,28 @@
+{
+  "id": "detener-stop",
+  "rank": 330,
+  "kind": "content",
+  "pos": "verb",
+  "target": "detener",
+  "en": "to stop",
+  "hint": "halt someone or something, formal; not parar",
+  "grammar": {
+    "present": {
+      "yo": "detengo",
+      "tu": "detienes",
+      "el": "detiene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¡Deténgase! No puede pasar.",
+    "en": "Stop! You can't go through."
+  },
+  "regional": null,
+  "trick": "DETENER sounds like \"detain her\": to detain someone is to stop them in their tracks.",
+  "image": "/deck/img/detener-stop.webp",
+  "audio": {
+    "word": "/deck/audio/detener-stop.word.mp3",
+    "sentence": "/deck/audio/detener-stop.sentence.mp3"
+  }
+}

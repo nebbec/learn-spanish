@@ -1,0 +1,28 @@
+{
+  "id": "asesinar-murder",
+  "rank": 573,
+  "kind": "content",
+  "pos": "verb",
+  "target": "asesinar",
+  "en": "to murder",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "asesino",
+      "tu": "asesinas",
+      "el": "asesina"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Asesinaron al testigo anoche.",
+    "en": "They murdered the witness last night."
+  },
+  "regional": null,
+  "trick": "ASESINAR sounds like assassin: an assassin's whole job is to murder.",
+  "image": "/deck/img/asesinar-murder.webp",
+  "audio": {
+    "word": "/deck/audio/asesinar-murder.word.mp3",
+    "sentence": "/deck/audio/asesinar-murder.sentence.mp3"
+  }
+}

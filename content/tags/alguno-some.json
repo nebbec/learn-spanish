@@ -1,0 +1,14 @@
+{
+  "id": "alguno-some",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f96d60db71270f58",
+  "group": "#92 alguno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:24.481Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "totalmente-totally",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6c1c44590476a02f",
+  "group": "#719 totalmente",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:28.951Z"
+}

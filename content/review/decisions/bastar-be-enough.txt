@@ -1,0 +1,36 @@
+# bastar-be-enough · rank 485 · bastar
+#
+# Why it was flagged:
+#   - One right answer: In Latin America, alcanzar is a very common one-word verb for 'to be enough' (El dinero no alcanza), and the hint 'one verb' doesn't rule it out. Suggested fix: hint: one verb, also shouted on its own to mean 'Stop it!' (not alcanzar)
+#   - Example sentence: Here ¡Basta! is a fixed interjection meaning 'Stop it!', not the verb conjugated in a sentence with the meaning 'to be enough'. Suggested fix: example.es: Con un café me basta para empezar el día. example.en: One coffee is enough for me to start the day.
+# Reviewer's note (not a reason to flag): The interjection ¡Basta! is still worth teaching, maybe in the hint or as a second example, since learners hear it all the time in films and TV.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fixes to hint (shortened) and example; cut the example to 'Con un café me basta' to keep it short.
+decision: approve
+
+id:             bastar-be-enough
+kind:           content
+pos:            verb
+target:         bastar
+en:             to be enough
+hint:           one verb, also shouted alone to mean Stop it!; not alcanzar
+yo:             basto
+tu:             bastas
+el:             basta
+irregular:      no
+example.target: Con un café me basta.
+example.en:     One coffee is enough for me.
+regional.where:
+regional.text:
+trick:          BASTA sounds like pasta: one big plate of pasta is enough for anyone.
+
+# The draft this file was made from. Do not change it.
+draft: 88864b020f2af903

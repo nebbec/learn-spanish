@@ -1,0 +1,28 @@
+{
+  "id": "odiar-hate",
+  "rank": 391,
+  "kind": "content",
+  "pos": "verb",
+  "target": "odiar",
+  "en": "to hate",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "odio",
+      "tu": "odias",
+      "el": "odia"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Odio levantarme temprano los lunes.",
+    "en": "I hate getting up early on Mondays."
+  },
+  "regional": null,
+  "trick": "ODIAR sounds like \"oh dear\": oh dear, it's Monday again, and you hate it.",
+  "image": "/deck/img/odiar-hate.webp",
+  "audio": {
+    "word": "/deck/audio/odiar-hate.word.mp3",
+    "sentence": "/deck/audio/odiar-hate.sentence.mp3"
+  }
+}

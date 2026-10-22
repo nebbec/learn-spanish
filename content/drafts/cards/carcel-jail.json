@@ -1,0 +1,24 @@
+{
+  "id": "carcel-jail",
+  "rank": 755,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la cárcel",
+  "en": "jail",
+  "hint": "everyday word, not prisión",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Su hermano está en la cárcel.",
+    "en": "His brother is in jail."
+  },
+  "regional": null,
+  "trick": "CÁRCEL sounds like car sell: he went to jail for selling stolen cars.",
+  "image": "/deck/img/carcel-jail.webp",
+  "audio": {
+    "word": "/deck/audio/carcel-jail.word.mp3",
+    "sentence": "/deck/audio/carcel-jail.sentence.mp3"
+  }
+}

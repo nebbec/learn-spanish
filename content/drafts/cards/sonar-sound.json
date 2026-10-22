@@ -1,0 +1,28 @@
+{
+  "id": "sonar-sound",
+  "rank": 392,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sonar",
+  "en": "to sound",
+  "hint": "to seem, as in sounds good",
+  "grammar": {
+    "present": {
+      "yo": "sueno",
+      "tu": "suenas",
+      "el": "suena"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Tu plan suena muy bien.",
+    "en": "Your plan sounds really good."
+  },
+  "regional": null,
+  "trick": "SONAR is like the sonar on a submarine: it listens to how things sound.",
+  "image": "/deck/img/sonar-sound.webp",
+  "audio": {
+    "word": "/deck/audio/sonar-sound.word.mp3",
+    "sentence": "/deck/audio/sonar-sound.sentence.mp3"
+  }
+}

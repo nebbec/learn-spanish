@@ -1,0 +1,17 @@
+{
+  "id": "nombre-name",
+  "rank": 187,
+  "word": "nombre",
+  "draft": "2f4cd30b75abb756",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "name (noun, masculine)",
+    "example": "What is your name?"
+  },
+  "note": "¿Cómo te llamas? is the more everyday way to ask someone's name, but ¿Cuál es tu nombre? is natural and uses the target word, so it is a good example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:58.147Z"
+}

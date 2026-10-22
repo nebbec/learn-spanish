@@ -1,0 +1,17 @@
+{
+  "id": "sin-without",
+  "rank": 120,
+  "word": "sin",
+  "draft": "93e89e6bffaa4999",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "without (preposition)",
+    "example": "I can't live without you."
+  },
+  "note": "The example correctly uses ti after sin (not mi/yo forms like conmigo), a useful pattern for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:52.587Z"
+}

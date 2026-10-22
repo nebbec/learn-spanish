@@ -1,0 +1,24 @@
+{
+  "id": "matrimonio-marriage",
+  "rank": 793,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el matrimonio",
+  "en": "marriage",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Su matrimonio duró cuarenta años.",
+    "en": "Their marriage lasted forty years."
+  },
+  "regional": null,
+  "trick": "MATRIMONIO sounds like English matrimony, the formal word for marriage.",
+  "image": "/deck/img/matrimonio-marriage.webp",
+  "audio": {
+    "word": "/deck/audio/matrimonio-marriage.word.mp3",
+    "sentence": "/deck/audio/matrimonio-marriage.sentence.mp3"
+  }
+}

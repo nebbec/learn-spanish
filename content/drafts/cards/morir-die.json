@@ -1,0 +1,28 @@
+{
+  "id": "morir-die",
+  "rank": 170,
+  "kind": "content",
+  "pos": "verb",
+  "target": "morir",
+  "en": "to die",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "muero",
+      "tu": "mueres",
+      "el": "muere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Mi abuelo murió el año pasado.",
+    "en": "My grandfather died last year."
+  },
+  "regional": null,
+  "trick": "MORIR sounds like 'mortal': mortals are the ones who die.",
+  "image": "/deck/img/morir-die.webp",
+  "audio": {
+    "word": "/deck/audio/morir-die.word.mp3",
+    "sentence": "/deck/audio/morir-die.sentence.mp3"
+  }
+}

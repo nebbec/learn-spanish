@@ -1,0 +1,14 @@
+{
+  "id": "muerto-dead",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a612e6a8880005e8",
+  "group": "#203 muerto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:27.915Z"
+}

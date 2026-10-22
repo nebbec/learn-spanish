@@ -1,0 +1,17 @@
+{
+  "id": "ocupar-occupy",
+  "rank": 692,
+  "word": "ocupar",
+  "draft": "705977ea909ef190",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to occupy, to take up (space, time, a place)",
+    "example": "This table takes up a lot of space."
+  },
+  "note": "In Mexico and Central America ocupar also commonly means \"to need\" (ocupo dinero), which would fit better on its own card than on this one.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:00.154Z"
+}

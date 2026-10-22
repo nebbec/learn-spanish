@@ -1,0 +1,21 @@
+{
+  "id": "exactamente-exactly",
+  "rank": 407,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "exactamente",
+  "en": "exactly",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Eso es exactamente lo que quiero.",
+    "en": "That's exactly what I want."
+  },
+  "regional": null,
+  "trick": "EXACTAMENTE sounds like exact-a-mente: an exact mind gets things exactly right.",
+  "image": "/deck/img/exactamente-exactly.webp",
+  "audio": {
+    "word": "/deck/audio/exactamente-exactly.word.mp3",
+    "sentence": "/deck/audio/exactamente-exactly.sentence.mp3"
+  }
+}

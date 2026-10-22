@@ -1,0 +1,21 @@
+{
+  "id": "mi-me",
+  "rank": 109,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "mí",
+  "en": "this gift is for [me]",
+  "hint": "after a preposition, with an accent",
+  "grammar": null,
+  "example": {
+    "target": "¿Este café es para mí?",
+    "en": "Is this coffee for me?"
+  },
+  "regional": null,
+  "trick": "MÍ sounds just like English me, and the accent mark is a little arrow pointing at me.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/mi-me.word.mp3",
+    "sentence": "/deck/audio/mi-me.sentence.mp3"
+  }
+}

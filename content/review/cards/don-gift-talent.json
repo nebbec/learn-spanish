@@ -1,0 +1,17 @@
+{
+  "id": "don-gift-talent",
+  "rank": 681,
+  "word": "don",
+  "draft": "338abac182fdaf0a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "gift, talent (a natural ability)",
+    "example": "You have a gift for music."
+  },
+  "note": "The hint is needed: it rules out el regalo, and the card stays separate from the title card for don.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:04.036Z"
+}

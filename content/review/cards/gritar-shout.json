@@ -1,0 +1,17 @@
+{
+  "id": "gritar-shout",
+  "rank": 723,
+  "word": "gritar",
+  "draft": "d89ad4d4d5171923",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to shout, to yell, to scream",
+    "example": "Don't yell at me, please!"
+  },
+  "note": "The example uses the negative tú command \"no me grites\", which is a subjunctive form and may be new to a beginner, but it is correct and very natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:33.760Z"
+}

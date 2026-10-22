@@ -1,0 +1,21 @@
+{
+  "id": "sobre-about",
+  "rank": 118,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "sobre",
+  "en": "a movie [about] love",
+  "hint": "topic, not de",
+  "grammar": null,
+  "example": {
+    "target": "Quiero hablar contigo sobre tu hermano.",
+    "en": "I want to talk to you about your brother."
+  },
+  "regional": null,
+  "trick": "SOBRE sounds like sober: a sober talk is a serious talk about something.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/sobre-about.word.mp3",
+    "sentence": "/deck/audio/sobre-about.sentence.mp3"
+  }
+}

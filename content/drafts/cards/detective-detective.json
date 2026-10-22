@@ -1,0 +1,24 @@
+{
+  "id": "detective-detective",
+  "rank": 678,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el detective",
+  "en": "detective",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El detective encontró al ladrón.",
+    "en": "The detective found the thief."
+  },
+  "regional": null,
+  "trick": "DETECTIVE is spelled just like the English word; only the stress moves to the end: deh-tek-TEE-veh.",
+  "image": "/deck/img/detective-detective.webp",
+  "audio": {
+    "word": "/deck/audio/detective-detective.word.mp3",
+    "sentence": "/deck/audio/detective-detective.sentence.mp3"
+  }
+}

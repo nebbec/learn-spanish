@@ -1,0 +1,24 @@
+{
+  "id": "cita-date",
+  "rank": 567,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la cita",
+  "en": "date",
+  "hint": "romantic, not calendar",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Esta noche tengo una cita con Ana.",
+    "en": "Tonight I have a date with Ana."
+  },
+  "regional": null,
+  "trick": "CITA sounds like 'see ya': on a date you say 'see ya at eight!'",
+  "image": "/deck/img/cita-date.webp",
+  "audio": {
+    "word": "/deck/audio/cita-date.word.mp3",
+    "sentence": "/deck/audio/cita-date.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mandar-send",
+  "rank": 489,
+  "kind": "content",
+  "pos": "verb",
+  "target": "mandar",
+  "en": "to send",
+  "hint": "everyday word, not enviar",
+  "grammar": {
+    "present": {
+      "yo": "mando",
+      "tu": "mandas",
+      "el": "manda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te mando la foto por WhatsApp.",
+    "en": "I'll send you the photo on WhatsApp."
+  },
+  "regional": null,
+  "trick": "MANDAR sounds like man darting off: a man darts away to send your package.",
+  "image": "/deck/img/mandar-send.webp",
+  "audio": {
+    "word": "/deck/audio/mandar-send.word.mp3",
+    "sentence": "/deck/audio/mandar-send.sentence.mp3"
+  }
+}

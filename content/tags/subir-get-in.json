@@ -1,0 +1,14 @@
+{
+  "id": "subir-get-in",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c401bd0923d7ca80",
+  "group": "#351 subir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:42:02.889Z"
+}

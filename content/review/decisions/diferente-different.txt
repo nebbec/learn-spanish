@@ -1,0 +1,32 @@
+# diferente-different · rank 439 · diferente
+#
+# Why it was flagged:
+#   - Memory trick: Saying that adding "ay" to "different" gives you the word suggests the spelling "differente" with a double f and an "ay" ending, but the Spanish has one f and ends in a short "eh" sound. Suggested fix: trick: DIFERENTE is just "different" with one f dropped and an "eh" added at the end: dee-feh-REN-teh.
+# Reviewer's note (not a reason to flag): The hint is needed because distinto is also a common right answer, and it correctly rules distinto out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
+decision: approve
+
+id:             diferente-different
+kind:           content
+pos:            adjective
+target:         diferente
+en:             different
+hint:           the look-alike word, not distinto
+feminine:       diferente
+example.target: Esta ciudad es muy diferente a la mía.
+example.en:     This city is very different from mine.
+regional.where:
+regional.text:
+trick:          DIFERENTE is just "different" with one f dropped and an "eh" added at the end: dee-feh-REN-teh.
+
+# The draft this file was made from. Do not change it.
+draft: 250d09b72aabb73f

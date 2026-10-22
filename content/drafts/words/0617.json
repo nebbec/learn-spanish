@@ -1,0 +1,12 @@
+{
+  "rank": 617,
+  "word": "obtener",
+  "cards": [
+    "obtener-obtain"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:40:31.124Z"
+}

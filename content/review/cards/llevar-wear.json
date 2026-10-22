@@ -1,0 +1,17 @@
+{
+  "id": "llevar-wear",
+  "rank": 96,
+  "word": "llevar",
+  "draft": "fbbe7d23603b9143",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to wear, to have on (also: to carry, to take)",
+    "example": "She is wearing a red dress."
+  },
+  "note": "The hint \"have on right now\" helps rule out usar, which is for clothes worn habitually, but in Mexico traer (puesto) is also common for this meaning, so the editor may want to watch for learners giving that answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:20:57.366Z"
+}

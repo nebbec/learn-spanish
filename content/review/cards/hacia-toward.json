@@ -1,0 +1,17 @@
+{
+  "id": "hacia-toward",
+  "rank": 297,
+  "word": "hacia",
+  "draft": "05d4ad6761b675ac",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "toward, towards (preposition of direction)",
+    "example": "We walked (or walk) toward the beach."
+  },
+  "note": "Caminamos can be present or preterite, so \"We walked\" is a valid translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:16.932Z"
+}

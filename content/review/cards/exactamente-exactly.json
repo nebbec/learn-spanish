@@ -1,0 +1,17 @@
+{
+  "id": "exactamente-exactly",
+  "rank": 407,
+  "word": "exactamente",
+  "draft": "2979c088460822cc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "exactly, precisely (adverb)",
+    "example": "That is exactly what I want."
+  },
+  "note": "Precisamente or justo could also mean exactly, but exactamente is the obvious cognate and the standard answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:53.543Z"
+}

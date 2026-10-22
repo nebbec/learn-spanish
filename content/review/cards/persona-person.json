@@ -1,0 +1,17 @@
+{
+  "id": "persona-person",
+  "rank": 172,
+  "word": "persona",
+  "draft": "1d07460f133b71c4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "person (noun)",
+    "example": "You are a good person."
+  },
+  "note": "The grammar could mention that \"persona\" is always feminine, even for a man (\"Juan es una buena persona\"), because learners often get this wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:00.819Z"
+}

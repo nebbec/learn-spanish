@@ -1,0 +1,28 @@
+{
+  "id": "salvar-save-rescue",
+  "rank": 346,
+  "kind": "content",
+  "pos": "verb",
+  "target": "salvar",
+  "en": "to save",
+  "hint": "rescue from danger",
+  "grammar": {
+    "present": {
+      "yo": "salvo",
+      "tu": "salvas",
+      "el": "salva"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Me salvaste la vida.",
+    "en": "You saved my life."
+  },
+  "regional": null,
+  "trick": "SALVAR sounds like salve: you rub salve on a wound to save the injured hero.",
+  "image": "/deck/img/salvar-save-rescue.webp",
+  "audio": {
+    "word": "/deck/audio/salvar-save-rescue.word.mp3",
+    "sentence": "/deck/audio/salvar-save-rescue.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "momento-moment",
+  "rank": 155,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el momento",
+  "en": "moment",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Espera un momento, ya vengo.",
+    "en": "Wait a moment, I'll be right there."
+  },
+  "regional": null,
+  "trick": "MOMENTO sounds like \"memento\": a keepsake that helps you remember a special moment.",
+  "image": "/deck/img/momento-moment.webp",
+  "audio": {
+    "word": "/deck/audio/momento-moment.word.mp3",
+    "sentence": "/deck/audio/momento-moment.sentence.mp3"
+  }
+}

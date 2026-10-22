@@ -1,0 +1,17 @@
+{
+  "id": "lugar-place",
+  "rank": 163,
+  "word": "lugar",
+  "draft": "57e2eabadf0d88f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "place (noun)",
+    "example": "This place is very pretty."
+  },
+  "note": "Sitio can also mean place, but lugar is clearly the default neutral Latin American word, so the card doesn't need a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:12.559Z"
+}

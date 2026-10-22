@@ -1,0 +1,28 @@
+{
+  "id": "firmar-sign",
+  "rank": 800,
+  "kind": "content",
+  "pos": "verb",
+  "target": "firmar",
+  "en": "to sign",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "firmo",
+      "tu": "firmas",
+      "el": "firma"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Firma aquí, por favor.",
+    "en": "Sign here, please."
+  },
+  "regional": null,
+  "trick": "FIRMAR sounds like \"firm mark\": you sign a contract by putting your firm mark on it.",
+  "image": "/deck/img/firmar-sign.webp",
+  "audio": {
+    "word": "/deck/audio/firmar-sign.word.mp3",
+    "sentence": "/deck/audio/firmar-sign.sentence.mp3"
+  }
+}

@@ -2,16 +2,16 @@
   "id": "manana-tomorrow",
   "rank": 171,
   "word": "mañana",
-  "draft": "d9d39157144eeed0",
+  "draft": "35ca708a0707bab5",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "tomorrow (adverb)",
-    "example": "We'll see each other tomorrow at school / See you tomorrow at school."
+    "example": "Tomorrow I'm going to the city."
   },
-  "note": "The prompt \"tomorrow\" points only to the adverb mañana, so it can't be confused with the separate \"morning\" card, which is the noun la mañana.",
+  "note": "The adverb mañana has no article, which keeps it apart from the sibling card la mañana (morning), so no hint is needed.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:05:13.610Z"
+  "reviewedAt": "2026-10-09T14:26:37.087Z"
 }

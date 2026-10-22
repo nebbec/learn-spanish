@@ -1,0 +1,14 @@
+{
+  "id": "tipo-type",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9a8bf81aea6d9bfc",
+  "group": "#165 tipo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:26.705Z"
+}

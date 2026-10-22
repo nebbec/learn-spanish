@@ -1,0 +1,33 @@
+# idiota-idiot · rank 425 · idiota
+#
+# Why it was flagged:
+#   - Grammar: Idiota is used for both men and women (el idiota, la idiota), so marking it masculine only would teach learners to say el idiota about a woman. Suggested fix: grammar: gender m/f, article el / la (el idiota for a man, la idiota for a woman)
+# Reviewer's note (not a reason to flag): Idiota is also often an adjective (es muy idiota), but the noun card is fine as it stands.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: could not apply the reviewer's m/f gender (the deck allows only m or f), so kept gender m, article el, and put el idiota / la idiota in the trick instead.
+decision: approve
+
+id:             idiota-idiot
+kind:           content
+pos:            noun
+target:         el idiota
+en:             idiot
+hint:
+gender:         m
+article:        el
+example.target: No seas idiota, ella te quiere.
+example.en:     Don't be an idiot, she loves you.
+regional.where:
+regional.text:
+trick:          IDIOTA is the English idiot plus an 'a', and it is the same word for anyone: el idiota for a man, la idiota for a woman.
+
+# The draft this file was made from. Do not change it.
+draft: ad020f047ca0d40d

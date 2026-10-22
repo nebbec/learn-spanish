@@ -1,0 +1,17 @@
+{
+  "id": "despues-after",
+  "rank": 158,
+  "word": "después",
+  "draft": "206776173f65b603",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "afterwards, later; after (with de before a noun)",
+    "example": "I'll call you after dinner."
+  },
+  "note": "The example only shows \"después de\" + noun; an example with \"después\" alone (e.g. \"Hablamos después.\") would also show the \"afterwards\" meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:57.599Z"
+}

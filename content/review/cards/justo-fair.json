@@ -1,0 +1,17 @@
+{
+  "id": "justo-fair",
+  "rank": 310,
+  "word": "justo",
+  "draft": "ba19616d9f4eabfc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "fair, just (adjective)",
+    "example": "That isn't fair, I arrived first."
+  },
+  "note": "The hint is needed because it rules out other senses of \"fair\": feria (a fair), rubio (fair hair) and claro (fair skin). The answer is also justo for the sibling card \"just, right\", so there's no clash between the two cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:01.373Z"
+}

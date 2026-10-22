@@ -1,0 +1,17 @@
+{
+  "id": "regalo-gift",
+  "rank": 630,
+  "word": "regalo",
+  "draft": "7d1731d0990bb2e0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the gift, the present",
+    "example": "I brought you a birthday present."
+  },
+  "note": "Obsequio (formal) and don (a talent) are not real rivals for \"gift\" in everyday speech, so the card works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:02.266Z"
+}

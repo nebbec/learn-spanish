@@ -1,0 +1,21 @@
+{
+  "id": "incluso-even",
+  "rank": 360,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "incluso",
+  "en": "even",
+  "hint": "related to include, not hasta or aún",
+  "grammar": null,
+  "example": {
+    "target": "Incluso mi abuela baila salsa.",
+    "en": "Even my grandma dances salsa."
+  },
+  "regional": null,
+  "trick": "INCLUSO sounds like inclusive: everyone is included, even the people you least expect.",
+  "image": "/deck/img/incluso-even.webp",
+  "audio": {
+    "word": "/deck/audio/incluso-even.word.mp3",
+    "sentence": "/deck/audio/incluso-even.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+# sala-hall-room · rank 737 · sala
+#
+# Why it was flagged:
+#   - One right answer: The hint's 'large public room... or hall' also fits el salón (salón de eventos, salón de fiestas), which is very common in Latin America, so the prompt has two right answers. Suggested fix: hint: room in a public building, as in 'waiting room' or 'operating room' (not salón)
+# Reviewer's note (not a reason to flag): The word "public" in the hint is what keeps this card apart from the "living room" card, so a new hint needs to keep that contrast.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, without 'operating room' (that is usually quirófano).
+decision: approve
+
+id:             sala-hall-room
+kind:           content
+pos:            noun
+target:         la sala
+en:             room
+hint:           room in a public building, like a waiting room; not salón
+gender:         f
+article:        la
+example.target: Espérame en la sala de espera.
+example.en:     Wait for me in the waiting room.
+regional.where:
+regional.text:
+trick:          SALA sounds like "salon": a big hall where crowds gather, like a waiting room or concert hall.
+
+# The draft this file was made from. Do not change it.
+draft: 30a2598780e26d00

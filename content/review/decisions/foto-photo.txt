@@ -1,0 +1,33 @@
+# foto-photo · rank 416 · foto
+#
+# Why it was flagged:
+#   - Memory trick: The spelling description is wrong: dropping the h from photo gives poto, and no o is added because photo already ends in o; the real change is ph becoming f. Suggested fix: trick: FOTO is just photo spelled the Spanish way, with f instead of ph, and it is feminine because it is short for la fotografía.
+# Reviewer's note (not a reason to flag): Spain usually says hacer una foto where Latin America says tomar or sacar una foto, but the noun itself is the same, so spain is correctly null.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
+decision: approve
+
+id:             foto-photo
+kind:           content
+pos:            noun
+target:         la foto
+en:             photo
+hint:
+gender:         f
+article:        la
+example.target: ¿Me tomas una foto con mi mamá?
+example.en:     Can you take a photo of me with my mom?
+regional.where:
+regional.text:
+trick:          FOTO is just photo spelled the Spanish way, with f instead of ph, and it is feminine because it is short for la fotografía.
+
+# The draft this file was made from. Do not change it.
+draft: e6d3ff03aa279745

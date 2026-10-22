@@ -1,0 +1,28 @@
+{
+  "id": "caer-fall",
+  "rank": 281,
+  "kind": "content",
+  "pos": "verb",
+  "target": "caer",
+  "en": "to fall",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "caigo",
+      "tu": "caes",
+      "el": "cae"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Cuidado, el vaso se va a caer.",
+    "en": "Careful, the glass is going to fall."
+  },
+  "regional": null,
+  "trick": "CAER sounds like \"cry\": you cry when you fall off your bike.",
+  "image": "/deck/img/caer-fall.webp",
+  "audio": {
+    "word": "/deck/audio/caer-fall.word.mp3",
+    "sentence": "/deck/audio/caer-fall.sentence.mp3"
+  }
+}

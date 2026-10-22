@@ -1,0 +1,24 @@
+{
+  "id": "sexo-sex",
+  "rank": 577,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sexo",
+  "en": "sex",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "En la película hablan mucho de sexo.",
+    "en": "In the movie they talk a lot about sex."
+  },
+  "regional": null,
+  "trick": "SEXO is just sex with an O added on the end.",
+  "image": "/deck/img/sexo-sex.webp",
+  "audio": {
+    "word": "/deck/audio/sexo-sex.word.mp3",
+    "sentence": "/deck/audio/sexo-sex.sentence.mp3"
+  }
+}

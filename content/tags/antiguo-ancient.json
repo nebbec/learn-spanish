@@ -1,0 +1,14 @@
+{
+  "id": "antiguo-ancient",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use antiguo for things from long ago, like a historic church; use viejo for people or things that are simply old.",
+  "draft": "2d630170eccbd926",
+  "group": "#726 antiguo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:42.405Z"
+}

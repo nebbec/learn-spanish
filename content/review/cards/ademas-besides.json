@@ -1,0 +1,17 @@
+{
+  "id": "ademas-besides",
+  "rank": 487,
+  "word": "además",
+  "draft": "687adb3de8c1d7e6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "besides, moreover, furthermore, in addition (adverb)",
+    "example": "It's late and, besides, I'm tired."
+  },
+  "note": "The hint correctly rules out también; asimismo and encima are possible but formal or more colloquial, so a fluent speaker would say además for this prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:06.687Z"
+}

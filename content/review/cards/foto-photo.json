@@ -1,0 +1,23 @@
+{
+  "id": "foto-photo",
+  "rank": 416,
+  "word": "foto",
+  "draft": "e6d3ff03aa279745",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The spelling description is wrong: dropping the h from photo gives poto, and no o is added because photo already ends in o; the real change is ph becoming f.",
+      "fix": "trick: FOTO is just photo spelled the Spanish way, with f instead of ph, and it is feminine because it is short for la fotografía."
+    }
+  ],
+  "back": {
+    "es": "the photo, picture (short for la fotografía)",
+    "example": "Will you take a photo of me with my mom?"
+  },
+  "note": "Spain usually says hacer una foto where Latin America says tomar or sacar una foto, but the noun itself is the same, so spain is correctly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:35.767Z"
+}

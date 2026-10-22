@@ -1,0 +1,12 @@
+{
+  "rank": 301,
+  "word": "muerte",
+  "cards": [
+    "muerte-death"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:24:39.479Z"
+}

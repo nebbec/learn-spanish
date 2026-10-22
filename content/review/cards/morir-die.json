@@ -1,0 +1,17 @@
+{
+  "id": "morir-die",
+  "rank": 170,
+  "word": "morir",
+  "draft": "996431c5963fc4dd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to die",
+    "example": "My grandfather died last year."
+  },
+  "note": "In everyday Latin American speech the pronominal form is very common (\"se murió\"), and \"fallecer\" is a formal alternative; neither changes the answer to this prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:35.556Z"
+}

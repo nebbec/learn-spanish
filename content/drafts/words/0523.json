@@ -1,0 +1,14 @@
+{
+  "rank": 523,
+  "word": "cuarto",
+  "cards": [
+    "cuarto-room",
+    "cuarto-fourth",
+    "cuarto-quarter"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:35:59.417Z"
+}

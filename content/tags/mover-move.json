@@ -1,0 +1,14 @@
+{
+  "id": "mover-move",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7e8e3ceb804feefa",
+  "group": "#284 mover",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:11.261Z"
+}

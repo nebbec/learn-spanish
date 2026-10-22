@@ -1,0 +1,28 @@
+{
+  "id": "probar-try",
+  "rank": 374,
+  "kind": "content",
+  "pos": "verb",
+  "target": "probar",
+  "en": "to try",
+  "hint": "test something out, not attempt",
+  "grammar": {
+    "present": {
+      "yo": "pruebo",
+      "tu": "pruebas",
+      "el": "prueba"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿Por qué no pruebas otra vez la llave?",
+    "en": "Why don't you try the key again?"
+  },
+  "regional": null,
+  "trick": "PROBAR sounds like probe: you probe something new to try it out.",
+  "image": "/deck/img/probar-try.webp",
+  "audio": {
+    "word": "/deck/audio/probar-try.word.mp3",
+    "sentence": "/deck/audio/probar-try.sentence.mp3"
+  }
+}

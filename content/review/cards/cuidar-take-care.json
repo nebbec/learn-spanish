@@ -1,0 +1,17 @@
+{
+  "id": "cuidar-take-care",
+  "rank": 406,
+  "word": "cuidar",
+  "draft": "94d4932cf7683e79",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to take care of, to look after",
+    "example": "My grandmother looks after my children on Mondays."
+  },
+  "note": "An optional hint such as \"look after someone\" would steer learners away from the \"handle a task\" sense (encargarse de), but cuidar is already the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:54.672Z"
+}

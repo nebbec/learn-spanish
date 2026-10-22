@@ -1,0 +1,17 @@
+{
+  "id": "placer-pleasure",
+  "rank": 659,
+  "word": "placer",
+  "draft": "36a63dddef45640d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "pleasure (noun)",
+    "example": "It's a pleasure to work with you."
+  },
+  "note": "The hint's \"(not gusto)\" is useful, because \"el gusto\" (\"es un gusto\") is a common rival answer for \"pleasure\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:25.436Z"
+}

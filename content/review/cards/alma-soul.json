@@ -1,0 +1,17 @@
+{
+  "id": "alma-soul",
+  "rank": 700,
+  "word": "alma",
+  "draft": "b8ba5440622dfb0f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the soul",
+    "example": "I love you with all my soul."
+  },
+  "note": "The example works well because \"toda mi alma\" shows that alma is feminine even though it takes el, and the editor could also mention the plural \"las almas\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:35.046Z"
+}

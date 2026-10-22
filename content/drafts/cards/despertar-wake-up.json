@@ -1,0 +1,28 @@
+{
+  "id": "despertar-wake-up",
+  "rank": 505,
+  "kind": "content",
+  "pos": "verb",
+  "target": "despertar",
+  "en": "to wake up",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "despierto",
+      "tu": "despiertas",
+      "el": "despierta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¡Despierta! Ya es tarde.",
+    "en": "Wake up! It's already late."
+  },
+  "regional": null,
+  "trick": "DESPERTAR sounds like desperate star: a desperate star shakes the sleepy sun to wake it up every morning.",
+  "image": "/deck/img/despertar-wake-up.webp",
+  "audio": {
+    "word": "/deck/audio/despertar-wake-up.word.mp3",
+    "sentence": "/deck/audio/despertar-wake-up.sentence.mp3"
+  }
+}

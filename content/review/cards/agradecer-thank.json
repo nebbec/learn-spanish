@@ -1,0 +1,17 @@
+{
+  "id": "agradecer-thank",
+  "rank": 547,
+  "word": "agradecer",
+  "draft": "df8c8299a7a5feab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to thank; to be grateful for, to appreciate",
+    "example": "I thank you very much for your help (I really appreciate your help)."
+  },
+  "note": "The multi-word phrase \"dar las gracias\" also means to thank, but agradecer is the clear single-word answer, and its -zc- yo form (agradezco) correctly makes it irregular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:10.486Z"
+}

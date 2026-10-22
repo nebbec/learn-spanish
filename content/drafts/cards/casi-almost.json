@@ -1,0 +1,21 @@
+{
+  "id": "casi-almost",
+  "rank": 296,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "casi",
+  "en": "almost",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Casi me caigo en la calle.",
+    "en": "I almost fell in the street."
+  },
+  "regional": null,
+  "trick": "CASI sounds like \"classy\": you're almost classy, but not quite.",
+  "image": "/deck/img/casi-almost.webp",
+  "audio": {
+    "word": "/deck/audio/casi-almost.word.mp3",
+    "sentence": "/deck/audio/casi-almost.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "primero-first",
+  "rank": 132,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "primero",
+  "en": "first",
+  "hint": null,
+  "grammar": {
+    "feminine": "primera"
+  },
+  "example": {
+    "target": "Es mi primera vez en México.",
+    "en": "It's my first time in Mexico."
+  },
+  "regional": null,
+  "trick": "PRIMERO sounds like \"premier\": the premier is the first in line, always number one.",
+  "image": "/deck/img/primero-first.webp",
+  "audio": {
+    "word": "/deck/audio/primero-first.word.mp3",
+    "sentence": "/deck/audio/primero-first.sentence.mp3"
+  }
+}

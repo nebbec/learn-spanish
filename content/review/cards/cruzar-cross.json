@@ -1,0 +1,17 @@
+{
+  "id": "cruzar-cross",
+  "rank": 790,
+  "word": "cruzar",
+  "draft": "512b7bd81adcf181",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to cross (to go across; also to cross paths, to cross one's arms)",
+    "example": "We cross the street carefully. (could also be read as 'We crossed the street carefully.')"
+  },
+  "note": "The preterite crucé only changes z to c for spelling, which is normally not counted as irregular, so irregular false is right; also, Cruzamos can mean the past too, but the present-tense translation is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:20.528Z"
+}

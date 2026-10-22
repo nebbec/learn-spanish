@@ -1,0 +1,13 @@
+{
+  "rank": 761,
+  "word": "nota",
+  "cards": [
+    "nota-note",
+    "nota-grade"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:47:52.681Z"
+}

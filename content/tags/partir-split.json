@@ -1,0 +1,14 @@
+{
+  "id": "partir-split",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c63bfa67c293c7af",
+  "group": "#542 partir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:06.556Z"
+}

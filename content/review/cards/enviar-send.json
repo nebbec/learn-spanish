@@ -1,0 +1,17 @@
+{
+  "id": "enviar-send",
+  "rank": 288,
+  "word": "enviar",
+  "draft": "0949ce8f4f08c49b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to send",
+    "example": "I'm sending you the photo now."
+  },
+  "note": "The hint is needed because mandar is just as common (often more so in casual Latin American speech), and it correctly rules it out; the accented forms envío/envías/envía are only a stress shift, so irregular: false is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:58.892Z"
+}

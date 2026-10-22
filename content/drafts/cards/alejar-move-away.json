@@ -1,0 +1,28 @@
+{
+  "id": "alejar-move-away",
+  "rank": 647,
+  "kind": "content",
+  "pos": "verb",
+  "target": "alejarse",
+  "en": "to move away",
+  "hint": "put distance between, not escape",
+  "grammar": {
+    "present": {
+      "yo": "me alejo",
+      "tu": "te alejas",
+      "el": "se aleja"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¡Aléjate de mi hija!",
+    "en": "Get away from my daughter!"
+  },
+  "regional": null,
+  "trick": "ALEJARSE sounds like 'a ledge, ah!': you scream and move away from the ledge.",
+  "image": "/deck/img/alejar-move-away.webp",
+  "audio": {
+    "word": "/deck/audio/alejar-move-away.word.mp3",
+    "sentence": "/deck/audio/alejar-move-away.sentence.mp3"
+  }
+}

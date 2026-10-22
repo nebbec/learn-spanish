@@ -1,0 +1,21 @@
+{
+  "id": "antes-before",
+  "rank": 133,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "antes",
+  "en": "before",
+  "hint": "earlier in time, not in front of",
+  "grammar": null,
+  "example": {
+    "target": "Antes vivía en México.",
+    "en": "I used to live in Mexico before."
+  },
+  "regional": null,
+  "trick": "ANTES sounds like ants: the ants arrived before you at the picnic.",
+  "image": "/deck/img/antes-before.webp",
+  "audio": {
+    "word": "/deck/audio/antes-before.word.mp3",
+    "sentence": "/deck/audio/antes-before.sentence.mp3"
+  }
+}

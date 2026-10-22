@@ -1,0 +1,14 @@
+{
+  "id": "aprender-learn",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "86fdf978f3dc5b62",
+  "group": "#430 aprender",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:44:39.251Z"
+}

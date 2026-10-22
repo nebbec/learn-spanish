@@ -1,0 +1,24 @@
+{
+  "id": "capitan-captain",
+  "rank": 403,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el capitán",
+  "en": "captain",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El capitán del barco es muy serio.",
+    "en": "The ship's captain is very serious."
+  },
+  "regional": null,
+  "trick": "CAPITÁN sounds like captain with a tan: the captain gets sunburned standing on deck all day.",
+  "image": "/deck/img/capitan-captain.webp",
+  "audio": {
+    "word": "/deck/audio/capitan-captain.word.mp3",
+    "sentence": "/deck/audio/capitan-captain.sentence.mp3"
+  }
+}

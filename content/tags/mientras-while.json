@@ -1,0 +1,14 @@
+{
+  "id": "mientras-while",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f61b32c9ebc74d75",
+  "group": "#267 mientras",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:04.681Z"
+}

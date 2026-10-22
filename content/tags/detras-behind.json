@@ -1,0 +1,14 @@
+{
+  "id": "detras-behind",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use detrás (de) for behind something; use atrás for backward, as in step back.",
+  "draft": "d410a8bbf880021a",
+  "group": "#544 detrás",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:10.222Z"
+}

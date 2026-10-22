@@ -1,0 +1,17 @@
+{
+  "id": "llave-key",
+  "rank": 592,
+  "word": "llave",
+  "draft": "3054c557e8fada44",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "key (for a lock); also a tap/faucet in some countries, or a wrench",
+    "example": "Where did you leave the car keys?"
+  },
+  "note": "You could add a hint such as \"for a lock\" to rule out la clave (a key in the sense of a code or the key to a problem), although most learners would answer llave anyway; \"carro\" in the example is common in Latin America, while Spain would say \"coche\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:39.298Z"
+}

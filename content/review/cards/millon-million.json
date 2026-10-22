@@ -1,0 +1,23 @@
+{
+  "id": "millon-million",
+  "rank": 440,
+  "word": "millón",
+  "draft": "3d00dc6df63266ce",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says to add an O to million, but English million already ends in -on, and the Spanish actually drops the second i (millón, not millión), so a learner could misspell it.",
+      "fix": "trick: MILLÓN is million without the second i, with the stress on the end: mee-YOHN."
+    }
+  ],
+  "back": {
+    "es": "million (noun)",
+    "example": "That house costs a million dollars."
+  },
+  "note": "The example also shows the useful pattern un millón de + noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:38.060Z"
+}

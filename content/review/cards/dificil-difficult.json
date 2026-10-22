@@ -1,0 +1,17 @@
+{
+  "id": "dificil-difficult",
+  "rank": 326,
+  "word": "difícil",
+  "draft": "0ff574102e1fe111",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "difficult, hard",
+    "example": "This exam is very difficult."
+  },
+  "note": "The prompt \"difficult\" correctly points to difícil and not duro, which would compete only if the prompt were \"hard\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:17.961Z"
+}

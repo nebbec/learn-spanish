@@ -1,0 +1,17 @@
+{
+  "id": "mio-mine",
+  "rank": 166,
+  "word": "mío",
+  "draft": "ea09c564f86362f2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "mine (stressed possessive, masculine singular; forms mía, míos, mías)",
+    "example": "That book is mine, not yours."
+  },
+  "note": "The prompt's masculine noun \"book\" correctly forces mío. Since this is the word's only card, the editor might mention that it agrees with the thing owned (mía, míos, mías). The example sentence almost repeats the prompt, which is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:29.319Z"
+}

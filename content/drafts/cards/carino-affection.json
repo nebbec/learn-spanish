@@ -1,0 +1,24 @@
+{
+  "id": "carino-affection",
+  "rank": 262,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cariño",
+  "en": "affection",
+  "hint": "everyday word, not afecto",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Le tengo mucho cariño a mi abuela.",
+    "en": "I have a lot of affection for my grandma."
+  },
+  "regional": null,
+  "trick": "CARIÑO sounds like \"caring-o\": affection is all about caring.",
+  "image": "/deck/img/carino-affection.webp",
+  "audio": {
+    "word": "/deck/audio/carino-affection.word.mp3",
+    "sentence": "/deck/audio/carino-affection.sentence.mp3"
+  }
+}

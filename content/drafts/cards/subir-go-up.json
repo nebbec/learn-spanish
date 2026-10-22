@@ -1,0 +1,28 @@
+{
+  "id": "subir-go-up",
+  "rank": 351,
+  "kind": "content",
+  "pos": "verb",
+  "target": "subir",
+  "en": "to go up",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "subo",
+      "tu": "subes",
+      "el": "sube"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Sube las escaleras, estoy en mi cuarto.",
+    "en": "Come up the stairs, I'm in my room."
+  },
+  "regional": null,
+  "trick": "SUBIR sounds like a submarine rising: the sub goes up to the surface.",
+  "image": "/deck/img/subir-go-up.webp",
+  "audio": {
+    "word": "/deck/audio/subir-go-up.word.mp3",
+    "sentence": "/deck/audio/subir-go-up.sentence.mp3"
+  }
+}

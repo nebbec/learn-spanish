@@ -1,0 +1,17 @@
+{
+  "id": "general-general",
+  "rank": 543,
+  "word": "general",
+  "draft": "c7fb2ee41e517eb6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "general (adjective: overall, not specific; common to all)",
+    "example": "I have a general idea of the plan."
+  },
+  "note": "The trick's picture of a general barking orders uses the noun \"el general\" (military officer), not this adjective, but the sound link still works and it says nothing false.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:59.355Z"
+}

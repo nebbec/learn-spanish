@@ -1,0 +1,17 @@
+{
+  "id": "llamada-call",
+  "rank": 454,
+  "word": "llamada",
+  "draft": "e91a9af64daff974",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the call (a phone call; also a call or summons in general)",
+    "example": "I have a call from my mom."
+  },
+  "note": "The hint \"phone call\" is useful because it rules out other senses of \"call\", such as \"to call\" (llamar) or a shout (grito).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:48:43.815Z"
+}

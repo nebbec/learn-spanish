@@ -1,0 +1,23 @@
+{
+  "id": "demas-the-others",
+  "rank": 565,
+  "word": "demás",
+  "draft": "1224b1c56a9d1cc0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "The brackets cover 'the others', but the answer is only demás, and 'the' is the separate word los, so a learner would memorize demás as meaning 'the others'.",
+      "fix": "en: don't worry about the [others]"
+    }
+  ],
+  "back": {
+    "es": "demás = the rest, the others (los demás = the other people, everyone else)",
+    "example": "Don't worry about the others."
+  },
+  "note": "The hint is needed and works: it rules out otros and makes clear that the answer is the word after los.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:21.338Z"
+}

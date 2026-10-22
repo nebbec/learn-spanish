@@ -1,0 +1,24 @@
+{
+  "id": "gusto-pleasure",
+  "rank": 625,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el gusto",
+  "en": "pleasure",
+  "hint": "as in mucho ___, nice to meet you",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mucho gusto, me llamo Ana.",
+    "en": "Nice to meet you, my name is Ana."
+  },
+  "regional": null,
+  "trick": "GUSTO sounds like gusto: meeting someone with gusto shows the pleasure is all yours.",
+  "image": "/deck/img/gusto-pleasure.webp",
+  "audio": {
+    "word": "/deck/audio/gusto-pleasure.word.mp3",
+    "sentence": "/deck/audio/gusto-pleasure.sentence.mp3"
+  }
+}

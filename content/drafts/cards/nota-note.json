@@ -1,0 +1,24 @@
+{
+  "id": "nota-note",
+  "rank": 761,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la nota",
+  "en": "note",
+  "hint": "written message or music",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Te dejé una nota en la mesa.",
+    "en": "I left you a note on the table."
+  },
+  "regional": null,
+  "trick": "NOTA sounds like note-a: a little note-a stuck on the fridge.",
+  "image": "/deck/img/nota-note.webp",
+  "audio": {
+    "word": "/deck/audio/nota-note.word.mp3",
+    "sentence": "/deck/audio/nota-note.sentence.mp3"
+  }
+}

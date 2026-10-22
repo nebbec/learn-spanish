@@ -1,0 +1,31 @@
+# por-by · rank 14 · por
+#
+# Why it was flagged:
+#   - Example sentence: The full passive "La comida fue hecha por mi madre" sounds stiff for food in everyday speech, where people would say "La comida la hizo mi mamá"; a written work is a more natural place for the por agent. Suggested fix: example.es: Esta canción fue escrita por mi hermano. / example.en: This song was written by my brother.
+# Reviewer's note (not a reason to flag): The prompt clearly separates this card from the cause/exchange and through cards, because \"escrito\" makes por the only natural answer and rules out de.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to example.es and example.en.
+decision: approve
+
+id:             por-by
+kind:           glue
+pos:            preposition
+target:         por
+en:             a book written [by] my mother
+hint:
+example.target: Esta canción fue escrita por mi hermano.
+example.en:     This song was written by my brother.
+regional.where:
+regional.text:
+trick:          POR sounds like poor: a poem written by a poor poet.
+
+# The draft this file was made from. Do not change it.
+draft: f3df3e41e368d77b

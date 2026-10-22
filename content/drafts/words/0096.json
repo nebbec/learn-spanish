@@ -1,0 +1,14 @@
+{
+  "rank": 96,
+  "word": "llevar",
+  "cards": [
+    "llevar-take-carry",
+    "llevar-wear",
+    "llevar-spend-time"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:15:59.639Z"
+}

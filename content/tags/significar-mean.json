@@ -1,0 +1,14 @@
+{
+  "id": "significar-mean",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "181d2cb2f4cba60d",
+  "group": "#254 significar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:41.978Z"
+}

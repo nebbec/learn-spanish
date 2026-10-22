@@ -29,4 +29,4 @@ regional.text:
 trick:          CALLE sounds like "KAH-yeh": you yell "Ka-yeh!" to a friend across the street.
 
 # The draft this file was made from. Do not change it.
-draft: 0e57b30c9e7da092
+draft: 92c115cd078a5b3f

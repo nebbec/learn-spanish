@@ -1,0 +1,14 @@
+{
+  "id": "pueblo-people-nation",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use pueblo for a nation or community as a whole; use gente for people in general.",
+  "draft": "8a9059e49424b0ae",
+  "group": "#494 pueblo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:37.919Z"
+}

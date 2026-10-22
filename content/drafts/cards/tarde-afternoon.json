@@ -1,0 +1,24 @@
+{
+  "id": "tarde-afternoon",
+  "rank": 215,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la tarde",
+  "en": "afternoon",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Nos vemos en la tarde.",
+    "en": "See you in the afternoon."
+  },
+  "regional": null,
+  "trick": "TARDE sounds like \"tardy\": the afternoon is the tardy part of the day, after the morning has gone.",
+  "image": "/deck/img/tarde-afternoon.webp",
+  "audio": {
+    "word": "/deck/audio/tarde-afternoon.word.mp3",
+    "sentence": "/deck/audio/tarde-afternoon.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "acerca-about",
+  "rank": 496,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "acerca de",
+  "en": "we talked [about] you",
+  "hint": "two-word phrase, not sobre",
+  "grammar": null,
+  "example": {
+    "target": "¿Qué sabes acerca de ella?",
+    "en": "What do you know about her?"
+  },
+  "regional": null,
+  "trick": "ACERCA sounds like a circle: you talk in circles about something.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/acerca-about.word.mp3",
+    "sentence": "/deck/audio/acerca-about.sentence.mp3"
+  }
+}

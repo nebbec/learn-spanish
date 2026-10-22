@@ -1,0 +1,23 @@
+{
+  "id": "claro-light-color",
+  "rank": 153,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "claro",
+  "en": "light",
+  "hint": "of a color, as in light blue",
+  "grammar": {
+    "feminine": "clara"
+  },
+  "example": {
+    "target": "Quiero una camisa azul claro.",
+    "en": "I want a light blue shirt."
+  },
+  "regional": null,
+  "trick": "CLARO is a clear, bright shade: azul claro is light blue, close to clear.",
+  "image": "/deck/img/claro-light-color.webp",
+  "audio": {
+    "word": "/deck/audio/claro-light-color.word.mp3",
+    "sentence": "/deck/audio/claro-light-color.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "marchar-march",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "52acc54fd56a15d4",
+  "group": "#670 marchar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:02.621Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "interesar-interest",
+  "rank": 666,
+  "word": "interesar",
+  "draft": "157b353ee943e6e4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to interest",
+    "example": "Politics doesn't interest me. (I'm not interested in politics.)"
+  },
+  "note": "The example shows how interesar is usually used, like gustar, with the thing as the subject and the person as the indirect object, and that pattern is worth pointing out to learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:57.481Z"
+}

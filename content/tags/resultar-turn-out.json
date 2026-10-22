@@ -1,0 +1,14 @@
+{
+  "id": "resultar-turn-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "089b41f0d93ca271",
+  "group": "#733 resultar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:52.237Z"
+}

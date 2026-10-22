@@ -184,7 +184,7 @@ describe("case cards through the passes", () => {
     const coffee = tagged.find((g) => g.kind === "case" && g.name === "a-coffee-please")!;
     expect(coffee.label).toBe("cases a-coffee-please");
     const ctx = tagContext(tagged, UNITS, TIPS, "de");
-    expect(tagPrompt(coffee, ctx)).toContain("A case card of unit a-coffee-please. Its words: der, mann.");
+    expect(tagPrompt(coffee)).toContain("A case card of unit a-coffee-please. Its words: der, mann.");
     // Claude's unit and want are ignored; requires and tip are its own.
     const output = {
       cards: coffee.cards.map((c) => ({ id: c.id, unit: "my-people", want: null, requires: [], tip: "tip-accusative", why: null })),

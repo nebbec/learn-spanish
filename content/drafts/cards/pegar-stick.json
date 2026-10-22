@@ -1,0 +1,28 @@
+{
+  "id": "pegar-stick",
+  "rank": 766,
+  "kind": "content",
+  "pos": "verb",
+  "target": "pegar",
+  "en": "to stick",
+  "hint": "with glue or tape",
+  "grammar": {
+    "present": {
+      "yo": "pego",
+      "tu": "pegas",
+      "el": "pega"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Pego la foto en la pared.",
+    "en": "I stick the photo on the wall."
+  },
+  "regional": null,
+  "trick": "PEGAR sounds like peg: you stick a note to the board as firmly as a peg.",
+  "image": "/deck/img/pegar-stick.webp",
+  "audio": {
+    "word": "/deck/audio/pegar-stick.word.mp3",
+    "sentence": "/deck/audio/pegar-stick.sentence.mp3"
+  }
+}

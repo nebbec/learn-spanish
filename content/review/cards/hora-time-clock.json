@@ -1,0 +1,17 @@
+{
+  "id": "hora-time-clock",
+  "rank": 156,
+  "word": "hora",
+  "draft": "b5b742c6716883be",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la hora: hour; time (of day, as on a clock)",
+    "example": "What time is it?"
+  },
+  "note": "The hint \"on the clock\" is what rules out el tiempo (time in general) and la vez (an occasion), so this card stays distinct from the word's \"hour\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:35.492Z"
+}

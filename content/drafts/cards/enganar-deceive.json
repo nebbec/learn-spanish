@@ -1,0 +1,28 @@
+{
+  "id": "enganar-deceive",
+  "rank": 742,
+  "kind": "content",
+  "pos": "verb",
+  "target": "engañar",
+  "en": "to deceive",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "engaño",
+      "tu": "engañas",
+      "el": "engaña"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "No me engañes, sé la verdad.",
+    "en": "Don't deceive me, I know the truth."
+  },
+  "regional": null,
+  "trick": "ENGAÑAR sounds like 'enGAIN-ar': a con man deceives you to gain your money.",
+  "image": "/deck/img/enganar-deceive.webp",
+  "audio": {
+    "word": "/deck/audio/enganar-deceive.word.mp3",
+    "sentence": "/deck/audio/enganar-deceive.sentence.mp3"
+  }
+}

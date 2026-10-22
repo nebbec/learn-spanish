@@ -1,0 +1,24 @@
+{
+  "id": "trasero-butt",
+  "rank": 740,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el trasero",
+  "en": "butt",
+  "hint": "polite, not vulgar",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Me caí y me dolió el trasero.",
+    "en": "I fell and my butt hurt."
+  },
+  "regional": null,
+  "trick": "TRASERO sounds like \"trash zero\": you landed on your butt in the trash, scoring zero.",
+  "image": "/deck/img/trasero-butt.webp",
+  "audio": {
+    "word": "/deck/audio/trasero-butt.word.mp3",
+    "sentence": "/deck/audio/trasero-butt.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "equipo-equipment",
+  "rank": 318,
+  "word": "equipo",
+  "draft": "f491a3e20c1d988f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el equipo = equipment, gear (also: team)",
+    "example": "I need my equipment for diving."
+  },
+  "note": "el equipamiento also exists but is less common in everyday speech, so el equipo is the expected answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:46.001Z"
+}

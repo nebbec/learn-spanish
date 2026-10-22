@@ -1,0 +1,17 @@
+{
+  "id": "carcel-jail",
+  "rank": 755,
+  "word": "cárcel",
+  "draft": "f8dbb70a4000f216",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "jail, prison",
+    "example": "His (or her) brother is in jail."
+  },
+  "note": "The hint rules out prisión, which would also be correct, and the regional slang words (el bote, la cana) are not standard answers, so the prompt has one answer; \"Su\" could also mean her, which the English translation does not need to show.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:57.024Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "centro-center",
+  "rank": 675,
+  "word": "centro",
+  "draft": "974a81fa5c631d74",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el centro = the center, the middle (also downtown, city center)",
+    "example": "Put the table in the center of the room."
+  },
+  "note": "The \"downtown\" card is a separate meaning of el centro, so it doesn't clash with this one, and \"el medio\" means \"middle\" rather than \"center\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:38.903Z"
+}

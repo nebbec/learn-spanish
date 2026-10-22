@@ -1,0 +1,31 @@
+# quizas-maybe · rank 175 · quizás
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out tal vez but not quizá, an equally correct one-word form without the final s, so a learner could give a different right answer. Suggested fix: hint: one word ending in -s, not tal vez
+# Reviewer's note (not a reason to flag): Quizás with the subjunctive (llueva) is a good, natural model for learners, and quizás is the more common spelling in Latin America.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: approve
+
+id:             quizas-maybe
+kind:           content
+pos:            adverb
+target:         quizás
+en:             maybe
+hint:           one word ending in -s, not tal vez
+example.target: Quizás llueva mañana.
+example.en:     Maybe it will rain tomorrow.
+regional.where:
+regional.text:
+trick:          QUIZÁS sounds like a quiz: maybe you pass, maybe you don't.
+
+# The draft this file was made from. Do not change it.
+draft: d3d643e0571ad5f2

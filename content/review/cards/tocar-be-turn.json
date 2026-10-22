@@ -1,0 +1,17 @@
+{
+  "id": "tocar-be-turn",
+  "rank": 283,
+  "word": "tocar",
+  "draft": "fd645fea08092479",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tocar: to touch; to play (an instrument); (with an indirect object) to be someone's turn",
+    "example": "Now it's your turn (literally: now it touches you)."
+  },
+  "note": "The hint \"te ___ a ti\" shows the indirect-object pattern and rules out other wording such as \"ser tu turno\", and irregular is correctly false because the preterite toqué is only a spelling change.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:45.673Z"
+}

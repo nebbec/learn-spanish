@@ -1,0 +1,24 @@
+{
+  "id": "pueblo-people-nation",
+  "rank": 494,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el pueblo",
+  "en": "the people",
+  "hint": "a nation or community, not gente",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El pueblo quiere justicia.",
+    "en": "The people want justice."
+  },
+  "regional": null,
+  "trick": "PUEBLO looks like PUBLIC and POPULAR: it means the people as a whole.",
+  "image": "/deck/img/pueblo-people-nation.webp",
+  "audio": {
+    "word": "/deck/audio/pueblo-people-nation.word.mp3",
+    "sentence": "/deck/audio/pueblo-people-nation.sentence.mp3"
+  }
+}

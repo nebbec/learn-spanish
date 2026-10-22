@@ -1,0 +1,28 @@
+{
+  "id": "recibir-receive",
+  "rank": 366,
+  "kind": "content",
+  "pos": "verb",
+  "target": "recibir",
+  "en": "to receive",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "recibo",
+      "tu": "recibes",
+      "el": "recibe"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Recibiste mi mensaje?",
+    "en": "Did you get my message?"
+  },
+  "regional": null,
+  "trick": "RECIBIR sounds like receive-ear: you receive the news straight into your ear.",
+  "image": "/deck/img/recibir-receive.webp",
+  "audio": {
+    "word": "/deck/audio/recibir-receive.word.mp3",
+    "sentence": "/deck/audio/recibir-receive.sentence.mp3"
+  }
+}

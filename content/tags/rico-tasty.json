@@ -1,0 +1,14 @@
+{
+  "id": "rico-tasty",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e9f724f04c7c5e90",
+  "group": "#672 rico",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:06.352Z"
+}

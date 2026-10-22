@@ -1,0 +1,28 @@
+{
+  "id": "destruir-destroy",
+  "rank": 575,
+  "kind": "content",
+  "pos": "verb",
+  "target": "destruir",
+  "en": "to destroy",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "destruyo",
+      "tu": "destruyes",
+      "el": "destruye"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "El huracán destruyó muchas casas.",
+    "en": "The hurricane destroyed many houses."
+  },
+  "regional": null,
+  "trick": "DESTRUIR sounds like \"destroy here\": the monster shouts it before he smashes the city.",
+  "image": "/deck/img/destruir-destroy.webp",
+  "audio": {
+    "word": "/deck/audio/destruir-destroy.word.mp3",
+    "sentence": "/deck/audio/destruir-destroy.sentence.mp3"
+  }
+}

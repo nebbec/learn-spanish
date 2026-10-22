@@ -1,0 +1,17 @@
+{
+  "id": "ofrecer-offer",
+  "rank": 588,
+  "word": "ofrecer",
+  "draft": "8cef28a700ed80cc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to offer",
+    "example": "I offer you a coffee, do you want some?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:25.553Z"
+}

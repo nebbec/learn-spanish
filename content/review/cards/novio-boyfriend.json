@@ -1,0 +1,17 @@
+{
+  "id": "novio-boyfriend",
+  "rank": 357,
+  "word": "novio",
+  "draft": "811befcd9712baa4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el novio: boyfriend; also groom (at a wedding), fiancé",
+    "example": "My boyfriend lives in another city."
+  },
+  "note": "Regional words like pololo in Chile or enamorado in Peru exist, but novio is understood everywhere and is the standard answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:35.723Z"
+}

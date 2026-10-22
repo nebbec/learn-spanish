@@ -1,0 +1,17 @@
+{
+  "id": "suficiente-enough",
+  "rank": 319,
+  "word": "suficiente",
+  "draft": "7d5308e9140df310",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "enough, sufficient (adjective)",
+    "example": "We don't have enough money for the trip."
+  },
+  "note": "The hint 'sufficient' is needed and works, because it points to suficiente rather than bastante, the other common word for 'enough'.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:52.414Z"
+}

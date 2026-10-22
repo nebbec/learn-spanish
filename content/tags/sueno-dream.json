@@ -1,0 +1,14 @@
+{
+  "id": "sueno-dream",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "92524a28f786788e",
+  "group": "#448 sueño",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:15.683Z"
+}

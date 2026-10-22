@@ -1,0 +1,23 @@
+{
+  "id": "momento-moment",
+  "rank": 155,
+  "word": "momento",
+  "draft": "4e98d998beb337cc",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "\"Ya vengo\" means \"I'll be right back\" (going and returning), not \"I'll be right there\", which would be \"ya voy\".",
+      "fix": "example.en: Wait a moment, I'll be right back."
+    }
+  ],
+  "back": {
+    "es": "moment (masculine noun)",
+    "example": "Wait a moment, I'll be right back."
+  },
+  "note": "\"Instante\" also means moment, but \"el momento\" is clearly the everyday answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:29.248Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dirigir-direct",
+  "rank": 622,
+  "kind": "content",
+  "pos": "verb",
+  "target": "dirigir",
+  "en": "to direct",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "dirijo",
+      "tu": "diriges",
+      "el": "dirige"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi tía dirige una escuela en el centro.",
+    "en": "My aunt runs a school downtown."
+  },
+  "regional": null,
+  "trick": "DIRIGIR starts like DIRector: the director stands up and directs everyone on set.",
+  "image": "/deck/img/dirigir-direct.webp",
+  "audio": {
+    "word": "/deck/audio/dirigir-direct.word.mp3",
+    "sentence": "/deck/audio/dirigir-direct.sentence.mp3"
+  }
+}

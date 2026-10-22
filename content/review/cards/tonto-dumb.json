@@ -1,0 +1,17 @@
+{
+  "id": "tonto-dumb",
+  "rank": 490,
+  "word": "tonto",
+  "draft": "39c1049f7f6dad86",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "silly, dumb, foolish, stupid (adjective)",
+    "example": "Don't be silly, she loves you."
+  },
+  "note": "Bobo or estúpido could come to mind for \"dumb\" alone, but pairing it with \"silly\" points clearly to tonto, the most common everyday word for both.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:21.292Z"
+}

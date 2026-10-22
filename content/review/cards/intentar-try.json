@@ -1,0 +1,17 @@
+{
+  "id": "intentar-try",
+  "rank": 176,
+  "word": "intentar",
+  "draft": "6238a8000fa4a4fe",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to try, to attempt",
+    "example": "I'm trying to sleep, can you be quiet?"
+  },
+  "note": "The hint correctly rules out probar, but tratar de is a common Latin American way to say \"try to\"; since it is a two-word phrase rather than a single verb, the card still passes, though the editor could mention it in the hint or a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:16.235Z"
+}

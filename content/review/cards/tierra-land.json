@@ -1,0 +1,17 @@
+{
+  "id": "tierra-land",
+  "rank": 334,
+  "word": "tierra",
+  "draft": "2dc3431db2f1d887",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "land, earth, ground (also soil, and Earth the planet); as a noun here: land, territory, one's homeland",
+    "example": "This land belongs to my family."
+  },
+  "note": "The hint is about territory and homeland, but the example uses land as family property, where \"el terreno\" is also common; an example like \"Extraño mi tierra.\" (I miss my homeland.) would match the hint better and keep the \"soil\" card clearly separate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:16.570Z"
+}

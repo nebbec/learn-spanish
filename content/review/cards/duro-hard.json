@@ -1,0 +1,17 @@
+{
+  "id": "duro-hard",
+  "rank": 427,
+  "word": "duro",
+  "draft": "3535ae944bde03b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "hard (firm, not soft); tough",
+    "example": "This bread is very hard."
+  },
+  "note": "The hint is needed because it rules out difícil (hard meaning difficult), and it works.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:32.981Z"
+}

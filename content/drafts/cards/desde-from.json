@@ -1,0 +1,21 @@
+{
+  "id": "desde-from",
+  "rank": 160,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "desde",
+  "en": "I can see the sea [from] here",
+  "hint": "starting point or viewpoint, not de",
+  "grammar": null,
+  "example": {
+    "target": "Te llamo desde el carro.",
+    "en": "I'm calling you from the car."
+  },
+  "regional": null,
+  "trick": "DESDE sounds like \"the stage\": you watch the whole show from the stage.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/desde-from.word.mp3",
+    "sentence": "/deck/audio/desde-from.sentence.mp3"
+  }
+}

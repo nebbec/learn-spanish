@@ -1,0 +1,14 @@
+{
+  "id": "luego-later",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6a9da9326d4247c3",
+  "group": "#188 luego",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:07.157Z"
+}

@@ -1,0 +1,33 @@
+# vuelta-return · rank 375 · vuelta
+#
+# Why it was flagged:
+#   - One right answer: The hint 'the trip back; de ... = back' also fits el regreso (estar de regreso is very common in Latin America) and el retorno, so more than one answer is right. Suggested fix: hint: the trip back, as in a round trip (ida y ...); de ... = back; same word as a lap or spin
+# Reviewer's note (not a reason to flag): The trick works through volver rather than an English sound-alike, which is weak but not false, since vuelta comes from volver.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (dropped 'lap or spin', which is the vuelta-turn card).
+decision: approve
+
+id:             vuelta-return
+kind:           content
+pos:            noun
+target:         la vuelta
+en:             return
+hint:           the trip back, as in ida y ... (round trip); de ... = back
+gender:         f
+article:        la
+example.target: ¡Qué bueno que estás de vuelta!
+example.en:     It's so good that you're back!
+regional.where:
+regional.text:
+trick:          VUELTA sounds like volver's daughter: whoever goes out comes back on the return trip.
+
+# The draft this file was made from. Do not change it.
+draft: 7dd33a8616a68e96

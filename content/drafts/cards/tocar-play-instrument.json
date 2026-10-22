@@ -1,0 +1,28 @@
+{
+  "id": "tocar-play-instrument",
+  "rank": 283,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tocar",
+  "en": "to play",
+  "hint": "music, an instrument",
+  "grammar": {
+    "present": {
+      "yo": "toco",
+      "tu": "tocas",
+      "el": "toca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi hermano toca la guitarra muy bien.",
+    "en": "My brother plays the guitar really well."
+  },
+  "regional": null,
+  "trick": "TOCAR sounds like \"talk car\": the car radio plays music so loud nobody can talk.",
+  "image": "/deck/img/tocar-play-instrument.webp",
+  "audio": {
+    "word": "/deck/audio/tocar-play-instrument.word.mp3",
+    "sentence": "/deck/audio/tocar-play-instrument.sentence.mp3"
+  }
+}

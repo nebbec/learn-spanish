@@ -1,0 +1,17 @@
+{
+  "id": "desde-from",
+  "rank": 160,
+  "word": "desde",
+  "draft": "a7a0ff3defeeef51",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "from (a starting point in space or a point of view); since (in time)",
+    "example": "I'm calling you from the car."
+  },
+  "note": "The hint's \"not de\" usefully rules out de, and the spatial \"from here\" prompt keeps this card separate from the time card \"since 2015\"; \"carro\" is right for much of Latin America, though the Southern Cone says \"auto\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:05.011Z"
+}

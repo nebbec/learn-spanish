@@ -1,0 +1,17 @@
+{
+  "id": "accidente-accident",
+  "rank": 642,
+  "word": "accidente",
+  "draft": "2c7357d6bcaaf85c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the accident",
+    "example": "My brother had an accident on the road/highway."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:49.436Z"
+}

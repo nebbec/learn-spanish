@@ -1,0 +1,17 @@
+{
+  "id": "divertir-have-fun",
+  "rank": 762,
+  "word": "divertir",
+  "draft": "46eaf4e6ce0f21b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "divertirse: to have fun, to enjoy oneself (reflexive of divertir, to amuse)",
+    "example": "Have a lot of fun at the party!"
+  },
+  "note": "The list word is divertir, and the card teaches the reflexive divertirse, which is the form beginners actually use; pasarla bien (to have a good time) is close but is a phrase, so it does not compete as the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:42:23.814Z"
+}

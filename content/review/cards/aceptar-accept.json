@@ -1,0 +1,17 @@
+{
+  "id": "aceptar-accept",
+  "rank": 459,
+  "word": "aceptar",
+  "draft": "6a57a999bb2c4efb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to accept",
+    "example": "Do you accept card or only cash?"
+  },
+  "note": "Asking a shop, Latin Americans often use the plural ¿Aceptan tarjeta? for the business, but tú to an informal vendor is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:02.747Z"
+}

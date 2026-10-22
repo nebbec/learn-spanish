@@ -1,0 +1,17 @@
+{
+  "id": "maestro-teacher",
+  "rank": 628,
+  "word": "maestro",
+  "draft": "1d6d0658e7f509f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el maestro: teacher (especially a primary-school teacher); also master or expert",
+    "example": "My third-grade teacher (female) was very good."
+  },
+  "note": "The example uses the feminine form maestra, which is correct and natural; the editor could use \"Mi maestro de tercer grado era muy bueno.\" if the example should show the exact headword, and the hint could say \"primary-school teacher\" to be more precise.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:57.492Z"
+}

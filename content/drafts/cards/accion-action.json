@@ -1,0 +1,24 @@
+{
+  "id": "accion-action",
+  "rank": 750,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la acción",
+  "en": "action",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Me encantan las películas de acción.",
+    "en": "I love action movies."
+  },
+  "regional": null,
+  "trick": "ACCIÓN sounds like action with a Spanish accent: the director yells it before every scene.",
+  "image": "/deck/img/accion-action.webp",
+  "audio": {
+    "word": "/deck/audio/accion-action.word.mp3",
+    "sentence": "/deck/audio/accion-action.sentence.mp3"
+  }
+}

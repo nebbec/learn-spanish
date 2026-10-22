@@ -1,0 +1,17 @@
+{
+  "id": "desear-wish",
+  "rank": 372,
+  "word": "desear",
+  "draft": "1397164b99f7d134",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to wish, to desire",
+    "example": "I wish you a lot of luck tomorrow."
+  },
+  "note": "In everyday speech, desear meaning \"to want\" sounds formal (querer is the usual word), so \"to wish\" in the sense of wishing someone something is the right prompt, and the example shows it well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:32.154Z"
+}

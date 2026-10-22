@@ -1,0 +1,28 @@
+{
+  "id": "aprender-learn",
+  "rank": 430,
+  "kind": "content",
+  "pos": "verb",
+  "target": "aprender",
+  "en": "to learn",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "aprendo",
+      "tu": "aprendes",
+      "el": "aprende"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Aprendí mucho en este trabajo.",
+    "en": "I learned a lot at this job."
+  },
+  "regional": null,
+  "trick": "APRENDER sounds like 'apprentice': an apprentice is there to learn.",
+  "image": "/deck/img/aprender-learn.webp",
+  "audio": {
+    "word": "/deck/audio/aprender-learn.word.mp3",
+    "sentence": "/deck/audio/aprender-learn.sentence.mp3"
+  }
+}

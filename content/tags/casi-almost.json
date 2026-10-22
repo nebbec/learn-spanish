@@ -1,0 +1,14 @@
+{
+  "id": "casi-almost",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c670b40bfc1a77c3",
+  "group": "#296 casi",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:29.110Z"
+}

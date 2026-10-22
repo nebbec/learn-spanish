@@ -1,0 +1,24 @@
+{
+  "id": "aca-here",
+  "rank": 777,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "acá",
+  "en": "here",
+  "hint": "the everyday Latin American word, not aquí",
+  "grammar": null,
+  "example": {
+    "target": "Ven acá, quiero mostrarte algo.",
+    "en": "Come here, I want to show you something."
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "aquí"
+  },
+  "trick": "ACÁ sounds like a crow's caw: the crow calls you over to come here.",
+  "image": "/deck/img/aca-here.webp",
+  "audio": {
+    "word": "/deck/audio/aca-here.word.mp3",
+    "sentence": "/deck/audio/aca-here.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "suceder-happen",
+  "rank": 271,
+  "word": "suceder",
+  "draft": "1691afba0d5d076e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to happen, to occur (also: to succeed, i.e. to follow or come after someone)",
+    "example": "What's happening here?"
+  },
+  "note": "The hint's \"looks like succeed\" works as a recall cue, but suceder only means succeed in the sense of following someone (as in a throne), never \"to be successful\" (tener éxito), so the editor may want to make sure learners don't read it as that false friend.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:28.906Z"
+}

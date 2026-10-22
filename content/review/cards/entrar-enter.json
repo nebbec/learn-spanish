@@ -1,0 +1,17 @@
+{
+  "id": "entrar-enter",
+  "rank": 191,
+  "word": "entrar",
+  "draft": "a8b4cab01ad4e9b6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to enter, to go in, to come in",
+    "example": "Come in, the door is open."
+  },
+  "note": "The hint \"to go in\" is useful because it rules out \"ingresar\" and \"introducir\" (as in entering data), and the example uses the tú command \"entra\", which is a conjugated form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:22.004Z"
+}

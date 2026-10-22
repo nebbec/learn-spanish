@@ -1,0 +1,17 @@
+{
+  "id": "accion-action",
+  "rank": 750,
+  "word": "acción",
+  "draft": "ee7917436c3d148b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the action; act, deed (also a share of stock)",
+    "example": "I love action movies."
+  },
+  "note": "Directors in Spanish-language film sets really do shout ¡Acción!, so the trick is also accurate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:41:37.357Z"
+}

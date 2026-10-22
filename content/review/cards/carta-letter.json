@@ -1,0 +1,17 @@
+{
+  "id": "carta-letter",
+  "rank": 501,
+  "word": "carta",
+  "draft": "9ea049bd0576875d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la carta: letter (a written message sent by mail); also playing card, menu",
+    "example": "I wrote you a very long letter."
+  },
+  "note": "The hint correctly excludes \"la letra\" (letter of the alphabet) and is distinct from the word's \"card\" (playing card) card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:09.174Z"
+}

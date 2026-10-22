@@ -1,0 +1,13 @@
+{
+  "rank": 742,
+  "word": "engañar",
+  "cards": [
+    "enganar-deceive",
+    "enganar-cheat-on"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:46:54.134Z"
+}

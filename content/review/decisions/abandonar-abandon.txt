@@ -1,0 +1,35 @@
+# abandonar-abandon · rank 611 · abandonar
+#
+# Why it was flagged:
+#   - Example sentence: The sentence uses abandonar in the infinitive after voy a, but the card's own verb must appear conjugated. Suggested fix: example.es: Mi papá nos abandonó cuando yo era niño. / example.en: My dad abandoned us when I was a kid.
+# Reviewer's note (not a reason to flag): Dejar can also mean "to leave", but for the prompt "to abandon" abandonar is the clear answer, so the card needs no hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
+decision: approve
+
+id:             abandonar-abandon
+kind:           content
+pos:            verb
+target:         abandonar
+en:             to abandon
+hint:
+yo:             abandono
+tu:             abandonas
+el:             abandona
+irregular:      no
+example.target: Mi papá nos abandonó cuando yo era niño.
+example.en:     My dad abandoned us when I was a kid.
+regional.where:
+regional.text:
+trick:          ABANDONAR sounds like "abandon" plus "-ar": just add the Spanish verb ending to the English word.
+
+# The draft this file was made from. Do not change it.
+draft: bd8e28415ab706af

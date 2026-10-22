@@ -1,0 +1,17 @@
+{
+  "id": "tarde-afternoon",
+  "rank": 215,
+  "word": "tarde",
+  "draft": "272f675ff17d005d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "afternoon (also early evening)",
+    "example": "We'll see each other in the afternoon / See you in the afternoon."
+  },
+  "note": "\"En la tarde\" is natural Latin American usage (Spain would say \"por la tarde\"), but the noun itself is the same in Spain, so leaving spain as null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:54.557Z"
+}

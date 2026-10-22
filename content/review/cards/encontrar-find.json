@@ -1,0 +1,17 @@
+{
+  "id": "encontrar-find",
+  "rank": 97,
+  "word": "encontrar",
+  "draft": "7365c43a19af180a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to find (also to meet, to come across)",
+    "example": "I don't find my keys / I can't find my keys."
+  },
+  "note": "Hallar also means to find, but it is much less common and more formal, so encontrar is clearly the expected answer for the bare prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:03.345Z"
+}

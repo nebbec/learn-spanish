@@ -1,0 +1,17 @@
+{
+  "id": "adelante-forward",
+  "rank": 332,
+  "word": "adelante",
+  "draft": "d5bf5cbd615d5011",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "forward, ahead (also: in front)",
+    "example": "Keep going forward, don't look back."
+  },
+  "note": "The prompt \"ahead\" could also suggest the invitation meaning, but the other card's hint keeps the two separate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:56.693Z"
+}

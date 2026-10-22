@@ -1,0 +1,23 @@
+{
+  "id": "antiguo-former",
+  "rank": 726,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "antiguo",
+  "en": "former",
+  "hint": "placed before the noun, as in my former boss",
+  "grammar": {
+    "feminine": "antigua"
+  },
+  "example": {
+    "target": "Vi a mi antiguo jefe en el mercado.",
+    "en": "I saw my former boss at the market."
+  },
+  "regional": null,
+  "trick": "ANTIGUO sounds like antique: your former boss is now an antique from your past.",
+  "image": "/deck/img/antiguo-former.webp",
+  "audio": {
+    "word": "/deck/audio/antiguo-former.word.mp3",
+    "sentence": "/deck/audio/antiguo-former.sentence.mp3"
+  }
+}

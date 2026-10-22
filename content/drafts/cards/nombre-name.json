@@ -1,0 +1,24 @@
+{
+  "id": "nombre-name",
+  "rank": 187,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el nombre",
+  "en": "name",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¿Cuál es tu nombre?",
+    "en": "What's your name?"
+  },
+  "regional": null,
+  "trick": "NOMBRE sounds like \"number\": your name is the number the world calls you by.",
+  "image": "/deck/img/nombre-name.webp",
+  "audio": {
+    "word": "/deck/audio/nombre-name.word.mp3",
+    "sentence": "/deck/audio/nombre-name.sentence.mp3"
+  }
+}

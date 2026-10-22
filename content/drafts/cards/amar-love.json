@@ -1,0 +1,28 @@
+{
+  "id": "amar-love",
+  "rank": 216,
+  "kind": "content",
+  "pos": "verb",
+  "target": "amar",
+  "en": "to love",
+  "hint": "deep, intense love; not querer",
+  "grammar": {
+    "present": {
+      "yo": "amo",
+      "tu": "amas",
+      "el": "ama"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te amo con todo mi corazón.",
+    "en": "I love you with all my heart."
+  },
+  "regional": null,
+  "trick": "AMAR sounds like amour, the French word for love, as in a grand romance.",
+  "image": "/deck/img/amar-love.webp",
+  "audio": {
+    "word": "/deck/audio/amar-love.word.mp3",
+    "sentence": "/deck/audio/amar-love.sentence.mp3"
+  }
+}

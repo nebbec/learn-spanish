@@ -1,0 +1,28 @@
+{
+  "id": "mandar-order",
+  "rank": 489,
+  "kind": "content",
+  "pos": "verb",
+  "target": "mandar",
+  "en": "to order (someone), to be in charge",
+  "hint": "give orders, boss",
+  "grammar": {
+    "present": {
+      "yo": "mando",
+      "tu": "mandas",
+      "el": "manda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Aquí mando yo.",
+    "en": "I'm the one in charge here."
+  },
+  "regional": null,
+  "trick": "MANDAR sounds like command: a mandate is an order from whoever is in charge.",
+  "image": "/deck/img/mandar-order.webp",
+  "audio": {
+    "word": "/deck/audio/mandar-order.word.mp3",
+    "sentence": "/deck/audio/mandar-order.sentence.mp3"
+  }
+}

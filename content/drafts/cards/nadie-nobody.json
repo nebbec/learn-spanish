@@ -1,0 +1,21 @@
+{
+  "id": "nadie-nobody",
+  "rank": 147,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "nadie",
+  "en": "[nobody] knows",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Nadie sabe dónde está mi teléfono.",
+    "en": "Nobody knows where my phone is."
+  },
+  "regional": null,
+  "trick": "NADIE sounds like \"nada, eh?\": nothing there, and nobody either.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/nadie-nobody.word.mp3",
+    "sentence": "/deck/audio/nadie-nobody.sentence.mp3"
+  }
+}

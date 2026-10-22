@@ -1,0 +1,24 @@
+{
+  "id": "rey-king",
+  "rank": 488,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el rey",
+  "en": "king",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El rey vive en un castillo enorme.",
+    "en": "The king lives in a huge castle."
+  },
+  "regional": null,
+  "trick": "REY sounds like \"ray\": a king wears a crown that shines with golden rays.",
+  "image": "/deck/img/rey-king.webp",
+  "audio": {
+    "word": "/deck/audio/rey-king.word.mp3",
+    "sentence": "/deck/audio/rey-king.sentence.mp3"
+  }
+}

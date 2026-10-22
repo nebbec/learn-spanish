@@ -1,0 +1,14 @@
+{
+  "id": "arreglar-fix",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f160a17e9c34af67",
+  "group": "#446 arreglar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:11.286Z"
+}

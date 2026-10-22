@@ -1,0 +1,17 @@
+{
+  "id": "auto-car",
+  "rank": 352,
+  "word": "auto",
+  "draft": "32cf268af8c14967",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the car (short for automobile)",
+    "example": "My dad washed the car yesterday."
+  },
+  "note": "The hint is needed because Latin America has several words for car (auto in the Southern Cone, carro in Mexico, Colombia and Central America, coche in parts of Mexico), and \"short for automóvil\" correctly rules out both carro and coche.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:23.699Z"
+}

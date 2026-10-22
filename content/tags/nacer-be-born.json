@@ -1,0 +1,14 @@
+{
+  "id": "nacer-be-born",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4b6fb8bef6f1d2bb",
+  "group": "#640 nacer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:03.669Z"
+}

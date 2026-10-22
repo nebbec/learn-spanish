@@ -1,0 +1,14 @@
+{
+  "id": "perder-miss",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d5617bd28495a03f",
+  "group": "#152 perder",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:58.530Z"
+}

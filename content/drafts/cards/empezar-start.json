@@ -1,0 +1,28 @@
+{
+  "id": "empezar-start",
+  "rank": 195,
+  "kind": "content",
+  "pos": "verb",
+  "target": "empezar",
+  "en": "to start",
+  "hint": "the everyday word, not comenzar",
+  "grammar": {
+    "present": {
+      "yo": "empiezo",
+      "tu": "empiezas",
+      "el": "empieza"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "La película empieza a las ocho.",
+    "en": "The movie starts at eight."
+  },
+  "regional": null,
+  "trick": "EMPEZAR sounds like \"I'm pez\": a fish starts swimming the moment it hatches.",
+  "image": "/deck/img/empezar-start.webp",
+  "audio": {
+    "word": "/deck/audio/empezar-start.word.mp3",
+    "sentence": "/deck/audio/empezar-start.sentence.mp3"
+  }
+}

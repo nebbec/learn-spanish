@@ -1,0 +1,13 @@
+{
+  "rank": 519,
+  "word": "caballero",
+  "cards": [
+    "caballero-gentleman",
+    "caballero-knight"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:35:49.341Z"
+}

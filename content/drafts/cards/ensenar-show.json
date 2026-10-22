@@ -1,0 +1,28 @@
+{
+  "id": "ensenar-show",
+  "rank": 396,
+  "kind": "content",
+  "pos": "verb",
+  "target": "enseñar",
+  "en": "to show",
+  "hint": "same verb as to teach, not mostrar",
+  "grammar": {
+    "present": {
+      "yo": "enseño",
+      "tu": "enseñas",
+      "el": "enseña"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te enseño mi casa nueva.",
+    "en": "I'll show you my new house."
+  },
+  "regional": null,
+  "trick": "ENSEÑAR hides 'seña', a sign: you show someone something by making a sign at it.",
+  "image": "/deck/img/ensenar-show.webp",
+  "audio": {
+    "word": "/deck/audio/ensenar-show.word.mp3",
+    "sentence": "/deck/audio/ensenar-show.sentence.mp3"
+  }
+}

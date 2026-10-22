@@ -1,0 +1,17 @@
+{
+  "id": "ano-year",
+  "rank": 103,
+  "word": "año",
+  "draft": "485492667423c609",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the year",
+    "example": "I have twenty years (I'm twenty years old)."
+  },
+  "note": "The example uses the idiomatic age construction with tener and the plural años, which is very useful but also teaches more than the bare meaning; a sentence like \"Este año voy a México.\" would show \"year\" more literally if the editor prefers.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:25.176Z"
+}

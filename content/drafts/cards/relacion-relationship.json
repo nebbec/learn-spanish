@@ -1,0 +1,24 @@
+{
+  "id": "relacion-relationship",
+  "rank": 551,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la relación",
+  "en": "relationship",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tengo una buena relación con mi hermano.",
+    "en": "I have a good relationship with my brother."
+  },
+  "regional": null,
+  "trick": "RELACIÓN sounds like relation: your relations are the people you have a relationship with.",
+  "image": "/deck/img/relacion-relationship.webp",
+  "audio": {
+    "word": "/deck/audio/relacion-relationship.word.mp3",
+    "sentence": "/deck/audio/relacion-relationship.sentence.mp3"
+  }
+}

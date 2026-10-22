@@ -1,0 +1,21 @@
+{
+  "id": "ni-not-even",
+  "rank": 135,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "ni",
+  "en": "I don't have [even] one peso",
+  "hint": "short word, not siquiera",
+  "grammar": null,
+  "example": {
+    "target": "No tengo ni un peso.",
+    "en": "I don't have even one peso."
+  },
+  "regional": null,
+  "trick": "NI sounds like knee: I can't even bend my knee, not even a little.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ni-not-even.word.mp3",
+    "sentence": "/deck/audio/ni-not-even.sentence.mp3"
+  }
+}

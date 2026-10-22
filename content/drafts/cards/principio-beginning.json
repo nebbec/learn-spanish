@@ -1,0 +1,24 @@
+{
+  "id": "principio-beginning",
+  "rank": 691,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el principio",
+  "en": "beginning",
+  "hint": "as in at first: al ...",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Al principio no entendía nada.",
+    "en": "At the beginning I didn't understand anything."
+  },
+  "regional": null,
+  "trick": "PRINCIPIO sounds like prince: every fairy tale's beginning introduces the prince.",
+  "image": "/deck/img/principio-beginning.webp",
+  "audio": {
+    "word": "/deck/audio/principio-beginning.word.mp3",
+    "sentence": "/deck/audio/principio-beginning.sentence.mp3"
+  }
+}

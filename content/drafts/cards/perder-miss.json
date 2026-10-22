@@ -1,0 +1,28 @@
+{
+  "id": "perder-miss",
+  "rank": 152,
+  "kind": "content",
+  "pos": "verb",
+  "target": "perder",
+  "en": "to miss",
+  "hint": "a bus, a chance; not a person",
+  "grammar": {
+    "present": {
+      "yo": "pierdo",
+      "tu": "pierdes",
+      "el": "pierde"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Si no corres, pierdes el autobús.",
+    "en": "If you don't run, you'll miss the bus."
+  },
+  "regional": null,
+  "trick": "PERDER sounds like \"pair door\": a pair of doors slam shut and you miss your train.",
+  "image": "/deck/img/perder-miss.webp",
+  "audio": {
+    "word": "/deck/audio/perder-miss.word.mp3",
+    "sentence": "/deck/audio/perder-miss.sentence.mp3"
+  }
+}

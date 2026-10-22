@@ -1,0 +1,14 @@
+{
+  "id": "fin-end",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use fin for the end point itself (el fin de semana, por fin); final is for the ending, as in al final (in the end).",
+  "draft": "ff73d9f9ee91c39c",
+  "group": "#327 fin",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:26.474Z"
+}

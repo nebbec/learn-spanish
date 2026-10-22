@@ -1,0 +1,23 @@
+{
+  "id": "derecho-right-side",
+  "rank": 483,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "derecho",
+  "en": "right",
+  "hint": "the side, not left",
+  "grammar": {
+    "feminine": "derecha"
+  },
+  "example": {
+    "target": "Me duele el brazo derecho.",
+    "en": "My right arm hurts."
+  },
+  "regional": null,
+  "trick": "DERECHO sounds like \"direct, yo\": most people direct things with their right hand.",
+  "image": "/deck/img/derecho-right-side.webp",
+  "audio": {
+    "word": "/deck/audio/derecho-right-side.word.mp3",
+    "sentence": "/deck/audio/derecho-right-side.sentence.mp3"
+  }
+}

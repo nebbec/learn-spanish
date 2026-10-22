@@ -55,9 +55,10 @@ describe("stills", () => {
     expect(stills[1]).toMatchObject({ es: "ser", en: "I am / you are", cards: ["ser-form-yo", "ser-form-tu"] });
   });
 
-  it("number 36 in the real deck", () => {
+  it("number 786 in the real deck (36 in its first 100 cards)", () => {
     const real = JSON.parse(readFileSync(path.join(root, "content", "deck.json"), "utf8")) as DeckLike;
-    expect(stillsFromDeck(real)).toHaveLength(36);
+    expect(stillsFromDeck(real)).toHaveLength(786);
+    expect(stillsFromDeck({ ...real, cards: real.cards.slice(0, 100) })).toHaveLength(36);
   });
 });
 

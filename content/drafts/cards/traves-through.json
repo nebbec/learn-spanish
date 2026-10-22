@@ -1,0 +1,21 @@
+{
+  "id": "traves-through",
+  "rank": 688,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "a través de",
+  "en": "we walked [through] the forest",
+  "hint": "three-word phrase, not por",
+  "grammar": null,
+  "example": {
+    "target": "Vi a mi hermano a través de la ventana.",
+    "en": "I saw my brother through the window."
+  },
+  "regional": null,
+  "trick": "TRAVÉS sounds like traverse: to traverse something is to go through or across it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/traves-through.word.mp3",
+    "sentence": "/deck/audio/traves-through.sentence.mp3"
+  }
+}

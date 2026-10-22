@@ -1,0 +1,17 @@
+{
+  "id": "bastante-quite",
+  "rank": 331,
+  "word": "bastante",
+  "draft": "713a78357e87dd9f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "quite, fairly, rather (adverb of degree before an adjective or adverb)",
+    "example": "The movie is quite good."
+  },
+  "note": "The hint \"fairly, rather\" keeps learners from answering muy or medio, and \"before an adjective\" sets this card apart from the \"enough\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:46.125Z"
+}

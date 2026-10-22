@@ -1,0 +1,17 @@
+{
+  "id": "salir-go-out",
+  "rank": 108,
+  "word": "salir",
+  "draft": "2d7798b8f519203d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to go out, to leave, to exit (salir)",
+    "example": "I'm going out with my friends tonight."
+  },
+  "note": "The hint isn't strictly needed because \"to go out\" already points to salir, and the example uses the social sense of \"going out\" rather than the hint's \"exit a place\" sense, which is fine but could be brought into line.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:55.380Z"
+}

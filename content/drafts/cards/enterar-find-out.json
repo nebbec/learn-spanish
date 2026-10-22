@@ -1,0 +1,28 @@
+{
+  "id": "enterar-find-out",
+  "rank": 610,
+  "kind": "content",
+  "pos": "verb",
+  "target": "enterarse",
+  "en": "to find out",
+  "hint": "to hear about news, become aware",
+  "grammar": {
+    "present": {
+      "yo": "me entero",
+      "tu": "te enteras",
+      "el": "se entera"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Cómo te enteraste de la fiesta?",
+    "en": "How did you find out about the party?"
+  },
+  "regional": null,
+  "trick": "ENTERARSE starts like enter: news enters your ears, and that's how you find out.",
+  "image": "/deck/img/enterar-find-out.webp",
+  "audio": {
+    "word": "/deck/audio/enterar-find-out.word.mp3",
+    "sentence": "/deck/audio/enterar-find-out.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "facil-easy",
+  "rank": 409,
+  "word": "fácil",
+  "draft": "2ef049e23949d1be",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "easy (adjective; same form for masculine and feminine)",
+    "example": "It's not easy, but we're going to pull it off."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:06.104Z"
+}

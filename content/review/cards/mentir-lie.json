@@ -1,0 +1,17 @@
+{
+  "id": "mentir-lie",
+  "rank": 442,
+  "word": "mentir",
+  "draft": "1b36aca4c3d67225",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to lie (tell a falsehood)",
+    "example": "Why did you lie to me?"
+  },
+  "note": "The hint is needed here because without it \"to lie\" could also mean acostarse or estar acostado (to lie down).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:43.463Z"
+}

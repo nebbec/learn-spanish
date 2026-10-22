@@ -1,0 +1,24 @@
+{
+  "id": "carta-letter",
+  "rank": 501,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la carta",
+  "en": "letter",
+  "hint": "that you mail, not of the alphabet",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Te escribí una carta muy larga.",
+    "en": "I wrote you a very long letter."
+  },
+  "regional": null,
+  "trick": "CARTA sounds like \"cart a\": the mail carrier carts a letter to your door.",
+  "image": "/deck/img/carta-letter.webp",
+  "audio": {
+    "word": "/deck/audio/carta-letter.word.mp3",
+    "sentence": "/deck/audio/carta-letter.sentence.mp3"
+  }
+}

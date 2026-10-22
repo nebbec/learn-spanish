@@ -1,0 +1,17 @@
+{
+  "id": "sobre-about",
+  "rank": 118,
+  "word": "sobre",
+  "draft": "5c882323cb1e16fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "about, on (a topic); also on top of, over",
+    "example": "I want to talk with you about your brother."
+  },
+  "note": "The hint is needed because \"una película de amor\" is the most natural way to say \"a love movie\", and \"not de\" also rules out \"acerca de\"; the full Spanish would be \"una película sobre el amor\", with the article.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:34.307Z"
+}

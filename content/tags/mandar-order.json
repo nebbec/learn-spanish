@@ -1,0 +1,14 @@
+{
+  "id": "mandar-order",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use mandar for telling someone what to do; to order food or drinks, use pedir.",
+  "draft": "b727ce9625ee0a9b",
+  "group": "#489 mandar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:29.899Z"
+}

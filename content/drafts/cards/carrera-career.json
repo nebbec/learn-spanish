@@ -1,0 +1,24 @@
+{
+  "id": "carrera-career",
+  "rank": 645,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la carrera",
+  "en": "career",
+  "hint": "also a university degree",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Estudio la carrera de medicina.",
+    "en": "I'm studying for a degree in medicine."
+  },
+  "regional": null,
+  "trick": "CARRERA sounds like \"career\" with an extra roll: your career carries you through life.",
+  "image": "/deck/img/carrera-career.webp",
+  "audio": {
+    "word": "/deck/audio/carrera-career.word.mp3",
+    "sentence": "/deck/audio/carrera-career.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "seguir-keep-going",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "08865c5da01a8148",
+  "group": "#126 seguir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:19.515Z"
+}

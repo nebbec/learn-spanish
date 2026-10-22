@@ -1,0 +1,17 @@
+{
+  "id": "alguien-someone",
+  "rank": 125,
+  "word": "alguien",
+  "draft": "0822fd3686eff312",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "alguien = someone, somebody; anyone (in questions)",
+    "example": "Does anyone want more coffee? (literally: Someone wants more coffee?)"
+  },
+  "note": "The example shows alguien meaning \"anyone\" in a question, which is good to teach, but the learner should know it can't replace \"anyone\" in negatives, where Spanish uses nadie.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:14.149Z"
+}

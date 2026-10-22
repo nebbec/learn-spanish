@@ -1,0 +1,34 @@
+# despertar-wake-up · rank 505 · despertar
+#
+# Why it was flagged:
+#   - One right answer: With no hint, a fluent speaker could also answer despertarse for 'to wake up', because that is the usual Spanish for waking up yourself. Suggested fix: hint: the base verb, without -se
+# Reviewer's note (not a reason to flag): The e to ie stem change (despierto) means irregular: true is correct, and ¡Despierta! is a natural informal command in Latin America, alongside ¡Despiértate!.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint, shortened.
+decision: approve
+
+id:             despertar-wake-up
+kind:           content
+pos:            verb
+target:         despertar
+en:             to wake up
+hint:           the form without -se
+tu:             despiertas
+el:             despierta
+irregular:      yes
+example.target: ¡Despierta! Ya es tarde.
+example.en:     Wake up! It's already late.
+regional.where:
+regional.text:
+trick:          DESPERTAR sounds like desperate star: a desperate star shakes the sleepy sun to wake it up every morning.
+
+# The draft this file was made from. Do not change it.
+draft: 860f6f67e6efe4cb

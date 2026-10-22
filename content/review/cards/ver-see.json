@@ -2,16 +2,22 @@
   "id": "ver-see",
   "rank": 35,
   "word": "ver",
-  "draft": "df436815e6cf51c2",
-  "flagged": false,
-  "findings": [],
+  "draft": "d17356efc2bf2843",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses ver only in the infinitive, and it means visiting someone rather than seeing with your eyes.",
+      "fix": "example.es: No veo bien sin mis lentes. / example.en: I can't see well without my glasses."
+    }
+  ],
   "back": {
-    "es": "to see",
-    "example": "I don't see anything without my glasses."
+    "es": "to see (also: to watch)",
+    "example": "I want to see my mother today."
   },
-  "note": "The example uses Latin American \"lentes\" (Spain would say \"gafas\"), which is fine because the spain field is about \"ver\" itself.",
+  "note": "The trick's sound link is loose, because ver sounds more like \"bear\" than \"where\", but it says nothing false.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T14:20:22.903Z"
+  "reviewedAt": "2026-10-09T14:19:46.846Z"
 }

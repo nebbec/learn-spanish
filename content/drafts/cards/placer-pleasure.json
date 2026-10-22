@@ -1,0 +1,24 @@
+{
+  "id": "placer-pleasure",
+  "rank": 659,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el placer",
+  "en": "pleasure",
+  "hint": "enjoyment, delight (not gusto)",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Es un placer trabajar contigo.",
+    "en": "It's a pleasure to work with you."
+  },
+  "regional": null,
+  "trick": "PLACER sounds like \"pleasure\" said with a smile: a pleasant place gives you pleasure.",
+  "image": "/deck/img/placer-pleasure.webp",
+  "audio": {
+    "word": "/deck/audio/placer-pleasure.word.mp3",
+    "sentence": "/deck/audio/placer-pleasure.sentence.mp3"
+  }
+}

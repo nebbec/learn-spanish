@@ -1,0 +1,21 @@
+{
+  "id": "donde-where-173",
+  "rank": 173,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "donde",
+  "en": "the house [where] I live",
+  "hint": "not a question, so no accent",
+  "grammar": null,
+  "example": {
+    "target": "Esta es la casa donde vivo.",
+    "en": "This is the house where I live."
+  },
+  "regional": null,
+  "trick": "DONDE sounds like \"dawn day\": the place where you watch the dawn each day.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/donde-where-173.word.mp3",
+    "sentence": "/deck/audio/donde-where-173.sentence.mp3"
+  }
+}

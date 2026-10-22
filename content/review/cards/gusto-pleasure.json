@@ -1,0 +1,23 @@
+{
+  "id": "gusto-pleasure",
+  "rank": 625,
+  "word": "gusto",
+  "draft": "9257eba1315a3905",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick reverses the set phrase: you say 'the pleasure is all mine' when you meet someone, and 'all yours' gets the courtesy backwards and is confusing.",
+      "fix": "trick: Say 'mucho gusto' with real gusto when you meet someone, because the pleasure is all mine."
+    }
+  ],
+  "back": {
+    "es": "the pleasure; (also) taste, liking",
+    "example": "Nice to meet you (lit. much pleasure), my name is Ana."
+  },
+  "note": "The hint is needed: without it, a learner would answer el placer for 'pleasure', and the 'mucho ___' frame rules that out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:38.788Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "final-end",
+  "rank": 373,
+  "word": "final",
+  "draft": "38eb3aed6f9cb637",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the end, the ending (noun)",
+    "example": "In the end, everything turned out well."
+  },
+  "note": "The hint correctly rules out fin and points to the noun sense, which keeps this card apart from the adjective card \"final\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:53.166Z"
+}

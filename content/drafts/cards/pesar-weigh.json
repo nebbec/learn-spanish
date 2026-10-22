@@ -1,0 +1,28 @@
+{
+  "id": "pesar-weigh",
+  "rank": 658,
+  "kind": "content",
+  "pos": "verb",
+  "target": "pesar",
+  "en": "to weigh",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "peso",
+      "tu": "pesas",
+      "el": "pesa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Esta maleta pesa demasiado.",
+    "en": "This suitcase weighs too much."
+  },
+  "regional": null,
+  "trick": "PESAR sounds like 'pay czar': the czar makes you pay by how much your gold weighs.",
+  "image": "/deck/img/pesar-weigh.webp",
+  "audio": {
+    "word": "/deck/audio/pesar-weigh.word.mp3",
+    "sentence": "/deck/audio/pesar-weigh.sentence.mp3"
+  }
+}

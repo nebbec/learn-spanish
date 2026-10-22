@@ -1,0 +1,14 @@
+{
+  "rank": 139,
+  "word": "seguro",
+  "cards": [
+    "seguro-sure",
+    "seguro-safe",
+    "seguro-insurance"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:17:49.010Z"
+}

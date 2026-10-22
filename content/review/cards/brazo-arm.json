@@ -1,0 +1,17 @@
+{
+  "id": "brazo-arm",
+  "rank": 661,
+  "word": "brazo",
+  "draft": "a0b596e2659a5549",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "arm (the body part)",
+    "example": "My right arm hurts."
+  },
+  "note": "Read by itself, \"arm\" means the body part, so no hint is needed to rule out \"el arma\" (weapon).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:35.170Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "camino-path-way",
+  "rank": 270,
+  "word": "camino",
+  "draft": "b2cbd59bac18736b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the road, path, way (the route from one place to another)",
+    "example": "We're already on the way."
+  },
+  "note": "The hint correctly rules out manera and modo for \"way\", and pairing \"path\" with \"way\" points to camino rather than sendero or ruta.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:30.634Z"
+}

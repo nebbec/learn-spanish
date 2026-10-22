@@ -1,0 +1,17 @@
+{
+  "id": "ahi-there",
+  "rank": 131,
+  "word": "ahí",
+  "draft": "5cd233dbe5d49d57",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "there (near the person spoken to)",
+    "example": "Your keys are there, on the table."
+  },
+  "note": "The hint correctly rules out aquí (near me) and allí/allá (far away), though in everyday Latin American speech ahí is also used loosely for places a bit farther off.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:33.706Z"
+}

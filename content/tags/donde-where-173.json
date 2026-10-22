@@ -1,0 +1,14 @@
+{
+  "id": "donde-where-173",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use donde without an accent for the place where something happens; dónde with an accent only asks a question.",
+  "draft": "3ae6acddab202648",
+  "group": "#173 donde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:35.909Z"
+}

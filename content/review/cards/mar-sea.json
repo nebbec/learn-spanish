@@ -1,0 +1,17 @@
+{
+  "id": "mar-sea",
+  "rank": 720,
+  "word": "mar",
+  "draft": "4e17ccf06dd0752c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the sea",
+    "example": "We're going to swim in the sea / Let's go swim in the sea."
+  },
+  "note": "Mar is normally masculine, but \"la mar\" turns up in poetry and sailors' speech, so el mar is the right form to teach.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:18.252Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "parte-part",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f20b3772e05e02ac",
+  "group": "#182 parte",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:50.399Z"
+}

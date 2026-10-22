@@ -1,0 +1,12 @@
+{
+  "rank": 321,
+  "word": "mostrar",
+  "cards": [
+    "mostrar-show"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:25:36.981Z"
+}

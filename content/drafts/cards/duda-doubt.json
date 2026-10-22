@@ -1,0 +1,24 @@
+{
+  "id": "duda-doubt",
+  "rank": 769,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la duda",
+  "en": "doubt",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Sin duda, es la mejor película del año.",
+    "en": "Without a doubt, it's the best movie of the year."
+  },
+  "regional": null,
+  "trick": "DUDA sounds like \"dude, uh...\": you say it when you're full of doubt.",
+  "image": "/deck/img/duda-doubt.webp",
+  "audio": {
+    "word": "/deck/audio/duda-doubt.word.mp3",
+    "sentence": "/deck/audio/duda-doubt.sentence.mp3"
+  }
+}

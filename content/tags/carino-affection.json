@@ -1,0 +1,14 @@
+{
+  "id": "carino-affection",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "dbf8d0f714006af1",
+  "group": "#262 cariño",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:55.426Z"
+}

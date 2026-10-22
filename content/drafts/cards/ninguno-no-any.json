@@ -1,0 +1,21 @@
+{
+  "id": "ninguno-no-any",
+  "rank": 184,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "ninguno",
+  "en": "I don't have [any] money problem",
+  "hint": "negative word before a noun; shortens to ningún before masculine nouns",
+  "grammar": null,
+  "example": {
+    "target": "No hay ningún problema.",
+    "en": "There's no problem at all."
+  },
+  "regional": null,
+  "trick": "NINGUNO sounds like \"nothing, you know\": not a single one, nothing at all.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ninguno-no-any.word.mp3",
+    "sentence": "/deck/audio/ninguno-no-any.sentence.mp3"
+  }
+}

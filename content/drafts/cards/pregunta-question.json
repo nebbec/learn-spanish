@@ -1,0 +1,24 @@
+{
+  "id": "pregunta-question",
+  "rank": 348,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la pregunta",
+  "en": "question",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tengo una pregunta para ti.",
+    "en": "I have a question for you."
+  },
+  "regional": null,
+  "trick": "PREGUNTA sounds like \"pre-gun\": before the gun goes off, the detective asks one last question.",
+  "image": "/deck/img/pregunta-question.webp",
+  "audio": {
+    "word": "/deck/audio/pregunta-question.word.mp3",
+    "sentence": "/deck/audio/pregunta-question.sentence.mp3"
+  }
+}

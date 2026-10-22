@@ -1,0 +1,28 @@
+{
+  "id": "sonar-ring",
+  "rank": 392,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sonar",
+  "en": "to ring",
+  "hint": "a phone or bell making noise",
+  "grammar": {
+    "present": {
+      "yo": "sueno",
+      "tu": "suenas",
+      "el": "suena"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Tu teléfono está sonando.",
+    "en": "Your phone is ringing."
+  },
+  "regional": null,
+  "trick": "SONAR sounds like a submarine's sonar: ping, ping, like a phone ringing underwater.",
+  "image": "/deck/img/sonar-ring.webp",
+  "audio": {
+    "word": "/deck/audio/sonar-ring.word.mp3",
+    "sentence": "/deck/audio/sonar-ring.sentence.mp3"
+  }
+}

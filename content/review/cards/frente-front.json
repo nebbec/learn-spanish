@@ -1,0 +1,17 @@
+{
+  "id": "frente-front",
+  "rank": 571,
+  "word": "frente",
+  "draft": "1544595f2b70ef59",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el frente = the front (the forward part or side of something; also a military or weather front)",
+    "example": "She always sits at the front."
+  },
+  "note": "The masculine el frente (front) and feminine la frente (forehead, the word's other card) are easy to mix up, so the editor could point out the gender contrast to the learner somewhere on the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:52.244Z"
+}

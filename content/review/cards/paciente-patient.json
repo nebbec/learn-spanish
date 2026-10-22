@@ -1,0 +1,17 @@
+{
+  "id": "paciente-patient",
+  "rank": 713,
+  "word": "paciente",
+  "draft": "19d0e4beab806485",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the patient (a person receiving medical care)",
+    "example": "The doctor is with another patient."
+  },
+  "note": "The hint is needed because it rules out the adjective \"patient\" (paciente, as in having patience), and the editor might add to grammar that paciente takes either gender (el paciente, la paciente for a woman).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:01.793Z"
+}

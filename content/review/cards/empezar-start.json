@@ -1,0 +1,17 @@
+{
+  "id": "empezar-start",
+  "rank": 195,
+  "word": "empezar",
+  "draft": "60637b7d30b06b74",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to start, to begin",
+    "example": "The movie starts at eight."
+  },
+  "note": "The hint is needed because comenzar is an equally correct answer for \"to start,\" and it rules it out correctly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:37.296Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "valer-be-worth",
+  "rank": 162,
+  "kind": "content",
+  "pos": "verb",
+  "target": "valer",
+  "en": "to be worth",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "valgo",
+      "tu": "vales",
+      "el": "vale"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Esa película no vale la pena.",
+    "en": "That movie isn't worth it."
+  },
+  "regional": null,
+  "trick": "VALER sounds like value: if something has value, it is worth something.",
+  "image": "/deck/img/valer-be-worth.webp",
+  "audio": {
+    "word": "/deck/audio/valer-be-worth.word.mp3",
+    "sentence": "/deck/audio/valer-be-worth.sentence.mp3"
+  }
+}

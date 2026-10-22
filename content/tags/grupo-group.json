@@ -1,0 +1,14 @@
+{
+  "id": "grupo-group",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8e4f6dd3844b7cbc",
+  "group": "#534 grupo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:47:49.631Z"
+}

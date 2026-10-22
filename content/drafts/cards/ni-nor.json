@@ -1,0 +1,21 @@
+{
+  "id": "ni-nor",
+  "rank": 135,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "ni",
+  "en": "neither coffee [nor] tea",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "No tomo café ni té.",
+    "en": "I don't drink coffee or tea."
+  },
+  "regional": null,
+  "trick": "NI sounds like knee: neither my knee nor my ankle hurts today.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/ni-nor.word.mp3",
+    "sentence": "/deck/audio/ni-nor.sentence.mp3"
+  }
+}

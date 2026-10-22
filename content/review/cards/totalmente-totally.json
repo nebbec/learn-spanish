@@ -1,0 +1,23 @@
+{
+  "id": "totalmente-totally",
+  "rank": 719,
+  "word": "totalmente",
+  "draft": "6c1c44590476a02f",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "\"Tienes totalmente la razón\" is grammatical, but it sounds stiff: speakers say \"Tienes toda la razón\" (which drops the target word) or \"Tienes totalmente razón\", and the most natural use of totalmente is in \"totalmente de acuerdo\".",
+      "fix": "example.es: Estoy totalmente de acuerdo contigo. / example.en: I totally agree with you."
+    }
+  ],
+  "back": {
+    "es": "totally, completely, entirely (adverb)",
+    "example": "You totally have the right / You're totally right."
+  },
+  "note": "An unprompted learner might answer completamente, but \"totally\" points clearly to the cognate totalmente, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:18.283Z"
+}

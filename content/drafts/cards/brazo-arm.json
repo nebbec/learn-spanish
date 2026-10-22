@@ -1,0 +1,24 @@
+{
+  "id": "brazo-arm",
+  "rank": 661,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el brazo",
+  "en": "arm",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Me duele el brazo derecho.",
+    "en": "My right arm hurts."
+  },
+  "regional": null,
+  "trick": "BRAZO sounds like \"bra-so\": a bracelet goes around your arm.",
+  "image": "/deck/img/brazo-arm.webp",
+  "audio": {
+    "word": "/deck/audio/brazo-arm.word.mp3",
+    "sentence": "/deck/audio/brazo-arm.sentence.mp3"
+  }
+}

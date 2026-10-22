@@ -1,0 +1,17 @@
+{
+  "id": "musica-music",
+  "rank": 516,
+  "word": "música",
+  "draft": "658a261346d8d0c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "music",
+    "example": "I love this group's (band's) music."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:13.845Z"
+}

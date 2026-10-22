@@ -1,0 +1,35 @@
+# trabajar-work · rank 168 · trabajar
+#
+# Why it was flagged:
+#   - One right answer: With no hint, the bare prompt "to work" could also be answered with funcionar, a common word meaning to work as a machine or plan works. Suggested fix: hint: as in doing a job, not a machine working
+# Reviewer's note (not a reason to flag): The grammar strip trabajo / trabajas / trabaja is correct, and trabajar is regular in both the present and the preterite.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: approve
+
+id:             trabajar-work
+kind:           content
+pos:            verb
+target:         trabajar
+en:             to work
+hint:           as in doing a job, not a machine working
+yo:             trabajo
+tu:             trabajas
+el:             trabaja
+irregular:      no
+example.target: Mi madre trabaja en un hotel.
+example.en:     My mother works at a hotel.
+regional.where:
+regional.text:
+trick:          TRABAJAR sounds like "trouble, ha!": work is trouble, but you laugh and keep working.
+
+# The draft this file was made from. Do not change it.
+draft: fcfee5bcdc4c6bbb

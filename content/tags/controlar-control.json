@@ -1,0 +1,14 @@
+{
+  "id": "controlar-control",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bd366895fe3c8df1",
+  "group": "#710 controlar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:19.064Z"
+}

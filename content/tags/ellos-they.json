@@ -1,0 +1,14 @@
+{
+  "id": "ellos-they",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8d817d25ac866817",
+  "group": "#142 ellos",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:41.008Z"
+}

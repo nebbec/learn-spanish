@@ -1,0 +1,12 @@
+{
+  "rank": 794,
+  "word": "peligro",
+  "cards": [
+    "peligro-danger"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:49:22.814Z"
+}

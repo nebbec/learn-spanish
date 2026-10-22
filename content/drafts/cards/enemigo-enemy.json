@@ -1,0 +1,24 @@
+{
+  "id": "enemigo-enemy",
+  "rank": 718,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el enemigo",
+  "en": "enemy",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Él no es tu enemigo, es tu hermano.",
+    "en": "He's not your enemy, he's your brother."
+  },
+  "regional": null,
+  "trick": "ENEMIGO sounds like \"enemy go\": you yell \"Enemy, go away!\" at your rival.",
+  "image": "/deck/img/enemigo-enemy.webp",
+  "audio": {
+    "word": "/deck/audio/enemigo-enemy.word.mp3",
+    "sentence": "/deck/audio/enemigo-enemy.sentence.mp3"
+  }
+}

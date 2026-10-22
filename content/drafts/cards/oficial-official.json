@@ -1,0 +1,23 @@
+{
+  "id": "oficial-official",
+  "rank": 548,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "oficial",
+  "en": "official",
+  "hint": null,
+  "grammar": {
+    "feminine": "oficial"
+  },
+  "example": {
+    "target": "Es la versión oficial de la historia.",
+    "en": "It's the official version of the story."
+  },
+  "regional": null,
+  "trick": "OFICIAL looks almost exactly like official: just drop one f and add a Spanish accent to the sound.",
+  "image": "/deck/img/oficial-official.webp",
+  "audio": {
+    "word": "/deck/audio/oficial-official.word.mp3",
+    "sentence": "/deck/audio/oficial-official.sentence.mp3"
+  }
+}

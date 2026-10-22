@@ -1,0 +1,17 @@
+{
+  "id": "ay-ouch",
+  "rank": 632,
+  "word": "ay",
+  "draft": "1bd4acf4bd2a681a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "ouch, oh, oh no (interjection of pain, surprise or dismay)",
+    "example": "Oh, my head hurts!"
+  },
+  "note": "The hint \"also oh, oh no\" is needed: it rules out the English-influenced \"auch\" (used in Mexico) and \"uy\", which could also answer a bare \"ouch\"; the example's English could also be \"Oh, my head hurts!\", since a headache isn't a sudden pain.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:10.153Z"
+}

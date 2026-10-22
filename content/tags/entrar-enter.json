@@ -1,0 +1,14 @@
+{
+  "id": "entrar-enter",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a8b4cab01ad4e9b6",
+  "group": "#191 entrar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:10.178Z"
+}

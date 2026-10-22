@@ -1,0 +1,17 @@
+{
+  "id": "guerra-war",
+  "rank": 356,
+  "word": "guerra",
+  "draft": "6f6cbabf4782de61",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the war",
+    "example": "My grandfather fought in the war."
+  },
+  "note": "The trick works well because \"guerrilla\" really is the Spanish word for \"little war\", made from guerra.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:35.400Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "alto-tall",
+  "rank": 317,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "alto",
+  "en": "tall, high",
+  "hint": null,
+  "grammar": {
+    "feminine": "alta"
+  },
+  "example": {
+    "target": "Mi hermano es muy alto.",
+    "en": "My brother is very tall."
+  },
+  "regional": null,
+  "trick": "ALTO sounds like altitude: things with high altitude are tall and high up.",
+  "image": "/deck/img/alto-tall.webp",
+  "audio": {
+    "word": "/deck/audio/alto-tall.word.mp3",
+    "sentence": "/deck/audio/alto-tall.sentence.mp3"
+  }
+}

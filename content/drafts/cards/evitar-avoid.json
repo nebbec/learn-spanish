@@ -1,0 +1,28 @@
+{
+  "id": "evitar-avoid",
+  "rank": 648,
+  "kind": "content",
+  "pos": "verb",
+  "target": "evitar",
+  "en": "to avoid",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "evito",
+      "tu": "evitas",
+      "el": "evita"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Siempre evito el tráfico por la mañana.",
+    "en": "I always avoid traffic in the morning."
+  },
+  "regional": null,
+  "trick": "EVITAR sounds like \"evade a car\": you avoid it by jumping out of the way.",
+  "image": "/deck/img/evitar-avoid.webp",
+  "audio": {
+    "word": "/deck/audio/evitar-avoid.word.mp3",
+    "sentence": "/deck/audio/evitar-avoid.sentence.mp3"
+  }
+}

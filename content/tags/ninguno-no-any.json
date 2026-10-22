@@ -1,0 +1,14 @@
+{
+  "id": "ninguno-no-any",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b6675e5563f928cf",
+  "group": "#184 ninguno",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:55.229Z"
+}

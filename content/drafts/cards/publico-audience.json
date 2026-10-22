@@ -1,0 +1,24 @@
+{
+  "id": "publico-audience",
+  "rank": 664,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el público",
+  "en": "audience",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El público aplaudió mucho.",
+    "en": "The audience clapped a lot."
+  },
+  "regional": null,
+  "trick": "EL PÚBLICO is the public that shows up to watch, so the crowd in the seats is your audience.",
+  "image": "/deck/img/publico-audience.webp",
+  "audio": {
+    "word": "/deck/audio/publico-audience.word.mp3",
+    "sentence": "/deck/audio/publico-audience.sentence.mp3"
+  }
+}

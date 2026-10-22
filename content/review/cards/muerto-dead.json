@@ -1,0 +1,17 @@
+{
+  "id": "muerto-dead",
+  "rank": 203,
+  "word": "muerto",
+  "draft": "a612e6a8880005e8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dead",
+    "example": "I think the fish is dead."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:52.726Z"
+}

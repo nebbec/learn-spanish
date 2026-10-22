@@ -1,0 +1,14 @@
+{
+  "id": "idea-idea",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3c7e7301ece46ad6",
+  "group": "#212 idea",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:39.469Z"
+}

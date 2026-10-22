@@ -1,0 +1,28 @@
+{
+  "id": "reunir-meet",
+  "rank": 708,
+  "kind": "content",
+  "pos": "verb",
+  "target": "reunirse",
+  "en": "to meet",
+  "hint": "get together, as for a meeting",
+  "grammar": {
+    "present": {
+      "yo": "me reúno",
+      "tu": "te reúnes",
+      "el": "se reúne"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Nos reunimos mañana a las diez.",
+    "en": "We're meeting tomorrow at ten."
+  },
+  "regional": null,
+  "trick": "REUNIRSE sounds like reunion: when you meet up with old friends, it's a reunion.",
+  "image": "/deck/img/reunir-meet.webp",
+  "audio": {
+    "word": "/deck/audio/reunir-meet.word.mp3",
+    "sentence": "/deck/audio/reunir-meet.sentence.mp3"
+  }
+}

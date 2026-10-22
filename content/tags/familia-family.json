@@ -1,0 +1,14 @@
+{
+  "id": "familia-family",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3fce090652c8651f",
+  "group": "#231 familia",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:10.671Z"
+}

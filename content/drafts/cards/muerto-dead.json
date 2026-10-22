@@ -1,0 +1,23 @@
+{
+  "id": "muerto-dead",
+  "rank": 203,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "muerto",
+  "en": "dead",
+  "hint": null,
+  "grammar": {
+    "feminine": "muerta"
+  },
+  "example": {
+    "target": "Creo que el pez está muerto.",
+    "en": "I think the fish is dead."
+  },
+  "regional": null,
+  "trick": "MUERTO sounds like mortuary, the place where the dead are kept.",
+  "image": "/deck/img/muerto-dead.webp",
+  "audio": {
+    "word": "/deck/audio/muerto-dead.word.mp3",
+    "sentence": "/deck/audio/muerto-dead.sentence.mp3"
+  }
+}

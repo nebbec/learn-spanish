@@ -1,0 +1,17 @@
+{
+  "id": "normal-normal",
+  "rank": 635,
+  "word": "normal",
+  "draft": "0333ead8a97581b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "normal (adjective: usual, ordinary, as expected)",
+    "example": "It's normal to be nervous before an exam."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:19.069Z"
+}

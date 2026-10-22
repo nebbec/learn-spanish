@@ -1,0 +1,17 @@
+{
+  "id": "llorar-cry",
+  "rank": 533,
+  "word": "llorar",
+  "draft": "ca2a220f459895a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to cry, to weep",
+    "example": "Don't cry, everything is going to be fine."
+  },
+  "note": "The prompt \"to cry\" means \"to weep\" by default, so it doesn't need a hint, though \"gritar\" (to cry out, to shout) is a meaning nearby.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:16.981Z"
+}

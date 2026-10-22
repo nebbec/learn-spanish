@@ -1,0 +1,24 @@
+{
+  "id": "cerebro-brain",
+  "rank": 798,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cerebro",
+  "en": "brain",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Usa el cerebro antes de hablar.",
+    "en": "Use your brain before you talk."
+  },
+  "regional": null,
+  "trick": "CEREBRO sounds like cerebral: your brain does all the cerebral thinking.",
+  "image": "/deck/img/cerebro-brain.webp",
+  "audio": {
+    "word": "/deck/audio/cerebro-brain.word.mp3",
+    "sentence": "/deck/audio/cerebro-brain.sentence.mp3"
+  }
+}

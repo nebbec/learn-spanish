@@ -1,0 +1,17 @@
+{
+  "id": "lindo-pretty",
+  "rank": 479,
+  "word": "lindo",
+  "draft": "3a6c788012fb99f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "pretty, cute, lovely (adjective)",
+    "example": "How pretty your house looks!"
+  },
+  "note": "The hint rules out bonito, and \"cute, lovely\" points the learner toward lindo rather than hermoso or bello, so the card has one right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:07.471Z"
+}

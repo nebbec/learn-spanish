@@ -1,0 +1,12 @@
+{
+  "rank": 231,
+  "word": "familia",
+  "cards": [
+    "familia-family"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:21:43.561Z"
+}

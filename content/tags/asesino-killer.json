@@ -1,0 +1,14 @@
+{
+  "id": "asesino-killer",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7641073db91e4376",
+  "group": "#491 asesino",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:31.378Z"
+}

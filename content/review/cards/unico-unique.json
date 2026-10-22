@@ -1,0 +1,17 @@
+{
+  "id": "unico-unique",
+  "rank": 222,
+  "word": "único",
+  "draft": "feca852c8258a2d0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "unique (also: only, sole)",
+    "example": "Your grandma has a unique style."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:22.438Z"
+}

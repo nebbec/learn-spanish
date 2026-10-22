@@ -1,0 +1,17 @@
+{
+  "id": "parecer-seem",
+  "rank": 101,
+  "word": "parecer",
+  "draft": "3541ca10960db06a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to seem, to appear; to look (like)",
+    "example": "Your brother looks very tired today."
+  },
+  "note": "Since this is the word's only card, the editor could add the very common \"me parece que...\" (I think that...) later, maybe as a phrase card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:18.936Z"
+}

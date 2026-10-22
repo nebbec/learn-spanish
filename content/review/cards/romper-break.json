@@ -1,0 +1,17 @@
+{
+  "id": "romper-break",
+  "rank": 385,
+  "word": "romper",
+  "draft": "8ed10a44ba536693",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to break",
+    "example": "My brother broke the window."
+  },
+  "note": "Romper is regular in the present and preterite, so irregular false is correct under the card rules even though its past participle \"roto\" is irregular; quebrar is a regional near-synonym, but romper is the standard general answer for \"to break\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:09.617Z"
+}

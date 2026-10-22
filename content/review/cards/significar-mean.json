@@ -1,0 +1,17 @@
+{
+  "id": "significar-mean",
+  "rank": 254,
+  "word": "significar",
+  "draft": "181d2cb2f4cba60d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to mean, to signify",
+    "example": "What does this word mean?"
+  },
+  "note": "The preterite yo form signifiqué is only a regular -car spelling change, so irregular: false is correct, and the hint is needed to rule out querer decir.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:27.511Z"
+}

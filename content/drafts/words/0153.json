@@ -1,0 +1,14 @@
+{
+  "rank": 153,
+  "word": "claro",
+  "cards": [
+    "claro-of-course",
+    "claro-clear",
+    "claro-light-color"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:18:23.798Z"
+}

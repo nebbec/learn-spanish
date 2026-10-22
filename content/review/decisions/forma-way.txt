@@ -1,0 +1,33 @@
+# forma-way · rank 241 · forma
+#
+# Why it was flagged:
+#   - One right answer: The hint wrongly says manera also means shape (it is forma that does), and it doesn't rule out modo or camino, both common answers for 'the way to do it'. Suggested fix: hint: manner, as in the way to do it; not manera or modo, but the word that also means shape
+# Reviewer's note (not a reason to flag): Pointing to the shape meaning in the hint is a good way to single out forma, because manera and modo don't share it.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: approve
+
+id:             forma-way
+kind:           content
+pos:            noun
+target:         la forma
+en:             way
+hint:           manner, as in the way to do it; not manera or modo, but the word that also means shape
+gender:         f
+article:        la
+example.target: No hay otra forma de hacerlo.
+example.en:     There's no other way to do it.
+regional.where:
+regional.text:
+trick:          FORMA sounds like format: the format is the way you do something.
+
+# The draft this file was made from. Do not change it.
+draft: 53687d48c17a47ef

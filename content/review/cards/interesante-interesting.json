@@ -1,0 +1,23 @@
+{
+  "id": "interesante-interesting",
+  "rank": 696,
+  "word": "interesante",
+  "draft": "59ad8fe2c5878b30",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example has no conjugated verb, and as an exclamation it should have ¡ ! instead of a full stop.",
+      "fix": "example.es: Este libro es muy interesante. / example.en: This book is very interesting."
+    }
+  ],
+  "back": {
+    "es": "interesting",
+    "example": "What an interesting book."
+  },
+  "note": "If the editor wants to keep the exclamation, \"¡Qué libro tan interesante!\" is natural, but it still has no conjugated verb.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:14.263Z"
+}

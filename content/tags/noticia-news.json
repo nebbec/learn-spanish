@@ -1,0 +1,14 @@
+{
+  "id": "noticia-news",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "dc7b0ec0b8401bed",
+  "group": "#449 noticia",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:16.737Z"
+}

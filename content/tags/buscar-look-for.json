@@ -1,0 +1,14 @@
+{
+  "id": "buscar-look-for",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "eed4501d3ad68378",
+  "group": "#148 buscar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:52.303Z"
+}

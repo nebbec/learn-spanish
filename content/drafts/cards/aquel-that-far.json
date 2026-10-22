@@ -1,0 +1,21 @@
+{
+  "id": "aquel-that-far",
+  "rank": 478,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "aquel",
+  "en": "[that] man over there",
+  "hint": "far from both speakers, not ese",
+  "grammar": null,
+  "example": {
+    "target": "Aquel hombre es mi tío.",
+    "en": "That man over there is my uncle."
+  },
+  "regional": null,
+  "trick": "AQUEL sounds like \"a kill\": that hunter far away over there is about to make a kill.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/aquel-that-far.word.mp3",
+    "sentence": "/deck/audio/aquel-that-far.sentence.mp3"
+  }
+}

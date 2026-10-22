@@ -1,0 +1,28 @@
+{
+  "id": "cometer-commit",
+  "rank": 727,
+  "kind": "content",
+  "pos": "verb",
+  "target": "cometer",
+  "en": "to commit",
+  "hint": "a crime or a mistake",
+  "grammar": {
+    "present": {
+      "yo": "cometo",
+      "tu": "cometes",
+      "el": "comete"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Él no cometió el crimen.",
+    "en": "He didn't commit the crime."
+  },
+  "regional": null,
+  "trick": "COMETER sounds like comet: a rogue comet commits a crime by smashing into Earth.",
+  "image": "/deck/img/cometer-commit.webp",
+  "audio": {
+    "word": "/deck/audio/cometer-commit.word.mp3",
+    "sentence": "/deck/audio/cometer-commit.sentence.mp3"
+  }
+}

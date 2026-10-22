@@ -1,0 +1,28 @@
+{
+  "id": "reir-laugh",
+  "rank": 743,
+  "word": "reír",
+  "draft": "cd568879bae427c0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In everyday Latin American speech, 'to laugh' is almost always the pronominal reírse, so 'ríe mucho' without se sounds literary rather than conversational.",
+      "fix": "example.es: Mi hija se ríe mucho con ese programa."
+    },
+    {
+      "reason": "example",
+      "problem": "The sentence leaves out the 'se' that natural speech uses with this verb, so the learner memorizes a stiff pattern.",
+      "fix": "example.es: Mi hija se ríe mucho con ese programa."
+    }
+  ],
+  "back": {
+    "es": "to laugh",
+    "example": "My daughter laughs a lot with that show."
+  },
+  "note": "Consider having the grammar or example show that the everyday form is reírse (me río, te ríes, se ríe), since learners will mostly hear it that way.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:59.120Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "adonde-where-to",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use adónde to ask where someone is going (with motion); dónde for where something is.",
+  "draft": "3c99083e5d5dbe68",
+  "group": "#646 adónde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:17.491Z"
+}

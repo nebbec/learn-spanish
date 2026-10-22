@@ -1,0 +1,14 @@
+{
+  "id": "piso-floor",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use piso for a room's floor or a building's level; suelo for the ground underfoot.",
+  "draft": "9834065a61292050",
+  "group": "#785 piso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:32.990Z"
+}

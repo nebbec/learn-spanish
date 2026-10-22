@@ -1,0 +1,14 @@
+{
+  "id": "preocupar-worry",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "afab8c4b432d643e",
+  "group": "#233 preocupar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:16.848Z"
+}

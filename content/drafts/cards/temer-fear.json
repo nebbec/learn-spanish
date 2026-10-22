@@ -1,0 +1,28 @@
+{
+  "id": "temer-fear",
+  "rank": 498,
+  "kind": "content",
+  "pos": "verb",
+  "target": "temer",
+  "en": "to fear",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "temo",
+      "tu": "temes",
+      "el": "teme"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Me temo que no puedo ir.",
+    "en": "I'm afraid I can't go."
+  },
+  "regional": null,
+  "trick": "TEMER sounds like tremor: when you fear something, your hands shake with a tremor.",
+  "image": "/deck/img/temer-fear.webp",
+  "audio": {
+    "word": "/deck/audio/temer-fear.word.mp3",
+    "sentence": "/deck/audio/temer-fear.sentence.mp3"
+  }
+}

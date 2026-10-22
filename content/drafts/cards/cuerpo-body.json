@@ -1,0 +1,24 @@
+{
+  "id": "cuerpo-body",
+  "rank": 329,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cuerpo",
+  "en": "body",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Me duele todo el cuerpo.",
+    "en": "My whole body hurts."
+  },
+  "regional": null,
+  "trick": "CUERPO sounds like corpse, which is a body, just one that has stopped moving.",
+  "image": "/deck/img/cuerpo-body.webp",
+  "audio": {
+    "word": "/deck/audio/cuerpo-body.word.mp3",
+    "sentence": "/deck/audio/cuerpo-body.sentence.mp3"
+  }
+}

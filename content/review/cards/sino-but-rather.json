@@ -1,0 +1,17 @@
+{
+  "id": "sino-but-rather",
+  "rank": 600,
+  "word": "sino",
+  "draft": "b8916ccf4f26bdb2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "but (rather), instead; used after a negative to give the correct alternative",
+    "example": "He isn't my brother, but my cousin."
+  },
+  "note": "The card is correct; the editor could add that before a conjugated verb Spanish uses \"sino que\" (No lo compré, sino que lo pedí prestado).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:07.505Z"
+}

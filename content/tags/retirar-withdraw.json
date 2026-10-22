@@ -1,0 +1,14 @@
+{
+  "id": "retirar-withdraw",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4caad8b4074d8062",
+  "group": "#701 retirar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:01.342Z"
+}

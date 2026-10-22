@@ -1,0 +1,31 @@
+# totalmente-totally · rank 719 · totalmente
+#
+# Why it was flagged:
+#   - Example sentence: "Tienes totalmente la razón" is grammatical, but it sounds stiff: speakers say "Tienes toda la razón" (which drops the target word) or "Tienes totalmente razón", and the most natural use of totalmente is in "totalmente de acuerdo". Suggested fix: example.es: Estoy totalmente de acuerdo contigo. / example.en: I totally agree with you.
+# Reviewer's note (not a reason to flag): An unprompted learner might answer completamente, but "totally" points clearly to the cognate totalmente, so no hint is needed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.
+decision: approve
+
+id:             totalmente-totally
+kind:           content
+pos:            adverb
+target:         totalmente
+en:             totally
+hint:
+example.target: Estoy totalmente de acuerdo contigo.
+example.en:     I totally agree with you.
+regional.where:
+regional.text:
+trick:          TOTALMENTE sounds like "total mental": you agree so totally, it's total mental agreement.
+
+# The draft this file was made from. Do not change it.
+draft: 6c1c44590476a02f

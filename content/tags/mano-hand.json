@@ -1,0 +1,14 @@
+{
+  "id": "mano-hand",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "556df9cde3abc72d",
+  "group": "#197 mano",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:18.599Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "equivocar-make-mistake",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9f899b3f9e7047c0",
+  "group": "#758 equivocar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:41.764Z"
+}

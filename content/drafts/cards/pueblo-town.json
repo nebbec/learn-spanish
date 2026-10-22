@@ -1,0 +1,24 @@
+{
+  "id": "pueblo-town",
+  "rank": 494,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el pueblo",
+  "en": "town",
+  "hint": "small town or village",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mi abuela vive en un pueblo pequeño.",
+    "en": "My grandmother lives in a small town."
+  },
+  "regional": null,
+  "trick": "PUEBLO sounds like Pueblo, Colorado: a town with a Spanish name.",
+  "image": "/deck/img/pueblo-town.webp",
+  "audio": {
+    "word": "/deck/audio/pueblo-town.word.mp3",
+    "sentence": "/deck/audio/pueblo-town.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "lista-list",
+  "rank": 748,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la lista",
+  "en": "list",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tu nombre no está en la lista.",
+    "en": "Your name isn't on the list."
+  },
+  "regional": null,
+  "trick": "LISTA sounds like \"list-a\": a list of things to do.",
+  "image": "/deck/img/lista-list.webp",
+  "audio": {
+    "word": "/deck/audio/lista-list.word.mp3",
+    "sentence": "/deck/audio/lista-list.sentence.mp3"
+  }
+}

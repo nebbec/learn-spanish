@@ -1,0 +1,24 @@
+{
+  "id": "sobre-envelope",
+  "rank": 118,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sobre",
+  "en": "envelope",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El dinero está en el sobre.",
+    "en": "The money is in the envelope."
+  },
+  "regional": null,
+  "trick": "An envelope goes over the letter, and SOBRE means over.",
+  "image": "/deck/img/sobre-envelope.webp",
+  "audio": {
+    "word": "/deck/audio/sobre-envelope.word.mp3",
+    "sentence": "/deck/audio/sobre-envelope.sentence.mp3"
+  }
+}

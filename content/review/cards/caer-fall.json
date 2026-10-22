@@ -1,0 +1,23 @@
+{
+  "id": "caer-fall",
+  "rank": 281,
+  "word": "caer",
+  "draft": "73d3a5a37a8164ae",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The card's verb appears only as the infinitive caer (after va a), so the example doesn't show caer conjugated.",
+      "fix": "example.es: Cuidado, el vaso se va a caer. -> El vaso se cayó al piso. / example.en: The glass fell on the floor."
+    }
+  ],
+  "back": {
+    "es": "to fall (to drop; reflexive caerse = to fall down, fall over)",
+    "example": "Careful, the glass is going to fall."
+  },
+  "note": "In everyday speech \"to fall\" is very often the reflexive caerse, so an example that uses it (se cayó) helps learners, but the bare infinitive caer is still the right answer for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:21.277Z"
+}

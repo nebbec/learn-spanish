@@ -1,0 +1,28 @@
+{
+  "id": "correr-run",
+  "rank": 320,
+  "kind": "content",
+  "pos": "verb",
+  "target": "correr",
+  "en": "to run",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "corro",
+      "tu": "corres",
+      "el": "corre"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¡Corre, que ya viene el bus!",
+    "en": "Run, the bus is already coming!"
+  },
+  "regional": null,
+  "trick": "CORRER sounds like courier: a courier runs through town delivering packages.",
+  "image": "/deck/img/correr-run.webp",
+  "audio": {
+    "word": "/deck/audio/correr-run.word.mp3",
+    "sentence": "/deck/audio/correr-run.sentence.mp3"
+  }
+}

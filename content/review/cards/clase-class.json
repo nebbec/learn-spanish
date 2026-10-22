@@ -1,0 +1,23 @@
+{
+  "id": "clase-class",
+  "rank": 311,
+  "word": "clase",
+  "draft": "d825ab02df344cf0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says clase is class plus an E, but that would spell classe, and a learner would memorize the wrong spelling, since clase has only one S.",
+      "fix": "trick: CLASE sounds like class: drop one S and add an E at the end of the lesson."
+    }
+  ],
+  "back": {
+    "es": "the class (a lesson or school session; also a group of students, or a kind)",
+    "example": "I have English class at eight."
+  },
+  "note": "The hint \"lesson at school\" is needed, because it separates this card from the \"kind, sort\" card, and it fits clase, the usual word for a class session, better than lección.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:09.797Z"
+}

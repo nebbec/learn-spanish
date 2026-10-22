@@ -1,0 +1,17 @@
+{
+  "id": "recuerdo-memory",
+  "rank": 683,
+  "word": "recuerdo",
+  "draft": "8f349b69a69b91ef",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el recuerdo: a memory (something remembered); also a souvenir or keepsake",
+    "example": "I have many nice memories of my childhood."
+  },
+  "note": "The hint is needed and works: it rules out la memoria (the ability to remember), and the prompt is far enough from the souvenir card that the two won't get mixed up.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:13.641Z"
+}

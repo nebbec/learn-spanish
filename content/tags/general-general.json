@@ -1,0 +1,14 @@
+{
+  "id": "general-general",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c7fb2ee41e517eb6",
+  "group": "#543 general",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:05.666Z"
+}

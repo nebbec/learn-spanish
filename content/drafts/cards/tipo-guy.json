@@ -1,0 +1,27 @@
+{
+  "id": "tipo-guy",
+  "rank": 165,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el tipo",
+  "en": "guy",
+  "hint": "informal, a man you don't know well",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Ese tipo me está mirando.",
+    "en": "That guy is looking at me."
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "el tío"
+  },
+  "trick": "TIPO sounds like \"tip-o\": the guy who left no tip.",
+  "image": "/deck/img/tipo-guy.webp",
+  "audio": {
+    "word": "/deck/audio/tipo-guy.word.mp3",
+    "sentence": "/deck/audio/tipo-guy.sentence.mp3"
+  }
+}

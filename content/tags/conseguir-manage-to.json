@@ -1,0 +1,14 @@
+{
+  "id": "conseguir-manage-to",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a45c4cc3449fd67f",
+  "group": "#190 conseguir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:10.809Z"
+}

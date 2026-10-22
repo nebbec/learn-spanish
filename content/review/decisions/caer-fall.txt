@@ -1,0 +1,35 @@
+# caer-fall · rank 281 · caer
+#
+# Why it was flagged:
+#   - Example sentence: The card's verb appears only as the infinitive caer (after va a), so the example doesn't show caer conjugated. Suggested fix: example.es: Cuidado, el vaso se va a caer. -> El vaso se cayó al piso. / example.en: The glass fell on the floor.
+# Reviewer's note (not a reason to flag): In everyday speech "to fall" is very often the reflexive caerse, so an example that uses it (se cayó) helps learners, but the bare infinitive caer is still the right answer for this card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: replaced the example so caer is conjugated; used this instead of the reviewer's 'El vaso se cayó al piso' because vaso and piso are not met yet.
+decision: approve
+
+id:             caer-fall
+kind:           content
+pos:            verb
+target:         caer
+en:             to fall
+hint:
+yo:             caigo
+tu:             caes
+el:             cae
+irregular:      yes
+example.target: Me caí en la calle.
+example.en:     I fell in the street.
+regional.where:
+regional.text:
+trick:          CAER sounds like "cry": you cry when you fall off your bike.
+
+# The draft this file was made from. Do not change it.
+draft: 73d3a5a37a8164ae

@@ -1,0 +1,17 @@
+{
+  "id": "correr-run",
+  "rank": 320,
+  "word": "correr",
+  "draft": "25526f822c57455a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to run (move fast on foot)",
+    "example": "Run, the bus is coming now!"
+  },
+  "note": "Correr is fully regular in the present and preterite, so irregular false is right, and the courier link also works because the two words come from the same Latin root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:53.319Z"
+}

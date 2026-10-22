@@ -1,0 +1,17 @@
+{
+  "id": "tienda-store",
+  "rank": 637,
+  "word": "tienda",
+  "draft": "39f86af426bba5ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "store, shop (also tent)",
+    "example": "I'm going to the store to buy milk."
+  },
+  "note": "Tienda also means \"tent\" (as in \"tienda de campaña\"), but \"store\" is the main meaning and the right one to teach here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:26.688Z"
+}

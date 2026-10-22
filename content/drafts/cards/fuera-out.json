@@ -1,0 +1,21 @@
+{
+  "id": "fuera-out",
+  "rank": 259,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "fuera",
+  "en": "out",
+  "hint": "as in fuera de, out of; not afuera",
+  "grammar": null,
+  "example": {
+    "target": "Mi papá está fuera de la ciudad.",
+    "en": "My dad is out of town."
+  },
+  "regional": null,
+  "trick": "FUERA sounds like fury: in a fury, she threw him out of the house.",
+  "image": "/deck/img/fuera-out.webp",
+  "audio": {
+    "word": "/deck/audio/fuera-out.word.mp3",
+    "sentence": "/deck/audio/fuera-out.sentence.mp3"
+  }
+}

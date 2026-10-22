@@ -1,0 +1,14 @@
+{
+  "id": "estupido-stupid",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "785bac93939b8508",
+  "group": "#471 estúpido",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:53.337Z"
+}

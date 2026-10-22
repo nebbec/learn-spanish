@@ -1,0 +1,24 @@
+{
+  "id": "disculpa-apology",
+  "rank": 756,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la disculpa",
+  "en": "apology",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Te debo una disculpa.",
+    "en": "I owe you an apology."
+  },
+  "regional": null,
+  "trick": "DISCULPA sounds like \"this culprit\": the culprit has to make an apology.",
+  "image": "/deck/img/disculpa-apology.webp",
+  "audio": {
+    "word": "/deck/audio/disculpa-apology.word.mp3",
+    "sentence": "/deck/audio/disculpa-apology.sentence.mp3"
+  }
+}

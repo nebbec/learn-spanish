@@ -1,0 +1,17 @@
+{
+  "id": "tanto-so-much",
+  "rank": 185,
+  "word": "tanto",
+  "draft": "e54e50614480381e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tanto: so much / so many (determiner, agrees: tanto, tanta, tantos, tantas)",
+    "example": "I have so much work today!"
+  },
+  "note": "Since this is tanto's only card, the editor might add the forms tanta, tantos and tantas to the hint, because \"agrees with the noun\" doesn't show the learner what those forms look like.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:52.954Z"
+}

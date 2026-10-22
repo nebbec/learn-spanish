@@ -1,0 +1,24 @@
+{
+  "id": "dolor-pain",
+  "rank": 583,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el dolor",
+  "en": "pain",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Tengo un dolor de cabeza terrible.",
+    "en": "I have a terrible headache."
+  },
+  "regional": null,
+  "trick": "DOLOR sounds like \"dolorous\": a sad, dolorous face is full of pain.",
+  "image": "/deck/img/dolor-pain.webp",
+  "audio": {
+    "word": "/deck/audio/dolor-pain.word.mp3",
+    "sentence": "/deck/audio/dolor-pain.sentence.mp3"
+  }
+}

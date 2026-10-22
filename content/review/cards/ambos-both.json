@@ -1,0 +1,17 @@
+{
+  "id": "ambos-both",
+  "rank": 526,
+  "word": "ambos",
+  "draft": "37f8cc99eacf2190",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "both (masculine plural determiner; feminine ambas)",
+    "example": "Both brothers live in the same city."
+  },
+  "note": "The masculine noun \"brothers\" correctly picks ambos over ambas, and the hint rightly rules out los dos, which is the more common choice in casual Latin American speech; the editor could mention the feminine form ambas somewhere on the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:52.154Z"
+}

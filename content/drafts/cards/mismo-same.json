@@ -1,0 +1,23 @@
+{
+  "id": "mismo-same",
+  "rank": 114,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "mismo",
+  "en": "same",
+  "hint": null,
+  "grammar": {
+    "feminine": "misma"
+  },
+  "example": {
+    "target": "Tenemos el mismo problema.",
+    "en": "We have the same problem."
+  },
+  "regional": null,
+  "trick": "MISMO sounds like \"miss Mo\": twins Mo and Mo look the same, so you miss which Mo is which.",
+  "image": "/deck/img/mismo-same.webp",
+  "audio": {
+    "word": "/deck/audio/mismo-same.word.mp3",
+    "sentence": "/deck/audio/mismo-same.sentence.mp3"
+  }
+}

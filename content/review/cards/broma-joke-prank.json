@@ -1,0 +1,17 @@
+{
+  "id": "broma-joke-prank",
+  "rank": 679,
+  "word": "broma",
+  "draft": "c85e67a8f645d624",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "joke, prank, kidding (a playful trick or something said not seriously)",
+    "example": "It's a joke, don't get mad."
+  },
+  "note": "The hint correctly separates broma from chiste, but the word \"teasing\" could point some learners to burla, so \"prank or kidding, not a joke you tell (chiste)\" would make broma the only answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:56.190Z"
+}

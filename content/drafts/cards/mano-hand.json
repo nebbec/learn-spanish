@@ -1,0 +1,24 @@
+{
+  "id": "mano-hand",
+  "rank": 197,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la mano",
+  "en": "hand",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Lávate las manos antes de comer.",
+    "en": "Wash your hands before eating."
+  },
+  "regional": null,
+  "trick": "MANO sounds like a manicure: a manicure is for your hands. Watch out, it's LA mano even though it ends in -o.",
+  "image": "/deck/img/mano-hand.webp",
+  "audio": {
+    "word": "/deck/audio/mano-hand.word.mp3",
+    "sentence": "/deck/audio/mano-hand.sentence.mp3"
+  }
+}

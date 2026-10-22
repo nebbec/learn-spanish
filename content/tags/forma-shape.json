@@ -1,0 +1,14 @@
+{
+  "id": "forma-shape",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7c10f935ff817353",
+  "group": "#241 forma",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:26.503Z"
+}

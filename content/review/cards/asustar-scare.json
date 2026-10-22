@@ -1,0 +1,17 @@
+{
+  "id": "asustar-scare",
+  "rank": 677,
+  "word": "asustar",
+  "draft": "57c4f1df73927e8d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to scare, to frighten",
+    "example": "Oh, you scared me!"
+  },
+  "note": "Espantar also means to scare, but asustar is clearly the standard everyday answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:47.334Z"
+}

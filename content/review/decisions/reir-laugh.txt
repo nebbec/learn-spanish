@@ -1,0 +1,36 @@
+# reir-laugh · rank 743 · reír
+#
+# Why it was flagged:
+#   - Latin American usage: In everyday Latin American speech, 'to laugh' is almost always the pronominal reírse, so 'ríe mucho' without se sounds literary rather than conversational. Suggested fix: example.es: Mi hija se ríe mucho con ese programa.
+#   - Example sentence: The sentence leaves out the 'se' that natural speech uses with this verb, so the learner memorizes a stiff pattern. Suggested fix: example.es: Mi hija se ríe mucho con ese programa.
+# Reviewer's note (not a reason to flag): Consider having the grammar or example show that the everyday form is reírse (me río, te ríes, se ríe), since learners will mostly hear it that way.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's example (se ríe), and, per the reviewer's note, made the card reírse (es, present forms, trick) so the grammar matches the example and everyday speech, like ocuparse.
+decision: approve
+
+id:             reir-laugh
+kind:           content
+pos:            verb
+target:         reírse
+en:             to laugh
+hint:
+yo:             me río
+tu:             te ríes
+el:             se ríe
+irregular:      yes
+example.target: Mi hija se ríe mucho con ese programa.
+example.en:     My daughter laughs a lot at that show.
+regional.where:
+regional.text:
+trick:          REÍRSE starts like ray-EAR: a ray of laughter rings right in your ear.
+
+# The draft this file was made from. Do not change it.
+draft: cd568879bae427c0

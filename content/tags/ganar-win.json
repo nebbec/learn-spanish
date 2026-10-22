@@ -1,0 +1,14 @@
+{
+  "id": "ganar-win",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fcc9d6b58d3e63d4",
+  "group": "#210 ganar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:36.371Z"
+}

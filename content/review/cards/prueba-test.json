@@ -1,0 +1,17 @@
+{
+  "id": "prueba-test",
+  "rank": 434,
+  "word": "prueba",
+  "draft": "30aa40fcdf8aa4a1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la prueba: test, trial, check; also proof, evidence (feminine noun)",
+    "example": "Tomorrow I have a driving test."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:04.273Z"
+}

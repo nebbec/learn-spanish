@@ -1,0 +1,17 @@
+{
+  "id": "sangre-blood",
+  "rank": 380,
+  "word": "sangre",
+  "draft": "5b2bb7ae7feb0f26",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "blood",
+    "example": "You have blood on your shirt."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:42.869Z"
+}

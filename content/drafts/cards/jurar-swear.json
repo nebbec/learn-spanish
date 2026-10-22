@@ -1,0 +1,28 @@
+{
+  "id": "jurar-swear",
+  "rank": 546,
+  "kind": "content",
+  "pos": "verb",
+  "target": "jurar",
+  "en": "to swear",
+  "hint": "to promise, not to curse",
+  "grammar": {
+    "present": {
+      "yo": "juro",
+      "tu": "juras",
+      "el": "jura"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te juro que no fui yo.",
+    "en": "I swear it wasn't me."
+  },
+  "regional": null,
+  "trick": "JURAR sounds like jury: you swear to tell the truth in front of the jury.",
+  "image": "/deck/img/jurar-swear.webp",
+  "audio": {
+    "word": "/deck/audio/jurar-swear.word.mp3",
+    "sentence": "/deck/audio/jurar-swear.sentence.mp3"
+  }
+}

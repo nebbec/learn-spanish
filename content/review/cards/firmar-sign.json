@@ -1,0 +1,17 @@
+{
+  "id": "firmar-sign",
+  "rank": 800,
+  "word": "firmar",
+  "draft": "0afcbefcdd154bb4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to sign (put one's signature on)",
+    "example": "Sign here, please."
+  },
+  "note": "The example uses the tú imperative \"firma\", which is also the él present form, so the sentence works in the informal register as intended.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:43.166Z"
+}

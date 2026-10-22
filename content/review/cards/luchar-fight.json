@@ -1,0 +1,17 @@
+{
+  "id": "luchar-fight",
+  "rank": 593,
+  "word": "luchar",
+  "draft": "11bd2272b300d14d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to fight, to struggle (for something)",
+    "example": "We always fight for our family."
+  },
+  "note": "The hint \"struggle, fight for something\" is needed to rule out pelear, which is the usual word for a physical fight or an argument, and the trick's image of a brawler is closer to pelear but is not false, since luchar can also mean physical fighting or wrestling.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:40.675Z"
+}

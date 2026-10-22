@@ -1,0 +1,17 @@
+{
+  "id": "oficial-officer",
+  "rank": 548,
+  "word": "oficial",
+  "draft": "64a5801bdeeafb0b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "officer (a commissioned rank in the armed forces or police)",
+    "example": "The officer asked us for the documents."
+  },
+  "note": "Oficial is common gender (el oficial / la oficial), so the editor could mention the feminine article. The hint's word \"rank\" usefully rules out el agente and el policía.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:21.812Z"
+}

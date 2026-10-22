@@ -1,0 +1,35 @@
+# averiguar-find-out · rank 619 · averiguar
+#
+# Why it was flagged:
+#   - Example sentence: The example uses averiguar only as an infinitive after voy a, while the card's verb must appear conjugated. Suggested fix: example.es: Ya averigüé quién lo hizo. example.en: I already found out who did it.
+# Reviewer's note (not a reason to flag): The preterite yo form averigüé is only a spelling change (gu to gü), so irregular false is correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
+decision: approve
+
+id:             averiguar-find-out
+kind:           content
+pos:            verb
+target:         averiguar
+en:             to find out
+hint:           by investigating
+yo:             averiguo
+tu:             averiguas
+el:             averigua
+irregular:      no
+example.target: Ya averigüé quién lo hizo.
+example.en:     I already found out who did it.
+regional.where:
+regional.text:
+trick:          AVERIGUAR sounds like "a very good war": a detective wages a very good war on mystery to find out the truth.
+
+# The draft this file was made from. Do not change it.
+draft: 212d6b724ee5e63a

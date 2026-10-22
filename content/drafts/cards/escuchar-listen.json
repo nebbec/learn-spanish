@@ -1,0 +1,28 @@
+{
+  "id": "escuchar-listen",
+  "rank": 137,
+  "kind": "content",
+  "pos": "verb",
+  "target": "escuchar",
+  "en": "to listen",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "escucho",
+      "tu": "escuchas",
+      "el": "escucha"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Escúchame, esto es importante.",
+    "en": "Listen to me, this is important."
+  },
+  "regional": null,
+  "trick": "ESCUCHAR sounds like 'ask you, char': I ask you something, so listen closely to my answer.",
+  "image": "/deck/img/escuchar-listen.webp",
+  "audio": {
+    "word": "/deck/audio/escuchar-listen.word.mp3",
+    "sentence": "/deck/audio/escuchar-listen.sentence.mp3"
+  }
+}

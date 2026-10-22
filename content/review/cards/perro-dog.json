@@ -1,0 +1,17 @@
+{
+  "id": "perro-dog",
+  "rank": 312,
+  "word": "perro",
+  "draft": "26e15558ca9d7e45",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the dog",
+    "example": "My dog sleeps on the sofa."
+  },
+  "note": "The trick works through the rolled RR sounding like a growl, but calling it \"purring\" points to a cat, so the editor may want to drop that word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:17.143Z"
+}

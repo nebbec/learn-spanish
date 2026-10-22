@@ -1,0 +1,33 @@
+# gusto-pleasure · rank 625 · gusto
+#
+# Why it was flagged:
+#   - Memory trick: The trick reverses the set phrase: you say 'the pleasure is all mine' when you meet someone, and 'all yours' gets the courtesy backwards and is confusing. Suggested fix: trick: Say 'mucho gusto' with real gusto when you meet someone, because the pleasure is all mine.
+# Reviewer's note (not a reason to flag): The hint is needed: without it, a learner would answer el placer for 'pleasure', and the 'mucho ___' frame rules that out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
+decision: approve
+
+id:             gusto-pleasure
+kind:           content
+pos:            noun
+target:         el gusto
+en:             pleasure
+hint:           as in mucho ___, nice to meet you
+gender:         m
+article:        el
+example.target: Mucho gusto, me llamo Ana.
+example.en:     Nice to meet you, my name is Ana.
+regional.where:
+regional.text:
+trick:          Say 'mucho gusto' with real gusto when you meet someone, because the pleasure is all mine.
+
+# The draft this file was made from. Do not change it.
+draft: 9257eba1315a3905

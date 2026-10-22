@@ -1,0 +1,28 @@
+{
+  "id": "seguir-keep-going",
+  "rank": 126,
+  "kind": "content",
+  "pos": "verb",
+  "target": "seguir",
+  "en": "to keep (doing), to still be",
+  "hint": "everyday word, often with an -ando/-iendo verb",
+  "grammar": {
+    "present": {
+      "yo": "sigo",
+      "tu": "sigues",
+      "el": "sigue"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Sigue lloviendo, mejor nos quedamos.",
+    "en": "It's still raining, we'd better stay."
+  },
+  "regional": null,
+  "trick": "SEGUIR sounds like say gear: say gear and the bike keeps going.",
+  "image": "/deck/img/seguir-keep-going.webp",
+  "audio": {
+    "word": "/deck/audio/seguir-keep-going.word.mp3",
+    "sentence": "/deck/audio/seguir-keep-going.sentence.mp3"
+  }
+}

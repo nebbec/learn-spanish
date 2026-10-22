@@ -1,0 +1,14 @@
+{
+  "id": "punto-point",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "15b51680a3b4e381",
+  "group": "#306 punto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:47.344Z"
+}

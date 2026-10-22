@@ -1,0 +1,17 @@
+{
+  "id": "valer-be-worth",
+  "rank": 162,
+  "word": "valer",
+  "draft": "d5e58fd202fe6c28",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be worth; to cost",
+    "example": "That movie isn't worth it (literally: isn't worth the trouble)."
+  },
+  "note": "The word's high subtitle rank probably comes mostly from Spain's \"vale\" (okay) in dubbed material, which isn't part of this card's meaning, so leaving spain null is correct, but the editor may want to know why it ranks so high.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:12.057Z"
+}

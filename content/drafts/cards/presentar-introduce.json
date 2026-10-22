@@ -1,0 +1,28 @@
+{
+  "id": "presentar-introduce",
+  "rank": 450,
+  "kind": "content",
+  "pos": "verb",
+  "target": "presentar",
+  "en": "to introduce",
+  "hint": "a person to someone",
+  "grammar": {
+    "present": {
+      "yo": "presento",
+      "tu": "presentas",
+      "el": "presenta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te presento a mi novia, Laura.",
+    "en": "Let me introduce you to my girlfriend, Laura."
+  },
+  "regional": null,
+  "trick": "PRESENTAR sounds like present: you present your friend to someone when you introduce them.",
+  "image": "/deck/img/presentar-introduce.webp",
+  "audio": {
+    "word": "/deck/audio/presentar-introduce.word.mp3",
+    "sentence": "/deck/audio/presentar-introduce.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "siguiente-next",
+  "rank": 557,
+  "word": "siguiente",
+  "draft": "8825c28853f16b85",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "In everyday speech, 'see you next week' is 'Nos vemos la próxima semana' or 'la semana que viene'; 'la semana siguiente' means the week after some other point in time, so this sentence sounds unnatural as a goodbye.",
+      "fix": "example.es: Me bajo en la siguiente parada. / example.en: I'm getting off at the next stop."
+    }
+  ],
+  "back": {
+    "es": "next, following (adjective)",
+    "example": "See you the following week."
+  },
+  "note": "The hint names próximo to rule it out, which works, but it shows the learner the other answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:51.554Z"
+}

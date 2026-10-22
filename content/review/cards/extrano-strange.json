@@ -1,0 +1,17 @@
+{
+  "id": "extrano-strange",
+  "rank": 398,
+  "word": "extraño",
+  "draft": "54bafe1df2206770",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "strange, odd, unfamiliar (adjective)",
+    "example": "There is a strange noise in the kitchen."
+  },
+  "note": "The hint is needed because raro is the other common answer for strange; extraño is also the yo form of extrañar (I miss), which likely accounts for part of its subtitle frequency.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:23.518Z"
+}

@@ -1,0 +1,35 @@
+# manejar-handle · rank 767 · manejar
+#
+# Why it was flagged:
+#   - Example sentence: The example uses manejar only as an infinitive after puedo, so the card's own verb is not conjugated. Suggested fix: example.es: Tranquila, yo manejo esto. / example.en: Relax, I'll handle this.
+# Reviewer's note (not a reason to flag): The hint correctly separates this card from the drive card, and encargarse de and lidiar con are close synonyms but less direct for handle a situation.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: conjugated example as the reviewer asked, but with 'los problemas' so it can't be read as driving (yo manejo esto could).
+decision: approve
+
+id:             manejar-handle
+kind:           content
+pos:            verb
+target:         manejar
+en:             to handle
+hint:           a situation or problem
+yo:             manejo
+tu:             manejas
+el:             maneja
+irregular:      no
+example.target: Ella maneja bien los problemas.
+example.en:     She handles problems well.
+regional.where:
+regional.text:
+trick:          MANEJAR sounds like "manage": you manage, or handle, any problem that comes your way.
+
+# The draft this file was made from. Do not change it.
+draft: 1ba6069ba2862fc4

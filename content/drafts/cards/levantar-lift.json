@@ -1,0 +1,28 @@
+{
+  "id": "levantar-lift",
+  "rank": 412,
+  "kind": "content",
+  "pos": "verb",
+  "target": "levantar",
+  "en": "to lift",
+  "hint": "raise something up",
+  "grammar": {
+    "present": {
+      "yo": "levanto",
+      "tu": "levantas",
+      "el": "levanta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Levanta la mano si sabes la respuesta.",
+    "en": "Raise your hand if you know the answer."
+  },
+  "regional": null,
+  "trick": "LEVANTAR starts like lever: you use a lever to lift heavy things.",
+  "image": "/deck/img/levantar-lift.webp",
+  "audio": {
+    "word": "/deck/audio/levantar-lift.word.mp3",
+    "sentence": "/deck/audio/levantar-lift.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "oportunidad-chance",
+  "rank": 368,
+  "word": "oportunidad",
+  "draft": "52131e0263f3b9e8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "opportunity, chance (feminine noun)",
+    "example": "Give me another chance, please."
+  },
+  "note": "The example translates oportunidad as \"chance,\" which is correct and natural here, and it shows learners that the word covers both senses.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:17.606Z"
+}

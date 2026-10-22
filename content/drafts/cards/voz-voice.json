@@ -1,0 +1,24 @@
+{
+  "id": "voz-voice",
+  "rank": 554,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la voz",
+  "en": "voice",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tienes una voz muy bonita.",
+    "en": "You have a very pretty voice."
+  },
+  "regional": null,
+  "trick": "VOZ sounds like vocal: your voice comes from your vocal cords.",
+  "image": "/deck/img/voz-voice.webp",
+  "audio": {
+    "word": "/deck/audio/voz-voice.word.mp3",
+    "sentence": "/deck/audio/voz-voice.sentence.mp3"
+  }
+}

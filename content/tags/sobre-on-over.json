@@ -1,0 +1,14 @@
+{
+  "id": "sobre-on-over",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sobre for on top of or over something; en is the everyday word for on, in or at.",
+  "draft": "7cd3d3a9e48ba6d2",
+  "group": "#118 sobre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:06.395Z"
+}

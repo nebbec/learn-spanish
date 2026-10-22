@@ -1,0 +1,17 @@
+{
+  "id": "soltar-let-go",
+  "rank": 582,
+  "word": "soltar",
+  "draft": "6bf3f5b41dbdfb9f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to let go (of), to release, to let loose",
+    "example": "Let go of me! You're hurting me."
+  },
+  "note": "The o-to-ue stem change (suelto, sueltas, suelta) correctly makes this irregular, and \"lastimar\" in the example is good Latin American usage where Spain would say \"hacer daño\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:55.486Z"
+}

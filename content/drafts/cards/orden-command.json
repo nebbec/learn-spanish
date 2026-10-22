@@ -1,0 +1,24 @@
+{
+  "id": "orden-command",
+  "rank": 395,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la orden",
+  "en": "order",
+  "hint": "a command",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "El capitán dio una orden.",
+    "en": "The captain gave an order."
+  },
+  "regional": null,
+  "trick": "ORDEN sounds like order-in: the sergeant barks an order and everyone files in.",
+  "image": "/deck/img/orden-command.webp",
+  "audio": {
+    "word": "/deck/audio/orden-command.word.mp3",
+    "sentence": "/deck/audio/orden-command.sentence.mp3"
+  }
+}

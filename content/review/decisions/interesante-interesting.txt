@@ -1,0 +1,32 @@
+# interesante-interesting · rank 696 · interesante
+#
+# Why it was flagged:
+#   - Example sentence: The example has no conjugated verb, and as an exclamation it should have ¡ ! instead of a full stop. Suggested fix: example.es: Este libro es muy interesante. / example.en: This book is very interesting.
+# Reviewer's note (not a reason to flag): If the editor wants to keep the exclamation, "¡Qué libro tan interesante!" is natural, but it still has no conjugated verb.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the example.
+decision: approve
+
+id:             interesante-interesting
+kind:           content
+pos:            adjective
+target:         interesante
+en:             interesting
+hint:
+feminine:       interesante
+example.target: Este libro es muy interesante.
+example.en:     This book is very interesting.
+regional.where:
+regional.text:
+trick:          INTERESANTE sounds like interesting plus 'aunty': your aunty always tells the most interesting stories.
+
+# The draft this file was made from. Do not change it.
+draft: 59ad8fe2c5878b30

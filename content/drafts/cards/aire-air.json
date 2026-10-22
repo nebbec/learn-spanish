@@ -1,0 +1,24 @@
+{
+  "id": "aire-air",
+  "rank": 605,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el aire",
+  "en": "air",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Necesito salir a tomar aire.",
+    "en": "I need to go out and get some air."
+  },
+  "regional": null,
+  "trick": "AIRE sounds like \"air-ay\": you shout \"ay!\" as fresh air hits your face.",
+  "image": "/deck/img/aire-air.webp",
+  "audio": {
+    "word": "/deck/audio/aire-air.word.mp3",
+    "sentence": "/deck/audio/aire-air.sentence.mp3"
+  }
+}

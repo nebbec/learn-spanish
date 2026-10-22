@@ -1,0 +1,17 @@
+{
+  "id": "boca-mouth",
+  "rank": 590,
+  "word": "boca",
+  "draft": "f38aebf8ef51a6e8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the mouth",
+    "example": "Open your mouth, please."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:29.027Z"
+}

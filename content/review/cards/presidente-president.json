@@ -1,0 +1,17 @@
+{
+  "id": "presidente-president",
+  "rank": 522,
+  "word": "presidente",
+  "draft": "315c45686ed5e25f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the president (male, or generic)",
+    "example": "The president speaks on TV today."
+  },
+  "note": "The feminine form is la presidenta, which is standard in Latin America, so the editor might mention it somewhere on the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:32.668Z"
+}

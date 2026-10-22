@@ -1,0 +1,36 @@
+# disculpar-excuse · rank 305 · disculpar
+#
+# Why it was flagged:
+#   - One right answer: With no hint, a fluent speaker could also correctly answer "to excuse" with perdonar (as in perdona for "excuse me") or excusar. Suggested fix: hint: the -se form of this verb means "to apologize"
+#   - Latin American usage: The example uses Disculpe, the usted command, but the card should use the informal tú register. Suggested fix: example.es: Disculpa, ¿dónde está el baño?
+# Reviewer's note (not a reason to flag): Disculpe is common with strangers in Latin America, but the app's rule is tú, so the example should use the tú form disculpa.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fixes to hint and example.es; the hint also rules out perdonar and excusar, since excusarse also means to apologize.
+decision: approve
+
+id:             disculpar-excuse
+kind:           content
+pos:            verb
+target:         disculpar
+en:             to excuse
+hint:           not perdonar or excusar; with -se it means to apologize
+yo:             disculpo
+tu:             disculpas
+el:             disculpa
+irregular:      no
+example.target: Disculpa, ¿dónde está el baño?
+example.en:     Excuse me, where is the bathroom?
+regional.where:
+regional.text:
+trick:          DISCULPAR sounds like this culprit: please excuse this culprit, he didn't mean it.
+
+# The draft this file was made from. Do not change it.
+draft: e91fb9e6fa28198f

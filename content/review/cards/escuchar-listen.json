@@ -1,0 +1,17 @@
+{
+  "id": "escuchar-listen",
+  "rank": 137,
+  "word": "escuchar",
+  "draft": "3056b593732eff50",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "escuchar: to listen (to); in Latin America also often 'to hear'",
+    "example": "Listen to me, this is important."
+  },
+  "note": "In Latin America escuchar is also widely used where English says 'hear' (no te escucho), which the editor may want to keep in mind if oír gets its own card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:57.946Z"
+}

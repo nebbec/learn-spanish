@@ -1,0 +1,28 @@
+{
+  "id": "controlar-control",
+  "rank": 710,
+  "kind": "content",
+  "pos": "verb",
+  "target": "controlar",
+  "en": "to control",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "controlo",
+      "tu": "controlas",
+      "el": "controla"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Tranquilo, yo controlo la situación.",
+    "en": "Relax, I've got the situation under control."
+  },
+  "regional": null,
+  "trick": "CONTROLAR sounds like control plus 'ar': a controller in your hand lets you control the game.",
+  "image": "/deck/img/controlar-control.webp",
+  "audio": {
+    "word": "/deck/audio/controlar-control.word.mp3",
+    "sentence": "/deck/audio/controlar-control.sentence.mp3"
+  }
+}

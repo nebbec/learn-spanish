@@ -1,0 +1,17 @@
+{
+  "id": "control-control",
+  "rank": 562,
+  "word": "control",
+  "draft": "c09fd4aa59084b8f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "control (power over something; also check/inspection, remote control)",
+    "example": "Everything is under control."
+  },
+  "note": "Spain says el mando for a TV remote where Latin America says el control, but this card means control in general, so spain rightly stays null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:11.925Z"
+}

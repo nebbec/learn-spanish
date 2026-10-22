@@ -1,0 +1,21 @@
+{
+  "id": "probablemente-probably",
+  "rank": 436,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "probablemente",
+  "en": "probably",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Probablemente llueve mañana.",
+    "en": "It'll probably rain tomorrow."
+  },
+  "regional": null,
+  "trick": "PROBABLEMENTE looks like probable plus -mente, Spanish's -ly ending: probably.",
+  "image": "/deck/img/probablemente-probably.webp",
+  "audio": {
+    "word": "/deck/audio/probablemente-probably.word.mp3",
+    "sentence": "/deck/audio/probablemente-probably.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "igual-same-equal",
+  "rank": 333,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "igual",
+  "en": "equal",
+  "hint": "also: the same, alike",
+  "grammar": {
+    "feminine": "igual"
+  },
+  "example": {
+    "target": "Tu camisa es igual a la mía.",
+    "en": "Your shirt is the same as mine."
+  },
+  "regional": null,
+  "trick": "IGUAL sounds like \"equal\": two things that are equal look exactly the same.",
+  "image": "/deck/img/igual-same-equal.webp",
+  "audio": {
+    "word": "/deck/audio/igual-same-equal.word.mp3",
+    "sentence": "/deck/audio/igual-same-equal.sentence.mp3"
+  }
+}

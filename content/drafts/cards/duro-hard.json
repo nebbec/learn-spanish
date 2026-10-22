@@ -1,0 +1,23 @@
+{
+  "id": "duro-hard",
+  "rank": 427,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "duro",
+  "en": "hard",
+  "hint": "firm, not soft; also tough",
+  "grammar": {
+    "feminine": "dura"
+  },
+  "example": {
+    "target": "Este pan está muy duro.",
+    "en": "This bread is really hard."
+  },
+  "regional": null,
+  "trick": "DURO sounds like durable: durable things are hard and tough.",
+  "image": "/deck/img/duro-hard.webp",
+  "audio": {
+    "word": "/deck/audio/duro-hard.word.mp3",
+    "sentence": "/deck/audio/duro-hard.sentence.mp3"
+  }
+}

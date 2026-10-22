@@ -1,0 +1,23 @@
+{
+  "id": "claro-clear",
+  "rank": 153,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "claro",
+  "en": "clear",
+  "hint": "obvious, easy to understand",
+  "grammar": {
+    "feminine": "clara"
+  },
+  "example": {
+    "target": "La respuesta es muy clara.",
+    "en": "The answer is very clear."
+  },
+  "regional": null,
+  "trick": "CLARO sounds like 'clarity': something claro is clear and easy to see.",
+  "image": "/deck/img/claro-clear.webp",
+  "audio": {
+    "word": "/deck/audio/claro-clear.word.mp3",
+    "sentence": "/deck/audio/claro-clear.sentence.mp3"
+  }
+}

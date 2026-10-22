@@ -1,0 +1,14 @@
+{
+  "id": "accion-action",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ee7917436c3d148b",
+  "group": "#750 acción",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:26.129Z"
+}

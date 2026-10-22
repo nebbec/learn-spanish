@@ -1,0 +1,14 @@
+{
+  "id": "funcionar-work",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use funcionar when a machine or plan works; trabajar when a person works at a job.",
+  "draft": "a87831a8512ba0f1",
+  "group": "#298 funcionar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:33.211Z"
+}

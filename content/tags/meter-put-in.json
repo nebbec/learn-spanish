@@ -1,0 +1,14 @@
+{
+  "id": "meter-put-in",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use meter for putting something inside something else; use poner for putting it somewhere, like on a table.",
+  "draft": "a389c6dc7a96e9a5",
+  "group": "#291 meter",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:24.386Z"
+}

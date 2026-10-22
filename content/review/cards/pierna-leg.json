@@ -1,0 +1,17 @@
+{
+  "id": "pierna-leg",
+  "rank": 709,
+  "word": "pierna",
+  "draft": "6fe654f389a0cdc6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the leg (human)",
+    "example": "My right leg hurts."
+  },
+  "note": "Pierna means a human leg, while an animal's or a piece of furniture's leg is \"pata\", so the bare prompt \"leg\" still points to pierna, but the editor might mention that difference somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:07:22.165Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cortar-cut",
+  "rank": 468,
+  "word": "cortar",
+  "draft": "7fc6f2699a7de574",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to cut",
+    "example": "Cut the bread, please."
+  },
+  "note": "The example uses the tú command \"corta\", which looks the same as the él present form; that is fine, but a learner may not see it as a command.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:29.931Z"
+}

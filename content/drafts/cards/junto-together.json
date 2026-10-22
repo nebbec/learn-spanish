@@ -1,0 +1,23 @@
+{
+  "id": "junto-together",
+  "rank": 232,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "junto",
+  "en": "together",
+  "hint": null,
+  "grammar": {
+    "feminine": "junta"
+  },
+  "example": {
+    "target": "Siempre estamos juntos en las fiestas.",
+    "en": "We're always together at parties."
+  },
+  "regional": null,
+  "trick": "JUNTO sounds like \"joined two\": when two people are joined, they are together.",
+  "image": "/deck/img/junto-together.webp",
+  "audio": {
+    "word": "/deck/audio/junto-together.word.mp3",
+    "sentence": "/deck/audio/junto-together.sentence.mp3"
+  }
+}

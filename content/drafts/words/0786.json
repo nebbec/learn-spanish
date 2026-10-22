@@ -1,0 +1,13 @@
+{
+  "rank": 786,
+  "word": "fondo",
+  "cards": [
+    "fondo-bottom",
+    "fondo-fund"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:49:02.528Z"
+}

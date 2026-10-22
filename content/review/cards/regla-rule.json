@@ -1,0 +1,23 @@
+{
+  "id": "regla-rule",
+  "rank": 775,
+  "word": "regla",
+  "draft": "52e45fd4c880d08a",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example has no conjugated verb, which every example must have.",
+      "fix": "example.es: Tienes que seguir las reglas. example.en: You have to follow the rules."
+    }
+  ],
+  "back": {
+    "es": "la regla: rule (also ruler, and colloquially a menstrual period)",
+    "example": "In my house, my rules."
+  },
+  "note": "Norma can also mean rule, but regla is the everyday default, so the prompt needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:21.731Z"
+}

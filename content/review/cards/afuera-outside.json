@@ -1,0 +1,17 @@
+{
+  "id": "afuera-outside",
+  "rank": 539,
+  "word": "afuera",
+  "draft": "5e08addd05eeecfb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "outside, outdoors (adverb)",
+    "example": "The children are playing outside."
+  },
+  "note": "Fuera is also heard in Latin America, mostly in \"fuera de\", but afuera is the normal stand-alone adverb there, so the bare prompt works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:37.237Z"
+}

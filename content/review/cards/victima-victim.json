@@ -1,0 +1,17 @@
+{
+  "id": "victima-victim",
+  "rank": 612,
+  "word": "víctima",
+  "draft": "6f04e2ef2e5020c6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the victim",
+    "example": "The victim didn't see the thief."
+  },
+  "note": "Víctima is always feminine, even when the victim is a man (la víctima era un hombre), which may be worth telling the learner.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:50.682Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "oficina-office",
+  "rank": 463,
+  "word": "oficina",
+  "draft": "37fb03cfec5d2a2b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the office (a workplace or room where office work is done)",
+    "example": "My dad works in an office."
+  },
+  "note": "\"Despacho\" (a private office or study) and \"consultorio\" (a doctor's office) are narrower words, so \"la oficina\" is still the one standard answer for a bare \"office\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:17.375Z"
+}

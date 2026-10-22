@@ -1,0 +1,14 @@
+{
+  "id": "mes-month",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cb16eb2e069c5ab2",
+  "group": "#289 mes",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:19.821Z"
+}

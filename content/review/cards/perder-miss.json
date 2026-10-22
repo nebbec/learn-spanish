@@ -1,0 +1,17 @@
+{
+  "id": "perder-miss",
+  "rank": 152,
+  "word": "perder",
+  "draft": "d5617bd28495a03f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to lose; to miss (a bus, train, chance)",
+    "example": "If you don't run, you miss the bus."
+  },
+  "note": "The word for bus varies by region (camión in Mexico, colectivo in Argentina), but autobús is the neutral choice and is understood everywhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:06.404Z"
+}

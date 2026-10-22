@@ -1,0 +1,17 @@
+{
+  "id": "besar-kiss",
+  "rank": 776,
+  "word": "besar",
+  "draft": "d0d297366c526aa1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to kiss",
+    "example": "She kissed me on the cheek."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:27.020Z"
+}

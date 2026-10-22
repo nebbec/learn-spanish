@@ -1,0 +1,14 @@
+{
+  "id": "policia-police",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use la policía for the police force as a whole; el policía is one officer.",
+  "draft": "8cecea018f147045",
+  "group": "#225 policía",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:03.616Z"
+}

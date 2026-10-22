@@ -1,0 +1,14 @@
+{
+  "id": "entregar-hand-over",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6a51f4465f6ecfef",
+  "group": "#660 entregar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:43.695Z"
+}

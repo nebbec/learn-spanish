@@ -1,0 +1,13 @@
+{
+  "rank": 744,
+  "word": "armar",
+  "cards": [
+    "armar-put-together",
+    "armar-arm"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:47:06.159Z"
+}

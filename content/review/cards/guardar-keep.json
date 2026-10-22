@@ -1,0 +1,23 @@
+{
+  "id": "guardar-keep",
+  "rank": 671,
+  "word": "guardar",
+  "draft": "0c5d9e767a7e43a6",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example leaves guardar as an infinitive after puedes, but the target verb must be conjugated.",
+      "fix": "example.es: Siempre guardo las llaves en el cajón. / example.en: I always keep the keys in the drawer."
+    }
+  ],
+  "back": {
+    "es": "to keep, to put away, to store, to save (a file, a seat)",
+    "example": "Can you keep a secret?"
+  },
+  "note": "The hint is needed because otherwise \"to keep\" could also mean mantener, conservar or quedarse con, and \"put away, store\" points clearly to guardar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:18.847Z"
+}

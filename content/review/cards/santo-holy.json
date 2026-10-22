@@ -1,0 +1,17 @@
+{
+  "id": "santo-holy",
+  "rank": 405,
+  "word": "santo",
+  "draft": "a142c63c2a462039",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "holy (adjective); feminine santa",
+    "example": "At Holy Week (Easter week) we go to the beach."
+  },
+  "note": "The example shows only the feminine santa in the fixed name Semana Santa; a masculine example such as el Espíritu Santo would show the dictionary form, but this is optional.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:47.813Z"
+}

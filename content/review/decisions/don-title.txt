@@ -1,0 +1,31 @@
+# don-title · rank 681 · don
+#
+# Why it was flagged:
+#   - Latin American usage: The example speaks to don Pedro with usted (¿cómo está?), but the cards must use the tú register; that is natural with 'don', so the fix is a sentence that talks about him instead of to him. Suggested fix: example.es: Don Pedro vive al lado de mi casa. / example.en: Mr. Pedro lives next door to me.
+# Reviewer's note (not a reason to flag): The prompt needs the hint, because it tells the learner not to answer señor, which also means Mr.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
+decision: approve
+
+id:             don-title
+kind:           content
+pos:            other
+target:         don
+en:             Mr. (respectful title before a first name)
+hint:           used before a first name, as in ___ Pedro, not señor; feminine doña
+example.target: Don Pedro vive al lado de mi casa.
+example.en:     Mr. Pedro lives next door to me.
+regional.where:
+regional.text:
+trick:          DON sounds like Don Corleone: everyone respectfully calls the boss Don before his name.
+
+# The draft this file was made from. Do not change it.
+draft: 1402f067a397d139

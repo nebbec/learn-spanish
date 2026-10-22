@@ -1,0 +1,24 @@
+{
+  "id": "cuarto-quarter",
+  "rank": 523,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cuarto",
+  "en": "quarter",
+  "hint": "of an hour, telling time",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Son las tres y cuarto.",
+    "en": "It's a quarter past three."
+  },
+  "regional": null,
+  "trick": "CUARTO sounds like quarter: las tres y cuarto is a quarter past three.",
+  "image": "/deck/img/cuarto-quarter.webp",
+  "audio": {
+    "word": "/deck/audio/cuarto-quarter.word.mp3",
+    "sentence": "/deck/audio/cuarto-quarter.sentence.mp3"
+  }
+}

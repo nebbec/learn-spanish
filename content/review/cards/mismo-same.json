@@ -1,0 +1,17 @@
+{
+  "id": "mismo-same",
+  "rank": 114,
+  "word": "mismo",
+  "draft": "2762bef284657efe",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "same (adjective; also used after a pronoun for emphasis: myself, yourself)",
+    "example": "We have the same problem."
+  },
+  "note": "Igual can also mean \"the same\" in some sentences (\"es igual\"), but for the plain adjective prompt \"same\", mismo is the standard answer, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:09.171Z"
+}

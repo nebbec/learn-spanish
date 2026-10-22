@@ -1,0 +1,24 @@
+{
+  "id": "seguro-insurance",
+  "rank": 139,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el seguro",
+  "en": "insurance",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "No tengo seguro médico.",
+    "en": "I don't have health insurance."
+  },
+  "regional": null,
+  "trick": "SEGURO sounds like \"secure\": insurance keeps your money secure when things go wrong.",
+  "image": "/deck/img/seguro-insurance.webp",
+  "audio": {
+    "word": "/deck/audio/seguro-insurance.word.mp3",
+    "sentence": "/deck/audio/seguro-insurance.sentence.mp3"
+  }
+}

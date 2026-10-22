@@ -1,0 +1,12 @@
+{
+  "rank": 358,
+  "word": "comenzar",
+  "cards": [
+    "comenzar-begin"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:27:16.162Z"
+}

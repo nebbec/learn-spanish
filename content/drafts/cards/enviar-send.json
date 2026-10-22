@@ -1,0 +1,28 @@
+{
+  "id": "enviar-send",
+  "rank": 288,
+  "kind": "content",
+  "pos": "verb",
+  "target": "enviar",
+  "en": "to send",
+  "hint": "not mandar; think envoy",
+  "grammar": {
+    "present": {
+      "yo": "envío",
+      "tu": "envías",
+      "el": "envía"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te envío la foto ahora.",
+    "en": "I'm sending you the photo now."
+  },
+  "regional": null,
+  "trick": "ENVIAR sounds like envoy: an envoy is someone you send with a message.",
+  "image": "/deck/img/enviar-send.webp",
+  "audio": {
+    "word": "/deck/audio/enviar-send.word.mp3",
+    "sentence": "/deck/audio/enviar-send.sentence.mp3"
+  }
+}

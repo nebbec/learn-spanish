@@ -1,0 +1,13 @@
+{
+  "rank": 414,
+  "word": "joder",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "joder is a swear word (to f***, to screw over), so it doesn't get a card."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:30:08.615Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mil-thousand",
+  "rank": 445,
+  "word": "mil",
+  "draft": "51a3fa441a57ad63",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "thousand (the number 1,000)",
+    "example": "The ticket costs a thousand pesos."
+  },
+  "note": "The example shows a useful point: Spanish says \"mil\", not \"un mil\", for \"a thousand\". The editor could mention this to learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:58.451Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "armar-put-together",
+  "rank": 744,
+  "kind": "content",
+  "pos": "verb",
+  "target": "armar",
+  "en": "to put together",
+  "hint": "furniture, a puzzle, a plan",
+  "grammar": {
+    "present": {
+      "yo": "armo",
+      "tu": "armas",
+      "el": "arma"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi papá armó la mesa en diez minutos.",
+    "en": "My dad put the table together in ten minutes."
+  },
+  "regional": null,
+  "trick": "ARMAR sounds like arm: you use both arms to put the furniture together.",
+  "image": "/deck/img/armar-put-together.webp",
+  "audio": {
+    "word": "/deck/audio/armar-put-together.word.mp3",
+    "sentence": "/deck/audio/armar-put-together.sentence.mp3"
+  }
+}

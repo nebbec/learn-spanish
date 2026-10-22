@@ -1,0 +1,14 @@
+{
+  "id": "llevar-wear",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fbbe7d23603b9143",
+  "group": "#96 llevar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:34.238Z"
+}

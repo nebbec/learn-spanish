@@ -1,0 +1,17 @@
+{
+  "id": "aparecer-appear",
+  "rank": 536,
+  "word": "aparecer",
+  "draft": "d471d6bf7bfe3010",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to appear, to show up, to turn up",
+    "example": "My cat turned up this morning."
+  },
+  "note": "The hint is useful because it rules out parecer (to appear in the sense of to seem), and aparecer is correctly marked irregular because of its -zco yo form, aparezco.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:29.280Z"
+}

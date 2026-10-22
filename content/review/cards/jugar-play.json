@@ -1,0 +1,17 @@
+{
+  "id": "jugar-play",
+  "rank": 256,
+  "word": "jugar",
+  "draft": "baaa1a50d2a1aff8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to play (a game or sport)",
+    "example": "The children play soccer in the park."
+  },
+  "note": "The hint is needed to rule out tocar, and the article-less \"juegan fútbol\" is normal in Latin America, though Spain would say \"juegan al fútbol\"; the word itself is the same there, so spain is rightly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:37.064Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ello-it",
+  "rank": 417,
+  "word": "ello",
+  "draft": "d4f33ab7bedec847",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "it / that (neuter pronoun, used after a preposition to refer to an idea or situation; formal)",
+    "example": "For that reason I don't want to talk to you."
+  },
+  "note": "The example pairs formal \"por ello\" with informal \"contigo\", which reads a little stiff, though it is correct; everyday speech would say \"por eso\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:51.254Z"
+}

@@ -16,6 +16,7 @@ import {
   tagGroups,
   tagProblems,
   tagPrompt,
+  tagSystem,
   TagStore,
   WHY_MAX,
   type Tag,
@@ -147,12 +148,12 @@ describe("tag groups and the prompt", () => {
     });
   });
 
-  it("give the plan, the tips and every card first, the same in every call, then the group's cards without media", () => {
+  it("give the plan, the tips and every card in the system prompt, the same in every call, and the group's cards without media in the message", () => {
     const { groups, ctx } = world();
-    const prompts = groups.map((g) => tagPrompt(g, ctx));
-    const prefix = (p: string) => p.slice(0, p.indexOf("Tag these cards"));
-    expect(new Set(prompts.map(prefix)).size).toBe(1);
-    const head = prefix(prompts[0]);
+    const prompts = groups.map((g) => tagPrompt(g));
+    for (const p of prompts) expect(p.startsWith("Tag these cards. ")).toBe(true);
+    const head = tagSystem(ctx);
+    expect(head.startsWith(TAG_SYSTEM_PROMPT)).toBe(true);
     expect(head).toContain('Unit 1: home, "Home". Now you can talk about your house. Introduces tip: tip-el-la. Holds at most 12 cards.');
     expect(head).toContain("  - tener: I have (tengo)");
     expect(head).toContain("  - Good house");
@@ -163,7 +164,8 @@ describe("tag groups and the prompt", () => {
     const tener = prompts[1];
     expect(tener).toContain('The cards of the word "tener" (rank 13 in the frequency list)');
     expect(askedIds(tener)).toEqual(["tener-have", "tener-have-to"]);
-    expect(tener.slice(tener.indexOf("Tag these cards"))).not.toContain("/deck/");
+    expect(tener).not.toContain("/deck/");
+    expect(tener).not.toContain("Unit 1:");
 
     const phrases = prompts[5];
     expect(phrases).toContain("each one's unit is fixed");
@@ -186,7 +188,7 @@ describe("tag groups and the prompt", () => {
     const ctx = tagContext(groups, readUnits(ROOT), readTips(ROOT));
     expect(ctx.cards.map((c) => c.id).sort()).toEqual(drafts.cards().map((c) => c.id).sort());
     expect(new Set(ctx.cards.map((c) => c.id)).size).toBe(ctx.cards.length);
-    expect(tagPrompt(groups[0], ctx)).toContain("Unit 18:");
+    expect(tagSystem(ctx)).toContain("Unit 18:");
   });
 });
 
@@ -197,7 +199,7 @@ describe("a tag run with the fake tagger", () => {
     const print: string[] = [];
     const summary = await tagCards(groups, ctx, options(store, runner, { print: (l) => print.push(l) }));
     expect(summary).toMatchObject({ words: 6, drafted: 6, failed: 0, cards: 8, calls: 6 });
-    expect(requests.every((r) => r.system === TAG_SYSTEM_PROMPT && r.schema === TAG_SCHEMA)).toBe(true);
+    expect(requests.every((r) => r.system === tagSystem(ctx) && r.schema === TAG_SCHEMA)).toBe(true);
     expect(print).toContain("phrases home: phrase-my-house, phrase-good-house");
 
     const tag = store.read("casa-house")!;

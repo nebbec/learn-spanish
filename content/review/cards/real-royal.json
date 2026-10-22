@@ -1,0 +1,17 @@
+{
+  "id": "real-royal",
+  "rank": 480,
+  "word": "real",
+  "draft": "65072a6e3dc3f092",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "royal (adjective; also 'real, actual' in its other sense)",
+    "example": "The royal family lives in a palace."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:16.633Z"
+}

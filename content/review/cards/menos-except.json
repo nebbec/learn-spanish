@@ -1,0 +1,17 @@
+{
+  "id": "menos-except",
+  "rank": 179,
+  "word": "menos",
+  "draft": "61b8bfbfdfb7697e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "except, but (preposition: todos menos yo = everyone except me)",
+    "example": "Everyone came except your brother."
+  },
+  "note": "The hint's \"same word as less\" also rules out salvo, so the hint works; it might help to mention somewhere that Spanish says \"todos menos yo\" (with yo, not me).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:26.071Z"
+}

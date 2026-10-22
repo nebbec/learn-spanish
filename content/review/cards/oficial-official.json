@@ -1,0 +1,17 @@
+{
+  "id": "oficial-official",
+  "rank": 548,
+  "word": "oficial",
+  "draft": "bea9038248ea92e8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "official (adjective: authorized, formal, from an authority)",
+    "example": "It is the official version of the story."
+  },
+  "note": "An optional hint such as \"adjective\" would stop learners from thinking of the noun sense (a government official, which is \"funcionario\"), and would separate this card more clearly from the \"officer\" card, but the card works without one.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:14.589Z"
+}

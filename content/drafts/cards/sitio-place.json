@@ -1,0 +1,24 @@
+{
+  "id": "sitio-place",
+  "rank": 452,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sitio",
+  "en": "place, spot",
+  "hint": "also site, as in website; not lugar",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Este es un buen sitio para comer.",
+    "en": "This is a good place to eat."
+  },
+  "regional": null,
+  "trick": "SITIO sounds like site: a site is just a place where something sits.",
+  "image": "/deck/img/sitio-place.webp",
+  "audio": {
+    "word": "/deck/audio/sitio-place.word.mp3",
+    "sentence": "/deck/audio/sitio-place.sentence.mp3"
+  }
+}

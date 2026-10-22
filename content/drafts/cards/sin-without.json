@@ -1,0 +1,21 @@
+{
+  "id": "sin-without",
+  "rank": 120,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "sin",
+  "en": "coffee [without] sugar",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "No puedo vivir sin ti.",
+    "en": "I can't live without you."
+  },
+  "regional": null,
+  "trick": "SIN sounds like sin: a life without fun feels like a sin.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/sin-without.word.mp3",
+    "sentence": "/deck/audio/sin-without.sentence.mp3"
+  }
+}

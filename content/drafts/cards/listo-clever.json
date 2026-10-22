@@ -1,0 +1,23 @@
+{
+  "id": "listo-clever",
+  "rank": 239,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "listo",
+  "en": "clever",
+  "hint": "used with ser; not inteligente",
+  "grammar": {
+    "feminine": "lista"
+  },
+  "example": {
+    "target": "Tu hermana es muy lista.",
+    "en": "Your sister is very clever."
+  },
+  "regional": null,
+  "trick": "LISTO sounds like list: the clever kid knows the whole list by heart.",
+  "image": "/deck/img/listo-clever.webp",
+  "audio": {
+    "word": "/deck/audio/listo-clever.word.mp3",
+    "sentence": "/deck/audio/listo-clever.sentence.mp3"
+  }
+}

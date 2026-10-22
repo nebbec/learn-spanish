@@ -1,0 +1,28 @@
+{
+  "id": "vestir-dress",
+  "rank": 763,
+  "kind": "content",
+  "pos": "verb",
+  "target": "vestir",
+  "en": "to dress",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "visto",
+      "tu": "vistes",
+      "el": "viste"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Me visto rápido y salimos.",
+    "en": "I'll get dressed quickly and we'll go."
+  },
+  "regional": null,
+  "trick": "VESTIR sounds like vest: to dress, you start by putting on your vest.",
+  "image": "/deck/img/vestir-dress.webp",
+  "audio": {
+    "word": "/deck/audio/vestir-dress.word.mp3",
+    "sentence": "/deck/audio/vestir-dress.sentence.mp3"
+  }
+}

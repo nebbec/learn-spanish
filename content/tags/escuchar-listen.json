@@ -1,0 +1,14 @@
+{
+  "id": "escuchar-listen",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use escuchar for listening on purpose (music, a person); oír for simply hearing a sound.",
+  "draft": "3056b593732eff50",
+  "group": "#137 escuchar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:03:33.941Z"
+}

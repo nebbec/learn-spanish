@@ -1,0 +1,28 @@
+{
+  "id": "reconocer-recognize",
+  "rank": 697,
+  "kind": "content",
+  "pos": "verb",
+  "target": "reconocer",
+  "en": "to recognize",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "reconozco",
+      "tu": "reconoces",
+      "el": "reconoce"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿No me reconoces? Soy tu primo.",
+    "en": "Don't you recognize me? I'm your cousin."
+  },
+  "regional": null,
+  "trick": "RECONOCER sounds like recognize-er: re-know someone, you recognize them.",
+  "image": "/deck/img/reconocer-recognize.webp",
+  "audio": {
+    "word": "/deck/audio/reconocer-recognize.word.mp3",
+    "sentence": "/deck/audio/reconocer-recognize.sentence.mp3"
+  }
+}

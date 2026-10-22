@@ -1,0 +1,24 @@
+{
+  "id": "cielo-sky",
+  "rank": 408,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cielo",
+  "en": "sky",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mira, el cielo está muy azul hoy.",
+    "en": "Look, the sky is really blue today."
+  },
+  "regional": null,
+  "trick": "CIELO sounds like 'see yellow': look up and see the yellow sun in the sky.",
+  "image": "/deck/img/cielo-sky.webp",
+  "audio": {
+    "word": "/deck/audio/cielo-sky.word.mp3",
+    "sentence": "/deck/audio/cielo-sky.sentence.mp3"
+  }
+}

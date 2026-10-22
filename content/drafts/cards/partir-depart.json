@@ -1,0 +1,28 @@
+{
+  "id": "partir-depart",
+  "rank": 542,
+  "kind": "content",
+  "pos": "verb",
+  "target": "partir",
+  "en": "to depart",
+  "hint": "set off on a journey, not salir",
+  "grammar": {
+    "present": {
+      "yo": "parto",
+      "tu": "partes",
+      "el": "parte"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "El tren parte a las ocho.",
+    "en": "The train departs at eight."
+  },
+  "regional": null,
+  "trick": "PARTIR sounds like party: you depart early to get to the party.",
+  "image": "/deck/img/partir-depart.webp",
+  "audio": {
+    "word": "/deck/audio/partir-depart.word.mp3",
+    "sentence": "/deck/audio/partir-depart.sentence.mp3"
+  }
+}

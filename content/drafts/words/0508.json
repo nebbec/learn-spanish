@@ -1,0 +1,12 @@
+{
+  "rank": 508,
+  "word": "resto",
+  "cards": [
+    "resto-rest"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:35:19.364Z"
+}

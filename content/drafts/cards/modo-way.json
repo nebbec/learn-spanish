@@ -1,0 +1,24 @@
+{
+  "id": "modo-way",
+  "rank": 415,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el modo",
+  "en": "way, mode",
+  "hint": "manner of doing; looks like mode, not manera",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "De todos modos, voy a la fiesta.",
+    "en": "Anyway, I'm going to the party."
+  },
+  "regional": null,
+  "trick": "MODO sounds like mode: switch your phone's mode and you change the way it works.",
+  "image": "/deck/img/modo-way.webp",
+  "audio": {
+    "word": "/deck/audio/modo-way.word.mp3",
+    "sentence": "/deck/audio/modo-way.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "parar-stop",
+  "rank": 325,
+  "kind": "content",
+  "pos": "verb",
+  "target": "parar",
+  "en": "to stop",
+  "hint": "the everyday word, not detener",
+  "grammar": {
+    "present": {
+      "yo": "paro",
+      "tu": "paras",
+      "el": "para"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¡Para el carro, por favor!",
+    "en": "Stop the car, please!"
+  },
+  "regional": null,
+  "trick": "PARAR sounds like 'parent': a parent always yells at you to stop.",
+  "image": "/deck/img/parar-stop.webp",
+  "audio": {
+    "word": "/deck/audio/parar-stop.word.mp3",
+    "sentence": "/deck/audio/parar-stop.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "minuto-minute",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "47cada782d6abeff",
+  "group": "#226 minuto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:07.157Z"
+}

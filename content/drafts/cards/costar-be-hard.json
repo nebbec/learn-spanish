@@ -1,0 +1,28 @@
+{
+  "id": "costar-be-hard",
+  "rank": 643,
+  "kind": "content",
+  "pos": "verb",
+  "target": "costar",
+  "en": "to be hard (for someone)",
+  "hint": "me ___ trabajo; it takes effort",
+  "grammar": {
+    "present": {
+      "yo": "cuesto",
+      "tu": "cuestas",
+      "el": "cuesta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Me cuesta creerlo.",
+    "en": "I find it hard to believe."
+  },
+  "regional": null,
+  "trick": "COSTAR is to cost: something hard costs you a lot of effort.",
+  "image": "/deck/img/costar-be-hard.webp",
+  "audio": {
+    "word": "/deck/audio/costar-be-hard.word.mp3",
+    "sentence": "/deck/audio/costar-be-hard.sentence.mp3"
+  }
+}

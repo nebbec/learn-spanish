@@ -1,0 +1,23 @@
+{
+  "id": "bailar-dance",
+  "rank": 620,
+  "word": "bailar",
+  "draft": "3f1e70b1495b0531",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses bailar only as an infinitive after quieres, but the target verb itself should be conjugated.",
+      "fix": "example.es: Mi hermana baila muy bien. / example.en: My sister dances very well."
+    }
+  ],
+  "back": {
+    "es": "to dance",
+    "example": "Do you want to dance with me?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:16.909Z"
+}

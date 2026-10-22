@@ -1,0 +1,12 @@
+{
+  "rank": 260,
+  "word": "puerta",
+  "cards": [
+    "puerta-door"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:22:54.046Z"
+}

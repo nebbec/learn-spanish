@@ -1,0 +1,14 @@
+{
+  "id": "tio-uncle",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "be0b4082d9c57286",
+  "group": "#240 tío",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:22.717Z"
+}

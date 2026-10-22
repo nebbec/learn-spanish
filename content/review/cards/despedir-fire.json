@@ -1,0 +1,17 @@
+{
+  "id": "despedir-fire",
+  "rank": 586,
+  "word": "despedir",
+  "draft": "3a06fc5fac2237ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to fire, to dismiss (from a job); also to see someone off",
+    "example": "They fired me from the job yesterday."
+  },
+  "note": "Echar (and correr in Mexico) are colloquial ways to say fire someone, but despedir is the standard answer and the hint correctly separates this card from the despedirse card for saying goodbye.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:58:13.880Z"
+}

@@ -1,0 +1,12 @@
+{
+  "rank": 452,
+  "word": "sitio",
+  "cards": [
+    "sitio-place"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:32:11.191Z"
+}

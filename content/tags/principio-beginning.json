@@ -1,0 +1,14 @@
+{
+  "id": "principio-beginning",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c43d846951c6194f",
+  "group": "#691 principio",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:42.729Z"
+}

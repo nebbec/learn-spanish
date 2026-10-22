@@ -1,0 +1,17 @@
+{
+  "id": "pronto-soon",
+  "rank": 300,
+  "word": "pronto",
+  "draft": "0e8835d99fdd27ad",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "soon (also: quickly, early)",
+    "example": "See you soon, friend."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:23.293Z"
+}

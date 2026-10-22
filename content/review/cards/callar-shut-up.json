@@ -1,0 +1,17 @@
+{
+  "id": "callar-shut-up",
+  "rank": 382,
+  "word": "callar",
+  "draft": "792e6666545b4f94",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be quiet, to keep quiet, to shut up (mostly reflexive callarse); transitively, to silence or keep something quiet",
+    "example": "Shut up and listen to me!"
+  },
+  "note": "The verb is mostly used as callarse (cállate, me callo), as the example shows, and \"to shut up\" is blunt, so the editor could show it as \"callar(se)\" or add \"to be quiet\" to the prompt; neither change is required.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:55.478Z"
+}

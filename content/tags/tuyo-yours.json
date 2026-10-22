@@ -1,0 +1,14 @@
+{
+  "id": "tuyo-yours",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tuyo on its own or after the verb (es tuyo); use tu right before a noun (tu libro).",
+  "draft": "32c9aa23fa0403a6",
+  "group": "#381 tuyo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:03.935Z"
+}

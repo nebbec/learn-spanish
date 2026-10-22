@@ -1,0 +1,23 @@
+{
+  "id": "negro-black",
+  "rank": 418,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "negro",
+  "en": "black",
+  "hint": null,
+  "grammar": {
+    "feminine": "negra"
+  },
+  "example": {
+    "target": "Me gusta tu camisa negra.",
+    "en": "I like your black shirt."
+  },
+  "regional": null,
+  "trick": "NEGRO sounds like \"negative\": old photo negatives turn everything black.",
+  "image": "/deck/img/negro-black.webp",
+  "audio": {
+    "word": "/deck/audio/negro-black.word.mp3",
+    "sentence": "/deck/audio/negro-black.sentence.mp3"
+  }
+}

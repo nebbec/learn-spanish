@@ -1,0 +1,17 @@
+{
+  "id": "pelicula-movie",
+  "rank": 435,
+  "word": "película",
+  "draft": "a6b49ca1129ba999",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the movie, the film",
+    "example": "Should we watch a movie tonight?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:11.638Z"
+}

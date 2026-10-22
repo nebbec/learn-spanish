@@ -1,0 +1,17 @@
+{
+  "id": "ellos-they",
+  "rank": 142,
+  "word": "ellos",
+  "draft": "8d817d25ac866817",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "they (masculine or mixed group); also them after a preposition",
+    "example": "They live near my house."
+  },
+  "note": "The hint is needed and correctly rules out ellas; the card is clean.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:18.855Z"
+}

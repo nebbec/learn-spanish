@@ -1,0 +1,31 @@
+{
+  "id": "tomar-take",
+  "rank": 107,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tomar",
+  "en": "to take",
+  "hint": "grab, take hold of, take a bus",
+  "grammar": {
+    "present": {
+      "yo": "tomo",
+      "tu": "tomas",
+      "el": "toma"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Toma mi mano.",
+    "en": "Take my hand."
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "coger"
+  },
+  "trick": "TOMAR sounds like 'tomorrow': take what you want today, not tomorrow.",
+  "image": "/deck/img/tomar-take.webp",
+  "audio": {
+    "word": "/deck/audio/tomar-take.word.mp3",
+    "sentence": "/deck/audio/tomar-take.sentence.mp3"
+  }
+}

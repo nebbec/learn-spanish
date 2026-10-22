@@ -1,0 +1,14 @@
+{
+  "id": "tocar-be-turn",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fd645fea08092479",
+  "group": "#283 tocar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:08.037Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "clase-class",
+  "rank": 311,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la clase",
+  "en": "class",
+  "hint": "lesson at school",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tengo clase de inglés a las ocho.",
+    "en": "I have English class at eight."
+  },
+  "regional": null,
+  "trick": "CLASE sounds like class: same word, just add an E at the end of the lesson.",
+  "image": "/deck/img/clase-class.webp",
+  "audio": {
+    "word": "/deck/audio/clase-class.word.mp3",
+    "sentence": "/deck/audio/clase-class.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "paciente-patient",
+  "rank": 713,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el paciente",
+  "en": "patient",
+  "hint": "at the doctor's",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El doctor está con otro paciente.",
+    "en": "The doctor is with another patient."
+  },
+  "regional": null,
+  "trick": "PACIENTE sounds like patient with a Spanish accent: the paciente waits patiently for the doctor.",
+  "image": "/deck/img/paciente-patient.webp",
+  "audio": {
+    "word": "/deck/audio/paciente-patient.word.mp3",
+    "sentence": "/deck/audio/paciente-patient.sentence.mp3"
+  }
+}

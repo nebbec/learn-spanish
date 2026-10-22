@@ -1,0 +1,28 @@
+{
+  "id": "imaginar-imagine",
+  "rank": 429,
+  "kind": "content",
+  "pos": "verb",
+  "target": "imaginar",
+  "en": "to imagine",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "imagino",
+      "tu": "imaginas",
+      "el": "imagina"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Me imagino que estás cansado.",
+    "en": "I imagine you're tired."
+  },
+  "regional": null,
+  "trick": "IMAGINAR sounds like imagine-ar: just add -ar to imagine and you're imagining in Spanish.",
+  "image": "/deck/img/imaginar-imagine.webp",
+  "audio": {
+    "word": "/deck/audio/imaginar-imagine.word.mp3",
+    "sentence": "/deck/audio/imaginar-imagine.sentence.mp3"
+  }
+}

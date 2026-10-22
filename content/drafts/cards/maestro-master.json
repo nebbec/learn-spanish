@@ -1,0 +1,24 @@
+{
+  "id": "maestro-master",
+  "rank": 628,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el maestro",
+  "en": "master",
+  "hint": "expert or mentor, as in kung fu",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El maestro me enseñó a pelear.",
+    "en": "The master taught me to fight."
+  },
+  "regional": null,
+  "trick": "MAESTRO looks like MASTER with extra letters: the kung fu master knows more letters than you.",
+  "image": "/deck/img/maestro-master.webp",
+  "audio": {
+    "word": "/deck/audio/maestro-master.word.mp3",
+    "sentence": "/deck/audio/maestro-master.sentence.mp3"
+  }
+}

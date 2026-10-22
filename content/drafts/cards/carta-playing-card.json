@@ -1,0 +1,24 @@
+{
+  "id": "carta-playing-card",
+  "rank": 501,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la carta",
+  "en": "card",
+  "hint": "playing card",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¿Quieres jugar a las cartas?",
+    "en": "Do you want to play cards?"
+  },
+  "regional": null,
+  "trick": "CARTA sounds like \"card\" plus \"a\": deal me a card, a CARTA.",
+  "image": "/deck/img/carta-playing-card.webp",
+  "audio": {
+    "word": "/deck/audio/carta-playing-card.word.mp3",
+    "sentence": "/deck/audio/carta-playing-card.sentence.mp3"
+  }
+}

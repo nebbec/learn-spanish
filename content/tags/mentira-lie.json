@@ -1,0 +1,14 @@
+{
+  "id": "mentira-lie",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8c7891dbb1190f8b",
+  "group": "#773 mentira",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:11.255Z"
+}

@@ -1,0 +1,13 @@
+{
+  "rank": 219,
+  "word": "demasiado",
+  "cards": [
+    "demasiado-too-much",
+    "demasiado-too"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:21:12.479Z"
+}

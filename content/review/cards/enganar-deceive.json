@@ -1,0 +1,17 @@
+{
+  "id": "enganar-deceive",
+  "rank": 742,
+  "word": "engañar",
+  "draft": "1e0aafd513e7f4a9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "engañar = to deceive, to trick, to fool (also to cheat on a partner)",
+    "example": "Don't deceive me, I know the truth."
+  },
+  "note": "The bare prompt \"to deceive\" cannot be confused with the other card, \"to cheat on\" (hint: a partner), so no hint is needed here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:49.338Z"
+}

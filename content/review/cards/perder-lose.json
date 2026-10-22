@@ -1,0 +1,17 @@
+{
+  "id": "perder-lose",
+  "rank": 152,
+  "word": "perder",
+  "draft": "689a4fd6756dd27f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to lose",
+    "example": "I lost my keys again."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:52.309Z"
+}

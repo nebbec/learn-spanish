@@ -1,0 +1,12 @@
+{
+  "rank": 464,
+  "word": "humano",
+  "cards": [
+    "humano-human"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:32:51.449Z"
+}

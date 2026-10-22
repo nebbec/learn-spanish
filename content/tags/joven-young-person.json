@@ -1,0 +1,14 @@
+{
+  "id": "joven-young-person",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5fa0e3bcdf93ae5f",
+  "group": "#344 joven",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:54.806Z"
+}

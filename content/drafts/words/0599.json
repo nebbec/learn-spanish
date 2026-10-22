@@ -1,0 +1,12 @@
+{
+  "rank": 599,
+  "word": "cámara",
+  "cards": [
+    "camara-camera"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:39:40.547Z"
+}

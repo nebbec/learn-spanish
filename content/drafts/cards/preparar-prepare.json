@@ -1,0 +1,28 @@
+{
+  "id": "preparar-prepare",
+  "rank": 308,
+  "kind": "content",
+  "pos": "verb",
+  "target": "preparar",
+  "en": "to prepare",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "preparo",
+      "tu": "preparas",
+      "el": "prepara"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi mamá prepara la cena todos los días.",
+    "en": "My mom prepares dinner every day."
+  },
+  "regional": null,
+  "trick": "PREPARAR sounds like \"prepare-ar\": just add -ar to prepare and you're ready to go.",
+  "image": "/deck/img/preparar-prepare.webp",
+  "audio": {
+    "word": "/deck/audio/preparar-prepare.word.mp3",
+    "sentence": "/deck/audio/preparar-prepare.sentence.mp3"
+  }
+}

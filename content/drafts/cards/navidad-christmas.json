@@ -1,0 +1,24 @@
+{
+  "id": "navidad-christmas",
+  "rank": 760,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la Navidad",
+  "en": "Christmas",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¿Qué vas a hacer en Navidad?",
+    "en": "What are you going to do for Christmas?"
+  },
+  "regional": null,
+  "trick": "NAVIDAD sounds like nativity, dad: Dad sets up the nativity scene every Christmas.",
+  "image": "/deck/img/navidad-christmas.webp",
+  "audio": {
+    "word": "/deck/audio/navidad-christmas.word.mp3",
+    "sentence": "/deck/audio/navidad-christmas.sentence.mp3"
+  }
+}

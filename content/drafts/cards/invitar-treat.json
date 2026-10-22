@@ -1,0 +1,28 @@
+{
+  "id": "invitar-treat",
+  "rank": 482,
+  "kind": "content",
+  "pos": "verb",
+  "target": "invitar",
+  "en": "to treat (to pay for)",
+  "hint": "pay for someone else",
+  "grammar": {
+    "present": {
+      "yo": "invito",
+      "tu": "invitas",
+      "el": "invita"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Tranquilo, hoy yo invito.",
+    "en": "Relax, it's my treat today."
+  },
+  "regional": null,
+  "trick": "INVITAR: when you invite someone out in Latin America, you usually pay, so te invito means I'm treating you.",
+  "image": "/deck/img/invitar-treat.webp",
+  "audio": {
+    "word": "/deck/audio/invitar-treat.word.mp3",
+    "sentence": "/deck/audio/invitar-treat.sentence.mp3"
+  }
+}

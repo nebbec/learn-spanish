@@ -1,0 +1,24 @@
+{
+  "id": "persona-person",
+  "rank": 172,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la persona",
+  "en": "person",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Eres una buena persona.",
+    "en": "You're a good person."
+  },
+  "regional": null,
+  "trick": "PERSONA sounds like \"person\" plus an extra a: every person has their own persona.",
+  "image": "/deck/img/persona-person.webp",
+  "audio": {
+    "word": "/deck/audio/persona-person.word.mp3",
+    "sentence": "/deck/audio/persona-person.sentence.mp3"
+  }
+}

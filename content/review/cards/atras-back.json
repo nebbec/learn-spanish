@@ -1,0 +1,17 @@
+{
+  "id": "atras-back",
+  "rank": 420,
+  "word": "atrás",
+  "draft": "80ac6558718c993c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "back, backward(s), behind (adverb of direction or place)",
+    "example": "Take a step back, please."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:00.470Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cualquiera-any",
+  "rank": 229,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "cualquiera",
+  "en": "call me [any] day",
+  "hint": "any at all, whichever; shortens to cualquier before a noun",
+  "grammar": null,
+  "example": {
+    "target": "Puedes venir cualquier día.",
+    "en": "You can come any day."
+  },
+  "regional": null,
+  "trick": "CUALQUIERA sounds like \"quality-era\": in any era, any day, any quality will do.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cualquiera-any.word.mp3",
+    "sentence": "/deck/audio/cualquiera-any.sentence.mp3"
+  }
+}

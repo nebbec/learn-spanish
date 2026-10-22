@@ -1,0 +1,17 @@
+{
+  "id": "pasado-past",
+  "rank": 428,
+  "word": "pasado",
+  "draft": "983fc39dbd8eac82",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el pasado = the past (noun: time gone by)",
+    "example": "You can't change the past."
+  },
+  "note": "Keeping \"the\" in the prompt is useful: it marks this as the noun and keeps it apart from the adjective card for \"last\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:46:42.103Z"
+}

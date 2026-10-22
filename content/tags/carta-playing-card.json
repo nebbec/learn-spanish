@@ -1,0 +1,14 @@
+{
+  "id": "carta-playing-card",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1676a2c1f127216d",
+  "group": "#501 carta",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:52.169Z"
+}

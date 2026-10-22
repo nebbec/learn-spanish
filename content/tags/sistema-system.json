@@ -1,0 +1,14 @@
+{
+  "id": "sistema-system",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f7d698f6d88b6b13",
+  "group": "#569 sistema",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:57.156Z"
+}

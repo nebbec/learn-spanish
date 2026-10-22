@@ -1,0 +1,24 @@
+{
+  "id": "club-club",
+  "rank": 739,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el club",
+  "en": "club",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mi hermano juega en un club de fútbol.",
+    "en": "My brother plays for a soccer club."
+  },
+  "regional": null,
+  "trick": "CLUB sounds just like the English club: same word, same meeting place for members.",
+  "image": "/deck/img/club-club.webp",
+  "audio": {
+    "word": "/deck/audio/club-club.word.mp3",
+    "sentence": "/deck/audio/club-club.sentence.mp3"
+  }
+}

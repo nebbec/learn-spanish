@@ -1,0 +1,17 @@
+{
+  "id": "orden-command",
+  "rank": 395,
+  "word": "orden",
+  "draft": "b9feb3ed9bc78a42",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "la orden: an order, a command (feminine; masculine el orden means tidiness or sequence)",
+    "example": "The captain gave an order."
+  },
+  "note": "The hint \"a command\" is needed and correctly separates feminine la orden (command) from the sister card's masculine el orden (tidiness, sequence), so the editor should make sure that card is labeled el orden, masculine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:56.362Z"
+}

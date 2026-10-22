@@ -1,0 +1,23 @@
+{
+  "id": "don-title",
+  "rank": 681,
+  "word": "don",
+  "draft": "1402f067a397d139",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "The example speaks to don Pedro with usted (¿cómo está?), but the cards must use the tú register; that is natural with 'don', so the fix is a sentence that talks about him instead of to him.",
+      "fix": "example.es: Don Pedro vive al lado de mi casa. / example.en: Mr. Pedro lives next door to me."
+    }
+  ],
+  "back": {
+    "es": "don: a respectful title used before a man's first name (roughly 'Mr.', 'Sir'); feminine doña",
+    "example": "Good morning, Don Pedro, how are you?"
+  },
+  "note": "The prompt needs the hint, because it tells the learner not to answer señor, which also means Mr.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:05:07.453Z"
+}

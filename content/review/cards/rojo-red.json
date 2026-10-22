@@ -1,0 +1,17 @@
+{
+  "id": "rojo-red",
+  "rank": 607,
+  "word": "rojo",
+  "draft": "a867413079ca3412",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "red (adjective)",
+    "example": "I love your red dress."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:31.027Z"
+}

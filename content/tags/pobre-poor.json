@@ -1,0 +1,14 @@
+{
+  "id": "pobre-poor",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e3d017b3aa006e7a",
+  "group": "#541 pobre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:02.029Z"
+}

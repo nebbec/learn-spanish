@@ -1,0 +1,37 @@
+# referir-refer · rank 502 · referir
+#
+# Why it was flagged:
+#   - Meaning: Plain referir means to refer someone somewhere or to recount something, while the everyday 'to refer to, to mean' that this card and its example teach is the reflexive referirse (a). Suggested fix: es: referirse
+#   - One right answer: Someone who knows Spanish well would answer 'referirse (a)' for 'to refer (to)', not plain referir. Suggested fix: es: referirse
+#   - Grammar: The strip gives non-reflexive forms (refiero, refieres, refiere), so a learner would say the wrong 'refiero a eso' instead of 'me refiero a eso'. Suggested fix: grammar.present: yo me refiero, tu te refieres, el se refiere (irregular true)
+# Reviewer's note (not a reason to flag): The example and its translation are good and only need es and grammar switched to referirse; the irregular flag is right (e to ie in the present, refirió in the preterite).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to es and the present forms (reflexive referirse); id kept.
+decision: approve
+
+id:             referir-refer
+kind:           content
+pos:            verb
+target:         referirse
+en:             to refer (to)
+hint:
+yo:             me refiero
+tu:             te refieres
+el:             se refiere
+irregular:      yes
+example.target: ¿A qué te refieres?
+example.en:     What do you mean?
+regional.where:
+regional.text:
+trick:          REFERIR sounds like refer: when you refer to something, you point at what you mean.
+
+# The draft this file was made from. Do not change it.
+draft: c0ae53b501cbcd87

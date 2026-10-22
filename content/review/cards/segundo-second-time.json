@@ -1,0 +1,17 @@
+{
+  "id": "segundo-second-time",
+  "rank": 213,
+  "word": "segundo",
+  "draft": "76298f8f7ecfd2ab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the second (unit of time, 1/60 of a minute)",
+    "example": "Wait for me a second, I'll be right there."
+  },
+  "note": "The hint \"unit of time\" is needed and correctly separates this card from the ordinal \"second\" card; in Latin America \"ya vengo\" often means \"I'll be right back\", which could also be used in the translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:46.210Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "situacion-situation",
+  "rank": 613,
+  "word": "situación",
+  "draft": "b7e08355f353900e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the situation",
+    "example": "The situation is under control."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:51.350Z"
+}

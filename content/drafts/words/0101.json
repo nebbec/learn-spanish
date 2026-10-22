@@ -1,0 +1,12 @@
+{
+  "rank": 101,
+  "word": "parecer",
+  "cards": [
+    "parecer-seem"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:16:06.493Z"
+}

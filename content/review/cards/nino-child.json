@@ -1,0 +1,17 @@
+{
+  "id": "nino-child",
+  "rank": 150,
+  "word": "niño",
+  "draft": "53d4dd760a456260",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el niño = child; boy (a young male child)",
+    "example": "The children (kids) are playing in the park."
+  },
+  "note": "The hint \"also a little boy\" does rule out hijo (child as offspring), but \"a young child, also a little boy (not someone's son)\" would make that clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:38.157Z"
+}

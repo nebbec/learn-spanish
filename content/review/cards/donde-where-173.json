@@ -1,0 +1,17 @@
+{
+  "id": "donde-where-173",
+  "rank": 173,
+  "word": "donde",
+  "draft": "3ae6acddab202648",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "where (relative, not a question): the place in which",
+    "example": "This is the house where I live."
+  },
+  "note": "The hint correctly rules out the question word dónde; a learner might also think of the phrases \"en la que\" or \"en donde\", but the one-word target [where] points clearly to donde.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:03.561Z"
+}

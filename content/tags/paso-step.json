@@ -1,0 +1,14 @@
+{
+  "id": "paso-step",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c92ef7eeff29a24e",
+  "group": "#684 paso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:29.782Z"
+}

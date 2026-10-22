@@ -1,0 +1,14 @@
+{
+  "id": "tampoco-neither",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tampoco to agree with a negative (me neither); use también to agree with a positive (me too).",
+  "draft": "3f99df16e1070e7c",
+  "group": "#444 tampoco",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:08.091Z"
+}

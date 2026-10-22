@@ -1,0 +1,17 @@
+{
+  "id": "prometer-promise",
+  "rank": 347,
+  "word": "prometer",
+  "draft": "e9437d8964d98823",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to promise",
+    "example": "I promise you that I'm going to arrive early."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:04.495Z"
+}

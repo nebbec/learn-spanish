@@ -1,0 +1,17 @@
+{
+  "id": "campo-countryside",
+  "rank": 570,
+  "word": "campo",
+  "draft": "48d16ca23caa1161",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el campo = the countryside, the country (rural area); also field",
+    "example": "My grandparents live in the country."
+  },
+  "note": "The other card's hint for \"field\" includes \"open land, farm\", which overlaps with this meaning, but both cards have the answer el campo, so this does not cause a wrong answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:43.568Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mar-sea",
+  "rank": 720,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el mar",
+  "en": "sea",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Vamos a nadar en el mar.",
+    "en": "Let's go swim in the sea."
+  },
+  "regional": null,
+  "trick": "MAR sounds like marine: marines sail across the sea.",
+  "image": "/deck/img/mar-sea.webp",
+  "audio": {
+    "word": "/deck/audio/mar-sea.word.mp3",
+    "sentence": "/deck/audio/mar-sea.sentence.mp3"
+  }
+}

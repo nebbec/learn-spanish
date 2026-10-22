@@ -1,0 +1,24 @@
+{
+  "id": "resto-rest",
+  "rank": 508,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el resto",
+  "en": "the rest",
+  "hint": "what is left, not relaxing",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Yo pago el resto mañana.",
+    "en": "I'll pay the rest tomorrow."
+  },
+  "regional": null,
+  "trick": "RESTO sounds like rest-o: the rest-o of the pizza is what's left in the box.",
+  "image": "/deck/img/resto-rest.webp",
+  "audio": {
+    "word": "/deck/audio/resto-rest.word.mp3",
+    "sentence": "/deck/audio/resto-rest.sentence.mp3"
+  }
+}

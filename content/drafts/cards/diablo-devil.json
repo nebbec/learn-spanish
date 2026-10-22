@@ -1,0 +1,24 @@
+{
+  "id": "diablo-devil",
+  "rank": 390,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el diablo",
+  "en": "devil",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Ese niño es un diablo.",
+    "en": "That kid is a little devil."
+  },
+  "regional": null,
+  "trick": "DIABLO sounds like diabolical: the devil is the most diabolical one of all.",
+  "image": "/deck/img/diablo-devil.webp",
+  "audio": {
+    "word": "/deck/audio/diablo-devil.word.mp3",
+    "sentence": "/deck/audio/diablo-devil.sentence.mp3"
+  }
+}

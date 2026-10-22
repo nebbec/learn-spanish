@@ -2,16 +2,16 @@
   "id": "mejor-better",
   "rank": 100,
   "word": "mejor",
-  "draft": "ab7589e52367d3ac",
+  "draft": "87e9ead3dbca8fbb",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "better (comparative of good); as el/la mejor, the best",
-    "example": "This coffee is better than the other one."
+    "es": "better (adjective; comparative of bueno; with el/la it means best)",
+    "example": "Today I feel much better."
   },
-  "note": "Mejor is also the adverb \"better\" (canta mejor), so the same answer works for both senses and the plural mejores could be mentioned somewhere for learners.",
+  "note": "In the example, mejor works as an adverb with \"me siento\", not as an adjective, so a sentence like \"Este plan es mejor\" would match the adjective label more closely; this is optional.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:03:45.814Z"
+  "reviewedAt": "2026-10-09T14:21:19.005Z"
 }

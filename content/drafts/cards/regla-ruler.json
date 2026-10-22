@@ -1,0 +1,24 @@
+{
+  "id": "regla-ruler",
+  "rank": 775,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la regla",
+  "en": "ruler",
+  "hint": "measuring tool",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¿Me prestas tu regla?",
+    "en": "Can you lend me your ruler?"
+  },
+  "regional": null,
+  "trick": "REGLA sounds like 'regular': a ruler draws nice, regular straight lines.",
+  "image": "/deck/img/regla-ruler.webp",
+  "audio": {
+    "word": "/deck/audio/regla-ruler.word.mp3",
+    "sentence": "/deck/audio/regla-ruler.sentence.mp3"
+  }
+}

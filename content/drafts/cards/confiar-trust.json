@@ -1,0 +1,28 @@
+{
+  "id": "confiar-trust",
+  "rank": 401,
+  "kind": "content",
+  "pos": "verb",
+  "target": "confiar",
+  "en": "to trust",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "confío",
+      "tu": "confías",
+      "el": "confía"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Confío en ti, hermano.",
+    "en": "I trust you, bro."
+  },
+  "regional": null,
+  "trick": "CONFIAR sounds like confide: you only confide in people you trust.",
+  "image": "/deck/img/confiar-trust.webp",
+  "audio": {
+    "word": "/deck/audio/confiar-trust.word.mp3",
+    "sentence": "/deck/audio/confiar-trust.sentence.mp3"
+  }
+}

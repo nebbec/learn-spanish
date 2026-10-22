@@ -1,0 +1,23 @@
+{
+  "id": "camara-camera",
+  "rank": 599,
+  "word": "cámara",
+  "draft": "f6b9719fc1aee354",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says cámara is camera with an extra a, but the two words have the same number of letters: the e in camera becomes an a, so the spelling claim is false.",
+      "fix": "trick: CÁMARA is camera with the e swapped for an a: say cheese, the cámara is rolling."
+    }
+  ],
+  "back": {
+    "es": "the camera (also: chamber, as in a legislative chamber)",
+    "example": "Smile, there's a camera."
+  },
+  "note": "In Mexico, ¡cámara! is also common slang for 'okay / deal', which the editor might mention somewhere else, but camera is the right core meaning for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:05.704Z"
+}

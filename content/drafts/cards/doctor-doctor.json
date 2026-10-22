@@ -1,0 +1,24 @@
+{
+  "id": "doctor-doctor",
+  "rank": 304,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el doctor",
+  "en": "doctor",
+  "hint": "also the title, as in Doctor García; not médico",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Necesito ver al doctor hoy.",
+    "en": "I need to see the doctor today."
+  },
+  "regional": null,
+  "trick": "DOCTOR is spelled just like English; only the stress moves to the end: doc-TOR.",
+  "image": "/deck/img/doctor-doctor.webp",
+  "audio": {
+    "word": "/deck/audio/doctor-doctor.word.mp3",
+    "sentence": "/deck/audio/doctor-doctor.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mujer-woman",
+  "rank": 146,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la mujer",
+  "en": "woman",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Esa mujer es mi profesora.",
+    "en": "That woman is my teacher."
+  },
+  "regional": null,
+  "trick": "MUJER sounds like \"moo-HAIR\": a woman tosses her long hair while a cow says moo.",
+  "image": "/deck/img/mujer-woman.webp",
+  "audio": {
+    "word": "/deck/audio/mujer-woman.word.mp3",
+    "sentence": "/deck/audio/mujer-woman.sentence.mp3"
+  }
+}

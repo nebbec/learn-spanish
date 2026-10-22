@@ -29,4 +29,4 @@ regional.text:
 trick:          ALLÍ sounds like "ally": your ally is waiting over there, far away.
 
 # The draft this file was made from. Do not change it.
-draft: 85fa2bbf0afe35a9
+draft: 7e3e39898d7807ac

@@ -1,0 +1,28 @@
+{
+  "id": "pelear-fight",
+  "rank": 601,
+  "kind": "content",
+  "pos": "verb",
+  "target": "pelear",
+  "en": "to fight",
+  "hint": "brawl or quarrel, not struggle for a cause",
+  "grammar": {
+    "present": {
+      "yo": "peleo",
+      "tu": "peleas",
+      "el": "pelea"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mis hermanos siempre pelean por la tele.",
+    "en": "My brothers always fight over the TV."
+  },
+  "regional": null,
+  "trick": "PELEAR sounds like 'pay layer': two guys fight over who has to pay the next layer of cake.",
+  "image": "/deck/img/pelear-fight.webp",
+  "audio": {
+    "word": "/deck/audio/pelear-fight.word.mp3",
+    "sentence": "/deck/audio/pelear-fight.sentence.mp3"
+  }
+}

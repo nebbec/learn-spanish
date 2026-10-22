@@ -1,0 +1,28 @@
+{
+  "id": "conseguir-manage-to",
+  "rank": 190,
+  "kind": "content",
+  "pos": "verb",
+  "target": "conseguir",
+  "en": "to manage to",
+  "hint": "not lograr; succeed in doing",
+  "grammar": {
+    "present": {
+      "yo": "consigo",
+      "tu": "consigues",
+      "el": "consigue"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Por fin conseguí dormir un poco.",
+    "en": "I finally managed to get some sleep."
+  },
+  "regional": null,
+  "trick": "CONSEGUIR sounds like \"consequence\": you managed to do it, and success is the consequence.",
+  "image": "/deck/img/conseguir-manage-to.webp",
+  "audio": {
+    "word": "/deck/audio/conseguir-manage-to.word.mp3",
+    "sentence": "/deck/audio/conseguir-manage-to.sentence.mp3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "utilizar-use",
+  "rank": 759,
+  "kind": "content",
+  "pos": "verb",
+  "target": "utilizar",
+  "en": "to use",
+  "hint": "longer, more formal word, like utilize (not usar)",
+  "grammar": {
+    "present": {
+      "yo": "utilizo",
+      "tu": "utilizas",
+      "el": "utiliza"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Qué programa utilizas para editar videos?",
+    "en": "What program do you use to edit videos?"
+  },
+  "regional": null,
+  "trick": "UTILIZAR sounds like utilize: you utilize, or use, a tool.",
+  "image": "/deck/img/utilizar-use.webp",
+  "audio": {
+    "word": "/deck/audio/utilizar-use.word.mp3",
+    "sentence": "/deck/audio/utilizar-use.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "orden-tidiness",
+  "rank": 395,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el orden",
+  "en": "order",
+  "hint": "tidiness, sequence",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Me gusta el orden en mi cuarto.",
+    "en": "I like order in my room."
+  },
+  "regional": null,
+  "trick": "ORDEN sounds like order-in: put everything in order, back in its place.",
+  "image": "/deck/img/orden-tidiness.webp",
+  "audio": {
+    "word": "/deck/audio/orden-tidiness.word.mp3",
+    "sentence": "/deck/audio/orden-tidiness.sentence.mp3"
+  }
+}

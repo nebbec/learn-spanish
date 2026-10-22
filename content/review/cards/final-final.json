@@ -1,0 +1,17 @@
+{
+  "id": "final-final",
+  "rank": 373,
+  "word": "final",
+  "draft": "e726ec9341587f35",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "final (adjective): final, last",
+    "example": "It's my final answer."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:55.883Z"
+}

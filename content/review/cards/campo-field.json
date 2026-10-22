@@ -1,0 +1,17 @@
+{
+  "id": "campo-field",
+  "rank": 570,
+  "word": "campo",
+  "draft": "5db5294ce7c03c8c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the field (open land, farmland); also the countryside",
+    "example": "The horses run through the field."
+  },
+  "note": "The example sentence could also be read as \"in the countryside\", which overlaps with the word's other card, but \"field\" is a fine translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:47.551Z"
+}

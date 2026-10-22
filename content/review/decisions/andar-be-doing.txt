@@ -1,0 +1,36 @@
+# andar-be-doing · rank 426 · andar
+#
+# Why it was flagged:
+#   - One right answer: The prompt 'to be' with 'how someone is getting on' naturally gives estar, and the blank fits it too (¿Cómo estás?), so the hint does not rule out estar. Suggested fix: hint: colloquial 'to be' for how someone is doing or what they're up to, not estar: ¿Cómo ___s? (How's it going?)
+#   - Example sentence: The example is two sentences, and the card asks for one short sentence. Suggested fix: example.es: ¿Qué andas haciendo hoy? / example.en: What are you up to today?
+# Reviewer's note (not a reason to flag): The irregular flag is right only because of the preterite (anduve); the present forms are regular.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fixes to hint (shortened) and example.
+decision: approve
+
+id:             andar-be-doing
+kind:           content
+pos:            verb
+target:         andar
+en:             to be (going around)
+hint:           colloquial, how someone's doing or what they're up to, not estar: ¿Cómo ___s?
+yo:             ando
+tu:             andas
+el:             anda
+irregular:      yes
+example.target: ¿Qué andas haciendo hoy?
+example.en:     What are you up to today?
+regional.where:
+regional.text:
+trick:          ANDAR sounds like "and are": and how are you doing these days?
+
+# The draft this file was made from. Do not change it.
+draft: d9859ba012be72ae

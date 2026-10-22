@@ -1,0 +1,28 @@
+{
+  "id": "referir-refer",
+  "rank": 502,
+  "kind": "content",
+  "pos": "verb",
+  "target": "referir",
+  "en": "to refer (to)",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "refiero",
+      "tu": "refieres",
+      "el": "refiere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿A qué te refieres?",
+    "en": "What do you mean?"
+  },
+  "regional": null,
+  "trick": "REFERIR sounds like refer: when you refer to something, you point at what you mean.",
+  "image": "/deck/img/referir-refer.webp",
+  "audio": {
+    "word": "/deck/audio/referir-refer.word.mp3",
+    "sentence": "/deck/audio/referir-refer.sentence.mp3"
+  }
+}

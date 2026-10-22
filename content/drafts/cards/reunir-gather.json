@@ -1,0 +1,28 @@
+{
+  "id": "reunir-gather",
+  "rank": 708,
+  "kind": "content",
+  "pos": "verb",
+  "target": "reunir",
+  "en": "to gather",
+  "hint": "bring people or things together",
+  "grammar": {
+    "present": {
+      "yo": "reúno",
+      "tu": "reúnes",
+      "el": "reúne"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi abuela reúne a toda la familia en Navidad.",
+    "en": "My grandma gathers the whole family at Christmas."
+  },
+  "regional": null,
+  "trick": "REUNIR sounds like reunion: you gather everyone together for a big reunion.",
+  "image": "/deck/img/reunir-gather.webp",
+  "audio": {
+    "word": "/deck/audio/reunir-gather.word.mp3",
+    "sentence": "/deck/audio/reunir-gather.sentence.mp3"
+  }
+}

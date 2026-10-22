@@ -1,0 +1,17 @@
+{
+  "id": "pueblo-people-nation",
+  "rank": 494,
+  "word": "pueblo",
+  "draft": "8a9059e49424b0ae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the people (a people, nation; the populace)",
+    "example": "The people want justice."
+  },
+  "note": "The hint correctly rules out gente and keeps this card separate from the \"town\" card, and the trick is right because pueblo, people, public and popular all come from Latin populus.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:42.364Z"
+}

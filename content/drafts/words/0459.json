@@ -1,0 +1,12 @@
+{
+  "rank": 459,
+  "word": "aceptar",
+  "cards": [
+    "aceptar-accept"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:32:39.920Z"
+}

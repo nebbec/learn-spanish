@@ -1,0 +1,17 @@
+{
+  "id": "terminar-finish",
+  "rank": 200,
+  "word": "terminar",
+  "draft": "dbd641b9c0f4029f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to finish, to end",
+    "example": "Did you already finish the homework?"
+  },
+  "note": "The hint is needed, because \"to finish\" could also be acabar, and it correctly rules that out; the example's \"tarea\" is the Latin American word for homework (Spain would say \"deberes\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:43.911Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nadie-nobody",
+  "rank": 147,
+  "word": "nadie",
+  "draft": "0699e1ddef664f1a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "nobody, no one (pronoun)",
+    "example": "Nobody knows where my phone is."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:30.717Z"
+}

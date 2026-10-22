@@ -1,0 +1,28 @@
+{
+  "id": "recordar-remind",
+  "rank": 192,
+  "kind": "content",
+  "pos": "verb",
+  "target": "recordar",
+  "en": "to remind",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "recuerdo",
+      "tu": "recuerdas",
+      "el": "recuerda"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Recuérdame llamar a mi mamá.",
+    "en": "Remind me to call my mom."
+  },
+  "regional": null,
+  "trick": "RECORDAR sounds like record: you play someone a recording to remind them.",
+  "image": "/deck/img/recordar-remind.webp",
+  "audio": {
+    "word": "/deck/audio/recordar-remind.word.mp3",
+    "sentence": "/deck/audio/recordar-remind.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "faltar-be-missing",
+  "rank": 529,
+  "word": "faltar",
+  "draft": "403fbb413b5cb8b0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be missing, to be lacking, to still be needed",
+    "example": "A chair is missing at the table."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:07.393Z"
+}

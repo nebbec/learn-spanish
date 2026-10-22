@@ -1,0 +1,17 @@
+{
+  "id": "rapido-fast",
+  "rank": 263,
+  "word": "rápido",
+  "draft": "319bb1d4558440f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "fast, quick, rapid (adjective)",
+    "example": "My brother has a very fast car."
+  },
+  "note": "The example uses carro, which is common in Mexico, Central America and much of South America, but the Southern Cone says auto and Spain says coche; that is fine because the spain field is about rápido, which Spain also uses.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:06.508Z"
+}

@@ -1,0 +1,31 @@
+# cuanto-how-much-384 · rank 384 · cuanto
+#
+# Why it was flagged:
+#   - Meaning: In "¿cuánto cuesta?" the word cuánto stands on its own as a question word of amount (an adverb or pronoun), not as a determiner in front of a noun as in "cuánto dinero", so the pos label is wrong. Suggested fix: pos: adverb
+# Reviewer's note (not a reason to flag): The prompt does not overlap with the word's other card, "en cuanto" (as soon as), and keeping the question accent on cuánto is correct here.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to pos. Example rewritten by Claude with words met before it in the starter path.
+decision: approve
+
+id:             cuanto-how-much-384
+kind:           glue
+pos:            adverb
+target:         cuánto
+en:             [how much] does it cost?
+hint:
+example.target: ¿Cuánto es el café?
+example.en:     How much is the coffee?
+regional.where:
+regional.text:
+trick:          CUÁNTO sounds like quantity: asking how much is asking the quantity.
+
+# The draft this file was made from. Do not change it.
+draft: f83924117e7456b8

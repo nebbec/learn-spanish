@@ -1,0 +1,14 @@
+{
+  "id": "cargo-position",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9ab84ae97f87e535",
+  "group": "#651 cargo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:31.246Z"
+}

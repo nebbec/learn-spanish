@@ -1,0 +1,28 @@
+{
+  "id": "devolver-give-back",
+  "rank": 616,
+  "kind": "content",
+  "pos": "verb",
+  "target": "devolver",
+  "en": "to give back",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "devuelvo",
+      "tu": "devuelves",
+      "el": "devuelve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Mañana te devuelvo el dinero.",
+    "en": "I'll give you the money back tomorrow."
+  },
+  "regional": null,
+  "trick": "DEVOLVER sounds like \"the revolver\": you must give back the revolver you borrowed.",
+  "image": "/deck/img/devolver-give-back.webp",
+  "audio": {
+    "word": "/deck/audio/devolver-give-back.word.mp3",
+    "sentence": "/deck/audio/devolver-give-back.sentence.mp3"
+  }
+}

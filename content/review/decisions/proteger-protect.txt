@@ -1,0 +1,35 @@
+# proteger-protect · rank 506 · proteger
+#
+# Why it was flagged:
+#   - Example sentence: The example leaves proteger in the infinitive after voy a, so the card's verb is never conjugated. Suggested fix: example.es: Mi hermano mayor siempre me protege. / example.en: My older brother always protects me.
+# Reviewer's note (not a reason to flag): The yo form protejo is only a spelling change (g to j before o), so irregular false is correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the example.
+decision: approve
+
+id:             proteger-protect
+kind:           content
+pos:            verb
+target:         proteger
+en:             to protect
+hint:
+yo:             protejo
+tu:             proteges
+el:             protege
+irregular:      no
+example.target: Mi hermano mayor siempre me protege.
+example.en:     My older brother always protects me.
+regional.where:
+regional.text:
+trick:          PROTEGER sounds like protect-HAIR: you wear a helmet to protect your hair and head.
+
+# The draft this file was made from. Do not change it.
+draft: c9cf22f5f9b94625

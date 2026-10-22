@@ -1,0 +1,17 @@
+{
+  "id": "avion-airplane",
+  "rank": 667,
+  "word": "avión",
+  "draft": "7ca773bb9d26606c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "airplane, plane",
+    "example": "The plane leaves at eight."
+  },
+  "note": "Aeroplano exists but is rare and old-fashioned, and avioneta means a small plane, so el avión is clearly the one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:58.150Z"
+}

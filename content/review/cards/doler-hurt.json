@@ -1,0 +1,17 @@
+{
+  "id": "doler-hurt",
+  "rank": 735,
+  "word": "doler",
+  "draft": "f30aba421d47b936",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to hurt, to ache (intransitive: a body part hurts someone; used like gustar, 'me duele')",
+    "example": "My head hurts a lot."
+  },
+  "note": "The hint \"to be painful\" is needed: it rules out lastimar and herir (to hurt someone), and the example shows the gustar-like pattern a learner needs.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:19.085Z"
+}

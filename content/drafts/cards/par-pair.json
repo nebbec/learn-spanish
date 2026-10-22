@@ -1,0 +1,24 @@
+{
+  "id": "par-pair",
+  "rank": 437,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el par",
+  "en": "pair",
+  "hint": "of things, as in a couple of minutes",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Dame un par de minutos.",
+    "en": "Give me a couple of minutes."
+  },
+  "regional": null,
+  "trick": "PAR sounds just like pair: a par of shoes is a pair of shoes.",
+  "image": "/deck/img/par-pair.webp",
+  "audio": {
+    "word": "/deck/audio/par-pair.word.mp3",
+    "sentence": "/deck/audio/par-pair.sentence.mp3"
+  }
+}

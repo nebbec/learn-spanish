@@ -1,0 +1,17 @@
+{
+  "id": "desde-since",
+  "rank": 160,
+  "word": "desde",
+  "draft": "8739f4479162c607",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "since (time); from (starting point)",
+    "example": "I haven't eaten anything since yesterday."
+  },
+  "note": "The hint is needed because it rules out the \"because\" meaning of since (ya que, como); \"No he comido nada desde ayer\" would be an equally natural alternative for the example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:01.781Z"
+}

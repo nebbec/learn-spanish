@@ -1,0 +1,23 @@
+{
+  "id": "lamentar-regret",
+  "rank": 552,
+  "word": "lamentar",
+  "draft": "10e2b12c407385be",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'to be sorry about something' also points to sentir (as in 'lo siento', 'siento mucho tu pérdida'), which is the most common way to say you're sorry, so the hint leaves two right answers.",
+      "fix": "hint: to lament or be sorry about something (not to repent, not sentir)"
+    }
+  ],
+  "back": {
+    "es": "to regret, to be sorry about, to lament",
+    "example": "I'm very sorry for your loss."
+  },
+  "note": "Lamentar sounds a bit more formal than sentir, and condolences like this example are where it's used most in everyday speech.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:37.285Z"
+}

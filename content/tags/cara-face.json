@@ -1,0 +1,14 @@
+{
+  "id": "cara-face",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6d49bd14430843fe",
+  "group": "#313 cara",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:59.208Z"
+}

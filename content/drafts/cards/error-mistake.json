@@ -1,0 +1,24 @@
+{
+  "id": "error-mistake",
+  "rank": 518,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el error",
+  "en": "mistake",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Fue un error confiar en él.",
+    "en": "It was a mistake to trust him."
+  },
+  "regional": null,
+  "trick": "ERROR is spelled just like the English error, which is a mistake.",
+  "image": "/deck/img/error-mistake.webp",
+  "audio": {
+    "word": "/deck/audio/error-mistake.word.mp3",
+    "sentence": "/deck/audio/error-mistake.sentence.mp3"
+  }
+}

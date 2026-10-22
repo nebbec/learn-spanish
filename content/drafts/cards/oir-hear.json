@@ -1,0 +1,28 @@
+{
+  "id": "oir-hear",
+  "rank": 122,
+  "kind": "content",
+  "pos": "verb",
+  "target": "oír",
+  "en": "to hear",
+  "hint": "perceive sound, not escuchar",
+  "grammar": {
+    "present": {
+      "yo": "oigo",
+      "tu": "oyes",
+      "el": "oye"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿Oyes ese ruido afuera?",
+    "en": "Do you hear that noise outside?"
+  },
+  "regional": null,
+  "trick": "OÍR sounds like ear: you hear with your ear.",
+  "image": "/deck/img/oir-hear.webp",
+  "audio": {
+    "word": "/deck/audio/oir-hear.word.mp3",
+    "sentence": "/deck/audio/oir-hear.sentence.mp3"
+  }
+}

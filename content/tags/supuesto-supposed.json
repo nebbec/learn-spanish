@@ -1,0 +1,14 @@
+{
+  "id": "supuesto-supposed",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "daa55c7c57b911a1",
+  "group": "#272 supuesto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:07:14.614Z"
+}

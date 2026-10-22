@@ -1,0 +1,17 @@
+{
+  "id": "seguro-safe",
+  "rank": 139,
+  "word": "seguro",
+  "draft": "db6e8cd81ecc798e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "safe, secure (also: sure, certain)",
+    "example": "Here we are safe."
+  },
+  "note": "The hint \"not in danger\" is useful because it separates this card from the \"sure\" card, and \"a salvo\" is too uncommon to compete as an answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:08.591Z"
+}

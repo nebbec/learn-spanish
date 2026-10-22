@@ -1,0 +1,28 @@
+{
+  "id": "marchar-march",
+  "rank": 670,
+  "kind": "content",
+  "pos": "verb",
+  "target": "marchar",
+  "en": "to march",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "marcho",
+      "tu": "marchas",
+      "el": "marcha"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Miles de personas marchan hoy por el centro.",
+    "en": "Thousands of people are marching through downtown today."
+  },
+  "regional": null,
+  "trick": "MARCHAR sounds like march plus a shout of 'ar!': soldiers yelling as they march in step.",
+  "image": "/deck/img/marchar-march.webp",
+  "audio": {
+    "word": "/deck/audio/marchar-march.word.mp3",
+    "sentence": "/deck/audio/marchar-march.sentence.mp3"
+  }
+}

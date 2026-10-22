@@ -1,0 +1,23 @@
+{
+  "id": "cuanto-how-much-384",
+  "rank": 384,
+  "word": "cuanto",
+  "draft": "f83924117e7456b8",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "In \"¿cuánto cuesta?\" the word cuánto stands on its own as a question word of amount (an adverb or pronoun), not as a determiner in front of a noun as in \"cuánto dinero\", so the pos label is wrong.",
+      "fix": "pos: adverb"
+    }
+  ],
+  "back": {
+    "es": "cuánto = how much (interrogative); ¿Cuánto cuesta este libro? = How much does this book cost?",
+    "example": "How much does this book cost?"
+  },
+  "note": "The prompt does not overlap with the word's other card, \"en cuanto\" (as soon as), and keeping the question accent on cuánto is correct here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:02.241Z"
+}

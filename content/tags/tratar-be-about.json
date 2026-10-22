@@ -1,0 +1,14 @@
+{
+  "id": "tratar-be-about",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9230cfd0c8fcdc48",
+  "group": "#157 tratar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:10.538Z"
+}

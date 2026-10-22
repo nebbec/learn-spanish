@@ -1,0 +1,24 @@
+{
+  "id": "equipo-team",
+  "rank": 318,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el equipo",
+  "en": "team",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Somos un buen equipo, ¿no?",
+    "en": "We're a good team, right?"
+  },
+  "regional": null,
+  "trick": "EQUIPO sounds like 'a key pole': the whole team carries one key pole together to win.",
+  "image": "/deck/img/equipo-team.webp",
+  "audio": {
+    "word": "/deck/audio/equipo-team.word.mp3",
+    "sentence": "/deck/audio/equipo-team.sentence.mp3"
+  }
+}

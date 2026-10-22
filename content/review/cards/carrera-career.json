@@ -1,0 +1,17 @@
+{
+  "id": "carrera-career",
+  "rank": 645,
+  "word": "carrera",
+  "draft": "ae2eb142523aa6b5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "career (professional path); university degree program, course of studies",
+    "example": "I'm studying (for) a degree in medicine."
+  },
+  "note": "The prompt alone already points to la carrera and the hint isn't needed, but it covers the degree sense, which is the main everyday sense in Latin America and the one the example uses; a sentence about a career, like \"Ella tiene una carrera exitosa.\", would fit the English prompt more directly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:02:35.628Z"
+}

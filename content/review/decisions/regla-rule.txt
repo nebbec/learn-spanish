@@ -1,0 +1,33 @@
+# regla-rule · rank 775 · regla
+#
+# Why it was flagged:
+#   - Example sentence: The example has no conjugated verb, which every example must have. Suggested fix: example.es: Tienes que seguir las reglas. example.en: You have to follow the rules.
+# Reviewer's note (not a reason to flag): Norma can also mean rule, but regla is the everyday default, so the prompt needs no hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to example.
+decision: approve
+
+id:             regla-rule
+kind:           content
+pos:            noun
+target:         la regla
+en:             rule
+hint:
+gender:         f
+article:        la
+example.target: Tienes que seguir las reglas.
+example.en:     You have to follow the rules.
+regional.where:
+regional.text:
+trick:          REGLA sounds like 'regular': rules keep everything regular.
+
+# The draft this file was made from. Do not change it.
+draft: 52e45fd4c880d08a

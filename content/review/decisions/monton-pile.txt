@@ -1,0 +1,33 @@
+# monton-pile · rank 638 · montón
+#
+# Why it was flagged:
+#   - One right answer: The hint includes the Spanish answer itself (un montón de), so there is nothing to recall, and without it 'pile' could also be la pila or la montaña. Suggested fix: hint: a heap of things; in casual speech also means 'a ton of'
+# Reviewer's note (not a reason to flag): Montón really does come from monte (mountain), so the trick is accurate as well as easy to remember.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
+decision: approve
+
+id:             monton-pile
+kind:           content
+pos:            noun
+target:         el montón
+en:             pile
+hint:           a heap of things; in casual speech also means 'a ton of'
+gender:         m
+article:        el
+example.target: Tengo un montón de trabajo hoy.
+example.en:     I have a ton of work today.
+regional.where:
+regional.text:
+trick:          MONTÓN sounds like mountain: a pile so big it looks like a mountain.
+
+# The draft this file was made from. Do not change it.
+draft: d048ed2b027230ea

@@ -1,0 +1,28 @@
+{
+  "id": "costar-cost",
+  "rank": 643,
+  "kind": "content",
+  "pos": "verb",
+  "target": "costar",
+  "en": "to cost",
+  "hint": "price, money",
+  "grammar": {
+    "present": {
+      "yo": "cuesto",
+      "tu": "cuestas",
+      "el": "cuesta"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿Cuánto cuesta esta camisa?",
+    "en": "How much does this shirt cost?"
+  },
+  "regional": null,
+  "trick": "COSTAR sounds like cost-star: a movie star costs a lot of money.",
+  "image": "/deck/img/costar-cost.webp",
+  "audio": {
+    "word": "/deck/audio/costar-cost.word.mp3",
+    "sentence": "/deck/audio/costar-cost.sentence.mp3"
+  }
+}

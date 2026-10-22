@@ -1,0 +1,13 @@
+{
+  "rank": 457,
+  "word": "vaya",
+  "cards": [],
+  "skip": {
+    "reason": "covered-elsewhere",
+    "note": "vaya is mainly the present subjunctive of ir (que te vaya bien), which is covered by the ir card; the interjection use (wow, well) is more typical of Spain than of everyday Latin American speech."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:32:33.212Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sentido-sense",
+  "rank": 792,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sentido",
+  "en": "sense",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Esto no tiene sentido.",
+    "en": "This doesn't make sense."
+  },
+  "regional": null,
+  "trick": "SENTIDO sounds like scented: your sense of smell tells you something is scented, and good sense tells you what something means.",
+  "image": "/deck/img/sentido-sense.webp",
+  "audio": {
+    "word": "/deck/audio/sentido-sense.word.mp3",
+    "sentence": "/deck/audio/sentido-sense.sentence.mp3"
+  }
+}

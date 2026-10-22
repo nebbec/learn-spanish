@@ -1,0 +1,14 @@
+{
+  "id": "cielo-heaven",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6f2d2023d0e50838",
+  "group": "#408 cielo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:56.554Z"
+}

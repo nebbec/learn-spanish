@@ -2,16 +2,16 @@
   "id": "venir-form-tu",
   "rank": 68,
   "word": "venir",
-  "draft": "f863b019719a0c9f",
+  "draft": "4ed97c22350eada5",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "you come (informal, tú)",
-    "example": "Are you coming to the party?"
+    "es": "you come (informal, tú form of venir)",
+    "example": "Are you coming to my house tomorrow?"
   },
   "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T19:52:43.655Z"
+  "reviewedAt": "2026-10-09T14:18:33.896Z"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "fuego-fire",
+  "rank": 512,
+  "word": "fuego",
+  "draft": "6163b295910127c6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "fire (flames, the burning itself)",
+    "example": "Don't touch the fire, it burns."
+  },
+  "note": "The hint is needed: it rules out el incendio (a building or forest fire), and saying \"flames\" also rules out the verb senses of \"fire\" (disparar, despedir).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:03.039Z"
+}

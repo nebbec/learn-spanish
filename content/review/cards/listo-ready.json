@@ -1,0 +1,23 @@
+{
+  "id": "listo-ready",
+  "rank": 239,
+  "word": "listo",
+  "draft": "5ecabc3c93801b32",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, a learner could also correctly answer preparado for \"ready\", and the prompt does not point to the estar sense the way the sister card points to the ser sense.",
+      "fix": "hint: used with estar; not preparado"
+    }
+  ],
+  "back": {
+    "es": "ready (with estar); clever (with ser)",
+    "example": "Are you ready to go out?"
+  },
+  "note": "The new hint would match the sister card's \"used with ser\" hint, so the learner can see that listo means ready with estar and clever with ser.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:27.856Z"
+}

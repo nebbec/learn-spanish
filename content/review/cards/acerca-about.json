@@ -1,0 +1,17 @@
+{
+  "id": "acerca-about",
+  "rank": 496,
+  "word": "acerca",
+  "draft": "7bcabc56907886f7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "about, concerning (acerca de)",
+    "example": "What do you know about her?"
+  },
+  "note": "The hint \"two-word phrase, not sobre\" correctly rules out sobre, plain de and longer phrases such as \"con respecto a\", and it is needed; the trick could also mention the link to cerca (near), since the word means \"near to\" a topic.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:49.257Z"
+}

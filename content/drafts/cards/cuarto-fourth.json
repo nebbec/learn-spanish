@@ -1,0 +1,23 @@
+{
+  "id": "cuarto-fourth",
+  "rank": 523,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "cuarto",
+  "en": "fourth",
+  "hint": null,
+  "grammar": {
+    "feminine": "cuarta"
+  },
+  "example": {
+    "target": "Vivo en el cuarto piso.",
+    "en": "I live on the fourth floor."
+  },
+  "regional": null,
+  "trick": "CUARTO sounds like quart, and a quart is a fourth of a gallon.",
+  "image": "/deck/img/cuarto-fourth.webp",
+  "audio": {
+    "word": "/deck/audio/cuarto-fourth.word.mp3",
+    "sentence": "/deck/audio/cuarto-fourth.sentence.mp3"
+  }
+}

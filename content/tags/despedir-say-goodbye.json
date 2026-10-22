@@ -1,0 +1,14 @@
+{
+  "id": "despedir-say-goodbye",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e438d376d6730eea",
+  "group": "#586 despedir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:25.934Z"
+}

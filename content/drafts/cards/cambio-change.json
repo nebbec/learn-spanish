@@ -1,0 +1,24 @@
+{
+  "id": "cambio-change",
+  "rank": 497,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cambio",
+  "en": "change",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Necesito un cambio en mi vida.",
+    "en": "I need a change in my life."
+  },
+  "regional": null,
+  "trick": "CAMBIO sounds like \"come be-o\": come be someone new, because change is good.",
+  "image": "/deck/img/cambio-change.webp",
+  "audio": {
+    "word": "/deck/audio/cambio-change.word.mp3",
+    "sentence": "/deck/audio/cambio-change.sentence.mp3"
+  }
+}

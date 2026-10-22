@@ -1,0 +1,24 @@
+{
+  "id": "sueno-dream",
+  "rank": 448,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sueño",
+  "en": "dream",
+  "hint": "the noun, not the verb",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Anoche tuve un sueño muy raro.",
+    "en": "Last night I had a really weird dream."
+  },
+  "regional": null,
+  "trick": "SUEÑO sounds like \"sway, yo\": in your dream you sway on clouds saying yo to the stars.",
+  "image": "/deck/img/sueno-dream.webp",
+  "audio": {
+    "word": "/deck/audio/sueno-dream.word.mp3",
+    "sentence": "/deck/audio/sueno-dream.sentence.mp3"
+  }
+}

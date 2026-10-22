@@ -1,0 +1,35 @@
+# calmar-calm-down · rank 668 · calmar
+#
+# Why it was flagged:
+#   - One right answer: With no hint, "to calm down" could just as well be answered with tranquilizar, which is equally common in Latin America, or with the reflexive calmarse, which fits the intransitive English best. Suggested fix: en: to calm (someone) down; hint: the word that looks like English "calm", not tranquilizar
+# Reviewer's note (not a reason to flag): The example uses the reflexive cálmate (from calmarse), which is how the word usually shows up in subtitles; that is fine, but the editor might want the grammar or hint to mention calmarse = to calm down (oneself).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's en; hint is only 'not tranquilizar', since 'the word that looks like English calm' gives the answer away; replaced the example (cálmate is calmarse) with a transitive calmar to match the new prompt.
+decision: approve
+
+id:             calmar-calm-down
+kind:           content
+pos:            verb
+target:         calmar
+en:             to calm (someone) down
+hint:           not tranquilizar
+yo:             calmo
+tu:             calmas
+el:             calma
+irregular:      no
+example.target: Mi mamá siempre me calma.
+example.en:     My mom always calms me down.
+regional.where:
+regional.text:
+trick:          CALMAR sounds like calm-ARRR: even an angry pirate needs someone to calm him down.
+
+# The draft this file was made from. Do not change it.
+draft: 5bdd4563c0906f48

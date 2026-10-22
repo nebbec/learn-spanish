@@ -1,0 +1,17 @@
+{
+  "id": "cualquiera-anyone",
+  "rank": 229,
+  "word": "cualquiera",
+  "draft": "af0934f867d70668",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "anyone, anybody (pronoun: any person at all)",
+    "example": "Anyone can do that."
+  },
+  "note": "The hint rightly rules out alguien, and the pronoun card is clearly separate from the determiner card (\"any day\"), though a learner might answer \"cualquier persona\", which is a two-word phrase and not a competing single word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:58.655Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "alrededor-around",
+  "rank": 634,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "alrededor",
+  "en": "around",
+  "hint": "surrounding something",
+  "grammar": null,
+  "example": {
+    "target": "Nos sentamos alrededor de la mesa.",
+    "en": "We sat around the table."
+  },
+  "regional": null,
+  "trick": "ALREDEDOR sounds like \"all a rodeo door\": the horses run around and around the ring.",
+  "image": "/deck/img/alrededor-around.webp",
+  "audio": {
+    "word": "/deck/audio/alrededor-around.word.mp3",
+    "sentence": "/deck/audio/alrededor-around.sentence.mp3"
+  }
+}

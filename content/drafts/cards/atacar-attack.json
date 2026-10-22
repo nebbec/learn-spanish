@@ -1,0 +1,28 @@
+{
+  "id": "atacar-attack",
+  "rank": 377,
+  "kind": "content",
+  "pos": "verb",
+  "target": "atacar",
+  "en": "to attack",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "ataco",
+      "tu": "atacas",
+      "el": "ataca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "El perro atacó a mi gato.",
+    "en": "The dog attacked my cat."
+  },
+  "regional": null,
+  "trick": "ATACAR sounds like \"attack car\": the angry monster attacks a car.",
+  "image": "/deck/img/atacar-attack.webp",
+  "audio": {
+    "word": "/deck/audio/atacar-attack.word.mp3",
+    "sentence": "/deck/audio/atacar-attack.sentence.mp3"
+  }
+}

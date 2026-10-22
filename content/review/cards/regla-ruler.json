@@ -1,0 +1,17 @@
+{
+  "id": "regla-ruler",
+  "rank": 775,
+  "word": "regla",
+  "draft": "949e8bd76a005f67",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the ruler (measuring tool); also a rule",
+    "example": "Will you lend me your ruler?"
+  },
+  "note": "The hint is needed, because without it \"ruler\" could mean a monarch (el gobernante), and it keeps this card separate from the word's \"rule\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:24.294Z"
+}

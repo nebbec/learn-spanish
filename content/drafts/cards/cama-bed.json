@@ -1,0 +1,24 @@
+{
+  "id": "cama-bed",
+  "rank": 469,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la cama",
+  "en": "bed",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Ya me voy a la cama.",
+    "en": "I'm going to bed now."
+  },
+  "regional": null,
+  "trick": "CAMA sounds like \"calm-a\": you feel calm when you lie down in bed.",
+  "image": "/deck/img/cama-bed.webp",
+  "audio": {
+    "word": "/deck/audio/cama-bed.word.mp3",
+    "sentence": "/deck/audio/cama-bed.sentence.mp3"
+  }
+}

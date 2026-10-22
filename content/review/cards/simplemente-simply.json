@@ -1,0 +1,17 @@
+{
+  "id": "simplemente-simply",
+  "rank": 460,
+  "word": "simplemente",
+  "draft": "a51f3644627f91b7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "simply, just (adverb)",
+    "example": "I simply don't want to go."
+  },
+  "note": "Sencillamente is a less common synonym, but simplemente is the standard, clearly expected answer for \"simply\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:02.380Z"
+}

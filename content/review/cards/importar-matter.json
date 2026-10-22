@@ -1,0 +1,17 @@
+{
+  "id": "importar-matter",
+  "rank": 180,
+  "word": "importar",
+  "draft": "336d52c92cd6de2c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to matter, to be important (also: to import goods)",
+    "example": "It doesn't matter, we'll do it tomorrow."
+  },
+  "note": "Learners will often meet importar in the gustar-like pattern \"me importa\" (No me importa = I don't care), which could be worth covering in a later card or a grammar note.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:28:35.398Z"
+}

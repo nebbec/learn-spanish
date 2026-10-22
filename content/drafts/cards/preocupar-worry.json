@@ -1,0 +1,28 @@
+{
+  "id": "preocupar-worry",
+  "rank": 233,
+  "kind": "content",
+  "pos": "verb",
+  "target": "preocupar",
+  "en": "to worry",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "preocupo",
+      "tu": "preocupas",
+      "el": "preocupa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "No te preocupes, todo va a estar bien.",
+    "en": "Don't worry, everything's going to be fine."
+  },
+  "regional": null,
+  "trick": "PREOCUPAR sounds like pre-occupy: when you worry, your mind is preoccupied.",
+  "image": "/deck/img/preocupar-worry.webp",
+  "audio": {
+    "word": "/deck/audio/preocupar-worry.word.mp3",
+    "sentence": "/deck/audio/preocupar-worry.sentence.mp3"
+  }
+}

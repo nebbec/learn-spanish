@@ -1,0 +1,24 @@
+{
+  "id": "tio-uncle",
+  "rank": 240,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el tío",
+  "en": "uncle",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mi tío vive en Guadalajara.",
+    "en": "My uncle lives in Guadalajara."
+  },
+  "regional": null,
+  "trick": "TÍO sounds like \"tea-oh\": your uncle always shows up at teatime saying \"oh, tea!\"",
+  "image": "/deck/img/tio-uncle.webp",
+  "audio": {
+    "word": "/deck/audio/tio-uncle.word.mp3",
+    "sentence": "/deck/audio/tio-uncle.sentence.mp3"
+  }
+}

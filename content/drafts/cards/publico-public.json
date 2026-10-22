@@ -1,0 +1,23 @@
+{
+  "id": "publico-public",
+  "rank": 664,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "público",
+  "en": "public",
+  "hint": null,
+  "grammar": {
+    "feminine": "pública"
+  },
+  "example": {
+    "target": "Es una escuela pública.",
+    "en": "It's a public school."
+  },
+  "regional": null,
+  "trick": "PÚBLICO sounds like \"public\" with an extra \"o\", the same word, just said a bit louder.",
+  "image": "/deck/img/publico-public.webp",
+  "audio": {
+    "word": "/deck/audio/publico-public.word.mp3",
+    "sentence": "/deck/audio/publico-public.sentence.mp3"
+  }
+}

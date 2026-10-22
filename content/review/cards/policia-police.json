@@ -1,0 +1,17 @@
+{
+  "id": "policia-police",
+  "rank": 225,
+  "word": "policía",
+  "draft": "8cecea018f147045",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the police (the force); it can also mean a policewoman",
+    "example": "Call the police right now!"
+  },
+  "note": "The hint usefully keeps this card apart from the \"police officer\" card, and it also rules out the less common reading of la policía as one policewoman.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:39.083Z"
+}

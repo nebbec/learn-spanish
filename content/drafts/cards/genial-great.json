@@ -1,0 +1,23 @@
+{
+  "id": "genial-great",
+  "rank": 265,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "genial",
+  "en": "great",
+  "hint": "awesome, cool; not size",
+  "grammar": {
+    "feminine": "genial"
+  },
+  "example": {
+    "target": "¡Qué genial! Vamos a la playa mañana.",
+    "en": "How great! We're going to the beach tomorrow."
+  },
+  "regional": null,
+  "trick": "GENIAL sounds like genie: a genie granting your wishes would be great.",
+  "image": "/deck/img/genial-great.webp",
+  "audio": {
+    "word": "/deck/audio/genial-great.word.mp3",
+    "sentence": "/deck/audio/genial-great.sentence.mp3"
+  }
+}

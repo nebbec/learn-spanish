@@ -1,0 +1,17 @@
+{
+  "id": "mitad-half",
+  "rank": 665,
+  "word": "mitad",
+  "draft": "287272f67f6528dd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the half (noun: one of two equal parts of something)",
+    "example": "Give me half of your sandwich."
+  },
+  "note": "The hint is needed: it rules out the adjective medio / media (\"half an hour\" = media hora), so the only right answer is la mitad.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:52.615Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "regla-rule",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "52e45fd4c880d08a",
+  "group": "#775 regla",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:17.161Z"
+}

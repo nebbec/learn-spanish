@@ -1,0 +1,14 @@
+{
+  "id": "esposo-wife",
+  "unit": "my-people",
+  "want": "esposo / esposa",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5b66d3262c60bdf1",
+  "group": "#253 esposo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:42.609Z"
+}

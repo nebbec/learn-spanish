@@ -1,0 +1,14 @@
+{
+  "id": "reunir-meet",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use reunirse for getting together with people you know; conocer for meeting someone for the first time.",
+  "draft": "275ca32de0a33485",
+  "group": "#708 reunir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:53:15.879Z"
+}

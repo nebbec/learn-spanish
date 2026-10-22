@@ -1,0 +1,17 @@
+{
+  "id": "senal-signal",
+  "rank": 702,
+  "word": "señal",
+  "draft": "09e21b6b21eb884f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the signal (also: sign)",
+    "example": "There is no signal for the cell phone here."
+  },
+  "note": "The example is fine, though \"Aquí no hay señal\" or \"Aquí no agarra el celular\" would sound a little more natural, and Spain would say \"el móvil\" rather than \"el celular\" in the sentence, while \"señal\" itself is the same everywhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:45.950Z"
+}

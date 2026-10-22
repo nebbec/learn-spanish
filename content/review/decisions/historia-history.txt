@@ -1,0 +1,33 @@
+# historia-history · rank 257 · historia
+#
+# Why it was flagged:
+#   - Memory trick: Saying 'with an added accent' could make a learner think historia has a written accent mark, but it has none. Suggested fix: trick: HISTORIA is just HISTORY with the Y swapped for an -IA ending, like many Spanish feminine nouns.
+# Reviewer's note (not a reason to flag): The bare prompt "history" needs no hint, because the "story" card's hint already keeps the two meanings apart.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to trick.
+decision: approve
+
+id:             historia-history
+kind:           content
+pos:            noun
+target:         la historia
+en:             history
+hint:
+gender:         f
+article:        la
+example.target: Me encanta la historia de México.
+example.en:     I love Mexican history.
+regional.where:
+regional.text:
+trick:          HISTORIA is just HISTORY with the Y swapped for an -IA ending, like many Spanish feminine nouns.
+
+# The draft this file was made from. Do not change it.
+draft: 450b5f2546ce3dc0

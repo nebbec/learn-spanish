@@ -1,0 +1,33 @@
+# pena-embarrassment · rank 581 · pena
+#
+# Why it was flagged:
+#   - Latin American usage: Pena as embarrassment is regional (Mexico, Central America, Colombia, Venezuela), not general Latin American; in the Southern Cone and Peru me da pena means sadness and vergüenza is used, so the hint's label misleads the learner. Suggested fix: hint: Mexico, Central America, Colombia, as in me da ___; not vergüenza
+# Reviewer's note (not a reason to flag): Spain is correctly vergüenza, but vergüenza is also the normal word in much of South America, so the regional label in the hint matters.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
+decision: approve
+
+id:             pena-embarrassment
+kind:           content
+pos:            noun
+target:         la pena
+en:             embarrassment
+hint:           Mexico, Central America, Colombia, as in me da ___; not vergüenza
+gender:         f
+article:        la
+example.target: Me da pena hablar en público.
+example.en:     I'm embarrassed to speak in public.
+regional.where: Spain
+regional.text:  vergüenza
+trick:          PENA sounds like pain: embarrassment is the pain of everyone looking at you.
+
+# The draft this file was made from. Do not change it.
+draft: 15c3e5a9478b0d96

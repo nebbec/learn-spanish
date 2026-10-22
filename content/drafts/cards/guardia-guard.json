@@ -1,0 +1,24 @@
+{
+  "id": "guardia-guard",
+  "rank": 788,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el guardia",
+  "en": "guard",
+  "hint": "the person on watch",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El guardia no nos dejó entrar.",
+    "en": "The guard didn't let us in."
+  },
+  "regional": null,
+  "trick": "GUARDIA sounds like guardian: the guard stands at the door like a guardian.",
+  "image": "/deck/img/guardia-guard.webp",
+  "audio": {
+    "word": "/deck/audio/guardia-guard.word.mp3",
+    "sentence": "/deck/audio/guardia-guard.sentence.mp3"
+  }
+}

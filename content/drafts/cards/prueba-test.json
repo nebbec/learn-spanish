@@ -1,0 +1,24 @@
+{
+  "id": "prueba-test",
+  "rank": 434,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la prueba",
+  "en": "test",
+  "hint": "a trial or check, not examen",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Mañana tengo una prueba de manejo.",
+    "en": "Tomorrow I have a driving test."
+  },
+  "regional": null,
+  "trick": "PRUEBA sounds like prove-a: a test is how you prove a skill.",
+  "image": "/deck/img/prueba-test.webp",
+  "audio": {
+    "word": "/deck/audio/prueba-test.word.mp3",
+    "sentence": "/deck/audio/prueba-test.sentence.mp3"
+  }
+}

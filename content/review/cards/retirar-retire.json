@@ -1,0 +1,23 @@
+{
+  "id": "retirar-retire",
+  "rank": 701,
+  "word": "retirar",
+  "draft": "b35236d3a7184ff9",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint mentions retiring from a job, and for that meaning jubilarse is the standard Latin American word, so a learner could correctly answer jubilarse instead of retirarse.",
+      "fix": "hint: from a sport or career, or to step away (not jubilarse)"
+    }
+  ],
+  "back": {
+    "es": "to retire (from work or a sport); to withdraw, step back, leave",
+    "example": "My dad retires next year."
+  },
+  "note": "Because jubilarse is the usual word for retiring from work, the editor might move the example to a sport, such as \"El futbolista se retira este año.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:45.640Z"
+}

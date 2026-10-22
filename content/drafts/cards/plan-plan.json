@@ -1,0 +1,24 @@
+{
+  "id": "plan-plan",
+  "rank": 388,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el plan",
+  "en": "plan",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¿Cuál es el plan para esta noche?",
+    "en": "What's the plan for tonight?"
+  },
+  "regional": null,
+  "trick": "PLAN is spelled just like the English plan: every good plan starts with a plan.",
+  "image": "/deck/img/plan-plan.webp",
+  "audio": {
+    "word": "/deck/audio/plan-plan.word.mp3",
+    "sentence": "/deck/audio/plan-plan.sentence.mp3"
+  }
+}

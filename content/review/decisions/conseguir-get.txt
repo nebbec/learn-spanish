@@ -1,0 +1,35 @@
+# conseguir-get · rank 190 · conseguir
+#
+# Why it was flagged:
+#   - One right answer: The hint says "obtain something", which points straight to obtener, a common Spanish verb meaning exactly that, and lograr also fits "with effort", so the hint does not rule out other right answers. Suggested fix: hint: get hold of something, often with effort (not obtener or lograr)
+# Reviewer's note (not a reason to flag): The irregular flag is right because of the e→i stem change (consigo, consiguió), and the yo form is spelled -go, not -guo.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
+decision: approve
+
+id:             conseguir-get
+kind:           content
+pos:            verb
+target:         conseguir
+en:             to get
+hint:           get hold of something, often with effort (not obtener or lograr)
+yo:             consigo
+tu:             consigues
+el:             consigue
+irregular:      yes
+example.target: ¿Dónde conseguiste esos zapatos?
+example.en:     Where did you get those shoes?
+regional.where:
+regional.text:
+trick:          CONSEGUIR sounds like "con, see, gear": a con artist sees gear he wants and gets it.
+
+# The draft this file was made from. Do not change it.
+draft: c7071b1e0eeeb1e5

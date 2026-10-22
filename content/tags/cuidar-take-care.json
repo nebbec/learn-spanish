@@ -1,0 +1,14 @@
+{
+  "id": "cuidar-take-care",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "94d4932cf7683e79",
+  "group": "#406 cuidar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:53.393Z"
+}

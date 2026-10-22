@@ -1,0 +1,14 @@
+{
+  "id": "llevar-take-carry",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use llevar to take someone or something somewhere; tomar to grab it or take a bus.",
+  "draft": "e91a9583e7fa22f8",
+  "group": "#96 llevar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:34.238Z"
+}

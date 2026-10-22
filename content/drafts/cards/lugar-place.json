@@ -1,0 +1,24 @@
+{
+  "id": "lugar-place",
+  "rank": 163,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el lugar",
+  "en": "place",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Este lugar es muy bonito.",
+    "en": "This place is really beautiful."
+  },
+  "regional": null,
+  "trick": "LUGAR sounds like luggage: you drag your luggage from place to place.",
+  "image": "/deck/img/lugar-place.webp",
+  "audio": {
+    "word": "/deck/audio/lugar-place.word.mp3",
+    "sentence": "/deck/audio/lugar-place.sentence.mp3"
+  }
+}

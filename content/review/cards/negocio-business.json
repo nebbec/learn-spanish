@@ -1,0 +1,17 @@
+{
+  "id": "negocio-business",
+  "rank": 419,
+  "word": "negocio",
+  "draft": "fd929cc79e91fde8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "business (a firm, shop or deal)",
+    "example": "My dad has a food business."
+  },
+  "note": "Negocio and negotiate share the Latin root negotium, so the trick is accurate as well as memorable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:54.517Z"
+}

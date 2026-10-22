@@ -1,0 +1,14 @@
+{
+  "id": "encargar-handle",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use encargarse for handling a task or job; use cuidar for looking after a person.",
+  "draft": "33f6f4e5eb459a63",
+  "group": "#572 encargar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:03.110Z"
+}

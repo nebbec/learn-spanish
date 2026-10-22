@@ -1,0 +1,28 @@
+{
+  "id": "elegir-choose",
+  "rank": 504,
+  "kind": "content",
+  "pos": "verb",
+  "target": "elegir",
+  "en": "to choose",
+  "hint": "also used for to elect, not escoger",
+  "grammar": {
+    "present": {
+      "yo": "elijo",
+      "tu": "eliges",
+      "el": "elige"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Yo siempre elijo la pizza.",
+    "en": "I always choose the pizza."
+  },
+  "regional": null,
+  "trick": "ELEGIR sounds like elegant: an elegant person chooses carefully, and voters elect who they choose.",
+  "image": "/deck/img/elegir-choose.webp",
+  "audio": {
+    "word": "/deck/audio/elegir-choose.word.mp3",
+    "sentence": "/deck/audio/elegir-choose.sentence.mp3"
+  }
+}

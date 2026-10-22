@@ -1,0 +1,17 @@
+{
+  "id": "detener-arrest",
+  "rank": 330,
+  "word": "detener",
+  "draft": "d39bf477b67ecbef",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to stop, to detain, to arrest (verb)",
+    "example": "The police arrested (detained) the thief last night."
+  },
+  "note": "The hint's word \"detaining\" nearly gives away the answer, and capturar is a possible near-synonym, but the hint still rules out arrestar and points clearly to detener.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:38:39.705Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gente-people",
+  "rank": 145,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la gente",
+  "en": "people",
+  "hint": "people in general, a singular noun (not personas)",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "La gente aquí es muy amable.",
+    "en": "People here are very friendly."
+  },
+  "regional": null,
+  "trick": "GENTE sounds like gentle: most people are gentle if you give them a chance.",
+  "image": "/deck/img/gente-people.webp",
+  "audio": {
+    "word": "/deck/audio/gente-people.word.mp3",
+    "sentence": "/deck/audio/gente-people.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "director-director",
+  "rank": 707,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el director",
+  "en": "director",
+  "hint": "film or company",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El director de la película es mexicano.",
+    "en": "The director of the movie is Mexican."
+  },
+  "regional": null,
+  "trick": "DIRECTOR looks just like director: the person who directs everyone on set.",
+  "image": "/deck/img/director-director.webp",
+  "audio": {
+    "word": "/deck/audio/director-director.word.mp3",
+    "sentence": "/deck/audio/director-director.sentence.mp3"
+  }
+}

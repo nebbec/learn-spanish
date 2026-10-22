@@ -1,0 +1,28 @@
+{
+  "id": "continuar-continue",
+  "rank": 566,
+  "kind": "content",
+  "pos": "verb",
+  "target": "continuar",
+  "en": "to continue",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "continúo",
+      "tu": "continúas",
+      "el": "continúa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Continuamos mañana, ya es muy tarde.",
+    "en": "We'll continue tomorrow, it's already very late."
+  },
+  "regional": null,
+  "trick": "CONTINUAR sounds like continue-ARR: a pirate shouts it to keep sailing on.",
+  "image": "/deck/img/continuar-continue.webp",
+  "audio": {
+    "word": "/deck/audio/continuar-continue.word.mp3",
+    "sentence": "/deck/audio/continuar-continue.sentence.mp3"
+  }
+}

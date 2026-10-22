@@ -1,0 +1,17 @@
+{
+  "id": "bajar-go-down",
+  "rank": 386,
+  "word": "bajar",
+  "draft": "392eabe9a00d18ee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "bajar = to go down, to come down, to get off (a vehicle)",
+    "example": "Get out of the car right now."
+  },
+  "note": "The example uses the reflexive command bájate (bajarse), which is fine, but a sentence with plain bajar such as \"Bajo por las escaleras.\" would show the base verb more directly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:43:14.623Z"
+}

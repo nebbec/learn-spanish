@@ -1,0 +1,17 @@
+{
+  "id": "fondo-fund",
+  "rank": 786,
+  "word": "fondo",
+  "draft": "acd369dd7ee8493e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el fondo: fund (a sum of money set aside); also bottom, back, background",
+    "example": "We don't have funds for the trip."
+  },
+  "note": "The money sense shows up mostly in the plural (fondos), and everyday talk about money usually uses dinero or plata, so the editor might think about a card for the more common \"background\" sense or the phrase \"en el fondo\" (deep down) as well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:03.287Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "existir-exist",
+  "rank": 535,
+  "kind": "content",
+  "pos": "verb",
+  "target": "existir",
+  "en": "to exist",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "existo",
+      "tu": "existes",
+      "el": "existe"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Los fantasmas no existen.",
+    "en": "Ghosts don't exist."
+  },
+  "regional": null,
+  "trick": "EXISTIR sounds like \"exist here\": anything that exists is here somewhere.",
+  "image": "/deck/img/existir-exist.webp",
+  "audio": {
+    "word": "/deck/audio/existir-exist.word.mp3",
+    "sentence": "/deck/audio/existir-exist.sentence.mp3"
+  }
+}

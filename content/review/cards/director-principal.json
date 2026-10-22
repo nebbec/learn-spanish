@@ -1,0 +1,17 @@
+{
+  "id": "director-principal",
+  "rank": 707,
+  "word": "director",
+  "draft": "28a35a5d2e7fb69b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the director, the head (of a school: the principal)",
+    "example": "The principal wants to talk to your parents."
+  },
+  "note": "In some countries, such as Colombia, a school head is also called \"rector,\" but \"director\" is the general Latin American word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:07:09.107Z"
+}

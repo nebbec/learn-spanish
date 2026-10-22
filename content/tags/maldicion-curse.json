@@ -1,0 +1,14 @@
+{
+  "id": "maldicion-curse",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "aed5b8f1097550b8",
+  "group": "#772 maldición",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:07.958Z"
+}

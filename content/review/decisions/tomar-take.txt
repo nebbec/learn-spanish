@@ -1,0 +1,35 @@
+# tomar-take · rank 107 · tomar
+#
+# Why it was flagged:
+#   - One right answer: The hint leads with 'grab, take hold of', and for those words a Latin American speaker would usually answer agarrar, while a bare 'to take' could also be llevar. Suggested fix: hint: take a bus, take medicine (not carry somewhere)
+# Reviewer's note (not a reason to flag): You could switch the example to the transport meaning, such as "Tomo el autobús a las ocho." (I take the bus at eight.), so it matches the revised hint, though "Toma mi mano." is still correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: applied the reviewer's fix to hint; example left as it was.
+decision: approve
+
+id:             tomar-take
+kind:           content
+pos:            verb
+target:         tomar
+en:             to take
+hint:           take a bus, take medicine (not carry somewhere)
+yo:             tomo
+tu:             tomas
+el:             toma
+irregular:      no
+example.target: Toma mi mano.
+example.en:     Take my hand.
+regional.where: Spain
+regional.text:  coger
+trick:          TOMAR sounds like 'tomorrow': take what you want today, not tomorrow.
+
+# The draft this file was made from. Do not change it.
+draft: 7422396585503948

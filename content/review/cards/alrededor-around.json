@@ -1,0 +1,17 @@
+{
+  "id": "alrededor-around",
+  "rank": 634,
+  "word": "alrededor",
+  "draft": "aafb8729a8e3c0e6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "around (surrounding); alrededor de = around, about (approximately)",
+    "example": "We sat (down) around the table."
+  },
+  "note": "The hint correctly rules out the common \"approximately\" sense (alrededor de las ocho) and \"around here\" (por aquí); the editor could mention the approximate sense on the back, since learners will meet it often.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:20.707Z"
+}

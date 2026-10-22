@@ -1,0 +1,17 @@
+{
+  "id": "paz-peace",
+  "rank": 492,
+  "word": "paz",
+  "draft": "2ce63dff5a117e9c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "peace",
+    "example": "Leave me in peace, please. (i.e., Leave me alone, please.)"
+  },
+  "note": "The example uses the very common idiom dejar en paz, so the editor might add the literal \"leave me in peace\" to the English to show how paz carries its meaning there.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:29.435Z"
+}

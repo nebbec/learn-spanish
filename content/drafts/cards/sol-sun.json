@@ -1,0 +1,24 @@
+{
+  "id": "sol-sun",
+  "rank": 698,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el sol",
+  "en": "sun",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Hoy hace mucho sol en la playa.",
+    "en": "It's really sunny at the beach today."
+  },
+  "regional": null,
+  "trick": "SOL sounds like soul: the sun is the bright soul of the sky.",
+  "image": "/deck/img/sol-sun.webp",
+  "audio": {
+    "word": "/deck/audio/sol-sun.word.mp3",
+    "sentence": "/deck/audio/sol-sun.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "enterar-find-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use enterarse when news reaches you; use averiguar when you dig for the answer yourself.",
+  "draft": "73fcbc9c32d6f75d",
+  "group": "#610 enterar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:14.768Z"
+}

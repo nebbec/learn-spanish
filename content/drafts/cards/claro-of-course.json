@@ -1,0 +1,21 @@
+{
+  "id": "claro-of-course",
+  "rank": 153,
+  "kind": "content",
+  "pos": "other",
+  "target": "claro",
+  "en": "of course",
+  "hint": "one word, very common reply",
+  "grammar": null,
+  "example": {
+    "target": "¿Vienes a la fiesta? ¡Claro!",
+    "en": "Are you coming to the party? Of course!"
+  },
+  "regional": null,
+  "trick": "CLARO sounds like a cheerful 'clear-oh!': of course, it's clear as day.",
+  "image": "/deck/img/claro-of-course.webp",
+  "audio": {
+    "word": "/deck/audio/claro-of-course.word.mp3",
+    "sentence": "/deck/audio/claro-of-course.sentence.mp3"
+  }
+}

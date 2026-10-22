@@ -1,0 +1,14 @@
+{
+  "id": "conducir-drive",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Conducir is understood everywhere and is the word in Spain; much of Latin America says manejar.",
+  "draft": "95fe139b2c777287",
+  "group": "#574 conducir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:07.567Z"
+}

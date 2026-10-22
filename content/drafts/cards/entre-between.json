@@ -1,0 +1,21 @@
+{
+  "id": "entre-between",
+  "rank": 237,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "entre",
+  "en": "[between] you and me",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "El banco está entre la farmacia y el parque.",
+    "en": "The bank is between the pharmacy and the park."
+  },
+  "regional": null,
+  "trick": "ENTRE sounds like enter: you enter the gap between two things.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/entre-between.word.mp3",
+    "sentence": "/deck/audio/entre-between.sentence.mp3"
+  }
+}

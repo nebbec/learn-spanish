@@ -1,0 +1,17 @@
+{
+  "id": "regresar-return",
+  "rank": 287,
+  "word": "regresar",
+  "draft": "e9e34d2d1d7eb5cf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to return, to come back, to go back",
+    "example": "My dad comes back from work at six."
+  },
+  "note": "The hint is what separates this from volver, which also means to come back, and the regress cue points clearly to regresar; since regresar also means to go back, the editor could use \"to return (come or go back)\" as the prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:55.819Z"
+}

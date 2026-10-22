@@ -1,0 +1,24 @@
+{
+  "id": "papel-paper",
+  "rank": 595,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el papel",
+  "en": "paper",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¿Tienes papel y lápiz?",
+    "en": "Do you have paper and a pencil?"
+  },
+  "regional": null,
+  "trick": "PAPEL sounds like paper with an L: just a sheet of paper with an extra letter written on it.",
+  "image": "/deck/img/papel-paper.webp",
+  "audio": {
+    "word": "/deck/audio/papel-paper.word.mp3",
+    "sentence": "/deck/audio/papel-paper.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "medico-doctor",
+  "rank": 458,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el médico",
+  "en": "doctor",
+  "hint": "physician, not doctor",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Tengo que ir al médico mañana.",
+    "en": "I have to go to the doctor tomorrow."
+  },
+  "regional": null,
+  "trick": "MÉDICO sounds like medic: the medic is the doctor who fixes you.",
+  "image": "/deck/img/medico-doctor.webp",
+  "audio": {
+    "word": "/deck/audio/medico-doctor.word.mp3",
+    "sentence": "/deck/audio/medico-doctor.sentence.mp3"
+  }
+}

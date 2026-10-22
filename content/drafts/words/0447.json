@@ -1,0 +1,13 @@
+{
+  "rank": 447,
+  "word": "asegurar",
+  "cards": [
+    "asegurar-make-sure",
+    "asegurar-assure"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:31:52.533Z"
+}

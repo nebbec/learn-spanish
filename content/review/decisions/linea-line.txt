@@ -1,0 +1,33 @@
+# linea-line · rank 579 · línea
+#
+# Why it was flagged:
+#   - Example uses words not met yet: The example uses words not met before this card: Dibuja, recta, papel. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids linea-line
+# Reviewer's note (not a reason to flag): Bare "line" most naturally gives línea, but a short hint such as "a drawn line, a phone line" would help rule out fila (a queue of people) and renglón (a line of text).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: new example with common words (escribir, nombre) in place of the redraft; also added the hint from the reviewer's note to rule out fila.
+decision: approve
+
+id:             linea-line
+kind:           content
+pos:            noun
+target:         la línea
+en:             line
+hint:           a drawn or written line, not a queue
+gender:         f
+article:        la
+example.target: Escribe tu nombre en esta línea.
+example.en:     Write your name on this line.
+regional.where:
+regional.text:
+trick:          LÍNEA sounds like linear: a linear drawing is just one straight line.
+
+# The draft this file was made from. Do not change it.
+draft: df8efecfcbd2f04a

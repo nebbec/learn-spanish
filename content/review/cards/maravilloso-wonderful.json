@@ -1,0 +1,17 @@
+{
+  "id": "maravilloso-wonderful",
+  "rank": 561,
+  "word": "maravilloso",
+  "draft": "ef6c0adc609feafd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "wonderful, marvelous",
+    "example": "It was a wonderful day with my family."
+  },
+  "note": "Words like estupendo or genial come close to \"wonderful\", but maravilloso is the standard direct translation, so the card works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:05.322Z"
+}

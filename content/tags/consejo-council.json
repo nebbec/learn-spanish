@@ -1,0 +1,14 @@
+{
+  "id": "consejo-council",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c6c4f593fc8c5384",
+  "group": "#746 consejo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:16.171Z"
+}

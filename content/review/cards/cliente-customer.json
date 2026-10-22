@@ -1,0 +1,17 @@
+{
+  "id": "cliente-customer",
+  "rank": 568,
+  "word": "cliente",
+  "draft": "7d28ff8f9648387f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the customer, the client",
+    "example": "The customer is always right."
+  },
+  "note": "The feminine is \"la cliente\" (also \"la clienta\" in some regions), which the editor might mention on the answer side, but the masculine is correct as the dictionary form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:34.757Z"
+}

@@ -1,0 +1,33 @@
+# testigo-witness · rank 787 · testigo
+#
+# Why it was flagged:
+#   - Grammar: Testigo has common gender (el testigo for a man, la testigo for a woman), so listing it as only masculine is misleading, and the example's la única testigo seems to contradict it. Suggested fix: grammar: gender m/f (common gender), article el / la (el testigo, la testigo)
+# Reviewer's note (not a reason to flag): Keeping es as el testigo is fine as the dictionary form, but the grammar should teach the learner that the article follows the person's sex.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: the card format allows only m or f, so gender stays m (el testigo); changed the example so it no longer contradicts it (la única testigo). Courtney may want la testigo mentioned elsewhere.
+decision: approve
+
+id:             testigo-witness
+kind:           content
+pos:            noun
+target:         el testigo
+en:             witness
+hint:
+gender:         m
+article:        el
+example.target: Yo fui testigo de todo.
+example.en:     I was a witness to everything.
+regional.where:
+regional.text:
+trick:          TESTIGO sounds like "testify, go!": the witness is told to go testify in court.
+
+# The draft this file was made from. Do not change it.
+draft: 56121ef4acc45735

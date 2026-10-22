@@ -1,0 +1,28 @@
+{
+  "id": "informar-inform",
+  "rank": 799,
+  "kind": "content",
+  "pos": "verb",
+  "target": "informar",
+  "en": "to inform",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "informo",
+      "tu": "informas",
+      "el": "informa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Te informo que la reunión es mañana.",
+    "en": "I'm letting you know the meeting is tomorrow."
+  },
+  "regional": null,
+  "trick": "INFORMAR sounds like \"inform her\": you inform her of the news.",
+  "image": "/deck/img/informar-inform.webp",
+  "audio": {
+    "word": "/deck/audio/informar-inform.word.mp3",
+    "sentence": "/deck/audio/informar-inform.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nacer-be-born",
+  "rank": 640,
+  "word": "nacer",
+  "draft": "4b6fb8bef6f1d2bb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to be born",
+    "example": "I was born in Mexico in 1995."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:01:42.541Z"
+}

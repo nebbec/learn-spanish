@@ -1,0 +1,17 @@
+{
+  "id": "cuarto-quarter",
+  "rank": 523,
+  "word": "cuarto",
+  "draft": "aca4d05fdacf183d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "quarter (a fourth part, especially a quarter of an hour); also room",
+    "example": "It's a quarter past three."
+  },
+  "note": "Many Latin Americans say \"y quince\" as often as \"y cuarto\", and Mexico also uses \"un cuarto para las tres\" for \"a quarter to three\", which could go in the example or a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:45.528Z"
+}

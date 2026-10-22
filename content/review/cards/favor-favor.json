@@ -1,0 +1,17 @@
+{
+  "id": "favor-favor",
+  "rank": 105,
+  "word": "favor",
+  "draft": "a2fc668abc760f9e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the favor (noun)",
+    "example": "Will you do me a favor?"
+  },
+  "note": "The word ranks high mostly because of \"por favor\", so the trick does well to teach that phrase, though \"por favor\" is closer to \"by favor\" or \"for favor\" than \"for a favor\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:21:25.320Z"
+}

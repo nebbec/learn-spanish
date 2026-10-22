@@ -1,0 +1,21 @@
+{
+  "id": "dentro-inside",
+  "rank": 295,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "dentro",
+  "en": "inside",
+  "hint": "the form used before de, not adentro",
+  "grammar": null,
+  "example": {
+    "target": "Las llaves están dentro de la caja.",
+    "en": "The keys are inside the box."
+  },
+  "regional": null,
+  "trick": "DENTRO sounds like \"den\": you hide inside your den.",
+  "image": "/deck/img/dentro-inside.webp",
+  "audio": {
+    "word": "/deck/audio/dentro-inside.word.mp3",
+    "sentence": "/deck/audio/dentro-inside.sentence.mp3"
+  }
+}

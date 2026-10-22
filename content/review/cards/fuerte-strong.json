@@ -1,0 +1,17 @@
+{
+  "id": "fuerte-strong",
+  "rank": 359,
+  "word": "fuerte",
+  "draft": "0fa6d140e71ef041",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "strong (adjective; also loud, intense)",
+    "example": "My dad is very strong."
+  },
+  "note": "The trick works on more than sound, because Spanish \"fuerte\" also means \"fort\" as a noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:40:48.141Z"
+}

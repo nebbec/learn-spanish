@@ -1,0 +1,17 @@
+{
+  "id": "cambio-change",
+  "rank": 497,
+  "word": "cambio",
+  "draft": "14c5e7a829345b3a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "change (a transformation or alteration; also money given back)",
+    "example": "I need a change in my life."
+  },
+  "note": "Under the app's rules, verbs start with \"to\", so the bare prompt \"change\" points to the noun; a hint such as \"(a difference, noun)\" could still help learners avoid thinking of cambiar or the money sense (vuelto/sencillo).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:51:51.048Z"
+}

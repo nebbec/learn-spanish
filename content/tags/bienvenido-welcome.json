@@ -1,0 +1,14 @@
+{
+  "id": "bienvenido-welcome",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9a49c871fa2e39ea",
+  "group": "#500 bienvenido",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:49.534Z"
+}

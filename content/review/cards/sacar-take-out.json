@@ -1,0 +1,17 @@
+{
+  "id": "sacar-take-out",
+  "rank": 235,
+  "word": "sacar",
+  "draft": "642884ee99e2dcfd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to take out, to pull out, to get out (also to get a grade, to take a photo)",
+    "example": "Take out the trash, please."
+  },
+  "note": "The preterite saqué is only a spelling change (c to qu), not a true irregularity, so irregular: false is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:15.372Z"
+}

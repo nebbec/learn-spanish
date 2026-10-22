@@ -1,0 +1,14 @@
+{
+  "id": "carcel-jail",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f8dbb70a4000f216",
+  "group": "#755 cárcel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:32.553Z"
+}

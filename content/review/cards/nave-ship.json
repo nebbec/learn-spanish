@@ -1,0 +1,17 @@
+{
+  "id": "nave-ship",
+  "rank": 703,
+  "word": "nave",
+  "draft": "fe5ee614a61894db",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "ship, vessel (in subtitles most often a spaceship, short for nave espacial)",
+    "example": "The ship landed on Mars."
+  },
+  "note": "The hint is needed because it rules out barco, the everyday word for a ship at sea, and points to the spaceship sense that is common in subtitles.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:55.152Z"
+}

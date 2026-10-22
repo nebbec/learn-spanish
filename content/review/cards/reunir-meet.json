@@ -1,0 +1,17 @@
+{
+  "id": "reunir-meet",
+  "rank": 708,
+  "word": "reunir",
+  "draft": "275ca32de0a33485",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to meet, to get together (reflexive of reunir)",
+    "example": "We're meeting tomorrow at ten."
+  },
+  "note": "The ú in reúno is only a written accent, which many grammars treat as regular, so irregular false is defensible; check it matches how the app flags similar verbs like enviar or actuar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:07:23.497Z"
+}

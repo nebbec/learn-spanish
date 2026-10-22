@@ -1,0 +1,23 @@
+{
+  "id": "dificil-difficult",
+  "rank": 326,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "difícil",
+  "en": "difficult",
+  "hint": null,
+  "grammar": {
+    "feminine": "difícil"
+  },
+  "example": {
+    "target": "Este examen es muy difícil.",
+    "en": "This exam is very difficult."
+  },
+  "regional": null,
+  "trick": "DIFÍCIL sounds like \"difficult\" with the ending cut off, because finishing the word was too hard.",
+  "image": "/deck/img/dificil-difficult.webp",
+  "audio": {
+    "word": "/deck/audio/dificil-difficult.word.mp3",
+    "sentence": "/deck/audio/dificil-difficult.sentence.mp3"
+  }
+}

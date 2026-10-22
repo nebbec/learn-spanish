@@ -1,0 +1,17 @@
+{
+  "id": "mayor-greater",
+  "rank": 378,
+  "word": "mayor",
+  "draft": "b776dc5368b9da8b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "greater, bigger (also older; with an article or possessive, the greatest / biggest)",
+    "example": "That is our biggest (greatest) problem."
+  },
+  "note": "The example uses the superlative sense (nuestro mayor = our greatest), which is correct, but the editor could add a comparative example such as \"El riesgo es mayor de lo que pensamos,\" and might also mention that Spanish mayor never means a city mayor (that is el alcalde).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:42:37.063Z"
+}

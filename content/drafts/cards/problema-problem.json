@@ -1,0 +1,24 @@
+{
+  "id": "problema-problem",
+  "rank": 159,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el problema",
+  "en": "problem",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "No hay problema, yo te ayudo.",
+    "en": "No problem, I'll help you."
+  },
+  "regional": null,
+  "trick": "PROBLEMA sounds like problem plus ma: when there's a problem, you call your ma, even though the word is masculine.",
+  "image": "/deck/img/problema-problem.webp",
+  "audio": {
+    "word": "/deck/audio/problema-problem.word.mp3",
+    "sentence": "/deck/audio/problema-problem.sentence.mp3"
+  }
+}

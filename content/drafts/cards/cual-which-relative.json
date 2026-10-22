@@ -1,0 +1,21 @@
+{
+  "id": "cual-which-relative",
+  "rank": 507,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "cual",
+  "en": "the reason for [which] I came",
+  "hint": "relative, after el/la/lo, no accent",
+  "grammar": null,
+  "example": {
+    "target": "Llegó tarde, lo cual me molestó mucho.",
+    "en": "He arrived late, which really bothered me."
+  },
+  "regional": null,
+  "trick": "CUAL sounds like the start of quality: the quality which matters most.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cual-which-relative.word.mp3",
+    "sentence": "/deck/audio/cual-which-relative.sentence.mp3"
+  }
+}

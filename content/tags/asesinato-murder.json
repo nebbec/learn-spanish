@@ -1,0 +1,14 @@
+{
+  "id": "asesinato-murder",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "88a7f828fe98dd3a",
+  "group": "#549 asesinato",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:17.689Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cualquiera-any",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use cualquier for any at all, whichever one; use algún in questions like do you have any?",
+  "draft": "35e46df06f7babbf",
+  "group": "#229 cualquiera",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:13.137Z"
+}

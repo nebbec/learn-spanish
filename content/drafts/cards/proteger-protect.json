@@ -1,0 +1,28 @@
+{
+  "id": "proteger-protect",
+  "rank": 506,
+  "kind": "content",
+  "pos": "verb",
+  "target": "proteger",
+  "en": "to protect",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "protejo",
+      "tu": "proteges",
+      "el": "protege"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Yo siempre te voy a proteger.",
+    "en": "I'm always going to protect you."
+  },
+  "regional": null,
+  "trick": "PROTEGER sounds like protect-HAIR: you wear a helmet to protect your hair and head.",
+  "image": "/deck/img/proteger-protect.webp",
+  "audio": {
+    "word": "/deck/audio/proteger-protect.word.mp3",
+    "sentence": "/deck/audio/proteger-protect.sentence.mp3"
+  }
+}

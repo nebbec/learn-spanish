@@ -1,0 +1,28 @@
+{
+  "id": "detener-arrest",
+  "rank": 330,
+  "kind": "content",
+  "pos": "verb",
+  "target": "detener",
+  "en": "to arrest",
+  "hint": "police detaining someone; not arrestar",
+  "grammar": {
+    "present": {
+      "yo": "detengo",
+      "tu": "detienes",
+      "el": "detiene"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "La policía detuvo al ladrón anoche.",
+    "en": "The police arrested the thief last night."
+  },
+  "regional": null,
+  "trick": "DETENER sounds like \"detainer\": police detain and arrest the suspect.",
+  "image": "/deck/img/detener-arrest.webp",
+  "audio": {
+    "word": "/deck/audio/detener-arrest.word.mp3",
+    "sentence": "/deck/audio/detener-arrest.sentence.mp3"
+  }
+}

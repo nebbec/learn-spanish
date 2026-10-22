@@ -1,0 +1,17 @@
+{
+  "id": "genial-great",
+  "rank": 265,
+  "word": "genial",
+  "draft": "b91616f4a52fcab5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "great, brilliant, wonderful (informal, expressing enthusiasm)",
+    "example": "How great! We're going to the beach tomorrow."
+  },
+  "note": "The hint \"awesome, cool; not size\" correctly rules out grande, and regional slang such as padre or chévere is not a neutral rival; \"That's great!\" would be a slightly more idiomatic English for \"¡Qué genial!\" but \"How great!\" is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:14.759Z"
+}

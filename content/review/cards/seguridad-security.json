@@ -1,0 +1,17 @@
+{
+  "id": "seguridad-security",
+  "rank": 476,
+  "word": "seguridad",
+  "draft": "14b9982d707885f4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "security, safety",
+    "example": "Call security, there's a man outside."
+  },
+  "note": "The example uses seguridad for security staff, which is common in subtitles and fine, but a sentence about safety (for example \"La seguridad de mis hijos es lo más importante.\") would also show the abstract meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:49:57.766Z"
+}

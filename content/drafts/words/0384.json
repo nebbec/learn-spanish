@@ -1,0 +1,13 @@
+{
+  "rank": 384,
+  "word": "cuanto",
+  "cards": [
+    "cuanto-how-much-384",
+    "cuanto-as-soon-as"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:28:49.817Z"
+}

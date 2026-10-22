@@ -1,0 +1,28 @@
+{
+  "id": "llorar-cry",
+  "rank": 533,
+  "kind": "content",
+  "pos": "verb",
+  "target": "llorar",
+  "en": "to cry",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "lloro",
+      "tu": "lloras",
+      "el": "llora"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "No llores, todo va a estar bien.",
+    "en": "Don't cry, everything's going to be okay."
+  },
+  "regional": null,
+  "trick": "LLORAR sounds like 'your roar': when your roar turns to sobs, you cry.",
+  "image": "/deck/img/llorar-cry.webp",
+  "audio": {
+    "word": "/deck/audio/llorar-cry.word.mp3",
+    "sentence": "/deck/audio/llorar-cry.sentence.mp3"
+  }
+}

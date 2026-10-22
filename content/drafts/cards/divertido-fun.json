@@ -1,0 +1,23 @@
+{
+  "id": "divertido-fun",
+  "rank": 514,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "divertido",
+  "en": "fun",
+  "hint": null,
+  "grammar": {
+    "feminine": "divertida"
+  },
+  "example": {
+    "target": "La fiesta estuvo muy divertida.",
+    "en": "The party was really fun."
+  },
+  "regional": null,
+  "trick": "DIVERTIDO sounds like \"diverted\": a fun game diverts you from boring homework.",
+  "image": "/deck/img/divertido-fun.webp",
+  "audio": {
+    "word": "/deck/audio/divertido-fun.word.mp3",
+    "sentence": "/deck/audio/divertido-fun.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "casado-married",
+  "rank": 676,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "casado",
+  "en": "married",
+  "hint": null,
+  "grammar": {
+    "feminine": "casada"
+  },
+  "example": {
+    "target": "Mi hermano está casado con una doctora.",
+    "en": "My brother is married to a doctor."
+  },
+  "regional": null,
+  "trick": "CASADO sounds like casa plus 'dough': married couples share a house and their money.",
+  "image": "/deck/img/casado-married.webp",
+  "audio": {
+    "word": "/deck/audio/casado-married.word.mp3",
+    "sentence": "/deck/audio/casado-married.sentence.mp3"
+  }
+}

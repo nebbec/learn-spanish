@@ -1,0 +1,17 @@
+{
+  "id": "alla-over-there",
+  "rank": 367,
+  "word": "allá",
+  "draft": "08a840bc3bf0bbbf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "over there, (way) over there, yonder: a place far from the speaker, often vague",
+    "example": "My family lives over there, in Mexico."
+  },
+  "note": "The hint is needed here because \"over there\" alone could also be allí or ahí, and it correctly rules them out by naming them and pointing to the far, vague sense of allá.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:16.872Z"
+}

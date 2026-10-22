@@ -1,0 +1,21 @@
+{
+  "id": "suyo-his-hers",
+  "rank": 553,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "suyo",
+  "en": "the book is [his]",
+  "hint": "one word, also hers, theirs, yours (usted)",
+  "grammar": null,
+  "example": {
+    "target": "Ese carro no es mío, es suyo.",
+    "en": "That car isn't mine, it's his."
+  },
+  "regional": null,
+  "trick": "SUYO sounds like \"sue you\": if you take what is his, he'll sue you.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/suyo-his-hers.word.mp3",
+    "sentence": "/deck/audio/suyo-his-hers.sentence.mp3"
+  }
+}

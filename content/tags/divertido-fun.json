@@ -1,0 +1,14 @@
+{
+  "id": "divertido-fun",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use divertido for something enjoyable to do; gracioso for something or someone that makes you laugh.",
+  "draft": "5b864a611fc3c784",
+  "group": "#514 divertido",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:47:14.831Z"
+}

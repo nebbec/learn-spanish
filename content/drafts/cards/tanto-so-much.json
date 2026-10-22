@@ -1,0 +1,21 @@
+{
+  "id": "tanto-so-much",
+  "rank": 185,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "tanto",
+  "en": "I have [so much] work",
+  "hint": "also so many; agrees with the noun",
+  "grammar": null,
+  "example": {
+    "target": "¡Tengo tanto trabajo hoy!",
+    "en": "I have so much work today!"
+  },
+  "regional": null,
+  "trick": "TANTO sounds like a tantrum: you throw one when there is so much to do.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/tanto-so-much.word.mp3",
+    "sentence": "/deck/audio/tanto-so-much.sentence.mp3"
+  }
+}

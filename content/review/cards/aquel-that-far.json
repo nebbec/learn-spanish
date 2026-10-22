@@ -1,0 +1,17 @@
+{
+  "id": "aquel-that-far",
+  "rank": 478,
+  "word": "aquel",
+  "draft": "b3b6ebbde1ee7402",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "that (over there, far from both speakers), masculine singular determiner",
+    "example": "That man (over there) is my uncle."
+  },
+  "note": "Because \"man\" is masculine, the answer has to be aquel and not aquella, so the hint only needs to rule out ese, and it does; in casual Latin American speech \"ese hombre de allá\" is also common, but aquel is correct and widely understood.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:04.428Z"
+}

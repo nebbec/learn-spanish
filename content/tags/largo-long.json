@@ -1,0 +1,14 @@
+{
+  "id": "largo-long",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8bf0208d7b381e67",
+  "group": "#456 largo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:45:30.032Z"
+}

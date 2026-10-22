@@ -1,0 +1,24 @@
+{
+  "id": "director-principal",
+  "rank": 707,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el director",
+  "en": "principal",
+  "hint": "head of a school",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El director quiere hablar con tus papás.",
+    "en": "The principal wants to talk to your parents."
+  },
+  "regional": null,
+  "trick": "The school DIRECTOR directs the whole school, so he's the principal who calls you to his office.",
+  "image": "/deck/img/director-principal.webp",
+  "audio": {
+    "word": "/deck/audio/director-principal.word.mp3",
+    "sentence": "/deck/audio/director-principal.sentence.mp3"
+  }
+}

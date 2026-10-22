@@ -1,0 +1,28 @@
+{
+  "id": "tirar-throw",
+  "rank": 486,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tirar",
+  "en": "to throw",
+  "hint": "a ball, a stone",
+  "grammar": {
+    "present": {
+      "yo": "tiro",
+      "tu": "tiras",
+      "el": "tira"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Tírame la pelota.",
+    "en": "Throw me the ball."
+  },
+  "regional": null,
+  "trick": "TIRAR sounds like a T. rex roaring as it throws a rock at you.",
+  "image": "/deck/img/tirar-throw.webp",
+  "audio": {
+    "word": "/deck/audio/tirar-throw.word.mp3",
+    "sentence": "/deck/audio/tirar-throw.sentence.mp3"
+  }
+}

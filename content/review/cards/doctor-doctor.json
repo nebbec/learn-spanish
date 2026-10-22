@@ -1,0 +1,17 @@
+{
+  "id": "doctor-doctor",
+  "rank": 304,
+  "word": "doctor",
+  "draft": "ca6d092d9f43bca2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "doctor (a physician; also the title Dr.)",
+    "example": "I need to see the doctor today."
+  },
+  "note": "The hint is needed to rule out el médico; Spain uses el médico more often for the physician (\"ir al médico\"), so spain could be filled with \"el médico\", but doctor is also understood there, so null is defensible.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:37.302Z"
+}

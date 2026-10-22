@@ -1,0 +1,21 @@
+{
+  "id": "supuesto-of-course",
+  "rank": 272,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "por supuesto",
+  "en": "of course",
+  "hint": "two-word phrase, not claro",
+  "grammar": null,
+  "example": {
+    "target": "¿Me ayudas? Por supuesto.",
+    "en": "Will you help me? Of course."
+  },
+  "regional": null,
+  "trick": "POR SUPUESTO sounds like \"for supposed\": of course it's true, everyone supposed so.",
+  "image": "/deck/img/supuesto-of-course.webp",
+  "audio": {
+    "word": "/deck/audio/supuesto-of-course.word.mp3",
+    "sentence": "/deck/audio/supuesto-of-course.sentence.mp3"
+  }
+}

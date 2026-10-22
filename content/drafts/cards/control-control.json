@@ -1,0 +1,24 @@
+{
+  "id": "control-control",
+  "rank": 562,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el control",
+  "en": "control",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Todo está bajo control.",
+    "en": "Everything is under control."
+  },
+  "regional": null,
+  "trick": "CONTROL sounds just like the English word control, so you already have it under control.",
+  "image": "/deck/img/control-control.webp",
+  "audio": {
+    "word": "/deck/audio/control-control.word.mp3",
+    "sentence": "/deck/audio/control-control.sentence.mp3"
+  }
+}

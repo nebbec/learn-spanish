@@ -1,0 +1,14 @@
+{
+  "id": "entre-between",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cc438610f7bc28c2",
+  "group": "#237 entre",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:19.701Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "juego-game",
+  "rank": 323,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el juego",
+  "en": "game",
+  "hint": "something you play, not a sports match",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Este juego es muy divertido.",
+    "en": "This game is really fun."
+  },
+  "regional": null,
+  "trick": "JUEGO sounds like \"who - EGO\": in every game, someone's ego wants to win.",
+  "image": "/deck/img/juego-game.webp",
+  "audio": {
+    "word": "/deck/audio/juego-game.word.mp3",
+    "sentence": "/deck/audio/juego-game.sentence.mp3"
+  }
+}

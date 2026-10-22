@@ -1,0 +1,13 @@
+{
+  "rank": 683,
+  "word": "recuerdo",
+  "cards": [
+    "recuerdo-memory",
+    "recuerdo-souvenir"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:44:02.291Z"
+}

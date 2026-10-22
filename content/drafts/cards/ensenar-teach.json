@@ -1,0 +1,28 @@
+{
+  "id": "ensenar-teach",
+  "rank": 396,
+  "kind": "content",
+  "pos": "verb",
+  "target": "enseñar",
+  "en": "to teach",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "enseño",
+      "tu": "enseñas",
+      "el": "enseña"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi mamá me enseñó a cocinar.",
+    "en": "My mom taught me to cook."
+  },
+  "regional": null,
+  "trick": "ENSEÑAR sounds like 'in senior': seniors teach the young ones everything they know.",
+  "image": "/deck/img/ensenar-teach.webp",
+  "audio": {
+    "word": "/deck/audio/ensenar-teach.word.mp3",
+    "sentence": "/deck/audio/ensenar-teach.sentence.mp3"
+  }
+}

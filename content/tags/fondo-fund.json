@@ -1,0 +1,14 @@
+{
+  "id": "fondo-fund",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "acd369dd7ee8493e",
+  "group": "#786 fondo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:55:33.366Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "peligro-danger",
+  "rank": 794,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el peligro",
+  "en": "danger",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Los niños están en peligro.",
+    "en": "The children are in danger."
+  },
+  "regional": null,
+  "trick": "PELIGRO sounds like \"pelican grow\": a pelican growing huge is real danger.",
+  "image": "/deck/img/peligro-danger.webp",
+  "audio": {
+    "word": "/deck/audio/peligro-danger.word.mp3",
+    "sentence": "/deck/audio/peligro-danger.sentence.mp3"
+  }
+}

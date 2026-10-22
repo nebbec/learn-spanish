@@ -1,0 +1,17 @@
+{
+  "id": "pelo-hair",
+  "rank": 624,
+  "word": "pelo",
+  "draft": "2b5ceb42d3e3d282",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "hair (of the head or body); also an animal's fur",
+    "example": "I like your long hair."
+  },
+  "note": "The hint \"everyday word\" is what rules out the more formal \"el cabello\", so it is needed and works well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:31.083Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "inteligente-intelligent",
+  "rank": 778,
+  "word": "inteligente",
+  "draft": "96230bb8005f27d9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "intelligent, smart (adjective)",
+    "example": "Your sister is very intelligent."
+  },
+  "note": "Words like listo (\"smart\") are near-synonyms, but the English word \"intelligent\" points clearly to the cognate inteligente, so the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:32.507Z"
+}

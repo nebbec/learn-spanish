@@ -1,0 +1,24 @@
+{
+  "id": "caballo-horse",
+  "rank": 598,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el caballo",
+  "en": "horse",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mi abuelo tiene tres caballos en el rancho.",
+    "en": "My grandpa has three horses on the ranch."
+  },
+  "regional": null,
+  "trick": "CABALLO sounds like \"cab, I go\": before cabs, you'd ride a horse to get anywhere.",
+  "image": "/deck/img/caballo-horse.webp",
+  "audio": {
+    "word": "/deck/audio/caballo-horse.word.mp3",
+    "sentence": "/deck/audio/caballo-horse.sentence.mp3"
+  }
+}

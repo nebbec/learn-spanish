@@ -1,0 +1,17 @@
+{
+  "id": "ocho-eight",
+  "rank": 796,
+  "word": "ocho",
+  "draft": "6c74ccba71e4d8c5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "eight (the number 8)",
+    "example": "I arrive at eight at night."
+  },
+  "note": "The example's English could read more naturally as \"I'm arriving at eight in the evening\", but the current translation is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:44:32.667Z"
+}

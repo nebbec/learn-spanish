@@ -1,0 +1,14 @@
+{
+  "id": "respuesta-answer",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "349cdb3fdaa4b68e",
+  "group": "#563 respuesta",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:44.982Z"
+}

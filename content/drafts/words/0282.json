@@ -1,0 +1,14 @@
+{
+  "rank": 282,
+  "word": "medio",
+  "cards": [
+    "medio-half",
+    "medio-middle",
+    "medio-kind-of"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:23:57.795Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gobierno-government",
+  "rank": 757,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el gobierno",
+  "en": "government",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El gobierno subió los impuestos otra vez.",
+    "en": "The government raised taxes again."
+  },
+  "regional": null,
+  "trick": "GOBIERNO sounds like \"go, be in power\": the government tells everyone where to go.",
+  "image": "/deck/img/gobierno-government.webp",
+  "audio": {
+    "word": "/deck/audio/gobierno-government.word.mp3",
+    "sentence": "/deck/audio/gobierno-government.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "silencio-silence",
+  "rank": 780,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el silencio",
+  "en": "silence",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¡Silencio, por favor! El bebé está dormido.",
+    "en": "Quiet, please! The baby is asleep."
+  },
+  "regional": null,
+  "trick": "SILENCIO sounds like \"silence, see?\": the room goes quiet and everyone sees it.",
+  "image": "/deck/img/silencio-silence.webp",
+  "audio": {
+    "word": "/deck/audio/silencio-silence.word.mp3",
+    "sentence": "/deck/audio/silencio-silence.sentence.mp3"
+  }
+}

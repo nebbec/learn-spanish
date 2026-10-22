@@ -1,0 +1,23 @@
+{
+  "id": "blanco-white",
+  "rank": 431,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "blanco",
+  "en": "white",
+  "hint": null,
+  "grammar": {
+    "feminine": "blanca"
+  },
+  "example": {
+    "target": "Mi camisa favorita es blanca.",
+    "en": "My favorite shirt is white."
+  },
+  "regional": null,
+  "trick": "BLANCO sounds like blank: a blank page is white.",
+  "image": "/deck/img/blanco-white.webp",
+  "audio": {
+    "word": "/deck/audio/blanco-white.word.mp3",
+    "sentence": "/deck/audio/blanco-white.sentence.mp3"
+  }
+}

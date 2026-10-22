@@ -1,0 +1,17 @@
+{
+  "id": "contra-against",
+  "rank": 277,
+  "word": "contra",
+  "draft": "ba26bb2e6cd37ac6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "contra = against (preposition)",
+    "example": "I have nothing against you."
+  },
+  "note": "The example correctly uses \"contra ti\" and not \"contra tú\", which is a useful pattern for learners to notice.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:35:06.442Z"
+}

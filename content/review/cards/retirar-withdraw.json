@@ -1,0 +1,17 @@
+{
+  "id": "retirar-withdraw",
+  "rank": 701,
+  "word": "retirar",
+  "draft": "4caad8b4074d8062",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to withdraw, remove, take back (non-reflexive retirar; retirarse is to retire)",
+    "example": "I take back what I said."
+  },
+  "note": "The hint's examples (a comment or charges) are needed: they rule out quitar or sacar, and the non-reflexive sense keeps this card separate from the retirarse \"to retire\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:06:38.341Z"
+}

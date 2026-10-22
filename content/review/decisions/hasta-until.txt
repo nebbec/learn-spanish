@@ -1,0 +1,31 @@
+# hasta-until · rank 130 · hasta
+#
+# Why it was flagged:
+#   - Example sentence: The example is a fixed farewell with no conjugated verb, and its idiomatic translation hides the 'until' meaning the card teaches. Suggested fix: example.es: Hoy trabajo hasta las ocho. / example.en: Today I work until eight.
+# Reviewer's note (not a reason to flag): The prompt needs no hint, because 'even' is covered by the word's other card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-09: replaced the farewell example; not the reviewer's sentence because it nearly repeats the prompt.
+decision: approve
+
+id:             hasta-until
+kind:           glue
+pos:            preposition
+target:         hasta
+en:             I work [until] eight
+hint:
+example.target: Te espero hasta las ocho.
+example.en:     I'll wait for you until eight.
+regional.where:
+regional.text:
+trick:          HASTA sounds like "hasta la vista": you won't see me until later, baby.
+
+# The draft this file was made from. Do not change it.
+draft: 793bb9a2277ea71c

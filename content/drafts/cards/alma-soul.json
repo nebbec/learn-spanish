@@ -1,0 +1,24 @@
+{
+  "id": "alma-soul",
+  "rank": 700,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el alma",
+  "en": "soul",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "el"
+  },
+  "example": {
+    "target": "Te quiero con toda mi alma.",
+    "en": "I love you with all my soul."
+  },
+  "regional": null,
+  "trick": "ALMA sounds like 'calm-a': a calm soul rests peacefully inside you.",
+  "image": "/deck/img/alma-soul.webp",
+  "audio": {
+    "word": "/deck/audio/alma-soul.word.mp3",
+    "sentence": "/deck/audio/alma-soul.sentence.mp3"
+  }
+}

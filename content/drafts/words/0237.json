@@ -1,0 +1,12 @@
+{
+  "rank": 237,
+  "word": "entre",
+  "cards": [
+    "entre-between"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:21:55.862Z"
+}

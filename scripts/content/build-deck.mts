@@ -42,15 +42,18 @@ import { readTips, readUnits } from "./units";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
-/** The first slice is 100 cards (E4); each content batch of 100 (S2) raises it by 100. */
-const DECK_SIZE = 100;
+/**
+ * Each language's deck size: Spanish's first slice was 100 cards (E4) and S5 grew it to 1,000; German's
+ * first slice is 100 (DE12).
+ */
+const DECK_SIZE: Record<string, number> = { es: 1000, de: 100 };
 
 const { values } = parseArgs({
   options: {
     ...LANG_OPTION,
     "allow-drop": { type: "boolean", default: false },
     fresh: { type: "boolean", default: false },
-    size: { type: "string", default: String(DECK_SIZE) },
+    size: { type: "string" },
     spacing: { type: "string", default: String(SIBLING_SPACING) },
     drafts: { type: "string" },
     review: { type: "string" },
@@ -66,7 +69,7 @@ const paths = contentPaths(ROOT, lang);
 const out = values.out ?? paths.deck;
 const pathFile = values.path ?? paths.pathFile;
 
-const size = Number(values.size);
+const size = Number(values.size ?? DECK_SIZE[lang]);
 if (!Number.isInteger(size) || size < 1) throw new Error(`--size must be a whole number above 0, not ${values.size}`);
 const spacing = Number(values.spacing);
 if (!Number.isInteger(spacing) || spacing < 0) throw new Error(`--spacing must be a whole number, not ${values.spacing}`);

@@ -1,0 +1,14 @@
+{
+  "id": "juego-game",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "551d787181f21c94",
+  "group": "#323 juego",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:17.804Z"
+}

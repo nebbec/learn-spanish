@@ -1,0 +1,17 @@
+{
+  "id": "policia-police-officer",
+  "rank": 225,
+  "word": "policía",
+  "draft": "d6b811743d53e644",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the policeman, the (male) police officer",
+    "example": "The police officer asked me for my license."
+  },
+  "note": "Policía works for both genders (el policía for a man, la policía for a woman), so the hint \"a man\" correctly separates this card from both the force and a female officer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:47.958Z"
+}

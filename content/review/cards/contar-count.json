@@ -1,0 +1,17 @@
+{
+  "id": "contar-count",
+  "rank": 224,
+  "word": "contar",
+  "draft": "9f462bec9e527bbc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to count (numbers); also to tell, and contar con = to count on",
+    "example": "My son already counts to a hundred."
+  },
+  "note": "The hint is not strictly needed since \"to count\" already points only to contar, but it is accurate and harmless.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:34.634Z"
+}

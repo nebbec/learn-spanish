@@ -1,0 +1,33 @@
+# consejo-council · rank 746 · consejo
+#
+# Why it was flagged:
+#   - One right answer: The hint 'a group that decides' does not rule out el concejo, the usual Latin American word for a town or city council ('concejo municipal'), which sounds the same as consejo, and it also fits la junta or el comité. Suggested fix: hint: a governing or advisory body, like a student or security council (not a town council)
+# Reviewer's note (not a reason to flag): Learners may confuse consejo with the homophone concejo (town council), so a short contrast on the back of the card could help.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened.
+decision: approve
+
+id:             consejo-council
+kind:           content
+pos:            noun
+target:         el consejo
+en:             council
+hint:           a governing or advisory body, like a student council; not a town council
+gender:         m
+article:        el
+example.target: El consejo se reúne mañana.
+example.en:     The council meets tomorrow.
+regional.where:
+regional.text:
+trick:          CONSEJO sounds like "council, eh Joe?": Joe sits on the council that gives everyone advice.
+
+# The draft this file was made from. Do not change it.
+draft: c6c4f593fc8c5384

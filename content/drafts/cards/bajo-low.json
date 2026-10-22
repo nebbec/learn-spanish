@@ -1,0 +1,23 @@
+{
+  "id": "bajo-low",
+  "rank": 276,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "bajo",
+  "en": "low",
+  "hint": null,
+  "grammar": {
+    "feminine": "baja"
+  },
+  "example": {
+    "target": "Habla en voz baja, por favor.",
+    "en": "Speak in a low voice, please."
+  },
+  "regional": null,
+  "trick": "BAJO sounds like a bass 'bah-ho' sung in a deep, low voice.",
+  "image": "/deck/img/bajo-low.webp",
+  "audio": {
+    "word": "/deck/audio/bajo-low.word.mp3",
+    "sentence": "/deck/audio/bajo-low.sentence.mp3"
+  }
+}

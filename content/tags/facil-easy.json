@@ -1,0 +1,14 @@
+{
+  "id": "facil-easy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2ef049e23949d1be",
+  "group": "#409 fácil",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:43:58.088Z"
+}

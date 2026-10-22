@@ -1,0 +1,28 @@
+{
+  "id": "echar-kick-out",
+  "rank": 341,
+  "kind": "content",
+  "pos": "verb",
+  "target": "echar",
+  "en": "to kick out",
+  "hint": "from a place or a job",
+  "grammar": {
+    "present": {
+      "yo": "echo",
+      "tu": "echas",
+      "el": "echa"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Me echaron del trabajo ayer.",
+    "en": "They kicked me out of my job yesterday."
+  },
+  "regional": null,
+  "trick": "ECHAR sounds like EJECT-ar: when the boss ejects you, he kicks you out.",
+  "image": "/deck/img/echar-kick-out.webp",
+  "audio": {
+    "word": "/deck/audio/echar-kick-out.word.mp3",
+    "sentence": "/deck/audio/echar-kick-out.sentence.mp3"
+  }
+}

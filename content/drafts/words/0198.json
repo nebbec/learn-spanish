@@ -1,0 +1,13 @@
+{
+  "rank": 198,
+  "word": "mierda",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "mierda means 'shit', a swear word, so it doesn't get a card for this learner."
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:20:18.927Z"
+}

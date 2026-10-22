@@ -1,0 +1,23 @@
+{
+  "id": "libre-free",
+  "rank": 499,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "libre",
+  "en": "free",
+  "hint": "not captive or busy, not 'no cost'",
+  "grammar": {
+    "feminine": "libre"
+  },
+  "example": {
+    "target": "Mañana estoy libre todo el día.",
+    "en": "Tomorrow I'm free all day."
+  },
+  "regional": null,
+  "trick": "LIBRE sounds like 'liberty': with liberty, you are free.",
+  "image": "/deck/img/libre-free.webp",
+  "audio": {
+    "word": "/deck/audio/libre-free.word.mp3",
+    "sentence": "/deck/audio/libre-free.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gusto-taste",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "156d59c81428575f",
+  "group": "#625 gusto",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:40.334Z"
+}

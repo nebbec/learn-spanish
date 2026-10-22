@@ -1,0 +1,17 @@
+{
+  "id": "raro-weird",
+  "rank": 433,
+  "word": "raro",
+  "draft": "0564f45e54611a72",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "strange, weird, odd (also rare)",
+    "example": "How strange, the door is open."
+  },
+  "note": "The hint is needed because extraño is also correct for \"weird, strange\", and pointing to English \"rare\" picks out raro.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:00.774Z"
+}

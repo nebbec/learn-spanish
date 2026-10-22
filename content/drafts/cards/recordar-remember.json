@@ -1,0 +1,28 @@
+{
+  "id": "recordar-remember",
+  "rank": 192,
+  "kind": "content",
+  "pos": "verb",
+  "target": "recordar",
+  "en": "to remember",
+  "hint": "not the reflexive acordarse",
+  "grammar": {
+    "present": {
+      "yo": "recuerdo",
+      "tu": "recuerdas",
+      "el": "recuerda"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿Recuerdas su nombre?",
+    "en": "Do you remember his name?"
+  },
+  "regional": null,
+  "trick": "RECORDAR sounds like record: your brain records things so you can remember them.",
+  "image": "/deck/img/recordar-remember.webp",
+  "audio": {
+    "word": "/deck/audio/recordar-remember.word.mp3",
+    "sentence": "/deck/audio/recordar-remember.sentence.mp3"
+  }
+}

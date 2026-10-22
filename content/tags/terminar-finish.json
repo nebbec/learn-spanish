@@ -1,0 +1,14 @@
+{
+  "id": "terminar-finish",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Terminar and acabar both mean to finish; terminar is the plain word for completing something, acabar de means have just.",
+  "draft": "dbd641b9c0f4029f",
+  "group": "#200 terminar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:25.203Z"
+}

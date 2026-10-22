@@ -1,0 +1,17 @@
+{
+  "id": "perdonar-forgive",
+  "rank": 362,
+  "word": "perdonar",
+  "draft": "331362a44f49e46d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to forgive, to pardon (also 'excuse me' in the imperative)",
+    "example": "Forgive me, I didn't mean to hurt you."
+  },
+  "note": "Subtitle frequency probably owes a lot to \"perdón\" and \"perdona/perdóname\" used to mean \"excuse me\", so the example could mention that use, but the card is correct as written.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:41:01.829Z"
+}

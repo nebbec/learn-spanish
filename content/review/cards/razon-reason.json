@@ -1,0 +1,23 @@
+{
+  "id": "razon-reason",
+  "rank": 208,
+  "word": "razón",
+  "draft": "4c5097a4714ff93c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Saying it sounds like reason 'with a lisp' teaches the Spain pronunciation, but in Latin American Spanish the z sounds like s.",
+      "fix": "trick: RAZÓN sounds like a Spanish-accented REASON (rah-SOHN), and that is just what it means."
+    }
+  ],
+  "back": {
+    "es": "reason (a cause or explanation; also good sense)",
+    "example": "There is no reason to cry."
+  },
+  "note": "El motivo is a less common synonym that some learners might give, but la razón is the standard answer for reason, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:15.756Z"
+}

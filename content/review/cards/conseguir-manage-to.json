@@ -1,0 +1,17 @@
+{
+  "id": "conseguir-manage-to",
+  "rank": 190,
+  "word": "conseguir",
+  "draft": "a45c4cc3449fd67f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "conseguir: to get, to obtain; (+ infinitive) to manage to, to succeed in",
+    "example": "At last I managed to sleep a little."
+  },
+  "note": "The hint correctly rules out lograr, and \"succeed in doing\" keeps this card apart from the \"to get\" card, so the two senses don't overlap.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:21.060Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "funcionar-work",
+  "rank": 298,
+  "kind": "content",
+  "pos": "verb",
+  "target": "funcionar",
+  "en": "to work",
+  "hint": "of a machine or plan, not a job",
+  "grammar": {
+    "present": {
+      "yo": "funciono",
+      "tu": "funcionas",
+      "el": "funciona"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi teléfono no funciona.",
+    "en": "My phone doesn't work."
+  },
+  "regional": null,
+  "trick": "FUNCIONAR sounds like \"function\": when something functions, it works.",
+  "image": "/deck/img/funcionar-work.webp",
+  "audio": {
+    "word": "/deck/audio/funcionar-work.word.mp3",
+    "sentence": "/deck/audio/funcionar-work.sentence.mp3"
+  }
+}

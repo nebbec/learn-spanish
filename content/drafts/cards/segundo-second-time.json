@@ -1,0 +1,24 @@
+{
+  "id": "segundo-second-time",
+  "rank": 213,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el segundo",
+  "en": "second",
+  "hint": "unit of time",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Espérame un segundo, ya vengo.",
+    "en": "Wait for me a second, I'm coming."
+  },
+  "regional": null,
+  "trick": "SEGUNDO sounds like \"second, go!\": the timer ticks one second and the race begins.",
+  "image": "/deck/img/segundo-second-time.webp",
+  "audio": {
+    "word": "/deck/audio/segundo-second-time.word.mp3",
+    "sentence": "/deck/audio/segundo-second-time.sentence.mp3"
+  }
+}

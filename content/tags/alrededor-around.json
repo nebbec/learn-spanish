@@ -1,0 +1,14 @@
+{
+  "id": "alrededor-around",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "aafb8729a8e3c0e6",
+  "group": "#634 alrededor",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:53.778Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "morir-die",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "996431c5963fc4dd",
+  "group": "#170 morir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:30.204Z"
+}

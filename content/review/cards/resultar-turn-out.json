@@ -1,0 +1,17 @@
+{
+  "id": "resultar-turn-out",
+  "rank": 733,
+  "word": "resultar",
+  "draft": "089b41f0d93ca271",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to turn out, to prove to be; to result",
+    "example": "It turns out that he was right."
+  },
+  "note": "\"Salir\" can also mean \"to turn out\" (salió bien), but resultar is the standard dictionary answer for the bare prompt, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:12.733Z"
+}

@@ -1,0 +1,31 @@
+# probablemente-probably · rank 436 · probablemente
+#
+# Why it was flagged:
+#   - Example sentence: The plain present 'llueve' for tomorrow's weather sounds unnatural here; speakers say 'va a llover' (or the subjunctive 'llueva'). Suggested fix: example.es: Probablemente va a llover mañana.
+# Reviewer's note (not a reason to flag): 'Seguramente' is also often used for 'probably' in Latin America, but 'probablemente' is the direct, standard answer for this prompt.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: rewrote the example with ir a + infinitive as the reviewer asked, but with llegar tarde instead of llover (llover is a rare word).
+decision: approve
+
+id:             probablemente-probably
+kind:           content
+pos:            adverb
+target:         probablemente
+en:             probably
+hint:
+example.target: Probablemente voy a llegar tarde.
+example.en:     I'll probably be late.
+regional.where:
+regional.text:
+trick:          PROBABLEMENTE looks like probable plus -mente, Spanish's -ly ending: probably.
+
+# The draft this file was made from. Do not change it.
+draft: 3a9cabd3537c568c

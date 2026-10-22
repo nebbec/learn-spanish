@@ -1,0 +1,14 @@
+{
+  "id": "seguridad-security",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "14b9982d707885f4",
+  "group": "#476 seguridad",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:00.522Z"
+}

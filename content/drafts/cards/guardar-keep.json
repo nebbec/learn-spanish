@@ -1,0 +1,28 @@
+{
+  "id": "guardar-keep",
+  "rank": 671,
+  "kind": "content",
+  "pos": "verb",
+  "target": "guardar",
+  "en": "to keep",
+  "hint": "put away, store, save",
+  "grammar": {
+    "present": {
+      "yo": "guardo",
+      "tu": "guardas",
+      "el": "guarda"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Puedes guardar un secreto?",
+    "en": "Can you keep a secret?"
+  },
+  "regional": null,
+  "trick": "GUARDAR sounds like guard: a guard keeps your things safe and puts them away.",
+  "image": "/deck/img/guardar-keep.webp",
+  "audio": {
+    "word": "/deck/audio/guardar-keep.word.mp3",
+    "sentence": "/deck/audio/guardar-keep.sentence.mp3"
+  }
+}

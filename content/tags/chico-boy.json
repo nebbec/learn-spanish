@@ -1,0 +1,14 @@
+{
+  "id": "chico-boy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ed76daf93c0f23bb",
+  "group": "#94 chico",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:02:28.733Z"
+}

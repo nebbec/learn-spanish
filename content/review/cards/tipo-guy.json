@@ -1,0 +1,17 @@
+{
+  "id": "tipo-guy",
+  "rank": 165,
+  "word": "tipo",
+  "draft": "f29ea082d4a4d35c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "el tipo: guy, fellow, bloke (informal, a man); also type, kind",
+    "example": "That guy is looking at me."
+  },
+  "note": "The hint correctly rules out the neutral \"el hombre\" and the \"type\" card, and the Spain field \"el tío\" is right, although Spain also uses \"tipo\" in this sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:26:23.988Z"
+}

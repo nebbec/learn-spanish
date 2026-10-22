@@ -2,16 +2,16 @@
   "id": "ciudad-city",
   "rank": 294,
   "word": "ciudad",
-  "draft": "4bdc9d8862bc286f",
+  "draft": "c3dcffb45f6de70d",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "la ciudad = the city (feminine noun)",
-    "example": "I live in a very big city."
+    "es": "the city",
+    "example": "My mother is in the city."
   },
-  "note": null,
+  "note": "In everyday Latin American speech \"mi mamá\" would sound a little more natural than \"mi madre\", but both are correct.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:06:40.392Z"
+  "reviewedAt": "2026-10-09T14:27:02.887Z"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "relacion-relationship",
+  "rank": 551,
+  "word": "relación",
+  "draft": "ad59015be388b3bc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "relationship, relation (feminine noun)",
+    "example": "I have a good relationship with my brother."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:26.798Z"
+}

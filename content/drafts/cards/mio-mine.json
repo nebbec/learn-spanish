@@ -1,0 +1,21 @@
+{
+  "id": "mio-mine",
+  "rank": 166,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "mío",
+  "en": "that book is [mine]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ese libro es mío, no tuyo.",
+    "en": "That book is mine, not yours."
+  },
+  "regional": null,
+  "trick": "MÍO sounds like a cat's meow: the cat meows because the whole house is mine.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/mio-mine.word.mp3",
+    "sentence": "/deck/audio/mio-mine.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "demonio-demon",
+  "rank": 402,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el demonio",
+  "en": "demon",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Mi hermano dice que vio un demonio.",
+    "en": "My brother says he saw a demon."
+  },
+  "regional": null,
+  "trick": "DEMONIO sounds like demon plus money: a demon that steals all your money.",
+  "image": "/deck/img/demonio-demon.webp",
+  "audio": {
+    "word": "/deck/audio/demonio-demon.word.mp3",
+    "sentence": "/deck/audio/demonio-demon.sentence.mp3"
+  }
+}

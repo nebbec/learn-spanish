@@ -1,0 +1,28 @@
+{
+  "id": "retirar-withdraw",
+  "rank": 701,
+  "kind": "content",
+  "pos": "verb",
+  "target": "retirar",
+  "en": "to withdraw",
+  "hint": "take back or remove, e.g. a comment or charges",
+  "grammar": {
+    "present": {
+      "yo": "retiro",
+      "tu": "retiras",
+      "el": "retira"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Retiro lo que dije.",
+    "en": "I take back what I said."
+  },
+  "regional": null,
+  "trick": "RETIRAR sounds like re-tear: you tear the words back out of the letter, withdrawing them.",
+  "image": "/deck/img/retirar-withdraw.webp",
+  "audio": {
+    "word": "/deck/audio/retirar-withdraw.word.mp3",
+    "sentence": "/deck/audio/retirar-withdraw.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tras-after",
+  "rank": 657,
+  "word": "tras",
+  "draft": "d0082f99a87b1754",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "tras = after; behind (preposition). Example: After dinner, we watched a movie.",
+    "example": "After dinner, we watched a movie."
+  },
+  "note": "\"Día tras día\" is the fixed phrase, so the prompt works, but in casual speech Latin Americans usually say \"después de la cena\" and \"tras\" sounds a bit formal, so the editor might mention that \"después de\" is the everyday way to say \"after\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:18.887Z"
+}

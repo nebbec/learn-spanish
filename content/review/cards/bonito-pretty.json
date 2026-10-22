@@ -1,0 +1,17 @@
+{
+  "id": "bonito-pretty",
+  "rank": 413,
+  "word": "bonito",
+  "draft": "a28ed25fdebbe45b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "pretty, nice, lovely (adjective)",
+    "example": "What a pretty house you have."
+  },
+  "note": "The hint needs to rule out lindo, which is just as common as bonito in much of Latin America, and it does; hermoso means \"beautiful,\" so \"pretty\" isn't really competing with it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:27.857Z"
+}

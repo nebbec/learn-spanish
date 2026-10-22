@@ -1,0 +1,13 @@
+{
+  "rank": 210,
+  "word": "ganar",
+  "cards": [
+    "ganar-win",
+    "ganar-earn"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:20:47.146Z"
+}

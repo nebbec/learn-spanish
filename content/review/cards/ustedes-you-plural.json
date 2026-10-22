@@ -1,0 +1,23 @@
+{
+  "id": "ustedes-you-plural",
+  "rank": 245,
+  "word": "ustedes",
+  "draft": "2267d5a9b2bee418",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In this informal 'you guys' sense, Spain says vosotros, which is noticeably different, so spain should not be null.",
+      "fix": "spain: vosotros"
+    }
+  ],
+  "back": {
+    "es": "you (plural); you all, you guys",
+    "example": "Are you (all) coming to the party?"
+  },
+  "note": "The hint is correct, and in Latin America ustedes is the only plural \"you\" for both formal and informal speech, so the prompt has exactly one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:32:53.962Z"
+}

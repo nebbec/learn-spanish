@@ -1,0 +1,12 @@
+{
+  "rank": 133,
+  "word": "antes",
+  "cards": [
+    "antes-before"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:17:32.065Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "servir-serve",
+  "rank": 438,
+  "kind": "content",
+  "pos": "verb",
+  "target": "servir",
+  "en": "to serve",
+  "hint": "food, drinks",
+  "grammar": {
+    "present": {
+      "yo": "sirvo",
+      "tu": "sirves",
+      "el": "sirve"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Ella sirve la cena a las ocho.",
+    "en": "She serves dinner at eight."
+  },
+  "regional": null,
+  "trick": "SERVIR sounds like serve-ear: the waiter serves soup and whispers the specials in your ear.",
+  "image": "/deck/img/servir-serve.webp",
+  "audio": {
+    "word": "/deck/audio/servir-serve.word.mp3",
+    "sentence": "/deck/audio/servir-serve.sentence.mp3"
+  }
+}

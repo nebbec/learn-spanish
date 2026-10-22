@@ -1,0 +1,17 @@
+{
+  "id": "respuesta-answer",
+  "rank": 563,
+  "word": "respuesta",
+  "draft": "349cdb3fdaa4b68e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the answer, the response, the reply",
+    "example": "I don't know the answer."
+  },
+  "note": "The prompt needs no hint: verb prompts always start with \"to\", so the bare \"answer\" can only mean the noun, and \"la contestación\" is too uncommon to be a second right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:10.877Z"
+}

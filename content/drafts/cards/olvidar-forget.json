@@ -1,0 +1,28 @@
+{
+  "id": "olvidar-forget",
+  "rank": 220,
+  "kind": "content",
+  "pos": "verb",
+  "target": "olvidar",
+  "en": "to forget",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "olvido",
+      "tu": "olvidas",
+      "el": "olvida"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Siempre olvido mis llaves en casa.",
+    "en": "I always forget my keys at home."
+  },
+  "regional": null,
+  "trick": "OLVIDAR sounds like \"all video\": you watched so many videos that you forgot everything else.",
+  "image": "/deck/img/olvidar-forget.webp",
+  "audio": {
+    "word": "/deck/audio/olvidar-forget.word.mp3",
+    "sentence": "/deck/audio/olvidar-forget.sentence.mp3"
+  }
+}

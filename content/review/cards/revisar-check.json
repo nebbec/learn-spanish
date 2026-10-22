@@ -1,0 +1,17 @@
+{
+  "id": "revisar-check",
+  "rank": 715,
+  "word": "revisar",
+  "draft": "571ae361b7eba7ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to check, to look over, to review, to inspect",
+    "example": "Check your phone, I sent you a message."
+  },
+  "note": "The hint \"look over, review\" is needed and does its job: it points to revisar rather than comprobar, verificar or chequear, which can also mean \"to check\" as in confirming something.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:08.492Z"
+}

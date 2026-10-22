@@ -1,0 +1,14 @@
+{
+  "id": "vestir-dress",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "270174722ef34527",
+  "group": "#763 vestir",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:51.186Z"
+}

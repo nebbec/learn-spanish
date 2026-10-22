@@ -1,0 +1,17 @@
+{
+  "id": "meter-put-in",
+  "rank": 291,
+  "word": "meter",
+  "draft": "a389c6dc7a96e9a5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to put in, to insert (to put something inside something else)",
+    "example": "Put the clothes in the suitcase."
+  },
+  "note": "The hint is useful because it rules out poner, and other options like introducir (formal) or guardar (to put away) don't fit \"put in\" as well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:36:05.239Z"
+}

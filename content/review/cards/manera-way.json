@@ -1,0 +1,17 @@
+{
+  "id": "manera-way",
+  "rank": 266,
+  "word": "manera",
+  "draft": "9ef3d55d62baee99",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the way, the manner (in which something is done)",
+    "example": "There is no other way to do it."
+  },
+  "note": "The hint correctly rules out the near-synonyms forma and modo and the route sense (camino), so manera is the only answer left.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:34:17.860Z"
+}

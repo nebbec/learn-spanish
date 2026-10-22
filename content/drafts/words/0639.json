@@ -1,0 +1,13 @@
+{
+  "rank": 639,
+  "word": "dulce",
+  "cards": [
+    "dulce-sweet",
+    "dulce-candy"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:41:29.798Z"
+}

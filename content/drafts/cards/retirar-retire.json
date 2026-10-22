@@ -1,0 +1,28 @@
+{
+  "id": "retirar-retire",
+  "rank": 701,
+  "kind": "content",
+  "pos": "verb",
+  "target": "retirarse",
+  "en": "to retire",
+  "hint": "from a job or sport, or to step away",
+  "grammar": {
+    "present": {
+      "yo": "me retiro",
+      "tu": "te retiras",
+      "el": "se retira"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi papá se retira el próximo año.",
+    "en": "My dad is retiring next year."
+  },
+  "regional": null,
+  "trick": "RETIRARSE sounds like retire: when you are tired of working, you retire.",
+  "image": "/deck/img/retirar-retire.webp",
+  "audio": {
+    "word": "/deck/audio/retirar-retire.word.mp3",
+    "sentence": "/deck/audio/retirar-retire.sentence.mp3"
+  }
+}

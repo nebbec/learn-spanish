@@ -1,0 +1,24 @@
+{
+  "id": "derecho-right-entitlement",
+  "rank": 483,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el derecho",
+  "en": "right",
+  "hint": "something you are entitled to",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "No tienes derecho a hablarme así.",
+    "en": "You have no right to talk to me like that."
+  },
+  "regional": null,
+  "trick": "DERECHO sounds like \"the wretch, oh\": even the wretch has rights.",
+  "image": "/deck/img/derecho-right-entitlement.webp",
+  "audio": {
+    "word": "/deck/audio/derecho-right-entitlement.word.mp3",
+    "sentence": "/deck/audio/derecho-right-entitlement.sentence.mp3"
+  }
+}

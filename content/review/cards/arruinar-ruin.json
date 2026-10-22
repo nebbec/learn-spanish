@@ -1,0 +1,17 @@
+{
+  "id": "arruinar-ruin",
+  "rank": 729,
+  "word": "arruinar",
+  "draft": "411d9d39dbc436c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to ruin; to wreck, spoil (also: to bankrupt someone)",
+    "example": "You ruined the surprise!"
+  },
+  "note": "Arruinar is regular, and arruino is correctly written without an accent because ui counts as a diphthong in spelling; Spain also uses estropear here, but arruinar is common there too, so spain can stay null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:40:01.345Z"
+}

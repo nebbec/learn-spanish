@@ -1,0 +1,17 @@
+{
+  "id": "demasiado-too-much",
+  "rank": 219,
+  "word": "demasiado",
+  "draft": "b1f05cfd3180026e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "too much, too many (adjective, agrees with the noun)",
+    "example": "There are too many people here."
+  },
+  "note": "The prompt has no hint, but it doesn't need one: \"too much, too many\" is clearly different from the adverb card \"too (as in too big)\", and both cards take the same Spanish word anyway.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:07.097Z"
+}

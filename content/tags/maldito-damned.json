@@ -1,0 +1,14 @@
+{
+  "id": "maldito-damned",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7144cccb3990b7b4",
+  "group": "#252 maldito",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:39.007Z"
+}

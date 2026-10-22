@@ -1,0 +1,17 @@
+{
+  "id": "primero-first",
+  "rank": 132,
+  "word": "primero",
+  "draft": "bf111425d10cbdc3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "first (adjective; also used as an adverb meaning first or firstly)",
+    "example": "It's my first time in Mexico."
+  },
+  "note": "Before a masculine singular noun, primero shortens to primer (el primer día), so the editor may want to mention this on the card, and the word also works as an adverb (primero, ...), which leads to the same answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:37.000Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cantar-sing",
+  "rank": 560,
+  "word": "cantar",
+  "draft": "85ccad865813647f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to sing",
+    "example": "My mom sings in the kitchen."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:02.397Z"
+}

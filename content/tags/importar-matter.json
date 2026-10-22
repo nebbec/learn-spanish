@@ -1,0 +1,14 @@
+{
+  "id": "importar-matter",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "336d52c92cd6de2c",
+  "group": "#180 importar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:46.965Z"
+}

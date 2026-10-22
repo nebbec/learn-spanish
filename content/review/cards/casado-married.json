@@ -1,0 +1,17 @@
+{
+  "id": "casado-married",
+  "rank": 676,
+  "word": "casado",
+  "draft": "e49681d715b72ad2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "married (adjective; feminine casada)",
+    "example": "My brother is married to a (female) doctor."
+  },
+  "note": "The trick works well because casado really does come from casa, through casar, meaning to set up a house together.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:04:44.375Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "unir-unite",
+  "rank": 462,
+  "kind": "content",
+  "pos": "verb",
+  "target": "unir",
+  "en": "to unite",
+  "hint": "to join together; unirse = to join a group",
+  "grammar": {
+    "present": {
+      "yo": "uno",
+      "tu": "unes",
+      "el": "une"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Quieres unirte a nosotros?",
+    "en": "Do you want to join us?"
+  },
+  "regional": null,
+  "trick": "UNIR sounds like 'unit': when you unite people, they become one unit.",
+  "image": "/deck/img/unir-unite.webp",
+  "audio": {
+    "word": "/deck/audio/unir-unite.word.mp3",
+    "sentence": "/deck/audio/unir-unite.sentence.mp3"
+  }
+}

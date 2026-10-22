@@ -1,0 +1,13 @@
+{
+  "rank": 192,
+  "word": "recordar",
+  "cards": [
+    "recordar-remember",
+    "recordar-remind"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:20:09.465Z"
+}

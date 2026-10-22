@@ -1,0 +1,31 @@
+# cual-which-relative · rank 507 · cual
+#
+# Why it was flagged:
+#   - One right answer: The prompt translates as 'la razón por la ___ vine', and 'que' fits just as well and is very common in Latin America ('por la que vine'); the hint does not rule it out, because 'que' also comes after la and has no accent. Suggested fix: hint: relative, after el/la/lo, no accent; not que
+# Reviewer's note (not a reason to flag): The prompt uses 'la cual' and the example uses 'lo cual', which nicely shows both patterns.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
+decision: approve
+
+id:             cual-which-relative
+kind:           glue
+pos:            pronoun
+target:         cual
+en:             the reason for [which] I came
+hint:           relative, after el/la/lo, no accent; not que
+example.target: Llegó tarde, lo cual me molestó mucho.
+example.en:     He arrived late, which really bothered me.
+regional.where:
+regional.text:
+trick:          CUAL sounds like the start of quality: the quality which matters most.
+
+# The draft this file was made from. Do not change it.
+draft: fab374bc1b0a83f4

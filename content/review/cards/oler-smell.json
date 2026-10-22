@@ -1,0 +1,17 @@
+{
+  "id": "oler-smell",
+  "rank": 770,
+  "word": "oler",
+  "draft": "fde551578b9bf686",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to smell (both to perceive an odor and to give off an odor)",
+    "example": "Here it smells of coffee."
+  },
+  "note": "The present forms add an h before the stem change (huelo, hueles, huele), so this card is a good place to point that out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:02.842Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "conocer-meet",
+  "rank": 119,
+  "word": "conocer",
+  "draft": "9afab613f9188c34",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to know (a person or place), to be familiar with; to meet (someone for the first time)",
+    "example": "I met my wife at a party."
+  },
+  "note": "The hint \"for the first time\" is needed: it rules out encontrarse con and verse con, which mean meeting up with or running into someone you already know, and it keeps this card separate from the \"to know\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:56.410Z"
+}

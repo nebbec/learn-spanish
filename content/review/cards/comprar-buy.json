@@ -2,16 +2,16 @@
   "id": "comprar-buy",
   "rank": 261,
   "word": "comprar",
-  "draft": "2e175dc6a6b25a1a",
+  "draft": "4e889ed916d83832",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "to buy, to purchase",
-    "example": "I bought bread for breakfast."
+    "example": "My mother buys coffee in the city."
   },
   "note": null,
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:06:20.451Z"
+  "reviewedAt": "2026-10-09T14:26:57.555Z"
 }

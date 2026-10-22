@@ -1,0 +1,17 @@
+{
+  "id": "libro-book",
+  "rank": 399,
+  "word": "libro",
+  "draft": "38402474ecb8cbcd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the book",
+    "example": "I'm reading a very good book."
+  },
+  "note": "The trick is fine as a sound link, but the editor could warn learners that \"library\" in Spanish is \"la biblioteca\" and \"la librería\" means bookstore.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:23.390Z"
+}

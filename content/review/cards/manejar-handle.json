@@ -1,0 +1,23 @@
+{
+  "id": "manejar-handle",
+  "rank": 767,
+  "word": "manejar",
+  "draft": "1ba6069ba2862fc4",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses manejar only as an infinitive after puedo, so the card's own verb is not conjugated.",
+      "fix": "example.es: Tranquila, yo manejo esto. / example.en: Relax, I'll handle this."
+    }
+  ],
+  "back": {
+    "es": "to handle, to manage (a situation, problem, tool); in Latin America also to drive",
+    "example": "Relax, I can handle it."
+  },
+  "note": "The hint correctly separates this card from the drive card, and encargarse de and lidiar con are close synonyms but less direct for handle a situation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:00.447Z"
+}

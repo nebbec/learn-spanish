@@ -1,0 +1,23 @@
+{
+  "id": "lleno-full",
+  "rank": 602,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "lleno",
+  "en": "full",
+  "hint": null,
+  "grammar": {
+    "feminine": "llena"
+  },
+  "example": {
+    "target": "El restaurante está lleno esta noche.",
+    "en": "The restaurant is full tonight."
+  },
+  "regional": null,
+  "trick": "LLENO sounds like \"YAY, no!\": you shout it when your plate is full and they serve you more.",
+  "image": "/deck/img/lleno-full.webp",
+  "audio": {
+    "word": "/deck/audio/lleno-full.word.mp3",
+    "sentence": "/deck/audio/lleno-full.sentence.mp3"
+  }
+}

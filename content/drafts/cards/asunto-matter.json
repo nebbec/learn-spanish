@@ -1,0 +1,24 @@
+{
+  "id": "asunto-matter",
+  "rank": 461,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el asunto",
+  "en": "matter",
+  "hint": "affair, business, as in none of your business",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Eso no es asunto tuyo.",
+    "en": "That's none of your business."
+  },
+  "regional": null,
+  "trick": "ASUNTO sounds like 'a stunt, oh': pulling a stunt in someone else's private matter is never a good idea.",
+  "image": "/deck/img/asunto-matter.webp",
+  "audio": {
+    "word": "/deck/audio/asunto-matter.word.mp3",
+    "sentence": "/deck/audio/asunto-matter.sentence.mp3"
+  }
+}

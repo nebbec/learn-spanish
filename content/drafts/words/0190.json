@@ -1,0 +1,13 @@
+{
+  "rank": 190,
+  "word": "conseguir",
+  "cards": [
+    "conseguir-get",
+    "conseguir-manage-to"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:20:03.491Z"
+}

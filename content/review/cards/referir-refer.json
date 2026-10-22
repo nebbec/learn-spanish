@@ -1,0 +1,33 @@
+{
+  "id": "referir-refer",
+  "rank": 502,
+  "word": "referir",
+  "draft": "c0ae53b501cbcd87",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "Plain referir means to refer someone somewhere or to recount something, while the everyday 'to refer to, to mean' that this card and its example teach is the reflexive referirse (a).",
+      "fix": "es: referirse"
+    },
+    {
+      "reason": "oneAnswer",
+      "problem": "Someone who knows Spanish well would answer 'referirse (a)' for 'to refer (to)', not plain referir.",
+      "fix": "es: referirse"
+    },
+    {
+      "reason": "grammar",
+      "problem": "The strip gives non-reflexive forms (refiero, refieres, refiere), so a learner would say the wrong 'refiero a eso' instead of 'me refiero a eso'.",
+      "fix": "grammar.present: yo me refiero, tu te refieres, el se refiere (irregular true)"
+    }
+  ],
+  "back": {
+    "es": "referir on its own means to refer someone (to a doctor, say) or to tell or recount something; 'to refer to' or 'to mean' is the reflexive referirse a.",
+    "example": "What are you referring to? / What do you mean?"
+  },
+  "note": "The example and its translation are good and only need es and grammar switched to referirse; the irregular flag is right (e to ie in the present, refirió in the preterite).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:35.525Z"
+}

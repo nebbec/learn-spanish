@@ -1,0 +1,17 @@
+{
+  "id": "ni-not-even",
+  "rank": 135,
+  "word": "ni",
+  "draft": "569229f1d3ec4017",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "ni = not even (in a negative sentence); also nor",
+    "example": "I don't have even one peso / I don't have a single peso."
+  },
+  "note": "The hint correctly rules out \"ni siquiera\", which makes this \"not even\" sense distinct from the \"nor\" card, but the example sentence just repeats the prompt word for word, so a different sentence, such as \"Ni lo pienses.\" (Don't even think about it.), would give learners more to learn from.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:23:54.709Z"
+}

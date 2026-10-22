@@ -1,0 +1,14 @@
+{
+  "id": "publico-audience",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e287eb1be4d9ff62",
+  "group": "#664 público",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:51:50.160Z"
+}

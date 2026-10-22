@@ -1,0 +1,14 @@
+{
+  "id": "tirar-throw",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bc274973a090bf40",
+  "group": "#486 tirar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:46:21.172Z"
+}

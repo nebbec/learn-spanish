@@ -1,0 +1,21 @@
+{
+  "id": "tal-such",
+  "rank": 151,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "tal",
+  "en": "I never said [such] a thing",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Nunca dije tal cosa.",
+    "en": "I never said such a thing."
+  },
+  "regional": null,
+  "trick": "TAL sounds like tall: such a tall tale nobody believed it.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/tal-such.word.mp3",
+    "sentence": "/deck/audio/tal-such.sentence.mp3"
+  }
+}

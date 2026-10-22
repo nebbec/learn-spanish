@@ -1,0 +1,28 @@
+{
+  "id": "tocar-touch",
+  "rank": 283,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tocar",
+  "en": "to touch",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "toco",
+      "tu": "tocas",
+      "el": "toca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "No toques eso, está caliente.",
+    "en": "Don't touch that, it's hot."
+  },
+  "regional": null,
+  "trick": "TOCAR sounds like \"toe car\": you touch your toe to the car to feel if it's hot.",
+  "image": "/deck/img/tocar-touch.webp",
+  "audio": {
+    "word": "/deck/audio/tocar-touch.word.mp3",
+    "sentence": "/deck/audio/tocar-touch.sentence.mp3"
+  }
+}

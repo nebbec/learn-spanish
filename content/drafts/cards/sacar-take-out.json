@@ -1,0 +1,28 @@
+{
+  "id": "sacar-take-out",
+  "rank": 235,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sacar",
+  "en": "to take out",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "saco",
+      "tu": "sacas",
+      "el": "saca"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Saca la basura, por favor.",
+    "en": "Take out the trash, please."
+  },
+  "regional": null,
+  "trick": "SACAR sounds like sack-car: you take the sack out of the car.",
+  "image": "/deck/img/sacar-take-out.webp",
+  "audio": {
+    "word": "/deck/audio/sacar-take-out.word.mp3",
+    "sentence": "/deck/audio/sacar-take-out.sentence.mp3"
+  }
+}

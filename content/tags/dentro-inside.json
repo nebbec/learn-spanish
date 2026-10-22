@@ -1,0 +1,14 @@
+{
+  "id": "dentro-inside",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3c5d89edf7966e42",
+  "group": "#295 dentro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:26.444Z"
+}

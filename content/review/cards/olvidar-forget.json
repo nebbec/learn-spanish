@@ -1,0 +1,17 @@
+{
+  "id": "olvidar-forget",
+  "rank": 220,
+  "word": "olvidar",
+  "draft": "0c5e124dd5917e66",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to forget",
+    "example": "I always forget (leave) my keys at home."
+  },
+  "note": "In everyday speech \"se me olvidan las llaves\" is very common too, so the editor might mention olvidarse or \"se me olvidó\" somewhere, but the example as written is correct and natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:31:14.637Z"
+}

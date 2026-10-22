@@ -1,0 +1,17 @@
+{
+  "id": "prueba-proof",
+  "rank": 434,
+  "word": "prueba",
+  "draft": "34380c3f385ca7a4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "proof, evidence (also: test, trial)",
+    "example": "You don't have any proof of that."
+  },
+  "note": "The hint \"evidence\" rules out the math sense (demostración) and the \"test\" card, but some learners may answer \"la evidencia\", which is common in Latin America, so the editor could write the hint as \"evidence, as in no proof of that\" to point more firmly to prueba.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:47:08.029Z"
+}

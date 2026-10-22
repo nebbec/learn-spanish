@@ -1,0 +1,35 @@
+# lamentar-regret · rank 552 · lamentar
+#
+# Why it was flagged:
+#   - One right answer: The hint 'to be sorry about something' also points to sentir (as in 'lo siento', 'siento mucho tu pérdida'), which is the most common way to say you're sorry, so the hint leaves two right answers. Suggested fix: hint: to lament or be sorry about something (not to repent, not sentir)
+# Reviewer's note (not a reason to flag): Lamentar sounds a bit more formal than sentir, and condolences like this example are where it's used most in everyday speech.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to the hint but dropped 'to lament', which gives away the answer; added 'as in condolences'.
+decision: approve
+
+id:             lamentar-regret
+kind:           content
+pos:            verb
+target:         lamentar
+en:             to regret
+hint:           be sorry about something, as in condolences; not sentir, not to repent
+yo:             lamento
+tu:             lamentas
+el:             lamenta
+irregular:      no
+example.target: Lamento mucho tu pérdida.
+example.en:     I'm very sorry for your loss.
+regional.where:
+regional.text:
+trick:          LAMENTAR sounds like lament: you lament what you regret.
+
+# The draft this file was made from. Do not change it.
+draft: 10e2b12c407385be

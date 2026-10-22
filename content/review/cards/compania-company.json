@@ -1,0 +1,17 @@
+{
+  "id": "compania-company",
+  "rank": 621,
+  "word": "compañía",
+  "draft": "33d4b3820a3ccdbc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "company (a business firm; also companionship)",
+    "example": "My dad works at a big company."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:25.282Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pierna-leg",
+  "rank": 709,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la pierna",
+  "en": "leg",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Me duele la pierna derecha.",
+    "en": "My right leg hurts."
+  },
+  "regional": null,
+  "trick": "PIERNA sounds like \"pier\": you stand on a pier on your two legs.",
+  "image": "/deck/img/pierna-leg.webp",
+  "audio": {
+    "word": "/deck/audio/pierna-leg.word.mp3",
+    "sentence": "/deck/audio/pierna-leg.sentence.mp3"
+  }
+}

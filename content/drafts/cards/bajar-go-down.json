@@ -1,0 +1,28 @@
+{
+  "id": "bajar-go-down",
+  "rank": 386,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bajar",
+  "en": "to go down",
+  "hint": "also get down, get off",
+  "grammar": {
+    "present": {
+      "yo": "bajo",
+      "tu": "bajas",
+      "el": "baja"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Bájate del carro ahora mismo.",
+    "en": "Get out of the car right now."
+  },
+  "regional": null,
+  "trick": "BAJAR sounds like \"bye, ha!\": you wave bye and laugh as you go down the stairs.",
+  "image": "/deck/img/bajar-go-down.webp",
+  "audio": {
+    "word": "/deck/audio/bajar-go-down.word.mp3",
+    "sentence": "/deck/audio/bajar-go-down.sentence.mp3"
+  }
+}

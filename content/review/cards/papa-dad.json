@@ -1,0 +1,17 @@
+{
+  "id": "papa-dad",
+  "rank": 189,
+  "word": "papá",
+  "draft": "c5a267404c7a1e8b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dad, daddy (el papá: the dad)",
+    "example": "My dad arrives late today."
+  },
+  "note": "The hint rules out padre as it should; the example's English adds \"home\", which llega does not say, so \"My dad is arriving late today\" would be a more literal translation, but the current one is still acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:29:05.857Z"
+}

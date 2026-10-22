@@ -1,0 +1,21 @@
+{
+  "id": "seis-six",
+  "rank": 474,
+  "kind": "content",
+  "pos": "other",
+  "target": "seis",
+  "en": "six",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Llego a las seis de la tarde.",
+    "en": "I'm arriving at six in the evening."
+  },
+  "regional": null,
+  "trick": "SEIS sounds like \"says\": Simon says hold up six fingers.",
+  "image": "/deck/img/seis-six.webp",
+  "audio": {
+    "word": "/deck/audio/seis-six.word.mp3",
+    "sentence": "/deck/audio/seis-six.sentence.mp3"
+  }
+}

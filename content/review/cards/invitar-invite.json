@@ -1,0 +1,17 @@
+{
+  "id": "invitar-invite",
+  "rank": 482,
+  "word": "invitar",
+  "draft": "823de87fffb1ffd3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to invite (also: to treat, to pay for someone)",
+    "example": "He/She invited me to his/her birthday party."
+  },
+  "note": "The example's subject could be he or she, and \"She\" is a valid choice; the card's meaning is kept apart from the sibling \"to treat\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:50:21.936Z"
+}

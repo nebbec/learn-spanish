@@ -1,0 +1,21 @@
+{
+  "id": "aunque-although",
+  "rank": 361,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "aunque",
+  "en": "I'll go [although] it's raining",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Voy a ir aunque esté cansado.",
+    "en": "I'm going to go even though I'm tired."
+  },
+  "regional": null,
+  "trick": "AUNQUE sounds like \"own key\": although you own a key, you still knock on the door.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/aunque-although.word.mp3",
+    "sentence": "/deck/audio/aunque-although.sentence.mp3"
+  }
+}

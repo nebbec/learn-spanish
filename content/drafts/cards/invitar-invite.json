@@ -1,0 +1,28 @@
+{
+  "id": "invitar-invite",
+  "rank": 482,
+  "kind": "content",
+  "pos": "verb",
+  "target": "invitar",
+  "en": "to invite",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "invito",
+      "tu": "invitas",
+      "el": "invita"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Me invitó a su fiesta de cumpleaños.",
+    "en": "She invited me to her birthday party."
+  },
+  "regional": null,
+  "trick": "INVITAR sounds like invite-ar: just add -ar to invite and you're asking friends over.",
+  "image": "/deck/img/invitar-invite.webp",
+  "audio": {
+    "word": "/deck/audio/invitar-invite.word.mp3",
+    "sentence": "/deck/audio/invitar-invite.sentence.mp3"
+  }
+}

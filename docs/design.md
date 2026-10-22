@@ -240,7 +240,7 @@ Decided in L1 (checks in `scripts/content/units.ts`, test in `scripts/content/un
 Decided in L5 (logic in `scripts/content/tagging.ts`, run as `npm run tag` from `scripts/content/tag.mts`):
 
 - **One call per drafted group, through the draft pass's caller and runner** (`runDraftTasks`): a word's cards, a verb's form cards, or a unit's phrase cards (the groups of `allDrafted`, so 18 phrase calls, not 52). Same CLI default, `--via api` switch, model, effort, concurrency, retries and stop rule. `--from` and `--to` keep the groups whose rank is in range (a phrase group's rank is its highest phrase's); with neither, every group. `--check` only checks the stored tags. Each call's usage goes to `content/tags/usage.jsonl`; a refused answer to `content/tags/.failed/` (ignored by git).
-- **What Claude is given**: the unit plan in order (id, title, goal, tip, cap, wants, payoff lines), the tip list (id, title, `about`), then every drafted card as `id | prompt (hint) | answer` (the answer added to the ticket's ids and prompts, so a payoff's `estoy` can be matched to its form card), all identical in every call so the prefix caches; last, the group's cards in full without media paths, and for a phrase card whether it is a survival chunk or a payoff and its `words` from the draft pass. The system prompt says how to choose each field: a unit only for a card whose word and meaning one of the unit's wants names (the earliest such unit), a form card requires its pronoun card, a payoff phrase its words' cards (form cards for core-verb forms), a survival chunk nothing, word cards rarely anything, and a tip on the cards that first need its idea, at least one in the unit that introduces it.
+- **What Claude is given**: the unit plan in order (id, title, goal, tip, cap, wants, payoff lines), the tip list (id, title, `about`), then every drafted card as `id | prompt (hint) | answer` (the answer added to the ticket's ids and prompts, so a payoff's `estoy` can be matched to its form card), all identical in every call so the prefix caches; last, the group's cards in full without media paths, and for a phrase card whether it is a survival chunk or a payoff and its `words` from the draft pass. (Changed in S5: the plan, the tips and every drafted card now follow the instructions in the system prompt, `tagSystem(ctx)`, and the message holds only the group's cards. In the message the shared part was never read from the cache: at 1,076 drafted cards every call wrote about 29k tokens afresh, $0.23 notional a call; in the system prompt it is read from the cache after the first calls, about $0.015 a call.) The system prompt says how to choose each field: a unit only for a card whose word and meaning one of the unit's wants names (the earliest such unit), a form card requires its pronoun card, a payoff phrase its words' cards (form cards for core-verb forms), a survival chunk nothing, word cards rarely anything, and a tip on the cards that first need its idea, at least one in the unit that introduces it.
 - **A tag is `{ id, unit, want, requires, tip }`**: `want` (new, not in the ticket) is the unit's want the card fills, copied exactly, or null. It is what L6 needs to list the wants no drafted card matches. A phrase card's `unit` and `want` are not Claude's: the script takes the unit from its phrase file and the want from its plan line (the chunk's `phrase: …` want, null for a payoff).
 - **Files**: `content/tags/<id>.json`, one per card, holding the tag, `draft` (the card's `cardHash`, as a review does), the group's label, model, effort, path and time. Committed, like the reviews. **A group is tagged again** when any of its cards has no tag, a tag for an earlier draft, or a tag the checks refuse; `--redo` tags it again anyway. A run deletes the tags of cards no longer drafted and prints their ids.
 - **Script checks**, as the guard on Claude's answer (a refused answer is asked again) and again on every stored tag (`checkTags`, printed by id after every run): the answer names each card of the group once and no other; every `requires` id is a drafted card, not the card itself, and not listed twice; `unit` is in `units.json`, `tip` in `tips.json`; a `want` needs a unit and must be one of its wants. Cycles in `requires`, and a unit card requiring a later card, are left to L6's build.
@@ -564,7 +564,7 @@ Decided in F1 (style reference, prompt template and cast in `content/art`, rules
 
 - **Style: soft 3D clay toy.** Matte plasticine with soft studio light and pastel colours. Chosen over flat vector and kawaii sticker on a contact sheet of the same six words (`content/art/style-test`).
 - **Lead mascot: the concha**, a pastel-pink Mexican sweet bun with the white sugar-shell crust worn like a hairdo, a diva's lashes and red mouth, and tiny lilac cat-eye sunglasses. Chosen in a second round over the turtle and five other clay candidates (a hummingbird, an alpaca, a coquí frog, a capybara and a made-up teardrop) as the most unique and memorable. She is the hero mascot, and the lead of the app's Instagram character in the `ai-influencer` repo (`docs/learn-spanish-character.md`), so the cards and the account share one cast.
-- **A cast of five on the cards**: the concha, an alpaca, the turtle, a chick and a capybara. Each has a model sheet in `content/art/cast/` (four views, four expressions), the image reference for every render of that character. Their personalities and prompt descriptions are in `content/art/style.md`.
+- **A cast of five on the cards**: the concha, an alpaca, the turtle, a chick and a capybara. Each has a model sheet in `content/art/cast/` (four views, four expressions), the image reference for every render of that character. Their personalities and prompt descriptions are in `content/art/style.md`. Replaced in F4 by a cast of seven Latin American foods (see "Decided in F4" below).
 - **Each content card shows one cast member, chosen by fit.** The concha takes about half the content cards and any card where no one else fits better; the others take the words that suit their personality (the turtle esperar and casa, the capybara comer and dormir). The choice belongs to the art pipeline, not the deck: the card's `image` already points at its still, so the card data, the validator and the app do not change. The pose shows the word, never the rating: a "sad" still is a drooping character that still jumps on green, because the four moves animate the whole still in CSS and never the character's limbs.
 - **One character per render.** A sheet of six stills holds one character, so a batch's cards are grouped by character before they are cut into sheets.
 - **Stills are transparent.** Cards are white and the menu is cream, so a still carries no background box. Render on plain cream, then remove the background.
@@ -602,6 +602,15 @@ Decided in U2 (Courtney's call, 2026-10-04: the disc read as an orb around her, 
 - **How the transparency is made**: Higgsfield's Video Background Remover (`video_background_remover`, 1 credit a take) returns the take on black, not with an alpha channel. `npm run mascot` mattes each frame from the two copies: alpha = 1 − (cream copy − black copy) / cream, colour = black copy / alpha, so dark parts of her (the eyes) stay solid because they are the same in both; a pixel black in the cut-out but light on cream is background, which clears the cream's darker corners. The cut-out's job and url sit beside each take in use in `takes.json` (`cutout`), and the script refuses a take in use without one.
 - **Cropped to her**: each loop is cropped to a square around everything she covers in any frame, with a 4% margin, so she fills her slot (idle 424 px of the 640 px take, celebrate 526 px, since she jumps and twirls). Slots show the clip with `object-contain`.
 - **No disc**: `.mascot-disc` is gone from `app/globals.css` and from every slot (menu, batch end, caught-up marker).
+
+Decided in F4 (Courtney's calls, 2026-10-09 and 10; files in `content/art/cast/`, `content/art/de/` and `content/art/style-test/`, prompts in `style-test/prompts.md`):
+
+- **A food cast.** A clay food lead beside clay animals read as two worlds, so the alpaca, turtle, chick and capybara give way to six Latin American foods, each with a model sheet and front view in `content/art/cast/`: the **churro** (the glamorous rival, the alpaca's part), the **avocado** (warm and homely, the turtle's), the **chile** (small and excitable, the chick's), the **tamal** (unbothered and sleepy, the capybara's), the **empanada** (proud and helpful) and the **alfajor** (sweet and shy). The concha stays the lead and the hero mascot, so the loops, the still and the icons do not change. A cast of seven: the concha about half, the rest by fit, as before. Personalities, words they suit and prompt descriptions are in `content/art/style.md`.
+- **Mixed genders.** Every candidate came back a girl. The empanada and the chile are boys (small chunky eyebrows, no lashes, no red mouth); the concha, churro, avocado, tamal and alfajor are girls (two eyelash flicks, a tiny red mouth).
+- **The swap happens in F5**, not here: F2's 36 published stills, `content/art/cast.tsv` and `CAST` in `scripts/content/art.ts` still use the animals, so their sheets stay in `content/art/cast/` and their descriptions in a "Retiring in F5" section of `style.md`, outside the cast section the cast call reads.
+- **Scenes are props, not places.** A card's still acts out the word with the character and at most two props; F2's rule against scenery stands, because the background removal cuts a drawn setting away half done.
+- **A German cast, as a design pack only**: the Brezel (lead, a Bavarian girl in a felt Alpine hat), the Maß (boy), the bratwurst (boy), the potato (boy), the gummy bear (girl, the one shiny character, translucent gelatine) and the Lebkuchenherz (girl), in `content/art/de/` with a README of personalities, descriptions and known flaws. No German app, deck or pipeline exists, so nothing reads it yet.
+- **Cost**: 14 credits (949.44 to 935.44), 28 Seedream 5.0 Flash renders at 0.5.
 
 ## Audio
 
@@ -644,6 +653,11 @@ Decided in L8 (form cards, phrase cards and tips; same files as G2):
 - **`npm run audio`** makes the clips of every tip in the deck file after the cards' and points each example at its clip once all of the tip's clips exist. A trial run with `--limit` leaves tips out. Tip clips are counted apart from the card clips in the size line, so the 1,000-card estimate stays per card.
 - **The listening page** lists tip examples with the tag "Tip example" and the tip's id, and a phrase card's word clip with the tag "Phrase". A phrase card's word clip is not a single word, so it is neither counted in the median word clip nor listed as long (`clipsToHear`); it is still listed when the transcriber flags it or it is said again.
 - **The fixture** (`lib/deck/fixture.json`) now has real clips for its two form cards, two phrase cards and the tip's two examples, made with `npm run audio -- --deck lib/deck/fixture.json --check --prune` (10 API calls, 18 KB for the two tip clips), and the ten `.wav` tones are deleted. The check flagged the four new clips with a `v` or a `b` (voy heard as "Boi", vas as "Bas", and the two tip examples likewise), which sound the same in Spanish; nobody has listened to them. The committed `content/flagged-clips.html` is still G3's page for `content/deck.json`: a `--check` run on another deck rewrites it, so it was restored after the fixture's run.
+
+Measured in S5 (the 1,000-card deck, `content/deck.json` version 9):
+
+- **2,000 card clips, 21,819.9 KB (21.3 MB)**: on average 6.2 KB for a word and 15.6 KB for a sentence, a little above G3's rate (18.1 MB) and under the 30 to 40 MB estimate. The 14 tips' 42 example clips add 536.5 KB. `public/deck/audio` is 26 MB on disk with the fixture's clips.
+- **The transcription check flagged 124 of the 2,042 clips** (mostly lone short words, as in G3), and 10 word clips are over twice the median length: 134 to hear on `content/flagged-clips.html`. 145 clips stay under -18 LUFS because of the peak ceiling.
 
 ## Offline and sync
 
@@ -959,6 +973,8 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | F1 | Art style and mascot design | none | Style choice | Done |
 | F2 | Art script and first stills | F1, L9 | Contact-sheet review | Done |
 | F3 | Hero mascot animation | F1, C6, C7 | | Done |
+| F4 | Food cast | F1 | Pick the cast and genders | Done |
+| F5 | Recast the first 100 | F4 | Review the casting and the contact sheets | Todo |
 | G1 | Voice test | none | Listening test, API keys | Done (OpenAI chosen without the listening test) |
 | G2 | Audio script | G1 | | Done |
 | G3 | First 100 cards' clips | G2, E4 | Listen to flagged clips | Done except: 33 flagged word clips not yet heard |
@@ -979,7 +995,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | L14 | Audio by itself, mute, say it out loud | none | | Done |
 | L15 | Reset on the device | none | | Done |
 | L16 | Reset sync | L15 | | Done |
-| L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done except: deploy, Start over and study unit 1 on the phone |
+| L17 | Publish the learning path deck | L9, L11, L12, L13, L14, L16 | Study unit 1 from zero | Done |
 | H1 | First-slice acceptance | all above | Phone testing | Done |
 | M1 | Archive finished tickets' notes | none | | Done |
 | U1 | Home page mockups | none | Pick a theme | Done |
@@ -996,6 +1012,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | S2 | Content batch of 100 (run nine times) | S1 | Reviews | Todo |
 | S3 | Report triage | H1 | | Todo |
 | S4 | Frequency-phase phrase list | L17 | Cut and approve the list | Todo |
+| S5 | Text and audio to 1,000 cards | L17 | Bulk-approve flagged cards | Done except: 134 listed clips not yet heard |
 
 Once A1 and A2 are done, B1, B2, C1, C2, D1, D3 and E1 can run in parallel. F1 and G1 can start on day one. Track L comes before F2 and H1, because it changes which cards are the first 100; F1 can run beside it. L1, L2, L14 and L15 can start at once.
 
@@ -1157,6 +1174,15 @@ Scripts only. Depends on A2 and nothing else in the app.
 - Note (F3): left for Courtney: open `content/art/mascot/takes.html` from disk, and either approve the two in use or change `use` in `content/art/mascot/takes.json` and run `npm run mascot`. New takes: generate with the start frame recipe in takes.json, add them to `takes` and rerun. The menu title now wraps to two lines next to the 96 px mascot on a 390 px phone.
 - Note (F3): Courtney chose `idle-t2` for the menu and kept `celebrate-t3` on 2026-10-04 (`content/art/mascot/takes.json`, then `npm run mascot`: idle.mp4 77.1 KB). The menu title no longer wraps beside the 96 px mascot: Tips and Settings moved to a line under the title, which stays on one line at 390 px (measured in Chromium and WebKit: title right edge 334 px, no sideways scroll).
 
+**F4 Food cast**
+- Do: design food characters to replace the animal cast beside the concha, and a German cast led by a Brezel for a later German version; Courtney picks the characters and their genders. Make a model sheet and front view for each, write the new cast into `content/art/style.md`, and put the German cast in `content/art/de/`.
+- Done when: the six new model sheets are in `content/art/cast/`, `style.md`'s cast section lists the seven with personalities and descriptions, the German pack is in `content/art/de/`, and the decisions are under [Art](#art).
+- Note (F4): rounds, prompts and rejected takes in `content/art/style-test/prompts.md` (from "Brezel candidates"); the decisions in "Decided in F4" under [Art](#art). The chile and the empanada were each rendered twice (no eyebrows, then no arms in the turnaround). No code changed: `CAST`, `CAST_SYSTEM` ("a fixed cast of five") and the art test still name the animals, which is F5's to change. The `ai-influencer` repo's character doc (`docs/learn-spanish-character.md`) still describes the animal cast; tell that project when F5 lands.
+
+**F5 Recast the first 100**
+- Do: swap the animal cast for the food cast in the art pipeline, then cast, render and publish the first 100's 36 stills again. In `scripts/content/art.ts` set `CAST` to the seven of `style.md` and update `CAST_SYSTEM` and the tests; move the animals' sheets to `content/art/cast/retired/` and delete the "Retiring in F5" section of `style.md`. Move F2's `cast.tsv`, `review.tsv` and `sheets.json` aside (for example `content/art/f2/`) so the cast step starts empty, run `npm run art -- cast` and stop for Courtney to read and edit `cast.tsv`. Then render, lay out contact sheets, stop for her verdicts, render the redos and publish over the old stills. Expect about 7 sheets, 10 to 12 credits with redos.
+- Done when: every distinct `image` path of the first 100 has an approved still of a food-cast character in `public/deck/img/`, the concha has about half, nothing in `scripts/` or `content/art/style.md` names an animal, and `npm test`, `npm run lint` and `npm run build` pass.
+
 ### Track G: audio
 
 **G1 Voice test**
@@ -1268,6 +1294,7 @@ The rules are under [Learning path](#learning-path). Content tickets follow the 
 - Do: copy `content/deck.json` to `public/deck/deck.json`; Courtney presses Start over and studies unit 1 from zero on the phone; fix small problems and write a ticket for anything larger.
 - Done when: unit 1 is studied from zero on the phone with intros, its tip, its form cards and its payoff screen, offline.
 - Note (L17): `content/deck.json` (version 8) copied to `public/deck/deck.json` on 2026-10-04; `npm test` (693), `npm run lint` and `npm run build` pass, and the build serves `/tips`. The migrations it needs are on the server (L10, L16). Left for Courtney: deploy, press Start over in settings, and study unit 1 from zero on the phone, offline too. Anything that feels wrong in use becomes a tweak to `content/units.json`, a tip or a card, or a new ticket.
+- Note (L17): done 2026-10-09. Courtney studied unit 1 from zero on the phone and is happy with the direction and the audio; no changes asked for. She asked to grow the deck now and add pictures later (S5).
 
 ### Track M: maintenance
 
@@ -1338,11 +1365,20 @@ Added 2026-10-04 at Courtney's request: the app looks clunky, starting with the 
 
 ### Scale-out
 
-After H1 is signed off.
+After H1 is signed off. (Changed 2026-10-09 at Courtney's request: S5 grows the deck's text and audio to 1,000 cards before H1, S1 and the art; S2 then makes the art for the cards S5 added, a batch at a time.)
 
 **S1 Media hosting at 1,000 cards**
 - Do: using the sizes measured in F2 and G2, decide between the repo and Supabase Storage, and implement the choice.
 - Done when: the decision is recorded under [Open](#open) and media loads from its final home.
+
+**S5 Text and audio to 1,000 cards**
+- Do: draft the word-list ranks the deck still needs, review them, tag every new group, redraft the examples the known-words check flags and review them again; stage the reviewer's fixes into each flagged card's decision file for Courtney to approve in one step (as in L9); build at 1,000 cards, make the clips, and publish. No art: a card whose still is missing shows no character (see the note under H1), and S2 makes the stills later.
+- Done when: `content/deck.json` holds 1,000 cards passing the validator, with no card waiting and every clip made, and `public/deck/deck.json` is a copy of it.
+- Note (S5, handoff 2026-10-09): the session stopped at the Max plan's usage limit. Done: ranks 91 to 800 drafted (1,076 drafted cards; `abuelo` fails the id rule every time, like `esposo` did, and is left out); 57 starter-path examples redrafted (`tu-you-informal` still fails, accepted before); 899 of 993 word cards reviewed (169 flagged: 41 approved, 128 waiting); the reviewer's fixes staged by Claude into 61 of the waiting decision files, decision left pending, each with a "# Staged by Claude" line (two carry "# Claude suggests: reject": `disparar-shoot`, `supuesto-supposed`). Left, in order: `npm run review -- --from 1 --to 1200` (95 cards not run); `npm run tag` (490 of 1,076 tagged, 586 not; the run's prefix of every drafted card was written to the cache afresh on most calls, $33 notional for 144 calls, so it is the costly step and worth a look); `npm run deck -- --size 1000` and `npm run draft -- --examples --ids …` for the examples it lists, then review them; stage the other waiting decision files; Courtney approves; `npm run deck -- --size 1000`; `node --env-file=<a worktree with OPENAI_API_KEY>/.env.local scripts/content/make-audio.mjs --deck content/deck.json --check --prune`; copy to `public/deck/deck.json`; tests, lint, build.
+
+- Note (S5): done 2026-10-22. Courtney approved every waiting flagged card in one step (145 files, the two marked "Claude suggests: reject" included). `npm run deck` built `content/deck.json` at 1,000 cards (version 9: 890 passed review, 186 approved, 76 drafted cards past the size left for later; `tu-you-informal`'s example still fails the known-words check, accepted before; `perdon-sorry` and `contigo-with-you` dropped from their unit by its cap). `DECK_SIZE` in `build-deck.mts` is now 1000. The first 100 cards are all still in it, but from card 56 three new cards come earlier (`esposo-husband`, `esposo-wife`, `cuanto-how-much-384`). Clips: 1,646 made (1,624 API calls), none failed; 2,000 card clips and 42 tip clips, every path the deck names exists. Copied to `public/deck/deck.json`; 752 tests, lint and build pass. The art test now counts the real deck's 786 stills (36 in its first 100).
+- Note (S5): merged into main on 2026-10-22, after DE3's deck format 3. The S5 content was still format 2, so DE3's one-off migration was written again and run on it (not kept): it renamed the fields of the 1,076 drafted cards, moved each fingerprint in the 1,076 reviews, the 1,076 tags and the 186 decision files made from current drafts (17 of earlier drafts got the new line names only) and moved both decks to format 3 in place. `npm run deck` then reported version 9 unchanged and wrote the same bytes, `npm run tag -- --check` found 1,076 of 1,076 current, and the clips' paths did not change. In `tagging.ts` main's per-language system prompt (`TAG_SYSTEMS`) now opens S5's cached `tagSystem`.
+- Note (S5): left for Courtney: open `content/flagged-clips.html` and hear the 134 listed clips (124 flagged by the transcriber, 10 long word clips), then `npm run audio -- --deck content/deck.json --redo …` for any said again. 750 stills are not made yet (S2).
 
 **S2 Content batch of 100** (run nine times, a fresh session each)
 - Do: for the next 100 cards: draft, review, resolve flagged cards, generate art and audio, review contact sheets, and publish a deck revision.

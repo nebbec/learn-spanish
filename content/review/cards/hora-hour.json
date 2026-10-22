@@ -1,0 +1,17 @@
+{
+  "id": "hora-hour",
+  "rank": 156,
+  "word": "hora",
+  "draft": "80808a1cfc2a1fb3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "hour; also the time (of day)",
+    "example": "I'll wait for you for one hour, no more."
+  },
+  "note": "The English example would read more naturally as \"I'll wait an hour for you, no more,\" but the current translation is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:25:29.336Z"
+}

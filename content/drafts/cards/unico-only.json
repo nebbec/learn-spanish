@@ -1,0 +1,23 @@
+{
+  "id": "unico-only",
+  "rank": 222,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "único",
+  "en": "only",
+  "hint": "adjective, as in the only one",
+  "grammar": {
+    "feminine": "única"
+  },
+  "example": {
+    "target": "Eres la única persona que me entiende.",
+    "en": "You're the only person who understands me."
+  },
+  "regional": null,
+  "trick": "ÚNICO sounds like \"unicorn\": the only unicorn in the world is the only one you'll ever see.",
+  "image": "/deck/img/unico-only.webp",
+  "audio": {
+    "word": "/deck/audio/unico-only.word.mp3",
+    "sentence": "/deck/audio/unico-only.sentence.mp3"
+  }
+}

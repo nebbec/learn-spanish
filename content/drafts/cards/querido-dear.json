@@ -1,0 +1,23 @@
+{
+  "id": "querido-dear",
+  "rank": 397,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "querido",
+  "en": "dear",
+  "hint": "loved, not expensive",
+  "grammar": {
+    "feminine": "querida"
+  },
+  "example": {
+    "target": "Hola, querida, ¿cómo estás hoy?",
+    "en": "Hi, dear, how are you today?"
+  },
+  "regional": null,
+  "trick": "QUERIDO sounds like 'carried-oh': you carry your dear ones close to your heart.",
+  "image": "/deck/img/querido-dear.webp",
+  "audio": {
+    "word": "/deck/audio/querido-dear.word.mp3",
+    "sentence": "/deck/audio/querido-dear.sentence.mp3"
+  }
+}

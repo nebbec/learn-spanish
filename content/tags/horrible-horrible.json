@@ -1,0 +1,14 @@
+{
+  "id": "horrible-horrible",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "830e6b5dd9bcca3b",
+  "group": "#682 horrible",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:52:24.968Z"
+}

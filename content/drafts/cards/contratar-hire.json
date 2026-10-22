@@ -1,0 +1,28 @@
+{
+  "id": "contratar-hire",
+  "rank": 649,
+  "kind": "content",
+  "pos": "verb",
+  "target": "contratar",
+  "en": "to hire",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "contrato",
+      "tu": "contratas",
+      "el": "contrata"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Contrataron a mi hermano en el hospital.",
+    "en": "They hired my brother at the hospital."
+  },
+  "regional": null,
+  "trick": "CONTRATAR sounds like contract: to hire someone, you have them sign a contract.",
+  "image": "/deck/img/contratar-hire.webp",
+  "audio": {
+    "word": "/deck/audio/contratar-hire.word.mp3",
+    "sentence": "/deck/audio/contratar-hire.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "esconder-hide",
+  "rank": 525,
+  "word": "esconder",
+  "draft": "e0f51e3ec85407aa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to hide (to put something out of sight); esconderse = to hide oneself",
+    "example": "Where did you hide the gift?"
+  },
+  "note": "Ocultar also means \"to hide\", but it is more formal, and esconder is the everyday word, so this card can do without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:53:52.688Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tal-such",
+  "rank": 151,
+  "word": "tal",
+  "draft": "eb10e39d9fb77b5e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "such (a), that kind of (determiner)",
+    "example": "I never said such a thing."
+  },
+  "note": "Semejante (Nunca dije semejante cosa) is a rarer, more formal option for the same slot, so tal is clearly the expected answer, and this card does not overlap with the ¿Qué tal? card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:24:47.586Z"
+}

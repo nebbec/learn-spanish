@@ -1,0 +1,17 @@
+{
+  "id": "partir-depart",
+  "rank": 542,
+  "word": "partir",
+  "draft": "6f74f71b4055fcaa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to leave, to depart (set off); also to split",
+    "example": "The train leaves at eight."
+  },
+  "note": "Partir in this sense is a bit formal (timetables, trips), and salir is the everyday word, which the hint rightly rules out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:52.233Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cuidado-care",
+  "rank": 336,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el cuidado",
+  "en": "care",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¡Ten cuidado con el perro!",
+    "en": "Be careful with the dog!"
+  },
+  "regional": null,
+  "trick": "CUIDADO sounds like \"quiet, Dad, oh!\": take care, tiptoe carefully so you don't wake the baby.",
+  "image": "/deck/img/cuidado-care.webp",
+  "audio": {
+    "word": "/deck/audio/cuidado-care.word.mp3",
+    "sentence": "/deck/audio/cuidado-care.sentence.mp3"
+  }
+}

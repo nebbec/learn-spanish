@@ -1,0 +1,23 @@
+{
+  "id": "real-real",
+  "rank": 480,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "real",
+  "en": "real",
+  "hint": "not fake, same spelling as English",
+  "grammar": {
+    "feminine": "real"
+  },
+  "example": {
+    "target": "¿Esto es real o es un sueño?",
+    "en": "Is this real or is it a dream?"
+  },
+  "regional": null,
+  "trick": "REAL is spelled just like English real, said ray-AHL: a real thing hits you like a ray of light.",
+  "image": "/deck/img/real-real.webp",
+  "audio": {
+    "word": "/deck/audio/real-real.word.mp3",
+    "sentence": "/deck/audio/real-real.sentence.mp3"
+  }
+}

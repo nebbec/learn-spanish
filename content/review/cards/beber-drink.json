@@ -2,16 +2,16 @@
   "id": "beber-drink",
   "rank": 293,
   "word": "beber",
-  "draft": "90a83694746ac1c8",
+  "draft": "f1ef09d39bd5e0e7",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "to drink",
-    "example": "I drink a lot of water when it's hot."
+    "example": "My father drinks a lot of coffee."
   },
-  "note": "The hint correctly rules out tomar, but in everyday Latin American speech tomar is more common than beber, so a hint like \"the standard verb, not tomar\" might be more accurate than \"the basic verb\".",
+  "note": "In everyday Latin American speech, tomar is often more common than beber for drinking, especially with coffee or alcohol, so the editor might mention that somewhere; the hint correctly rules tomar out.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:06:44.906Z"
+  "reviewedAt": "2026-10-09T14:27:04.199Z"
 }

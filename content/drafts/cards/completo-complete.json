@@ -1,0 +1,23 @@
+{
+  "id": "completo-complete",
+  "rank": 745,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "completo",
+  "en": "complete",
+  "hint": null,
+  "grammar": {
+    "feminine": "completa"
+  },
+  "example": {
+    "target": "Leí el libro completo en un día.",
+    "en": "I read the whole book in one day."
+  },
+  "regional": null,
+  "trick": "COMPLETO sounds like complete with an O on the end, as if the job is so done it gets a final circle.",
+  "image": "/deck/img/completo-complete.webp",
+  "audio": {
+    "word": "/deck/audio/completo-complete.word.mp3",
+    "sentence": "/deck/audio/completo-complete.sentence.mp3"
+  }
+}

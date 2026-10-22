@@ -1,0 +1,24 @@
+{
+  "id": "favor-favor",
+  "rank": 105,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el favor",
+  "en": "favor",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¿Me haces un favor?",
+    "en": "Can you do me a favor?"
+  },
+  "regional": null,
+  "trick": "FAVOR is spelled just like the English word, and por favor, literally for a favor, is how Spanish says please.",
+  "image": "/deck/img/favor-favor.webp",
+  "audio": {
+    "word": "/deck/audio/favor-favor.word.mp3",
+    "sentence": "/deck/audio/favor-favor.sentence.mp3"
+  }
+}

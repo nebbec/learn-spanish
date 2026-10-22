@@ -1,0 +1,14 @@
+{
+  "id": "maestro-master",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f74d812c963dae84",
+  "group": "#628 maestro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:45.321Z"
+}

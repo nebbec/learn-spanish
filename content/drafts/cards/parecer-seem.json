@@ -1,0 +1,28 @@
+{
+  "id": "parecer-seem",
+  "rank": 101,
+  "kind": "content",
+  "pos": "verb",
+  "target": "parecer",
+  "en": "to seem",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "parezco",
+      "tu": "pareces",
+      "el": "parece"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Tu hermano parece muy cansado hoy.",
+    "en": "Your brother seems very tired today."
+  },
+  "regional": null,
+  "trick": "PARECER sounds like \"pair of sirs\": two gentlemen who seem exactly alike.",
+  "image": "/deck/img/parecer-seem.webp",
+  "audio": {
+    "word": "/deck/audio/parecer-seem.word.mp3",
+    "sentence": "/deck/audio/parecer-seem.sentence.mp3"
+  }
+}

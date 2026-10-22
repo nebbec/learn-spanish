@@ -1,0 +1,14 @@
+{
+  "rank": 117,
+  "word": "quedar",
+  "cards": [
+    "quedar-stay",
+    "quedar-be-left",
+    "quedar-suit"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:16:54.553Z"
+}

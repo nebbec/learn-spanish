@@ -1,0 +1,17 @@
+{
+  "id": "construir-build",
+  "rank": 717,
+  "word": "construir",
+  "draft": "108b338a420d8b0a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to build, to construct",
+    "example": "My dad built this house."
+  },
+  "note": "The irregular flag is correct because the present tense adds a y (construyo, construyes, construye), and the preterite also has y forms (construyó, construyeron).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:07.571Z"
+}

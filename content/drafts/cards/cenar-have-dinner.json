@@ -1,0 +1,28 @@
+{
+  "id": "cenar-have-dinner",
+  "rank": 749,
+  "kind": "content",
+  "pos": "verb",
+  "target": "cenar",
+  "en": "to have dinner",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "ceno",
+      "tu": "cenas",
+      "el": "cena"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Quieres cenar conmigo esta noche?",
+    "en": "Do you want to have dinner with me tonight?"
+  },
+  "regional": null,
+  "trick": "CENAR sounds like \"see a nar-rator\": you see the storyteller every evening at dinner.",
+  "image": "/deck/img/cenar-have-dinner.webp",
+  "audio": {
+    "word": "/deck/audio/cenar-have-dinner.word.mp3",
+    "sentence": "/deck/audio/cenar-have-dinner.sentence.mp3"
+  }
+}

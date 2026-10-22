@@ -1,0 +1,24 @@
+{
+  "id": "ropa-clothes",
+  "rank": 530,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la ropa",
+  "en": "clothes",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tengo que lavar la ropa hoy.",
+    "en": "I have to wash the clothes today."
+  },
+  "regional": null,
+  "trick": "ROPA sounds like rope: hang your clothes on a rope to dry.",
+  "image": "/deck/img/ropa-clothes.webp",
+  "audio": {
+    "word": "/deck/audio/ropa-clothes.word.mp3",
+    "sentence": "/deck/audio/ropa-clothes.sentence.mp3"
+  }
+}

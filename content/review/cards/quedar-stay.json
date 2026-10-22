@@ -1,0 +1,33 @@
+{
+  "id": "quedar-stay",
+  "rank": 117,
+  "word": "quedar",
+  "draft": "7374e167ba468666",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "Plain quedar means to remain or be left (or to be located), while 'to stay' in the sense of not leaving is the pronominal quedarse, so es does not match the prompt.",
+      "fix": "es: quedarse"
+    },
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint gives the answer away by spelling out quedarse, and it contradicts es, which says quedar; 'to stay' already points to quedarse without a hint.",
+      "fix": "hint: null"
+    },
+    {
+      "reason": "grammar",
+      "problem": "For this meaning the dictionary form is quedarse, so the present forms need the reflexive pronoun.",
+      "fix": "es: quedarse; grammar.present: yo me quedo, tu te quedas, el se queda (irregular: false)"
+    }
+  ],
+  "back": {
+    "es": "quedar on its own: to remain, to be left, to be located; 'to stay' (not leave) is quedarse",
+    "example": "Stay with me tonight."
+  },
+  "note": "Once es is quedarse, this card is clearly separate from the 'to be left' card (quedar, as in quedan dos).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:27.322Z"
+}

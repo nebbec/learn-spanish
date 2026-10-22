@@ -1,0 +1,24 @@
+{
+  "id": "fin-end",
+  "rank": 327,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el fin",
+  "en": "end",
+  "hint": "short word shown at the end of a movie, not final",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Por fin llegó el fin de semana.",
+    "en": "The weekend finally arrived."
+  },
+  "regional": null,
+  "trick": "FIN sounds like a fish fin: the fin is at the very end of the fish.",
+  "image": "/deck/img/fin-end.webp",
+  "audio": {
+    "word": "/deck/audio/fin-end.word.mp3",
+    "sentence": "/deck/audio/fin-end.sentence.mp3"
+  }
+}

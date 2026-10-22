@@ -1,0 +1,14 @@
+{
+  "id": "bastante-enough",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use bastante for an everyday 'enough' or 'plenty'; suficiente is the more exact, slightly formal 'sufficient'.",
+  "draft": "4d794760e748380f",
+  "group": "#331 bastante",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:41:37.037Z"
+}

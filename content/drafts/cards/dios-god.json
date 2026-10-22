@@ -1,0 +1,24 @@
+{
+  "id": "dios-god",
+  "rank": 112,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el dios",
+  "en": "god",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "¡Dios mío, qué susto me diste!",
+    "en": "Oh my God, you scared me!"
+  },
+  "regional": null,
+  "trick": "DIOS hides inside adiós, which literally means to God: saying goodbye sends someone off to God.",
+  "image": "/deck/img/dios-god.webp",
+  "audio": {
+    "word": "/deck/audio/dios-god.word.mp3",
+    "sentence": "/deck/audio/dios-god.sentence.mp3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mesa-table",
+  "rank": 662,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la mesa",
+  "en": "table",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "La comida está en la mesa.",
+    "en": "The food is on the table."
+  },
+  "regional": null,
+  "trick": "MESA sounds like \"messy\": the kids left the table messy after dinner.",
+  "image": "/deck/img/mesa-table.webp",
+  "audio": {
+    "word": "/deck/audio/mesa-table.word.mp3",
+    "sentence": "/deck/audio/mesa-table.sentence.mp3"
+  }
+}

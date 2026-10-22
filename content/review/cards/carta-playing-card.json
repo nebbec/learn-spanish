@@ -1,0 +1,17 @@
+{
+  "id": "carta-playing-card",
+  "rank": 501,
+  "word": "carta",
+  "draft": "1676a2c1f127216d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "card (playing card); also letter (mail), menu",
+    "example": "Do you want to play cards?"
+  },
+  "note": "The hint \"playing card\" is needed because it rules out la tarjeta (ID or credit card), and it also keeps this card apart from the \"letter\" card; el naipe exists but is much less common, so it is not a real competing answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:15.524Z"
+}

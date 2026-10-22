@@ -1,0 +1,28 @@
+{
+  "id": "ganar-win",
+  "rank": 210,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ganar",
+  "en": "to win",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "gano",
+      "tu": "ganas",
+      "el": "gana"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Mi equipo ganó el partido anoche.",
+    "en": "My team won the game last night."
+  },
+  "regional": null,
+  "trick": "GANAR sounds like gonna: you're gonna win, so raise the trophy!",
+  "image": "/deck/img/ganar-win.webp",
+  "audio": {
+    "word": "/deck/audio/ganar-win.word.mp3",
+    "sentence": "/deck/audio/ganar-win.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fuera-out",
+  "rank": 259,
+  "word": "fuera",
+  "draft": "d3e4b6bcb6702bcc",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint contains the Spanish answer itself (fuera de), so the learner reads the answer instead of recalling it.",
+      "fix": "hint: as in out of town, followed by de; the shorter word, not afuera"
+    }
+  ],
+  "back": {
+    "es": "out, outside (adverb); fuera de = out of, outside of",
+    "example": "My dad is out of the city / out of town."
+  },
+  "note": "In Latin America afuera is more common than fuera for outside on its own, so the hint does need to rule afuera out and point to the fuera de construction.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:33:56.673Z"
+}

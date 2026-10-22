@@ -1,0 +1,28 @@
+{
+  "id": "poner-put",
+  "rank": 106,
+  "kind": "content",
+  "pos": "verb",
+  "target": "poner",
+  "en": "to put",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "pongo",
+      "tu": "pones",
+      "el": "pone"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "¿Dónde pusiste mis llaves?",
+    "en": "Where did you put my keys?"
+  },
+  "regional": null,
+  "trick": "PONER sounds like 'pony': you put the little kid up on the pony.",
+  "image": "/deck/img/poner-put.webp",
+  "audio": {
+    "word": "/deck/audio/poner-put.word.mp3",
+    "sentence": "/deck/audio/poner-put.sentence.mp3"
+  }
+}

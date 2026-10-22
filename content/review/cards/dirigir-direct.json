@@ -1,0 +1,17 @@
+{
+  "id": "dirigir-direct",
+  "rank": 622,
+  "word": "dirigir",
+  "draft": "0a27b3e38d060493",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to direct, to manage, to lead (also to steer or aim something toward)",
+    "example": "My aunt directs (runs) a school downtown."
+  },
+  "note": "The g-to-j change in dirijo is only a spelling change that keeps the sound, so irregular false is correct, but the editor may want learners to notice that spelling.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:00:28.881Z"
+}

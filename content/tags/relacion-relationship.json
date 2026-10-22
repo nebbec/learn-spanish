@@ -1,0 +1,14 @@
+{
+  "id": "relacion-relationship",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ad59015be388b3bc",
+  "group": "#551 relación",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:48:21.232Z"
+}

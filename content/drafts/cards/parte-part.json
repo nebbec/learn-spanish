@@ -1,0 +1,24 @@
+{
+  "id": "parte-part",
+  "rank": 182,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la parte",
+  "en": "part",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Esta es la mejor parte de la película.",
+    "en": "This is the best part of the movie."
+  },
+  "regional": null,
+  "trick": "PARTE sounds like PARTY: everyone at the party gets a part of the cake.",
+  "image": "/deck/img/parte-part.webp",
+  "audio": {
+    "word": "/deck/audio/parte-part.word.mp3",
+    "sentence": "/deck/audio/parte-part.sentence.mp3"
+  }
+}

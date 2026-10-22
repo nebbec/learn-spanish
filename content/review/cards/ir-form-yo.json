@@ -2,16 +2,16 @@
   "id": "ir-form-yo",
   "rank": 15,
   "word": "ir",
-  "draft": "7116d099a564bc62",
+  "draft": "db21a0a7d2d61c4a",
   "flagged": false,
   "findings": [],
   "back": {
     "es": "I go / I'm going (first person singular present of ir)",
-    "example": "I'm going to the store."
+    "example": "I'm going to the city."
   },
-  "note": null,
+  "note": "The trick works because Spanish v sounds like b, so voy really does sound close to 'boy'.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T19:51:45.877Z"
+  "reviewedAt": "2026-10-09T14:18:18.493Z"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "responder-answer",
+  "rank": 555,
+  "word": "responder",
+  "draft": "daf28a2a198305cf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to answer, to reply, to respond",
+    "example": "Why don't you answer my messages?"
+  },
+  "note": "The hint is needed because \"to answer\" could also be contestar, and the hint correctly rules that out by pointing to English \"respond\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:55:43.401Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pelear-fight",
+  "rank": 601,
+  "word": "pelear",
+  "draft": "50e531bf06a87679",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to fight (physically or verbally), to quarrel",
+    "example": "My brothers always fight over the TV."
+  },
+  "note": "The hint usefully rules out luchar, and in everyday speech the pronominal form is very common (Mis hermanos siempre se pelean por la tele), so the editor could use it in the example, though the version without se is also correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:13.762Z"
+}

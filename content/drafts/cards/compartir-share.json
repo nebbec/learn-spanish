@@ -1,0 +1,28 @@
+{
+  "id": "compartir-share",
+  "rank": 783,
+  "kind": "content",
+  "pos": "verb",
+  "target": "compartir",
+  "en": "to share",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "comparto",
+      "tu": "compartes",
+      "el": "comparte"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Compartimos la pizza con mi hermano.",
+    "en": "We shared the pizza with my brother."
+  },
+  "regional": null,
+  "trick": "COMPARTIR sounds like \"compartment\": you share a train compartment with strangers.",
+  "image": "/deck/img/compartir-share.webp",
+  "audio": {
+    "word": "/deck/audio/compartir-share.word.mp3",
+    "sentence": "/deck/audio/compartir-share.sentence.mp3"
+  }
+}

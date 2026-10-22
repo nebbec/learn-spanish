@@ -1,0 +1,32 @@
+# siguiente-next · rank 557 · siguiente
+#
+# Why it was flagged:
+#   - Example sentence: In everyday speech, 'see you next week' is 'Nos vemos la próxima semana' or 'la semana que viene'; 'la semana siguiente' means the week after some other point in time, so this sentence sounds unnatural as a goodbye. Suggested fix: example.es: Me bajo en la siguiente parada. / example.en: I'm getting off at the next stop.
+# Reviewer's note (not a reason to flag): The hint names próximo to rule it out, which works, but it shows the learner the other answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: new example; simpler than the suggested 'Me bajo en la siguiente parada' (bajarse and parada not met yet).
+decision: approve
+
+id:             siguiente-next
+kind:           content
+pos:            adjective
+target:         siguiente
+en:             next
+hint:           the following one, not próximo
+feminine:       siguiente
+example.target: ¿Quién es el siguiente?
+example.en:     Who's next?
+regional.where:
+regional.text:
+trick:          SIGUIENTE sounds like 'see, good gente': see the good people waiting in line, then call the next one.
+
+# The draft this file was made from. Do not change it.
+draft: 8825c28853f16b85

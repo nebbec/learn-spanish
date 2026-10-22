@@ -1,0 +1,24 @@
+{
+  "id": "pais-country",
+  "rank": 481,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el país",
+  "en": "country",
+  "hint": "nation, not countryside",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "México es un país muy bonito.",
+    "en": "Mexico is a very beautiful country."
+  },
+  "regional": null,
+  "trick": "PAÍS sounds like \"pie ease\": every country has its own favorite pie.",
+  "image": "/deck/img/pais-country.webp",
+  "audio": {
+    "word": "/deck/audio/pais-country.word.mp3",
+    "sentence": "/deck/audio/pais-country.sentence.mp3"
+  }
+}

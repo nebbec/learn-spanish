@@ -1,0 +1,21 @@
+{
+  "id": "don-title",
+  "rank": 681,
+  "kind": "content",
+  "pos": "other",
+  "target": "don",
+  "en": "Mr. (respectful title before a first name)",
+  "hint": "used before a first name, as in ___ Pedro, not señor; feminine doña",
+  "grammar": null,
+  "example": {
+    "target": "Buenos días, don Pedro, ¿cómo está?",
+    "en": "Good morning, Mr. Pedro, how are you?"
+  },
+  "regional": null,
+  "trick": "DON sounds like Don Corleone: everyone respectfully calls the boss Don before his name.",
+  "image": "/deck/img/don-title.webp",
+  "audio": {
+    "word": "/deck/audio/don-title.word.mp3",
+    "sentence": "/deck/audio/don-title.sentence.mp3"
+  }
+}

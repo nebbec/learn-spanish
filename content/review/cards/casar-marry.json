@@ -1,0 +1,28 @@
+{
+  "id": "casar-marry",
+  "rank": 343,
+  "word": "casar",
+  "draft": "a75e970003f74f0d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "Bare casar is transitive and means to wed a couple or to marry off, but the meaning a beginner needs and the one the hint and example use is casarse, to get married.",
+      "fix": "es: casarse; en: to get married"
+    },
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint gives away casarse while the answer is casar, so it is unclear which form the learner should recall, and for 'to marry someone' a fluent speaker would answer casarse (con), not casar.",
+      "fix": "hint: null (with es: casarse, en: to get married), or hint: 'to marry someone = casarse con' if en stays 'to marry'"
+    }
+  ],
+  "back": {
+    "es": "to marry (transitive: to wed a couple as officiant, or to marry off); 'to get married' is casarse",
+    "example": "Do you want to marry me? / Will you marry me?"
+  },
+  "note": "If es becomes casarse, the grammar strip should read me caso, te casas, se casa (still regular), and the example and trick can stay as they are.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:39:53.426Z"
+}

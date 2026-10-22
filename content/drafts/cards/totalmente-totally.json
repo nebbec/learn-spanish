@@ -1,0 +1,21 @@
+{
+  "id": "totalmente-totally",
+  "rank": 719,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "totalmente",
+  "en": "totally",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Tienes totalmente la razón.",
+    "en": "You're totally right."
+  },
+  "regional": null,
+  "trick": "TOTALMENTE sounds like \"total mental\": you agree so totally, it's total mental agreement.",
+  "image": "/deck/img/totalmente-totally.webp",
+  "audio": {
+    "word": "/deck/audio/totalmente-totally.word.mp3",
+    "sentence": "/deck/audio/totalmente-totally.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "querido-dear",
+  "rank": 397,
+  "word": "querido",
+  "draft": "17d08e084e223102",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "dear, beloved (adjective)",
+    "example": "Hello, dear, how are you today?"
+  },
+  "note": "The example uses the feminine as a term of address; this is correct, but an adjective use with the base form, such as \"Mi querido amigo, te extraño mucho.\", would show the dictionary form more directly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:13.654Z"
+}

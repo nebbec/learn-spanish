@@ -1,0 +1,17 @@
+{
+  "id": "frente-forehead",
+  "rank": 571,
+  "word": "frente",
+  "draft": "d5a8a5b78ad97c1f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "forehead (feminine noun; el frente, masculine, means front)",
+    "example": "You have paint on your forehead."
+  },
+  "note": "The feminine article is what tells this card apart from the \"front\" card (el frente), so it is worth keeping the gender visible on both cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:56:52.941Z"
+}

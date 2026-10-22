@@ -1,0 +1,13 @@
+{
+  "rank": 241,
+  "word": "forma",
+  "cards": [
+    "forma-way",
+    "forma-shape"
+  ],
+  "skip": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-09T14:22:10.727Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "carino-honey",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9c635d7087b2445d",
+  "group": "#262 cariño",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:06:55.426Z"
+}

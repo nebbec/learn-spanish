@@ -1,0 +1,14 @@
+{
+  "id": "acabar-have-just",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2f3b5429217bfe05",
+  "group": "#154 acabar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:04:03.812Z"
+}

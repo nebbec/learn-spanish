@@ -1,0 +1,14 @@
+{
+  "id": "suerte-luck",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a6c3913ff07c26a7",
+  "group": "#303 suerte",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:40:39.392Z"
+}

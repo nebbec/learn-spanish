@@ -1,0 +1,17 @@
+{
+  "id": "verdadero-true",
+  "rank": 531,
+  "word": "verdadero",
+  "draft": "0275bcfb5551fa35",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "true, real, genuine (adjective)",
+    "example": "He is a true friend."
+  },
+  "note": "The hint correctly rules out cierto and real, though pointing to the word for truth gives away much of the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:54:18.021Z"
+}

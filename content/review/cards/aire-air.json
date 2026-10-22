@@ -1,0 +1,17 @@
+{
+  "id": "aire-air",
+  "rank": 605,
+  "word": "aire",
+  "draft": "a274b41a20d57925",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "air (noun, masculine)",
+    "example": "I need to go out to get some air."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:59:26.371Z"
+}

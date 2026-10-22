@@ -1,6 +1,6 @@
 # Flagged cards
 
-The review pass flagged 53 cards: 0 waiting for you, 53 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
+The review pass flagged 186 cards: 0 waiting for you, 186 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
 
 **To decide on a card**, open its file in `content/review/decisions/` (linked under each card), change `decision: pending` to `decision: approve` or `decision: reject`, and correct any card line first if it needs it. Then run `npm run deck`, which puts approved cards in the deck and rewrites this list.
 
@@ -12,12 +12,13 @@ Nothing.
 
 - que-who-which (rank 3, que): approved. Flagged for one right answer.
 - un-a (rank 6, un): approved. Flagged for memory trick.
-- a-to (rank 7, a): approved. Flagged for one right answer.
 - estar-be-state (rank 8, estar): approved. Flagged for example sentence.
 - lo-the-thing (rank 11, lo): approved. Flagged for memory trick.
 - haber-have-auxiliary (rank 12, haber): approved. Flagged for latin american usage.
 - haber-there-is (rank 12, haber): approved. Flagged for grammar.
+- por-by (rank 14, por): approved. Flagged for example sentence.
 - si-yes (rank 32, sí): approved. Flagged for example sentence.
+- ver-see (rank 35, ver): approved. Flagged for example sentence.
 - ver-watch (rank 35, ver): approved. Flagged for one right answer.
 - eso-that (rank 36, eso): approved. Flagged for one right answer.
 - creer-think-opinion (rank 48, creer): approved. Flagged for one right answer.
@@ -29,23 +30,156 @@ Nothing.
 - entonces-so (rank 86, entonces): approved. Flagged for one right answer.
 - hola-hello (rank 88, hola): approved. Flagged for example sentence.
 - volver-do-again (rank 90, volver): approved. Flagged for example sentence.
+- alguno-any (rank 92, alguno): approved. Flagged for one right answer.
+- tiempo-weather (rank 93, tiempo): approved. Flagged for one right answer.
+- chico-boy (rank 94, chico): approved. Flagged for one right answer.
+- llevar-spend-time (rank 96, llevar): approved. Flagged for one right answer.
 - mejor-best (rank 100, mejor): approved. Flagged for one right answer.
+- tomar-take (rank 107, tomar): approved. Flagged for one right answer.
+- tomar-drink (rank 107, tomar): approved. Flagged for example sentence.
+- quedar-stay (rank 117, quedar): approved. Flagged for meaning, one right answer, grammar.
+- sobre-on-over (rank 118, sobre): approved. Flagged for one right answer.
+- ti-you (rank 121, ti): approved. Flagged for one right answer.
 - padre-parents (rank 128, padre): approved. Flagged for one right answer, memory trick.
-- siempre-always (rank 129, siempre): approved. Flagged for example uses words not met yet.
+- hasta-until (rank 130, hasta): approved. Flagged for example sentence.
+- nosotros-we (rank 138, nosotros): approved. Flagged for one right answer.
 - entender-understand (rank 141, entender): approved. Flagged for one right answer.
-- alli-there (rank 178, allí): approved. Flagged for example sentence.
+- tal-how-greeting (rank 151, tal): approved. Flagged for example sentence, memory trick.
+- acabar-finish (rank 154, acabar): approved. Flagged for one right answer.
+- momento-moment (rank 155, momento): approved. Flagged for example sentence.
+- trabajar-work (rank 168, trabajar): approved. Flagged for one right answer.
+- quizas-maybe (rank 175, quizás): approved. Flagged for one right answer.
+- preguntar-ask (rank 177, preguntar): approved. Flagged for example sentence.
+- ninguno-no-any (rank 184, ninguno): approved. Flagged for meaning, memory trick.
+- conseguir-get (rank 190, conseguir): approved. Flagged for one right answer.
+- usar-use (rank 196, usar): approved. Flagged for example sentence.
 - mal-badly (rank 204, mal): approved. Flagged for example sentence.
 - pequeno-small (rank 205, pequeño): approved. Flagged for example sentence.
+- realmente-really (rank 206, realmente): approved. Flagged for one right answer.
+- cierto-true (rank 207, cierto): approved. Flagged for one right answer.
+- razon-reason (rank 208, razón): approved. Flagged for memory trick.
+- quien-who-relative (rank 217, quien): approved. Flagged for one right answer.
+- cualquiera-any (rank 229, cualquiera): approved. Flagged for one right answer, example sentence.
+- preocupar-worry (rank 233, preocupar): approved. Flagged for one right answer, example sentence.
+- entre-between (rank 237, entre): approved. Flagged for example uses words not met yet.
 - cuenta-bill (rank 238, cuenta): approved. Flagged for example sentence.
+- listo-ready (rank 239, listo): approved. Flagged for one right answer.
+- forma-way (rank 241, forma): approved. Flagged for one right answer.
+- ustedes-you-plural (rank 245, ustedes): approved. Flagged for latin american usage.
+- esposo-husband (rank 253, esposo): approved. Flagged for latin american usage.
+- historia-story (rank 257, historia): approved. Flagged for one right answer.
+- historia-history (rank 257, historia): approved. Flagged for memory trick.
+- fuera-out (rank 259, fuera): approved. Flagged for one right answer.
+- carino-honey (rank 262, cariño): approved. Flagged for one right answer.
+- supuesto-of-course (rank 272, supuesto): approved. Flagged for one right answer.
+- supuesto-supposed (rank 272, supuesto): approved. Flagged for one right answer.
 - adios-goodbye (rank 274, adiós): approved. Flagged for example sentence.
+- caer-fall (rank 281, caer): approved. Flagged for example sentence.
+- medio-kind-of (rank 282, medio): approved. Flagged for one right answer.
+- suerte-luck (rank 303, suerte): approved. Flagged for example sentence.
+- disculpar-excuse (rank 305, disculpar): approved. Flagged for one right answer, latin american usage.
+- preparar-prepare (rank 308, preparar): approved. Flagged for memory trick.
+- clase-class (rank 311, clase): approved. Flagged for memory trick.
+- realidad-reality (rank 314, realidad): approved. Flagged for example sentence.
+- alto-stop (rank 317, alto): approved. Flagged for one right answer.
+- parar-stand-up (rank 325, parar): approved. Flagged for one right answer.
+- fin-end (rank 327, fin): approved. Flagged for example sentence.
+- disparar-shoot (rank 328, disparar): approved. Flagged for one right answer.
+- detener-stop (rank 330, detener): approved. Flagged for latin american usage, example sentence.
+- adelante-come-in (rank 332, adelante): approved. Flagged for one right answer.
+- igual-anyway (rank 333, igual): approved. Flagged for latin american usage.
 - cerca-fence (rank 339, cerca): approved. Flagged for one right answer.
-- calle-street (rank 503, calle): approved. Flagged for memory trick.
+- casar-marry (rank 343, casar): approved. Flagged for meaning, one right answer.
+- incluso-even (rank 360, incluso): approved. Flagged for one right answer, example uses words not met yet.
+- aunque-although (rank 361, aunque): approved. Flagged for example sentence.
+- telefono-phone (rank 369, teléfono): approved. Flagged for one right answer.
+- convertir-turn-into (rank 371, convertir): approved. Flagged for example uses words not met yet.
+- vuelta-return (rank 375, vuelta): approved. Flagged for one right answer.
+- cuanto-how-much-384 (rank 384, cuanto): approved. Flagged for meaning.
+- e-and (rank 387, e): approved. Flagged for example sentence.
+- odiar-hate (rank 391, odiar): approved. Flagged for example uses words not met yet.
+- luz-light (rank 393, luz): approved. Flagged for one right answer.
+- santo-saint (rank 405, santo): approved. Flagged for example uses words not met yet.
+- foto-photo (rank 416, foto): approved. Flagged for memory trick.
+- idiota-idiot (rank 425, idiota): approved. Flagged for grammar.
+- andar-walk (rank 426, andar): approved. Flagged for one right answer, example sentence.
+- andar-be-doing (rank 426, andar): approved. Flagged for one right answer, example sentence.
+- imaginar-imagine (rank 429, imaginar): approved. Flagged for memory trick.
+- probablemente-probably (rank 436, probablemente): approved. Flagged for example sentence.
+- diferente-different (rank 439, diferente): approved. Flagged for memory trick.
+- millon-million (rank 440, millón): approved. Flagged for memory trick.
+- dolar-dollar (rank 441, dólar): approved. Flagged for example sentence.
+- tampoco-neither (rank 444, tampoco): approved. Flagged for example sentence.
+- asegurar-make-sure (rank 447, asegurar): approved. Flagged for example sentence.
+- presentar-present (rank 450, presentar): approved. Flagged for one right answer.
+- medico-doctor (rank 458, médico): approved. Flagged for one right answer.
+- unir-unite (rank 462, unir): approved. Flagged for example sentence.
+- tranquilo-calm (rank 467, tranquilo): approved. Flagged for one right answer.
+- estupido-stupid (rank 471, estúpido): approved. Flagged for example sentence.
+- derecho-right-side (rank 483, derecho): approved. Flagged for one right answer.
+- atrapar-catch (rank 484, atrapar): approved. Flagged for one right answer.
+- bastar-be-enough (rank 485, bastar): approved. Flagged for one right answer, example sentence.
+- tirar-throw (rank 486, tirar): approved. Flagged for one right answer.
+- senorita-miss (rank 495, señorita): approved. Flagged for latin american usage.
+- temer-fear (rank 498, temer): approved. Flagged for example sentence.
+- bienvenido-welcome (rank 500, bienvenido): approved. Flagged for one right answer, example sentence.
+- referir-refer (rank 502, referir): approved. Flagged for meaning, one right answer, grammar.
+- despertar-wake-up (rank 505, despertar): approved. Flagged for one right answer.
+- proteger-protect (rank 506, proteger): approved. Flagged for example sentence.
+- cual-which-relative (rank 507, cual): approved. Flagged for one right answer.
+- caballero-gentleman (rank 519, caballero): approved. Flagged for example sentence.
 - perdon-sorry (rank 520, perdón): approved. Flagged for one right answer.
+- partir-split (rank 542, partir): approved. Flagged for one right answer.
+- lamentar-regret (rank 552, lamentar): approved. Flagged for one right answer.
+- siguiente-next (rank 557, siguiente): approved. Flagged for example sentence.
+- demas-the-others (rank 565, demás): approved. Flagged for meaning.
+- encargar-handle (rank 572, encargar): approved. Flagged for meaning, one right answer, grammar.
+- personal-personal (rank 578, personal): approved. Flagged for example sentence.
+- linea-line (rank 579, línea): approved. Flagged for example uses words not met yet.
+- pena-embarrassment (rank 581, pena): approved. Flagged for latin american usage.
+- soler-usually (rank 587, soler): approved. Flagged for meaning.
+- camara-camera (rank 599, cámara): approved. Flagged for memory trick.
+- abandonar-abandon (rank 611, abandonar): approved. Flagged for example sentence.
+- averiguar-find-out (rank 619, averiguar): approved. Flagged for example sentence.
+- bailar-dance (rank 620, bailar): approved. Flagged for example sentence.
+- gusto-pleasure (rank 625, gusto): approved. Flagged for memory trick.
+- limpiar-clean (rank 631, limpiar): approved. Flagged for example sentence.
+- monton-pile (rank 638, montón): approved. Flagged for one right answer.
+- dulce-candy (rank 639, dulce): approved. Flagged for one right answer.
+- alejar-move-away (rank 647, alejar): approved. Flagged for one right answer.
+- cargo-position (rank 651, cargo): approved. Flagged for one right answer, example uses words not met yet.
+- cargo-charge (rank 651, cargo): approved. Flagged for one right answer.
+- pesar-despite (rank 658, pesar): approved. Flagged for memory trick.
+- publico-audience (rank 664, público): approved. Flagged for one right answer.
+- calmar-calm-down (rank 668, calmar): approved. Flagged for one right answer.
+- guardar-keep (rank 671, guardar): approved. Flagged for example sentence.
+- detective-detective (rank 678, detective): approved. Flagged for memory trick.
+- don-title (rank 681, don): approved. Flagged for latin american usage.
+- recuerdo-souvenir (rank 683, recuerdo): approved. Flagged for one right answer.
+- gracioso-funny (rank 690, gracioso): approved. Flagged for one right answer.
+- ocupar-take-care (rank 692, ocupar): approved. Flagged for one right answer.
+- interesante-interesting (rank 696, interesante): approved. Flagged for example sentence.
+- dama-lady (rank 699, dama): approved. Flagged for example sentence.
+- retirar-retire (rank 701, retirar): approved. Flagged for one right answer.
+- reunir-gather (rank 708, reunir): approved. Flagged for one right answer.
+- totalmente-totally (rank 719, totalmente): approved. Flagged for example sentence.
+- amable-kind (rank 721, amable): approved. Flagged for one right answer.
+- antiguo-former (rank 726, antiguo): approved. Flagged for one right answer.
+- sala-hall-room (rank 737, sala): approved. Flagged for one right answer.
+- club-club (rank 739, club): approved. Flagged for one right answer.
+- reir-laugh (rank 743, reír): approved. Flagged for latin american usage, example sentence.
+- armar-put-together (rank 744, armar): approved. Flagged for latin american usage.
+- armar-arm (rank 744, armar): approved. Flagged for example sentence.
+- consejo-council (rank 746, consejo): approved. Flagged for one right answer.
+- enfrentar-face (rank 747, enfrentar): approved. Flagged for example sentence.
+- cenar-have-dinner (rank 749, cenar): approved. Flagged for example sentence.
+- nota-grade (rank 761, nota): approved. Flagged for one right answer.
+- embargo-however (rank 765, embargo): approved. Flagged for one right answer.
+- manejar-handle (rank 767, manejar): approved. Flagged for example sentence.
+- sorpresa-surprise (rank 774, sorpresa): approved. Flagged for example sentence.
+- regla-rule (rank 775, regla): approved. Flagged for example sentence.
+- testigo-witness (rank 787, testigo): approved. Flagged for grammar.
 - estar-form-el (rank 8, estar): approved. Flagged for example sentence.
-- haber-form-hay (rank 12, haber): approved. Flagged for example uses words not met yet.
-- ir-form-el (rank 15, ir): approved. Flagged for example uses words not met yet.
-- hacer-form-yo (rank 17, hacer): approved. Flagged for example uses words not met yet.
-- hacer-form-el (rank 17, hacer): approved. Flagged for example uses words not met yet.
 - poder-form-tu (rank 19, poder): approved. Flagged for example sentence.
 - poder-form-el (rank 19, poder): approved. Flagged for example sentence.
 - phrase-yes-please (rank 105, me-and-you): approved. Flagged for example sentence.
@@ -61,5 +195,4 @@ Nothing.
 - phrase-excuse-me-polite (rank 305, out-and-about): approved. Flagged for one right answer, latin american usage.
 - phrase-i-love-you (rank 28, people-i-love): approved. Flagged for example uses words not met yet.
 - phrase-ill-call-you-tomorrow (rank 171, people-i-love): approved. Flagged for one right answer.
-- phrase-how-do-you-say (rank 67, what-people-say): approved. Flagged for example uses words not met yet.
 - phrase-i-think-thats-true (rank 89, what-people-say): approved. Flagged for one right answer.

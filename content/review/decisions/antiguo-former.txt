@@ -1,0 +1,32 @@
+# antiguo-former · rank 726 · antiguo
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out other common ways to say 'former': the prefix ex- (mi exjefe) is very common in Latin America, and anterior (mi anterior jefe) also works before the noun. Suggested fix: hint: an adjective placed before the noun, as in my former boss; not the prefix ex- and not anterior
+# Reviewer's note (not a reason to flag): The point about word order is worth keeping: antiguo before the noun means former, and after the noun it means old, which keeps this card apart from the "ancient" card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint or regional.text empty for none; irregular is yes or no.
+# Then run: npm run deck
+# Lines starting with # are notes and are ignored.
+
+# Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened.
+decision: approve
+
+id:             antiguo-former
+kind:           content
+pos:            adjective
+target:         antiguo
+en:             former
+hint:           placed before the noun, as in my former boss; not ex- or anterior
+feminine:       antigua
+example.target: Vi a mi antiguo jefe en el mercado.
+example.en:     I saw my former boss at the market.
+regional.where:
+regional.text:
+trick:          ANTIGUO sounds like antique: your former boss is now an antique from your past.
+
+# The draft this file was made from. Do not change it.
+draft: b530bb4457df22a6

@@ -1,0 +1,23 @@
+{
+  "id": "cierto-certain",
+  "rank": 207,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "cierto",
+  "en": "certain",
+  "hint": "some particular, before a noun",
+  "grammar": {
+    "feminine": "cierta"
+  },
+  "example": {
+    "target": "Ciertas personas no saben escuchar.",
+    "en": "Certain people don't know how to listen."
+  },
+  "regional": null,
+  "trick": "CIERTO looks like certain with the ending cut off: certain people, ciertas personas.",
+  "image": "/deck/img/cierto-certain.webp",
+  "audio": {
+    "word": "/deck/audio/cierto-certain.word.mp3",
+    "sentence": "/deck/audio/cierto-certain.sentence.mp3"
+  }
+}

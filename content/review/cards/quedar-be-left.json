@@ -1,0 +1,17 @@
+{
+  "id": "quedar-be-left",
+  "rank": 117,
+  "word": "quedar",
+  "draft": "552259f26388bcdd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "quedar: to remain, to be left (over)",
+    "example": "Only one minute is left."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:22:24.200Z"
+}

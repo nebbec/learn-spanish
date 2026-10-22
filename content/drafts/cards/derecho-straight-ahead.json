@@ -1,0 +1,24 @@
+{
+  "id": "derecho-straight-ahead",
+  "rank": 483,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "derecho",
+  "en": "straight ahead",
+  "hint": "giving directions",
+  "grammar": null,
+  "example": {
+    "target": "Sigue derecho dos cuadras.",
+    "en": "Go straight ahead for two blocks."
+  },
+  "regional": {
+    "where": "Spain",
+    "text": "recto"
+  },
+  "trick": "DERECHO sounds like \"direct, oh\": the direct way is straight ahead.",
+  "image": "/deck/img/derecho-straight-ahead.webp",
+  "audio": {
+    "word": "/deck/audio/derecho-straight-ahead.word.mp3",
+    "sentence": "/deck/audio/derecho-straight-ahead.sentence.mp3"
+  }
+}

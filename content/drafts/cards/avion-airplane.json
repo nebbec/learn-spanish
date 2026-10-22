@@ -1,0 +1,24 @@
+{
+  "id": "avion-airplane",
+  "rank": 667,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el avión",
+  "en": "airplane",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El avión sale a las ocho.",
+    "en": "The plane leaves at eight."
+  },
+  "regional": null,
+  "trick": "AVIÓN sounds like aviation: an avión is the machine of aviation.",
+  "image": "/deck/img/avion-airplane.webp",
+  "audio": {
+    "word": "/deck/audio/avion-airplane.word.mp3",
+    "sentence": "/deck/audio/avion-airplane.sentence.mp3"
+  }
+}

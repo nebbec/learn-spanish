@@ -1,0 +1,17 @@
+{
+  "id": "direccion-direction",
+  "rank": 663,
+  "word": "dirección",
+  "draft": "e663893286f0d8fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the direction (also: address, management)",
+    "example": "We're going in the wrong direction."
+  },
+  "note": "The hint is needed to separate this card from the address card, and it does; el rumbo is close in meaning but is not what a speaker would naturally give here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T15:03:45.624Z"
+}

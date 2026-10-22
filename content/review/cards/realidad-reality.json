@@ -1,0 +1,23 @@
+{
+  "id": "realidad-reality",
+  "rank": 314,
+  "word": "realidad",
+  "draft": "77a3a20365149661",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses the fixed phrase 'en realidad' = 'actually', so neither the sentence nor its translation shows the noun meaning 'reality' that the card teaches.",
+      "fix": "example.es: Tienes que aceptar la realidad. / example.en: You have to accept reality."
+    }
+  ],
+  "back": {
+    "es": "reality (noun, feminine)",
+    "example": "In reality / Actually, I don't like coffee."
+  },
+  "note": "'En realidad' (actually) is a very common phrase, so it could be worth its own phrase card, or a mention elsewhere, rather than being the noun's only example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:37:25.278Z"
+}

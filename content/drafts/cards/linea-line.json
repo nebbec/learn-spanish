@@ -1,0 +1,24 @@
+{
+  "id": "linea-line",
+  "rank": 579,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la línea",
+  "en": "line",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Dibuja una línea recta en el papel.",
+    "en": "Draw a straight line on the paper."
+  },
+  "regional": null,
+  "trick": "LÍNEA sounds like linear: a linear drawing is just one straight line.",
+  "image": "/deck/img/linea-line.webp",
+  "audio": {
+    "word": "/deck/audio/linea-line.word.mp3",
+    "sentence": "/deck/audio/linea-line.sentence.mp3"
+  }
+}

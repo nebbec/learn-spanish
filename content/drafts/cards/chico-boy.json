@@ -1,0 +1,24 @@
+{
+  "id": "chico-boy",
+  "rank": 94,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el chico",
+  "en": "boy",
+  "hint": "teen or young guy, not niño",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Ese chico es mi hermano.",
+    "en": "That boy is my brother."
+  },
+  "regional": null,
+  "trick": "CHICO sounds like chick-o: the boy chasing chicks around the farm; a girl is a chica.",
+  "image": "/deck/img/chico-boy.webp",
+  "audio": {
+    "word": "/deck/audio/chico-boy.word.mp3",
+    "sentence": "/deck/audio/chico-boy.sentence.mp3"
+  }
+}

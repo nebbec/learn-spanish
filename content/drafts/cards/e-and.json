@@ -1,0 +1,21 @@
+{
+  "id": "e-and",
+  "rank": 387,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "e",
+  "en": "father [and] son",
+  "hint": "used instead of y before a word starting with an i sound (i-, hi-)",
+  "grammar": null,
+  "example": {
+    "target": "Mi papá e hijo trabajan juntos.",
+    "en": "My dad and son work together."
+  },
+  "regional": null,
+  "trick": "E replaces Y before an EE sound, so you never say y-ee; padre e hijo flows smoothly.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/e-and.word.mp3",
+    "sentence": "/deck/audio/e-and.sentence.mp3"
+  }
+}

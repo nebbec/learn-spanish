@@ -1,0 +1,23 @@
+{
+  "id": "especial-special",
+  "rank": 477,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "especial",
+  "en": "special",
+  "hint": null,
+  "grammar": {
+    "feminine": "especial"
+  },
+  "example": {
+    "target": "Hoy es un día muy especial para mí.",
+    "en": "Today is a very special day for me."
+  },
+  "regional": null,
+  "trick": "ESPECIAL sounds like \"special\" with an extra E in front: an Extra-special thing.",
+  "image": "/deck/img/especial-special.webp",
+  "audio": {
+    "word": "/deck/audio/especial-special.word.mp3",
+    "sentence": "/deck/audio/especial-special.sentence.mp3"
+  }
+}

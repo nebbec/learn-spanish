@@ -1,0 +1,24 @@
+{
+  "id": "crimen-crime",
+  "rank": 705,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el crimen",
+  "en": "crime",
+  "hint": "serious, like murder",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "La policía investiga el crimen.",
+    "en": "The police are investigating the crime."
+  },
+  "regional": null,
+  "trick": "CRIMEN sounds like crime-men: the men who commit a crime.",
+  "image": "/deck/img/crimen-crime.webp",
+  "audio": {
+    "word": "/deck/audio/crimen-crime.word.mp3",
+    "sentence": "/deck/audio/crimen-crime.sentence.mp3"
+  }
+}

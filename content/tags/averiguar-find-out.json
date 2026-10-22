@@ -1,0 +1,14 @@
+{
+  "id": "averiguar-find-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use averiguar when you find out by digging or asking; enterarse when news simply reaches you.",
+  "draft": "212d6b724ee5e63a",
+  "group": "#619 averiguar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:50:31.490Z"
+}

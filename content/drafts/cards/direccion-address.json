@@ -1,0 +1,24 @@
+{
+  "id": "direccion-address",
+  "rank": 663,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la dirección",
+  "en": "address",
+  "hint": "where someone lives",
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¿Me das tu dirección?",
+    "en": "Can you give me your address?"
+  },
+  "regional": null,
+  "trick": "DIRECCIÓN sounds like \"directions\": your address is what you give someone for directions to your house.",
+  "image": "/deck/img/direccion-address.webp",
+  "audio": {
+    "word": "/deck/audio/direccion-address.word.mp3",
+    "sentence": "/deck/audio/direccion-address.sentence.mp3"
+  }
+}

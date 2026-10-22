@@ -1,0 +1,23 @@
+{
+  "id": "pasado-last",
+  "rank": 428,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "pasado",
+  "en": "last",
+  "hint": "the previous one, as in last week (not final)",
+  "grammar": {
+    "feminine": "pasada"
+  },
+  "example": {
+    "target": "La semana pasada fuimos a la playa.",
+    "en": "Last week we went to the beach."
+  },
+  "regional": null,
+  "trick": "PASADO sounds like passed: last week has already passed you by.",
+  "image": "/deck/img/pasado-last.webp",
+  "audio": {
+    "word": "/deck/audio/pasado-last.word.mp3",
+    "sentence": "/deck/audio/pasado-last.sentence.mp3"
+  }
+}

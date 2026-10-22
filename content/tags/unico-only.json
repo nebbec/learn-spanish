@@ -1,0 +1,14 @@
+{
+  "id": "unico-only",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use único for \"the only one\" before or after a noun; use solo for \"only\" meaning just (solo quiero café).",
+  "draft": "8b79a163b21c1029",
+  "group": "#222 único",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-09T15:05:59.099Z"
+}

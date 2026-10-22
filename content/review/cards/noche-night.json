@@ -2,16 +2,16 @@
   "id": "noche-night",
   "rank": 111,
   "word": "noche",
-  "draft": "3b7b7770cedff87f",
+  "draft": "a74b08e6e8e70c2d",
   "flagged": false,
   "findings": [],
   "back": {
-    "es": "night (also evening)",
-    "example": "Last night I didn't sleep the whole night."
+    "es": "the night; night (feminine noun)",
+    "example": "Today at night (tonight) I'm going to your house."
   },
-  "note": "Putting anoche and toda la noche in the same example sounds a little redundant but is natural; a simpler option would be \"No dormí en toda la noche.\"",
+  "note": "\"Hoy en la noche\" is natural in Mexico and much of Latin America, but \"esta noche\" is the more pan-regional way to say tonight, so the editor might prefer it.",
   "via": "cli",
   "model": "claude-opus-5-5",
   "effort": "medium",
-  "reviewedAt": "2026-10-03T20:03:58.138Z"
+  "reviewedAt": "2026-10-09T14:22:02.665Z"
 }

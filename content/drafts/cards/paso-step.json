@@ -1,0 +1,24 @@
+{
+  "id": "paso-step",
+  "rank": 684,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el paso",
+  "en": "step",
+  "hint": "when walking, not a stair",
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "Da un paso hacia atrás, por favor.",
+    "en": "Take a step back, please."
+  },
+  "regional": null,
+  "trick": "PASO sounds like pass-oh: with each step you pass a little farther along the road.",
+  "image": "/deck/img/paso-step.webp",
+  "audio": {
+    "word": "/deck/audio/paso-step.word.mp3",
+    "sentence": "/deck/audio/paso-step.sentence.mp3"
+  }
+}

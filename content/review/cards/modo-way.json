@@ -1,0 +1,17 @@
+{
+  "id": "modo-way",
+  "rank": 415,
+  "word": "modo",
+  "draft": "691484da73c1c868",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the way, manner, mode",
+    "example": "In any case (anyway), I'm going to the party."
+  },
+  "note": "The example uses modo only inside the fixed phrase de todos modos (anyway), which is very frequent but hides the way meaning, so an example like \"Lo hago a mi modo\" (I do it my way) would show it more clearly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:45:37.965Z"
+}

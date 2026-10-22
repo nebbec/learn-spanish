@@ -1,0 +1,14 @@
+{
+  "id": "papel-role",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5ea7d1ee71018659",
+  "group": "#595 papel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:42.439Z"
+}

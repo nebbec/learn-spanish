@@ -1,0 +1,28 @@
+{
+  "id": "merecer-deserve",
+  "rank": 608,
+  "kind": "content",
+  "pos": "verb",
+  "target": "merecer",
+  "en": "to deserve",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "merezco",
+      "tu": "mereces",
+      "el": "merece"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Te mereces algo mejor.",
+    "en": "You deserve something better."
+  },
+  "regional": null,
+  "trick": "MERECER sounds like \"merit-ser\": if you have merit, you deserve the prize.",
+  "image": "/deck/img/merecer-deserve.webp",
+  "audio": {
+    "word": "/deck/audio/merecer-deserve.word.mp3",
+    "sentence": "/deck/audio/merecer-deserve.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "embargo-however",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f7f505c849c35a55",
+  "group": "#765 embargo",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:54:55.049Z"
+}

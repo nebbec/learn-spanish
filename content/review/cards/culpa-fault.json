@@ -1,0 +1,17 @@
+{
+  "id": "culpa-fault",
+  "rank": 400,
+  "word": "culpa",
+  "draft": "dcd9658537f2d436",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "fault, blame, guilt (noun)",
+    "example": "It's not my fault."
+  },
+  "note": "The hint is needed because \"fault\" alone could also mean a defect (el defecto, la falla), and \"blame, guilt\" rules those out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:44:30.053Z"
+}

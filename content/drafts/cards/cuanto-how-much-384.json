@@ -1,0 +1,21 @@
+{
+  "id": "cuanto-how-much-384",
+  "rank": 384,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "cuánto",
+  "en": "[how much] does it cost?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "¿Cuánto cuesta este libro?",
+    "en": "How much does this book cost?"
+  },
+  "regional": null,
+  "trick": "CUÁNTO sounds like quantity: asking how much is asking the quantity.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/cuanto-how-much-384.word.mp3",
+    "sentence": "/deck/audio/cuanto-how-much-384.sentence.mp3"
+  }
+}

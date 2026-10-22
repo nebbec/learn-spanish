@@ -1,0 +1,28 @@
+{
+  "id": "ocurrir-happen",
+  "rank": 280,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ocurrir",
+  "en": "to occur",
+  "hint": "to happen, a bit more formal than pasar",
+  "grammar": {
+    "present": {
+      "yo": "ocurro",
+      "tu": "ocurres",
+      "el": "ocurre"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Qué ocurrió anoche en la fiesta?",
+    "en": "What happened last night at the party?"
+  },
+  "regional": null,
+  "trick": "OCURRIR sounds like occur: things that occur are things that happen.",
+  "image": "/deck/img/ocurrir-happen.webp",
+  "audio": {
+    "word": "/deck/audio/ocurrir-happen.word.mp3",
+    "sentence": "/deck/audio/ocurrir-happen.sentence.mp3"
+  }
+}

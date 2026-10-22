@@ -1,0 +1,17 @@
+{
+  "id": "apoyar-support",
+  "rank": 728,
+  "word": "apoyar",
+  "draft": "efb571852474227f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to support, to back (someone or something); also to lean or rest (something on something)",
+    "example": "My family always supports me."
+  },
+  "note": "Apoyar is the standard answer for \"to support\". Learners may confuse it with soportar, which usually means \"to put up with\", so the editor could mention that somewhere, but the card does not need a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:39:56.924Z"
+}

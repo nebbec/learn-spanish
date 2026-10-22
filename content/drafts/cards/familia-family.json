@@ -1,0 +1,24 @@
+{
+  "id": "familia-family",
+  "rank": 231,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la familia",
+  "en": "family",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Mi familia vive en Guadalajara.",
+    "en": "My family lives in Guadalajara."
+  },
+  "regional": null,
+  "trick": "FAMILIA sounds like \"familiar\": your family are the most familiar faces you know.",
+  "image": "/deck/img/familia-family.webp",
+  "audio": {
+    "word": "/deck/audio/familia-family.word.mp3",
+    "sentence": "/deck/audio/familia-family.sentence.mp3"
+  }
+}

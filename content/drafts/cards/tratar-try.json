@@ -1,0 +1,28 @@
+{
+  "id": "tratar-try",
+  "rank": 157,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tratar",
+  "en": "to try",
+  "hint": "used with de + verb, not intentar",
+  "grammar": {
+    "present": {
+      "yo": "trato",
+      "tu": "tratas",
+      "el": "trata"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "Trato de dormir, pero no puedo.",
+    "en": "I'm trying to sleep, but I can't."
+  },
+  "regional": null,
+  "trick": "TRATAR sounds like \"try that\": you try that again and again.",
+  "image": "/deck/img/tratar-try.webp",
+  "audio": {
+    "word": "/deck/audio/tratar-try.word.mp3",
+    "sentence": "/deck/audio/tratar-try.sentence.mp3"
+  }
+}

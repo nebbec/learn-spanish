@@ -1,0 +1,24 @@
+{
+  "id": "agente-agent",
+  "rank": 475,
+  "kind": "content",
+  "pos": "noun",
+  "target": "el agente",
+  "en": "agent",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "el"
+  },
+  "example": {
+    "target": "El agente me pidió los documentos.",
+    "en": "The agent asked me for my documents."
+  },
+  "regional": null,
+  "trick": "AGENTE sounds like \"a gent\": a gentleman in a suit and dark glasses is a secret agent.",
+  "image": "/deck/img/agente-agent.webp",
+  "audio": {
+    "word": "/deck/audio/agente-agent.word.mp3",
+    "sentence": "/deck/audio/agente-agent.sentence.mp3"
+  }
+}

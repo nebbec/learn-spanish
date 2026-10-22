@@ -1,0 +1,17 @@
+{
+  "id": "elegir-choose",
+  "rank": 504,
+  "word": "elegir",
+  "draft": "28ad25f547a19fb5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "to choose, to pick; to elect (by vote)",
+    "example": "I always choose pizza."
+  },
+  "note": "The hint is correct and rules out escoger, but it reads awkwardly; something like \"also means to elect; not escoger\" would be clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:52:22.466Z"
+}

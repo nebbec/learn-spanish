@@ -1,0 +1,17 @@
+{
+  "id": "ventana-window",
+  "rank": 784,
+  "word": "ventana",
+  "draft": "e6ea7b4f3398bd07",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the window",
+    "example": "Can you open the window, please?"
+  },
+  "note": "Ventanilla means a car, train or ticket window, but ventana is still the standard answer for plain \"window\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:48.582Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "enganar-cheat-on",
+  "rank": 742,
+  "kind": "content",
+  "pos": "verb",
+  "target": "engañar",
+  "en": "to cheat on",
+  "hint": "a partner",
+  "grammar": {
+    "present": {
+      "yo": "engaño",
+      "tu": "engañas",
+      "el": "engaña"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "¿Me estás engañando con otra?",
+    "en": "Are you cheating on me with someone else?"
+  },
+  "regional": null,
+  "trick": "ENGAÑAR sounds like 'in a GAIN': a cheating partner thinks they're in for a gain, but they lose everything.",
+  "image": "/deck/img/enganar-cheat-on.webp",
+  "audio": {
+    "word": "/deck/audio/enganar-cheat-on.word.mp3",
+    "sentence": "/deck/audio/enganar-cheat-on.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sino-but-rather",
+  "rank": 600,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "sino",
+  "en": "not red [but] blue",
+  "hint": "but rather, correcting a negative (not pero)",
+  "grammar": null,
+  "example": {
+    "target": "No es mi hermano, sino mi primo.",
+    "en": "He's not my brother, but my cousin."
+  },
+  "regional": null,
+  "trick": "SINO sounds like see, no: see, no, not that one, but rather this one.",
+  "image": null,
+  "audio": {
+    "word": "/deck/audio/sino-but-rather.word.mp3",
+    "sentence": "/deck/audio/sino-but-rather.sentence.mp3"
+  }
+}

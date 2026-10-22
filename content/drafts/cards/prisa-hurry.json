@@ -1,0 +1,24 @@
+{
+  "id": "prisa-hurry",
+  "rank": 752,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la prisa",
+  "en": "hurry",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "Tranquilo, no tengo prisa.",
+    "en": "Relax, I'm not in a hurry."
+  },
+  "regional": null,
+  "trick": "PRISA sounds like \"pressa\", as in pressed for time: when you're pressed, you're in a hurry.",
+  "image": "/deck/img/prisa-hurry.webp",
+  "audio": {
+    "word": "/deck/audio/prisa-hurry.word.mp3",
+    "sentence": "/deck/audio/prisa-hurry.sentence.mp3"
+  }
+}

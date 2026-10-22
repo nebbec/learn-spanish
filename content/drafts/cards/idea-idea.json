@@ -1,0 +1,24 @@
+{
+  "id": "idea-idea",
+  "rank": 212,
+  "kind": "content",
+  "pos": "noun",
+  "target": "la idea",
+  "en": "idea",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "la"
+  },
+  "example": {
+    "target": "¡Qué buena idea! Vamos a la playa.",
+    "en": "What a good idea! Let's go to the beach."
+  },
+  "regional": null,
+  "trick": "IDEA is spelled just like English idea; say it ee-DAY-ah, as if a new idea lights up your day.",
+  "image": "/deck/img/idea-idea.webp",
+  "audio": {
+    "word": "/deck/audio/idea-idea.word.mp3",
+    "sentence": "/deck/audio/idea-idea.sentence.mp3"
+  }
+}

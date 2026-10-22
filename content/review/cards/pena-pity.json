@@ -1,0 +1,17 @@
+{
+  "id": "pena-pity",
+  "rank": 581,
+  "word": "pena",
+  "draft": "79ed6142cbc4b59c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "sorrow, grief; pity, shame (as in qué pena, what a shame)",
+    "example": "What a shame you can't come!"
+  },
+  "note": "On its own, \"sorrow\" could also suggest tristeza, but the hint's frame \"qué ___, what a shame\" and \"not lástima\" leave pena as the only answer and keep it apart from the \"embarrassment\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:57:36.360Z"
+}

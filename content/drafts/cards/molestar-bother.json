@@ -1,0 +1,28 @@
+{
+  "id": "molestar-bother",
+  "rank": 455,
+  "kind": "content",
+  "pos": "verb",
+  "target": "molestar",
+  "en": "to bother",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "molesto",
+      "tu": "molestas",
+      "el": "molesta"
+    },
+    "irregular": false
+  },
+  "example": {
+    "target": "No me molestes, estoy trabajando.",
+    "en": "Don't bother me, I'm working."
+  },
+  "regional": null,
+  "trick": "MOLESTAR looks like molest, but it is only a pest: a little MOLE-STAR that keeps bothering you.",
+  "image": "/deck/img/molestar-bother.webp",
+  "audio": {
+    "word": "/deck/audio/molestar-bother.word.mp3",
+    "sentence": "/deck/audio/molestar-bother.sentence.mp3"
+  }
+}

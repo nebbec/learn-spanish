@@ -1,0 +1,14 @@
+{
+  "id": "luchar-fight",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use luchar for struggling or fighting for something, like a cause; pelear for a brawl or a quarrel.",
+  "draft": "11bd2272b300d14d",
+  "group": "#593 luchar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-10T12:49:40.639Z"
+}

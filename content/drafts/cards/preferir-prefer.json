@@ -1,0 +1,28 @@
+{
+  "id": "preferir-prefer",
+  "rank": 540,
+  "kind": "content",
+  "pos": "verb",
+  "target": "preferir",
+  "en": "to prefer",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "yo": "prefiero",
+      "tu": "prefieres",
+      "el": "prefiere"
+    },
+    "irregular": true
+  },
+  "example": {
+    "target": "Prefiero el café sin azúcar.",
+    "en": "I prefer coffee without sugar."
+  },
+  "regional": null,
+  "trick": "PREFERIR sounds like \"prefer here\": you'd prefer to stay right here.",
+  "image": "/deck/img/preferir-prefer.webp",
+  "audio": {
+    "word": "/deck/audio/preferir-prefer.word.mp3",
+    "sentence": "/deck/audio/preferir-prefer.sentence.mp3"
+  }
+}

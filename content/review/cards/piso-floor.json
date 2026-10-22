@@ -1,0 +1,17 @@
+{
+  "id": "piso-floor",
+  "rank": 785,
+  "word": "piso",
+  "draft": "9834065a61292050",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "floor (the surface of a room, or a storey of a building)",
+    "example": "Careful, the floor is wet."
+  },
+  "note": "Suelo is also heard in Latin America for the ground (se cayó al suelo), but piso is the standard everyday word for a room's floor and a building level, so the card holds; in Spain piso also means apartment, which the learner may meet later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T12:43:54.315Z"
+}

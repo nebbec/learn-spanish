@@ -1,0 +1,17 @@
+{
+  "id": "idea-idea",
+  "rank": 212,
+  "word": "idea",
+  "draft": "3c7e7301ece46ad6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "es": "the idea (noun)",
+    "example": "What a good idea! Let's go to the beach."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-09T14:30:37.091Z"
+}
