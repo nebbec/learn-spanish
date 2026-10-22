@@ -3,15 +3,15 @@
   "rank": 51,
   "kind": "content",
   "pos": "adverb",
-  "es": "ya",
+  "target": "ya",
   "en": "already",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Ya comí, gracias.",
+    "target": "Ya comí, gracias.",
     "en": "I already ate, thanks."
   },
-  "spain": null,
+  "regional": null,
   "trick": "YA sounds like a happy \"yay\": you cheer because it's already done.",
   "image": "/deck/img/ya-already.webp",
   "audio": {

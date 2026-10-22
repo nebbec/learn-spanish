@@ -9,9 +9,11 @@
 
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { ARTICLES, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard } from "@/lib/deck/types";
-import { FORM_ID, PHRASE_ID, validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
+import { ARTICLES, REGIONS, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH, type DraftCard, type Regional } from "@/lib/deck/types";
+import { CASE_ID, FORM_ID, GERMAN_FORM_ID, PHRASE_ID, validateDraftCard, validateDraftCards } from "@/lib/deck/validate";
 import type { CallUsage, DraftRequest, Effort, Runner } from "./claude";
+import { GERMAN_DRAFT_SYSTEM, germanDraftSchema, germanDraftSystem, type SpanishMeaning } from "./prompts-de";
+import { LANGS, type LangCode } from "./script-lang";
 
 export interface WordEntry {
   rank: number;
@@ -35,15 +37,23 @@ export function parseWordList(text: string): WordEntry[] {
   });
 }
 
-/** Lower-case ASCII: accents dropped, anything else between words becomes a hyphen. */
-export function slug(text: string): string {
-  return text
+/**
+ * Lower-case ASCII: accents dropped, anything else between words becomes a hyphen. German writes ä, ö and ü as ae,
+ * oe and ue and ß as ss first (DE7), so `schön` is `schoen`, never `schon`, and `weiß` is `weiss`.
+ */
+export function slug(text: string, lang: LangCode = "es"): string {
+  const spelled = lang === "de" ? germanAscii(text) : text;
+  return spelled
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
+
+/** German's spelling in ASCII: ä, ö, ü as ae, oe, ue and ß as ss, keeping a capital's case. */
+export const germanAscii = (text: string) =>
+  text.replace(/[äöüÄÖÜß]/g, (c) => ({ ä: "ae", ö: "oe", ü: "ue", Ä: "Ae", Ö: "Oe", Ü: "Ue", ß: "ss" })[c]!);
 
 export const SKIP_REASONS = [
   "interjection",
@@ -53,7 +63,13 @@ export const SKIP_REASONS = [
   "covered-elsewhere",
   "other",
 ] as const;
-export type SkipReason = (typeof SKIP_REASONS)[number];
+
+/** The skip reasons per language (DE7): German's word used only in Austria or Switzerland is `regional-only`. */
+export const SKIP_REASONS_BY_LANG: Readonly<Record<LangCode, readonly string[]>> = {
+  es: SKIP_REASONS,
+  de: ["interjection", "vulgar", "regional-only", "name-or-foreign", "covered-elsewhere", "other"],
+};
+export type SkipReason = (typeof SKIP_REASONS)[number] | "regional-only";
 export interface Skip {
   reason: SkipReason;
   note: string;
@@ -130,6 +146,31 @@ export const DRAFT_SCHEMA: Record<string, unknown> = object({
   },
 });
 
+/**
+ * The word pass's system prompt and schema per language (DE5). German's prompt (DE7) is followed by the Spanish
+ * cards it may name in `sameAs`: see `draftRequest`.
+ */
+export const DRAFT_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Record<string, unknown> }>> = {
+  es: { system: SYSTEM_PROMPT, schema: DRAFT_SCHEMA },
+  de: { system: GERMAN_DRAFT_SYSTEM, schema: germanDraftSchema(SKIP_REASONS_BY_LANG.de) },
+};
+
+export type { SpanishMeaning };
+
+/** The Spanish content cards of a Spanish draft store, in id order: what German's `sameAs` may name. */
+export function spanishMeanings(spanish: DraftStore): SpanishMeaning[] {
+  return spanish
+    .cards()
+    .filter((c) => c.kind === "content")
+    .map(({ id, en, hint }) => ({ id, en, hint }));
+}
+
+/** The word pass's request for a language: German's system prompt ends with the Spanish cards `sameAs` may name. */
+export function draftRequest(lang: LangCode, spanish: readonly SpanishMeaning[] = []) {
+  const request = DRAFT_REQUESTS[lang];
+  return lang === "es" ? request : { ...request, system: germanDraftSystem(spanish) };
+}
+
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
 
@@ -176,19 +217,42 @@ export class Guard {
 }
 
 /**
- * Media paths follow the id. The image extension is a placeholder until F2; the deck build replaces the audio paths
- * with G2's. A form card keeps the image it is given: its verb's still.
+ * Media paths follow the id, under the language's deck (`/deck/` or `/deck-de/`). The image extension is a
+ * placeholder until F2; the deck build replaces the audio paths with G2's. A form card keeps the image it is
+ * given: its verb's still.
  */
-export function withMedia<T extends { id: string; kind: unknown; image?: string | null }>(card: T) {
+export function withMedia<T extends { id: string; kind: unknown; image?: string | null }>(card: T, lang: LangCode = "es") {
+  const deck = LANGS[lang].deckPath;
   return {
     ...card,
-    image: card.kind === "content" ? `/deck/img/${card.id}.webp` : card.kind === "form" ? (card.image ?? null) : null,
-    audio: { word: `/deck/audio/${card.id}.word.mp3`, sentence: `/deck/audio/${card.id}.sentence.mp3` },
+    image: card.kind === "content" ? `${deck}img/${card.id}.webp` : card.kind === "form" ? (card.image ?? null) : null,
+    audio: { word: `${deck}audio/${card.id}.word.mp3`, sentence: `${deck}audio/${card.id}.sentence.mp3` },
   };
 }
 
-function grammarFor(pos: unknown, raw: unknown, g: Guard): unknown {
+/** German grammar from the flat object of German's schema (prompts-de.ts): the fields `pos` uses. */
+function germanGrammarFor(pos: unknown, gr: Rec, g: Guard): unknown {
+  if (pos === "noun") return { gender: gr.gender, article: gr.article, plural: g.optional(gr.plural, "grammar.plural") };
+  if (pos === "verb") {
+    const p = isRec(gr.present) ? gr.present : {};
+    const perfekt = isRec(gr.perfekt) ? gr.perfekt : {};
+    return {
+      present: {
+        ich: g.text(p.ich, "grammar.present.ich"),
+        du: g.text(p.du, "grammar.present.du"),
+        er: g.text(p.er, "grammar.present.er"),
+      },
+      irregular: gr.irregular,
+      separable: gr.separable,
+      perfekt: { aux: perfekt.aux, participle: g.text(perfekt.participle, "grammar.perfekt.participle") },
+    };
+  }
+  return null;
+}
+
+function grammarFor(pos: unknown, raw: unknown, g: Guard, lang: LangCode = "es"): unknown {
   const gr = isRec(raw) ? raw : {};
+  if (lang === "de") return germanGrammarFor(pos, gr, g);
   if (pos === "noun") return { gender: gr.gender, article: gr.article };
   if (pos === "adjective") return { feminine: g.text(gr.feminine, "grammar.feminine") };
   if (pos === "verb") {
@@ -205,56 +269,129 @@ function grammarFor(pos: unknown, raw: unknown, g: Guard): unknown {
   return null;
 }
 
-function buildCard(raw: unknown, entry: WordEntry, g: Guard): DraftCard {
+function buildCard(raw: unknown, entry: WordEntry, g: Guard, lang: LangCode = "es"): DraftCard {
   const r = isRec(raw) ? raw : {};
   const id = typeof r.id === "string" ? r.id.trim().toLowerCase() : "";
-  const prefix = slug(entry.word);
+  const prefix = slug(entry.word, lang);
   if (id !== prefix && !id.startsWith(`${prefix}-`)) g.fail("id");
-  const example = isRec(r.example) ? r.example : {};
-  const card = withMedia({
-    id,
-    rank: entry.rank,
-    kind: r.kind,
-    pos: r.pos,
-    es: g.text(r.es, "es"),
-    en: g.text(r.en, "en"),
-    hint: g.optional(r.hint, "hint"),
-    grammar: grammarFor(r.pos, r.grammar, g),
-    example: { es: g.text(example.es, "example.es"), en: g.text(example.en, "example.en") },
-    spain: g.optional(r.spain, "spain"),
-    trick: g.text(r.trick, "trick"),
-  });
-  guardValid(card, g);
+  const claude = claudeTexts(r, g, lang);
+  const card = withMedia(
+    {
+      id,
+      rank: entry.rank,
+      kind: r.kind,
+      pos: r.pos,
+      target: claude.target,
+      en: g.text(r.en, "en"),
+      hint: g.optional(r.hint, "hint"),
+      grammar: grammarFor(r.pos, r.grammar, g, lang),
+      example: claude.example,
+      regional: claude.regional,
+      trick: g.text(r.trick, "trick"),
+    },
+    lang,
+  );
+  guardValid(card, g, lang);
   return card as DraftCard;
 }
 
-/** Runs the deck validator on one drafted card and adds the failing field names to the guard. */
-export function guardValid(card: { id: string }, g: Guard) {
-  const validation = validateDraftCard(card);
+/**
+ * The answer, the example and the regional footnote from Claude's answer, by the language's field names: the
+ * Spanish schemas keep `es`, `example.es` and `spain` (a string; Spain is the only region), German's use the
+ * deck's own `target`, `example.target` and `regional` (`{ where, text }` or null): DE7 kept them.
+ */
+export function claudeTexts(r: Rec, g: Guard, lang: LangCode = "es") {
+  if (lang === "es") {
+    return {
+      target: g.text(r.es, "es"),
+      example: claudeExample(r, g, lang),
+      regional: spainFootnote(g.optional(r.spain, "spain")),
+    };
+  }
+  return {
+    target: g.text(r.target, "target"),
+    example: claudeExample(r, g, lang),
+    regional: regionalFootnote(r.regional, g, lang),
+  };
+}
+
+/** The example from Claude's answer: `example.es` in the Spanish schemas, `example.target` in German's. */
+export function claudeExample(r: Rec, g: Guard, lang: LangCode = "es") {
+  const example = isRec(r.example) ? r.example : {};
+  const key = lang === "es" ? "es" : "target";
+  return { target: g.text(example[key], `example.${key}`), en: g.text(example.en, "example.en") };
+}
+
+/** A regional footnote Claude gives as `{ where, text }` (German): blank text is none; `where` is checked by the validator. */
+export function regionalFootnote(raw: unknown, g: Guard, lang: LangCode): Regional | null {
+  if (raw == null) return null;
+  if (!isRec(raw)) {
+    g.fail("regional");
+    return null;
+  }
+  const text = g.optional(raw.text, "regional.text");
+  if (!text) return null;
+  const where = typeof raw.where === "string" ? raw.where.trim() : "";
+  if (!REGIONS[lang].includes(where)) g.fail("regional.where");
+  return { where, text };
+}
+
+/**
+ * Claude's `spain` (the Spanish prompts keep their field names) as the deck's regional
+ * footnote. Format 3 names the region on the card (docs/german.md, "Card data").
+ */
+export function spainFootnote(text: string | null): Regional | null {
+  return text ? { where: "Spain", text } : null;
+}
+
+/**
+ * The deck's field names (format 3) as the Spanish prompts' schemas name them, for the failing fields a guard
+ * reports. German's schemas use the deck's names.
+ */
+function claudeField(field: string, lang: LangCode): string {
+  if (lang !== "es") return field;
+  if (field === "target") return "es";
+  if (field === "example.target") return "example.es";
+  if (field === "regional" || field.startsWith("regional.")) return "spain";
+  return field;
+}
+
+/** Runs the deck validator on one drafted card and adds the failing field names to the guard, as Claude's answer names them. */
+export function guardValid(card: { id: string }, g: Guard, lang: LangCode = "es") {
+  const validation = validateDraftCard(card, lang);
   for (const error of validation.ok ? [] : validation.errors) {
     // Errors read "card <id>.<field>: <message>"; keep only the field.
     const rest = error.slice(`card ${card.id}`.length);
-    g.fail(rest.startsWith(".") ? rest.slice(1, rest.indexOf(":")) : "card");
+    g.fail(rest.startsWith(".") ? claudeField(rest.slice(1, rest.indexOf(":")), lang) : "card");
   }
 }
 
-/** A form or phrase card's id: these belong to a group file, not to the word that shares their rank. */
-export const isPathId = (id: string) => FORM_ID.test(id) || PHRASE_ID.test(id);
+/** A form, phrase or case card's id: these belong to a group file, not to the word that shares their rank. */
+export const isPathId = (id: string) => FORM_ID.test(id) || GERMAN_FORM_ID.test(id) || PHRASE_ID.test(id) || CASE_ID.test(id);
 
 /** The kinds of group file the learning path adds beside the word files (L3). */
 export type GroupKind = "form" | "phrase";
 
 /** The guard's verdict on one answer. `T` is what a task drafts: cards, or a tip (L4). */
 export type Guarded<T = DraftCard> =
-  | { ok: true; cards: T[]; skip: Skip | null }
+  /** `sameAs` (German word cards, DE7): each card's Spanish card of the same meaning, or null, in card order. */
+  | { ok: true; cards: T[]; skip: Skip | null; sameAs?: Array<string | null> }
   | { ok: false; kind: "shape" | "invalid"; fields: string[] };
 
-/** The output guard: turns Claude's answer for one word into valid cards, or names the failing fields. */
-export function guardDraft(output: unknown, entry: WordEntry): Guarded {
+/**
+ * The output guard: turns Claude's answer for one word into valid cards, or names the failing fields. A German
+ * card's `sameAs` must be null or one of `spanish`'s ids (DE7); it is returned beside the cards, never in them.
+ */
+export function guardDraft(
+  output: unknown,
+  entry: WordEntry,
+  lang: LangCode = "es",
+  spanish: ReadonlySet<string> = new Set(),
+): Guarded {
   if (!isRec(output) || !Array.isArray(output.cards)) return { ok: false, kind: "shape", fields: [] };
   if (output.skip != null) {
     const skip = output.skip;
-    if (!isRec(skip) || !SKIP_REASONS.includes(skip.reason as SkipReason) || output.cards.length > 0) {
+    if (!isRec(skip) || !SKIP_REASONS_BY_LANG[lang].includes(skip.reason as string) || output.cards.length > 0) {
       return { ok: false, kind: "invalid", fields: ["skip"] };
     }
     return { ok: true, cards: [], skip: { reason: skip.reason as SkipReason, note: String(skip.note ?? "") } };
@@ -263,15 +400,24 @@ export function guardDraft(output: unknown, entry: WordEntry): Guarded {
     return { ok: false, kind: "invalid", fields: ["cards"] };
   }
   const g = new Guard();
-  const cards = output.cards.map((raw) => buildCard(raw, entry, g));
+  const cards = output.cards.map((raw) => buildCard(raw, entry, g, lang));
   if (new Set(cards.map((c) => c.id)).size < cards.length) g.fail("id");
   const prompts = cards.map((c) => `${c.en.toLowerCase()}|${(c.hint ?? "").toLowerCase()}`);
   if (new Set(prompts).size < cards.length) g.fail("en");
+  if (lang === "es") {
+    if (g.fields.size > 0) return { ok: false, kind: "invalid", fields: [...g.fields].sort() };
+    return { ok: true, cards, skip: null };
+  }
+  const sameAs = output.cards.map((raw) => {
+    const value = isRec(raw) && typeof raw.sameAs === "string" ? raw.sameAs.trim() : null;
+    if (value && !spanish.has(value)) g.fail("sameAs");
+    return value || null;
+  });
   if (g.fields.size > 0) return { ok: false, kind: "invalid", fields: [...g.fields].sort() };
-  return { ok: true, cards, skip: null };
+  return { ok: true, cards, skip: null, sameAs };
 }
 
-/** The draft files under one directory (content/drafts by default). */
+/** The draft files under one directory (content/drafts by default), for one language (DE5): Spanish unless given. */
 export class DraftStore {
   readonly cardsDir: string;
   readonly wordsDir: string;
@@ -284,7 +430,10 @@ export class DraftStore {
   /** Every card file on disk: id to rank. */
   readonly index = new Map<string, number>();
 
-  constructor(readonly dir: string) {
+  constructor(
+    readonly dir: string,
+    readonly lang: LangCode = "es",
+  ) {
     this.cardsDir = path.join(dir, "cards");
     this.wordsDir = path.join(dir, "words");
     this.formsDir = path.join(dir, "forms");
@@ -314,9 +463,10 @@ export class DraftStore {
   /**
    * Replaces a word's cards. Card files go first and the word file last, so a
    * word whose word file is missing is drafted again on the next run. An id
-   * another word already holds gets this word's rank appended.
+   * another word already holds gets this word's rank appended. A German word
+   * file keeps each card's `sameAs` by the id saved (DE7); it is never shipped.
    */
-  saveWord(entry: WordEntry, cards: DraftCard[], skip: Skip | null, meta: Rec): string[] {
+  saveWord(entry: WordEntry, cards: DraftCard[], skip: Skip | null, meta: Rec, sameAs?: Array<string | null>): string[] {
     for (const [id, rank] of this.index) {
       // Form and phrase cards share ranks with words but belong to their group files.
       if (rank !== entry.rank || isPathId(id)) continue;
@@ -325,12 +475,13 @@ export class DraftStore {
     }
     const ids: string[] = [];
     for (let card of cards) {
-      if (this.index.has(card.id)) card = withMedia({ ...card, id: `${card.id}-${entry.rank}` }) as DraftCard;
+      if (this.index.has(card.id)) card = withMedia({ ...card, id: `${card.id}-${entry.rank}` }, this.lang) as DraftCard;
       writeJson(path.join(this.cardsDir, `${card.id}.json`), card);
       this.index.set(card.id, entry.rank);
       ids.push(card.id);
     }
-    writeJson(this.wordFile(entry.rank), { rank: entry.rank, word: entry.word, cards: ids, skip, ...meta });
+    const same = sameAs ? { sameAs: Object.fromEntries(ids.map((id, i) => [id, sameAs[i] ?? null])) } : {};
+    writeJson(this.wordFile(entry.rank), { rank: entry.rank, word: entry.word, cards: ids, skip, ...same, ...meta });
     return ids;
   }
 
@@ -377,7 +528,7 @@ export class DraftStore {
 
   /** Checks every drafted card together, as the deck build will. Returns "id.field" for each problem. */
   deckProblems(): string[] {
-    const result = validateDraftCards(this.cards());
+    const result = validateDraftCards(this.cards(), this.lang);
     if (result.ok) return [];
     return result.errors.map((e) => e.replace(/^card /, "").split(":")[0]);
   }
@@ -407,6 +558,8 @@ export interface DraftOptions {
   redo?: boolean;
   /** Stop starting calls after this many failed calls in a row. */
   stopAfter?: number;
+  /** German's word pass (DE7): the Spanish cards a card's `sameAs` may name. None when left out. */
+  spanish?: readonly SpanishMeaning[];
   print?: (line: string) => void;
   sleep?: (ms: number) => Promise<void>;
   now?: () => number;
@@ -453,17 +606,25 @@ export interface DraftTask<T = DraftCard> {
 
 export async function draftWords(entries: WordEntry[], options: DraftOptions): Promise<DraftSummary> {
   const { store } = options;
-  const tasks = entries.map(
-    (entry): DraftTask => ({
+  const spanish = options.spanish ?? [];
+  const request = draftRequest(store.lang, spanish);
+  const spanishIds = new Set(spanish.map((s) => s.id));
+  const tasks = entries.map((entry): DraftTask => {
+    let sameAs: Array<string | null> | undefined;
+    return {
       label: `#${entry.rank} ${entry.word}`,
       done: store.isDrafted(entry.rank),
       log: { rank: entry.rank, word: entry.word },
       failedName: String(entry.rank).padStart(4, "0"),
-      request: { system: SYSTEM_PROMPT, prompt: userPrompt(entry), schema: DRAFT_SCHEMA },
-      guard: (output) => guardDraft(output, entry),
-      save: (cards, skip, meta) => store.saveWord(entry, cards, skip, meta),
-    }),
-  );
+      request: { ...request, prompt: userPrompt(entry) },
+      guard: (output) => {
+        const guarded = guardDraft(output, entry, store.lang, spanishIds);
+        sameAs = guarded.ok ? guarded.sameAs : undefined;
+        return guarded;
+      },
+      save: (cards, skip, meta) => store.saveWord(entry, cards, skip, meta, store.lang === "es" ? undefined : (sameAs ?? [])),
+    };
+  });
   return runDraftTasks(tasks, options);
 }
 

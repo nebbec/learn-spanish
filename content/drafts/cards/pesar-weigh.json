@@ -3,7 +3,7 @@
   "rank": 658,
   "kind": "content",
   "pos": "verb",
-  "es": "pesar",
+  "target": "pesar",
   "en": "to weigh",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Esta maleta pesa demasiado.",
+    "target": "Esta maleta pesa demasiado.",
     "en": "This suitcase weighs too much."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PESAR sounds like 'pay czar': the czar makes you pay by how much your gold weighs.",
   "image": "/deck/img/pesar-weigh.webp",
   "audio": {

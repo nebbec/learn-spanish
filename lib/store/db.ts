@@ -15,10 +15,12 @@ import type {
   SyncTable,
   Unsynced,
 } from "./types";
+import { NAMES } from "@/lang";
 import { sinceLatestReset } from "./reset";
 
-export const DB_NAME = "learn-spanish";
-const DEVICE_ID_KEY = "learn-spanish.device-id";
+/** The build's database: `learn-spanish` or `learn-german` (lang/). */
+export const DB_NAME = NAMES.database;
+const DEVICE_ID_KEY = NAMES.deviceId;
 
 class LocalDb extends Dexie {
   reviews!: Table<Review, string>;

@@ -3,15 +3,15 @@
   "rank": 370,
   "kind": "content",
   "pos": "adverb",
-  "es": "arriba",
+  "target": "arriba",
   "en": "up",
   "hint": "also upstairs, above",
   "grammar": null,
   "example": {
-    "es": "Mi cuarto está arriba.",
+    "target": "Mi cuarto está arriba.",
     "en": "My room is upstairs."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ARRIBA sounds like \"arrive up\": you arrive up at the top of the stairs.",
   "image": "/deck/img/arriba-up.webp",
   "audio": {

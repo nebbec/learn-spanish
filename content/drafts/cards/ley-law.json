@@ -3,7 +3,7 @@
   "rank": 596,
   "kind": "content",
   "pos": "noun",
-  "es": "la ley",
+  "target": "la ley",
   "en": "law",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Nadie está por encima de la ley.",
+    "target": "Nadie está por encima de la ley.",
     "en": "No one is above the law."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LEY sounds like \"lay\": the law is laid down for everyone to follow.",
   "image": "/deck/img/ley-law.webp",
   "audio": {

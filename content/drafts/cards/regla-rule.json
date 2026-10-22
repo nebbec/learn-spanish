@@ -3,7 +3,7 @@
   "rank": 775,
   "kind": "content",
   "pos": "noun",
-  "es": "la regla",
+  "target": "la regla",
   "en": "rule",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "En mi casa, mis reglas.",
+    "target": "En mi casa, mis reglas.",
     "en": "In my house, my rules."
   },
-  "spain": null,
+  "regional": null,
   "trick": "REGLA sounds like 'regular': rules keep everything regular.",
   "image": "/deck/img/regla-rule.webp",
   "audio": {

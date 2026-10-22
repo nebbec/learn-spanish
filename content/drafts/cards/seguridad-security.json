@@ -3,7 +3,7 @@
   "rank": 476,
   "kind": "content",
   "pos": "noun",
-  "es": "la seguridad",
+  "target": "la seguridad",
   "en": "security, safety",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Llama a seguridad, hay un hombre afuera.",
+    "target": "Llama a seguridad, hay un hombre afuera.",
     "en": "Call security, there's a man outside."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEGURIDAD sounds like \"secure-a-dad\": security means keeping your dad safe and secure.",
   "image": "/deck/img/seguridad-security.webp",
   "audio": {

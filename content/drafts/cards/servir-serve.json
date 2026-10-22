@@ -3,7 +3,7 @@
   "rank": 438,
   "kind": "content",
   "pos": "verb",
-  "es": "servir",
+  "target": "servir",
   "en": "to serve",
   "hint": "food, drinks",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Ella sirve la cena a las ocho.",
+    "target": "Ella sirve la cena a las ocho.",
     "en": "She serves dinner at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SERVIR sounds like serve-ear: the waiter serves soup and whispers the specials in your ear.",
   "image": "/deck/img/servir-serve.webp",
   "audio": {

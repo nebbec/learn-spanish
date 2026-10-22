@@ -3,7 +3,7 @@
   "rank": 373,
   "kind": "content",
   "pos": "noun",
-  "es": "el final",
+  "target": "el final",
   "en": "end",
   "hint": "the ending, as in al ___ (in the end); not fin",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Al final, todo salió bien.",
+    "target": "Al final, todo salió bien.",
     "en": "In the end, everything turned out fine."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EL FINAL looks like the English word final: the final part of a movie is its end.",
   "image": "/deck/img/final-end.webp",
   "audio": {

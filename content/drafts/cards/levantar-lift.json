@@ -3,7 +3,7 @@
   "rank": 412,
   "kind": "content",
   "pos": "verb",
-  "es": "levantar",
+  "target": "levantar",
   "en": "to lift",
   "hint": "raise something up",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Levanta la mano si sabes la respuesta.",
+    "target": "Levanta la mano si sabes la respuesta.",
     "en": "Raise your hand if you know the answer."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LEVANTAR starts like lever: you use a lever to lift heavy things.",
   "image": "/deck/img/levantar-lift.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 551,
   "kind": "content",
   "pos": "noun",
-  "es": "la relación",
+  "target": "la relación",
   "en": "relationship",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tengo una buena relación con mi hermano.",
+    "target": "Tengo una buena relación con mi hermano.",
     "en": "I have a good relationship with my brother."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RELACIÓN sounds like relation: your relations are the people you have a relationship with.",
   "image": "/deck/img/relacion-relationship.webp",
   "audio": {

@@ -1,0 +1,17 @@
+{
+  "id": "werden-will",
+  "rank": 13,
+  "word": "werden",
+  "draft": "948f707c811a2d98",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "will (helper verb forming the future: wir werden = we will)",
+    "example": "I will call you tomorrow."
+  },
+  "note": "The hint is not strictly needed, since \"We [will] see\" already points to werden, but it helps keep this card apart from the \"to become\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:51.171Z"
+}

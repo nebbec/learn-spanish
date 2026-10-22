@@ -3,7 +3,7 @@
   "rank": 101,
   "kind": "content",
   "pos": "verb",
-  "es": "parecer",
+  "target": "parecer",
   "en": "to seem",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Tu hermano parece muy cansado hoy.",
+    "target": "Tu hermano parece muy cansado hoy.",
     "en": "Your brother seems very tired today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARECER sounds like \"pair of sirs\": two gentlemen who seem exactly alike.",
   "image": "/deck/img/parecer-seem.webp",
   "audio": {

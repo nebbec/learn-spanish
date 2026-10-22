@@ -3,7 +3,7 @@
   "rank": 449,
   "kind": "content",
   "pos": "noun",
-  "es": "la noticia",
+  "target": "la noticia",
   "en": "news",
   "hint": "a piece of news; plural for the news",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tengo buenas noticias para ti.",
+    "target": "Tengo buenas noticias para ti.",
     "en": "I have good news for you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOTICIA sounds like notice: news is whatever everyone suddenly notices.",
   "image": "/deck/img/noticia-news.webp",
   "audio": {

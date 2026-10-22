@@ -3,7 +3,7 @@
   "rank": 519,
   "kind": "content",
   "pos": "noun",
-  "es": "el caballero",
+  "target": "el caballero",
   "en": "gentleman",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Buenas noches, damas y caballeros.",
+    "target": "Buenas noches, damas y caballeros.",
     "en": "Good evening, ladies and gentlemen."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CABALLERO sounds like \"cab a hero\": a true gentleman calls a cab for you like a hero.",
   "image": "/deck/img/caballero-gentleman.webp",
   "audio": {

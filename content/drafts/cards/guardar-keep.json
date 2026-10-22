@@ -3,7 +3,7 @@
   "rank": 671,
   "kind": "content",
   "pos": "verb",
-  "es": "guardar",
+  "target": "guardar",
   "en": "to keep",
   "hint": "put away, store, save",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Puedes guardar un secreto?",
+    "target": "¿Puedes guardar un secreto?",
     "en": "Can you keep a secret?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "GUARDAR sounds like guard: a guard keeps your things safe and puts them away.",
   "image": "/deck/img/guardar-keep.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 608,
   "kind": "content",
   "pos": "verb",
-  "es": "merecer",
+  "target": "merecer",
   "en": "to deserve",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Te mereces algo mejor.",
+    "target": "Te mereces algo mejor.",
     "en": "You deserve something better."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MERECER sounds like \"merit-ser\": if you have merit, you deserve the prize.",
   "image": "/deck/img/merecer-deserve.webp",
   "audio": {

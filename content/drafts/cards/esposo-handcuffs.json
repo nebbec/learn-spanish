@@ -3,7 +3,7 @@
   "rank": 253,
   "kind": "content",
   "pos": "noun",
-  "es": "las esposas",
+  "target": "las esposas",
   "en": "handcuffs",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "las"
   },
   "example": {
-    "es": "El policía le puso las esposas.",
+    "target": "El policía le puso las esposas.",
     "en": "The police officer put the handcuffs on him."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESPOSAS are like spouses: once they're on your wrists, you're bound together.",
   "image": "/deck/img/esposo-handcuffs.webp",
   "audio": {

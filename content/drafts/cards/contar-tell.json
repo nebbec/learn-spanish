@@ -3,7 +3,7 @@
   "rank": 224,
   "kind": "content",
   "pos": "verb",
-  "es": "contar",
+  "target": "contar",
   "en": "to tell",
   "hint": "a story or what happened, not decir",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Cuéntame qué pasó anoche.",
+    "target": "Cuéntame qué pasó anoche.",
     "en": "Tell me what happened last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONTAR sounds like 'count tales': a storyteller counts out tales one by one as he tells them.",
   "image": "/deck/img/contar-tell.webp",
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 299,
   "kind": "content",
   "pos": "adjective",
-  "es": "propio",
+  "target": "propio",
   "en": "own",
   "hint": null,
   "grammar": {
     "feminine": "propia"
   },
   "example": {
-    "es": "Quiero tener mi propia casa.",
+    "target": "Quiero tener mi propia casa.",
     "en": "I want to have my own house."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PROPIO sounds like property: your property is your own.",
   "image": "/deck/img/propio-own.webp",
   "audio": {

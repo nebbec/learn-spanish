@@ -3,7 +3,7 @@
   "rank": 412,
   "kind": "content",
   "pos": "verb",
-  "es": "levantarse",
+  "target": "levantarse",
   "en": "to get up",
   "hint": "out of bed",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me levanto a las seis todos los días.",
+    "target": "Me levanto a las seis todos los días.",
     "en": "I get up at six every day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LEVANTARSE: the sun rises in the Levant, the east, and you get up with it.",
   "image": "/deck/img/levantar-get-up.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 478,
   "kind": "glue",
   "pos": "determiner",
-  "es": "aquel",
+  "target": "aquel",
   "en": "[that] man over there",
   "hint": "far from both speakers, not ese",
   "grammar": null,
   "example": {
-    "es": "Aquel hombre es mi tío.",
+    "target": "Aquel hombre es mi tío.",
     "en": "That man over there is my uncle."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AQUEL sounds like \"a kill\": that hunter far away over there is about to make a kill.",
   "image": null,
   "audio": {

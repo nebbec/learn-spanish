@@ -3,17 +3,17 @@
   "rank": 397,
   "kind": "content",
   "pos": "adjective",
-  "es": "querido",
+  "target": "querido",
   "en": "dear",
   "hint": "loved, not expensive",
   "grammar": {
     "feminine": "querida"
   },
   "example": {
-    "es": "Hola, querida, ¿cómo estás hoy?",
+    "target": "Hola, querida, ¿cómo estás hoy?",
     "en": "Hi, dear, how are you today?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUERIDO sounds like 'carried-oh': you carry your dear ones close to your heart.",
   "image": "/deck/img/querido-dear.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 568,
   "kind": "content",
   "pos": "noun",
-  "es": "el cliente",
+  "target": "el cliente",
   "en": "customer, client",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El cliente siempre tiene la razón.",
+    "target": "El cliente siempre tiene la razón.",
     "en": "The customer is always right."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CLIENTE sounds like client: the client walks in, and you smile at your customer.",
   "image": "/deck/img/cliente-customer.webp",
   "audio": {

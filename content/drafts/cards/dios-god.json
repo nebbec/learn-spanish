@@ -3,7 +3,7 @@
   "rank": 112,
   "kind": "content",
   "pos": "noun",
-  "es": "el dios",
+  "target": "el dios",
   "en": "god",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¡Dios mío, qué susto me diste!",
+    "target": "¡Dios mío, qué susto me diste!",
     "en": "Oh my God, you scared me!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "DIOS hides inside adiós, which literally means to God: saying goodbye sends someone off to God.",
   "image": "/deck/img/dios-god.webp",
   "audio": {

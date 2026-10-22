@@ -1,0 +1,17 @@
+{
+  "rank": 20,
+  "word": "ja",
+  "cards": [
+    "ja-yes",
+    "ja-particle-really"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ja-yes": "si-yes",
+    "ja-particle-really": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:31:29.483Z"
+}

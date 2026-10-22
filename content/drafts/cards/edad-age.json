@@ -3,7 +3,7 @@
   "rank": 626,
   "kind": "content",
   "pos": "noun",
-  "es": "la edad",
+  "target": "la edad",
   "en": "age",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Qué edad tiene tu hermano?",
+    "target": "¿Qué edad tiene tu hermano?",
     "en": "How old is your brother?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "EDAD sounds like \"a dad\": you can tell a dad's age by his gray hair.",
   "image": "/deck/img/edad-age.webp",
   "audio": {

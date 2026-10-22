@@ -3,15 +3,15 @@
   "rank": 70,
   "kind": "glue",
   "pos": "determiner",
-  "es": "otro",
+  "target": "otro",
   "en": "[another] coffee, please",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Quiero otro café, por favor.",
+    "target": "Quiero otro café, por favor.",
     "en": "I want another coffee, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OTRO sounds like \"other row\": when one row is full, you sit in the other row.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 318,
   "kind": "content",
   "pos": "noun",
-  "es": "el equipo",
+  "target": "el equipo",
   "en": "team",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Somos un buen equipo, ¿no?",
+    "target": "Somos un buen equipo, ¿no?",
     "en": "We're a good team, right?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "EQUIPO sounds like 'a key pole': the whole team carries one key pole together to win.",
   "image": "/deck/img/equipo-team.webp",
   "audio": {

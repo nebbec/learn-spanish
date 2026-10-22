@@ -3,7 +3,7 @@
   "rank": 4,
   "kind": "form",
   "pos": "verb",
-  "es": "soy",
+  "target": "soy",
   "en": "I am",
   "hint": "identity, origin",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Hola, yo soy Ana.",
+    "target": "Hola, yo soy Ana.",
     "en": "Hello, I am Ana."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Picture yourself proudly announcing I am soy sauce: yo soy.",
   "image": "/deck/img/ser-be-identity.webp",
   "audio": {

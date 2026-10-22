@@ -3,17 +3,17 @@
   "rank": 202,
   "kind": "content",
   "pos": "adjective",
-  "es": "último",
+  "target": "último",
   "en": "last",
   "hint": null,
   "grammar": {
     "feminine": "última"
   },
   "example": {
-    "es": "Es la última vez que te ayudo.",
+    "target": "Es la última vez que te ayudo.",
     "en": "It's the last time I help you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ÚLTIMO sounds like \"ultimate\": the ultimate one is the last one standing.",
   "image": "/deck/img/ultimo-last.webp",
   "audio": {

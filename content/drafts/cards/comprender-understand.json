@@ -3,7 +3,7 @@
   "rank": 641,
   "kind": "content",
   "pos": "verb",
-  "es": "comprender",
+  "target": "comprender",
   "en": "to understand",
   "hint": "think comprehend, not entender",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No comprendo por qué estás enojado.",
+    "target": "No comprendo por qué estás enojado.",
     "en": "I don't understand why you're angry."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMPRENDER sounds like comprehend: when you comprehend something, you understand it.",
   "image": "/deck/img/comprender-understand.webp",
   "audio": {

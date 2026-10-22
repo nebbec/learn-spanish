@@ -3,7 +3,7 @@
   "rank": 761,
   "kind": "content",
   "pos": "noun",
-  "es": "la nota",
+  "target": "la nota",
   "en": "note",
   "hint": "written message or music",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Te dejé una nota en la mesa.",
+    "target": "Te dejé una nota en la mesa.",
     "en": "I left you a note on the table."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOTA sounds like note-a: a little note-a stuck on the fridge.",
   "image": "/deck/img/nota-note.webp",
   "audio": {

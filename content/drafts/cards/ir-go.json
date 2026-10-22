@@ -3,7 +3,7 @@
   "rank": 15,
   "kind": "content",
   "pos": "verb",
-  "es": "ir",
+  "target": "ir",
   "en": "to go",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mañana voy a la playa con mis amigos.",
+    "target": "Mañana voy a la playa con mis amigos.",
     "en": "Tomorrow I'm going to the beach with my friends."
   },
-  "spain": null,
+  "regional": null,
   "trick": "IR sounds like ear: you go wherever your ear hears music.",
   "image": "/deck/img/ir-go.webp",
   "audio": {

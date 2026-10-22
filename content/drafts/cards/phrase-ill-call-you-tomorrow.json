@@ -3,15 +3,15 @@
   "rank": 171,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Te llamo mañana.",
+  "target": "Te llamo mañana.",
   "en": "I'll call you tomorrow.",
   "hint": "informal",
   "grammar": null,
   "example": {
-    "es": "Ahora no puedo, pero te llamo mañana.",
+    "target": "Ahora no puedo, pero te llamo mañana.",
     "en": "I can't right now, but I'll call you tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

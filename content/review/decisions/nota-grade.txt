@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: approve
 
-id:         nota-grade
-kind:       content
-pos:        noun
-es:         la nota
-en:         grade
-hint:       score on a test
-gender:     f
-article:    la
-example.es: Saqué una buena nota en el examen.
-example.en: I got a good grade on the test.
-spain:
-trick:      The teacher writes a NOTA on your test: a note telling you your grade.
+id:             nota-grade
+kind:           content
+pos:            noun
+target:         la nota
+en:             grade
+hint:           score on a test
+gender:         f
+article:        la
+example.target: Saqué una buena nota en el examen.
+example.en:     I got a good grade on the test.
+regional.where:
+regional.text:
+trick:          The teacher writes a NOTA on your test: a note telling you your grade.
 
 # The draft this file was made from. Do not change it.
-draft: c3d0d95e022cd534
+draft: a74588642caf3b16

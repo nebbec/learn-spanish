@@ -3,7 +3,7 @@
   "rank": 197,
   "kind": "content",
   "pos": "noun",
-  "es": "la mano",
+  "target": "la mano",
   "en": "hand",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Lávate las manos antes de comer.",
+    "target": "Lávate las manos antes de comer.",
     "en": "Wash your hands before eating."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MANO sounds like a manicure: a manicure is for your hands. Watch out, it's LA mano even though it ends in -o.",
   "image": "/deck/img/mano-hand.webp",
   "audio": {

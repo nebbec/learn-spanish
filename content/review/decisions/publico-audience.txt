@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         publico-audience
-kind:       content
-pos:        noun
-es:         el público
-en:         audience
-hint:       the people in the seats at a show or game
-gender:     m
-article:    el
-example.es: El público aplaudió mucho.
-example.en: The audience clapped a lot.
-spain:
-trick:      EL PÚBLICO is the public that shows up to watch, so the crowd in the seats is your audience.
+id:             publico-audience
+kind:           content
+pos:            noun
+target:         el público
+en:             audience
+hint:           the people in the seats at a show or game
+gender:         m
+article:        el
+example.target: El público aplaudió mucho.
+example.en:     The audience clapped a lot.
+regional.where:
+regional.text:
+trick:          EL PÚBLICO is the public that shows up to watch, so the crowd in the seats is your audience.
 
 # The draft this file was made from. Do not change it.
-draft: 3582ffe2505bf647
+draft: e287eb1be4d9ff62

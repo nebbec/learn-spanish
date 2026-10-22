@@ -3,15 +3,15 @@
   "rank": 229,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "cualquiera",
+  "target": "cualquiera",
   "en": "[anyone] can do it",
   "hint": "anyone at all, not alguien",
   "grammar": null,
   "example": {
-    "es": "Eso lo puede hacer cualquiera.",
+    "target": "Eso lo puede hacer cualquiera.",
     "en": "Anyone can do that."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUALQUIERA sounds like \"call-key-era\": anyone who calls can get the key.",
   "image": null,
   "audio": {

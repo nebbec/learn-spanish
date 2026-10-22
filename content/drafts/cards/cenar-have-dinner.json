@@ -3,7 +3,7 @@
   "rank": 749,
   "kind": "content",
   "pos": "verb",
-  "es": "cenar",
+  "target": "cenar",
   "en": "to have dinner",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Quieres cenar conmigo esta noche?",
+    "target": "¿Quieres cenar conmigo esta noche?",
     "en": "Do you want to have dinner with me tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CENAR sounds like \"see a nar-rator\": you see the storyteller every evening at dinner.",
   "image": "/deck/img/cenar-have-dinner.webp",
   "audio": {

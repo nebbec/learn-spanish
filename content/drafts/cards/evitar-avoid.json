@@ -3,7 +3,7 @@
   "rank": 648,
   "kind": "content",
   "pos": "verb",
-  "es": "evitar",
+  "target": "evitar",
   "en": "to avoid",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Siempre evito el tráfico por la mañana.",
+    "target": "Siempre evito el tráfico por la mañana.",
     "en": "I always avoid traffic in the morning."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EVITAR sounds like \"evade a car\": you avoid it by jumping out of the way.",
   "image": "/deck/img/evitar-avoid.webp",
   "audio": {

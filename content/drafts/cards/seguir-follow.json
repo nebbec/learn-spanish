@@ -3,7 +3,7 @@
   "rank": 126,
   "kind": "content",
   "pos": "verb",
-  "es": "seguir",
+  "target": "seguir",
   "en": "to follow",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Sígueme, yo conozco el camino.",
+    "target": "Sígueme, yo conozco el camino.",
     "en": "Follow me, I know the way."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEGUIR sounds like Segway here: ride your Segway here and follow me.",
   "image": "/deck/img/seguir-follow.webp",
   "audio": {

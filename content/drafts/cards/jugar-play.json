@@ -3,7 +3,7 @@
   "rank": 256,
   "kind": "content",
   "pos": "verb",
-  "es": "jugar",
+  "target": "jugar",
   "en": "to play",
   "hint": "a game or sport, not music",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Los niños juegan fútbol en el parque.",
+    "target": "Los niños juegan fútbol en el parque.",
     "en": "The kids play soccer in the park."
   },
-  "spain": null,
+  "regional": null,
   "trick": "JUGAR sounds like \"who guards\" the goal? Whoever wants to play the game.",
   "image": "/deck/img/jugar-play.webp",
   "audio": {

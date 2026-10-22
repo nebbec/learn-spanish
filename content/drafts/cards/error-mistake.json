@@ -3,7 +3,7 @@
   "rank": 518,
   "kind": "content",
   "pos": "noun",
-  "es": "el error",
+  "target": "el error",
   "en": "mistake",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Fue un error confiar en él.",
+    "target": "Fue un error confiar en él.",
     "en": "It was a mistake to trust him."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ERROR is spelled just like the English error, which is a mistake.",
   "image": "/deck/img/error-mistake.webp",
   "audio": {

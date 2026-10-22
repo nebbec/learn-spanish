@@ -3,7 +3,7 @@
   "rank": 645,
   "kind": "content",
   "pos": "noun",
-  "es": "la carrera",
+  "target": "la carrera",
   "en": "race",
   "hint": "a competition of speed",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi hermano ganó la carrera de autos.",
+    "target": "Mi hermano ganó la carrera de autos.",
     "en": "My brother won the car race."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARRERA sounds like \"car rare\": a rare car zooms past everyone to win the race.",
   "image": "/deck/img/carrera-race.webp",
   "audio": {

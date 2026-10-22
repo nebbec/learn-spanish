@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         luz-light
-kind:       content
-pos:        noun
-es:         la luz
-en:         light
-hint:       noun, as in turn on the light
-gender:     f
-article:    la
-example.es: Apaga la luz, por favor.
-example.en: Turn off the light, please.
-spain:
-trick:      LUZ sounds like "Lucy": Lucy always flips on the light when she walks in.
+id:             luz-light
+kind:           content
+pos:            noun
+target:         la luz
+en:             light
+hint:           noun, as in turn on the light
+gender:         f
+article:        la
+example.target: Apaga la luz, por favor.
+example.en:     Turn off the light, please.
+regional.where:
+regional.text:
+trick:          LUZ sounds like "Lucy": Lucy always flips on the light when she walks in.
 
 # The draft this file was made from. Do not change it.
-draft: c0a9bfa3920561eb
+draft: 150ff37f3c5c21c6

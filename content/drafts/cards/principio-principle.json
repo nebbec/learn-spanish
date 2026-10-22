@@ -3,7 +3,7 @@
   "rank": 691,
   "kind": "content",
   "pos": "noun",
-  "es": "el principio",
+  "target": "el principio",
   "en": "principle",
   "hint": "a moral rule or belief",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Es un hombre de principios.",
+    "target": "Es un hombre de principios.",
     "en": "He's a man of principles."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRINCIPIO looks like principle: a good prince lives by his principles.",
   "image": "/deck/img/principio-principle.webp",
   "audio": {

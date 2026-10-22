@@ -3,7 +3,7 @@
   "rank": 691,
   "kind": "content",
   "pos": "noun",
-  "es": "el principio",
+  "target": "el principio",
   "en": "beginning",
   "hint": "as in at first: al ...",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Al principio no entendía nada.",
+    "target": "Al principio no entendía nada.",
     "en": "At the beginning I didn't understand anything."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRINCIPIO sounds like prince: every fairy tale's beginning introduces the prince.",
   "image": "/deck/img/principio-beginning.webp",
   "audio": {

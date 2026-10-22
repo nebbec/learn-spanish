@@ -3,7 +3,7 @@
   "rank": 566,
   "kind": "content",
   "pos": "verb",
-  "es": "continuar",
+  "target": "continuar",
   "en": "to continue",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Continuamos mañana, ya es muy tarde.",
+    "target": "Continuamos mañana, ya es muy tarde.",
     "en": "We'll continue tomorrow, it's already very late."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONTINUAR sounds like continue-ARR: a pirate shouts it to keep sailing on.",
   "image": "/deck/img/continuar-continue.webp",
   "audio": {

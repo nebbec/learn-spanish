@@ -30,7 +30,7 @@ describe("Intro, every fixture card", () => {
   it.each(fixtureDeck.cards)("$id shows the Spanish, the English and the character, with no test", (card) => {
     render(<Intro card={card} onChoose={() => {}} />);
     expect(q("intro")!.dataset.cardId).toBe(card.id);
-    expect(text("intro-es")).toBe(card.es);
+    expect(text("intro-es")).toBe(card.target);
     expect(q("intro-es")!.lang).toBe("es");
     expect(text("meaning")).toContain(card.en.replace(/[[\]]/g, ""));
     expect(q("character")?.querySelector("img")?.getAttribute("src") ?? null).toBe(card.image);
@@ -59,7 +59,7 @@ describe("Intro, every fixture card", () => {
 
   it("says which meaning of a word the learner already knows", () => {
     render(<Intro card={fixtureCard("tiempo-weather")} earlier={fixtureCard("tiempo-time")} onChoose={() => {}} />);
-    expect(text("earlier-meaning")).toBe(`You know ${fixtureCard("tiempo-time").es} = ${fixtureCard("tiempo-time").en}. It also means:`);
+    expect(text("earlier-meaning")).toBe(`You know ${fixtureCard("tiempo-time").target} = ${fixtureCard("tiempo-time").en}. It also means:`);
   });
 
   it("names a glue word's earlier meaning by its target, without the sentence around it", () => {

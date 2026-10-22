@@ -3,7 +3,7 @@
   "rank": 595,
   "kind": "content",
   "pos": "noun",
-  "es": "el papel",
+  "target": "el papel",
   "en": "role",
   "hint": "in a movie or play; same word as paper",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ella tiene el papel principal.",
+    "target": "Ella tiene el papel principal.",
     "en": "She has the lead role."
   },
-  "spain": null,
+  "regional": null,
   "trick": "An actor's PAPEL is the paper script with their lines: your role is literally written on paper.",
   "image": "/deck/img/papel-role.webp",
   "audio": {

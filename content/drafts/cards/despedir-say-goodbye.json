@@ -3,7 +3,7 @@
   "rank": 586,
   "kind": "content",
   "pos": "verb",
-  "es": "despedirse",
+  "target": "despedirse",
   "en": "to say goodbye",
   "hint": "one verb, not decir adiós",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Me tengo que despedir de mi mamá.",
+    "target": "Me tengo que despedir de mi mamá.",
     "en": "I have to say goodbye to my mom."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESPEDIRSE sounds like \"this speedy race\": wave goodbye fast before the speedy race starts.",
   "image": "/deck/img/despedir-say-goodbye.webp",
   "audio": {

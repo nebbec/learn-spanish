@@ -3,17 +3,17 @@
   "rank": 433,
   "kind": "content",
   "pos": "adjective",
-  "es": "raro",
+  "target": "raro",
   "en": "weird, strange",
   "hint": "looks like English rare, not extraño",
   "grammar": {
     "feminine": "rara"
   },
   "example": {
-    "es": "Qué raro, la puerta está abierta.",
+    "target": "Qué raro, la puerta está abierta.",
     "en": "How weird, the door is open."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RARO sounds like rare: something you rarely see looks weird.",
   "image": "/deck/img/raro-weird.webp",
   "audio": {

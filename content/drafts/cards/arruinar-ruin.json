@@ -3,7 +3,7 @@
   "rank": 729,
   "kind": "content",
   "pos": "verb",
-  "es": "arruinar",
+  "target": "arruinar",
   "en": "to ruin",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Arruinaste la sorpresa!",
+    "target": "¡Arruinaste la sorpresa!",
     "en": "You ruined the surprise!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ARRUINAR sounds like \"a ruin\": when you ruin something, you leave behind a ruin.",
   "image": "/deck/img/arruinar-ruin.webp",
   "audio": {

@@ -2,6 +2,7 @@
 
 import { useRef, useState, type PointerEvent } from "react";
 import { useMotion, type Move } from "@/components/motion";
+import { LANG } from "@/lang";
 import type { Card } from "@/lib/deck";
 import type { Direction } from "@/lib/store";
 import { splitGluePrompt } from "./gluePrompt";
@@ -11,7 +12,7 @@ export const SWIPE_DISTANCE = 40;
 
 export interface CardFrontProps {
   card: Card;
-  /** `forward` shows the English prompt; `reverse` shows the Spanish. Defaults to forward. */
+  /** `forward` shows the English prompt; `reverse` shows the answer, in the language being learned. Defaults to forward. */
   direction?: Direction;
   /** Fired once per tap, key press or downward swipe. */
   onReveal: () => void;
@@ -69,7 +70,7 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
     >
       {direction === "reverse" ? (
         <ReverseFace card={card} />
-      ) : card.kind === "glue" ? (
+      ) : card.kind === "glue" || card.kind === "case" ? (
         <GlueFace card={card} />
       ) : card.kind === "phrase" ? (
         <PhraseFace card={card} />
@@ -97,6 +98,7 @@ function ContentFace({ card }: { card: Card }) {
   );
 }
 
+/** Glue and case cards: the English phrase with its target marked, and no character. */
 function GlueFace({ card }: { card: Card }) {
   const { before, target, after } = splitGluePrompt(card.en);
   return (
@@ -127,12 +129,12 @@ function PhraseFace({ card }: { card: Card }) {
   );
 }
 
-/** Spanish first. No character and no English hint: either would give the answer away. */
+/** The language being learned first. No character and no English hint: either would give the answer away. */
 function ReverseFace({ card }: { card: Card }) {
   return (
     <span className="flex flex-1 flex-col items-center justify-center gap-3">
-      <span data-testid="prompt" lang="es" className="font-display text-answer font-bold">
-        {card.es}
+      <span data-testid="prompt" lang={LANG.tag} className="font-display text-answer font-bold">
+        {card.target}
       </span>
       <span className="text-ink-soft">What does it mean?</span>
     </span>

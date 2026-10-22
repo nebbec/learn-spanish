@@ -3,7 +3,7 @@
   "rank": 472,
   "kind": "content",
   "pos": "verb",
-  "es": "explicar",
+  "target": "explicar",
   "en": "to explain",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Me explicas qué pasó anoche?",
+    "target": "¿Me explicas qué pasó anoche?",
     "en": "Can you explain to me what happened last night?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "EXPLICAR sounds like \"explain car\": a mechanic explains how the car works.",
   "image": "/deck/img/explicar-explain.webp",
   "audio": {

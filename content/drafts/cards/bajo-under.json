@@ -3,15 +3,15 @@
   "rank": 276,
   "kind": "glue",
   "pos": "preposition",
-  "es": "bajo",
+  "target": "bajo",
   "en": "[under] pressure",
   "hint": "one word, not debajo de",
   "grammar": null,
   "example": {
-    "es": "Trabajo bajo mucha presión.",
+    "target": "Trabajo bajo mucha presión.",
     "en": "I work under a lot of pressure."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BAJO sounds like 'bah, ho-hum': you mutter it when you're stuck under pressure.",
   "image": null,
   "audio": {

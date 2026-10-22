@@ -3,7 +3,7 @@
   "rank": 768,
   "kind": "content",
   "pos": "noun",
-  "es": "la escena",
+  "target": "la escena",
   "en": "scene",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Esa escena de la película me hizo llorar.",
+    "target": "Esa escena de la película me hizo llorar.",
     "en": "That scene in the movie made me cry."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESCENA sounds like \"a scene, ah!\": you gasp at the big movie scene.",
   "image": "/deck/img/escena-scene.webp",
   "audio": {

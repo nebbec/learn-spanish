@@ -3,7 +3,7 @@
   "rank": 169,
   "kind": "content",
   "pos": "noun",
-  "es": "la madre",
+  "target": "la madre",
   "en": "mother",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi madre está en México.",
+    "target": "Mi madre está en México.",
     "en": "My mother is in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MADRE sounds like \"mad dray\": your mother gets mad when you drag mud into the house.",
   "image": "/deck/img/madre-mother.webp",
   "audio": {

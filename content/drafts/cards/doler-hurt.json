@@ -3,7 +3,7 @@
   "rank": 735,
   "kind": "content",
   "pos": "verb",
-  "es": "doler",
+  "target": "doler",
   "en": "to hurt",
   "hint": "to be painful",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Me duele mucho la cabeza.",
+    "target": "Me duele mucho la cabeza.",
     "en": "My head really hurts."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DOLER sounds like \"dolor\", the Spanish word for pain: anything that hurts gives you dolor.",
   "image": "/deck/img/doler-hurt.webp",
   "audio": {

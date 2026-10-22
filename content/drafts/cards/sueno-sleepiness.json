@@ -3,7 +3,7 @@
   "rank": 448,
   "kind": "content",
   "pos": "noun",
-  "es": "el sueño",
+  "target": "el sueño",
   "en": "sleepiness",
   "hint": "as in tener ___, to be sleepy",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tengo mucho sueño, me voy a la cama.",
+    "target": "Tengo mucho sueño, me voy a la cama.",
     "en": "I'm really sleepy, I'm going to bed."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUEÑO sounds like \"swain-yo\": the sleepy swain yawns so hard he can barely keep his eyes open.",
   "image": "/deck/img/sueno-sleepiness.webp",
   "audio": {

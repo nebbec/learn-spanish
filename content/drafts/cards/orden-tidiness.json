@@ -3,7 +3,7 @@
   "rank": 395,
   "kind": "content",
   "pos": "noun",
-  "es": "el orden",
+  "target": "el orden",
   "en": "order",
   "hint": "tidiness, sequence",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me gusta el orden en mi cuarto.",
+    "target": "Me gusta el orden en mi cuarto.",
     "en": "I like order in my room."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ORDEN sounds like order-in: put everything in order, back in its place.",
   "image": "/deck/img/orden-tidiness.webp",
   "audio": {

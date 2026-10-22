@@ -3,15 +3,15 @@
   "rank": 237,
   "kind": "glue",
   "pos": "preposition",
-  "es": "entre",
+  "target": "entre",
   "en": "[between] you and me",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "El banco está entre la farmacia y el parque.",
+    "target": "El banco está entre la farmacia y el parque.",
     "en": "The bank is between the pharmacy and the park."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENTRE sounds like enter: you enter the gap between two things.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 579,
   "kind": "content",
   "pos": "noun",
-  "es": "la línea",
+  "target": "la línea",
   "en": "line",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Dibuja una línea recta en el papel.",
+    "target": "Dibuja una línea recta en el papel.",
     "en": "Draw a straight line on the paper."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LÍNEA sounds like linear: a linear drawing is just one straight line.",
   "image": "/deck/img/linea-line.webp",
   "audio": {

@@ -2,8 +2,9 @@
 // checks on them. The rules are in docs/design.md under "Learning path", "Order is computed, not
 // hand-written" and "Tips".
 
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { existsSync, readFileSync } from "node:fs";
+import { relative } from "node:path";
+import { contentPaths, type LangCode } from "./script-lang";
 
 export interface Unit {
   /** Lower-case words joined by hyphens: `who-i-am`. */
@@ -15,7 +16,10 @@ export interface Unit {
   tip: string | null;
   /** The most cards the unit takes. Defaults to `DEFAULT_CAP`. */
   cap?: number;
-  /** The words and meanings the unit should hold, in plain words. A survival chunk is `phrase: <es> = <en>`. */
+  /**
+   * The words and meanings the unit should hold, in plain words. A survival chunk is `phrase: <es> = <en>`; a German
+   * case card is `case: <de> = <en with [target]>`.
+   */
   wants: string[];
   /** The English of the unit's payoff phrases, drafted into phrase cards. */
   payoff: string[];
@@ -36,18 +40,39 @@ export const MAX_CAP = 16;
 /** The prefix that marks a survival chunk in a unit's `wants`. */
 export const PHRASE_WANT = "phrase: ";
 
+/**
+ * The prefix that marks a German case card in a unit's `wants` (DE8): `case: <German> = <English>`, the English
+ * marking its one target in square brackets, as the card's prompt will (`case: einen Bruder = I have [a] brother`).
+ */
+export const CASE_WANT = "case: ";
+
+/** A case want's English: exactly one target in square brackets. */
+const ONE_TARGET = /^[^[\]]*\[[^[\]]+\][^[\]]*$/;
+
+const isCaseWant = (want: string) => {
+  const [target, en, ...rest] = want.slice(CASE_WANT.length).split(" = ");
+  return rest.length === 0 && target.trim() !== "" && en !== undefined && ONE_TARGET.test(en.trim());
+};
+
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const TIP_ID = /^tip-[a-z0-9]+(-[a-z0-9]+)*$/;
 
-export const unitsPath = (root: string) => join(root, "content", "units.json");
-export const tipsPath = (root: string) => join(root, "content", "tips.json");
+/** The unit plan of a language: content/units.json, or content/de/units.json (DE5). */
+export const unitsPath = (root: string, lang: LangCode = "es") => contentPaths(root, lang).units;
+export const tipsPath = (root: string, lang: LangCode = "es") => contentPaths(root, lang).tipList;
 
-export function readUnits(root: string): Unit[] {
-  return JSON.parse(readFileSync(unitsPath(root), "utf8"));
+export function readUnits(root: string, lang: LangCode = "es"): Unit[] {
+  return readPlan(root, unitsPath(root, lang));
 }
 
-export function readTips(root: string): TipEntry[] {
-  return JSON.parse(readFileSync(tipsPath(root), "utf8"));
+export function readTips(root: string, lang: LangCode = "es"): TipEntry[] {
+  return readPlan(root, tipsPath(root, lang));
+}
+
+/** A plan file, or an error naming it when the language has none yet (German's come in DE8). */
+function readPlan<T>(root: string, file: string): T {
+  if (!existsSync(file)) throw new Error(`${relative(root, file)} does not exist yet`);
+  return JSON.parse(readFileSync(file, "utf8"));
 }
 
 export const unitCap = (unit: Unit) => unit.cap ?? DEFAULT_CAP;
@@ -100,6 +125,8 @@ export function checkUnits(units: unknown, tips: TipEntry[]): string[] {
     if (!isTextList(unit?.wants) || unit.wants.length === 0) problems.push(`${name}: wants must be a non-empty list of text`);
     else if (unit.wants.some((want) => want.startsWith(PHRASE_WANT) && !want.includes(" = "))) {
       problems.push(`${name}: a phrase want must read "phrase: <Spanish> = <English>"`);
+    } else if (unit.wants.some((want) => want.startsWith(CASE_WANT) && !isCaseWant(want))) {
+      problems.push(`${name}: a case want must read "case: <German> = <English with one [target]>"`);
     }
     if (!isTextList(unit?.payoff)) problems.push(`${name}: payoff must be a list of text`);
   });

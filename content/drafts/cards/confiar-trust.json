@@ -3,7 +3,7 @@
   "rank": 401,
   "kind": "content",
   "pos": "verb",
-  "es": "confiar",
+  "target": "confiar",
   "en": "to trust",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Confío en ti, hermano.",
+    "target": "Confío en ti, hermano.",
     "en": "I trust you, bro."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONFIAR sounds like confide: you only confide in people you trust.",
   "image": "/deck/img/confiar-trust.webp",
   "audio": {

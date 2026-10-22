@@ -3,15 +3,15 @@
   "rank": 30,
   "kind": "glue",
   "pos": "determiner",
-  "es": "todo",
+  "target": "todo",
   "en": "[all] the day",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Trabajé todo el día.",
+    "target": "Trabajé todo el día.",
     "en": "I worked all day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TODO sounds like to-do: your to-do list takes all the day.",
   "image": null,
   "audio": {

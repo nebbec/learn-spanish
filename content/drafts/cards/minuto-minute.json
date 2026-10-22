@@ -3,7 +3,7 @@
   "rank": 226,
   "kind": "content",
   "pos": "noun",
-  "es": "el minuto",
+  "target": "el minuto",
   "en": "minute",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Espérame un minuto, ya vengo.",
+    "target": "Espérame un minuto, ya vengo.",
     "en": "Wait for me a minute, I'm coming."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MINUTO sounds like minute-oh: oh, just one more minute!",
   "image": "/deck/img/minuto-minute.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 214,
   "kind": "glue",
   "pos": "determiner",
-  "es": "cada",
+  "target": "cada",
   "en": "[each] day",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Cada día aprendo algo nuevo.",
+    "target": "Cada día aprendo algo nuevo.",
     "en": "Each day I learn something new."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CADA sounds like \"cod-a\": each cod in the market gets its own label.",
   "image": null,
   "audio": {

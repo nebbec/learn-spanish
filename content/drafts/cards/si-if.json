@@ -3,15 +3,15 @@
   "rank": 33,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "si",
+  "target": "si",
   "en": "[if] you want, we go",
   "hint": "no accent; not sí meaning yes",
   "grammar": null,
   "example": {
-    "es": "Si quieres, vamos al cine.",
+    "target": "Si quieres, vamos al cine.",
     "en": "If you want, we'll go to the movies."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SI sounds like \"see\": we'll see IF it works.",
   "image": null,
   "audio": {

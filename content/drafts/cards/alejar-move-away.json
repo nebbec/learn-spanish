@@ -3,7 +3,7 @@
   "rank": 647,
   "kind": "content",
   "pos": "verb",
-  "es": "alejarse",
+  "target": "alejarse",
   "en": "to move away",
   "hint": "put distance between, not escape",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Aléjate de mi hija!",
+    "target": "¡Aléjate de mi hija!",
     "en": "Get away from my daughter!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALEJARSE sounds like 'a ledge, ah!': you scream and move away from the ledge.",
   "image": "/deck/img/alejar-move-away.webp",
   "audio": {

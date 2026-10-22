@@ -12,12 +12,16 @@
 // card has no tag, a tag made for an earlier draft, or a tag the checks refuse; --redo tags it again anyway.
 // Tags of cards no longer drafted are deleted.
 //
+// --lang de (DE5) reads and writes content/de/ in place of content/, with German's prompt (DE7).
+//
 // Prints only ranks, words, ids, unit and tip ids, and counts, never card text.
 
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
+import { PROMPTS_READY, promptsNotReady } from "./prompts-de";
+import { contentPaths, LANG_OPTION, parseLang } from "./script-lang";
 import { DraftStore, formatSummary } from "./drafting";
 import { checkTags, tagCards, tagContext, tagGroups, TagStore } from "./tagging";
 import { checkTips, checkUnits, readTips, readUnits } from "./units";
@@ -26,6 +30,7 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..")
 
 const { values } = parseArgs({
   options: {
+    ...LANG_OPTION,
     from: { type: "string" },
     to: { type: "string" },
     via: { type: "string", default: "cli" },
@@ -35,8 +40,8 @@ const { values } = parseArgs({
     retries: { type: "string", default: "2" },
     redo: { type: "boolean", default: false },
     check: { type: "boolean", default: false },
-    drafts: { type: "string", default: path.join(ROOT, "content", "drafts") },
-    dir: { type: "string", default: path.join(ROOT, "content", "tags") },
+    drafts: { type: "string" },
+    dir: { type: "string" },
   },
 });
 
@@ -44,6 +49,11 @@ function fail(message: string): never {
   console.error(message);
   process.exit(2);
 }
+
+const lang = parseLang(values.lang);
+const paths = contentPaths(ROOT, lang);
+// --check sends nothing to Claude, so it runs whatever the language's prompts.
+if (!values.check && !PROMPTS_READY[lang]) fail(promptsNotReady(lang));
 
 const from = values.from === undefined ? 1 : Number(values.from);
 const to = values.to === undefined ? Number.MAX_SAFE_INTEGER : Number(values.to);
@@ -54,15 +64,15 @@ const concurrency = Number(values.concurrency);
 const retries = Number(values.retries);
 if (!(concurrency >= 1) || !(retries >= 0)) fail("--concurrency must be 1 or more and --retries 0 or more");
 
-const tips = readTips(ROOT);
-const units = readUnits(ROOT);
+const tips = readTips(ROOT, lang);
+const units = readUnits(ROOT, lang);
 const planProblems = [...checkTips(tips), ...checkUnits(units, tips)];
 if (planProblems.length) fail(`The tip list or unit plan has ${planProblems.length} problems: ${planProblems.join("; ")}`);
 
-const drafts = new DraftStore(values.drafts);
+const drafts = new DraftStore(values.drafts ?? paths.drafts, lang);
 const groups = tagGroups(drafts);
-const ctx = tagContext(groups, units, tips);
-const store = new TagStore(values.dir);
+const ctx = tagContext(groups, units, tips, lang);
+const store = new TagStore(values.dir ?? paths.tags);
 
 if (!values.check) {
   const pruned = store.prune(new Set(ctx.cards.map((c) => c.id)));

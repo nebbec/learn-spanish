@@ -3,15 +3,15 @@
   "rank": 211,
   "kind": "content",
   "pos": "adverb",
-  "es": "aún",
+  "target": "aún",
   "en": "still, yet",
   "hint": "the short one, not todavía",
   "grammar": null,
   "example": {
-    "es": "Aún no he comido nada.",
+    "target": "Aún no he comido nada.",
     "en": "I still haven't eaten anything."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AÚN sounds like a-MOON: the moon is still up in the sky, and it isn't morning yet.",
   "image": "/deck/img/aun-still.webp",
   "audio": {

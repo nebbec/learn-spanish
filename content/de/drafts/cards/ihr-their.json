@@ -1,0 +1,21 @@
+{
+  "id": "ihr-their",
+  "rank": 19,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "ihr",
+  "en": "[their] dog is huge",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Anna und Tom verkaufen ihr Auto.",
+    "en": "Anna and Tom are selling their car."
+  },
+  "regional": null,
+  "trick": "IHR sounds like ear: the twins cover their ears.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ihr-their.word.mp3",
+    "sentence": "/deck-de/audio/ihr-their.sentence.mp3"
+  }
+}

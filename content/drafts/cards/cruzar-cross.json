@@ -3,7 +3,7 @@
   "rank": 790,
   "kind": "content",
   "pos": "verb",
-  "es": "cruzar",
+  "target": "cruzar",
   "en": "to cross",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Cruzamos la calle con cuidado.",
+    "target": "Cruzamos la calle con cuidado.",
     "en": "We cross the street carefully."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CRUZAR sounds like \"cruise car\": you cruise your car across the bridge to cross the river.",
   "image": "/deck/img/cruzar-cross.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 737,
   "kind": "content",
   "pos": "noun",
-  "es": "la sala",
+  "target": "la sala",
   "en": "living room",
   "hint": null,
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "la"
   },
   "example": {
-    "es": "Los niños están viendo tele en la sala.",
+    "target": "Los niños están viendo tele en la sala.",
     "en": "The kids are watching TV in the living room."
   },
-  "spain": "salón",
+  "regional": {
+    "where": "Spain",
+    "text": "salón"
+  },
   "trick": "SALA sounds like \"saw a\": I saw a sofa and TV, so I knew it was the living room.",
   "image": "/deck/img/sala-living-room.webp",
   "audio": {

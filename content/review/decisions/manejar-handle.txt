@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: conjugated example as the reviewer asked, but with 'los problemas' so it can't be read as driving (yo manejo esto could).
 decision: approve
 
-id:         manejar-handle
-kind:       content
-pos:        verb
-es:         manejar
-en:         to handle
-hint:       a situation or problem
-yo:         manejo
-tu:         manejas
-el:         maneja
-irregular:  no
-example.es: Ella maneja bien los problemas.
-example.en: She handles problems well.
-spain:
-trick:      MANEJAR sounds like "manage": you manage, or handle, any problem that comes your way.
+id:             manejar-handle
+kind:           content
+pos:            verb
+target:         manejar
+en:             to handle
+hint:           a situation or problem
+yo:             manejo
+tu:             manejas
+el:             maneja
+irregular:      no
+example.target: Ella maneja bien los problemas.
+example.en:     She handles problems well.
+regional.where:
+regional.text:
+trick:          MANEJAR sounds like "manage": you manage, or handle, any problem that comes your way.
 
 # The draft this file was made from. Do not change it.
-draft: edb293940fced893
+draft: 1ba6069ba2862fc4

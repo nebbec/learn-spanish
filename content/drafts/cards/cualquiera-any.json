@@ -3,15 +3,15 @@
   "rank": 229,
   "kind": "glue",
   "pos": "determiner",
-  "es": "cualquiera",
+  "target": "cualquiera",
   "en": "call me [any] day",
   "hint": "any at all, whichever; shortens to cualquier before a noun",
   "grammar": null,
   "example": {
-    "es": "Puedes venir cualquier día.",
+    "target": "Puedes venir cualquier día.",
     "en": "You can come any day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUALQUIERA sounds like \"quality-era\": in any era, any day, any quality will do.",
   "image": null,
   "audio": {

@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use fuera before de (fuera de la ciudad); afuera stands alone for outside.",
-  "draft": "74be9709f5506359",
+  "draft": "d3e4b6bcb6702bcc",
   "group": "#259 fuera",
   "via": "cli",
   "model": "claude-opus-5-5",

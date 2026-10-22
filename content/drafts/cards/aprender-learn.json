@@ -3,7 +3,7 @@
   "rank": 430,
   "kind": "content",
   "pos": "verb",
-  "es": "aprender",
+  "target": "aprender",
   "en": "to learn",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Aprendí mucho en este trabajo.",
+    "target": "Aprendí mucho en este trabajo.",
     "en": "I learned a lot at this job."
   },
-  "spain": null,
+  "regional": null,
   "trick": "APRENDER sounds like 'apprentice': an apprentice is there to learn.",
   "image": "/deck/img/aprender-learn.webp",
   "audio": {

@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint; example left as it was.
 decision: approve
 
-id:         tomar-take
-kind:       content
-pos:        verb
-es:         tomar
-en:         to take
-hint:       take a bus, take medicine (not carry somewhere)
-yo:         tomo
-tu:         tomas
-el:         toma
-irregular:  no
-example.es: Toma mi mano.
-example.en: Take my hand.
-spain:      coger
-trick:      TOMAR sounds like 'tomorrow': take what you want today, not tomorrow.
+id:             tomar-take
+kind:           content
+pos:            verb
+target:         tomar
+en:             to take
+hint:           take a bus, take medicine (not carry somewhere)
+yo:             tomo
+tu:             tomas
+el:             toma
+irregular:      no
+example.target: Toma mi mano.
+example.en:     Take my hand.
+regional.where: Spain
+regional.text:  coger
+trick:          TOMAR sounds like 'tomorrow': take what you want today, not tomorrow.
 
 # The draft this file was made from. Do not change it.
-draft: 0c5b5316a0063360
+draft: 7422396585503948

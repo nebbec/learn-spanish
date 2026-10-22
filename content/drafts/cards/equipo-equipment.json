@@ -3,7 +3,7 @@
   "rank": 318,
   "kind": "content",
   "pos": "noun",
-  "es": "el equipo",
+  "target": "el equipo",
   "en": "equipment",
   "hint": "gear, kit",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Necesito mi equipo para bucear.",
+    "target": "Necesito mi equipo para bucear.",
     "en": "I need my diving equipment."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EQUIPO looks like 'equip': it's what you equip yourself with before the job.",
   "image": "/deck/img/equipo-equipment.webp",
   "audio": {

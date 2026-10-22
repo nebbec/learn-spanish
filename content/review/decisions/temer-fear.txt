@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: replaced the example, but not with the reviewer's (oscuridad is a rare word); same le temo a pattern.
 decision: approve
 
-id:         temer-fear
-kind:       content
-pos:        verb
-es:         temer
-en:         to fear
+id:             temer-fear
+kind:           content
+pos:            verb
+target:         temer
+en:             to fear
 hint:
-yo:         temo
-tu:         temes
-el:         teme
-irregular:  no
-example.es: No le temo a nada.
-example.en: I'm not afraid of anything.
-spain:
-trick:      TEMER sounds like tremor: when you fear something, your hands shake with a tremor.
+yo:             temo
+tu:             temes
+el:             teme
+irregular:      no
+example.target: No le temo a nada.
+example.en:     I'm not afraid of anything.
+regional.where:
+regional.text:
+trick:          TEMER sounds like tremor: when you fear something, your hands shake with a tremor.
 
 # The draft this file was made from. Do not change it.
-draft: 49849b864b6f7328
+draft: fe0b4684286c6b3b

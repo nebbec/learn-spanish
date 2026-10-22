@@ -3,17 +3,17 @@
   "rank": 467,
   "kind": "content",
   "pos": "adjective",
-  "es": "tranquilo",
+  "target": "tranquilo",
   "en": "calm",
   "hint": null,
   "grammar": {
     "feminine": "tranquila"
   },
   "example": {
-    "es": "Tranquila, todo va a estar bien.",
+    "target": "Tranquila, todo va a estar bien.",
     "en": "Stay calm, everything is going to be fine."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRANQUILO sounds like tranquil: a tranquil lake is perfectly calm.",
   "image": "/deck/img/tranquilo-calm.webp",
   "audio": {

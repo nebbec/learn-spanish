@@ -7,22 +7,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         lo-the-thing
-kind:       glue
-pos:        determiner
-es:         lo
-en:         [the] important thing is the family
-hint:       before an adjective, no noun
-example.es: Lo bueno es que llegamos temprano.
-example.en: The good thing is that we arrived early.
-spain:
-trick:      LO sounds like low: lo bajo is 'the low part', so LO plus an adjective means 'the ... thing' or 'the ... part'.
+id:             lo-the-thing
+kind:           glue
+pos:            determiner
+target:         lo
+en:             [the] important thing is the family
+hint:           before an adjective, no noun
+example.target: Lo bueno es que llegamos temprano.
+example.en:     The good thing is that we arrived early.
+regional.where:
+regional.text:
+trick:          LO sounds like low: lo bajo is 'the low part', so LO plus an adjective means 'the ... thing' or 'the ... part'.
 
 # The draft this file was made from. Do not change it.
-draft: 7954e0c325c4cc01
+draft: 059745dde0b02d56

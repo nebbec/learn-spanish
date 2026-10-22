@@ -3,7 +3,7 @@
   "rank": 213,
   "kind": "content",
   "pos": "noun",
-  "es": "el segundo",
+  "target": "el segundo",
   "en": "second",
   "hint": "unit of time",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Espérame un segundo, ya vengo.",
+    "target": "Espérame un segundo, ya vengo.",
     "en": "Wait for me a second, I'm coming."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEGUNDO sounds like \"second, go!\": the timer ticks one second and the race begins.",
   "image": "/deck/img/segundo-second-time.webp",
   "audio": {

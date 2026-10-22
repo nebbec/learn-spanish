@@ -3,15 +3,15 @@
   "rank": 47,
   "kind": "content",
   "pos": "adverb",
-  "es": "solo",
+  "target": "solo",
   "en": "only",
   "hint": "short word, not solamente",
   "grammar": null,
   "example": {
-    "es": "Solo quiero dormir un rato.",
+    "target": "Solo quiero dormir un rato.",
     "en": "I only want to sleep for a while."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SOLO sounds like a solo song: only one singer, nobody else.",
   "image": "/deck/img/solo-only.webp",
   "audio": {

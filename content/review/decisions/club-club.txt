@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: fixed hint; dropped the reviewer's 'or team', which invites equipo.
 decision: approve
 
-id:         club-club
-kind:       content
-pos:        noun
-es:         el club
-en:         club
-hint:       a group with members, as in a soccer club
-gender:     m
-article:    el
-example.es: Mi hermano juega en un club de fútbol.
-example.en: My brother plays for a soccer club.
-spain:
-trick:      CLUB sounds just like the English club: same word, same meeting place for members.
+id:             club-club
+kind:           content
+pos:            noun
+target:         el club
+en:             club
+hint:           a group with members, as in a soccer club
+gender:         m
+article:        el
+example.target: Mi hermano juega en un club de fútbol.
+example.en:     My brother plays for a soccer club.
+regional.where:
+regional.text:
+trick:          CLUB sounds just like the English club: same word, same meeting place for members.
 
 # The draft this file was made from. Do not change it.
-draft: 028ed7d45e5f0cc0
+draft: 2789f1471476a98b

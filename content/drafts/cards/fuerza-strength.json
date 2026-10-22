@@ -3,7 +3,7 @@
   "rank": 515,
   "kind": "content",
   "pos": "noun",
-  "es": "la fuerza",
+  "target": "la fuerza",
   "en": "strength, force",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No tengo fuerza para levantar esto.",
+    "target": "No tengo fuerza para levantar esto.",
     "en": "I don't have the strength to lift this."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FUERZA sounds like force-a: May the force-a be with you, giving you strength.",
   "image": "/deck/img/fuerza-strength.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 404,
   "kind": "content",
   "pos": "noun",
-  "es": "la comida",
+  "target": "la comida",
   "en": "food",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me gusta mucho la comida de mi madre.",
+    "target": "Me gusta mucho la comida de mi madre.",
     "en": "I really like my mother's food."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMIDA sounds like \"come eat-a\": come and eat the food on the table.",
   "image": "/deck/img/comida-food.webp",
   "audio": {

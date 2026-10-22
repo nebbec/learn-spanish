@@ -3,7 +3,7 @@
   "rank": 685,
   "kind": "content",
   "pos": "verb",
-  "es": "considerar",
+  "target": "considerar",
   "en": "to consider",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te considero mi mejor amigo.",
+    "target": "Te considero mi mejor amigo.",
     "en": "I consider you my best friend."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONSIDERAR sounds like \"consider\" with an extra \"ar\": you say \"arr\" while you consider your options.",
   "image": "/deck/img/considerar-consider.webp",
   "audio": {

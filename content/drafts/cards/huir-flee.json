@@ -3,7 +3,7 @@
   "rank": 738,
   "kind": "content",
   "pos": "verb",
-  "es": "huir",
+  "target": "huir",
   "en": "to flee",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "El ladrón huyó de la policía.",
+    "target": "El ladrón huyó de la policía.",
     "en": "The thief fled from the police."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HUIR sounds like \"we're out\": the robbers shout \"We're out of here!\" as they flee.",
   "image": "/deck/img/huir-flee.webp",
   "audio": {

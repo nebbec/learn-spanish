@@ -3,7 +3,7 @@
   "rank": 700,
   "kind": "content",
   "pos": "noun",
-  "es": "el alma",
+  "target": "el alma",
   "en": "soul",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te quiero con toda mi alma.",
+    "target": "Te quiero con toda mi alma.",
     "en": "I love you with all my soul."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALMA sounds like 'calm-a': a calm soul rests peacefully inside you.",
   "image": "/deck/img/alma-soul.webp",
   "audio": {

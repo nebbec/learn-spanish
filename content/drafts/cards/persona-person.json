@@ -3,7 +3,7 @@
   "rank": 172,
   "kind": "content",
   "pos": "noun",
-  "es": "la persona",
+  "target": "la persona",
   "en": "person",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Eres una buena persona.",
+    "target": "Eres una buena persona.",
     "en": "You're a good person."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PERSONA sounds like \"person\" plus an extra a: every person has their own persona.",
   "image": "/deck/img/persona-person.webp",
   "audio": {

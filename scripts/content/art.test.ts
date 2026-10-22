@@ -27,7 +27,7 @@ import type { Runner } from "./claude";
 const root = process.cwd();
 const style = parseStyle(readFileSync(path.join(root, "content", "art", "style.md"), "utf8"));
 
-const card = (id: string, kind: string, image: string | null, en = id) => ({ id, kind, es: id.split("-")[0], en, hint: "", image });
+const card = (id: string, kind: string, image: string | null, en = id) => ({ id, kind, target: id.split("-")[0], en, hint: "", image });
 const deck: DeckLike = {
   cards: [
     card("hola-hello", "content", "/deck/img/hola-hello.webp", "hello"),

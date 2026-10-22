@@ -3,15 +3,15 @@
   "rank": 474,
   "kind": "content",
   "pos": "other",
-  "es": "seis",
+  "target": "seis",
   "en": "six",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Llego a las seis de la tarde.",
+    "target": "Llego a las seis de la tarde.",
     "en": "I'm arriving at six in the evening."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEIS sounds like \"says\": Simon says hold up six fingers.",
   "image": "/deck/img/seis-six.webp",
   "audio": {

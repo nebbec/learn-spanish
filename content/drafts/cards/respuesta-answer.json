@@ -3,7 +3,7 @@
   "rank": 563,
   "kind": "content",
   "pos": "noun",
-  "es": "la respuesta",
+  "target": "la respuesta",
   "en": "answer",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No sé la respuesta.",
+    "target": "No sé la respuesta.",
     "en": "I don't know the answer."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RESPUESTA sounds like \"response\": an answer is your response to a question.",
   "image": "/deck/img/respuesta-answer.webp",
   "audio": {

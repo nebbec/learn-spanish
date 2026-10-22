@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         tener-form-el
-kind:       form
-pos:        verb
-es:         tiene
-en:         he / she has
-hint:       own, possess
-yo:         tengo
-tu:         tienes
-el:         tiene
-irregular:  yes
-example.es: Ella tiene un carro nuevo.
-example.en: She has a new car.
-spain:
+id:             tener-form-el
+kind:           form
+pos:            verb
+target:         tiene
+en:             he / she has
+hint:           own, possess
+yo:             tengo
+tu:             tienes
+el:             tiene
+irregular:      yes
+example.target: Ella tiene un carro nuevo.
+example.en:     She has a new car.
+regional.where:
+regional.text:
 trick:
 
 # The draft this file was made from. Do not change it.

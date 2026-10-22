@@ -3,7 +3,7 @@
   "rank": 17,
   "kind": "content",
   "pos": "verb",
-  "es": "hacer",
+  "target": "hacer",
   "en": "to do",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Qué haces esta noche?",
+    "target": "¿Qué haces esta noche?",
     "en": "What are you doing tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "HACER sounds like 'ah, sir': 'Ah, sir, what should I do?' asks the eager helper.",
   "image": "/deck/img/hacer-do.webp",
   "audio": {

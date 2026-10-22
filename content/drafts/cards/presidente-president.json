@@ -3,7 +3,7 @@
   "rank": 522,
   "kind": "content",
   "pos": "noun",
-  "es": "el presidente",
+  "target": "el presidente",
   "en": "president",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El presidente habla hoy en la tele.",
+    "target": "El presidente habla hoy en la tele.",
     "en": "The president is speaking on TV today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRESIDENTE sounds like president with a tea: the president sips tea while presiding over the meeting.",
   "image": "/deck/img/presidente-president.webp",
   "audio": {

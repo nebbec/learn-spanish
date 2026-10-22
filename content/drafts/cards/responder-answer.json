@@ -3,7 +3,7 @@
   "rank": 555,
   "kind": "content",
   "pos": "verb",
-  "es": "responder",
+  "target": "responder",
   "en": "to answer",
   "hint": "looks like English respond, not contestar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Por qué no respondes mis mensajes?",
+    "target": "¿Por qué no respondes mis mensajes?",
     "en": "Why don't you answer my messages?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "RESPONDER sounds like respond: when someone asks, you respond with an answer.",
   "image": "/deck/img/responder-answer.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 516,
   "kind": "content",
   "pos": "noun",
-  "es": "la música",
+  "target": "la música",
   "en": "music",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me encanta la música de este grupo.",
+    "target": "Me encanta la música de este grupo.",
     "en": "I love this band's music."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MÚSICA sounds like music plus a little ka: the band hits one last drum beat, ka!",
   "image": "/deck/img/musica-music.webp",
   "audio": {

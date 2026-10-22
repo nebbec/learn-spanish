@@ -3,7 +3,7 @@
   "rank": 156,
   "kind": "content",
   "pos": "noun",
-  "es": "la hora",
+  "target": "la hora",
   "en": "time",
   "hint": "on the clock",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Qué hora es?",
+    "target": "¿Qué hora es?",
     "en": "What time is it?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "HORA sounds like \"hour\": to ask what time it is, you ask which hour it is.",
   "image": "/deck/img/hora-time-clock.webp",
   "audio": {

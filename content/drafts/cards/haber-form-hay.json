@@ -3,7 +3,7 @@
   "rank": 12,
   "kind": "form",
   "pos": "verb",
-  "es": "hay",
+  "target": "hay",
   "en": "there is / there are",
   "hint": "something exists; not estar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Hay café aquí?",
+    "target": "¿Hay café aquí?",
     "en": "Is there coffee here?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Hay sounds like eye: use your eye to see what there is.",
   "image": "/deck/img/haber-there-is.webp",
   "audio": {

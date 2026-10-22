@@ -3,7 +3,7 @@
   "rank": 254,
   "kind": "content",
   "pos": "verb",
-  "es": "significar",
+  "target": "significar",
   "en": "to mean",
   "hint": "one word, not querer decir",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Qué significa esta palabra?",
+    "target": "¿Qué significa esta palabra?",
     "en": "What does this word mean?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIGNIFICAR sounds like \"significant\": anything significant means something.",
   "image": "/deck/img/significar-mean.webp",
   "audio": {

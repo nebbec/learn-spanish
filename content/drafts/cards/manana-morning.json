@@ -3,7 +3,7 @@
   "rank": 171,
   "kind": "content",
   "pos": "noun",
-  "es": "la mañana",
+  "target": "la mañana",
   "en": "morning",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tomo café todas las mañanas.",
+    "target": "Tomo café todas las mañanas.",
     "en": "I drink coffee every morning."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LA MAÑANA sounds like \"a man and a banana\": every morning a man eats a banana for breakfast.",
   "image": "/deck/img/manana-morning.webp",
   "audio": {

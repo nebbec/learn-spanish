@@ -3,7 +3,7 @@
   "rank": 377,
   "kind": "content",
   "pos": "verb",
-  "es": "atacar",
+  "target": "atacar",
   "en": "to attack",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "El perro atacó a mi gato.",
+    "target": "El perro atacó a mi gato.",
     "en": "The dog attacked my cat."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ATACAR sounds like \"attack car\": the angry monster attacks a car.",
   "image": "/deck/img/atacar-attack.webp",
   "audio": {

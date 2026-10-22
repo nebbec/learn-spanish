@@ -3,7 +3,7 @@
   "rank": 375,
   "kind": "content",
   "pos": "noun",
-  "es": "la vuelta",
+  "target": "la vuelta",
   "en": "turn",
   "hint": "a spin, a lap, a stroll around",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Vamos a dar una vuelta por el parque.",
+    "target": "Vamos a dar una vuelta por el parque.",
     "en": "Let's take a walk around the park."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VUELTA sounds like a twirling waltz: you turn round and round on the dance floor.",
   "image": "/deck/img/vuelta-turn.webp",
   "audio": {

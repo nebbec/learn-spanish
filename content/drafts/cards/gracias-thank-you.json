@@ -3,15 +3,15 @@
   "rank": 75,
   "kind": "content",
   "pos": "other",
-  "es": "gracias",
+  "target": "gracias",
   "en": "thank you",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "No, gracias. Yo insisto.",
+    "target": "No, gracias. Yo insisto.",
     "en": "No, thank you. I insist."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GRACIAS sounds like gracious: a gracious person always says thank you.",
   "image": "/deck/img/gracias-thank-you.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 24,
   "kind": "glue",
   "pos": "preposition",
-  "es": "para",
+  "target": "para",
   "en": "a gift [for] you",
   "hint": "recipient, purpose or deadline, not por",
   "grammar": null,
   "example": {
-    "es": "Este regalo es para ti.",
+    "target": "Este regalo es para ti.",
     "en": "This gift is for you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARA sounds like a parachute dropping a gift for you, aimed right at its recipient.",
   "image": null,
   "audio": {

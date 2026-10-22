@@ -3,15 +3,15 @@
   "rank": 335,
   "kind": "content",
   "pos": "other",
-  "es": "cinco",
+  "target": "cinco",
   "en": "five",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Quiero cinco cafés, por favor.",
+    "target": "Quiero cinco cafés, por favor.",
     "en": "I want five coffees, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CINCO sounds like sink-o: you wash five fingers in the sink.",
   "image": "/deck/img/cinco-five.webp",
   "audio": {

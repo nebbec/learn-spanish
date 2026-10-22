@@ -3,7 +3,7 @@
   "rank": 706,
   "kind": "content",
   "pos": "verb",
-  "es": "sorprender",
+  "target": "sorprender",
   "en": "to surprise",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me sorprende que no lo sepas.",
+    "target": "Me sorprende que no lo sepas.",
     "en": "It surprises me that you don't know."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SORPRENDER sounds like surprise-render: a party renders everyone surprised when they jump out.",
   "image": "/deck/img/sorprender-surprise.webp",
   "audio": {

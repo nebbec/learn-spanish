@@ -3,7 +3,7 @@
   "rank": 162,
   "kind": "content",
   "pos": "verb",
-  "es": "valer",
+  "target": "valer",
   "en": "to be worth",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Esa película no vale la pena.",
+    "target": "Esa película no vale la pena.",
     "en": "That movie isn't worth it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VALER sounds like value: if something has value, it is worth something.",
   "image": "/deck/img/valer-be-worth.webp",
   "audio": {

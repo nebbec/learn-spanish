@@ -29,6 +29,7 @@ import { checkExamples, type ExampleCheck, type Lemmas } from "./known-words";
 import type { DraftStore } from "./drafting";
 import { pathMarkdown, pathOrder, SIBLING_SPACING } from "./path-order";
 import { allDrafted, cardHash, idProblem, readDraftCard, type ReviewStore } from "./reviewing";
+import { contentPaths } from "./script-lang";
 import { tagProblems, TagStore } from "./tagging";
 import { readTips, readUnits, type TipEntry, type Unit } from "./units";
 
@@ -137,6 +138,7 @@ export function buildDeck(
     lemmas?: Lemmas | null;
   } = {},
 ): DeckBuild {
+  const { lang } = drafts;
   const build: DeckBuild = {
     deck: null,
     passed: [],
@@ -181,7 +183,7 @@ export function buildDeck(
         build.passed.push(id);
         continue;
       }
-      const decision = readDecision(reviews, id);
+      const decision = readDecision(reviews, id, lang);
       if (!decision || decision.draft !== review.draft || decision.decision === "pending") {
         build.waiting.push(id);
         continue;
@@ -194,10 +196,10 @@ export function buildDeck(
         build.rejected.push(id);
         continue;
       }
-      const card = cardFromDecision(draft, decision.fields);
-      const validation = validateDraftCard(card);
+      const card = cardFromDecision(draft, decision.fields, lang);
+      const validation = validateDraftCard(card, lang);
       const fields = validation.ok ? [] : validation.errors.map((e) => e.replace(/^card [^.:]*\.?/, "").split(":")[0] || "card");
-      if (idProblem(String((card as { id: unknown }).id), word.word, word.rank, word.kind)) fields.push("id");
+      if (idProblem(String((card as { id: unknown }).id), word.word, word.rank, word.kind, lang)) fields.push("id");
       if (fields.length) {
         build.problems.push(`${id}: ${[...new Set(fields)].join(", ")}`);
         continue;
@@ -267,9 +269,9 @@ export function buildDeck(
   }
 
   // Clip paths carry a hash of the clip's text and take (G2), so a corrected sentence names a new clip.
-  const ordered = kept.map((card) => ({ ...card, audio: audioPaths(card, takes) }));
+  const ordered = kept.map((card) => ({ ...card, audio: audioPaths(card, takes, lang) }));
   // Tip example clips are named the same way (L8), with their takes.
-  const shippedTips = tips.map((tip) => tipAudioPaths(tip, takes));
+  const shippedTips = tips.map((tip) => tipAudioPaths(tip, takes, lang));
   const units: DeckUnit[] = (plan?.units ?? [])
     .filter((u) => ordered.some((c) => c.unit === u.id))
     .map(({ id, title, goal }) => ({ id, title, goal }));
@@ -278,7 +280,7 @@ export function buildDeck(
     !previous ||
     JSON.stringify([previous.units ?? [], previous.tips ?? [], previous.cards]) !== JSON.stringify([units, shippedTips, ordered]);
   const version = !previous ? 1 : changed ? previous.version + 1 : previous.version;
-  const deck: Deck = { format: DECK_FORMAT, version, units, tips: shippedTips, cards: ordered };
+  const deck = { format: DECK_FORMAT, lang, version, units, tips: shippedTips, cards: ordered } as Deck;
   build.changed = changed;
 
   const notes = new Map<string, string>();
@@ -297,7 +299,7 @@ export function buildDeck(
   }
   build.pathText = pathMarkdown({ order, units: plan?.units ?? [], notes, matched });
 
-  const validation = validateDeck(deck);
+  const validation = validateDeck(deck, lang);
   if (!validation.ok) build.deckProblems = validation.errors.map((e) => e.replace(/^card /, "").split(":")[0]);
   const ids = new Set(ordered.map((c) => c.id));
   build.dropped = (previous?.cards ?? []).map((c) => c.id).filter((id) => !ids.has(id));
@@ -308,11 +310,12 @@ export function buildDeck(
 
 /**
  * The learning path's order and known-words checks as the deck build would compute them from the files under
- * `root` (content/units.json, content/tips.json, content/tags): for the review pass and the example redraft (L7),
- * which need each card's place but not the deck itself.
+ * `root` (content/units.json, content/tips.json, content/tags, or content/de/ for German): for the review pass
+ * and the example redraft (L7), which need each card's place but not the deck itself.
  */
-export function pathOnDisk(root: string, drafts: DraftStore, reviews: ReviewStore, lemmas: Lemmas): DeckBuild {
-  const plan = { units: readUnits(root), tipList: readTips(root), tags: new TagStore(path.join(root, "content", "tags")) };
+export function pathOnDisk(root: string, drafts: DraftStore, reviews: ReviewStore, lemmas: Lemmas | null): DeckBuild {
+  const { lang } = drafts;
+  const plan = { units: readUnits(root, lang), tipList: readTips(root, lang), tags: new TagStore(contentPaths(root, lang).tags) };
   return buildDeck(drafts, reviews, null, { plan, lemmas });
 }
 

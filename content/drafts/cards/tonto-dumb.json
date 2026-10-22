@@ -3,17 +3,17 @@
   "rank": 490,
   "kind": "content",
   "pos": "adjective",
-  "es": "tonto",
+  "target": "tonto",
   "en": "dumb, silly",
   "hint": null,
   "grammar": {
     "feminine": "tonta"
   },
   "example": {
-    "es": "No seas tonto, ella te quiere.",
+    "target": "No seas tonto, ella te quiere.",
     "en": "Don't be silly, she loves you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TONTO sounds like Tonto the sidekick, whose name means dumb in Spanish, a silly choice by the show.",
   "image": "/deck/img/tonto-dumb.webp",
   "audio": {

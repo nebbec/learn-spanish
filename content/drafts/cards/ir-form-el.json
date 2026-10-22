@@ -3,7 +3,7 @@
   "rank": 15,
   "kind": "form",
   "pos": "verb",
-  "es": "va",
+  "target": "va",
   "en": "he / she goes",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi hermano va a la ciudad.",
+    "target": "Mi hermano va a la ciudad.",
     "en": "My brother goes to the city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Va sounds like 'vroom': he goes, vroom, va!",
   "image": "/deck/img/ir-go.webp",
   "audio": {

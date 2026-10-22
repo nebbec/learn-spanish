@@ -3,7 +3,7 @@
   "rank": 584,
   "kind": "content",
   "pos": "noun",
-  "es": "el profesor",
+  "target": "el profesor",
   "en": "teacher",
   "hint": "high school or university teacher, also professor",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi profesor de historia es muy divertido.",
+    "target": "Mi profesor de historia es muy divertido.",
     "en": "My history teacher is really fun."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PROFESOR sounds like professor: the teacher who professes what they know to the class.",
   "image": "/deck/img/profesor-teacher.webp",
   "audio": {

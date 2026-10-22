@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to trick.
 decision: approve
 
-id:         camara-camera
-kind:       content
-pos:        noun
-es:         la cámara
-en:         camera
+id:             camara-camera
+kind:           content
+pos:            noun
+target:         la cámara
+en:             camera
 hint:
-gender:     f
-article:    la
-example.es: Sonríe, que hay una cámara.
-example.en: Smile, there's a camera.
-spain:
-trick:      CÁMARA is camera with the e swapped for an a: say cheese, the cámara is rolling.
+gender:         f
+article:        la
+example.target: Sonríe, que hay una cámara.
+example.en:     Smile, there's a camera.
+regional.where:
+regional.text:
+trick:          CÁMARA is camera with the e swapped for an a: say cheese, the cámara is rolling.
 
 # The draft this file was made from. Do not change it.
-draft: 14566be9baa75056
+draft: f6b9719fc1aee354

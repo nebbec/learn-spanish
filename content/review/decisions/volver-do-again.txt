@@ -8,26 +8,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         volver-do-again
-kind:       content
-pos:        verb
-es:         volver
-en:         to do again
-hint:       followed by a + infinitive
-yo:         vuelvo
-tu:         vuelves
-el:         vuelve
-irregular:  yes
-example.es: Mañana la vuelvo a llamar.
-example.en: I'll call her again tomorrow.
-spain:
-trick:      VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again.
+id:             volver-do-again
+kind:           content
+pos:            verb
+target:         volver
+en:             to do again
+hint:           followed by a + infinitive
+yo:             vuelvo
+tu:             vuelves
+el:             vuelve
+irregular:      yes
+example.target: Mañana la vuelvo a llamar.
+example.en:     I'll call her again tomorrow.
+regional.where:
+regional.text:
+trick:          VOLVER sounds like revolver: the cylinder keeps turning around, doing the same thing again and again.
 
 # The draft this file was made from. Do not change it.
-draft: 4373b3d0d0f380d9
+draft: 537cb7697501f085

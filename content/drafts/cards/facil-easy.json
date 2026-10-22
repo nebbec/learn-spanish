@@ -3,17 +3,17 @@
   "rank": 409,
   "kind": "content",
   "pos": "adjective",
-  "es": "fácil",
+  "target": "fácil",
   "en": "easy",
   "hint": null,
   "grammar": {
     "feminine": "fácil"
   },
   "example": {
-    "es": "No es fácil, pero lo vamos a lograr.",
+    "target": "No es fácil, pero lo vamos a lograr.",
     "en": "It's not easy, but we're going to make it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FÁCIL sounds like facile, an English word for something too easy.",
   "image": "/deck/img/facil-easy.webp",
   "audio": {

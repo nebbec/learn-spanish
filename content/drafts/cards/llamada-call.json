@@ -3,7 +3,7 @@
   "rank": 454,
   "kind": "content",
   "pos": "noun",
-  "es": "la llamada",
+  "target": "la llamada",
   "en": "call",
   "hint": "phone call",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tengo una llamada de mi mamá.",
+    "target": "Tengo una llamada de mi mamá.",
     "en": "I have a call from my mom."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLAMADA sounds like \"yah, Mada?\": what you say when you answer a phone call.",
   "image": "/deck/img/llamada-call.webp",
   "audio": {

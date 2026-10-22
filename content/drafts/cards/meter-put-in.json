@@ -3,7 +3,7 @@
   "rank": 291,
   "kind": "content",
   "pos": "verb",
-  "es": "meter",
+  "target": "meter",
   "en": "to put in",
   "hint": "inside something, not poner",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mete la ropa en la maleta.",
+    "target": "Mete la ropa en la maleta.",
     "en": "Put the clothes in the suitcase."
   },
-  "spain": null,
+  "regional": null,
   "trick": "METER sounds like a parking meter: you put coins in the meter.",
   "image": "/deck/img/meter-put-in.webp",
   "audio": {

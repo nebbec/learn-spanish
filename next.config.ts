@@ -6,8 +6,13 @@ import type { NextConfig } from "next";
 const buildId = (process.env.LEARN_SPANISH_BUILD_ID ??=
   process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 12) ?? Date.now().toString(36));
 
+// The language this build teaches (lang/, docs/german.md): `es` when unset, so
+// the Spanish deployment needs no change. Set here so every build inlines a
+// value, rather than leaving the browser to read an empty process.env.
+const lang = process.env.NEXT_PUBLIC_LANG || "es";
+
 const nextConfig: NextConfig = {
-  env: { NEXT_PUBLIC_BUILD_ID: buildId },
+  env: { NEXT_PUBLIC_BUILD_ID: buildId, NEXT_PUBLIC_LANG: lang },
   async headers() {
     return [
       {

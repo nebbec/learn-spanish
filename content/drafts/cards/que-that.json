@@ -3,15 +3,15 @@
   "rank": 3,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "que",
+  "target": "que",
   "en": "I think [that] she is coming",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Sé que ella viene mañana.",
+    "target": "Sé que ella viene mañana.",
     "en": "I know that she's coming tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUE sounds like \"K\": that letter K joins two thoughts, just like \"that\" links them.",
   "image": null,
   "audio": {

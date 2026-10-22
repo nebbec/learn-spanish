@@ -3,17 +3,17 @@
   "rank": 272,
   "kind": "content",
   "pos": "adjective",
-  "es": "supuesto",
+  "target": "supuesto",
   "en": "supposed",
   "hint": "alleged",
   "grammar": {
     "feminine": "supuesta"
   },
   "example": {
-    "es": "El supuesto ladrón era su hermano.",
+    "target": "El supuesto ladrón era su hermano.",
     "en": "The supposed thief was his brother."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUPUESTO sounds like \"supposed-o\": the supposed suspect, only supposedly guilty.",
   "image": "/deck/img/supuesto-supposed.webp",
   "audio": {

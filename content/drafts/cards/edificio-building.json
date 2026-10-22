@@ -3,7 +3,7 @@
   "rank": 782,
   "kind": "content",
   "pos": "noun",
-  "es": "el edificio",
+  "target": "el edificio",
   "en": "building",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Vivo en ese edificio azul.",
+    "target": "Vivo en ese edificio azul.",
     "en": "I live in that blue building."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EDIFICIO sounds like \"edifice\": a big edifice is a building.",
   "image": "/deck/img/edificio-building.webp",
   "audio": {

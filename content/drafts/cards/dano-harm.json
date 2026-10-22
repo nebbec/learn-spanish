@@ -3,7 +3,7 @@
   "rank": 537,
   "kind": "content",
   "pos": "noun",
-  "es": "el daño",
+  "target": "el daño",
   "en": "harm, damage",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No te voy a hacer daño.",
+    "target": "No te voy a hacer daño.",
     "en": "I'm not going to hurt you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DAÑO sounds like \"darn, oh!\", which is what you say when you see the damage.",
   "image": "/deck/img/dano-harm.webp",
   "audio": {

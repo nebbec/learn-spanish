@@ -3,7 +3,7 @@
   "rank": 612,
   "kind": "content",
   "pos": "noun",
-  "es": "la víctima",
+  "target": "la víctima",
   "en": "victim",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La víctima no vio al ladrón.",
+    "target": "La víctima no vio al ladrón.",
     "en": "The victim didn't see the thief."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VÍCTIMA sounds like victim plus 'ma': the victim cries for mamá.",
   "image": "/deck/img/victima-victim.webp",
   "audio": {

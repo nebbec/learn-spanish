@@ -3,7 +3,7 @@
   "rank": 595,
   "kind": "content",
   "pos": "noun",
-  "es": "el papel",
+  "target": "el papel",
   "en": "paper",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Tienes papel y lápiz?",
+    "target": "¿Tienes papel y lápiz?",
     "en": "Do you have paper and a pencil?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PAPEL sounds like paper with an L: just a sheet of paper with an extra letter written on it.",
   "image": "/deck/img/papel-paper.webp",
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 458,
   "kind": "content",
   "pos": "adjective",
-  "es": "médico",
+  "target": "médico",
   "en": "medical",
   "hint": null,
   "grammar": {
     "feminine": "médica"
   },
   "example": {
-    "es": "Necesita atención médica ahora mismo.",
+    "target": "Necesita atención médica ahora mismo.",
     "en": "He needs medical attention right now."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MÉDICO sounds like medical without the ending: anything a medic does is medical.",
   "image": "/deck/img/medico-medical.webp",
   "audio": {

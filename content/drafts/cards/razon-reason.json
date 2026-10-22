@@ -3,7 +3,7 @@
   "rank": 208,
   "kind": "content",
   "pos": "noun",
-  "es": "la razón",
+  "target": "la razón",
   "en": "reason",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No hay razón para llorar.",
+    "target": "No hay razón para llorar.",
     "en": "There's no reason to cry."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RAZÓN sounds like REASON with a lisp: same word, same meaning.",
   "image": "/deck/img/razon-reason.webp",
   "audio": {

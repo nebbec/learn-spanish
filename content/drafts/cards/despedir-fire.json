@@ -3,7 +3,7 @@
   "rank": 586,
   "kind": "content",
   "pos": "verb",
-  "es": "despedir",
+  "target": "despedir",
   "en": "to fire",
   "hint": "from a job",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Me despidieron del trabajo ayer.",
+    "target": "Me despidieron del trabajo ayer.",
     "en": "They fired me from my job yesterday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESPEDIR sounds like \"desk peddler\": the boss fires the guy peddling stuff at his desk.",
   "image": "/deck/img/despedir-fire.webp",
   "audio": {

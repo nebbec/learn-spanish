@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new conjugated example; simpler and more natural than the suggested 'Fue una sorpresa verte aquí'.
 decision: approve
 
-id:         sorpresa-surprise
-kind:       content
-pos:        noun
-es:         la sorpresa
-en:         surprise
+id:             sorpresa-surprise
+kind:           content
+pos:            noun
+target:         la sorpresa
+en:             surprise
 hint:
-gender:     f
-article:    la
-example.es: Tengo una sorpresa para ti.
-example.en: I have a surprise for you.
-spain:
-trick:      SORPRESA sounds like surprise with a press: someone presses the button and confetti bursts out as a surprise.
+gender:         f
+article:        la
+example.target: Tengo una sorpresa para ti.
+example.en:     I have a surprise for you.
+regional.where:
+regional.text:
+trick:          SORPRESA sounds like surprise with a press: someone presses the button and confetti bursts out as a surprise.
 
 # The draft this file was made from. Do not change it.
-draft: 6c0a6474fb009758
+draft: 117a512bb6647c4e

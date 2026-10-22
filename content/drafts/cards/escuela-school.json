@@ -3,7 +3,7 @@
   "rank": 389,
   "kind": "content",
   "pos": "noun",
-  "es": "la escuela",
+  "target": "la escuela",
   "en": "school",
   "hint": "the general word",
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "la"
   },
   "example": {
-    "es": "Mañana no hay escuela.",
+    "target": "Mañana no hay escuela.",
     "en": "There's no school tomorrow."
   },
-  "spain": "colegio",
+  "regional": {
+    "where": "Spain",
+    "text": "colegio"
+  },
   "trick": "ESCUELA sounds like 'a school, ya!': kids shout it as they run to the school bus.",
   "image": "/deck/img/escuela-school.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 14,
   "kind": "glue",
   "pos": "preposition",
-  "es": "por",
+  "target": "por",
   "en": "a book written [by] my mother",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "La comida fue hecha por mi madre.",
+    "target": "La comida fue hecha por mi madre.",
     "en": "The food was made by my mother."
   },
-  "spain": null,
+  "regional": null,
   "trick": "POR sounds like poor: a poem written by a poor poet.",
   "image": null,
   "audio": {

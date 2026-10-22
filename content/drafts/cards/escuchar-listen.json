@@ -3,7 +3,7 @@
   "rank": 137,
   "kind": "content",
   "pos": "verb",
-  "es": "escuchar",
+  "target": "escuchar",
   "en": "to listen",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Escúchame, esto es importante.",
+    "target": "Escúchame, esto es importante.",
     "en": "Listen to me, this is important."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESCUCHAR sounds like 'ask you, char': I ask you something, so listen closely to my answer.",
   "image": "/deck/img/escuchar-listen.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 512,
   "kind": "content",
   "pos": "noun",
-  "es": "el fuego",
+  "target": "el fuego",
   "en": "fire",
   "hint": "flames, not a building on fire",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No toques el fuego, quema.",
+    "target": "No toques el fuego, quema.",
     "en": "Don't touch the fire, it burns."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FUEGO sounds like 'fuel, go!': add fuel and the fire goes up in flames.",
   "image": "/deck/img/fuego-fire.webp",
   "audio": {

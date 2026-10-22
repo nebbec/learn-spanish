@@ -3,17 +3,17 @@
   "rank": 635,
   "kind": "content",
   "pos": "adjective",
-  "es": "normal",
+  "target": "normal",
   "en": "normal",
   "hint": null,
   "grammar": {
     "feminine": "normal"
   },
   "example": {
-    "es": "Es normal estar nervioso antes de un examen.",
+    "target": "Es normal estar nervioso antes de un examen.",
     "en": "It's normal to be nervous before a test."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NORMAL is spelled just like English normal; only the stress moves to the end: nor-MAL.",
   "image": "/deck/img/normal-normal.webp",
   "audio": {

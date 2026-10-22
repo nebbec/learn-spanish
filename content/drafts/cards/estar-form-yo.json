@@ -3,7 +3,7 @@
   "rank": 8,
   "kind": "form",
   "pos": "verb",
-  "es": "estoy",
+  "target": "estoy",
   "en": "I am",
   "hint": "state, place",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Hola, estoy en México.",
+    "target": "Hola, estoy en México.",
     "en": "Hi, I'm in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Estoy sounds like \"a stay\": where I stay is where I am right now.",
   "image": "/deck/img/estar-be-state.webp",
   "audio": {

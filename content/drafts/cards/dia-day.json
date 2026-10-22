@@ -3,7 +3,7 @@
   "rank": 83,
   "kind": "content",
   "pos": "noun",
-  "es": "el día",
+  "target": "el día",
   "en": "day",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Hoy es un día muy bonito.",
+    "target": "Hoy es un día muy bonito.",
     "en": "Today is a really nice day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DÍA sounds like \"dear\": every new day is dear to me, even though it ends in -a and is still masculine.",
   "image": "/deck/img/dia-day.webp",
   "audio": {

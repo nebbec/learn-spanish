@@ -3,17 +3,17 @@
   "rank": 344,
   "kind": "content",
   "pos": "adjective",
-  "es": "joven",
+  "target": "joven",
   "en": "young",
   "hint": null,
   "grammar": {
     "feminine": "joven"
   },
   "example": {
-    "es": "Mi mamá todavía es muy joven.",
+    "target": "Mi mamá todavía es muy joven.",
     "en": "My mom is still very young."
   },
-  "spain": null,
+  "regional": null,
   "trick": "JOVEN sounds like \"hoping\": young people are always hoping for big things.",
   "image": "/deck/img/joven-young.webp",
   "audio": {

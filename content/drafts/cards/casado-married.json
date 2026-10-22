@@ -3,17 +3,17 @@
   "rank": 676,
   "kind": "content",
   "pos": "adjective",
-  "es": "casado",
+  "target": "casado",
   "en": "married",
   "hint": null,
   "grammar": {
     "feminine": "casada"
   },
   "example": {
-    "es": "Mi hermano está casado con una doctora.",
+    "target": "Mi hermano está casado con una doctora.",
     "en": "My brother is married to a doctor."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CASADO sounds like casa plus 'dough': married couples share a house and their money.",
   "image": "/deck/img/casado-married.webp",
   "audio": {

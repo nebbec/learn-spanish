@@ -3,7 +3,7 @@
   "rank": 511,
   "kind": "content",
   "pos": "noun",
-  "es": "el hospital",
+  "target": "el hospital",
   "en": "hospital",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi abuela está en el hospital.",
+    "target": "Mi abuela está en el hospital.",
     "en": "My grandmother is in the hospital."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HOSPITAL is spelled just like English; only the silent H and the stress on the last syllable, os-pee-TAL, are different.",
   "image": "/deck/img/hospital-hospital.webp",
   "audio": {

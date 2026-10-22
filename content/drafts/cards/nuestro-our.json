@@ -3,15 +3,15 @@
   "rank": 81,
   "kind": "glue",
   "pos": "determiner",
-  "es": "nuestro",
+  "target": "nuestro",
   "en": "[our] dog",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Nuestro perro come mucho.",
+    "target": "Nuestro perro come mucho.",
     "en": "Our dog eats a lot."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NUESTRO sounds like \"new stereo\": our new stereo belongs to all of us.",
   "image": null,
   "audio": {

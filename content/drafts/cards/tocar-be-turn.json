@@ -3,7 +3,7 @@
   "rank": 283,
   "kind": "content",
   "pos": "verb",
-  "es": "tocar",
+  "target": "tocar",
   "en": "to be someone's turn",
   "hint": "te ___ a ti",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Ahora te toca a ti.",
+    "target": "Ahora te toca a ti.",
     "en": "Now it's your turn."
   },
-  "spain": null,
+  "regional": null,
   "trick": "In tag, when someone TOCA (touches) you, it's your turn to be it.",
   "image": "/deck/img/tocar-be-turn.webp",
   "audio": {

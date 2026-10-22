@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         tranquilo-calm
-kind:       content
-pos:        adjective
-es:         tranquilo
-en:         calm
-hint:       the everyday word, also said on its own to mean 'Relax!'
-feminine:   tranquila
-example.es: Tranquila, todo va a estar bien.
-example.en: Stay calm, everything is going to be fine.
-spain:
-trick:      TRANQUILO sounds like tranquil: a tranquil lake is perfectly calm.
+id:             tranquilo-calm
+kind:           content
+pos:            adjective
+target:         tranquilo
+en:             calm
+hint:           the everyday word, also said on its own to mean 'Relax!'
+feminine:       tranquila
+example.target: Tranquila, todo va a estar bien.
+example.en:     Stay calm, everything is going to be fine.
+regional.where:
+regional.text:
+trick:          TRANQUILO sounds like tranquil: a tranquil lake is perfectly calm.
 
 # The draft this file was made from. Do not change it.
-draft: c2cb252d63adcbbb
+draft: 62e28094889ff928

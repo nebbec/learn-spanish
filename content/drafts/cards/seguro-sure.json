@@ -3,17 +3,17 @@
   "rank": 139,
   "kind": "content",
   "pos": "adjective",
-  "es": "seguro",
+  "target": "seguro",
   "en": "sure",
   "hint": "certain, not in doubt",
   "grammar": {
     "feminine": "segura"
   },
   "example": {
-    "es": "¿Estás seguro?",
+    "target": "¿Estás seguro?",
     "en": "Are you sure?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEGURO sounds like \"secure-o\": when you feel secure about an answer, you are sure.",
   "image": "/deck/img/seguro-sure.webp",
   "audio": {

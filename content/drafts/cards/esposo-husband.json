@@ -3,7 +3,7 @@
   "rank": 253,
   "kind": "content",
   "pos": "noun",
-  "es": "el esposo",
+  "target": "el esposo",
   "en": "husband",
   "hint": "not marido; related to spouse",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi esposo trabaja en un hospital.",
+    "target": "Mi esposo trabaja en un hospital.",
     "en": "My husband works at a hospital."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESPOSO sounds like spouse-o: your male spouse is your husband.",
   "image": "/deck/img/esposo-husband.webp",
   "audio": {

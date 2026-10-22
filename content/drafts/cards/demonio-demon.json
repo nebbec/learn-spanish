@@ -3,7 +3,7 @@
   "rank": 402,
   "kind": "content",
   "pos": "noun",
-  "es": "el demonio",
+  "target": "el demonio",
   "en": "demon",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi hermano dice que vio un demonio.",
+    "target": "Mi hermano dice que vio un demonio.",
     "en": "My brother says he saw a demon."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEMONIO sounds like demon plus money: a demon that steals all your money.",
   "image": "/deck/img/demonio-demon.webp",
   "audio": {

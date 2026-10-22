@@ -3,15 +3,15 @@
   "rank": 564,
   "kind": "content",
   "pos": "adverb",
-  "es": "ayer",
+  "target": "ayer",
   "en": "yesterday",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Ayer fui al cine con mi hermana.",
+    "target": "Ayer fui al cine con mi hermana.",
     "en": "Yesterday I went to the movies with my sister."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AYER sounds like \"I-yer\": I-yer-self did it yesterday, so don't blame me today.",
   "image": "/deck/img/ayer-yesterday.webp",
   "audio": {

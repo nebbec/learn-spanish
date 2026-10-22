@@ -3,7 +3,7 @@
   "rank": 534,
   "kind": "content",
   "pos": "noun",
-  "es": "el grupo",
+  "target": "el grupo",
   "en": "group",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Vamos a trabajar en grupo.",
+    "target": "Vamos a trabajar en grupo.",
     "en": "We're going to work in a group."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GRUPO sounds like group-oh: oh, what a big group of friends!",
   "image": "/deck/img/grupo-group.webp",
   "audio": {

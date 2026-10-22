@@ -3,7 +3,7 @@
   "rank": 163,
   "kind": "content",
   "pos": "noun",
-  "es": "el lugar",
+  "target": "el lugar",
   "en": "place",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Este lugar es muy bonito.",
+    "target": "Este lugar es muy bonito.",
     "en": "This place is really beautiful."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LUGAR sounds like luggage: you drag your luggage from place to place.",
   "image": "/deck/img/lugar-place.webp",
   "audio": {

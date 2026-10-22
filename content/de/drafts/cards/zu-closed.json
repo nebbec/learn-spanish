@@ -1,0 +1,21 @@
+{
+  "id": "zu-closed",
+  "rank": 14,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "zu",
+  "en": "closed",
+  "hint": "short everyday word",
+  "grammar": null,
+  "example": {
+    "target": "Der Laden ist schon zu.",
+    "en": "The shop is already closed."
+  },
+  "regional": null,
+  "trick": "ZU sounds like zoo said with ts: sorry, the tsoo is closed tonight.",
+  "image": "/deck-de/img/zu-closed.webp",
+  "audio": {
+    "word": "/deck-de/audio/zu-closed.word.mp3",
+    "sentence": "/deck-de/audio/zu-closed.sentence.mp3"
+  }
+}

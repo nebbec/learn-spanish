@@ -3,7 +3,7 @@
   "rank": 594,
   "kind": "content",
   "pos": "noun",
-  "es": "el servicio",
+  "target": "el servicio",
   "en": "service",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El servicio en este restaurante es excelente.",
+    "target": "El servicio en este restaurante es excelente.",
     "en": "The service at this restaurant is excellent."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SERVICIO sounds like \"service-ee-oh\": just add a cheerful \"ee-oh\" to service with a smile.",
   "image": "/deck/img/servicio-service.webp",
   "audio": {

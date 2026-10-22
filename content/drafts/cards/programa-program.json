@@ -3,7 +3,7 @@
   "rank": 687,
   "kind": "content",
   "pos": "noun",
-  "es": "el programa",
+  "target": "el programa",
   "en": "program",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi programa favorito empieza a las ocho.",
+    "target": "Mi programa favorito empieza a las ocho.",
     "en": "My favorite show starts at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PROGRAMA sounds like program plus a grandma: Grandma never misses her TV program.",
   "image": "/deck/img/programa-program.webp",
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 471,
   "kind": "content",
   "pos": "adjective",
-  "es": "estúpido",
+  "target": "estúpido",
   "en": "stupid",
   "hint": null,
   "grammar": {
     "feminine": "estúpida"
   },
   "example": {
-    "es": "¡Qué idea tan estúpida!",
+    "target": "¡Qué idea tan estúpida!",
     "en": "What a stupid idea!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESTÚPIDO sounds almost exactly like \"stupid\" with an extra \"es\" in front and an \"o\" on the end.",
   "image": "/deck/img/estupido-stupid.webp",
   "audio": {

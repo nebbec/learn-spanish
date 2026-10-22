@@ -3,7 +3,7 @@
   "rank": 493,
   "kind": "content",
   "pos": "noun",
-  "es": "el marido",
+  "target": "el marido",
   "en": "husband",
   "hint": "not esposo",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi marido trabaja en un hospital.",
+    "target": "Mi marido trabaja en un hospital.",
     "en": "My husband works in a hospital."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MARIDO sounds like \"married-o\": the guy you married is your husband.",
   "image": "/deck/img/marido-husband.webp",
   "audio": {

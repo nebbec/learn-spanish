@@ -3,7 +3,7 @@
   "rank": 530,
   "kind": "content",
   "pos": "noun",
-  "es": "la ropa",
+  "target": "la ropa",
   "en": "clothes",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tengo que lavar la ropa hoy.",
+    "target": "Tengo que lavar la ropa hoy.",
     "en": "I have to wash the clothes today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ROPA sounds like rope: hang your clothes on a rope to dry.",
   "image": "/deck/img/ropa-clothes.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 488,
   "kind": "content",
   "pos": "noun",
-  "es": "el rey",
+  "target": "el rey",
   "en": "king",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El rey vive en un castillo enorme.",
+    "target": "El rey vive en un castillo enorme.",
     "en": "The king lives in a huge castle."
   },
-  "spain": null,
+  "regional": null,
   "trick": "REY sounds like \"ray\": a king wears a crown that shines with golden rays.",
   "image": "/deck/img/rey-king.webp",
   "audio": {

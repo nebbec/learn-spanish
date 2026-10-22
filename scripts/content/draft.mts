@@ -6,6 +6,11 @@
 //   npm run draft -- --forms [--verbs ser,estar] [...]    the core verbs' form cards
 //   npm run draft -- --phrases [--units who-i-am] [...]   content/units.json's chunks and payoffs
 //   npm run draft -- --examples --ids a,b [...]           a new example for each card, nothing else
+//   npm run draft -- --lang de ...                        German: content/de/word-list.tsv into content/de/drafts
+//
+// --lang de (DE5) reads and writes content/de/ in place of content/, with
+// German's prompts (DE7). A German word pass is also given the drafted Spanish
+// content cards, so each card can name the one of the same meaning (`sameAs`).
 //
 // --forms drafts one call per verb of FORM_VERBS (path-cards.ts) whose card is
 // drafted, into content/drafts/forms/<verb>.json; --phrases one call per phrase,
@@ -31,11 +36,13 @@ import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { apiRunner, cliRunner, DEFAULT_MODEL, EFFORTS, type Effort } from "./claude";
 import { pathOnDisk } from "./deck-build";
-import { DraftStore, draftWords, formatSummary, parseWordList, type DraftSummary } from "./drafting";
+import { DraftStore, draftWords, formatSummary, parseWordList, spanishMeanings, type DraftSummary } from "./drafting";
 import { exampleJobs, redraftExamples } from "./examples";
 import { loadLemmas } from "./known-words";
 import { draftForms, draftPhrases, formJobs, phraseJobs, wordRanks } from "./path-cards";
+import { PROMPTS_READY, promptsNotReady } from "./prompts-de";
 import { ReviewStore } from "./reviewing";
+import { contentPaths, LANG_OPTION, parseLang } from "./script-lang";
 import { TagStore } from "./tagging";
 import { readUnits } from "./units";
 
@@ -43,6 +50,7 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..")
 
 const { values } = parseArgs({
   options: {
+    ...LANG_OPTION,
     from: { type: "string" },
     to: { type: "string" },
     ranks: { type: "string" },
@@ -58,8 +66,8 @@ const { values } = parseArgs({
     ids: { type: "string" },
     verbs: { type: "string" },
     units: { type: "string" },
-    list: { type: "string", default: path.join(ROOT, "content", "word-list.tsv") },
-    dir: { type: "string", default: path.join(ROOT, "content", "drafts") },
+    list: { type: "string" },
+    dir: { type: "string" },
   },
 });
 
@@ -67,6 +75,10 @@ function fail(message: string): never {
   console.error(message);
   process.exit(2);
 }
+
+const lang = parseLang(values.lang);
+const paths = contentPaths(ROOT, lang);
+if (!PROMPTS_READY[lang]) fail(promptsNotReady(lang));
 
 const mode = values.forms ? "forms" : values.phrases ? "phrases" : values.examples ? "examples" : "words";
 if ([values.forms, values.phrases, values.examples].filter(Boolean).length > 1) {
@@ -89,8 +101,8 @@ if (!(concurrency >= 1) || !(retries >= 0)) fail("--concurrency must be 1 or mor
 const ids = list(values.ids);
 if (mode === "examples" && !ids?.length) fail("Give the cards whose example to redraft: --examples --ids a,b");
 
-const wordList = parseWordList(readFileSync(values.list, "utf8"));
-const store = new DraftStore(values.dir);
+const wordList = parseWordList(readFileSync(values.list ?? paths.wordList, "utf8"));
+const store = new DraftStore(values.dir ?? paths.drafts, lang);
 const via = values.via;
 const options = {
   store,
@@ -101,29 +113,31 @@ const options = {
   concurrency,
   retries,
   redo: values.redo,
+  spanish: lang === "es" ? [] : spanishMeanings(new DraftStore(contentPaths(ROOT, "es").drafts)),
 };
 const how = `via ${via}, model ${values.model}, effort ${effort}, ${concurrency} at a time`;
 let summary: DraftSummary;
 let noun = "Words";
 
 if (mode === "examples") {
-  const lemmas = await loadLemmas(ROOT);
-  const build = pathOnDisk(ROOT, store, new ReviewStore(path.join(ROOT, "content", "review")), lemmas);
+  const lemmas = await loadLemmas(ROOT, lang);
+  if (!lemmas) fail(`--examples needs the ${paths.config.language} lemma list, which is not pinned in sources.mjs`);
+  const build = pathOnDisk(ROOT, store, new ReviewStore(paths.review), lemmas);
   if (build.orderProblems.length) fail(`The order has ${build.orderProblems.length} problems: run npm run deck to see them`);
   const { jobs, missing } = exampleJobs(build, store, ids!, lemmas);
   if (missing.length) console.log(`Not in the learning path's order (not drafted, or rejected): ${missing.join(", ")}`);
   console.log(`Redrafting the examples of ${jobs.length} cards ${how}`);
-  summary = await redraftExamples(jobs, lemmas, { ...options, tags: new TagStore(path.join(ROOT, "content", "tags")) });
+  summary = await redraftExamples(jobs, lemmas, { ...options, tags: new TagStore(paths.tags) });
   noun = "Examples";
 } else if (mode === "forms") {
-  const { jobs, missing } = formJobs(store, readUnits(ROOT), list(values.verbs));
+  const { jobs, missing } = formJobs(store, readUnits(ROOT, lang), list(values.verbs));
   if (missing.length) console.log(`Not drafted, their verb's card is missing: ${missing.join(", ")}`);
   console.log(`Drafting the form cards of ${jobs.length} verbs (${jobs.reduce((n, j) => n + j.cards.length, 0)} cards) ${how}`);
   summary = await draftForms(jobs, options);
   noun = "Verbs";
 } else if (mode === "phrases") {
   const units = list(values.units);
-  const { jobs: all, problems } = phraseJobs(readUnits(ROOT));
+  const { jobs: all, problems } = phraseJobs(readUnits(ROOT, lang));
   if (problems.length) fail(`The unit plan's phrases have ${problems.length} problems: ${problems.join("; ")}`);
   const jobs = all.filter((j) => !units || units.includes(j.unit));
   console.log(`Drafting ${jobs.length} phrase cards ${how}`);

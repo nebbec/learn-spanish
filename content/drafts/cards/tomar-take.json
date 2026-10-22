@@ -3,7 +3,7 @@
   "rank": 107,
   "kind": "content",
   "pos": "verb",
-  "es": "tomar",
+  "target": "tomar",
   "en": "to take",
   "hint": "grab, take hold of, take a bus",
   "grammar": {
@@ -15,10 +15,13 @@
     "irregular": false
   },
   "example": {
-    "es": "Toma mi mano.",
+    "target": "Toma mi mano.",
     "en": "Take my hand."
   },
-  "spain": "coger",
+  "regional": {
+    "where": "Spain",
+    "text": "coger"
+  },
   "trick": "TOMAR sounds like 'tomorrow': take what you want today, not tomorrow.",
   "image": "/deck/img/tomar-take.webp",
   "audio": {

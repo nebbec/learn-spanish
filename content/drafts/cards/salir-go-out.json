@@ -3,7 +3,7 @@
   "rank": 108,
   "kind": "content",
   "pos": "verb",
-  "es": "salir",
+  "target": "salir",
   "en": "to go out",
   "hint": "to exit or leave a place",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Salgo con mis amigos esta noche.",
+    "target": "Salgo con mis amigos esta noche.",
     "en": "I'm going out with my friends tonight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SALIR sounds like sail here: you sail out of the harbor when you go out.",
   "image": "/deck/img/salir-go-out.webp",
   "audio": {

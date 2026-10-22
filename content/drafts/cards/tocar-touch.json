@@ -3,7 +3,7 @@
   "rank": 283,
   "kind": "content",
   "pos": "verb",
-  "es": "tocar",
+  "target": "tocar",
   "en": "to touch",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No toques eso, está caliente.",
+    "target": "No toques eso, está caliente.",
     "en": "Don't touch that, it's hot."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TOCAR sounds like \"toe car\": you touch your toe to the car to feel if it's hot.",
   "image": "/deck/img/tocar-touch.webp",
   "audio": {

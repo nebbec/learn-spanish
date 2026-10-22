@@ -3,7 +3,7 @@
   "rank": 598,
   "kind": "content",
   "pos": "noun",
-  "es": "el caballo",
+  "target": "el caballo",
   "en": "horse",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi abuelo tiene tres caballos en el rancho.",
+    "target": "Mi abuelo tiene tres caballos en el rancho.",
     "en": "My grandpa has three horses on the ranch."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CABALLO sounds like \"cab, I go\": before cabs, you'd ride a horse to get anywhere.",
   "image": "/deck/img/caballo-horse.webp",
   "audio": {

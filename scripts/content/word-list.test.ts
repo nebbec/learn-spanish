@@ -9,6 +9,8 @@ import {
   parseLemmaPairs,
   stripAccents,
 } from "./lemmatize.mjs";
+import { candidatesDe, lemmaSpellings, parseDicWords, spellingIn } from "./lemmatize-de.mjs";
+import { DROP_DE, OVERRIDES_DE } from "./overrides-de.mjs";
 
 const lemmaMap = parseLemmaPairs(
   [
@@ -217,5 +219,138 @@ describe("content/word-list.tsv", () => {
     for (const word of ["de", "que", "no", "el", "un", "ser", "estar", "haber", "tener", "ir", "hacer", "poder"]) {
       expect(top).toContain(word);
     }
+  });
+});
+
+describe("German's rules (DE6)", () => {
+  // A made-up de_DE dictionary: nouns capitalised, the -mann of compounds (flag o), a verb and its noun.
+  const dicDe = parseDicWords(
+    [
+      "12",
+      "# comment",
+      "Mann/SEPTm",
+      "mann/SEPTozm",
+      "Tag/EPSTm",
+      "Hast/m",
+      "essen/BDI",
+      "Essen/Sm",
+      "zeit",
+      "Zeit/Pm",
+      "gut/AU",
+      "sein/A",
+      "ist",
+      "haben/DIW",
+      "tagen/DI",
+      "müssen/DI",
+      "Peter/SM",
+    ].join("\n"),
+  );
+  const lemmaTextDe = [
+    "﻿sein\tist",
+    "sein\tbin",
+    "haben\thast",
+    "Hast\tHasten",
+    "Tag\tTage",
+    "Tag\tTages",
+    "tagen\ttag",
+    "tagen\ttagt",
+    "gut\tgute",
+    "Mann\tMänner",
+    "Zeit\tZeiten",
+    "müssen\tmußte",
+  ].join("\r\n");
+  const lemmaMapDe = parseLemmaPairs(lemmaTextDe);
+
+  function buildDe(rows: [string, number][], options: Options = {}) {
+    const frequencies = parseFrequency(rows.map(([f, c]) => `${f} ${c}`).join("\n"));
+    const written = spellingIn(dicDe, lemmaSpellings(lemmaTextDe), new Map([["zeit", "Zeit"]]));
+    return buildWordList({ frequencies, lemmaMap: lemmaMapDe, dic: dicDe, resolve: candidatesDe, written, ...options });
+  }
+
+  it("reads capitalised headwords as words, and leaves out parts of compounds", () => {
+    expect(dicDe.words.has("mann")).toBe(true);
+    expect(dicDe.spelling.get("mann")).toBe("Mann");
+    expect(dicDe.spelling.get("essen")).toBe("essen");
+    expect(dicDe.spelling.get("zeit")).toBe("zeit");
+    expect(lemmaSpellings(lemmaTextDe).get("zeit")).toBe("Zeit");
+  });
+
+  it("sends a verb form to its verb, even when the dictionary lists it as a headword", () => {
+    expect(words(buildDe([["ist", 50], ["bin", 20]]))).toEqual(["sein"]);
+  });
+
+  it("shares a form that is a lemma itself by frequency: Tag stays Tag, hast goes to haben", () => {
+    const result = buildDe([
+      ["tag", 100],
+      ["tage", 40],
+      ["tages", 10],
+      ["tagt", 1],
+      ["hast", 80],
+      ["haben", 200],
+    ]);
+    expect(words(result)).toEqual(["haben", "Tag", "tagen"]);
+    expect(countOf(result, "haben")).toBe(280);
+  });
+
+  it("sends a declined adjective to its base, and finds a reform spelling under ß", () => {
+    expect(words(buildDe([["gute", 5]]))).toEqual(["gut"]);
+    expect(words(buildDe([["musste", 5]]))).toEqual(["müssen"]);
+  });
+
+  it("writes nouns with their capital, by hand where the dictionary also has a lower-case word", () => {
+    expect(buildDe([["männer", 5], ["zeit", 4], ["essen", 3]]).entries.map((e: { word: string }) => e.word)).toEqual([
+      "Mann",
+      "Zeit",
+      "essen",
+    ]);
+  });
+
+  it("applies German's overrides: articles fold, pronoun forms stay, names are dropped", () => {
+    const result = buildWordList({
+      frequencies: parseFrequency("die 9\nden 8\nmich 7\nsie 6\npeter 5"),
+      lemmaMap: parseLemmaPairs("der\tdie\nder\tden\nich\tmich\nich\tsie"),
+      dic: parseDicWords("3\nder/P\nmich\nsie\nPeter/SM"),
+      overrides: OVERRIDES_DE,
+      drop: DROP_DE,
+      resolve: candidatesDe,
+    });
+    expect(Object.fromEntries(result.entries.map((e: { word: string; count: number }) => [e.word, e.count]))).toEqual({
+      der: 17,
+      mich: 7,
+      sie: 6,
+    });
+  });
+});
+
+describe("content/de/word-list.tsv", () => {
+  const file = readFileSync(path.join(__dirname, "..", "..", "content", "de", "word-list.tsv"), "utf8");
+  const rows = file
+    .split("\n")
+    .filter((line) => line && !line.startsWith("#"))
+    .slice(1)
+    .map((line) => line.split("\t"));
+  const list = rows.map((r) => r[1]);
+
+  it("has 1,200 ranked, distinct words, most common first", () => {
+    expect(rows.length).toBe(1200);
+    rows.forEach(([rank], i) => expect(Number(rank)).toBe(i + 1));
+    expect(new Set(list).size).toBe(rows.length);
+    for (let i = 1; i < rows.length; i++) expect(Number(rows[i][2])).toBeLessThanOrEqual(Number(rows[i - 1][2]));
+  });
+
+  it("folds the articles and keeps the pronoun forms a learner says", () => {
+    const forms = (word: string) => rows.find((r) => r[1] === word)![3].split(" ");
+    expect(forms("der")).toEqual(expect.arrayContaining(["die", "das", "den", "dem", "des"]));
+    expect(forms("ein")).toEqual(expect.arrayContaining(["eine", "einen", "einem", "einer"]));
+    for (const word of ["die", "das", "den", "dem", "eine", "einen", "keine", "meine"]) expect(list).not.toContain(word);
+    for (const word of ["mich", "mir", "dich", "dir", "ihn", "ihm", "uns", "euch"]) expect(list).toContain(word);
+  });
+
+  it("starts with the words every German list starts with, nouns with their capital", () => {
+    const top = list.slice(0, 120);
+    for (const word of ["der", "ein", "sein", "haben", "ich", "du", "nicht", "werden", "können", "gehen", "Mann", "Zeit"]) {
+      expect(top).toContain(word);
+    }
+    expect(list).not.toContain("mann");
   });
 });

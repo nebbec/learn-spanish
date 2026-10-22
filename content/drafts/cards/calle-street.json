@@ -3,7 +3,7 @@
   "rank": 503,
   "kind": "content",
   "pos": "noun",
-  "es": "la calle",
+  "target": "la calle",
   "en": "street",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La calle de mi amiga es muy grande.",
+    "target": "La calle de mi amiga es muy grande.",
     "en": "My friend's street is very big."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CALLE sounds like \"kai-yay\": you yell \"Hey!\" to a friend across the street.",
   "image": "/deck/img/calle-street.webp",
   "audio": {

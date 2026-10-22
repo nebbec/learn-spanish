@@ -3,7 +3,7 @@
   "rank": 247,
   "kind": "content",
   "pos": "verb",
-  "es": "dormir",
+  "target": "dormir",
   "en": "to sleep",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Anoche dormí muy poco.",
+    "target": "Anoche dormí muy poco.",
     "en": "I slept very little last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DORMIR sounds like dorm: the dorm is where students go to sleep.",
   "image": "/deck/img/dormir-sleep.webp",
   "audio": {

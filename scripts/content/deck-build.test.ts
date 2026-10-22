@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import { validateDeck } from "@/lib/deck/validate";
 import { audioPaths } from "./audio.mjs";
 import { buildDeck, deckText, type PathPlan } from "./deck-build";
@@ -12,6 +12,8 @@ import { cardHash, draftedWords, readDraftCard, reviewCards, type Review, type R
 import { TagStore, type Tag } from "./tagging";
 import type { Unit } from "./units";
 import { fakeReviewer, options, setup, testCards, words } from "./review-fixture";
+
+type DraftCard = AnyDraftCard<"es">;
 
 const review = (card: DraftCard): Review => ({
   id: card.id,
@@ -92,13 +94,13 @@ describe("deck build", () => {
   it("puts approved cards in with their corrections, in Learn order, and leaves rejected ones out", async () => {
     const { drafts, store } = await reviewed();
     refreshFlagged(drafts, store);
-    decide(store, "casa-house", "approve", { "example.es": "Mi casa es grande." });
+    decide(store, "casa-house", "approve", { "example.target": "Mi casa es grande." });
     decide(store, "tener-have-to", "reject");
 
     const build = buildDeck(drafts, store, null);
     expect(build).toMatchObject({ approved: ["casa-house"], corrected: ["casa-house"], rejected: ["tener-have-to"], waiting: [] });
     const cards = build.deck!.cards;
-    expect(cards.find((c) => c.id === "casa-house")?.example.es).toBe("Mi casa es grande.");
+    expect(cards.find((c) => c.id === "casa-house")?.example.target).toBe("Mi casa es grande.");
     // Two content cards, then a glue card: tener-have and bueno-good, then de-of, then casa-house.
     expect(cards.map((c) => c.id)).toEqual(["tener-have", "bueno-good", "de-of", "casa-house"]);
     expect(pathOrder(cards, []).cards).toEqual(cards);
@@ -122,7 +124,7 @@ describe("deck build", () => {
   it("names each card's clips as the audio script makes them, with a new path for a corrected sentence or a new take", async () => {
     const { drafts, store } = await reviewed();
     refreshFlagged(drafts, store);
-    decide(store, "casa-house", "approve", { "example.es": "Mi casa es grande." });
+    decide(store, "casa-house", "approve", { "example.target": "Mi casa es grande." });
     const deck = buildDeck(drafts, store, null).deck!;
     for (const card of deck.cards) expect(card.audio).toEqual(audioPaths(card));
     const casa = deck.cards.find((c) => c.id === "casa-house")!;
@@ -181,7 +183,7 @@ describe("deck build", () => {
     const { drafts, store } = await reviewed();
     refreshFlagged(drafts, store);
     decide(store, "casa-house", "approve");
-    const redrafted = withMedia({ ...testCards().casa[0], example: { es: "La casa es azul.", en: "The house is blue." } }) as DraftCard;
+    const redrafted = withMedia({ ...testCards().casa[0], example: { target: "La casa es azul.", en: "The house is blue." } }) as DraftCard;
     drafts.saveWord(words.casa, [redrafted], null, { via: "cli" });
     expect(buildDeck(drafts, store, null).notReviewed).toEqual(["casa-house"]);
 

@@ -3,7 +3,7 @@
   "rank": 779,
   "kind": "content",
   "pos": "verb",
-  "es": "saltar",
+  "target": "saltar",
   "en": "to jump",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "El perro salta muy alto.",
+    "target": "El perro salta muy alto.",
     "en": "The dog jumps really high."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SALTAR sounds like salt jar: you jump back when the salt jar tips over.",
   "image": "/deck/img/saltar-jump.webp",
   "audio": {

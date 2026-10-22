@@ -3,7 +3,7 @@
   "rank": 542,
   "kind": "content",
   "pos": "verb",
-  "es": "partir",
+  "target": "partir",
   "en": "to depart",
   "hint": "set off on a journey, not salir",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "El tren parte a las ocho.",
+    "target": "El tren parte a las ocho.",
     "en": "The train departs at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARTIR sounds like party: you depart early to get to the party.",
   "image": "/deck/img/partir-depart.webp",
   "audio": {

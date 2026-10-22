@@ -3,7 +3,7 @@
   "rank": 731,
   "kind": "content",
   "pos": "noun",
-  "es": "la universidad",
+  "target": "la universidad",
   "en": "university",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi hermana estudia medicina en la universidad.",
+    "target": "Mi hermana estudia medicina en la universidad.",
     "en": "My sister studies medicine at the university."
   },
-  "spain": null,
+  "regional": null,
   "trick": "UNIVERSIDAD sounds like university plus dad: Dad paid for your university.",
   "image": "/deck/img/universidad-university.webp",
   "audio": {

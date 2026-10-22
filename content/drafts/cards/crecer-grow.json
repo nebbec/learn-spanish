@@ -3,7 +3,7 @@
   "rank": 636,
   "kind": "content",
   "pos": "verb",
-  "es": "crecer",
+  "target": "crecer",
   "en": "to grow",
   "hint": "get bigger, grow up",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Crecí en un pueblo pequeño.",
+    "target": "Crecí en un pueblo pequeño.",
     "en": "I grew up in a small town."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CRECER sounds like a crescent moon that keeps growing bigger every night.",
   "image": "/deck/img/crecer-grow.webp",
   "audio": {

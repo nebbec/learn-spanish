@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tip-always-pronoun",
+    "title": "German always says who",
+    "about": "German never drops the pronoun: bin alone is not a sentence, ich bin is I am. That is why the form cards answer with the pronoun and the verb together: ich bin, du bist, er ist."
+  },
+  {
+    "id": "tip-verb-endings",
+    "title": "Verbs change with who does them",
+    "about": "Each verb has a form for I, you and he / she: ich habe, du hast, er hat. The ending usually tells you who: -e for ich, -st for du, -t for er, though möchte has none for er: ich möchte, du möchtest, er möchte."
+  },
+  {
+    "id": "tip-der-die-das",
+    "title": "Every noun is der, die or das",
+    "about": "Every noun is masculine (der), feminine (die) or neuter (das), people and things alike, and every noun starts with a capital letter: der Vater, die Mutter, das Kind. Learn the article with the word; a wrong article counts as Nearly."
+  },
+  {
+    "id": "tip-accusative",
+    "title": "Den and einen: the accusative",
+    "about": "When a masculine noun is the thing you have, want, see or order, der becomes den and ein becomes einen: Ich habe einen Bruder, Einen Kaffee, bitte. Die, das, eine and the plural do not change, and mein follows ein (meinen Vater)."
+  },
+  {
+    "id": "tip-questions",
+    "title": "Questions start with the verb",
+    "about": "A yes-or-no question starts with the verb: Bist du müde? Hast du Wasser? A question word (was, wer, wo, wann, wie, warum) comes first and the verb straight after it: Wo ist das Hotel?"
+  },
+  {
+    "id": "tip-nicht-kein",
+    "title": "Nicht and kein",
+    "about": "Nicht says not: Ich verstehe nicht. Before a noun that would have ein or no article, German says kein instead (not a, no): Ich spreche kein Deutsch, Das ist kein Bier. Kein takes the endings of ein."
+  },
+  {
+    "id": "tip-modal-end",
+    "title": "Can, must, want: the second verb goes last",
+    "about": "With können, müssen, wollen or möchten, the other verb goes to the very end of the sentence in its dictionary form: Kannst du mir helfen? Ich möchte Wasser trinken."
+  },
+  {
+    "id": "tip-du-sie",
+    "title": "Du and Sie",
+    "about": "Du is you for friends, family, children and people your age; Sie, always with a capital, is the polite you for strangers, shops and officials. Sie takes the verb's dictionary form, as wir (we) and sie (they) do: Können Sie mir helfen? Sein is the exception: Sie sind. Ihr is you for several friends; this app leaves its forms out."
+  },
+  {
+    "id": "tip-verb-second",
+    "title": "The verb comes second",
+    "about": "In a statement the verb is always the second part. When something else comes first, such as a time or a place, the subject moves behind the verb: Ich gehe heute nach Hause, but Heute gehe ich nach Hause."
+  },
+  {
+    "id": "tip-separable",
+    "title": "Verbs that split in two",
+    "about": "Some verbs have a front part that splits off and goes to the end of the sentence: aufstehen becomes Ich stehe früh auf, anrufen becomes Ich rufe dich an. In the dictionary form, and at the end after können or müssen, they stay together: Ich muss früh aufstehen."
+  },
+  {
+    "id": "tip-gern",
+    "title": "Liking: gern and mögen",
+    "about": "To say you like doing something, put gern after the verb: Ich trinke gern Kaffee is I like drinking coffee, and nicht gern is not liking it. Mögen is liking a thing or a person: Ich mag Musik. Ich möchte is the polite I would like."
+  },
+  {
+    "id": "tip-plurals",
+    "title": "Plurals have no single rule",
+    "about": "German plurals come in several patterns: das Kind, die Kinder; die Frau, die Frauen; der Bruder, die Brüder; das Hotel, die Hotels. Every plural takes die. Learn each plural with its noun: the answer shows it. When ordering, drinks often stay singular: zwei Kaffee, bitte."
+  },
+  {
+    "id": "tip-dative",
+    "title": "After mit, bei and zu: the dative",
+    "about": "After mit, bei and zu the article changes: der and das become dem, die becomes der, ein becomes einem or einer, and mein follows ein: mit einem Freund, bei meiner Mutter. Ich becomes mir and du becomes dir, which is why it is mit mir and Wie geht es dir?"
+  },
+  {
+    "id": "tip-perfekt",
+    "title": "Talking about the past: the Perfekt",
+    "about": "In conversation German talks about the past with haben or sein plus a past form at the end: Ich habe gearbeitet, Ich bin nach Hause gegangen. Most verbs take haben; verbs of moving or changing take sein. Each verb's answer shows its Perfekt (hat gemacht, ist gegangen). For after the starter path, when the first past forms arrive."
+  }
+]

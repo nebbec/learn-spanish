@@ -8,23 +8,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: approve
 
-id:         embargo-however
-kind:       glue
-pos:        conjunction
-es:         sin embargo
-en:         It's late. [However], I'm staying.
-hint:       two words, not pero or no obstante
-example.es: Es caro. Sin embargo, lo voy a comprar.
-example.en: It's expensive. However, I'm going to buy it.
-spain:
-trick:      SIN EMBARGO sounds like "seen an embargo": I've seen an embargo; however, the ships still sail.
+id:             embargo-however
+kind:           glue
+pos:            conjunction
+target:         sin embargo
+en:             It's late. [However], I'm staying.
+hint:           two words, not pero or no obstante
+example.target: Es caro. Sin embargo, lo voy a comprar.
+example.en:     It's expensive. However, I'm going to buy it.
+regional.where:
+regional.text:
+trick:          SIN EMBARGO sounds like "seen an embargo": I've seen an embargo; however, the ships still sail.
 
 # The draft this file was made from. Do not change it.
-draft: fcb8e74297e63eec
+draft: f7f505c849c35a55

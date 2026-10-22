@@ -1,0 +1,21 @@
+{
+  "id": "und-and",
+  "rank": 10,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "und",
+  "en": "bread [and] butter",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke Kaffee und du trinkst Tee.",
+    "en": "I'm drinking coffee and you're drinking tea."
+  },
+  "regional": null,
+  "trick": "UND sounds like the start of \"and\" said with an oo sound: oont, and.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/und-and.word.mp3",
+    "sentence": "/deck-de/audio/und-and.sentence.mp3"
+  }
+}

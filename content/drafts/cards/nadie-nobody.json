@@ -3,15 +3,15 @@
   "rank": 147,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "nadie",
+  "target": "nadie",
   "en": "[nobody] knows",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Nadie sabe dónde está mi teléfono.",
+    "target": "Nadie sabe dónde está mi teléfono.",
     "en": "Nobody knows where my phone is."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NADIE sounds like \"nada, eh?\": nothing there, and nobody either.",
   "image": null,
   "audio": {

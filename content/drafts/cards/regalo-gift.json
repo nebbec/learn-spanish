@@ -3,7 +3,7 @@
   "rank": 630,
   "kind": "content",
   "pos": "noun",
-  "es": "el regalo",
+  "target": "el regalo",
   "en": "gift",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te traje un regalo de cumpleaños.",
+    "target": "Te traje un regalo de cumpleaños.",
     "en": "I brought you a birthday gift."
   },
-  "spain": null,
+  "regional": null,
   "trick": "REGALO sounds like regal: a royal gift wrapped in gold paper.",
   "image": "/deck/img/regalo-gift.webp",
   "audio": {

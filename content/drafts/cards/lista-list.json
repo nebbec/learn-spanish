@@ -3,7 +3,7 @@
   "rank": 748,
   "kind": "content",
   "pos": "noun",
-  "es": "la lista",
+  "target": "la lista",
   "en": "list",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tu nombre no está en la lista.",
+    "target": "Tu nombre no está en la lista.",
     "en": "Your name isn't on the list."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LISTA sounds like \"list-a\": a list of things to do.",
   "image": "/deck/img/lista-list.webp",
   "audio": {

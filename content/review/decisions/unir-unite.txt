@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to example.
 decision: approve
 
-id:         unir-unite
-kind:       content
-pos:        verb
-es:         unir
-en:         to unite
-hint:       to join together; unirse = to join a group
-yo:         uno
-tu:         unes
-el:         une
-irregular:  no
-example.es: La música une a las personas.
-example.en: Music unites people.
-spain:
-trick:      UNIR sounds like 'unit': when you unite people, they become one unit.
+id:             unir-unite
+kind:           content
+pos:            verb
+target:         unir
+en:             to unite
+hint:           to join together; unirse = to join a group
+yo:             uno
+tu:             unes
+el:             une
+irregular:      no
+example.target: La música une a las personas.
+example.en:     Music unites people.
+regional.where:
+regional.text:
+trick:          UNIR sounds like 'unit': when you unite people, they become one unit.
 
 # The draft this file was made from. Do not change it.
-draft: accdbf722377c315
+draft: 426e76610c4ec9c5

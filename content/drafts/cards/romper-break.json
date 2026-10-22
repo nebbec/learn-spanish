@@ -3,7 +3,7 @@
   "rank": 385,
   "kind": "content",
   "pos": "verb",
-  "es": "romper",
+  "target": "romper",
   "en": "to break",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi hermano rompió la ventana.",
+    "target": "Mi hermano rompió la ventana.",
     "en": "My brother broke the window."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ROMPER sounds like romper room: kids romping around break everything they touch.",
   "image": "/deck/img/romper-break.webp",
   "audio": {

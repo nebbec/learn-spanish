@@ -3,7 +3,7 @@
   "rank": 603,
   "kind": "content",
   "pos": "verb",
-  "es": "acercarse",
+  "target": "acercarse",
   "en": "to come closer",
   "hint": "yourself moving near",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Acércate, quiero decirte algo.",
+    "target": "Acércate, quiero decirte algo.",
     "en": "Come closer, I want to tell you something."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACERCARSE sounds like a circus: everyone comes closer to see the circus.",
   "image": "/deck/img/acercar-get-closer.webp",
   "audio": {

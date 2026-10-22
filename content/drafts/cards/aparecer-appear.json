@@ -3,7 +3,7 @@
   "rank": 536,
   "kind": "content",
   "pos": "verb",
-  "es": "aparecer",
+  "target": "aparecer",
   "en": "to appear",
   "hint": "show up, come into view",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi gato apareció esta mañana.",
+    "target": "Mi gato apareció esta mañana.",
     "en": "My cat showed up this morning."
   },
-  "spain": null,
+  "regional": null,
   "trick": "APARECER sounds like a parent appearing: a pair of parents suddenly appear at the door.",
   "image": "/deck/img/aparecer-appear.webp",
   "audio": {

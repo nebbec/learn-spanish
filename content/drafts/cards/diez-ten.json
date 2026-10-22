@@ -3,15 +3,15 @@
   "rank": 528,
   "kind": "content",
   "pos": "other",
-  "es": "diez",
+  "target": "diez",
   "en": "ten",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Te veo en diez minutos.",
+    "target": "Te veo en diez minutos.",
     "en": "I'll see you in ten minutes."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DIEZ sounds like \"the ace\": a perfect ten is the ace of scores.",
   "image": "/deck/img/diez-ten.webp",
   "audio": {

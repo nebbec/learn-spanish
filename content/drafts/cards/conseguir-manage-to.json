@@ -3,7 +3,7 @@
   "rank": 190,
   "kind": "content",
   "pos": "verb",
-  "es": "conseguir",
+  "target": "conseguir",
   "en": "to manage to",
   "hint": "not lograr; succeed in doing",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Por fin conseguí dormir un poco.",
+    "target": "Por fin conseguí dormir un poco.",
     "en": "I finally managed to get some sleep."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONSEGUIR sounds like \"consequence\": you managed to do it, and success is the consequence.",
   "image": "/deck/img/conseguir-manage-to.webp",
   "audio": {

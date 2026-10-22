@@ -3,15 +3,15 @@
   "rank": 65,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "nos",
+  "target": "nos",
   "en": "we love [each other]",
   "hint": "reflexive or reciprocal, also ourselves",
   "grammar": null,
   "example": {
-    "es": "Nos vemos mañana en la escuela.",
+    "target": "Nos vemos mañana en la escuela.",
     "en": "We'll see each other tomorrow at school."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOS sounds like nose: we rub noses with each other to say hello.",
   "image": null,
   "audio": {

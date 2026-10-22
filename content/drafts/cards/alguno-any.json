@@ -3,15 +3,15 @@
   "rank": 92,
   "kind": "glue",
   "pos": "determiner",
-  "es": "alguno",
+  "target": "alguno",
   "en": "do you have [any] questions?",
   "hint": "in a question, not cualquier",
   "grammar": null,
   "example": {
-    "es": "¿Tienes alguna pregunta?",
+    "target": "¿Tienes alguna pregunta?",
     "en": "Do you have any questions?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALGUNO sounds like \"Al, got one?\": you ask Al if he has any.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 451,
   "kind": "content",
   "pos": "verb",
-  "es": "desaparecer",
+  "target": "desaparecer",
   "en": "to disappear",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi gato desapareció ayer.",
+    "target": "Mi gato desapareció ayer.",
     "en": "My cat disappeared yesterday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESAPARECER sounds like disappear-a-sir: the magician says it as he makes the sir vanish.",
   "image": "/deck/img/desaparecer-disappear.webp",
   "audio": {

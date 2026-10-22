@@ -3,7 +3,7 @@
   "rank": 742,
   "kind": "content",
   "pos": "verb",
-  "es": "engañar",
+  "target": "engañar",
   "en": "to cheat on",
   "hint": "a partner",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Me estás engañando con otra?",
+    "target": "¿Me estás engañando con otra?",
     "en": "Are you cheating on me with someone else?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENGAÑAR sounds like 'in a GAIN': a cheating partner thinks they're in for a gain, but they lose everything.",
   "image": "/deck/img/enganar-cheat-on.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 134,
   "kind": "content",
   "pos": "verb",
-  "es": "matar",
+  "target": "matar",
   "en": "to kill",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Mi mamá me va a matar!",
+    "target": "¡Mi mamá me va a matar!",
     "en": "My mom is going to kill me!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "MATAR sounds like \"matador\", the bullfighter whose job is to kill the bull.",
   "image": "/deck/img/matar-kill.webp",
   "audio": {

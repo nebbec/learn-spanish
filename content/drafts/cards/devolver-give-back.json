@@ -3,7 +3,7 @@
   "rank": 616,
   "kind": "content",
   "pos": "verb",
-  "es": "devolver",
+  "target": "devolver",
   "en": "to give back",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mañana te devuelvo el dinero.",
+    "target": "Mañana te devuelvo el dinero.",
     "en": "I'll give you the money back tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEVOLVER sounds like \"the revolver\": you must give back the revolver you borrowed.",
   "image": "/deck/img/devolver-give-back.webp",
   "audio": {

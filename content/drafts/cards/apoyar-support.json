@@ -3,7 +3,7 @@
   "rank": 728,
   "kind": "content",
   "pos": "verb",
-  "es": "apoyar",
+  "target": "apoyar",
   "en": "to support",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi familia siempre me apoya.",
+    "target": "Mi familia siempre me apoya.",
     "en": "My family always supports me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "APOYAR sounds like a pillar: a pillar is there to support you.",
   "image": "/deck/img/apoyar-support.webp",
   "audio": {

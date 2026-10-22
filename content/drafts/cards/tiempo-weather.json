@@ -3,7 +3,7 @@
   "rank": 93,
   "kind": "content",
   "pos": "noun",
-  "es": "el tiempo",
+  "target": "el tiempo",
   "en": "weather",
   "hint": "today's conditions outside, not the climate",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Hoy hace buen tiempo.",
+    "target": "Hoy hace buen tiempo.",
     "en": "The weather is nice today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIEMPO sounds like \"temperature\": the weather report gives the temperature.",
   "image": "/deck/img/tiempo-weather.webp",
   "audio": {

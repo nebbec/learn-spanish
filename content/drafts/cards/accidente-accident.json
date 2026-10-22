@@ -3,7 +3,7 @@
   "rank": 642,
   "kind": "content",
   "pos": "noun",
-  "es": "el accidente",
+  "target": "el accidente",
   "en": "accident",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi hermano tuvo un accidente en la carretera.",
+    "target": "Mi hermano tuvo un accidente en la carretera.",
     "en": "My brother had an accident on the highway."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACCIDENTE sounds like accident with an extra E: an accident leaves an extra dent in your car.",
   "image": "/deck/img/accidente-accident.webp",
   "audio": {

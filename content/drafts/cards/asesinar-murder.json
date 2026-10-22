@@ -3,7 +3,7 @@
   "rank": 573,
   "kind": "content",
   "pos": "verb",
-  "es": "asesinar",
+  "target": "asesinar",
   "en": "to murder",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Asesinaron al testigo anoche.",
+    "target": "Asesinaron al testigo anoche.",
     "en": "They murdered the witness last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ASESINAR sounds like assassin: an assassin's whole job is to murder.",
   "image": "/deck/img/asesinar-murder.webp",
   "audio": {

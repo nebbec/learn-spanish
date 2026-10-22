@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint (dropped 'to run out', which is acabarse).
 decision: approve
 
-id:         acabar-finish
-kind:       content
-pos:        verb
-es:         acabar
-en:         to finish
-hint:       not terminar; also to end up
-yo:         acabo
-tu:         acabas
-el:         acaba
-irregular:  no
-example.es: ¿Ya acabaste la tarea?
-example.en: Did you already finish your homework?
-spain:
-trick:      ACABAR sounds like a cab bar: you finish your drink at the bar, then take a cab home.
+id:             acabar-finish
+kind:           content
+pos:            verb
+target:         acabar
+en:             to finish
+hint:           not terminar; also to end up
+yo:             acabo
+tu:             acabas
+el:             acaba
+irregular:      no
+example.target: ¿Ya acabaste la tarea?
+example.en:     Did you already finish your homework?
+regional.where:
+regional.text:
+trick:          ACABAR sounds like a cab bar: you finish your drink at the bar, then take a cab home.
 
 # The draft this file was made from. Do not change it.
-draft: ba5ffea572e859f2
+draft: 83f9099d5792900a

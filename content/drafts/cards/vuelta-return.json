@@ -3,7 +3,7 @@
   "rank": 375,
   "kind": "content",
   "pos": "noun",
-  "es": "la vuelta",
+  "target": "la vuelta",
   "en": "return",
   "hint": "the trip back; de ... = back",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¡Qué bueno que estás de vuelta!",
+    "target": "¡Qué bueno que estás de vuelta!",
     "en": "It's so good that you're back!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VUELTA sounds like volver's daughter: whoever goes out comes back on the return trip.",
   "image": "/deck/img/vuelta-return.webp",
   "audio": {

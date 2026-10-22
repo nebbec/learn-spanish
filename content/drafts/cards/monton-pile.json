@@ -3,7 +3,7 @@
   "rank": 638,
   "kind": "content",
   "pos": "noun",
-  "es": "el montón",
+  "target": "el montón",
   "en": "pile",
   "hint": "also a lot, as in un montón de",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tengo un montón de trabajo hoy.",
+    "target": "Tengo un montón de trabajo hoy.",
     "en": "I have a ton of work today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MONTÓN sounds like mountain: a pile so big it looks like a mountain.",
   "image": "/deck/img/monton-pile.webp",
   "audio": {

@@ -7,26 +7,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         haber-have-auxiliary
-kind:       content
-pos:        verb
-es:         haber
-en:         to have
-hint:       helper verb, as in I have eaten; not tener
-yo:         he
-tu:         has
-el:         ha
-irregular:  yes
-example.es: Nunca he estado en México.
-example.en: I've never been to Mexico.
-spain:
-trick:      HABER sounds like have-er: it's the helper that turns eaten into have eaten.
+id:             haber-have-auxiliary
+kind:           content
+pos:            verb
+target:         haber
+en:             to have
+hint:           helper verb, as in I have eaten; not tener
+yo:             he
+tu:             has
+el:             ha
+irregular:      yes
+example.target: Nunca he estado en México.
+example.en:     I've never been to Mexico.
+regional.where:
+regional.text:
+trick:          HABER sounds like have-er: it's the helper that turns eaten into have eaten.
 
 # The draft this file was made from. Do not change it.
-draft: dad12beb61dc003c
+draft: 3fc36b0e39317e40

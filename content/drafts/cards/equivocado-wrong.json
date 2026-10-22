@@ -3,17 +3,17 @@
   "rank": 694,
   "kind": "content",
   "pos": "adjective",
-  "es": "equivocado",
+  "target": "equivocado",
   "en": "wrong",
   "hint": "mistaken, as in a person who is wrong",
   "grammar": {
     "feminine": "equivocada"
   },
   "example": {
-    "es": "Creo que estás equivocado.",
+    "target": "Creo que estás equivocado.",
     "en": "I think you're wrong."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EQUIVOCADO sounds like equivocate: people who equivocate and dodge the question are usually wrong.",
   "image": "/deck/img/equivocado-wrong.webp",
   "audio": {

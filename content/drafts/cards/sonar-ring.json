@@ -3,7 +3,7 @@
   "rank": 392,
   "kind": "content",
   "pos": "verb",
-  "es": "sonar",
+  "target": "sonar",
   "en": "to ring",
   "hint": "a phone or bell making noise",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Tu teléfono está sonando.",
+    "target": "Tu teléfono está sonando.",
     "en": "Your phone is ringing."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SONAR sounds like a submarine's sonar: ping, ping, like a phone ringing underwater.",
   "image": "/deck/img/sonar-ring.webp",
   "audio": {

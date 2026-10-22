@@ -10,27 +10,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's es (encargarse) and reflexive present forms; changed en to 'to be in charge of', the hint and the example because ocupar-take-care (ocuparse) already has 'to take care of' and the same example; trick updated to encargarse.
 decision: approve
 
-id:         encargar-handle
-kind:       content
-pos:        verb
-es:         encargarse
-en:         to be in charge of
-hint:       one verb with se, used with de; not ocuparse
-yo:         me encargo
-tu:         te encargas
-el:         se encarga
-irregular:  no
-example.es: Mi hermana se encarga de la comida.
-example.en: My sister is in charge of the food.
-spain:
-trick:      ENCARGARSE sounds like "in cargo": you're in charge of the cargo and handle it yourself.
+id:             encargar-handle
+kind:           content
+pos:            verb
+target:         encargarse
+en:             to be in charge of
+hint:           one verb with se, used with de; not ocuparse
+yo:             me encargo
+tu:             te encargas
+el:             se encarga
+irregular:      no
+example.target: Mi hermana se encarga de la comida.
+example.en:     My sister is in charge of the food.
+regional.where:
+regional.text:
+trick:          ENCARGARSE sounds like "in cargo": you're in charge of the cargo and handle it yourself.
 
 # The draft this file was made from. Do not change it.
-draft: df077bef2a5a6cae
+draft: 33f6f4e5eb459a63

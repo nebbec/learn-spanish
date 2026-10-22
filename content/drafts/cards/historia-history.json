@@ -3,7 +3,7 @@
   "rank": 257,
   "kind": "content",
   "pos": "noun",
-  "es": "la historia",
+  "target": "la historia",
   "en": "history",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me encanta la historia de México.",
+    "target": "Me encanta la historia de México.",
     "en": "I love Mexican history."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HISTORIA looks like history plus an extra A: the past with an added accent.",
   "image": "/deck/img/historia-history.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 485,
   "kind": "content",
   "pos": "verb",
-  "es": "bastar",
+  "target": "bastar",
   "en": "to be enough",
   "hint": "one verb",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Basta! No quiero hablar más de eso.",
+    "target": "¡Basta! No quiero hablar más de eso.",
     "en": "Enough! I don't want to talk about that anymore."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BASTA sounds like pasta: one big plate of pasta is enough for anyone.",
   "image": "/deck/img/bastar-be-enough.webp",
   "audio": {

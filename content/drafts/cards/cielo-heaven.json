@@ -3,7 +3,7 @@
   "rank": 408,
   "kind": "content",
   "pos": "noun",
-  "es": "el cielo",
+  "target": "el cielo",
   "en": "heaven",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi abuela ya está en el cielo.",
+    "target": "Mi abuela ya está en el cielo.",
     "en": "My grandma is in heaven now."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CIELO sounds like 'cello': the angels in heaven all play the cello.",
   "image": "/deck/img/cielo-heaven.webp",
   "audio": {

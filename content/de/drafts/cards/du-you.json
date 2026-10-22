@@ -1,0 +1,21 @@
+{
+  "id": "du-you",
+  "rank": 7,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "du",
+  "en": "Are [you] tired?",
+  "hint": "one person, informal",
+  "grammar": null,
+  "example": {
+    "target": "Du bist mein bester Freund.",
+    "en": "You're my best friend."
+  },
+  "regional": null,
+  "trick": "DU sounds like \"doo\", which rhymes with \"you\": do you want to be my du?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/du-you.word.mp3",
+    "sentence": "/deck-de/audio/du-you.sentence.mp3"
+  }
+}

@@ -3,7 +3,7 @@
   "rank": 379,
   "kind": "content",
   "pos": "noun",
-  "es": "el bebé",
+  "target": "el bebé",
   "en": "baby",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El bebé está durmiendo, no hagas ruido.",
+    "target": "El bebé está durmiendo, no hagas ruido.",
     "en": "The baby is sleeping, don't make noise."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BEBÉ sounds almost exactly like baby, and a baby bebe, drinks, milk all day.",
   "image": "/deck/img/bebe-baby.webp",
   "audio": {

@@ -1,0 +1,17 @@
+{
+  "id": "sie-she",
+  "rank": 4,
+  "word": "sie",
+  "draft": "0829489aeee64124",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "she (third person singular feminine subject pronoun)",
+    "example": "Is she your sister?"
+  },
+  "note": "The answer in the prompt's sentence starts with a capital (Sie ist meine Schwester), but the card target is the lowercase sie. Learners may want to know that the capital here comes only from the start of the sentence, not from formal Sie.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:31:54.798Z"
+}

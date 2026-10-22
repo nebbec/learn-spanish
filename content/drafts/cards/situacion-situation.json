@@ -3,7 +3,7 @@
   "rank": 613,
   "kind": "content",
   "pos": "noun",
-  "es": "la situación",
+  "target": "la situación",
   "en": "situation",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La situación está bajo control.",
+    "target": "La situación está bajo control.",
     "en": "The situation is under control."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SITUACIÓN sounds like situation said slowly with a Spanish flourish: same word, same meaning.",
   "image": "/deck/img/situacion-situation.webp",
   "audio": {

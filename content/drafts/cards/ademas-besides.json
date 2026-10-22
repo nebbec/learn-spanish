@@ -3,15 +3,15 @@
   "rank": 487,
   "kind": "content",
   "pos": "adverb",
-  "es": "además",
+  "target": "además",
   "en": "besides, moreover",
   "hint": "adds another point, not también",
   "grammar": null,
   "example": {
-    "es": "Es tarde y, además, estoy cansado.",
+    "target": "Es tarde y, además, estoy cansado.",
     "en": "It's late and, besides, I'm tired."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ADEMÁS sounds like add-a-mass: besides what you have, you add a whole mass more.",
   "image": "/deck/img/ademas-besides.webp",
   "audio": {

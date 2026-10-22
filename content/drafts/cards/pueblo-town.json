@@ -3,7 +3,7 @@
   "rank": 494,
   "kind": "content",
   "pos": "noun",
-  "es": "el pueblo",
+  "target": "el pueblo",
   "en": "town",
   "hint": "small town or village",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi abuela vive en un pueblo pequeño.",
+    "target": "Mi abuela vive en un pueblo pequeño.",
     "en": "My grandmother lives in a small town."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PUEBLO sounds like Pueblo, Colorado: a town with a Spanish name.",
   "image": "/deck/img/pueblo-town.webp",
   "audio": {

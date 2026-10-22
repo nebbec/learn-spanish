@@ -3,17 +3,17 @@
   "rank": 222,
   "kind": "content",
   "pos": "adjective",
-  "es": "único",
+  "target": "único",
   "en": "only",
   "hint": "adjective, as in the only one",
   "grammar": {
     "feminine": "única"
   },
   "example": {
-    "es": "Eres la única persona que me entiende.",
+    "target": "Eres la única persona que me entiende.",
     "en": "You're the only person who understands me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ÚNICO sounds like \"unicorn\": the only unicorn in the world is the only one you'll ever see.",
   "image": "/deck/img/unico-only.webp",
   "audio": {

@@ -9,23 +9,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint; redrafted the example by hand with words met before this card.
 decision: approve
 
-id:         incluso-even
-kind:       content
-pos:        adverb
-es:         incluso
-en:         even
-hint:       related to include, not hasta or aun
-example.es: Incluso los niños lo saben.
-example.en: Even the kids know it.
-spain:
-trick:      INCLUSO sounds like inclusive: everyone is included, even the people you least expect.
+id:             incluso-even
+kind:           content
+pos:            adverb
+target:         incluso
+en:             even
+hint:           related to include, not hasta or aun
+example.target: Incluso los niños lo saben.
+example.en:     Even the kids know it.
+regional.where:
+regional.text:
+trick:          INCLUSO sounds like inclusive: everyone is included, even the people you least expect.
 
 # The draft this file was made from. Do not change it.
-draft: 98f14209a16c8c55
+draft: 6590a8110314ff93

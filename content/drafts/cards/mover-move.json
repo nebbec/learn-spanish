@@ -3,7 +3,7 @@
   "rank": 284,
   "kind": "content",
   "pos": "verb",
-  "es": "mover",
+  "target": "mover",
   "en": "to move",
   "hint": "change position, not move house",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¡Muévete, que no veo nada!",
+    "target": "¡Muévete, que no veo nada!",
     "en": "Move, I can't see anything!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "MOVER sounds like \"mover\": a mover is someone who moves things.",
   "image": "/deck/img/mover-move.webp",
   "audio": {

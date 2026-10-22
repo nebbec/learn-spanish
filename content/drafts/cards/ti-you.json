@@ -3,15 +3,15 @@
   "rank": 121,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "ti",
+  "target": "ti",
   "en": "this is for [you]",
   "hint": "informal, after a preposition",
   "grammar": null,
   "example": {
-    "es": "Este regalo es para ti.",
+    "target": "Este regalo es para ti.",
     "en": "This gift is for you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TI sounds like tea: I made this cup of tea just for you.",
   "image": null,
   "audio": {

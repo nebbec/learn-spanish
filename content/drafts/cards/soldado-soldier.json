@@ -3,7 +3,7 @@
   "rank": 680,
   "kind": "content",
   "pos": "noun",
-  "es": "el soldado",
+  "target": "el soldado",
   "en": "soldier",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi abuelo fue soldado en la guerra.",
+    "target": "Mi abuelo fue soldado en la guerra.",
     "en": "My grandfather was a soldier in the war."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SOLDADO sounds like soldier: a soldier is sold on duty to his country.",
   "image": "/deck/img/soldado-soldier.webp",
   "audio": {

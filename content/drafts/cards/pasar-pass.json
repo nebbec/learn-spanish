@@ -3,7 +3,7 @@
   "rank": 55,
   "kind": "content",
   "pos": "verb",
-  "es": "pasar",
+  "target": "pasar",
   "en": "to pass",
   "hint": "to go by, go through, or come in",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "El autobús pasa por mi casa.",
+    "target": "El autobús pasa por mi casa.",
     "en": "The bus passes by my house."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PASAR starts like pass: you pass by, pass through, pass the ball.",
   "image": "/deck/img/pasar-pass.webp",
   "audio": {

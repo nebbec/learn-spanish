@@ -3,7 +3,7 @@
   "rank": 571,
   "kind": "content",
   "pos": "noun",
-  "es": "la frente",
+  "target": "la frente",
   "en": "forehead",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tienes pintura en la frente.",
+    "target": "Tienes pintura en la frente.",
     "en": "You have paint on your forehead."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FRENTE sounds like FRONT: your forehead is the front of your head.",
   "image": "/deck/img/frente-forehead.webp",
   "audio": {

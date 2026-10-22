@@ -3,7 +3,7 @@
   "rank": 758,
   "kind": "content",
   "pos": "verb",
-  "es": "equivocarse",
+  "target": "equivocarse",
   "en": "to make a mistake",
   "hint": "one verb, to be wrong",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Perdón, me equivoqué de número.",
+    "target": "Perdón, me equivoqué de número.",
     "en": "Sorry, I dialed the wrong number."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EQUIVOCARSE sounds like equivocal: when your answer is equivocal and unclear, you have probably made a mistake.",
   "image": "/deck/img/equivocar-make-mistake.webp",
   "audio": {

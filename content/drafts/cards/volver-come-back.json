@@ -3,7 +3,7 @@
   "rank": 90,
   "kind": "content",
   "pos": "verb",
-  "es": "volver",
+  "target": "volver",
   "en": "to come back",
   "hint": "not regresar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Vuelvo en cinco minutos.",
+    "target": "Vuelvo en cinco minutos.",
     "en": "I'll be back in five minutes."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VOLVER sounds like Volvo: you drive your Volvo to come back home.",
   "image": "/deck/img/volver-come-back.webp",
   "audio": {

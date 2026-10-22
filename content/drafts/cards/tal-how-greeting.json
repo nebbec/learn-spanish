@@ -3,15 +3,15 @@
   "rank": 151,
   "kind": "glue",
   "pos": "adverb",
-  "es": "tal",
+  "target": "tal",
   "en": "Hi, [how] are you?",
   "hint": "after qué, a casual greeting",
   "grammar": null,
   "example": {
-    "es": "Hola, ¿qué tal tu día?",
+    "target": "Hola, ¿qué tal tu día?",
     "en": "Hi, how was your day?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TAL sounds like tell: qué tal? means tell me, how are you?",
   "image": null,
   "audio": {

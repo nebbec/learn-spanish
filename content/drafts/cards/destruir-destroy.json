@@ -3,7 +3,7 @@
   "rank": 575,
   "kind": "content",
   "pos": "verb",
-  "es": "destruir",
+  "target": "destruir",
   "en": "to destroy",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "El huracán destruyó muchas casas.",
+    "target": "El huracán destruyó muchas casas.",
     "en": "The hurricane destroyed many houses."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESTRUIR sounds like \"destroy here\": the monster shouts it before he smashes the city.",
   "image": "/deck/img/destruir-destroy.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 255,
   "kind": "content",
   "pos": "verb",
-  "es": "leer",
+  "target": "leer",
   "en": "to read",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi hija lee un libro cada semana.",
+    "target": "Mi hija lee un libro cada semana.",
     "en": "My daughter reads a book every week."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LEER sounds like \"leer\": you leer at the page when you read the juicy gossip.",
   "image": "/deck/img/leer-read.webp",
   "audio": {

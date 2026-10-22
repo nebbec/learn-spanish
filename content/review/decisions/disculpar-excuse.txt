@@ -9,27 +9,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fixes to hint and example.es; the hint also rules out perdonar and excusar, since excusarse also means to apologize.
 decision: approve
 
-id:         disculpar-excuse
-kind:       content
-pos:        verb
-es:         disculpar
-en:         to excuse
-hint:       not perdonar or excusar; with -se it means to apologize
-yo:         disculpo
-tu:         disculpas
-el:         disculpa
-irregular:  no
-example.es: Disculpa, ¿dónde está el baño?
-example.en: Excuse me, where is the bathroom?
-spain:
-trick:      DISCULPAR sounds like this culprit: please excuse this culprit, he didn't mean it.
+id:             disculpar-excuse
+kind:           content
+pos:            verb
+target:         disculpar
+en:             to excuse
+hint:           not perdonar or excusar; with -se it means to apologize
+yo:             disculpo
+tu:             disculpas
+el:             disculpa
+irregular:      no
+example.target: Disculpa, ¿dónde está el baño?
+example.en:     Excuse me, where is the bathroom?
+regional.where:
+regional.text:
+trick:          DISCULPAR sounds like this culprit: please excuse this culprit, he didn't mean it.
 
 # The draft this file was made from. Do not change it.
-draft: aaab0a3a4265d3ab
+draft: e91fb9e6fa28198f

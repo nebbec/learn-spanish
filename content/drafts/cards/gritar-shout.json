@@ -3,7 +3,7 @@
   "rank": 723,
   "kind": "content",
   "pos": "verb",
-  "es": "gritar",
+  "target": "gritar",
   "en": "to shout",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡No me grites, por favor!",
+    "target": "¡No me grites, por favor!",
     "en": "Don't shout at me, please!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "GRITAR sounds like 'greet a car': you shout hello at every passing car.",
   "image": "/deck/img/gritar-shout.webp",
   "audio": {

@@ -1,0 +1,21 @@
+{
+  "id": "mein-my",
+  "rank": 18,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "mein",
+  "en": "That's [my] dog",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist mein Bruder.",
+    "en": "That's my brother."
+  },
+  "regional": null,
+  "trick": "MEIN sounds just like English \"mine\", and it means my.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mein-my.word.mp3",
+    "sentence": "/deck-de/audio/mein-my.sentence.mp3"
+  }
+}

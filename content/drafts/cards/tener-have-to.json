@@ -3,7 +3,7 @@
   "rank": 13,
   "kind": "content",
   "pos": "verb",
-  "es": "tener",
+  "target": "tener",
   "en": "to have to",
   "hint": "used with que before the next verb",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Tienes que comer algo.",
+    "target": "Tienes que comer algo.",
     "en": "You have to eat something."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TENER QUE sounds like 'ten okay': you have to do ten push-ups before it's okay.",
   "image": "/deck/img/tener-have-to.webp",
   "audio": {

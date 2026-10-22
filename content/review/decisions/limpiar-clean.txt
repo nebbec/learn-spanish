@@ -7,27 +7,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: rewrote the example with limpiar conjugated as the reviewer asked, but avoiding sábados (a rare word).
 decision: approve
 
-id:         limpiar-clean
-kind:       content
-pos:        verb
-es:         limpiar
-en:         to clean
+id:             limpiar-clean
+kind:           content
+pos:            verb
+target:         limpiar
+en:             to clean
 hint:
-yo:         limpio
-tu:         limpias
-el:         limpia
-irregular:  no
-example.es: Mi mamá limpia la casa todos los días.
-example.en: My mom cleans the house every day.
-spain:
-trick:      LIMPIAR sounds like "limp pier": you clean the dirty, limp old pier until it shines.
+yo:             limpio
+tu:             limpias
+el:             limpia
+irregular:      no
+example.target: Mi mamá limpia la casa todos los días.
+example.en:     My mom cleans the house every day.
+regional.where:
+regional.text:
+trick:          LIMPIAR sounds like "limp pier": you clean the dirty, limp old pier until it shines.
 
 # The draft this file was made from. Do not change it.
-draft: 21a2723fac489037
+draft: 8c08709706e5a98c

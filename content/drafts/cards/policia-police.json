@@ -3,7 +3,7 @@
   "rank": 225,
   "kind": "content",
   "pos": "noun",
-  "es": "la policía",
+  "target": "la policía",
   "en": "the police",
   "hint": "the force as a whole",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¡Llama a la policía ahora mismo!",
+    "target": "¡Llama a la policía ahora mismo!",
     "en": "Call the police right now!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "POLICÍA sounds like police plus a cheer, AH: the police arrive and everyone says ah.",
   "image": "/deck/img/policia-police.webp",
   "audio": {

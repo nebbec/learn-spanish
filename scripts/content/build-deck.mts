@@ -8,6 +8,7 @@
 // another tip, or requiring a card not in the deck.
 //
 //   npm run deck [-- --size N] [-- --spacing N] [-- --allow-drop] [-- --fresh]
+//   npm run deck -- --lang de        the German deck, from content/de/ into content/de/deck.json (DE5)
 //
 // Refuses to write a deck the validator rejects, one whose order has a problem
 // (a cycle in requires, a unit card before what it requires), or one that lacks
@@ -34,6 +35,7 @@ import { DraftStore } from "./drafting";
 import { loadLemmas } from "./known-words";
 import { SIBLING_SPACING } from "./path-order";
 import { ReviewStore } from "./reviewing";
+import { contentPaths, LANG_OPTION, parseLang } from "./script-lang";
 import { TagStore } from "./tagging";
 import { TipStore, tipsForDeck } from "./tips";
 import { readTips, readUnits } from "./units";
@@ -45,33 +47,43 @@ const DECK_SIZE = 1000;
 
 const { values } = parseArgs({
   options: {
+    ...LANG_OPTION,
     "allow-drop": { type: "boolean", default: false },
     fresh: { type: "boolean", default: false },
     size: { type: "string", default: String(DECK_SIZE) },
     spacing: { type: "string", default: String(SIBLING_SPACING) },
-    drafts: { type: "string", default: path.join(ROOT, "content", "drafts") },
-    review: { type: "string", default: path.join(ROOT, "content", "review") },
-    tips: { type: "string", default: path.join(ROOT, "content", "tips") },
-    tags: { type: "string", default: path.join(ROOT, "content", "tags") },
-    out: { type: "string", default: path.join(ROOT, "content", "deck.json") },
-    path: { type: "string", default: path.join(ROOT, "content", "path.md") },
+    drafts: { type: "string" },
+    review: { type: "string" },
+    tips: { type: "string" },
+    tags: { type: "string" },
+    out: { type: "string" },
+    path: { type: "string" },
   },
 });
+
+const lang = parseLang(values.lang);
+const paths = contentPaths(ROOT, lang);
+const out = values.out ?? paths.deck;
+const pathFile = values.path ?? paths.pathFile;
 
 const size = Number(values.size);
 if (!Number.isInteger(size) || size < 1) throw new Error(`--size must be a whole number above 0, not ${values.size}`);
 const spacing = Number(values.spacing);
 if (!Number.isInteger(spacing) || spacing < 0) throw new Error(`--spacing must be a whole number, not ${values.spacing}`);
 
-const drafts = new DraftStore(values.drafts);
-const reviews = new ReviewStore(values.review);
+// The plan first, so a language with none yet stops before any folder is made.
+const tipList = readTips(ROOT, lang);
+const units = readUnits(ROOT, lang);
+const drafts = new DraftStore(values.drafts ?? paths.drafts, lang);
+const reviews = new ReviewStore(values.review ?? paths.review);
 const flagged = refreshFlagged(drafts, reviews);
-const takesFile = path.join(ROOT, "content", "audio-takes.json");
+const takesFile = paths.audioTakes;
 const takes = existsSync(takesFile) ? JSON.parse(readFileSync(takesFile, "utf8")) : {};
-const tipList = readTips(ROOT);
-const tips = tipsForDeck(new TipStore(values.tips), tipList);
-const plan = { units: readUnits(ROOT), tipList, tags: new TagStore(values.tags) };
-const build = buildDeck(drafts, reviews, readDeckFile(values.out), {
+const tips = tipsForDeck(new TipStore(values.tips ?? paths.tips, lang), tipList);
+const plan = { units, tipList, tags: new TagStore(values.tags ?? paths.tags) };
+const lemmas = await loadLemmas(ROOT, lang);
+if (!lemmas) console.log(`Known-words check not run: no ${paths.config.language} lemma list pinned in sources.mjs`);
+const build = buildDeck(drafts, reviews, readDeckFile(out), {
   allowDrop: values["allow-drop"] || values.fresh,
   fresh: values.fresh,
   takes,
@@ -79,7 +91,7 @@ const build = buildDeck(drafts, reviews, readDeckFile(values.out), {
   tips: tips.tips,
   plan,
   spacing,
-  lemmas: await loadLemmas(ROOT),
+  lemmas,
 });
 const rel = (file: string) => path.relative(process.cwd(), file);
 const ids = (list: string[]) => (list.length ? `: ${list.join(", ")}` : "");
@@ -119,8 +131,8 @@ if (flagged.reset.length) console.log(`Decision files remade for a new draft: ${
 console.log(`Flagged list: ${rel(reviews.flaggedFile)}`);
 
 if (build.pathText) {
-  writeFileSync(values.path, build.pathText);
-  console.log(`Learning path for reading: ${rel(values.path)}`);
+  writeFileSync(pathFile, build.pathText);
+  console.log(`Learning path for reading: ${rel(pathFile)}`);
 }
 
 if (build.orderProblems.length) {
@@ -135,11 +147,12 @@ if (build.orderProblems.length) {
   );
   process.exitCode = 1;
 } else {
-  writeFileSync(values.out, deckText(build.deck));
-  const media = missingMedia(build.deck, path.join(ROOT, "public"));
+  writeFileSync(out, deckText(build.deck));
+  const media = missingMedia(build.deck, paths.public);
   console.log(
-    `Deck: ${build.deck.cards.length} cards, version ${build.deck.version}${build.changed ? "" : " (unchanged)"}, passes the validator, written to ${rel(values.out)}`,
+    `Deck: ${build.deck.cards.length} cards, version ${build.deck.version}${build.changed ? "" : " (unchanged)"}, passes the validator, written to ${rel(out)}`,
   );
   if (build.dropped.length) console.log(`Dropped with --allow-drop: ${build.dropped.join(", ")}`);
-  console.log(`Media files not made yet: ${media.missing} of ${media.total} (art comes in F2; npm run audio -- --deck ${rel(values.out)} makes the clips)`);
+  const audio = `npm run audio -- ${lang === "es" ? "" : `--lang ${lang} `}--deck ${rel(out)}`;
+  console.log(`Media files not made yet: ${media.missing} of ${media.total} (art comes in F2; ${audio} makes the clips)`);
 }

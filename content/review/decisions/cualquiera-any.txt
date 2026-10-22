@@ -9,23 +9,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to en and hint; example differs from the suggestion because elegir is not met yet.
 decision: approve
 
-id:         cualquiera-any
-kind:       glue
-pos:        determiner
-es:         cualquiera
-en:         pick [any one] of them
-hint:       any one at all, whichever; not a person (that is the anyone card)
-example.es: Toma cualquiera, todos son buenos.
-example.en: Take any one, they're all good.
-spain:
-trick:      CUALQUIERA sounds like "quality-era": in any era, any day, any quality will do.
+id:             cualquiera-any
+kind:           glue
+pos:            determiner
+target:         cualquiera
+en:             pick [any one] of them
+hint:           any one at all, whichever; not a person (that is the anyone card)
+example.target: Toma cualquiera, todos son buenos.
+example.en:     Take any one, they're all good.
+regional.where:
+regional.text:
+trick:          CUALQUIERA sounds like "quality-era": in any era, any day, any quality will do.
 
 # The draft this file was made from. Do not change it.
-draft: c61603a636804e33
+draft: 35e46df06f7babbf

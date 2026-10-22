@@ -3,7 +3,7 @@
   "rank": 357,
   "kind": "content",
   "pos": "noun",
-  "es": "el novio",
+  "target": "el novio",
   "en": "groom",
   "hint": "at a wedding",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El novio llegó tarde a la boda.",
+    "target": "El novio llegó tarde a la boda.",
     "en": "The groom arrived late to the wedding."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOVIO sounds like novice: the groom is a nervous novice at marriage.",
   "image": "/deck/img/novio-groom.webp",
   "audio": {

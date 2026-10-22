@@ -1,0 +1,33 @@
+{
+  "id": "sein-be",
+  "rank": 2,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sein",
+  "en": "to be",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "bin",
+      "du": "bist",
+      "er": "ist"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gewesen"
+    }
+  },
+  "example": {
+    "target": "Ich bin heute total müde.",
+    "en": "I'm totally tired today."
+  },
+  "regional": null,
+  "trick": "SEIN sounds like zine: to be in a zine, you first have to exist.",
+  "image": "/deck-de/img/sein-be.webp",
+  "audio": {
+    "word": "/deck-de/audio/sein-be.word.mp3",
+    "sentence": "/deck-de/audio/sein-be.sentence.mp3"
+  }
+}

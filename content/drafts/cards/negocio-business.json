@@ -3,7 +3,7 @@
   "rank": 419,
   "kind": "content",
   "pos": "noun",
-  "es": "el negocio",
+  "target": "el negocio",
   "en": "business",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi papá tiene un negocio de comida.",
+    "target": "Mi papá tiene un negocio de comida.",
     "en": "My dad has a food business."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NEGOCIO sounds like negotiate-o: in business, you negotiate all day long.",
   "image": "/deck/img/negocio-business.webp",
   "audio": {

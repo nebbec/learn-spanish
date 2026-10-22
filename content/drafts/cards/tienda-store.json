@@ -3,7 +3,7 @@
   "rank": 637,
   "kind": "content",
   "pos": "noun",
-  "es": "la tienda",
+  "target": "la tienda",
   "en": "store",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Voy a la tienda a comprar leche.",
+    "target": "Voy a la tienda a comprar leche.",
     "en": "I'm going to the store to buy milk."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIENDA sounds like \"tend her\": the shopkeeper tends her store all day.",
   "image": "/deck/img/tienda-store.webp",
   "audio": {

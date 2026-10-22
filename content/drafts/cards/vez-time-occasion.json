@@ -3,7 +3,7 @@
   "rank": 59,
   "kind": "content",
   "pos": "noun",
-  "es": "la vez",
+  "target": "la vez",
   "en": "time (occasion)",
   "hint": "one occasion, as in one time or many times; not tiempo or hora",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Te lo dije tres veces.",
+    "target": "Te lo dije tres veces.",
     "en": "I told you three times."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VEZ sounds like base: every time you touch a base in baseball counts as one more vez.",
   "image": "/deck/img/vez-time-occasion.webp",
   "audio": {

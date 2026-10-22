@@ -3,7 +3,7 @@
   "rank": 710,
   "kind": "content",
   "pos": "verb",
-  "es": "controlar",
+  "target": "controlar",
   "en": "to control",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Tranquilo, yo controlo la situación.",
+    "target": "Tranquilo, yo controlo la situación.",
     "en": "Relax, I've got the situation under control."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONTROLAR sounds like control plus 'ar': a controller in your hand lets you control the game.",
   "image": "/deck/img/controlar-control.webp",
   "audio": {

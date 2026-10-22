@@ -3,7 +3,7 @@
   "rank": 399,
   "kind": "content",
   "pos": "noun",
-  "es": "el libro",
+  "target": "el libro",
   "en": "book",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Estoy leyendo un libro muy bueno.",
+    "target": "Estoy leyendo un libro muy bueno.",
     "en": "I'm reading a really good book."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LIBRO sounds like library: a library is full of books.",
   "image": "/deck/img/libro-book.webp",
   "audio": {

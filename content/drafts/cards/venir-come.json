@@ -3,7 +3,7 @@
   "rank": 68,
   "kind": "content",
   "pos": "verb",
-  "es": "venir",
+  "target": "venir",
   "en": "to come",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Vienes a mi casa mañana?",
+    "target": "¿Vienes a mi casa mañana?",
     "en": "Are you coming to my house tomorrow?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VENIR sounds like 'when ear': when your ear hears dinner called, you come running.",
   "image": "/deck/img/venir-come.webp",
   "audio": {

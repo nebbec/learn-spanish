@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Without an accent, tu means your (tu casa); with an accent, tú means you (tú eres).",
-  "draft": "89c5492ad19df865",
+  "draft": "7dcb5e840d2b021f",
   "group": "#38 tu",
   "via": "cli",
   "model": "claude-opus-5-5",

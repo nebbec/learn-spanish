@@ -3,7 +3,7 @@
   "rank": 241,
   "kind": "content",
   "pos": "noun",
-  "es": "la forma",
+  "target": "la forma",
   "en": "shape",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La nube tiene forma de corazón.",
+    "target": "La nube tiene forma de corazón.",
     "en": "The cloud is shaped like a heart."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FORMA sounds like form: the form of something is its shape.",
   "image": "/deck/img/forma-shape.webp",
   "audio": {

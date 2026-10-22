@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to the example.
 decision: approve
 
-id:         fin-end
-kind:       content
-pos:        noun
-es:         el fin
-en:         end
-hint:       short word shown at the end of a movie, not final
-gender:     m
-article:    el
-example.es: No es el fin del mundo.
-example.en: It's not the end of the world.
-spain:
-trick:      FIN sounds like a fish fin: the fin is at the very end of the fish.
+id:             fin-end
+kind:           content
+pos:            noun
+target:         el fin
+en:             end
+hint:           short word shown at the end of a movie, not final
+gender:         m
+article:        el
+example.target: No es el fin del mundo.
+example.en:     It's not the end of the world.
+regional.where:
+regional.text:
+trick:          FIN sounds like a fish fin: the fin is at the very end of the fish.
 
 # The draft this file was made from. Do not change it.
-draft: 93e1d123d0271e0d
+draft: ff73d9f9ee91c39c

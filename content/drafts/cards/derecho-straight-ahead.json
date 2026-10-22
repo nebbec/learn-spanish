@@ -3,15 +3,18 @@
   "rank": 483,
   "kind": "content",
   "pos": "adverb",
-  "es": "derecho",
+  "target": "derecho",
   "en": "straight ahead",
   "hint": "giving directions",
   "grammar": null,
   "example": {
-    "es": "Sigue derecho dos cuadras.",
+    "target": "Sigue derecho dos cuadras.",
     "en": "Go straight ahead for two blocks."
   },
-  "spain": "recto",
+  "regional": {
+    "where": "Spain",
+    "text": "recto"
+  },
   "trick": "DERECHO sounds like \"direct, oh\": the direct way is straight ahead.",
   "image": "/deck/img/derecho-straight-ahead.webp",
   "audio": {

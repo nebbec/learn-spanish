@@ -3,15 +3,15 @@
   "rank": 22,
   "kind": "glue",
   "pos": "preposition",
-  "es": "con",
+  "target": "con",
   "en": "coffee [with] milk",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Hoy voy a comer con mi hermana.",
+    "target": "Hoy voy a comer con mi hermana.",
     "en": "Today I'm going to eat with my sister."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CON sounds like \"cone\": ice cream always comes with a cone.",
   "image": null,
   "audio": {

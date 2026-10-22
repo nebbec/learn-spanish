@@ -3,15 +3,15 @@
   "rank": 591,
   "kind": "content",
   "pos": "adverb",
-  "es": "encima",
+  "target": "encima",
   "en": "on top",
   "hint": "resting on something, not upstairs",
   "grammar": null,
   "example": {
-    "es": "Las llaves están encima de la mesa.",
+    "target": "Las llaves están encima de la mesa.",
     "en": "The keys are on top of the table."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENCIMA sounds like \"in cinema\": in the cinema, someone tall always sits right on top of your view.",
   "image": "/deck/img/encima-on-top.webp",
   "audio": {

@@ -9,25 +9,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's en (office), shortened the hint; rewrote the example by hand with common words (gobierno, importante unmet).
 decision: approve
 
-id:         cargo-position
-kind:       content
-pos:        noun
-es:         el cargo
-en:         office
-hint:       a post someone holds, as in public office; not the room
-gender:     m
-article:    el
-example.es: Mi papá tiene un cargo nuevo en el trabajo.
-example.en: My dad has a new position at work.
-spain:
-trick:      CARGO sounds like cargo: the person in that position carries the whole company's cargo on their shoulders.
+id:             cargo-position
+kind:           content
+pos:            noun
+target:         el cargo
+en:             office
+hint:           a post someone holds, as in public office; not the room
+gender:         m
+article:        el
+example.target: Mi papá tiene un cargo nuevo en el trabajo.
+example.en:     My dad has a new position at work.
+regional.where:
+regional.text:
+trick:          CARGO sounds like cargo: the person in that position carries the whole company's cargo on their shoulders.
 
 # The draft this file was made from. Do not change it.
-draft: e9bf0e30073317f4
+draft: 9ab84ae97f87e535

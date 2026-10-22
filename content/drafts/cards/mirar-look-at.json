@@ -3,7 +3,7 @@
   "rank": 80,
   "kind": "content",
   "pos": "verb",
-  "es": "mirar",
+  "target": "mirar",
   "en": "to look at",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Por qué me miras así?",
+    "target": "¿Por qué me miras así?",
     "en": "Why are you looking at me like that?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "MIRAR sounds like mirror: you look at yourself in the mirror.",
   "image": "/deck/img/mirar-look-at.webp",
   "audio": {

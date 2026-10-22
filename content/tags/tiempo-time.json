@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use tiempo for an amount of time; vez for one occasion, hora for clock time.",
-  "draft": "4e38e46e0cce126d",
+  "draft": "112c245a03a4886a",
   "group": "#93 tiempo",
   "via": "cli",
   "model": "claude-opus-5-5",

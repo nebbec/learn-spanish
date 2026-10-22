@@ -3,17 +3,17 @@
   "rank": 531,
   "kind": "content",
   "pos": "adjective",
-  "es": "verdadero",
+  "target": "verdadero",
   "en": "true",
   "hint": "genuine, the real one; related to the word for truth",
   "grammar": {
     "feminine": "verdadera"
   },
   "example": {
-    "es": "Él es un verdadero amigo.",
+    "target": "Él es un verdadero amigo.",
     "en": "He is a true friend."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VERDADERO starts like VERDAD, truth: a verdadero friend is one who always tells you the truth.",
   "image": "/deck/img/verdadero-true.webp",
   "audio": {

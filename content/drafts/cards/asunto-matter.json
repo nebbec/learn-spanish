@@ -3,7 +3,7 @@
   "rank": 461,
   "kind": "content",
   "pos": "noun",
-  "es": "el asunto",
+  "target": "el asunto",
   "en": "matter",
   "hint": "affair, business, as in none of your business",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Eso no es asunto tuyo.",
+    "target": "Eso no es asunto tuyo.",
     "en": "That's none of your business."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ASUNTO sounds like 'a stunt, oh': pulling a stunt in someone else's private matter is never a good idea.",
   "image": "/deck/img/asunto-matter.webp",
   "audio": {

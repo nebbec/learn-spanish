@@ -3,15 +3,15 @@
   "rank": 460,
   "kind": "content",
   "pos": "adverb",
-  "es": "simplemente",
+  "target": "simplemente",
   "en": "simply",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Simplemente no quiero ir.",
+    "target": "Simplemente no quiero ir.",
     "en": "I simply don't want to go."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIMPLEMENTE sounds like \"simple-mente\": a simple mind says things simply.",
   "image": "/deck/img/simplemente-simply.webp",
   "audio": {

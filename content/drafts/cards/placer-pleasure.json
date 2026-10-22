@@ -3,7 +3,7 @@
   "rank": 659,
   "kind": "content",
   "pos": "noun",
-  "es": "el placer",
+  "target": "el placer",
   "en": "pleasure",
   "hint": "enjoyment, delight (not gusto)",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Es un placer trabajar contigo.",
+    "target": "Es un placer trabajar contigo.",
     "en": "It's a pleasure to work with you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PLACER sounds like \"pleasure\" said with a smile: a pleasant place gives you pleasure.",
   "image": "/deck/img/placer-pleasure.webp",
   "audio": {

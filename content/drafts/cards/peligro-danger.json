@@ -3,7 +3,7 @@
   "rank": 794,
   "kind": "content",
   "pos": "noun",
-  "es": "el peligro",
+  "target": "el peligro",
   "en": "danger",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Los niños están en peligro.",
+    "target": "Los niños están en peligro.",
     "en": "The children are in danger."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PELIGRO sounds like \"pelican grow\": a pelican growing huge is real danger.",
   "image": "/deck/img/peligro-danger.webp",
   "audio": {

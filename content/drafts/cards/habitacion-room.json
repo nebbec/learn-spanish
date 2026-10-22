@@ -3,7 +3,7 @@
   "rank": 394,
   "kind": "content",
   "pos": "noun",
-  "es": "la habitación",
+  "target": "la habitación",
   "en": "room",
   "hint": "bedroom or hotel room; not cuarto",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi habitación está en el segundo piso.",
+    "target": "Mi habitación está en el segundo piso.",
     "en": "My room is on the second floor."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HABITACIÓN sounds like habitation: the room is where you live and sleep.",
   "image": "/deck/img/habitacion-room.webp",
   "audio": {

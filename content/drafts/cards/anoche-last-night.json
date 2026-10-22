@@ -3,15 +3,15 @@
   "rank": 517,
   "kind": "content",
   "pos": "adverb",
-  "es": "anoche",
+  "target": "anoche",
   "en": "last night",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Anoche no dormí nada.",
+    "target": "Anoche no dormí nada.",
     "en": "I didn't sleep at all last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ANOCHE sounds like \"a notch\": last night you cut another notch in the bedpost for every hour you lay awake.",
   "image": "/deck/img/anoche-last-night.webp",
   "audio": {

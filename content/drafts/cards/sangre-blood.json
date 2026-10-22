@@ -3,7 +3,7 @@
   "rank": 380,
   "kind": "content",
   "pos": "noun",
-  "es": "la sangre",
+  "target": "la sangre",
   "en": "blood",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tienes sangre en la camisa.",
+    "target": "Tienes sangre en la camisa.",
     "en": "You have blood on your shirt."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SANGRE sounds like sanguine and sangria: red wine as dark as blood.",
   "image": "/deck/img/sangre-blood.webp",
   "audio": {

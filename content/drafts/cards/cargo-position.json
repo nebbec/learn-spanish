@@ -3,7 +3,7 @@
   "rank": 651,
   "kind": "content",
   "pos": "noun",
-  "es": "el cargo",
+  "target": "el cargo",
   "en": "position",
   "hint": "a post or office someone holds, as in a cargo de (in charge of)",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ella ocupa un cargo importante en el gobierno.",
+    "target": "Ella ocupa un cargo importante en el gobierno.",
     "en": "She holds an important position in the government."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARGO sounds like cargo: the person in that position carries the whole company's cargo on their shoulders.",
   "image": "/deck/img/cargo-position.webp",
   "audio": {

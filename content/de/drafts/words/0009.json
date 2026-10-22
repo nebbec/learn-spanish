@@ -1,0 +1,15 @@
+{
+  "rank": 9,
+  "word": "es",
+  "cards": [
+    "es-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "es-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:30:43.763Z"
+}

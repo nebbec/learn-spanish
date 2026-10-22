@@ -3,7 +3,7 @@
   "rank": 618,
   "kind": "content",
   "pos": "verb",
-  "es": "actuar",
+  "target": "actuar",
   "en": "to act",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Hoy actúas muy raro.",
+    "target": "Hoy actúas muy raro.",
     "en": "You're acting really weird today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACTUAR sounds like actual: a good actor makes fake feelings look actual.",
   "image": "/deck/img/actuar-act.webp",
   "audio": {

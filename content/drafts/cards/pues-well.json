@@ -3,15 +3,15 @@
   "rank": 273,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "pues",
+  "target": "pues",
   "en": "[well], I don't know",
   "hint": "short filler that opens a reply, not bueno",
   "grammar": null,
   "example": {
-    "es": "Pues no sé, tal vez mañana.",
+    "target": "Pues no sé, tal vez mañana.",
     "en": "Well, I don't know, maybe tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PUES sounds like pause: you say it when you pause before answering, like well.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 599,
   "kind": "content",
   "pos": "noun",
-  "es": "la cámara",
+  "target": "la cámara",
   "en": "camera",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Sonríe, que hay una cámara.",
+    "target": "Sonríe, que hay una cámara.",
     "en": "Smile, there's a camera."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CÁMARA sounds like camera with an extra a: say cheese, the cámara is rolling.",
   "image": "/deck/img/camara-camera.webp",
   "audio": {

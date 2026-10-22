@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 decision: approve
 
-id:         llevar-spend-time
-kind:       content
-pos:        verb
-es:         llevar
-en:         to have been (for a time)
-hint:       the verb that counts time, as in 'I've been here two years', not estar or hace
-yo:         llevo
-tu:         llevas
-el:         lleva
-irregular:  no
-example.es: Llevo dos horas esperando.
-example.en: I've been waiting for two hours.
-spain:
-trick:      LLEVAR sounds like lever: you have carried the time on your back, lifting it like a lever.
+id:             llevar-spend-time
+kind:           content
+pos:            verb
+target:         llevar
+en:             to have been (for a time)
+hint:           the verb that counts time, as in 'I've been here two years', not estar or hace
+yo:             llevo
+tu:             llevas
+el:             lleva
+irregular:      no
+example.target: Llevo dos horas esperando.
+example.en:     I've been waiting for two hours.
+regional.where:
+regional.text:
+trick:          LLEVAR sounds like lever: you have carried the time on your back, lifting it like a lever.
 
 # The draft this file was made from. Do not change it.
-draft: beea556848230c0f
+draft: 98ab01abf1d238ed

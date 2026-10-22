@@ -3,17 +3,17 @@
   "rank": 541,
   "kind": "content",
   "pos": "adjective",
-  "es": "pobre",
+  "target": "pobre",
   "en": "poor",
   "hint": null,
   "grammar": {
     "feminine": "pobre"
   },
   "example": {
-    "es": "¡Pobre perro, tiene mucho frío!",
+    "target": "¡Pobre perro, tiene mucho frío!",
     "en": "Poor dog, he's really cold!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "POBRE sounds like poor-bray: the poor donkey brays because he has no hay.",
   "image": "/deck/img/pobre-poor.webp",
   "audio": {

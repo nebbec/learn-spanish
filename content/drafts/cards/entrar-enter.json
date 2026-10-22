@@ -3,7 +3,7 @@
   "rank": 191,
   "kind": "content",
   "pos": "verb",
-  "es": "entrar",
+  "target": "entrar",
   "en": "to enter",
   "hint": "to go in",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Entra, la puerta está abierta.",
+    "target": "Entra, la puerta está abierta.",
     "en": "Come in, the door is open."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENTRAR sounds like \"entrance\": you go through the entrance to enter.",
   "image": "/deck/img/entrar-enter.webp",
   "audio": {

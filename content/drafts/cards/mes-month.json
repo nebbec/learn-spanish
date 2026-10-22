@@ -3,7 +3,7 @@
   "rank": 289,
   "kind": "content",
   "pos": "noun",
-  "es": "el mes",
+  "target": "el mes",
   "en": "month",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me voy de viaje el próximo mes.",
+    "target": "Me voy de viaje el próximo mes.",
     "en": "I'm going on a trip next month."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MES sounds like \"mess\": your room turns into a mess after a whole month without cleaning.",
   "image": "/deck/img/mes-month.webp",
   "audio": {

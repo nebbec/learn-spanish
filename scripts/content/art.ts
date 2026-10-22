@@ -27,7 +27,7 @@ export const ROWS = 2;
 export const CREDITS = { render: 0.5, cutout: 1 };
 
 export interface DeckLike {
-  cards: { id: string; kind: string; es: string; en: string; hint?: string | null; image: string | null }[];
+  cards: { id: string; kind: string; target: string; en: string; hint?: string | null; image: string | null }[];
 }
 
 export interface Still {
@@ -35,7 +35,7 @@ export interface Still {
   id: string;
   /** The deck's image path: `/deck/img/ser-be-identity.webp`. */
   image: string;
-  /** The Spanish word the still shows: the card's `es`, or the verb for a still only form cards use. */
+  /** The Spanish word the still shows: the card's `target`, or the verb for a still only form cards use. */
   es: string;
   /** Every English prompt of the cards that use it, joined. */
   en: string;
@@ -61,7 +61,7 @@ export function stillsFromDeck(deck: DeckLike): Still[] {
     return {
       id,
       image,
-      es: own ? own.es : id.split("-")[0],
+      es: own ? own.target : id.split("-")[0],
       en: [...new Set(cards.map((c) => c.en))].join(" / "),
       hint: first.hint ?? "",
       cards: cards.map((c) => c.id),

@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use pedir to ask for something or order food; use preguntar to ask a question.",
-  "draft": "98d3b7b05c99b5af",
+  "draft": "8ba5664075c377d1",
   "group": "#181 pedir",
   "via": "cli",
   "model": "claude-opus-5-5",

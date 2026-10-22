@@ -3,15 +3,15 @@
   "rank": 21,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "te",
+  "target": "te",
   "en": "did you hurt [yourself]?",
   "hint": "one short word before the verb",
   "grammar": null,
   "example": {
-    "es": "¿Te lastimaste la mano?",
+    "target": "¿Te lastimaste la mano?",
     "en": "Did you hurt your hand?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TE sounds like tea: you spilled hot tea on yourself.",
   "image": null,
   "audio": {

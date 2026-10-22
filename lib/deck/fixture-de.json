@@ -1,0 +1,400 @@
+{
+  "format": 3,
+  "lang": "de",
+  "version": 1,
+  "units": [
+    {
+      "id": "me-and-you",
+      "title": "Me and you",
+      "goal": "say how you are."
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip-accusative",
+      "title": "The accusative",
+      "body": "In German, der, ein and mein change when a word is the thing you see, have or want. Der becomes den, and ein becomes einen. This only happens with masculine words; die and das stay the same.",
+      "examples": [
+        {
+          "target": "Ich sehe den Mann.",
+          "en": "I see the man.",
+          "audio": "/deck-de/audio/tip-accusative.1.mp3"
+        },
+        {
+          "target": "Ich habe einen Bruder.",
+          "en": "I have a brother.",
+          "audio": "/deck-de/audio/tip-accusative.2.mp3"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "sein-form-ich",
+      "rank": 4,
+      "kind": "form",
+      "pos": "verb",
+      "target": "ich bin",
+      "en": "I am",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "bin",
+          "du": "bist",
+          "er": "ist"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "sein",
+          "participle": "gewesen"
+        }
+      },
+      "example": {
+        "target": "Ich bin müde.",
+        "en": "I am tired."
+      },
+      "regional": null,
+      "trick": null,
+      "image": "/deck-de/img/sein-be.webp",
+      "audio": {
+        "word": "/deck-de/audio/sein-form-ich.word.mp3",
+        "sentence": "/deck-de/audio/sein-form-ich.sentence.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "phrase-how-are-you",
+      "rank": 80,
+      "kind": "phrase",
+      "pos": "phrase",
+      "target": "Wie geht's?",
+      "en": "How are you?",
+      "hint": "informal",
+      "grammar": null,
+      "example": {
+        "target": "Hallo Anna, wie geht's?",
+        "en": "Hi Anna, how are you?"
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/phrase-how-are-you.word.mp3",
+        "sentence": "/deck-de/audio/phrase-how-are-you.sentence.mp3"
+      },
+      "unit": "me-and-you",
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "mit-with",
+      "rank": 25,
+      "kind": "glue",
+      "pos": "preposition",
+      "target": "mit",
+      "en": "coffee [with] milk",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Ich trinke Kaffee mit Milch.",
+        "en": "I drink coffee with milk."
+      },
+      "regional": null,
+      "trick": "MIT sounds like \"MITT\": a mitt comes with a ball.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/mit-with.word.mp3",
+        "sentence": "/deck-de/audio/mit-with.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "mann-man",
+      "rank": 60,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Mann",
+      "en": "man",
+      "hint": null,
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": "die Männer"
+      },
+      "example": {
+        "target": "Der Mann ist nett.",
+        "en": "The man is nice."
+      },
+      "regional": null,
+      "trick": "MANN sounds like \"MAN\".",
+      "image": "/deck-de/img/mann-man.webp",
+      "audio": {
+        "word": "/deck-de/audio/mann-man.word.mp3",
+        "sentence": "/deck-de/audio/mann-man.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "frau-woman",
+      "rank": 70,
+      "kind": "content",
+      "pos": "noun",
+      "target": "die Frau",
+      "en": "woman",
+      "hint": null,
+      "grammar": {
+        "gender": "f",
+        "article": "die",
+        "plural": "die Frauen"
+      },
+      "example": {
+        "target": "Die Frau liest ein Buch.",
+        "en": "The woman is reading a book."
+      },
+      "regional": null,
+      "trick": "FRAU sounds like \"FROW\": the woman raises a frowning brow.",
+      "image": "/deck-de/img/frau-woman.webp",
+      "audio": {
+        "word": "/deck-de/audio/frau-woman.word.mp3",
+        "sentence": "/deck-de/audio/frau-woman.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "haus-house",
+      "rank": 90,
+      "kind": "content",
+      "pos": "noun",
+      "target": "das Haus",
+      "en": "house",
+      "hint": null,
+      "grammar": {
+        "gender": "n",
+        "article": "das",
+        "plural": "die Häuser"
+      },
+      "example": {
+        "target": "Das Haus ist groß.",
+        "en": "The house is big."
+      },
+      "regional": null,
+      "trick": "HAUS sounds like \"HOUSE\".",
+      "image": "/deck/img/casa-house.svg",
+      "audio": {
+        "word": "/deck-de/audio/haus-house.word.mp3",
+        "sentence": "/deck-de/audio/haus-house.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "gehen-go",
+      "rank": 40,
+      "kind": "content",
+      "pos": "verb",
+      "target": "gehen",
+      "en": "to go",
+      "hint": null,
+      "grammar": {
+        "present": {
+          "ich": "gehe",
+          "du": "gehst",
+          "er": "geht"
+        },
+        "irregular": true,
+        "separable": false,
+        "perfekt": {
+          "aux": "sein",
+          "participle": "gegangen"
+        }
+      },
+      "example": {
+        "target": "Ich gehe nach Hause.",
+        "en": "I'm going home."
+      },
+      "regional": null,
+      "trick": "GEHEN sounds like \"GAIN\": you gain ground as you go.",
+      "image": "/deck/img/ir-go.svg",
+      "audio": {
+        "word": "/deck-de/audio/gehen-go.word.mp3",
+        "sentence": "/deck-de/audio/gehen-go.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "anrufen-call",
+      "rank": 300,
+      "kind": "content",
+      "pos": "verb",
+      "target": "anrufen",
+      "en": "to call",
+      "hint": "on the phone",
+      "grammar": {
+        "present": {
+          "ich": "rufe an",
+          "du": "rufst an",
+          "er": "ruft an"
+        },
+        "irregular": true,
+        "separable": true,
+        "perfekt": {
+          "aux": "haben",
+          "participle": "angerufen"
+        }
+      },
+      "example": {
+        "target": "Ich rufe dich morgen an.",
+        "en": "I'll call you tomorrow."
+      },
+      "regional": null,
+      "trick": "ANRUFEN: you call up to the ROOF to get someone's attention.",
+      "image": "/deck-de/img/anrufen-call.webp",
+      "audio": {
+        "word": "/deck-de/audio/anrufen-call.word.mp3",
+        "sentence": "/deck-de/audio/anrufen-call.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "gut-good",
+      "rank": 30,
+      "kind": "content",
+      "pos": "adjective",
+      "target": "gut",
+      "en": "good",
+      "hint": null,
+      "grammar": null,
+      "example": {
+        "target": "Das Essen ist gut.",
+        "en": "The food is good."
+      },
+      "regional": null,
+      "trick": "GUT sounds like \"GOOD\".",
+      "image": "/deck-de/img/gut-good.webp",
+      "audio": {
+        "word": "/deck-de/audio/gut-good.word.mp3",
+        "sentence": "/deck-de/audio/gut-good.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "januar-january",
+      "rank": 900,
+      "kind": "content",
+      "pos": "noun",
+      "target": "der Januar",
+      "en": "January",
+      "hint": null,
+      "grammar": {
+        "gender": "m",
+        "article": "der",
+        "plural": null
+      },
+      "example": {
+        "target": "Im Januar ist es kalt.",
+        "en": "It's cold in January."
+      },
+      "regional": {
+        "where": "Austria",
+        "text": "der Jänner"
+      },
+      "trick": "JANUAR sounds like \"JANUARY\" without its end.",
+      "image": "/deck-de/img/januar-january.webp",
+      "audio": {
+        "word": "/deck-de/audio/januar-january.word.mp3",
+        "sentence": "/deck-de/audio/januar-january.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "case-i-see-the-man",
+      "rank": 60,
+      "kind": "case",
+      "pos": "determiner",
+      "target": "den Mann",
+      "en": "I see [the] man",
+      "hint": null,
+      "grammar": {
+        "case": "akk",
+        "gender": "m",
+        "from": "der"
+      },
+      "example": {
+        "target": "Ich sehe den Mann.",
+        "en": "I see the man."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-i-see-the-man.word.mp3",
+        "sentence": "/deck-de/audio/case-i-see-the-man.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [
+        "mann-man"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    },
+    {
+      "id": "case-im-calling-you",
+      "rank": 300,
+      "kind": "case",
+      "pos": "pronoun",
+      "target": "dich",
+      "en": "I'm calling [you]",
+      "hint": "informal",
+      "grammar": {
+        "case": "akk",
+        "gender": null,
+        "from": "du"
+      },
+      "example": {
+        "target": "Ich rufe dich an.",
+        "en": "I'm calling you."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/case-im-calling-you.word.mp3",
+        "sentence": "/deck-de/audio/case-im-calling-you.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [
+        "anrufen-call"
+      ],
+      "tip": "tip-accusative",
+      "why": null
+    }
+  ]
+}

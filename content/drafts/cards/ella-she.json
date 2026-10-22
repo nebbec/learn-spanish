@@ -3,15 +3,15 @@
   "rank": 72,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "ella",
+  "target": "ella",
   "en": "[she] is my friend",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Ella sí insiste, él no.",
+    "target": "Ella sí insiste, él no.",
     "en": "She does insist; he doesn't."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ELLA sounds like Ella, a girl's name, and Ella is always a she.",
   "image": null,
   "audio": {

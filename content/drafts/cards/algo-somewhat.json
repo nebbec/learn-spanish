@@ -3,15 +3,15 @@
   "rank": 57,
   "kind": "content",
   "pos": "adverb",
-  "es": "algo",
+  "target": "algo",
   "en": "somewhat",
   "hint": "one word, before an adjective; not un poco",
   "grammar": null,
   "example": {
-    "es": "Estoy algo cansado hoy.",
+    "target": "Estoy algo cansado hoy.",
     "en": "I'm somewhat tired today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALGO sounds like 'all go': I'm somewhat tired, but we all go anyway.",
   "image": "/deck/img/algo-somewhat.webp",
   "audio": {

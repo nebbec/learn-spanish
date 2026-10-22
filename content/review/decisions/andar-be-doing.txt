@@ -9,27 +9,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fixes to hint (shortened) and example.
 decision: approve
 
-id:         andar-be-doing
-kind:       content
-pos:        verb
-es:         andar
-en:         to be (going around)
-hint:       colloquial, how someone's doing or what they're up to, not estar: ¿Cómo ___s?
-yo:         ando
-tu:         andas
-el:         anda
-irregular:  yes
-example.es: ¿Qué andas haciendo hoy?
-example.en: What are you up to today?
-spain:
-trick:      ANDAR sounds like "and are": and how are you doing these days?
+id:             andar-be-doing
+kind:           content
+pos:            verb
+target:         andar
+en:             to be (going around)
+hint:           colloquial, how someone's doing or what they're up to, not estar: ¿Cómo ___s?
+yo:             ando
+tu:             andas
+el:             anda
+irregular:      yes
+example.target: ¿Qué andas haciendo hoy?
+example.en:     What are you up to today?
+regional.where:
+regional.text:
+trick:          ANDAR sounds like "and are": and how are you doing these days?
 
 # The draft this file was made from. Do not change it.
-draft: 14817a642e48992f
+draft: d9859ba012be72ae

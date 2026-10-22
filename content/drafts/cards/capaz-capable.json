@@ -3,17 +3,17 @@
   "rank": 644,
   "kind": "content",
   "pos": "adjective",
-  "es": "capaz",
+  "target": "capaz",
   "en": "capable",
   "hint": null,
   "grammar": {
     "feminine": "capaz"
   },
   "example": {
-    "es": "Eres capaz de hacerlo solo.",
+    "target": "Eres capaz de hacerlo solo.",
     "en": "You're capable of doing it alone."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAPAZ sounds like CAPable: whoever wears the captain's cap is capable of anything.",
   "image": "/deck/img/capaz-capable.webp",
   "audio": {

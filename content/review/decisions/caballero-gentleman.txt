@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: approve
 
-id:         caballero-gentleman
-kind:       content
-pos:        noun
-es:         el caballero
-en:         gentleman
+id:             caballero-gentleman
+kind:           content
+pos:            noun
+target:         el caballero
+en:             gentleman
 hint:
-gender:     m
-article:    el
-example.es: Tu papá es todo un caballero.
-example.en: Your dad is a real gentleman.
-spain:
-trick:      CABALLERO sounds like "cab a hero": a true gentleman calls a cab for you like a hero.
+gender:         m
+article:        el
+example.target: Tu papá es todo un caballero.
+example.en:     Your dad is a real gentleman.
+regional.where:
+regional.text:
+trick:          CABALLERO sounds like "cab a hero": a true gentleman calls a cab for you like a hero.
 
 # The draft this file was made from. Do not change it.
-draft: 21a4895bd8f9ec67
+draft: a3ae46df8872eb91

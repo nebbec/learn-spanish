@@ -3,15 +3,15 @@
   "rank": 120,
   "kind": "glue",
   "pos": "preposition",
-  "es": "sin",
+  "target": "sin",
   "en": "coffee [without] sugar",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "No puedo vivir sin ti.",
+    "target": "No puedo vivir sin ti.",
     "en": "I can't live without you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIN sounds like sin: a life without fun feels like a sin.",
   "image": null,
   "audio": {

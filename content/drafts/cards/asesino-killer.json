@@ -3,7 +3,7 @@
   "rank": 491,
   "kind": "content",
   "pos": "noun",
-  "es": "el asesino",
+  "target": "el asesino",
   "en": "killer",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "La policía todavía busca al asesino.",
+    "target": "La policía todavía busca al asesino.",
     "en": "The police are still looking for the killer."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ASESINO sounds like assassin-o: an assassin is a hired killer.",
   "image": "/deck/img/asesino-killer.webp",
   "audio": {

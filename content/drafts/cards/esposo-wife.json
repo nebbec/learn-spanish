@@ -3,7 +3,7 @@
   "rank": 253,
   "kind": "content",
   "pos": "noun",
-  "es": "la esposa",
+  "target": "la esposa",
   "en": "wife",
   "hint": "not mujer; related to spouse",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi esposa es de México.",
+    "target": "Mi esposa es de México.",
     "en": "My wife is from Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESPOSA sounds like spouse-a: the a ending makes her the wife.",
   "image": "/deck/img/esposo-wife.webp",
   "audio": {

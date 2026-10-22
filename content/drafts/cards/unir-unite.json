@@ -3,7 +3,7 @@
   "rank": 462,
   "kind": "content",
   "pos": "verb",
-  "es": "unir",
+  "target": "unir",
   "en": "to unite",
   "hint": "to join together; unirse = to join a group",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Quieres unirte a nosotros?",
+    "target": "¿Quieres unirte a nosotros?",
     "en": "Do you want to join us?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "UNIR sounds like 'unit': when you unite people, they become one unit.",
   "image": "/deck/img/unir-unite.webp",
   "audio": {

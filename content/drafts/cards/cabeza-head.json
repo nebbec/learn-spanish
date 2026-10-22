@@ -3,7 +3,7 @@
   "rank": 250,
   "kind": "content",
   "pos": "noun",
-  "es": "la cabeza",
+  "target": "la cabeza",
   "en": "head",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me duele mucho la cabeza.",
+    "target": "Me duele mucho la cabeza.",
     "en": "My head really hurts."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CABEZA sounds like \"cab bets ya\": the cab driver bets you'll bump your head getting in.",
   "image": "/deck/img/cabeza-head.webp",
   "audio": {

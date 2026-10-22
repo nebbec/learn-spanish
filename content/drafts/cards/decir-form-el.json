@@ -3,7 +3,7 @@
   "rank": 23,
   "kind": "form",
   "pos": "verb",
-  "es": "dice",
+  "target": "dice",
   "en": "he / she says",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Ella dice que no.",
+    "target": "Ella dice que no.",
     "en": "She says no."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Dice sounds like DEE-say, and say is right there: he says.",
   "image": "/deck/img/decir-say.webp",
   "audio": {

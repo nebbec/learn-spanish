@@ -3,7 +3,7 @@
   "rank": 633,
   "kind": "content",
   "pos": "noun",
-  "es": "el barco",
+  "target": "el barco",
   "en": "boat",
   "hint": "also ship; the general word, any size",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El barco sale a las ocho.",
+    "target": "El barco sale a las ocho.",
     "en": "The boat leaves at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BARCO sounds like \"bark-o\": the dog barks at every boat sailing past the dock.",
   "image": "/deck/img/barco-boat.webp",
   "audio": {

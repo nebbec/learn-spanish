@@ -3,7 +3,7 @@
   "rank": 347,
   "kind": "content",
   "pos": "verb",
-  "es": "prometer",
+  "target": "prometer",
   "en": "to promise",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te prometo que voy a llegar temprano.",
+    "target": "Te prometo que voy a llegar temprano.",
     "en": "I promise you I'm going to arrive early."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PROMETER sounds like \"promise meter\": a gadget that measures how much you promise.",
   "image": "/deck/img/prometer-promise.webp",
   "audio": {

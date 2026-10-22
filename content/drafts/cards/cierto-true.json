@@ -3,17 +3,17 @@
   "rank": 207,
   "kind": "content",
   "pos": "adjective",
-  "es": "cierto",
+  "target": "cierto",
   "en": "true",
   "hint": "as in it's true, that's right",
   "grammar": {
     "feminine": "cierta"
   },
   "example": {
-    "es": "¿Es cierto que te vas mañana?",
+    "target": "¿Es cierto que te vas mañana?",
     "en": "Is it true that you're leaving tomorrow?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CIERTO sounds like certainly: if something is certainly so, it's true.",
   "image": "/deck/img/cierto-true.webp",
   "audio": {

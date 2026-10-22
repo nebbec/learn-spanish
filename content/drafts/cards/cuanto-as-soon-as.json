@@ -3,15 +3,15 @@
   "rank": 384,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "en cuanto",
+  "target": "en cuanto",
   "en": "I'll call you [as soon as] I arrive",
   "hint": "two words, starts with en",
   "grammar": null,
   "example": {
-    "es": "Te llamo en cuanto llegue a casa.",
+    "target": "Te llamo en cuanto llegue a casa.",
     "en": "I'll call you as soon as I get home."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EN CUANTO sounds like in quantum: the moment, the quantum leap, as soon as it happens.",
   "image": null,
   "audio": {

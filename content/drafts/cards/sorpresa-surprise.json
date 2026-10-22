@@ -3,7 +3,7 @@
   "rank": 774,
   "kind": "content",
   "pos": "noun",
-  "es": "la sorpresa",
+  "target": "la sorpresa",
   "en": "surprise",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¡Qué sorpresa verte aquí!",
+    "target": "¡Qué sorpresa verte aquí!",
     "en": "What a surprise to see you here!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SORPRESA sounds like surprise with a press: someone presses the button and confetti bursts out as a surprise.",
   "image": "/deck/img/sorpresa-surprise.webp",
   "audio": {

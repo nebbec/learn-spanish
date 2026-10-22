@@ -3,7 +3,7 @@
   "rank": 96,
   "kind": "content",
   "pos": "verb",
-  "es": "llevar",
+  "target": "llevar",
   "en": "to have been (for a time)",
   "hint": "llevo dos años aquí",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Llevo dos horas esperando.",
+    "target": "Llevo dos horas esperando.",
     "en": "I've been waiting for two hours."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLEVAR sounds like lever: you have carried the time on your back, lifting it like a lever.",
   "image": "/deck/img/llevar-spend-time.webp",
   "audio": {

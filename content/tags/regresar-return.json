@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Same meaning as volver; regresar is very common in Latin America, while Spain mostly says volver.",
-  "draft": "b2f591362bfa9f59",
+  "draft": "e9e34d2d1d7eb5cf",
   "group": "#287 regresar",
   "via": "cli",
   "model": "claude-opus-5-5",

@@ -3,15 +3,15 @@
   "rank": 282,
   "kind": "content",
   "pos": "adverb",
-  "es": "medio",
+  "target": "medio",
   "en": "kind of",
   "hint": "informal, before an adjective: kind of tired",
   "grammar": null,
   "example": {
-    "es": "Estoy medio cansado hoy.",
+    "target": "Estoy medio cansado hoy.",
     "en": "I'm kind of tired today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MEDIO sounds like medium: feeling medium tired means you're kind of tired.",
   "image": "/deck/img/medio-kind-of.webp",
   "audio": {

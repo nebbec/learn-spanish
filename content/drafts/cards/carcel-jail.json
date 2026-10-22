@@ -3,7 +3,7 @@
   "rank": 755,
   "kind": "content",
   "pos": "noun",
-  "es": "la cárcel",
+  "target": "la cárcel",
   "en": "jail",
   "hint": "everyday word, not prisión",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Su hermano está en la cárcel.",
+    "target": "Su hermano está en la cárcel.",
     "en": "His brother is in jail."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CÁRCEL sounds like car sell: he went to jail for selling stolen cars.",
   "image": "/deck/img/carcel-jail.webp",
   "audio": {

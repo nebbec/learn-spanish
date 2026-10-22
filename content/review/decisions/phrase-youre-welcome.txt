@@ -10,22 +10,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         phrase-youre-welcome
-kind:       phrase
-pos:        phrase
-es:         De nada.
-en:         You're welcome.
+id:             phrase-youre-welcome
+kind:           phrase
+pos:            phrase
+target:         De nada.
+en:             You're welcome.
 hint:
-example.es: —Gracias, Ana. Eres fantástica. —¡De nada!
-example.en: —Thanks, Ana. You're fantastic. —You're welcome!
-spain:
-trick:      De nada literally means "of nothing", like saying "it was nothing".
+example.target: —Gracias, Ana. Eres fantástica. —¡De nada!
+example.en:     —Thanks, Ana. You're fantastic. —You're welcome!
+regional.where:
+regional.text:
+trick:          De nada literally means "of nothing", like saying "it was nothing".
 
 # The draft this file was made from. Do not change it.
-draft: 1af8336ba6bd5aac
+draft: e50f146c43e9f884

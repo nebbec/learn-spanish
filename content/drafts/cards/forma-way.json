@@ -3,7 +3,7 @@
   "rank": 241,
   "kind": "content",
   "pos": "noun",
-  "es": "la forma",
+  "target": "la forma",
   "en": "way",
   "hint": "manner, as in the way to do it; not manera, the word that also means shape",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No hay otra forma de hacerlo.",
+    "target": "No hay otra forma de hacerlo.",
     "en": "There's no other way to do it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FORMA sounds like format: the format is the way you do something.",
   "image": "/deck/img/forma-way.webp",
   "audio": {

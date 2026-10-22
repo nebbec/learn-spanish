@@ -3,7 +3,7 @@
   "rank": 697,
   "kind": "content",
   "pos": "verb",
-  "es": "reconocer",
+  "target": "reconocer",
   "en": "to recognize",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿No me reconoces? Soy tu primo.",
+    "target": "¿No me reconoces? Soy tu primo.",
     "en": "Don't you recognize me? I'm your cousin."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RECONOCER sounds like recognize-er: re-know someone, you recognize them.",
   "image": "/deck/img/reconocer-recognize.webp",
   "audio": {

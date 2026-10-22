@@ -3,7 +3,7 @@
   "rank": 786,
   "kind": "content",
   "pos": "noun",
-  "es": "el fondo",
+  "target": "el fondo",
   "en": "bottom",
   "hint": "of the sea, a glass, a hall",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Las llaves están en el fondo del bolso.",
+    "target": "Las llaves están en el fondo del bolso.",
     "en": "The keys are at the bottom of the bag."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FONDO sounds like fondue: the best cheese sinks to the bottom of the pot.",
   "image": "/deck/img/fondo-bottom.webp",
   "audio": {

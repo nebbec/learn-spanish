@@ -3,7 +3,7 @@
   "rank": 697,
   "kind": "content",
   "pos": "verb",
-  "es": "reconocer",
+  "target": "reconocer",
   "en": "to admit",
   "hint": "acknowledge, not admitir or confesar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Reconozco que me equivoqué.",
+    "target": "Reconozco que me equivoqué.",
     "en": "I admit I was wrong."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RECONOCER: you re-know the truth out loud, finally admitting what everyone already knew.",
   "image": "/deck/img/reconocer-admit.webp",
   "audio": {

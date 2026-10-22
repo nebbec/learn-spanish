@@ -1,0 +1,21 @@
+{
+  "id": "es-it",
+  "rank": 9,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "es",
+  "en": "[it]'s raining",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Es regnet schon wieder.",
+    "en": "It's raining again."
+  },
+  "regional": null,
+  "trick": "ES sounds like the hissing end of \"it's\": it's raining, es regnet.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/es-it.word.mp3",
+    "sentence": "/deck-de/audio/es-it.sentence.mp3"
+  }
+}

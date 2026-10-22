@@ -3,7 +3,7 @@
   "rank": 440,
   "kind": "content",
   "pos": "noun",
-  "es": "el millón",
+  "target": "el millón",
   "en": "million",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Esa casa cuesta un millón de dólares.",
+    "target": "Esa casa cuesta un millón de dólares.",
     "en": "That house costs a million dollars."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MILLÓN sounds like million with a Spanish accent: just add an O and stress the end.",
   "image": "/deck/img/millon-million.webp",
   "audio": {

@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: fixed hint; dropped the reviewer's 'as in a trap' (odd, and points at the answer) and also ruled out capturar, which the old hint invited.
 decision: approve
 
-id:         atrapar-catch
-kind:       content
-pos:        verb
-es:         atrapar
-en:         to catch
-hint:       a ball or a thief; not agarrar or capturar
-yo:         atrapo
-tu:         atrapas
-el:         atrapa
-irregular:  no
-example.es: La policía atrapó al ladrón anoche.
-example.en: The police caught the thief last night.
-spain:
-trick:      ATRAPAR sounds like a trap: you catch someone by setting a trap.
+id:             atrapar-catch
+kind:           content
+pos:            verb
+target:         atrapar
+en:             to catch
+hint:           a ball or a thief; not agarrar or capturar
+yo:             atrapo
+tu:             atrapas
+el:             atrapa
+irregular:      no
+example.target: La policía atrapó al ladrón anoche.
+example.en:     The police caught the thief last night.
+regional.where:
+regional.text:
+trick:          ATRAPAR sounds like a trap: you catch someone by setting a trap.
 
 # The draft this file was made from. Do not change it.
-draft: 7632b8808abb3067
+draft: d1ac88b42b989203

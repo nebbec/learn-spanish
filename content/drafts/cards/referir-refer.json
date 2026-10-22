@@ -3,7 +3,7 @@
   "rank": 502,
   "kind": "content",
   "pos": "verb",
-  "es": "referir",
+  "target": "referir",
   "en": "to refer (to)",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿A qué te refieres?",
+    "target": "¿A qué te refieres?",
     "en": "What do you mean?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "REFERIR sounds like refer: when you refer to something, you point at what you mean.",
   "image": "/deck/img/referir-refer.webp",
   "audio": {

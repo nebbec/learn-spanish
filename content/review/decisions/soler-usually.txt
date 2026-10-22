@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to en, and from the reviewer's note a present-tense example (comer for desayunar, a rare word) and a trick without 'used to'.
 decision: approve
 
-id:         soler-usually
-kind:       content
-pos:        verb
-es:         soler
-en:         to usually (do)
+id:             soler-usually
+kind:           content
+pos:            verb
+target:         soler
+en:             to usually (do)
 hint:
-yo:         suelo
-tu:         sueles
-el:         suele
-irregular:  yes
-example.es: Suelo comer en casa.
-example.en: I usually eat at home.
-spain:
-trick:      SOLER sounds like solar: the sun usually rises every morning.
+yo:             suelo
+tu:             sueles
+el:             suele
+irregular:      yes
+example.target: Suelo comer en casa.
+example.en:     I usually eat at home.
+regional.where:
+regional.text:
+trick:          SOLER sounds like solar: the sun usually rises every morning.
 
 # The draft this file was made from. Do not change it.
-draft: b9952924a793ec3d
+draft: 0b4f05a78eda10ab

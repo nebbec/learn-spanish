@@ -3,7 +3,7 @@
   "rank": 270,
   "kind": "content",
   "pos": "noun",
-  "es": "el camino",
+  "target": "el camino",
   "en": "path, way",
   "hint": "the route you travel, not a manner",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ya estamos en camino.",
+    "target": "Ya estamos en camino.",
     "en": "We're already on our way."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMINO sounds like came in, oh: you came in by this path, the only way through the woods.",
   "image": "/deck/img/camino-path-way.webp",
   "audio": {

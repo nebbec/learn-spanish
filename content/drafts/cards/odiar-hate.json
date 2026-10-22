@@ -3,7 +3,7 @@
   "rank": 391,
   "kind": "content",
   "pos": "verb",
-  "es": "odiar",
+  "target": "odiar",
   "en": "to hate",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Odio levantarme temprano los lunes.",
+    "target": "Odio levantarme temprano los lunes.",
     "en": "I hate getting up early on Mondays."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ODIAR sounds like \"oh dear\": oh dear, it's Monday again, and you hate it.",
   "image": "/deck/img/odiar-hate.webp",
   "audio": {

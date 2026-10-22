@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: approve
 
-id:         monton-pile
-kind:       content
-pos:        noun
-es:         el montón
-en:         pile
-hint:       a heap of things; in casual speech also means 'a ton of'
-gender:     m
-article:    el
-example.es: Tengo un montón de trabajo hoy.
-example.en: I have a ton of work today.
-spain:
-trick:      MONTÓN sounds like mountain: a pile so big it looks like a mountain.
+id:             monton-pile
+kind:           content
+pos:            noun
+target:         el montón
+en:             pile
+hint:           a heap of things; in casual speech also means 'a ton of'
+gender:         m
+article:        el
+example.target: Tengo un montón de trabajo hoy.
+example.en:     I have a ton of work today.
+regional.where:
+regional.text:
+trick:          MONTÓN sounds like mountain: a pile so big it looks like a mountain.
 
 # The draft this file was made from. Do not change it.
-draft: 45331ff0d80f9255
+draft: d048ed2b027230ea

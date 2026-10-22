@@ -3,7 +3,7 @@
   "rank": 576,
   "kind": "content",
   "pos": "noun",
-  "es": "el baño",
+  "target": "el baño",
   "en": "bathroom",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Dónde está el baño?",
+    "target": "¿Dónde está el baño?",
     "en": "Where is the bathroom?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "BAÑO sounds like \"ban you\": they ban you from the bathroom while someone else is in there.",
   "image": "/deck/img/bano-bathroom.webp",
   "audio": {

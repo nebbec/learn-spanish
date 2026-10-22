@@ -3,7 +3,7 @@
   "rank": 486,
   "kind": "content",
   "pos": "verb",
-  "es": "tirar",
+  "target": "tirar",
   "en": "to throw away",
   "hint": "into the trash",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No tires esa comida.",
+    "target": "No tires esa comida.",
     "en": "Don't throw away that food."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIRAR sounds like tear: you tear up the old letter and throw it away.",
   "image": "/deck/img/tirar-throw-away.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 155,
   "kind": "content",
   "pos": "noun",
-  "es": "el momento",
+  "target": "el momento",
   "en": "moment",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Espera un momento, ya vengo.",
+    "target": "Espera un momento, ya vengo.",
     "en": "Wait a moment, I'll be right there."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MOMENTO sounds like \"memento\": a keepsake that helps you remember a special moment.",
   "image": "/deck/img/momento-moment.webp",
   "audio": {

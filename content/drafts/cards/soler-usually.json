@@ -3,7 +3,7 @@
   "rank": 587,
   "kind": "content",
   "pos": "verb",
-  "es": "soler",
+  "target": "soler",
   "en": "to usually do, used to",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Yo solía vivir cerca de la playa.",
+    "target": "Yo solía vivir cerca de la playa.",
     "en": "I used to live near the beach."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SOLER sounds like solar: the sun usually rises every morning, just like it used to.",
   "image": "/deck/img/soler-usually.webp",
   "audio": {

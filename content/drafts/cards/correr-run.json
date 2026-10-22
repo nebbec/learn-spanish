@@ -3,7 +3,7 @@
   "rank": 320,
   "kind": "content",
   "pos": "verb",
-  "es": "correr",
+  "target": "correr",
   "en": "to run",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Corre, que ya viene el bus!",
+    "target": "¡Corre, que ya viene el bus!",
     "en": "Run, the bus is already coming!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CORRER sounds like courier: a courier runs through town delivering packages.",
   "image": "/deck/img/correr-run.webp",
   "audio": {

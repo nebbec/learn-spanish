@@ -3,15 +3,15 @@
   "rank": 42,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "como",
+  "target": "como",
   "en": "as tall [as] you",
   "hint": "equal comparison, after tan",
   "grammar": null,
   "example": {
-    "es": "Mi hermano es tan alto como tú.",
+    "target": "Mi hermano es tan alto como tú.",
     "en": "My brother is as tall as you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMO sounds like 'co-mo': two co-workers, each as good as the other.",
   "image": null,
   "audio": {

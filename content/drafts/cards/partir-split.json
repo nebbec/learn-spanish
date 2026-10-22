@@ -3,7 +3,7 @@
   "rank": 542,
   "kind": "content",
   "pos": "verb",
-  "es": "partir",
+  "target": "partir",
   "en": "to split",
   "hint": "cut or break into pieces",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Partes el pastel en ocho pedazos?",
+    "target": "¿Partes el pastel en ocho pedazos?",
     "en": "Will you split the cake into eight pieces?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARTIR splits something into PARTs, so everyone gets a part.",
   "image": "/deck/img/partir-split.webp",
   "audio": {

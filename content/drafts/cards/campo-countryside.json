@@ -3,7 +3,7 @@
   "rank": 570,
   "kind": "content",
   "pos": "noun",
-  "es": "el campo",
+  "target": "el campo",
   "en": "countryside",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mis abuelos viven en el campo.",
+    "target": "Mis abuelos viven en el campo.",
     "en": "My grandparents live in the countryside."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMPO sounds like camping: you go camping out in the countryside, far from the city.",
   "image": "/deck/img/campo-countryside.webp",
   "audio": {

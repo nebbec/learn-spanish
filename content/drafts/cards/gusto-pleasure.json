@@ -3,7 +3,7 @@
   "rank": 625,
   "kind": "content",
   "pos": "noun",
-  "es": "el gusto",
+  "target": "el gusto",
   "en": "pleasure",
   "hint": "as in mucho ___, nice to meet you",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mucho gusto, me llamo Ana.",
+    "target": "Mucho gusto, me llamo Ana.",
     "en": "Nice to meet you, my name is Ana."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GUSTO sounds like gusto: meeting someone with gusto shows the pleasure is all yours.",
   "image": "/deck/img/gusto-pleasure.webp",
   "audio": {

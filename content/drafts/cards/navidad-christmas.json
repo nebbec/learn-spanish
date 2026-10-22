@@ -3,7 +3,7 @@
   "rank": 760,
   "kind": "content",
   "pos": "noun",
-  "es": "la Navidad",
+  "target": "la Navidad",
   "en": "Christmas",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Qué vas a hacer en Navidad?",
+    "target": "¿Qué vas a hacer en Navidad?",
     "en": "What are you going to do for Christmas?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "NAVIDAD sounds like nativity, dad: Dad sets up the nativity scene every Christmas.",
   "image": "/deck/img/navidad-christmas.webp",
   "audio": {

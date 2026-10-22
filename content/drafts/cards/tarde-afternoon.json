@@ -3,7 +3,7 @@
   "rank": 215,
   "kind": "content",
   "pos": "noun",
-  "es": "la tarde",
+  "target": "la tarde",
   "en": "afternoon",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Nos vemos en la tarde.",
+    "target": "Nos vemos en la tarde.",
     "en": "See you in the afternoon."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TARDE sounds like \"tardy\": the afternoon is the tardy part of the day, after the morning has gone.",
   "image": "/deck/img/tarde-afternoon.webp",
   "audio": {

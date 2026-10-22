@@ -2,6 +2,7 @@
 
 import { playClip } from "@/components/audio";
 import { AudioButton } from "@/components/card/Reveal";
+import { LANG } from "@/lang";
 import type { Card, DeckUnit } from "@/lib/deck";
 
 export interface UnitPayoffProps {
@@ -32,13 +33,13 @@ export function UnitPayoff({ unit, phrases, onPlay = playClip }: UnitPayoffProps
               className="flex items-center gap-2 rounded-button bg-quiet p-3 text-left"
             >
               <p className="flex flex-1 flex-col gap-0.5">
-                <span lang="es" className="text-lg font-bold">
-                  {card.es}
+                <span lang={LANG.tag} className="text-lg font-bold">
+                  {card.target}
                 </span>
                 <span className="text-ink-soft">{card.en}</span>
               </p>
               <AudioButton
-                label={`Play “${card.es}”`}
+                label={`Play “${card.target}”`}
                 testId={`payoff-play-${card.id}`}
                 onPress={() => onPlay(card.audio.word)}
               />

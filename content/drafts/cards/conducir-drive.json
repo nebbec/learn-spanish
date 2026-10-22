@@ -3,7 +3,7 @@
   "rank": 574,
   "kind": "content",
   "pos": "verb",
-  "es": "conducir",
+  "target": "conducir",
   "en": "to drive",
   "hint": "not manejar; the word Spain also uses",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi papá conduce muy rápido.",
+    "target": "Mi papá conduce muy rápido.",
     "en": "My dad drives really fast."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONDUCIR sounds like conductor: the conductor drives the train to the station.",
   "image": "/deck/img/conducir-drive.webp",
   "audio": {

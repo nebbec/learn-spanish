@@ -3,7 +3,7 @@
   "rank": 161,
   "kind": "content",
   "pos": "noun",
-  "es": "el mundo",
+  "target": "el mundo",
   "en": "world",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Quiero viajar por todo el mundo.",
+    "target": "Quiero viajar por todo el mundo.",
     "en": "I want to travel all over the world."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MUNDO sounds like Monday: every Monday the whole world goes back to work.",
   "image": "/deck/img/mundo-world.webp",
   "audio": {

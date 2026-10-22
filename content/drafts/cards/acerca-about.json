@@ -3,15 +3,15 @@
   "rank": 496,
   "kind": "glue",
   "pos": "preposition",
-  "es": "acerca de",
+  "target": "acerca de",
   "en": "we talked [about] you",
   "hint": "two-word phrase, not sobre",
   "grammar": null,
   "example": {
-    "es": "¿Qué sabes acerca de ella?",
+    "target": "¿Qué sabes acerca de ella?",
     "en": "What do you know about her?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACERCA sounds like a circle: you talk in circles about something.",
   "image": null,
   "audio": {

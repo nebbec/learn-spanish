@@ -8,22 +8,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         algo-somewhat
-kind:       content
-pos:        adverb
-es:         algo
-en:         somewhat
-hint:       one word, before an adjective; not medio
-example.es: Estoy algo cansado hoy.
-example.en: I'm somewhat tired today.
-spain:
-trick:      ALGO sounds like 'all go': I'm somewhat tired, but we all go anyway.
+id:             algo-somewhat
+kind:           content
+pos:            adverb
+target:         algo
+en:             somewhat
+hint:           one word, before an adjective; not medio
+example.target: Estoy algo cansado hoy.
+example.en:     I'm somewhat tired today.
+regional.where:
+regional.text:
+trick:          ALGO sounds like 'all go': I'm somewhat tired, but we all go anyway.
 
 # The draft this file was made from. Do not change it.
-draft: c0c2cc1e825f8c8a
+draft: c54400e64ddd8d91

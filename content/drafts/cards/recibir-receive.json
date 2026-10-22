@@ -3,7 +3,7 @@
   "rank": 366,
   "kind": "content",
   "pos": "verb",
-  "es": "recibir",
+  "target": "recibir",
   "en": "to receive",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Recibiste mi mensaje?",
+    "target": "¿Recibiste mi mensaje?",
     "en": "Did you get my message?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "RECIBIR sounds like receive-ear: you receive the news straight into your ear.",
   "image": "/deck/img/recibir-receive.webp",
   "audio": {

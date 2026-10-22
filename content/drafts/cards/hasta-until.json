@@ -3,15 +3,15 @@
   "rank": 130,
   "kind": "glue",
   "pos": "preposition",
-  "es": "hasta",
+  "target": "hasta",
   "en": "I work [until] eight",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¡Hasta mañana, mi amor!",
+    "target": "¡Hasta mañana, mi amor!",
     "en": "See you tomorrow, my love!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "HASTA sounds like \"hasta la vista\": you won't see me until later, baby.",
   "image": null,
   "audio": {

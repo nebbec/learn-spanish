@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 decision: approve
 
-id:         conseguir-get
-kind:       content
-pos:        verb
-es:         conseguir
-en:         to get
-hint:       get hold of something, often with effort (not obtener or lograr)
-yo:         consigo
-tu:         consigues
-el:         consigue
-irregular:  yes
-example.es: ¿Dónde conseguiste esos zapatos?
-example.en: Where did you get those shoes?
-spain:
-trick:      CONSEGUIR sounds like "con, see, gear": a con artist sees gear he wants and gets it.
+id:             conseguir-get
+kind:           content
+pos:            verb
+target:         conseguir
+en:             to get
+hint:           get hold of something, often with effort (not obtener or lograr)
+yo:             consigo
+tu:             consigues
+el:             consigue
+irregular:      yes
+example.target: ¿Dónde conseguiste esos zapatos?
+example.en:     Where did you get those shoes?
+regional.where:
+regional.text:
+trick:          CONSEGUIR sounds like "con, see, gear": a con artist sees gear he wants and gets it.
 
 # The draft this file was made from. Do not change it.
-draft: c8f86e1793e4f10d
+draft: c7071b1e0eeeb1e5

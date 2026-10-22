@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: replaced the example so guardar is conjugated; used 'Guardo mis cosas en mi cuarto' instead of the reviewer's sentence to avoid the rarer word cajón.
 decision: approve
 
-id:         guardar-keep
-kind:       content
-pos:        verb
-es:         guardar
-en:         to keep
-hint:       put away, store, save
-yo:         guardo
-tu:         guardas
-el:         guarda
-irregular:  no
-example.es: Guardo mis cosas en mi cuarto.
-example.en: I keep my things in my room.
-spain:
-trick:      GUARDAR sounds like guard: a guard keeps your things safe and puts them away.
+id:             guardar-keep
+kind:           content
+pos:            verb
+target:         guardar
+en:             to keep
+hint:           put away, store, save
+yo:             guardo
+tu:             guardas
+el:             guarda
+irregular:      no
+example.target: Guardo mis cosas en mi cuarto.
+example.en:     I keep my things in my room.
+regional.where:
+regional.text:
+trick:          GUARDAR sounds like guard: a guard keeps your things safe and puts them away.
 
 # The draft this file was made from. Do not change it.
-draft: d992784d43045aae
+draft: 0c5d9e767a7e43a6

@@ -3,7 +3,7 @@
   "rank": 571,
   "kind": "content",
   "pos": "noun",
-  "es": "el frente",
+  "target": "el frente",
   "en": "front",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ella siempre se sienta al frente.",
+    "target": "Ella siempre se sienta al frente.",
     "en": "She always sits in the front."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FRENTE sounds like FRONT with an extra -e: el frente is simply the front.",
   "image": "/deck/img/frente-front.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 15,
   "kind": "form",
   "pos": "verb",
-  "es": "voy",
+  "target": "voy",
   "en": "I go",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Voy a la ciudad.",
+    "target": "Voy a la ciudad.",
     "en": "I'm going to the city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Voy sounds like 'boy': the boy says 'I go!' as he runs out the door.",
   "image": "/deck/img/ir-go.webp",
   "audio": {

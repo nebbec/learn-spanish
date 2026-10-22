@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (left out 'also means to throw away', which is the tirar-throw-away card).
 decision: approve
 
-id:         tirar-throw
-kind:       content
-pos:        verb
-es:         tirar
-en:         to throw
-hint:       a ball, a stone; the everyday word, not lanzar
-yo:         tiro
-tu:         tiras
-el:         tira
-irregular:  no
-example.es: Tírame la pelota.
-example.en: Throw me the ball.
-spain:
-trick:      TIRAR sounds like a T. rex roaring as it throws a rock at you.
+id:             tirar-throw
+kind:           content
+pos:            verb
+target:         tirar
+en:             to throw
+hint:           a ball, a stone; the everyday word, not lanzar
+yo:             tiro
+tu:             tiras
+el:             tira
+irregular:      no
+example.target: Tírame la pelota.
+example.en:     Throw me the ball.
+regional.where:
+regional.text:
+trick:          TIRAR sounds like a T. rex roaring as it throws a rock at you.
 
 # The draft this file was made from. Do not change it.
-draft: fb20688f7853d6c5
+draft: bc274973a090bf40

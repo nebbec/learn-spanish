@@ -3,7 +3,7 @@
   "rank": 390,
   "kind": "content",
   "pos": "noun",
-  "es": "el diablo",
+  "target": "el diablo",
   "en": "devil",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ese niño es un diablo.",
+    "target": "Ese niño es un diablo.",
     "en": "That kid is a little devil."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DIABLO sounds like diabolical: the devil is the most diabolical one of all.",
   "image": "/deck/img/diablo-devil.webp",
   "audio": {

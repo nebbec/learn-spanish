@@ -9,23 +9,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fixes to en and trick; added 'with that' so the English reads naturally.
 decision: approve
 
-id:         ninguno-no-any
-kind:       glue
-pos:        determiner
-es:         ninguno
-en:         I don't have [any] problem with that
-hint:       negative word before a noun; shortens to ningún before masculine nouns
-example.es: No hay ningún problema.
-example.en: There's no problem at all.
-spain:
-trick:      NINGUNO starts like "nine" and ends with "no": nine? No, not even one.
+id:             ninguno-no-any
+kind:           glue
+pos:            determiner
+target:         ninguno
+en:             I don't have [any] problem with that
+hint:           negative word before a noun; shortens to ningún before masculine nouns
+example.target: No hay ningún problema.
+example.en:     There's no problem at all.
+regional.where:
+regional.text:
+trick:          NINGUNO starts like "nine" and ends with "no": nine? No, not even one.
 
 # The draft this file was made from. Do not change it.
-draft: 0e97cf3c33f81e40
+draft: b6675e5563f928cf

@@ -4,6 +4,9 @@
 // <tip id>.<n> (L8), and the tip's examples are pointed at them.
 //
 //   npm run audio                       every card in public/deck/deck.json
+//   npm run audio -- --lang de          the German deck: public/deck-de/deck.json, its clips in
+//                                       public/deck-de/audio, takes in content/de/audio-takes.json,
+//                                       its voice from lang/de.ts (DE5)
 //   npm run audio -- --deck FILE        another deck file
 //   npm run audio -- --limit N          only the first N cards by rank, and no tips (a trial run)
 //   npm run audio -- --check            also transcribe each clip back, flag mismatches and write
@@ -28,7 +31,6 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   ENCODING,
-  VOICE,
   audioPaths,
   clipTexts,
   clipsToHear,
@@ -39,22 +41,29 @@ import {
   pcmToFloat,
   rawKey,
   tipAudioPaths,
+  voiceOf,
 } from "./audio.mjs";
+import { contentPaths, parseLang } from "./script-lang.ts";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
-const PUBLIC = path.join(ROOT, "public");
-const CACHE = path.join(ROOT, "content", ".cache", "audio");
-const TAKES = path.join(ROOT, "content", "audio-takes.json");
+const args = process.argv.slice(2);
+const option = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
+const lang = parseLang(option("--lang"));
+const paths = contentPaths(ROOT, lang);
+const VOICE = voiceOf(lang);
+
+const PUBLIC = paths.public;
+// The raw answers are named by a hash of text and voice, so both languages share the cache.
+const CACHE = path.join(paths.cache, "audio");
+const TAKES = paths.audioTakes;
 // The fixture (tests) keeps its clips too, though the app no longer serves it.
-const DECKS = [path.join(PUBLIC, "deck", "deck.json"), path.join(ROOT, "content", "deck.json"), path.join(ROOT, "lib", "deck", "fixture.json")];
-const PAGE = path.join(ROOT, "content", "flagged-clips.html");
+const DECKS = [path.join(paths.publicDeck, "deck.json"), paths.deck, paths.fixture];
+const PAGE = paths.flaggedClips;
 const PAGE_TEMPLATE = path.join(ROOT, "scripts", "content", "flagged-clips.html");
 const CLIPS = ["word", "sentence"];
 const PARALLEL = 4;
 
-const args = process.argv.slice(2);
-const option = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
-const deckFile = path.resolve(ROOT, option("--deck") ?? "public/deck/deck.json");
+const deckFile = path.resolve(ROOT, option("--deck") ?? path.join(paths.publicDeck, "deck.json"));
 const limit = Number(option("--limit") ?? Infinity);
 const check = args.includes("--check");
 const prune = args.includes("--prune");
@@ -79,7 +88,7 @@ async function api(url, init) {
  * for again, up to three times, and never cached.
  */
 async function speak(job) {
-  const file = path.join(CACHE, "raw", `${rawKey(job.text, takes[job.name] ?? 1)}.pcm`);
+  const file = path.join(CACHE, "raw", `${rawKey(job.text, takes[job.name] ?? 1, lang)}.pcm`);
   if (existsSync(file)) return { pcm: readFileSync(file), calls: 0 };
   for (let calls = 1; calls <= 3; calls++) {
     const res = await api("https://api.openai.com/v1/audio/speech", {
@@ -100,7 +109,7 @@ async function transcribe(mp3) {
   const form = new FormData();
   form.append("file", new Blob([mp3], { type: "audio/mpeg" }), "clip.mp3");
   form.append("model", "gpt-4o-transcribe");
-  form.append("language", "es");
+  form.append("language", lang);
   const res = await api("https://api.openai.com/v1/audio/transcriptions", { method: "POST", body: form });
   return (await res.json()).text;
 }
@@ -145,7 +154,7 @@ const tips = Number.isFinite(limit) ? [] : deckTips;
 // `owner` the card or tip id the listening page shows.
 const jobs = [
   ...cards.flatMap((card) => {
-    const paths = audioPaths(card, takes);
+    const paths = audioPaths(card, takes, lang);
     const texts = clipTexts(card);
     return CLIPS.map((clip) => ({
       name: `${card.id}.${clip}`,
@@ -158,12 +167,12 @@ const jobs = [
     }));
   }),
   ...tips.flatMap((tip) =>
-    tipAudioPaths(tip, takes).examples.map((example, i) => ({
+    tipAudioPaths(tip, takes, lang).examples.map((example, i) => ({
       name: `${tip.id}.${i + 1}`,
       owner: tip.id,
       clip: "example",
       phrase: false,
-      text: example.es,
+      text: example.target,
       url: example.audio,
       file: path.join(PUBLIC, example.audio),
     })),
@@ -202,7 +211,7 @@ const repoint = (from, to) => {
   repointed++;
 };
 for (const card of cards) {
-  const paths = audioPaths(card, takes);
+  const paths = audioPaths(card, takes, lang);
   if (!CLIPS.every((clip) => existsSync(path.join(PUBLIC, paths[clip])))) continue;
   for (const clip of CLIPS) {
     repoint(card.audio[clip], paths[clip]);
@@ -210,7 +219,7 @@ for (const card of cards) {
   }
 }
 for (const tip of tips) {
-  const examples = tipAudioPaths(tip, takes).examples;
+  const examples = tipAudioPaths(tip, takes, lang).examples;
   if (!examples.every((example) => existsSync(path.join(PUBLIC, example.audio)))) continue;
   examples.forEach((example, i) => {
     repoint(tip.examples[i].audio, example.audio);
@@ -275,14 +284,15 @@ if (check) {
     text: j.text,
     seconds: seconds(j.file),
   }));
-  const toHear = clipsToHear(clips, heard, takes).map(({ url, ...clip }) => ({ ...clip, src: `../public${url}` }));
-  const data = { deck: path.relative(ROOT, deckFile), clips: toHear };
+  const fromPage = path.relative(path.dirname(PAGE), PUBLIC).split(path.sep).join("/");
+  const toHear = clipsToHear(clips, heard, takes).map(({ url, ...clip }) => ({ ...clip, src: `${fromPage}${url}` }));
+  const data = { deck: path.relative(ROOT, deckFile), lang, clips: toHear };
   const page = readFileSync(PAGE_TEMPLATE, "utf8").replace("/*DATA*/null", () => JSON.stringify(data).replace(/</g, "\\u003c"));
   writeFileSync(PAGE, page);
   const long = toHear.filter((c) => c.long && !c.flagged);
   const redone = toHear.filter((c) => c.take > 1).length;
   console.log(
-    `page: content/flagged-clips.html, ${toHear.length} clips to hear ` +
+    `page: ${path.relative(ROOT, PAGE)}, ${toHear.length} clips to hear ` +
       `(${long.length} more for a long word clip${long.length ? `: ${long.map((c) => c.name).join(" ")}` : ""}; ${redone} redone takes)`,
   );
 }
@@ -290,8 +300,8 @@ if (check) {
 // Clips neither deck names: a redone take's old clip, a corrected card's old clips,
 // or the fixture's tones. Both decks keep their clips in public/deck/audio.
 const decks = [deck, ...DECKS.filter((file) => file !== deckFile && existsSync(file)).map((file) => JSON.parse(readFileSync(file, "utf8")))];
-const audioDir = path.join(PUBLIC, "deck", "audio");
-const orphans = existsSync(audioDir) ? orphanClips(readdirSync(audioDir), decks) : [];
+const audioDir = path.join(paths.publicDeck, "audio");
+const orphans = existsSync(audioDir) ? orphanClips(readdirSync(audioDir), decks, lang) : [];
 if (prune) for (const name of orphans) rmSync(path.join(audioDir, name));
 if (orphans.length) console.log(`${orphans.length} clips no deck names ${prune ? "deleted" : "left (--prune deletes them)"}`);
 

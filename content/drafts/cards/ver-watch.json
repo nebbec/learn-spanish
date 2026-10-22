@@ -3,7 +3,7 @@
   "rank": 35,
   "kind": "content",
   "pos": "verb",
-  "es": "ver",
+  "target": "ver",
   "en": "to watch",
   "hint": "TV, a movie",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Vemos una película esta noche?",
+    "target": "¿Vemos una película esta noche?",
     "en": "Should we watch a movie tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VER sounds like \"vary\": you watch TV and vary the channel all night.",
   "image": "/deck/img/ver-watch.webp",
   "audio": {

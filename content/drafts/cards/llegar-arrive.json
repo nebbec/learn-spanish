@@ -3,7 +3,7 @@
   "rank": 123,
   "kind": "content",
   "pos": "verb",
-  "es": "llegar",
+  "target": "llegar",
   "en": "to arrive",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi mamá llega mañana en la tarde.",
+    "target": "Mi mamá llega mañana en la tarde.",
     "en": "My mom arrives tomorrow afternoon."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLEGAR sounds like \"yay, car!\": the kids cheer when the car finally arrives.",
   "image": "/deck/img/llegar-arrive.webp",
   "audio": {

@@ -1,5 +1,7 @@
-// The menu's one Spanish line under the mascot. See docs/design.md, "Menu", "Decided in U1" and "Decided in U3".
+// The menu's one line under the mascot, in the language being learned (its text is the build's
+// `greetings` in lang/). See docs/design.md, "Menu", "Decided in U1" and "Decided in U3".
 
+import { LANG } from "@/lang";
 import type { Card, DeckUnit } from "@/lib/deck";
 import { currentUnit, isUnitComplete, type CardStates } from "@/lib/queues";
 import { isDue, isSeen } from "@/lib/scheduler";
@@ -7,11 +9,7 @@ import { isDue, isSeen } from "@/lib/scheduler";
 /** Which line the menu shows. The key names the line's clip too (U4). */
 export type Greeting = "hola" | "vamos" | "muy-bien";
 
-export const GREETING_TEXT: Record<Greeting, string> = {
-  hola: "¡Hola!",
-  vamos: "¡Vamos!",
-  "muy-bien": "¡Muy bien!",
-};
+export const GREETING_TEXT: Readonly<Record<Greeting, string>> = LANG.greetings;
 
 /**
  * ¡Hola! with nothing seen yet; ¡Muy bien! when nothing is due and the unit the

@@ -3,7 +3,7 @@
   "rank": 376,
   "kind": "content",
   "pos": "noun",
-  "es": "el muchacho",
+  "target": "el muchacho",
   "en": "boy, young man",
   "hint": "not chico or niño",
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "el"
   },
   "example": {
-    "es": "Ese muchacho trabaja con mi papá.",
+    "target": "Ese muchacho trabaja con mi papá.",
     "en": "That young man works with my dad."
   },
-  "spain": "chico",
+  "regional": {
+    "where": "Spain",
+    "text": "chico"
+  },
   "trick": "MUCHACHO sounds like much nacho: the hungry young man always wants much nacho.",
   "image": "/deck/img/muchacho-boy.webp",
   "audio": {

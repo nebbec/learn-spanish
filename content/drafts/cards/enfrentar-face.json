@@ -3,7 +3,7 @@
   "rank": 747,
   "kind": "content",
   "pos": "verb",
-  "es": "enfrentar",
+  "target": "enfrentar",
   "en": "to face",
   "hint": "to confront a problem or enemy",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Tienes que enfrentar tus miedos.",
+    "target": "Tienes que enfrentar tus miedos.",
     "en": "You have to face your fears."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENFRENTAR sounds like in front: to face something, you stand right in front of it.",
   "image": "/deck/img/enfrentar-face.webp",
   "audio": {

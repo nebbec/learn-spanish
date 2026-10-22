@@ -3,7 +3,7 @@
   "rank": 73,
   "kind": "content",
   "pos": "verb",
-  "es": "esperar",
+  "target": "esperar",
   "en": "to wait",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Espérame aquí, ya vuelvo.",
+    "target": "Espérame aquí, ya vuelvo.",
     "en": "Wait for me here, I'll be right back."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESPERAR sounds like 'is pear ready?': you wait and wait until the pear is ripe.",
   "image": "/deck/img/esperar-wait.webp",
   "audio": {

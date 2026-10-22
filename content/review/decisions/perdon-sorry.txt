@@ -9,22 +9,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         perdon-sorry
-kind:       content
-pos:        other
-es:         perdón
-en:         sorry
-hint:       one-word apology, not a verb form like perdona or disculpa, and not lo siento
-example.es: ¡Perdón! No te vi.
-example.en: Sorry! I didn't see you.
-spain:
-trick:      PERDÓN sounds like pardon: you say pardon when you bump into someone.
+id:             perdon-sorry
+kind:           content
+pos:            other
+target:         perdón
+en:             sorry
+hint:           one-word apology, not a verb form like perdona or disculpa, and not lo siento
+example.target: ¡Perdón! No te vi.
+example.en:     Sorry! I didn't see you.
+regional.where:
+regional.text:
+trick:          PERDÓN sounds like pardon: you say pardon when you bump into someone.
 
 # The draft this file was made from. Do not change it.
-draft: 76437298351f0b6d
+draft: 1a2bfc1e1030d83d

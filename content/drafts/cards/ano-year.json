@@ -3,7 +3,7 @@
   "rank": 103,
   "kind": "content",
   "pos": "noun",
-  "es": "el año",
+  "target": "el año",
   "en": "year",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tengo veinte años.",
+    "target": "Tengo veinte años.",
     "en": "I'm twenty years old."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AÑO sounds like \"on yo\": every year, a new candle goes on your cake.",
   "image": "/deck/img/ano-year.webp",
   "audio": {

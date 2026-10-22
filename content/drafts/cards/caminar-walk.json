@@ -3,7 +3,7 @@
   "rank": 556,
   "kind": "content",
   "pos": "verb",
-  "es": "caminar",
+  "target": "caminar",
   "en": "to walk",
   "hint": "related to camino, path",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Camino al trabajo todos los días.",
+    "target": "Camino al trabajo todos los días.",
     "en": "I walk to work every day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMINAR sounds like came in a car, but she didn't: she walked all the way.",
   "image": "/deck/img/caminar-walk.webp",
   "audio": {

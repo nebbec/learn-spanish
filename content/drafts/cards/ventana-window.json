@@ -3,7 +3,7 @@
   "rank": 784,
   "kind": "content",
   "pos": "noun",
-  "es": "la ventana",
+  "target": "la ventana",
   "en": "window",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Puedes abrir la ventana, por favor?",
+    "target": "¿Puedes abrir la ventana, por favor?",
     "en": "Can you open the window, please?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VENTANA sounds like \"vent\": a window is how you vent fresh air into the room.",
   "image": "/deck/img/ventana-window.webp",
   "audio": {

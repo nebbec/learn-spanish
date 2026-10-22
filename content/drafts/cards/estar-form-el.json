@@ -3,7 +3,7 @@
   "rank": 8,
   "kind": "form",
   "pos": "verb",
-  "es": "está",
+  "target": "está",
   "en": "he / she is",
   "hint": "state, place",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Hola, Ana. ¿Cómo está él?",
+    "target": "Hola, Ana. ¿Cómo está él?",
     "en": "Hi, Ana. How is he?"
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": "/deck/img/estar-be-state.webp",
   "audio": {

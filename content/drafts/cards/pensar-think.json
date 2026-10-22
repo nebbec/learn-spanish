@@ -3,7 +3,7 @@
   "rank": 74,
   "kind": "content",
   "pos": "verb",
-  "es": "pensar",
+  "target": "pensar",
   "en": "to think",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Qué piensas de mi casa?",
+    "target": "¿Qué piensas de mi casa?",
     "en": "What do you think of my house?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PENSAR sounds like pencil: you chew your pencil while you think hard.",
   "image": "/deck/img/pensar-think.webp",
   "audio": {

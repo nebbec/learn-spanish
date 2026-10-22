@@ -3,7 +3,7 @@
   "rank": 282,
   "kind": "content",
   "pos": "noun",
-  "es": "el medio",
+  "target": "el medio",
   "en": "middle",
   "hint": "in the middle of something",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El perro está en medio de la calle.",
+    "target": "El perro está en medio de la calle.",
     "en": "The dog is in the middle of the street."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MEDIO sounds like median: the median strip runs down the middle of the road.",
   "image": "/deck/img/medio-middle.webp",
   "audio": {

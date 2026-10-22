@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         recuerdo-souvenir
-kind:       content
-pos:        noun
-es:         el recuerdo
-en:         souvenir
-hint:       the native Spanish word, not the borrowed souvenir
-gender:     m
-article:    el
-example.es: Te traje un recuerdo de México.
-example.en: I brought you a souvenir from Mexico.
-spain:
-trick:      RECUERDO sounds like "record": a souvenir is a small object that records your trip.
+id:             recuerdo-souvenir
+kind:           content
+pos:            noun
+target:         el recuerdo
+en:             souvenir
+hint:           the native Spanish word, not the borrowed souvenir
+gender:         m
+article:        el
+example.target: Te traje un recuerdo de México.
+example.en:     I brought you a souvenir from Mexico.
+regional.where:
+regional.text:
+trick:          RECUERDO sounds like "record": a souvenir is a small object that records your trip.
 
 # The draft this file was made from. Do not change it.
-draft: 5c21c59adbb34e53
+draft: 2f1b47c37857ba49

@@ -3,7 +3,7 @@
   "rank": 733,
   "kind": "content",
   "pos": "verb",
-  "es": "resultar",
+  "target": "resultar",
   "en": "to turn out",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Resulta que él tenía razón.",
+    "target": "Resulta que él tenía razón.",
     "en": "It turns out he was right."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RESULTAR sounds like \"result\": how something turns out is its result.",
   "image": "/deck/img/resultar-turn-out.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 742,
   "kind": "content",
   "pos": "verb",
-  "es": "engañar",
+  "target": "engañar",
   "en": "to deceive",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No me engañes, sé la verdad.",
+    "target": "No me engañes, sé la verdad.",
     "en": "Don't deceive me, I know the truth."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENGAÑAR sounds like 'enGAIN-ar': a con man deceives you to gain your money.",
   "image": "/deck/img/enganar-deceive.webp",
   "audio": {

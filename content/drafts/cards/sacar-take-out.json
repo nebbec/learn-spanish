@@ -3,7 +3,7 @@
   "rank": 235,
   "kind": "content",
   "pos": "verb",
-  "es": "sacar",
+  "target": "sacar",
   "en": "to take out",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Saca la basura, por favor.",
+    "target": "Saca la basura, por favor.",
     "en": "Take out the trash, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SACAR sounds like sack-car: you take the sack out of the car.",
   "image": "/deck/img/sacar-take-out.webp",
   "audio": {

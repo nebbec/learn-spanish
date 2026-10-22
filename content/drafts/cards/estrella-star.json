@@ -3,7 +3,7 @@
   "rank": 654,
   "kind": "content",
   "pos": "noun",
-  "es": "la estrella",
+  "target": "la estrella",
   "en": "star",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mira, hay muchas estrellas esta noche.",
+    "target": "Mira, hay muchas estrellas esta noche.",
     "en": "Look, there are lots of stars tonight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESTRELLA sounds like \"a stellar\": a stellar night is full of stars.",
   "image": "/deck/img/estrella-star.webp",
   "audio": {

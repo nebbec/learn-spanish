@@ -3,7 +3,7 @@
   "rank": 437,
   "kind": "content",
   "pos": "noun",
-  "es": "el par",
+  "target": "el par",
   "en": "pair",
   "hint": "of things, as in a couple of minutes",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Dame un par de minutos.",
+    "target": "Dame un par de minutos.",
     "en": "Give me a couple of minutes."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PAR sounds just like pair: a par of shoes is a pair of shoes.",
   "image": "/deck/img/par-pair.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 473,
   "kind": "content",
   "pos": "verb",
-  "es": "alegrar",
+  "target": "alegrar",
   "en": "to make happy",
   "hint": "with me: me alegro = I'm glad",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me alegro mucho de verte.",
+    "target": "Me alegro mucho de verte.",
     "en": "I'm really glad to see you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALEGRAR sounds like a happy 'allegro' tune, and an allegro tune makes everyone happy.",
   "image": "/deck/img/alegrar-make-happy.webp",
   "audio": {

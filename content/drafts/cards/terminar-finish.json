@@ -3,7 +3,7 @@
   "rank": 200,
   "kind": "content",
   "pos": "verb",
-  "es": "terminar",
+  "target": "terminar",
   "en": "to finish",
   "hint": "related to terminate, not acabar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Ya terminaste la tarea?",
+    "target": "¿Ya terminaste la tarea?",
     "en": "Did you already finish your homework?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TERMINAR sounds like terminator: the Terminator always finishes the job.",
   "image": "/deck/img/terminar-finish.webp",
   "audio": {

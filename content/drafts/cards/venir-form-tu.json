@@ -3,7 +3,7 @@
   "rank": 68,
   "kind": "form",
   "pos": "verb",
-  "es": "vienes",
+  "target": "vienes",
   "en": "you come",
   "hint": "informal",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Vienes a mi casa mañana?",
+    "target": "¿Vienes a mi casa mañana?",
     "en": "Are you coming to my house tomorrow?"
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": "/deck/img/venir-come.webp",
   "audio": {

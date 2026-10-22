@@ -3,7 +3,7 @@
   "rank": 286,
   "kind": "content",
   "pos": "verb",
-  "es": "abrir",
+  "target": "abrir",
   "en": "to open",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Me abres la puerta, por favor?",
+    "target": "¿Me abres la puerta, por favor?",
     "en": "Can you open the door for me, please?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ABRIR sounds like abracadabra: say the magic word and every door opens.",
   "image": "/deck/img/abrir-open.webp",
   "audio": {

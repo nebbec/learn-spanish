@@ -3,7 +3,7 @@
   "rank": 569,
   "kind": "content",
   "pos": "noun",
-  "es": "el sistema",
+  "target": "el sistema",
   "en": "system",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El sistema no funciona otra vez.",
+    "target": "El sistema no funciona otra vez.",
     "en": "The system isn't working again."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SISTEMA sounds like system-a: it ends in -a but is masculine, like el problema.",
   "image": "/deck/img/sistema-system.webp",
   "audio": {

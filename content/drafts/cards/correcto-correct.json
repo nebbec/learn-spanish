@@ -3,17 +3,17 @@
   "rank": 410,
   "kind": "content",
   "pos": "adjective",
-  "es": "correcto",
+  "target": "correcto",
   "en": "correct",
   "hint": null,
   "grammar": {
     "feminine": "correcta"
   },
   "example": {
-    "es": "Tu respuesta es correcta.",
+    "target": "Tu respuesta es correcta.",
     "en": "Your answer is correct."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CORRECTO sounds like \"correct-oh\": you say \"oh!\" when the answer is correct.",
   "image": "/deck/img/correcto-correct.webp",
   "audio": {

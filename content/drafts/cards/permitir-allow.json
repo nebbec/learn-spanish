@@ -3,7 +3,7 @@
   "rank": 355,
   "kind": "content",
   "pos": "verb",
-  "es": "permitir",
+  "target": "permitir",
   "en": "to allow",
   "hint": "looks like permit, not dejar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi mamá no me permite salir tarde.",
+    "target": "Mi mamá no me permite salir tarde.",
     "en": "My mom doesn't allow me to go out late."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PERMITIR sounds like permit-ear: you permit someone to whisper in your ear.",
   "image": "/deck/img/permitir-allow.webp",
   "audio": {

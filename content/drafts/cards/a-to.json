@@ -3,15 +3,15 @@
   "rank": 7,
   "kind": "glue",
   "pos": "preposition",
-  "es": "a",
+  "target": "a",
   "en": "I go [to] Mexico",
   "hint": "direction, movement",
   "grammar": null,
   "example": {
-    "es": "Necesito un taxi a la ciudad.",
+    "target": "Necesito un taxi a la ciudad.",
     "en": "I need a taxi to the city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "A sounds like 'ah!': you shout 'ah!' as you finally arrive at where you were going.",
   "image": null,
   "audio": {

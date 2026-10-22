@@ -3,7 +3,7 @@
   "rank": 210,
   "kind": "content",
   "pos": "verb",
-  "es": "ganar",
+  "target": "ganar",
   "en": "to win",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi equipo ganó el partido anoche.",
+    "target": "Mi equipo ganó el partido anoche.",
     "en": "My team won the game last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GANAR sounds like gonna: you're gonna win, so raise the trophy!",
   "image": "/deck/img/ganar-win.webp",
   "audio": {

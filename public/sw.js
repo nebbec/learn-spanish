@@ -2,30 +2,69 @@
 // opens with no connection after one online visit. Hand-written, no library
 // (see docs/design.md, "Installable app"). lib/pwa/sw.test.ts runs this file.
 //
-// The page registers it as /sw.js?v=<build id>. A new build registers a new
-// URL, which installs a fresh worker with its own cache and removes the old one.
+// The page registers it as /sw.js?v=<build id>&lang=<es|de>. A new build
+// registers a new URL, which installs a fresh worker with its own cache and
+// removes the old one.
+//
+// This file is served as it is, so it cannot import the language config
+// (lang/). LANGS repeats what the worker needs of it, and lib/pwa/sw.test.ts
+// checks that it agrees with lang/es.ts and lang/de.ts.
+const LANGS = {
+  es: {
+    storage: "learn-spanish",
+    deck: "/deck/",
+    mascot: [
+      "/mascot/idle.webm",
+      "/mascot/idle.mov",
+      "/mascot/idle.webp",
+      "/mascot/celebrate.webm",
+      "/mascot/celebrate.mov",
+      "/mascot/celebrate.webp",
+      "/mascot/concha.webp",
+    ],
+    icons: ["/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"],
+  },
+  de: {
+    storage: "learn-german",
+    deck: "/deck-de/",
+    // Placeholders until DE14 makes the German lead's under /mascot-de/.
+    mascot: [
+      "/mascot/idle.webm",
+      "/mascot/idle.mov",
+      "/mascot/idle.webp",
+      "/mascot/celebrate.webm",
+      "/mascot/celebrate.mov",
+      "/mascot/celebrate.webp",
+      "/mascot/concha.webp",
+    ],
+    icons: ["/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"],
+  },
+};
 
-const VERSION = new URL(self.location.href).searchParams.get("v") || "dev";
-const SHELL_PREFIX = "learn-spanish-shell-";
+const PARAMS = new URL(self.location.href).searchParams;
+const VERSION = PARAMS.get("v") || "dev";
+// No language named, or one this file does not know, means Spanish, as in the app.
+const LANG_CODE = PARAMS.get("lang");
+const LANG = Object.prototype.hasOwnProperty.call(LANGS, LANG_CODE) ? LANGS[LANG_CODE] : LANGS.es;
+const SHELL_PREFIX = LANG.storage + "-shell-";
 const SHELL = SHELL_PREFIX + VERSION;
 
 // Every route is a static page, so its HTML can be stored as it is.
 const PAGES = ["/", "/learn", "/practice", "/settings", "/tips"];
-const FILES = ["/deck/deck.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"];
+const FILES = [LANG.deck + "deck.json", "/manifest.webmanifest", ...LANG.icons];
 
 // The hero mascot (F3, transparent since U2): its two loops in both formats
 // (WebM and HEVC, the page plays whichever this browser shows transparent),
 // their posters and the still. Stored with the pages, so the menu and the batch
 // end play them offline. Safari asks for video in byte ranges, so they are
 // answered like art and audio.
-const MASCOT_PATH = "/mascot/";
-const MASCOT = ["idle.webm", "idle.mov", "idle.webp", "celebrate.webm", "celebrate.mov", "celebrate.webp", "concha.webp"].map(
-  (file) => MASCOT_PATH + file,
-);
+const MASCOT = LANG.mascot;
+const MASCOT_DIRS = [...new Set(MASCOT.map((file) => file.slice(0, file.lastIndexOf("/") + 1)))];
 
 // Art and audio are not stored here. The page fills a cache of its own
-// (lib/media), which this worker reads but never writes or deletes.
-const MEDIA_PATHS = ["/deck/img/", "/deck/audio/"];
+// (lib/media), which this worker reads but never writes or deletes. Every
+// language's deck is read: a German card may use a Spanish still by its path.
+const MEDIA_PATHS = Object.values(LANGS).flatMap((lang) => [lang.deck + "img/", lang.deck + "audio/"]);
 const STATIC_PATH = "/_next/static/";
 
 // How long a request may wait for the network before the stored copy is used.
@@ -177,7 +216,7 @@ self.addEventListener("fetch", (event) => {
     // Next's in-app navigation data. Left to the network: when it fails, Next
     // loads the page in full instead, and that request is served above.
     return;
-  } else if (url.pathname.startsWith(MASCOT_PATH) || MEDIA_PATHS.some((path) => url.pathname.startsWith(path))) {
+  } else if ([...MASCOT_DIRS, ...MEDIA_PATHS].some((path) => url.pathname.startsWith(path))) {
     event.respondWith(storedOrNetwork(request, key));
   } else {
     event.respondWith(networkFirst(event, key));

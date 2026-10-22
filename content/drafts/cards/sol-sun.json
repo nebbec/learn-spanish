@@ -3,7 +3,7 @@
   "rank": 698,
   "kind": "content",
   "pos": "noun",
-  "es": "el sol",
+  "target": "el sol",
   "en": "sun",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Hoy hace mucho sol en la playa.",
+    "target": "Hoy hace mucho sol en la playa.",
     "en": "It's really sunny at the beach today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SOL sounds like soul: the sun is the bright soul of the sky.",
   "image": "/deck/img/sol-sun.webp",
   "audio": {

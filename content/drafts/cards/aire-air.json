@@ -3,7 +3,7 @@
   "rank": 605,
   "kind": "content",
   "pos": "noun",
-  "es": "el aire",
+  "target": "el aire",
   "en": "air",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Necesito salir a tomar aire.",
+    "target": "Necesito salir a tomar aire.",
     "en": "I need to go out and get some air."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AIRE sounds like \"air-ay\": you shout \"ay!\" as fresh air hits your face.",
   "image": "/deck/img/aire-air.webp",
   "audio": {

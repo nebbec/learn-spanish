@@ -3,7 +3,7 @@
   "rank": 510,
   "kind": "content",
   "pos": "noun",
-  "es": "el mensaje",
+  "target": "el mensaje",
   "en": "message",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te mandé un mensaje anoche.",
+    "target": "Te mandé un mensaje anoche.",
     "en": "I sent you a message last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MENSAJE sounds like \"message\" said with a fancy accent: men-SAH-heh, the message has arrived.",
   "image": "/deck/img/mensaje-message.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 501,
   "kind": "content",
   "pos": "noun",
-  "es": "la carta",
+  "target": "la carta",
   "en": "card",
   "hint": "playing card",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Quieres jugar a las cartas?",
+    "target": "¿Quieres jugar a las cartas?",
     "en": "Do you want to play cards?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARTA sounds like \"card\" plus \"a\": deal me a card, a CARTA.",
   "image": "/deck/img/carta-playing-card.webp",
   "audio": {

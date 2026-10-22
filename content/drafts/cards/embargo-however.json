@@ -3,15 +3,15 @@
   "rank": 765,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "sin embargo",
+  "target": "sin embargo",
   "en": "It's late. [However], I'm staying.",
   "hint": "two words, not pero",
   "grammar": null,
   "example": {
-    "es": "Es caro. Sin embargo, lo voy a comprar.",
+    "target": "Es caro. Sin embargo, lo voy a comprar.",
     "en": "It's expensive. However, I'm going to buy it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIN EMBARGO sounds like \"seen an embargo\": I've seen an embargo; however, the ships still sail.",
   "image": null,
   "audio": {

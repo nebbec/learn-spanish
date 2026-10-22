@@ -3,7 +3,7 @@
   "rank": 442,
   "kind": "content",
   "pos": "verb",
-  "es": "mentir",
+  "target": "mentir",
   "en": "to lie",
   "hint": "tell an untruth",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Por qué me mentiste?",
+    "target": "¿Por qué me mentiste?",
     "en": "Why did you lie to me?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "MENTIR sounds like \"meant to\": he said he meant to pay you back, but he was lying.",
   "image": "/deck/img/mentir-lie.webp",
   "audio": {

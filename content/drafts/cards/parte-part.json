@@ -3,7 +3,7 @@
   "rank": 182,
   "kind": "content",
   "pos": "noun",
-  "es": "la parte",
+  "target": "la parte",
   "en": "part",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Esta es la mejor parte de la película.",
+    "target": "Esta es la mejor parte de la película.",
     "en": "This is the best part of the movie."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARTE sounds like PARTY: everyone at the party gets a part of the cake.",
   "image": "/deck/img/parte-part.webp",
   "audio": {

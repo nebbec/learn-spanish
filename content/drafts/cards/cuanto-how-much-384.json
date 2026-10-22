@@ -3,15 +3,15 @@
   "rank": 384,
   "kind": "glue",
   "pos": "determiner",
-  "es": "cuánto",
+  "target": "cuánto",
   "en": "[how much] does it cost?",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Cuánto cuesta este libro?",
+    "target": "¿Cuánto cuesta este libro?",
     "en": "How much does this book cost?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUÁNTO sounds like quantity: asking how much is asking the quantity.",
   "image": null,
   "audio": {

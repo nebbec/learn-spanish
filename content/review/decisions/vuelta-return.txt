@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (dropped 'lap or spin', which is the vuelta-turn card).
 decision: approve
 
-id:         vuelta-return
-kind:       content
-pos:        noun
-es:         la vuelta
-en:         return
-hint:       the trip back, as in ida y ... (round trip); de ... = back
-gender:     f
-article:    la
-example.es: ¡Qué bueno que estás de vuelta!
-example.en: It's so good that you're back!
-spain:
-trick:      VUELTA sounds like volver's daughter: whoever goes out comes back on the return trip.
+id:             vuelta-return
+kind:           content
+pos:            noun
+target:         la vuelta
+en:             return
+hint:           the trip back, as in ida y ... (round trip); de ... = back
+gender:         f
+article:        la
+example.target: ¡Qué bueno que estás de vuelta!
+example.en:     It's so good that you're back!
+regional.where:
+regional.text:
+trick:          VUELTA sounds like volver's daughter: whoever goes out comes back on the return trip.
 
 # The draft this file was made from. Do not change it.
-draft: b721fb9e9ac2f87a
+draft: 7dd33a8616a68e96

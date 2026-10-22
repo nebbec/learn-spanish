@@ -3,15 +3,15 @@
   "rank": 199,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "conmigo",
+  "target": "conmigo",
   "en": "come [with me]",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Vienes conmigo a comer hoy?",
+    "target": "¿Vienes conmigo a comer hoy?",
     "en": "Are you coming to eat with me today?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONMIGO sounds like \"come amigo\": come, friend, stay with me.",
   "image": null,
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 16,
   "kind": "glue",
   "pos": "adverb",
-  "es": "qué",
+  "target": "qué",
   "en": "[How] pretty!",
   "hint": "exclamation",
   "grammar": null,
   "example": {
-    "es": "¡Qué bonita es tu casa!",
+    "target": "¡Qué bonita es tu casa!",
     "en": "How pretty your house is!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUÉ sounds like \"Kay!\": Kay gasps at everything, saying how lovely it all is.",
   "image": null,
   "audio": {

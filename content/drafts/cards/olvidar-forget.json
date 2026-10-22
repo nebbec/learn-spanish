@@ -3,7 +3,7 @@
   "rank": 220,
   "kind": "content",
   "pos": "verb",
-  "es": "olvidar",
+  "target": "olvidar",
   "en": "to forget",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Siempre olvido mis llaves en casa.",
+    "target": "Siempre olvido mis llaves en casa.",
     "en": "I always forget my keys at home."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OLVIDAR sounds like \"all video\": you watched so many videos that you forgot everything else.",
   "image": "/deck/img/olvidar-forget.webp",
   "audio": {

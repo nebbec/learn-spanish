@@ -3,7 +3,7 @@
   "rank": 352,
   "kind": "content",
   "pos": "noun",
-  "es": "el auto",
+  "target": "el auto",
   "en": "car",
   "hint": "short for automóvil, not carro",
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi papá lavó el auto ayer.",
+    "target": "Mi papá lavó el auto ayer.",
     "en": "My dad washed the car yesterday."
   },
-  "spain": "coche",
+  "regional": {
+    "where": "Spain",
+    "text": "coche"
+  },
   "trick": "AUTO is like automobile: an auto is simply a car.",
   "image": "/deck/img/auto-car.webp",
   "audio": {

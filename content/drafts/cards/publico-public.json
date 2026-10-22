@@ -3,17 +3,17 @@
   "rank": 664,
   "kind": "content",
   "pos": "adjective",
-  "es": "público",
+  "target": "público",
   "en": "public",
   "hint": null,
   "grammar": {
     "feminine": "pública"
   },
   "example": {
-    "es": "Es una escuela pública.",
+    "target": "Es una escuela pública.",
     "en": "It's a public school."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PÚBLICO sounds like \"public\" with an extra \"o\", the same word, just said a bit louder.",
   "image": "/deck/img/publico-public.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 262,
   "kind": "content",
   "pos": "noun",
-  "es": "el cariño",
+  "target": "el cariño",
   "en": "honey",
   "hint": "what you call a loved one, not the food",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Cariño, ya llegué a casa.",
+    "target": "Cariño, ya llegué a casa.",
     "en": "Honey, I'm home."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARIÑO sounds like \"carry no\": honey, I'll carry you, no problem.",
   "image": "/deck/img/carino-honey.webp",
   "audio": {

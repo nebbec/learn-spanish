@@ -3,17 +3,17 @@
   "rank": 682,
   "kind": "content",
   "pos": "adjective",
-  "es": "horrible",
+  "target": "horrible",
   "en": "horrible",
   "hint": null,
   "grammar": {
     "feminine": "horrible"
   },
   "example": {
-    "es": "La comida de ese lugar es horrible.",
+    "target": "La comida de ese lugar es horrible.",
     "en": "The food at that place is horrible."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HORRIBLE is spelled just like English horrible; only say it oh-REE-bleh, with a silent h.",
   "image": "/deck/img/horrible-horrible.webp",
   "audio": {

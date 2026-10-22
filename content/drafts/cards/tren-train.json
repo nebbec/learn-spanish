@@ -3,7 +3,7 @@
   "rank": 751,
   "kind": "content",
   "pos": "noun",
-  "es": "el tren",
+  "target": "el tren",
   "en": "train",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El tren sale a las ocho.",
+    "target": "El tren sale a las ocho.",
     "en": "The train leaves at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TREN sounds like train without the A: the train lost its A somewhere down the tracks.",
   "image": "/deck/img/tren-train.webp",
   "audio": {

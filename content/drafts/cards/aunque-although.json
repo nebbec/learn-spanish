@@ -3,15 +3,15 @@
   "rank": 361,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "aunque",
+  "target": "aunque",
   "en": "I'll go [although] it's raining",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Voy a ir aunque esté cansado.",
+    "target": "Voy a ir aunque esté cansado.",
     "en": "I'm going to go even though I'm tired."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AUNQUE sounds like \"own key\": although you own a key, you still knock on the door.",
   "image": null,
   "audio": {

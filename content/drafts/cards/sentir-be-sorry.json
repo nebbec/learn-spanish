@@ -3,7 +3,7 @@
   "rank": 63,
   "kind": "content",
   "pos": "verb",
-  "es": "sentir",
+  "target": "sentir",
   "en": "to be sorry",
   "hint": "the verb in lo siento",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Lo siento, no puedo ir.",
+    "target": "Lo siento, no puedo ir.",
     "en": "I'm sorry, I can't go."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIENTO sounds like see an ant, oh: you see the ant you stepped on and say sorry.",
   "image": "/deck/img/sentir-be-sorry.webp",
   "audio": {

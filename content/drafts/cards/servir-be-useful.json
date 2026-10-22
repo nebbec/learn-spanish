@@ -3,7 +3,7 @@
   "rank": 438,
   "kind": "content",
   "pos": "verb",
-  "es": "servir",
+  "target": "servir",
   "en": "to be useful",
   "hint": "one verb; to work, be good for something",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Este cargador no sirve para nada.",
+    "target": "Este cargador no sirve para nada.",
     "en": "This charger is completely useless."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SERVIR sounds like serve: a tool that serves its purpose is useful; if it no sirve, toss it.",
   "image": "/deck/img/servir-be-useful.webp",
   "audio": {

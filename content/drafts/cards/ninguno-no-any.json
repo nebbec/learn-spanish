@@ -3,15 +3,15 @@
   "rank": 184,
   "kind": "glue",
   "pos": "determiner",
-  "es": "ninguno",
+  "target": "ninguno",
   "en": "I don't have [any] money problem",
   "hint": "negative word before a noun; shortens to ningún before masculine nouns",
   "grammar": null,
   "example": {
-    "es": "No hay ningún problema.",
+    "target": "No hay ningún problema.",
     "en": "There's no problem at all."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NINGUNO sounds like \"nothing, you know\": not a single one, nothing at all.",
   "image": null,
   "audio": {

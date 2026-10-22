@@ -35,10 +35,10 @@ describe("Reveal, every fixture card", () => {
   it.each(fixtureDeck.cards)("$id shows the Spanish, part of speech, meaning and example", (card) => {
     render(<Reveal card={card} onRate={() => {}} />);
     expect(q("reveal")!.dataset.cardId).toBe(card.id);
-    expect(text("answer")).toBe(card.es);
+    expect(text("answer")).toBe(card.target);
     expect(q("answer")!.lang).toBe("es");
     expect(text("pos")).toBe(card.pos);
-    expect(text("example-es")).toBe(card.example.es);
+    expect(text("example-es")).toBe(card.example.target);
     expect(text("example-en")).toBe(card.example.en);
 
     // The English is shown without the square brackets of a glue prompt.
@@ -51,7 +51,7 @@ describe("Reveal, every fixture card", () => {
     const img = q("character")?.querySelector("img");
     expect(img?.getAttribute("src") ?? null).toBe(card.image);
 
-    expect(text("spain") ?? null).toBe(card.spain ? `Spain: ${card.spain}` : null);
+    expect(text("regional") ?? null).toBe(card.regional ? `Spain: ${card.regional.text}` : null);
 
     const variant = q("grammar")?.dataset.variant ?? null;
     expect(variant).toBe(["noun", "adjective", "verb"].includes(card.pos) ? card.pos : null);
@@ -60,7 +60,7 @@ describe("Reveal, every fixture card", () => {
   });
 
   it("has seen a Spain footnote and all three grammar variants in the fixture", () => {
-    expect(fixtureDeck.cards.some((c) => c.spain)).toBe(true);
+    expect(fixtureDeck.cards.some((c) => c.regional)).toBe(true);
     for (const pos of ["noun", "adjective", "verb"]) {
       expect(fixtureDeck.cards.some((c) => c.pos === pos)).toBe(true);
     }
@@ -100,7 +100,7 @@ describe("Reveal, grammar strip", () => {
     render(<Reveal card={fixtureCard("ir-form-tu")} onRate={() => {}} />);
     expect(text("own-form")).toBe("tú vas");
 
-    const el = { ...fixtureCard("ir-form-yo"), id: "ir-form-el", es: "va" };
+    const el = { ...fixtureCard("ir-form-yo"), id: "ir-form-el", target: "va" };
     render(<Reveal card={el} onRate={() => {}} />);
     expect(text("own-form")).toBe("él va");
   });
@@ -109,7 +109,7 @@ describe("Reveal, grammar strip", () => {
     render(<Reveal card={fixtureCard("ir-go")} onRate={() => {}} />);
     expect(q("own-form")).toBeNull();
 
-    const hay = { ...fixtureCard("ir-form-yo"), id: "haber-form-hay", es: "hay" };
+    const hay = { ...fixtureCard("ir-form-yo"), id: "haber-form-hay", target: "hay" };
     render(<Reveal card={hay} onRate={() => {}} />);
     expect(q("grammar")).not.toBeNull();
     expect(q("own-form")).toBeNull();

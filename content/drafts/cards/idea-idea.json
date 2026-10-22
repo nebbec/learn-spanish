@@ -3,7 +3,7 @@
   "rank": 212,
   "kind": "content",
   "pos": "noun",
-  "es": "la idea",
+  "target": "la idea",
   "en": "idea",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¡Qué buena idea! Vamos a la playa.",
+    "target": "¡Qué buena idea! Vamos a la playa.",
     "en": "What a good idea! Let's go to the beach."
   },
-  "spain": null,
+  "regional": null,
   "trick": "IDEA is spelled just like English idea; say it ee-DAY-ah, as if a new idea lights up your day.",
   "image": "/deck/img/idea-idea.webp",
   "audio": {

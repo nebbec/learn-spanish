@@ -3,7 +3,7 @@
   "rank": 342,
   "kind": "content",
   "pos": "verb",
-  "es": "cerrar",
+  "target": "cerrar",
   "en": "to close",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Cierra la puerta, por favor.",
+    "target": "Cierra la puerta, por favor.",
     "en": "Close the door, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CERRAR sounds like \"sir, rah!\": the guard shouts \"sir, rah!\" and slams the gate closed.",
   "image": "/deck/img/cerrar-close.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 351,
   "kind": "content",
   "pos": "verb",
-  "es": "subir",
+  "target": "subir",
   "en": "to get in",
   "hint": "a car, bus, train",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Súbete al carro, ya nos vamos!",
+    "target": "¡Súbete al carro, ya nos vamos!",
     "en": "Get in the car, we're leaving!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUBIR sounds like subway: you get in the subway car before the doors close.",
   "image": "/deck/img/subir-get-in.webp",
   "audio": {

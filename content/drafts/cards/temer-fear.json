@@ -3,7 +3,7 @@
   "rank": 498,
   "kind": "content",
   "pos": "verb",
-  "es": "temer",
+  "target": "temer",
   "en": "to fear",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me temo que no puedo ir.",
+    "target": "Me temo que no puedo ir.",
     "en": "I'm afraid I can't go."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TEMER sounds like tremor: when you fear something, your hands shake with a tremor.",
   "image": "/deck/img/temer-fear.webp",
   "audio": {

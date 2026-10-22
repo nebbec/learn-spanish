@@ -3,7 +3,7 @@
   "rank": 547,
   "kind": "content",
   "pos": "verb",
-  "es": "agradecer",
+  "target": "agradecer",
   "en": "to thank",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Te agradezco mucho tu ayuda.",
+    "target": "Te agradezco mucho tu ayuda.",
     "en": "Thank you so much for your help."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AGRADECER sounds like 'a grad, sir': the new graduate turns to his teacher and thanks him.",
   "image": "/deck/img/agradecer-thank.webp",
   "audio": {

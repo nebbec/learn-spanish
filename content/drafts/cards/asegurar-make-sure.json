@@ -3,7 +3,7 @@
   "rank": 447,
   "kind": "content",
   "pos": "verb",
-  "es": "asegurarse",
+  "target": "asegurarse",
   "en": "to make sure",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Asegúrate de cerrar la puerta.",
+    "target": "Asegúrate de cerrar la puerta.",
     "en": "Make sure you lock the door."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ASEGURARSE sounds like \"a secure-arse\": make sure everything is secure before you sit down.",
   "image": "/deck/img/asegurar-make-sure.webp",
   "audio": {

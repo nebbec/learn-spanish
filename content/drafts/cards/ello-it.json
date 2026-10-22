@@ -3,15 +3,15 @@
   "rank": 417,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "ello",
+  "target": "ello",
   "en": "I'm ready for [it]",
   "hint": "neuter it after a preposition, a bit formal; not eso",
   "grammar": null,
   "example": {
-    "es": "Por ello no quiero hablar contigo.",
+    "target": "Por ello no quiero hablar contigo.",
     "en": "That's why I don't want to talk to you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ELLO sounds like hello: you say hello to it, the thing nobody names.",
   "image": null,
   "audio": {

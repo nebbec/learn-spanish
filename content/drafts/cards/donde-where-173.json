@@ -3,15 +3,15 @@
   "rank": 173,
   "kind": "glue",
   "pos": "adverb",
-  "es": "donde",
+  "target": "donde",
   "en": "the house [where] I live",
   "hint": "not a question, so no accent",
   "grammar": null,
   "example": {
-    "es": "Esta es la casa donde vivo.",
+    "target": "Esta es la casa donde vivo.",
     "en": "This is the house where I live."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DONDE sounds like \"dawn day\": the place where you watch the dawn each day.",
   "image": null,
   "audio": {

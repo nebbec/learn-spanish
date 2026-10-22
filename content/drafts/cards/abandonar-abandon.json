@@ -3,7 +3,7 @@
   "rank": 611,
   "kind": "content",
   "pos": "verb",
-  "es": "abandonar",
+  "target": "abandonar",
   "en": "to abandon",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Nunca te voy a abandonar.",
+    "target": "Nunca te voy a abandonar.",
     "en": "I'm never going to abandon you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ABANDONAR sounds like \"abandon\" plus \"-ar\": just add the Spanish verb ending to the English word.",
   "image": "/deck/img/abandonar-abandon.webp",
   "audio": {

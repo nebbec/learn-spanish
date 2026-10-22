@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example with common words (escribir, nombre) in place of the redraft; also added the hint from the reviewer's note to rule out fila.
 decision: approve
 
-id:         linea-line
-kind:       content
-pos:        noun
-es:         la línea
-en:         line
-hint:       a drawn or written line, not a queue
-gender:     f
-article:    la
-example.es: Escribe tu nombre en esta línea.
-example.en: Write your name on this line.
-spain:
-trick:      LÍNEA sounds like linear: a linear drawing is just one straight line.
+id:             linea-line
+kind:           content
+pos:            noun
+target:         la línea
+en:             line
+hint:           a drawn or written line, not a queue
+gender:         f
+article:        la
+example.target: Escribe tu nombre en esta línea.
+example.en:     Write your name on this line.
+regional.where:
+regional.text:
+trick:          LÍNEA sounds like linear: a linear drawing is just one straight line.
 
 # The draft this file was made from. Do not change it.
-draft: 33ec28cad4d120c8
+draft: df8efecfcbd2f04a

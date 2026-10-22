@@ -3,15 +3,15 @@
   "rank": 411,
   "kind": "content",
   "pos": "adverb",
-  "es": "abajo",
+  "target": "abajo",
   "en": "down, downstairs",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Te espero abajo.",
+    "target": "Te espero abajo.",
     "en": "I'll wait for you downstairs."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ABAJO sounds like a bar, ho! The bar is always down in the basement, downstairs.",
   "image": "/deck/img/abajo-down.webp",
   "audio": {

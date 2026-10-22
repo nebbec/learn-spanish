@@ -3,7 +3,7 @@
   "rank": 754,
   "kind": "content",
   "pos": "noun",
-  "es": "el suelo",
+  "target": "el suelo",
   "en": "floor",
   "hint": "the ground underfoot, not piso",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Las llaves están en el suelo.",
+    "target": "Las llaves están en el suelo.",
     "en": "The keys are on the floor."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUELO sounds like the sole of your shoe, which always touches the floor.",
   "image": "/deck/img/suelo-floor.webp",
   "audio": {

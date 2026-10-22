@@ -4,6 +4,7 @@
 
 import { useSyncExternalStore } from "react";
 import { useMotion } from "./motion";
+import { LANG } from "@/lang";
 
 /** What the hero mascot does: the menu's idle loop, the celebration loop, or the still for the empty screens. */
 export type MascotPose = "idle" | "celebrate" | "still";
@@ -12,16 +13,13 @@ export type MascotPose = "idle" | "celebrate" | "still";
 export type MascotFormat = "webm" | "hevc";
 
 /**
- * The mascot's files, made by `npm run mascot` (docs/design.md, "Art", "Decided in F3" and "Decided in U2").
+/**
+ * The build's mascot files (lang/), made by `npm run mascot` (docs/design.md, "Art", "Decided in F3" and "Decided in U2").
  * Each loop is transparent, in two formats, and its poster is its first frame,
  * which also stands in for it with reduced motion on. The service worker stores
  * them all on install, so they play offline.
  */
-export const MASCOT_FILES = {
-  idle: { webm: "/mascot/idle.webm", hevc: "/mascot/idle.mov", poster: "/mascot/idle.webp" },
-  celebrate: { webm: "/mascot/celebrate.webm", hevc: "/mascot/celebrate.mov", poster: "/mascot/celebrate.webp" },
-  still: "/mascot/concha.webp",
-} as const;
+export const MASCOT_FILES = LANG.mascot;
 
 /**
  * Which format this browser shows with its transparency: HEVC with alpha in

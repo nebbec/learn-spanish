@@ -3,7 +3,7 @@
   "rank": 783,
   "kind": "content",
   "pos": "verb",
-  "es": "compartir",
+  "target": "compartir",
   "en": "to share",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Compartimos la pizza con mi hermano.",
+    "target": "Compartimos la pizza con mi hermano.",
     "en": "We shared the pizza with my brother."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMPARTIR sounds like \"compartment\": you share a train compartment with strangers.",
   "image": "/deck/img/compartir-share.webp",
   "audio": {

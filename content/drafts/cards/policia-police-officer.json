@@ -3,7 +3,7 @@
   "rank": 225,
   "kind": "content",
   "pos": "noun",
-  "es": "el policía",
+  "target": "el policía",
   "en": "police officer",
   "hint": "one person, a man",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El policía me pidió mi licencia.",
+    "target": "El policía me pidió mi licencia.",
     "en": "The police officer asked me for my license."
   },
-  "spain": null,
+  "regional": null,
   "trick": "POLICÍA ends like see-ah: the officer says I see ya speeding, and writes you a ticket.",
   "image": "/deck/img/policia-police-officer.webp",
   "audio": {

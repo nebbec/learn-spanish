@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         presentar-present
-kind:       content
-pos:        verb
-es:         presentar
-en:         to present
-hint:       a project, report or document
-yo:         presento
-tu:         presentas
-el:         presenta
-irregular:  no
-example.es: Mañana presento mi proyecto en clase.
-example.en: Tomorrow I present my project in class.
-spain:
-trick:      PRESENTAR looks like present plus -ar: you present your project on stage.
+id:             presentar-present
+kind:           content
+pos:            verb
+target:         presentar
+en:             to present
+hint:           a project, report or document
+yo:             presento
+tu:             presentas
+el:             presenta
+irregular:      no
+example.target: Mañana presento mi proyecto en clase.
+example.en:     Tomorrow I present my project in class.
+regional.where:
+regional.text:
+trick:          PRESENTAR looks like present plus -ar: you present your project on stage.
 
 # The draft this file was made from. Do not change it.
-draft: 4dac07e1af73c277
+draft: 8e9bf839cb82ae3c

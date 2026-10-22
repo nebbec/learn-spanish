@@ -3,15 +3,15 @@
   "rank": 10,
   "kind": "glue",
   "pos": "preposition",
-  "es": "en",
+  "target": "en",
   "en": "I live [in] Mexico",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Ana está en México, ¿y tú?",
+    "target": "Ana está en México, ¿y tú?",
     "en": "Ana is in Mexico, and you?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "EN sounds like the start of 'inside': whatever is EN something is in it.",
   "image": null,
   "audio": {

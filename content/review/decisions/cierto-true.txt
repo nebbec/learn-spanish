@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 decision: approve
 
-id:         cierto-true
-kind:       content
-pos:        adjective
-es:         cierto
-en:         true
-hint:       as in es ___, it's true, that's right; not verdad or verdadero
-feminine:   cierta
-example.es: ¿Es cierto que te vas mañana?
-example.en: Is it true that you're leaving tomorrow?
-spain:
-trick:      CIERTO sounds like certainly: if something is certainly so, it's true.
+id:             cierto-true
+kind:           content
+pos:            adjective
+target:         cierto
+en:             true
+hint:           as in es ___, it's true, that's right; not verdad or verdadero
+feminine:       cierta
+example.target: ¿Es cierto que te vas mañana?
+example.en:     Is it true that you're leaving tomorrow?
+regional.where:
+regional.text:
+trick:          CIERTO sounds like certainly: if something is certainly so, it's true.
 
 # The draft this file was made from. Do not change it.
-draft: 863bb0bebd4fe77a
+draft: 9e5a2de9f5d7ccb7

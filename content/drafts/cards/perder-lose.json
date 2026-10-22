@@ -3,7 +3,7 @@
   "rank": 152,
   "kind": "content",
   "pos": "verb",
-  "es": "perder",
+  "target": "perder",
   "en": "to lose",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Perdí mis llaves otra vez.",
+    "target": "Perdí mis llaves otra vez.",
     "en": "I lost my keys again."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PERDER sounds like \"pair dare\": you dare to bet a pair of shoes and lose them.",
   "image": "/deck/img/perder-lose.webp",
   "audio": {

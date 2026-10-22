@@ -3,7 +3,7 @@
   "rank": 567,
   "kind": "content",
   "pos": "noun",
-  "es": "la cita",
+  "target": "la cita",
   "en": "date",
   "hint": "romantic, not calendar",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Esta noche tengo una cita con Ana.",
+    "target": "Esta noche tengo una cita con Ana.",
     "en": "Tonight I have a date with Ana."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CITA sounds like 'see ya': on a date you say 'see ya at eight!'",
   "image": "/deck/img/cita-date.webp",
   "audio": {

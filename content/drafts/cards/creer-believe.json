@@ -3,7 +3,7 @@
   "rank": 48,
   "kind": "content",
   "pos": "verb",
-  "es": "creer",
+  "target": "creer",
   "en": "to believe",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "No te creo nada.",
+    "target": "No te creo nada.",
     "en": "I don't believe you at all."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CREER sounds like \"career\": you need to believe in yourself to build a career.",
   "image": "/deck/img/creer-believe.webp",
   "audio": {

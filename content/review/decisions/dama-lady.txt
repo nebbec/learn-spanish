@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to example.es and example.en.
 decision: approve
 
-id:         dama-lady
-kind:       content
-pos:        noun
-es:         la dama
-en:         lady
-hint:       elegant or formal word, as in ladies and gentlemen
-gender:     f
-article:    la
-example.es: Esa dama es muy elegante.
-example.en: That lady is very elegant.
-spain:
-trick:      DAMA sounds like dame: a grand dame is an elegant lady.
+id:             dama-lady
+kind:           content
+pos:            noun
+target:         la dama
+en:             lady
+hint:           elegant or formal word, as in ladies and gentlemen
+gender:         f
+article:        la
+example.target: Esa dama es muy elegante.
+example.en:     That lady is very elegant.
+regional.where:
+regional.text:
+trick:          DAMA sounds like dame: a grand dame is an elegant lady.
 
 # The draft this file was made from. Do not change it.
-draft: bf2206a791946f89
+draft: da741dc23e0da157

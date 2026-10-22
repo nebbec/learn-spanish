@@ -3,7 +3,7 @@
   "rank": 482,
   "kind": "content",
   "pos": "verb",
-  "es": "invitar",
+  "target": "invitar",
   "en": "to treat (to pay for)",
   "hint": "pay for someone else",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Tranquilo, hoy yo invito.",
+    "target": "Tranquilo, hoy yo invito.",
     "en": "Relax, it's my treat today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "INVITAR: when you invite someone out in Latin America, you usually pay, so te invito means I'm treating you.",
   "image": "/deck/img/invitar-treat.webp",
   "audio": {

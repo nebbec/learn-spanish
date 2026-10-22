@@ -62,7 +62,7 @@ describe("CardFront, forward", () => {
       expect(q("hint")?.textContent ?? null).toBe(card.hint && `(${card.hint})`);
       expect(q("character")!.querySelector("img")!.getAttribute("src")).toBe(card.image);
       expect(q("target")).toBeNull();
-      expect(front().textContent).not.toContain(card.es);
+      expect(front().textContent).not.toContain(card.target);
     },
   );
 
@@ -90,7 +90,7 @@ describe("CardFront, forward", () => {
       expect(q("hint")?.textContent ?? null).toBe(card.hint && `(${card.hint})`);
       expect(q("character")!.querySelector("img")!.getAttribute("src")).toBe(fixtureCard("ir-go").image);
       expect(q("target")).toBeNull();
-      expect(front().textContent).not.toContain(card.es);
+      expect(front().textContent).not.toContain(card.target);
     },
   );
 
@@ -104,7 +104,7 @@ describe("CardFront, forward", () => {
       expect(host.querySelector("mark")).toBeNull();
       expect(q("character")).toBeNull();
       expect(host.querySelector("img")).toBeNull();
-      expect(front().textContent).not.toContain(card.es);
+      expect(front().textContent).not.toContain(card.target);
     },
   );
 
@@ -129,7 +129,7 @@ describe("CardFront, forward", () => {
 describe("CardFront, reverse", () => {
   it.each(fixtureDeck.cards)("$id shows the Spanish and hides the character and the English", (card) => {
     render(<CardFront card={card} direction="reverse" onReveal={() => {}} />);
-    expect(q("prompt")!.textContent).toBe(card.es);
+    expect(q("prompt")!.textContent).toBe(card.target);
     expect(q("prompt")!.getAttribute("lang")).toBe("es");
     expect(q("character")).toBeNull();
     expect(host.querySelector("img")).toBeNull();
@@ -151,12 +151,12 @@ describe("Form and phrase cards, both directions", () => {
     ({ card, direction }) => {
       let revealed = false;
       render(<CardFront card={card} direction={direction} onReveal={() => (revealed = true)} />);
-      expect(q("prompt")!.textContent).toBe(direction === "forward" ? card.en : card.es);
+      expect(q("prompt")!.textContent).toBe(direction === "forward" ? card.en : card.target);
       act(() => front().click());
       expect(revealed).toBe(true);
 
       render(<Reveal card={card} onRate={() => {}} />);
-      expect(q("answer")!.textContent).toBe(card.es);
+      expect(q("answer")!.textContent).toBe(card.target);
       expect(q("meaning")!.textContent).toContain(card.en);
       expect(q("character")?.querySelector("img")?.getAttribute("src") ?? null).toBe(card.image);
       expect(q("why")?.textContent ?? null).toBe(card.why);

@@ -3,7 +3,7 @@
   "rank": 740,
   "kind": "content",
   "pos": "noun",
-  "es": "el trasero",
+  "target": "el trasero",
   "en": "butt",
   "hint": "polite, not vulgar",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me caí y me dolió el trasero.",
+    "target": "Me caí y me dolió el trasero.",
     "en": "I fell and my butt hurt."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRASERO sounds like \"trash zero\": you landed on your butt in the trash, scoring zero.",
   "image": "/deck/img/trasero-butt.webp",
   "audio": {

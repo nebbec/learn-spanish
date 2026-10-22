@@ -3,7 +3,7 @@
   "rank": 628,
   "kind": "content",
   "pos": "noun",
-  "es": "el maestro",
+  "target": "el maestro",
   "en": "teacher",
   "hint": "school teacher, not profesor",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi maestra de tercer grado era muy buena.",
+    "target": "Mi maestra de tercer grado era muy buena.",
     "en": "My third-grade teacher was very good."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MAESTRO sounds like a music maestro: your teacher conducts the class like an orchestra.",
   "image": "/deck/img/maestro-teacher.webp",
   "audio": {

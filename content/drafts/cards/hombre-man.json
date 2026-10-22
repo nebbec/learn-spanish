@@ -3,7 +3,7 @@
   "rank": 85,
   "kind": "content",
   "pos": "noun",
-  "es": "el hombre",
+  "target": "el hombre",
   "en": "man",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ese hombre es mi tío.",
+    "target": "Ese hombre es mi tío.",
     "en": "That man is my uncle."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HOMBRE sounds like \"hombre-ombre\", like a man's deep voice humming \"hum-bray\" as he walks into the room.",
   "image": "/deck/img/hombre-man.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 627,
   "kind": "content",
   "pos": "noun",
-  "es": "el metro",
+  "target": "el metro",
   "en": "subway",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tomo el metro para ir al trabajo.",
+    "target": "Tomo el metro para ir al trabajo.",
     "en": "I take the subway to work."
   },
-  "spain": null,
+  "regional": null,
   "trick": "METRO sounds like metropolis: every big metropolis has a subway running underneath it.",
   "image": "/deck/img/metro-subway.webp",
   "audio": {

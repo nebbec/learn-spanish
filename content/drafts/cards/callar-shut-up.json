@@ -3,7 +3,7 @@
   "rank": 382,
   "kind": "content",
   "pos": "verb",
-  "es": "callar",
+  "target": "callar",
   "en": "to shut up",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Cállate y escúchame!",
+    "target": "¡Cállate y escúchame!",
     "en": "Shut up and listen to me!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CALLAR sounds like collar: grab someone by the collar and they'll shut up fast.",
   "image": "/deck/img/callar-shut-up.webp",
   "audio": {

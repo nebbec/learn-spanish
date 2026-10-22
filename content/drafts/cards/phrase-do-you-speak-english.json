@@ -3,15 +3,15 @@
   "rank": 907,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Hablas inglés?",
+  "target": "¿Hablas inglés?",
   "en": "Do you speak English?",
   "hint": "informal",
   "grammar": null,
   "example": {
-    "es": "Lo siento, ¿hablas inglés? No entiendo.",
+    "target": "Lo siento, ¿hablas inglés? No entiendo.",
     "en": "I'm sorry, do you speak English? I don't understand."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

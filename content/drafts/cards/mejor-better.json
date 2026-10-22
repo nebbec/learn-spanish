@@ -3,17 +3,17 @@
   "rank": 100,
   "kind": "content",
   "pos": "adjective",
-  "es": "mejor",
+  "target": "mejor",
   "en": "better",
   "hint": null,
   "grammar": {
     "feminine": "mejor"
   },
   "example": {
-    "es": "Hoy me siento mucho mejor.",
+    "target": "Hoy me siento mucho mejor.",
     "en": "I feel much better today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MEJOR sounds like \"major\": a major upgrade makes everything better.",
   "image": "/deck/img/mejor-better.webp",
   "audio": {

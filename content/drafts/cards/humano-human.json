@@ -3,17 +3,17 @@
   "rank": 464,
   "kind": "content",
   "pos": "adjective",
-  "es": "humano",
+  "target": "humano",
   "en": "human",
   "hint": null,
   "grammar": {
     "feminine": "humana"
   },
   "example": {
-    "es": "Tranquilo, solo soy humano.",
+    "target": "Tranquilo, solo soy humano.",
     "en": "Relax, I'm only human."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HUMANO sounds like human-o: just add an o to human and you've got it.",
   "image": "/deck/img/humano-human.webp",
   "audio": {

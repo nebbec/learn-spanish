@@ -10,22 +10,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         alli-there
-kind:       content
-pos:        adverb
-es:         allí
-en:         there
-hint:       a specific place far from both of us, not ahí or allá
-example.es: Mi abuela vive allí.
-example.en: My grandma lives there.
-spain:
-trick:      ALLÍ sounds like "ally": your ally is waiting over there, far away.
+id:             alli-there
+kind:           content
+pos:            adverb
+target:         allí
+en:             there
+hint:           a specific place far from both of us, not ahí or allá
+example.target: Mi abuela vive allí.
+example.en:     My grandma lives there.
+regional.where:
+regional.text:
+trick:          ALLÍ sounds like "ally": your ally is waiting over there, far away.
 
 # The draft this file was made from. Do not change it.
 draft: 7e3e39898d7807ac

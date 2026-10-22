@@ -3,7 +3,7 @@
   "rank": 122,
   "kind": "content",
   "pos": "verb",
-  "es": "oír",
+  "target": "oír",
   "en": "to hear",
   "hint": "perceive sound, not escuchar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Oyes ese ruido afuera?",
+    "target": "¿Oyes ese ruido afuera?",
     "en": "Do you hear that noise outside?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "OÍR sounds like ear: you hear with your ear.",
   "image": "/deck/img/oir-hear.webp",
   "audio": {

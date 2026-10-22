@@ -3,7 +3,7 @@
   "rank": 597,
   "kind": "content",
   "pos": "noun",
-  "es": "la mente",
+  "target": "la mente",
   "en": "mind",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tienes que abrir tu mente.",
+    "target": "Tienes que abrir tu mente.",
     "en": "You have to open your mind."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MENTE sounds like mental: everything mental happens in your mind.",
   "image": "/deck/img/mente-mind.webp",
   "audio": {

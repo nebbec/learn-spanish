@@ -3,17 +3,17 @@
   "rank": 673,
   "kind": "content",
   "pos": "adjective",
-  "es": "salvo",
+  "target": "salvo",
   "en": "safe",
   "hint": "unharmed, as in safe and sound; not seguro",
   "grammar": {
     "feminine": "salva"
   },
   "example": {
-    "es": "Los niños están sanos y salvos.",
+    "target": "Los niños están sanos y salvos.",
     "en": "The kids are safe and sound."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SALVO sounds like salvage: what you salvage from a wreck comes out safe.",
   "image": "/deck/img/salvo-safe.webp",
   "audio": {

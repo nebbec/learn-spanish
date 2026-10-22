@@ -3,7 +3,7 @@
   "rank": 251,
   "kind": "content",
   "pos": "noun",
-  "es": "el lado",
+  "target": "el lado",
   "en": "side",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Estoy de tu lado.",
+    "target": "Estoy de tu lado.",
     "en": "I'm on your side."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LADO sounds like \"ladder\": lean the ladder against the side of the house.",
   "image": "/deck/img/lado-side.webp",
   "audio": {

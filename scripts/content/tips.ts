@@ -21,6 +21,8 @@ import {
   type Guarded,
   type TaskStore,
 } from "./drafting";
+import { GERMAN_TIP_SCHEMA, GERMAN_TIP_SYSTEM } from "./prompts-de";
+import { LANGS, type LangCode } from "./script-lang";
 import type { TipEntry, Unit } from "./units";
 
 type Rec = Record<string, unknown>;
@@ -102,7 +104,13 @@ export const TIP_SCHEMA: Rec = object({
   examples: { type: "array", items: object({ es: text, en: text }) },
 });
 
-/** A drafted tip as its file holds it: the body one sentence per line. */
+/** The tip pass's system prompt and schema per language (DE5). German's are in prompts-de.ts (DE7). */
+export const TIP_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
+  es: { system: TIP_SYSTEM_PROMPT, schema: TIP_SCHEMA },
+  de: { system: GERMAN_TIP_SYSTEM, schema: GERMAN_TIP_SCHEMA },
+};
+
+/** A drafted tip as its file holds it: the body one sentence per line. `es` is the example in the language learned. */
 export interface TipDraft {
   id: string;
   title: string;
@@ -111,7 +119,7 @@ export interface TipDraft {
 }
 
 /** The output guard: turns Claude's answer into a tip, or names the failing fields. The title is the tip list's. */
-export function guardTip(output: unknown, job: TipJob): Guarded<TipDraft> {
+export function guardTip(output: unknown, job: TipJob, lang: LangCode = "es"): Guarded<TipDraft> {
   if (!isRec(output) || !Array.isArray(output.body) || !Array.isArray(output.examples)) {
     return { ok: false, kind: "shape", fields: [] };
   }
@@ -119,9 +127,11 @@ export function guardTip(output: unknown, job: TipJob): Guarded<TipDraft> {
   const body = output.body.map((sentence) => g.text(sentence, "body"));
   if (body.length < BODY_SENTENCES.min || body.length > BODY_SENTENCES.max) g.fail("body");
   if (body.some((sentence) => KEY_LINE.test(sentence))) g.fail("body");
+  // The Spanish schema names the example `es`, German's `target` (prompts-de.ts).
+  const key = lang === "es" ? "es" : "target";
   const examples = output.examples.map((raw) => {
     const e = isRec(raw) ? raw : {};
-    return { es: g.text(e.es, "examples.es"), en: g.text(e.en, "examples.en") };
+    return { es: g.text(e[key], `examples.${key}`), en: g.text(e.en, "examples.en") };
   });
   if (examples.length < EXAMPLES.min || examples.length > EXAMPLES.max) g.fail("examples");
   for (const e of examples) {
@@ -216,21 +226,24 @@ export function parseTipFile(text: string): ParsedTip {
  * example with its clip's path (`/deck/audio/<tip id>.<n>.<hash>.mp3`, L8). The
  * deck build sets the paths again with the redone takes of content/audio-takes.json.
  */
-export function deckTip(id: string, tip: ParsedTip, takes: Record<string, number> = {}): DeckTip {
+export function deckTip(id: string, tip: ParsedTip, takes: Record<string, number> = {}, lang: LangCode = "es"): DeckTip {
   return {
     id,
     title: tip.title,
     body: tip.body.join(" "),
-    examples: tip.examples.map((e, i) => ({ es: e.es, en: e.en, audio: tipAudioPath(id, i + 1, e.es, takes) })),
+    examples: tip.examples.map((e, i) => ({ target: e.es, en: e.en, audio: tipAudioPath(id, i + 1, e.es, takes, lang) })),
   };
 }
 
-/** The tip files under one directory (content/tips by default). */
+/** The tip files under one directory (content/tips by default), for one language (DE5): Spanish unless given. */
 export class TipStore implements TaskStore {
   readonly failedDir: string;
   readonly logFile: string;
 
-  constructor(readonly dir: string) {
+  constructor(
+    readonly dir: string,
+    readonly lang: LangCode = "es",
+  ) {
     this.failedDir = path.join(dir, ".failed");
     this.logFile = path.join(dir, "usage.jsonl");
     mkdirSync(dir, { recursive: true });
@@ -281,8 +294,8 @@ export function tipTasks(jobs: TipJob[], store: TipStore): DraftTask<TipDraft>[]
     done: store.isDrafted(job.id),
     log: { tip: job.id },
     failedName: job.id,
-    request: { system: TIP_SYSTEM_PROMPT, prompt: tipPrompt(job), schema: TIP_SCHEMA },
-    guard: (output) => guardTip(output, job),
+    request: { ...TIP_REQUESTS[store.lang], prompt: tipPrompt(job) },
+    guard: (output) => guardTip(output, job, store.lang),
     save: ([tip], _skip, meta) => store.save(job, tip, meta),
   }));
 }
@@ -308,11 +321,12 @@ export function tipsForDeck(store: TipStore, list: TipEntry[]): TipsForDeck {
   for (const { id } of list) {
     const tip = store.read(id);
     if (!tip) result.notDrafted.push(id);
-    else if (tip.status === "approve" && !tip.errors.length) result.tips.push(deckTip(id, tip));
+    else if (tip.status === "approve" && !tip.errors.length) result.tips.push(deckTip(id, tip, {}, store.lang));
     else if (tip.status === "approve" || tip.status === null) result.problems.push(...tip.errors.map((e) => `${id}: ${e}`));
     else result.pending.push(id);
   }
   const listed = new Set(list.map((t) => t.id));
-  for (const id of store.ids()) if (!listed.has(id)) result.problems.push(`${id}: not in content/tips.json`);
+  const listFile = `${LANGS[store.lang].contentDir}/tips.json`;
+  for (const id of store.ids()) if (!listed.has(id)) result.problems.push(`${id}: not in ${listFile}`);
   return result;
 }

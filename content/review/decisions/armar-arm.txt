@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: replaced the example so armar is conjugated; used 'Ellos armaron a sus hombres' instead of the reviewer's 'El gobierno armó a los rebeldes' to avoid the rarer words gobierno and rebeldes.
 decision: approve
 
-id:         armar-arm
-kind:       content
-pos:        verb
-es:         armar
-en:         to arm
-hint:       with weapons
-yo:         armo
-tu:         armas
-el:         arma
-irregular:  no
-example.es: Ellos armaron a sus hombres.
-example.en: They armed their men.
-spain:
-trick:      ARMAR looks like arm and armor: to arm someone, you hand them weapons and armor.
+id:             armar-arm
+kind:           content
+pos:            verb
+target:         armar
+en:             to arm
+hint:           with weapons
+yo:             armo
+tu:             armas
+el:             arma
+irregular:      no
+example.target: Ellos armaron a sus hombres.
+example.en:     They armed their men.
+regional.where:
+regional.text:
+trick:          ARMAR looks like arm and armor: to arm someone, you hand them weapons and armor.
 
 # The draft this file was made from. Do not change it.
-draft: 385b0980b56b5949
+draft: 9db3449f6ef61208

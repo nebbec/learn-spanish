@@ -3,7 +3,7 @@
   "rank": 281,
   "kind": "content",
   "pos": "verb",
-  "es": "caer",
+  "target": "caer",
   "en": "to fall",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Cuidado, el vaso se va a caer.",
+    "target": "Cuidado, el vaso se va a caer.",
     "en": "Careful, the glass is going to fall."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAER sounds like \"cry\": you cry when you fall off your bike.",
   "image": "/deck/img/caer-fall.webp",
   "audio": {

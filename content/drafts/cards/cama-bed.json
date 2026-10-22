@@ -3,7 +3,7 @@
   "rank": 469,
   "kind": "content",
   "pos": "noun",
-  "es": "la cama",
+  "target": "la cama",
   "en": "bed",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Ya me voy a la cama.",
+    "target": "Ya me voy a la cama.",
     "en": "I'm going to bed now."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMA sounds like \"calm-a\": you feel calm when you lie down in bed.",
   "image": "/deck/img/cama-bed.webp",
   "audio": {

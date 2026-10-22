@@ -284,7 +284,7 @@ describe("Reverse", () => {
 
     const front = q("card-front")!;
     expect(front.dataset.cardId).toBe("de-of");
-    expect(front.textContent).toContain(fixtureCard("de-of").es);
+    expect(front.textContent).toContain(fixtureCard("de-of").target);
     expect(front.textContent).not.toContain("Maria");
 
     // Reds and all: none of it may reach the schedule.

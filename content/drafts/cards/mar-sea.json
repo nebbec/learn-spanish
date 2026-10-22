@@ -3,7 +3,7 @@
   "rank": 720,
   "kind": "content",
   "pos": "noun",
-  "es": "el mar",
+  "target": "el mar",
   "en": "sea",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Vamos a nadar en el mar.",
+    "target": "Vamos a nadar en el mar.",
     "en": "Let's go swim in the sea."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MAR sounds like marine: marines sail across the sea.",
   "image": "/deck/img/mar-sea.webp",
   "audio": {

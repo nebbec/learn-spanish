@@ -3,7 +3,7 @@
   "rank": 847,
   "kind": "content",
   "pos": "verb",
-  "es": "estudiar",
+  "target": "estudiar",
   "en": "to study",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Hoy estudio inglés en casa.",
+    "target": "Hoy estudio inglés en casa.",
     "en": "Today I'm studying English at home."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESTUDIAR looks like STUDY with an E in front and AR on the end: students study hard.",
   "image": "/deck/img/estudiar-study.webp",
   "audio": {

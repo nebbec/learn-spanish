@@ -3,15 +3,15 @@
   "rank": 84,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "usted",
+  "target": "usted",
   "en": "Are [you] the doctor?",
   "hint": "formal, one person",
   "grammar": null,
   "example": {
-    "es": "¿Usted es el doctor?",
+    "target": "¿Usted es el doctor?",
     "en": "Are you the doctor?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "USTED sounds like \"you steady\": you speak steady and polite to a respected person.",
   "image": null,
   "audio": {

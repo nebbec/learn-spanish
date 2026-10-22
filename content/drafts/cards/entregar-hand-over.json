@@ -3,7 +3,7 @@
   "rank": 660,
   "kind": "content",
   "pos": "verb",
-  "es": "entregar",
+  "target": "entregar",
   "en": "to hand over",
   "hint": "also: to deliver, to turn in",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mañana entrego la tarea al profesor.",
+    "target": "Mañana entrego la tarea al profesor.",
     "en": "Tomorrow I'm handing in the homework to the teacher."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENTREGAR sounds like \"enter a gate\": the courier enters the gate to hand over your package.",
   "image": "/deck/img/entregar-hand-over.webp",
   "audio": {

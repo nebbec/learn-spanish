@@ -3,7 +3,7 @@
   "rank": 701,
   "kind": "content",
   "pos": "verb",
-  "es": "retirar",
+  "target": "retirar",
   "en": "to withdraw",
   "hint": "take back or remove, e.g. a comment or charges",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Retiro lo que dije.",
+    "target": "Retiro lo que dije.",
     "en": "I take back what I said."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RETIRAR sounds like re-tear: you tear the words back out of the letter, withdrawing them.",
   "image": "/deck/img/retirar-withdraw.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 663,
   "kind": "content",
   "pos": "noun",
-  "es": "la dirección",
+  "target": "la dirección",
   "en": "direction",
   "hint": "way you are heading",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Vamos en la dirección equivocada.",
+    "target": "Vamos en la dirección equivocada.",
     "en": "We're going in the wrong direction."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DIRECCIÓN looks almost exactly like \"direction\": just swap the ending -tion for -ción.",
   "image": "/deck/img/direccion-direction.webp",
   "audio": {

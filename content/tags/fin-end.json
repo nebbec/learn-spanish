@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use fin for the end point itself (el fin de semana, por fin); final is for the ending, as in al final (in the end).",
-  "draft": "93e1d123d0271e0d",
+  "draft": "ff73d9f9ee91c39c",
   "group": "#327 fin",
   "via": "cli",
   "model": "claude-opus-5-5",

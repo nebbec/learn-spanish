@@ -3,15 +3,15 @@
   "rank": 160,
   "kind": "glue",
   "pos": "preposition",
-  "es": "desde",
+  "target": "desde",
   "en": "I have lived here [since] 2015",
   "hint": "time, not cause",
   "grammar": null,
   "example": {
-    "es": "No como nada desde ayer.",
+    "target": "No como nada desde ayer.",
     "en": "I haven't eaten anything since yesterday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESDE sounds like \"this day\": since this day, everything changed.",
   "image": null,
   "audio": {

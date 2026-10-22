@@ -3,7 +3,7 @@
   "rank": 107,
   "kind": "content",
   "pos": "verb",
-  "es": "tomar",
+  "target": "tomar",
   "en": "to drink",
   "hint": "everyday word, have a drink",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Quieres tomar un café?",
+    "target": "¿Quieres tomar un café?",
     "en": "Do you want to have a coffee?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TOMAR sounds like 'tomato': drink your tomato juice.",
   "image": "/deck/img/tomar-drink.webp",
   "audio": {

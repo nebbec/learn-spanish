@@ -3,15 +3,15 @@
   "rank": 387,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "e",
+  "target": "e",
   "en": "father [and] son",
   "hint": "used instead of y before a word starting with an i sound (i-, hi-)",
   "grammar": null,
   "example": {
-    "es": "Mi papá e hijo trabajan juntos.",
+    "target": "Mi papá e hijo trabajan juntos.",
     "en": "My dad and son work together."
   },
-  "spain": null,
+  "regional": null,
   "trick": "E replaces Y before an EE sound, so you never say y-ee; padre e hijo flows smoothly.",
   "image": null,
   "audio": {

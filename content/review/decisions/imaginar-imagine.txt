@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to trick.
 decision: approve
 
-id:         imaginar-imagine
-kind:       content
-pos:        verb
-es:         imaginar
-en:         to imagine
+id:             imaginar-imagine
+kind:           content
+pos:            verb
+target:         imaginar
+en:             to imagine
 hint:
-yo:         imagino
-tu:         imaginas
-el:         imagina
-irregular:  no
-example.es: Me imagino que estás cansado.
-example.en: I imagine you're tired.
-spain:
-trick:      IMAGINAR is just imagine with the final e swapped for -ar: imagin-AR, to imagine.
+yo:             imagino
+tu:             imaginas
+el:             imagina
+irregular:      no
+example.target: Me imagino que estás cansado.
+example.en:     I imagine you're tired.
+regional.where:
+regional.text:
+trick:          IMAGINAR is just imagine with the final e swapped for -ar: imagin-AR, to imagine.
 
 # The draft this file was made from. Do not change it.
-draft: fb4eb21e3361612e
+draft: 9ae0fb7afc210c9e

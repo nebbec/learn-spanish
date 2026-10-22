@@ -3,15 +3,15 @@
   "rank": 184,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "ninguno",
+  "target": "ninguno",
   "en": "[none] of them came",
   "hint": "not nadie; none out of a group",
   "grammar": null,
   "example": {
-    "es": "Ninguno de mis amigos vino.",
+    "target": "Ninguno de mis amigos vino.",
     "en": "None of my friends came."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NINGUNO sounds like \"nin-GONE-o\": every one of them is gone, so none are left.",
   "image": null,
   "audio": {

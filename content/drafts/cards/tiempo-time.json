@@ -3,7 +3,7 @@
   "rank": 93,
   "kind": "content",
   "pos": "noun",
-  "es": "el tiempo",
+  "target": "el tiempo",
   "en": "time",
   "hint": "duration, not an occasion or clock time",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No tengo tiempo para eso.",
+    "target": "No tengo tiempo para eso.",
     "en": "I don't have time for that."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIEMPO sounds like \"tempo\": music's tempo is all about time.",
   "image": "/deck/img/tiempo-time.webp",
   "audio": {

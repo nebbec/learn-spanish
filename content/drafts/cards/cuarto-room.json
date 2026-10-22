@@ -3,7 +3,7 @@
   "rank": 523,
   "kind": "content",
   "pos": "noun",
-  "es": "el cuarto",
+  "target": "el cuarto",
   "en": "room",
   "hint": "especially a bedroom; not habitación",
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "el"
   },
   "example": {
-    "es": "Estoy en mi cuarto.",
+    "target": "Estoy en mi cuarto.",
     "en": "I'm in my room."
   },
-  "spain": "habitación",
+  "regional": {
+    "where": "Spain",
+    "text": "habitación"
+  },
   "trick": "CUARTO sounds like quarters: soldiers sleep in their quarters, their rooms.",
   "image": "/deck/img/cuarto-room.webp",
   "audio": {

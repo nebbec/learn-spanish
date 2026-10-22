@@ -3,7 +3,7 @@
   "rank": 788,
   "kind": "content",
   "pos": "noun",
-  "es": "el guardia",
+  "target": "el guardia",
   "en": "guard",
   "hint": "the person on watch",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El guardia no nos dejó entrar.",
+    "target": "El guardia no nos dejó entrar.",
     "en": "The guard didn't let us in."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GUARDIA sounds like guardian: the guard stands at the door like a guardian.",
   "image": "/deck/img/guardia-guard.webp",
   "audio": {

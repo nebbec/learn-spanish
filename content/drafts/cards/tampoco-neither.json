@@ -3,15 +3,15 @@
   "rank": 444,
   "kind": "content",
   "pos": "adverb",
-  "es": "tampoco",
+  "target": "tampoco",
   "en": "neither, not either",
   "hint": "me neither; the negative of también",
   "grammar": null,
   "example": {
-    "es": "Yo no quiero ir. Yo tampoco.",
+    "target": "Yo no quiero ir. Yo tampoco.",
     "en": "I don't want to go. Me neither."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TAMPOCO sounds like 'tam, poco': 'that much? too little!' Neither of us wants it either.",
   "image": "/deck/img/tampoco-neither.webp",
   "audio": {

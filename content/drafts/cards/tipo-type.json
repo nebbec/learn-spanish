@@ -3,7 +3,7 @@
   "rank": 165,
   "kind": "content",
   "pos": "noun",
-  "es": "el tipo",
+  "target": "el tipo",
   "en": "type",
   "hint": "kind, sort",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Qué tipo de música te gusta?",
+    "target": "¿Qué tipo de música te gusta?",
     "en": "What type of music do you like?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIPO sounds like \"typo\": a typo is one type of mistake.",
   "image": "/deck/img/tipo-type.webp",
   "audio": {

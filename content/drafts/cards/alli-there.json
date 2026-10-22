@@ -3,15 +3,15 @@
   "rank": 178,
   "kind": "content",
   "pos": "adverb",
-  "es": "allí",
+  "target": "allí",
   "en": "there",
   "hint": "a specific place far from both of us, not ahí or allá",
   "grammar": null,
   "example": {
-    "es": "Mi hermana está allí, en el café.",
+    "target": "Mi hermana está allí, en el café.",
     "en": "My sister is there, in the café."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALLÍ sounds like \"ally\": your ally is waiting over there, far away.",
   "image": "/deck/img/alli-there.webp",
   "audio": {

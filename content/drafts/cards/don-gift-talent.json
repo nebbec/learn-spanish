@@ -3,7 +3,7 @@
   "rank": 681,
   "kind": "content",
   "pos": "noun",
-  "es": "el don",
+  "target": "el don",
   "en": "gift",
   "hint": "a natural talent, not a present",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tienes un don para la música.",
+    "target": "Tienes un don para la música.",
     "en": "You have a gift for music."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DON sounds like donate: nature donated a special gift to you at birth.",
   "image": "/deck/img/don-gift-talent.webp",
   "audio": {

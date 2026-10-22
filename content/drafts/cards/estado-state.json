@@ -3,7 +3,7 @@
   "rank": 741,
   "kind": "content",
   "pos": "noun",
-  "es": "el estado",
+  "target": "el estado",
   "en": "state",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi tía vive en otro estado.",
+    "target": "Mi tía vive en otro estado.",
     "en": "My aunt lives in another state."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESTADO sounds like a big ESTATE: a state is just a huge estate with its own government.",
   "image": "/deck/img/estado-state.webp",
   "audio": {

@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 decision: approve
 
-id:         forma-way
-kind:       content
-pos:        noun
-es:         la forma
-en:         way
-hint:       manner, as in the way to do it; not manera or modo, but the word that also means shape
-gender:     f
-article:    la
-example.es: No hay otra forma de hacerlo.
-example.en: There's no other way to do it.
-spain:
-trick:      FORMA sounds like format: the format is the way you do something.
+id:             forma-way
+kind:           content
+pos:            noun
+target:         la forma
+en:             way
+hint:           manner, as in the way to do it; not manera or modo, but the word that also means shape
+gender:         f
+article:        la
+example.target: No hay otra forma de hacerlo.
+example.en:     There's no other way to do it.
+regional.where:
+regional.text:
+trick:          FORMA sounds like format: the format is the way you do something.
 
 # The draft this file was made from. Do not change it.
-draft: 067e017f42896c42
+draft: 53687d48c17a47ef

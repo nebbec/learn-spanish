@@ -3,7 +3,7 @@
   "rank": 560,
   "kind": "content",
   "pos": "verb",
-  "es": "cantar",
+  "target": "cantar",
   "en": "to sing",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi mamá canta en la cocina.",
+    "target": "Mi mamá canta en la cocina.",
     "en": "My mom sings in the kitchen."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CANTAR sounds like \"can't tar\": you can't tar a bird's beak, so it keeps singing.",
   "image": "/deck/img/cantar-sing.webp",
   "audio": {

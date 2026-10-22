@@ -3,7 +3,7 @@
   "rank": 154,
   "kind": "content",
   "pos": "verb",
-  "es": "acabar",
+  "target": "acabar",
   "en": "to have just (done something)",
   "hint": "followed by de + infinitive",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Acabo de llegar a casa.",
+    "target": "Acabo de llegar a casa.",
     "en": "I just got home."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACABO DE sounds like a cab of day: I have just stepped out of the day's cab.",
   "image": "/deck/img/acabar-have-just.webp",
   "audio": {

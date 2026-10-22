@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         amable-kind
-kind:       content
-pos:        adjective
-es:         amable
-en:         kind
-hint:       adjective, as in a kind person
-feminine:   amable
-example.es: Eres muy amable, gracias por tu ayuda.
-example.en: You're very kind, thanks for your help.
-spain:
-trick:      AMABLE sounds like amiable: a kind person is amiable and easy to love.
+id:             amable-kind
+kind:           content
+pos:            adjective
+target:         amable
+en:             kind
+hint:           adjective, as in a kind person
+feminine:       amable
+example.target: Eres muy amable, gracias por tu ayuda.
+example.en:     You're very kind, thanks for your help.
+regional.where:
+regional.text:
+trick:          AMABLE sounds like amiable: a kind person is amiable and easy to love.
 
 # The draft this file was made from. Do not change it.
-draft: 5936271e4e217cf2
+draft: 5ea63a9408589624

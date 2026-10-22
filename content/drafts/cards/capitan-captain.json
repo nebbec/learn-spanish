@@ -3,7 +3,7 @@
   "rank": 403,
   "kind": "content",
   "pos": "noun",
-  "es": "el capitán",
+  "target": "el capitán",
   "en": "captain",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El capitán del barco es muy serio.",
+    "target": "El capitán del barco es muy serio.",
     "en": "The ship's captain is very serious."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAPITÁN sounds like captain with a tan: the captain gets sunburned standing on deck all day.",
   "image": "/deck/img/capitan-captain.webp",
   "audio": {

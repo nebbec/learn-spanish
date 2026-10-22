@@ -3,7 +3,7 @@
   "rank": 475,
   "kind": "content",
   "pos": "noun",
-  "es": "el agente",
+  "target": "el agente",
   "en": "agent",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El agente me pidió los documentos.",
+    "target": "El agente me pidió los documentos.",
     "en": "The agent asked me for my documents."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AGENTE sounds like \"a gent\": a gentleman in a suit and dark glasses is a secret agent.",
   "image": "/deck/img/agente-agent.webp",
   "audio": {

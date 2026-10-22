@@ -3,7 +3,7 @@
   "rank": 670,
   "kind": "content",
   "pos": "verb",
-  "es": "marchar",
+  "target": "marchar",
   "en": "to march",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Miles de personas marchan hoy por el centro.",
+    "target": "Miles de personas marchan hoy por el centro.",
     "en": "Thousands of people are marching through downtown today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MARCHAR sounds like march plus a shout of 'ar!': soldiers yelling as they march in step.",
   "image": "/deck/img/marchar-march.webp",
   "audio": {

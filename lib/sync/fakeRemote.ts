@@ -1,17 +1,35 @@
 // An in-memory server for tests: one user's rows, shared by every simulated device.
+// Like the real tables, every row belongs to a language (docs/german.md, "Data"): a
+// FakeRemote uploads its rows as its language and downloads only that language's.
+// `forLang` gives another language's view of the same server, as the Spanish and
+// German apps share one account.
 
+import { LANG, type LangCode } from "@/lang";
 import type { RemoteNote, RemoteReport, RemoteReset, RemoteReview } from "@/lib/store";
 import type { RemotePage, SyncRemote } from "./remote";
 
 interface Stored<T> {
-  /** The order the row reached the server. A replaced note gets a new one. */
+  /** The order the row reached the server, one count across tables and languages. A replaced note gets a new one. */
   seq: number;
+  lang: LangCode;
   row: T;
+}
+
+/** What every language's view shares. */
+class FakeServer {
+  seq = 0;
+  readonly reviews = new Map<string, Stored<RemoteReview>>();
+  /** Keyed by language and card, as the notes table is. */
+  readonly notes = new Map<string, Stored<RemoteNote>>();
+  readonly reports = new Map<string, Stored<RemoteReport>>();
+  readonly resets = new Map<string, Stored<RemoteReset>>();
 }
 
 export interface FakeRemoteOptions {
   /** Rows per download page. Defaults to 100. */
   pageSize?: number;
+  /** The language this view uploads and downloads. Defaults to this build's. */
+  lang?: LangCode;
 }
 
 export class FakeRemote implements SyncRemote {
@@ -19,77 +37,76 @@ export class FakeRemote implements SyncRemote {
   offline = false;
   /** How many more push calls succeed before one throws. Null for no limit. */
   failPushAfter: number | null = null;
-  /** The name of every call made, in order. */
+  /** The name of every call made through this view, in order. */
   readonly calls: string[] = [];
+  readonly lang: LangCode;
 
-  private seq = 0;
   private readonly pageSize: number;
-  private readonly reviewRows = new Map<string, Stored<RemoteReview>>();
-  private readonly noteRows = new Map<string, Stored<RemoteNote>>();
-  private readonly reportRows = new Map<string, Stored<RemoteReport>>();
-  private readonly resetRows = new Map<string, Stored<RemoteReset>>();
+  private readonly server: FakeServer;
 
-  constructor(options: FakeRemoteOptions = {}) {
+  constructor(options: FakeRemoteOptions = {}, server: FakeServer = new FakeServer()) {
     this.pageSize = options.pageSize ?? 100;
+    this.lang = options.lang ?? LANG.code;
+    this.server = server;
   }
 
-  /** What the server holds, in arrival order. */
+  /** The same server seen by a device of another language, with its own calls log and switches. */
+  forLang(lang: LangCode): FakeRemote {
+    return new FakeRemote({ pageSize: this.pageSize, lang }, this.server);
+  }
+
+  /** What the server holds in this view's language, in arrival order. */
   get reviews(): RemoteReview[] {
-    return this.inOrder(this.reviewRows);
+    return this.inOrder(this.server.reviews);
   }
   get notes(): RemoteNote[] {
-    return this.inOrder(this.noteRows);
+    return this.inOrder(this.server.notes);
   }
   get reports(): RemoteReport[] {
-    return this.inOrder(this.reportRows);
+    return this.inOrder(this.server.reports);
   }
   get resets(): RemoteReset[] {
-    return this.inOrder(this.resetRows);
+    return this.inOrder(this.server.resets);
   }
 
   async pushReviews(rows: readonly RemoteReview[]): Promise<void> {
     this.beforePush("pushReviews");
-    for (const row of rows) {
-      if (!this.reviewRows.has(row.id)) this.reviewRows.set(row.id, { seq: ++this.seq, row: { ...row } });
-    }
+    for (const row of rows) this.addOnce(this.server.reviews, row.id, row);
   }
 
   async pushNotes(rows: readonly RemoteNote[]): Promise<void> {
     this.beforePush("pushNotes");
     for (const row of rows) {
-      const held = this.noteRows.get(row.cardId);
+      const key = `${this.lang}:${row.cardId}`;
+      const held = this.server.notes.get(key);
       if (held && held.row.updatedAt >= row.updatedAt) continue;
-      this.noteRows.set(row.cardId, { seq: ++this.seq, row: { ...row } });
+      this.server.notes.set(key, this.stored(row));
     }
   }
 
   async pushReports(rows: readonly RemoteReport[]): Promise<void> {
     this.beforePush("pushReports");
-    for (const row of rows) {
-      if (!this.reportRows.has(row.id)) this.reportRows.set(row.id, { seq: ++this.seq, row: { ...row } });
-    }
+    for (const row of rows) this.addOnce(this.server.reports, row.id, row);
   }
 
   async pushResets(rows: readonly RemoteReset[]): Promise<void> {
     this.beforePush("pushResets");
-    for (const row of rows) {
-      if (!this.resetRows.has(row.id)) this.resetRows.set(row.id, { seq: ++this.seq, row: { ...row } });
-    }
+    for (const row of rows) this.addOnce(this.server.resets, row.id, row);
   }
 
   async pullReviews(since: string | null): Promise<RemotePage<RemoteReview>> {
     this.begin("pullReviews");
-    return this.page(this.reviewRows, since);
+    return this.page(this.server.reviews, since);
   }
 
   async pullNotes(since: string | null): Promise<RemotePage<RemoteNote>> {
     this.begin("pullNotes");
-    return this.page(this.noteRows, since);
+    return this.page(this.server.notes, since);
   }
 
   async pullResets(since: string | null): Promise<RemotePage<RemoteReset>> {
     this.begin("pullResets");
-    return this.page(this.resetRows, since);
+    return this.page(this.server.resets, since);
   }
 
   private begin(call: string): void {
@@ -104,13 +121,26 @@ export class FakeRemote implements SyncRemote {
     this.failPushAfter -= 1;
   }
 
+  private stored<T>(row: T): Stored<T> {
+    return { seq: ++this.server.seq, lang: this.lang, row: { ...row } };
+  }
+
+  /** Reviews, reports and resets are keyed by their UUID alone, whatever their language, as on the server. */
+  private addOnce<T>(rows: Map<string, Stored<T>>, id: string, row: T): void {
+    if (!rows.has(id)) rows.set(id, this.stored(row));
+  }
+
+  private mine<T>(rows: Map<string, Stored<T>>): Stored<T>[] {
+    return [...rows.values()].filter((s) => s.lang === this.lang).sort((a, b) => a.seq - b.seq);
+  }
+
   private inOrder<T>(rows: Map<string, Stored<T>>): T[] {
-    return [...rows.values()].sort((a, b) => a.seq - b.seq).map((s) => ({ ...s.row }));
+    return this.mine(rows).map((s) => ({ ...s.row }));
   }
 
   private page<T>(rows: Map<string, Stored<T>>, since: string | null): RemotePage<T> {
     const after = since === null ? 0 : Number(since);
-    const pending = [...rows.values()].filter((s) => s.seq > after).sort((a, b) => a.seq - b.seq);
+    const pending = this.mine(rows).filter((s) => s.seq > after);
     const taken = pending.slice(0, this.pageSize);
     const last = taken[taken.length - 1];
     return {

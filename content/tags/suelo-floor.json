@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use suelo for the ground under your feet; piso for a room's floor or a building's level.",
-  "draft": "90c21aaabcb43d9a",
+  "draft": "8b455de561473b07",
   "group": "#754 suelo",
   "via": "cli",
   "model": "claude-opus-5-5",

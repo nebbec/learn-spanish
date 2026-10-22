@@ -3,7 +3,7 @@
   "rank": 441,
   "kind": "content",
   "pos": "noun",
-  "es": "el dólar",
+  "target": "el dólar",
   "en": "dollar",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me prestas diez dólares?",
+    "target": "Me prestas diez dólares?",
     "en": "Can you lend me ten dollars?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "DÓLAR sounds just like dollar, said with a little Spanish stress on the first syllable.",
   "image": "/deck/img/dolar-dollar.webp",
   "audio": {

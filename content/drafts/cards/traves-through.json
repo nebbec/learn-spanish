@@ -3,15 +3,15 @@
   "rank": 688,
   "kind": "glue",
   "pos": "preposition",
-  "es": "a través de",
+  "target": "a través de",
   "en": "we walked [through] the forest",
   "hint": "three-word phrase, not por",
   "grammar": null,
   "example": {
-    "es": "Vi a mi hermano a través de la ventana.",
+    "target": "Vi a mi hermano a través de la ventana.",
     "en": "I saw my brother through the window."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRAVÉS sounds like traverse: to traverse something is to go through or across it.",
   "image": null,
   "audio": {

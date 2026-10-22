@@ -16,7 +16,7 @@
 
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard } from "@/lib/deck/types";
+import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
 import {
   type DraftOptions,
   type DraftStore,
@@ -27,8 +27,13 @@ import {
   type TaskStore,
   writeJson,
 } from "./drafting";
+import { GERMAN_TAG_SYSTEM } from "./prompts-de";
 import { allDrafted, cardHash, readDraftCard } from "./reviewing";
+import type { LangCode } from "./script-lang";
 import { unitCap, type TipEntry, type Unit } from "./units";
+
+/** Drafted cards of either language: the tag pass reads only fields every card has. */
+type DraftCard = AnyDraftCard;
 
 type Rec = Record<string, unknown>;
 const isRec = (v: unknown): v is Rec => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -114,10 +119,12 @@ export interface TagContext {
   tips: TipEntry[];
   /** Every drafted card, in the order of `tagGroups`. */
   cards: DraftCard[];
+  /** The language of the cards (DE5), which picks the system prompt. Spanish when left out. */
+  lang?: LangCode;
 }
 
-export function tagContext(groups: TagGroup[], units: Unit[], tips: TipEntry[]): TagContext {
-  return { units, tips, cards: groups.flatMap((g) => g.cards) };
+export function tagContext(groups: TagGroup[], units: Unit[], tips: TipEntry[], lang: LangCode = "es"): TagContext {
+  return { units, tips, cards: groups.flatMap((g) => g.cards), lang };
 }
 
 export const TAG_SYSTEM_PROMPT = `You place flashcards on the learning path of an app that teaches the most common Spanish words to English speakers who start from zero and want to speak. The path begins with the starter path: themed units, in the order of the unit plan you are given, each ending in a few phrases the learner can now say. Then comes the frequency phase: every other card, most common word first. A script computes the order from the tags you set on each card. You do not write or judge cards; you only tag them.
@@ -139,6 +146,9 @@ Answer for every card you are asked about, once each, with these fields:
 
 Answer with the ids, unit ids, wants and tip ids exactly as given.`;
 
+/** The tag pass's system prompt per language (DE5); the schema is shared. German's is in prompts-de.ts (DE7). */
+export const TAG_SYSTEMS: Readonly<Record<LangCode, string>> = { es: TAG_SYSTEM_PROMPT, de: GERMAN_TAG_SYSTEM };
+
 /** A card as the tagger sees it: no media paths. */
 const shown = (card: DraftCard) => Object.fromEntries(Object.entries(card).filter(([key]) => key !== "image" && key !== "audio"));
 
@@ -149,7 +159,7 @@ const shown = (card: DraftCard) => Object.fromEntries(Object.entries(card).filte
  */
 export function tagSystem(ctx: TagContext): string {
   return [
-    TAG_SYSTEM_PROMPT,
+    TAG_SYSTEMS[ctx.lang ?? "es"],
     "",
     "The unit plan, in order:",
     ...ctx.units.flatMap((unit, i) => [
@@ -163,7 +173,7 @@ export function tagSystem(ctx: TagContext): string {
     ...ctx.tips.map((t) => `- ${t.id}: ${t.title}. ${t.about}`),
     "",
     "Every drafted card (id | prompt | answer):",
-    ...ctx.cards.map((c) => `- ${c.id} | ${c.en}${c.hint ? ` (${c.hint})` : ""} | ${c.es}`),
+    ...ctx.cards.map((c) => `- ${c.id} | ${c.en}${c.hint ? ` (${c.hint})` : ""} | ${c.target}`),
   ].join("\n");
 }
 

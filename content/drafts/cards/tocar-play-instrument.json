@@ -3,7 +3,7 @@
   "rank": 283,
   "kind": "content",
   "pos": "verb",
-  "es": "tocar",
+  "target": "tocar",
   "en": "to play",
   "hint": "music, an instrument",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi hermano toca la guitarra muy bien.",
+    "target": "Mi hermano toca la guitarra muy bien.",
     "en": "My brother plays the guitar really well."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TOCAR sounds like \"talk car\": the car radio plays music so loud nobody can talk.",
   "image": "/deck/img/tocar-play-instrument.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 5,
   "kind": "glue",
   "pos": "adverb",
-  "es": "no",
+  "target": "no",
   "en": "[No], thanks.",
   "hint": "the answer, opposite of yes",
   "grammar": null,
   "example": {
-    "es": "No, no existe.",
+    "target": "No, no existe.",
     "en": "No, it doesn't exist."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NO is spelled and said like English no, so refusing in Spanish works just like in English.",
   "image": null,
   "audio": {

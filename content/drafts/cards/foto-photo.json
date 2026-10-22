@@ -3,7 +3,7 @@
   "rank": 416,
   "kind": "content",
   "pos": "noun",
-  "es": "la foto",
+  "target": "la foto",
   "en": "photo",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Me tomas una foto con mi mamá?",
+    "target": "¿Me tomas una foto con mi mamá?",
     "en": "Can you take a photo of me with my mom?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "FOTO sounds like photo: just drop the h and add an o, and it is still feminine like la fotografía.",
   "image": "/deck/img/foto-photo.webp",
   "audio": {

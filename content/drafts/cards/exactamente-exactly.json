@@ -3,15 +3,15 @@
   "rank": 407,
   "kind": "content",
   "pos": "adverb",
-  "es": "exactamente",
+  "target": "exactamente",
   "en": "exactly",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Eso es exactamente lo que quiero.",
+    "target": "Eso es exactamente lo que quiero.",
     "en": "That's exactly what I want."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EXACTAMENTE sounds like exact-a-mente: an exact mind gets things exactly right.",
   "image": "/deck/img/exactamente-exactly.webp",
   "audio": {

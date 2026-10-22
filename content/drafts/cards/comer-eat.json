@@ -3,7 +3,7 @@
   "rank": 218,
   "kind": "content",
   "pos": "verb",
-  "es": "comer",
+  "target": "comer",
   "en": "to eat",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Hoy como en casa, pero mañana como en el hotel.",
+    "target": "Hoy como en casa, pero mañana como en el hotel.",
     "en": "Today I'm eating at home, but tomorrow I'm eating at the hotel."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMER sounds like \"come here\": Mom shouts \"come here\" when it's time to eat.",
   "image": "/deck/img/comer-eat.webp",
   "audio": {

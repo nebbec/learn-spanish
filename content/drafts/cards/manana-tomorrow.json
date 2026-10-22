@@ -3,15 +3,15 @@
   "rank": 171,
   "kind": "content",
   "pos": "adverb",
-  "es": "mañana",
+  "target": "mañana",
   "en": "tomorrow",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Mañana voy a la ciudad.",
+    "target": "Mañana voy a la ciudad.",
     "en": "Tomorrow I'm going to the city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MAÑANA sounds like \"man, banana\": tomorrow the man will finally eat his banana.",
   "image": "/deck/img/manana-tomorrow.webp",
   "audio": {

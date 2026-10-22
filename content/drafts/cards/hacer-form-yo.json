@@ -3,7 +3,7 @@
   "rank": 17,
   "kind": "form",
   "pos": "verb",
-  "es": "hago",
+  "target": "hago",
   "en": "I do",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Hoy no hago nada.",
+    "target": "Hoy no hago nada.",
     "en": "I'm not doing anything today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Hago sounds like 'ah, go!': I do it, here I go.",
   "image": "/deck/img/hacer-do.webp",
   "audio": {

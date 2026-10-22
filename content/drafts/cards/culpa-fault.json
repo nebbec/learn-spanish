@@ -3,7 +3,7 @@
   "rank": 400,
   "kind": "content",
   "pos": "noun",
-  "es": "la culpa",
+  "target": "la culpa",
   "en": "fault",
   "hint": "blame, guilt",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No es mi culpa.",
+    "target": "No es mi culpa.",
     "en": "It's not my fault."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CULPA sounds like culprit: the culprit is the one whose fault it is.",
   "image": "/deck/img/culpa-fault.webp",
   "audio": {

@@ -1,0 +1,21 @@
+{
+  "id": "was-what",
+  "rank": 12,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "was",
+  "en": "[What] are you doing?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Was machst du heute Abend?",
+    "en": "What are you doing tonight?"
+  },
+  "regional": null,
+  "trick": "WAS sounds like \"vass\", close to \"what's\": what's that? Was ist das?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/was-what.word.mp3",
+    "sentence": "/deck-de/audio/was-what.sentence.mp3"
+  }
+}

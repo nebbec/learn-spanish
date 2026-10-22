@@ -1,0 +1,17 @@
+{
+  "rank": 2,
+  "word": "sein",
+  "cards": [
+    "sein-be",
+    "sein-his"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sein-be": "ser-be-identity",
+    "sein-his": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:30:12.787Z"
+}

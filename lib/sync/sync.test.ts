@@ -473,6 +473,117 @@ describe("resets", () => {
   });
 });
 
+// DE2: one account, two languages on one server. Each app is its own device with its
+// own database, and its remote uploads and downloads only its language's rows
+// (docs/german.md, "Data").
+describe("languages", () => {
+  let german: FakeRemote;
+  let de: LocalStore;
+  let de2: LocalStore;
+
+  beforeEach(() => {
+    remote = new FakeRemote({ lang: "es" });
+    german = remote.forLang("de");
+    de = device("device-de");
+    de2 = device("device-de-2");
+  });
+
+  it("a German device's rows never reach a Spanish device, and the other way round", async () => {
+    await rate(a, "casa-house", "good", T0);
+    await rate(de, "haus-house", "good", T0 + 1000);
+    await rate(de, "gehen-go", "again", T0 + 2000);
+    await de.addReport("haus-house", "German report", T0 + 3000);
+    await sync(a, remote);
+    await sync(de, german);
+    await sync(b, remote);
+    await sync(de2, german);
+    await sync(a, remote);
+
+    expect((await reviewsOf(a)).map((r) => r.cardId)).toEqual(["casa-house"]);
+    expect((await reviewsOf(b)).map((r) => r.cardId)).toEqual(["casa-house"]);
+    expect((await cardStates(b)).map((s) => s.cardId)).toEqual(["casa-house"]);
+    expect((await reviewsOf(de2)).map((r) => r.cardId).sort()).toEqual(["gehen-go", "haus-house"]);
+    expect(await cardStates(de2)).toEqual(await cardStates(de));
+    expect(await reviewsOf(de)).toHaveLength(2);
+
+    expect(remote.reviews.map((r) => r.cardId)).toEqual(["casa-house"]);
+    expect(german.reviews.map((r) => r.cardId)).toEqual(["haus-house", "gehen-go"]);
+    expect(remote.reports).toEqual([]);
+    expect(german.reports).toHaveLength(1);
+  });
+
+  it("keeps a note per language for a card id in both decks", async () => {
+    await a.saveNote("hotel-hotel", "el hotel", T0);
+    await de.saveNote("hotel-hotel", "das Hotel", T0 + 1000);
+    await sync(a, remote);
+    await sync(de, german);
+    await sync(a, remote);
+    await sync(de2, german);
+
+    expect((await a.getNote("hotel-hotel"))?.text).toBe("el hotel");
+    expect((await de.getNote("hotel-hotel"))?.text).toBe("das Hotel");
+    expect((await de2.getNote("hotel-hotel"))?.text).toBe("das Hotel");
+    expect(remote.notes.map((n) => n.text)).toEqual(["el hotel"]);
+    expect(german.notes.map((n) => n.text)).toEqual(["das Hotel"]);
+  });
+
+  it("a German reset leaves Spanish progress and replay alone", async () => {
+    await rate(a, "casa-house", "good", T0);
+    await rate(de, "haus-house", "good", T0);
+    await sync(a, remote);
+    await sync(de, german);
+    await sync(b, remote);
+    await sync(de2, german);
+    const spanish = await cardStates(b);
+    expect(spanish.map((s) => s.cardId)).toEqual(["casa-house"]);
+
+    await de.startOver(T0 + DAY);
+    await sync(de, german);
+    const result = await sync(b, remote);
+    expect(result).toMatchObject({
+      downloaded: { reviews: 0, notes: 0, resets: 0 },
+      replayed: false,
+    });
+    expect(await b.getResets()).toEqual([]);
+    expect(await cardStates(b)).toEqual(spanish);
+    expect(await b.getReviewsSinceReset()).toHaveLength(1);
+
+    // The other German device takes the reset.
+    const german2 = await sync(de2, german);
+    expect(german2).toMatchObject({
+      downloaded: { resets: 1 },
+      replayed: true,
+    });
+    expect(await cardStates(de2)).toEqual([]);
+    expect(remote.resets).toEqual([]);
+    expect(german.resets).toHaveLength(1);
+  });
+
+  it("pages through one language while the other's rows share the sequence", async () => {
+    remote = new FakeRemote({ lang: "es", pageSize: 2 });
+    german = remote.forLang("de");
+    // Interleave uploads so the Spanish rows' seq numbers have German ones between them.
+    for (let i = 0; i < 5; i++) {
+      await rate(a, `es-${i}`, "good", T0 + i * 1000);
+      await sync(a, remote);
+      await rate(de, `de-${i}`, "good", T0 + i * 1000 + 500);
+      await sync(de, german);
+    }
+    await sync(b, remote);
+    await sync(de2, german);
+    expect((await reviewsOf(b)).map((r) => r.cardId).sort()).toEqual(["es-0", "es-1", "es-2", "es-3", "es-4"]);
+    expect((await reviewsOf(de2)).map((r) => r.cardId).sort()).toEqual(["de-0", "de-1", "de-2", "de-3", "de-4"]);
+
+    // A later German row does not move the Spanish cursor past a later Spanish one.
+    await rate(de, "de-5", "good", T0 + 10_000);
+    await sync(de, german);
+    await rate(a, "es-5", "good", T0 + 11_000);
+    await sync(a, remote);
+    expect((await sync(b, remote)).downloaded.reviews).toBe(1);
+    expect((await sync(de2, german)).downloaded.reviews).toBe(1);
+  });
+});
+
 describe("the store's merge", () => {
   it("leaves a review it already has untouched, and survives a reopen", async () => {
     const idb = new IDBFactory();

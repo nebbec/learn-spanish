@@ -3,7 +3,7 @@
   "rank": 371,
   "kind": "content",
   "pos": "verb",
-  "es": "convertir",
+  "target": "convertir",
   "en": "to turn into",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "La bruja convirtió al príncipe en rana.",
+    "target": "La bruja convirtió al príncipe en rana.",
     "en": "The witch turned the prince into a frog."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONVERTIR sounds like convert: a magician converts, or turns, a rabbit into a dove.",
   "image": "/deck/img/convertir-turn-into.webp",
   "audio": {

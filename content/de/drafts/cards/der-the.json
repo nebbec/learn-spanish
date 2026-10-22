@@ -1,0 +1,21 @@
+{
+  "id": "der-the",
+  "rank": 1,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "der",
+  "en": "[The] man is tired.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Der Kaffee ist kalt.",
+    "en": "The coffee is cold."
+  },
+  "regional": null,
+  "trick": "DER sounds like \"dare\": I dare the man to drink the coffee.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/der-the.word.mp3",
+    "sentence": "/deck-de/audio/der-the.sentence.mp3"
+  }
+}

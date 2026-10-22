@@ -3,17 +3,17 @@
   "rank": 557,
   "kind": "content",
   "pos": "adjective",
-  "es": "siguiente",
+  "target": "siguiente",
   "en": "next",
   "hint": "the following one, not próximo",
   "grammar": {
     "feminine": "siguiente"
   },
   "example": {
-    "es": "Nos vemos la semana siguiente.",
+    "target": "Nos vemos la semana siguiente.",
     "en": "See you the following week."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIGUIENTE sounds like 'see, good gente': see the good people waiting in line, then call the next one.",
   "image": "/deck/img/siguiente-next.webp",
   "audio": {

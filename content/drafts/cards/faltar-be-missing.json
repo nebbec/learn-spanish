@@ -3,7 +3,7 @@
   "rank": 529,
   "kind": "content",
   "pos": "verb",
-  "es": "faltar",
+  "target": "faltar",
   "en": "to be missing",
   "hint": "to be lacking or still needed",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Falta una silla en la mesa.",
+    "target": "Falta una silla en la mesa.",
     "en": "There's a chair missing at the table."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FALTAR sounds like \"fault\": it's always someone's fault when something is missing.",
   "image": "/deck/img/faltar-be-missing.webp",
   "audio": {

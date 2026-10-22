@@ -3,7 +3,7 @@
   "rank": 157,
   "kind": "content",
   "pos": "verb",
-  "es": "tratar",
+  "target": "tratar",
   "en": "to treat",
   "hint": "how you deal with someone",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Ella me trata muy bien.",
+    "target": "Ella me trata muy bien.",
     "en": "She treats me really well."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRATAR sounds like \"treat her\": always treat her kindly.",
   "image": "/deck/img/tratar-treat.webp",
   "audio": {

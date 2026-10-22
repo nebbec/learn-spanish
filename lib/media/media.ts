@@ -6,12 +6,13 @@
 // ahead plus every seen card as a matter of course, and the whole deck when
 // "Download everything" is pressed in settings.
 
+import { NAMES } from "@/lang";
 import type { Card } from "@/lib/deck/types";
 import { DEFAULT_BATCH_SIZE, learnQueue, type CardStates } from "@/lib/queues";
 import { isSeen } from "@/lib/scheduler";
 
 /** The cache that holds art and audio. Its name must not start with the worker's shell prefix. */
-export const MEDIA_CACHE = "learn-spanish-media";
+export const MEDIA_CACHE = NAMES.mediaCache;
 
 /** How many Learn batches of art and audio are kept ahead of the next unseen card. */
 export const BATCHES_AHEAD = 3;

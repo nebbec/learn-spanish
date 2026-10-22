@@ -3,7 +3,7 @@
   "rank": 497,
   "kind": "content",
   "pos": "noun",
-  "es": "el cambio",
+  "target": "el cambio",
   "en": "change",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Necesito un cambio en mi vida.",
+    "target": "Necesito un cambio en mi vida.",
     "en": "I need a change in my life."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMBIO sounds like \"come be-o\": come be someone new, because change is good.",
   "image": "/deck/img/cambio-change.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 787,
   "kind": "content",
   "pos": "noun",
-  "es": "el testigo",
+  "target": "el testigo",
   "en": "witness",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ella es la única testigo del accidente.",
+    "target": "Ella es la única testigo del accidente.",
     "en": "She is the only witness to the accident."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TESTIGO sounds like \"testify, go!\": the witness is told to go testify in court.",
   "image": "/deck/img/testigo-witness.webp",
   "audio": {

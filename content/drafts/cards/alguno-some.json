@@ -3,15 +3,15 @@
   "rank": 92,
   "kind": "glue",
   "pos": "determiner",
-  "es": "alguno",
+  "target": "alguno",
   "en": "[some] day I will travel",
   "hint": "becomes algún before a masculine noun",
   "grammar": null,
   "example": {
-    "es": "Algún día voy a viajar a México.",
+    "target": "Algún día voy a viajar a México.",
     "en": "Someday I'm going to travel to Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALGUNO sounds like \"all goo, no\": some of it is goo, but not all.",
   "image": null,
   "audio": {

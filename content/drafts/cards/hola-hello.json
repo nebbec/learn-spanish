@@ -3,15 +3,15 @@
   "rank": 88,
   "kind": "content",
   "pos": "other",
-  "es": "hola",
+  "target": "hola",
   "en": "hello",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¡Hola, Ana! Sí, yo insisto.",
+    "target": "¡Hola, Ana! Sí, yo insisto.",
     "en": "Hello, Ana! Yes, I insist."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HOLA sounds like \"hello\" with an O and an A: you holler hola to say hello.",
   "image": "/deck/img/hola-hello.webp",
   "audio": {

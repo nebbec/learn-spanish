@@ -3,7 +3,7 @@
   "rank": 110,
   "kind": "content",
   "pos": "verb",
-  "es": "gustar",
+  "target": "gustar",
   "en": "to like",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me gusta mucho la pizza.",
+    "target": "Me gusta mucho la pizza.",
     "en": "I really like pizza."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GUSTAR sounds like gusto: you eat the food you like with gusto.",
   "image": "/deck/img/gustar-like.webp",
   "audio": {

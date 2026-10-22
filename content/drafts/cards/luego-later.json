@@ -3,15 +3,15 @@
   "rank": 188,
   "kind": "content",
   "pos": "adverb",
-  "es": "luego",
+  "target": "luego",
   "en": "later, then",
   "hint": "as in hasta ___ (see you later); not después or entonces",
   "grammar": null,
   "example": {
-    "es": "Te llamo luego, ahora estoy ocupado.",
+    "target": "Te llamo luego, ahora estoy ocupado.",
     "en": "I'll call you later, I'm busy now."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LUEGO sounds like \"loo, ego\": first the loo, then later your ego gets the mirror.",
   "image": "/deck/img/luego-later.webp",
   "audio": {

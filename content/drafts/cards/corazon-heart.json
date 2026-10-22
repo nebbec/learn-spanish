@@ -3,7 +3,7 @@
   "rank": 302,
   "kind": "content",
   "pos": "noun",
-  "es": "el corazón",
+  "target": "el corazón",
   "en": "heart",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te quiero con todo mi corazón.",
+    "target": "Te quiero con todo mi corazón.",
     "en": "I love you with all my heart."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CORAZÓN sounds like \"core zone\": your heart beats in the core zone of your chest.",
   "image": "/deck/img/corazon-heart.webp",
   "audio": {

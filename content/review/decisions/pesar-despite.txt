@@ -8,23 +8,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to trick.
 decision: approve
 
-id:         pesar-despite
-kind:       glue
-pos:        preposition
-es:         a pesar de
-en:         [despite] the rain
-hint:       three-word phrase
-example.es: Salimos a pesar de la lluvia.
-example.en: We went out despite the rain.
-spain:
-trick:      A PESAR DE: even with a problem weighing (pesar) on you, you keep going anyway.
+id:             pesar-despite
+kind:           glue
+pos:            preposition
+target:         a pesar de
+en:             [despite] the rain
+hint:           three-word phrase
+example.target: Salimos a pesar de la lluvia.
+example.en:     We went out despite the rain.
+regional.where:
+regional.text:
+trick:          A PESAR DE: even with a problem weighing (pesar) on you, you keep going anyway.
 
 # The draft this file was made from. Do not change it.
-draft: 6dc0fbbf8b588b07
+draft: 0d3adb4d3c8ff424

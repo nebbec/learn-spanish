@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the hint.
 decision: approve
 
-id:         gracioso-funny
-kind:       content
-pos:        adjective
-es:         gracioso
-en:         funny
-hint:       makes you laugh; not divertido or chistoso
-feminine:   graciosa
-example.es: Tu hermano es muy gracioso.
-example.en: Your brother is really funny.
-spain:
-trick:      GRACIOSO sounds like gracious, but a gracious host who tells jokes all night is just plain funny.
+id:             gracioso-funny
+kind:           content
+pos:            adjective
+target:         gracioso
+en:             funny
+hint:           makes you laugh; not divertido or chistoso
+feminine:       graciosa
+example.target: Tu hermano es muy gracioso.
+example.en:     Your brother is really funny.
+regional.where:
+regional.text:
+trick:          GRACIOSO sounds like gracious, but a gracious host who tells jokes all night is just plain funny.
 
 # The draft this file was made from. Do not change it.
-draft: 73c6a595fa5250b5
+draft: ab587a54294ddc77

@@ -3,7 +3,7 @@
   "rank": 311,
   "kind": "content",
   "pos": "noun",
-  "es": "la clase",
+  "target": "la clase",
   "en": "kind, sort",
   "hint": "not tipo; as in what kind of person",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Qué clase de persona hace eso?",
+    "target": "¿Qué clase de persona hace eso?",
     "en": "What kind of person does that?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CLASE sounds like class: things in the same class are the same kind.",
   "image": "/deck/img/clase-kind.webp",
   "audio": {

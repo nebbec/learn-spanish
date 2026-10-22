@@ -3,7 +3,7 @@
   "rank": 585,
   "kind": "content",
   "pos": "noun",
-  "es": "la atención",
+  "target": "la atención",
   "en": "attention",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Presta atención, por favor.",
+    "target": "Presta atención, por favor.",
     "en": "Pay attention, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ATENCIÓN sounds like attention: say it slowly, a-ten-SYON, and everyone turns to look.",
   "image": "/deck/img/atencion-attention.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 395,
   "kind": "content",
   "pos": "noun",
-  "es": "la orden",
+  "target": "la orden",
   "en": "order",
   "hint": "a command",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "El capitán dio una orden.",
+    "target": "El capitán dio una orden.",
     "en": "The captain gave an order."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ORDEN sounds like order-in: the sergeant barks an order and everyone files in.",
   "image": "/deck/img/orden-command.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 314,
   "kind": "content",
   "pos": "noun",
-  "es": "la realidad",
+  "target": "la realidad",
   "en": "reality",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "En realidad, no me gusta el café.",
+    "target": "En realidad, no me gusta el café.",
     "en": "Actually, I don't like coffee."
   },
-  "spain": null,
+  "regional": null,
   "trick": "REALIDAD sounds like \"real, dad\": Dad tells you to face reality and keep it real.",
   "image": "/deck/img/realidad-reality.webp",
   "audio": {

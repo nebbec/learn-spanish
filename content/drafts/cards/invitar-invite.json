@@ -3,7 +3,7 @@
   "rank": 482,
   "kind": "content",
   "pos": "verb",
-  "es": "invitar",
+  "target": "invitar",
   "en": "to invite",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me invitó a su fiesta de cumpleaños.",
+    "target": "Me invitó a su fiesta de cumpleaños.",
     "en": "She invited me to her birthday party."
   },
-  "spain": null,
+  "regional": null,
   "trick": "INVITAR sounds like invite-ar: just add -ar to invite and you're asking friends over.",
   "image": "/deck/img/invitar-invite.webp",
   "audio": {

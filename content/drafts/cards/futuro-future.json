@@ -3,7 +3,7 @@
   "rank": 558,
   "kind": "content",
   "pos": "noun",
-  "es": "el futuro",
+  "target": "el futuro",
   "en": "future",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Nadie sabe qué pasará en el futuro.",
+    "target": "Nadie sabe qué pasará en el futuro.",
     "en": "Nobody knows what will happen in the future."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FUTURO sounds like \"few to row\": in the future, only a few will still row boats.",
   "image": "/deck/img/futuro-future.webp",
   "audio": {

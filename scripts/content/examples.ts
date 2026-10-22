@@ -34,7 +34,9 @@ import {
   knownBefore,
   wordsBefore,
 } from "./known-words";
+import { GERMAN_EXAMPLE_SCHEMA, GERMAN_EXAMPLE_SYSTEM } from "./prompts-de";
 import { cardHash, readDraftCard } from "./reviewing";
+import type { LangCode } from "./script-lang";
 import type { TagStore } from "./tagging";
 
 type Rec = Record<string, unknown>;
@@ -59,6 +61,12 @@ export const EXAMPLE_SCHEMA: Rec = {
   properties: {
     example: { type: "object", additionalProperties: false, required: ["es", "en"], properties: { es: text, en: text } },
   },
+};
+
+/** The redraft's system prompt and schema per language (DE7): German's names the sentence `target`. */
+export const EXAMPLE_REQUESTS: Readonly<Record<LangCode, { system: string; schema: Rec }>> = {
+  es: { system: EXAMPLE_SYSTEM_PROMPT, schema: EXAMPLE_SCHEMA },
+  de: { system: GERMAN_EXAMPLE_SYSTEM, schema: GERMAN_EXAMPLE_SCHEMA },
 };
 
 /** One card whose example is redrafted. */
@@ -105,6 +113,7 @@ export function exampleJobs(
 
 function grammarLine(card: DraftCard): string | null {
   const g = card.grammar as Record<string, unknown> | null;
+  if (g && isRec(g.present) && "ich" in g.present) return `Present tense: ich ${g.present.ich} · du ${g.present.du} · er ${g.present.er}`;
   if (g && isRec(g.present)) return `Present tense: yo ${g.present.yo} · tú ${g.present.tu} · él ${g.present.el}`;
   if (g && typeof g.feminine === "string") return `Feminine: ${g.feminine}`;
   return null;
@@ -116,9 +125,9 @@ export function examplePrompt(job: ExampleJob): string {
   return [
     `Card (${card.kind}, ${card.pos}), in ${place}:`,
     `Prompt: ${card.en}${card.hint ? ` (${card.hint})` : ""}`,
-    `Answer: ${card.es}`,
+    `Answer: ${card.target}`,
     grammarLine(card),
-    `Current example: ${card.example.es} = ${card.example.en}`,
+    `Current example: ${card.example.target} = ${card.example.en}`,
     check.ok ? "Why it is redrafted: asked for by a person." : `Why it is redrafted: ${exampleProblem(check)}`,
     "",
     job.met.length
@@ -132,13 +141,15 @@ export function examplePrompt(job: ExampleJob): string {
 }
 
 /** The guard: a valid card with only its example changed, and an example that passes the known-words check. */
-export function guardExample(output: unknown, job: ExampleJob, lemmas: Lemmas): Guarded {
+export function guardExample(output: unknown, job: ExampleJob, lemmas: Lemmas, lang: LangCode = "es"): Guarded {
   if (!isRec(output) || !isRec(output.example)) return { ok: false, kind: "shape", fields: [] };
   const g = new Guard();
-  const example = { es: g.text(output.example.es, "example.es"), en: g.text(output.example.en, "example.en") };
+  const key = lang === "es" ? "example.es" : "example.target";
+  const raw = lang === "es" ? output.example.es : output.example.target;
+  const example = { target: g.text(raw, key), en: g.text(output.example.en, "example.en") };
   const card: DraftCard = { ...job.card, example };
-  guardValid(card, g);
-  if (!g.fields.size && !checkExample({ ...card, unit: job.placed.unit }, job.known, lemmas).ok) g.fail("example.es");
+  guardValid(card, g, lang);
+  if (!g.fields.size && !checkExample({ ...card, unit: job.placed.unit }, job.known, lemmas).ok) g.fail(key);
   if (g.fields.size > 0) return { ok: false, kind: "invalid", fields: [...g.fields].sort() };
   return { ok: true, cards: [card], skip: null };
 }
@@ -158,8 +169,8 @@ export function exampleTasks(jobs: ExampleJob[], drafts: DraftStore, tags: TagSt
     done: job.check.ok,
     log: { group: "example", rank: job.card.rank, id: job.id },
     failedName: `example-${job.id}`,
-    request: { system: EXAMPLE_SYSTEM_PROMPT, prompt: examplePrompt(job), schema: EXAMPLE_SCHEMA },
-    guard: (output) => guardExample(output, job, lemmas),
+    request: { ...EXAMPLE_REQUESTS[drafts.lang], prompt: examplePrompt(job) },
+    guard: (output) => guardExample(output, job, lemmas, drafts.lang),
     save: (cards) => saveExample(drafts, tags, job, cards[0]),
   }));
 }

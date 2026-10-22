@@ -3,7 +3,7 @@
   "rank": 434,
   "kind": "content",
   "pos": "noun",
-  "es": "la prueba",
+  "target": "la prueba",
   "en": "proof",
   "hint": "evidence",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No tienes ninguna prueba de eso.",
+    "target": "No tienes ninguna prueba de eso.",
     "en": "You don't have any proof of that."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRUEBA sounds like prove-a: the proof is what proves a claim in court.",
   "image": "/deck/img/prueba-proof.webp",
   "audio": {

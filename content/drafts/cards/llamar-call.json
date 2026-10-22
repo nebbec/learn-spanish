@@ -3,7 +3,7 @@
   "rank": 82,
   "kind": "content",
   "pos": "verb",
-  "es": "llamar",
+  "target": "llamar",
   "en": "to call",
   "hint": "phone, call out",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Hoy llamo a mi madre.",
+    "target": "Hoy llamo a mi madre.",
     "en": "I'm calling my mother today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLAMAR starts like llama: picture a llama on the phone, calling you from the Andes.",
   "image": "/deck/img/llamar-call.webp",
   "audio": {

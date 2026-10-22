@@ -7,27 +7,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example using only common words (cuando, hacer, eso) in place of the redraft.
 decision: approve
 
-id:         odiar-hate
-kind:       content
-pos:        verb
-es:         odiar
-en:         to hate
+id:             odiar-hate
+kind:           content
+pos:            verb
+target:         odiar
+en:             to hate
 hint:
-yo:         odio
-tu:         odias
-el:         odia
-irregular:  no
-example.es: Odio cuando haces eso.
-example.en: I hate it when you do that.
-spain:
-trick:      ODIAR sounds like "oh dear": oh dear, it's Monday again, and you hate it.
+yo:             odio
+tu:             odias
+el:             odia
+irregular:      no
+example.target: Odio cuando haces eso.
+example.en:     I hate it when you do that.
+regional.where:
+regional.text:
+trick:          ODIAR sounds like "oh dear": oh dear, it's Monday again, and you hate it.
 
 # The draft this file was made from. Do not change it.
-draft: 4a5d0c11a121d57d
+draft: f7d1dd51fb3e6782

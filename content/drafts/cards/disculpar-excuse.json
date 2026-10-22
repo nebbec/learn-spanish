@@ -3,7 +3,7 @@
   "rank": 305,
   "kind": "content",
   "pos": "verb",
-  "es": "disculpar",
+  "target": "disculpar",
   "en": "to excuse",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Disculpe, ¿dónde está el baño?",
+    "target": "Disculpe, ¿dónde está el baño?",
     "en": "Excuse me, where is the bathroom?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "DISCULPAR sounds like this culprit: please excuse this culprit, he didn't mean it.",
   "image": "/deck/img/disculpar-excuse.webp",
   "audio": {

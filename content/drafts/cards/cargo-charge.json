@@ -3,7 +3,7 @@
   "rank": 651,
   "kind": "content",
   "pos": "noun",
-  "es": "el cargo",
+  "target": "el cargo",
   "en": "charge",
   "hint": "a criminal accusation, as in to face charges",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "La policía retiró los cargos contra él.",
+    "target": "La policía retiró los cargos contra él.",
     "en": "The police dropped the charges against him."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARGO sounds like cargo: the smuggler caught with illegal cargo now faces serious charges.",
   "image": "/deck/img/cargo-charge.webp",
   "audio": {

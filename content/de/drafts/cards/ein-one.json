@@ -1,0 +1,21 @@
+{
+  "id": "ein-one",
+  "rank": 6,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "ein",
+  "en": "Just [one] beer, please",
+  "hint": "before a noun, not counting",
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke nur ein Bier.",
+    "en": "I'm only drinking one beer."
+  },
+  "regional": null,
+  "trick": "EIN is the start of Einstein, which literally means one stone.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ein-one.word.mp3",
+    "sentence": "/deck-de/audio/ein-one.sentence.mp3"
+  }
+}

@@ -3,7 +3,7 @@
   "rank": 753,
   "kind": "content",
   "pos": "noun",
-  "es": "el cumpleaños",
+  "target": "el cumpleaños",
   "en": "birthday",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mañana es mi cumpleaños.",
+    "target": "Mañana es mi cumpleaños.",
     "en": "Tomorrow is my birthday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUMPLEAÑOS sounds like \"complete years\": on your birthday you complete another year.",
   "image": "/deck/img/cumpleanos-birthday.webp",
   "audio": {

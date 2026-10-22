@@ -3,7 +3,7 @@
   "rank": 364,
   "kind": "content",
   "pos": "verb",
-  "es": "decidir",
+  "target": "decidir",
   "en": "to decide",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Tú decides adónde vamos esta noche.",
+    "target": "Tú decides adónde vamos esta noche.",
     "en": "You decide where we go tonight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DECIDIR sounds like decide-ear: you decide once your ear hears all the options.",
   "image": "/deck/img/decidir-decide.webp",
   "audio": {

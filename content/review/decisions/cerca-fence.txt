@@ -9,24 +9,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         cerca-fence
-kind:       content
-pos:        noun
-es:         la cerca
-en:         fence
-hint:       around a yard or field; the same word as 'near'
-gender:     f
-article:    la
-example.es: El perro saltó la cerca.
-example.en: The dog jumped the fence.
-spain:      la valla
-trick:      CERCA sounds like circle: a fence circles the yard.
+id:             cerca-fence
+kind:           content
+pos:            noun
+target:         la cerca
+en:             fence
+hint:           around a yard or field; the same word as 'near'
+gender:         f
+article:        la
+example.target: El perro saltó la cerca.
+example.en:     The dog jumped the fence.
+regional.where: Spain
+regional.text:  la valla
+trick:          CERCA sounds like circle: a fence circles the yard.
 
 # The draft this file was made from. Do not change it.
-draft: fb43156b9cc11b17
+draft: 54595ccf872be2de

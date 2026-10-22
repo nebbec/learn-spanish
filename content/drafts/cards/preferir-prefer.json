@@ -3,7 +3,7 @@
   "rank": 540,
   "kind": "content",
   "pos": "verb",
-  "es": "preferir",
+  "target": "preferir",
   "en": "to prefer",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Prefiero el café sin azúcar.",
+    "target": "Prefiero el café sin azúcar.",
     "en": "I prefer coffee without sugar."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PREFERIR sounds like \"prefer here\": you'd prefer to stay right here.",
   "image": "/deck/img/preferir-prefer.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 231,
   "kind": "content",
   "pos": "noun",
-  "es": "la familia",
+  "target": "la familia",
   "en": "family",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi familia vive en Guadalajara.",
+    "target": "Mi familia vive en Guadalajara.",
     "en": "My family lives in Guadalajara."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FAMILIA sounds like \"familiar\": your family are the most familiar faces you know.",
   "image": "/deck/img/familia-family.webp",
   "audio": {

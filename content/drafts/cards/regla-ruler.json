@@ -3,7 +3,7 @@
   "rank": 775,
   "kind": "content",
   "pos": "noun",
-  "es": "la regla",
+  "target": "la regla",
   "en": "ruler",
   "hint": "measuring tool",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Me prestas tu regla?",
+    "target": "¿Me prestas tu regla?",
     "en": "Can you lend me your ruler?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "REGLA sounds like 'regular': a ruler draws nice, regular straight lines.",
   "image": "/deck/img/regla-ruler.webp",
   "audio": {

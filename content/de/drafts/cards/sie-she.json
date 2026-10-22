@@ -1,0 +1,21 @@
+{
+  "id": "sie-she",
+  "rank": 4,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "sie",
+  "en": "[She] is my sister.",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ist sie deine Schwester?",
+    "en": "Is she your sister?"
+  },
+  "regional": null,
+  "trick": "SIE sounds like \"zee\": see her over there? She is the one you see.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/sie-she.word.mp3",
+    "sentence": "/deck-de/audio/sie-she.sentence.mp3"
+  }
+}

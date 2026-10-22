@@ -3,7 +3,7 @@
   "rank": 204,
   "kind": "content",
   "pos": "noun",
-  "es": "el mal",
+  "target": "el mal",
   "en": "evil",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El bien siempre gana contra el mal.",
+    "target": "El bien siempre gana contra el mal.",
     "en": "Good always wins against evil."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MAL sounds like the start of malice and malevolent, words full of evil.",
   "image": "/deck/img/mal-evil.webp",
   "audio": {

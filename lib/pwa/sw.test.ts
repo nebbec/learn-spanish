@@ -2,6 +2,7 @@ import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { MASCOT_FILES } from "@/components/motion/Mascot";
+import { LANGS, storageNames, type LangConfig } from "@/lang";
 import { ROUTES } from "@/lib/routes";
 
 // Runs public/sw.js itself against a pretend browser: a server that can be
@@ -10,10 +11,11 @@ import { ROUTES } from "@/lib/routes";
 const PUBLIC = path.join(__dirname, "..", "..", "public");
 const SOURCE = readFileSync(path.join(PUBLIC, "sw.js"), "utf8");
 // Every file the hero mascot shows, as the app names them.
-const MASCOT = [
-  ...(["idle", "celebrate"] as const).flatMap((pose) => Object.values(MASCOT_FILES[pose])),
-  MASCOT_FILES.still,
+const mascotOf = (files: LangConfig["mascot"]) => [
+  ...(["idle", "celebrate"] as const).flatMap((pose) => Object.values(files[pose])),
+  files.still,
 ];
+const MASCOT = mascotOf(MASCOT_FILES);
 const ORIGIN = "https://app.test";
 
 const CHUNK = "/_next/static/chunks/main-abc123.js";
@@ -33,6 +35,7 @@ function site(): Record<string, string> {
     "/settings": page("settings"),
     "/tips": page("tips"),
     "/deck/deck.json": '{"version":1,"cards":[]}',
+    "/deck-de/deck.json": '{"version":1,"cards":[],"lang":"de"}',
     "/manifest.webmanifest": "{}",
     "/icon-192.png": "png",
     "/icon-512.png": "png",
@@ -42,7 +45,11 @@ function site(): Record<string, string> {
     [CSS]: `@font-face{src:url(../media/nunito-latin.woff2) format("woff2")}`,
     [FONT]: "font",
     "/deck/img/casa.svg": "<svg/>",
-    ...Object.fromEntries(MASCOT.map((file) => [file, `mascot ${file}`])),
+    ...Object.fromEntries(
+      Object.values(LANGS)
+        .flatMap((lang) => mascotOf(lang.mascot))
+        .map((file) => [file, `mascot ${file}`]),
+    ),
   };
 }
 
@@ -81,7 +88,7 @@ interface FetchEventLike {
   waitUntil(work: Promise<unknown>): void;
 }
 
-function browser(version = "one") {
+function browser(version = "one", lang?: string) {
   const files = site();
   const caches = new FakeCaches();
   const listeners = new Map<string, (event: never) => void>();
@@ -96,7 +103,7 @@ function browser(version = "one") {
   };
 
   const self = {
-    location: new URL(`${ORIGIN}/sw.js?v=${version}`),
+    location: new URL(`${ORIGIN}/sw.js?v=${version}${lang ? `&lang=${lang}` : ""}`),
     addEventListener: (type: string, listener: (event: never) => void) => listeners.set(type, listener),
     skipWaiting: async () => void (state.skippedWaiting = true),
     clients: { claim: async () => void (state.claimed = true) },
@@ -137,8 +144,8 @@ function browser(version = "one") {
   return { files, caches, state, lifecycle, request, text };
 }
 
-async function installed(version = "one") {
-  const b = browser(version);
+async function installed(version = "one", lang?: string) {
+  const b = browser(version, lang);
   await b.lifecycle("install");
   await b.lifecycle("activate");
   return b;
@@ -309,5 +316,52 @@ describe("service worker", () => {
     expect(await next.caches.keys()).toContain("learn-spanish-shell-one");
     await next.lifecycle("activate");
     expect((await next.caches.keys()).sort()).toEqual(["learn-spanish-media", "learn-spanish-shell-two"]);
+  });
+  it.each(["es", "de"] as const)("agrees with the language config: caches, deck, mascot and icons (%s)", async (code) => {
+    const lang = LANGS[code];
+    const names = storageNames(lang);
+    const b = await installed("one", code);
+    expect(await b.caches.keys()).toEqual([`${names.shellPrefix}one`]);
+    const shell = b.caches.stores.get(`${names.shellPrefix}one`)!;
+    const icons = [lang.icons.icon192, lang.icons.icon512, lang.icons.apple];
+    for (const file of [`${lang.deckPath}deck.json`, ...mascotOf(lang.mascot), ...icons]) {
+      expect(shell.has(file), file).toBe(true);
+      expect(existsSync(path.join(PUBLIC, file)), `public${file}`).toBe(true);
+    }
+    // A worker for another language does not store this one's deck.
+    const other = code === "es" ? LANGS.de : LANGS.es;
+    expect(shell.has(`${other.deckPath}deck.json`)).toBe(false);
+  });
+
+  it("keeps the Spanish names when no language is named", async () => {
+    const b = await installed("one");
+    expect(await b.caches.keys()).toEqual(["learn-spanish-shell-one"]);
+    expect(b.caches.stores.get("learn-spanish-shell-one")!.has("/deck/deck.json")).toBe(true);
+  });
+
+  it("German: stores its own shell, reads the German media cache and Spanish stills, and leaves Spanish caches alone", async () => {
+    // Development serves both languages from localhost, so their caches meet in one browser.
+    const spanish = await installed("one");
+    const media = await spanish.caches.open("learn-spanish-media");
+    await media.put("/deck/img/casa.svg", new Response("spanish art"));
+
+    const german = browser("two", "de");
+    german.caches.stores = spanish.caches.stores;
+    await german.lifecycle("install");
+    await german.lifecycle("activate");
+    expect((await german.caches.keys()).sort()).toEqual([
+      "learn-german-shell-two",
+      "learn-spanish-media",
+      "learn-spanish-shell-one",
+    ]);
+
+    const germanMedia = await german.caches.open("learn-german-media");
+    await germanMedia.put("/deck-de/audio/tisch.word.mp3", new Response("0123456789"));
+    german.state.online = false;
+    expect(await german.text("/deck-de/deck.json")).toBe(german.files["/deck-de/deck.json"]);
+    expect(await german.text("/deck/img/casa.svg")).toBe("spanish art");
+    const part = (await german.request("/deck-de/audio/tisch.word.mp3", { headers: { Range: "bytes=0-1" } }))!;
+    expect(part.status).toBe(206);
+    expect(await part.text()).toBe("01");
   });
 });

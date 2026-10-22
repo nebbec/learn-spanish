@@ -3,15 +3,15 @@
   "rank": 350,
   "kind": "glue",
   "pos": "adverb",
-  "es": "cuándo",
+  "target": "cuándo",
   "en": "[when] are you coming?",
   "hint": "question word, with accent",
   "grammar": null,
   "example": {
-    "es": "¿Cuándo quieres un café?",
+    "target": "¿Cuándo quieres un café?",
     "en": "When do you want a coffee?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUÁNDO sounds like \"quand-oh?\": you ask \"oh, when?\" with the accent like a raised eyebrow.",
   "image": null,
   "audio": {

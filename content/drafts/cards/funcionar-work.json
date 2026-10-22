@@ -3,7 +3,7 @@
   "rank": 298,
   "kind": "content",
   "pos": "verb",
-  "es": "funcionar",
+  "target": "funcionar",
   "en": "to work",
   "hint": "of a machine or plan, not a job",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi teléfono no funciona.",
+    "target": "Mi teléfono no funciona.",
     "en": "My phone doesn't work."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FUNCIONAR sounds like \"function\": when something functions, it works.",
   "image": "/deck/img/funcionar-work.webp",
   "audio": {

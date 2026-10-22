@@ -3,7 +3,7 @@
   "rank": 489,
   "kind": "content",
   "pos": "verb",
-  "es": "mandar",
+  "target": "mandar",
   "en": "to order (someone), to be in charge",
   "hint": "give orders, boss",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Aquí mando yo.",
+    "target": "Aquí mando yo.",
     "en": "I'm the one in charge here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MANDAR sounds like command: a mandate is an order from whoever is in charge.",
   "image": "/deck/img/mandar-order.webp",
   "audio": {

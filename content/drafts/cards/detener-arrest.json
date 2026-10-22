@@ -3,7 +3,7 @@
   "rank": 330,
   "kind": "content",
   "pos": "verb",
-  "es": "detener",
+  "target": "detener",
   "en": "to arrest",
   "hint": "police detaining someone; not arrestar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "La policía detuvo al ladrón anoche.",
+    "target": "La policía detuvo al ladrón anoche.",
     "en": "The police arrested the thief last night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DETENER sounds like \"detainer\": police detain and arrest the suspect.",
   "image": "/deck/img/detener-arrest.webp",
   "audio": {

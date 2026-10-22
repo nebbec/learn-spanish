@@ -3,7 +3,7 @@
   "rank": 621,
   "kind": "content",
   "pos": "noun",
-  "es": "la compañía",
+  "target": "la compañía",
   "en": "company",
   "hint": "a firm, or keeping someone company (not empresa)",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi papá trabaja en una compañía grande.",
+    "target": "Mi papá trabaja en una compañía grande.",
     "en": "My dad works at a big company."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMPAÑÍA sounds like company-ah: ah, what nice company you are, and your company pays well too!",
   "image": "/deck/img/compania-company.webp",
   "audio": {

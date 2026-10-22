@@ -3,7 +3,7 @@
   "rank": 791,
   "kind": "content",
   "pos": "noun",
-  "es": "la locura",
+  "target": "la locura",
   "en": "madness",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¡Esto es una locura!",
+    "target": "¡Esto es una locura!",
     "en": "This is madness!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "LOCURA sounds like loco-cure-a: madness is what a loco needs a cure for.",
   "image": "/deck/img/locura-madness.webp",
   "audio": {

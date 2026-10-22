@@ -3,7 +3,7 @@
   "rank": 675,
   "kind": "content",
   "pos": "noun",
-  "es": "el centro",
+  "target": "el centro",
   "en": "center",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Pon la mesa en el centro del cuarto.",
+    "target": "Pon la mesa en el centro del cuarto.",
     "en": "Put the table in the center of the room."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CENTRO sounds like center-oh: the arrow lands in the center and everyone says oh!",
   "image": "/deck/img/centro-center.webp",
   "audio": {

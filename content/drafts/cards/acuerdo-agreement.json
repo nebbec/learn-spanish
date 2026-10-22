@@ -3,7 +3,7 @@
   "rank": 143,
   "kind": "content",
   "pos": "noun",
-  "es": "el acuerdo",
+  "target": "el acuerdo",
   "en": "agreement",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Estoy de acuerdo contigo.",
+    "target": "Estoy de acuerdo contigo.",
     "en": "I agree with you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACUERDO sounds like \"a cord\": an agreement ties two people together like a cord.",
   "image": "/deck/img/acuerdo-agreement.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 673,
   "kind": "glue",
   "pos": "preposition",
-  "es": "salvo",
+  "target": "salvo",
   "en": "everyone [except] him",
   "hint": "not excepto or menos",
   "grammar": null,
   "example": {
-    "es": "Abrimos todos los días salvo el domingo.",
+    "target": "Abrimos todos los días salvo el domingo.",
     "en": "We're open every day except Sunday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SALVO sounds like salvage: you salvage everything except the one piece that sank.",
   "image": null,
   "audio": {

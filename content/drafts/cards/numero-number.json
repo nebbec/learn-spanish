@@ -3,7 +3,7 @@
   "rank": 340,
   "kind": "content",
   "pos": "noun",
-  "es": "el número",
+  "target": "el número",
   "en": "number",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Me das tu número de teléfono?",
+    "target": "¿Me das tu número de teléfono?",
     "en": "Can you give me your phone number?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "NÚMERO sounds like numerous: numerous things need a number to count them.",
   "image": "/deck/img/numero-number.webp",
   "audio": {

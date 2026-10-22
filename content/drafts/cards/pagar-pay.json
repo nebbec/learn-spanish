@@ -3,7 +3,7 @@
   "rank": 243,
   "kind": "content",
   "pos": "verb",
-  "es": "pagar",
+  "target": "pagar",
   "en": "to pay",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Hoy pago yo la cuenta.",
+    "target": "Hoy pago yo la cuenta.",
     "en": "I'm paying the bill today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PAGAR sounds like \"pay a guard\": you pay the guard to let you in.",
   "image": "/deck/img/pagar-pay.webp",
   "audio": {

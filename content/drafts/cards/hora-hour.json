@@ -3,7 +3,7 @@
   "rank": 156,
   "kind": "content",
   "pos": "noun",
-  "es": "la hora",
+  "target": "la hora",
   "en": "hour",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Te espero una hora, no más.",
+    "target": "Te espero una hora, no más.",
     "en": "I'll wait for you an hour, no more."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HORA sounds like \"hour-a\": an hour ticking by on the clock.",
   "image": "/deck/img/hora-hour.webp",
   "audio": {

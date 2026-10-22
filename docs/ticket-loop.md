@@ -14,7 +14,7 @@ Each ticket is sized to fit one agent's 100k context window, so every ticket mus
 
 ## Before the first ticket
 
-- Check the list against the board in design.md. Every "Depends on" must be earlier in the list or already Done. If one is not, stop and say which.
+- Check the list against the board in design.md, or for German tickets (`DE…`) the board in german.md. Every "Depends on" must be earlier in the list or already Done. If one is not, stop and say which.
 - Create and switch to a branch named after the range, in lower case: `tickets/a1-b4` for the example above. All tickets commit to that branch. Do not push.
 
 ## For each ticket, in order
@@ -27,7 +27,7 @@ Each ticket is sized to fit one agent's 100k context window, so every ticket mus
 
 Give each builder this, with the ticket ID filled in:
 
-- Read docs/design.md in full, then your ticket under "Tickets". Follow "Rules for every ticket". Finished tickets' notes are in [history.md](history.md); read there only the notes of the tickets yours depends on or whose code it touches.
+- Read docs/design.md in full; for a German ticket (`DE…`) read docs/german.md next. Then read your ticket under "Tickets". Follow "Rules for every ticket". Finished tickets' notes are in [history.md](history.md); read there only the notes of the tickets yours depends on or whose code it touches.
 - Do only ticket `<ID>`. Do not start other tickets or change code outside its scope.
 - When the ticket's "Done when" check passes, set its Status on the board to Done and commit, with the ticket ID at the start of the message.
 - If you cannot finish (blocked, or past about 60% of your context), set Status to Blocked, write a handoff note under the ticket saying what is done, what is left and why, commit, and report failure.

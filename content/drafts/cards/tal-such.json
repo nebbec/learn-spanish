@@ -3,15 +3,15 @@
   "rank": 151,
   "kind": "glue",
   "pos": "determiner",
-  "es": "tal",
+  "target": "tal",
   "en": "I never said [such] a thing",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Nunca dije tal cosa.",
+    "target": "Nunca dije tal cosa.",
     "en": "I never said such a thing."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TAL sounds like tall: such a tall tale nobody believed it.",
   "image": null,
   "audio": {

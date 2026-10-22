@@ -3,7 +3,7 @@
   "rank": 306,
   "kind": "content",
   "pos": "noun",
-  "es": "el punto",
+  "target": "el punto",
   "en": "point",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tienes razón, ese es un buen punto.",
+    "target": "Tienes razón, ese es un buen punto.",
     "en": "You're right, that's a good point."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PUNTO sounds like \"punt\": the kicker punts the ball to score a point.",
   "image": "/deck/img/punto-point.webp",
   "audio": {

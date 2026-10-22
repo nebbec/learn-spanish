@@ -3,7 +3,7 @@
   "rank": 148,
   "kind": "content",
   "pos": "verb",
-  "es": "buscar",
+  "target": "buscar",
   "en": "to look for",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Estoy buscando mis llaves.",
+    "target": "Estoy buscando mis llaves.",
     "en": "I'm looking for my keys."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BUSCAR sounds like \"bus car\": you look for your lost bag on every bus and car.",
   "image": "/deck/img/buscar-look-for.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 610,
   "kind": "content",
   "pos": "verb",
-  "es": "enterarse",
+  "target": "enterarse",
   "en": "to find out",
   "hint": "to hear about news, become aware",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Cómo te enteraste de la fiesta?",
+    "target": "¿Cómo te enteraste de la fiesta?",
     "en": "How did you find out about the party?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENTERARSE starts like enter: news enters your ears, and that's how you find out.",
   "image": "/deck/img/enterar-find-out.webp",
   "audio": {

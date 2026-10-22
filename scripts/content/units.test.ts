@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { checkTips, checkUnits, readTips, readUnits, unitCap, type TipEntry, type Unit } from "./units";
+import { GERMAN_FORM_VERBS, phraseJobs } from "./path-cards";
+import { CASE_WANT, checkTips, checkUnits, readTips, readUnits, unitCap, type TipEntry, type Unit } from "./units";
 
 const root = process.cwd();
 
@@ -42,6 +43,41 @@ describe("content/units.json and content/tips.json", () => {
   });
 });
 
+describe("content/de/units.json and content/de/tips.json (DE8)", () => {
+  const units = readUnits(root, "de");
+  const tipList = readTips(root, "de");
+  const wants = units.flatMap((u) => u.wants);
+
+  it("have no problems, and make phrase ids without a clash", () => {
+    expect(checkTips(tipList)).toEqual([]);
+    expect(checkUnits(units, tipList)).toEqual([]);
+    expect(phraseJobs(units).problems).toEqual([]);
+  });
+
+  it("hold 15 to 20 units, 12 to 15 tips, and a starter path of about 150 to 200 cards", () => {
+    expect(units.length).toBeGreaterThanOrEqual(15);
+    expect(units.length).toBeLessThanOrEqual(20);
+    expect(tipList.length).toBeGreaterThanOrEqual(12);
+    expect(tipList.length).toBeLessThanOrEqual(15);
+    const total = units.reduce((sum, u) => sum + unitCap(u), 0);
+    expect(total).toBeGreaterThanOrEqual(150);
+    expect(total).toBeLessThanOrEqual(200);
+  });
+
+  it("name the three forms of every German form verb, each in one unit", () => {
+    for (const { verb } of GERMAN_FORM_VERBS) {
+      const forms = units.filter((u) => u.wants.some((w) => /\((ich|du|er) /.test(w) && w.startsWith(`${verb}:`)));
+      expect(forms.map((u) => u.id), verb).toHaveLength(1);
+      expect(forms[0].wants.filter((w) => /\((ich|du|er) /.test(w) && w.startsWith(`${verb}:`)), verb).toHaveLength(3);
+    }
+  });
+
+  it("list the case wants for DE9 and the Sie chunks", () => {
+    expect(wants.filter((w) => w.startsWith(CASE_WANT)).length).toBeGreaterThanOrEqual(8);
+    expect(wants.filter((w) => w.startsWith("phrase: ") && /\bSie\b/.test(w)).length).toBeGreaterThanOrEqual(1);
+  });
+});
+
 describe("checkUnits", () => {
   it("accepts a sound plan, with cap left to its default", () => {
     expect(checkUnits([unit(), unit({ id: "unit-b", tip: "tip-one", cap: undefined })], tips)).toEqual([]);
@@ -74,6 +110,12 @@ describe("checkUnits", () => {
       'unit-a: a phrase want must read "phrase: <Spanish> = <English>"',
     ]);
     expect(checkUnits([{ ...unit(), extra: 1 }], tips)).toEqual(["unit-a: unknown fields extra"]);
+    expect(checkUnits([unit({ wants: ["case: einen Bruder = I have [a] brother"] })], tips)).toEqual([]);
+    for (const bad of ["case: einen Bruder", "case: einen Bruder = I have a brother", "case: den Mann = [I] see [the] man"]) {
+      expect(checkUnits([unit({ wants: [bad] })], tips)).toEqual([
+        'unit-a: a case want must read "case: <German> = <English with one [target]>"',
+      ]);
+    }
     expect(checkUnits({}, tips)).toEqual(["units: not a list"]);
   });
 });

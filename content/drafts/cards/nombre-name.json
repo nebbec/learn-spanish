@@ -3,7 +3,7 @@
   "rank": 187,
   "kind": "content",
   "pos": "noun",
-  "es": "el nombre",
+  "target": "el nombre",
   "en": "name",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Cuál es tu nombre?",
+    "target": "¿Cuál es tu nombre?",
     "en": "What's your name?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOMBRE sounds like \"number\": your name is the number the world calls you by.",
   "image": "/deck/img/nombre-name.webp",
   "audio": {

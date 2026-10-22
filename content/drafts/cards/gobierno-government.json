@@ -3,7 +3,7 @@
   "rank": 757,
   "kind": "content",
   "pos": "noun",
-  "es": "el gobierno",
+  "target": "el gobierno",
   "en": "government",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El gobierno subió los impuestos otra vez.",
+    "target": "El gobierno subió los impuestos otra vez.",
     "en": "The government raised taxes again."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GOBIERNO sounds like \"go, be in power\": the government tells everyone where to go.",
   "image": "/deck/img/gobierno-government.webp",
   "audio": {

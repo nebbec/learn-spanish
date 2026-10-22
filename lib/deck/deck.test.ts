@@ -2,7 +2,8 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
 import raw from "./fixture.json";
-import { fixtureCard, fixtureDeck } from "./fixture";
+import rawDe from "./fixture-de.json";
+import { fixtureCard, fixtureCardDe, fixtureDeck, fixtureDeckDe } from "./fixture";
 import { clearDeckCache, fetchDeck, loadDeck } from "./load";
 import { DeckError, parseDeck, validateCard, validateDeck, validateDraftCard, validateDraftCards } from "./validate";
 
@@ -38,8 +39,8 @@ describe("fixture deck", () => {
     const verbs = cards.flatMap((c) => (c.pos === "verb" && c.kind === "content" ? [c] : []));
 
     // A regular noun, and one whose gender is not what its ending suggests.
-    expect(fixtureCard("casa-house")).toMatchObject({ es: "la casa", grammar: { gender: "f" } });
-    expect(fixtureCard("problema-problem")).toMatchObject({ es: "el problema", grammar: { gender: "m" } });
+    expect(fixtureCard("casa-house")).toMatchObject({ target: "la casa", grammar: { gender: "f" } });
+    expect(fixtureCard("problema-problem")).toMatchObject({ target: "el problema", grammar: { gender: "m" } });
     // A regular and an irregular verb.
     expect(verbs.map((c) => c.grammar.irregular).sort()).toEqual([false, true]);
     expect(cards.some((c) => c.pos === "adjective")).toBe(true);
@@ -49,11 +50,11 @@ describe("fixture deck", () => {
     expect(glue).toHaveLength(3);
     expect(glue.every((c) => c.image === null && /\[.+\]/.test(c.en))).toBe(true);
     // A two-meaning pair: one Spanish word, two cards, two different prompts.
-    const pair = nouns.filter((c) => c.es === "el tiempo");
+    const pair = nouns.filter((c) => c.target === "el tiempo");
     expect(pair).toHaveLength(2);
     expect(new Set(pair.map((c) => c.en)).size).toBe(2);
     // A Spain footnote.
-    expect(cards.filter((c) => c.spain !== null).map((c) => c.spain)).toEqual(["el coche"]);
+    expect(cards.filter((c) => c.regional !== null).map((c) => c.regional)).toEqual([{ where: "Spain", text: "el coche" }]);
   });
 
   it("covers the learning path: two form cards, two phrase cards, two units and a tip", () => {
@@ -96,7 +97,7 @@ describe("validateCard rejects", () => {
   });
 
   it.each([
-    "id", "rank", "kind", "pos", "es", "en", "hint", "grammar", "example", "spain", "trick", "image", "audio",
+    "id", "rank", "kind", "pos", "target", "en", "hint", "grammar", "example", "regional", "trick", "image", "audio",
     "unit", "requires", "tip", "why",
   ])("a card missing %s", (field) => {
     // Without an id the card is reported as "card ?".
@@ -115,13 +116,17 @@ describe("validateCard rejects", () => {
     ["a rank given as text", "rank", "95"],
     ["an unknown kind", "kind", "filler"],
     ["an unknown part of speech", "pos", "article"],
-    ["an empty Spanish answer", "es", " "],
+    ["an empty answer", "target", " "],
     ["an empty prompt", "en", ""],
     ["an empty hint (should be null)", "hint", ""],
-    ["a numeric Spain alternative", "spain", 1],
+    ["a numeric regional footnote", "regional", 1],
+    ["a regional footnote as plain text", "regional", "el coche"],
+    ["a regional footnote with no region", "regional", { text: "el coche" }],
+    ["a regional footnote naming a region of another language", "regional", { where: "Austria", text: "el coche" }],
     ["an empty trick", "trick", ""],
     ["an example that is plain text", "example", "Mi casa es pequeña."],
-    ["an example with no English", "example", { es: "Mi casa es pequeña." }],
+    ["an example with no English", "example", { target: "Mi casa es pequeña." }],
+    ["an example still in format 2", "example", { es: "Mi casa es pequeña.", en: "My house is small." }],
     ["audio as a single path", "audio", "/deck/audio/casa.wav"],
     ["audio with no sentence clip", "audio", { word: "/deck/audio/casa.wav" }],
     ["an empty unit (should be null)", "unit", ""],
@@ -158,12 +163,12 @@ describe("validateCard rejects", () => {
   });
 
   describe("grammar that does not match the part of speech", () => {
-    it("a noun with no grammar, a bad gender, a bad article, or the article missing from es", () => {
+    it("a noun with no grammar, a bad gender, a bad article, or the article missing from target", () => {
       expect(errorsFor(card("casa-house", (c) => (c.grammar = null)))).toHaveLength(1);
       expect(errorsFor(card("casa-house", (c) => (c.grammar = { gender: "x", article: "la" })))).toHaveLength(1);
       expect(errorsFor(card("casa-house", (c) => (c.grammar = { gender: "f", article: "una" })))).toHaveLength(1);
-      expect(errorsFor(card("casa-house", (c) => (c.es = "casa")))).toEqual([
-        'card casa-house.es: a noun must start with its article "la"',
+      expect(errorsFor(card("casa-house", (c) => (c.target = "casa")))).toEqual([
+        'card casa-house.target: a noun must start with its article "la"',
       ]);
     });
 
@@ -204,7 +209,7 @@ describe("validateCard rejects", () => {
 
 describe("validateDeck rejects", () => {
   const deckWith = (cards: unknown, version: unknown = 1) =>
-    validateDeck({ format: 2, version, units: raw.units, tips: raw.tips, cards });
+    validateDeck({ format: 3, lang: "es", version, units: raw.units, tips: raw.tips, cards });
   const errorsOf = (result: ReturnType<typeof validateDeck>) => (result.ok ? [] : result.errors);
 
   it("a deck that is not an object, or has no card list or version", () => {
@@ -217,8 +222,30 @@ describe("validateDeck rejects", () => {
 
   it("a deck in format 1, with no units or tips", () => {
     const errors = errorsOf(validateDeck({ version: 1, cards: [] }));
-    expect(errors).toEqual(["deck.format: missing", "deck.units: missing", "deck.tips: missing"]);
-    expect(errorsOf(validateDeck({ ...raw, format: 1 }))).toEqual(["deck.format: must be 2"]);
+    expect(errors).toEqual(["deck.format: missing", "deck.lang: missing", "deck.units: missing", "deck.tips: missing"]);
+    expect(errorsOf(validateDeck({ ...raw, format: 1 }))).toEqual(["deck.format: must be 3"]);
+  });
+
+  it("a deck in format 2, with es and spain and no lang", () => {
+    const { lang, ...format2 } = { ...structuredClone(raw), format: 2 };
+    void lang;
+    format2.cards = format2.cards.map(({ target, regional, example, ...rest }) => ({
+      ...rest,
+      es: target,
+      spain: regional?.text ?? null,
+      example: { es: example.target, en: example.en },
+    })) as never;
+    const errors = errorsOf(validateDeck(format2));
+    expect(errors.slice(0, 2)).toEqual(["deck.lang: missing", "deck.format: must be 3"]);
+    expect(errors).toContain("card ir-form-yo.target: missing");
+    expect(errors).toContain("card ir-form-yo.es: unknown field");
+    expect(errors).toContain("card ir-form-yo.spain: unknown field");
+  });
+
+  it("a deck whose lang is unknown, or not the one expected", () => {
+    expect(errorsOf(validateDeck({ ...raw, lang: "fr" }))).toEqual(["deck.lang: must be one of es, de"]);
+    expect(errorsOf(validateDeck(raw, "de"))).toEqual(['deck.lang: is "es", but this app teaches "de"']);
+    expect(validateDeck(raw, "es").ok).toBe(true);
   });
 
   it("a malformed card, naming it", () => {
@@ -250,13 +277,13 @@ describe("form and phrase cards", () => {
     const hay = card("ir-form-yo", (c) =>
       Object.assign(c, {
         id: "haber-form-hay",
-        es: "hay",
+        target: "hay",
         en: "there is",
         grammar: { present: { yo: "he", tu: "has", el: "ha" }, irregular: true },
       }),
     );
     expect(errorsFor(hay)).toEqual([]);
-    expect(errorsFor(card("ir-form-tu", (c) => Object.assign(c, { id: "ir-form-el", es: "va" })))).toEqual([]);
+    expect(errorsFor(card("ir-form-tu", (c) => Object.assign(c, { id: "ir-form-el", target: "va" })))).toEqual([]);
     expect(errorsFor(card("phrase-going-home", (c) => (c.id = "phrase-im-going-home-now")))).toEqual([]);
   });
 
@@ -283,10 +310,10 @@ describe("form and phrase cards", () => {
 
   it("reject a content or glue card with a form or phrase id", () => {
     expect(errorsFor(card("ir-go", (c) => (c.id = "ir-form-yo")))).toEqual([
-      "card ir-form-yo.id: a content card cannot have a form or phrase id",
+      "card ir-form-yo.id: a content card cannot have a form, phrase or case id",
     ]);
     expect(errorsFor(card("de-of", (c) => (c.id = "phrase-of")))).toEqual([
-      "card phrase-of.id: a glue card cannot have a form or phrase id",
+      "card phrase-of.id: a glue card cannot have a form, phrase or case id",
     ]);
   });
 
@@ -294,13 +321,13 @@ describe("form and phrase cards", () => {
     expect(errorsFor(card("ir-form-yo", (c) => (c.image = null)))).toEqual([
       "card ir-form-yo.image: is required for a form card",
     ]);
-    const noun = card("ir-form-yo", (c) => Object.assign(c, { pos: "noun", es: "el voy", grammar: { gender: "m", article: "el" } }));
+    const noun = card("ir-form-yo", (c) => Object.assign(c, { pos: "noun", target: "el voy", grammar: { gender: "m", article: "el" } }));
     expect(errorsFor(noun)).toEqual(['card ir-form-yo.pos: must be "verb" for a form card']);
   });
 
   it("reject a form card whose answer is not its own form in the strip", () => {
-    expect(errorsFor(card("ir-form-yo", (c) => (c.es = "vas")))).toEqual([
-      "card ir-form-yo.es: must be the yo form in grammar.present",
+    expect(errorsFor(card("ir-form-yo", (c) => (c.target = "vas")))).toEqual([
+      "card ir-form-yo.target: must be the yo form in grammar.present",
     ]);
   });
 
@@ -349,7 +376,7 @@ describe("draft cards", () => {
       expect(validateDraftCard(draft(id))).toMatchObject({ ok: true });
     }
     expect(validateDraftCard(card("casa-house"))).toMatchObject({ ok: false });
-    expect(validateDraftCard({ ...draft("ir-form-yo"), es: "vas" })).toMatchObject({ ok: false });
+    expect(validateDraftCard({ ...draft("ir-form-yo"), target: "vas" })).toMatchObject({ ok: false });
   });
 
   it("are checked together for duplicate ids and prompts", () => {
@@ -463,7 +490,11 @@ describe("deck loader", () => {
     const deck = await fetchDeck(fetchImpl);
     expect(calls).toEqual(["/deck/deck.json"]);
     expect(deck.cards).toHaveLength(16);
-    expect(deck.byId.get("lo-him")?.es).toBe("lo");
+    expect(deck.byId.get("lo-him")?.target).toBe("lo");
+  });
+
+  it("refuses a deck of another language than the build's", async () => {
+    await expect(fetchDeck(respond(rawDe).fetchImpl)).rejects.toThrow('deck.lang: is "de", but this app teaches "es"');
   });
 
   it("throws on a failed request or an invalid deck", async () => {
@@ -478,5 +509,151 @@ describe("deck loader", () => {
     const [a, b] = await Promise.all([loadDeck(good.fetchImpl), loadDeck(good.fetchImpl)]);
     expect(a).toBe(b);
     expect(good.calls).toHaveLength(1);
+  });
+});
+
+describe("German fixture deck", () => {
+  /** A deep copy of a German fixture card, with changes applied, as untyped data. */
+  function de(id: string, change: (c: Loose) => void = () => {}): Loose {
+    const copy = structuredClone(fixtureCardDe(id)) as unknown as Loose;
+    change(copy);
+    return copy;
+  }
+  const errorsDe = (input: unknown) => {
+    const result = validateCard(input, "de");
+    return result.ok ? [] : result.errors;
+  };
+
+  it("is accepted by the validator as a German deck, and refused as a Spanish one", () => {
+    const result = validateDeck(rawDe, "de");
+    expect(result.ok ? [] : result.errors).toEqual([]);
+    expect(validateDeck(rawDe, "es").ok).toBe(false);
+    for (const c of fixtureDeckDe.cards) expect(errorsDe(c)).toEqual([]);
+  });
+
+  it("covers what DE3 lists", () => {
+    const cards = fixtureDeckDe.cards;
+    expect(fixtureDeckDe.lang).toBe("de");
+    // Nouns of three genders, each with its article and plural (or none).
+    const nouns = cards.filter((c) => c.pos === "noun");
+    expect(new Set(nouns.map((c) => c.grammar.gender))).toEqual(new Set(["m", "f", "n"]));
+    expect(fixtureCardDe("haus-house")).toMatchObject({ target: "das Haus", grammar: { article: "das", plural: "die Häuser" } });
+    expect(nouns.some((c) => "plural" in c.grammar && c.grammar.plural === null)).toBe(true);
+    // A strong verb and a separable one, written split.
+    expect(fixtureCardDe("gehen-go").grammar).toMatchObject({ irregular: true, separable: false, perfekt: { aux: "sein", participle: "gegangen" } });
+    expect(fixtureCardDe("anrufen-call").grammar).toMatchObject({ separable: true, present: { ich: "rufe an" }, perfekt: { aux: "haben" } });
+    // An adjective has no grammar.
+    expect(fixtureCardDe("gut-good")).toMatchObject({ pos: "adjective", grammar: null });
+    // A glue card, a form card with its pronoun, a phrase card.
+    expect(fixtureCardDe("mit-with")).toMatchObject({ kind: "glue", image: null });
+    expect(fixtureCardDe("sein-form-ich")).toMatchObject({ kind: "form", target: "ich bin" });
+    expect(fixtureCardDe("phrase-how-are-you")).toMatchObject({ kind: "phrase", grammar: null });
+    // Case cards: an article and noun, and a pronoun with no gender.
+    expect(cards.filter((c) => c.kind === "case").map((c) => [c.id, c.pos, c.grammar])).toEqual([
+      ["case-i-see-the-man", "determiner", { case: "akk", gender: "m", from: "der" }],
+      ["case-im-calling-you", "pronoun", { case: "akk", gender: null, from: "du" }],
+    ]);
+    // A regional footnote, a unit and a tip.
+    expect(cards.filter((c) => c.regional).map((c) => c.regional)).toEqual([{ where: "Austria", text: "der Jänner" }]);
+    expect(fixtureDeckDe.units.map((u) => u.id)).toEqual(["me-and-you"]);
+    expect(fixtureDeckDe.tips.map((t) => t.id)).toEqual(["tip-accusative"]);
+    // A still reused from the Spanish deck by meaning, under its Spanish path.
+    expect(fixtureCardDe("haus-house").image).toBe(fixtureCard("casa-house").image);
+  });
+
+  describe("rejects", () => {
+    it("a noun whose article does not match its gender, or is missing from target", () => {
+      expect(errorsDe(de("haus-house", (c) => ((c.grammar as Loose).article = "der")))).toEqual([
+        'card haus-house.grammar.article: must be "das" for gender "n"',
+      ]);
+      expect(errorsDe(de("haus-house", (c) => (c.target = "Haus")))).toEqual([
+        'card haus-house.target: a noun must start with its article "das"',
+      ]);
+      expect(errorsDe(de("haus-house", (c) => ((c.grammar as Loose).gender = "x")))).toEqual([
+        'card haus-house.grammar.gender: must be "m", "f" or "n"',
+      ]);
+      expect(errorsDe(de("haus-house", (c) => ((c.grammar as Loose).article = "el")))).toEqual([
+        "card haus-house.grammar.article: must be one of der, die, das",
+      ]);
+    });
+
+    it("a noun with no plural field, or a plural without die", () => {
+      expect(errorsDe(de("haus-house", (c) => delete (c.grammar as Loose).plural))).toEqual([
+        "card haus-house.grammar.plural: missing",
+      ]);
+      expect(errorsDe(de("haus-house", (c) => ((c.grammar as Loose).plural = "Häuser")))).toEqual([
+        'card haus-house.grammar.plural: must start with its article "die"',
+      ]);
+    });
+
+    it("Spanish grammar on a German noun or verb, and German grammar on a Spanish one", () => {
+      expect(errorsDe(de("haus-house", (c) => (c.grammar = { gender: "n", article: "das" })))).toEqual([
+        "card haus-house.grammar.plural: missing",
+      ]);
+      expect(errorsDe(de("gehen-go", (c) => (c.grammar = fixtureCard("ir-go").grammar))).length).toBeGreaterThan(0);
+      expect(errorsFor(card("ir-go", (c) => (c.grammar = fixtureCardDe("gehen-go").grammar))).length).toBeGreaterThan(0);
+    });
+
+    it("a separable verb whose forms are not split, and a verb with no Perfekt or a bad auxiliary", () => {
+      expect(errorsDe(de("anrufen-call", (c) => (((c.grammar as Loose).present as Loose).du = "anrufst")))).toEqual([
+        'card anrufen-call.grammar.present.du: a separable verb\'s form is written split ("rufe an")',
+      ]);
+      expect(errorsDe(de("gehen-go", (c) => delete (c.grammar as Loose).perfekt))).toEqual([
+        "card gehen-go.grammar.perfekt: missing",
+      ]);
+      expect(errorsDe(de("gehen-go", (c) => ((c.grammar as Loose).perfekt = { aux: "werden", participle: "gegangen" })))).toEqual([
+        'card gehen-go.grammar.perfekt.aux: must be "haben" or "sein"',
+      ]);
+      expect(errorsDe(de("gehen-go", (c) => ((c.grammar as Loose).separable = "no")))).toEqual([
+        "card gehen-go.grammar.separable: must be true or false",
+      ]);
+    });
+
+    it("an adjective with grammar", () => {
+      expect(errorsDe(de("gut-good", (c) => (c.grammar = { feminine: "gute" })))).toEqual([
+        'card gut-good.grammar: must be null for pos "adjective"',
+      ]);
+    });
+
+    it("a form card without its pronoun, or with a Spanish person", () => {
+      expect(errorsDe(de("sein-form-ich", (c) => (c.target = "bin")))).toEqual([
+        'card sein-form-ich.target: must be "ich" and the ich form in grammar.present',
+      ]);
+      expect(errorsDe(de("sein-form-ich", (c) => (c.id = "sein-form-yo")))).toEqual([
+        'card sein-form-yo.id: a form card\'s id must be "<verb>-form-<ich|du|er>"',
+      ]);
+    });
+
+    it("a case card with a bad id, part of speech, prompt, image or grammar", () => {
+      expect(errorsDe(de("case-i-see-the-man", (c) => (c.id = "case")))).toEqual([
+        'card case.id: a case card\'s id must be "case-" and one to four English words',
+      ]);
+      expect(errorsDe(de("case-i-see-the-man", (c) => (c.pos = "noun"))).length).toBeGreaterThan(0);
+      expect(errorsDe(de("case-i-see-the-man", (c) => (c.en = "I see the man")))).toEqual([
+        "card case-i-see-the-man.en: a case prompt must mark exactly one target in [square brackets]",
+      ]);
+      expect(errorsDe(de("case-i-see-the-man", (c) => (c.image = "/deck-de/img/mann-man.webp")))).toEqual([
+        "card case-i-see-the-man.image: must be null for a case card",
+      ]);
+      expect(errorsDe(de("case-i-see-the-man", (c) => ((c.grammar as Loose).case = "gen")))).toEqual([
+        'card case-i-see-the-man.grammar.case: must be "akk" or "dat"',
+      ]);
+      expect(errorsDe(de("case-i-see-the-man", (c) => ((c.grammar as Loose).gender = null)))).toEqual([
+        "card case-i-see-the-man.grammar.gender: may be null only on a pronoun",
+      ]);
+      expect(errorsDe(de("case-i-see-the-man", (c) => (c.grammar = null)))).toEqual([
+        "card case-i-see-the-man.grammar: must be an object for a case card",
+      ]);
+      expect(errorsDe(de("mit-with", (c) => (c.id = "case-with")))).toEqual([
+        "card case-with.id: a glue card cannot have a form, phrase or case id",
+      ]);
+    });
+
+    it("a case card in a Spanish deck, and a Spanish region in a German one", () => {
+      expect(errorsFor(de("case-i-see-the-man"))).toContain('card case-i-see-the-man.kind: "case" is not a kind of a "es" deck');
+      expect(errorsDe(de("januar-january", (c) => (c.regional = { where: "Spain", text: "enero" })))).toEqual([
+        "card januar-january.regional.where: must be Austria or Switzerland",
+      ]);
+    });
   });
 });

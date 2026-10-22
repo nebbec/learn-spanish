@@ -3,7 +3,7 @@
   "rank": 639,
   "kind": "content",
   "pos": "noun",
-  "es": "el dulce",
+  "target": "el dulce",
   "en": "candy",
   "hint": null,
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Me das un dulce?",
+    "target": "¿Me das un dulce?",
     "en": "Can you give me a candy?"
   },
-  "spain": "caramelo",
+  "regional": {
+    "where": "Spain",
+    "text": "caramelo"
+  },
   "trick": "DULCE sounds like \"dull sea\": kids on a dull seaside trip beg for candy.",
   "image": "/deck/img/dulce-candy.webp",
   "audio": {

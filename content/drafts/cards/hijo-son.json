@@ -3,7 +3,7 @@
   "rank": 116,
   "kind": "content",
   "pos": "noun",
-  "es": "el hijo",
+  "target": "el hijo",
   "en": "son",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi hijo está en México.",
+    "target": "Mi hijo está en México.",
     "en": "My son is in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HIJO sounds like \"ee-ho\": a son yells \"ee-ho!\" as he runs to his dad.",
   "image": "/deck/img/hijo-son.webp",
   "audio": {

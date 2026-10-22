@@ -3,7 +3,7 @@
   "rank": 157,
   "kind": "content",
   "pos": "verb",
-  "es": "tratar",
+  "target": "tratar",
   "en": "to try",
   "hint": "used with de + verb, not intentar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Trato de dormir, pero no puedo.",
+    "target": "Trato de dormir, pero no puedo.",
     "en": "I'm trying to sleep, but I can't."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRATAR sounds like \"try that\": you try that again and again.",
   "image": "/deck/img/tratar-try.webp",
   "audio": {

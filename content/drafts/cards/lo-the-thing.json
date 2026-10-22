@@ -3,15 +3,15 @@
   "rank": 11,
   "kind": "glue",
   "pos": "determiner",
-  "es": "lo",
+  "target": "lo",
   "en": "[the] important thing is the family",
   "hint": "before an adjective, no noun",
   "grammar": null,
   "example": {
-    "es": "Lo bueno es que llegamos temprano.",
+    "target": "Lo bueno es que llegamos temprano.",
     "en": "The good thing is that we arrived early."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LO sounds like low: the lowdown, the main thing, is what matters.",
   "image": null,
   "audio": {

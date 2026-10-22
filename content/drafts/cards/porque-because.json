@@ -3,15 +3,15 @@
   "rank": 78,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "porque",
+  "target": "porque",
   "en": "I'm eating [because] I'm hungry",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Estoy muy feliz porque mi hermana está aquí.",
+    "target": "Estoy muy feliz porque mi hermana está aquí.",
     "en": "I'm very happy because my sister is here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PORQUE sounds like \"poor case\": you lost the case because your lawyer was poor.",
   "image": null,
   "audio": {

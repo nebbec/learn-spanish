@@ -3,15 +3,15 @@
   "rank": 28,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Te quiero.",
+  "target": "Te quiero.",
   "en": "I love you.",
   "hint": "Everyday love for family, friends or partner, not the more intense te amo",
   "grammar": null,
   "example": {
-    "es": "Te quiero mucho, mi amor.",
+    "target": "Te quiero mucho, mi amor.",
     "en": "I love you so much, my love."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

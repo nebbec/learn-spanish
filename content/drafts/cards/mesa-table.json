@@ -3,7 +3,7 @@
   "rank": 662,
   "kind": "content",
   "pos": "noun",
-  "es": "la mesa",
+  "target": "la mesa",
   "en": "table",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La comida está en la mesa.",
+    "target": "La comida está en la mesa.",
     "en": "The food is on the table."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MESA sounds like \"messy\": the kids left the table messy after dinner.",
   "image": "/deck/img/mesa-table.webp",
   "audio": {

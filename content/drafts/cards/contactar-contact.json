@@ -3,7 +3,7 @@
   "rank": 604,
   "kind": "content",
   "pos": "verb",
-  "es": "contactar",
+  "target": "contactar",
   "en": "to contact",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te contacto mañana por teléfono.",
+    "target": "Te contacto mañana por teléfono.",
     "en": "I'll contact you tomorrow by phone."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONTACTAR sounds like \"contact a star\": you contact a famous star to ask for an autograph.",
   "image": "/deck/img/contactar-contact.webp",
   "audio": {

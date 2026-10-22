@@ -3,7 +3,7 @@
   "rank": 266,
   "kind": "content",
   "pos": "noun",
-  "es": "la manera",
+  "target": "la manera",
   "en": "way",
   "hint": "manner, how it is done; not camino, forma or modo",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No hay otra manera de hacerlo.",
+    "target": "No hay otra manera de hacerlo.",
     "en": "There's no other way to do it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MANERA sounds like manner: your manners are the way you do things.",
   "image": "/deck/img/manera-way.webp",
   "audio": {

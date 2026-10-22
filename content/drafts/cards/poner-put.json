@@ -3,7 +3,7 @@
   "rank": 106,
   "kind": "content",
   "pos": "verb",
-  "es": "poner",
+  "target": "poner",
   "en": "to put",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Dónde pusiste mis llaves?",
+    "target": "¿Dónde pusiste mis llaves?",
     "en": "Where did you put my keys?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PONER sounds like 'pony': you put the little kid up on the pony.",
   "image": "/deck/img/poner-put.webp",
   "audio": {

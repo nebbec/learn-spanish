@@ -3,15 +3,15 @@
   "rank": 363,
   "kind": "content",
   "pos": "other",
-  "es": "cuatro",
+  "target": "cuatro",
   "en": "four",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Tengo cuatro hermanos.",
+    "target": "Tengo cuatro hermanos.",
     "en": "I have four siblings."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUATRO sounds like quarter: a quarter is one of four parts.",
   "image": "/deck/img/cuatro-four.webp",
   "audio": {

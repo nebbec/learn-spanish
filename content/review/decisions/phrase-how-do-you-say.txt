@@ -10,21 +10,22 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         phrase-how-do-you-say
-kind:       phrase
-pos:        phrase
-es:         ¿Cómo se dice…?
-en:         How do you say…?
-hint:       Asking about a word, with "you" meaning people in general
-example.es: ¿Cómo se dice "thank you" en español?
-example.en: How do you say "thank you" in Spanish?
-spain:
+id:             phrase-how-do-you-say
+kind:           phrase
+pos:            phrase
+target:         ¿Cómo se dice…?
+en:             How do you say…?
+hint:           Asking about a word, with "you" meaning people in general
+example.target: ¿Cómo se dice "thank you" en español?
+example.en:     How do you say "thank you" in Spanish?
+regional.where:
+regional.text:
 trick:
 
 # The draft this file was made from. Do not change it.

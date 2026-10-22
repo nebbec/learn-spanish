@@ -3,7 +3,7 @@
   "rank": 210,
   "kind": "content",
   "pos": "verb",
-  "es": "ganar",
+  "target": "ganar",
   "en": "to earn",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Gano poco dinero en este trabajo.",
+    "target": "Gano poco dinero en este trabajo.",
     "en": "I earn little money at this job."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GANAR sounds like gain-ar: when you earn money at work, you gain cash.",
   "image": "/deck/img/ganar-earn.webp",
   "audio": {

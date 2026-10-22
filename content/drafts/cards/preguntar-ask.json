@@ -3,7 +3,7 @@
   "rank": 177,
   "kind": "content",
   "pos": "verb",
-  "es": "preguntar",
+  "target": "preguntar",
   "en": "to ask",
   "hint": "a question, not ask for something",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Puedo preguntarte algo?",
+    "target": "¿Puedo preguntarte algo?",
     "en": "Can I ask you something?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PREGUNTAR sounds like a pregnant tar pit: everyone asks, how did that happen?",
   "image": "/deck/img/preguntar-ask.webp",
   "audio": {

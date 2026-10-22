@@ -1,0 +1,17 @@
+{
+  "id": "werden-become",
+  "rank": 13,
+  "word": "werden",
+  "draft": "463f72eb9d89675e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to become, to get (as in get cold, get older)",
+    "example": "Outside it's already getting cold."
+  },
+  "note": "The prompt \"to become\" doesn't need a hint, but the editor might add a warning that German bekommen is a false friend meaning \"to get, to receive\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:38.656Z"
+}

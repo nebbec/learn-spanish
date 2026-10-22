@@ -3,17 +3,17 @@
   "rank": 456,
   "kind": "content",
   "pos": "adjective",
-  "es": "largo",
+  "target": "largo",
   "en": "long",
   "hint": null,
   "grammar": {
     "feminine": "larga"
   },
   "example": {
-    "es": "Fue un día muy largo.",
+    "target": "Fue un día muy largo.",
     "en": "It was a very long day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LARGO looks like large, but careful: it means long, like a large, long line at the bank.",
   "image": "/deck/img/largo-long.webp",
   "audio": {

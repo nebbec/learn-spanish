@@ -3,7 +3,7 @@
   "rank": 523,
   "kind": "content",
   "pos": "noun",
-  "es": "el cuarto",
+  "target": "el cuarto",
   "en": "quarter",
   "hint": "of an hour, telling time",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Son las tres y cuarto.",
+    "target": "Son las tres y cuarto.",
     "en": "It's a quarter past three."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUARTO sounds like quarter: las tres y cuarto is a quarter past three.",
   "image": "/deck/img/cuarto-quarter.webp",
   "audio": {

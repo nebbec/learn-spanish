@@ -3,15 +3,15 @@
   "rank": 1,
   "kind": "glue",
   "pos": "determiner",
-  "es": "el",
+  "target": "el",
   "en": "[the] boy",
   "hint": "masculine singular",
   "grammar": null,
   "example": {
-    "es": "El café está aquí.",
+    "target": "El café está aquí.",
     "en": "The coffee is here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EL sounds like the letter L, and L comes before M just like THE comes before a noun.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 715,
   "kind": "content",
   "pos": "verb",
-  "es": "revisar",
+  "target": "revisar",
   "en": "to check",
   "hint": "look over, review",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Revisa tu teléfono, te mandé un mensaje.",
+    "target": "Revisa tu teléfono, te mandé un mensaje.",
     "en": "Check your phone, I sent you a message."
   },
-  "spain": null,
+  "regional": null,
   "trick": "REVISAR sounds like \"revise\": you check your work again before handing it in.",
   "image": "/deck/img/revisar-check.webp",
   "audio": {

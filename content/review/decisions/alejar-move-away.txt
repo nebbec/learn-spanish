@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint.
 decision: approve
 
-id:         alejar-move-away
-kind:       content
-pos:        verb
-es:         alejarse
-en:         to move away
-hint:       get farther from someone or something, not relocate or escape
-yo:         me alejo
-tu:         te alejas
-el:         se aleja
-irregular:  no
-example.es: ¡Aléjate de mi hija!
-example.en: Get away from my daughter!
-spain:
-trick:      ALEJARSE sounds like 'a ledge, ah!': you scream and move away from the ledge.
+id:             alejar-move-away
+kind:           content
+pos:            verb
+target:         alejarse
+en:             to move away
+hint:           get farther from someone or something, not relocate or escape
+yo:             me alejo
+tu:             te alejas
+el:             se aleja
+irregular:      no
+example.target: ¡Aléjate de mi hija!
+example.en:     Get away from my daughter!
+regional.where:
+regional.text:
+trick:          ALEJARSE sounds like 'a ledge, ah!': you scream and move away from the ledge.
 
 # The draft this file was made from. Do not change it.
-draft: 00a84f57b8989921
+draft: 5f37644987761e66

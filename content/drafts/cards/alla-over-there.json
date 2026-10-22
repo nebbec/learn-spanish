@@ -3,15 +3,15 @@
   "rank": 367,
   "kind": "content",
   "pos": "adverb",
-  "es": "allá",
+  "target": "allá",
   "en": "over there",
   "hint": "far away, vague direction (not allí or ahí)",
   "grammar": null,
   "example": {
-    "es": "Mi familia vive allá, en México.",
+    "target": "Mi familia vive allá, en México.",
     "en": "My family lives over there, in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALLÁ sounds like \"a la-la\": la-la land is always way over there, far from here.",
   "image": "/deck/img/alla-over-there.webp",
   "audio": {

@@ -2,7 +2,9 @@
 // same user rate cards with no connection, reconnect and sync, and end with the
 // same reviews, card state and notes. Then one presses Start over and the other
 // loses its progress too once both have synced (L16). Then one of them signs into
-// a second account, which gets everything on that device.
+// a second account, which gets everything on that device. Last, two German devices
+// join the first account (DE2): their rows never reach the Spanish device, a card
+// has a note in each language, and a German reset leaves Spanish progress alone.
 //
 // Each device is a LocalStore over its own in-memory IndexedDB and a browser
 // client over its own storage, run through the app's SyncRunner and
@@ -16,7 +18,8 @@ import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { createAuthClient, memoryStorage, signOut, verifyCode } from "@/lib/auth";
 import { rateCard, replayReviews, type CardState } from "@/lib/scheduler";
 import { LocalStore, type Rating, type RemoteReview } from "@/lib/store";
-import { SyncRunner } from "@/lib/sync";
+import type { LangCode } from "@/lang";
+import { SupabaseRemote, SyncRunner } from "@/lib/sync";
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const publishable = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!;
@@ -58,14 +61,21 @@ async function signIn(device: Device, user: { id: string; email: string }): Prom
   expect(account.userId).toBe(user.id);
 }
 
-function makeDevice(name: string, online?: () => boolean): Device {
+function makeDevice(name: string, online?: () => boolean, lang?: LangCode): Device {
   const storage = memoryStorage();
   const net = { down: false };
   const fetchImpl: typeof fetch = (input, init) =>
     net.down ? Promise.reject(new TypeError("Failed to fetch")) : fetch(input, init);
   const client = createAuthClient({ url, key: publishable, storage, fetch: fetchImpl });
   const store = new LocalStore({ indexedDB: new IDBFactory(), IDBKeyRange, deviceId: crypto.randomUUID() });
-  const runner = new SyncRunner({ store, client, storage, online: online ?? (() => !net.down) });
+  const runner = new SyncRunner({
+    store,
+    client,
+    storage,
+    online: online ?? (() => !net.down),
+    // The app's remote is this build's language (Spanish under vitest); a German device names its own.
+    remote: lang ? (c) => new SupabaseRemote(c, { lang }) : undefined,
+  });
   return { name, store, client, runner, storage, net };
 }
 
@@ -93,8 +103,14 @@ async function cardStatesOf(device: Device): Promise<CardState[]> {
 async function notesOf(device: Device) {
   return (await device.store.getNotes()).map(({ cardId, text, updatedAt }) => ({ cardId, text, updatedAt }));
 }
-async function serverCount(table: "reviews" | "notes" | "card_reports" | "resets", userId: string): Promise<number> {
-  const { count, error } = await admin.from(table).select("*", { count: "exact", head: true }).eq("user_id", userId);
+async function serverCount(
+  table: "reviews" | "notes" | "card_reports" | "resets",
+  userId: string,
+  lang?: LangCode,
+): Promise<number> {
+  let query = admin.from(table).select("*", { count: "exact", head: true }).eq("user_id", userId);
+  if (lang) query = query.eq("lang", lang);
+  const { count, error } = await query;
   if (error) throw new Error(`counting ${table}: ${error.message}`);
   return count ?? -1;
 }
@@ -132,8 +148,10 @@ beforeAll(async () => {
   ];
 }, 60_000);
 
+let germanDevices: Device[] = [];
+
 afterAll(async () => {
-  for (const device of [a, b]) {
+  for (const device of [a, b, ...germanDevices]) {
     device?.client.auth.stopAutoRefresh();
     device?.store.close();
   }
@@ -248,5 +266,69 @@ describe("a second account on the same device", () => {
     expect(await serverCount("notes", second.id)).toBe(2);
     expect(await serverCount("resets", second.id)).toBe(1);
     expect(await serverCount("reviews", first.id)).toBe(script.length + 1);
+  }, 60_000);
+});
+
+describe("German devices on the same account (DE2)", () => {
+  let g: Device;
+  let g2: Device;
+
+  beforeAll(async () => {
+    g = makeDevice("German A", undefined, "de");
+    g2 = makeDevice("German B", undefined, "de");
+    germanDevices = [g, g2];
+    await signIn(g, first);
+    await signIn(g2, first);
+  }, 60_000);
+
+  it("German rows reach the other German device and never the Spanish one", async () => {
+    const spanishBefore = await reviewsOf(b);
+    const now = Date.now();
+    await rate(b, "hablar-speak", "good", now);
+    await b.store.saveNote("hotel-hotel", "el hotel", now);
+    await rate(g, "haus-house", "good", now + 1);
+    await rate(g, "gehen-go", "again", now + 2);
+    await g.store.saveNote("hotel-hotel", "das Hotel", now + 3);
+    await g.store.addReport("haus-house", "sync check German report", now + 4);
+
+    await b.runner.run();
+    await g.runner.run();
+    await b.runner.run();
+    await g2.runner.run();
+    for (const device of [b, g, g2]) {
+      expect(device.runner.getStatus(), device.name).toMatchObject({ phase: "synced", pending: 0 });
+    }
+
+    expect((await reviewsOf(b)).length).toBe(spanishBefore.length + 1);
+    expect((await reviewsOf(b)).some((r) => r.cardId === "haus-house" || r.cardId === "gehen-go")).toBe(false);
+    expect((await reviewsOf(g2)).map((r) => r.cardId).sort()).toEqual(["gehen-go", "haus-house"]);
+    expect(await cardStatesOf(g2)).toEqual(await cardStatesOf(g));
+
+    expect((await b.store.getNote("hotel-hotel"))?.text).toBe("el hotel");
+    expect((await g2.store.getNote("hotel-hotel"))?.text).toBe("das Hotel");
+    expect(await notesOf(g2)).toHaveLength(1);
+
+    expect(await serverCount("reviews", first.id, "de")).toBe(2);
+    expect(await serverCount("notes", first.id, "de")).toBe(1);
+    expect(await serverCount("card_reports", first.id, "de")).toBe(1);
+    expect(await serverCount("reviews", first.id, "es")).toBe(spanishBefore.length + 1);
+  }, 60_000);
+
+  it("a German reset leaves Spanish progress alone", async () => {
+    const spanishStates = await cardStatesOf(b);
+    expect(spanishStates.map((s) => s.cardId)).toEqual(["hablar-speak"]);
+    const spanishResets = await b.store.getResets();
+
+    await g.store.startOver(Date.now());
+    await g.runner.run();
+    await b.runner.run();
+    await g2.runner.run();
+
+    expect(await cardStatesOf(b)).toEqual(spanishStates);
+    expect(await b.store.getResets()).toEqual(spanishResets);
+    expect(await cardStatesOf(g2)).toEqual([]);
+    expect(await g2.store.getResets()).toHaveLength(1);
+    expect(await serverCount("resets", first.id, "de")).toBe(1);
+    expect(await serverCount("resets", first.id, "es")).toBe(spanishResets.length);
   }, 60_000);
 });

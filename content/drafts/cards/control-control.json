@@ -3,7 +3,7 @@
   "rank": 562,
   "kind": "content",
   "pos": "noun",
-  "es": "el control",
+  "target": "el control",
   "en": "control",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Todo está bajo control.",
+    "target": "Todo está bajo control.",
     "en": "Everything is under control."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONTROL sounds just like the English word control, so you already have it under control.",
   "image": "/deck/img/control-control.webp",
   "audio": {

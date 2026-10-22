@@ -3,7 +3,7 @@
   "rank": 705,
   "kind": "content",
   "pos": "noun",
-  "es": "el crimen",
+  "target": "el crimen",
   "en": "crime",
   "hint": "serious, like murder",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "La policía investiga el crimen.",
+    "target": "La policía investiga el crimen.",
     "en": "The police are investigating the crime."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CRIMEN sounds like crime-men: the men who commit a crime.",
   "image": "/deck/img/crimen-crime.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 118,
   "kind": "content",
   "pos": "noun",
-  "es": "el sobre",
+  "target": "el sobre",
   "en": "envelope",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El dinero está en el sobre.",
+    "target": "El dinero está en el sobre.",
     "en": "The money is in the envelope."
   },
-  "spain": null,
+  "regional": null,
   "trick": "An envelope goes over the letter, and SOBRE means over.",
   "image": "/deck/img/sobre-envelope.webp",
   "audio": {

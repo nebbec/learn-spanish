@@ -3,7 +3,7 @@
   "rank": 712,
   "kind": "content",
   "pos": "verb",
-  "es": "disfrutar",
+  "target": "disfrutar",
   "en": "to enjoy",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Disfruta tus vacaciones.",
+    "target": "Disfruta tus vacaciones.",
     "en": "Enjoy your vacation."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DISFRUTAR sounds like \"this fruit\": you really enjoy this fruit on a sunny day.",
   "image": "/deck/img/disfrutar-enjoy.webp",
   "audio": {

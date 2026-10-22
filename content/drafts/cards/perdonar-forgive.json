@@ -3,7 +3,7 @@
   "rank": 362,
   "kind": "content",
   "pos": "verb",
-  "es": "perdonar",
+  "target": "perdonar",
   "en": "to forgive",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Perdóname, no quise lastimarte.",
+    "target": "Perdóname, no quise lastimarte.",
     "en": "Forgive me, I didn't mean to hurt you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PERDONAR sounds like \"pardon her\": when she says sorry, you pardon her and forgive her.",
   "image": "/deck/img/perdonar-forgive.webp",
   "audio": {

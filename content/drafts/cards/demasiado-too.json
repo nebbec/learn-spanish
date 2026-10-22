@@ -3,15 +3,15 @@
   "rank": 219,
   "kind": "content",
   "pos": "adverb",
-  "es": "demasiado",
+  "target": "demasiado",
   "en": "too",
   "hint": "excessively, as in too big; not also",
   "grammar": null,
   "example": {
-    "es": "Este café está demasiado caliente.",
+    "target": "Este café está demasiado caliente.",
     "en": "This coffee is too hot."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEMASIADO sounds like \"the massive dough\": that pizza dough is too big for the oven.",
   "image": "/deck/img/demasiado-too.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 666,
   "kind": "content",
   "pos": "verb",
-  "es": "interesar",
+  "target": "interesar",
   "en": "to interest",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No me interesa la política.",
+    "target": "No me interesa la política.",
     "en": "Politics doesn't interest me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "INTERESAR sounds like \"interest, sir\": the waiter asks if the menu holds any interest, sir.",
   "image": "/deck/img/interesar-interest.webp",
   "audio": {

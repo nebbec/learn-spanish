@@ -3,7 +3,7 @@
   "rank": 343,
   "kind": "content",
   "pos": "verb",
-  "es": "casar",
+  "target": "casar",
   "en": "to marry",
   "hint": "usually casarse, to get married",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Quieres casarte conmigo?",
+    "target": "¿Quieres casarte conmigo?",
     "en": "Will you marry me?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CASAR sounds like casa, house: when you marry, you move into one house together.",
   "image": "/deck/img/casar-marry.webp",
   "audio": {

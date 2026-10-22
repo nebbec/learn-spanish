@@ -3,7 +3,7 @@
   "rank": 325,
   "kind": "content",
   "pos": "verb",
-  "es": "pararse",
+  "target": "pararse",
   "en": "to stand up",
   "hint": "get on your feet, not levantarse",
   "grammar": {
@@ -15,10 +15,13 @@
     "irregular": false
   },
   "example": {
-    "es": "Párate, ya llegó la maestra.",
+    "target": "Párate, ya llegó la maestra.",
     "en": "Stand up, the teacher is here."
   },
-  "spain": "ponerse de pie",
+  "regional": {
+    "where": "Spain",
+    "text": "ponerse de pie"
+  },
   "trick": "PARARSE sounds like 'para-rise': a paratrooper rises to his feet after landing.",
   "image": "/deck/img/parar-stand-up.webp",
   "audio": {

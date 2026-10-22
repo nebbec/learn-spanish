@@ -3,7 +3,7 @@
   "rank": 668,
   "kind": "content",
   "pos": "verb",
-  "es": "calmar",
+  "target": "calmar",
   "en": "to calm down",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Cálmate, todo va a estar bien.",
+    "target": "Cálmate, todo va a estar bien.",
     "en": "Calm down, everything is going to be fine."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CALMAR sounds like calm-ARRR: even an angry pirate needs someone to calm him down.",
   "image": "/deck/img/calmar-calm-down.webp",
   "audio": {

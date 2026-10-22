@@ -3,7 +3,7 @@
   "rank": 338,
   "kind": "content",
   "pos": "verb",
-  "es": "sentarse",
+  "target": "sentarse",
   "en": "to sit down",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Siéntate aquí conmigo.",
+    "target": "Siéntate aquí conmigo.",
     "en": "Sit down here with me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SENTARSE sounds like \"sent ourselves\": we sent ourselves straight to the sofa to sit down.",
   "image": "/deck/img/sentar-sit-down.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 653,
   "kind": "content",
   "pos": "noun",
-  "es": "la boda",
+  "target": "la boda",
   "en": "wedding",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La boda de mi hermana es en junio.",
+    "target": "La boda de mi hermana es en junio.",
     "en": "My sister's wedding is in June."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BODA sounds like \"bod-a\": everyone shows off their best bod at a wedding.",
   "image": "/deck/img/boda-wedding.webp",
   "audio": {

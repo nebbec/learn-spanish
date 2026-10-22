@@ -3,7 +3,7 @@
   "rank": 546,
   "kind": "content",
   "pos": "verb",
-  "es": "jurar",
+  "target": "jurar",
   "en": "to swear",
   "hint": "to promise, not to curse",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te juro que no fui yo.",
+    "target": "Te juro que no fui yo.",
     "en": "I swear it wasn't me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "JURAR sounds like jury: you swear to tell the truth in front of the jury.",
   "image": "/deck/img/jurar-swear.webp",
   "audio": {

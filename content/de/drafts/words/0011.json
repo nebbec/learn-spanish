@@ -1,0 +1,15 @@
+{
+  "rank": 11,
+  "word": "wir",
+  "cards": [
+    "wir-we"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wir-we": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:30:47.572Z"
+}

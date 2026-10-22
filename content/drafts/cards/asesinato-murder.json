@@ -3,7 +3,7 @@
   "rank": 549,
   "kind": "content",
   "pos": "noun",
-  "es": "el asesinato",
+  "target": "el asesinato",
   "en": "murder",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "La policía investiga el asesinato del alcalde.",
+    "target": "La policía investiga el asesinato del alcalde.",
     "en": "The police are investigating the mayor's murder."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ASESINATO sounds like assassin: an assassin's job ends in a murder.",
   "image": "/deck/img/asesinato-murder.webp",
   "audio": {

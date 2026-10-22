@@ -3,7 +3,7 @@
   "rank": 8,
   "kind": "content",
   "pos": "verb",
-  "es": "estar",
+  "target": "estar",
   "en": "to be",
   "hint": "state, place",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Dónde estás? Estoy muy cansado.",
+    "target": "¿Dónde estás? Estoy muy cansado.",
     "en": "Where are you? I'm really tired."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESTAR sounds like \"a star\": a star is always somewhere in the sky, shining bright or dim depending on its state.",
   "image": "/deck/img/estar-be-state.webp",
   "audio": {

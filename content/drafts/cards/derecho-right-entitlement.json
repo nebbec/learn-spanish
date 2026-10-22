@@ -3,7 +3,7 @@
   "rank": 483,
   "kind": "content",
   "pos": "noun",
-  "es": "el derecho",
+  "target": "el derecho",
   "en": "right",
   "hint": "something you are entitled to",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No tienes derecho a hablarme así.",
+    "target": "No tienes derecho a hablarme así.",
     "en": "You have no right to talk to me like that."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DERECHO sounds like \"the wretch, oh\": even the wretch has rights.",
   "image": "/deck/img/derecho-right-entitlement.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 624,
   "kind": "content",
   "pos": "noun",
-  "es": "el pelo",
+  "target": "el pelo",
   "en": "hair",
   "hint": "everyday word, also for animal fur",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me gusta tu pelo largo.",
+    "target": "Me gusta tu pelo largo.",
     "en": "I like your long hair."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PELO sounds like pillow: your hair gets messy on the pillow every night.",
   "image": "/deck/img/pelo-hair.webp",
   "audio": {

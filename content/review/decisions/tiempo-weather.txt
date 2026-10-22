@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: fixed hint to rule out el clima directly; the reviewer's 'the same word that also means time' points straight at the answer.
 decision: approve
 
-id:         tiempo-weather
-kind:       content
-pos:        noun
-es:         el tiempo
-en:         weather
-hint:       not el clima
-gender:     m
-article:    el
-example.es: Hoy hace buen tiempo.
-example.en: The weather is nice today.
-spain:
-trick:      TIEMPO sounds like "temperature": the weather report gives the temperature.
+id:             tiempo-weather
+kind:           content
+pos:            noun
+target:         el tiempo
+en:             weather
+hint:           not el clima
+gender:         m
+article:        el
+example.target: Hoy hace buen tiempo.
+example.en:     The weather is nice today.
+regional.where:
+regional.text:
+trick:          TIEMPO sounds like "temperature": the weather report gives the temperature.
 
 # The draft this file was made from. Do not change it.
-draft: 776ea8f67468d9dc
+draft: 6c677d4c98fd474e

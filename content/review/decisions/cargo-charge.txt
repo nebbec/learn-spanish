@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: fixed hint; shorter than the reviewer's 'a legal count against someone...', ruling out acusación by name.
 decision: approve
 
-id:         cargo-charge
-kind:       content
-pos:        noun
-es:         el cargo
-en:         charge
-hint:       criminal, as in to drop the charges; not acusación
-gender:     m
-article:    el
-example.es: La policía retiró los cargos contra él.
-example.en: The police dropped the charges against him.
-spain:
-trick:      CARGO sounds like cargo: the smuggler caught with illegal cargo now faces serious charges.
+id:             cargo-charge
+kind:           content
+pos:            noun
+target:         el cargo
+en:             charge
+hint:           criminal, as in to drop the charges; not acusación
+gender:         m
+article:        el
+example.target: La policía retiró los cargos contra él.
+example.en:     The police dropped the charges against him.
+regional.where:
+regional.text:
+trick:          CARGO sounds like cargo: the smuggler caught with illegal cargo now faces serious charges.
 
 # The draft this file was made from. Do not change it.
-draft: 988495a29ac20ca9
+draft: d3d3c960f73f6f56

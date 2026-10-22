@@ -9,27 +9,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: followed the reviewer's note instead of the two suggested fixes: made the card preocuparse (the natural answer to 'to worry') with reflexive grammar lines, and kept 'No te preocupes', which now matches; the suggested hint named preocuparse, nearly giving the answer away.
 decision: approve
 
-id:         preocupar-worry
-kind:       content
-pos:        verb
-es:         preocuparse
-en:         to worry
+id:             preocupar-worry
+kind:           content
+pos:            verb
+target:         preocuparse
+en:             to worry
 hint:
-yo:         me preocupo
-tu:         te preocupas
-el:         se preocupa
-irregular:  no
-example.es: No te preocupes, todo va a estar bien.
-example.en: Don't worry, everything's going to be fine.
-spain:
-trick:      PREOCUPAR sounds like pre-occupy: when you worry, your mind is preoccupied.
+yo:             me preocupo
+tu:             te preocupas
+el:             se preocupa
+irregular:      no
+example.target: No te preocupes, todo va a estar bien.
+example.en:     Don't worry, everything's going to be fine.
+regional.where:
+regional.text:
+trick:          PREOCUPAR sounds like pre-occupy: when you worry, your mind is preoccupied.
 
 # The draft this file was made from. Do not change it.
-draft: 81d6ce61208401e6
+draft: afab8c4b432d643e

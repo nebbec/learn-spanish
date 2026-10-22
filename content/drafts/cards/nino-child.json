@@ -3,7 +3,7 @@
   "rank": 150,
   "kind": "content",
   "pos": "noun",
-  "es": "el niño",
+  "target": "el niño",
   "en": "child",
   "hint": "also a little boy",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Los niños están jugando en el parque.",
+    "target": "Los niños están jugando en el parque.",
     "en": "The kids are playing in the park."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NIÑO sounds like \"knee-nyo\": a little child only reaches up to your knee.",
   "image": "/deck/img/nino-child.webp",
   "audio": {

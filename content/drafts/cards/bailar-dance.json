@@ -3,7 +3,7 @@
   "rank": 620,
   "kind": "content",
   "pos": "verb",
-  "es": "bailar",
+  "target": "bailar",
   "en": "to dance",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Quieres bailar conmigo?",
+    "target": "¿Quieres bailar conmigo?",
     "en": "Do you want to dance with me?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "BAILAR sounds like \"buy a lar(ge) ticket\": you buy a large ticket to the ball so you can dance all night.",
   "image": "/deck/img/bailar-dance.webp",
   "audio": {

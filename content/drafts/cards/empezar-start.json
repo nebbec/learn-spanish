@@ -3,7 +3,7 @@
   "rank": 195,
   "kind": "content",
   "pos": "verb",
-  "es": "empezar",
+  "target": "empezar",
   "en": "to start",
   "hint": "the everyday word, not comenzar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "La película empieza a las ocho.",
+    "target": "La película empieza a las ocho.",
     "en": "The movie starts at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EMPEZAR sounds like \"I'm pez\": a fish starts swimming the moment it hatches.",
   "image": "/deck/img/empezar-start.webp",
   "audio": {

@@ -10,22 +10,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         adios-goodbye
-kind:       content
-pos:        other
-es:         adiós
-en:         goodbye
-hint:       the standard word, not chao
-example.es: Gracias, yo no insisto. ¡Adiós, Ana!
-example.en: Thanks, I won't insist. Goodbye, Ana!
-spain:
-trick:      ADIÓS sounds like "a dose": take a dose of courage before saying goodbye.
+id:             adios-goodbye
+kind:           content
+pos:            other
+target:         adiós
+en:             goodbye
+hint:           the standard word, not chao
+example.target: Gracias, yo no insisto. ¡Adiós, Ana!
+example.en:     Thanks, I won't insist. Goodbye, Ana!
+regional.where:
+regional.text:
+trick:          ADIÓS sounds like "a dose": take a dose of courage before saying goodbye.
 
 # The draft this file was made from. Do not change it.
-draft: ebfa3d384d29849a
+draft: 352b8e116da6418c

@@ -3,15 +3,15 @@
   "rank": 310,
   "kind": "content",
   "pos": "adverb",
-  "es": "justo",
+  "target": "justo",
   "en": "just, right",
   "hint": "exactly, as in just in time or right here",
   "grammar": null,
   "example": {
-    "es": "Llegaste justo a tiempo.",
+    "target": "Llegaste justo a tiempo.",
     "en": "You got here just in time."
   },
-  "spain": null,
+  "regional": null,
   "trick": "JUSTO sounds like just so: everything lands just so, right on time.",
   "image": "/deck/img/justo-exactly.webp",
   "audio": {

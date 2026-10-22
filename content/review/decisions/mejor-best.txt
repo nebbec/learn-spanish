@@ -9,23 +9,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         mejor-best
-kind:       content
-pos:        adjective
-es:         mejor
-en:         best
-hint:       used after el, la or a possessive such as mi
-feminine:   mejor
-example.es: Eres mi mejor amigo.
-example.en: You're my best friend.
-spain:
-trick:      MEJOR sounds like "major": the major league is where the best players go.
+id:             mejor-best
+kind:           content
+pos:            adjective
+target:         mejor
+en:             best
+hint:           used after el, la or a possessive such as mi
+feminine:       mejor
+example.target: Eres mi mejor amigo.
+example.en:     You're my best friend.
+regional.where:
+regional.text:
+trick:          MEJOR sounds like "major": the major league is where the best players go.
 
 # The draft this file was made from. Do not change it.
-draft: 5a77d9cbc49ab4ae
+draft: 6209b46e2a2e1dc0

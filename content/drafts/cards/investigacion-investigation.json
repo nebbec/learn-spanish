@@ -3,7 +3,7 @@
   "rank": 732,
   "kind": "content",
   "pos": "noun",
-  "es": "la investigación",
+  "target": "la investigación",
   "en": "investigation",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La policía abrió una investigación sobre el robo.",
+    "target": "La policía abrió una investigación sobre el robo.",
     "en": "The police opened an investigation into the robbery."
   },
-  "spain": null,
+  "regional": null,
   "trick": "INVESTIGACIÓN looks almost like investigation: just swap -tion for -ción, like most -tion words.",
   "image": "/deck/img/investigacion-investigation.webp",
   "audio": {

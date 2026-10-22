@@ -3,15 +3,15 @@
   "rank": 110,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Me gusta.",
+  "target": "Me gusta.",
   "en": "I like it.",
   "hint": "About one thing",
   "grammar": null,
   "example": {
-    "es": "¿El café? Sí, me gusta mucho.",
+    "target": "¿El café? Sí, me gusta mucho.",
     "en": "The coffee? Yes, I like it a lot."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Gusta sounds like gusto, and you do the things you like with gusto.",
   "image": null,
   "audio": {

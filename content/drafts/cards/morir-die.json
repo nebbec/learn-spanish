@@ -3,7 +3,7 @@
   "rank": 170,
   "kind": "content",
   "pos": "verb",
-  "es": "morir",
+  "target": "morir",
   "en": "to die",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Mi abuelo murió el año pasado.",
+    "target": "Mi abuelo murió el año pasado.",
     "en": "My grandfather died last year."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MORIR sounds like 'mortal': mortals are the ones who die.",
   "image": "/deck/img/morir-die.webp",
   "audio": {

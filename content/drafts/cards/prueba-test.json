@@ -3,7 +3,7 @@
   "rank": 434,
   "kind": "content",
   "pos": "noun",
-  "es": "la prueba",
+  "target": "la prueba",
   "en": "test",
   "hint": "a trial or check, not examen",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mañana tengo una prueba de manejo.",
+    "target": "Mañana tengo una prueba de manejo.",
     "en": "Tomorrow I have a driving test."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRUEBA sounds like prove-a: a test is how you prove a skill.",
   "image": "/deck/img/prueba-test.webp",
   "audio": {

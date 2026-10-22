@@ -3,7 +3,7 @@
   "rank": 292,
   "kind": "content",
   "pos": "noun",
-  "es": "el jefe",
+  "target": "el jefe",
   "en": "boss",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi jefe me llamó esta mañana.",
+    "target": "Mi jefe me llamó esta mañana.",
     "en": "My boss called me this morning."
   },
-  "spain": null,
+  "regional": null,
   "trick": "JEFE sounds like \"chef\": the head chef is the boss of the kitchen.",
   "image": "/deck/img/jefe-boss.webp",
   "audio": {

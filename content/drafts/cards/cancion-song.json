@@ -3,7 +3,7 @@
   "rank": 589,
   "kind": "content",
   "pos": "noun",
-  "es": "la canción",
+  "target": "la canción",
   "en": "song",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me encanta esta canción.",
+    "target": "Me encanta esta canción.",
     "en": "I love this song."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CANCIÓN sounds like a canned chant: a song you can't stop singing.",
   "image": "/deck/img/cancion-song.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 11,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "lo",
+  "target": "lo",
   "en": "I see [him]",
   "hint": "direct object, masculine or it",
   "grammar": null,
   "example": {
-    "es": "Mi padre está enfermo y lo ayudo.",
+    "target": "Mi padre está enfermo y lo ayudo.",
     "en": "My father is sick and I help him."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LO sounds like low: you look low and see him lying on the floor.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 345,
   "kind": "content",
   "pos": "verb",
-  "es": "robar",
+  "target": "robar",
   "en": "to steal",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Alguien me robó el celular.",
+    "target": "Alguien me robó el celular.",
     "en": "Someone stole my phone."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ROBAR sounds like robber: a robber's whole job is to steal.",
   "image": "/deck/img/robar-steal.webp",
   "audio": {

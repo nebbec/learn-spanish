@@ -3,7 +3,7 @@
   "rank": 435,
   "kind": "content",
   "pos": "noun",
-  "es": "la película",
+  "target": "la película",
   "en": "movie",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Vemos una película esta noche?",
+    "target": "¿Vemos una película esta noche?",
     "en": "Should we watch a movie tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PELÍCULA sounds like \"pellicle\", a thin film, and movies were shot on thin film.",
   "image": "/deck/img/pelicula-movie.webp",
   "audio": {

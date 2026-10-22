@@ -3,7 +3,7 @@
   "rank": 767,
   "kind": "content",
   "pos": "verb",
-  "es": "manejar",
+  "target": "manejar",
   "en": "to drive",
   "hint": "a car, everyday Latin American word",
   "grammar": {
@@ -15,10 +15,13 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi papá maneja muy rápido.",
+    "target": "Mi papá maneja muy rápido.",
     "en": "My dad drives really fast."
   },
-  "spain": "conducir",
+  "regional": {
+    "where": "Spain",
+    "text": "conducir"
+  },
   "trick": "MANEJAR sounds like \"man, a jar\": a man drives with a jar of coffee on the dashboard.",
   "image": "/deck/img/manejar-drive.webp",
   "audio": {

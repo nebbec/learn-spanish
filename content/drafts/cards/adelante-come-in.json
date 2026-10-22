@@ -3,15 +3,15 @@
   "rank": 332,
   "kind": "content",
   "pos": "other",
-  "es": "adelante",
+  "target": "adelante",
   "en": "come in! go ahead!",
   "hint": "one word, said as an invitation",
   "grammar": null,
   "example": {
-    "es": "¡Adelante, la puerta está abierta!",
+    "target": "¡Adelante, la puerta está abierta!",
     "en": "Come in, the door is open!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Someone knocks at the deli and the ant waves: ADELANTE, a deli ant saying come in, go ahead!",
   "image": "/deck/img/adelante-come-in.webp",
   "audio": {

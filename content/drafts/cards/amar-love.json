@@ -3,7 +3,7 @@
   "rank": 216,
   "kind": "content",
   "pos": "verb",
-  "es": "amar",
+  "target": "amar",
   "en": "to love",
   "hint": "deep, intense love; not querer",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te amo con todo mi corazón.",
+    "target": "Te amo con todo mi corazón.",
     "en": "I love you with all my heart."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AMAR sounds like amour, the French word for love, as in a grand romance.",
   "image": "/deck/img/amar-love.webp",
   "audio": {

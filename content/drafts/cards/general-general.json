@@ -3,17 +3,17 @@
   "rank": 543,
   "kind": "content",
   "pos": "adjective",
-  "es": "general",
+  "target": "general",
   "en": "general",
   "hint": null,
   "grammar": {
     "feminine": "general"
   },
   "example": {
-    "es": "Tengo una idea general del plan.",
+    "target": "Tengo una idea general del plan.",
     "en": "I have a general idea of the plan."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GENERAL is spelled just like the English word; say it hen-eh-RAHL, like a general barking orders in a soft Spanish accent.",
   "image": "/deck/img/general-general.webp",
   "audio": {

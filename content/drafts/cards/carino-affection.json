@@ -3,7 +3,7 @@
   "rank": 262,
   "kind": "content",
   "pos": "noun",
-  "es": "el cariño",
+  "target": "el cariño",
   "en": "affection",
   "hint": "everyday word, not afecto",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Le tengo mucho cariño a mi abuela.",
+    "target": "Le tengo mucho cariño a mi abuela.",
     "en": "I have a lot of affection for my grandma."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARIÑO sounds like \"caring-o\": affection is all about caring.",
   "image": "/deck/img/carino-affection.webp",
   "audio": {

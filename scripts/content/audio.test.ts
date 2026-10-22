@@ -116,7 +116,7 @@ describe("audioPaths", () => {
   const casa = fixtureCard("casa-house");
 
   it("speaks the Spanish as the reveal shows it, and the example sentence", () => {
-    expect(clipTexts(casa)).toEqual({ word: casa.es, sentence: casa.example.es });
+    expect(clipTexts(casa)).toEqual({ word: casa.target, sentence: casa.example.target });
   });
 
   it("gives each clip its own MP3 path named after the card, the same on every run", () => {
@@ -127,7 +127,7 @@ describe("audioPaths", () => {
   });
 
   it("gives a corrected sentence a new path and leaves the word's alone", () => {
-    const fixed = audioPaths({ ...casa, example: { ...casa.example, es: "Mi casa es tu casa." } });
+    const fixed = audioPaths({ ...casa, example: { ...casa.example, target: "Mi casa es tu casa." } });
     expect(fixed.word).toBe(audioPaths(casa).word);
     expect(fixed.sentence).not.toBe(audioPaths(casa).sentence);
   });
@@ -139,7 +139,7 @@ describe("form, phrase and tip clips (L8)", () => {
   it("speaks a form card's own form and a phrase card's whole phrase as the word clip", () => {
     expect(clipTexts(fixtureCard("ir-form-yo")).word).toBe("voy");
     const phrase = fixtureCard("phrase-going-home");
-    expect(clipTexts(phrase)).toEqual({ word: phrase.es, sentence: phrase.example.es });
+    expect(clipTexts(phrase)).toEqual({ word: phrase.target, sentence: phrase.example.target });
     expect(audioPaths(phrase).word).toMatch(/^\/deck\/audio\/phrase-going-home\.word\.[0-9a-f]{8}\.mp3$/);
   });
 
@@ -149,14 +149,14 @@ describe("form, phrase and tip clips (L8)", () => {
       expect.stringMatching(/^\/deck\/audio\/tip-verb-endings\.1\.[0-9a-f]{8}\.mp3$/),
       expect.stringMatching(/^\/deck\/audio\/tip-verb-endings\.2\.[0-9a-f]{8}\.mp3$/),
     ]);
-    expect(tipAudioPath(tip.id, 1, tip.examples[0].es)).toBe(paths[0]);
+    expect(tipAudioPath(tip.id, 1, tip.examples[0].target)).toBe(paths[0]);
     expect(tipAudioPath(tip.id, 1, "Voy al parque.")).not.toBe(paths[0]);
     const redone = tipAudioPaths(tip, { "tip-verb-endings.2": 2 }).examples.map((e: { audio: string }) => e.audio);
     expect(redone[0]).toBe(paths[0]);
     expect(redone[1]).not.toBe(paths[1]);
     // The text and fields other than audio are kept.
-    expect(tipAudioPaths(tip).examples.map(({ es, en }: { es: string; en: string }) => ({ es, en }))).toEqual(
-      tip.examples.map(({ es, en }) => ({ es, en })),
+    expect(tipAudioPaths(tip).examples.map(({ target, en }: { target: string; en: string }) => ({ target, en }))).toEqual(
+      tip.examples.map(({ target, en }) => ({ target, en })),
     );
   });
 
@@ -203,7 +203,7 @@ describe("orphanClips", () => {
   });
 
   it("keeps a tip example's clip", () => {
-    const tips = [{ id: "tip-a", examples: [{ es: "x", en: "y", audio: "/deck/audio/tip-a.1.eeee.mp3" }] }];
+    const tips = [{ id: "tip-a", examples: [{ target: "x", en: "y", audio: "/deck/audio/tip-a.1.eeee.mp3" }] }];
     expect(orphanClips(["tip-a.1.eeee.mp3", "tip-a.2.ffff.mp3"], [{ ...app, tips }])).toEqual(["tip-a.2.ffff.mp3"]);
   });
 

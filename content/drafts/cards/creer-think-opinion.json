@@ -3,7 +3,7 @@
   "rank": 48,
   "kind": "content",
   "pos": "verb",
-  "es": "creer",
+  "target": "creer",
   "en": "to think",
   "hint": "have an opinion, as in I think so",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Creo que Ana está enferma.",
+    "target": "Creo que Ana está enferma.",
     "en": "I think Ana is sick."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CREO sounds like \"Cray-oh\": you draw what you think with a crayon.",
   "image": "/deck/img/creer-think-opinion.webp",
   "audio": {

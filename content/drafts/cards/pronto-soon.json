@@ -3,15 +3,15 @@
   "rank": 300,
   "kind": "content",
   "pos": "adverb",
-  "es": "pronto",
+  "target": "pronto",
   "en": "soon",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Nos vemos pronto, amigo.",
+    "target": "Nos vemos pronto, amigo.",
     "en": "See you soon, buddy."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRONTO sounds like \"pronto\" in English: do it pronto means do it soon, right away.",
   "image": "/deck/img/pronto-soon.webp",
   "audio": {

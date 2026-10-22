@@ -3,7 +3,7 @@
   "rank": 678,
   "kind": "content",
   "pos": "noun",
-  "es": "el detective",
+  "target": "el detective",
   "en": "detective",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El detective encontró al ladrón.",
+    "target": "El detective encontró al ladrón.",
     "en": "The detective found the thief."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DETECTIVE is spelled just like the English word; only the stress moves to the end: deh-tek-TEE-veh.",
   "image": "/deck/img/detective-detective.webp",
   "audio": {

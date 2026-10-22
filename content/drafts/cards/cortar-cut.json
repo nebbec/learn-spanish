@@ -3,7 +3,7 @@
   "rank": 468,
   "kind": "content",
   "pos": "verb",
-  "es": "cortar",
+  "target": "cortar",
   "en": "to cut",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Corta el pan, por favor.",
+    "target": "Corta el pan, por favor.",
     "en": "Cut the bread, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CORTAR sounds like \"cut-tar\": you cut through the sticky tar with scissors.",
   "image": "/deck/img/cortar-cut.webp",
   "audio": {

@@ -121,7 +121,7 @@ describe("Start over", () => {
 
     // Learn starts at the first card.
     await showLearn();
-    expect(q("intro-es")!.textContent).toBe(cards[0].es);
+    expect(q("intro-es")!.textContent).toBe(cards[0].target);
 
     // The note is still there, and so are the old reviews, which no longer count.
     expect((await store.getNote(cards[0].id))?.text).toBe("my note");

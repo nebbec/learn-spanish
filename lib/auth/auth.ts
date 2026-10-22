@@ -6,9 +6,10 @@ import {
   type SupabaseClient,
   type SupportedStorage,
 } from "@supabase/supabase-js";
+import { NAMES } from "@/lang";
 
 /** Where the browser keeps the signed-in session (localStorage). */
-export const AUTH_STORAGE_KEY = "learn-spanish.auth";
+export const AUTH_STORAGE_KEY = NAMES.auth;
 
 /** Digits in the emailed code. Matches `otp_length` in supabase/config.toml and the live project. */
 export const CODE_LENGTH = 8;

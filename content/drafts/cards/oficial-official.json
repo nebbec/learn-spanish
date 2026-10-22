@@ -3,17 +3,17 @@
   "rank": 548,
   "kind": "content",
   "pos": "adjective",
-  "es": "oficial",
+  "target": "oficial",
   "en": "official",
   "hint": null,
   "grammar": {
     "feminine": "oficial"
   },
   "example": {
-    "es": "Es la versión oficial de la historia.",
+    "target": "Es la versión oficial de la historia.",
     "en": "It's the official version of the story."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OFICIAL looks almost exactly like official: just drop one f and add a Spanish accent to the sound.",
   "image": "/deck/img/oficial-official.webp",
   "audio": {

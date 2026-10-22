@@ -3,7 +3,7 @@
   "rank": 580,
   "kind": "content",
   "pos": "noun",
-  "es": "la caja",
+  "target": "la caja",
   "en": "box",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Qué hay en esta caja?",
+    "target": "¿Qué hay en esta caja?",
     "en": "What's in this box?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAJA sounds like 'car-ha': ha, the whole car fits in that giant box!",
   "image": "/deck/img/caja-box.webp",
   "audio": {

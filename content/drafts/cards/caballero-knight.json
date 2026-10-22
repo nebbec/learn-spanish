@@ -3,7 +3,7 @@
   "rank": 519,
   "kind": "content",
   "pos": "noun",
-  "es": "el caballero",
+  "target": "el caballero",
   "en": "knight",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El caballero salvó a la princesa.",
+    "target": "El caballero salvó a la princesa.",
     "en": "The knight saved the princess."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CABALLERO comes from caballo, horse: a knight is the man who rides the horse.",
   "image": "/deck/img/caballero-knight.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 227,
   "kind": "content",
   "pos": "noun",
-  "es": "la semana",
+  "target": "la semana",
   "en": "week",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Nos vemos la próxima semana.",
+    "target": "Nos vemos la próxima semana.",
     "en": "See you next week."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEMANA sounds like 'seven-ana': Ana works seven days, one full week.",
   "image": "/deck/img/semana-week.webp",
   "audio": {

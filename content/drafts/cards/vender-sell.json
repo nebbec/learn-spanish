@@ -3,7 +3,7 @@
   "rank": 421,
   "kind": "content",
   "pos": "verb",
-  "es": "vender",
+  "target": "vender",
   "en": "to sell",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi papá vende carros usados.",
+    "target": "Mi papá vende carros usados.",
     "en": "My dad sells used cars."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VENDER sounds like \"vendor\": a vendor is someone who sells things.",
   "image": "/deck/img/vender-sell.webp",
   "audio": {

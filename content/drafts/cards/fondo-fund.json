@@ -3,7 +3,7 @@
   "rank": 786,
   "kind": "content",
   "pos": "noun",
-  "es": "el fondo",
+  "target": "el fondo",
   "en": "fund",
   "hint": "money",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No tenemos fondos para el viaje.",
+    "target": "No tenemos fondos para el viaje.",
     "en": "We don't have funds for the trip."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FONDO sounds like fund-o: a fund is money you are fond of saving.",
   "image": "/deck/img/fondo-fund.webp",
   "audio": {

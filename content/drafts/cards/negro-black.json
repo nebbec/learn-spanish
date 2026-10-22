@@ -3,17 +3,17 @@
   "rank": 418,
   "kind": "content",
   "pos": "adjective",
-  "es": "negro",
+  "target": "negro",
   "en": "black",
   "hint": null,
   "grammar": {
     "feminine": "negra"
   },
   "example": {
-    "es": "Me gusta tu camisa negra.",
+    "target": "Me gusta tu camisa negra.",
     "en": "I like your black shirt."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NEGRO sounds like \"negative\": old photo negatives turn everything black.",
   "image": "/deck/img/negro-black.webp",
   "audio": {

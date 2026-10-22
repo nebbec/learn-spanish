@@ -3,17 +3,17 @@
   "rank": 778,
   "kind": "content",
   "pos": "adjective",
-  "es": "inteligente",
+  "target": "inteligente",
   "en": "intelligent",
   "hint": null,
   "grammar": {
     "feminine": "inteligente"
   },
   "example": {
-    "es": "Tu hermana es muy inteligente.",
+    "target": "Tu hermana es muy inteligente.",
     "en": "Your sister is very intelligent."
   },
-  "spain": null,
+  "regional": null,
   "trick": "INTELIGENTE sounds almost exactly like intelligent: an intelligent gent who reads all day.",
   "image": "/deck/img/inteligente-intelligent.webp",
   "audio": {

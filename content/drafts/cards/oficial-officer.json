@@ -3,7 +3,7 @@
   "rank": 548,
   "kind": "content",
   "pos": "noun",
-  "es": "el oficial",
+  "target": "el oficial",
   "en": "officer",
   "hint": "a rank in the army or police",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El oficial nos pidió los documentos.",
+    "target": "El oficial nos pidió los documentos.",
     "en": "The officer asked us for our papers."
   },
-  "spain": null,
+  "regional": null,
   "trick": "El OFICIAL is the official in uniform: the officer who gives the orders.",
   "image": "/deck/img/oficial-officer.webp",
   "audio": {

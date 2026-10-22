@@ -3,15 +3,15 @@
   "rank": 657,
   "kind": "glue",
   "pos": "preposition",
-  "es": "tras",
+  "target": "tras",
   "en": "day [after] day",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Tras la cena, vimos una película.",
+    "target": "Tras la cena, vimos una película.",
     "en": "After dinner, we watched a movie."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TRAS sounds like trace: you follow someone's trace, coming after and behind them.",
   "image": null,
   "audio": {

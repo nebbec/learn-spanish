@@ -3,7 +3,7 @@
   "rank": 645,
   "kind": "content",
   "pos": "noun",
-  "es": "la carrera",
+  "target": "la carrera",
   "en": "career",
   "hint": "also a university degree",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Estudio la carrera de medicina.",
+    "target": "Estudio la carrera de medicina.",
     "en": "I'm studying for a degree in medicine."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARRERA sounds like \"career\" with an extra roll: your career carries you through life.",
   "image": "/deck/img/carrera-career.webp",
   "audio": {

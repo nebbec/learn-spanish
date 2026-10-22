@@ -3,7 +3,7 @@
   "rank": 683,
   "kind": "content",
   "pos": "noun",
-  "es": "el recuerdo",
+  "target": "el recuerdo",
   "en": "memory",
   "hint": "a thing you remember, not the ability",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tengo muchos recuerdos bonitos de mi infancia.",
+    "target": "Tengo muchos recuerdos bonitos de mi infancia.",
     "en": "I have a lot of nice memories from my childhood."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RECUERDO sounds like \"record\": a memory is a little recording of your past.",
   "image": "/deck/img/recuerdo-memory.webp",
   "audio": {

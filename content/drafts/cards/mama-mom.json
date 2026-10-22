@@ -3,7 +3,7 @@
   "rank": 186,
   "kind": "content",
   "pos": "noun",
-  "es": "la mamá",
+  "target": "la mamá",
   "en": "mom",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi mamá cocina muy rico.",
+    "target": "Mi mamá cocina muy rico.",
     "en": "My mom cooks really well."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MAMÁ sounds just like \"mama\", so picture a baby calling for mom, with the stress on the last syllable.",
   "image": "/deck/img/mama-mom.webp",
   "audio": {

@@ -9,27 +9,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix: es casarse, en to get married, hint removed, present strip made reflexive, trick starts with CASARSE; id left as is.
 decision: approve
 
-id:         casar-marry
-kind:       content
-pos:        verb
-es:         casarse
-en:         to get married
+id:             casar-marry
+kind:           content
+pos:            verb
+target:         casarse
+en:             to get married
 hint:
-yo:         me caso
-tu:         te casas
-el:         se casa
-irregular:  no
-example.es: ¿Quieres casarte conmigo?
-example.en: Will you marry me?
-spain:
-trick:      CASARSE starts like casa, house: when you get married, you move into one house together.
+yo:             me caso
+tu:             te casas
+el:             se casa
+irregular:      no
+example.target: ¿Quieres casarte conmigo?
+example.en:     Will you marry me?
+regional.where:
+regional.text:
+trick:          CASARSE starts like casa, house: when you get married, you move into one house together.
 
 # The draft this file was made from. Do not change it.
-draft: 184de8127faf9161
+draft: a75e970003f74f0d

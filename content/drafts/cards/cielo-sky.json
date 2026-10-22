@@ -3,7 +3,7 @@
   "rank": 408,
   "kind": "content",
   "pos": "noun",
-  "es": "el cielo",
+  "target": "el cielo",
   "en": "sky",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mira, el cielo está muy azul hoy.",
+    "target": "Mira, el cielo está muy azul hoy.",
     "en": "Look, the sky is really blue today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CIELO sounds like 'see yellow': look up and see the yellow sun in the sky.",
   "image": "/deck/img/cielo-sky.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 316,
   "kind": "content",
   "pos": "noun",
-  "es": "el arma",
+  "target": "el arma",
   "en": "weapon",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¡Baja el arma ahora mismo!",
+    "target": "¡Baja el arma ahora mismo!",
     "en": "Put the weapon down right now!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ARMA sounds like arm: you arm yourself with a weapon, and the army carries arms.",
   "image": "/deck/img/arma-weapon.webp",
   "audio": {

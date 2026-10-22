@@ -3,15 +3,15 @@
   "rank": 27,
   "kind": "glue",
   "pos": "determiner",
-  "es": "su",
+  "target": "su",
   "en": "I like [his] car",
   "hint": "one word for his, her, their, or formal your",
   "grammar": null,
   "example": {
-    "es": "Su casa es muy grande.",
+    "target": "Su casa es muy grande.",
     "en": "Her house is very big."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SU sounds like Sue: whose bag is it? It's Sue's, so su means his, her or their.",
   "image": null,
   "audio": {

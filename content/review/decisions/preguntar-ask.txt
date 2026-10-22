@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to example.es and example.en.
 decision: approve
 
-id:         preguntar-ask
-kind:       content
-pos:        verb
-es:         preguntar
-en:         to ask
-hint:       a question, not ask for something
-yo:         pregunto
-tu:         preguntas
-el:         pregunta
-irregular:  no
-example.es: Mi hijo siempre pregunta por qué.
-example.en: My son always asks why.
-spain:
-trick:      PREGUNTAR sounds like a pregnant tar pit: everyone asks, how did that happen?
+id:             preguntar-ask
+kind:           content
+pos:            verb
+target:         preguntar
+en:             to ask
+hint:           a question, not ask for something
+yo:             pregunto
+tu:             preguntas
+el:             pregunta
+irregular:      no
+example.target: Mi hijo siempre pregunta por qué.
+example.en:     My son always asks why.
+regional.where:
+regional.text:
+trick:          PREGUNTAR sounds like a pregnant tar pit: everyone asks, how did that happen?
 
 # The draft this file was made from. Do not change it.
-draft: 9caf00f547129b99
+draft: b6b366f572b85ad8

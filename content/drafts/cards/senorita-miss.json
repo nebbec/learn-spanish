@@ -3,7 +3,7 @@
   "rank": 495,
   "kind": "content",
   "pos": "noun",
-  "es": "la señorita",
+  "target": "la señorita",
   "en": "miss",
   "hint": "polite word for a young or unmarried woman",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Disculpe, señorita, ¿dónde está la estación?",
+    "target": "Disculpe, señorita, ¿dónde está la estación?",
     "en": "Excuse me, miss, where is the station?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEÑORITA sounds like 'senior eater': the polite waiter calls her miss before the senior eater orders.",
   "image": "/deck/img/senorita-miss.webp",
   "audio": {

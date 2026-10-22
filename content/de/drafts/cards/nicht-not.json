@@ -1,0 +1,21 @@
+{
+  "id": "nicht-not",
+  "rank": 8,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "nicht",
+  "en": "I'm [not] tired",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich weiß es nicht.",
+    "en": "I don't know."
+  },
+  "regional": null,
+  "trick": "NICHT sounds a bit like nix, the slang word for no or nothing: nicht means not.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/nicht-not.word.mp3",
+    "sentence": "/deck-de/audio/nicht-not.sentence.mp3"
+  }
+}

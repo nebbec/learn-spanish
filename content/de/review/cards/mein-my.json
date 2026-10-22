@@ -1,0 +1,17 @@
+{
+  "id": "mein-my",
+  "rank": 18,
+  "word": "mein",
+  "draft": "f14a60a38b124b1f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "my",
+    "example": "That is my brother."
+  },
+  "note": "The prompt uses Hund, which is masculine and nominative, so the answer is the plain dictionary form mein; the endings (meine, meinen, meinem) belong on case cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:33:11.645Z"
+}

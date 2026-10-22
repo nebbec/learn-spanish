@@ -1,25 +1,9 @@
 import type { MetadataRoute } from "next";
+import { LANG } from "@/lang";
+import { appManifest } from "@/lib/pwa/manifest";
 
-// Change this when the icon files change, so installed copies fetch the new ones.
-const ICON_VERSION = "2";
-
+// The names and icons come from the build's language (lang/). Raise `icons.version`
+// there when the icon files change, so installed copies fetch the new ones.
 export default function manifest(): MetadataRoute.Manifest {
-  return {
-    id: "/",
-    name: "Learn Spanish",
-    short_name: "Spanish",
-    description: "The 1,000 most common Spanish words, most common first.",
-    start_url: "/",
-    scope: "/",
-    display: "standalone",
-    orientation: "portrait",
-    // The paper colour, as in app/globals.css.
-    background_color: "#ffffff",
-    theme_color: "#ffffff",
-    icons: [
-      { src: `/icon-192.png?v=${ICON_VERSION}`, sizes: "192x192", type: "image/png", purpose: "any" },
-      { src: `/icon-512.png?v=${ICON_VERSION}`, sizes: "512x512", type: "image/png", purpose: "any" },
-      { src: `/icon-512.png?v=${ICON_VERSION}`, sizes: "512x512", type: "image/png", purpose: "maskable" },
-    ],
-  };
+  return appManifest(LANG);
 }

@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to hint, shortened (romper doesn't really answer 'split').
 decision: approve
 
-id:         partir-split
-kind:       content
-pos:        verb
-es:         partir
-en:         to split
-hint:       into pieces, like bread or a cake; not dividir or cortar
-yo:         parto
-tu:         partes
-el:         parte
-irregular:  no
-example.es: ¿Partes el pastel en ocho pedazos?
-example.en: Will you split the cake into eight pieces?
-spain:
-trick:      PARTIR splits something into PARTs, so everyone gets a part.
+id:             partir-split
+kind:           content
+pos:            verb
+target:         partir
+en:             to split
+hint:           into pieces, like bread or a cake; not dividir or cortar
+yo:             parto
+tu:             partes
+el:             parte
+irregular:      no
+example.target: ¿Partes el pastel en ocho pedazos?
+example.en:     Will you split the cake into eight pieces?
+regional.where:
+regional.text:
+trick:          PARTIR splits something into PARTs, so everyone gets a part.
 
 # The draft this file was made from. Do not change it.
-draft: 714afa99e27abf5a
+draft: c63bfa67c293c7af

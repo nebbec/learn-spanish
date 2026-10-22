@@ -1,0 +1,17 @@
+{
+  "rank": 13,
+  "word": "werden",
+  "cards": [
+    "werden-become",
+    "werden-will"
+  ],
+  "skip": null,
+  "sameAs": {
+    "werden-become": null,
+    "werden-will": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:31:04.173Z"
+}

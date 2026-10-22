@@ -8,23 +8,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 decision: approve
 
-id:         fuera-out
-kind:       content
-pos:        adverb
-es:         fuera
-en:         out
-hint:       as in out of town, followed by de; the shorter word, not afuera
-example.es: Mi papá está fuera de la ciudad.
-example.en: My dad is out of town.
-spain:
-trick:      FUERA sounds like fury: in a fury, she threw him out of the house.
+id:             fuera-out
+kind:           content
+pos:            adverb
+target:         fuera
+en:             out
+hint:           as in out of town, followed by de; the shorter word, not afuera
+example.target: Mi papá está fuera de la ciudad.
+example.en:     My dad is out of town.
+regional.where:
+regional.text:
+trick:          FUERA sounds like fury: in a fury, she threw him out of the house.
 
 # The draft this file was made from. Do not change it.
-draft: 74be9709f5506359
+draft: d3e4b6bcb6702bcc

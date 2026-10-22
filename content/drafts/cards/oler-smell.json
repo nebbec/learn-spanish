@@ -3,7 +3,7 @@
   "rank": 770,
   "kind": "content",
   "pos": "verb",
-  "es": "oler",
+  "target": "oler",
   "en": "to smell",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Aquí huele a café.",
+    "target": "Aquí huele a café.",
     "en": "It smells like coffee in here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OLER sounds like \"oh, layer!\": you sniff each layer of the cake and say oh, it smells great.",
   "image": "/deck/img/oler-smell.webp",
   "audio": {

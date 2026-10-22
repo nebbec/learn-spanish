@@ -3,7 +3,7 @@
   "rank": 750,
   "kind": "content",
   "pos": "noun",
-  "es": "la acción",
+  "target": "la acción",
   "en": "action",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me encantan las películas de acción.",
+    "target": "Me encantan las películas de acción.",
     "en": "I love action movies."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ACCIÓN sounds like action with a Spanish accent: the director yells it before every scene.",
   "image": "/deck/img/accion-action.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 54,
   "kind": "content",
   "pos": "verb",
-  "es": "dar",
+  "target": "dar",
   "en": "to give",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Dame el teléfono, por favor.",
+    "target": "Dame el teléfono, por favor.",
     "en": "Give me the phone, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DAR sounds like \"dollar\": you give someone a dollar.",
   "image": "/deck/img/dar-give.webp",
   "audio": {

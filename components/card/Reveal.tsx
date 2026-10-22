@@ -1,12 +1,13 @@
 "use client";
 
-import { Fragment, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import { playClip, useAutoplay } from "@/components/audio";
 import { useMotion } from "@/components/motion";
+import { LANG } from "@/lang";
 import type { Card, DeckTip } from "@/lib/deck";
-import { FORM_ID } from "@/lib/deck/validate";
 import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
+import { GrammarStrip } from "./GrammarStrip";
 import { splitGluePrompt } from "./gluePrompt";
 import { TipButton } from "./Tip";
 
@@ -35,7 +36,7 @@ export interface RevealProps {
 }
 
 /**
- * The answer side of a card: the Spanish, its grammar, the example sentence and
+ * The answer side of a card: the answer, its grammar, the example sentence and
  * audio, with the three rating buttons pinned to the bottom. It looks the same
  * in both directions, so it takes no `direction`. The word clip plays when it
  * opens, unless muted.
@@ -55,10 +56,11 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
         {/* With a "?" in the corner, the character keeps clear of it on both sides. */}
         <CharacterSlot image={card.image} className={`max-h-36 min-h-20 ${tip ? "px-12" : ""}`} move={move} />
 
-        <div className="flex flex-col items-center gap-1">
+        {/* With a "?" and no character above it, the answer starts below the "?". */}
+        <div data-testid="answer-block" className={`flex flex-col items-center gap-1 ${tip && !card.image ? "pt-10" : ""}`}>
           <div className="flex items-center gap-2">
-            <span data-testid="answer" lang="es" className="font-display text-answer font-bold">
-              {card.es}
+            <span data-testid="answer" lang={LANG.tag} className="font-display text-answer font-bold">
+              {card.target}
             </span>
             <AudioButton label="Play the word" testId="play-word" onPress={() => onPlay(card.audio.word)} />
           </div>
@@ -77,8 +79,8 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         <div className="flex w-full items-start gap-2 rounded-button bg-quiet p-3 text-left">
           <p className="flex flex-1 flex-col gap-0.5">
-            <span data-testid="example-es" lang="es" className="text-lg font-bold">
-              {card.example.es}
+            <span data-testid="example-es" lang={LANG.tag} className="text-lg font-bold">
+              {card.example.target}
             </span>
             <span data-testid="example-en" className="text-ink-soft">
               {card.example.en}
@@ -87,9 +89,9 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
           <AudioButton label="Play the sentence" testId="play-sentence" onPress={() => onPlay(card.audio.sentence)} />
         </div>
 
-        {card.spain && (
-          <p data-testid="spain" className="text-sm text-ink-soft">
-            Spain: <span lang="es">{card.spain}</span>
+        {card.regional && (
+          <p data-testid="regional" className="text-sm text-ink-soft">
+            {card.regional.where}: <span lang={LANG.tag}>{card.regional.text}</span>
           </p>
         )}
 
@@ -113,9 +115,9 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
   );
 }
 
-/** The English, small, under the Spanish. Glue phrases keep their highlighted target. */
+/** The English, small, under the answer. Glue and case prompts keep their highlighted target. */
 export function Meaning({ card }: { card: Card }) {
-  const glue = card.kind === "glue" ? splitGluePrompt(card.en) : null;
+  const glue = card.kind === "glue" || card.kind === "case" ? splitGluePrompt(card.en) : null;
   return (
     <span data-testid="meaning" className="text-ink-soft">
       {glue ? (
@@ -132,20 +134,6 @@ export function Meaning({ card }: { card: Card }) {
   );
 }
 
-/** The strip's three persons, in order, with the pronoun shown before each form. */
-const PERSONS = [
-  { person: "yo", label: "yo" },
-  { person: "tu", label: "tú" },
-  { person: "el", label: "él" },
-] as const;
-
-/** The person a form card drills (`ser-form-tu` → `tu`), or null: any other card, and `haber-form-hay`, whose form is not in the strip. */
-export function formPerson(card: Card): "yo" | "tu" | "el" | null {
-  if (card.kind !== "form") return null;
-  const person = FORM_ID.exec(card.id)?.[1];
-  return person === "yo" || person === "tu" || person === "el" ? person : null;
-}
-
 /** The one-line contrast with a near neighbour ("Use estar for how or where…"), on the intro and the reveal. */
 export function WhyLine({ card }: { card: Card }) {
   if (!card.why) return null;
@@ -154,62 +142,6 @@ export function WhyLine({ card }: { card: Card }) {
       {card.why}
     </p>
   );
-}
-
-/**
- * Noun: gender. Adjective: both endings. Verb: three present-tense forms and the irregular
- * flag; a form card's own form is highlighted. Nothing otherwise.
- */
-export function GrammarStrip({ card }: { card: Card }) {
-  if (card.pos === "noun") {
-    return (
-      <p data-testid="grammar" data-variant="noun" className="font-bold">
-        <span lang="es">{card.grammar.article}</span>
-        <span className="font-normal text-ink-soft">
-          {" · "}
-          {card.grammar.gender === "f" ? "feminine" : "masculine"}
-        </span>
-      </p>
-    );
-  }
-  if (card.pos === "adjective") {
-    return (
-      <p data-testid="grammar" data-variant="adjective" lang="es" className="font-bold">
-        {card.es} / {card.grammar.feminine}
-      </p>
-    );
-  }
-  if (card.pos === "verb") {
-    const { present } = card.grammar;
-    const own = formPerson(card);
-    return (
-      <p data-testid="grammar" data-variant="verb" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
-        <span lang="es" className="font-bold">
-          {PERSONS.map(({ person, label }, i) => (
-            <Fragment key={person}>
-              {i > 0 && " · "}
-              {person === own ? (
-                <mark data-testid="own-form" className="rounded-chip bg-sun px-1 text-ink">
-                  {label} {present[person]}
-                </mark>
-              ) : (
-                `${label} ${present[person]}`
-              )}
-            </Fragment>
-          ))}
-        </span>
-        {card.grammar.irregular && (
-          <span
-            data-testid="irregular"
-            className="rounded-chip bg-sun px-2 py-0.5 text-sm font-bold uppercase tracking-wide text-ink"
-          >
-            Irregular
-          </span>
-        )}
-      </p>
-    );
-  }
-  return null;
 }
 
 export function AudioButton({ label, testId, onPress }: { label: string; testId: string; onPress: () => void }) {

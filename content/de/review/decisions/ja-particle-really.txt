@@ -1,0 +1,30 @@
+# ja-particle-really · rank 20 · ja
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out wirklich but not aber, the other common particle of surprise: Das ist aber toll! is just as right as Das ist ja toll!, and the adverb echt also fits. Suggested fix: hint: particle of surprise, not aber, echt or wirklich
+# Reviewer's note (not a reason to flag): English has no real word for this ja, so the bracketed [really] is only a rough stand-in, and the hint does most of the work.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             ja-particle-really
+kind:           glue
+pos:            other
+target:         ja
+en:             That's [really] great!
+hint:           particle of surprise, not wirklich
+example.target: Du bist ja schon da!
+example.en:     Oh, you're already here!
+regional.where:
+regional.text:
+trick:          JA sounds like "yah": picture a surprised "yeah, wow!" slipped into the middle of a sentence.
+
+# The draft this file was made from. Do not change it.
+draft: 5551cb13ed9f3b72

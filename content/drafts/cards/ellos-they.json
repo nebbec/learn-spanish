@@ -3,15 +3,15 @@
   "rank": 142,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "ellos",
+  "target": "ellos",
   "en": "[they] are my friends",
   "hint": "men or a mixed group (ellas for only women)",
   "grammar": null,
   "example": {
-    "es": "Ellos viven cerca de mi casa.",
+    "target": "Ellos viven cerca de mi casa.",
     "en": "They live near my house."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ELLOS sounds like \"eh, yos\": you point at a group across the street and say \"eh, those guys\" meaning them.",
   "image": null,
   "audio": {

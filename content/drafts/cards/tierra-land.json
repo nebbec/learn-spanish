@@ -3,7 +3,7 @@
   "rank": 334,
   "kind": "content",
   "pos": "noun",
-  "es": "la tierra",
+  "target": "la tierra",
   "en": "land",
   "hint": "territory, homeland",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Esta tierra es de mi familia.",
+    "target": "Esta tierra es de mi familia.",
     "en": "This land belongs to my family."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIERRA sounds like terrain: the land is all terrain, as far as you can see.",
   "image": "/deck/img/tierra-land.webp",
   "audio": {

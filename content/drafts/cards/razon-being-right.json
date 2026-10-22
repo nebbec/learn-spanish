@@ -3,7 +3,7 @@
   "rank": 208,
   "kind": "content",
   "pos": "noun",
-  "es": "la razón",
+  "target": "la razón",
   "en": "being right",
   "hint": "used in tener ___ (to be right)",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tienes razón, lo siento.",
+    "target": "Tienes razón, lo siento.",
     "en": "You're right, I'm sorry."
   },
-  "spain": null,
+  "regional": null,
   "trick": "If you have RAZÓN, you have the reason on your side, so you're right.",
   "image": "/deck/img/razon-being-right.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 606,
   "kind": "content",
   "pos": "noun",
-  "es": "la decisión",
+  "target": "la decisión",
   "en": "decision",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Fue una decisión difícil, pero la tomé.",
+    "target": "Fue una decisión difícil, pero la tomé.",
     "en": "It was a hard decision, but I made it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DECISIÓN sounds just like decision: add a Spanish accent and you've made your decision.",
   "image": "/deck/img/decision-decision.webp",
   "audio": {

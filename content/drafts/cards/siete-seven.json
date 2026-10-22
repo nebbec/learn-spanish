@@ -3,15 +3,15 @@
   "rank": 734,
   "kind": "content",
   "pos": "other",
-  "es": "siete",
+  "target": "siete",
   "en": "seven",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Llego a las siete de la noche.",
+    "target": "Llego a las siete de la noche.",
     "en": "I'm arriving at seven at night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIETE sounds like \"see a tea\": you see a tea set with seven cups.",
   "image": "/deck/img/siete-seven.webp",
   "audio": {

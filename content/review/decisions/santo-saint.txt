@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: new example using only common words (llamarse, ese) in place of the redraft.
 decision: approve
 
-id:         santo-saint
-kind:       content
-pos:        noun
-es:         el santo
-en:         saint
+id:             santo-saint
+kind:           content
+pos:            noun
+target:         el santo
+en:             saint
 hint:
-gender:     m
-article:    el
-example.es: ¿Cómo se llama ese santo?
-example.en: What's that saint's name?
-spain:
-trick:      SANTO sounds like Santa: Santa Claus is based on a saint, Saint Nicholas.
+gender:         m
+article:        el
+example.target: ¿Cómo se llama ese santo?
+example.en:     What's that saint's name?
+regional.where:
+regional.text:
+trick:          SANTO sounds like Santa: Santa Claus is based on a saint, Saint Nicholas.
 
 # The draft this file was made from. Do not change it.
-draft: 18af3d82d728624b
+draft: d76a9db2d66790aa

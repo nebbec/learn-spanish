@@ -3,7 +3,7 @@
   "rank": 374,
   "kind": "content",
   "pos": "verb",
-  "es": "probar",
+  "target": "probar",
   "en": "to taste",
   "hint": "try food, not taste of",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Prueba la sopa, está deliciosa.",
+    "target": "Prueba la sopa, está deliciosa.",
     "en": "Taste the soup, it's delicious."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PROBAR sounds like probe: your tongue probes the soup to taste it.",
   "image": "/deck/img/probar-taste.webp",
   "audio": {

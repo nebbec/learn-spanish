@@ -10,27 +10,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fixes: es to quedarse, hint removed, reflexive grammar lines.
 decision: approve
 
-id:         quedar-stay
-kind:       content
-pos:        verb
-es:         quedarse
-en:         to stay
+id:             quedar-stay
+kind:           content
+pos:            verb
+target:         quedarse
+en:             to stay
 hint:
-yo:         me quedo
-tu:         te quedas
-el:         se queda
-irregular:  no
-example.es: Quédate conmigo esta noche.
-example.en: Stay with me tonight.
-spain:
-trick:      QUEDAR sounds like 'K, stay there!': you tell your friend to stay put.
+yo:             me quedo
+tu:             te quedas
+el:             se queda
+irregular:      no
+example.target: Quédate conmigo esta noche.
+example.en:     Stay with me tonight.
+regional.where:
+regional.text:
+trick:          QUEDAR sounds like 'K, stay there!': you tell your friend to stay put.
 
 # The draft this file was made from. Do not change it.
-draft: 9b359d59732bcee4
+draft: 7374e167ba468666

@@ -3,7 +3,7 @@
   "rank": 800,
   "kind": "content",
   "pos": "verb",
-  "es": "firmar",
+  "target": "firmar",
   "en": "to sign",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Firma aquí, por favor.",
+    "target": "Firma aquí, por favor.",
     "en": "Sign here, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FIRMAR sounds like \"firm mark\": you sign a contract by putting your firm mark on it.",
   "image": "/deck/img/firmar-sign.webp",
   "audio": {

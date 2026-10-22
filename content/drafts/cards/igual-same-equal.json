@@ -3,17 +3,17 @@
   "rank": 333,
   "kind": "content",
   "pos": "adjective",
-  "es": "igual",
+  "target": "igual",
   "en": "equal",
   "hint": "also: the same, alike",
   "grammar": {
     "feminine": "igual"
   },
   "example": {
-    "es": "Tu camisa es igual a la mía.",
+    "target": "Tu camisa es igual a la mía.",
     "en": "Your shirt is the same as mine."
   },
-  "spain": null,
+  "regional": null,
   "trick": "IGUAL sounds like \"equal\": two things that are equal look exactly the same.",
   "image": "/deck/img/igual-same-equal.webp",
   "audio": {

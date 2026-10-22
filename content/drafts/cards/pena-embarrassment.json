@@ -3,7 +3,7 @@
   "rank": 581,
   "kind": "content",
   "pos": "noun",
-  "es": "la pena",
+  "target": "la pena",
   "en": "embarrassment",
   "hint": "Latin American, as in me da ___; not vergüenza",
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "la"
   },
   "example": {
-    "es": "Me da pena hablar en público.",
+    "target": "Me da pena hablar en público.",
     "en": "I'm embarrassed to speak in public."
   },
-  "spain": "vergüenza",
+  "regional": {
+    "where": "Spain",
+    "text": "vergüenza"
+  },
   "trick": "PENA sounds like pain: embarrassment is the pain of everyone looking at you.",
   "image": "/deck/img/pena-embarrassment.webp",
   "audio": {

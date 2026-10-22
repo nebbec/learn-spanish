@@ -128,7 +128,7 @@ function update() {
   const names = (list) => list.map((clip) => clip.name).join(", ") || "none";
   document.getElementById("redo").hidden = again.length === 0;
   document.getElementById("command").textContent =
-    `npm run audio -- --deck ${DATA.deck} --check --prune --redo ${again.map((clip) => clip.name).join(",")}`;
+    `npm run audio -- ${DATA.lang && DATA.lang !== "es" ? `--lang ${DATA.lang} ` : ""}--deck ${DATA.deck} --check --prune --redo ${again.map((clip) => clip.name).join(",")}`;
   document.getElementById("summary").textContent =
     `Heard ${heard} of ${total} clips. Sound right: ${names(ok)}. Say again: ${names(again)}.`;
 }

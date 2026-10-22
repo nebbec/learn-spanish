@@ -3,7 +3,7 @@
   "rank": 739,
   "kind": "content",
   "pos": "noun",
-  "es": "el club",
+  "target": "el club",
   "en": "club",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi hermano juega en un club de fútbol.",
+    "target": "Mi hermano juega en un club de fútbol.",
     "en": "My brother plays for a soccer club."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CLUB sounds just like the English club: same word, same meeting place for members.",
   "image": "/deck/img/club-club.webp",
   "audio": {

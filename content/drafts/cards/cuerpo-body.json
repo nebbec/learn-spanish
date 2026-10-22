@@ -3,7 +3,7 @@
   "rank": 329,
   "kind": "content",
   "pos": "noun",
-  "es": "el cuerpo",
+  "target": "el cuerpo",
   "en": "body",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me duele todo el cuerpo.",
+    "target": "Me duele todo el cuerpo.",
     "en": "My whole body hurts."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUERPO sounds like corpse, which is a body, just one that has stopped moving.",
   "image": "/deck/img/cuerpo-body.webp",
   "audio": {

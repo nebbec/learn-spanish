@@ -3,15 +3,15 @@
   "rank": 658,
   "kind": "glue",
   "pos": "preposition",
-  "es": "a pesar de",
+  "target": "a pesar de",
   "en": "[despite] the rain",
   "hint": "three-word phrase",
   "grammar": null,
   "example": {
-    "es": "Salimos a pesar de la lluvia.",
+    "target": "Salimos a pesar de la lluvia.",
     "en": "We went out despite the rain."
   },
-  "spain": null,
+  "regional": null,
   "trick": "A PESAR DE: even with the weight (pesar) of the problem on you, you keep going anyway.",
   "image": null,
   "audio": {

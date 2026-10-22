@@ -1,6 +1,44 @@
 // Logic for the hero mascot loops (F3, made transparent in U2). The run is in
 // make-mascot.mjs; the rules are in docs/design.md under "Art", "Decided in F3" and "Decided in U2".
 
+import path from "node:path";
+import { LANGS } from "../../lang/index.ts";
+
+/**
+ * Where a language's mascot files are read and written (DE5), from its config in lang/: the takes under
+ * <content>/art/mascot, the files the app plays under public/ as the config names them, and the cutout of
+ * the lead the still is named after (concha.webp is made from content/art/cast/concha-cutout.webp).
+ */
+export function mascotPaths(root, lang = "es") {
+  const config = LANGS[lang];
+  const files = config.mascot;
+  const lead = path.basename(files.still).replace(/\.[a-z0-9]+$/i, "");
+  const pub = (url) => path.join(root, "public", url);
+  return {
+    art: path.join(root, config.contentDir, "art", "mascot"),
+    cache: path.join(root, "content", ".cache", lang === "es" ? "mascot" : `mascot-${lang}`),
+    cutout: path.join(root, "content", "art", "cast", `${lead}-cutout.webp`),
+    idle: { webm: pub(files.idle.webm), hevc: pub(files.idle.hevc), poster: pub(files.idle.poster) },
+    celebrate: { webm: pub(files.celebrate.webm), hevc: pub(files.celebrate.hevc), poster: pub(files.celebrate.poster) },
+    still: pub(files.still),
+  };
+}
+
+/**
+ * A language's mascot files that are Spanish's, which a run would overwrite. Spanish owns its files; German's
+ * are the concha's placeholders until DE14 gives it its own under /mascot-de/, so `npm run mascot -- --lang de`
+ * refuses until then.
+ */
+export function sharedMascotFiles(lang) {
+  const urls = (code) => {
+    const m = LANGS[code].mascot;
+    return [m.idle.webm, m.idle.hevc, m.idle.poster, m.celebrate.webm, m.celebrate.hevc, m.celebrate.poster, m.still];
+  };
+  if (lang === "es") return [];
+  const spanish = new Set(urls("es"));
+  return urls(lang).filter((url) => spanish.has(url));
+}
+
 /** The paper colour the clips are shown on, as in app/globals.css. */
 export const PAPER = [0xff, 0xf8, 0xec];
 

@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to trick.
 decision: approve
 
-id:         razon-reason
-kind:       content
-pos:        noun
-es:         la razón
-en:         reason
+id:             razon-reason
+kind:           content
+pos:            noun
+target:         la razón
+en:             reason
 hint:
-gender:     f
-article:    la
-example.es: No hay razón para llorar.
-example.en: There's no reason to cry.
-spain:
-trick:      RAZÓN sounds like a Spanish-accented REASON (rah-SOHN), and that is just what it means.
+gender:         f
+article:        la
+example.target: No hay razón para llorar.
+example.en:     There's no reason to cry.
+regional.where:
+regional.text:
+trick:          RAZÓN sounds like a Spanish-accented REASON (rah-SOHN), and that is just what it means.
 
 # The draft this file was made from. Do not change it.
-draft: 8592e9aca630fd65
+draft: 4c5097a4714ff93c

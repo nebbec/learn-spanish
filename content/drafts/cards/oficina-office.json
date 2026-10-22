@@ -3,7 +3,7 @@
   "rank": 463,
   "kind": "content",
   "pos": "noun",
-  "es": "la oficina",
+  "target": "la oficina",
   "en": "office",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi papá trabaja en una oficina.",
+    "target": "Mi papá trabaja en una oficina.",
     "en": "My dad works in an office."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OFICINA sounds like \"office-eena\": a tiny office where Tina answers phones all day.",
   "image": "/deck/img/oficina-office.webp",
   "audio": {

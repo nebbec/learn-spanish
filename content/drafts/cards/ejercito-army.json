@@ -3,7 +3,7 @@
   "rank": 771,
   "kind": "content",
   "pos": "noun",
-  "es": "el ejército",
+  "target": "el ejército",
   "en": "army",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi hermano está en el ejército.",
+    "target": "Mi hermano está en el ejército.",
     "en": "My brother is in the army."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EJÉRCITO sounds like \"exercise\": an army exercises and drills every single day.",
   "image": "/deck/img/ejercito-army.webp",
   "audio": {

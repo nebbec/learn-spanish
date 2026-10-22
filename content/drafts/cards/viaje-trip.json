@@ -3,7 +3,7 @@
   "rank": 521,
   "kind": "content",
   "pos": "noun",
-  "es": "el viaje",
+  "target": "el viaje",
   "en": "trip",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Qué tal tu viaje a México?",
+    "target": "¿Qué tal tu viaje a México?",
     "en": "How was your trip to Mexico?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "VIAJE sounds like via: a trip takes you via many places.",
   "image": "/deck/img/viaje-trip.webp",
   "audio": {

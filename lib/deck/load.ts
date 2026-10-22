@@ -2,9 +2,11 @@
 // service worker can cache it and a deck revision needs no code change.
 
 import type { Card, Deck } from "./types";
+import { LANG } from "@/lang";
 import { parseDeck } from "./validate";
 
-export const DECK_URL = "/deck/deck.json";
+/** The build's deck: `/deck/deck.json` for Spanish, `/deck-de/deck.json` for German (lang/). */
+export const DECK_URL = `${LANG.deckPath}deck.json`;
 
 export interface LoadedDeck extends Deck {
   /** Look a card up by id. */
@@ -19,11 +21,11 @@ type Fetch = (url: string) => Promise<{ ok: boolean; status: number; json(): Pro
 
 let cached: Promise<LoadedDeck> | null = null;
 
-/** Fetches and validates the deck without caching. Throws on a failed request or an invalid deck. */
+/** Fetches and validates the deck without caching. Throws on a failed request, an invalid deck or a deck of another language. */
 export async function fetchDeck(fetchImpl: Fetch = fetch, url: string = DECK_URL): Promise<LoadedDeck> {
   const response = await fetchImpl(url);
   if (!response.ok) throw new Error(`Could not load the deck: ${url} returned ${response.status}`);
-  return indexDeck(parseDeck(await response.json()));
+  return indexDeck(parseDeck(await response.json(), LANG.code));
 }
 
 /** The deck, fetched once per page load. A failed load is not cached, so a later call retries. */

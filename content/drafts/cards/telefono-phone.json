@@ -3,7 +3,7 @@
   "rank": 369,
   "kind": "content",
   "pos": "noun",
-  "es": "el teléfono",
+  "target": "el teléfono",
   "en": "phone",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Me das tu número de teléfono?",
+    "target": "¿Me das tu número de teléfono?",
     "en": "Can you give me your phone number?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TELÉFONO sounds just like telephone: tell your friend everything on the phone.",
   "image": "/deck/img/telefono-phone.webp",
   "audio": {

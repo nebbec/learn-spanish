@@ -3,15 +3,15 @@
   "rank": 267,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "mientras",
+  "target": "mientras",
   "en": "I cook [while] you sleep",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Escucho música mientras trabajo.",
+    "target": "Escucho música mientras trabajo.",
     "en": "I listen to music while I work."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MIENTRAS sounds like 'me in trance': I stay in a trance while the music plays.",
   "image": null,
   "audio": {

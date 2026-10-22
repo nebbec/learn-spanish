@@ -3,7 +3,7 @@
   "rank": 139,
   "kind": "content",
   "pos": "noun",
-  "es": "el seguro",
+  "target": "el seguro",
   "en": "insurance",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No tengo seguro médico.",
+    "target": "No tengo seguro médico.",
     "en": "I don't have health insurance."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEGURO sounds like \"secure\": insurance keeps your money secure when things go wrong.",
   "image": "/deck/img/seguro-insurance.webp",
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 276,
   "kind": "content",
   "pos": "adjective",
-  "es": "bajo",
+  "target": "bajo",
   "en": "short",
   "hint": "in height, not length",
   "grammar": {
     "feminine": "baja"
   },
   "example": {
-    "es": "Mi hermano es más bajo que yo.",
+    "target": "Mi hermano es más bajo que yo.",
     "en": "My brother is shorter than me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BAJO sounds like a baby's 'bah-ho': babies are short.",
   "image": "/deck/img/bajo-short.webp",
   "audio": {

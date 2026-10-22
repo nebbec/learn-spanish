@@ -3,7 +3,7 @@
   "rank": 341,
   "kind": "content",
   "pos": "verb",
-  "es": "echar",
+  "target": "echar",
   "en": "to kick out",
   "hint": "from a place or a job",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me echaron del trabajo ayer.",
+    "target": "Me echaron del trabajo ayer.",
     "en": "They kicked me out of my job yesterday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ECHAR sounds like EJECT-ar: when the boss ejects you, he kicks you out.",
   "image": "/deck/img/echar-kick-out.webp",
   "audio": {

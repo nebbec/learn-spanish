@@ -3,7 +3,7 @@
   "rank": 240,
   "kind": "content",
   "pos": "noun",
-  "es": "el tío",
+  "target": "el tío",
   "en": "uncle",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi tío vive en Guadalajara.",
+    "target": "Mi tío vive en Guadalajara.",
     "en": "My uncle lives in Guadalajara."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TÍO sounds like \"tea-oh\": your uncle always shows up at teatime saying \"oh, tea!\"",
   "image": "/deck/img/tio-uncle.webp",
   "audio": {

@@ -9,24 +9,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fixes to hint, example.es and example.en.
 decision: approve
 
-id:         bienvenido-welcome
-kind:       content
-pos:        adjective
-es:         bienvenido
-en:         welcome
-hint:       greeting a guest, as in Welcome! (adjective, not the noun)
-feminine:   bienvenida
-example.es: Siempre eres bienvenido aquí.
-example.en: You're always welcome here.
-spain:
-trick:      BIENVENIDO is bien (well) plus venido (come): you have come well, so welcome!
+id:             bienvenido-welcome
+kind:           content
+pos:            adjective
+target:         bienvenido
+en:             welcome
+hint:           greeting a guest, as in Welcome! (adjective, not the noun)
+feminine:       bienvenida
+example.target: Siempre eres bienvenido aquí.
+example.en:     You're always welcome here.
+regional.where:
+regional.text:
+trick:          BIENVENIDO is bien (well) plus venido (come): you have come well, so welcome!
 
 # The draft this file was made from. Do not change it.
-draft: 7e40709dc9d18264
+draft: 9a49c871fa2e39ea

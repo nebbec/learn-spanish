@@ -7,6 +7,7 @@
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
 import { Mascot } from "@/components/motion";
+import { LANG } from "@/lang";
 import { Wheel } from "@/components/Wheel";
 import type { Card, DeckUnit, PartOfSpeech } from "@/lib/deck";
 import { GREETING_TEXT, menuGreeting, progressStats } from "@/lib/progress";
@@ -106,7 +107,7 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
           <h1
             data-testid="menu-greeting"
             data-greeting={greeting}
-            lang="es"
+            lang={LANG.tag}
             className="font-display text-greeting font-extrabold tracking-[-0.01em]"
           >
             {GREETING_TEXT[greeting]}
@@ -228,7 +229,7 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
             <SheetIcon>
               <ReverseIcon />
             </SheetIcon>
-            <SheetText title="Reverse" detail="Spanish shown first, everywhere in Practice" />
+            <SheetText title="Reverse" detail={`${LANG.language} shown first, everywhere in Practice`} />
             <button
               type="button"
               role="switch"

@@ -3,7 +3,7 @@
   "rank": 428,
   "kind": "content",
   "pos": "noun",
-  "es": "el pasado",
+  "target": "el pasado",
   "en": "the past",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No puedes cambiar el pasado.",
+    "target": "No puedes cambiar el pasado.",
     "en": "You can't change the past."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EL PASADO is everything that has passed: the past.",
   "image": "/deck/img/pasado-past.webp",
   "audio": {

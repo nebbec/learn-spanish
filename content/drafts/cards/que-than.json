@@ -3,15 +3,15 @@
   "rank": 3,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "que",
+  "target": "que",
   "en": "taller [than] you",
   "hint": "comparing two things",
   "grammar": null,
   "example": {
-    "es": "Mi hermano es más alto que yo.",
+    "target": "Mi hermano es más alto que yo.",
     "en": "My brother is taller than me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUE sounds like \"K\": K comes later in the alphabet than A, so it's \"more than\" A.",
   "image": null,
   "audio": {

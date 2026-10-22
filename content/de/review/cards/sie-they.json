@@ -1,0 +1,17 @@
+{
+  "id": "sie-they",
+  "rank": 4,
+  "word": "sie",
+  "draft": "351a402185ae046b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "they (third person plural subject pronoun)",
+    "example": "So where are they?"
+  },
+  "note": "In the example, the particle denn is left out of \"Where are they?\". That's fine, but \"So where are they?\" would get its tone across a bit better.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:01.826Z"
+}

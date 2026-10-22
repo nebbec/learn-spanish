@@ -33,7 +33,7 @@
 </head>
 <body>
 <main>
-  <h1>Voice test</h1>
+  <h1 id="title">Voice test</h1>
   <p>Each word has one clip per voice, shuffled under the letters so you cannot tell which voice is which. For each word, pick the one you would most like to hear two thousand times, and tick <b>wrong</b> on any that says it wrong. Every clip is played at the same loudness, so a louder voice cannot win on volume.</p>
   <p>Your answers are kept in this browser until you reveal the voices.</p>
   <div id="items"></div>
@@ -114,6 +114,7 @@ function render() {
     card.className = "item" + (state.best[item.n] ? " done" : "");
     card.innerHTML = `<p class="text"></p><p class="tests"></p>`;
     card.querySelector(".text").textContent = item.text;
+    if (DATA.lang) card.querySelector(".text").lang = DATA.lang;
     card.querySelector(".tests").textContent = item.tests;
     const buttons = [];
     item.clips.forEach((clip, i) => {
@@ -162,7 +163,7 @@ function results() {
     wrong: DATA.items.filter((item) => state.wrong[`${item.n}:${who}`]).map((item) => item.text),
   })).sort((a, b) => b.best - a.best || a.wrong.length - b.wrong.length);
   document.getElementById("tally").innerHTML =
-    "<tr><th>Provider</th><th>Voice</th><th>Best</th><th>Wrong</th></tr>" +
+    "<tr><th>Candidate</th><th>Voice</th><th>Best</th><th>Wrong</th></tr>" +
     rows.map((r) => `<tr><td>${r.who}</td><td>${r.voice}</td><td>${r.best}</td><td>${r.wrong.length}</td></tr>`).join("");
   document.getElementById("json").value = JSON.stringify({
     judged: DATA.items.filter((item) => state.best[item.n]).length,
@@ -182,6 +183,7 @@ document.getElementById("reveal").onclick = () => {
   document.getElementById("results").scrollIntoView();
 };
 
+if (DATA.title) document.title = document.getElementById("title").textContent = DATA.title;
 render();
 </script>
 </body>

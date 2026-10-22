@@ -3,7 +3,7 @@
   "rank": 233,
   "kind": "content",
   "pos": "verb",
-  "es": "preocupar",
+  "target": "preocupar",
   "en": "to worry",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No te preocupes, todo va a estar bien.",
+    "target": "No te preocupes, todo va a estar bien.",
     "en": "Don't worry, everything's going to be fine."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PREOCUPAR sounds like pre-occupy: when you worry, your mind is preoccupied.",
   "image": "/deck/img/preocupar-worry.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 450,
   "kind": "content",
   "pos": "verb",
-  "es": "presentar",
+  "target": "presentar",
   "en": "to present",
   "hint": "show or hand in",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mañana presento mi proyecto en clase.",
+    "target": "Mañana presento mi proyecto en clase.",
     "en": "Tomorrow I present my project in class."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRESENTAR looks like present plus -ar: you present your project on stage.",
   "image": "/deck/img/presentar-present.webp",
   "audio": {

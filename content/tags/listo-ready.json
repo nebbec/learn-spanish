@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use listo with estar for ready (estoy listo); with ser it means clever.",
-  "draft": "35128dea1c84de41",
+  "draft": "5ecabc3c93801b32",
   "group": "#239 listo",
   "via": "cli",
   "model": "claude-opus-5-5",

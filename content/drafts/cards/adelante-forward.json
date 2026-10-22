@@ -3,15 +3,15 @@
   "rank": 332,
   "kind": "content",
   "pos": "adverb",
-  "es": "adelante",
+  "target": "adelante",
   "en": "forward, ahead",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Sigue adelante, no mires atrás.",
+    "target": "Sigue adelante, no mires atrás.",
     "en": "Keep going forward, don't look back."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ADELANTE sounds like a deli ant: a tiny ant marching forward, always ahead, toward the deli.",
   "image": "/deck/img/adelante-forward.webp",
   "audio": {

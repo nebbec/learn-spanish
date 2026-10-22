@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: replaced the example with one that conjugates ver in its seeing sense; used 'No veo nada' instead of the reviewer's 'No veo bien sin mis lentes' to avoid the rarer word lentes.
 decision: approve
 
-id:         ver-see
-kind:       content
-pos:        verb
-es:         ver
-en:         to see
+id:             ver-see
+kind:           content
+pos:            verb
+target:         ver
+en:             to see
 hint:
-yo:         veo
-tu:         ves
-el:         ve
-irregular:  yes
-example.es: No veo nada.
-example.en: I can't see anything.
-spain:
-trick:      VER sounds like "where": you ask where it is until you finally see it.
+yo:             veo
+tu:             ves
+el:             ve
+irregular:      yes
+example.target: No veo nada.
+example.en:     I can't see anything.
+regional.where:
+regional.text:
+trick:          VER sounds like "where": you ask where it is until you finally see it.
 
 # The draft this file was made from. Do not change it.
-draft: 7e389c9bfca66b36
+draft: d17356efc2bf2843

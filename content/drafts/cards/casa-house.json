@@ -3,7 +3,7 @@
   "rank": 87,
   "kind": "content",
   "pos": "noun",
-  "es": "la casa",
+  "target": "la casa",
   "en": "house",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi casa tiene un jardín grande.",
+    "target": "Mi casa tiene un jardín grande.",
     "en": "My house has a big garden."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CASA sounds like \"castle\": every house is a little castle to its owner.",
   "image": "/deck/img/casa-house.webp",
   "audio": {

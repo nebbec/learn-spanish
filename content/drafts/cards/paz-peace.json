@@ -3,7 +3,7 @@
   "rank": 492,
   "kind": "content",
   "pos": "noun",
-  "es": "la paz",
+  "target": "la paz",
   "en": "peace",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Déjame en paz, por favor.",
+    "target": "Déjame en paz, por favor.",
     "en": "Leave me alone, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PAZ sounds like \"pause\": when the fighting takes a pause, there is peace.",
   "image": "/deck/img/paz-peace.webp",
   "audio": {

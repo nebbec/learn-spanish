@@ -3,7 +3,7 @@
   "rank": 785,
   "kind": "content",
   "pos": "noun",
-  "es": "el piso",
+  "target": "el piso",
   "en": "floor",
   "hint": "of a room or a building level",
   "grammar": {
@@ -11,10 +11,13 @@
     "article": "el"
   },
   "example": {
-    "es": "Cuidado, el piso está mojado.",
+    "target": "Cuidado, el piso está mojado.",
     "en": "Careful, the floor is wet."
   },
-  "spain": "suelo",
+  "regional": {
+    "where": "Spain",
+    "text": "suelo"
+  },
   "trick": "PISO sounds like \"pizza\": you dropped your pizza on the floor.",
   "image": "/deck/img/piso-floor.webp",
   "audio": {

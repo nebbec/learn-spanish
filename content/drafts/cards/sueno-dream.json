@@ -3,7 +3,7 @@
   "rank": 448,
   "kind": "content",
   "pos": "noun",
-  "es": "el sueño",
+  "target": "el sueño",
   "en": "dream",
   "hint": "the noun, not the verb",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Anoche tuve un sueño muy raro.",
+    "target": "Anoche tuve un sueño muy raro.",
     "en": "Last night I had a really weird dream."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUEÑO sounds like \"sway, yo\": in your dream you sway on clouds saying yo to the stars.",
   "image": "/deck/img/sueno-dream.webp",
   "audio": {

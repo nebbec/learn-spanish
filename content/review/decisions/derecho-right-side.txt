@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the hint, reworded so the side comes first.
 decision: approve
 
-id:         derecho-right-side
-kind:       content
-pos:        adjective
-es:         derecho
-en:         right
-hint:       the side, not left; describes a noun, as in my right arm
-feminine:   derecha
-example.es: Me duele el brazo derecho.
-example.en: My right arm hurts.
-spain:
-trick:      DERECHO sounds like "direct, yo": most people direct things with their right hand.
+id:             derecho-right-side
+kind:           content
+pos:            adjective
+target:         derecho
+en:             right
+hint:           the side, not left; describes a noun, as in my right arm
+feminine:       derecha
+example.target: Me duele el brazo derecho.
+example.en:     My right arm hurts.
+regional.where:
+regional.text:
+trick:          DERECHO sounds like "direct, yo": most people direct things with their right hand.
 
 # The draft this file was made from. Do not change it.
-draft: cb9925f0a3acd20b
+draft: 3168cb6010469539

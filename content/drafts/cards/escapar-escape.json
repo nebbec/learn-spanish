@@ -3,7 +3,7 @@
   "rank": 509,
   "kind": "content",
   "pos": "verb",
-  "es": "escapar",
+  "target": "escapar",
   "en": "to escape",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "El perro se escapó por la puerta.",
+    "target": "El perro se escapó por la puerta.",
     "en": "The dog escaped through the door."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESCAPAR sounds like escape plus a car: you escape in a getaway car.",
   "image": "/deck/img/escapar-escape.webp",
   "audio": {

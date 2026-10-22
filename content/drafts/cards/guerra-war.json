@@ -3,7 +3,7 @@
   "rank": 356,
   "kind": "content",
   "pos": "noun",
-  "es": "la guerra",
+  "target": "la guerra",
   "en": "war",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Mi abuelo peleó en la guerra.",
+    "target": "Mi abuelo peleó en la guerra.",
     "en": "My grandfather fought in the war."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GUERRA sounds like \"guerrilla\": guerrilla fighters are out fighting a war.",
   "image": "/deck/img/guerra-war.webp",
   "audio": {

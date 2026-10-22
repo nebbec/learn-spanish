@@ -3,15 +3,15 @@
   "rank": 526,
   "kind": "glue",
   "pos": "determiner",
-  "es": "ambos",
+  "target": "ambos",
   "en": "[both] brothers",
   "hint": "one word, not los dos",
   "grammar": null,
   "example": {
-    "es": "Ambos hermanos viven en la misma ciudad.",
+    "target": "Ambos hermanos viven en la misma ciudad.",
     "en": "Both brothers live in the same city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AMBOS sounds like \"am both\": I am both happy and tired, two things at once.",
   "image": null,
   "audio": {

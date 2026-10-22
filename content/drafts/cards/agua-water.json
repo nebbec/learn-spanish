@@ -3,7 +3,7 @@
   "rank": 309,
   "kind": "content",
   "pos": "noun",
-  "es": "el agua",
+  "target": "el agua",
   "en": "water",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No me gusta el café, bebo agua.",
+    "target": "No me gusta el café, bebo agua.",
     "en": "I don't like coffee, I drink water."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AGUA sounds like \"aqua\", the blue-green color of clear water.",
   "image": "/deck/img/agua-water.webp",
   "audio": {

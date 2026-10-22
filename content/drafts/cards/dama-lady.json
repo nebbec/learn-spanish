@@ -3,7 +3,7 @@
   "rank": 699,
   "kind": "content",
   "pos": "noun",
-  "es": "la dama",
+  "target": "la dama",
   "en": "lady",
   "hint": "elegant or formal word, as in ladies and gentlemen",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Buenas noches, damas y caballeros.",
+    "target": "Buenas noches, damas y caballeros.",
     "en": "Good evening, ladies and gentlemen."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DAMA sounds like dame: a grand dame is an elegant lady.",
   "image": "/deck/img/dama-lady.webp",
   "audio": {

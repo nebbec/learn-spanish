@@ -3,7 +3,7 @@
   "rank": 293,
   "kind": "content",
   "pos": "verb",
-  "es": "beber",
+  "target": "beber",
   "en": "to drink",
   "hint": "the basic verb, not tomar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi padre bebe mucho café.",
+    "target": "Mi padre bebe mucho café.",
     "en": "My father drinks a lot of coffee."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BEBER sounds like a baby's bib: babies wear a bib when they drink their milk.",
   "image": "/deck/img/beber-drink.webp",
   "audio": {

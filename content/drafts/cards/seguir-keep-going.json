@@ -3,7 +3,7 @@
   "rank": 126,
   "kind": "content",
   "pos": "verb",
-  "es": "seguir",
+  "target": "seguir",
   "en": "to keep (doing), to still be",
   "hint": "everyday word, often with an -ando/-iendo verb",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Sigue lloviendo, mejor nos quedamos.",
+    "target": "Sigue lloviendo, mejor nos quedamos.",
     "en": "It's still raining, we'd better stay."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEGUIR sounds like say gear: say gear and the bike keeps going.",
   "image": "/deck/img/seguir-keep-going.webp",
   "audio": {

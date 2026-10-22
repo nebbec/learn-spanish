@@ -3,15 +3,15 @@
   "rank": 238,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "La cuenta, por favor.",
+  "target": "La cuenta, por favor.",
   "en": "The bill, please.",
   "hint": "At a restaurant or café",
   "grammar": null,
   "example": {
-    "es": "La comida está muy buena. La cuenta, por favor.",
+    "target": "La comida está muy buena. La cuenta, por favor.",
     "en": "The food is very good. The bill, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 580,
   "kind": "content",
   "pos": "noun",
-  "es": "la caja",
+  "target": "la caja",
   "en": "checkout (in a store)",
   "hint": "where you pay",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Puedes pagar en la caja.",
+    "target": "Puedes pagar en la caja.",
     "en": "You can pay at the checkout."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAJA sounds like 'cash-a': the cash goes into the box at the checkout.",
   "image": "/deck/img/caja-checkout.webp",
   "audio": {

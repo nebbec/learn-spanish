@@ -15,7 +15,7 @@ it("lists the unit's phrases with their Spanish and English, and plays a phrase'
   act(() => root.render(<UnitPayoff unit={fixtureDeck.units[0]} phrases={[phrase]} onPlay={(src) => played.push(src)} />));
 
   const item = host.querySelector<HTMLElement>('[data-testid="payoff-phrase"]')!;
-  expect(item.textContent).toContain(phrase.es);
+  expect(item.textContent).toContain(phrase.target);
   expect(item.textContent).toContain(phrase.en);
   act(() => host.querySelector<HTMLElement>('[data-testid="payoff-play-phrase-going-home"]')!.click());
   expect(played).toEqual([phrase.audio.word]);

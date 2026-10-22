@@ -3,15 +3,15 @@
   "rank": 166,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "mío",
+  "target": "mío",
   "en": "that book is [mine]",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Ese libro es mío, no tuyo.",
+    "target": "Ese libro es mío, no tuyo.",
     "en": "That book is mine, not yours."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MÍO sounds like a cat's meow: the cat meows because the whole house is mine.",
   "image": null,
   "audio": {

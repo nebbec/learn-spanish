@@ -3,15 +3,15 @@
   "rank": 160,
   "kind": "glue",
   "pos": "preposition",
-  "es": "desde",
+  "target": "desde",
   "en": "I can see the sea [from] here",
   "hint": "starting point or viewpoint, not de",
   "grammar": null,
   "example": {
-    "es": "Te llamo desde el carro.",
+    "target": "Te llamo desde el carro.",
     "en": "I'm calling you from the car."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESDE sounds like \"the stage\": you watch the whole show from the stage.",
   "image": null,
   "audio": {

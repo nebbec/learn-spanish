@@ -3,7 +3,7 @@
   "rank": 336,
   "kind": "content",
   "pos": "noun",
-  "es": "el cuidado",
+  "target": "el cuidado",
   "en": "care",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¡Ten cuidado con el perro!",
+    "target": "¡Ten cuidado con el perro!",
     "en": "Be careful with the dog!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUIDADO sounds like \"quiet, Dad, oh!\": take care, tiptoe carefully so you don't wake the baby.",
   "image": "/deck/img/cuidado-care.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 192,
   "kind": "content",
   "pos": "verb",
-  "es": "recordar",
+  "target": "recordar",
   "en": "to remind",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Recuérdame llamar a mi mamá.",
+    "target": "Recuérdame llamar a mi mamá.",
     "en": "Remind me to call my mom."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RECORDAR sounds like record: you play someone a recording to remind them.",
   "image": "/deck/img/recordar-remind.webp",
   "audio": {

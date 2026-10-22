@@ -3,7 +3,7 @@
   "rank": 550,
   "kind": "content",
   "pos": "verb",
-  "es": "lograr",
+  "target": "lograr",
   "en": "to achieve",
   "hint": "to manage to, pull off; not conseguir",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Por fin lo logramos!",
+    "target": "¡Por fin lo logramos!",
     "en": "We finally did it!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "LOGRAR sounds like log roar: you roar with pride when you finally lift the giant log and achieve your goal.",
   "image": "/deck/img/lograr-achieve.webp",
   "audio": {

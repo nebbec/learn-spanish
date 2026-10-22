@@ -3,15 +3,15 @@
   "rank": 20,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "se",
+  "target": "se",
   "en": "how do [you] say it?",
   "hint": "impersonal: people in general, not a specific you",
   "grammar": null,
   "example": {
-    "es": "¿Cómo se dice gracias en inglés?",
+    "target": "¿Cómo se dice gracias en inglés?",
     "en": "How do you say gracias in English?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SE sounds like 'say': how do people say it? ¿Cómo se dice?",
   "image": null,
   "audio": {

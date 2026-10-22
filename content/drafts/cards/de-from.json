@@ -3,15 +3,15 @@
   "rank": 2,
   "kind": "glue",
   "pos": "preposition",
-  "es": "de",
+  "target": "de",
   "en": "I'm [from] Mexico",
   "hint": "origin",
   "grammar": null,
   "example": {
-    "es": "Hola, soy de Colombia.",
+    "target": "Hola, soy de Colombia.",
     "en": "Hello, I'm from Colombia."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DE sounds like day: you came FROM far away, a whole day's trip.",
   "image": null,
   "audio": {

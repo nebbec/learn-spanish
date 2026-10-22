@@ -3,15 +3,15 @@
   "rank": 95,
   "kind": "glue",
   "pos": "adverb",
-  "es": "tan",
+  "target": "tan",
   "en": "I'm [so] tired",
   "hint": "before an adjective",
   "grammar": null,
   "example": {
-    "es": "¡Estás tan bonita hoy!",
+    "target": "¡Estás tan bonita hoy!",
     "en": "You look so pretty today!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TAN sounds like tan: after a day at the beach you got so tan.",
   "image": null,
   "audio": {

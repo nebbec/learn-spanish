@@ -3,17 +3,17 @@
   "rank": 265,
   "kind": "content",
   "pos": "adjective",
-  "es": "genial",
+  "target": "genial",
   "en": "great",
   "hint": "awesome, cool; not size",
   "grammar": {
     "feminine": "genial"
   },
   "example": {
-    "es": "¡Qué genial! Vamos a la playa mañana.",
+    "target": "¡Qué genial! Vamos a la playa mañana.",
     "en": "How great! We're going to the beach tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GENIAL sounds like genie: a genie granting your wishes would be great.",
   "image": "/deck/img/genial-great.webp",
   "audio": {

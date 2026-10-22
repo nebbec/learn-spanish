@@ -3,17 +3,17 @@
   "rank": 263,
   "kind": "content",
   "pos": "adjective",
-  "es": "rápido",
+  "target": "rápido",
   "en": "fast",
   "hint": null,
   "grammar": {
     "feminine": "rápida"
   },
   "example": {
-    "es": "Mi hermano tiene un carro muy rápido.",
+    "target": "Mi hermano tiene un carro muy rápido.",
     "en": "My brother has a really fast car."
   },
-  "spain": null,
+  "regional": null,
   "trick": "RÁPIDO sounds like rapid: rapids in a river are fast.",
   "image": "/deck/img/rapido-fast.webp",
   "audio": {

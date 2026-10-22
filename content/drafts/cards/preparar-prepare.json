@@ -3,7 +3,7 @@
   "rank": 308,
   "kind": "content",
   "pos": "verb",
-  "es": "preparar",
+  "target": "preparar",
   "en": "to prepare",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi mamá prepara la cena todos los días.",
+    "target": "Mi mamá prepara la cena todos los días.",
     "en": "My mom prepares dinner every day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PREPARAR sounds like \"prepare-ar\": just add -ar to prepare and you're ready to go.",
   "image": "/deck/img/preparar-prepare.webp",
   "audio": {

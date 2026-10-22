@@ -3,15 +3,15 @@
   "rank": 125,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "alguien",
+  "target": "alguien",
   "en": "[someone] is at the door",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Alguien quiere más café?",
+    "target": "¿Alguien quiere más café?",
     "en": "Does anyone want more coffee?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ALGUIEN sounds like \"all geese in\": someone must have let all the geese in.",
   "image": null,
   "audio": {

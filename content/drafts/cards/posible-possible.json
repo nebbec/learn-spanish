@@ -3,17 +3,17 @@
   "rank": 383,
   "kind": "content",
   "pos": "adjective",
-  "es": "posible",
+  "target": "posible",
   "en": "possible",
   "hint": null,
   "grammar": {
     "feminine": "posible"
   },
   "example": {
-    "es": "¿Es posible llegar antes de las ocho?",
+    "target": "¿Es posible llegar antes de las ocho?",
     "en": "Is it possible to get there before eight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "POSIBLE looks almost exactly like possible: just drop one s and say it the Spanish way, po-SEE-bleh.",
   "image": "/deck/img/posible-possible.webp",
   "audio": {

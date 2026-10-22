@@ -3,7 +3,7 @@
   "rank": 709,
   "kind": "content",
   "pos": "noun",
-  "es": "la pierna",
+  "target": "la pierna",
   "en": "leg",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me duele la pierna derecha.",
+    "target": "Me duele la pierna derecha.",
     "en": "My right leg hurts."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PIERNA sounds like \"pier\": you stand on a pier on your two legs.",
   "image": "/deck/img/pierna-leg.webp",
   "audio": {

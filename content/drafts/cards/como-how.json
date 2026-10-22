@@ -3,15 +3,15 @@
   "rank": 67,
   "kind": "glue",
   "pos": "adverb",
-  "es": "cómo",
+  "target": "cómo",
   "en": "[How] are you?",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "¿Cómo está tu madre?",
+    "target": "¿Cómo está tu madre?",
     "en": "How is your mother?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "CÓMO sounds like \"come, oh?\": you ask how someone will come over.",
   "image": null,
   "audio": {

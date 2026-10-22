@@ -3,15 +3,15 @@
   "rank": 297,
   "kind": "glue",
   "pos": "preposition",
-  "es": "hacia",
+  "target": "hacia",
   "en": "walk [toward] the door",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Caminamos hacia la playa.",
+    "target": "Caminamos hacia la playa.",
     "en": "We walked toward the beach."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HACIA sounds like \"ah, see ya\": you wave and head toward your friend across the street.",
   "image": null,
   "audio": {

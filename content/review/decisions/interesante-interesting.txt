@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the example.
 decision: approve
 
-id:         interesante-interesting
-kind:       content
-pos:        adjective
-es:         interesante
-en:         interesting
+id:             interesante-interesting
+kind:           content
+pos:            adjective
+target:         interesante
+en:             interesting
 hint:
-feminine:   interesante
-example.es: Este libro es muy interesante.
-example.en: This book is very interesting.
-spain:
-trick:      INTERESANTE sounds like interesting plus 'aunty': your aunty always tells the most interesting stories.
+feminine:       interesante
+example.target: Este libro es muy interesante.
+example.en:     This book is very interesting.
+regional.where:
+regional.text:
+trick:          INTERESANTE sounds like interesting plus 'aunty': your aunty always tells the most interesting stories.
 
 # The draft this file was made from. Do not change it.
-draft: 719088a5354c052c
+draft: 59ad8fe2c5878b30

@@ -3,7 +3,7 @@
   "rank": 538,
   "kind": "content",
   "pos": "noun",
-  "es": "el compañero",
+  "target": "el compañero",
   "en": "companion",
   "hint": "classmate, coworker, teammate",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi compañero de trabajo es muy simpático.",
+    "target": "Mi compañero de trabajo es muy simpático.",
     "en": "My coworker is very nice."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMPAÑERO sounds like company: a compañero is the person who keeps you company at school or work.",
   "image": "/deck/img/companero-companion.webp",
   "audio": {

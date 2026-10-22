@@ -3,17 +3,17 @@
   "rank": 228,
   "kind": "content",
   "pos": "adjective",
-  "es": "malo",
+  "target": "malo",
   "en": "bad",
   "hint": "adjective, full form",
   "grammar": {
     "feminine": "mala"
   },
   "example": {
-    "es": "Mi hermana no es mala, es muy buena.",
+    "target": "Mi hermana no es mala, es muy buena.",
     "en": "My sister isn't bad, she's very good."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MALO sounds like a moldy marshmallow: a bad treat nobody wants to eat.",
   "image": "/deck/img/malo-bad.webp",
   "audio": {

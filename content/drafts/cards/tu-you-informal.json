@@ -3,15 +3,15 @@
   "rank": 64,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "tú",
+  "target": "tú",
   "en": "[you] are my friend",
   "hint": "informal, one person, subject",
   "grammar": null,
   "example": {
-    "es": "¿Tú quieres ir al cine conmigo?",
+    "target": "¿Tú quieres ir al cine conmigo?",
     "en": "Do you want to go to the movies with me?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "TÚ sounds like two: it takes two, me and you, to have a friendly chat.",
   "image": null,
   "audio": {

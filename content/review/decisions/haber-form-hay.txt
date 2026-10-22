@@ -10,26 +10,27 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         haber-form-hay
-kind:       form
-pos:        verb
-es:         hay
-en:         there is / there are
-hint:       something exists; not estar
-yo:         he
-tu:         has
-el:         hay
-irregular:  yes
-example.es: Hay pan en la mesa.
-example.en: There's bread on the table.
-spain:
-trick:      Hay sounds like eye: use your eye to see what there is.
+id:             haber-form-hay
+kind:           form
+pos:            verb
+target:         hay
+en:             there is / there are
+hint:           something exists; not estar
+yo:             he
+tu:             has
+el:             hay
+irregular:      yes
+example.target: Hay pan en la mesa.
+example.en:     There's bread on the table.
+regional.where:
+regional.text:
+trick:          Hay sounds like eye: use your eye to see what there is.
 
 # The draft this file was made from. Do not change it.
 draft: c2435abe50ae2de0

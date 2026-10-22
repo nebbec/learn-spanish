@@ -3,7 +3,7 @@
   "rank": 406,
   "kind": "content",
   "pos": "verb",
-  "es": "cuidar",
+  "target": "cuidar",
   "en": "to take care of",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi abuela cuida a mis hijos los lunes.",
+    "target": "Mi abuela cuida a mis hijos los lunes.",
     "en": "My grandma takes care of my kids on Mondays."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CUIDAR sounds like quiet, dear: you whisper it to the sleeping baby you take care of.",
   "image": "/deck/img/cuidar-take-care.webp",
   "audio": {

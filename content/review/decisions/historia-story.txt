@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to hint.
 decision: approve
 
-id:         historia-story
-kind:       content
-pos:        noun
-es:         la historia
-en:         story
-hint:       the everyday word, as in "it's a long story"; not a children's tale
-gender:     f
-article:    la
-example.es: Es una historia muy larga.
-example.en: It's a very long story.
-spain:
-trick:      HISTORIA sounds like his story: every person has his story to tell.
+id:             historia-story
+kind:           content
+pos:            noun
+target:         la historia
+en:             story
+hint:           the everyday word, as in "it's a long story"; not a children's tale
+gender:         f
+article:        la
+example.target: Es una historia muy larga.
+example.en:     It's a very long story.
+regional.where:
+regional.text:
+trick:          HISTORIA sounds like his story: every person has his story to tell.
 
 # The draft this file was made from. Do not change it.
-draft: ecf6a002feba3476
+draft: a32d49760740cef2

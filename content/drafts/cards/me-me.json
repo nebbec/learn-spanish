@@ -3,15 +3,15 @@
   "rank": 18,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "me",
+  "target": "me",
   "en": "call [me] tomorrow",
   "hint": "object pronoun, attached to or before the verb",
   "grammar": null,
   "example": {
-    "es": "Mi madre no me entiende.",
+    "target": "Mi madre no me entiende.",
     "en": "My mother doesn't understand me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ME is spelled just like English me, so it's an easy one.",
   "image": null,
   "audio": {

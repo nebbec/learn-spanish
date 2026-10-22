@@ -3,7 +3,7 @@
   "rank": 588,
   "kind": "content",
   "pos": "verb",
-  "es": "ofrecer",
+  "target": "ofrecer",
   "en": "to offer",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Te ofrezco un café, ¿quieres?",
+    "target": "Te ofrezco un café, ¿quieres?",
     "en": "Can I offer you a coffee? Do you want one?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "OFRECER sounds like 'offer a seer': you offer the fortune-teller a fresh coin.",
   "image": "/deck/img/ofrecer-offer.webp",
   "audio": {

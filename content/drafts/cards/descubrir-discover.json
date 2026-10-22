@@ -3,7 +3,7 @@
   "rank": 466,
   "kind": "content",
   "pos": "verb",
-  "es": "descubrir",
+  "target": "descubrir",
   "en": "to discover",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Descubrí que mi hermano tiene novia.",
+    "target": "Descubrí que mi hermano tiene novia.",
     "en": "I found out my brother has a girlfriend."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESCUBRIR sounds like \"discover\": take the cover off something and you discover what's inside.",
   "image": "/deck/img/descubrir-discover.webp",
   "audio": {

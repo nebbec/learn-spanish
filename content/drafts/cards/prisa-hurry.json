@@ -3,7 +3,7 @@
   "rank": 752,
   "kind": "content",
   "pos": "noun",
-  "es": "la prisa",
+  "target": "la prisa",
   "en": "hurry",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tranquilo, no tengo prisa.",
+    "target": "Tranquilo, no tengo prisa.",
     "en": "Relax, I'm not in a hurry."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRISA sounds like \"pressa\", as in pressed for time: when you're pressed, you're in a hurry.",
   "image": "/deck/img/prisa-hurry.webp",
   "audio": {

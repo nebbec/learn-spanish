@@ -3,7 +3,7 @@
   "rank": 13,
   "kind": "form",
   "pos": "verb",
-  "es": "tengo",
+  "target": "tengo",
   "en": "I have",
   "hint": "own, possess",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Tengo un hotel en México.",
+    "target": "Tengo un hotel en México.",
     "en": "I have a hotel in Mexico."
   },
-  "spain": null,
+  "regional": null,
   "trick": "Tengo sounds like tango: I have a tango partner.",
   "image": "/deck/img/tener-have.webp",
   "audio": {

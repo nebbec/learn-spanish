@@ -8,24 +8,25 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's fix to the trick.
 decision: approve
 
-id:         diferente-different
-kind:       content
-pos:        adjective
-es:         diferente
-en:         different
-hint:       the look-alike word, not distinto
-feminine:   diferente
-example.es: Esta ciudad es muy diferente a la mía.
-example.en: This city is very different from mine.
-spain:
-trick:      DIFERENTE is just "different" with one f dropped and an "eh" added at the end: dee-feh-REN-teh.
+id:             diferente-different
+kind:           content
+pos:            adjective
+target:         diferente
+en:             different
+hint:           the look-alike word, not distinto
+feminine:       diferente
+example.target: Esta ciudad es muy diferente a la mía.
+example.en:     This city is very different from mine.
+regional.where:
+regional.text:
+trick:          DIFERENTE is just "different" with one f dropped and an "eh" added at the end: dee-feh-REN-teh.
 
 # The draft this file was made from. Do not change it.
-draft: 4647bab4b4647fe6
+draft: 250d09b72aabb73f

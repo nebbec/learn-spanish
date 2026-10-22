@@ -3,7 +3,7 @@
   "rank": 622,
   "kind": "content",
   "pos": "verb",
-  "es": "dirigir",
+  "target": "dirigir",
   "en": "to direct",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi tía dirige una escuela en el centro.",
+    "target": "Mi tía dirige una escuela en el centro.",
     "en": "My aunt runs a school downtown."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DIRIGIR starts like DIRector: the director stands up and directs everyone on set.",
   "image": "/deck/img/dirigir-direct.webp",
   "audio": {

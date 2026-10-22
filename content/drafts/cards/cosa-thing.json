@@ -3,7 +3,7 @@
   "rank": 77,
   "kind": "content",
   "pos": "noun",
-  "es": "la cosa",
+  "target": "la cosa",
   "en": "thing",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tengo muchas cosas que hacer hoy.",
+    "target": "Tengo muchas cosas que hacer hoy.",
     "en": "I have a lot of things to do today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COSA sounds like \"cause a\": every thing can cause a problem if you leave it lying around.",
   "image": "/deck/img/cosa-thing.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 168,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Vivo en México y trabajo aquí.",
+  "target": "Vivo en México y trabajo aquí.",
   "en": "I live in Mexico and I work here.",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Vivo en México y trabajo aquí, en un hotel.",
+    "target": "Vivo en México y trabajo aquí, en un hotel.",
     "en": "I live in Mexico and I work here, at a hotel."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

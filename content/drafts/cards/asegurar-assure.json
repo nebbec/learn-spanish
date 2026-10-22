@@ -3,7 +3,7 @@
   "rank": 447,
   "kind": "content",
   "pos": "verb",
-  "es": "asegurar",
+  "target": "asegurar",
   "en": "to assure",
   "hint": "promise someone",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te aseguro que no fui yo.",
+    "target": "Te aseguro que no fui yo.",
     "en": "I assure you it wasn't me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ASEGURAR sounds like \"assure-ar\": you assure someone their secret is secure.",
   "image": "/deck/img/asegurar-assure.webp",
   "audio": {

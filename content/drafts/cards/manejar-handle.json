@@ -3,7 +3,7 @@
   "rank": 767,
   "kind": "content",
   "pos": "verb",
-  "es": "manejar",
+  "target": "manejar",
   "en": "to handle",
   "hint": "a situation or problem",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Tranquilo, yo puedo manejarlo.",
+    "target": "Tranquilo, yo puedo manejarlo.",
     "en": "Relax, I can handle it."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MANEJAR sounds like \"manage\": you manage, or handle, any problem that comes your way.",
   "image": "/deck/img/manejar-handle.webp",
   "audio": {

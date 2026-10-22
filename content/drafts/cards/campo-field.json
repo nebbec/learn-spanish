@@ -3,7 +3,7 @@
   "rank": 570,
   "kind": "content",
   "pos": "noun",
-  "es": "el campo",
+  "target": "el campo",
   "en": "field",
   "hint": "open land, farm or battle",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Los caballos corren por el campo.",
+    "target": "Los caballos corren por el campo.",
     "en": "The horses run across the field."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMPO sounds like camp: soldiers set up camp in a big open field.",
   "image": "/deck/img/campo-field.webp",
   "audio": {

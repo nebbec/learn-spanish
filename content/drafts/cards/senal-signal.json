@@ -3,7 +3,7 @@
   "rank": 702,
   "kind": "content",
   "pos": "noun",
-  "es": "la señal",
+  "target": "la señal",
   "en": "signal",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Aquí no hay señal para el celular.",
+    "target": "Aquí no hay señal para el celular.",
     "en": "There's no phone signal here."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SEÑAL sounds like signal said with a Spanish ñ: same word, same meaning.",
   "image": "/deck/img/senal-signal.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 223,
   "kind": "content",
   "pos": "verb",
-  "es": "cambiar",
+  "target": "cambiar",
   "en": "to change",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi vida cambió mucho este año.",
+    "target": "Mi vida cambió mucho este año.",
     "en": "My life changed a lot this year."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CAMBIAR starts like camera: change the camera lens and the whole picture changes.",
   "image": "/deck/img/cambiar-change.webp",
   "audio": {

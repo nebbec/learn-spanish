@@ -8,7 +8,7 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
@@ -16,17 +16,18 @@
 # Claude suggests: reject — the adjective 'supposed/alleged' is news register and rare for a beginner; English 'supposed' suggests 'supposed to', and por supuesto already covers the word.
 decision: approve
 
-id:         supuesto-supposed
-kind:       content
-pos:        adjective
-es:         supuesto
-en:         supposed
-hint:       alleged, not presunto
-feminine:   supuesta
-example.es: El supuesto ladrón era su hermano.
-example.en: The supposed thief was his brother.
-spain:
-trick:      SUPUESTO sounds like "supposed-o": the supposed suspect, only supposedly guilty.
+id:             supuesto-supposed
+kind:           content
+pos:            adjective
+target:         supuesto
+en:             supposed
+hint:           alleged, not presunto
+feminine:       supuesta
+example.target: El supuesto ladrón era su hermano.
+example.en:     The supposed thief was his brother.
+regional.where:
+regional.text:
+trick:          SUPUESTO sounds like "supposed-o": the supposed suspect, only supposedly guilty.
 
 # The draft this file was made from. Do not change it.
-draft: 2d49e6afd01f1a1f
+draft: daa55c7c57b911a1

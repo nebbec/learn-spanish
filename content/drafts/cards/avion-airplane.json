@@ -3,7 +3,7 @@
   "rank": 667,
   "kind": "content",
   "pos": "noun",
-  "es": "el avión",
+  "target": "el avión",
   "en": "airplane",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El avión sale a las ocho.",
+    "target": "El avión sale a las ocho.",
     "en": "The plane leaves at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AVIÓN sounds like aviation: an avión is the machine of aviation.",
   "image": "/deck/img/avion-airplane.webp",
   "audio": {

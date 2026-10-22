@@ -3,7 +3,7 @@
   "rank": 79,
   "kind": "content",
   "pos": "verb",
-  "es": "necesitar",
+  "target": "necesitar",
   "en": "to need",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Necesito un café, por favor.",
+    "target": "Necesito un café, por favor.",
     "en": "I need a coffee, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NECESITAR sounds like necessity: when something is a necessity, you need it.",
   "image": "/deck/img/necesitar-need.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 552,
   "kind": "content",
   "pos": "verb",
-  "es": "lamentar",
+  "target": "lamentar",
   "en": "to regret",
   "hint": "to be sorry about something, not to repent",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Lamento mucho tu pérdida.",
+    "target": "Lamento mucho tu pérdida.",
     "en": "I'm very sorry for your loss."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LAMENTAR sounds like lament: you lament what you regret.",
   "image": "/deck/img/lamentar-regret.webp",
   "audio": {

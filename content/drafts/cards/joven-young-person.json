@@ -3,7 +3,7 @@
   "rank": 344,
   "kind": "content",
   "pos": "noun",
-  "es": "el joven",
+  "target": "el joven",
   "en": "young man",
   "hint": "not chico; the word that also means young",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Ese joven trabaja en la tienda.",
+    "target": "Ese joven trabaja en la tienda.",
     "en": "That young man works at the store."
   },
-  "spain": null,
+  "regional": null,
   "trick": "JOVEN sounds like \"Hoven\": young Hoven is the new guy everyone calls the young man.",
   "image": "/deck/img/joven-young-person.webp",
   "audio": {

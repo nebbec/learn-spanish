@@ -10,22 +10,23 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 decision: approve
 
-id:         phrase-i-love-you
-kind:       phrase
-pos:        phrase
-es:         Te quiero.
-en:         I love you.
-hint:       Everyday love for family, friends or partner, not the more intense te amo
-example.es: Te quiero mucho, mi amor.
-example.en: I love you so much, my love.
-spain:
+id:             phrase-i-love-you
+kind:           phrase
+pos:            phrase
+target:         Te quiero.
+en:             I love you.
+hint:           Everyday love for family, friends or partner, not the more intense te amo
+example.target: Te quiero mucho, mi amor.
+example.en:     I love you so much, my love.
+regional.where:
+regional.text:
 trick:
 
 # The draft this file was made from. Do not change it.
-draft: ff3034f02c5d026b
+draft: b6202b5db66f20ad

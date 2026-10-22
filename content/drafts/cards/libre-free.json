@@ -3,17 +3,17 @@
   "rank": 499,
   "kind": "content",
   "pos": "adjective",
-  "es": "libre",
+  "target": "libre",
   "en": "free",
   "hint": "not captive or busy, not 'no cost'",
   "grammar": {
     "feminine": "libre"
   },
   "example": {
-    "es": "Mañana estoy libre todo el día.",
+    "target": "Mañana estoy libre todo el día.",
     "en": "Tomorrow I'm free all day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LIBRE sounds like 'liberty': with liberty, you are free.",
   "image": "/deck/img/libre-free.webp",
   "audio": {

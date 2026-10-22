@@ -1,0 +1,19 @@
+{
+  "rank": 14,
+  "word": "zu",
+  "cards": [
+    "zu-to",
+    "zu-too",
+    "zu-closed"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zu-to": null,
+    "zu-too": null,
+    "zu-closed": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-10T13:31:04.819Z"
+}

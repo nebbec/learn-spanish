@@ -3,15 +3,15 @@
   "rank": 102,
   "kind": "glue",
   "pos": "adverb",
-  "es": "dónde",
+  "target": "dónde",
   "en": "[Where] is the bathroom?",
   "hint": "question word, with accent",
   "grammar": null,
   "example": {
-    "es": "¿Dónde está mi hermano?",
+    "target": "¿Dónde está mi hermano?",
     "en": "Where is my brother?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "DÓNDE sounds like \"Don, they\": where did Don and they go?",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 617,
   "kind": "content",
   "pos": "verb",
-  "es": "obtener",
+  "target": "obtener",
   "en": "to obtain",
   "hint": "to get, achieve; conjugates like tener",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Obtuvo el trabajo que quería.",
+    "target": "Obtuvo el trabajo que quería.",
     "en": "He got the job he wanted."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OBTENER sounds like obtain-er: someone who obtains things, and it hides tener, to have, inside.",
   "image": "/deck/img/obtener-obtain.webp",
   "audio": {

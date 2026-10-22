@@ -3,7 +3,7 @@
   "rank": 396,
   "kind": "content",
   "pos": "verb",
-  "es": "enseñar",
+  "target": "enseñar",
   "en": "to teach",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi mamá me enseñó a cocinar.",
+    "target": "Mi mamá me enseñó a cocinar.",
     "en": "My mom taught me to cook."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENSEÑAR sounds like 'in senior': seniors teach the young ones everything they know.",
   "image": "/deck/img/ensenar-teach.webp",
   "audio": {

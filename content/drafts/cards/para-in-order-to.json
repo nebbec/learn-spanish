@@ -3,15 +3,15 @@
   "rank": 24,
   "kind": "glue",
   "pos": "preposition",
-  "es": "para",
+  "target": "para",
   "en": "I work [in order to] live",
   "hint": "before a verb, showing purpose",
   "grammar": null,
   "example": {
-    "es": "Vine para hablar contigo.",
+    "target": "Vine para hablar contigo.",
     "en": "I came to talk to you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARA sounds like a paramedic, who rushes in order to save you.",
   "image": null,
   "audio": {

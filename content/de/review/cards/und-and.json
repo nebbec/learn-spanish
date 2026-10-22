@@ -1,0 +1,17 @@
+{
+  "id": "und-and",
+  "rank": 10,
+  "word": "und",
+  "draft": "a54b4d1c384cee74",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "and",
+    "example": "I'm drinking coffee and you're drinking tea."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:30.832Z"
+}

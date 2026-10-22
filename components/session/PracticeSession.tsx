@@ -3,6 +3,7 @@
 import { useState, type ReactNode } from "react";
 import type { ExtrasStore } from "@/components/card";
 import { Mascot, type MascotPose } from "@/components/motion";
+import { LANG } from "@/lang";
 import type { Card, DeckTip, PartOfSpeech } from "@/lib/deck";
 import { DEFAULT_BATCH_SIZE, practiceQueue, testSteps, type CardStates, type PracticeMode } from "@/lib/queues";
 import type { ReviewEvent } from "@/lib/scheduler";
@@ -100,7 +101,7 @@ export function PracticeSession({
       }}
       className="min-h-12 rounded-button border-2 border-line bg-surface px-4 py-2 font-bold text-ink"
     >
-      Reverse (Spanish first): {reverse ? "on" : "off"}
+      Reverse ({LANG.language} first): {reverse ? "on" : "off"}
     </button>
   );
 

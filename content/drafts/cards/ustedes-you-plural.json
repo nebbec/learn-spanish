@@ -3,15 +3,15 @@
   "rank": 245,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "ustedes",
+  "target": "ustedes",
   "en": "are [you all] coming tonight?",
   "hint": "more than one person",
   "grammar": null,
   "example": {
-    "es": "¿Ustedes vienen a la fiesta?",
+    "target": "¿Ustedes vienen a la fiesta?",
     "en": "Are you guys coming to the party?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "USTEDES sounds like \"use the days\": you all use the days together.",
   "image": null,
   "audio": {

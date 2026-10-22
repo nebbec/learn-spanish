@@ -3,15 +3,15 @@
   "rank": 36,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "eso",
+  "target": "eso",
   "en": "[that] is not true",
   "hint": "neuter pronoun for an idea or thing near you, not far away",
   "grammar": null,
   "example": {
-    "es": "Eso no es verdad.",
+    "target": "Eso no es verdad.",
     "en": "That's not true."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESO sounds like 'so': 'So THAT is what you meant!'",
   "image": null,
   "audio": {

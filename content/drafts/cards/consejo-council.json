@@ -3,7 +3,7 @@
   "rank": 746,
   "kind": "content",
   "pos": "noun",
-  "es": "el consejo",
+  "target": "el consejo",
   "en": "council",
   "hint": "a group that decides",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El consejo se reúne mañana.",
+    "target": "El consejo se reúne mañana.",
     "en": "The council meets tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONSEJO sounds like \"council, eh Joe?\": Joe sits on the council that gives everyone advice.",
   "image": "/deck/img/consejo-council.webp",
   "audio": {

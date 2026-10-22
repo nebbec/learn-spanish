@@ -3,7 +3,7 @@
   "rank": 533,
   "kind": "content",
   "pos": "verb",
-  "es": "llorar",
+  "target": "llorar",
   "en": "to cry",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "No llores, todo va a estar bien.",
+    "target": "No llores, todo va a estar bien.",
     "en": "Don't cry, everything's going to be okay."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLORAR sounds like 'your roar': when your roar turns to sobs, you cry.",
   "image": "/deck/img/llorar-cry.webp",
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 726,
   "kind": "content",
   "pos": "adjective",
-  "es": "antiguo",
+  "target": "antiguo",
   "en": "former",
   "hint": "placed before the noun, as in my former boss",
   "grammar": {
     "feminine": "antigua"
   },
   "example": {
-    "es": "Vi a mi antiguo jefe en el mercado.",
+    "target": "Vi a mi antiguo jefe en el mercado.",
     "en": "I saw my former boss at the market."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ANTIGUO sounds like antique: your former boss is now an antique from your past.",
   "image": "/deck/img/antiguo-former.webp",
   "audio": {

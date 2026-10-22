@@ -3,15 +3,15 @@
   "rank": 553,
   "kind": "glue",
   "pos": "pronoun",
-  "es": "suyo",
+  "target": "suyo",
   "en": "the book is [his]",
   "hint": "one word, also hers, theirs, yours (usted)",
   "grammar": null,
   "example": {
-    "es": "Ese carro no es mío, es suyo.",
+    "target": "Ese carro no es mío, es suyo.",
     "en": "That car isn't mine, it's his."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUYO sounds like \"sue you\": if you take what is his, he'll sue you.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 525,
   "kind": "content",
   "pos": "verb",
-  "es": "esconder",
+  "target": "esconder",
   "en": "to hide",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Dónde escondiste el regalo?",
+    "target": "¿Dónde escondiste el regalo?",
     "en": "Where did you hide the present?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ESCONDER sounds like \"escaped under\": the kid escaped under the bed to hide.",
   "image": "/deck/img/esconder-hide.webp",
   "audio": {

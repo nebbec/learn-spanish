@@ -3,7 +3,7 @@
   "rank": 625,
   "kind": "content",
   "pos": "noun",
-  "es": "el gusto",
+  "target": "el gusto",
   "en": "taste",
   "hint": "personal preference, style",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tienes buen gusto para la ropa.",
+    "target": "Tienes buen gusto para la ropa.",
     "en": "You have good taste in clothes."
   },
-  "spain": null,
+  "regional": null,
   "trick": "GUSTO sounds like gust: a gust of flavor hits your tongue and tells you what you like.",
   "image": "/deck/img/gusto-taste.webp",
   "audio": {

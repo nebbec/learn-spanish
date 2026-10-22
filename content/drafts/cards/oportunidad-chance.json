@@ -3,7 +3,7 @@
   "rank": 368,
   "kind": "content",
   "pos": "noun",
-  "es": "la oportunidad",
+  "target": "la oportunidad",
   "en": "opportunity",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Dame otra oportunidad, por favor.",
+    "target": "Dame otra oportunidad, por favor.",
     "en": "Give me another chance, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OPORTUNIDAD sounds like opportunity with a Spanish accent: a golden chance knocking on your door.",
   "image": "/deck/img/oportunidad-chance.webp",
   "audio": {

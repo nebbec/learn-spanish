@@ -3,7 +3,7 @@
   "rank": 627,
   "kind": "content",
   "pos": "noun",
-  "es": "el metro",
+  "target": "el metro",
   "en": "meter",
   "hint": "unit of length",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "La pared mide tres metros.",
+    "target": "La pared mide tres metros.",
     "en": "The wall is three meters long."
   },
-  "spain": null,
+  "regional": null,
   "trick": "METRO sounds like metric: the metric system measures everything in meters.",
   "image": "/deck/img/metro-meter.webp",
   "audio": {

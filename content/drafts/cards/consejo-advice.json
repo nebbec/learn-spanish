@@ -3,7 +3,7 @@
   "rank": 746,
   "kind": "content",
   "pos": "noun",
-  "es": "el consejo",
+  "target": "el consejo",
   "en": "advice",
   "hint": "a piece of advice",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Te voy a dar un consejo.",
+    "target": "Te voy a dar un consejo.",
     "en": "I'm going to give you some advice."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CONSEJO sounds like \"consider, Joe\": that's the advice everyone gives Joe before he acts.",
   "image": "/deck/img/consejo-advice.webp",
   "audio": {

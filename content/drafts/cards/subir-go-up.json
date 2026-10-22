@@ -3,7 +3,7 @@
   "rank": 351,
   "kind": "content",
   "pos": "verb",
-  "es": "subir",
+  "target": "subir",
   "en": "to go up",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Sube las escaleras, estoy en mi cuarto.",
+    "target": "Sube las escaleras, estoy en mi cuarto.",
     "en": "Come up the stairs, I'm in my room."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUBIR sounds like a submarine rising: the sub goes up to the surface.",
   "image": "/deck/img/subir-go-up.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 97,
   "kind": "content",
   "pos": "verb",
-  "es": "encontrar",
+  "target": "encontrar",
   "en": "to find",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "No encuentro mis llaves.",
+    "target": "No encuentro mis llaves.",
     "en": "I can't find my keys."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENCONTRAR sounds like \"encounter\": when you encounter something you were looking for, you find it.",
   "image": "/deck/img/encontrar-find.webp",
   "audio": {

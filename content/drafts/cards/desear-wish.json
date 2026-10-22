@@ -3,7 +3,7 @@
   "rank": 372,
   "kind": "content",
   "pos": "verb",
-  "es": "desear",
+  "target": "desear",
   "en": "to wish",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te deseo mucha suerte mañana.",
+    "target": "Te deseo mucha suerte mañana.",
     "en": "I wish you lots of luck tomorrow."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DESEAR sounds like desire: you wish for whatever you desire.",
   "image": "/deck/img/desear-wish.webp",
   "audio": {

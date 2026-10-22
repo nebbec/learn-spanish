@@ -3,15 +3,18 @@
   "rank": 576,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Dónde está el baño?",
+  "target": "¿Dónde está el baño?",
   "en": "Where is the bathroom?",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Disculpe, ¿dónde está el baño?",
+    "target": "Disculpe, ¿dónde está el baño?",
     "en": "Excuse me, where is the bathroom?"
   },
-  "spain": "Spain also says ¿Dónde están los servicios? or ¿Dónde está el aseo?",
+  "regional": {
+    "where": "Spain",
+    "text": "Spain also says ¿Dónde están los servicios? or ¿Dónde está el aseo?"
+  },
   "trick": null,
   "image": null,
   "audio": {

@@ -3,17 +3,17 @@
   "rank": 373,
   "kind": "content",
   "pos": "adjective",
-  "es": "final",
+  "target": "final",
   "en": "final",
   "hint": null,
   "grammar": {
     "feminine": "final"
   },
   "example": {
-    "es": "Es mi respuesta final.",
+    "target": "Es mi respuesta final.",
     "en": "It's my final answer."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FINAL is spelled just like English final, said fee-NAHL, like the last whistle of a final match.",
   "image": "/deck/img/final-final.webp",
   "audio": {

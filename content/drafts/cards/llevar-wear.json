@@ -3,7 +3,7 @@
   "rank": 96,
   "kind": "content",
   "pos": "verb",
-  "es": "llevar",
+  "target": "llevar",
   "en": "to wear",
   "hint": "have on right now",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Ella lleva un vestido rojo.",
+    "target": "Ella lleva un vestido rojo.",
     "en": "She's wearing a red dress."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLEVAR sounds like lever: you carry your clothes on you all day, like a lever lifting a jacket.",
   "image": "/deck/img/llevar-wear.webp",
   "audio": {

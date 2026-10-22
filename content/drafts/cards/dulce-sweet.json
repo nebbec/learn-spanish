@@ -3,17 +3,17 @@
   "rank": 639,
   "kind": "content",
   "pos": "adjective",
-  "es": "dulce",
+  "target": "dulce",
   "en": "sweet",
   "hint": null,
   "grammar": {
     "feminine": "dulce"
   },
   "example": {
-    "es": "Este pastel está muy dulce.",
+    "target": "Este pastel está muy dulce.",
     "en": "This cake is very sweet."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DULCE sounds like \"dull, see?\": nothing is dull once you taste something sweet.",
   "image": "/deck/img/dulce-sweet.webp",
   "audio": {

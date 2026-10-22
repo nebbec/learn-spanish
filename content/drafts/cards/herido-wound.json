@@ -3,7 +3,7 @@
   "rank": 559,
   "kind": "content",
   "pos": "noun",
-  "es": "la herida",
+  "target": "la herida",
   "en": "wound",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "La herida todavía me duele.",
+    "target": "La herida todavía me duele.",
     "en": "The wound still hurts."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LA HERIDA sounds like \"hair-EE-da\": she hid the wound under her hair.",
   "image": "/deck/img/herido-wound.webp",
   "audio": {

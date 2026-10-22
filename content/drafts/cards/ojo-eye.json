@@ -3,7 +3,7 @@
   "rank": 275,
   "kind": "content",
   "pos": "noun",
-  "es": "el ojo",
+  "target": "el ojo",
   "en": "eye",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Tienes los ojos muy bonitos.",
+    "target": "Tienes los ojos muy bonitos.",
     "en": "You have really pretty eyes."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OJO sounds like \"oh, ho!\": your eyes go wide when you see something surprising.",
   "image": "/deck/img/ojo-eye.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 393,
   "kind": "content",
   "pos": "noun",
-  "es": "la luz",
+  "target": "la luz",
   "en": "light",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Apaga la luz, por favor.",
+    "target": "Apaga la luz, por favor.",
     "en": "Turn off the light, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LUZ sounds like \"Lucy\": Lucy always flips on the light when she walks in.",
   "image": "/deck/img/luz-light.webp",
   "audio": {

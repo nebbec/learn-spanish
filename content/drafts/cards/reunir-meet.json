@@ -3,7 +3,7 @@
   "rank": 708,
   "kind": "content",
   "pos": "verb",
-  "es": "reunirse",
+  "target": "reunirse",
   "en": "to meet",
   "hint": "get together, as for a meeting",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Nos reunimos mañana a las diez.",
+    "target": "Nos reunimos mañana a las diez.",
     "en": "We're meeting tomorrow at ten."
   },
-  "spain": null,
+  "regional": null,
   "trick": "REUNIRSE sounds like reunion: when you meet up with old friends, it's a reunion.",
   "image": "/deck/img/reunir-meet.webp",
   "audio": {

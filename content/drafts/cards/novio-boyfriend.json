@@ -3,7 +3,7 @@
   "rank": 357,
   "kind": "content",
   "pos": "noun",
-  "es": "el novio",
+  "target": "el novio",
   "en": "boyfriend",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi novio vive en otra ciudad.",
+    "target": "Mi novio vive en otra ciudad.",
     "en": "My boyfriend lives in another city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "NOVIO sounds like novel: your boyfriend is the hero of your love novel.",
   "image": "/deck/img/novio-boyfriend.webp",
   "audio": {

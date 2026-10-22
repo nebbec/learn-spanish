@@ -1,0 +1,21 @@
+{
+  "id": "ein-a",
+  "rank": 6,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "ein",
+  "en": "That's [a] dog",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist ein Hund.",
+    "en": "That's a dog."
+  },
+  "regional": null,
+  "trick": "EIN rhymes with \"mine\": think \"a mine\", and ein is simply a or an.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ein-a.word.mp3",
+    "sentence": "/deck-de/audio/ein-a.sentence.mp3"
+  }
+}

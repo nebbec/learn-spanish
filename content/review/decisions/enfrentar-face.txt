@@ -8,27 +8,28 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-10: applied the reviewer's example, with siempre in place of con calma (calma is a rare word).
 decision: approve
 
-id:         enfrentar-face
-kind:       content
-pos:        verb
-es:         enfrentar
-en:         to face
-hint:       to confront a problem or enemy
-yo:         enfrento
-tu:         enfrentas
-el:         enfrenta
-irregular:  no
-example.es: Mi hermano siempre enfrenta sus problemas.
-example.en: My brother always faces his problems.
-spain:
-trick:      ENFRENTAR sounds like in front: to face something, you stand right in front of it.
+id:             enfrentar-face
+kind:           content
+pos:            verb
+target:         enfrentar
+en:             to face
+hint:           to confront a problem or enemy
+yo:             enfrento
+tu:             enfrentas
+el:             enfrenta
+irregular:      no
+example.target: Mi hermano siempre enfrenta sus problemas.
+example.en:     My brother always faces his problems.
+regional.where:
+regional.text:
+trick:          ENFRENTAR sounds like in front: to face something, you stand right in front of it.
 
 # The draft this file was made from. Do not change it.
-draft: ab7c91ac5eba1190
+draft: a076ce30cad8caa0

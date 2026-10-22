@@ -3,7 +3,7 @@
   "rank": 321,
   "kind": "content",
   "pos": "verb",
-  "es": "mostrar",
+  "target": "mostrar",
   "en": "to show",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Me muestras tu cuarto nuevo?",
+    "target": "¿Me muestras tu cuarto nuevo?",
     "en": "Will you show me your new room?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "MOSTRAR sounds like most rare: you show everyone your most rare treasures.",
   "image": "/deck/img/mostrar-show.webp",
   "audio": {

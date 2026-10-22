@@ -3,15 +3,18 @@
   "rank": 625,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "Me llamo Ana. Mucho gusto.",
+  "target": "Me llamo Ana. Mucho gusto.",
   "en": "My name is Ana. Nice to meet you.",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "—Me llamo Ana. Mucho gusto. —Mucho gusto, Ana.",
+    "target": "—Me llamo Ana. Mucho gusto. —Mucho gusto, Ana.",
     "en": "My name is Ana. Nice to meet you. Nice to meet you, Ana."
   },
-  "spain": "Me llamo Ana. Encantada. (Encantado or encantada is more common than mucho gusto in Spain.)",
+  "regional": {
+    "where": "Spain",
+    "text": "Me llamo Ana. Encantada. (Encantado or encantada is more common than mucho gusto in Spain.)"
+  },
   "trick": null,
   "image": null,
   "audio": {

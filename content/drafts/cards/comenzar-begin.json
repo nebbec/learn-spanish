@@ -3,7 +3,7 @@
   "rank": 358,
   "kind": "content",
   "pos": "verb",
-  "es": "comenzar",
+  "target": "comenzar",
   "en": "to begin",
   "hint": "slightly more formal word, not empezar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "La película comienza a las ocho.",
+    "target": "La película comienza a las ocho.",
     "en": "The movie begins at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMENZAR sounds like commence: you commence, or begin, something new.",
   "image": "/deck/img/comenzar-begin.webp",
   "audio": {

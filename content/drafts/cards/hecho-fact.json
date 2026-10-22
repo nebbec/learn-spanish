@@ -3,7 +3,7 @@
   "rank": 322,
   "kind": "content",
   "pos": "noun",
-  "es": "el hecho",
+  "target": "el hecho",
   "en": "fact",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "El hecho es que no me llamaste.",
+    "target": "El hecho es que no me llamaste.",
     "en": "The fact is that you didn't call me."
   },
-  "spain": null,
+  "regional": null,
   "trick": "HECHO sounds like \"echo\": a fact keeps echoing back no matter how you deny it.",
   "image": "/deck/img/hecho-fact.webp",
   "audio": {

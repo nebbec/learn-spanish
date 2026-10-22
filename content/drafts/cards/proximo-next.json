@@ -3,17 +3,17 @@
   "rank": 422,
   "kind": "content",
   "pos": "adjective",
-  "es": "próximo",
+  "target": "próximo",
   "en": "next",
   "hint": "upcoming, as in next week (not siguiente)",
   "grammar": {
     "feminine": "próxima"
   },
   "example": {
-    "es": "Nos vemos la próxima semana.",
+    "target": "Nos vemos la próxima semana.",
     "en": "See you next week."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PRÓXIMO sounds like proximity: whatever is in your proximity comes next.",
   "image": "/deck/img/proximo-next.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 10,
   "kind": "glue",
   "pos": "preposition",
-  "es": "en",
+  "target": "en",
   "en": "she is [at] home",
   "hint": "location, not direction",
   "grammar": null,
   "example": {
-    "es": "Estoy en el trabajo todo el día.",
+    "target": "Estoy en el trabajo todo el día.",
     "en": "I'm at work all day."
   },
-  "spain": null,
+  "regional": null,
   "trick": "EN sounds like the letter N, as in 'Now here': where you are at right now.",
   "image": null,
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 106,
   "kind": "content",
   "pos": "verb",
-  "es": "ponerse",
+  "target": "ponerse",
   "en": "to get (nervous, sad, angry)",
   "hint": "a sudden change of mood or state",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Me pongo nervioso cuando hablo en público.",
+    "target": "Me pongo nervioso cuando hablo en público.",
     "en": "I get nervous when I speak in public."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PONERSE: you put a new mood on yourself, like putting on a jacket, and suddenly you get angry.",
   "image": "/deck/img/poner-get-become.webp",
   "audio": {

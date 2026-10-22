@@ -3,7 +3,7 @@
   "rank": 631,
   "kind": "content",
   "pos": "verb",
-  "es": "limpiar",
+  "target": "limpiar",
   "en": "to clean",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Tengo que limpiar mi cuarto hoy.",
+    "target": "Tengo que limpiar mi cuarto hoy.",
     "en": "I have to clean my room today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "LIMPIAR sounds like \"limp pier\": you clean the dirty, limp old pier until it shines.",
   "image": "/deck/img/limpiar-clean.webp",
   "audio": {

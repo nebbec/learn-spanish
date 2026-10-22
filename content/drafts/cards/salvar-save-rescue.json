@@ -3,7 +3,7 @@
   "rank": 346,
   "kind": "content",
   "pos": "verb",
-  "es": "salvar",
+  "target": "salvar",
   "en": "to save",
   "hint": "rescue from danger",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me salvaste la vida.",
+    "target": "Me salvaste la vida.",
     "en": "You saved my life."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SALVAR sounds like salve: you rub salve on a wound to save the injured hero.",
   "image": "/deck/img/salvar-save-rescue.webp",
   "audio": {

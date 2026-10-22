@@ -3,15 +3,15 @@
   "rank": 144,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Me puede ayudar, por favor?",
+  "target": "¿Me puede ayudar, por favor?",
   "en": "Can you help me, please?",
   "hint": "Formal: polite, to a stranger (usted)",
   "grammar": null,
   "example": {
-    "es": "Hola, ¿me puede ayudar, por favor? No entiendo.",
+    "target": "Hola, ¿me puede ayudar, por favor? No entiendo.",
     "en": "Hello, can you help me, please? I don't understand."
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

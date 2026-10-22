@@ -3,7 +3,7 @@
   "rank": 798,
   "kind": "content",
   "pos": "noun",
-  "es": "el cerebro",
+  "target": "el cerebro",
   "en": "brain",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Usa el cerebro antes de hablar.",
+    "target": "Usa el cerebro antes de hablar.",
     "en": "Use your brain before you talk."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CEREBRO sounds like cerebral: your brain does all the cerebral thinking.",
   "image": "/deck/img/cerebro-brain.webp",
   "audio": {

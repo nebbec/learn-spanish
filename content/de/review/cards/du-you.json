@@ -1,0 +1,17 @@
+{
+  "id": "du-you",
+  "rank": 7,
+  "word": "du",
+  "draft": "ab4ca23336eda8e6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "you (informal singular, subject)",
+    "example": "You are my best friend."
+  },
+  "note": "The hint is needed and works: \"one person, informal\" rules out ihr and Sie, so \"Bist du müde?\" leaves du as the only answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-10T13:32:17.581Z"
+}

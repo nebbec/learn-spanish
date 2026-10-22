@@ -3,7 +3,7 @@
   "rank": 261,
   "kind": "content",
   "pos": "verb",
-  "es": "comprar",
+  "target": "comprar",
   "en": "to buy",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi madre compra café en la ciudad.",
+    "target": "Mi madre compra café en la ciudad.",
     "en": "My mother buys coffee in the city."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMPRAR sounds like \"compare\": you compare prices before you buy.",
   "image": "/deck/img/comprar-buy.webp",
   "audio": {

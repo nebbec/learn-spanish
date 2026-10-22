@@ -3,7 +3,7 @@
   "rank": 795,
   "kind": "content",
   "pos": "noun",
-  "es": "la cerveza",
+  "target": "la cerveza",
   "en": "beer",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Me gusta mucho la cerveza.",
+    "target": "Me gusta mucho la cerveza.",
     "en": "I really like beer."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CERVEZA sounds like 'serve Vesa': the bartender serves Vesa a cold beer.",
   "image": "/deck/img/cerveza-beer.webp",
   "audio": {

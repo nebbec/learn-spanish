@@ -3,15 +3,15 @@
   "rank": 307,
   "kind": "glue",
   "pos": "adverb",
-  "es": "siquiera",
+  "target": "siquiera",
   "en": "he didn't [even] call",
   "hint": "in negatives, often after ni; not incluso",
   "grammar": null,
   "example": {
-    "es": "Ni siquiera me llamó ayer.",
+    "target": "Ni siquiera me llamó ayer.",
     "en": "He didn't even call me yesterday."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SIQUIERA sounds like 'see, key? Era...': you can't even see the key you lost.",
   "image": null,
   "audio": {

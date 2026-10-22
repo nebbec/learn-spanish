@@ -3,7 +3,7 @@
   "rank": 325,
   "kind": "content",
   "pos": "verb",
-  "es": "parar",
+  "target": "parar",
   "en": "to stop",
   "hint": "the everyday word, not detener",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¡Para el carro, por favor!",
+    "target": "¡Para el carro, por favor!",
     "en": "Stop the car, please!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PARAR sounds like 'parent': a parent always yells at you to stop.",
   "image": "/deck/img/parar-stop.webp",
   "audio": {

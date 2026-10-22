@@ -3,7 +3,7 @@
   "rank": 545,
   "kind": "content",
   "pos": "verb",
-  "es": "volar",
+  "target": "volar",
   "en": "to fly",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "El pájaro vuela muy alto.",
+    "target": "El pájaro vuela muy alto.",
     "en": "The bird flies very high."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VOLAR sounds like \"volleyball\": a hard spike sends the ball flying through the air.",
   "image": "/deck/img/volar-fly.webp",
   "audio": {

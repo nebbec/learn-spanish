@@ -3,7 +3,7 @@
   "rank": 313,
   "kind": "content",
   "pos": "noun",
-  "es": "la cara",
+  "target": "la cara",
   "en": "face",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Lávate la cara antes de dormir.",
+    "target": "Lávate la cara antes de dormir.",
     "en": "Wash your face before you sleep."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARA sounds like \"car\": you see your face reflected in the shiny car window.",
   "image": "/deck/img/cara-face.webp",
   "audio": {

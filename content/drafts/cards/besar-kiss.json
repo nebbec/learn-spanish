@@ -3,7 +3,7 @@
   "rank": 776,
   "kind": "content",
   "pos": "verb",
-  "es": "besar",
+  "target": "besar",
   "en": "to kiss",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Ella me besó en la mejilla.",
+    "target": "Ella me besó en la mejilla.",
     "en": "She kissed me on the cheek."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BESAR sounds like \"best sir\": she called him the best sir and kissed him.",
   "image": "/deck/img/besar-kiss.webp",
   "audio": {

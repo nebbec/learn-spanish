@@ -3,7 +3,7 @@
   "rank": 23,
   "kind": "form",
   "pos": "verb",
-  "es": "dices",
+  "target": "dices",
   "en": "you say",
   "hint": "informal",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "¿Qué dices?",
+    "target": "¿Qué dices?",
     "en": "What are you saying?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Dices sounds like DEE-says: you says it, with an s for you.",
   "image": "/deck/img/decir-say.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 287,
   "kind": "content",
   "pos": "verb",
-  "es": "regresar",
+  "target": "regresar",
   "en": "to come back",
   "hint": "not volver; think of regress",
   "grammar": {
@@ -15,10 +15,13 @@
     "irregular": false
   },
   "example": {
-    "es": "Mi papá regresa del trabajo a las seis.",
+    "target": "Mi papá regresa del trabajo a las seis.",
     "en": "My dad comes back from work at six."
   },
-  "spain": "volver",
+  "regional": {
+    "where": "Spain",
+    "text": "volver"
+  },
   "trick": "REGRESAR sounds like regress: to regress is to go back, so you come back where you started.",
   "image": "/deck/img/regresar-return.webp",
   "audio": {

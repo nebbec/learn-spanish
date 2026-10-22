@@ -3,7 +3,7 @@
   "rank": 452,
   "kind": "content",
   "pos": "noun",
-  "es": "el sitio",
+  "target": "el sitio",
   "en": "place, spot",
   "hint": "also site, as in website; not lugar",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Este es un buen sitio para comer.",
+    "target": "Este es un buen sitio para comer.",
     "en": "This is a good place to eat."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SITIO sounds like site: a site is just a place where something sits.",
   "image": "/deck/img/sitio-place.webp",
   "audio": {

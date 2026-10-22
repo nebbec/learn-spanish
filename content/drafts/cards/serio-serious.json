@@ -3,17 +3,17 @@
   "rank": 209,
   "kind": "content",
   "pos": "adjective",
-  "es": "serio",
+  "target": "serio",
   "en": "serious",
   "hint": null,
   "grammar": {
     "feminine": "seria"
   },
   "example": {
-    "es": "¿Estás hablando en serio?",
+    "target": "¿Estás hablando en serio?",
     "en": "Are you being serious?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SERIO sounds like serious without the ending: a serious face never finishes its smile.",
   "image": "/deck/img/serio-serious.webp",
   "audio": {

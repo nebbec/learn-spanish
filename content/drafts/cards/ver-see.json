@@ -3,7 +3,7 @@
   "rank": 35,
   "kind": "content",
   "pos": "verb",
-  "es": "ver",
+  "target": "ver",
   "en": "to see",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Quiero ver a mi madre hoy.",
+    "target": "Quiero ver a mi madre hoy.",
     "en": "I want to see my mother today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "VER sounds like \"where\": you ask where it is until you finally see it.",
   "image": "/deck/img/ver-see.webp",
   "audio": {

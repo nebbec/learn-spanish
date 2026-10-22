@@ -3,7 +3,7 @@
   "rank": 353,
   "kind": "content",
   "pos": "verb",
-  "es": "encantar",
+  "target": "encantar",
   "en": "to love",
   "hint": "to really like something, works like gustar",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Me encanta esta canción.",
+    "target": "Me encanta esta canción.",
     "en": "I love this song."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENCANTAR sounds like enchant: whatever enchants you is something you love.",
   "image": "/deck/img/encantar-love-like.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 95,
   "kind": "glue",
   "pos": "adverb",
-  "es": "tan",
+  "target": "tan",
   "en": "[as] tall as you",
   "hint": "the first as, before the adjective",
   "grammar": null,
   "example": {
-    "es": "Mi hermano es tan alto como mi papá.",
+    "target": "Mi hermano es tan alto como mi papá.",
     "en": "My brother is as tall as my dad."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TAN sounds like tan: she's as tan as her sister after summer.",
   "image": null,
   "audio": {

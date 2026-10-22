@@ -3,7 +3,7 @@
   "rank": 501,
   "kind": "content",
   "pos": "noun",
-  "es": "la carta",
+  "target": "la carta",
   "en": "letter",
   "hint": "that you mail, not of the alphabet",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Te escribí una carta muy larga.",
+    "target": "Te escribí una carta muy larga.",
     "en": "I wrote you a very long letter."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CARTA sounds like \"cart a\": the mail carrier carts a letter to your door.",
   "image": "/deck/img/carta-letter.webp",
   "audio": {

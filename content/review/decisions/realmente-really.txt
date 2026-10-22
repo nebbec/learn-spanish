@@ -8,23 +8,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: fixed hint, but left out the reviewer's 'built on the Spanish word for real', which spells out the answer (real + mente).
 decision: approve
 
-id:         realmente-really
-kind:       content
-pos:        adverb
-es:         realmente
-en:         really
-hint:       one word ending in -mente, not verdaderamente
-example.es: ¿Realmente quieres ir a la fiesta?
-example.en: Do you really want to go to the party?
-spain:
-trick:      REALMENTE sounds like real-mental: if it's real in your mind, then you really mean it.
+id:             realmente-really
+kind:           content
+pos:            adverb
+target:         realmente
+en:             really
+hint:           one word ending in -mente, not verdaderamente
+example.target: ¿Realmente quieres ir a la fiesta?
+example.en:     Do you really want to go to the party?
+regional.where:
+regional.text:
+trick:          REALMENTE sounds like real-mental: if it's real in your mind, then you really mean it.
 
 # The draft this file was made from. Do not change it.
-draft: 4caf979e61e19143
+draft: 3cc89e18856e45b9

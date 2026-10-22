@@ -3,7 +3,7 @@
   "rank": 113,
   "kind": "content",
   "pos": "noun",
-  "es": "el amigo",
+  "target": "el amigo",
   "en": "friend",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Mi amigo quiere un café.",
+    "target": "Mi amigo quiere un café.",
     "en": "My friend wants a coffee."
   },
-  "spain": null,
+  "regional": null,
   "trick": "AMIGO sounds like \"a meego\": a friend who always says \"me go too!\"",
   "image": "/deck/img/amigo-friend.webp",
   "audio": {

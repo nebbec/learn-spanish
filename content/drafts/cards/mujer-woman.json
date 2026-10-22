@@ -3,7 +3,7 @@
   "rank": 146,
   "kind": "content",
   "pos": "noun",
-  "es": "la mujer",
+  "target": "la mujer",
   "en": "woman",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Esa mujer es mi profesora.",
+    "target": "Esa mujer es mi profesora.",
     "en": "That woman is my teacher."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MUJER sounds like \"moo-HAIR\": a woman tosses her long hair while a cow says moo.",
   "image": "/deck/img/mujer-woman.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 365,
   "kind": "content",
   "pos": "verb",
-  "es": "quitar",
+  "target": "quitar",
   "en": "to remove",
   "hint": "take off, take away",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Quítate los zapatos, por favor.",
+    "target": "Quítate los zapatos, por favor.",
     "en": "Take off your shoes, please."
   },
-  "spain": null,
+  "regional": null,
   "trick": "QUITAR sounds like quit: when you quit something, you take it off and remove it from your life.",
   "image": "/deck/img/quitar-remove.webp",
   "audio": {

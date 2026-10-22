@@ -3,7 +3,7 @@
   "rank": 766,
   "kind": "content",
   "pos": "verb",
-  "es": "pegar",
+  "target": "pegar",
   "en": "to stick",
   "hint": "with glue or tape",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Pego la foto en la pared.",
+    "target": "Pego la foto en la pared.",
     "en": "I stick the photo on the wall."
   },
-  "spain": null,
+  "regional": null,
   "trick": "PEGAR sounds like peg: you stick a note to the board as firmly as a peg.",
   "image": "/deck/img/pegar-stick.webp",
   "audio": {

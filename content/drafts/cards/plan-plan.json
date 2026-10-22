@@ -3,7 +3,7 @@
   "rank": 388,
   "kind": "content",
   "pos": "noun",
-  "es": "el plan",
+  "target": "el plan",
   "en": "plan",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "¿Cuál es el plan para esta noche?",
+    "target": "¿Cuál es el plan para esta noche?",
     "en": "What's the plan for tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PLAN is spelled just like the English plan: every good plan starts with a plan.",
   "image": "/deck/img/plan-plan.webp",
   "audio": {

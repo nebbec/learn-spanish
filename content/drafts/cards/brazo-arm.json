@@ -3,7 +3,7 @@
   "rank": 661,
   "kind": "content",
   "pos": "noun",
-  "es": "el brazo",
+  "target": "el brazo",
   "en": "arm",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me duele el brazo derecho.",
+    "target": "Me duele el brazo derecho.",
     "en": "My right arm hurts."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BRAZO sounds like \"bra-so\": a bracelet goes around your arm.",
   "image": "/deck/img/brazo-arm.webp",
   "audio": {

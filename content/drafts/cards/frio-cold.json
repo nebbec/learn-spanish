@@ -3,17 +3,17 @@
   "rank": 629,
   "kind": "content",
   "pos": "adjective",
-  "es": "frío",
+  "target": "frío",
   "en": "cold",
   "hint": null,
   "grammar": {
     "feminine": "fría"
   },
   "example": {
-    "es": "El agua está muy fría hoy.",
+    "target": "El agua está muy fría hoy.",
     "en": "The water is really cold today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "FRÍO sounds like \"freeze-o\": something cold is about to freeze.",
   "image": "/deck/img/frio-cold.webp",
   "audio": {

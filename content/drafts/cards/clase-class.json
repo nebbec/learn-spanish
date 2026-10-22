@@ -3,7 +3,7 @@
   "rank": 311,
   "kind": "content",
   "pos": "noun",
-  "es": "la clase",
+  "target": "la clase",
   "en": "class",
   "hint": "lesson at school",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tengo clase de inglés a las ocho.",
+    "target": "Tengo clase de inglés a las ocho.",
     "en": "I have English class at eight."
   },
-  "spain": null,
+  "regional": null,
   "trick": "CLASE sounds like class: same word, just add an E at the end of the lesson.",
   "image": "/deck/img/clase-class.webp",
   "audio": {

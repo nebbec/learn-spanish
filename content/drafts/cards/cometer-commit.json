@@ -3,7 +3,7 @@
   "rank": 727,
   "kind": "content",
   "pos": "verb",
-  "es": "cometer",
+  "target": "cometer",
   "en": "to commit",
   "hint": "a crime or a mistake",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Él no cometió el crimen.",
+    "target": "Él no cometió el crimen.",
     "en": "He didn't commit the crime."
   },
-  "spain": null,
+  "regional": null,
   "trick": "COMETER sounds like comet: a rogue comet commits a crime by smashing into Earth.",
   "image": "/deck/img/cometer-commit.webp",
   "audio": {

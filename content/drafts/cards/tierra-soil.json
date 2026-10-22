@@ -3,7 +3,7 @@
   "rank": 334,
   "kind": "content",
   "pos": "noun",
-  "es": "la tierra",
+  "target": "la tierra",
   "en": "soil",
   "hint": "dirt on the ground, also planet Earth",
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "Tus zapatos tienen tierra.",
+    "target": "Tus zapatos tienen tierra.",
     "en": "Your shoes have dirt on them."
   },
-  "spain": null,
+  "regional": null,
   "trick": "TIERRA sounds like terra cotta: pots made from baked soil.",
   "image": "/deck/img/tierra-soil.webp",
   "audio": {

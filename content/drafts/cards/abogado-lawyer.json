@@ -3,7 +3,7 @@
   "rank": 524,
   "kind": "content",
   "pos": "noun",
-  "es": "el abogado",
+  "target": "el abogado",
   "en": "lawyer",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Necesito hablar con mi abogado.",
+    "target": "Necesito hablar con mi abogado.",
     "en": "I need to talk to my lawyer."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ABOGADO sounds like \"advocate\": a lawyer advocates for you in court.",
   "image": "/deck/img/abogado-lawyer.webp",
   "audio": {

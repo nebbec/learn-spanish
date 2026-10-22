@@ -8,23 +8,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to spain, with a note on Spain's 'maybe'.
 decision: approve
 
-id:         igual-anyway
-kind:       content
-pos:        adverb
-es:         igual
-en:         anyway
-hint:       one word, still, regardless
-example.es: No me invitaron, pero igual voy.
-example.en: They didn't invite me, but I'm going anyway.
-spain:      de todas formas (in Spain, igual usually means maybe)
-trick:      IGUAL, "equal": whatever happens, it's all equal to me, so I'll do it anyway.
+id:             igual-anyway
+kind:           content
+pos:            adverb
+target:         igual
+en:             anyway
+hint:           one word, still, regardless
+example.target: No me invitaron, pero igual voy.
+example.en:     They didn't invite me, but I'm going anyway.
+regional.where: Spain
+regional.text:  de todas formas (in Spain, igual usually means maybe)
+trick:          IGUAL, "equal": whatever happens, it's all equal to me, so I'll do it anyway.
 
 # The draft this file was made from. Do not change it.
-draft: 5df443b7ebc64926
+draft: a1835ba0a450e257

@@ -3,7 +3,7 @@
   "rank": 301,
   "kind": "content",
   "pos": "noun",
-  "es": "la muerte",
+  "target": "la muerte",
   "en": "death",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "No le tengo miedo a la muerte.",
+    "target": "No le tengo miedo a la muerte.",
     "en": "I'm not afraid of death."
   },
-  "spain": null,
+  "regional": null,
   "trick": "MUERTE sounds like \"more tea\": at the wake, everyone asks for more tea after the death.",
   "image": "/deck/img/muerte-death.webp",
   "audio": {

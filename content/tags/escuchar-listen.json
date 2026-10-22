@@ -5,7 +5,7 @@
   "requires": [],
   "tip": null,
   "why": "Use escuchar for listening on purpose (music, a person); oír for simply hearing a sound.",
-  "draft": "233f68ff8f2234ce",
+  "draft": "3056b593732eff50",
   "group": "#137 escuchar",
   "via": "cli",
   "model": "claude-opus-5-5",

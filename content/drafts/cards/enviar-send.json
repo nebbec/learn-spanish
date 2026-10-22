@@ -3,7 +3,7 @@
   "rank": 288,
   "kind": "content",
   "pos": "verb",
-  "es": "enviar",
+  "target": "enviar",
   "en": "to send",
   "hint": "not mandar; think envoy",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Te envío la foto ahora.",
+    "target": "Te envío la foto ahora.",
     "en": "I'm sending you the photo now."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENVIAR sounds like envoy: an envoy is someone you send with a message.",
   "image": "/deck/img/enviar-send.webp",
   "audio": {

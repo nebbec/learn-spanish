@@ -3,7 +3,7 @@
   "rank": 693,
   "kind": "content",
   "pos": "verb",
-  "es": "bromear",
+  "target": "bromear",
   "en": "to joke",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "¿Estás bromeando? No te creo.",
+    "target": "¿Estás bromeando? No te creo.",
     "en": "Are you joking? I don't believe you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "BROMEAR sounds like \"bro, me ear\": your bro whispers jokes in your ear.",
   "image": "/deck/img/bromear-joke.webp",
   "audio": {

@@ -3,15 +3,15 @@
   "rank": 118,
   "kind": "glue",
   "pos": "preposition",
-  "es": "sobre",
+  "target": "sobre",
   "en": "a movie [about] love",
   "hint": "topic, not de",
   "grammar": null,
   "example": {
-    "es": "Quiero hablar contigo sobre tu hermano.",
+    "target": "Quiero hablar contigo sobre tu hermano.",
     "en": "I want to talk to you about your brother."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SOBRE sounds like sober: a sober talk is a serious talk about something.",
   "image": null,
   "audio": {

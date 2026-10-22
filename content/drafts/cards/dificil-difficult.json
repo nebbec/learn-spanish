@@ -3,17 +3,17 @@
   "rank": 326,
   "kind": "content",
   "pos": "adjective",
-  "es": "difícil",
+  "target": "difícil",
   "en": "difficult",
   "hint": null,
   "grammar": {
     "feminine": "difícil"
   },
   "example": {
-    "es": "Este examen es muy difícil.",
+    "target": "Este examen es muy difícil.",
     "en": "This exam is very difficult."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DIFÍCIL sounds like \"difficult\" with the ending cut off, because finishing the word was too hard.",
   "image": "/deck/img/dificil-difficult.webp",
   "audio": {

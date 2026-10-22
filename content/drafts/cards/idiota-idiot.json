@@ -3,7 +3,7 @@
   "rank": 425,
   "kind": "content",
   "pos": "noun",
-  "es": "el idiota",
+  "target": "el idiota",
   "en": "idiot",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "No seas idiota, ella te quiere.",
+    "target": "No seas idiota, ella te quiere.",
     "en": "Don't be an idiot, she loves you."
   },
-  "spain": null,
+  "regional": null,
   "trick": "IDIOTA sounds like 'idiot-a': just add an 'a' to the English idiot.",
   "image": "/deck/img/idiota-idiot.webp",
   "audio": {

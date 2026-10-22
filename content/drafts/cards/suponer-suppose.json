@@ -3,7 +3,7 @@
   "rank": 201,
   "kind": "content",
   "pos": "verb",
-  "es": "suponer",
+  "target": "suponer",
   "en": "to suppose",
   "hint": null,
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Supongo que tienes razón.",
+    "target": "Supongo que tienes razón.",
     "en": "I suppose you're right."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUPONER sounds like \"suppose-ner\": just suppose, and you've got it.",
   "image": "/deck/img/suponer-suppose.webp",
   "audio": {

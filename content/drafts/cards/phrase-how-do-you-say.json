@@ -3,15 +3,15 @@
   "rank": 67,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Cómo se dice…?",
+  "target": "¿Cómo se dice…?",
   "en": "How do you say…?",
   "hint": "Asking about a word, with \"you\" meaning people in general",
   "grammar": null,
   "example": {
-    "es": "¿Cómo se dice \"gracias\" en inglés?",
+    "target": "¿Cómo se dice \"gracias\" en inglés?",
     "en": "How do you say \"gracias\" in English?"
   },
-  "spain": null,
+  "regional": null,
   "trick": null,
   "image": null,
   "audio": {

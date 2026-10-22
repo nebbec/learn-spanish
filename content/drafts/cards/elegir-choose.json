@@ -3,7 +3,7 @@
   "rank": 504,
   "kind": "content",
   "pos": "verb",
-  "es": "elegir",
+  "target": "elegir",
   "en": "to choose",
   "hint": "also used for to elect, not escoger",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": true
   },
   "example": {
-    "es": "Yo siempre elijo la pizza.",
+    "target": "Yo siempre elijo la pizza.",
     "en": "I always choose the pizza."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ELEGIR sounds like elegant: an elegant person chooses carefully, and voters elect who they choose.",
   "image": "/deck/img/elegir-choose.webp",
   "audio": {

@@ -3,7 +3,7 @@
   "rank": 164,
   "kind": "content",
   "pos": "noun",
-  "es": "el dinero",
+  "target": "el dinero",
   "en": "money",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Hoy no tengo mucho dinero.",
+    "target": "Hoy no tengo mucho dinero.",
     "en": "I don't have much money today."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DINERO sounds like \"dinner-o\": you need money to pay for dinner.",
   "image": "/deck/img/dinero-money.webp",
   "audio": {

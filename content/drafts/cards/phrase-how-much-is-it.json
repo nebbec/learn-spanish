@@ -3,15 +3,15 @@
   "rank": 643,
   "kind": "phrase",
   "pos": "phrase",
-  "es": "¿Cuánto cuesta?",
+  "target": "¿Cuánto cuesta?",
   "en": "How much is it?",
   "hint": "Asking the price of one thing, with the verb for \"to cost\"",
   "grammar": null,
   "example": {
-    "es": "Disculpa, ¿cuánto cuesta el café?",
+    "target": "Disculpa, ¿cuánto cuesta el café?",
     "en": "Excuse me, how much is the coffee?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "Cuesta sounds like \"cost,\" so ¿cuánto cuesta? is literally \"how much does it cost?\"",
   "image": null,
   "audio": {

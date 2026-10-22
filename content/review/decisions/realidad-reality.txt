@@ -8,25 +8,26 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: replaced example.es and example.en with a noun-sense example; used 'Esa es la realidad' instead of the reviewer's 'Tienes que aceptar la realidad' to avoid the rarer word aceptar.
 decision: approve
 
-id:         realidad-reality
-kind:       content
-pos:        noun
-es:         la realidad
-en:         reality
+id:             realidad-reality
+kind:           content
+pos:            noun
+target:         la realidad
+en:             reality
 hint:
-gender:     f
-article:    la
-example.es: Esa es la realidad.
-example.en: That's the reality.
-spain:
-trick:      REALIDAD sounds like "real, dad": Dad tells you to face reality and keep it real.
+gender:         f
+article:        la
+example.target: Esa es la realidad.
+example.en:     That's the reality.
+regional.where:
+regional.text:
+trick:          REALIDAD sounds like "real, dad": Dad tells you to face reality and keep it real.
 
 # The draft this file was made from. Do not change it.
-draft: 34be79b1c1f414cc
+draft: 77a3a20365149661

@@ -3,10 +3,10 @@
 // numbers, and a few other words: in the starter path at most one, which must
 // be an obvious cognate; in the frequency phase up to two, of any kind.
 //
-// Each word of `example.es` is mapped to its lemmas with E1's lemma list
+// Each word of `example.target` is mapped to its lemmas with E1's lemma list
 // (lemmatization-lists, read from content/.cache), and counts against the
 // limit when none of its lemmas is known. A card makes known the words of its
-// `es`, the forms in its grammar (the present-tense strip, the feminine) and
+// `target`, the forms in its grammar (the present-tense strip, the feminine) and
 // their lemmas. Pure functions apart from `loadLemmas`; nothing here prints.
 //
 // The rules are in docs/design.md under "Learning path", "Example sentences
@@ -15,7 +15,9 @@
 import path from "node:path";
 import type { Card, DraftCard } from "@/lib/deck/types";
 import { cliticLemmas, normalize, parseLemmaPairs, stripAccents } from "./lemmatize.mjs";
-import { source, SOURCES } from "./sources.mjs";
+import { OVERRIDES_DE } from "./overrides-de.mjs";
+import type { LangCode } from "./script-lang";
+import { source, SOURCES_BY_LANG } from "./sources.mjs";
 
 /** Other words an example may use: one obvious cognate in the starter path, any two in the frequency phase. */
 export const STARTER_OTHER_WORDS = 1;
@@ -30,28 +32,71 @@ export const NUMBER_WORDS = new Set(
   ).split(" "),
 );
 
+/**
+ * German's number words (DE7), free like Spanish's. "ein" and "eine" are articles, so not here; "eins" is the
+ * number said alone.
+ */
+export const NUMBER_WORDS_DE = new Set(
+  (
+    "null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf dreizehn vierzehn fünfzehn sechzehn " +
+    "siebzehn achtzehn neunzehn zwanzig dreißig dreissig vierzig fünfzig sechzig siebzig achtzig neunzig hundert " +
+    "tausend million millionen"
+  ).split(" "),
+);
+
+/** The number words of a language. */
+export const numberWords = (lang: LangCode = "es") => (lang === "de" ? NUMBER_WORDS_DE : NUMBER_WORDS);
+
 /** E1's lemma list: each word form's possible lemmas, and every lemma. */
 export interface Lemmas {
   map: Map<string, Set<string>>;
   set: Set<string>;
+  /** The list's language: Spanish when left out. German's rules differ on capitals and attached pronouns (DE6). */
+  lang?: LangCode;
 }
 
-export function lemmasFrom(text: string): Lemmas {
+export function lemmasFrom(text: string, lang: LangCode = "es"): Lemmas {
   const map = parseLemmaPairs(text) as Map<string, Set<string>>;
+  if (lang === "de") germanCorrections(map);
   const set = new Set<string>();
   for (const lemmas of map.values()) for (const l of lemmas) set.add(l);
-  return { map, set };
+  return lang === "es" ? { map, set } : { map, set, lang };
 }
 
-/** Reads the lemma list from content/.cache, downloading it there once (SHA-256 checked). */
-export async function loadLemmas(root: string): Promise<Lemmas> {
-  return lemmasFrom(await source(SOURCES.lemmas, path.join(root, "content", ".cache")));
+/**
+ * German's list read the way the word list counts it (DE6): a form the word list's overrides give to a word has
+ * that word as its lemma (`sie` is sie, not ich; `dir` is dir; `die` is der), and a form spelled with ß before the
+ * 1996 reform is found by its new spelling too (`musste` as mußte, to müssen).
+ */
+function germanCorrections(map: Map<string, Set<string>>) {
+  for (const [form, lemmas] of [...map]) {
+    if (!form.includes("ß")) continue;
+    const reformed = form.replaceAll("ß", "ss");
+    if (!map.has(reformed)) map.set(reformed, new Set(lemmas));
+  }
+  for (const [form, value] of Object.entries(OVERRIDES_DE as Record<string, unknown>)) {
+    if (typeof value === "string") map.set(form, new Set([value]));
+    else if (value && typeof value === "object") map.set(form, new Set(Object.keys(value)));
+  }
 }
 
-/** A word in lower case and its lemmas: from the list, and a verb with pronouns attached (verte, dímelo). */
+/**
+ * Reads a language's lemma list from content/.cache, downloading it there once (SHA-256 checked). Null for a
+ * language with no pinned list: the known-words check is then not run.
+ */
+export async function loadLemmas(root: string, lang: LangCode = "es"): Promise<Lemmas | null> {
+  const sources = SOURCES_BY_LANG[lang];
+  return sources ? lemmasFrom(await source(sources.lemmas, path.join(root, "content", ".cache")), lang) : null;
+}
+
+/**
+ * A word in lower case and its lemmas: from the list, and in Spanish a verb with pronouns attached (verte, dímelo).
+ * German attaches none.
+ */
 export function wordLemmas(word: string, lemmas: Lemmas): string[] {
   const w = normalize(word);
   const out = new Set([w, ...(lemmas.map.get(w) ?? [])]);
+  if (lemmas.lang === "de") return [...out];
   for (const verb of (cliticLemmas(w, lemmas.map, lemmas.set) as string[] | null) ?? []) out.add(verb);
   return [...out];
 }
@@ -78,9 +123,9 @@ export function tokens(text: string): Token[] {
   return out;
 }
 
-/** The words a card makes known: its `es`, its grammar's forms, and their lemmas. */
-export function cardWords(card: Pick<DraftCard, "es" | "grammar">, lemmas: Lemmas): Set<string> {
-  const words = tokens(card.es).map((t) => t.word);
+/** The words a card makes known: its `target`, its grammar's forms, and their lemmas. */
+export function cardWords(card: Pick<DraftCard, "target" | "grammar">, lemmas: Lemmas): Set<string> {
+  const words = tokens(card.target).map((t) => t.word);
   const g = card.grammar as Record<string, unknown> | null;
   if (g && typeof g.feminine === "string") words.push(...tokens(g.feminine).map((t) => t.word));
   if (g && g.present && typeof g.present === "object") {
@@ -91,13 +136,44 @@ export function cardWords(card: Pick<DraftCard, "es" | "grammar">, lemmas: Lemma
 
 /**
  * An unknown word that is an obvious cognate: it appears in the English translation as it is, without its accents,
- * without a final vowel (problema, música), or with -ción as -tion and -dad as -ty.
+ * without a final vowel (problema, música), or with -ción as -tion and -dad as -ty. German's rule is its own
+ * (`isGermanCognate`).
  */
-export function isCognate(word: string, english: string): boolean {
+export function isCognate(word: string, english: string, lang: LangCode = "es"): boolean {
+  if (lang === "de") return isGermanCognate(word, english);
   const en = new Set(tokens(english).map((t) => normalize(t.word)));
   const w = stripAccents(normalize(word)) as string;
   const forms = [w, w.replace(/[aeo]$/, ""), w.replace(/ción$/, "tion").replace(/cion$/, "tion"), w.replace(/dad$/, "ty")];
   return forms.some((f) => f.length > 2 && en.has(f));
+}
+
+/**
+ * German's obvious cognate (DE7): an unknown word that appears in the English translation as it is (Hotel, Taxi,
+ * Information: -ion unchanged), or after the usual changes, c for k and ph for f (Doktor, Musik, Telefon), -tät as
+ * -ty (Universität), -ie as -y (Familie), -isch as -ic, a final e dropped, umlauts and ß as plain letters. A word of
+ * five letters or more also counts when one letter is all that differs from an English word of the sentence after
+ * those changes (Kaffee as coffee, Banane as banana), since such pairs are the obvious ones.
+ */
+export function isGermanCognate(word: string, english: string): boolean {
+  const en = tokens(english).map((t) => normalize(t.word));
+  const w = normalize(word);
+  const ends = [w, w.replace(/tät$/, "ty"), w.replace(/ie$/, "y"), w.replace(/isch$/, "ic"), w.replace(/e$/, "")];
+  const plain = (f: string) =>
+    f.replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u").replace(/ß/g, "ss");
+  const forms = new Set(ends.flatMap((f) => [f, f.replace(/k/g, "c"), f.replace(/f/g, "ph"), f.replace(/k/g, "c").replace(/f/g, "ph")]).map(plain));
+  return en.some((e) =>
+    [...forms].some((f) => f.length > 2 && (f === e || f === e.replace(/e$/, "") || (f.length >= 5 && oneEditApart(f, e)))),
+  );
+}
+
+/** Two words one letter apart: one changed, added or dropped. */
+function oneEditApart(a: string, b: string): boolean {
+  if (a === b) return true;
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  if (a.length === b.length) return a.slice(i + 1) === b.slice(i + 1);
+  return a.length > b.length ? a.slice(i + 1) === b.slice(i) : a.slice(i) === b.slice(i + 1);
 }
 
 export interface ExampleCheck {
@@ -113,9 +189,11 @@ export interface ExampleCheck {
 /**
  * Checks one example against the words known before its card (plus the card's own). A capitalised word that is not
  * the first of a sentence is a name, and so is a first word whose lower case has no lemma in the list and is unknown.
+ * In German a capitalised word is a name only when its lower case is not in the list, wherever it stands, since
+ * every noun has a capital.
  */
 export function checkExample(
-  card: Pick<Card, "es" | "grammar" | "example" | "unit">,
+  card: Pick<Card, "target" | "grammar" | "example" | "unit">,
   known: ReadonlySet<string>,
   lemmas: Lemmas,
 ): ExampleCheck {
@@ -123,12 +201,13 @@ export function checkExample(
   const isKnown = (w: string) => wordLemmas(w, lemmas).some((l) => known.has(l) || own.has(l));
   const unknown: string[] = [];
   const cognates: string[] = [];
-  for (const { word, first } of tokens(card.example.es)) {
+  for (const { word, first } of tokens(card.example.target)) {
     const lower = normalize(word);
-    if (NUMBER_WORDS.has(lower) || isKnown(word)) continue;
+    if (numberWords(lemmas.lang).has(lower) || isKnown(word)) continue;
     const capital = word !== lower;
-    if (capital && (!first || (!lemmas.map.has(lower) && !lemmas.set.has(lower)))) continue;
-    (isCognate(word, card.example.en) ? cognates : unknown).push(word);
+    const listed = lemmas.map.has(lower) || lemmas.set.has(lower);
+    if (capital && (lemmas.lang === "de" ? !listed : !first || !listed)) continue;
+    (isCognate(word, card.example.en, lemmas.lang) ? cognates : unknown).push(word);
   }
   const starter = card.unit !== null;
   const others = unknown.length + cognates.length;
@@ -154,12 +233,12 @@ export function knownBefore(order: readonly Card[], id: string, lemmas: Lemmas):
   return new Set(order.slice(0, at).flatMap((c) => [...cardWords(c, lemmas)]));
 }
 
-/** The words of the cards before one in the order, as written on them (`es` and grammar forms), each once. */
+/** The words of the cards before one in the order, as written on them (`target` and grammar forms), each once. */
 export function wordsBefore(order: readonly Card[], id: string): string[] {
   const at = order.findIndex((c) => c.id === id);
   const words = new Set<string>();
   for (const card of order.slice(0, Math.max(0, at))) {
-    for (const t of tokens(card.es)) words.add(normalize(t.word));
+    for (const t of tokens(card.target)) words.add(normalize(t.word));
     const g = card.grammar as Record<string, unknown> | null;
     if (g && typeof g.feminine === "string") words.add(normalize(g.feminine));
     if (g && g.present && typeof g.present === "object") {

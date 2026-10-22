@@ -3,7 +3,7 @@
   "rank": 695,
   "kind": "content",
   "pos": "noun",
-  "es": "el animal",
+  "target": "el animal",
   "en": "animal",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "el"
   },
   "example": {
-    "es": "Me encantan los animales.",
+    "target": "Me encantan los animales.",
     "en": "I love animals."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ANIMAL is spelled just like the English word animal, but the stress falls on the last syllable: ah-nee-MAHL.",
   "image": "/deck/img/animal-animal.webp",
   "audio": {

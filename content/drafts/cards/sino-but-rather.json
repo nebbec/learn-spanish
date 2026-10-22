@@ -3,15 +3,15 @@
   "rank": 600,
   "kind": "glue",
   "pos": "conjunction",
-  "es": "sino",
+  "target": "sino",
   "en": "not red [but] blue",
   "hint": "but rather, correcting a negative (not pero)",
   "grammar": null,
   "example": {
-    "es": "No es mi hermano, sino mi primo.",
+    "target": "No es mi hermano, sino mi primo.",
     "en": "He's not my brother, but my cousin."
   },
-  "spain": null,
+  "regional": null,
   "trick": "SINO sounds like see, no: see, no, not that one, but rather this one.",
   "image": null,
   "audio": {

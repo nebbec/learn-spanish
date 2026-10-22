@@ -11,77 +11,143 @@
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import type { DraftCard } from "@/lib/deck/types";
+import type {
+  AdjectiveGrammar,
+  DraftCard as AnyDraftCard,
+  CaseGrammar,
+  GermanNounGrammar,
+  GermanVerbGrammar,
+  NounGrammar,
+  VerbGrammar,
+} from "@/lib/deck/types";
 import { type DraftStore, withMedia } from "./drafting";
 import {
   allDrafted,
   cardHash,
+  backAnswer,
   readDraftCard,
-  REASON_LABELS,
+  reasonLabel,
   type Finding,
   type Review,
   type ReviewStore,
 } from "./reviewing";
+import { LANGS, type LangCode } from "./script-lang";
+
+/** A drafted card of either language. Its grammar lines follow the drafts' language (DE5). */
+type DraftCard = AnyDraftCard;
 
 export const DECISIONS = ["pending", "approve", "reject"] as const;
 export type Decision = (typeof DECISIONS)[number];
 
-/** The card's fields as lines a person can edit, with the grammar lines its part of speech uses. */
-export function cardLines(card: DraftCard): Array<[string, string]> {
+const yesNoText = (value: boolean) => (value ? "yes" : "no");
+
+/** The grammar lines of a Spanish card: gender and article, feminine, or the present strip and the irregular flag. */
+function spanishGrammarLines(card: DraftCard): Array<[string, string]> {
+  if (card.pos === "noun") {
+    const g = card.grammar as NounGrammar;
+    return [["gender", g.gender], ["article", g.article]];
+  }
+  if (card.pos === "adjective") return [["feminine", (card.grammar as AdjectiveGrammar).feminine]];
+  if (card.pos === "verb") {
+    const { present, irregular } = card.grammar as VerbGrammar;
+    return [["yo", present.yo], ["tu", present.tu], ["el", present.el], ["irregular", yesNoText(irregular)]];
+  }
+  return [];
+}
+
+/**
+ * The grammar lines of a German card (docs/german.md, "Card data"): a noun's gender, article and plural; a
+ * verb's ich, du and er forms, irregular, separable and the Perfekt; a case card's case, gender and nominative.
+ */
+function germanGrammarLines(card: DraftCard): Array<[string, string]> {
+  if (card.pos === "noun") {
+    const g = card.grammar as GermanNounGrammar;
+    return [["gender", g.gender], ["article", g.article], ["plural", g.plural ?? ""]];
+  }
+  if (card.pos === "verb") {
+    const g = card.grammar as GermanVerbGrammar;
+    return [
+      ["ich", g.present.ich],
+      ["du", g.present.du],
+      ["er", g.present.er],
+      ["irregular", yesNoText(g.irregular)],
+      ["separable", yesNoText(g.separable)],
+      ["perfekt.aux", g.perfekt.aux],
+      ["perfekt.participle", g.perfekt.participle],
+    ];
+  }
+  if (card.kind === "case") {
+    const g = card.grammar as CaseGrammar;
+    return [["case", g.case], ["gender", g.gender ?? ""], ["from", g.from]];
+  }
+  return [];
+}
+
+/** The card's fields as lines a person can edit, with the grammar lines its language and part of speech use. */
+export function cardLines(card: DraftCard, lang: LangCode = "es"): Array<[string, string]> {
   const lines: Array<[string, string]> = [
     ["id", card.id],
     ["kind", card.kind],
     ["pos", card.pos],
-    ["es", card.es],
+    ["target", card.target],
     ["en", card.en],
     ["hint", card.hint ?? ""],
+    ...(lang === "es" ? spanishGrammarLines(card) : germanGrammarLines(card)),
   ];
-  if (card.pos === "noun") lines.push(["gender", card.grammar.gender], ["article", card.grammar.article]);
-  if (card.pos === "adjective") lines.push(["feminine", card.grammar.feminine]);
-  if (card.pos === "verb") {
-    const { present, irregular } = card.grammar;
-    lines.push(["yo", present.yo], ["tu", present.tu], ["el", present.el], ["irregular", irregular ? "yes" : "no"]);
-  }
   lines.push(
-    ["example.es", card.example.es],
+    ["example.target", card.example.target],
     ["example.en", card.example.en],
-    ["spain", card.spain ?? ""],
+    ["regional.where", card.regional?.where ?? ""],
+    ["regional.text", card.regional?.text ?? ""],
     ["trick", card.trick ?? ""],
   );
   return lines;
 }
 
-const CARD_KEYS = [
-  "id", "kind", "pos", "es", "en", "hint", "gender", "article", "feminine",
-  "yo", "tu", "el", "irregular", "example.es", "example.en", "spain", "trick",
-];
+const CARD_KEYS: Readonly<Record<LangCode, readonly string[]>> = {
+  es: [
+    "id", "kind", "pos", "target", "en", "hint", "gender", "article", "feminine",
+    "yo", "tu", "el", "irregular", "example.target", "example.en", "regional.where", "regional.text", "trick",
+  ],
+  de: [
+    "id", "kind", "pos", "target", "en", "hint", "gender", "article", "plural",
+    "ich", "du", "er", "irregular", "separable", "perfekt.aux", "perfekt.participle", "case", "from",
+    "example.target", "example.en", "regional.where", "regional.text", "trick",
+  ],
+};
 
 /** A finding as one readable line. */
-function findingLine(f: Finding): string {
-  return `${REASON_LABELS[f.reason]}: ${f.problem}${f.fix ? ` Suggested fix: ${f.fix}` : ""}`;
+function findingLine(f: Finding, lang: LangCode = "es"): string {
+  return `${reasonLabel(f.reason, lang)}: ${f.problem}${f.fix ? ` Suggested fix: ${f.fix}` : ""}`;
 }
 
 /** The text of a new decision file for a flagged card. */
-export function decisionFile(card: DraftCard, review: Review): string {
-  const width = Math.max(...cardLines(card).map(([key]) => key.length));
+export function decisionFile(card: DraftCard, review: Review, lang: LangCode = "es"): string {
+  const lines = cardLines(card, lang);
+  const width = Math.max(...lines.map(([key]) => key.length));
   return [
     `# ${card.id} · rank ${review.rank} · ${review.word}`,
     "#",
     "# Why it was flagged:",
-    ...review.findings.map((f) => `#   - ${findingLine(f)}`),
+    ...review.findings.map((f) => `#   - ${findingLine(f, lang)}`),
     ...(review.note ? [`# Reviewer's note (not a reason to flag): ${review.note}`] : []),
     "#",
     '# To decide, change "pending" on the decision line to:',
     "#   approve   the card goes into the deck as written below, with any corrections you make",
     "#   reject    the card stays out of the deck",
     "# To correct the card, change the text after the colon on any card line.",
-    "# Leave hint or spain empty for none; irregular is yes or no.",
-    "# Then run: npm run deck",
+    ...(review.findings.some((f) => f.reason === "sameAs")
+      ? [`# sameAs is not a card line: correct it in ${LANGS[lang].contentDir}/drafts/words/${String(review.rank).padStart(4, "0")}.json.`]
+      : []),
+    lang === "es"
+      ? "# Leave hint or regional.text empty for none; irregular is yes or no."
+      : "# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.",
+    `# Then run: npm run deck${lang === "es" ? "" : ` -- --lang ${lang}`}`,
     "# Lines starting with # are notes and are ignored.",
     "",
     "decision: pending",
     "",
-    ...cardLines(card).map(([key, value]) => `${`${key}:`.padEnd(width + 1)} ${value}`.trimEnd()),
+    ...lines.map(([key, value]) => `${`${key}:`.padEnd(width + 1)} ${value}`.trimEnd()),
     "",
     "# The draft this file was made from. Do not change it.",
     `draft: ${cardHash(card)}`,
@@ -97,7 +163,7 @@ export interface ParsedDecision {
   errors: string[];
 }
 
-export function parseDecision(text: string): ParsedDecision {
+export function parseDecision(text: string, lang: LangCode = "es"): ParsedDecision {
   const parsed: ParsedDecision = { decision: null, draft: "", fields: new Map(), errors: [] };
   text.split("\n").forEach((raw, index) => {
     const line = raw.trim();
@@ -111,7 +177,7 @@ export function parseDecision(text: string): ParsedDecision {
       else parsed.errors.push(`line ${index + 1}: decision must be pending, approve or reject`);
     } else if (key === "draft") {
       parsed.draft = value;
-    } else if (CARD_KEYS.includes(key)) {
+    } else if (CARD_KEYS[lang].includes(key)) {
       parsed.fields.set(key, value);
     } else {
       parsed.errors.push(`line ${index + 1}: not a "field: value" line this file knows`);
@@ -130,42 +196,59 @@ function yesNo(value: string): unknown {
  * The card a decision file describes: the draft's fields, replaced by the
  * file's lines. Media paths follow the (possibly corrected) id; a form card keeps its verb's image. Not validated.
  */
-export function cardFromDecision(draft: DraftCard, fields: Map<string, string>): unknown {
-  const values = new Map(cardLines(draft));
+export function cardFromDecision(draft: DraftCard, fields: Map<string, string>, lang: LangCode = "es"): unknown {
+  const values = new Map(cardLines(draft, lang));
   for (const [key, value] of fields) values.set(key, value);
   const get = (key: string) => values.get(key) ?? "";
   const pos = get("pos");
-  const grammar =
-    pos === "noun"
-      ? { gender: get("gender"), article: get("article") }
-      : pos === "adjective"
-        ? { feminine: get("feminine") }
-        : pos === "verb"
-          ? { present: { yo: get("yo"), tu: get("tu"), el: get("el") }, irregular: yesNo(get("irregular")) }
-          : null;
-  return withMedia({
+  const grammar = lang === "es" ? spanishGrammar(pos, get) : germanGrammar(pos, get("kind"), get);
+  return withMedia(
+    {
     id: get("id"),
     rank: draft.rank,
     kind: get("kind"),
     pos,
-    es: get("es"),
+    target: get("target"),
     en: get("en"),
     hint: get("hint") || null,
     grammar,
-    example: { es: get("example.es"), en: get("example.en") },
-    spain: get("spain") || null,
+    example: { target: get("example.target"), en: get("example.en") },
+    regional: get("regional.text") ? { where: get("regional.where"), text: get("regional.text") } : null,
     trick: get("trick") || null,
     image: draft.image,
-  });
+    },
+    lang,
+  );
+}
+
+function spanishGrammar(pos: string, get: (key: string) => string): unknown {
+  if (pos === "noun") return { gender: get("gender"), article: get("article") };
+  if (pos === "adjective") return { feminine: get("feminine") };
+  if (pos === "verb") return { present: { yo: get("yo"), tu: get("tu"), el: get("el") }, irregular: yesNo(get("irregular")) };
+  return null;
+}
+
+function germanGrammar(pos: string, kind: string, get: (key: string) => string): unknown {
+  if (pos === "noun") return { gender: get("gender"), article: get("article"), plural: get("plural") || null };
+  if (pos === "verb") {
+    return {
+      present: { ich: get("ich"), du: get("du"), er: get("er") },
+      irregular: yesNo(get("irregular")),
+      separable: yesNo(get("separable")),
+      perfekt: { aux: get("perfekt.aux"), participle: get("perfekt.participle") },
+    };
+  }
+  if (kind === "case") return { case: get("case"), gender: get("gender") || null, from: get("from") };
+  return null;
 }
 
 export function decisionPath(store: ReviewStore, id: string) {
   return path.join(store.decisionsDir, `${id}.txt`);
 }
 
-export function readDecision(store: ReviewStore, id: string): ParsedDecision | null {
+export function readDecision(store: ReviewStore, id: string, lang: LangCode = "es"): ParsedDecision | null {
   const file = decisionPath(store, id);
-  return existsSync(file) ? parseDecision(readFileSync(file, "utf8")) : null;
+  return existsSync(file) ? parseDecision(readFileSync(file, "utf8"), lang) : null;
 }
 
 /** Where a flagged card stands: its decision, or "problem" when its decision file cannot be read. */
@@ -190,11 +273,11 @@ export function flaggedCards(drafts: DraftStore, store: ReviewStore): { cards: F
       const card = readDraftCard(drafts, id);
       const review = store.get(id);
       if (!card || !review?.flagged || review.draft !== cardHash(card)) continue;
-      let parsed = readDecision(store, id);
+      let parsed = readDecision(store, id, drafts.lang);
       if (parsed && parsed.draft !== review.draft) reset.push(id);
       if (!parsed || parsed.draft !== review.draft) {
-        writeFileSync(decisionPath(store, id), decisionFile(card, review));
-        parsed = readDecision(store, id)!;
+        writeFileSync(decisionPath(store, id), decisionFile(card, review, drafts.lang));
+        parsed = readDecision(store, id, drafts.lang)!;
       }
       cards.push({ card, review, state: parsed.errors.length ? "problem" : parsed.decision! });
     }
@@ -204,12 +287,35 @@ export function flaggedCards(drafts: DraftStore, store: ReviewStore): { cards: F
 
 const cell = (value: string | null) => (value ? value.replace(/\|/g, "\\|") : "none");
 
-function grammarText(card: DraftCard): string | null {
-  if (card.pos === "noun") return `${card.grammar.gender === "m" ? "masculine" : "feminine"}, ${card.grammar.article}`;
-  if (card.pos === "adjective") return `feminine ${card.grammar.feminine}`;
+const GENDER_NAMES: Record<string, string> = { m: "masculine", f: "feminine", n: "neuter", pl: "plural" };
+
+function grammarText(card: DraftCard, lang: LangCode): string | null {
+  if (lang !== "es") return germanGrammarText(card);
+  if (card.pos === "noun") {
+    const g = card.grammar as NounGrammar;
+    return `${g.gender === "m" ? "masculine" : "feminine"}, ${g.article}`;
+  }
+  if (card.pos === "adjective") return `feminine ${(card.grammar as AdjectiveGrammar).feminine}`;
   if (card.pos === "verb") {
-    const { present, irregular } = card.grammar;
+    const { present, irregular } = card.grammar as VerbGrammar;
     return `yo ${present.yo} · tú ${present.tu} · él ${present.el}${irregular ? " (irregular)" : ""}`;
+  }
+  return null;
+}
+
+function germanGrammarText(card: DraftCard): string | null {
+  if (card.pos === "noun") {
+    const g = card.grammar as GermanNounGrammar;
+    return `${GENDER_NAMES[g.gender]}, ${g.article}${g.plural ? `; plural ${g.plural}` : "; no plural"}`;
+  }
+  if (card.pos === "verb") {
+    const g = card.grammar as GermanVerbGrammar;
+    const flags = [g.irregular && "irregular", g.separable && "separable"].filter(Boolean).join(", ");
+    return `ich ${g.present.ich} · du ${g.present.du} · er ${g.present.er}${flags ? ` (${flags})` : ""}; Perfekt: ${g.perfekt.aux === "sein" ? "ist" : "hat"} ${g.perfekt.participle}`;
+  }
+  if (card.kind === "case") {
+    const g = card.grammar as CaseGrammar;
+    return `${g.case === "akk" ? "Akkusativ" : "Dativ"}${g.gender ? ` · ${GENDER_NAMES[g.gender]}` : ""}: from ${g.from}`;
   }
   return null;
 }
@@ -222,7 +328,9 @@ const STATE_TEXT: Record<FlaggedState, string> = {
 };
 
 /** content/review/flagged.md: the cards waiting for a decision in full, then the decided ones in a line each. */
-export function renderFlaggedList(cards: FlaggedCard[]): string {
+export function renderFlaggedList(cards: FlaggedCard[], lang: LangCode = "es"): string {
+  const decisions = `${LANGS[lang].contentDir}/review/decisions/`;
+  const deck = lang === "es" ? "npm run deck" : `npm run deck -- --lang ${lang}`;
   const waiting = cards.filter((c) => c.state === "pending" || c.state === "problem");
   const decided = cards.filter((c) => c.state === "approve" || c.state === "reject");
   const out = [
@@ -230,7 +338,7 @@ export function renderFlaggedList(cards: FlaggedCard[]): string {
     "",
     `The review pass flagged ${cards.length} ${cards.length === 1 ? "card" : "cards"}: ${waiting.length} waiting for you, ${decided.length} decided. This file is rewritten by \`npm run review\` and \`npm run deck\`; do not edit it.`,
     "",
-    "**To decide on a card**, open its file in `content/review/decisions/` (linked under each card), change `decision: pending` to `decision: approve` or `decision: reject`, and correct any card line first if it needs it. Then run `npm run deck`, which puts approved cards in the deck and rewrites this list.",
+    `**To decide on a card**, open its file in \`${decisions}\` (linked under each card), change \`decision: pending\` to \`decision: approve\` or \`decision: reject\`, and correct any card line first if it needs it. Then run \`${deck}\`, which puts approved cards in the deck and rewrites this list.`,
     "",
     "## Waiting for you",
     "",
@@ -246,26 +354,26 @@ export function renderFlaggedList(cards: FlaggedCard[]): string {
       "|---|---|",
       `| Prompt | ${cell(card.en)} |`,
       `| Hint | ${cell(card.hint)} |`,
-      `| Answer | ${cell(card.es)} |`,
+      `| Answer | ${cell(card.target)} |`,
       `| Kind | ${card.kind}, ${card.pos} |`,
-      `| Grammar | ${cell(grammarText(card))} |`,
-      `| Example | ${cell(card.example.es)} / ${cell(card.example.en)} |`,
-      `| Spain | ${cell(card.spain)} |`,
+      `| Grammar | ${cell(grammarText(card, lang))} |`,
+      `| Example | ${cell(card.example.target)} / ${cell(card.example.en)} |`,
+      `| Regional | ${cell(card.regional && `${card.regional.where}: ${card.regional.text}`)} |`,
       `| Trick | ${cell(card.trick)} |`,
       "",
       "Why it was flagged:",
       "",
-      ...review.findings.map((f) => `- ${findingLine(f)}`),
+      ...review.findings.map((f) => `- ${findingLine(f, lang)}`),
       "",
       ...(review.note ? [`Reviewer's note (not a reason to flag): ${review.note}`, ""] : []),
-      `The reviewer's own translation: answer "${review.back.es}"; example "${review.back.example}".`,
+      `The reviewer's own translation: answer "${backAnswer(review.back)}"; example "${review.back.example}".`,
       "",
     );
   }
   out.push("## Decided", "");
   if (!decided.length) out.push("Nothing yet.", "");
   for (const { card, review, state } of decided) {
-    out.push(`- ${card.id} (rank ${review.rank}, ${review.word}): ${STATE_TEXT[state]}. Flagged for ${[...new Set(review.findings.map((f) => REASON_LABELS[f.reason]))].join(", ").toLowerCase()}.`);
+    out.push(`- ${card.id} (rank ${review.rank}, ${review.word}): ${STATE_TEXT[state]}. Flagged for ${[...new Set(review.findings.map((f) => reasonLabel(f.reason, lang)))].join(", ").toLowerCase()}.`);
   }
   return `${out.join("\n").trimEnd()}\n`;
 }
@@ -273,7 +381,7 @@ export function renderFlaggedList(cards: FlaggedCard[]): string {
 /** Brings the decision files up to date and rewrites the flagged list. Returns counts by state. */
 export function refreshFlagged(drafts: DraftStore, store: ReviewStore) {
   const { cards, reset } = flaggedCards(drafts, store);
-  writeFileSync(store.flaggedFile, renderFlaggedList(cards));
+  writeFileSync(store.flaggedFile, renderFlaggedList(cards, drafts.lang));
   const count = (state: FlaggedState) => cards.filter((c) => c.state === state).length;
   return {
     flagged: cards.length,

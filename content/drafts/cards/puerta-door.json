@@ -3,7 +3,7 @@
   "rank": 260,
   "kind": "content",
   "pos": "noun",
-  "es": "la puerta",
+  "target": "la puerta",
   "en": "door",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Puedes cerrar la puerta, por favor?",
+    "target": "¿Puedes cerrar la puerta, por favor?",
     "en": "Can you close the door, please?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "PUERTA sounds like \"portal\": every portal starts with a door you walk through.",
   "image": "/deck/img/puerta-door.webp",
   "audio": {

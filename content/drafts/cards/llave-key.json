@@ -3,7 +3,7 @@
   "rank": 592,
   "kind": "content",
   "pos": "noun",
-  "es": "la llave",
+  "target": "la llave",
   "en": "key",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¿Dónde dejaste las llaves del carro?",
+    "target": "¿Dónde dejaste las llaves del carro?",
     "en": "Where did you leave the car keys?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "LLAVE sounds like \"yah, vay!\": you cheer when you finally find your lost key.",
   "image": "/deck/img/llave-key.webp",
   "audio": {

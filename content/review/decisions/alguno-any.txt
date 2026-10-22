@@ -8,23 +8,24 @@
 #   approve   the card goes into the deck as written below, with any corrections you make
 #   reject    the card stays out of the deck
 # To correct the card, change the text after the colon on any card line.
-# Leave hint or spain empty for none; irregular is yes or no.
+# Leave hint or regional.text empty for none; irregular is yes or no.
 # Then run: npm run deck
 # Lines starting with # are notes and are ignored.
 
 # Staged by Claude 2026-10-09: applied the reviewer's fix to en, and the matching example from the reviewer's note (alguna pregunta no longer fit).
 decision: approve
 
-id:         alguno-any
-kind:       glue
-pos:        determiner
-es:         alguno
-en:         do [any] of you speak English?
-hint:       in a question, not cualquier
-example.es: ¿Alguno de ustedes habla inglés?
-example.en: Do any of you speak English?
-spain:
-trick:      ALGUNO sounds like "Al, got one?": you ask Al if he has any.
+id:             alguno-any
+kind:           glue
+pos:            determiner
+target:         alguno
+en:             do [any] of you speak English?
+hint:           in a question, not cualquier
+example.target: ¿Alguno de ustedes habla inglés?
+example.en:     Do any of you speak English?
+regional.where:
+regional.text:
+trick:          ALGUNO sounds like "Al, got one?": you ask Al if he has any.
 
 # The draft this file was made from. Do not change it.
-draft: b062d1d21af7732d
+draft: 77119f6fa6ce3cb0

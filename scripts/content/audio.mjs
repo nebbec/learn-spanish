@@ -4,12 +4,21 @@
 
 import { createHash } from "node:crypto";
 import { Mp3Encoder } from "@breezystack/lamejs";
+import { LANGS } from "../../lang/index.ts";
 
-export const OPENAI_INSTRUCTIONS =
-  "Habla en español latinoamericano neutro, con acento mexicano. Pronuncia con claridad y a ritmo natural, como una profesora que lee una tarjeta de vocabulario.";
+/**
+ * A language's voice, from its config in lang/ (DE5): model, voice and instructions, in that order, as
+ * the hash of every clip path takes them. Changing any field gives every clip of the language a new path.
+ * `lang` is a code (`es`, `de`); Spanish when left out.
+ */
+export function voiceOf(lang = "es") {
+  const { model, voice, instructions } = LANGS[lang].voice;
+  return { model, voice, instructions };
+}
 
-/** The voice chosen in G1. Changing any field gives every clip a new path. */
-export const VOICE = { model: "gpt-4o-mini-tts", voice: "coral", instructions: OPENAI_INSTRUCTIONS };
+/** The Spanish voice, chosen in G1 (lang/es.ts). */
+export const VOICE = voiceOf("es");
+export const OPENAI_INSTRUCTIONS = VOICE.instructions;
 
 /**
  * How a clip is finished. The API gives 24 kHz 16-bit mono samples; they are
@@ -27,11 +36,11 @@ export const ENCODING = {
 };
 
 /**
- * The text each clip speaks: the Spanish as the reveal shows it, and the example
- * sentence. A phrase card's word clip speaks the whole phrase (L8), as its `es` is it.
+ * The text each clip speaks: the answer as the reveal shows it, and the example
+ * sentence. A phrase card's word clip speaks the whole phrase (L8), as its `target` is it.
  */
 export function clipTexts(card) {
-  return { word: card.es, sentence: card.example.es };
+  return { word: card.target, sentence: card.example.target };
 }
 
 function hash(value) {
@@ -48,42 +57,48 @@ function take(takes, name) {
 }
 
 /** The name of the API's raw answer for a clip in the download cache. */
-export function rawKey(text, t = 1) {
-  return hash({ text, ...VOICE, ...(t > 1 && { take: t }) }).slice(0, 16);
+export function rawKey(text, t = 1, lang = "es") {
+  return hash({ text, ...voiceOf(lang), ...(t > 1 && { take: t }) }).slice(0, 16);
 }
 
+/** Where a language's clips are served: `/deck/audio/` or `/deck-de/audio/` (DE5). */
+export const audioDir = (lang = "es") => `${LANGS[lang].deckPath}audio/`;
+
 /**
- * A clip's path: `/deck/audio/<name>.<hash>.mp3`, the hash taken over what made the
- * clip, so a corrected text, a new voice, a re-encode or a redone take gets a new
- * path: the app never refreshes a stored file (design.md, Installable app), so a
- * changed clip must not reuse one.
+ * A clip's path: `/deck/audio/<name>.<hash>.mp3` (`/deck-de/audio/` for German), the
+ * hash taken over what made the clip, so a corrected text, a new voice, a re-encode or a
+ * redone take gets a new path: the app never refreshes a stored file (design.md,
+ * Installable app), so a changed clip must not reuse one.
  */
-function clipPath(name, text, takes) {
+function clipPath(name, text, takes, lang) {
   const t = take(takes, name);
-  const made = { text, ...VOICE, ...ENCODING, ...(t > 1 && { take: t }) };
-  return `/deck/audio/${name}.${hash(made).slice(0, 8)}.mp3`;
+  const made = { text, ...voiceOf(lang), ...ENCODING, ...(t > 1 && { take: t }) };
+  return `${audioDir(lang)}${name}.${hash(made).slice(0, 8)}.mp3`;
 }
 
 /** The card's `audio` field. */
-export function audioPaths(card, takes = {}) {
+export function audioPaths(card, takes = {}, lang = "es") {
   const texts = clipTexts(card);
   return {
-    word: clipPath(`${card.id}.word`, texts.word, takes),
-    sentence: clipPath(`${card.id}.sentence`, texts.sentence, takes),
+    word: clipPath(`${card.id}.word`, texts.word, takes, lang),
+    sentence: clipPath(`${card.id}.sentence`, texts.sentence, takes, lang),
   };
 }
 
 /**
  * A tip example's clip (L8): `/deck/audio/<tip id>.<n>.<hash>.mp3`, `n` counting
- * the tip's examples from 1, speaking the example's Spanish.
+ * the tip's examples from 1, speaking the example in the language learned.
  */
-export function tipAudioPath(tipId, n, text, takes = {}) {
-  return clipPath(`${tipId}.${n}`, text, takes);
+export function tipAudioPath(tipId, n, text, takes = {}, lang = "es") {
+  return clipPath(`${tipId}.${n}`, text, takes, lang);
 }
 
 /** The tip with each example's `audio` set to its clip's path. */
-export function tipAudioPaths(tip, takes = {}) {
-  return { ...tip, examples: tip.examples.map((e, i) => ({ ...e, audio: tipAudioPath(tip.id, i + 1, e.es, takes) })) };
+export function tipAudioPaths(tip, takes = {}, lang = "es") {
+  return {
+    ...tip,
+    examples: tip.examples.map((e, i) => ({ ...e, audio: tipAudioPath(tip.id, i + 1, e.target, takes, lang) })),
+  };
 }
 
 /** 16-bit little-endian samples to floats from -1 to 1. */
@@ -236,14 +251,14 @@ export function normalizeSpoken(text) {
  * its tips' example clips. `--prune` passes both the app's deck and content/deck.json,
  * so pruning after one never deletes the other's.
  */
-export function orphanClips(files, decks) {
+export function orphanClips(files, decks, lang = "es") {
   const named = new Set(
     decks.flatMap((deck) => [
       ...deck.cards.flatMap((card) => Object.values(card.audio)),
       ...(deck.tips ?? []).flatMap((tip) => tip.examples.map((example) => example.audio)),
     ]),
   );
-  return files.filter((name) => !named.has(`/deck/audio/${name}`));
+  return files.filter((name) => !named.has(`${audioDir(lang)}${name}`));
 }
 
 /**

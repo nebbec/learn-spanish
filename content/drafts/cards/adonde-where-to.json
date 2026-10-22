@@ -3,15 +3,15 @@
   "rank": 646,
   "kind": "glue",
   "pos": "adverb",
-  "es": "adónde",
+  "target": "adónde",
   "en": "[where] are you going?",
   "hint": "where to, with motion",
   "grammar": null,
   "example": {
-    "es": "¿Adónde vamos esta noche?",
+    "target": "¿Adónde vamos esta noche?",
     "en": "Where are we going tonight?"
   },
-  "spain": null,
+  "regional": null,
   "trick": "ADÓNDE sounds like \"a donde\": add an A to dónde when you're heading toward somewhere.",
   "image": null,
   "audio": {

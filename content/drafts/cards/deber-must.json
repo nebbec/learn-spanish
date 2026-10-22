@@ -3,7 +3,7 @@
   "rank": 50,
   "kind": "content",
   "pos": "verb",
-  "es": "deber",
+  "target": "deber",
   "en": "to have to",
   "hint": "must, should; not tener que",
   "grammar": {
@@ -15,10 +15,10 @@
     "irregular": false
   },
   "example": {
-    "es": "Deberías llamar a tu mamá.",
+    "target": "Deberías llamar a tu mamá.",
     "en": "You should call your mom."
   },
-  "spain": null,
+  "regional": null,
   "trick": "DEBER sounds like debate: there is no debate, you simply must do it.",
   "image": "/deck/img/deber-must.webp",
   "audio": {

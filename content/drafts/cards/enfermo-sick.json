@@ -3,17 +3,17 @@
   "rank": 614,
   "kind": "content",
   "pos": "adjective",
-  "es": "enfermo",
+  "target": "enfermo",
   "en": "sick",
   "hint": null,
   "grammar": {
     "feminine": "enferma"
   },
   "example": {
-    "es": "Hoy no voy a trabajar, estoy enfermo.",
+    "target": "Hoy no voy a trabajar, estoy enfermo.",
     "en": "I'm not going to work today, I'm sick."
   },
-  "spain": null,
+  "regional": null,
   "trick": "ENFERMO sounds like \"in fur, mo\": too sick to get out of bed, you stay wrapped in fur.",
   "image": "/deck/img/enfermo-sick.webp",
   "audio": {

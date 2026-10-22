@@ -3,7 +3,7 @@
   "rank": 303,
   "kind": "content",
   "pos": "noun",
-  "es": "la suerte",
+  "target": "la suerte",
   "en": "luck",
   "hint": null,
   "grammar": {
@@ -11,10 +11,10 @@
     "article": "la"
   },
   "example": {
-    "es": "¡Buena suerte en tu examen!",
+    "target": "¡Buena suerte en tu examen!",
     "en": "Good luck on your exam!"
   },
-  "spain": null,
+  "regional": null,
   "trick": "SUERTE sounds like \"sweat-a\": you sweat a lot hoping for good luck.",
   "image": "/deck/img/suerte-luck.webp",
   "audio": {

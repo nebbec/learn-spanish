@@ -3,15 +3,15 @@
   "rank": 796,
   "kind": "content",
   "pos": "other",
-  "es": "ocho",
+  "target": "ocho",
   "en": "eight",
   "hint": null,
   "grammar": null,
   "example": {
-    "es": "Llego a las ocho de la noche.",
+    "target": "Llego a las ocho de la noche.",
     "en": "I'm arriving at eight at night."
   },
-  "spain": null,
+  "regional": null,
   "trick": "OCHO sounds like an octopus's OCHOpus: it has eight arms.",
   "image": "/deck/img/ocho-eight.webp",
   "audio": {
