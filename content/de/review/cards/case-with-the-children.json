@@ -1,0 +1,17 @@
+{
+  "id": "case-with-the-children",
+  "rank": 147,
+  "word": "with-friends",
+  "draft": "4cbb7169c3fd0fda",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with the children",
+    "example": "I'm eating with the children today."
+  },
+  "note": "The trick is a grammar tip rather than a sound link, but it is accurate and useful for the dative plural -n.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:28.825Z"
+}

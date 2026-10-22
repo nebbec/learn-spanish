@@ -1,0 +1,25 @@
+{
+  "id": "case-with-the-woman",
+  "rank": 114,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit der Frau",
+  "en": "with [the] woman",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "f",
+    "from": "die"
+  },
+  "example": {
+    "target": "Ich spreche mit der Frau.",
+    "en": "I'm talking to the woman."
+  },
+  "regional": null,
+  "trick": "After mit, die becomes der, so this der belongs to a feminine noun and not a masculine one.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-the-woman.word.mp3",
+    "sentence": "/deck-de/audio/case-with-the-woman.sentence.mp3"
+  }
+}

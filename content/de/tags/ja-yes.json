@@ -1,0 +1,14 @@
+{
+  "id": "ja-yes",
+  "unit": "me-and-you",
+  "want": "ja",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "902e5d0af322b523",
+  "group": "#20 ja",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:32.626Z"
+}

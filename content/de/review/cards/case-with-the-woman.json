@@ -1,0 +1,17 @@
+{
+  "id": "case-with-the-woman",
+  "rank": 114,
+  "word": "with-friends",
+  "draft": "77cbc925b07d2ae8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with the woman",
+    "example": "I'm talking to the woman."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:22.375Z"
+}

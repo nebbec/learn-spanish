@@ -1,0 +1,14 @@
+{
+  "id": "mein-my",
+  "unit": "my-people",
+  "want": "mein: my",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f14a60a38b124b1f",
+  "group": "#18 mein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:30.736Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "case-with-my-father",
+  "unit": "with-friends",
+  "want": "case: mit meinem Vater = with [my] father",
+  "requires": [],
+  "tip": "tip-dative",
+  "why": null,
+  "draft": "5e3b7e8608122d32",
+  "group": "cases with-friends",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:48.729Z"
+}

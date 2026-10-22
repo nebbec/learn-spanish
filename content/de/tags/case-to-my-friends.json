@@ -1,0 +1,17 @@
+{
+  "id": "case-to-my-friends",
+  "unit": "making-plans",
+  "want": "case: zu meinem Freund = to [my] friend's",
+  "requires": [
+    "mein-my",
+    "zu-to"
+  ],
+  "tip": "tip-dative",
+  "why": null,
+  "draft": "df799a3eba933b45",
+  "group": "cases making-plans",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:48.716Z"
+}

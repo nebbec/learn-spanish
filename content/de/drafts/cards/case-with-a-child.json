@@ -1,0 +1,25 @@
+{
+  "id": "case-with-a-child",
+  "rank": 147,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit einem Kind",
+  "en": "with [a] child",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "n",
+    "from": "ein"
+  },
+  "example": {
+    "target": "Sie wohnt mit einem Kind in Berlin.",
+    "en": "She lives in Berlin with a child."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-a-child.word.mp3",
+    "sentence": "/deck-de/audio/case-with-a-child.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "case-at-my-brothers",
+  "rank": 267,
+  "word": "making-plans",
+  "draft": "cc999e56df4eb36a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at my brother's (place)",
+    "example": "This evening I'm at my brother's."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:33.866Z"
+}

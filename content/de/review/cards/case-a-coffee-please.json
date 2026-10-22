@@ -1,0 +1,17 @@
+{
+  "id": "case-a-coffee-please",
+  "rank": 583,
+  "word": "a-coffee-please",
+  "draft": "ce95116907cffc22",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "a coffee (accusative, as the object of an implied 'I'd like')",
+    "example": "I'd like a coffee, please."
+  },
+  "note": "In casual speech you also hear the nominative \"Ein Kaffee, bitte\", but \"einen Kaffee\" is the standard form (the accusative after an implied \"Ich möchte\"), so it is the right answer to teach.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:51:54.546Z"
+}

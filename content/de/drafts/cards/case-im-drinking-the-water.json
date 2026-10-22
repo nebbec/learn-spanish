@@ -1,0 +1,25 @@
+{
+  "id": "case-im-drinking-the-water",
+  "rank": 402,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "das Wasser",
+  "en": "I'm drinking [the] water",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "n",
+    "from": "das"
+  },
+  "example": {
+    "target": "Trinkst du das Wasser nicht?",
+    "en": "Aren't you drinking the water?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-im-drinking-the-water.word.mp3",
+    "sentence": "/deck-de/audio/case-im-drinking-the-water.sentence.mp3"
+  }
+}

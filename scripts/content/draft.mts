@@ -5,6 +5,7 @@
 //                    [--effort medium] [--concurrency 2] [--retries 2] [--redo]
 //   npm run draft -- --forms [--verbs ser,estar] [...]    the core verbs' form cards
 //   npm run draft -- --phrases [--units who-i-am] [...]   content/units.json's chunks and payoffs
+//   npm run draft -- --lang de --cases [--units with-friends] [...]   German's case cards
 //   npm run draft -- --examples --ids a,b [...]           a new example for each card, nothing else
 //   npm run draft -- --lang de ...                        German: content/de/word-list.tsv into content/de/drafts
 //
@@ -14,7 +15,9 @@
 //
 // --forms drafts one call per verb of FORM_VERBS (path-cards.ts) whose card is
 // drafted, into content/drafts/forms/<verb>.json; --phrases one call per phrase,
-// into content/drafts/phrases/<id>.json. Both resume like words do.
+// into content/drafts/phrases/<id>.json. Both resume like words do. --cases
+// (German only, DE9) drafts one call per `case:` want of content/de/units.json
+// into content/de/drafts/cases/<id>.json, resuming the same way.
 //
 // --examples redrafts only the example of each card named by --ids (drafted
 // ids, or the ids npm run deck lists), one call per card, given the words met
@@ -39,7 +42,7 @@ import { pathOnDisk } from "./deck-build";
 import { DraftStore, draftWords, formatSummary, parseWordList, spanishMeanings, type DraftSummary } from "./drafting";
 import { exampleJobs, redraftExamples } from "./examples";
 import { loadLemmas } from "./known-words";
-import { draftForms, draftPhrases, formJobs, phraseJobs, wordRanks } from "./path-cards";
+import { caseJobs, CASE_REQUESTS, draftCases, draftForms, draftPhrases, formJobs, phraseJobs, wordRanks } from "./path-cards";
 import { PROMPTS_READY, promptsNotReady } from "./prompts-de";
 import { ReviewStore } from "./reviewing";
 import { contentPaths, LANG_OPTION, parseLang } from "./script-lang";
@@ -62,6 +65,7 @@ const { values } = parseArgs({
     redo: { type: "boolean", default: false },
     forms: { type: "boolean", default: false },
     phrases: { type: "boolean", default: false },
+    cases: { type: "boolean", default: false },
     examples: { type: "boolean", default: false },
     ids: { type: "string" },
     verbs: { type: "string" },
@@ -80,10 +84,11 @@ const lang = parseLang(values.lang);
 const paths = contentPaths(ROOT, lang);
 if (!PROMPTS_READY[lang]) fail(promptsNotReady(lang));
 
-const mode = values.forms ? "forms" : values.phrases ? "phrases" : values.examples ? "examples" : "words";
-if ([values.forms, values.phrases, values.examples].filter(Boolean).length > 1) {
-  fail("Give one of --forms, --phrases and --examples");
+const mode = values.forms ? "forms" : values.phrases ? "phrases" : values.cases ? "cases" : values.examples ? "examples" : "words";
+if ([values.forms, values.phrases, values.cases, values.examples].filter(Boolean).length > 1) {
+  fail("Give one of --forms, --phrases, --cases and --examples");
 }
+if (mode === "cases" && !CASE_REQUESTS[lang]) fail(`${paths.config.language} has no case cards: --cases is for --lang de`);
 const list = (value: string | undefined) => value?.split(",").map((v) => v.trim()).filter(Boolean);
 const ranks = list(values.ranks)?.map(Number);
 if (ranks?.some((r) => !Number.isInteger(r) || r < 1)) fail("--ranks is a list of whole numbers: --ranks 91,102,532");
@@ -143,6 +148,14 @@ if (mode === "examples") {
   console.log(`Drafting ${jobs.length} phrase cards ${how}`);
   summary = await draftPhrases(jobs, wordRanks(wordList), options);
   noun = "Phrases";
+} else if (mode === "cases") {
+  const units = list(values.units);
+  const { jobs: all, problems } = caseJobs(readUnits(ROOT, lang));
+  if (problems.length) fail(`The unit plan's case wants have ${problems.length} problems: ${problems.join("; ")}`);
+  const jobs = all.filter((j) => !units || units.includes(j.unit));
+  console.log(`Drafting ${jobs.length} case cards ${how}`);
+  summary = await draftCases(jobs, wordRanks(wordList), options);
+  noun = "Case cards";
 } else {
   const entries = wordList.filter((e) => (ranks ? ranks.includes(e.rank) : e.rank >= from && e.rank <= to));
   const which = ranks ? `${ranks.length} listed ranks` : `ranks ${from} to ${to}`;

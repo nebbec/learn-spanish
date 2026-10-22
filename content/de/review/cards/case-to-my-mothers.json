@@ -1,0 +1,17 @@
+{
+  "id": "case-to-my-mothers",
+  "rank": 175,
+  "word": "making-plans",
+  "draft": "6faa922fffa82de2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to my mother's (place), to my mother",
+    "example": "Tonight I'm going to my mother's."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:34.480Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sein-his",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sein for his (or its); for her, use ihr.",
+  "draft": "5cce603c08d81d50",
+  "group": "#2 sein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:10.413Z"
+}

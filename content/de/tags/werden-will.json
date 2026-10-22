@@ -1,0 +1,14 @@
+{
+  "id": "werden-will",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use werden for will (the future); ich will means I want, from wollen.",
+  "draft": "948f707c811a2d98",
+  "group": "#13 werden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:28.989Z"
+}

@@ -1,0 +1,33 @@
+# case-to-my-friends · rank 150 · making-plans
+#
+# Why it was flagged:
+#   - Example sentence: Said on its own, "Heute Abend gehe ich zu meinem Freund" is usually heard as going to your boyfriend's, so the translation "my friend's" misleads; a name after Freund makes the friend reading natural. Suggested fix: example.target: Heute Abend gehe ich zu meinem Freund Max. example.en: Tonight I'm going to my friend Max's.
+# Reviewer's note (not a reason to flag): Learners may need a heads-up somewhere on the card that "mein Freund" without context often means my boyfriend, and that Germans say "ein Freund von mir" or add a name for a plain friend.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             case-to-my-friends
+kind:           case
+pos:            determiner
+target:         zu meinem Freund
+en:             to [my] friend's
+hint:           a male friend
+case:           dat
+gender:         m
+from:           mein
+example.target: Heute Abend gehe ich zu meinem Freund.
+example.en:     Tonight I'm going to my friend's.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: df799a3eba933b45

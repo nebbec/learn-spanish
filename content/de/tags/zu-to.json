@@ -1,0 +1,14 @@
+{
+  "id": "zu-to",
+  "unit": "where-im-going",
+  "want": "zu: to (a person, a place)",
+  "requires": [],
+  "tip": null,
+  "why": "Use zu for going to a person or a place; nach for cities, countries and home.",
+  "draft": "f486af206cf231d4",
+  "group": "#14 zu",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:24.468Z"
+}

@@ -6,6 +6,10 @@
 // words Claude lists. Both write card files to content/drafts/cards/ like any card, with a group file per
 // verb (`forms/<verb>.json`) or per phrase (`phrases/<id>.json`) instead of a word file.
 //
+// German case cards (DE9) come from content/de/units.json too: each `case: <German> = <English>` want is one
+// card, one call each, its answer and prompt fixed by the plan; Claude names the case, gender and `from` and
+// writes the example. Group files `cases/<id>.json`, like phrases.
+//
 // Nothing here prints card text: only verbs, unit ids, card ids, counts and error kinds.
 //
 // The rules are in docs/design.md under "Learning path" ("Form cards", "Phrase cards") and "Content
@@ -29,9 +33,17 @@ import {
   type WordEntry,
   withMedia,
 } from "./drafting";
-import { GERMAN_FORM_SCHEMA, GERMAN_FORM_SYSTEM, GERMAN_PHRASE_SCHEMA, GERMAN_PHRASE_SYSTEM } from "./prompts-de";
+import {
+  CASE_GENDERS,
+  GERMAN_CASE_SCHEMA,
+  GERMAN_CASE_SYSTEM,
+  GERMAN_FORM_SCHEMA,
+  GERMAN_FORM_SYSTEM,
+  GERMAN_PHRASE_SCHEMA,
+  GERMAN_PHRASE_SYSTEM,
+} from "./prompts-de";
 import { LANGS, type LangCode } from "./script-lang";
-import { PHRASE_WANT, type Unit } from "./units";
+import { CASE_WANT, PHRASE_WANT, type Unit } from "./units";
 
 /** Drafted cards of either language; the drafts' store says which (DE5). */
 type DraftCard = AnyDraftCard;
@@ -502,4 +514,145 @@ export function phraseTasks(jobs: PhraseJob[], store: DraftStore, ranks: Map<str
 
 export function draftPhrases(jobs: PhraseJob[], ranks: Map<string, number>, options: DraftOptions): Promise<DraftSummary> {
   return runDraftTasks(phraseTasks(jobs, options.store, ranks), options);
+}
+
+/** `case-` and the first four words of the plan's English, brackets and apostrophes dropped: `case-i-see-the-man`. */
+export function caseId(en: string): string {
+  const words = slug(en.replace(/['’[\]]/g, ""), "de").split("-").filter(Boolean);
+  return words.length ? `case-${words.slice(0, PHRASE_ID_WORDS).join("-")}` : "";
+}
+
+export interface CaseJob {
+  id: string;
+  unit: string;
+  unitTitle: string;
+  unitNumber: number;
+  /** The case card's place among every case card of the plan, which orders the review. */
+  order: number;
+  /** The plan's want the card was made from, as written; a changed want is drafted again. */
+  line: string;
+  /** The answer, from the plan: `den Mann`, `mit einem Freund`. */
+  target: string;
+  /** The prompt, from the plan, its target in square brackets: `I see [the] man`. */
+  en: string;
+  /** The wants of this unit and every earlier one. */
+  known: string[];
+}
+
+/**
+ * Every case card of the plan (DE9): each unit's `case:` wants, in plan order. This is German's case list, which
+ * Courtney approves with the plan. Two wants with one id are a problem.
+ */
+export function caseJobs(units: Unit[]): { jobs: CaseJob[]; problems: string[] } {
+  const jobs: CaseJob[] = [];
+  const problems: string[] = [];
+  const seen = new Map<string, string>();
+  units.forEach((unit, index) => {
+    const known = units.slice(0, index + 1).flatMap((u) => u.wants);
+    for (const line of unit.wants.filter((w) => w.startsWith(CASE_WANT))) {
+      const [target, en] = line.slice(CASE_WANT.length).split(" = ").map((part) => (part ?? "").trim());
+      const id = en ? caseId(en) : "";
+      if (!id || !target) {
+        problems.push(`${unit.id}: a case want must read "case: <German> = <English with one [target]>"`);
+        continue;
+      }
+      if (seen.has(id)) {
+        problems.push(`${id}: made from a want of ${seen.get(id)} and one of ${unit.id}; reword one`);
+        continue;
+      }
+      seen.set(id, unit.id);
+      jobs.push({ id, unit: unit.id, unitTitle: unit.title, unitNumber: index + 1, order: jobs.length, line, target, en, known });
+    }
+  });
+  return { jobs, problems };
+}
+
+export function casePrompt(job: CaseJob): string {
+  return [
+    `Unit ${job.unitNumber} of the starter path: "${job.unitTitle}".`,
+    `The card's answer: ${job.target}`,
+    `Its English prompt: ${job.en}`,
+    "What the learner has met by the end of this unit (the unit plan's wants, earlier units first):",
+    ...job.known.map((w) => `- ${w}`),
+  ].join("\n");
+}
+
+/** The case pass's system prompt and schema: German only, since Spanish has no case cards. */
+export const CASE_REQUESTS: Readonly<Partial<Record<LangCode, { system: string; schema: Rec }>>> = {
+  de: { system: GERMAN_CASE_SYSTEM, schema: GERMAN_CASE_SCHEMA },
+};
+
+/** The output guard for one case card: the card and its words, or the failing field names. */
+export function guardCase(output: unknown, job: CaseJob, ranks: Map<string, number>): { guarded: Guarded; words: PhraseWords | null } {
+  if (!isRec(output)) return { guarded: { ok: false, kind: "shape", fields: [] }, words: null };
+  const g = new Guard();
+  const rawWords = Array.isArray(output.words) ? output.words : [];
+  const words = [...new Set(rawWords.map((w) => (typeof w === "string" ? w.trim().toLowerCase() : "")).filter(Boolean))].map(
+    (word) => ({ word, rank: ranks.get(word) ?? null }),
+  );
+  const known = words.map((w) => w.rank).filter((r): r is number => r !== null);
+  if (known.length === 0) g.fail("words");
+  const from = typeof output.from === "string" ? output.from.trim().toLowerCase() : "";
+  // Claude spells the gender out (masculine); the deck has m, f, n and pl. Anything else reaches the validator as it is.
+  const gender = CASE_GENDERS[output.gender as keyof typeof CASE_GENDERS] ?? output.gender ?? null;
+  const card = withMedia(
+    {
+      id: job.id,
+      rank: known.length ? Math.max(...known) : 0,
+      kind: "case",
+      pos: output.pos,
+      target: job.target,
+      en: job.en,
+      hint: g.optional(output.hint, "hint"),
+      grammar: { case: output.case, gender, from },
+      example: claudeExample(output, g, "de"),
+      regional: null,
+      trick: g.optional(output.trick, "trick"),
+      image: null,
+    },
+    "de",
+  );
+  // Every word of the answer is in the example: `den Mann` in "Ich sehe den Mann."
+  const used = wordsOf(card.example.target);
+  if (!wordsOf(job.target).every((w) => used.includes(w))) g.fail("example.target");
+  guardValid(card, g, "de");
+  if (g.fields.size > 0) return { guarded: { ok: false, kind: "invalid", fields: [...g.fields].sort() }, words: null };
+  const outside = words.filter((w) => w.rank === null || w.rank > TOP_WORDS).map((w) => w.word);
+  return { guarded: { ok: true, cards: [card as DraftCard], skip: null }, words: { words, outside } };
+}
+
+export function caseTasks(jobs: CaseJob[], store: DraftStore, ranks: Map<string, number>): DraftTask[] {
+  const request = CASE_REQUESTS[store.lang];
+  if (!request) throw new Error(`${LANGS[store.lang].language} has no case cards`);
+  return jobs.map((job) => {
+    let last: PhraseWords | null = null;
+    const group = store.readGroup("case", job.id);
+    return {
+      label: `case ${job.unit}`,
+      done: group !== null && group.line === job.line && group.unit === job.unit,
+      log: { group: "case", id: job.id, unit: job.unit },
+      failedName: job.id,
+      request: { ...request, prompt: casePrompt(job) },
+      guard: (output) => {
+        const { guarded, words } = guardCase(output, job, ranks);
+        last = words;
+        return guarded;
+      },
+      save: (cards, _skip, meta) =>
+        store.saveGroup("case", job.id, cards, {
+          rank: cards[0].rank,
+          word: job.unit,
+          unit: job.unit,
+          order: job.order,
+          line: job.line,
+          words: last?.words ?? [],
+          outside: last?.outside ?? [],
+          ...meta,
+        }),
+    };
+  });
+}
+
+export function draftCases(jobs: CaseJob[], ranks: Map<string, number>, options: DraftOptions): Promise<DraftSummary> {
+  return runDraftTasks(caseTasks(jobs, options.store, ranks), options);
 }

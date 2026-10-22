@@ -1,0 +1,16 @@
+{
+  "id": "case-i-see-the-man",
+  "unit": "a-coffee-please",
+  "want": "case: den Mann = I see [the] man",
+  "requires": [
+    "der-the"
+  ],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "39d4ce7e71666c83",
+  "group": "cases a-coffee-please",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:40.416Z"
+}

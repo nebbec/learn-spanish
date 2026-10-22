@@ -1,0 +1,25 @@
+{
+  "id": "case-i-have-no-sister",
+  "rank": 343,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "keine Schwester",
+  "en": "I have [no] sister",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "f",
+    "from": "keine"
+  },
+  "example": {
+    "target": "Ich habe keine Schwester, aber einen Bruder.",
+    "en": "I don't have a sister, but I have a brother."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-i-have-no-sister.word.mp3",
+    "sentence": "/deck-de/audio/case-i-have-no-sister.sentence.mp3"
+  }
+}

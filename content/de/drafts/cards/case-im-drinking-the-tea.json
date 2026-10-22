@@ -1,0 +1,25 @@
+{
+  "id": "case-im-drinking-the-tea",
+  "rank": 997,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "den Tee",
+  "en": "I'm drinking [the] tea",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "m",
+    "from": "der"
+  },
+  "example": {
+    "target": "Ich trinke den Tee, nicht den Kaffee.",
+    "en": "I'm drinking the tea, not the coffee."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-im-drinking-the-tea.word.mp3",
+    "sentence": "/deck-de/audio/case-im-drinking-the-tea.sentence.mp3"
+  }
+}

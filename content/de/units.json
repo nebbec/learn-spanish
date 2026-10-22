@@ -92,7 +92,7 @@
     "title": "A coffee, please",
     "goal": "order a drink and say who you have.",
     "tip": "tip-accusative",
-    "cap": 10,
+    "cap": 14,
     "wants": [
       "trinken",
       "essen: eat",
@@ -101,7 +101,11 @@
       "case: einen Kaffee = [a] coffee, please",
       "case: einen Bruder = I have [a] brother",
       "case: den Mann = I see [the] man",
-      "case: meinen Vater = I love [my] father"
+      "case: meinen Vater = I love [my] father",
+      "case: eine Schwester = I have [a] sister",
+      "case: ein Haus = I have [a] house",
+      "case: den Tee = I'm drinking [the] tea",
+      "case: das Wasser = I'm drinking [the] water"
     ],
     "payoff": ["A coffee and a beer, please.", "I have a brother and a sister."]
   },
@@ -128,7 +132,7 @@
     "title": "When I don't understand",
     "goal": "say you don't understand or don't know, and ask how to say something.",
     "tip": "tip-nicht-kein",
-    "cap": 12,
+    "cap": 14,
     "wants": [
       "wissen: I know (ich weiß)",
       "wissen: you know (du weißt)",
@@ -139,7 +143,9 @@
       "Deutsch: German (the language)",
       "phrase: Sprechen Sie Englisch? = do you speak English? (polite)",
       "phrase: noch einmal, bitte = once more, please",
-      "phrase: Wie sagt man … auf Deutsch? = how do you say … in German?"
+      "phrase: Wie sagt man … auf Deutsch? = how do you say … in German?",
+      "case: keinen Bruder = I have [no] brother",
+      "case: keine Schwester = I have [no] sister"
     ],
     "payoff": ["I don't understand.", "I don't speak German."]
   },
@@ -224,7 +230,7 @@
     "title": "What I like",
     "goal": "say what you like, what you like doing and what you want.",
     "tip": "tip-gern",
-    "cap": 9,
+    "cap": 11,
     "wants": [
       "mögen: like",
       "gern: gladly (I like doing)",
@@ -232,7 +238,9 @@
       "wollen: you want (du willst)",
       "wollen: he / she wants (er will)",
       "Essen: food",
-      "Musik"
+      "Musik",
+      "case: die Musik = I like [the] music",
+      "case: ein Bier = I want [a] beer"
     ],
     "payoff": ["I like drinking coffee.", "I don't like beer."]
   },
@@ -250,7 +258,7 @@
     "title": "People I love",
     "goal": "tell someone you love and miss them and that you'll call.",
     "tip": null,
-    "cap": 10,
+    "cap": 12,
     "wants": [
       "lieben",
       "dich: you (object)",
@@ -259,7 +267,9 @@
       "anrufen: call (on the phone)",
       "vermissen",
       "Liebe",
-      "phrase: bis später = see you later"
+      "phrase: bis später = see you later",
+      "case: meine Mutter = I love [my] mother",
+      "case: meinen Bruder = I miss [my] brother"
     ],
     "payoff": ["I love you.", "I'll call you tomorrow."]
   },
@@ -287,7 +297,7 @@
     "title": "With friends",
     "goal": "say who you are with and whose place you are at.",
     "tip": "tip-dative",
-    "cap": 12,
+    "cap": 16,
     "wants": [
       "mit: with",
       "bei: at (someone's place)",
@@ -298,7 +308,11 @@
       "case: mit meiner Mutter = with [my] mother",
       "case: mit dem Kind = with [the] child",
       "case: mit der Frau = with [the] woman",
-      "case: mit meinem Vater = with [my] father"
+      "case: mit meinem Vater = with [my] father",
+      "case: mit dem Mann = with [the] man",
+      "case: mit einer Frau = with [a] woman",
+      "case: mit einem Kind = with [a] child",
+      "case: mit den Kindern = with [the] children"
     ],
     "payoff": ["I'm going with a friend.", "I'm at my mother's."]
   },
@@ -307,7 +321,7 @@
     "title": "Making plans",
     "goal": "invite someone along and say what will happen tonight and tomorrow.",
     "tip": null,
-    "cap": 11,
+    "cap": 16,
     "wants": [
       "kommen: I come (ich komme)",
       "kommen: you come (du kommst)",
@@ -317,7 +331,12 @@
       "werden: he / she will (er wird)",
       "Abend: evening",
       "Party",
-      "phrase: Kommst du mit? = are you coming along?"
+      "phrase: Kommst du mit? = are you coming along?",
+      "case: bei meinem Bruder = at [my] brother's",
+      "case: bei meiner Schwester = at [my] sister's",
+      "case: zu meiner Mutter = to [my] mother's",
+      "case: zu meinem Freund = to [my] friend's",
+      "case: mit meinen Freunden = with [my] friends"
     ],
     "payoff": ["Are you coming this evening?", "My friend is coming tomorrow."]
   }

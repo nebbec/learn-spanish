@@ -1,0 +1,17 @@
+{
+  "id": "case-i-love-my-father",
+  "rank": 155,
+  "word": "a-coffee-please",
+  "draft": "90f7af34744a0ef0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "my father (accusative, as the object of a verb)",
+    "example": "I love my father very much."
+  },
+  "note": "The trick is a grammar tip rather than a sound link, but what it says is true and it's useful on a case card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:51:58.848Z"
+}

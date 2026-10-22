@@ -1,0 +1,26 @@
+{
+  "kind": "case",
+  "rank": 801,
+  "word": "what-i-like",
+  "unit": "what-i-like",
+  "order": 11,
+  "line": "case: ein Bier = I want [a] beer",
+  "words": [
+    {
+      "word": "ein",
+      "rank": 6
+    },
+    {
+      "word": "bier",
+      "rank": 801
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:49:42.418Z",
+  "cards": [
+    "case-i-want-a-beer"
+  ]
+}

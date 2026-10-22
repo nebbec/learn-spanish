@@ -1,0 +1,25 @@
+{
+  "id": "case-i-want-a-beer",
+  "rank": 801,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "ein Bier",
+  "en": "I want [a] beer",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "n",
+    "from": "ein"
+  },
+  "example": {
+    "target": "Ich will jetzt ein Bier.",
+    "en": "I want a beer now."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-i-want-a-beer.word.mp3",
+    "sentence": "/deck-de/audio/case-i-want-a-beer.sentence.mp3"
+  }
+}

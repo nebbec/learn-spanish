@@ -1,0 +1,14 @@
+{
+  "id": "haben-have",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "643a8562c23affca",
+  "group": "#5 haben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:11.200Z"
+}

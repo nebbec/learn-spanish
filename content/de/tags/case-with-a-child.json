@@ -1,0 +1,14 @@
+{
+  "id": "case-with-a-child",
+  "unit": "with-friends",
+  "want": "case: mit einem Kind = with [a] child",
+  "requires": [],
+  "tip": "tip-dative",
+  "why": null,
+  "draft": "25a2819a8c701773",
+  "group": "cases with-friends",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:48.729Z"
+}

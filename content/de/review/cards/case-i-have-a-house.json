@@ -1,0 +1,17 @@
+{
+  "id": "case-i-have-a-house",
+  "rank": 129,
+  "word": "a-coffee-please",
+  "draft": "4924b6f17d4ce73d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "a house (accusative, the neuter ein doesn't change)",
+    "example": "My brother has a house."
+  },
+  "note": "Haus is neuter, so the accusative ein Haus looks just like the nominative, which makes this card a useful contrast with I have [a] brother (einen Bruder) in the same unit.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:01.713Z"
+}

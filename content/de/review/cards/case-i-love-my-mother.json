@@ -1,0 +1,17 @@
+{
+  "id": "case-i-love-my-mother",
+  "rank": 175,
+  "word": "people-i-love",
+  "draft": "03075892d2bf74eb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "my mother (accusative, as the object of a verb)",
+    "example": "I love my mother very much."
+  },
+  "note": "The feminine accusative \"meine\" looks the same as the nominative, so this card shows the learner that nothing changes; next to the \"meinen Bruder\" card that contrast is useful.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:11.694Z"
+}

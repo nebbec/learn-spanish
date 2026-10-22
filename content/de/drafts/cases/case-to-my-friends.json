@@ -1,0 +1,30 @@
+{
+  "kind": "case",
+  "rank": 150,
+  "word": "making-plans",
+  "unit": "making-plans",
+  "order": 26,
+  "line": "case: zu meinem Freund = to [my] friend's",
+  "words": [
+    {
+      "word": "zu",
+      "rank": 14
+    },
+    {
+      "word": "mein",
+      "rank": 18
+    },
+    {
+      "word": "freund",
+      "rank": 150
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:49:59.193Z",
+  "cards": [
+    "case-to-my-friends"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "case-i-have-a-brother",
+  "unit": "a-coffee-please",
+  "want": "case: einen Bruder = I have [a] brother",
+  "requires": [
+    "ein-a"
+  ],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "965c1cbe05178ab8",
+  "group": "cases a-coffee-please",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:40.416Z"
+}

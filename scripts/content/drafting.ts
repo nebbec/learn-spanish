@@ -370,7 +370,7 @@ export function guardValid(card: { id: string }, g: Guard, lang: LangCode = "es"
 export const isPathId = (id: string) => FORM_ID.test(id) || GERMAN_FORM_ID.test(id) || PHRASE_ID.test(id) || CASE_ID.test(id);
 
 /** The kinds of group file the learning path adds beside the word files (L3). */
-export type GroupKind = "form" | "phrase";
+export type GroupKind = "form" | "phrase" | "case";
 
 /** The guard's verdict on one answer. `T` is what a task drafts: cards, or a tip (L4). */
 export type Guarded<T = DraftCard> =
@@ -425,6 +425,8 @@ export class DraftStore {
   readonly formsDir: string;
   /** One file per drafted phrase card: `phrases/<id>.json`. */
   readonly phrasesDir: string;
+  /** One file per drafted German case card (DE9): `cases/<id>.json`. */
+  readonly casesDir: string;
   readonly failedDir: string;
   readonly logFile: string;
   /** Every card file on disk: id to rank. */
@@ -438,6 +440,7 @@ export class DraftStore {
     this.wordsDir = path.join(dir, "words");
     this.formsDir = path.join(dir, "forms");
     this.phrasesDir = path.join(dir, "phrases");
+    this.casesDir = path.join(dir, "cases");
     this.failedDir = path.join(dir, ".failed");
     this.logFile = path.join(dir, "usage.jsonl");
     mkdirSync(this.cardsDir, { recursive: true });
@@ -486,10 +489,11 @@ export class DraftStore {
   }
 
   groupFile(kind: GroupKind, name: string) {
-    return path.join(kind === "form" ? this.formsDir : this.phrasesDir, `${name}.json`);
+    const dir = kind === "form" ? this.formsDir : kind === "case" ? this.casesDir : this.phrasesDir;
+    return path.join(dir, `${name}.json`);
   }
 
-  /** The group file of a verb's form cards or of one phrase card, or null. */
+  /** The group file of a verb's form cards or of one phrase or case card, or null. */
   readGroup(kind: GroupKind, name: string): Rec | null {
     const file = this.groupFile(kind, name);
     return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as Rec) : null;

@@ -1,0 +1,25 @@
+{
+  "id": "case-to-my-mothers",
+  "rank": 175,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "zu meiner Mutter",
+  "en": "to [my] mother's",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "f",
+    "from": "meine"
+  },
+  "example": {
+    "target": "Heute Abend gehe ich zu meiner Mutter.",
+    "en": "This evening I'm going to my mother's."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-to-my-mothers.word.mp3",
+    "sentence": "/deck-de/audio/case-to-my-mothers.sentence.mp3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "case-with-the-man",
+  "rank": 82,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit dem Mann",
+  "en": "with [the] man",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "m",
+    "from": "der"
+  },
+  "example": {
+    "target": "Sie spricht mit dem Mann.",
+    "en": "She's talking to the man."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-the-man.word.mp3",
+    "sentence": "/deck-de/audio/case-with-the-man.sentence.mp3"
+  }
+}

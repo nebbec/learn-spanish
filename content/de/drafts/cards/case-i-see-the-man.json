@@ -1,0 +1,25 @@
+{
+  "id": "case-i-see-the-man",
+  "rank": 82,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "den Mann",
+  "en": "I see [the] man",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "m",
+    "from": "der"
+  },
+  "example": {
+    "target": "Siehst du den Mann da?",
+    "en": "Do you see the man there?"
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-i-see-the-man.word.mp3",
+    "sentence": "/deck-de/audio/case-i-see-the-man.sentence.mp3"
+  }
+}

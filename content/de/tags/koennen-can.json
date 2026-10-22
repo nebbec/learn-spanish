@@ -1,0 +1,14 @@
+{
+  "id": "koennen-can",
+  "unit": "out-and-about",
+  "want": "können: to be able to (Sie können)",
+  "requires": [],
+  "tip": "tip-du-sie",
+  "why": null,
+  "draft": "5754a931ccffa55e",
+  "group": "#17 können",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:31.827Z"
+}

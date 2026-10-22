@@ -18,7 +18,7 @@ import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import type { DraftCard as AnyDraftCard } from "@/lib/deck/types";
-import { PHRASE_ID } from "@/lib/deck/validate";
+import { CASE_ID, PHRASE_ID } from "@/lib/deck/validate";
 import type { CallUsage, Effort, Runner } from "./claude";
 import { DraftStore, formatDuration, slug, type SpanishMeaning, writeJson, type GroupKind } from "./drafting";
 import { GERMAN_REVIEW_SCHEMA, GERMAN_REVIEW_SYSTEM, germanReviewSystem } from "./prompts-de";
@@ -79,6 +79,7 @@ export function idProblem(id: string, word: string, rank: number, kind?: GroupKi
     return ok ? null : `must be "${verb}-form-" and ${persons.split("|").join(", ").replace(/, (\w+)$/, " or $1")}`;
   }
   if (kind === "phrase") return PHRASE_ID.test(id) ? null : 'must be "phrase-" and one to four English words';
+  if (kind === "case") return CASE_ID.test(id) ? null : 'must be "case-" and one to four English words';
   const prefix = `${slug(word, lang)}-`;
   if (!id.startsWith(prefix)) return `must start with "${prefix}" and then name the meaning`;
   let meaning = id.slice(prefix.length).split("-");
@@ -154,6 +155,8 @@ export function reviewPrompt(
       ? [`A form card of the verb ${word.word}, rank ${word.rank} in a frequency list made from film and TV subtitles: one present-tense form, recalled from its English.`, "verb's other form cards", "verb's only form card"]
       : word.kind === "phrase"
         ? [`A phrase card of the starter path's unit ${word.word}, recalled whole from its English.`, "unit's other phrase cards", "unit's only phrase card"]
+        : word.kind === "case"
+          ? [`A case card of the starter path's unit ${word.word}: the answer and the English prompt come from the unit plan.`, "unit's other case cards", "unit's only case card"]
         : [`Word: ${word.word}, rank ${word.rank} in a frequency list made from film and TV subtitles.`, "word's other cards", "word's only card"];
   return [
     about,
@@ -306,13 +309,22 @@ export function draftedForms(drafts: DraftStore, verbs?: string[]): DraftedWord[
  * `order`), so the reviewer sees the unit's other phrases. A group's rank is its highest card's.
  */
 export function draftedPhrases(drafts: DraftStore, units?: string[]): DraftedWord[] {
-  const files = readJsonDir(drafts.phrasesDir)
+  return draftedByUnit(drafts, "phrase", units);
+}
+
+/** The drafted case cards (DE9), one group per unit in plan order, as phrases are. */
+export function draftedCases(drafts: DraftStore, units?: string[]): DraftedWord[] {
+  return draftedByUnit(drafts, "case", units);
+}
+
+function draftedByUnit(drafts: DraftStore, kind: "phrase" | "case", units?: string[]): DraftedWord[] {
+  const files = readJsonDir(kind === "phrase" ? drafts.phrasesDir : drafts.casesDir)
     .filter((g) => !units || units.includes(g.unit as string))
     .sort((a, b) => (a.order as number) - (b.order as number));
   const groups = new Map<string, DraftedWord>();
   for (const g of files) {
     const unit = g.unit as string;
-    const group = groups.get(unit) ?? { kind: "phrase" as const, rank: 0, word: unit, cards: [], outside: {} };
+    const group: DraftedWord = groups.get(unit) ?? { kind, rank: 0, word: unit, cards: [], outside: {} };
     groups.set(unit, group);
     group.rank = Math.max(group.rank, g.rank as number);
     for (const id of g.cards as string[]) {
@@ -323,9 +335,9 @@ export function draftedPhrases(drafts: DraftStore, units?: string[]): DraftedWor
   return [...groups.values()];
 }
 
-/** Every drafted group: the words, then the verbs' form cards, then the units' phrase cards. */
+/** Every drafted group: the words, then the verbs' form cards, then the units' phrase cards, then their case cards. */
 export function allDrafted(drafts: DraftStore): DraftedWord[] {
-  return [...draftedWords(drafts), ...draftedForms(drafts), ...draftedPhrases(drafts)];
+  return [...draftedWords(drafts), ...draftedForms(drafts), ...draftedPhrases(drafts), ...draftedCases(drafts)];
 }
 
 /** A drafted card, of the drafts' language. */

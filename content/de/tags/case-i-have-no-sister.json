@@ -1,0 +1,14 @@
+{
+  "id": "case-i-have-no-sister",
+  "unit": "when-i-dont-understand",
+  "want": "case: keine Schwester = I have [no] sister",
+  "requires": [],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "1ee5d51858683e9f",
+  "group": "cases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:38.913Z"
+}

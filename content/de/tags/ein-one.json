@@ -1,0 +1,14 @@
+{
+  "id": "ein-one",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ein for one before a noun; say eins when counting on its own.",
+  "draft": "3071cf592c886e66",
+  "group": "#6 ein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:18.141Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "case-i-have-a-brother",
+  "rank": 267,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "einen Bruder",
+  "en": "I have [a] brother",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "m",
+    "from": "ein"
+  },
+  "example": {
+    "target": "Ich habe einen Bruder und eine Schwester.",
+    "en": "I have a brother and a sister."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-i-have-a-brother.word.mp3",
+    "sentence": "/deck-de/audio/case-i-have-a-brother.sentence.mp3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "case-i-have-a-house",
+  "unit": "a-coffee-please",
+  "want": "case: ein Haus = I have [a] house",
+  "requires": [
+    "ein-a"
+  ],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "4924b6f17d4ce73d",
+  "group": "cases a-coffee-please",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:40.416Z"
+}

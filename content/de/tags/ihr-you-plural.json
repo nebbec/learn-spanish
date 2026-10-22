@@ -1,0 +1,14 @@
+{
+  "id": "ihr-you-plural",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ihr for several friends at once; du for one friend, Sie for strangers.",
+  "draft": "03dda2dda8b23b02",
+  "group": "#19 ihr",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:35.585Z"
+}

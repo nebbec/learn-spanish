@@ -1,0 +1,25 @@
+{
+  "id": "case-with-a-friend",
+  "rank": 150,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit einem Freund",
+  "en": "with [a] friend",
+  "hint": "a male friend",
+  "grammar": {
+    "case": "dat",
+    "gender": "m",
+    "from": "ein"
+  },
+  "example": {
+    "target": "Ich gehe heute mit einem Freund essen.",
+    "en": "I'm going out to eat with a friend today."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-a-friend.word.mp3",
+    "sentence": "/deck-de/audio/case-with-a-friend.sentence.mp3"
+  }
+}

@@ -1,9 +1,11 @@
 // Tags every drafted card with its place on the learning path: one Claude call per drafted word, per
-// verb's form cards and per unit's phrase cards, each returning the cards' unit, want, requires and tip.
+// verb's form cards, per unit's phrase cards and per unit's case cards (German, DE9), each returning the
+// cards' unit, want, requires and tip. A phrase or case card's unit and want are the plan's, not Claude's.
 //
 //   npm run tag [-- --from 1 --to 300] [--via cli|api] [--model claude-opus-5-5]
 //               [--effort medium] [--concurrency 2] [--retries 2] [--redo]
 //   npm run tag -- --check     checks the stored tags only, with no calls
+//   npm run tag -- --lang de --cases [--redo]   only the units' case cards (DE9)
 //
 // --from and --to keep the groups whose rank is in range (a word's rank, a verb's, or the highest of a
 // unit's phrases); with neither, every group. --via cli (the default) calls the Claude Code CLI on the Max
@@ -11,6 +13,9 @@
 // call's token usage to content/tags/usage.jsonl. Rerunning resumes: a group is tagged again only when a
 // card has no tag, a tag made for an earlier draft, or a tag the checks refuse; --redo tags it again anyway.
 // Tags of cards no longer drafted are deleted.
+//
+// --cases keeps only the case groups, so they can be tagged again once the noun cards they require are
+// drafted (`--redo`).
 //
 // --lang de (DE5) reads and writes content/de/ in place of content/, with German's prompt (DE7).
 //
@@ -40,6 +45,7 @@ const { values } = parseArgs({
     retries: { type: "string", default: "2" },
     redo: { type: "boolean", default: false },
     check: { type: "boolean", default: false },
+    cases: { type: "boolean", default: false },
     drafts: { type: "string" },
     dir: { type: "string" },
   },
@@ -77,7 +83,7 @@ const store = new TagStore(values.dir ?? paths.tags);
 if (!values.check) {
   const pruned = store.prune(new Set(ctx.cards.map((c) => c.id)));
   if (pruned.length) console.log(`Deleted ${pruned.length} tags of cards no longer drafted: ${pruned.join(", ")}`);
-  const chosen = groups.filter((g) => g.rank >= from && g.rank <= to);
+  const chosen = groups.filter((g) => g.rank >= from && g.rank <= to && (!values.cases || g.kind === "case"));
   const via = values.via;
   console.log(
     `Tagging ${chosen.length} groups (${chosen.reduce((n, g) => n + g.cards.length, 0)} cards) via ${via}, model ${values.model}, effort ${values.effort}, ${concurrency} at a time`,

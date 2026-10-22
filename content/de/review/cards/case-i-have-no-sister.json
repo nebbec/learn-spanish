@@ -1,0 +1,17 @@
+{
+  "id": "case-i-have-no-sister",
+  "rank": 343,
+  "word": "when-i-dont-understand",
+  "draft": "1ee5d51858683e9f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "no sister (accusative, as the object of a verb)",
+    "example": "I have no sister, but I have a brother."
+  },
+  "note": "In the feminine, the accusative keine looks the same as the nominative, so this card shows that nothing changes, which pairs well with the unit's keinen Bruder card, where the word does change.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:08.640Z"
+}

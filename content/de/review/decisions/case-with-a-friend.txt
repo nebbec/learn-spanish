@@ -1,0 +1,34 @@
+# case-with-a-friend · rank 150 · with-friends
+#
+# Why it was flagged:
+#   - Grammar: A case card's answer is the article and noun in their case, but this target also includes the preposition mit, which is outside the brackets in the prompt. Suggested fix: target: einem Freund
+#   - Example uses words not met yet: The example uses words not met before this card: gehe, heute, essen. In the frequency phase it may use at most two words not met yet. Suggested fix: npm run draft -- --examples --ids case-with-a-friend
+# Reviewer's note (not a reason to flag): The hint "a male friend" is needed here, because it rules out mit einer Freundin.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: pending
+
+id:             case-with-a-friend
+kind:           case
+pos:            determiner
+target:         mit einem Freund
+en:             with [a] friend
+hint:           a male friend
+case:           dat
+gender:         m
+from:           ein
+example.target: Ich gehe heute mit einem Freund essen.
+example.en:     I'm going out to eat with a friend today.
+regional.where:
+regional.text:
+trick:
+
+# The draft this file was made from. Do not change it.
+draft: 81de1f8d2a343d55

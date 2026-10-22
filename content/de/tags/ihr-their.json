@@ -1,0 +1,14 @@
+{
+  "id": "ihr-their",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "982815fca4ee3e9d",
+  "group": "#19 ihr",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:35.585Z"
+}

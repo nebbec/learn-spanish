@@ -1,0 +1,16 @@
+{
+  "id": "case-a-coffee-please",
+  "unit": "a-coffee-please",
+  "want": "case: einen Kaffee = [a] coffee, please",
+  "requires": [
+    "ein-a"
+  ],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "ce95116907cffc22",
+  "group": "cases a-coffee-please",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:40.416Z"
+}

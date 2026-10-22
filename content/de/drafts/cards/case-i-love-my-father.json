@@ -1,0 +1,25 @@
+{
+  "id": "case-i-love-my-father",
+  "rank": 155,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "meinen Vater",
+  "en": "I love [my] father",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "m",
+    "from": "mein"
+  },
+  "example": {
+    "target": "Ich liebe meinen Vater sehr.",
+    "en": "I love my father very much."
+  },
+  "regional": null,
+  "trick": "mein takes the same ending as ein: einen Bruder, meinen Vater.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-i-love-my-father.word.mp3",
+    "sentence": "/deck-de/audio/case-i-love-my-father.sentence.mp3"
+  }
+}

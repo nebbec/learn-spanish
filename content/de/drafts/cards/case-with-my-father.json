@@ -1,0 +1,25 @@
+{
+  "id": "case-with-my-father",
+  "rank": 155,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit meinem Vater",
+  "en": "with [my] father",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "m",
+    "from": "mein"
+  },
+  "example": {
+    "target": "Heute gehe ich mit meinem Vater essen.",
+    "en": "Today I'm going out to eat with my father."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-my-father.word.mp3",
+    "sentence": "/deck-de/audio/case-with-my-father.sentence.mp3"
+  }
+}

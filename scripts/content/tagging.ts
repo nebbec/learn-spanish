@@ -68,26 +68,28 @@ export interface TagFile extends Tag {
   taggedAt: string;
 }
 
-/** A phrase card's place in the plan, from its group file: not Claude's to change. */
+/** A phrase or case card's place in the plan, from its group file: not Claude's to change. */
 export interface PhrasePlace {
   unit: string;
-  /** The survival chunk's want (`phrase: <es> = <en>`), or null for a payoff line. */
+  /** The survival chunk's want (`phrase: <es> = <en>`) or the case card's (`case: <de> = <en>`), or null for a payoff line. */
   want: string | null;
+  /** Set on a case card's place (DE9). */
+  case?: true;
   /** The phrase's words in dictionary form, from the draft pass. */
   words: string[];
 }
 
 /** One call's worth of tagging. */
 export interface TagGroup {
-  /** Printed: `#13 tener`, `forms ir`, `phrases who-i-am`. */
+  /** Printed: `#13 tener`, `forms ir`, `phrases who-i-am`, `cases a-coffee-please`. */
   label: string;
-  kind: "word" | "form" | "phrase";
+  kind: "word" | "form" | "phrase" | "case";
   /** The word, the verb, or the unit id. */
   name: string;
   /** A group's rank: the word's, the verb's, or the highest of a unit's phrases. */
   rank: number;
   cards: DraftCard[];
-  /** For a phrase group: each card's place in the plan, by id. */
+  /** For a phrase or case group: each card's place in the plan, by id. */
   phrases: Record<string, PhrasePlace>;
 }
 
@@ -99,15 +101,17 @@ export function tagGroups(drafts: DraftStore): TagGroup[] {
     if (!cards.length) continue;
     const kind = g.kind ?? "word";
     const phrases: Record<string, PhrasePlace> = {};
-    if (kind === "phrase") {
+    if (kind === "phrase" || kind === "case") {
       for (const card of cards) {
-        const file = drafts.readGroup("phrase", card.id) ?? {};
+        const file = drafts.readGroup(kind, card.id) ?? {};
         const words = Array.isArray(file.words) ? (file.words as Array<{ word: string }>).map((w) => w.word) : [];
         const line = typeof file.line === "string" ? file.line : "";
-        phrases[card.id] = { unit: String(file.unit ?? g.word), want: file.source === "chunk" ? line : null, words };
+        const unit = String(file.unit ?? g.word);
+        phrases[card.id] =
+          kind === "case" ? { unit, want: line, words, case: true } : { unit, want: file.source === "chunk" ? line : null, words };
       }
     }
-    const label = kind === "word" ? `#${g.rank} ${g.word}` : `${kind === "form" ? "forms" : "phrases"} ${g.word}`;
+    const label = kind === "word" ? `#${g.rank} ${g.word}` : `${{ form: "forms", phrase: "phrases", case: "cases" }[kind]} ${g.word}`;
     groups.push({ label, kind, name: g.word, rank: g.rank, cards, phrases });
   }
   return groups;
@@ -159,7 +163,9 @@ export function tagPrompt(group: TagGroup, ctx: TagContext): string {
       ? `The cards of the word "${group.name}" (rank ${group.rank} in the frequency list)`
       : group.kind === "form"
         ? `The form cards of the verb "${group.name}"`
-        : `The phrase cards drafted for unit ${group.name}; each one's unit is fixed`;
+        : group.kind === "case"
+          ? `The case cards drafted for unit ${group.name}; each one's unit is fixed`
+          : `The phrase cards drafted for unit ${group.name}; each one's unit is fixed`;
   return [
     "The unit plan, in order:",
     ...ctx.units.flatMap((unit, i) => [
@@ -182,7 +188,7 @@ export function tagPrompt(group: TagGroup, ctx: TagContext): string {
         JSON.stringify(shown(card)),
         ...(place
           ? [
-              `  ${place.want ? "A survival chunk" : "A payoff phrase"} of unit ${place.unit}. Its words: ${place.words.join(", ") || "not listed"}.`,
+              `  ${place.case ? "A case card" : place.want ? "A survival chunk" : "A payoff phrase"} of unit ${place.unit}. Its words: ${place.words.join(", ") || "not listed"}.`,
             ]
           : []),
       ];

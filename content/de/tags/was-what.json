@@ -1,0 +1,14 @@
+{
+  "id": "was-what",
+  "unit": "asking-questions",
+  "want": "was: what (question)",
+  "requires": [],
+  "tip": "tip-questions",
+  "why": null,
+  "draft": "034ea74dc3890050",
+  "group": "#12 was",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:24.045Z"
+}

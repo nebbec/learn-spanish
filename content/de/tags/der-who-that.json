@@ -1,0 +1,14 @@
+{
+  "id": "der-who-that",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "93404aa9c35ac8f7",
+  "group": "#1 der",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:10.409Z"
+}

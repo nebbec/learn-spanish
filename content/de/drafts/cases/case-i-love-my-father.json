@@ -1,0 +1,26 @@
+{
+  "kind": "case",
+  "rank": 155,
+  "word": "a-coffee-please",
+  "unit": "a-coffee-please",
+  "order": 3,
+  "line": "case: meinen Vater = I love [my] father",
+  "words": [
+    {
+      "word": "mein",
+      "rank": 18
+    },
+    {
+      "word": "vater",
+      "rank": 155
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:46:21.047Z",
+  "cards": [
+    "case-i-love-my-father"
+  ]
+}

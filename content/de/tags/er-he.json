@@ -1,0 +1,14 @@
+{
+  "id": "er-he",
+  "unit": "me-and-you",
+  "want": "er",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "55ac4584b09096c5",
+  "group": "#15 er",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:26.028Z"
+}

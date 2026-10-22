@@ -108,8 +108,9 @@ export function pathOrder(
       capped.push(drop.id);
     }
     // Requires order first (a card is ready once the unit's cards it requires are placed), then
-    // non-phrase before phrase, then rank, then the order the cards were drafted in.
-    const key = (c: Card) => [c.kind === "phrase" ? 1 : 0, c.rank, at(c)];
+    // word and form cards, then case cards (German, DE9: after the words they use, so the case's tip comes
+    // late in the unit), then phrases; then rank, then the order the cards were drafted in.
+    const key = (c: Card) => [c.kind === "phrase" ? 2 : c.kind === "case" ? 1 : 0, c.rank, at(c)];
     const before = (a: Card, b: Card) => {
       const [ka, kb] = [key(a), key(b)];
       return ka[0] - kb[0] || ka[1] - kb[1] || ka[2] - kb[2];

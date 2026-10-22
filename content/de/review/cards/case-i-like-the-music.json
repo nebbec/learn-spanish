@@ -1,0 +1,17 @@
+{
+  "id": "case-i-like-the-music",
+  "rank": 269,
+  "word": "what-i-like",
+  "draft": "df3fa897c0958885",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the music (accusative, as the object of a verb)",
+    "example": "I like the music here."
+  },
+  "note": "Because the feminine accusative looks the same as the nominative, the answer is \"die Musik\" whether the learner thinks \"Ich mag die Musik\" or \"Mir gefällt die Musik\", so the card only shows the case change through grammar.case.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:08.368Z"
+}

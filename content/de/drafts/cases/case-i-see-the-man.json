@@ -1,0 +1,26 @@
+{
+  "kind": "case",
+  "rank": 82,
+  "word": "a-coffee-please",
+  "unit": "a-coffee-please",
+  "order": 2,
+  "line": "case: den Mann = I see [the] man",
+  "words": [
+    {
+      "word": "der",
+      "rank": 1
+    },
+    {
+      "word": "mann",
+      "rank": 82
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:46:20.253Z",
+  "cards": [
+    "case-i-see-the-man"
+  ]
+}

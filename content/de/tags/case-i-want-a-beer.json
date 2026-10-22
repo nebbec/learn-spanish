@@ -1,0 +1,16 @@
+{
+  "id": "case-i-want-a-beer",
+  "unit": "what-i-like",
+  "want": "case: ein Bier = I want [a] beer",
+  "requires": [
+    "ein-a"
+  ],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "ca9b6e099c0a25bd",
+  "group": "cases what-i-like",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:40.707Z"
+}

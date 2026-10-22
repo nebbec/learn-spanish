@@ -1,0 +1,14 @@
+{
+  "id": "und-and",
+  "unit": "who-i-am",
+  "want": "und: and",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a54b4d1c384cee74",
+  "group": "#10 und",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:17.568Z"
+}

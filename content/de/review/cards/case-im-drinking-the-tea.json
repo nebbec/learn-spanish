@@ -1,0 +1,17 @@
+{
+  "id": "case-im-drinking-the-tea",
+  "rank": 997,
+  "word": "a-coffee-please",
+  "draft": "9730da03f855119d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the tea (accusative, as the object)",
+    "example": "I'm drinking the tea, not the coffee."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:00.127Z"
+}

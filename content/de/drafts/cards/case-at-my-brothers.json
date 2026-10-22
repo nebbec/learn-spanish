@@ -1,0 +1,25 @@
+{
+  "id": "case-at-my-brothers",
+  "rank": 267,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "bei meinem Bruder",
+  "en": "at [my] brother's",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "m",
+    "from": "mein"
+  },
+  "example": {
+    "target": "Heute Abend bin ich bei meinem Bruder.",
+    "en": "Tonight I'm at my brother's."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-at-my-brothers.word.mp3",
+    "sentence": "/deck-de/audio/case-at-my-brothers.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "case-i-have-a-sister",
+  "rank": 343,
+  "word": "a-coffee-please",
+  "draft": "ec6d574f7e81d636",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "a sister",
+    "example": "I have a sister and a brother."
+  },
+  "note": "In the accusative, feminine eine stays eine, so this card shows the learner that the article doesn't change, unlike einen Bruder in the same example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:51:59.823Z"
+}

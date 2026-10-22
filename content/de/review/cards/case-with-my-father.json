@@ -1,0 +1,17 @@
+{
+  "id": "case-with-my-father",
+  "rank": 155,
+  "word": "with-friends",
+  "draft": "5e3b7e8608122d32",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with my father",
+    "example": "Today I'm going out to eat with my father."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:23.037Z"
+}

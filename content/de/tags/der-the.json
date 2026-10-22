@@ -1,0 +1,14 @@
+{
+  "id": "der-the",
+  "unit": "my-people",
+  "want": "der / die / das: the",
+  "requires": [],
+  "tip": "tip-der-die-das",
+  "why": null,
+  "draft": "d2beccc0d893bdd5",
+  "group": "#1 der",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:10.409Z"
+}

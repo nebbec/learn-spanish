@@ -1,0 +1,25 @@
+{
+  "id": "case-with-the-child",
+  "rank": 147,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit dem Kind",
+  "en": "with [the] child",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "n",
+    "from": "das"
+  },
+  "example": {
+    "target": "Ich gehe heute mit dem Kind nach Hause.",
+    "en": "I'm going home with the child today."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-the-child.word.mp3",
+    "sentence": "/deck-de/audio/case-with-the-child.sentence.mp3"
+  }
+}

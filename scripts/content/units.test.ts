@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { GERMAN_FORM_VERBS, phraseJobs } from "./path-cards";
+import { caseJobs, GERMAN_FORM_VERBS, phraseJobs } from "./path-cards";
 import { CASE_WANT, checkTips, checkUnits, readTips, readUnits, unitCap, type TipEntry, type Unit } from "./units";
 
 const root = process.cwd();
@@ -52,16 +52,18 @@ describe("content/de/units.json and content/de/tips.json (DE8)", () => {
     expect(checkTips(tipList)).toEqual([]);
     expect(checkUnits(units, tipList)).toEqual([]);
     expect(phraseJobs(units).problems).toEqual([]);
+    expect(caseJobs(units).problems).toEqual([]);
   });
 
-  it("hold 15 to 20 units, 12 to 15 tips, and a starter path of about 150 to 200 cards", () => {
+  // DE9's case cards raised the caps past Spanish's 200.
+  it("hold 15 to 20 units, 12 to 15 tips, and a starter path of about 150 to 220 cards", () => {
     expect(units.length).toBeGreaterThanOrEqual(15);
     expect(units.length).toBeLessThanOrEqual(20);
     expect(tipList.length).toBeGreaterThanOrEqual(12);
     expect(tipList.length).toBeLessThanOrEqual(15);
     const total = units.reduce((sum, u) => sum + unitCap(u), 0);
     expect(total).toBeGreaterThanOrEqual(150);
-    expect(total).toBeLessThanOrEqual(200);
+    expect(total).toBeLessThanOrEqual(220);
   });
 
   it("name the three forms of every German form verb, each in one unit", () => {
@@ -72,8 +74,19 @@ describe("content/de/units.json and content/de/tips.json (DE8)", () => {
     }
   });
 
-  it("list the case wants for DE9 and the Sie chunks", () => {
-    expect(wants.filter((w) => w.startsWith(CASE_WANT)).length).toBeGreaterThanOrEqual(8);
+  it("list about 30 case cards (DE9), accusative and dative, and the Sie chunks", () => {
+    const cases = caseJobs(units).jobs;
+    expect(cases.length).toBe(wants.filter((w) => w.startsWith(CASE_WANT)).length);
+    expect(cases.length).toBeGreaterThanOrEqual(25);
+    expect(cases.length).toBeLessThanOrEqual(35);
+    // The dative cards come in or after the unit that introduces tip-dative, the accusative's after tip-accusative.
+    const unitAt = (id: string) => units.findIndex((u) => u.id === id);
+    const dative = unitAt(units.find((u) => u.tip === "tip-dative")!.id);
+    const accusative = unitAt(units.find((u) => u.tip === "tip-accusative")!.id);
+    for (const job of cases) {
+      const dat = /^(mit|bei|zu) /.test(job.target);
+      expect(unitAt(job.unit) >= (dat ? dative : accusative), job.id).toBe(true);
+    }
     expect(wants.filter((w) => w.startsWith("phrase: ") && /\bSie\b/.test(w)).length).toBeGreaterThanOrEqual(1);
   });
 });

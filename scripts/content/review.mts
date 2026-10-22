@@ -4,6 +4,7 @@
 //                     [--effort medium] [--concurrency 2] [--retries 2] [--redo]
 //   npm run review -- --forms [--verbs ser,estar] [...]    the drafted form cards
 //   npm run review -- --phrases [--units who-i-am] [...]   the drafted phrase cards
+//   npm run review -- --lang de --cases [--units ...]      German's drafted case cards (DE9)
 //   npm run review -- --lang de ...                        German: content/de/drafts into content/de/review
 //
 // --lang de (DE5) reads and writes content/de/ in place of content/, with
@@ -34,7 +35,7 @@ import { refreshFlagged } from "./decisions";
 import { DraftStore, spanishMeanings } from "./drafting";
 import { exampleProblem, loadLemmas } from "./known-words";
 import { PROMPTS_READY, promptsNotReady } from "./prompts-de";
-import { draftedForms, draftedPhrases, draftedWords, formatReviewSummary, reviewCards, ReviewStore } from "./reviewing";
+import { draftedCases, draftedForms, draftedPhrases, draftedWords, formatReviewSummary, reviewCards, ReviewStore } from "./reviewing";
 import { contentPaths, LANG_OPTION, parseLang } from "./script-lang";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -52,6 +53,7 @@ const { values } = parseArgs({
     redo: { type: "boolean", default: false },
     forms: { type: "boolean", default: false },
     phrases: { type: "boolean", default: false },
+    cases: { type: "boolean", default: false },
     verbs: { type: "string" },
     units: { type: "string" },
     drafts: { type: "string" },
@@ -68,11 +70,12 @@ const lang = parseLang(values.lang);
 const paths = contentPaths(ROOT, lang);
 if (!PROMPTS_READY[lang]) fail(promptsNotReady(lang));
 
-if (values.forms && values.phrases) fail("Give --forms or --phrases, not both");
+if ([values.forms, values.phrases, values.cases].filter(Boolean).length > 1) fail("Give one of --forms, --phrases and --cases");
 const from = Number(values.from);
 const to = Number(values.to ?? values.from);
-if (!values.forms && !values.phrases && (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to < from)) {
-  fail("Give a range of ranks (--from 1 --to 20), or --forms, or --phrases");
+const groups = values.forms || values.phrases || values.cases;
+if (!groups && (!Number.isInteger(from) || !Number.isInteger(to) || from < 1 || to < from)) {
+  fail("Give a range of ranks (--from 1 --to 20), or --forms, or --phrases, or --cases");
 }
 const list = (value: string | undefined) => value?.split(",").map((v) => v.trim()).filter(Boolean);
 if (values.via !== "cli" && values.via !== "api") fail('--via is "cli" or "api"');
@@ -88,13 +91,17 @@ const words = values.forms
   ? draftedForms(drafts, list(values.verbs))
   : values.phrases
     ? draftedPhrases(drafts, list(values.units))
-    : draftedWords(drafts, from, to);
+    : values.cases
+      ? draftedCases(drafts, list(values.units))
+      : draftedWords(drafts, from, to);
 const via = values.via;
 const what = values.forms
   ? `the form cards of ${words.length} drafted verbs`
   : values.phrases
     ? `the phrase cards of ${words.length} units`
-    : `the cards of ranks ${from} to ${to} (${words.length} drafted ${words.length === 1 ? "word" : "words"})`;
+    : values.cases
+      ? `the case cards of ${words.length} units`
+      : `the cards of ranks ${from} to ${to} (${words.length} drafted ${words.length === 1 ? "word" : "words"})`;
 
 const lemmas = await loadLemmas(ROOT, lang);
 // The order is the learning path's, so it needs the unit plan and tip list; German's come in DE8.

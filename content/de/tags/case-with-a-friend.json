@@ -1,0 +1,14 @@
+{
+  "id": "case-with-a-friend",
+  "unit": "with-friends",
+  "want": "case: mit einem Freund = with [a] friend",
+  "requires": [],
+  "tip": "tip-dative",
+  "why": null,
+  "draft": "81de1f8d2a343d55",
+  "group": "cases with-friends",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:48.729Z"
+}

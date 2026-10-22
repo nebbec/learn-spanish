@@ -1,0 +1,25 @@
+{
+  "id": "case-i-love-my-mother",
+  "rank": 175,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "meine Mutter",
+  "en": "I love [my] mother",
+  "hint": null,
+  "grammar": {
+    "case": "akk",
+    "gender": "f",
+    "from": "meine"
+  },
+  "example": {
+    "target": "Ich liebe meine Mutter sehr.",
+    "en": "I love my mother very much."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-i-love-my-mother.word.mp3",
+    "sentence": "/deck-de/audio/case-i-love-my-mother.sentence.mp3"
+  }
+}

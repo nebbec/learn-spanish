@@ -1,0 +1,17 @@
+{
+  "id": "case-with-the-man",
+  "rank": 82,
+  "word": "with-friends",
+  "draft": "6ce429634d116c1c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with the man",
+    "example": "She's talking to the man."
+  },
+  "note": "At the start of a sentence, \"Sie spricht\" could mean \"she\" or the formal \"you\", so a name (\"Anna spricht mit dem Mann.\") would make it clearer, but the English already shows it means \"she\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:26.514Z"
+}

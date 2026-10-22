@@ -1,0 +1,25 @@
+{
+  "id": "case-with-a-woman",
+  "rank": 114,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit einer Frau",
+  "en": "with [a] woman",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "f",
+    "from": "eine"
+  },
+  "example": {
+    "target": "Er spricht mit einer Frau.",
+    "en": "He's talking to a woman."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-a-woman.word.mp3",
+    "sentence": "/deck-de/audio/case-with-a-woman.sentence.mp3"
+  }
+}

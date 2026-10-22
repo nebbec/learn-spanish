@@ -1,0 +1,26 @@
+{
+  "kind": "case",
+  "rank": 267,
+  "word": "when-i-dont-understand",
+  "unit": "when-i-dont-understand",
+  "order": 8,
+  "line": "case: keinen Bruder = I have [no] brother",
+  "words": [
+    {
+      "word": "kein",
+      "rank": 41
+    },
+    {
+      "word": "bruder",
+      "rank": 267
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:46:29.386Z",
+  "cards": [
+    "case-i-have-no-brother"
+  ]
+}

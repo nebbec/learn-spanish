@@ -1,0 +1,14 @@
+{
+  "id": "sie-her",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sie for her as the object (I know her); before a noun, her is ihr (ihr Bruder).",
+  "draft": "9ff0734de2872b71",
+  "group": "#4 sie",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:12.069Z"
+}

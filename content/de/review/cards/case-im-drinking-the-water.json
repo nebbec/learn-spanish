@@ -1,0 +1,17 @@
+{
+  "id": "case-im-drinking-the-water",
+  "rank": 402,
+  "word": "a-coffee-please",
+  "draft": "165a01274ba3cfc0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the water (accusative, unchanged from the nominative)",
+    "example": "Aren't you drinking the water?"
+  },
+  "note": "A neuter accusative looks just like the nominative, so this card only teaches that das stays das; that's correct, but the editor may want to make sure the unit also covers this point clearly next to the den Mann card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:05.740Z"
+}

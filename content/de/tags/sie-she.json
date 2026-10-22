@@ -1,0 +1,14 @@
+{
+  "id": "sie-she",
+  "unit": "me-and-you",
+  "want": "sie: she",
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0829489aeee64124",
+  "group": "#4 sie",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:12.069Z"
+}

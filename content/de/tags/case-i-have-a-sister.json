@@ -1,0 +1,16 @@
+{
+  "id": "case-i-have-a-sister",
+  "unit": "a-coffee-please",
+  "want": "case: eine Schwester = I have [a] sister",
+  "requires": [
+    "ein-a"
+  ],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "ec6d574f7e81d636",
+  "group": "cases a-coffee-please",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:40.416Z"
+}

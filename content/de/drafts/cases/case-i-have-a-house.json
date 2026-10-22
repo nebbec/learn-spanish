@@ -1,0 +1,26 @@
+{
+  "kind": "case",
+  "rank": 129,
+  "word": "a-coffee-please",
+  "unit": "a-coffee-please",
+  "order": 5,
+  "line": "case: ein Haus = I have [a] house",
+  "words": [
+    {
+      "word": "ein",
+      "rank": 6
+    },
+    {
+      "word": "haus",
+      "rank": 129
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:49:41.151Z",
+  "cards": [
+    "case-i-have-a-house"
+  ]
+}

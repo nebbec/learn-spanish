@@ -1,0 +1,17 @@
+{
+  "id": "case-at-my-sisters",
+  "rank": 343,
+  "word": "making-plans",
+  "draft": "1d8d510d2055c252",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at my sister's (place)",
+    "example": "This evening I'm at my sister's."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:32.315Z"
+}

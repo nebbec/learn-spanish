@@ -1,0 +1,26 @@
+{
+  "kind": "case",
+  "rank": 175,
+  "word": "people-i-love",
+  "unit": "people-i-love",
+  "order": 12,
+  "line": "case: meine Mutter = I love [my] mother",
+  "words": [
+    {
+      "word": "mein",
+      "rank": 18
+    },
+    {
+      "word": "mutter",
+      "rank": 175
+    }
+  ],
+  "outside": [],
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-22T08:46:39.712Z",
+  "cards": [
+    "case-i-love-my-mother"
+  ]
+}

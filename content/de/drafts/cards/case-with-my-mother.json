@@ -1,0 +1,25 @@
+{
+  "id": "case-with-my-mother",
+  "rank": 175,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit meiner Mutter",
+  "en": "with [my] mother",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "f",
+    "from": "meine"
+  },
+  "example": {
+    "target": "Ich gehe heute mit meiner Mutter in die Stadt.",
+    "en": "I'm going into town with my mother today."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-my-mother.word.mp3",
+    "sentence": "/deck-de/audio/case-with-my-mother.sentence.mp3"
+  }
+}

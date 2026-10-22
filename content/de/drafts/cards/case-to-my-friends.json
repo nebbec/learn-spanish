@@ -1,0 +1,25 @@
+{
+  "id": "case-to-my-friends",
+  "rank": 150,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "zu meinem Freund",
+  "en": "to [my] friend's",
+  "hint": "a male friend",
+  "grammar": {
+    "case": "dat",
+    "gender": "m",
+    "from": "mein"
+  },
+  "example": {
+    "target": "Heute Abend gehe ich zu meinem Freund.",
+    "en": "Tonight I'm going to my friend's."
+  },
+  "regional": null,
+  "trick": null,
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-to-my-friends.word.mp3",
+    "sentence": "/deck-de/audio/case-to-my-friends.sentence.mp3"
+  }
+}

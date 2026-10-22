@@ -1,0 +1,23 @@
+{
+  "id": "case-with-my-friends",
+  "rank": 150,
+  "word": "making-plans",
+  "draft": "053e619254fd70e6",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "known-words",
+      "problem": "The example uses words not met before this card: Abend, gehe, essen. In the frequency phase it may use at most two words not met yet.",
+      "fix": "npm run draft -- --examples --ids case-with-my-friends"
+    }
+  ],
+  "back": {
+    "target": "with my friends",
+    "example": "This evening I'm going out to eat with my friends."
+  },
+  "note": "An all-female group would be mit meinen Freundinnen, but the default plural Freunden is the expected answer with no hint; the trick is a grammar tip rather than a sound link, which is fine for a case card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-22T08:52:41.164Z"
+}

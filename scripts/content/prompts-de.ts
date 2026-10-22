@@ -114,6 +114,24 @@ Fields
 
 Every text field is one line of plain text, with no Markdown and no surrounding quotes.`;
 
+export const GERMAN_CASE_SYSTEM = `You write flashcards for an app that teaches the most common German words to English speakers who are starting from zero. ${VARIETY}
+
+These are case cards: the learner sees a short English phrase with one word marked in square brackets ("I see [the] man", "with [a] friend") and says the German words the plan gives, in which an article or possessive has taken its accusative or dative form (den Mann, mit einem Freund). Then the app shows the answer with a line naming the case, the gender and the change ("Akkusativ · masculine: der → den"), the example sentence and its translation. Cards where nothing changes (die Frau, ein Haus in the accusative) teach that only the masculine changes there.
+
+You are given the unit of the starter path the card belongs to, the card's German answer and English prompt from the plan (both fixed: do not rewrite them), and the words the learner has met by the end of the unit.
+
+Fields
+- pos: "determiner" when the changed word is an article or possessive (den, einem, meiner), "pronoun" when it is a personal pronoun (mich, dir).
+- case: "akk" for the accusative, "dat" for the dative, as the answer has it.
+- gender: the gender of the noun the article goes with, "masculine", "feminine" or "neuter", or "plural" for a plural; null only for a pronoun.
+- from: the nominative the changed word comes from, as a learner meets it first: der, die or das for the definite article (die for a plural), ein or eine for the indefinite, mein or meine (and kein or keine) for a possessive, the subject pronoun (ich, du, er) for a pronoun. Write it in lower case.
+- hint: what keeps the prompt to exactly one right German answer, or null. Most need none.
+- example: one short, natural sentence a speaker in Germany would say, under ten words, containing the answer's words exactly as given, with its natural English translation. Use the words the learner has met where you can, and only very common words otherwise. Speak to the learner with du.
+- trick: null, unless one English sentence would really help remember the change. Null is usual.
+- words: every word of the answer in dictionary form, in order and each once: articles as der or ein (den and dem are der, einem is ein), possessives as mein or kein, nouns in the nominative singular with their capital and no article (Kinder is Kind), prepositions as themselves (mit, bei, zu).
+
+Every text field is one line of plain text, with no Markdown and no surrounding quotes.`;
+
 export const GERMAN_REVIEW_SYSTEM = `You check flashcards for an app that teaches the 1,000 most common German words to English speakers, most common first. ${VARIETY} Someone else wrote the card. You see it cold and check it independently. Be strict about anything wrong or misleading that a learner would memorize; do not flag matters of taste.
 
 How a card works
@@ -121,7 +139,7 @@ How a card works
 - kind "content": en is plain English ("to go", "house", "good"); verbs start with "to". kind "glue": a function word (article, preposition, conjunction, pronoun, determiner, a particle such as doch or mal); en is a short English phrase with the target in square brackets ("I'm going [with] Anna"), and when English has no word for it, the hint says what to recall.
 - kind "form": one present-tense form of a core verb. en is an English subject and verb ("I am", "you are", "he / she is"), target is the pronoun and that form ("ich bin", "du rufst an"), and grammar is the verb's whole present-tense strip, in which target's form must be the one for the card's person (ich, du or er). A "you" prompt is du and says informal in its hint, since the formal Sie takes another form.
 - kind "phrase": a whole phrase or short sentence a beginner says as one piece ("How are you?", "My name is Anna"). en is its English, target its natural German, and grammar is null. A phrase to a stranger uses Sie; one to a friend du.
-- kind "case": a short English phrase with one target in square brackets whose answer is an article and noun, or a pronoun, in the accusative or dative ("I see [the] man" is "den Mann"); grammar names the case (akk or dat), the gender and from, the nominative it changes from.
+- kind "case": a short English phrase with one target in square brackets whose answer is an article and noun, or a pronoun, in the accusative or dative, with the preposition that takes the case when the prompt has one ("I see [the] man" is "den Mann", "with [a] friend" is "mit einem Freund"); the answer and the prompt come from the unit plan. grammar names the case (akk or dat), the noun's gender ("pl" for a plural) and from, the nominative of the changed word alone (der, die, das, ein, eine, mein, meine, kein, keine, or the subject pronoun), not of the whole phrase.
 - hint: there when the bare prompt would have more than one right answer, and then it must rule the others out. A hint the prompt does not strictly need is harmless and is never a reason to fail a check.
 - target: the dictionary form (infinitive, nominative singular, an adjective's base form), except on a form card (pronoun and form), a phrase card (the whole phrase) and a case card (the form in its case). A noun starts with its definite article and keeps its capital ("der Tisch", "das Haus").
 - grammar: a noun has gender (m, f or n), article and plural (with its article, "die Tische"; null when the noun has none in common use); a verb has its present-tense ich, du and er forms (a separable verb's split, "rufe an"), irregular (true when irregular in the present or with a strong or mixed Perfekt participle), separable, and its Perfekt's aux (haben or sein) and participle. An adjective and other parts of speech have none.
@@ -245,6 +263,23 @@ export const GERMAN_PHRASE_SCHEMA: Rec = object({
   hint: nullable(text),
   example,
   regional,
+  trick: nullable(text),
+  words: { type: "array", items: text },
+});
+
+/**
+ * A case card (DE9): the script takes the answer and prompt from the plan; Claude names the grammar and writes the
+ * rest. Gender is spelled out, since the CLI's model wrote a bare `n` (not JSON) for the deck's "n" every time.
+ */
+export const CASE_GENDERS = { masculine: "m", feminine: "f", neuter: "n", plural: "pl" } as const;
+
+export const GERMAN_CASE_SCHEMA: Rec = object({
+  pos: { type: "string", enum: ["determiner", "pronoun"] },
+  case: { type: "string", enum: ["akk", "dat"] },
+  gender: nullable({ type: "string", enum: Object.keys(CASE_GENDERS) }),
+  from: text,
+  hint: nullable(text),
+  example,
   trick: nullable(text),
   words: { type: "array", items: text },
 });

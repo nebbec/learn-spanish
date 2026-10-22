@@ -1,0 +1,25 @@
+{
+  "id": "case-with-my-friends",
+  "rank": 150,
+  "kind": "case",
+  "pos": "determiner",
+  "target": "mit meinen Freunden",
+  "en": "with [my] friends",
+  "hint": null,
+  "grammar": {
+    "case": "dat",
+    "gender": "pl",
+    "from": "meine"
+  },
+  "example": {
+    "target": "Heute Abend gehe ich mit meinen Freunden essen.",
+    "en": "Tonight I'm going out to eat with my friends."
+  },
+  "regional": null,
+  "trick": "In the dative plural both words get an -n: meine Freunde becomes meinen Freunden.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/case-with-my-friends.word.mp3",
+    "sentence": "/deck-de/audio/case-with-my-friends.sentence.mp3"
+  }
+}

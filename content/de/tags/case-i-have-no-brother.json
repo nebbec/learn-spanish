@@ -1,0 +1,14 @@
+{
+  "id": "case-i-have-no-brother",
+  "unit": "when-i-dont-understand",
+  "want": "case: keinen Bruder = I have [no] brother",
+  "requires": [],
+  "tip": "tip-accusative",
+  "why": null,
+  "draft": "9a6ba6f9dca03e83",
+  "group": "cases when-i-dont-understand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-22T08:53:38.913Z"
+}
