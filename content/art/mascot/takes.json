@@ -1,5 +1,5 @@
 {
-  "note": "Hero mascot takes (F3). npm run mascot re-encodes every take into content/art/mascot/takes/ and publishes the two in \"use\" to public/mascot/. Raw takes are cached in content/.cache/mascot/ and downloaded again from url when missing.",
+  "note": "Hero mascot takes (F3). npm run mascot re-encodes every take into content/art/mascot/takes/ and publishes the two in \"use\" to public/mascot/. Raw takes are cached in content/.cache/mascot/ and downloaded again from url when missing. A take in use also needs a cutout: Higgsfield’s Video Background Remover run on the raw take (1 credit), which comes back on black; npm run mascot mattes the two into the transparent loops (U2).",
   "use": {
     "idle": "idle-t2",
     "celebrate": "celebrate-t3"
@@ -38,7 +38,12 @@
       },
       "job": "4288b5d3-d6ff-403a-b6e7-856c278c895e",
       "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_145004_4288b5d3-d6ff-403a-b6e7-856c278c895e.mp4",
-      "prompt": "Soft 3D clay-toy stop-motion animation of the pink concha bun character from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid bun: the white sugar-shell crust stays fixed on top of her head, the lilac sunglasses stay perched on top of the crust the whole time, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Idle loop: she stands in place breathing gently, her bun body rising and squashing softly, she blinks her lashes, glances to one side with a little diva pout, then looks back at the camera and settles into the starting pose. Calm and subtle."
+      "prompt": "Soft 3D clay-toy stop-motion animation of the pink concha bun character from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid bun: the white sugar-shell crust stays fixed on top of her head, the lilac sunglasses stay perched on top of the crust the whole time, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Idle loop: she stands in place breathing gently, her bun body rising and squashing softly, she blinks her lashes, glances to one side with a little diva pout, then looks back at the camera and settles into the starting pose. Calm and subtle.",
+      "cutout": {
+        "model": "video_background_remover",
+        "job": "f05c4ff8-c381-49fc-8b15-46d767b90aff",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_203012_f05c4ff8-c381-49fc-8b15-46d767b90aff.mp4"
+      }
     },
     {
       "name": "celebrate-t1",
@@ -84,7 +89,12 @@
       },
       "job": "d8a375b8-6739-41a2-a7ce-3da489357b7d",
       "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_145003_d8a375b8-6739-41a2-a7ce-3da489357b7d.mp4",
-      "prompt": "Soft 3D clay-toy stop-motion animation of the pink concha bun character from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid bun: the white sugar-shell crust stays fixed on top of her head, the lilac sunglasses stay perched on top of the crust the whole time, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Celebration: she does two quick happy hops in place, tiny arms thrown up in joy, eyes squeezed shut with a big smile, a little twirl of delight, then lands softly with a squash and settles back to the starting pose. Bouncy and cheerful."
+      "prompt": "Soft 3D clay-toy stop-motion animation of the pink concha bun character from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid bun: the white sugar-shell crust stays fixed on top of her head, the lilac sunglasses stay perched on top of the crust the whole time, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Celebration: she does two quick happy hops in place, tiny arms thrown up in joy, eyes squeezed shut with a big smile, a little twirl of delight, then lands softly with a squash and settles back to the starting pose. Bouncy and cheerful.",
+      "cutout": {
+        "model": "video_background_remover",
+        "job": "84a117d9-35e6-460e-bc8a-f10c9b64445b",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261004_203012_84a117d9-35e6-460e-bc8a-f10c9b64445b.mp4"
+      }
     }
   ]
 }

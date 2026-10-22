@@ -66,7 +66,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
           </div>
           <span
             data-testid="pos"
-            className="rounded-chip bg-brand-soft px-2 py-0.5 text-sm font-bold uppercase tracking-wide text-brand"
+            className="rounded-chip bg-brand-soft px-2 py-0.5 text-sm font-bold uppercase tracking-wide text-ink"
           >
             {card.pos}
           </span>
@@ -77,7 +77,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         <WhyLine card={card} />
 
-        <div className="flex w-full items-start gap-2 rounded-button bg-paper p-3 text-left">
+        <div className="flex w-full items-start gap-2 rounded-button bg-quiet p-3 text-left">
           <p className="flex flex-1 flex-col gap-0.5">
             <span data-testid="example-es" lang={LANG.tag} className="text-lg font-bold">
               {card.example.target}
@@ -138,7 +138,7 @@ export function Meaning({ card }: { card: Card }) {
 export function WhyLine({ card }: { card: Card }) {
   if (!card.why) return null;
   return (
-    <p data-testid="why" className="w-full rounded-button bg-paper p-3 text-left">
+    <p data-testid="why" className="w-full rounded-button bg-quiet p-3 text-left">
       {card.why}
     </p>
   );

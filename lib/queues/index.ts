@@ -23,5 +23,5 @@ export {
   type PracticeQueue,
 } from "./queues";
 export { tipOf, isTipReached, reachedTips } from "./tips";
-export { learnCut, unitName, unitOf, isUnitComplete, unitPhrases, type LearnCut } from "./units";
+export { learnCut, currentUnit, unitName, unitOf, isUnitComplete, unitPhrases, type LearnCut } from "./units";
 export { parsePracticeParams, practiceHref, type PracticeParams, type ParamSource } from "./params";

@@ -15,9 +15,10 @@ export const es: LangConfig = {
   deckPath: "/deck/",
   contentDir: "content",
   publicDeckDir: "public/deck",
+  greetings: { hola: "¡Hola!", vamos: "¡Vamos!", "muy-bien": "¡Muy bien!" },
   mascot: {
-    idle: { clip: "/mascot/idle.mp4", poster: "/mascot/idle.webp" },
-    celebrate: { clip: "/mascot/celebrate.mp4", poster: "/mascot/celebrate.webp" },
+    idle: { webm: "/mascot/idle.webm", hevc: "/mascot/idle.mov", poster: "/mascot/idle.webp" },
+    celebrate: { webm: "/mascot/celebrate.webm", hevc: "/mascot/celebrate.mov", poster: "/mascot/celebrate.webp" },
     still: "/mascot/concha.webp",
   },
   icons: { version: "2", icon192: "/icon-192.png", icon512: "/icon-512.png", apple: "/apple-touch-icon.png" },

@@ -16,10 +16,12 @@ export const de: LangConfig = {
   deckPath: "/deck-de/",
   contentDir: "content/de",
   publicDeckDir: "public/deck-de",
+  // Draft lines for the menu (U3's three states), for Courtney to confirm; their clips (U4) are named by the keys.
+  greetings: { hola: "Hallo!", vamos: "Los geht's!", "muy-bien": "Sehr gut!" },
   // Placeholder until DE14: the concha's files.
   mascot: {
-    idle: { clip: "/mascot/idle.mp4", poster: "/mascot/idle.webp" },
-    celebrate: { clip: "/mascot/celebrate.mp4", poster: "/mascot/celebrate.webp" },
+    idle: { webm: "/mascot/idle.webm", hevc: "/mascot/idle.mov", poster: "/mascot/idle.webp" },
+    celebrate: { webm: "/mascot/celebrate.webm", hevc: "/mascot/celebrate.mov", poster: "/mascot/celebrate.webp" },
     still: "/mascot/concha.webp",
   },
   // Placeholder until DE14: the concha's icons.

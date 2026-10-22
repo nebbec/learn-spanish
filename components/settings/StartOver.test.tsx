@@ -34,6 +34,12 @@ const loadDeck = async () => ({ cards, units });
 
 const q = (testId: string) => host.querySelector<HTMLElement>(`[data-testid="${testId}"]`);
 const click = (testId: string) => act(() => q(testId)!.click());
+/** The menu's seen and memorized counts, from the wheel's label. */
+function progress() {
+  const label = q("wheel")!.getAttribute("aria-label")!;
+  const [, memorized, , seen] = label.match(/(\d+) of (\d+) cards memorized, (\d+) seen/)!.map(Number);
+  return { seen, memorized };
+}
 
 function show(screen: ReactNode) {
   act(() => root.unmount());
@@ -92,7 +98,7 @@ describe("Start over", () => {
     const studied = (await store.getReviews()).length;
 
     await showMenu();
-    expect(Number(q("menu-seen")!.textContent)).toBeGreaterThan(0);
+    expect(progress().seen).toBeGreaterThan(0);
     expect(q("menu-unit")!.textContent).toContain("Unit 2");
 
     const onDone = vi.fn();
@@ -107,9 +113,9 @@ describe("Start over", () => {
 
     // The menu shows nothing seen and Learn offers unit 1 again.
     await showMenu();
-    expect(Number(q("menu-seen")!.textContent)).toBe(0);
-    expect(Number(q("menu-memorized")!.textContent)).toBe(0);
-    expect(Number(q("menu-due")!.textContent)).toBe(0);
+    expect(progress()).toEqual({ seen: 0, memorized: 0 });
+    expect(Number(q("menu-due")!.dataset.count)).toBe(0);
+    click("practice-options");
     expect(Number(q("menu-struggling-count")!.textContent)).toBe(0);
     expect(q("menu-unit")!.textContent).toContain("Unit 1");
 
@@ -126,7 +132,7 @@ describe("Start over", () => {
     // Studying after the reset counts again.
     await studyBatch();
     await showMenu();
-    expect(Number(q("menu-seen")!.textContent)).toBeGreaterThan(0);
+    expect(progress().seen).toBeGreaterThan(0);
   });
 
   it("asks first, and Cancel stores nothing", async () => {

@@ -78,7 +78,7 @@ function NoteField({ card, store }: { card: Card; store: ExtrasStore }) {
             type="button"
             data-testid="suggest-trick"
             onClick={() => change(withTrick(text, trick))}
-            className="min-h-11 rounded-button px-2 text-sm font-bold text-brand"
+            className="min-h-11 rounded-button px-2 text-sm font-bold text-ink underline underline-offset-4"
           >
             Suggest a trick
           </button>

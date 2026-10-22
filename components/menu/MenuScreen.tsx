@@ -30,11 +30,20 @@ export interface MenuScreenProps {
   clock?: () => number;
   /** Passed to the menu: the sync status line. */
   status?: ReactNode;
+  /** Passed to the menu: puts a dot on the menu button. */
+  syncFailed?: boolean;
 }
 
 
 /** Loads the deck and the progress on this device, then draws the menu. */
-export function MenuScreen({ onNavigate, store, loadDeck: load = loadDeck, clock = Date.now, status }: MenuScreenProps) {
+export function MenuScreen({
+  onNavigate,
+  store,
+  loadDeck: load = loadDeck,
+  clock = Date.now,
+  status,
+  syncFailed,
+}: MenuScreenProps) {
   const [loaded, setLoaded] = useState<Loaded>({ status: "loading" });
 
   useEffect(() => {
@@ -82,6 +91,7 @@ export function MenuScreen({ onNavigate, store, loadDeck: load = loadDeck, clock
         now={loaded.now}
         onNavigate={onNavigate}
         status={status}
+        syncFailed={syncFailed}
       />
     );
   }

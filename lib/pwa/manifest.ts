@@ -15,8 +15,8 @@ export function appManifest(lang: LangConfig): MetadataRoute.Manifest {
     display: "standalone",
     orientation: "portrait",
     // The paper colour, as in app/globals.css.
-    background_color: "#fff8ec",
-    theme_color: "#fff8ec",
+    background_color: "#ffffff",
+    theme_color: "#ffffff",
     icons: [
       { src: `${lang.icons.icon192}?v=${v}`, sizes: "192x192", type: "image/png", purpose: "any" },
       { src: `${lang.icons.icon512}?v=${v}`, sizes: "512x512", type: "image/png", purpose: "any" },

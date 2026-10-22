@@ -43,7 +43,7 @@ export function TipsScreen({ store, loadTips = loadDeck, onPlay }: TipsScreenPro
 
   return (
     <main data-testid="tips" className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 p-6">
-      <Link href={ROUTES.menu} className="font-bold text-brand">
+      <Link href={ROUTES.menu} className="font-bold text-ink">
         ← Menu
       </Link>
       <h1 className="font-display text-prompt font-bold">Tips</h1>

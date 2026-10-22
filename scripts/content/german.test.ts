@@ -271,13 +271,17 @@ describe("Spanish runs are unchanged", () => {
       art: "/repo/content/art/mascot",
       cache: "/repo/content/.cache/mascot",
       cutout: "/repo/content/art/cast/concha-cutout.webp",
-      idle: { clip: "/repo/public/mascot/idle.mp4", poster: "/repo/public/mascot/idle.webp" },
-      celebrate: { clip: "/repo/public/mascot/celebrate.mp4", poster: "/repo/public/mascot/celebrate.webp" },
+      idle: { webm: "/repo/public/mascot/idle.webm", hevc: "/repo/public/mascot/idle.mov", poster: "/repo/public/mascot/idle.webp" },
+      celebrate: {
+        webm: "/repo/public/mascot/celebrate.webm",
+        hevc: "/repo/public/mascot/celebrate.mov",
+        poster: "/repo/public/mascot/celebrate.webp",
+      },
       still: "/repo/public/mascot/concha.webp",
     });
     expect(sharedMascotFiles("es")).toEqual([]);
     // German's are the concha's until DE14, so `npm run mascot -- --lang de` refuses.
-    expect(sharedMascotFiles("de")).toHaveLength(5);
+    expect(sharedMascotFiles("de")).toHaveLength(7);
     expect(mascotPaths("/repo", "de").art).toBe("/repo/content/de/art/mascot");
   });
 });

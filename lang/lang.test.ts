@@ -28,8 +28,8 @@ const GERMAN = {
   mediaCache: "learn-german-media",
 };
 const SPANISH_MASCOT = {
-  idle: { clip: "/mascot/idle.mp4", poster: "/mascot/idle.webp" },
-  celebrate: { clip: "/mascot/celebrate.mp4", poster: "/mascot/celebrate.webp" },
+  idle: { webm: "/mascot/idle.webm", hevc: "/mascot/idle.mov", poster: "/mascot/idle.webp" },
+  celebrate: { webm: "/mascot/celebrate.webm", hevc: "/mascot/celebrate.mov", poster: "/mascot/celebrate.webp" },
   still: "/mascot/concha.webp",
 };
 
@@ -74,7 +74,7 @@ async function loadUnder(lang: string) {
     setItem: (key: string, value: string) => void store.set(key, value),
     removeItem: (key: string) => void store.delete(key),
   });
-  const [db, audio, auth, pwa, runner, media, deck, mascot] = await Promise.all([
+  const [db, audio, auth, pwa, runner, media, deck, mascot, greeting] = await Promise.all([
     import("@/lib/store/db"),
     import("@/components/audio/audio"),
     import("@/lib/auth/auth"),
@@ -83,6 +83,7 @@ async function loadUnder(lang: string) {
     import("@/lib/media/media"),
     import("@/lib/deck/load"),
     import("@/components/motion/Mascot"),
+    import("@/lib/progress/greeting"),
   ]);
   db.getDeviceId();
   return {
@@ -98,6 +99,7 @@ async function loadUnder(lang: string) {
     },
     deckUrl: deck.DECK_URL,
     mascot: mascot.MASCOT_FILES,
+    greetings: greeting.GREETING_TEXT,
     serviceWorker: pwa.serviceWorkerUrl("b1"),
   };
 }
@@ -118,6 +120,7 @@ describe("what the app stores, by build", () => {
     expect(built.names).toEqual(pageNames(SPANISH));
     expect(built.deckUrl).toBe("/deck/deck.json");
     expect(built.mascot).toEqual(SPANISH_MASCOT);
+    expect(built.greetings).toEqual({ hola: "¡Hola!", vamos: "¡Vamos!", "muy-bien": "¡Muy bien!" });
     expect(built.serviceWorker).toBe("/sw.js?v=b1&lang=es");
   });
 
@@ -125,6 +128,7 @@ describe("what the app stores, by build", () => {
     const built = await loadUnder("de");
     expect(built.names).toEqual(pageNames(GERMAN));
     expect(built.deckUrl).toBe("/deck-de/deck.json");
+    expect(built.greetings).toEqual(LANGS.de.greetings);
     expect(built.serviceWorker).toBe("/sw.js?v=b1&lang=de");
   });
 });

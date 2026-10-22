@@ -13,14 +13,30 @@ const LANGS = {
   es: {
     storage: "learn-spanish",
     deck: "/deck/",
-    mascot: ["/mascot/idle.mp4", "/mascot/idle.webp", "/mascot/celebrate.mp4", "/mascot/celebrate.webp", "/mascot/concha.webp"],
+    mascot: [
+      "/mascot/idle.webm",
+      "/mascot/idle.mov",
+      "/mascot/idle.webp",
+      "/mascot/celebrate.webm",
+      "/mascot/celebrate.mov",
+      "/mascot/celebrate.webp",
+      "/mascot/concha.webp",
+    ],
     icons: ["/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"],
   },
   de: {
     storage: "learn-german",
     deck: "/deck-de/",
     // Placeholders until DE14 makes the German lead's under /mascot-de/.
-    mascot: ["/mascot/idle.mp4", "/mascot/idle.webp", "/mascot/celebrate.mp4", "/mascot/celebrate.webp", "/mascot/concha.webp"],
+    mascot: [
+      "/mascot/idle.webm",
+      "/mascot/idle.mov",
+      "/mascot/idle.webp",
+      "/mascot/celebrate.webm",
+      "/mascot/celebrate.mov",
+      "/mascot/celebrate.webp",
+      "/mascot/concha.webp",
+    ],
     icons: ["/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"],
   },
 };
@@ -37,9 +53,11 @@ const SHELL = SHELL_PREFIX + VERSION;
 const PAGES = ["/", "/learn", "/practice", "/settings", "/tips"];
 const FILES = [LANG.deck + "deck.json", "/manifest.webmanifest", ...LANG.icons];
 
-// The hero mascot (F3): its two loops, their posters and the still. Stored with
-// the pages, so the menu and the batch end play them offline. Safari asks for
-// video in byte ranges, so they are answered like art and audio.
+// The hero mascot (F3, transparent since U2): its two loops in both formats
+// (WebM and HEVC, the page plays whichever this browser shows transparent),
+// their posters and the still. Stored with the pages, so the menu and the batch
+// end play them offline. Safari asks for video in byte ranges, so they are
+// answered like art and audio.
 const MASCOT = LANG.mascot;
 const MASCOT_DIRS = [...new Set(MASCOT.map((file) => file.slice(0, file.lastIndexOf("/") + 1)))];
 

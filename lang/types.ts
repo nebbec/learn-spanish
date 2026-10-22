@@ -5,9 +5,12 @@
 export const LANG_CODES = ["es", "de"] as const;
 export type LangCode = (typeof LANG_CODES)[number];
 
-/** A loop of the hero mascot and its poster (first frame). */
+/** A loop of the hero mascot, transparent in two formats (docs/design.md, "Decided in U2"), and its poster (first frame). */
 export interface MascotLoop {
-  clip: string;
+  /** VP9 with alpha, for every browser but Safari and iOS. */
+  webm: string;
+  /** HEVC with alpha, for Safari and every iPhone and iPad browser. */
+  hevc: string;
   poster: string;
 }
 
@@ -34,6 +37,11 @@ export interface LangConfig {
   contentDir: string;
   /** Repo folder under public/ the deck the app serves is published to, with its audio and own stills. */
   publicDeckDir: string;
+  /**
+   * The menu's line under the mascot, in the language being learned (docs/design.md, "Menu", "Decided in U3"):
+   * nothing seen yet, something to do, and all done for now. Keyed as `Greeting` in lib/progress/greeting.ts.
+   */
+  greetings: { hola: string; vamos: string; "muy-bien": string };
   /** The hero mascot's files, under public/. */
   mascot: { idle: MascotLoop; celebrate: MascotLoop; still: string };
   /** App icons, under public/. Raise `version` when the files change, so installed copies fetch them again. */
