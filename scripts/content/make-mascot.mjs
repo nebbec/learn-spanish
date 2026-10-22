@@ -117,7 +117,9 @@ const HEVC_ALPHA = ["-c:v", "hevc_videotoolbox", "-allow_sw", "1", "-alpha_quali
 // distributions leave off. So the frames go to an x265 command-line tool built that way (its path in
 // MASCOT_X265), and FFmpeg 8 or later (the system's `ffmpeg`, as ffmpeg-static 7.0 splits the alpha layer
 // into frames of its own) wraps the stream in a .mov. Safari reads x265's alpha layer as it reads VideoToolbox's.
-const X265_ALPHA = ["--input-csp", "i420", "--alpha", "--crf", "30", "--preset", "slow", "--colorprim", "bt709", "--transfer", "bt709", "--colormatrix", "smpte170m", "--range", "limited", "--log-level", "error"];
+// No B-frames: the raw stream carries no timestamps, so a frame's place in the file must be its place in the
+// loop (with B-frames the wrapped file plays them out of order), as VideoToolbox's files have it.
+const X265_ALPHA = ["--input-csp", "i420", "--alpha", "--bframes", "0", "--crf", "30", "--preset", "slow", "--colorprim", "bt709", "--transfer", "bt709", "--colormatrix", "smpte170m", "--range", "limited", "--log-level", "error"];
 
 /** The HEVC loop off macOS: crop and convert with ffmpeg-static, encode with x265's alpha layer, wrap with FFmpeg 8. */
 function encodeHevcX265(rgba, width, height, fps, crop, out) {
