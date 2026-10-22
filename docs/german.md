@@ -317,7 +317,7 @@ Same rules as design.md, "Rules for every ticket", and the same [ticket loop](ti
 | DE8 | German unit plan and tips list | DE6 | Approve `units.json` and `tips.json` | Done |
 | DE9 | Case cards in the pipeline | DE3, DE7, DE8 | Approve the case list | Todo |
 | DE10 | German lead mascot | none | Choose on contact sheet | Todo |
-| DE11 | German voice | DE5 | Pick by ear | Done except: Courtney picks the voice by ear on `content/.cache/voice-test-de/index.html`, then it goes into `lang/de.ts` |
+| DE11 | German voice | DE5 | Pick by ear | Done |
 | DE12 | German first 100 | DE7, DE8, DE9, DE17 | Flagged cards, tips, `path.md` | Todo |
 | DE13 | Art for the German first 100 | DE10, DE12 | Contact-sheet review | Todo |
 | DE14 | German hero loops and icons | DE10, DE1 | Pick takes | Todo |
@@ -382,6 +382,7 @@ DE1 and DE10 can start at once. DE2, DE3 and DE5 run beside each other after DE1
 - Do: the ear test under [Audio](#audio). Courtney picks; the voice and instruction go into `lang/de.ts`.
 - Done when: the pick is recorded here.
 - Note (DE11): built as in "Decided in DE11" under [Audio](#audio). Checked on 2026-10-10: `npm run voice-test -- --lang de` made all 96 clips (coral, marin, sage and cedar, 24 each, none failed) and wrote `content/.cache/voice-test-de/index.html` (4.1 MB), which a headless Chrome drew with its 24 items; a rerun made nothing new. `npm test` (52 files, 832 tests), `npm run lint`, `npm run typecheck`, `npm run build` and `NEXT_PUBLIC_LANG=de npm run build` pass, and `npm run deck` reports the Spanish deck version 8 unchanged. The key came from another worktree's `.env.local` (`node --env-file=<that file> --import tsx scripts/voice-test.mjs --lang de`), since this one has none. Left for Courtney: open the page from disk (`open content/.cache/voice-test-de/index.html` in this worktree), pick the best voice for each item with headphones, tick any said wrong, press Reveal voices and send Claude the result; then `voice` in `lang/de.ts` becomes the pick (the instruction stays as tested) and the pick is recorded here. If none sounds right, try others with `--candidates` (for example `nova,shimmer,ash`). For DE15: the voice is part of every German clip's hash, so run `npm run audio -- --lang de` only after the pick is in `lang/de.ts`.
+- Picked (DE11): Courtney chose **sage** on 2026-10-22 from coral, marin, sage and cedar on the test page; `voice` in `lang/de.ts` is `sage`, with the instruction as tested.
 
 **DE12 German first 100**
 - Do: run L9's sequence for German (draft out of rank order for the unit plan's wants, review, flagged decisions, tips drafted and approved, tag, example redraft, deck build with `--fresh`) until `content/de/deck.json` holds the first 100 in path order.

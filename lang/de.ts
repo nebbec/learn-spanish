@@ -1,10 +1,9 @@
 import type { LangConfig } from "./types";
 
 /**
- * German (docs/german.md). The mascot, the icons and the voice are placeholders:
+ * German (docs/german.md). The mascot and the icons are placeholders:
  * the mascot and icons are the Spanish concha's until DE14 makes the German
- * lead's under /mascot-de/, and the voice is `coral` until Courtney picks one in
- * DE11's ear test (`npm run voice-test -- --lang de`).
+ * lead's under /mascot-de/. The voice is `sage`, Courtney's pick in DE11's ear test.
  */
 export const de: LangConfig = {
   code: "de",
@@ -25,11 +24,10 @@ export const de: LangConfig = {
   },
   // Placeholder until DE14: the concha's icons.
   icons: { version: "2", icon192: "/icon-192.png", icon512: "/icon-512.png", apple: "/apple-touch-icon.png" },
-  // DE11: the model and instruction the ear test used. `voice` is a placeholder until Courtney picks one of
-  // coral, marin, sage and cedar on the test page (docs/german.md, "Decided in DE11").
+  // DE11: Courtney's pick by ear, sage, with the model and instruction the ear test used (docs/german.md, "Decided in DE11").
   voice: {
     model: "gpt-4o-mini-tts",
-    voice: "coral",
+    voice: "sage",
     instructions:
       "Sprich klares Hochdeutsch, wie man es in Deutschland spricht. Sprich deutlich und in natürlichem Tempo, wie eine Lehrkraft, die eine Vokabelkarte vorliest.",
   },
