@@ -1,0 +1,17 @@
+{
+  "id": "geschenk-gift",
+  "rank": 724,
+  "word": "Geschenk",
+  "draft": "cea08f3f599cd5f2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "gift, present",
+    "example": "The present is for you."
+  },
+  "note": "The trick is a weak link between sound and meaning; it could mention the verb schenken (to give as a gift), which the noun comes from.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:22:04.271Z"
+}

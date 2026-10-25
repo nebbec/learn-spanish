@@ -1,0 +1,21 @@
+{
+  "id": "nah-near",
+  "rank": 493,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "nah",
+  "en": "near, close",
+  "hint": "not far",
+  "grammar": null,
+  "example": {
+    "target": "Der Bahnhof ist ganz nah.",
+    "en": "The station is really close."
+  },
+  "regional": null,
+  "trick": "NAH sounds like \"naa\", English \"near\" said with the r dropped: something nah is near.",
+  "image": "/deck-de/img/nah-near.webp",
+  "audio": {
+    "word": "/deck-de/audio/nah-near.word.mp3",
+    "sentence": "/deck-de/audio/nah-near.sentence.mp3"
+  }
+}

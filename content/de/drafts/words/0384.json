@@ -1,0 +1,17 @@
+{
+  "rank": 384,
+  "word": "je",
+  "cards": [
+    "je-ever",
+    "je-the-more"
+  ],
+  "skip": null,
+  "sameAs": {
+    "je-ever": null,
+    "je-the-more": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:18.085Z"
+}

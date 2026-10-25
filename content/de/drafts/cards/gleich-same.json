@@ -1,0 +1,21 @@
+{
+  "id": "gleich-same",
+  "rank": 173,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "gleich",
+  "en": "same",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir haben das gleiche Auto.",
+    "en": "We have the same car."
+  },
+  "regional": null,
+  "trick": "GLEICH sounds like the end of alike, glye-ch: things that are alike are the same.",
+  "image": "/deck-de/img/gleich-same.webp",
+  "audio": {
+    "word": "/deck-de/audio/gleich-same.word.mp3",
+    "sentence": "/deck-de/audio/gleich-same.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 734,
+  "word": "heraus",
+  "cards": [
+    "heraus-out"
+  ],
+  "skip": null,
+  "sameAs": {
+    "heraus-out": "fuera-out"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:38.221Z"
+}

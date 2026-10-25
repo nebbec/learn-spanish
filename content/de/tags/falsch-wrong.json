@@ -1,0 +1,14 @@
+{
+  "id": "falsch-wrong",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1d4f993a627c51e2",
+  "group": "#320 falsch",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:52.895Z"
+}

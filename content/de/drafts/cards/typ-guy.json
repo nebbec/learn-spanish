@@ -1,0 +1,25 @@
+{
+  "id": "typ-guy",
+  "rank": 317,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Typ",
+  "en": "guy",
+  "hint": "informal, a man you don't know",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Typen"
+  },
+  "example": {
+    "target": "Wer ist der Typ da drüben?",
+    "en": "Who's that guy over there?"
+  },
+  "regional": null,
+  "trick": "TYP is spelled like type minus the e: some guy is just a certain type of man.",
+  "image": "/deck-de/img/typ-guy.webp",
+  "audio": {
+    "word": "/deck-de/audio/typ-guy.word.mp3",
+    "sentence": "/deck-de/audio/typ-guy.sentence.mp3"
+  }
+}

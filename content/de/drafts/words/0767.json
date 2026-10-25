@@ -1,0 +1,17 @@
+{
+  "rank": 767,
+  "word": "wirken",
+  "cards": [
+    "wirken-seem",
+    "wirken-take-effect"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wirken-seem": "parecer-seem",
+    "wirken-take-effect": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:45.887Z"
+}

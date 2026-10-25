@@ -1,0 +1,14 @@
+{
+  "id": "eher-rather",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use eher for more like or more likely; use lieber for what you'd prefer to do.",
+  "draft": "7514dacff4c84f9e",
+  "group": "#640 eher",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:01.181Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 797,
+  "word": "treiben",
+  "cards": [
+    "treiben-drive",
+    "treiben-be-up-to"
+  ],
+  "skip": null,
+  "sameAs": {
+    "treiben-drive": null,
+    "treiben-be-up-to": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:46.278Z"
+}

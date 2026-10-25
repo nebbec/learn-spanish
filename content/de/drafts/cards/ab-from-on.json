@@ -1,0 +1,21 @@
+{
+  "id": "ab-from-on",
+  "rank": 168,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "ab",
+  "en": "[from] Monday on, I'm working again",
+  "hint": "starting from a time, not von",
+  "grammar": null,
+  "example": {
+    "target": "Ab Montag arbeite ich wieder.",
+    "en": "From Monday on, I'm working again."
+  },
+  "regional": null,
+  "trick": "AB sounds like \"up\": from Monday UP onward, everything starts from that point.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ab-from-on.word.mp3",
+    "sentence": "/deck-de/audio/ab-from-on.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "erzaehlen-tell",
+  "rank": 186,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erzählen",
+  "en": "to tell",
+  "hint": "a story, what happened",
+  "grammar": {
+    "present": {
+      "ich": "erzähle",
+      "du": "erzählst",
+      "er": "erzählt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erzählt"
+    }
+  },
+  "example": {
+    "target": "Erzähl mir, was gestern passiert ist!",
+    "en": "Tell me what happened yesterday!"
+  },
+  "regional": null,
+  "trick": "ErZÄHLen sounds like air-TSAY-len, and that TSAYL is close to tale: you tell a tale.",
+  "image": "/deck-de/img/erzaehlen-tell.webp",
+  "audio": {
+    "word": "/deck-de/audio/erzaehlen-tell.word.mp3",
+    "sentence": "/deck-de/audio/erzaehlen-tell.sentence.mp3"
+  }
+}

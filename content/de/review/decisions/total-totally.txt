@@ -1,0 +1,30 @@
+# total-totally · rank 560 · total
+#
+# Why it was flagged:
+#   - One right answer: The hint's 'also total' is unclear: it reads as if it gives away the answer, or means the English adjective. It also doesn't rule out the casual synonyms voll, völlig and komplett, which are all right for 'totally tired'. Suggested fix: hint: casual, as in totally tired; the look-alike word, not voll, völlig or komplett
+# Reviewer's note (not a reason to flag): The trick puts the stress in the right place (to-TAHL), and the adverb total is also used as an adjective (ein totaler Fehler), which a later card could cover.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             total-totally
+kind:           content
+pos:            adverb
+target:         total
+en:             totally
+hint:           casual, as in totally tired; the look-alike word, not voll, völlig or komplett
+example.target: Ich bin heute total müde.
+example.en:     I'm totally tired today.
+regional.where:
+regional.text:
+trick:          TOTAL sounds like English total with the stress at the end, toh-TAHL: something total is totally done.
+
+# The draft this file was made from. Do not change it.
+draft: fdf0a7d9c96620b1

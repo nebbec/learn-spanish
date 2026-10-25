@@ -1,0 +1,17 @@
+{
+  "id": "koenig-king",
+  "rank": 489,
+  "word": "König",
+  "draft": "3c58a1598cd64173",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "king",
+    "example": "The king lives in a big castle."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:16.098Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "also-so",
+  "rank": 85,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "also",
+  "en": "[so], what are we doing now?",
+  "hint": "to sum up or draw a conclusion, not so",
+  "grammar": null,
+  "example": {
+    "target": "Also, was machen wir jetzt?",
+    "en": "So, what are we doing now?"
+  },
+  "regional": null,
+  "trick": "ALSO, said AL-zo, is a false friend: it never means also, it means so, and it even ends in the sound so.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/also-so.word.mp3",
+    "sentence": "/deck-de/audio/also-so.sentence.mp3"
+  }
+}

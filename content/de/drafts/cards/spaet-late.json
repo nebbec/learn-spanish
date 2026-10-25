@@ -1,0 +1,21 @@
+{
+  "id": "spaet-late",
+  "rank": 373,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "spät",
+  "en": "late",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Es ist schon spät, ich gehe ins Bett.",
+    "en": "It's already late, I'm going to bed."
+  },
+  "regional": null,
+  "trick": "SPÄT sounds like shpate: a spate of late nights leaves you tired.",
+  "image": "/deck-de/img/spaet-late.webp",
+  "audio": {
+    "word": "/deck-de/audio/spaet-late.word.mp3",
+    "sentence": "/deck-de/audio/spaet-late.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hoch-high",
+  "rank": 296,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "hoch",
+  "en": "high",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Der Berg ist echt hoch.",
+    "en": "The mountain is really high."
+  },
+  "regional": null,
+  "trick": "HOCH sounds a bit like hawk: a hawk flies high in the sky.",
+  "image": "/deck-de/img/hoch-high.webp",
+  "audio": {
+    "word": "/deck-de/audio/hoch-high.word.mp3",
+    "sentence": "/deck-de/audio/hoch-high.sentence.mp3"
+  }
+}

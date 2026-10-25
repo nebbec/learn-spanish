@@ -1,0 +1,25 @@
+{
+  "id": "blut-blood",
+  "rank": 450,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Blut",
+  "en": "blood",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": null
+  },
+  "example": {
+    "target": "Da ist Blut auf deinem Hemd.",
+    "en": "There's blood on your shirt."
+  },
+  "regional": null,
+  "trick": "BLUT sounds like bloot, almost the English word blood with a hard t at the end.",
+  "image": "/deck-de/img/blut-blood.webp",
+  "audio": {
+    "word": "/deck-de/audio/blut-blood.word.mp3",
+    "sentence": "/deck-de/audio/blut-blood.sentence.mp3"
+  }
+}

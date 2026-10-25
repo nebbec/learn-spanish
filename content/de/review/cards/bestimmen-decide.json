@@ -1,0 +1,17 @@
+{
+  "id": "bestimmen-decide",
+  "rank": 620,
+  "word": "bestimmen",
+  "draft": "8ccff15979e4827d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to determine, to decide (to be the one who has the say)",
+    "example": "I decide here, not you."
+  },
+  "note": "The hint is needed here: it rules out entscheiden and points to the \"having the say\" sense, and decidir-decide is close enough for a picture of someone deciding.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:18.830Z"
+}

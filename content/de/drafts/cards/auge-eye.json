@@ -1,0 +1,25 @@
+{
+  "id": "auge-eye",
+  "rank": 285,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Auge",
+  "en": "eye",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Augen"
+  },
+  "example": {
+    "target": "Ich habe etwas im Auge.",
+    "en": "I've got something in my eye."
+  },
+  "regional": null,
+  "trick": "AUGE sounds like OW-guh: you yell ow when something gets in your eye.",
+  "image": "/deck-de/img/auge-eye.webp",
+  "audio": {
+    "word": "/deck-de/audio/auge-eye.word.mp3",
+    "sentence": "/deck-de/audio/auge-eye.sentence.mp3"
+  }
+}

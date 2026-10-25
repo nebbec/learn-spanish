@@ -1,0 +1,25 @@
+{
+  "id": "grund-reason",
+  "rank": 318,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Grund",
+  "en": "reason",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Gründe"
+  },
+  "example": {
+    "target": "Ich habe einen guten Grund dafür.",
+    "en": "I have a good reason for it."
+  },
+  "regional": null,
+  "trick": "GRUND sounds like ground, said groont: the grounds for doing something are your reason.",
+  "image": "/deck-de/img/grund-reason.webp",
+  "audio": {
+    "word": "/deck-de/audio/grund-reason.word.mp3",
+    "sentence": "/deck-de/audio/grund-reason.sentence.mp3"
+  }
+}

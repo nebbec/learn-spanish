@@ -1,0 +1,25 @@
+{
+  "id": "foto-photo",
+  "rank": 550,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Foto",
+  "en": "photo",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Fotos"
+  },
+  "example": {
+    "target": "Zeig mir mal das Foto!",
+    "en": "Show me the photo!"
+  },
+  "regional": null,
+  "trick": "FOTO sounds just like photo, and that's exactly what it means: a picture you take with a camera.",
+  "image": "/deck-de/img/foto-photo.webp",
+  "audio": {
+    "word": "/deck-de/audio/foto-photo.word.mp3",
+    "sentence": "/deck-de/audio/foto-photo.sentence.mp3"
+  }
+}

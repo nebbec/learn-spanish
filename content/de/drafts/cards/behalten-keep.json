@@ -1,0 +1,33 @@
+{
+  "id": "behalten-keep",
+  "rank": 569,
+  "kind": "content",
+  "pos": "verb",
+  "target": "behalten",
+  "en": "to keep",
+  "hint": "hold on to, not give back",
+  "grammar": {
+    "present": {
+      "ich": "behalte",
+      "du": "behältst",
+      "er": "behält"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "behalten"
+    }
+  },
+  "example": {
+    "target": "Ich behalte das Foto.",
+    "en": "I'm keeping the photo."
+  },
+  "regional": null,
+  "trick": "BeHALTen has halten in it, which sounds like \"hold\": to keep is to hold on to something.",
+  "image": "/deck-de/img/behalten-keep.webp",
+  "audio": {
+    "word": "/deck-de/audio/behalten-keep.word.mp3",
+    "sentence": "/deck-de/audio/behalten-keep.sentence.mp3"
+  }
+}

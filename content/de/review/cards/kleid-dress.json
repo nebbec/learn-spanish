@@ -1,0 +1,17 @@
+{
+  "id": "kleid-dress",
+  "rank": 766,
+  "word": "Kleid",
+  "draft": "5aa587fd88fdf05d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dress (a woman's one-piece garment)",
+    "example": "The dress looks great on you."
+  },
+  "note": "The plural die Kleider can also mean clothes in general (as in Kleider machen Leute), which the editor might mention somewhere, though it doesn't make this card wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:09.182Z"
+}

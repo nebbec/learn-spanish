@@ -1,0 +1,33 @@
+{
+  "id": "verlieren-lose",
+  "rank": 240,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verlieren",
+  "en": "to lose",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verliere",
+      "du": "verlierst",
+      "er": "verliert"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verloren"
+    }
+  },
+  "example": {
+    "target": "Ich habe meinen Schlüssel verloren.",
+    "en": "I've lost my key."
+  },
+  "regional": null,
+  "trick": "VERLIEREN sounds like \"fair LEER-en\": when a game isn't fair, you leer at the winner because you lose.",
+  "image": "/deck-de/img/verlieren-lose.webp",
+  "audio": {
+    "word": "/deck-de/audio/verlieren-lose.word.mp3",
+    "sentence": "/deck-de/audio/verlieren-lose.sentence.mp3"
+  }
+}

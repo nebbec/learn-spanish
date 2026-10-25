@@ -1,0 +1,14 @@
+{
+  "id": "schrecklich-terrible",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8643d8dfd0a5336d",
+  "group": "#589 schrecklich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:07.854Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "zuerst-first",
+  "rank": 506,
+  "word": "zuerst",
+  "draft": "3d92c6b6d0aea7ac",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint only rules out the adjective (erste), so the colloquial erst (Erst essen wir...), the more formal zunächst and the list word erstens could also answer 'first, before anything else'.",
+      "fix": "hint: before anything else, as in first we eat, then...; not erst, erstens or zunächst"
+    }
+  ],
+  "back": {
+    "target": "first, at first (adverb: before anything else)",
+    "example": "First we'll eat, then we'll go to the movies."
+  },
+  "note": "Leaving sameAs null is defensible: primero-first most likely shows the ordinal adjective (first place), and this card explicitly excludes the adjective.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:50.228Z"
+}

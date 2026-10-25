@@ -1,0 +1,17 @@
+{
+  "id": "ansehen-look-at",
+  "rank": 557,
+  "word": "ansehen",
+  "draft": "97bdd8dbf0263581",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to look at (also to watch, as in sich etwas ansehen)",
+    "example": "I'm taking a look at the photo."
+  },
+  "note": "The hint \"an- + to see\" is needed because it rules out anschauen, angucken and betrachten; the regional note could also name Switzerland, since anschauen is preferred there and in southern Germany too.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:57.715Z"
+}

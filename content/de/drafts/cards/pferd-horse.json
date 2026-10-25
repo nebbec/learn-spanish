@@ -1,0 +1,25 @@
+{
+  "id": "pferd-horse",
+  "rank": 627,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Pferd",
+  "en": "horse",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Pferde"
+  },
+  "example": {
+    "target": "Kannst du ein Pferd reiten?",
+    "en": "Can you ride a horse?"
+  },
+  "regional": null,
+  "trick": "PFERD sounds like \"fair-t\": picture a horse winning first prize at the county fair.",
+  "image": "/deck-de/img/pferd-horse.webp",
+  "audio": {
+    "word": "/deck-de/audio/pferd-horse.word.mp3",
+    "sentence": "/deck-de/audio/pferd-horse.sentence.mp3"
+  }
+}

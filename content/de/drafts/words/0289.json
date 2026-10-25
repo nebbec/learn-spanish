@@ -1,0 +1,15 @@
+{
+  "rank": 289,
+  "word": "einzig",
+  "cards": [
+    "einzig-only"
+  ],
+  "skip": null,
+  "sameAs": {
+    "einzig-only": "unico-only"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:13.847Z"
+}

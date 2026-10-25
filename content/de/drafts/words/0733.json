@@ -1,0 +1,15 @@
+{
+  "rank": 733,
+  "word": "erhalten",
+  "cards": [
+    "erhalten-receive"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erhalten-receive": "recibir-receive"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:34.772Z"
+}

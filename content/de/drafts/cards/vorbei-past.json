@@ -1,0 +1,21 @@
+{
+  "id": "vorbei-past",
+  "rank": 367,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "vorbei",
+  "en": "past, by",
+  "hint": "moving past something",
+  "grammar": null,
+  "example": {
+    "target": "Der Bus fährt an uns vorbei.",
+    "en": "The bus drives past us."
+  },
+  "regional": null,
+  "trick": "VORBEI sounds like for bye: you wave bye as a friend goes past you.",
+  "image": "/deck-de/img/vorbei-past.webp",
+  "audio": {
+    "word": "/deck-de/audio/vorbei-past.word.mp3",
+    "sentence": "/deck-de/audio/vorbei-past.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "endlich-finally",
+  "rank": 399,
+  "word": "endlich",
+  "draft": "b5943933af31710c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "finally, at last",
+    "example": "Finally you're here! (You're here at last!)"
+  },
+  "note": "The hint is needed because it rules out schließlich and zuletzt (finally as in lastly or in the end), so that only endlich fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:12.179Z"
+}

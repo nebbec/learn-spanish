@@ -1,0 +1,34 @@
+# schiff-ship · rank 468 · Schiff
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: barco-boat is prompted as "boat", and its picture will likely show a small boat, which in German is das Boot, not das Schiff; nave-ship means mainly a spaceship, so no Spanish card means exactly ship.
+# Reviewer's note (not a reason to flag): The trick is a bit loose, because Schiff sounds like ship with the p swapped for an f rather than with an f added at the end; it could read "SCHIFF sounds like \"ship\" with an f instead of the p: a big ship sailing off."
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0468.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             schiff-ship
+kind:           content
+pos:            noun
+target:         das Schiff
+en:             ship
+hint:
+gender:         n
+article:        das
+plural:         die Schiffe
+example.target: Das Schiff fährt um acht Uhr ab.
+example.en:     The ship leaves at eight o'clock.
+regional.where:
+regional.text:
+trick:          SCHIFF sounds like "ship" with an f at the end: a big ship sailing off.
+
+# The draft this file was made from. Do not change it.
+draft: dd7b0090a298341c

@@ -1,0 +1,17 @@
+{
+  "id": "polizist-police-officer",
+  "rank": 787,
+  "word": "Polizist",
+  "draft": "859894d534569f2c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "police officer, policeman (a male police officer)",
+    "example": "Just ask the policeman over there!"
+  },
+  "note": "The example nicely shows the weak-noun accusative den Polizisten, which is worth pointing out to learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:00.944Z"
+}

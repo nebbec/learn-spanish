@@ -1,0 +1,17 @@
+{
+  "id": "dabei-on-me",
+  "rank": 272,
+  "word": "dabei",
+  "draft": "e31180f7d32cb108",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with you, on you (having something with you); also present, there, taking part",
+    "example": "I don't have any money on me."
+  },
+  "note": "The one-word hint correctly rules out \"bei dir\". The colloquial southern and Austrian \"Hast du dein Handy mit?\" is a regional alternative, but it is not standard in Germany, so the card is fine as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:09.367Z"
+}

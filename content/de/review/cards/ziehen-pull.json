@@ -1,0 +1,17 @@
+{
+  "id": "ziehen-pull",
+  "rank": 256,
+  "word": "ziehen",
+  "draft": "dd2a84f0ba35c0a5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to pull",
+    "example": "You have to pull on the door, not push."
+  },
+  "note": "The Perfekt aux haben is right for \"to pull\", but the sister card \"to move\" needs sein (ist gezogen), so check that card's grammar separately.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:42:26.771Z"
+}

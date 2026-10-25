@@ -1,0 +1,25 @@
+{
+  "id": "geschichte-story",
+  "rank": 365,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Geschichte",
+  "en": "story",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Geschichten"
+  },
+  "example": {
+    "target": "Erzähl mir eine Geschichte!",
+    "en": "Tell me a story!"
+  },
+  "regional": null,
+  "trick": "GESCHICHTE sounds like the verb geschehen, to happen: a story tells you what happened.",
+  "image": "/deck-de/img/geschichte-story.webp",
+  "audio": {
+    "word": "/deck-de/audio/geschichte-story.word.mp3",
+    "sentence": "/deck-de/audio/geschichte-story.sentence.mp3"
+  }
+}

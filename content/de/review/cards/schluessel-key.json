@@ -1,0 +1,17 @@
+{
+  "id": "schluessel-key",
+  "rank": 631,
+  "word": "Schlüssel",
+  "draft": "49002fd010449b5b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "key (for a lock)",
+    "example": "I can't find my key."
+  },
+  "note": "Leaving out the hint is fine, because a plain \"key\" means a key for a lock, which is Schlüssel, not Taste (a keyboard key) or Tonart (a musical key).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:12.964Z"
+}

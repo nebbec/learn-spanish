@@ -1,0 +1,14 @@
+{
+  "id": "legen-lay",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use legen for putting something down flat; stellen for setting it upright.",
+  "draft": "3bc8098c6109745f",
+  "group": "#349 legen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:47.790Z"
+}

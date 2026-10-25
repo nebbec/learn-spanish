@@ -1,0 +1,21 @@
+{
+  "id": "tatsaechlich-indeed",
+  "rank": 728,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "tatsächlich",
+  "en": "indeed, actually",
+  "hint": "it really is true",
+  "grammar": null,
+  "example": {
+    "target": "Du hast tatsächlich recht.",
+    "en": "You're actually right."
+  },
+  "regional": null,
+  "trick": "TATsächlich starts with Tat, a deed: what is done in deed is true, so indeed.",
+  "image": "/deck-de/img/tatsaechlich-indeed.webp",
+  "audio": {
+    "word": "/deck-de/audio/tatsaechlich-indeed.word.mp3",
+    "sentence": "/deck-de/audio/tatsaechlich-indeed.sentence.mp3"
+  }
+}

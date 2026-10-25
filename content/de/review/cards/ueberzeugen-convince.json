@@ -1,0 +1,17 @@
+{
+  "id": "ueberzeugen-convince",
+  "rank": 798,
+  "word": "überzeugen",
+  "draft": "40a81d9234e5e3e0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to convince, to persuade (someone that something is true)",
+    "example": "Okay, you've convinced me."
+  },
+  "note": "The verb is inseparable, so the participle überzeugt has no ge-, which the card gets right; überreden (to talk someone into something) is a different word, so the prompt to convince still has one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:28:04.337Z"
+}

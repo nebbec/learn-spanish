@@ -1,0 +1,17 @@
+{
+  "id": "deswegen-thats-why",
+  "rank": 574,
+  "word": "deswegen",
+  "draft": "a52fdd8c3fb8d433",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "that's why, therefore, for that reason",
+    "example": "I'm tired, that's why I'm staying home."
+  },
+  "note": "The hint is needed, because deshalb, darum and daher would all fit the bare prompt, and pointing to wegen leaves deswegen as the only answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:13.242Z"
+}

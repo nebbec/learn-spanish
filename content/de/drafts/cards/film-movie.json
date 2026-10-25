@@ -1,0 +1,25 @@
+{
+  "id": "film-movie",
+  "rank": 470,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Film",
+  "en": "movie",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Filme"
+  },
+  "example": {
+    "target": "Wollen wir heute Abend einen Film schauen?",
+    "en": "Shall we watch a movie tonight?"
+  },
+  "regional": null,
+  "trick": "FILM sounds just like the English word film, and a film is a movie.",
+  "image": "/deck-de/img/film-movie.webp",
+  "audio": {
+    "word": "/deck-de/audio/film-movie.word.mp3",
+    "sentence": "/deck-de/audio/film-movie.sentence.mp3"
+  }
+}

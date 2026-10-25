@@ -1,0 +1,15 @@
+{
+  "rank": 727,
+  "word": "Beweis",
+  "cards": [
+    "beweis-proof"
+  ],
+  "skip": null,
+  "sameAs": {
+    "beweis-proof": "prueba-proof"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:15.690Z"
+}

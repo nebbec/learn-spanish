@@ -1,0 +1,25 @@
+{
+  "id": "fenster-window",
+  "rank": 763,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Fenster",
+  "en": "window",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Fenster"
+  },
+  "example": {
+    "target": "Mach bitte das Fenster zu.",
+    "en": "Please close the window."
+  },
+  "regional": null,
+  "trick": "FENSTER is hidden in defenestrate, which means to throw someone out of a window.",
+  "image": "/deck-de/img/fenster-window.webp",
+  "audio": {
+    "word": "/deck-de/audio/fenster-window.word.mp3",
+    "sentence": "/deck-de/audio/fenster-window.sentence.mp3"
+  }
+}

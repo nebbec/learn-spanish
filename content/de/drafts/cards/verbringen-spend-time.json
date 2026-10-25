@@ -1,0 +1,33 @@
+{
+  "id": "verbringen-spend-time",
+  "rank": 707,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verbringen",
+  "en": "to spend (time)",
+  "hint": "time, not money",
+  "grammar": {
+    "present": {
+      "ich": "verbringe",
+      "du": "verbringst",
+      "er": "verbringt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verbracht"
+    }
+  },
+  "example": {
+    "target": "Wir verbringen das Wochenende bei meinen Eltern.",
+    "en": "We're spending the weekend at my parents' place."
+  },
+  "regional": null,
+  "trick": "VERBRINGEN has BRING in the middle: you bring your hours somewhere and spend them there.",
+  "image": "/deck-de/img/verbringen-spend-time.webp",
+  "audio": {
+    "word": "/deck-de/audio/verbringen-spend-time.word.mp3",
+    "sentence": "/deck-de/audio/verbringen-spend-time.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "typ-guy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6849cfdc8e8f9351",
+  "group": "#317 Typ",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:48.357Z"
+}

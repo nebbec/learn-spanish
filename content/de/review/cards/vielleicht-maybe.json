@@ -1,0 +1,17 @@
+{
+  "id": "vielleicht-maybe",
+  "rank": 103,
+  "word": "vielleicht",
+  "draft": "4c5e60d1f9c0ab97",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "maybe, perhaps",
+    "example": "Maybe I'll come by tomorrow."
+  },
+  "note": "Vielleicht can also be a modal particle that adds emphasis (\"Du bist vielleicht lustig!\"); that use could get its own glue card later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:27.452Z"
+}

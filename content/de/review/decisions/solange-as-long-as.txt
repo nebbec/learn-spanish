@@ -1,0 +1,30 @@
+# solange-as-long-as · rank 677 · solange
+#
+# Why it was flagged:
+#   - One right answer: Without a hint, 'Du kannst bleiben, wie lange du willst' is just as natural and common in German, so a learner could correctly answer 'wie lange' instead of solange. Suggested fix: hint: one word
+# Reviewer's note (not a reason to flag): The example sentence is the same as the prompt, which is fine, though a different sentence such as one with the 'provided that' sense could show the word's second common use.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             solange-as-long-as
+kind:           glue
+pos:            conjunction
+target:         solange
+en:             You can stay [as long as] you want.
+hint:           one word
+example.target: Du kannst bleiben, solange du willst.
+example.en:     You can stay as long as you want.
+regional.where:
+regional.text:
+trick:          SOLANGE sounds like zo-LANG-uh, close to "so long": stay so long, as long as you like.
+
+# The draft this file was made from. Do not change it.
+draft: 85fcc3c4bf49d8c1

@@ -1,0 +1,25 @@
+{
+  "id": "nachricht-news",
+  "rank": 456,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Nachricht",
+  "en": "news",
+  "hint": "a piece of news; plural for the TV news",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Nachrichten"
+  },
+  "example": {
+    "target": "Ich habe eine gute Nachricht für dich!",
+    "en": "I have good news for you!"
+  },
+  "regional": null,
+  "trick": "NACHRICHTEN sounds like \"knock-rikh-ten\": the evening news knocks at ten, right on time.",
+  "image": "/deck-de/img/nachricht-news.webp",
+  "audio": {
+    "word": "/deck-de/audio/nachricht-news.word.mp3",
+    "sentence": "/deck-de/audio/nachricht-news.sentence.mp3"
+  }
+}

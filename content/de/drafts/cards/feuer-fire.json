@@ -1,0 +1,25 @@
+{
+  "id": "feuer-fire",
+  "rank": 499,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Feuer",
+  "en": "fire",
+  "hint": "flames",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Feuer"
+  },
+  "example": {
+    "target": "Wir machen heute Abend ein Feuer im Garten.",
+    "en": "We're making a fire in the garden tonight."
+  },
+  "regional": null,
+  "trick": "FEUER sounds like foyer: picture a big fire crackling in a hotel foyer.",
+  "image": "/deck-de/img/feuer-fire.webp",
+  "audio": {
+    "word": "/deck-de/audio/feuer-fire.word.mp3",
+    "sentence": "/deck-de/audio/feuer-fire.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "finden-find",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3a8d77ebc4264901",
+  "group": "#95 finden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:28.124Z"
+}

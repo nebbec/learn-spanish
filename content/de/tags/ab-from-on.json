@@ -1,0 +1,14 @@
+{
+  "id": "ab-from-on",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ab for a starting point from now on; von for who or where something comes from.",
+  "draft": "6f0b60ec8c0f13b0",
+  "group": "#168 ab",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:31.198Z"
+}

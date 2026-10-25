@@ -1,0 +1,17 @@
+{
+  "id": "jeder-every",
+  "rank": 125,
+  "word": "jeder",
+  "draft": "26787136d1299762",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "every, each (masculine nominative determiner)",
+    "example": "Every day is different."
+  },
+  "note": "The example sentence repeats the prompt word for word; that's allowed, but a different sentence (e.g. \"Jeder Mensch ist anders.\") would give the learner more to read.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:08.180Z"
+}

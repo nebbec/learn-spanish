@@ -1,0 +1,17 @@
+{
+  "rank": 665,
+  "word": "Karte",
+  "cards": [
+    "karte-card",
+    "karte-map"
+  ],
+  "skip": null,
+  "sameAs": {
+    "karte-card": "carta-playing-card",
+    "karte-map": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:05:19.286Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "halten-think-of",
+  "rank": 156,
+  "kind": "content",
+  "pos": "verb",
+  "target": "halten",
+  "en": "to think of",
+  "hint": "have an opinion of, used with von",
+  "grammar": {
+    "present": {
+      "ich": "halte",
+      "du": "hältst",
+      "er": "hält"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehalten"
+    }
+  },
+  "example": {
+    "target": "Was hältst du von meinem neuen Freund?",
+    "en": "What do you think of my new boyfriend?"
+  },
+  "regional": null,
+  "trick": "HALTEN sounds like hold: what opinion do you hold of it?",
+  "image": "/deck-de/img/halten-think-of.webp",
+  "audio": {
+    "word": "/deck-de/audio/halten-think-of.word.mp3",
+    "sentence": "/deck-de/audio/halten-think-of.sentence.mp3"
+  }
+}

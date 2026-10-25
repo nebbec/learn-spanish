@@ -1,0 +1,17 @@
+{
+  "id": "verlieben-in-love",
+  "rank": 741,
+  "word": "verlieben",
+  "draft": "8a8f85698a3720ab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "in love (adjective; the participle of sich verlieben)",
+    "example": "Are you in love, perhaps?"
+  },
+  "note": "The adjective verliebt is clearly different from the word's other card, \"to fall in love\" (sich verlieben), so the two prompts do not overlap.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:19.599Z"
+}

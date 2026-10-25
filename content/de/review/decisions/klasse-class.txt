@@ -1,0 +1,34 @@
+# klasse-class · rank 650 · Klasse
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card clase-class means a lesson at school, but German Klasse here means a group of students and does not mean a lesson (that is Unterricht or Stunde), so the picture does not match this card's meaning.
+# Reviewer's note (not a reason to flag): The hint is needed to keep this card apart from the word's card for "great" and from other kinds of class, and it does that well.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0650.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             klasse-class
+kind:           content
+pos:            noun
+target:         die Klasse
+en:             class
+hint:           a group of students at school
+gender:         f
+article:        die
+plural:         die Klassen
+example.target: Wir sind in derselben Klasse.
+example.en:     We're in the same class.
+regional.where:
+regional.text:
+trick:          KLASSE sounds like class with an extra uh on the end, and it means a school class.
+
+# The draft this file was made from. Do not change it.
+draft: 7a2f2d82a09579a1

@@ -1,0 +1,33 @@
+{
+  "id": "fahren-go-by-vehicle",
+  "rank": 154,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fahren",
+  "en": "to go (by vehicle)",
+  "hint": "by car, bus, train or bike, not on foot",
+  "grammar": {
+    "present": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er": "fährt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gefahren"
+    }
+  },
+  "example": {
+    "target": "Wir fahren morgen mit dem Zug nach Berlin.",
+    "en": "We're going to Berlin by train tomorrow."
+  },
+  "regional": null,
+  "trick": "FAHREN sounds like fare: you pay a fare when you go somewhere by bus or train.",
+  "image": "/deck-de/img/fahren-go-by-vehicle.webp",
+  "audio": {
+    "word": "/deck-de/audio/fahren-go-by-vehicle.word.mp3",
+    "sentence": "/deck-de/audio/fahren-go-by-vehicle.sentence.mp3"
+  }
+}

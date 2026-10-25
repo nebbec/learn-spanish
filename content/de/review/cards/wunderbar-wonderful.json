@@ -1,0 +1,17 @@
+{
+  "id": "wunderbar-wonderful",
+  "rank": 611,
+  "word": "wunderbar",
+  "draft": "4ba6adf3ce9db8b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "wonderful, marvellous",
+    "example": "The food was wonderful, thank you!"
+  },
+  "note": "Wundervoll is a less common synonym, but wunderbar is clearly the standard answer for \"wonderful\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:20.263Z"
+}

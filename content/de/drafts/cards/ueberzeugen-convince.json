@@ -1,0 +1,33 @@
+{
+  "id": "ueberzeugen-convince",
+  "rank": 798,
+  "kind": "content",
+  "pos": "verb",
+  "target": "überzeugen",
+  "en": "to convince",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "überzeuge",
+      "du": "überzeugst",
+      "er": "überzeugt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überzeugt"
+    }
+  },
+  "example": {
+    "target": "Okay, du hast mich überzeugt.",
+    "en": "Okay, you've convinced me."
+  },
+  "regional": null,
+  "trick": "ÜBERZEUGEN starts with ÜBER, meaning over: to convince someone is to win them over to your side.",
+  "image": "/deck-de/img/ueberzeugen-convince.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberzeugen-convince.word.mp3",
+    "sentence": "/deck-de/audio/ueberzeugen-convince.sentence.mp3"
+  }
+}

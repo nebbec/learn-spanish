@@ -1,0 +1,25 @@
+{
+  "id": "ruhe-peace-quiet",
+  "rank": 375,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Ruhe",
+  "en": "peace and quiet",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Ich brauche einfach mal Ruhe.",
+    "en": "I just need some peace and quiet."
+  },
+  "regional": null,
+  "trick": "RUHE sounds like ROO-eh: a kangaroo napping in the shade, finally enjoying some peace and quiet.",
+  "image": "/deck-de/img/ruhe-peace-quiet.webp",
+  "audio": {
+    "word": "/deck-de/audio/ruhe-peace-quiet.word.mp3",
+    "sentence": "/deck-de/audio/ruhe-peace-quiet.sentence.mp3"
+  }
+}

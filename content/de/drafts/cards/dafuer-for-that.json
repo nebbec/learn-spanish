@@ -1,0 +1,21 @@
+{
+  "id": "dafuer-for-that",
+  "rank": 225,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "dafür",
+  "en": "thanks [for that]",
+  "hint": "one word",
+  "grammar": null,
+  "example": {
+    "target": "Danke dafür, das war echt nett.",
+    "en": "Thanks for that, that was really nice."
+  },
+  "regional": null,
+  "trick": "DAFÜR sounds like dah-FUER: DA means there or that and FÜR sounds a bit like for, so it means for that.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dafuer-for-that.word.mp3",
+    "sentence": "/deck-de/audio/dafuer-for-that.sentence.mp3"
+  }
+}

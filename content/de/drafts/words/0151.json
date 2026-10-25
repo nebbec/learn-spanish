@@ -1,0 +1,15 @@
+{
+  "rank": 151,
+  "word": "alt",
+  "cards": [
+    "alt-old"
+  ],
+  "skip": null,
+  "sameAs": {
+    "alt-old": "viejo-old"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:19.658Z"
+}

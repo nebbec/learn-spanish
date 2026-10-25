@@ -1,0 +1,14 @@
+{
+  "id": "passen-fit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use passen when clothes are the right size; stehen when they look good on someone.",
+  "draft": "f5643448e6838c15",
+  "group": "#281 passen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:35.701Z"
+}

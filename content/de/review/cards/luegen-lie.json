@@ -1,0 +1,17 @@
+{
+  "id": "luegen-lie",
+  "rank": 415,
+  "word": "lügen",
+  "draft": "fd4cbf758a9bf83d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to lie, to tell a lie",
+    "example": "You're lying, though! / But you're lying!"
+  },
+  "note": "The hint is needed: without it, \"to lie\" could also mean liegen (to lie down).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:27.101Z"
+}

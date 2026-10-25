@@ -1,0 +1,21 @@
+{
+  "id": "uns-us",
+  "rank": 55,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "uns",
+  "en": "can you help [us]?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Kommst du heute Abend mit uns ins Kino?",
+    "en": "Are you coming to the cinema with us tonight?"
+  },
+  "regional": null,
+  "trick": "UNS sounds like oonss: it is just English us with an n slipped in the middle.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/uns-us.word.mp3",
+    "sentence": "/deck-de/audio/uns-us.sentence.mp3"
+  }
+}

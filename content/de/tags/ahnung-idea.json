@@ -1,0 +1,14 @@
+{
+  "id": "ahnung-idea",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Ahnung for having a clue (keine Ahnung); use Idee for an idea you come up with.",
+  "draft": "41fc497fa915e89f",
+  "group": "#346 Ahnung",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:43.221Z"
+}

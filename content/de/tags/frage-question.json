@@ -1,0 +1,14 @@
+{
+  "id": "frage-question",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "94bb9632f7c3913f",
+  "group": "#377 Frage",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:41.706Z"
+}

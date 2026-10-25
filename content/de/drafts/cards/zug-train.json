@@ -1,0 +1,25 @@
+{
+  "id": "zug-train",
+  "rank": 762,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Zug",
+  "en": "train",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Züge"
+  },
+  "example": {
+    "target": "Mein Zug hat schon wieder Verspätung.",
+    "en": "My train is late again."
+  },
+  "regional": null,
+  "trick": "ZUG sounds like tsook, close to tug: a train tugs its long line of carriages along the track.",
+  "image": "/deck-de/img/zug-train.webp",
+  "audio": {
+    "word": "/deck-de/audio/zug-train.word.mp3",
+    "sentence": "/deck-de/audio/zug-train.sentence.mp3"
+  }
+}

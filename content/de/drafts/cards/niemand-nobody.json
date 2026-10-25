@@ -1,0 +1,21 @@
+{
+  "id": "niemand-nobody",
+  "rank": 217,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "niemand",
+  "en": "[nobody] is at home",
+  "hint": "not keiner",
+  "grammar": null,
+  "example": {
+    "target": "Niemand hat mich angerufen.",
+    "en": "Nobody called me."
+  },
+  "regional": null,
+  "trick": "NIEMAND sounds like \"knee mant\": think \"no man\" standing there, so nobody at all.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/niemand-nobody.word.mp3",
+    "sentence": "/deck-de/audio/niemand-nobody.sentence.mp3"
+  }
+}

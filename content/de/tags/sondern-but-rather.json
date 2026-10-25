@@ -1,0 +1,14 @@
+{
+  "id": "sondern-but-rather",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sondern after a not to give the right alternative instead; aber is the ordinary but.",
+  "draft": "fa6c0c176065e56b",
+  "group": "#495 sondern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:47.131Z"
+}

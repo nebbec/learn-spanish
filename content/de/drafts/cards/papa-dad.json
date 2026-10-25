@@ -1,0 +1,25 @@
+{
+  "id": "papa-dad",
+  "rank": 484,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Papa",
+  "en": "dad",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Papas"
+  },
+  "example": {
+    "target": "Mein Papa holt mich heute ab.",
+    "en": "My dad is picking me up today."
+  },
+  "regional": null,
+  "trick": "PAPA sounds just like the English papa, the word kids use for their dad.",
+  "image": "/deck-de/img/papa-dad.webp",
+  "audio": {
+    "word": "/deck-de/audio/papa-dad.word.mp3",
+    "sentence": "/deck-de/audio/papa-dad.sentence.mp3"
+  }
+}

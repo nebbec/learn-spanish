@@ -1,0 +1,15 @@
+{
+  "rank": 728,
+  "word": "tatsächlich",
+  "cards": [
+    "tatsaechlich-indeed"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tatsaechlich-indeed": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:20.997Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "beginnen-begin",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Beginnen is a little more formal; in everyday talk anfangen is the usual word for start.",
+  "draft": "ee0ef0ed4e2ce69c",
+  "group": "#443 beginnen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:59.820Z"
+}

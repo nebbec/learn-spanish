@@ -1,0 +1,21 @@
+{
+  "id": "fertig-ready",
+  "rank": 284,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "fertig",
+  "en": "ready",
+  "hint": "everyday word, all set to go",
+  "grammar": null,
+  "example": {
+    "target": "Bist du fertig? Wir müssen los.",
+    "en": "Are you ready? We have to go."
+  },
+  "regional": null,
+  "trick": "FERTIG sounds like \"fair tick\": every item on your list has its tick, so you're ready to go.",
+  "image": "/deck-de/img/fertig-ready.webp",
+  "audio": {
+    "word": "/deck-de/audio/fertig-ready.word.mp3",
+    "sentence": "/deck-de/audio/fertig-ready.sentence.mp3"
+  }
+}

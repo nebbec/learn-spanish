@@ -1,0 +1,32 @@
+# fenster-window · rank 763 · Fenster
+#
+# Why it was flagged:
+#   - Memory trick: The trick says FENSTER is hidden in defenestrate, but it isn't: defenestrate contains fenestr (f-e-n-e-s-t-r), not fenster. Suggested fix: trick: Fenster comes from Latin fenestra, the root of defenestrate, which means to throw someone out of a window.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             fenster-window
+kind:           content
+pos:            noun
+target:         das Fenster
+en:             window
+hint:
+gender:         n
+article:        das
+plural:         die Fenster
+example.target: Mach bitte das Fenster zu.
+example.en:     Please close the window.
+regional.where:
+regional.text:
+trick:          Fenster comes from Latin fenestra, the root of defenestrate, which means to throw someone out of a window.
+
+# The draft this file was made from. Do not change it.
+draft: 0d3182188234e1ca

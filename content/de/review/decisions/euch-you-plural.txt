@@ -1,0 +1,30 @@
+# euch-you-plural · rank 105 · euch
+#
+# Why it was flagged:
+#   - One right answer: The hint 'you all, as the object' doesn't rule out the formal plural Sie (Ich rufe Sie später an), so it allows a second right answer. Suggested fix: hint: you all, informal, as the object
+# Reviewer's note (not a reason to flag): Using ihr/euch is fine here because the card is about the plural pronoun itself; anrufen takes the accusative, and euch is the same in accusative and dative.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             euch-you-plural
+kind:           glue
+pos:            pronoun
+target:         euch
+en:             I'll call [you] later
+hint:           you all, informal, as the object
+example.target: Ich rufe euch später an.
+example.en:     I'll call you guys later.
+regional.where:
+regional.text:
+trick:          EUCH sounds like OYCH, like shouting Oi! at a group: oi, I mean you lot.
+
+# The draft this file was made from. Do not change it.
+draft: a1aa1af97c176ccb

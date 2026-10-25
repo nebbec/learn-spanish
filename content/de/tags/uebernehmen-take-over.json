@@ -1,0 +1,14 @@
+{
+  "id": "uebernehmen-take-over",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "60134a102e7ed80c",
+  "group": "#602 übernehmen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:36.945Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "viel-a-lot",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use viel for an amount (a lot, much); sehr makes a word stronger (very, very much): sehr müde.",
+  "draft": "2a46c85474b4fbc0",
+  "group": "#77 viel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:56.962Z"
+}

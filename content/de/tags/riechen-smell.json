@@ -1,0 +1,14 @@
+{
+  "id": "riechen-smell",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "dfa645c676851fc7",
+  "group": "#740 riechen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:20.305Z"
+}

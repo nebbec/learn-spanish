@@ -1,0 +1,17 @@
+{
+  "id": "alt-old",
+  "rank": 151,
+  "word": "alt",
+  "draft": "736dea57068d92b4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "old",
+    "example": "My car is pretty old by now."
+  },
+  "note": "Here schon means \"by now\" more than \"already\", so \"My car is pretty old by now\" would read more naturally in English.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:53.735Z"
+}

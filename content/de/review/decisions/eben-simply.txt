@@ -1,0 +1,30 @@
+# eben-simply · rank 411 · eben
+#
+# Why it was flagged:
+#   - Usage in Germany: In this resigned-acceptance sense, eben is the northern and central German particle; in Austria and Switzerland people usually say halt instead, so regional should not be null. Suggested fix: regional: { where: "Austria, Switzerland", text: "halt is the usual particle here (Das ist halt so); eben in this sense sounds northern German." }
+# Reviewer's note (not a reason to flag): The hint rules out halt and einfach, and "the particle" rules out the two-word nun mal (Das ist nun mal so), so only eben is left.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             eben-simply
+kind:           glue
+pos:            other
+target:         eben
+en:             that's [just] how it is
+hint:           the particle; not halt or einfach
+example.target: Das ist eben so.
+example.en:     That's just how it is.
+regional.where: Austria
+regional.text:  halt is the usual particle here and in Switzerland (Das ist halt so); eben in this sense sounds northern German.
+trick:          EBEN sounds like even: it's even, flat, no way around it, that's just how it is.
+
+# The draft this file was made from. Do not change it.
+draft: 9b0e7f1a989dc2e5

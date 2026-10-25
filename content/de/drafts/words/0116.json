@@ -1,0 +1,17 @@
+{
+  "rank": 116,
+  "word": "bringen",
+  "cards": [
+    "bringen-bring",
+    "bringen-take"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bringen-bring": "traer-bring",
+    "bringen-take": "llevar-take-carry"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:20.091Z"
+}

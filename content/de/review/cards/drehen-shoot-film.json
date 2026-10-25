@@ -1,0 +1,17 @@
+{
+  "id": "drehen-shoot-film",
+  "rank": 592,
+  "word": "drehen",
+  "draft": "3a28c7b06994a90d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to turn, to rotate; to shoot (a film)",
+    "example": "We're shooting a scene in Berlin tomorrow."
+  },
+  "note": "The hint \"a film\" is needed because it rules out schießen (to shoot a gun); filmen is close, but drehen is the standard verb for shooting a film or scene, and the trick matches where the word comes from: hand-cranked cameras.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:39.873Z"
+}

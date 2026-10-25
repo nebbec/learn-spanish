@@ -1,0 +1,17 @@
+{
+  "id": "leicht-easy",
+  "rank": 471,
+  "word": "leicht",
+  "draft": "073dd2c27d135b6d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "easy; light (in weight)",
+    "example": "The exam was really easy."
+  },
+  "note": "The hint is needed here because \"easy\" alone could also be einfach, and pointing to the light-in-weight meaning rules that out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:49.594Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 173,
+  "word": "gleich",
+  "cards": [
+    "gleich-same",
+    "gleich-in-a-moment"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gleich-same": "mismo-same",
+    "gleich-in-a-moment": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:21.179Z"
+}

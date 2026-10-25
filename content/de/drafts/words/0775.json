@@ -1,0 +1,15 @@
+{
+  "rank": 775,
+  "word": "verpassen",
+  "cards": [
+    "verpassen-miss"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verpassen-miss": "perder-miss"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:15.192Z"
+}

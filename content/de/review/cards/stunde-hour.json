@@ -1,0 +1,23 @@
+{
+  "id": "stunde-hour",
+  "rank": 276,
+  "word": "Stunde",
+  "draft": "a29538ff0d0b93ee",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The respelling SHTOON-duh suggests a long oo vowel, but the u in Stunde is short, as in put, so a learner would memorize the wrong sound.",
+      "fix": "trick: STUNDE sounds like SHTUN-duh, close to stunned: waiting a whole hour left me stunned."
+    }
+  ],
+  "back": {
+    "target": "hour",
+    "example": "I've been waiting for an hour already."
+  },
+  "note": "Stunde also means a lesson or class period (Unterrichtsstunde), which could be its own card later; the example's \"schon\" is fine and adds the sense of \"already\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:43.421Z"
+}

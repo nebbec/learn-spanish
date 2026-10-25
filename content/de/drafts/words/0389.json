@@ -1,0 +1,17 @@
+{
+  "rank": 389,
+  "word": "vertrauen",
+  "cards": [
+    "vertrauen-trust",
+    "vertrauen-trust-noun"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vertrauen-trust": "confiar-trust",
+    "vertrauen-trust-noun": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:41.952Z"
+}

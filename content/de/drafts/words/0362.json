@@ -1,0 +1,15 @@
+{
+  "rank": 362,
+  "word": "runter",
+  "cards": [
+    "runter-down"
+  ],
+  "skip": null,
+  "sameAs": {
+    "runter-down": "abajo-down"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:42.770Z"
+}

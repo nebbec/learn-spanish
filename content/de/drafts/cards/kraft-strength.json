@@ -1,0 +1,25 @@
+{
+  "id": "kraft-strength",
+  "rank": 628,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Kraft",
+  "en": "strength, power",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Kräfte"
+  },
+  "example": {
+    "target": "Ich habe keine Kraft mehr.",
+    "en": "I have no strength left."
+  },
+  "regional": null,
+  "trick": "KRAFT sounds like craft: any real craft, like building a boat by hand, takes strength and power.",
+  "image": "/deck-de/img/kraft-strength.webp",
+  "audio": {
+    "word": "/deck-de/audio/kraft-strength.word.mp3",
+    "sentence": "/deck-de/audio/kraft-strength.sentence.mp3"
+  }
+}

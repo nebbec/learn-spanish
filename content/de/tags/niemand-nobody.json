@@ -1,0 +1,14 @@
+{
+  "id": "niemand-nobody",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d6561ba9de2ffcfe",
+  "group": "#217 niemand",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:14.371Z"
+}

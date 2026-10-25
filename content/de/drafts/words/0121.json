@@ -1,0 +1,15 @@
+{
+  "rank": 121,
+  "word": "warten",
+  "cards": [
+    "warten-wait"
+  ],
+  "skip": null,
+  "sameAs": {
+    "warten-wait": "esperar-wait"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:43.019Z"
+}

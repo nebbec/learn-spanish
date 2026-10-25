@@ -1,0 +1,15 @@
+{
+  "rank": 339,
+  "word": "Idee",
+  "cards": [
+    "idee-idea"
+  ],
+  "skip": null,
+  "sameAs": {
+    "idee-idea": "idea-idea"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:31.603Z"
+}

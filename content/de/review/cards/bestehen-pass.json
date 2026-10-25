@@ -1,0 +1,23 @@
+{
+  "id": "bestehen-pass",
+  "rank": 676,
+  "word": "bestehen",
+  "draft": "7eac825df44ad6fb",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "For passing an exam, everyday German also very often uses schaffen (Hast du die Prüfung geschafft?), and the hint does not rule it out.",
+      "fix": "hint: an exam, a test; the exact word, not schaffen"
+    }
+  ],
+  "back": {
+    "target": "to pass (an exam or test); also to exist, to insist (auf), to consist (aus)",
+    "example": "Did you pass the exam?"
+  },
+  "note": "The Spanish card pasar-pass means to go by or go through, not to pass an exam, so leaving sameAs null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:10.148Z"
+}

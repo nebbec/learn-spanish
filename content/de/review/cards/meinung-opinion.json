@@ -1,0 +1,17 @@
+{
+  "id": "meinung-opinion",
+  "rank": 700,
+  "word": "Meinung",
+  "draft": "270f479ce0ee013d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "opinion",
+    "example": "What's your opinion on it?"
+  },
+  "note": "Ansicht also means opinion, but Meinung is clearly the everyday word for a bare \"opinion\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:24.341Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vor-ago",
+  "rank": 91,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "vor",
+  "en": "I was in Berlin two years [ago]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich war vor zwei Jahren in Berlin.",
+    "en": "I was in Berlin two years ago."
+  },
+  "regional": null,
+  "trick": "VOR sounds like fore, as in before: vor zwei Jahren is two years before now, so two years ago.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/vor-ago.word.mp3",
+    "sentence": "/deck-de/audio/vor-ago.sentence.mp3"
+  }
+}

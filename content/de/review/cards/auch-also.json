@@ -1,0 +1,17 @@
+{
+  "id": "auch-also",
+  "rank": 57,
+  "word": "auch",
+  "draft": "a80d49e53101237e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "also, too, as well",
+    "example": "I'm hungry too. / I'm also hungry."
+  },
+  "note": "auch is sometimes classed as a particle and so could be a glue card, but as a plain adverb meaning also, too the content kind works fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:11.854Z"
+}

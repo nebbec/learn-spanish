@@ -1,0 +1,15 @@
+{
+  "rank": 373,
+  "word": "spät",
+  "cards": [
+    "spaet-late"
+  ],
+  "skip": null,
+  "sameAs": {
+    "spaet-late": "tarde-late"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:29.897Z"
+}

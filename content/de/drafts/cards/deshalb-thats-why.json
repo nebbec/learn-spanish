@@ -1,0 +1,21 @@
+{
+  "id": "deshalb-thats-why",
+  "rank": 414,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "deshalb",
+  "en": "I'm tired, [that's why] I'm staying home",
+  "hint": "one word starting with des-, not darum or deswegen",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin müde, deshalb bleibe ich zu Hause.",
+    "en": "I'm tired, so I'm staying home."
+  },
+  "regional": null,
+  "trick": "DESHALB sounds like dess-halp: I'm lost, that's why I need help.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/deshalb-thats-why.word.mp3",
+    "sentence": "/deck-de/audio/deshalb-thats-why.sentence.mp3"
+  }
+}

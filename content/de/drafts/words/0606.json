@@ -1,0 +1,17 @@
+{
+  "rank": 606,
+  "word": "erreichen",
+  "cards": [
+    "erreichen-reach",
+    "erreichen-achieve"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erreichen-reach": null,
+    "erreichen-achieve": "lograr-achieve"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:11.643Z"
+}

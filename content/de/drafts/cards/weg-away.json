@@ -1,0 +1,21 @@
+{
+  "id": "weg-away",
+  "rank": 115,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "weg",
+  "en": "away, gone",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Mein Handy ist weg.",
+    "en": "My phone is gone."
+  },
+  "regional": null,
+  "trick": "WEG, said with a short e like veck, sounds like wreck: after the wreck, the ship was gone, swept away.",
+  "image": "/deck-de/img/weg-away.webp",
+  "audio": {
+    "word": "/deck-de/audio/weg-away.word.mp3",
+    "sentence": "/deck-de/audio/weg-away.sentence.mp3"
+  }
+}

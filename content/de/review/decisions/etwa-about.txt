@@ -1,0 +1,30 @@
+# etwa-about · rank 401 · etwa
+#
+# Why it was flagged:
+#   - One right answer: Besides ungefähr, which the hint rules out, rund and circa (ca.) are also common, correct answers for about or roughly before a number, so the hint still allows more than one right answer. Suggested fix: hint: before a number; not ungefähr, rund or circa
+# Reviewer's note (not a reason to flag): Etwa is also common in questions to mean by any chance, as in "Bist du etwa krank?", which the editor might consider for a later card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             etwa-about
+kind:           content
+pos:            adverb
+target:         etwa
+en:             about, roughly
+hint:           before a number; not ungefähr, rund or circa
+example.target: Das dauert etwa zehn Minuten.
+example.en:     That takes about ten minutes.
+regional.where:
+regional.text:
+trick:          ETWA sounds like 'ate va': I ate about ten waffles, roughly, I didn't count exactly.
+
+# The draft this file was made from. Do not change it.
+draft: cd28351797b5ef24

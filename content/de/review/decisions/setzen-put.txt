@@ -1,0 +1,37 @@
+# setzen-put · rank 265 · setzen
+#
+# Why it was flagged:
+#   - One right answer: The hint example 'put a hat on' points to the separable verb aufsetzen ('den Hut aufsetzen'), which is what Germans actually say, so the hint is misleading. Suggested fix: hint: seat someone, place a bet (the putting that goes with sitzen)
+# Reviewer's note (not a reason to flag): sameAs null is defensible because poner-put is the general 'to put', which in German is split among legen, stellen and setzen.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 setzen-put
+kind:               content
+pos:                verb
+target:             setzen
+en:                 to put, to set
+hint:               seat someone, place a bet (the putting that goes with sitzen)
+ich:                setze
+du:                 setzt
+er:                 setzt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gesetzt
+example.target:     Ich setze zehn Euro auf Rot.
+example.en:         I'm putting ten euros on red.
+regional.where:
+regional.text:
+trick:              SETZEN starts like "sets": you set something in its place.
+
+# The draft this file was made from. Do not change it.
+draft: 40b10ee477e67170

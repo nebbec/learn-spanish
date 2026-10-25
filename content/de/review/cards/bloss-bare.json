@@ -1,0 +1,17 @@
+{
+  "id": "bloss-bare",
+  "rank": 452,
+  "word": "bloß",
+  "draft": "3fc55bcdc766bf02",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "bare, naked (uncovered); mere (nothing more than)",
+    "example": "He caught the fish with his bare hands."
+  },
+  "note": "This card passes every check. The adjective is much rarer than the particle bloß (only, just; as in \"was ist bloß los?\"), which is what puts the word at rank 452, so this card could come after the other one; also, Swiss spelling writes it bloss, which is spelling only and not a regional word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:14.227Z"
+}

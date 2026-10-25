@@ -1,0 +1,33 @@
+{
+  "id": "finden-think-opinion",
+  "rank": 95,
+  "kind": "content",
+  "pos": "verb",
+  "target": "finden",
+  "en": "to think",
+  "hint": "to judge something, as in I think it's great",
+  "grammar": {
+    "present": {
+      "ich": "finde",
+      "du": "findest",
+      "er": "findet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefunden"
+    }
+  },
+  "example": {
+    "target": "Wie findest du den Film?",
+    "en": "What do you think of the movie?"
+  },
+  "regional": null,
+  "trick": "FINDEN is find, as in How do you find it? meaning What do you think of it?",
+  "image": "/deck-de/img/finden-think-opinion.webp",
+  "audio": {
+    "word": "/deck-de/audio/finden-think-opinion.word.mp3",
+    "sentence": "/deck-de/audio/finden-think-opinion.sentence.mp3"
+  }
+}

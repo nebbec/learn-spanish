@@ -1,0 +1,15 @@
+{
+  "rank": 251,
+  "word": "Hand",
+  "cards": [
+    "hand-hand"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hand-hand": "mano-hand"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:38.462Z"
+}

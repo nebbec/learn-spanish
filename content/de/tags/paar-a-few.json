@@ -1,0 +1,14 @@
+{
+  "id": "paar-a-few",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Lowercase ein paar means a few; capitalised das Paar means a couple or pair of two.",
+  "draft": "399a94891af8582e",
+  "group": "#179 paar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:49.897Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arzt-doctor",
+  "rank": 497,
+  "word": "Arzt",
+  "draft": "5f382c6836f1e40c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "doctor, physician (male, or doctor in general)",
+    "example": "You should go to the doctor tomorrow."
+  },
+  "note": "The feminine die Ärztin is the only other likely answer, and the generic masculine is the usual answer to a plain \"doctor\" prompt, so the hint (which rightly rules out Doktor) is enough.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:55.623Z"
+}

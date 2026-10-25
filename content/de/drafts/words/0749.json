@@ -1,0 +1,15 @@
+{
+  "rank": 749,
+  "word": "Feind",
+  "cards": [
+    "feind-enemy"
+  ],
+  "skip": null,
+  "sameAs": {
+    "feind-enemy": "enemigo-enemy"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:40.983Z"
+}

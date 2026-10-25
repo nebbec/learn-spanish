@@ -1,0 +1,37 @@
+# beschuetzen-protect · rank 689 · beschützen
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out the equally common schützen ("Ich schütze dich" also works), and "watch over" could also suggest behüten or aufpassen auf. Suggested fix: hint: keep someone safe from harm (the be- word, not schützen)
+# Reviewer's note (not a reason to flag): If schützen gets its own card later, its hint should point away from beschützen as well.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 beschuetzen-protect
+kind:               content
+pos:                verb
+target:             beschützen
+en:                 to protect
+hint:               keep someone safe from harm (the be- word, not schützen)
+ich:                beschütze
+du:                 beschützt
+er:                 beschützt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: beschützt
+example.target:     Keine Angst, ich beschütze dich.
+example.en:         Don't worry, I'll protect you.
+regional.where:
+regional.text:
+trick:              The middle of BESCHÜTZEN sounds a bit like shoots: a bodyguard shoots to protect you.
+
+# The draft this file was made from. Do not change it.
+draft: e27db6c5963dbe4f

@@ -1,0 +1,25 @@
+{
+  "id": "licht-light",
+  "rank": 572,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Licht",
+  "en": "light",
+  "hint": "the noun, as in turn on the light",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Lichter"
+  },
+  "example": {
+    "target": "Mach bitte das Licht aus.",
+    "en": "Please turn off the light."
+  },
+  "regional": null,
+  "trick": "LICHT sounds almost like \"light\", just with a soft breathy ch sound where English has the gh.",
+  "image": "/deck-de/img/licht-light.webp",
+  "audio": {
+    "word": "/deck-de/audio/licht-light.word.mp3",
+    "sentence": "/deck-de/audio/licht-light.sentence.mp3"
+  }
+}

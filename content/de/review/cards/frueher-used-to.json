@@ -1,0 +1,23 @@
+{
+  "id": "frueher-used-to",
+  "rank": 500,
+  "word": "früher",
+  "draft": "9d3c1b1819293525",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card antes-before means before in the sense of earlier in time, which is closer to this word's other card (earlier) than to in the past or used to, so its picture would not show the meaning of this card.",
+      "fix": "null"
+    }
+  ],
+  "back": {
+    "target": "formerly, in the past, used to (adverb)",
+    "example": "In the past I lived in Berlin. / I used to live in Berlin."
+  },
+  "note": "The hint is useful because it rules out damals (back then, at one particular time) and the comparative earlier sense, which has its own card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:22.675Z"
+}

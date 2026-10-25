@@ -1,0 +1,14 @@
+{
+  "id": "erwischen-catch",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use erwischen for catching someone in the act or a bus; fangen for catching a ball or an animal.",
+  "draft": "e80cd4c188214bd7",
+  "group": "#696 erwischen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:57.021Z"
+}

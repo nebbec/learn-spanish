@@ -1,0 +1,21 @@
+{
+  "id": "boese-evil",
+  "rank": 651,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "böse",
+  "en": "evil",
+  "hint": "wicked, not just bad",
+  "grammar": null,
+  "example": {
+    "target": "Der Wolf im Märchen ist böse.",
+    "en": "The wolf in the fairy tale is evil."
+  },
+  "regional": null,
+  "trick": "BÖSE sounds a little like bossy: the evil queen is the bossiest boss of all.",
+  "image": "/deck-de/img/boese-evil.webp",
+  "audio": {
+    "word": "/deck-de/audio/boese-evil.word.mp3",
+    "sentence": "/deck-de/audio/boese-evil.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nun-well",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ea0e9d42c56e97c1",
+  "group": "#138 nun",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:44.793Z"
+}

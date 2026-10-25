@@ -1,0 +1,15 @@
+{
+  "rank": 206,
+  "word": "Junge",
+  "cards": [
+    "junge-boy"
+  ],
+  "skip": null,
+  "sameAs": {
+    "junge-boy": "chico-boy"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:40.245Z"
+}

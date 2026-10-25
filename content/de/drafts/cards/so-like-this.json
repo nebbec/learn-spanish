@@ -1,0 +1,21 @@
+{
+  "id": "so-like-this",
+  "rank": 29,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "so",
+  "en": "like this",
+  "hint": "in this way, how something is done",
+  "grammar": null,
+  "example": {
+    "target": "Ich mache das immer so.",
+    "en": "I always do it like this."
+  },
+  "regional": null,
+  "trick": "SO sounds like \"zo\", close to English \"so\": do it just so, like this.",
+  "image": "/deck-de/img/so-like-this.webp",
+  "audio": {
+    "word": "/deck-de/audio/so-like-this.word.mp3",
+    "sentence": "/deck-de/audio/so-like-this.sentence.mp3"
+  }
+}

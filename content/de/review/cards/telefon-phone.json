@@ -1,0 +1,17 @@
+{
+  "id": "telefon-phone",
+  "rank": 496,
+  "word": "Telefon",
+  "draft": "83d813d27ffcdab0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "telephone, phone",
+    "example": "Your phone is ringing."
+  },
+  "note": "The hint is needed because it rules out das Handy, which Germans usually say for a mobile phone.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:50.180Z"
+}

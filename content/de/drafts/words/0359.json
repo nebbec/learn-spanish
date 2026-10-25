@@ -1,0 +1,15 @@
+{
+  "rank": 359,
+  "word": "eigen",
+  "cards": [
+    "eigen-own"
+  ],
+  "skip": null,
+  "sameAs": {
+    "eigen-own": "propio-own"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:30.657Z"
+}

@@ -1,0 +1,30 @@
+# eigentlich-real · rank 310 · eigentlich
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out echt, but wahr (der wahre Grund) and tatsächlich (der tatsächliche Grund) are also correct and common for "the real reason", so the prompt has more than one right answer. Suggested fix: hint: before a noun, as in the actual reason behind it; the same word as actually (not wahr, echt or tatsächlich)
+# Reviewer's note (not a reason to flag): Spanish verdadero before a noun (la verdadera razón) works the same way, so sharing its picture is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             eigentlich-real
+kind:           content
+pos:            adjective
+target:         eigentlich
+en:             real, actual
+hint:           before a noun, as in the actual reason behind it; the same word as actually (not wahr, echt or tatsächlich)
+example.target: Das ist der eigentliche Grund.
+example.en:     That's the real reason.
+regional.where:
+regional.text:
+trick:          EIGENTLICH sounds like eye-gent-lish: under his disguise, the gent's real face shows in his eyes.
+
+# The draft this file was made from. Do not change it.
+draft: 96293887086e6fb4

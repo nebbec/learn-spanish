@@ -1,0 +1,17 @@
+{
+  "id": "verzeihen-forgive",
+  "rank": 772,
+  "word": "verzeihen",
+  "draft": "33c098e0fc44a186",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to forgive, to pardon",
+    "example": "Will you forgive me? / Do you forgive me?"
+  },
+  "note": "The hint is needed: it rules out vergeben, which also means to forgive. The strong participle verziehen is why irregular is true, even though the present tense is regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:46.296Z"
+}

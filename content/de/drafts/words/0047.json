@@ -1,0 +1,15 @@
+{
+  "rank": 47,
+  "word": "dieser",
+  "cards": [
+    "dieser-this"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dieser-this": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:33.196Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "umbringen-kill",
+  "rank": 379,
+  "kind": "content",
+  "pos": "verb",
+  "target": "umbringen",
+  "en": "to kill",
+  "hint": "everyday word, not töten",
+  "grammar": {
+    "present": {
+      "ich": "bringe um",
+      "du": "bringst um",
+      "er": "bringt um"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "umgebracht"
+    }
+  },
+  "example": {
+    "target": "Mein Vater bringt mich um!",
+    "en": "My dad is going to kill me!"
+  },
+  "regional": null,
+  "trick": "UMBRINGEN sounds like oom-bringing: think of bringing someone down to the ground, which in a crime film means to kill them.",
+  "image": "/deck-de/img/umbringen-kill.webp",
+  "audio": {
+    "word": "/deck-de/audio/umbringen-kill.word.mp3",
+    "sentence": "/deck-de/audio/umbringen-kill.sentence.mp3"
+  }
+}

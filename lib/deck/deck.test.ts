@@ -570,10 +570,24 @@ describe("German fixture deck", () => {
         'card haus-house.target: a noun must start with its article "das"',
       ]);
       expect(errorsDe(de("haus-house", (c) => ((c.grammar as Loose).gender = "x")))).toEqual([
-        'card haus-house.grammar.gender: must be "m", "f" or "n"',
+        'card haus-house.grammar.gender: must be "m", "f", "n" or "pl"',
       ]);
       expect(errorsDe(de("haus-house", (c) => ((c.grammar as Loose).article = "el")))).toEqual([
         "card haus-house.grammar.article: must be one of der, die, das",
+      ]);
+    });
+
+    it("a plural-only noun with die and no plural, but not with der or a plural", () => {
+      const leute = (c: Loose) => {
+        c.target = "die Leute";
+        c.grammar = { gender: "pl", article: "die", plural: null };
+      };
+      expect(errorsDe(de("haus-house", leute))).toEqual([]);
+      expect(errorsDe(de("haus-house", (c) => (leute(c), ((c.grammar as Loose).plural = "die Leute"))))).toEqual([
+        "card haus-house.grammar.plural: must be null on a plural-only noun",
+      ]);
+      expect(errorsDe(de("haus-house", (c) => (leute(c), ((c.grammar as Loose).article = "der"))))).toEqual([
+        'card haus-house.grammar.article: must be "die" for gender "pl"',
       ]);
     });
 

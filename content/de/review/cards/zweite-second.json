@@ -1,0 +1,17 @@
+{
+  "id": "zweite-second",
+  "rank": 575,
+  "word": "Zweite",
+  "draft": "0132dc4feeebe9f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "second (ordinal adjective, 2nd)",
+    "example": "That's already my second coffee today."
+  },
+  "note": "The hint is needed: it rules out die Sekunde (the unit of time), and the example's zweiter correctly shows the masculine nominative ending after mein.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:10.922Z"
+}

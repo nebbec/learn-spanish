@@ -1,0 +1,15 @@
+{
+  "rank": 603,
+  "word": "blöd",
+  "cards": [
+    "bloed-dumb"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bloed-dumb": "tonto-dumb"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:54.165Z"
+}

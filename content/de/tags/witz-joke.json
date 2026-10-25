@@ -1,0 +1,14 @@
+{
+  "id": "witz-joke",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Witz for a joke you tell; Spaß is fun or kidding around.",
+  "draft": "38a07b38f7ea691e",
+  "group": "#598 Witz",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:29.856Z"
+}

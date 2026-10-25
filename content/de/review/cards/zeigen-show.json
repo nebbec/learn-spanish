@@ -1,0 +1,17 @@
+{
+  "id": "zeigen-show",
+  "rank": 227,
+  "word": "zeigen",
+  "draft": "a9a9d931b22481de",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to show",
+    "example": "I'll show you the city tomorrow."
+  },
+  "note": "The link between zeigen and \"sign\" in the trick works well, since zeigen is related to Zeichen (sign).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:40:08.876Z"
+}

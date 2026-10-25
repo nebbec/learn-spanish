@@ -1,0 +1,17 @@
+{
+  "id": "anwalt-lawyer",
+  "rank": 688,
+  "word": "Anwalt",
+  "draft": "2ac3ccc5ce773b6b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "lawyer, attorney",
+    "example": "I want to speak with my lawyer."
+  },
+  "note": "Der Rechtsanwalt is the full formal word and a learner might give it, but Anwalt is what people actually say for \"lawyer\"; the editor could consider mentioning Rechtsanwalt and the feminine die Anwältin somewhere on the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:19.913Z"
+}

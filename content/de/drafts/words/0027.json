@@ -1,0 +1,15 @@
+{
+  "rank": 27,
+  "word": "aber",
+  "cards": [
+    "aber-but"
+  ],
+  "skip": null,
+  "sameAs": {
+    "aber-but": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:24:50.692Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "laufen-walk",
+  "rank": 199,
+  "word": "laufen",
+  "draft": "2710a27f65cb8a44",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Austria, laufen usually means to run, and people say gehen for walking, so Austrian usage clearly differs for this meaning and regional should not be null.",
+      "fix": "regional: { where: \"Austria\", text: \"gehen (laufen there usually means to run)\" }"
+    }
+  ],
+  "back": {
+    "target": "to walk, to go on foot (colloquial); also to run",
+    "example": "We're walking home, it isn't far."
+  },
+  "note": "The hint \"go on foot, not gehen\" correctly separates this card from gehen and from zu Fuß gehen, and the word's \"to run\" card is told apart by its own prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:35.572Z"
+}

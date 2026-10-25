@@ -1,0 +1,25 @@
+{
+  "id": "liebling-darling",
+  "rank": 720,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Liebling",
+  "en": "darling",
+  "hint": "from lieb, not Schatz",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Lieblinge"
+  },
+  "example": {
+    "target": "Liebling, ich bin wieder zu Hause!",
+    "en": "Darling, I'm back home!"
+  },
+  "regional": null,
+  "trick": "LIEBLING sounds like LEEP-ling; lieb is a cousin of English love, so your Liebling is the little one you love.",
+  "image": "/deck-de/img/liebling-darling.webp",
+  "audio": {
+    "word": "/deck-de/audio/liebling-darling.word.mp3",
+    "sentence": "/deck-de/audio/liebling-darling.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "etwas-something",
+  "rank": 80,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "etwas",
+  "en": "do you want [something] to drink?",
+  "hint": "the full word, not the casual was",
+  "grammar": null,
+  "example": {
+    "target": "Willst du etwas trinken?",
+    "en": "Do you want something to drink?"
+  },
+  "regional": null,
+  "trick": "ETWAS sounds like ET was: ET was something strange from outer space.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/etwas-something.word.mp3",
+    "sentence": "/deck-de/audio/etwas-something.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "soldat-soldier",
+  "rank": 729,
+  "word": "Soldat",
+  "draft": "e4cf910f7d29f351",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "soldier",
+    "example": "My grandpa was a soldier in the war."
+  },
+  "note": "Soldat is a noun with a special pattern that takes -en in every case except the nominative singular (den Soldaten, dem Soldaten), which could go on a later case card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:22:26.924Z"
+}

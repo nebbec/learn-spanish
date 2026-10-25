@@ -1,0 +1,15 @@
+{
+  "rank": 449,
+  "word": "dauern",
+  "cards": [
+    "dauern-last"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dauern-last": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:50:59.223Z"
+}

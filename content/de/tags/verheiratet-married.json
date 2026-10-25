@@ -1,0 +1,14 @@
+{
+  "id": "verheiratet-married",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "24638c46b966e23d",
+  "group": "#730 verheiratet",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:03.229Z"
+}

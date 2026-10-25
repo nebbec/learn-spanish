@@ -1,0 +1,14 @@
+{
+  "id": "job-job",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use der Job for a job you hold; die Arbeit for work in general or going to work.",
+  "draft": "94f095a650e055aa",
+  "group": "#368 Job",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:22.510Z"
+}

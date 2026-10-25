@@ -1,0 +1,15 @@
+{
+  "rank": 564,
+  "word": "halb",
+  "cards": [
+    "halb-half"
+  ],
+  "skip": null,
+  "sameAs": {
+    "halb-half": "medio-half"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:58:24.951Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 238,
+  "word": "welcher",
+  "cards": [
+    "welcher-which"
+  ],
+  "skip": null,
+  "sameAs": {
+    "welcher-which": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:00.926Z"
+}

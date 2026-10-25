@@ -1,0 +1,30 @@
+# toll-great · rank 242 · toll
+#
+# Why it was flagged:
+#   - One right answer: A good German speaker given 'great (awesome, cool)' could just as easily answer super, which is at least as common as toll, or klasse or genial, so the hint doesn't rule them out. Suggested fix: hint: awesome, cool (not super or genial)
+# Reviewer's note (not a reason to flag): The example shows the inflected form tolle, which is good for learners, and leaving regional null is right because toll is used and understood in Austria and Switzerland too.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             toll-great
+kind:           content
+pos:            adjective
+target:         toll
+en:             great
+hint:           awesome, cool (not super or genial)
+example.target: Das ist eine tolle Idee!
+example.en:     That's a great idea!
+regional.where:
+regional.text:
+trick:          TOLL rhymes with British doll: getting a great new doll is awesome!
+
+# The draft this file was made from. Do not change it.
+draft: ea4869614a6deaf3

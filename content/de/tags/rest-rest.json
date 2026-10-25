@@ -1,0 +1,14 @@
+{
+  "id": "rest-rest",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b1c3eda3864eb7e8",
+  "group": "#621 Rest",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:19.160Z"
+}

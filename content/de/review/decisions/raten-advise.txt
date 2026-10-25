@@ -1,0 +1,37 @@
+# raten-advise · rank 541 · raten
+#
+# Why it was flagged:
+#   - One right answer: Without a hint, "to advise" could just as well be answered with beraten (to advise or counsel someone) or empfehlen (to recommend), both common verbs. Suggested fix: hint: tell someone what you think they should do, as in I ___ you to stay; not beraten or empfehlen
+# Reviewer's note (not a reason to flag): The Spanish list has consejo (advice) only as a noun and no verb for to advise, so sameAs null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 raten-advise
+kind:               content
+pos:                verb
+target:             raten
+en:                 to advise
+hint:               tell someone what you think they should do, as in I ___ you to stay; not beraten or empfehlen
+ich:                rate
+du:                 rätst
+er:                 rät
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geraten
+example.target:     Ich rate dir, heute zu Hause zu bleiben.
+example.en:         I advise you to stay home today.
+regional.where:
+regional.text:
+trick:              RATEN sounds like rotten: I advise you not to eat that rotten fish.
+
+# The draft this file was made from. Do not change it.
+draft: 9811b25d331cbd49

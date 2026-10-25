@@ -1,0 +1,25 @@
+{
+  "id": "familie-family",
+  "rank": 262,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Familie",
+  "en": "family",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Familien"
+  },
+  "example": {
+    "target": "Meine Familie wohnt in Hamburg.",
+    "en": "My family lives in Hamburg."
+  },
+  "regional": null,
+  "trick": "FAMILIE sounds like fa-MEE-lee-uh, just English family with one extra syllable at the end.",
+  "image": "/deck-de/img/familie-family.webp",
+  "audio": {
+    "word": "/deck-de/audio/familie-family.word.mp3",
+    "sentence": "/deck-de/audio/familie-family.sentence.mp3"
+  }
+}

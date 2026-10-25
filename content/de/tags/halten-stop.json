@@ -1,0 +1,14 @@
+{
+  "id": "halten-stop",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use halten when a bus, train or car stops; use aufhören when you stop doing something.",
+  "draft": "25534c806819384b",
+  "group": "#156 halten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:06.675Z"
+}

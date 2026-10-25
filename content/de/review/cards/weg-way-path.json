@@ -1,0 +1,17 @@
+{
+  "id": "weg-way-path",
+  "rank": 115,
+  "word": "weg",
+  "draft": "7735fee309645add",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "way, path, route (der Weg, masculine noun)",
+    "example": "Do you know the way to the station?"
+  },
+  "note": "The hint matters here because it rules out the \"manner\" sense of way (Art, Weise) and keeps the card distinct from the word's adverb card \"away, gone\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:22.319Z"
+}

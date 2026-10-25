@@ -1,0 +1,15 @@
+{
+  "rank": 346,
+  "word": "Ahnung",
+  "cards": [
+    "ahnung-idea"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ahnung-idea": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:55.129Z"
+}

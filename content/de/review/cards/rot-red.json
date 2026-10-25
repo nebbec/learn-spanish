@@ -1,0 +1,17 @@
+{
+  "id": "rot-red",
+  "rank": 637,
+  "word": "rot",
+  "draft": "64b62c0e6a63f98e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "red",
+    "example": "The traffic light is red, wait!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:31.166Z"
+}

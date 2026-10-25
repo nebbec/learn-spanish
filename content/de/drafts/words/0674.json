@@ -1,0 +1,15 @@
+{
+  "rank": 674,
+  "word": "Tier",
+  "cards": [
+    "tier-animal"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tier-animal": "animal-animal"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:05:47.213Z"
+}

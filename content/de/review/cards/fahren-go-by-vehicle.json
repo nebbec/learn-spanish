@@ -1,0 +1,17 @@
+{
+  "id": "fahren-go-by-vehicle",
+  "rank": 154,
+  "word": "fahren",
+  "draft": "d1ea4056ed0bc944",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to go (in or on a vehicle), to travel, to ride; also to drive",
+    "example": "We're going to Berlin by train tomorrow."
+  },
+  "note": "The hint is needed and works: \"not on foot\" rules out gehen, and the word's other card (\"to drive\") asks for the same word, so it doesn't compete; Spanish ir-go is plain \"to go\" with no vehicle meaning, so null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:03.430Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 266,
+  "word": "sonst",
+  "cards": [
+    "sonst-otherwise",
+    "sonst-else"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sonst-otherwise": null,
+    "sonst-else": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:49.635Z"
+}

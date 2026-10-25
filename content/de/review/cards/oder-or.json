@@ -1,0 +1,17 @@
+{
+  "id": "oder-or",
+  "rank": 71,
+  "word": "oder",
+  "draft": "ca089984c3693be9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "or",
+    "example": "Do you want tea or coffee?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:37.025Z"
+}

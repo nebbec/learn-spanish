@@ -1,0 +1,14 @@
+{
+  "id": "liebling-darling",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2d6db19b8e5ec5b2",
+  "group": "#720 Liebling",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:42.499Z"
+}

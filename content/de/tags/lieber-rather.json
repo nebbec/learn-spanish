@@ -1,0 +1,14 @@
+{
+  "id": "lieber-rather",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use lieber for what you prefer (I'd rather); eher for what is more likely (more like).",
+  "draft": "2c95560c1d832baf",
+  "group": "#304 lieber",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:20.560Z"
+}

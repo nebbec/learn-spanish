@@ -1,0 +1,14 @@
+{
+  "id": "direkt-direct",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a624063d39310ca3",
+  "group": "#523 direkt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:47.923Z"
+}

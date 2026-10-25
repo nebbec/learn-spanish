@@ -1,0 +1,17 @@
+{
+  "id": "hart-hard",
+  "rank": 462,
+  "word": "hart",
+  "draft": "7e36408fb4ac4bdb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hard (firm, not soft)",
+    "example": "The bread is totally hard."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:10.377Z"
+}

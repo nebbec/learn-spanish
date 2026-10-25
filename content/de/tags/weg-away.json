@@ -1,0 +1,14 @@
+{
+  "id": "weg-away",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Lowercase weg (short e) means away or gone; der Weg (long e, capital W) is the way or path.",
+  "draft": "ae93d83a6f404f3c",
+  "group": "#115 weg",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:59.386Z"
+}

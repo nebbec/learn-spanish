@@ -1,0 +1,37 @@
+# scheinen-shine · rank 337 · scheinen
+#
+# Why it was flagged:
+#   - One right answer: A bare to shine also allows leuchten (a lamp, a light), glänzen (a polished surface) or strahlen, so the prompt needs a hint that narrows it to the sun shining. Suggested fix: hint: of the sun
+# Reviewer's note (not a reason to flag): With the hint of the sun, this card also stays clearly apart from the word's other card, to seem.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 scheinen-shine
+kind:               content
+pos:                verb
+target:             scheinen
+en:                 to shine
+hint:               of the sun
+ich:                scheine
+du:                 scheinst
+er:                 scheint
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geschienen
+example.target:     Heute scheint die Sonne.
+example.en:         The sun is shining today.
+regional.where:
+regional.text:
+trick:              SCHEIN sounds just like shine, and that's what the sun does: die Sonne scheint.
+
+# The draft this file was made from. Do not change it.
+draft: 82cd20fc76c460aa

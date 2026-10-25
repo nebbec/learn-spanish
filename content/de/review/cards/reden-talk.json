@@ -1,0 +1,23 @@
+{
+  "id": "reden-talk",
+  "rank": 119,
+  "word": "reden",
+  "draft": "871ab0e941babaaf",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint glosses chat and discuss point to other words, quatschen or plaudern for chat and diskutieren or besprechen for discuss, so a learner could reasonably recall one of those instead of reden.",
+      "fix": "hint: talk with someone or about something (not sprechen)"
+    }
+  ],
+  "back": {
+    "target": "to talk, to speak (with someone, about something)",
+    "example": "What are you talking about?"
+  },
+  "note": "Wovon redest du? is an equally common way to say the example, but Worüber redest du? is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:49.724Z"
+}

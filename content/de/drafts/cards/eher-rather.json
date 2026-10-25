@@ -1,0 +1,21 @@
+{
+  "id": "eher-rather",
+  "rank": 640,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "eher",
+  "en": "rather",
+  "hint": "more like, more likely (not lieber or ziemlich)",
+  "grammar": null,
+  "example": {
+    "target": "Er ist nicht dumm, eher faul.",
+    "en": "He's not stupid, more like lazy."
+  },
+  "regional": null,
+  "trick": "EHER sounds a bit like AIR-uh: it's not really a cloud, it's rather just air.",
+  "image": "/deck-de/img/eher-rather.webp",
+  "audio": {
+    "word": "/deck-de/audio/eher-rather.word.mp3",
+    "sentence": "/deck-de/audio/eher-rather.sentence.mp3"
+  }
+}

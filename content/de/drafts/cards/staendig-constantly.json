@@ -1,0 +1,21 @@
+{
+  "id": "staendig-constantly",
+  "rank": 744,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "ständig",
+  "en": "constantly",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Du kommst ständig zu spät.",
+    "en": "You're constantly late."
+  },
+  "regional": null,
+  "trick": "STÄNDIG (SHTEN-dikh) sounds a bit like standing: a standing order keeps happening constantly.",
+  "image": "/deck-de/img/staendig-constantly.webp",
+  "audio": {
+    "word": "/deck-de/audio/staendig-constantly.word.mp3",
+    "sentence": "/deck-de/audio/staendig-constantly.sentence.mp3"
+  }
+}

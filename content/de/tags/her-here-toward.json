@@ -1,0 +1,14 @@
+{
+  "id": "her-here-toward",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use her for movement toward you (Komm her!); hier for where something is (Ich bin hier).",
+  "draft": "c499f4948de2b4a1",
+  "group": "#196 her",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:33.563Z"
+}

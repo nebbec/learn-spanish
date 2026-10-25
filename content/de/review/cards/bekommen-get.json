@@ -1,0 +1,23 @@
+{
+  "id": "bekommen-get",
+  "rank": 192,
+  "word": "bekommen",
+  "draft": "abea470beacbdce7",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'to receive' does not rule out kriegen, the very common colloquial word for to get, or erhalten, the more formal word for to receive, so both would also be right answers.",
+      "fix": "hint: to receive (the standard everyday word, not kriegen or erhalten)"
+    }
+  ],
+  "back": {
+    "target": "to get, to receive",
+    "example": "Did you get my message?"
+  },
+  "note": "Present-tense forms are regular, and irregular is correctly true because the Perfekt participle bekommen is strong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:44.917Z"
+}

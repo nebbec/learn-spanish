@@ -1,0 +1,17 @@
+{
+  "id": "damit-with-it",
+  "rank": 130,
+  "word": "damit",
+  "draft": "591cb5349f8da768",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with it, with that (pronominal adverb: da + mit)",
+    "example": "What are you doing with it?"
+  },
+  "note": "The hint \"one word, for a thing\" rules out mit ihm or mit ihr, and it keeps this card apart from the \"so that\" card for damit; the example sentence just repeats the prompt word for word, which is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:30.237Z"
+}

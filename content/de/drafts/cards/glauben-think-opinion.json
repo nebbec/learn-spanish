@@ -1,0 +1,33 @@
+{
+  "id": "glauben-think-opinion",
+  "rank": 92,
+  "kind": "content",
+  "pos": "verb",
+  "target": "glauben",
+  "en": "to think",
+  "hint": "have an opinion, as in I think so",
+  "grammar": {
+    "present": {
+      "ich": "glaube",
+      "du": "glaubst",
+      "er": "glaubt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geglaubt"
+    }
+  },
+  "example": {
+    "target": "Ich glaube, es regnet heute.",
+    "en": "I think it's going to rain today."
+  },
+  "regional": null,
+  "trick": "GLAUBEN sounds like GLOW-ben: a light bulb glows over your head when you think something is so.",
+  "image": "/deck-de/img/glauben-think-opinion.webp",
+  "audio": {
+    "word": "/deck-de/audio/glauben-think-opinion.word.mp3",
+    "sentence": "/deck-de/audio/glauben-think-opinion.sentence.mp3"
+  }
+}

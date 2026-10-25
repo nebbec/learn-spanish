@@ -1,0 +1,21 @@
+{
+  "id": "hierher-here-motion",
+  "rank": 519,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "hierher",
+  "en": "here",
+  "hint": "to this place, with motion",
+  "grammar": null,
+  "example": {
+    "target": "Komm sofort hierher!",
+    "en": "Come here right now!"
+  },
+  "regional": null,
+  "trick": "HIERHER sounds like \"here-hair\": it is hier (here) plus her (toward me), so it means coming here.",
+  "image": "/deck-de/img/hierher-here-motion.webp",
+  "audio": {
+    "word": "/deck-de/audio/hierher-here-motion.word.mp3",
+    "sentence": "/deck-de/audio/hierher-here-motion.sentence.mp3"
+  }
+}

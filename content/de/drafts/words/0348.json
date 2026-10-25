@@ -1,0 +1,17 @@
+{
+  "rank": 348,
+  "word": "voll",
+  "cards": [
+    "voll-full",
+    "voll-totally"
+  ],
+  "skip": null,
+  "sameAs": {
+    "voll-full": "lleno-full",
+    "voll-totally": "totalmente-totally"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:58.014Z"
+}

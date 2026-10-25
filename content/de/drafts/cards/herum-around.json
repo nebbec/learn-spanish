@@ -1,0 +1,21 @@
+{
+  "id": "herum-around",
+  "rank": 487,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "herum",
+  "en": "around",
+  "hint": "at the end, as in um den See ...; not um alone",
+  "grammar": null,
+  "example": {
+    "target": "Wir fahren um die Stadt herum.",
+    "en": "We're driving around the city."
+  },
+  "regional": null,
+  "trick": "HERUM sounds like \"hair room\": your hair needs room all around your head.",
+  "image": "/deck-de/img/herum-around.webp",
+  "audio": {
+    "word": "/deck-de/audio/herum-around.word.mp3",
+    "sentence": "/deck-de/audio/herum-around.sentence.mp3"
+  }
+}

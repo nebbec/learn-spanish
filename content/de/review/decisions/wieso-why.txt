@@ -1,0 +1,30 @@
+# wieso-why · rank 184 · wieso
+#
+# Why it was flagged:
+#   - Example sentence: 'Wieso bist du so spät?' copies the English 'you are late'; people in Germany would say 'so spät dran' or use kommen. Suggested fix: example.target: Wieso kommst du so spät?
+# Reviewer's note (not a reason to flag): The hint 'casual, not warum' also rules out the more formal weshalb and weswegen, so the prompt has one answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wieso-why
+kind:           glue
+pos:            adverb
+target:         wieso
+en:             [why] not?
+hint:           casual, not warum
+example.target: Wieso kommst du so spät?
+example.en:     Why are you so late?
+regional.where:
+regional.text:
+trick:          WIESO sounds like "vee-zo" and is wie (how) plus so: "how so?" is just another way to ask why.
+
+# The draft this file was made from. Do not change it.
+draft: f28140d73f90d12c

@@ -1,0 +1,15 @@
+{
+  "rank": 392,
+  "word": "frei",
+  "cards": [
+    "frei-free"
+  ],
+  "skip": null,
+  "sameAs": {
+    "frei-free": "libre-free"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:50.732Z"
+}

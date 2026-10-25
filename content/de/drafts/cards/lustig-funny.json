@@ -1,0 +1,21 @@
+{
+  "id": "lustig-funny",
+  "rank": 601,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "lustig",
+  "en": "funny",
+  "hint": "makes you laugh",
+  "grammar": null,
+  "example": {
+    "target": "Der Film war echt lustig.",
+    "en": "The movie was really funny."
+  },
+  "regional": null,
+  "trick": "LUSTIG sounds like LOOSE-tickle: a loose tickle makes you laugh, so it's funny.",
+  "image": "/deck-de/img/lustig-funny.webp",
+  "audio": {
+    "word": "/deck-de/audio/lustig-funny.word.mp3",
+    "sentence": "/deck-de/audio/lustig-funny.sentence.mp3"
+  }
+}

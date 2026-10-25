@@ -1,0 +1,17 @@
+{
+  "id": "noch-still",
+  "rank": 48,
+  "word": "noch",
+  "draft": "e5ffe04c4b67f87a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "still (continuing up to now), yet; also more, another",
+    "example": "Are you still at the office?"
+  },
+  "note": "The hint's \"still here\" also usefully rules out the German adjective still (quiet), but a learner might answer the stronger immer noch, which should count as close enough rather than wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:19.055Z"
+}

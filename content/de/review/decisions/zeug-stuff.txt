@@ -1,0 +1,33 @@
+# zeug-stuff · rank 786 · Zeug
+#
+# Why it was flagged:
+#   - One right answer: der Kram is just as common and informal as a one-word singular for stuff, and the hint only rules out Sachen, so Kram would also be a right answer. Suggested fix: hint: informal, one singular word, not Sachen or Kram
+# Reviewer's note (not a reason to flag): The plural null is correct, since Zeuge as a plural of this word only turns up in technical senses, and cosa-thing is not a match, since thing is countable and stuff is not.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             zeug-stuff
+kind:           content
+pos:            noun
+target:         das Zeug
+en:             stuff
+hint:           informal, one singular word, not Sachen or Kram
+gender:         n
+article:        das
+plural:
+example.target: Räum bitte dein Zeug auf!
+example.en:     Please tidy up your stuff!
+regional.where:
+regional.text:
+trick:          ZEUG sounds like "tsoyk", close to "toys": the toys lying around everywhere are just stuff.
+
+# The draft this file was made from. Do not change it.
+draft: e55ebea50950b9a8

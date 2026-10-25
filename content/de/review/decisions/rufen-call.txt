@@ -1,0 +1,38 @@
+# rufen-call · rank 212 · rufen
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card llamar-call puts phoning first in its hint, so its picture can show a phone call, but this card explicitly excludes phoning (that is anrufen), and no other Spanish card means call out or send for. Suggested fix: null
+# Reviewer's note (not a reason to flag): You usually phone to call the police, but "die Polizei rufen" is the idiomatic "send for" sense, so the example is right; still, a sentence like "Ich rufe dich, wenn das Essen fertig ist." would show the "not on the phone" sense more clearly.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0212.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 rufen-call
+kind:               content
+pos:                verb
+target:             rufen
+en:                 to call
+hint:               call out, send for; not on the phone
+ich:                rufe
+du:                 rufst
+er:                 ruft
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gerufen
+example.target:     Ruf sofort die Polizei!
+example.en:         Call the police right away!
+regional.where:
+regional.text:
+trick:              RUFEN sounds like ROOF-en: you climb on the roof and call out to everyone below.
+
+# The draft this file was made from. Do not change it.
+draft: 8e8c61d036b5dcf1

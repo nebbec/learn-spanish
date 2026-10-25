@@ -1,0 +1,17 @@
+{
+  "id": "mund-mouth",
+  "rank": 671,
+  "word": "Mund",
+  "draft": "894a4bacf0b9018b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "mouth",
+    "example": "Open your mouth (will you)!"
+  },
+  "note": "Slang words like Klappe or Maul don't compete for the plain prompt \"mouth\" (Maul is for animals), so leaving the hint null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:48.094Z"
+}

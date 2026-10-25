@@ -1,0 +1,17 @@
+{
+  "id": "voll-totally",
+  "rank": 348,
+  "word": "voll",
+  "draft": "2eccb9bb4eeb0b63",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "totally, really (casual intensifier before an adjective)",
+    "example": "The film was really good."
+  },
+  "note": "The hint is needed, since it rules out total, völlig and echt; \"The movie was really good\" might read more naturally in English than \"totally good\", but that is a matter of taste.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:33.990Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deswegen-thats-why",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Deswegen, deshalb and darum all mean that's why and can swap freely; deswegen is the one built on wegen.",
+  "draft": "a52fdd8c3fb8d433",
+  "group": "#574 deswegen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:38.123Z"
+}

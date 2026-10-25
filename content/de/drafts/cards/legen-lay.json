@@ -1,0 +1,33 @@
+{
+  "id": "legen-lay",
+  "rank": 349,
+  "kind": "content",
+  "pos": "verb",
+  "target": "legen",
+  "en": "to lay, to put",
+  "hint": "down flat, lying",
+  "grammar": {
+    "present": {
+      "ich": "lege",
+      "du": "legst",
+      "er": "legt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelegt"
+    }
+  },
+  "example": {
+    "target": "Ich lege die Schlüssel auf den Tisch.",
+    "en": "I'm putting the keys on the table."
+  },
+  "regional": null,
+  "trick": "LEGEN sounds like LAY-gun: you lay the gun down flat on the table.",
+  "image": "/deck-de/img/legen-lay.webp",
+  "audio": {
+    "word": "/deck-de/audio/legen-lay.word.mp3",
+    "sentence": "/deck-de/audio/legen-lay.sentence.mp3"
+  }
+}

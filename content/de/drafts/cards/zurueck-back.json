@@ -1,0 +1,21 @@
+{
+  "id": "zurueck-back",
+  "rank": 144,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "zurück",
+  "en": "back",
+  "hint": "direction, as in come back",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin gleich zurück.",
+    "en": "I'll be right back."
+  },
+  "regional": null,
+  "trick": "ZURÜCK starts like tsoo, close to zoo: when the day is over, the zookeeper drives back to the zoo.",
+  "image": "/deck-de/img/zurueck-back.webp",
+  "audio": {
+    "word": "/deck-de/audio/zurueck-back.word.mp3",
+    "sentence": "/deck-de/audio/zurueck-back.sentence.mp3"
+  }
+}

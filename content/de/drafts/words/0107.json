@@ -1,0 +1,17 @@
+{
+  "rank": 107,
+  "word": "über",
+  "cards": [
+    "ueber-over",
+    "ueber-about"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ueber-over": null,
+    "ueber-about": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:48.095Z"
+}

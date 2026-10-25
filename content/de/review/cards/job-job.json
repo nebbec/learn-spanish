@@ -1,0 +1,17 @@
+{
+  "id": "job-job",
+  "rank": 368,
+  "word": "Job",
+  "draft": "94f095a650e055aa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "job (a paid position or piece of work, informal)",
+    "example": "I have a new job."
+  },
+  "note": "The hint is needed because Stelle, Arbeit and Beruf could also answer \"job\", and \"English loanword\" rules them all out; trabajo-work also covers work in general, but its picture still shows a job, so reusing it is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:15.453Z"
+}

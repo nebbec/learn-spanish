@@ -1,0 +1,17 @@
+{
+  "id": "ehrlich-honest",
+  "rank": 447,
+  "word": "ehrlich",
+  "draft": "b1dc5cdbdaca2c68",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "honest",
+    "example": "Be honest, do you like my dress?"
+  },
+  "note": "In subtitles ehrlich also often appears as the adverb \"honestly, really\" (Ehrlich?), which the editor might mention somewhere, but the adjective card is correct as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:42.094Z"
+}

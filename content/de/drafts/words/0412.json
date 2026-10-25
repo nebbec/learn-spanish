@@ -1,0 +1,17 @@
+{
+  "rank": 412,
+  "word": "stecken",
+  "cards": [
+    "stecken-put-in",
+    "stecken-be-stuck"
+  ],
+  "skip": null,
+  "sameAs": {
+    "stecken-put-in": "meter-put-in",
+    "stecken-be-stuck": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:58.181Z"
+}

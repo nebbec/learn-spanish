@@ -1,0 +1,14 @@
+{
+  "id": "uhr-oclock",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Uhr for the time on the clock (drei Uhr); use Stunde for an hour as a length of time.",
+  "draft": "b0d53f458318a301",
+  "group": "#314 Uhr",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:42.685Z"
+}

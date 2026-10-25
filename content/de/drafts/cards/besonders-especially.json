@@ -1,0 +1,21 @@
+{
+  "id": "besonders-especially",
+  "rank": 672,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "besonders",
+  "en": "especially, particularly",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das Essen war heute besonders gut.",
+    "en": "The food was especially good today."
+  },
+  "regional": null,
+  "trick": "BeZONDers: something especially good stands out in a ZONE of its own.",
+  "image": "/deck-de/img/besonders-especially.webp",
+  "audio": {
+    "word": "/deck-de/audio/besonders-especially.word.mp3",
+    "sentence": "/deck-de/audio/besonders-especially.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sollen-supposed-to",
+  "rank": 56,
+  "word": "sollen",
+  "draft": "243483e82fc50a3b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be supposed to, should, shall",
+    "example": "What am I supposed to do now?"
+  },
+  "note": "The participle gesollt is right for sollen used on its own; with another infinitive the Perfekt uses sollen (ich habe gehen sollen), which a later card could mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:10.659Z"
+}

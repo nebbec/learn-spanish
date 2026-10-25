@@ -1,0 +1,14 @@
+{
+  "id": "kerl-guy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Kerl is a bit rougher and folksier, as in fellow or bloke; Typ is the neutral casual word for a guy you don't know.",
+  "draft": "550081e70ea6edb5",
+  "group": "#338 Kerl",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:25.507Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bestimmen-definitely",
+  "rank": 620,
+  "word": "bestimmen",
+  "draft": "1b53195fa0271704",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "For 'definitely' with the hint 'surely, almost certainly', learners could equally answer sicherlich, definitiv or auf jeden Fall, since the hint excludes only sicher, and 'almost certainly' clashes with 'definitely'.",
+      "fix": "en: surely; hint: almost certainly, I bet; not sicher or sicherlich"
+    }
+  ],
+  "back": {
+    "target": "surely, certainly, definitely (expressing strong confidence)",
+    "example": "That'll definitely work. / I'm sure that'll work."
+  },
+  "note": "The example's English could also read \"I'm sure that'll work\", which better shows the confident-guess sense of bestimmt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:26.881Z"
+}

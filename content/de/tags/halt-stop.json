@@ -1,0 +1,14 @@
+{
+  "id": "halt-stop",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4c46dbb4489323ac",
+  "group": "#268 halt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:06.568Z"
+}

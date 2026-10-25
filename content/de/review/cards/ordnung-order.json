@@ -1,0 +1,17 @@
+{
+  "id": "ordnung-order",
+  "rank": 222,
+  "word": "Ordnung",
+  "draft": "8f3f9702f3b989e9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "order, tidiness (things being in their proper place)",
+    "example": "My mother loves order in the house."
+  },
+  "note": "A plural of null is fine for this everyday meaning, since die Ordnungen only turns up in technical senses; the hint \"tidiness\" also rules out die Reihenfolge (sequence) well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:24.255Z"
+}

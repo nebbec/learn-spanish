@@ -1,0 +1,30 @@
+# naechste-next · rank 270 · nächste
+#
+# Why it was flagged:
+#   - Memory trick: After ä the ch in nächste is the soft ich-sound made at the front of the mouth, not a throaty sound, so the trick teaches the wrong pronunciation. Suggested fix: trick: NÄCHSTE sounds close to 'next', with a soft hissing ch in place of the x: the next one.
+# Reviewer's note (not a reason to flag): The bare prompt "next" could also suggest an adverb like "dann" or "als Nächstes", but nächste is clearly the main answer for the adjective, and the example makes the meaning clear.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             naechste-next
+kind:           content
+pos:            adjective
+target:         nächste
+en:             next
+hint:
+example.target: Wir sehen uns nächste Woche.
+example.en:     See you next week.
+regional.where:
+regional.text:
+trick:          NÄCHSTE sounds close to 'next', with a soft hissing ch in place of the x: the next one.
+
+# The draft this file was made from. Do not change it.
+draft: 0fdf30ba93da9770

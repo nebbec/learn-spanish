@@ -1,0 +1,17 @@
+{
+  "id": "jeder-everyone",
+  "rank": 125,
+  "word": "jeder",
+  "draft": "e45eed485430bdce",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "everyone, everybody (each person)",
+    "example": "Everyone knows that (after all)."
+  },
+  "note": "The English example leaves out the nuance of doch (roughly \"after all\"), which is acceptable for a learner.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:14.648Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "holen-fetch",
+  "rank": 198,
+  "kind": "content",
+  "pos": "verb",
+  "target": "holen",
+  "en": "to fetch",
+  "hint": "go and get",
+  "grammar": {
+    "present": {
+      "ich": "hole",
+      "du": "holst",
+      "er": "holt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geholt"
+    }
+  },
+  "example": {
+    "target": "Ich hole dir ein Glas Wasser.",
+    "en": "I'll get you a glass of water."
+  },
+  "regional": null,
+  "trick": "HOLEN sounds like haul in: you go off and haul something back in, which is fetching it.",
+  "image": "/deck-de/img/holen-fetch.webp",
+  "audio": {
+    "word": "/deck-de/audio/holen-fetch.word.mp3",
+    "sentence": "/deck-de/audio/holen-fetch.sentence.mp3"
+  }
+}

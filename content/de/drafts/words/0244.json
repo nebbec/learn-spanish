@@ -1,0 +1,17 @@
+{
+  "rank": 244,
+  "word": "unter",
+  "cards": [
+    "unter-under",
+    "unter-among"
+  ],
+  "skip": null,
+  "sameAs": {
+    "unter-under": null,
+    "unter-among": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:16.766Z"
+}

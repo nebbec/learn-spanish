@@ -1,0 +1,21 @@
+{
+  "id": "irgendwo-somewhere",
+  "rank": 622,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "irgendwo",
+  "en": "somewhere",
+  "hint": "where something is, not where to",
+  "grammar": null,
+  "example": {
+    "target": "Meine Schlüssel sind hier irgendwo.",
+    "en": "My keys are around here somewhere."
+  },
+  "regional": null,
+  "trick": "WO (said 'voh') means where, and IRGEND (EER-gent) means some or any, so irgendwo is somewhere.",
+  "image": "/deck-de/img/irgendwo-somewhere.webp",
+  "audio": {
+    "word": "/deck-de/audio/irgendwo-somewhere.word.mp3",
+    "sentence": "/deck-de/audio/irgendwo-somewhere.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "liegen-lie",
+  "rank": 247,
+  "kind": "content",
+  "pos": "verb",
+  "target": "liegen",
+  "en": "to lie",
+  "hint": "be lying down or located, not tell a lie",
+  "grammar": {
+    "present": {
+      "ich": "liege",
+      "du": "liegst",
+      "er": "liegt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelegen"
+    }
+  },
+  "example": {
+    "target": "Dein Handy liegt auf dem Tisch.",
+    "en": "Your phone is lying on the table."
+  },
+  "regional": null,
+  "trick": "LIEGEN sounds like LEE-gen, a cousin of English lie: picture yourself lying on a beach in the lee of a dune.",
+  "image": "/deck-de/img/liegen-lie.webp",
+  "audio": {
+    "word": "/deck-de/audio/liegen-lie.word.mp3",
+    "sentence": "/deck-de/audio/liegen-lie.sentence.mp3"
+  }
+}

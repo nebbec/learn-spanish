@@ -1,0 +1,17 @@
+{
+  "id": "stolz-proud",
+  "rank": 633,
+  "word": "stolz",
+  "draft": "8a1407e81ed74c10",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "proud",
+    "example": "I'm so proud of you."
+  },
+  "note": "The rhyme with \"bolts\" is only rough, because the German o is short, but it works fine as a memory aid.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:18.395Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hund-dog",
+  "rank": 454,
+  "word": "Hund",
+  "draft": "ee512cf86f6b23d1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dog",
+    "example": "Your dog is really cute."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:19.076Z"
+}

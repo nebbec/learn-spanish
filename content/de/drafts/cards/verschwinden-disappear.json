@@ -1,0 +1,33 @@
+{
+  "id": "verschwinden-disappear",
+  "rank": 291,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verschwinden",
+  "en": "to disappear",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verschwinde",
+      "du": "verschwindest",
+      "er": "verschwindet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "verschwunden"
+    }
+  },
+  "example": {
+    "target": "Mein Schlüssel ist schon wieder verschwunden.",
+    "en": "My key has disappeared again."
+  },
+  "regional": null,
+  "trick": "verSCHWINden sounds like fair SHVIN-dlin, a swindling: after the swindle, the crook and your money disappear.",
+  "image": "/deck-de/img/verschwinden-disappear.webp",
+  "audio": {
+    "word": "/deck-de/audio/verschwinden-disappear.word.mp3",
+    "sentence": "/deck-de/audio/verschwinden-disappear.sentence.mp3"
+  }
+}

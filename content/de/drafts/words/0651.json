@@ -1,0 +1,17 @@
+{
+  "rank": 651,
+  "word": "böse",
+  "cards": [
+    "boese-evil",
+    "boese-angry"
+  ],
+  "skip": null,
+  "sameAs": {
+    "boese-evil": "mal-evil",
+    "boese-angry": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:21.691Z"
+}

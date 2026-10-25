@@ -1,0 +1,33 @@
+{
+  "id": "lassen-leave",
+  "rank": 69,
+  "kind": "content",
+  "pos": "verb",
+  "target": "lassen",
+  "en": "to leave",
+  "hint": "leave something somewhere, or leave alone",
+  "grammar": {
+    "present": {
+      "ich": "lasse",
+      "du": "lässt",
+      "er": "lässt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelassen"
+    }
+  },
+  "example": {
+    "target": "Ich lasse das Geld hier.",
+    "en": "I'm leaving the money here."
+  },
+  "regional": null,
+  "trick": "LASSEN sounds like lessen: leave your bags behind and your load will lessen.",
+  "image": "/deck-de/img/lassen-leave.webp",
+  "audio": {
+    "word": "/deck-de/audio/lassen-leave.word.mp3",
+    "sentence": "/deck-de/audio/lassen-leave.sentence.mp3"
+  }
+}

@@ -1,0 +1,30 @@
+# na-well-so · rank 141 · na
+#
+# Why it was flagged:
+#   - One right answer: The hint asks for a two-letter casual opener, but so also has two letters and works here ("So, wie geht's?"), and the hint only rules out also. Suggested fix: hint: casual opener for a greeting, two letters, not so or also
+# Reviewer's note (not a reason to flag): In Austria and Bavaria na also means "no" (short for nein), but that is a different meaning, so regional can stay null.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             na-well-so
+kind:           glue
+pos:            other
+target:         na
+en:             [so], how's it going?
+hint:           casual opener for a greeting, two letters, not so or also
+example.target: Na, wie geht's dir?
+example.en:     So, how are you doing?
+regional.where:
+regional.text:
+trick:          NA sounds like a relaxed nah, but Germans use it like well or so to start a casual chat.
+
+# The draft this file was made from. Do not change it.
+draft: 3a45ae9650b89f97

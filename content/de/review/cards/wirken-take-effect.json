@@ -1,0 +1,17 @@
+{
+  "id": "wirken-take-effect",
+  "rank": 767,
+  "word": "wirken",
+  "draft": "9e54299c2f6463e4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to have an effect, to work (of a medicine or remedy)",
+    "example": "The tablet works after ten minutes."
+  },
+  "note": "The hint \"medicine, a remedy\" is needed: it rules out anschlagen and keeps this card apart from the \"to seem\" card, and the trick is also true because wirken and work share an origin (Werk).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:16.638Z"
+}

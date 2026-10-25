@@ -1,0 +1,17 @@
+{
+  "id": "sondern-but-rather",
+  "rank": 495,
+  "word": "sondern",
+  "draft": "fa6c0c176065e56b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "but (rather), after a negative: not X but Y",
+    "example": "I'm not coming today but tomorrow."
+  },
+  "note": "The hint is useful here because it heads off the common learner mistake of answering aber, and the sunder link in the trick is also right historically, since sondern and sunder come from the same root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:48.246Z"
+}

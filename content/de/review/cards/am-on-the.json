@@ -1,0 +1,17 @@
+{
+  "id": "am-on-the",
+  "rank": 117,
+  "word": "am",
+  "draft": "1691017c8f42060a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "on the (contraction of an + dem; used with days and dates, as in am Freitag = on Friday)",
+    "example": "We'll see each other on Friday."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:38.494Z"
+}

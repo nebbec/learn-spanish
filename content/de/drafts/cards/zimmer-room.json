@@ -1,0 +1,25 @@
+{
+  "id": "zimmer-room",
+  "rank": 416,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Zimmer",
+  "en": "room",
+  "hint": "in a home or hotel, not Raum",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Zimmer"
+  },
+  "example": {
+    "target": "Dein Zimmer ist echt schön.",
+    "en": "Your room is really nice."
+  },
+  "regional": null,
+  "trick": "ZIMMER sounds like tsimmer, close to simmer: you sit and simmer quietly in your room.",
+  "image": "/deck-de/img/zimmer-room.webp",
+  "audio": {
+    "word": "/deck-de/audio/zimmer-room.word.mp3",
+    "sentence": "/deck-de/audio/zimmer-room.sentence.mp3"
+  }
+}

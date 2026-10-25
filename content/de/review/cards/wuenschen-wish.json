@@ -1,0 +1,17 @@
+{
+  "id": "wuenschen-wish",
+  "rank": 432,
+  "word": "wünschen",
+  "draft": "7cc81abbbccb6b05",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to wish",
+    "example": "I wish you all the best for your birthday!"
+  },
+  "note": "The example's English is a free rendering, since the German literally means \"I wish you all the best for your birthday\", but it is fine as it stands.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:34.554Z"
+}

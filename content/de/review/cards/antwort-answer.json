@@ -1,0 +1,17 @@
+{
+  "id": "antwort-answer",
+  "rank": 577,
+  "word": "Antwort",
+  "draft": "45c247f9af3a16b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "answer, reply",
+    "example": "I'm still waiting for your answer."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:19.457Z"
+}

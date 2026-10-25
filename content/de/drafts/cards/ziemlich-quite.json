@@ -1,0 +1,21 @@
+{
+  "id": "ziemlich-quite",
+  "rank": 370,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "ziemlich",
+  "en": "pretty, quite",
+  "hint": "fairly, before an adjective; not ganz",
+  "grammar": null,
+  "example": {
+    "target": "Das Essen hier ist ziemlich teuer.",
+    "en": "The food here is pretty expensive."
+  },
+  "regional": null,
+  "trick": "ZIEMLICH sounds like TSEEM-lish, close to seemly: it seems pretty good, quite fine.",
+  "image": "/deck-de/img/ziemlich-quite.webp",
+  "audio": {
+    "word": "/deck-de/audio/ziemlich-quite.word.mp3",
+    "sentence": "/deck-de/audio/ziemlich-quite.sentence.mp3"
+  }
+}

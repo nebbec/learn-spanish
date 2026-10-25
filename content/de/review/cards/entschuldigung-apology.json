@@ -1,0 +1,17 @@
+{
+  "id": "entschuldigung-apology",
+  "rank": 451,
+  "word": "Entschuldigung",
+  "draft": "60a535e978f3df7b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "apology; excuse (also used on its own as 'excuse me, sorry')",
+    "example": "I'm still waiting for your apology."
+  },
+  "note": "The hint \"the noun\" is useful because it keeps this card apart from the word's interjection card (\"excuse me, sorry\"); a trick built on Schuld (guilt, fault) could be stronger, but the current one says nothing false.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:01.393Z"
+}

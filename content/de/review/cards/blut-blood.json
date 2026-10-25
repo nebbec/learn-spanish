@@ -1,0 +1,17 @@
+{
+  "id": "blut-blood",
+  "rank": 450,
+  "word": "Blut",
+  "draft": "276836900b5c804a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "blood",
+    "example": "There is blood on your shirt."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:49.531Z"
+}

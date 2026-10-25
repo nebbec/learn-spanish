@@ -1,0 +1,15 @@
+{
+  "rank": 644,
+  "word": "vorsichtig",
+  "cards": [
+    "vorsichtig-careful"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vorsichtig-careful": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:03:36.743Z"
+}

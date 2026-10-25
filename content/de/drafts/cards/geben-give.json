@@ -1,0 +1,33 @@
+{
+  "id": "geben-give",
+  "rank": 59,
+  "kind": "content",
+  "pos": "verb",
+  "target": "geben",
+  "en": "to give",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "gebe",
+      "du": "gibst",
+      "er": "gibt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gegeben"
+    }
+  },
+  "example": {
+    "target": "Gib mir bitte mal das Wasser.",
+    "en": "Pass me the water, please."
+  },
+  "regional": null,
+  "trick": "GEBEN sounds like gay-ben, close to gave: whatever you gave, you had to give.",
+  "image": "/deck-de/img/geben-give.webp",
+  "audio": {
+    "word": "/deck-de/audio/geben-give.word.mp3",
+    "sentence": "/deck-de/audio/geben-give.sentence.mp3"
+  }
+}

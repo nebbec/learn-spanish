@@ -1,0 +1,15 @@
+{
+  "rank": 747,
+  "word": "Gefahr",
+  "cards": [
+    "gefahr-danger"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gefahr-danger": "peligro-danger"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:34.042Z"
+}

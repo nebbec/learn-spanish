@@ -1,0 +1,14 @@
+{
+  "id": "dank-thanks",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Say danke on its own to thank someone; der Dank is the noun, used in phrases like vielen Dank.",
+  "draft": "e3d369ad0893ce9b",
+  "group": "#303 Dank",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:19.046Z"
+}

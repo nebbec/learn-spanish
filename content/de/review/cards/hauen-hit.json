@@ -1,0 +1,17 @@
+{
+  "id": "hauen-hit",
+  "rank": 645,
+  "word": "hauen",
+  "draft": "88ddd18e8e03e98d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hit, to whack (informal)",
+    "example": "My little brother always hits me."
+  },
+  "note": "Irregular is true only because the Perfekt participle gehauen is strong; the present-tense forms are regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:26.940Z"
+}

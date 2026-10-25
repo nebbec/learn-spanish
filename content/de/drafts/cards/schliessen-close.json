@@ -1,0 +1,33 @@
+{
+  "id": "schliessen-close",
+  "rank": 460,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schließen",
+  "en": "to close",
+  "hint": "the standard word, not zumachen",
+  "grammar": {
+    "present": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er": "schließt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschlossen"
+    }
+  },
+  "example": {
+    "target": "Schließ bitte die Tür, es zieht.",
+    "en": "Please close the door, there's a draft."
+  },
+  "regional": null,
+  "trick": "SCHLIESSEN sounds like \"shh, Lisa\": Shh, Lisa, close the door quietly.",
+  "image": "/deck-de/img/schliessen-close.webp",
+  "audio": {
+    "word": "/deck-de/audio/schliessen-close.word.mp3",
+    "sentence": "/deck-de/audio/schliessen-close.sentence.mp3"
+  }
+}

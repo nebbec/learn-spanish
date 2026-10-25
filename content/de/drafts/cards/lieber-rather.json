@@ -1,0 +1,21 @@
+{
+  "id": "lieber-rather",
+  "rank": 304,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "lieber",
+  "en": "rather",
+  "hint": "preferably, as in I'd rather",
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke lieber Tee.",
+    "en": "I'd rather have tea."
+  },
+  "regional": null,
+  "trick": "LIEBER sounds like LEE-ber, close to old English liefer, as in I had liefer go: I would rather go.",
+  "image": "/deck-de/img/lieber-rather.webp",
+  "audio": {
+    "word": "/deck-de/audio/lieber-rather.word.mp3",
+    "sentence": "/deck-de/audio/lieber-rather.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "allein-alone",
+  "rank": 229,
+  "word": "allein",
+  "draft": "3216f0b0f6841c7c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "alone (by oneself, without others)",
+    "example": "I want to be alone tonight."
+  },
+  "note": "The colloquial variant \"alleine\" is the same word and should be accepted as a correct answer, while \"einsam\" means lonely, not alone.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:40:14.677Z"
+}

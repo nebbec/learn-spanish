@@ -1,0 +1,23 @@
+{
+  "id": "echt-really",
+  "rank": 248,
+  "word": "echt",
+  "draft": "e1fe08bd227b3846",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint (casual, before an adjective, not wirklich) still allows other common casual intensifiers such as richtig (richtig gut) and voll (voll gut), so the prompt has more than one right answer.",
+      "fix": "hint: casual, before an adjective; the word that also means genuine"
+    }
+  ],
+  "back": {
+    "target": "really (casual intensifier, as in really good); also real, genuine",
+    "example": "The film is really good!"
+  },
+  "note": "echt is also very common on its own as the reaction \"Echt?\" (Really?), which could be worth its own phrase card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:47.943Z"
+}

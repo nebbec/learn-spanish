@@ -1,0 +1,25 @@
+{
+  "id": "mord-murder",
+  "rank": 538,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Mord",
+  "en": "murder",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Morde"
+  },
+  "example": {
+    "target": "Das war kein Unfall, das war Mord.",
+    "en": "That wasn't an accident, that was murder."
+  },
+  "regional": null,
+  "trick": "MORD sounds like mort, as in mortuary: a murder sends someone to the mortuary.",
+  "image": "/deck-de/img/mord-murder.webp",
+  "audio": {
+    "word": "/deck-de/audio/mord-murder.word.mp3",
+    "sentence": "/deck-de/audio/mord-murder.sentence.mp3"
+  }
+}

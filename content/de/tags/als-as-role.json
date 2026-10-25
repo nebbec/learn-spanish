@@ -1,0 +1,14 @@
+{
+  "id": "als-as-role",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "161a1e0d8bb6d719",
+  "group": "#60 als",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:24.974Z"
+}

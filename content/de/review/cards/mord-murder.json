@@ -1,0 +1,17 @@
+{
+  "id": "mord-murder",
+  "rank": 538,
+  "word": "Mord",
+  "draft": "294888d41268256a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "murder (the crime of killing someone deliberately)",
+    "example": "That wasn't an accident, that was murder."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:08.496Z"
+}

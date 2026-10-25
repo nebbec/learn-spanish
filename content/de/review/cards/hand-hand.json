@@ -1,0 +1,17 @@
+{
+  "id": "hand-hand",
+  "rank": 251,
+  "word": "Hand",
+  "draft": "5a048472f67005f5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hand",
+    "example": "Give me your hand."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:53.344Z"
+}

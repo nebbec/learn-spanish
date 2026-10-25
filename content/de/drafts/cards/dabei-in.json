@@ -1,0 +1,21 @@
+{
+  "id": "dabei-in",
+  "rank": 272,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "dabei",
+  "en": "Great idea, I'm [in]!",
+  "hint": "taking part, one word",
+  "grammar": null,
+  "example": {
+    "target": "Wir gehen heute schwimmen. Bist du dabei?",
+    "en": "We're going swimming today. Are you in?"
+  },
+  "regional": null,
+  "trick": "DABEI sounds like \"dah-BY\": I'll be right there by your side, so count me in.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dabei-in.word.mp3",
+    "sentence": "/deck-de/audio/dabei-in.sentence.mp3"
+  }
+}

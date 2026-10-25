@@ -1,0 +1,38 @@
+# stellen-ask-question · rank 208 · stellen
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card preguntar-ask (to ask a question, not ask for something) has the same meaning, so its picture of someone asking a question fits this card. Suggested fix: preguntar-ask
+# Reviewer's note (not a reason to flag): This card teaches stellen only in the fixed phrase eine Frage stellen, and the hint is what makes stellen the single right answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0208.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 stellen-ask-question
+kind:               content
+pos:                verb
+target:             stellen
+en:                 to ask (a question)
+hint:               the verb used with eine Frage, not fragen
+ich:                stelle
+du:                 stellst
+er:                 stellt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gestellt
+example.target:     Darf ich dir eine Frage stellen?
+example.en:         Can I ask you a question?
+regional.where:
+regional.text:
+trick:              STELLEN sounds like "shtell", close to "tell": you tell someone your question by putting it in front of them.
+
+# The draft this file was made from. Do not change it.
+draft: e8e886668c9b78b0

@@ -1,0 +1,17 @@
+{
+  "id": "feind-enemy",
+  "rank": 749,
+  "word": "Feind",
+  "draft": "3646c8459d478671",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "enemy",
+    "example": "He is not your enemy."
+  },
+  "note": "Gegner (opponent) is close in meaning, but for \"enemy\" the clear answer is Feind, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:53.476Z"
+}

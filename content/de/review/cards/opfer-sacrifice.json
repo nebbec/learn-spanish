@@ -1,0 +1,17 @@
+{
+  "id": "opfer-sacrifice",
+  "rank": 547,
+  "word": "Opfer",
+  "draft": "24a1d27b1c6911b0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sacrifice (also victim)",
+    "example": "For my children I make every sacrifice."
+  },
+  "note": "The word's other card covers the more frequent meaning \"victim\", so this card and that one need different pictures, and the example teaches the common set phrase \"ein Opfer bringen\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:00.934Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 520,
+  "word": "Büro",
+  "cards": [
+    "buero-office"
+  ],
+  "skip": null,
+  "sameAs": {
+    "buero-office": "oficina-office"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:36.556Z"
+}

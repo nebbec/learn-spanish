@@ -1,0 +1,15 @@
+{
+  "rank": 296,
+  "word": "hoch",
+  "cards": [
+    "hoch-high"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hoch-high": "alto-tall"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:37.951Z"
+}

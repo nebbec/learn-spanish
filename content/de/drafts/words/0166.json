@@ -1,0 +1,15 @@
+{
+  "rank": 166,
+  "word": "fragen",
+  "cards": [
+    "fragen-ask"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fragen-ask": "preguntar-ask"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:32:35.262Z"
+}

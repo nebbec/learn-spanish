@@ -1,0 +1,33 @@
+{
+  "id": "aendern-change",
+  "rank": 420,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ändern",
+  "en": "to change",
+  "hint": "to alter something, not swap it",
+  "grammar": {
+    "present": {
+      "ich": "ändere",
+      "du": "änderst",
+      "er": "ändert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geändert"
+    }
+  },
+  "example": {
+    "target": "Das ändert alles.",
+    "en": "That changes everything."
+  },
+  "regional": null,
+  "trick": "ÄNDERN starts like the English word end: change a story by rewriting its end.",
+  "image": "/deck-de/img/aendern-change.webp",
+  "audio": {
+    "word": "/deck-de/audio/aendern-change.word.mp3",
+    "sentence": "/deck-de/audio/aendern-change.sentence.mp3"
+  }
+}

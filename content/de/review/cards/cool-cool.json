@@ -1,0 +1,23 @@
+{
+  "id": "cool-cool",
+  "rank": 544,
+  "word": "cool",
+  "draft": "0db1f7bf36b161ea",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says Germans use cool only for awesome, but it also commonly means calm or laid-back, as in bleib cool.",
+      "fix": "trick: COOL is borrowed straight from English and sounds the same; Germans use it for awesome or laid-back, but never for chilly."
+    }
+  ],
+  "back": {
+    "target": "cool (great, awesome; also relaxed, laid-back)",
+    "example": "Your new bike is really cool."
+  },
+  "note": "The prompt alone would almost always get cool, but the hint usefully rules out kühl.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:43.456Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 158,
+  "word": "klar",
+  "cards": [
+    "klar-clear",
+    "klar-of-course"
+  ],
+  "skip": null,
+  "sameAs": {
+    "klar-clear": "claro-clear",
+    "klar-of-course": "claro-of-course"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:53.449Z"
+}

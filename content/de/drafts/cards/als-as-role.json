@@ -1,0 +1,21 @@
+{
+  "id": "als-as-role",
+  "rank": 60,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "als",
+  "en": "I work [as] a waiter",
+  "hint": "in the role of",
+  "grammar": null,
+  "example": {
+    "target": "Ich arbeite als Kellner.",
+    "en": "I work as a waiter."
+  },
+  "regional": null,
+  "trick": "ALS sounds a bit like \"as\" with an L slipped in: it works as \"as\".",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/als-as-role.word.mp3",
+    "sentence": "/deck-de/audio/als-as-role.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "art-kind",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e6ed05439d0b830c",
+  "group": "#386 Art",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:00.610Z"
+}

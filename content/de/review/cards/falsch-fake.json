@@ -1,0 +1,17 @@
+{
+  "id": "falsch-fake",
+  "rank": 320,
+  "word": "falsch",
+  "draft": "5e834ad14f1d0c04",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "false, fake (not genuine); also wrong",
+    "example": "He used a false name."
+  },
+  "note": "The hint's \"as in a fake name\" matters here because it rules out gefälscht (forged documents or money) and unecht (imitation jewellery), and it keeps this card apart from the \"wrong\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:31.159Z"
+}

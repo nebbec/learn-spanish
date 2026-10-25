@@ -1,0 +1,17 @@
+{
+  "rank": 305,
+  "word": "kurz",
+  "cards": [
+    "kurz-short",
+    "kurz-briefly"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kurz-short": null,
+    "kurz-briefly": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:17.678Z"
+}

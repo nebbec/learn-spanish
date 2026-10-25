@@ -1,0 +1,14 @@
+{
+  "rank": 400,
+  "word": "he",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "German he is a call to get someone's attention (He, du!), the same as English hey."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:17.649Z"
+}

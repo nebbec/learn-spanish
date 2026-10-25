@@ -1,0 +1,30 @@
+# bestimmen-definitely · rank 620 · bestimmen
+#
+# Why it was flagged:
+#   - One right answer: For 'definitely' with the hint 'surely, almost certainly', learners could equally answer sicherlich, definitiv or auf jeden Fall, since the hint excludes only sicher, and 'almost certainly' clashes with 'definitely'. Suggested fix: en: surely; hint: almost certainly, I bet; not sicher or sicherlich
+# Reviewer's note (not a reason to flag): The example's English could also read "I'm sure that'll work", which better shows the confident-guess sense of bestimmt.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             bestimmen-definitely
+kind:           content
+pos:            adverb
+target:         bestimmt
+en:             surely
+hint:           almost certainly, I bet; not sicher or sicherlich
+example.target: Das klappt bestimmt.
+example.en:     That will definitely work.
+regional.where:
+regional.text:
+trick:          BESTIMMT hides Stimme, German for voice: say it in a firm voice and it means definitely.
+
+# The draft this file was made from. Do not change it.
+draft: 1b53195fa0271704

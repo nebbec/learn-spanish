@@ -1,0 +1,17 @@
+{
+  "id": "partner-partner",
+  "rank": 788,
+  "word": "Partner",
+  "draft": "03a7b07820f2d489",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "partner (in business, life, a team or the police)",
+    "example": "This is my partner at the police."
+  },
+  "note": "The feminine is die Partnerin; the editor could mention it in the grammar or trick, but the masculine dictionary form is the right answer for the bare prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:02.696Z"
+}

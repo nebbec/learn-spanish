@@ -1,0 +1,17 @@
+{
+  "rank": 226,
+  "word": "Herr",
+  "cards": [
+    "herr-mr",
+    "herr-gentleman"
+  ],
+  "skip": null,
+  "sameAs": {
+    "herr-mr": "senor-sir",
+    "herr-gentleman": "caballero-gentleman"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:37:16.739Z"
+}

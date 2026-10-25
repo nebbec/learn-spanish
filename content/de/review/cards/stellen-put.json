@@ -1,0 +1,17 @@
+{
+  "id": "stellen-put",
+  "rank": 208,
+  "word": "stellen",
+  "draft": "6abd49a78f56a00f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to put, to place (in an upright or standing position)",
+    "example": "Put the bottle on the table."
+  },
+  "note": "The hint is needed, because \"standing upright\" rules out legen, setzen and the colloquial tun, and it keeps this card apart from the \"to ask (a question)\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:19.453Z"
+}

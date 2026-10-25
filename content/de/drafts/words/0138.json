@@ -1,0 +1,17 @@
+{
+  "rank": 138,
+  "word": "nun",
+  "cards": [
+    "nun-now",
+    "nun-well"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nun-now": "ahora-now",
+    "nun-well": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:30:49.318Z"
+}

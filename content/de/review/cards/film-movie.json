@@ -1,0 +1,17 @@
+{
+  "id": "film-movie",
+  "rank": 470,
+  "word": "Film",
+  "draft": "a9b1253146fdcbf6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "film, movie",
+    "example": "Shall we watch a movie this evening?"
+  },
+  "note": "\"Einen Film schauen\" is fine across Germany, and \"gucken\" is a common informal alternative in the north.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:47.841Z"
+}

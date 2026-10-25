@@ -1,0 +1,14 @@
+{
+  "id": "halten-think-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2c0b8eac51ef850b",
+  "group": "#156 halten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:06.675Z"
+}

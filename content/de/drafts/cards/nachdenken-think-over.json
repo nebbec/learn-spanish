@@ -1,0 +1,33 @@
+{
+  "id": "nachdenken-think-over",
+  "rank": 643,
+  "kind": "content",
+  "pos": "verb",
+  "target": "nachdenken",
+  "en": "to think about",
+  "hint": "to think it over, reflect",
+  "grammar": {
+    "present": {
+      "ich": "denke nach",
+      "du": "denkst nach",
+      "er": "denkt nach"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "nachgedacht"
+    }
+  },
+  "example": {
+    "target": "Ich denke noch darüber nach.",
+    "en": "I'm still thinking about it."
+  },
+  "regional": null,
+  "trick": "DENKEN sounds like thinkin', and NACH sounds like knock: knock on your head while you keep thinkin' it over.",
+  "image": "/deck-de/img/nachdenken-think-over.webp",
+  "audio": {
+    "word": "/deck-de/audio/nachdenken-think-over.word.mp3",
+    "sentence": "/deck-de/audio/nachdenken-think-over.sentence.mp3"
+  }
+}

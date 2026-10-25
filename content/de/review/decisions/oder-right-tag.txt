@@ -1,0 +1,30 @@
+# oder-right-tag · rank 71 · oder
+#
+# Why it was flagged:
+#   - Usage in Germany: The regional note is wrong: tag 'oder?' is very common in Switzerland (it's known as typically Swiss), and 'gell' is mainly southern German and Austrian, so Switzerland doesn't noticeably use something else here. Suggested fix: regional: null
+# Reviewer's note (not a reason to flag): The hint's 'the word that also means or' rules out ne?, nicht? and gell?, so the hint is needed and works; strictly speaking, the tag oder works more like a particle than a conjunction.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             oder-right-tag
+kind:           glue
+pos:            conjunction
+target:         oder
+en:             That's cool, [right]?
+hint:           tag at the end, the word that also means or
+example.target: Du kommst morgen, oder?
+example.en:     You're coming tomorrow, right?
+regional.where:
+regional.text:
+trick:          ODER sounds like "or...?": you're coming, or not? That trailing question means right?
+
+# The draft this file was made from. Do not change it.
+draft: 02e303caedc2ce99

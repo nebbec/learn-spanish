@@ -1,0 +1,25 @@
+{
+  "id": "hand-hand",
+  "rank": 251,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Hand",
+  "en": "hand",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Hände"
+  },
+  "example": {
+    "target": "Gib mir deine Hand.",
+    "en": "Give me your hand."
+  },
+  "regional": null,
+  "trick": "HAND sounds almost like English hand, just with a broader ah and a final t sound: it means the same thing.",
+  "image": "/deck-de/img/hand-hand.webp",
+  "audio": {
+    "word": "/deck-de/audio/hand-hand.word.mp3",
+    "sentence": "/deck-de/audio/hand-hand.sentence.mp3"
+  }
+}

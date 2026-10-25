@@ -1,0 +1,17 @@
+{
+  "id": "gar-at-all",
+  "rank": 211,
+  "word": "gar",
+  "draft": "a0c66175f841c174",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at all (as an intensifier in gar nicht, gar kein, gar nichts)",
+    "example": "That's not bad at all."
+  },
+  "note": "The other meaning of gar, the adjective for cooked or done (Das Fleisch ist gar), is less common and fine to leave without a card for now.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:40.858Z"
+}

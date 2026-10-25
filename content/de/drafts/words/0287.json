@@ -1,0 +1,15 @@
+{
+  "rank": 287,
+  "word": "Minute",
+  "cards": [
+    "minute-minute"
+  ],
+  "skip": null,
+  "sameAs": {
+    "minute-minute": "minuto-minute"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:07.263Z"
+}

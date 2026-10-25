@@ -1,0 +1,17 @@
+{
+  "id": "hoch-high",
+  "rank": 296,
+  "word": "hoch",
+  "draft": "8c85e81d1b6c215e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "high, tall (of things such as mountains, buildings, prices)",
+    "example": "The mountain is really high."
+  },
+  "note": "You could mention that hoch drops its c before an ending (ein hoher Berg, die hohe Mauer), since learners often get this wrong, and that a tall person is groß, not hoch.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:20.092Z"
+}

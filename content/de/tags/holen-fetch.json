@@ -1,0 +1,14 @@
+{
+  "id": "holen-fetch",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5778320d0b57074e",
+  "group": "#198 holen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:33.331Z"
+}

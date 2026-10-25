@@ -1,0 +1,14 @@
+{
+  "id": "zahlen-pay",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Both mean pay; zahlen is the short everyday word, bezahlen is used with what you pay for (die Rechnung bezahlen).",
+  "draft": "1f9774bff2a57eea",
+  "group": "#625 zahlen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:29.846Z"
+}

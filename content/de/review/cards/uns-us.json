@@ -1,0 +1,17 @@
+{
+  "id": "uns-us",
+  "rank": 55,
+  "word": "uns",
+  "draft": "7c9f2c80a5a94f1e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "us (object pronoun, accusative and dative of wir)",
+    "example": "Are you coming to the cinema with us this evening?"
+  },
+  "note": "The prompt uses uns as a dative object (Kannst du uns helfen?) and the example uses it after mit, also dative, so the editor might want one of them to show the accusative use instead (for example, Siehst du uns?).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:59.465Z"
+}

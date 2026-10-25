@@ -1,0 +1,14 @@
+{
+  "id": "eben-simply",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9b0e7f1a989dc2e5",
+  "group": "#411 eben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:54.774Z"
+}

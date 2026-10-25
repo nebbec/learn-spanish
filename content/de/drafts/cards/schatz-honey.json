@@ -1,0 +1,25 @@
+{
+  "id": "schatz-honey",
+  "rank": 275,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Schatz",
+  "en": "honey",
+  "hint": "what you call a loved one, not the food",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Schätze"
+  },
+  "example": {
+    "target": "Schatz, kommst du heute Abend mit?",
+    "en": "Honey, are you coming along tonight?"
+  },
+  "regional": null,
+  "trick": "SCHATZ sounds like \"shots\": your honey is the one person you'd take a shot for.",
+  "image": "/deck-de/img/schatz-honey.webp",
+  "audio": {
+    "word": "/deck-de/audio/schatz-honey.word.mp3",
+    "sentence": "/deck-de/audio/schatz-honey.sentence.mp3"
+  }
+}

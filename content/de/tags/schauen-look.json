@@ -1,0 +1,14 @@
+{
+  "id": "schauen-look",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a655745231dc0335",
+  "group": "#258 schauen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:45.363Z"
+}

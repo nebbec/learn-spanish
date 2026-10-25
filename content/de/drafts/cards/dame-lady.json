@@ -1,0 +1,25 @@
+{
+  "id": "dame-lady",
+  "rank": 515,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Dame",
+  "en": "lady",
+  "hint": "polite word, as in ladies and gentlemen",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Damen"
+  },
+  "example": {
+    "target": "Die Dame da drüben wartet auf dich.",
+    "en": "The lady over there is waiting for you."
+  },
+  "regional": null,
+  "trick": "DAME sounds like DAH-muh, close to the English title Dame, given to an honoured lady.",
+  "image": "/deck-de/img/dame-lady.webp",
+  "audio": {
+    "word": "/deck-de/audio/dame-lady.word.mp3",
+    "sentence": "/deck-de/audio/dame-lady.sentence.mp3"
+  }
+}

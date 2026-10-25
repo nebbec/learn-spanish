@@ -1,0 +1,21 @@
+{
+  "id": "von-from",
+  "rank": 35,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "von",
+  "en": "a message [from] Anna",
+  "hint": "from a person",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe eine Nachricht von Anna.",
+    "en": "I have a message from Anna."
+  },
+  "regional": null,
+  "trick": "VON sounds like \"fon\", close to \"phone\": a phone call from Anna.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/von-from.word.mp3",
+    "sentence": "/deck-de/audio/von-from.sentence.mp3"
+  }
+}

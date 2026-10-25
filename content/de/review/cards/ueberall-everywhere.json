@@ -1,0 +1,17 @@
+{
+  "id": "ueberall-everywhere",
+  "rank": 566,
+  "word": "überall",
+  "draft": "5ffd562fb5cf5c17",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "everywhere",
+    "example": "I looked for you everywhere!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:33.165Z"
+}

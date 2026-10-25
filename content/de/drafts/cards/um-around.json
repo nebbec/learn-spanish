@@ -1,0 +1,21 @@
+{
+  "id": "um-around",
+  "rank": 66,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "um",
+  "en": "We're sitting [around] the table",
+  "hint": "surrounding something",
+  "grammar": null,
+  "example": {
+    "target": "Wir sitzen alle um den Tisch.",
+    "en": "We're all sitting around the table."
+  },
+  "regional": null,
+  "trick": "UM sounds like \"oom\": picture people humming \"oom\" as they walk in a circle around something.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/um-around.word.mp3",
+    "sentence": "/deck-de/audio/um-around.sentence.mp3"
+  }
+}

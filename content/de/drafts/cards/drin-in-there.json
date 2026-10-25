@@ -1,0 +1,21 @@
+{
+  "id": "drin-in-there",
+  "rank": 378,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "drin",
+  "en": "in there",
+  "hint": "short everyday word, in it",
+  "grammar": null,
+  "example": {
+    "target": "Was ist da drin?",
+    "en": "What's in there?"
+  },
+  "regional": null,
+  "trick": "DRIN sounds like the start of drink: the drink is in there, inside the glass.",
+  "image": "/deck-de/img/drin-in-there.webp",
+  "audio": {
+    "word": "/deck-de/audio/drin-in-there.word.mp3",
+    "sentence": "/deck-de/audio/drin-in-there.sentence.mp3"
+  }
+}

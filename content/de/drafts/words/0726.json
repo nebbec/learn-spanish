@@ -1,0 +1,15 @@
+{
+  "rank": 726,
+  "word": "hinten",
+  "cards": [
+    "hinten-at-back"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hinten-at-back": "atras-back"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:11.831Z"
+}

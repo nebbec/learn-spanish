@@ -1,0 +1,14 @@
+{
+  "id": "aufhoeren-stop",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use aufhören when you stop doing something; halten when a bus or car stops, aufhalten when you stop someone.",
+  "draft": "cf73c7e1f93383a8",
+  "group": "#453 aufhören",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:18.927Z"
+}

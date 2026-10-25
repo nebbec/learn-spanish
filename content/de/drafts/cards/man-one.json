@@ -1,0 +1,21 @@
+{
+  "id": "man-one",
+  "rank": 76,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "man",
+  "en": "[you] can't smoke here",
+  "hint": "people in general, not du",
+  "grammar": null,
+  "example": {
+    "target": "Das sagt man nicht.",
+    "en": "You don't say that."
+  },
+  "regional": null,
+  "trick": "MAN sounds almost like English man: any man at all, meaning one, you, or people in general.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/man-one.word.mp3",
+    "sentence": "/deck-de/audio/man-one.sentence.mp3"
+  }
+}

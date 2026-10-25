@@ -1,0 +1,17 @@
+{
+  "id": "verlassen-rely-on",
+  "rank": 311,
+  "word": "verlassen",
+  "draft": "5f97e7f5e7df6a1f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to rely (on), to count (on) (reflexive, with auf)",
+    "example": "I'm counting on you. / I rely on you."
+  },
+  "note": "The hint \"with auf\" helps the learner produce the full pattern \"sich verlassen auf\" and keeps this card apart from \"vertrauen\" (to trust) and \"zählen auf\" (to count on), and confiar-trust is the nearest Spanish card but means trust rather than rely, so null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:44.911Z"
+}

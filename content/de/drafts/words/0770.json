@@ -1,0 +1,15 @@
+{
+  "rank": 770,
+  "word": "zurückkommen",
+  "cards": [
+    "zurueckkommen-come-back"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zurueckkommen-come-back": "volver-come-back"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:56.037Z"
+}

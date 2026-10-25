@@ -1,0 +1,33 @@
+{
+  "id": "passen-fit",
+  "rank": 281,
+  "kind": "content",
+  "pos": "verb",
+  "target": "passen",
+  "en": "to fit",
+  "hint": "the right size",
+  "grammar": {
+    "present": {
+      "ich": "passe",
+      "du": "passt",
+      "er": "passt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gepasst"
+    }
+  },
+  "example": {
+    "target": "Die Jacke passt mir nicht mehr.",
+    "en": "The jacket doesn't fit me anymore."
+  },
+  "regional": null,
+  "trick": "PASSEN sounds like passing: a key that passes smoothly into the lock fits.",
+  "image": "/deck-de/img/passen-fit.webp",
+  "audio": {
+    "word": "/deck-de/audio/passen-fit.word.mp3",
+    "sentence": "/deck-de/audio/passen-fit.sentence.mp3"
+  }
+}

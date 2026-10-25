@@ -1,0 +1,17 @@
+{
+  "id": "agent-agent",
+  "rank": 638,
+  "word": "Agent",
+  "draft": "9608a65733b41b3a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "agent (especially a secret agent; also an agent who represents someone)",
+    "example": "He works as an agent for the secret service."
+  },
+  "note": "Agent is a weak noun (den/dem/des Agenten), which a later case card or grammar note could point out; for a sales or estate agent German uses other words (Vertreter, Makler), but the bare prompt naturally gives Agent.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:39.549Z"
+}

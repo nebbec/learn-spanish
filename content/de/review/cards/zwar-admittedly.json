@@ -1,0 +1,17 @@
+{
+  "id": "zwar-admittedly",
+  "rank": 591,
+  "word": "zwar",
+  "draft": "bef7718c8bdfc9f2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "admittedly, it's true (that), to be sure (concessive, usually followed by aber)",
+    "example": "The car is admittedly old, but it runs."
+  },
+  "note": "Since this is the word's only card, the editor might add the common \"und zwar\" (namely, specifically) to a later card. The aber hint is useful because it rules out allerdings.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:31.358Z"
+}

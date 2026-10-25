@@ -1,0 +1,17 @@
+{
+  "id": "brief-letter",
+  "rank": 673,
+  "word": "Brief",
+  "draft": "6a21e790c6042059",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "letter (a written message sent by post)",
+    "example": "I wrote you a letter."
+  },
+  "note": "The hint \"that you mail\" is needed: it rules out der Buchstabe, the letter of the alphabet.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:53.873Z"
+}

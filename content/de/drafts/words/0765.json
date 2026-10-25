@@ -1,0 +1,15 @@
+{
+  "rank": 765,
+  "word": "unterwegs",
+  "cards": [
+    "unterwegs-on-the-way"
+  ],
+  "skip": null,
+  "sameAs": {
+    "unterwegs-on-the-way": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:35.632Z"
+}

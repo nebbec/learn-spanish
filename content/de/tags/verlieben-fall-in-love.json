@@ -1,0 +1,14 @@
+{
+  "id": "verlieben-fall-in-love",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sich verlieben for the moment of falling in love; verliebt for the state of being in love.",
+  "draft": "1c95cf90ef4a591e",
+  "group": "#741 verlieben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:27.848Z"
+}

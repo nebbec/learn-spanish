@@ -1,0 +1,17 @@
+{
+  "id": "vertrauen-trust",
+  "rank": 389,
+  "word": "vertrauen",
+  "draft": "e9a7839a7341fded",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to trust (someone or something, with the dative)",
+    "example": "I trust you."
+  },
+  "note": "The plain verb trauen (Ich trau dir nicht) can also mean to trust, but vertrauen is the standard answer, and the word's other card (the noun das Vertrauen) can't be confused with this one because of the \"to\"; the example could show that vertrauen takes the dative (dir).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:24.987Z"
+}

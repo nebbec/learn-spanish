@@ -1,0 +1,30 @@
+# selbst-self · rank 191 · selbst
+#
+# Why it was flagged:
+#   - One right answer: The hint doesn't rule out selber, the very common informal word with the same meaning (Das hab ich selber gemacht), and 'by yourself' could also point to allein. Suggested fix: hint: personally, the standard word; not selber, allein or mich
+# Reviewer's note (not a reason to flag): Spanish mismo-same is about "same" rather than the -self use (yo mismo), so leaving sameAs null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             selbst-self
+kind:           glue
+pos:            pronoun
+target:         selbst
+en:             I made it [myself]
+hint:           personally, the standard word; not selber, allein or mich
+example.target: Das habe ich selbst gemacht.
+example.en:     I made that myself.
+regional.where:
+regional.text:
+trick:          SELBST sounds like a squashed "self": it adds -self, as in myself, yourself, himself.
+
+# The draft this file was made from. Do not change it.
+draft: e5196f454f5608da

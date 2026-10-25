@@ -1,0 +1,17 @@
+{
+  "id": "verbringen-spend-time",
+  "rank": 707,
+  "word": "verbringen",
+  "draft": "3c67696540aad2cc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to spend (time, a holiday, a weekend)",
+    "example": "We are spending the weekend at my parents' house."
+  },
+  "note": "The irregular flag is right only because verbringen is a mixed verb (verbracht); its present tense is regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:49.476Z"
+}

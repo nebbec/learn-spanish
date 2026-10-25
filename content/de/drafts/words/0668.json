@@ -1,0 +1,15 @@
+{
+  "rank": 668,
+  "word": "Mörder",
+  "cards": [
+    "moerder-murderer"
+  ],
+  "skip": null,
+  "sameAs": {
+    "moerder-murderer": "asesino-killer"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:05:25.791Z"
+}

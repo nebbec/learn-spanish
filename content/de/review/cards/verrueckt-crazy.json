@@ -1,0 +1,17 @@
+{
+  "id": "verrueckt-crazy",
+  "rank": 298,
+  "word": "verrückt",
+  "draft": "a4cb6f56d791c39b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "crazy, mad, insane",
+    "example": "Are you crazy? That is much too dangerous!"
+  },
+  "note": "Synonyms such as wahnsinnig, irre or bekloppt exist, but verrückt is clearly the standard everyday word for crazy, so the card works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:26.650Z"
+}

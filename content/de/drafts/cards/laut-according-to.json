@@ -1,0 +1,21 @@
+{
+  "id": "laut-according-to",
+  "rank": 465,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "laut",
+  "en": "[according to] the weather report, it'll rain",
+  "hint": "one short word",
+  "grammar": null,
+  "example": {
+    "target": "Laut Wetterbericht regnet es morgen.",
+    "en": "According to the weather report, it'll rain tomorrow."
+  },
+  "regional": null,
+  "trick": "LAUT, the word for loud: whatever a source says out loud is what things are according to.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/laut-according-to.word.mp3",
+    "sentence": "/deck-de/audio/laut-according-to.sentence.mp3"
+  }
+}

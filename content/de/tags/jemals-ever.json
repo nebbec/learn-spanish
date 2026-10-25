@@ -1,0 +1,14 @@
+{
+  "id": "jemals-ever",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Jemals is the usual full word for ever in questions; je is the short, often set-phrase form.",
+  "draft": "bf8f458981a58cfd",
+  "group": "#750 jemals",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:47.469Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "eben-just-now",
+  "rank": 411,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "eben",
+  "en": "just (a moment ago)",
+  "hint": "not gerade",
+  "grammar": null,
+  "example": {
+    "target": "Er war eben noch hier.",
+    "en": "He was here just a moment ago."
+  },
+  "regional": null,
+  "trick": "EBEN sounds like AY-ben, close to English even: even a moment ago, just now, he was here.",
+  "image": "/deck-de/img/eben-just-now.webp",
+  "audio": {
+    "word": "/deck-de/audio/eben-just-now.word.mp3",
+    "sentence": "/deck-de/audio/eben-just-now.sentence.mp3"
+  }
+}

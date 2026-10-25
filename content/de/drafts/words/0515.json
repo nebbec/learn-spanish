@@ -1,0 +1,15 @@
+{
+  "rank": 515,
+  "word": "Dame",
+  "cards": [
+    "dame-lady"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dame-lady": "dama-lady"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:17.432Z"
+}

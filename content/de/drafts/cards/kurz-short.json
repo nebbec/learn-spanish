@@ -1,0 +1,21 @@
+{
+  "id": "kurz-short",
+  "rank": 305,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "kurz",
+  "en": "short",
+  "hint": "in length or time, not height",
+  "grammar": null,
+  "example": {
+    "target": "Der Film war echt kurz.",
+    "en": "The movie was really short."
+  },
+  "regional": null,
+  "trick": "KURZ sounds like curt: a curt reply is a short one.",
+  "image": "/deck-de/img/kurz-short.webp",
+  "audio": {
+    "word": "/deck-de/audio/kurz-short.word.mp3",
+    "sentence": "/deck-de/audio/kurz-short.sentence.mp3"
+  }
+}

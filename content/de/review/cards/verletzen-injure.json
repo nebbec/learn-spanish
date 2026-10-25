@@ -1,0 +1,17 @@
+{
+  "id": "verletzen-injure",
+  "rank": 504,
+  "word": "verletzen",
+  "draft": "0f3967122dbc54ac",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to injure, to hurt (someone, or yourself with sich; also to hurt someone's feelings)",
+    "example": "Did you hurt yourself?"
+  },
+  "note": "jemandem wehtun can also mean to hurt someone, but \"to injure\" at the start of the prompt, together with the hint ruling out \"it hurts\", points clearly to verletzen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:35.361Z"
+}

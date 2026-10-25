@@ -1,0 +1,30 @@
+# tja-well · rank 562 · tja
+#
+# Why it was flagged:
+#   - One right answer: Na ja is just as natural a resigned, shrugging well before so ist das Leben, and the hint rules out only also, so it leaves two right answers; also, writing the German word also in an English hint could read as English also. Suggested fix: hint: a one-syllable resigned shrug (not na ja or the German also)
+# Reviewer's note (not a reason to flag): Spanish bueno-well-okay is a filler for starting a reply, not a resigned shrug, so it is right that sameAs is null; it is null anyway because this is a glue card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             tja-well
+kind:           glue
+pos:            other
+target:         tja
+en:             [well], that's life
+hint:           a one-syllable resigned shrug (not na ja or the German also)
+example.target: Tja, so ist das Leben.
+example.en:     Well, that's life.
+regional.where:
+regional.text:
+trick:          TJA sounds like a short sigh, tyah, the noise you make with a shrug before saying well, what can you do.
+
+# The draft this file was made from. Do not change it.
+draft: 7b71685dc2aa5686

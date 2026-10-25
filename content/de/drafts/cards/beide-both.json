@@ -1,0 +1,21 @@
+{
+  "id": "beide-both",
+  "rank": 203,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "beide",
+  "en": "I'll take [both]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir sind beide total müde.",
+    "en": "We're both really tired."
+  },
+  "regional": null,
+  "trick": "BEIDE sounds like \"BY-duh\": picture both twins waving bye at once.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/beide-both.word.mp3",
+    "sentence": "/deck-de/audio/beide-both.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 778,
+  "word": "behandeln",
+  "cards": [
+    "behandeln-treat"
+  ],
+  "skip": null,
+  "sameAs": {
+    "behandeln-treat": "tratar-treat"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:27.608Z"
+}

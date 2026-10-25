@@ -1,0 +1,23 @@
+{
+  "id": "stimmen-be-right",
+  "rank": 190,
+  "word": "stimmen",
+  "draft": "64abae63723c5d0f",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint rules out recht haben, but a learner could still correctly answer with the two-word phrase richtig sein or stimmen's more formal synonym zutreffen, so the hint should ask for the one everyday verb.",
+      "fix": "hint: one everyday verb, of a fact or statement, not a person (Stimmt! = that's true)"
+    }
+  ],
+  "back": {
+    "target": "to be right, to be correct (of a statement or fact); also to vote, to tune",
+    "example": "That's right, you already told me that."
+  },
+  "note": "The example uses the very common one-word reply Stimmt (das stimmt with das dropped), which is a good thing for learners to pick up.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:31.818Z"
+}

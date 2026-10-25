@@ -1,0 +1,38 @@
+# melden-get-in-touch · rank 578 · melden
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card contactar-contact (to contact) means the same as getting in touch with someone, so a picture of it shows this card's meaning. Suggested fix: contactar-contact
+# Reviewer's note (not a reason to flag): Because of the word "back", the hint "call or write back" could make a learner think of sich zurückmelden or zurückrufen; "call or write to someone" would avoid that, but sich melden covers getting back to someone too, so the hint is still right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0578.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 melden-get-in-touch
+kind:               content
+pos:                verb
+target:             sich melden
+en:                 to get in touch
+hint:               call or write back
+ich:                melde mich
+du:                 meldest dich
+er:                 meldet sich
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gemeldet
+example.target:     Melde dich, wenn du angekommen bist!
+example.en:         Get in touch when you've arrived!
+regional.where:
+regional.text:
+trick:              SICH MELDEN sounds like "meld in": you meld back into someone's day when you get in touch.
+
+# The draft this file was made from. Do not change it.
+draft: 3dbb5f59b2b5d47a

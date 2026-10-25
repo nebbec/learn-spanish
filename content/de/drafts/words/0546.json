@@ -1,0 +1,15 @@
+{
+  "rank": 546,
+  "word": "erkennen",
+  "cards": [
+    "erkennen-recognize"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erkennen-recognize": "reconocer-recognize"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:14.958Z"
+}

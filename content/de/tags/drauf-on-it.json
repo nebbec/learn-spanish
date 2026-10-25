@@ -1,0 +1,14 @@
+{
+  "id": "drauf-on-it",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Drauf is the casual spoken short form of darauf; use darauf in careful speech or writing.",
+  "draft": "d90432d126aa3393",
+  "group": "#483 drauf",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:20.289Z"
+}

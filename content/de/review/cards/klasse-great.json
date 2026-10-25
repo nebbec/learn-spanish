@@ -1,0 +1,17 @@
+{
+  "id": "klasse-great",
+  "rank": 650,
+  "word": "Klasse",
+  "draft": "1995f8054a0617de",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "great, brilliant (informal; an adjective that never changes its ending)",
+    "example": "The concert was really great!"
+  },
+  "note": "The hint \"the same word as class\" is what rules out toll, super and prima, so it is needed; the adjective is correctly lowercase and never takes endings, which the editor could mention in the grammar or hint if wanted.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:53.555Z"
+}

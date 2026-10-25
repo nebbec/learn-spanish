@@ -1,0 +1,17 @@
+{
+  "id": "langsam-slow",
+  "rank": 474,
+  "word": "langsam",
+  "draft": "1a9aba7a1f51ce2c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "slow (adjective; also used as an adverb meaning slowly or gradually)",
+    "example": "My computer is totally slow today."
+  },
+  "note": "Langsam is also very common as an adverb (slowly, and \"gradually\" as in \"Langsam reicht's\"), but the adjective \"slow\" is the right core meaning for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:07.368Z"
+}

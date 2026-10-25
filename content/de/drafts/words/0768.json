@@ -1,0 +1,17 @@
+{
+  "rank": 768,
+  "word": "Tasche",
+  "cards": [
+    "tasche-bag",
+    "tasche-pocket"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tasche-bag": null,
+    "tasche-pocket": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:48.097Z"
+}

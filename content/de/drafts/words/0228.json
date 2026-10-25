@@ -1,0 +1,15 @@
+{
+  "rank": 228,
+  "word": "Mädchen",
+  "cards": [
+    "maedchen-girl"
+  ],
+  "skip": null,
+  "sameAs": {
+    "maedchen-girl": "nino-girl"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:37:23.669Z"
+}

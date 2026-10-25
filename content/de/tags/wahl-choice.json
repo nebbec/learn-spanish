@@ -1,0 +1,14 @@
+{
+  "id": "wahl-choice",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c40492e30ae5a945",
+  "group": "#595 Wahl",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:21.613Z"
+}

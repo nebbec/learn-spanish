@@ -1,0 +1,33 @@
+{
+  "id": "verpassen-miss",
+  "rank": 775,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verpassen",
+  "en": "to miss",
+  "hint": "a bus, a chance; not a person",
+  "grammar": {
+    "present": {
+      "ich": "verpasse",
+      "du": "verpasst",
+      "er": "verpasst"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verpasst"
+    }
+  },
+  "example": {
+    "target": "Beeil dich, sonst verpasst du den Zug!",
+    "en": "Hurry up, or you'll miss the train!"
+  },
+  "regional": null,
+  "trick": "VERPASSEN has PASS in the middle: when the train passes by without you, you miss it.",
+  "image": "/deck-de/img/verpassen-miss.webp",
+  "audio": {
+    "word": "/deck-de/audio/verpassen-miss.word.mp3",
+    "sentence": "/deck-de/audio/verpassen-miss.sentence.mp3"
+  }
+}

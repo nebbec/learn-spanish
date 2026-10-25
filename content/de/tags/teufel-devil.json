@@ -1,0 +1,14 @@
+{
+  "id": "teufel-devil",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8ef3287e6e44edee",
+  "group": "#383 Teufel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:55.236Z"
+}

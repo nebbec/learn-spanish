@@ -1,0 +1,14 @@
+{
+  "id": "hin-there-direction",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use hin for movement there, away from you; da or dort for where something is.",
+  "draft": "3e42897972a04f2d",
+  "group": "#232 hin",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:53.284Z"
+}

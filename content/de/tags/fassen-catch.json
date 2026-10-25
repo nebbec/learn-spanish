@@ -1,0 +1,14 @@
+{
+  "id": "fassen-catch",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "75c9d406885d1ae8",
+  "group": "#590 fassen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:08.411Z"
+}

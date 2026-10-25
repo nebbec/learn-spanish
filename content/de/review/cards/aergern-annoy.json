@@ -1,0 +1,17 @@
+{
+  "id": "aergern-annoy",
+  "rank": 648,
+  "word": "ärgern",
+  "draft": "b4ed5662795f05ee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to annoy, to make angry (reflexive sich ärgern: to be annoyed)",
+    "example": "You're really annoying me!"
+  },
+  "note": "The reflexive sich ärgern (to be annoyed, to get angry) is very common in everyday speech, so it could be worth a later card or a mention; it doesn't clash with the noun card der Ärger.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:37.130Z"
+}

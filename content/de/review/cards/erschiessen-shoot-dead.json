@@ -1,0 +1,17 @@
+{
+  "id": "erschiessen-shoot-dead",
+  "rank": 629,
+  "word": "erschießen",
+  "draft": "496a847ae8491708",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to shoot dead",
+    "example": "He simply shot the man dead."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:03.329Z"
+}

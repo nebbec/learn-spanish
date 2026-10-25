@@ -1,0 +1,15 @@
+{
+  "rank": 525,
+  "word": "brechen",
+  "cards": [
+    "brechen-break"
+  ],
+  "skip": null,
+  "sameAs": {
+    "brechen-break": "romper-break"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:53.952Z"
+}

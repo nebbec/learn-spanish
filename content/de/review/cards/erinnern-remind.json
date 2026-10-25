@@ -1,0 +1,17 @@
+{
+  "id": "erinnern-remind",
+  "rank": 274,
+  "word": "erinnern",
+  "draft": "96444ddcd8d9fc70",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to remind (someone of something, with an + accusative)",
+    "example": "Remind me of the appointment tomorrow."
+  },
+  "note": "The prompt \"to remind\" is clearly separate from the reflexive \"to remember\" card (sich erinnern), so no hint is needed here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:25.107Z"
+}

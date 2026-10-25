@@ -1,0 +1,21 @@
+{
+  "id": "etwas-somewhat",
+  "rank": 80,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "etwas",
+  "en": "somewhat",
+  "hint": "one word, before an adjective",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin heute etwas müde.",
+    "en": "I'm somewhat tired today."
+  },
+  "regional": null,
+  "trick": "ETWAS sounds like ET was: ET was somewhat tired after his long flight home.",
+  "image": "/deck-de/img/etwas-somewhat.webp",
+  "audio": {
+    "word": "/deck-de/audio/etwas-somewhat.word.mp3",
+    "sentence": "/deck-de/audio/etwas-somewhat.sentence.mp3"
+  }
+}

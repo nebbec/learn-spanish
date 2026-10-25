@@ -1,0 +1,37 @@
+# aufhalten-stop · rank 699 · aufhalten
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out stoppen, which is just as common for stopping someone (Wir müssen ihn stoppen!), and zurückhalten is the more literal match for hold back, so the learner could give either word. Suggested fix: hint: keep someone from going on, also hold up or delay (not stoppen or anhalten)
+# Reviewer's note (not a reason to flag): The common reflexive meaning sich aufhalten (to stay, to be somewhere) has no card, and the editor may want to add one later.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 aufhalten-stop
+kind:               content
+pos:                verb
+target:             aufhalten
+en:                 to stop (someone)
+hint:               keep someone from going on, also hold up or delay (not stoppen or anhalten)
+ich:                halte auf
+du:                 hältst auf
+er:                 hält auf
+irregular:          yes
+separable:          yes
+perfekt.aux:        haben
+perfekt.participle: aufgehalten
+example.target:     Wir müssen ihn aufhalten!
+example.en:         We have to stop him!
+regional.where:
+regional.text:
+trick:              AUF-HALTEN has HALT in it: you shout halt to stop someone and hold them back.
+
+# The draft this file was made from. Do not change it.
+draft: 1833eb605439b68a

@@ -1,0 +1,14 @@
+{
+  "id": "gross-tall",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "df6b4bf4fd9c3e43",
+  "group": "#143 groß",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:57.754Z"
+}

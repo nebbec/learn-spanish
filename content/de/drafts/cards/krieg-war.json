@@ -1,0 +1,25 @@
+{
+  "id": "krieg-war",
+  "rank": 419,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Krieg",
+  "en": "war",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Kriege"
+  },
+  "example": {
+    "target": "Mein Opa hat nie über den Krieg gesprochen.",
+    "en": "My grandpa never talked about the war."
+  },
+  "regional": null,
+  "trick": "KRIEG sounds like creek: two armies at war on opposite banks of a creek.",
+  "image": "/deck-de/img/krieg-war.webp",
+  "audio": {
+    "word": "/deck-de/audio/krieg-war.word.mp3",
+    "sentence": "/deck-de/audio/krieg-war.sentence.mp3"
+  }
+}

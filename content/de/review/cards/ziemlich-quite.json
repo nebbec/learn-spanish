@@ -1,0 +1,17 @@
+{
+  "id": "ziemlich-quite",
+  "rank": 370,
+  "word": "ziemlich",
+  "draft": "47dfd35ef30b1d1e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "fairly, quite, pretty (before an adjective)",
+    "example": "The food here is pretty expensive."
+  },
+  "note": "The hint rules out ganz, but recht and relativ could still come to mind; ziemlich is clearly the main everyday answer, and the seemly trick fits nicely because ziemlich really is related to geziemen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:25.512Z"
+}

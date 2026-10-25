@@ -1,0 +1,14 @@
+{
+  "id": "bereits-already",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Bereits means the same as schon but sounds more formal; in everyday speech use schon.",
+  "draft": "493106baad0d2700",
+  "group": "#533 bereits",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:14.457Z"
+}

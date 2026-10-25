@@ -1,0 +1,17 @@
+{
+  "id": "dauern-last",
+  "rank": 449,
+  "word": "dauern",
+  "draft": "d68a3891c880037f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to last, to take (time)",
+    "example": "That only takes five minutes."
+  },
+  "note": "The hint is useful because it rules out halten (to last, as in a thing holding up or staying fresh); dauern does come from Latin durare, the same root as duration and endure, so the trick is accurate.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:46.157Z"
+}

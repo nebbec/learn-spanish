@@ -1,0 +1,25 @@
+{
+  "id": "telefon-phone",
+  "rank": 496,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Telefon",
+  "en": "phone",
+  "hint": "the general word, not specifically a mobile",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Telefone"
+  },
+  "example": {
+    "target": "Dein Telefon klingelt.",
+    "en": "Your phone is ringing."
+  },
+  "regional": null,
+  "trick": "TELEFON sounds like telephone with the stress on the end, tay-lay-FOHN, and it means phone.",
+  "image": "/deck-de/img/telefon-phone.webp",
+  "audio": {
+    "word": "/deck-de/audio/telefon-phone.word.mp3",
+    "sentence": "/deck-de/audio/telefon-phone.sentence.mp3"
+  }
+}

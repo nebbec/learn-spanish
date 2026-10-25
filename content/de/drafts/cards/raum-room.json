@@ -1,0 +1,25 @@
+{
+  "id": "raum-room",
+  "rank": 685,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Raum",
+  "en": "room",
+  "hint": "any room in a building, like a meeting room; not Zimmer",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Räume"
+  },
+  "example": {
+    "target": "Der Raum ist zu klein für uns alle.",
+    "en": "The room is too small for all of us."
+  },
+  "regional": null,
+  "trick": "RAUM sounds a lot like \"room\", just with an \"ow\" sound in the middle.",
+  "image": "/deck-de/img/raum-room.webp",
+  "audio": {
+    "word": "/deck-de/audio/raum-room.word.mp3",
+    "sentence": "/deck-de/audio/raum-room.sentence.mp3"
+  }
+}

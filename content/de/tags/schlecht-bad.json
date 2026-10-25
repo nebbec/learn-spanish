@@ -1,0 +1,14 @@
+{
+  "id": "schlecht-bad",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use schlecht for poor quality, the opposite of gut; schlimm for something serious or awful.",
+  "draft": "3b3b2e219e2fedd4",
+  "group": "#286 schlecht",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:45.846Z"
+}

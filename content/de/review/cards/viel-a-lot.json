@@ -1,0 +1,17 @@
+{
+  "id": "viel-a-lot",
+  "rank": 77,
+  "word": "viel",
+  "draft": "2a46c85474b4fbc0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "a lot, much (adverb, how much someone does something)",
+    "example": "You really work too much."
+  },
+  "note": "The example uses zu viel (too much), which is correct, but plain \"Du arbeitest echt viel.\" (You really work a lot.) would match the prompt more closely.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:11.827Z"
+}

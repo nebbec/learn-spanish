@@ -1,0 +1,16 @@
+{
+  "id": "mehr-anymore",
+  "unit": null,
+  "want": null,
+  "requires": [
+    "nicht-not"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "53154e423ae2674b",
+  "group": "#83 mehr",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:02.730Z"
+}

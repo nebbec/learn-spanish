@@ -1,0 +1,17 @@
+{
+  "id": "seele-soul",
+  "rank": 738,
+  "word": "Seele",
+  "draft": "1d7076f7a4da7970",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "soul",
+    "example": "You really are a good soul."
+  },
+  "note": "The trick correctly calls Seele a cognate of soul, but the sail link is weak; a picture built on the shared Germanic root might stick better.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:02.548Z"
+}

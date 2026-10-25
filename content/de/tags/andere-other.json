@@ -1,0 +1,14 @@
+{
+  "id": "andere-other",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d371a6d1506f3f04",
+  "group": "#112 andere",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:49.368Z"
+}

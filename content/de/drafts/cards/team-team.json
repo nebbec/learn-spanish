@@ -1,0 +1,25 @@
+{
+  "id": "team-team",
+  "rank": 642,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Team",
+  "en": "team",
+  "hint": "the English loanword, not Mannschaft",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Teams"
+  },
+  "example": {
+    "target": "Wir sind ein super Team.",
+    "en": "We're a great team."
+  },
+  "regional": null,
+  "trick": "TEAM is borrowed from English and sounds just like it: a team is a team, but in German it takes das.",
+  "image": "/deck-de/img/team-team.webp",
+  "audio": {
+    "word": "/deck-de/audio/team-team.word.mp3",
+    "sentence": "/deck-de/audio/team-team.sentence.mp3"
+  }
+}

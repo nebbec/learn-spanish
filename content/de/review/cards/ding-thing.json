@@ -1,0 +1,17 @@
+{
+  "id": "ding-thing",
+  "rank": 231,
+  "word": "Ding",
+  "draft": "c87d8571c604e358",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "thing (an object)",
+    "example": "What kind of thing is that?"
+  },
+  "note": "In casual speech the plural for physical objects is often \"die Dinger\" (\"Was sind das für Dinger?\"), so the editor may want a footnote; \"die Dinge\" is still the right standard plural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:40:22.394Z"
+}

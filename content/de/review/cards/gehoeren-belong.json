@@ -1,0 +1,17 @@
+{
+  "id": "gehoeren-belong",
+  "rank": 485,
+  "word": "gehören",
+  "draft": "92eed2423ac9410c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to belong (to someone), to be owned by",
+    "example": "Who does the phone here belong to? / Whose phone is this?"
+  },
+  "note": "The example nicely shows the typical pattern of the owner in the dative (wem) and the thing owned as the subject.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:59.188Z"
+}

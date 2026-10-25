@@ -1,0 +1,17 @@
+{
+  "rank": 50,
+  "word": "da",
+  "cards": [
+    "da-there",
+    "da-since"
+  ],
+  "skip": null,
+  "sameAs": {
+    "da-there": "ahi-there",
+    "da-since": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:50.382Z"
+}

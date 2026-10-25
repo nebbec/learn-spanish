@@ -1,0 +1,33 @@
+{
+  "id": "klingen-sound",
+  "rank": 380,
+  "kind": "content",
+  "pos": "verb",
+  "target": "klingen",
+  "en": "to sound",
+  "hint": "to seem, as in sounds good",
+  "grammar": {
+    "present": {
+      "ich": "klinge",
+      "du": "klingst",
+      "er": "klingt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geklungen"
+    }
+  },
+  "example": {
+    "target": "Das klingt echt gut!",
+    "en": "That sounds really good!"
+  },
+  "regional": null,
+  "trick": "KLINGEN sounds like clinking: clinking glasses make a bright sound.",
+  "image": "/deck-de/img/klingen-sound.webp",
+  "audio": {
+    "word": "/deck-de/audio/klingen-sound.word.mp3",
+    "sentence": "/deck-de/audio/klingen-sound.sentence.mp3"
+  }
+}

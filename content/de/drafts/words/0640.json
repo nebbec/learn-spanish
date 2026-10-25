@@ -1,0 +1,15 @@
+{
+  "rank": 640,
+  "word": "eher",
+  "cards": [
+    "eher-rather"
+  ],
+  "skip": null,
+  "sameAs": {
+    "eher-rather": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:03:23.785Z"
+}

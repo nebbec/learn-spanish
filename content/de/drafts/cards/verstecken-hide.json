@@ -1,0 +1,33 @@
+{
+  "id": "verstecken-hide",
+  "rank": 678,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verstecken",
+  "en": "to hide",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verstecke",
+      "du": "versteckst",
+      "er": "versteckt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "versteckt"
+    }
+  },
+  "example": {
+    "target": "Ich verstecke das Geschenk im Schrank.",
+    "en": "I'm hiding the present in the wardrobe."
+  },
+  "regional": null,
+  "trick": "VERSTECKEN sounds like \"fair-SHTECK-en\": you STICK something away where nobody will look, so you hide it.",
+  "image": "/deck-de/img/verstecken-hide.webp",
+  "audio": {
+    "word": "/deck-de/audio/verstecken-hide.word.mp3",
+    "sentence": "/deck-de/audio/verstecken-hide.sentence.mp3"
+  }
+}

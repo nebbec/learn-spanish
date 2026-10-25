@@ -1,0 +1,33 @@
+{
+  "id": "lassen-let",
+  "rank": 69,
+  "kind": "content",
+  "pos": "verb",
+  "target": "lassen",
+  "en": "to let",
+  "hint": "allow, as in let me",
+  "grammar": {
+    "present": {
+      "ich": "lasse",
+      "du": "lässt",
+      "er": "lässt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelassen"
+    }
+  },
+  "example": {
+    "target": "Lass mich das machen.",
+    "en": "Let me do it."
+  },
+  "regional": null,
+  "trick": "LASSEN sounds like lass in: let the lass in.",
+  "image": "/deck-de/img/lassen-let.webp",
+  "audio": {
+    "word": "/deck-de/audio/lassen-let.word.mp3",
+    "sentence": "/deck-de/audio/lassen-let.sentence.mp3"
+  }
+}

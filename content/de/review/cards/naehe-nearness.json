@@ -1,0 +1,17 @@
+{
+  "id": "naehe-nearness",
+  "rank": 739,
+  "word": "Nähe",
+  "draft": "f224378b25d2aeb2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "nearness, closeness, proximity (also the vicinity, as in in der Nähe = nearby)",
+    "example": "Do you live around here?"
+  },
+  "note": "Leaving the plural as null is right, since Nähe is in practice used only in the singular, and the hint helpfully steers the learner to the phrase in der Nähe.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:10.156Z"
+}

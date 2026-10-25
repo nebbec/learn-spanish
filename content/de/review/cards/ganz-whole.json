@@ -1,0 +1,17 @@
+{
+  "id": "ganz-whole",
+  "rank": 88,
+  "word": "ganz",
+  "draft": "e02a4ee5e968d05d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "whole, entire",
+    "example": "I slept the whole day."
+  },
+  "note": "The hint usefully points to the everyday word over the more formal gesamt and keeps this adjective card apart from the adverb card for completely.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:01.746Z"
+}

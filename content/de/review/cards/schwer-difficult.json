@@ -1,0 +1,17 @@
+{
+  "id": "schwer-difficult",
+  "rank": 323,
+  "word": "schwer",
+  "draft": "60f39b83d053b9c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "difficult, hard (also heavy)",
+    "example": "The exam was quite difficult."
+  },
+  "note": "The hint is needed because it rules out schwierig, and \"difficult\" in the prompt keeps out hart, which means physically hard or tough, so only schwer fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:46.192Z"
+}

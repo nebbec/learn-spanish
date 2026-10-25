@@ -1,0 +1,17 @@
+{
+  "id": "bild-picture",
+  "rank": 530,
+  "word": "Bild",
+  "draft": "3e06227a3557fc92",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "picture, image",
+    "example": "Look, my grandma painted that picture."
+  },
+  "note": "null is right for sameAs because foto-photo is narrower than picture, which also covers paintings and drawings.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:32.955Z"
+}

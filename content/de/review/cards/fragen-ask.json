@@ -1,0 +1,17 @@
+{
+  "id": "fragen-ask",
+  "rank": 166,
+  "word": "fragen",
+  "draft": "1e5b1722eaf45c97",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to ask (a question)",
+    "example": "Why don't you just ask your mother."
+  },
+  "note": "The hint \"a question\" is needed because it rules out bitten (to ask for); the example uses the du imperative, and its English leaves out doch, which is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:10.659Z"
+}

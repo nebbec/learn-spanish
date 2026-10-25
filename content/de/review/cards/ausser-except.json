@@ -1,0 +1,17 @@
+{
+  "id": "ausser-except",
+  "rank": 503,
+  "word": "außer",
+  "draft": "f003bcc02aabd12e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "except, apart from, besides (preposition taking the dative)",
+    "example": "Everyone is already here except Max."
+  },
+  "note": "The two-word \"bis auf\" (alle bis auf Tom) also means except, but the one-word bracket points to außer; the editor could mention in the grammar or a later card that außer takes the dative (außer mir, außer dem Lehrer), since the example uses only a bare name.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:32.263Z"
+}

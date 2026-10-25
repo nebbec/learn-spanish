@@ -1,0 +1,15 @@
+{
+  "rank": 430,
+  "word": "erklären",
+  "cards": [
+    "erklaeren-explain"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erklaeren-explain": "explicar-explain"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:56.559Z"
+}

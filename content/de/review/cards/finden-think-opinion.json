@@ -1,0 +1,23 @@
+{
+  "id": "finden-think-opinion",
+  "rank": 95,
+  "word": "finden",
+  "draft": "10691acc627e056e",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint does not rule out denken or meinen, since a learner could well say 'Ich denke, das ist toll' for 'I think it's great'.",
+      "fix": "hint: to judge something you've seen or tried, as in I think the film is great (not denken or glauben)"
+    }
+  ],
+  "back": {
+    "target": "to find; to think, consider (to judge something as good, bad, etc.)",
+    "example": "How do you like the film? / What do you think of the film?"
+  },
+  "note": "Irregular is correctly true even though the present is regular, because the participle gefunden is strong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:04.350Z"
+}

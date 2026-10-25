@@ -1,0 +1,37 @@
+# halten-stop · rank 156 · halten
+#
+# Why it was flagged:
+#   - One right answer: The hint 'coming to a halt' fits anhalten (der Zug hält an, das Auto hält an) and stehen bleiben just as well, and for a car anhalten is the more natural answer, so the prompt has more than one right answer. Suggested fix: hint: of a bus or train making its scheduled stop at a station (one word, not anhalten)
+# Reviewer's note (not a reason to flag): parar-stop is broader than this vehicle-only sense of halten, but a picture of a bus stopping still fits it.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 halten-stop
+kind:               content
+pos:                verb
+target:             halten
+en:                 to stop
+hint:               of a bus or train making its scheduled stop at a station (one word, not anhalten)
+ich:                halte
+du:                 hältst
+er:                 hält
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gehalten
+example.target:     Der Bus hält direkt vor meinem Haus.
+example.en:         The bus stops right outside my house.
+regional.where:
+regional.text:
+trick:              HALTEN contains halt, as in English: a bus that comes to a halt stops.
+
+# The draft this file was made from. Do not change it.
+draft: 25534c806819384b

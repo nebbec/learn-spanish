@@ -1,0 +1,21 @@
+{
+  "id": "daran-of-it",
+  "rank": 300,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "daran",
+  "en": "I didn't think [of it]",
+  "hint": "da- + an, used with denken",
+  "grammar": null,
+  "example": {
+    "target": "Denk daran, Milch zu kaufen!",
+    "en": "Remember to buy milk!"
+  },
+  "regional": null,
+  "trick": "DARAN sounds like dah-RAHN, there-on: your thoughts are fixed on it, so you think of it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/daran-of-it.word.mp3",
+    "sentence": "/deck-de/audio/daran-of-it.sentence.mp3"
+  }
+}

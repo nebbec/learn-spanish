@@ -1,0 +1,25 @@
+{
+  "id": "person-person",
+  "rank": 582,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Person",
+  "en": "person",
+  "hint": "one individual, as in per person (not Mensch)",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Personen"
+  },
+  "example": {
+    "target": "Wir brauchen einen Tisch für vier Personen.",
+    "en": "We need a table for four people."
+  },
+  "regional": null,
+  "trick": "PERSON sounds like \"pair-ZOHN\": it is the English word person, just said with a z sound and the stress at the end.",
+  "image": "/deck-de/img/person-person.webp",
+  "audio": {
+    "word": "/deck-de/audio/person-person.word.mp3",
+    "sentence": "/deck-de/audio/person-person.sentence.mp3"
+  }
+}

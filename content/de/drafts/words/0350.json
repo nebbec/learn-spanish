@@ -1,0 +1,17 @@
+{
+  "rank": 350,
+  "word": "ruhig",
+  "cards": [
+    "ruhig-calm",
+    "ruhig-feel-free"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ruhig-calm": "tranquilo-calm",
+    "ruhig-feel-free": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:09.626Z"
+}

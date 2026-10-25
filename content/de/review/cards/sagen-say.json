@@ -1,0 +1,17 @@
+{
+  "id": "sagen-say",
+  "rank": 32,
+  "word": "sagen",
+  "draft": "d9b5abe428deaba5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to say, to tell",
+    "example": "What do you say to that? (What do you think about that?)"
+  },
+  "note": "The trick works better than it looks, because English saga and say really do share a root with sagen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:26.665Z"
+}

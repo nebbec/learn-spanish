@@ -1,0 +1,17 @@
+{
+  "rank": 494,
+  "word": "erfahren",
+  "cards": [
+    "erfahren-find-out",
+    "erfahren-experienced"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erfahren-find-out": "enterar-find-out",
+    "erfahren-experienced": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:06.354Z"
+}

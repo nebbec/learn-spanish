@@ -1,0 +1,14 @@
+{
+  "id": "art-way-manner",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Art for the way someone does something; der Weg is the way you travel, a route or path.",
+  "draft": "42e0f2ea26af94ed",
+  "group": "#386 Art",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:00.610Z"
+}

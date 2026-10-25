@@ -1,0 +1,14 @@
+{
+  "id": "freundin-female-friend",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Say eine Freundin (von mir) for a female friend; meine Freundin often sounds like girlfriend.",
+  "draft": "95a6671b9fd78ae8",
+  "group": "#437 Freundin",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:47.895Z"
+}

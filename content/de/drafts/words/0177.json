@@ -1,0 +1,15 @@
+{
+  "rank": 177,
+  "word": "ob",
+  "cards": [
+    "ob-whether"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ob-whether": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:36.078Z"
+}

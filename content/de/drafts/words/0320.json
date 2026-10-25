@@ -1,0 +1,17 @@
+{
+  "rank": 320,
+  "word": "falsch",
+  "cards": [
+    "falsch-wrong",
+    "falsch-fake"
+  ],
+  "skip": null,
+  "sameAs": {
+    "falsch-wrong": null,
+    "falsch-fake": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:18.400Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "verdammt-damned",
+  "rank": 205,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "verdammt",
+  "en": "damned",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wo ist der verdammte Schlüssel?",
+    "en": "Where's the damned key?"
+  },
+  "regional": null,
+  "trick": "VerDAMMT sounds like \"fair damned\", and it means damned; on its own, Verdammt! is like shouting Damn!",
+  "image": "/deck-de/img/verdammt-damned.webp",
+  "audio": {
+    "word": "/deck-de/audio/verdammt-damned.word.mp3",
+    "sentence": "/deck-de/audio/verdammt-damned.sentence.mp3"
+  }
+}

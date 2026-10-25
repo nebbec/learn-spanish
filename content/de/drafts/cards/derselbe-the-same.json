@@ -1,0 +1,21 @@
+{
+  "id": "derselbe-the-same",
+  "rank": 469,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "derselbe",
+  "en": "that's [the same] guy",
+  "hint": "one word, not gleich",
+  "grammar": null,
+  "example": {
+    "target": "Das ist derselbe Typ wie gestern.",
+    "en": "That's the same guy as yesterday."
+  },
+  "regional": null,
+  "trick": "DERSELBE has SELBE in it, close to English self: the thing itself again, the very same one.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/derselbe-the-same.word.mp3",
+    "sentence": "/deck-de/audio/derselbe-the-same.sentence.mp3"
+  }
+}

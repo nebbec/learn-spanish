@@ -1,0 +1,25 @@
+{
+  "id": "tag-day",
+  "rank": 120,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Tag",
+  "en": "day",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Tage"
+  },
+  "example": {
+    "target": "Wie war dein Tag?",
+    "en": "How was your day?"
+  },
+  "regional": null,
+  "trick": "TAG sounds like \"tahk\": picture a little tag clipped onto each day of your calendar.",
+  "image": "/deck-de/img/tag-day.webp",
+  "audio": {
+    "word": "/deck-de/audio/tag-day.word.mp3",
+    "sentence": "/deck-de/audio/tag-day.sentence.mp3"
+  }
+}

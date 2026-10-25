@@ -1,0 +1,15 @@
+{
+  "rank": 714,
+  "word": "feiern",
+  "cards": [
+    "feiern-celebrate"
+  ],
+  "skip": null,
+  "sameAs": {
+    "feiern-celebrate": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:26.662Z"
+}

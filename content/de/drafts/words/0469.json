@@ -1,0 +1,15 @@
+{
+  "rank": 469,
+  "word": "derselbe",
+  "cards": [
+    "derselbe-the-same"
+  ],
+  "skip": null,
+  "sameAs": {
+    "derselbe-the-same": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:21.260Z"
+}

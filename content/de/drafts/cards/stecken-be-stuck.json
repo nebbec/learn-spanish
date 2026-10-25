@@ -1,0 +1,33 @@
+{
+  "id": "stecken-be-stuck",
+  "rank": 412,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stecken",
+  "en": "to be stuck",
+  "hint": "somewhere or in trouble, as in where are you hiding?",
+  "grammar": {
+    "present": {
+      "ich": "stecke",
+      "du": "steckst",
+      "er": "steckt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesteckt"
+    }
+  },
+  "example": {
+    "target": "Wir stecken im Stau.",
+    "en": "We're stuck in traffic."
+  },
+  "regional": null,
+  "trick": "STECK-en sounds like 'stuck in': when you're stuck in traffic, you 'steckst' in traffic.",
+  "image": "/deck-de/img/stecken-be-stuck.webp",
+  "audio": {
+    "word": "/deck-de/audio/stecken-be-stuck.word.mp3",
+    "sentence": "/deck-de/audio/stecken-be-stuck.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "toeten-kill",
+  "rank": 182,
+  "kind": "content",
+  "pos": "verb",
+  "target": "töten",
+  "en": "to kill",
+  "hint": "the standard word, not umbringen",
+  "grammar": {
+    "present": {
+      "ich": "töte",
+      "du": "tötest",
+      "er": "tötet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getötet"
+    }
+  },
+  "example": {
+    "target": "Der Ritter hat den Drachen getötet.",
+    "en": "The knight killed the dragon."
+  },
+  "regional": null,
+  "trick": "TÖTEN sounds a bit like toting: someone toting a gun is ready to kill.",
+  "image": "/deck-de/img/toeten-kill.webp",
+  "audio": {
+    "word": "/deck-de/audio/toeten-kill.word.mp3",
+    "sentence": "/deck-de/audio/toeten-kill.sentence.mp3"
+  }
+}

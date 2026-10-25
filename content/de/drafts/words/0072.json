@@ -1,0 +1,17 @@
+{
+  "rank": 72,
+  "word": "hören",
+  "cards": [
+    "hoeren-hear",
+    "hoeren-listen"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hoeren-hear": "oir-hear",
+    "hoeren-listen": "escuchar-listen"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:09.056Z"
+}

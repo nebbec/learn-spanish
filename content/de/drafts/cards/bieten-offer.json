@@ -1,0 +1,33 @@
+{
+  "id": "bieten-offer",
+  "rank": 773,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bieten",
+  "en": "to offer",
+  "hint": "the short verb, as in offering a price",
+  "grammar": {
+    "present": {
+      "ich": "biete",
+      "du": "bietest",
+      "er": "bietet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geboten"
+    }
+  },
+  "example": {
+    "target": "Ich biete dir fünfzig Euro für das Fahrrad.",
+    "en": "I'll offer you fifty euros for the bike."
+  },
+  "regional": null,
+  "trick": "BIETEN sounds like BEE-ten and is a cousin of English bid: at an auction you bid, offering money.",
+  "image": "/deck-de/img/bieten-offer.webp",
+  "audio": {
+    "word": "/deck-de/audio/bieten-offer.word.mp3",
+    "sentence": "/deck-de/audio/bieten-offer.sentence.mp3"
+  }
+}

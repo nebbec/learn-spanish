@@ -1,0 +1,17 @@
+{
+  "id": "zurueckkommen-come-back",
+  "rank": 770,
+  "word": "zurückkommen",
+  "draft": "95ca7db31b49c9dd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to come back, to return",
+    "example": "When are you coming back?"
+  },
+  "note": "The hint rules out wiederkommen; zurückkehren is the more formal word for return, so zurückkommen is still clearly the everyday answer, and regresar-return would also fit as a picture.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:39.198Z"
+}

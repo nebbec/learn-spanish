@@ -1,0 +1,15 @@
+{
+  "rank": 709,
+  "word": "Verzeihung",
+  "cards": [
+    "verzeihung-sorry"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verzeihung-sorry": "perdon-sorry"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:13.994Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aendern-change",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ändern to alter or adjust something; verändern for a deeper change that makes it really different.",
+  "draft": "eb5d4c35d742edf9",
+  "group": "#420 ändern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:20.728Z"
+}

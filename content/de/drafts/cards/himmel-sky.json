@@ -1,0 +1,25 @@
+{
+  "id": "himmel-sky",
+  "rank": 567,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Himmel",
+  "en": "sky",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Himmel"
+  },
+  "example": {
+    "target": "Der Himmel ist heute so blau.",
+    "en": "The sky is so blue today."
+  },
+  "regional": null,
+  "trick": "HIMMEL sounds like \"hymn-all\": birds sing a hymn all across the sky.",
+  "image": "/deck-de/img/himmel-sky.webp",
+  "audio": {
+    "word": "/deck-de/audio/himmel-sky.word.mp3",
+    "sentence": "/deck-de/audio/himmel-sky.sentence.mp3"
+  }
+}

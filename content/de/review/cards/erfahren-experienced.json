@@ -1,0 +1,17 @@
+{
+  "id": "erfahren-experienced",
+  "rank": 494,
+  "word": "erfahren",
+  "draft": "415bb8aac1607aa9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "experienced (having a lot of skill or knowledge from practice)",
+    "example": "My boss is very experienced."
+  },
+  "note": "The adjective is the same word as the verb's Perfekt participle (ich habe es erfahren), so the editor may want to keep this card well apart from the \"to find out\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:39.105Z"
+}

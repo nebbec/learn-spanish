@@ -1,0 +1,17 @@
+{
+  "id": "frueher-earlier",
+  "rank": 500,
+  "word": "früher",
+  "draft": "cec3cdbe82cdbe4a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "earlier (comparative of früh, early: at an earlier time, sooner)",
+    "example": "Can you come earlier today?"
+  },
+  "note": "The hint's \"comparative of early\" rules out eher (sooner) and vorhin (earlier today), and it keeps this card apart from the word's \"in the past, used to\" card; the Spanish card antes-before means before, not earlier, so null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:07.664Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mal-just-particle",
+  "rank": 61,
+  "word": "mal",
+  "draft": "6142b8de9bebfbcc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "just (a particle that makes a request or command sound casual and friendly)",
+    "example": "Come here a moment!"
+  },
+  "note": "Mal as a softening particle is the standard everyday answer here; doch would push or urge rather than soften, and kurz is covered by \"for a second\" outside the brackets, so the hint keeps the answer to one word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:48.969Z"
+}

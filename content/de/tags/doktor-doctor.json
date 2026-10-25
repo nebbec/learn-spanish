@@ -1,0 +1,14 @@
+{
+  "id": "doktor-doctor",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Doktor as a title or when addressing one (Herr Doktor); Arzt is the usual word for the doctor you go to.",
+  "draft": "ccc08a8335b8e442",
+  "group": "#554 Doktor",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:53.939Z"
+}

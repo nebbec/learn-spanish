@@ -1,0 +1,17 @@
+{
+  "id": "erde-earth",
+  "rank": 587,
+  "word": "Erde",
+  "draft": "a9f13b0ea3a10b4c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the Earth (the planet); also earth, soil, ground",
+    "example": "The Earth turns around the sun."
+  },
+  "note": "The hint \"the planet\" is needed to keep this card apart from the word's \"soil\" card. A null plural is fine for the planet, and Spanish tierra-soil only mentions the planet in passing, so null sameAs is the better choice.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:03.127Z"
+}

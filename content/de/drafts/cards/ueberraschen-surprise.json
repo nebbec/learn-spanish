@@ -1,0 +1,33 @@
+{
+  "id": "ueberraschen-surprise",
+  "rank": 760,
+  "kind": "content",
+  "pos": "verb",
+  "target": "überraschen",
+  "en": "to surprise",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "überrasche",
+      "du": "überraschst",
+      "er": "überrascht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überrascht"
+    }
+  },
+  "example": {
+    "target": "Das überrascht mich nicht.",
+    "en": "That doesn't surprise me."
+  },
+  "regional": null,
+  "trick": "ÜBERRASCHEN sounds like \"uber-RUSH-en\": a surprise is a sudden rush that comes over you.",
+  "image": "/deck-de/img/ueberraschen-surprise.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberraschen-surprise.word.mp3",
+    "sentence": "/deck-de/audio/ueberraschen-surprise.sentence.mp3"
+  }
+}

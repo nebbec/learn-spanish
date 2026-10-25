@@ -1,0 +1,17 @@
+{
+  "id": "eben-just-now",
+  "rank": 411,
+  "word": "eben",
+  "draft": "b0d46a7be32590d9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "just now, a moment ago (adverb of time)",
+    "example": "He was still here just now."
+  },
+  "note": "The hint correctly rules out gerade, and soeben (formal, written) and vorhin (a little while ago) are unlikely to compete, though a learner might give either of them.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:48.777Z"
+}

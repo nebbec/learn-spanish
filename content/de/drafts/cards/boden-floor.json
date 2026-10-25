@@ -1,0 +1,25 @@
+{
+  "id": "boden-floor",
+  "rank": 670,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Boden",
+  "en": "floor, ground",
+  "hint": "underfoot, not a storey",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Böden"
+  },
+  "example": {
+    "target": "Deine Jacke liegt auf dem Boden.",
+    "en": "Your jacket is lying on the floor."
+  },
+  "regional": null,
+  "trick": "BODEN sounds a bit like bottom: the floor is the bottom of every room.",
+  "image": "/deck-de/img/boden-floor.webp",
+  "audio": {
+    "word": "/deck-de/audio/boden-floor.word.mp3",
+    "sentence": "/deck-de/audio/boden-floor.sentence.mp3"
+  }
+}

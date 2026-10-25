@@ -1,0 +1,21 @@
+{
+  "id": "wieder-again",
+  "rank": 94,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "wieder",
+  "en": "again",
+  "hint": "one word",
+  "grammar": null,
+  "example": {
+    "target": "Du bist schon wieder zu spät.",
+    "en": "You're late again."
+  },
+  "regional": null,
+  "trick": "WIEDER sounds like VEE-der, close to Vader: Darth Vader keeps coming back again and again.",
+  "image": "/deck-de/img/wieder-again.webp",
+  "audio": {
+    "word": "/deck-de/audio/wieder-again.word.mp3",
+    "sentence": "/deck-de/audio/wieder-again.sentence.mp3"
+  }
+}

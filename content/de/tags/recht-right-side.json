@@ -1,0 +1,14 @@
+{
+  "id": "recht-right-side",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use recht with an ending before a noun (die rechte Hand); use rechts alone to say where something is.",
+  "draft": "a3307af2cd302896",
+  "group": "#174 recht",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:42.496Z"
+}

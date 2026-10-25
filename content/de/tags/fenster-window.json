@@ -1,0 +1,14 @@
+{
+  "id": "fenster-window",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0d3182188234e1ca",
+  "group": "#763 Fenster",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:08.620Z"
+}

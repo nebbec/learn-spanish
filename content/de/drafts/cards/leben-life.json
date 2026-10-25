@@ -1,0 +1,25 @@
+{
+  "id": "leben-life",
+  "rank": 97,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Leben",
+  "en": "life",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Leben"
+  },
+  "example": {
+    "target": "Das Leben ist schön.",
+    "en": "Life is beautiful."
+  },
+  "regional": null,
+  "trick": "Das LEBEN, said LAY-ben, is the life you live, just as German leben means to live.",
+  "image": "/deck-de/img/leben-life.webp",
+  "audio": {
+    "word": "/deck-de/audio/leben-life.word.mp3",
+    "sentence": "/deck-de/audio/leben-life.sentence.mp3"
+  }
+}

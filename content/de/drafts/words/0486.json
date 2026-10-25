@@ -1,0 +1,15 @@
+{
+  "rank": 486,
+  "word": "aussehen",
+  "cards": [
+    "aussehen-look"
+  ],
+  "skip": null,
+  "sameAs": {
+    "aussehen-look": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:32.766Z"
+}

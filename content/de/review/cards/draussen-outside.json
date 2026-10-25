@@ -1,0 +1,17 @@
+{
+  "id": "draussen-outside",
+  "rank": 353,
+  "word": "draußen",
+  "draft": "ffcebd5777994cfb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "outside, outdoors (location, not direction)",
+    "example": "The children are playing outside."
+  },
+  "note": "The hint is needed to rule out raus/hinaus (going outside), but \"not out of\" is a vague way to rule out außerhalb, so \"being outside, not going out\" would be clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:59.169Z"
+}

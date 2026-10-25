@@ -1,0 +1,17 @@
+{
+  "id": "klar-clear",
+  "rank": 158,
+  "word": "klar",
+  "draft": "2d07874fb5b2f348",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "clear (obvious, easy to understand; also clear as in transparent)",
+    "example": "Is that clear to you now?"
+  },
+  "note": "Words like deutlich or offensichtlich come close, but klar is the default everyday answer for \"clear\" in this sense, and the hint keeps it apart from the \"of course\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:29.162Z"
+}

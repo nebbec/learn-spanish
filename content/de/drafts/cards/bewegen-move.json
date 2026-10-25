@@ -1,0 +1,33 @@
+{
+  "id": "bewegen-move",
+  "rank": 593,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bewegen",
+  "en": "to move",
+  "hint": "change position, not move house",
+  "grammar": {
+    "present": {
+      "ich": "bewege",
+      "du": "bewegst",
+      "er": "bewegt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bewegt"
+    }
+  },
+  "example": {
+    "target": "Beweg dich nicht!",
+    "en": "Don't move!"
+  },
+  "regional": null,
+  "trick": "BEWEGEN sounds like \"buh-VAY-gun\" and hides Weg, German for way: move out of the way!",
+  "image": "/deck-de/img/bewegen-move.webp",
+  "audio": {
+    "word": "/deck-de/audio/bewegen-move.word.mp3",
+    "sentence": "/deck-de/audio/bewegen-move.sentence.mp3"
+  }
+}

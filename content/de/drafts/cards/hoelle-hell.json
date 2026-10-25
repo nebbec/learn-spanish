@@ -1,0 +1,25 @@
+{
+  "id": "hoelle-hell",
+  "rank": 553,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Hölle",
+  "en": "hell",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Die Woche war echt die Hölle.",
+    "en": "This week was really hell."
+  },
+  "regional": null,
+  "trick": "HÖLLE sounds a lot like hell with an extra uh on the end, and it means just that: hell.",
+  "image": "/deck-de/img/hoelle-hell.webp",
+  "audio": {
+    "word": "/deck-de/audio/hoelle-hell.word.mp3",
+    "sentence": "/deck-de/audio/hoelle-hell.sentence.mp3"
+  }
+}

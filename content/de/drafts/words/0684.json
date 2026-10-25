@@ -1,0 +1,17 @@
+{
+  "rank": 684,
+  "word": "steigen",
+  "cards": [
+    "steigen-climb",
+    "steigen-rise"
+  ],
+  "skip": null,
+  "sameAs": {
+    "steigen-climb": "subir-go-up",
+    "steigen-rise": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:35.138Z"
+}

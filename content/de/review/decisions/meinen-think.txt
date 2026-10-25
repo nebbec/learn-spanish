@@ -1,0 +1,37 @@
+# meinen-think · rank 234 · meinen
+#
+# Why it was flagged:
+#   - One right answer: For to think in the sense of giving your opinion, denken, glauben and finden are all common right answers (Was denkst du? Ich glaube schon. Ich finde, ...), and the hint does not rule them out. Suggested fix: hint: give your opinion, as in Was ___st du? (what do you reckon?); not denken, glauben or finden
+# Reviewer's note (not a reason to flag): Ich meine, ... at the start of a sentence can also be heard as the filler I mean, so an example like Was meinst du dazu? (What do you think about it?) would show the opinion sense more clearly.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 meinen-think
+kind:               content
+pos:                verb
+target:             meinen
+en:                 to think
+hint:               give your opinion, as in Was ___st du? (what do you reckon?); not denken, glauben or finden
+ich:                meine
+du:                 meinst
+er:                 meint
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gemeint
+example.target:     Ich meine, wir sollten jetzt gehen.
+example.en:         I think we should go now.
+regional.where:
+regional.text:
+trick:              MEINEN sounds like "mine-en": you say what's on your mind, your own opinion, when you think something.
+
+# The draft this file was made from. Do not change it.
+draft: bc809d8bf2eb332c

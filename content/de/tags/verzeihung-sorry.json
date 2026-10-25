@@ -1,0 +1,14 @@
+{
+  "id": "verzeihung-sorry",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Entschuldigung is the everyday word; use Verzeihung when you want to sound a bit more formal.",
+  "draft": "9fbb43c01504d0b5",
+  "group": "#709 Verzeihung",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:21.708Z"
+}

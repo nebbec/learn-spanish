@@ -1,0 +1,30 @@
+# doch-emphasis · rank 68 · doch
+#
+# Why it was flagged:
+#   - One right answer: The hint 'particle stressing something obvious' also fits ja ('Das weißt du ja!' is common and natural), and a tag like 'oder?' or 'ne?' could also answer '[don't you]', so the learner can't be sure which word is meant. Suggested fix: hint: particle stressing something obvious, with a note of reproach (not ja, not a tag like oder)
+# Reviewer's note (not a reason to flag): The intended answer here is 'Das weißt du doch!'. The example's English 'That's obvious, isn't it!' works, though 'That's obvious, you know!' is closer to the German.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             doch-emphasis
+kind:           glue
+pos:            other
+target:         doch
+en:             You know that, [don't you]!
+hint:           particle stressing something obvious, with a note of reproach (not ja, not a tag like oder)
+example.target: Das ist doch klar!
+example.en:     That's obvious, isn't it!
+regional.where:
+regional.text:
+trick:          DOCH sounds like a sharp Scottish loch with a d: a quick, impatient sound for something everyone knows already.
+
+# The draft this file was made from. Do not change it.
+draft: 8bd36e04643c2eed

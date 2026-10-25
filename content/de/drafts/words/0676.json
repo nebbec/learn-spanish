@@ -1,0 +1,19 @@
+{
+  "rank": 676,
+  "word": "bestehen",
+  "cards": [
+    "bestehen-pass",
+    "bestehen-insist",
+    "bestehen-consist-of"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bestehen-pass": null,
+    "bestehen-insist": null,
+    "bestehen-consist-of": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:05:59.225Z"
+}

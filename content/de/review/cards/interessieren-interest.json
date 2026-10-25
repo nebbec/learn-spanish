@@ -1,0 +1,17 @@
+{
+  "id": "interessieren-interest",
+  "rank": 508,
+  "word": "interessieren",
+  "draft": "91e224f578be9868",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to interest",
+    "example": "That doesn't interest me at all."
+  },
+  "note": "The reflexive \"sich interessieren für\" (to be interested in) is at least as common as this use, so it may be worth mentioning in the grammar or a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:55.131Z"
+}

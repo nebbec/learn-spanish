@@ -1,0 +1,14 @@
+{
+  "id": "dabei-in",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a3c6bd212976e1d5",
+  "group": "#272 dabei",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:13.550Z"
+}

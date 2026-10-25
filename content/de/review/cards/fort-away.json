@@ -1,0 +1,17 @@
+{
+  "id": "fort-away",
+  "rank": 784,
+  "word": "fort",
+  "draft": "b27fd8b3bc57ad15",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "away, gone (off, no longer here)",
+    "example": "The train has already gone."
+  },
+  "note": "In everyday speech in Germany, weg is much more common than fort, which sounds a little more formal or regional, so the hint \"not weg\" is both needed and right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:43.543Z"
+}

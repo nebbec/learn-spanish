@@ -1,0 +1,21 @@
+{
+  "id": "erfahren-experienced",
+  "rank": 494,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "erfahren",
+  "en": "experienced",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Mein Chef ist sehr erfahren.",
+    "en": "My boss is very experienced."
+  },
+  "regional": null,
+  "trick": "ERFAHREN hides fahren, to travel: someone who has travelled far is experienced.",
+  "image": "/deck-de/img/erfahren-experienced.webp",
+  "audio": {
+    "word": "/deck-de/audio/erfahren-experienced.word.mp3",
+    "sentence": "/deck-de/audio/erfahren-experienced.sentence.mp3"
+  }
+}

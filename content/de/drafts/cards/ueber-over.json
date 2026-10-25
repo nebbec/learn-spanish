@@ -1,0 +1,21 @@
+{
+  "id": "ueber-over",
+  "rank": 107,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "über",
+  "en": "the lamp hangs [over] the table",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Die Lampe ist über dem Tisch.",
+    "en": "The lamp is over the table."
+  },
+  "regional": null,
+  "trick": "ÜBER sounds like Uber, and a flying Uber would zoom right over your head.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ueber-over.word.mp3",
+    "sentence": "/deck-de/audio/ueber-over.sentence.mp3"
+  }
+}

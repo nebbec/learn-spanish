@@ -1,0 +1,33 @@
+{
+  "id": "treten-step",
+  "rank": 613,
+  "kind": "content",
+  "pos": "verb",
+  "target": "treten",
+  "en": "to step",
+  "hint": "on or into something",
+  "grammar": {
+    "present": {
+      "ich": "trete",
+      "du": "trittst",
+      "er": "tritt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "getreten"
+    }
+  },
+  "example": {
+    "target": "Sorry, ich bin dir auf den Fuß getreten.",
+    "en": "Sorry, I stepped on your foot."
+  },
+  "regional": null,
+  "trick": "TREH-ten sounds like tread, and to tread is to step.",
+  "image": "/deck-de/img/treten-step.webp",
+  "audio": {
+    "word": "/deck-de/audio/treten-step.word.mp3",
+    "sentence": "/deck-de/audio/treten-step.sentence.mp3"
+  }
+}

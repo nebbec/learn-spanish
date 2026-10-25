@@ -1,0 +1,37 @@
+# treten-kick · rank 613 · treten
+#
+# Why it was flagged:
+#   - One right answer: The hint's 'or thing' takes in kicking a ball, for which Germans usually say 'kicken' or 'schießen', so treten is not the only right answer. Suggested fix: hint: someone, with your foot
+# Reviewer's note (not a reason to flag): "Er hat mir ans Bein getreten" with the dative is also common, but the accusative in the example is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 treten-kick
+kind:               content
+pos:                verb
+target:             treten
+en:                 to kick
+hint:               someone, with your foot
+ich:                trete
+du:                 trittst
+er:                 tritt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: getreten
+example.target:     Er hat mich ans Bein getreten.
+example.en:         He kicked me in the leg.
+regional.where:
+regional.text:
+trick:              TREH-ten sounds like tread on: tread on someone hard with your foot and that is a kick.
+
+# The draft this file was made from. Do not change it.
+draft: 72c447e32dd47213

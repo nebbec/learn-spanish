@@ -1,0 +1,15 @@
+{
+  "rank": 49,
+  "word": "nur",
+  "cards": [
+    "nur-only"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nur-only": "solo-only"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:40.065Z"
+}

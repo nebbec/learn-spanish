@@ -1,0 +1,30 @@
+# ueberhaupt-anyway · rank 390 · überhaupt
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out sowieso but not eigentlich, and Wer bist du eigentlich? is just as natural and common for Who are you anyway?. Suggested fix: hint: in a question, the word that also means at all; not eigentlich or sowieso
+# Reviewer's note (not a reason to flag): Pointing the hint at the at all meaning ties this card to the word's other card and keeps learners from answering eigentlich.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             ueberhaupt-anyway
+kind:           glue
+pos:            adverb
+target:         überhaupt
+en:             Who are you [anyway]?
+hint:           in a question, the word that also means at all; not eigentlich or sowieso
+example.target: Was machst du überhaupt hier?
+example.en:     What are you doing here anyway?
+regional.where:
+regional.text:
+trick:          ÜBERHAUPT sounds like Uber, how: Uber, how did you even get here anyway?
+
+# The draft this file was made from. Do not change it.
+draft: 0104062c2b3dd410

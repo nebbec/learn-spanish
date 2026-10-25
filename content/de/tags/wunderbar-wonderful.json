@@ -1,0 +1,14 @@
+{
+  "id": "wunderbar-wonderful",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4ba6adf3ce9db8b1",
+  "group": "#611 wunderbar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:57.958Z"
+}

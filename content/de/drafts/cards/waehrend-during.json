@@ -1,0 +1,21 @@
+{
+  "id": "waehrend-during",
+  "rank": 434,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "während",
+  "en": "I slept [during] the film",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Während des Films habe ich geschlafen.",
+    "en": "I slept during the film."
+  },
+  "regional": null,
+  "trick": "WÄHREND sounds like \"where end\": during a long film you keep asking where the end is.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/waehrend-during.word.mp3",
+    "sentence": "/deck-de/audio/waehrend-during.sentence.mp3"
+  }
+}

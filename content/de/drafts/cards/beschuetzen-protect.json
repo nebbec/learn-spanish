@@ -1,0 +1,33 @@
+{
+  "id": "beschuetzen-protect",
+  "rank": 689,
+  "kind": "content",
+  "pos": "verb",
+  "target": "beschützen",
+  "en": "to protect",
+  "hint": "watch over someone",
+  "grammar": {
+    "present": {
+      "ich": "beschütze",
+      "du": "beschützt",
+      "er": "beschützt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "beschützt"
+    }
+  },
+  "example": {
+    "target": "Keine Angst, ich beschütze dich.",
+    "en": "Don't worry, I'll protect you."
+  },
+  "regional": null,
+  "trick": "The middle of BESCHÜTZEN sounds a bit like shoots: a bodyguard shoots to protect you.",
+  "image": "/deck-de/img/beschuetzen-protect.webp",
+  "audio": {
+    "word": "/deck-de/audio/beschuetzen-protect.word.mp3",
+    "sentence": "/deck-de/audio/beschuetzen-protect.sentence.mp3"
+  }
+}

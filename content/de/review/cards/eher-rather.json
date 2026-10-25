@@ -1,0 +1,17 @@
+{
+  "id": "eher-rather",
+  "rank": 640,
+  "word": "eher",
+  "draft": "7514dacff4c84f9e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "rather, more likely, more like (also: earlier, sooner)",
+    "example": "He's not stupid, more like lazy."
+  },
+  "note": "Eher also commonly means \"earlier, sooner\" (je eher, desto besser), which an editor could mention later, but the hint keeps this card to the \"more like\" sense; Spanish bastante-quite means \"fairly\", not this sense, so null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:49.746Z"
+}

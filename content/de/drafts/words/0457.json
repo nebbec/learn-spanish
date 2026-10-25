@@ -1,0 +1,19 @@
+{
+  "rank": 457,
+  "word": "Platz",
+  "cards": [
+    "platz-seat",
+    "platz-room-space",
+    "platz-square"
+  ],
+  "skip": null,
+  "sameAs": {
+    "platz-seat": null,
+    "platz-room-space": null,
+    "platz-square": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:51:39.153Z"
+}

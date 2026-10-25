@@ -1,0 +1,14 @@
+{
+  "id": "kriegen-get",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use kriegen in casual speech; bekommen is the neutral word for writing and polite talk.",
+  "draft": "f96d25ceb23bdd6c",
+  "group": "#260 kriegen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:49.811Z"
+}

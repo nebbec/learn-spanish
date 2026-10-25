@@ -1,0 +1,15 @@
+{
+  "rank": 141,
+  "word": "na",
+  "cards": [
+    "na-well-so"
+  ],
+  "skip": null,
+  "sameAs": {
+    "na-well-so": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:04.785Z"
+}

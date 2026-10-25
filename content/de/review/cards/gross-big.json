@@ -1,0 +1,17 @@
+{
+  "id": "gross-big",
+  "rank": 143,
+  "word": "groß",
+  "draft": "627975ebf448cfe2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "big, large (also tall)",
+    "example": "The house is really big."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:36.420Z"
+}

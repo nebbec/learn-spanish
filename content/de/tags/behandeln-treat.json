@@ -1,0 +1,14 @@
+{
+  "id": "behandeln-treat",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "174ce54cc00f7787",
+  "group": "#778 behandeln",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:37.866Z"
+}

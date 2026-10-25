@@ -1,0 +1,17 @@
+{
+  "id": "glueck-luck",
+  "rank": 326,
+  "word": "Glück",
+  "draft": "59f8055139c81e84",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "luck (also happiness)",
+    "example": "Good luck at the exam tomorrow!"
+  },
+  "note": "The \"luck\" prompt and the separate \"happiness\" card both have the answer das Glück, which is fine because each prompt still has only one right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:07.822Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zum-to-the",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use zum (zu + dem) before der- and das-words; zur (zu + der) before die-words.",
+  "draft": "e1725c149a387735",
+  "group": "#101 zum",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:35.184Z"
+}

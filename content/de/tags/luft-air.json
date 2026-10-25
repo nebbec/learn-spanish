@@ -1,0 +1,14 @@
+{
+  "id": "luft-air",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "dc35eef5432388b0",
+  "group": "#576 Luft",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:41.757Z"
+}

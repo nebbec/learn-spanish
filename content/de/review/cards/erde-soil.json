@@ -1,0 +1,17 @@
+{
+  "id": "erde-soil",
+  "rank": 587,
+  "word": "Erde",
+  "draft": "8796b0e940f9f2bf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "soil, earth (the dirt in a garden or pot)",
+    "example": "Your hands are full of soil."
+  },
+  "note": "The hint usefully separates this card from Boden and from the planet card; the trick's \"earth with a d\" is only loose, since Erde is closer to earth with th turned into d, so the editor might reword it as \"ERDE sounds like earth\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:13.728Z"
+}

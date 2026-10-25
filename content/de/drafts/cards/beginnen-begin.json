@@ -1,0 +1,33 @@
+{
+  "id": "beginnen-begin",
+  "rank": 443,
+  "kind": "content",
+  "pos": "verb",
+  "target": "beginnen",
+  "en": "to begin",
+  "hint": "looks like English, not anfangen",
+  "grammar": {
+    "present": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er": "beginnt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "begonnen"
+    }
+  },
+  "example": {
+    "target": "Der Film beginnt um acht.",
+    "en": "The movie begins at eight."
+  },
+  "regional": null,
+  "trick": "BEGINNEN sounds like begin with an extra -nen tacked on, and it means exactly that: to begin.",
+  "image": "/deck-de/img/beginnen-begin.webp",
+  "audio": {
+    "word": "/deck-de/audio/beginnen-begin.word.mp3",
+    "sentence": "/deck-de/audio/beginnen-begin.sentence.mp3"
+  }
+}

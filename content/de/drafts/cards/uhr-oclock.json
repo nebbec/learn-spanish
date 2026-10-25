@@ -1,0 +1,25 @@
+{
+  "id": "uhr-oclock",
+  "rank": 314,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Uhr",
+  "en": "o'clock",
+  "hint": "telling the time, as in three o'clock",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Wir treffen uns um drei Uhr.",
+    "en": "We're meeting at three o'clock."
+  },
+  "regional": null,
+  "trick": "UHR sounds like hour: drei Uhr is the third hour, three o'clock.",
+  "image": "/deck-de/img/uhr-oclock.webp",
+  "audio": {
+    "word": "/deck-de/audio/uhr-oclock.word.mp3",
+    "sentence": "/deck-de/audio/uhr-oclock.sentence.mp3"
+  }
+}

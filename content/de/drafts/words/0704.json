@@ -1,0 +1,15 @@
+{
+  "rank": 704,
+  "word": "Tisch",
+  "cards": [
+    "tisch-table"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tisch-table": "mesa-table"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:53.645Z"
+}

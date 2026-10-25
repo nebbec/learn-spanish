@@ -1,0 +1,33 @@
+{
+  "id": "behandeln-treat",
+  "rank": 778,
+  "kind": "content",
+  "pos": "verb",
+  "target": "behandeln",
+  "en": "to treat",
+  "hint": "how you deal with someone, also a patient",
+  "grammar": {
+    "present": {
+      "ich": "behandle",
+      "du": "behandelst",
+      "er": "behandelt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "behandelt"
+    }
+  },
+  "example": {
+    "target": "Warum behandelst du mich so?",
+    "en": "Why are you treating me like this?"
+  },
+  "regional": null,
+  "trick": "BeHANDeln has a HAND in it: how you handle someone is how you treat them.",
+  "image": "/deck-de/img/behandeln-treat.webp",
+  "audio": {
+    "word": "/deck-de/audio/behandeln-treat.word.mp3",
+    "sentence": "/deck-de/audio/behandeln-treat.sentence.mp3"
+  }
+}

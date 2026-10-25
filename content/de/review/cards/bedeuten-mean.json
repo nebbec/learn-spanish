@@ -1,0 +1,17 @@
+{
+  "id": "bedeuten-mean",
+  "rank": 333,
+  "word": "bedeuten",
+  "draft": "4ce9cc5487613886",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to mean, to signify",
+    "example": "What does this word mean?"
+  },
+  "note": "The hint is needed: it rules out meinen (to mean, as in what a person intends or thinks), which is the other common German word for \"to mean\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:31.331Z"
+}

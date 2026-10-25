@@ -1,0 +1,15 @@
+{
+  "rank": 57,
+  "word": "auch",
+  "cards": [
+    "auch-also"
+  ],
+  "skip": null,
+  "sameAs": {
+    "auch-also": "tambien-also"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:10.038Z"
+}

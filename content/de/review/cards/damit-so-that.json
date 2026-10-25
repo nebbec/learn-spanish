@@ -1,0 +1,17 @@
+{
+  "id": "damit-so-that",
+  "rank": 130,
+  "word": "damit",
+  "draft": "49ca5543361be666",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "so that, in order that (subordinating conjunction of purpose)",
+    "example": "I'm telling you so that you know."
+  },
+  "note": "The hint usefully rules out sodass (which gives a result) and um ... zu (which needs the same subject in both parts); as a conjunction damit is usually stressed on the second syllable, unlike the \"with it\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:28.589Z"
+}

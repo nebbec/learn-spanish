@@ -1,0 +1,17 @@
+{
+  "id": "ende-end",
+  "rank": 306,
+  "word": "Ende",
+  "draft": "24c39742a35aa759",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "end",
+    "example": "The film has a sad ending."
+  },
+  "note": "I found no problems: das Ende is the clear answer for end (der Schluss is a weaker fit), the plural die Enden is right, and fin-end's \"THE END\" picture fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:16.679Z"
+}

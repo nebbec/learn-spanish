@@ -1,0 +1,17 @@
+{
+  "rank": 685,
+  "word": "Raum",
+  "cards": [
+    "raum-room",
+    "raum-space"
+  ],
+  "skip": null,
+  "sameAs": {
+    "raum-room": "sala-hall-room",
+    "raum-space": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:36.727Z"
+}

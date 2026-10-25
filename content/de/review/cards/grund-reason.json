@@ -1,0 +1,17 @@
+{
+  "id": "grund-reason",
+  "rank": 318,
+  "word": "Grund",
+  "draft": "4b7d3beb8be183fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "reason (also ground, bottom)",
+    "example": "I have a good reason for it."
+  },
+  "note": "A bare \"reason\" means \"why\" here, so Grund is the clear answer; die Vernunft (reason as the power to think) is rarer and unlikely to confuse a learner, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:22.494Z"
+}

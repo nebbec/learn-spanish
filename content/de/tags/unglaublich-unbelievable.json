@@ -1,0 +1,14 @@
+{
+  "id": "unglaublich-unbelievable",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8c94ca436e392595",
+  "group": "#619 unglaublich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:15.641Z"
+}

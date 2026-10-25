@@ -1,0 +1,17 @@
+{
+  "id": "zwischen-between",
+  "rank": 433,
+  "word": "zwischen",
+  "draft": "40d1e1dde179d6f5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "between",
+    "example": "I'm sitting between Anna and Tom."
+  },
+  "note": "The example sentence is the same as the prompt, so the learner gets no new context; a different sentence such as \"Das Café ist zwischen der Bank und dem Kino.\" would also show zwischen taking the dative.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:35.458Z"
+}

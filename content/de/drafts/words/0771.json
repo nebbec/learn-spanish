@@ -1,0 +1,15 @@
+{
+  "rank": 771,
+  "word": "packen",
+  "cards": [
+    "packen-pack"
+  ],
+  "skip": null,
+  "sameAs": {
+    "packen-pack": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:02.627Z"
+}

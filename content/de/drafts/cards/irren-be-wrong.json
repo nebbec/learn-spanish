@@ -1,0 +1,33 @@
+{
+  "id": "irren-be-wrong",
+  "rank": 693,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich irren",
+  "en": "to be wrong",
+  "hint": "mistaken; one reflexive verb",
+  "grammar": {
+    "present": {
+      "ich": "irre mich",
+      "du": "irrst dich",
+      "er": "irrt sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geirrt"
+    }
+  },
+  "example": {
+    "target": "Ich glaube, du irrst dich.",
+    "en": "I think you're wrong."
+  },
+  "regional": null,
+  "trick": "IRREN sounds like \"err-en\": to err is to be wrong, as in to err is human.",
+  "image": "/deck-de/img/irren-be-wrong.webp",
+  "audio": {
+    "word": "/deck-de/audio/irren-be-wrong.word.mp3",
+    "sentence": "/deck-de/audio/irren-be-wrong.sentence.mp3"
+  }
+}

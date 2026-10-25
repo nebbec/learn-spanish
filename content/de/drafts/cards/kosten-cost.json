@@ -1,0 +1,33 @@
+{
+  "id": "kosten-cost",
+  "rank": 609,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kosten",
+  "en": "to cost",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "koste",
+      "du": "kostest",
+      "er": "kostet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekostet"
+    }
+  },
+  "example": {
+    "target": "Wie viel kostet das?",
+    "en": "How much does that cost?"
+  },
+  "regional": null,
+  "trick": "KOSTEN sounds like \"costing\": what is it costing you?",
+  "image": "/deck-de/img/kosten-cost.webp",
+  "audio": {
+    "word": "/deck-de/audio/kosten-cost.word.mp3",
+    "sentence": "/deck-de/audio/kosten-cost.sentence.mp3"
+  }
+}

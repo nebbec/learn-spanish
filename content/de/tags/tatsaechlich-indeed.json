@@ -1,0 +1,14 @@
+{
+  "id": "tatsaechlich-indeed",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use tatsächlich when something really is true; eigentlich for actually as in what do you actually want?",
+  "draft": "523c6f2068a8ca29",
+  "group": "#728 tatsächlich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:59.659Z"
+}

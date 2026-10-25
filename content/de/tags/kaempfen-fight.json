@@ -1,0 +1,14 @@
+{
+  "id": "kaempfen-fight",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6e4c36659a5b6653",
+  "group": "#694 kämpfen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:51.633Z"
+}

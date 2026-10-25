@@ -1,0 +1,30 @@
+# sich-oneself · rank 52 · sich
+#
+# Why it was flagged:
+#   - Memory trick: The trick says ich is me, but ich means I and the German for me is mich, which could confuse the learner. Suggested fix: trick: SICH rhymes with ich (I): ich is I, and sich is himself, herself or themselves.
+# Reviewer's note (not a reason to flag): The prompt alone (Er wäscht sich) already gives only sich, so the hint isn't strictly needed but is harmless; the example uses reflexive sich with sich freuen auf, where English has no himself.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             sich-oneself
+kind:           glue
+pos:            pronoun
+target:         sich
+en:             he washes [himself]
+hint:           reflexive, also herself, themselves
+example.target: Er freut sich auf das Wochenende.
+example.en:     He's looking forward to the weekend.
+regional.where:
+regional.text:
+trick:          SICH rhymes with ich (I): ich is I, and sich is himself, herself or themselves.
+
+# The draft this file was made from. Do not change it.
+draft: 43c10c17e012f54b

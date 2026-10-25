@@ -1,0 +1,33 @@
+{
+  "id": "setzen-put",
+  "rank": 265,
+  "kind": "content",
+  "pos": "verb",
+  "target": "setzen",
+  "en": "to put, to set",
+  "hint": "seat someone, put a hat on, place a bet",
+  "grammar": {
+    "present": {
+      "ich": "setze",
+      "du": "setzt",
+      "er": "setzt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesetzt"
+    }
+  },
+  "example": {
+    "target": "Ich setze zehn Euro auf Rot.",
+    "en": "I'm putting ten euros on red."
+  },
+  "regional": null,
+  "trick": "SETZEN starts like \"sets\": you set something in its place.",
+  "image": "/deck-de/img/setzen-put.webp",
+  "audio": {
+    "word": "/deck-de/audio/setzen-put.word.mp3",
+    "sentence": "/deck-de/audio/setzen-put.sentence.mp3"
+  }
+}

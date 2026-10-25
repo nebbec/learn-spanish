@@ -1,0 +1,14 @@
+{
+  "id": "bedeuten-mean",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use bedeuten for what a word or thing means; meinen for what a person means.",
+  "draft": "4ce9cc5487613886",
+  "group": "#333 bedeuten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:16.468Z"
+}

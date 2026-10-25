@@ -1,0 +1,17 @@
+{
+  "id": "nacht-night",
+  "rank": 194,
+  "word": "Nacht",
+  "draft": "8fc9bd26665eea4d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "night",
+    "example": "Good night, sleep well!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:50.698Z"
+}

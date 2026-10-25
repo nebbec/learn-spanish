@@ -9,6 +9,7 @@ import {
   CASES,
   DECK_FORMAT,
   GERMAN_ARTICLES,
+  GERMAN_NOUN_ARTICLES,
   KINDS_BY_LANG,
   PARTS_OF_SPEECH,
   REGIONS,
@@ -159,13 +160,13 @@ function checkBoolean(c: Checker, grammar: Rec, key: string) {
 function checkGermanGrammar(c: Checker, card: Rec, grammar: Rec) {
   if (card.pos === "noun") {
     c.fields(grammar, ["gender", "article", "plural"], "grammar");
-    const genders = Object.keys(GERMAN_ARTICLES);
+    const genders = Object.keys(GERMAN_NOUN_ARTICLES);
     if ("gender" in grammar && !genders.includes(grammar.gender as string)) {
-      c.fail("grammar.gender", 'must be "m", "f" or "n"');
+      c.fail("grammar.gender", 'must be "m", "f", "n" or "pl"');
     }
     if ("article" in grammar) {
       const article = grammar.article;
-      const expected = GERMAN_ARTICLES[grammar.gender as keyof typeof GERMAN_ARTICLES];
+      const expected = GERMAN_NOUN_ARTICLES[grammar.gender as keyof typeof GERMAN_NOUN_ARTICLES];
       if (!Object.values(GERMAN_ARTICLES).includes(article as never)) {
         c.fail("grammar.article", "must be one of der, die, das");
       } else if (expected && article !== expected) {
@@ -177,6 +178,7 @@ function checkGermanGrammar(c: Checker, card: Rec, grammar: Rec) {
     if ("plural" in grammar && grammar.plural !== null) {
       if (!isText(grammar.plural)) c.fail("grammar.plural", "must be a non-empty string or null");
       else if (!grammar.plural.startsWith("die ")) c.fail("grammar.plural", 'must start with its article "die"');
+      else if (grammar.gender === "pl") c.fail("grammar.plural", "must be null on a plural-only noun");
     }
     return;
   }

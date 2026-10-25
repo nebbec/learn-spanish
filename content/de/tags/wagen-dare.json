@@ -1,0 +1,14 @@
+{
+  "id": "wagen-dare",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f6ea842b53579503",
+  "group": "#382 wagen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:51.302Z"
+}

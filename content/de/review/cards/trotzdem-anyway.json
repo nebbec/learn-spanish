@@ -1,0 +1,17 @@
+{
+  "id": "trotzdem-anyway",
+  "rank": 558,
+  "word": "trotzdem",
+  "draft": "f055a0cf47a88609",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "nevertheless, anyway, despite that",
+    "example": "It's raining, but we're going out anyway."
+  },
+  "note": "The hint is needed to rule out sowieso, eh and jedenfalls; dennoch also fits but is more formal, so the editor could add \"everyday word, not dennoch\" to the hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:58.477Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "heilig-holy",
+  "rank": 682,
+  "word": "heilig",
+  "draft": "ae33af2b8f7ef456",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "holy, sacred",
+    "example": "This is a holy place."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:40.679Z"
+}

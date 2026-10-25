@@ -1,0 +1,14 @@
+{
+  "id": "idee-idea",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Idee for a plan or thought you have; for 'no idea' (no clue) say keine Ahnung.",
+  "draft": "c4e7fdfc8b92d67b",
+  "group": "#339 Idee",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:30.420Z"
+}

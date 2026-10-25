@@ -1,0 +1,33 @@
+{
+  "id": "erreichen-reach",
+  "rank": 606,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erreichen",
+  "en": "to reach",
+  "hint": "a place, a train, someone by phone",
+  "grammar": {
+    "present": {
+      "ich": "erreiche",
+      "du": "erreichst",
+      "er": "erreicht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erreicht"
+    }
+  },
+  "example": {
+    "target": "Ich erreiche ihn nicht, sein Handy ist aus.",
+    "en": "I can't reach him, his phone is off."
+  },
+  "regional": null,
+  "trick": "The middle of erREICHen sounds like reach said with an eye sound: you reach the station just in time.",
+  "image": "/deck-de/img/erreichen-reach.webp",
+  "audio": {
+    "word": "/deck-de/audio/erreichen-reach.word.mp3",
+    "sentence": "/deck-de/audio/erreichen-reach.sentence.mp3"
+  }
+}

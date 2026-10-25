@@ -1,0 +1,19 @@
+{
+  "rank": 48,
+  "word": "noch",
+  "cards": [
+    "noch-still",
+    "noch-not-yet",
+    "noch-another"
+  ],
+  "skip": null,
+  "sameAs": {
+    "noch-still": "todavia-still",
+    "noch-not-yet": null,
+    "noch-another": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:39.956Z"
+}

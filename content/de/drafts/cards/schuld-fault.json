@@ -1,0 +1,25 @@
+{
+  "id": "schuld-fault",
+  "rank": 387,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Schuld",
+  "en": "fault",
+  "hint": "blame, guilt",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Das ist nicht deine Schuld.",
+    "en": "That's not your fault."
+  },
+  "regional": null,
+  "trick": "SCHULD sounds like \"should\": you should have known better, so it's your fault.",
+  "image": "/deck-de/img/schuld-fault.webp",
+  "audio": {
+    "word": "/deck-de/audio/schuld-fault.word.mp3",
+    "sentence": "/deck-de/audio/schuld-fault.sentence.mp3"
+  }
+}

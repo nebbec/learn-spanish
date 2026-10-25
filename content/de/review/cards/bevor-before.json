@@ -1,0 +1,17 @@
+{
+  "id": "bevor-before",
+  "rank": 278,
+  "word": "bevor",
+  "draft": "fa4a2327ae6e4c31",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "before (conjunction that starts a clause)",
+    "example": "Call me before you go."
+  },
+  "note": "The hint isn't strictly needed, because the clause after the brackets already rules out vor (and ehe is literary), but it does no harm; the example could also be used to show that bevor sends the verb to the end of its clause.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:51.438Z"
+}

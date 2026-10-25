@@ -1,0 +1,14 @@
+{
+  "id": "bein-leg",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6667a36db61d2a3b",
+  "group": "#635 Bein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:48.210Z"
+}

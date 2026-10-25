@@ -1,0 +1,19 @@
+{
+  "rank": 174,
+  "word": "recht",
+  "cards": [
+    "recht-be-right",
+    "recht-right-side",
+    "recht-on-the-right"
+  ],
+  "skip": null,
+  "sameAs": {
+    "recht-be-right": "razon-being-right",
+    "recht-right-side": "derecho-right-side",
+    "recht-on-the-right": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:33.682Z"
+}

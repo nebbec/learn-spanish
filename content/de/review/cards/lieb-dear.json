@@ -1,0 +1,17 @@
+{
+  "id": "lieb-dear",
+  "rank": 692,
+  "word": "lieb",
+  "draft": "a418f85694b8008d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dear, beloved (also kind, nice)",
+    "example": "Dear Grandma, thank you for the present!"
+  },
+  "note": "The hint is needed: it keeps out teuer (expensive) and separates this card from the kind, sweet card. Liebe Oma correctly has the strong feminine ending.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:41.959Z"
+}

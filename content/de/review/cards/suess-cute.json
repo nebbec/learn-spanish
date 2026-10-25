@@ -1,0 +1,28 @@
+{
+  "id": "suess-cute",
+  "rank": 418,
+  "word": "süß",
+  "draft": "1c69ddb87df8a631",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "niedlich is also a common everyday German word for cute, so the hint 'the everyday word' doesn't rule it out.",
+      "fix": "hint: the same word as sweet"
+    },
+    {
+      "reason": "usage",
+      "problem": "In Switzerland, herzig (Swiss German härzig) is the common everyday word for cute, so regional should not be null.",
+      "fix": "regional: { where: Switzerland, text: Swiss speakers commonly say herzig (härzig) for cute, as in Dä Hund isch so härzig! }"
+    }
+  ],
+  "back": {
+    "target": "sweet; cute (of a child, an animal or a small thing)",
+    "example": "Your dog is really cute!"
+  },
+  "note": "lindo-pretty lists cute as a secondary sense, but it is mainly pretty, so keeping sameAs null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:55.643Z"
+}

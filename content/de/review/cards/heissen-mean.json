@@ -1,0 +1,23 @@
+{
+  "id": "heissen-mean",
+  "rank": 167,
+  "word": "heißen",
+  "draft": "d170a77b34c24922",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "Was heißt das auf Englisch? asks for the English word for something, so it blurs into the word's other card, to be called, and does not clearly show to mean.",
+      "fix": "example.target: Was heißt dieses Wort? / example.en: What does this word mean?"
+    }
+  ],
+  "back": {
+    "target": "to be called; to mean (of words or statements, as in Was heißt das?)",
+    "example": "What's that (called) in English?"
+  },
+  "note": "The trick mixes up a name with a meaning, which echoes the to be called sense; a trick about the to mean sense might work better.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:28.731Z"
+}

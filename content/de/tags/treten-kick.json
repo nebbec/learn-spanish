@@ -1,0 +1,14 @@
+{
+  "id": "treten-kick",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Kicking someone or something takes haben in the Perfekt: er hat mich getreten.",
+  "draft": "72c447e32dd47213",
+  "group": "#613 treten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:04.595Z"
+}

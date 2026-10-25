@@ -1,0 +1,15 @@
+{
+  "rank": 349,
+  "word": "legen",
+  "cards": [
+    "legen-lay"
+  ],
+  "skip": null,
+  "sameAs": {
+    "legen-lay": "poner-put"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:01.306Z"
+}

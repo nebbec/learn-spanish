@@ -1,0 +1,21 @@
+{
+  "id": "drueben-over-there",
+  "rank": 630,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "drüben",
+  "en": "over there",
+  "hint": "across, on the other side; not dort",
+  "grammar": null,
+  "example": {
+    "target": "Dein Handy liegt da drüben auf dem Tisch.",
+    "en": "Your phone is over there on the table."
+  },
+  "regional": null,
+  "trick": "DRÜBEN sounds a bit like DREW-ben: Ben drew a picture over there.",
+  "image": "/deck-de/img/drueben-over-there.webp",
+  "audio": {
+    "word": "/deck-de/audio/drueben-over-there.word.mp3",
+    "sentence": "/deck-de/audio/drueben-over-there.sentence.mp3"
+  }
+}

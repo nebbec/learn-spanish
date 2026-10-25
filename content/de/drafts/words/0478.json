@@ -1,0 +1,15 @@
+{
+  "rank": 478,
+  "word": "Eltern",
+  "cards": [
+    "eltern-parents"
+  ],
+  "skip": null,
+  "sameAs": {
+    "eltern-parents": "padre-parents"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T19:21:33.219Z"
+}

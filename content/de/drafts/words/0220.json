@@ -1,0 +1,15 @@
+{
+  "rank": 220,
+  "word": "vergessen",
+  "cards": [
+    "vergessen-forget"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vergessen-forget": "olvidar-forget"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:48.126Z"
+}

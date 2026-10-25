@@ -1,0 +1,16 @@
+{
+  "id": "im-in-the",
+  "unit": null,
+  "want": null,
+  "requires": [
+    "in-in"
+  ],
+  "tip": null,
+  "why": null,
+  "draft": "9986227c1797b2a0",
+  "group": "#67 im",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:35.430Z"
+}

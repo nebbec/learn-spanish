@@ -1,0 +1,15 @@
+{
+  "rank": 654,
+  "word": "wovon",
+  "cards": [
+    "wovon-what-of"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wovon-what-of": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:30.909Z"
+}

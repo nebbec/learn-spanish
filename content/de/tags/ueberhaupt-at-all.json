@@ -1,0 +1,14 @@
+{
+  "id": "ueberhaupt-at-all",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8982b133f3fa1958",
+  "group": "#390 überhaupt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:13.319Z"
+}

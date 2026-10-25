@@ -1,0 +1,23 @@
+{
+  "id": "herum-around",
+  "rank": 487,
+  "word": "herum",
+  "draft": "f510ee683e07583f",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "In English, 'We're driving around the city' usually means driving about inside the city, which is 'in der Stadt herum'; 'um die Stadt herum' means circling or bypassing it, so the learner could take away the wrong meaning.",
+      "fix": "example.target: Wir laufen um den See herum. example.en: We're walking around the lake."
+    }
+  ],
+  "back": {
+    "target": "around (adverb, completing um ... herum: round, circling something)",
+    "example": "We're driving around the city (around its outside, not through it)."
+  },
+  "note": "In speech, the short form 'rum' (um den See rum) is very common, so the editor may want to mention it on the back of the card. The learner should still recall 'herum' as the standard form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:09.992Z"
+}

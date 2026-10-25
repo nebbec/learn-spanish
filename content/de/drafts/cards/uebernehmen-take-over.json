@@ -1,0 +1,33 @@
+{
+  "id": "uebernehmen-take-over",
+  "rank": 602,
+  "kind": "content",
+  "pos": "verb",
+  "target": "übernehmen",
+  "en": "to take over",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "übernehme",
+      "du": "übernimmst",
+      "er": "übernimmt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "übernommen"
+    }
+  },
+  "example": {
+    "target": "Kannst du morgen meine Schicht übernehmen?",
+    "en": "Can you take over my shift tomorrow?"
+  },
+  "regional": null,
+  "trick": "ÜBER sounds like over and NEHMEN (NAY-men) means to take, so übernehmen is literally to take over.",
+  "image": "/deck-de/img/uebernehmen-take-over.webp",
+  "audio": {
+    "word": "/deck-de/audio/uebernehmen-take-over.word.mp3",
+    "sentence": "/deck-de/audio/uebernehmen-take-over.sentence.mp3"
+  }
+}

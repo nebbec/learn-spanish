@@ -1,0 +1,14 @@
+{
+  "id": "onkel-uncle",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3c722ac5542d2184",
+  "group": "#596 Onkel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:26.482Z"
+}

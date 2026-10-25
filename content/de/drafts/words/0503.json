@@ -1,0 +1,15 @@
+{
+  "rank": 503,
+  "word": "außer",
+  "cards": [
+    "ausser-except"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ausser-except": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:39.322Z"
+}

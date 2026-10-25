@@ -1,0 +1,33 @@
+# land-countryside · rank 372 · Land
+#
+# Why it was flagged:
+#   - Memory trick: Spelling it lahnt suggests a long a, but Land has a short a and a final t sound (lant), so the trick teaches the wrong vowel. Suggested fix: trick: LAND sounds like English land with a t at the end: out in the countryside there is open land everywhere.
+# Reviewer's note (not a reason to flag): Leaving the plural null is right for the countryside meaning, but the country card for the same word should give die Länder.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             land-countryside
+kind:           content
+pos:            noun
+target:         das Land
+en:             countryside
+hint:           not the city
+gender:         n
+article:        das
+plural:
+example.target: Meine Oma wohnt auf dem Land.
+example.en:     My grandma lives in the countryside.
+regional.where:
+regional.text:
+trick:          LAND sounds like English land with a t at the end: out in the countryside there is open land everywhere.
+
+# The draft this file was made from. Do not change it.
+draft: 0c6cda5f10f269de

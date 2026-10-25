@@ -1,0 +1,17 @@
+{
+  "id": "ruhig-feel-free",
+  "rank": 350,
+  "word": "ruhig",
+  "draft": "4e38e806bdcf8cb1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "feel free to, go ahead and (modal particle encouraging someone; literally calm, quiet)",
+    "example": "You can go ahead and sit down."
+  },
+  "note": "Gern(e) can also mean feel free here (Du kannst dich gerne hinsetzen), but it is an adverb rather than a modal particle, so the hint's word particle points to ruhig; the editor may want the hint to say not gern to be safe.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:48.377Z"
+}

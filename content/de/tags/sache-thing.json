@@ -1,0 +1,14 @@
+{
+  "id": "sache-thing",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Sache for things in general, belongings and matters; Ding is a casual word for a physical object.",
+  "draft": "865fc77610a175f5",
+  "group": "#213 Sache",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:06.707Z"
+}

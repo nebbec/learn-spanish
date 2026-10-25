@@ -1,0 +1,17 @@
+{
+  "id": "waffe-weapon",
+  "rank": 340,
+  "word": "Waffe",
+  "draft": "e2bae9d943de27d8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "weapon (also, in everyday speech, a gun)",
+    "example": "Put the weapon down immediately!"
+  },
+  "note": "In film dialogue die Waffe often means a gun, as in this example, which fits the word's subtitle frequency well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:01.432Z"
+}

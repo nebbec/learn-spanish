@@ -1,0 +1,17 @@
+{
+  "id": "komisch-weird",
+  "rank": 599,
+  "word": "komisch",
+  "draft": "a1159320757055ff",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "weird, strange, odd (also funny, comical)",
+    "example": "That smells weird, though."
+  },
+  "note": "The hint already points to komisch, but it could also say \"not merkwürdig\" to rule that word out completely.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:16.662Z"
+}

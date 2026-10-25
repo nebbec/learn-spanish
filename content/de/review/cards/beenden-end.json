@@ -1,0 +1,17 @@
+{
+  "id": "beenden-end",
+  "rank": 745,
+  "word": "beenden",
+  "draft": "06d97bbb835d3033",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to end, to finish (something), to bring to an end",
+    "example": "We're ending this now."
+  },
+  "note": "The hint is useful here because it rules out intransitive enden as well as aufhören.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:40.414Z"
+}

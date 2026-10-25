@@ -1,0 +1,25 @@
+{
+  "id": "entschuldigung-apology",
+  "rank": 451,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Entschuldigung",
+  "en": "apology",
+  "hint": "the noun",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Entschuldigungen"
+  },
+  "example": {
+    "target": "Ich warte noch auf deine Entschuldigung.",
+    "en": "I'm still waiting for your apology."
+  },
+  "regional": null,
+  "trick": "ent-SHOOL-di-goong hides SHOOL, like 'should': an apology admits what you should have done differently.",
+  "image": "/deck-de/img/entschuldigung-apology.webp",
+  "audio": {
+    "word": "/deck-de/audio/entschuldigung-apology.word.mp3",
+    "sentence": "/deck-de/audio/entschuldigung-apology.sentence.mp3"
+  }
+}

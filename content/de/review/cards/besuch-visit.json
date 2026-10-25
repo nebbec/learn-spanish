@@ -1,0 +1,17 @@
+{
+  "id": "besuch-visit",
+  "rank": 711,
+  "word": "Besuch",
+  "draft": "e250d9ce6c8845ca",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "visit (also: visitors, company, as in Wir haben Besuch)",
+    "example": "Tomorrow my grandma is coming to visit."
+  },
+  "note": "Besuch also commonly means visitors or company (Wir haben Besuch), which the example's zu Besuch nicely hints at.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:11.510Z"
+}

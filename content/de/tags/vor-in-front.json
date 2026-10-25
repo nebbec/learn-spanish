@@ -1,0 +1,14 @@
+{
+  "id": "vor-in-front",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2cb5dff78ce71125",
+  "group": "#91 vor",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:16.984Z"
+}

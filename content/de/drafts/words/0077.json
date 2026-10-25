@@ -1,0 +1,17 @@
+{
+  "rank": 77,
+  "word": "viel",
+  "cards": [
+    "viel-a-lot",
+    "viel-many"
+  ],
+  "skip": null,
+  "sameAs": {
+    "viel-a-lot": "mucho-a-lot",
+    "viel-many": "mucho-many"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:24.265Z"
+}

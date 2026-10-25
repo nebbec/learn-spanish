@@ -1,0 +1,17 @@
+{
+  "id": "feiern-celebrate",
+  "rank": 714,
+  "word": "feiern",
+  "draft": "f7642d8073783194",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to celebrate (also: to party)",
+    "example": "Tonight we're celebrating your birthday!"
+  },
+  "note": "Feiern also commonly means to party (am Wochenende feiern gehen), which the editor could mention in a later example; colloquial ich feire is also heard, but feiere is the right standard form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:18.167Z"
+}

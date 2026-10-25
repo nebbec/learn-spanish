@@ -1,0 +1,17 @@
+{
+  "id": "schoen-beautiful",
+  "rank": 123,
+  "word": "schön",
+  "draft": "bd0b2bf5dda5a64c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "beautiful, nice, lovely",
+    "example": "You have beautiful eyes."
+  },
+  "note": "Putting \"beautiful\" and \"nice\" together in the prompt rules out hübsch (pretty) and nett (nice, about a person), so the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:03.332Z"
+}

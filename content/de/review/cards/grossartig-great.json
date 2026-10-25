@@ -1,0 +1,23 @@
+{
+  "id": "grossartig-great",
+  "rank": 542,
+  "word": "großartig",
+  "draft": "45caadce6f897241",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint \"magnificent, not toll\" still lets in other common words such as prächtig, herrlich, grandios or fantastisch, so it does not point clearly to großartig.",
+      "fix": "hint: magnificent; the long word built from 'big', not toll or super"
+    }
+  ],
+  "back": {
+    "target": "great, magnificent, splendid",
+    "example": "That was a great evening!"
+  },
+  "note": "The example has the right strong masculine ending (ein großartiger Abend), and genial-great is close enough in meaning to share a picture.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:28.897Z"
+}

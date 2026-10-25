@@ -1,0 +1,15 @@
+{
+  "rank": 594,
+  "word": "Weh",
+  "cards": [
+    "weh-hurt"
+  ],
+  "skip": null,
+  "sameAs": {
+    "weh-hurt": "doler-hurt"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:24.001Z"
+}

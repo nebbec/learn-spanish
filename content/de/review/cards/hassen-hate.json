@@ -1,0 +1,17 @@
+{
+  "id": "hassen-hate",
+  "rank": 395,
+  "word": "hassen",
+  "draft": "4f44c278b82e150d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hate",
+    "example": "I hate Mondays."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:58.487Z"
+}

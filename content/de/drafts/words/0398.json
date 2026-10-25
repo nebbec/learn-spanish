@@ -1,0 +1,15 @@
+{
+  "rank": 398,
+  "word": "erwarten",
+  "cards": [
+    "erwarten-expect"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erwarten-expect": "esperar-expect"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:12.695Z"
+}

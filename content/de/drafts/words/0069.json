@@ -1,0 +1,17 @@
+{
+  "rank": 69,
+  "word": "lassen",
+  "cards": [
+    "lassen-let",
+    "lassen-leave"
+  ],
+  "skip": null,
+  "sameAs": {
+    "lassen-let": "dejar-let",
+    "lassen-leave": "dejar-leave"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:53.937Z"
+}

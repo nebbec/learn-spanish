@@ -1,0 +1,15 @@
+{
+  "rank": 542,
+  "word": "großartig",
+  "cards": [
+    "grossartig-great"
+  ],
+  "skip": null,
+  "sameAs": {
+    "grossartig-great": "genial-great"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:59.000Z"
+}

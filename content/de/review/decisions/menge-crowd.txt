@@ -1,0 +1,33 @@
+# menge-crowd · rank 518 · Menge
+#
+# Why it was flagged:
+#   - One right answer: With no hint, "crowd" just as often gets die Menschenmenge (or die Masse, das Gedränge), so die Menge isn't the only answer the learner could give. Suggested fix: hint: a crowd of people; the short word, not Menschenmenge
+# Reviewer's note (not a reason to flag): With the hint added, this card and the "amount" card stay clearly apart, because only this one is about people.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             menge-crowd
+kind:           content
+pos:            noun
+target:         die Menge
+en:             crowd
+hint:           a crowd of people; the short word, not Menschenmenge
+gender:         f
+article:        die
+plural:         die Mengen
+example.target: Ich habe dich in der Menge verloren.
+example.en:     I lost you in the crowd.
+regional.where:
+regional.text:
+trick:          MENGE sounds a bit like mingle: people mingle in a crowd.
+
+# The draft this file was made from. Do not change it.
+draft: 06bc8257f3539029

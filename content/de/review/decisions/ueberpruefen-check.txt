@@ -1,0 +1,36 @@
+# ueberpruefen-check · rank 782 · überprüfen
+#
+# Why it was flagged:
+#   - One right answer: The hint "verify, look over" fits prüfen and kontrollieren just as well, so they would also be right answers for "to check". Suggested fix: hint: verify, look over (the longer word, not prüfen or kontrollieren)
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 ueberpruefen-check
+kind:               content
+pos:                verb
+target:             überprüfen
+en:                 to check
+hint:               verify, look over (the longer word, not prüfen or kontrollieren)
+ich:                überprüfe
+du:                 überprüfst
+er:                 überprüft
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: überprüft
+example.target:     Ich überprüfe das gleich.
+example.en:         I'll check that right away.
+regional.where:
+regional.text:
+trick:              ÜBER-PRÜFEN sounds like über (over) plus proofing: you proof something over again to check it.
+
+# The draft this file was made from. Do not change it.
+draft: 7c2d154041f84593

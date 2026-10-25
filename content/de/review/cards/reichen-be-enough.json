@@ -1,0 +1,17 @@
+{
+  "id": "reichen-be-enough",
+  "rank": 324,
+  "word": "reichen",
+  "draft": "1b39cc39b6f1b61e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be enough, to suffice",
+    "example": "That's enough now!"
+  },
+  "note": "The hint is needed, because it points to reichen rather than the more formal genügen or the longer ausreichen; the trick holds up, since reichen really is related to English reach.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:54.044Z"
+}

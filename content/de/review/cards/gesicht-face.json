@@ -1,0 +1,17 @@
+{
+  "id": "gesicht-face",
+  "rank": 429,
+  "word": "Gesicht",
+  "draft": "05c03f7297c67aa9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "face",
+    "example": "Wash your face!"
+  },
+  "note": "The trick is better than a pun: German Sicht really means sight or view, so the link it draws holds up.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:22.003Z"
+}

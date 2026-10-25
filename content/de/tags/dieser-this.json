@@ -1,0 +1,14 @@
+{
+  "id": "dieser-this",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a5ab81ff200867f1",
+  "group": "#47 dieser",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:46.202Z"
+}

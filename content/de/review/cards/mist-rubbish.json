@@ -1,0 +1,17 @@
+{
+  "id": "mist-rubbish",
+  "rank": 647,
+  "word": "Mist",
+  "draft": "bb16641560c5b6a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dung, manure; (colloquial) rubbish, crap, nonsense; as an exclamation: damn!",
+    "example": "What a load of crap! I missed the bus."
+  },
+  "note": "The hint is needed, because \"rubbish\" alone could mean der Müll and \"crap\" alone could mean Quatsch or Scheiße, and \"mild\" plus \"shouted as Damn!\" rules those out; also, in Austria der Mist is the everyday word for household rubbish (Mistkübel), but that doesn't change this meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:35.118Z"
+}

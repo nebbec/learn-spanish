@@ -1,0 +1,25 @@
+{
+  "id": "tasche-pocket",
+  "rank": 768,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Tasche",
+  "en": "pocket",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Taschen"
+  },
+  "example": {
+    "target": "Das Handy ist in meiner Tasche.",
+    "en": "The phone is in my pocket."
+  },
+  "regional": null,
+  "trick": "TASCHE sounds like TAH-sheh, close to stash: you stash cash in your pocket.",
+  "image": "/deck-de/img/tasche-pocket.webp",
+  "audio": {
+    "word": "/deck-de/audio/tasche-pocket.word.mp3",
+    "sentence": "/deck-de/audio/tasche-pocket.sentence.mp3"
+  }
+}

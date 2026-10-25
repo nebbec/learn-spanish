@@ -1,0 +1,33 @@
+{
+  "id": "schlagen-hit",
+  "rank": 364,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schlagen",
+  "en": "to hit",
+  "hint": "with a blow",
+  "grammar": {
+    "present": {
+      "ich": "schlage",
+      "du": "schlägst",
+      "er": "schlägt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschlagen"
+    }
+  },
+  "example": {
+    "target": "Er hat mich ins Gesicht geschlagen.",
+    "en": "He hit me in the face."
+  },
+  "regional": null,
+  "trick": "SCHLAGEN sounds like slug: to slug someone is to hit them hard.",
+  "image": "/deck-de/img/schlagen-hit.webp",
+  "audio": {
+    "word": "/deck-de/audio/schlagen-hit.word.mp3",
+    "sentence": "/deck-de/audio/schlagen-hit.sentence.mp3"
+  }
+}

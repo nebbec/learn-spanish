@@ -1,0 +1,21 @@
+{
+  "id": "zur-to-the",
+  "rank": 160,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "zur",
+  "en": "I'm going [to the] station",
+  "hint": "one word: zu + der, before a die-word",
+  "grammar": null,
+  "example": {
+    "target": "Ich gehe jetzt zur Arbeit.",
+    "en": "I'm going to work now."
+  },
+  "regional": null,
+  "trick": "ZUR sounds like \"tsoor\": it is zu (to) with the r of der stuck on, so it means to the.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/zur-to-the.word.mp3",
+    "sentence": "/deck-de/audio/zur-to-the.sentence.mp3"
+  }
+}

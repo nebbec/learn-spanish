@@ -1,0 +1,15 @@
+{
+  "rank": 260,
+  "word": "kriegen",
+  "cards": [
+    "kriegen-get"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kriegen-get": "recibir-receive"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:25.473Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "leute-people",
+  "rank": 148,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Leute",
+  "en": "people",
+  "hint": "everyday word, not Menschen",
+  "grammar": {
+    "gender": "pl",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Die Leute hier sind echt nett.",
+    "en": "The people here are really nice."
+  },
+  "regional": null,
+  "trick": "LEUTE sounds like LOY-tuh, like the start of loyal: loyal people stick by you.",
+  "image": "/deck-de/img/leute-people.webp",
+  "audio": {
+    "word": "/deck-de/audio/leute-people.word.mp3",
+    "sentence": "/deck-de/audio/leute-people.sentence.mp3"
+  }
+}

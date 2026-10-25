@@ -1,0 +1,23 @@
+{
+  "id": "ueberlegen-superior",
+  "rank": 754,
+  "word": "überlegen",
+  "draft": "7740803e62df77a8",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Bare \"superior\" could also be recalled as übergeordnet (higher in rank), hochwertig (of superior quality) or simply besser, so a hint is needed to point to überlegen.",
+      "fix": "hint: better than someone else, e.g. at a game (ihm ___ sein)"
+    }
+  ],
+  "back": {
+    "target": "superior (better than someone in skill, strength or ability)",
+    "example": "She was clearly superior to him at chess."
+  },
+  "note": "The adjective is stressed on -le- (überlégen), the same as the verb \"to consider\", and it takes a dative (jemandem überlegen sein), which the editor might mention in the hint or grammar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:27.759Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "oeffnen-open",
+  "rank": 498,
+  "kind": "content",
+  "pos": "verb",
+  "target": "öffnen",
+  "en": "to open",
+  "hint": "the standard word, not aufmachen",
+  "grammar": {
+    "present": {
+      "ich": "öffne",
+      "du": "öffnest",
+      "er": "öffnet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geöffnet"
+    }
+  },
+  "example": {
+    "target": "Kannst du bitte das Fenster öffnen?",
+    "en": "Can you open the window, please?"
+  },
+  "regional": null,
+  "trick": "ÖFFNEN sounds a bit like oven: you open the oven door to check the cake.",
+  "image": "/deck-de/img/oeffnen-open.webp",
+  "audio": {
+    "word": "/deck-de/audio/oeffnen-open.word.mp3",
+    "sentence": "/deck-de/audio/oeffnen-open.sentence.mp3"
+  }
+}

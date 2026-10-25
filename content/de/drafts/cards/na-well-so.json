@@ -1,0 +1,21 @@
+{
+  "id": "na-well-so",
+  "rank": 141,
+  "kind": "glue",
+  "pos": "other",
+  "target": "na",
+  "en": "[so], how's it going?",
+  "hint": "casual two-letter opener, not also",
+  "grammar": null,
+  "example": {
+    "target": "Na, wie geht's dir?",
+    "en": "So, how are you doing?"
+  },
+  "regional": null,
+  "trick": "NA sounds like a relaxed nah, but Germans use it like well or so to start a casual chat.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/na-well-so.word.mp3",
+    "sentence": "/deck-de/audio/na-well-so.sentence.mp3"
+  }
+}

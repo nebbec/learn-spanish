@@ -1,0 +1,15 @@
+{
+  "rank": 458,
+  "word": "weiß",
+  "cards": [
+    "weiss-white"
+  ],
+  "skip": null,
+  "sameAs": {
+    "weiss-white": "blanco-white"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:51:41.343Z"
+}

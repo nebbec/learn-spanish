@@ -1,0 +1,33 @@
+{
+  "id": "fassen-catch",
+  "rank": 590,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fassen",
+  "en": "to catch",
+  "hint": "a criminal",
+  "grammar": {
+    "present": {
+      "ich": "fasse",
+      "du": "fasst",
+      "er": "fasst"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefasst"
+    }
+  },
+  "example": {
+    "target": "Die Polizei hat den Dieb gestern gefasst.",
+    "en": "The police caught the thief yesterday."
+  },
+  "regional": null,
+  "trick": "FASSEN sounds like \"fasten\": the police fasten handcuffs on the thief they catch.",
+  "image": "/deck-de/img/fassen-catch.webp",
+  "audio": {
+    "word": "/deck-de/audio/fassen-catch.word.mp3",
+    "sentence": "/deck-de/audio/fassen-catch.sentence.mp3"
+  }
+}

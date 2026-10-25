@@ -1,0 +1,14 @@
+{
+  "id": "alle-everything",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use alles for everything as one whole; alle for all of several people or things.",
+  "draft": "9b15ca4352084a94",
+  "group": "#36 alle",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:37.383Z"
+}

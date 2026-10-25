@@ -1,0 +1,15 @@
+{
+  "rank": 537,
+  "word": "bauen",
+  "cards": [
+    "bauen-build"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bauen-build": "construir-build"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:45.680Z"
+}

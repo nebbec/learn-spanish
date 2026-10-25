@@ -1,0 +1,21 @@
+{
+  "id": "suess-cute",
+  "rank": 418,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "süß",
+  "en": "cute",
+  "hint": "the everyday word",
+  "grammar": null,
+  "example": {
+    "target": "Dein Hund ist echt süß!",
+    "en": "Your dog is really cute!"
+  },
+  "regional": null,
+  "trick": "SÜSS starts with a z sound, a bit like zoos, where the baby animals are so cute.",
+  "image": "/deck-de/img/suess-cute.webp",
+  "audio": {
+    "word": "/deck-de/audio/suess-cute.word.mp3",
+    "sentence": "/deck-de/audio/suess-cute.sentence.mp3"
+  }
+}

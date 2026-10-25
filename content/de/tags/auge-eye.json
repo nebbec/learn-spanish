@@ -1,0 +1,14 @@
+{
+  "id": "auge-eye",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "16235af458136be6",
+  "group": "#285 Auge",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:40.763Z"
+}

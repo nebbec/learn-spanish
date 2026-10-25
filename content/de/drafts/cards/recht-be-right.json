@@ -1,0 +1,21 @@
+{
+  "id": "recht-be-right",
+  "rank": 174,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "recht",
+  "en": "right",
+  "hint": "as in you're right, used with haben",
+  "grammar": null,
+  "example": {
+    "target": "Du hast recht, das war mein Fehler.",
+    "en": "You're right, that was my mistake."
+  },
+  "regional": null,
+  "trick": "RECHT is a cousin of English right: the German ch sound matches the old gh in right, so you have recht means you're right.",
+  "image": "/deck-de/img/recht-be-right.webp",
+  "audio": {
+    "word": "/deck-de/audio/recht-be-right.word.mp3",
+    "sentence": "/deck-de/audio/recht-be-right.sentence.mp3"
+  }
+}

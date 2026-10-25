@@ -1,0 +1,14 @@
+{
+  "id": "wichtig-important",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "be55c15235061850",
+  "group": "#290 wichtig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:54.216Z"
+}

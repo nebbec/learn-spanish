@@ -1,0 +1,21 @@
+{
+  "id": "noch-still",
+  "rank": 48,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "noch",
+  "en": "still",
+  "hint": "as in still here, not nevertheless",
+  "grammar": null,
+  "example": {
+    "target": "Bist du noch im Büro?",
+    "en": "Are you still at the office?"
+  },
+  "regional": null,
+  "trick": "NOCH rhymes with Scottish loch: the monster is still in the loch.",
+  "image": "/deck-de/img/noch-still.webp",
+  "audio": {
+    "word": "/deck-de/audio/noch-still.word.mp3",
+    "sentence": "/deck-de/audio/noch-still.sentence.mp3"
+  }
+}

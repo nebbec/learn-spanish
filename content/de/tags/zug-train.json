@@ -1,0 +1,14 @@
+{
+  "id": "zug-train",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0f2be91c982171e7",
+  "group": "#762 Zug",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:08.032Z"
+}

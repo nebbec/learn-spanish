@@ -1,0 +1,33 @@
+{
+  "id": "singen-sing",
+  "rank": 529,
+  "kind": "content",
+  "pos": "verb",
+  "target": "singen",
+  "en": "to sing",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "singe",
+      "du": "singst",
+      "er": "singt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesungen"
+    }
+  },
+  "example": {
+    "target": "Du singst echt schön!",
+    "en": "You sing really beautifully!"
+  },
+  "regional": null,
+  "trick": "SINGEN, said ZING-en, is just English sing with a buzzy z sound and -en on the end.",
+  "image": "/deck-de/img/singen-sing.webp",
+  "audio": {
+    "word": "/deck-de/audio/singen-sing.word.mp3",
+    "sentence": "/deck-de/audio/singen-sing.sentence.mp3"
+  }
+}

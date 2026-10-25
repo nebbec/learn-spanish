@@ -1,0 +1,14 @@
+{
+  "id": "problem-problem",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f0f088023574d78c",
+  "group": "#221 Problem",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:23.395Z"
+}

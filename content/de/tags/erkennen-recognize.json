@@ -1,0 +1,14 @@
+{
+  "id": "erkennen-recognize",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9e0ef05a861feac8",
+  "group": "#546 erkennen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:38.625Z"
+}

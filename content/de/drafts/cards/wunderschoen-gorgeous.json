@@ -1,0 +1,21 @@
+{
+  "id": "wunderschoen-gorgeous",
+  "rank": 721,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "wunderschön",
+  "en": "gorgeous, really beautiful",
+  "hint": "stronger than schön",
+  "grammar": null,
+  "example": {
+    "target": "Du siehst heute wunderschön aus.",
+    "en": "You look gorgeous today."
+  },
+  "regional": null,
+  "trick": "WUNDERSCHÖN starts with VOON-der, close to wonder: something so beautiful you stare at it in wonder.",
+  "image": "/deck-de/img/wunderschoen-gorgeous.webp",
+  "audio": {
+    "word": "/deck-de/audio/wunderschoen-gorgeous.word.mp3",
+    "sentence": "/deck-de/audio/wunderschoen-gorgeous.sentence.mp3"
+  }
+}

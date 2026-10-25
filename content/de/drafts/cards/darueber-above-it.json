@@ -1,0 +1,21 @@
+{
+  "id": "darueber-above-it",
+  "rank": 295,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "darüber",
+  "en": "the table, and the lamp [above it]",
+  "hint": "position, over something",
+  "grammar": null,
+  "example": {
+    "target": "Da ist die Tür, und darüber hängt eine Uhr.",
+    "en": "There's the door, and a clock hangs above it."
+  },
+  "regional": null,
+  "trick": "DARÜBER is da (there) plus über, which sounds a bit like over: over there, over it, above it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/darueber-above-it.word.mp3",
+    "sentence": "/deck-de/audio/darueber-above-it.sentence.mp3"
+  }
+}

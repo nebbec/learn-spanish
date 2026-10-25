@@ -1,0 +1,21 @@
+{
+  "id": "zuerst-first",
+  "rank": 506,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "zuerst",
+  "en": "first",
+  "hint": "before anything else, not the adjective",
+  "grammar": null,
+  "example": {
+    "target": "Zuerst essen wir, dann gehen wir ins Kino.",
+    "en": "First we'll eat, then we'll go to the cinema."
+  },
+  "regional": null,
+  "trick": "ZUERST sounds like tsoo-AIRST, almost to first: whatever you do zuerst, you do first.",
+  "image": "/deck-de/img/zuerst-first.webp",
+  "audio": {
+    "word": "/deck-de/audio/zuerst-first.word.mp3",
+    "sentence": "/deck-de/audio/zuerst-first.sentence.mp3"
+  }
+}

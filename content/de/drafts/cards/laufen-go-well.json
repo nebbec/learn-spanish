@@ -1,0 +1,33 @@
+{
+  "id": "laufen-go-well",
+  "rank": 199,
+  "kind": "content",
+  "pos": "verb",
+  "target": "laufen",
+  "en": "to go (well or badly)",
+  "hint": "how things are going",
+  "grammar": {
+    "present": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er": "läuft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gelaufen"
+    }
+  },
+  "example": {
+    "target": "Wie läuft's bei der Arbeit?",
+    "en": "How's it going at work?"
+  },
+  "regional": null,
+  "trick": "LAUFEN also means run, and English says things are running smoothly when they go well.",
+  "image": "/deck-de/img/laufen-go-well.webp",
+  "audio": {
+    "word": "/deck-de/audio/laufen-go-well.word.mp3",
+    "sentence": "/deck-de/audio/laufen-go-well.sentence.mp3"
+  }
+}

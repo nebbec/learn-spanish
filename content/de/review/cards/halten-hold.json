@@ -1,0 +1,17 @@
+{
+  "id": "halten-hold",
+  "rank": 156,
+  "word": "halten",
+  "draft": "d6c75714c4561713",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hold",
+    "example": "Can you hold my bag for a moment?"
+  },
+  "note": "The bare prompt \"to hold\" is fine without a hint, because festhalten means holding on tight and is easy to tell apart, and the other halten cards each have their own hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:11.462Z"
+}

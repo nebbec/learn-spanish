@@ -1,0 +1,33 @@
+{
+  "id": "reisen-travel",
+  "rank": 527,
+  "kind": "content",
+  "pos": "verb",
+  "target": "reisen",
+  "en": "to travel",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "reise",
+      "du": "reist",
+      "er": "reist"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gereist"
+    }
+  },
+  "example": {
+    "target": "Ich reise im Sommer nach Italien.",
+    "en": "I'm traveling to Italy in the summer."
+  },
+  "regional": null,
+  "trick": "REISEN sounds like rising: you rise early on the day you travel.",
+  "image": "/deck-de/img/reisen-travel.webp",
+  "audio": {
+    "word": "/deck-de/audio/reisen-travel.word.mp3",
+    "sentence": "/deck-de/audio/reisen-travel.sentence.mp3"
+  }
+}

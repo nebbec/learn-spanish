@@ -1,0 +1,17 @@
+{
+  "rank": 179,
+  "word": "paar",
+  "cards": [
+    "paar-a-few",
+    "paar-couple"
+  ],
+  "skip": null,
+  "sameAs": {
+    "paar-a-few": null,
+    "paar-couple": "par-pair"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:45.542Z"
+}

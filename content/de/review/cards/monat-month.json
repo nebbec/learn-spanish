@@ -1,0 +1,17 @@
+{
+  "id": "monat-month",
+  "rank": 345,
+  "word": "Monat",
+  "draft": "dd6969dac871e55c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "month",
+    "example": "I have been living in Berlin for a month."
+  },
+  "note": "The example shows seit + dative with the present tense for something still going on, which English learners usually get wrong, so it is a good one to keep.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:21.698Z"
+}

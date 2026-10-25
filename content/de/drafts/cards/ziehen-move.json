@@ -1,0 +1,33 @@
+{
+  "id": "ziehen-move",
+  "rank": 256,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ziehen",
+  "en": "to move",
+  "hint": "to another city, with nach",
+  "grammar": {
+    "present": {
+      "ich": "ziehe",
+      "du": "ziehst",
+      "er": "zieht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gezogen"
+    }
+  },
+  "example": {
+    "target": "Wir ziehen nächstes Jahr nach Berlin.",
+    "en": "We're moving to Berlin next year."
+  },
+  "regional": null,
+  "trick": "ZIEHEN, said TSEE-en, is how you pull your whole life along with you when you move to a new city.",
+  "image": "/deck-de/img/ziehen-move.webp",
+  "audio": {
+    "word": "/deck-de/audio/ziehen-move.word.mp3",
+    "sentence": "/deck-de/audio/ziehen-move.sentence.mp3"
+  }
+}

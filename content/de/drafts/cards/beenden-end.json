@@ -1,0 +1,33 @@
+{
+  "id": "beenden-end",
+  "rank": 745,
+  "kind": "content",
+  "pos": "verb",
+  "target": "beenden",
+  "en": "to end",
+  "hint": "to bring something to an end, not aufhören",
+  "grammar": {
+    "present": {
+      "ich": "beende",
+      "du": "beendest",
+      "er": "beendet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "beendet"
+    }
+  },
+  "example": {
+    "target": "Wir beenden das jetzt.",
+    "en": "We're ending this now."
+  },
+  "regional": null,
+  "trick": "BEENDEN sounds like buh-END-en, with the English word end right in the middle: you end something.",
+  "image": "/deck-de/img/beenden-end.webp",
+  "audio": {
+    "word": "/deck-de/audio/beenden-end.word.mp3",
+    "sentence": "/deck-de/audio/beenden-end.sentence.mp3"
+  }
+}

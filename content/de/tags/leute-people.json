@@ -1,0 +1,14 @@
+{
+  "id": "leute-people",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Leute for people in general in everyday talk; der Mensch is one human being.",
+  "draft": "91e78d65a08c8b74",
+  "group": "#148 Leute",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:50.138Z"
+}

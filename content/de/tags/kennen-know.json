@@ -1,0 +1,14 @@
+{
+  "id": "kennen-know",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use kennen for people and places you know; wissen for facts.",
+  "draft": "e4a64df2b8d5bbf4",
+  "group": "#136 kennen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:39.678Z"
+}

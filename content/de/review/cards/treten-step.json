@@ -1,0 +1,17 @@
+{
+  "id": "treten-step",
+  "rank": 613,
+  "word": "treten",
+  "draft": "aff175863fffb7a5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to step, to tread (also: to kick)",
+    "example": "Sorry, I stepped on your foot."
+  },
+  "note": "The trick's respelling TREH-ten suggests a short e, but treten has a long e, so TRAY-ten would show the sound better.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:37.997Z"
+}

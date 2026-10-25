@@ -1,0 +1,17 @@
+{
+  "id": "ahnung-idea",
+  "rank": 346,
+  "word": "Ahnung",
+  "draft": "41fc497fa915e89f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "idea, notion, clue (also: inkling, hunch)",
+    "example": "No idea where my phone is."
+  },
+  "note": "The Spanish card idea-idea is the general word for an idea, which matches Idee rather than Ahnung, so leaving sameAs as null is right, and the hint is needed to rule out Idee.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:25.540Z"
+}

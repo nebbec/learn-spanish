@@ -1,0 +1,15 @@
+{
+  "rank": 342,
+  "word": "Tod",
+  "cards": [
+    "tod-death"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tod-death": "muerte-death"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:41.051Z"
+}

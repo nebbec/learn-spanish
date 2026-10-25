@@ -1,0 +1,14 @@
+{
+  "id": "stellen-ask-question",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use stellen with eine Frage (eine Frage stellen); fragen asks on its own.",
+  "draft": "e8e886668c9b78b0",
+  "group": "#208 stellen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:56.281Z"
+}

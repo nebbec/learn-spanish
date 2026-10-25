@@ -1,0 +1,15 @@
+{
+  "rank": 303,
+  "word": "Dank",
+  "cards": [
+    "dank-thanks"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dank-thanks": "gracias-thank-you"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:08.664Z"
+}

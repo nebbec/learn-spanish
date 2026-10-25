@@ -1,0 +1,15 @@
+{
+  "rank": 708,
+  "word": "Idiot",
+  "cards": [
+    "idiot-idiot"
+  ],
+  "skip": null,
+  "sameAs": {
+    "idiot-idiot": "idiota-idiot"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:02.456Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fuehren-lead",
+  "rank": 490,
+  "kind": "content",
+  "pos": "verb",
+  "target": "führen",
+  "en": "to lead",
+  "hint": "show the way, guide",
+  "grammar": {
+    "present": {
+      "ich": "führe",
+      "du": "führst",
+      "er": "führt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geführt"
+    }
+  },
+  "example": {
+    "target": "Komm, ich führe dich nach Hause.",
+    "en": "Come on, I'll lead you home."
+  },
+  "regional": null,
+  "trick": "FÜHREN sounds a bit like fur-en: picture a guide in a fur coat leading the group through the snow.",
+  "image": "/deck-de/img/fuehren-lead.webp",
+  "audio": {
+    "word": "/deck-de/audio/fuehren-lead.word.mp3",
+    "sentence": "/deck-de/audio/fuehren-lead.sentence.mp3"
+  }
+}

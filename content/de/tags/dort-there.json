@@ -1,0 +1,14 @@
+{
+  "id": "dort-there",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use dort for a place clearly over there, away from you; da is the shorter everyday word for there.",
+  "draft": "a3b7a9472a781ebf",
+  "group": "#215 dort",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:11.474Z"
+}

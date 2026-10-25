@@ -1,0 +1,21 @@
+{
+  "id": "halb-half",
+  "rank": 564,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "halb",
+  "en": "half",
+  "hint": "before a noun, as in half an hour, not die Hälfte",
+  "grammar": null,
+  "example": {
+    "target": "Ich warte schon eine halbe Stunde auf dich.",
+    "en": "I've been waiting for you for half an hour."
+  },
+  "regional": null,
+  "trick": "HALB is said like halp, which sounds almost like half.",
+  "image": "/deck-de/img/halb-half.webp",
+  "audio": {
+    "word": "/deck-de/audio/halb-half.word.mp3",
+    "sentence": "/deck-de/audio/halb-half.sentence.mp3"
+  }
+}

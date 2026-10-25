@@ -1,0 +1,14 @@
+{
+  "id": "spueren-feel",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use spüren for sensing or noticing something; fühlen for emotions and how you feel.",
+  "draft": "cb67378b698ae9cd",
+  "group": "#753 spüren",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:54.708Z"
+}

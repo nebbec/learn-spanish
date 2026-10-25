@@ -1,0 +1,23 @@
+{
+  "id": "bloed-dumb",
+  "rank": 603,
+  "word": "blöd",
+  "draft": "32838e2f905c4909",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint rules out dumm but not doof, which is just as common, just as casual and also means annoying, so a learner could fairly answer doof.",
+      "fix": "hint: casual, also annoying; not dumm or doof"
+    }
+  ],
+  "back": {
+    "target": "stupid, dumb, silly (casual); also annoying, unfortunate",
+    "example": "That really was a stupid idea."
+  },
+  "note": "Austria also often says deppert, but blöd is just as common there, so leaving regional as null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:37.467Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unfall-accident",
+  "rank": 799,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Unfall",
+  "en": "accident",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Unfälle"
+  },
+  "example": {
+    "target": "Er hatte gestern einen Unfall mit dem Auto.",
+    "en": "He had a car accident yesterday."
+  },
+  "regional": null,
+  "trick": "UNFALL sounds like oon-fall, an unwanted fall: an accident is a fall nobody planned.",
+  "image": "/deck-de/img/unfall-accident.webp",
+  "audio": {
+    "word": "/deck-de/audio/unfall-accident.word.mp3",
+    "sentence": "/deck-de/audio/unfall-accident.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 541,
+  "word": "raten",
+  "cards": [
+    "raten-guess",
+    "raten-advise"
+  ],
+  "skip": null,
+  "sameAs": {
+    "raten-guess": null,
+    "raten-advise": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:57.848Z"
+}

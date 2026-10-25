@@ -1,0 +1,14 @@
+{
+  "id": "verkaufen-sell",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Verkaufen is to sell; kaufen, without ver-, is to buy.",
+  "draft": "2f31cb8ed3183ee5",
+  "group": "#436 verkaufen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:48.645Z"
+}

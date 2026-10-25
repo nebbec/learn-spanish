@@ -1,0 +1,30 @@
+# cool-cool · rank 544 · cool
+#
+# Why it was flagged:
+#   - Memory trick: The trick says Germans use cool only for awesome, but it also commonly means calm or laid-back, as in bleib cool. Suggested fix: trick: COOL is borrowed straight from English and sounds the same; Germans use it for awesome or laid-back, but never for chilly.
+# Reviewer's note (not a reason to flag): The prompt alone would almost always get cool, but the hint usefully rules out kühl.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             cool-cool
+kind:           content
+pos:            adjective
+target:         cool
+en:             cool
+hint:           awesome, not cold
+example.target: Dein neues Fahrrad ist echt cool.
+example.en:     Your new bike is really cool.
+regional.where:
+regional.text:
+trick:          COOL is borrowed straight from English and sounds the same; Germans use it for awesome or laid-back, but never for chilly.
+
+# The draft this file was made from. Do not change it.
+draft: 0db1f7bf36b161ea

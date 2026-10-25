@@ -1,0 +1,30 @@
+# voellig-completely · rank 561 · völlig
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out ganz, and total and komplett don't come from voll, but vollkommen is also related to voll and is a common word for completely (vollkommen verrückt), so it would also be a right answer. Suggested fix: hint: related to voll (full), the short word, not ganz or vollkommen
+# Reviewer's note (not a reason to flag): völlig also works as an adjective (die völlige Freiheit), but labelling it an adverb fits this card's meaning.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             voellig-completely
+kind:           content
+pos:            adverb
+target:         völlig
+en:             completely
+hint:           related to voll (full), the short word, not ganz or vollkommen
+example.target: Du bist völlig verrückt!
+example.en:     You're completely crazy!
+regional.where:
+regional.text:
+trick:          VÖLLIG sounds a bit like "full-ish": something filled full is completely full.
+
+# The draft this file was made from. Do not change it.
+draft: 7f3149c71e0dc154

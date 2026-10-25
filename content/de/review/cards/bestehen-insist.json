@@ -1,0 +1,17 @@
+{
+  "id": "bestehen-insist",
+  "rank": 676,
+  "word": "bestehen",
+  "draft": "2593884142543656",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to insist (on), with auf",
+    "example": "I insist that you stay."
+  },
+  "note": "The hint is needed and works: it keeps this card apart from the \"to pass\" and \"consist of\" cards, and \"beharren auf\" is rarer and more formal than \"darauf bestehen\", so bestehen is the answer people expect.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:08.754Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "verpassen-miss",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use verpassen for a bus, train or chance you miss; vermissen for missing someone you love.",
+  "draft": "cf53d710f09644af",
+  "group": "#775 verpassen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:33.002Z"
+}

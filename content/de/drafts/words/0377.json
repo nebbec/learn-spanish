@@ -1,0 +1,15 @@
+{
+  "rank": 377,
+  "word": "Frage",
+  "cards": [
+    "frage-question"
+  ],
+  "skip": null,
+  "sameAs": {
+    "frage-question": "pregunta-question"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:49.440Z"
+}

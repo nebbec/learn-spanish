@@ -1,0 +1,25 @@
+{
+  "id": "koenig-king",
+  "rank": 489,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der König",
+  "en": "king",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Könige"
+  },
+  "example": {
+    "target": "Der König lebt in einem großen Schloss.",
+    "en": "The king lives in a big castle."
+  },
+  "regional": null,
+  "trick": "KÖNIG is a cousin of the English word king: both start with K-, and the KÖ-nig wears the crown.",
+  "image": "/deck-de/img/koenig-king.webp",
+  "audio": {
+    "word": "/deck-de/audio/koenig-king.word.mp3",
+    "sentence": "/deck-de/audio/koenig-king.sentence.mp3"
+  }
+}

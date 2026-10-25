@@ -1,0 +1,17 @@
+{
+  "id": "nehmen-take",
+  "rank": 108,
+  "word": "nehmen",
+  "draft": "240d4940bd92d68e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to take",
+    "example": "I'm taking the bus today."
+  },
+  "note": "The hint is useful because it rules out bringen and mitnehmen (taking something or someone somewhere), and it matches the hint on the Spanish card tomar-take.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:45.493Z"
+}

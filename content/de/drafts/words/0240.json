@@ -1,0 +1,15 @@
+{
+  "rank": 240,
+  "word": "verlieren",
+  "cards": [
+    "verlieren-lose"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verlieren-lose": "perder-lose"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:07.663Z"
+}

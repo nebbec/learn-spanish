@@ -1,0 +1,17 @@
+{
+  "id": "schatz-treasure",
+  "rank": 275,
+  "word": "Schatz",
+  "draft": "70f43bdf16e6db74",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "treasure",
+    "example": "The pirates are looking for the treasure."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:34.058Z"
+}

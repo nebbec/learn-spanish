@@ -1,0 +1,33 @@
+{
+  "id": "nehmen-take",
+  "rank": 108,
+  "kind": "content",
+  "pos": "verb",
+  "target": "nehmen",
+  "en": "to take",
+  "hint": "take hold of, take a bus",
+  "grammar": {
+    "present": {
+      "ich": "nehme",
+      "du": "nimmst",
+      "er": "nimmt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "genommen"
+    }
+  },
+  "example": {
+    "target": "Ich nehme heute den Bus.",
+    "en": "I'm taking the bus today."
+  },
+  "regional": null,
+  "trick": "NEHMEN sounds like name 'em: name the things you want, then take them.",
+  "image": "/deck-de/img/nehmen-take.webp",
+  "audio": {
+    "word": "/deck-de/audio/nehmen-take.word.mp3",
+    "sentence": "/deck-de/audio/nehmen-take.sentence.mp3"
+  }
+}

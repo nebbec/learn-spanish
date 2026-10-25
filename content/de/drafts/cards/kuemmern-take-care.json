@@ -1,0 +1,33 @@
+{
+  "id": "kuemmern-take-care",
+  "rank": 352,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kümmern",
+  "en": "to take care of",
+  "hint": "sich ... um, to look after",
+  "grammar": {
+    "present": {
+      "ich": "kümmere",
+      "du": "kümmerst",
+      "er": "kümmert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekümmert"
+    }
+  },
+  "example": {
+    "target": "Ich kümmere mich um den Hund.",
+    "en": "I'll take care of the dog."
+  },
+  "regional": null,
+  "trick": "KÜMMERN sounds a bit like come in: come in, and I'll take care of you.",
+  "image": "/deck-de/img/kuemmern-take-care.webp",
+  "audio": {
+    "word": "/deck-de/audio/kuemmern-take-care.word.mp3",
+    "sentence": "/deck-de/audio/kuemmern-take-care.sentence.mp3"
+  }
+}

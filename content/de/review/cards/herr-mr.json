@@ -1,0 +1,17 @@
+{
+  "id": "herr-mr",
+  "rank": 226,
+  "word": "Herr",
+  "draft": "5241876abbb7bb2b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "gentleman, man; Mr. (title before a surname); sir (mein Herr); lord",
+    "example": "Good day / Hello, Mr. Müller!"
+  },
+  "note": "A bare \"sir\" is rarely said in German (mein Herr sounds old-fashioned) and the hint already narrows the prompt to the Mr. title, so the editor could drop \"sir\" from the prompt or say in the hint that a bare \"sir\" usually has no German word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:40:03.519Z"
+}

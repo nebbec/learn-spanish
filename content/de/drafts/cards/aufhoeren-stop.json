@@ -1,0 +1,33 @@
+{
+  "id": "aufhoeren-stop",
+  "rank": 453,
+  "kind": "content",
+  "pos": "verb",
+  "target": "aufhören",
+  "en": "to stop",
+  "hint": "doing something, to quit",
+  "grammar": {
+    "present": {
+      "ich": "höre auf",
+      "du": "hörst auf",
+      "er": "hört auf"
+    },
+    "irregular": false,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgehört"
+    }
+  },
+  "example": {
+    "target": "Hör auf, mich zu nerven!",
+    "en": "Stop annoying me!"
+  },
+  "regional": null,
+  "trick": "AUF-HÖREN sounds like \"off hearing\": when you stop doing something, you switch off and stop hearing it.",
+  "image": "/deck-de/img/aufhoeren-stop.webp",
+  "audio": {
+    "word": "/deck-de/audio/aufhoeren-stop.word.mp3",
+    "sentence": "/deck-de/audio/aufhoeren-stop.sentence.mp3"
+  }
+}

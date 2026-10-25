@@ -1,0 +1,14 @@
+{
+  "id": "ansehen-look-at",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "97bdd8dbf0263581",
+  "group": "#557 ansehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:03.141Z"
+}

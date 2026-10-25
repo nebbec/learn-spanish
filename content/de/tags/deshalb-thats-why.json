@@ -1,0 +1,14 @@
+{
+  "id": "deshalb-thats-why",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Deshalb, darum and deswegen all mean that's why; deshalb is the neutral everyday choice, with the verb right after it.",
+  "draft": "db6efce3e6fc674c",
+  "group": "#414 deshalb",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:02.445Z"
+}

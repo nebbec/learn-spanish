@@ -1,0 +1,15 @@
+{
+  "rank": 580,
+  "word": "tief",
+  "cards": [
+    "tief-deep"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tief-deep": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:59:18.503Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 254,
+  "word": "wahr",
+  "cards": [
+    "wahr-true"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wahr-true": "cierto-true"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:48.552Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "buero-office",
+  "rank": 520,
+  "word": "Büro",
+  "draft": "bf61a8ca721cac98",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "office (the room or building where you work)",
+    "example": "I'm still at the office."
+  },
+  "note": "Words like die Praxis (a doctor's office) and das Amt (a government office) are narrower meanings, so they don't compete with Büro for the bare prompt \"office\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:38.021Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ueberpruefen-check",
+  "rank": 782,
+  "kind": "content",
+  "pos": "verb",
+  "target": "überprüfen",
+  "en": "to check",
+  "hint": "verify, look over",
+  "grammar": {
+    "present": {
+      "ich": "überprüfe",
+      "du": "überprüfst",
+      "er": "überprüft"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überprüft"
+    }
+  },
+  "example": {
+    "target": "Ich überprüfe das gleich.",
+    "en": "I'll check that right away."
+  },
+  "regional": null,
+  "trick": "ÜBER-PRÜFEN sounds like über (over) plus proofing: you proof something over again to check it.",
+  "image": "/deck-de/img/ueberpruefen-check.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberpruefen-check.word.mp3",
+    "sentence": "/deck-de/audio/ueberpruefen-check.sentence.mp3"
+  }
+}

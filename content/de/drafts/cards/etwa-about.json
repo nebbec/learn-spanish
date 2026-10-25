@@ -1,0 +1,21 @@
+{
+  "id": "etwa-about",
+  "rank": 401,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "etwa",
+  "en": "about, roughly",
+  "hint": "before a number; not ungefähr",
+  "grammar": null,
+  "example": {
+    "target": "Das dauert etwa zehn Minuten.",
+    "en": "That takes about ten minutes."
+  },
+  "regional": null,
+  "trick": "ETWA sounds like 'ate va': I ate about ten waffles, roughly, I didn't count exactly.",
+  "image": "/deck-de/img/etwa-about.webp",
+  "audio": {
+    "word": "/deck-de/audio/etwa-about.word.mp3",
+    "sentence": "/deck-de/audio/etwa-about.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "teufel-devil",
+  "rank": 383,
+  "word": "Teufel",
+  "draft": "8ef3287e6e44edee",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "devil",
+    "example": "The devil is in the details."
+  },
+  "note": "The example is a fixed proverb, so it is natural and correct, but a literal sentence could show the word more plainly, and the common exclamations \"Was zum Teufel...?\" and \"Geh zum Teufel!\" may also be worth showing.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:53:35.579Z"
+}

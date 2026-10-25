@@ -1,0 +1,19 @@
+{
+  "rank": 66,
+  "word": "um",
+  "cards": [
+    "um-at-time",
+    "um-around",
+    "um-in-order-to"
+  ],
+  "skip": null,
+  "sameAs": {
+    "um-at-time": null,
+    "um-around": null,
+    "um-in-order-to": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:42.271Z"
+}

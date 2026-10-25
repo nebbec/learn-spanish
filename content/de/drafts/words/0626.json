@@ -1,0 +1,15 @@
+{
+  "rank": 626,
+  "word": "Gefängnis",
+  "cards": [
+    "gefaengnis-prison"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gefaengnis-prison": "carcel-jail"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:26.764Z"
+}

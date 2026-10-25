@@ -1,0 +1,25 @@
+{
+  "id": "art-way-manner",
+  "rank": 386,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Art",
+  "en": "way (manner)",
+  "hint": "how someone does something, not a path",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Arten"
+  },
+  "example": {
+    "target": "Ich mag deine Art zu reden.",
+    "en": "I like the way you talk."
+  },
+  "regional": null,
+  "trick": "ART sounds like English art: the art of doing something is your own way of doing it.",
+  "image": "/deck-de/img/art-way-manner.webp",
+  "audio": {
+    "word": "/deck-de/audio/art-way-manner.word.mp3",
+    "sentence": "/deck-de/audio/art-way-manner.sentence.mp3"
+  }
+}

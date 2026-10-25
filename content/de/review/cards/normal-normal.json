@@ -1,0 +1,17 @@
+{
+  "id": "normal-normal",
+  "rank": 568,
+  "word": "normal",
+  "draft": "ca45c1feeea28d2e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "normal, ordinary, usual",
+    "example": "Don't worry, that's completely normal."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:47.312Z"
+}

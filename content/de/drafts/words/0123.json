@@ -1,0 +1,15 @@
+{
+  "rank": 123,
+  "word": "schön",
+  "cards": [
+    "schoen-beautiful"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schoen-beautiful": "hermoso-beautiful"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:49.704Z"
+}

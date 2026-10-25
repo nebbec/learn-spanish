@@ -1,0 +1,30 @@
+# her-here-toward · rank 196 · her
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out hier but not hierher, which is a common word that also fits "come here" with movement toward the speaker (Komm hierher!). Suggested fix: hint: toward me, with movement: come here (the short word, not hier or hierher)
+# Reviewer's note (not a reason to flag): The Spanish card aca-here means "here" in general rather than "toward the speaker", so leaving sameAs null is reasonable.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             her-here-toward
+kind:           content
+pos:            adverb
+target:         her
+en:             here
+hint:           toward me, with movement: come here (the short word, not hier or hierher)
+example.target: Komm mal her!
+example.en:     Come here!
+regional.where:
+regional.text:
+trick:          HER sounds like hair: come here so I can fix your hair.
+
+# The draft this file was made from. Do not change it.
+draft: c499f4948de2b4a1

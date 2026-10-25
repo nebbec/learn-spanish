@@ -1,0 +1,14 @@
+{
+  "id": "erhalten-receive",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use erhalten in formal or written German; in everyday speech, bekommen is the usual word.",
+  "draft": "22cbe7976a2385a8",
+  "group": "#733 erhalten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:08.535Z"
+}

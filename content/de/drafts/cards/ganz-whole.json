@@ -1,0 +1,21 @@
+{
+  "id": "ganz-whole",
+  "rank": 88,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "ganz",
+  "en": "whole",
+  "hint": "entire, as in the whole day",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe den ganzen Tag geschlafen.",
+    "en": "I slept the whole day."
+  },
+  "regional": null,
+  "trick": "GANZ sounds like a gang of ants: the whole gang, the entire colony, every single ant.",
+  "image": "/deck-de/img/ganz-whole.webp",
+  "audio": {
+    "word": "/deck-de/audio/ganz-whole.word.mp3",
+    "sentence": "/deck-de/audio/ganz-whole.sentence.mp3"
+  }
+}

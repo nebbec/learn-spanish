@@ -1,0 +1,17 @@
+{
+  "id": "manch-some",
+  "rank": 792,
+  "word": "manch",
+  "draft": "55849e252d66c641",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "some, many a (determiner: manche Leute = some people)",
+    "example": "Some people simply don't understand that."
+  },
+  "note": "The target is the dictionary form \"manch\", but the prompt asks for \"manche\" (Manche Tage sind einfach hart), so the answer screen could show that inflected form as well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:30.096Z"
+}

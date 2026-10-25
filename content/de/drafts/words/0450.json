@@ -1,0 +1,15 @@
+{
+  "rank": 450,
+  "word": "Blut",
+  "cards": [
+    "blut-blood"
+  ],
+  "skip": null,
+  "sameAs": {
+    "blut-blood": "sangre-blood"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:51:00.427Z"
+}

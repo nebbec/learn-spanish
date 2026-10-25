@@ -1,0 +1,25 @@
+{
+  "id": "idee-idea",
+  "rank": 339,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Idee",
+  "en": "idea",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Ideen"
+  },
+  "example": {
+    "target": "Das ist eine gute Idee!",
+    "en": "That's a good idea!"
+  },
+  "regional": null,
+  "trick": "IDEE sounds like ee-DAY, almost the English word idea, which is exactly what it means.",
+  "image": "/deck-de/img/idee-idea.webp",
+  "audio": {
+    "word": "/deck-de/audio/idee-idea.word.mp3",
+    "sentence": "/deck-de/audio/idee-idea.sentence.mp3"
+  }
+}

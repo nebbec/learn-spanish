@@ -1,0 +1,33 @@
+{
+  "id": "stimmen-be-right",
+  "rank": 190,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stimmen",
+  "en": "to be right",
+  "hint": "of a fact or statement, not a person (that's true)",
+  "grammar": {
+    "present": {
+      "ich": "stimme",
+      "du": "stimmst",
+      "er": "stimmt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestimmt"
+    }
+  },
+  "example": {
+    "target": "Stimmt, das hast du mir schon gesagt.",
+    "en": "Right, you already told me that."
+  },
+  "regional": null,
+  "trick": "STIMMEN sounds like shtim-men, close to chime in: you chime in with Stimmt! when something is right.",
+  "image": "/deck-de/img/stimmen-be-right.webp",
+  "audio": {
+    "word": "/deck-de/audio/stimmen-be-right.word.mp3",
+    "sentence": "/deck-de/audio/stimmen-be-right.sentence.mp3"
+  }
+}

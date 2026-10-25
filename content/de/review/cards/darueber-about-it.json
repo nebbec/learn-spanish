@@ -1,0 +1,17 @@
+{
+  "id": "darueber-about-it",
+  "rank": 295,
+  "word": "darüber",
+  "draft": "8df860f1107a12f5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "about it, about that (adverb standing for über + it/that)",
+    "example": "We'll talk about it tomorrow."
+  },
+  "note": "In casual speech Germans often say the short form drüber (Lass uns drüber reden), which a learner might give and should count as the same word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:11.908Z"
+}

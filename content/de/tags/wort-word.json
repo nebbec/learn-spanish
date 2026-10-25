@@ -1,0 +1,14 @@
+{
+  "id": "wort-word",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "35d9174fe28a3204",
+  "group": "#331 Wort",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:15.020Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "geschichte-history",
+  "rank": 365,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Geschichte",
+  "en": "history",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Geschichte war in der Schule mein Lieblingsfach.",
+    "en": "History was my favourite subject at school."
+  },
+  "regional": null,
+  "trick": "GESCHICHTE sounds like the verb geschehen, to happen: history is everything that has happened.",
+  "image": "/deck-de/img/geschichte-history.webp",
+  "audio": {
+    "word": "/deck-de/audio/geschichte-history.word.mp3",
+    "sentence": "/deck-de/audio/geschichte-history.sentence.mp3"
+  }
+}

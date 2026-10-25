@@ -1,0 +1,15 @@
+{
+  "rank": 538,
+  "word": "Mord",
+  "cards": [
+    "mord-murder"
+  ],
+  "skip": null,
+  "sameAs": {
+    "mord-murder": "asesinato-murder"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:45.300Z"
+}

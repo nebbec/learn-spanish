@@ -1,0 +1,17 @@
+{
+  "rank": 78,
+  "word": "ihnen",
+  "cards": [
+    "ihnen-them",
+    "ihnen-you-formal"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ihnen-them": null,
+    "ihnen-you-formal": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:29.632Z"
+}

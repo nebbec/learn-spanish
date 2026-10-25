@@ -1,0 +1,21 @@
+{
+  "id": "da-since",
+  "rank": 50,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "da",
+  "en": "[since] it's raining, I'm staying home",
+  "hint": "as a reason, not weil",
+  "grammar": null,
+  "example": {
+    "target": "Da es regnet, bleibe ich zu Hause.",
+    "en": "Since it's raining, I'm staying home."
+  },
+  "regional": null,
+  "trick": "DA rhymes with ah, as in: ah, since that's the case, we stay in.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/da-since.word.mp3",
+    "sentence": "/deck-de/audio/da-since.sentence.mp3"
+  }
+}

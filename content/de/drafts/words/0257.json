@@ -1,0 +1,15 @@
+{
+  "rank": 257,
+  "word": "Moment",
+  "cards": [
+    "moment-moment"
+  ],
+  "skip": null,
+  "sameAs": {
+    "moment-moment": "momento-moment"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:09.514Z"
+}

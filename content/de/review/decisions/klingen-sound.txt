@@ -1,0 +1,37 @@
+# klingen-sound · rank 380 · klingen
+#
+# Why it was flagged:
+#   - One right answer: The reflexive separable verb sich anhören (Das hört sich gut an) is just as common for 'to sound' in the sense of 'sounds good', and the hint doesn't rule it out. Suggested fix: hint: to seem, as in sounds good; one word, not sich anhören
+# Reviewer's note (not a reason to flag): irregular is correctly true: the present tense is regular, but the participle geklungen is strong.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 klingen-sound
+kind:               content
+pos:                verb
+target:             klingen
+en:                 to sound
+hint:               to seem, as in sounds good; one word, not sich anhören
+ich:                klinge
+du:                 klingst
+er:                 klingt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geklungen
+example.target:     Das klingt echt gut!
+example.en:         That sounds really good!
+regional.where:
+regional.text:
+trick:              KLINGEN sounds like clinking: clinking glasses make a bright sound.
+
+# The draft this file was made from. Do not change it.
+draft: 3d5cc9218be01276

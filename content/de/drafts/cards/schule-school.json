@@ -1,0 +1,25 @@
+{
+  "id": "schule-school",
+  "rank": 438,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Schule",
+  "en": "school",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Schulen"
+  },
+  "example": {
+    "target": "Ich gehe morgen nicht in die Schule.",
+    "en": "I'm not going to school tomorrow."
+  },
+  "regional": null,
+  "trick": "SCHULE sounds like SHOO-luh, which is just school with an extra syllable on the end.",
+  "image": "/deck-de/img/schule-school.webp",
+  "audio": {
+    "word": "/deck-de/audio/schule-school.word.mp3",
+    "sentence": "/deck-de/audio/schule-school.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "vorstellen-introduce",
+  "rank": 522,
+  "word": "vorstellen",
+  "draft": "937f6f17476fa9bc",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The English translation gets the roles backwards: in the German, dir is the dative listener and meine Schwester is the accusative person being introduced, so the sister is introduced to you, not you to her.",
+      "fix": "example.en: I'll introduce my sister to you."
+    }
+  ],
+  "back": {
+    "target": "to introduce (a person); with sich: to imagine",
+    "example": "I'll introduce my sister to you."
+  },
+  "note": "The hint \"a person\" keeps this card apart from einführen (to bring in a new product or system) and from the sich vorstellen card meaning \"to imagine\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:51.779Z"
+}

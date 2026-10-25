@@ -1,0 +1,21 @@
+{
+  "id": "nur-only",
+  "rank": 49,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "nur",
+  "en": "only",
+  "hint": "merely, just (not einzig, not erst)",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe nur zehn Euro dabei.",
+    "en": "I only have ten euros on me."
+  },
+  "regional": null,
+  "trick": "NUR sounds like \"noor\", rhyming with \"poor\": the poor guy has only one coin.",
+  "image": "/deck-de/img/nur-only.webp",
+  "audio": {
+    "word": "/deck-de/audio/nur-only.word.mp3",
+    "sentence": "/deck-de/audio/nur-only.sentence.mp3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "feind-enemy",
+  "rank": 749,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Feind",
+  "en": "enemy",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Feinde"
+  },
+  "example": {
+    "target": "Er ist nicht dein Feind.",
+    "en": "He's not your enemy."
+  },
+  "regional": null,
+  "trick": "FEIND, said like fined, comes from the same old word as English fiend, which once meant enemy.",
+  "image": "/deck-de/img/feind-enemy.webp",
+  "audio": {
+    "word": "/deck-de/audio/feind-enemy.word.mp3",
+    "sentence": "/deck-de/audio/feind-enemy.sentence.mp3"
+  }
+}

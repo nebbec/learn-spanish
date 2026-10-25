@@ -1,0 +1,14 @@
+{
+  "id": "stolz-proud",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8a1407e81ed74c10",
+  "group": "#633 stolz",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:44.374Z"
+}

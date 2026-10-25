@@ -1,0 +1,25 @@
+{
+  "id": "monat-month",
+  "rank": 345,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Monat",
+  "en": "month",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Monate"
+  },
+  "example": {
+    "target": "Ich wohne seit einem Monat in Berlin.",
+    "en": "I've been living in Berlin for a month."
+  },
+  "regional": null,
+  "trick": "MONAT, said MOH-naht, is close to moon and month: a month is about one trip of the moon around the earth.",
+  "image": "/deck-de/img/monat-month.webp",
+  "audio": {
+    "word": "/deck-de/audio/monat-month.word.mp3",
+    "sentence": "/deck-de/audio/monat-month.sentence.mp3"
+  }
+}

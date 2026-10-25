@@ -1,0 +1,21 @@
+{
+  "id": "damals-back-then",
+  "rank": 612,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "damals",
+  "en": "back then",
+  "hint": "at that time in the past, not früher",
+  "grammar": null,
+  "example": {
+    "target": "Damals war ich noch ein Kind.",
+    "en": "Back then I was still a kid."
+  },
+  "regional": null,
+  "trick": "DAMALS sounds like \"the malls\": back then, everyone hung out at the malls.",
+  "image": "/deck-de/img/damals-back-then.webp",
+  "audio": {
+    "word": "/deck-de/audio/damals-back-then.word.mp3",
+    "sentence": "/deck-de/audio/damals-back-then.sentence.mp3"
+  }
+}

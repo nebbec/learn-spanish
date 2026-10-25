@@ -1,0 +1,17 @@
+{
+  "id": "problem-problem",
+  "rank": 221,
+  "word": "Problem",
+  "draft": "f0f088023574d78c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "problem",
+    "example": "No problem, I'm glad to help you."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:28.470Z"
+}

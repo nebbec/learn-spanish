@@ -1,0 +1,25 @@
+{
+  "id": "paar-couple",
+  "rank": 179,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Paar",
+  "en": "couple, pair",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Paare"
+  },
+  "example": {
+    "target": "Die beiden sind ein schönes Paar.",
+    "en": "The two of them are a lovely couple."
+  },
+  "regional": null,
+  "trick": "PAAR sounds a lot like the English pair, and it means a pair or a couple.",
+  "image": "/deck-de/img/paar-couple.webp",
+  "audio": {
+    "word": "/deck-de/audio/paar-couple.word.mp3",
+    "sentence": "/deck-de/audio/paar-couple.sentence.mp3"
+  }
+}

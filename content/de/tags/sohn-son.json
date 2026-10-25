@@ -1,0 +1,14 @@
+{
+  "id": "sohn-son",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "80b97497e3ba8cfd",
+  "group": "#273 Sohn",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:14.250Z"
+}

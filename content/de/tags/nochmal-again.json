@@ -1,0 +1,14 @@
+{
+  "id": "nochmal-again",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use nochmal for doing something one more time; wieder for again in general, like something happening once more.",
+  "draft": "1231103cefc16bc3",
+  "group": "#657 nochmal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:38.377Z"
+}

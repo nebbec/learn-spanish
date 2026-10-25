@@ -1,0 +1,33 @@
+# karte-map · rank 665 · Karte
+#
+# Why it was flagged:
+#   - One right answer: With no hint, die Landkarte is an equally common, correct German answer for map (and der Stadtplan for a city map), so the prompt has more than one right answer. Suggested fix: hint: the short everyday word, not Landkarte
+# Reviewer's note (not a reason to flag): The trick works well, since Karte and chart both come from Latin charta.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             karte-map
+kind:           content
+pos:            noun
+target:         die Karte
+en:             map
+hint:           the short everyday word, not Landkarte
+gender:         f
+article:        die
+plural:         die Karten
+example.target: Zeig mir das mal auf der Karte.
+example.en:     Show me that on the map.
+regional.where:
+regional.text:
+trick:          KARTE sounds like chart, and a sailor's chart is a map of the sea.
+
+# The draft this file was made from. Do not change it.
+draft: 3aae7ff61b42bd6c

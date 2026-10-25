@@ -1,0 +1,37 @@
+# bekommen-get · rank 192 · bekommen
+#
+# Why it was flagged:
+#   - One right answer: The hint 'to receive' does not rule out kriegen, the very common colloquial word for to get, or erhalten, the more formal word for to receive, so both would also be right answers. Suggested fix: hint: to receive (the standard everyday word, not kriegen or erhalten)
+# Reviewer's note (not a reason to flag): Present-tense forms are regular, and irregular is correctly true because the Perfekt participle bekommen is strong.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 bekommen-get
+kind:               content
+pos:                verb
+target:             bekommen
+en:                 to get
+hint:               to receive (the standard everyday word, not kriegen or erhalten)
+ich:                bekomme
+du:                 bekommst
+er:                 bekommt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: bekommen
+example.target:     Hast du meine Nachricht bekommen?
+example.en:         Did you get my message?
+regional.where:
+regional.text:
+trick:              BEKOMMEN sounds like become but is a false friend: it means to get, like getting a present that comes to you.
+
+# The draft this file was made from. Do not change it.
+draft: abea470beacbdce7

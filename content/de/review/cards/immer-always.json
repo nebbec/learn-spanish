@@ -1,0 +1,17 @@
+{
+  "id": "immer-always",
+  "rank": 87,
+  "word": "immer",
+  "draft": "e36b435b038b3172",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "always",
+    "example": "You always come late. / You're always late."
+  },
+  "note": "Stets also means always, but it is formal and rare in speech, so immer is clearly the one answer; the trick's \"lives always\" is a bit awkward but fine (maybe \"lives forever\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:58.894Z"
+}

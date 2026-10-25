@@ -1,0 +1,17 @@
+{
+  "id": "anruf-call",
+  "rank": 718,
+  "word": "Anruf",
+  "draft": "a36d3a94193d6971",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "(phone) call",
+    "example": "I'm waiting for a call from Anna."
+  },
+  "note": "Swiss speakers also say \"ein Telefon\" for a call, but Anruf is standard there too, so regional can stay null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:37.308Z"
+}

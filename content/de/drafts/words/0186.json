@@ -1,0 +1,15 @@
+{
+  "rank": 186,
+  "word": "erzählen",
+  "cards": [
+    "erzaehlen-tell"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erzaehlen-tell": "contar-tell"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:34:13.624Z"
+}

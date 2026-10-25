@@ -1,0 +1,33 @@
+{
+  "id": "erhalten-receive",
+  "rank": 733,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erhalten",
+  "en": "to receive",
+  "hint": "more formal, not bekommen",
+  "grammar": {
+    "present": {
+      "ich": "erhalte",
+      "du": "erhältst",
+      "er": "erhält"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erhalten"
+    }
+  },
+  "example": {
+    "target": "Hast du meine Nachricht erhalten?",
+    "en": "Did you receive my message?"
+  },
+  "regional": null,
+  "trick": "ERHALTEN sounds like \"air halting\": a parcel halts in the air right above you, and you receive it.",
+  "image": "/deck-de/img/erhalten-receive.webp",
+  "audio": {
+    "word": "/deck-de/audio/erhalten-receive.word.mp3",
+    "sentence": "/deck-de/audio/erhalten-receive.sentence.mp3"
+  }
+}

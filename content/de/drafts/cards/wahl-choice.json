@@ -1,0 +1,25 @@
+{
+  "id": "wahl-choice",
+  "rank": 595,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Wahl",
+  "en": "choice",
+  "hint": "as in I have no choice",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Wahlen"
+  },
+  "example": {
+    "target": "Ich habe keine Wahl.",
+    "en": "I have no choice."
+  },
+  "regional": null,
+  "trick": "WAHL sounds like vahl, close to value: when you have a choice, you pick what you value most.",
+  "image": "/deck-de/img/wahl-choice.webp",
+  "audio": {
+    "word": "/deck-de/audio/wahl-choice.word.mp3",
+    "sentence": "/deck-de/audio/wahl-choice.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "himmel-sky",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e8757cde5c85ef7d",
+  "group": "#567 Himmel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:25.700Z"
+}

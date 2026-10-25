@@ -1,0 +1,17 @@
+{
+  "rank": 413,
+  "word": "Spaß",
+  "cards": [
+    "spass-fun",
+    "spass-joke"
+  ],
+  "skip": null,
+  "sameAs": {
+    "spass-fun": "divertido-fun",
+    "spass-joke": "broma-joke-prank"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:04.227Z"
+}

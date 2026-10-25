@@ -1,0 +1,21 @@
+{
+  "id": "einfach-simply-just",
+  "rank": 113,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "einfach",
+  "en": "simply, just",
+  "hint": "as in just do it",
+  "grammar": null,
+  "example": {
+    "target": "Mach es einfach!",
+    "en": "Just do it!"
+  },
+  "regional": null,
+  "trick": "EINFACH, said EYEN-fakh, is literally onefold: you simply do one thing, no fuss, just do it.",
+  "image": "/deck-de/img/einfach-simply-just.webp",
+  "audio": {
+    "word": "/deck-de/audio/einfach-simply-just.word.mp3",
+    "sentence": "/deck-de/audio/einfach-simply-just.sentence.mp3"
+  }
+}

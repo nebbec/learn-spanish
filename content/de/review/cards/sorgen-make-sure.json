@@ -1,0 +1,17 @@
+{
+  "id": "sorgen-make-sure",
+  "rank": 236,
+  "word": "sorgen",
+  "draft": "2bb6a74c31e5cd1d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to see to it, to make sure (with dafür ... dass); also to provide for, to take care of (für) and to worry (sich ... um)",
+    "example": "I'll make sure that everything works out."
+  },
+  "note": "The hint \"dafür ..., dass\" is needed here, because without it sicherstellen or aufpassen would also be right for \"to make sure\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:40:57.364Z"
+}

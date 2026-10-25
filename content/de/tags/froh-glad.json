@@ -1,0 +1,14 @@
+{
+  "id": "froh-glad",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use froh for being glad or relieved about something; glücklich for being truly happy.",
+  "draft": "d996864ede74f94b",
+  "group": "#511 froh",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:26.768Z"
+}

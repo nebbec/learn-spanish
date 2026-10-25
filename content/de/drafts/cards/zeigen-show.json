@@ -1,0 +1,33 @@
+{
+  "id": "zeigen-show",
+  "rank": 227,
+  "kind": "content",
+  "pos": "verb",
+  "target": "zeigen",
+  "en": "to show",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er": "zeigt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezeigt"
+    }
+  },
+  "example": {
+    "target": "Ich zeige dir morgen die Stadt.",
+    "en": "I'll show you the city tomorrow."
+  },
+  "regional": null,
+  "trick": "ZEIGEN sounds like TSY-gen, a bit like sign: a sign shows you the way.",
+  "image": "/deck-de/img/zeigen-show.webp",
+  "audio": {
+    "word": "/deck-de/audio/zeigen-show.word.mp3",
+    "sentence": "/deck-de/audio/zeigen-show.sentence.mp3"
+  }
+}

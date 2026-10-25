@@ -1,0 +1,25 @@
+{
+  "id": "jahr-year",
+  "rank": 135,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Jahr",
+  "en": "year",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Jahre"
+  },
+  "example": {
+    "target": "Ich wohne seit zwei Jahren in Berlin.",
+    "en": "I've been living in Berlin for two years."
+  },
+  "regional": null,
+  "trick": "JAHR sounds like \"yar\", close to \"year\": a year is a Jahr.",
+  "image": "/deck-de/img/jahr-year.webp",
+  "audio": {
+    "word": "/deck-de/audio/jahr-year.word.mp3",
+    "sentence": "/deck-de/audio/jahr-year.sentence.mp3"
+  }
+}

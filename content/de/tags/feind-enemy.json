@@ -1,0 +1,14 @@
+{
+  "id": "feind-enemy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3646c8459d478671",
+  "group": "#749 Feind",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:42.007Z"
+}

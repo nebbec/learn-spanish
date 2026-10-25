@@ -1,0 +1,15 @@
+{
+  "rank": 598,
+  "word": "Witz",
+  "cards": [
+    "witz-joke"
+  ],
+  "skip": null,
+  "sameAs": {
+    "witz-joke": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:35.459Z"
+}

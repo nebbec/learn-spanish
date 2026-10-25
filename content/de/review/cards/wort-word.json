@@ -1,0 +1,17 @@
+{
+  "id": "wort-word",
+  "rank": 331,
+  "word": "Wort",
+  "draft": "35d9174fe28a3204",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "word",
+    "example": "I don't understand a word."
+  },
+  "note": "The plural die Wörter is right for separate words, but there is also die Worte (spoken words or sayings, as in \"mit anderen Worten\"), which the editor may want to mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:29.580Z"
+}

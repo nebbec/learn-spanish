@@ -1,0 +1,37 @@
+# weh-hurt · rank 594 · Weh
+#
+# Why it was flagged:
+#   - One right answer: For 'to hurt (be painful)', schmerzen is also a common correct answer, and the hint does not rule it out. Suggested fix: hint: be painful; the everyday word, not schmerzen
+# Reviewer's note (not a reason to flag): The trick works and is accurate: Yiddish oy vey comes from the same root as German weh (woe).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 weh-hurt
+kind:               content
+pos:                verb
+target:             wehtun
+en:                 to hurt
+hint:               be painful; the everyday word, not schmerzen
+ich:                tue weh
+du:                 tust weh
+er:                 tut weh
+irregular:          yes
+separable:          yes
+perfekt.aux:        haben
+perfekt.participle: wehgetan
+example.target:     Mein Kopf tut total weh.
+example.en:         My head really hurts.
+regional.where:
+regional.text:
+trick:              WEH sounds like the vey in oy vey, which is what you groan when something hurts.
+
+# The draft this file was made from. Do not change it.
+draft: b5968ae9eb22721b

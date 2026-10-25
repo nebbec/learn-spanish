@@ -1,0 +1,33 @@
+{
+  "id": "fliegen-fly",
+  "rank": 435,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fliegen",
+  "en": "to fly",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "fliege",
+      "du": "fliegst",
+      "er": "fliegt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geflogen"
+    }
+  },
+  "example": {
+    "target": "Wir fliegen morgen nach Berlin.",
+    "en": "We're flying to Berlin tomorrow."
+  },
+  "regional": null,
+  "trick": "FLIEGEN sounds like flee again: a scared bird flees again by flying away.",
+  "image": "/deck-de/img/fliegen-fly.webp",
+  "audio": {
+    "word": "/deck-de/audio/fliegen-fly.word.mp3",
+    "sentence": "/deck-de/audio/fliegen-fly.sentence.mp3"
+  }
+}

@@ -1,0 +1,37 @@
+# bestehen-pass · rank 676 · bestehen
+#
+# Why it was flagged:
+#   - One right answer: For passing an exam, everyday German also very often uses schaffen (Hast du die Prüfung geschafft?), and the hint does not rule it out. Suggested fix: hint: an exam, a test; the exact word, not schaffen
+# Reviewer's note (not a reason to flag): The Spanish card pasar-pass means to go by or go through, not to pass an exam, so leaving sameAs null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 bestehen-pass
+kind:               content
+pos:                verb
+target:             bestehen
+en:                 to pass
+hint:               an exam, a test; the exact word, not schaffen
+ich:                bestehe
+du:                 bestehst
+er:                 besteht
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: bestanden
+example.target:     Hast du die Prüfung bestanden?
+example.en:         Did you pass the exam?
+regional.where:
+regional.text:
+trick:              BESTEHEN sounds like "be-SHTAY-en": pass the test and you get to stay in the class.
+
+# The draft this file was made from. Do not change it.
+draft: 7eac825df44ad6fb

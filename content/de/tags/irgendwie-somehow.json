@@ -1,0 +1,14 @@
+{
+  "id": "irgendwie-somehow",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5ee6c25827a15433",
+  "group": "#488 irgendwie",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:33.752Z"
+}

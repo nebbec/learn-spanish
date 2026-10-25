@@ -1,0 +1,17 @@
+{
+  "id": "atmen-breathe",
+  "rank": 783,
+  "word": "atmen",
+  "draft": "aaefe1b4c42bbc87",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to breathe",
+    "example": "He is still breathing!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:35.058Z"
+}

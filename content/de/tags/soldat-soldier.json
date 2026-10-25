@@ -1,0 +1,14 @@
+{
+  "id": "soldat-soldier",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e4cf910f7d29f351",
+  "group": "#729 Soldat",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:59.312Z"
+}

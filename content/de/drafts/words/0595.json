@@ -1,0 +1,17 @@
+{
+  "rank": 595,
+  "word": "Wahl",
+  "cards": [
+    "wahl-choice",
+    "wahl-election"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wahl-choice": null,
+    "wahl-election": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:27.197Z"
+}

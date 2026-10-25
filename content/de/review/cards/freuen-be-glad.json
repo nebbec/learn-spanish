@@ -1,0 +1,17 @@
+{
+  "id": "freuen-be-glad",
+  "rank": 417,
+  "word": "freuen",
+  "draft": "95b4448efa0a9ca1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be glad, to be pleased (reflexive)",
+    "example": "I'm glad that you're here."
+  },
+  "note": "The sameAs card alegrar-make-happy is prompted as \"to make happy\", but its hint (me alegro = I'm glad) covers the reflexive meaning, so the picture should still fit sich freuen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:42.016Z"
+}

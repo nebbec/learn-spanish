@@ -1,0 +1,17 @@
+{
+  "id": "erwischen-catch",
+  "rank": 696,
+  "word": "erwischen",
+  "draft": "e80cd4c188214bd7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to catch (someone, often in the act or by surprise); to manage to catch (a bus, train); to get hold of",
+    "example": "I only just caught the bus."
+  },
+  "note": "The sameAs link to atrapar-catch works for the sense of catching someone, but its picture won't show the bus sense, so it should show a person being caught.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:07.276Z"
+}

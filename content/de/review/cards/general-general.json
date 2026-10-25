@@ -1,0 +1,17 @@
+{
+  "id": "general-general",
+  "rank": 679,
+  "word": "General",
+  "draft": "dbf2f16ed37bcdd6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "general (high-ranking military officer)",
+    "example": "The general gives the soldiers an order."
+  },
+  "note": "The hint \"army officer\" is useful because it rules out the English adjective general (German allgemein); Duden also accepts the plural die Generale, but die Generäle is the more common everyday form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:29.734Z"
+}

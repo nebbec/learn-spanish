@@ -1,0 +1,17 @@
+{
+  "id": "moerder-murderer",
+  "rank": 668,
+  "word": "Mörder",
+  "draft": "55c98dad77bbb873",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "murderer (male, or as the general word)",
+    "example": "The police have found the murderer."
+  },
+  "note": "Spanish asesino covers both killer and murderer, so the picture works, and Mörderin is the female form if the editor wants to mention it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:35.032Z"
+}

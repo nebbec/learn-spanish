@@ -1,0 +1,17 @@
+{
+  "id": "werfen-throw",
+  "rank": 481,
+  "word": "werfen",
+  "draft": "fcd10a747cac3d89",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to throw",
+    "example": "You throw the ball too far."
+  },
+  "note": "Colloquial schmeißen also means to throw, but werfen is the standard answer a fluent speaker would give, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:39.878Z"
+}

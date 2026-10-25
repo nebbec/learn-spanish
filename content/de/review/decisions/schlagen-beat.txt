@@ -1,0 +1,37 @@
+# schlagen-beat · rank 364 · schlagen
+#
+# Why it was flagged:
+#   - One right answer: The hint's word 'defeat' points straight at besiegen (to defeat), which is also a common right answer for beating an opponent, so the prompt has two right answers. Suggested fix: hint: win against a team or rival, as in we beat them 3 to 1; the everyday word, not besiegen
+# Reviewer's note (not a reason to flag): No Spanish card means to defeat: ganar-win is to win and golpear-hit is to hit, so null is correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 schlagen-beat
+kind:               content
+pos:                verb
+target:             schlagen
+en:                 to beat
+hint:               win against a team or rival, as in we beat them 3 to 1; the everyday word, not besiegen
+ich:                schlage
+du:                 schlägst
+er:                 schlägt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geschlagen
+example.target:     Wir haben sie drei zu eins geschlagen.
+example.en:         We beat them three to one.
+regional.where:
+regional.text:
+trick:              SCHLAGEN sounds like slug it out: you slug it out with your rival and beat them.
+
+# The draft this file was made from. Do not change it.
+draft: 54fdd7355b1ffb54

@@ -1,0 +1,15 @@
+{
+  "rank": 308,
+  "word": "egal",
+  "cards": [
+    "egal-doesnt-matter"
+  ],
+  "skip": null,
+  "sameAs": {
+    "egal-doesnt-matter": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:29.141Z"
+}

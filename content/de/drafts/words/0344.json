@@ -1,0 +1,15 @@
+{
+  "rank": 344,
+  "word": "fangen",
+  "cards": [
+    "fangen-catch"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fangen-catch": "atrapar-catch"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:48.212Z"
+}

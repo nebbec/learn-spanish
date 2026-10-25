@@ -1,0 +1,33 @@
+{
+  "id": "verlangen-demand",
+  "rank": 703,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verlangen",
+  "en": "to demand",
+  "hint": "also to ask a price, not fordern",
+  "grammar": {
+    "present": {
+      "ich": "verlange",
+      "du": "verlangst",
+      "er": "verlangt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verlangt"
+    }
+  },
+  "example": {
+    "target": "Du verlangst zu viel von mir.",
+    "en": "You're asking too much of me."
+  },
+  "regional": null,
+  "trick": "VerLANGen has lang in it, said like long: you demand the thing you long for.",
+  "image": "/deck-de/img/verlangen-demand.webp",
+  "audio": {
+    "word": "/deck-de/audio/verlangen-demand.word.mp3",
+    "sentence": "/deck-de/audio/verlangen-demand.sentence.mp3"
+  }
+}

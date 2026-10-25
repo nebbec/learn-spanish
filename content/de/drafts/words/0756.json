@@ -1,0 +1,14 @@
+{
+  "rank": 756,
+  "word": "ha",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "ha is an interjection that means the same in English (ha!), so it gets no card."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:07.557Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "freundin-girlfriend",
+  "rank": 437,
+  "word": "Freundin",
+  "draft": "bf7b38b27d0a1031",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "girlfriend; (female) friend",
+    "example": "My girlfriend lives in Berlin."
+  },
+  "note": "The trick reads -in as the English word \"in\", but it is really the German feminine ending; that is fine for a pun, though saying so could help the learner.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:58.597Z"
+}

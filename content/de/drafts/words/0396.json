@@ -1,0 +1,15 @@
+{
+  "rank": 396,
+  "word": "oben",
+  "cards": [
+    "oben-up"
+  ],
+  "skip": null,
+  "sameAs": {
+    "oben-up": "arriba-up"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:05.253Z"
+}

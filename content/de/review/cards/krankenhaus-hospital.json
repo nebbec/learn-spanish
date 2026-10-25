@@ -1,0 +1,17 @@
+{
+  "id": "krankenhaus-hospital",
+  "rank": 662,
+  "word": "Krankenhaus",
+  "draft": "e57de0a4df0b292c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hospital",
+    "example": "My grandpa is in the hospital."
+  },
+  "note": "Austrians also often say das Spital, so the regional footnote could name Austria and Switzerland.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:00.196Z"
+}

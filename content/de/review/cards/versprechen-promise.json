@@ -1,0 +1,17 @@
+{
+  "id": "versprechen-promise",
+  "rank": 361,
+  "word": "versprechen",
+  "draft": "582a29e5b6a33c99",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to promise",
+    "example": "I promise you I'll come back."
+  },
+  "note": "The verb prompt \"to promise\" stays clearly apart from the noun card das Versprechen, whose hint marks it as the noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:51:23.879Z"
+}

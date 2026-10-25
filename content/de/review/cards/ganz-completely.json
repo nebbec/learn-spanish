@@ -1,0 +1,17 @@
+{
+  "id": "ganz-completely",
+  "rank": 88,
+  "word": "ganz",
+  "draft": "85063b928de45947",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "completely, entirely, totally (adverb); also quite, fairly before an adjective",
+    "example": "I completely forgot that."
+  },
+  "note": "The hint is needed, because it rules out völlig, komplett, total and vollkommen; the editor might later add a separate card for the very common unstressed sense \"quite, fairly\" (ganz gut).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:07.020Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "als-when-past",
+  "rank": 60,
+  "word": "als",
+  "draft": "d3aaed5fba61311f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "when (conjunction, for a single event or period in the past)",
+    "example": "When I was little, I had a dog."
+  },
+  "note": "The example sentence repeats the prompt word for word, so the editor could pick a different past-time sentence to add variety, for example \"Als ich nach Hause kam, war niemand da.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:39.698Z"
+}

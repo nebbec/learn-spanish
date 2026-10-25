@@ -1,0 +1,21 @@
+{
+  "id": "genug-enough",
+  "rank": 259,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "genug",
+  "en": "enough",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir haben genug Zeit.",
+    "en": "We have enough time."
+  },
+  "regional": null,
+  "trick": "GENUG sounds like \"guh-NOOK\": once every nook is stuffed full, you have enough.",
+  "image": "/deck-de/img/genug-enough.webp",
+  "audio": {
+    "word": "/deck-de/audio/genug-enough.word.mp3",
+    "sentence": "/deck-de/audio/genug-enough.sentence.mp3"
+  }
+}

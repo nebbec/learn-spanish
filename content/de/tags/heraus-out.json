@@ -1,0 +1,14 @@
+{
+  "id": "heraus-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Heraus is the full form; in casual speech it is usually shortened to raus.",
+  "draft": "97267b901ea68c84",
+  "group": "#734 heraus",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:09.744Z"
+}

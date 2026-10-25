@@ -1,0 +1,14 @@
+{
+  "id": "sitzen-sit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sitzen for being seated; sich setzen for the moment you sit down.",
+  "draft": "702bcaf6b0abda57",
+  "group": "#313 sitzen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:37.509Z"
+}

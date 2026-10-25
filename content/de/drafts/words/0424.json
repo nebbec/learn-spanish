@@ -1,0 +1,15 @@
+{
+  "rank": 424,
+  "word": "Bett",
+  "cards": [
+    "bett-bed"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bett-bed": "cama-bed"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:39.111Z"
+}

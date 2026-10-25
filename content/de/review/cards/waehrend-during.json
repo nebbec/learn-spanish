@@ -1,0 +1,17 @@
+{
+  "id": "waehrend-during",
+  "rank": 434,
+  "word": "während",
+  "draft": "59c4ece220726317",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "during (preposition, takes the genitive)",
+    "example": "During the film I slept."
+  },
+  "note": "In casual speech people often say \"beim Film\" or \"während dem Film\" (dative), so the editor could mention this, but \"während\" with the genitive is the standard answer for [during], and the conjunction card (\"while\") keeps the two meanings apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:43.723Z"
+}

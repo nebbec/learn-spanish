@@ -1,0 +1,33 @@
+{
+  "id": "kaempfen-fight",
+  "rank": 694,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kämpfen",
+  "en": "to fight",
+  "hint": "battle, struggle, not quarrel",
+  "grammar": {
+    "present": {
+      "ich": "kämpfe",
+      "du": "kämpfst",
+      "er": "kämpft"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekämpft"
+    }
+  },
+  "example": {
+    "target": "Ich kämpfe für dich.",
+    "en": "I'm fighting for you."
+  },
+  "regional": null,
+  "trick": "KÄMPFEN starts like KEMP, close to champ: a champ is someone who fights and wins.",
+  "image": "/deck-de/img/kaempfen-fight.webp",
+  "audio": {
+    "word": "/deck-de/audio/kaempfen-fight.word.mp3",
+    "sentence": "/deck-de/audio/kaempfen-fight.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 639,
+  "word": "still",
+  "cards": [
+    "still-quiet"
+  ],
+  "skip": null,
+  "sameAs": {
+    "still-quiet": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:03:15.446Z"
+}

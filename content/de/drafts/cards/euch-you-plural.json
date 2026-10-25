@@ -1,0 +1,21 @@
+{
+  "id": "euch-you-plural",
+  "rank": 105,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "euch",
+  "en": "I'll call [you] later",
+  "hint": "you all, as the object",
+  "grammar": null,
+  "example": {
+    "target": "Ich rufe euch später an.",
+    "en": "I'll call you guys later."
+  },
+  "regional": null,
+  "trick": "EUCH sounds like OYCH, like shouting Oi! at a group: oi, I mean you lot.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/euch-you-plural.word.mp3",
+    "sentence": "/deck-de/audio/euch-you-plural.sentence.mp3"
+  }
+}

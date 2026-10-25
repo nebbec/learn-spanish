@@ -1,0 +1,17 @@
+{
+  "id": "zurueck-back",
+  "rank": 144,
+  "word": "zurück",
+  "draft": "db45f228060a1571",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "back (adverb; back to where you started, or backwards)",
+    "example": "I'll be right back."
+  },
+  "note": "The hint \"direction\" usefully rules out hinten (at the back) and der Rücken (the back of the body); atras-back fits as a shared picture of moving backwards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:45.640Z"
+}

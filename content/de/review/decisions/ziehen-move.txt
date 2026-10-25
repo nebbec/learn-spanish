@@ -1,0 +1,37 @@
+# ziehen-move · rank 256 · ziehen
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out umziehen, which is just as common for moving to another city (Wir ziehen nach Berlin um), so a learner could rightly give either verb. Suggested fix: hint: to another city, with nach; the short verb, not umziehen
+# Reviewer's note (not a reason to flag): The Spanish card mover-move is about changing position and says it is not moving house, so leaving sameAs null is right; aux sein is right for this meaning, unlike haben for to pull.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 ziehen-move
+kind:               content
+pos:                verb
+target:             ziehen
+en:                 to move
+hint:               to another city, with nach; the short verb, not umziehen
+ich:                ziehe
+du:                 ziehst
+er:                 zieht
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gezogen
+example.target:     Wir ziehen nächstes Jahr nach Berlin.
+example.en:         We're moving to Berlin next year.
+regional.where:
+regional.text:
+trick:              ZIEHEN, said TSEE-en, is how you pull your whole life along with you when you move to a new city.
+
+# The draft this file was made from. Do not change it.
+draft: 8fe9e7c381f8da3b

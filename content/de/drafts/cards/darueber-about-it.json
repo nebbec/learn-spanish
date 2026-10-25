@@ -1,0 +1,21 @@
+{
+  "id": "darueber-about-it",
+  "rank": 295,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "darüber",
+  "en": "let's talk [about it]",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir reden morgen darüber.",
+    "en": "We'll talk about it tomorrow."
+  },
+  "regional": null,
+  "trick": "DARÜBER is da (there) plus über (about): talking about there, about that thing, means talking about it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/darueber-about-it.word.mp3",
+    "sentence": "/deck-de/audio/darueber-about-it.sentence.mp3"
+  }
+}

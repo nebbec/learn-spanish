@@ -1,0 +1,17 @@
+{
+  "id": "von-from",
+  "rank": 35,
+  "word": "von",
+  "draft": "c272b333744d882d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "from (of, by)",
+    "example": "I have a message from Anna."
+  },
+  "note": "The hint \"from a person\" is correct but not strictly needed, since only von fits \"a message [from] Anna\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:32.262Z"
+}

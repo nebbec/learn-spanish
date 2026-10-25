@@ -1,0 +1,17 @@
+{
+  "id": "kurz-short",
+  "rank": 305,
+  "word": "kurz",
+  "draft": "9f02c17f7c2fac25",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "short (in length or duration)",
+    "example": "The film was really short."
+  },
+  "note": "The hint is needed: it rules out klein for a short person and keeps this card apart from the Spanish card bajo-short, which is about height.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:07.076Z"
+}

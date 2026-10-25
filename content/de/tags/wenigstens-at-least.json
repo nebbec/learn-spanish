@@ -1,0 +1,14 @@
+{
+  "id": "wenigstens-at-least",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f5b58189cacad0b0",
+  "group": "#667 wenigstens",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:56.578Z"
+}

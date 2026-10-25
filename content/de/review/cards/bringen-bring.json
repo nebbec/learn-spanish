@@ -1,0 +1,17 @@
+{
+  "id": "bringen-bring",
+  "rank": 116,
+  "word": "bringen",
+  "draft": "2addedf40527a195",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to bring (also to take someone or something somewhere)",
+    "example": "Will you bring me a glass of water?"
+  },
+  "note": "The example's literal sense is \"Will you bring me...\", but it is a casual request, so \"Can you bring me...\" is a fair translation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:27.557Z"
+}

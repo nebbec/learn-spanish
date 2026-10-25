@@ -1,0 +1,14 @@
+{
+  "id": "dame-lady",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e58a19ac205421d2",
+  "group": "#515 Dame",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:32.283Z"
+}

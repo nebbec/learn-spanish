@@ -1,0 +1,17 @@
+{
+  "id": "erklaeren-explain",
+  "rank": 430,
+  "word": "erklären",
+  "draft": "c2daa0b55bcb90e6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to explain",
+    "example": "Can you explain that to me again?"
+  },
+  "note": "The trick could also mention that erklären really does come from German klar (clear), which makes the link even stronger.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:27.765Z"
+}

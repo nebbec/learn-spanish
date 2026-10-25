@@ -1,0 +1,14 @@
+{
+  "id": "passieren-happen",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3a058766acd8521f",
+  "group": "#159 passieren",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:11.840Z"
+}

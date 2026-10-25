@@ -1,0 +1,33 @@
+{
+  "id": "brechen-break",
+  "rank": 525,
+  "kind": "content",
+  "pos": "verb",
+  "target": "brechen",
+  "en": "to break",
+  "hint": "a bone, a promise, a rule",
+  "grammar": {
+    "present": {
+      "ich": "breche",
+      "du": "brichst",
+      "er": "bricht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebrochen"
+    }
+  },
+  "example": {
+    "target": "Ich habe mir das Bein gebrochen.",
+    "en": "I broke my leg."
+  },
+  "regional": null,
+  "trick": "BRECHEN sounds like a throaty \"break-en\": to break something.",
+  "image": "/deck-de/img/brechen-break.webp",
+  "audio": {
+    "word": "/deck-de/audio/brechen-break.word.mp3",
+    "sentence": "/deck-de/audio/brechen-break.sentence.mp3"
+  }
+}

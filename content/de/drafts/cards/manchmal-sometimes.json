@@ -1,0 +1,21 @@
+{
+  "id": "manchmal-sometimes",
+  "rank": 431,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "manchmal",
+  "en": "sometimes",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Manchmal bin ich einfach müde.",
+    "en": "Sometimes I'm just tired."
+  },
+  "regional": null,
+  "trick": "MANCHMAL sounds like munch-mahl: sometimes I munch a meal. It is also manch (many a) plus mal (time): many a time.",
+  "image": "/deck-de/img/manchmal-sometimes.webp",
+  "audio": {
+    "word": "/deck-de/audio/manchmal-sometimes.word.mp3",
+    "sentence": "/deck-de/audio/manchmal-sometimes.sentence.mp3"
+  }
+}

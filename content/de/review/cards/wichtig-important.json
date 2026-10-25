@@ -1,0 +1,17 @@
+{
+  "id": "wichtig-important",
+  "rank": 290,
+  "word": "wichtig",
+  "draft": "be55c15235061850",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "important",
+    "example": "That's really important to me."
+  },
+  "note": "The trick's VISH-tish is only a rough match for the real sound (closer to VIKH-tikh), but it says roughly, so it is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:55.091Z"
+}

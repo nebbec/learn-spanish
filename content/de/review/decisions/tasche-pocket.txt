@@ -1,0 +1,34 @@
+# tasche-pocket · rank 768 · Tasche
+#
+# Why it was flagged:
+#   - Usage in Germany: In Switzerland a trouser or jacket pocket is commonly called Sack or Hosensack, so regional should not be null. Suggested fix: regional: { where: Switzerland, text: For a pocket, Swiss speakers commonly say der Sack or der Hosensack instead of Tasche. }
+#   - Example sentence: In meiner Tasche can just as easily mean in my bag, so the sentence does not show the pocket meaning and blurs it with the word's bag card. Suggested fix: example.target: Er hat die Hände in den Taschen. example.en: He has his hands in his pockets.
+# Reviewer's note (not a reason to flag): Die Hosentasche is a more specific word for a trouser pocket, but die Tasche is the everyday answer for pocket, so the prompt works without a hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             tasche-pocket
+kind:           content
+pos:            noun
+target:         die Tasche
+en:             pocket
+hint:
+gender:         f
+article:        die
+plural:         die Taschen
+example.target: Er hat die Hände in den Taschen.
+example.en:     He has his hands in his pockets.
+regional.where: Switzerland
+regional.text:  For a pocket, Swiss speakers commonly say der Sack or der Hosensack instead of Tasche.
+trick:          TASCHE sounds like TAH-sheh, close to stash: you stash cash in your pocket.
+
+# The draft this file was made from. Do not change it.
+draft: 8596011361e7698d

@@ -1,0 +1,21 @@
+{
+  "id": "laut-loud",
+  "rank": 465,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "laut",
+  "en": "loud",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Die Musik ist mir zu laut.",
+    "en": "The music is too loud for me."
+  },
+  "regional": null,
+  "trick": "LAUT sounds like \"lout\", and a lout is always loud.",
+  "image": "/deck-de/img/laut-loud.webp",
+  "audio": {
+    "word": "/deck-de/audio/laut-loud.word.mp3",
+    "sentence": "/deck-de/audio/laut-loud.sentence.mp3"
+  }
+}

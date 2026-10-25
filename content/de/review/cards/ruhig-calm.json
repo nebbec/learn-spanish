@@ -1,0 +1,17 @@
+{
+  "id": "ruhig-calm",
+  "rank": 350,
+  "word": "ruhig",
+  "draft": "e16e99efd8385ccd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "calm, quiet, peaceful",
+    "example": "Stay calm, everything's fine."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:43.792Z"
+}

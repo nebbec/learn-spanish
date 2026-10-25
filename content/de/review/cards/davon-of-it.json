@@ -1,0 +1,17 @@
+{
+  "id": "davon-of-it",
+  "rank": 224,
+  "word": "davon",
+  "draft": "b29573e7f05f26f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "of it, of that; from it; about it",
+    "example": "Do you want some of it?"
+  },
+  "note": "Davon also commonly means about it (davon reden) and away (in verbs like davonlaufen), but the prompt clearly targets the of it sense, so that is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:47.420Z"
+}

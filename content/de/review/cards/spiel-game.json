@@ -1,0 +1,17 @@
+{
+  "id": "spiel-game",
+  "rank": 528,
+  "word": "Spiel",
+  "draft": "d20377def0e97786",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "game (also a sports match)",
+    "example": "The game starts at eight."
+  },
+  "note": "The example most likely means a sports match, which German Spiel also covers even though the shared Spanish picture (juego) leaves matches out, so the picture still fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:25.631Z"
+}

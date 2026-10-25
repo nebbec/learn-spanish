@@ -1,0 +1,21 @@
+{
+  "id": "anders-different",
+  "rank": 403,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "anders",
+  "en": "different, differently",
+  "hint": "not the same, as in it's different now",
+  "grammar": null,
+  "example": {
+    "target": "Heute ist alles anders.",
+    "en": "Today everything is different."
+  },
+  "regional": null,
+  "trick": "ANDERS sounds like and others: the others are always different.",
+  "image": "/deck-de/img/anders-different.webp",
+  "audio": {
+    "word": "/deck-de/audio/anders-different.word.mp3",
+    "sentence": "/deck-de/audio/anders-different.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "erste-first",
+  "rank": 219,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "erste",
+  "en": "first",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist mein erster Tag hier.",
+    "en": "This is my first day here."
+  },
+  "regional": null,
+  "trick": "ERSTE sounds like AIR-stuh, as in the old English word erstwhile: erst once meant at first, earliest.",
+  "image": "/deck-de/img/erste-first.webp",
+  "audio": {
+    "word": "/deck-de/audio/erste-first.word.mp3",
+    "sentence": "/deck-de/audio/erste-first.sentence.mp3"
+  }
+}

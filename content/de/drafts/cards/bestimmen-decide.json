@@ -1,0 +1,33 @@
+{
+  "id": "bestimmen-decide",
+  "rank": 620,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bestimmen",
+  "en": "to decide",
+  "hint": "be the one in charge, not entscheiden",
+  "grammar": {
+    "present": {
+      "ich": "bestimme",
+      "du": "bestimmst",
+      "er": "bestimmt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bestimmt"
+    }
+  },
+  "example": {
+    "target": "Hier bestimme ich, nicht du.",
+    "en": "I'm the one who decides here, not you."
+  },
+  "regional": null,
+  "trick": "BESTIMMEN hides Stimme, German for voice: whoever has the voice gets to decide.",
+  "image": "/deck-de/img/bestimmen-decide.webp",
+  "audio": {
+    "word": "/deck-de/audio/bestimmen-decide.word.mp3",
+    "sentence": "/deck-de/audio/bestimmen-decide.sentence.mp3"
+  }
+}

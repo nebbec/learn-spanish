@@ -1,0 +1,33 @@
+{
+  "id": "werfen-throw",
+  "rank": 481,
+  "kind": "content",
+  "pos": "verb",
+  "target": "werfen",
+  "en": "to throw",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "werfe",
+      "du": "wirfst",
+      "er": "wirft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geworfen"
+    }
+  },
+  "example": {
+    "target": "Du wirfst den Ball zu weit.",
+    "en": "You're throwing the ball too far."
+  },
+  "regional": null,
+  "trick": "WERFEN starts like VAIRF, close to verve: you throw a ball with verve.",
+  "image": "/deck-de/img/werfen-throw.webp",
+  "audio": {
+    "word": "/deck-de/audio/werfen-throw.word.mp3",
+    "sentence": "/deck-de/audio/werfen-throw.sentence.mp3"
+  }
+}

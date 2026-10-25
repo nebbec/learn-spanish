@@ -1,0 +1,21 @@
+{
+  "id": "sobald-as-soon-as",
+  "rank": 655,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "sobald",
+  "en": "call me [as soon as] you're home",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ruf mich an, sobald du zu Hause bist.",
+    "en": "Call me as soon as you're home."
+  },
+  "regional": null,
+  "trick": "SOBALD is so plus bald, German for soon: picture a man who goes bald as soon as he hears the news.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/sobald-as-soon-as.word.mp3",
+    "sentence": "/deck-de/audio/sobald-as-soon-as.sentence.mp3"
+  }
+}

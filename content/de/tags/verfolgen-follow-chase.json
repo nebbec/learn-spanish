@@ -1,0 +1,14 @@
+{
+  "id": "verfolgen-follow-chase",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3243c69ce7bda8fd",
+  "group": "#751 verfolgen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:48.713Z"
+}

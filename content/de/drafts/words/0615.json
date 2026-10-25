@@ -1,0 +1,15 @@
+{
+  "rank": 615,
+  "word": "stören",
+  "cards": [
+    "stoeren-bother"
+  ],
+  "skip": null,
+  "sameAs": {
+    "stoeren-bother": "molestar-bother"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:47.032Z"
+}

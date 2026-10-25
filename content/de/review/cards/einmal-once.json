@@ -1,0 +1,17 @@
+{
+  "id": "einmal-once",
+  "rank": 280,
+  "word": "einmal",
+  "draft": "79583b84b8b7ebe9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "once, one time",
+    "example": "I've only been to Berlin once."
+  },
+  "note": "Einmal also has very common everyday uses as \"noch einmal\" (again) and as the softening particle in \"Hör einmal\" (usually shortened to mal), which the editor may want to cover on another card later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:03.469Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "platz-room-space",
+  "rank": 457,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Platz",
+  "en": "room, space",
+  "hint": "free space, as in no room left",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": null
+  },
+  "example": {
+    "target": "Wir haben keinen Platz mehr im Auto.",
+    "en": "We have no room left in the car."
+  },
+  "regional": null,
+  "trick": "PLATZ sounds like plots: an empty plot of land means there is still room to build.",
+  "image": "/deck-de/img/platz-room-space.webp",
+  "audio": {
+    "word": "/deck-de/audio/platz-room-space.word.mp3",
+    "sentence": "/deck-de/audio/platz-room-space.sentence.mp3"
+  }
+}

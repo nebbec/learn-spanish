@@ -1,0 +1,17 @@
+{
+  "id": "persoenlich-personal",
+  "rank": 617,
+  "word": "persönlich",
+  "draft": "057e5fb0cfbc0055",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "personal (also, as an adverb: personally, in person)",
+    "example": "That is a personal question."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:55.513Z"
+}

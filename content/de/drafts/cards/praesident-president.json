@@ -1,0 +1,25 @@
+{
+  "id": "praesident-president",
+  "rank": 742,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Präsident",
+  "en": "president",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Präsidenten"
+  },
+  "example": {
+    "target": "Der Präsident hält heute eine Rede.",
+    "en": "The president is giving a speech today."
+  },
+  "regional": null,
+  "trick": "PRÄSIDENT sounds like preh-zee-DENT, almost the English word president with the stress on the end.",
+  "image": "/deck-de/img/praesident-president.webp",
+  "audio": {
+    "word": "/deck-de/audio/praesident-president.word.mp3",
+    "sentence": "/deck-de/audio/praesident-president.sentence.mp3"
+  }
+}

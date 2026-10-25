@@ -1,0 +1,25 @@
+{
+  "id": "dollar-dollar",
+  "rank": 514,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Dollar",
+  "en": "dollar",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Dollar"
+  },
+  "example": {
+    "target": "Das T-Shirt kostet zehn Dollar.",
+    "en": "The T-shirt costs ten dollars."
+  },
+  "regional": null,
+  "trick": "DOLLAR sounds almost exactly like English dollar, with the stress on DOL, and it means the same money.",
+  "image": "/deck-de/img/dollar-dollar.webp",
+  "audio": {
+    "word": "/deck-de/audio/dollar-dollar.word.mp3",
+    "sentence": "/deck-de/audio/dollar-dollar.sentence.mp3"
+  }
+}

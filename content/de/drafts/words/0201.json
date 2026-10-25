@@ -1,0 +1,17 @@
+{
+  "rank": 201,
+  "word": "natürlich",
+  "cards": [
+    "natuerlich-of-course",
+    "natuerlich-natural"
+  ],
+  "skip": null,
+  "sameAs": {
+    "natuerlich-of-course": "claro-of-course",
+    "natuerlich-natural": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:26.338Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "beweis-proof",
+  "rank": 727,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Beweis",
+  "en": "proof, evidence",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Beweise"
+  },
+  "example": {
+    "target": "Hast du Beweise dafür?",
+    "en": "Do you have proof of that?"
+  },
+  "regional": null,
+  "trick": "BEWEIS sounds like \"be-VICE\": to show someone's vice in court, you need proof.",
+  "image": "/deck-de/img/beweis-proof.webp",
+  "audio": {
+    "word": "/deck-de/audio/beweis-proof.word.mp3",
+    "sentence": "/deck-de/audio/beweis-proof.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gott-god",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0b5c847260cbc97c",
+  "group": "#137 Gott",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:39.328Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "anders-different",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use anders for different(ly) on its own; andere means other, before a noun.",
+  "draft": "b5fff5f0f253eb5e",
+  "group": "#403 anders",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:41.423Z"
+}

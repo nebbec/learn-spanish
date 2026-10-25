@@ -1,0 +1,14 @@
+{
+  "id": "entscheiden-decide",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use entscheiden for making a choice; bestimmen when you are the one in charge who decides.",
+  "draft": "310c24f2334e61d6",
+  "group": "#584 entscheiden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:59.105Z"
+}

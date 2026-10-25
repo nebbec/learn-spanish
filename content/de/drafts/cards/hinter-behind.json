@@ -1,0 +1,21 @@
+{
+  "id": "hinter-behind",
+  "rank": 366,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "hinter",
+  "en": "the cat is [behind] the sofa",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Die Katze schläft hinter dem Sofa.",
+    "en": "The cat is sleeping behind the sofa."
+  },
+  "regional": null,
+  "trick": "HINTER sounds like hinder or hind, as in an animal's hind legs, which come behind.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/hinter-behind.word.mp3",
+    "sentence": "/deck-de/audio/hinter-behind.sentence.mp3"
+  }
+}

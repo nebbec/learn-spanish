@@ -1,0 +1,37 @@
+# laufen-go-well · rank 199 · laufen
+#
+# Why it was flagged:
+#   - One right answer: The prompt literally says to go, and the hint only says how things are going, so gehen (Wie geht's bei der Arbeit?, Es ist gut gegangen) is also a right answer, and klappen comes close; nothing rules them out. Suggested fix: hint: how things are going, as in how's it going at work? (not gehen or klappen)
+# Reviewer's note (not a reason to flag): I left sameAs as null: andar-be-doing (¿Cómo andas?) asks how a person is doing, not how things are going, and funcionar-work is about machines or plans working.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 laufen-go-well
+kind:               content
+pos:                verb
+target:             laufen
+en:                 to go (well or badly)
+hint:               how things are going, as in how's it going at work? (not gehen or klappen)
+ich:                laufe
+du:                 läufst
+er:                 läuft
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gelaufen
+example.target:     Wie läuft's bei der Arbeit?
+example.en:         How's it going at work?
+regional.where:
+regional.text:
+trick:              LAUFEN also means run, and English says things are running smoothly when they go well.
+
+# The draft this file was made from. Do not change it.
+draft: f75e8cad31a8b21d

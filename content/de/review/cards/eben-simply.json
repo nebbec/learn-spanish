@@ -1,0 +1,23 @@
+{
+  "id": "eben-simply",
+  "rank": 411,
+  "word": "eben",
+  "draft": "9b0e7f1a989dc2e5",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In this resigned-acceptance sense, eben is the northern and central German particle; in Austria and Switzerland people usually say halt instead, so regional should not be null.",
+      "fix": "regional: { where: \"Austria, Switzerland\", text: \"halt is the usual particle here (Das ist halt so); eben in this sense sounds northern German.\" }"
+    }
+  ],
+  "back": {
+    "target": "just, simply (modal particle: that's the way things are, no way around it)",
+    "example": "That's just the way it is."
+  },
+  "note": "The hint rules out halt and einfach, and \"the particle\" rules out the two-word nun mal (Das ist nun mal so), so only eben is left.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:56.973Z"
+}

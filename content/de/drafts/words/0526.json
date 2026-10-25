@@ -1,0 +1,15 @@
+{
+  "rank": 526,
+  "word": "zehn",
+  "cards": [
+    "zehn-ten"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zehn-ten": "diez-ten"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:01.133Z"
+}

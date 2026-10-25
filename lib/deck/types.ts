@@ -48,6 +48,9 @@ export type Article = (typeof ARTICLES)[number];
 export const GERMAN_ARTICLES = { m: "der", f: "die", n: "das" } as const;
 export type GermanGender = keyof typeof GERMAN_ARTICLES;
 export type GermanArticle = (typeof GERMAN_ARTICLES)[GermanGender];
+/** A German noun's article by its gender, with "pl" for a noun used only in the plural (die Leute). */
+export const GERMAN_NOUN_ARTICLES = { ...GERMAN_ARTICLES, pl: "die" } as const;
+export type GermanNounGender = keyof typeof GERMAN_NOUN_ARTICLES;
 
 /** Spanish nouns. `target` already starts with the article; gender is stored separately (el agua is feminine). */
 export interface NounGrammar {
@@ -57,9 +60,13 @@ export interface NounGrammar {
 
 /** German nouns. `target` starts with the article, which matches the gender (der Tisch). */
 export interface GermanNounGrammar {
-  gender: GermanGender;
+  /** "pl" for a noun used only in the plural (die Leute, die Eltern). */
+  gender: GermanNounGender;
   article: GermanArticle;
-  /** The plural with its article ("die Tische"), or null for a noun with none in common use. Shown, never rated. */
+  /**
+   * The plural with its article ("die Tische"), or null for a noun with none in common use, and always null
+   * for a plural-only noun. Shown, never rated.
+   */
   plural: string | null;
 }
 

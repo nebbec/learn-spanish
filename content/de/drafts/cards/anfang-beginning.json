@@ -1,0 +1,25 @@
+{
+  "id": "anfang-beginning",
+  "rank": 712,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Anfang",
+  "en": "beginning",
+  "hint": "the everyday word, not Beginn",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Anfänge"
+  },
+  "example": {
+    "target": "Am Anfang war alles schwer.",
+    "en": "At the beginning, everything was hard."
+  },
+  "regional": null,
+  "trick": "ANFANG sounds like \"an fang\": in a vampire story, the beginning is the moment the fang first bites.",
+  "image": "/deck-de/img/anfang-beginning.webp",
+  "audio": {
+    "word": "/deck-de/audio/anfang-beginning.word.mp3",
+    "sentence": "/deck-de/audio/anfang-beginning.sentence.mp3"
+  }
+}

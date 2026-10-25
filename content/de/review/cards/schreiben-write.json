@@ -1,0 +1,17 @@
+{
+  "id": "schreiben-write",
+  "rank": 315,
+  "word": "schreiben",
+  "draft": "6029682cbf478109",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to write",
+    "example": "I'll write you a message later."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:02.255Z"
+}

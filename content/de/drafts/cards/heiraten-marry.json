@@ -1,0 +1,33 @@
+{
+  "id": "heiraten-marry",
+  "rank": 407,
+  "kind": "content",
+  "pos": "verb",
+  "target": "heiraten",
+  "en": "to marry",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "heirate",
+      "du": "heiratest",
+      "er": "heiratet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geheiratet"
+    }
+  },
+  "example": {
+    "target": "Wir heiraten im Sommer.",
+    "en": "We're getting married in the summer."
+  },
+  "regional": null,
+  "trick": "HEIRATEN starts with HEI, said like high: newlyweds are on a high on the day they marry.",
+  "image": "/deck-de/img/heiraten-marry.webp",
+  "audio": {
+    "word": "/deck-de/audio/heiraten-marry.word.mp3",
+    "sentence": "/deck-de/audio/heiraten-marry.sentence.mp3"
+  }
+}

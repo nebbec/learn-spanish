@@ -1,0 +1,17 @@
+{
+  "id": "weiter-further-on",
+  "rank": 216,
+  "word": "weiter",
+  "draft": "211f5fd829853e01",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "further, on, onward (continuing)",
+    "example": "Just keep going, you can do it!"
+  },
+  "note": "The example uses weiter as the separable prefix of weitermachen, which is its most typical use, and weiter is also the comparative of weit (farther), which still gives the same answer for further.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:06.885Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "menge-crowd",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "06bc8257f3539029",
+  "group": "#518 Menge",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:38.082Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "nachdem-after",
+  "rank": 618,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "nachdem",
+  "en": "I'll call you [after] I've eaten",
+  "hint": "joins two clauses, not nach",
+  "grammar": null,
+  "example": {
+    "target": "Ich rufe dich an, nachdem ich gegessen habe.",
+    "en": "I'll call you after I've eaten."
+  },
+  "regional": null,
+  "trick": "NACHDEM sounds like 'knock them': only after you knock them on the door do they open.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/nachdem-after.word.mp3",
+    "sentence": "/deck-de/audio/nachdem-after.sentence.mp3"
+  }
+}

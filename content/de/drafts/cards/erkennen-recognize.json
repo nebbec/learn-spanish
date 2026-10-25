@@ -1,0 +1,33 @@
+{
+  "id": "erkennen-recognize",
+  "rank": 546,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erkennen",
+  "en": "to recognize",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "erkenne",
+      "du": "erkennst",
+      "er": "erkennt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erkannt"
+    }
+  },
+  "example": {
+    "target": "Erkennst du mich nicht?",
+    "en": "Don't you recognize me?"
+  },
+  "regional": null,
+  "trick": "erKENNen has KEN in it: when someone comes back within your ken, you recognize them.",
+  "image": "/deck-de/img/erkennen-recognize.webp",
+  "audio": {
+    "word": "/deck-de/audio/erkennen-recognize.word.mp3",
+    "sentence": "/deck-de/audio/erkennen-recognize.sentence.mp3"
+  }
+}

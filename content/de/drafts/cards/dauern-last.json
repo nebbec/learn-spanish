@@ -1,0 +1,33 @@
+{
+  "id": "dauern-last",
+  "rank": 449,
+  "kind": "content",
+  "pos": "verb",
+  "target": "dauern",
+  "en": "to last",
+  "hint": "to take time, how long",
+  "grammar": {
+    "present": {
+      "ich": "dauere",
+      "du": "dauerst",
+      "er": "dauert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedauert"
+    }
+  },
+  "example": {
+    "target": "Das dauert nur fünf Minuten.",
+    "en": "That only takes five minutes."
+  },
+  "regional": null,
+  "trick": "DAUERN, said DOW-ern, is related to duration and endure: how long something lasts.",
+  "image": "/deck-de/img/dauern-last.webp",
+  "audio": {
+    "word": "/deck-de/audio/dauern-last.word.mp3",
+    "sentence": "/deck-de/audio/dauern-last.sentence.mp3"
+  }
+}

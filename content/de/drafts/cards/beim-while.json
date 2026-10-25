@@ -1,0 +1,21 @@
+{
+  "id": "beim-while",
+  "rank": 288,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "beim",
+  "en": "don't talk [while] eating",
+  "hint": "one word before a noun: bei + dem",
+  "grammar": null,
+  "example": {
+    "target": "Beim Essen schaue ich gern Serien.",
+    "en": "I like watching shows while eating."
+  },
+  "regional": null,
+  "trick": "BEIM rhymes with time: at the time you're doing something.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/beim-while.word.mp3",
+    "sentence": "/deck-de/audio/beim-while.sentence.mp3"
+  }
+}

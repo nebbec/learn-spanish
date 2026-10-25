@@ -1,0 +1,25 @@
+{
+  "id": "traum-dream",
+  "rank": 521,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Traum",
+  "en": "dream",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Träume"
+  },
+  "example": {
+    "target": "Ich hatte heute Nacht einen komischen Traum.",
+    "en": "I had a weird dream last night."
+  },
+  "regional": null,
+  "trick": "TRAUM sounds like a short TROW-m, almost trauma: a bad dream can feel like a little trauma.",
+  "image": "/deck-de/img/traum-dream.webp",
+  "audio": {
+    "word": "/deck-de/audio/traum-dream.word.mp3",
+    "sentence": "/deck-de/audio/traum-dream.sentence.mp3"
+  }
+}

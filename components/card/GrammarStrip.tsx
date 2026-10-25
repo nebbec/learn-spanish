@@ -120,7 +120,7 @@ function SpanishNounStrip({ grammar }: { grammar: NounGrammar }) {
   );
 }
 
-/** "der Tisch · die Tische", or "der Januar · no plural". The plural is shown, never rated. */
+/** "der Tisch · die Tische", "der Januar · no plural" or "die Leute · plural only". The plural is shown, never rated. */
 function GermanNounStrip({ target, grammar }: { target: string; grammar: GermanNounGrammar }) {
   return (
     <p data-testid="grammar" data-variant="noun" className="font-bold">
@@ -134,7 +134,7 @@ function GermanNounStrip({ target, grammar }: { target: string; grammar: GermanN
         </span>
       ) : (
         <span data-testid="plural" className="font-normal text-ink-soft">
-          no plural
+          {grammar.gender === "pl" ? "plural only" : "no plural"}
         </span>
       )}
     </p>

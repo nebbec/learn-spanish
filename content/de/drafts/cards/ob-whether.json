@@ -1,0 +1,21 @@
+{
+  "id": "ob-whether",
+  "rank": 177,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "ob",
+  "en": "I don't know [if] he's coming",
+  "hint": "whether, not a condition",
+  "grammar": null,
+  "example": {
+    "target": "Weißt du, ob Anna heute kommt?",
+    "en": "Do you know if Anna is coming today?"
+  },
+  "regional": null,
+  "trick": "OB sounds like 'up', as in 'it's up in the air' whether it will happen or not.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ob-whether.word.mp3",
+    "sentence": "/deck-de/audio/ob-whether.sentence.mp3"
+  }
+}

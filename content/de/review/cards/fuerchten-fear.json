@@ -1,0 +1,17 @@
+{
+  "id": "fuerchten-fear",
+  "rank": 646,
+  "word": "fürchten",
+  "draft": "0fcf774c3280e506",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fear, to be afraid of",
+    "example": "I'm afraid you're right."
+  },
+  "note": "In everyday speech \"Angst haben (vor)\" is more common than fürchten for being afraid of something, and the example uses the polite \"I'm afraid\" sense, which is also the most frequent use in subtitles; no change needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:23.858Z"
+}

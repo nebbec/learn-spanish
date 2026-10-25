@@ -1,0 +1,23 @@
+{
+  "id": "gleich-in-a-moment",
+  "rank": 173,
+  "word": "gleich",
+  "draft": "ac82e60b63ae9f8d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint lists 'soon', which is the usual gloss of bald, so a learner could fairly answer bald; the hint rules out sofort but not bald.",
+      "fix": "hint: very soon, within a minute or two; not sofort or bald"
+    }
+  ],
+  "back": {
+    "target": "in a moment, right away, shortly (adverb of time)",
+    "example": "Wait a moment, I'm coming right away!"
+  },
+  "note": "The Spanish card pronto-soon is close but means 'soon' in general rather than 'in a moment', so null is the right sameAs.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:05.935Z"
+}

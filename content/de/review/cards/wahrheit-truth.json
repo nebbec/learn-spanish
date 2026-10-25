@@ -1,0 +1,17 @@
+{
+  "id": "wahrheit-truth",
+  "rank": 409,
+  "word": "Wahrheit",
+  "draft": "8d5c4a7abff7ffeb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the truth",
+    "example": "Just tell me the truth."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:38.758Z"
+}

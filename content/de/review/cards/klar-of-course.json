@@ -1,0 +1,17 @@
+{
+  "id": "klar-of-course",
+  "rank": 158,
+  "word": "klar",
+  "draft": "2022348c5d790882",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "of course, sure (as a reply)",
+    "example": "Are you coming along? Sure!"
+  },
+  "note": "Sicher and logo are casual replies close to this, but with the hint klar is clearly the expected answer; the editor could also mention the common reinforced form na klar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:30.180Z"
+}

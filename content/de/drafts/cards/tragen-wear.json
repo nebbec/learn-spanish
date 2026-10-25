@@ -1,0 +1,33 @@
+{
+  "id": "tragen-wear",
+  "rank": 341,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tragen",
+  "en": "to wear",
+  "hint": "clothes, glasses",
+  "grammar": {
+    "present": {
+      "ich": "trage",
+      "du": "trägst",
+      "er": "trägt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getragen"
+    }
+  },
+  "example": {
+    "target": "Du trägst heute eine schöne Jacke.",
+    "en": "You're wearing a nice jacket today."
+  },
+  "regional": null,
+  "trick": "TRAH-gen sounds a bit like dragon: picture a dragon wearing a big winter coat.",
+  "image": "/deck-de/img/tragen-wear.webp",
+  "audio": {
+    "word": "/deck-de/audio/tragen-wear.word.mp3",
+    "sentence": "/deck-de/audio/tragen-wear.sentence.mp3"
+  }
+}

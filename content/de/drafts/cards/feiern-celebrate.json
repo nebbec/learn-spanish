@@ -1,0 +1,33 @@
+{
+  "id": "feiern-celebrate",
+  "rank": 714,
+  "kind": "content",
+  "pos": "verb",
+  "target": "feiern",
+  "en": "to celebrate",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "feiere",
+      "du": "feierst",
+      "er": "feiert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefeiert"
+    }
+  },
+  "example": {
+    "target": "Heute Abend feiern wir deinen Geburtstag!",
+    "en": "Tonight we're celebrating your birthday!"
+  },
+  "regional": null,
+  "trick": "FEIERN sounds like \"FIRE-n\": you celebrate with fireworks and a big bonfire.",
+  "image": "/deck-de/img/feiern-celebrate.webp",
+  "audio": {
+    "word": "/deck-de/audio/feiern-celebrate.word.mp3",
+    "sentence": "/deck-de/audio/feiern-celebrate.sentence.mp3"
+  }
+}

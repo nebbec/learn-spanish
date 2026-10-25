@@ -1,0 +1,17 @@
+{
+  "id": "planen-plan",
+  "rank": 517,
+  "word": "planen",
+  "draft": "2ee3c558497e15b7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to plan",
+    "example": "What are you planning for the weekend?"
+  },
+  "note": "vorhaben also means to plan in the sense of to intend, but the standard dictionary answer for the bare prompt \"to plan\" is planen, so the card does not need a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:18.156Z"
+}

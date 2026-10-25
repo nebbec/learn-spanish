@@ -1,0 +1,25 @@
+{
+  "id": "partner-partner",
+  "rank": 788,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Partner",
+  "en": "partner",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Partner"
+  },
+  "example": {
+    "target": "Das ist mein Partner bei der Polizei.",
+    "en": "This is my partner on the police force."
+  },
+  "regional": null,
+  "trick": "PARTNER sounds just like English partner, only with a softer German r: your partner is your teammate in work or life.",
+  "image": "/deck-de/img/partner-partner.webp",
+  "audio": {
+    "word": "/deck-de/audio/partner-partner.word.mp3",
+    "sentence": "/deck-de/audio/partner-partner.sentence.mp3"
+  }
+}

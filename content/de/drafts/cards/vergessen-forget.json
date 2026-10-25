@@ -1,0 +1,33 @@
+{
+  "id": "vergessen-forget",
+  "rank": 220,
+  "kind": "content",
+  "pos": "verb",
+  "target": "vergessen",
+  "en": "to forget",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er": "vergisst"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vergessen"
+    }
+  },
+  "example": {
+    "target": "Vergiss deinen Schlüssel nicht!",
+    "en": "Don't forget your key!"
+  },
+  "regional": null,
+  "trick": "VERGESSEN sounds like fair GUESSin': once you forget something, all you can do is guess.",
+  "image": "/deck-de/img/vergessen-forget.webp",
+  "audio": {
+    "word": "/deck-de/audio/vergessen-forget.word.mp3",
+    "sentence": "/deck-de/audio/vergessen-forget.sentence.mp3"
+  }
+}

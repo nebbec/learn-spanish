@@ -1,0 +1,21 @@
+{
+  "id": "natuerlich-of-course",
+  "rank": 201,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "natürlich",
+  "en": "of course",
+  "hint": "the longer word, not klar",
+  "grammar": null,
+  "example": {
+    "target": "Natürlich komme ich mit!",
+    "en": "Of course I'm coming along!"
+  },
+  "regional": null,
+  "trick": "NATÜRLICH sounds like naturally, and in English naturally also means of course.",
+  "image": "/deck-de/img/natuerlich-of-course.webp",
+  "audio": {
+    "word": "/deck-de/audio/natuerlich-of-course.word.mp3",
+    "sentence": "/deck-de/audio/natuerlich-of-course.sentence.mp3"
+  }
+}

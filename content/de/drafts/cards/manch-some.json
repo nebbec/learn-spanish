@@ -1,0 +1,21 @@
+{
+  "id": "manch-some",
+  "rank": 792,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "manch",
+  "en": "[some] days are just hard",
+  "hint": "some but not all, many a; not einige",
+  "grammar": null,
+  "example": {
+    "target": "Manche Leute verstehen das einfach nicht.",
+    "en": "Some people just don't get it."
+  },
+  "regional": null,
+  "trick": "MANCH sounds like \"munch\": some days you munch a lot, some days you don't.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/manch-some.word.mp3",
+    "sentence": "/deck-de/audio/manch-some.sentence.mp3"
+  }
+}

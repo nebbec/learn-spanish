@@ -1,0 +1,17 @@
+{
+  "id": "gefaehrlich-dangerous",
+  "rank": 597,
+  "word": "gefährlich",
+  "draft": "68c5fb18390e2053",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dangerous",
+    "example": "Watch out, the street is dangerous."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:08.328Z"
+}

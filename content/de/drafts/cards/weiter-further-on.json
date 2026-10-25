@@ -1,0 +1,21 @@
+{
+  "id": "weiter-further-on",
+  "rank": 216,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "weiter",
+  "en": "further, on",
+  "hint": "as in keep going, go on",
+  "grammar": null,
+  "example": {
+    "target": "Mach einfach weiter, du schaffst das!",
+    "en": "Just keep going, you can do it!"
+  },
+  "regional": null,
+  "trick": "WEITER sounds like VY-ter, close to fighter: a fighter never stops and keeps going on, further and further.",
+  "image": "/deck-de/img/weiter-further-on.webp",
+  "audio": {
+    "word": "/deck-de/audio/weiter-further-on.word.mp3",
+    "sentence": "/deck-de/audio/weiter-further-on.sentence.mp3"
+  }
+}

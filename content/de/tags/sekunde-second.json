@@ -1,0 +1,14 @@
+{
+  "id": "sekunde-second",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "31b4b23edea70207",
+  "group": "#540 Sekunde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:25.926Z"
+}

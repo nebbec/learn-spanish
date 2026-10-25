@@ -1,0 +1,14 @@
+{
+  "id": "finden-think-opinion",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use finden to judge something you know first-hand; glauben for what you believe is true.",
+  "draft": "10691acc627e056e",
+  "group": "#95 finden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:28.124Z"
+}

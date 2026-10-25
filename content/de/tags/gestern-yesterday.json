@@ -1,0 +1,14 @@
+{
+  "id": "gestern-yesterday",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3ae1d7e7897c4c93",
+  "group": "#397 gestern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:29.593Z"
+}

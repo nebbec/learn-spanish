@@ -1,0 +1,14 @@
+{
+  "id": "derselbe-the-same",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use derselbe for the very same one; gleich for things that are alike.",
+  "draft": "b92055cc5f98bb2b",
+  "group": "#469 derselbe",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:56.051Z"
+}

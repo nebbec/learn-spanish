@@ -1,0 +1,15 @@
+{
+  "rank": 176,
+  "word": "durch",
+  "cards": [
+    "durch-through"
+  ],
+  "skip": null,
+  "sameAs": {
+    "durch-through": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:27.699Z"
+}

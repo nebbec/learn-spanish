@@ -1,0 +1,17 @@
+{
+  "id": "sofort-immediately",
+  "rank": 277,
+  "word": "sofort",
+  "draft": "816139df587992a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "immediately, at once, right away",
+    "example": "Come here immediately!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:44.568Z"
+}

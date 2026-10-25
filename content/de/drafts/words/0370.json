@@ -1,0 +1,15 @@
+{
+  "rank": 370,
+  "word": "ziemlich",
+  "cards": [
+    "ziemlich-quite"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ziemlich-quite": "bastante-quite"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:18.054Z"
+}

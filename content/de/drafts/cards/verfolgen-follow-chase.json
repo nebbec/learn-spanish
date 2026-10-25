@@ -1,0 +1,33 @@
+{
+  "id": "verfolgen-follow-chase",
+  "rank": 751,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verfolgen",
+  "en": "to follow",
+  "hint": "chase, tail someone",
+  "grammar": {
+    "present": {
+      "ich": "verfolge",
+      "du": "verfolgst",
+      "er": "verfolgt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verfolgt"
+    }
+  },
+  "example": {
+    "target": "Ich glaube, wir werden verfolgt.",
+    "en": "I think we're being followed."
+  },
+  "regional": null,
+  "trick": "verFOLGen sounds a bit like fair-FOLLOW-en: someone follows you closely, step for step.",
+  "image": "/deck-de/img/verfolgen-follow-chase.webp",
+  "audio": {
+    "word": "/deck-de/audio/verfolgen-follow-chase.word.mp3",
+    "sentence": "/deck-de/audio/verfolgen-follow-chase.sentence.mp3"
+  }
+}

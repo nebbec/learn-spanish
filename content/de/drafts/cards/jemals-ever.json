@@ -1,0 +1,21 @@
+{
+  "id": "jemals-ever",
+  "rank": 750,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "jemals",
+  "en": "ever",
+  "hint": "one word, at any time",
+  "grammar": null,
+  "example": {
+    "target": "Hast du jemals so etwas gesehen?",
+    "en": "Have you ever seen anything like that?"
+  },
+  "regional": null,
+  "trick": "JEMALS sounds like yay-malls: have you ever yelled yay at the malls?",
+  "image": "/deck-de/img/jemals-ever.webp",
+  "audio": {
+    "word": "/deck-de/audio/jemals-ever.word.mp3",
+    "sentence": "/deck-de/audio/jemals-ever.sentence.mp3"
+  }
+}

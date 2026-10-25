@@ -1,0 +1,17 @@
+{
+  "id": "behandeln-treat",
+  "rank": 778,
+  "word": "behandeln",
+  "draft": "174ce54cc00f7787",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to treat (a person in some way; a patient medically; also a topic)",
+    "example": "Why are you treating me like this?"
+  },
+  "note": "The participle behandelt correctly has no ge- because of the inseparable prefix be-, and the hand in the trick also matches where the word comes from.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:13.177Z"
+}

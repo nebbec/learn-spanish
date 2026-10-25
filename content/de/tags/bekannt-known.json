@@ -1,0 +1,14 @@
+{
+  "id": "bekannt-known",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "efbf9b18bea569a3",
+  "group": "#785 bekannt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:50.239Z"
+}

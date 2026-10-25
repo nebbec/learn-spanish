@@ -1,0 +1,14 @@
+{
+  "id": "spass-joke",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Spaß for kidding around (nur Spaß); Witz for a joke you tell.",
+  "draft": "db4fd72f64a018b9",
+  "group": "#413 Spaß",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:59.674Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "boden-floor",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9c9dac6b4ac870b2",
+  "group": "#670 Boden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:02.994Z"
+}

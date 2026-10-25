@@ -1,0 +1,33 @@
+{
+  "id": "halten-hold",
+  "rank": 156,
+  "kind": "content",
+  "pos": "verb",
+  "target": "halten",
+  "en": "to hold",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "halte",
+      "du": "hältst",
+      "er": "hält"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehalten"
+    }
+  },
+  "example": {
+    "target": "Kannst du mal kurz meine Tasche halten?",
+    "en": "Can you hold my bag for a second?"
+  },
+  "regional": null,
+  "trick": "HALTEN starts like hold: to hold something is to halten it.",
+  "image": "/deck-de/img/halten-hold.webp",
+  "audio": {
+    "word": "/deck-de/audio/halten-hold.word.mp3",
+    "sentence": "/deck-de/audio/halten-hold.sentence.mp3"
+  }
+}

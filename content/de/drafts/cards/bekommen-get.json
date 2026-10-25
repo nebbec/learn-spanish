@@ -1,0 +1,33 @@
+{
+  "id": "bekommen-get",
+  "rank": 192,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bekommen",
+  "en": "to get",
+  "hint": "to receive",
+  "grammar": {
+    "present": {
+      "ich": "bekomme",
+      "du": "bekommst",
+      "er": "bekommt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bekommen"
+    }
+  },
+  "example": {
+    "target": "Hast du meine Nachricht bekommen?",
+    "en": "Did you get my message?"
+  },
+  "regional": null,
+  "trick": "BEKOMMEN sounds like become but is a false friend: it means to get, like getting a present that comes to you.",
+  "image": "/deck-de/img/bekommen-get.webp",
+  "audio": {
+    "word": "/deck-de/audio/bekommen-get.word.mp3",
+    "sentence": "/deck-de/audio/bekommen-get.sentence.mp3"
+  }
+}

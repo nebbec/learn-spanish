@@ -1,0 +1,17 @@
+{
+  "id": "liebling-darling",
+  "rank": 720,
+  "word": "Liebling",
+  "draft": "2d6db19b8e5ec5b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "darling, sweetheart (also favourite)",
+    "example": "Darling, I'm home again!"
+  },
+  "note": "Liebling also often means favourite (as in Lieblingsfilm), which could get its own card later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:48.991Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "uebernehmen-take-over",
+  "rank": 602,
+  "word": "übernehmen",
+  "draft": "60134a102e7ed80c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to take over (a task, responsibility, business, shift)",
+    "example": "Can you take over my shift tomorrow?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:27.809Z"
+}

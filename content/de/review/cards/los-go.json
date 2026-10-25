@@ -1,0 +1,17 @@
+{
+  "id": "los-go",
+  "rank": 93,
+  "word": "los",
+  "draft": "270c9a37e3df63ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "go!, come on!, let's go! (a call to start or hurry up)",
+    "example": "Come on, we have to go!"
+  },
+  "note": "The hint is needed and works, because \"Auf die Plätze, fertig, los!\" (ready, set, go) points straight to los and rules out a verb like geh.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:46.983Z"
+}

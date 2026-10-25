@@ -1,0 +1,33 @@
+{
+  "id": "hassen-hate",
+  "rank": 395,
+  "kind": "content",
+  "pos": "verb",
+  "target": "hassen",
+  "en": "to hate",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "hasse",
+      "du": "hasst",
+      "er": "hasst"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehasst"
+    }
+  },
+  "example": {
+    "target": "Ich hasse Montage.",
+    "en": "I hate Mondays."
+  },
+  "regional": null,
+  "trick": "HASSEN sounds like hassle: you hate the hassle.",
+  "image": "/deck-de/img/hassen-hate.webp",
+  "audio": {
+    "word": "/deck-de/audio/hassen-hate.word.mp3",
+    "sentence": "/deck-de/audio/hassen-hate.sentence.mp3"
+  }
+}

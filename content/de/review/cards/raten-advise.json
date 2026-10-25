@@ -1,0 +1,23 @@
+{
+  "id": "raten-advise",
+  "rank": 541,
+  "word": "raten",
+  "draft": "9811b25d331cbd49",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Without a hint, \"to advise\" could just as well be answered with beraten (to advise or counsel someone) or empfehlen (to recommend), both common verbs.",
+      "fix": "hint: tell someone what you think they should do, as in I ___ you to stay; not beraten or empfehlen"
+    }
+  ],
+  "back": {
+    "target": "to advise (someone to do something), to recommend; also to guess",
+    "example": "I advise you to stay at home today."
+  },
+  "note": "The Spanish list has consejo (advice) only as a noun and no verb for to advise, so sameAs null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:24.076Z"
+}

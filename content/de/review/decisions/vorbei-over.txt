@@ -1,0 +1,30 @@
+# vorbei-over · rank 367 · vorbei
+#
+# Why it was flagged:
+#   - One right answer: The hint 'finished, done' still allows aus (Der Film ist aus, Es ist aus) and invites fertig for 'done', so vorbei is not the only right answer. Suggested fix: hint: finished, as in the movie is over (not aus or fertig)
+# Reviewer's note (not a reason to flag): The new hint also keeps this card apart from the word's other card, past/by.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             vorbei-over
+kind:           content
+pos:            adverb
+target:         vorbei
+en:             over
+hint:           finished, as in the movie is over (not aus or fertig)
+example.target: Der Film ist schon vorbei.
+example.en:     The movie is already over.
+regional.where:
+regional.text:
+trick:          VORBEI sounds like for bye: when the party is over, it is time for bye.
+
+# The draft this file was made from. Do not change it.
+draft: b8e8d31ebb2de568

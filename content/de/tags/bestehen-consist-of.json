@@ -1,0 +1,14 @@
+{
+  "id": "bestehen-consist-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d3855022aa5ce1bb",
+  "group": "#676 bestehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:14.032Z"
+}

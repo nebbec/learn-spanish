@@ -1,0 +1,17 @@
+{
+  "id": "polizei-police",
+  "rank": 351,
+  "word": "Polizei",
+  "draft": "f7062a4ec19a202e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "police (the police force)",
+    "example": "Call the police immediately!"
+  },
+  "note": "The plural is null, which is fine: \"die Polizeien\" exists but almost nobody uses it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:50.676Z"
+}

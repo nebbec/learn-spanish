@@ -1,0 +1,25 @@
+{
+  "id": "herr-gentleman",
+  "rank": 226,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Herr",
+  "en": "gentleman",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Herren"
+  },
+  "example": {
+    "target": "Der Herr da drüben möchte zahlen.",
+    "en": "The gentleman over there would like to pay."
+  },
+  "regional": null,
+  "trick": "HERR sounds like hair: a true gentleman never has a hair out of place.",
+  "image": "/deck-de/img/herr-gentleman.webp",
+  "audio": {
+    "word": "/deck-de/audio/herr-gentleman.word.mp3",
+    "sentence": "/deck-de/audio/herr-gentleman.sentence.mp3"
+  }
+}

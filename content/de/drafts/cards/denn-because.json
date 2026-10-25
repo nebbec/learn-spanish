@@ -1,0 +1,21 @@
+{
+  "id": "denn-because",
+  "rank": 99,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "denn",
+  "en": "I'm staying home, [because] I'm tired",
+  "hint": "verb stays second, not weil",
+  "grammar": null,
+  "example": {
+    "target": "Ich bleibe heute zu Hause, denn ich bin müde.",
+    "en": "I'm staying home today because I'm tired."
+  },
+  "regional": null,
+  "trick": "DENN sounds like a fox's den: I stayed in my den because I was tired.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/denn-because.word.mp3",
+    "sentence": "/deck-de/audio/denn-because.sentence.mp3"
+  }
+}

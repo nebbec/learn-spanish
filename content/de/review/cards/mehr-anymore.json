@@ -1,0 +1,17 @@
+{
+  "id": "mehr-anymore",
+  "rank": 83,
+  "word": "mehr",
+  "draft": "53154e423ae2674b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "(nicht) mehr: (not) anymore, (no) longer",
+    "example": "I don't live in Berlin anymore."
+  },
+  "note": "The hint \"after nicht\" is needed because it keeps the learner from answering with the card for \"more\"; the Spanish card ya-not-anymore has the same meaning, but sameAs stays null because this is a glue card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:51.778Z"
+}

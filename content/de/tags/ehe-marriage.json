@@ -1,0 +1,14 @@
+{
+  "id": "ehe-marriage",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1f39409d5d1cea55",
+  "group": "#794 Ehe",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:11.632Z"
+}

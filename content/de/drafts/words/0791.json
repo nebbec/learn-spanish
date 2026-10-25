@@ -1,0 +1,15 @@
+{
+  "rank": 791,
+  "word": "Augenblick",
+  "cards": [
+    "augenblick-moment"
+  ],
+  "skip": null,
+  "sameAs": {
+    "augenblick-moment": "momento-moment"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:16.903Z"
+}

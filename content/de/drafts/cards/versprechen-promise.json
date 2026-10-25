@@ -1,0 +1,33 @@
+{
+  "id": "versprechen-promise",
+  "rank": 361,
+  "kind": "content",
+  "pos": "verb",
+  "target": "versprechen",
+  "en": "to promise",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verspreche",
+      "du": "versprichst",
+      "er": "verspricht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "versprochen"
+    }
+  },
+  "example": {
+    "target": "Ich verspreche dir, ich komme zurück.",
+    "en": "I promise you I'll come back."
+  },
+  "regional": null,
+  "trick": "VERSPRECHEN sounds like fair-SHPREKH-en, holding sprechen (to speak): to promise is to speak your word fairly.",
+  "image": "/deck-de/img/versprechen-promise.webp",
+  "audio": {
+    "word": "/deck-de/audio/versprechen-promise.word.mp3",
+    "sentence": "/deck-de/audio/versprechen-promise.sentence.mp3"
+  }
+}

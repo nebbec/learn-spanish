@@ -1,0 +1,21 @@
+{
+  "id": "je-the-more",
+  "rank": 384,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "je",
+  "en": "[the] more, the better",
+  "hint": "the first word of the pair, before mehr",
+  "grammar": null,
+  "example": {
+    "target": "Je mehr, desto besser.",
+    "en": "The more, the better."
+  },
+  "regional": null,
+  "trick": "JE sounds like yeah: yeah, the more the merrier!",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/je-the-more.word.mp3",
+    "sentence": "/deck-de/audio/je-the-more.sentence.mp3"
+  }
+}

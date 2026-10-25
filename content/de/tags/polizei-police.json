@@ -1,0 +1,14 @@
+{
+  "id": "polizei-police",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f7062a4ec19a202e",
+  "group": "#351 Polizei",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:51.077Z"
+}

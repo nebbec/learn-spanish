@@ -1,0 +1,15 @@
+{
+  "rank": 315,
+  "word": "schreiben",
+  "cards": [
+    "schreiben-write"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schreiben-write": "escribir-write"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:00.166Z"
+}

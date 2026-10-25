@@ -1,0 +1,15 @@
+{
+  "rank": 480,
+  "word": "solcher",
+  "cards": [
+    "solcher-such"
+  ],
+  "skip": null,
+  "sameAs": {
+    "solcher-such": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:07.526Z"
+}

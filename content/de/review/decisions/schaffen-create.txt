@@ -1,0 +1,37 @@
+# schaffen-create · rank 253 · schaffen
+#
+# Why it was flagged:
+#   - One right answer: The hint only rules out erschaffen, so other common words for to create (kreieren, erstellen, erzeugen) also fit, and 'the short word' does not tell them apart because kreieren is just as short. Suggested fix: hint: bring into being, as in creating jobs or making room; not erschaffen, kreieren or erstellen
+# Reviewer's note (not a reason to flag): In this meaning schaffen is strong (schuf, geschaffen), but in the 'to manage' meaning it is weak (geschafft), so the two cards' Perfekt forms differ, which is worth pointing out to learners.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 schaffen-create
+kind:               content
+pos:                verb
+target:             schaffen
+en:                 to create
+hint:               bring into being, as in creating jobs or making room; not erschaffen, kreieren or erstellen
+ich:                schaffe
+du:                 schaffst
+er:                 schafft
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geschaffen
+example.target:     Er hat etwas ganz Neues geschaffen.
+example.en:         He created something completely new.
+regional.where:
+regional.text:
+trick:              SCHAFFEN sounds a bit like 'shaping': when you shape something new, you create it.
+
+# The draft this file was made from. Do not change it.
+draft: eccaeeeb43426bb4

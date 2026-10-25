@@ -1,0 +1,17 @@
+{
+  "id": "aussehen-look",
+  "rank": 486,
+  "word": "aussehen",
+  "draft": "6be211db18dd51c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to look (have a certain appearance), to appear",
+    "example": "You really look tired today."
+  },
+  "note": "The hint is needed here, because without it \"to look\" could also mean schauen, gucken or sehen; the closest Spanish card, parecer-seem, means to seem rather than to look like, so a null sameAs is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:00.246Z"
+}

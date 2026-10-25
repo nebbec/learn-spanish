@@ -1,0 +1,17 @@
+{
+  "id": "erkennen-recognize",
+  "rank": 546,
+  "word": "erkennen",
+  "draft": "9e0ef05a861feac8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to recognize (also to realize, to make out)",
+    "example": "Don't you recognize me?"
+  },
+  "note": "wiedererkennen also means to recognize, but erkennen is the common, expected answer, so no hint is needed; erkennen also often means to realize or make out, which the editor might mention in a later unit.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:51.964Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "regel-rule",
+  "rank": 755,
+  "word": "Regel",
+  "draft": "c1e85ac778db6200",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "rule",
+    "example": "You know the rules, after all."
+  },
+  "note": "The doch in the example adds a \"you know that already\" tone that the English translation drops, but the translation is still acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:32.863Z"
+}

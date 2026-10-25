@@ -1,0 +1,33 @@
+{
+  "id": "wiedersehen-see-again",
+  "rank": 445,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wiedersehen",
+  "en": "to see again",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "sehe wieder",
+      "du": "siehst wieder",
+      "er": "sieht wieder"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "wiedergesehen"
+    }
+  },
+  "example": {
+    "target": "Ich hoffe, wir sehen uns bald wieder.",
+    "en": "I hope we see each other again soon."
+  },
+  "regional": null,
+  "trick": "WIEDERSEHEN sounds like VEE-der-ZAY-en: wieder means again, and sehen sounds a bit like see, so it means see again.",
+  "image": "/deck-de/img/wiedersehen-see-again.webp",
+  "audio": {
+    "word": "/deck-de/audio/wiedersehen-see-again.word.mp3",
+    "sentence": "/deck-de/audio/wiedersehen-see-again.sentence.mp3"
+  }
+}

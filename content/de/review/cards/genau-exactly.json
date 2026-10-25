@@ -1,0 +1,17 @@
+{
+  "id": "genau-exactly",
+  "rank": 152,
+  "word": "genau",
+  "draft": "11a9e900be3c44bf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "exactly, precisely (also as a reply: exactly, right)",
+    "example": "Exactly, I thought that too."
+  },
+  "note": "exakt is a rarer, more formal synonym, but genau is clearly what a German speaker would give for \"exactly\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:54.780Z"
+}

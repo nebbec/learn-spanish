@@ -1,0 +1,25 @@
+{
+  "id": "bescheid-word-notice",
+  "rank": 752,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Bescheid",
+  "en": "word, notice (as in let me know)",
+  "hint": "used in: let someone know = jemandem ___ sagen",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Bescheide"
+  },
+  "example": {
+    "target": "Sag mir Bescheid, wenn du da bist.",
+    "en": "Let me know when you're there."
+  },
+  "regional": null,
+  "trick": "BeSCHEID sounds like be shy: don't be shy, just send word and let me know.",
+  "image": "/deck-de/img/bescheid-word-notice.webp",
+  "audio": {
+    "word": "/deck-de/audio/bescheid-word-notice.word.mp3",
+    "sentence": "/deck-de/audio/bescheid-word-notice.sentence.mp3"
+  }
+}

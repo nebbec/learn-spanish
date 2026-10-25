@@ -1,0 +1,14 @@
+{
+  "id": "dumm-stupid",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c3494201ccbcdf72",
+  "group": "#476 dumm",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:08.312Z"
+}

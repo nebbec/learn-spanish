@@ -1,0 +1,33 @@
+{
+  "id": "wuenschen-wish",
+  "rank": 432,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wünschen",
+  "en": "to wish",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "wünsche",
+      "du": "wünschst",
+      "er": "wünscht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewünscht"
+    }
+  },
+  "example": {
+    "target": "Ich wünsche dir alles Gute zum Geburtstag!",
+    "en": "I wish you a happy birthday!"
+  },
+  "regional": null,
+  "trick": "WÜNSCHEN sounds a bit like \"win-shen\": when you wish on a star, you wish to win.",
+  "image": "/deck-de/img/wuenschen-wish.webp",
+  "audio": {
+    "word": "/deck-de/audio/wuenschen-wish.word.mp3",
+    "sentence": "/deck-de/audio/wuenschen-wish.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "besorgen-get",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use besorgen when you go and get something for someone; bekommen when you receive it.",
+  "draft": "5cea260f3f8a6ffb",
+  "group": "#581 besorgen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:52.334Z"
+}

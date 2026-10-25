@@ -1,0 +1,17 @@
+{
+  "id": "versuchen-try",
+  "rank": 161,
+  "word": "versuchen",
+  "draft": "6c0d3cde17ebbf3d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to try, to attempt (also: to taste, to tempt)",
+    "example": "I'll try (it) again."
+  },
+  "note": "Colloquial probieren (\"Probier's noch mal\") can also mean attempt, but the hint \"to attempt\" points clearly to versuchen, so a future probieren card should get a hint like \"to try out, to taste\" to keep the two apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:44.507Z"
+}

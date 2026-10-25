@@ -1,0 +1,17 @@
+{
+  "rank": 125,
+  "word": "jeder",
+  "cards": [
+    "jeder-every",
+    "jeder-everyone"
+  ],
+  "skip": null,
+  "sameAs": {
+    "jeder-every": null,
+    "jeder-everyone": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:51.358Z"
+}

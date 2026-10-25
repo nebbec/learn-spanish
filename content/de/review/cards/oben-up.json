@@ -1,0 +1,17 @@
+{
+  "id": "oben-up",
+  "rank": 396,
+  "word": "oben",
+  "draft": "633211ec8d6c9a65",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "above, up, at the top, upstairs (location)",
+    "example": "My room is upstairs."
+  },
+  "note": "The hint is useful: it rules out the direction forms nach oben and hoch, so oben is the one answer for a location.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:05.600Z"
+}

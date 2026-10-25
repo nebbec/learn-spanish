@@ -1,0 +1,17 @@
+{
+  "rank": 592,
+  "word": "drehen",
+  "cards": [
+    "drehen-turn",
+    "drehen-shoot-film"
+  ],
+  "skip": null,
+  "sameAs": {
+    "drehen-turn": null,
+    "drehen-shoot-film": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:17.026Z"
+}

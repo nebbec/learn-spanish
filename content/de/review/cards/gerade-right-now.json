@@ -1,0 +1,17 @@
+{
+  "id": "gerade-right-now",
+  "rank": 169,
+  "word": "gerade",
+  "draft": "324aa30b4e5a7a97",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "right now, at the moment, just (in the process of)",
+    "example": "I'm cooking at the moment, call me later."
+  },
+  "note": "In speech gerade is often shortened to grad, all over the German-speaking area, but that does not need a regional footnote.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:31.977Z"
+}

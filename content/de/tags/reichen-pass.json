@@ -1,0 +1,14 @@
+{
+  "id": "reichen-pass",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f1e73ee06bdd278f",
+  "group": "#324 reichen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:00.690Z"
+}

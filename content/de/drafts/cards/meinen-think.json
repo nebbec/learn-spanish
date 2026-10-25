@@ -1,0 +1,33 @@
+{
+  "id": "meinen-think",
+  "rank": 234,
+  "kind": "content",
+  "pos": "verb",
+  "target": "meinen",
+  "en": "to think",
+  "hint": "give your opinion, as in what do you reckon?",
+  "grammar": {
+    "present": {
+      "ich": "meine",
+      "du": "meinst",
+      "er": "meint"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemeint"
+    }
+  },
+  "example": {
+    "target": "Ich meine, wir sollten jetzt gehen.",
+    "en": "I think we should go now."
+  },
+  "regional": null,
+  "trick": "MEINEN sounds like \"mine-en\": you say what's on your mind, your own opinion, when you think something.",
+  "image": "/deck-de/img/meinen-think.webp",
+  "audio": {
+    "word": "/deck-de/audio/meinen-think.word.mp3",
+    "sentence": "/deck-de/audio/meinen-think.sentence.mp3"
+  }
+}

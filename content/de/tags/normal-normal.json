@@ -1,0 +1,14 @@
+{
+  "id": "normal-normal",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ca45c1feeea28d2e",
+  "group": "#568 normal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:24.201Z"
+}

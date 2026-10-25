@@ -1,0 +1,15 @@
+{
+  "rank": 614,
+  "word": "Ehre",
+  "cards": [
+    "ehre-honor"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ehre-honor": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:36.928Z"
+}

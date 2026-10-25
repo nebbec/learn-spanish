@@ -1,0 +1,14 @@
+{
+  "id": "schuetzen-protect",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use schützen for protecting in general, as from rain or danger; beschützen for watching over a person.",
+  "draft": "7995557e1a96e258",
+  "group": "#723 schützen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:47.944Z"
+}

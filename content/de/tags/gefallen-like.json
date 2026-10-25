@@ -1,0 +1,14 @@
+{
+  "id": "gefallen-like",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use gefallen when the liked thing is the subject (Das gefällt mir); mögen when you are (Ich mag das).",
+  "draft": "7776c8486e3524aa",
+  "group": "#325 gefallen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:06.047Z"
+}

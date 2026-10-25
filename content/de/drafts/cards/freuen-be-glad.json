@@ -1,0 +1,33 @@
+{
+  "id": "freuen-be-glad",
+  "rank": 417,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich freuen",
+  "en": "to be glad",
+  "hint": "one reflexive verb",
+  "grammar": {
+    "present": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er": "freut sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefreut"
+    }
+  },
+  "example": {
+    "target": "Ich freue mich, dass du da bist.",
+    "en": "I'm glad you're here."
+  },
+  "regional": null,
+  "trick": "FREUEN sounds like FROY-en, close to the name Freud, and Freude is the German word for joy.",
+  "image": "/deck-de/img/freuen-be-glad.webp",
+  "audio": {
+    "word": "/deck-de/audio/freuen-be-glad.word.mp3",
+    "sentence": "/deck-de/audio/freuen-be-glad.sentence.mp3"
+  }
+}

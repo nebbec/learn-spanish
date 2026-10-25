@@ -1,0 +1,14 @@
+{
+  "id": "gerade-right-now",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use gerade for something going on at this very moment; jetzt for now in general.",
+  "draft": "324aa30b4e5a7a97",
+  "group": "#169 gerade",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:31.655Z"
+}

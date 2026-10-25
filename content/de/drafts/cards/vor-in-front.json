@@ -1,0 +1,21 @@
+{
+  "id": "vor-in-front",
+  "rank": 91,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "vor",
+  "en": "I'll wait [in front of] the cinema",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich warte vor dem Kino auf dich.",
+    "en": "I'll wait for you in front of the cinema."
+  },
+  "regional": null,
+  "trick": "VOR sounds like fore, as in the fore of a ship: the part in front.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/vor-in-front.word.mp3",
+    "sentence": "/deck-de/audio/vor-in-front.sentence.mp3"
+  }
+}

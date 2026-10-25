@@ -1,0 +1,33 @@
+{
+  "id": "benutzen-use",
+  "rank": 440,
+  "kind": "content",
+  "pos": "verb",
+  "target": "benutzen",
+  "en": "to use",
+  "hint": "everyday word, not verwenden",
+  "grammar": {
+    "present": {
+      "ich": "benutze",
+      "du": "benutzt",
+      "er": "benutzt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "benutzt"
+    }
+  },
+  "example": {
+    "target": "Benutzt du das noch?",
+    "en": "Are you still using that?"
+  },
+  "regional": null,
+  "trick": "BeNUTZen hides NUTZ, said like noots, close to nuts: a squirrel uses a stone to crack its nuts.",
+  "image": "/deck-de/img/benutzen-use.webp",
+  "audio": {
+    "word": "/deck-de/audio/benutzen-use.word.mp3",
+    "sentence": "/deck-de/audio/benutzen-use.sentence.mp3"
+  }
+}

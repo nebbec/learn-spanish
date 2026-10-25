@@ -1,0 +1,17 @@
+{
+  "id": "oft-often",
+  "rank": 473,
+  "word": "oft",
+  "draft": "2d3fda4f3614a92d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "often",
+    "example": "How often do you go to the cinema?"
+  },
+  "note": "Häufig is a near-synonym closer to \"frequently\", but oft is the clear default for \"often\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:05.521Z"
+}

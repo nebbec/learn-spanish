@@ -1,0 +1,33 @@
+{
+  "id": "treffen-hit",
+  "rank": 207,
+  "kind": "content",
+  "pos": "verb",
+  "target": "treffen",
+  "en": "to hit",
+  "hint": "a target",
+  "grammar": {
+    "present": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er": "trifft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getroffen"
+    }
+  },
+  "example": {
+    "target": "Der Ball hat mich am Kopf getroffen.",
+    "en": "The ball hit me on the head."
+  },
+  "regional": null,
+  "trick": "TRIFFT sounds like \"tripped\": the arrow never tripped up and hit the target dead center.",
+  "image": "/deck-de/img/treffen-hit.webp",
+  "audio": {
+    "word": "/deck-de/audio/treffen-hit.word.mp3",
+    "sentence": "/deck-de/audio/treffen-hit.sentence.mp3"
+  }
+}

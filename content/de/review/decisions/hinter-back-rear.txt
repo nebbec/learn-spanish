@@ -1,0 +1,31 @@
+# hinter-back-rear · rank 366 · hinter
+#
+# Why it was flagged:
+#   - One right answer: Someone who knows German well would answer this prompt with hintere (or the compound prefix Hinter-, as in Hintertür), not bare hinter, which is the preposition already tested on the word's other card. Suggested fix: target: hintere
+#   - Grammar: The adjective is never used in the bare form hinter; its dictionary form is hintere (hinterer, hinteres), and hinter on its own is the preposition. Suggested fix: target: hintere
+# Reviewer's note (not a reason to flag): The example is correct, but Germans more often say Hintertür than die hintere Tür, so the editor could check whether this adjective card is worth keeping next to the far more frequent preposition card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             hinter-back-rear
+kind:           content
+pos:            adjective
+target:         hintere
+en:             back
+hint:           adjective, as in the back door
+example.target: Nimm lieber die hintere Tür.
+example.en:     Better take the back door.
+regional.where:
+regional.text:
+trick:          HINTER sounds like hinder or hind: a horse's hind legs are its back legs.
+
+# The draft this file was made from. Do not change it.
+draft: 57fe614343fe6e47

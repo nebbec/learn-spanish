@@ -1,0 +1,33 @@
+{
+  "id": "schreien-scream",
+  "rank": 477,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schreien",
+  "en": "to scream, to shout",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "schreie",
+      "du": "schreist",
+      "er": "schreit"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschrien"
+    }
+  },
+  "example": {
+    "target": "Warum schreist du so?",
+    "en": "Why are you shouting like that?"
+  },
+  "regional": null,
+  "trick": "SCHREIEN sounds like \"shry-en\", and SCHREI rhymes with \"cry\": you cry out when you scream.",
+  "image": "/deck-de/img/schreien-scream.webp",
+  "audio": {
+    "word": "/deck-de/audio/schreien-scream.word.mp3",
+    "sentence": "/deck-de/audio/schreien-scream.sentence.mp3"
+  }
+}

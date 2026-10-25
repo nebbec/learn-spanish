@@ -1,0 +1,33 @@
+{
+  "id": "schlafen-sleep",
+  "rank": 261,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schlafen",
+  "en": "to sleep",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er": "schläft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschlafen"
+    }
+  },
+  "example": {
+    "target": "Hast du gut geschlafen?",
+    "en": "Did you sleep well?"
+  },
+  "regional": null,
+  "trick": "SCHLAFEN sounds like \"shh, loafin'\": hush, I'm loafing in bed and about to sleep.",
+  "image": "/deck-de/img/schlafen-sleep.webp",
+  "audio": {
+    "word": "/deck-de/audio/schlafen-sleep.word.mp3",
+    "sentence": "/deck-de/audio/schlafen-sleep.sentence.mp3"
+  }
+}

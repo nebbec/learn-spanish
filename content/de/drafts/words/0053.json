@@ -1,0 +1,15 @@
+{
+  "rank": 53,
+  "word": "tun",
+  "cards": [
+    "tun-do"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tun-do": "hacer-do"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:54.408Z"
+}

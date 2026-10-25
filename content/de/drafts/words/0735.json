@@ -1,0 +1,15 @@
+{
+  "rank": 735,
+  "word": "dunkel",
+  "cards": [
+    "dunkel-dark"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dunkel-dark": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:39.842Z"
+}

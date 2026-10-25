@@ -1,0 +1,15 @@
+{
+  "rank": 264,
+  "word": "fallen",
+  "cards": [
+    "fallen-fall"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fallen-fall": "caer-fall"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:36.160Z"
+}

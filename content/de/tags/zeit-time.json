@@ -1,0 +1,14 @@
+{
+  "id": "zeit-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d4d30cada40f4d75",
+  "group": "#118 Zeit",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:03.394Z"
+}

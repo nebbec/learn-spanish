@@ -1,0 +1,21 @@
+{
+  "id": "neu-new",
+  "rank": 165,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "neu",
+  "en": "new",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ist das dein neues Handy?",
+    "en": "Is that your new phone?"
+  },
+  "regional": null,
+  "trick": "NEU is said noy, rhyming with toy: a kid always wants a new toy.",
+  "image": "/deck-de/img/neu-new.webp",
+  "audio": {
+    "word": "/deck-de/audio/neu-new.word.mp3",
+    "sentence": "/deck-de/audio/neu-new.sentence.mp3"
+  }
+}

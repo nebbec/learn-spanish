@@ -1,0 +1,17 @@
+{
+  "rank": 456,
+  "word": "Nachricht",
+  "cards": [
+    "nachricht-message",
+    "nachricht-news"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nachricht-message": "mensaje-message",
+    "nachricht-news": "noticia-news"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:51:35.219Z"
+}

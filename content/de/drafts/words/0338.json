@@ -1,0 +1,15 @@
+{
+  "rank": 338,
+  "word": "Kerl",
+  "cards": [
+    "kerl-guy"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kerl-guy": "tipo-guy"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:26.447Z"
+}

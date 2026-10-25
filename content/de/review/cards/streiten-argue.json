@@ -1,0 +1,17 @@
+{
+  "id": "streiten-argue",
+  "rank": 743,
+  "word": "streiten",
+  "draft": "8a4bf43749b5dd57",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to argue, to quarrel (often reflexive: sich streiten)",
+    "example": "We never argue about money."
+  },
+  "note": "The hint \"to quarrel\" usefully rules out argumentieren and diskutieren; pelear-fight is close but means mainly a physical fight or brawl, so leaving sameAs null is reasonable, and the editor might mention that everyday speech mostly uses the reflexive sich streiten, as the example does.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:29.646Z"
+}

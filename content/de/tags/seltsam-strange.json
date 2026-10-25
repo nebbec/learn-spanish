@@ -1,0 +1,14 @@
+{
+  "id": "seltsam-strange",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Seltsam is a little more careful or written; in casual talk Germans often say komisch for strange.",
+  "draft": "1b5715b4d073be2f",
+  "group": "#634 seltsam",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:49.635Z"
+}

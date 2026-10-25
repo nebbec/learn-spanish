@@ -1,0 +1,23 @@
+{
+  "id": "klingen-sound",
+  "rank": 380,
+  "word": "klingen",
+  "draft": "3d5cc9218be01276",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The reflexive separable verb sich anhören (Das hört sich gut an) is just as common for 'to sound' in the sense of 'sounds good', and the hint doesn't rule it out.",
+      "fix": "hint: to seem, as in sounds good; one word, not sich anhören"
+    }
+  ],
+  "back": {
+    "target": "to sound (to give an impression when heard, e.g. that sounds good; also to ring, to make a sound)",
+    "example": "That sounds really good!"
+  },
+  "note": "irregular is correctly true: the present tense is regular, but the participle geklungen is strong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:53:29.298Z"
+}

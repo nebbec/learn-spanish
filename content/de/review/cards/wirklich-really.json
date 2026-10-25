@@ -1,0 +1,17 @@
+{
+  "id": "wirklich-really",
+  "rank": 109,
+  "word": "wirklich",
+  "draft": "8fe61edeb387c12d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "really, truly (adverb)",
+    "example": "The food is really good."
+  },
+  "note": "The trick happens to be right, since wirklich comes from wirken (to work, to have an effect), and the hint correctly rules out echt and keeps this adverb card apart from the adjective card \"real\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:47.830Z"
+}

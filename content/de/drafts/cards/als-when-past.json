@@ -1,0 +1,21 @@
+{
+  "id": "als-when-past",
+  "rank": 60,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "als",
+  "en": "[when] I was little, I had a dog",
+  "hint": "one time in the past",
+  "grammar": null,
+  "example": {
+    "target": "Als ich klein war, hatte ich einen Hund.",
+    "en": "When I was little, I had a dog."
+  },
+  "regional": null,
+  "trick": "ALS sounds like \"Al's\": back when Al's dog was a puppy, one time in the past.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/als-when-past.word.mp3",
+    "sentence": "/deck-de/audio/als-when-past.sentence.mp3"
+  }
+}

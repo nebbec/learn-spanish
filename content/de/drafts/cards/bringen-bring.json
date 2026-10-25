@@ -1,0 +1,33 @@
+{
+  "id": "bringen-bring",
+  "rank": 116,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bringen",
+  "en": "to bring",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er": "bringt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebracht"
+    }
+  },
+  "example": {
+    "target": "Bringst du mir ein Glas Wasser?",
+    "en": "Can you bring me a glass of water?"
+  },
+  "regional": null,
+  "trick": "BRINGEN sounds almost exactly like bringing, and it means to bring.",
+  "image": "/deck-de/img/bringen-bring.webp",
+  "audio": {
+    "word": "/deck-de/audio/bringen-bring.word.mp3",
+    "sentence": "/deck-de/audio/bringen-bring.sentence.mp3"
+  }
+}

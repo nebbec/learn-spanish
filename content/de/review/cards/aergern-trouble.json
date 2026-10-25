@@ -1,0 +1,17 @@
+{
+  "id": "aergern-trouble",
+  "rank": 648,
+  "word": "ärgern",
+  "draft": "1137f87a52d7476c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "anger, annoyance; trouble (as in to get into trouble)",
+    "example": "Otherwise we'll get into trouble."
+  },
+  "note": "The hint's \"also anger\" is what rules out Probleme and Schwierigkeiten, and \"Ärger kriegen\" is the natural everyday way to say \"get into trouble\", so the hint is doing its job.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:43.922Z"
+}

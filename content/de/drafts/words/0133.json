@@ -1,0 +1,17 @@
+{
+  "rank": 133,
+  "word": "lang",
+  "cards": [
+    "lang-long",
+    "lang-long-time"
+  ],
+  "skip": null,
+  "sameAs": {
+    "lang-long": "largo-long",
+    "lang-long-time": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:30:21.368Z"
+}

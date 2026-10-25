@@ -1,0 +1,33 @@
+# typ-guy · rank 317 · Typ
+#
+# Why it was flagged:
+#   - One right answer: Der Kerl is also a common informal word for a guy you don't know, so this hint lets in a second right answer. Suggested fix: hint: informal, a man you don't know; the word that also means type (not Kerl)
+# Reviewer's note (not a reason to flag): In the guy sense Typ takes weak endings (den Typen, des Typen), unlike the type sense (des Typs); this may be worth mentioning when case cards come up.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             typ-guy
+kind:           content
+pos:            noun
+target:         der Typ
+en:             guy
+hint:           informal, a man you don't know; the word that also means type (not Kerl)
+gender:         m
+article:        der
+plural:         die Typen
+example.target: Wer ist der Typ da drüben?
+example.en:     Who's that guy over there?
+regional.where:
+regional.text:
+trick:          TYP is spelled like type minus the e: some guy is just a certain type of man.
+
+# The draft this file was made from. Do not change it.
+draft: 6849cfdc8e8f9351

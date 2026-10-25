@@ -1,0 +1,17 @@
+{
+  "id": "handeln-act",
+  "rank": 701,
+  "word": "handeln",
+  "draft": "800b62791ef8ac0d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to act, to take action",
+    "example": "We have to act quickly now."
+  },
+  "note": "Spanish actuar can also mean to perform on stage, so the shared picture should show someone taking action, not acting in a play.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:29.495Z"
+}

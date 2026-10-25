@@ -1,0 +1,21 @@
+{
+  "id": "wovon-what-of",
+  "rank": 654,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "wovon",
+  "en": "[what] are you talking about?",
+  "hint": "one word: wo plus the word for of, from",
+  "grammar": null,
+  "example": {
+    "target": "Wovon redest du?",
+    "en": "What are you talking about?"
+  },
+  "regional": null,
+  "trick": "WOVON (say voh-FON) is wo plus von glued together, like asking what-of or what-from in one word.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wovon-what-of.word.mp3",
+    "sentence": "/deck-de/audio/wovon-what-of.sentence.mp3"
+  }
+}

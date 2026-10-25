@@ -1,0 +1,17 @@
+{
+  "id": "behalten-keep",
+  "rank": 569,
+  "word": "behalten",
+  "draft": "c7746a79299e862b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to keep (hold on to, not give back or away)",
+    "example": "I'm keeping the photo."
+  },
+  "note": "The hint's \"not give back\" is what rules out aufheben (keep in the sense of store) and festhalten (physically hold on to), so it should stay.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:55.316Z"
+}

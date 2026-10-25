@@ -1,0 +1,21 @@
+{
+  "id": "mal-times",
+  "rank": 61,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "mal",
+  "en": "two [times] three is six",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Zwei mal drei ist sechs.",
+    "en": "Two times three is six."
+  },
+  "regional": null,
+  "trick": "MAL sounds like mall: two times three shops in a mall makes six.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mal-times.word.mp3",
+    "sentence": "/deck-de/audio/mal-times.sentence.mp3"
+  }
+}

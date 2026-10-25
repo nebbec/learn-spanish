@@ -1,0 +1,15 @@
+{
+  "rank": 161,
+  "word": "versuchen",
+  "cards": [
+    "versuchen-try"
+  ],
+  "skip": null,
+  "sameAs": {
+    "versuchen-try": "intentar-try"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:32:14.531Z"
+}

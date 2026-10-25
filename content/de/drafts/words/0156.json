@@ -1,0 +1,19 @@
+{
+  "rank": 156,
+  "word": "halten",
+  "cards": [
+    "halten-hold",
+    "halten-stop",
+    "halten-think-of"
+  ],
+  "skip": null,
+  "sameAs": {
+    "halten-hold": null,
+    "halten-stop": "parar-stop",
+    "halten-think-of": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:32:07.455Z"
+}

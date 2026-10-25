@@ -1,0 +1,17 @@
+{
+  "id": "treffen-hit",
+  "rank": 207,
+  "word": "treffen",
+  "draft": "2ed8d156f7653fbc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hit (a target), to strike (of a shot, ball or blow reaching its mark)",
+    "example": "The ball hit me on the head."
+  },
+  "note": "The hint \"a target\" is what separates this card from schlagen and from the \"to meet\" card, so keep it. The Spanish cards golpear-hit and pegar-hit mean striking a blow, not reaching a target, so sameAs is rightly null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:21.044Z"
+}

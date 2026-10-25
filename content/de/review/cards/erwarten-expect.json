@@ -1,0 +1,17 @@
+{
+  "id": "erwarten-expect",
+  "rank": 398,
+  "word": "erwarten",
+  "draft": "18dd8ca8dd0798e2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to expect",
+    "example": "I'm expecting you at eight."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:11.274Z"
+}

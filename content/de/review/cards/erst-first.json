@@ -1,0 +1,17 @@
+{
+  "id": "erst-first",
+  "rank": 255,
+  "word": "erst",
+  "draft": "48ad5fb7548bc900",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "first (before doing something else); also only, not until (of time)",
+    "example": "I have to shower first."
+  },
+  "note": "Speakers very often say \"erst mal\" or \"erstmal\" here (\"Ich muss erst mal duschen\"), so the editor might make the hint \"one short word, not zuerst or erst mal\" so that this answer is ruled out explicitly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:42:25.622Z"
+}

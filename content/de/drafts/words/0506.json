@@ -1,0 +1,15 @@
+{
+  "rank": 506,
+  "word": "zuerst",
+  "cards": [
+    "zuerst-first"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zuerst-first": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:53.374Z"
+}

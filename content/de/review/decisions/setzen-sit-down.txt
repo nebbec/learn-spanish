@@ -1,0 +1,38 @@
+# setzen-sit-down · rank 265 · setzen
+#
+# Why it was flagged:
+#   - One right answer: The hint 'with sich, not sitzen' still allows sich hinsetzen, which is just as common for 'to sit down' (Setz dich hin!). Suggested fix: hint: with sich, not sitzen or hinsetzen
+#   - Grammar: In this meaning the verb is reflexive, so its dictionary form is sich setzen; a bare setzen teaches the learner that setzen alone means to sit down. Suggested fix: target: sich setzen
+# Reviewer's note (not a reason to flag): If the target becomes sich setzen, the hint no longer has to say 'with sich' and can just rule out sitzen and hinsetzen; the conjugation and Perfekt (hat sich gesetzt) are right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 setzen-sit-down
+kind:               content
+pos:                verb
+target:             sich setzen
+en:                 to sit down
+hint:               with sich, not sitzen or hinsetzen
+ich:                setze
+du:                 setzt
+er:                 setzt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gesetzt
+example.target:     Setz dich doch zu uns!
+example.en:         Come and sit down with us!
+regional.where:
+regional.text:
+trick:              SETZEN sounds like "sets in": you set yourself into a chair and sit down.
+
+# The draft this file was made from. Do not change it.
+draft: b4b637a091319d38

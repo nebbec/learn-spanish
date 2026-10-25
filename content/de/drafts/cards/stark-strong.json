@@ -1,0 +1,21 @@
+{
+  "id": "stark-strong",
+  "rank": 427,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "stark",
+  "en": "strong",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Du bist stärker, als du denkst.",
+    "en": "You're stronger than you think."
+  },
+  "regional": null,
+  "trick": "STARK sounds like Tony Stark, Iron Man, who is very strong in his suit.",
+  "image": "/deck-de/img/stark-strong.webp",
+  "audio": {
+    "word": "/deck-de/audio/stark-strong.word.mp3",
+    "sentence": "/deck-de/audio/stark-strong.sentence.mp3"
+  }
+}

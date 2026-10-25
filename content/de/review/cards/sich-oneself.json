@@ -1,0 +1,23 @@
+{
+  "id": "sich-oneself",
+  "rank": 52,
+  "word": "sich",
+  "draft": "43c10c17e012f54b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says ich is me, but ich means I and the German for me is mich, which could confuse the learner.",
+      "fix": "trick: SICH rhymes with ich (I): ich is I, and sich is himself, herself or themselves."
+    }
+  ],
+  "back": {
+    "target": "himself, herself, itself, themselves (third-person reflexive pronoun; also yourself with formal Sie)",
+    "example": "He is looking forward to the weekend."
+  },
+  "note": "The prompt alone (Er wäscht sich) already gives only sich, so the hint isn't strictly needed but is harmless; the example uses reflexive sich with sich freuen auf, where English has no himself.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:51.353Z"
+}

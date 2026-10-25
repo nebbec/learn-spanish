@@ -1,0 +1,31 @@
+# frueher-used-to · rank 500 · früher
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card antes-before means before in the sense of earlier in time, which is closer to this word's other card (earlier) than to in the past or used to, so its picture would not show the meaning of this card. Suggested fix: null
+# Reviewer's note (not a reason to flag): The hint is useful because it rules out damals (back then, at one particular time) and the comparative earlier sense, which has its own card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0500.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             frueher-used-to
+kind:           content
+pos:            adverb
+target:         früher
+en:             in the past, used to
+hint:           in former times, as in I used to live there
+example.target: Früher habe ich in Berlin gewohnt.
+example.en:     I used to live in Berlin.
+regional.where:
+regional.text:
+trick:          FRÜH-er sounds like free-er: in the past, before all the responsibilities, you were free-er.
+
+# The draft this file was made from. Do not change it.
+draft: 9d3c1b1819293525

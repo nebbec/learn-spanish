@@ -1,0 +1,17 @@
+{
+  "id": "zaehlen-count",
+  "rank": 746,
+  "word": "zählen",
+  "draft": "12c120e21a3f3a41",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to count",
+    "example": "I'll count to three, okay?"
+  },
+  "note": "The tell/teller link in the trick is also a real shared root with zählen and Zahl, which makes it a good memory aid.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:47.172Z"
+}

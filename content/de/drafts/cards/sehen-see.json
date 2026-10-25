@@ -1,0 +1,33 @@
+{
+  "id": "sehen-see",
+  "rank": 46,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sehen",
+  "en": "to see",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er": "sieht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesehen"
+    }
+  },
+  "example": {
+    "target": "Siehst du das Haus da drüben?",
+    "en": "Do you see the house over there?"
+  },
+  "regional": null,
+  "trick": "SEHEN (ZAY-en) is a close cousin of English see: what you have seen, you have gesehen.",
+  "image": "/deck-de/img/sehen-see.webp",
+  "audio": {
+    "word": "/deck-de/audio/sehen-see.word.mp3",
+    "sentence": "/deck-de/audio/sehen-see.sentence.mp3"
+  }
+}

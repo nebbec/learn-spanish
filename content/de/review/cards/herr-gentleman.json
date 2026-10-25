@@ -1,0 +1,23 @@
+{
+  "id": "herr-gentleman",
+  "rank": 226,
+  "word": "Herr",
+  "draft": "3c3f21015bbd6114",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Bare \"gentleman\" also lets a learner answer \"der Gentleman\", the common German loanword for a well-mannered, chivalrous man (\"Er ist ein echter Gentleman\"), so the prompt needs a hint pointing to the polite word for a man.",
+      "fix": "hint: polite word for a man, as in ladies and gentlemen"
+    }
+  ],
+  "back": {
+    "target": "gentleman, (polite word for a) man; also lord, master",
+    "example": "The gentleman over there would like to pay."
+  },
+  "note": "Herr is a weak noun (den/dem Herrn), which the editor might mention somewhere for learners; the trick's \"never a hair out of place\" leans toward the chivalrous-gentleman sense, so a trick about polite address might fit the card better.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:40:02.671Z"
+}

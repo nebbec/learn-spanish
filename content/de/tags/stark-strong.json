@@ -1,0 +1,14 @@
+{
+  "id": "stark-strong",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fea552c671fbbe3a",
+  "group": "#427 stark",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:26.070Z"
+}

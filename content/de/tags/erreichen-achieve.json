@@ -1,0 +1,14 @@
+{
+  "id": "erreichen-achieve",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use erreichen for reaching a goal or result; schaffen for managing to get something done.",
+  "draft": "34c182a7c0694d9c",
+  "group": "#606 erreichen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:47.860Z"
+}

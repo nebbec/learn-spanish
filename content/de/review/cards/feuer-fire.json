@@ -1,0 +1,17 @@
+{
+  "id": "feuer-fire",
+  "rank": 499,
+  "word": "Feuer",
+  "draft": "f9a0e26b0c27c0eb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "fire (flames)",
+    "example": "We're making a fire in the garden this evening."
+  },
+  "note": "The hint \"flames\" usefully rules out der Brand (a fire that destroys something, like a building on fire).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:07.556Z"
+}

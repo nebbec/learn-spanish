@@ -1,0 +1,23 @@
+{
+  "id": "land-country",
+  "rank": 372,
+  "word": "Land",
+  "draft": "0bc960670b5c09bb",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Spelling it 'lahnt' suggests a long vowel, but the a in Land is short (said like 'lant', with the d sounding like t).",
+      "fix": "trick: LAND sounds like 'lant', almost English land: a country is a big piece of land with borders."
+    }
+  ],
+  "back": {
+    "target": "country (a nation, a state); also land, countryside",
+    "example": "Which country do you want to visit?"
+  },
+  "note": "The hint \"a nation\" correctly separates this card from the countryside card; die Nation and der Staat are more formal and much rarer, so das Land is clearly the one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:46.885Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sich-oneself",
+  "rank": 52,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "sich",
+  "en": "he washes [himself]",
+  "hint": "reflexive, also herself, themselves",
+  "grammar": null,
+  "example": {
+    "target": "Er freut sich auf das Wochenende.",
+    "en": "He's looking forward to the weekend."
+  },
+  "regional": null,
+  "trick": "SICH rhymes with ich (I): ich is me, and sich is himself, herself or themselves.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/sich-oneself.word.mp3",
+    "sentence": "/deck-de/audio/sich-oneself.sentence.mp3"
+  }
+}

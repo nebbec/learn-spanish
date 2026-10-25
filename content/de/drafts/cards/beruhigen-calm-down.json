@@ -1,0 +1,33 @@
+{
+  "id": "beruhigen-calm-down",
+  "rank": 660,
+  "kind": "content",
+  "pos": "verb",
+  "target": "beruhigen",
+  "en": "to calm down",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "beruhige",
+      "du": "beruhigst",
+      "er": "beruhigt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "beruhigt"
+    }
+  },
+  "example": {
+    "target": "Beruhig dich, alles ist gut.",
+    "en": "Calm down, everything's fine."
+  },
+  "regional": null,
+  "trick": "BeRUHIGen hides ruhig, said ROO-ikh, meaning calm: picture a roo, a kangaroo, lying calm and still.",
+  "image": "/deck-de/img/beruhigen-calm-down.webp",
+  "audio": {
+    "word": "/deck-de/audio/beruhigen-calm-down.word.mp3",
+    "sentence": "/deck-de/audio/beruhigen-calm-down.sentence.mp3"
+  }
+}

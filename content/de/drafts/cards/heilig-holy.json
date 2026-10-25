@@ -1,0 +1,21 @@
+{
+  "id": "heilig-holy",
+  "rank": 682,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "heilig",
+  "en": "holy",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist ein heiliger Ort.",
+    "en": "This is a holy place."
+  },
+  "regional": null,
+  "trick": "HEILIG starts with a sound like HIGH: holy things are high above us, up in heaven.",
+  "image": "/deck-de/img/heilig-holy.webp",
+  "audio": {
+    "word": "/deck-de/audio/heilig-holy.word.mp3",
+    "sentence": "/deck-de/audio/heilig-holy.sentence.mp3"
+  }
+}

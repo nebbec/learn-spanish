@@ -1,0 +1,31 @@
+# je-ever · rank 384 · je
+#
+# Why it was flagged:
+#   - One right answer: The hint excludes jemals but not mal or schon mal, which are the usual spoken way to say ever in a question and also count as short. Suggested fix: hint: two-letter word, not jemals or schon mal
+#   - Example sentence: In everyday speech je on its own in a question sounds a bit stilted (people say jemals or schon mal), and it clashes with the casual so was; je for ever is natural mainly in set phrases like als je zuvor. Suggested fix: example.target: Das war besser als je zuvor. / example.en: That was better than ever.
+# Reviewer's note (not a reason to flag): Je meaning ever shows up mostly in fixed phrases (als je zuvor, mehr denn je, wenn je), so an example built on one of these teaches the use learners will actually hear.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             je-ever
+kind:           content
+pos:            adverb
+target:         je
+en:             ever
+hint:           two-letter word, not jemals or schon mal
+example.target: Das war besser als je zuvor.
+example.en:     That was better than ever.
+regional.where:
+regional.text:
+trick:          JE sounds like yeah: have you ever said yeah to something crazy?
+
+# The draft this file was made from. Do not change it.
+draft: da6ca09a7c82fa15

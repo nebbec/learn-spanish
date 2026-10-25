@@ -1,0 +1,33 @@
+{
+  "id": "kennen-know",
+  "rank": 136,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kennen",
+  "en": "to know",
+  "hint": "a person, a place",
+  "grammar": {
+    "present": {
+      "ich": "kenne",
+      "du": "kennst",
+      "er": "kennt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gekannt"
+    }
+  },
+  "example": {
+    "target": "Kennst du meinen Bruder?",
+    "en": "Do you know my brother?"
+  },
+  "regional": null,
+  "trick": "KENNEN sounds like the Scottish word ken, as in beyond my ken: to ken someone is to know them.",
+  "image": "/deck-de/img/kennen-know.webp",
+  "audio": {
+    "word": "/deck-de/audio/kennen-know.word.mp3",
+    "sentence": "/deck-de/audio/kennen-know.sentence.mp3"
+  }
+}

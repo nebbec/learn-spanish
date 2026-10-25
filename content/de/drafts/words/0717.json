@@ -1,0 +1,15 @@
+{
+  "rank": 717,
+  "word": "sieben",
+  "cards": [
+    "sieben-seven"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sieben-seven": "siete-seven"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:37.896Z"
+}

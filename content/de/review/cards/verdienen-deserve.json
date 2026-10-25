@@ -1,0 +1,17 @@
+{
+  "id": "verdienen-deserve",
+  "rank": 444,
+  "word": "verdienen",
+  "draft": "756fc07ce0df302b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to deserve; to earn (money)",
+    "example": "You deserve a break."
+  },
+  "note": "No hint is needed: \"to deserve\" can only mean verdienen, and the \"to earn\" card already has the hint \"money\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:28.030Z"
+}

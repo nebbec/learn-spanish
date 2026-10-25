@@ -1,0 +1,14 @@
+{
+  "id": "sehen-see",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bf10c3ff3de1d794",
+  "group": "#46 sehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:45.830Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "schliessen-close",
+  "rank": 460,
+  "word": "schließen",
+  "draft": "7b5c080e71806466",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to close, to shut (also to lock, to conclude)",
+    "example": "Close the door, please, there's a draft."
+  },
+  "note": "The hint is needed because zumachen is just as right for \"to close\", and it is the more everyday word in speech, so \"the standard word\" really means the neutral, non-colloquial one.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:02.384Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "schuld-fault",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "709a00904418ff45",
+  "group": "#387 Schuld",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:04.221Z"
+}

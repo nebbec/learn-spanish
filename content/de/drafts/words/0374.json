@@ -1,0 +1,15 @@
+{
+  "rank": 374,
+  "word": "lachen",
+  "cards": [
+    "lachen-laugh"
+  ],
+  "skip": null,
+  "sameAs": {
+    "lachen-laugh": "reir-laugh"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:36.932Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hoeren-hear",
+  "rank": 72,
+  "kind": "content",
+  "pos": "verb",
+  "target": "hören",
+  "en": "to hear",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "höre",
+      "du": "hörst",
+      "er": "hört"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehört"
+    }
+  },
+  "example": {
+    "target": "Hörst du das Geräusch?",
+    "en": "Do you hear that noise?"
+  },
+  "regional": null,
+  "trick": "HÖREN sounds close to English hear, and the two words come from the same old root: you hear with your ears.",
+  "image": "/deck-de/img/hoeren-hear.webp",
+  "audio": {
+    "word": "/deck-de/audio/hoeren-hear.word.mp3",
+    "sentence": "/deck-de/audio/hoeren-hear.sentence.mp3"
+  }
+}

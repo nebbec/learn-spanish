@@ -1,0 +1,17 @@
+{
+  "id": "wen-whom",
+  "rank": 482,
+  "word": "wen",
+  "draft": "f6542be95a1572f9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "whom (accusative of who)",
+    "example": "Whom did you see yesterday?"
+  },
+  "note": "The hint \"the object form\" could also suggest wem, but suchen takes the accusative so only wen is right; \"whom, accusative\" would be a clearer hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:42.951Z"
+}

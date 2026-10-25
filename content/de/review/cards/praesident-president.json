@@ -1,0 +1,17 @@
+{
+  "id": "praesident-president",
+  "rank": 742,
+  "word": "Präsident",
+  "draft": "9aaeb7358a5986f3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "president",
+    "example": "The president is giving a speech today."
+  },
+  "note": "Präsident is a weak noun: outside the nominative singular it takes -en (den, dem and des Präsidenten), which the grammar fields don't show and the editor may want to mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:25.987Z"
+}

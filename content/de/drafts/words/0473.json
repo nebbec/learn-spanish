@@ -1,0 +1,15 @@
+{
+  "rank": 473,
+  "word": "oft",
+  "cards": [
+    "oft-often"
+  ],
+  "skip": null,
+  "sameAs": {
+    "oft-often": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:33.993Z"
+}

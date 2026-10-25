@@ -1,0 +1,33 @@
+{
+  "id": "erledigen-take-care-of",
+  "rank": 501,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erledigen",
+  "en": "to take care of",
+  "hint": "a task, get it done",
+  "grammar": {
+    "present": {
+      "ich": "erledige",
+      "du": "erledigst",
+      "er": "erledigt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erledigt"
+    }
+  },
+  "example": {
+    "target": "Keine Sorge, ich erledige das morgen.",
+    "en": "Don't worry, I'll take care of it tomorrow."
+  },
+  "regional": null,
+  "trick": "ERLEDIGEN sounds like air-LAY-dig-en: air out the room, lay the table, dig the garden, and your jobs are taken care of.",
+  "image": "/deck-de/img/erledigen-take-care-of.webp",
+  "audio": {
+    "word": "/deck-de/audio/erledigen-take-care-of.word.mp3",
+    "sentence": "/deck-de/audio/erledigen-take-care-of.sentence.mp3"
+  }
+}

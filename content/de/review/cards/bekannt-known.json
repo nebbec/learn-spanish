@@ -1,0 +1,17 @@
+{
+  "id": "bekannt-known",
+  "rank": 785,
+  "word": "bekannt",
+  "draft": "efbf9b18bea569a3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "known, well-known; familiar",
+    "example": "He is known all over Germany."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:50.631Z"
+}

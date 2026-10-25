@@ -1,0 +1,15 @@
+{
+  "rank": 792,
+  "word": "manch",
+  "cards": [
+    "manch-some"
+  ],
+  "skip": null,
+  "sameAs": {
+    "manch-some": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:26.139Z"
+}

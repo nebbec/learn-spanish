@@ -1,0 +1,14 @@
+{
+  "id": "freuen-be-glad",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "95b4448efa0a9ca1",
+  "group": "#417 freuen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:11.299Z"
+}

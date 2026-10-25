@@ -1,0 +1,21 @@
+{
+  "id": "doch-emphasis",
+  "rank": 68,
+  "kind": "glue",
+  "pos": "other",
+  "target": "doch",
+  "en": "You know that, [don't you]!",
+  "hint": "particle stressing something obvious",
+  "grammar": null,
+  "example": {
+    "target": "Das ist doch klar!",
+    "en": "That's obvious, isn't it!"
+  },
+  "regional": null,
+  "trick": "DOCH sounds like a sharp Scottish loch with a d: a quick, impatient sound for something everyone knows already.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/doch-emphasis.word.mp3",
+    "sentence": "/deck-de/audio/doch-emphasis.sentence.mp3"
+  }
+}

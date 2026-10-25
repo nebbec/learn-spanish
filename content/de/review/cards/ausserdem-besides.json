@@ -1,0 +1,17 @@
+{
+  "id": "ausserdem-besides",
+  "rank": 664,
+  "word": "außerdem",
+  "draft": "8fe336504a698d7f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "besides, moreover, in addition",
+    "example": "I have no time. Besides, I'm tired."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:14.769Z"
+}

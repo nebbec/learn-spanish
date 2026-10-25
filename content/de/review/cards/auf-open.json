@@ -1,0 +1,17 @@
+{
+  "id": "auf-open",
+  "rank": 25,
+  "word": "auf",
+  "draft": "ec1c51eae7159bdd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "open (informal, after sein or haben: \"Die Tür ist auf\")",
+    "example": "Is the supermarket still open?"
+  },
+  "note": "The hint is needed: it rules out offen, and \"short everyday word\" also rules out the more formal geöffnet, so the only answer left is the informal auf.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:11.218Z"
+}

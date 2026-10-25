@@ -1,0 +1,15 @@
+{
+  "rank": 530,
+  "word": "Bild",
+  "cards": [
+    "bild-picture"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bild-picture": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:19.203Z"
+}

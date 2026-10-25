@@ -1,0 +1,17 @@
+{
+  "id": "denken-think",
+  "rank": 74,
+  "word": "denken",
+  "draft": "6b322a70dabcb7e9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to think",
+    "example": "I often think of you."
+  },
+  "note": "The hint is useful because it rules out glauben and meinen, which Germans often use for the opinion sense of \"I think so\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:53.246Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tun-do",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Machen is the everyday word for do; tun is do in set phrases like Was tust du? and Das tut weh.",
+  "draft": "39b17d77d270d740",
+  "group": "#53 tun",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:02.897Z"
+}

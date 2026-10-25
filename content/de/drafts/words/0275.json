@@ -1,0 +1,17 @@
+{
+  "rank": 275,
+  "word": "Schatz",
+  "cards": [
+    "schatz-honey",
+    "schatz-treasure"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schatz-honey": "carino-honey",
+    "schatz-treasure": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:23.068Z"
+}

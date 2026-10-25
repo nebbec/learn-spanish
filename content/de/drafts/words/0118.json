@@ -1,0 +1,15 @@
+{
+  "rank": 118,
+  "word": "Zeit",
+  "cards": [
+    "zeit-time"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zeit-time": "tiempo-time"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:27.778Z"
+}

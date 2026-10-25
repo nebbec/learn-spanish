@@ -1,0 +1,15 @@
+{
+  "rank": 301,
+  "word": "Baby",
+  "cards": [
+    "baby-baby"
+  ],
+  "skip": null,
+  "sameAs": {
+    "baby-baby": "bebe-baby"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:00.359Z"
+}

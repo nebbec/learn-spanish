@@ -1,0 +1,25 @@
+{
+  "id": "seite-side",
+  "rank": 391,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Seite",
+  "en": "side",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Seiten"
+  },
+  "example": {
+    "target": "Auf welcher Seite stehst du eigentlich?",
+    "en": "Whose side are you on, anyway?"
+  },
+  "regional": null,
+  "trick": "SEITE sounds like ZY-tuh, close to side: every coin has two sides.",
+  "image": "/deck-de/img/seite-side.webp",
+  "audio": {
+    "word": "/deck-de/audio/seite-side.word.mp3",
+    "sentence": "/deck-de/audio/seite-side.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "plan-plan",
+  "rank": 548,
+  "word": "Plan",
+  "draft": "651512084cfb61db",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "plan",
+    "example": "What's your plan for today?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:06.250Z"
+}

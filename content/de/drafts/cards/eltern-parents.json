@@ -1,0 +1,25 @@
+{
+  "id": "eltern-parents",
+  "rank": 478,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Eltern",
+  "en": "parents",
+  "hint": null,
+  "grammar": {
+    "gender": "pl",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Meine Eltern wohnen in Hamburg.",
+    "en": "My parents live in Hamburg."
+  },
+  "regional": null,
+  "trick": "ELTERN sounds like \"elders\": your parents are your elders.",
+  "image": "/deck-de/img/eltern-parents.webp",
+  "audio": {
+    "word": "/deck-de/audio/eltern-parents.word.mp3",
+    "sentence": "/deck-de/audio/eltern-parents.sentence.mp3"
+  }
+}

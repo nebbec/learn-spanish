@@ -1,0 +1,15 @@
+{
+  "rank": 565,
+  "word": "hängen",
+  "cards": [
+    "haengen-hang"
+  ],
+  "skip": null,
+  "sameAs": {
+    "haengen-hang": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:58:28.677Z"
+}

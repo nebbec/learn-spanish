@@ -1,0 +1,17 @@
+{
+  "id": "nachricht-news",
+  "rank": 456,
+  "word": "Nachricht",
+  "draft": "0116b1c6146ee26e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "news; a piece of news (also message); plural die Nachrichten = the news on TV or radio",
+    "example": "I have good news for you!"
+  },
+  "note": "The \"plural for the TV news\" part of the hint matters, because without it die Neuigkeit would also be a right answer for \"a piece of news\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:38.534Z"
+}

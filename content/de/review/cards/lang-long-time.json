@@ -1,0 +1,17 @@
+{
+  "id": "lang-long-time",
+  "rank": 133,
+  "word": "lang",
+  "draft": "027d714670af28d6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "for a long time, long (adverb of duration)",
+    "example": "I slept for a long time today (I slept in today)."
+  },
+  "note": "In speech \"lange schlafen\" usually means \"to sleep in\", so \"I slept in today\" could be added as a more natural translation; also, people in the south often say just \"lang\" in speech.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:54.486Z"
+}

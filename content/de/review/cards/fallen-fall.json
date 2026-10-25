@@ -1,0 +1,17 @@
+{
+  "id": "fallen-fall",
+  "rank": 264,
+  "word": "fallen",
+  "draft": "32e227524a0fdf7d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fall",
+    "example": "The child has fallen (over) again."
+  },
+  "note": "When a child falls over, people in everyday speech would more often say \"hingefallen\", but \"gefallen\" is still correct, and \"schon wieder\" means \"yet again\", which the English could show with \"again\" or \"yet again\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:31.748Z"
+}

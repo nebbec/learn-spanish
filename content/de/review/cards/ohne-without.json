@@ -1,0 +1,17 @@
+{
+  "id": "ohne-without",
+  "rank": 193,
+  "word": "ohne",
+  "draft": "f634868052419873",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "without (preposition, takes the accusative)",
+    "example": "I drink my coffee without sugar."
+  },
+  "note": "Since this is the only card for ohne, the editor could mention somewhere that it always takes the accusative (ohne dich, ohne meinen Bruder).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:51.294Z"
+}

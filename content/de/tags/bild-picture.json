@@ -1,0 +1,14 @@
+{
+  "id": "bild-picture",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3e06227a3557fc92",
+  "group": "#530 Bild",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:04.934Z"
+}

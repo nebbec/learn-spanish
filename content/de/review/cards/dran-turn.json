@@ -1,0 +1,17 @@
+{
+  "id": "dran-turn",
+  "rank": 371,
+  "word": "dran",
+  "draft": "40b1b1199811217a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "(it's someone's) turn, up (as in du bist dran, it's your turn)",
+    "example": "Now it's your turn!"
+  },
+  "note": "The prompt's \"up next\" suggests the turn is coming next, but dran means it is your turn now, so \"you're up (it's someone's turn)\" would fit a little better.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:36.322Z"
+}

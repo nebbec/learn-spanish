@@ -1,0 +1,37 @@
+# rennen-run · rank 737 · rennen
+#
+# Why it was flagged:
+#   - Usage in Germany: regional is null, but in Switzerland people commonly say springen for running fast, which a German learner would read as to jump. Suggested fix: regional: { where: "Switzerland", text: "Swiss speakers commonly say springen for to run (in Germany springen only means to jump); rennen is understood." }
+# Reviewer's note (not a reason to flag): The hint "fast, dash" does point to rennen, but adding "not laufen" would rule out laufen more firmly, since laufen can also mean to run.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 rennen-run
+kind:               content
+pos:                verb
+target:             rennen
+en:                 to run
+hint:               fast, dash
+ich:                renne
+du:                 rennst
+er:                 rennt
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gerannt
+example.target:     Ich renne jeden Morgen zum Bus.
+example.en:         I run to the bus every morning.
+regional.where:     Switzerland
+regional.text:      Swiss speakers commonly say springen for to run (in Germany springen only means to jump); rennen is understood.
+trick:              RENNEN sounds a lot like ran: yesterday you ran, and today you rennen again.
+
+# The draft this file was made from. Do not change it.
+draft: 19a3008b44bbb66a

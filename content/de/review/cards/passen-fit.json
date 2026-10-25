@@ -1,0 +1,17 @@
+{
+  "id": "passen-fit",
+  "rank": 281,
+  "word": "passen",
+  "draft": "f5643448e6838c15",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fit (be the right size or shape)",
+    "example": "The jacket doesn't fit me anymore."
+  },
+  "note": "The Spanish card quedar-suit (\"to suit (clothes on someone)\") is close, but it means looking good on someone, which is German stehen, not being the right size, so null is the right choice; the hint is needed to keep this card apart from the word's \"to suit\" (be convenient) card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:09.137Z"
+}

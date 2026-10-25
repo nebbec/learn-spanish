@@ -1,0 +1,23 @@
+{
+  "id": "wieso-why",
+  "rank": 184,
+  "word": "wieso",
+  "draft": "f28140d73f90d12c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "'Wieso bist du so spät?' copies the English 'you are late'; people in Germany would say 'so spät dran' or use kommen.",
+      "fix": "example.target: Wieso kommst du so spät?"
+    }
+  ],
+  "back": {
+    "target": "why (casual; literally 'how so')",
+    "example": "Why are you so late?"
+  },
+  "note": "The hint 'casual, not warum' also rules out the more formal weshalb and weswegen, so the prompt has one answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:09.425Z"
+}

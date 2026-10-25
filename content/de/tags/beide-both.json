@@ -1,0 +1,14 @@
+{
+  "id": "beide-both",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "85467363201efd22",
+  "group": "#203 beide",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:46.030Z"
+}

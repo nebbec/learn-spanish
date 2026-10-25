@@ -1,0 +1,17 @@
+{
+  "id": "einfach-simply-just",
+  "rank": 113,
+  "word": "einfach",
+  "draft": "c1c52b3b18344773",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "simply, just (adverb, as in just do it)",
+    "example": "Just do it!"
+  },
+  "note": "The hint \"as in just do it\" does necessary work, since without it \"just\" could also mean nur (only) or gerade (just now), and it separates this card from the adjective card for easy, simple.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:10.994Z"
+}

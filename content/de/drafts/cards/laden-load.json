@@ -1,0 +1,33 @@
+{
+  "id": "laden-load",
+  "rank": 535,
+  "kind": "content",
+  "pos": "verb",
+  "target": "laden",
+  "en": "to load",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "lade",
+      "du": "lädst",
+      "er": "lädt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geladen"
+    }
+  },
+  "example": {
+    "target": "Ich lade gerade die Kisten ins Auto.",
+    "en": "I'm loading the boxes into the car right now."
+  },
+  "regional": null,
+  "trick": "LADEN is the English word laden: a truck laden with boxes is one somebody has loaded.",
+  "image": "/deck-de/img/laden-load.webp",
+  "audio": {
+    "word": "/deck-de/audio/laden-load.word.mp3",
+    "sentence": "/deck-de/audio/laden-load.sentence.mp3"
+  }
+}

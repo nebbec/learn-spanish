@@ -1,0 +1,33 @@
+{
+  "id": "fuehlen-feel",
+  "rank": 252,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fühlen",
+  "en": "to feel",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "fühle",
+      "du": "fühlst",
+      "er": "fühlt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefühlt"
+    }
+  },
+  "example": {
+    "target": "Ich fühle mich heute viel besser.",
+    "en": "I feel much better today."
+  },
+  "regional": null,
+  "trick": "FÜHLEN sounds close to \"feel-en\": the ü is an ee said with rounded lips, so you can almost hear feel in it.",
+  "image": "/deck-de/img/fuehlen-feel.webp",
+  "audio": {
+    "word": "/deck-de/audio/fuehlen-feel.word.mp3",
+    "sentence": "/deck-de/audio/fuehlen-feel.sentence.mp3"
+  }
+}

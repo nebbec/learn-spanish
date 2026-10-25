@@ -1,0 +1,25 @@
+{
+  "id": "geist-spirit-mind",
+  "rank": 656,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Geist",
+  "en": "spirit, mind",
+  "hint": "inner self, not a ghost",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Geister"
+  },
+  "example": {
+    "target": "Im Geiste bin ich bei dir.",
+    "en": "I'm with you in spirit."
+  },
+  "regional": null,
+  "trick": "GEIST is the geist in zeitgeist, the spirit of the times.",
+  "image": "/deck-de/img/geist-spirit-mind.webp",
+  "audio": {
+    "word": "/deck-de/audio/geist-spirit-mind.word.mp3",
+    "sentence": "/deck-de/audio/geist-spirit-mind.sentence.mp3"
+  }
+}

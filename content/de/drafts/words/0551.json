@@ -1,0 +1,15 @@
+{
+  "rank": 551,
+  "word": "Million",
+  "cards": [
+    "million-million"
+  ],
+  "skip": null,
+  "sameAs": {
+    "million-million": "millon-million"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:33.370Z"
+}

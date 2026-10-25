@@ -1,0 +1,14 @@
+{
+  "id": "leider-unfortunately",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1f956a11e501c9d7",
+  "group": "#545 leider",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:34.422Z"
+}

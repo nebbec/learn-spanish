@@ -1,0 +1,14 @@
+{
+  "id": "zerstoeren-destroy",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "874d23ab30adfcd9",
+  "group": "#585 zerstören",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:56.253Z"
+}

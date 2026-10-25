@@ -1,0 +1,15 @@
+{
+  "rank": 194,
+  "word": "Nacht",
+  "cards": [
+    "nacht-night"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nacht-night": "noche-night"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:34:51.209Z"
+}

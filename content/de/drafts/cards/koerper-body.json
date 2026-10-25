@@ -1,0 +1,25 @@
+{
+  "id": "koerper-body",
+  "rank": 610,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Körper",
+  "en": "body",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Körper"
+  },
+  "example": {
+    "target": "Mein ganzer Körper tut weh.",
+    "en": "My whole body hurts."
+  },
+  "regional": null,
+  "trick": "KÖRPER sounds a bit like corpse, and a corpse is a dead body.",
+  "image": "/deck-de/img/koerper-body.webp",
+  "audio": {
+    "word": "/deck-de/audio/koerper-body.word.mp3",
+    "sentence": "/deck-de/audio/koerper-body.sentence.mp3"
+  }
+}

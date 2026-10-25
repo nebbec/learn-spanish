@@ -1,0 +1,15 @@
+{
+  "rank": 653,
+  "word": "nötig",
+  "cards": [
+    "noetig-necessary"
+  ],
+  "skip": null,
+  "sameAs": {
+    "noetig-necessary": "necesario-necessary"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:24.447Z"
+}

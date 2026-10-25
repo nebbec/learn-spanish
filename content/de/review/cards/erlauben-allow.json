@@ -1,0 +1,17 @@
+{
+  "id": "erlauben-allow",
+  "rank": 779,
+  "word": "erlauben",
+  "draft": "87aa1d9df3871eba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to allow, to permit",
+    "example": "My parents don't allow me (to do) that."
+  },
+  "note": "Lassen (\"to let\") and the more formal gestatten or zulassen are close, but erlauben is clearly the standard answer for \"to allow\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:19.488Z"
+}

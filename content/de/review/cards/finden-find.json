@@ -1,0 +1,17 @@
+{
+  "id": "finden-find",
+  "rank": 95,
+  "word": "finden",
+  "draft": "3a8d77ebc4264901",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to find",
+    "example": "I'm not finding my key / I can't find my key."
+  },
+  "note": "The trick's wording is a bit clumsy (\"sounds like find in\") but nothing in it is false.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:52.573Z"
+}

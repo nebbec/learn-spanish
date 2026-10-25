@@ -1,0 +1,21 @@
+{
+  "id": "im-in-the",
+  "rank": 67,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "im",
+  "en": "Anna is [in the] garden",
+  "hint": "one word, in + dem",
+  "grammar": null,
+  "example": {
+    "target": "Ich warte im Auto auf dich.",
+    "en": "I'll wait for you in the car."
+  },
+  "regional": null,
+  "trick": "IM sounds like the end of \"him\": squeeze \"in dem\" together and you get im, meaning \"in the\".",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/im-in-the.word.mp3",
+    "sentence": "/deck-de/audio/im-in-the.sentence.mp3"
+  }
+}

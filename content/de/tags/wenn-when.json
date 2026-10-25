@@ -1,0 +1,14 @@
+{
+  "id": "wenn-when",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use wenn to join two parts of a sentence; use wann to ask when, and als for one event in the past.",
+  "draft": "1ad0a8ad1249ac76",
+  "group": "#38 wenn",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:41.282Z"
+}

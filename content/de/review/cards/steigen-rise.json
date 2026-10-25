@@ -1,0 +1,17 @@
+{
+  "id": "steigen-rise",
+  "rank": 684,
+  "word": "steigen",
+  "draft": "d2adaf1f9044cf2a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to rise, to go up, to increase (of prices, temperature, water level)",
+    "example": "Prices go up every year."
+  },
+  "note": "The hint correctly separates this card from the climb card and excludes aufgehen for the sun; ansteigen is a less common near-synonym but steigen is the expected answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:57.352Z"
+}

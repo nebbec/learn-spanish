@@ -1,0 +1,14 @@
+{
+  "id": "etwas-somewhat",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1a751c889fffddf7",
+  "group": "#80 etwas",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:02.129Z"
+}

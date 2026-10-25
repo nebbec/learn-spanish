@@ -1,0 +1,14 @@
+{
+  "id": "tuer-door",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1524161db1dc2f24",
+  "group": "#321 Tür",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:54.056Z"
+}

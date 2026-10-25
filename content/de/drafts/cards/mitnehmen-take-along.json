@@ -1,0 +1,33 @@
+{
+  "id": "mitnehmen-take-along",
+  "rank": 710,
+  "kind": "content",
+  "pos": "verb",
+  "target": "mitnehmen",
+  "en": "to take along",
+  "hint": "someone or something, with you",
+  "grammar": {
+    "present": {
+      "ich": "nehme mit",
+      "du": "nimmst mit",
+      "er": "nimmt mit"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "mitgenommen"
+    }
+  },
+  "example": {
+    "target": "Nimmst du mich in die Stadt mit?",
+    "en": "Will you take me into town with you?"
+  },
+  "regional": null,
+  "trick": "MIT-nay-men sounds like 'mitt, name them': name the mittens you're taking along so you don't forget them.",
+  "image": "/deck-de/img/mitnehmen-take-along.webp",
+  "audio": {
+    "word": "/deck-de/audio/mitnehmen-take-along.word.mp3",
+    "sentence": "/deck-de/audio/mitnehmen-take-along.sentence.mp3"
+  }
+}

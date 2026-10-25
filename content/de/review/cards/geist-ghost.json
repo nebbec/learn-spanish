@@ -1,0 +1,17 @@
+{
+  "id": "geist-ghost",
+  "rank": 656,
+  "word": "Geist",
+  "draft": "cae448c496fcbb62",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "ghost; spirit, mind",
+    "example": "Do you believe in ghosts?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:24.828Z"
+}

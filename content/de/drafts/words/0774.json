@@ -1,0 +1,14 @@
+{
+  "rank": 774,
+  "word": "Arschloch",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "Arschloch is a swear word meaning asshole."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:08.926Z"
+}

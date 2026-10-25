@@ -1,0 +1,33 @@
+{
+  "id": "versuchen-try",
+  "rank": 161,
+  "kind": "content",
+  "pos": "verb",
+  "target": "versuchen",
+  "en": "to try",
+  "hint": "to attempt",
+  "grammar": {
+    "present": {
+      "ich": "versuche",
+      "du": "versuchst",
+      "er": "versucht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "versucht"
+    }
+  },
+  "example": {
+    "target": "Ich versuche es noch mal.",
+    "en": "I'll try again."
+  },
+  "regional": null,
+  "trick": "VERSUCHEN sounds like fair-ZOO-khen: at the fair zoo, you try to feed the animals.",
+  "image": "/deck-de/img/versuchen-try.webp",
+  "audio": {
+    "word": "/deck-de/audio/versuchen-try.word.mp3",
+    "sentence": "/deck-de/audio/versuchen-try.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "verlieben-fall-in-love",
+  "rank": 741,
+  "word": "verlieben",
+  "draft": "1c95cf90ef4a591e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fall in love (reflexive, with in + accusative)",
+    "example": "I think I'm falling in love with you."
+  },
+  "note": "The learner might find it useful to see that the person you fall for takes in plus the accusative (sich in jemanden verlieben), as the example shows.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:19.944Z"
+}

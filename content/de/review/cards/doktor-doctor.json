@@ -1,0 +1,23 @@
+{
+  "id": "doktor-doctor",
+  "rank": 554,
+  "word": "Doktor",
+  "draft": "ccc08a8335b8e442",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says Doktor ends in a rolled-off r, but in standard German the final -r of Doktor is softened to a vowel-like sound, not rolled, so it teaches the wrong pronunciation.",
+      "fix": "trick: DOKTOR is spelled with a k but sounds almost exactly like English doctor."
+    }
+  ],
+  "back": {
+    "target": "doctor (informal word for a physician; also the title Dr.)",
+    "example": "Thank you, doctor, I'm already feeling better."
+  },
+  "note": "The hint's example Herr Doktor contains the answer word, which makes the card easier but is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:41.543Z"
+}

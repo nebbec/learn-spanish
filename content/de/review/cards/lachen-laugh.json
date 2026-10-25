@@ -1,0 +1,17 @@
+{
+  "id": "lachen-laugh",
+  "rank": 374,
+  "word": "lachen",
+  "draft": "ffbcc957c4925e92",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to laugh",
+    "example": "Why are you laughing so loudly?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:53.074Z"
+}

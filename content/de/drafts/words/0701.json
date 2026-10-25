@@ -1,0 +1,17 @@
+{
+  "rank": 701,
+  "word": "handeln",
+  "cards": [
+    "handeln-act",
+    "handeln-be-about"
+  ],
+  "skip": null,
+  "sameAs": {
+    "handeln-act": "actuar-act",
+    "handeln-be-about": "tratar-be-about"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:47.863Z"
+}

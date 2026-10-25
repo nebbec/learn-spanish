@@ -1,0 +1,15 @@
+{
+  "rank": 715,
+  "word": "Schluss",
+  "cards": [
+    "schluss-end"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schluss-end": "final-end"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:30.121Z"
+}

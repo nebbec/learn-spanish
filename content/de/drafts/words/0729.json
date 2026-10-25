@@ -1,0 +1,15 @@
+{
+  "rank": 729,
+  "word": "Soldat",
+  "cards": [
+    "soldat-soldier"
+  ],
+  "skip": null,
+  "sameAs": {
+    "soldat-soldier": "soldado-soldier"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:19.937Z"
+}

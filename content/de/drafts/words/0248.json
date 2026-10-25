@@ -1,0 +1,17 @@
+{
+  "rank": 248,
+  "word": "echt",
+  "cards": [
+    "echt-real",
+    "echt-really"
+  ],
+  "skip": null,
+  "sameAs": {
+    "echt-real": "real-real",
+    "echt-really": "realmente-really"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:33.496Z"
+}

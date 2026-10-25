@@ -1,0 +1,17 @@
+{
+  "id": "noch-not-yet",
+  "rank": 48,
+  "word": "noch",
+  "draft": "a0cfd98900633a58",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "still, yet (in negatives: not yet = noch nicht)",
+    "example": "I'm not finished yet."
+  },
+  "note": "The prompt doesn't strictly need the hint, since \"not yet\" can only be noch, but the hint is fine. Germans usually say \"Ich hab noch keinen Hunger\", so \"the word before nicht or kein\" would match how people really talk better than \"the word before nicht\" alone.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:24.781Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "denn-question-particle",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use denn in questions to sound curious; dann means then in the sense of next or after that.",
+  "draft": "7ea0939dea01ab96",
+  "group": "#99 denn",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:31.420Z"
+}

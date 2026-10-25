@@ -1,0 +1,14 @@
+{
+  "id": "einige-a-few",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Einige is the neutral word for a few; ein paar is the casual everyday way to say it.",
+  "draft": "cef09151865d2c74",
+  "group": "#354 einige",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:56.364Z"
+}

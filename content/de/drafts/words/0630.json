@@ -1,0 +1,15 @@
+{
+  "rank": 630,
+  "word": "drüben",
+  "cards": [
+    "drueben-over-there"
+  ],
+  "skip": null,
+  "sameAs": {
+    "drueben-over-there": "alla-over-there"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:42.933Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "wenn-if",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use wenn for a condition (if it rains); use ob for whether (I don't know if he's coming).",
+  "draft": "5978b8a3a3cd1705",
+  "group": "#38 wenn",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:41.282Z"
+}

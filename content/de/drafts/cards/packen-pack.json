@@ -1,0 +1,33 @@
+{
+  "id": "packen-pack",
+  "rank": 771,
+  "kind": "content",
+  "pos": "verb",
+  "target": "packen",
+  "en": "to pack",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "packe",
+      "du": "packst",
+      "er": "packt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gepackt"
+    }
+  },
+  "example": {
+    "target": "Hast du deinen Koffer schon gepackt?",
+    "en": "Have you packed your suitcase yet?"
+  },
+  "regional": null,
+  "trick": "PACKEN sounds like packin': you're packin' your bag before a trip.",
+  "image": "/deck-de/img/packen-pack.webp",
+  "audio": {
+    "word": "/deck-de/audio/packen-pack.word.mp3",
+    "sentence": "/deck-de/audio/packen-pack.sentence.mp3"
+  }
+}

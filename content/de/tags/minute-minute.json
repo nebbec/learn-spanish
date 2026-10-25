@@ -1,0 +1,14 @@
+{
+  "id": "minute-minute",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6a977c659b441711",
+  "group": "#287 Minute",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:45.605Z"
+}

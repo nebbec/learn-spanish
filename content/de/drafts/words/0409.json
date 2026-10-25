@@ -1,0 +1,15 @@
+{
+  "rank": 409,
+  "word": "Wahrheit",
+  "cards": [
+    "wahrheit-truth"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wahrheit-truth": "verdad-truth"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:37.913Z"
+}

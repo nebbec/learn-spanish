@@ -1,0 +1,14 @@
+{
+  "id": "dass-that",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use dass to join two clauses (I know that…); das means the, or this/that as in das ist.",
+  "draft": "144ea076c4e556b1",
+  "group": "#24 dass",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:21.859Z"
+}

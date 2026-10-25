@@ -1,0 +1,25 @@
+{
+  "id": "spass-fun",
+  "rank": 413,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Spaß",
+  "en": "fun",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Späße"
+  },
+  "example": {
+    "target": "Das macht echt Spaß!",
+    "en": "This is really fun!"
+  },
+  "regional": null,
+  "trick": "SPASS is said SHPAHSS, like spa with a sh at the front: a day at the spa is pure fun.",
+  "image": "/deck-de/img/spass-fun.webp",
+  "audio": {
+    "word": "/deck-de/audio/spass-fun.word.mp3",
+    "sentence": "/deck-de/audio/spass-fun.sentence.mp3"
+  }
+}

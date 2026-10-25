@@ -1,0 +1,17 @@
+{
+  "id": "wovon-what-of",
+  "rank": 654,
+  "word": "wovon",
+  "draft": "ddd885ae0030d613",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "of what, from what, about what (question word: wo + von)",
+    "example": "What are you talking about?"
+  },
+  "note": "The hint is needed: without it, worüber (Worüber redest du?) would be just as right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:15.776Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 314,
+  "word": "Uhr",
+  "cards": [
+    "uhr-clock",
+    "uhr-oclock"
+  ],
+  "skip": null,
+  "sameAs": {
+    "uhr-clock": null,
+    "uhr-oclock": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:54.078Z"
+}

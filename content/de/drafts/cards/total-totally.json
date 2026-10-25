@@ -1,0 +1,21 @@
+{
+  "id": "total-totally",
+  "rank": 560,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "total",
+  "en": "totally",
+  "hint": "casual, as in totally tired; also total",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin heute total müde.",
+    "en": "I'm totally tired today."
+  },
+  "regional": null,
+  "trick": "TOTAL sounds like English total with the stress at the end, toh-TAHL: something total is totally done.",
+  "image": "/deck-de/img/total-totally.webp",
+  "audio": {
+    "word": "/deck-de/audio/total-totally.word.mp3",
+    "sentence": "/deck-de/audio/total-totally.sentence.mp3"
+  }
+}

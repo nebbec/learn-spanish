@@ -1,0 +1,25 @@
+{
+  "id": "baby-baby",
+  "rank": 301,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Baby",
+  "en": "baby",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Babys"
+  },
+  "example": {
+    "target": "Das Baby schläft endlich.",
+    "en": "The baby is finally asleep."
+  },
+  "regional": null,
+  "trick": "BABY is borrowed straight from English and sounds the same: a baby is a baby, it just takes das.",
+  "image": "/deck-de/img/baby-baby.webp",
+  "audio": {
+    "word": "/deck-de/audio/baby-baby.word.mp3",
+    "sentence": "/deck-de/audio/baby-baby.sentence.mp3"
+  }
+}

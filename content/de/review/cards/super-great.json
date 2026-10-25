@@ -1,0 +1,17 @@
+{
+  "id": "super-great",
+  "rank": 605,
+  "word": "super",
+  "draft": "69fdb848414afca9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "great, awesome (informal; it never changes its ending)",
+    "example": "The food here is great!"
+  },
+  "note": "The hint needs to be there, because \"great\" alone could also be toll, klasse or großartig, and \"the word English also has\" rules those out; you could also mention on the card that super never changes its ending (ein super Essen).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:46.828Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "verrueckt-crazy",
+  "rank": 298,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "verrückt",
+  "en": "crazy",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Bist du verrückt? Das ist viel zu gefährlich!",
+    "en": "Are you crazy? That's way too dangerous!"
+  },
+  "regional": null,
+  "trick": "VERRÜCKT sounds like fair-wrecked: a mind that is fairly wrecked has gone crazy.",
+  "image": "/deck-de/img/verrueckt-crazy.webp",
+  "audio": {
+    "word": "/deck-de/audio/verrueckt-crazy.word.mp3",
+    "sentence": "/deck-de/audio/verrueckt-crazy.sentence.mp3"
+  }
+}

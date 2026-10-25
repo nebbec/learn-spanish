@@ -1,0 +1,25 @@
+{
+  "id": "bild-picture",
+  "rank": 530,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Bild",
+  "en": "picture",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Bilder"
+  },
+  "example": {
+    "target": "Schau mal, das Bild hat meine Oma gemalt.",
+    "en": "Look, my grandma painted this picture."
+  },
+  "regional": null,
+  "trick": "BILD sounds like \"built\": a painter builds a picture stroke by stroke.",
+  "image": "/deck-de/img/bild-picture.webp",
+  "audio": {
+    "word": "/deck-de/audio/bild-picture.word.mp3",
+    "sentence": "/deck-de/audio/bild-picture.sentence.mp3"
+  }
+}

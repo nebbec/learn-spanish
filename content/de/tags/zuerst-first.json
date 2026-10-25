@@ -1,0 +1,14 @@
+{
+  "id": "zuerst-first",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use zuerst for doing something first, before anything else; erste is the adjective, as in der erste Tag.",
+  "draft": "3d92c6b6d0aea7ac",
+  "group": "#506 zuerst",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:20.464Z"
+}

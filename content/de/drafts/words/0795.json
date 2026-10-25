@@ -1,0 +1,15 @@
+{
+  "rank": 795,
+  "word": "aufgeben",
+  "cards": [
+    "aufgeben-give-up"
+  ],
+  "skip": null,
+  "sameAs": {
+    "aufgeben-give-up": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:33.888Z"
+}

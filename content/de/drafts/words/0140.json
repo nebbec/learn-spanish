@@ -1,0 +1,15 @@
+{
+  "rank": 140,
+  "word": "bis",
+  "cards": [
+    "bis-until"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bis-until": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:30:57.933Z"
+}

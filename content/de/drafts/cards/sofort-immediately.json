@@ -1,0 +1,21 @@
+{
+  "id": "sofort-immediately",
+  "rank": 277,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "sofort",
+  "en": "immediately",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Komm sofort her!",
+    "en": "Come here immediately!"
+  },
+  "regional": null,
+  "trick": "SOFORT sounds like zo-FORT: the enemy is coming, so run back to the fort immediately!",
+  "image": "/deck-de/img/sofort-immediately.webp",
+  "audio": {
+    "word": "/deck-de/audio/sofort-immediately.word.mp3",
+    "sentence": "/deck-de/audio/sofort-immediately.sentence.mp3"
+  }
+}

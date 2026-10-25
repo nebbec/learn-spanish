@@ -1,0 +1,14 @@
+{
+  "id": "wegen-because-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use wegen before a noun (wegen der Arbeit); weil starts a clause with a verb.",
+  "draft": "4f2723a76f6fe76d",
+  "group": "#230 wegen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:48.564Z"
+}

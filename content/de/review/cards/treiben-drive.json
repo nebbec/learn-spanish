@@ -1,0 +1,17 @@
+{
+  "id": "treiben-drive",
+  "rank": 797,
+  "word": "treiben",
+  "draft": "b3606d3c60b9a507",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to drive (push or herd forward; force someone into a state), also to drift, to do (sport)",
+    "example": "You're driving me crazy!"
+  },
+  "note": "Perfekt with haben is right for this transitive meaning; intransitive \"drift\" (ist getrieben) and \"Sport treiben\" are other common uses the editor might cover elsewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:57.317Z"
+}

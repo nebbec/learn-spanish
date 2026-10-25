@@ -1,0 +1,23 @@
+{
+  "id": "punkt-point",
+  "rank": 719,
+  "word": "Punkt",
+  "draft": "25480b5be12921ec",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The bare prompt \"point\" also fits die Spitze (the tip of something) and der Sinn (as in what's the point), so a learner could rightly answer with another word.",
+      "fix": "hint: a dot, or a point in a score or an argument"
+    }
+  ],
+  "back": {
+    "target": "point; dot; full stop (period); point in a score or a list",
+    "example": "That is a good point."
+  },
+  "note": "Punkt is also the German word for a full stop (period), and Punkt (as in um drei Uhr Punkt, or Punkt drei Uhr) means \\\"on the dot\\\", which could suit a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:41.170Z"
+}

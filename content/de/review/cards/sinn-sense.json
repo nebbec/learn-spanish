@@ -1,0 +1,17 @@
+{
+  "id": "sinn-sense",
+  "rank": 586,
+  "word": "Sinn",
+  "draft": "5e0e654c8a2d1a67",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sense, meaning (also one of the five senses)",
+    "example": "That doesn't make any sense."
+  },
+  "note": "Das macht keinen Sinn is also very common in everyday speech, but the example's ergibt is equally natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:05.414Z"
+}

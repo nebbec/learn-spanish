@@ -1,0 +1,17 @@
+{
+  "rank": 372,
+  "word": "Land",
+  "cards": [
+    "land-country",
+    "land-countryside"
+  ],
+  "skip": null,
+  "sameAs": {
+    "land-country": "pais-country",
+    "land-countryside": "campo-countryside"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:30.803Z"
+}

@@ -1,0 +1,39 @@
+# klappen-work-out · rank 524 · klappen
+#
+# Why it was flagged:
+#   - One right answer: For a plan going well, funktionieren (Das funktioniert schon) is also common in everyday speech and is not ruled out, because funktionieren is not formal, so the word informal does not exclude it. Suggested fix: hint: a plan going well, informal, not funktionieren
+#   - Same meaning as a Spanish card: funcionar means to work, mainly of a machine or device, the way funktionieren does, while klappen means a plan or attempt succeeding, so a picture of a machine working does not show klappen, and no other Spanish card matches it closely.
+# Reviewer's note (not a reason to flag): Gelingen and hinhauen also mean this, but gelingen is more formal and hinhauen less common, so the hint's word informal is enough for those two.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0524.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 klappen-work-out
+kind:               content
+pos:                verb
+target:             klappen
+en:                 to work out
+hint:               a plan going well, informal, not funktionieren
+ich:                klappe
+du:                 klappst
+er:                 klappt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geklappt
+example.target:     Keine Sorge, das klappt schon.
+example.en:         Don't worry, it'll work out.
+regional.where:
+regional.text:
+trick:              KLAPPEN sounds like clapping: when your plan works out, everyone claps.
+
+# The draft this file was made from. Do not change it.
+draft: 023dc1d1c0cfecce

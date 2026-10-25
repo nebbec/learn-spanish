@@ -1,0 +1,15 @@
+{
+  "rank": 772,
+  "word": "verzeihen",
+  "cards": [
+    "verzeihen-forgive"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verzeihen-forgive": "perdonar-forgive"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:04.346Z"
+}

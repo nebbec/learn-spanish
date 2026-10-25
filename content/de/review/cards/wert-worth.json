@@ -1,0 +1,23 @@
+{
+  "id": "wert-worth",
+  "rank": 549,
+  "word": "wert",
+  "draft": "427f89b32f4e95db",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card valer-be-worth (to be worth) has the same meaning as German wert (sein), so its picture fits this card.",
+      "fix": "valer-be-worth"
+    }
+  ],
+  "back": {
+    "target": "worth (predicative adjective, used with sein: etwas wert sein = to be worth something)",
+    "example": "The old car isn't worth much."
+  },
+  "note": "The noun der Wert (value) is a separate word, and the lowercase adjective target with its example keeps this card clear of it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:12.154Z"
+}

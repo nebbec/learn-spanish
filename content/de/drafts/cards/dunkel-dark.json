@@ -1,0 +1,21 @@
+{
+  "id": "dunkel-dark",
+  "rank": 735,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "dunkel",
+  "en": "dark",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Draußen ist es schon dunkel.",
+    "en": "It's already dark outside."
+  },
+  "regional": null,
+  "trick": "DUNKEL starts like dunk: dunk your head deep under water and everything goes dark.",
+  "image": "/deck-de/img/dunkel-dark.webp",
+  "audio": {
+    "word": "/deck-de/audio/dunkel-dark.word.mp3",
+    "sentence": "/deck-de/audio/dunkel-dark.sentence.mp3"
+  }
+}

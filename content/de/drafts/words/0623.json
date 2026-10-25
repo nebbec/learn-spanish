@@ -1,0 +1,15 @@
+{
+  "rank": 623,
+  "word": "genauso",
+  "cards": [
+    "genauso-just-as"
+  ],
+  "skip": null,
+  "sameAs": {
+    "genauso-just-as": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:17.202Z"
+}

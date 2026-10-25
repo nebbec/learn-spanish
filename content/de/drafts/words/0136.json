@@ -1,0 +1,15 @@
+{
+  "rank": 136,
+  "word": "kennen",
+  "cards": [
+    "kennen-know"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kennen-know": "conocer-know"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:30:33.464Z"
+}

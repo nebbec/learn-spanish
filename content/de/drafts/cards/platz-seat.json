@@ -1,0 +1,25 @@
+{
+  "id": "platz-seat",
+  "rank": 457,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Platz",
+  "en": "seat",
+  "hint": "your spot, as in is this one free?",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Plätze"
+  },
+  "example": {
+    "target": "Ist der Platz hier noch frei?",
+    "en": "Is this seat still free?"
+  },
+  "regional": null,
+  "trick": "PLATZ sounds like plots: at a wedding every guest gets a little plot, a seat of their own.",
+  "image": "/deck-de/img/platz-seat.webp",
+  "audio": {
+    "word": "/deck-de/audio/platz-seat.word.mp3",
+    "sentence": "/deck-de/audio/platz-seat.sentence.mp3"
+  }
+}

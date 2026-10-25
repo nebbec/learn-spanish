@@ -1,0 +1,17 @@
+{
+  "id": "besonders-especially",
+  "rank": 672,
+  "word": "besonders",
+  "draft": "b3539d9bd3d36e42",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "especially, particularly (adverb)",
+    "example": "The food was especially good today."
+  },
+  "note": "A learner might give insbesondere or vor allem here, but those are more formal or phrasal, and besonders is the clear everyday one-word answer, so the prompt works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:52.917Z"
+}

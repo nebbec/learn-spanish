@@ -1,0 +1,33 @@
+{
+  "id": "heissen-mean",
+  "rank": 167,
+  "kind": "content",
+  "pos": "verb",
+  "target": "heißen",
+  "en": "to mean",
+  "hint": "of words, as in what does that word mean; not bedeuten or meinen",
+  "grammar": {
+    "present": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er": "heißt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geheißen"
+    }
+  },
+  "example": {
+    "target": "Was heißt das auf Englisch?",
+    "en": "What does that mean in English?"
+  },
+  "regional": null,
+  "trick": "HEISST sounds like \"Hi, Ist\": a word says hi and tells you its name, which is what it means.",
+  "image": "/deck-de/img/heissen-mean.webp",
+  "audio": {
+    "word": "/deck-de/audio/heissen-mean.word.mp3",
+    "sentence": "/deck-de/audio/heissen-mean.sentence.mp3"
+  }
+}

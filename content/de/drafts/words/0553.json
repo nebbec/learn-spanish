@@ -1,0 +1,15 @@
+{
+  "rank": 553,
+  "word": "Hölle",
+  "cards": [
+    "hoelle-hell"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hoelle-hell": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:39.568Z"
+}

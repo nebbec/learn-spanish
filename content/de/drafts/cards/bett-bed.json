@@ -1,0 +1,25 @@
+{
+  "id": "bett-bed",
+  "rank": 424,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Bett",
+  "en": "bed",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Betten"
+  },
+  "example": {
+    "target": "Ich gehe jetzt ins Bett.",
+    "en": "I'm going to bed now."
+  },
+  "regional": null,
+  "trick": "BETT sounds like English bed said with a hard t at the end, and it means a bed.",
+  "image": "/deck-de/img/bett-bed.webp",
+  "audio": {
+    "word": "/deck-de/audio/bett-bed.word.mp3",
+    "sentence": "/deck-de/audio/bett-bed.sentence.mp3"
+  }
+}

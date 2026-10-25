@@ -1,0 +1,17 @@
+{
+  "id": "teilen-share",
+  "rank": 636,
+  "word": "teilen",
+  "draft": "9dc3d3f38c3961c9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to share; to divide",
+    "example": "We're sharing a pizza (between us)."
+  },
+  "note": "The example uses the reflexive \"sich etwas teilen\" (to share something between yourselves), which is the natural everyday pattern; teilen also means \"to divide\", which the card leaves out but which doesn't conflict with it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:32.984Z"
+}

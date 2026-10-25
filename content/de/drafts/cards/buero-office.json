@@ -1,0 +1,25 @@
+{
+  "id": "buero-office",
+  "rank": 520,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Büro",
+  "en": "office",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Büros"
+  },
+  "example": {
+    "target": "Ich bin noch im Büro.",
+    "en": "I'm still at the office."
+  },
+  "regional": null,
+  "trick": "BÜRO sounds like \"bureau\", as in FBI bureau: a bureau is an office.",
+  "image": "/deck-de/img/buero-office.webp",
+  "audio": {
+    "word": "/deck-de/audio/buero-office.word.mp3",
+    "sentence": "/deck-de/audio/buero-office.sentence.mp3"
+  }
+}

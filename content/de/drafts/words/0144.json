@@ -1,0 +1,15 @@
+{
+  "rank": 144,
+  "word": "zurück",
+  "cards": [
+    "zurueck-back"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zurueck-back": "atras-back"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:13.182Z"
+}

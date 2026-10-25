@@ -1,0 +1,15 @@
+{
+  "rank": 217,
+  "word": "niemand",
+  "cards": [
+    "niemand-nobody"
+  ],
+  "skip": null,
+  "sameAs": {
+    "niemand-nobody": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:28.800Z"
+}

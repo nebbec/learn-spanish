@@ -1,0 +1,15 @@
+{
+  "rank": 393,
+  "word": "Ort",
+  "cards": [
+    "ort-place"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ort-place": "lugar-place"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:56.834Z"
+}

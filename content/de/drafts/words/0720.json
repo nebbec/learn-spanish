@@ -1,0 +1,15 @@
+{
+  "rank": 720,
+  "word": "Liebling",
+  "cards": [
+    "liebling-darling"
+  ],
+  "skip": null,
+  "sameAs": {
+    "liebling-darling": "carino-honey"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:49.857Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kennenlernen-meet",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use kennenlernen for meeting someone for the first time; treffen for meeting up with someone you already know.",
+  "draft": "f9dbd36726a29b55",
+  "group": "#698 kennenlernen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:01.958Z"
+}

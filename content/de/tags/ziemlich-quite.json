@@ -1,0 +1,14 @@
+{
+  "id": "ziemlich-quite",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "47dfd35ef30b1d1e",
+  "group": "#370 ziemlich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:28.639Z"
+}

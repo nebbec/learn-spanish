@@ -1,0 +1,25 @@
+{
+  "id": "plan-plan",
+  "rank": 548,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Plan",
+  "en": "plan",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Pläne"
+  },
+  "example": {
+    "target": "Was ist dein Plan für heute?",
+    "en": "What's your plan for today?"
+  },
+  "regional": null,
+  "trick": "PLAN sounds almost like the English plan, just with a long ah: plahn. Same word, same meaning.",
+  "image": "/deck-de/img/plan-plan.webp",
+  "audio": {
+    "word": "/deck-de/audio/plan-plan.word.mp3",
+    "sentence": "/deck-de/audio/plan-plan.sentence.mp3"
+  }
+}

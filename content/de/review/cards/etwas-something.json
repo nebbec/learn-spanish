@@ -1,0 +1,17 @@
+{
+  "id": "etwas-something",
+  "rank": 80,
+  "word": "etwas",
+  "draft": "8a39e24d523af54d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "something",
+    "example": "Do you want something to drink?"
+  },
+  "note": "The hint is useful because it rules out the casual was, which is just as common in this sentence; the Spanish algo-somewhat card is the adverb meaning, so null is right here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:27.602Z"
+}

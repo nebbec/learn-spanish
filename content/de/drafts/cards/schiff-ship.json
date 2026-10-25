@@ -1,0 +1,25 @@
+{
+  "id": "schiff-ship",
+  "rank": 468,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Schiff",
+  "en": "ship",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Schiffe"
+  },
+  "example": {
+    "target": "Das Schiff fährt um acht Uhr ab.",
+    "en": "The ship leaves at eight o'clock."
+  },
+  "regional": null,
+  "trick": "SCHIFF sounds like \"ship\" with an f at the end: a big ship sailing off.",
+  "image": "/deck-de/img/schiff-ship.webp",
+  "audio": {
+    "word": "/deck-de/audio/schiff-ship.word.mp3",
+    "sentence": "/deck-de/audio/schiff-ship.sentence.mp3"
+  }
+}

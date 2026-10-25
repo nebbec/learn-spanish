@@ -1,0 +1,14 @@
+{
+  "id": "entschuldigen-apologize",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4df0fac5de05c664",
+  "group": "#279 entschuldigen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:30.320Z"
+}

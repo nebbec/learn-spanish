@@ -1,0 +1,33 @@
+{
+  "id": "stehlen-steal",
+  "rank": 570,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stehlen",
+  "en": "to steal",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "stehle",
+      "du": "stiehlst",
+      "er": "stiehlt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestohlen"
+    }
+  },
+  "example": {
+    "target": "Jemand hat mein Fahrrad gestohlen.",
+    "en": "Someone stole my bike."
+  },
+  "regional": null,
+  "trick": "STEHLEN sounds like \"shtay-len\", close to \"stealing\": to stehlen is to steal.",
+  "image": "/deck-de/img/stehlen-steal.webp",
+  "audio": {
+    "word": "/deck-de/audio/stehlen-steal.word.mp3",
+    "sentence": "/deck-de/audio/stehlen-steal.sentence.mp3"
+  }
+}

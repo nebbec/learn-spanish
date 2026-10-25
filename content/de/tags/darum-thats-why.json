@@ -1,0 +1,14 @@
+{
+  "id": "darum-thats-why",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9b7671b0e3485d2a",
+  "group": "#376 darum",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:41.295Z"
+}

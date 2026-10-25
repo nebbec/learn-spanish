@@ -1,0 +1,15 @@
+{
+  "rank": 724,
+  "word": "Geschenk",
+  "cards": [
+    "geschenk-gift"
+  ],
+  "skip": null,
+  "sameAs": {
+    "geschenk-gift": "regalo-gift"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:02.537Z"
+}

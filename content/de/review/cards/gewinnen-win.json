@@ -1,0 +1,17 @@
+{
+  "id": "gewinnen-win",
+  "rank": 422,
+  "word": "gewinnen",
+  "draft": "972fdf1f0eae7b8f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to win (a game, a prize; also to gain)",
+    "example": "We won the game!"
+  },
+  "note": "The present forms are regular, so irregular is true only because of the strong participle gewonnen, which is correct under the card rules.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:05.288Z"
+}

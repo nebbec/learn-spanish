@@ -1,0 +1,17 @@
+{
+  "id": "solcher-such",
+  "rank": 480,
+  "word": "solcher",
+  "draft": "f7bba9a3640542f2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "such (a), like that",
+    "example": "I don't like such people / people like that."
+  },
+  "note": "The hint is needed, because in everyday speech so ein Unsinn is the more natural choice and the hint rules it out; the prompt also works out neatly, since masculine Unsinn with no article takes exactly the dictionary ending -er (Solcher Unsinn nervt mich echt).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:32.375Z"
+}

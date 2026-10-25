@@ -1,0 +1,21 @@
+{
+  "id": "wahr-true",
+  "rank": 254,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "wahr",
+  "en": "true",
+  "hint": "not false",
+  "grammar": null,
+  "example": {
+    "target": "Das ist leider wahr.",
+    "en": "Unfortunately, that's true."
+  },
+  "regional": null,
+  "trick": "WAHR sounds like VAR, football's video referee, which checks what is true.",
+  "image": "/deck-de/img/wahr-true.webp",
+  "audio": {
+    "word": "/deck-de/audio/wahr-true.word.mp3",
+    "sentence": "/deck-de/audio/wahr-true.sentence.mp3"
+  }
+}

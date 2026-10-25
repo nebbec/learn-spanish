@@ -1,0 +1,33 @@
+{
+  "id": "erlauben-allow",
+  "rank": 779,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erlauben",
+  "en": "to allow",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "erlaube",
+      "du": "erlaubst",
+      "er": "erlaubt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erlaubt"
+    }
+  },
+  "example": {
+    "target": "Meine Eltern erlauben mir das nicht.",
+    "en": "My parents don't allow me to do that."
+  },
+  "regional": null,
+  "trick": "ERLAUBEN sounds like \"air, lobby in\": the doorman waves you into the lobby, so you're allowed in.",
+  "image": "/deck-de/img/erlauben-allow.webp",
+  "audio": {
+    "word": "/deck-de/audio/erlauben-allow.word.mp3",
+    "sentence": "/deck-de/audio/erlauben-allow.sentence.mp3"
+  }
+}

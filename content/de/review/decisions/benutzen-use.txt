@@ -1,0 +1,38 @@
+# benutzen-use · rank 440 · benutzen
+#
+# Why it was flagged:
+#   - Usage in Germany: In Austria and Switzerland (and southern Germany) the everyday form is benützen, a common variant a learner will hear, so regional should not be null. Suggested fix: regional: { where: "Austria, Switzerland", text: "benützen is the usual form (also common in southern Germany)" }
+#   - Memory trick: The u in nutz is short, as in foot, so 'said like noots' (the long oo of boots) gives the wrong pronunciation. Suggested fix: trick: BeNUTZen hides NUTZ, which sounds a lot like nuts: a squirrel uses a stone to crack its nuts.
+# Reviewer's note (not a reason to flag): Nutzen and gebrauchen can also mean to use, but for this plain everyday prompt with the hint, benutzen is the natural answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 benutzen-use
+kind:               content
+pos:                verb
+target:             benutzen
+en:                 to use
+hint:               everyday word, not verwenden
+ich:                benutze
+du:                 benutzt
+er:                 benutzt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: benutzt
+example.target:     Benutzt du das noch?
+example.en:         Are you still using that?
+regional.where:     Austria
+regional.text:      benützen is the usual form (also in Switzerland and southern Germany)
+trick:              BeNUTZen hides NUTZ, which sounds a lot like nuts: a squirrel uses a stone to crack its nuts.
+
+# The draft this file was made from. Do not change it.
+draft: eda7599bbe18edec

@@ -1,0 +1,17 @@
+{
+  "id": "bett-bed",
+  "rank": 424,
+  "word": "Bett",
+  "draft": "61e8cbb7f072a794",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "bed",
+    "example": "I'm going to bed now."
+  },
+  "note": "The trick is close to a cognate reminder rather than a sound pun, which is fine since Bett and bed really are related.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:11.052Z"
+}

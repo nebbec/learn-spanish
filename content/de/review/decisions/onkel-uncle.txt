@@ -1,0 +1,33 @@
+# onkel-uncle · rank 596 · Onkel
+#
+# Why it was flagged:
+#   - Memory trick: The trick says Onkel is almost uncle said backwards, which is false: it sounds like uncle said forwards, and the backwards claim would confuse learners. Suggested fix: trick: Onkel sounds almost exactly like uncle with an o at the front: your Onkel is your uncle.
+# Reviewer's note (not a reason to flag): The plural die Onkels is also common in casual speech, but die Onkel is the standard form, so the card is fine as it is.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             onkel-uncle
+kind:           content
+pos:            noun
+target:         der Onkel
+en:             uncle
+hint:
+gender:         m
+article:        der
+plural:         die Onkel
+example.target: Mein Onkel wohnt in Hamburg.
+example.en:     My uncle lives in Hamburg.
+regional.where:
+regional.text:
+trick:          Onkel sounds almost exactly like uncle with an o at the front: your Onkel is your uncle.
+
+# The draft this file was made from. Do not change it.
+draft: 3c722ac5542d2184

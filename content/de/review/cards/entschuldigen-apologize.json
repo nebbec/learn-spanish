@@ -1,0 +1,17 @@
+{
+  "id": "entschuldigen-apologize",
+  "rank": 279,
+  "word": "entschuldigen",
+  "draft": "4df0fac5de05c664",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to apologize (reflexive sich entschuldigen)",
+    "example": "I apologize to you."
+  },
+  "note": "The hint \"with sich\" isn't strictly needed, but it helps keep this card apart from the word's \"to excuse\" card; disculpar-excuse and disculpa-apology are close to this card, but neither one means to apologize.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:59.271Z"
+}

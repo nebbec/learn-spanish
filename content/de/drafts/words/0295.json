@@ -1,0 +1,17 @@
+{
+  "rank": 295,
+  "word": "darüber",
+  "cards": [
+    "darueber-about-it",
+    "darueber-above-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "darueber-about-it": null,
+    "darueber-above-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:40.989Z"
+}

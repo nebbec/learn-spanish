@@ -1,0 +1,21 @@
+{
+  "id": "aber-but",
+  "rank": 27,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "aber",
+  "en": "I'm tired, [but] happy",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich will mitkommen, aber ich habe keine Zeit.",
+    "en": "I want to come along, but I don't have time."
+  },
+  "regional": null,
+  "trick": "ABER sounds like AH-buh, a bit like a doubtful \"ah, but...\" you say just before you object.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/aber-but.word.mp3",
+    "sentence": "/deck-de/audio/aber-but.sentence.mp3"
+  }
+}

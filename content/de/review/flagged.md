@@ -1,6 +1,6 @@
 # Flagged cards
 
-The review pass flagged 43 cards: 0 waiting for you, 43 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
+The review pass flagged 199 cards: 0 waiting for you, 199 decided. This file is rewritten by `npm run review` and `npm run deck`; do not edit it.
 
 **To decide on a card**, open its file in `content/de/review/decisions/` (linked under each card), change `decision: pending` to `decision: approve` or `decision: reject`, and correct any card line first if it needs it. Then run `npm run deck -- --lang de`, which puts approved cards in the deck and rewrites this list.
 
@@ -12,20 +12,176 @@ Nothing.
 
 - ein-one (rank 6, ein): approved. Flagged for meaning, one right answer.
 - ja-particle-really (rank 20, ja): approved. Flagged for one right answer.
+- wenn-if (rank 38, wenn): approved. Flagged for one right answer.
+- wenn-when (rank 38, wenn): approved. Flagged for memory trick.
 - muessen-must (rank 42, müssen): approved. Flagged for example sentence.
 - nein-no (rank 44, nein): approved. Flagged for example sentence.
+- nur-only (rank 49, nur): approved. Flagged for one right answer.
+- sich-oneself (rank 52, sich): approved. Flagged for memory trick.
+- geben-there-is (rank 59, geben): approved. Flagged for usage in germany.
+- doch-emphasis (rank 68, doch): approved. Flagged for one right answer.
+- oder-right-tag (rank 71, oder): approved. Flagged for usage in germany.
 - nach-to (rank 73, nach): approved. Flagged for example sentence.
+- etwas-somewhat (rank 80, etwas): approved. Flagged for one right answer.
 - bitte-youre-welcome (rank 86, bitte): approved. Flagged for one right answer.
+- glauben-believe (rank 92, glauben): approved. Flagged for memory trick.
+- glauben-think-opinion (rank 92, glauben): approved. Flagged for one right answer.
+- wieder-again (rank 94, wieder): approved. Flagged for one right answer.
+- finden-think-opinion (rank 95, finden): approved. Flagged for one right answer.
 - danke-thank-you (rank 96, danke): approved. Flagged for usage in germany, example uses words not met yet.
 - moegen-would-like (rank 104, mögen): approved. Flagged for grammar.
+- euch-you-plural (rank 105, euch): approved. Flagged for one right answer.
+- wirklich-real (rank 109, wirklich): approved. Flagged for one right answer.
+- weg-away (rank 115, weg): approved. Flagged for one right answer.
+- bringen-take (rank 116, bringen): approved. Flagged for one right answer.
+- reden-talk (rank 119, reden): approved. Flagged for one right answer.
 - haus-at-home (rank 129, Haus): approved. Flagged for usage in germany, memory trick.
+- na-well-so (rank 141, na): approved. Flagged for one right answer.
+- halten-stop (rank 156, halten): approved. Flagged for one right answer.
 - morgen-tomorrow (rank 157, morgen): approved. Flagged for example sentence.
+- zur-to-the (rank 160, zur): approved. Flagged for one right answer.
+- richtig-really (rank 163, richtig): approved. Flagged for one right answer.
+- heissen-mean (rank 167, heißen): approved. Flagged for example sentence.
+- gleich-in-a-moment (rank 173, gleich): approved. Flagged for one right answer.
 - mutter-mother (rank 175, Mutter): approved. Flagged for memory trick.
+- wieso-why (rank 184, wieso): approved. Flagged for example sentence.
+- stimmen-be-right (rank 190, stimmen): approved. Flagged for one right answer.
+- selbst-self (rank 191, selbst): approved. Flagged for one right answer.
+- selbst-even (rank 191, selbst): approved. Flagged for same meaning as a spanish card.
+- bekommen-get (rank 192, bekommen): approved. Flagged for one right answer.
+- her-here-toward (rank 196, her): approved. Flagged for one right answer.
+- laufen-run (rank 199, laufen): approved. Flagged for one right answer, example sentence.
+- laufen-walk (rank 199, laufen): approved. Flagged for usage in germany.
+- laufen-go-well (rank 199, laufen): approved. Flagged for one right answer.
+- natuerlich-of-course (rank 201, natürlich): approved. Flagged for one right answer.
+- beide-both (rank 203, beide): approved. Flagged for one right answer.
+- stellen-ask-question (rank 208, stellen): approved. Flagged for same meaning as a spanish card.
+- rufen-call (rank 212, rufen): approved. Flagged for same meaning as a spanish card.
+- dort-there (rank 215, dort): approved. Flagged for one right answer.
+- erste-first (rank 219, erste): approved. Flagged for one right answer.
+- herr-gentleman (rank 226, Herr): approved. Flagged for one right answer.
+- hin-there-direction (rank 232, hin): approved. Flagged for one right answer.
+- meinen-think (rank 234, meinen): approved. Flagged for one right answer.
+- rein-pure (rank 235, rein): approved. Flagged for one right answer.
+- welcher-which (rank 238, welcher): approved. Flagged for memory trick.
+- toll-great (rank 242, toll): approved. Flagged for one right answer.
 - weit-far (rank 243, weit): approved. Flagged for one right answer.
+- echt-really (rank 248, echt): approved. Flagged for one right answer.
+- schaffen-create (rank 253, schaffen): approved. Flagged for one right answer.
+- ziehen-move (rank 256, ziehen): approved. Flagged for one right answer.
+- schauen-look (rank 258, schauen): approved. Flagged for one right answer.
+- kriegen-get (rank 260, kriegen): approved. Flagged for same meaning as a spanish card.
+- setzen-sit-down (rank 265, setzen): approved. Flagged for one right answer, grammar.
+- setzen-put (rank 265, setzen): approved. Flagged for one right answer.
+- halt-just (rank 268, halt): approved. Flagged for one right answer.
+- halt-stop (rank 268, halt): approved. Flagged for one right answer.
+- naechste-next (rank 270, nächste): approved. Flagged for memory trick.
+- dabei-in (rank 272, dabei): approved. Flagged for example sentence.
+- schatz-honey (rank 275, Schatz): approved. Flagged for one right answer.
+- stunde-hour (rank 276, Stunde): approved. Flagged for memory trick.
+- fertig-finished (rank 284, fertig): approved. Flagged for one right answer.
+- fertig-ready (rank 284, fertig): approved. Flagged for one right answer.
+- darueber-above-it (rank 295, darüber): approved. Flagged for memory trick.
+- baby-baby (rank 301, Baby): approved. Flagged for usage in germany.
 - stadt-city (rank 309, Stadt): approved. Flagged for memory trick.
+- eigentlich-real (rank 310, eigentlich): approved. Flagged for one right answer.
+- verlassen-leave (rank 311, verlassen): approved. Flagged for same meaning as a spanish card.
+- typ-guy (rank 317, Typ): approved. Flagged for one right answer.
+- reichen-pass (rank 324, reichen): approved. Flagged for one right answer.
+- scheinen-shine (rank 337, scheinen): approved. Flagged for one right answer.
 - bisschen-a-bit (rank 347, bisschen): approved. Flagged for one right answer, usage in germany.
+- einige-a-few (rank 354, einige): approved. Flagged for memory trick.
 - liebe-love (rank 357, Liebe): approved. Flagged for memory trick.
+- runter-down (rank 362, runter): approved. Flagged for one right answer.
+- schlagen-beat (rank 364, schlagen): approved. Flagged for one right answer.
+- hinter-back-rear (rank 366, hinter): approved. Flagged for one right answer, grammar.
+- vorbei-over (rank 367, vorbei): approved. Flagged for one right answer.
+- dran-on-it (rank 371, dran): approved. Flagged for example sentence.
+- land-country (rank 372, Land): approved. Flagged for memory trick.
+- land-countryside (rank 372, Land): approved. Flagged for memory trick.
+- klingen-sound (rank 380, klingen): approved. Flagged for one right answer.
+- je-ever (rank 384, je): approved. Flagged for one right answer, example sentence.
+- art-way-manner (rank 386, Art): approved. Flagged for one right answer.
+- schuld-debt (rank 387, Schuld): approved. Flagged for one right answer.
+- ueberhaupt-anyway (rank 390, überhaupt): approved. Flagged for one right answer.
+- etwa-about (rank 401, etwa): approved. Flagged for one right answer.
+- chance-chance (rank 404, Chance): approved. Flagged for one right answer.
+- eben-simply (rank 411, eben): approved. Flagged for usage in germany.
+- stecken-be-stuck (rank 412, stecken): approved. Flagged for one right answer.
+- spass-joke (rank 413, Spaß): approved. Flagged for one right answer.
+- suess-cute (rank 418, süß): approved. Flagged for one right answer, usage in germany.
+- aendern-change (rank 420, ändern): approved. Flagged for one right answer.
+- niemals-never (rank 426, niemals): approved. Flagged for example sentence.
+- benutzen-use (rank 440, benutzen): approved. Flagged for usage in germany, memory trick.
+- entschuldigung-sorry (rank 451, Entschuldigung): approved. Flagged for one right answer.
+- laut-according-to (rank 465, laut): approved. Flagged for one right answer.
+- schiff-ship (rank 468, Schiff): approved. Flagged for same meaning as a spanish card.
+- herum-around (rank 487, herum): approved. Flagged for example sentence.
+- fuehren-lead (rank 490, führen): approved. Flagged for example sentence.
+- frueher-used-to (rank 500, früher): approved. Flagged for same meaning as a spanish card.
+- zuerst-first (rank 506, zuerst): approved. Flagged for one right answer.
+- menge-crowd (rank 518, Menge): approved. Flagged for one right answer.
+- hierher-here-motion (rank 519, hierher): approved. Flagged for one right answer.
+- vorstellen-introduce (rank 522, vorstellen): approved. Flagged for example sentence.
+- klappen-work-out (rank 524, klappen): approved. Flagged for one right answer, same meaning as a spanish card.
+- raten-advise (rank 541, raten): approved. Flagged for one right answer.
+- grossartig-great (rank 542, großartig): approved. Flagged for one right answer.
+- geschaeft-business (rank 543, Geschäft): approved. Flagged for one right answer.
+- cool-cool (rank 544, cool): approved. Flagged for memory trick.
+- wert-worth (rank 549, wert): approved. Flagged for same meaning as a spanish card.
+- stueck-play (rank 552, Stück): approved. Flagged for one right answer.
+- doktor-doctor (rank 554, Doktor): approved. Flagged for memory trick.
+- total-totally (rank 560, total): approved. Flagged for one right answer.
+- voellig-completely (rank 561, völlig): approved. Flagged for one right answer.
+- tja-well (rank 562, tja): approved. Flagged for one right answer.
+- melden-report (rank 578, melden): approved. Flagged for one right answer.
+- melden-get-in-touch (rank 578, melden): approved. Flagged for same meaning as a spanish card.
+- besorgen-get (rank 581, besorgen): approved. Flagged for one right answer.
+- fassen-catch (rank 590, fassen): approved. Flagged for one right answer.
+- weh-hurt (rank 594, Weh): approved. Flagged for one right answer.
+- onkel-uncle (rank 596, Onkel): approved. Flagged for memory trick.
+- witz-joke (rank 598, Witz): approved. Flagged for one right answer.
+- lustig-funny (rank 601, lustig): approved. Flagged for one right answer.
+- bloed-dumb (rank 603, blöd): approved. Flagged for one right answer.
+- meist-most (rank 604, meist): approved. Flagged for meaning, one right answer, grammar, example sentence.
+- treten-kick (rank 613, treten): approved. Flagged for one right answer.
+- nachdem-after (rank 618, nachdem): approved. Flagged for usage in germany, example sentence.
+- bestimmen-definitely (rank 620, bestimmen): approved. Flagged for one right answer.
+- seltsam-strange (rank 634, seltsam): approved. Flagged for one right answer, example sentence.
+- nachdenken-think-over (rank 643, nachdenken): approved. Flagged for one right answer.
+- klasse-class (rank 650, Klasse): approved. Flagged for same meaning as a spanish card.
+- geist-spirit-mind (rank 656, Geist): approved. Flagged for one right answer, same meaning as a spanish card.
+- sex-sex (rank 658, Sex): approved. Flagged for one right answer.
+- merken-notice (rank 663, merken): approved. Flagged for one right answer.
+- karte-map (rank 665, Karte): approved. Flagged for one right answer.
+- wenigstens-at-least (rank 667, wenigstens): approved. Flagged for one right answer.
+- angreifen-attack (rank 675, angreifen): approved. Flagged for example sentence.
+- bestehen-pass (rank 676, bestehen): approved. Flagged for one right answer.
+- solange-as-long-as (rank 677, solange): approved. Flagged for one right answer.
+- steigen-climb (rank 684, steigen): approved. Flagged for one right answer.
+- beschuetzen-protect (rank 689, beschützen): approved. Flagged for one right answer.
+- lieb-kind (rank 692, lieb): approved. Flagged for one right answer.
+- irren-be-wrong (rank 693, irren): approved. Flagged for one right answer.
+- veraendern-change (rank 697, verändern): approved. Flagged for one right answer.
+- aufhalten-stop (rank 699, aufhalten): approved. Flagged for one right answer.
+- punkt-point (rank 719, Punkt): approved. Flagged for one right answer.
+- schuetzen-protect (rank 723, schützen): approved. Flagged for one right answer.
+- handy-cell-phone (rank 725, Handy): approved. Flagged for same meaning as a spanish card.
+- tatsaechlich-indeed (rank 728, tatsächlich): approved. Flagged for one right answer.
 - deutsch-german (rank 731, deutsch): approved. Flagged for one right answer.
+- heraus-out (rank 734, heraus): approved. Flagged for one right answer.
+- rennen-run (rank 737, rennen): approved. Flagged for usage in germany.
+- staendig-constantly (rank 744, ständig): approved. Flagged for one right answer.
+- jemals-ever (rank 750, jemals): approved. Flagged for one right answer.
+- ueberlegen-consider (rank 754, überlegen): approved. Flagged for one right answer.
+- ueberlegen-superior (rank 754, überlegen): approved. Flagged for one right answer.
+- fenster-window (rank 763, Fenster): approved. Flagged for memory trick.
+- tasche-pocket (rank 768, Tasche): approved. Flagged for usage in germany, example sentence.
+- packen-pack (rank 771, packen): approved. Flagged for one right answer.
+- ueberpruefen-check (rank 782, überprüfen): approved. Flagged for one right answer.
+- zeug-stuff (rank 786, Zeug): approved. Flagged for one right answer.
+- aufgeben-give-up (rank 795, aufgeben): approved. Flagged for memory trick.
+- treiben-be-up-to (rank 797, treiben): approved. Flagged for one right answer.
 - sein-form-er (rank 2, sein): approved. Flagged for example sentence.
 - moechten-form-ich (rank 104, möchten): approved. Flagged for one right answer.
 - moechten-form-er (rank 104, möchten): approved. Flagged for grammar.

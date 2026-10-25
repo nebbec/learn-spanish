@@ -1,0 +1,25 @@
+{
+  "id": "land-countryside",
+  "rank": 372,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Land",
+  "en": "countryside",
+  "hint": "not the city",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": null
+  },
+  "example": {
+    "target": "Meine Oma wohnt auf dem Land.",
+    "en": "My grandma lives in the countryside."
+  },
+  "regional": null,
+  "trick": "LAND sounds like lahnt, almost English land: out in the countryside there is open land everywhere.",
+  "image": "/deck-de/img/land-countryside.webp",
+  "audio": {
+    "word": "/deck-de/audio/land-countryside.word.mp3",
+    "sentence": "/deck-de/audio/land-countryside.sentence.mp3"
+  }
+}

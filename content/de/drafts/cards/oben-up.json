@@ -1,0 +1,21 @@
+{
+  "id": "oben-up",
+  "rank": 396,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "oben",
+  "en": "up, upstairs",
+  "hint": "where something is, not where to",
+  "grammar": null,
+  "example": {
+    "target": "Mein Zimmer ist oben.",
+    "en": "My room is upstairs."
+  },
+  "regional": null,
+  "trick": "OBEN sounds like \"Oh, Ben!\", what you shout up to Ben, who is upstairs.",
+  "image": "/deck-de/img/oben-up.webp",
+  "audio": {
+    "word": "/deck-de/audio/oben-up.word.mp3",
+    "sentence": "/deck-de/audio/oben-up.sentence.mp3"
+  }
+}

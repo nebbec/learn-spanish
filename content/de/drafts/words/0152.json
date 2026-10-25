@@ -1,0 +1,15 @@
+{
+  "rank": 152,
+  "word": "genau",
+  "cards": [
+    "genau-exactly"
+  ],
+  "skip": null,
+  "sameAs": {
+    "genau-exactly": "exactamente-exactly"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:28.135Z"
+}

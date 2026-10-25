@@ -1,0 +1,15 @@
+{
+  "rank": 180,
+  "word": "raus",
+  "cards": [
+    "raus-out"
+  ],
+  "skip": null,
+  "sameAs": {
+    "raus-out": "fuera-out"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:43.393Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unterwegs-on-the-way",
+  "rank": 765,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "unterwegs",
+  "en": "on the way",
+  "hint": "one word; also out and about",
+  "grammar": null,
+  "example": {
+    "target": "Keine Sorge, ich bin schon unterwegs.",
+    "en": "Don't worry, I'm already on my way."
+  },
+  "regional": null,
+  "trick": "UNTERWEGS sounds like \"under vegs\", close to \"underway\": when you're underway, you're on the way.",
+  "image": "/deck-de/img/unterwegs-on-the-way.webp",
+  "audio": {
+    "word": "/deck-de/audio/unterwegs-on-the-way.word.mp3",
+    "sentence": "/deck-de/audio/unterwegs-on-the-way.sentence.mp3"
+  }
+}

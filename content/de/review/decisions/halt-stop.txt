@@ -1,0 +1,30 @@
+# halt-stop · rank 268 · halt
+#
+# Why it was flagged:
+#   - One right answer: The hint excludes Stopp but not 'Stehen bleiben!', which is just as common as a police command, so a learner could fairly give that instead. Suggested fix: hint: one-word command shouted by police or guards, not Stopp
+# Reviewer's note (not a reason to flag): It might help to tell the learner that this Halt! is a different word from the particle halt on the word's other card and from the noun der Halt (support, hold).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             halt-stop
+kind:           content
+pos:            other
+target:         Halt!
+en:             Stop!
+hint:           one-word command shouted by police or guards, not Stopp
+example.target: Halt! Polizei! Keine Bewegung!
+example.en:     Stop! Police! Don't move!
+regional.where:
+regional.text:
+trick:          HALT is the English halt, as a guard shouts: Halt, who goes there?
+
+# The draft this file was made from. Do not change it.
+draft: 4c46dbb4489323ac

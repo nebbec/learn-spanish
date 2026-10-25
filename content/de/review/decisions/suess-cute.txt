@@ -1,0 +1,31 @@
+# suess-cute · rank 418 · süß
+#
+# Why it was flagged:
+#   - One right answer: niedlich is also a common everyday German word for cute, so the hint 'the everyday word' doesn't rule it out. Suggested fix: hint: the same word as sweet
+#   - Usage in Germany: In Switzerland, herzig (Swiss German härzig) is the common everyday word for cute, so regional should not be null. Suggested fix: regional: { where: Switzerland, text: Swiss speakers commonly say herzig (härzig) for cute, as in Dä Hund isch so härzig! }
+# Reviewer's note (not a reason to flag): lindo-pretty lists cute as a secondary sense, but it is mainly pretty, so keeping sameAs null is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             suess-cute
+kind:           content
+pos:            adjective
+target:         süß
+en:             cute
+hint:           the same word as sweet
+example.target: Dein Hund ist echt süß!
+example.en:     Your dog is really cute!
+regional.where: Switzerland
+regional.text:  Swiss speakers commonly say herzig (härzig) for cute, as in Dä Hund isch so härzig!
+trick:          SÜSS starts with a z sound, a bit like zoos, where the baby animals are so cute.
+
+# The draft this file was made from. Do not change it.
+draft: 1c69ddb87df8a631

@@ -1,0 +1,17 @@
+{
+  "rank": 547,
+  "word": "Opfer",
+  "cards": [
+    "opfer-victim",
+    "opfer-sacrifice"
+  ],
+  "skip": null,
+  "sameAs": {
+    "opfer-victim": "victima-victim",
+    "opfer-sacrifice": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:23.346Z"
+}

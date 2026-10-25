@@ -1,0 +1,21 @@
+{
+  "id": "schwarz-black",
+  "rank": 536,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "schwarz",
+  "en": "black",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich trinke meinen Kaffee schwarz.",
+    "en": "I drink my coffee black."
+  },
+  "regional": null,
+  "trick": "SCHWARZ sounds like \"shvarts\", close to \"swarthy\", which means dark, and black is the darkest colour.",
+  "image": "/deck-de/img/schwarz-black.webp",
+  "audio": {
+    "word": "/deck-de/audio/schwarz-black.word.mp3",
+    "sentence": "/deck-de/audio/schwarz-black.sentence.mp3"
+  }
+}

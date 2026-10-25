@@ -1,0 +1,14 @@
+{
+  "id": "zeug-stuff",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e55ebea50950b9a8",
+  "group": "#786 Zeug",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:53.792Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "oben-up",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "633211ec8d6c9a65",
+  "group": "#396 oben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:28.075Z"
+}

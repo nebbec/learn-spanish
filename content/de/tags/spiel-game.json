@@ -1,0 +1,14 @@
+{
+  "id": "spiel-game",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d20377def0e97786",
+  "group": "#528 Spiel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:00.797Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "warten-wait",
+  "rank": 121,
+  "kind": "content",
+  "pos": "verb",
+  "target": "warten",
+  "en": "to wait",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "warte",
+      "du": "wartest",
+      "er": "wartet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewartet"
+    }
+  },
+  "example": {
+    "target": "Ich warte vor dem Kino auf dich.",
+    "en": "I'm waiting for you outside the cinema."
+  },
+  "regional": null,
+  "trick": "WARTEN (said VAR-ten) is related to English ward and warden: a warden keeps watch and waits.",
+  "image": "/deck-de/img/warten-wait.webp",
+  "audio": {
+    "word": "/deck-de/audio/warten-wait.word.mp3",
+    "sentence": "/deck-de/audio/warten-wait.sentence.mp3"
+  }
+}

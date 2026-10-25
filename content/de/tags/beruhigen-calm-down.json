@@ -1,0 +1,14 @@
+{
+  "id": "beruhigen-calm-down",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "820e1b71796101af",
+  "group": "#660 beruhigen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:43.384Z"
+}

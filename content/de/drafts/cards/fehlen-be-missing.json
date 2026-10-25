@@ -1,0 +1,33 @@
+{
+  "id": "fehlen-be-missing",
+  "rank": 563,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fehlen",
+  "en": "to be missing",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "fehle",
+      "du": "fehlst",
+      "er": "fehlt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefehlt"
+    }
+  },
+  "example": {
+    "target": "Hier fehlt eine Seite.",
+    "en": "A page is missing here."
+  },
+  "regional": null,
+  "trick": "FEHLEN sounds like \"FAIL-en\": something that fails to turn up is missing.",
+  "image": "/deck-de/img/fehlen-be-missing.webp",
+  "audio": {
+    "word": "/deck-de/audio/fehlen-be-missing.word.mp3",
+    "sentence": "/deck-de/audio/fehlen-be-missing.sentence.mp3"
+  }
+}

@@ -1,0 +1,30 @@
+# natuerlich-of-course · rank 201 · natürlich
+#
+# Why it was flagged:
+#   - One right answer: The hint only rules out klar, so selbstverständlich, a common word for of course that is even longer, would also fit 'the longer word'. Suggested fix: hint: looks like naturally; not klar or selbstverständlich
+# Reviewer's note (not a reason to flag): The example, trick and sameAs fit, and regional is rightly null because Austria and Switzerland also say natürlich.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             natuerlich-of-course
+kind:           content
+pos:            adverb
+target:         natürlich
+en:             of course
+hint:           looks like naturally; not klar or selbstverständlich
+example.target: Natürlich komme ich mit!
+example.en:     Of course I'm coming along!
+regional.where:
+regional.text:
+trick:          NATÜRLICH sounds like naturally, and in English naturally also means of course.
+
+# The draft this file was made from. Do not change it.
+draft: 91298e3bd89ec28c

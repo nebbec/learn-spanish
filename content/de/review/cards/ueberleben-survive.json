@@ -1,0 +1,17 @@
+{
+  "id": "ueberleben-survive",
+  "rank": 669,
+  "word": "überleben",
+  "draft": "88d2ac36deab9b21",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to survive",
+    "example": "Luckily, everyone survived the accident."
+  },
+  "note": "The trick could say plainly that leben means to live instead of that it sounds like living, but it is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:41.405Z"
+}

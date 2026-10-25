@@ -1,0 +1,14 @@
+{
+  "id": "irren-be-wrong",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "22dc7903bcdb45c6",
+  "group": "#693 irren",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:49.617Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 236,
+  "word": "sorgen",
+  "cards": [
+    "sorgen-make-sure",
+    "sorgen-worry"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sorgen-make-sure": "asegurar-make-sure",
+    "sorgen-worry": "preocupar-worry"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:00.728Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "buch-book",
+  "rank": 466,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Buch",
+  "en": "book",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Bücher"
+  },
+  "example": {
+    "target": "Ich lese gerade ein spannendes Buch.",
+    "en": "I'm reading an exciting book right now."
+  },
+  "regional": null,
+  "trick": "BUCH sounds like book said with a scratchy throat at the end, and it means book.",
+  "image": "/deck-de/img/buch-book.webp",
+  "audio": {
+    "word": "/deck-de/audio/buch-book.word.mp3",
+    "sentence": "/deck-de/audio/buch-book.sentence.mp3"
+  }
+}

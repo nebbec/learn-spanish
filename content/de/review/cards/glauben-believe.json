@@ -1,0 +1,23 @@
+{
+  "id": "glauben-believe",
+  "rank": 92,
+  "word": "glauben",
+  "draft": "de1a2dc55f824ea6",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "GLOW-ben teaches the wrong sound: German au sounds like the ow in how, not the o in glow, so a learner would say glohben.",
+      "fix": "trick: GLAUBEN and English beLIEVE come from the same old word: the -laub- in glauben is the -lief- in belief."
+    }
+  ],
+  "back": {
+    "target": "to believe (also: to think, have an opinion)",
+    "example": "I don't believe a word you say."
+  },
+  "note": "This card and the word's other card (\"to think\", for an opinion) both have the target glauben, so they don't conflict.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:34.261Z"
+}

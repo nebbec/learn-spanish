@@ -1,0 +1,14 @@
+{
+  "id": "acht-eight",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "90343a637edd375c",
+  "group": "#632 acht",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:43.895Z"
+}

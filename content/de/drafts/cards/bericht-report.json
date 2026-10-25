@@ -1,0 +1,25 @@
+{
+  "id": "bericht-report",
+  "rank": 757,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Bericht",
+  "en": "report",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Berichte"
+  },
+  "example": {
+    "target": "Ich muss heute noch den Bericht schreiben.",
+    "en": "I still have to write the report today."
+  },
+  "regional": null,
+  "trick": "BeRICHT sounds a bit like \"be right\": a good report has to be right.",
+  "image": "/deck-de/img/bericht-report.webp",
+  "audio": {
+    "word": "/deck-de/audio/bericht-report.word.mp3",
+    "sentence": "/deck-de/audio/bericht-report.sentence.mp3"
+  }
+}

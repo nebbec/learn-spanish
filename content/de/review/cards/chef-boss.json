@@ -1,0 +1,17 @@
+{
+  "id": "chef-boss",
+  "rank": 793,
+  "word": "Chef",
+  "draft": "0d1499f82ee693b3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "boss, head (of a workplace or organization)",
+    "example": "My boss is in a really bad mood today."
+  },
+  "note": "Der Vorgesetzte is a more formal word for boss and die Chefin is the female form, but der Chef is the clear everyday answer to the bare prompt \"boss\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:33.099Z"
+}

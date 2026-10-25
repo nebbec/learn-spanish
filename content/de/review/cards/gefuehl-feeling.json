@@ -1,0 +1,17 @@
+{
+  "id": "gefuehl-feeling",
+  "rank": 441,
+  "word": "Gefühl",
+  "draft": "3e3aa7126acfcd73",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "feeling (an emotion or a sense, as in a hunch)",
+    "example": "I have a good feeling about it."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:13.239Z"
+}

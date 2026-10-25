@@ -1,0 +1,17 @@
+{
+  "id": "familie-family",
+  "rank": 262,
+  "word": "Familie",
+  "draft": "9b6f6145d11be904",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "family",
+    "example": "My family lives in Hamburg."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:43:04.212Z"
+}

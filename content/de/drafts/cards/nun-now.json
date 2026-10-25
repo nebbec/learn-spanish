@@ -1,0 +1,21 @@
+{
+  "id": "nun-now",
+  "rank": 138,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "nun",
+  "en": "now",
+  "hint": "a bit more formal than jetzt",
+  "grammar": null,
+  "example": {
+    "target": "Und was machen wir nun?",
+    "en": "So what do we do now?"
+  },
+  "regional": null,
+  "trick": "NUN sounds like noon: at noon it is time to eat now.",
+  "image": "/deck-de/img/nun-now.webp",
+  "audio": {
+    "word": "/deck-de/audio/nun-now.word.mp3",
+    "sentence": "/deck-de/audio/nun-now.sentence.mp3"
+  }
+}

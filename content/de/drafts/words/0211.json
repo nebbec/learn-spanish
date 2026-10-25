@@ -1,0 +1,15 @@
+{
+  "rank": 211,
+  "word": "gar",
+  "cards": [
+    "gar-at-all"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gar-at-all": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:06.020Z"
+}

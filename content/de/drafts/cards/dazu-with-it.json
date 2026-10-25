@@ -1,0 +1,21 @@
+{
+  "id": "dazu-with-it",
+  "rank": 299,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "dazu",
+  "en": "Do you want bread [with it]?",
+  "hint": "in addition, on the side",
+  "grammar": null,
+  "example": {
+    "target": "Willst du Pommes dazu?",
+    "en": "Do you want fries with it?"
+  },
+  "regional": null,
+  "trick": "DAZU (dah-TSOO) sounds like there, too: fries come along there, too, on the side.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dazu-with-it.word.mp3",
+    "sentence": "/deck-de/audio/dazu-with-it.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 629,
+  "word": "erschießen",
+  "cards": [
+    "erschiessen-shoot-dead"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erschiessen-shoot-dead": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:39.737Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "bleiben-stay",
+  "rank": 126,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bleiben",
+  "en": "to stay",
+  "hint": "remain",
+  "grammar": {
+    "present": {
+      "ich": "bleibe",
+      "du": "bleibst",
+      "er": "bleibt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geblieben"
+    }
+  },
+  "example": {
+    "target": "Bleib doch noch ein bisschen!",
+    "en": "Stay a little longer!"
+  },
+  "regional": null,
+  "trick": "BLEIBEN sounds like BLY-ben: someone who stays put says I've been here all along.",
+  "image": "/deck-de/img/bleiben-stay.webp",
+  "audio": {
+    "word": "/deck-de/audio/bleiben-stay.word.mp3",
+    "sentence": "/deck-de/audio/bleiben-stay.sentence.mp3"
+  }
+}

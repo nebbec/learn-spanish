@@ -1,0 +1,17 @@
+{
+  "id": "fliegen-fly",
+  "rank": 435,
+  "word": "fliegen",
+  "draft": "8063c55b8d1d653d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fly",
+    "example": "We're flying to Berlin tomorrow."
+  },
+  "note": "Perfekt with sein is right for the intransitive sense used here; transitive use (ein Flugzeug fliegen) takes haben, which the editor could mention if desired.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:50.285Z"
+}

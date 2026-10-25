@@ -1,0 +1,15 @@
+{
+  "rank": 669,
+  "word": "überleben",
+  "cards": [
+    "ueberleben-survive"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ueberleben-survive": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:05:32.066Z"
+}

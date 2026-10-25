@@ -1,0 +1,14 @@
+{
+  "id": "ins-into-the",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ins for going into a place; im for being in it.",
+  "draft": "68f53d10cc5243c0",
+  "group": "#214 ins",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:08.765Z"
+}

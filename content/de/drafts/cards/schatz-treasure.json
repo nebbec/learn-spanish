@@ -1,0 +1,25 @@
+{
+  "id": "schatz-treasure",
+  "rank": 275,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Schatz",
+  "en": "treasure",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Schätze"
+  },
+  "example": {
+    "target": "Die Piraten suchen den Schatz.",
+    "en": "The pirates are looking for the treasure."
+  },
+  "regional": null,
+  "trick": "SCHATZ sounds like \"shots\": pirates fire shots to guard their buried treasure.",
+  "image": "/deck-de/img/schatz-treasure.webp",
+  "audio": {
+    "word": "/deck-de/audio/schatz-treasure.word.mp3",
+    "sentence": "/deck-de/audio/schatz-treasure.sentence.mp3"
+  }
+}

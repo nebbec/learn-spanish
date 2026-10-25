@@ -1,0 +1,14 @@
+{
+  "id": "frueher-earlier",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cec3cdbe82cdbe4a",
+  "group": "#500 früher",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:02.717Z"
+}

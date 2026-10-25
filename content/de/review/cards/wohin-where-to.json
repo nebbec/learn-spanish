@@ -1,0 +1,17 @@
+{
+  "id": "wohin-where-to",
+  "rank": 502,
+  "word": "wohin",
+  "draft": "cc5a2d3f3e60557e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "where (to), to what place",
+    "example": "Where are you going (traveling) in the summer?"
+  },
+  "note": "Everyday spoken German often splits the word (Wo gehst du hin?), which the editor might mention somewhere, but the hint rightly asks for the single word wohin.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:26.733Z"
+}

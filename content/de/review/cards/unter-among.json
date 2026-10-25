@@ -1,0 +1,17 @@
+{
+  "id": "unter-among",
+  "rank": 244,
+  "word": "unter",
+  "draft": "df8810bf37ff8b80",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "among (with the dative, in this sense; also under, below)",
+    "example": "You're among friends here."
+  },
+  "note": "Native speakers say \"unter Freunden\" here, not \"zwischen\", so the prompt needs no hint; the example correctly uses the dative plural Freunden.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:27.882Z"
+}

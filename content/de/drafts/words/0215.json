@@ -1,0 +1,15 @@
+{
+  "rank": 215,
+  "word": "dort",
+  "cards": [
+    "dort-there"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dort-there": "alli-there"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:19.232Z"
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 93,
+  "word": "los",
+  "cards": [
+    "los-going-on",
+    "los-go"
+  ],
+  "skip": null,
+  "sameAs": {
+    "los-going-on": null,
+    "los-go": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:18.603Z"
+}

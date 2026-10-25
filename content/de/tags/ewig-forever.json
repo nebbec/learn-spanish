@@ -1,0 +1,14 @@
+{
+  "id": "ewig-forever",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1e629d41f80d2702",
+  "group": "#780 ewig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:42.122Z"
+}

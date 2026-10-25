@@ -1,0 +1,25 @@
+{
+  "id": "besuch-visit",
+  "rank": 711,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Besuch",
+  "en": "visit",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Besuche"
+  },
+  "example": {
+    "target": "Morgen kommt meine Oma zu Besuch.",
+    "en": "My grandma is coming to visit tomorrow."
+  },
+  "regional": null,
+  "trick": "BESUCH sounds like buh-ZOOKH: picture a fun visit to the ZOO.",
+  "image": "/deck-de/img/besuch-visit.webp",
+  "audio": {
+    "word": "/deck-de/audio/besuch-visit.word.mp3",
+    "sentence": "/deck-de/audio/besuch-visit.sentence.mp3"
+  }
+}

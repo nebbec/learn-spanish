@@ -1,0 +1,25 @@
+{
+  "id": "hund-dog",
+  "rank": 454,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Hund",
+  "en": "dog",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Hunde"
+  },
+  "example": {
+    "target": "Dein Hund ist echt süß.",
+    "en": "Your dog is really cute."
+  },
+  "regional": null,
+  "trick": "HUND sounds like hoont, close to hound, and a hound is a dog.",
+  "image": "/deck-de/img/hund-dog.webp",
+  "audio": {
+    "word": "/deck-de/audio/hund-dog.word.mp3",
+    "sentence": "/deck-de/audio/hund-dog.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 252,
+  "word": "fühlen",
+  "cards": [
+    "fuehlen-feel"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fuehlen-feel": "sentir-feel"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:41.543Z"
+}

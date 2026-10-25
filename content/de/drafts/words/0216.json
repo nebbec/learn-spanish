@@ -1,0 +1,15 @@
+{
+  "rank": 216,
+  "word": "weiter",
+  "cards": [
+    "weiter-further-on"
+  ],
+  "skip": null,
+  "sameAs": {
+    "weiter-further-on": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:22.380Z"
+}

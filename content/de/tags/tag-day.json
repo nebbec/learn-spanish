@@ -1,0 +1,14 @@
+{
+  "id": "tag-day",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7462a2d8209eb56c",
+  "group": "#120 Tag",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:06.470Z"
+}

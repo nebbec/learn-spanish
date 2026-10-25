@@ -1,0 +1,33 @@
+{
+  "id": "angreifen-attack",
+  "rank": 675,
+  "kind": "content",
+  "pos": "verb",
+  "target": "angreifen",
+  "en": "to attack",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "greife an",
+      "du": "greifst an",
+      "er": "greift an"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angegriffen"
+    }
+  },
+  "example": {
+    "target": "Der Hund hat mich gestern angegriffen.",
+    "en": "The dog attacked me yesterday."
+  },
+  "regional": null,
+  "trick": "ANGREIFEN sounds like AN-GRY-fen, and its past form angeGRIFFen sounds like griffin: picture an angry griffin swooping down to attack.",
+  "image": "/deck-de/img/angreifen-attack.webp",
+  "audio": {
+    "word": "/deck-de/audio/angreifen-attack.word.mp3",
+    "sentence": "/deck-de/audio/angreifen-attack.sentence.mp3"
+  }
+}

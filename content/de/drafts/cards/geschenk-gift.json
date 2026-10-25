@@ -1,0 +1,25 @@
+{
+  "id": "geschenk-gift",
+  "rank": 724,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Geschenk",
+  "en": "gift, present",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Geschenke"
+  },
+  "example": {
+    "target": "Das Geschenk ist für dich.",
+    "en": "The present is for you."
+  },
+  "regional": null,
+  "trick": "GeSCHENK sounds like guh-SHENK: picture a kid shaking a wrapped present to guess what is inside.",
+  "image": "/deck-de/img/geschenk-gift.webp",
+  "audio": {
+    "word": "/deck-de/audio/geschenk-gift.word.mp3",
+    "sentence": "/deck-de/audio/geschenk-gift.sentence.mp3"
+  }
+}

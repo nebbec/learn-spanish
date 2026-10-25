@@ -1,0 +1,37 @@
+# aufgeben-give-up · rank 795 · aufgeben
+#
+# Why it was flagged:
+#   - Memory trick: The trick links auf to English off, which teaches a false meaning: auf means up or on (ab is off), and aufgeben is literally up-give, give up. Suggested fix: trick: AUF means up and GEBEN means give, so aufgeben is literally to give up.
+# Reviewer's note (not a reason to flag): The imperative example splits the separable verb correctly, and abandonar-abandon is close in meaning but not the same, so sameAs is right to be null.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 aufgeben-give-up
+kind:               content
+pos:                verb
+target:             aufgeben
+en:                 to give up
+hint:
+ich:                gebe auf
+du:                 gibst auf
+er:                 gibt auf
+irregular:          yes
+separable:          yes
+perfekt.aux:        haben
+perfekt.participle: aufgegeben
+example.target:     Gib nicht auf, du schaffst das!
+example.en:         Don't give up, you can do it!
+regional.where:
+regional.text:
+trick:              AUF means up and GEBEN means give, so aufgeben is literally to give up.
+
+# The draft this file was made from. Do not change it.
+draft: ff942fd59c46193e

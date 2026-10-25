@@ -1,0 +1,19 @@
+{
+  "rank": 68,
+  "word": "doch",
+  "cards": [
+    "doch-yes-contradicting",
+    "doch-after-all",
+    "doch-emphasis"
+  ],
+  "skip": null,
+  "sameAs": {
+    "doch-yes-contradicting": null,
+    "doch-after-all": null,
+    "doch-emphasis": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:58.212Z"
+}

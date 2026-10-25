@@ -1,0 +1,25 @@
+{
+  "id": "schmerz-pain",
+  "rank": 722,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Schmerz",
+  "en": "pain",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Schmerzen"
+  },
+  "example": {
+    "target": "Ich habe starke Schmerzen im Rücken.",
+    "en": "I have bad pain in my back."
+  },
+  "regional": null,
+  "trick": "SCHMERZ sounds like \"smarts\": when something smarts, you feel pain.",
+  "image": "/deck-de/img/schmerz-pain.webp",
+  "audio": {
+    "word": "/deck-de/audio/schmerz-pain.word.mp3",
+    "sentence": "/deck-de/audio/schmerz-pain.sentence.mp3"
+  }
+}

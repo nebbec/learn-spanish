@@ -1,0 +1,33 @@
+{
+  "id": "folgen-follow",
+  "rank": 405,
+  "kind": "content",
+  "pos": "verb",
+  "target": "folgen",
+  "en": "to follow",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "folge",
+      "du": "folgst",
+      "er": "folgt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gefolgt"
+    }
+  },
+  "example": {
+    "target": "Der Hund folgt mir überallhin.",
+    "en": "The dog follows me everywhere."
+  },
+  "regional": null,
+  "trick": "FOLGEN begins with the same sound as follow, so when you folgen someone, you follow them.",
+  "image": "/deck-de/img/folgen-follow.webp",
+  "audio": {
+    "word": "/deck-de/audio/folgen-follow.word.mp3",
+    "sentence": "/deck-de/audio/folgen-follow.sentence.mp3"
+  }
+}

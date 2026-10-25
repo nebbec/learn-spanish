@@ -1,0 +1,15 @@
+{
+  "rank": 242,
+  "word": "toll",
+  "cards": [
+    "toll-great"
+  ],
+  "skip": null,
+  "sameAs": {
+    "toll-great": "genial-great"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:13.663Z"
+}

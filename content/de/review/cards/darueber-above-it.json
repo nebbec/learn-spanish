@@ -1,0 +1,23 @@
+{
+  "id": "darueber-above-it",
+  "rank": 295,
+  "word": "darüber",
+  "draft": "4e1125533d298110",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick's chain 'over there, over it, above it' suggests darüber can mean 'over there', which is da drüben, not darüber.",
+      "fix": "trick: DARÜBER is da (there, it) plus über, which sounds a bit like over: over it, above it."
+    }
+  ],
+  "back": {
+    "target": "above it, over it (position); also about it",
+    "example": "There's the door, and above it hangs a clock."
+  },
+  "note": "The prompt reads a little choppy as English, so a full clause like \"there's the table, and the lamp hangs [above it]\" might read better, and colloquial drüber is also a fair answer the learner could rate as correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:35.243Z"
+}

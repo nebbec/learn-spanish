@@ -1,0 +1,14 @@
+{
+  "id": "voellig-completely",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7f3149c71e0dc154",
+  "group": "#561 völlig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:12.702Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "wegen-because-of",
+  "rank": 230,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "wegen",
+  "en": "I'm late [because of] the traffic",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich bin wegen der Arbeit hier.",
+    "en": "I'm here because of work."
+  },
+  "regional": null,
+  "trick": "WEGEN sounds like VAY-gen, close to wagon: we were late because of the wagon that broke down.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wegen-because-of.word.mp3",
+    "sentence": "/deck-de/audio/wegen-because-of.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "willkommen-welcome",
+  "rank": 516,
+  "word": "willkommen",
+  "draft": "ed052a6eff03ef3c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "welcome (adjective; also used on its own as the greeting Welcome!)",
+    "example": "You are always welcome here."
+  },
+  "note": "Since this is the word's only card, the editor might add a hint such as \"(you're welcome here; not the reply to thanks)\" so nobody answers bitte, but the bare prompt already points to willkommen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:22.109Z"
+}

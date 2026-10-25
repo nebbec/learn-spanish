@@ -1,0 +1,25 @@
+{
+  "id": "wahrheit-truth",
+  "rank": 409,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Wahrheit",
+  "en": "truth",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Wahrheiten"
+  },
+  "example": {
+    "target": "Sag mir einfach die Wahrheit.",
+    "en": "Just tell me the truth."
+  },
+  "regional": null,
+  "trick": "WAHRHEIT sounds like VAR-hite: the VAR video replay in football shows the truth about what really happened.",
+  "image": "/deck-de/img/wahrheit-truth.webp",
+  "audio": {
+    "word": "/deck-de/audio/wahrheit-truth.word.mp3",
+    "sentence": "/deck-de/audio/wahrheit-truth.sentence.mp3"
+  }
+}

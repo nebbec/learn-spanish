@@ -1,0 +1,17 @@
+{
+  "rank": 170,
+  "word": "wohl",
+  "cards": [
+    "wohl-probably",
+    "wohl-at-ease"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wohl-probably": null,
+    "wohl-at-ease": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:07.695Z"
+}

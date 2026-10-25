@@ -1,0 +1,21 @@
+{
+  "id": "gross-big",
+  "rank": 143,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "groß",
+  "en": "big",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das Haus ist echt groß.",
+    "en": "The house is really big."
+  },
+  "regional": null,
+  "trick": "GROSS sounds like English gross, as in gross weight: the big total before anything is taken off.",
+  "image": "/deck-de/img/gross-big.webp",
+  "audio": {
+    "word": "/deck-de/audio/gross-big.word.mp3",
+    "sentence": "/deck-de/audio/gross-big.sentence.mp3"
+  }
+}

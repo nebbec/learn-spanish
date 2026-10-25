@@ -1,0 +1,15 @@
+{
+  "rank": 781,
+  "word": "Entscheidung",
+  "cards": [
+    "entscheidung-decision"
+  ],
+  "skip": null,
+  "sameAs": {
+    "entscheidung-decision": "decision-decision"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:38.925Z"
+}

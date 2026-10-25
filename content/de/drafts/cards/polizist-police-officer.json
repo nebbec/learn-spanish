@@ -1,0 +1,25 @@
+{
+  "id": "polizist-police-officer",
+  "rank": 787,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Polizist",
+  "en": "police officer",
+  "hint": "a man",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Polizisten"
+  },
+  "example": {
+    "target": "Frag doch den Polizisten da drüben!",
+    "en": "Just ask the police officer over there!"
+  },
+  "regional": null,
+  "trick": "POLIZIST sounds like police-ist, someone whose job is the police: a police officer.",
+  "image": "/deck-de/img/polizist-police-officer.webp",
+  "audio": {
+    "word": "/deck-de/audio/polizist-police-officer.word.mp3",
+    "sentence": "/deck-de/audio/polizist-police-officer.sentence.mp3"
+  }
+}

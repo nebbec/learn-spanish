@@ -1,0 +1,17 @@
+{
+  "id": "fuehlen-feel",
+  "rank": 252,
+  "word": "fühlen",
+  "draft": "f2ab3054be6cdbe6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to feel",
+    "example": "I feel much better today."
+  },
+  "note": "The example uses the reflexive sich fühlen (to feel well or ill), which is the most common use, and spüren is a near-synonym for sensing something physically, but fühlen is still the standard answer to the bare prompt \"to feel\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:58.469Z"
+}

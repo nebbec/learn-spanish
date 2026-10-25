@@ -1,0 +1,14 @@
+{
+  "id": "merken-remember",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sich merken to keep something new in mind; use sich erinnern to recall something from the past.",
+  "draft": "a3c003ef5a254ca2",
+  "group": "#663 merken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:49.003Z"
+}

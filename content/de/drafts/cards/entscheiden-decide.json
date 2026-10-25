@@ -1,0 +1,33 @@
+{
+  "id": "entscheiden-decide",
+  "rank": 584,
+  "kind": "content",
+  "pos": "verb",
+  "target": "entscheiden",
+  "en": "to decide",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "entscheide",
+      "du": "entscheidest",
+      "er": "entscheidet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "entschieden"
+    }
+  },
+  "example": {
+    "target": "Ich entscheide das morgen.",
+    "en": "I'll decide that tomorrow."
+  },
+  "regional": null,
+  "trick": "entSCHEIDen sounds like ent-SHY-den: a shy Ent hiding in his den has to decide whether to come out.",
+  "image": "/deck-de/img/entscheiden-decide.webp",
+  "audio": {
+    "word": "/deck-de/audio/entscheiden-decide.word.mp3",
+    "sentence": "/deck-de/audio/entscheiden-decide.sentence.mp3"
+  }
+}

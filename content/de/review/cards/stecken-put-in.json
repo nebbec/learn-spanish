@@ -1,0 +1,17 @@
+{
+  "id": "stecken-put-in",
+  "rank": 412,
+  "word": "stecken",
+  "draft": "3dc3baa2630d2077",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to put, to stick, to insert (something into something)",
+    "example": "I'm putting the phone in my pocket."
+  },
+  "note": "Colloquial tun (\"ich tu das Handy in die Tasche\") or einstecken might occasionally come to mind, but stecken is the standard answer for putting something into a pocket or slot, and the hint already rules out legen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:57.541Z"
+}

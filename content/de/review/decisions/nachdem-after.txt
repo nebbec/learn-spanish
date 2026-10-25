@@ -1,0 +1,31 @@
+# nachdem-after · rank 618 · nachdem
+#
+# Why it was flagged:
+#   - Usage in Germany: For a future event like this, speakers in Germany say 'wenn' or 'sobald ich gegessen habe'; 'nachdem' with a future-meaning main clause sounds stilted, since it is mainly used for past or habitual sequences. Suggested fix: en: I brush my teeth [after] I've eaten
+#   - Example sentence: The sentence refers to the future, where 'nachdem' is unnatural in everyday German (wenn would be said), so it models an unidiomatic use. Suggested fix: example.target: Ich putze mir die Zähne, nachdem ich gegessen habe. example.en: I brush my teeth after I've eaten.
+# Reviewer's note (not a reason to flag): The hint usefully rules out the preposition nach and the adverb danach; the trick's door image is a bit muddled but harmless.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             nachdem-after
+kind:           glue
+pos:            conjunction
+target:         nachdem
+en:             I brush my teeth [after] I've eaten
+hint:           joins two clauses, not nach
+example.target: Ich putze mir die Zähne, nachdem ich gegessen habe.
+example.en:     I brush my teeth after I've eaten.
+regional.where:
+regional.text:
+trick:          NACHDEM sounds like 'knock them': only after you knock them on the door do they open.
+
+# The draft this file was made from. Do not change it.
+draft: c339d96b66b2b8b8

@@ -1,0 +1,17 @@
+{
+  "id": "ernst-serious",
+  "rank": 394,
+  "word": "ernst",
+  "draft": "cea1ee5fdd2993f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "serious, earnest",
+    "example": "Why are you so serious today?"
+  },
+  "note": "The hint rightly rules out ernsthaft, and the trick is accurate because ernst and earnest really are related words.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:58.758Z"
+}

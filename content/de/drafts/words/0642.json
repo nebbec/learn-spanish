@@ -1,0 +1,15 @@
+{
+  "rank": 642,
+  "word": "Team",
+  "cards": [
+    "team-team"
+  ],
+  "skip": null,
+  "sameAs": {
+    "team-team": "equipo-team"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:03:29.966Z"
+}

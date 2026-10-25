@@ -1,0 +1,17 @@
+{
+  "id": "geschaeft-shop",
+  "rank": 543,
+  "word": "Geschäft",
+  "draft": "ea40a489ccaf1c96",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "store, shop (also: business, deal)",
+    "example": "The shop closes at eight."
+  },
+  "note": "The hint is needed here, because it rules out der Laden, which is just as common for \"store, shop\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:44.977Z"
+}

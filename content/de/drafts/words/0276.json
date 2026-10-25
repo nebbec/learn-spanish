@@ -1,0 +1,15 @@
+{
+  "rank": 276,
+  "word": "Stunde",
+  "cards": [
+    "stunde-hour"
+  ],
+  "skip": null,
+  "sameAs": {
+    "stunde-hour": "hora-hour"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:29.514Z"
+}

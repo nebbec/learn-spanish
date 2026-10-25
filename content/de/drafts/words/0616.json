@@ -1,0 +1,15 @@
+{
+  "rank": 616,
+  "word": "Haar",
+  "cards": [
+    "haar-hair"
+  ],
+  "skip": null,
+  "sameAs": {
+    "haar-hair": "pelo-hair"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:42.369Z"
+}

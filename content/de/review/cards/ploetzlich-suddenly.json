@@ -1,0 +1,17 @@
+{
+  "id": "ploetzlich-suddenly",
+  "rank": 705,
+  "word": "plötzlich",
+  "draft": "9755056257bfa564",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "suddenly (also sudden, as an adjective)",
+    "example": "Suddenly the light was out."
+  },
+  "note": "The phrase \"auf einmal\" also means suddenly, but plötzlich is the single word a learner would give, so the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:45.168Z"
+}

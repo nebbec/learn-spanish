@@ -1,0 +1,33 @@
+{
+  "id": "verdienen-earn",
+  "rank": 444,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verdienen",
+  "en": "to earn",
+  "hint": "money",
+  "grammar": {
+    "present": {
+      "ich": "verdiene",
+      "du": "verdienst",
+      "er": "verdient"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verdient"
+    }
+  },
+  "example": {
+    "target": "Mein Bruder verdient richtig gut.",
+    "en": "My brother earns really good money."
+  },
+  "regional": null,
+  "trick": "verDIENen sounds like fair dinin': you earn money so you can afford a fair bit of dining out.",
+  "image": "/deck-de/img/verdienen-earn.webp",
+  "audio": {
+    "word": "/deck-de/audio/verdienen-earn.word.mp3",
+    "sentence": "/deck-de/audio/verdienen-earn.sentence.mp3"
+  }
+}

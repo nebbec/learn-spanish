@@ -1,0 +1,21 @@
+{
+  "id": "niemals-never",
+  "rank": 426,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "niemals",
+  "en": "never",
+  "hint": "emphatic, the longer word, not nie",
+  "grammar": null,
+  "example": {
+    "target": "Das mache ich niemals!",
+    "en": "I'd never do that!"
+  },
+  "regional": null,
+  "trick": "NIEMALS sounds like knee malls: you will never find a mall built for knees.",
+  "image": "/deck-de/img/niemals-never.webp",
+  "audio": {
+    "word": "/deck-de/audio/niemals-never.word.mp3",
+    "sentence": "/deck-de/audio/niemals-never.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "her-ago",
+  "rank": 196,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "her",
+  "en": "ago",
+  "hint": "at the end, with sein: that's long ago (not vor)",
+  "grammar": null,
+  "example": {
+    "target": "Das ist schon lange her.",
+    "en": "That was a long time ago."
+  },
+  "regional": null,
+  "trick": "HER sounds like hair: when you still had all your hair was long ago.",
+  "image": "/deck-de/img/her-ago.webp",
+  "audio": {
+    "word": "/deck-de/audio/her-ago.word.mp3",
+    "sentence": "/deck-de/audio/her-ago.sentence.mp3"
+  }
+}

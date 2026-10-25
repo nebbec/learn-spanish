@@ -1,0 +1,17 @@
+{
+  "id": "vor-ago",
+  "rank": 91,
+  "word": "vor",
+  "draft": "f7dc78ffc68e5cd5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "ago (with a time span in the dative); also before, in front of",
+    "example": "I was in Berlin two years ago."
+  },
+  "note": "The example sentence repeats the prompt word for word, so the editor might use a different time span in one of them (for example \"vor einer Woche\"), and could point out in a footnote that vor comes before the time span and takes the dative (Jahren).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:17.631Z"
+}

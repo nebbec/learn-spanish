@@ -1,0 +1,17 @@
+{
+  "id": "gefaengnis-prison",
+  "rank": 626,
+  "word": "Gefängnis",
+  "draft": "ae2ba15b49083245",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "prison, jail",
+    "example": "He has been in prison for two years."
+  },
+  "note": "The trick could also mention that Gefängnis really does come from fangen (to catch), which would make it a stronger memory hook; the slang word der Knast is informal and does not compete as the standard answer for \"prison\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:49.965Z"
+}

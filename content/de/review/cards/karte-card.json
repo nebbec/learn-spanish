@@ -1,0 +1,17 @@
+{
+  "id": "karte-card",
+  "rank": 665,
+  "word": "Karte",
+  "draft": "1ed7b7b5a2193cd9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "card (playing card, postcard, greeting card; also map, ticket, menu)",
+    "example": "Do you want to play cards with us?"
+  },
+  "note": "The hint correctly rules out the separate \"map\" card, and naming both playing and greeting cards leads to the general word Karte rather than the compound Spielkarte.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:19.460Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "glauben-believe",
+  "rank": 92,
+  "kind": "content",
+  "pos": "verb",
+  "target": "glauben",
+  "en": "to believe",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "glaube",
+      "du": "glaubst",
+      "er": "glaubt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geglaubt"
+    }
+  },
+  "example": {
+    "target": "Ich glaube dir kein Wort.",
+    "en": "I don't believe a word you say."
+  },
+  "regional": null,
+  "trick": "GLAUBEN starts like GLOW-ben: picture a believer whose face glows with faith.",
+  "image": "/deck-de/img/glauben-believe.webp",
+  "audio": {
+    "word": "/deck-de/audio/glauben-believe.word.mp3",
+    "sentence": "/deck-de/audio/glauben-believe.sentence.mp3"
+  }
+}

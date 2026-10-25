@@ -1,0 +1,21 @@
+{
+  "id": "danach-afterwards",
+  "rank": 573,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "danach",
+  "en": "after that, afterwards",
+  "hint": "not nachher or dann",
+  "grammar": null,
+  "example": {
+    "target": "Wir essen zuerst, danach gehen wir ins Kino.",
+    "en": "We'll eat first, and after that we'll go to the cinema."
+  },
+  "regional": null,
+  "trick": "DANACH sounds like \"the knock\": first dinner, and after that comes the knock at the door.",
+  "image": "/deck-de/img/danach-afterwards.webp",
+  "audio": {
+    "word": "/deck-de/audio/danach-afterwards.word.mp3",
+    "sentence": "/deck-de/audio/danach-afterwards.sentence.mp3"
+  }
+}

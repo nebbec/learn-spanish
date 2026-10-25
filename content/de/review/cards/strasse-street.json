@@ -1,0 +1,17 @@
+{
+  "id": "strasse-street",
+  "rank": 510,
+  "word": "Straße",
+  "draft": "6a8758e8295b0925",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "street, road",
+    "example": "I live on this street."
+  },
+  "note": "Switzerland spells it Strasse (no ß), but that is only a spelling difference, so null for regional is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:56.532Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "raus-out",
+  "rank": 180,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "raus",
+  "en": "out",
+  "hint": "moving outward, as in get out!",
+  "grammar": null,
+  "example": {
+    "target": "Komm raus, wir spielen Fußball!",
+    "en": "Come out, we're playing football!"
+  },
+  "regional": null,
+  "trick": "RAUS rhymes with house: get out of the house!",
+  "image": "/deck-de/img/raus-out.webp",
+  "audio": {
+    "word": "/deck-de/audio/raus-out.word.mp3",
+    "sentence": "/deck-de/audio/raus-out.sentence.mp3"
+  }
+}

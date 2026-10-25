@@ -1,0 +1,17 @@
+{
+  "rank": 390,
+  "word": "überhaupt",
+  "cards": [
+    "ueberhaupt-at-all",
+    "ueberhaupt-anyway"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ueberhaupt-at-all": null,
+    "ueberhaupt-anyway": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:42.239Z"
+}

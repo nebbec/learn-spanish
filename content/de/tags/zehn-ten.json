@@ -1,0 +1,14 @@
+{
+  "id": "zehn-ten",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "81f697c6c988ef6a",
+  "group": "#526 zehn",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:57.125Z"
+}

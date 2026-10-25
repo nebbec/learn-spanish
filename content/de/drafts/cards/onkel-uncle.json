@@ -1,0 +1,25 @@
+{
+  "id": "onkel-uncle",
+  "rank": 596,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Onkel",
+  "en": "uncle",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Onkel"
+  },
+  "example": {
+    "target": "Mein Onkel wohnt in Hamburg.",
+    "en": "My uncle lives in Hamburg."
+  },
+  "regional": null,
+  "trick": "ONKEL sounds like \"ONG-kel\", almost \"uncle\" said backwards in a rush: your onkel is your uncle.",
+  "image": "/deck-de/img/onkel-uncle.webp",
+  "audio": {
+    "word": "/deck-de/audio/onkel-uncle.word.mp3",
+    "sentence": "/deck-de/audio/onkel-uncle.sentence.mp3"
+  }
+}

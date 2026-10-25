@@ -1,0 +1,25 @@
+{
+  "id": "ziel-goal",
+  "rank": 789,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Ziel",
+  "en": "goal",
+  "hint": "an aim, not in football",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Ziele"
+  },
+  "example": {
+    "target": "Was ist dein Ziel im Leben?",
+    "en": "What's your goal in life?"
+  },
+  "regional": null,
+  "trick": "ZIEL sounds like tseel, close to zeal: with enough zeal you reach your goal.",
+  "image": "/deck-de/img/ziel-goal.webp",
+  "audio": {
+    "word": "/deck-de/audio/ziel-goal.word.mp3",
+    "sentence": "/deck-de/audio/ziel-goal.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bloss-only",
+  "rank": 452,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "bloß",
+  "en": "only, just",
+  "hint": "casual word, not nur",
+  "grammar": null,
+  "example": {
+    "target": "Ich wollte bloß kurz fragen.",
+    "en": "I just wanted to ask quickly."
+  },
+  "regional": null,
+  "trick": "BLOSS sounds like blows: it was just one blow, only a little one.",
+  "image": "/deck-de/img/bloss-only.webp",
+  "audio": {
+    "word": "/deck-de/audio/bloss-only.word.mp3",
+    "sentence": "/deck-de/audio/bloss-only.sentence.mp3"
+  }
+}

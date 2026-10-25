@@ -1,0 +1,17 @@
+{
+  "rank": 656,
+  "word": "Geist",
+  "cards": [
+    "geist-ghost",
+    "geist-spirit-mind"
+  ],
+  "skip": null,
+  "sameAs": {
+    "geist-ghost": null,
+    "geist-spirit-mind": "mente-mind"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:42.885Z"
+}

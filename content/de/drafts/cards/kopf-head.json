@@ -1,0 +1,25 @@
+{
+  "id": "kopf-head",
+  "rank": 307,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Kopf",
+  "en": "head",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Köpfe"
+  },
+  "example": {
+    "target": "Mir tut der Kopf weh.",
+    "en": "My head hurts."
+  },
+  "regional": null,
+  "trick": "KOPF sounds like \"cop\" with a puff at the end: a cop wears his helmet on his head.",
+  "image": "/deck-de/img/kopf-head.webp",
+  "audio": {
+    "word": "/deck-de/audio/kopf-head.word.mp3",
+    "sentence": "/deck-de/audio/kopf-head.sentence.mp3"
+  }
+}

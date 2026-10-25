@@ -1,0 +1,21 @@
+{
+  "id": "dran-turn",
+  "rank": 371,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "dran",
+  "en": "up next (it's someone's turn)",
+  "hint": "one word after du bist",
+  "grammar": null,
+  "example": {
+    "target": "Jetzt bist du dran!",
+    "en": "Now it's your turn!"
+  },
+  "regional": null,
+  "trick": "DRAN sounds like drawn: your name has been drawn, so you're up and it's your turn.",
+  "image": "/deck-de/img/dran-turn.webp",
+  "audio": {
+    "word": "/deck-de/audio/dran-turn.word.mp3",
+    "sentence": "/deck-de/audio/dran-turn.sentence.mp3"
+  }
+}

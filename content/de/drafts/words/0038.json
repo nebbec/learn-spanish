@@ -1,0 +1,17 @@
+{
+  "rank": 38,
+  "word": "wenn",
+  "cards": [
+    "wenn-if",
+    "wenn-when"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wenn-if": null,
+    "wenn-when": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:19.184Z"
+}

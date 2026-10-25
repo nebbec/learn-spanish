@@ -1,0 +1,15 @@
+{
+  "rank": 596,
+  "word": "Onkel",
+  "cards": [
+    "onkel-uncle"
+  ],
+  "skip": null,
+  "sameAs": {
+    "onkel-uncle": "tio-uncle"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:29.110Z"
+}

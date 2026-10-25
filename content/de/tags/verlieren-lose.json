@@ -1,0 +1,14 @@
+{
+  "id": "verlieren-lose",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7bf89a3c38b080b8",
+  "group": "#240 verlieren",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:06.204Z"
+}

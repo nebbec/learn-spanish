@@ -1,0 +1,33 @@
+{
+  "id": "verzeihen-forgive",
+  "rank": 772,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verzeihen",
+  "en": "to forgive",
+  "hint": "the word behind Verzeihung, not vergeben",
+  "grammar": {
+    "present": {
+      "ich": "verzeihe",
+      "du": "verzeihst",
+      "er": "verzeiht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verziehen"
+    }
+  },
+  "example": {
+    "target": "Verzeihst du mir?",
+    "en": "Do you forgive me?"
+  },
+  "regional": null,
+  "trick": "VERZEIHEN sounds like fair-TSY-en: you sigh, play fair and forgive.",
+  "image": "/deck-de/img/verzeihen-forgive.webp",
+  "audio": {
+    "word": "/deck-de/audio/verzeihen-forgive.word.mp3",
+    "sentence": "/deck-de/audio/verzeihen-forgive.sentence.mp3"
+  }
+}

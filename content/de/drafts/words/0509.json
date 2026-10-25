@@ -1,0 +1,14 @@
+{
+  "rank": 509,
+  "word": "Arsch",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "Arsch is the crude word for ass, used mainly in insults and swearing; the polite word is der Hintern."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:00.145Z"
+}

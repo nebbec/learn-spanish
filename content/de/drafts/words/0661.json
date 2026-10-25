@@ -1,0 +1,15 @@
+{
+  "rank": 661,
+  "word": "beeilen",
+  "cards": [
+    "beeilen-hurry"
+  ],
+  "skip": null,
+  "sameAs": {
+    "beeilen-hurry": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:59.152Z"
+}

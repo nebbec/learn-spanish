@@ -1,0 +1,33 @@
+{
+  "id": "finden-find",
+  "rank": 95,
+  "kind": "content",
+  "pos": "verb",
+  "target": "finden",
+  "en": "to find",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "finde",
+      "du": "findest",
+      "er": "findet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefunden"
+    }
+  },
+  "example": {
+    "target": "Ich finde meinen Schlüssel nicht.",
+    "en": "I can't find my key."
+  },
+  "regional": null,
+  "trick": "FINDEN sounds like find in: you find your keys in your bag.",
+  "image": "/deck-de/img/finden-find.webp",
+  "audio": {
+    "word": "/deck-de/audio/finden-find.word.mp3",
+    "sentence": "/deck-de/audio/finden-find.sentence.mp3"
+  }
+}

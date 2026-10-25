@@ -1,0 +1,25 @@
+{
+  "id": "erde-earth",
+  "rank": 587,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Erde",
+  "en": "Earth",
+  "hint": "the planet",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Die Erde dreht sich um die Sonne.",
+    "en": "The Earth goes around the sun."
+  },
+  "regional": null,
+  "trick": "ERDE sounds like a German way of saying earth, with a d where English has th: our planet Earth.",
+  "image": "/deck-de/img/erde-earth.webp",
+  "audio": {
+    "word": "/deck-de/audio/erde-earth.word.mp3",
+    "sentence": "/deck-de/audio/erde-earth.sentence.mp3"
+  }
+}

@@ -1,0 +1,38 @@
+# kriegen-get · rank 260 · kriegen
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The card means to get in the sense of receiving, like bekommen, but conseguir-get means obtaining something with effort, so its picture shows a different meaning. Suggested fix: recibir-receive
+# Reviewer's note (not a reason to flag): The hint already rules out holen (fetch) and werden (become) by naming bekommen, but writing "informal for receive, not bekommen" would make the sense clearer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0260.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 kriegen-get
+kind:               content
+pos:                verb
+target:             kriegen
+en:                 to get
+hint:               informal, not bekommen
+ich:                kriege
+du:                 kriegst
+er:                 kriegt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gekriegt
+example.target:     Was kriegst du zum Geburtstag?
+example.en:         What are you getting for your birthday?
+regional.where:
+regional.text:
+trick:              KRIEGEN sounds like KREE-gun: agree to a gain and you get something.
+
+# The draft this file was made from. Do not change it.
+draft: f96d25ceb23bdd6c

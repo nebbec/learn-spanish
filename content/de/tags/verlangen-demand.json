@@ -1,0 +1,14 @@
+{
+  "id": "verlangen-demand",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "dd0a42b1e9d44db8",
+  "group": "#703 verlangen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:09.517Z"
+}

@@ -1,0 +1,30 @@
+# heraus-out · rank 734 · heraus
+#
+# Why it was flagged:
+#   - One right answer: The colloquial short form raus is just as right for this prompt and hint, and in everyday speech it is actually more common, so the hint does not lead to a single answer. Suggested fix: hint: out of somewhere, toward the speaker (the full form, not the short raus)
+# Reviewer's note (not a reason to flag): In casual speech people would more likely say "Komm sofort da raus!", so the editor could mention raus as the spoken short form in the example or the trick.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             heraus-out
+kind:           content
+pos:            adverb
+target:         heraus
+en:             out
+hint:           out of somewhere, toward the speaker (the full form, not the short raus)
+example.target: Komm sofort da heraus!
+example.en:     Come out of there right now!
+regional.where:
+regional.text:
+trick:          HERAUS sounds like "hair-OWSE", ending like "house": come out of the house!
+
+# The draft this file was made from. Do not change it.
+draft: 97267b901ea68c84

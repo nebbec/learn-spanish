@@ -1,0 +1,21 @@
+{
+  "id": "ueberhaupt-at-all",
+  "rank": 390,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "überhaupt",
+  "en": "I'm not tired [at all]",
+  "hint": "not gar",
+  "grammar": null,
+  "example": {
+    "target": "Das ist überhaupt nicht schlimm.",
+    "en": "That's not bad at all."
+  },
+  "regional": null,
+  "trick": "ÜBERHAUPT starts like Uber: I don't need an Uber at all, I'll walk.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ueberhaupt-at-all.word.mp3",
+    "sentence": "/deck-de/audio/ueberhaupt-at-all.sentence.mp3"
+  }
+}

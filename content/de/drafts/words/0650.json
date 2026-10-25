@@ -1,0 +1,17 @@
+{
+  "rank": 650,
+  "word": "Klasse",
+  "cards": [
+    "klasse-class",
+    "klasse-great"
+  ],
+  "skip": null,
+  "sameAs": {
+    "klasse-class": null,
+    "klasse-great": "genial-great"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:11.052Z"
+}

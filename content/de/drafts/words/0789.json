@@ -1,0 +1,15 @@
+{
+  "rank": 789,
+  "word": "Ziel",
+  "cards": [
+    "ziel-goal"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ziel-goal": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:10.079Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "als-than",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use als after a comparison (older than); use wie for equals (as tall as).",
+  "draft": "31843df1c61063fc",
+  "group": "#60 als",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:24.974Z"
+}

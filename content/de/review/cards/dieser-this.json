@@ -1,0 +1,17 @@
+{
+  "id": "dieser-this",
+  "rank": 47,
+  "word": "dieser",
+  "draft": "a5ab81ff200867f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "this (masculine nominative; also this one)",
+    "example": "This film is really good."
+  },
+  "note": "Spoken German often says a stressed \"der Film\" for \"this film\", but \"dieser\" is the clear answer for [this], and because Film is masculine the prompt gets the dictionary form \"dieser\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:13.032Z"
+}

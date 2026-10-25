@@ -1,0 +1,15 @@
+{
+  "rank": 312,
+  "word": "Auto",
+  "cards": [
+    "auto-car"
+  ],
+  "skip": null,
+  "sameAs": {
+    "auto-car": "auto-car"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:40.930Z"
+}

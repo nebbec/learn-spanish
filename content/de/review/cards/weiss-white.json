@@ -1,0 +1,17 @@
+{
+  "id": "weiss-white",
+  "rank": 458,
+  "word": "weiß",
+  "draft": "2de4a273ca3eb8f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "white",
+    "example": "My new car is white."
+  },
+  "note": "This word's high subtitle rank probably comes mostly from ich weiß and er weiß (forms of wissen), not the colour, so make sure wissen and its forms have their own cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:53.755Z"
+}

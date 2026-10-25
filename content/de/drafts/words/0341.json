@@ -1,0 +1,17 @@
+{
+  "rank": 341,
+  "word": "tragen",
+  "cards": [
+    "tragen-carry",
+    "tragen-wear"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tragen-carry": null,
+    "tragen-wear": "llevar-wear"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:41.653Z"
+}

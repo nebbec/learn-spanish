@@ -1,0 +1,17 @@
+{
+  "id": "sache-thing",
+  "rank": 213,
+  "word": "Sache",
+  "draft": "865fc77610a175f5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "thing, matter, affair (plural Sachen: things, belongings, stuff)",
+    "example": "Pack your things, we're leaving in a minute."
+  },
+  "note": "The hint is needed, because \"not Ding\" rules out the other common word for thing, and the example correctly splits einpacken and uses Sachen in its very common sense of belongings.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:49.838Z"
+}

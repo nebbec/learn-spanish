@@ -1,0 +1,17 @@
+{
+  "id": "gegen-around-time",
+  "rank": 263,
+  "word": "gegen",
+  "draft": "be51f5224c3f9d2d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "against; around, towards (with a clock time, meaning roughly)",
+    "example": "I'll be home around eight."
+  },
+  "note": "The hint correctly rules out \"um\", which on its own would mean exactly at eight; the editor could add \"one word\" to the hint to also rule out \"ungefähr um\", though that answer would not fit a single bracketed word anyway.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:43:14.347Z"
+}

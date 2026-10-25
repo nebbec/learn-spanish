@@ -1,0 +1,17 @@
+{
+  "id": "glueck-happiness",
+  "rank": 326,
+  "word": "Glück",
+  "draft": "2df5dcbc591aae5c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "happiness; luck",
+    "example": "Money alone doesn't bring happiness."
+  },
+  "note": "The example could also be read as \"luck\", but in this well-known saying \"happiness\" is the natural reading, so it works for this card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:19.449Z"
+}

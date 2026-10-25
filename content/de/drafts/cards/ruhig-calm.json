@@ -1,0 +1,21 @@
+{
+  "id": "ruhig-calm",
+  "rank": 350,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "ruhig",
+  "en": "calm, quiet",
+  "hint": "peaceful, not only low in volume",
+  "grammar": null,
+  "example": {
+    "target": "Bleib ruhig, alles ist gut.",
+    "en": "Stay calm, everything's fine."
+  },
+  "regional": null,
+  "trick": "RUHIG starts like roo: picture a sleeping kangaroo, a roo lying calm and quiet.",
+  "image": "/deck-de/img/ruhig-calm.webp",
+  "audio": {
+    "word": "/deck-de/audio/ruhig-calm.word.mp3",
+    "sentence": "/deck-de/audio/ruhig-calm.sentence.mp3"
+  }
+}

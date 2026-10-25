@@ -1,0 +1,15 @@
+{
+  "rank": 198,
+  "word": "holen",
+  "cards": [
+    "holen-fetch"
+  ],
+  "skip": null,
+  "sameAs": {
+    "holen-fetch": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:11.082Z"
+}

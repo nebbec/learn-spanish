@@ -1,0 +1,17 @@
+{
+  "id": "suess-sweet",
+  "rank": 418,
+  "word": "süß",
+  "draft": "d62d2903ab08a101",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sweet (tasting of sugar); also cute",
+    "example": "The cake is too sweet for me."
+  },
+  "note": "The hint \"taste\" is needed: it keeps this card apart from the word's \"cute\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:51.504Z"
+}

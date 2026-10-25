@@ -1,0 +1,14 @@
+{
+  "id": "raus-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "72f3ca524b9ac52d",
+  "group": "#180 raus",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:54.252Z"
+}

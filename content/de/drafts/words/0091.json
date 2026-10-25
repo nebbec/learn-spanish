@@ -1,0 +1,19 @@
+{
+  "rank": 91,
+  "word": "vor",
+  "cards": [
+    "vor-in-front",
+    "vor-ago",
+    "vor-before"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vor-in-front": null,
+    "vor-ago": null,
+    "vor-before": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:05.805Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "genauso-just-as",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fab3a72607e79c00",
+  "group": "#623 genauso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:23.074Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vertrauen-trust-noun",
+  "rank": 389,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Vertrauen",
+  "en": "trust",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": null
+  },
+  "example": {
+    "target": "Vertrauen ist in einer Beziehung sehr wichtig.",
+    "en": "Trust is very important in a relationship."
+  },
+  "regional": null,
+  "trick": "Das verTRAUen has TRAU in the middle, which sounds a bit like true: trust is what you give someone who is true.",
+  "image": "/deck-de/img/vertrauen-trust-noun.webp",
+  "audio": {
+    "word": "/deck-de/audio/vertrauen-trust-noun.word.mp3",
+    "sentence": "/deck-de/audio/vertrauen-trust-noun.sentence.mp3"
+  }
+}

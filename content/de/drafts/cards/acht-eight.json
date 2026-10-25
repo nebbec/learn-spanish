@@ -1,0 +1,21 @@
+{
+  "id": "acht-eight",
+  "rank": 632,
+  "kind": "content",
+  "pos": "other",
+  "target": "acht",
+  "en": "eight",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich stehe morgen um acht auf.",
+    "en": "I'm getting up at eight tomorrow."
+  },
+  "regional": null,
+  "trick": "ACHT, with its throaty ch, sounds a bit like the start of octopus, and an octopus has eight arms.",
+  "image": "/deck-de/img/acht-eight.webp",
+  "audio": {
+    "word": "/deck-de/audio/acht-eight.word.mp3",
+    "sentence": "/deck-de/audio/acht-eight.sentence.mp3"
+  }
+}

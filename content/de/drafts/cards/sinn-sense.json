@@ -1,0 +1,25 @@
+{
+  "id": "sinn-sense",
+  "rank": 586,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Sinn",
+  "en": "sense",
+  "hint": "meaning, as in it makes sense",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Sinne"
+  },
+  "example": {
+    "target": "Das ergibt doch keinen Sinn.",
+    "en": "That makes no sense."
+  },
+  "regional": null,
+  "trick": "SINN, said like zin, sounds like a short sense: when something has Sinn, it makes sense.",
+  "image": "/deck-de/img/sinn-sense.webp",
+  "audio": {
+    "word": "/deck-de/audio/sinn-sense.word.mp3",
+    "sentence": "/deck-de/audio/sinn-sense.sentence.mp3"
+  }
+}

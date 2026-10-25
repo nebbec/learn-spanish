@@ -1,0 +1,15 @@
+{
+  "rank": 782,
+  "word": "überprüfen",
+  "cards": [
+    "ueberpruefen-check"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ueberpruefen-check": "revisar-check"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:46.034Z"
+}

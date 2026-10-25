@@ -1,0 +1,15 @@
+{
+  "rank": 202,
+  "word": "tot",
+  "cards": [
+    "tot-dead"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tot-dead": "muerto-dead"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:25.973Z"
+}

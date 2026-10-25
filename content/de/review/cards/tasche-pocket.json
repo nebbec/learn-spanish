@@ -1,0 +1,28 @@
+{
+  "id": "tasche-pocket",
+  "rank": 768,
+  "word": "Tasche",
+  "draft": "8596011361e7698d",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Switzerland a trouser or jacket pocket is commonly called Sack or Hosensack, so regional should not be null.",
+      "fix": "regional: { where: Switzerland, text: For a pocket, Swiss speakers commonly say der Sack or der Hosensack instead of Tasche. }"
+    },
+    {
+      "reason": "example",
+      "problem": "In meiner Tasche can just as easily mean in my bag, so the sentence does not show the pocket meaning and blurs it with the word's bag card.",
+      "fix": "example.target: Er hat die Hände in den Taschen. example.en: He has his hands in his pockets."
+    }
+  ],
+  "back": {
+    "target": "pocket; bag",
+    "example": "The phone is in my pocket (or: in my bag)."
+  },
+  "note": "Die Hosentasche is a more specific word for a trouser pocket, but die Tasche is the everyday answer for pocket, so the prompt works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:31.387Z"
+}

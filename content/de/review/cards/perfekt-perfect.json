@@ -1,0 +1,17 @@
+{
+  "id": "perfekt-perfect",
+  "rank": 531,
+  "word": "perfekt",
+  "draft": "a786b712275457fb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "perfect",
+    "example": "The evening was just perfect."
+  },
+  "note": "The word vollkommen also means perfect but is more formal, so perfekt is clearly the answer for this prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:32.058Z"
+}

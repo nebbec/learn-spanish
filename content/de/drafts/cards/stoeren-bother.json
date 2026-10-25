@@ -1,0 +1,33 @@
+{
+  "id": "stoeren-bother",
+  "rank": 615,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stören",
+  "en": "to bother",
+  "hint": "to disturb",
+  "grammar": {
+    "present": {
+      "ich": "störe",
+      "du": "störst",
+      "er": "stört"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestört"
+    }
+  },
+  "example": {
+    "target": "Störe ich dich gerade?",
+    "en": "Am I bothering you right now?"
+  },
+  "regional": null,
+  "trick": "STÖREN sounds like shtur-en, close to stir: someone who stirs things up while you work bothers you.",
+  "image": "/deck-de/img/stoeren-bother.webp",
+  "audio": {
+    "word": "/deck-de/audio/stoeren-bother.word.mp3",
+    "sentence": "/deck-de/audio/stoeren-bother.sentence.mp3"
+  }
+}

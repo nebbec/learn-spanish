@@ -1,0 +1,17 @@
+{
+  "id": "still-quiet",
+  "rank": 639,
+  "word": "still",
+  "draft": "b73410af051baa70",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "quiet, silent; still (motionless, calm)",
+    "example": "Please be quiet, the baby is sleeping."
+  },
+  "note": "The hint is needed, because ruhig and leise also fit \"quiet\" (Sei ruhig! and Sei leise! are both common), and it does rule them out by pointing to English \"still\". A clearer wording would avoid hinting at the time sense of still (German noch), for example: \"same word as English still (motionless), as in Sei ___!\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:49.717Z"
+}

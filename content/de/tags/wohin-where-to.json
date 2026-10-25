@@ -1,0 +1,14 @@
+{
+  "id": "wohin-where-to",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use wohin to ask where someone is going; use wo to ask where someone or something is.",
+  "draft": "cc5a2d3f3e60557e",
+  "group": "#502 wohin",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:07.441Z"
+}

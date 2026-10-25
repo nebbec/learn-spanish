@@ -1,0 +1,17 @@
+{
+  "rank": 741,
+  "word": "verlieben",
+  "cards": [
+    "verlieben-fall-in-love",
+    "verlieben-in-love"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verlieben-fall-in-love": null,
+    "verlieben-in-love": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:18.867Z"
+}

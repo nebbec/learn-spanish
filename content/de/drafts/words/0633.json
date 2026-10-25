@@ -1,0 +1,15 @@
+{
+  "rank": 633,
+  "word": "stolz",
+  "cards": [
+    "stolz-proud"
+  ],
+  "skip": null,
+  "sameAs": {
+    "stolz-proud": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:53.265Z"
+}

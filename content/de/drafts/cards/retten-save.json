@@ -1,0 +1,33 @@
+{
+  "id": "retten-save",
+  "rank": 330,
+  "kind": "content",
+  "pos": "verb",
+  "target": "retten",
+  "en": "to save",
+  "hint": "from danger",
+  "grammar": {
+    "present": {
+      "ich": "rette",
+      "du": "rettest",
+      "er": "rettet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gerettet"
+    }
+  },
+  "example": {
+    "target": "Du hast mir das Leben gerettet!",
+    "en": "You saved my life!"
+  },
+  "regional": null,
+  "trick": "RETTEN sounds like \"red ten\": ten firefighters in red rush in to save you from danger.",
+  "image": "/deck-de/img/retten-save.webp",
+  "audio": {
+    "word": "/deck-de/audio/retten-save.word.mp3",
+    "sentence": "/deck-de/audio/retten-save.sentence.mp3"
+  }
+}

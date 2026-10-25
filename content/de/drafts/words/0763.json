@@ -1,0 +1,15 @@
+{
+  "rank": 763,
+  "word": "Fenster",
+  "cards": [
+    "fenster-window"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fenster-window": "ventana-window"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:29.054Z"
+}

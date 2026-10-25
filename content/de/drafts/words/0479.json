@@ -1,0 +1,15 @@
+{
+  "rank": 479,
+  "word": "Nummer",
+  "cards": [
+    "nummer-number"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nummer-number": "numero-number"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:57.086Z"
+}

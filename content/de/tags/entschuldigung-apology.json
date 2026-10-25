@@ -1,0 +1,14 @@
+{
+  "id": "entschuldigung-apology",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "60a535e978f3df7b",
+  "group": "#451 Entschuldigung",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:13.505Z"
+}

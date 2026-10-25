@@ -1,0 +1,17 @@
+{
+  "id": "da-there",
+  "rank": 50,
+  "word": "da",
+  "draft": "49f8d0c3e0bbd3a4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "there (also here, in speech; then; since, because)",
+    "example": "The hotel? My father works there."
+  },
+  "note": "Spanish ahí means \"there, near you\", which is narrower than German da, which can mean any \"there\"; a general picture of pointing at \"there\" still fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:29:57.805Z"
+}

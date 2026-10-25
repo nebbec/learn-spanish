@@ -1,0 +1,17 @@
+{
+  "id": "noetig-necessary",
+  "rank": 653,
+  "word": "nötig",
+  "draft": "68ca0b105c5bc868",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "necessary, needed",
+    "example": "Thanks, but that's really not necessary."
+  },
+  "note": "The hint is needed because notwendig is a common synonym, and the trick holds up: nötig comes from Not, which is related to English need.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:08.531Z"
+}

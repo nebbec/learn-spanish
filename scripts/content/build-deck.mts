@@ -44,9 +44,9 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..")
 
 /**
  * Each language's deck size: Spanish's first slice was 100 cards (E4) and S5 grew it to 1,000; German's
- * first slice is 100 (DE12).
+ * first slice was 100 (DE12) and DE18 grew it to 1,000.
  */
-const DECK_SIZE: Record<string, number> = { es: 1000, de: 100 };
+const DECK_SIZE: Record<string, number> = { es: 1000, de: 1000 };
 
 const { values } = parseArgs({
   options: {

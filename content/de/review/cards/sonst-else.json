@@ -1,0 +1,17 @@
+{
+  "id": "sonst-else",
+  "rank": 266,
+  "word": "sonst",
+  "draft": "dd32e9486b373ede",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "else; otherwise; usually",
+    "example": "Do you need anything else?"
+  },
+  "note": "The hint is needed, because \"Brauchst du noch was?\" is the most common way to say this. Learners may notice that noch still appears in the example \"sonst noch was\", but that is correct German, since the two words usually go together.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:43:46.015Z"
+}

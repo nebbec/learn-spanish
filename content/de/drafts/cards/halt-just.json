@@ -1,0 +1,21 @@
+{
+  "id": "halt-just",
+  "rank": 268,
+  "kind": "glue",
+  "pos": "other",
+  "target": "halt",
+  "en": "That's [just] how it is.",
+  "hint": "shrugging particle: it can't be helped (not eben or einfach)",
+  "grammar": null,
+  "example": {
+    "target": "Das ist halt so, da kann man nichts machen.",
+    "en": "That's just how it is, there's nothing you can do."
+  },
+  "regional": null,
+  "trick": "HALT sounds like English halt: the argument halts there, because that's just how it is.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/halt-just.word.mp3",
+    "sentence": "/deck-de/audio/halt-just.sentence.mp3"
+  }
+}

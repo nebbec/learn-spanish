@@ -1,0 +1,33 @@
+{
+  "id": "kuessen-kiss",
+  "rank": 764,
+  "kind": "content",
+  "pos": "verb",
+  "target": "küssen",
+  "en": "to kiss",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "küsse",
+      "du": "küsst",
+      "er": "küsst"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geküsst"
+    }
+  },
+  "example": {
+    "target": "Er hat mich gestern geküsst.",
+    "en": "He kissed me yesterday."
+  },
+  "regional": null,
+  "trick": "KÜSSEN sounds a lot like kissing: you kiss someone with a little kiss sound.",
+  "image": "/deck-de/img/kuessen-kiss.webp",
+  "audio": {
+    "word": "/deck-de/audio/kuessen-kiss.word.mp3",
+    "sentence": "/deck-de/audio/kuessen-kiss.sentence.mp3"
+  }
+}

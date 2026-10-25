@@ -1,0 +1,17 @@
+{
+  "id": "beweisen-prove",
+  "rank": 588,
+  "word": "beweisen",
+  "draft": "3a421db5987217f4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to prove (show that something is true)",
+    "example": "I'll prove it to you."
+  },
+  "note": "There is no Spanish verb card for to prove: prueba-proof is the noun and probar-try means to test, so sameAs null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:11.679Z"
+}

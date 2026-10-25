@@ -1,0 +1,23 @@
+{
+  "id": "zur-to-the",
+  "rank": 160,
+  "word": "zur",
+  "draft": "3e48f28a51d112c6",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "In Germany a train station is der Bahnhof, which is masculine, so the natural answer is zum Bahnhof; the hint saying the noun is feminine pushes the learner toward the rare zur Station.",
+      "fix": "en: I'm going [to the] bank"
+    }
+  ],
+  "back": {
+    "target": "to the (zu + der: zu with the dative of a feminine noun)",
+    "example": "I'm going to work now."
+  },
+  "note": "With the prompt changed to bank (zur Bank), the current hint still works, because it rules out other ways to say to the, such as in die.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:45.805Z"
+}

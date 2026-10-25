@@ -1,0 +1,17 @@
+{
+  "id": "interessant-interesting",
+  "rank": 683,
+  "word": "interessant",
+  "draft": "b6813f00d45e464a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "interesting",
+    "example": "The book is really interesting."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:45.985Z"
+}

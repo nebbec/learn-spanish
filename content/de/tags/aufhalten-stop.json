@@ -1,0 +1,14 @@
+{
+  "id": "aufhalten-stop",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": "tip-separable",
+  "why": "Use aufhalten for stopping someone else; aufhören for stopping something you are doing.",
+  "draft": "1833eb605439b68a",
+  "group": "#699 aufhalten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:05.673Z"
+}

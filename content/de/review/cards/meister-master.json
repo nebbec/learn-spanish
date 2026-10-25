@@ -1,0 +1,17 @@
+{
+  "id": "meister-master",
+  "rank": 732,
+  "word": "Meister",
+  "draft": "638565ae65395aef",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "master (an expert at something, or a mentor; also master craftsman, champion)",
+    "example": "He is a master at cooking."
+  },
+  "note": "The example is fine as it is, though \"Er ist ein Meister in der Küche\" would sound slightly more idiomatic.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:22:39.284Z"
+}

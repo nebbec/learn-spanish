@@ -1,0 +1,21 @@
+{
+  "id": "vorher-before",
+  "rank": 716,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "vorher",
+  "en": "before, beforehand",
+  "hint": "adverb, earlier on its own",
+  "grammar": null,
+  "example": {
+    "target": "Ruf mich vorher kurz an.",
+    "en": "Give me a quick call beforehand."
+  },
+  "regional": null,
+  "trick": "VORHER sounds like \"for hair\": before you go out, you do your hair beforehand.",
+  "image": "/deck-de/img/vorher-before.webp",
+  "audio": {
+    "word": "/deck-de/audio/vorher-before.word.mp3",
+    "sentence": "/deck-de/audio/vorher-before.sentence.mp3"
+  }
+}

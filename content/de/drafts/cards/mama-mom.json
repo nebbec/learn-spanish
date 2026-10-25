@@ -1,0 +1,25 @@
+{
+  "id": "mama-mom",
+  "rank": 388,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Mama",
+  "en": "mom",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Mamas"
+  },
+  "example": {
+    "target": "Meine Mama kocht heute Abend.",
+    "en": "My mom is cooking tonight."
+  },
+  "regional": null,
+  "trick": "MAMA sounds just like English mama, MAH-mah, the word kids everywhere use for their mom.",
+  "image": "/deck-de/img/mama-mom.webp",
+  "audio": {
+    "word": "/deck-de/audio/mama-mom.word.mp3",
+    "sentence": "/deck-de/audio/mama-mom.sentence.mp3"
+  }
+}

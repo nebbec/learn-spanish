@@ -1,0 +1,17 @@
+{
+  "id": "bald-soon",
+  "rank": 335,
+  "word": "bald",
+  "draft": "ee5e5e4ab6425546",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "soon",
+    "example": "See you soon, I'll call you!"
+  },
+  "note": "Gleich and demnächst are close, but bald is the clear default for plain soon, so the prompt needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:38.366Z"
+}

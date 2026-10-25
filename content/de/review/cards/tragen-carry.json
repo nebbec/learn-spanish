@@ -1,0 +1,17 @@
+{
+  "id": "tragen-carry",
+  "rank": 341,
+  "word": "tragen",
+  "draft": "95622e5433c4e8d2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to carry (also to wear, to bear)",
+    "example": "Can you carry the bag for me?"
+  },
+  "note": "llevar-take-carry is close, but its prompt is \"to take\" (bringing someone or something somewhere), so it is a different meaning and null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:08.978Z"
+}

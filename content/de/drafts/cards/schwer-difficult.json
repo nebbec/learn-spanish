@@ -1,0 +1,21 @@
+{
+  "id": "schwer-difficult",
+  "rank": 323,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "schwer",
+  "en": "hard, difficult",
+  "hint": "short everyday word, not schwierig",
+  "grammar": null,
+  "example": {
+    "target": "Die Prüfung war ziemlich schwer.",
+    "en": "The exam was pretty hard."
+  },
+  "regional": null,
+  "trick": "SCHWER sounds like shvair, close to swear: a hard task makes you swear.",
+  "image": "/deck-de/img/schwer-difficult.webp",
+  "audio": {
+    "word": "/deck-de/audio/schwer-difficult.word.mp3",
+    "sentence": "/deck-de/audio/schwer-difficult.sentence.mp3"
+  }
+}

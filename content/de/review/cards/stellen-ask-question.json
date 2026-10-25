@@ -1,0 +1,23 @@
+{
+  "id": "stellen-ask-question",
+  "rank": 208,
+  "word": "stellen",
+  "draft": "e8e886668c9b78b0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card preguntar-ask (to ask a question, not ask for something) has the same meaning, so its picture of someone asking a question fits this card.",
+      "fix": "preguntar-ask"
+    }
+  ],
+  "back": {
+    "target": "to put, to place (upright), to set; in eine Frage stellen: to ask (a question)",
+    "example": "May I ask you a question?"
+  },
+  "note": "This card teaches stellen only in the fixed phrase eine Frage stellen, and the hint is what makes stellen the single right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:31.501Z"
+}

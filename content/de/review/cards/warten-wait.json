@@ -1,0 +1,17 @@
+{
+  "id": "warten-wait",
+  "rank": 121,
+  "word": "warten",
+  "draft": "c6e4eb63dc4d3519",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to wait",
+    "example": "I'm waiting for you in front of the cinema."
+  },
+  "note": "The example also teaches the common pattern warten auf plus accusative, which is worth keeping.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:55.266Z"
+}

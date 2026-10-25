@@ -1,0 +1,15 @@
+{
+  "rank": 212,
+  "word": "rufen",
+  "cards": [
+    "rufen-call"
+  ],
+  "skip": null,
+  "sameAs": {
+    "rufen-call": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:05.979Z"
+}

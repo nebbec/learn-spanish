@@ -1,0 +1,17 @@
+{
+  "id": "weil-because",
+  "rank": 122,
+  "word": "weil",
+  "draft": "8eaed5522f5c7a72",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "because (subordinating conjunction; the verb goes to the end of its clause)",
+    "example": "I'm staying at home because I'm sick."
+  },
+  "note": "The hint rules out denn, which keeps the verb in second place; da also sends the verb to the end, but it is more formal and rarely used in this position, so weil is the one answer a learner would give.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:56.961Z"
+}

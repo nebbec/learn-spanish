@@ -1,0 +1,15 @@
+{
+  "rank": 671,
+  "word": "Mund",
+  "cards": [
+    "mund-mouth"
+  ],
+  "skip": null,
+  "sameAs": {
+    "mund-mouth": "boca-mouth"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:05:37.128Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 703,
+  "word": "verlangen",
+  "cards": [
+    "verlangen-demand"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verlangen-demand": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:48.757Z"
+}

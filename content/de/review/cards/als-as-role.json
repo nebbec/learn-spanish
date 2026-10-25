@@ -1,0 +1,17 @@
+{
+  "id": "als-as-role",
+  "rank": 60,
+  "word": "als",
+  "draft": "161a1e0d8bb6d719",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "as (in the role of)",
+    "example": "I work as a waiter."
+  },
+  "note": "The example sentence is identical to the prompt; a different sentence such as \"Sie arbeitet als Ärztin.\" would give the learner more.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:40.708Z"
+}

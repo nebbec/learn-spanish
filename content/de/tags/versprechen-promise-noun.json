@@ -1,0 +1,14 @@
+{
+  "id": "versprechen-promise-noun",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fa904dadd263e2ea",
+  "group": "#361 versprechen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:07.624Z"
+}

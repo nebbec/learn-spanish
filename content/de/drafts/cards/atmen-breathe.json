@@ -1,0 +1,33 @@
+{
+  "id": "atmen-breathe",
+  "rank": 783,
+  "kind": "content",
+  "pos": "verb",
+  "target": "atmen",
+  "en": "to breathe",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "atme",
+      "du": "atmest",
+      "er": "atmet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geatmet"
+    }
+  },
+  "example": {
+    "target": "Er atmet noch!",
+    "en": "He's still breathing!"
+  },
+  "regional": null,
+  "trick": "ATMEN starts like ATMosphere, the air all around you that you breathe.",
+  "image": "/deck-de/img/atmen-breathe.webp",
+  "audio": {
+    "word": "/deck-de/audio/atmen-breathe.word.mp3",
+    "sentence": "/deck-de/audio/atmen-breathe.sentence.mp3"
+  }
+}

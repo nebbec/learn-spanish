@@ -1,0 +1,17 @@
+{
+  "id": "besorgen-worried",
+  "rank": 581,
+  "word": "besorgen",
+  "draft": "c993da56100be087",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "worried, concerned",
+    "example": "My mother is totally worried."
+  },
+  "note": "besorgt is the standard dictionary answer for worried, but in casual speech Germans often say sich Sorgen machen instead (Meine Mutter macht sich total Sorgen), which the editor could mention somewhere; the trick's sorrow link works because Sorge and English sorrow share a root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:48.258Z"
+}

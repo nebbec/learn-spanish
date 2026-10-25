@@ -1,0 +1,14 @@
+{
+  "id": "rein-pure",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "604c1af5b0a34c96",
+  "group": "#235 rein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:57.531Z"
+}

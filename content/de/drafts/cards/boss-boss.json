@@ -1,0 +1,25 @@
+{
+  "id": "boss-boss",
+  "rank": 686,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Boss",
+  "en": "boss",
+  "hint": "the English loanword, not Chef",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Bosse"
+  },
+  "example": {
+    "target": "Hier bin ich der Boss.",
+    "en": "I'm the boss here."
+  },
+  "regional": null,
+  "trick": "BOSS is borrowed straight from English and sounds almost the same: the boss is the person in charge.",
+  "image": "/deck-de/img/boss-boss.webp",
+  "audio": {
+    "word": "/deck-de/audio/boss-boss.word.mp3",
+    "sentence": "/deck-de/audio/boss-boss.sentence.mp3"
+  }
+}

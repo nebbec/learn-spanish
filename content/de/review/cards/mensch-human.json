@@ -1,0 +1,17 @@
+{
+  "id": "mensch-human",
+  "rank": 181,
+  "word": "Mensch",
+  "draft": "bc483fe207664781",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "human being, person",
+    "example": "He is a good person."
+  },
+  "note": "Mensch takes a weak ending (den Menschen, dem Menschen), which the editor may want to mention to learners somewhere.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:53.767Z"
+}

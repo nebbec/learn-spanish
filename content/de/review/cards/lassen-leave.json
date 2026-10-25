@@ -1,0 +1,17 @@
+{
+  "id": "lassen-leave",
+  "rank": 69,
+  "word": "lassen",
+  "draft": "13ab07d7e41f4099",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to leave (something somewhere), to leave (alone); also to let",
+    "example": "I'm leaving the money here."
+  },
+  "note": "The hint already rules out verlassen (leaving a place or person), but the editor could add \"not verlassen\" to stop learners reaching for zurücklassen or verlassen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:06.021Z"
+}

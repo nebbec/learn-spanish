@@ -1,0 +1,17 @@
+{
+  "id": "vergessen-forget",
+  "rank": 220,
+  "word": "vergessen",
+  "draft": "ab64635d0e83cc55",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to forget",
+    "example": "Don't forget your key!"
+  },
+  "note": "The example uses the du imperative \"vergiss\" with its e-to-i stem change, which is a good thing for learners to see.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:21.651Z"
+}

@@ -9,7 +9,7 @@
 //
 // The rules are in docs/german.md under "Content scripts", "Decided in DE5" and "Decided in DE7".
 
-import { GERMAN_ARTICLES, REGIONS, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH } from "@/lib/deck/types";
+import { GERMAN_ARTICLES, GERMAN_NOUN_ARTICLES, REGIONS, WORD_CARD_KINDS, WORD_PARTS_OF_SPEECH } from "@/lib/deck/types";
 import type { LangCode } from "@/lang/types";
 
 /** Whether a language's prompts may be sent to Claude. German's are written since DE7. */
@@ -60,7 +60,7 @@ Fields
 - id: the word in lower case with ä, ö and ü written ae, oe and ue and ß written ss, a hyphen, then one to three English words naming the meaning, lower-case ASCII joined by hyphens: "sein-be", "koennen-can", "strasse-street", "mit-with".
 - pos: noun, verb, adjective, adverb, pronoun, preposition, conjunction, determiner, or other (interjections, numbers used alone, anything else).
 - target: the answer as shown. A noun starts with its definite article and keeps its capital: "der Tisch", "die Zeit", "das Haus". Other words are bare: "gehen", "gut", "mit".
-- grammar: fill what the part of speech uses and set the rest to null. Noun: gender ("m", "f" or "n"), article (der, die or das: the one target starts with) and plural, the plural with its article ("die Tische"), or null when the noun has no plural in common use. Verb: present, the present-tense ich, du and er forms without the pronoun ("gehe", "gehst", "geht"), a separable verb's split with the prefix after a space ("rufe an", "rufst an", "ruft an"); irregular: true when the verb is irregular in the present or its Perfekt participle is strong or mixed (sein, haben, gehen, wissen, bringen), false for a regular weak verb; separable: true for a separable verb (anrufen, aufstehen), else false; perfekt: aux, "haben" or "sein" as the Perfekt takes it, and participle ("angerufen", "gegangen"). An adjective and every other part of speech: all null.
+- grammar: fill what the part of speech uses and set the rest to null. Noun: gender ("m", "f" or "n"), article (der, die or das: the one target starts with) and plural, the plural with its article ("die Tische"), or null when the noun has no plural in common use. A noun used only in the plural (die Leute, die Eltern) has gender "pl", article "die", target in the plural and plural null. Verb: present, the present-tense ich, du and er forms without the pronoun ("gehe", "gehst", "geht"), a separable verb's split with the prefix after a space ("rufe an", "rufst an", "ruft an"); irregular: true when the verb is irregular in the present or its Perfekt participle is strong or mixed (sein, haben, gehen, wissen, bringen), false for a regular weak verb; separable: true for a separable verb (anrufen, aufstehen), else false; perfekt: aux, "haben" or "sein" as the Perfekt takes it, and participle ("angerufen", "gegangen"). An adjective and every other part of speech: all null.
 - example: one short, natural sentence a speaker in Germany would say, under ten words, using the word in this card's meaning, and its natural English translation. For a verb, use a conjugated form, not the infinitive; a separable verb is split in its sentence ("Ich rufe dich morgen an."). Cases and adjective endings must be right. Speak to the learner with du. Do not start the sentence with sie meaning she or they: there it is written Sie and reads as the formal you.
 - regional: { where, text } when Austria or Switzerland commonly says another word for this meaning and it differs noticeably (where "Austria", text "der Jänner" for der Januar), else null. Most cards have none.
 - trick: one English sentence, under 25 words, linking the sound of the German word to its meaning, e.g. HUND sounds like "hound": a hound is a dog. Go by how German really says it, not by its spelling read as English: ei rhymes with "eye", ie with "see", z is "ts", w is "v", v is "f", u is "oo", s before a vowel is "z", and a final d or b is "t" or "p". Say nothing false about the word's letters either.
@@ -142,7 +142,7 @@ How a card works
 - kind "case": a short English phrase with one target in square brackets whose answer is an article and noun, or a pronoun, in the accusative or dative, with the preposition that takes the case when the prompt has one ("I see [the] man" is "den Mann", "with [a] friend" is "mit einem Freund"); the answer and the prompt come from the unit plan. grammar names the case (akk or dat), the noun's gender ("pl" for a plural) and from, the nominative of the changed word alone (der, die, das, ein, eine, mein, meine, kein, keine, or the subject pronoun), not of the whole phrase.
 - hint: there when the bare prompt would have more than one right answer, and then it must rule the others out. A hint the prompt does not strictly need is harmless and is never a reason to fail a check.
 - target: the dictionary form (infinitive, nominative singular, an adjective's base form), except on a form card (pronoun and form), a phrase card (the whole phrase) and a case card (the form in its case). A noun starts with its definite article and keeps its capital ("der Tisch", "das Haus").
-- grammar: a noun has gender (m, f or n), article and plural (with its article, "die Tische"; null when the noun has none in common use); a verb has its present-tense ich, du and er forms (a separable verb's split, "rufe an"), irregular (true when irregular in the present or with a strong or mixed Perfekt participle), separable, and its Perfekt's aux (haben or sein) and participle. An adjective and other parts of speech have none.
+- grammar: a noun has gender (m, f or n), article and plural (with its article, "die Tische"; null when the noun has none in common use), or gender pl, article die and plural null for a noun used only in the plural (die Leute); a verb has its present-tense ich, du and er forms (a separable verb's split, "rufe an"), irregular (true when irregular in the present or with a strong or mixed Perfekt participle), separable, and its Perfekt's aux (haben or sein) and participle. An adjective and other parts of speech have none.
 - example: one short, natural sentence using the word in this card's meaning (a verb conjugated, a separable verb split), with its English translation.
 - regional: { where, text }, what Austria or Switzerland says instead for this meaning when it noticeably and commonly differs, else null.
 - trick: one English sentence linking the sound of the German word to its meaning. A form, phrase or case card may have none (null).
@@ -211,7 +211,7 @@ const regional = nullable(object({ where: { type: "string", enum: [...REGIONS.de
 
 /** The German grammar fields, flat as the Spanish ones are: the guard keeps the fields `pos` uses (lib/deck/types.ts). */
 const grammar = object({
-  gender: nullable({ type: "string", enum: Object.keys(GERMAN_ARTICLES) }),
+  gender: nullable({ type: "string", enum: Object.keys(GERMAN_NOUN_ARTICLES) }),
   article: nullable({ type: "string", enum: Object.values(GERMAN_ARTICLES) }),
   plural: nullable(text),
   present: nullable(object({ ich: text, du: text, er: text })),

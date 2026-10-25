@@ -1,0 +1,14 @@
+{
+  "id": "tot-dead",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Tot is the adjective dead; der Tod, with a d, is the noun death.",
+  "draft": "cd5bf9b340c4e23d",
+  "group": "#202 tot",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:43.293Z"
+}

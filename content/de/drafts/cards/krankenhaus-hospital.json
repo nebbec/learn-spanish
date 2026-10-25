@@ -1,0 +1,28 @@
+{
+  "id": "krankenhaus-hospital",
+  "rank": 662,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Krankenhaus",
+  "en": "hospital",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Krankenhäuser"
+  },
+  "example": {
+    "target": "Mein Opa liegt im Krankenhaus.",
+    "en": "My grandpa is in the hospital."
+  },
+  "regional": {
+    "where": "Switzerland",
+    "text": "das Spital"
+  },
+  "trick": "KRANKENHAUS: krank sounds like cranky and Haus like house, so it's a house full of cranky sick people.",
+  "image": "/deck-de/img/krankenhaus-hospital.webp",
+  "audio": {
+    "word": "/deck-de/audio/krankenhaus-hospital.word.mp3",
+    "sentence": "/deck-de/audio/krankenhaus-hospital.sentence.mp3"
+  }
+}

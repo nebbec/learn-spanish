@@ -1,0 +1,21 @@
+{
+  "id": "willkommen-welcome",
+  "rank": 516,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "willkommen",
+  "en": "welcome",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Du bist hier immer willkommen.",
+    "en": "You're always welcome here."
+  },
+  "regional": null,
+  "trick": "WILLKOMMEN sounds like \"vill come in\": when guests will come in, you tell them they're welcome.",
+  "image": "/deck-de/img/willkommen-welcome.webp",
+  "audio": {
+    "word": "/deck-de/audio/willkommen-welcome.word.mp3",
+    "sentence": "/deck-de/audio/willkommen-welcome.sentence.mp3"
+  }
+}

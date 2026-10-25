@@ -1,0 +1,17 @@
+{
+  "id": "ewig-forever",
+  "rank": 780,
+  "word": "ewig",
+  "draft": "1e629d41f80d2702",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "forever, for ages (colloquial: a very long time); also eternally",
+    "example": "I've been waiting for you forever (for ages)."
+  },
+  "note": "The hint is needed here, because it separates the colloquial \"for ages\" sense from für immer and from the word's \"eternal\" card; the trick's \"kh\" is only an approximation of the soft ich-sound at the end.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:29.337Z"
+}

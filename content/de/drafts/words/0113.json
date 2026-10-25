@@ -1,0 +1,17 @@
+{
+  "rank": 113,
+  "word": "einfach",
+  "cards": [
+    "einfach-easy-simple",
+    "einfach-simply-just"
+  ],
+  "skip": null,
+  "sameAs": {
+    "einfach-easy-simple": "facil-easy",
+    "einfach-simply-just": "simplemente-simply"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:10.855Z"
+}

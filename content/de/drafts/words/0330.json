@@ -1,0 +1,15 @@
+{
+  "rank": 330,
+  "word": "retten",
+  "cards": [
+    "retten-save"
+  ],
+  "skip": null,
+  "sameAs": {
+    "retten-save": "salvar-save-rescue"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:08.781Z"
+}

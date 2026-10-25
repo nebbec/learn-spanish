@@ -1,0 +1,14 @@
+{
+  "id": "tja-well",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "7b71685dc2aa5686",
+  "group": "#562 tja",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:12.901Z"
+}
