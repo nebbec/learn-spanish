@@ -5,7 +5,7 @@ const parse = (query: string) => parsePracticeParams(new URLSearchParams(query))
 
 describe("parsePracticeParams", () => {
   it("defaults to due cards, every part of speech, forward", () => {
-    expect(parse("")).toEqual({ mode: "due", pos: undefined, reverse: false });
+    expect(parse("")).toEqual({ mode: "due", pos: undefined, reverse: false, wholeDeck: false });
   });
 
   it("reads each option", () => {
@@ -14,11 +14,12 @@ describe("parsePracticeParams", () => {
     expect(parse("mode=struggling").mode).toBe("struggling");
     expect(parse("pos=verb").pos).toBe("verb");
     expect(parse("reverse=1").reverse).toBe(true);
-    expect(parse("mode=shuffle&pos=noun&reverse=1")).toEqual({ mode: "shuffle", pos: "noun", reverse: true });
+    expect(parse("all=1").wholeDeck).toBe(true);
+    expect(parse("mode=shuffle&pos=noun&reverse=1")).toEqual({ mode: "shuffle", pos: "noun", reverse: true, wholeDeck: false });
   });
 
   it("falls back to the default for a value it does not know", () => {
-    expect(parse("mode=backwards&pos=gerund&reverse=yes")).toEqual({ mode: "due", pos: undefined, reverse: false });
+    expect(parse("mode=backwards&pos=gerund&reverse=yes&all=yes")).toEqual({ mode: "due", pos: undefined, reverse: false, wholeDeck: false });
   });
 });
 
@@ -29,9 +30,9 @@ describe("practiceHref", () => {
   });
 
   it("round-trips through the parser", () => {
-    const params = { mode: "struggling", pos: "pronoun", reverse: true } as const;
+    const params = { mode: "struggling", pos: "pronoun", reverse: true, wholeDeck: true } as const;
     const href = practiceHref(params);
-    expect(href).toBe("/practice?mode=struggling&pos=pronoun&reverse=1");
+    expect(href).toBe("/practice?mode=struggling&pos=pronoun&reverse=1&all=1");
     expect(parse(href.split("?")[1])).toEqual(params);
   });
 });

@@ -4,7 +4,7 @@ import { act, type ReactNode } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { MenuScreen } from "@/components/menu";
-import { LearnSession, PracticeSession } from "@/components/session";
+import { LearnSession, PracticeSession, setWholeDeck } from "@/components/session";
 import { until } from "@/components/testing";
 import { fixtureDeck } from "@/lib/deck/fixture";
 import { isDue, isMemorized, replayReviews } from "@/lib/scheduler";
@@ -125,6 +125,7 @@ afterEach(() => {
   act(() => root.unmount());
   host.remove();
   store.close();
+  setWholeDeck(false);
 });
 
 describe("the menu before any studying", () => {
@@ -243,6 +244,35 @@ describe("the Practice options sheet", () => {
     click("menu-reverse");
     click("practice-sheet-scrim");
     expect(q("menu-reverse-tag")).toBeNull();
+    expect(href("menu-practice")).toBe("/practice");
+  });
+
+  it("adds the whole deck to every Practice link while its switch is on, and keeps it on", async () => {
+    await showMenu();
+    expect(q("menu-whole-deck-tag")).toBeNull();
+    expect(q("menu-due")!.textContent).toBe("Nothing due yet");
+    click("practice-options");
+    expect(q("menu-whole-deck")!.getAttribute("aria-checked")).toBe("false");
+    expect(q("menu-shuffle")!.textContent).toContain("Seen cards in random order");
+    click("menu-whole-deck");
+    expect(q("menu-whole-deck")!.getAttribute("aria-checked")).toBe("true");
+    expect(href("menu-shuffle")).toBe("/practice?mode=shuffle&all=1");
+    expect(q("menu-shuffle")!.textContent).toContain("Every card in random order");
+    expect(href("menu-struggling")).toBe("/practice?mode=struggling&all=1");
+    click("practice-sheet-scrim");
+
+    expect(q("menu-whole-deck-tag")!.textContent).toBe("Whole deck");
+    expect(q("menu-due")!.textContent).toBe(`0 due · ${TOTAL} new`);
+    expect(href("menu-practice")).toBe("/practice?all=1");
+    tapPetal("noun");
+    expect(visited).toEqual(["/practice?pos=noun&all=1"]);
+
+    // Unlike Reverse, it is still on when the menu opens again.
+    await showMenu();
+    expect(href("menu-practice")).toBe("/practice?all=1");
+    click("practice-options");
+    click("menu-whole-deck");
+    click("practice-sheet-scrim");
     expect(href("menu-practice")).toBe("/practice");
   });
 

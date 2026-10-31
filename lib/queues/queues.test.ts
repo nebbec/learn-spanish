@@ -321,6 +321,7 @@ describe("Practice: due cards, then extra practice", () => {
     expect(practiceQueue({ cards, states, now })).toEqual({
       cards: expected.map(fixtureCard),
       caughtUpAt: 5,
+      newCount: 0,
     });
   });
 
@@ -353,6 +354,7 @@ describe("Practice: due cards, then extra practice", () => {
     expect(practiceQueue({ cards, states, now })).toEqual({
       cards: ["carro-car", "ir-go", "de-of"].map(fixtureCard),
       caughtUpAt: 0,
+      newCount: 0,
     });
   });
 
@@ -377,7 +379,7 @@ describe("Practice: due cards, then extra practice", () => {
       const queue = practiceQueue({ cards, states, now: T0 + 30 * DAY, reviews: [] }, { mode });
       expect(ids(queue.cards).filter((id) => id !== "casa-house")).toEqual([]);
     }
-    expect(practiceQueue({ cards, states: new Map(), now: T0 })).toEqual({ cards: [], caughtUpAt: 0 });
+    expect(practiceQueue({ cards, states: new Map(), now: T0 })).toEqual({ cards: [], caughtUpAt: 0, newCount: 0 });
   });
 });
 
@@ -414,6 +416,7 @@ describe("Practice options", () => {
     expect(practiceQueue({ cards, states, now }, { mode: "in-order" })).toEqual({
       cards: seenByRank.map(fixtureCard),
       caughtUpAt: null,
+      newCount: 0,
     });
   });
 
@@ -457,7 +460,7 @@ describe("Practice options", () => {
     expect([...strugglingCardIds(history)].sort()).toEqual(["carro-car", "casa-house"]);
 
     const input = { cards, states: replayReviews(history), now: T0 + 4 * DAY };
-    const expected = { cards: ["casa-house", "carro-car"].map(fixtureCard), caughtUpAt: null };
+    const expected = { cards: ["casa-house", "carro-car"].map(fixtureCard), caughtUpAt: null, newCount: 0 };
     expect(practiceQueue({ ...input, reviews: history }, { mode: "struggling" })).toEqual(expected);
     // Reviews are read in time order however they were stored, and a duplicate counts once.
     const stored = [...reversed(history), history[0], history[0], history[0]];
@@ -488,5 +491,63 @@ describe("Practice options", () => {
       "carro-car",
     ]);
     expect(ids(practiceQueue(input, { mode: "struggling", pos: "pronoun" }).cards)).toEqual([]);
+  });
+
+  describe("whole deck", () => {
+    const unseenByRank = [
+      "se-impersonal",
+      "ir-form-yo",
+      "ir-form-tu",
+      "bueno-good",
+      "phrase-thats-great",
+      "ahora-now",
+      "phrase-going-home",
+      "problema-problem",
+    ];
+
+    it("due: due cards, the marker, unseen cards by rank, then extra practice", () => {
+      const queue = practiceQueue({ cards, states, now }, { wholeDeck: true });
+      expect(ids(queue.cards)).toEqual([
+        "ir-go",
+        "tiempo-time",
+        "hablar-speak",
+        "carro-car",
+        ...unseenByRank,
+        "de-of",
+        "lo-him",
+        "tiempo-weather",
+        "casa-house",
+      ]);
+      expect(queue.caughtUpAt).toBe(4);
+      expect(queue.newCount).toBe(8);
+    });
+
+    it("due: with nothing seen, every card is new", () => {
+      const queue = practiceQueue({ cards, states: new Map(), now }, { wholeDeck: true });
+      expect(queue.caughtUpAt).toBe(0);
+      expect(queue.newCount).toBe(cards.length);
+      expect(queue.cards).toHaveLength(cards.length);
+    });
+
+    it("in order and shuffle: seen and unseen cards together", () => {
+      const inOrder = practiceQueue({ cards, states, now }, { mode: "in-order", wholeDeck: true });
+      expect(ids(inOrder.cards).slice(0, 4)).toEqual(["de-of", "se-impersonal", "lo-him", "ir-form-yo"]);
+      expect(inOrder.cards).toHaveLength(cards.length);
+      const shuffled = practiceQueue({ cards, states, now }, { mode: "shuffle", wholeDeck: true, random: seeded(1) });
+      expect(ids(shuffled.cards).sort()).toEqual(ids(cards).sort());
+    });
+
+    it("struggling: unchanged, since an unseen card has no red", () => {
+      const input = { cards, states, now, reviews };
+      expect(practiceQueue(input, { mode: "struggling", wholeDeck: true })).toEqual(
+        practiceQueue(input, { mode: "struggling" }),
+      );
+    });
+
+    it("part of speech: limits the unseen cards too", () => {
+      const verbs = practiceQueue({ cards, states, now }, { pos: "verb", wholeDeck: true });
+      expect(ids(verbs.cards)).toEqual(["ir-go", "hablar-speak", "ir-form-yo", "ir-form-tu"]);
+      expect(verbs.newCount).toBe(2);
+    });
   });
 });

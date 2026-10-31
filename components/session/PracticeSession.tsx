@@ -30,6 +30,13 @@ export interface PracticeSessionProps {
   reverse?: boolean;
   /** Told when the Reverse toggle is flipped, so the route can keep the URL in step. */
   onReverseChange?: (reverse: boolean) => void;
+  /** Whole deck: unseen cards join the queue, and green on one is stored as `known`. */
+  wholeDeck?: boolean;
+  /**
+   * Called from "Nothing to practise yet" when the learner chooses the whole deck. The route
+   * turns the switch on and opens Practice again with it. Without it, the offer is not shown.
+   */
+  onWholeDeck?: () => void;
   /** Leaves for the menu. */
   onExit: () => void;
   /** Called as each batch ends, once its ratings are stored. */
@@ -43,13 +50,15 @@ export interface PracticeSessionProps {
 }
 
 interface Plan {
-  /** The queue cut into batches. Due cards and extra practice never share a batch. */
+  /** The queue cut into batches. Due cards, new cards and extra practice never share a batch. */
   batches: Card[][];
   /**
    * How many of the batches hold due cards; the caught-up marker comes after
    * them. Null for Shuffle, In order and Struggling, which have no marker.
    */
   dueBatches: number | null;
+  /** With the whole deck, how many batches of unseen cards follow the marker, before extra practice. */
+  newBatches: number;
 }
 
 function cut(cards: readonly Card[], size: number): Card[][] {
@@ -73,6 +82,8 @@ export function PracticeSession({
   pos,
   reverse: startsReversed = false,
   onReverseChange,
+  wholeDeck = false,
+  onWholeDeck,
   onExit,
   onBatchEnd,
   batchSize = DEFAULT_BATCH_SIZE,
@@ -81,11 +92,17 @@ export function PracticeSession({
   random,
 }: PracticeSessionProps) {
   const [plan] = useState<Plan>(() => {
-    const queue = practiceQueue({ cards, states, now: clock(), reviews }, { mode, pos, random });
-    if (queue.caughtUpAt === null) return { batches: cut(queue.cards, batchSize), dueBatches: null };
+    const queue = practiceQueue({ cards, states, now: clock(), reviews }, { mode, pos, random, wholeDeck });
+    if (queue.caughtUpAt === null) return { batches: cut(queue.cards, batchSize), dueBatches: null, newBatches: 0 };
+    const extraAt = queue.caughtUpAt + queue.newCount;
     const due = cut(queue.cards.slice(0, queue.caughtUpAt), batchSize);
-    return { batches: [...due, ...cut(queue.cards.slice(queue.caughtUpAt), batchSize)], dueBatches: due.length };
+    const fresh = cut(queue.cards.slice(queue.caughtUpAt, extraAt), batchSize);
+    const extra = cut(queue.cards.slice(extraAt), batchSize);
+    return { batches: [...due, ...fresh, ...extra], dueBatches: due.length, newBatches: fresh.length };
   });
+  // Whether the batch at an index is unseen cards, after the marker: its labels say "new cards".
+  const isNew = (index: number) =>
+    plan.dueBatches !== null && index >= plan.dueBatches && index < plan.dueBatches + plan.newBatches;
   // With nothing due, the sitting opens on the caught-up marker.
   const [run, setRun] = useState({ step: 0, states, atMarker: plan.dueBatches === 0 });
   const [reverse, setReverse] = useState(startsReversed);
@@ -106,9 +123,32 @@ export function PracticeSession({
   );
 
   if (plan.batches.length === 0) {
+    // A learner who already knows some of the language can skip Learn and practise every card.
+    const offer = !wholeDeck && onWholeDeck !== undefined && mode !== "struggling" && cards.some((card) => pos === undefined || card.pos === pos);
     return (
-      <Notice testId="practice-empty" title={EMPTY[mode]} mascot="still" onExit={onExit}>
-        {pos ? `No ${pos} cards match yet.` : "Cards show up here once you have seen them in Learn."}
+      <Notice
+        testId="practice-empty"
+        title={EMPTY[mode]}
+        mascot="still"
+        onExit={onExit}
+        actions={
+          offer && (
+            <button
+              type="button"
+              data-testid="practice-whole-deck"
+              onClick={onWholeDeck}
+              className="min-h-14 rounded-button bg-brand px-4 py-3 font-display text-xl font-bold text-on-brand"
+            >
+              Practise the whole deck
+            </button>
+          )
+        }
+      >
+        {offer
+          ? "Cards show up here once you have seen them in Learn. Already know some? Practise every card now."
+          : pos
+            ? `No ${pos} cards match yet.`
+            : "Cards show up here once you have seen them in Learn."}
       </Notice>
     );
   }
@@ -129,12 +169,12 @@ export function PracticeSession({
               onClick={() => setRun({ ...run, atMarker: false })}
               className="min-h-14 rounded-button bg-brand px-4 py-3 font-display text-xl font-bold text-on-brand"
             >
-              Extra practice
+              {isNew(0) ? "New cards" : "Extra practice"}
             </button>
           </>
         }
       >
-        Nothing is due. Keep going for extra practice.
+        {isNew(0) ? "Nothing is due. Keep going with new cards." : "Nothing is due. Keep going for extra practice."}
       </Notice>
     );
   }
@@ -143,8 +183,11 @@ export function PracticeSession({
   // The marker replaces the batch-end title once the last due card is rated.
   const caughtUp = plan.dueBatches !== null && run.step + 1 === plan.dueBatches;
   const stillDue = plan.dueBatches !== null && run.step + 1 < plan.dueBatches;
-  const upTo = stillDue ? plan.dueBatches! : plan.batches.length;
+  const stillNew = isNew(run.step) && isNew(run.step + 1);
+  const upTo = stillDue ? plan.dueBatches! : stillNew ? plan.dueBatches! + plan.newBatches : plan.batches.length;
   const left = plan.batches.slice(run.step + 1, upTo).reduce((sum, batch) => sum + batch.length, 0);
+  const nextIsNew = isNew(run.step + 1);
+  const nextLabel = nextIsNew ? "New cards" : "Extra practice";
 
   return (
     <PracticeBatch
@@ -161,14 +204,20 @@ export function PracticeSession({
         title: caughtUp ? "You're all caught up!" : "Batch done!",
         line: caughtUp ? (
           <span data-testid="caught-up">
-            {next ? "Every due card is done. Keep going for extra practice." : "Every due card is done."}
+            {next
+              ? `Every due card is done. Keep going ${nextIsNew ? "with new cards" : "for extra practice"}.`
+              : "Every due card is done."}
           </span>
         ) : (
           <span data-testid="summary-remaining">
-            {left === 0 ? "That was the last of them." : `${plural(left, "card")} ${stillDue ? "still due" : "left"}.`}
+            {isNew(run.step) && next && !nextIsNew
+              ? "That was the last new card."
+              : left === 0
+                ? "That was the last of them."
+                : `${plural(left, stillNew ? "new card" : "card")} ${stillDue ? "still due" : "left"}.`}
           </span>
         ),
-        anotherLabel: caughtUp ? "Extra practice" : "Another batch",
+        anotherLabel: caughtUp || (isNew(run.step) && !nextIsNew) ? nextLabel : "Another batch",
         actions: toggle,
       }}
       onAnother={next ? (after) => setRun({ step: run.step + 1, states: after, atMarker: false }) : undefined}
@@ -201,6 +250,8 @@ function PracticeBatch({ batch, tips, states, reverse, store, clock, onExit, onF
     steps: testSteps(batch),
     section: "practice",
     direction: reverse ? "reverse" : "forward",
+    // Only the whole deck brings unseen cards here; a green on one means "I already know this".
+    unseenGreenIsKnown: true,
     states,
     store,
     clock,

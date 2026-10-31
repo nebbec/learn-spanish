@@ -70,8 +70,12 @@ async function seed(history = HISTORY) {
 }
 
 /** Mounts Practice the way the route does: options parsed from the query string. */
-function mountPractice(reviews: Review[], query = "", props: { batchSize?: number; random?: () => number } = {}) {
-  const { mode, pos, reverse } = parsePracticeParams(new URLSearchParams(query));
+function mountPractice(
+  reviews: Review[],
+  query = "",
+  props: { batchSize?: number; random?: () => number; onWholeDeck?: () => void } = {},
+) {
+  const { mode, pos, reverse, wholeDeck } = parsePracticeParams(new URLSearchParams(query));
   act(() =>
     root.render(
       <PracticeSession
@@ -81,6 +85,7 @@ function mountPractice(reviews: Review[], query = "", props: { batchSize?: numbe
         mode={mode}
         pos={pos}
         reverse={reverse}
+        wholeDeck={wholeDeck}
         onReverseChange={(next) => reverseChanges.push(next)}
         onExit={() => (exits += 1)}
         store={store}
@@ -273,6 +278,81 @@ describe("the Practice options, from the URL", () => {
   it("says so when the option matches no card", async () => {
     mountPractice(await seed(), "mode=struggling&pos=verb");
     expect(q("practice-empty")!.textContent).toContain("No struggling cards");
+  });
+});
+
+describe("the whole deck (all=1)", () => {
+  /** The cards HISTORY leaves unseen, by rank. */
+  const NEW = [
+    "lo-him",
+    "ir-form-yo",
+    "ir-form-tu",
+    "phrase-thats-great",
+    "ahora-now",
+    "tiempo-weather",
+    "phrase-going-home",
+    "problema-problem",
+  ];
+
+  it("shows due cards, the marker, new cards by rank, then extra practice", async () => {
+    mountPractice(await seed(), "all=1", { batchSize: 5 });
+    expect(await studyBatch()).toEqual(DUE);
+    expect(q("caught-up")!.textContent).toBe("Every due card is done. Keep going with new cards.");
+    expect(q("another-batch")!.textContent).toBe("New cards");
+
+    click("another-batch");
+    expect(await studyBatch()).toEqual(NEW.slice(0, 5));
+    expect(q("summary-remaining")!.textContent).toBe("3 new cards left.");
+    expect(q("another-batch")!.textContent).toBe("Another batch");
+
+    click("another-batch");
+    expect(await studyBatch()).toEqual(NEW.slice(5));
+    expect(q("summary-remaining")!.textContent).toBe("That was the last new card.");
+    expect(q("another-batch")!.textContent).toBe("Extra practice");
+
+    click("another-batch");
+    expect(await studyBatch()).toEqual(EXTRA);
+    expect(q("another-batch")).toBeNull();
+  });
+
+  it("opens on the marker, offering new cards, when nothing is due", async () => {
+    mountPractice(await seed(HISTORY.filter(([id]) => EXTRA.includes(id))), "all=1");
+    expect(q("caught-up")!.textContent).toContain("Keep going with new cards.");
+    expect(q("another-batch")!.textContent).toBe("New cards");
+  });
+
+  it("stores green on a card not seen before as known, and the other ratings as tapped", async () => {
+    mountPractice([], "all=1&mode=in-order&pos=noun");
+    expect(await study("good")).toBe("tiempo-time");
+    expect(await study("nearly")).toBe("tiempo-weather");
+    expect(await study("again")).toBe("casa-house");
+    const stored = await store.getReviews();
+    expect(stored.map((review) => [review.cardId, review.rating, review.section])).toEqual([
+      ["tiempo-time", "known", "practice"],
+      ["tiempo-weather", "nearly", "practice"],
+      ["casa-house", "again", "practice"],
+    ]);
+    // known is Easy in FSRS: the card is seen and not due for a while.
+    const states = replayReviews(stored);
+    expect(isDue(states.get("tiempo-time"), time + 7 * DAY)).toBe(false);
+  });
+
+  it("stores green on a card already seen as good", async () => {
+    mountPractice(await seed(), "all=1");
+    await study("good");
+    const [added] = (await store.getReviews()).filter((review) => review.section === "practice");
+    expect(added).toMatchObject({ cardId: "de-of", rating: "good" });
+  });
+
+  it("is offered on Nothing to practise yet, and not once on", async () => {
+    let offered = 0;
+    mountPractice([], "", { onWholeDeck: () => (offered += 1) });
+    expect(q("practice-empty")!.textContent).toContain("Already know some?");
+    click("practice-whole-deck");
+    expect(offered).toBe(1);
+
+    mountPractice([], "mode=struggling", { onWholeDeck: () => (offered += 1) });
+    expect(q("practice-whole-deck")).toBeNull();
   });
 });
 

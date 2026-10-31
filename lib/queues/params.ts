@@ -1,4 +1,4 @@
-// The Practice options as URL parameters: /practice?mode=shuffle&pos=verb&reverse=1.
+// The Practice options as URL parameters: /practice?mode=shuffle&pos=verb&reverse=1&all=1.
 // See docs/design.md, "Practice".
 
 import { PARTS_OF_SPEECH, type PartOfSpeech } from "@/lib/deck/types";
@@ -11,6 +11,8 @@ export interface PracticeParams {
   /** Undefined means every part of speech. */
   pos: PartOfSpeech | undefined;
   reverse: boolean;
+  /** Whole deck: unseen cards join the queue (`all=1`). */
+  wholeDeck: boolean;
 }
 
 /** Anything with `get`, such as `URLSearchParams` or what `useSearchParams` returns. */
@@ -26,6 +28,7 @@ export function parsePracticeParams(source: ParamSource): PracticeParams {
     mode: PRACTICE_MODES.find((known) => known === mode) ?? "due",
     pos: PARTS_OF_SPEECH.find((known) => known === pos),
     reverse: source.get("reverse") === "1",
+    wholeDeck: source.get("all") === "1",
   };
 }
 
@@ -35,6 +38,7 @@ export function practiceHref(params: Partial<PracticeParams> = {}): string {
   if (params.mode && params.mode !== "due") query.set("mode", params.mode);
   if (params.pos) query.set("pos", params.pos);
   if (params.reverse) query.set("reverse", "1");
+  if (params.wholeDeck) query.set("all", "1");
   const text = query.toString();
   return text ? `${ROUTES.practice}?${text}` : ROUTES.practice;
 }

@@ -7,6 +7,7 @@
 import Link from "next/link";
 import { useState, type ReactNode } from "react";
 import { Mascot } from "@/components/motion";
+import { setWholeDeck, useWholeDeck } from "@/components/session";
 import { LANG } from "@/lang";
 import { Wheel } from "@/components/Wheel";
 import type { Card, DeckUnit, PartOfSpeech } from "@/lib/deck";
@@ -31,6 +32,7 @@ import {
   SlidersIcon,
   StrugglingIcon,
   TipsIcon,
+  WholeDeckIcon,
 } from "./icons";
 import { Sheet, SheetDivider, SheetIcon, SheetLink, SheetText } from "./Sheet";
 
@@ -59,6 +61,8 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
   // Reverse combines with every way into Practice, so it is a switch that changes the links.
   // It starts off each time the menu opens.
   const [reverse, setReverse] = useState(false);
+  // Whole deck is the learner's own setting, so unlike Reverse it stays as set (localStorage).
+  const wholeDeck = useWholeDeck();
   const [sheet, setSheet] = useState<OpenSheet>(null);
   const close = () => setSheet(null);
 
@@ -71,7 +75,9 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
   const struggling = cards.filter((card) => strugglingIds.has(card.id)).length;
   const greeting = menuGreeting(cards, units, states, now);
 
-  const href = (mode?: PracticeMode, pos?: PartOfSpeech) => practiceHref({ mode, pos, reverse });
+  const href = (mode?: PracticeMode, pos?: PartOfSpeech) => practiceHref({ mode, pos, reverse, wholeDeck });
+  const dueLine = due > 0 ? `${due} due` : stats.seen > 0 ? "Nothing due" : "Nothing due yet";
+  const scope = wholeDeck ? "Every card" : "Seen cards";
 
   return (
     <>
@@ -146,8 +152,16 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
             >
               <span className="text-[1.0625rem] font-extrabold">Practice</span>
               <span data-testid="menu-due" data-count={due} className="truncate text-sm font-semibold text-ink-soft">
-                {due > 0 ? `${due} due` : stats.seen > 0 ? "Nothing due" : "Nothing due yet"}
+                {wholeDeck && unseen > 0 ? `${due} due · ${unseen} new` : dueLine}
               </span>
+              {wholeDeck && (
+                <span
+                  data-testid="menu-whole-deck-tag"
+                  className="shrink-0 rounded-full bg-brand px-2 py-0.75 text-xs font-bold text-on-brand"
+                >
+                  Whole deck
+                </span>
+              )}
               {reverse && (
                 <span
                   data-testid="menu-reverse-tag"
@@ -203,14 +217,14 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
             testId="menu-shuffle"
             icon={<ShuffleIcon />}
             title="Shuffle"
-            detail="Seen cards in random order"
+            detail={`${scope} in random order`}
           />
           <SheetLink
             href={href("in-order")}
             testId="menu-in-order"
             icon={<InOrderIcon />}
             title="In order"
-            detail="Seen cards, most common first"
+            detail={`${scope}, most common first`}
           />
           <SheetLink
             href={href("struggling")}
@@ -227,27 +241,41 @@ export function Menu({ cards, units = [], states, reviews, now, onNavigate, stat
           <SheetDivider />
           <div className="flex min-h-15 items-center gap-3.5">
             <SheetIcon>
+              <WholeDeckIcon />
+            </SheetIcon>
+            <SheetText title="Whole deck" detail="Practise cards you have not met in Learn too" />
+            <Switch label="Whole deck" testId="menu-whole-deck" on={wholeDeck} onToggle={() => setWholeDeck(!wholeDeck)} />
+          </div>
+          <div className="flex min-h-15 items-center gap-3.5">
+            <SheetIcon>
               <ReverseIcon />
             </SheetIcon>
             <SheetText title="Reverse" detail={`${LANG.language} shown first, everywhere in Practice`} />
-            <button
-              type="button"
-              role="switch"
-              aria-checked={reverse}
-              aria-label="Reverse"
-              data-testid="menu-reverse"
-              onClick={() => setReverse((on) => !on)}
-              className={`relative h-8 w-13 shrink-0 rounded-full ${reverse ? "bg-brand" : "bg-edge"}`}
-            >
-              <span
-                className={`absolute top-0.75 size-6.5 rounded-full bg-surface shadow-[0_1px_3px_rgb(0_0_0/0.2)] motion-safe:transition-[left] ${
-                  reverse ? "left-5.75" : "left-0.75"
-                }`}
-              />
-            </button>
+            <Switch label="Reverse" testId="menu-reverse" on={reverse} onToggle={() => setReverse((on) => !on)} />
           </div>
         </Sheet>
       )}
     </>
+  );
+}
+
+/** A switch row's toggle in the Practice options sheet. */
+function Switch({ label, testId, on, onToggle }: { label: string; testId: string; on: boolean; onToggle: () => void }) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={on}
+      aria-label={label}
+      data-testid={testId}
+      onClick={onToggle}
+      className={`relative h-8 w-13 shrink-0 rounded-full ${on ? "bg-brand" : "bg-edge"}`}
+    >
+      <span
+        className={`absolute top-0.75 size-6.5 rounded-full bg-surface shadow-[0_1px_3px_rgb(0_0_0/0.2)] motion-safe:transition-[left] ${
+          on ? "left-5.75" : "left-0.75"
+        }`}
+      />
+    </button>
   );
 }

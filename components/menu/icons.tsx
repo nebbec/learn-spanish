@@ -79,3 +79,10 @@ export const ReverseIcon = () => (
     <path d="M7 16V4M7 4L3 8M7 4l4 4M17 8v12M17 20l4-4M17 20l-4-4" />
   </Icon>
 );
+
+export const WholeDeckIcon = () => (
+  <Icon size={20}>
+    <rect x="7" y="3" width="13" height="15" rx="2" />
+    <path d="M4 7v11a3 3 0 0 0 3 3h9" />
+  </Icon>
+);

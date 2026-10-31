@@ -185,6 +185,22 @@ Decided in C5 (session in `components/session/PracticeSession.tsx`, URL paramete
 - **In Reverse the due cards stay due**, since the ratings do not reach the schedule; the marker still follows the last of them.
 - **An empty queue** shows "Nothing to practise yet" (or "No struggling cards") and a way back to the menu, not the marker.
 
+### Whole deck
+
+Agreed with Courtney on 2026-10-31: a learner who already knows much of the language (B2 German, say) should not have to click through Learn before practising every card.
+
+- **A switch, not a question each time.** "Whole deck" sits in the Practice options sheet above Reverse. While it is on, every way into Practice from the menu (the button, Shuffle, In order, Struggling and the wheel's petals) takes unseen cards too. Unlike Reverse it stays as set, on this device (`localStorage`, `learn-spanish.whole-deck`), since it says who the learner is, not what this sitting is for.
+- **Offered once, where it matters.** "Nothing to practise yet" (plain, Shuffle and In order) adds "Already know some?" and a **Practise the whole deck** button, which turns the switch on and opens Practice again with it.
+- **Green on a card never seen is stored as `known`**, as the intro's "I already know this" is: Easy in FSRS, so the first review is about two weeks out rather than a few days, and three hundred greens in an evening do not all fall due together. Amber and red are stored as tapped. A card already seen is rated as usual.
+
+Decided in C8 (`practiceQueue`'s `wholeDeck` in `lib/queues/queues.ts`; `components/session/wholeDeck.ts`; `unseenGreenIsKnown` in `useSession`):
+
+- **URL**: `all=1`, combining with every other parameter (`/practice?mode=shuffle&pos=verb&all=1`). The menu reads the switch and puts it in its links; the route reads only the URL.
+- **The queue**: in plain Practice, due cards, the caught-up marker, the unseen cards by rank (deck order breaking ties, as everywhere), then extra practice. The three never share a batch. The marker's button and the last due batch's button read "New cards"; the new batches count "n new cards left"; the last one says "That was the last new card." and its button reads "Extra practice". Shuffle and In order mix seen and unseen cards. Struggling is unchanged, since an unseen card has no red. Part of speech limits the unseen cards too.
+- **The menu**: the Practice button carries a "Whole deck" tag (saffron, before "Reverse on") and its count reads "12 due · 340 new" while unseen cards remain. Shuffle and In order say "Every card" in place of "Seen cards".
+- **Reverse with the whole deck** shows unseen cards Spanish first too. Reverse ratings never change card state, so those cards stay unseen.
+- **What it does to Learn**: a card rated in Practice is seen, so Learn skips it. Learn's place in the starter path is the latest unit holding a seen card, so a rated frequency-phase card marks every unit finished; their unseen cards then lead Learn batches as "New in *unit*" cards, a batch size at a time (L12). Tips are reached once a card naming them is seen, as in Learn, and the "?" still opens them over the reveal.
+
 ### Reverse
 
 Spanish is shown first and the character stays hidden until the reveal, since it would give the answer away. Ratings are stored with `direction = reverse` and are excluded from scheduling and from the wheel.
@@ -960,6 +976,7 @@ A ticket that would exceed any of these was split. Logic is separated from scree
 | C5 | Practice session | C4 | | Done |
 | C6 | Menu | B4, C5 | | Done |
 | C7 | Motion | C4 | | Done |
+| C8 | Whole deck in Practice | C5, C6, L10 | | Done |
 | D1 | Installable app and service worker | A2 | | Done |
 | D2 | Media caching | D1, B3 | | Done |
 | D3 | Supabase schema | A1 | Project and keys | Done |
@@ -1092,7 +1109,12 @@ Built against the fixture deck.
 - Done when: each move plays on its trigger, and none play with reduced motion on.
 - Notes: in [history.md](history.md#c7-motion).
 
-### Track D: offline and sync
+**C8 Whole deck in Practice**
+- Build: the Whole deck switch in the Practice options sheet, kept on the device; unseen cards in the Practice queue while it is on; green on a card never seen stored as `known`; the offer on "Nothing to practise yet". As [Whole deck](#whole-deck).
+- Done when: each queue rule and the rating rule has a test, and the menu's links, tag and count follow the switch.
+- Notes: in [history.md](history.md#c8-whole-deck-in-practice).
+
+### Track D: offline and sync### Track D: offline and sync
 
 **D1 Installable app and service worker**
 - Build: the manifest and icons, following `crossfit_logger`'s `app/manifest.ts`. A service worker approach that works with Next 16, with the choice recorded under [Stack](#stack). Caching of the app shell and deck JSON. An install prompt, including add-to-home-screen instructions on iPhone.

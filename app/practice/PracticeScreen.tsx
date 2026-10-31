@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { PracticeSession } from "@/components/session";
+import { PracticeSession, setWholeDeck } from "@/components/session";
 import { loadDeck, type Card, type DeckTip } from "@/lib/deck";
 import { parsePracticeParams, practiceHref, type CardStates } from "@/lib/queues";
 import { ROUTES } from "@/lib/routes";
@@ -18,7 +18,7 @@ type Loaded =
 /** Loads the deck and the progress on this device, then runs Practice with the options in the URL. */
 export function PracticeScreen() {
   const router = useRouter();
-  const { mode, pos, reverse } = parsePracticeParams(useSearchParams());
+  const { mode, pos, reverse, wholeDeck } = parsePracticeParams(useSearchParams());
   const [loaded, setLoaded] = useState<Loaded>({ status: "loading" });
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export function PracticeScreen() {
       <PracticeSession
         // A different option is a different queue, so the sitting starts again.
         // Reverse is not in the key: it does not change the queue.
-        key={`${mode}:${pos ?? ""}`}
+        key={`${mode}:${pos ?? ""}:${wholeDeck}`}
         cards={loaded.cards}
         tips={loaded.tips}
         states={loaded.states}
@@ -50,7 +50,14 @@ export function PracticeScreen() {
         mode={mode}
         pos={pos}
         reverse={reverse}
-        onReverseChange={(next) => window.history.replaceState(null, "", practiceHref({ mode, pos, reverse: next }))}
+        onReverseChange={(next) =>
+          window.history.replaceState(null, "", practiceHref({ mode, pos, reverse: next, wholeDeck }))
+        }
+        wholeDeck={wholeDeck}
+        onWholeDeck={() => {
+          setWholeDeck(true);
+          router.replace(practiceHref({ mode, pos, reverse, wholeDeck: true }));
+        }}
         onExit={() => router.push(ROUTES.menu)}
         onBatchEnd={requestSync}
       />

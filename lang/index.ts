@@ -28,6 +28,8 @@ export function storageNames(config: LangConfig) {
     database: prefix,
     /** `localStorage`: the mute switch. */
     muted: `${prefix}.muted`,
+    /** `localStorage`: the Whole deck switch in the Practice options. */
+    wholeDeck: `${prefix}.whole-deck`,
     /** `localStorage`: this browser's device id. */
     deviceId: `${prefix}.device-id`,
     /** `localStorage`: the install prompt was dismissed. */

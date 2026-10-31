@@ -178,6 +178,12 @@ export interface PracticeOptions {
   pos?: PartOfSpeech;
   /** Returns a number from 0 (inclusive) to 1 (exclusive). Used by `shuffle`; defaults to `Math.random`. */
   random?: () => number;
+  /**
+   * Whole deck: unseen cards join the queue too, for a learner who already knows some of
+   * the language. In `due` mode they come after the marker, by rank, before extra practice;
+   * Shuffle and In order mix them with the seen cards. Struggling is unchanged.
+   */
+  wholeDeck?: boolean;
 }
 
 export interface PracticeQueue {
@@ -189,11 +195,21 @@ export interface PracticeQueue {
    * Null in the other modes, which have no marker.
    */
   caughtUpAt: number | null;
+  /**
+   * In `due` mode with the whole deck, how many unseen cards follow the marker, before
+   * extra practice. Zero otherwise.
+   */
+  newCount: number;
 }
 
 /** Seen cards, optionally limited to one part of speech, in deck order. */
 function seenCards(cards: readonly Card[], states: CardStates, pos?: PartOfSpeech): Card[] {
   return cards.filter((card) => isSeen(states.get(card.id)) && (pos === undefined || card.pos === pos));
+}
+
+/** Unseen cards, optionally limited to one part of speech, in deck order. */
+function unseenCards(cards: readonly Card[], states: CardStates, pos?: PartOfSpeech): Card[] {
+  return cards.filter((card) => !isSeen(states.get(card.id)) && (pos === undefined || card.pos === pos));
 }
 
 /** Due cards, most common first. */
@@ -255,26 +271,33 @@ function shuffle<T>(items: readonly T[], random: () => number): T[] {
 
 /**
  * The Practice queue for a mode, optionally limited to one part of speech. Only seen
- * cards ever appear. Reverse is not a queue concern: it changes how a card is shown
- * and how its rating is stored, not which cards come up.
+ * cards appear, unless `wholeDeck` lets unseen ones in. Reverse is not a queue concern:
+ * it changes how a card is shown and how its rating is stored, not which cards come up.
  */
 export function practiceQueue(input: PracticeInput, options: PracticeOptions = {}): PracticeQueue {
   const { states, now } = input;
-  const { mode = "due", pos, random = Math.random } = options;
+  const { mode = "due", pos, random = Math.random, wholeDeck = false } = options;
   const seen = seenCards(input.cards, states, pos);
+  const unseen = wholeDeck ? unseenCards(input.cards, states, pos) : [];
+  const inPlay = wholeDeck ? input.cards.filter((card) => pos === undefined || card.pos === pos) : seen;
 
   switch (mode) {
     case "due": {
       const due = dueQueue(seen, states, now);
-      return { cards: [...due, ...extraPracticeQueue(seen, states, now)], caughtUpAt: due.length };
+      const fresh = byRank(unseen);
+      return {
+        cards: [...due, ...fresh, ...extraPracticeQueue(seen, states, now)],
+        caughtUpAt: due.length,
+        newCount: fresh.length,
+      };
     }
     case "shuffle":
-      return { cards: shuffle(byRank(seen), random), caughtUpAt: null };
+      return { cards: shuffle(byRank(inPlay), random), caughtUpAt: null, newCount: 0 };
     case "in-order":
-      return { cards: byRank(seen), caughtUpAt: null };
+      return { cards: byRank(inPlay), caughtUpAt: null, newCount: 0 };
     case "struggling": {
       const struggling = strugglingCardIds(input.reviews ?? []);
-      return { cards: byRank(seen.filter((card) => struggling.has(card.id))), caughtUpAt: null };
+      return { cards: byRank(seen.filter((card) => struggling.has(card.id))), caughtUpAt: null, newCount: 0 };
     }
   }
 }

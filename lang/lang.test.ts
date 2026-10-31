@@ -8,6 +8,7 @@ import { LANG, LANGS, langConfig, storageNames } from "./index";
 const SPANISH = {
   database: "learn-spanish",
   muted: "learn-spanish.muted",
+  wholeDeck: "learn-spanish.whole-deck",
   deviceId: "learn-spanish.device-id",
   installDismissed: "learn-spanish.install-dismissed",
   lastSync: "learn-spanish.last-sync",
@@ -19,6 +20,7 @@ const SPANISH = {
 const GERMAN = {
   database: "learn-german",
   muted: "learn-german.muted",
+  wholeDeck: "learn-german.whole-deck",
   deviceId: "learn-german.device-id",
   installDismissed: "learn-german.install-dismissed",
   lastSync: "learn-german.last-sync",
@@ -74,9 +76,10 @@ async function loadUnder(lang: string) {
     setItem: (key: string, value: string) => void store.set(key, value),
     removeItem: (key: string) => void store.delete(key),
   });
-  const [db, audio, auth, pwa, runner, media, deck, mascot, greeting] = await Promise.all([
+  const [db, audio, wholeDeck, auth, pwa, runner, media, deck, mascot, greeting] = await Promise.all([
     import("@/lib/store/db"),
     import("@/components/audio/audio"),
+    import("@/components/session/wholeDeck"),
     import("@/lib/auth/auth"),
     import("@/lib/pwa/install"),
     import("@/lib/sync/runner"),
@@ -90,6 +93,7 @@ async function loadUnder(lang: string) {
     names: {
       database: db.DB_NAME,
       muted: audio.MUTED_KEY,
+      wholeDeck: wholeDeck.WHOLE_DECK_KEY,
       deviceId: [...store.keys()].join(","),
       installDismissed: pwa.INSTALL_DISMISSED_KEY,
       lastSync: runner.LAST_SYNC_KEY,

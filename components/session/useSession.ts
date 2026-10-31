@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import type { Card } from "@/lib/deck";
 import { afterIntro, type CardStates, type IntroChoice, type Step } from "@/lib/queues";
-import { rateCard } from "@/lib/scheduler";
+import { isSeen, rateCard } from "@/lib/scheduler";
 import { localStore, type Direction, type LocalStore, type Rating, type Section } from "@/lib/store";
 
 /** The part of the local store a session writes to. */
@@ -33,6 +33,12 @@ export interface SessionOptions {
    * `afterLearnRating`, which brings a red back at the end of the batch.
    */
   afterRating?: (batch: readonly Step[], index: number, rating: Rating) => readonly Step[];
+  /**
+   * Practice passes true: a forward green on a card not seen yet (the whole deck) is stored as
+   * `known`, as "I already know this" is. Learn leaves it off, since its first test follows an
+   * intro and green there is Good.
+   */
+  unseenGreenIsKnown?: boolean;
   /** Defaults to the app's shared store. Tests pass their own. */
   store?: SessionStore;
   /** Defaults to `Date.now`. */
@@ -85,7 +91,7 @@ interface SessionState {
  * updates the card's state; a reverse rating does not.
  */
 export function useSession(options: SessionOptions): Session {
-  const { section, direction = "forward", afterRating, store, clock = Date.now } = options;
+  const { section, direction = "forward", afterRating, unseenGreenIsKnown = false, store, clock = Date.now } = options;
 
   const [state, setState] = useState<SessionState>(() => ({
     batch: options.steps,
@@ -113,10 +119,12 @@ export function useSession(options: SessionOptions): Session {
   };
 
   /** Stores one rating of the card on screen and moves on, with the batch `nextBatch` gives. */
-  const storeRating = async (rating: Rating, nextBatch: (now: SessionState) => readonly Step[]) => {
+  const storeRating = async (tapped: Rating, nextBatch: (now: SessionState) => readonly Step[]) => {
     const now = live.current;
     const card = now.batch[now.index]?.card;
     if (!card) return;
+    const known = unseenGreenIsKnown && direction === "forward" && tapped === "good" && !isSeen(now.states.get(card.id));
+    const rating: Rating = known ? "known" : tapped;
     saving.current = true;
     try {
       const target = store ?? localStore();
