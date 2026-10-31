@@ -30,6 +30,7 @@ Made in the interview of 2026-10-09:
 | First slice | The first 100 cards in learning-path order, end to end, studied from zero on the phone before scaling out in batches of 100. The unit plan covers the whole starter path. |
 | When | Now. Spanish H1 is done and Courtney is happy with the first 100. Spanish S1 to S4 carry on beside the German track. |
 | This doc | `docs/german.md` with its own board. design.md gets one pointer line. |
+| Verbs with prepositions (2026-10-31) | Two new kinds from Courtney's B2 handout: a **pair card** (`warten ___` → `auf + Akk`) and a **gap card** (a sentence with the preposition and case word blanked), in the Prepositions petal, placed in the path after their verb card. See [Verbs with prepositions](#verbs-with-prepositions). |
 
 ## Shared and per language
 
@@ -227,6 +228,36 @@ Decided in DE9 (jobs, guard and tasks in `scripts/content/path-cards.ts`, prompt
 - **Review and tag by unit**, like phrases: `npm run review -- --lang de --cases`, and the tag pass's case groups (`cases <unit>`) keep the plan's unit and want, so Claude sets only `requires` and `tip`. `npm run tag -- --lang de --cases --redo` tags only the case groups again, for when the noun cards they require are drafted.
 - **Order**: in a unit, case cards come after its word and form cards and before its phrases, whatever their rank, so the case's tip shows late in the unit, once the words are met. Spanish has no case cards, so its order is unchanged.
 
+### Verbs with prepositions
+
+Made in the interview of 2026-10-31. Which preposition a verb takes, and which case follows it (`warten auf` + Akk, `teilnehmen an` + Dat), is what Courtney found hardest and most useful at B2. The deck has none of it yet: `warten-wait`, `denken-think` or `sich-freuen` show their preposition only inside an example or a hint.
+
+**Source.** The handout *Verben mit Präpositionen*, Deutschkurse bei der Universität München, Stufe 4 (B2.2), 10 pages, about 20 entries a page. Its columns are Verb, Präp & Kasus, Beispielsatz and Übersetzung (left blank). The verb column carries the verb's own objects in the handout's shorthand (`s` sich, `jn` jemanden, `jm` jemandem, `etwA`, `etwD`); the case is sometimes written (`mit etwD`), sometimes only implied (`an jn`, or `gegen` alone). One verb may have several rows or several prepositions in one row (`warten auf jn|etwA & mit etwD`), and same-verb rows are told apart by a gloss in angle brackets (`werben für` <Werbung machen für ein Produkt>, `werben um` <s um etwA bemühen>).
+
+**Item.** One item is a verb, a preposition and a meaning: `warten auf` and `warten mit` are two items, `werben für` and `werben um` two more. About 220 items.
+
+**The list** (`content/de/prepositions.tsv`, one row per item), made from photos of the pages in `content/de/prepositions/`:
+
+- Columns: page, verb (infinitive, `sich` written out), objects (the verb's own, spelled out: `jemanden`, `etwas`), preposition, case (`akk` or `dat`), gloss (English, short, telling same-verb items apart), the handout's sentence, and the matched verb card (filled by the tag pass, see Placement).
+- **Read twice**: two independent Claude calls read each photo into rows. A script compares them; rows that agree stand, rows that differ are flagged with their page for Courtney to settle.
+- **Checked by script**: a fixed-case preposition has its case (Akk: für, um, gegen, durch, ohne; Dat: mit, zu, von, aus, bei, nach, seit, gegenüber); a two-way preposition (auf, an, in, über, unter, vor, hinter, neben, zwischen) has its case stated or implied by `jn`/`jm`/`etwA`/`etwD`; every page's row count matches what both reads counted on it; no two rows share verb, preposition and gloss.
+- Courtney approves the finished list as she approves `units.json`. Everything after it is the pipeline.
+
+**Two cards per item**, German only (new kinds, as `case` is), part of speech `preposition`, so they sit in the Prepositions petal and tapping it practises them with the preposition word cards. No still.
+
+- **Pair card.** Front: the verb with its objects and a blank, and the gloss under it (`sich wenden ___ jemanden`, "to turn to someone (for help)"). Answer: the preposition and case (`an + Akk`), written as + Akk or + Dat, not the handout's shorthand. The reveal adds a new example with its English. Reverse: the gloss on the front, the whole pattern on the back (`sich an jemanden wenden`), as word cards turn round.
+- **Gap card.** A second new sentence with the preposition **and the word that shows the case** blanked: `Zwanzig Minuten habe ich heute ___ ___ U-Bahn gewartet.` → `auf die`. A contraction is one blank (`___ Präsidenten gewählt` → `zum`); a pronoun is the case word (`mit ihr`); a noun with no article blanks the preposition alone (`auf Schokolade`). The sentence's English sits under the front. Self-rated like every card (typed answers stay deferred). It `requires` its pair card.
+- **Sentences are new**, written by Claude with the handout's sentence as the model: same pattern and case, a different sentence. They use known words where they can, with at most two words not met yet, which the review checks (reason `known-words` allows them for these kinds); tail items (below) are not held to known words.
+- **Audio**: the pair card's word clip says the whole pattern (`sich an jemanden wenden`), its sentence clip the example; the gap card's sentence clip plays on the reveal.
+- **Review** as for other cards, plus: the case is right for the sentence, the blank covers exactly the preposition and case word, and the gloss tells the item apart from its same-verb neighbours.
+
+**Placement** in the path:
+
+- Each item is matched to its verb card by the bare verb (`sich`, objects and the preposition ignored: `s vorbereiten` finds `vorbereiten`). Of the deck's 240 German verbs, 38 have more than one card (`erinnern-remember`, `erinnern-remind`); for those, the tag pass chooses the card from the item's gloss, and the choice goes in the list's matched-card column.
+- **Staggered**: the pair card comes about 20 cards after its verb card and `requires` it; the gap card about 20 cards after its pair card. Two items on the same verb (`werben für`, `werben um`) are kept at least one stagger apart, so contrasting pairs are not new in the same batch. The stagger is one constant in `path-order.ts`.
+- **The tail**: items whose verb has no card in the deck (verstoßen, vertauschen, verurteilen, …) come after the deck's cards, ordered by the verb's rank in the frequency list (FrequencyWords, as for the word list), then alphabetically for verbs it does not rank; pair then gap, with the same stagger.
+- **A tip on da- and wo-forms** (`darauf`, `worauf`, and `auf wen` for people) comes before the first gap card.
+
 ### Learning path
 
 Claude drafts `content/de/units.json` and `content/de/tips.json` and Courtney edits and approves them, as in L1. The shape and rules are design.md's.
@@ -339,6 +370,8 @@ Done when:
 - Austria or Switzerland as a variant with its own audio.
 - An Instagram character for the German lead (the concha's is in the `ai-influencer` repo).
 - Renaming the repo or the Supabase project from `learn-spanish`.
+- Gap cards whose blank is a da- or wo-form (`darauf`, `worauf`), after the [verbs with prepositions](#verbs-with-prepositions) have been in use a while.
+- Verbs with prepositions for Spanish (`pensar en`, `soñar con`): the kinds are German only for now.
 
 ## Tickets
 
@@ -367,7 +400,13 @@ Same rules as design.md, "Rules for every ticket", and the same [ticket loop](ti
 | DE17 | German word list: words the dictionary makes with affixes | DE6 | Skim the new words | Done |
 | DE18 | German text and audio to 1,000 cards | DE12, DE15 | OpenAI key for the clips | Done except: the clips for cards 101 to 1,000 |
 
+| DE19 | Verbs with prepositions: the list | none | Photos of the 10 pages, settle flagged rows, approve the list | Todo |
+| DE20 | Pair and gap cards in the app | DE3 | | Todo |
+| DE21 | Verbs with prepositions to the deck | DE18, DE19, DE20 | Approve flagged cards and the tip | Todo |
+
 DE18 is Spanish S5 (design.md, "Scale-out") for German, asked for by Courtney on 2026-10-25 ahead of DE13, DE16 and the art: the art for the cards it adds comes later.
+
+DE19 to DE21 are [Verbs with prepositions](#verbs-with-prepositions), asked for by Courtney on 2026-10-31. DE19 and DE20 can run beside each other.
 
 DE1 and DE10 can start at once. DE2, DE3 and DE5 run beside each other after DE1. DE8 and DE11 need only the scripts and the word list, so they run while DE4 and DE7 are built.
 
@@ -470,3 +509,15 @@ DE1 and DE10 can start at once. DE2, DE3 and DE5 run beside each other after DE1
 - Done when: `content/de/deck.json` holds 1,000 cards passing the validator, with no card waiting and every clip made, and `public/deck-de/deck.json` is a copy of it.
 - Note (DE18, text): run on 2026-10-25 (Claude CLI on the Max plan, `claude-opus-5-5`, effort medium). **Draft**: ranks 21 to 800 (`npm run draft -- --lang de --from 21 --to 800`; 85 already drafted): 681 words into 852 cards, 14 skipped (interjection 9, vulgar 3, covered elsewhere 2), 1,104 drafted German cards in all with no deck problem. Four words failed every time: Leute and Eltern because German had no gender for a plural-only noun (now `pl`, see "Card data"), and leid and heißen because Claude added a card for a neighbouring word the id rule refuses (`leiden-suffer`, `heiss-hot`; DE17's list counts `heiß` under heißen, a lemmatizer slip left as it is, since fixing the list would move every rank below and the word files are keyed by rank). leid passed on its retry and heißen on its third (`heissen-be-called`, `heissen-mean`). 735 calls, $15.71 notional. **Tag** (`npm run tag -- --lang de`, before the review, so its known-words check saw the final order): 681 groups, 0 failed, 1,104 of 1,104 tags passing; 681 calls, $12.00 notional (S5's cached system prompt kept it cheap). **Review** (`npm run review -- --lang de --from 1 --to 800`): 852 cards, 685 passed, **167 flagged (20%)**: oneAnswer 112, trick 16, example 14, known-words 13, sameAs 13, usage 10, grammar 3, meaning 1. The 13 known-words examples were redrafted (`--examples --ids …`) and reviewed again: 11 passed, `darueber-above-it` (trick) and `fuehren-lead` (example) stayed flagged. 865 calls, $20.94 notional. **Decisions**: by Courtney's rule (confirmed for DE18), agents applied the reviewer's fixes to the 156 waiting decision files and set each to `approve`; the 11 pending files left from the replaced examples were deleted, as in DE12. The sameAs fixes went into the word files (13 cards). Adapted fixes: `meist-most` stays a glue card (the reviewer asked for a content card; its prompt is now marked), `benutzen-use` and `eben-simply` name Austria, with Switzerland in the text (one place allowed), `setzen-sit-down` answers `sich setzen`, `hinter-back-rear` answers `hintere` with its id and trick unchanged, and a few long hints were kept as suggested. **Deck** (`npm run deck -- --lang de`, `DECK_SIZE.de` now 1,000): 1,104 cards for the deck (905 passed review, 199 approved, 181 of them corrected), 0 waiting, 104 past the size left for later; `content/de/deck.json` version 3, 1,000 cards passing the validator: 698 content, 189 glue, 55 phrase, 30 form and 28 case cards, 698 stills to make. The first 100 are the published 100 in the same order. The 20 examples the build lists as using words not met yet are all in the first 100, left for use in the app as DE12 decided.
 - Note (DE18, published without clips): on 2026-10-31 Courtney asked for the 1,000 cards in the app before the clips, to practise with the Whole deck (C8). `public/deck-de/deck.json` is now a copy of `content/de/deck.json` (version 3, 1,000 cards, 18 units, 14 tips; the first 100 unchanged and in the same order). Cards 101 to 1,000 name clips not made yet (1,800 files): they play nothing, since `playClip` ignores a clip that fails, and "Download everything" in settings counts those files as failed and blames the connection until they exist. What is left: `npm run audio -- --lang de` with `OPENAI_API_KEY` in `.env.local`, `npm run audio -- --lang de --check` and hearing the flagged clips, copying the deck again if the audio run changed its paths, then Done.
+
+**DE19 Verbs with prepositions: the list**
+- Do: as [Verbs with prepositions](#verbs-with-prepositions), "The list". Courtney puts photos of the handout's 10 pages in `content/de/prepositions/` (one page a photo, any order; the page number is printed on each). A script (`npm run prepositions -- --lang de`, same caller and switches as the draft pass) reads each photo twice, in two independent calls, into rows; compares the two reads; runs the case, two-way, row-count and duplicate checks; and writes `content/de/prepositions.tsv` with every flagged row listed (page and reason, no sentence text printed) in `content/de/prepositions-flagged.md`. Rerunning resumes; a flagged row is settled by editing the TSV. The prompt asks for the verb's objects spelled out, the case made explicit, one row per preposition and meaning, and a short English gloss for each row.
+- Done when: all 10 pages are read, both reads agree on every page's row count, the checks pass on the TSV, and Courtney has settled the flagged rows and approved the list.
+
+**DE20 Pair and gap cards in the app**
+- Build: the two kinds in `lib/deck/types.ts` (German only, as `case`), their grammar shape (`{ verb, objects, prep, case }`), the validator's rules (a gap card's example marks exactly one blanked span, in brackets as glue prompts mark theirs; a gap card requires a pair card), two of each in `lib/deck/fixture-de.json`, and the faces as [Verbs with prepositions](#verbs-with-prepositions) says: the pair card's front and `+ Akk` answer, the gap card's sentence with one blank line per blanked word and its English under it, both directions with Reverse, the Prepositions petal. Record the kind names and ids chosen here.
+- Done when: the German fixture's pair and gap cards draw on a 390 by 844 screen in Learn and Practice, Reverse included, and the Spanish build and tests are unchanged.
+
+**DE21 Verbs with prepositions to the deck**
+- Do: the pipeline for the two kinds, as case cards went in DE9: draft from `prepositions.tsv` (one call per item for both cards, with the handout's sentence as the model), review (the extra checks of the section), tag (the matched verb card, the meaning chosen where a verb has several cards), and the order in `path-order.ts` (the stagger, same-verb items apart, the tail by frequency). Draft and approve the da-/wo- tip. Make the clips, build the deck, publish.
+- Done when: every item of the approved list has both cards in `content/de/deck.json` (deck size raised to fit), `path.md` shows each pair card after its verb card and each gap card after its pair card, the tip precedes the first gap card, every clip is made, and `public/deck-de/deck.json` is a copy. Record the flagged rate and the count in the tail here.
