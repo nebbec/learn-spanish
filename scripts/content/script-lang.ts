@@ -51,6 +51,12 @@ export interface ContentPaths {
   publicDeck: string;
   /** The deck's URL path with a trailing slash: `/deck/` or `/deck-de/`. */
   deckUrl: string;
+  /** Verbs with prepositions (DE19): the handout's photos, and the reads made from them under `reads/`. */
+  prepositions: string;
+  /** The list of verbs with prepositions, one row per item. */
+  prepositionList: string;
+  /** The list's flagged rows, for a person to settle. */
+  prepositionFlags: string;
   /** The test deck of this language's cards: lib/deck/fixture.json or fixture-de.json. */
   fixture: string;
 }
@@ -79,6 +85,9 @@ export function contentPaths(root: string, lang: LangCode = "es"): ContentPaths 
     public: path.join(root, "public"),
     publicDeck: path.join(root, config.publicDeckDir),
     deckUrl: config.deckPath,
+    prepositions: path.join(content, "prepositions"),
+    prepositionList: path.join(content, "prepositions.tsv"),
+    prepositionFlags: path.join(content, "prepositions-flagged.md"),
     fixture: path.join(root, "lib", "deck", lang === "es" ? "fixture.json" : `fixture-${lang}.json`),
   };
 }

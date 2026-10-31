@@ -602,7 +602,7 @@ export interface DraftTask<T = DraftCard> {
   log: Rec;
   /** The name a refused answer is saved under in `.failed/`. */
   failedName: string;
-  request: Pick<DraftRequest, "system" | "prompt" | "schema">;
+  request: Pick<DraftRequest, "system" | "prompt" | "schema" | "images">;
   guard: (output: unknown) => Guarded<T>;
   /** Writes the cards and returns their ids. */
   save: (cards: T[], skip: Skip | null, meta: Rec) => string[];

@@ -18,6 +18,7 @@
     "deck": "tsx scripts/content/build-deck.mts",
     "tips": "tsx scripts/content/draft-tips.mts",
     "tag": "tsx scripts/content/tag.mts",
+    "prepositions": "tsx scripts/content/read-prepositions.mts",
     "voice-test": "node --env-file-if-exists=.env.local --import tsx scripts/voice-test.mjs",
     "audio": "node --env-file-if-exists=.env.local --import tsx scripts/content/make-audio.mjs",
     "art": "tsx scripts/content/make-art.mts",

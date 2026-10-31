@@ -16,12 +16,20 @@ export const DEFAULT_MODEL = "claude-opus-5-5";
 export const EFFORTS = ["low", "medium", "high", "xhigh", "max"] as const;
 export type Effort = (typeof EFFORTS)[number];
 
+/** An image sent with the prompt (DE19: a photo of a handout page), base64-encoded. */
+export interface ImageInput {
+  mediaType: "image/jpeg" | "image/png" | "image/webp";
+  data: string;
+}
+
 export interface DraftRequest {
   system: string;
   prompt: string;
   schema: Record<string, unknown>;
   model: string;
   effort: Effort;
+  /** Images shown before the prompt. With images the CLI is given the message as stream-json on stdin. */
+  images?: ImageInput[];
 }
 
 export interface CallUsage {
@@ -51,9 +59,13 @@ export const CLI_ENV_REMOVED = [
 ];
 
 export function cliArgs(request: DraftRequest): string[] {
+  // A prompt with images cannot be a command-line argument: it goes to stdin as one stream-json user message
+  // (`cliStdin`), and the answer comes back as stream-json, the result being its last line.
+  const io = request.images?.length
+    ? ["-p", "--input-format", "stream-json", "--output-format", "stream-json", "--verbose"]
+    : ["-p", request.prompt, "--output-format", "json"];
   return [
-    "-p",
-    request.prompt,
+    ...io,
     "--model",
     request.model,
     "--effort",
@@ -64,14 +76,30 @@ export function cliArgs(request: DraftRequest): string[] {
     "",
     "--json-schema",
     JSON.stringify(request.schema),
-    "--output-format",
-    "json",
     "--no-session-persistence",
     // No CLAUDE.md, plugins, hooks, MCP servers or skills from the user's setup.
     // Plugin hooks alone added about 3,500 uncached tokens to every call.
     "--safe-mode",
     "--strict-mcp-config",
     "--disable-slash-commands",
+  ];
+}
+
+/** The stdin of a call with images: one user message holding the images, then the prompt. Null without images. */
+export function cliStdin(request: DraftRequest): string | null {
+  if (!request.images?.length) return null;
+  const message = { type: "user", message: { role: "user", content: userContent(request) } };
+  return `${JSON.stringify(message)}\n`;
+}
+
+/** The user turn's content blocks: the images, then the prompt. */
+function userContent(request: DraftRequest) {
+  return [
+    ...(request.images ?? []).map((image) => ({
+      type: "image" as const,
+      source: { type: "base64" as const, media_type: image.mediaType, data: image.data },
+    })),
+    { type: "text" as const, text: request.prompt },
   ];
 }
 
@@ -120,7 +148,21 @@ export function readCliResult(stdout: string, durationMs: number): CallResult {
   try {
     result = JSON.parse(stdout);
   } catch {
-    return { ok: false, error: "cli-bad-json", usage: null };
+    // stream-json (a call with images): one event a line, the last `result` event being the answer.
+    result = undefined;
+    for (const line of stdout.split("\n").reverse()) {
+      if (!line.trim()) continue;
+      try {
+        const event: unknown = JSON.parse(line);
+        if (isRec(event) && event.type === "result") {
+          result = event;
+          break;
+        }
+      } catch {
+        // not an event line
+      }
+    }
+    if (result === undefined) return { ok: false, error: "cli-bad-json", usage: null };
   }
   if (!isRec(result)) return { ok: false, error: "cli-bad-json", usage: null };
   const usage = cliUsage(result);
@@ -159,19 +201,24 @@ export function cliRunner({ bin = "claude", timeoutMs = 600_000, env = process.e
         rmSync(cwd, { recursive: true, force: true });
         resolve(result);
       };
+      const stdin = cliStdin(request);
       const child = spawn(bin, cliArgs(request), {
         cwd,
         env: cliEnv(env),
-        stdio: ["ignore", "pipe", "ignore"],
+        stdio: [stdin === null ? "ignore" : "pipe", "pipe", "ignore"],
       });
+      if (stdin !== null) {
+        child.stdin!.on("error", () => {});
+        child.stdin!.end(stdin);
+      }
       let stdout = "";
       let timedOut = false;
       const timer = setTimeout(() => {
         timedOut = true;
         child.kill("SIGTERM");
       }, timeoutMs);
-      child.stdout.setEncoding("utf8");
-      child.stdout.on("data", (chunk: string) => (stdout += chunk));
+      child.stdout!.setEncoding("utf8");
+      child.stdout!.on("data", (chunk: string) => (stdout += chunk));
       child.on("error", () => done({ ok: false, error: "cli-spawn", usage: null }));
       child.on("close", (code) => {
         if (timedOut) return done({ ok: false, error: "timeout", usage: null });
@@ -212,7 +259,7 @@ export function apiRunner({ client, maxTokens = 16_000 }: ApiRunnerOptions = {})
         model: request.model,
         max_tokens: maxTokens,
         system: [{ type: "text", text: request.system, cache_control: { type: "ephemeral" } }],
-        messages: [{ role: "user", content: request.prompt }],
+        messages: [{ role: "user", content: request.images?.length ? userContent(request) : request.prompt }],
         output_config: {
           effort: request.effort,
           format: { type: "json_schema", schema: request.schema },

@@ -1,0 +1,249 @@
+# Verbs with prepositions, from the handout Verben mit Präpositionen (B2.2), one row per item (docs/german.md, DE19).
+# Written by npm run prepositions -- --lang de from two reads of each page; your edits are kept on every rerun.
+# A row with flags is settled by fixing it and writing ok in settle; a / row takes split (two items, each its own
+# gloss) or either (one item answering both; the script joins the pair). Then run npm run prepositions -- --lang de --check.
+# When every row is settled and the checks pass, change pending to approve on the status line.
+# status: pending
+page	row	verb	objects	prep	case	pattern	gloss	gloss_by	handout_gloss	sentence	verb_card	flags	settle
+1	1	abhängen		von	dat	von jm|etwD	to depend on someone or something	claude		Es hängt ___ Wetter ab, ob der Ausflug stattfindet.			
+1	2	achten		auf	akk	auf jn|etwA	to pay attention to someone or something	claude		Der Autofahrer achtete nicht ___ das Überholverbot.			
+1	3	anfangen		mit	dat	mit etwD	to start (doing) something	claude		Er hat vor einem Monat ___ dem Tennisspielen angefangen.			
+1	4	ankommen	es	auf	akk	auf jn|etwA	to depend on someone or something, to be what matters	claude		In der Prüfung kommt es vor allem ___ gute Nerven an.			
+1	5	sich anmelden		zu	dat	zu etwD	to register for something	claude		Ich meldete mich ___ Prüfung an.			
+1	6	ansehen	jemanden oder etwas	als	akk	als etwA	to regard someone or something as something	claude		Picasso wird ___ der größte Maler der Moderne angesehen.			
+1	7	antworten	jemandem	auf	akk	auf etwA	to answer someone's something	claude		Bitte antworte mir ___ meine Frage!			
+1	8	sich ärgern		über	akk	über jn|etwA	to be annoyed about someone or something	claude		Ich ärgere mich ___ meine schlechte Note.			
+1	9	auffordern	jemanden	zu	dat	zu etwD	to request	courtney		Der Tourist wird ___ Öffnen des Koffers aufgefordert.			
+1	10	aufhören		mit	dat	mit etwD	to stop/quit	courtney		Er hat ___ dem Rauchen aufgehört.			
+1	11	aufpassen		auf	akk	auf jn|etwA	to look after someone or something	claude		Die Großmutter passt vormittags ___ ihre Enkelkinder auf.			
+1	12	sich aufregen		über	akk	über jn|etwA	to upset/excite/agitate someone	courtney		Ich rege mich ___ die Politik der Regierung auf.			
+1	13	auskommen		mit	dat	mit jm	to get along with someone	claude	s mit jm gut/schlecht verstehen	Ich komme gut ___ meinen Kollegen aus.			
+1	14	auskommen		mit	dat	mit etwD	to get by on something	claude	ausreichend von etwas (z.B. Geld) haben	In München kommt man nicht ___ 600 € pro Monat aus.			
+1	15	sich bedanken		bei	dat	bei jm	to thank someone	claude		Der Chef hat sich ___ seinen Mitarbeitern ___ ihren Einsatz bedankt.			
+1	15	sich bedanken		für	akk	für etwA	to give thanks for something	claude		Der Chef hat sich ___ seinen Mitarbeitern ___ ihren Einsatz bedankt.			
+1	16	sich beeilen		mit	dat	mit etwD	to hurry/to rush	courtney		Es hat sich ___ der Abgabe seiner Doktorarbeit beeilt.			
+1	17	sich befassen		mit	dat	mit jm|etwD	to deal with/engage	courtney		In seiner Doktorarbeit befasst er sich ___ der deutschen Geschichte.			
+1	18	befreien	sich oder jemanden	von	dat	von etwD	to free/to liberate	courtney		Der Psychologe konnte sie ___ ihren Ängsten befreien.			
+1	19	beginnen		mit	dat	mit etwD	to begin with something	claude		Um 9 Uhr beginnen wir ___ dem Unterricht.			
+1	20	beglückwünschen	jemanden	zu	dat	zu jm|etwD	to congratulate someone on someone or something	claude		Mein Chef beglückwünschte mich ___ meinem Lottogewinn.			
+1	21	beitragen		zu	dat	zu etwD	to contribute to something	claude		Er trägt mit seiner Arbeit ___ Gelingen des Projekts bei.			
+1	22	sich beklagen		über	akk	über jn|etwA	to complain about someone or something	claude		Maria beklagte sich beim Hausmeister ___ die Ruhestörung.			
+1	23	sich bemühen		um	akk	um etwA	to make an effort/to try one's best	courtney	s Mühe geben, um etwA zu erreichen	Sie bemüht sich dar___, bessere Noten zu bekommen.			
+2	1	sich bemühen		um	akk	um jn	to strive / make efforts	courtney	versuchen, jm zu helfen	Der Sanitäter bemühte sich ___ den Verletzten.			
+2	2	beneiden	jemanden	um	akk	um jn|etwA	to envy / be jealous	courtney		Herr Meier beneidet Herrn Schmidt ___ seine Gelassenheit auch in schwierigen Situationen.			
+2	3	benutzen	jemanden oder etwas	für	akk	für etwA	to use someone or something for a purpose	claude	für einen Zweck einsetzen	Er benutzt die Ferien ___ Prüfungsvorbereitung / ___ eine Reise nach Frankreich.		slash: split or either	
+2	3	benutzen	jemanden oder etwas	zu	dat	zu etwD	to use someone or something to do something	claude	für einen Zweck einsetzen	Er benutzt die Ferien ___ Prüfungsvorbereitung / ___ eine Reise nach Frankreich.		slash: split or either	
+2	4	benutzen	etwas	als	akk	als etwA	to use something as something	claude	jn|etwA in einer bestimmten Funktion einsetzen	Er benutzt sein Schlafzimmer ___ Arbeitsraum.			
+2	5	berichten	jemandem	von	dat	von jm|etwD	to report on someone or something (von)	claude		Der Polizist berichtete ___ dem | ___ den Unfall.		slash: split or either	
+2	5	berichten	jemandem	über	akk	über jn|etwA	to report about someone or something (über)	claude		Der Polizist berichtete ___ dem | ___ den Unfall.		slash: split or either	
+2	6	sich beschäftigen		mit	dat	mit etwD	to occupy oneself with something	claude	mit einer Tätigkeit seine Zeit verbringen	Am Wochenende beschäftigte sich der Vater ___ seinen Briefmarken.			
+2	7	sich beschäftigen		mit	dat	mit jm|etwD	to deal with someone or something as a topic	claude	etwA als Thema haben	Dieser Text beschäftigt sich ___ dem Verhältnis von Mensch und Natur.			
+2	8	sich beschränken		auf	akk	auf etwA	to limit / restrict	courtney		In seinem Roman beschränkte der Autor sich nicht ___ die Darstellung der sozialen Umstände.			
+2	9	sich beschweren		bei	dat	bei jm	to complain to someone	courtney		Sie beschwerte sich ___ ihrem Chef ___ den niedrigen Lohn.			
+2	9	sich beschweren		über	akk	über jn|etwA	to complain about someone or something	courtney		Sie beschwerte sich ___ ihrem Chef ___ den niedrigen Lohn.			
+2	10	bestehen		auf	dat	auf etwD	to insist	courtney	eine Meinung oder Forderung mit Nachdruck vertreten	Heute möchte ich für alle bezahlen. Ich bestehe dar___!			
+2	11	bestehen		aus	dat	aus etwD	to be made of a material	claude	aus einem bestimmten Material sein	Der Tisch besteht ___ wertvollem Holz.			
+2	12	bestehen		aus	dat	aus etwD	to consist of several parts	claude	mehrere Teile haben	Meine Wohnung besteht ___ 4 kleinen Zimmern.			
+2	13	bestehen		in	dat	in etwD	to consist in something	claude	sein	Die Aufgabe der Sekretärin besteht nicht dar___, Kaffee zu kochen.			
+2	14	sich beteiligen		an	dat	an etwD	to participate / take part	courtney	aktiv mitwirken an	Der Schüler beteiligte sich lebhaft ___ Unterricht.			
+2	15	sich bewerben		um	akk	um etwA	to apply	courtney		Er bewarb sich ___ eine neue Stelle.			
+2	16	bezeichnen	jemanden oder etwas	als	akk	als etwA|ADJ	to designate / to call	courtney		Europa wird auch ___ "die Alte Welt" bezeichnet.			
+2	17	sich beziehen		auf	akk	auf jn|etwA	to contain / refer to	courtney		Der Redner bezog sich ___ die Worte seines Vorredners.		reads differ: gloss	
+2	18	bitten	jemanden	um	akk	um etwA	to ask someone for something	claude		Ich bat meinen Vater ___ Geld.			
+2	19	bringen	jemanden	zu	dat	zu etwD	to bring someone to (do) something	claude		Der Clown brachte uns ___ Lachen.			
+2	20	danken	jemandem	für	akk	für etwA	to thank someone for something	claude		Ich danke dir ___ deine Geduld!			
+2	21	demonstrieren		für	akk	für	to demonstrate for someone or something	claude		Die Arbeiter demonstrierten ___ mehr Lohn.		slash: split or either	
+2	21	demonstrieren		gegen	akk	gegen jn|etwA	to demonstrate against someone or something	claude		Die Arbeiter demonstrierten ___ mehr Lohn.		slash: split or either	
+3	1	denken		an	akk	an jn|etwA	to think of someone or something	claude	seine Gedanken auf jn|etwA konzentrieren	Ich denke oft ___ dich und an unseren schönen Urlaub.			
+3	2	denken	etwas	von	dat	von jm	to think something of someone	claude	jm eine Eigenschaft zuordnen	Er denkt nur Gutes ___ mir.			
+3	3	denken	etwas	über	akk	über jn|etwA	to have an opinion about someone or something	claude	eine Meinung zu etwD haben	Ist mein Vorschlag gut? Wie denkst du dar___?			
+3	4	dienen	jemandem	zu	dat	zu etwD	to serve (a purpose)	courtney	Zweck haben	Die Broschüre dient ___ Information der Studenten.			
+3	5	dienen	jemandem	als	nom	als etwN	to serve as something	courtney	Funktion haben	Die Schere dient (mir) auch ___ Brieföffner.			
+3	6	diskutieren		mit	dat	mit jm	to discuss with someone	claude		Herr Maier diskutierte ___ Herrn Müller ___ das Fußballspiel.			
+3	6	diskutieren		über	akk	über etwA	to discuss something	claude		Herr Maier diskutierte ___ Herrn Müller ___ das Fußballspiel.			
+3	7	sich eignen		für	akk	für jn	to be suitable / appropriate for someone	courtney	für eine bestimmte Zielgruppe geeignet sein	Das Buch eignet sich ___ Kinder.			
+3	8	sich eignen		für	akk	für etwA	to be suitable for a purpose	claude	für einen bestimmten Zweck geeignet sein	Das Buch eignet sich ___ Vorlesen.			
+3	8	sich eignen		zu	dat	zu etwD	to be suited to a purpose	claude	für einen bestimmten Zweck geeignet sein	Das Buch eignet sich ___ Vorlesen.			
+3	9	sich eignen		als	nom	als etw	to be suitable as something	claude	für eine bestimmte Funktion geeignet sein	Das Buch eignet sich ___ Reiselektüre.			
+3	10	sich einigen		mit	dat	mit jm	to agree / come to agreement with someone	courtney		Der Autohändler hat sich ___ dem Kunden ___ den Preis geeinigt, und zwar ___ € 10.000.		reads differ: gloss	
+3	10	sich einigen		über	akk	über etwA	to agree / come to agreement about something	courtney		Der Autohändler hat sich ___ dem Kunden ___ den Preis geeinigt, und zwar ___ € 10.000.		reads differ: gloss	
+3	10	sich einigen		auf	akk	auf etwA	to agree / come to agreement on something	courtney		Der Autohändler hat sich ___ dem Kunden ___ den Preis geeinigt, und zwar ___ € 10.000.		reads differ: gloss	
+3	11	einladen	jemanden	zu	dat	zu etwD	to invite someone to something	claude		"Hallo Lisa! Ich möchte dich ___ meiner Geburtstagsparty einladen!"			
+3	12	sich einmischen		in	akk	in etwA	to interfere / to meddle	courtney		Die Schwiegermutter mischte sich ___ ihr Leben ein.		reads differ: gloss	
+3	13	sich einsetzen		für	akk	für jn|etwA	to commit / dedicate	courtney		Greenpeace setzt sich ___ den Umweltschutz ein.		reads differ: gloss	
+3	14	sich engagieren		für	akk	für jn|etwA	to be committed to someone or something	claude		Greenpeace engagiert sich ___ den Schutz der Umwelt.			
+3	15	sich entscheiden		für	akk	für	to decide in favour of someone or something	claude	eine von mehreren Möglichkeiten wählen	Sie entschied sich ___ ein Studium in Deutschland.		slash: split or either	
+3	15	sich entscheiden		gegen	akk	gegen jn|etwA	to decide against someone or something	claude	eine von mehreren Möglichkeiten wählen	Sie entschied sich ___ ein Studium in Deutschland.		slash: split or either	
+3	16	entscheiden		über	akk	über etwA	to decide on something (rule on)	claude	in einer schwierigen Situation einen Entschluss treffen	Das Gericht wird ___ Schuld oder Unschuld des Angeklagten entscheiden.			
+3	17	sich entschließen		zu	dat	zu etwD	to decide (after reflection)	courtney		Sie entschloss sich ___ einem Studium im Ausland.			
+3	18	sich entschuldigen		bei	dat	bei jm	to apologize to someone	claude		Sie entschuldigte sich ___ mir ___ ihr schlechtes Gedächtnis.			
+3	18	sich entschuldigen		für	akk	für etwA	to apologize for something	claude		Sie entschuldigte sich ___ mir ___ ihr schlechtes Gedächtnis.			
+3	19	entstehen		aus	dat	aus etwD	to arise / emerge	courtney		Bei Kälte entsteht ___ Wasser Eis.		reads differ: gloss	
+3	20	sich erholen		von	dat	von etwD	to recover / to relax	courtney		Sie erholte sich nur langsam ___ ihrer Krankheit.		reads differ: gloss	
+4	1	erinnern	sich oder jemanden	an	akk	an jn|etwA	to remember someone or something / to remind someone of someone or something	claude		Ich erinnere mich gut ___ meinen ersten Schultag.			
+4	2	erkennen	jemanden oder etwas	an	dat	an etwD	to recognize someone or something by something	claude		Ich habe ihn ___ der Stimme erkannt.			
+4	3	erkranken		an	dat	an etwD	to fall ill with something	claude		Sie ist ___ Grippe erkrankt.			
+4	4	sich erkundigen		bei	dat	bei jm	to inquire / to ask for info with someone	courtney		Er erkundigte sich ___ dem Polizisten ___ dem Weg.		reads differ: gloss	
+4	4	sich erkundigen		nach	dat	nach jm|etwD	to inquire / to ask for info about someone or something	courtney		Er erkundigte sich ___ dem Polizisten ___ dem Weg.			
+4	5	sich ernähren		von	dat	von etwD	to nourish / feed oneself on something	courtney		Löwen ernähren sich ___ Zebras.		reads differ: gloss	
+4	6	ernennen	jemanden	zu	dat	zu etwD	to appoint / to nominate as something	courtney		Der Kanzler ernannte einen Wissenschaftler ___ Bildungsminister.		reads differ: gloss	
+4	7	erschrecken		vor	dat	vor jm|etwD	to be frightened / scared of someone or something	courtney	einen Schrecken bekommen, weil man sich direkt von etwD bedroht fühlt	Er erschrickt sogar ___ kleinen Hunden, wenn sie bellen.		reads differ: gloss	
+4	8	erschrecken		über	akk	über jn|etwA	to be shocked at someone or something one sees or hears	claude	einen Schrecken bekommen, wenn man etwas Schlimmes sieht/hört	Nachdem ich ihn längere Zeit nicht mehr gesehen hatte, war ich ___ sein schlechtes Aussehen erschrocken.			
+4	9	ersetzen	jemanden oder etwas	durch	akk	durch jn|etwA	to replace / to substitute with someone or something	courtney		Meine Mutter ersetzte den alten Fernseher ___ einen neuen.		reads differ: gloss	
+4	10	erwarten	etwas	von	dat	von jm	to expect something from someone	claude		Der Chef erwartet ___ seinen Mitarbeitern einen überdurchschnittlichen Einsatz für die Firma.			
+4	11	erzählen	jemandem etwas	von	dat	von jm|etwD	to tell someone something of someone or something	claude		Du hast mir noch nichts ___ deinem Urlaub erzählt.		slash: split or either	
+4	11	erzählen	jemandem etwas	über	akk	über jn|etwA	to tell someone something about someone or something	claude		Du hast mir noch nichts ___ deinem Urlaub erzählt.		slash: split or either	
+4	12	erziehen	jemanden	zu	dat	zu etwD	to raise / to educate to something	courtney		Die Eltern haben ihre Kinder ___ Toleranz erzogen.		reads differ: gloss	
+4	13	fehlen	es	an	dat	an etwD	to be missing / to lack something	courtney		Im Katastrophengebiet fehlt es ___ Lebensmitteln.		reads differ: gloss	
+4	14	fliehen		vor	dat	vor jm|etwD	to flee from someone or something	claude		Diese Leute sind ___ dem Krieg in ihrer Heimat geflohen.			
+4	15	flüchten		vor	dat	vor jm|etwD	to escape from someone or something	claude		Die Maus flüchtet ___ der Katze.			
+4	16	fordern		von	dat	von jm	to demand / to call for from someone	courtney		Der Professor fordert ___ jedem Studenten ein Referat.		reads differ: gloss	
+4	17	fragen		nach	dat	nach jm|etwD	to ask about someone or something	claude		Viele Reisende fragen am Bahnhof ___ einer Zugverbindung.			
+4	18	sich freuen		auf	akk	auf jn|etwA	to look forward to someone or something	claude	s freuen, weil man etwas Positives erwartet	Alle Schulkinder freuen sich ___ die nächsten Ferien.			
+4	19	sich freuen		über	akk	über jn|etwA	to be pleased about someone or something	claude	s freuen, weil etwas Positives passiert ist	Das kleine Mädchen hat sich sehr ___ die schönen Geschenke gefreut.			
+4	20	führen		zu	dat	zu etwD	to lead / guide / conduct to something	courtney		Das neue Gesetz hat ___ starken Protesten geführt.		reads differ: gloss	
+4	21	sich fürchten		vor	dat	vor jm|etwD	to fear / be afraid of someone or something	courtney		Fürchtet er sich wirklich ___ dem Lehrer?		reads differ: gloss	
+4	22	gehen	es	um	akk	um jn|etwA	to be about someone or something	claude		In diesem Buch geht es ___ die Geschichte einer Familie.			
+5	1	gehören		zu	dat	zu jm|etwD	to be part of someone or something	claude		Bayern gehört ___ Deutschland.			
+5	2	gelten		für	akk	für jn|etwA	to apply to someone or something	claude	jn|etwA betreffen	Der ermäßigte Preis gilt nur ___ Schüler und Studenten.			
+5	3	gelten		als	nom	als etwN	to be regarded as something	claude	angesehen werden als etw	Sie gilt ___ ausgezeichnete Chirurgin.			
+5	4	geraten		in	akk	in etwA	to get into / to turn out well or badly	courtney		Diese Familie ist durch Arbeitslosigkeit ___ finanzielle Schwierigkeiten geraten.			
+5	5	sich gewöhnen		an	akk	an jn|etwA	to get used to someone or something	claude		___ das Leben in einem fremden Land muss man sich erst gewöhnen.			
+5	6	glauben		an	akk	an jn|etwA	to believe in someone or something	claude		Er glaubt fest ___ den Erfolg dieses Projekts.			
+5	7	gratulieren	jemandem	zu	dat	zu etwD	to congratulate someone on something	claude		Ich gratuliere dir ___m Examen.			
+5	8	grenzen		an	akk	an etwA	to border on something	claude		Die Schweiz grenzt ___ Deutschland.			
+5	9	sich halten		an	akk	an etwA	to stick to something (to follow rules)	claude	befolgen	Er hält sich nie ___ die Verkehrsregeln.			
+5	10	halten	viel oder wenig oder nichts	von	dat	von jm|etwD	to think much, little or nothing of someone or something	claude	eine gute/schlechte Meinung haben	Wir halten nichts ___ diesem Vorschlag.			
+5	11	halten	sich oder jemanden	für	akk	für etwA|ADJ	to consider oneself or someone to be something	claude	s|jn beurteilen als	Sie hält ihn ___ einen guten Freund | gut.			
+5	12	handeln		mit	dat	mit etwD	to trade in something	claude	Handel treiben	Sie handelt ___ Antiquitäten.			
+5	13	handeln		von	dat	von etwD	to be about something	claude	zum Thema haben	Der Roman handelt ___ einem Liebespaar.			
+5	14	sich handeln	es	bei	dat	bei jm|etwD	to be (said of someone or something), in the case of	claude	einer Kategorie zugeordnet werden	Bei diesem Buch handelt es sich ___ einen Krimi.			
+5	14	sich handeln	es	um	akk	um jn|etwA	to be a matter of someone or something	claude	einer Kategorie zugeordnet werden	Bei diesem Buch handelt es sich ___ einen Krimi.			
+5	15	helfen	jemandem	bei	dat	bei etwD	to help someone with something	claude		Meine Mutter half mir heute ___ den Hausaufgaben.			
+5	16	hindern	jemanden	an	dat	an etwD	to prevent someone from doing something	claude		Die Krankheit hindert mich ___ der Ausübung meines Berufes.			
+5	17	hoffen		auf	akk	auf etwA	to hope for something	claude		Wir hoffen ___ eine baldige Wetterbesserung.			
+5	18	hören		auf	akk	auf jn|etwA	to listen to someone or something (take advice)	claude	einen Rat befolgen	Ich habe dir von diesem Film abgeraten. Leider hast du nicht ___ mich gehört.			
+5	19	hören	etwas	von	dat	von jm|etwD	to hear something from someone or something	claude	Nachricht / Informationen erhalten	Lange habe ich nichts ___ ihm gehört.		slash: split or either	
+5	19	hören	etwas	über	akk	über jn|etwA	to hear something about someone or something	claude	Nachricht / Informationen erhalten	Ich habe nur Gutes ___ ihn gehört.		slash: split or either	
+5	20	sich informieren		über	akk	über jn|etwA	to find out about someone or something	claude		Ich möchte mich ___ die aktuellen Angebote informieren.			
+5	21	sich interessieren		für	akk	für jn|etwA	to be interested in someone or something	claude		Er interessiert sich ___ klassische Musik.			
+5	22	kämpfen		mit	dat	mit etwD	to struggle with something (problems, obstacles)	claude	Hindernisse/Probleme überwinden	Wir hatten bei der Organisation des Festivals ___ großen Schwierigkeiten zu kämpfen.			
+5	23	kämpfen		gegen	akk	gegen jn	to fight against someone	claude	Gewalt gegen jn anwenden und so versuchen, ihn zu besiegen	David kämpfte ___ / ___ Goliath.		slash: split or either	
+5	23	kämpfen		mit	dat	mit jm	to fight with someone	claude	Gewalt gegen jn anwenden und so versuchen, ihn zu besiegen	David kämpfte ___ / ___ Goliath.		slash: split or either	
+6	1	kämpfen		um	akk	um jn|etwA	to fight for someone or something	claude	sich intensiv darum bemühen, jn|etwA zu bekommen / jn|etwA zu behalten	Die Rivalen kämpften um eine Frau.			
+6	2	klagen		über	akk	über jn|etwA	to complain about someone or something	claude		Sie klagte ständig über Schmerzen.			
+6	3	kommen	es	zu	dat	zu etwD	to come to something (to happen)	claude		Es darf nicht zu einer Eskalation der Situation kommen.			
+6	4	sich konzentrieren		auf	akk	auf jn|etwA	to concentrate on someone or something	claude		Du musst dich auf das Wesentliche konzentrieren.			
+6	5	sich kümmern		um	akk	um jn|etwA	to take care of someone or something	claude		Ich kümmere mich um dieses Problem.			
+6	6	lachen		über	akk	über etwA	to laugh about something	claude		Er musste über ihre Witze lachen.			
+6	7	leben		von	dat	von etwD	to live on something	claude		Während des Krieges lebten viele Leute hauptsächlich von Kartoffeln.			
+6	8	leiden		an	dat	an etwD	to suffer from something (an illness)	claude	eine Krankheit haben	Meine Nachbarin leidet an einer Hautkrankheit.			
+6	9	leiden		unter	dat	unter etwD	to suffer under something (a situation)	claude	eine Situation als sehr unangenehm empfinden	Die empfindliche Dame litt sehr unter dem Lärm.			
+6	10	liegen		an	dat	an jm|etwD	to be due to someone or something	claude	verursacht werden	Es liegt natürlich an dir, dass wir ständig Streit haben.			
+6	11	mangeln	es	an	dat	an etwD	to be lacking in something	claude		In dem Notstandsgebiet mangelte es an Medikamenten und Nahrungsmitteln.			
+6	12	mitmachen		bei	dat	bei etwD	to take part in something	claude		Bei dieser Sache mache ich nicht mit.			
+6	13	mitwirken		bei	dat	bei	to contribute to something (with bei)	claude		Viele Künstler wirkten bei/an dieser Ausstellung mit.		slash: split or either	
+6	13	mitwirken		an	dat	an etwD	to contribute to something (with an)	claude		Viele Künstler wirkten bei/an dieser Ausstellung mit.		slash: split or either	
+6	14	nachdenken		über	akk	über jn|etwA	to think about someone or something	claude		„Danke für dein Angebot. Ich muss noch einmal darüber nachdenken, bevor ich mich entscheide.			
+6	15	passen		zu	dat	zu jm|etwD	to go with someone or something	claude		Dieser Pullover passt nicht zu der Hose.			
+6	16	protestieren		gegen	akk	gegen jn|etwA	to protest against someone or something	claude		Die Studenten protestierten gegen die Einführung von Studiengebühren.			
+6	17	sich rächen		an	dat	an jm	to take revenge on someone	claude		Für diese Beleidigung werde ich mich an dir rächen!			
+6	17	sich rächen		für	akk	für etwA	to take revenge for something	claude		Für diese Beleidigung werde ich mich an dir rächen!			
+6	18	raten		zu	dat	zu etwD	to advise (someone) to take something	claude		Ich rate dir zu diesem Wörterbuch.			
+6	19	reagieren		auf	akk	auf jn|etwA	to react to someone or something	claude		Er hat auf meinen Brief noch nicht reagiert.			
+6	20	rechnen		mit	dat	mit jm|etwD	to expect someone or something	claude		Morgen müssen wir mit Regen rechnen, sagt der Wetterbericht.			
+6	21	riechen		nach	dat	nach jm|etwD	to smell of someone or something	claude		Hier riecht es nach frischem Kaffee.			
+6	22	sich schämen		vor	dat	vor jm	to be ashamed in front of someone	claude		Der Schüler schämte sich vor den Eltern für seine schlechten Noten.			
+6	22	sich schämen		für	akk	für etwA	to be ashamed of something	claude		Der Schüler schämte sich vor den Eltern für seine schlechten Noten.			
+6	23	schätzen	etwas	auf	akk	auf etwA	to estimate something at something	claude		Die Experten schätzen die Kosten auf 3 Millionen €.			
+6	24	scheitern		an	dat	an jm|etwD	to fail because of someone or something	claude		Das neue Gesetz scheiterte am Widerstand der Gewerkschaften.			
+7	1	schicken	etwas	an	akk	an jn	to send something to someone	claude		Carlos schickt ein Paket an seine Freundin.			
+7	2	schießen		auf	akk	auf jn|etwA	to shoot at someone or something	claude		Der Jäger schießt auf den Löwen.			
+7	3	schimpfen		auf	akk	auf jn|etwA	to rail at someone or something	claude		Mein Vater schimpft immer auf / über die Regierung.		reads differ: pattern; slash: split or either	
+7	3	schimpfen		über	akk	über jn|etwA	to complain about someone or something	claude		Mein Vater schimpft immer auf / über die Regierung.		slash: split or either	
+7	4	schmecken		nach	dat	nach etwD	to taste of something	claude		Der Kaffee schmeckt nach Vanille.			
+7	5	schreiben	etwas	an	akk	an jn	to write something to someone	claude		Carlo schreibt eine E-Mail an seine Freundin in Italien.			
+7	5	schreiben	etwas	über	akk	über jn|etwA	to write something about someone or something	claude		Carlo schreibt eine E-Mail an seine Freundin in Italien.		slash: split or either	
+7	5	schreiben	etwas	von	dat	von jm|etwD	to write something of someone or something	claude		Carlo schreibt eine E-Mail an seine Freundin in Italien.		slash: split or either	
+7	6	schützen	sich oder jemanden oder etwas	vor	dat	vor jm|etwD	to protect oneself, someone or something from someone or something	claude		Frau Meier schützte ihre Topfblumen vor dem Regen.			
+7	7	sich sehnen		nach	dat	nach jm|etwD	to long for someone or something	claude		Exilanten sehnen sich nach ihrer Heimat.			
+7	8	senden	etwas	an	akk	an jn	to send something to someone	claude		Carlo sendet eine SMS an seine Freundin in Portugal.			
+7	9	siegen		über	akk	über jn|etwA	to triumph over someone or something	claude		James Bond siegt immer über den Bösewicht.			
+7	10	sorgen		für	akk	für jn|etwA	to take care of someone or something	claude	s kümmern um jn|etwA	Eltern müssen gut für ihre Kinder sorgen.			
+7	11	sich sorgen		um	akk	um jn|etwA	to worry about someone or something	claude	s Sorgen machen um jn|etwA	Ich sorge mich um deine Gesundheit.			
+7	12	sparen		auf	akk	auf etwA	to save up for something	claude	sparen um s etwA zu kaufen	Sie spart auf / für ein neues Fahrrad.		reads differ: pattern; slash: split or either	
+7	12	sparen		für	akk	für etwA	to save for something	claude	sparen um s etwA zu kaufen	Sie spart auf / für ein neues Fahrrad.		slash: split or either	
+7	13	sprechen		mit	dat	mit jm	to speak with someone	claude	s unterhalten / reden mit jm	Ich möchte mit dem Chef sprechen.			
+7	14	sprechen		zu	dat	zu jm	to address someone (speak to an audience)	claude	vor Publikum reden	Der Pfarrer spricht zur Gemeinde.			
+7	15	sprechen		von	dat	von jm|etwD	to speak of someone or something	claude	jn|etwA thematisieren / über jn|etwA diskutieren	Lass uns nicht mehr von der Sache sprechen!		slash: split or either	
+7	15	sprechen		über	akk	über jn|etwA	to talk about someone or something	claude	jn|etwA thematisieren / über jn|etwA diskutieren	Wir müssen noch über dieses Thema sprechen.		slash: split or either	
+7	16	sprechen		für	akk	für jn|etwA	to speak in favour of someone or something	claude	positive / negative Gründe liefern	Diese Argumente sprechen für / gegen ein weiteres Studium.		reads differ: pattern; slash: split or either	
+7	16	sprechen		gegen	akk	gegen jn|etwA	to speak against someone or something	claude	positive / negative Gründe liefern	Diese Argumente sprechen für / gegen ein weiteres Studium.		slash: split or either	
+7	17	stammen		aus	dat	aus etwD	to come from (originate in) something	claude	seinen Ursprung haben	Er stammt aus einer Arbeiterfamilie.			
+7	18	stammen		von	dat	von jm	to be by (the work or property of) someone	claude	geistiges oder materielles Eigentum von jm sein	Diese Skizze stammt von Picasso.			
+7	19	staunen		über	akk	über jn|etwA	to be amazed at someone or something	claude		Ich staune über die Selbständigkeit des Kindes.			
+7	20	sterben		an	dat	an etwD	to die of something	claude		Er starb an einer Überdosis Heroin.			
+7	21	stimmen		für	akk	für jn|etwA	to vote for someone or something	claude		Die Gewerkschaftsmitglieder stimmen für/ gegen einen Streik.		reads differ: pattern; slash: split or either	
+7	21	stimmen		gegen	akk	gegen jn|etwA	to vote against someone or something	claude		Die Gewerkschaftsmitglieder stimmen für/ gegen einen Streik.		slash: split or either	
+7	22	sich streiten		mit	dat	mit jm	to argue with someone	claude		Er streitet sich mit seinen Geschwistern um das Erbe.			
+7	22	sich streiten		um	akk	um etwA	to argue over something	claude		Er streitet sich mit seinen Geschwistern um das Erbe.			
+8	1	suchen		nach	dat	nach jm|etwD	to look for someone or something	claude		Wir haben lange nach einer guten Lösung gesucht.			
+8	2	teilnehmen		an	dat	an etwD	to take part in something	claude		Tom nimmt jetzt an einem Japanischkurs teil.			
+8	3	trauern		um	akk	um jn	to mourn for someone	claude		Die Hinterbliebenen trauern um die Toten.			
+8	4	träumen		von	dat	von jm|etwD	to dream of someone or something	claude		Thomas träumt schon lange von einem echten Abenteuerurlaub.			
+8	5	sich treffen		mit	dat	mit jm	to meet with someone	claude		Herr Klinsmann trifft sich heute mit seinem Kollegen im Café.			
+8	6	trennen	sich oder jemanden	von	dat	von jm	to separate (oneself or someone) from someone	claude		Sie konnte sich nicht von ihrem Freund trennen.			
+8	7	überreden	jemanden	zu	dat	zu etwD	to persuade someone to do something	claude		Eva überredete Adam dazu, in den Apfel zu beißen.			
+8	8	übersetzen	etwas	von	dat	von|aus etwD	to translate something from a language	claude		Diesen Text hat Tanja vom|aus dem Russischen ins Deutsche übersetzt.			
+8	8	übersetzen	etwas	aus	dat	von|aus etwD	to translate something out of a language	claude		Diesen Text hat Tanja vom|aus dem Russischen ins Deutsche übersetzt.			
+8	8	übersetzen	etwas	in	akk	in etwA	to translate something into a language	claude		Diesen Text hat Tanja vom|aus dem Russischen ins Deutsche übersetzt.			
+8	9	überzeugen	jemanden	von	dat	von etwD	to convince someone of something	claude		Durch gute Argumente hat Petra ihren Chef vom Gegenteil überzeugt.			
+8	10	sich unterhalten		mit	dat	mit jm	to talk with someone	claude		Die Lehrerin unterhielt sich zwei Stunden mit einem Schüler über seine schlechten Noten.			
+8	10	sich unterhalten		über	akk	über jn|etwA	to talk about someone or something	claude		Die Lehrerin unterhielt sich zwei Stunden mit einem Schüler über seine schlechten Noten.			
+8	11	sich unterscheiden		von	dat	von jm|etwD	to differ from someone or something	claude	in einer Hinsicht anders sein als jemand anderes	Anna unterscheidet sich von ihrer Schwester im Aussehen und durch ihre Freundlichkeit			
+8	11	sich unterscheiden		in	dat	in etwD	to differ in something	claude	in einer Hinsicht anders sein als jemand anderes	Anna unterscheidet sich von ihrer Schwester im Aussehen und durch ihre Freundlichkeit			
+8	11	sich unterscheiden		durch	akk	durch etwA	to differ by (virtue of) something	claude	in einer Hinsicht anders sein als jemand anderes	Anna unterscheidet sich von ihrer Schwester im Aussehen und durch ihre Freundlichkeit			
+8	12	unterscheiden		zwischen	dat	zwischen etwD	to distinguish between things	claude	einen Unterschied machen	Er kann nicht zwischen Wichtigem und Unwichtigem unterscheiden.			
+8	13	sich verabreden		mit	dat	mit jm	to arrange to meet with someone	claude		Wir verabredeten uns mit den Meiers zu einem Frühstück im Café.			
+8	13	sich verabreden		zu	dat	zu etwD	to make a date for something	claude		Wir verabredeten uns mit den Meiers zu einem Frühstück im Café.			
+8	14	sich verabschieden		von	dat	von jm	to say goodbye to someone	claude		Am Bahnhof musste sie sich von ihm verabschieden.			
+8	15	verbinden	jemanden oder etwas	mit	dat	mit jm|etwD	to connect or associate someone or something with someone or something	claude		Yoko verbindet die angenehmsten Erinnerungen mit ihrem letzten London-Besuch.			
+8	16	verfügen		über	akk	über jn|etwA	to have at one's disposal someone or something	claude		Nicht jedes Land verfügt über Rohstoffe.			
+8	17	vergleichen	sich oder jemanden	mit	dat	mit jm|etwD	to compare (oneself or someone) with someone or something	claude		Claudia vergleicht ihren Garten mit dem Garten ihres Nachbarn.			
+8	18	verhandeln		mit	dat	mit jm	to negotiate with someone	claude		Die beiden Staaten verhandeln über neue Möglichkeiten der kulturellen Zusammenarbeit .			
+8	18	verhandeln		über	akk	über etwA	to negotiate about something	claude		Die beiden Staaten verhandeln über neue Möglichkeiten der kulturellen Zusammenarbeit .			
+8	19	verlangen		nach	dat	nach jm|etwD	to ask for someone or something	claude		Der Kranke verlangte nach einem Arzt.			
+8	20	sich verlassen		auf	akk	auf jn|etwA	to rely on someone or something	claude		Auf meinen Freund Sepp kann ich mich wirklich immer verlassen.			
+8	21	sich verlieben		in	akk	in jn	to fall in love with someone	claude		Frau Hering hat sich in den Briefträger verliebt.			
+8	22	sich versöhnen		mit	dat	mit jm	to make up with someone	claude		Lisa hat sich nach einem Streit wieder mit ihrem Freund Alex versöhnt.			
+9	1	verstoßen		gegen	akk	gegen etwA	to violate something, to break (a rule)	claude		In einem fremden Land kann man sehr leicht gegen bestimmte Verhaltensregeln verstoßen.			
+9	2	vertauschen	etwas	mit	dat	mit etwD	to mix something up with something, to swap by mistake	claude		Hugo hatte aus Versehen seinen Mantel mit dem Mantel seines Kollegen vertauscht.			
+9	3	verteidigen	sich oder jemanden oder etwas	gegen	akk	gegen	to defend oneself, someone or something against	claude		Er verteidigte sich gegen die Vorwürfe seiner Frau.			
+9	4	verteilen	etwas	an	akk	an jn	to distribute something to someone	claude		Die Kindergärtnerin verteilt Süßigkeiten an die Kinder.			
+9	5	sich vertragen		mit	dat	mit jm	to get along with someone	claude		Nach einem Streit hat er sich wieder mit ihr vertragen.			
+9	6	verurteilen	jemanden	zu	dat	zu etwD	to sentence someone to something	claude		Sie war zu schnell gefahren und wurde zu einer Geldstrafe verurteilt.			
+9	7	verwandeln	sich oder jemanden oder etwas	in	akk	in jn|etwA	to transform into someone or something	claude		Durch Erhitzen verwandelt sich Wasser in Dampf.			
+9	8	verwechseln	jemanden oder etwas	mit	dat	mit jm|etwD	to confuse someone or something with someone or something	claude		Ich glaube, der Koch hat heute das Salz mit dem Zucker verwechselt.			
+9	9	verzichten		auf	akk	auf jn|etwA	to do without someone or something, to give up	claude		Bei einer Diät muss man auf Schokolade verzichten.			
+9	10	sich vorbereiten		auf	akk	auf etwA	to prepare for something	claude		Sie hat sich gut auf die Prüfung vorbereitet.			
+9	11	wählen	jemanden	zu	dat	zu etwD	to elect someone as something	claude		Er wurde zum Präsidenten gewählt.			
+9	12	warnen	jemanden	vor	dat	vor jm|etwD	to warn someone about someone or something	claude		Ich habe den Briefträger vor dem bissigen Hund gewarnt.			
+9	13	warten		auf	akk	auf jn|etwA	to wait for someone or something	claude		Zwanzig Minuten habe ich heute auf die U-Bahn gewartet.			
+9	13	warten		mit	dat	mit etwD	to hold off on something, to wait with something	claude		Könnt ihr mit dem Essen auf mich warten?			
+9	14	sich wehren		gegen	akk	gegen jn|etwA	to defend oneself against someone or something, to resist	claude		Der Politiker wehrte sich vergeblich gegen die Korruptionsvorwürfe.			
+9	15	weinen		über	akk	über etwA	to cry about something	claude		Alle weinten über das traurige Filmende.			
+9	16	sich wenden		an	akk	an jn	to turn to someone (for advice or help)	claude	jn um Rat/Hilfe bitten	Wenden Sie sich bei Problemen bitte an das Sekretariat.			
+9	17	sich wenden		gegen	akk	gegen jn|etwA	to speak out against someone or something, to criticize	claude	jn|etwA kritisieren	Er wendet sich mit seiner Kritik gegen die Reformvorschläge.			
+9	18	werben		für	akk	für etwA	to advertise something	claude	Werbung machen für ein Produkt	Die Firma wirbt für Schokolade.			
+9	19	werben		um	akk	um etwA	to court something, to try to win something	claude	s um etwA bemühen	Die Firma wirbt um Kunden.			
+9	20	werden		zu	dat	zu jm|etwD	to become someone or something	claude		Sie wurde zur berühmtesten Sängerin der Welt.			
+9	21	wetten		um	akk	um etwA	to bet something (as a stake)	claude		Wetten wir um 10 €, dass es heute nicht mehr regnet?			
+10	1	wirken		auf	akk	auf jn|etwA	to have an effect on someone or something	claude	Einfluss haben auf jn	Kaffee wirkt auf mich beruhigend.			
+10	2	wirken		auf	akk	auf jn	to seem (a certain way) to someone, to make an impression on someone	claude	einen Eindruck machen auf jn	Er wirkte auf mich ziemlich nervös.			
+10	3	wissen	viel oder wenig oder nichts	von	dat	von jm|etwD	to know (much, little, nothing) of someone or something	claude		Er weiß von den Problemen des Projekts.		slash: split or either	
+10	3	wissen	viel oder wenig oder nichts	über	akk	über jn|etwA	to know (much, little, nothing) about someone or something	claude		Er weiß wenig über Deutschland.		slash: split or either	
+10	4	sich wundern		über	akk	über jn|etwA	to be surprised at someone or something	claude		Nach ihrem Streit mit dem Chef wunderte sich niemand über ihre Kündigung.			
+10	5	zögern		mit	dat	mit etwD	to hesitate with something	claude		Er war nicht sicher und zögerte mit der Antwort.			
+10	6	zusammenstoßen		mit	dat	mit jm|etwD	to collide with someone or something	claude		Beinahe wäre er mit einem Fahrrad zusammengestoßen.			
+10	7	zweifeln		an	dat	an jm|etwD	to doubt someone or something	claude		Als er den versteckten Liebesbrief fand, zweifelte er an der Treue seiner Frau.			
+10	8	zwingen	sich oder jemanden	zu	dat	zu etwD	to force oneself or someone to do something	claude		Ich muss mich (dazu) zwingen, alle diese Verben mit Präpositionen zu lernen.			
