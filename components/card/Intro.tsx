@@ -8,7 +8,8 @@ import type { IntroChoice } from "@/lib/queues";
 import { CharacterSlot } from "./CardFront";
 import { splitGluePrompt } from "./gluePrompt";
 import { GrammarStrip } from "./GrammarStrip";
-import { AudioButton, Meaning, WhyLine } from "./Reveal";
+import { autoplayClip } from "./prepositionFaces";
+import { AudioButton, ExampleBox, Meaning, WhyLine } from "./Reveal";
 import { TipButton } from "./Tip";
 
 export interface IntroProps {
@@ -34,7 +35,7 @@ export interface IntroProps {
  */
 export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: IntroProps) {
   const motion = useMotion();
-  useAutoplay(card.audio.word, onPlay);
+  useAutoplay(autoplayClip(card), onPlay);
   return (
     <div
       data-testid="intro"
@@ -66,6 +67,9 @@ export function Intro({ card, earlier, onChoose, onPlay = playClip, tip }: Intro
           </span>
           <Meaning card={card} />
         </div>
+
+        {/* A gap card is its sentence: shown with the gap filled in, and its English. */}
+        {card.kind === "gap" && <ExampleBox card={card} onPlay={onPlay} />}
 
         <GrammarStrip card={card} />
 

@@ -9,6 +9,7 @@ import type { ButtonRating, Rating } from "@/lib/store";
 import { CharacterSlot } from "./CardFront";
 import { GrammarStrip } from "./GrammarStrip";
 import { splitGluePrompt } from "./gluePrompt";
+import { autoplayClip, GapSentence } from "./prepositionFaces";
 import { TipButton } from "./Tip";
 
 /** The three rating buttons, in the order they sit on screen. */
@@ -43,7 +44,7 @@ export interface RevealProps {
  */
 export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", children, tip }: RevealProps) {
   const motion = useMotion();
-  useAutoplay(card.audio.word, onPlay);
+  useAutoplay(autoplayClip(card), onPlay);
   return (
     <div
       data-testid="reveal"
@@ -77,17 +78,7 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
 
         <WhyLine card={card} />
 
-        <div className="flex w-full items-start gap-2 rounded-button bg-quiet p-3 text-left">
-          <p className="flex flex-1 flex-col gap-0.5">
-            <span data-testid="example-es" lang={LANG.tag} className="text-lg font-bold">
-              {card.example.target}
-            </span>
-            <span data-testid="example-en" className="text-ink-soft">
-              {card.example.en}
-            </span>
-          </p>
-          <AudioButton label="Play the sentence" testId="play-sentence" onPress={() => onPlay(card.audio.sentence)} />
-        </div>
+        <ExampleBox card={card} onPlay={onPlay} />
 
         {card.regional && (
           <p data-testid="regional" className="text-sm text-ink-soft">
@@ -115,8 +106,36 @@ export function Reveal({ card, onRate, onPlay = playClip, move = "wiggle", child
   );
 }
 
-/** The English, small, under the answer. Glue and case prompts keep their highlighted target. */
+/**
+ * The example sentence and its English, with the sentence's audio button. A gap card's sentence
+ * has its gap filled in and highlighted.
+ */
+export function ExampleBox({ card, onPlay }: { card: Card; onPlay: (src: string) => void }) {
+  return (
+    <div className="flex w-full items-start gap-2 rounded-button bg-quiet p-3 text-left">
+      <p className="flex flex-1 flex-col gap-0.5">
+        {card.kind === "gap" ? (
+          <GapSentence sentence={card.example.target} blank={false} testId="example-es" className="text-lg font-bold" />
+        ) : (
+          <span data-testid="example-es" lang={LANG.tag} className="text-lg font-bold">
+            {card.example.target}
+          </span>
+        )}
+        <span data-testid="example-en" className="text-ink-soft">
+          {card.example.en}
+        </span>
+      </p>
+      <AudioButton label="Play the sentence" testId="play-sentence" onPress={() => onPlay(card.audio.sentence)} />
+    </div>
+  );
+}
+
+/**
+ * The English, small, under the answer. Glue and case prompts keep their highlighted target. A gap
+ * card has none: its English is the sentence's, under the sentence.
+ */
 export function Meaning({ card }: { card: Card }) {
+  if (card.kind === "gap") return null;
   const glue = card.kind === "glue" || card.kind === "case" ? splitGluePrompt(card.en) : null;
   return (
     <span data-testid="meaning" className="text-ink-soft">

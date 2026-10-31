@@ -5,7 +5,8 @@
 //
 // Since DE3 there is a German fixture too (`fixtureDeckDe`, lib/deck/fixture-de.json):
 // nouns of three genders, a strong and a separable verb, an adjective, a glue card,
-// a form card, a phrase card, two case cards, a regional footnote, a unit and a tip.
+// a form card, a phrase card, two case cards, a regional footnote, a unit and a tip;
+// since DE20 also two pair cards and their two gap cards (verbs with prepositions).
 // Its media paths are placeholders, apart from two Spanish stills reused by meaning.
 
 import raw from "./fixture.json";

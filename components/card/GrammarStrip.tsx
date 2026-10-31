@@ -2,8 +2,9 @@
 
 import { Fragment } from "react";
 import { LANG } from "@/lang";
-import type { CaseGrammar, Card, GermanNounGrammar, GermanVerbGrammar, NounGrammar, VerbGrammar } from "@/lib/deck";
-import { FORM_ID, GERMAN_FORM_ID } from "@/lib/deck/validate";
+import type { CaseGrammar, Card, GermanNounGrammar, GermanVerbGrammar, NounGrammar, PrepositionGrammar, VerbGrammar } from "@/lib/deck";
+import { FORM_ID, GERMAN_FORM_ID, pairAnswer, prepositionParts } from "@/lib/deck/validate";
+import { prepositionGrammar } from "./prepositionFaces";
 
 // The grammar under the answer on the intro and the reveal. Spanish: docs/design.md,
 // "Reveal" and "Decided in L13"; German: docs/german.md, "What the cards look like"
@@ -103,6 +104,8 @@ export function GrammarStrip({ card }: { card: Card }) {
   if ((card.pos === "determiner" || card.pos === "pronoun") && card.grammar) {
     return <CaseLine target={card.target} grammar={card.grammar} />;
   }
+  const preposition = prepositionGrammar(card);
+  if (preposition) return <PatternLine grammar={preposition} withAnswer={card.kind === "gap"} />;
   return null;
 }
 
@@ -177,6 +180,41 @@ function CaseLine({ target, grammar }: { target: string; grammar: CaseGrammar })
       <span lang={LANG.tag} className="whitespace-nowrap font-bold text-ink">
         {grammar.from} → <mark className="rounded-chip bg-sun px-1 text-ink">{caseChange(target, grammar.from)}</mark>
       </span>
+    </p>
+  );
+}
+
+/**
+ * A pair or gap card's whole pattern, its preposition highlighted: "auf jemanden warten". A gap card
+ * adds the pair's answer, "· auf + Akk", since its own answer is the words of one sentence.
+ */
+function PatternLine({ grammar, withAnswer }: { grammar: PrepositionGrammar; withAnswer: boolean }) {
+  const preps = new Set(prepositionParts(grammar).map((part) => part.prep));
+  const words = grammar.pattern.split(/(\s+)/);
+  return (
+    <p data-testid="grammar" data-variant="preposition" className="text-ink-soft">
+      <span data-testid="pattern" lang={LANG.tag} className="font-bold text-ink">
+        {words.map((word, i) =>
+          preps.has(word) ? (
+            <mark key={i} className="rounded-chip bg-sun px-1 text-ink">
+              {word}
+            </mark>
+          ) : (
+            word
+          ),
+        )}
+      </span>
+      {withAnswer && (
+        <>
+          {" "}
+          <span className="whitespace-nowrap">
+            {"· "}
+            <span lang={LANG.tag} className="font-bold text-ink">
+              {pairAnswer(grammar)}
+            </span>
+          </span>
+        </>
+      )}
     </p>
   );
 }

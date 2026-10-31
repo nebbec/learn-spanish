@@ -310,10 +310,10 @@ describe("form and phrase cards", () => {
 
   it("reject a content or glue card with a form or phrase id", () => {
     expect(errorsFor(card("ir-go", (c) => (c.id = "ir-form-yo")))).toEqual([
-      "card ir-form-yo.id: a content card cannot have a form, phrase or case id",
+      "card ir-form-yo.id: a content card cannot have a form, phrase, case, pair or gap id",
     ]);
     expect(errorsFor(card("de-of", (c) => (c.id = "phrase-of")))).toEqual([
-      "card phrase-of.id: a glue card cannot have a form, phrase or case id",
+      "card phrase-of.id: a glue card cannot have a form, phrase, case, pair or gap id",
     ]);
   });
 
@@ -659,12 +659,108 @@ describe("German fixture deck", () => {
         "card case-i-see-the-man.grammar: must be an object for a case card",
       ]);
       expect(errorsDe(de("mit-with", (c) => (c.id = "case-with")))).toEqual([
-        "card case-with.id: a glue card cannot have a form, phrase or case id",
+        "card case-with.id: a glue card cannot have a form, phrase, case, pair or gap id",
       ]);
+    });
+
+    it("a pair card with a bad id, part of speech, answer, image or grammar", () => {
+      expect(errorsDe(de("pair-warten-auf", (c) => (c.id = "pair-warten")))).toEqual([
+        'card pair-warten.id: a pair card\'s id must be "pair-" and the verb and preposition',
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => (c.pos = "verb"))).length).toBeGreaterThan(0);
+      expect(errorsDe(de("pair-warten-auf", (c) => (c.target = "auf + Dat")))).toEqual([
+        'card pair-warten-auf.target: must be "auf + Akk" for a pair card',
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => (c.image = "/deck-de/img/warten-wait.webp")))).toEqual([
+        "card pair-warten-auf.image: must be null for a pair card",
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => (c.en = "to wait [for]")))).toEqual([
+        "card pair-warten-auf.en: a pair prompt must not contain square brackets",
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => ((c.grammar as Loose).case = "gen")))).toEqual([
+        'card pair-warten-auf.grammar.case: must be "akk", "dat" or "nom"',
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => ((c.grammar as Loose).pattern = "jemanden erwarten")))).toEqual([
+        'card pair-warten-auf.grammar.pattern: must say the preposition "auf"',
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => delete (c.grammar as Loose).pattern))).toEqual([
+        "card pair-warten-auf.grammar.pattern: missing",
+      ]);
+      expect(errorsDe(de("pair-warten-auf", (c) => (c.grammar = null)))).toEqual([
+        "card pair-warten-auf.grammar: must be an object for a pair card",
+      ]);
+      expect(errorsDe(de("mit-with", (c) => (c.id = "pair-mit-with")))).toEqual([
+        "card pair-mit-with.id: a glue card cannot have a form, phrase, case, pair or gap id",
+      ]);
+    });
+
+    it("an either item's answer, and a nominative only after als", () => {
+      const either = (c: Loose) => {
+        c.id = "pair-erzaehlen-von-ueber";
+        c.target = "von + Dat / über + Akk";
+        c.grammar = { verb: "erzählen", objects: "jemandem", prep: "von / über", case: "dat / akk", pattern: "jemandem von etwas / über etwas erzählen" };
+      };
+      expect(errorsDe(de("pair-warten-auf", either))).toEqual([]);
+      expect(errorsDe(de("pair-warten-auf", (c) => (either(c), ((c.grammar as Loose).case = "dat"))))).toEqual([
+        'card pair-erzaehlen-von-ueber.grammar.case: must name one case for each preposition, joined by " / "',
+      ]);
+      const als = (kase: string) => (c: Loose) => {
+        c.id = "pair-gelten-als";
+        c.target = kase === "nom" ? "als + Nom" : "als + Akk";
+        c.grammar = { verb: "gelten", objects: null, prep: "als", case: kase, pattern: "als etwas gelten" };
+      };
+      expect(errorsDe(de("pair-warten-auf", als("nom")))).toEqual([]);
+      expect(errorsDe(de("pair-warten-auf", als("akk")))).toEqual([]);
+      expect(errorsDe(de("pair-warten-auf", (c) => ((c.grammar as Loose).case = "nom", (c.target = "auf + Nom"))))).toEqual([
+        'card pair-warten-auf.grammar.case: "nom" goes with "als" only',
+      ]);
+    });
+
+    it("a gap card whose sentence does not mark its answer as one blank", () => {
+      const sentence = (text: string) => (c: Loose) => ((c.example as Loose).target = text);
+      expect(errorsDe(de("gap-warten-auf", sentence("Ich habe auf die U-Bahn gewartet.")))).toEqual([
+        "card gap-warten-auf.example.target: a gap card's sentence must mark exactly one blanked span in [square brackets]",
+      ]);
+      expect(errorsDe(de("gap-warten-auf", sentence("Ich habe [auf] [die] U-Bahn gewartet.")))).toEqual([
+        "card gap-warten-auf.example.target: a gap card's sentence must mark exactly one blanked span in [square brackets]",
+      ]);
+      expect(errorsDe(de("gap-warten-auf", sentence("Ich habe [auf] die U-Bahn gewartet.")))).toEqual([
+        "card gap-warten-auf.example.target: the blanked span must be the card's answer",
+      ]);
+      expect(errorsDe(de("gap-warten-auf", (c) => (sentence("Ich habe [die U-Bahn] gewartet.")(c), (c.target = "die U-Bahn"))))).toEqual([
+        "card gap-warten-auf.example.target: the blanked span must start with the preposition (auf) or a contraction of it",
+      ]);
+      // A contraction stands for its preposition: zum is zu dem, am an dem.
+      expect(errorsDe(de("gap-gratulieren-zu"))).toEqual([]);
+      expect(errorsDe(de("pair-warten-auf", (c) => sentence("Ich warte [auf] den Bus.")(c)))).toEqual([
+        "card pair-warten-auf.example.target: must not contain square brackets",
+      ]);
+    });
+
+    it("a gap card that does not require its pair card", () => {
+      const deck = structuredClone(rawDe) as unknown as { cards: Loose[] };
+      const gap = deck.cards.find((c) => c.id === "gap-warten-auf")!;
+      gap.requires = [];
+      expect(validateDeck(deck, "de")).toEqual({
+        ok: false,
+        errors: ["card gap-warten-auf.requires: a gap card must require its pair card (same verb and preposition)"],
+      });
+      gap.requires = ["pair-gratulieren-zu"];
+      expect(validateDeck(deck, "de").ok).toBe(false);
+      // The pair card must come first, as every required card must.
+      gap.requires = ["pair-warten-auf"];
+      const pair = deck.cards.findIndex((c) => c.id === "pair-warten-auf");
+      deck.cards.push(...deck.cards.splice(pair, 1));
+      expect(validateDeck(deck, "de")).toEqual({
+        ok: false,
+        errors: ['card gap-warten-auf.requires: "pair-warten-auf" must come earlier in the file'],
+      });
     });
 
     it("a case card in a Spanish deck, and a Spanish region in a German one", () => {
       expect(errorsFor(de("case-i-see-the-man"))).toContain('card case-i-see-the-man.kind: "case" is not a kind of a "es" deck');
+      expect(errorsFor(de("pair-warten-auf"))).toContain('card pair-warten-auf.kind: "pair" is not a kind of a "es" deck');
+      expect(errorsFor(de("gap-warten-auf"))).toContain('card gap-warten-auf.kind: "gap" is not a kind of a "es" deck');
       expect(errorsDe(de("januar-january", (c) => (c.regional = { where: "Spain", text: "enero" })))).toEqual([
         "card januar-january.regional.where: must be Austria or Switzerland",
       ]);

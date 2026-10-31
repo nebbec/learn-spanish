@@ -7,3 +7,4 @@ export { GrammarStrip, formPerson, caseChange, type FormPerson } from "./Grammar
 export { splitGluePrompt, type GluePrompt } from "./gluePrompt";
 export { CardExtras, withTrick, type CardExtrasProps, type ExtrasStore } from "./CardExtras";
 export { TipScreen, TipBody, TipButton, type TipScreenProps } from "./Tip";
+export { autoplayClip, blankCount } from "./prepositionFaces";

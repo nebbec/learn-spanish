@@ -6,6 +6,7 @@ import { LANG } from "@/lang";
 import type { Card } from "@/lib/deck";
 import type { Direction } from "@/lib/store";
 import { splitGluePrompt } from "./gluePrompt";
+import { GapSentence, PairPrompt, prepositionGrammar } from "./prepositionFaces";
 
 /** How far down, in CSS pixels, a drag must travel to count as a swipe. */
 export const SWIPE_DISTANCE = 40;
@@ -69,7 +70,17 @@ export function CardFront({ card, direction = "forward", onReveal }: CardFrontPr
       className="flex min-h-0 w-full flex-1 touch-none select-none flex-col items-center gap-4 rounded-card border-2 border-line bg-surface p-6 text-center shadow-card"
     >
       {direction === "reverse" ? (
-        <ReverseFace card={card} />
+        card.kind === "pair" ? (
+          <PairReverseFace card={card} />
+        ) : card.kind === "gap" ? (
+          <GapReverseFace card={card} />
+        ) : (
+          <ReverseFace card={card} />
+        )
+      ) : card.kind === "pair" ? (
+        <PairFace card={card} />
+      ) : card.kind === "gap" ? (
+        <GapFace card={card} />
       ) : card.kind === "glue" || card.kind === "case" ? (
         <GlueFace card={card} />
       ) : card.kind === "phrase" ? (
@@ -125,6 +136,58 @@ function PhraseFace({ card }: { card: Card }) {
       </span>
       <Hint hint={card.hint} />
       <SayIt card={card} />
+    </span>
+  );
+}
+
+/** A pair card: the verb and its objects with a blank for the preposition, and the item's gloss under it. */
+function PairFace({ card }: { card: Card }) {
+  const grammar = prepositionGrammar(card);
+  return (
+    <span className="flex flex-1 flex-col items-center justify-center gap-3">
+      {grammar && <PairPrompt grammar={grammar} />}
+      <span data-testid="gloss" className="text-lg text-ink-soft">
+        {card.en}
+      </span>
+      <Hint hint={card.hint} />
+      <SayIt card={card} />
+    </span>
+  );
+}
+
+/** A gap card: its sentence with one blank line per blanked word, and the sentence's English under it. */
+function GapFace({ card }: { card: Card }) {
+  return (
+    <span className="flex flex-1 flex-col items-center justify-center gap-3">
+      <GapSentence sentence={card.example.target} blank testId="prompt" className="font-display text-2xl font-bold leading-snug" />
+      <span data-testid="sentence-en" className="text-lg text-ink-soft">
+        {card.en}
+      </span>
+      <Hint hint={card.hint} />
+      <SayIt card={card} />
+    </span>
+  );
+}
+
+/** A pair card in Reverse: the gloss first, the whole pattern on the back. */
+function PairReverseFace({ card }: { card: Card }) {
+  return (
+    <span className="flex flex-1 flex-col items-center justify-center gap-3">
+      <span data-testid="prompt" className="font-display text-prompt font-bold">
+        {card.en}
+      </span>
+      <Hint hint={card.hint} />
+      <span className="text-ink-soft">How does it go in {LANG.language}?</span>
+    </span>
+  );
+}
+
+/** A gap card in Reverse: the whole sentence, its gap filled in, to understand. */
+function GapReverseFace({ card }: { card: Card }) {
+  return (
+    <span className="flex flex-1 flex-col items-center justify-center gap-3">
+      <GapSentence sentence={card.example.target} blank={false} testId="prompt" className="font-display text-2xl font-bold leading-snug" />
+      <span className="text-ink-soft">What does it mean?</span>
     </span>
   );
 }

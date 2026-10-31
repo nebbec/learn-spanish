@@ -395,6 +395,134 @@
       ],
       "tip": "tip-accusative",
       "why": null
+    },
+    {
+      "id": "pair-warten-auf",
+      "rank": 121,
+      "kind": "pair",
+      "pos": "preposition",
+      "target": "auf + Akk",
+      "en": "to wait for",
+      "hint": null,
+      "grammar": {
+        "verb": "warten",
+        "objects": null,
+        "prep": "auf",
+        "case": "akk",
+        "pattern": "auf jemanden warten"
+      },
+      "example": {
+        "target": "Ich warte auf den Bus.",
+        "en": "I'm waiting for the bus."
+      },
+      "regional": null,
+      "trick": "You wait OFF your feet: auf.",
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/pair-warten-auf.word.mp3",
+        "sentence": "/deck-de/audio/pair-warten-auf.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "pair-gratulieren-zu",
+      "rank": 1800,
+      "kind": "pair",
+      "pos": "preposition",
+      "target": "zu + Dat",
+      "en": "to congratulate someone on",
+      "hint": null,
+      "grammar": {
+        "verb": "gratulieren",
+        "objects": "jemandem",
+        "prep": "zu",
+        "case": "dat",
+        "pattern": "jemandem zu etwas gratulieren"
+      },
+      "example": {
+        "target": "Ich gratuliere dir zu deinem neuen Job.",
+        "en": "I congratulate you on your new job."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/pair-gratulieren-zu.word.mp3",
+        "sentence": "/deck-de/audio/pair-gratulieren-zu.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "gap-warten-auf",
+      "rank": 121,
+      "kind": "gap",
+      "pos": "preposition",
+      "target": "auf die",
+      "en": "I waited twenty minutes for the subway today.",
+      "hint": null,
+      "grammar": {
+        "verb": "warten",
+        "objects": null,
+        "prep": "auf",
+        "case": "akk",
+        "pattern": "auf jemanden warten"
+      },
+      "example": {
+        "target": "Zwanzig Minuten habe ich heute [auf die] U-Bahn gewartet.",
+        "en": "I waited twenty minutes for the subway today."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/gap-warten-auf.word.mp3",
+        "sentence": "/deck-de/audio/gap-warten-auf.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [
+        "pair-warten-auf"
+      ],
+      "tip": null,
+      "why": null
+    },
+    {
+      "id": "gap-gratulieren-zu",
+      "rank": 1800,
+      "kind": "gap",
+      "pos": "preposition",
+      "target": "zum",
+      "en": "We congratulate you on your birthday.",
+      "hint": null,
+      "grammar": {
+        "verb": "gratulieren",
+        "objects": "jemandem",
+        "prep": "zu",
+        "case": "dat",
+        "pattern": "jemandem zu etwas gratulieren"
+      },
+      "example": {
+        "target": "Wir gratulieren dir [zum] Geburtstag.",
+        "en": "We congratulate you on your birthday."
+      },
+      "regional": null,
+      "trick": null,
+      "image": null,
+      "audio": {
+        "word": "/deck-de/audio/gap-gratulieren-zu.word.mp3",
+        "sentence": "/deck-de/audio/gap-gratulieren-zu.sentence.mp3"
+      },
+      "unit": null,
+      "requires": [
+        "pair-gratulieren-zu"
+      ],
+      "tip": null,
+      "why": null
     }
   ]
 }

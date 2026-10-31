@@ -1,20 +1,26 @@
 // Card and deck types. See docs/design.md, "Card data" and "Learning path", and
 // docs/german.md, "Card data" (deck format 3: `target`, `regional`, `lang`, German
-// grammar and the `case` kind).
+// grammar and the `case` kind), and "Verbs with prepositions" (the `pair` and `gap` kinds).
 
 import type { LangCode } from "../../lang/types";
 
 export type { LangCode } from "../../lang/types";
 
-/** `form` and `phrase` came with the learning path (deck format 2); `case` with German (format 3), German only. */
-export const CARD_KINDS = ["content", "glue", "form", "phrase", "case"] as const;
+/**
+ * `form` and `phrase` came with the learning path (deck format 2); `case` with German (format 3), German only;
+ * `pair` and `gap` with the verbs with prepositions (DE20), German only.
+ */
+export const CARD_KINDS = ["content", "glue", "form", "phrase", "case", "pair", "gap"] as const;
 export type CardKind = (typeof CARD_KINDS)[number];
 
 /** The kinds a deck of each language may hold. */
 export const KINDS_BY_LANG: Readonly<Record<LangCode, readonly CardKind[]>> = {
   es: ["content", "glue", "form", "phrase"],
-  de: ["content", "glue", "form", "phrase", "case"],
+  de: ["content", "glue", "form", "phrase", "case", "pair", "gap"],
 };
+
+/** The kinds of a verb with a preposition (German only): the pair card and the gap card. */
+export const PREPOSITION_KINDS = ["pair", "gap"] as const;
 
 /** The kinds the draft pass writes from the word list, one word at a time. */
 export const WORD_CARD_KINDS = ["content", "glue"] as const;
@@ -103,6 +109,34 @@ export interface CaseGrammar {
   from: string;
 }
 
+/** The case after a verb's preposition: `als` alone takes the nominative (gelten als + Nom). */
+export const PREPOSITION_CASES = ["akk", "dat", "nom"] as const;
+export type PrepositionCase = (typeof PREPOSITION_CASES)[number];
+
+/** How a pair card's answer names a case: "auf + Akk". */
+export const PREPOSITION_CASE_LABELS: Readonly<Record<PrepositionCase, string>> = { akk: "Akk", dat: "Dat", nom: "Nom" };
+
+/**
+ * A pair or gap card's grammar: one item of the list (docs/german.md, "Verbs with prepositions"),
+ * a verb, a preposition and a meaning. An `either` item (the prepositions are interchangeable)
+ * holds both in `prep` and `case`, joined by " / " as the list does: "von / über", "dat / akk".
+ */
+export interface PrepositionGrammar {
+  /** The infinitive, `sich` written out: "warten", "sich freuen". */
+  verb: string;
+  /** The verb's own objects, spelled out ("jemandem"), or null. Never the preposition's object. */
+  objects: string | null;
+  /** "auf", or for an either item "von / über". */
+  prep: string;
+  /** "akk", or for an either item "dat / akk", in the order of `prep`. */
+  case: PrepositionCase | `${PrepositionCase} / ${PrepositionCase}`;
+  /**
+   * The whole pattern as said, with the preposition's object: "auf jemanden warten",
+   * "sich an jemanden wenden". The reveal's strip shows it and the pair card's word clip says it.
+   */
+  pattern: string;
+}
+
 export interface CardExample {
   /** The sentence in the language being learned. */
   target: string;
@@ -130,7 +164,8 @@ interface CardBase {
   /**
    * Stable slug, e.g. `estar-be-state`. Progress is keyed on this. A form card's is
    * `<verb>-form-<person>` (or `haber-form-hay`); a phrase card's is `phrase-` and one to
-   * four English words; a case card's `case-` and one to four English words.
+   * four English words; a case card's `case-` and one to four English words; a pair or gap
+   * card's `pair-` or `gap-` and the verb and preposition (`pair-warten-auf`).
    */
   id: string;
   /** Frequency rank of the word. Two meanings of one word share a rank; a phrase takes its rarest word's. */
@@ -141,13 +176,16 @@ interface CardBase {
    * A Spanish form card's is its form (`soy`); a German one's has its pronoun (`ich bin`).
    */
   target: string;
-  /** The English prompt. Glue and case cards mark the target in square brackets. */
+  /**
+   * The English prompt. Glue and case cards mark the target in square brackets. A pair card's is the
+   * item's gloss ("to wait for"); a gap card's the English of its sentence.
+   */
   en: string;
   hint: string | null;
   example: CardExample;
   /** The regional footnote, or null. */
   regional: Regional | null;
-  /** Null only on form, phrase and case cards. */
+  /** Null only on form, phrase, case, pair and gap cards. */
   trick: string | null;
   /** Path to the character still. Required for content and form cards (a form card's is its verb's), null otherwise. */
   image: string | null;
@@ -156,8 +194,8 @@ interface CardBase {
 
 /** The grammar each language gives a part of speech. */
 interface GrammarByLang {
-  es: { noun: NounGrammar; verb: VerbGrammar; adjective: AdjectiveGrammar; case: never };
-  de: { noun: GermanNounGrammar; verb: GermanVerbGrammar; adjective: null; case: CaseGrammar };
+  es: { noun: NounGrammar; verb: VerbGrammar; adjective: AdjectiveGrammar; case: never; preposition: never };
+  de: { noun: GermanNounGrammar; verb: GermanVerbGrammar; adjective: null; case: CaseGrammar; preposition: PrepositionGrammar };
 }
 
 type DraftCardIn<L extends LangCode> = CardBase &
@@ -166,7 +204,8 @@ type DraftCardIn<L extends LangCode> = CardBase &
     | { pos: "verb"; grammar: GrammarByLang[L]["verb"] }
     | { pos: "adjective"; grammar: GrammarByLang[L]["adjective"] }
     | { pos: "determiner" | "pronoun"; grammar: GrammarByLang[L]["case"] | null }
-    | { pos: Exclude<PartOfSpeech, "noun" | "verb" | "adjective" | "determiner" | "pronoun">; grammar: null }
+    | { pos: "preposition"; grammar: GrammarByLang[L]["preposition"] | null }
+    | { pos: Exclude<PartOfSpeech, "noun" | "verb" | "adjective" | "determiner" | "pronoun" | "preposition">; grammar: null }
   );
 
 /**

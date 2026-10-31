@@ -12,6 +12,10 @@ import {
   GERMAN_NOUN_ARTICLES,
   KINDS_BY_LANG,
   PARTS_OF_SPEECH,
+  PREPOSITION_CASE_LABELS,
+  PREPOSITION_CASES,
+  PREPOSITION_KINDS,
+  type PrepositionCase,
   REGIONS,
   type Card,
   type Deck,
@@ -31,6 +35,10 @@ export const FORM_IDS: Readonly<Record<LangCode, RegExp>> = { es: FORM_ID, de: G
 export const PHRASE_ID = /^phrase(-[a-z0-9]+){1,4}$/;
 /** `case-` and one to four English words of the prompt (German only). */
 export const CASE_ID = /^case(-[a-z0-9]+){1,4}$/;
+/** `pair-` and the item's verb and preposition, two to six words (`pair-warten-auf`, `pair-sich-freuen-auf`). German only. */
+export const PAIR_ID = /^pair(-[a-z0-9]+){2,6}$/;
+/** `gap-` and the same words as its pair card (`gap-warten-auf`). German only. */
+export const GAP_ID = /^gap(-[a-z0-9]+){2,6}$/;
 const TIP_ID = /^tip(-[a-z0-9]+)+$/;
 const BRACKETED = /\[[^\[\]]+\]/g;
 
@@ -115,6 +123,10 @@ function checkGrammar(c: Checker, card: Rec, lang: LangCode) {
 
   if (card.kind === "case" && lang === "de") {
     checkCaseGrammar(c, card);
+    return;
+  }
+  if (isPrepositionKind(card.kind) && lang === "de") {
+    checkPrepositionGrammar(c, card);
     return;
   }
   if (!shaped.includes(pos as string)) {
@@ -228,6 +240,121 @@ function checkCaseGrammar(c: Checker, card: Rec) {
   c.text(grammar, "from", "grammar");
 }
 
+function isPrepositionKind(kind: unknown): kind is "pair" | "gap" {
+  return PREPOSITION_KINDS.includes(kind as never);
+}
+
+/** Contractions of a preposition and the article, each with its preposition: a gap card may blank one (`zum`). */
+const CONTRACTIONS: Readonly<Record<string, string>> = {
+  am: "an",
+  ans: "an",
+  aufs: "auf",
+  beim: "bei",
+  durchs: "durch",
+  fürs: "für",
+  hinterm: "hinter",
+  hinters: "hinter",
+  im: "in",
+  ins: "in",
+  überm: "über",
+  übers: "über",
+  ums: "um",
+  unterm: "unter",
+  unters: "unter",
+  vom: "von",
+  vorm: "vor",
+  vors: "vor",
+  zum: "zu",
+  zur: "zu",
+};
+
+/** An item's prepositions and cases, paired up: one for most items, two for an either item ("von / über"). */
+export function prepositionParts(grammar: { prep: string; case: string }): { prep: string; case: PrepositionCase }[] {
+  const preps = grammar.prep.split(" / ").map((p) => p.trim());
+  const cases = grammar.case.split(" / ").map((p) => p.trim());
+  return preps.map((prep, i) => ({ prep, case: cases[i] as PrepositionCase }));
+}
+
+/** A pair card's answer: "auf + Akk", or for an either item "von + Dat / über + Akk". */
+export function pairAnswer(grammar: { prep: string; case: string }): string {
+  return prepositionParts(grammar)
+    .map((part) => `${part.prep} + ${PREPOSITION_CASE_LABELS[part.case] ?? part.case}`)
+    .join(" / ");
+}
+
+/** A pair or gap card's grammar: `{ verb, objects, prep, case, pattern }`. */
+function checkPrepositionGrammar(c: Checker, card: Rec) {
+  const { grammar } = card;
+  if (!isRecord(grammar)) {
+    c.fail("grammar", `must be an object for a ${card.kind} card`);
+    return;
+  }
+  c.fields(grammar, ["verb", "objects", "prep", "case", "pattern"], "grammar");
+  c.text(grammar, "verb", "grammar");
+  if ("objects" in grammar && grammar.objects !== null && !isText(grammar.objects)) {
+    c.fail("grammar.objects", "must be a non-empty string or null");
+  }
+  c.text(grammar, "prep", "grammar");
+  c.text(grammar, "pattern", "grammar");
+  if (!isText(grammar.prep) || typeof grammar.case !== "string") {
+    if ("case" in grammar && typeof grammar.case !== "string") c.fail("grammar.case", 'must be "akk", "dat" or "nom"');
+    return;
+  }
+  const preps = grammar.prep.split(" / ");
+  const cases = grammar.case.split(" / ");
+  if (preps.length > 2 || preps.some((p) => !isText(p) || p.trim() !== p)) {
+    c.fail("grammar.prep", 'must be one preposition, or two joined by " / "');
+    return;
+  }
+  if (cases.length !== preps.length) {
+    c.fail("grammar.case", "must name one case for each preposition, joined by \" / \"");
+    return;
+  }
+  let casesOk = true;
+  for (const { prep, case: kase } of prepositionParts({ prep: grammar.prep, case: grammar.case })) {
+    if (!PREPOSITION_CASES.includes(kase)) {
+      c.fail("grammar.case", 'must be "akk", "dat" or "nom"');
+      casesOk = false;
+    } else if (kase === "nom" && prep !== "als") {
+      c.fail("grammar.case", '"nom" goes with "als" only');
+    } else if (kase === "dat" && prep === "als") {
+      c.fail("grammar.case", '"als" takes "nom" or "akk"');
+    }
+    if (isText(grammar.pattern) && !grammar.pattern.split(/\s+/).includes(prep)) {
+      c.fail("grammar.pattern", `must say the preposition "${prep}"`);
+    }
+  }
+  if (card.kind === "pair" && casesOk && isText(card.target)) {
+    const expected = pairAnswer({ prep: grammar.prep, case: grammar.case });
+    if (card.target !== expected) c.fail("target", `must be "${expected}" for a pair card`);
+  }
+}
+
+/**
+ * A gap card's example marks its blank in [square brackets]: exactly one span, the card's answer,
+ * starting with one of the item's prepositions or a contraction of it (`[auf die]`, `[zum]`).
+ */
+function checkGapExample(c: Checker, card: Rec) {
+  const example = card.example;
+  if (!isRecord(example) || !isText(example.target)) return;
+  const spans = example.target.match(BRACKETED) ?? [];
+  const stray = example.target.replace(BRACKETED, "").match(/[\[\]]/) !== null;
+  if (spans.length !== 1 || stray) {
+    c.fail("example.target", "a gap card's sentence must mark exactly one blanked span in [square brackets]");
+    return;
+  }
+  const span = spans[0].slice(1, -1);
+  if (isText(card.target) && span !== card.target) c.fail("example.target", "the blanked span must be the card's answer");
+  const grammar = card.grammar;
+  if (isRecord(grammar) && isText(grammar.prep) && typeof grammar.case === "string") {
+    const preps = prepositionParts({ prep: grammar.prep, case: grammar.case }).map((p) => p.prep);
+    const first = span.split(/\s+/)[0].toLowerCase();
+    if (!preps.includes(first) && !preps.includes(CONTRACTIONS[first])) {
+      c.fail("example.target", `the blanked span must start with the preposition (${preps.join(" or ")}) or a contraction of it`);
+    }
+  }
+}
+
 /** The rules that depend on the kind: id, part of speech, prompt, image, trick, form. */
 function checkKind(c: Checker, card: Rec, lang: LangCode) {
   const { kind } = card;
@@ -258,8 +385,18 @@ function checkKind(c: Checker, card: Rec, lang: LangCode) {
     if ("pos" in card && !CASE_PARTS_OF_SPEECH.includes(card.pos as never)) {
       c.fail("pos", 'must be "determiner" or "pronoun" for a case card');
     }
+  } else if (kind === "pair" || kind === "gap") {
+    if (id && !(kind === "pair" ? PAIR_ID : GAP_ID).test(id)) {
+      c.fail("id", `a ${kind} card's id must be "${kind}-" and the verb and preposition`);
+    }
+    if ("pos" in card && card.pos !== "preposition") c.fail("pos", `must be "preposition" for a ${kind} card`);
+    const example = isRecord(card.example) && isText(card.example.target) ? card.example.target : null;
+    if (kind === "gap") checkGapExample(c, card);
+    else if (example && /[\[\]]/.test(example)) c.fail("example.target", "must not contain square brackets");
   } else {
-    if (formIdPattern.test(id) || PHRASE_ID.test(id) || CASE_ID.test(id)) c.fail("id", `a ${kind} card cannot have a form, phrase or case id`);
+    if (formIdPattern.test(id) || PHRASE_ID.test(id) || CASE_ID.test(id) || PAIR_ID.test(id) || GAP_ID.test(id)) {
+      c.fail("id", `a ${kind} card cannot have a form, phrase, case, pair or gap id`);
+    }
     if (card.pos === "phrase") c.fail("pos", `cannot be "phrase" for a ${kind} card`);
     c.text(card, "trick");
   }
@@ -482,6 +619,7 @@ export function validateDeck(input: unknown, expected?: LangCode): Validation<De
 
   // References: checked only once the card's own fields have the right types.
   const allIds = new Set(cards.map((card) => (isRecord(card) ? card.id : undefined)));
+  const byId = new Map(cards.filter(isRecord).map((card) => [card.id, card]));
   const earlier = new Set<unknown>();
   cards.forEach((card, index) => {
     if (!isRecord(card)) return;
@@ -503,10 +641,19 @@ export function validateDeck(input: unknown, expected?: LangCode): Validation<De
         else if (!earlier.has(required)) errors.push(`card ${id}.requires: "${required}" must come earlier in the file`);
       }
     }
+    if (card.kind === "gap" && Array.isArray(card.requires) && !card.requires.some((required) => isPairOf(byId.get(required), card))) {
+      errors.push(`card ${id}.requires: a gap card must require its pair card (same verb and preposition)`);
+    }
     earlier.add(card.id);
   });
 
   return errors.length ? { ok: false, errors } : { ok: true, value: input as unknown as Deck };
+}
+
+/** True when `pair` is the pair card of the gap card `gap`: the same verb and preposition. */
+function isPairOf(pair: Rec | undefined, gap: Rec): boolean {
+  if (!pair || pair.kind !== "pair" || !isRecord(pair.grammar) || !isRecord(gap.grammar)) return false;
+  return pair.grammar.verb === gap.grammar.verb && pair.grammar.prep === gap.grammar.prep;
 }
 
 export class DeckError extends Error {
