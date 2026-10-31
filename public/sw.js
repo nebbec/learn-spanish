@@ -27,17 +27,16 @@ const LANGS = {
   de: {
     storage: "learn-german",
     deck: "/deck-de/",
-    // Placeholders until DE14 makes the German lead's under /mascot-de/.
     mascot: [
-      "/mascot/idle.webm",
-      "/mascot/idle.mov",
-      "/mascot/idle.webp",
-      "/mascot/celebrate.webm",
-      "/mascot/celebrate.mov",
-      "/mascot/celebrate.webp",
-      "/mascot/concha.webp",
+      "/mascot-de/idle.webm",
+      "/mascot-de/idle.mov",
+      "/mascot-de/idle.webp",
+      "/mascot-de/celebrate.webm",
+      "/mascot-de/celebrate.mov",
+      "/mascot-de/celebrate.webp",
+      "/mascot-de/brezel.webp",
     ],
-    icons: ["/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"],
+    icons: ["/mascot-de/icon-192.png", "/mascot-de/icon-512.png", "/mascot-de/apple-touch-icon.png"],
   },
 };
 

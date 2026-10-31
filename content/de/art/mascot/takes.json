@@ -1,0 +1,139 @@
+{
+  "note": "Hero mascot takes for the German lead, the Brezel (DE14), made as the concha's are (content/art/mascot/takes.json). npm run mascot -- --lang de re-encodes every take into content/de/art/mascot/takes/ and publishes the two in \"use\" to public/mascot-de/. Raw takes are cached in content/.cache/mascot-de/ and downloaded again from url when missing. A take in use also needs a cutout: Higgsfield’s Video Background Remover run on the raw take (1 credit), which comes back on black.",
+  "use": {
+    "idle": "idle-t2",
+    "celebrate": "celebrate-t4"
+  },
+  "startFrame": {
+    "from": "content/art/cast/brezel-cutout.webp",
+    "cutoutJob": "a1242618-e44c-4c2f-ab26-a2c0a0969231",
+    "upload": "6dd84349-0a1f-4bad-873f-01de624b2d4c",
+    "recipe": "cutout of content/art/de/cast/brezel-front.webp (image_background_remover), 600 px tall, centred, bottom 110 px from the foot of a 1024 px square of #fff8ec",
+    "references": {
+      "note": "side and back panels cropped from content/art/de/cast/brezel-sheet.webp (top row, third and fourth), given as image_references so a full turn shows her faceless back",
+      "side": "302176d3-3d27-4f02-b008-119b40a070e1",
+      "back": "f536c1da-945e-4227-af0f-5cb9c8b7daff"
+    }
+  },
+  "takes": [
+    {
+      "name": "idle-t1",
+      "model": "seedance1_5",
+      "params": {
+        "resolution": "480p",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "start_image": "start frame",
+        "end_image": "start frame"
+      },
+      "job": "54f3c863-9547-4fec-b44b-9e368b0aad48",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_120225_54f3c863-9547-4fec-b44b-9e368b0aad48.mp4",
+      "prompt": "Soft 3D clay-toy stop-motion animation of the Brezel pretzel girl from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid matte plasticine pretzel: the dough loops stay knotted on top of her head the whole time, the little sage-green felt Alpine hat with its lilac feather stays perched on the knot, the white salt crystals stay where they are, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Idle loop: she stands in place breathing gently, her round body rising and squashing softly, she blinks, sways a little from side to side as if humming a happy tune, gives a big warm smile, then settles back into the starting pose. Calm and subtle."
+    },
+    {
+      "name": "idle-t2",
+      "model": "seedance1_5",
+      "params": {
+        "resolution": "480p",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "start_image": "start frame",
+        "end_image": "start frame"
+      },
+      "job": "175485d2-cb2c-4736-a23b-0c0bdf237fc3",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_120224_175485d2-cb2c-4736-a23b-0c0bdf237fc3.mp4",
+      "prompt": "Soft 3D clay-toy stop-motion animation of the Brezel pretzel girl from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid matte plasticine pretzel: the dough loops stay knotted on top of her head the whole time, the little sage-green felt Alpine hat with its lilac feather stays perched on the knot, the white salt crystals stay where they are, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Idle loop: she stands in place breathing gently, her round body rising and squashing softly, she blinks her lashes, glances to one side with a cheeky little grin, gives a tiny happy bounce on her toes, then looks back at the camera and settles into the starting pose. Calm and subtle.",
+      "cutout": {
+        "model": "video_background_remover",
+        "job": "9c0ad5ff-9e7b-4fff-87cf-eb1faecf9956",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_123150_9c0ad5ff-9e7b-4fff-87cf-eb1faecf9956.mp4"
+      }
+    },
+    {
+      "name": "celebrate-t1",
+      "model": "seedance_2_0",
+      "params": {
+        "resolution": "480p",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "start_image": "start frame",
+        "end_image": "start frame",
+        "mode": "fast"
+      },
+      "job": "71a3a190-a5b4-49c8-87d9-2d4d44cd336f",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_120224_71a3a190-a5b4-49c8-87d9-2d4d44cd336f.mp4",
+      "prompt": "Soft 3D clay-toy stop-motion animation of the Brezel pretzel girl from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid matte plasticine pretzel: the dough loops stay knotted on top of her head the whole time, the little sage-green felt Alpine hat with its lilac feather stays perched on the knot, the white salt crystals stay where they are, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Celebration: she does two quick happy hops in place, tiny arms thrown up in joy, eyes squeezed shut with a big open smile, a little twirl of delight, then lands softly with a squash and settles back to the starting pose. Bouncy and cheerful."
+    },
+    {
+      "name": "celebrate-t2",
+      "model": "seedance_2_0",
+      "params": {
+        "resolution": "480p",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "start_image": "start frame",
+        "end_image": "start frame",
+        "mode": "fast"
+      },
+      "job": "ac7d1b02-f02b-4a67-a2d5-b25465dfa569",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_120225_ac7d1b02-f02b-4a67-a2d5-b25465dfa569.mp4",
+      "prompt": "Soft 3D clay-toy stop-motion animation of the Brezel pretzel girl from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid matte plasticine pretzel: the dough loops stay knotted on top of her head the whole time, the little sage-green felt Alpine hat with its lilac feather stays perched on the knot, the white salt crystals stay where they are, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. Celebration: she claps her tiny hands, then jumps up with both arms raised high like cheering at a festival, does a happy little wiggle in the air, lands with a soft squash, beams at the camera and settles back to the starting pose. Bouncy and cheerful."
+    },
+    {
+      "name": "celebrate-t3",
+      "model": "seedance_2_0",
+      "params": {
+        "resolution": "480p",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "start_image": "start frame",
+        "end_image": "start frame",
+        "mode": "fast",
+        "image_references": [
+          "side view",
+          "back view"
+        ]
+      },
+      "job": "959862b4-6855-4b6e-b3ea-2d0010505dca",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_121010_959862b4-6855-4b6e-b3ea-2d0010505dca.mp4",
+      "prompt": "Soft 3D clay-toy stop-motion animation of the Brezel pretzel girl from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid matte plasticine pretzel: the dough loops stay knotted on top of her head the whole time, the little sage-green felt Alpine hat with its lilac feather stays perched on the knot, the white salt crystals stay where they are, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. The other two images show her from the side and from the back: her back is plain baked dough with the pretzel loops and no face, eyes or mouth. Celebration: she does a quick happy hop in place with tiny arms thrown up in joy and a big open smile, then spins all the way around on the spot in one full 360-degree turn, front to side to back to the other side and to the front again, then lands softly with a squash and settles back to the starting pose facing the camera. Bouncy and cheerful."
+    },
+    {
+      "name": "celebrate-t4",
+      "model": "seedance_2_0",
+      "params": {
+        "resolution": "480p",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "start_image": "start frame",
+        "end_image": "start frame",
+        "mode": "fast",
+        "image_references": [
+          "side view",
+          "back view"
+        ]
+      },
+      "job": "1698aa47-f257-4234-ad29-5652e910f783",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_121007_1698aa47-f257-4234-ad29-5652e910f783.mp4",
+      "prompt": "Soft 3D clay-toy stop-motion animation of the Brezel pretzel girl from the image. Static locked-off camera, no zoom, no pan, no cuts; she stays fully in frame. Plain flat warm cream background that never changes, no props, no text. Her body is one solid matte plasticine pretzel: the dough loops stay knotted on top of her head the whole time, the little sage-green felt Alpine hat with its lilac feather stays perched on the knot, the white salt crystals stay where they are, and her size and design never change. She starts and ends in exactly the pose of the image, facing the camera. The other two images show her from the side and from the back: her back is plain baked dough with the pretzel loops and no face, eyes or mouth. Celebration: arms thrown up in joy, eyes squeezed shut with a big smile, she twirls on her feet in one complete full circle, turning right round so we see her side, her faceless back, her other side and her front again, then does a little happy hop and lands softly with a squash, settling back to the starting pose facing the camera. Bouncy and cheerful.",
+      "drop": [
+        [
+          48,
+          53
+        ]
+      ],
+      "dropNote": "Her second turn reverses at frames 48 to 53 (back, side, back again); frame 47 and frame 54 are both her back, so the cut leaves one continuous turn.",
+      "cutout": {
+        "model": "video_background_remover",
+        "job": "fe961c49-fad2-4daf-b022-bc5abfce5ada",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Jh66u8j3pVXPR1OBmHRIa2ERWV/hf_20261022_123150_fe961c49-fad2-4daf-b022-bc5abfce5ada.mp4"
+      }
+    }
+  ]
+}

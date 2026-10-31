@@ -37,9 +37,11 @@ function site(): Record<string, string> {
     "/deck/deck.json": '{"version":1,"cards":[]}',
     "/deck-de/deck.json": '{"version":1,"cards":[],"lang":"de"}',
     "/manifest.webmanifest": "{}",
-    "/icon-192.png": "png",
-    "/icon-512.png": "png",
-    "/apple-touch-icon.png": "png",
+    ...Object.fromEntries(
+      Object.values(LANGS)
+        .flatMap(({ icons }) => [icons.icon192, icons.icon512, icons.apple])
+        .map((file) => [file, "png"]),
+    ),
     [CHUNK]: "main()",
     [LAZY_CHUNK]: "lazy()",
     [CSS]: `@font-face{src:url(../media/nunito-latin.woff2) format("woff2")}`,

@@ -96,6 +96,22 @@ export function loopSeconds(duration, fps) {
   return Math.max(0, duration - 1 / fps);
 }
 
+/**
+ * Whether frame `n` of a take is cut (DE14). A take's `drop` lists frame ranges, first and last
+ * included, counted from 0 in the raw take; the cut-out has the same frames, so one list cuts both.
+ * Used to remove a glitch, such as a turn that goes back on itself, where the frames either side match.
+ */
+export function isDropped(n, drop = []) {
+  return drop.some(([first, last]) => n >= first && n <= last);
+}
+
+/** The ffmpeg filter that cuts a take's dropped frames and closes the gap, or "" when nothing is dropped. */
+export function dropFilter(drop = []) {
+  if (!drop.length) return "";
+  const cut = drop.map(([first, last]) => `between(n\\,${first}\\,${last})`).join("+");
+  return `select='not(${cut})',setpts=N/FRAME_RATE/TB`;
+}
+
 /** Duration in seconds, frame rate and frame size from ffmpeg's banner (`ffmpeg -i file`). */
 export function probe(banner) {
   const d = /Duration: (\d+):(\d+):([\d.]+)/.exec(banner);
@@ -191,6 +207,12 @@ export function checkTakes(record) {
   for (const take of record.takes) {
     if (names.has(take.name)) throw new Error(`Take ${take.name} is listed twice`);
     if (!take.url) throw new Error(`Take ${take.name} has no url`);
+    for (const range of take.drop ?? []) {
+      const [first, last] = range;
+      if (range.length !== 2 || !Number.isInteger(first) || !Number.isInteger(last) || first < 1 || last < first) {
+        throw new Error(`Take ${take.name} drops ${JSON.stringify(range)}; give [first, last] frames, after frame 0, which the loop starts on`);
+      }
+    }
     names.add(take.name);
   }
   for (const kind of ["idle", "celebrate"]) {

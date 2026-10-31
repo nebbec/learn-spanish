@@ -265,7 +265,7 @@ describe("Spanish runs are unchanged", () => {
     expect(voiceOf("de")).toEqual(LANGS.de.voice);
   });
 
-  it("keeps the Spanish mascot files and lets only Spanish write them", () => {
+  it("keeps the Spanish mascot files apart from German's", () => {
     const es = mascotPaths("/repo");
     expect(es).toEqual({
       art: "/repo/content/art/mascot",
@@ -280,9 +280,13 @@ describe("Spanish runs are unchanged", () => {
       still: "/repo/public/mascot/concha.webp",
     });
     expect(sharedMascotFiles("es")).toEqual([]);
-    // German's are the concha's until DE14, so `npm run mascot -- --lang de` refuses.
-    expect(sharedMascotFiles("de")).toHaveLength(7);
-    expect(mascotPaths("/repo", "de").art).toBe("/repo/content/de/art/mascot");
+    // Since DE14 German has the Brezel's own files, so a German run writes none of the concha's.
+    expect(sharedMascotFiles("de")).toEqual([]);
+    const de = mascotPaths("/repo", "de");
+    expect(de.art).toBe("/repo/content/de/art/mascot");
+    expect(de.cutout).toBe("/repo/content/art/cast/brezel-cutout.webp");
+    expect(de.idle.hevc).toBe("/repo/public/mascot-de/idle.mov");
+    expect(de.still).toBe("/repo/public/mascot-de/brezel.webp");
   });
 });
 

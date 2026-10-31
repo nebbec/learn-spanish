@@ -1,9 +1,8 @@
 import type { LangConfig } from "./types";
 
 /**
- * German (docs/german.md). The mascot and the icons are placeholders:
- * the mascot and icons are the Spanish concha's until DE14 makes the German
- * lead's under /mascot-de/. The voice is `sage`, Courtney's pick in DE11's ear test.
+ * German (docs/german.md). The mascot and icons are the Brezel's, under /mascot-de/ (DE14).
+ * The voice is `sage`, Courtney's pick in DE11's ear test.
  */
 export const de: LangConfig = {
   code: "de",
@@ -18,14 +17,14 @@ export const de: LangConfig = {
   publicDeckDir: "public/deck-de",
   // Draft lines for the menu (U3's three states), for Courtney to confirm; their clips (U4) are named by the keys.
   greetings: { hola: "Hallo!", vamos: "Los geht's!", "muy-bien": "Sehr gut!" },
-  // Placeholder until DE14: the concha's files.
+  // DE14: the Brezel, made by `npm run mascot -- --lang de` and `node scripts/make-icons.mjs --lang de`.
   mascot: {
-    idle: { webm: "/mascot/idle.webm", hevc: "/mascot/idle.mov", poster: "/mascot/idle.webp" },
-    celebrate: { webm: "/mascot/celebrate.webm", hevc: "/mascot/celebrate.mov", poster: "/mascot/celebrate.webp" },
-    still: "/mascot/concha.webp",
+    idle: { webm: "/mascot-de/idle.webm", hevc: "/mascot-de/idle.mov", poster: "/mascot-de/idle.webp" },
+    celebrate: { webm: "/mascot-de/celebrate.webm", hevc: "/mascot-de/celebrate.mov", poster: "/mascot-de/celebrate.webp" },
+    still: "/mascot-de/brezel.webp",
   },
-  // Placeholder until DE14: the concha's icons.
-  icons: { version: "2", icon192: "/icon-192.png", icon512: "/icon-512.png", apple: "/apple-touch-icon.png" },
+  // Raised from the concha's "2" so German copies installed before DE14 fetch the Brezel.
+  icons: { version: "3", icon192: "/mascot-de/icon-192.png", icon512: "/mascot-de/icon-512.png", apple: "/mascot-de/apple-touch-icon.png" },
   // DE11: Courtney's pick by ear, sage, with the model and instruction the ear test used (docs/german.md, "Decided in DE11").
   voice: {
     model: "gpt-4o-mini-tts",
