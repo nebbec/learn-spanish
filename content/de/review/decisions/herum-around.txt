@@ -1,0 +1,30 @@
+# herum-around · rank 487 · herum
+#
+# Why it was flagged:
+#   - Example sentence: In English, 'We're driving around the city' usually means driving about inside the city, which is 'in der Stadt herum'; 'um die Stadt herum' means circling or bypassing it, so the learner could take away the wrong meaning. Suggested fix: example.target: Wir laufen um den See herum. example.en: We're walking around the lake.
+# Reviewer's note (not a reason to flag): In speech, the short form 'rum' (um den See rum) is very common, so the editor may want to mention it on the back of the card. The learner should still recall 'herum' as the standard form.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             herum-around
+kind:           content
+pos:            adverb
+target:         herum
+en:             around
+hint:           at the end, as in um den See ...; not um alone
+example.target: Wir laufen um den See herum.
+example.en:     We're walking around the lake.
+regional.where:
+regional.text:
+trick:          HERUM sounds like "hair room": your hair needs room all around your head.
+
+# The draft this file was made from. Do not change it.
+draft: f510ee683e07583f

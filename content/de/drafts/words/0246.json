@@ -1,0 +1,15 @@
+{
+  "rank": 246,
+  "word": "zusammen",
+  "cards": [
+    "zusammen-together"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zusammen-together": "junto-together"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:24.627Z"
+}

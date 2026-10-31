@@ -1,0 +1,21 @@
+{
+  "id": "alle-everything",
+  "rank": 36,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "alles",
+  "en": "[everything] is fine",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ist bei dir alles okay?",
+    "en": "Is everything okay with you?"
+  },
+  "regional": null,
+  "trick": "ALLES sounds like AH-less: everything, nothing less.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/alle-everything.word.mp3",
+    "sentence": "/deck-de/audio/alle-everything.sentence.mp3"
+  }
+}

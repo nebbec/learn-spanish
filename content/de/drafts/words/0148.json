@@ -1,0 +1,15 @@
+{
+  "rank": 148,
+  "word": "Leute",
+  "cards": [
+    "leute-people"
+  ],
+  "skip": null,
+  "sameAs": {
+    "leute-people": "gente-people"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T19:21:20.630Z"
+}

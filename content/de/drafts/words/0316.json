@@ -1,0 +1,15 @@
+{
+  "rank": 316,
+  "word": "bereit",
+  "cards": [
+    "bereit-ready"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bereit-ready": "listo-ready"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:01.485Z"
+}

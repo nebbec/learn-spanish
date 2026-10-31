@@ -1,0 +1,21 @@
+{
+  "id": "sonst-else",
+  "rank": 266,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "sonst",
+  "en": "do you need anything [else]?",
+  "hint": "not noch",
+  "grammar": null,
+  "example": {
+    "target": "Brauchst du sonst noch was?",
+    "en": "Do you need anything else?"
+  },
+  "regional": null,
+  "trick": "SONST sounds like zonst, close to zones: once you've seen these zones, what else is there?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/sonst-else.word.mp3",
+    "sentence": "/deck-de/audio/sonst-else.sentence.mp3"
+  }
+}

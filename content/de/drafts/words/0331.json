@@ -1,0 +1,15 @@
+{
+  "rank": 331,
+  "word": "Wort",
+  "cards": [
+    "wort-word"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wort-word": "palabra-word"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:07.435Z"
+}

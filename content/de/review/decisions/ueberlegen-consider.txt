@@ -1,0 +1,37 @@
+# ueberlegen-consider · rank 754 · überlegen
+#
+# Why it was flagged:
+#   - One right answer: The hint 'think something over' also fits nachdenken (Ich denke darüber nach), a very common verb, so a learner who answers nachdenken could fairly mark themselves right. Suggested fix: hint: think something over, often with mir (ich ___ es mir); not nachdenken
+# Reviewer's note (not a reason to flag): The other card, überlegen meaning "superior", is an adjective and is stressed differently (ü-ber-LE-gen for the verb, which is inseparable). Its own prompt keeps it apart from this one, so it is no problem.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 ueberlegen-consider
+kind:               content
+pos:                verb
+target:             überlegen
+en:                 to consider
+hint:               think something over, often with mir (ich ___ es mir); not nachdenken
+ich:                überlege
+du:                 überlegst
+er:                 überlegt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: überlegt
+example.target:     Ich überlege es mir noch.
+example.en:         I'm still thinking it over.
+regional.where:
+regional.text:
+trick:              ÜBERLEGEN sounds like over-LAY-gen: you lay a thought over and over in your mind to consider it.
+
+# The draft this file was made from. Do not change it.
+draft: 2f7573df517f2f31

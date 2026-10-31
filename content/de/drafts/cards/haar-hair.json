@@ -1,0 +1,25 @@
+{
+  "id": "haar-hair",
+  "rank": 616,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Haar",
+  "en": "hair",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Haare"
+  },
+  "example": {
+    "target": "Deine Haare sind echt schön.",
+    "en": "Your hair is really nice."
+  },
+  "regional": null,
+  "trick": "HAAR sounds almost exactly like English hair, and that is what it means.",
+  "image": "/deck-de/img/haar-hair.webp",
+  "audio": {
+    "word": "/deck-de/audio/haar-hair.word.mp3",
+    "sentence": "/deck-de/audio/haar-hair.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "wieso-why",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Wieso is the casual, chatty why; warum is the standard word that fits everywhere.",
+  "draft": "f28140d73f90d12c",
+  "group": "#184 wieso",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:05.857Z"
+}

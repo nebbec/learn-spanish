@@ -1,0 +1,14 @@
+{
+  "id": "verletzen-injure",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use verletzen for injuring someone or yourself; use wehtun when something hurts.",
+  "draft": "0f3967122dbc54ac",
+  "group": "#504 verletzen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:12.374Z"
+}

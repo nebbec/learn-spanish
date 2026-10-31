@@ -1,0 +1,14 @@
+{
+  "id": "meinen-mean",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use meinen for what a person means; bedeuten for what a word or thing means.",
+  "draft": "bc16139c95eccf99",
+  "group": "#234 meinen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:54.926Z"
+}

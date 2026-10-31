@@ -1,0 +1,14 @@
+{
+  "id": "erlauben-allow",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "87aa1d9df3871eba",
+  "group": "#779 erlauben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:39.146Z"
+}

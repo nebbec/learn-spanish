@@ -1,0 +1,17 @@
+{
+  "id": "darauf-on-it",
+  "rank": 334,
+  "word": "darauf",
+  "draft": "06d5c64c6b434ee1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "on it, on that; to it (with verbs taking auf, as in sich freuen auf); after that",
+    "example": "I'm already looking forward to it."
+  },
+  "note": "In casual speech Germans very often say the short form drauf (Ich freu mich drauf), so a learner who answers drauf has the same word and could be told that on the answer side.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:41.744Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "kumpel-buddy",
+  "rank": 559,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Kumpel",
+  "en": "buddy, pal",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Kumpels"
+  },
+  "example": {
+    "target": "Tom ist mein bester Kumpel.",
+    "en": "Tom is my best buddy."
+  },
+  "regional": null,
+  "trick": "KUMPEL sounds like KOOM-pel, close to come, pal! That's what you say to your buddy.",
+  "image": "/deck-de/img/kumpel-buddy.webp",
+  "audio": {
+    "word": "/deck-de/audio/kumpel-buddy.word.mp3",
+    "sentence": "/deck-de/audio/kumpel-buddy.sentence.mp3"
+  }
+}

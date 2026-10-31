@@ -1,0 +1,37 @@
+# bringen-take · rank 116 · bringen
+#
+# Why it was flagged:
+#   - One right answer: With the hint 'someone or something somewhere', mitnehmen (take along) is also a common right answer, as in 'Kannst du mich zum Bahnhof mitnehmen?', so the prompt has more than one answer. Suggested fix: hint: to a place, as in take you home or take the kids to school (not mitnehmen)
+# Reviewer's note (not a reason to flag): This is a good card to have next to the "to bring" card, because English splits bring and take but German uses bringen for both when something goes to a place.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 bringen-take
+kind:               content
+pos:                verb
+target:             bringen
+en:                 to take
+hint:               to a place, as in take you home or take the kids to school (not mitnehmen)
+ich:                bringe
+du:                 bringst
+er:                 bringt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gebracht
+example.target:     Ich bringe dich nach Hause.
+example.en:         I'll take you home.
+regional.where:
+regional.text:
+trick:              BRINGEN sounds like bringing: Germans bring you home where English says they take you home.
+
+# The draft this file was made from. Do not change it.
+draft: 4c4faaab0674659d

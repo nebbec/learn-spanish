@@ -1,0 +1,17 @@
+{
+  "id": "damals-back-then",
+  "rank": 612,
+  "word": "damals",
+  "draft": "815ba5f8f1ae4056",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "back then, at that time (in the past)",
+    "example": "Back then I was still a child."
+  },
+  "note": "The hint correctly rules out früher (formerly, earlier), the most likely other answer for \"back then\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:19.653Z"
+}

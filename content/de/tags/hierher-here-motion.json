@@ -1,0 +1,14 @@
+{
+  "id": "hierher-here-motion",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use hierher when someone or something moves to here; use hier for where something is.",
+  "draft": "294c3acf66a2b5a5",
+  "group": "#519 hierher",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:40.791Z"
+}

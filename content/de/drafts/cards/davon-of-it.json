@@ -1,0 +1,21 @@
+{
+  "id": "davon-of-it",
+  "rank": 224,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "davon",
+  "en": "Do you want some [of it]?",
+  "hint": "one word",
+  "grammar": null,
+  "example": {
+    "target": "Willst du was davon?",
+    "en": "Do you want some of it?"
+  },
+  "regional": null,
+  "trick": "DAVON, said dah-FON, is da (there) plus von (of, from), so it literally means of that, which is of it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/davon-of-it.word.mp3",
+    "sentence": "/deck-de/audio/davon-of-it.sentence.mp3"
+  }
+}

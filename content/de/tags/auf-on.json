@@ -1,0 +1,14 @@
+{
+  "id": "auf-on",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use auf for on top of a surface; use an for on a side surface, like a picture on a wall.",
+  "draft": "1e437061e2a52a5d",
+  "group": "#25 auf",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:22.487Z"
+}

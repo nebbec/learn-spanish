@@ -1,0 +1,21 @@
+{
+  "id": "euer-your-plural",
+  "rank": 183,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "euer",
+  "en": "[your] dog is really cute",
+  "hint": "talking to two or more friends",
+  "grammar": null,
+  "example": {
+    "target": "Euer Hund ist echt süß.",
+    "en": "Your dog is really cute."
+  },
+  "regional": null,
+  "trick": "EUER sounds like OY-er: shout Oi! at a group of friends and ask whether that dog is yours.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/euer-your-plural.word.mp3",
+    "sentence": "/deck-de/audio/euer-your-plural.sentence.mp3"
+  }
+}

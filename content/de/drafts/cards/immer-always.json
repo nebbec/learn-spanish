@@ -1,0 +1,21 @@
+{
+  "id": "immer-always",
+  "rank": 87,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "immer",
+  "en": "always",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Du kommst immer zu spät.",
+    "en": "You're always late."
+  },
+  "regional": null,
+  "trick": "IMMER sounds like the start of immortal: someone immortal lives always.",
+  "image": "/deck-de/img/immer-always.webp",
+  "audio": {
+    "word": "/deck-de/audio/immer-always.word.mp3",
+    "sentence": "/deck-de/audio/immer-always.sentence.mp3"
+  }
+}

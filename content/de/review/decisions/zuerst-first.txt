@@ -1,0 +1,30 @@
+# zuerst-first · rank 506 · zuerst
+#
+# Why it was flagged:
+#   - One right answer: The hint only rules out the adjective (erste), so the colloquial erst (Erst essen wir...), the more formal zunächst and the list word erstens could also answer 'first, before anything else'. Suggested fix: hint: before anything else, as in first we eat, then...; not erst, erstens or zunächst
+# Reviewer's note (not a reason to flag): Leaving sameAs null is defensible: primero-first most likely shows the ordinal adjective (first place), and this card explicitly excludes the adjective.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             zuerst-first
+kind:           content
+pos:            adverb
+target:         zuerst
+en:             first
+hint:           before anything else, as in first we eat, then...; not erst, erstens or zunächst
+example.target: Zuerst essen wir, dann gehen wir ins Kino.
+example.en:     First we'll eat, then we'll go to the cinema.
+regional.where:
+regional.text:
+trick:          ZUERST sounds like tsoo-AIRST, almost to first: whatever you do zuerst, you do first.
+
+# The draft this file was made from. Do not change it.
+draft: 3d92c6b6d0aea7ac

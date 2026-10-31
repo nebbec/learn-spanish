@@ -1,0 +1,30 @@
+# dort-there · rank 215 · dort
+#
+# Why it was flagged:
+#   - One right answer: The hint's wording "that place over there" points to drüben (over there), a common word in its own right, so a learner could fairly answer drüben or dort drüben instead of dort. Suggested fix: hint: in that place, away from here, not da
+# Reviewer's note (not a reason to flag): In everyday speech da is often used where dort would fit, so keeping "not da" in the hint is useful.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             dort-there
+kind:           content
+pos:            adverb
+target:         dort
+en:             there
+hint:           in that place, away from here, not da
+example.target: Mein Bruder wohnt dort.
+example.en:     My brother lives there.
+regional.where:
+regional.text:
+trick:          DORT rhymes with fort: the fort is over there, far away.
+
+# The draft this file was made from. Do not change it.
+draft: a3b7a9472a781ebf

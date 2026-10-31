@@ -1,0 +1,15 @@
+{
+  "rank": 682,
+  "word": "heilig",
+  "cards": [
+    "heilig-holy"
+  ],
+  "skip": null,
+  "sameAs": {
+    "heilig-holy": "santo-holy"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:22.255Z"
+}

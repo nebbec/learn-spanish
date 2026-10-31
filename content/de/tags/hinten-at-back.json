@@ -1,0 +1,14 @@
+{
+  "id": "hinten-at-back",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use hinten for where something is (at the back); zurück for moving back, hinter before a noun (behind).",
+  "draft": "739f1d76a2d11bf2",
+  "group": "#726 hinten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:54.481Z"
+}

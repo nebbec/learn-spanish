@@ -1,0 +1,15 @@
+{
+  "rank": 533,
+  "word": "bereits",
+  "cards": [
+    "bereits-already"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bereits-already": "ya-already"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:26.657Z"
+}

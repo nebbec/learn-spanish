@@ -1,0 +1,17 @@
+{
+  "id": "rest-rest",
+  "rank": 621,
+  "word": "Rest",
+  "draft": "b1c3eda3864eb7e8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the rest, remainder (what is left over)",
+    "example": "I'll do the rest tomorrow."
+  },
+  "note": "The hint \"what is left\" is useful because it rules out \"the rest\" in the sense of relaxing (die Ruhe, die Pause).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:25.080Z"
+}

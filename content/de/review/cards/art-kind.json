@@ -1,0 +1,17 @@
+{
+  "id": "art-kind",
+  "rank": 386,
+  "word": "Art",
+  "draft": "e6ed05439d0b830c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "kind, sort, type",
+    "example": "What kind of music do you like?"
+  },
+  "note": "die Sorte also means sort, but mostly for products, so with the music hint die Art is clearly the expected answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:00.031Z"
+}

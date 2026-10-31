@@ -1,0 +1,14 @@
+{
+  "id": "waehlen-vote",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "09658c04dda13ee4",
+  "group": "#790 wählen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:03.571Z"
+}

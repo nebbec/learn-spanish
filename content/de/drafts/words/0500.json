@@ -1,0 +1,17 @@
+{
+  "rank": 500,
+  "word": "früher",
+  "cards": [
+    "frueher-earlier",
+    "frueher-used-to"
+  ],
+  "skip": null,
+  "sameAs": {
+    "frueher-earlier": null,
+    "frueher-used-to": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:30.544Z"
+}

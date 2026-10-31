@@ -1,0 +1,17 @@
+{
+  "id": "niemand-nobody",
+  "rank": 217,
+  "word": "niemand",
+  "draft": "d6561ba9de2ffcfe",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "nobody, no one",
+    "example": "Nobody called me."
+  },
+  "note": "The hint \"not keiner\" is needed, because \"Keiner ist zu Hause\" is just as common and correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:06.715Z"
+}

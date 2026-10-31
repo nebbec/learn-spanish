@@ -1,0 +1,14 @@
+{
+  "id": "tanzen-dance",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "31de94963d73e307",
+  "group": "#556 tanzen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:57.882Z"
+}

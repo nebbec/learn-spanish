@@ -1,0 +1,15 @@
+{
+  "rank": 730,
+  "word": "verheiratet",
+  "cards": [
+    "verheiratet-married"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verheiratet-married": "casado-married"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:27.096Z"
+}

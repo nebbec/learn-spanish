@@ -1,0 +1,33 @@
+{
+  "id": "treiben-be-up-to",
+  "rank": 797,
+  "kind": "content",
+  "pos": "verb",
+  "target": "treiben",
+  "en": "to be up to",
+  "hint": "what someone is doing",
+  "grammar": {
+    "present": {
+      "ich": "treibe",
+      "du": "treibst",
+      "er": "treibt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getrieben"
+    }
+  },
+  "example": {
+    "target": "Was treibst du denn hier?",
+    "en": "What are you up to here?"
+  },
+  "regional": null,
+  "trick": "TREIBEN sounds like TRY-ben: what are you trying to do? What are you up to?",
+  "image": "/deck-de/img/treiben-be-up-to.webp",
+  "audio": {
+    "word": "/deck-de/audio/treiben-be-up-to.word.mp3",
+    "sentence": "/deck-de/audio/treiben-be-up-to.sentence.mp3"
+  }
+}

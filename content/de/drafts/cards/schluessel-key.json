@@ -1,0 +1,25 @@
+{
+  "id": "schluessel-key",
+  "rank": 631,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Schlüssel",
+  "en": "key",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Schlüssel"
+  },
+  "example": {
+    "target": "Ich finde meinen Schlüssel nicht.",
+    "en": "I can't find my key."
+  },
+  "regional": null,
+  "trick": "SCHLÜSSEL sounds a bit like shoe-sell: a shoe seller locks up his shop with a key every night.",
+  "image": "/deck-de/img/schluessel-key.webp",
+  "audio": {
+    "word": "/deck-de/audio/schluessel-key.word.mp3",
+    "sentence": "/deck-de/audio/schluessel-key.sentence.mp3"
+  }
+}

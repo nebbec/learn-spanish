@@ -1,0 +1,21 @@
+{
+  "id": "vor-before",
+  "rank": 91,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "vor",
+  "en": "Wash your hands [before] dinner",
+  "hint": "before a noun",
+  "grammar": null,
+  "example": {
+    "target": "Vor dem Essen wäschst du dir die Hände.",
+    "en": "You wash your hands before dinner."
+  },
+  "regional": null,
+  "trick": "VOR sounds like the fore in before: something that comes vor dinner comes before it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/vor-before.word.mp3",
+    "sentence": "/deck-de/audio/vor-before.sentence.mp3"
+  }
+}

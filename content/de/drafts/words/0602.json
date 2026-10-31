@@ -1,0 +1,15 @@
+{
+  "rank": 602,
+  "word": "übernehmen",
+  "cards": [
+    "uebernehmen-take-over"
+  ],
+  "skip": null,
+  "sameAs": {
+    "uebernehmen-take-over": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:49.197Z"
+}

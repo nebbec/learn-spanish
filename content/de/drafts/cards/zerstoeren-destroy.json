@@ -1,0 +1,33 @@
+{
+  "id": "zerstoeren-destroy",
+  "rank": 585,
+  "kind": "content",
+  "pos": "verb",
+  "target": "zerstören",
+  "en": "to destroy",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "zerstöre",
+      "du": "zerstörst",
+      "er": "zerstört"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "zerstört"
+    }
+  },
+  "example": {
+    "target": "Der Sturm hat das Dach zerstört.",
+    "en": "The storm destroyed the roof."
+  },
+  "regional": null,
+  "trick": "ZERSTÖREN sounds like \"tsar stirring\": an angry tsar stirring up a war destroys whole cities.",
+  "image": "/deck-de/img/zerstoeren-destroy.webp",
+  "audio": {
+    "word": "/deck-de/audio/zerstoeren-destroy.word.mp3",
+    "sentence": "/deck-de/audio/zerstoeren-destroy.sentence.mp3"
+  }
+}

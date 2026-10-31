@@ -1,0 +1,14 @@
+{
+  "id": "wirken-take-effect",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9e54299c2f6463e4",
+  "group": "#767 wirken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:19.124Z"
+}

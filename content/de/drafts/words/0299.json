@@ -1,0 +1,17 @@
+{
+  "rank": 299,
+  "word": "dazu",
+  "cards": [
+    "dazu-to-that",
+    "dazu-with-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dazu-to-that": null,
+    "dazu-with-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:55.489Z"
+}

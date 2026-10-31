@@ -1,0 +1,17 @@
+{
+  "rank": 367,
+  "word": "vorbei",
+  "cards": [
+    "vorbei-over",
+    "vorbei-past"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vorbei-over": null,
+    "vorbei-past": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:02.566Z"
+}

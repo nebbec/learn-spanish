@@ -1,0 +1,23 @@
+{
+  "id": "land-countryside",
+  "rank": 372,
+  "word": "Land",
+  "draft": "0c6cda5f10f269de",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "Spelling it lahnt suggests a long a, but Land has a short a and a final t sound (lant), so the trick teaches the wrong vowel.",
+      "fix": "trick: LAND sounds like English land with a t at the end: out in the countryside there is open land everywhere."
+    }
+  ],
+  "back": {
+    "target": "the country, the countryside (as opposed to the city, as in auf dem Land)",
+    "example": "My grandma lives in the country."
+  },
+  "note": "Leaving the plural null is right for the countryside meaning, but the country card for the same word should give die Länder.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:45.067Z"
+}

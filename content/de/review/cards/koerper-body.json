@@ -1,0 +1,17 @@
+{
+  "id": "koerper-body",
+  "rank": 610,
+  "word": "Körper",
+  "draft": "fa80d9823d9da45d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "body",
+    "example": "My whole body hurts."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:12.393Z"
+}

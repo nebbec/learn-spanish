@@ -1,0 +1,21 @@
+{
+  "id": "ausserdem-besides",
+  "rank": 664,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "außerdem",
+  "en": "besides, moreover",
+  "hint": "adds another point, not auch",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe keine Zeit. Außerdem bin ich müde.",
+    "en": "I don't have time. Besides, I'm tired."
+  },
+  "regional": null,
+  "trick": "AUSSERDEM sounds like \"OW, sir, DAME\": the grumpy dame always has one more complaint besides.",
+  "image": "/deck-de/img/ausserdem-besides.webp",
+  "audio": {
+    "word": "/deck-de/audio/ausserdem-besides.word.mp3",
+    "sentence": "/deck-de/audio/ausserdem-besides.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "uhr-clock",
+  "rank": 314,
+  "word": "Uhr",
+  "draft": "31bb074647c6daa1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "clock, watch (timepiece)",
+    "example": "My watch is broken."
+  },
+  "note": "The trick is true as well as memorable, because Uhr and hour both come from Latin hora.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:54.770Z"
+}

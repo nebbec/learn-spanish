@@ -1,0 +1,15 @@
+{
+  "rank": 483,
+  "word": "drauf",
+  "cards": [
+    "drauf-on-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "drauf-on-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:22.451Z"
+}

@@ -1,0 +1,30 @@
+# etwas-somewhat · rank 80 · etwas
+#
+# Why it was flagged:
+#   - One right answer: Somewhat before an adjective can also be given as ziemlich (dictionaries list it for somewhat), and the hint does not rule it out, so a learner could fairly answer ziemlich. Suggested fix: hint: one word, before an adjective; a little, not ziemlich
+# Reviewer's note (not a reason to flag): The example's English could also say "a bit tired", which sounds more natural in English, but somewhat is accurate.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             etwas-somewhat
+kind:           content
+pos:            adverb
+target:         etwas
+en:             somewhat
+hint:           one word, before an adjective; a little, not ziemlich
+example.target: Ich bin heute etwas müde.
+example.en:     I'm somewhat tired today.
+regional.where:
+regional.text:
+trick:          ETWAS sounds like ET was: ET was somewhat tired after his long flight home.
+
+# The draft this file was made from. Do not change it.
+draft: 1a751c889fffddf7

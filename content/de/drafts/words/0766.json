@@ -1,0 +1,15 @@
+{
+  "rank": 766,
+  "word": "Kleid",
+  "cards": [
+    "kleid-dress"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kleid-dress": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:40.308Z"
+}

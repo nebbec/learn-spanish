@@ -1,0 +1,15 @@
+{
+  "rank": 210,
+  "word": "ach",
+  "cards": [
+    "ach-oh"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ach-oh": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:58.473Z"
+}

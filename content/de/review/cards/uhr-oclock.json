@@ -1,0 +1,17 @@
+{
+  "id": "uhr-oclock",
+  "rank": 314,
+  "word": "Uhr",
+  "draft": "b0d53f458318a301",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "o'clock (in time expressions); also clock, watch",
+    "example": "We're meeting at three o'clock."
+  },
+  "note": "The null plural fits because \"Uhr\" meaning o'clock never takes a plural (drei Uhr); the trick's sound link is real, since Uhr and hour both come from Latin hora.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:04.297Z"
+}

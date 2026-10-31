@@ -1,0 +1,30 @@
+# hierher-here-motion · rank 519 · hierher
+#
+# Why it was flagged:
+#   - One right answer: The short adverb her (as in Komm her!) also means here with motion toward the speaker and is very common, so the prompt and hint allow two answers. Suggested fix: hint: to this place, with motion; the long word built on hier, not her
+# Reviewer's note (not a reason to flag): aqui-here is a static here, but Spanish also uses aquí for motion (ven aquí), so its picture works well enough for hierher.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             hierher-here-motion
+kind:           content
+pos:            adverb
+target:         hierher
+en:             here
+hint:           to this place, with motion; the long word built on hier, not her
+example.target: Komm sofort hierher!
+example.en:     Come here right now!
+regional.where:
+regional.text:
+trick:          HIERHER sounds like "here-hair": it is hier (here) plus her (toward me), so it means coming here.
+
+# The draft this file was made from. Do not change it.
+draft: 294c3acf66a2b5a5

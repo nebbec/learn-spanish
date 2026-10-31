@@ -1,0 +1,17 @@
+{
+  "id": "pferd-horse",
+  "rank": 627,
+  "word": "Pferd",
+  "draft": "381c301eea09d00e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "horse",
+    "example": "Can you ride a horse?"
+  },
+  "note": "Ross is common in Swiss and Austrian dialect, but Pferd is the normal standard word there too, so leaving regional as null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:53.247Z"
+}

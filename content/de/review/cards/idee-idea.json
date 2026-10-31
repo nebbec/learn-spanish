@@ -1,0 +1,17 @@
+{
+  "id": "idee-idea",
+  "rank": 339,
+  "word": "Idee",
+  "draft": "c4e7fdfc8b92d67b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "idea",
+    "example": "That is a good idea!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:00.575Z"
+}

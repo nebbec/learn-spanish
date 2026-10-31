@@ -1,0 +1,14 @@
+{
+  "id": "sogar-even",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Sogar only ever means even; selbst can mean even too, but mostly means -self.",
+  "draft": "efa79a9104c1b780",
+  "group": "#381 sogar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:53.441Z"
+}

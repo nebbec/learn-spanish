@@ -1,0 +1,21 @@
+{
+  "id": "darum-thats-why",
+  "rank": 376,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "darum",
+  "en": "I'm tired, [that's why] I'm going home",
+  "hint": "da + um, not deshalb",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin müde, darum gehe ich ins Bett.",
+    "en": "I'm tired, that's why I'm going to bed."
+  },
+  "regional": null,
+  "trick": "DARUM sounds like \"da room\": the room was a mess, that's why I left da room.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/darum-thats-why.word.mp3",
+    "sentence": "/deck-de/audio/darum-thats-why.sentence.mp3"
+  }
+}

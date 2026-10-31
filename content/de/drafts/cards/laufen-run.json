@@ -1,0 +1,33 @@
+{
+  "id": "laufen-run",
+  "rank": 199,
+  "kind": "content",
+  "pos": "verb",
+  "target": "laufen",
+  "en": "to run",
+  "hint": "jog, not rennen (sprint)",
+  "grammar": {
+    "present": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er": "läuft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gelaufen"
+    }
+  },
+  "example": {
+    "target": "Ich laufe jeden Morgen im Park.",
+    "en": "I run in the park every morning."
+  },
+  "regional": null,
+  "trick": "LAUF sounds a bit like lope (LOWF): to lope is to run with long, easy strides.",
+  "image": "/deck-de/img/laufen-run.webp",
+  "audio": {
+    "word": "/deck-de/audio/laufen-run.word.mp3",
+    "sentence": "/deck-de/audio/laufen-run.sentence.mp3"
+  }
+}

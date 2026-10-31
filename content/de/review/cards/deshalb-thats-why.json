@@ -1,0 +1,17 @@
+{
+  "id": "deshalb-thats-why",
+  "rank": 414,
+  "word": "deshalb",
+  "draft": "db6efce3e6fc674c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "therefore, that's why, so (adverb)",
+    "example": "I'm tired, that's why I'm staying at home."
+  },
+  "note": "The hint has to say \"des-\" and exclude deswegen by name because deswegen also starts with des-; it works, but it gives away most of the answer, so the editor may want to keep it short.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:24.022Z"
+}

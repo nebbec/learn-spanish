@@ -1,0 +1,33 @@
+{
+  "id": "wirken-take-effect",
+  "rank": 767,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wirken",
+  "en": "to take effect",
+  "hint": "medicine, a remedy; not funktionieren",
+  "grammar": {
+    "present": {
+      "ich": "wirke",
+      "du": "wirkst",
+      "er": "wirkt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewirkt"
+    }
+  },
+  "example": {
+    "target": "Die Tablette wirkt nach zehn Minuten.",
+    "en": "The pill takes effect after ten minutes."
+  },
+  "regional": null,
+  "trick": "WIRKEN sounds a bit like work: when a pill wirkt, it starts to work.",
+  "image": "/deck-de/img/wirken-take-effect.webp",
+  "audio": {
+    "word": "/deck-de/audio/wirken-take-effect.word.mp3",
+    "sentence": "/deck-de/audio/wirken-take-effect.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "verbringen-spend-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3c67696540aad2cc",
+  "group": "#707 verbringen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:15.563Z"
+}

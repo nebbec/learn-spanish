@@ -1,0 +1,17 @@
+{
+  "id": "tuer-door",
+  "rank": 321,
+  "word": "Tür",
+  "draft": "1524161db1dc2f24",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "door",
+    "example": "Close the door, please!"
+  },
+  "note": "Switzerland and Austria often say the variant die Türe, but it is the same word with an extra -e, so leaving regional null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:34.048Z"
+}

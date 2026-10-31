@@ -1,0 +1,17 @@
+{
+  "id": "ordnung-okay",
+  "rank": 222,
+  "word": "Ordnung",
+  "draft": "95f53ee16541ce6b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "okay, all right (literally in order)",
+    "example": "Is everything all right with you?"
+  },
+  "note": "The hint \"two words, literally in order\" is needed: it rules out okay, gut and alles klar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:34.713Z"
+}

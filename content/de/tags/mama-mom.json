@@ -1,0 +1,14 @@
+{
+  "id": "mama-mom",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Mama for the casual mom; die Mutter is the neutral word for mother.",
+  "draft": "2c919a0fe0ab9f03",
+  "group": "#388 Mama",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:07.246Z"
+}

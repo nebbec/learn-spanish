@@ -1,0 +1,17 @@
+{
+  "id": "derselbe-the-same",
+  "rank": 469,
+  "word": "derselbe",
+  "draft": "b92055cc5f98bb2b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "the same (one), masculine nominative",
+    "example": "That's the same guy as yesterday."
+  },
+  "note": "The hint says not gleich, but the competing answer is really der gleiche (two words, just as common in speech); the hint's one word already excludes it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:41.722Z"
+}

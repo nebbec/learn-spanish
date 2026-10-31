@@ -1,0 +1,15 @@
+{
+  "rank": 493,
+  "word": "nah",
+  "cards": [
+    "nah-near"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nah-near": "cerca-near"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:57.141Z"
+}

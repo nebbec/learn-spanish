@@ -1,0 +1,25 @@
+{
+  "id": "dank-thanks",
+  "rank": 303,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Dank",
+  "en": "thanks",
+  "hint": "the noun, as in many thanks",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": null
+  },
+  "example": {
+    "target": "Vielen Dank für deine Hilfe!",
+    "en": "Thanks a lot for your help!"
+  },
+  "regional": null,
+  "trick": "DANK sounds like thank said with a D at the start: vielen Dank means many thanks.",
+  "image": "/deck-de/img/dank-thanks.webp",
+  "audio": {
+    "word": "/deck-de/audio/dank-thanks.word.mp3",
+    "sentence": "/deck-de/audio/dank-thanks.sentence.mp3"
+  }
+}

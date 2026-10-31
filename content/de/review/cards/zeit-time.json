@@ -1,0 +1,17 @@
+{
+  "id": "zeit-time",
+  "rank": 118,
+  "word": "Zeit",
+  "draft": "d4d30cada40f4d75",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "time (as a quantity or period, e.g. to have time)",
+    "example": "Do you have time today?"
+  },
+  "note": "The hint correctly rules out Mal (an occasion) and Uhrzeit (clock time); \"no time\" means \"keine Zeit\" here, not the idiom \"in no time\" (im Nu), and the editor could write \"as in I have no time\" to make that clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:42.932Z"
+}

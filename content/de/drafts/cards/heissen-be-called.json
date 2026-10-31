@@ -1,0 +1,33 @@
+{
+  "id": "heissen-be-called",
+  "rank": 167,
+  "kind": "content",
+  "pos": "verb",
+  "target": "heißen",
+  "en": "to be called",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er": "heißt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geheißen"
+    }
+  },
+  "example": {
+    "target": "Hallo, wie heißt du?",
+    "en": "Hi, what's your name?"
+  },
+  "regional": null,
+  "trick": "HEISSEN sounds like \"HY-sen\", close to \"Hi, son!\": you greet someone by what they are called.",
+  "image": "/deck-de/img/heissen-be-called.webp",
+  "audio": {
+    "word": "/deck-de/audio/heissen-be-called.word.mp3",
+    "sentence": "/deck-de/audio/heissen-be-called.sentence.mp3"
+  }
+}

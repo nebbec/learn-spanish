@@ -1,0 +1,14 @@
+{
+  "id": "als-when-past",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use als for one time in the past; wenn for repeated or future events.",
+  "draft": "d3aaed5fba61311f",
+  "group": "#60 als",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:24.974Z"
+}

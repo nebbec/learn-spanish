@@ -1,0 +1,14 @@
+{
+  "id": "sinn-sense",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5e0e654c8a2d1a67",
+  "group": "#586 Sinn",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:59.801Z"
+}

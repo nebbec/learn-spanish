@@ -1,0 +1,17 @@
+{
+  "id": "spueren-feel",
+  "rank": 753,
+  "word": "spüren",
+  "draft": "cb67378b698ae9cd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to feel, to sense, to notice (physically or intuitively)",
+    "example": "I sense that something isn't right."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:14.985Z"
+}

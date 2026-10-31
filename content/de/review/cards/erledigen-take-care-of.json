@@ -1,0 +1,17 @@
+{
+  "id": "erledigen-take-care-of",
+  "rank": 501,
+  "word": "erledigen",
+  "draft": "0ab63332c3abaf18",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to take care of, to get done, to deal with (a task or errand)",
+    "example": "Don't worry, I'll take care of that tomorrow."
+  },
+  "note": "The hint \"get it done\" is what rules out \"sich um etwas kümmern\", so it should stay.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:16.290Z"
+}

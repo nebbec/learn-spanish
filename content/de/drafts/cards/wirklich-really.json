@@ -1,0 +1,21 @@
+{
+  "id": "wirklich-really",
+  "rank": 109,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "wirklich",
+  "en": "really",
+  "hint": "truly, not the slangy echt",
+  "grammar": null,
+  "example": {
+    "target": "Das Essen ist wirklich gut.",
+    "en": "The food is really good."
+  },
+  "regional": null,
+  "trick": "WIRKLICH sounds like VIRK-likh, close to work-like: when something truly works, it really does.",
+  "image": "/deck-de/img/wirklich-really.webp",
+  "audio": {
+    "word": "/deck-de/audio/wirklich-really.word.mp3",
+    "sentence": "/deck-de/audio/wirklich-really.sentence.mp3"
+  }
+}

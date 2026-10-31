@@ -1,0 +1,15 @@
+{
+  "rank": 745,
+  "word": "beenden",
+  "cards": [
+    "beenden-end"
+  ],
+  "skip": null,
+  "sameAs": {
+    "beenden-end": "terminar-finish"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:26.711Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "grossartig-great",
+  "rank": 542,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "großartig",
+  "en": "great",
+  "hint": "magnificent, not toll",
+  "grammar": null,
+  "example": {
+    "target": "Das war ein großartiger Abend!",
+    "en": "That was a great evening!"
+  },
+  "regional": null,
+  "trick": "GROSSARTIG sounds like grand art-ish: something grand like a work of art is great.",
+  "image": "/deck-de/img/grossartig-great.webp",
+  "audio": {
+    "word": "/deck-de/audio/grossartig-great.word.mp3",
+    "sentence": "/deck-de/audio/grossartig-great.sentence.mp3"
+  }
+}

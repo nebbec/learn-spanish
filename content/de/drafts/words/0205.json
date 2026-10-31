@@ -1,0 +1,15 @@
+{
+  "rank": 205,
+  "word": "verdammt",
+  "cards": [
+    "verdammt-damned"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verdammt-damned": "maldito-damned"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:39.023Z"
+}

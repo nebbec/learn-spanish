@@ -1,0 +1,21 @@
+{
+  "id": "runter-down",
+  "rank": 362,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "runter",
+  "en": "down",
+  "hint": "movement downward, as in come down",
+  "grammar": null,
+  "example": {
+    "target": "Komm sofort runter!",
+    "en": "Come down right now!"
+  },
+  "regional": null,
+  "trick": "RUNTER sounds like \"roon-ter\": picture a stone rune tumbling down the stairs.",
+  "image": "/deck-de/img/runter-down.webp",
+  "audio": {
+    "word": "/deck-de/audio/runter-down.word.mp3",
+    "sentence": "/deck-de/audio/runter-down.sentence.mp3"
+  }
+}

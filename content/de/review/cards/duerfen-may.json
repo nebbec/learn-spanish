@@ -1,0 +1,17 @@
+{
+  "id": "duerfen-may",
+  "rank": 162,
+  "word": "dürfen",
+  "draft": "eb4aaf56d1efc272",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be allowed to, may (permission)",
+    "example": "May I come in?"
+  },
+  "note": "The hint \"may\" is not strictly needed, and gedurft is right for the Perfekt, but when another verb follows it becomes dürfen (Ich habe kommen dürfen).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:57.144Z"
+}

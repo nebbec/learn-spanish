@@ -1,0 +1,21 @@
+{
+  "id": "egal-doesnt-matter",
+  "rank": 308,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "egal",
+  "en": "all the same, doesn't matter",
+  "hint": "the everyday word, as in I don't care",
+  "grammar": null,
+  "example": {
+    "target": "Das ist mir egal.",
+    "en": "I don't care."
+  },
+  "regional": null,
+  "trick": "EGAL sounds like ay-GAHL, close to equal: when both options are equal, it doesn't matter which.",
+  "image": "/deck-de/img/egal-doesnt-matter.webp",
+  "audio": {
+    "word": "/deck-de/audio/egal-doesnt-matter.word.mp3",
+    "sentence": "/deck-de/audio/egal-doesnt-matter.sentence.mp3"
+  }
+}

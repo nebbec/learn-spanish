@@ -1,0 +1,21 @@
+{
+  "id": "nochmal-again",
+  "rank": 657,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "nochmal",
+  "en": "again",
+  "hint": "once more, not wieder",
+  "grammar": null,
+  "example": {
+    "target": "Kannst du das nochmal sagen?",
+    "en": "Can you say that again?"
+  },
+  "regional": null,
+  "trick": "NOCHMAL sounds a bit like notch more: go one notch more and do it once again.",
+  "image": "/deck-de/img/nochmal-again.webp",
+  "audio": {
+    "word": "/deck-de/audio/nochmal-again.word.mp3",
+    "sentence": "/deck-de/audio/nochmal-again.sentence.mp3"
+  }
+}

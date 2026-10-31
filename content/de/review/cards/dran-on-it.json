@@ -1,0 +1,23 @@
+{
+  "id": "dran-on-it",
+  "rank": 371,
+  "word": "dran",
+  "draft": "f6c1e30254503ce7",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses the idiom dran sein (to be working on something), not the card's meaning of physically on or stuck to something, and ich bin dran also clashes with the word's other card (it's my turn).",
+      "fix": "example.target: Wasch die Gabel ab, da ist noch Ketchup dran. | example.en: Wash the fork, there's still ketchup on it."
+    }
+  ],
+  "back": {
+    "target": "on it, attached to it (colloquial short form of daran)",
+    "example": "Don't worry, I'm already on it (already working on it / dealing with it)."
+  },
+  "note": "The hint is needed here because it rules out drauf, which a German speaker could also use for ketchup on top of something like a plate or a burger.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:37.011Z"
+}

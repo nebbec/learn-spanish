@@ -1,0 +1,33 @@
+{
+  "id": "verraten-give-away",
+  "rank": 641,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verraten",
+  "en": "to give away (a secret)",
+  "hint": "tell what should stay secret",
+  "grammar": {
+    "present": {
+      "ich": "verrate",
+      "du": "verrätst",
+      "er": "verrät"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verraten"
+    }
+  },
+  "example": {
+    "target": "Ich verrate dir ein Geheimnis.",
+    "en": "I'll tell you a secret."
+  },
+  "regional": null,
+  "trick": "VERRATEN has a rat in the middle: a rat is someone who gives away your secrets.",
+  "image": "/deck-de/img/verraten-give-away.webp",
+  "audio": {
+    "word": "/deck-de/audio/verraten-give-away.word.mp3",
+    "sentence": "/deck-de/audio/verraten-give-away.sentence.mp3"
+  }
+}

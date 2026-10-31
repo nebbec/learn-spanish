@@ -1,0 +1,25 @@
+{
+  "id": "ahnung-idea",
+  "rank": 346,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Ahnung",
+  "en": "idea",
+  "hint": "as in no idea, a clue; not Idee",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Ahnungen"
+  },
+  "example": {
+    "target": "Keine Ahnung, wo mein Handy ist.",
+    "en": "No idea where my phone is."
+  },
+  "regional": null,
+  "trick": "AHNUNG sounds like a shrug: Ah, noong... ah, no idea!",
+  "image": "/deck-de/img/ahnung-idea.webp",
+  "audio": {
+    "word": "/deck-de/audio/ahnung-idea.word.mp3",
+    "sentence": "/deck-de/audio/ahnung-idea.sentence.mp3"
+  }
+}

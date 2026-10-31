@@ -1,0 +1,17 @@
+{
+  "rank": 128,
+  "word": "sicher",
+  "cards": [
+    "sicher-sure",
+    "sicher-safe"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sicher-sure": "seguro-sure",
+    "sicher-safe": "seguro-safe"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:59.562Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 476,
+  "word": "dumm",
+  "cards": [
+    "dumm-stupid"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dumm-stupid": "tonto-dumb"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:48.664Z"
+}

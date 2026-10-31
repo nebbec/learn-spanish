@@ -1,0 +1,14 @@
+{
+  "id": "nur-only",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fbf6ff184ec47bfc",
+  "group": "#49 nur",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:52.614Z"
+}

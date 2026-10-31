@@ -1,0 +1,17 @@
+{
+  "id": "spielen-play",
+  "rank": 195,
+  "word": "spielen",
+  "draft": "5d9d4144662c5932",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to play (a game, sport, instrument or role)",
+    "example": "Are you playing soccer with us today?"
+  },
+  "note": "spielen also covers music and acting, which the Spanish card jugar-play leaves out, but its game or sport picture still shows a main meaning of spielen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:01.119Z"
+}

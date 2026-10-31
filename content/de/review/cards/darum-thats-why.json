@@ -1,0 +1,17 @@
+{
+  "id": "darum-thats-why",
+  "rank": 376,
+  "word": "darum",
+  "draft": "9b7671b0e3485d2a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "that's why, therefore (also: about it)",
+    "example": "I'm tired, that's why I'm going to bed."
+  },
+  "note": "Darum's other very common meaning, \"about it\" (Es geht darum), has no card, and this is the word's only card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:53:04.655Z"
+}

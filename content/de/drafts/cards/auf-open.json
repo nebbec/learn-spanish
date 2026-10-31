@@ -1,0 +1,21 @@
+{
+  "id": "auf-open",
+  "rank": 25,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "auf",
+  "en": "open",
+  "hint": "short everyday word, not offen",
+  "grammar": null,
+  "example": {
+    "target": "Ist der Supermarkt noch auf?",
+    "en": "Is the supermarket still open?"
+  },
+  "regional": null,
+  "trick": "AUF sounds like \"ouf!\": you shove the stuck door and, ouf, it's finally open.",
+  "image": "/deck-de/img/auf-open.webp",
+  "audio": {
+    "word": "/deck-de/audio/auf-open.word.mp3",
+    "sentence": "/deck-de/audio/auf-open.sentence.mp3"
+  }
+}

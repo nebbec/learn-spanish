@@ -1,0 +1,25 @@
+{
+  "id": "waffe-weapon",
+  "rank": 340,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Waffe",
+  "en": "weapon",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Waffen"
+  },
+  "example": {
+    "target": "Leg sofort die Waffe weg!",
+    "en": "Put the weapon down right now!"
+  },
+  "regional": null,
+  "trick": "WAFFE, said VAFF-uh, is a cousin of English weapon: the p of weapon became ff in German.",
+  "image": "/deck-de/img/waffe-weapon.webp",
+  "audio": {
+    "word": "/deck-de/audio/waffe-weapon.word.mp3",
+    "sentence": "/deck-de/audio/waffe-weapon.sentence.mp3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "raum-space",
+  "rank": 685,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Raum",
+  "en": "space",
+  "hint": "as in space and time; not Platz",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Räume"
+  },
+  "example": {
+    "target": "Raum und Zeit hängen zusammen.",
+    "en": "Space and time are connected."
+  },
+  "regional": null,
+  "trick": "RAUM rhymes with \"bowm\" and sounds a bit like \"roam\": space is where you can roam.",
+  "image": "/deck-de/img/raum-space.webp",
+  "audio": {
+    "word": "/deck-de/audio/raum-space.word.mp3",
+    "sentence": "/deck-de/audio/raum-space.sentence.mp3"
+  }
+}

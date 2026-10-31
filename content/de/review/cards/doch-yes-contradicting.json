@@ -1,0 +1,17 @@
+{
+  "id": "doch-yes-contradicting",
+  "rank": 68,
+  "word": "doch",
+  "draft": "6c45efab43725c14",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "yes (contradicting a negative statement or question), oh yes",
+    "example": "You're not hungry? Yes, I am!"
+  },
+  "note": "The hint is needed because it rules out ja, and it keeps this card apart from the word's 'after all' and 'don't you' cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:15.145Z"
+}

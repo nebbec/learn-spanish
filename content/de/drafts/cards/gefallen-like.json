@@ -1,0 +1,33 @@
+{
+  "id": "gefallen-like",
+  "rank": 325,
+  "kind": "content",
+  "pos": "verb",
+  "target": "gefallen",
+  "en": "to like",
+  "hint": "to be pleasing to someone: das ___ mir",
+  "grammar": {
+    "present": {
+      "ich": "gefalle",
+      "du": "gefällst",
+      "er": "gefällt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefallen"
+    }
+  },
+  "example": {
+    "target": "Gefällt dir die Wohnung?",
+    "en": "Do you like the apartment?"
+  },
+  "regional": null,
+  "trick": "GEFALLEN sounds like \"guh-FAHL-en\", like \"go fall in\" love: whatever you fall for is something you like.",
+  "image": "/deck-de/img/gefallen-like.webp",
+  "audio": {
+    "word": "/deck-de/audio/gefallen-like.word.mp3",
+    "sentence": "/deck-de/audio/gefallen-like.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rank": 327,
+  "word": "hi",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "Hi is a greeting borrowed from English and means the same in both languages, so there is nothing to learn. The German greeting hallo is covered by its own card."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:56.544Z"
+}

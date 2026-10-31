@@ -1,0 +1,25 @@
+{
+  "id": "gefaengnis-prison",
+  "rank": 626,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Gefängnis",
+  "en": "prison",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Gefängnisse"
+  },
+  "example": {
+    "target": "Er sitzt seit zwei Jahren im Gefängnis.",
+    "en": "He's been in prison for two years."
+  },
+  "regional": null,
+  "trick": "GeFÄNGnis sounds like \"guh-FENG-niss\", close to fang: a prison holds you in its fangs and won't let go.",
+  "image": "/deck-de/img/gefaengnis-prison.webp",
+  "audio": {
+    "word": "/deck-de/audio/gefaengnis-prison.word.mp3",
+    "sentence": "/deck-de/audio/gefaengnis-prison.sentence.mp3"
+  }
+}

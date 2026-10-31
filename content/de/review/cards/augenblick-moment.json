@@ -1,0 +1,17 @@
+{
+  "id": "augenblick-moment",
+  "rank": 791,
+  "word": "Augenblick",
+  "draft": "d716feba84085048",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "moment, instant",
+    "example": "Wait a moment, I'm coming right away!"
+  },
+  "note": "The trick only links the sound to \"blink\", which is fine, but strictly \"Blick\" means look or glance, as the hint says, not blink.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:25.427Z"
+}

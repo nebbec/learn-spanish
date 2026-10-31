@@ -1,0 +1,17 @@
+{
+  "id": "treffen-meet",
+  "rank": 207,
+  "word": "treffen",
+  "draft": "fd7a92b9acc81a4e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to meet (to get together with someone, by arrangement or by chance); also to hit",
+    "example": "I'm meeting my friends this evening."
+  },
+  "note": "The hint is needed here because it rules out kennenlernen (meeting someone for the first time) and begegnen (running into someone), and it keeps this card apart from the \"to hit\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:11.781Z"
+}

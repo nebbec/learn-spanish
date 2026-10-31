@@ -1,0 +1,17 @@
+{
+  "id": "zerstoeren-destroy",
+  "rank": 585,
+  "word": "zerstören",
+  "draft": "874d23ab30adfcd9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to destroy",
+    "example": "The storm destroyed the roof."
+  },
+  "note": "vernichten also means to destroy, but it is rarer and stronger (to annihilate), so zerstören is clearly the expected answer and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:54.159Z"
+}

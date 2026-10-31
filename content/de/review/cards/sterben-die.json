@@ -1,0 +1,17 @@
+{
+  "id": "sterben-die",
+  "rank": 185,
+  "word": "sterben",
+  "draft": "b9b4174ceb3705ed",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to die",
+    "example": "My grandpa died last year."
+  },
+  "note": "The trick is accurate because sterben and starve come from the same root (Old English steorfan meant to die), and the example shows the Perfekt with sein, which learners need.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:07.966Z"
+}

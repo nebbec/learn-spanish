@@ -1,0 +1,21 @@
+{
+  "id": "unten-downstairs",
+  "rank": 467,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "unten",
+  "en": "downstairs, below",
+  "hint": "where something is, not where it moves to",
+  "grammar": null,
+  "example": {
+    "target": "Ich warte unten auf dich.",
+    "en": "I'll wait for you downstairs."
+  },
+  "regional": null,
+  "trick": "UNTEN sounds a bit like \"under\": whatever is under you is below, downstairs.",
+  "image": "/deck-de/img/unten-downstairs.webp",
+  "audio": {
+    "word": "/deck-de/audio/unten-downstairs.word.mp3",
+    "sentence": "/deck-de/audio/unten-downstairs.sentence.mp3"
+  }
+}

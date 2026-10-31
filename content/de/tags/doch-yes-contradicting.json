@@ -1,0 +1,14 @@
+{
+  "id": "doch-yes-contradicting",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use doch, not ja, to answer yes to a negative question or statement.",
+  "draft": "6c45efab43725c14",
+  "group": "#68 doch",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:35.987Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "einzig-only",
+  "rank": 289,
+  "word": "einzig",
+  "draft": "5d404f72bcc66bea",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "only, sole, single (adjective: the only one)",
+    "example": "That is my only chance."
+  },
+  "note": "The hint is needed: it marks the adjective sense and rules out the adverb nur, and einzigartig (unique) is a separate word that doesn't compete for this prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:45.637Z"
+}

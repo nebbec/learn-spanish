@@ -1,0 +1,15 @@
+{
+  "rank": 119,
+  "word": "reden",
+  "cards": [
+    "reden-talk"
+  ],
+  "skip": null,
+  "sameAs": {
+    "reden-talk": "hablar-speak"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:34.960Z"
+}

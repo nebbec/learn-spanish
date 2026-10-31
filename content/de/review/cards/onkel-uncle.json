@@ -1,0 +1,23 @@
+{
+  "id": "onkel-uncle",
+  "rank": 596,
+  "word": "Onkel",
+  "draft": "3c722ac5542d2184",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says Onkel is almost uncle said backwards, which is false: it sounds like uncle said forwards, and the backwards claim would confuse learners.",
+      "fix": "trick: Onkel sounds almost exactly like uncle with an o at the front: your Onkel is your uncle."
+    }
+  ],
+  "back": {
+    "target": "uncle",
+    "example": "My uncle lives in Hamburg."
+  },
+  "note": "The plural die Onkels is also common in casual speech, but die Onkel is the standard form, so the card is fine as it is.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:00.900Z"
+}

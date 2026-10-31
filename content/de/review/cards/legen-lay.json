@@ -1,0 +1,17 @@
+{
+  "id": "legen-lay",
+  "rank": 349,
+  "word": "legen",
+  "draft": "3bc8098c6109745f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to lay, to put (something down so it lies flat)",
+    "example": "I'm putting the keys on the table."
+  },
+  "note": "The hint \"down flat, lying\" is what rules out stellen, setzen and stecken, so keep it; poner is broader than legen, but a picture of putting something down on a table works for both.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:38.544Z"
+}

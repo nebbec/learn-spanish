@@ -1,0 +1,14 @@
+{
+  "id": "agent-agent",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9608a65733b41b3a",
+  "group": "#638 Agent",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:54.806Z"
+}

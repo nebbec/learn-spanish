@@ -1,0 +1,33 @@
+{
+  "id": "besorgen-get",
+  "rank": 581,
+  "kind": "content",
+  "pos": "verb",
+  "target": "besorgen",
+  "en": "to get",
+  "hint": "go and get something for someone, not bekommen",
+  "grammar": {
+    "present": {
+      "ich": "besorge",
+      "du": "besorgst",
+      "er": "besorgt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "besorgt"
+    }
+  },
+  "example": {
+    "target": "Ich besorge dir morgen ein Ticket.",
+    "en": "I'll get you a ticket tomorrow."
+  },
+  "regional": null,
+  "trick": "BESORGEN sounds like be-ZOR-gen: picture an alien called Zorg who runs off to get you whatever you need.",
+  "image": "/deck-de/img/besorgen-get.webp",
+  "audio": {
+    "word": "/deck-de/audio/besorgen-get.word.mp3",
+    "sentence": "/deck-de/audio/besorgen-get.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+# meist-most · rank 604 · meist
+#
+# Why it was flagged:
+#   - Meaning: On its own, 'meist' is the adverb 'usually, mostly', and a subtitle token 'meist' is almost always that adverb, because the determiner 'most' always has an ending (meiste, meisten), so the card teaches the wrong meaning for this word. Suggested fix: kind: content; pos: adverb; en: usually, mostly; hint: the short word, not meistens or normalerweise
+#   - One right answer: The natural answer for '[most] of my friends' is 'die meisten', and the hint asks for a 'base form' meist that never appears without an ending in this meaning, so the learner is told to recall a form German doesn't use here. Suggested fix: en: usually, mostly; hint: the short word, not meistens or normalerweise
+#   - Grammar: For the determiner, 'meist' is not the dictionary form, which would be 'meiste' (der/die/das meiste, die meisten); bare 'meist' is only right as the adverb. Suggested fix: Keep target: meist, with pos: adverb and grammar: null
+#   - Example sentence: The sentence is correct German but uses the determiner 'die meisten', not the adverb 'meist' that this word is. Suggested fix: example.target: Ich fahre meist mit dem Rad zur Arbeit. example.en: I usually cycle to work.
+# Reviewer's note (not a reason to flag): The trick (meist rhymes with iced and sounds like most) still works for the adverb card, e.g. 'most of the time = meist'; it is a short synonym of the more common 'meistens', which is why the hint has to rule that word out.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             meist-most
+kind:           glue
+pos:            adverb
+target:         meist
+en:             I [usually] cycle to work
+hint:           the short word, not meistens or normalerweise
+example.target: Ich fahre meist mit dem Rad zur Arbeit.
+example.en:     I usually cycle to work.
+regional.where:
+regional.text:
+trick:          MEIST rhymes with iced, and starts with the M of most: in summer, most drinks are iced.
+
+# The draft this file was made from. Do not change it.
+draft: 7bfa901e4f2574a9

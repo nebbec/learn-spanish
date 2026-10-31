@@ -1,0 +1,17 @@
+{
+  "id": "recht-on-the-right",
+  "rank": 174,
+  "word": "recht",
+  "draft": "dcc7c5d20018ef7b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "on the right, to the right (adverb)",
+    "example": "The toilet is back there on the right."
+  },
+  "note": "The target is the adverb rechts, not the headword recht; that is fine because it is the everyday word for this meaning, and derecho-right-side fits the sibling adjective card better than this one.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:19.436Z"
+}

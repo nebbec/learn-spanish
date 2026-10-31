@@ -1,0 +1,14 @@
+{
+  "id": "hoffen-hope",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "19365a3a5ff3dcc6",
+  "group": "#302 hoffen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:15.215Z"
+}

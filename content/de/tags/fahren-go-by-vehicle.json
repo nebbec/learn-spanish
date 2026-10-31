@@ -1,0 +1,14 @@
+{
+  "id": "fahren-go-by-vehicle",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use fahren when you go by car, bus, train or bike; use gehen when you go on foot.",
+  "draft": "d1ea4056ed0bc944",
+  "group": "#154 fahren",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:02.993Z"
+}

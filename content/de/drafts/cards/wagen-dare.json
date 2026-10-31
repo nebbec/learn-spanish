@@ -1,0 +1,33 @@
+{
+  "id": "wagen-dare",
+  "rank": 382,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wagen",
+  "en": "to dare",
+  "hint": "to risk it, not sich trauen",
+  "grammar": {
+    "present": {
+      "ich": "wage",
+      "du": "wagst",
+      "er": "wagt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewagt"
+    }
+  },
+  "example": {
+    "target": "Ich wage es nicht, ihn zu fragen.",
+    "en": "I don't dare to ask him."
+  },
+  "regional": null,
+  "trick": "WAGEN sounds like VAH-gen, close to wager: when you wager, you dare to risk something.",
+  "image": "/deck-de/img/wagen-dare.webp",
+  "audio": {
+    "word": "/deck-de/audio/wagen-dare.word.mp3",
+    "sentence": "/deck-de/audio/wagen-dare.sentence.mp3"
+  }
+}

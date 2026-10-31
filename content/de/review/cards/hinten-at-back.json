@@ -1,0 +1,17 @@
+{
+  "id": "hinten-at-back",
+  "rank": 726,
+  "word": "hinten",
+  "draft": "739f1d76a2d11bf2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at the back, behind (location)",
+    "example": "We're sitting at the back of the bus."
+  },
+  "note": "The Spanish card atras-back covers both direction and place and its hint says \"as in step back\", so check that the shared picture shows the place (at the back) and not someone stepping backwards, because this card's hint rules out the direction.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:22:14.436Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 378,
+  "word": "drin",
+  "cards": [
+    "drin-in-there"
+  ],
+  "skip": null,
+  "sameAs": {
+    "drin-in-there": "dentro-inside"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:52.385Z"
+}

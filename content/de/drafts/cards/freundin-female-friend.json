@@ -1,0 +1,25 @@
+{
+  "id": "freundin-female-friend",
+  "rank": 437,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Freundin",
+  "en": "friend",
+  "hint": "female",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Freundinnen"
+  },
+  "example": {
+    "target": "Das ist Lena, eine Freundin aus der Schule.",
+    "en": "This is Lena, a friend from school."
+  },
+  "regional": null,
+  "trick": "FREUNDIN sounds like FROYND-in: Freund sounds like friend, and the ending -in marks a woman.",
+  "image": "/deck-de/img/freundin-female-friend.webp",
+  "audio": {
+    "word": "/deck-de/audio/freundin-female-friend.word.mp3",
+    "sentence": "/deck-de/audio/freundin-female-friend.sentence.mp3"
+  }
+}

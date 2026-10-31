@@ -1,0 +1,17 @@
+{
+  "rank": 71,
+  "word": "oder",
+  "cards": [
+    "oder-or",
+    "oder-right-tag"
+  ],
+  "skip": null,
+  "sameAs": {
+    "oder-or": null,
+    "oder-right-tag": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:06.134Z"
+}

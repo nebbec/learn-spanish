@@ -1,0 +1,17 @@
+{
+  "id": "mehr-more",
+  "rank": 83,
+  "word": "mehr",
+  "draft": "9d365c857b5bffb9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "more",
+    "example": "I need more time."
+  },
+  "note": "In the example, mehr is used as an unchanging word before a noun, which some dictionaries call a determiner or pronoun rather than an adverb, but the adverb label is acceptable.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:38.911Z"
+}

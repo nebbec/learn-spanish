@@ -1,0 +1,15 @@
+{
+  "rank": 183,
+  "word": "euer",
+  "cards": [
+    "euer-your-plural"
+  ],
+  "skip": null,
+  "sameAs": {
+    "euer-your-plural": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:58.853Z"
+}

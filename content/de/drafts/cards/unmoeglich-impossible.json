@@ -1,0 +1,21 @@
+{
+  "id": "unmoeglich-impossible",
+  "rank": 736,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "unmöglich",
+  "en": "impossible",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das ist unmöglich, ich habe keine Zeit.",
+    "en": "That's impossible, I don't have time."
+  },
+  "regional": null,
+  "trick": "UNMÖGLICH starts with un- like English, and MÖG sounds a bit like might: if it can't be done, it's impossible.",
+  "image": "/deck-de/img/unmoeglich-impossible.webp",
+  "audio": {
+    "word": "/deck-de/audio/unmoeglich-impossible.word.mp3",
+    "sentence": "/deck-de/audio/unmoeglich-impossible.sentence.mp3"
+  }
+}

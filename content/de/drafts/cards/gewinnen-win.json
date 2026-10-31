@@ -1,0 +1,33 @@
+{
+  "id": "gewinnen-win",
+  "rank": 422,
+  "kind": "content",
+  "pos": "verb",
+  "target": "gewinnen",
+  "en": "to win",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "gewinne",
+      "du": "gewinnst",
+      "er": "gewinnt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewonnen"
+    }
+  },
+  "example": {
+    "target": "Wir haben das Spiel gewonnen!",
+    "en": "We won the game!"
+  },
+  "regional": null,
+  "trick": "GEWINNEN sounds like geh-VIN-nen, and the middle is just English win said with a German v.",
+  "image": "/deck-de/img/gewinnen-win.webp",
+  "audio": {
+    "word": "/deck-de/audio/gewinnen-win.word.mp3",
+    "sentence": "/deck-de/audio/gewinnen-win.sentence.mp3"
+  }
+}

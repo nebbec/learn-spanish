@@ -1,0 +1,14 @@
+{
+  "id": "huebsch-pretty",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use hübsch for pretty, good-looking people or things; schön is the broader word for beautiful or nice.",
+  "draft": "57fec5edc04f59d7",
+  "group": "#505 hübsch",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:12.267Z"
+}

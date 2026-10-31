@@ -1,0 +1,21 @@
+{
+  "id": "rein-pure",
+  "rank": 235,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "rein",
+  "en": "pure",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das war reiner Zufall.",
+    "en": "That was pure coincidence."
+  },
+  "regional": null,
+  "trick": "REIN sounds like Rhine, the river: imagine its water clean and pure.",
+  "image": "/deck-de/img/rein-pure.webp",
+  "audio": {
+    "word": "/deck-de/audio/rein-pure.word.mp3",
+    "sentence": "/deck-de/audio/rein-pure.sentence.mp3"
+  }
+}

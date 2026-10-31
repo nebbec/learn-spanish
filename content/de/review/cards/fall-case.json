@@ -1,0 +1,17 @@
+{
+  "id": "fall-case",
+  "rank": 189,
+  "word": "Fall",
+  "draft": "7d97cc80d94fc7b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "case (an instance, situation, or a police or legal case); also a fall",
+    "example": "The police have solved the case."
+  },
+  "note": "Der Fall also means \"a fall\" (falling), but \"case\" is the main meaning in subtitles, so having this as the word's only card makes sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:23.867Z"
+}

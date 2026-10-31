@@ -1,0 +1,15 @@
+{
+  "rank": 698,
+  "word": "kennenlernen",
+  "cards": [
+    "kennenlernen-meet"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kennenlernen-meet": "conocer-meet"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:32.767Z"
+}

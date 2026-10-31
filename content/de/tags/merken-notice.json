@@ -1,0 +1,14 @@
+{
+  "id": "merken-notice",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "887b7027a02002e8",
+  "group": "#663 merken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:49.003Z"
+}

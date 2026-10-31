@@ -1,0 +1,14 @@
+{
+  "id": "behalten-keep",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c7746a79299e862b",
+  "group": "#569 behalten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:27.261Z"
+}

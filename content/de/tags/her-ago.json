@@ -1,0 +1,14 @@
+{
+  "id": "her-ago",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use her at the end with sein (Das ist lange her); vor before the time (vor zwei Jahren).",
+  "draft": "55ba25f81eb19d4b",
+  "group": "#196 her",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:33.563Z"
+}

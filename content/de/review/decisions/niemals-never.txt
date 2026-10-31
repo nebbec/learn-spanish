@@ -1,0 +1,30 @@
+# niemals-never · rank 426 · niemals
+#
+# Why it was flagged:
+#   - Example sentence: The German is a present-tense refusal (I'll never do that), but the English uses the conditional, which in German would be Das würde ich niemals machen. Suggested fix: example.en: I'll never do that!
+# Reviewer's note (not a reason to flag): The hint is needed and works: it rules out the everyday nie.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             niemals-never
+kind:           content
+pos:            adverb
+target:         niemals
+en:             never
+hint:           emphatic, the longer word, not nie
+example.target: Das mache ich niemals!
+example.en:     I'll never do that!
+regional.where:
+regional.text:
+trick:          NIEMALS sounds like knee malls: you will never find a mall built for knees.
+
+# The draft this file was made from. Do not change it.
+draft: 285222a109e6a578

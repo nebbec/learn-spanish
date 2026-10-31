@@ -1,0 +1,30 @@
+# wieder-again · rank 94 · wieder
+#
+# Why it was flagged:
+#   - One right answer: The hint one word does not rule out nochmal, a very common one-word German for again. Suggested fix: hint: as in it happens again; not nochmal
+# Reviewer's note (not a reason to flag): volver-do-again is a verb (to do again), not the adverb again, so a null sameAs is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wieder-again
+kind:           content
+pos:            adverb
+target:         wieder
+en:             again
+hint:           as in it happens again; not nochmal
+example.target: Du bist schon wieder zu spät.
+example.en:     You're late again.
+regional.where:
+regional.text:
+trick:          WIEDER sounds like VEE-der, close to Vader: Darth Vader keeps coming back again and again.
+
+# The draft this file was made from. Do not change it.
+draft: c4fca61be4e6bbbe

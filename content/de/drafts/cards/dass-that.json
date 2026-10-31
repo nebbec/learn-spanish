@@ -1,0 +1,21 @@
+{
+  "id": "dass-that",
+  "rank": 24,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "dass",
+  "en": "I know [that] you're tired",
+  "hint": "joins two clauses, not das",
+  "grammar": null,
+  "example": {
+    "target": "Ich glaube, dass er heute kommt.",
+    "en": "I think that he's coming today."
+  },
+  "regional": null,
+  "trick": "DASS sounds like a lazy that said with a d, as in I know dat you're here.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dass-that.word.mp3",
+    "sentence": "/deck-de/audio/dass-that.sentence.mp3"
+  }
+}

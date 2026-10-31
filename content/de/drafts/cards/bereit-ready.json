@@ -1,0 +1,21 @@
+{
+  "id": "bereit-ready",
+  "rank": 316,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "bereit",
+  "en": "ready",
+  "hint": "prepared, willing; not fertig",
+  "grammar": null,
+  "example": {
+    "target": "Bist du bereit? Wir gehen gleich los.",
+    "en": "Are you ready? We're leaving in a minute."
+  },
+  "regional": null,
+  "trick": "BEREIT sounds like \"be right\": I'll be right there, I'm ready!",
+  "image": "/deck-de/img/bereit-ready.webp",
+  "audio": {
+    "word": "/deck-de/audio/bereit-ready.word.mp3",
+    "sentence": "/deck-de/audio/bereit-ready.sentence.mp3"
+  }
+}

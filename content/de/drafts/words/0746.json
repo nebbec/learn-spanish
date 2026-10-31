@@ -1,0 +1,15 @@
+{
+  "rank": 746,
+  "word": "zählen",
+  "cards": [
+    "zaehlen-count"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zaehlen-count": "contar-count"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:28.908Z"
+}

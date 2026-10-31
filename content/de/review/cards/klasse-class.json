@@ -1,0 +1,23 @@
+{
+  "id": "klasse-class",
+  "rank": 650,
+  "word": "Klasse",
+  "draft": "7a2f2d82a09579a1",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card clase-class means a lesson at school, but German Klasse here means a group of students and does not mean a lesson (that is Unterricht or Stunde), so the picture does not match this card's meaning.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "class (a group of pupils at school; also class in the sense of category or rank)",
+    "example": "We are in the same class."
+  },
+  "note": "The hint is needed to keep this card apart from the word's card for \"great\" and from other kinds of class, and it does that well.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:56.732Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ueberlegen-consider",
+  "rank": 754,
+  "kind": "content",
+  "pos": "verb",
+  "target": "überlegen",
+  "en": "to consider",
+  "hint": "think something over",
+  "grammar": {
+    "present": {
+      "ich": "überlege",
+      "du": "überlegst",
+      "er": "überlegt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überlegt"
+    }
+  },
+  "example": {
+    "target": "Ich überlege es mir noch.",
+    "en": "I'm still thinking it over."
+  },
+  "regional": null,
+  "trick": "ÜBERLEGEN sounds like over-LAY-gen: you lay a thought over and over in your mind to consider it.",
+  "image": "/deck-de/img/ueberlegen-consider.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberlegen-consider.word.mp3",
+    "sentence": "/deck-de/audio/ueberlegen-consider.sentence.mp3"
+  }
+}

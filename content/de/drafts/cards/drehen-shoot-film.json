@@ -1,0 +1,33 @@
+{
+  "id": "drehen-shoot-film",
+  "rank": 592,
+  "kind": "content",
+  "pos": "verb",
+  "target": "drehen",
+  "en": "to shoot",
+  "hint": "a film",
+  "grammar": {
+    "present": {
+      "ich": "drehe",
+      "du": "drehst",
+      "er": "dreht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedreht"
+    }
+  },
+  "example": {
+    "target": "Wir drehen morgen eine Szene in Berlin.",
+    "en": "We're shooting a scene in Berlin tomorrow."
+  },
+  "regional": null,
+  "trick": "DREHEN sounds like \"DRAY-en\": old film cameras had a crank you turned to shoot a film.",
+  "image": "/deck-de/img/drehen-shoot-film.webp",
+  "audio": {
+    "word": "/deck-de/audio/drehen-shoot-film.word.mp3",
+    "sentence": "/deck-de/audio/drehen-shoot-film.sentence.mp3"
+  }
+}

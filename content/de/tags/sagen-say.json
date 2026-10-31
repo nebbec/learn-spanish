@@ -1,0 +1,14 @@
+{
+  "id": "sagen-say",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d9b5abe428deaba5",
+  "group": "#32 sagen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:30.458Z"
+}

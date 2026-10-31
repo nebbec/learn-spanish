@@ -1,0 +1,15 @@
+{
+  "rank": 290,
+  "word": "wichtig",
+  "cards": [
+    "wichtig-important"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wichtig-important": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:21.414Z"
+}

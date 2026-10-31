@@ -1,0 +1,17 @@
+{
+  "rank": 109,
+  "word": "wirklich",
+  "cards": [
+    "wirklich-really",
+    "wirklich-real"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wirklich-really": "realmente-really",
+    "wirklich-real": "real-real"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:59.523Z"
+}

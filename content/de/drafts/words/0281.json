@@ -1,0 +1,17 @@
+{
+  "rank": 281,
+  "word": "passen",
+  "cards": [
+    "passen-fit",
+    "passen-suit"
+  ],
+  "skip": null,
+  "sameAs": {
+    "passen-fit": null,
+    "passen-suit": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:52.574Z"
+}

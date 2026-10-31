@@ -1,0 +1,21 @@
+{
+  "id": "wieso-why",
+  "rank": 184,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "wieso",
+  "en": "[why] not?",
+  "hint": "casual, not warum",
+  "grammar": null,
+  "example": {
+    "target": "Wieso bist du so spät?",
+    "en": "Why are you so late?"
+  },
+  "regional": null,
+  "trick": "WIESO sounds like \"vee-zo\" and is wie (how) plus so: \"how so?\" is just another way to ask why.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wieso-why.word.mp3",
+    "sentence": "/deck-de/audio/wieso-why.sentence.mp3"
+  }
+}

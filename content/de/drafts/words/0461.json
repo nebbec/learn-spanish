@@ -1,0 +1,14 @@
+{
+  "rank": 461,
+  "word": "äh",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "Filler sound, like English uh/er; no card needed."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:51:51.589Z"
+}

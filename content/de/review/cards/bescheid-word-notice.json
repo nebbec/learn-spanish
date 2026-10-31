@@ -1,0 +1,17 @@
+{
+  "id": "bescheid-word-notice",
+  "rank": 752,
+  "word": "Bescheid",
+  "draft": "2e84aa225793e8d5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "information, word, notice (as in let someone know; also an official decision or notification)",
+    "example": "Let me know when you're there."
+  },
+  "note": "The plural die Bescheide exists only in the official sense (a decision or notice from an authority), and the everyday let-know sense is almost always used without an article in Bescheid sagen or Bescheid wissen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:15.652Z"
+}

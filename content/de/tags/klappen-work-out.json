@@ -1,0 +1,14 @@
+{
+  "id": "klappen-work-out",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "023dc1d1c0cfecce",
+  "group": "#524 klappen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:57.247Z"
+}

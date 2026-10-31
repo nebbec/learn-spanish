@@ -1,0 +1,30 @@
+# rein-pure · rank 235 · rein
+#
+# Why it was flagged:
+#   - One right answer: With no hint, pur is also a common right answer for pure (purer Zufall, Natur pur), so a learner who recalls pur would be marked wrong. Suggested fix: hint: the everyday word, not pur
+# Reviewer's note (not a reason to flag): The trick works well because German Rhein (the Rhine) sounds exactly like rein.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             rein-pure
+kind:           content
+pos:            adjective
+target:         rein
+en:             pure
+hint:           the everyday word, not pur
+example.target: Das war reiner Zufall.
+example.en:     That was pure coincidence.
+regional.where:
+regional.text:
+trick:          REIN sounds like Rhine, the river: imagine its water clean and pure.
+
+# The draft this file was made from. Do not change it.
+draft: 604c1af5b0a34c96

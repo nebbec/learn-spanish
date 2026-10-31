@@ -1,0 +1,25 @@
+{
+  "id": "woche-week",
+  "rank": 282,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Woche",
+  "en": "week",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Wochen"
+  },
+  "example": {
+    "target": "Nächste Woche fahre ich nach Berlin.",
+    "en": "Next week I'm going to Berlin."
+  },
+  "regional": null,
+  "trick": "WOCHE sounds like VOKH-uh, a bit like vodka without the d: picture a week-long party with seven days of vodka.",
+  "image": "/deck-de/img/woche-week.webp",
+  "audio": {
+    "word": "/deck-de/audio/woche-week.word.mp3",
+    "sentence": "/deck-de/audio/woche-week.sentence.mp3"
+  }
+}

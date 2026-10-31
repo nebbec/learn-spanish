@@ -1,0 +1,17 @@
+{
+  "id": "moeglich-possible",
+  "rank": 428,
+  "word": "möglich",
+  "draft": "a1347ff58c23ea6c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "possible",
+    "example": "Please come as quickly as possible."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:21.678Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scheinen-seem",
+  "rank": 337,
+  "kind": "content",
+  "pos": "verb",
+  "target": "scheinen",
+  "en": "to seem",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "scheine",
+      "du": "scheinst",
+      "er": "scheint"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschienen"
+    }
+  },
+  "example": {
+    "target": "Du scheinst heute müde zu sein.",
+    "en": "You seem tired today."
+  },
+  "regional": null,
+  "trick": "SCHEINEN sounds like shining: a shiny surface only seems to be gold until you look closer.",
+  "image": "/deck-de/img/scheinen-seem.webp",
+  "audio": {
+    "word": "/deck-de/audio/scheinen-seem.word.mp3",
+    "sentence": "/deck-de/audio/scheinen-seem.sentence.mp3"
+  }
+}

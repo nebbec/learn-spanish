@@ -1,0 +1,25 @@
+{
+  "id": "fall-case",
+  "rank": 189,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Fall",
+  "en": "case",
+  "hint": "a situation or investigation, not a container",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Fälle"
+  },
+  "example": {
+    "target": "Die Polizei hat den Fall gelöst.",
+    "en": "The police solved the case."
+  },
+  "regional": null,
+  "trick": "FALL rhymes with pal: your detective pal falls onto a new case every week.",
+  "image": "/deck-de/img/fall-case.webp",
+  "audio": {
+    "word": "/deck-de/audio/fall-case.word.mp3",
+    "sentence": "/deck-de/audio/fall-case.sentence.mp3"
+  }
+}

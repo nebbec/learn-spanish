@@ -1,0 +1,17 @@
+{
+  "id": "beginnen-begin",
+  "rank": 443,
+  "word": "beginnen",
+  "draft": "ee0ef0ed4e2ce69c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to begin, to start",
+    "example": "The film starts at eight."
+  },
+  "note": "The hint is needed because anfangen is the everyday synonym, and it correctly rules it out; comenzar is a good sameAs match because, like beginnen next to anfangen, it is the slightly more formal word next to empezar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:21.246Z"
+}

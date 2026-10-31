@@ -1,0 +1,23 @@
+{
+  "id": "baby-baby",
+  "rank": 301,
+  "word": "Baby",
+  "draft": "47a4d84422636aa0",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Switzerland the usual word is das Bébé (Duden marks it as Swiss for Baby), so regional should not be null.",
+      "fix": "regional: { where: \"Switzerland\", text: \"In Switzerland people commonly say das Bébé.\" }"
+    }
+  ],
+  "back": {
+    "target": "baby",
+    "example": "The baby is finally sleeping."
+  },
+  "note": "Säugling is a formal or medical word, not a competing everyday answer, so the prompt needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:48.695Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 182,
+  "word": "töten",
+  "cards": [
+    "toeten-kill"
+  ],
+  "skip": null,
+  "sameAs": {
+    "toeten-kill": "matar-kill"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:53.160Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "irgendwie-somehow",
+  "rank": 488,
+  "word": "irgendwie",
+  "draft": "5ee6c25827a15433",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "somehow, in some way (colloquially also: kind of, sort of)",
+    "example": "Somehow we'll manage it, don't worry."
+  },
+  "note": "Irgendwie is also very often used in speech to mean \"kind of, in a way\" (irgendwie komisch), so the editor may want to mention that sense somewhere, though the card is correct as it stands.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:10.686Z"
+}

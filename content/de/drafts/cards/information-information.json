@@ -1,0 +1,25 @@
+{
+  "id": "information-information",
+  "rank": 687,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Information",
+  "en": "information",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Informationen"
+  },
+  "example": {
+    "target": "Ich brauche mehr Informationen über den Job.",
+    "en": "I need more information about the job."
+  },
+  "regional": null,
+  "trick": "INFORMATION is spelled like the English word and means the same; just say the ending as in-for-ma-TSYOHN.",
+  "image": "/deck-de/img/information-information.webp",
+  "audio": {
+    "word": "/deck-de/audio/information-information.word.mp3",
+    "sentence": "/deck-de/audio/information-information.sentence.mp3"
+  }
+}

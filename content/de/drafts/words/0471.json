@@ -1,0 +1,17 @@
+{
+  "rank": 471,
+  "word": "leicht",
+  "cards": [
+    "leicht-easy",
+    "leicht-light"
+  ],
+  "skip": null,
+  "sameAs": {
+    "leicht-easy": "facil-easy",
+    "leicht-light": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:28.826Z"
+}

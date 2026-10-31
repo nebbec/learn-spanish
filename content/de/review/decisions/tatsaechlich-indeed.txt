@@ -1,0 +1,30 @@
+# tatsaechlich-indeed · rank 728 · tatsächlich
+#
+# Why it was flagged:
+#   - One right answer: The hint "it really is true" also fits wirklich, a separate common word, and the prompt "actually" invites the false friend eigentlich, so the hint does not rule either one out. Suggested fix: hint: in fact, as it turns out (not wirklich or eigentlich)
+# Reviewer's note (not a reason to flag): realmente-really is close in meaning, but its prompt "really" matches wirklich better, so leaving sameAs null is reasonable.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             tatsaechlich-indeed
+kind:           content
+pos:            adverb
+target:         tatsächlich
+en:             indeed, actually
+hint:           in fact, as it turns out (not wirklich or eigentlich)
+example.target: Du hast tatsächlich recht.
+example.en:     You're actually right.
+regional.where:
+regional.text:
+trick:          TATsächlich starts with Tat, a deed: what is done in deed is true, so indeed.
+
+# The draft this file was made from. Do not change it.
+draft: 523c6f2068a8ca29

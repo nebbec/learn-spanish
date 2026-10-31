@@ -1,0 +1,17 @@
+{
+  "id": "bewegen-move",
+  "rank": 593,
+  "word": "bewegen",
+  "draft": "37c06c9a1c18f34e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to move (to change position, or to move something)",
+    "example": "Don't move!"
+  },
+  "note": "The example uses bewegen reflexively (sich bewegen), which is its most common everyday use; the strong forms bewog/bewogen exist only in the separate sense \"to induce someone\", so regular is right here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:46.206Z"
+}

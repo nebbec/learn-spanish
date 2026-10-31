@@ -1,0 +1,21 @@
+{
+  "id": "vorsichtig-careful",
+  "rank": 644,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "vorsichtig",
+  "en": "careful",
+  "hint": "cautious",
+  "grammar": null,
+  "example": {
+    "target": "Sei vorsichtig, die Straße ist glatt.",
+    "en": "Be careful, the road is slippery."
+  },
+  "regional": null,
+  "trick": "VORSICHTIG starts like FOR-ZIKH, close to \"for sick\": be careful when you're with someone sick.",
+  "image": "/deck-de/img/vorsichtig-careful.webp",
+  "audio": {
+    "word": "/deck-de/audio/vorsichtig-careful.word.mp3",
+    "sentence": "/deck-de/audio/vorsichtig-careful.sentence.mp3"
+  }
+}

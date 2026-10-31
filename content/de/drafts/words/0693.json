@@ -1,0 +1,15 @@
+{
+  "rank": 693,
+  "word": "irren",
+  "cards": [
+    "irren-be-wrong"
+  ],
+  "skip": null,
+  "sameAs": {
+    "irren-be-wrong": "equivocar-make-mistake"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:09.202Z"
+}

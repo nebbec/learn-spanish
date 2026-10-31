@@ -1,0 +1,23 @@
+{
+  "id": "etwa-about",
+  "rank": 401,
+  "word": "etwa",
+  "draft": "cd28351797b5ef24",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Besides ungefähr, which the hint rules out, rund and circa (ca.) are also common, correct answers for about or roughly before a number, so the hint still allows more than one right answer.",
+      "fix": "hint: before a number; not ungefähr, rund or circa"
+    }
+  ],
+  "back": {
+    "target": "about, approximately, roughly (before a number or amount)",
+    "example": "That takes about ten minutes."
+  },
+  "note": "Etwa is also common in questions to mean by any chance, as in \"Bist du etwa krank?\", which the editor might consider for a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:21.602Z"
+}

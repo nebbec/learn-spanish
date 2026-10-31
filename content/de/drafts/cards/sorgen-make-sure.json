@@ -1,0 +1,33 @@
+{
+  "id": "sorgen-make-sure",
+  "rank": 236,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sorgen",
+  "en": "to make sure",
+  "hint": "dafür ..., dass",
+  "grammar": {
+    "present": {
+      "ich": "sorge",
+      "du": "sorgst",
+      "er": "sorgt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesorgt"
+    }
+  },
+  "example": {
+    "target": "Ich sorge dafür, dass alles klappt.",
+    "en": "I'll make sure everything works out."
+  },
+  "regional": null,
+  "trick": "SORGEN (ZOR-gen) starts like Zorro, who always makes sure justice gets done.",
+  "image": "/deck-de/img/sorgen-make-sure.webp",
+  "audio": {
+    "word": "/deck-de/audio/sorgen-make-sure.word.mp3",
+    "sentence": "/deck-de/audio/sorgen-make-sure.sentence.mp3"
+  }
+}

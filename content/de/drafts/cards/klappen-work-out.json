@@ -1,0 +1,33 @@
+{
+  "id": "klappen-work-out",
+  "rank": 524,
+  "kind": "content",
+  "pos": "verb",
+  "target": "klappen",
+  "en": "to work out",
+  "hint": "a plan going well, informal",
+  "grammar": {
+    "present": {
+      "ich": "klappe",
+      "du": "klappst",
+      "er": "klappt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geklappt"
+    }
+  },
+  "example": {
+    "target": "Keine Sorge, das klappt schon.",
+    "en": "Don't worry, it'll work out."
+  },
+  "regional": null,
+  "trick": "KLAPPEN sounds like clapping: when your plan works out, everyone claps.",
+  "image": "/deck-de/img/klappen-work-out.webp",
+  "audio": {
+    "word": "/deck-de/audio/klappen-work-out.word.mp3",
+    "sentence": "/deck-de/audio/klappen-work-out.sentence.mp3"
+  }
+}

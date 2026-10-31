@@ -1,0 +1,21 @@
+{
+  "id": "fort-away",
+  "rank": 784,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "fort",
+  "en": "away, gone",
+  "hint": "not weg",
+  "grammar": null,
+  "example": {
+    "target": "Der Zug ist schon fort.",
+    "en": "The train is already gone."
+  },
+  "regional": null,
+  "trick": "FORT sounds like English forth: when you go forth, you go away and are gone.",
+  "image": "/deck-de/img/fort-away.webp",
+  "audio": {
+    "word": "/deck-de/audio/fort-away.word.mp3",
+    "sentence": "/deck-de/audio/fort-away.sentence.mp3"
+  }
+}

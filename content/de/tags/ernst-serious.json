@@ -1,0 +1,14 @@
+{
+  "id": "ernst-serious",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cea1ee5fdd2993f1",
+  "group": "#394 ernst",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:21.960Z"
+}

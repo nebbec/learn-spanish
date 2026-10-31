@@ -1,0 +1,17 @@
+{
+  "id": "tasche-bag",
+  "rank": 768,
+  "word": "Tasche",
+  "draft": "3161d8a59486ba21",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "bag (a handbag, shoulder bag or carry bag); also pocket",
+    "example": "My bag is in the car."
+  },
+  "note": "The hint is needed: it rules out Tüte, and because it covers both a handbag and a carry bag it points to the general word Tasche rather than Handtasche, though the hint could name Tüte to make this clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:26.815Z"
+}

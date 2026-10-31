@@ -1,0 +1,25 @@
+{
+  "id": "anruf-call",
+  "rank": 718,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Anruf",
+  "en": "phone call",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Anrufe"
+  },
+  "example": {
+    "target": "Ich warte auf einen Anruf von Anna.",
+    "en": "I'm waiting for a call from Anna."
+  },
+  "regional": null,
+  "trick": "ANRUF sounds like \"an roof\": picture someone on a roof making a phone call to get a signal.",
+  "image": "/deck-de/img/anruf-call.webp",
+  "audio": {
+    "word": "/deck-de/audio/anruf-call.word.mp3",
+    "sentence": "/deck-de/audio/anruf-call.sentence.mp3"
+  }
+}

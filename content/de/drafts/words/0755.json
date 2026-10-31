@@ -1,0 +1,15 @@
+{
+  "rank": 755,
+  "word": "Regel",
+  "cards": [
+    "regel-rule"
+  ],
+  "skip": null,
+  "sameAs": {
+    "regel-rule": "regla-rule"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:04.972Z"
+}

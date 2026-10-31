@@ -1,0 +1,17 @@
+{
+  "rank": 83,
+  "word": "mehr",
+  "cards": [
+    "mehr-more",
+    "mehr-anymore"
+  ],
+  "skip": null,
+  "sameAs": {
+    "mehr-more": "mas-more",
+    "mehr-anymore": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:43.517Z"
+}

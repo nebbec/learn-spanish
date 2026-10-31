@@ -1,0 +1,33 @@
+{
+  "id": "fangen-catch",
+  "rank": 344,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fangen",
+  "en": "to catch",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "fange",
+      "du": "fängst",
+      "er": "fängt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefangen"
+    }
+  },
+  "example": {
+    "target": "Mein Hund fängt jeden Ball.",
+    "en": "My dog catches every ball."
+  },
+  "regional": null,
+  "trick": "FANGEN starts with the sound of fang: a snake uses its fangs to catch its prey.",
+  "image": "/deck-de/img/fangen-catch.webp",
+  "audio": {
+    "word": "/deck-de/audio/fangen-catch.word.mp3",
+    "sentence": "/deck-de/audio/fangen-catch.sentence.mp3"
+  }
+}

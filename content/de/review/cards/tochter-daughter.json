@@ -1,0 +1,17 @@
+{
+  "id": "tochter-daughter",
+  "rank": 355,
+  "word": "Tochter",
+  "draft": "d40c67a9a1cffc92",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "daughter",
+    "example": "My daughter has just turned five."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:51:05.519Z"
+}

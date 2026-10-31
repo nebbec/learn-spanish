@@ -1,0 +1,21 @@
+{
+  "id": "dann-then",
+  "rank": 64,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "dann",
+  "en": "then",
+  "hint": "next, after that",
+  "grammar": null,
+  "example": {
+    "target": "Erst essen wir, dann gehen wir ins Kino.",
+    "en": "First we eat, then we go to the cinema."
+  },
+  "regional": null,
+  "trick": "DANN sounds like the name Dan: first Dan eats, then Dan sleeps.",
+  "image": "/deck-de/img/dann-then.webp",
+  "audio": {
+    "word": "/deck-de/audio/dann-then.word.mp3",
+    "sentence": "/deck-de/audio/dann-then.sentence.mp3"
+  }
+}

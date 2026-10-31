@@ -1,0 +1,17 @@
+{
+  "id": "bewegung-movement",
+  "rank": 796,
+  "word": "Bewegung",
+  "draft": "c6e365f3e374358d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "movement, motion (also a political or social movement)",
+    "example": "No movement! (that is, Don't move!)"
+  },
+  "note": "The example is a set phrase with no verb, common in films and well translated as \"Don't move!\"; if the editor wants a full sentence, \"Ich brauche mehr Bewegung.\" (I need more exercise.) would also work.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:48.776Z"
+}

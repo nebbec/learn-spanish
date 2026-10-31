@@ -1,0 +1,15 @@
+{
+  "rank": 696,
+  "word": "erwischen",
+  "cards": [
+    "erwischen-catch"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erwischen-catch": "atrapar-catch"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:24.549Z"
+}

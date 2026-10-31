@@ -1,0 +1,17 @@
+{
+  "id": "als-than",
+  "rank": 60,
+  "word": "als",
+  "draft": "31843df1c61063fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "than (in comparisons)",
+    "example": "You are taller than me."
+  },
+  "note": "The colloquial \"älter wie ich\" is heard in some regions but is not standard, so \"als\" is the one right answer and the card needs no hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:31.430Z"
+}

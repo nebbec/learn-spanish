@@ -1,0 +1,25 @@
+{
+  "id": "luft-air",
+  "rank": 576,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Luft",
+  "en": "air",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Ich brauche frische Luft.",
+    "en": "I need some fresh air."
+  },
+  "regional": null,
+  "trick": "LUFT sounds like aloft: something aloft is up in the air.",
+  "image": "/deck-de/img/luft-air.webp",
+  "audio": {
+    "word": "/deck-de/audio/luft-air.word.mp3",
+    "sentence": "/deck-de/audio/luft-air.sentence.mp3"
+  }
+}

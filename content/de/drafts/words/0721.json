@@ -1,0 +1,15 @@
+{
+  "rank": 721,
+  "word": "wunderschön",
+  "cards": [
+    "wunderschoen-gorgeous"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wunderschoen-gorgeous": "hermoso-beautiful"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:53.982Z"
+}

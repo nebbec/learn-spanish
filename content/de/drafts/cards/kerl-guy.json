@@ -1,0 +1,25 @@
+{
+  "id": "kerl-guy",
+  "rank": 338,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Kerl",
+  "en": "guy",
+  "hint": "also fellow, bloke; not Typ",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Kerle"
+  },
+  "example": {
+    "target": "Der Kerl da drüben starrt dich an.",
+    "en": "That guy over there is staring at you."
+  },
+  "regional": null,
+  "trick": "KERL sounds like curl: picture a tough guy with one big curl hanging over his forehead.",
+  "image": "/deck-de/img/kerl-guy.webp",
+  "audio": {
+    "word": "/deck-de/audio/kerl-guy.word.mp3",
+    "sentence": "/deck-de/audio/kerl-guy.sentence.mp3"
+  }
+}

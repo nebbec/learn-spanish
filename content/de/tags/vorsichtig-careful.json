@@ -1,0 +1,14 @@
+{
+  "id": "vorsichtig-careful",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "6ac9785ddafa8805",
+  "group": "#644 vorsichtig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:07.654Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "damit-with-it",
+  "rank": 130,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "damit",
+  "en": "what are you doing [with it]?",
+  "hint": "one word, for a thing",
+  "grammar": null,
+  "example": {
+    "target": "Was machst du damit?",
+    "en": "What are you doing with it?"
+  },
+  "regional": null,
+  "trick": "DAMIT is da plus mit, \"there-with\": with that thing there.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/damit-with-it.word.mp3",
+    "sentence": "/deck-de/audio/damit-with-it.sentence.mp3"
+  }
+}

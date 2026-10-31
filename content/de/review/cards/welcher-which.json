@@ -1,0 +1,23 @@
+{
+  "id": "welcher-which",
+  "rank": 238,
+  "word": "welcher",
+  "draft": "f076da90cb42ca34",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says welcher ends in ch, but it ends in -er; only its stem welch- ends in ch.",
+      "fix": "trick: WELCHER is an old cousin of English which: drop the -er ending and welch- looks a lot like which."
+    }
+  ],
+  "back": {
+    "target": "which (determiner, masculine nominative form)",
+    "example": "Which bus goes to the station?"
+  },
+  "note": "The prompt works because der Bus is masculine and the subject, so the answer is exactly welcher; other prompts would need welche or welches.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:07.361Z"
+}

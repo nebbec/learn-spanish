@@ -1,0 +1,17 @@
+{
+  "id": "hoeren-listen",
+  "rank": 72,
+  "word": "hören",
+  "draft": "c004139821eeca7f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hear; to listen to (music, the radio)",
+    "example": "I like listening to music in the car."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:55.613Z"
+}

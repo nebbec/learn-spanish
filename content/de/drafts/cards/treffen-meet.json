@@ -1,0 +1,33 @@
+{
+  "id": "treffen-meet",
+  "rank": 207,
+  "kind": "content",
+  "pos": "verb",
+  "target": "treffen",
+  "en": "to meet",
+  "hint": "get together with someone",
+  "grammar": {
+    "present": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er": "trifft"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getroffen"
+    }
+  },
+  "example": {
+    "target": "Ich treffe heute Abend meine Freunde.",
+    "en": "I'm meeting my friends tonight."
+  },
+  "regional": null,
+  "trick": "TREFFEN sounds like \"traffic in\": you meet your friends in the busy traffic of town.",
+  "image": "/deck-de/img/treffen-meet.webp",
+  "audio": {
+    "word": "/deck-de/audio/treffen-meet.word.mp3",
+    "sentence": "/deck-de/audio/treffen-meet.sentence.mp3"
+  }
+}

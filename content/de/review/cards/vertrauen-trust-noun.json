@@ -1,0 +1,17 @@
+{
+  "id": "vertrauen-trust-noun",
+  "rank": 389,
+  "word": "vertrauen",
+  "draft": "cfbadb91e77f97a4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "trust, confidence (noun)",
+    "example": "Trust is very important in a relationship."
+  },
+  "note": "The prompt has no \"to\", so it asks for the noun and doesn't clash with the verb card \"to trust\"; the only Spanish match, confiar-trust, is the verb, so sameAs null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:27.917Z"
+}

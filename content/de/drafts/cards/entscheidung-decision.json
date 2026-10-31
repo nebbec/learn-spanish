@@ -1,0 +1,25 @@
+{
+  "id": "entscheidung-decision",
+  "rank": 781,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Entscheidung",
+  "en": "decision",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Entscheidungen"
+  },
+  "example": {
+    "target": "Das ist deine Entscheidung.",
+    "en": "That's your decision."
+  },
+  "regional": null,
+  "trick": "ENTSCHEIDUNG sounds like ent-SHY-doong: a giant tree Ent is too SHY to make a decision.",
+  "image": "/deck-de/img/entscheidung-decision.webp",
+  "audio": {
+    "word": "/deck-de/audio/entscheidung-decision.word.mp3",
+    "sentence": "/deck-de/audio/entscheidung-decision.sentence.mp3"
+  }
+}

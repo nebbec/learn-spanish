@@ -1,0 +1,15 @@
+{
+  "rank": 172,
+  "word": "letzte",
+  "cards": [
+    "letzte-last"
+  ],
+  "skip": null,
+  "sameAs": {
+    "letzte-last": "ultimo-last"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:16.890Z"
+}

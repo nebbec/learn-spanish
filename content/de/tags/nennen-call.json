@@ -1,0 +1,14 @@
+{
+  "id": "nennen-call",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use nennen for calling someone a name; anrufen for phoning, rufen for calling out.",
+  "draft": "8e4d04b83020eeb6",
+  "group": "#292 nennen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:00.188Z"
+}

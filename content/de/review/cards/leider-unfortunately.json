@@ -1,0 +1,17 @@
+{
+  "id": "leider-unfortunately",
+  "rank": 545,
+  "word": "leider",
+  "draft": "1f956a11e501c9d7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "unfortunately, sadly",
+    "example": "Unfortunately I don't have time today."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:50.353Z"
+}

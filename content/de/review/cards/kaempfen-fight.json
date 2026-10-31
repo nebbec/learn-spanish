@@ -1,0 +1,17 @@
+{
+  "id": "kaempfen-fight",
+  "rank": 694,
+  "word": "kämpfen",
+  "draft": "6e4c36659a5b6653",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fight, to battle, to struggle",
+    "example": "I'm fighting for you."
+  },
+  "note": "The hint correctly rules out streiten (quarrel) and sich prügeln (brawl), and luchar-fight is the right picture match rather than pelear-fight.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:51.458Z"
+}

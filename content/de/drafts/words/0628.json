@@ -1,0 +1,15 @@
+{
+  "rank": 628,
+  "word": "Kraft",
+  "cards": [
+    "kraft-strength"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kraft-strength": "fuerza-strength"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:33.396Z"
+}

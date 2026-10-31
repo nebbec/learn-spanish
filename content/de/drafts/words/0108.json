@@ -1,0 +1,15 @@
+{
+  "rank": 108,
+  "word": "nehmen",
+  "cards": [
+    "nehmen-take"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nehmen-take": "tomar-take"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:49.690Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "viel-many",
+  "rank": 77,
+  "word": "viel",
+  "draft": "5d994cdcf7e7f9a2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "much, many, a lot of (quantifier before a noun; viele before plural nouns)",
+    "example": "I don't have much time today."
+  },
+  "note": "The rules list determiners under glue, but viel has a plain English meaning and a picture, so content is a fair choice; still, the editor could tell the learner that \"many\" before a plural noun takes an ending (viele Leute), since the example only shows uncountable viel.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:14.257Z"
+}

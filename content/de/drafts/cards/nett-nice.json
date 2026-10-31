@@ -1,0 +1,21 @@
+{
+  "id": "nett-nice",
+  "rank": 297,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "nett",
+  "en": "nice",
+  "hint": "of a person: friendly, kind",
+  "grammar": null,
+  "example": {
+    "target": "Dein Bruder ist echt nett.",
+    "en": "Your brother is really nice."
+  },
+  "regional": null,
+  "trick": "NETT sounds like \"net\": a nice, kind friend is your safety net when you fall.",
+  "image": "/deck-de/img/nett-nice.webp",
+  "audio": {
+    "word": "/deck-de/audio/nett-nice.word.mp3",
+    "sentence": "/deck-de/audio/nett-nice.sentence.mp3"
+  }
+}

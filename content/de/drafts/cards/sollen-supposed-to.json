@@ -1,0 +1,33 @@
+{
+  "id": "sollen-supposed-to",
+  "rank": 56,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sollen",
+  "en": "to be supposed to",
+  "hint": "should, shall (not must)",
+  "grammar": {
+    "present": {
+      "ich": "soll",
+      "du": "sollst",
+      "er": "soll"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesollt"
+    }
+  },
+  "example": {
+    "target": "Was soll ich jetzt machen?",
+    "en": "What am I supposed to do now?"
+  },
+  "regional": null,
+  "trick": "SOLL (said zoll) is a cousin of English shall: what you shall do is what you are supposed to do.",
+  "image": "/deck-de/img/sollen-supposed-to.webp",
+  "audio": {
+    "word": "/deck-de/audio/sollen-supposed-to.word.mp3",
+    "sentence": "/deck-de/audio/sollen-supposed-to.sentence.mp3"
+  }
+}

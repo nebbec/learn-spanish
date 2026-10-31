@@ -1,0 +1,17 @@
+{
+  "id": "um-around",
+  "rank": 66,
+  "word": "um",
+  "draft": "a0cfe06df19a1b7e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "around (a preposition taking the accusative; also at with clock times)",
+    "example": "We're all sitting around the table."
+  },
+  "note": "Speakers often add herum (um den Tisch herum), and the editor could mention that, but um alone is still the answer; sameAs stays null because this is a glue card, even though the Spanish card alrededor-around has the same meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:04.792Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 657,
+  "word": "nochmal",
+  "cards": [
+    "nochmal-again"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nochmal-again": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:38.853Z"
+}

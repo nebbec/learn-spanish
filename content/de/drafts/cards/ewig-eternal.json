@@ -1,0 +1,21 @@
+{
+  "id": "ewig-eternal",
+  "rank": 780,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "ewig",
+  "en": "eternal",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Er hat mir ewige Liebe geschworen.",
+    "en": "He swore eternal love to me."
+  },
+  "regional": null,
+  "trick": "EWIG sounds like AY-vikh, close to 'a wig': picture an eternal wig that never wears out.",
+  "image": "/deck-de/img/ewig-eternal.webp",
+  "audio": {
+    "word": "/deck-de/audio/ewig-eternal.word.mp3",
+    "sentence": "/deck-de/audio/ewig-eternal.sentence.mp3"
+  }
+}

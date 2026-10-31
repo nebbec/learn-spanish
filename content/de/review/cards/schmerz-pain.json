@@ -1,0 +1,17 @@
+{
+  "id": "schmerz-pain",
+  "rank": 722,
+  "word": "Schmerz",
+  "draft": "3b4bd740319df98f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "pain",
+    "example": "I have severe pain in my back."
+  },
+  "note": "The trick is apt because English smart (to sting) and German Schmerz come from the same root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:57.917Z"
+}

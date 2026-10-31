@@ -1,0 +1,17 @@
+{
+  "id": "wahrscheinlich-probably",
+  "rank": 507,
+  "word": "wahrscheinlich",
+  "draft": "a36b5345e9b628f5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "probably, likely",
+    "example": "He'll probably come tomorrow."
+  },
+  "note": "Vermutlich is close in meaning but more tentative and less everyday, so wahrscheinlich is clearly the expected answer for \"probably\" with no hint, and the trick's shine link really does match the -schein- in the word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:49.905Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 694,
+  "word": "kämpfen",
+  "cards": [
+    "kaempfen-fight"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kaempfen-fight": "luchar-fight"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:16.493Z"
+}

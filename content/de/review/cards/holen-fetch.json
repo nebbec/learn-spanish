@@ -1,0 +1,17 @@
+{
+  "id": "holen-fetch",
+  "rank": 198,
+  "word": "holen",
+  "draft": "5778320d0b57074e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to fetch, to go and get",
+    "example": "I'll get you a glass of water."
+  },
+  "note": "The trick is apt because holen and English haul share a root, and the hint rightly steers away from abholen and besorgen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:20.771Z"
+}

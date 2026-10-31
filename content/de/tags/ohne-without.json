@@ -1,0 +1,14 @@
+{
+  "id": "ohne-without",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f634868052419873",
+  "group": "#193 ohne",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:23.041Z"
+}

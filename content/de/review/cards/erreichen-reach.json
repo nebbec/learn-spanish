@@ -1,0 +1,17 @@
+{
+  "id": "erreichen-reach",
+  "rank": 606,
+  "word": "erreichen",
+  "draft": "86ed7ecb2f79010d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to reach (a place, a person, a train); to get hold of",
+    "example": "I'm not reaching him, his phone is off. (I can't get hold of him, his phone is off.)"
+  },
+  "note": "The hint is needed: it rules out reach for something (greifen, reichen) and the separate achieve card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:59.085Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "foto-photo",
+  "rank": 550,
+  "word": "Foto",
+  "draft": "9f93b91d182a4532",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "photo, photograph",
+    "example": "Show me the photo!"
+  },
+  "note": "Swiss Standard German also says die Foto (feminine); it is the same word, so leaving regional null is acceptable, but the editor could mention it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:15.513Z"
+}

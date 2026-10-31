@@ -1,0 +1,21 @@
+{
+  "id": "ueberall-everywhere",
+  "rank": 566,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "überall",
+  "en": "everywhere",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich habe dich überall gesucht!",
+    "en": "I looked for you everywhere!"
+  },
+  "regional": null,
+  "trick": "ÜBERALL sounds like over all: something spread over all places is everywhere.",
+  "image": "/deck-de/img/ueberall-everywhere.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberall-everywhere.word.mp3",
+    "sentence": "/deck-de/audio/ueberall-everywhere.sentence.mp3"
+  }
+}

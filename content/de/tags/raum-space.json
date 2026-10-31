@@ -1,0 +1,14 @@
+{
+  "id": "raum-space",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "26995ddddfca92e6",
+  "group": "#685 Raum",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:32.170Z"
+}

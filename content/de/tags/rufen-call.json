@@ -1,0 +1,14 @@
+{
+  "id": "rufen-call",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use rufen to call out or send for someone; use anrufen to phone them.",
+  "draft": "8e8c61d036b5dcf1",
+  "group": "#212 rufen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:02.142Z"
+}

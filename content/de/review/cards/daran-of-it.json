@@ -1,0 +1,17 @@
+{
+  "id": "daran-of-it",
+  "rank": 300,
+  "word": "daran",
+  "draft": "bda81c4641dba0ad",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "of it, about it, on it (the pronominal adverb da + an, used with verbs that take an, like denken an)",
+    "example": "Remember to buy milk!"
+  },
+  "note": "In everyday speech \"dran\" (Ich hab nicht dran gedacht) is the common short form, so the editor could mention it in the grammar or example notes; the hint \"da- + an\" points to the full form daran.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:43.096Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "huebsch-pretty",
+  "rank": 505,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "hübsch",
+  "en": "pretty",
+  "hint": "good-looking, cute; not schön",
+  "grammar": null,
+  "example": {
+    "target": "Du siehst heute echt hübsch aus.",
+    "en": "You look really pretty today."
+  },
+  "regional": null,
+  "trick": "HÜBSCH sounds a bit like hub-sh: the prettiest face at the party hub makes everyone go shh and stare.",
+  "image": "/deck-de/img/huebsch-pretty.webp",
+  "audio": {
+    "word": "/deck-de/audio/huebsch-pretty.word.mp3",
+    "sentence": "/deck-de/audio/huebsch-pretty.sentence.mp3"
+  }
+}

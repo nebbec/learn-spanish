@@ -1,0 +1,17 @@
+{
+  "id": "schlimm-bad",
+  "rank": 322,
+  "word": "schlimm",
+  "draft": "817b6d7b19527539",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "bad (serious, severe), awful",
+    "example": "Don't worry, it's not that bad."
+  },
+  "note": "The malo-bad picture fits because Spanish malo also covers the serious sense, but if a schlecht card is added later it has the stronger claim to that picture.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:44.471Z"
+}

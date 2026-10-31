@@ -1,0 +1,17 @@
+{
+  "id": "liegen-lie",
+  "rank": 247,
+  "word": "liegen",
+  "draft": "04fb920e109912b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to lie (be lying down; be located, be situated)",
+    "example": "Your phone is lying on the table."
+  },
+  "note": "In Austria, Switzerland and southern Germany the Perfekt is usually 'ist gelegen' rather than 'hat gelegen'; the editor could mention this in regional, but leaving it null is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:36.361Z"
+}

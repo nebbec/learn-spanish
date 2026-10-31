@@ -1,0 +1,15 @@
+{
+  "rank": 297,
+  "word": "nett",
+  "cards": [
+    "nett-nice"
+  ],
+  "skip": null,
+  "sameAs": {
+    "nett-nice": "amable-kind"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:44.595Z"
+}

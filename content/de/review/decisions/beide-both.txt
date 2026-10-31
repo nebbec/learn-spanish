@@ -1,0 +1,30 @@
+# beide-both · rank 203 · beide
+#
+# Why it was flagged:
+#   - One right answer: With no hint, "I'll take both" can just as well be "Ich nehme beides", which is the usual form for two different things (say coffee and cake), so the learner could correctly recall beides instead of beide. Suggested fix: hint: the two shirts
+# Reviewer's note (not a reason to flag): Since this is the word's only card, the editor might also mention that it becomes beiden after an article or possessive (meine beiden Brüder), but the card is fine without that.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             beide-both
+kind:           glue
+pos:            pronoun
+target:         beide
+en:             I'll take [both]
+hint:           the two shirts
+example.target: Wir sind beide total müde.
+example.en:     We're both really tired.
+regional.where:
+regional.text:
+trick:          BEIDE sounds like "BY-duh": picture both twins waving bye at once.
+
+# The draft this file was made from. Do not change it.
+draft: 85467363201efd22

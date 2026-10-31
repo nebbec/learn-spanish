@@ -1,0 +1,33 @@
+{
+  "id": "lesen-read",
+  "rank": 329,
+  "kind": "content",
+  "pos": "verb",
+  "target": "lesen",
+  "en": "to read",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "lese",
+      "du": "liest",
+      "er": "liest"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelesen"
+    }
+  },
+  "example": {
+    "target": "Was liest du gerade?",
+    "en": "What are you reading right now?"
+  },
+  "regional": null,
+  "trick": "LESEN sounds like lazin': lazin' on the sofa, you read a good book.",
+  "image": "/deck-de/img/lesen-read.webp",
+  "audio": {
+    "word": "/deck-de/audio/lesen-read.word.mp3",
+    "sentence": "/deck-de/audio/lesen-read.sentence.mp3"
+  }
+}

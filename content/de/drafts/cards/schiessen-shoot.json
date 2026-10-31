@@ -1,0 +1,33 @@
+{
+  "id": "schiessen-shoot",
+  "rank": 472,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schießen",
+  "en": "to shoot",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "schieße",
+      "du": "schießt",
+      "er": "schießt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschossen"
+    }
+  },
+  "example": {
+    "target": "Er schießt auf uns!",
+    "en": "He's shooting at us!"
+  },
+  "regional": null,
+  "trick": "SCHIESSEN starts with a sh sound, SHEE-sen, like the start of shoot, and its past schoss sounds close to shot.",
+  "image": "/deck-de/img/schiessen-shoot.webp",
+  "audio": {
+    "word": "/deck-de/audio/schiessen-shoot.word.mp3",
+    "sentence": "/deck-de/audio/schiessen-shoot.sentence.mp3"
+  }
+}

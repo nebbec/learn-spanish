@@ -1,0 +1,14 @@
+{
+  "id": "natuerlich-of-course",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Natürlich is the all-purpose 'of course'; klar is the short, casual reply among friends.",
+  "draft": "91298e3bd89ec28c",
+  "group": "#201 natürlich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:42.136Z"
+}

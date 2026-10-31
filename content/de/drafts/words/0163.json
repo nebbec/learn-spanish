@@ -1,0 +1,17 @@
+{
+  "rank": 163,
+  "word": "richtig",
+  "cards": [
+    "richtig-right",
+    "richtig-really"
+  ],
+  "skip": null,
+  "sameAs": {
+    "richtig-right": "correcto-correct",
+    "richtig-really": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:32:24.855Z"
+}

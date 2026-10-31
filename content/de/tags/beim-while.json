@@ -1,0 +1,14 @@
+{
+  "id": "beim-while",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fb77bffe2b575437",
+  "group": "#288 beim",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:51.471Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "arm-poor",
+  "rank": 358,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "arm",
+  "en": "poor",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Als Kind war ich ziemlich arm.",
+    "en": "I was pretty poor as a kid."
+  },
+  "regional": null,
+  "trick": "ARM sounds like English arm: a poor beggar holds out an arm for a coin.",
+  "image": "/deck-de/img/arm-poor.webp",
+  "audio": {
+    "word": "/deck-de/audio/arm-poor.word.mp3",
+    "sentence": "/deck-de/audio/arm-poor.sentence.mp3"
+  }
+}

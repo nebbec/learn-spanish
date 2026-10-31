@@ -1,0 +1,17 @@
+{
+  "id": "handeln-be-about",
+  "rank": 701,
+  "word": "handeln",
+  "draft": "2bddf915fce8b430",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be about (of a story or topic, handeln von); also to act, to trade",
+    "example": "The film is about a dog."
+  },
+  "note": "The hint's mention of sich um points to es handelt sich um (it's a matter of), which is a slightly different use from a story being about something, but the hint is still right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:36.923Z"
+}

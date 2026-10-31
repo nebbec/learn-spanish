@@ -1,0 +1,33 @@
+{
+  "id": "fahren-drive",
+  "rank": 154,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fahren",
+  "en": "to drive",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er": "fährt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gefahren"
+    }
+  },
+  "example": {
+    "target": "Du fährst echt zu schnell.",
+    "en": "You really drive too fast."
+  },
+  "regional": null,
+  "trick": "FAHREN sounds like far-en: you drive a car when you need to go far.",
+  "image": "/deck-de/img/fahren-drive.webp",
+  "audio": {
+    "word": "/deck-de/audio/fahren-drive.word.mp3",
+    "sentence": "/deck-de/audio/fahren-drive.sentence.mp3"
+  }
+}

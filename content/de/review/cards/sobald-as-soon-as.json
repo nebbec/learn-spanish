@@ -1,0 +1,17 @@
+{
+  "id": "sobald-as-soon-as",
+  "rank": 655,
+  "word": "sobald",
+  "draft": "52b3c83075faa76f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "as soon as",
+    "example": "Call me as soon as you're home."
+  },
+  "note": "The example uses the same sentence as the prompt, which is fine, and it shows the verb going to the end of the sobald clause (bist).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:15.113Z"
+}

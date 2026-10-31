@@ -1,0 +1,17 @@
+{
+  "id": "wahl-choice",
+  "rank": 595,
+  "word": "Wahl",
+  "draft": "c40492e30ae5a945",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "choice, option (also election, vote)",
+    "example": "I have no choice."
+  },
+  "note": "The hint is useful because it points away from die Auswahl (a range to pick from) and die Entscheidung (a decision), and toward the set phrase keine Wahl haben; the plural die Wahlen is almost always used to mean elections.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:53.480Z"
+}

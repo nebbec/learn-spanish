@@ -1,0 +1,33 @@
+{
+  "id": "teilen-share",
+  "rank": 636,
+  "kind": "content",
+  "pos": "verb",
+  "target": "teilen",
+  "en": "to share",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "teile",
+      "du": "teilst",
+      "er": "teilt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geteilt"
+    }
+  },
+  "example": {
+    "target": "Wir teilen uns eine Pizza.",
+    "en": "We're sharing a pizza."
+  },
+  "regional": null,
+  "trick": "TEILEN sounds like \"TILE-en\": you cut a cake into tiles so everyone can share it.",
+  "image": "/deck-de/img/teilen-share.webp",
+  "audio": {
+    "word": "/deck-de/audio/teilen-share.word.mp3",
+    "sentence": "/deck-de/audio/teilen-share.sentence.mp3"
+  }
+}

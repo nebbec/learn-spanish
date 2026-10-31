@@ -1,0 +1,15 @@
+{
+  "rank": 777,
+  "word": "weise",
+  "cards": [
+    "weise-wise"
+  ],
+  "skip": null,
+  "sameAs": {
+    "weise-wise": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:23.201Z"
+}

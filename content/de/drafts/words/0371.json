@@ -1,0 +1,17 @@
+{
+  "rank": 371,
+  "word": "dran",
+  "cards": [
+    "dran-turn",
+    "dran-on-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dran-turn": "tocar-be-turn",
+    "dran-on-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:23.409Z"
+}

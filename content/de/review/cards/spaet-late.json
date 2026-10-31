@@ -1,0 +1,17 @@
+{
+  "id": "spaet-late",
+  "rank": 373,
+  "word": "spät",
+  "draft": "b520467b6501800b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "late",
+    "example": "It's already late, I'm going to bed."
+  },
+  "note": "verspätet also means late (delayed), but spät is the clear basic answer for a bare \"late\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:51.714Z"
+}

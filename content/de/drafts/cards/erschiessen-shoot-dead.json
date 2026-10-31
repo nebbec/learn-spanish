@@ -1,0 +1,33 @@
+{
+  "id": "erschiessen-shoot-dead",
+  "rank": 629,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erschießen",
+  "en": "to shoot dead",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "erschieße",
+      "du": "erschießt",
+      "er": "erschießt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erschossen"
+    }
+  },
+  "example": {
+    "target": "Er hat den Mann einfach erschossen.",
+    "en": "He just shot the man dead."
+  },
+  "regional": null,
+  "trick": "Inside erSCHIESSEN is schießen, said SHEE-sen, which begins like shoot; the er- in front makes it shoot dead.",
+  "image": "/deck-de/img/erschiessen-shoot-dead.webp",
+  "audio": {
+    "word": "/deck-de/audio/erschiessen-shoot-dead.word.mp3",
+    "sentence": "/deck-de/audio/erschiessen-shoot-dead.sentence.mp3"
+  }
+}

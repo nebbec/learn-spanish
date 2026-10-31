@@ -1,0 +1,17 @@
+{
+  "id": "gross-tall",
+  "rank": 143,
+  "word": "groß",
+  "draft": "df6b4bf4fd9c3e43",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "tall (of a person); also big, large",
+    "example": "Your brother is pretty tall."
+  },
+  "note": "The hint \"a person\" is needed because it rules out hoch, which is used for buildings and mountains; the card's answer is the same word as the \"big\" card, so the two don't compete.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:41.344Z"
+}

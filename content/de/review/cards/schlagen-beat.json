@@ -1,0 +1,23 @@
+{
+  "id": "schlagen-beat",
+  "rank": 364,
+  "word": "schlagen",
+  "draft": "54fdd7355b1ffb54",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint's word 'defeat' points straight at besiegen (to defeat), which is also a common right answer for beating an opponent, so the prompt has two right answers.",
+      "fix": "hint: win against a team or rival, as in we beat them 3 to 1; the everyday word, not besiegen"
+    }
+  ],
+  "back": {
+    "target": "to beat, to defeat (an opponent); also to hit, to strike",
+    "example": "We beat them three to one."
+  },
+  "note": "No Spanish card means to defeat: ganar-win is to win and golpear-hit is to hit, so null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:51:44.805Z"
+}

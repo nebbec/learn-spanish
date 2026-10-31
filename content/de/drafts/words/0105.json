@@ -1,0 +1,15 @@
+{
+  "rank": 105,
+  "word": "euch",
+  "cards": [
+    "euch-you-plural"
+  ],
+  "skip": null,
+  "sameAs": {
+    "euch-you-plural": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:42.240Z"
+}

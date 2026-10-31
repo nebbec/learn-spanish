@@ -1,0 +1,33 @@
+{
+  "id": "duerfen-may",
+  "rank": 162,
+  "kind": "content",
+  "pos": "verb",
+  "target": "dürfen",
+  "en": "to be allowed to",
+  "hint": "may",
+  "grammar": {
+    "present": {
+      "ich": "darf",
+      "du": "darfst",
+      "er": "darf"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedurft"
+    }
+  },
+  "example": {
+    "target": "Darf ich reinkommen?",
+    "en": "May I come in?"
+  },
+  "regional": null,
+  "trick": "Ich DARF sounds like I dare: when you're allowed to, you dare to do it.",
+  "image": "/deck-de/img/duerfen-may.webp",
+  "audio": {
+    "word": "/deck-de/audio/duerfen-may.word.mp3",
+    "sentence": "/deck-de/audio/duerfen-may.sentence.mp3"
+  }
+}

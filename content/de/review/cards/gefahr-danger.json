@@ -1,0 +1,17 @@
+{
+  "id": "gefahr-danger",
+  "rank": 747,
+  "word": "Gefahr",
+  "draft": "66276fc8226ea2ab",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "danger (noun)",
+    "example": "You're in danger!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:46.299Z"
+}

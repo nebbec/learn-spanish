@@ -1,0 +1,14 @@
+{
+  "id": "beschuetzen-protect",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use beschützen for watching over a person; schützen for protecting in general, as from rain or cold.",
+  "draft": "e27db6c5963dbe4f",
+  "group": "#689 beschützen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:42.837Z"
+}

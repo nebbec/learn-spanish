@@ -1,0 +1,14 @@
+{
+  "id": "zukunft-future",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ab8cff7189301856",
+  "group": "#624 Zukunft",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:26.327Z"
+}

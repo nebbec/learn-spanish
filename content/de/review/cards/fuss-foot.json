@@ -1,0 +1,17 @@
+{
+  "id": "fuss-foot",
+  "rank": 600,
+  "word": "Fuß",
+  "draft": "115a5800064563cb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "foot",
+    "example": "My foot hurts."
+  },
+  "note": "In colloquial southern German, Austrian and Swiss usage, Fuß can also mean the whole leg, but for the meaning foot the word is the same everywhere, so regional null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:18.127Z"
+}

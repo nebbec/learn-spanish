@@ -1,0 +1,17 @@
+{
+  "id": "denn-because",
+  "rank": 99,
+  "word": "denn",
+  "draft": "1f563ab98459e18b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "because, for (a coordinating conjunction that keeps normal verb-second word order)",
+    "example": "I'm staying home today, because I'm tired."
+  },
+  "note": "The hint is needed: it rules out weil and da, which both send the verb to the end. In casual speech Germans more often say weil (often with the verb second), so denn here is a bit more written or careful, but it is still common and correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:15.150Z"
+}

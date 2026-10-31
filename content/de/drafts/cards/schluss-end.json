@@ -1,0 +1,25 @@
+{
+  "id": "schluss-end",
+  "rank": 715,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Schluss",
+  "en": "end",
+  "hint": "the finish, as in Schluss machen; not das Ende",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Schlüsse"
+  },
+  "example": {
+    "target": "Der Schluss vom Film war super.",
+    "en": "The end of the movie was great."
+  },
+  "regional": null,
+  "trick": "SCHLUSS sounds like a door going shloos as it shuts, and it comes from schließen, to close: the closing point is the end.",
+  "image": "/deck-de/img/schluss-end.webp",
+  "audio": {
+    "word": "/deck-de/audio/schluss-end.word.mp3",
+    "sentence": "/deck-de/audio/schluss-end.sentence.mp3"
+  }
+}

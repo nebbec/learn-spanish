@@ -1,0 +1,17 @@
+{
+  "rank": 543,
+  "word": "Geschäft",
+  "cards": [
+    "geschaeft-business",
+    "geschaeft-shop"
+  ],
+  "skip": null,
+  "sameAs": {
+    "geschaeft-business": "negocio-business",
+    "geschaeft-shop": "tienda-store"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:08.890Z"
+}

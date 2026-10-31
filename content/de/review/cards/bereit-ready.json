@@ -1,0 +1,17 @@
+{
+  "id": "bereit-ready",
+  "rank": 316,
+  "word": "bereit",
+  "draft": "9f733d54fae88991",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "ready, prepared; willing (to do something)",
+    "example": "Are you ready? We're heading off in a moment."
+  },
+  "note": "The hint is needed: it rules out fertig, the everyday word for \"ready\" (as in \"done\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:08.448Z"
+}

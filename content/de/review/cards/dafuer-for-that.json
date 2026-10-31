@@ -1,0 +1,17 @@
+{
+  "id": "dafuer-for-that",
+  "rank": 225,
+  "word": "dafür",
+  "draft": "a523f95b8ca2f2c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "for it, for that (also: in favour of it; in return)",
+    "example": "Thanks for that, that was really nice."
+  },
+  "note": "The hint \"one word\" is useful because it rules out \"für das\"; since this is the word's only card, its other common meanings (\"in favour of it\", as in \"Ich bin dafür\", and \"in return\") are not taught, so a second card could be worth adding later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:50.471Z"
+}

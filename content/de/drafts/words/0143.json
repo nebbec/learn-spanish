@@ -1,0 +1,17 @@
+{
+  "rank": 143,
+  "word": "groß",
+  "cards": [
+    "gross-big",
+    "gross-tall"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gross-big": "grande-big",
+    "gross-tall": "alto-tall"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:13.021Z"
+}

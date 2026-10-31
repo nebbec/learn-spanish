@@ -1,0 +1,30 @@
+# dabei-in · rank 272 · dabei
+#
+# Why it was flagged:
+#   - Example sentence: The example is two sentences, but the card format calls for one short sentence. Suggested fix: example.target: Wir gehen heute schwimmen, bist du dabei? / example.en: We're going swimming today, are you in?
+# Reviewer's note (not a reason to flag): Ich bin dabei is the standard way to say I'm in, and this card's taking-part meaning is clearly different from the other card's meaning of having something on you.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             dabei-in
+kind:           glue
+pos:            adverb
+target:         dabei
+en:             Great idea, I'm [in]!
+hint:           taking part, one word
+example.target: Wir gehen heute schwimmen, bist du dabei?
+example.en:     We're going swimming today, are you in?
+regional.where:
+regional.text:
+trick:          DABEI sounds like "dah-BY": I'll be right there by your side, so count me in.
+
+# The draft this file was made from. Do not change it.
+draft: a3c6bd212976e1d5

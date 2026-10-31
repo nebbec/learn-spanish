@@ -1,0 +1,14 @@
+{
+  "id": "liegen-lie",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use liegen when something is lying somewhere; legen when you put it down flat.",
+  "draft": "04fb920e109912b1",
+  "group": "#247 liegen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:16.726Z"
+}

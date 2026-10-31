@@ -1,0 +1,33 @@
+{
+  "id": "sorgen-worry",
+  "rank": 236,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sorgen",
+  "en": "to worry",
+  "hint": "one verb with sich and um",
+  "grammar": {
+    "present": {
+      "ich": "sorge",
+      "du": "sorgst",
+      "er": "sorgt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesorgt"
+    }
+  },
+  "example": {
+    "target": "Ich sorge mich um dich.",
+    "en": "I'm worried about you."
+  },
+  "regional": null,
+  "trick": "SORGEN (ZOR-gen) sounds like sore again: worrying leaves your head sore again.",
+  "image": "/deck-de/img/sorgen-worry.webp",
+  "audio": {
+    "word": "/deck-de/audio/sorgen-worry.word.mp3",
+    "sentence": "/deck-de/audio/sorgen-worry.sentence.mp3"
+  }
+}

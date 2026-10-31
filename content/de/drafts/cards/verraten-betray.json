@@ -1,0 +1,33 @@
+{
+  "id": "verraten-betray",
+  "rank": 641,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verraten",
+  "en": "to betray",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verrate",
+      "du": "verrätst",
+      "er": "verrät"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verraten"
+    }
+  },
+  "example": {
+    "target": "Er hat uns alle verraten.",
+    "en": "He betrayed us all."
+  },
+  "regional": null,
+  "trick": "VERRATEN sounds a bit like fair rotten: betraying a friend is far from fair and truly rotten.",
+  "image": "/deck-de/img/verraten-betray.webp",
+  "audio": {
+    "word": "/deck-de/audio/verraten-betray.word.mp3",
+    "sentence": "/deck-de/audio/verraten-betray.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "krankenhaus-hospital",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e57de0a4df0b292c",
+  "group": "#662 Krankenhaus",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:47.130Z"
+}

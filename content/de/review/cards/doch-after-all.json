@@ -1,0 +1,17 @@
+{
+  "id": "doch-after-all",
+  "rank": 68,
+  "word": "doch",
+  "draft": "1666e1e16bdf0e3d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "after all, anyway (contrary to what was expected)",
+    "example": "He did come after all (in the end)."
+  },
+  "note": "The hint usefully rules out trotzdem and longer words like schließlich, and the example's \"doch noch\" is the most natural way to say \"after all\" for something that happened against expectation.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:22.223Z"
+}

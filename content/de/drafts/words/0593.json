@@ -1,0 +1,15 @@
+{
+  "rank": 593,
+  "word": "bewegen",
+  "cards": [
+    "bewegen-move"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bewegen-move": "mover-move"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:15.106Z"
+}

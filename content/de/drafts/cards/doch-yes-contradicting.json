@@ -1,0 +1,21 @@
+{
+  "id": "doch-yes-contradicting",
+  "rank": 68,
+  "kind": "glue",
+  "pos": "other",
+  "target": "doch",
+  "en": "You're not coming? [Yes], I am!",
+  "hint": "yes that contradicts a negative question",
+  "grammar": null,
+  "example": {
+    "target": "Du hast keinen Hunger? Doch!",
+    "en": "You're not hungry? Yes, I am!"
+  },
+  "regional": null,
+  "trick": "DOCH ends in the throaty ch of Scottish loch, like a stubborn Scot insisting: oh yes it is!",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/doch-yes-contradicting.word.mp3",
+    "sentence": "/deck-de/audio/doch-yes-contradicting.sentence.mp3"
+  }
+}

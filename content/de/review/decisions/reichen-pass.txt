@@ -1,0 +1,37 @@
+# reichen-pass · rank 324 · reichen
+#
+# Why it was flagged:
+#   - One right answer: The hint 'hand something to someone' does not rule out geben, which is the most common everyday way to say this (Gibst du mir mal das Salz?), and rübergeben or weitergeben would also be correct. Suggested fix: hint: hand something to someone, a bit more polite than geben (not geben or rübergeben)
+# Reviewer's note (not a reason to flag): In everyday speech geben or rübergeben is used for passing things more often than reichen, which sounds slightly more polite, so the editor might consider whether this second meaning is worth its own card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 reichen-pass
+kind:               content
+pos:                verb
+target:             reichen
+en:                 to pass
+hint:               hand something to someone, a bit more polite than geben (not geben or rübergeben)
+ich:                reiche
+du:                 reichst
+er:                 reicht
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gereicht
+example.target:     Reichst du mir mal das Salz?
+example.en:         Can you pass me the salt?
+regional.where:
+regional.text:
+trick:              REICHEN sounds like reaching: you reach across the table to pass someone the salt.
+
+# The draft this file was made from. Do not change it.
+draft: f1e73ee06bdd278f

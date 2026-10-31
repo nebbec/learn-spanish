@@ -1,0 +1,15 @@
+{
+  "rank": 597,
+  "word": "gefährlich",
+  "cards": [
+    "gefaehrlich-dangerous"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gefaehrlich-dangerous": "peligroso-dangerous"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:34.005Z"
+}

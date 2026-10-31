@@ -1,0 +1,17 @@
+{
+  "rank": 265,
+  "word": "setzen",
+  "cards": [
+    "setzen-sit-down",
+    "setzen-put"
+  ],
+  "skip": null,
+  "sameAs": {
+    "setzen-sit-down": "sentar-sit-down",
+    "setzen-put": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:48.449Z"
+}

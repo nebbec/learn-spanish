@@ -1,0 +1,21 @@
+{
+  "id": "mehr-more",
+  "rank": 83,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "mehr",
+  "en": "more",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich brauche mehr Zeit.",
+    "en": "I need more time."
+  },
+  "regional": null,
+  "trick": "MEHR sounds like \"mare\": a hungry mare always wants more hay.",
+  "image": "/deck-de/img/mehr-more.webp",
+  "audio": {
+    "word": "/deck-de/audio/mehr-more.word.mp3",
+    "sentence": "/deck-de/audio/mehr-more.sentence.mp3"
+  }
+}

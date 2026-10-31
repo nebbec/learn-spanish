@@ -1,0 +1,17 @@
+{
+  "id": "bereits-already",
+  "rank": 533,
+  "word": "bereits",
+  "draft": "493106baad0d2700",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "already",
+    "example": "The train is already gone."
+  },
+  "note": "The hint is needed here, because without it schon would be the natural answer for already.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:50.695Z"
+}

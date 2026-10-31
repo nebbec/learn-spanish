@@ -1,0 +1,14 @@
+{
+  "id": "maedchen-girl",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1c98fe63e8dd4cb7",
+  "group": "#228 Mädchen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:44.133Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "geist-ghost",
+  "rank": 656,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Geist",
+  "en": "ghost",
+  "hint": "one syllable, not Gespenst",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Geister"
+  },
+  "example": {
+    "target": "Glaubst du an Geister?",
+    "en": "Do you believe in ghosts?"
+  },
+  "regional": null,
+  "trick": "GEIST sounds like ghost with eye in the middle: a ghost floating through the house.",
+  "image": "/deck-de/img/geist-ghost.webp",
+  "audio": {
+    "word": "/deck-de/audio/geist-ghost.word.mp3",
+    "sentence": "/deck-de/audio/geist-ghost.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "beide-both",
+  "rank": 203,
+  "word": "beide",
+  "draft": "85467363201efd22",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, \"I'll take both\" can just as well be \"Ich nehme beides\", which is the usual form for two different things (say coffee and cake), so the learner could correctly recall beides instead of beide.",
+      "fix": "hint: the two shirts"
+    }
+  ],
+  "back": {
+    "target": "both (the two of them)",
+    "example": "We're both totally tired."
+  },
+  "note": "Since this is the word's only card, the editor might also mention that it becomes beiden after an article or possessive (meine beiden Brüder), but the card is fine without that.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:04.478Z"
+}

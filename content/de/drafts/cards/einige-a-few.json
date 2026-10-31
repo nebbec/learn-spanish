@@ -1,0 +1,21 @@
+{
+  "id": "einige-a-few",
+  "rank": 354,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "einige",
+  "en": "I still have [a few] questions",
+  "hint": "one word, not ein paar",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe noch einige Fragen an dich.",
+    "en": "I still have a few questions for you."
+  },
+  "regional": null,
+  "trick": "EINIGE sounds like \"eye-nigga\" minus a sound; think \"EIN\" (one) growing into several: one, then a few more.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/einige-a-few.word.mp3",
+    "sentence": "/deck-de/audio/einige-a-few.sentence.mp3"
+  }
+}

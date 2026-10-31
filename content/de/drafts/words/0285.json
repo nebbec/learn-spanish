@@ -1,0 +1,15 @@
+{
+  "rank": 285,
+  "word": "Auge",
+  "cards": [
+    "auge-eye"
+  ],
+  "skip": null,
+  "sameAs": {
+    "auge-eye": "ojo-eye"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:59.187Z"
+}

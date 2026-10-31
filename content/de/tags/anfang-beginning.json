@@ -1,0 +1,14 @@
+{
+  "id": "anfang-beginning",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "add89778d53185d4",
+  "group": "#712 Anfang",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:26.890Z"
+}

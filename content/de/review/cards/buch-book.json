@@ -1,0 +1,17 @@
+{
+  "id": "buch-book",
+  "rank": 466,
+  "word": "Buch",
+  "draft": "990162cefd60040c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "book",
+    "example": "I'm reading an exciting book at the moment."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:22.090Z"
+}

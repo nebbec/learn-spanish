@@ -1,0 +1,14 @@
+{
+  "id": "lang-long-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use lange for how long an action lasts; lang describes a long thing.",
+  "draft": "027d714670af28d6",
+  "group": "#133 lang",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:35.020Z"
+}

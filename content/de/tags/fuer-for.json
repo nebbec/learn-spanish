@@ -1,0 +1,14 @@
+{
+  "id": "fuer-for",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ec74a3d83f979f66",
+  "group": "#33 für",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:31.267Z"
+}

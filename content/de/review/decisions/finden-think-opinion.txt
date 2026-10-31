@@ -1,0 +1,37 @@
+# finden-think-opinion · rank 95 · finden
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out denken or meinen, since a learner could well say 'Ich denke, das ist toll' for 'I think it's great'. Suggested fix: hint: to judge something you've seen or tried, as in I think the film is great (not denken or glauben)
+# Reviewer's note (not a reason to flag): Irregular is correctly true even though the present is regular, because the participle gefunden is strong.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 finden-think-opinion
+kind:               content
+pos:                verb
+target:             finden
+en:                 to think
+hint:               to judge something you've seen or tried, as in I think the film is great (not denken or glauben)
+ich:                finde
+du:                 findest
+er:                 findet
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gefunden
+example.target:     Wie findest du den Film?
+example.en:         What do you think of the movie?
+regional.where:
+regional.text:
+trick:              FINDEN is find, as in How do you find it? meaning What do you think of it?
+
+# The draft this file was made from. Do not change it.
+draft: 10691acc627e056e

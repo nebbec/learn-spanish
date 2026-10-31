@@ -1,0 +1,30 @@
+# runter-down · rank 362 · runter
+#
+# Why it was flagged:
+#   - One right answer: For down with movement downward, as in come down, herunter and nach unten are equally right answers, and the hint does not rule them out. Suggested fix: hint: movement downward, the short everyday word, as in come down (not herunter or nach unten)
+# Reviewer's note (not a reason to flag): Austrian and Swiss dialect words (aba/obi, abe) differ, but standard speech there also uses runter, so a null regional is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             runter-down
+kind:           content
+pos:            adverb
+target:         runter
+en:             down
+hint:           movement downward, the short everyday word, as in come down (not herunter or nach unten)
+example.target: Komm sofort runter!
+example.en:     Come down right now!
+regional.where:
+regional.text:
+trick:          RUNTER sounds like "roon-ter": picture a stone rune tumbling down the stairs.
+
+# The draft this file was made from. Do not change it.
+draft: 06f18fa99d8dcfe8

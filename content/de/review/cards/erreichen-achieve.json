@@ -1,0 +1,17 @@
+{
+  "id": "erreichen-achieve",
+  "rank": 606,
+  "word": "erreichen",
+  "draft": "34c182a7c0694d9c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to reach, to achieve (a goal), to get hold of",
+    "example": "You've reached your goal!"
+  },
+  "note": "The hint \"a goal\" is needed here, because without it \"to achieve\" could also be erzielen or schaffen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:00.390Z"
+}

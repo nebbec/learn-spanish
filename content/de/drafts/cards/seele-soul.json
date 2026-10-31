@@ -1,0 +1,25 @@
+{
+  "id": "seele-soul",
+  "rank": 738,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Seele",
+  "en": "soul",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Seelen"
+  },
+  "example": {
+    "target": "Du bist wirklich eine gute Seele.",
+    "en": "You're really a good soul."
+  },
+  "regional": null,
+  "trick": "SEELE sounds like ZAY-luh, a cousin of English soul: picture your soul setting sail to heaven.",
+  "image": "/deck-de/img/seele-soul.webp",
+  "audio": {
+    "word": "/deck-de/audio/seele-soul.word.mp3",
+    "sentence": "/deck-de/audio/seele-soul.sentence.mp3"
+  }
+}

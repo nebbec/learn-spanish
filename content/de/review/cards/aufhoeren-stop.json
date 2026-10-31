@@ -1,0 +1,17 @@
+{
+  "id": "aufhoeren-stop",
+  "rank": 453,
+  "word": "aufhören",
+  "draft": "cf73c7e1f93383a8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to stop (doing something), to quit, to end",
+    "example": "Stop getting on my nerves!"
+  },
+  "note": "The hint is needed to rule out anhalten and stoppen (stopping a vehicle or a movement), and it does rule them out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:18.173Z"
+}

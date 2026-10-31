@@ -1,0 +1,17 @@
+{
+  "id": "auto-car",
+  "rank": 312,
+  "word": "Auto",
+  "draft": "a30e4847cfaca611",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "car",
+    "example": "Your car is (parked) in front of the house."
+  },
+  "note": "der Wagen also means car, but das Auto is the everyday word anyone would give for a bare \"car\", so the card works without a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:43.873Z"
+}

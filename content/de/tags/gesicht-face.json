@@ -1,0 +1,14 @@
+{
+  "id": "gesicht-face",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "05c03f7297c67aa9",
+  "group": "#429 Gesicht",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:29.169Z"
+}

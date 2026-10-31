@@ -1,0 +1,14 @@
+{
+  "id": "gegen-around-time",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use gegen for a rough time (around eight); um for an exact clock time (at eight).",
+  "draft": "be51f5224c3f9d2d",
+  "group": "#263 gegen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:54.541Z"
+}

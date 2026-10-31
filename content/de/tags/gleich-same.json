@@ -1,0 +1,14 @@
+{
+  "id": "gleich-same",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "332f633c745fc67b",
+  "group": "#173 gleich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:40.624Z"
+}

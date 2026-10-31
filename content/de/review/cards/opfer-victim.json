@@ -1,0 +1,17 @@
+{
+  "id": "opfer-victim",
+  "rank": 547,
+  "word": "Opfer",
+  "draft": "083b8e1e8e36d36d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "victim (also: sacrifice, offering)",
+    "example": "The victim knew the perpetrator."
+  },
+  "note": "Täter is closer to \"perpetrator\" or \"offender\" than \"attacker\", so example.en could say \"The victim knew the perpetrator\", though \"attacker\" works in this context.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:57.998Z"
+}

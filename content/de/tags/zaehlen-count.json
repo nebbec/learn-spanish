@@ -1,0 +1,14 @@
+{
+  "id": "zaehlen-count",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Zählen (with ä) means to count; zahlen (no umlaut) means to pay.",
+  "draft": "12c120e21a3f3a41",
+  "group": "#746 zählen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:36.855Z"
+}

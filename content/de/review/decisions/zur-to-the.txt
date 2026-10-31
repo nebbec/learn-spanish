@@ -1,0 +1,30 @@
+# zur-to-the · rank 160 · zur
+#
+# Why it was flagged:
+#   - One right answer: In Germany a train station is der Bahnhof, which is masculine, so the natural answer is zum Bahnhof; the hint saying the noun is feminine pushes the learner toward the rare zur Station. Suggested fix: en: I'm going [to the] bank
+# Reviewer's note (not a reason to flag): With the prompt changed to bank (zur Bank), the current hint still works, because it rules out other ways to say to the, such as in die.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             zur-to-the
+kind:           glue
+pos:            preposition
+target:         zur
+en:             I'm going [to the] bank
+hint:           one word: zu + der, before a die-word
+example.target: Ich gehe jetzt zur Arbeit.
+example.en:     I'm going to work now.
+regional.where:
+regional.text:
+trick:          ZUR sounds like "tsoor": it is zu (to) with the r of der stuck on, so it means to the.
+
+# The draft this file was made from. Do not change it.
+draft: 3e48f28a51d112c6

@@ -1,0 +1,17 @@
+{
+  "id": "nochmal-again",
+  "rank": 657,
+  "word": "nochmal",
+  "draft": "1231103cefc16bc3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "again, once more",
+    "example": "Can you say that again?"
+  },
+  "note": "A learner may answer the full form noch einmal, which is the same word, and Switzerland and Austria often say nochmals, but neither difference is large enough to change the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:36.509Z"
+}

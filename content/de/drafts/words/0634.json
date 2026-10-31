@@ -1,0 +1,15 @@
+{
+  "rank": 634,
+  "word": "seltsam",
+  "cards": [
+    "seltsam-strange"
+  ],
+  "skip": null,
+  "sameAs": {
+    "seltsam-strange": "extrano-strange"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:59.233Z"
+}

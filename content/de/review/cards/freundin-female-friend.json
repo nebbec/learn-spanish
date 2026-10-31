@@ -1,0 +1,17 @@
+{
+  "id": "freundin-female-friend",
+  "rank": 437,
+  "word": "Freundin",
+  "draft": "95a6671b9fd78ae8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "female friend; also girlfriend",
+    "example": "This is Lena, a friend from school."
+  },
+  "note": "The example uses \"eine Freundin aus der Schule\", which is good because it clearly means a friend; \"meine Freundin\" on its own usually means girlfriend, and it may be worth pointing that out where the two cards link.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:01.604Z"
+}

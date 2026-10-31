@@ -1,0 +1,17 @@
+{
+  "id": "raten-guess",
+  "rank": 541,
+  "word": "raten",
+  "draft": "0f53f43d6c7d9e12",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to guess",
+    "example": "Guess who called!"
+  },
+  "note": "schätzen also covers guessing numbers (estimate), but raten is clearly the standard answer for to guess, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:17.756Z"
+}

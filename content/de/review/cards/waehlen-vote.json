@@ -1,0 +1,17 @@
+{
+  "id": "waehlen-vote",
+  "rank": 790,
+  "word": "wählen",
+  "draft": "09658c04dda13ee4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to vote (for), to elect; also to choose, to dial",
+    "example": "Who are you voting for in September?"
+  },
+  "note": "The hint \"in an election\" is needed: without it, abstimmen (to vote on a proposal or motion) would also be a right answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:16.129Z"
+}

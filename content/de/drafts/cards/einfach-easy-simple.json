@@ -1,0 +1,21 @@
+{
+  "id": "einfach-easy-simple",
+  "rank": 113,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "einfach",
+  "en": "easy, simple",
+  "hint": "the word that also means simple",
+  "grammar": null,
+  "example": {
+    "target": "Die Frage ist echt einfach.",
+    "en": "The question is really easy."
+  },
+  "regional": null,
+  "trick": "EINFACH is ein (one) plus fach (fold): something onefold, with no layers, is simple and easy.",
+  "image": "/deck-de/img/einfach-easy-simple.webp",
+  "audio": {
+    "word": "/deck-de/audio/einfach-easy-simple.word.mp3",
+    "sentence": "/deck-de/audio/einfach-easy-simple.sentence.mp3"
+  }
+}

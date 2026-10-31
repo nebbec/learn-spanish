@@ -1,0 +1,25 @@
+{
+  "id": "stunde-hour",
+  "rank": 276,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Stunde",
+  "en": "hour",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Stunden"
+  },
+  "example": {
+    "target": "Ich warte schon seit einer Stunde.",
+    "en": "I've been waiting for an hour."
+  },
+  "regional": null,
+  "trick": "STUNDE sounds like SHTOON-duh, close to stunned: waiting a whole hour left me stunned.",
+  "image": "/deck-de/img/stunde-hour.webp",
+  "audio": {
+    "word": "/deck-de/audio/stunde-hour.word.mp3",
+    "sentence": "/deck-de/audio/stunde-hour.sentence.mp3"
+  }
+}

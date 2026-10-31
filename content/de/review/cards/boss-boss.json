@@ -1,0 +1,17 @@
+{
+  "id": "boss-boss",
+  "rank": 686,
+  "word": "Boss",
+  "draft": "c0cc29b8d7828ef9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "boss (informal, the person in charge)",
+    "example": "I'm the boss here."
+  },
+  "note": "The hint is needed: it rules out Chef, the more common everyday word, and Vorgesetzter, and it would be worth adding a Chef card later.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:12.223Z"
+}

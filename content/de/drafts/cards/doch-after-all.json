@@ -1,0 +1,21 @@
+{
+  "id": "doch-after-all",
+  "rank": 68,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "doch",
+  "en": "He came [after all].",
+  "hint": "one short word, not trotzdem",
+  "grammar": null,
+  "example": {
+    "target": "Er ist doch noch gekommen.",
+    "en": "He came after all."
+  },
+  "regional": null,
+  "trick": "DOCH rhymes with Scottish loch: you swore you'd never visit Loch Ness, but you went after all.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/doch-after-all.word.mp3",
+    "sentence": "/deck-de/audio/doch-after-all.sentence.mp3"
+  }
+}

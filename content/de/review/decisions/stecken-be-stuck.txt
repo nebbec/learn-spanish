@@ -1,0 +1,37 @@
+# stecken-be-stuck · rank 412 · stecken
+#
+# Why it was flagged:
+#   - One right answer: For a bare "to be stuck", feststecken or stecken bleiben would be just as right, and the hint's "where are you hiding?" points to sich verstecken, so the hint misleads instead of narrowing to stecken. Suggested fix: en: to be (stuck) somewhere; hint: no object, same verb as to put in, as in Wo ___ du? (Where are you?)
+# Reviewer's note (not a reason to flag): With no object, stecken is often used with sein in its Perfekt in southern Germany and Austria (ist gesteckt), but haben is right for standard German.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 stecken-be-stuck
+kind:               content
+pos:                verb
+target:             stecken
+en:                 to be (stuck) somewhere
+hint:               no object, same verb as to put in, as in Wo ___ du? (Where are you?)
+ich:                stecke
+du:                 steckst
+er:                 steckt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gesteckt
+example.target:     Wir stecken im Stau.
+example.en:         We're stuck in traffic.
+regional.where:
+regional.text:
+trick:              STECK-en sounds like 'stuck in': when you're stuck in traffic, you 'steckst' in traffic.
+
+# The draft this file was made from. Do not change it.
+draft: a43d1858a88ba5f8

@@ -1,0 +1,14 @@
+{
+  "id": "hassen-hate",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4f44c278b82e150d",
+  "group": "#395 hassen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:25.775Z"
+}

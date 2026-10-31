@@ -1,0 +1,14 @@
+{
+  "id": "man-one",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use man, lower case with one n, for people in general; der Mann is a man.",
+  "draft": "fa26a62de03f56fa",
+  "group": "#76 man",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:51.248Z"
+}

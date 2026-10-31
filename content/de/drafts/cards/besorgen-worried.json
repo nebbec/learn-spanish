@@ -1,0 +1,21 @@
+{
+  "id": "besorgen-worried",
+  "rank": 581,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "besorgt",
+  "en": "worried",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Meine Mutter ist total besorgt.",
+    "en": "My mom is really worried."
+  },
+  "regional": null,
+  "trick": "BESORGT sounds like be-ZORKT, close to be sorrowed: worried people look full of sorrow.",
+  "image": "/deck-de/img/besorgen-worried.webp",
+  "audio": {
+    "word": "/deck-de/audio/besorgen-worried.word.mp3",
+    "sentence": "/deck-de/audio/besorgen-worried.sentence.mp3"
+  }
+}

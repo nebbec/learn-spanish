@@ -1,0 +1,21 @@
+{
+  "id": "meist-most",
+  "rank": 604,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "meist",
+  "en": "[most] of my friends live in Berlin",
+  "hint": "base form; in the sentence it is die meisten",
+  "grammar": null,
+  "example": {
+    "target": "Die meisten meiner Freunde wohnen in Berlin.",
+    "en": "Most of my friends live in Berlin."
+  },
+  "regional": null,
+  "trick": "MEIST rhymes with iced, and starts with the M of most: in summer, most drinks are iced.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/meist-most.word.mp3",
+    "sentence": "/deck-de/audio/meist-most.sentence.mp3"
+  }
+}

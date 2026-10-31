@@ -1,0 +1,25 @@
+{
+  "id": "spiel-game",
+  "rank": 528,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Spiel",
+  "en": "game",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Spiele"
+  },
+  "example": {
+    "target": "Das Spiel fängt um acht an.",
+    "en": "The game starts at eight."
+  },
+  "regional": null,
+  "trick": "SPIEL sounds like shpeel, like the English spiel: every new game starts with a long spiel explaining the rules.",
+  "image": "/deck-de/img/spiel-game.webp",
+  "audio": {
+    "word": "/deck-de/audio/spiel-game.word.mp3",
+    "sentence": "/deck-de/audio/spiel-game.sentence.mp3"
+  }
+}

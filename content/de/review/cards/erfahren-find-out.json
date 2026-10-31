@@ -1,0 +1,17 @@
+{
+  "id": "erfahren-find-out",
+  "rank": 494,
+  "word": "erfahren",
+  "draft": "5c1143dbe4845b28",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to find out, to learn (news or information), to hear about",
+    "example": "How did you find out (about that)?"
+  },
+  "note": "The hint could add \"not herausfinden\" to more firmly rule out the investigate-sense word learners may reach for first.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:43.096Z"
+}

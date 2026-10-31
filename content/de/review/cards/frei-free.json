@@ -1,0 +1,17 @@
+{
+  "id": "frei-free",
+  "rank": 392,
+  "word": "frei",
+  "draft": "df444d4e27e4b773",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "free (not busy, not captive; also vacant)",
+    "example": "Are you off tomorrow? / Do you have tomorrow off?"
+  },
+  "note": "The example uses the fixed phrase frei haben (to have time off), which fits the not-busy sense; a sentence like \"Ist der Platz hier frei?\" would show the plain adjective too.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:53.775Z"
+}

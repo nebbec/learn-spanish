@@ -1,0 +1,21 @@
+{
+  "id": "klasse-great",
+  "rank": 650,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "klasse",
+  "en": "great",
+  "hint": "informal, the same word as class",
+  "grammar": null,
+  "example": {
+    "target": "Das Konzert war echt klasse!",
+    "en": "The concert was really great!"
+  },
+  "regional": null,
+  "trick": "KLASSE sounds like classy: something classy is really great.",
+  "image": "/deck-de/img/klasse-great.webp",
+  "audio": {
+    "word": "/deck-de/audio/klasse-great.word.mp3",
+    "sentence": "/deck-de/audio/klasse-great.sentence.mp3"
+  }
+}

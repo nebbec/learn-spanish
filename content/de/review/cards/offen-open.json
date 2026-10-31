@@ -1,0 +1,17 @@
+{
+  "id": "offen-open",
+  "rank": 649,
+  "word": "offen",
+  "draft": "58ee141586913e66",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "open (not closed; also frank, undecided)",
+    "example": "The supermarket is open until ten o'clock."
+  },
+  "note": "The hint usefully rules out colloquial \"auf\"; \"geöffnet\" is a more formal, sign-style alternative, but \"offen\" is clearly the default everyday answer for the adjective.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:45.018Z"
+}

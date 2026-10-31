@@ -1,0 +1,21 @@
+{
+  "id": "sogar-even",
+  "rank": 381,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "sogar",
+  "en": "even",
+  "hint": "as in even my dad, not selbst",
+  "grammar": null,
+  "example": {
+    "target": "Sogar mein Vater hat gelacht.",
+    "en": "Even my dad laughed."
+  },
+  "regional": null,
+  "trick": "SOGAR sounds like zo-GAR, close to so far: she went so far, she even quit her job.",
+  "image": "/deck-de/img/sogar-even.webp",
+  "audio": {
+    "word": "/deck-de/audio/sogar-even.word.mp3",
+    "sentence": "/deck-de/audio/sogar-even.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "luegen-lie",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use lügen for telling an untruth; liegen is to lie down or be located.",
+  "draft": "fd4cbf758a9bf83d",
+  "group": "#415 lügen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:05.110Z"
+}

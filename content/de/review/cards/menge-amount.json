@@ -1,0 +1,17 @@
+{
+  "id": "menge-amount",
+  "rank": 518,
+  "word": "Menge",
+  "draft": "ce21157c801bae3c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "amount, quantity; eine Menge = a lot (also: crowd)",
+    "example": "We have a lot of work today."
+  },
+  "note": "The hint is needed here, because it rules out der Betrag (an amount of money) and die Anzahl (a number of things).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:30.351Z"
+}

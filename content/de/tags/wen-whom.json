@@ -1,0 +1,16 @@
+{
+  "id": "wen-whom",
+  "unit": null,
+  "want": null,
+  "requires": [
+    "wer-who"
+  ],
+  "tip": null,
+  "why": "Use wen when who is the object (whom); use wer when who is the one doing it.",
+  "draft": "f6542be95a1572f9",
+  "group": "#482 wen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:20.573Z"
+}

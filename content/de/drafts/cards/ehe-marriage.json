@@ -1,0 +1,25 @@
+{
+  "id": "ehe-marriage",
+  "rank": 794,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Ehe",
+  "en": "marriage",
+  "hint": "being married, not the wedding",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Ehen"
+  },
+  "example": {
+    "target": "Ihre Ehe hat zwanzig Jahre gehalten.",
+    "en": "Their marriage lasted twenty years."
+  },
+  "regional": null,
+  "trick": "EHE sounds like AY-uh: you say aye at the altar, and then you're in a marriage.",
+  "image": "/deck-de/img/ehe-marriage.webp",
+  "audio": {
+    "word": "/deck-de/audio/ehe-marriage.word.mp3",
+    "sentence": "/deck-de/audio/ehe-marriage.sentence.mp3"
+  }
+}

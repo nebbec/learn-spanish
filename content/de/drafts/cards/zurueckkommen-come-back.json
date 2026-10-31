@@ -1,0 +1,33 @@
+{
+  "id": "zurueckkommen-come-back",
+  "rank": 770,
+  "kind": "content",
+  "pos": "verb",
+  "target": "zurückkommen",
+  "en": "to come back",
+  "hint": "back to a place, not come again",
+  "grammar": {
+    "present": {
+      "ich": "komme zurück",
+      "du": "kommst zurück",
+      "er": "kommt zurück"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "zurückgekommen"
+    }
+  },
+  "example": {
+    "target": "Wann kommst du zurück?",
+    "en": "When are you coming back?"
+  },
+  "regional": null,
+  "trick": "KOMMEN sounds like come, and ZURÜCK (tsoo-RUECK) is back, as in pulling a rope back: come back.",
+  "image": "/deck-de/img/zurueckkommen-come-back.webp",
+  "audio": {
+    "word": "/deck-de/audio/zurueckkommen-come-back.word.mp3",
+    "sentence": "/deck-de/audio/zurueckkommen-come-back.sentence.mp3"
+  }
+}

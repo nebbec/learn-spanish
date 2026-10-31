@@ -1,0 +1,14 @@
+{
+  "id": "doch-after-all",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1666e1e16bdf0e3d",
+  "group": "#68 doch",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:35.987Z"
+}

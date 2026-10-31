@@ -1,0 +1,33 @@
+{
+  "id": "streiten-argue",
+  "rank": 743,
+  "kind": "content",
+  "pos": "verb",
+  "target": "streiten",
+  "en": "to argue",
+  "hint": "to quarrel",
+  "grammar": {
+    "present": {
+      "ich": "streite",
+      "du": "streitest",
+      "er": "streitet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestritten"
+    }
+  },
+  "example": {
+    "target": "Wir streiten uns nie über Geld.",
+    "en": "We never argue about money."
+  },
+  "regional": null,
+  "trick": "STREIT sounds like shtrite, close to strife, and strife is what you get when people argue.",
+  "image": "/deck-de/img/streiten-argue.webp",
+  "audio": {
+    "word": "/deck-de/audio/streiten-argue.word.mp3",
+    "sentence": "/deck-de/audio/streiten-argue.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vorbei-past",
+  "rank": 367,
+  "word": "vorbei",
+  "draft": "3362a07c67374fae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "past, by (moving past something)",
+    "example": "The bus goes past us."
+  },
+  "note": "The hint is needed because it separates this card from the word's \"over (finished)\" card, and the example shows the common pattern an + dative + vorbei with a separable verb (vorbeifahren).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:12.606Z"
+}

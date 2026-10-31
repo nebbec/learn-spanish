@@ -1,0 +1,17 @@
+{
+  "id": "schicken-send",
+  "rank": 294,
+  "word": "schicken",
+  "draft": "8d9c51cce226c06c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to send",
+    "example": "I'll send you the address right away."
+  },
+  "note": "The hint is useful because it rules out senden, which also means to send but is more formal and is mostly used for broadcasting and emails.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:01.446Z"
+}

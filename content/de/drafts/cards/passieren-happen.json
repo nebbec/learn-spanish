@@ -1,0 +1,33 @@
+{
+  "id": "passieren-happen",
+  "rank": 159,
+  "kind": "content",
+  "pos": "verb",
+  "target": "passieren",
+  "en": "to happen",
+  "hint": "everyday word",
+  "grammar": {
+    "present": {
+      "ich": "passiere",
+      "du": "passierst",
+      "er": "passiert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "passiert"
+    }
+  },
+  "example": {
+    "target": "Was ist passiert?",
+    "en": "What happened?"
+  },
+  "regional": null,
+  "trick": "PASSIEREN sounds like pass-SEE-ren: things that pass by right in front of you are things that happen.",
+  "image": "/deck-de/img/passieren-happen.webp",
+  "audio": {
+    "word": "/deck-de/audio/passieren-happen.word.mp3",
+    "sentence": "/deck-de/audio/passieren-happen.sentence.mp3"
+  }
+}

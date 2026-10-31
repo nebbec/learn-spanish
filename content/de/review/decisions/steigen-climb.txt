@@ -1,0 +1,37 @@
+# steigen-climb · rank 684 · steigen
+#
+# Why it was flagged:
+#   - One right answer: The hint only rules out klettern, so besteigen, hochsteigen or (because of the word into) einsteigen would also fit to climb. Suggested fix: hint: the basic verb, as in auf den Berg ___ or in den Bus ___; not klettern
+# Reviewer's note (not a reason to flag): English stile really is related to steigen, so the trick is sound as well as memorable.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 steigen-climb
+kind:               content
+pos:                verb
+target:             steigen
+en:                 to climb
+hint:               the basic verb, as in auf den Berg ___ or in den Bus ___; not klettern
+ich:                steige
+du:                 steigst
+er:                 steigt
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gestiegen
+example.target:     Wir steigen morgen auf den Berg.
+example.en:         We're climbing the mountain tomorrow.
+regional.where:
+regional.text:
+trick:              STEIGEN starts like "shtile", close to a stile, the steps you climb to get over a fence.
+
+# The draft this file was made from. Do not change it.
+draft: 91bcf53bfec6ed6e

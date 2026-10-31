@@ -1,0 +1,28 @@
+{
+  "id": "laufen-run",
+  "rank": 199,
+  "word": "laufen",
+  "draft": "738b4baaa791f4cf",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint word 'jog' points straight at joggen, which is a common German verb and a fair answer to 'to run (jog)', so the prompt has two right answers.",
+      "fix": "hint: running at an easy pace or as exercise, not rennen (sprint)"
+    },
+    {
+      "reason": "example",
+      "problem": "'Ich laufe jeden Morgen im Park' can just as easily mean 'I walk in the park every morning', which is this word's other card, so the sentence doesn't clearly show the 'run' meaning.",
+      "fix": "example.target: Ich laufe jeden Morgen fünf Kilometer. example.en: I run five kilometers every morning."
+    }
+  ],
+  "back": {
+    "target": "to run (also, more broadly, to walk or go on foot)",
+    "example": "I run in the park every morning (it could also be read as: I walk in the park every morning)."
+  },
+  "note": "In Switzerland laufen mostly means to walk and people say rennen or (in dialect) springen for running, so the editor may want a regional note, but leaving it null is defensible.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:25.405Z"
+}

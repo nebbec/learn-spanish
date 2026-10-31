@@ -1,0 +1,33 @@
+{
+  "id": "leid-be-sorry",
+  "rank": 134,
+  "kind": "content",
+  "pos": "verb",
+  "target": "leidtun",
+  "en": "to be sorry",
+  "hint": "es tut mir ...",
+  "grammar": {
+    "present": {
+      "ich": "tue leid",
+      "du": "tust leid",
+      "er": "tut leid"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "leidgetan"
+    }
+  },
+  "example": {
+    "target": "Es tut mir leid, ich bin zu spät.",
+    "en": "I'm sorry, I'm late."
+  },
+  "regional": null,
+  "trick": "LEID sounds like \"light\": saying sorry makes your heart feel light again.",
+  "image": "/deck-de/img/leid-be-sorry.webp",
+  "audio": {
+    "word": "/deck-de/audio/leid-be-sorry.word.mp3",
+    "sentence": "/deck-de/audio/leid-be-sorry.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "erinnern-remember",
+  "rank": 274,
+  "word": "erinnern",
+  "draft": "c4b275c6382365be",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to remember (reflexive, with an: to recall something from the past)",
+    "example": "Do you remember me?"
+  },
+  "note": "The hint \"recall the past\" usefully rules out sich merken (to memorize), and acordar-remember would work just as well as a picture match as recordar-remember.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:24.490Z"
+}

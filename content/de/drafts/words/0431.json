@@ -1,0 +1,15 @@
+{
+  "rank": 431,
+  "word": "manchmal",
+  "cards": [
+    "manchmal-sometimes"
+  ],
+  "skip": null,
+  "sameAs": {
+    "manchmal-sometimes": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:59.298Z"
+}

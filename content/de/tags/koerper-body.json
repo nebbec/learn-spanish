@@ -1,0 +1,14 @@
+{
+  "id": "koerper-body",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fa80d9823d9da45d",
+  "group": "#610 Körper",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:56.682Z"
+}

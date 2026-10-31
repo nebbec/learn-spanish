@@ -1,0 +1,17 @@
+{
+  "id": "ehe-marriage",
+  "rank": 794,
+  "word": "Ehe",
+  "draft": "1f39409d5d1cea55",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "marriage (the state of being married, matrimony)",
+    "example": "Their (or her) marriage lasted twenty years."
+  },
+  "note": "In the example, Ihre could also be read as her, but the translation given is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:39.960Z"
+}

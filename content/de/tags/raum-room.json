@@ -1,0 +1,14 @@
+{
+  "id": "raum-room",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Raum for any room in a building, like a meeting room; Zimmer for a room in a home or hotel.",
+  "draft": "6ec45815b1ee419e",
+  "group": "#685 Raum",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:32.170Z"
+}

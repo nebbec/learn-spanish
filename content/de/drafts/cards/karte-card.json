@@ -1,0 +1,25 @@
+{
+  "id": "karte-card",
+  "rank": 665,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Karte",
+  "en": "card",
+  "hint": "playing card, greeting card",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Karten"
+  },
+  "example": {
+    "target": "Willst du mit uns Karten spielen?",
+    "en": "Do you want to play cards with us?"
+  },
+  "regional": null,
+  "trick": "KARTE sounds like card with a little uh on the end: KAR-tuh, so just picture a card.",
+  "image": "/deck-de/img/karte-card.webp",
+  "audio": {
+    "word": "/deck-de/audio/karte-card.word.mp3",
+    "sentence": "/deck-de/audio/karte-card.sentence.mp3"
+  }
+}

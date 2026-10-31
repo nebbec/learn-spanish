@@ -1,0 +1,23 @@
+{
+  "id": "weg-away",
+  "rank": 115,
+  "word": "weg",
+  "draft": "ae93d83a6f404f3c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "Without a hint, fort (away, gone) is also a right answer to the bare prompt, as in Mein Handy ist fort.",
+      "fix": "hint: the everyday word, not fort"
+    }
+  ],
+  "back": {
+    "target": "away, gone (adverb, also off)",
+    "example": "My phone is gone."
+  },
+  "note": "The trick rightly says the adverb weg has a short e, which sets it apart from the noun der Weg with its long e, and that's worth keeping since both are cards.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:19.987Z"
+}

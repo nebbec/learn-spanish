@@ -1,0 +1,33 @@
+{
+  "id": "spueren-feel",
+  "rank": 753,
+  "kind": "content",
+  "pos": "verb",
+  "target": "spüren",
+  "en": "to feel",
+  "hint": "to sense, notice (not fühlen)",
+  "grammar": {
+    "present": {
+      "ich": "spüre",
+      "du": "spürst",
+      "er": "spürt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gespürt"
+    }
+  },
+  "example": {
+    "target": "Ich spüre, dass etwas nicht stimmt.",
+    "en": "I can feel that something's wrong."
+  },
+  "regional": null,
+  "trick": "SPÜREN sounds a bit like spur: when a rider digs in a spur, the horse feels it at once.",
+  "image": "/deck-de/img/spueren-feel.webp",
+  "audio": {
+    "word": "/deck-de/audio/spueren-feel.word.mp3",
+    "sentence": "/deck-de/audio/spueren-feel.sentence.mp3"
+  }
+}

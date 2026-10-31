@@ -1,0 +1,17 @@
+{
+  "id": "unten-downstairs",
+  "rank": 467,
+  "word": "unten",
+  "draft": "43febaf905b69d32",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "below, down there, downstairs, at the bottom (adverb of place)",
+    "example": "I'm waiting for you downstairs."
+  },
+  "note": "The hint is needed: it rules out direction words like nach unten, runter and hinunter, so unten is the only answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:29.551Z"
+}

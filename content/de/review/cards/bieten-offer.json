@@ -1,0 +1,17 @@
+{
+  "id": "bieten-offer",
+  "rank": 773,
+  "word": "bieten",
+  "draft": "8f94d9fd8c8c6d7f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to offer (also to bid, to provide)",
+    "example": "I'm offering you fifty euros for the bike."
+  },
+  "note": "The hint is needed because it rules out the longer anbieten, which is the more common way to say a plain offer of something like help or a drink.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:54.987Z"
+}

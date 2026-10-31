@@ -1,0 +1,14 @@
+{
+  "id": "von-from",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use von for who something comes from; aus for the place or country you come from.",
+  "draft": "c272b333744d882d",
+  "group": "#35 von",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:35.017Z"
+}

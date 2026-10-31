@@ -1,0 +1,17 @@
+{
+  "id": "echt-real",
+  "rank": 248,
+  "word": "echt",
+  "draft": "6e525cee3884af45",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "real, genuine, authentic",
+    "example": "Is that real gold?"
+  },
+  "note": "The hint \"genuine, not fake\" is needed: without it, \"real\" could also mean wirklich (actual), and the hint correctly points to echt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:40.742Z"
+}

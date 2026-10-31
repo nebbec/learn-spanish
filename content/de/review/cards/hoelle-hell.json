@@ -1,0 +1,17 @@
+{
+  "id": "hoelle-hell",
+  "rank": 553,
+  "word": "Hölle",
+  "draft": "8121f4a5e1867928",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hell",
+    "example": "The week was really hell."
+  },
+  "note": "The plural Höllen does exist but is rarely used, so leaving plural as null is fine, and translating \"Die Woche\" as \"This week\" works in this past-tense context.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:30.264Z"
+}

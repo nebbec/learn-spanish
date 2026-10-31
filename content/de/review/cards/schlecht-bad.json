@@ -1,0 +1,17 @@
+{
+  "id": "schlecht-bad",
+  "rank": 286,
+  "word": "schlecht",
+  "draft": "3b3b2e219e2fedd4",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "bad, poor (of low quality, not good)",
+    "example": "The weather is really bad today."
+  },
+  "note": "The hint rightly rules out schlimm, which is the other common word for bad (meaning serious or severe); a later card could also teach \"mir ist schlecht\" (I feel sick).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:31.151Z"
+}

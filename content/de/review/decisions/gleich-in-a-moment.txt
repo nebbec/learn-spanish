@@ -1,0 +1,30 @@
+# gleich-in-a-moment · rank 173 · gleich
+#
+# Why it was flagged:
+#   - One right answer: The hint lists 'soon', which is the usual gloss of bald, so a learner could fairly answer bald; the hint rules out sofort but not bald. Suggested fix: hint: very soon, within a minute or two; not sofort or bald
+# Reviewer's note (not a reason to flag): The Spanish card pronto-soon is close but means 'soon' in general rather than 'in a moment', so null is the right sameAs.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             gleich-in-a-moment
+kind:           content
+pos:            adverb
+target:         gleich
+en:             in a moment
+hint:           very soon, within a minute or two; not sofort or bald
+example.target: Warte kurz, ich komme gleich!
+example.en:     Wait a second, I'll be right there!
+regional.where:
+regional.text:
+trick:          GLEICH sounds a bit like glide: I'll glide over to you in a moment.
+
+# The draft this file was made from. Do not change it.
+draft: ac82e60b63ae9f8d

@@ -1,0 +1,33 @@
+# land-country · rank 372 · Land
+#
+# Why it was flagged:
+#   - Memory trick: Spelling it 'lahnt' suggests a long vowel, but the a in Land is short (said like 'lant', with the d sounding like t). Suggested fix: trick: LAND sounds like 'lant', almost English land: a country is a big piece of land with borders.
+# Reviewer's note (not a reason to flag): The hint "a nation" correctly separates this card from the countryside card; die Nation and der Staat are more formal and much rarer, so das Land is clearly the one answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             land-country
+kind:           content
+pos:            noun
+target:         das Land
+en:             country
+hint:           a nation
+gender:         n
+article:        das
+plural:         die Länder
+example.target: Welches Land möchtest du besuchen?
+example.en:     Which country would you like to visit?
+regional.where:
+regional.text:
+trick:          LAND sounds like 'lant', almost English land: a country is a big piece of land with borders.
+
+# The draft this file was made from. Do not change it.
+draft: 0bc960670b5c09bb

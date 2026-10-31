@@ -1,0 +1,15 @@
+{
+  "rank": 710,
+  "word": "mitnehmen",
+  "cards": [
+    "mitnehmen-take-along"
+  ],
+  "skip": null,
+  "sameAs": {
+    "mitnehmen-take-along": "llevar-take-carry"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:11.290Z"
+}

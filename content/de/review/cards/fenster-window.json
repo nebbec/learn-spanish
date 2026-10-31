@@ -1,0 +1,23 @@
+{
+  "id": "fenster-window",
+  "rank": 763,
+  "word": "Fenster",
+  "draft": "0d3182188234e1ca",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick says FENSTER is hidden in defenestrate, but it isn't: defenestrate contains fenestr (f-e-n-e-s-t-r), not fenster.",
+      "fix": "trick: Fenster comes from Latin fenestra, the root of defenestrate, which means to throw someone out of a window."
+    }
+  ],
+  "back": {
+    "target": "window",
+    "example": "Close the window, please."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:59.816Z"
+}

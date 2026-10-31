@@ -1,0 +1,17 @@
+{
+  "id": "kennenlernen-meet",
+  "rank": 698,
+  "word": "kennenlernen",
+  "draft": "f9dbd36726a29b55",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to get to know, to meet (someone) for the first time",
+    "example": "Today I'm getting to know your parents."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:16.874Z"
+}

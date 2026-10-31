@@ -1,0 +1,14 @@
+{
+  "id": "von-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "97fe5a497ba76821",
+  "group": "#35 von",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:35.017Z"
+}

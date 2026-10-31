@@ -1,0 +1,14 @@
+{
+  "id": "erledigen-take-care-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use erledigen for getting a task done; sich kümmern um for looking after someone or something.",
+  "draft": "0ab63332c3abaf18",
+  "group": "#501 erledigen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:02.756Z"
+}

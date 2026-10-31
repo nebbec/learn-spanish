@@ -1,0 +1,33 @@
+{
+  "id": "melden-get-in-touch",
+  "rank": 578,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich melden",
+  "en": "to get in touch",
+  "hint": "call or write back",
+  "grammar": {
+    "present": {
+      "ich": "melde mich",
+      "du": "meldest dich",
+      "er": "meldet sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemeldet"
+    }
+  },
+  "example": {
+    "target": "Melde dich, wenn du angekommen bist!",
+    "en": "Get in touch when you've arrived!"
+  },
+  "regional": null,
+  "trick": "SICH MELDEN sounds like \"meld in\": you meld back into someone's day when you get in touch.",
+  "image": "/deck-de/img/melden-get-in-touch.webp",
+  "audio": {
+    "word": "/deck-de/audio/melden-get-in-touch.word.mp3",
+    "sentence": "/deck-de/audio/melden-get-in-touch.sentence.mp3"
+  }
+}

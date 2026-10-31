@@ -1,0 +1,15 @@
+{
+  "rank": 621,
+  "word": "Rest",
+  "cards": [
+    "rest-rest"
+  ],
+  "skip": null,
+  "sameAs": {
+    "rest-rest": "resto-rest"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:02.338Z"
+}

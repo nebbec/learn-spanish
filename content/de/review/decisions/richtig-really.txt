@@ -1,0 +1,30 @@
+# richtig-really · rank 163 · richtig
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out wirklich but not echt, which is just as common and natural ('Der Film war echt gut'), and the '(very)' in the prompt also invites sehr, so the learner could give more than one right answer. Suggested fix: hint: before an adjective, as in really good; the word that also means right, not wirklich, echt or sehr
+# Reviewer's note (not a reason to flag): The Spanish card realmente-really means truly or actually more than the intensifier, so leaving sameAs as null is reasonable.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             richtig-really
+kind:           content
+pos:            adverb
+target:         richtig
+en:             really (very)
+hint:           before an adjective, as in really good; the word that also means right, not wirklich, echt or sehr
+example.target: Der Film war richtig gut.
+example.en:     The movie was really good.
+regional.where:
+regional.text:
+trick:          RICHTIG sounds a bit like RIGHT, and English says right good too: right good means really good.
+
+# The draft this file was made from. Do not change it.
+draft: 259330f7cbd3abc9

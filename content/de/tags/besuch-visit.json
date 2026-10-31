@@ -1,0 +1,14 @@
+{
+  "id": "besuch-visit",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "e250d9ce6c8845ca",
+  "group": "#711 Besuch",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:24.876Z"
+}

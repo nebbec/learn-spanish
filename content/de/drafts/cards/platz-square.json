@@ -1,0 +1,25 @@
+{
+  "id": "platz-square",
+  "rank": 457,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Platz",
+  "en": "square",
+  "hint": "an open area in a town",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Plätze"
+  },
+  "example": {
+    "target": "Wir treffen uns auf dem Platz vor der Kirche.",
+    "en": "Let's meet in the square in front of the church."
+  },
+  "regional": null,
+  "trick": "PLATZ sounds a bit like plaza, and a plaza is a town square.",
+  "image": "/deck-de/img/platz-square.webp",
+  "audio": {
+    "word": "/deck-de/audio/platz-square.word.mp3",
+    "sentence": "/deck-de/audio/platz-square.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hart-hard",
+  "rank": 462,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "hart",
+  "en": "hard",
+  "hint": "firm, tough; not soft",
+  "grammar": null,
+  "example": {
+    "target": "Das Brot ist total hart.",
+    "en": "The bread is really hard."
+  },
+  "regional": null,
+  "trick": "HART sounds like heart: someone with a heart of stone is hard and tough.",
+  "image": "/deck-de/img/hart-hard.webp",
+  "audio": {
+    "word": "/deck-de/audio/hart-hard.word.mp3",
+    "sentence": "/deck-de/audio/hart-hard.sentence.mp3"
+  }
+}

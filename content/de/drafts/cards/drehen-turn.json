@@ -1,0 +1,33 @@
+{
+  "id": "drehen-turn",
+  "rank": 592,
+  "kind": "content",
+  "pos": "verb",
+  "target": "drehen",
+  "en": "to turn",
+  "hint": "rotate, twist",
+  "grammar": {
+    "present": {
+      "ich": "drehe",
+      "du": "drehst",
+      "er": "dreht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedreht"
+    }
+  },
+  "example": {
+    "target": "Dreh den Schlüssel nach links.",
+    "en": "Turn the key to the left."
+  },
+  "regional": null,
+  "trick": "DREHEN sounds like \"DRAY-en\", close to \"drain\": water turns round and round as it goes down the drain.",
+  "image": "/deck-de/img/drehen-turn.webp",
+  "audio": {
+    "word": "/deck-de/audio/drehen-turn.word.mp3",
+    "sentence": "/deck-de/audio/drehen-turn.sentence.mp3"
+  }
+}

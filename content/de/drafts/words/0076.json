@@ -1,0 +1,15 @@
+{
+  "rank": 76,
+  "word": "man",
+  "cards": [
+    "man-one"
+  ],
+  "skip": null,
+  "sameAs": {
+    "man-one": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:18.855Z"
+}

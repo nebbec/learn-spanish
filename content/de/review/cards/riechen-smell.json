@@ -1,0 +1,17 @@
+{
+  "id": "riechen-smell",
+  "rank": 740,
+  "word": "riechen",
+  "draft": "dfa645c676851fc7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to smell (both to give off a smell and to sense one with the nose)",
+    "example": "It smells of coffee here."
+  },
+  "note": "The trick works especially well because riechen and English reek come from the same root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:11.905Z"
+}

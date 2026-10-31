@@ -1,0 +1,33 @@
+{
+  "id": "steigen-climb",
+  "rank": 684,
+  "kind": "content",
+  "pos": "verb",
+  "target": "steigen",
+  "en": "to climb",
+  "hint": "go up onto or into, not klettern",
+  "grammar": {
+    "present": {
+      "ich": "steige",
+      "du": "steigst",
+      "er": "steigt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gestiegen"
+    }
+  },
+  "example": {
+    "target": "Wir steigen morgen auf den Berg.",
+    "en": "We're climbing the mountain tomorrow."
+  },
+  "regional": null,
+  "trick": "STEIGEN starts like \"shtile\", close to a stile, the steps you climb to get over a fence.",
+  "image": "/deck-de/img/steigen-climb.webp",
+  "audio": {
+    "word": "/deck-de/audio/steigen-climb.word.mp3",
+    "sentence": "/deck-de/audio/steigen-climb.sentence.mp3"
+  }
+}

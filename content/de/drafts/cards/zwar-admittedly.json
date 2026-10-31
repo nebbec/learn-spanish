@@ -1,0 +1,21 @@
+{
+  "id": "zwar-admittedly",
+  "rank": 591,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "zwar",
+  "en": "it's [admittedly] small, but nice",
+  "hint": "paired with aber later in the sentence",
+  "grammar": null,
+  "example": {
+    "target": "Das Auto ist zwar alt, aber es fährt.",
+    "en": "The car is old, sure, but it runs."
+  },
+  "regional": null,
+  "trick": "ZWAR sounds a bit like a quick 'sure': sure, it's old, but it still runs.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/zwar-admittedly.word.mp3",
+    "sentence": "/deck-de/audio/zwar-admittedly.sentence.mp3"
+  }
+}

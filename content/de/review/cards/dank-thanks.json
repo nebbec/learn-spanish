@@ -1,0 +1,17 @@
+{
+  "id": "dank-thanks",
+  "rank": 303,
+  "word": "Dank",
+  "draft": "e3d369ad0893ce9b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "thanks, gratitude (noun)",
+    "example": "Many thanks for your help!"
+  },
+  "note": "The hint is needed: it rules out the interjection danke, and its \"many thanks\" points to vielen Dank, not Dankbarkeit (gratitude).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:57.310Z"
+}

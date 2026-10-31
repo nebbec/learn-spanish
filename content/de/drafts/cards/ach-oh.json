@@ -1,0 +1,21 @@
+{
+  "id": "ach-oh",
+  "rank": 210,
+  "kind": "glue",
+  "pos": "other",
+  "target": "ach",
+  "en": "[Oh], I see!",
+  "hint": "the German sigh word with a throaty ch, as in ... so",
+  "grammar": null,
+  "example": {
+    "target": "Ach so, jetzt verstehe ich das.",
+    "en": "Oh, I see, now I understand."
+  },
+  "regional": null,
+  "trick": "ACH sounds like a throaty ah, the sigh you let out when something suddenly makes sense.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ach-oh.word.mp3",
+    "sentence": "/deck-de/audio/ach-oh.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "stark-strong",
+  "rank": 427,
+  "word": "stark",
+  "draft": "fea552c671fbbe3a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "strong",
+    "example": "You're stronger than you think."
+  },
+  "note": "The example uses the comparative stärker with its umlaut rather than the base form stark, which is fine but worth knowing.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:16.279Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "lieber-rather",
+  "rank": 304,
+  "word": "lieber",
+  "draft": "2c95560c1d832baf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "rather, preferably (comparative of gern: I'd rather, I prefer to)",
+    "example": "I'd rather drink tea. / I prefer tea."
+  },
+  "note": "The hint is needed: it rules out eher (sooner) and ziemlich (quite), which also translate as rather; the grammar section could say that lieber is the comparative of gern (gern, lieber, am liebsten).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:58.358Z"
+}

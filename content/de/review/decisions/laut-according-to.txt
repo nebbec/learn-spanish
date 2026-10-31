@@ -1,0 +1,30 @@
+# laut-according-to · rank 465 · laut
+#
+# Why it was flagged:
+#   - One right answer: The hint "one short word" doesn't rule out nach, which is also a common one-word way to say "according to" here ("Nach dem Wetterbericht regnet es"), and it doesn't rule out gemäß either. Suggested fix: hint: one short word, with no article after it here (not nach or gemäß)
+# Reviewer's note (not a reason to flag): Laut Wetterbericht without an article is the natural everyday phrasing, so the example is a good model for learners.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             laut-according-to
+kind:           glue
+pos:            preposition
+target:         laut
+en:             [according to] the weather report, it'll rain
+hint:           one short word, with no article after it here (not nach or gemäß)
+example.target: Laut Wetterbericht regnet es morgen.
+example.en:     According to the weather report, it'll rain tomorrow.
+regional.where:
+regional.text:
+trick:          LAUT, the word for loud: whatever a source says out loud is what things are according to.
+
+# The draft this file was made from. Do not change it.
+draft: 0a827b9ac08c6ce0

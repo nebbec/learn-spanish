@@ -1,0 +1,21 @@
+{
+  "id": "um-at-time",
+  "rank": 66,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "um",
+  "en": "The film starts [at] eight",
+  "hint": "clock time",
+  "grammar": null,
+  "example": {
+    "target": "Wir treffen uns um acht Uhr.",
+    "en": "We're meeting at eight o'clock."
+  },
+  "regional": null,
+  "trick": "UM sounds like the clock going \"oom\" as it strikes the hour: um acht, at eight.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/um-at-time.word.mp3",
+    "sentence": "/deck-de/audio/um-at-time.sentence.mp3"
+  }
+}

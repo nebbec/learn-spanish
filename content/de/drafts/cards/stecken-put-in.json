@@ -1,0 +1,33 @@
+{
+  "id": "stecken-put-in",
+  "rank": 412,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stecken",
+  "en": "to put (into)",
+  "hint": "into a pocket or slot, not legen",
+  "grammar": {
+    "present": {
+      "ich": "stecke",
+      "du": "steckst",
+      "er": "steckt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesteckt"
+    }
+  },
+  "example": {
+    "target": "Ich stecke das Handy in die Tasche.",
+    "en": "I put my phone in my pocket."
+  },
+  "regional": null,
+  "trick": "STECKEN sounds like 'stick in': you stick your phone into your pocket.",
+  "image": "/deck-de/img/stecken-put-in.webp",
+  "audio": {
+    "word": "/deck-de/audio/stecken-put-in.word.mp3",
+    "sentence": "/deck-de/audio/stecken-put-in.sentence.mp3"
+  }
+}

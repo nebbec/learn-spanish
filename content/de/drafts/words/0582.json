@@ -1,0 +1,15 @@
+{
+  "rank": 582,
+  "word": "Person",
+  "cards": [
+    "person-person"
+  ],
+  "skip": null,
+  "sameAs": {
+    "person-person": "persona-person"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:59:26.224Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tisch-table",
+  "rank": 704,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Tisch",
+  "en": "table",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Tische"
+  },
+  "example": {
+    "target": "Das Essen steht schon auf dem Tisch.",
+    "en": "The food is already on the table."
+  },
+  "regional": null,
+  "trick": "TISCH sounds like dish: you put every dish on the table.",
+  "image": "/deck-de/img/tisch-table.webp",
+  "audio": {
+    "word": "/deck-de/audio/tisch-table.word.mp3",
+    "sentence": "/deck-de/audio/tisch-table.sentence.mp3"
+  }
+}

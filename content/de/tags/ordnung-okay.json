@@ -1,0 +1,14 @@
+{
+  "id": "ordnung-okay",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "95f53ee16541ce6b",
+  "group": "#222 Ordnung",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:27.481Z"
+}

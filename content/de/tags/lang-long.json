@@ -1,0 +1,14 @@
+{
+  "id": "lang-long",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use lang to describe something that is long; lange for doing something for a long time.",
+  "draft": "f829ae0db5ce0340",
+  "group": "#133 lang",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:35.020Z"
+}

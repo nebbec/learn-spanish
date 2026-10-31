@@ -1,0 +1,14 @@
+{
+  "id": "naechste-next",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0fdf30ba93da9770",
+  "group": "#270 nächste",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:08.952Z"
+}

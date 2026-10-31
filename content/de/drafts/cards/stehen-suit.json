@@ -1,0 +1,33 @@
+{
+  "id": "stehen-suit",
+  "rank": 131,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stehen",
+  "en": "to suit",
+  "hint": "clothes looking good on someone",
+  "grammar": {
+    "present": {
+      "ich": "stehe",
+      "du": "stehst",
+      "er": "steht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestanden"
+    }
+  },
+  "example": {
+    "target": "Die Jacke steht dir echt gut.",
+    "en": "That jacket really suits you."
+  },
+  "regional": null,
+  "trick": "STEHEN sounds like SHTAY-en, like stay in: clothes that suit you are ones you want to stay in.",
+  "image": "/deck-de/img/stehen-suit.webp",
+  "audio": {
+    "word": "/deck-de/audio/stehen-suit.word.mp3",
+    "sentence": "/deck-de/audio/stehen-suit.sentence.mp3"
+  }
+}

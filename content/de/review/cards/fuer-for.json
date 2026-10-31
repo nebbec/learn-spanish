@@ -1,0 +1,17 @@
+{
+  "id": "fuer-for",
+  "rank": 33,
+  "word": "für",
+  "draft": "ec74a3d83f979f66",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "for (preposition)",
+    "example": "The gift is for you."
+  },
+  "note": "für always takes the accusative (für dich, für den Mann), and the example already shows that with dich, so a later case card could build on it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:28.000Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 531,
+  "word": "perfekt",
+  "cards": [
+    "perfekt-perfect"
+  ],
+  "skip": null,
+  "sameAs": {
+    "perfekt-perfect": "perfecto-perfect"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:19.618Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ueberraschen-surprise",
+  "rank": 760,
+  "word": "überraschen",
+  "draft": "4e054d1c98df1dcf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to surprise",
+    "example": "That doesn't surprise me."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:44.967Z"
+}

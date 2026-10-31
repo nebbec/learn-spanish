@@ -1,0 +1,17 @@
+{
+  "id": "beeilen-hurry",
+  "rank": 661,
+  "word": "beeilen",
+  "draft": "8557295f97ae8602",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hurry, to hurry up (reflexive)",
+    "example": "Hurry up, the train is leaving any minute!"
+  },
+  "note": "The Spanish prisa-hurry card is the noun, so sameAs null is right; the editor might consider a Swiss regional note for pressieren, though sich beeilen is also standard there.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:53.061Z"
+}

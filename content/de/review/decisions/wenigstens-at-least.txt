@@ -1,0 +1,30 @@
+# wenigstens-at-least · rank 667 · wenigstens
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out mindestens, but zumindest and immerhin are just as common and natural for at least as a consolation (aber zumindest/immerhin ist es warm), so the prompt has more than one right answer. Suggested fix: hint: as a consolation, not with numbers; the everyday word built on wenig (a little), not zumindest or immerhin
+# Reviewer's note (not a reason to flag): Wenigstens is used across Austria and Switzerland too, so a null regional is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wenigstens-at-least
+kind:           content
+pos:            adverb
+target:         wenigstens
+en:             at least
+hint:           as a consolation, not with numbers; built on wenig, not zumindest or immerhin
+example.target: Es regnet, aber wenigstens ist es warm.
+example.en:     It's raining, but at least it's warm.
+regional.where:
+regional.text:
+trick:          WENIGSTENS starts with wenig, said VAY-nikh, meaning a little: even a little is at least something.
+
+# The draft this file was made from. Do not change it.
+draft: f5b58189cacad0b0

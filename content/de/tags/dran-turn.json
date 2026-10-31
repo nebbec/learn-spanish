@@ -1,0 +1,14 @@
+{
+  "id": "dran-turn",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "40b1b1199811217a",
+  "group": "#371 dran",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:27.905Z"
+}

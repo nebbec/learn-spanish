@@ -1,0 +1,25 @@
+{
+  "id": "sex-sex",
+  "rank": 658,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Sex",
+  "en": "sex",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": null
+  },
+  "example": {
+    "target": "In dem Film gibt es zu viel Sex.",
+    "en": "There's too much sex in that film."
+  },
+  "regional": null,
+  "trick": "SEX is borrowed straight from English and means the same thing; just remember it takes der.",
+  "image": "/deck-de/img/sex-sex.webp",
+  "audio": {
+    "word": "/deck-de/audio/sex-sex.word.mp3",
+    "sentence": "/deck-de/audio/sex-sex.sentence.mp3"
+  }
+}

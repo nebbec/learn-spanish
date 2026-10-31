@@ -1,0 +1,15 @@
+{
+  "rank": 467,
+  "word": "unten",
+  "cards": [
+    "unten-downstairs"
+  ],
+  "skip": null,
+  "sameAs": {
+    "unten-downstairs": "abajo-down"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:14.618Z"
+}

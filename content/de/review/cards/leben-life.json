@@ -1,0 +1,17 @@
+{
+  "id": "leben-life",
+  "rank": 97,
+  "word": "leben",
+  "draft": "5a0a7f1296ce6bd2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "life",
+    "example": "Life is beautiful."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:11.551Z"
+}

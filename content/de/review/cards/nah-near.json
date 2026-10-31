@@ -1,0 +1,17 @@
+{
+  "id": "nah-near",
+  "rank": 493,
+  "word": "nah",
+  "draft": "3e5c55189e1f85c6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "near, close (not far away)",
+    "example": "The train station is really close."
+  },
+  "note": "The hint \"not far\" isn't strictly needed but usefully rules out the \"close\" that means \"shut\" (zu). The longer form \"nahe\" means the same and could also count as right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:31.846Z"
+}

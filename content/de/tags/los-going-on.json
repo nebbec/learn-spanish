@@ -1,0 +1,14 @@
+{
+  "id": "los-going-on",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c7080a0650a23856",
+  "group": "#93 los",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:22.026Z"
+}

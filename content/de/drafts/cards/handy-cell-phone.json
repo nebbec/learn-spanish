@@ -1,0 +1,28 @@
+{
+  "id": "handy-cell-phone",
+  "rank": 725,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Handy",
+  "en": "cell phone",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Handys"
+  },
+  "example": {
+    "target": "Hast du mein Handy gesehen?",
+    "en": "Have you seen my phone?"
+  },
+  "regional": {
+    "where": "Switzerland",
+    "text": "das Natel"
+  },
+  "trick": "HANDY sounds like the English word handy: a cell phone is the handiest thing in your pocket.",
+  "image": "/deck-de/img/handy-cell-phone.webp",
+  "audio": {
+    "word": "/deck-de/audio/handy-cell-phone.word.mp3",
+    "sentence": "/deck-de/audio/handy-cell-phone.sentence.mp3"
+  }
+}

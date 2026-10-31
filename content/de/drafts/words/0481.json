@@ -1,0 +1,15 @@
+{
+  "rank": 481,
+  "word": "werfen",
+  "cards": [
+    "werfen-throw"
+  ],
+  "skip": null,
+  "sameAs": {
+    "werfen-throw": "tirar-throw"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:13.862Z"
+}

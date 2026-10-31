@@ -1,0 +1,37 @@
+# heissen-mean · rank 167 · heißen
+#
+# Why it was flagged:
+#   - Example sentence: Was heißt das auf Englisch? asks for the English word for something, so it blurs into the word's other card, to be called, and does not clearly show to mean. Suggested fix: example.target: Was heißt dieses Wort? / example.en: What does this word mean?
+# Reviewer's note (not a reason to flag): The trick mixes up a name with a meaning, which echoes the to be called sense; a trick about the to mean sense might work better.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 heissen-mean
+kind:               content
+pos:                verb
+target:             heißen
+en:                 to mean
+hint:               of words, as in what does that word mean; not bedeuten or meinen
+ich:                heiße
+du:                 heißt
+er:                 heißt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geheißen
+example.target:     Was heißt dieses Wort?
+example.en:         What does this word mean?
+regional.where:
+regional.text:
+trick:              HEISST sounds like "Hi, Ist": a word says hi and tells you its name, which is what it means.
+
+# The draft this file was made from. Do not change it.
+draft: d170a77b34c24922

@@ -1,0 +1,33 @@
+{
+  "id": "reden-talk",
+  "rank": 119,
+  "kind": "content",
+  "pos": "verb",
+  "target": "reden",
+  "en": "to talk",
+  "hint": "chat, discuss (not sprechen)",
+  "grammar": {
+    "present": {
+      "ich": "rede",
+      "du": "redest",
+      "er": "redet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geredet"
+    }
+  },
+  "example": {
+    "target": "Worüber redest du?",
+    "en": "What are you talking about?"
+  },
+  "regional": null,
+  "trick": "REDEN sounds like RAY-den: Ray and Den just won't stop talking.",
+  "image": "/deck-de/img/reden-talk.webp",
+  "audio": {
+    "word": "/deck-de/audio/reden-talk.word.mp3",
+    "sentence": "/deck-de/audio/reden-talk.sentence.mp3"
+  }
+}

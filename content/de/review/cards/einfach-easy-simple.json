@@ -1,0 +1,17 @@
+{
+  "id": "einfach-easy-simple",
+  "rank": 113,
+  "word": "einfach",
+  "draft": "acd7a15ea957c40f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "simple, easy (adjective)",
+    "example": "The question is really easy."
+  },
+  "note": "The hint repeats what the prompt already says, since \"simple\" is already in en and it already rules out leicht, so the hint is harmless but could be dropped or reworded, for example \"adjective, not leicht\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:08.329Z"
+}

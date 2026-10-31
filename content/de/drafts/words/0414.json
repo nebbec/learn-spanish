@@ -1,0 +1,15 @@
+{
+  "rank": 414,
+  "word": "deshalb",
+  "cards": [
+    "deshalb-thats-why"
+  ],
+  "skip": null,
+  "sameAs": {
+    "deshalb-thats-why": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:07.754Z"
+}

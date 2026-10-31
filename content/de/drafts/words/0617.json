@@ -1,0 +1,15 @@
+{
+  "rank": 617,
+  "word": "persönlich",
+  "cards": [
+    "persoenlich-personal"
+  ],
+  "skip": null,
+  "sameAs": {
+    "persoenlich-personal": "personal-personal"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:48.854Z"
+}

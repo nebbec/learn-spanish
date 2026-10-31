@@ -1,0 +1,17 @@
+{
+  "id": "stoeren-bother",
+  "rank": 615,
+  "word": "stören",
+  "draft": "62d594b2ad1704cc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to disturb, to bother",
+    "example": "Am I disturbing you right now?"
+  },
+  "note": "The hint \"to disturb\" is useful because it rules out nerven (to annoy) and belästigen (to harass), which could also translate \"to bother\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:44.766Z"
+}

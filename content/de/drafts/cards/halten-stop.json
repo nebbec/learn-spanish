@@ -1,0 +1,33 @@
+{
+  "id": "halten-stop",
+  "rank": 156,
+  "kind": "content",
+  "pos": "verb",
+  "target": "halten",
+  "en": "to stop",
+  "hint": "a bus, train or car coming to a halt",
+  "grammar": {
+    "present": {
+      "ich": "halte",
+      "du": "hältst",
+      "er": "hält"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehalten"
+    }
+  },
+  "example": {
+    "target": "Der Bus hält direkt vor meinem Haus.",
+    "en": "The bus stops right outside my house."
+  },
+  "regional": null,
+  "trick": "HALTEN contains halt, as in English: a bus that comes to a halt stops.",
+  "image": "/deck-de/img/halten-stop.webp",
+  "audio": {
+    "word": "/deck-de/audio/halten-stop.word.mp3",
+    "sentence": "/deck-de/audio/halten-stop.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 214,
+  "word": "ins",
+  "cards": [
+    "ins-into-the"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ins-into-the": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:13.354Z"
+}

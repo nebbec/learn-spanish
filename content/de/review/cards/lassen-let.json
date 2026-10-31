@@ -1,0 +1,17 @@
+{
+  "id": "lassen-let",
+  "rank": 69,
+  "word": "lassen",
+  "draft": "5d95802bfcf38494",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to let, to allow (someone to do something); also to leave",
+    "example": "Let me do that."
+  },
+  "note": "With another infinitive, lassen forms its Perfekt with the infinitive instead of gelassen (Ich habe ihn gehen lassen), which the editor might mention somewhere; the word \"allow\" in the hint could make a learner think of erlauben, but \"to let\" with \"let me\" still points clearly to lassen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:31.246Z"
+}

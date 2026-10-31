@@ -1,0 +1,23 @@
+{
+  "id": "aendern-change",
+  "rank": 420,
+  "word": "ändern",
+  "draft": "eb5d4c35d742edf9",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint rules out wechseln and tauschen, but verändern also fits 'to alter something', so a learner who answers verändern would also be right.",
+      "fix": "hint: to alter something, not swap it; the short everyday word, not verändern"
+    }
+  ],
+  "back": {
+    "target": "to change, to alter (something)",
+    "example": "That changes everything."
+  },
+  "note": "You could add to the grammar or example that the reflexive sich ändern means 'to change' in the sense of becoming different (Du hast dich nicht geändert).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:05.750Z"
+}

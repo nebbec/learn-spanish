@@ -1,0 +1,15 @@
+{
+  "rank": 294,
+  "word": "schicken",
+  "cards": [
+    "schicken-send"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schicken-send": "mandar-send"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:31.545Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "schuld-debt",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8a90714918a0a91e",
+  "group": "#387 Schuld",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:04.221Z"
+}

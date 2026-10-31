@@ -1,0 +1,17 @@
+{
+  "id": "ewig-eternal",
+  "rank": 780,
+  "word": "ewig",
+  "draft": "7b4012930a3d4eb0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "eternal, everlasting",
+    "example": "He swore eternal love to me."
+  },
+  "note": "The adjective prompt \"eternal\" is clearly separate from the word's adverb card \"forever\" (for ages), so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:20.480Z"
+}

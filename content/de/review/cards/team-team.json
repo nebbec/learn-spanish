@@ -1,0 +1,17 @@
+{
+  "id": "team-team",
+  "rank": 642,
+  "word": "Team",
+  "draft": "a6799aab8791c4c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "team (a group working or playing together)",
+    "example": "We're a great team."
+  },
+  "note": "The hint is needed, because \"team\" alone could also be Mannschaft, and it rules that out correctly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:08.426Z"
+}

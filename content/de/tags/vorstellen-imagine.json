@@ -1,0 +1,14 @@
+{
+  "id": "vorstellen-imagine",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Add mir or dir (Ich stelle mir vor) to mean imagine; without it, vorstellen means to introduce someone.",
+  "draft": "a4334d05477ee359",
+  "group": "#522 vorstellen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:48.391Z"
+}

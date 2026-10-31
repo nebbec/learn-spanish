@@ -1,0 +1,14 @@
+{
+  "id": "schreien-scream",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0e24e1c49c492fbb",
+  "group": "#477 schreien",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:09.672Z"
+}

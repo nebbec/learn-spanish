@@ -1,0 +1,15 @@
+{
+  "rank": 660,
+  "word": "beruhigen",
+  "cards": [
+    "beruhigen-calm-down"
+  ],
+  "skip": null,
+  "sameAs": {
+    "beruhigen-calm-down": "calmar-calm-down"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:53.809Z"
+}

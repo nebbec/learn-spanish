@@ -1,0 +1,14 @@
+{
+  "id": "traum-dream",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "299895b00d40a94f",
+  "group": "#521 Traum",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:45.041Z"
+}

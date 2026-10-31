@@ -1,0 +1,19 @@
+{
+  "rank": 790,
+  "word": "wählen",
+  "cards": [
+    "waehlen-choose",
+    "waehlen-vote",
+    "waehlen-dial"
+  ],
+  "skip": null,
+  "sameAs": {
+    "waehlen-choose": "elegir-choose",
+    "waehlen-vote": null,
+    "waehlen-dial": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:17.451Z"
+}

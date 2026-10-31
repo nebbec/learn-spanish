@@ -1,0 +1,33 @@
+{
+  "id": "merken-notice",
+  "rank": 663,
+  "kind": "content",
+  "pos": "verb",
+  "target": "merken",
+  "en": "to notice",
+  "hint": "to realize, sense",
+  "grammar": {
+    "present": {
+      "ich": "merke",
+      "du": "merkst",
+      "er": "merkt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemerkt"
+    }
+  },
+  "example": {
+    "target": "Hast du nichts gemerkt?",
+    "en": "Didn't you notice anything?"
+  },
+  "regional": null,
+  "trick": "MERKEN sounds like a mark: you notice something when it leaves a mark on your attention.",
+  "image": "/deck-de/img/merken-notice.webp",
+  "audio": {
+    "word": "/deck-de/audio/merken-notice.word.mp3",
+    "sentence": "/deck-de/audio/merken-notice.sentence.mp3"
+  }
+}

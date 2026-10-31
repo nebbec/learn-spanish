@@ -1,0 +1,34 @@
+# handy-cell-phone · rank 725 · Handy
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: telefono-phone means phone in general, landlines included, so its picture may not show a mobile phone; no Spanish card in the list means cell phone. Suggested fix: null
+# Reviewer's note (not a reason to flag): Natel is right for Switzerland, though many Swiss now also say Handy.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0725.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             handy-cell-phone
+kind:           content
+pos:            noun
+target:         das Handy
+en:             cell phone
+hint:
+gender:         n
+article:        das
+plural:         die Handys
+example.target: Hast du mein Handy gesehen?
+example.en:     Have you seen my phone?
+regional.where: Switzerland
+regional.text:  das Natel
+trick:          HANDY sounds like the English word handy: a cell phone is the handiest thing in your pocket.
+
+# The draft this file was made from. Do not change it.
+draft: fa7428f19c011f25

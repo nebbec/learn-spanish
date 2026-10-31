@@ -1,0 +1,33 @@
+{
+  "id": "spielen-play",
+  "rank": 195,
+  "kind": "content",
+  "pos": "verb",
+  "target": "spielen",
+  "en": "to play",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er": "spielt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gespielt"
+    }
+  },
+  "example": {
+    "target": "Spielst du heute mit uns Fußball?",
+    "en": "Are you playing soccer with us today?"
+  },
+  "regional": null,
+  "trick": "SPIELEN starts like SHPEEL, a salesman's spiel: he plays a little act to win you over.",
+  "image": "/deck-de/img/spielen-play.webp",
+  "audio": {
+    "word": "/deck-de/audio/spielen-play.word.mp3",
+    "sentence": "/deck-de/audio/spielen-play.sentence.mp3"
+  }
+}

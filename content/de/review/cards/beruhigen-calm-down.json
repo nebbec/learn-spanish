@@ -1,0 +1,17 @@
+{
+  "id": "beruhigen-calm-down",
+  "rank": 660,
+  "word": "beruhigen",
+  "draft": "820e1b71796101af",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to calm (down), to soothe, to reassure; reflexive sich beruhigen = to calm down",
+    "example": "Calm down, everything is fine."
+  },
+  "note": "When you calm down yourself, German uses the reflexive sich beruhigen, and the example shows this well with \"Beruhig dich\"; the editor could mention it in a hint or the grammar.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:51.731Z"
+}

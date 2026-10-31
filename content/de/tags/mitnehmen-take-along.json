@@ -1,0 +1,14 @@
+{
+  "id": "mitnehmen-take-along",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "937a78d8c0edaf46",
+  "group": "#710 mitnehmen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:22.857Z"
+}

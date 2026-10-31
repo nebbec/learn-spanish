@@ -1,0 +1,14 @@
+{
+  "id": "vielleicht-maybe",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "4c5e60d1f9c0ab97",
+  "group": "#103 vielleicht",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:34.570Z"
+}

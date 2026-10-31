@@ -1,0 +1,17 @@
+{
+  "id": "nichts-nothing",
+  "rank": 75,
+  "word": "nichts",
+  "draft": "4137ce90cb5b9bc0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "nothing, not anything (indefinite pronoun)",
+    "example": "I said nothing. / I didn't say anything."
+  },
+  "note": "The informal \"nix\" would also fit \"I see [nothing]\", but nichts is the standard answer a learner should give, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:01.759Z"
+}

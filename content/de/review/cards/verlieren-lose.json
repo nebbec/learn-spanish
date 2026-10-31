@@ -1,0 +1,17 @@
+{
+  "id": "verlieren-lose",
+  "rank": 240,
+  "word": "verlieren",
+  "draft": "7bf89a3c38b080b8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to lose",
+    "example": "I have lost my key."
+  },
+  "note": "irregular is true only because of the strong participle verloren, since the present-tense forms are regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:13.694Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "echt-really",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use echt in casual talk before an adjective; wirklich is the neutral word for really.",
+  "draft": "e1fe08bd227b3846",
+  "group": "#248 echt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:19.103Z"
+}

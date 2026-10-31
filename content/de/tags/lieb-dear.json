@@ -1,0 +1,14 @@
+{
+  "id": "lieb-dear",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a418f85694b8008d",
+  "group": "#692 lieb",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:48.022Z"
+}

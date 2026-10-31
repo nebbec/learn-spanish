@@ -1,0 +1,17 @@
+{
+  "id": "nett-nice",
+  "rank": 297,
+  "word": "nett",
+  "draft": "236c421782597482",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "nice, kind, friendly (of a person); also pleasant",
+    "example": "Your brother is really nice."
+  },
+  "note": "Because the hint says \"friendly, kind\", a learner might answer freundlich or lieb, but nett is clearly the standard German for \"nice\" about a person, so the card holds; the editor could add \"not freundlich\" to the hint if they want.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:27.778Z"
+}

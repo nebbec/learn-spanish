@@ -1,0 +1,17 @@
+{
+  "id": "halb-half",
+  "rank": 564,
+  "word": "halb",
+  "draft": "62f10c5210c7082c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "half (adjective)",
+    "example": "I've already been waiting for you for half an hour."
+  },
+  "note": "The trick is accurate because a final b in German is pronounced like p, so halb sounds like \"halp\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:27.994Z"
+}

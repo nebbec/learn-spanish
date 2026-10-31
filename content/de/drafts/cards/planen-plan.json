@@ -1,0 +1,33 @@
+{
+  "id": "planen-plan",
+  "rank": 517,
+  "kind": "content",
+  "pos": "verb",
+  "target": "planen",
+  "en": "to plan",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "plane",
+      "du": "planst",
+      "er": "plant"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geplant"
+    }
+  },
+  "example": {
+    "target": "Was planst du fürs Wochenende?",
+    "en": "What are you planning for the weekend?"
+  },
+  "regional": null,
+  "trick": "PLANEN sounds like \"plan-en\": you just add -en to plan, and you get to plan.",
+  "image": "/deck-de/img/planen-plan.webp",
+  "audio": {
+    "word": "/deck-de/audio/planen-plan.word.mp3",
+    "sentence": "/deck-de/audio/planen-plan.sentence.mp3"
+  }
+}

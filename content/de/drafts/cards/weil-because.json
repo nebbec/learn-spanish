@@ -1,0 +1,21 @@
+{
+  "id": "weil-because",
+  "rank": 122,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "weil",
+  "en": "I'm staying home [because] I'm sick",
+  "hint": "sends the verb to the end",
+  "grammar": null,
+  "example": {
+    "target": "Ich bleibe zu Hause, weil ich krank bin.",
+    "en": "I'm staying home because I'm sick."
+  },
+  "regional": null,
+  "trick": "WEIL sounds like vile: I stayed in because the weather was vile.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/weil-because.word.mp3",
+    "sentence": "/deck-de/audio/weil-because.sentence.mp3"
+  }
+}

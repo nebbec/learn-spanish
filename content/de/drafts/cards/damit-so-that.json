@@ -1,0 +1,21 @@
+{
+  "id": "damit-so-that",
+  "rank": 130,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "damit",
+  "en": "I'm telling you [so that] you know",
+  "hint": "purpose, verb goes to the end",
+  "grammar": null,
+  "example": {
+    "target": "Ich sage es dir, damit du Bescheid weißt.",
+    "en": "I'm telling you so that you know."
+  },
+  "regional": null,
+  "trick": "DAMIT sounds like \"dam it\": you build a dam so that the water stays put.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/damit-so-that.word.mp3",
+    "sentence": "/deck-de/audio/damit-so-that.sentence.mp3"
+  }
+}

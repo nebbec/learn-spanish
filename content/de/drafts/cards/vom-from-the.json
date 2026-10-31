@@ -1,0 +1,21 @@
+{
+  "id": "vom-from-the",
+  "rank": 223,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "vom",
+  "en": "I'm just coming back [from the] doctor",
+  "hint": "one word: von + dem",
+  "grammar": null,
+  "example": {
+    "target": "Ich komme gerade vom Arzt.",
+    "en": "I'm just coming from the doctor."
+  },
+  "regional": null,
+  "trick": "VOM is said like fom, close to from: vom means from the.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/vom-from-the.word.mp3",
+    "sentence": "/deck-de/audio/vom-from-the.sentence.mp3"
+  }
+}

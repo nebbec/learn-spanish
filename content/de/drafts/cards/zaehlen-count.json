@@ -1,0 +1,33 @@
+{
+  "id": "zaehlen-count",
+  "rank": 746,
+  "kind": "content",
+  "pos": "verb",
+  "target": "zählen",
+  "en": "to count",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "zähle",
+      "du": "zählst",
+      "er": "zählt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezählt"
+    }
+  },
+  "example": {
+    "target": "Ich zähle bis drei, okay?",
+    "en": "I'll count to three, okay?"
+  },
+  "regional": null,
+  "trick": "ZÄHLEN sounds like tsay-len, close to tell, as in a bank teller who counts your money.",
+  "image": "/deck-de/img/zaehlen-count.webp",
+  "audio": {
+    "word": "/deck-de/audio/zaehlen-count.word.mp3",
+    "sentence": "/deck-de/audio/zaehlen-count.sentence.mp3"
+  }
+}

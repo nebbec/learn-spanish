@@ -1,0 +1,17 @@
+{
+  "id": "waehlen-dial",
+  "rank": 790,
+  "word": "wählen",
+  "draft": "1241b805133e3a69",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to dial (a number); also to choose, to vote",
+    "example": "I dialed the wrong number."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:17.959Z"
+}

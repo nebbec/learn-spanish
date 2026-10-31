@@ -1,0 +1,14 @@
+{
+  "rank": 204,
+  "word": "scheiße",
+  "cards": [],
+  "skip": {
+    "reason": "vulgar",
+    "note": "Scheiße (shit) is a swear word, so it gets no card."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:32.006Z"
+}

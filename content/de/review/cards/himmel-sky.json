@@ -1,0 +1,17 @@
+{
+  "id": "himmel-sky",
+  "rank": 567,
+  "word": "Himmel",
+  "draft": "e8757cde5c85ef7d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sky (also heaven)",
+    "example": "The sky is so blue today."
+  },
+  "note": "The plural die Himmel is correct but rare in everyday speech, and it's mostly used for the poetic or religious sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:41.678Z"
+}

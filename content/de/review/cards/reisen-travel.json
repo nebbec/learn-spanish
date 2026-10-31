@@ -1,0 +1,17 @@
+{
+  "id": "reisen-travel",
+  "rank": 527,
+  "word": "reisen",
+  "draft": "277b592aa8d8de98",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to travel",
+    "example": "I'm traveling to Italy in the summer."
+  },
+  "note": "The Spanish list has only the noun viaje-trip and no card for the verb viajar, so sameAs null is correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:18.136Z"
+}

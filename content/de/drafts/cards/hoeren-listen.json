@@ -1,0 +1,33 @@
+{
+  "id": "hoeren-listen",
+  "rank": 72,
+  "kind": "content",
+  "pos": "verb",
+  "target": "hören",
+  "en": "to listen to",
+  "hint": "music, the radio; not zuhören",
+  "grammar": {
+    "present": {
+      "ich": "höre",
+      "du": "hörst",
+      "er": "hört"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehört"
+    }
+  },
+  "example": {
+    "target": "Ich höre gern Musik im Auto.",
+    "en": "I like listening to music in the car."
+  },
+  "regional": null,
+  "trick": "HÖREN sounds like hear-en: when you listen to music, you hear it on purpose.",
+  "image": "/deck-de/img/hoeren-listen.webp",
+  "audio": {
+    "word": "/deck-de/audio/hoeren-listen.word.mp3",
+    "sentence": "/deck-de/audio/hoeren-listen.sentence.mp3"
+  }
+}

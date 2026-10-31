@@ -1,0 +1,21 @@
+{
+  "id": "ueber-about",
+  "rank": 107,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "über",
+  "en": "a book [about] dogs",
+  "hint": "a topic",
+  "grammar": null,
+  "example": {
+    "target": "Wir reden später über das Problem.",
+    "en": "We'll talk about the problem later."
+  },
+  "regional": null,
+  "trick": "ÜBER sounds like Uber, a company everyone loves to talk about.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ueber-about.word.mp3",
+    "sentence": "/deck-de/audio/ueber-about.sentence.mp3"
+  }
+}

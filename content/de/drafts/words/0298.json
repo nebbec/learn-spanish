@@ -1,0 +1,15 @@
+{
+  "rank": 298,
+  "word": "verrückt",
+  "cards": [
+    "verrueckt-crazy"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verrueckt-crazy": "loco-crazy"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:48.297Z"
+}

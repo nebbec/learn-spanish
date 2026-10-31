@@ -1,0 +1,21 @@
+{
+  "id": "durch-through",
+  "rank": 176,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "durch",
+  "en": "we're walking [through] the park",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir gehen durch den Park.",
+    "en": "We're walking through the park."
+  },
+  "regional": null,
+  "trick": "DURCH sounds like \"doorch\", close to \"door\": you walk through a door.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/durch-through.word.mp3",
+    "sentence": "/deck-de/audio/durch-through.sentence.mp3"
+  }
+}

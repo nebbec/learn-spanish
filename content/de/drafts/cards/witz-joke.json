@@ -1,0 +1,25 @@
+{
+  "id": "witz-joke",
+  "rank": 598,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Witz",
+  "en": "joke",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Witze"
+  },
+  "example": {
+    "target": "Erzähl mir einen Witz!",
+    "en": "Tell me a joke!"
+  },
+  "regional": null,
+  "trick": "WITZ sounds like vits, close to wits: it takes quick wits to tell a good joke.",
+  "image": "/deck-de/img/witz-joke.webp",
+  "audio": {
+    "word": "/deck-de/audio/witz-joke.word.mp3",
+    "sentence": "/deck-de/audio/witz-joke.sentence.mp3"
+  }
+}

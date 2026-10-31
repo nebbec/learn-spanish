@@ -1,0 +1,15 @@
+{
+  "rank": 231,
+  "word": "Ding",
+  "cards": [
+    "ding-thing"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ding-thing": "cosa-thing"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:37:29.694Z"
+}

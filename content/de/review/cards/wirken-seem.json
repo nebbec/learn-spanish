@@ -1,0 +1,17 @@
+{
+  "id": "wirken-seem",
+  "rank": 767,
+  "word": "wirken",
+  "draft": "50b52d914b1993ae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to seem, to appear, to come across (as)",
+    "example": "You seem really tired today."
+  },
+  "note": "The hint says \"come across as\", which could make a learner think of the casual rüberkommen, but wirken is still the standard answer; the trick's VEER-ken also makes the i sound longer than the short i in wirken.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:16.578Z"
+}

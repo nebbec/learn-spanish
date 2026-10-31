@@ -1,0 +1,15 @@
+{
+  "rank": 788,
+  "word": "Partner",
+  "cards": [
+    "partner-partner"
+  ],
+  "skip": null,
+  "sameAs": {
+    "partner-partner": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:05.103Z"
+}

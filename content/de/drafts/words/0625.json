@@ -1,0 +1,15 @@
+{
+  "rank": 625,
+  "word": "zahlen",
+  "cards": [
+    "zahlen-pay"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zahlen-pay": "pagar-pay"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:24.469Z"
+}

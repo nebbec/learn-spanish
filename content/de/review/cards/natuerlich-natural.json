@@ -1,0 +1,17 @@
+{
+  "id": "natuerlich-natural",
+  "rank": 201,
+  "word": "natürlich",
+  "draft": "4c1171f5c957dbad",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "natural",
+    "example": "That's perfectly natural, after all."
+  },
+  "note": "The example's doch (roughly \"after all\") is left out of the English translation, which is fine for a short card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:51.929Z"
+}

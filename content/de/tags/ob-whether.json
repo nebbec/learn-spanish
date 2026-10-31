@@ -1,0 +1,14 @@
+{
+  "id": "ob-whether",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use ob for 'if' meaning whether (after know, ask); wenn for 'if' as a condition.",
+  "draft": "33358766284956a2",
+  "group": "#177 ob",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:48.982Z"
+}

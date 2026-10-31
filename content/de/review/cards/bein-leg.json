@@ -1,0 +1,17 @@
+{
+  "id": "bein-leg",
+  "rank": 635,
+  "word": "Bein",
+  "draft": "6667a36db61d2a3b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "leg",
+    "example": "My leg hurts."
+  },
+  "note": "In casual southern dialects, mainly in Switzerland and parts of Austria and Bavaria, Fuß can mean the whole leg, but standard usage there is still Bein, so regional: null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:26.403Z"
+}

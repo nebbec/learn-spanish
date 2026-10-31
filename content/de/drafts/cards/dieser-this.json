@@ -1,0 +1,21 @@
+{
+  "id": "dieser-this",
+  "rank": 47,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "dieser",
+  "en": "[this] film is really good",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Dieser Film ist echt gut.",
+    "en": "This film is really good."
+  },
+  "regional": null,
+  "trick": "DIESER sounds like DEE-zer, close to English these: it points at this one right here.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dieser-this.word.mp3",
+    "sentence": "/deck-de/audio/dieser-this.sentence.mp3"
+  }
+}

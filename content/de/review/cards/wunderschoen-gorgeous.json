@@ -1,0 +1,17 @@
+{
+  "id": "wunderschoen-gorgeous",
+  "rank": 721,
+  "word": "wunderschön",
+  "draft": "89be6c55b19aec6b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "gorgeous, wonderfully beautiful",
+    "example": "You look gorgeous today."
+  },
+  "note": "The hint \"stronger than schön\" is useful because it rules out plain schön, and hermoso is a close enough match for the picture to show this card's meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:49.776Z"
+}

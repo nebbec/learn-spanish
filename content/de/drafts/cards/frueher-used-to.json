@@ -1,0 +1,21 @@
+{
+  "id": "frueher-used-to",
+  "rank": 500,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "früher",
+  "en": "in the past, used to",
+  "hint": "in former times, as in I used to live there",
+  "grammar": null,
+  "example": {
+    "target": "Früher habe ich in Berlin gewohnt.",
+    "en": "I used to live in Berlin."
+  },
+  "regional": null,
+  "trick": "FRÜH-er sounds like free-er: in the past, before all the responsibilities, you were free-er.",
+  "image": "/deck-de/img/frueher-used-to.webp",
+  "audio": {
+    "word": "/deck-de/audio/frueher-used-to.word.mp3",
+    "sentence": "/deck-de/audio/frueher-used-to.sentence.mp3"
+  }
+}

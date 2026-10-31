@@ -1,0 +1,33 @@
+{
+  "id": "ueberleben-survive",
+  "rank": 669,
+  "kind": "content",
+  "pos": "verb",
+  "target": "überleben",
+  "en": "to survive",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "überlebe",
+      "du": "überlebst",
+      "er": "überlebt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "überlebt"
+    }
+  },
+  "example": {
+    "target": "Zum Glück haben alle den Unfall überlebt.",
+    "en": "Luckily, everyone survived the accident."
+  },
+  "regional": null,
+  "trick": "ÜBER-LEBEN: über is like over, and LEBEN sounds a bit like living, so you live on over danger: you survive.",
+  "image": "/deck-de/img/ueberleben-survive.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberleben-survive.word.mp3",
+    "sentence": "/deck-de/audio/ueberleben-survive.sentence.mp3"
+  }
+}

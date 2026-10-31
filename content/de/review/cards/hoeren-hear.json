@@ -1,0 +1,17 @@
+{
+  "id": "hoeren-hear",
+  "rank": 72,
+  "word": "hören",
+  "draft": "1ff1f5ee6067cc4c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hear",
+    "example": "Do you hear the (that) noise?"
+  },
+  "note": "The \"to listen to\" card has the same answer, hören, so the two cards don't compete, but its hint could also name this sense (\"not just hear\") to keep the two meanings clearly apart.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:44.636Z"
+}

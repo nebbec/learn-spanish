@@ -1,0 +1,17 @@
+{
+  "id": "andere-other",
+  "rank": 112,
+  "word": "andere",
+  "draft": "d371a6d1506f3f04",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "other",
+    "example": "The others are already waiting outside."
+  },
+  "note": "The prompt gives \"das andere Auto\", where the ending happens to match the target, but the example uses the word on its own as a noun with the -n ending (die anderen), so the editor might mention in grammar or the hint that andere takes adjective endings.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:02.286Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "geschehen-happen",
+  "rank": 459,
+  "word": "geschehen",
+  "draft": "d08089a44325688a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to happen, to occur",
+    "example": "What happened last evening?"
+  },
+  "note": "In everyday speech \"Was ist gestern Abend passiert?\" would be more usual, but the hint deliberately points to the more formal geschehen, so the card is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:00.054Z"
+}

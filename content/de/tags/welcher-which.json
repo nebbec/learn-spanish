@@ -1,0 +1,14 @@
+{
+  "id": "welcher-which",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f076da90cb42ca34",
+  "group": "#238 welcher",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:02.880Z"
+}

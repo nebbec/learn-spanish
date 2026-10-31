@@ -1,0 +1,17 @@
+{
+  "id": "egal-doesnt-matter",
+  "rank": 308,
+  "word": "egal",
+  "draft": "91f06646a0640687",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "all the same, doesn't matter (to someone); used after a verb, as in das ist mir egal",
+    "example": "That's all the same to me. / I don't care."
+  },
+  "note": "The hint usefully rules out gleich and the colloquial wurscht, and egal is also standard in Austria and Switzerland, so regional null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:24.428Z"
+}

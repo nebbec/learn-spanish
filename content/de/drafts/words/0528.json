@@ -1,0 +1,15 @@
+{
+  "rank": 528,
+  "word": "Spiel",
+  "cards": [
+    "spiel-game"
+  ],
+  "skip": null,
+  "sameAs": {
+    "spiel-game": "juego-game"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:56:12.769Z"
+}

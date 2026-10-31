@@ -1,0 +1,15 @@
+{
+  "rank": 477,
+  "word": "schreien",
+  "cards": [
+    "schreien-scream"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schreien-scream": "gritar-shout"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:50.396Z"
+}

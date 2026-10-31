@@ -1,0 +1,25 @@
+{
+  "id": "moeglichkeit-possibility",
+  "rank": 776,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Möglichkeit",
+  "en": "possibility",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Möglichkeiten"
+  },
+  "example": {
+    "target": "Es gibt noch eine andere Möglichkeit.",
+    "en": "There's another possibility."
+  },
+  "regional": null,
+  "trick": "MÖG-lich-KEIT starts a bit like might: anything that might happen is a possibility.",
+  "image": "/deck-de/img/moeglichkeit-possibility.webp",
+  "audio": {
+    "word": "/deck-de/audio/moeglichkeit-possibility.word.mp3",
+    "sentence": "/deck-de/audio/moeglichkeit-possibility.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 738,
+  "word": "Seele",
+  "cards": [
+    "seele-soul"
+  ],
+  "skip": null,
+  "sameAs": {
+    "seele-soul": "alma-soul"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:09:53.477Z"
+}

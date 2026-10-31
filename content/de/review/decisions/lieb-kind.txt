@@ -1,0 +1,30 @@
+# lieb-kind · rank 692 · lieb
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out nett but not süß ('Das ist süß von dir' is a common way to say that's sweet of you) or freundlich for 'kind', so more than one answer fits. Suggested fix: hint: of a person, as in that's sweet of you; not nett, süß or freundlich
+# Reviewer's note (not a reason to flag): This meaning is clearly separate from the word's other card ("dear", as at the start of a letter), so the two cards don't overlap.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             lieb-kind
+kind:           content
+pos:            adjective
+target:         lieb
+en:             kind, sweet
+hint:           of a person, as in that's sweet of you; not nett, süß or freundlich
+example.target: Das ist echt lieb von dir!
+example.en:     That's really sweet of you!
+regional.where:
+regional.text:
+trick:          LIEB sounds like leap: a kind, sweet friend leaps up to help you.
+
+# The draft this file was made from. Do not change it.
+draft: 38c3532790c2a782

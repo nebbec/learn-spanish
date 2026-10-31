@@ -1,0 +1,17 @@
+{
+  "rank": 95,
+  "word": "finden",
+  "cards": [
+    "finden-find",
+    "finden-think-opinion"
+  ],
+  "skip": null,
+  "sameAs": {
+    "finden-find": "encontrar-find",
+    "finden-think-opinion": "creer-think-opinion"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:23.522Z"
+}

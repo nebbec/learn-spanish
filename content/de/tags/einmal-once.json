@@ -1,0 +1,14 @@
+{
+  "id": "einmal-once",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "79583b84b8b7ebe9",
+  "group": "#280 einmal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:33.424Z"
+}

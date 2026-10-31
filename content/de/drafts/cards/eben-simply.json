@@ -1,0 +1,21 @@
+{
+  "id": "eben-simply",
+  "rank": 411,
+  "kind": "glue",
+  "pos": "other",
+  "target": "eben",
+  "en": "that's [just] how it is",
+  "hint": "the particle; not halt or einfach",
+  "grammar": null,
+  "example": {
+    "target": "Das ist eben so.",
+    "en": "That's just how it is."
+  },
+  "regional": null,
+  "trick": "EBEN sounds like even: it's even, flat, no way around it, that's just how it is.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/eben-simply.word.mp3",
+    "sentence": "/deck-de/audio/eben-simply.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ort-place",
+  "rank": 393,
+  "word": "Ort",
+  "draft": "1bd07de2459b9a30",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "place, location; also a small town or village",
+    "example": "That is a beautiful place."
+  },
+  "note": "The hint is useful: it rules out Platz and points away from Stelle, a word that is closer to \"spot\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:52.526Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "richtig-really",
+  "rank": 163,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "richtig",
+  "en": "really (very)",
+  "hint": "before an adjective, as in really good; not wirklich",
+  "grammar": null,
+  "example": {
+    "target": "Der Film war richtig gut.",
+    "en": "The movie was really good."
+  },
+  "regional": null,
+  "trick": "RICHTIG sounds a bit like RIGHT, and English says right good too: right good means really good.",
+  "image": "/deck-de/img/richtig-really.webp",
+  "audio": {
+    "word": "/deck-de/audio/richtig-really.word.mp3",
+    "sentence": "/deck-de/audio/richtig-really.sentence.mp3"
+  }
+}

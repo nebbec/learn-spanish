@@ -1,0 +1,25 @@
+{
+  "id": "ehre-honor",
+  "rank": 614,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Ehre",
+  "en": "honor",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Es ist mir eine Ehre.",
+    "en": "It's an honor."
+  },
+  "regional": null,
+  "trick": "EHRE sounds like \"air-uh\": a knight carries himself with an air of honor.",
+  "image": "/deck-de/img/ehre-honor.webp",
+  "audio": {
+    "word": "/deck-de/audio/ehre-honor.word.mp3",
+    "sentence": "/deck-de/audio/ehre-honor.sentence.mp3"
+  }
+}

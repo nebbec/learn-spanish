@@ -1,0 +1,15 @@
+{
+  "rank": 482,
+  "word": "wen",
+  "cards": [
+    "wen-whom"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wen-whom": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:16.594Z"
+}

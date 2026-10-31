@@ -1,0 +1,14 @@
+{
+  "id": "sieben-seven",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "409078bcbeb689f7",
+  "group": "#717 sieben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:35.911Z"
+}

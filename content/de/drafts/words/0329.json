@@ -1,0 +1,15 @@
+{
+  "rank": 329,
+  "word": "lesen",
+  "cards": [
+    "lesen-read"
+  ],
+  "skip": null,
+  "sameAs": {
+    "lesen-read": "leer-read"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:01.960Z"
+}

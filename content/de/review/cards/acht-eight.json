@@ -1,0 +1,17 @@
+{
+  "id": "acht-eight",
+  "rank": 632,
+  "word": "acht",
+  "draft": "90343a637edd375c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "eight",
+    "example": "I'm getting up at eight tomorrow."
+  },
+  "note": "The trick works better than it looks, because acht and octo- (Latin for eight) really do share a root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:11.923Z"
+}

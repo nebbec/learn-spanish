@@ -1,0 +1,37 @@
+# irren-be-wrong · rank 693 · irren
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out sich täuschen, which is also one common reflexive verb for being mistaken (Da täuschst du dich), so there are two right answers. Suggested fix: hint: mistaken; one reflexive verb, related to English err (not sich täuschen)
+# Reviewer's note (not a reason to flag): The present forms include the reflexive pronoun, which is helpful, and the Perfekt is hat sich geirrt.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 irren-be-wrong
+kind:               content
+pos:                verb
+target:             sich irren
+en:                 to be wrong
+hint:               mistaken; one reflexive verb, related to English err (not sich täuschen)
+ich:                irre mich
+du:                 irrst dich
+er:                 irrt sich
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geirrt
+example.target:     Ich glaube, du irrst dich.
+example.en:         I think you're wrong.
+regional.where:
+regional.text:
+trick:              IRREN sounds like "err-en": to err is to be wrong, as in to err is human.
+
+# The draft this file was made from. Do not change it.
+draft: 22dc7903bcdb45c6

@@ -1,0 +1,15 @@
+{
+  "rank": 690,
+  "word": "schwören",
+  "cards": [
+    "schwoeren-swear"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schwoeren-swear": "jurar-swear"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:56.981Z"
+}

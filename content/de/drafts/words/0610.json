@@ -1,0 +1,15 @@
+{
+  "rank": 610,
+  "word": "Körper",
+  "cards": [
+    "koerper-body"
+  ],
+  "skip": null,
+  "sameAs": {
+    "koerper-body": "cuerpo-body"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:21.855Z"
+}

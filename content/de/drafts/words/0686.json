@@ -1,0 +1,15 @@
+{
+  "rank": 686,
+  "word": "Boss",
+  "cards": [
+    "boss-boss"
+  ],
+  "skip": null,
+  "sameAs": {
+    "boss-boss": "jefe-boss"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:40.531Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "zwischen-between",
+  "rank": 433,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "zwischen",
+  "en": "I'm sitting [between] Anna and Tom",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich sitze zwischen Anna und Tom.",
+    "en": "I'm sitting between Anna and Tom."
+  },
+  "regional": null,
+  "trick": "ZWISCHEN sounds like tsvish-en: picture a ball that goes swish right between two goalposts.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/zwischen-between.word.mp3",
+    "sentence": "/deck-de/audio/zwischen-between.sentence.mp3"
+  }
+}

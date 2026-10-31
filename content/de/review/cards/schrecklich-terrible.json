@@ -1,0 +1,17 @@
+{
+  "id": "schrecklich-terrible",
+  "rank": 589,
+  "word": "schrecklich",
+  "draft": "8643d8dfd0a5336d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "terrible, awful, dreadful",
+    "example": "The weather is terrible today."
+  },
+  "note": "The hint is needed because furchtbar, fürchterlich and schlimm could also answer \"terrible, awful\", and the link to Schreck rules them out; the Shrek trick also fits because the name comes from Yiddish/German Schreck.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:19.011Z"
+}

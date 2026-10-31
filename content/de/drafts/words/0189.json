@@ -1,0 +1,15 @@
+{
+  "rank": 189,
+  "word": "Fall",
+  "cards": [
+    "fall-case"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fall-case": "caso-case"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:34:43.831Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "huebsch-pretty",
+  "rank": 505,
+  "word": "hübsch",
+  "draft": "57fec5edc04f59d7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "pretty, good-looking, attractive",
+    "example": "You look really pretty today."
+  },
+  "note": "The word \"cute\" in the hint could point some learners to süß or niedlich; \"good-looking, attractive; not schön\" would fit hübsch more closely.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:03:41.724Z"
+}

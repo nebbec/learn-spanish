@@ -1,0 +1,33 @@
+{
+  "id": "stellen-put",
+  "rank": 208,
+  "kind": "content",
+  "pos": "verb",
+  "target": "stellen",
+  "en": "to put",
+  "hint": "standing upright, not legen",
+  "grammar": {
+    "present": {
+      "ich": "stelle",
+      "du": "stellst",
+      "er": "stellt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gestellt"
+    }
+  },
+  "example": {
+    "target": "Stell die Flasche auf den Tisch.",
+    "en": "Put the bottle on the table."
+  },
+  "regional": null,
+  "trick": "STELLEN sounds like \"shtell\", close to \"stall\": you put a horse standing up in its stall.",
+  "image": "/deck-de/img/stellen-put.webp",
+  "audio": {
+    "word": "/deck-de/audio/stellen-put.word.mp3",
+    "sentence": "/deck-de/audio/stellen-put.sentence.mp3"
+  }
+}

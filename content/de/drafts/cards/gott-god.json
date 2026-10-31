@@ -1,0 +1,25 @@
+{
+  "id": "gott-god",
+  "rank": 137,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Gott",
+  "en": "god",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Götter"
+  },
+  "example": {
+    "target": "Glaubst du an Gott?",
+    "en": "Do you believe in God?"
+  },
+  "regional": null,
+  "trick": "GOTT sounds like \"got\" with a short o; soften the final t to a d and you have \"God\".",
+  "image": "/deck-de/img/gott-god.webp",
+  "audio": {
+    "word": "/deck-de/audio/gott-god.word.mp3",
+    "sentence": "/deck-de/audio/gott-god.sentence.mp3"
+  }
+}

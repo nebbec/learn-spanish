@@ -1,0 +1,38 @@
+{
+  "id": "meist-most",
+  "rank": 604,
+  "word": "meist",
+  "draft": "7bfa901e4f2574a9",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "meaning",
+      "problem": "On its own, 'meist' is the adverb 'usually, mostly', and a subtitle token 'meist' is almost always that adverb, because the determiner 'most' always has an ending (meiste, meisten), so the card teaches the wrong meaning for this word.",
+      "fix": "kind: content; pos: adverb; en: usually, mostly; hint: the short word, not meistens or normalerweise"
+    },
+    {
+      "reason": "oneAnswer",
+      "problem": "The natural answer for '[most] of my friends' is 'die meisten', and the hint asks for a 'base form' meist that never appears without an ending in this meaning, so the learner is told to recall a form German doesn't use here.",
+      "fix": "en: usually, mostly; hint: the short word, not meistens or normalerweise"
+    },
+    {
+      "reason": "grammar",
+      "problem": "For the determiner, 'meist' is not the dictionary form, which would be 'meiste' (der/die/das meiste, die meisten); bare 'meist' is only right as the adverb.",
+      "fix": "Keep target: meist, with pos: adverb and grammar: null"
+    },
+    {
+      "reason": "example",
+      "problem": "The sentence is correct German but uses the determiner 'die meisten', not the adverb 'meist' that this word is.",
+      "fix": "example.target: Ich fahre meist mit dem Rad zur Arbeit. example.en: I usually cycle to work."
+    }
+  ],
+  "back": {
+    "target": "usually, mostly (adverb; the determiner 'most' is always inflected: der/die/das meiste, die meisten)",
+    "example": "Most of my friends live in Berlin."
+  },
+  "note": "The trick (meist rhymes with iced and sounds like most) still works for the adverb card, e.g. 'most of the time = meist'; it is a short synonym of the more common 'meistens', which is why the hint has to rule that word out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:49.147Z"
+}

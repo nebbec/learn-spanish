@@ -1,0 +1,21 @@
+{
+  "id": "ueberhaupt-anyway",
+  "rank": 390,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "überhaupt",
+  "en": "Who are you [anyway]?",
+  "hint": "in a question, not sowieso",
+  "grammar": null,
+  "example": {
+    "target": "Was machst du überhaupt hier?",
+    "en": "What are you doing here anyway?"
+  },
+  "regional": null,
+  "trick": "ÜBERHAUPT sounds like Uber, how: Uber, how did you even get here anyway?",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ueberhaupt-anyway.word.mp3",
+    "sentence": "/deck-de/audio/ueberhaupt-anyway.sentence.mp3"
+  }
+}

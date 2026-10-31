@@ -1,0 +1,14 @@
+{
+  "id": "dagegen-against-it",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "02cf8e66af7f6946",
+  "group": "#769 dagegen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:22.726Z"
+}

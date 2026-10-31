@@ -87,6 +87,13 @@ describe("German nouns", () => {
     expect(text("plural")).toBe("no plural");
     expect(q("plural")!.lang).toBe("");
   });
+
+  it("say so when a noun is used only in the plural", () => {
+    const leute = { ...fixtureCardDe("haus-house"), target: "die Leute" };
+    leute.grammar = { gender: "pl", article: "die", plural: null };
+    reveal(leute);
+    expect(text("plural")).toBe("plural only");
+  });
 });
 
 describe("German verbs", () => {

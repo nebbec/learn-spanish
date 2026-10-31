@@ -1,0 +1,21 @@
+{
+  "id": "sicher-sure",
+  "rank": 128,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "sicher",
+  "en": "sure",
+  "hint": "certain, not in doubt",
+  "grammar": null,
+  "example": {
+    "target": "Bist du sicher?",
+    "en": "Are you sure?"
+  },
+  "regional": null,
+  "trick": "SICHER (ZIKH-er) is related to secure: when you feel secure about an answer, you are sure.",
+  "image": "/deck-de/img/sicher-sure.webp",
+  "audio": {
+    "word": "/deck-de/audio/sicher-sure.word.mp3",
+    "sentence": "/deck-de/audio/sicher-sure.sentence.mp3"
+  }
+}

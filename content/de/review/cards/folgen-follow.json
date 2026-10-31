@@ -1,0 +1,17 @@
+{
+  "id": "folgen-follow",
+  "rank": 405,
+  "word": "folgen",
+  "draft": "e4fd9548e9c70ccd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to follow (go or come after someone or something)",
+    "example": "The dog follows me everywhere."
+  },
+  "note": "folgen takes haben when it means to obey (Das Kind hat nicht gefolgt), but the card's sense, to follow, rightly takes sein.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:32.573Z"
+}

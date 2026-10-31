@@ -1,0 +1,17 @@
+{
+  "id": "bleiben-stay",
+  "rank": 126,
+  "word": "bleiben",
+  "draft": "f30c7ac60cfada22",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to stay, to remain",
+    "example": "Do stay a little longer!"
+  },
+  "note": "The hint \"remain\" is useful because it rules out übernachten and wohnen, which can also translate \"to stay\" (overnight, or at a hotel).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:14.947Z"
+}

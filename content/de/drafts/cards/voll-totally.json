@@ -1,0 +1,21 @@
+{
+  "id": "voll-totally",
+  "rank": 348,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "voll",
+  "en": "totally",
+  "hint": "casual slang before an adjective, the same word as full",
+  "grammar": null,
+  "example": {
+    "target": "Der Film war voll gut.",
+    "en": "The movie was totally good."
+  },
+  "regional": null,
+  "trick": "VOLL sounds like \"full\": something voll gut is good to the full, totally good.",
+  "image": "/deck-de/img/voll-totally.webp",
+  "audio": {
+    "word": "/deck-de/audio/voll-totally.word.mp3",
+    "sentence": "/deck-de/audio/voll-totally.sentence.mp3"
+  }
+}

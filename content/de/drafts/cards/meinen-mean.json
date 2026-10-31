@@ -1,0 +1,33 @@
+{
+  "id": "meinen-mean",
+  "rank": 234,
+  "kind": "content",
+  "pos": "verb",
+  "target": "meinen",
+  "en": "to mean",
+  "hint": "what a person means, not a word",
+  "grammar": {
+    "present": {
+      "ich": "meine",
+      "du": "meinst",
+      "er": "meint"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemeint"
+    }
+  },
+  "example": {
+    "target": "Was meinst du damit?",
+    "en": "What do you mean by that?"
+  },
+  "regional": null,
+  "trick": "MEINEN starts like \"mine\": what you mean is what's in your own mind, so mine-en means to mean.",
+  "image": "/deck-de/img/meinen-mean.webp",
+  "audio": {
+    "word": "/deck-de/audio/meinen-mean.word.mp3",
+    "sentence": "/deck-de/audio/meinen-mean.sentence.mp3"
+  }
+}

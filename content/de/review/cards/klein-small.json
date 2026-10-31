@@ -1,0 +1,17 @@
+{
+  "id": "klein-small",
+  "rank": 142,
+  "word": "klein",
+  "draft": "a6dbaf598ac0639b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "small, little",
+    "example": "My room is really small."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:30.837Z"
+}

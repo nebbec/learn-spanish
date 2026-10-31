@@ -1,0 +1,17 @@
+{
+  "id": "her-ago",
+  "rank": 196,
+  "word": "her",
+  "draft": "55ba25f81eb19d4b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "ago (in time expressions with sein: es ist lange her = it was long ago); also: here, toward the speaker",
+    "example": "That's a long time ago now."
+  },
+  "note": "The hint is needed: it rules out vor and zurück, since zurück goes with liegen, not sein.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:08.908Z"
+}

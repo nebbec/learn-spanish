@@ -1,0 +1,23 @@
+{
+  "id": "naechste-next",
+  "rank": 270,
+  "word": "nächste",
+  "draft": "0fdf30ba93da9770",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "After ä the ch in nächste is the soft ich-sound made at the front of the mouth, not a throaty sound, so the trick teaches the wrong pronunciation.",
+      "fix": "trick: NÄCHSTE sounds close to 'next', with a soft hissing ch in place of the x: the next one."
+    }
+  ],
+  "back": {
+    "target": "next (nearest; the following one in time, order or place)",
+    "example": "We'll see each other next week. / See you next week."
+  },
+  "note": "The bare prompt \"next\" could also suggest an adverb like \"dann\" or \"als Nächstes\", but nächste is clearly the main answer for the adjective, and the example makes the meaning clear.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:00.792Z"
+}

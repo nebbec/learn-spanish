@@ -1,0 +1,21 @@
+{
+  "id": "entschuldigung-sorry",
+  "rank": 451,
+  "kind": "content",
+  "pos": "other",
+  "target": "Entschuldigung",
+  "en": "excuse me, sorry",
+  "hint": "one word, said to apologize or get attention",
+  "grammar": null,
+  "example": {
+    "target": "Entschuldigung, wo ist hier der Bahnhof?",
+    "en": "Excuse me, where's the train station?"
+  },
+  "regional": null,
+  "trick": "ent-SHOOL-di-goong has SHOOL in the middle, like 'should': you say it when you should have been more careful.",
+  "image": "/deck-de/img/entschuldigung-sorry.webp",
+  "audio": {
+    "word": "/deck-de/audio/entschuldigung-sorry.word.mp3",
+    "sentence": "/deck-de/audio/entschuldigung-sorry.sentence.mp3"
+  }
+}

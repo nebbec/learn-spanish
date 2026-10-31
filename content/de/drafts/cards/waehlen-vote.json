@@ -1,0 +1,33 @@
+{
+  "id": "waehlen-vote",
+  "rank": 790,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wählen",
+  "en": "to vote",
+  "hint": "in an election",
+  "grammar": {
+    "present": {
+      "ich": "wähle",
+      "du": "wählst",
+      "er": "wählt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gewählt"
+    }
+  },
+  "example": {
+    "target": "Wen wählst du im September?",
+    "en": "Who are you voting for in September?"
+  },
+  "regional": null,
+  "trick": "WÄHLEN sounds like vail-en: voters drop their vote behind a veil of secrecy.",
+  "image": "/deck-de/img/waehlen-vote.webp",
+  "audio": {
+    "word": "/deck-de/audio/waehlen-vote.word.mp3",
+    "sentence": "/deck-de/audio/waehlen-vote.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "bestehen-pass",
+  "rank": 676,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bestehen",
+  "en": "to pass",
+  "hint": "an exam, a test",
+  "grammar": {
+    "present": {
+      "ich": "bestehe",
+      "du": "bestehst",
+      "er": "besteht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bestanden"
+    }
+  },
+  "example": {
+    "target": "Hast du die Prüfung bestanden?",
+    "en": "Did you pass the exam?"
+  },
+  "regional": null,
+  "trick": "BESTEHEN sounds like \"be-SHTAY-en\": pass the test and you get to stay in the class.",
+  "image": "/deck-de/img/bestehen-pass.webp",
+  "audio": {
+    "word": "/deck-de/audio/bestehen-pass.word.mp3",
+    "sentence": "/deck-de/audio/bestehen-pass.sentence.mp3"
+  }
+}

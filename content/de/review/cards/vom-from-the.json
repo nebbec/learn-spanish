@@ -1,0 +1,17 @@
+{
+  "id": "vom-from-the",
+  "rank": 223,
+  "word": "vom",
+  "draft": "99f31c34adf464fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "from the (contraction of von + dem, masculine or neuter dative)",
+    "example": "I'm just coming from the doctor's."
+  },
+  "note": "The prompt says \"coming back\" but the example's English says just \"coming\", so the editor could make the two match; the hint is needed, since without it a learner could answer \"von dem\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:41.086Z"
+}

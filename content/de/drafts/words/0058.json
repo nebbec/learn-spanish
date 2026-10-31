@@ -1,0 +1,17 @@
+{
+  "rank": 58,
+  "word": "schon",
+  "cards": [
+    "schon-already",
+    "schon-come-on"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schon-already": "ya-already",
+    "schon-come-on": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:14.473Z"
+}

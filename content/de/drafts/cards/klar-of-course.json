@@ -1,0 +1,21 @@
+{
+  "id": "klar-of-course",
+  "rank": 158,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "klar",
+  "en": "of course",
+  "hint": "short casual reply, not natürlich",
+  "grammar": null,
+  "example": {
+    "target": "Kommst du mit? Klar!",
+    "en": "Are you coming along? Of course!"
+  },
+  "regional": null,
+  "trick": "KLAR sounds like clear: when the answer is clear, you just say of course.",
+  "image": "/deck-de/img/klar-of-course.webp",
+  "audio": {
+    "word": "/deck-de/audio/klar-of-course.word.mp3",
+    "sentence": "/deck-de/audio/klar-of-course.sentence.mp3"
+  }
+}

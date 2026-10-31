@@ -1,0 +1,17 @@
+{
+  "id": "ueberhaupt-at-all",
+  "rank": 390,
+  "word": "überhaupt",
+  "draft": "8982b133f3fa1958",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at all (with a negative: not at all); also anyway, in the first place (in questions)",
+    "example": "That's not bad at all."
+  },
+  "note": "The hint \"not gar\" is needed because \"Ich bin gar nicht müde\" would also be right, and alternatives like \"kein bisschen\" replace the nicht as well, so they don't fit the bracket.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:34.004Z"
+}

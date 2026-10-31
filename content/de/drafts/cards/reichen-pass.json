@@ -1,0 +1,33 @@
+{
+  "id": "reichen-pass",
+  "rank": 324,
+  "kind": "content",
+  "pos": "verb",
+  "target": "reichen",
+  "en": "to pass",
+  "hint": "hand something to someone",
+  "grammar": {
+    "present": {
+      "ich": "reiche",
+      "du": "reichst",
+      "er": "reicht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gereicht"
+    }
+  },
+  "example": {
+    "target": "Reichst du mir mal das Salz?",
+    "en": "Can you pass me the salt?"
+  },
+  "regional": null,
+  "trick": "REICHEN sounds like reaching: you reach across the table to pass someone the salt.",
+  "image": "/deck-de/img/reichen-pass.webp",
+  "audio": {
+    "word": "/deck-de/audio/reichen-pass.word.mp3",
+    "sentence": "/deck-de/audio/reichen-pass.sentence.mp3"
+  }
+}

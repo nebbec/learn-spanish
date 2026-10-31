@@ -1,0 +1,17 @@
+{
+  "id": "schon-come-on",
+  "rank": 58,
+  "word": "schon",
+  "draft": "c81676f62eab1822",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "already; as a particle after an imperative, it urges someone on (come on, go on)",
+    "example": "Come on, it'll be fun!"
+  },
+  "note": "\"Komm doch\" is the closest rival, but it sounds like an invitation, not impatient urging, so \"Komm schon, sag's mir!\" is the only natural answer; the editor could add \"not doch\" to the hint to be safe.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:22.231Z"
+}

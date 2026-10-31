@@ -1,0 +1,15 @@
+{
+  "rank": 335,
+  "word": "bald",
+  "cards": [
+    "bald-soon"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bald-soon": "pronto-soon"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:20.425Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ihnen-them",
+  "rank": 78,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "ihnen",
+  "en": "I'm helping [them]",
+  "hint": "dative, to or for them",
+  "grammar": null,
+  "example": {
+    "target": "Ich helfe ihnen morgen beim Umzug.",
+    "en": "I'm helping them move tomorrow."
+  },
+  "regional": null,
+  "trick": "IHNEN sounds like \"EE-nen\": they're in need, so you give help to them.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ihnen-them.word.mp3",
+    "sentence": "/deck-de/audio/ihnen-them.sentence.mp3"
+  }
+}

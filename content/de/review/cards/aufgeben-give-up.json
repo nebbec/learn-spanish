@@ -1,0 +1,23 @@
+{
+  "id": "aufgeben-give-up",
+  "rank": 795,
+  "word": "aufgeben",
+  "draft": "ff942fd59c46193e",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "trick",
+      "problem": "The trick links auf to English off, which teaches a false meaning: auf means up or on (ab is off), and aufgeben is literally up-give, give up.",
+      "fix": "trick: AUF means up and GEBEN means give, so aufgeben is literally to give up."
+    }
+  ],
+  "back": {
+    "target": "to give up (also to post a letter, to check luggage, to place an order)",
+    "example": "Don't give up, you can do it!"
+  },
+  "note": "The imperative example splits the separable verb correctly, and abandonar-abandon is close in meaning but not the same, so sameAs is right to be null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:46.826Z"
+}

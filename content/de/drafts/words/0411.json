@@ -1,0 +1,17 @@
+{
+  "rank": 411,
+  "word": "eben",
+  "cards": [
+    "eben-just-now",
+    "eben-simply"
+  ],
+  "skip": null,
+  "sameAs": {
+    "eben-just-now": null,
+    "eben-simply": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:51.595Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "naechste-next",
+  "rank": 270,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "nächste",
+  "en": "next",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir sehen uns nächste Woche.",
+    "en": "See you next week."
+  },
+  "regional": null,
+  "trick": "NÄCHSTE sounds close to 'next', with a throaty ch in place of the x: the next one.",
+  "image": "/deck-de/img/naechste-next.webp",
+  "audio": {
+    "word": "/deck-de/audio/naechste-next.word.mp3",
+    "sentence": "/deck-de/audio/naechste-next.sentence.mp3"
+  }
+}

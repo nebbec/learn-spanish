@@ -1,0 +1,21 @@
+{
+  "id": "ploetzlich-suddenly",
+  "rank": 705,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "plötzlich",
+  "en": "suddenly",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Plötzlich war das Licht aus.",
+    "en": "Suddenly the light was out."
+  },
+  "regional": null,
+  "trick": "PLÖTZLICH starts like \"plots\": a good plot twist hits you suddenly.",
+  "image": "/deck-de/img/ploetzlich-suddenly.webp",
+  "audio": {
+    "word": "/deck-de/audio/ploetzlich-suddenly.word.mp3",
+    "sentence": "/deck-de/audio/ploetzlich-suddenly.sentence.mp3"
+  }
+}

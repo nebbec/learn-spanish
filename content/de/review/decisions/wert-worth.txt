@@ -1,0 +1,31 @@
+# wert-worth · rank 549 · wert
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card valer-be-worth (to be worth) has the same meaning as German wert (sein), so its picture fits this card. Suggested fix: valer-be-worth
+# Reviewer's note (not a reason to flag): The noun der Wert (value) is a separate word, and the lowercase adjective target with its example keeps this card clear of it.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0549.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wert-worth
+kind:           content
+pos:            adjective
+target:         wert
+en:             worth
+hint:
+example.target: Das alte Auto ist nicht viel wert.
+example.en:     The old car isn't worth much.
+regional.where:
+regional.text:
+trick:          WERT sounds like vairt, a close cousin of English worth: what is it worth?
+
+# The draft this file was made from. Do not change it.
+draft: 427f89b32f4e95db

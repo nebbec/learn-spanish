@@ -1,0 +1,14 @@
+{
+  "id": "sonst-else",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sonst for anything else besides this; use noch for one more of the same.",
+  "draft": "dd32e9486b373ede",
+  "group": "#266 sonst",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:05.589Z"
+}

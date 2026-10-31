@@ -1,0 +1,17 @@
+{
+  "id": "unmoeglich-impossible",
+  "rank": 736,
+  "word": "unmöglich",
+  "draft": "679fd7831949617f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "impossible",
+    "example": "That's impossible, I don't have time."
+  },
+  "note": "The trick's link from mög- to might holds up, because möglich comes from mögen, which is related to English may and might.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:22:54.995Z"
+}

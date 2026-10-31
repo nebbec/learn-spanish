@@ -1,0 +1,14 @@
+{
+  "id": "bauen-build",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "713f9903141e8655",
+  "group": "#537 bauen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:21.036Z"
+}

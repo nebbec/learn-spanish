@@ -1,0 +1,17 @@
+{
+  "id": "an-on",
+  "rank": 45,
+  "word": "an",
+  "draft": "66c75b1bbece185b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "on, at (a vertical surface or edge; preposition with dative for location)",
+    "example": "What is that there on the wall?"
+  },
+  "note": "The hint is needed here because \"auf der Wand\" would be a likely wrong guess, and it rules that out; the example's an der Wand also shows the dative for location.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:29:47.272Z"
+}

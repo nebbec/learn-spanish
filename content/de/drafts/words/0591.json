@@ -1,0 +1,15 @@
+{
+  "rank": 591,
+  "word": "zwar",
+  "cards": [
+    "zwar-admittedly"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zwar-admittedly": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:05.968Z"
+}

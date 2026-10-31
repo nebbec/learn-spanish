@@ -1,0 +1,14 @@
+{
+  "id": "also-so",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use also for 'so' when summing up; for English 'also, too' say auch.",
+  "draft": "83f47051596273c9",
+  "group": "#85 also",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:08.061Z"
+}

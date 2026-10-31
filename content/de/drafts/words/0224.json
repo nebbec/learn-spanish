@@ -1,0 +1,15 @@
+{
+  "rank": 224,
+  "word": "davon",
+  "cards": [
+    "davon-of-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "davon-of-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:37:06.183Z"
+}

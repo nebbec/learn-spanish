@@ -1,0 +1,17 @@
+{
+  "rank": 590,
+  "word": "fassen",
+  "cards": [
+    "fassen-catch",
+    "fassen-grasp"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fassen-catch": "atrapar-catch",
+    "fassen-grasp": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:06.394Z"
+}

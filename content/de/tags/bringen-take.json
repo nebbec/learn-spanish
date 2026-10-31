@@ -1,0 +1,14 @@
+{
+  "id": "bringen-take",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use bringen for taking someone or something to a place; nehmen for taking hold of something or taking a bus.",
+  "draft": "4c4faaab0674659d",
+  "group": "#116 bringen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:59.097Z"
+}

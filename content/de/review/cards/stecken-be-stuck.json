@@ -1,0 +1,23 @@
+{
+  "id": "stecken-be-stuck",
+  "rank": 412,
+  "word": "stecken",
+  "draft": "a43d1858a88ba5f8",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "For a bare \"to be stuck\", feststecken or stecken bleiben would be just as right, and the hint's \"where are you hiding?\" points to sich verstecken, so the hint misleads instead of narrowing to stecken.",
+      "fix": "en: to be (stuck) somewhere; hint: no object, same verb as to put in, as in Wo ___ du? (Where are you?)"
+    }
+  ],
+  "back": {
+    "target": "to be (located, stuck or hidden) somewhere; to be caught up in something",
+    "example": "We're stuck in traffic."
+  },
+  "note": "With no object, stecken is often used with sein in its Perfekt in southern Germany and Austria (ist gesteckt), but haben is right for standard German.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:14.443Z"
+}

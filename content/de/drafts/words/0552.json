@@ -1,0 +1,17 @@
+{
+  "rank": 552,
+  "word": "Stück",
+  "cards": [
+    "stueck-piece",
+    "stueck-play"
+  ],
+  "skip": null,
+  "sameAs": {
+    "stueck-piece": null,
+    "stueck-play": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:37.429Z"
+}

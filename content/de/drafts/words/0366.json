@@ -1,0 +1,17 @@
+{
+  "rank": 366,
+  "word": "hinter",
+  "cards": [
+    "hinter-behind",
+    "hinter-back-rear"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hinter-behind": null,
+    "hinter-back-rear": "trasero-rear"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:04.799Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "trotzdem-anyway",
+  "rank": 558,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "trotzdem",
+  "en": "anyway",
+  "hint": "despite that, nevertheless",
+  "grammar": null,
+  "example": {
+    "target": "Es regnet, aber wir gehen trotzdem raus.",
+    "en": "It's raining, but we're going out anyway."
+  },
+  "regional": null,
+  "trick": "TROTZDEM sounds like trots them: the horse trots on anyway, despite them.",
+  "image": "/deck-de/img/trotzdem-anyway.webp",
+  "audio": {
+    "word": "/deck-de/audio/trotzdem-anyway.word.mp3",
+    "sentence": "/deck-de/audio/trotzdem-anyway.sentence.mp3"
+  }
+}

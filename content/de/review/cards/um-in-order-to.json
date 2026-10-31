@@ -1,0 +1,17 @@
+{
+  "id": "um-in-order-to",
+  "rank": 66,
+  "word": "um",
+  "draft": "ea81021031bdbefa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "in order to (with zu + infinitive: um ... zu)",
+    "example": "I'm saving (up) to buy a car."
+  },
+  "note": "The hint is what rules out damit, which would need its own clause with a subject (damit ich ... kaufen kann), so it is doing real work.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:07.727Z"
+}

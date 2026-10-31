@@ -1,0 +1,33 @@
+{
+  "id": "schicken-send",
+  "rank": 294,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schicken",
+  "en": "to send",
+  "hint": "everyday word, not senden",
+  "grammar": {
+    "present": {
+      "ich": "schicke",
+      "du": "schickst",
+      "er": "schickt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschickt"
+    }
+  },
+  "example": {
+    "target": "Ich schicke dir gleich die Adresse.",
+    "en": "I'll send you the address in a moment."
+  },
+  "regional": null,
+  "trick": "SCHICKEN sounds like \"shicken\", almost \"chicken\": picture yourself sending a chicken through the post.",
+  "image": "/deck-de/img/schicken-send.webp",
+  "audio": {
+    "word": "/deck-de/audio/schicken-send.word.mp3",
+    "sentence": "/deck-de/audio/schicken-send.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "name-name",
+  "rank": 187,
+  "word": "Name",
+  "draft": "9cc0673463200e4a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "name",
+    "example": "What is your name?"
+  },
+  "note": "Der Name is a weak noun (des Namens, den/dem Namen), which is worth teaching later; also, \"Wie heißt du?\" is the more common way to ask someone's name, though \"Wie ist dein Name?\" is correct and natural enough.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:15.759Z"
+}

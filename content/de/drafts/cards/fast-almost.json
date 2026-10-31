@@ -1,0 +1,21 @@
+{
+  "id": "fast-almost",
+  "rank": 360,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "fast",
+  "en": "almost",
+  "hint": "the everyday word, not beinahe",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin fast fertig.",
+    "en": "I'm almost done."
+  },
+  "regional": null,
+  "trick": "FAST looks like English fast, but it means almost: run fast and you're almost there.",
+  "image": "/deck-de/img/fast-almost.webp",
+  "audio": {
+    "word": "/deck-de/audio/fast-almost.word.mp3",
+    "sentence": "/deck-de/audio/fast-almost.sentence.mp3"
+  }
+}

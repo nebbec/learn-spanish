@@ -1,0 +1,33 @@
+{
+  "id": "verlassen-leave",
+  "rank": 311,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verlassen",
+  "en": "to leave",
+  "hint": "a place or a person, not gehen",
+  "grammar": {
+    "present": {
+      "ich": "verlasse",
+      "du": "verlässt",
+      "er": "verlässt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verlassen"
+    }
+  },
+  "example": {
+    "target": "Er verlässt das Haus um acht.",
+    "en": "He leaves the house at eight."
+  },
+  "regional": null,
+  "trick": "VERLASSEN sounds like \"fair lass, then...\": the fair lass left him and walked out the door.",
+  "image": "/deck-de/img/verlassen-leave.webp",
+  "audio": {
+    "word": "/deck-de/audio/verlassen-leave.word.mp3",
+    "sentence": "/deck-de/audio/verlassen-leave.sentence.mp3"
+  }
+}

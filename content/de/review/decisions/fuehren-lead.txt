@@ -1,0 +1,37 @@
+# fuehren-lead · rank 490 · führen
+#
+# Why it was flagged:
+#   - Example sentence: Germans normally say 'ich bringe dich nach Hause' for walking or driving someone home, and 'ich führe dich nach Hause' sounds like guiding someone who cannot find the way, so the sentence teaches an unnatural use. Suggested fix: example.target: Komm, ich führe dich durch die Altstadt. example.en: Come on, I'll show you around the old town.
+# Reviewer's note (not a reason to flag): In everyday speech führen also means to lead in a game or race (wir führen 2:0) and to run a business; this card's guiding sense is fine as the core meaning.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 fuehren-lead
+kind:               content
+pos:                verb
+target:             führen
+en:                 to lead
+hint:               show the way, guide
+ich:                führe
+du:                 führst
+er:                 führt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geführt
+example.target:     Komm, ich führe dich durch die Altstadt.
+example.en:         Come on, I'll show you around the old town.
+regional.where:
+regional.text:
+trick:              FÜHREN sounds a bit like fur-en: picture a guide in a fur coat leading the group through the snow.
+
+# The draft this file was made from. Do not change it.
+draft: 7d09ee9cafebe592

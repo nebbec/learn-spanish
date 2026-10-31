@@ -1,0 +1,17 @@
+{
+  "id": "sechs-six",
+  "rank": 534,
+  "word": "sechs",
+  "draft": "e94a76e5c797a16b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "six",
+    "example": "I get up at six every day."
+  },
+  "note": "The trick is fine as a memory aid, but the vowel isn't quite the same: German sechs has the e of \"sex\", not the i of \"six\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:51.285Z"
+}

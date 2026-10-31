@@ -1,0 +1,17 @@
+{
+  "id": "heiraten-marry",
+  "rank": 407,
+  "word": "heiraten",
+  "draft": "450f65443290448e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to marry, to get married",
+    "example": "We're getting married in the summer."
+  },
+  "note": "heiraten covers both to marry (jemanden heiraten) and to get married, so the example's translation as getting married is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:36.519Z"
+}

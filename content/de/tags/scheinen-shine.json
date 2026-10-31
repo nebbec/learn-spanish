@@ -1,0 +1,14 @@
+{
+  "id": "scheinen-shine",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "82cd20fc76c460aa",
+  "group": "#337 scheinen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:24.234Z"
+}

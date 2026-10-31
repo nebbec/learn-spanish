@@ -1,0 +1,33 @@
+{
+  "id": "weh-hurt",
+  "rank": 594,
+  "kind": "content",
+  "pos": "verb",
+  "target": "wehtun",
+  "en": "to hurt",
+  "hint": "be painful",
+  "grammar": {
+    "present": {
+      "ich": "tue weh",
+      "du": "tust weh",
+      "er": "tut weh"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "wehgetan"
+    }
+  },
+  "example": {
+    "target": "Mein Kopf tut total weh.",
+    "en": "My head really hurts."
+  },
+  "regional": null,
+  "trick": "WEH sounds like the vey in oy vey, which is what you groan when something hurts.",
+  "image": "/deck-de/img/weh-hurt.webp",
+  "audio": {
+    "word": "/deck-de/audio/weh-hurt.word.mp3",
+    "sentence": "/deck-de/audio/weh-hurt.sentence.mp3"
+  }
+}

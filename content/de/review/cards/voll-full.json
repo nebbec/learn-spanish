@@ -1,0 +1,17 @@
+{
+  "id": "voll-full",
+  "rank": 348,
+  "word": "voll",
+  "draft": "6816b643f7292d57",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "full (filled, with no room left)",
+    "example": "The fridge is full."
+  },
+  "note": "The editor could add a hint such as \"a full glass, not full after eating\" so learners don't answer satt, but the bare prompt already points clearly to voll.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:29.243Z"
+}

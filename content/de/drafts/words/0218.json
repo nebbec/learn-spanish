@@ -1,0 +1,17 @@
+{
+  "rank": 218,
+  "word": "seit",
+  "cards": [
+    "seit-since",
+    "seit-for"
+  ],
+  "skip": null,
+  "sameAs": {
+    "seit-since": null,
+    "seit-for": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:36:45.243Z"
+}

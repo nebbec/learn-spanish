@@ -1,0 +1,14 @@
+{
+  "id": "ende-end",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "24c39742a35aa759",
+  "group": "#306 Ende",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:25.359Z"
+}

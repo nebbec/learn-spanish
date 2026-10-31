@@ -1,0 +1,14 @@
+{
+  "id": "bestimmt-definitely",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0a0355be342aa00a",
+  "group": "#532 bestimmt",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:11.540Z"
+}

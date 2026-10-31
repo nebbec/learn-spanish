@@ -1,0 +1,17 @@
+{
+  "id": "beim-while",
+  "rank": 288,
+  "word": "beim",
+  "draft": "fb77bffe2b575437",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at the, while (doing something) (contraction of bei + dem)",
+    "example": "While eating, I like to watch series."
+  },
+  "note": "The hint says \"before a noun\", but \"eating\" is a verb in English, so it could say \"before a verb used as a noun (das Essen)\" to make the beim + nominalized infinitive pattern clearer; this clearly separates the card from the \"[at the] doctor's\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:45.986Z"
+}

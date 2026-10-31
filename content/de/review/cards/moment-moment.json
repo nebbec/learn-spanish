@@ -1,0 +1,17 @@
+{
+  "id": "moment-moment",
+  "rank": 257,
+  "word": "Moment",
+  "draft": "ed7726c8e1d6a236",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "moment (a short point or stretch of time)",
+    "example": "Wait a moment, I'll be right there!"
+  },
+  "note": "There is also a neuter das Moment (a factor, or a moment of force in physics); this card correctly uses the masculine time sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:42:36.350Z"
+}

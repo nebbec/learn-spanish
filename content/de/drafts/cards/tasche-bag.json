@@ -1,0 +1,25 @@
+{
+  "id": "tasche-bag",
+  "rank": 768,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Tasche",
+  "en": "bag",
+  "hint": "a handbag or carry bag, not a plastic one",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Taschen"
+  },
+  "example": {
+    "target": "Meine Tasche ist im Auto.",
+    "en": "My bag is in the car."
+  },
+  "regional": null,
+  "trick": "TASCHE sounds like TAH-sheh, close to stash: you stash your things in a bag.",
+  "image": "/deck-de/img/tasche-bag.webp",
+  "audio": {
+    "word": "/deck-de/audio/tasche-bag.word.mp3",
+    "sentence": "/deck-de/audio/tasche-bag.sentence.mp3"
+  }
+}

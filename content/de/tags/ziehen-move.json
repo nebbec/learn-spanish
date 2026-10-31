@@ -1,0 +1,14 @@
+{
+  "id": "ziehen-move",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8fe9e7c381f8da3b",
+  "group": "#256 ziehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:41.558Z"
+}

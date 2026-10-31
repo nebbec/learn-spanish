@@ -1,0 +1,15 @@
+{
+  "rank": 655,
+  "word": "sobald",
+  "cards": [
+    "sobald-as-soon-as"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sobald-as-soon-as": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:32.631Z"
+}

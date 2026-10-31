@@ -1,0 +1,17 @@
+{
+  "id": "hoffen-hope",
+  "rank": 302,
+  "word": "hoffen",
+  "draft": "19365a3a5ff3dcc6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hope",
+    "example": "I hope you'll come tomorrow."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:49.333Z"
+}

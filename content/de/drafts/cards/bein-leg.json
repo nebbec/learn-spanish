@@ -1,0 +1,25 @@
+{
+  "id": "bein-leg",
+  "rank": 635,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Bein",
+  "en": "leg",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Beine"
+  },
+  "example": {
+    "target": "Mir tut das Bein weh.",
+    "en": "My leg hurts."
+  },
+  "regional": null,
+  "trick": "BEIN rhymes with fine and is a cousin of bone: your leg holds the longest bone in your body.",
+  "image": "/deck-de/img/bein-leg.webp",
+  "audio": {
+    "word": "/deck-de/audio/bein-leg.word.mp3",
+    "sentence": "/deck-de/audio/bein-leg.sentence.mp3"
+  }
+}

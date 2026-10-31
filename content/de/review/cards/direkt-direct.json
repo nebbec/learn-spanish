@@ -1,0 +1,17 @@
+{
+  "id": "direkt-direct",
+  "rank": 523,
+  "word": "direkt",
+  "draft": "a624063d39310ca3",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "direct; directly, straight (adjective, also used as an adverb)",
+    "example": "I'm coming straight after work."
+  },
+  "note": "The example uses the adverb sense (directly, straight), which the prompt covers with \"directly\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:00.285Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bloss-only",
+  "rank": 452,
+  "word": "bloß",
+  "draft": "56c87623f5247a59",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "only, just, merely (adverb)",
+    "example": "I only wanted to ask quickly."
+  },
+  "note": "The hint \"casual word, not nur\" is what rules out nur and the formal lediglich, so this prompt stays separate from the \"bare, mere\" adjective card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:09.628Z"
+}

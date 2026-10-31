@@ -1,0 +1,17 @@
+{
+  "id": "unfall-accident",
+  "rank": 799,
+  "word": "Unfall",
+  "draft": "78690e94652350b8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "accident (a mishap, e.g. a car crash or an injury)",
+    "example": "He had an accident with the car yesterday."
+  },
+  "note": "\"Accident\" in the sense of chance or coincidence (Zufall, aus Versehen) doesn't really compete here, since a bare noun prompt reads as a mishap, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:28:07.697Z"
+}

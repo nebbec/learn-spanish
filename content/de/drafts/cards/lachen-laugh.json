@@ -1,0 +1,33 @@
+{
+  "id": "lachen-laugh",
+  "rank": 374,
+  "kind": "content",
+  "pos": "verb",
+  "target": "lachen",
+  "en": "to laugh",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "lache",
+      "du": "lachst",
+      "er": "lacht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelacht"
+    }
+  },
+  "example": {
+    "target": "Warum lachst du so laut?",
+    "en": "Why are you laughing so loudly?"
+  },
+  "regional": null,
+  "trick": "LACHEN sounds like LAUGH with a throaty ch on the end, and that's because the two words are cousins: to laugh.",
+  "image": "/deck-de/img/lachen-laugh.webp",
+  "audio": {
+    "word": "/deck-de/audio/lachen-laugh.word.mp3",
+    "sentence": "/deck-de/audio/lachen-laugh.sentence.mp3"
+  }
+}

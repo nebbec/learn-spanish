@@ -1,0 +1,33 @@
+{
+  "id": "nennen-call",
+  "rank": 292,
+  "kind": "content",
+  "pos": "verb",
+  "target": "nennen",
+  "en": "to call",
+  "hint": "give someone a name, not phone",
+  "grammar": {
+    "present": {
+      "ich": "nenne",
+      "du": "nennst",
+      "er": "nennt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "genannt"
+    }
+  },
+  "example": {
+    "target": "Alle nennen mich Tommi.",
+    "en": "Everyone calls me Tommi."
+  },
+  "regional": null,
+  "trick": "NENNEN sounds a bit like naming: when you name someone, you call them something.",
+  "image": "/deck-de/img/nennen-call.webp",
+  "audio": {
+    "word": "/deck-de/audio/nennen-call.word.mp3",
+    "sentence": "/deck-de/audio/nennen-call.sentence.mp3"
+  }
+}

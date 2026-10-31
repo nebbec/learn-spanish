@@ -1,0 +1,17 @@
+{
+  "id": "typ-type",
+  "rank": 317,
+  "word": "Typ",
+  "draft": "cfb93a2701162a04",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "type (kind; also the kind of person someone is attracted to)",
+    "example": "He is not my type."
+  },
+  "note": "The hint is needed: it rules out Art and Sorte for a general kind or sort, and it keeps this card apart from the \"guy\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:18.153Z"
+}

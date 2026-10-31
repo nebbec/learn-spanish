@@ -1,0 +1,17 @@
+{
+  "rank": 235,
+  "word": "rein",
+  "cards": [
+    "rein-in",
+    "rein-pure"
+  ],
+  "skip": null,
+  "sameAs": {
+    "rein-in": null,
+    "rein-pure": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:37:52.141Z"
+}

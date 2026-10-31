@@ -1,0 +1,14 @@
+{
+  "id": "vorher-before",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use vorher on its own (beforehand); vor goes before a noun, bevor starts a clause.",
+  "draft": "c3258d5ffd2cb0f8",
+  "group": "#716 vorher",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:33.875Z"
+}

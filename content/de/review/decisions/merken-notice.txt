@@ -1,0 +1,37 @@
+# merken-notice · rank 663 · merken
+#
+# Why it was flagged:
+#   - One right answer: The hint does not rule out bemerken (or mitbekommen), which also means to notice or realize, so a learner could correctly give another word. Suggested fix: hint: to realize, sense; the short word, not bemerken
+# Reviewer's note (not a reason to flag): The fixed hint keeps this card apart from the "to remember" card, which uses sich merken.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 merken-notice
+kind:               content
+pos:                verb
+target:             merken
+en:                 to notice
+hint:               to realize, sense; the short word, not bemerken
+ich:                merke
+du:                 merkst
+er:                 merkt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gemerkt
+example.target:     Hast du nichts gemerkt?
+example.en:         Didn't you notice anything?
+regional.where:
+regional.text:
+trick:              MERKEN sounds like a mark: you notice something when it leaves a mark on your attention.
+
+# The draft this file was made from. Do not change it.
+draft: 887b7027a02002e8

@@ -1,0 +1,21 @@
+{
+  "id": "mal-just-particle",
+  "rank": 61,
+  "kind": "glue",
+  "pos": "other",
+  "target": "mal",
+  "en": "[just] come here for a second",
+  "hint": "the little word that softens a request",
+  "grammar": null,
+  "example": {
+    "target": "Komm mal her!",
+    "en": "Come here for a sec!"
+  },
+  "regional": null,
+  "trick": "MAL sounds like mall: just pop over to the mall for a second, it's no big deal.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/mal-just-particle.word.mp3",
+    "sentence": "/deck-de/audio/mal-just-particle.sentence.mp3"
+  }
+}

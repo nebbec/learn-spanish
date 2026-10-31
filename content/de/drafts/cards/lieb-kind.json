@@ -1,0 +1,21 @@
+{
+  "id": "lieb-kind",
+  "rank": 692,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "lieb",
+  "en": "kind, sweet",
+  "hint": "of a person, as in that's sweet of you; not nett",
+  "grammar": null,
+  "example": {
+    "target": "Das ist echt lieb von dir!",
+    "en": "That's really sweet of you!"
+  },
+  "regional": null,
+  "trick": "LIEB sounds like leap: a kind, sweet friend leaps up to help you.",
+  "image": "/deck-de/img/lieb-kind.webp",
+  "audio": {
+    "word": "/deck-de/audio/lieb-kind.word.mp3",
+    "sentence": "/deck-de/audio/lieb-kind.sentence.mp3"
+  }
+}

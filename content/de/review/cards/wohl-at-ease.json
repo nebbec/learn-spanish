@@ -1,0 +1,17 @@
+{
+  "id": "wohl-at-ease",
+  "rank": 170,
+  "word": "wohl",
+  "draft": "7d6f990ee24239a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "well; at ease, comfortable (as in sich wohlfühlen, to feel at ease)",
+    "example": "I feel totally at ease here."
+  },
+  "note": "Since the spelling reform the one-word spelling sich wohlfühlen is standard alongside wohl fühlen, so the editor may want to mention it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:50.785Z"
+}

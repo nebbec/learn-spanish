@@ -1,0 +1,21 @@
+{
+  "id": "tot-dead",
+  "rank": 202,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "tot",
+  "en": "dead",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Mein Goldfisch ist leider tot.",
+    "en": "Sadly, my goldfish is dead."
+  },
+  "regional": null,
+  "trick": "TOT sounds like tote: after the battle, soldiers tote the dead away.",
+  "image": "/deck-de/img/tot-dead.webp",
+  "audio": {
+    "word": "/deck-de/audio/tot-dead.word.mp3",
+    "sentence": "/deck-de/audio/tot-dead.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nun-now",
+  "rank": 138,
+  "word": "nun",
+  "draft": "16fb56a755752688",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "now",
+    "example": "And what do we do now?"
+  },
+  "note": "The hint rules out jetzt, which the bare prompt \"now\" would also allow, and correctly describes nun as a bit more formal.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:18.644Z"
+}

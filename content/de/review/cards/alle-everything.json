@@ -1,0 +1,17 @@
+{
+  "id": "alle-everything",
+  "rank": 36,
+  "word": "alle",
+  "draft": "9b15ca4352084a94",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "everything",
+    "example": "Is everything okay with you?"
+  },
+  "note": "The prompt \"[everything] is fine\" is fine without a hint, since only alles fits and the other card covers \"all\" before a noun (alle).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:42.324Z"
+}

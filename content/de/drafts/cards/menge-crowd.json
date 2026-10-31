@@ -1,0 +1,25 @@
+{
+  "id": "menge-crowd",
+  "rank": 518,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Menge",
+  "en": "crowd",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Mengen"
+  },
+  "example": {
+    "target": "Ich habe dich in der Menge verloren.",
+    "en": "I lost you in the crowd."
+  },
+  "regional": null,
+  "trick": "MENGE sounds a bit like mingle: people mingle in a crowd.",
+  "image": "/deck-de/img/menge-crowd.webp",
+  "audio": {
+    "word": "/deck-de/audio/menge-crowd.word.mp3",
+    "sentence": "/deck-de/audio/menge-crowd.sentence.mp3"
+  }
+}

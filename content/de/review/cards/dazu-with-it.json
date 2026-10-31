@@ -1,0 +1,17 @@
+{
+  "id": "dazu-with-it",
+  "rank": 299,
+  "word": "dazu",
+  "draft": "c359ca23cdf2c0f5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "with it, in addition (to that), on the side",
+    "example": "Do you want fries with it?"
+  },
+  "note": "The hint is useful because it rules out damit (with it as a tool), and the card is clearly separate from the word's other card, \"What do you say [to that]?\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:38.968Z"
+}

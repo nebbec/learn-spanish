@@ -1,0 +1,21 @@
+{
+  "id": "irgendwas-something",
+  "rank": 492,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "irgendwas",
+  "en": "just say [something]!",
+  "hint": "any old thing, informal; not etwas",
+  "grammar": null,
+  "example": {
+    "target": "Sag doch irgendwas!",
+    "en": "Just say something!"
+  },
+  "regional": null,
+  "trick": "IRGENDWAS ends in was, said vass, which means what, so irgend-what is some-what-or-other: anything at all.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/irgendwas-something.word.mp3",
+    "sentence": "/deck-de/audio/irgendwas-something.sentence.mp3"
+  }
+}

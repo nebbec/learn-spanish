@@ -1,0 +1,23 @@
+{
+  "id": "halten-stop",
+  "rank": 156,
+  "word": "halten",
+  "draft": "25534c806819384b",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint 'coming to a halt' fits anhalten (der Zug hält an, das Auto hält an) and stehen bleiben just as well, and for a car anhalten is the more natural answer, so the prompt has more than one right answer.",
+      "fix": "hint: of a bus or train making its scheduled stop at a station (one word, not anhalten)"
+    }
+  ],
+  "back": {
+    "target": "to stop (of a vehicle, at a station or stop); also to hold, to keep",
+    "example": "The bus stops right outside my house."
+  },
+  "note": "parar-stop is broader than this vehicle-only sense of halten, but a picture of a bus stopping still fits it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:20.008Z"
+}

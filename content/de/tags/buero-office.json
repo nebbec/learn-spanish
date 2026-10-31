@@ -1,0 +1,14 @@
+{
+  "id": "buero-office",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bf61a8ca721cac98",
+  "group": "#520 Büro",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:41.453Z"
+}

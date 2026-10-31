@@ -1,0 +1,25 @@
+{
+  "id": "ort-place",
+  "rank": 393,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Ort",
+  "en": "place",
+  "hint": "a location, also a village (not Platz)",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Orte"
+  },
+  "example": {
+    "target": "Das ist ein schöner Ort.",
+    "en": "This is a beautiful place."
+  },
+  "regional": null,
+  "trick": "ORT rhymes with fort, and a fort is a place you can find on a map.",
+  "image": "/deck-de/img/ort-place.webp",
+  "audio": {
+    "word": "/deck-de/audio/ort-place.word.mp3",
+    "sentence": "/deck-de/audio/ort-place.sentence.mp3"
+  }
+}

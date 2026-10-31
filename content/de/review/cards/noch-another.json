@@ -1,0 +1,17 @@
+{
+  "id": "noch-another",
+  "rank": 48,
+  "word": "noch",
+  "draft": "cf8d224af94d512a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "still, yet; (with ein) another, one more",
+    "example": "Do you want another beer?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:30.305Z"
+}

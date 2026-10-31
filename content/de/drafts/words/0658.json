@@ -1,0 +1,15 @@
+{
+  "rank": 658,
+  "word": "Sex",
+  "cards": [
+    "sex-sex"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sex-sex": "sexo-sex"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:04:45.495Z"
+}

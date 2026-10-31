@@ -1,0 +1,17 @@
+{
+  "rank": 324,
+  "word": "reichen",
+  "cards": [
+    "reichen-be-enough",
+    "reichen-pass"
+  ],
+  "skip": null,
+  "sameAs": {
+    "reichen-be-enough": "bastar-be-enough",
+    "reichen-pass": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:52.518Z"
+}

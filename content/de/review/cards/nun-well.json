@@ -1,0 +1,17 @@
+{
+  "id": "nun-well",
+  "rank": 138,
+  "word": "nun",
+  "draft": "ea0e9d42c56e97c1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "well (a filler word to start a reply); also now",
+    "example": "Well, that's a good question."
+  },
+  "note": "Without the hint, also, tja and na ja would all fit the prompt, so the hint is needed, and it rules them out. Filler nun sounds a bit formal or dubbed next to tja, also or na ja, so the hint could say \"a bit formal\" as the now card does.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:22.025Z"
+}

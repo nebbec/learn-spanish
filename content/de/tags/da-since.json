@@ -1,0 +1,14 @@
+{
+  "id": "da-since",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Da gives a reason the listener already knows, often at the start; weil gives new reasons and answers why.",
+  "draft": "528eb0a41fe36d69",
+  "group": "#50 da",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:58.884Z"
+}

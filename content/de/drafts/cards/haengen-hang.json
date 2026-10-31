@@ -1,0 +1,33 @@
+{
+  "id": "haengen-hang",
+  "rank": 565,
+  "kind": "content",
+  "pos": "verb",
+  "target": "hängen",
+  "en": "to hang",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "hänge",
+      "du": "hängst",
+      "er": "hängt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehangen"
+    }
+  },
+  "example": {
+    "target": "Dein Bild hängt jetzt an der Wand.",
+    "en": "Your picture is hanging on the wall now."
+  },
+  "regional": null,
+  "trick": "HÄNGEN sounds almost like \"hang-en\": you hang a picture, and it hangs on the wall.",
+  "image": "/deck-de/img/haengen-hang.webp",
+  "audio": {
+    "word": "/deck-de/audio/haengen-hang.word.mp3",
+    "sentence": "/deck-de/audio/haengen-hang.sentence.mp3"
+  }
+}

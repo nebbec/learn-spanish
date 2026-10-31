@@ -1,0 +1,33 @@
+{
+  "id": "beeilen-hurry",
+  "rank": 661,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich beeilen",
+  "en": "to hurry",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "beeile mich",
+      "du": "beeilst dich",
+      "er": "beeilt sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "beeilt"
+    }
+  },
+  "example": {
+    "target": "Beeil dich, der Zug fährt gleich!",
+    "en": "Hurry up, the train's about to leave!"
+  },
+  "regional": null,
+  "trick": "BEEILEN sounds like buh-EYE-len, as in buh, I'll be late, which is what you mutter as you hurry.",
+  "image": "/deck-de/img/beeilen-hurry.webp",
+  "audio": {
+    "word": "/deck-de/audio/beeilen-hurry.word.mp3",
+    "sentence": "/deck-de/audio/beeilen-hurry.sentence.mp3"
+  }
+}

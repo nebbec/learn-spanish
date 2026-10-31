@@ -1,0 +1,14 @@
+{
+  "id": "augenblick-moment",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "d716feba84085048",
+  "group": "#791 Augenblick",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:05.963Z"
+}

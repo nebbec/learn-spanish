@@ -1,0 +1,15 @@
+{
+  "rank": 679,
+  "word": "General",
+  "cards": [
+    "general-general"
+  ],
+  "skip": null,
+  "sameAs": {
+    "general-general": "general-general"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:05.844Z"
+}

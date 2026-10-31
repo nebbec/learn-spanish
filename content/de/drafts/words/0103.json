@@ -1,0 +1,15 @@
+{
+  "rank": 103,
+  "word": "vielleicht",
+  "cards": [
+    "vielleicht-maybe"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vielleicht-maybe": "quizas-maybe"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:39.482Z"
+}

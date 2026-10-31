@@ -1,0 +1,21 @@
+{
+  "id": "gar-at-all",
+  "rank": 211,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "gar",
+  "en": "I'm not tired [at all]",
+  "hint": "short word before nicht, not überhaupt",
+  "grammar": null,
+  "example": {
+    "target": "Das ist gar nicht schlimm.",
+    "en": "That's not bad at all."
+  },
+  "regional": null,
+  "trick": "GAR rhymes with far: gar nicht means not at all, far from it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/gar-at-all.word.mp3",
+    "sentence": "/deck-de/audio/gar-at-all.sentence.mp3"
+  }
+}

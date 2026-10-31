@@ -1,0 +1,17 @@
+{
+  "id": "nachricht-message",
+  "rank": 456,
+  "word": "Nachricht",
+  "draft": "e5b8f14e41074304",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "message (a piece of information sent to someone); in the plural also the news",
+    "example": "I'll send you a message in a moment."
+  },
+  "note": "The hint \"a text or voicemail\" correctly points to the general word and away from narrower ones like die SMS or die Sprachnachricht, and from the formal Botschaft or Mitteilung.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:27.932Z"
+}

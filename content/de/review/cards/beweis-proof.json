@@ -1,0 +1,17 @@
+{
+  "id": "beweis-proof",
+  "rank": 727,
+  "word": "Beweis",
+  "draft": "dd1a1a16e2b4589e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "proof, evidence",
+    "example": "Do you have proof of that?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:22:18.930Z"
+}

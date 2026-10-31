@@ -1,0 +1,33 @@
+{
+  "id": "fuerchten-fear",
+  "rank": 646,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fürchten",
+  "en": "to fear",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "fürchte",
+      "du": "fürchtest",
+      "er": "fürchtet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefürchtet"
+    }
+  },
+  "example": {
+    "target": "Ich fürchte, du hast recht.",
+    "en": "I'm afraid you're right."
+  },
+  "regional": null,
+  "trick": "FÜRCHTEN is a cousin of English fright, and to fear something is to feel fright.",
+  "image": "/deck-de/img/fuerchten-fear.webp",
+  "audio": {
+    "word": "/deck-de/audio/fuerchten-fear.word.mp3",
+    "sentence": "/deck-de/audio/fuerchten-fear.sentence.mp3"
+  }
+}

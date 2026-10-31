@@ -1,0 +1,33 @@
+# schuld-debt · rank 387 · Schuld
+#
+# Why it was flagged:
+#   - One right answer: For money owed, Germans almost always say the plural die Schulden, so a learner who knows German well would likely answer that, and the hint doesn't tell them to give the singular dictionary form. Suggested fix: hint: money you owe; give the singular, though it's mostly used in the plural (Schulden)
+# Reviewer's note (not a reason to flag): The English line of the example could sound more natural, for example "He owes the bank a lot of money" or "He's deep in debt to the bank".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             schuld-debt
+kind:           content
+pos:            noun
+target:         die Schuld
+en:             debt
+hint:           money you owe; give the singular, though it's mostly used in the plural (Schulden)
+gender:         f
+article:        die
+plural:         die Schulden
+example.target: Er hat viele Schulden bei der Bank.
+example.en:     He has a lot of debts with the bank.
+regional.where:
+regional.text:
+trick:          SCHULD sounds like "should": a debt is money you should pay back.
+
+# The draft this file was made from. Do not change it.
+draft: 8a90714918a0a91e

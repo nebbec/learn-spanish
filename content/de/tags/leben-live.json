@@ -1,0 +1,14 @@
+{
+  "id": "leben-live",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use leben for being alive or how you live; wohnen for the place where you live.",
+  "draft": "cd0676df124e85f0",
+  "group": "#97 leben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:26.721Z"
+}

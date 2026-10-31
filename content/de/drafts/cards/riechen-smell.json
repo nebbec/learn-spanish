@@ -1,0 +1,33 @@
+{
+  "id": "riechen-smell",
+  "rank": 740,
+  "kind": "content",
+  "pos": "verb",
+  "target": "riechen",
+  "en": "to smell",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "rieche",
+      "du": "riechst",
+      "er": "riecht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gerochen"
+    }
+  },
+  "example": {
+    "target": "Hier riecht es nach Kaffee.",
+    "en": "It smells of coffee here."
+  },
+  "regional": null,
+  "trick": "RIECHEN starts with a sound like \"reek\", and to reek is to smell strongly.",
+  "image": "/deck-de/img/riechen-smell.webp",
+  "audio": {
+    "word": "/deck-de/audio/riechen-smell.word.mp3",
+    "sentence": "/deck-de/audio/riechen-smell.sentence.mp3"
+  }
+}

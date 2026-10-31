@@ -1,0 +1,15 @@
+{
+  "rank": 783,
+  "word": "atmen",
+  "cards": [
+    "atmen-breathe"
+  ],
+  "skip": null,
+  "sameAs": {
+    "atmen-breathe": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:45.554Z"
+}

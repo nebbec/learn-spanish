@@ -1,0 +1,33 @@
+{
+  "id": "entschuldigen-apologize",
+  "rank": 279,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich entschuldigen",
+  "en": "to apologize",
+  "hint": "with sich",
+  "grammar": {
+    "present": {
+      "ich": "entschuldige mich",
+      "du": "entschuldigst dich",
+      "er": "entschuldigt sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "entschuldigt"
+    }
+  },
+  "example": {
+    "target": "Ich entschuldige mich bei dir.",
+    "en": "I apologize to you."
+  },
+  "regional": null,
+  "trick": "The middle of entSCHULDigen sounds like \"should\": when it's your fault (Schuld), you should apologize.",
+  "image": "/deck-de/img/entschuldigen-apologize.webp",
+  "audio": {
+    "word": "/deck-de/audio/entschuldigen-apologize.word.mp3",
+    "sentence": "/deck-de/audio/entschuldigen-apologize.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "raum-space",
+  "rank": 685,
+  "word": "Raum",
+  "draft": "26995ddddfca92e6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "space (the abstract dimension, as in space and time); also room",
+    "example": "Space and time are connected."
+  },
+  "note": "The trick's \"rhymes with bowm\" uses a made-up word that adds little, so the editor could cut it to just the roam link.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:09.580Z"
+}

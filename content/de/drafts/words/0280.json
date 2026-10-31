@@ -1,0 +1,15 @@
+{
+  "rank": 280,
+  "word": "einmal",
+  "cards": [
+    "einmal-once"
+  ],
+  "skip": null,
+  "sameAs": {
+    "einmal-once": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:46.143Z"
+}

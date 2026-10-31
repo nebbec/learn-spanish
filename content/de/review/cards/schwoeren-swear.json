@@ -1,0 +1,17 @@
+{
+  "id": "schwoeren-swear",
+  "rank": 690,
+  "word": "schwören",
+  "draft": "35ee66d67e31c4da",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to swear (an oath), to vow",
+    "example": "I swear it wasn't me."
+  },
+  "note": "The hint is needed because it rules out fluchen (to curse); irregular is correctly true because of the strong participle geschworen, even though the present forms are regular.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:26.901Z"
+}

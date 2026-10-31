@@ -1,0 +1,30 @@
+# hin-there-direction · rank 232 · hin
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out dort and da but not dahin or dorthin, and 'Ich gehe auch dahin / dorthin' is also a correct answer for 'I'm going there too'. Suggested fix: hint: the short word for movement there, away from you (not dahin, dorthin, dort or da)
+# Reviewer's note (not a reason to flag): The prompt's German is 'Ich gehe auch hin' and the example uses the split wo ... hin, so the learner sees both of the word's main uses.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             hin-there-direction
+kind:           glue
+pos:            adverb
+target:         hin
+en:             I'm going [there] too
+hint:           the short word for movement there, away from you (not dahin, dorthin, dort or da)
+example.target: Wo gehst du hin?
+example.en:     Where are you going?
+regional.where:
+regional.text:
+trick:          HIN sounds like "in" with an h: picture yourself heading in over there, moving away from where you stand.
+
+# The draft this file was made from. Do not change it.
+draft: 3e42897972a04f2d

@@ -1,0 +1,17 @@
+{
+  "id": "mal-times",
+  "rank": 61,
+  "word": "mal",
+  "draft": "588063e8dc5edc3f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "times (in multiplication)",
+    "example": "Two times three is six."
+  },
+  "note": "The example just repeats the prompt, and \"Zwei mal drei macht sechs.\" is the more typical everyday way to say it, though \"ist sechs\" is also correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:50.408Z"
+}

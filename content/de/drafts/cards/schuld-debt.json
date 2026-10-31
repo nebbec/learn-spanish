@@ -1,0 +1,25 @@
+{
+  "id": "schuld-debt",
+  "rank": 387,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Schuld",
+  "en": "debt",
+  "hint": "money you owe",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Schulden"
+  },
+  "example": {
+    "target": "Er hat viele Schulden bei der Bank.",
+    "en": "He has a lot of debts with the bank."
+  },
+  "regional": null,
+  "trick": "SCHULD sounds like \"should\": a debt is money you should pay back.",
+  "image": "/deck-de/img/schuld-debt.webp",
+  "audio": {
+    "word": "/deck-de/audio/schuld-debt.word.mp3",
+    "sentence": "/deck-de/audio/schuld-debt.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ob-whether",
+  "rank": 177,
+  "word": "ob",
+  "draft": "33358766284956a2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "whether, if (introducing an indirect yes/no question)",
+    "example": "Do you know whether Anna is coming today?"
+  },
+  "note": "The hint is needed: it rules out wenn and falls for the conditional \"if\", and the trick works because final devoicing makes ob sound like \"op\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:26.064Z"
+}

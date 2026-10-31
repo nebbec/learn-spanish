@@ -1,0 +1,33 @@
+{
+  "id": "schwoeren-swear",
+  "rank": 690,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schwören",
+  "en": "to swear",
+  "hint": "to promise, not to curse",
+  "grammar": {
+    "present": {
+      "ich": "schwöre",
+      "du": "schwörst",
+      "er": "schwört"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschworen"
+    }
+  },
+  "example": {
+    "target": "Ich schwöre, ich war das nicht.",
+    "en": "I swear it wasn't me."
+  },
+  "regional": null,
+  "trick": "SCHWÖREN, said SHVUR-en, is a close cousin of English swear: picture raising your hand to swear an oath.",
+  "image": "/deck-de/img/schwoeren-swear.webp",
+  "audio": {
+    "word": "/deck-de/audio/schwoeren-swear.word.mp3",
+    "sentence": "/deck-de/audio/schwoeren-swear.sentence.mp3"
+  }
+}

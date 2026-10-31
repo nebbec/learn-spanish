@@ -1,0 +1,25 @@
+{
+  "id": "herz-heart",
+  "rank": 369,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Herz",
+  "en": "heart",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Herzen"
+  },
+  "example": {
+    "target": "Du hast ein gutes Herz.",
+    "en": "You have a good heart."
+  },
+  "regional": null,
+  "trick": "HERZ sounds like \"hearts\" said quickly, ending in a ts sound: your heart is in your chest.",
+  "image": "/deck-de/img/herz-heart.webp",
+  "audio": {
+    "word": "/deck-de/audio/herz-heart.word.mp3",
+    "sentence": "/deck-de/audio/herz-heart.sentence.mp3"
+  }
+}

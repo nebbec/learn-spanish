@@ -1,0 +1,21 @@
+{
+  "id": "draussen-outside",
+  "rank": 353,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "draußen",
+  "en": "outside",
+  "hint": "where you are, not out of",
+  "grammar": null,
+  "example": {
+    "target": "Die Kinder spielen draußen.",
+    "en": "The kids are playing outside."
+  },
+  "regional": null,
+  "trick": "DRAUSSEN sounds like drowsin': you lie drowsin' outside in the sun.",
+  "image": "/deck-de/img/draussen-outside.webp",
+  "audio": {
+    "word": "/deck-de/audio/draussen-outside.word.mp3",
+    "sentence": "/deck-de/audio/draussen-outside.sentence.mp3"
+  }
+}

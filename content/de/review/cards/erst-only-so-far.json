@@ -1,0 +1,17 @@
+{
+  "id": "erst-only-so-far",
+  "rank": 255,
+  "word": "erst",
+  "draft": "a79e35c91935d5f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "only (so far), not until, (at) first",
+    "example": "It's only eight o'clock."
+  },
+  "note": "The hint \"not nur\" is what rules out \"Es ist nur acht Uhr\", and it keeps this card apart from the \"first\" card for erst.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:42:19.008Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fassen-grasp",
+  "rank": 590,
+  "word": "fassen",
+  "draft": "2752733e3295dc39",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to grasp, to take in (to comprehend something hard to believe); also to grab, to catch",
+    "example": "I really can't grasp it! / I really can't believe it!"
+  },
+  "note": "Begreifen is close in meaning, but the hint's \"I can't believe it\" points clearly to the set phrase \"nicht fassen können\", so the card stays apart from it and from the \"to catch\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:29.766Z"
+}

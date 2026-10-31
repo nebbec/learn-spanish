@@ -1,0 +1,17 @@
+{
+  "id": "durch-through",
+  "rank": 176,
+  "word": "durch",
+  "draft": "cc4ce312900f6d18",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "through",
+    "example": "We're walking through the park."
+  },
+  "note": "Durch always takes the accusative (den Park). The card has nowhere to show this, so the editor could mention it if prepositions ever get a case note.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:20.753Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ihnen-you-formal",
+  "rank": 78,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "Ihnen",
+  "en": "How are [you]? (to a stranger)",
+  "hint": "formal, dative",
+  "grammar": null,
+  "example": {
+    "target": "Guten Tag, wie geht es Ihnen?",
+    "en": "Hello, how are you?"
+  },
+  "regional": null,
+  "trick": "IHNEN sounds like \"EE-nen\": a polite \"you\" for a stranger who isn't in your inner circle.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ihnen-you-formal.word.mp3",
+    "sentence": "/deck-de/audio/ihnen-you-formal.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "so-like-this",
+  "rank": 29,
+  "word": "so",
+  "draft": "3038e134fa79b219",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "so, like this, in this way (adverb of manner)",
+    "example": "I always do it like this."
+  },
+  "note": "The hint \"how something is done\" keeps this card apart from the word's other card, \"[so] cold\", and the longer phrase \"auf diese Weise\" isn't a one-word competitor that a learner would give instead.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:20.435Z"
+}

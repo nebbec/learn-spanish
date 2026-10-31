@@ -1,0 +1,15 @@
+{
+  "rank": 683,
+  "word": "interessant",
+  "cards": [
+    "interessant-interesting"
+  ],
+  "skip": null,
+  "sameAs": {
+    "interessant-interesting": "interesante-interesting"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:19.944Z"
+}

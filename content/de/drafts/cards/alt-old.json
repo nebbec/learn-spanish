@@ -1,0 +1,21 @@
+{
+  "id": "alt-old",
+  "rank": 151,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "alt",
+  "en": "old",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Mein Auto ist schon ziemlich alt.",
+    "en": "My car is already pretty old."
+  },
+  "regional": null,
+  "trick": "ALT sounds almost like old said with a short a, and the two words share the same roots.",
+  "image": "/deck-de/img/alt-old.webp",
+  "audio": {
+    "word": "/deck-de/audio/alt-old.word.mp3",
+    "sentence": "/deck-de/audio/alt-old.sentence.mp3"
+  }
+}

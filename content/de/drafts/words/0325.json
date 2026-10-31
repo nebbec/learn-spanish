@@ -1,0 +1,17 @@
+{
+  "rank": 325,
+  "word": "gefallen",
+  "cards": [
+    "gefallen-like",
+    "gefallen-favor"
+  ],
+  "skip": null,
+  "sameAs": {
+    "gefallen-like": "gustar-like",
+    "gefallen-favor": "favor-favor"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:41.765Z"
+}

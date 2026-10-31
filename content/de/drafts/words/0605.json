@@ -1,0 +1,15 @@
+{
+  "rank": 605,
+  "word": "super",
+  "cards": [
+    "super-great"
+  ],
+  "skip": null,
+  "sameAs": {
+    "super-great": "genial-great"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:02.127Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "nachdem-after",
+  "rank": 618,
+  "word": "nachdem",
+  "draft": "c339d96b66b2b8b8",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "For a future event like this, speakers in Germany say 'wenn' or 'sobald ich gegessen habe'; 'nachdem' with a future-meaning main clause sounds stilted, since it is mainly used for past or habitual sequences.",
+      "fix": "en: I brush my teeth [after] I've eaten"
+    },
+    {
+      "reason": "example",
+      "problem": "The sentence refers to the future, where 'nachdem' is unnatural in everyday German (wenn would be said), so it models an unidiomatic use.",
+      "fix": "example.target: Ich putze mir die Zähne, nachdem ich gegessen habe. example.en: I brush my teeth after I've eaten."
+    }
+  ],
+  "back": {
+    "target": "after (conjunction introducing a clause: after something has happened)",
+    "example": "I'll call you after I've eaten."
+  },
+  "note": "The hint usefully rules out the preposition nach and the adverb danach; the trick's door image is a bit muddled but harmless.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:07.756Z"
+}

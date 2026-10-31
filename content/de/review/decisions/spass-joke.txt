@@ -1,0 +1,33 @@
+# spass-joke · rank 413 · Spaß
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out der Witz but not der Scherz, which is just as common for a joke in the sense of kidding (das war nur ein Scherz), so the learner could rightly answer with either word. Suggested fix: hint: kidding, the same word as fun (not Scherz or Witz)
+# Reviewer's note (not a reason to flag): Austrians also commonly say Schmäh for kidding (das war nur ein Schmäh), but Spaß is just as normal there, so leaving regional as null is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             spass-joke
+kind:           content
+pos:            noun
+target:         der Spaß
+en:             joke
+hint:           kidding, the same word as fun (not Scherz or Witz)
+gender:         m
+article:        der
+plural:         die Späße
+example.target: Keine Angst, das war nur Spaß!
+example.en:     Don't worry, it was just a joke!
+regional.where:
+regional.text:
+trick:          SPASS sounds like shpass: just kidding, so let it pass, it was only a joke.
+
+# The draft this file was made from. Do not change it.
+draft: db4fd72f64a018b9

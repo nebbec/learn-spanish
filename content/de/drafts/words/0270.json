@@ -1,0 +1,15 @@
+{
+  "rank": 270,
+  "word": "nächste",
+  "cards": [
+    "naechste-next"
+  ],
+  "skip": null,
+  "sameAs": {
+    "naechste-next": "proximo-next"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:57.941Z"
+}

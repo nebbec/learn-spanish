@@ -1,0 +1,14 @@
+{
+  "id": "fertig-ready",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use fertig for all set to go or done; bereit for prepared or willing to do something.",
+  "draft": "bae2c46c84e45a38",
+  "group": "#284 fertig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:41.862Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "schiessen-shoot",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cd53fdd1315f937b",
+  "group": "#472 schießen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:59.578Z"
+}

@@ -1,0 +1,33 @@
+# baby-baby · rank 301 · Baby
+#
+# Why it was flagged:
+#   - Usage in Germany: In Switzerland the usual word is das Bébé (Duden marks it as Swiss for Baby), so regional should not be null. Suggested fix: regional: { where: "Switzerland", text: "In Switzerland people commonly say das Bébé." }
+# Reviewer's note (not a reason to flag): Säugling is a formal or medical word, not a competing everyday answer, so the prompt needs no hint.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             baby-baby
+kind:           content
+pos:            noun
+target:         das Baby
+en:             baby
+hint:
+gender:         n
+article:        das
+plural:         die Babys
+example.target: Das Baby schläft endlich.
+example.en:     The baby is finally asleep.
+regional.where: Switzerland
+regional.text:  In Switzerland people commonly say das Bébé.
+trick:          BABY is borrowed straight from English and sounds the same: a baby is a baby, it just takes das.
+
+# The draft this file was made from. Do not change it.
+draft: 47a4d84422636aa0

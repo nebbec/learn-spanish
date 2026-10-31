@@ -1,0 +1,14 @@
+{
+  "id": "bereit-ready",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use bereit for prepared or willing; fertig for finished, done with something.",
+  "draft": "9f733d54fae88991",
+  "group": "#316 bereit",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:46.896Z"
+}

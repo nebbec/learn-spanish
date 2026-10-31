@@ -1,0 +1,14 @@
+{
+  "id": "duerfen-may",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use dürfen when something is allowed; können when someone is able to do it.",
+  "draft": "eb4aaf56d1efc272",
+  "group": "#162 dürfen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:21.378Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "name-name",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9cc0673463200e4a",
+  "group": "#187 Name",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:09.151Z"
+}

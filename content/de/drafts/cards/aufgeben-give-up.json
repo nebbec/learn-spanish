@@ -1,0 +1,33 @@
+{
+  "id": "aufgeben-give-up",
+  "rank": 795,
+  "kind": "content",
+  "pos": "verb",
+  "target": "aufgeben",
+  "en": "to give up",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "gebe auf",
+      "du": "gibst auf",
+      "er": "gibt auf"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "aufgegeben"
+    }
+  },
+  "example": {
+    "target": "Gib nicht auf, du schaffst das!",
+    "en": "Don't give up, you can do it!"
+  },
+  "regional": null,
+  "trick": "AUFGEBEN sounds like OWF-GAY-ben, close to off-giving: when you give it off, you give up.",
+  "image": "/deck-de/img/aufgeben-give-up.webp",
+  "audio": {
+    "word": "/deck-de/audio/aufgeben-give-up.word.mp3",
+    "sentence": "/deck-de/audio/aufgeben-give-up.sentence.mp3"
+  }
+}

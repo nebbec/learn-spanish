@@ -1,0 +1,15 @@
+{
+  "rank": 773,
+  "word": "bieten",
+  "cards": [
+    "bieten-offer"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bieten-offer": "ofrecer-offer"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:11.296Z"
+}

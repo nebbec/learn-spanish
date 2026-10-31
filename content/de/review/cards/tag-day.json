@@ -1,0 +1,17 @@
+{
+  "id": "tag-day",
+  "rank": 120,
+  "word": "Tag",
+  "draft": "7462a2d8209eb56c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "day",
+    "example": "How was your day?"
+  },
+  "note": "The trick's \"tahk\" is accurate, since the final g in Tag is devoiced to a k sound.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:30:48.887Z"
+}

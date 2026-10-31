@@ -1,0 +1,15 @@
+{
+  "rank": 181,
+  "word": "Mensch",
+  "cards": [
+    "mensch-human"
+  ],
+  "skip": null,
+  "sameAs": {
+    "mensch-human": "humano-human"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:33:51.455Z"
+}

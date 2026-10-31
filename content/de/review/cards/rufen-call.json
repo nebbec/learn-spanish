@@ -1,0 +1,23 @@
+{
+  "id": "rufen-call",
+  "rank": 212,
+  "word": "rufen",
+  "draft": "8e8c61d036b5dcf1",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card llamar-call puts phoning first in its hint, so its picture can show a phone call, but this card explicitly excludes phoning (that is anrufen), and no other Spanish card means call out or send for.",
+      "fix": "null"
+    }
+  ],
+  "back": {
+    "target": "to call (out), to shout; to call for, to send for (a doctor, the police, a taxi)",
+    "example": "Call the police right away!"
+  },
+  "note": "You usually phone to call the police, but \"die Polizei rufen\" is the idiomatic \"send for\" sense, so the example is right; still, a sentence like \"Ich rufe dich, wenn das Essen fertig ist.\" would show the \"not on the phone\" sense more clearly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:45.425Z"
+}

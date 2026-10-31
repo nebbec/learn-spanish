@@ -1,0 +1,15 @@
+{
+  "rank": 322,
+  "word": "schlimm",
+  "cards": [
+    "schlimm-bad"
+  ],
+  "skip": null,
+  "sameAs": {
+    "schlimm-bad": "malo-bad"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:24.100Z"
+}

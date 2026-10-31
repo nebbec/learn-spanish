@@ -1,0 +1,30 @@
+# grossartig-great · rank 542 · großartig
+#
+# Why it was flagged:
+#   - One right answer: The hint "magnificent, not toll" still lets in other common words such as prächtig, herrlich, grandios or fantastisch, so it does not point clearly to großartig. Suggested fix: hint: magnificent; the long word built from 'big', not toll or super
+# Reviewer's note (not a reason to flag): The example has the right strong masculine ending (ein großartiger Abend), and genial-great is close enough in meaning to share a picture.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             grossartig-great
+kind:           content
+pos:            adjective
+target:         großartig
+en:             great
+hint:           magnificent; the long word built from 'big', not toll or super
+example.target: Das war ein großartiger Abend!
+example.en:     That was a great evening!
+regional.where:
+regional.text:
+trick:          GROSSARTIG sounds like grand art-ish: something grand like a work of art is great.
+
+# The draft this file was made from. Do not change it.
+draft: 45caadce6f897241

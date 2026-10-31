@@ -1,0 +1,14 @@
+{
+  "id": "erde-earth",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a9f13b0ea3a10b4c",
+  "group": "#587 Erde",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:04.185Z"
+}

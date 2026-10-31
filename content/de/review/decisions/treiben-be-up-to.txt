@@ -1,0 +1,37 @@
+# treiben-be-up-to · rank 797 · treiben
+#
+# Why it was flagged:
+#   - One right answer: With only the hint "what someone is doing", machen (Was machst du hier?) is just as right as treiben, and probably the first answer most people would give, so the prompt has two answers. Suggested fix: hint: what someone is doing, as in Was ___ du so?; not machen
+# Reviewer's note (not a reason to flag): The Spanish card andar-be-doing is close but is mostly about ¿Cómo andas? (how are you getting on), so leaving sameAs null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 treiben-be-up-to
+kind:               content
+pos:                verb
+target:             treiben
+en:                 to be up to
+hint:               what someone is doing, as in Was ___ du so?; not machen
+ich:                treibe
+du:                 treibst
+er:                 treibt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: getrieben
+example.target:     Was treibst du denn hier?
+example.en:         What are you up to here?
+regional.where:
+regional.text:
+trick:              TREIBEN sounds like TRY-ben: what are you trying to do? What are you up to?
+
+# The draft this file was made from. Do not change it.
+draft: 714eba547e42b38a

@@ -1,0 +1,14 @@
+{
+  "id": "anruf-call",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a36d3a94193d6971",
+  "group": "#718 Anruf",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:37.753Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "merken-remember",
+  "rank": 663,
+  "kind": "content",
+  "pos": "verb",
+  "target": "merken",
+  "en": "to remember",
+  "hint": "keep in mind, with sich; not erinnern",
+  "grammar": {
+    "present": {
+      "ich": "merke",
+      "du": "merkst",
+      "er": "merkt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemerkt"
+    }
+  },
+  "example": {
+    "target": "Das merke ich mir.",
+    "en": "I'll remember that."
+  },
+  "regional": null,
+  "trick": "MERKEN sounds like mark in: you mark a fact in your memory so you remember it.",
+  "image": "/deck-de/img/merken-remember.webp",
+  "audio": {
+    "word": "/deck-de/audio/merken-remember.word.mp3",
+    "sentence": "/deck-de/audio/merken-remember.sentence.mp3"
+  }
+}

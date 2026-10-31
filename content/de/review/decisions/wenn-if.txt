@@ -1,0 +1,30 @@
+# wenn-if · rank 38 · wenn
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out ob but not falls, which is a common, correct German answer for a condition such as Falls es regnet, bleibe ich zu Hause. Suggested fix: hint: a condition, the everyday word (not falls, not whether)
+# Reviewer's note (not a reason to flag): Wenn has a separate "when" card, so make sure this card's prompt stays clearly about a condition, which it now does.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wenn-if
+kind:           glue
+pos:            conjunction
+target:         wenn
+en:             [If] it rains, I'll stay home.
+hint:           a condition, the everyday word (not falls, not whether)
+example.target: Wenn du Zeit hast, komm vorbei.
+example.en:     If you have time, come over.
+regional.where:
+regional.text:
+trick:          WENN sounds like when, and in English you can often swap if and when: when it rains, I stay home.
+
+# The draft this file was made from. Do not change it.
+draft: 5978b8a3a3cd1705

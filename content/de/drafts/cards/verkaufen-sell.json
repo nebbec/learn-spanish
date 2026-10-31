@@ -1,0 +1,33 @@
+{
+  "id": "verkaufen-sell",
+  "rank": 436,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verkaufen",
+  "en": "to sell",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verkaufe",
+      "du": "verkaufst",
+      "er": "verkauft"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verkauft"
+    }
+  },
+  "example": {
+    "target": "Ich verkaufe mein altes Fahrrad.",
+    "en": "I'm selling my old bike."
+  },
+  "regional": null,
+  "trick": "VERKAUFEN sounds like fair COW-fen: at the fair, you sell your cow.",
+  "image": "/deck-de/img/verkaufen-sell.webp",
+  "audio": {
+    "word": "/deck-de/audio/verkaufen-sell.word.mp3",
+    "sentence": "/deck-de/audio/verkaufen-sell.sentence.mp3"
+  }
+}

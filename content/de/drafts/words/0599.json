@@ -1,0 +1,15 @@
+{
+  "rank": 599,
+  "word": "komisch",
+  "cards": [
+    "komisch-weird"
+  ],
+  "skip": null,
+  "sameAs": {
+    "komisch-weird": "raro-weird"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:00:40.341Z"
+}

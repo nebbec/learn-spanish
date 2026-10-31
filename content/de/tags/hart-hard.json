@@ -1,0 +1,14 @@
+{
+  "id": "hart-hard",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use hart for firm, tough things; schwer for a hard task or something difficult.",
+  "draft": "7e36408fb4ac4bdb",
+  "group": "#462 hart",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:42.784Z"
+}

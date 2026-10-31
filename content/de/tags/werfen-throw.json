@@ -1,0 +1,14 @@
+{
+  "id": "werfen-throw",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "fcd10a747cac3d89",
+  "group": "#481 werfen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:15.286Z"
+}

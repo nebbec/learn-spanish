@@ -1,0 +1,14 @@
+{
+  "id": "so-like-this",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3038e134fa79b219",
+  "group": "#29 so",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:20:27.586Z"
+}

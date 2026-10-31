@@ -1,0 +1,14 @@
+{
+  "id": "denken-think",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use denken for using your mind; for an opinion (I think so), glauben or finden is more usual.",
+  "draft": "6b322a70dabcb7e9",
+  "group": "#74 denken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:45.092Z"
+}

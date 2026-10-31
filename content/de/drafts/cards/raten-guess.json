@@ -1,0 +1,33 @@
+{
+  "id": "raten-guess",
+  "rank": 541,
+  "kind": "content",
+  "pos": "verb",
+  "target": "raten",
+  "en": "to guess",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "rate",
+      "du": "rätst",
+      "er": "rät"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geraten"
+    }
+  },
+  "example": {
+    "target": "Rate mal, wer angerufen hat!",
+    "en": "Guess who called!"
+  },
+  "regional": null,
+  "trick": "RATEN sounds like rotten: guess which of these apples is rotten.",
+  "image": "/deck-de/img/raten-guess.webp",
+  "audio": {
+    "word": "/deck-de/audio/raten-guess.word.mp3",
+    "sentence": "/deck-de/audio/raten-guess.sentence.mp3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "freuen-look-forward",
+  "rank": 417,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich freuen",
+  "en": "to look forward to",
+  "hint": "reflexive, used with auf",
+  "grammar": {
+    "present": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er": "freut sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefreut"
+    }
+  },
+  "example": {
+    "target": "Ich freue mich auf das Wochenende.",
+    "en": "I'm looking forward to the weekend."
+  },
+  "regional": null,
+  "trick": "FREUEN sounds like FROY-en, like Freud, and Freude means joy: you feel joy now about what's coming.",
+  "image": "/deck-de/img/freuen-look-forward.webp",
+  "audio": {
+    "word": "/deck-de/audio/freuen-look-forward.word.mp3",
+    "sentence": "/deck-de/audio/freuen-look-forward.sentence.mp3"
+  }
+}

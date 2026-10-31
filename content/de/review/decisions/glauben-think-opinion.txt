@@ -1,0 +1,37 @@
+# glauben-think-opinion · rank 92 · glauben
+#
+# Why it was flagged:
+#   - One right answer: For 'to think, have an opinion, as in I think so', denken (Ich denke schon) and meinen are just as natural as glauben, so the hint leaves more than one right answer. Suggested fix: hint: have an opinion, as in I think so (not denken; the verb that also means to believe)
+# Reviewer's note (not a reason to flag): The new hint points to the word's other meaning, but it doesn't give away the card's other prompt ("to believe").
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 glauben-think-opinion
+kind:               content
+pos:                verb
+target:             glauben
+en:                 to think
+hint:               have an opinion, as in I think so (not denken; the verb that also means to believe)
+ich:                glaube
+du:                 glaubst
+er:                 glaubt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geglaubt
+example.target:     Ich glaube, es regnet heute.
+example.en:         I think it's going to rain today.
+regional.where:
+regional.text:
+trick:              GLAUBEN sounds like GLOW-ben: a light bulb glows over your head when you think something is so.
+
+# The draft this file was made from. Do not change it.
+draft: 81f5cd03c96fed0d

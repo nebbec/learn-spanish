@@ -1,0 +1,14 @@
+{
+  "id": "geschehen-happen",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Geschehen is a bit formal; in everyday talk, passieren is the usual word for to happen.",
+  "draft": "d08089a44325688a",
+  "group": "#459 geschehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:36.555Z"
+}

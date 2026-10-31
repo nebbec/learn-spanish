@@ -1,0 +1,17 @@
+{
+  "id": "wette-bet",
+  "rank": 748,
+  "word": "Wette",
+  "draft": "0b7940b5e9b7c208",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "bet, wager (noun)",
+    "example": "You lost the bet!"
+  },
+  "note": "The only Spanish bet card, apostar-bet, is the verb to bet, so sameAs null is right for this noun.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:54.836Z"
+}

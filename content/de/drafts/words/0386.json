@@ -1,0 +1,17 @@
+{
+  "rank": 386,
+  "word": "Art",
+  "cards": [
+    "art-kind",
+    "art-way-manner"
+  ],
+  "skip": null,
+  "sameAs": {
+    "art-kind": "clase-kind",
+    "art-way-manner": "manera-way"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:24.652Z"
+}

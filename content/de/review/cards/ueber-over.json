@@ -1,0 +1,17 @@
+{
+  "id": "ueber-over",
+  "rank": 107,
+  "word": "über",
+  "draft": "eef777fb39055cf7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "over, above (position)",
+    "example": "The lamp is above the table."
+  },
+  "note": "The example could use hängt instead of ist (\"Die Lampe hängt über dem Tisch.\") to match the prompt and sound more natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:16.137Z"
+}

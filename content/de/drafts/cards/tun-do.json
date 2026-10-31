@@ -1,0 +1,33 @@
+{
+  "id": "tun-do",
+  "rank": 53,
+  "kind": "content",
+  "pos": "verb",
+  "target": "tun",
+  "en": "to do",
+  "hint": "not machen",
+  "grammar": {
+    "present": {
+      "ich": "tue",
+      "du": "tust",
+      "er": "tut"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "getan"
+    }
+  },
+  "example": {
+    "target": "Was tust du da?",
+    "en": "What are you doing there?"
+  },
+  "regional": null,
+  "trick": "TUN sounds like toon: cartoon characters are always doing something.",
+  "image": "/deck-de/img/tun-do.webp",
+  "audio": {
+    "word": "/deck-de/audio/tun-do.word.mp3",
+    "sentence": "/deck-de/audio/tun-do.sentence.mp3"
+  }
+}

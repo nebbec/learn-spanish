@@ -1,0 +1,17 @@
+{
+  "id": "dame-lady",
+  "rank": 515,
+  "word": "Dame",
+  "draft": "e58a19ac205421d2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "lady (polite word for a woman)",
+    "example": "The lady over there is waiting for you."
+  },
+  "note": "The hint is needed here: it rules out Frau, the everyday word for woman that could also translate lady, and it points to Damen und Herren.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:11.877Z"
+}

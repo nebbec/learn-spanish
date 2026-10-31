@@ -1,0 +1,15 @@
+{
+  "rank": 549,
+  "word": "wert",
+  "cards": [
+    "wert-worth"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wert-worth": "valer-be-worth"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:27.356Z"
+}

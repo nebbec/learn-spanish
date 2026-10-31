@@ -1,0 +1,17 @@
+{
+  "id": "leicht-light",
+  "rank": 471,
+  "word": "leicht",
+  "draft": "7bd1e295a0969fd1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "light (not heavy); also easy",
+    "example": "The suitcase is really light."
+  },
+  "note": "The hint is needed, since it rules out hell (light in colour) and das Licht (the noun), and it keeps this card apart from the \"easy\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:56.025Z"
+}

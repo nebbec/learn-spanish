@@ -1,0 +1,15 @@
+{
+  "rank": 742,
+  "word": "Präsident",
+  "cards": [
+    "praesident-president"
+  ],
+  "skip": null,
+  "sameAs": {
+    "praesident-president": "presidente-president"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:04.998Z"
+}

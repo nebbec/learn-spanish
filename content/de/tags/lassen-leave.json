@@ -1,0 +1,14 @@
+{
+  "id": "lassen-leave",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use lassen for leaving something somewhere; verlassen for leaving a place or a person.",
+  "draft": "13ab07d7e41f4099",
+  "group": "#69 lassen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:40.535Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "entschuldigung-sorry",
+  "rank": 451,
+  "word": "Entschuldigung",
+  "draft": "d0f566af616192e3",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "In the du register, Entschuldige! is also one word said to apologize or get attention, and Verzeihung or the colloquial Sorry also fit the apology sense, so the hint leaves more than one right answer.",
+      "fix": "hint: the everyday one word, not Entschuldige or Verzeihung, said to apologize or get a stranger's attention"
+    }
+  ],
+  "back": {
+    "target": "excuse me, sorry (interjection)",
+    "example": "Excuse me, where is the train station (around here)?"
+  },
+  "note": "The trick could also point out that Schuld means guilt or fault, which really is the root of the word. The Swiss dialect word Exgüsi is common in speech, but it is dialect, so leaving regional null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:00.915Z"
+}

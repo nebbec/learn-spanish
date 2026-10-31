@@ -1,0 +1,21 @@
+{
+  "id": "um-in-order-to",
+  "rank": 66,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "um",
+  "en": "I'm saving [in order to] buy a car",
+  "hint": "used with zu before the verb",
+  "grammar": null,
+  "example": {
+    "target": "Ich spare, um ein Auto zu kaufen.",
+    "en": "I'm saving in order to buy a car."
+  },
+  "regional": null,
+  "trick": "UM ... ZU sounds like \"oom ... tsoo\": um, to do that, you need a plan.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/um-in-order-to.word.mp3",
+    "sentence": "/deck-de/audio/um-in-order-to.sentence.mp3"
+  }
+}

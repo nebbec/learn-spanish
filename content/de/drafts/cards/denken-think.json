@@ -1,0 +1,33 @@
+{
+  "id": "denken-think",
+  "rank": 74,
+  "kind": "content",
+  "pos": "verb",
+  "target": "denken",
+  "en": "to think",
+  "hint": "use your mind, not believe",
+  "grammar": {
+    "present": {
+      "ich": "denke",
+      "du": "denkst",
+      "er": "denkt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gedacht"
+    }
+  },
+  "example": {
+    "target": "Ich denke oft an dich.",
+    "en": "I often think about you."
+  },
+  "regional": null,
+  "trick": "DENK sounds like think said with a D instead of th, and German d often matches English th: denken is to think.",
+  "image": "/deck-de/img/denken-think.webp",
+  "audio": {
+    "word": "/deck-de/audio/denken-think.word.mp3",
+    "sentence": "/deck-de/audio/denken-think.sentence.mp3"
+  }
+}

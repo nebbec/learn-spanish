@@ -1,0 +1,15 @@
+{
+  "rank": 56,
+  "word": "sollen",
+  "cards": [
+    "sollen-supposed-to"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sollen-supposed-to": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:05.752Z"
+}

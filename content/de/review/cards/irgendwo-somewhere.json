@@ -1,0 +1,17 @@
+{
+  "id": "irgendwo-somewhere",
+  "rank": 622,
+  "word": "irgendwo",
+  "draft": "cb82f58a0c324274",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "somewhere, anywhere (at some place)",
+    "example": "My keys are here somewhere."
+  },
+  "note": "The hint is needed: it rules out irgendwohin (somewhere, of direction).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:31.343Z"
+}

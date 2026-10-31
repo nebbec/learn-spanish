@@ -1,0 +1,17 @@
+{
+  "rank": 279,
+  "word": "entschuldigen",
+  "cards": [
+    "entschuldigen-excuse",
+    "entschuldigen-apologize"
+  ],
+  "skip": null,
+  "sameAs": {
+    "entschuldigen-excuse": "disculpar-excuse",
+    "entschuldigen-apologize": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:41.612Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fehlen-be-missing",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "3ea463be0f42d0b0",
+  "group": "#563 fehlen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:16.762Z"
+}

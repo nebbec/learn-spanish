@@ -1,0 +1,15 @@
+{
+  "rank": 507,
+  "word": "wahrscheinlich",
+  "cards": [
+    "wahrscheinlich-probably"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wahrscheinlich-probably": "probablemente-probably"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:54.835Z"
+}

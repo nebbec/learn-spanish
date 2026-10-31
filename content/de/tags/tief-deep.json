@@ -1,0 +1,14 @@
+{
+  "id": "tief-deep",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f28e5a26b1cd6948",
+  "group": "#580 tief",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:48.361Z"
+}

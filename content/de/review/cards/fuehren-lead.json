@@ -1,0 +1,23 @@
+{
+  "id": "fuehren-lead",
+  "rank": 490,
+  "word": "führen",
+  "draft": "7d09ee9cafebe592",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "Germans normally say 'ich bringe dich nach Hause' for walking or driving someone home, and 'ich führe dich nach Hause' sounds like guiding someone who cannot find the way, so the sentence teaches an unnatural use.",
+      "fix": "example.target: Komm, ich führe dich durch die Altstadt. example.en: Come on, I'll show you around the old town."
+    }
+  ],
+  "back": {
+    "target": "to lead, to guide (show someone the way); also to run (a business)",
+    "example": "Come on, I'll lead you home."
+  },
+  "note": "In everyday speech führen also means to lead in a game or race (wir führen 2:0) and to run a business; this card's guiding sense is fine as the core meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:49.590Z"
+}

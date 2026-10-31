@@ -1,0 +1,15 @@
+{
+  "rank": 687,
+  "word": "Information",
+  "cards": [
+    "information-information"
+  ],
+  "skip": null,
+  "sameAs": {
+    "information-information": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:42.691Z"
+}

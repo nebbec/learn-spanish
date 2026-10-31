@@ -1,0 +1,14 @@
+{
+  "id": "wahrscheinlich-probably",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Wahrscheinlich is the full, clear word for probably; wohl is the short, vaguer one, often a guess.",
+  "draft": "a36b5345e9b628f5",
+  "group": "#507 wahrscheinlich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:17.239Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "moeglichkeit-possibility",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "5a3273744e0bb0ba",
+  "group": "#776 Möglichkeit",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:33.736Z"
+}

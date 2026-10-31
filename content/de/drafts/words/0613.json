@@ -1,0 +1,17 @@
+{
+  "rank": 613,
+  "word": "treten",
+  "cards": [
+    "treten-kick",
+    "treten-step"
+  ],
+  "skip": null,
+  "sameAs": {
+    "treten-kick": null,
+    "treten-step": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:01:37.340Z"
+}

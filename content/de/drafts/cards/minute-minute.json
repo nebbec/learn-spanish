@@ -1,0 +1,25 @@
+{
+  "id": "minute-minute",
+  "rank": 287,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Minute",
+  "en": "minute",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Minuten"
+  },
+  "example": {
+    "target": "Ich bin in fünf Minuten da.",
+    "en": "I'll be there in five minutes."
+  },
+  "regional": null,
+  "trick": "MINUTE sounds like \"mee-NOO-tuh\", nearly the English \"minute\" with an extra syllable at the end.",
+  "image": "/deck-de/img/minute-minute.webp",
+  "audio": {
+    "word": "/deck-de/audio/minute-minute.word.mp3",
+    "sentence": "/deck-de/audio/minute-minute.sentence.mp3"
+  }
+}

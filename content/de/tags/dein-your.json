@@ -1,0 +1,14 @@
+{
+  "id": "dein-your",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9fad3924710d6897",
+  "group": "#54 dein",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:07.046Z"
+}

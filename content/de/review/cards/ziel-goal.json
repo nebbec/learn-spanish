@@ -1,0 +1,17 @@
+{
+  "id": "ziel-goal",
+  "rank": 789,
+  "word": "Ziel",
+  "draft": "0e9d742964346357",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "goal, aim, target; also destination",
+    "example": "What is your goal in life?"
+  },
+  "note": "The hint is needed: it rules out das Tor, the football goal.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:08.006Z"
+}

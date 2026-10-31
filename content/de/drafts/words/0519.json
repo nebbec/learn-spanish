@@ -1,0 +1,15 @@
+{
+  "rank": 519,
+  "word": "hierher",
+  "cards": [
+    "hierher-here-motion"
+  ],
+  "skip": null,
+  "sameAs": {
+    "hierher-here-motion": "aqui-here"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:31.583Z"
+}

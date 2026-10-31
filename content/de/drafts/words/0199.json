@@ -1,0 +1,19 @@
+{
+  "rank": 199,
+  "word": "laufen",
+  "cards": [
+    "laufen-run",
+    "laufen-walk",
+    "laufen-go-well"
+  ],
+  "skip": null,
+  "sameAs": {
+    "laufen-run": "correr-run",
+    "laufen-walk": "caminar-walk",
+    "laufen-go-well": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:19.046Z"
+}

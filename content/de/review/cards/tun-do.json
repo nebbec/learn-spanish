@@ -1,0 +1,17 @@
+{
+  "id": "tun-do",
+  "rank": 53,
+  "word": "tun",
+  "draft": "39b17d77d270d740",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to do",
+    "example": "What are you doing there?"
+  },
+  "note": "The hint \"not machen\" is needed, because machen is the more common everyday word for \"to do\" and in speech \"Was machst du da?\" is more usual than \"Was tust du da?\", though both are natural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:24:53.002Z"
+}

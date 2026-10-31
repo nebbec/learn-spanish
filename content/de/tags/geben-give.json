@@ -1,0 +1,14 @@
+{
+  "id": "geben-give",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "aedabe1e3ff83342",
+  "group": "#59 geben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:20.072Z"
+}

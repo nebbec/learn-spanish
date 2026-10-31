@@ -1,0 +1,33 @@
+{
+  "id": "verletzen-injure",
+  "rank": 504,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verletzen",
+  "en": "to injure, to hurt",
+  "hint": "someone or yourself, not it hurts",
+  "grammar": {
+    "present": {
+      "ich": "verletze",
+      "du": "verletzt",
+      "er": "verletzt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verletzt"
+    }
+  },
+  "example": {
+    "target": "Hast du dich verletzt?",
+    "en": "Did you hurt yourself?"
+  },
+  "regional": null,
+  "trick": "VERLETZEN sounds like fair-LETS-en: it's not fair to let someone get hurt.",
+  "image": "/deck-de/img/verletzen-injure.webp",
+  "audio": {
+    "word": "/deck-de/audio/verletzen-injure.word.mp3",
+    "sentence": "/deck-de/audio/verletzen-injure.sentence.mp3"
+  }
+}

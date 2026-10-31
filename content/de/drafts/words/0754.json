@@ -1,0 +1,17 @@
+{
+  "rank": 754,
+  "word": "überlegen",
+  "cards": [
+    "ueberlegen-consider",
+    "ueberlegen-superior"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ueberlegen-consider": "considerar-consider",
+    "ueberlegen-superior": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:04.225Z"
+}

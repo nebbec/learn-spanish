@@ -1,0 +1,17 @@
+{
+  "id": "paar-couple",
+  "rank": 179,
+  "word": "paar",
+  "draft": "ccdcb849ab06862a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "pair; couple (two people together)",
+    "example": "The two of them are a nice couple."
+  },
+  "note": "The Spanish card par-pair is hinted \"as in a couple of minutes\", which fits the German ein paar card, but its core meaning, a pair of things, matches das Paar well enough to share a picture if the picture shows a pair of objects.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:42.286Z"
+}

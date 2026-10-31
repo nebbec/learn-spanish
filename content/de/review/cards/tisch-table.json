@@ -1,0 +1,17 @@
+{
+  "id": "tisch-table",
+  "rank": 704,
+  "word": "Tisch",
+  "draft": "153695abf2ddee7f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "table (the piece of furniture)",
+    "example": "The food is already on the table."
+  },
+  "note": "Tisch and English dish really do share a root (Latin discus), so the trick is accurate too, and Tabelle (a data table) is not a rival answer for plain \"table\" at this level.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:43.289Z"
+}

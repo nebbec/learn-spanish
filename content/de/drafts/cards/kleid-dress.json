@@ -1,0 +1,25 @@
+{
+  "id": "kleid-dress",
+  "rank": 766,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Kleid",
+  "en": "dress",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Kleider"
+  },
+  "example": {
+    "target": "Das Kleid steht dir super.",
+    "en": "That dress looks great on you."
+  },
+  "regional": null,
+  "trick": "KLEID sounds like Clyde with a t at the end: picture a man named Clyde twirling in a dress.",
+  "image": "/deck-de/img/kleid-dress.webp",
+  "audio": {
+    "word": "/deck-de/audio/kleid-dress.word.mp3",
+    "sentence": "/deck-de/audio/kleid-dress.sentence.mp3"
+  }
+}

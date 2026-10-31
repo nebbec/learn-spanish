@@ -1,0 +1,17 @@
+{
+  "id": "vorstellen-imagine",
+  "rank": 522,
+  "word": "vorstellen",
+  "draft": "a4334d05477ee359",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to imagine (sich etwas vorstellen: to picture something in your mind); also to introduce",
+    "example": "Imagine, Anna's pregnant!"
+  },
+  "note": "The hint is needed: it rules out the \"introduce\" card and words like sich einbilden or sich ausdenken. Because it says \"with sich\", a learner may answer \"sich vorstellen\" and should count that as right; the example's \"dir\" also shows the reflexive pronoun is dative.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:55.488Z"
+}

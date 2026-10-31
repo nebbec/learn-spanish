@@ -1,0 +1,23 @@
+{
+  "id": "schiff-ship",
+  "rank": 468,
+  "word": "Schiff",
+  "draft": "dd7b0090a298341c",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "barco-boat is prompted as \"boat\", and its picture will likely show a small boat, which in German is das Boot, not das Schiff; nave-ship means mainly a spaceship, so no Spanish card means exactly ship.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "ship (a large vessel for sea or river travel)",
+    "example": "The ship departs at eight o'clock."
+  },
+  "note": "The trick is a bit loose, because Schiff sounds like ship with the p swapped for an f rather than with an f added at the end; it could read \"SCHIFF sounds like \\\"ship\\\" with an f instead of the p: a big ship sailing off.\"",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:43.765Z"
+}

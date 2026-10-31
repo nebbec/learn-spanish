@@ -1,0 +1,21 @@
+{
+  "id": "an-on",
+  "rank": 45,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "an",
+  "en": "the picture is [on] the wall",
+  "hint": "on a side surface, not on top (auf)",
+  "grammar": null,
+  "example": {
+    "target": "Was ist das da an der Wand?",
+    "en": "What's that on the wall?"
+  },
+  "regional": null,
+  "trick": "AN sounds a lot like English on: a picture hangs an the wall, on its side.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/an-on.word.mp3",
+    "sentence": "/deck-de/audio/an-on.sentence.mp3"
+  }
+}

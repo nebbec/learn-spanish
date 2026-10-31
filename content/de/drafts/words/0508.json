@@ -1,0 +1,15 @@
+{
+  "rank": 508,
+  "word": "interessieren",
+  "cards": [
+    "interessieren-interest"
+  ],
+  "skip": null,
+  "sameAs": {
+    "interessieren-interest": "interesar-interest"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:59.624Z"
+}

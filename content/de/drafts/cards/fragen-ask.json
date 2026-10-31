@@ -1,0 +1,33 @@
+{
+  "id": "fragen-ask",
+  "rank": 166,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fragen",
+  "en": "to ask",
+  "hint": "a question",
+  "grammar": {
+    "present": {
+      "ich": "frage",
+      "du": "fragst",
+      "er": "fragt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefragt"
+    }
+  },
+  "example": {
+    "target": "Frag doch einfach deine Mutter.",
+    "en": "Just ask your mom."
+  },
+  "regional": null,
+  "trick": "FRAGEN (FRAH-gen) starts a bit like frog: picture a curious frog that asks everyone questions.",
+  "image": "/deck-de/img/fragen-ask.webp",
+  "audio": {
+    "word": "/deck-de/audio/fragen-ask.word.mp3",
+    "sentence": "/deck-de/audio/fragen-ask.sentence.mp3"
+  }
+}

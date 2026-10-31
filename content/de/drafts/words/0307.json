@@ -1,0 +1,15 @@
+{
+  "rank": 307,
+  "word": "Kopf",
+  "cards": [
+    "kopf-head"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kopf-head": "cabeza-head"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:23.335Z"
+}

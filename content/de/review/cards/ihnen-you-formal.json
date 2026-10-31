@@ -1,0 +1,17 @@
+{
+  "id": "ihnen-you-formal",
+  "rank": 78,
+  "word": "ihnen",
+  "draft": "1c8d3c3599961700",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "(to) you, formal (dative of Sie)",
+    "example": "Good day, how are you?"
+  },
+  "note": "The word \"dative\" in the hint isn't strictly needed, because \"formal\" and the fixed phrase \"wie geht es ...\" already rule out dir and Sie, but it does no harm and keeps this card apart from the \"them\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:27.070Z"
+}

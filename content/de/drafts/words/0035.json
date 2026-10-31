@@ -1,0 +1,17 @@
+{
+  "rank": 35,
+  "word": "von",
+  "cards": [
+    "von-from",
+    "von-of"
+  ],
+  "skip": null,
+  "sameAs": {
+    "von-from": null,
+    "von-of": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:09.484Z"
+}

@@ -1,0 +1,33 @@
+# stunde-hour · rank 276 · Stunde
+#
+# Why it was flagged:
+#   - Memory trick: The respelling SHTOON-duh suggests a long oo vowel, but the u in Stunde is short, as in put, so a learner would memorize the wrong sound. Suggested fix: trick: STUNDE sounds like SHTUN-duh, close to stunned: waiting a whole hour left me stunned.
+# Reviewer's note (not a reason to flag): Stunde also means a lesson or class period (Unterrichtsstunde), which could be its own card later; the example's "schon" is fine and adds the sense of "already".
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             stunde-hour
+kind:           content
+pos:            noun
+target:         die Stunde
+en:             hour
+hint:
+gender:         f
+article:        die
+plural:         die Stunden
+example.target: Ich warte schon seit einer Stunde.
+example.en:     I've been waiting for an hour.
+regional.where:
+regional.text:
+trick:          STUNDE sounds like SHTUN-duh, close to stunned: waiting a whole hour left me stunned.
+
+# The draft this file was made from. Do not change it.
+draft: a29538ff0d0b93ee

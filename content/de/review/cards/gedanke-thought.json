@@ -1,0 +1,17 @@
+{
+  "id": "gedanke-thought",
+  "rank": 666,
+  "word": "Gedanke",
+  "draft": "2224c4300607f836",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "thought (an idea or something you think)",
+    "example": "That's a good thought."
+  },
+  "note": "Gedanke is a weak masculine noun (des Gedankens, den/dem Gedanken), which the editor may want to point out somewhere, since learners often write \"den Gedanke\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:28.825Z"
+}

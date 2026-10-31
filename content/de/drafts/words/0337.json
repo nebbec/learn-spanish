@@ -1,0 +1,17 @@
+{
+  "rank": 337,
+  "word": "scheinen",
+  "cards": [
+    "scheinen-seem",
+    "scheinen-shine"
+  ],
+  "skip": null,
+  "sameAs": {
+    "scheinen-seem": "parecer-seem",
+    "scheinen-shine": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:28.175Z"
+}

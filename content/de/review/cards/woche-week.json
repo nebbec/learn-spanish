@@ -1,0 +1,17 @@
+{
+  "id": "woche-week",
+  "rank": 282,
+  "word": "Woche",
+  "draft": "f9f949c7f4173e21",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "week",
+    "example": "Next week I'm going to Berlin."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:14.674Z"
+}

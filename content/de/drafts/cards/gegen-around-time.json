@@ -1,0 +1,21 @@
+{
+  "id": "gegen-around-time",
+  "rank": 263,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "gegen",
+  "en": "I'll come [around] eight",
+  "hint": "roughly, for a time",
+  "grammar": null,
+  "example": {
+    "target": "Ich bin gegen acht zu Hause.",
+    "en": "I'll be home around eight."
+  },
+  "regional": null,
+  "trick": "GEGEN sounds like GAY-gun: the gun goes off around eight, give or take a few minutes.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/gegen-around-time.word.mp3",
+    "sentence": "/deck-de/audio/gegen-around-time.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "rank": 311,
+  "word": "verlassen",
+  "cards": [
+    "verlassen-leave",
+    "verlassen-rely-on"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verlassen-leave": null,
+    "verlassen-rely-on": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:42:42.474Z"
+}

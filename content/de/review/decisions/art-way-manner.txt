@@ -1,0 +1,33 @@
+# art-way-manner · rank 386 · Art
+#
+# Why it was flagged:
+#   - One right answer: die Weise (as in auf diese Weise) is also a common, correct German word for way or manner, and the hint does not rule it out. Suggested fix: hint: how someone does something, the short word that also means kind or sort; not Weise
+# Reviewer's note (not a reason to flag): The card's prompt is different enough from the word's other card ("kind, sort") that the two do not overlap.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             art-way-manner
+kind:           content
+pos:            noun
+target:         die Art
+en:             way (manner)
+hint:           how someone does something, the short word that also means kind or sort; not Weise
+gender:         f
+article:        die
+plural:         die Arten
+example.target: Ich mag deine Art zu reden.
+example.en:     I like the way you talk.
+regional.where:
+regional.text:
+trick:          ART sounds like English art: the art of doing something is your own way of doing it.
+
+# The draft this file was made from. Do not change it.
+draft: 42e0f2ea26af94ed

@@ -1,0 +1,14 @@
+{
+  "id": "glauben-think-opinion",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use glauben for an opinion you hold (I think so); denken is using your mind to think.",
+  "draft": "81f5cd03c96fed0d",
+  "group": "#92 glauben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:17.988Z"
+}

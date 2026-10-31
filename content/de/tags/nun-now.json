@@ -1,0 +1,14 @@
+{
+  "id": "nun-now",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Say jetzt for now in everyday speech; nun is a bit more formal and often moves a story or talk on.",
+  "draft": "16fb56a755752688",
+  "group": "#138 nun",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:44.793Z"
+}

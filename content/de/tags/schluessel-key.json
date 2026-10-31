@@ -1,0 +1,14 @@
+{
+  "id": "schluessel-key",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "49002fd010449b5b",
+  "group": "#631 Schlüssel",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:40.657Z"
+}

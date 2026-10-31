@@ -1,0 +1,17 @@
+{
+  "id": "passen-suit",
+  "rank": 281,
+  "word": "passen",
+  "draft": "2ed441ef2c30166c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to suit, to be convenient (for someone, with the dative: das passt mir)",
+    "example": "Does Monday at eight suit you?"
+  },
+  "note": "The hint is needed here: it rules out stehen (clothes that suit you) and keeps this card apart from the \"to fit\" card. sameAs is correctly null because quedar-suit means clothes suiting someone, which is a different sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:12.124Z"
+}

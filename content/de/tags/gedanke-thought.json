@@ -1,0 +1,14 @@
+{
+  "id": "gedanke-thought",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "2224c4300607f836",
+  "group": "#666 Gedanke",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:55.346Z"
+}

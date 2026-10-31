@@ -1,0 +1,25 @@
+{
+  "id": "general-general",
+  "rank": 679,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der General",
+  "en": "general",
+  "hint": "army officer",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Generäle"
+  },
+  "example": {
+    "target": "Der General gibt den Soldaten einen Befehl.",
+    "en": "The general gives the soldiers an order."
+  },
+  "regional": null,
+  "trick": "GENERAL sounds like English general with a hard g and the stress on the end: geh-neh-RAHL, the officer in charge.",
+  "image": "/deck-de/img/general-general.webp",
+  "audio": {
+    "word": "/deck-de/audio/general-general.word.mp3",
+    "sentence": "/deck-de/audio/general-general.sentence.mp3"
+  }
+}

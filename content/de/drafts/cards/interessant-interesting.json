@@ -1,0 +1,21 @@
+{
+  "id": "interessant-interesting",
+  "rank": 683,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "interessant",
+  "en": "interesting",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Das Buch ist echt interessant.",
+    "en": "The book is really interesting."
+  },
+  "regional": null,
+  "trick": "INTERESSANT sounds like \"interesting\" with the ending cut short to \"ant\": an interesting ant.",
+  "image": "/deck-de/img/interessant-interesting.webp",
+  "audio": {
+    "word": "/deck-de/audio/interessant-interesting.word.mp3",
+    "sentence": "/deck-de/audio/interessant-interesting.sentence.mp3"
+  }
+}

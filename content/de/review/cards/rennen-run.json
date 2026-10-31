@@ -1,0 +1,23 @@
+{
+  "id": "rennen-run",
+  "rank": 737,
+  "word": "rennen",
+  "draft": "19a3008b44bbb66a",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "regional is null, but in Switzerland people commonly say springen for running fast, which a German learner would read as to jump.",
+      "fix": "regional: { where: \"Switzerland\", text: \"Swiss speakers commonly say springen for to run (in Germany springen only means to jump); rennen is understood.\" }"
+    }
+  ],
+  "back": {
+    "target": "to run (fast), to race, to dash",
+    "example": "I run to the bus every morning."
+  },
+  "note": "The hint \"fast, dash\" does point to rennen, but adding \"not laufen\" would rule out laufen more firmly, since laufen can also mean to run.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:23:05.609Z"
+}

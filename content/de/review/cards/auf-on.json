@@ -1,0 +1,17 @@
+{
+  "id": "auf-on",
+  "rank": 25,
+  "word": "auf",
+  "draft": "1e437061e2a52a5d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "on, on top of (preposition; dative for location, accusative for movement onto)",
+    "example": "My phone is on the table."
+  },
+  "note": "The hint is useful because it rules out an (on a vertical surface); you could also use \"Mein Handy liegt auf dem Tisch.\" in the example, since liegt is what Germans would most often say, but ist is also correct.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:29:47.920Z"
+}

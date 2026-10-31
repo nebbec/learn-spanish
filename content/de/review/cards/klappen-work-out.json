@@ -1,0 +1,28 @@
+{
+  "id": "klappen-work-out",
+  "rank": 524,
+  "word": "klappen",
+  "draft": "023dc1d1c0cfecce",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "For a plan going well, funktionieren (Das funktioniert schon) is also common in everyday speech and is not ruled out, because funktionieren is not formal, so the word informal does not exclude it.",
+      "fix": "hint: a plan going well, informal, not funktionieren"
+    },
+    {
+      "reason": "sameAs",
+      "problem": "funcionar means to work, mainly of a machine or device, the way funktionieren does, while klappen means a plan or attempt succeeding, so a picture of a machine working does not show klappen, and no other Spanish card matches it closely.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "to work out, to go well, to come off (of a plan or attempt; informal)",
+    "example": "Don't worry, it'll work out (fine)."
+  },
+  "note": "Gelingen and hinhauen also mean this, but gelingen is more formal and hinhauen less common, so the hint's word informal is enough for those two.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:10.822Z"
+}

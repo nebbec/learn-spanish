@@ -1,0 +1,17 @@
+{
+  "id": "erzaehlen-tell",
+  "rank": 186,
+  "word": "erzählen",
+  "draft": "79cff4fd578f09b2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to tell (a story, an account), to recount, to narrate",
+    "example": "Tell me what happened yesterday!"
+  },
+  "note": "The hint is needed because it rules out sagen, and the tale link in the trick also works because tale and zählen share a root.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:18.246Z"
+}

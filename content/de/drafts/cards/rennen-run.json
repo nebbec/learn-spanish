@@ -1,0 +1,33 @@
+{
+  "id": "rennen-run",
+  "rank": 737,
+  "kind": "content",
+  "pos": "verb",
+  "target": "rennen",
+  "en": "to run",
+  "hint": "fast, dash",
+  "grammar": {
+    "present": {
+      "ich": "renne",
+      "du": "rennst",
+      "er": "rennt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gerannt"
+    }
+  },
+  "example": {
+    "target": "Ich renne jeden Morgen zum Bus.",
+    "en": "I run to the bus every morning."
+  },
+  "regional": null,
+  "trick": "RENNEN sounds a lot like ran: yesterday you ran, and today you rennen again.",
+  "image": "/deck-de/img/rennen-run.webp",
+  "audio": {
+    "word": "/deck-de/audio/rennen-run.word.mp3",
+    "sentence": "/deck-de/audio/rennen-run.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "veraendern-change",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use verändern when something or someone really changes; use ändern to adjust a detail, like a plan or a time.",
+  "draft": "84fbd6b21b8559ef",
+  "group": "#697 verändern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:59.784Z"
+}

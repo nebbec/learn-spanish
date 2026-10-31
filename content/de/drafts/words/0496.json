@@ -1,0 +1,15 @@
+{
+  "rank": 496,
+  "word": "Telefon",
+  "cards": [
+    "telefon-phone"
+  ],
+  "skip": null,
+  "sameAs": {
+    "telefon-phone": "telefono-phone"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:11.595Z"
+}

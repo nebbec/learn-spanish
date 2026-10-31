@@ -1,0 +1,33 @@
+{
+  "id": "hoffen-hope",
+  "rank": 302,
+  "kind": "content",
+  "pos": "verb",
+  "target": "hoffen",
+  "en": "to hope",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "hoffe",
+      "du": "hoffst",
+      "er": "hofft"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehofft"
+    }
+  },
+  "example": {
+    "target": "Ich hoffe, du kommst morgen.",
+    "en": "I hope you're coming tomorrow."
+  },
+  "regional": null,
+  "trick": "HOFFEN starts like hope with an f in place of the p: you hope with your fingers crossed.",
+  "image": "/deck-de/img/hoffen-hope.webp",
+  "audio": {
+    "word": "/deck-de/audio/hoffen-hope.word.mp3",
+    "sentence": "/deck-de/audio/hoffen-hope.sentence.mp3"
+  }
+}

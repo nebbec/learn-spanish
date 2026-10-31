@@ -1,0 +1,33 @@
+{
+  "id": "verdienen-deserve",
+  "rank": 444,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verdienen",
+  "en": "to deserve",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verdiene",
+      "du": "verdienst",
+      "er": "verdient"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verdient"
+    }
+  },
+  "example": {
+    "target": "Du verdienst eine Pause.",
+    "en": "You deserve a break."
+  },
+  "regional": null,
+  "trick": "verDIENen sounds like fair dinner: after all that work, you deserve a fair dinner.",
+  "image": "/deck-de/img/verdienen-deserve.webp",
+  "audio": {
+    "word": "/deck-de/audio/verdienen-deserve.word.mp3",
+    "sentence": "/deck-de/audio/verdienen-deserve.sentence.mp3"
+  }
+}

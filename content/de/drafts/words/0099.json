@@ -1,0 +1,17 @@
+{
+  "rank": 99,
+  "word": "denn",
+  "cards": [
+    "denn-because",
+    "denn-question-particle"
+  ],
+  "skip": null,
+  "sameAs": {
+    "denn-because": null,
+    "denn-question-particle": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:32.575Z"
+}

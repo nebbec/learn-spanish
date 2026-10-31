@@ -1,0 +1,17 @@
+{
+  "id": "funktionieren-work",
+  "rank": 455,
+  "word": "funktionieren",
+  "draft": "e19e6844d6872e99",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to work, to function (of a machine, system or plan)",
+    "example": "My phone isn't working."
+  },
+  "note": "Colloquial klappen (for a plan) and gehen (for a device) also mean to work, but since the hint covers both a machine and a plan, funktionieren is the one standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:29.030Z"
+}

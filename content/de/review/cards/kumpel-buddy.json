@@ -1,0 +1,17 @@
+{
+  "id": "kumpel-buddy",
+  "rank": 559,
+  "word": "Kumpel",
+  "draft": "0123ff739c8f9ac5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "buddy, pal, mate (informal word for a friend)",
+    "example": "Tom is my best buddy."
+  },
+  "note": "Regional null is acceptable since Kumpel is understood everywhere, though Austrians also say Haberer and Swiss speakers often say Kolleg for a buddy.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:11.154Z"
+}

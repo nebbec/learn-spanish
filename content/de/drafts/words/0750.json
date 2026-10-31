@@ -1,0 +1,15 @@
+{
+  "rank": 750,
+  "word": "jemals",
+  "cards": [
+    "jemals-ever"
+  ],
+  "skip": null,
+  "sameAs": {
+    "jemals-ever": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:42.773Z"
+}

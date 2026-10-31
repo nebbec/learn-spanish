@@ -1,0 +1,33 @@
+{
+  "id": "scheinen-shine",
+  "rank": 337,
+  "kind": "content",
+  "pos": "verb",
+  "target": "scheinen",
+  "en": "to shine",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "scheine",
+      "du": "scheinst",
+      "er": "scheint"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschienen"
+    }
+  },
+  "example": {
+    "target": "Heute scheint die Sonne.",
+    "en": "The sun is shining today."
+  },
+  "regional": null,
+  "trick": "SCHEIN sounds just like shine, and that's what the sun does: die Sonne scheint.",
+  "image": "/deck-de/img/scheinen-shine.webp",
+  "audio": {
+    "word": "/deck-de/audio/scheinen-shine.word.mp3",
+    "sentence": "/deck-de/audio/scheinen-shine.sentence.mp3"
+  }
+}

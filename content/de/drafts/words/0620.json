@@ -1,0 +1,17 @@
+{
+  "rank": 620,
+  "word": "bestimmen",
+  "cards": [
+    "bestimmen-decide",
+    "bestimmen-definitely"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bestimmen-decide": "decidir-decide",
+    "bestimmen-definitely": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:09.767Z"
+}

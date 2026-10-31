@@ -1,0 +1,33 @@
+{
+  "id": "bitten-ask-for",
+  "rank": 410,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bitten",
+  "en": "to ask for",
+  "hint": "to request something, not ask a question",
+  "grammar": {
+    "present": {
+      "ich": "bitte",
+      "du": "bittest",
+      "er": "bittet"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebeten"
+    }
+  },
+  "example": {
+    "target": "Ich bitte dich um einen Gefallen.",
+    "en": "I'm asking you for a favor."
+  },
+  "regional": null,
+  "trick": "BITTEN sounds like bidden, and when you bid someone do something, you ask them. It's related to bitte, please.",
+  "image": "/deck-de/img/bitten-ask-for.webp",
+  "audio": {
+    "word": "/deck-de/audio/bitten-ask-for.word.mp3",
+    "sentence": "/deck-de/audio/bitten-ask-for.sentence.mp3"
+  }
+}

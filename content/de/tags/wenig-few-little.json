@@ -1,0 +1,14 @@
+{
+  "id": "wenig-few-little",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "aec47532310873a0",
+  "group": "#271 wenig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:10.156Z"
+}

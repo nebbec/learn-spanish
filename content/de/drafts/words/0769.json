@@ -1,0 +1,15 @@
+{
+  "rank": 769,
+  "word": "dagegen",
+  "cards": [
+    "dagegen-against-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "dagegen-against-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:54.312Z"
+}

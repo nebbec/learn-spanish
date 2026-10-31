@@ -1,0 +1,14 @@
+{
+  "id": "mist-rubbish",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bb16641560c5b6a0",
+  "group": "#647 Mist",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:18.363Z"
+}

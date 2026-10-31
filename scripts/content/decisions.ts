@@ -306,6 +306,7 @@ function grammarText(card: DraftCard, lang: LangCode): string | null {
 function germanGrammarText(card: DraftCard): string | null {
   if (card.pos === "noun") {
     const g = card.grammar as GermanNounGrammar;
+    if (g.gender === "pl") return `plural only, ${g.article}`;
     return `${GENDER_NAMES[g.gender]}, ${g.article}${g.plural ? `; plural ${g.plural}` : "; no plural"}`;
   }
   if (card.pos === "verb") {

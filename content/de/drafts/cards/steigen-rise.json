@@ -1,0 +1,33 @@
+{
+  "id": "steigen-rise",
+  "rank": 684,
+  "kind": "content",
+  "pos": "verb",
+  "target": "steigen",
+  "en": "to rise",
+  "hint": "prices, temperature, water",
+  "grammar": {
+    "present": {
+      "ich": "steige",
+      "du": "steigst",
+      "er": "steigt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gestiegen"
+    }
+  },
+  "example": {
+    "target": "Die Preise steigen jedes Jahr.",
+    "en": "Prices rise every year."
+  },
+  "regional": null,
+  "trick": "STEIGEN sounds like \"shty-gain\": when prices rise, they gain.",
+  "image": "/deck-de/img/steigen-rise.webp",
+  "audio": {
+    "word": "/deck-de/audio/steigen-rise.word.mp3",
+    "sentence": "/deck-de/audio/steigen-rise.sentence.mp3"
+  }
+}

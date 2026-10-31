@@ -1,0 +1,15 @@
+{
+  "rank": 501,
+  "word": "erledigen",
+  "cards": [
+    "erledigen-take-care-of"
+  ],
+  "skip": null,
+  "sameAs": {
+    "erledigen-take-care-of": "encargar-handle"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:29.628Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rollen-roll",
+  "rank": 691,
+  "word": "rollen",
+  "draft": "dfaec20e6fcb92fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to roll",
+    "example": "The ball rolls under the sofa."
+  },
+  "note": "The Perfekt uses sein for the intransitive sense shown in the example (ist gerollt), but transitive use takes haben (hat den Ball gerollt), so the editor may want to mention both.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:19:33.373Z"
+}

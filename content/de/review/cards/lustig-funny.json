@@ -1,0 +1,23 @@
+{
+  "id": "lustig-funny",
+  "rank": 601,
+  "word": "lustig",
+  "draft": "960c752d585673db",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint \"makes you laugh\" also fits witzig, a common German word that is just as right for a funny film, so the prompt has two answers.",
+      "fix": "hint: makes you laugh; the everyday word, not witzig"
+    }
+  ],
+  "back": {
+    "target": "funny, amusing (also fun, cheerful)",
+    "example": "The film was really funny."
+  },
+  "note": "The rest of the card is fine: lustig also means fun or cheerful (ein lustiger Abend), but funny is its main meaning, and the trick's long \"loose\" vowel against the short u in lustig is only a weak pun, which is allowed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:11:28.004Z"
+}

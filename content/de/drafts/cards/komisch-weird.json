@@ -1,0 +1,21 @@
+{
+  "id": "komisch-weird",
+  "rank": 599,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "komisch",
+  "en": "weird, strange",
+  "hint": "everyday word, not seltsam",
+  "grammar": null,
+  "example": {
+    "target": "Das riecht aber komisch.",
+    "en": "That smells weird."
+  },
+  "regional": null,
+  "trick": "KOMISCH sounds like comic-ish: comic situations are often just plain weird.",
+  "image": "/deck-de/img/komisch-weird.webp",
+  "audio": {
+    "word": "/deck-de/audio/komisch-weird.word.mp3",
+    "sentence": "/deck-de/audio/komisch-weird.sentence.mp3"
+  }
+}

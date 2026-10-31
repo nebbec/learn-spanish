@@ -1,0 +1,14 @@
+{
+  "id": "etwa-about",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "cd28351797b5ef24",
+  "group": "#401 etwa",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:35.983Z"
+}

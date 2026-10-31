@@ -1,0 +1,17 @@
+{
+  "id": "schule-school",
+  "rank": 438,
+  "word": "Schule",
+  "draft": "55243d5c94896370",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "school",
+    "example": "I'm not going to school tomorrow."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:06.138Z"
+}

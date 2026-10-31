@@ -1,0 +1,17 @@
+{
+  "id": "schuld-fault",
+  "rank": 387,
+  "word": "Schuld",
+  "draft": "709a00904418ff45",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "guilt, fault, blame",
+    "example": "That's not your fault."
+  },
+  "note": "The null plural is right for this sense, because Schulden belongs to the separate debt card; the hint is also what rules out der Fehler as an answer for fault.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:09.311Z"
+}

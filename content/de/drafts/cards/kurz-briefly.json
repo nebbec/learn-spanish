@@ -1,0 +1,21 @@
+{
+  "id": "kurz-briefly",
+  "rank": 305,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "kurz",
+  "en": "briefly, for a moment",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Warte kurz, ich komme gleich.",
+    "en": "Wait a sec, I'm coming."
+  },
+  "regional": null,
+  "trick": "KURZ sounds like curt: keep it curt, just a quick moment.",
+  "image": "/deck-de/img/kurz-briefly.webp",
+  "audio": {
+    "word": "/deck-de/audio/kurz-briefly.word.mp3",
+    "sentence": "/deck-de/audio/kurz-briefly.sentence.mp3"
+  }
+}

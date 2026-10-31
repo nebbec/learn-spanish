@@ -1,0 +1,23 @@
+{
+  "id": "packen-pack",
+  "rank": 771,
+  "word": "packen",
+  "draft": "348160a4cdc54226",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "With no hint, the bare prompt to pack also allows the common separable verb einpacken (to pack up, to wrap), so a learner could give either answer.",
+      "fix": "hint: a suitcase or bag (not einpacken)"
+    }
+  ],
+  "back": {
+    "target": "to pack (a suitcase or bag); also to grab, to manage",
+    "example": "Have you packed your suitcase yet?"
+  },
+  "note": "In subtitles packen is also common as colloquial to manage (Wir packen das!) and to grab, which could be worth a later card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:25:51.089Z"
+}

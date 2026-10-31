@@ -1,0 +1,17 @@
+{
+  "id": "luft-air",
+  "rank": 576,
+  "word": "Luft",
+  "draft": "dc35eef5432388b0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "air",
+    "example": "I need fresh air."
+  },
+  "note": "The plural Lüfte exists but is poetic or technical, so a null plural is right for a beginner, and \"aloft\" really does come from the same Germanic root as Luft.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:18.865Z"
+}

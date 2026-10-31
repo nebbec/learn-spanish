@@ -1,0 +1,17 @@
+{
+  "id": "ach-oh",
+  "rank": 210,
+  "word": "ach",
+  "draft": "5e983793bc376010",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "oh, ah (an interjection of realization, surprise or regret)",
+    "example": "Oh, I see, now I get it."
+  },
+  "note": "The hint is needed because German \"oh\" would also fit the bare prompt, and it correctly rules that out, though \"as in ... so\" comes close to giving away the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:29.640Z"
+}

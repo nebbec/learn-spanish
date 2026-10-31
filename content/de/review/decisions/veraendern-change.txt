@@ -1,0 +1,37 @@
+# veraendern-change · rank 697 · verändern
+#
+# Why it was flagged:
+#   - One right answer: The hint word 'transform' points to verwandeln, and the hint does not rule out ändern, which a learner could also give for 'to change' (and 'Du hast dich geändert' is also fine). Suggested fix: hint: make different, change how someone or something is (the ver- word, not ändern)
+# Reviewer's note (not a reason to flag): The example uses the reflexive sich verändern, which is natural and a good match for 'to change' in this sense.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 veraendern-change
+kind:               content
+pos:                verb
+target:             verändern
+en:                 to change
+hint:               make different, change how someone or something is (the ver- word, not ändern)
+ich:                verändere
+du:                 veränderst
+er:                 verändert
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: verändert
+example.target:     Du hast dich echt verändert.
+example.en:         You've really changed.
+regional.where:
+regional.text:
+trick:              VERÄNDERN, said fair-EN-dern, sounds a bit like another: change something and it turns into another thing.
+
+# The draft this file was made from. Do not change it.
+draft: 84fbd6b21b8559ef

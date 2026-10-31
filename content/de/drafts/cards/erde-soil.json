@@ -1,0 +1,25 @@
+{
+  "id": "erde-soil",
+  "rank": 587,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Erde",
+  "en": "soil",
+  "hint": "dirt in a garden or pot",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Deine Hände sind voller Erde.",
+    "en": "Your hands are covered in soil."
+  },
+  "regional": null,
+  "trick": "ERDE is earth with a d: the brown earth you dig in the garden is soil.",
+  "image": "/deck-de/img/erde-soil.webp",
+  "audio": {
+    "word": "/deck-de/audio/erde-soil.word.mp3",
+    "sentence": "/deck-de/audio/erde-soil.sentence.mp3"
+  }
+}

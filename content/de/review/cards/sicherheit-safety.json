@@ -1,0 +1,17 @@
+{
+  "id": "sicherheit-safety",
+  "rank": 681,
+  "word": "Sicherheit",
+  "draft": "3c209bc604bc84d9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "safety, security (also certainty)",
+    "example": "Safety comes first."
+  },
+  "note": "The plural Sicherheiten exists only in the financial sense of collateral, so a null plural is fine for this meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:41.007Z"
+}

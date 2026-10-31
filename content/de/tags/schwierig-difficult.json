@@ -1,0 +1,14 @@
+{
+  "id": "schwierig-difficult",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use schwierig for tricky, complicated matters; schwer is the shorter everyday word and also means heavy.",
+  "draft": "ce0811f92f1a0168",
+  "group": "#800 schwierig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:26.118Z"
+}

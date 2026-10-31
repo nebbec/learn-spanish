@@ -1,0 +1,25 @@
+{
+  "id": "freundin-girlfriend",
+  "rank": 437,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Freundin",
+  "en": "girlfriend",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Freundinnen"
+  },
+  "example": {
+    "target": "Meine Freundin wohnt in Berlin.",
+    "en": "My girlfriend lives in Berlin."
+  },
+  "regional": null,
+  "trick": "FREUNDIN sounds like FROYND-in, close to friend plus -in: the friend who is in your heart is your girlfriend.",
+  "image": "/deck-de/img/freundin-girlfriend.webp",
+  "audio": {
+    "word": "/deck-de/audio/freundin-girlfriend.word.mp3",
+    "sentence": "/deck-de/audio/freundin-girlfriend.sentence.mp3"
+  }
+}

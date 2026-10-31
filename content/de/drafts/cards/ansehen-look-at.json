@@ -1,0 +1,36 @@
+{
+  "id": "ansehen-look-at",
+  "rank": 557,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ansehen",
+  "en": "to look at",
+  "hint": "an- + to see",
+  "grammar": {
+    "present": {
+      "ich": "sehe an",
+      "du": "siehst an",
+      "er": "sieht an"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "angesehen"
+    }
+  },
+  "example": {
+    "target": "Ich sehe mir das Foto an.",
+    "en": "I'm looking at the photo."
+  },
+  "regional": {
+    "where": "Austria",
+    "text": "anschauen"
+  },
+  "trick": "ANSEHEN sounds like \"on ZAY-en\": you set your eyes on something and see it, so you look at it.",
+  "image": "/deck-de/img/ansehen-look-at.webp",
+  "audio": {
+    "word": "/deck-de/audio/ansehen-look-at.word.mp3",
+    "sentence": "/deck-de/audio/ansehen-look-at.sentence.mp3"
+  }
+}

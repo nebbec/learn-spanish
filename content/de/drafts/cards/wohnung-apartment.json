@@ -1,0 +1,25 @@
+{
+  "id": "wohnung-apartment",
+  "rank": 659,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Wohnung",
+  "en": "apartment",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Wohnungen"
+  },
+  "example": {
+    "target": "Deine Wohnung ist echt schön.",
+    "en": "Your apartment is really nice."
+  },
+  "regional": null,
+  "trick": "WOHNUNG sounds like VOH-noong, a bit like own nook: your own little nook in the city is your apartment.",
+  "image": "/deck-de/img/wohnung-apartment.webp",
+  "audio": {
+    "word": "/deck-de/audio/wohnung-apartment.word.mp3",
+    "sentence": "/deck-de/audio/wohnung-apartment.sentence.mp3"
+  }
+}

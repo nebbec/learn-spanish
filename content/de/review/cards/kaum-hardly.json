@@ -1,0 +1,17 @@
+{
+  "id": "kaum-hardly",
+  "rank": 491,
+  "word": "kaum",
+  "draft": "25fbd6b630d620b9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "hardly, barely, scarcely",
+    "example": "I can hardly hear you."
+  },
+  "note": "Putting both hardly and barely in the prompt points clearly to kaum rather than knapp or gerade so, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:22.456Z"
+}

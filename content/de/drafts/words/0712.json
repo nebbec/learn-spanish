@@ -1,0 +1,15 @@
+{
+  "rank": 712,
+  "word": "Anfang",
+  "cards": [
+    "anfang-beginning"
+  ],
+  "skip": null,
+  "sameAs": {
+    "anfang-beginning": "principio-beginning"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:20.958Z"
+}

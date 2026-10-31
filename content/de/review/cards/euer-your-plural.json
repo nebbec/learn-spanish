@@ -1,0 +1,17 @@
+{
+  "id": "euer-your-plural",
+  "rank": 183,
+  "word": "euer",
+  "draft": "23ebb870f62e1ffa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "your (belonging to you, plural; the possessive of ihr)",
+    "example": "Your dog is really cute."
+  },
+  "note": "The hint is needed here: it rules out dein (one friend) and Ihr (Sie), and the plural \"you\" is allowed because the card is about euer itself; Hund is masculine nominative, so the uninflected euer fits.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:01.924Z"
+}

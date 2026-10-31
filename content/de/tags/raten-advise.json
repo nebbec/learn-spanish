@@ -1,0 +1,14 @@
+{
+  "id": "raten-advise",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "9811b25d331cbd49",
+  "group": "#541 raten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:26.616Z"
+}

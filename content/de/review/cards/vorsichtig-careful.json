@@ -1,0 +1,17 @@
+{
+  "id": "vorsichtig-careful",
+  "rank": 644,
+  "word": "vorsichtig",
+  "draft": "6ac9785ddafa8805",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "careful, cautious",
+    "example": "Be careful, the street is slippery."
+  },
+  "note": "The hint \"cautious\" is needed, because it rules out sorgfältig (careful in the sense of thorough).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:15:14.707Z"
+}

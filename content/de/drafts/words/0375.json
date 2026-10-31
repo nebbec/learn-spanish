@@ -1,0 +1,15 @@
+{
+  "rank": 375,
+  "word": "Ruhe",
+  "cards": [
+    "ruhe-peace-quiet"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ruhe-peace-quiet": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:39.043Z"
+}

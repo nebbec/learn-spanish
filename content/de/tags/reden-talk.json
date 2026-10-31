@@ -1,0 +1,14 @@
+{
+  "id": "reden-talk",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use reden for chatting or talking about something; use sprechen for speaking a language or more formal speech.",
+  "draft": "871ab0e941babaaf",
+  "group": "#119 reden",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:07.042Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tuer-door",
+  "rank": 321,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Tür",
+  "en": "door",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Türen"
+  },
+  "example": {
+    "target": "Mach bitte die Tür zu!",
+    "en": "Please close the door!"
+  },
+  "regional": null,
+  "trick": "TÜR sounds like a pouty \"door\" with a T at the front, and the two words are related: knock on the Tür.",
+  "image": "/deck-de/img/tuer-door.webp",
+  "audio": {
+    "word": "/deck-de/audio/tuer-door.word.mp3",
+    "sentence": "/deck-de/audio/tuer-door.sentence.mp3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "finger-finger",
+  "rank": 759,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Finger",
+  "en": "finger",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Finger"
+  },
+  "example": {
+    "target": "Ich habe mir in den Finger geschnitten.",
+    "en": "I cut my finger."
+  },
+  "regional": null,
+  "trick": "FINGER is the English word finger, just said FING-er with no hard g, like singer.",
+  "image": "/deck-de/img/finger-finger.webp",
+  "audio": {
+    "word": "/deck-de/audio/finger-finger.word.mp3",
+    "sentence": "/deck-de/audio/finger-finger.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "moeglichkeit-possibility",
+  "rank": 776,
+  "word": "Möglichkeit",
+  "draft": "5a3273744e0bb0ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "possibility (also option, opportunity)",
+    "example": "There's still another possibility."
+  },
+  "note": "The Spanish card oportunidad-opportunity is close, but its prompt is opportunity rather than possibility, so leaving sameAs null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:05.554Z"
+}

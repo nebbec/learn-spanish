@@ -1,0 +1,14 @@
+{
+  "id": "boss-boss",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Boss is casual, often for a gang or big shot; Chef is the usual word for your boss at work.",
+  "draft": "c0cc29b8d7828ef9",
+  "group": "#686 Boss",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:34.892Z"
+}

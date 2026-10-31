@@ -1,0 +1,14 @@
+{
+  "id": "boese-evil",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b307c3be2b6a7373",
+  "group": "#651 böse",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:27.237Z"
+}

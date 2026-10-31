@@ -1,0 +1,14 @@
+{
+  "id": "vom-from-the",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "99f31c34adf464fd",
+  "group": "#223 vom",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:30.340Z"
+}

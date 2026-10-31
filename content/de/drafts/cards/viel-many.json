@@ -1,0 +1,21 @@
+{
+  "id": "viel-many",
+  "rank": 77,
+  "kind": "content",
+  "pos": "determiner",
+  "target": "viel",
+  "en": "many, much",
+  "hint": "before a noun: a lot of",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe heute nicht viel Zeit.",
+    "en": "I don't have much time today."
+  },
+  "regional": null,
+  "trick": "VIEL sounds like feel: a sad film makes you feel many feelings.",
+  "image": "/deck-de/img/viel-many.webp",
+  "audio": {
+    "word": "/deck-de/audio/viel-many.word.mp3",
+    "sentence": "/deck-de/audio/viel-many.sentence.mp3"
+  }
+}

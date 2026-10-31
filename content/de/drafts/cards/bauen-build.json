@@ -1,0 +1,33 @@
+{
+  "id": "bauen-build",
+  "rank": 537,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bauen",
+  "en": "to build",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "baue",
+      "du": "baust",
+      "er": "baut"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebaut"
+    }
+  },
+  "example": {
+    "target": "Mein Vater baut eine Garage.",
+    "en": "My dad is building a garage."
+  },
+  "regional": null,
+  "trick": "BAUEN sounds like \"bower\", the shelter a bowerbird builds for itself.",
+  "image": "/deck-de/img/bauen-build.webp",
+  "audio": {
+    "word": "/deck-de/audio/bauen-build.word.mp3",
+    "sentence": "/deck-de/audio/bauen-build.sentence.mp3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "geben-there-is",
+  "rank": 59,
+  "word": "geben",
+  "draft": "e4891c7c07994275",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Switzerland, and in parts of southwest Germany, people commonly say es hat instead of es gibt for there is (Hat es hier ein Café?), so regional should not be null.",
+      "fix": "regional: { where: \"Switzerland\", text: \"Often es hat instead of es gibt: Hat es hier in der Nähe ein Café?\" }"
+    }
+  ],
+  "back": {
+    "target": "(es gibt) there is, there are; literally to give",
+    "example": "Is there a café around here?"
+  },
+  "note": "The hint is needed: it tells this card apart from the word's to give card, and it does that correctly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:32.000Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "opfer-sacrifice",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "24a1d27b1c6911b0",
+  "group": "#547 Opfer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:38.926Z"
+}

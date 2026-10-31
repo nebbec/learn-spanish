@@ -1,0 +1,31 @@
+# selbst-even · rank 191 · selbst
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: The Spanish card incluso-even means the same thing (even, as in even my dad knows that), so this card can reuse its picture. Suggested fix: incluso-even
+# Reviewer's note (not a reason to flag): The example says mein Vater and translates it as my dad, which is fine, but mein Papa would match dad more closely.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0191.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             selbst-even
+kind:           glue
+pos:            adverb
+target:         selbst
+en:             [even] my dad knows that
+hint:           the word that also means -self, not sogar
+example.target: Selbst mein Vater weiß das.
+example.en:     Even my dad knows that.
+regional.where:
+regional.text:
+trick:          SELBST sounds like "self": even the man himself knows it, so selbst also means even.
+
+# The draft this file was made from. Do not change it.
+draft: 8e5ce75485626b82

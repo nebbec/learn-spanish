@@ -1,0 +1,17 @@
+{
+  "id": "unter-under",
+  "rank": 244,
+  "word": "unter",
+  "draft": "5228922cb857a033",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "under, below (preposition); also among",
+    "example": "The cat is sleeping under the table."
+  },
+  "note": "The prompt is a state with no movement, so the example correctly uses the dative (unter dem Tisch), and it doesn't clash with the other card's \"among\" meaning.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:20.317Z"
+}

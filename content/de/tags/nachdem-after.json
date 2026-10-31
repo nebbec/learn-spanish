@@ -1,0 +1,14 @@
+{
+  "id": "nachdem-after",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use nachdem before a whole clause (after I've eaten); use nach before a noun (nach dem Film).",
+  "draft": "c339d96b66b2b8b8",
+  "group": "#618 nachdem",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:12.976Z"
+}

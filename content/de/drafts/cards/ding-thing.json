@@ -1,0 +1,25 @@
+{
+  "id": "ding-thing",
+  "rank": 231,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Ding",
+  "en": "thing",
+  "hint": "an object, informal, not Sache",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Dinge"
+  },
+  "example": {
+    "target": "Was ist das für ein Ding?",
+    "en": "What kind of thing is that?"
+  },
+  "regional": null,
+  "trick": "DING sounds like thing said with a d: that thing on the door goes ding.",
+  "image": "/deck-de/img/ding-thing.webp",
+  "audio": {
+    "word": "/deck-de/audio/ding-thing.word.mp3",
+    "sentence": "/deck-de/audio/ding-thing.sentence.mp3"
+  }
+}

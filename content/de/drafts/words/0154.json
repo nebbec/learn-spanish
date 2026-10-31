@@ -1,0 +1,17 @@
+{
+  "rank": 154,
+  "word": "fahren",
+  "cards": [
+    "fahren-drive",
+    "fahren-go-by-vehicle"
+  ],
+  "skip": null,
+  "sameAs": {
+    "fahren-drive": "conducir-drive",
+    "fahren-go-by-vehicle": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:31:40.340Z"
+}

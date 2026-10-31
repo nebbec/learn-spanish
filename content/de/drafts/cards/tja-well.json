@@ -1,0 +1,21 @@
+{
+  "id": "tja-well",
+  "rank": 562,
+  "kind": "glue",
+  "pos": "other",
+  "target": "tja",
+  "en": "[well], that's life",
+  "hint": "a resigned shrug, not also",
+  "grammar": null,
+  "example": {
+    "target": "Tja, so ist das Leben.",
+    "en": "Well, that's life."
+  },
+  "regional": null,
+  "trick": "TJA sounds like a short sigh, tyah, the noise you make with a shrug before saying well, what can you do.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/tja-well.word.mp3",
+    "sentence": "/deck-de/audio/tja-well.sentence.mp3"
+  }
+}

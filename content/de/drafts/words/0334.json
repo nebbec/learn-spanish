@@ -1,0 +1,15 @@
+{
+  "rank": 334,
+  "word": "darauf",
+  "cards": [
+    "darauf-on-it"
+  ],
+  "skip": null,
+  "sameAs": {
+    "darauf-on-it": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:17.416Z"
+}

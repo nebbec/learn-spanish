@@ -1,0 +1,15 @@
+{
+  "rank": 247,
+  "word": "liegen",
+  "cards": [
+    "liegen-lie"
+  ],
+  "skip": null,
+  "sameAs": {
+    "liegen-lie": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:38:27.617Z"
+}

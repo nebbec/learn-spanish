@@ -1,0 +1,23 @@
+{
+  "id": "angreifen-attack",
+  "rank": 675,
+  "word": "angreifen",
+  "draft": "d1c286a3d33eadfc",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "example",
+      "problem": "The example uses the Perfekt participle angegriffen, so it never shows the separable verb split, which the card rules require.",
+      "fix": "example.target: Pass auf, der Hund greift Fremde an! | example.en: Watch out, the dog attacks strangers!"
+    }
+  ],
+  "back": {
+    "target": "to attack",
+    "example": "The dog attacked me yesterday."
+  },
+  "note": "attackieren also exists, but angreifen is the standard everyday word, so the prompt doesn't need a hint.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:00.934Z"
+}

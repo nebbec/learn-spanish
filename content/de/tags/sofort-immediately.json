@@ -1,0 +1,14 @@
+{
+  "id": "sofort-immediately",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "816139df587992a0",
+  "group": "#277 sofort",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:25.410Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 548,
+  "word": "Plan",
+  "cards": [
+    "plan-plan"
+  ],
+  "skip": null,
+  "sameAs": {
+    "plan-plan": "plan-plan"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:20.764Z"
+}

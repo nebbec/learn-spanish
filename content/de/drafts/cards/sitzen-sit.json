@@ -1,0 +1,33 @@
+{
+  "id": "sitzen-sit",
+  "rank": 313,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sitzen",
+  "en": "to sit",
+  "hint": "be seated, not sit down",
+  "grammar": {
+    "present": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er": "sitzt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesessen"
+    }
+  },
+  "example": {
+    "target": "Ich sitze im Auto und warte auf dich.",
+    "en": "I'm sitting in the car, waiting for you."
+  },
+  "regional": null,
+  "trick": "SITZEN sounds like \"zits in\": a teen sits in his room staring at his zits.",
+  "image": "/deck-de/img/sitzen-sit.webp",
+  "audio": {
+    "word": "/deck-de/audio/sitzen-sit.word.mp3",
+    "sentence": "/deck-de/audio/sitzen-sit.sentence.mp3"
+  }
+}

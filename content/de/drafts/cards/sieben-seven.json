@@ -1,0 +1,21 @@
+{
+  "id": "sieben-seven",
+  "rank": 717,
+  "kind": "content",
+  "pos": "other",
+  "target": "sieben",
+  "en": "seven",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Der Film fängt um sieben an.",
+    "en": "The movie starts at seven."
+  },
+  "regional": null,
+  "trick": "SIEBEN is said ZEE-ben, which sounds a lot like seven said with a buzzing z.",
+  "image": "/deck-de/img/sieben-seven.webp",
+  "audio": {
+    "word": "/deck-de/audio/sieben-seven.word.mp3",
+    "sentence": "/deck-de/audio/sieben-seven.sentence.mp3"
+  }
+}

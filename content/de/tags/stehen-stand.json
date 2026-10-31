@@ -1,0 +1,14 @@
+{
+  "id": "stehen-stand",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use stehen for being on your feet; aufstehen for the act of getting up.",
+  "draft": "5d6494b17a6475e0",
+  "group": "#131 stehen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:29.038Z"
+}

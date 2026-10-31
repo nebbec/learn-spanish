@@ -1,0 +1,14 @@
+{
+  "id": "baby-baby",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "47a4d84422636aa0",
+  "group": "#301 Baby",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:14.311Z"
+}

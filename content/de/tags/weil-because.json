@@ -1,0 +1,14 @@
+{
+  "id": "weil-because",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Weil sends the verb to the end; denn also means because but keeps the verb second.",
+  "draft": "8eaed5522f5c7a72",
+  "group": "#122 weil",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:11.389Z"
+}

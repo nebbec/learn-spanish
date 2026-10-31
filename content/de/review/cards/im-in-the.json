@@ -1,0 +1,17 @@
+{
+  "id": "im-in-the",
+  "rank": 67,
+  "word": "im",
+  "draft": "9986227c1797b2a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "in the (contraction of in + dem, for a masculine or neuter noun in the dative)",
+    "example": "I'm waiting for you in the car."
+  },
+  "note": "The hint is needed here because it rules out the uncontracted \"in dem\", and the static \"is\" rules out \"ins\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:26:12.197Z"
+}

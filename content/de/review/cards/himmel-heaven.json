@@ -1,0 +1,17 @@
+{
+  "id": "himmel-heaven",
+  "rank": 567,
+  "word": "Himmel",
+  "draft": "9b13065811f5f4bf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "heaven; sky",
+    "example": "Grandma is in heaven now."
+  },
+  "note": "The plural die Himmel exists but is rare and mostly poetic, especially in the heaven sense; the word's \"sky\" card has the same target, which is fine because the two prompts differ.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:44.188Z"
+}

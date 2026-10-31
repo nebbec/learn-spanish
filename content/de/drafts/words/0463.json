@@ -1,0 +1,15 @@
+{
+  "rank": 463,
+  "word": "Teil",
+  "cards": [
+    "teil-part"
+  ],
+  "skip": null,
+  "sameAs": {
+    "teil-part": "parte-part"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:51:58.284Z"
+}

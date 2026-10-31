@@ -1,0 +1,33 @@
+# herr-gentleman · rank 226 · Herr
+#
+# Why it was flagged:
+#   - One right answer: Bare "gentleman" also lets a learner answer "der Gentleman", the common German loanword for a well-mannered, chivalrous man ("Er ist ein echter Gentleman"), so the prompt needs a hint pointing to the polite word for a man. Suggested fix: hint: polite word for a man, as in ladies and gentlemen
+# Reviewer's note (not a reason to flag): Herr is a weak noun (den/dem Herrn), which the editor might mention somewhere for learners; the trick's "never a hair out of place" leans toward the chivalrous-gentleman sense, so a trick about polite address might fit the card better.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             herr-gentleman
+kind:           content
+pos:            noun
+target:         der Herr
+en:             gentleman
+hint:           polite word for a man, as in ladies and gentlemen
+gender:         m
+article:        der
+plural:         die Herren
+example.target: Der Herr da drüben möchte zahlen.
+example.en:     The gentleman over there would like to pay.
+regional.where:
+regional.text:
+trick:          HERR sounds like hair: a true gentleman never has a hair out of place.
+
+# The draft this file was made from. Do not change it.
+draft: 3c3f21015bbd6114

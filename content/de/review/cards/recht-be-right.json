@@ -1,0 +1,17 @@
+{
+  "id": "recht-be-right",
+  "rank": 174,
+  "word": "recht",
+  "draft": "88af76cd97ea1156",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "right (in recht haben: to be right)",
+    "example": "You're right, that was my fault."
+  },
+  "note": "Duden allows both recht haben and Recht haben, so an answer with a capital R should also count as right, and pos adjective is a loose fit for recht in this fixed phrase with haben.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:08.620Z"
+}

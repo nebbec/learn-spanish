@@ -1,0 +1,17 @@
+{
+  "id": "wahr-true",
+  "rank": 254,
+  "word": "wahr",
+  "draft": "bfb89dbd78ff97d7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "true (in line with the facts, not false)",
+    "example": "That's true, unfortunately."
+  },
+  "note": "The hint \"not false\" is useful because it rules out echt (genuine, as in a true friend) and richtig (correct); cierto-true is the right picture match, not verdadero-true, which means genuine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:42:14.662Z"
+}

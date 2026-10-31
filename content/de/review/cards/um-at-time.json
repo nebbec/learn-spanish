@@ -1,0 +1,17 @@
+{
+  "id": "um-at-time",
+  "rank": 66,
+  "word": "um",
+  "draft": "bafe2f76a93b0f43",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "at (with clock times); also around, in order to",
+    "example": "We're meeting at eight o'clock."
+  },
+  "note": "The hint \"clock time\" helps keep this card apart from the word's other cards for \"around\" and \"in order to\", and it rules out \"ab\" (\"from eight on\").",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:25:56.917Z"
+}

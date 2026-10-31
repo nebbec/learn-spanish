@@ -1,0 +1,23 @@
+{
+  "id": "melden-get-in-touch",
+  "rank": 578,
+  "word": "melden",
+  "draft": "3dbb5f59b2b5d47a",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card contactar-contact (to contact) means the same as getting in touch with someone, so a picture of it shows this card's meaning.",
+      "fix": "contactar-contact"
+    }
+  ],
+  "back": {
+    "target": "to get in touch, to be in touch (call, write or reply to someone)",
+    "example": "Get in touch when you've arrived!"
+  },
+  "note": "Because of the word \"back\", the hint \"call or write back\" could make a learner think of sich zurückmelden or zurückrufen; \"call or write to someone\" would avoid that, but sich melden covers getting back to someone too, so the hint is still right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:30.247Z"
+}

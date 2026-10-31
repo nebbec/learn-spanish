@@ -1,0 +1,17 @@
+{
+  "rank": 92,
+  "word": "glauben",
+  "cards": [
+    "glauben-believe",
+    "glauben-think-opinion"
+  ],
+  "skip": null,
+  "sameAs": {
+    "glauben-believe": "creer-believe",
+    "glauben-think-opinion": "creer-think-opinion"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:07.476Z"
+}

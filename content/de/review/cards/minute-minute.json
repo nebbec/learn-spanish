@@ -1,0 +1,17 @@
+{
+  "id": "minute-minute",
+  "rank": 287,
+  "word": "Minute",
+  "draft": "6a977c659b441711",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "minute (unit of time)",
+    "example": "I'll be there in five minutes."
+  },
+  "note": "The trick's respelling correctly puts the stress on the second syllable (mi-NU-te), which is worth drawing attention to because English stresses the first.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:35.912Z"
+}

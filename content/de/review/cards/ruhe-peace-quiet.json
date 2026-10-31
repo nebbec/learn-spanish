@@ -1,0 +1,17 @@
+{
+  "id": "ruhe-peace-quiet",
+  "rank": 375,
+  "word": "Ruhe",
+  "draft": "eb35b6ae87803d62",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "quiet, calm, peace and quiet, rest",
+    "example": "I just need some peace and quiet."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:53:00.982Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "verhaften-arrest",
+  "rank": 758,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verhaften",
+  "en": "to arrest",
+  "hint": "not festnehmen",
+  "grammar": {
+    "present": {
+      "ich": "verhafte",
+      "du": "verhaftest",
+      "er": "verhaftet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verhaftet"
+    }
+  },
+  "example": {
+    "target": "Die Polizei verhaftet den Dieb vor dem Laden.",
+    "en": "The police arrest the thief outside the shop."
+  },
+  "regional": null,
+  "trick": "VerHAFTen hides HAFT, sounding like the haft of a knife: the police get a firm grip on you when they arrest you.",
+  "image": "/deck-de/img/verhaften-arrest.webp",
+  "audio": {
+    "word": "/deck-de/audio/verhaften-arrest.word.mp3",
+    "sentence": "/deck-de/audio/verhaften-arrest.sentence.mp3"
+  }
+}

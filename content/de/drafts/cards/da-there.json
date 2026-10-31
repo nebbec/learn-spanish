@@ -1,0 +1,21 @@
+{
+  "id": "da-there",
+  "rank": 50,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "da",
+  "en": "there",
+  "hint": "the short everyday word, not dort",
+  "grammar": null,
+  "example": {
+    "target": "Das Hotel? Mein Vater arbeitet da.",
+    "en": "The hotel? My father works there."
+  },
+  "regional": null,
+  "trick": "DA sounds like the da in ta-da, said while pointing at something: there it is!",
+  "image": "/deck-de/img/da-there.webp",
+  "audio": {
+    "word": "/deck-de/audio/da-there.word.mp3",
+    "sentence": "/deck-de/audio/da-there.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "platz-seat",
+  "rank": 457,
+  "word": "Platz",
+  "draft": "273b60258505db7c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "seat, place (a spot where you sit)",
+    "example": "Is the seat here still free?"
+  },
+  "note": "The hint is what rules out der Sitz and der Stuhl, so it is needed, and Sitzplatz is less common than Platz in this phrase.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:59:36.662Z"
+}

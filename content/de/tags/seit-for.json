@@ -1,0 +1,14 @@
+{
+  "id": "seit-for",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use seit for a time that is still going on now; für for a set length of time, often one that is planned.",
+  "draft": "8438406a829c5c6f",
+  "group": "#218 seit",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:19.296Z"
+}

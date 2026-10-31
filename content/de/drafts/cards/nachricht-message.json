@@ -1,0 +1,25 @@
+{
+  "id": "nachricht-message",
+  "rank": 456,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Nachricht",
+  "en": "message",
+  "hint": "a text or voicemail",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Nachrichten"
+  },
+  "example": {
+    "target": "Ich schicke dir gleich eine Nachricht.",
+    "en": "I'll send you a message in a minute."
+  },
+  "regional": null,
+  "trick": "NACHRICHT starts like \"knock\": a message knocks on your phone with a ping.",
+  "image": "/deck-de/img/nachricht-message.webp",
+  "audio": {
+    "word": "/deck-de/audio/nachricht-message.word.mp3",
+    "sentence": "/deck-de/audio/nachricht-message.sentence.mp3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "art-kind",
+  "rank": 386,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Art",
+  "en": "kind, sort",
+  "hint": "as in what kind of music",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Arten"
+  },
+  "example": {
+    "target": "Welche Art von Musik magst du?",
+    "en": "What kind of music do you like?"
+  },
+  "regional": null,
+  "trick": "ART sounds like English art, and there are many kinds of art: painting, music, dance.",
+  "image": "/deck-de/img/art-kind.webp",
+  "audio": {
+    "word": "/deck-de/audio/art-kind.word.mp3",
+    "sentence": "/deck-de/audio/art-kind.sentence.mp3"
+  }
+}

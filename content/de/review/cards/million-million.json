@@ -1,0 +1,17 @@
+{
+  "id": "million-million",
+  "rank": 551,
+  "word": "Million",
+  "draft": "46dccc61f9226cb6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "million (the noun)",
+    "example": "He won a million euros."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:07:20.514Z"
+}

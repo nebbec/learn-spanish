@@ -1,0 +1,17 @@
+{
+  "id": "dass-that",
+  "rank": 24,
+  "word": "dass",
+  "draft": "144ea076c4e556b1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "that (conjunction introducing a clause)",
+    "example": "I believe that he's coming today."
+  },
+  "note": "The example's \"Ich glaube\" is translated as \"I think\", which is the natural English, so it's fine; the hint \"not das\" usefully guards against the common spelling mix-up.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:00.752Z"
+}

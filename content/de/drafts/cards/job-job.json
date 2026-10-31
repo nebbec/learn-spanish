@@ -1,0 +1,25 @@
+{
+  "id": "job-job",
+  "rank": 368,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Job",
+  "en": "job",
+  "hint": "the English loanword, not Arbeit",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Jobs"
+  },
+  "example": {
+    "target": "Ich habe einen neuen Job.",
+    "en": "I have a new job."
+  },
+  "regional": null,
+  "trick": "JOB is the English word job borrowed, said the same way, just with the final b sounding like a p.",
+  "image": "/deck-de/img/job-job.webp",
+  "audio": {
+    "word": "/deck-de/audio/job-job.word.mp3",
+    "sentence": "/deck-de/audio/job-job.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "leider-unfortunately",
+  "rank": 545,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "leider",
+  "en": "unfortunately",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich habe heute leider keine Zeit.",
+    "en": "Unfortunately, I don't have time today."
+  },
+  "regional": null,
+  "trick": "LEIDER sounds a bit like lighter: unfortunately, my lighter won't work.",
+  "image": "/deck-de/img/leider-unfortunately.webp",
+  "audio": {
+    "word": "/deck-de/audio/leider-unfortunately.word.mp3",
+    "sentence": "/deck-de/audio/leider-unfortunately.sentence.mp3"
+  }
+}

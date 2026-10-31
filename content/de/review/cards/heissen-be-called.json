@@ -1,0 +1,17 @@
+{
+  "id": "heissen-be-called",
+  "rank": 167,
+  "word": "heißen",
+  "draft": "868826d981398dc5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be called, to be named",
+    "example": "Hello, what are you called? (Hi, what's your name?)"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:12.731Z"
+}

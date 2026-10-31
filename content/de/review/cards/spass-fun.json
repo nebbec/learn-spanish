@@ -1,0 +1,17 @@
+{
+  "id": "spass-fun",
+  "rank": 413,
+  "word": "Spaß",
+  "draft": "003b5954378d4c62",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "fun (noun); also a joke, a bit of kidding",
+    "example": "That's really fun!"
+  },
+  "note": "Switzerland writes it Spass because Swiss German spelling has no ß, but that is only spelling, so regional can stay null; divertido is an adjective while Spaß is a noun, but a picture of fun shows the same idea for both.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:08.897Z"
+}

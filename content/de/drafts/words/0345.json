@@ -1,0 +1,15 @@
+{
+  "rank": 345,
+  "word": "Monat",
+  "cards": [
+    "monat-month"
+  ],
+  "skip": null,
+  "sameAs": {
+    "monat-month": "mes-month"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:44:48.062Z"
+}

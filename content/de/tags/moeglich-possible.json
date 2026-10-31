@@ -1,0 +1,14 @@
+{
+  "id": "moeglich-possible",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "a1347ff58c23ea6c",
+  "group": "#428 möglich",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:30.982Z"
+}

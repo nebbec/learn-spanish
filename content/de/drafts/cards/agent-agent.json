@@ -1,0 +1,25 @@
+{
+  "id": "agent-agent",
+  "rank": 638,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Agent",
+  "en": "agent",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Agenten"
+  },
+  "example": {
+    "target": "Er arbeitet als Agent beim Geheimdienst.",
+    "en": "He works as an agent for the secret service."
+  },
+  "regional": null,
+  "trick": "AGENT is the English word agent, but German says it ah-GENT with a hard g, like a secret agent whispering his code name.",
+  "image": "/deck-de/img/agent-agent.webp",
+  "audio": {
+    "word": "/deck-de/audio/agent-agent.word.mp3",
+    "sentence": "/deck-de/audio/agent-agent.sentence.mp3"
+  }
+}

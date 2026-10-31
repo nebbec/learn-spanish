@@ -1,0 +1,17 @@
+{
+  "rank": 36,
+  "word": "alle",
+  "cards": [
+    "alle-all",
+    "alle-everything"
+  ],
+  "skip": null,
+  "sameAs": {
+    "alle-all": null,
+    "alle-everything": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:25:14.511Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "schiessen-shoot",
+  "rank": 472,
+  "word": "schießen",
+  "draft": "cd53fdd1315f937b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to shoot (fire a gun, also kick a ball at goal)",
+    "example": "He's shooting at us!"
+  },
+  "note": "Perfekt with haben is right for firing a weapon; sein is used only in the rarer sense of shooting or darting along (ist geschossen).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:56.998Z"
+}

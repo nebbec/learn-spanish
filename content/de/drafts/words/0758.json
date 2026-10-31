@@ -1,0 +1,15 @@
+{
+  "rank": 758,
+  "word": "verhaften",
+  "cards": [
+    "verhaften-arrest"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verhaften-arrest": "detener-arrest"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:16.357Z"
+}

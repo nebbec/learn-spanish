@@ -1,0 +1,17 @@
+{
+  "id": "jahr-year",
+  "rank": 135,
+  "word": "Jahr",
+  "draft": "22ecd14f84965923",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "year",
+    "example": "I have been living in Berlin for two years."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:01.702Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ruhig-feel-free",
+  "rank": 350,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "ruhig",
+  "en": "you can [go ahead and] sit down",
+  "hint": "particle meaning feel free, no need to hesitate",
+  "grammar": null,
+  "example": {
+    "target": "Du kannst dich ruhig hinsetzen.",
+    "en": "Feel free to sit down."
+  },
+  "regional": null,
+  "trick": "RUHIG starts like roo: a calm roo tells you to relax and go ahead, no need to worry.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/ruhig-feel-free.word.mp3",
+    "sentence": "/deck-de/audio/ruhig-feel-free.sentence.mp3"
+  }
+}

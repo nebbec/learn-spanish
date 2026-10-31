@@ -1,0 +1,17 @@
+{
+  "id": "richtig-right",
+  "rank": 163,
+  "word": "richtig",
+  "draft": "3ba68168258bf359",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "right, correct",
+    "example": "That is the right answer."
+  },
+  "note": "The hint's \"not wrong\" usefully rules out rechts (the right side), and the trick's shared-root claim is accurate (richtig comes from recht, a cognate of English right).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:52.910Z"
+}

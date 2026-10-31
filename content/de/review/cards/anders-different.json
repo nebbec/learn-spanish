@@ -1,0 +1,17 @@
+{
+  "id": "anders-different",
+  "rank": 403,
+  "word": "anders",
+  "draft": "b5fff5f0f253eb5e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "differently, different (otherwise; also else, as in jemand anders)",
+    "example": "Today everything is different."
+  },
+  "note": "The hint \"it's different now\" is useful because it rules out verschieden and unterschiedlich, which only work when comparing things with each other; the card leaves out the \"else\" sense (jemand anders, irgendwo anders), but that is fine for a single card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:20.468Z"
+}

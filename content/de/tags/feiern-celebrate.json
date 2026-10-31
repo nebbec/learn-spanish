@@ -1,0 +1,14 @@
+{
+  "id": "feiern-celebrate",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f7642d8073783194",
+  "group": "#714 feiern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:28.636Z"
+}

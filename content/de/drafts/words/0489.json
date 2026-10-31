@@ -1,0 +1,15 @@
+{
+  "rank": 489,
+  "word": "König",
+  "cards": [
+    "koenig-king"
+  ],
+  "skip": null,
+  "sameAs": {
+    "koenig-king": "rey-king"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:44.126Z"
+}

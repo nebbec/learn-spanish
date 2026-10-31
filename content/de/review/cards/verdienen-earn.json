@@ -1,0 +1,17 @@
+{
+  "id": "verdienen-earn",
+  "rank": 444,
+  "word": "verdienen",
+  "draft": "d4f27dabd9bd12cb",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to earn (money); also to deserve",
+    "example": "My brother earns really well."
+  },
+  "note": "The hint \"money\" is needed here, because without it the prompt could also be the word's \"to deserve\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:27.393Z"
+}

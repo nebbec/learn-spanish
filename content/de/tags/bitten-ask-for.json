@@ -1,0 +1,14 @@
+{
+  "id": "bitten-ask-for",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use bitten to request something (um + thing); use fragen to ask a question.",
+  "draft": "8051b2c32cd23822",
+  "group": "#410 bitten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:50.200Z"
+}

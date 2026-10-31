@@ -1,0 +1,14 @@
+{
+  "id": "bloed-dumb",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use blöd for casual 'dumb' or 'annoying'; dumm is the plain word for stupid.",
+  "draft": "32838e2f905c4909",
+  "group": "#603 blöd",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:42.202Z"
+}

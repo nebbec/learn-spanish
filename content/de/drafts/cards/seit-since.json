@@ -1,0 +1,21 @@
+{
+  "id": "seit-since",
+  "rank": 218,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "seit",
+  "en": "I've been here [since] Monday",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich warte seit Montag auf deine Antwort.",
+    "en": "I've been waiting for your answer since Monday."
+  },
+  "regional": null,
+  "trick": "SEIT sounds like \"site\" said with a buzzy z: you've been stuck on this site since Monday.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/seit-since.word.mp3",
+    "sentence": "/deck-de/audio/seit-since.sentence.mp3"
+  }
+}

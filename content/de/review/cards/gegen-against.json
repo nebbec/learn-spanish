@@ -1,0 +1,17 @@
+{
+  "id": "gegen-against",
+  "rank": 263,
+  "word": "gegen",
+  "draft": "a499879a8079ecda",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "against (preposition, also roughly or around with times)",
+    "example": "We're playing against Bayern tomorrow."
+  },
+  "note": "The trick works better than it seems, because gegen and English again(st) really are related words, and the editor could say so in the trick.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:43:10.141Z"
+}

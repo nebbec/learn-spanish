@@ -1,0 +1,14 @@
+{
+  "id": "einzig-only",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use einzig for the only one of something (meine einzige Chance); use nur for merely or just.",
+  "draft": "5d404f72bcc66bea",
+  "group": "#289 einzig",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:51.179Z"
+}

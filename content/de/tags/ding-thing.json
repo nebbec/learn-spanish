@@ -1,0 +1,14 @@
+{
+  "id": "ding-thing",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Ding for a physical object; Sache also covers matters and affairs.",
+  "draft": "c87d8571c604e358",
+  "group": "#231 Ding",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:48.710Z"
+}

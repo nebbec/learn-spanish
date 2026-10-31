@@ -1,0 +1,17 @@
+{
+  "id": "wohnung-apartment",
+  "rank": 659,
+  "word": "Wohnung",
+  "draft": "889d991ad46acc0a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "apartment, flat",
+    "example": "Your apartment is really nice."
+  },
+  "note": "The loanword das Apartment exists but usually means a small studio, so die Wohnung is still the one natural answer for apartment.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:42.483Z"
+}

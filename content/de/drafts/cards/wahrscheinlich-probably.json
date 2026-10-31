@@ -1,0 +1,21 @@
+{
+  "id": "wahrscheinlich-probably",
+  "rank": 507,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "wahrscheinlich",
+  "en": "probably",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Er kommt wahrscheinlich morgen.",
+    "en": "He's probably coming tomorrow."
+  },
+  "regional": null,
+  "trick": "WAHRSCHEINLICH sounds like var-SHINE-likh: the sun will probably shine tomorrow.",
+  "image": "/deck-de/img/wahrscheinlich-probably.webp",
+  "audio": {
+    "word": "/deck-de/audio/wahrscheinlich-probably.word.mp3",
+    "sentence": "/deck-de/audio/wahrscheinlich-probably.sentence.mp3"
+  }
+}

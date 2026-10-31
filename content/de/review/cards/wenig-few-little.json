@@ -1,0 +1,17 @@
+{
+  "id": "wenig-few-little",
+  "rank": 271,
+  "word": "wenig",
+  "draft": "aec47532310873a0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "little, not much (in the plural, wenige: few)",
+    "example": "I have little time today."
+  },
+  "note": "With a plural noun the word takes an ending (wenige Leute = few people), so the editor might add a plural example later, though the dictionary form wenig is the right answer here.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:05.850Z"
+}

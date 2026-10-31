@@ -1,0 +1,14 @@
+{
+  "id": "warten-wait",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c6e4eb63dc4d3519",
+  "group": "#121 warten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:11.371Z"
+}

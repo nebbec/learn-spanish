@@ -1,0 +1,17 @@
+{
+  "id": "dollar-dollar",
+  "rank": 514,
+  "word": "Dollar",
+  "draft": "eeebf18c4a674a22",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dollar (the currency)",
+    "example": "The T-shirt costs ten dollars."
+  },
+  "note": "Duden gives the plural as \"die Dollars\", keeping \"Dollar\" only after numbers (zehn Dollar); \"die Dollar\" is also common, but the editor may prefer \"die Dollars\" in grammar.plural.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:12.612Z"
+}

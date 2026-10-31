@@ -1,0 +1,25 @@
+{
+  "id": "augenblick-moment",
+  "rank": 791,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Augenblick",
+  "en": "moment",
+  "hint": "not der Moment; literally an eye-glance",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Augenblicke"
+  },
+  "example": {
+    "target": "Warte einen Augenblick, ich komme gleich!",
+    "en": "Wait a moment, I'll be right there!"
+  },
+  "regional": null,
+  "trick": "AUGENBLICK ends almost like blink: Augen means eyes, and a moment lasts about as long as an eye-blink.",
+  "image": "/deck-de/img/augenblick-moment.webp",
+  "audio": {
+    "word": "/deck-de/audio/augenblick-moment.word.mp3",
+    "sentence": "/deck-de/audio/augenblick-moment.sentence.mp3"
+  }
+}

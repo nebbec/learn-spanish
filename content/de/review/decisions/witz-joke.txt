@@ -1,0 +1,33 @@
+# witz-joke · rank 598 · Witz
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt joke also fits der Scherz and der Spaß, as in Das war nur ein Scherz / Spaß (it was only a joke), so it needs a hint for the told joke. Suggested fix: hint: a funny story you tell, not Scherz or Spaß
+# Reviewer's note (not a reason to flag): sameAs null is right: broma-joke-prank explicitly excludes a joke you tell, and the list has no chiste card; the trick's link to wits is also true to the word's history, since Witz once meant wit.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             witz-joke
+kind:           content
+pos:            noun
+target:         der Witz
+en:             joke
+hint:           a funny story you tell, not Scherz or Spaß
+gender:         m
+article:        der
+plural:         die Witze
+example.target: Erzähl mir einen Witz!
+example.en:     Tell me a joke!
+regional.where:
+regional.text:
+trick:          WITZ sounds like vits, close to wits: it takes quick wits to tell a good joke.
+
+# The draft this file was made from. Do not change it.
+draft: 38a07b38f7ea691e

@@ -1,0 +1,17 @@
+{
+  "rank": 692,
+  "word": "lieb",
+  "cards": [
+    "lieb-kind",
+    "lieb-dear"
+  ],
+  "skip": null,
+  "sameAs": {
+    "lieb-kind": "amable-kind",
+    "lieb-dear": "querido-dear"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:08.514Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 757,
+  "word": "Bericht",
+  "cards": [
+    "bericht-report"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bericht-report": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:11:10.698Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "idiot-idiot",
+  "rank": 708,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Idiot",
+  "en": "idiot",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Idioten"
+  },
+  "example": {
+    "target": "Du bist so ein Idiot!",
+    "en": "You're such an idiot!"
+  },
+  "regional": null,
+  "trick": "IDIOT is said ee-dee-OHT, with the stress at the end, and it means the same as the English word idiot.",
+  "image": "/deck-de/img/idiot-idiot.webp",
+  "audio": {
+    "word": "/deck-de/audio/idiot-idiot.word.mp3",
+    "sentence": "/deck-de/audio/idiot-idiot.sentence.mp3"
+  }
+}

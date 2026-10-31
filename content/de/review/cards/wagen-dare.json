@@ -1,0 +1,17 @@
+{
+  "id": "wagen-dare",
+  "rank": 382,
+  "word": "wagen",
+  "draft": "f6ea842b53579503",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to dare, to risk (doing something)",
+    "example": "I don't dare ask him."
+  },
+  "note": "Lowercased subtitle frequency counts probably lump the noun der Wagen (car) in with this verb, and the noun likely makes up much of rank 382, so the editor may want to add a der Wagen card next to this verb card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:53:41.568Z"
+}

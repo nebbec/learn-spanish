@@ -1,0 +1,21 @@
+{
+  "id": "schlimm-bad",
+  "rank": 322,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "schlimm",
+  "en": "bad",
+  "hint": "serious, awful (not schlecht)",
+  "grammar": null,
+  "example": {
+    "target": "Keine Sorge, das ist nicht so schlimm.",
+    "en": "Don't worry, it's not that bad."
+  },
+  "regional": null,
+  "trick": "SCHLIMM sounds like \"slim\": when your chances are slim, things are looking bad.",
+  "image": "/deck-de/img/schlimm-bad.webp",
+  "audio": {
+    "word": "/deck-de/audio/schlimm-bad.word.mp3",
+    "sentence": "/deck-de/audio/schlimm-bad.sentence.mp3"
+  }
+}

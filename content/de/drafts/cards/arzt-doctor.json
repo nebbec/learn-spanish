@@ -1,0 +1,25 @@
+{
+  "id": "arzt-doctor",
+  "rank": 497,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Arzt",
+  "en": "doctor",
+  "hint": "physician, not Doktor",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Ärzte"
+  },
+  "example": {
+    "target": "Du solltest morgen zum Arzt gehen.",
+    "en": "You should go to the doctor tomorrow."
+  },
+  "regional": null,
+  "trick": "ARZT sounds like \"arts\": a doctor practises the healing arts.",
+  "image": "/deck-de/img/arzt-doctor.webp",
+  "audio": {
+    "word": "/deck-de/audio/arzt-doctor.word.mp3",
+    "sentence": "/deck-de/audio/arzt-doctor.sentence.mp3"
+  }
+}

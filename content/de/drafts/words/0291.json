@@ -1,0 +1,15 @@
+{
+  "rank": 291,
+  "word": "verschwinden",
+  "cards": [
+    "verschwinden-disappear"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verschwinden-disappear": "desaparecer-disappear"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:24.371Z"
+}

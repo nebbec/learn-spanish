@@ -1,0 +1,21 @@
+{
+  "id": "eigentlich-actually",
+  "rank": 310,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "eigentlich",
+  "en": "actually",
+  "hint": "the everyday word, as in what do you actually want? (not tatsächlich)",
+  "grammar": null,
+  "example": {
+    "target": "Was machst du eigentlich hier?",
+    "en": "What are you actually doing here?"
+  },
+  "regional": null,
+  "trick": "EIGENTLICH sounds like eye-gent-lish: keep an eye on that gent, he is actually a spy.",
+  "image": "/deck-de/img/eigentlich-actually.webp",
+  "audio": {
+    "word": "/deck-de/audio/eigentlich-actually.word.mp3",
+    "sentence": "/deck-de/audio/eigentlich-actually.sentence.mp3"
+  }
+}

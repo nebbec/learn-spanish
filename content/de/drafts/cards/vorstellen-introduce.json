@@ -1,0 +1,33 @@
+{
+  "id": "vorstellen-introduce",
+  "rank": 522,
+  "kind": "content",
+  "pos": "verb",
+  "target": "vorstellen",
+  "en": "to introduce",
+  "hint": "a person",
+  "grammar": {
+    "present": {
+      "ich": "stelle vor",
+      "du": "stellst vor",
+      "er": "stellt vor"
+    },
+    "irregular": false,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "vorgestellt"
+    }
+  },
+  "example": {
+    "target": "Ich stelle dir meine Schwester vor.",
+    "en": "I'll introduce you to my sister."
+  },
+  "regional": null,
+  "trick": "VOR-shtellen sounds like fore-tell: you put someone to the fore and tell everyone their name.",
+  "image": "/deck-de/img/vorstellen-introduce.webp",
+  "audio": {
+    "word": "/deck-de/audio/vorstellen-introduce.word.mp3",
+    "sentence": "/deck-de/audio/vorstellen-introduce.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "niemals-never",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use nie for an everyday never; niemals is the stronger, emphatic never.",
+  "draft": "285222a109e6a578",
+  "group": "#426 niemals",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:25.140Z"
+}

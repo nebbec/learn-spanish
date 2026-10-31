@@ -1,0 +1,14 @@
+{
+  "id": "wirken-seem",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use wirken for how someone comes across to you; scheinen for how a situation seems or appears.",
+  "draft": "50b52d914b1993ae",
+  "group": "#767 wirken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:19.124Z"
+}

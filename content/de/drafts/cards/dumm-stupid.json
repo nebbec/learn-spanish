@@ -1,0 +1,21 @@
+{
+  "id": "dumm-stupid",
+  "rank": 476,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "dumm",
+  "en": "stupid, dumb",
+  "hint": "the look-alike word, not blöd or doof",
+  "grammar": null,
+  "example": {
+    "target": "Das war eine dumme Idee.",
+    "en": "That was a stupid idea."
+  },
+  "regional": null,
+  "trick": "DUMM sounds almost exactly like English dumb, and it means just that: stupid.",
+  "image": "/deck-de/img/dumm-stupid.webp",
+  "audio": {
+    "word": "/deck-de/audio/dumm-stupid.word.mp3",
+    "sentence": "/deck-de/audio/dumm-stupid.sentence.mp3"
+  }
+}

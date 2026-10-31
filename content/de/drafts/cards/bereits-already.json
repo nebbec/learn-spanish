@@ -1,0 +1,21 @@
+{
+  "id": "bereits-already",
+  "rank": 533,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "bereits",
+  "en": "already",
+  "hint": "a bit more formal, not schon",
+  "grammar": null,
+  "example": {
+    "target": "Der Zug ist bereits weg.",
+    "en": "The train has already left."
+  },
+  "regional": null,
+  "trick": "BEREITS (buh-RITES) holds bereit, meaning ready: when everything is all ready, it is already done.",
+  "image": "/deck-de/img/bereits-already.webp",
+  "audio": {
+    "word": "/deck-de/audio/bereits-already.word.mp3",
+    "sentence": "/deck-de/audio/bereits-already.sentence.mp3"
+  }
+}

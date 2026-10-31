@@ -1,0 +1,30 @@
+# jemals-ever · rank 750 · jemals
+#
+# Why it was flagged:
+#   - One right answer: The short word je is also one word meaning ever, at any time (Hast du je so etwas gesehen?), so the hint does not rule it out. Suggested fix: hint: one word, at any time; the longer word, not je
+# Reviewer's note (not a reason to flag): Spanish jamás means never, not ever, so a null sameAs is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             jemals-ever
+kind:           content
+pos:            adverb
+target:         jemals
+en:             ever
+hint:           one word, at any time; the longer word, not je
+example.target: Hast du jemals so etwas gesehen?
+example.en:     Have you ever seen anything like that?
+regional.where:
+regional.text:
+trick:          JEMALS sounds like yay-malls: have you ever yelled yay at the malls?
+
+# The draft this file was made from. Do not change it.
+draft: bf8f458981a58cfd

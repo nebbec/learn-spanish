@@ -1,0 +1,14 @@
+{
+  "id": "person-person",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Person for one individual you count (für vier Personen); Mensch for a human being in general.",
+  "draft": "5bfe6ad766a5ba4f",
+  "group": "#582 Person",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:38:53.257Z"
+}

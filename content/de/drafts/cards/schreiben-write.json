@@ -1,0 +1,33 @@
+{
+  "id": "schreiben-write",
+  "rank": 315,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schreiben",
+  "en": "to write",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er": "schreibt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschrieben"
+    }
+  },
+  "example": {
+    "target": "Ich schreibe dir später eine Nachricht.",
+    "en": "I'll write you a message later."
+  },
+  "regional": null,
+  "trick": "SCHREIBEN sounds like SHRY-ben, close to scribe: a scribe is someone who writes.",
+  "image": "/deck-de/img/schreiben-write.webp",
+  "audio": {
+    "word": "/deck-de/audio/schreiben-write.word.mp3",
+    "sentence": "/deck-de/audio/schreiben-write.sentence.mp3"
+  }
+}

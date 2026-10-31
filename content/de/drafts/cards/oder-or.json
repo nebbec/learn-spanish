@@ -1,0 +1,21 @@
+{
+  "id": "oder-or",
+  "rank": 71,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "oder",
+  "en": "tea [or] coffee?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Willst du Tee oder Kaffee?",
+    "en": "Do you want tea or coffee?"
+  },
+  "regional": null,
+  "trick": "ODER sounds like \"other\": this one or the other one.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/oder-or.word.mp3",
+    "sentence": "/deck-de/audio/oder-or.sentence.mp3"
+  }
+}

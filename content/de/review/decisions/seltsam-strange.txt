@@ -1,0 +1,31 @@
+# seltsam-strange · rank 634 · seltsam
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out komisch and merkwürdig, but eigenartig (and the rarer sonderbar) also fit strange, odd. Suggested fix: hint: odd, not komisch, merkwürdig or eigenartig
+#   - Example sentence: Here irgendwie is a hedge meaning kind of, so somehow strange is a stiff, too-literal translation. Suggested fix: example.en: He's kind of strange today.
+# Reviewer's note (not a reason to flag): The trick works well because seltsam really does come from the same root as selten (seldom).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             seltsam-strange
+kind:           content
+pos:            adjective
+target:         seltsam
+en:             strange
+hint:           odd, not komisch, merkwürdig or eigenartig
+example.target: Er ist heute irgendwie seltsam.
+example.en:     He's kind of strange today.
+regional.where:
+regional.text:
+trick:          SELTSAM, said ZELT-zahm, sounds a bit like seldom: something you seldom see seems strange.
+
+# The draft this file was made from. Do not change it.
+draft: 1b5715b4d073be2f

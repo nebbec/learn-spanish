@@ -1,0 +1,17 @@
+{
+  "id": "letzte-last",
+  "rank": 172,
+  "word": "letzte",
+  "draft": "5a3630cc36f9c384",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "last (final in a series)",
+    "example": "That is my last chance."
+  },
+  "note": "The target letzte is the conventional headword because the bare form letzt is not used on its own, so it is acceptable as the dictionary form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:54.140Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 230,
+  "word": "wegen",
+  "cards": [
+    "wegen-because-of"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wegen-because-of": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:37:31.473Z"
+}

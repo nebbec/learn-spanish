@@ -1,0 +1,21 @@
+{
+  "id": "jeder-everyone",
+  "rank": 125,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "jeder",
+  "en": "[everyone] knows that",
+  "hint": "singular, not alle",
+  "grammar": null,
+  "example": {
+    "target": "Das weiß doch jeder.",
+    "en": "Everyone knows that."
+  },
+  "regional": null,
+  "trick": "JEDER sounds like \"YAY-der\": everyone in the room shouts yay.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/jeder-everyone.word.mp3",
+    "sentence": "/deck-de/audio/jeder-everyone.sentence.mp3"
+  }
+}

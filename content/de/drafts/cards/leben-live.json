@@ -1,0 +1,33 @@
+{
+  "id": "leben-live",
+  "rank": 97,
+  "kind": "content",
+  "pos": "verb",
+  "target": "leben",
+  "en": "to live",
+  "hint": "be alive, not where you reside",
+  "grammar": {
+    "present": {
+      "ich": "lebe",
+      "du": "lebst",
+      "er": "lebt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gelebt"
+    }
+  },
+  "example": {
+    "target": "Mein Opa lebt noch.",
+    "en": "My grandpa is still alive."
+  },
+  "regional": null,
+  "trick": "LEBEN, said LAY-ben, comes from the same old root as English live: to live is to leben.",
+  "image": "/deck-de/img/leben-live.webp",
+  "audio": {
+    "word": "/deck-de/audio/leben-live.word.mp3",
+    "sentence": "/deck-de/audio/leben-live.sentence.mp3"
+  }
+}

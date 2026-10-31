@@ -1,0 +1,17 @@
+{
+  "id": "boese-angry",
+  "rank": 651,
+  "word": "böse",
+  "draft": "cf9e637804768bbc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "angry, cross (with someone), as in jemandem böse sein; also evil, bad",
+    "example": "Are you still angry with me?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:08.219Z"
+}

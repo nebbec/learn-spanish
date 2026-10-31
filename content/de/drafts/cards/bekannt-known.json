@@ -1,0 +1,21 @@
+{
+  "id": "bekannt-known",
+  "rank": 785,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "bekannt",
+  "en": "known, well-known",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Er ist in ganz Deutschland bekannt.",
+    "en": "He's known all over Germany."
+  },
+  "regional": null,
+  "trick": "BeKANNT sounds like Scots ken, to know: someone well-known is someone everybody kens.",
+  "image": "/deck-de/img/bekannt-known.webp",
+  "audio": {
+    "word": "/deck-de/audio/bekannt-known.word.mp3",
+    "sentence": "/deck-de/audio/bekannt-known.sentence.mp3"
+  }
+}

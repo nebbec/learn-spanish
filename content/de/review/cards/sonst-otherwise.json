@@ -1,0 +1,17 @@
+{
+  "id": "sonst-otherwise",
+  "rank": 266,
+  "word": "sonst",
+  "draft": "3015b675e3503845",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "otherwise, or else (also: else, usually)",
+    "example": "Hurry up, otherwise we'll be late."
+  },
+  "note": "Ansonsten (longer, less common) would also fit here, but sonst is clearly the default; this card's meaning, otherwise, is kept apart from the anything-else card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:43:39.309Z"
+}

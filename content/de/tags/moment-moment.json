@@ -1,0 +1,14 @@
+{
+  "id": "moment-moment",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ed7726c8e1d6a236",
+  "group": "#257 Moment",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:27:38.006Z"
+}

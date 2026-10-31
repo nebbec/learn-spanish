@@ -1,0 +1,15 @@
+{
+  "rank": 796,
+  "word": "Bewegung",
+  "cards": [
+    "bewegung-movement"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bewegung-movement": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:13:40.171Z"
+}

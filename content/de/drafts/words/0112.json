@@ -1,0 +1,15 @@
+{
+  "rank": 112,
+  "word": "andere",
+  "cards": [
+    "andere-other"
+  ],
+  "skip": null,
+  "sameAs": {
+    "andere-other": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:08.990Z"
+}

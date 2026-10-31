@@ -1,0 +1,14 @@
+{
+  "id": "sollen-supposed-to",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sollen for what someone expects or asks of you; müssen for what you really have to do.",
+  "draft": "243483e82fc50a3b",
+  "group": "#56 sollen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:13.318Z"
+}

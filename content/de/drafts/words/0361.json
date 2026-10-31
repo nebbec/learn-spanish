@@ -1,0 +1,17 @@
+{
+  "rank": 361,
+  "word": "versprechen",
+  "cards": [
+    "versprechen-promise",
+    "versprechen-promise-noun"
+  ],
+  "skip": null,
+  "sameAs": {
+    "versprechen-promise": "prometer-promise",
+    "versprechen-promise-noun": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:40.577Z"
+}

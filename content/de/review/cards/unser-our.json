@@ -1,0 +1,17 @@
+{
+  "id": "unser-our",
+  "rank": 89,
+  "word": "unser",
+  "draft": "e6bc86827fcbdb39",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "our",
+    "example": "Our dog is called Max."
+  },
+  "note": "Hund is masculine nominative, so the bare form unser is exactly the right answer and matches the dictionary form; the editor may want later cards to cover the inflected forms (unsere, unseren, unserem).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:09.210Z"
+}

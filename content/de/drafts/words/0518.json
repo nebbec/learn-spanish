@@ -1,0 +1,17 @@
+{
+  "rank": 518,
+  "word": "Menge",
+  "cards": [
+    "menge-amount",
+    "menge-crowd"
+  ],
+  "skip": null,
+  "sameAs": {
+    "menge-amount": null,
+    "menge-crowd": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:31.853Z"
+}

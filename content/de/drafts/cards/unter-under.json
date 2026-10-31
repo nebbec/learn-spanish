@@ -1,0 +1,21 @@
+{
+  "id": "unter-under",
+  "rank": 244,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "unter",
+  "en": "the cat is [under] the table",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Die Katze schläft unter dem Tisch.",
+    "en": "The cat is sleeping under the table."
+  },
+  "regional": null,
+  "trick": "UNTER sounds almost exactly like English under, just with a t in place of the d.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/unter-under.word.mp3",
+    "sentence": "/deck-de/audio/unter-under.sentence.mp3"
+  }
+}

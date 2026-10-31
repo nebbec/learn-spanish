@@ -1,0 +1,14 @@
+{
+  "id": "mal-times",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "588063e8dc5edc3f",
+  "group": "#61 mal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:24.804Z"
+}

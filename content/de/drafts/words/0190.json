@@ -1,0 +1,15 @@
+{
+  "rank": 190,
+  "word": "stimmen",
+  "cards": [
+    "stimmen-be-right"
+  ],
+  "skip": null,
+  "sameAs": {
+    "stimmen-be-right": "cierto-true"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:34:25.663Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 353,
+  "word": "draußen",
+  "cards": [
+    "draussen-outside"
+  ],
+  "skip": null,
+  "sameAs": {
+    "draussen-outside": "afuera-outside"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:16.172Z"
+}

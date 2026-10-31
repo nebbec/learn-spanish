@@ -1,0 +1,21 @@
+{
+  "id": "spaeter-later",
+  "rank": 328,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "später",
+  "en": "later",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich ruf dich später an.",
+    "en": "I'll call you later."
+  },
+  "regional": null,
+  "trick": "SPÄTER sounds like \"shpay-ter\", close to \"shape it later\": you'll shape it later, not now.",
+  "image": "/deck-de/img/spaeter-later.webp",
+  "audio": {
+    "word": "/deck-de/audio/spaeter-later.word.mp3",
+    "sentence": "/deck-de/audio/spaeter-later.sentence.mp3"
+  }
+}

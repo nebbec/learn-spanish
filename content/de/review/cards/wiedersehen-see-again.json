@@ -1,0 +1,17 @@
+{
+  "id": "wiedersehen-see-again",
+  "rank": 445,
+  "word": "wiedersehen",
+  "draft": "aa34042b84e8b1f1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to see again, to meet again (separable verb)",
+    "example": "I hope we'll see each other again soon."
+  },
+  "note": "Most of this word's subtitle frequency comes from \"Auf Wiedersehen\", which the \"goodbye\" card already covers, and the example's reflexive \"sich wiedersehen\" (to see each other again) is the most common way the verb is used.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:36.240Z"
+}

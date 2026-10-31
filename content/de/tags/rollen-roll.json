@@ -1,0 +1,14 @@
+{
+  "id": "rollen-roll",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "dfaec20e6fcb92fc",
+  "group": "#691 rollen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:45.693Z"
+}

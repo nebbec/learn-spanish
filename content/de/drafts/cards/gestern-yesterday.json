@@ -1,0 +1,21 @@
+{
+  "id": "gestern-yesterday",
+  "rank": 397,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "gestern",
+  "en": "yesterday",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Gestern war ich den ganzen Tag zu Hause.",
+    "en": "Yesterday I was at home all day."
+  },
+  "regional": null,
+  "trick": "GESTERN sounds like guess turn: yesterday you had to guess whose turn it was.",
+  "image": "/deck-de/img/gestern-yesterday.webp",
+  "audio": {
+    "word": "/deck-de/audio/gestern-yesterday.word.mp3",
+    "sentence": "/deck-de/audio/gestern-yesterday.sentence.mp3"
+  }
+}

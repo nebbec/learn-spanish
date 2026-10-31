@@ -1,0 +1,21 @@
+{
+  "id": "bald-soon",
+  "rank": 335,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "bald",
+  "en": "soon",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Bis bald, ich ruf dich an!",
+    "en": "See you soon, I'll call you!"
+  },
+  "regional": null,
+  "trick": "BALD sounds like \"bahlt\", close to English bald: worry this much and you'll be bald soon.",
+  "image": "/deck-de/img/bald-soon.webp",
+  "audio": {
+    "word": "/deck-de/audio/bald-soon.word.mp3",
+    "sentence": "/deck-de/audio/bald-soon.sentence.mp3"
+  }
+}

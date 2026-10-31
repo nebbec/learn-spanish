@@ -1,0 +1,21 @@
+{
+  "id": "paar-a-few",
+  "rank": 179,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "ein paar",
+  "en": "I need [a few] minutes",
+  "hint": "two words, casual, not einige",
+  "grammar": null,
+  "example": {
+    "target": "Ich brauche noch ein paar Minuten.",
+    "en": "I need a few more minutes."
+  },
+  "regional": null,
+  "trick": "EIN PAAR sounds like a pair: a pair is two, and a few is just a little more than that.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/paar-a-few.word.mp3",
+    "sentence": "/deck-de/audio/paar-a-few.sentence.mp3"
+  }
+}

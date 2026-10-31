@@ -1,0 +1,30 @@
+# dran-on-it · rank 371 · dran
+#
+# Why it was flagged:
+#   - Example sentence: The example uses the idiom dran sein (to be working on something), not the card's meaning of physically on or stuck to something, and ich bin dran also clashes with the word's other card (it's my turn). Suggested fix: example.target: Wasch die Gabel ab, da ist noch Ketchup dran. | example.en: Wash the fork, there's still ketchup on it.
+# Reviewer's note (not a reason to flag): The hint is needed here because it rules out drauf, which a German speaker could also use for ketchup on top of something like a plate or a burger.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             dran-on-it
+kind:           glue
+pos:            adverb
+target:         dran
+en:             there's still ketchup [on it]
+hint:           short for daran
+example.target: Wasch die Gabel ab, da ist noch Ketchup dran.
+example.en:     Wash the fork, there's still ketchup on it.
+regional.where:
+regional.text:
+trick:          DRAN sounds like drawn on: something drawn on a page is stuck right on it.
+
+# The draft this file was made from. Do not change it.
+draft: f6c1e30254503ce7

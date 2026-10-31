@@ -1,0 +1,17 @@
+{
+  "rank": 465,
+  "word": "laut",
+  "cards": [
+    "laut-loud",
+    "laut-according-to"
+  ],
+  "skip": null,
+  "sameAs": {
+    "laut-loud": null,
+    "laut-according-to": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:08.081Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tier-animal",
+  "rank": 674,
+  "word": "Tier",
+  "draft": "2b90d33537739ac6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "animal",
+    "example": "Do you like animals?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:00.330Z"
+}

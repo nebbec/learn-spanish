@@ -1,0 +1,17 @@
+{
+  "rank": 581,
+  "word": "besorgen",
+  "cards": [
+    "besorgen-get",
+    "besorgen-worried"
+  ],
+  "skip": null,
+  "sameAs": {
+    "besorgen-get": "conseguir-get",
+    "besorgen-worried": "preocupado-worried"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:59:33.738Z"
+}

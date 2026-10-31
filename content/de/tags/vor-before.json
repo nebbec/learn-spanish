@@ -1,0 +1,14 @@
+{
+  "id": "vor-before",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use vor before a noun (vor dem Essen); bevor starts a clause with its own verb.",
+  "draft": "553cf45de160acf3",
+  "group": "#91 vor",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:16.984Z"
+}

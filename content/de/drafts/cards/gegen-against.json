@@ -1,0 +1,21 @@
+{
+  "id": "gegen-against",
+  "rank": 263,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "gegen",
+  "en": "I'm [against] the plan",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Wir spielen morgen gegen Bayern.",
+    "en": "We're playing against Bayern tomorrow."
+  },
+  "regional": null,
+  "trick": "GEGEN sounds like GAY-gun, a lot like the start of again-st: you stand against something again and again.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/gegen-against.word.mp3",
+    "sentence": "/deck-de/audio/gegen-against.sentence.mp3"
+  }
+}

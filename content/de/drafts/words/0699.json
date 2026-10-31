@@ -1,0 +1,15 @@
+{
+  "rank": 699,
+  "word": "aufhalten",
+  "cards": [
+    "aufhalten-stop"
+  ],
+  "skip": null,
+  "sameAs": {
+    "aufhalten-stop": "detener-stop"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:07:36.163Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "boese-evil",
+  "rank": 651,
+  "word": "böse",
+  "draft": "b307c3be2b6a7373",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "evil, wicked (also bad, naughty; and angry, as in mad at someone)",
+    "example": "The wolf in the fairy tale is evil."
+  },
+  "note": "The Spanish card mal-evil is probably the noun (el mal) while this card is the adjective, but a picture of a villain works for both, so the picture can still be reused.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:16:02.326Z"
+}

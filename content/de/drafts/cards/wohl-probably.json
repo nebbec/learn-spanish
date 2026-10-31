@@ -1,0 +1,21 @@
+{
+  "id": "wohl-probably",
+  "rank": 170,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "wohl",
+  "en": "he's [probably] already home",
+  "hint": "the short word, not wahrscheinlich",
+  "grammar": null,
+  "example": {
+    "target": "Er ist wohl schon zu Hause.",
+    "en": "He's probably already home."
+  },
+  "regional": null,
+  "trick": "WOHL sounds like \"vole\": if the garden has holes, there's probably a vole.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/wohl-probably.word.mp3",
+    "sentence": "/deck-de/audio/wohl-probably.sentence.mp3"
+  }
+}

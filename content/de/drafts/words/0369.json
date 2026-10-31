@@ -1,0 +1,15 @@
+{
+  "rank": 369,
+  "word": "Herz",
+  "cards": [
+    "herz-heart"
+  ],
+  "skip": null,
+  "sameAs": {
+    "herz-heart": "corazon-heart"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:46:11.165Z"
+}

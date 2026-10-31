@@ -1,0 +1,17 @@
+{
+  "id": "kampf-fight",
+  "rank": 464,
+  "word": "Kampf",
+  "draft": "763f834145e9b25c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "fight, battle, struggle (noun)",
+    "example": "The fight was over quickly."
+  },
+  "note": "The hint works: it rules out Streit (argument), and Kampf is still the natural answer over Schlacht, which is only for a military battle; the Spanish list has only the verbs luchar and pelear, so null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:17.662Z"
+}

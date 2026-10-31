@@ -1,0 +1,25 @@
+{
+  "id": "zeug-stuff",
+  "rank": 786,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Zeug",
+  "en": "stuff",
+  "hint": "informal, one singular word, not Sachen",
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": null
+  },
+  "example": {
+    "target": "Räum bitte dein Zeug auf!",
+    "en": "Please tidy up your stuff!"
+  },
+  "regional": null,
+  "trick": "ZEUG sounds like \"tsoyk\", close to \"toys\": the toys lying around everywhere are just stuff.",
+  "image": "/deck-de/img/zeug-stuff.webp",
+  "audio": {
+    "word": "/deck-de/audio/zeug-stuff.word.mp3",
+    "sentence": "/deck-de/audio/zeug-stuff.sentence.mp3"
+  }
+}

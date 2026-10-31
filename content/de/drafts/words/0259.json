@@ -1,0 +1,15 @@
+{
+  "rank": 259,
+  "word": "genug",
+  "cards": [
+    "genug-enough"
+  ],
+  "skip": null,
+  "sameAs": {
+    "genug-enough": "suficiente-enough"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:15.858Z"
+}

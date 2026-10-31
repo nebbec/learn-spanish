@@ -1,0 +1,14 @@
+{
+  "id": "nacht-night",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "8fc9bd26665eea4d",
+  "group": "#194 Nacht",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:25.189Z"
+}

@@ -1,0 +1,14 @@
+{
+  "rank": 475,
+  "word": "dies",
+  "cards": [],
+  "skip": {
+    "reason": "covered-elsewhere",
+    "note": "dies is the short neuter form of dieser (this), which has its own card; in everyday speech this is usually said with das (Das ist mein Haus)."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:41.456Z"
+}

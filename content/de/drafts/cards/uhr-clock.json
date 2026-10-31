@@ -1,0 +1,25 @@
+{
+  "id": "uhr-clock",
+  "rank": 314,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Uhr",
+  "en": "clock, watch",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Uhren"
+  },
+  "example": {
+    "target": "Meine Uhr ist kaputt.",
+    "en": "My watch is broken."
+  },
+  "regional": null,
+  "trick": "UHR sounds a lot like hour: a clock or watch tells you the hour.",
+  "image": "/deck-de/img/uhr-clock.webp",
+  "audio": {
+    "word": "/deck-de/audio/uhr-clock.word.mp3",
+    "sentence": "/deck-de/audio/uhr-clock.sentence.mp3"
+  }
+}

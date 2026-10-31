@@ -1,0 +1,14 @@
+{
+  "rank": 111,
+  "word": "hey",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "hey is an interjection that is the same in English"
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:28:58.909Z"
+}

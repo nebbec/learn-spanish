@@ -1,0 +1,14 @@
+{
+  "id": "verstecken-hide",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c2ec9cb159bf8e67",
+  "group": "#678 verstecken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:42:17.827Z"
+}

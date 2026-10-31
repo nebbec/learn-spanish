@@ -1,0 +1,21 @@
+{
+  "id": "seit-for",
+  "rank": 218,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "seit",
+  "en": "I've lived here [for] two years",
+  "hint": "a time that is still going on",
+  "grammar": null,
+  "example": {
+    "target": "Ich wohne seit zwei Jahren hier.",
+    "en": "I've lived here for two years."
+  },
+  "regional": null,
+  "trick": "SEIT sounds like \"sight\" with a z: no end in sight, it's been going on for years.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/seit-for.word.mp3",
+    "sentence": "/deck-de/audio/seit-for.sentence.mp3"
+  }
+}

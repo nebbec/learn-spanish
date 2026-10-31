@@ -1,0 +1,25 @@
+{
+  "id": "meinung-opinion",
+  "rank": 700,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Meinung",
+  "en": "opinion",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Meinungen"
+  },
+  "example": {
+    "target": "Was ist deine Meinung dazu?",
+    "en": "What's your opinion on that?"
+  },
+  "regional": null,
+  "trick": "MEINUNG starts like MINE (MY-noong): your opinion is what's on your mind, it's yours alone.",
+  "image": "/deck-de/img/meinung-opinion.webp",
+  "audio": {
+    "word": "/deck-de/audio/meinung-opinion.word.mp3",
+    "sentence": "/deck-de/audio/meinung-opinion.sentence.mp3"
+  }
+}

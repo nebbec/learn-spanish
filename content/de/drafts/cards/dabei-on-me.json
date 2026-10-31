@@ -1,0 +1,21 @@
+{
+  "id": "dabei-on-me",
+  "rank": 272,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "dabei",
+  "en": "Do you have your phone [on you]?",
+  "hint": "one word, having it with you",
+  "grammar": null,
+  "example": {
+    "target": "Ich habe kein Geld dabei.",
+    "en": "I don't have any money on me."
+  },
+  "regional": null,
+  "trick": "DABEI sounds like \"dah-BY\": the thing is right there by you, so you have it on you.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dabei-on-me.word.mp3",
+    "sentence": "/deck-de/audio/dabei-on-me.sentence.mp3"
+  }
+}

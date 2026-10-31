@@ -1,0 +1,33 @@
+{
+  "id": "aussehen-look",
+  "rank": 486,
+  "kind": "content",
+  "pos": "verb",
+  "target": "aussehen",
+  "en": "to look",
+  "hint": "appearance, as in to look tired",
+  "grammar": {
+    "present": {
+      "ich": "sehe aus",
+      "du": "siehst aus",
+      "er": "sieht aus"
+    },
+    "irregular": true,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "ausgesehen"
+    }
+  },
+  "example": {
+    "target": "Du siehst heute echt müde aus.",
+    "en": "You look really tired today."
+  },
+  "regional": null,
+  "trick": "AUS-SEHEN is aus (out, said like OWSS) plus sehen (to see, said ZAY-en): what others see from the outside is how you look.",
+  "image": "/deck-de/img/aussehen-look.webp",
+  "audio": {
+    "word": "/deck-de/audio/aussehen-look.word.mp3",
+    "sentence": "/deck-de/audio/aussehen-look.sentence.mp3"
+  }
+}

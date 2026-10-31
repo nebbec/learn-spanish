@@ -1,0 +1,25 @@
+{
+  "id": "strasse-street",
+  "rank": 510,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Straße",
+  "en": "street",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Straßen"
+  },
+  "example": {
+    "target": "Ich wohne in dieser Straße.",
+    "en": "I live on this street."
+  },
+  "regional": null,
+  "trick": "STRASSE, said \"SHTRAH-suh\", and English \"street\" both come from the Latin word for a paved road, strata.",
+  "image": "/deck-de/img/strasse-street.webp",
+  "audio": {
+    "word": "/deck-de/audio/strasse-street.word.mp3",
+    "sentence": "/deck-de/audio/strasse-street.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "licht-light",
+  "rank": 572,
+  "word": "Licht",
+  "draft": "68b948eb003850d7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "light (the noun: brightness, or a lamp that is switched on)",
+    "example": "Please switch off the light."
+  },
+  "note": "The hint is needed: without \"the noun\", the learner could answer leicht (light in weight) or hell (light, not dark).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:03.223Z"
+}

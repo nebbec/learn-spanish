@@ -1,0 +1,33 @@
+{
+  "id": "rollen-roll",
+  "rank": 691,
+  "kind": "content",
+  "pos": "verb",
+  "target": "rollen",
+  "en": "to roll",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "rolle",
+      "du": "rollst",
+      "er": "rollt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gerollt"
+    }
+  },
+  "example": {
+    "target": "Der Ball rollt unter das Sofa.",
+    "en": "The ball rolls under the sofa."
+  },
+  "regional": null,
+  "trick": "ROLLEN sounds almost like rolling, and rolling is just what a ball does.",
+  "image": "/deck-de/img/rollen-roll.webp",
+  "audio": {
+    "word": "/deck-de/audio/rollen-roll.word.mp3",
+    "sentence": "/deck-de/audio/rollen-roll.sentence.mp3"
+  }
+}

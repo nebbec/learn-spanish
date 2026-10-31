@@ -1,0 +1,17 @@
+{
+  "id": "waehlen-choose",
+  "rank": 790,
+  "word": "wählen",
+  "draft": "d8f1629dcff8a05d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to choose, to select (also to vote, to dial)",
+    "example": "You can choose a color."
+  },
+  "note": "The hint is needed and works: it rules out aussuchen, auswählen and sich entscheiden. In everyday speech, though, aussuchen is the more common word for picking something like a color.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:27:09.805Z"
+}

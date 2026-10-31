@@ -1,0 +1,33 @@
+{
+  "id": "schuetzen-protect",
+  "rank": 723,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schützen",
+  "en": "to protect",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "schütze",
+      "du": "schützt",
+      "er": "schützt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschützt"
+    }
+  },
+  "example": {
+    "target": "Die Jacke schützt dich vor dem Regen.",
+    "en": "The jacket protects you from the rain."
+  },
+  "regional": null,
+  "trick": "SCHÜTZEN sounds like \"shoot-sen\": a guard who shoots is there to protect you.",
+  "image": "/deck-de/img/schuetzen-protect.webp",
+  "audio": {
+    "word": "/deck-de/audio/schuetzen-protect.word.mp3",
+    "sentence": "/deck-de/audio/schuetzen-protect.sentence.mp3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "erste-first",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use erste before a noun (mein erster Tag); for doing something first, use erst or zuerst.",
+  "draft": "e84d0c66a3d17af6",
+  "group": "#219 erste",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:20.427Z"
+}

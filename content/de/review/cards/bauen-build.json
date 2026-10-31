@@ -1,0 +1,17 @@
+{
+  "id": "bauen-build",
+  "rank": 537,
+  "word": "bauen",
+  "draft": "713f9903141e8655",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to build",
+    "example": "My father is building a garage."
+  },
+  "note": "Vater is literally father rather than dad (Papa), but \"dad\" is an acceptable loose translation; also, a bowerbird's bower is a display structure built to attract a mate rather than a shelter for itself, which the editor may want to reword.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:06.749Z"
+}

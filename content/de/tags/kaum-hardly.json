@@ -1,0 +1,14 @@
+{
+  "id": "kaum-hardly",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "25fbd6b630d620b9",
+  "group": "#491 kaum",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:38.532Z"
+}

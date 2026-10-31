@@ -1,0 +1,17 @@
+{
+  "rank": 317,
+  "word": "Typ",
+  "cards": [
+    "typ-guy",
+    "typ-type"
+  ],
+  "skip": null,
+  "sameAs": {
+    "typ-guy": "tipo-guy",
+    "typ-type": "tipo-type"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:43:08.305Z"
+}

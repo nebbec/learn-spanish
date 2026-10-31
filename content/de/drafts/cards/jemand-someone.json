@@ -1,0 +1,21 @@
+{
+  "id": "jemand-someone",
+  "rank": 132,
+  "kind": "glue",
+  "pos": "pronoun",
+  "target": "jemand",
+  "en": "[someone] is at the door",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Jemand hat für dich angerufen.",
+    "en": "Someone called for you."
+  },
+  "regional": null,
+  "trick": "JEMAND sounds like \"yay, man!\": you shout it when someone finally shows up.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/jemand-someone.word.mp3",
+    "sentence": "/deck-de/audio/jemand-someone.sentence.mp3"
+  }
+}

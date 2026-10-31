@@ -1,0 +1,17 @@
+{
+  "id": "krieg-war",
+  "rank": 419,
+  "word": "Krieg",
+  "draft": "b96860c20fb4d8ea",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "war",
+    "example": "My grandpa never spoke about the war."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:59.106Z"
+}

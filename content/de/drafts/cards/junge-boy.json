@@ -1,0 +1,28 @@
+{
+  "id": "junge-boy",
+  "rank": 206,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Junge",
+  "en": "boy",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Jungen"
+  },
+  "example": {
+    "target": "Der Junge spielt im Garten Fußball.",
+    "en": "The boy is playing football in the garden."
+  },
+  "regional": {
+    "where": "Austria",
+    "text": "der Bub"
+  },
+  "trick": "JUNGE sounds like YOUNG-uh: a young one in the family is the boy.",
+  "image": "/deck-de/img/junge-boy.webp",
+  "audio": {
+    "word": "/deck-de/audio/junge-boy.word.mp3",
+    "sentence": "/deck-de/audio/junge-boy.sentence.mp3"
+  }
+}

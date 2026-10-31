@@ -1,0 +1,14 @@
+{
+  "id": "weg-way-path",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Der Weg (capital W, long e) is the way or path; lowercase weg means away or gone.",
+  "draft": "7735fee309645add",
+  "group": "#115 weg",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:59.386Z"
+}

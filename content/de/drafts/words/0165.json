@@ -1,0 +1,15 @@
+{
+  "rank": 165,
+  "word": "neu",
+  "cards": [
+    "neu-new"
+  ],
+  "skip": null,
+  "sameAs": {
+    "neu-new": "nuevo-new"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:32:29.132Z"
+}

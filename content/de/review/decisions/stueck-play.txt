@@ -1,0 +1,33 @@
+# stueck-play · rank 552 · Stück
+#
+# Why it was flagged:
+#   - One right answer: For play in a theater, das Theaterstück is just as common and correct as das Stück, and the hint in a theater actually points learners to the compound. Suggested fix: hint: in a theater; the short word, not Theaterstück
+# Reviewer's note (not a reason to flag): The other card's hint (of cake, of bread) already separates the piece meaning from this one, so the two cards don't overlap.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             stueck-play
+kind:           content
+pos:            noun
+target:         das Stück
+en:             play
+hint:           in a theater; the short word, not Theaterstück
+gender:         n
+article:        das
+plural:         die Stücke
+example.target: Das Stück war echt langweilig.
+example.en:     The play was really boring.
+regional.where:
+regional.text:
+trick:          STÜCK sounds a bit like "stuck": the actor forgot his lines and got stuck in the middle of the play.
+
+# The draft this file was made from. Do not change it.
+draft: 8e4996f9ad81927d

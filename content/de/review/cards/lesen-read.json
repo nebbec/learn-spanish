@@ -1,0 +1,17 @@
+{
+  "id": "lesen-read",
+  "rank": 329,
+  "word": "lesen",
+  "draft": "7c58a8cd61a57f78",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to read",
+    "example": "What are you reading at the moment?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:23.278Z"
+}

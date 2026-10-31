@@ -1,0 +1,17 @@
+{
+  "id": "singen-sing",
+  "rank": 529,
+  "word": "singen",
+  "draft": "b187930e3c709c93",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to sing",
+    "example": "You sing really beautifully!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:23.431Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "polizei-police",
+  "rank": 351,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Polizei",
+  "en": "the police",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Ruf sofort die Polizei!",
+    "en": "Call the police right now!"
+  },
+  "regional": null,
+  "trick": "POLIZEI (po-lee-TSAI) sounds like police plus eye: the police keep an eye on you.",
+  "image": "/deck-de/img/polizei-police.webp",
+  "audio": {
+    "word": "/deck-de/audio/polizei-police.word.mp3",
+    "sentence": "/deck-de/audio/polizei-police.sentence.mp3"
+  }
+}

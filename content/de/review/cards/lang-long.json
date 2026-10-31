@@ -1,0 +1,17 @@
+{
+  "id": "lang-long",
+  "rank": 133,
+  "word": "lang",
+  "draft": "f829ae0db5ce0340",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "long",
+    "example": "The film is really long."
+  },
+  "note": "The hint \"in length\" usefully keeps this card apart from the adverb lange (for a long time), and a film's running length still fits it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:48.862Z"
+}

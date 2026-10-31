@@ -1,0 +1,17 @@
+{
+  "id": "recht-right-side",
+  "rank": 174,
+  "word": "recht",
+  "draft": "a3307af2cd302896",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "right (on the right-hand side, as in the right hand; used before a noun, rechte/rechter/rechtes)",
+    "example": "My right hand hurts."
+  },
+  "note": "The hint \"before a noun\" usefully separates this card from the adverb \"rechts\" on the other card, and learners should see that the adjective always takes an ending (rechte, rechter, rechtes).",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:35:14.337Z"
+}

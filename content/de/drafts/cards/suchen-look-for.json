@@ -1,0 +1,33 @@
+{
+  "id": "suchen-look-for",
+  "rank": 197,
+  "kind": "content",
+  "pos": "verb",
+  "target": "suchen",
+  "en": "to look for",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "suche",
+      "du": "suchst",
+      "er": "sucht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gesucht"
+    }
+  },
+  "example": {
+    "target": "Ich suche meinen Schlüssel.",
+    "en": "I'm looking for my key."
+  },
+  "regional": null,
+  "trick": "SUCHEN sounds like zoo-ken: picture Ken looking for his lost keys all over the zoo.",
+  "image": "/deck-de/img/suchen-look-for.webp",
+  "audio": {
+    "word": "/deck-de/audio/suchen-look-for.word.mp3",
+    "sentence": "/deck-de/audio/suchen-look-for.sentence.mp3"
+  }
+}

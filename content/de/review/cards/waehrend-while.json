@@ -1,0 +1,17 @@
+{
+  "id": "waehrend-while",
+  "rank": 434,
+  "word": "während",
+  "draft": "2742efe9a5f0c653",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "while (conjunction: during the time that)",
+    "example": "I'm cooking / I'll cook while you're sleeping."
+  },
+  "note": "The example shows well how während as a conjunction sends the verb to the end of its clause (du schläfst), which sets it apart from the preposition card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:46.527Z"
+}

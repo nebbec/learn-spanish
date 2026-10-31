@@ -1,0 +1,14 @@
+{
+  "id": "suess-cute",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1c69ddb87df8a631",
+  "group": "#418 süß",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:33:15.291Z"
+}

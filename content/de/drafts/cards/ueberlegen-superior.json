@@ -1,0 +1,21 @@
+{
+  "id": "ueberlegen-superior",
+  "rank": 754,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "überlegen",
+  "en": "superior",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Sie war ihm im Schach klar überlegen.",
+    "en": "She was clearly better than him at chess."
+  },
+  "regional": null,
+  "trick": "ÜBER means over, and LEGEN sounds like laying: whoever is laid over the others is superior.",
+  "image": "/deck-de/img/ueberlegen-superior.webp",
+  "audio": {
+    "word": "/deck-de/audio/ueberlegen-superior.word.mp3",
+    "sentence": "/deck-de/audio/ueberlegen-superior.sentence.mp3"
+  }
+}

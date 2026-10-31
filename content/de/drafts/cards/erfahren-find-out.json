@@ -1,0 +1,33 @@
+{
+  "id": "erfahren-find-out",
+  "rank": 494,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erfahren",
+  "en": "to find out",
+  "hint": "to hear about news",
+  "grammar": {
+    "present": {
+      "ich": "erfahre",
+      "du": "erfährst",
+      "er": "erfährt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erfahren"
+    }
+  },
+  "example": {
+    "target": "Wie hast du das erfahren?",
+    "en": "How did you find out about that?"
+  },
+  "regional": null,
+  "trick": "ERFAHREN sounds like \"air far-en\": news travels far through the air until you find it out.",
+  "image": "/deck-de/img/erfahren-find-out.webp",
+  "audio": {
+    "word": "/deck-de/audio/erfahren-find-out.word.mp3",
+    "sentence": "/deck-de/audio/erfahren-find-out.sentence.mp3"
+  }
+}

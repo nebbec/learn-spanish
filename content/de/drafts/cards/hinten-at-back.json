@@ -1,0 +1,21 @@
+{
+  "id": "hinten-at-back",
+  "rank": 726,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "hinten",
+  "en": "at the back",
+  "hint": "a place, not the direction back",
+  "grammar": null,
+  "example": {
+    "target": "Wir sitzen hinten im Bus.",
+    "en": "We're sitting at the back of the bus."
+  },
+  "regional": null,
+  "trick": "HINTEN sounds a bit like \"hidden\": things that are hidden are often kept at the back.",
+  "image": "/deck-de/img/hinten-at-back.webp",
+  "audio": {
+    "word": "/deck-de/audio/hinten-at-back.word.mp3",
+    "sentence": "/deck-de/audio/hinten-at-back.sentence.mp3"
+  }
+}

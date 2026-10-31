@@ -1,0 +1,25 @@
+{
+  "id": "frage-question",
+  "rank": 377,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Frage",
+  "en": "question",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Fragen"
+  },
+  "example": {
+    "target": "Ich habe eine Frage an dich.",
+    "en": "I have a question for you."
+  },
+  "regional": null,
+  "trick": "FRAGE sounds like \"FRAH-guh\", a bit like \"fog\": a question is something you ask when you're in a fog.",
+  "image": "/deck-de/img/frage-question.webp",
+  "audio": {
+    "word": "/deck-de/audio/frage-question.word.mp3",
+    "sentence": "/deck-de/audio/frage-question.sentence.mp3"
+  }
+}

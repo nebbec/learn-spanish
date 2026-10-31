@@ -1,0 +1,21 @@
+{
+  "id": "waehrend-while",
+  "rank": 434,
+  "kind": "glue",
+  "pos": "conjunction",
+  "target": "während",
+  "en": "I'll cook [while] you sleep",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich koche, während du schläfst.",
+    "en": "I'll cook while you sleep."
+  },
+  "regional": null,
+  "trick": "WÄHREND sounds like \"where end\": while you wait, you wonder where the end is.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/waehrend-while.word.mp3",
+    "sentence": "/deck-de/audio/waehrend-while.sentence.mp3"
+  }
+}

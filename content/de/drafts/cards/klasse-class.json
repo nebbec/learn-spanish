@@ -1,0 +1,25 @@
+{
+  "id": "klasse-class",
+  "rank": 650,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Klasse",
+  "en": "class",
+  "hint": "a group of students at school",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Klassen"
+  },
+  "example": {
+    "target": "Wir sind in derselben Klasse.",
+    "en": "We're in the same class."
+  },
+  "regional": null,
+  "trick": "KLASSE sounds like class with an extra uh on the end, and it means a school class.",
+  "image": "/deck-de/img/klasse-class.webp",
+  "audio": {
+    "word": "/deck-de/audio/klasse-class.word.mp3",
+    "sentence": "/deck-de/audio/klasse-class.sentence.mp3"
+  }
+}

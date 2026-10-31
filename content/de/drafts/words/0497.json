@@ -1,0 +1,15 @@
+{
+  "rank": 497,
+  "word": "Arzt",
+  "cards": [
+    "arzt-doctor"
+  ],
+  "skip": null,
+  "sameAs": {
+    "arzt-doctor": "medico-doctor"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:12.464Z"
+}

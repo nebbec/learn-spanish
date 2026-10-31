@@ -1,0 +1,15 @@
+{
+  "rank": 555,
+  "word": "weinen",
+  "cards": [
+    "weinen-cry"
+  ],
+  "skip": null,
+  "sameAs": {
+    "weinen-cry": "llorar-cry"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:47.085Z"
+}

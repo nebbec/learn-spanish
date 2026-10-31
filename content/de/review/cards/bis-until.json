@@ -1,0 +1,17 @@
+{
+  "id": "bis-until",
+  "rank": 140,
+  "word": "bis",
+  "draft": "d17e4e153485113e",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "until, till (also: up to, as far as)",
+    "example": "I'm working until six today."
+  },
+  "note": "Bis can also mean \"as far as\" (bis Berlin) and shows up in bis gleich and bis morgen, which the editor could use in a later example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:32:24.801Z"
+}

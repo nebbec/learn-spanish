@@ -1,0 +1,37 @@
+# fassen-catch · rank 590 · fassen
+#
+# Why it was flagged:
+#   - One right answer: The hint doesn't single out fassen, because fangen, schnappen, erwischen and festnehmen are all common German words for catching a criminal, and fangen is the first one most people would give. Suggested fix: hint: a criminal, said of the police; not fangen, schnappen or festnehmen
+# Reviewer's note (not a reason to flag): The new hint must stay clearly different from the other card's hint, "to grasp" (to take in, believe), so the two meanings aren't confused.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 fassen-catch
+kind:               content
+pos:                verb
+target:             fassen
+en:                 to catch
+hint:               a criminal, said of the police; not fangen, schnappen or festnehmen
+ich:                fasse
+du:                 fasst
+er:                 fasst
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gefasst
+example.target:     Die Polizei hat den Dieb gestern gefasst.
+example.en:         The police caught the thief yesterday.
+regional.where:
+regional.text:
+trick:              FASSEN sounds like "fasten": the police fasten handcuffs on the thief they catch.
+
+# The draft this file was made from. Do not change it.
+draft: 75c9d406885d1ae8

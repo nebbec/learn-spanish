@@ -1,0 +1,25 @@
+{
+  "id": "zukunft-future",
+  "rank": 624,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Zukunft",
+  "en": "future",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Niemand weiß, was die Zukunft bringt.",
+    "en": "Nobody knows what the future will bring."
+  },
+  "regional": null,
+  "trick": "ZUKUNFT sounds like \"tsoo-koonft\", close to zukommen, \"to come toward\": the future is what is coming toward you.",
+  "image": "/deck-de/img/zukunft-future.webp",
+  "audio": {
+    "word": "/deck-de/audio/zukunft-future.word.mp3",
+    "sentence": "/deck-de/audio/zukunft-future.sentence.mp3"
+  }
+}

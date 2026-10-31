@@ -1,0 +1,33 @@
+{
+  "id": "aergern-annoy",
+  "rank": 648,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ärgern",
+  "en": "to annoy",
+  "hint": "make someone angry, not nerven",
+  "grammar": {
+    "present": {
+      "ich": "ärgere",
+      "du": "ärgerst",
+      "er": "ärgert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geärgert"
+    }
+  },
+  "example": {
+    "target": "Du ärgerst mich echt!",
+    "en": "You're really annoying me!"
+  },
+  "regional": null,
+  "trick": "ÄRGERN sounds a bit like argue-n: annoy people and they start to argue.",
+  "image": "/deck-de/img/aergern-annoy.webp",
+  "audio": {
+    "word": "/deck-de/audio/aergern-annoy.word.mp3",
+    "sentence": "/deck-de/audio/aergern-annoy.sentence.mp3"
+  }
+}

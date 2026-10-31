@@ -1,0 +1,17 @@
+{
+  "id": "nennen-call",
+  "rank": 292,
+  "word": "nennen",
+  "draft": "8e4d04b83020eeb6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to call, to name (give someone or something a name)",
+    "example": "Everyone calls me Tommi."
+  },
+  "note": "The hint correctly rules out anrufen (phone) and rufen (call out), and sameAs is rightly null: llamar-be-named is the reflexive \"to be named\" (German heißen), and llamar-call means to phone or call out.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:46:03.404Z"
+}

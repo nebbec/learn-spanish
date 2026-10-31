@@ -1,0 +1,16 @@
+{
+  "id": "zur-to-the",
+  "unit": null,
+  "want": null,
+  "requires": [
+    "zu-to"
+  ],
+  "tip": "tip-dative",
+  "why": "Use zur before die-words (zur Arbeit); zum before der and das words (zum Arzt).",
+  "draft": "3e48f28a51d112c6",
+  "group": "#160 zur",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:24:17.632Z"
+}

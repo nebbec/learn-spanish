@@ -1,0 +1,15 @@
+{
+  "rank": 681,
+  "word": "Sicherheit",
+  "cards": [
+    "sicherheit-safety"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sicherheit-safety": "seguridad-security"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:14.544Z"
+}

@@ -1,0 +1,37 @@
+# laufen-walk · rank 199 · laufen
+#
+# Why it was flagged:
+#   - Usage in Germany: In Austria, laufen usually means to run, and people say gehen for walking, so Austrian usage clearly differs for this meaning and regional should not be null. Suggested fix: regional: { where: "Austria", text: "gehen (laufen there usually means to run)" }
+# Reviewer's note (not a reason to flag): The hint "go on foot, not gehen" correctly separates this card from gehen and from zu Fuß gehen, and the word's "to run" card is told apart by its own prompt.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 laufen-walk
+kind:               content
+pos:                verb
+target:             laufen
+en:                 to walk
+hint:               go on foot, not gehen
+ich:                laufe
+du:                 läufst
+er:                 läuft
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gelaufen
+example.target:     Wir laufen nach Hause, es ist nicht weit.
+example.en:         We're walking home, it's not far.
+regional.where:     Austria
+regional.text:      gehen (laufen there usually means to run)
+trick:              LAUFEN (LOW-fen) sounds like loafin': loafing around town on foot means walking.
+
+# The draft this file was made from. Do not change it.
+draft: 2710a27f65cb8a44

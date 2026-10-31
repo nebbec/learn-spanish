@@ -1,0 +1,14 @@
+{
+  "id": "treten-step",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Stepping on or into something takes sein in the Perfekt: ich bin getreten; kicking takes haben.",
+  "draft": "aff175863fffb7a5",
+  "group": "#613 treten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:04.595Z"
+}

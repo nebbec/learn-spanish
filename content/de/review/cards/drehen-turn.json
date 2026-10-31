@@ -1,0 +1,17 @@
+{
+  "id": "drehen-turn",
+  "rank": 592,
+  "word": "drehen",
+  "draft": "24c62b8e60427b09",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to turn, to rotate (also to shoot a film)",
+    "example": "Turn the key to the left."
+  },
+  "note": "The hint \"rotate, twist\" is needed, because it rules out abbiegen (turning at a corner) and wenden/umdrehen (turning around); the Spanish cards vuelta-turn (a noun), cumplir-turn-age and convertir-turn-into all have other meanings, so null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:38.032Z"
+}

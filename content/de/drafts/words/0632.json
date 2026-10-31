@@ -1,0 +1,15 @@
+{
+  "rank": 632,
+  "word": "acht",
+  "cards": [
+    "acht-eight"
+  ],
+  "skip": null,
+  "sameAs": {
+    "acht-eight": "ocho-eight"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:02:50.913Z"
+}

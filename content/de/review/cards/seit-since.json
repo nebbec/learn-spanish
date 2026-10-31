@@ -1,0 +1,17 @@
+{
+  "id": "seit-since",
+  "rank": 218,
+  "word": "seit",
+  "draft": "9efd280617885c13",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "since (preposition of time, takes the dative; also 'for' with a period that is still going on)",
+    "example": "I've been waiting for your answer since Monday."
+  },
+  "note": "Before a noun, seit is the only natural answer here (seitdem is a conjunction or adverb), and the trick's voiced z is correct since seit is pronounced zait.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:14.519Z"
+}

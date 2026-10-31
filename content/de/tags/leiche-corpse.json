@@ -1,0 +1,14 @@
+{
+  "id": "leiche-corpse",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "75563417363e4e6e",
+  "group": "#608 Leiche",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:39:52.721Z"
+}

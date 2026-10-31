@@ -1,0 +1,25 @@
+{
+  "id": "sohn-son",
+  "rank": 273,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Sohn",
+  "en": "son",
+  "hint": null,
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Söhne"
+  },
+  "example": {
+    "target": "Mein Sohn ist sechs Jahre alt.",
+    "en": "My son is six years old."
+  },
+  "regional": null,
+  "trick": "SOHN sounds like zone and looks like son: your son is in the zone when he plays.",
+  "image": "/deck-de/img/sohn-son.webp",
+  "audio": {
+    "word": "/deck-de/audio/sohn-son.word.mp3",
+    "sentence": "/deck-de/audio/sohn-son.sentence.mp3"
+  }
+}

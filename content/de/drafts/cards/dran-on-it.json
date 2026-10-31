@@ -1,0 +1,21 @@
+{
+  "id": "dran-on-it",
+  "rank": 371,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "dran",
+  "en": "there's still ketchup [on it]",
+  "hint": "short for daran",
+  "grammar": null,
+  "example": {
+    "target": "Keine Sorge, ich bin schon dran.",
+    "en": "Don't worry, I'm already on it."
+  },
+  "regional": null,
+  "trick": "DRAN sounds like drawn on: something drawn on a page is stuck right on it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/dran-on-it.word.mp3",
+    "sentence": "/deck-de/audio/dran-on-it.sentence.mp3"
+  }
+}

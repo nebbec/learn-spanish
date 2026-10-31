@@ -1,0 +1,33 @@
+{
+  "id": "erinnern-remember",
+  "rank": 274,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich erinnern",
+  "en": "to remember",
+  "hint": "recall the past, reflexive",
+  "grammar": {
+    "present": {
+      "ich": "erinnere mich",
+      "du": "erinnerst dich",
+      "er": "erinnert sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erinnert"
+    }
+  },
+  "example": {
+    "target": "Erinnerst du dich an mich?",
+    "en": "Do you remember me?"
+  },
+  "regional": null,
+  "trick": "ERINNERN has inner in it: to remember, you look into your inner mind and find the past.",
+  "image": "/deck-de/img/erinnern-remember.webp",
+  "audio": {
+    "word": "/deck-de/audio/erinnern-remember.word.mp3",
+    "sentence": "/deck-de/audio/erinnern-remember.sentence.mp3"
+  }
+}

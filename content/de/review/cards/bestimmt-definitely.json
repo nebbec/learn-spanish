@@ -1,0 +1,17 @@
+{
+  "id": "bestimmt-definitely",
+  "rank": 532,
+  "word": "bestimmt",
+  "draft": "0a0355be342aa00a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "definitely, certainly, surely (adverb)",
+    "example": "You'll definitely manage it! (I'm sure you can do it!)"
+  },
+  "note": "The \"I bet, surely\" hint does its job of pointing to the confident-guess sense of bestimmt rather than definitiv or auf jeden Fall; the editor could add \"(not definitiv)\" if testers still give that.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:44.199Z"
+}

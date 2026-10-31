@@ -1,0 +1,17 @@
+{
+  "rank": 191,
+  "word": "selbst",
+  "cards": [
+    "selbst-self",
+    "selbst-even"
+  ],
+  "skip": null,
+  "sameAs": {
+    "selbst-self": null,
+    "selbst-even": "incluso-even"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:34:35.295Z"
+}

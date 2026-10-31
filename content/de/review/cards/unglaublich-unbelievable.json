@@ -1,0 +1,17 @@
+{
+  "id": "unglaublich-unbelievable",
+  "rank": 619,
+  "word": "unglaublich",
+  "draft": "8c94ca436e392595",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "unbelievable, incredible",
+    "example": "The film was unbelievably good."
+  },
+  "note": "The example uses unglaublich as an intensifying adverb (incredibly good), which is very common and fine, but a predicative example such as \"Das ist unglaublich!\" would show the plain adjective meaning more directly.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:10.019Z"
+}

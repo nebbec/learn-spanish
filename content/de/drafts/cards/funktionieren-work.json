@@ -1,0 +1,33 @@
+{
+  "id": "funktionieren-work",
+  "rank": 455,
+  "kind": "content",
+  "pos": "verb",
+  "target": "funktionieren",
+  "en": "to work",
+  "hint": "a machine, a plan",
+  "grammar": {
+    "present": {
+      "ich": "funktioniere",
+      "du": "funktionierst",
+      "er": "funktioniert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "funktioniert"
+    }
+  },
+  "example": {
+    "target": "Mein Handy funktioniert nicht.",
+    "en": "My phone isn't working."
+  },
+  "regional": null,
+  "trick": "FUNKTIONIEREN sounds like \"function\": when something functions, it works.",
+  "image": "/deck-de/img/funktionieren-work.webp",
+  "audio": {
+    "word": "/deck-de/audio/funktionieren-work.word.mp3",
+    "sentence": "/deck-de/audio/funktionieren-work.sentence.mp3"
+  }
+}

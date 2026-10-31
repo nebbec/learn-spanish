@@ -1,0 +1,15 @@
+{
+  "rank": 561,
+  "word": "völlig",
+  "cards": [
+    "voellig-completely"
+  ],
+  "skip": null,
+  "sameAs": {
+    "voellig-completely": "completamente-completely"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:58:11.853Z"
+}

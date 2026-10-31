@@ -1,0 +1,33 @@
+{
+  "id": "handeln-act",
+  "rank": 701,
+  "kind": "content",
+  "pos": "verb",
+  "target": "handeln",
+  "en": "to act",
+  "hint": "take action, not on stage",
+  "grammar": {
+    "present": {
+      "ich": "handle",
+      "du": "handelst",
+      "er": "handelt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehandelt"
+    }
+  },
+  "example": {
+    "target": "Wir müssen jetzt schnell handeln.",
+    "en": "We have to act fast now."
+  },
+  "regional": null,
+  "trick": "HANDELN sounds like handle: when trouble comes, you act and handle it.",
+  "image": "/deck-de/img/handeln-act.webp",
+  "audio": {
+    "word": "/deck-de/audio/handeln-act.word.mp3",
+    "sentence": "/deck-de/audio/handeln-act.sentence.mp3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 558,
+  "word": "trotzdem",
+  "cards": [
+    "trotzdem-anyway"
+  ],
+  "skip": null,
+  "sameAs": {
+    "trotzdem-anyway": "igual-anyway"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:57:59.579Z"
+}

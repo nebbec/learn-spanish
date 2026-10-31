@@ -1,0 +1,17 @@
+{
+  "id": "teil-part",
+  "rank": 463,
+  "word": "Teil",
+  "draft": "76e95d011a441a9c",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "part (a portion of a whole)",
+    "example": "That's the best part of the film."
+  },
+  "note": "\"Das Teil\" (neuter) also exists for a separate piece or component, or colloquially \"that thing\", but \"der Teil\" is the right gender for a part of a whole, as in the example.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:09.404Z"
+}

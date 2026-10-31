@@ -1,0 +1,15 @@
+{
+  "rank": 278,
+  "word": "bevor",
+  "cards": [
+    "bevor-before"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bevor-before": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:36.835Z"
+}

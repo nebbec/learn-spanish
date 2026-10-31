@@ -1,0 +1,14 @@
+{
+  "id": "verraten-give-away",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b31338f51f93225f",
+  "group": "#641 verraten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:02.302Z"
+}

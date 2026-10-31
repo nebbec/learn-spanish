@@ -1,0 +1,17 @@
+{
+  "id": "falsch-wrong",
+  "rank": 320,
+  "word": "falsch",
+  "draft": "1d4f993a627c51e2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "wrong, incorrect (also false, fake)",
+    "example": "That is the wrong number."
+  },
+  "note": "The hint \"not correct\" usefully rules out the moral sense of wrong (unrecht) and keeps this card apart from the fake/false card; the Spanish equivocado-wrong card is about a person being mistaken (German: sich irren, falschliegen), so null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:48:26.085Z"
+}

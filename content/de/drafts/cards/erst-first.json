@@ -1,0 +1,21 @@
+{
+  "id": "erst-first",
+  "rank": 255,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "erst",
+  "en": "I have to shower [first]",
+  "hint": "short word, not zuerst",
+  "grammar": null,
+  "example": {
+    "target": "Ich muss erst duschen.",
+    "en": "I have to shower first."
+  },
+  "regional": null,
+  "trick": "ERST sounds like first with the f dropped, and it means first.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/erst-first.word.mp3",
+    "sentence": "/deck-de/audio/erst-first.sentence.mp3"
+  }
+}

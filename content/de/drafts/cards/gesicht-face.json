@@ -1,0 +1,25 @@
+{
+  "id": "gesicht-face",
+  "rank": 429,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Gesicht",
+  "en": "face",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Gesichter"
+  },
+  "example": {
+    "target": "Wasch dir mal das Gesicht!",
+    "en": "Go wash your face!"
+  },
+  "regional": null,
+  "trick": "The end of geSICHT sounds a bit like sight: your face is the first sight people get of you.",
+  "image": "/deck-de/img/gesicht-face.webp",
+  "audio": {
+    "word": "/deck-de/audio/gesicht-face.word.mp3",
+    "sentence": "/deck-de/audio/gesicht-face.sentence.mp3"
+  }
+}

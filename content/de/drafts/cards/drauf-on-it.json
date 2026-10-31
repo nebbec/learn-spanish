@@ -1,0 +1,21 @@
+{
+  "id": "drauf-on-it",
+  "rank": 483,
+  "kind": "glue",
+  "pos": "adverb",
+  "target": "drauf",
+  "en": "there's the table, put the box [on it]",
+  "hint": "short spoken form",
+  "grammar": null,
+  "example": {
+    "target": "Da ist der Tisch, stell die Kiste drauf.",
+    "en": "There's the table, put the box on it."
+  },
+  "regional": null,
+  "trick": "DRAUF ends in AUF, said like \"owf\", the German word for on, so drauf means on it.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/drauf-on-it.word.mp3",
+    "sentence": "/deck-de/audio/drauf-on-it.sentence.mp3"
+  }
+}

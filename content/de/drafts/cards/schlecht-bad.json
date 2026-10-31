@@ -1,0 +1,21 @@
+{
+  "id": "schlecht-bad",
+  "rank": 286,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "schlecht",
+  "en": "bad",
+  "hint": "poor, not good (not schlimm)",
+  "grammar": null,
+  "example": {
+    "target": "Das Wetter ist heute echt schlecht.",
+    "en": "The weather is really bad today."
+  },
+  "regional": null,
+  "trick": "SCHLECHT sounds a bit like \"slacked\": work that somebody slacked on is bad work.",
+  "image": "/deck-de/img/schlecht-bad.webp",
+  "audio": {
+    "word": "/deck-de/audio/schlecht-bad.word.mp3",
+    "sentence": "/deck-de/audio/schlecht-bad.sentence.mp3"
+  }
+}

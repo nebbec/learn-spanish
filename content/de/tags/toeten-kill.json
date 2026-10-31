@@ -1,0 +1,14 @@
+{
+  "id": "toeten-kill",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Töten is the standard, neutral word for kill; umbringen is the more everyday spoken one.",
+  "draft": "1f8cc3c656a0de7a",
+  "group": "#182 töten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:01.221Z"
+}

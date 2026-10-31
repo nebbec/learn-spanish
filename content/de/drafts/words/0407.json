@@ -1,0 +1,15 @@
+{
+  "rank": 407,
+  "word": "heiraten",
+  "cards": [
+    "heiraten-marry"
+  ],
+  "skip": null,
+  "sameAs": {
+    "heiraten-marry": "casar-marry"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:39.035Z"
+}

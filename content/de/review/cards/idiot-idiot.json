@@ -1,0 +1,17 @@
+{
+  "id": "idiot-idiot",
+  "rank": 708,
+  "word": "Idiot",
+  "draft": "dea0eee9ae7dca07",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "idiot (a stupid person)",
+    "example": "You're such an idiot!"
+  },
+  "note": "Idiot is a weak noun (den/dem/des Idioten), which the grammar fields have no place for, and Trottel and Depp are common near-synonyms, but for the prompt \"idiot\" the expected answer is clearly Idiot.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:53.374Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "so-so-very",
+  "rank": 29,
+  "word": "so",
+  "draft": "a76b2011381ef777",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "so (to such a degree, as in so cold)",
+    "example": "You are so funny!"
+  },
+  "note": "The bracketed English \"so\" in the prompt points clearly to the intensifier so and not to sehr, and this card's degree meaning stays separate from the word's other card for \"like this\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:23:21.597Z"
+}

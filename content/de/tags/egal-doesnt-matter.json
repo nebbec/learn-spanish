@@ -1,0 +1,14 @@
+{
+  "id": "egal-doesnt-matter",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "91f06646a0640687",
+  "group": "#308 egal",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:28.801Z"
+}

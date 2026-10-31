@@ -1,0 +1,33 @@
+{
+  "id": "fassen-grasp",
+  "rank": 590,
+  "kind": "content",
+  "pos": "verb",
+  "target": "fassen",
+  "en": "to grasp",
+  "hint": "to take in, believe; as in I can't believe it",
+  "grammar": {
+    "present": {
+      "ich": "fasse",
+      "du": "fasst",
+      "er": "fasst"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gefasst"
+    }
+  },
+  "example": {
+    "target": "Ich kann es echt nicht fassen!",
+    "en": "I really can't believe it!"
+  },
+  "regional": null,
+  "trick": "FASSEN sounds like \"fasten\": your mind can't fasten onto news too wild to grasp.",
+  "image": "/deck-de/img/fassen-grasp.webp",
+  "audio": {
+    "word": "/deck-de/audio/fassen-grasp.word.mp3",
+    "sentence": "/deck-de/audio/fassen-grasp.sentence.mp3"
+  }
+}

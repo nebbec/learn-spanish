@@ -1,0 +1,17 @@
+{
+  "id": "sohn-son",
+  "rank": 273,
+  "word": "Sohn",
+  "draft": "80b97497e3ba8cfd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "son",
+    "example": "My son is six years old."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:17.341Z"
+}

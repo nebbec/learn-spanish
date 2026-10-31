@@ -1,0 +1,14 @@
+{
+  "id": "erinnern-remember",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use sich erinnern to remember something yourself; erinnern without sich means to remind someone.",
+  "draft": "c4b275c6382365be",
+  "group": "#274 erinnern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:28:20.277Z"
+}

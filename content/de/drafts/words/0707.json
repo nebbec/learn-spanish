@@ -1,0 +1,15 @@
+{
+  "rank": 707,
+  "word": "verbringen",
+  "cards": [
+    "verbringen-spend-time"
+  ],
+  "skip": null,
+  "sameAs": {
+    "verbringen-spend-time": "pasar-spend-time"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:08:02.436Z"
+}

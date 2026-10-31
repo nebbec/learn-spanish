@@ -1,0 +1,17 @@
+{
+  "rank": 288,
+  "word": "beim",
+  "cards": [
+    "beim-at-the",
+    "beim-while"
+  ],
+  "skip": null,
+  "sameAs": {
+    "beim-at-the": null,
+    "beim-while": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:41:16.239Z"
+}

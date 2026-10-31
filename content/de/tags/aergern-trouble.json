@@ -1,0 +1,14 @@
+{
+  "id": "aergern-trouble",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1137f87a52d7476c",
+  "group": "#648 ärgern",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:19.933Z"
+}

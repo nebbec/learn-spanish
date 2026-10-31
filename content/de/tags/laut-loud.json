@@ -1,0 +1,14 @@
+{
+  "id": "laut-loud",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "803f205c725112da",
+  "group": "#465 laut",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:34:47.899Z"
+}

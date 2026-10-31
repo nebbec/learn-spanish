@@ -1,0 +1,17 @@
+{
+  "id": "drueben-over-there",
+  "rank": 630,
+  "word": "drüben",
+  "draft": "b91e0d3dcfd37186",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "over there, on the other side (across from the speaker)",
+    "example": "Your phone is over there on the table."
+  },
+  "note": "In everyday speech drüben usually comes as \"da drüben\", and the example sentence already shows that form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:14:05.818Z"
+}

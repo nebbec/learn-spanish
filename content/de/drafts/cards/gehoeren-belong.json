@@ -1,0 +1,33 @@
+{
+  "id": "gehoeren-belong",
+  "rank": 485,
+  "kind": "content",
+  "pos": "verb",
+  "target": "gehören",
+  "en": "to belong",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "gehöre",
+      "du": "gehörst",
+      "er": "gehört"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehört"
+    }
+  },
+  "example": {
+    "target": "Wem gehört das Handy hier?",
+    "en": "Who does this phone belong to?"
+  },
+  "regional": null,
+  "trick": "geHÖRen sounds a bit like guh-HER-en: whose bag is this? It belongs to HER.",
+  "image": "/deck-de/img/gehoeren-belong.webp",
+  "audio": {
+    "word": "/deck-de/audio/gehoeren-belong.word.mp3",
+    "sentence": "/deck-de/audio/gehoeren-belong.sentence.mp3"
+  }
+}

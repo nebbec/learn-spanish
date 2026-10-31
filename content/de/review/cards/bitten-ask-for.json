@@ -1,0 +1,17 @@
+{
+  "id": "bitten-ask-for",
+  "rank": 410,
+  "word": "bitten",
+  "draft": "8051b2c32cd23822",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to ask (for), to request (um etwas bitten)",
+    "example": "I'm asking you for a favor."
+  },
+  "note": "The hint is needed, because it rules out fragen. The Spanish card pedir also means ordering food, which bitten does not, but the main meaning, asking for something, is the same, so the picture can be shared.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:55:46.370Z"
+}

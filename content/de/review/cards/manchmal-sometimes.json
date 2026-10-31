@@ -1,0 +1,17 @@
+{
+  "id": "manchmal-sometimes",
+  "rank": 431,
+  "word": "manchmal",
+  "draft": "a3a3953bb16e5a45",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "sometimes",
+    "example": "Sometimes I'm just tired."
+  },
+  "note": "The prompt doesn't need a hint: ab und zu and gelegentlich mean \"now and then\" and \"occasionally\", so manchmal is the only natural answer for \"sometimes\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:57:28.672Z"
+}

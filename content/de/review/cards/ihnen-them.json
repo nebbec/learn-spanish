@@ -1,0 +1,17 @@
+{
+  "id": "ihnen-them",
+  "rank": 78,
+  "word": "ihnen",
+  "draft": "0e42c7d45094ff04",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "them, to them (dative of sie, plural)",
+    "example": "I'm helping them with the move tomorrow."
+  },
+  "note": "Helfen already takes the dative, so the hint's \"dative\" isn't strictly needed, but it does help a beginner avoid \"sie\"; the casual spoken \"denen\" is a colloquial alternative and not the standard answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:19.454Z"
+}

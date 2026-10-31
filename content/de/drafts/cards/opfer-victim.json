@@ -1,0 +1,25 @@
+{
+  "id": "opfer-victim",
+  "rank": 547,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Opfer",
+  "en": "victim",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Opfer"
+  },
+  "example": {
+    "target": "Das Opfer kannte den Täter.",
+    "en": "The victim knew the attacker."
+  },
+  "regional": null,
+  "trick": "OPFER sounds like \"offer\": the victim was offered up to the villain.",
+  "image": "/deck-de/img/opfer-victim.webp",
+  "audio": {
+    "word": "/deck-de/audio/opfer-victim.word.mp3",
+    "sentence": "/deck-de/audio/opfer-victim.sentence.mp3"
+  }
+}

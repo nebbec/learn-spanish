@@ -1,0 +1,33 @@
+{
+  "id": "zahlen-pay",
+  "rank": 625,
+  "kind": "content",
+  "pos": "verb",
+  "target": "zahlen",
+  "en": "to pay",
+  "hint": "the short word, not bezahlen",
+  "grammar": {
+    "present": {
+      "ich": "zahle",
+      "du": "zahlst",
+      "er": "zahlt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezahlt"
+    }
+  },
+  "example": {
+    "target": "Heute zahle ich, okay?",
+    "en": "I'm paying today, okay?"
+  },
+  "regional": null,
+  "trick": "ZAHLEN (TSAH-len) sounds a bit like tally: you tally up the bill, then you pay.",
+  "image": "/deck-de/img/zahlen-pay.webp",
+  "audio": {
+    "word": "/deck-de/audio/zahlen-pay.word.mp3",
+    "sentence": "/deck-de/audio/zahlen-pay.sentence.mp3"
+  }
+}

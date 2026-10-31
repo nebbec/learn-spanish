@@ -1,0 +1,25 @@
+{
+  "id": "mensch-human",
+  "rank": 181,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Mensch",
+  "en": "human being",
+  "hint": "person, not die Person",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Menschen"
+  },
+  "example": {
+    "target": "Er ist ein guter Mensch.",
+    "en": "He's a good person."
+  },
+  "regional": null,
+  "trick": "MENSCH sounds like the English word mensch, borrowed from Yiddish: a mensch is a good human being.",
+  "image": "/deck-de/img/mensch-human.webp",
+  "audio": {
+    "word": "/deck-de/audio/mensch-human.word.mp3",
+    "sentence": "/deck-de/audio/mensch-human.sentence.mp3"
+  }
+}

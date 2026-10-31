@@ -1,0 +1,14 @@
+{
+  "id": "nummer-number",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "74dad582c0b709a8",
+  "group": "#479 Nummer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:35:12.266Z"
+}

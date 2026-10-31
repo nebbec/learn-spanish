@@ -1,0 +1,17 @@
+{
+  "id": "vor-in-front",
+  "rank": 91,
+  "word": "vor",
+  "draft": "2cb5dff78ce71125",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "in front of, before; ago (preposition)",
+    "example": "I'm waiting for you in front of the cinema."
+  },
+  "note": "In speech, vor dem Kino is often shortened to vorm Kino, so a learner who recalls vorm has really got the right word.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:28:13.986Z"
+}

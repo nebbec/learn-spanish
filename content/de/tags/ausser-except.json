@@ -1,0 +1,14 @@
+{
+  "id": "ausser-except",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f003bcc02aabd12e",
+  "group": "#503 außer",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:06.811Z"
+}

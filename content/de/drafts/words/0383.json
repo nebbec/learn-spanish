@@ -1,0 +1,15 @@
+{
+  "rank": 383,
+  "word": "Teufel",
+  "cards": [
+    "teufel-devil"
+  ],
+  "skip": null,
+  "sameAs": {
+    "teufel-devil": "diablo-devil"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:47:14.631Z"
+}

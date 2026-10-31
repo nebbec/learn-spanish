@@ -1,0 +1,14 @@
+{
+  "id": "eben-just-now",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use eben for something that happened a moment ago; gerade for something happening right now.",
+  "draft": "b0d46a7be32590d9",
+  "group": "#411 eben",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:54.774Z"
+}

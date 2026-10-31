@@ -1,0 +1,14 @@
+{
+  "id": "ueberzeugen-convince",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "40a81d9234e5e3e0",
+  "group": "#798 überzeugen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:20.038Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "also-so",
+  "rank": 85,
+  "word": "also",
+  "draft": "83f47051596273c9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "so, well (to draw a conclusion, sum up or move on); therefore",
+    "example": "So, what are we doing now?"
+  },
+  "note": "The hint says \"not so\", which is meant to rule out German so, but since the English prompt word is also \"so\", it could be reworded to \"to sum up or draw a conclusion, not German so\"; the Spanish card entonces-so means the same thing, but sameAs is correctly null because this is a glue card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:27:52.878Z"
+}

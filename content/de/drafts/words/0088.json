@@ -1,0 +1,17 @@
+{
+  "rank": 88,
+  "word": "ganz",
+  "cards": [
+    "ganz-whole",
+    "ganz-completely"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ganz-whole": null,
+    "ganz-completely": "completamente-completely"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:27:54.540Z"
+}

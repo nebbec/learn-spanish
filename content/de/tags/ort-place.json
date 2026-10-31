@@ -1,0 +1,14 @@
+{
+  "id": "ort-place",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Ort for a location or village; Platz for a seat, free space or town square.",
+  "draft": "1bd07de2459b9a30",
+  "group": "#393 Ort",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:22.313Z"
+}

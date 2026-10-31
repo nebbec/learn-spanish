@@ -1,0 +1,37 @@
+# schuetzen-protect · rank 723 · schützen
+#
+# Why it was flagged:
+#   - One right answer: With no hint, beschützen (to protect, guard someone, very common in films: Ich beschütze dich) is an equally right answer to to protect. Suggested fix: hint: the general word, also used for things like a jacket keeping off rain; not beschützen
+# Reviewer's note (not a reason to flag): The trick works nicely because der Schütze really does mean marksman, and it comes from the same word family.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 schuetzen-protect
+kind:               content
+pos:                verb
+target:             schützen
+en:                 to protect
+hint:               the general word, also used for things like a jacket keeping off rain; not beschützen
+ich:                schütze
+du:                 schützt
+er:                 schützt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geschützt
+example.target:     Die Jacke schützt dich vor dem Regen.
+example.en:         The jacket protects you from the rain.
+regional.where:
+regional.text:
+trick:              SCHÜTZEN sounds like "shoot-sen": a guard who shoots is there to protect you.
+
+# The draft this file was made from. Do not change it.
+draft: 7995557e1a96e258

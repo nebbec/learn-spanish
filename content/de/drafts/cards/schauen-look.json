@@ -1,0 +1,33 @@
+{
+  "id": "schauen-look",
+  "rank": 258,
+  "kind": "content",
+  "pos": "verb",
+  "target": "schauen",
+  "en": "to look",
+  "hint": "not gucken",
+  "grammar": {
+    "present": {
+      "ich": "schaue",
+      "du": "schaust",
+      "er": "schaut"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "geschaut"
+    }
+  },
+  "example": {
+    "target": "Ich schaue aus dem Fenster.",
+    "en": "I'm looking out the window."
+  },
+  "regional": null,
+  "trick": "SCHAUEN sounds like \"SHOW-en\": when someone shows you something, you look.",
+  "image": "/deck-de/img/schauen-look.webp",
+  "audio": {
+    "word": "/deck-de/audio/schauen-look.word.mp3",
+    "sentence": "/deck-de/audio/schauen-look.sentence.mp3"
+  }
+}

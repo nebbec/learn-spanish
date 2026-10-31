@@ -1,0 +1,14 @@
+{
+  "id": "wovon-what-of",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ddd885ae0030d613",
+  "group": "#654 wovon",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:30.902Z"
+}

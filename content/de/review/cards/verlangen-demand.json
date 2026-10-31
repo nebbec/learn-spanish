@@ -1,0 +1,17 @@
+{
+  "id": "verlangen-demand",
+  "rank": 703,
+  "word": "verlangen",
+  "draft": "dd0a42b1e9d44db8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to demand, to ask for (also to charge a price; verlangen nach = to long for)",
+    "example": "You're demanding too much of me."
+  },
+  "note": "The trick works well because verlangen nach really does mean to long for, and pedir-ask-for is not a match because it means to request, not to demand.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:20:39.586Z"
+}

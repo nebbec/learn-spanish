@@ -1,0 +1,14 @@
+{
+  "id": "herz-heart",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "797e09f24de0d8fc",
+  "group": "#369 Herz",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:24.089Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 399,
+  "word": "endlich",
+  "cards": [
+    "endlich-finally"
+  ],
+  "skip": null,
+  "sameAs": {
+    "endlich-finally": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:48:14.254Z"
+}

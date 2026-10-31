@@ -1,0 +1,17 @@
+{
+  "id": "jung-young",
+  "rank": 245,
+  "word": "jung",
+  "draft": "ad5deea6801a565a",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "young",
+    "example": "You're still so young!"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:41:24.481Z"
+}

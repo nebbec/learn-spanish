@@ -1,0 +1,38 @@
+# laufen-run · rank 199 · laufen
+#
+# Why it was flagged:
+#   - One right answer: The hint word 'jog' points straight at joggen, which is a common German verb and a fair answer to 'to run (jog)', so the prompt has two right answers. Suggested fix: hint: running at an easy pace or as exercise, not rennen (sprint)
+#   - Example sentence: 'Ich laufe jeden Morgen im Park' can just as easily mean 'I walk in the park every morning', which is this word's other card, so the sentence doesn't clearly show the 'run' meaning. Suggested fix: example.target: Ich laufe jeden Morgen fünf Kilometer. example.en: I run five kilometers every morning.
+# Reviewer's note (not a reason to flag): In Switzerland laufen mostly means to walk and people say rennen or (in dialect) springen for running, so the editor may want a regional note, but leaving it null is defensible.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 laufen-run
+kind:               content
+pos:                verb
+target:             laufen
+en:                 to run
+hint:               running at an easy pace or as exercise, not rennen (sprint)
+ich:                laufe
+du:                 läufst
+er:                 läuft
+irregular:          yes
+separable:          no
+perfekt.aux:        sein
+perfekt.participle: gelaufen
+example.target:     Ich laufe jeden Morgen fünf Kilometer.
+example.en:         I run five kilometers every morning.
+regional.where:
+regional.text:
+trick:              LAUF sounds a bit like lope (LOWF): to lope is to run with long, easy strides.
+
+# The draft this file was made from. Do not change it.
+draft: 738b4baaa791f4cf

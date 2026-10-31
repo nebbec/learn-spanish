@@ -1,0 +1,17 @@
+{
+  "id": "fangen-catch",
+  "rank": 344,
+  "word": "fangen",
+  "draft": "b2012a74cd8453be",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to catch (a ball, an animal, a thief)",
+    "example": "My dog catches every ball."
+  },
+  "note": "fangen is the standard answer for a bare \"to catch\", but the editor could add a hint such as \"a ball, an animal\" to rule out erwischen (to catch someone in the act, or catch a bus), which is common in subtitles.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:50:17.789Z"
+}

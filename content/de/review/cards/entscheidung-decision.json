@@ -1,0 +1,17 @@
+{
+  "id": "entscheidung-decision",
+  "rank": 781,
+  "word": "Entscheidung",
+  "draft": "be6ff519b997fc7b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "decision",
+    "example": "That is your decision."
+  },
+  "note": "Beschluss is a more formal word for a decision (a resolution), so it doesn't compete with Entscheidung for the plain prompt \"decision\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:26.701Z"
+}

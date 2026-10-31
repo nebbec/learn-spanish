@@ -1,0 +1,21 @@
+{
+  "id": "toll-great",
+  "rank": 242,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "toll",
+  "en": "great",
+  "hint": "awesome, cool",
+  "grammar": null,
+  "example": {
+    "target": "Das ist eine tolle Idee!",
+    "en": "That's a great idea!"
+  },
+  "regional": null,
+  "trick": "TOLL rhymes with British doll: getting a great new doll is awesome!",
+  "image": "/deck-de/img/toll-great.webp",
+  "audio": {
+    "word": "/deck-de/audio/toll-great.word.mp3",
+    "sentence": "/deck-de/audio/toll-great.sentence.mp3"
+  }
+}

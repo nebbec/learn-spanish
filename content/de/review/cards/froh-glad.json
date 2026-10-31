@@ -1,0 +1,17 @@
+{
+  "id": "froh-glad",
+  "rank": 511,
+  "word": "froh",
+  "draft": "d996864ede74f94b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "glad, happy (pleased about something)",
+    "example": "I'm glad that you're here."
+  },
+  "note": "The Spanish feliz-happy card is for happy in general, as in happy birthday, which German says with glücklich, so leaving sameAs null for glad is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:04:02.560Z"
+}

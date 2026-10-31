@@ -1,0 +1,21 @@
+{
+  "id": "bloss-bare",
+  "rank": 452,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "bloß",
+  "en": "bare, mere",
+  "hint": "as in with bare hands, not nackt",
+  "grammar": null,
+  "example": {
+    "target": "Er hat den Fisch mit bloßen Händen gefangen.",
+    "en": "He caught the fish with his bare hands."
+  },
+  "regional": null,
+  "trick": "BLOSS sounds like blows: the cold wind blows on your bare hands.",
+  "image": "/deck-de/img/bloss-bare.webp",
+  "audio": {
+    "word": "/deck-de/audio/bloss-bare.word.mp3",
+    "sentence": "/deck-de/audio/bloss-bare.sentence.mp3"
+  }
+}

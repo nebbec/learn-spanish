@@ -1,0 +1,17 @@
+{
+  "id": "zimmer-room",
+  "rank": 416,
+  "word": "Zimmer",
+  "draft": "dfc85866b7c78461",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "room (in a home or hotel)",
+    "example": "Your room is really nice."
+  },
+  "note": "The hint is needed, because it rules out Raum, the general word for a room or space.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:31.354Z"
+}

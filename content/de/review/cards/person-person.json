@@ -1,0 +1,17 @@
+{
+  "id": "person-person",
+  "rank": 582,
+  "word": "Person",
+  "draft": "5bfe6ad766a5ba4f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "person (an individual human being)",
+    "example": "We need a table for four people."
+  },
+  "note": "The hint is needed, since it rules out Mensch, and \"per person\" fits how Person is used.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:09:47.167Z"
+}

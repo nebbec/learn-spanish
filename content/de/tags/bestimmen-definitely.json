@@ -1,0 +1,14 @@
+{
+  "id": "bestimmen-definitely",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use bestimmt for a confident guess (surely, I bet); sicher when you are certain or something is safe.",
+  "draft": "1b53195fa0271704",
+  "group": "#620 bestimmen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:20.123Z"
+}

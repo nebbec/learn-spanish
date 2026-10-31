@@ -1,0 +1,14 @@
+{
+  "id": "davon-of-it",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "b29573e7f05f26f1",
+  "group": "#224 davon",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:34.906Z"
+}

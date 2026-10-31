@@ -1,0 +1,14 @@
+{
+  "rank": 70,
+  "word": "okay",
+  "cards": [],
+  "skip": {
+    "reason": "interjection",
+    "note": "German okay/ok is the same word as English okay, so there is nothing to learn."
+  },
+  "sameAs": {},
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:58.709Z"
+}

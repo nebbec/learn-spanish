@@ -1,0 +1,17 @@
+{
+  "id": "papa-dad",
+  "rank": 484,
+  "word": "Papa",
+  "draft": "6dba5933b5a9acaa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "dad, daddy (informal word for father)",
+    "example": "My dad is picking me up today."
+  },
+  "note": "In Switzerland Papi is very common, but Papa is used there too, so leaving regional null is defensible; Vati is dated and Papi is a pet form, so neither competes as the answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:52.200Z"
+}

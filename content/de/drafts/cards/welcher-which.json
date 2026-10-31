@@ -1,0 +1,21 @@
+{
+  "id": "welcher-which",
+  "rank": 238,
+  "kind": "glue",
+  "pos": "determiner",
+  "target": "welcher",
+  "en": "[Which] bus goes to the station?",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Welcher Bus fährt zum Bahnhof?",
+    "en": "Which bus goes to the station?"
+  },
+  "regional": null,
+  "trick": "WELCHER, said VEL-kher, is an old cousin of English which: both start with w and end in ch.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/welcher-which.word.mp3",
+    "sentence": "/deck-de/audio/welcher-which.sentence.mp3"
+  }
+}

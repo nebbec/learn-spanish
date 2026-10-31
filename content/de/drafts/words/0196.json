@@ -1,0 +1,17 @@
+{
+  "rank": 196,
+  "word": "her",
+  "cards": [
+    "her-here-toward",
+    "her-ago"
+  ],
+  "skip": null,
+  "sameAs": {
+    "her-here-toward": null,
+    "her-ago": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:35:03.261Z"
+}

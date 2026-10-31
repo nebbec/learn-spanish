@@ -1,0 +1,38 @@
+# verlassen-leave · rank 311 · verlassen
+#
+# Why it was flagged:
+#   - Same meaning as a Spanish card: dejar-leave means leaving something or someone behind and rules out going out, but verlassen covers walking out of a place, as in the example, while leaving an object behind is lassen, so the two meanings only partly overlap.
+# Reviewer's note (not a reason to flag): The hint is good: it separates verlassen from gehen and weggehen, and from the other card, sich verlassen auf.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# sameAs is not a card line: correct it in content/de/drafts/words/0311.json.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 verlassen-leave
+kind:               content
+pos:                verb
+target:             verlassen
+en:                 to leave
+hint:               a place or a person, not gehen
+ich:                verlasse
+du:                 verlässt
+er:                 verlässt
+irregular:          yes
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: verlassen
+example.target:     Er verlässt das Haus um acht.
+example.en:         He leaves the house at eight.
+regional.where:
+regional.text:
+trick:              VERLASSEN sounds like "fair lass, then...": the fair lass left him and walked out the door.
+
+# The draft this file was made from. Do not change it.
+draft: fbc15ab61af3b64a

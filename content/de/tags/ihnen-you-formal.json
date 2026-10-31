@@ -1,0 +1,14 @@
+{
+  "id": "ihnen-you-formal",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": "tip-du-sie",
+  "why": "Use Ihnen, always capitalised, for a polite 'you' after verbs like helfen; use dir with friends.",
+  "draft": "1c8d3c3599961700",
+  "group": "#78 ihnen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:57.921Z"
+}

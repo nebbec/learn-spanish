@@ -1,0 +1,14 @@
+{
+  "id": "na-well-so",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use na to casually open a chat or a question; use also to sum up or draw a conclusion.",
+  "draft": "3a45ae9650b89f97",
+  "group": "#141 na",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:49.687Z"
+}

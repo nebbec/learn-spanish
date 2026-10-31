@@ -1,0 +1,15 @@
+{
+  "rank": 416,
+  "word": "Zimmer",
+  "cards": [
+    "zimmer-room"
+  ],
+  "skip": null,
+  "sameAs": {
+    "zimmer-room": "habitacion-room"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:15.223Z"
+}

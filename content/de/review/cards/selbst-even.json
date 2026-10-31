@@ -1,0 +1,23 @@
+{
+  "id": "selbst-even",
+  "rank": 191,
+  "word": "selbst",
+  "draft": "8e5ce75485626b82",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "The Spanish card incluso-even means the same thing (even, as in even my dad knows that), so this card can reuse its picture.",
+      "fix": "incluso-even"
+    }
+  ],
+  "back": {
+    "target": "even (before a noun or phrase, the same as sogar); also -self",
+    "example": "Even my father knows that."
+  },
+  "note": "The example says mein Vater and translates it as my dad, which is fine, but mein Papa would match dad more closely.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:36:45.221Z"
+}

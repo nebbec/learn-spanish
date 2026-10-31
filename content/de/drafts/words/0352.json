@@ -1,0 +1,15 @@
+{
+  "rank": 352,
+  "word": "kümmern",
+  "cards": [
+    "kuemmern-take-care"
+  ],
+  "skip": null,
+  "sameAs": {
+    "kuemmern-take-care": "cuidar-take-care"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:18.927Z"
+}

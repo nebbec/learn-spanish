@@ -1,0 +1,30 @@
+# darueber-above-it · rank 295 · darüber
+#
+# Why it was flagged:
+#   - Memory trick: The trick's chain 'over there, over it, above it' suggests darüber can mean 'over there', which is da drüben, not darüber. Suggested fix: trick: DARÜBER is da (there, it) plus über, which sounds a bit like over: over it, above it.
+# Reviewer's note (not a reason to flag): The prompt reads a little choppy as English, so a full clause like "there's the table, and the lamp hangs [above it]" might read better, and colloquial drüber is also a fair answer the learner could rate as correct.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             darueber-above-it
+kind:           glue
+pos:            adverb
+target:         darüber
+en:             the table, and the lamp [above it]
+hint:           position, over something
+example.target: Da ist die Tür, und darüber hängt eine Uhr.
+example.en:     There's the door, and a clock hangs above it.
+regional.where:
+regional.text:
+trick:          DARÜBER is da (there, it) plus über, which sounds a bit like over: over it, above it.
+
+# The draft this file was made from. Do not change it.
+draft: 4e1125533d298110

@@ -1,0 +1,33 @@
+{
+  "id": "kennenlernen-meet",
+  "rank": 698,
+  "kind": "content",
+  "pos": "verb",
+  "target": "kennenlernen",
+  "en": "to meet",
+  "hint": "for the first time, get to know",
+  "grammar": {
+    "present": {
+      "ich": "lerne kennen",
+      "du": "lernst kennen",
+      "er": "lernt kennen"
+    },
+    "irregular": false,
+    "separable": true,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "kennengelernt"
+    }
+  },
+  "example": {
+    "target": "Heute lerne ich deine Eltern kennen.",
+    "en": "Today I'm meeting your parents."
+  },
+  "regional": null,
+  "trick": "KENNEN-LERNEN sounds like \"ken\" plus \"learning\": you learn someone into your ken when you first meet them.",
+  "image": "/deck-de/img/kennenlernen-meet.webp",
+  "audio": {
+    "word": "/deck-de/audio/kennenlernen-meet.word.mp3",
+    "sentence": "/deck-de/audio/kennenlernen-meet.sentence.mp3"
+  }
+}

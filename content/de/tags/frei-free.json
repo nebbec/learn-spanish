@@ -1,0 +1,14 @@
+{
+  "id": "frei-free",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "df444d4e27e4b773",
+  "group": "#392 frei",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:17.392Z"
+}

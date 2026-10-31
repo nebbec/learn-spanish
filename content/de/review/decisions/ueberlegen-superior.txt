@@ -1,0 +1,30 @@
+# ueberlegen-superior · rank 754 · überlegen
+#
+# Why it was flagged:
+#   - One right answer: Bare "superior" could also be recalled as übergeordnet (higher in rank), hochwertig (of superior quality) or simply besser, so a hint is needed to point to überlegen. Suggested fix: hint: better than someone else, e.g. at a game (ihm ___ sein)
+# Reviewer's note (not a reason to flag): The adjective is stressed on -le- (überlégen), the same as the verb "to consider", and it takes a dative (jemandem überlegen sein), which the editor might mention in the hint or grammar.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             ueberlegen-superior
+kind:           content
+pos:            adjective
+target:         überlegen
+en:             superior
+hint:           better than someone else, e.g. at a game (ihm ___ sein)
+example.target: Sie war ihm im Schach klar überlegen.
+example.en:     She was clearly better than him at chess.
+regional.where:
+regional.text:
+trick:          ÜBER means over, and LEGEN sounds like laying: whoever is laid over the others is superior.
+
+# The draft this file was made from. Do not change it.
+draft: 7740803e62df77a8

@@ -1,0 +1,25 @@
+{
+  "id": "chance-chance",
+  "rank": 404,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Chance",
+  "en": "chance",
+  "hint": "an opportunity",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Chancen"
+  },
+  "example": {
+    "target": "Das ist deine letzte Chance.",
+    "en": "This is your last chance."
+  },
+  "regional": null,
+  "trick": "CHANCE is English chance said the French way, SHAHN-suh: an opportunity you get.",
+  "image": "/deck-de/img/chance-chance.webp",
+  "audio": {
+    "word": "/deck-de/audio/chance-chance.word.mp3",
+    "sentence": "/deck-de/audio/chance-chance.sentence.mp3"
+  }
+}

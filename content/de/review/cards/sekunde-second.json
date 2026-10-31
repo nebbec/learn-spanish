@@ -1,0 +1,17 @@
+{
+  "id": "sekunde-second",
+  "rank": 540,
+  "word": "Sekunde",
+  "draft": "31b4b23edea70207",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "second (the unit of time, one sixtieth of a minute)",
+    "example": "Wait a second!"
+  },
+  "note": "The hint is needed because it rules out the ordinal zweite, and the respelling KOON is only a rough guide, since the u in Sekunde is short.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:06:13.958Z"
+}

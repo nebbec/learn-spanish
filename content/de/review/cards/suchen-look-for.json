@@ -1,0 +1,17 @@
+{
+  "id": "suchen-look-for",
+  "rank": 197,
+  "word": "suchen",
+  "draft": "211464e108ac711d",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to look for, to search for",
+    "example": "I'm looking for my key."
+  },
+  "note": "The trick's zoo-ken is only a rough sound-alike, because the ch in suchen is a throaty sound and not a k, so the audio should make the real pronunciation clear.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:09.542Z"
+}

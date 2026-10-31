@@ -1,0 +1,30 @@
+# lustig-funny · rank 601 · lustig
+#
+# Why it was flagged:
+#   - One right answer: The hint "makes you laugh" also fits witzig, a common German word that is just as right for a funny film, so the prompt has two answers. Suggested fix: hint: makes you laugh; the everyday word, not witzig
+# Reviewer's note (not a reason to flag): The rest of the card is fine: lustig also means fun or cheerful (ein lustiger Abend), but funny is its main meaning, and the trick's long "loose" vowel against the short u in lustig is only a weak pun, which is allowed.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             lustig-funny
+kind:           content
+pos:            adjective
+target:         lustig
+en:             funny
+hint:           makes you laugh; the everyday word, not witzig
+example.target: Der Film war echt lustig.
+example.en:     The movie was really funny.
+regional.where:
+regional.text:
+trick:          LUSTIG sounds like LOOSE-tickle: a loose tickle makes you laugh, so it's funny.
+
+# The draft this file was made from. Do not change it.
+draft: 960c752d585673db

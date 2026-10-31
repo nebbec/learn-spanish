@@ -1,0 +1,30 @@
+# nur-only · rank 49 · nur
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out einzig and erst, but bloß is a common everyday synonym for merely or just, so it would also be a right answer. Suggested fix: hint: merely, just (the everyday word, not bloß, einzig or erst)
+# Reviewer's note (not a reason to flag): Lediglich also means merely, but it's formal, so a beginner is unlikely to give it as the answer.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             nur-only
+kind:           content
+pos:            adverb
+target:         nur
+en:             only
+hint:           merely, just (the everyday word, not bloß, einzig or erst)
+example.target: Ich habe nur zehn Euro dabei.
+example.en:     I only have ten euros on me.
+regional.where:
+regional.text:
+trick:          NUR sounds like "noor", rhyming with "poor": the poor guy has only one coin.
+
+# The draft this file was made from. Do not change it.
+draft: fbf6ff184ec47bfc

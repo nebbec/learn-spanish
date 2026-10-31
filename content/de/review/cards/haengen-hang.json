@@ -1,0 +1,17 @@
+{
+  "id": "haengen-hang",
+  "rank": 565,
+  "word": "hängen",
+  "draft": "91be4b2eb8fa9dde",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hang (be hanging; also to hang something up)",
+    "example": "Your picture is hanging on the wall now."
+  },
+  "note": "The Perfekt shown (hat gehangen) is for the intransitive sense, which matches the example; the transitive sense is weak (hat ... gehängt), and southern Germany, Austria and Switzerland say \"ist gehangen\", which the editor might mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:36.219Z"
+}

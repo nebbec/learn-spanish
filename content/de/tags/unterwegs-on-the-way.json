@@ -1,0 +1,14 @@
+{
+  "id": "unterwegs-on-the-way",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "eca47013d635d274",
+  "group": "#765 unterwegs",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:12.787Z"
+}

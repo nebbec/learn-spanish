@@ -1,0 +1,30 @@
+# entschuldigung-sorry · rank 451 · Entschuldigung
+#
+# Why it was flagged:
+#   - One right answer: In the du register, Entschuldige! is also one word said to apologize or get attention, and Verzeihung or the colloquial Sorry also fit the apology sense, so the hint leaves more than one right answer. Suggested fix: hint: the everyday one word, not Entschuldige or Verzeihung, said to apologize or get a stranger's attention
+# Reviewer's note (not a reason to flag): The trick could also point out that Schuld means guilt or fault, which really is the root of the word. The Swiss dialect word Exgüsi is common in speech, but it is dialect, so leaving regional null is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             entschuldigung-sorry
+kind:           content
+pos:            other
+target:         Entschuldigung
+en:             excuse me, sorry
+hint:           the everyday one word, not Entschuldige or Verzeihung, said to apologize or get a stranger's attention
+example.target: Entschuldigung, wo ist hier der Bahnhof?
+example.en:     Excuse me, where's the train station?
+regional.where:
+regional.text:
+trick:          ent-SHOOL-di-goong has SHOOL in the middle, like 'should': you say it when you should have been more careful.
+
+# The draft this file was made from. Do not change it.
+draft: d0f566af616192e3

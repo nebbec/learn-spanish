@@ -1,0 +1,33 @@
+{
+  "id": "sterben-die",
+  "rank": 185,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sterben",
+  "en": "to die",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "sterbe",
+      "du": "stirbst",
+      "er": "stirbt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "gestorben"
+    }
+  },
+  "example": {
+    "target": "Mein Opa ist letztes Jahr gestorben.",
+    "en": "My grandpa died last year."
+  },
+  "regional": null,
+  "trick": "STERBEN (SHTAIR-ben) is a cousin of English starve: starve long enough and you die.",
+  "image": "/deck-de/img/sterben-die.webp",
+  "audio": {
+    "word": "/deck-de/audio/sterben-die.word.mp3",
+    "sentence": "/deck-de/audio/sterben-die.sentence.mp3"
+  }
+}

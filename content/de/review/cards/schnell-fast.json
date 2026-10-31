@@ -1,0 +1,17 @@
+{
+  "id": "schnell-fast",
+  "rank": 200,
+  "word": "schnell",
+  "draft": "89aea4ce9a0c89a9",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "fast, quick; quickly",
+    "example": "You're driving much too fast!"
+  },
+  "note": "The example uses schnell as an adverb, which is normal in German because the adverb is the same word as the adjective.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:37:41.950Z"
+}

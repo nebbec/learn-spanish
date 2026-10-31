@@ -1,0 +1,17 @@
+{
+  "id": "irgendwas-something",
+  "rank": 492,
+  "word": "irgendwas",
+  "draft": "968765e7d73f8521",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "something, anything (at all), whatever (informal)",
+    "example": "Just say something!"
+  },
+  "note": "Colloquial \"Sag doch was!\" is a close rival, and \"any old thing\" is what rules it out, so the hint could say \"not etwas or was\" to make that clearer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:02:28.350Z"
+}

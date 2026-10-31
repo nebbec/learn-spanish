@@ -1,0 +1,23 @@
+{
+  "id": "schatz-honey",
+  "rank": 275,
+  "word": "Schatz",
+  "draft": "26097e09c6beb068",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "oneAnswer",
+      "problem": "The hint rules out the food and the treasure card, but Liebling is also a common, correct German word for honey to a loved one, so a learner who recalls it would be wrongly marked wrong.",
+      "fix": "hint: what you call a loved one, the everyday word (not Liebling)"
+    }
+  ],
+  "back": {
+    "target": "treasure; (term of endearment) darling, honey, sweetheart",
+    "example": "Honey, are you coming along tonight?"
+  },
+  "note": "The plural die Schätze is correct, but it is mostly used in the treasure sense and rarely as a term of endearment.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:34.686Z"
+}

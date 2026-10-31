@@ -1,0 +1,23 @@
+{
+  "id": "verlassen-leave",
+  "rank": 311,
+  "word": "verlassen",
+  "draft": "fbc15ab61af3b64a",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "sameAs",
+      "problem": "dejar-leave means leaving something or someone behind and rules out going out, but verlassen covers walking out of a place, as in the example, while leaving an object behind is lassen, so the two meanings only partly overlap.",
+      "fix": null
+    }
+  ],
+  "back": {
+    "target": "to leave (a place or a person), to abandon",
+    "example": "He leaves the house at eight."
+  },
+  "note": "The hint is good: it separates verlassen from gehen and weggehen, and from the other card, sich verlassen auf.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:36.982Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 415,
+  "word": "lügen",
+  "cards": [
+    "luegen-lie"
+  ],
+  "skip": null,
+  "sameAs": {
+    "luegen-lie": "mentir-lie"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:09.701Z"
+}

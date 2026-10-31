@@ -1,0 +1,17 @@
+{
+  "id": "seite-side",
+  "rank": 391,
+  "word": "Seite",
+  "draft": "e0912cb5169965ba",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "side (also page)",
+    "example": "Which side are you actually on?"
+  },
+  "note": "The example's English \"Whose side are you on, anyway?\" is a free but faithful rendering of \"Which side are you actually on?\", and it doesn't clash with the separate \"page\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:44.088Z"
+}

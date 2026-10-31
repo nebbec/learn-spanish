@@ -1,0 +1,15 @@
+{
+  "rank": 126,
+  "word": "bleiben",
+  "cards": [
+    "bleiben-stay"
+  ],
+  "skip": null,
+  "sameAs": {
+    "bleiben-stay": "quedar-stay"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:57.129Z"
+}

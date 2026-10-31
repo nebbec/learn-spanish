@@ -1,0 +1,17 @@
+{
+  "rank": 437,
+  "word": "Freundin",
+  "cards": [
+    "freundin-girlfriend",
+    "freundin-female-friend"
+  ],
+  "skip": null,
+  "sameAs": {
+    "freundin-girlfriend": null,
+    "freundin-female-friend": "amigo-friend"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:50:21.872Z"
+}

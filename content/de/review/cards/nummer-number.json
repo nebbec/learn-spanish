@@ -1,0 +1,17 @@
+{
+  "id": "nummer-number",
+  "rank": 479,
+  "word": "Nummer",
+  "draft": "74dad582c0b709a8",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "number (an identifying number, such as a phone, room or house number)",
+    "example": "Give me your number!"
+  },
+  "note": "The u in Nummer is short, so the trick's NOOM-er respelling suggests a slightly longer vowel than the real one, which is harmless.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:28.018Z"
+}

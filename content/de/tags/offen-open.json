@@ -1,0 +1,14 @@
+{
+  "id": "offen-open",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Offen is the standard adjective for open; auf is the short casual word, as in Die Tür ist auf.",
+  "draft": "58ee141586913e66",
+  "group": "#649 offen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:41:23.877Z"
+}

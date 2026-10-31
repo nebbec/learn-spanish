@@ -1,0 +1,17 @@
+{
+  "rank": 780,
+  "word": "ewig",
+  "cards": [
+    "ewig-eternal",
+    "ewig-forever"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ewig-eternal": null,
+    "ewig-forever": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:12:39.078Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "laut-loud",
+  "rank": 465,
+  "word": "laut",
+  "draft": "803f205c725112da",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "loud (noisy, high in volume)",
+    "example": "The music is too loud for me."
+  },
+  "note": "The bare prompt \"loud\" can't be mixed up with the preposition card for laut (\"according to\"), because that card uses its own bracketed glue prompt.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:00:16.407Z"
+}

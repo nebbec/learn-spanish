@@ -1,0 +1,25 @@
+{
+  "id": "sache-thing",
+  "rank": 213,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Sache",
+  "en": "thing",
+  "hint": "also a matter, an affair; not Ding",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Sachen"
+  },
+  "example": {
+    "target": "Pack deine Sachen ein, wir fahren gleich.",
+    "en": "Pack your things, we're leaving soon."
+  },
+  "regional": null,
+  "trick": "SACHE starts like English sack: you stuff all your things into a sack.",
+  "image": "/deck-de/img/sache-thing.webp",
+  "audio": {
+    "word": "/deck-de/audio/sache-thing.word.mp3",
+    "sentence": "/deck-de/audio/sache-thing.sentence.mp3"
+  }
+}

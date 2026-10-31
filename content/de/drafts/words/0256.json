@@ -1,0 +1,17 @@
+{
+  "rank": 256,
+  "word": "ziehen",
+  "cards": [
+    "ziehen-pull",
+    "ziehen-move"
+  ],
+  "skip": null,
+  "sameAs": {
+    "ziehen-pull": null,
+    "ziehen-move": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:39:02.915Z"
+}

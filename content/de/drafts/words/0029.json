@@ -1,0 +1,17 @@
+{
+  "rank": 29,
+  "word": "so",
+  "cards": [
+    "so-like-this",
+    "so-so-very"
+  ],
+  "skip": null,
+  "sameAs": {
+    "so-like-this": "asi-like-this",
+    "so-so-very": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:24:59.288Z"
+}

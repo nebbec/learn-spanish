@@ -1,0 +1,33 @@
+{
+  "id": "geben-there-is",
+  "rank": 59,
+  "kind": "content",
+  "pos": "verb",
+  "target": "geben",
+  "en": "there to be",
+  "hint": "with es: es ___ (there is, there are)",
+  "grammar": {
+    "present": {
+      "ich": "gebe",
+      "du": "gibst",
+      "er": "gibt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gegeben"
+    }
+  },
+  "example": {
+    "target": "Gibt es hier in der Nähe ein Café?",
+    "en": "Is there a café near here?"
+  },
+  "regional": null,
+  "trick": "Es gibt sounds like ess gipt, like it gives: the world gives you something, so there is something.",
+  "image": "/deck-de/img/geben-there-is.webp",
+  "audio": {
+    "word": "/deck-de/audio/geben-there-is.word.mp3",
+    "sentence": "/deck-de/audio/geben-there-is.sentence.mp3"
+  }
+}

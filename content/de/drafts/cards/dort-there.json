@@ -1,0 +1,21 @@
+{
+  "id": "dort-there",
+  "rank": 215,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "dort",
+  "en": "there",
+  "hint": "that place over there, not da",
+  "grammar": null,
+  "example": {
+    "target": "Mein Bruder wohnt dort.",
+    "en": "My brother lives there."
+  },
+  "regional": null,
+  "trick": "DORT rhymes with fort: the fort is over there, far away.",
+  "image": "/deck-de/img/dort-there.webp",
+  "audio": {
+    "word": "/deck-de/audio/dort-there.word.mp3",
+    "sentence": "/deck-de/audio/dort-there.sentence.mp3"
+  }
+}

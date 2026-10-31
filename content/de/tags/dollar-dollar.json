@@ -1,0 +1,14 @@
+{
+  "id": "dollar-dollar",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "eeebf18c4a674a22",
+  "group": "#514 Dollar",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:36:29.993Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dumm-stupid",
+  "rank": 476,
+  "word": "dumm",
+  "draft": "c3494201ccbcdf72",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "stupid, dumb",
+    "example": "That was a stupid idea."
+  },
+  "note": "The hint is needed: it rules out blöd and doof, which would otherwise also be right answers.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:01:17.254Z"
+}

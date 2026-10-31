@@ -1,0 +1,21 @@
+{
+  "id": "langsam-slow",
+  "rank": 474,
+  "kind": "content",
+  "pos": "adjective",
+  "target": "langsam",
+  "en": "slow",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Mein Computer ist heute total langsam.",
+    "en": "My computer is really slow today."
+  },
+  "regional": null,
+  "trick": "LANGSAM sounds like \"long-zahm\", like \"long, some\": slow things take a long time.",
+  "image": "/deck-de/img/langsam-slow.webp",
+  "audio": {
+    "word": "/deck-de/audio/langsam-slow.word.mp3",
+    "sentence": "/deck-de/audio/langsam-slow.sentence.mp3"
+  }
+}

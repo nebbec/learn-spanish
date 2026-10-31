@@ -1,0 +1,14 @@
+{
+  "id": "retten-save",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "460959dda91b04a8",
+  "group": "#330 retten",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:30:12.474Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bestimmt-definitely",
+  "rank": 532,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "bestimmt",
+  "en": "definitely",
+  "hint": "I bet, surely (not sicher)",
+  "grammar": null,
+  "example": {
+    "target": "Das schaffst du bestimmt!",
+    "en": "You'll definitely manage it!"
+  },
+  "regional": null,
+  "trick": "BeSHTIMMT has stimmt inside it, German for that's right, so if it's bestimmt, it's definitely right.",
+  "image": "/deck-de/img/bestimmt-definitely.webp",
+  "audio": {
+    "word": "/deck-de/audio/bestimmt-definitely.word.mp3",
+    "sentence": "/deck-de/audio/bestimmt-definitely.sentence.mp3"
+  }
+}

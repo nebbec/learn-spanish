@@ -1,0 +1,14 @@
+{
+  "id": "naehe-nearness",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "f224378b25d2aeb2",
+  "group": "#739 Nähe",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:44:19.240Z"
+}

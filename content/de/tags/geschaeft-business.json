@@ -1,0 +1,14 @@
+{
+  "id": "geschaeft-business",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1b81618c884a4873",
+  "group": "#543 Geschäft",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:37:29.779Z"
+}

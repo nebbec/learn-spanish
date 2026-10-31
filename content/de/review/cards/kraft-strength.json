@@ -1,0 +1,17 @@
+{
+  "id": "kraft-strength",
+  "rank": 628,
+  "word": "Kraft",
+  "draft": "23288a29a2ba2e52",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "strength, power, force",
+    "example": "I have no strength left."
+  },
+  "note": "On its own, strength could be Stärke and power could be Macht, but the pair strength, power points to Kraft, which covers both meanings.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:13:57.199Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "erwischen-catch",
+  "rank": 696,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erwischen",
+  "en": "to catch",
+  "hint": "someone in the act, a bus",
+  "grammar": {
+    "present": {
+      "ich": "erwische",
+      "du": "erwischst",
+      "er": "erwischt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erwischt"
+    }
+  },
+  "example": {
+    "target": "Ich habe den Bus gerade noch erwischt.",
+    "en": "I just barely caught the bus."
+  },
+  "regional": null,
+  "trick": "ERWISCHEN sounds like air-VISH-en, almost air fish: you catch a fish as it leaps into the air.",
+  "image": "/deck-de/img/erwischen-catch.webp",
+  "audio": {
+    "word": "/deck-de/audio/erwischen-catch.word.mp3",
+    "sentence": "/deck-de/audio/erwischen-catch.sentence.mp3"
+  }
+}

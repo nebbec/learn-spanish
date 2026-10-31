@@ -1,0 +1,17 @@
+{
+  "id": "entschuldigen-excuse",
+  "rank": 279,
+  "word": "entschuldigen",
+  "draft": "a4b021f72dddf7d2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to excuse",
+    "example": "Will you excuse me for a moment?"
+  },
+  "note": "With no hint, \"to excuse\" leads only to entschuldigen, and the sich hint on the other card keeps \"to apologize\" separate from it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:44:51.215Z"
+}

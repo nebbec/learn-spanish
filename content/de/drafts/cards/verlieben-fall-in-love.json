@@ -1,0 +1,33 @@
+{
+  "id": "verlieben-fall-in-love",
+  "rank": 741,
+  "kind": "content",
+  "pos": "verb",
+  "target": "sich verlieben",
+  "en": "to fall in love",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "verliebe mich",
+      "du": "verliebst dich",
+      "er": "verliebt sich"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verliebt"
+    }
+  },
+  "example": {
+    "target": "Ich glaube, ich verliebe mich in dich.",
+    "en": "I think I'm falling in love with you."
+  },
+  "regional": null,
+  "trick": "VerLIEBen hides lieb, said like leeb, a cousin of English love: you fall for someone.",
+  "image": "/deck-de/img/verlieben-fall-in-love.webp",
+  "audio": {
+    "word": "/deck-de/audio/verlieben-fall-in-love.word.mp3",
+    "sentence": "/deck-de/audio/verlieben-fall-in-love.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "stehen-suit",
+  "rank": 131,
+  "word": "stehen",
+  "draft": "023697b06cf0b004",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to suit (someone), to look good on (someone); with the dative: jemandem stehen",
+    "example": "The jacket really suits you."
+  },
+  "note": "The hint is needed to tell this card apart from the \"to stand\" card and from passen (to fit in size); in southern Germany, Austria and Switzerland the Perfekt is \"ist gestanden\", but haben is right for the standard German of Germany, and the example's \"That jacket\" is a free but fine rendering of \"Die Jacke\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:31:40.523Z"
+}

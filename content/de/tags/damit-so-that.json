@@ -1,0 +1,14 @@
+{
+  "id": "damit-so-that",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use damit when a new subject follows; use um ... zu when the same person does both things.",
+  "draft": "49ca5543361be666",
+  "group": "#130 damit",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:23:26.762Z"
+}

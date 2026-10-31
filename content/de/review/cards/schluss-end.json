@@ -1,0 +1,17 @@
+{
+  "id": "schluss-end",
+  "rank": 715,
+  "word": "Schluss",
+  "draft": "a47ebf75b6b62962",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "end, ending, close (also conclusion)",
+    "example": "The ending of the film was great."
+  },
+  "note": "Schluss machen in the hint also commonly means to break up with someone, and the plural die Schlüsse is mostly used in the sense of conclusions (Schlüsse ziehen), so the editor might mention both somewhere on the card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:21.247Z"
+}

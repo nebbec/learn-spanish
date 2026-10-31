@@ -1,0 +1,17 @@
+{
+  "id": "auge-eye",
+  "rank": 285,
+  "word": "Auge",
+  "draft": "16235af458136be6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "eye",
+    "example": "I have something in my eye."
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:45:28.642Z"
+}

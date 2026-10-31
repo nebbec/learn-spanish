@@ -1,0 +1,14 @@
+{
+  "id": "hoeren-hear",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "1ff1f5ee6067cc4c",
+  "group": "#72 hören",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:21:44.916Z"
+}

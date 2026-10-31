@@ -1,0 +1,14 @@
+{
+  "id": "zurueckkommen-come-back",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "95ca7db31b49c9dd",
+  "group": "#770 zurückkommen",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:45:24.293Z"
+}

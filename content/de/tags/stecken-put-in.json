@@ -1,0 +1,14 @@
+{
+  "id": "stecken-put-in",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use stecken for putting something into a pocket or slot; legen for laying it flat, stellen for standing it upright.",
+  "draft": "3dc3baa2630d2077",
+  "group": "#412 stecken",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:32:55.457Z"
+}

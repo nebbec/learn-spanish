@@ -1,0 +1,15 @@
+{
+  "rank": 492,
+  "word": "irgendwas",
+  "cards": [
+    "irgendwas-something"
+  ],
+  "skip": null,
+  "sameAs": {
+    "irgendwas-something": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:57.495Z"
+}

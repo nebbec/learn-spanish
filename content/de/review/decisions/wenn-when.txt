@@ -1,0 +1,30 @@
+# wenn-when · rank 38 · wenn
+#
+# Why it was flagged:
+#   - Memory trick: German w is pronounced like English v, so wenn sounds like 'venn', not just like English 'when'. Suggested fix: trick: WENN looks like English when and means it here; just say it with a v, 'venn'.
+# Reviewer's note (not a reason to flag): The hint rules out wann and als, which is what this prompt needs, and it keeps this card separate from the 'if' card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wenn-when
+kind:           glue
+pos:            conjunction
+target:         wenn
+en:             Call me [when] you're home.
+hint:           not a question, not a single past event
+example.target: Ruf mich an, wenn du zu Hause bist.
+example.en:     Call me when you're home.
+regional.where:
+regional.text:
+trick:          WENN looks like English when and means it here; just say it with a v, 'venn'.
+
+# The draft this file was made from. Do not change it.
+draft: 1ad0a8ad1249ac76

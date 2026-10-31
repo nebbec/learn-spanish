@@ -1,0 +1,17 @@
+{
+  "id": "fehlen-be-missing",
+  "rank": 563,
+  "word": "fehlen",
+  "draft": "3ea463be0f42d0b0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to be missing, to be lacking (also: to be absent; with a dative, du fehlst mir = I miss you)",
+    "example": "A page is missing here."
+  },
+  "note": "Because this is the word's only card, the editor could later add the very common dative use \"Du fehlst mir\" (I miss you), where the person missed is the subject of fehlen.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:08:26.824Z"
+}

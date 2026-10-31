@@ -1,0 +1,17 @@
+{
+  "rank": 417,
+  "word": "freuen",
+  "cards": [
+    "freuen-be-glad",
+    "freuen-look-forward"
+  ],
+  "skip": null,
+  "sameAs": {
+    "freuen-be-glad": "alegrar-make-happy",
+    "freuen-look-forward": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:49:22.112Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sitzen-sit",
+  "rank": 313,
+  "word": "sitzen",
+  "draft": "702bcaf6b0abda57",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to sit, to be sitting (to be in a seated position)",
+    "example": "I'm sitting in the car and waiting for you."
+  },
+  "note": "The hint is needed to rule out sich setzen, and sameAs is rightly null because sentar-sit-down means sich setzen; the editor may want to know that southern Germany, Austria and Switzerland form the Perfekt with sein (ich bin gesessen), though that is a grammar variant rather than a different word, so regional can stay null.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:30:39.507Z"
+}

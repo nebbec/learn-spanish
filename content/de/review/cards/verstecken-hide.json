@@ -1,0 +1,17 @@
+{
+  "id": "verstecken-hide",
+  "rank": 678,
+  "word": "verstecken",
+  "draft": "c2ec9cb159bf8e67",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to hide (something or someone; reflexive sich verstecken = to hide oneself)",
+    "example": "I'm hiding the present in the wardrobe."
+  },
+  "note": "Verbergen also means to hide, but it is more literary and much less common, so verstecken is the clear everyday answer and no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:22.074Z"
+}

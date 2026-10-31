@@ -1,0 +1,14 @@
+{
+  "id": "schluss-end",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use Schluss for the finish or closing point (Schluss machen); das Ende is the general word for an end.",
+  "draft": "a47ebf75b6b62962",
+  "group": "#715 Schluss",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:43:32.376Z"
+}

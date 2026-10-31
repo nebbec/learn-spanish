@@ -1,0 +1,14 @@
+{
+  "id": "daran-of-it",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "bda81c4641dba0ad",
+  "group": "#300 daran",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:29:11.037Z"
+}

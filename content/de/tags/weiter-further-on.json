@@ -1,0 +1,14 @@
+{
+  "id": "weiter-further-on",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "211f5fd829853e01",
+  "group": "#216 weiter",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:26:14.203Z"
+}

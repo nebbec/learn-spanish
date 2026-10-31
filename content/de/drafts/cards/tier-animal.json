@@ -1,0 +1,25 @@
+{
+  "id": "tier-animal",
+  "rank": 674,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Tier",
+  "en": "animal",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Tiere"
+  },
+  "example": {
+    "target": "Magst du Tiere?",
+    "en": "Do you like animals?"
+  },
+  "regional": null,
+  "trick": "TIER sounds like \"deer\", and the two words share a root: a deer is an animal.",
+  "image": "/deck-de/img/tier-animal.webp",
+  "audio": {
+    "word": "/deck-de/audio/tier-animal.word.mp3",
+    "sentence": "/deck-de/audio/tier-animal.sentence.mp3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vielleicht-maybe",
+  "rank": 103,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "vielleicht",
+  "en": "maybe",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Vielleicht komme ich morgen vorbei.",
+    "en": "Maybe I'll drop by tomorrow."
+  },
+  "regional": null,
+  "trick": "VIELLEICHT sounds a bit like \"feel like it\": maybe I'll come, if I feel like it.",
+  "image": "/deck-de/img/vielleicht-maybe.webp",
+  "audio": {
+    "word": "/deck-de/audio/vielleicht-maybe.word.mp3",
+    "sentence": "/deck-de/audio/vielleicht-maybe.sentence.mp3"
+  }
+}

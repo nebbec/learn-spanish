@@ -1,0 +1,17 @@
+{
+  "id": "wiedersehen-goodbye",
+  "rank": 445,
+  "word": "wiedersehen",
+  "draft": "018468f6f1e1fe78",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "goodbye (polite, formal farewell; literally 'until seeing again')",
+    "example": "Goodbye, and thanks for everything!"
+  },
+  "note": "The hint rules out tschüss and ciao, and the phone-only auf Wiederhören isn't a real competitor for a plain goodbye; the editor could also add that Switzerland says Adieu or uf Wiederluege.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:38.012Z"
+}

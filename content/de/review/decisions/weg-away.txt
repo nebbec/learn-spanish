@@ -1,0 +1,30 @@
+# weg-away · rank 115 · weg
+#
+# Why it was flagged:
+#   - One right answer: Without a hint, fort (away, gone) is also a right answer to the bare prompt, as in Mein Handy ist fort. Suggested fix: hint: the everyday word, not fort
+# Reviewer's note (not a reason to flag): The trick rightly says the adverb weg has a short e, which sets it apart from the noun der Weg with its long e, and that's worth keeping since both are cards.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             weg-away
+kind:           content
+pos:            adverb
+target:         weg
+en:             away, gone
+hint:           the everyday word, not fort
+example.target: Mein Handy ist weg.
+example.en:     My phone is gone.
+regional.where:
+regional.text:
+trick:          WEG, said with a short e like veck, sounds like wreck: after the wreck, the ship was gone, swept away.
+
+# The draft this file was made from. Do not change it.
+draft: ae93d83a6f404f3c

@@ -1,0 +1,14 @@
+{
+  "id": "selbst-self",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use selbst for doing something yourself; use mich or sich when you are the object of the verb.",
+  "draft": "e5196f454f5608da",
+  "group": "#191 selbst",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:25:19.444Z"
+}

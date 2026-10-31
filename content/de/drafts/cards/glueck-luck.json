@@ -1,0 +1,25 @@
+{
+  "id": "glueck-luck",
+  "rank": 326,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Glück",
+  "en": "luck",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": null
+  },
+  "example": {
+    "target": "Viel Glück morgen bei der Prüfung!",
+    "en": "Good luck with the exam tomorrow!"
+  },
+  "regional": null,
+  "trick": "GLÜCK sounds a bit like glue: good luck sticks to you like glue.",
+  "image": "/deck-de/img/glueck-luck.webp",
+  "audio": {
+    "word": "/deck-de/audio/glueck-luck.word.mp3",
+    "sentence": "/deck-de/audio/glueck-luck.sentence.mp3"
+  }
+}

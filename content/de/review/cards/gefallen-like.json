@@ -1,0 +1,17 @@
+{
+  "id": "gefallen-like",
+  "rank": 325,
+  "word": "gefallen",
+  "draft": "7776c8486e3524aa",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to please, to be pleasing to (someone); used as to like, with the liker in the dative",
+    "example": "Do you like the apartment?"
+  },
+  "note": "The hint is needed: \"das ___ mir\" rules out mögen, and it shows the dative pattern that also matches the Spanish gustar card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:01.619Z"
+}

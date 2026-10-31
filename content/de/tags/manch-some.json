@@ -1,0 +1,14 @@
+{
+  "id": "manch-some",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use manch for some but not others (many a); use einige for a small number, a few.",
+  "draft": "55849e252d66c641",
+  "group": "#792 manch",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:46:08.538Z"
+}

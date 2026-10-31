@@ -1,0 +1,37 @@
+# nachdenken-think-over · rank 643 · nachdenken
+#
+# Why it was flagged:
+#   - One right answer: The hint 'to think it over, reflect' also fits überlegen ('Ich überlege noch' means 'I'm still thinking it over'), which is just as common, so the card has two right answers. Suggested fix: hint: to reflect, ponder (separable verb, used with über)
+# Reviewer's note (not a reason to flag): The Spanish card pensar-think means plain 'to think', not 'to reflect on', so leaving sameAs as null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 nachdenken-think-over
+kind:               content
+pos:                verb
+target:             nachdenken
+en:                 to think about
+hint:               to reflect, ponder (separable verb, used with über)
+ich:                denke nach
+du:                 denkst nach
+er:                 denkt nach
+irregular:          yes
+separable:          yes
+perfekt.aux:        haben
+perfekt.participle: nachgedacht
+example.target:     Ich denke noch darüber nach.
+example.en:         I'm still thinking about it.
+regional.where:
+regional.text:
+trick:              DENKEN sounds like thinkin', and NACH sounds like knock: knock on your head while you keep thinkin' it over.
+
+# The draft this file was made from. Do not change it.
+draft: 1bbc83692c73ea20

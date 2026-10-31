@@ -1,0 +1,33 @@
+{
+  "id": "ziehen-pull",
+  "rank": 256,
+  "kind": "content",
+  "pos": "verb",
+  "target": "ziehen",
+  "en": "to pull",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "ziehe",
+      "du": "ziehst",
+      "er": "zieht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gezogen"
+    }
+  },
+  "example": {
+    "target": "Du musst an der Tür ziehen, nicht drücken.",
+    "en": "You have to pull the door, not push."
+  },
+  "regional": null,
+  "trick": "ZIEHEN, said TSEE-en, is a distant cousin of tug and tow: when you tug or tow something, you pull it.",
+  "image": "/deck-de/img/ziehen-pull.webp",
+  "audio": {
+    "word": "/deck-de/audio/ziehen-pull.word.mp3",
+    "sentence": "/deck-de/audio/ziehen-pull.sentence.mp3"
+  }
+}

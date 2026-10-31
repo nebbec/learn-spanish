@@ -1,0 +1,15 @@
+{
+  "rank": 680,
+  "word": "absolut",
+  "cards": [
+    "absolut-absolute"
+  ],
+  "skip": null,
+  "sameAs": {
+    "absolut-absolute": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:15.382Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "absolut-absolute",
+  "rank": 680,
+  "word": "absolut",
+  "draft": "70f6c67f2675c109",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "absolute",
+    "example": "That was absolute madness."
+  },
+  "note": "In spoken German, especially subtitles, absolut is most often used as an adverb meaning absolutely (absolut sicher, absolut nicht), so an example like that might be more useful.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:18:34.917Z"
+}

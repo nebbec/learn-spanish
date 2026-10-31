@@ -1,0 +1,17 @@
+{
+  "id": "zug-train",
+  "rank": 762,
+  "word": "Zug",
+  "draft": "0f2be91c982171e7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "train",
+    "example": "My train is delayed yet again."
+  },
+  "note": "Die Bahn can also be said loosely for the train, but der Zug is the clear standard answer for \"train\", so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:51.954Z"
+}

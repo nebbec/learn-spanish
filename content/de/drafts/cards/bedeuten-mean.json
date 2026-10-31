@@ -1,0 +1,33 @@
+{
+  "id": "bedeuten-mean",
+  "rank": 333,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bedeuten",
+  "en": "to mean",
+  "hint": "what a word or thing signifies",
+  "grammar": {
+    "present": {
+      "ich": "bedeute",
+      "du": "bedeutest",
+      "er": "bedeutet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "bedeutet"
+    }
+  },
+  "example": {
+    "target": "Was bedeutet dieses Wort?",
+    "en": "What does this word mean?"
+  },
+  "regional": null,
+  "trick": "BEDEUTEN sounds like \"buh-DOY-ten\": a bed at ten, and you know what that means: bedtime.",
+  "image": "/deck-de/img/bedeuten-mean.webp",
+  "audio": {
+    "word": "/deck-de/audio/bedeuten-mean.word.mp3",
+    "sentence": "/deck-de/audio/bedeuten-mean.sentence.mp3"
+  }
+}

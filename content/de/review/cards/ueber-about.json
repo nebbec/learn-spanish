@@ -1,0 +1,17 @@
+{
+  "id": "ueber-about",
+  "rank": 107,
+  "word": "über",
+  "draft": "c5465785a9352a63",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "about, concerning (a topic); also over, above",
+    "example": "We'll talk about the problem later."
+  },
+  "note": "The hint \"a topic\" is not strictly needed, since \"a book [about] dogs\" already points to \"über\", but it does clearly separate this card from the word's \"over\" card.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:40.687Z"
+}

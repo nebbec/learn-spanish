@@ -1,0 +1,30 @@
+# echt-really · rank 248 · echt
+#
+# Why it was flagged:
+#   - One right answer: The hint (casual, before an adjective, not wirklich) still allows other common casual intensifiers such as richtig (richtig gut) and voll (voll gut), so the prompt has more than one right answer. Suggested fix: hint: casual, before an adjective; the word that also means genuine
+# Reviewer's note (not a reason to flag): echt is also very common on its own as the reaction "Echt?" (Really?), which could be worth its own phrase card.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             echt-really
+kind:           content
+pos:            adverb
+target:         echt
+en:             really
+hint:           casual, before an adjective; the word that also means genuine
+example.target: Der Film ist echt gut!
+example.en:     The movie is really good!
+regional.where:
+regional.text:
+trick:          ECHT sounds a bit like act: no act, I really mean it.
+
+# The draft this file was made from. Do not change it.
+draft: e1fe08bd227b3846

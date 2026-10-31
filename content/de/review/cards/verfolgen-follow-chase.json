@@ -1,0 +1,17 @@
+{
+  "id": "verfolgen-follow-chase",
+  "rank": 751,
+  "word": "verfolgen",
+  "draft": "3243c69ce7bda8fd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to pursue, to chase, to follow (someone, to catch or watch them)",
+    "example": "I think we're being followed."
+  },
+  "note": "The hint \"chase, tail someone\" is needed here because it rules out plain folgen, and the seguir-follow picture works as long as it shows one person following another rather than following directions.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:24:05.331Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "geschehen-happen",
+  "rank": 459,
+  "kind": "content",
+  "pos": "verb",
+  "target": "geschehen",
+  "en": "to happen",
+  "hint": "a bit formal, not passieren",
+  "grammar": {
+    "present": {
+      "ich": "geschehe",
+      "du": "geschiehst",
+      "er": "geschieht"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "sein",
+      "participle": "geschehen"
+    }
+  },
+  "example": {
+    "target": "Was ist gestern Abend geschehen?",
+    "en": "What happened last night?"
+  },
+  "regional": null,
+  "trick": "GESCHEHEN sounds like guh-SHAY-en: picture someone shaking, asking what on earth just happened.",
+  "image": "/deck-de/img/geschehen-happen.webp",
+  "audio": {
+    "word": "/deck-de/audio/geschehen-happen.word.mp3",
+    "sentence": "/deck-de/audio/geschehen-happen.sentence.mp3"
+  }
+}

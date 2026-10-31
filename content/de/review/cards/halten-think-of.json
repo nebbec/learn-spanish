@@ -1,0 +1,17 @@
+{
+  "id": "halten-think-of",
+  "rank": 156,
+  "word": "halten",
+  "draft": "2c0b8eac51ef850b",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to think of, to have an opinion of (halten von)",
+    "example": "What do you think of my new boyfriend?"
+  },
+  "note": "The hint \"used with von\" is what rules out denken (which goes with über), and creer-think-opinion means \"to believe, I think so\" rather than \"think of\", so null for sameAs is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:33:20.078Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "interessieren-interest",
+  "rank": 508,
+  "kind": "content",
+  "pos": "verb",
+  "target": "interessieren",
+  "en": "to interest",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "interessiere",
+      "du": "interessierst",
+      "er": "interessiert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "interessiert"
+    }
+  },
+  "example": {
+    "target": "Das interessiert mich überhaupt nicht.",
+    "en": "That doesn't interest me at all."
+  },
+  "regional": null,
+  "trick": "INTERESSIEREN starts with the sound of interest, plus the -ieren ending German puts on borrowed verbs: to interest.",
+  "image": "/deck-de/img/interessieren-interest.webp",
+  "audio": {
+    "word": "/deck-de/audio/interessieren-interest.word.mp3",
+    "sentence": "/deck-de/audio/interessieren-interest.sentence.mp3"
+  }
+}

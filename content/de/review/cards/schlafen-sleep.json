@@ -1,0 +1,17 @@
+{
+  "id": "schlafen-sleep",
+  "rank": 261,
+  "word": "schlafen",
+  "draft": "1b9a74ac5a0859ca",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to sleep",
+    "example": "Did you sleep well?"
+  },
+  "note": null,
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:42:59.128Z"
+}

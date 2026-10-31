@@ -1,0 +1,25 @@
+{
+  "id": "nacht-night",
+  "rank": 194,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Nacht",
+  "en": "night",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Nächte"
+  },
+  "example": {
+    "target": "Gute Nacht, schlaf gut!",
+    "en": "Good night, sleep well!"
+  },
+  "regional": null,
+  "trick": "NACHT is a cousin of night: its ch, said like the throaty sound in Scottish loch, sits where English night has its silent gh.",
+  "image": "/deck-de/img/nacht-night.webp",
+  "audio": {
+    "word": "/deck-de/audio/nacht-night.word.mp3",
+    "sentence": "/deck-de/audio/nacht-night.sentence.mp3"
+  }
+}

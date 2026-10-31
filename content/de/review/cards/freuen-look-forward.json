@@ -1,0 +1,17 @@
+{
+  "id": "freuen-look-forward",
+  "rank": 417,
+  "word": "freuen",
+  "draft": "1f400bdfcd2593a1",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to look forward to (sich freuen auf); also to be glad, to be happy (sich freuen über)",
+    "example": "I'm looking forward to the weekend."
+  },
+  "note": "The hint \"used with auf\" is what keeps this card apart from the \"to be glad\" card (sich freuen über), so keep it.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:56:41.689Z"
+}

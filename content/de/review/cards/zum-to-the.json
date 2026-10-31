@@ -1,0 +1,17 @@
+{
+  "id": "zum-to-the",
+  "rank": 101,
+  "word": "zum",
+  "draft": "e1725c149a387735",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "to the (contraction of zu + dem, before masculine or neuter nouns)",
+    "example": "I have to go to the doctor tomorrow."
+  },
+  "note": "The hint is useful because it rules out the uncontracted \"zu dem\", and \"Arzt\" being masculine rules out \"zur\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:27.060Z"
+}

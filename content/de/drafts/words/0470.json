@@ -1,0 +1,15 @@
+{
+  "rank": 470,
+  "word": "Film",
+  "cards": [
+    "film-movie"
+  ],
+  "skip": null,
+  "sameAs": {
+    "film-movie": "pelicula-movie"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:52:24.418Z"
+}

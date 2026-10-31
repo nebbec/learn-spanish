@@ -1,0 +1,30 @@
+# bloed-dumb · rank 603 · blöd
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out dumm but not doof, which is just as common, just as casual and also means annoying, so a learner could fairly answer doof. Suggested fix: hint: casual, also annoying; not dumm or doof
+# Reviewer's note (not a reason to flag): Austria also often says deppert, but blöd is just as common there, so leaving regional as null is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             bloed-dumb
+kind:           content
+pos:            adjective
+target:         blöd
+en:             dumb, silly
+hint:           casual, also annoying; not dumm or doof
+example.target: Das war echt eine blöde Idee.
+example.en:     That was a really dumb idea.
+regional.where:
+regional.text:
+trick:          BLÖD sounds a bit like blurt: blurting things out without thinking is dumb.
+
+# The draft this file was made from. Do not change it.
+draft: 32838e2f905c4909

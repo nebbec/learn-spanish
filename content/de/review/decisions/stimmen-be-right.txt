@@ -1,0 +1,37 @@
+# stimmen-be-right · rank 190 · stimmen
+#
+# Why it was flagged:
+#   - One right answer: The hint rules out recht haben, but a learner could still correctly answer with the two-word phrase richtig sein or stimmen's more formal synonym zutreffen, so the hint should ask for the one everyday verb. Suggested fix: hint: one everyday verb, of a fact or statement, not a person (Stimmt! = that's true)
+# Reviewer's note (not a reason to flag): The example uses the very common one-word reply Stimmt (das stimmt with das dropped), which is a good thing for learners to pick up.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 stimmen-be-right
+kind:               content
+pos:                verb
+target:             stimmen
+en:                 to be right
+hint:               one everyday verb, of a fact or statement, not a person (Stimmt! = that's true)
+ich:                stimme
+du:                 stimmst
+er:                 stimmt
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: gestimmt
+example.target:     Stimmt, das hast du mir schon gesagt.
+example.en:         Right, you already told me that.
+regional.where:
+regional.text:
+trick:              STIMMEN sounds like shtim-men, close to chime in: you chime in with Stimmt! when something is right.
+
+# The draft this file was made from. Do not change it.
+draft: 64abae63723c5d0f

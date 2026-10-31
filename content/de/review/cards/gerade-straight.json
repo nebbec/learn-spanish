@@ -1,0 +1,17 @@
+{
+  "id": "gerade-straight",
+  "rank": 169,
+  "word": "gerade",
+  "draft": "ac043f5ea31b57ae",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "straight (not curved or bent)",
+    "example": "The street is quite straight."
+  },
+  "note": "The hint \"not curved\" is needed: it rules out geradeaus (straight ahead), and it keeps this card apart from the word's \"just, right now\" card; derecho-straight-ahead means geradeaus, not this adjective, so sameAs null is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:34:37.161Z"
+}

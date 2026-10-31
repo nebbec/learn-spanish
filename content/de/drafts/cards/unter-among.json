@@ -1,0 +1,21 @@
+{
+  "id": "unter-among",
+  "rank": 244,
+  "kind": "glue",
+  "pos": "preposition",
+  "target": "unter",
+  "en": "we're [among] friends here",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Hier bist du unter Freunden.",
+    "en": "You're among friends here."
+  },
+  "regional": null,
+  "trick": "UNTER sounds like under: if you're among a crowd, you're under its cover.",
+  "image": null,
+  "audio": {
+    "word": "/deck-de/audio/unter-among.word.mp3",
+    "sentence": "/deck-de/audio/unter-among.sentence.mp3"
+  }
+}

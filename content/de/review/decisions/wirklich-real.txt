@@ -1,0 +1,30 @@
+# wirklich-real · rank 109 · wirklich
+#
+# Why it was flagged:
+#   - One right answer: For 'real' with the hint 'as in the real reason', a fluent speaker would just as likely say eigentlich (der eigentliche Grund) or wahr (der wahre Grund), and echt or tatsächlich also fit 'real' or 'actual', so the hint does not rule out these other common answers. Suggested fix: hint: actual, existing in fact, as in real life; not echt, wahr, eigentlich or tatsächlich
+# Reviewer's note (not a reason to flag): The example is correct, but der eigentliche Grund or der wahre Grund is the more usual way to say it, so an example like "Das ist das wirkliche Leben." would teach the word better. The trick is apt, because wirklich really does come from wirken (to work, to have an effect).
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:             wirklich-real
+kind:           content
+pos:            adjective
+target:         wirklich
+en:             real
+hint:           actual, existing in fact, as in real life; not echt, wahr, eigentlich or tatsächlich
+example.target: Was ist der wirkliche Grund?
+example.en:     What's the real reason?
+regional.where:
+regional.text:
+trick:          WIRKLICH sounds like VIRK-likh, close to work-like: something that actually works in the world is real.
+
+# The draft this file was made from. Do not change it.
+draft: 79ed61a7c7f69de6

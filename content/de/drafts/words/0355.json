@@ -1,0 +1,15 @@
+{
+  "rank": 355,
+  "word": "Tochter",
+  "cards": [
+    "tochter-daughter"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tochter-daughter": "hijo-daughter"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:45:25.080Z"
+}

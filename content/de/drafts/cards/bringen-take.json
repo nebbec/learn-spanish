@@ -1,0 +1,33 @@
+{
+  "id": "bringen-take",
+  "rank": 116,
+  "kind": "content",
+  "pos": "verb",
+  "target": "bringen",
+  "en": "to take",
+  "hint": "someone or something somewhere",
+  "grammar": {
+    "present": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er": "bringt"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gebracht"
+    }
+  },
+  "example": {
+    "target": "Ich bringe dich nach Hause.",
+    "en": "I'll take you home."
+  },
+  "regional": null,
+  "trick": "BRINGEN sounds like bringing: Germans bring you home where English says they take you home.",
+  "image": "/deck-de/img/bringen-take.webp",
+  "audio": {
+    "word": "/deck-de/audio/bringen-take.word.mp3",
+    "sentence": "/deck-de/audio/bringen-take.sentence.mp3"
+  }
+}

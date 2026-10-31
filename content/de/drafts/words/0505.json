@@ -1,0 +1,15 @@
+{
+  "rank": 505,
+  "word": "hübsch",
+  "cards": [
+    "huebsch-pretty"
+  ],
+  "skip": null,
+  "sameAs": {
+    "huebsch-pretty": "bonito-pretty"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:54:47.089Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "entschuldigen-excuse",
+  "rank": 279,
+  "kind": "content",
+  "pos": "verb",
+  "target": "entschuldigen",
+  "en": "to excuse",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "entschuldige",
+      "du": "entschuldigst",
+      "er": "entschuldigt"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "entschuldigt"
+    }
+  },
+  "example": {
+    "target": "Entschuldigst du mich kurz?",
+    "en": "Will you excuse me for a moment?"
+  },
+  "regional": null,
+  "trick": "The middle of entSCHULDigen sounds like \"should\": you should excuse someone who says sorry for their fault (Schuld).",
+  "image": "/deck-de/img/entschuldigen-excuse.webp",
+  "audio": {
+    "word": "/deck-de/audio/entschuldigen-excuse.word.mp3",
+    "sentence": "/deck-de/audio/entschuldigen-excuse.sentence.mp3"
+  }
+}

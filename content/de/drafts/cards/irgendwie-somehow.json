@@ -1,0 +1,21 @@
+{
+  "id": "irgendwie-somehow",
+  "rank": 488,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "irgendwie",
+  "en": "somehow",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Irgendwie schaffen wir das schon.",
+    "en": "We'll manage it somehow."
+  },
+  "regional": null,
+  "trick": "IRgend-VEE: wie, said vee, means how, and irgend means some, so irgendwie is literally some-how.",
+  "image": "/deck-de/img/irgendwie-somehow.webp",
+  "audio": {
+    "word": "/deck-de/audio/irgendwie-somehow.word.mp3",
+    "sentence": "/deck-de/audio/irgendwie-somehow.sentence.mp3"
+  }
+}

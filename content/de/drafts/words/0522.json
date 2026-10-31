@@ -1,0 +1,17 @@
+{
+  "rank": 522,
+  "word": "vorstellen",
+  "cards": [
+    "vorstellen-introduce",
+    "vorstellen-imagine"
+  ],
+  "skip": null,
+  "sameAs": {
+    "vorstellen-introduce": "presentar-introduce",
+    "vorstellen-imagine": "imaginar-imagine"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:55:47.759Z"
+}

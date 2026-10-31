@@ -1,0 +1,17 @@
+{
+  "id": "herz-heart",
+  "rank": 369,
+  "word": "Herz",
+  "draft": "797e09f24de0d8fc",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "heart",
+    "example": "You have a good heart."
+  },
+  "note": "Herz has an irregular singular declension (des Herzens, dem Herzen), which the card does not need to show but may be worth a later mention.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:52:21.708Z"
+}

@@ -1,0 +1,15 @@
+{
+  "rank": 273,
+  "word": "Sohn",
+  "cards": [
+    "sohn-son"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sohn-son": "hijo-son"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:11.454Z"
+}

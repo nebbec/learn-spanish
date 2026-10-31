@@ -1,0 +1,25 @@
+{
+  "id": "auto-car",
+  "rank": 312,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Auto",
+  "en": "car",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Autos"
+  },
+  "example": {
+    "target": "Dein Auto steht vor dem Haus.",
+    "en": "Your car is parked in front of the house."
+  },
+  "regional": null,
+  "trick": "AUTO sounds like OW-toe, short for automobile: an automobile is a car.",
+  "image": "/deck-de/img/auto-car.webp",
+  "audio": {
+    "word": "/deck-de/audio/auto-car.word.mp3",
+    "sentence": "/deck-de/audio/auto-car.sentence.mp3"
+  }
+}

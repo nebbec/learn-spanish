@@ -1,0 +1,25 @@
+{
+  "id": "regel-rule",
+  "rank": 755,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Regel",
+  "en": "rule",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Regeln"
+  },
+  "example": {
+    "target": "Du kennst doch die Regeln.",
+    "en": "You know the rules."
+  },
+  "regional": null,
+  "trick": "REGEL sounds like RAY-gul, close to regal: a regal king makes the rules everyone must follow.",
+  "image": "/deck-de/img/regel-rule.webp",
+  "audio": {
+    "word": "/deck-de/audio/regel-rule.word.mp3",
+    "sentence": "/deck-de/audio/regel-rule.sentence.mp3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "brief-letter",
+  "rank": 673,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Brief",
+  "en": "letter",
+  "hint": "that you mail",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Briefe"
+  },
+  "example": {
+    "target": "Ich habe dir einen Brief geschrieben.",
+    "en": "I wrote you a letter."
+  },
+  "regional": null,
+  "trick": "BRIEF sounds like \"breef\", just like English brief: a letter is often brief.",
+  "image": "/deck-de/img/brief-letter.webp",
+  "audio": {
+    "word": "/deck-de/audio/brief-letter.word.mp3",
+    "sentence": "/deck-de/audio/brief-letter.sentence.mp3"
+  }
+}

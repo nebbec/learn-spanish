@@ -1,0 +1,37 @@
+# schauen-look · rank 258 · schauen
+#
+# Why it was flagged:
+#   - One right answer: The bare prompt "to look" also fits aussehen ("you look tired") and sehen ("sieh mal"), and the hint only rules out gucken. Suggested fix: hint: direct your eyes, as in look out the window; not gucken, sehen or aussehen
+# Reviewer's note (not a reason to flag): In Germany schauen is used more in the south and gucken more in the north, but both are understood everywhere, and Austria and Switzerland also say schauen, so leaving regional null is right.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 schauen-look
+kind:               content
+pos:                verb
+target:             schauen
+en:                 to look
+hint:               direct your eyes, as in look out the window; not gucken, sehen or aussehen
+ich:                schaue
+du:                 schaust
+er:                 schaut
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geschaut
+example.target:     Ich schaue aus dem Fenster.
+example.en:         I'm looking out the window.
+regional.where:
+regional.text:
+trick:              SCHAUEN sounds like "SHOW-en": when someone shows you something, you look.
+
+# The draft this file was made from. Do not change it.
+draft: a655745231dc0335

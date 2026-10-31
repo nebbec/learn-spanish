@@ -1,0 +1,33 @@
+{
+  "id": "erwarten-expect",
+  "rank": 398,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erwarten",
+  "en": "to expect",
+  "hint": null,
+  "grammar": {
+    "present": {
+      "ich": "erwarte",
+      "du": "erwartest",
+      "er": "erwartet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erwartet"
+    }
+  },
+  "example": {
+    "target": "Ich erwarte dich um acht.",
+    "en": "I'm expecting you at eight."
+  },
+  "regional": null,
+  "trick": "erWARTEN hides warten, said VAR-ten, meaning to wait: when you expect something, you wait for it.",
+  "image": "/deck-de/img/erwarten-expect.webp",
+  "audio": {
+    "word": "/deck-de/audio/erwarten-expect.word.mp3",
+    "sentence": "/deck-de/audio/erwarten-expect.sentence.mp3"
+  }
+}

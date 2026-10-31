@@ -1,0 +1,15 @@
+{
+  "rank": 484,
+  "word": "Papa",
+  "cards": [
+    "papa-dad"
+  ],
+  "skip": null,
+  "sameAs": {
+    "papa-dad": "papa-dad"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:53:23.551Z"
+}

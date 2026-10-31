@@ -1,0 +1,25 @@
+{
+  "id": "problem-problem",
+  "rank": 221,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Problem",
+  "en": "problem",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Probleme"
+  },
+  "example": {
+    "target": "Kein Problem, ich helfe dir gern.",
+    "en": "No problem, I'm happy to help you."
+  },
+  "regional": null,
+  "trick": "PROBLEM sounds just like English problem, only stressed at the end: pro-BLAYM.",
+  "image": "/deck-de/img/problem-problem.webp",
+  "audio": {
+    "word": "/deck-de/audio/problem-problem.word.mp3",
+    "sentence": "/deck-de/audio/problem-problem.sentence.mp3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "verdammt-damned",
+  "rank": 205,
+  "word": "verdammt",
+  "draft": "b46926a0ae208eaf",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "damned, damn (a mild swear word used to add force; as an exclamation, Damn!)",
+    "example": "Where is the damned key?"
+  },
+  "note": "Verflucht is a less common near-synonym, but verdammt is clearly the standard answer for damned, so no hint is needed.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:03.808Z"
+}

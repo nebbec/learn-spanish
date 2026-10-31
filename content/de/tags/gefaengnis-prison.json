@@ -1,0 +1,14 @@
+{
+  "id": "gefaengnis-prison",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "ae2ba15b49083245",
+  "group": "#626 Gefängnis",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:29.779Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nie-never",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "860e5f224cdcf7b9",
+  "group": "#110 nie",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:52.489Z"
+}

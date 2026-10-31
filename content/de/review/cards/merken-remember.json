@@ -1,0 +1,17 @@
+{
+  "id": "merken-remember",
+  "rank": 663,
+  "word": "merken",
+  "draft": "a3c003ef5a254ca2",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "(sich) merken: to remember, to keep in mind, to make a mental note of",
+    "example": "I'll remember that. / I'll make a note of that."
+  },
+  "note": "In this meaning the verb is reflexive with a dative pronoun (sich etwas merken), so the editor could make the target \"sich merken\". The hint already tells the learner to add sich, so the bare target still works. Spanish recordar means recalling something, while sich merken means fixing something in your memory for later, so leaving sameAs null makes sense.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:17:11.675Z"
+}

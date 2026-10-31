@@ -1,0 +1,15 @@
+{
+  "rank": 748,
+  "word": "Wette",
+  "cards": [
+    "wette-bet"
+  ],
+  "skip": null,
+  "sameAs": {
+    "wette-bet": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:10:35.517Z"
+}

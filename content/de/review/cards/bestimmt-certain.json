@@ -1,0 +1,17 @@
+{
+  "id": "bestimmt-certain",
+  "rank": 532,
+  "word": "bestimmt",
+  "draft": "c0dee505ca0994bd",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "certain, particular, specific (adjective, before a noun); also determined, fixed",
+    "example": "Are you looking for a particular book?"
+  },
+  "note": "The hint word \"particular\" steers learners away from gewiss (as in ein gewisser Herr Müller), the one real competitor, and keeps this card separate from the adverb card for \"definitely\".",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:05:44.100Z"
+}

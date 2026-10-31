@@ -1,0 +1,17 @@
+{
+  "id": "weise-wise",
+  "rank": 777,
+  "word": "weise",
+  "draft": "af25dc7261c4ef65",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "wise",
+    "example": "That was a wise decision."
+  },
+  "note": "Much of this word's subtitle frequency probably comes from the noun die Weise (way, manner, as in auf diese Weise), so the editor may want to consider giving that sense a card too.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:26:11.277Z"
+}

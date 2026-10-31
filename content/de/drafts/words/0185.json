@@ -1,0 +1,15 @@
+{
+  "rank": 185,
+  "word": "sterben",
+  "cards": [
+    "sterben-die"
+  ],
+  "skip": null,
+  "sameAs": {
+    "sterben-die": "morir-die"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:34:05.122Z"
+}

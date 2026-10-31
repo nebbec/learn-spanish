@@ -1,0 +1,17 @@
+{
+  "id": "denn-question-particle",
+  "rank": 99,
+  "word": "denn",
+  "draft": "7ea0939dea01ab96",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "then (a particle in questions that adds interest, surprise or impatience; it has no exact English equivalent)",
+    "example": "What's wrong, then? / So what's going on?"
+  },
+  "note": "The example sentence is the same as the prompt, so the learner sees no new context, but the sentence is natural and gets the meaning across.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:29:20.123Z"
+}

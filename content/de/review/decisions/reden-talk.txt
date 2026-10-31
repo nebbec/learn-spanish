@@ -1,0 +1,37 @@
+# reden-talk · rank 119 · reden
+#
+# Why it was flagged:
+#   - One right answer: The hint glosses chat and discuss point to other words, quatschen or plaudern for chat and diskutieren or besprechen for discuss, so a learner could reasonably recall one of those instead of reden. Suggested fix: hint: talk with someone or about something (not sprechen)
+# Reviewer's note (not a reason to flag): Wovon redest du? is an equally common way to say the example, but Worüber redest du? is fine.
+#
+# To decide, change "pending" on the decision line to:
+#   approve   the card goes into the deck as written below, with any corrections you make
+#   reject    the card stays out of the deck
+# To correct the card, change the text after the colon on any card line.
+# Leave hint, plural or regional.text empty for none; irregular and separable are yes or no.
+# Then run: npm run deck -- --lang de
+# Lines starting with # are notes and are ignored.
+
+decision: approve
+
+id:                 reden-talk
+kind:               content
+pos:                verb
+target:             reden
+en:                 to talk
+hint:               talk with someone or about something (not sprechen)
+ich:                rede
+du:                 redest
+er:                 redet
+irregular:          no
+separable:          no
+perfekt.aux:        haben
+perfekt.participle: geredet
+example.target:     Worüber redest du?
+example.en:         What are you talking about?
+regional.where:
+regional.text:
+trick:              REDEN sounds like RAY-den: Ray and Den just won't stop talking.
+
+# The draft this file was made from. Do not change it.
+draft: 871ab0e941babaaf

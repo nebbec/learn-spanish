@@ -1,0 +1,17 @@
+{
+  "rank": 268,
+  "word": "halt",
+  "cards": [
+    "halt-just",
+    "halt-stop"
+  ],
+  "skip": null,
+  "sameAs": {
+    "halt-just": null,
+    "halt-stop": "alto-stop"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:40:00.744Z"
+}

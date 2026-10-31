@@ -1,0 +1,25 @@
+{
+  "id": "gefuehl-feeling",
+  "rank": 441,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Gefühl",
+  "en": "feeling",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Gefühle"
+  },
+  "example": {
+    "target": "Ich habe ein gutes Gefühl dabei.",
+    "en": "I have a good feeling about it."
+  },
+  "regional": null,
+  "trick": "geFÜHL sounds a lot like \"feel\": a feeling is what you feel.",
+  "image": "/deck-de/img/gefuehl-feeling.webp",
+  "audio": {
+    "word": "/deck-de/audio/gefuehl-feeling.word.mp3",
+    "sentence": "/deck-de/audio/gefuehl-feeling.sentence.mp3"
+  }
+}

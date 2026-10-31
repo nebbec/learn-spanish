@@ -1,0 +1,28 @@
+{
+  "id": "benutzen-use",
+  "rank": 440,
+  "word": "benutzen",
+  "draft": "eda7599bbe18edec",
+  "flagged": true,
+  "findings": [
+    {
+      "reason": "usage",
+      "problem": "In Austria and Switzerland (and southern Germany) the everyday form is benützen, a common variant a learner will hear, so regional should not be null.",
+      "fix": "regional: { where: \"Austria, Switzerland\", text: \"benützen is the usual form (also common in southern Germany)\" }"
+    },
+    {
+      "reason": "trick",
+      "problem": "The u in nutz is short, as in foot, so 'said like noots' (the long oo of boots) gives the wrong pronunciation.",
+      "fix": "trick: BeNUTZen hides NUTZ, which sounds a lot like nuts: a squirrel uses a stone to crack its nuts."
+    }
+  ],
+  "back": {
+    "target": "to use",
+    "example": "Are you still using that?"
+  },
+  "note": "Nutzen and gebrauchen can also mean to use, but for this plain everyday prompt with the hint, benutzen is the natural answer.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:14.816Z"
+}

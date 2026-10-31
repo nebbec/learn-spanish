@@ -1,0 +1,17 @@
+{
+  "id": "seit-for",
+  "rank": 218,
+  "word": "seit",
+  "draft": "8438406a829c5c6f",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "since, for (a period of time that started in the past and is still going on; takes the dative)",
+    "example": "I've been living here for two years."
+  },
+  "note": "This card teaches seit for how long something has lasted, and the other card teaches it from a starting point (since Monday), so they don't overlap; the hint is needed because \"for two years\" could otherwise suggest \"für\" or no preposition at all.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:39:16.151Z"
+}

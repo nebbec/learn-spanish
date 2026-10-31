@@ -1,0 +1,33 @@
+{
+  "id": "melden-report",
+  "rank": 578,
+  "kind": "content",
+  "pos": "verb",
+  "target": "melden",
+  "en": "to report",
+  "hint": "to the police or a boss",
+  "grammar": {
+    "present": {
+      "ich": "melde",
+      "du": "meldest",
+      "er": "meldet"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gemeldet"
+    }
+  },
+  "example": {
+    "target": "Wir haben den Unfall der Polizei gemeldet.",
+    "en": "We reported the accident to the police."
+  },
+  "regional": null,
+  "trick": "MELDEN sounds like \"mailed in\": when you report something, you've mailed it in to the people in charge.",
+  "image": "/deck-de/img/melden-report.webp",
+  "audio": {
+    "word": "/deck-de/audio/melden-report.word.mp3",
+    "sentence": "/deck-de/audio/melden-report.sentence.mp3"
+  }
+}

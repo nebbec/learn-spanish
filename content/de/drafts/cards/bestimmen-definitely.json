@@ -1,0 +1,21 @@
+{
+  "id": "bestimmen-definitely",
+  "rank": 620,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "bestimmt",
+  "en": "definitely",
+  "hint": "surely, almost certainly; not sicher",
+  "grammar": null,
+  "example": {
+    "target": "Das klappt bestimmt.",
+    "en": "That will definitely work."
+  },
+  "regional": null,
+  "trick": "BESTIMMT hides Stimme, German for voice: say it in a firm voice and it means definitely.",
+  "image": "/deck-de/img/bestimmen-definitely.webp",
+  "audio": {
+    "word": "/deck-de/audio/bestimmen-definitely.word.mp3",
+    "sentence": "/deck-de/audio/bestimmen-definitely.sentence.mp3"
+  }
+}

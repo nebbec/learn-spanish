@@ -1,0 +1,17 @@
+{
+  "id": "wahl-election",
+  "rank": 595,
+  "word": "Wahl",
+  "draft": "0a9c22c6e4a4e6f6",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "election; also choice",
+    "example": "Who wins the election? (in the sense of who is going to win it)"
+  },
+  "note": "The trick's link between vahl and ballot is weak, but it says nothing false.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:10:58.326Z"
+}

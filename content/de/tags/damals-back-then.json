@@ -1,0 +1,14 @@
+{
+  "id": "damals-back-then",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": "Use damals for one particular time back then; früher for how things used to be in general.",
+  "draft": "815ba5f8f1ae4056",
+  "group": "#612 damals",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:40:01.289Z"
+}

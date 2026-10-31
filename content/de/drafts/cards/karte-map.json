@@ -1,0 +1,25 @@
+{
+  "id": "karte-map",
+  "rank": 665,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Karte",
+  "en": "map",
+  "hint": null,
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Karten"
+  },
+  "example": {
+    "target": "Zeig mir das mal auf der Karte.",
+    "en": "Show me that on the map."
+  },
+  "regional": null,
+  "trick": "KARTE sounds like chart, and a sailor's chart is a map of the sea.",
+  "image": "/deck-de/img/karte-map.webp",
+  "audio": {
+    "word": "/deck-de/audio/karte-map.word.mp3",
+    "sentence": "/deck-de/audio/karte-map.sentence.mp3"
+  }
+}

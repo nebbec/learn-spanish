@@ -1,0 +1,21 @@
+{
+  "id": "halt-stop",
+  "rank": 268,
+  "kind": "content",
+  "pos": "other",
+  "target": "Halt!",
+  "en": "Stop!",
+  "hint": "a command shouted by police or guards, not Stopp",
+  "grammar": null,
+  "example": {
+    "target": "Halt! Polizei! Keine Bewegung!",
+    "en": "Stop! Police! Don't move!"
+  },
+  "regional": null,
+  "trick": "HALT is the English halt, as a guard shouts: Halt, who goes there?",
+  "image": "/deck-de/img/halt-stop.webp",
+  "audio": {
+    "word": "/deck-de/audio/halt-stop.word.mp3",
+    "sentence": "/deck-de/audio/halt-stop.sentence.mp3"
+  }
+}

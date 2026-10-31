@@ -1,0 +1,17 @@
+{
+  "id": "fest-firm",
+  "rank": 442,
+  "word": "fest",
+  "draft": "9843e508535c5e55",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "firm, tight, solid, fixed",
+    "example": "The knot is really tight."
+  },
+  "note": "The hint \"not loose\" usefully rules out eng (tight as in narrow) and straff (taut); duro-hard means hard as opposed to soft, not firmly fixed, so a null sameAs is right.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:58:21.369Z"
+}

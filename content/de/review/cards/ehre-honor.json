@@ -1,0 +1,17 @@
+{
+  "id": "ehre-honor",
+  "rank": 614,
+  "word": "Ehre",
+  "draft": "ea47c96eb5ab1a42",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "honor",
+    "example": "It is an honor for me."
+  },
+  "note": "Dictionaries list a plural \"die Ehren\" (as in \"mit militärischen Ehren\"), but it is rare enough that leaving the plural as null is fine.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:12:41.552Z"
+}

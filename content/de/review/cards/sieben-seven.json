@@ -1,0 +1,17 @@
+{
+  "id": "sieben-seven",
+  "rank": 717,
+  "word": "sieben",
+  "draft": "409078bcbeb689f7",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "seven",
+    "example": "The film starts at seven."
+  },
+  "note": "The example also shows the separable verb anfangen split (fängt ... an) and um for clock times, which is a useful bonus for learners.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T20:21:27.434Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "land-country",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "0bc960670b5c09bb",
+  "group": "#372 Land",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:31:32.699Z"
+}

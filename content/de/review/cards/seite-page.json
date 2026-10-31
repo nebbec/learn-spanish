@@ -1,0 +1,17 @@
+{
+  "id": "seite-page",
+  "rank": 391,
+  "word": "Seite",
+  "draft": "f34c417ddadd3c05",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "page (of a book, document or website); also side",
+    "example": "That's on page ten."
+  },
+  "note": "Leaving out the article in \"auf Seite zehn\" is standard before a page number.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:54:45.142Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "wohl-at-ease",
+  "rank": 170,
+  "kind": "content",
+  "pos": "adverb",
+  "target": "wohl",
+  "en": "at ease, comfortable",
+  "hint": "as in to feel at ease, sich ... fühlen",
+  "grammar": null,
+  "example": {
+    "target": "Ich fühle mich hier total wohl.",
+    "en": "I feel really comfortable here."
+  },
+  "regional": null,
+  "trick": "WOHL is a cousin of English \"well\": when you feel wohl, you feel well and at ease.",
+  "image": "/deck-de/img/wohl-at-ease.webp",
+  "audio": {
+    "word": "/deck-de/audio/wohl-at-ease.word.mp3",
+    "sentence": "/deck-de/audio/wohl-at-ease.sentence.mp3"
+  }
+}

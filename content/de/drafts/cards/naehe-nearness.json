@@ -1,0 +1,25 @@
+{
+  "id": "naehe-nearness",
+  "rank": 739,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Nähe",
+  "en": "nearness, closeness",
+  "hint": "the noun, as in in der ___ (nearby)",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": null
+  },
+  "example": {
+    "target": "Wohnst du hier in der Nähe?",
+    "en": "Do you live near here?"
+  },
+  "regional": null,
+  "trick": "NÄHE sounds like NAY-uh, close to near: die Nähe is nearness, and in der Nähe means nearby.",
+  "image": "/deck-de/img/naehe-nearness.webp",
+  "audio": {
+    "word": "/deck-de/audio/naehe-nearness.word.mp3",
+    "sentence": "/deck-de/audio/naehe-nearness.sentence.mp3"
+  }
+}

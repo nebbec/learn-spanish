@@ -1,0 +1,25 @@
+{
+  "id": "opfer-sacrifice",
+  "rank": 547,
+  "kind": "content",
+  "pos": "noun",
+  "target": "das Opfer",
+  "en": "sacrifice",
+  "hint": null,
+  "grammar": {
+    "gender": "n",
+    "article": "das",
+    "plural": "die Opfer"
+  },
+  "example": {
+    "target": "Für meine Kinder bringe ich jedes Opfer.",
+    "en": "I'd make any sacrifice for my kids."
+  },
+  "regional": null,
+  "trick": "OPFER sounds like \"offer\": a sacrifice is something you offer up to the gods.",
+  "image": "/deck-de/img/opfer-sacrifice.webp",
+  "audio": {
+    "word": "/deck-de/audio/opfer-sacrifice.word.mp3",
+    "sentence": "/deck-de/audio/opfer-sacrifice.sentence.mp3"
+  }
+}

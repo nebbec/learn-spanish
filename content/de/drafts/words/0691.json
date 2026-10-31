@@ -1,0 +1,15 @@
+{
+  "rank": 691,
+  "word": "rollen",
+  "cards": [
+    "rollen-roll"
+  ],
+  "skip": null,
+  "sameAs": {
+    "rollen-roll": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T18:06:57.827Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ins-into-the",
+  "rank": 214,
+  "word": "ins",
+  "draft": "68f53d10cc5243c0",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "into the, to the (contraction of in + das, used with a neuter noun for movement)",
+    "example": "Come on, we're going to the cinema this evening."
+  },
+  "note": "The hint is needed: it rules out the old-fashioned \"zu Bett\" and shows that the answer includes the article, which the English \"to bed\" does not have.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:38:54.893Z"
+}

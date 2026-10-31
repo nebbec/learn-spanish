@@ -1,0 +1,21 @@
+{
+  "id": "sechs-six",
+  "rank": 534,
+  "kind": "content",
+  "pos": "other",
+  "target": "sechs",
+  "en": "six",
+  "hint": null,
+  "grammar": null,
+  "example": {
+    "target": "Ich stehe jeden Tag um sechs auf.",
+    "en": "I get up at six every day."
+  },
+  "regional": null,
+  "trick": "SECHS sounds like \"zeks\", which is just English \"six\" said with a buzzing z at the start.",
+  "image": "/deck-de/img/sechs-six.webp",
+  "audio": {
+    "word": "/deck-de/audio/sechs-six.word.mp3",
+    "sentence": "/deck-de/audio/sechs-six.sentence.mp3"
+  }
+}

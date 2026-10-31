@@ -1,0 +1,25 @@
+{
+  "id": "menge-amount",
+  "rank": 518,
+  "kind": "content",
+  "pos": "noun",
+  "target": "die Menge",
+  "en": "amount",
+  "hint": "quantity; eine ... = a lot",
+  "grammar": {
+    "gender": "f",
+    "article": "die",
+    "plural": "die Mengen"
+  },
+  "example": {
+    "target": "Wir haben heute eine Menge Arbeit.",
+    "en": "We have a lot of work today."
+  },
+  "regional": null,
+  "trick": "MENGE starts like many: many things make a big amount.",
+  "image": "/deck-de/img/menge-amount.webp",
+  "audio": {
+    "word": "/deck-de/audio/menge-amount.word.mp3",
+    "sentence": "/deck-de/audio/menge-amount.sentence.mp3"
+  }
+}

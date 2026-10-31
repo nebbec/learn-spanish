@@ -1,0 +1,19 @@
+{
+  "rank": 60,
+  "word": "als",
+  "cards": [
+    "als-than",
+    "als-as-role",
+    "als-when-past"
+  ],
+  "skip": null,
+  "sameAs": {
+    "als-than": null,
+    "als-as-role": null,
+    "als-when-past": null
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:26:24.845Z"
+}

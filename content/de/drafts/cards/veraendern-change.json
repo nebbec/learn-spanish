@@ -1,0 +1,33 @@
+{
+  "id": "veraendern-change",
+  "rank": 697,
+  "kind": "content",
+  "pos": "verb",
+  "target": "verändern",
+  "en": "to change",
+  "hint": "transform, make really different",
+  "grammar": {
+    "present": {
+      "ich": "verändere",
+      "du": "veränderst",
+      "er": "verändert"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "verändert"
+    }
+  },
+  "example": {
+    "target": "Du hast dich echt verändert.",
+    "en": "You've really changed."
+  },
+  "regional": null,
+  "trick": "VERÄNDERN, said fair-EN-dern, sounds a bit like another: change something and it turns into another thing.",
+  "image": "/deck-de/img/veraendern-change.webp",
+  "audio": {
+    "word": "/deck-de/audio/veraendern-change.word.mp3",
+    "sentence": "/deck-de/audio/veraendern-change.sentence.mp3"
+  }
+}

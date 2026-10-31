@@ -1,0 +1,17 @@
+{
+  "id": "kerl-guy",
+  "rank": 338,
+  "word": "Kerl",
+  "draft": "550081e70ea6edb5",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "guy, fellow, bloke (informal word for a man)",
+    "example": "That guy over there is staring at you."
+  },
+  "note": "The hint is needed, because it rules out der Typ, the other common word for \"guy\"; the colloquial plural \"Kerls\" also exists, but \"die Kerle\" is the standard form.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:49:54.695Z"
+}

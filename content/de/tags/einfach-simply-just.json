@@ -1,0 +1,14 @@
+{
+  "id": "einfach-simply-just",
+  "unit": null,
+  "want": null,
+  "requires": [],
+  "tip": null,
+  "why": null,
+  "draft": "c1c52b3b18344773",
+  "group": "#113 einfach",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "taggedAt": "2026-10-25T19:22:54.349Z"
+}

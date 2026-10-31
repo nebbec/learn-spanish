@@ -1,0 +1,33 @@
+{
+  "id": "hauen-hit",
+  "rank": 645,
+  "kind": "content",
+  "pos": "verb",
+  "target": "hauen",
+  "en": "to hit",
+  "hint": "informal, not schlagen",
+  "grammar": {
+    "present": {
+      "ich": "haue",
+      "du": "haust",
+      "er": "haut"
+    },
+    "irregular": true,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "gehauen"
+    }
+  },
+  "example": {
+    "target": "Mein kleiner Bruder haut mich immer.",
+    "en": "My little brother always hits me."
+  },
+  "regional": null,
+  "trick": "HAUEN starts with a sound like how, which rhymes with pow and ow: what you hear when someone hits you.",
+  "image": "/deck-de/img/hauen-hit.webp",
+  "audio": {
+    "word": "/deck-de/audio/hauen-hit.word.mp3",
+    "sentence": "/deck-de/audio/hauen-hit.sentence.mp3"
+  }
+}

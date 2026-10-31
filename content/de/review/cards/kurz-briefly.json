@@ -1,0 +1,17 @@
+{
+  "id": "kurz-briefly",
+  "rank": 305,
+  "word": "kurz",
+  "draft": "a5ec4cf8a7adbc21",
+  "flagged": false,
+  "findings": [],
+  "back": {
+    "target": "briefly, for a moment (adverb)",
+    "example": "Wait a moment, I'll be right there."
+  },
+  "note": "The translation leaves out \"gleich\", so \"Wait a sec, I'll be right there.\" would be closer, but the current one is not wrong.",
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "reviewedAt": "2026-10-25T19:47:06.899Z"
+}

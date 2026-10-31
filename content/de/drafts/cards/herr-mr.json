@@ -1,0 +1,25 @@
+{
+  "id": "herr-mr",
+  "rank": 226,
+  "kind": "content",
+  "pos": "noun",
+  "target": "der Herr",
+  "en": "Mr., sir",
+  "hint": "polite title before a man's surname",
+  "grammar": {
+    "gender": "m",
+    "article": "der",
+    "plural": "die Herren"
+  },
+  "example": {
+    "target": "Guten Tag, Herr Müller!",
+    "en": "Hello, Mr. Müller!"
+  },
+  "regional": null,
+  "trick": "HERR sounds like hair: Mr. Smith always combs his hair before work.",
+  "image": "/deck-de/img/herr-mr.webp",
+  "audio": {
+    "word": "/deck-de/audio/herr-mr.word.mp3",
+    "sentence": "/deck-de/audio/herr-mr.sentence.mp3"
+  }
+}

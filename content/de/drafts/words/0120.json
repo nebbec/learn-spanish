@@ -1,0 +1,15 @@
+{
+  "rank": 120,
+  "word": "Tag",
+  "cards": [
+    "tag-day"
+  ],
+  "skip": null,
+  "sameAs": {
+    "tag-day": "dia-day"
+  },
+  "via": "cli",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "draftedAt": "2026-10-25T17:29:34.439Z"
+}

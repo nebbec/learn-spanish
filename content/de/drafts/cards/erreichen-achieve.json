@@ -1,0 +1,33 @@
+{
+  "id": "erreichen-achieve",
+  "rank": 606,
+  "kind": "content",
+  "pos": "verb",
+  "target": "erreichen",
+  "en": "to achieve",
+  "hint": "a goal, not schaffen",
+  "grammar": {
+    "present": {
+      "ich": "erreiche",
+      "du": "erreichst",
+      "er": "erreicht"
+    },
+    "irregular": false,
+    "separable": false,
+    "perfekt": {
+      "aux": "haben",
+      "participle": "erreicht"
+    }
+  },
+  "example": {
+    "target": "Du hast dein Ziel erreicht!",
+    "en": "You've achieved your goal!"
+  },
+  "regional": null,
+  "trick": "ErREICHen holds reach: to achieve a goal is to finally reach it.",
+  "image": "/deck-de/img/erreichen-achieve.webp",
+  "audio": {
+    "word": "/deck-de/audio/erreichen-achieve.word.mp3",
+    "sentence": "/deck-de/audio/erreichen-achieve.sentence.mp3"
+  }
+}
